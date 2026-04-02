@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques Terminale - Serie 1012",
+    "level": "Terminale",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Limites en l'infini",
+    "question_count": 8,
+    "level": "Terminale",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "C",
+        "correction": "La fonction exponentielle tend vers +∞ quand x → +∞."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'exponentielle tend vers 0 (par valeurs positives) quand x → −∞."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "1/2",
+        "correction": "On divise numérateur et dénominateur par x² : (1 + 3/x − 2/x²)/(2 − 1/x + 1/x²) → 1/2."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "C",
+        "correction": "Le logarithme népérien tend vers +∞ quand x → +∞ (croissance lente mais divergente)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Quand x → 0⁺, ln(x) → −∞. La droite x=0 est asymptote verticale de ln."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "f(x) = x + 1/x. Quand x→±∞, f(x) ~ x : la droite y = x est asymptote oblique.",
+        "correction": "f(x) = x + 1/x ; lim[f(x) − x] = 0. La droite y = x est une asymptote oblique en ±∞."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "C",
+        "correction": "Croissances comparées : l'exponentielle l'emporte sur tout polynôme. x·e^(−x) → 0."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le logarithme croît moins vite que x. C'est une croissance comparée fondamentale."
+      }
+    ]
+  }
+}

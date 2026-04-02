@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 558",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 3ème : La Révolution russe et l'URSS stalinienne",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "La Révolution russe et l'URSS stalinienne",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "En quelle année éclate la révolution bolchévique en Russie ?",
+        "choices": [
+          "1905",
+          "1914",
+          "1917",
+          "1921"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Lénine dirige l'URSS jusqu'à sa mort en 1924, puis Staline lui succède."
+      },
+      {
+        "type": "open",
+        "question": "L'Union des Républiques Socialistes Soviétiques (URSS) est officiellement créée en _____."
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que la collectivisation forcée menée par Staline dans les années 1930 ?",
+        "choices": [
+          "La nationalisation des banques",
+          "Le regroupement de force des paysans dans des fermes collectives (kolkhozes)",
+          "La distribution de terres aux paysans",
+          "La privatisation de l'industrie"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les 'Grandes Purges' staliniennes des années 1930 visaient les opposants réels ou supposés au régime."
+      },
+      {
+        "type": "open",
+        "question": "Le réseau de camps de travail forcé soviétique est connu sous le nom de _____."
+      },
+      {
+        "type": "qcm",
+        "question": "Le régime soviétique sous Staline est qualifié de :",
+        "choices": [
+          "Démocratie libérale",
+          "Monarchie constitutionnelle",
+          "Totalitarisme",
+          "Régime parlementaire"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les plans quinquennaux soviétiques visent à industrialiser rapidement l'URSS."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

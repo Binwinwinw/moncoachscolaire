@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 567",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 3ème : La fin de la guerre froide et le monde depuis 1989",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "La fin de la guerre froide et le monde depuis 1989",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "La chute du mur de Berlin a lieu le :",
+        "choices": [
+          "9 novembre 1989",
+          "25 décembre 1991",
+          "13 août 1961",
+          "1er janvier 1990"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'URSS se dissout officiellement le 25 décembre 1991."
+      },
+      {
+        "type": "open",
+        "question": "Les réformes de Gorbatchev (glasnost et perestroïka) visent à _____ et moderniser le système soviétique."
+      },
+      {
+        "type": "qcm",
+        "question": "Les attentats du 11 septembre 2001 aux États-Unis conduisent à :",
+        "choices": [
+          "La fin de la mondialisation",
+          "Une guerre contre le terrorisme et l'invasion de l'Afghanistan",
+          "Une réconciliation avec le monde arabe",
+          "La création de l'ONU"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La Yougoslavie se disloque pacifiquement dans les années 1990."
+      },
+      {
+        "type": "open",
+        "question": "Le génocide du Rwanda en 1994 fait entre 500 000 et 800 000 morts en quelques semaines : il oppose la majorité _____ aux Tutsis."
+      },
+      {
+        "type": "qcm",
+        "question": "La construction européenne aboutit à la création de la monnaie unique euro en :",
+        "choices": [
+          "1989",
+          "1992",
+          "2002",
+          "1999"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'ONU peut intervenir militairement dans les conflits grâce à ses 'casques bleus'."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

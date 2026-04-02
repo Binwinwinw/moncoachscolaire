@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 797",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 3eme : Les energies renouvelables et leur integration",
+    "status": "published",
+    "created_at": "2026-03-14 04:06:19",
+    "updated_at": "2026-03-14 04:06:19"
+  },
+  "quiz": {
+    "title": "Les energies renouvelables et leur integration",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Comment fonctionne un panneau solaire photovoltaique ?",
+        "choices": [
+          "Il echauffe un fluide caloporteur",
+          "Il convertit la lumiere en electricite grace a l'effet photovoltaique dans des cellules en silicium",
+          "Il stocke la chaleur solaire dans un reservoir",
+          "Il concentre la lumiere pour faire tourner une turbine"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une eolienne a axe horizontal produit plus d'electricite qu'une eolienne a axe vertical."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la technologie qui stocke l'electricite d'origine renouvelable sous forme d'hydrogene par electrolyse de l'eau ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'un reseau electrique intelligent (smart grid) ?",
+        "choices": [
+          "Un reseau electrique souterrain",
+          "Un reseau qui utilise les technologies numeriques pour equilibrer production et consommation en temps reel",
+          "Un reseau electrique reserve aux entreprises",
+          "Un reseau sans transformateurs"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'autoproduction d'electricite solaire avec revente du surplus sur le reseau est permise en France."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on le systeme qui pompe de l'eau en altitude en periode de surplus d'electricite et la turbine pour produire de l'electricite lors des pics de demande ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est l'objectif de la France en matiere d'energies renouvelables selon la PPE (Programmation Pluriannuelle de l'Energie) ?",
+        "choices": [
+          "40% d'EnR dans la consommation finale d'energie d'ici 2030",
+          "100% d'EnR des 2025",
+          "0% de nucleaire d'ici 2035",
+          "Supprimer toutes les centrales au gaz"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les metaux rares (lithium, cobalt, terres rares) necessaires aux technologies vertes peuvent creer de nouvelles dependances geopolitiques."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 736",
+    "level": "3ème",
+    "subject": "Physique-Chimie"
+  },
+  "quiz": {
+    "title": "Électricité : signaux périodiques et oscilloscope",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "La durée d'un cycle complet",
+        "correct": 1,
+        "correction": "La période T est la durée d'un cycle complet d'un signal périodique, exprimée en secondes (s)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La fréquence f (en hertz) est le nombre de cycles par seconde. Elle est liée à la période par la relation f = 1/T."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "50 Hz",
+        "correction": "Le courant alternatif du réseau électrique français a une fréquence de 50 Hz, soit 50 cycles par seconde."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "À visualiser l'évolution d'une tension en fonction du temps",
+        "correct": 1,
+        "correction": "L'oscilloscope affiche la tension en fonction du temps et permet de mesurer période, fréquence, amplitude et forme d'un signal."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "La valeur efficace Ueff = Umax / √2 ≈ 0,707 × Umax. Pour le réseau 230 V (valeur efficace), la tension maximale est environ 325 V."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "signal sinusoïdal (ou courant alternatif sinusoïdal)",
+        "correction": "Un signal sinusoïdal varie selon une fonction sinus ou cosinus. C'est la forme la plus courante du courant alternatif."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "T = 1/f",
+        "correct": 1,
+        "correction": "La période et la fréquence sont inversement proportionnelles : T = 1/f. Par exemple, un signal à 50 Hz a une période de 20 ms."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La base de temps de l'oscilloscope définit combien de temps correspond à chaque division horizontale, permettant de mesurer la période d'un signal."
+      }
+    ]
+  }
+}

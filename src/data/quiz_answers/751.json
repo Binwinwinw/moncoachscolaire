@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 3eme - Série 751",
+    "level": "3eme",
+    "subject": "EMC"
+  },
+  "quiz": {
+    "title": "La citoyennete francaise : droits et devoirs",
+    "question_count": 8,
+    "level": "3eme",
+    "subject": "EMC",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "18 ans",
+        "correct": 1,
+        "correction": "En France, le droit de vote est accordé à 18 ans depuis 1974 (abaissement de 21 à 18 ans sous Valéry Giscard d'Estaing)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Le SNU (créé en 2019) est encore en phase de généralisation et non pleinement obligatoire ; son extension progressive est en cours de discussion."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "participer a la defense nationale",
+        "correction": "L'article 34 de la Constitution et l'ordonnance de 1959 posent que la défense nationale est un devoir pour tout citoyen français."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Etre ne sur le territoire francais et y avoir grandi",
+        "correct": 1,
+        "correction": "Le droit du sol (jus soli) accorde la nationalité française à une personne née en France d'un parent étranger, sous conditions de résidence habituelle."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "La France autorise la double nationalité ; acquérir une autre nationalité ne fait pas automatiquement perdre la nationalité française."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "certificat de nationalite francaise",
+        "correction": "Le certificat de nationalité française est délivré par le greffe du tribunal judiciaire ; il atteste officiellement de la nationalité."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Droit de vote aux elections presidentielles et legislatives",
+        "correct": 1,
+        "correction": "Le droit de vote aux élections nationales (présidentielle, législatives, sénatoriales) est réservé aux citoyens français. Les résidents européens peuvent voter aux municipales et européennes."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'article 13 de la DDHC pose que 'pour l'entretien de la force publique et pour les dépenses d'administration, une contribution commune est indispensable.' L'impôt est un devoir civique."
+      }
+    ]
+  }
+}

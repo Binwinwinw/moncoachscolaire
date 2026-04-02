@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 2nde - Serie 979",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 2nde : Lecture graphique",
+    "status": "published",
+    "created_at": "2026-03-13 11:15:43",
+    "updated_at": "2026-03-13 11:15:43"
+  },
+  "quiz": {
+    "title": "Lecture graphique",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Sur une courbe, comment identifier les intervalles où f(x) > 0 ?",
+        "choices": [
+          "Là où la courbe est croissante",
+          "Là où la courbe est au-dessus de l'axe des abscisses",
+          "Là où la courbe est en dessous de l'axe des abscisses",
+          "Là où f admet un maximum"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Graphiquement, les solutions de f(x) = g(x) sont les abscisses des points d'intersection des courbes de f et g."
+      },
+      {
+        "type": "open",
+        "question": "Décris comment lire graphiquement les solutions de f(x) = 0."
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'indique l'ordonnée à l'origine d'une courbe ?",
+        "choices": [
+          "f(1)",
+          "f(0)",
+          "La pente",
+          "Le maximum"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Graphiquement, f est décroissante sur un intervalle quand la courbe descend de gauche à droite."
+      },
+      {
+        "type": "open",
+        "question": "Sur un graphique, comment déterminer graphiquement si f(x) ≤ g(x) sur un intervalle ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Sur un graphique, la courbe de f passe par (0, 3) et (2, 7). Que peut-on calculer ?",
+        "choices": [
+          "Rien de précis",
+          "Le taux de variation de f entre 0 et 2",
+          "Le domaine de définition",
+          "Le minimum de f"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'axe des ordonnées est une axe de symétrie pour toute fonction paire."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

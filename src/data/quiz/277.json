@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 1ere - Série 277",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie 1ere : Quiz Diagnostic 1ere Physique-Chimie - Serie 5",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Physique-Chimie - Serie 5",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "L'énergie cinétique d'un objet de masse m se déplaçant à la vitesse v est :",
+        "choices": [
+          "Ec = m × v",
+          "Ec = ½ × m × v²",
+          "Ec = m × g × h",
+          "Ec = m × a"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'énergie mécanique se conserve uniquement lorsque les forces de frottement sont nulles (absence de forces non conservatives)."
+      },
+      {
+        "type": "open",
+        "question": "Définissez l'énergie potentielle gravitationnelle et exprimez son expression mathématique."
+      },
+      {
+        "type": "qcm",
+        "question": "Un objet de 2 kg tombe d'une hauteur de 5 m (sans frottements). Quelle est sa vitesse au moment de toucher le sol ? (g = 10 m/s²)",
+        "choices": [
+          "5 m/s",
+          "10 m/s",
+          "20 m/s",
+          "50 m/s"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le premier principe de la thermodynamique affirme que l'énergie totale d'un système isolé se conserve."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que la puissance en physique et quelle est son unité ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle transformation d'énergie se produit dans un panneau solaire photovoltaïque ?",
+        "choices": [
+          "Energie chimique → électrique",
+          "Energie thermique → mécanique",
+          "Energie lumineuse → électrique",
+          "Energie nucléaire → thermique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le kilowattheure (kWh) est une unité d'énergie utilisée notamment en électricité."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

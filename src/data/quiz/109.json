@@ -1,0 +1,98 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Terminale SVT - Biologie Moléculaire",
+    "type": "quiz",
+    "level": "terminale",
+    "subject": "SVT",
+    "description": "Diagnostic ADN, transcription, protéines - Terminale",
+    "status": "published",
+    "created_at": "2026-03-08 18:03:00",
+    "updated_at": "2026-03-08 18:03:00"
+  },
+  "quiz": {
+    "title": "Diagnostic Terminale - Biologie Moléculaire",
+    "level": "terminale",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "ADN → ARN → Protéine =",
+        "choices": [
+          "Réplication",
+          "Transcription + traduction",
+          "Mutation",
+          "Méiose"
+        ],
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Codon = 3 bases ARN → 1 acide aminé.",
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "Nombre bases ADN haploïde humain ≈ ... milliards",
+        "placeholder": "3",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Mutation substitution =",
+        "choices": [
+          "Déletion",
+          "Changement 1 base",
+          "Insertion",
+          "Inversion"
+        ],
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Code génétique universel (sauf exceptions).",
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "Ribosome site synthèse protéines.",
+        "placeholder": "traduction",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "PCR =",
+        "choices": [
+          "Séquence ADN",
+          "Amplification ADN",
+          "Coupe ADN",
+          "Lecture ARN"
+        ],
+        "id": 7
+      },
+      {
+        "type": "texte",
+        "question": "ARN messager rôle : ... génétique → protéine",
+        "placeholder": "intermédiaire",
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Dogme central biologie moléculaire",
+      "description": "ADN→ARN→Protéine (Terminale SVT)"
+    },
+    {
+      "notion": "Code génétique",
+      "description": "64 codons → 20 acides aminés"
+    },
+    {
+      "notion": "Mutations & PCR",
+      "description": "Génie génétique terminale"
+    }
+  ],
+  "exerciseresponses": []
+}

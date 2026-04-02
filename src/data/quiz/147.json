@@ -1,0 +1,97 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 23",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ere : La voix passive – tous les temps",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-08 00:05:00"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 23",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "id": 1,
+        "type": "qcm",
+        "question": "Which sentence is correctly written in the passive voice (present simple)?",
+        "choices": [
+          "The cake is make by my mother every Sunday.",
+          "The cake is made by my mother every Sunday.",
+          "The cake made by my mother every Sunday.",
+          "The cake is been made by my mother every Sunday."
+        ]
+      },
+      {
+        "id": 2,
+        "type": "vrai-faux",
+        "question": "In the sentence 'The letter was written by John', the passive voice is in the past simple tense."
+      },
+      {
+        "id": 3,
+        "type": "texte",
+        "question": "Transforme la phrase suivante à la voix passive : 'They will build a new hospital next year.'",
+        "placeholder": "Écris ta réponse ici..."
+      },
+      {
+        "id": 4,
+        "type": "qcm",
+        "question": "Choose the correct passive form for the present perfect: 'Someone has stolen my bike.'",
+        "choices": [
+          "My bike has been stealing.",
+          "My bike was been stolen.",
+          "My bike has been stolen.",
+          "My bike is been stolen."
+        ]
+      },
+      {
+        "id": 5,
+        "type": "vrai-faux",
+        "question": "In a passive sentence, the agent introduced by 'by' is always mandatory."
+      },
+      {
+        "id": 6,
+        "type": "texte",
+        "question": "Transforme la phrase suivante à la voix passive : 'The company is launching a new product.'",
+        "placeholder": "Écris ta réponse ici..."
+      },
+      {
+        "id": 7,
+        "type": "qcm",
+        "question": "Which sentence uses the passive voice in the past continuous?",
+        "choices": [
+          "The road was repaired last week.",
+          "The road is being repaired now.",
+          "The road was being repaired when the accident happened.",
+          "The road has been repaired recently."
+        ]
+      },
+      {
+        "id": 8,
+        "type": "vrai-faux",
+        "question": "The sentence 'English is spoken all over the world' uses the present simple passive correctly."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Construction de la voix passive",
+      "description": "La voix passive se forme avec l'auxiliaire 'be' conjugué au temps voulu + le participe passé du verbe. Ex : The letter is written / was written / has been written."
+    },
+    {
+      "notion": "Voix passive aux différents temps",
+      "description": "Chaque temps actif a son équivalent passif : present simple → is/are + V3, past simple → was/were + V3, present perfect → has/have been + V3, future → will be + V3, etc."
+    },
+    {
+      "notion": "Agent et omission du 'by'",
+      "description": "L'agent (celui qui fait l'action) est introduit par 'by'. Il peut être omis s'il est inconnu, évident ou sans importance. Ex : 'The window was broken (by someone).'"
+    }
+  ],
+  "exerciseresponses": []
+}

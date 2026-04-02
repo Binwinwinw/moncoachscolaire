@@ -1,0 +1,48 @@
+{
+  "quiz_id": 1126,
+  "title": "Politiques de l'emploi",
+  "subject": "SES",
+  "level": "Terminale",
+  "answers": [
+    {
+      "question_id": "1126_1",
+      "correct_option": "B",
+      "explanation": "Politiques actives (vs passives d'indemnisation) : formation professionnelle, contrats aidés, Pôle emploi, dispositifs d'insertion. Visent à accroître l'offre de travail qualifiée."
+    },
+    {
+      "question_id": "1126_2",
+      "correct": true,
+      "explanation": "Si le SMIC est au-dessus du salaire d'équilibre pour les peu qualifiés, il réduit la demande de travail pour ce segment → chômage. Les keynésiens contestent cet effet en soulignant l'impact positif sur la demande."
+    },
+    {
+      "question_id": "1126_3",
+      "correct_answer": "La flexicurité (Danemark) combine : flexibilité pour les employeurs (embauche/licenciement facile), sécurité pour les salariés (indemnités chômage élevées) et activation (formation obligatoire). Résultat : chômage faible et adaptation de l'économie.",
+      "explanation": "Le modèle danois (flexicurité) est souvent opposé au modèle français (rigidité) comme voie médiane entre flexibilité et protection sociale."
+    },
+    {
+      "question_id": "1126_4",
+      "correct_option": "B",
+      "explanation": "Les contrats aidés (secteur non marchand principalement) permettent à des chômeurs difficiles à insérer d'acquérir une expérience professionnelle avec une prise en charge partielle du salaire par l'État."
+    },
+    {
+      "question_id": "1126_5",
+      "correct": true,
+      "explanation": "Les lois Aubry (1998-2000) sur les 35 heures visaient le partage du travail (work sharing). L'effet net sur l'emploi est débattu."
+    },
+    {
+      "question_id": "1126_6",
+      "correct_answer": "Effets attendus : baisse du coût du travail peu qualifié → hausse de l'emploi peu qualifié. Effets non attendus : trappe à bas salaires (désincitation à monter en gamme), coût budgétaire élevé, faible effet sur l'emploi qualifié.",
+      "explanation": "Les exonérations de charges (allégements Fillon, CICE) ont un effet ambigu : bénéfiques pour l'emploi non qualifié mais créent des effets de seuil."
+    },
+    {
+      "question_id": "1126_7",
+      "correct_option": "B",
+      "explanation": "La FPC (CPF, plan de formation, apprentissage) permet d'adapter le capital humain aux mutations économiques et réduire le chômage structurel."
+    },
+    {
+      "question_id": "1126_8",
+      "correct": true,
+      "explanation": "Le revenu universel (ou UBI) est versé à tous les citoyens. Les débats portent sur son financement, son effet sur l'incitation au travail et son impact sur la pauvreté."
+    }
+  ]
+}

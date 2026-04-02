@@ -1,0 +1,72 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 6eme Anglais",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Anglais",
+    "description": "Diagnostic verbes etre/avoir, present simple, vocabulaire 6eme"
+  },
+  "quiz": {
+    "title": "Diagnostic Anglais 6eme",
+    "level": "6eme",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "am",
+        "correction": "I = 1ere personne singulier → am"
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": true,
+        "correction": "We = pluriel → are"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "answer": "has",
+        "correction": "She = 3eme singulier → has (have)"
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "live",
+        "correction": "They = pluriel → present simple live"
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "texte",
+        "answer": "is",
+        "correction": "My house = singulier → is"
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": false,
+        "correction": "FAUX. I = have (pas has)"
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "am",
+        "correction": "Présentation → I am + prénom"
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "answer": "watch",
+        "correction": "We = pluriel → watch (present simple)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 16",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic expression : diversité, humour, sport (B1+).",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-09 21:35:00"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 16",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Dans 'Diversity and inclusion', un thème clé est:",
+        "choices": ["Cultural mixing in schools", "Cooking recipes", "Train timetables", "Weather apps"],
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Humour often challenges social norms in English lessons.",
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "Exemple de diversité à l'école (2 phrases).",
+        "placeholder": "Ex: Students from different countries share food...",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "'Sports and society' explore:",
+        "choices": ["Team spirit and discrimination", "Bedtime routines", "Shopping malls", "Phone chargers"],
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'humour britannique satirise les inégalités.",
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "Comment le sport unit/divise la société (ex: Olympics)?",
+        "placeholder": "Ex: Olympics promote peace but doping scandals...",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "Inclusion means:",
+        "choices": ["Accepting differences", "Ignoring rules", "Eating alone", "Watching TV"],
+        "id": 7
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Sports figures are modern heroes despite controversies.",
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Diversity and inclusion",
+      "description": "Diversité culturelle/inclusion sociale (écoles, workplaces)."
+    },
+    {
+      "notion": "Humour and social norms",
+      "description": "Humour comme outil critique (satire, stand-up)."
+    },
+    {
+      "notion": "Sports and society",
+      "description": "Sport : unité, discrimination, héros modernes."
+    }
+  ],
+  "exerciseresponses": []
+}

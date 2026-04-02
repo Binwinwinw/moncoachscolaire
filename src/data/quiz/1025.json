@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques Terminale - Serie 1025",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques Terminale : Fonction logarithme népérien",
+    "status": "published",
+    "created_at": "2026-03-13 11:24:24",
+    "updated_at": "2026-03-13 11:24:24"
+  },
+  "quiz": {
+    "title": "Fonction logarithme népérien",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel est le domaine de définition de ln(x) ?",
+        "choices": [
+          "R",
+          "R*",
+          "]0 ; +∞[",
+          "[0 ; +∞["
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "ln(1) = 0."
+      },
+      {
+        "type": "open",
+        "question": "Résous ln(x) = 3."
+      },
+      {
+        "type": "qcm",
+        "question": "Que vaut ln(e²) ?",
+        "choices": [
+          "e²",
+          "2",
+          "2e",
+          "1/2"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La fonction ln est strictement croissante sur ]0 ; +∞[."
+      },
+      {
+        "type": "open",
+        "question": "Résous l'inéquation ln(x) < 2."
+      },
+      {
+        "type": "qcm",
+        "question": "Que vaut ln(1/e) ?",
+        "choices": [
+          "1",
+          "−1",
+          "e",
+          "1/e"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La droite x = 0 est une asymptote verticale de ln(x)."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

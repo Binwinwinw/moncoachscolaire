@@ -1,0 +1,67 @@
+{
+  "id": 1079,
+  "title": "Formules trigonométriques",
+  "subject": "Mathématiques",
+  "level": "1ère",
+  "created_at": "2026-03-13T18:54:00.433418Z",
+  "questions": [
+    {
+      "id": "1079_1",
+      "type": "qcm",
+      "question": "Quelle est la formule pour cos(π − x) ?",
+      "options": [
+        "cos(x)",
+        "−cos(x)",
+        "sin(x)",
+        "−sin(x)"
+      ]
+    },
+    {
+      "id": "1079_2",
+      "type": "vrai-faux",
+      "question": "sin(π − x) = sin(x)."
+    },
+    {
+      "id": "1079_3",
+      "type": "texte",
+      "question": "À partir de cos²(x) + sin²(x) = 1, exprime cos²(x) en fonction de sin²(x)."
+    },
+    {
+      "id": "1079_4",
+      "type": "qcm",
+      "question": "Que vaut sin(π/2 − x) ?",
+      "options": [
+        "sin(x)",
+        "cos(x)",
+        "−sin(x)",
+        "−cos(x)"
+      ]
+    },
+    {
+      "id": "1079_5",
+      "type": "vrai-faux",
+      "question": "cos(π/2 − x) = sin(x)."
+    },
+    {
+      "id": "1079_6",
+      "type": "texte",
+      "question": "Simplifie sin²(x) + sin²(x)·cos²(y) + cos²(x) en supposant y quelconque."
+    },
+    {
+      "id": "1079_7",
+      "type": "qcm",
+      "question": "Que vaut cos(2π − x) ?",
+      "options": [
+        "−cos(x)",
+        "cos(x)",
+        "sin(x)",
+        "−sin(x)"
+      ]
+    },
+    {
+      "id": "1079_8",
+      "type": "vrai-faux",
+      "question": "tan(x) = sin(x)/cos(x) est définie là où cos(x) ≠ 0."
+    }
+  ]
+}

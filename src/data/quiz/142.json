@@ -1,0 +1,82 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 18",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic : musique, pub, santé (B1+ expression).",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-09 21:38:00"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 18",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "'Music and identity' shows how:",
+        "choices": ["Songs reflect culture/generations", "Math formulas", "Train delays", "Cake recipes"],
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Advertising manipulates consumer choices.",
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "Exemple musique forgeant identité (ex: rap).",
+        "placeholder": "Ex: Rap expresses urban struggles...",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Dans 'Health and lifestyles', focus on:",
+        "choices": ["Fast food risks vs healthy habits", "Night sleep", "Homework stress", "TV marathons"],
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Pubs utilisent émotions pour vendre.",
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "Impact fast food sur santé (2 phrases).",
+        "placeholder": "Ex: Obesity rises but convenience appeals...",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "Music festivals promote:",
+        "choices": ["Cultural exchange", "Silence", "Isolation", "Boredom"],
+        "id": 7
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Modern lifestyles increase mental health issues.",
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Music and identity",
+      "description": "Musique reflète identités culturelles/générationnelles (rap, rock)."
+    },
+    {
+      "notion": "Advertising and consumer",
+      "description": "Pubs influencent achats (émotions, manipulation)."
+    },
+    {
+      "notion": "Health and lifestyles",
+      "description": "Habitudes modernes vs santé (obésité, stress)."
+    }
+  ],
+  "exerciseresponses": []
+}

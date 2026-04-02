@@ -1,0 +1,73 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES Terminale - Serie 1129",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "SES",
+    "description": "Diagnostic SES Terminale : Pauvreté et exclusion",
+    "status": "published",
+    "created_at": "2026-03-14 03:10:56",
+    "updated_at": "2026-03-14 03:10:56"
+  },
+  "quiz": {
+    "title": "Pauvreté et exclusion",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "SES",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "La pauvreté relative est définie en France comme :",
+        "choices": [
+          "Moins de 1,9 $ par jour (seuil BM)",
+          "Un revenu inférieur à 60% du revenu médian",
+          "L'absence de logement",
+          "Un revenu inférieur au SMIC"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La pauvreté absolue se mesure indépendamment du niveau de vie de la société, contrairement à la pauvreté relative."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que l'exclusion sociale et en quoi se distingue-t-elle de la pauvreté ?"
+      },
+      {
+        "type": "qcm",
+        "question": "La trappe à pauvreté désigne la situation où :",
+        "choices": [
+          "Les pauvres sont trop paresseux pour chercher du travail",
+          "Les aides sociales réduisent l'incitation à reprendre un emploi car le gain financier est faible voire négatif",
+          "Les riches font pression pour maintenir les pauvres dans la pauvreté",
+          "Les pauvres n'ont pas accès à l'éducation"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les working poor (travailleurs pauvres) sont des personnes qui ont un emploi mais restent sous le seuil de pauvreté."
+      },
+      {
+        "type": "open",
+        "question": "Présente l'approche par les capabilités d'Amartya Sen et son apport à la mesure de la pauvreté."
+      },
+      {
+        "type": "qcm",
+        "question": "L'Indice de Pauvreté Multidimensionnelle (IPM) du PNUD mesure :",
+        "choices": [
+          "Uniquement le revenu des ménages pauvres",
+          "Les privations simultanées en santé, éducation et niveau de vie",
+          "Le taux de chômage des pays pauvres",
+          "La dette des pays en développement"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La pauvreté infantile a des conséquences à long terme sur la santé, l'éducation et les opportunités économiques des enfants concernés."
+      }
+    ]
+  }
+}

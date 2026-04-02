@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 559",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 3ème : Les totalitarismes fasciste et nazi",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "Les totalitarismes fasciste et nazi",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Benito Mussolini fonde le parti fasciste en Italie et prend le pouvoir en :",
+        "choices": [
+          "1919",
+          "1922",
+          "1929",
+          "1935"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Adolf Hitler accède légalement au poste de chancelier d'Allemagne en janvier 1933."
+      },
+      {
+        "type": "open",
+        "question": "L'idéologie nazie repose notamment sur le racisme, l'antisémitisme et le concept d'espace vital ('_____' en allemand)."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle crise économique favorise la montée des régimes totalitaires en Europe ?",
+        "choices": [
+          "La crise de 1873",
+          "La crise de 1929",
+          "La crise pétrolière de 1973",
+          "La crise de 2008"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les lois de Nuremberg (1935) privent les juifs d'Allemagne de leur citoyenneté."
+      },
+      {
+        "type": "open",
+        "question": "Le parti unique d'Hitler s'appelle le parti _____ (abrégé NSDAP)."
+      },
+      {
+        "type": "qcm",
+        "question": "La nuit de Cristal (9-10 novembre 1938) est :",
+        "choices": [
+          "Un traité diplomatique",
+          "Un pogrom organisé contre les Juifs en Allemagne",
+          "Une célébration nazie",
+          "Une bataille militaire"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les trois régimes totalitaires de l'entre-deux-guerres sont le nazisme (Allemagne), le fascisme (Italie) et le stalinisme (URSS)."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

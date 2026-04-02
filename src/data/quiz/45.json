@@ -1,0 +1,85 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 4eme SVT",
+    "type": "quiz",
+    "level": "4eme",
+    "subject": "SVT",
+    "description": "Diagnostic ADN, vaccination, électricité corporelle 4eme"
+  },
+  "quiz": {
+    "title": "Diagnostic SVT 4eme",
+    "level": "4eme",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 80,
+    "questions": [
+      {
+        "id": 1,
+        "type": "qcm",
+        "question": "Molécule ADN = double ...",
+        "choices": [
+          "Hélice",
+          "Anneau",
+          "Chaîne"
+        ]
+      },
+      {
+        "id": 2,
+        "type": "texte",
+        "question": "Vaccin = anticorps contre ..."
+      },
+      {
+        "id": 3,
+        "type": "vrai-faux",
+        "question": "ADN = identique cellules même individu."
+      },
+      {
+        "id": 4,
+        "type": "qcm",
+        "question": "Cellule nerveuse =",
+        "choices": [
+          "Neurone",
+          "Globule rouge",
+          "Muscle"
+        ]
+      },
+      {
+        "id": 5,
+        "type": "texte",
+        "question": "Fréquence cardiaque repos adulte ≈ ... batt/min"
+      },
+      {
+        "id": 6,
+        "type": "vrai-faux",
+        "question": "Vaccin = virus vivant."
+      },
+      {
+        "id": 7,
+        "type": "qcm",
+        "question": "Hérédité = chromosomes dans ...",
+        "choices": [
+          "Cytoplasme",
+          "Noyau",
+          "Mitochondrie"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "texte",
+        "question": "Impulsion nerveuse vitesse ≈ ... m/s"
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Génétique ADN"
+    },
+    {
+      "notion": "Immunité vaccination"
+    },
+    {
+      "notion": "Système nerveux"
+    }
+  ],
+  "exerciseresponses": []
+}

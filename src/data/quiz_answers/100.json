@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic seconde Français",
+    "level": "seconde",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic seconde Français",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "**nom** commun (sujet de l'action)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "correct": 0,
+        "correction": "**Faux**. Romantisme : émotion/imagination vs classicisme (raison)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "correct": null,
+        "correction": "**procédé artistique**. Ex: comparaison (comme), métaphore (est)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "correct": 2,
+        "correction": "**verbe** (conjugaison 3e personne)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "correct": 0,
+        "correction": "**Faux**. Externe = observateur objectif ; interne = personnage."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "correct": null,
+        "correction": "**Victor Hugo** (romantisme, roman social)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "**émotions personnelles** (lyrique vs épique)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "correct": 1,
+        "correction": "**Vrai**. Ex: 'obscure clarté' (contrastes)."
+      }
+    ],
+    "level": "seconde",
+    "subject": "Français"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 706",
+    "level": "3ème",
+    "subject": "Physique-Chimie"
+  },
+  "quiz": {
+    "title": "Réactions chimiques : précipitation et dissolution",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Un solide insoluble formé lors du mélange de deux solutions",
+        "correct": 1,
+        "correction": "Un précipité est un solide insoluble qui se forme lorsque deux ions en solution réagissent (ex. AgCl blanc lors de AgNO3 + NaCl)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "AgCl est un précipité blanc caractéristique de la présence d'ions chlorure Cl- en solution."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "hydroxyde de sodium",
+        "correction": "NaOH (soude) réagit avec Fe3+ pour former Fe(OH)3, précipité rouille-brun caractéristique."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Ajout de chlorure de baryum BaCl2",
+        "correct": 1,
+        "correction": "BaCl2 réagit avec SO4^2- pour former BaSO4, précipité blanc insoluble dans l'acide chlorhydrique."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'addition de NaOH à une solution de Cu2+ forme Cu(OH)2, un précipité bleu ciel caractéristique."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "ion chlorure",
+        "correction": "La réaction Ag+ + Cl- → AgCl (précipité blanc) permet d'identifier les ions chlorure Cl-."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Neutralisation",
+        "correct": 1,
+        "correction": "La neutralisation : acide + base → sel + eau. Exemple : HCl + NaOH → NaCl + H2O."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Fe + S → FeS est une réaction chimique produisant un nouveau corps aux propriétés différentes des réactifs."
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 23",
+    "level": "1ere",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 23",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correction": "La bonne réponse est B : 'The cake is made by my mother every Sunday.' La voix passive au present simple se construit avec is/are + participe passé. 'Made' est le participe passé irrégulier de 'make'. Les autres options utilisent des formes incorrectes."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "correction": "VRAI. 'Was written' utilise 'was' (passé de 'to be') + le participe passé 'written', ce qui correspond bien à la voix passive au past simple. La structure est : was/were + past participle."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "correction": "La réponse attendue est : 'A new hospital will be built next year.' Au futur, la voix passive se forme avec will + be + past participle. Le complément d'objet 'a new hospital' devient sujet, et 'they' peut être omis car l'agent est non spécifié."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "correction": "La bonne réponse est C : 'My bike has been stolen.' La voix passive au present perfect se construit avec has/have + been + past participle. 'Stolen' est le participe passé irrégulier de 'steal'."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "correction": "FAUX. L'agent introduit par 'by' est optionnel. On peut l'omettre lorsqu'il est inconnu ('My car was stolen'), évident ('The president was elected') ou sans importance pour le message. L'omission de l'agent est même très fréquente en anglais."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "correction": "La réponse attendue est : 'A new product is being launched (by the company).' La voix passive au present continuous se forme avec is/are + being + past participle. C'est un temps souvent oublié mais très important."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "correction": "La bonne réponse est C : 'The road was being repaired when the accident happened.' La voix passive au past continuous se construit avec was/were + being + past participle. Elle exprime une action passive en cours dans le passé."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "correction": "VRAI. 'Is spoken' est bien la forme passive du present simple (is + past participle de 'speak'). Cette structure est courante pour décrire des faits généraux ou des vérités universelles. L'agent est omis car il est évident et non pertinent ici."
+      }
+    ],
+    "level": "1ere",
+    "subject": "Anglais"
+  }
+}

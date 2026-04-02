@@ -1,0 +1,73 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES Terminale - Serie 1133",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "SES",
+    "description": "Diagnostic SES Terminale : Union economique et monetaire europeenne",
+    "status": "published",
+    "created_at": "2026-03-14 03:10:56",
+    "updated_at": "2026-03-14 03:10:56"
+  },
+  "quiz": {
+    "title": "Union economique et monetaire europeenne",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "SES",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Dans le cadre de 'Union economique et monetaire europeenne', quel acteur est le plus directement associe a la regulation de coordination budgetaire et monetaire ?",
+        "choices": [
+          "BCE",
+          "Les menages uniquement",
+          "Les entreprises sans cadre public",
+          "Les ONG locales sans coordination internationale"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'indicateur 'inflation harmonisee' est utile pour suivre les evolutions de coordination budgetaire et monetaire."
+      },
+      {
+        "type": "open",
+        "question": "Definis coordination budgetaire et monetaire et explique en quoi cet enjeu est important en Terminale SES."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel exemple illustre le mieux le mecanisme etudie ?",
+        "choices": [
+          "Pacte de stabilite et de croissance",
+          "Une situation sans intervention d'acteurs collectifs",
+          "Une evolution purement individuelle sans cadre institutionnel",
+          "Un cas sans donnees ni enjeux economiques"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le levier 'taux directeurs' peut modifier les incitations des acteurs dans ce domaine."
+      },
+      {
+        "type": "open",
+        "question": "Propose un argument montreant a la fois un effet positif et une limite de 'taux directeurs'."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle reference theorique est la plus pertinente pour discuter ce chapitre ?",
+        "choices": [
+          "Mundell et la zone monetaire optimale",
+          "Une approche sans cadre theorique",
+          "Une interpretation uniquement morale sans faits",
+          "Une explication strictement biologique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Dans une dissertation SES, il faut articuler notions, donnees et exemples pour justifier l'argumentation."
+      }
+    ]
+  }
+}

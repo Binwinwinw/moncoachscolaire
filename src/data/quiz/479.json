@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 479",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "description": "Diagnostic Français 1ère : Orthographe : accord du participe passé",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Orthographe : accord du participe passé",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Avec l'auxiliaire 'avoir', le participe passé s'accorde :",
+        "choices": [
+          "Toujours avec le sujet",
+          "Avec le COD si celui-ci est placé avant le verbe",
+          "Toujours avec le COI",
+          "Jamais"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'Nous nous sommes parlé' : le participe reste invariable car 'se' est COI."
+      },
+      {
+        "type": "open",
+        "question": "Dans 'Elle s'est lavée', le participe s'accorde parce que 'se' est _____ du verbe."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est l'accord dans 'Les fleurs qu'il a cueilli___' ?",
+        "choices": [
+          "Cueilli (invariable)",
+          "Cueillie",
+          "Cueillis",
+          "Cueillies"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Avec l'auxiliaire 'être', le participe passé s'accorde toujours avec le sujet."
+      },
+      {
+        "type": "open",
+        "question": "Les participes passés des verbes pronominaux suivent la règle de l'accord avec l'auxiliaire _____ pour le choix de l'auxiliaire."
+      },
+      {
+        "type": "qcm",
+        "question": "Dans 'La chanson qu'elle a chanté___', le participe est :",
+        "choices": [
+          "Chanté",
+          "Chantée",
+          "Chantés",
+          "Chantées"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le participe passé employé sans auxiliaire s'accorde comme un adjectif."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

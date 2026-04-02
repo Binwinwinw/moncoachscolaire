@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 746",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie 3ème : Quiz blanc final Physique-Chimie 3ème",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Quiz blanc final Physique-Chimie 3ème",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la formule chimique de l'eau ?",
+        "choices": [
+          "H₂O₂",
+          "HO",
+          "H₂O",
+          "H₃O"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Lors d'une réaction chimique, la masse totale des réactifs est égale à la masse totale des produits."
+      },
+      {
+        "type": "open",
+        "question": "Que mesure le pH d'une solution ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Laquelle de ces affirmations sur la lumière est correcte ?",
+        "choices": [
+          "La lumière se propage instantanément",
+          "La lumière est plus rapide dans l'eau que dans le vide",
+          "La vitesse de la lumière dans le vide est d'environ 300 000 km/s",
+          "La lumière ne peut pas changer de milieu de propagation"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La loi d'Ohm s'écrit U = R × I où U est en volts, R en ohms et I en ampères."
+      },
+      {
+        "type": "open",
+        "question": "Quelle est la deuxième loi de Newton (relation fondamentale de la dynamique) ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Laquelle de ces réactions est une combustion complète du carbone ?",
+        "choices": [
+          "C + O₂ → CO",
+          "C + O₂ → CO₂",
+          "C + H₂ → CH₄",
+          "C + H₂O → CO + H₂"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'énergie mécanique se conserve en l'absence de frottements et de forces non conservatives."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

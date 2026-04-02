@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 784",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 3eme : La robotique et les systemes mecatroniques",
+    "status": "published",
+    "created_at": "2026-03-14 04:06:19",
+    "updated_at": "2026-03-14 04:06:19"
+  },
+  "quiz": {
+    "title": "La robotique et les systemes mecatroniques",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que la mecatronique ?",
+        "choices": [
+          "La mecanique des fluides",
+          "L'integration de la mecanique, de l'electronique et de l'informatique pour concevoir des systemes intelligents",
+          "La fabrication de pieces metalliques",
+          "L'electronique analogique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un robot industriel est generalement programme pour repeter des taches avec une grande precision."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on un robot capable de se deplacer dans un environnement et d'interagir avec des humains ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Combien de degres de liberte possede generalement un bras robotique industriel pour une grande souplesse de mouvement ?",
+        "choices": [
+          "2 DDL",
+          "3 DDL",
+          "6 DDL",
+          "12 DDL"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les drones civils sont soumis a reglementation en France et doivent etre enregistres au-dela d'une certaine masse."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la technologie qui permet a un robot de percevoir et interpreter son environnement par traitement d'images ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que la cobotique ?",
+        "choices": [
+          "La programmation de robots a distance",
+          "La collaboration directe et securisee entre robots et humains sur un meme espace de travail",
+          "La fabrication de robots en serie",
+          "L'utilisation de robots sous-marins"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'intelligence artificielle permet aux robots de s'adapter a des situations non prevues lors de leur programmation initiale."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

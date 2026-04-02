@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic HGGSP 1ère - Série 915",
+    "level": "1ère",
+    "subject": "HGGSP"
+  },
+  "quiz": {
+    "title": "Histoire de la conquête spatiale",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "HGGSP",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "L'Union soviétique",
+        "correct": 1,
+        "correction": "Spoutnik 1 fut lancé le 4 octobre 1957 par l'URSS, déclenchant la 'course à l'espace' entre les deux superpuissances de la Guerre froide."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le 21 juillet 1969, lors de la mission Apollo 11, Neil Armstrong et Buzz Aldrin marchèrent sur la Lune. C'est une victoire américaine dans la course à l'espace."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "La course à l'espace était une compétition idéologique et technologique entre les États-Unis et l'URSS. Elle permettait d'affirmer la supériorité de son système (capitalisme vs communisme), avait des applications militaires (missiles balistiques) et symbolisait la puissance nationale. Les succès spatiaux étaient des outils de propagande et de prestige.",
+        "correction": "La conquête spatiale illustre parfaitement la rivalité bipolaire de la Guerre froide, où science et technologie devenaient des armes géopolitiques."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Youri Gagarine",
+        "correct": 2,
+        "correction": "Youri Gagarine (URSS) effectua le premier vol habité dans l'espace le 12 avril 1961 à bord de Vostok 1, devenant un héros mondial."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le Traité sur l'espace extra-atmosphérique de 1967 interdit le placement d'armes de destruction massive en orbite et déclare l'espace 'province de toute l'humanité'."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "NASA (États-Unis), Roscosmos (Russie), ESA (Agence Spatiale Européenne, dont la France avec le CNES), CNSA (Chine), ISRO (Inde), JAXA (Japon). L'ESA est une organisation multinationale de 22 pays membres.",
+        "correction": "La multiplication des agences spatiales reflète la diffusion du pouvoir spatial au-delà des deux superpuissances originelles."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Les États-Unis, la Russie, l'Europe, le Japon et le Canada",
+        "correct": 1,
+        "correction": "L'ISS, construite depuis 1998, est un exemple rare de coopération internationale, réunissant d'anciens rivaux de la Guerre froide."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La navette spatiale (Space Shuttle) a effectué 135 missions entre 1981 et 2011, dont les catastrophes Challenger (1986) et Columbia (2003)."
+      }
+    ]
+  }
+}

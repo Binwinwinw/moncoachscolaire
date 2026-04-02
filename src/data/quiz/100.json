@@ -1,0 +1,97 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic seconde Français",
+    "type": "quiz",
+    "level": "seconde",
+    "subject": "Français",
+    "description": "Diagnostic Français seconde : Littérature et textes",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-08 14:20:00"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic seconde Français",
+    "level": "seconde",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Dans 'Les _larmes_ coulent.', 'larmes' est un :",
+        "choices": [
+          "verbe",
+          "nom",
+          "adjectif",
+          "adverbe"
+        ],
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le romantisme privilégie la raison sur l'émotion.",
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "Définir 'figure de style'. Exemple ?",
+        "placeholder": "Comparaison: comme un lion",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Le _court_ rapidement. 'Court' est :",
+        "choices": [
+          "adjectif",
+          "nom",
+          "verbe",
+          "préposition"
+        ],
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La focalisation externe utilise le point de vue de l'auteur.",
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "Auteur du romantisme : 'Les Misérables'.",
+        "placeholder": "Victor Hugo",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "La poésie lyrique exprime :",
+        "choices": [
+          "exploits guerriers",
+          "émotions personnelles",
+          "faits historiques",
+          "recettes"
+        ],
+        "id": 7
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'oxymore associe deux idées contraires.",
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Analyse grammaticale",
+      "description": "Concept clé de Français au niveau seconde"
+    },
+    {
+      "notion": "Mouvements littéraires",
+      "description": "Concept clé de Français au niveau seconde"
+    },
+    {
+      "notion": "Figures de style",
+      "description": "Concept clé de Français au niveau seconde"
+    }
+  ],
+  "exerciseresponses": []
+}

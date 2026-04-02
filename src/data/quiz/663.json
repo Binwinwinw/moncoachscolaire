@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 663",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 3ème : Immunologie : défenses de l'organisme",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "Immunologie : défenses de l'organisme",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la première ligne de défense de l'organisme contre les agents pathogènes ?",
+        "choices": [
+          "Les anticorps",
+          "Les barrières naturelles (peau, muqueuses)",
+          "Les lymphocytes T",
+          "Les phagocytes"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'inflammation est une réaction immunitaire non spécifique."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on les cellules qui 'avalent' et détruisent les microbes par phagocytose ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle cellule du système immunitaire produit les anticorps ?",
+        "choices": [
+          "Lymphocyte T",
+          "Globule rouge",
+          "Lymphocyte B / plasmocyte",
+          "Macrophage"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les anticorps peuvent reconnaître et neutraliser n'importe quel antigène sans spécificité."
+      },
+      {
+        "type": "open",
+        "question": "Quel terme désigne les substances étrangères qui déclenchent une réponse immunitaire spécifique ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la différence entre immunité innée et immunité acquise ?",
+        "choices": [
+          "Aucune différence",
+          "L'immunité innée est non spécifique et rapide ; l'immunité acquise est spécifique et mémorisée",
+          "L'immunité innée est produite par vaccination",
+          "L'immunité acquise est héréditaire"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les lymphocytes T cytotoxiques détruisent directement les cellules infectées."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

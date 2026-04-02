@@ -1,0 +1,80 @@
+
+============================================================
+File: topbar.php
+============================================================
+
+Encoding checks:
+  [FAIL] démarrer (correct)             -> not found
+  [FAIL] accès (correct)                -> not found
+  [FAIL] Vérifier (correct)             -> not found
+  [FAIL] Collège (correct)              -> not found
+  [FAIL] pédagogique (correct)          -> not found
+  [FAIL] réussir (correct)              -> not found
+  [OK] em-dash (correct)              -> found
+  [OK] replacement char (BAD)         -> not found
+  [FAIL] double-encoded (BAD)           -> found
+
+First 400 characters:
+<?php
+// topbar.php — central topbar include
+// Expected optional flags defined by the caller before include:
+//  - $hide_topbar : if true, do not render the topbar
+//  - $hide_topbar_persona : if true, show only the site name (no persona/level)
+
+if (!empty($hide_topbar)) {
+    return;
+}
+
+// Ensure session is available (header.php normally starts the session)
+if (function_exists('ensure_session_st
+
+============================================================
+File: footer.php
+============================================================
+
+Encoding checks:
+  [FAIL] démarrer (correct)             -> not found
+  [FAIL] accès (correct)                -> not found
+  [FAIL] Vérifier (correct)             -> not found
+  [FAIL] Collège (correct)              -> not found
+  [FAIL] pédagogique (correct)          -> not found
+  [FAIL] réussir (correct)              -> not found
+  [FAIL] em-dash (correct)              -> not found
+  [OK] replacement char (BAD)         -> not found
+  [OK] double-encoded (BAD)           -> not found
+
+First 400 characters:
+<?php
+// Pré©parer variables d'é©tat pour é©viter les warnings
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+$is_authenticated = isset($is_authenticated) ? $is_authenticated : (!empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']));
+$is_demo_account = isset($is_demo_account) ? $is_demo_account : (!empty($_SESSION['is_demo']));
+?>
+    <!-- Footer -->
+    <footer class
+
+============================================================
+File: landingpage.php
+============================================================
+
+Encoding checks:
+  [FAIL] démarrer (correct)             -> not found
+  [FAIL] accès (correct)                -> not found
+  [FAIL] Vérifier (correct)             -> not found
+  [FAIL] Collège (correct)              -> not found
+  [FAIL] pédagogique (correct)          -> not found
+  [FAIL] réussir (correct)              -> not found
+  [FAIL] em-dash (correct)              -> not found
+  [OK] replacement char (BAD)         -> not found
+  [OK] double-encoded (BAD)           -> not found
+
+First 400 characters:
+<?php
+// If this file is requested directly (not included by the router), render a minimal page wrapper
+// so the landing page CSS and topbar/footer are loaded and the page looks correct when opened
+// as /landingpage.php in a browser.
+
+// Bootstrap site helpers when accessed directly so variables like $baseUrl and helpers exist
+$direct_access = (realpath($_SERVER['SCRIPT_FILENAME'] ?? '') === rea

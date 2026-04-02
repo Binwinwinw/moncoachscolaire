@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 655",
+    "level": "3ème",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "Génétique : ADN, réplication et expression génétique",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Double hélice",
+        "correct": 1,
+        "correction": "L'ADN est formé de deux brins complémentaires enroulés en double hélice, modèle proposé par Watson et Crick."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La réplication est semi-conservative : chaque molécule fille contient un brin parental et un brin néosynthétisé."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "transporter l'information génétique du noyau aux ribosomes pour la synthèse des protéines",
+        "correction": "L'ARN messager est transcrit à partir de l'ADN dans le noyau, puis traduit en protéines par les ribosomes."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Uracile",
+        "correct": 2,
+        "correction": "L'uracile remplace la thymine dans l'ARN ; l'ADN contient thymine à la place."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Un seul gène peut coder pour plusieurs protéines grâce à l'épissage alternatif de l'ARN."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "traduction",
+        "correction": "La traduction se déroule au niveau des ribosomes et convertit la séquence de nucléotides en séquence d'acides aminés."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Dans le noyau",
+        "correct": 2,
+        "correction": "La transcription a lieu dans le noyau où l'ADN est localisé."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "L'expression génique est régulée : certains gènes sont actifs ou inactifs selon le type cellulaire et les conditions."
+      }
+    ]
+  }
+}

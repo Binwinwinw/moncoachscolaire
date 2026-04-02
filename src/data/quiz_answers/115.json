@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 5ème SVT",
+    "level": "5eme",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 5ème SVT",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "**vie** (procar, eucaryotes)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "correct": true,
+        "correction": "**Vrai**. Chromosomes ADN noyau."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "correct": null,
+        "correction": "**glucose** (C6H12O6 plantes)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "**consommateur** (herbivore/carnivore)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "correct": true,
+        "correction": "**Vrai**. Œstrogènes/testostérone."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "correct": null,
+        "correction": "**énergie ATP** (mitochondries)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "**biotope (milieu) + biocénose (vivants)**."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "correct": null,
+        "correction": "**identiques** (croissance, pas méiose)."
+      }
+    ],
+    "level": "5eme",
+    "subject": "SVT"
+  }
+}

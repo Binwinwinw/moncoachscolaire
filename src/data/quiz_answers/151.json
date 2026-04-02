@@ -1,0 +1,63 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 27",
+    "level": "1ere",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 27",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correction": "La bonne réponse est B : 'She can't be at home.' Les lumières sont éteintes et la voiture est partie — il est donc (quasi) impossible qu'elle soit chez elle. 'Can't' exprime une déduction négative forte (quasi-certitude qu'une chose est impossible). 'Must' exprimerait au contraire une certitude positive."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "correction": "FAUX. 'Might' exprime une probabilité faible à modérée, pas une certitude. La phrase signifie qu'il est possible (mais pas sûr) qu'elle soit à la bibliothèque. Pour exprimer une forte certitude, on utiliserait 'must' : 'She must be at the library' (j'en suis presque certain)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "correction": "La réponse attendue est : 'He must be at home.' (ou toute phrase similaire utilisant must + be + adjectif/participe). 'Must' + infinitif exprime une déduction logique très probable basée sur des indices observés. C'est différent de 'must' d'obligation — ici c'est le contexte qui indique qu'il s'agit d'une déduction."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "correction": "La bonne réponse est B : 'He might have forgotten his phone.' Pour une déduction sur le passé avec incertitude, on utilise might + have + past participle. 'Forgotten' est le participe passé de 'forget'. 'Must forget' (option A) serait une obligation présente, pas une déduction passée."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "correction": "VRAI. 'Must have + past participle' exprime une déduction quasi-certaine sur un événement passé. La structure modale parfaite (modal + have + V3) est utilisée pour tous les types de déductions dans le passé : must have (certitude positive), can't have (certitude négative), might/may/could have (possibilité)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "correction": "La réponse attendue est : 'She can't have said that — it's impossible!' Pour exprimer qu'une chose est impossible dans le passé (déduction négative certaine), on utilise can't have + past participle. 'Said' est le participe passé irrégulier de 'say'. 'Couldn't have said' est également acceptable."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "correction": "La bonne réponse est C : 'He must be the thief.' Voici l'échelle de certitude des modaux de déduction (du plus au moins probable) : must (quasi-certitude ~90%) > may (~50%) > might (~40%) ≈ could (~30-40%). 'Must' exprime donc la plus forte certitude dans une déduction positive."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "correction": "VRAI. 'Could' peut exprimer une possibilité future (probabilité modérée). 'It could rain tomorrow' signifie qu'il est possible qu'il pleuve demain, même si ce n'est pas certain. On peut aussi utiliser 'might' ou 'may' dans ce contexte avec des nuances légèrement différentes de probabilité."
+      }
+    ],
+    "level": "1ere",
+    "subject": "Anglais"
+  }
+}

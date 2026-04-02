@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 490",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "description": "Diagnostic Français 1ère : Racine : la tragédie et les passions",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Racine : la tragédie et les passions",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Dans Phèdre, de quoi est coupable la reine Phèdre ?",
+        "choices": [
+          "Du meurtre de Thésée",
+          "D'un amour coupable pour son beau-fils Hippolyte",
+          "De trahison envers la Grèce",
+          "D'ambition politique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La fatalité est une notion centrale dans la tragédie racinienne."
+      },
+      {
+        "type": "open",
+        "question": "Dans Andromaque, Oreste aime Hermione qui aime Pyrrhus qui aime Andromaque : cette structure est appelée chaîne d'_____ non partagé."
+      },
+      {
+        "type": "qcm",
+        "question": "Le style racinien est caractérisé par :",
+        "choices": [
+          "La pompe baroque et les métaphores foisonnantes",
+          "La simplicité apparente et l'intensité psychologique",
+          "L'humour et le burlesque",
+          "La longueur des tirades épiques"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Bérénice de Racine n'a pas de mort sur scène et se termine par une séparation."
+      },
+      {
+        "type": "open",
+        "question": "La confidente, personnage secondaire de la tragédie classique, permet au héros de _____ ses sentiments."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la particularité de la langue de Racine par rapport à celle de Corneille ?",
+        "choices": [
+          "Racine use du latin",
+          "Racine privilégie la psychologie amoureuse et le langage des passions",
+          "Racine écrit en prose",
+          "Racine s'inspire uniquement de la Bible"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Hermione dans Andromaque est un personnage passif qui subit les événements."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

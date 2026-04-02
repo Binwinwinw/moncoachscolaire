@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic NSI 1ère - Série 894",
+    "level": "1ère",
+    "subject": "NSI"
+  },
+  "quiz": {
+    "title": "Fonctions et portée des variables",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "NSI",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Définir une fonction",
+        "correct": 1,
+        "correction": "def nom_fonction(paramètres): définit une nouvelle fonction. Le corps est indenté."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "return a, b retourne un tuple (a, b). Le dépaquetage permet : x, y = ma_fonction() pour récupérer chaque valeur séparément."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "LEGB : Local (dans la fonction courante), Enclosing (fonctions imbriquées englobantes), Global (module), Builtin (fonctions intégrées). Python cherche une variable dans cet ordre. Une variable locale masque une variable globale de même nom.",
+        "correction": "Le mot-clé global déclare qu'une variable locale référence la variable globale. nonlocal fait de même pour les fonctions imbriquées."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "def f(x = 0):",
+        "correct": 0,
+        "correction": "Les paramètres avec valeur par défaut sont optionnels lors de l'appel. Ils doivent être placés après les paramètres obligatoires."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "def f(*args) reçoit tous les arguments positionnels supplémentaires dans un tuple. **kwargs fait de même pour les arguments nommés (dictionnaire)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "Une lambda est une fonction anonyme à une expression. Syntaxe : lambda paramètres: expression. Ex : carre = lambda x: x**2 ; carre(5) = 25. Utilisée pour des fonctions courtes, notamment comme argument de sorted(), map(), filter().",
+        "correction": "Les lambdas sont équivalentes à des def simples mais ne peuvent contenir qu'une expression."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "1",
+        "correct": 1,
+        "correction": "Par convention mathématique, 0! = 1. C'est le cas de base de la récursion de la factorielle."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les fonctions peuvent être assignées à des variables, passées comme arguments, retournées par d'autres fonctions. C'est la base de la programmation fonctionnelle en Python."
+      }
+    ]
+  }
+}

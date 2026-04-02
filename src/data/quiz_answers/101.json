@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic seconde SVT",
+    "level": "seconde",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic seconde SVT",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "**du vivant** (théorie cellulaire)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "correct": 1,
+        "correction": "**Vrai**. Noyau = ADN (chromosomes)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "correct": null,
+        "correction": "**échanges** sélectifs (nutriments, déchets)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "**ATP** (respiration cellulaire)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "correct": 1,
+        "correction": "**Vrai**. Bactéries (ex: E.coli)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "correct": null,
+        "correction": "**chloroplaste** (végétaux uniquement)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "**protéines** (ARNm → protéines)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "correct": 1,
+        "correction": "**Vrai**. Animaux/végétaux vs procaryotes."
+      }
+    ],
+    "level": "seconde",
+    "subject": "SVT"
+  }
+}

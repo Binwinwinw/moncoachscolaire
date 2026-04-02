@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 663",
+    "level": "3ème",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "Immunologie : défenses de l'organisme",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Les barrières naturelles (peau, muqueuses)",
+        "correct": 1,
+        "correction": "La peau et les muqueuses constituent la première barrière physique contre l'entrée des agents pathogènes."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'inflammation (rougeur, chaleur, douleur, gonflement) est une réponse innée non spécifique à toute agression."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "phagocytes",
+        "correction": "Les phagocytes (macrophages, neutrophiles) ingèrent et digèrent les agents pathogènes par phagocytose."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Lymphocyte B / plasmocyte",
+        "correct": 2,
+        "correction": "Les lymphocytes B se différencient en plasmocytes qui sécrètent des anticorps spécifiques."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Chaque anticorps est spécifique d'un antigène déterminé ; la complémentarité de forme est indispensable."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "antigènes",
+        "correction": "Un antigène est toute molécule (protéine, polysaccharide) reconnue comme étrangère par le système immunitaire."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "L'immunité innée est non spécifique et rapide ; l'immunité acquise est spécifique et mémorisée",
+        "correct": 1,
+        "correction": "L'immunité innée répond immédiatement sans mémoire ; l'immunité adaptative est spécifique et génère une mémoire immunologique."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les LT cytotoxiques (CD8+) reconnaissent et détruisent les cellules infectées par des virus ou cancéreuses."
+      }
+    ]
+  }
+}

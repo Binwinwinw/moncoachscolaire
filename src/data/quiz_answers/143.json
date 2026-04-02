@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 19",
+    "level": "1ere",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 19",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "bonne_reponse": "Opinions and trends",
+        "correction": "Correct ! Ex. viral challenges. Débat pros/cons en oral."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "bonne_reponse": "Vrai",
+        "correction": "Vrai : Blurred boundaries. Stats études pour essays."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "bonne_reponse": "Ex: Challenges go viral but spread misinformation",
+        "correction": "Nuancé excellent ! Linking words (although) pour bac."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "bonne_reponse": "French vs US schools",
+        "correction": "Exact ! Compare uniform/homeschool. Recherche docs."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "bonne_reponse": "Vrai",
+        "correction": "Vrai : Dopamine loops. Limite usage, track temps."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "bonne_reponse": "Ex: Flexible but lonely",
+        "correction": "Balanced ! Vocab work (commute, burnout)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "bonne_reponse": "Stress from work/school",
+        "correction": "Parfait ! Hobbies comme yoga pour équilibre."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "bonne_reponse": "Vrai",
+        "correction": "Vrai : Post-COVID shift. Prépare comparaison US/FR."
+      }
+    ],
+    "level": "1ere",
+    "subject": "Anglais"
+  }
+}

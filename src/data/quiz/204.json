@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Geographie 1ere - Série 204",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "description": "Diagnostic Histoire-Geographie 1ere : Quiz Diagnostic 1ere Histoire-Géographie - Serie 30",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Histoire-Géographie - Serie 30",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la période principale couverte par le thème 'Villes mondiales et urbanisation' ?",
+        "choices": [
+          "XVIIIe siècle",
+          "XIXe siècle",
+          "XXe siècle",
+          "XXIe siècle"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le thème 'Urbanisation et métropolisation mondiales' fait partie du programme officiel d'Histoire-Géographie de 1ère."
+      },
+      {
+        "type": "open",
+        "question": "Présentez en quelques lignes l'importance de l'étude du thème 'Urbanisation et métropolisation mondiales' pour comprendre le monde contemporain."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle démarche est au cœur de l'étude historique et géographique ?",
+        "choices": [
+          "La mémorisation de dates et de faits",
+          "L'analyse critique de documents et la construction d'une argumentation",
+          "La récitation de définitions",
+          "L'apprentissage des frontières"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les sources primaires (documents d'époque) sont plus fiables que les sources secondaires (analyses d'historiens) pour comprendre un événement historique."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce qu'un territoire et en quoi diffère-t-il d'un simple espace géographique ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'une carte thématique en géographie ?",
+        "choices": [
+          "Une carte routière ou touristique",
+          "Une représentation graphique qui représente la distribution spatiale d'un phénomène précis",
+          "Une carte de relief topographique",
+          "Un plan d'une ville"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La géopolitique étudie les liens entre la géographie et le pouvoir politique des États."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

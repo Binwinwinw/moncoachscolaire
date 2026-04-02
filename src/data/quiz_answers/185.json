@@ -1,0 +1,76 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Geographie 1ere - Série 185",
+    "level": "1ere",
+    "subject": "Histoire-Geographie"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Histoire-Géographie - Serie 11",
+    "question_count": 8,
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "La diagonale du vide",
+        "correct": 2,
+        "correction": "La 'diagonale du vide' (ou diagonale des faibles densités) est une bande de territoire qui traverse la France du nord-est au sud-ouest (des Ardennes aux Landes), caractérisée par une très faible densité de population (moins de 30 hab/km²), un vieillissement de la population et une économie peu développée."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La région Île-de-France (12 millions d'habitants, soit ~18% de la population) produit environ 31-32% du PIB national. Cette hyper-métropolisation de Paris crée des déséquilibres territoriaux importants entre la capitale et le reste du territoire."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "correct_answer": "La métropolisation est la concentration des activités et des populations dans les grandes métropoles, créant des inégalités avec les espaces ruraux et les villes moyennes.",
+        "answer": "La métropolisation est la concentration des activités et des populations dans les grandes métropoles, créant des inégalités avec les espaces ruraux et les villes moyennes.",
+        "correction": "La métropolisation est le processus de concentration des fonctions économiques supérieures (sièges sociaux, R&D, finance, services), des populations qualifiées et des infrastructures dans les grandes métropoles. En France, elle renforce les métropoles (Paris, Lyon, Bordeaux, Montpellier, Nantes) tout en marginalsant des villes moyennes et des espaces ruraux. Elle génère des 'fractures territoriales' (déserts médicaux, éloignement des services publics)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Le Nord-Pas-de-Calais (Nord)",
+        "correct": 2,
+        "correction": "Le département du Nord (ancienne région Nord-Pas-de-Calais) est l'un des plus densément peuplés de France métropolitaine après la petite couronne parisienne, héritage de l'industrialisation au XIXe siècle (mines, textile, sidérurgie). La Métropole Européenne de Lille est la 4e aire urbaine de France."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "FAUX. Si certains espaces ruraux (notamment la diagonale du vide) connaissent un déclin démographique et économique, d'autres espaces ruraux sont en croissance, notamment les campagnes périurbaines (autour des grandes métropoles), les zones touristiques et les espaces ruraux attractifs (littoral, montagnes, Sud de la France). On parle de 'rurbanisation'."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "correct_answer": "Les Outre-Mer français sont les territoires français situés en dehors de l'Europe métropolitaine, ayant différents statuts (DOM, ROM, COM, collectivités).",
+        "answer": "Les Outre-Mer français sont les territoires français situés en dehors de l'Europe métropolitaine, ayant différents statuts (DOM, ROM, COM, collectivités).",
+        "correction": "Les Outre-Mer français regroupent différents types de territoires : les DROM (Départements et Régions d'Outre-Mer : Guadeloupe, Martinique, Guyane, La Réunion, Mayotte), les COM (Collectivités d'Outre-Mer : Polynésie française, Saint-Martin, Saint-Pierre-et-Miquelon...) et la Nouvelle-Calédonie à statut particulier. Ils sont dispersés sur les cinq océans, font de la France la 2e ZEE mondiale."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "La périurbanisation",
+        "correct": 2,
+        "correction": "La périurbanisation désigne le développement résidentiel et économique dans les zones périphériques autour des villes (couronnes périurbaines), souvent sous forme de lotissements pavillonnaires. Ce phénomène, lié à la recherche de logements moins chers et de qualité de vie, est associé à l'étalement urbain et génère une dépendance à la voiture."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Grâce à ses nombreux territoires ultramarins dispersés sur tous les océans (Polynésie française, Nouvelle-Calédonie, Guyane, Antilles, La Réunion, etc.), la France possède la 2e ZEE mondiale (~11,5 millions de km²), derrière les États-Unis (~12 millions de km²). Cela lui confère un immense potentiel en ressources marines."
+      }
+    ]
+  }
+}

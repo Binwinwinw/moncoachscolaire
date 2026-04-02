@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 3ème Anglais",
+    "level": "3eme",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 3ème Anglais",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "**will stay** (future real). [web:174]"
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "correct": true,
+        "correction": "**Vrai**. Passive past simple."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "correct": null,
+        "correction": "**have seen** (expérience). [web:172]"
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "correct": 2,
+        "correction": "**were** (subjonctif unreal)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "correct": true,
+        "correction": "**Vrai**. Passive present."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "correct": null,
+        "correction": "**for** (durée perfect)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "correct": 2,
+        "correction": "**is being sent** (present continuous passive). [web:171]"
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "correct": null,
+        "correction": "**will pass** (1st conditional)."
+      }
+    ],
+    "level": "3eme",
+    "subject": "Anglais"
+  }
+}

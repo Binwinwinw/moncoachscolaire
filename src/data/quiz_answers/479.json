@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 479",
+    "level": "1ère",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Orthographe : accord du participe passé",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Avec le COD si celui-ci est placé avant le verbe",
+        "correct": 1,
+        "correction": "Règle de base : PP avec avoir s'accorde avec le COD antéposé (ex. : Les lettres qu'il a écrites)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le verbe 'parler' est transitif indirect (parler à qqn) ; 'se' est COI, donc pas d'accord."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "COD",
+        "correction": "'Se laver' : elle a lavé qui ? → 'se' = elle-même → COD antéposé → accord."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Cueillies",
+        "correct": 3,
+        "correction": "COD 'les fleurs' (féminin pluriel) est placé avant → accord : cueillies."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Ex. : Elles sont arrivées tôt. Sauf exceptions (verbes pronominaux avec COD postposé)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "être",
+        "correction": "Les verbes pronominaux se conjuguent toujours avec 'être' aux temps composés."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Chantée",
+        "correct": 1,
+        "correction": "COD 'la chanson' (fém. sing.) placé avant → chanté → e → chantée."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Ex. : Des lettres bien rédigées (épithète) → accord avec le nom."
+      }
+    ]
+  }
+}

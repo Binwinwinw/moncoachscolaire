@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 718",
+    "level": "3ème",
+    "subject": "Physique-Chimie"
+  },
+  "quiz": {
+    "title": "Oxydation et respiration cellulaire",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "C6H12O6 + 6O2 → 6CO2 + 6H2O + énergie",
+        "correct": 1,
+        "correction": "La respiration cellulaire oxyde le glucose en présence d'O2 pour libérer de l'énergie (ATP), du CO2 et de l'H2O."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "En absence d'O2, les levures fermentent le glucose : C6H12O6 → 2C2H5OH + 2CO2 + énergie."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "mitochondrie",
+        "correction": "Les mitochondries sont les centrales énergétiques de la cellule, où se déroule la respiration aérobie."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Accepter les électrons en fin de chaîne respiratoire",
+        "correct": 1,
+        "correction": "O2 est l'accepteur final d'électrons dans la chaîne respiratoire mitochondriale ; il est réduit en eau."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les bactéries lactiques et les muscles en déficit d'O2 réalisent : C6H12O6 → 2CH3CHOHCOOH (acide lactique)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "ATP",
+        "correction": "L'ATP (Adénosine TriPhosphate) est la monnaie énergétique universelle ; son hydrolyse libère de l'énergie utilisable par la cellule."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "30 à 38",
+        "correct": 2,
+        "correction": "La respiration complète du glucose produit environ 30 à 38 molécules d'ATP selon les espèces et conditions."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le CO2 produit dans les mitochondries passe dans le sang, est transporté aux poumons et expiré."
+      }
+    ]
+  }
+}

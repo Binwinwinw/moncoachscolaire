@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic NSI 1ère - Série 889",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "description": "Diagnostic NSI 1ère : Algorithmes gloutons",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "Algorithmes gloutons",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Un algorithme glouton est un algorithme qui :",
+        "choices": [
+          "Explore toutes les solutions possibles",
+          "Choisit à chaque étape l'option localement optimale",
+          "Utilise la récursivité",
+          "Trie les données en premier"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un algorithme glouton garantit toujours d'obtenir la solution optimale globale."
+      },
+      {
+        "type": "open",
+        "question": "Appliquez l'algorithme glouton au problème du rendu de monnaie : rendre 41 centimes avec des pièces de 25, 10, 5 et 1 centime."
+      },
+      {
+        "type": "qcm",
+        "question": "L'algorithme de Dijkstra (plus court chemin) est un exemple d'algorithme :",
+        "choices": [
+          "De force brute",
+          "Glouton",
+          "Diviser pour régner",
+          "Par backtracking"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le problème du sac à dos (0/1 knapsack) est résolu de façon optimale par un algorithme glouton."
+      },
+      {
+        "type": "open",
+        "question": "Expliquez l'algorithme glouton de coloration de graphe."
+      },
+      {
+        "type": "qcm",
+        "question": "L'algorithme de Huffman (compression) est glouton car il :",
+        "choices": [
+          "Trie toujours les données d'abord",
+          "Fusionne toujours les deux arbres de fréquence minimale",
+          "Utilise des tableaux de hachage",
+          "Divise le texte en blocs"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'algorithme de Prim pour l'arbre couvrant minimal est un algorithme glouton."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

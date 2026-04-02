@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic NSI 1ère - Série 887",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "description": "Diagnostic NSI 1ère : Complexité algorithmique",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "Complexité algorithmique",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "La notation O(n) signifie que l'algorithme a une complexité :",
+        "choices": [
+          "Constante",
+          "Linéaire",
+          "Quadratique",
+          "Logarithmique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "O(1) représente une complexité constante, indépendante de la taille des données."
+      },
+      {
+        "type": "open",
+        "question": "Classez les complexités suivantes de la plus rapide à la plus lente : O(n²), O(1), O(n log n), O(log n), O(n)."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la complexité temporelle d'un accès à un élément dans un tableau par son indice ?",
+        "choices": [
+          "O(n)",
+          "O(log n)",
+          "O(1)",
+          "O(n²)"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La complexité en espace mesure la mémoire supplémentaire utilisée par un algorithme."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que la notation grand O (Big O) capture-t-elle et qu'ignore-t-elle ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Deux boucles for imbriquées, chacune itérant n fois, donnent une complexité de :",
+        "choices": [
+          "O(n)",
+          "O(2n)",
+          "O(n log n)",
+          "O(n²)"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un algorithme récursif peut avoir une complexité exponentielle."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

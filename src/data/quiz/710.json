@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 710",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie 3ème : Chimie organique : introduction",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Chimie organique : introduction",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la particularité du carbone qui lui permet de former des molécules très variées ?",
+        "choices": [
+          "Il a 2 électrons de valence",
+          "Il peut former 4 liaisons covalentes et s'enchaîner avec lui-même",
+          "Il est radioactif",
+          "Il est le plus léger des éléments"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'éthanol (alcool) a pour formule brute C2H5OH."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la série de composés organiques de formule CnH(2n+2) ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel groupe fonctionnel caractérise les acides carboxyliques ?",
+        "choices": [
+          "-OH (hydroxyle)",
+          "-COOH (carboxyle)",
+          "-NH2 (amine)",
+          "-CHO (aldéhyde)"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le plastique est un polymère synthétique d'origine organique."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la réaction chimique qui joint deux monomères avec élimination d'eau ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le principal composant du gaz naturel domestique ?",
+        "choices": [
+          "Propane",
+          "Butane",
+          "Méthane",
+          "Éthylène"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le vinaigre contient de l'acide acétique (acide éthanoïque)."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

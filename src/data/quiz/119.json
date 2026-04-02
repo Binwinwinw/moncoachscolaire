@@ -1,0 +1,98 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 4ème SVT - Reproduction Géologie",
+    "type": "quiz",
+    "level": "4eme",
+    "subject": "SVT",
+    "description": "Diagnostic Reproduction sexuée, ADN, volcans - 4ème",
+    "status": "published",
+    "created_at": "2026-03-08 18:26:00",
+    "updated_at": "2026-03-08 18:26:00"
+  },
+  "quiz": {
+    "title": "Diagnostic 4ème - SVT Bases",
+    "level": "4eme",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Chromosomes = ADN + ...",
+        "choices": [
+          "protéines",
+          "eau",
+          "glucides",
+          "lipides"
+        ],
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Reproduction humaine = sexuée.",
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "Homme = ... paires chromosomes",
+        "placeholder": "23",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Volcan = magma + gaz + ...",
+        "choices": [
+          "roches",
+          "sable",
+          "air",
+          "eau"
+        ],
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Système nerveux = communication électrique.",
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "Séisme = plaques ...",
+        "placeholder": "tectoniques",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "Repro humaine: formation ...",
+        "choices": [
+          "nouvel être",
+          "clone",
+          "mutation",
+          "division"
+        ],
+        "id": 7
+      },
+      {
+        "type": "texte",
+        "question": "Hormones = messagers ...",
+        "placeholder": "chimiques",
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Reproduction sexuée",
+      "description": "ADN, chromosomes, humain (4ème)"
+    },
+    {
+      "notion": "Système nerveux",
+      "description": "Communication nerveuse/hormonale"
+    },
+    {
+      "notion": "Géologie interne",
+      "description": "Volcans, séismes, plaques"
+    }
+  ],
+  "exerciseresponses": []
+}

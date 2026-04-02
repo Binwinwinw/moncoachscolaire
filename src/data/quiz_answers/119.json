@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 4ème SVT",
+    "level": "4eme",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 4ème SVT",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "**protéines** (histones enroulent ADN). [web:102]"
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "correct": true,
+        "correction": "**Vrai**. Gamètes fusionnent (ovule/spermato). [web:97]"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "correct": null,
+        "correction": "**23** (46 total)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "**roches** (pyroclastiques). [web:103]"
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "correct": true,
+        "correction": "**Vrai**. Neurones impulsions électriques."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "correct": null,
+        "correction": "**tectoniques** (mouvement plaques). [web:96]"
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "**nouvel être** (fécondation)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "correct": null,
+        "correction": "**chimiques** (vs nerveuse électrique)."
+      }
+    ],
+    "level": "4eme",
+    "subject": "SVT"
+  }
+}

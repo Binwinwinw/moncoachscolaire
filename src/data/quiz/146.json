@@ -1,0 +1,97 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 22",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ere : Expression avancée",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-08 00:05:00"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 22",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "id": 1,
+        "type": "qcm",
+        "question": "Which sentence correctly uses the passive voice?",
+        "choices": [
+          "The book was wrote by Shakespeare.",
+          "The book was written by Shakespeare.",
+          "The book has been write by Shakespeare.",
+          "The book were written by Shakespeare."
+        ]
+      },
+      {
+        "id": 2,
+        "type": "vrai-faux",
+        "question": "In English, the present perfect can be used to describe a past action that still has a connection to the present."
+      },
+      {
+        "id": 3,
+        "type": "texte",
+        "question": "Reformule la phrase suivante au discours indirect (reported speech) : She said: \"I have never been to London.\"",
+        "placeholder": "Écris ta réponse ici..."
+      },
+      {
+        "id": 4,
+        "type": "qcm",
+        "question": "Which sentence correctly uses the third conditional?",
+        "choices": [
+          "If I had studied harder, I would have passed the exam.",
+          "If I studied harder, I would passed the exam.",
+          "If I had studied harder, I would pass the exam.",
+          "If I study harder, I would have passed the exam."
+        ]
+      },
+      {
+        "id": 5,
+        "type": "vrai-faux",
+        "question": "The modal verb \"must\" can express both obligation and logical deduction."
+      },
+      {
+        "id": 6,
+        "type": "texte",
+        "question": "Transforme la phrase suivante à la voix passive : \"Scientists have discovered a new species of bird.\"",
+        "placeholder": "Écris ta réponse ici..."
+      },
+      {
+        "id": 7,
+        "type": "qcm",
+        "question": "Choose the sentence that correctly uses a defining relative clause.",
+        "choices": [
+          "The student which won the prize is very talented.",
+          "The student who won the prize is very talented.",
+          "The student whom won the prize is very talented.",
+          "The student whose won the prize is very talented."
+        ]
+      },
+      {
+        "id": 8,
+        "type": "vrai-faux",
+        "question": "In English, \"used to + infinitive\" is used to talk about a past habit or state that no longer exists."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "La voix passive (Passive Voice)",
+      "description": "Construction et usage de la voix passive en anglais : be + past participle. Permet de mettre l'accent sur l'action plutôt que sur le sujet."
+    },
+    {
+      "notion": "Le discours indirect (Reported Speech)",
+      "description": "Transformation des paroles directes en discours rapporté avec les changements de temps, pronoms et expressions de temps nécessaires."
+    },
+    {
+      "notion": "Les structures conditionnelles et modaux",
+      "description": "Usage des conditionnels (notamment le 3ème conditionnel) et des verbes modaux (must, should, would) pour exprimer hypothèse, obligation et déduction."
+    }
+  ],
+  "exerciseresponses": []
+}

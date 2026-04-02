@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 3eme - Série 761",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 3eme : Medias, information et democratie",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Medias, information et democratie",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "EMC",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel principe garantit en France la liberte de la presse ?",
+        "choices": [
+          "La loi du 29 juillet 1881 sur la liberte de la presse",
+          "La loi de 1905",
+          "La Constitution de 1958",
+          "La loi de 1972 contre le racisme"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La liberte d'expression est un droit absolu sans aucune limite legale."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la propagation deliberee de fausses informations pour tromper le public ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel organisme public regulateur surveille les medias audiovisuels (TV, radio) en France ?",
+        "choices": [
+          "Le CSA / ARCOM",
+          "Le Conseil constitutionnel",
+          "Le ministere de la Culture",
+          "L'Assemblee nationale"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Verifier les sources d'une information avant de la partager est une pratique essentielle de l'education aux medias."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on le phenomene par lequel les algorithmes des reseaux sociaux n'exposent l'utilisateur qu'a des informations confirmant ses opinions ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel role essentiel jouent les journalistes dans une democratie ?",
+        "choices": [
+          "Soutenir le gouvernement en place",
+          "Informer le public, controler les pouvoirs et donner la parole aux citoyens",
+          "Divertir uniquement",
+          "Appliquer les lois"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les donnees personnelles des utilisateurs de reseaux sociaux sont protegees par le RGPD en Europe."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

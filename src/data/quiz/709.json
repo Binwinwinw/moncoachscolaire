@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 709",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie 3ème : Électrolyse et applications",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Électrolyse et applications",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que l'électrolyse ?",
+        "choices": [
+          "Une réaction spontanée de combustion",
+          "Une réaction chimique forcée par un courant électrique",
+          "La dissolution d'un sel dans l'eau",
+          "La production de chaleur par électricité"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Lors de l'électrolyse de l'eau, du dihydrogène se dégage à la cathode."
+      },
+      {
+        "type": "open",
+        "question": "Quel gaz se dégage à l'anode lors de l'électrolyse de l'eau ?"
+      },
+      {
+        "type": "qcm",
+        "question": "À quoi sert l'électrolyse dans l'industrie ?",
+        "choices": [
+          "À produire des polymères",
+          "À affiner les métaux et produire du chlore ou de l'hydrogène",
+          "À synthétiser des médicaments uniquement",
+          "À purifier l'eau potable"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'électrolyse peut être utilisée pour recharger des batteries."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on le dépôt d'une couche métallique sur un objet par électrolyse ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la relation entre la quantité d'électricité et la masse déposée lors d'une électrolyse ?",
+        "choices": [
+          "Aucune relation",
+          "La masse déposée est proportionnelle à la charge électrique (loi de Faraday)",
+          "La masse déposée dépend uniquement de la température",
+          "La masse diminue quand la charge augmente"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La production d'hydrogène par électrolyse est une piste pour le stockage des énergies renouvelables."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 712",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie 3ème : Acides et bases : réactions et neutralisation",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Acides et bases : réactions et neutralisation",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Que produit la réaction entre l'acide chlorhydrique HCl et la soude NaOH ?",
+        "choices": [
+          "HCl et NaOH restent inchangés",
+          "NaCl + H2O",
+          "Na + Cl2 + H2",
+          "NaOH2 + Cl"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Lors d'une neutralisation totale, le pH de la solution résultante est toujours 7."
+      },
+      {
+        "type": "open",
+        "question": "Quel nom porte la technique qui consiste à ajouter progressivement un réactif jusqu'à la neutralisation complète ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Comment appelle-t-on le point d'un titrage où les réactifs ont réagi en proportions stœchiométriques ?",
+        "choices": [
+          "Point d'inflexion",
+          "Point d'équivalence",
+          "Point de saturation",
+          "Point isoélectrique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'acide sulfurique H2SO4 est un acide fort qui se dissocie totalement en solution aqueuse."
+      },
+      {
+        "type": "open",
+        "question": "Quel nom porte le sel formé par la réaction de l'acide sulfurique avec la soude NaOH ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle solution tampon maintient le pH sanguin ?",
+        "choices": [
+          "Tampon acide acétique/acétate",
+          "Tampon carbonate/bicarbonate (CO2/HCO3-)",
+          "Tampon phosphate de sodium",
+          "Tampon acide chlorhydrique/chlorure"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les pluies acides sont causées par la dissolution de SO2 et NOx dans l'eau atmosphérique."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

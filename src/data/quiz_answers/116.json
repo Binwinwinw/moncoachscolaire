@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 5ème Anglais",
+    "level": "5eme",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 5ème Anglais",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "**play** (I 1ère personne -s)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "correct": true,
+        "correction": "**Vrai**. He is = il est."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "correct": null,
+        "correction": "**is** (to be 3ps)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "**do you live** (question do/does)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "correct": true,
+        "correction": "**Vrai**. She has = elle a."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "correct": null,
+        "correction": "**three o'clock** (it's + heure)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "**red** (rojo anglais)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "correct": null,
+        "correction": "**Nice to meet you too** / Pleased to meet you."
+      }
+    ],
+    "level": "5eme",
+    "subject": "Anglais"
+  }
+}

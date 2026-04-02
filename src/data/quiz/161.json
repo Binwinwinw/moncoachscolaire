@@ -1,0 +1,97 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 37",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ere : Le comparatif et le superlatif",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-08 00:05:00"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 37",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "id": 1,
+        "type": "qcm",
+        "question": "Choose the correct comparative form: 'This exercise is ___ than the previous one.'",
+        "choices": [
+          "more difficult",
+          "difficulter",
+          "most difficult",
+          "difficultier"
+        ]
+      },
+      {
+        "id": 2,
+        "type": "vrai-faux",
+        "question": "The superlative form of 'good' is 'the goodest'."
+      },
+      {
+        "id": 3,
+        "type": "texte",
+        "question": "Traduis en anglais en utilisant la structure 'the + comparatif... the + comparatif' : 'Plus tu pratiques, meilleur tu deviens.'",
+        "placeholder": "Écris ta réponse ici..."
+      },
+      {
+        "id": 4,
+        "type": "qcm",
+        "question": "Choose the correct superlative sentence:",
+        "choices": [
+          "Mount Everest is the most high mountain in the world.",
+          "Mount Everest is the highest mountain in the world.",
+          "Mount Everest is higher mountain in the world.",
+          "Mount Everest is the more high mountain in the world."
+        ]
+      },
+      {
+        "id": 5,
+        "type": "vrai-faux",
+        "question": "'She is as talented as her sister' expresses that the two sisters have an equal level of talent."
+      },
+      {
+        "id": 6,
+        "type": "texte",
+        "question": "Corrige l'erreur dans la phrase suivante : 'This is the more interesting book I have ever read.'",
+        "placeholder": "Écris ta réponse ici..."
+      },
+      {
+        "id": 7,
+        "type": "qcm",
+        "question": "Which sentence correctly uses 'fewer' or 'less'?",
+        "choices": [
+          "There are less students in this class than last year.",
+          "There are fewer students in this class than last year.",
+          "There are fewer water in this bottle.",
+          "I have less books than you."
+        ]
+      },
+      {
+        "id": 8,
+        "type": "vrai-faux",
+        "question": "'The situation is getting worse and worse' uses a double comparative correctly to express a progressive change."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Le comparatif",
+      "description": "Adjectifs courts (1 syllabe) : + er + than. Ex : tall → taller than, fast → faster than. Adjectifs longs (2+ syllabes) : more + adj + than. Ex : beautiful → more beautiful than. Irréguliers : good → better, bad → worse, far → farther/further. Égalité : as + adj + as. Infériorité : less + adj + than."
+    },
+    {
+      "notion": "Le superlatif",
+      "description": "Adjectifs courts : the + adj + est. Ex : the tallest, the fastest. Adjectifs longs : the most + adj. Ex : the most beautiful. Irréguliers : good → the best, bad → the worst, far → the farthest/furthest. Le superlatif est toujours précédé de 'the'. Souvent suivi de 'in' (in the world) ou 'of' (of all)."
+    },
+    {
+      "notion": "Structures comparatives avancées",
+      "description": "Comparatif de supériorité : more and more + adj (de plus en plus). Double comparatif : the + comparatif..., the + comparatif (plus... plus...). Ex : The harder you work, the better results you get. Comparaisons avec noms : more/fewer (dénombrables), more/less (indénombrables)."
+    }
+  ],
+  "exerciseresponses": []
+}

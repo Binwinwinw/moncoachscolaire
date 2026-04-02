@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 742",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie 3ème : Forces et mouvement : gravitation universelle",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Forces et mouvement : gravitation universelle",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qui a formulé la loi de la gravitation universelle ?",
+        "choices": [
+          "Albert Einstein",
+          "Galilée",
+          "Isaac Newton",
+          "Copernic"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La force de gravitation entre deux objets est proportionnelle au produit de leurs masses."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on le mouvement des planètes autour du Soleil ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Si la distance entre deux objets double, comment varie la force gravitationnelle ?",
+        "choices": [
+          "Elle double",
+          "Elle se divise par 2",
+          "Elle se divise par 4",
+          "Elle reste la même"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les satellites artificiels sont en orbite car la gravité les attire vers la Terre tout en se déplaçant à grande vitesse."
+      },
+      {
+        "type": "open",
+        "question": "Quelle est la valeur de l'intensité du champ gravitationnel g à la surface de la Terre ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Que se passe-t-il avec le poids d'un astronaute dans la Station Spatiale Internationale (SSI) ?",
+        "choices": [
+          "Son poids est nul",
+          "Son poids est identique à sur Terre",
+          "Il est en état d'apesanteur (chute libre) mais son poids n'est pas nul",
+          "Son poids est le double de celui sur Terre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les marées sur Terre sont causées principalement par l'attraction gravitationnelle de la Lune."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

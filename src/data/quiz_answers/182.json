@@ -1,0 +1,76 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Geographie 1ere - Série 182",
+    "level": "1ere",
+    "subject": "Histoire-Geographie"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Histoire-Géographie - Serie 8",
+    "question_count": 8,
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Charles de Gaulle",
+        "correct": 2,
+        "correction": "Charles de Gaulle rédige et fait adopter la constitution de la Ve République (4 octobre 1958), dont il devient le premier président. Il instaure un régime semi-présidentiel qui renforce considérablement le pouvoir exécutif par rapport à la IVe République."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Initialement élu par un collège électoral, le président est élu au suffrage universel direct depuis la révision constitutionnelle de 1962, approuvée par référendum. Cette modification renforce encore la légitimité et le pouvoir présidentiel."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "correct_answer": "La cohabitation est la situation où le président de la République et le Premier ministre sont de tendances politiques opposées. Elle survient pour la première fois en 1986.",
+        "answer": "La cohabitation est la situation où le président de la République et le Premier ministre sont de tendances politiques opposées. Elle survient pour la première fois en 1986.",
+        "correction": "La cohabitation désigne la coexistence d'un président et d'un gouvernement de majorités politiques adverses. Sous la Ve République, elle s'est produite trois fois : 1986-1988 (Mitterrand-Chirac), 1993-1995 (Mitterrand-Balladur), 1997-2002 (Chirac-Jospin). Le quinquennat adopté en 2000 rend la cohabitation moins probable en alignant les élections présidentielle et législative."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Une grande vague de grèves et de contestation étudiante et ouvrière",
+        "correct": 1,
+        "correction": "Mai 68 est une crise sociale et culturelle sans précédent : grèves généralisées (10 millions de grévistes), occupation des universités et des usines, revendications étudiantes de réforme de l'université et ouvrières d'augmentation de salaires. Si de Gaulle survit politiquement (victoires électorales de juin 1968), il démissionne en 1969. Mai 68 transforme profondément les mœurs et la société française."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Élu le 10 mai 1981, François Mitterrand est le premier président de gauche de la Ve République, mettant fin à 23 ans de domination de la droite. Il engage des réformes importantes : nationalisations, abolition de la peine de mort (1981), décentralisation, semaine de 39 heures et 5e semaine de congés payés."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "correct_answer": "La décentralisation transfère des compétences de l'État central aux collectivités territoriales (régions, départements, communes).",
+        "answer": "La décentralisation transfère des compétences de l'État central aux collectivités territoriales (régions, départements, communes).",
+        "correction": "Les lois Defferre (1982-1983) constituent la première grande réforme de décentralisation de la France, État historiquement très centralisé. Elles transfèrent des compétences importantes aux régions (développement économique), aux départements (action sociale) et aux communes (urbanisme). Les collectivités territoriales gagnent une vraie autonomie de gestion, bien que l'État reste le principal garant des inégalités territoriales."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Le populisme",
+        "correct": 1,
+        "correction": "Le populisme désigne les mouvements ou partis qui se réclament du peuple contre les élites, remettant en cause les institutions représentatives traditionnelles. Il peut être de droite (FN/RN) ou de gauche (La France Insoumise). La montée du populisme est souvent analysée comme une réponse à la crise de la représentation politique."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'article 1er de la Constitution de 1958 définit la France comme une 'République indivisible, laïque, démocratique et sociale'. La laïcité, issue de la loi de 1905, signifie que l'État n'adhère à aucune religion, garantit la liberté de conscience et organise la séparation des institutions publiques et des organisations religieuses."
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 2nde - Serie 977",
+    "level": "2nde",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Représentation graphique",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "C",
+        "correction": "La courbe est l'ensemble {(x, f(x)) | x ∈ D(f)}."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Test de la droite verticale : si une verticale coupe la courbe en plus d'un point, ce n'est pas une fonction."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "On trace la droite verticale x = 2 et on lit l'ordonnée du point d'intersection avec la courbe.",
+        "correction": "L'abscisse correspond à l'antécédent, l'ordonnée au point sur la courbe est l'image f(2)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "B",
+        "correction": "Un point (a, b) sur la courbe de f signifie f(a) = b, donc f(3) = 5."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "On part de la valeur sur l'axe y (ordonnée), on trace une horizontale et on lit l'abscisse du point d'intersection."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "La courbe est symétrique par rapport à l'axe (Oy) : pour tout x, le point (x, f(x)) a son symétrique (−x, f(x)) sur la courbe.",
+        "correction": "f est paire si f(−x) = f(x). Graphiquement, la courbe est invariante par réflexion par rapport à l'axe des ordonnées."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "B",
+        "correction": "x² = 0 → x = 0 : la parabole est tangente à l'axe en un seul point, l'origine."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les intersections avec l'axe des x sont les solutions de f(x) = 0, appelées zéros ou racines."
+      }
+    ]
+  }
+}

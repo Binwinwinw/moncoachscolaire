@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques Terminale - Serie 1026",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques Terminale : Propriétés du logarithme",
+    "status": "published",
+    "created_at": "2026-03-13 11:24:24",
+    "updated_at": "2026-03-13 11:24:24"
+  },
+  "quiz": {
+    "title": "Propriétés du logarithme",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Que vaut ln(a · b) ?",
+        "choices": [
+          "ln(a) · ln(b)",
+          "ln(a) + ln(b)",
+          "ln(a) − ln(b)",
+          "ln(a)^ln(b)"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "ln(a/b) = ln(a) − ln(b) pour a, b > 0."
+      },
+      {
+        "type": "open",
+        "question": "Simplifie : ln(8) en utilisant les propriétés du logarithme."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la valeur de ln(e⁵) − ln(e²) ?",
+        "choices": [
+          "3",
+          "7",
+          "e³",
+          "ln 3"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "ln(aⁿ) = n · ln(a) pour tout entier n et tout a > 0."
+      },
+      {
+        "type": "open",
+        "question": "Résous ln(x) + ln(x − 2) = ln(3) avec x > 2."
+      },
+      {
+        "type": "qcm",
+        "question": "Que vaut ln(√e) ?",
+        "choices": [
+          "1",
+          "1/2",
+          "2",
+          "e/2"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "ln(a + b) = ln(a) + ln(b)."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

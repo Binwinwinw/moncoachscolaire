@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 740",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie 3ème : Forces et mouvement : les forces et leur représentation",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Forces et mouvement : les forces et leur représentation",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Comment représente-t-on une force en physique ?",
+        "choices": [
+          "Par un nombre seul",
+          "Par une flèche (vecteur) avec un point d'application, une direction, un sens et une norme",
+          "Par une courbe",
+          "Par une valeur en joules"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'unité de la force est le newton (N)."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la force exercée par la Terre sur un objet ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que la résultante de plusieurs forces ?",
+        "choices": [
+          "La plus grande des forces",
+          "La somme vectorielle de toutes les forces",
+          "La différence entre la plus grande et la plus petite force",
+          "La moyenne des forces"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un objet est en équilibre si la résultante de toutes les forces qui s'exercent sur lui est nulle."
+      },
+      {
+        "type": "open",
+        "question": "Quelle est la différence entre la masse et le poids d'un objet ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Comment appelle-t-on la force qui s'oppose au mouvement d'un solide sur une surface ?",
+        "choices": [
+          "Force normale",
+          "Tension",
+          "Frottement",
+          "Poussée d'Archimède"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La poussée d'Archimède est une force exercée par un fluide sur un corps immergé, orientée vers le haut."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

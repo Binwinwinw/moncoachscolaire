@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES 1ère - Série 838",
+    "level": "1ère",
+    "subject": "SES"
+  },
+  "quiz": {
+    "title": "La redistribution et l'État-providence",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "SES",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Assure la protection sociale de ses citoyens contre les risques (maladie, chômage, vieillesse)",
+        "correct": 1,
+        "correction": "L'État-providence (Welfare State) est né après la Seconde Guerre mondiale (rapport Beveridge, Sécurité sociale 1945)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La redistribution verticale prélève davantage sur les hauts revenus (impôt progressif) et verse des prestations aux plus modestes."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "Redistribution horizontale : transferts entre personnes ayant le même niveau de revenu selon leur situation (ex : allocations familiales, assurance maladie). Redistribution verticale : transferts des riches vers les pauvres pour réduire les inégalités (ex : RSA, impôt progressif).",
+        "correction": "La Sécurité sociale réalise les deux types de redistribution."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Le taux d'imposition augmente avec le revenu",
+        "correct": 1,
+        "correction": "L'impôt sur le revenu (IR) est progressif en France : plus on gagne, plus le taux marginal est élevé, réduisant les inégalités."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "La TVA est un impôt proportionnel et même régressif : les ménages modestes consacrent une plus grande part de leur revenu à la consommation taxée."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "1. Maladie (remboursement soins) ; 2. Retraite (vieillesse) ; 3. Famille (allocations familiales) ; 4. Accidents du travail/maladies professionnelles ; 5. Autonomie (dépendance, créée 2020).",
+        "correction": "La Sécurité sociale est financée par les cotisations sociales et la CSG/CRDS."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Le degré d'inégalité des revenus dans une population",
+        "correct": 2,
+        "correction": "Le Gini varie de 0 (égalité parfaite) à 1 (inégalité totale). La France a un Gini d'environ 0,29 avant redistribution et 0,29 après (redistribution significative)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Selon l'INSEE, la redistribution réduit le Gini de marché d'environ 40 %, grâce aux prélèvements progressifs et aux prestations sociales."
+      }
+    ]
+  }
+}

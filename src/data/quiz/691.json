@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 691",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 3ème : Révisions : évolution et classification",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "Révisions : évolution et classification",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "La sélection naturelle agit principalement sur :",
+        "choices": [
+          "Les gènes sans effet sur le phénotype",
+          "Les caractères héréditaires influençant survie et reproduction",
+          "Les habitudes acquises pendant la vie",
+          "Les besoins conscients des individus"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un clade rassemble un ancêtre commun et seulement une partie de ses descendants."
+      },
+      {
+        "type": "open",
+        "question": "Les ressemblances héritées d'un ancêtre commun entre deux organes sont appelées organes _____."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel fossile de transition est souvent cité entre certains dinosaures et les oiseaux ?",
+        "choices": [
+          "Trilobite",
+          "Archaeopteryx",
+          "Lucy",
+          "Mammouth laineux"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'évolution peut conduire à la disparition d'espèces aussi bien qu'à l'apparition de nouvelles espèces."
+      },
+      {
+        "type": "open",
+        "question": "La science qui reconstitue les liens de parenté entre espèces à partir de caractères partagés s'appelle la _____."
+      },
+      {
+        "type": "qcm",
+        "question": "Pourquoi les bactéries résistantes deviennent-elles plus fréquentes après un traitement antibiotique mal conduit ?",
+        "choices": [
+          "Parce qu'elles apprennent à résister",
+          "Parce que l'antibiotique sélectionne les bactéries déjà résistantes",
+          "Parce que le médicament les transforme toutes",
+          "Parce qu'elles cessent de se reproduire"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La classification phylogénétique repose sur des liens de parenté et non sur la seule ressemblance extérieure."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

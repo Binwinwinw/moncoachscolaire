@@ -1,0 +1,607 @@
+/* Styles pour la page exercices BAC - basés sur exercices-terminale.css */
+body.page-exercices-bac main { max-width: 1000px; margin: 0 auto; padding: 2rem; }
+body.page-exercices-bac .header { text-align: center; margin-bottom: 40px; border-bottom: 3px solid #f59e0b; padding-bottom: 20px; }
+body.page-exercices-bac .header h1 { color: #f59e0b; font-size: 28px; margin-bottom: 10px; }
+body.page-exercices-bac .subtitle { color: #4b5563; font-size: 18px; font-style: italic; font-weight: 500; }
+body.page-exercices-bac h2 { color: #f59e0b; border-left: 5px solid #f59e0b; padding-left: 15px; margin-top: 30px; }
+body.page-exercices-bac h3 { color: #357a32; margin-top: 25px; }
+body.page-exercices-bac .coach-message { background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%); border-left: 4px solid #f59e0b; padding: 20px; margin: 20px 0; border-radius: 8px; font-style: italic; }
+body.page-exercices-bac .coach-message strong { color: #f59e0b; font-size: 18px; }
+body.page-exercices-bac .coach-preview { background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); border: 2px solid #e2e8f0; border-radius: 15px; padding: 2rem; text-align: center; margin: 2rem 0; }
+body.page-exercices-bac .coach-preview h2 { color: #f59e0b; margin-bottom: 1rem; }
+body.page-exercices-bac .coach-preview p { color: #64748b; font-size: 1.1rem; margin-bottom: 1.5rem; }
+body.page-exercices-bac .preview-features { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 2rem 0; }
+body.page-exercices-bac .preview-feature { background: white; padding: 1.5rem; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+body.page-exercices-bac .preview-feature h3 { color: #059669; margin-bottom: 0.5rem; }
+body.page-exercices-bac .preview-feature p { color: #64748b; font-size: 0.9rem; }
+body.page-exercices-bac .coach-cta { background: linear-gradient(135deg, #059669 0%, #10b981 100%); color: white; border: none; padding: 1rem 2rem; border-radius: 8px; font-size: 1.1rem; font-weight: 600; cursor: pointer; text-decoration: none; display: inline-block; margin: 0 0.5rem; transition: all 0.3s ease; }
+body.page-exercices-bac .coach-cta:hover { transform: translateY(-2px); box-shadow: 0 10px 20px rgba(5, 150, 105, 0.3); }
+body.page-exercices-bac .coach-cta.secondary { background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); }
+body.page-exercices-bac .coach-cta.secondary:hover { box-shadow: 0 10px 20px rgba(245, 158, 11, 0.3); }
+body.page-exercices-bac .exercise-card { background: #f8f9fa; border: 2px solid #e9ecef; border-radius: 10px; padding: 20px; margin: 20px 0; transition: all 0.3s ease; }
+body.page-exercices-bac .exercise-card:hover { border-color: #f59e0b; box-shadow: 0 4px 12px rgba(245, 158, 11, 0.1); }
+
+/* Focus styles for keyboard users */
+body.page-exercices-bac .card-toggle:focus,
+body.page-exercices-bac .btn-coach:focus,
+body.page-exercices-bac .btn-back-subject:focus {
+    outline: 3px solid rgba(245,158,11,0.18);
+    outline-offset: 2px;
+}
+
+/* Cartes de matières */
+body.page-exercices-bac .subjects-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+body.page-exercices-bac .subject-card {
+    background: white;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+body.page-exercices-bac .subject-card:hover {
+    border-color: #f59e0b;
+    box-shadow: 0 4px 12px rgba(245, 158, 11, 0.2);
+    transform: translateY(-4px);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+body.page-exercices-bac .subject-card.active {
+    border-color: #f59e0b;
+    background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%);
+}
+
+body.page-exercices-bac .subject-card-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+body.page-exercices-bac .subject-card-title {
+    color: #f59e0b;
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    font-weight: 700;
+}
+
+body.page-exercices-bac .subject-card-desc {
+    color: #64748b;
+    font-size: 0.95rem;
+    margin: 0.5rem 0;
+}
+
+body.page-exercices-bac .subject-card-arrow {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 1.5rem;
+    color: #f59e0b;
+    opacity: 0.6;
+    transition: all 0.3s ease;
+}
+
+body.page-exercices-bac .subject-card:hover .subject-card-arrow {
+    opacity: 1;
+    transform: translateX(5px);
+}
+
+/* Section de cours */
+body.page-exercices-bac .cours-section-header {
+    margin-bottom: 2rem;
+}
+
+body.page-exercices-bac .btn-back-subject {
+    background: #f1f5f9;
+    border: 2px solid #e2e8f0;
+    color: #475569;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    margin-bottom: 1rem;
+}
+
+body.page-exercices-bac .btn-back-subject:hover {
+    background: #e2e8f0;
+    border-color: #f59e0b;
+    color: #d97706;
+}
+
+body.page-exercices-bac .cours-section-header h2 {
+    color: #f59e0b;
+    font-size: 1.75rem;
+    margin: 1rem 0;
+    border-left: 5px solid #f59e0b;
+    padding-left: 1rem;
+}
+
+body.page-exercices-bac .exercise-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
+body.page-exercices-bac .difficulty { background: #f59e0b; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; }
+body.page-exercices-bac .progress-bar { width: 100%; height: 8px; background: #e9ecef; border-radius: 4px; margin: 10px 0; overflow: hidden; }
+body.page-exercices-bac .progress-fill { height: 100%; background: linear-gradient(90deg, #357a32, #f59e0b); width: 0%; transition: width 0.5s ease; }
+body.page-exercices-bac .motivation-box { background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 100%); border: 2px solid #f59e0b; border-radius: 10px; padding: 15px; margin: 15px 0; text-align: center; }
+body.page-exercices-bac .motivation-box h4 { color: #d97706; margin-bottom: 10px; }
+body.page-exercices-bac .btn-coach { background: #f59e0b; color: white; border: none; padding: 10px 20px; border-radius: 6px; cursor: pointer; font-weight: bold; transition: all 0.3s ease; }
+body.page-exercices-bac .btn-coach:hover { background: #d97706; transform: translateY(-2px); }
+body.page-exercices-bac .success-message { background: #d4edda; color: #155724; padding: 15px; border-radius: 6px; margin: 15px 0; display: none; }
+body.page-exercices-bac .cta-actions { margin-top: 2rem; text-align: center; }
+body.page-exercices-bac .tip-box { background: #fffbeb; border-left: 4px solid #f59e0b; padding: 15px; margin: 15px 0; }
+body.page-exercices-bac .tip-box h4 { color: #f59e0b; margin-bottom: 8px; }
+body.page-exercices-bac .bac-alert { background: linear-gradient(135deg, #fff5f5 0%, #ffeaea 100%); border: 2px solid #f59e0b; border-radius: 10px; padding: 15px; margin: 15px 0; text-align: center; }
+body.page-exercices-bac .bac-alert h4 { color: #f59e0b; margin-bottom: 10px; }
+
+/* Styles pour le système d'exercices dynamiques */
+body.page-exercices-bac .exercise-subject-group {
+    margin: 2rem 0;
+}
+
+body.page-exercices-bac .exercise-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+body.page-exercices-bac .progress-section {
+    margin-top: 1.5rem;
+}
+
+body.page-exercices-bac .progress-item {
+    margin: 1rem 0;
+}
+
+body.page-exercices-bac .progress-item h5 {
+    margin-bottom: 0.5rem;
+    color: #f59e0b;
+}
+
+/* Styles pour exercices interactifs */
+body.page-exercices-bac .math-container,
+body.page-exercices-bac .qcm-container,
+body.page-exercices-bac .conjugation-container {
+    margin: 1.5rem 0;
+}
+
+body.page-exercices-bac .math-question,
+body.page-exercices-bac .qcm-question {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    border-left: 4px solid #f59e0b;
+}
+
+body.page-exercices-bac .math-question label,
+body.page-exercices-bac .qcm-question label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+body.page-exercices-bac .math-question input[type="text"],
+body.page-exercices-bac .math-question input[type="number"] {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #e5e7eb;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+body.page-exercices-bac .math-question input:focus {
+    outline: none;
+    border-color: #f59e0b;
+}
+
+body.page-exercices-bac .qcm-choices {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+}
+
+body.page-exercices-bac .qcm-choice {
+    display: block !important;
+    width: 100% !important;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    background: #f8f9fa;
+    border: 2px solid #e5e7eb;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-sizing: border-box;
+}
+
+body.page-exercices-bac .qcm-choice:hover {
+    background: #f1f5f9;
+    border-color: #f59e0b;
+}
+
+body.page-exercices-bac .qcm-choice input[type="radio"] {
+    margin-right: 0.5rem;
+}
+
+body.page-exercices-bac .qcm-choice.correct {
+    background: #d1fae5;
+    border-color: #10b981;
+    color: #065f46;
+}
+
+body.page-exercices-bac .qcm-choice.incorrect {
+    background: #fee2e2;
+    border-color: #ef4444;
+    color: #991b1b;
+}
+
+body.page-exercices-bac .conjugation-field {
+    margin-bottom: 1rem;
+}
+
+body.page-exercices-bac .conjugation-field label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+body.page-exercices-bac .conjugation-field input[type="text"] {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #e5e7eb;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+body.page-exercices-bac .math-feedback,
+body.page-exercices-bac .qcm-feedback,
+body.page-exercices-bac .conjugation-feedback {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+body.page-exercices-bac .feedback-correct {
+    background: #d1fae5;
+    border-left: 4px solid #10b981;
+    color: #065f46;
+}
+
+body.page-exercices-bac .feedback-incorrect {
+    background: #fee2e2;
+    border-left: 4px solid #ef4444;
+    color: #991b1b;
+}
+
+body.page-exercices-bac .btn-check-math,
+body.page-exercices-bac .btn-check-qcm,
+body.page-exercices-bac .btn-check-conjugation {
+    background: #f59e0b;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s;
+    margin-top: 1rem;
+}
+
+body.page-exercices-bac .btn-check-math:hover,
+body.page-exercices-bac .btn-check-qcm:hover,
+body.page-exercices-bac .btn-check-conjugation:hover {
+    background: #d97706;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(245, 158, 11, 0.3);
+}
+
+/* Styles pour la navigation entre niveaux */
+body.page-exercices-bac .exercise-navigation {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 2px solid #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+body.page-exercices-bac .exercise-navigation .nav-group {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+body.page-exercices-bac .exercise-navigation .nav-btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: inline-block;
+    color: white;
+}
+
+body.page-exercices-bac .exercise-navigation .nav-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+body.page-exercices-bac .exercise-navigation .nav-prev,
+body.page-exercices-bac .exercise-navigation .nav-next {
+    background: #f59e0b;
+}
+
+body.page-exercices-bac .exercise-navigation .nav-prev:hover,
+body.page-exercices-bac .exercise-navigation .nav-next:hover {
+    background: #d97706;
+    box-shadow: 0 4px 8px rgba(245, 158, 11, 0.3);
+}
+
+@media (max-width: 768px) {
+    body.page-exercices-bac .exercise-navigation {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    body.page-exercices-bac .exercise-navigation .nav-group {
+        justify-content: center;
+    }
+}
+
+/* Styles pour les exercices Type BAC - Annales */
+body.page-exercices-bac .annales-section {
+    margin: 3rem 0;
+}
+
+body.page-exercices-bac .annales-section h3 {
+    color: #f59e0b;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    border-bottom: 3px solid #f59e0b;
+    padding-bottom: 1rem;
+}
+
+body.page-exercices-bac .bac-exercise-card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 2rem;
+    margin: 2rem 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: 2px solid #e5e7eb;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+body.page-exercices-bac .bac-exercise-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(245, 158, 11, 0.2);
+    border-color: #f59e0b;
+}
+
+body.page-exercices-bac .bac-exercise-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #f59e0b;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+body.page-exercices-bac .bac-exercise-header h4 {
+    color: #1f2937;
+    font-size: 1.5rem;
+    margin: 0;
+    flex: 1;
+    font-weight: 700;
+}
+
+body.page-exercices-bac .bac-year-badge {
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(245, 158, 11, 0.4);
+    white-space: nowrap;
+}
+
+body.page-exercices-bac .bac-exercise-content {
+    color: #374151;
+    line-height: 1.8;
+}
+
+body.page-exercices-bac .bac-exercise-content > p:first-of-type {
+    color: #f59e0b;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+
+body.page-exercices-bac .bac-exercise-part {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: #f9fafb;
+    border-radius: 12px;
+    border-left: 4px solid #667eea;
+}
+
+body.page-exercices-bac .bac-exercise-part h5 {
+    color: #1f2937;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #e5e7eb;
+    font-weight: 600;
+}
+
+body.page-exercices-bac .bac-exercise-part ul,
+body.page-exercices-bac .bac-exercise-part ol {
+    margin: 1rem 0;
+    padding-left: 2rem;
+}
+
+body.page-exercices-bac .bac-exercise-part li {
+    margin-bottom: 0.8rem;
+    line-height: 1.6;
+    color: #4b5563;
+}
+
+body.page-exercices-bac .bac-exercise-part li strong {
+    color: #1f2937;
+    font-weight: 600;
+}
+
+body.page-exercices-bac .bac-text-excerpt {
+    margin: 1.5rem 0;
+}
+
+body.page-exercices-bac .bac-text-excerpt p:first-child {
+    color: #f59e0b;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+body.page-exercices-bac .bac-text-excerpt p {
+    color: #4b5563;
+}
+
+body.page-exercices-bac .bac-correction {
+    margin-top: 2rem;
+    background: #d1fae5;
+    border: 2px solid #10b981;
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+body.page-exercices-bac .bac-correction summary {
+    cursor: pointer;
+    color: #065f46;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 0.75rem;
+    user-select: none;
+    transition: all 0.3s ease;
+}
+
+body.page-exercices-bac .bac-correction summary:hover {
+    background: #a7f3d0;
+    border-radius: 8px;
+}
+
+body.page-exercices-bac .bac-correction summary::-webkit-details-marker {
+    color: #065f46;
+}
+
+body.page-exercices-bac .correction-content {
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+    background: #ffffff;
+    border-radius: 8px;
+}
+
+body.page-exercices-bac .correction-content h6 {
+    color: #065f46;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #10b981;
+    font-weight: 600;
+}
+
+body.page-exercices-bac .correction-content h6:first-child {
+    margin-top: 0;
+}
+
+body.page-exercices-bac .correction-content ol,
+body.page-exercices-bac .correction-content ul {
+    margin: 1rem 0;
+    padding-left: 2rem;
+}
+
+body.page-exercices-bac .correction-content li {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+    color: #374151;
+}
+
+body.page-exercices-bac .correction-content li strong {
+    color: #065f46;
+    font-weight: 600;
+}
+
+body.page-exercices-bac .correction-content pre {
+    background: #f3f4f6;
+    padding: 1rem;
+    border-radius: 8px;
+    overflow-x: auto;
+    color: #1f2937;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin: 1rem 0;
+    border: 1px solid #e5e7eb;
+}
+
+body.page-exercices-bac .additional-exercises {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 3px solid #f59e0b;
+}
+
+body.page-exercices-bac .additional-exercises h3 {
+    color: #f59e0b;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Responsive pour les exercices BAC */
+@media (max-width: 768px) {
+    body.page-exercices-bac .bac-exercise-card {
+        padding: 1.5rem;
+    }
+
+    body.page-exercices-bac .bac-exercise-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    body.page-exercices-bac .bac-year-badge {
+        align-self: flex-end;
+    }
+
+    body.page-exercices-bac .bac-exercise-part {
+        padding: 1rem;
+    }
+
+    body.page-exercices-bac .correction-content {
+        padding: 1rem;
+    }
+
+    body.page-exercices-bac .correction-content pre {
+        font-size: 0.8rem;
+    }
+
+    body.page-exercices-bac .exercise-grid {
+        grid-template-columns: 1fr;
+    }
+}
+

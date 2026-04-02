@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 716",
+    "level": "3ème",
+    "subject": "Physique-Chimie"
+  },
+  "quiz": {
+    "title": "Combustion des carburants et énergie",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Pouvoir calorifique supérieur (PCS)",
+        "correct": 0,
+        "correction": "Le pouvoir calorifique (PCS ou PCI) caractérise l'énergie dégagée par la combustion complète d'une unité de masse de carburant."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "2H2 + O2 → 2H2O : la combustion du dihydrogène est propre car elle ne produit que de la vapeur d'eau."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "cliquetis",
+        "correction": "Le cliquetis (ou détonation) est une combustion anormale qui peut endommager le moteur à explosion."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Gaz naturel",
+        "correct": 2,
+        "correction": "Le gaz naturel (méthane CH4) émet le moins de CO2 par kWh produit parmi les combustibles fossiles."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les biocarburants sont théoriquement neutres en CO2 ; le CO2 émis lors de leur combustion avait été capturé par photosynthèse."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "C10H22",
+        "correction": "Le décane C10H22 est un alcane à 10 carbones, souvent utilisé comme modèle du kérosène en chimie."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Car la combustion est mieux contrôlée avec moins de pertes",
+        "correct": 1,
+        "correction": "L'injection directe optimise le mélange air/carburant, améliorant le rendement et réduisant les émissions polluantes."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La pile à combustible est un dispositif électrochimique qui convertit l'énergie chimique (H2 + O2 → H2O) directement en électricité."
+      }
+    ]
+  }
+}

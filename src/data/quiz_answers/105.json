@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ère Histoire-Géo",
+    "level": "1ere",
+    "subject": "Histoire-Géographie"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ère Histoire-Géo",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "**1945** (San Francisco, après WWII). 51 fondateurs."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "correct": true,
+        "correction": "**Vrai**. Blocs Ouest/Est → Chute Mur 1989."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "correct": null,
+        "correction": "**USA, Russie, Chine, France, UK** (P5 veto)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "**Russie-Ukraine** (février 2022, invasion)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "correct": true,
+        "correction": "**Vrai**. Cession souverainetés (euro, justice)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "correct": null,
+        "correction": "**Brésil, Russie, Inde, Chine, Afrique du Sud** (2009)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "**1949** (alliance atlantique anti-URSS)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "correct": null,
+        "correction": "**Années 1960** (Algérie 1962, Afrique noire indépendances)."
+      }
+    ],
+    "level": "1ere",
+    "subject": "Histoire-Géographie"
+  }
+}

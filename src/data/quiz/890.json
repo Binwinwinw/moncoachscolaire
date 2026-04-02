@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic NSI 1ère - Série 890",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "description": "Diagnostic NSI 1ère : Arbres et parcours",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "Arbres et parcours",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Un arbre binaire est une structure où chaque nœud a au maximum :",
+        "choices": [
+          "Un enfant",
+          "Deux enfants",
+          "Trois enfants",
+          "Un nombre illimité d'enfants"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La racine d'un arbre est le nœud sans parent."
+      },
+      {
+        "type": "open",
+        "question": "Décrivez les trois ordres de parcours d'un arbre binaire."
+      },
+      {
+        "type": "qcm",
+        "question": "Dans un arbre binaire de recherche (ABR), les éléments dans le sous-arbre gauche sont :",
+        "choices": [
+          "Plus grands que la racine",
+          "Plus petits que la racine",
+          "Égaux à la racine",
+          "Aléatoirement placés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La hauteur d'un arbre binaire équilibré de n nœuds est O(log n)."
+      },
+      {
+        "type": "open",
+        "question": "Implémentez en Python le parcours infixe d'un arbre binaire."
+      },
+      {
+        "type": "qcm",
+        "question": "Un tas (heap) est un arbre binaire où :",
+        "choices": [
+          "Les feuilles sont plus grandes que les racines",
+          "La racine est plus grande (max-heap) ou plus petite (min-heap) que tous ses descendants",
+          "Les nœuds sont triés par niveau",
+          "Tous les nœuds ont exactement deux enfants"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les arbres sont utilisés pour représenter les systèmes de fichiers des systèmes d'exploitation."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

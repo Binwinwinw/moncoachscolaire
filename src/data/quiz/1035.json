@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques Terminale - Serie 1035",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques Terminale : Suites arithmétiques",
+    "status": "published",
+    "created_at": "2026-03-13 11:24:24",
+    "updated_at": "2026-03-13 11:24:24"
+  },
+  "quiz": {
+    "title": "Suites arithmétiques",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Dans une suite arithmétique de raison r, le terme général est :",
+        "choices": [
+          "uₙ = u₀ · rⁿ",
+          "uₙ = u₀ + n·r",
+          "uₙ = u₀ · n",
+          "uₙ = u₁ · rⁿ⁻¹"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La différence entre deux termes consécutifs est constante dans une suite arithmétique."
+      },
+      {
+        "type": "open",
+        "question": "La suite (uₙ) est arithmétique avec u₀ = 5 et r = 3. Calcule u₁₀ et S = u₀ + u₁ + … + u₁₀."
+      },
+      {
+        "type": "qcm",
+        "question": "La somme des n premiers entiers 1 + 2 + … + n est :",
+        "choices": [
+          "n²",
+          "n(n+1)/2",
+          "n(n−1)/2",
+          "n²/2"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une suite arithmétique de raison positive est strictement croissante."
+      },
+      {
+        "type": "open",
+        "question": "Un employé gagne 2 000 € le premier mois et une augmentation de 50 € chaque mois. Quel est son salaire au bout de 12 mois ? Quelle est la somme totale perçue ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Pour une suite arithmétique, uₙ = 3n + 2. Quelle est la raison ?",
+        "choices": [
+          "2",
+          "3",
+          "5",
+          "n"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La somme de n termes consécutifs d'une suite arithmétique est n fois le terme central (ou la demi-somme des extrêmes)."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

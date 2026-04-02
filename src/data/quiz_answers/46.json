@@ -1,0 +1,72 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 5eme Anglais",
+    "type": "quiz",
+    "level": "5eme",
+    "subject": "Anglais",
+    "description": "Diagnostic past simple, present continuous, comparative 5eme"
+  },
+  "quiz": {
+    "title": "Diagnostic Anglais 5eme",
+    "level": "5eme",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "texte",
+        "answer": "played",
+        "correction": "Past simple régulier -ed"
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "qcm",
+        "answer": "I am playing",
+        "correction": "Present continuous NOW"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": true,
+        "correction": "VRAI. Comparative +er"
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "texte",
+        "answer": "goes",
+        "correction": "3e singulier -s"
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "better",
+        "correction": "Adjectif irrégulier good→better"
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "answer": "visited",
+        "correction": "Past simple -ed"
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "vrai-faux",
+        "answer": false,
+        "correction": "FAUX. He **goes**"
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "qcm",
+        "answer": "most interesting",
+        "correction": "Superlatif -est"
+      }
+    ]
+  }
+}

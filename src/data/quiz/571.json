@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 571",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 3ème : Les espaces urbains en France",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "Les espaces urbains en France",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle proportion de la population française vit en ville (en zone urbaine) ?",
+        "choices": [
+          "40%",
+          "60%",
+          "80%",
+          "95%"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La périurbanisation désigne l'extension de la ville vers ses périphéries rurales."
+      },
+      {
+        "type": "open",
+        "question": "Les ZUP (Zones à Urbaniser en Priorité) puis les banlieues en difficulté font l'objet de politiques de la _____ depuis les années 1980."
+      },
+      {
+        "type": "qcm",
+        "question": "Une métropole est :",
+        "choices": [
+          "Une ville de moins de 10 000 habitants",
+          "Un espace rural",
+          "Une grande ville qui rayonne sur une large région et propose de nombreux services",
+          "Un département"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Lyon, Marseille et Toulouse sont des métropoles régionales françaises."
+      },
+      {
+        "type": "open",
+        "question": "Le phénomène de _____ désigne le départ des classes moyennes et aisées des centres-villes vers la périphérie."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle loi française de 2000 exige que les communes intègrent au moins 20% de logements sociaux ?",
+        "choices": [
+          "Loi Malraux",
+          "Loi Veil",
+          "Loi SRU (Solidarité et Renouvellement Urbain)",
+          "Loi ELAN"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La gentrification désigne le remplacement progressif des habitants populaires d'un quartier par des classes aisées."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

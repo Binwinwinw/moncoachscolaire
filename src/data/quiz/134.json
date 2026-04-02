@@ -1,0 +1,102 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ère Anglais - Série 10",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ère : Sports, Leisure, Advanced Expression (Eduscol B1/B2)",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-09 18:33:00"
+  },
+  "quiz": {
+    "title": "1ère English Diagnostic - Series 10 (Sports & Leisure)",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Extreme sports are popular among youth because they offer:",
+        "choices": [
+          "Adrenaline rush",
+          "Safety guarantees",
+          "Low cost",
+          "Team spirit only"
+        ],
+        "correct_index": 0,
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Professional athletes earn too much compared to teachers.",
+        "correct": true,
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "Name 2 benefits of team sports for teenagers.",
+        "placeholder": "ex: Builds teamwork, boosts confidence",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Fronting emphasis: On teamwork _____ in football.",
+        "choices": [
+          "the success depends",
+          "depends the success",
+          "the success depend",
+          "depends success"
+        ],
+        "correct_index": 0,
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Esports will overtake traditional sports in popularity by 2030.",
+        "correct": false,
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "Why do people watch the Olympics? 1 main reason.",
+        "placeholder": "ex: International unity, top athletes competition",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "Doping scandals have damaged which sport's reputation?",
+        "choices": [
+          "Cycling (Lance Armstrong)",
+          "Swimming",
+          "Tennis",
+          "Athletics only"
+        ],
+        "correct_index": 0,
+        "id": 7
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Not football but rugby is France's national sport.",
+        "correct": false,
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Extreme Sports",
+      "description": "Risk vs thrill, safety debates (Eduscol 1ère)"
+    },
+    {
+      "notion": "Esports & Olympics",
+      "description": "Professionalization, doping issues"
+    },
+    {
+      "notion": "Advanced Grammar",
+      "description": "Fronting (On teamwork...), ellipsis, contrast connectors"
+    }
+  ]
+}

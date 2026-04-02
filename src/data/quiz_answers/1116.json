@@ -1,0 +1,48 @@
+{
+  "quiz_id": 1116,
+  "title": "Asymétries d'information",
+  "subject": "SES",
+  "level": "Terminale",
+  "answers": [
+    {
+      "question_id": "1116_1",
+      "correct_option": "B",
+      "explanation": "L'asymétrie d'information (Akerlof, Spence, Stiglitz, Nobel 2001) : vendeur ou acheteur en sait plus que l'autre sur la qualité du produit ou les intentions."
+    },
+    {
+      "question_id": "1116_2",
+      "correct": true,
+      "explanation": "Akerlof (1970) : sur le marché des voitures d'occasion, les vendeurs connaissent la qualité, pas les acheteurs → sélection adverse → que des « lemons » (mauvaises voitures) sur le marché → effondrement."
+    },
+    {
+      "question_id": "1116_3",
+      "correct_answer": "Sélection adverse (avant le contrat) : les mauvais risques sont plus enclins à contracter. Ex : en assurance, les personnes malades souscrivent plus → anti-sélection. Aléa moral (après le contrat) : l'assuré change de comportement. Ex : conduite plus imprudente après assurance.",
+      "explanation": "La sélection adverse concerne les caractéristiques cachées, l'aléa moral les actions cachées (action/information cachée)."
+    },
+    {
+      "question_id": "1116_4",
+      "correct_option": "B",
+      "explanation": "Spence (signaling) : le diplôme signale la productivité d'un candidat même si le contenu appris est peu pertinent. La garantie signale la qualité du produit."
+    },
+    {
+      "question_id": "1116_5",
+      "correct": true,
+      "explanation": "Ex : actionnaire (principal) / dirigeant (agent) ; assuré (principal) / médecin (agent). L'information cachée crée des problèmes d'incitation."
+    },
+    {
+      "question_id": "1116_6",
+      "correct_answer": "Les labels (bio, CE, NF) et certifications fournissent une garantie vérifiable par un tiers de confiance, permettant aux consommateurs d'évaluer la qualité sans l'observer directement, réduisant l'incertitude et les risques de sélection adverse.",
+      "explanation": "Ce sont des mécanismes de screening ou de signaling collectif, souvent normalisés par l'État ou les organismes professionnels."
+    },
+    {
+      "question_id": "1116_7",
+      "correct_option": "B",
+      "explanation": "L'assurance obligatoire (Sécu) force les bons risques à intégrer le pool → mutualisation équitable → pas de sélection adverse."
+    },
+    {
+      "question_id": "1116_8",
+      "correct": true,
+      "explanation": "La réputation (avis clients, marque, historique) signal la qualité sans contrat formel, incitant les entreprises à maintenir leur niveau de service."
+    }
+  ]
+}

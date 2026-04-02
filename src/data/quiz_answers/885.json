@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic NSI 1ère - Série 885",
+    "level": "1ère",
+    "subject": "NSI"
+  },
+  "quiz": {
+    "title": "Algorithmes de recherche",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "NSI",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Une suite finie d'instructions résolvant un problème",
+        "correct": 1,
+        "correction": "Un algorithme est une description abstraite d'une procédure de résolution, indépendante du langage de programmation."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La terminaison est une propriété fondamentale des algorithmes. Un processus qui ne se termine pas n'est pas un algorithme (c'est un problème de la calculabilité)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "POUR i de 0 à n-1 FAIRE\n  SI tableau[i] == cible ALORS\n    RETOURNER i\n  FIN SI\nFIN POUR\nRETOURNER -1  // non trouvé",
+        "correction": "La recherche séquentielle est simple mais O(n). Utilisée quand la liste n'est pas triée."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "O(log n)",
+        "correct": 1,
+        "correction": "À chaque étape, l'espace de recherche est divisé par 2. Après k étapes, il reste n/2ᵏ éléments. Terminaison quand 1 = n/2ᵏ, soit k = log₂(n)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "La recherche dichotomique nécessite un tableau trié pour pouvoir décider dans quelle moitié chercher."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "Un invariant de boucle est une propriété vraie avant la boucle, maintenue vraie après chaque itération, et vraie à la sortie. Il sert à prouver la correction d'un algorithme itératif. Ex : pour le tri par insertion, l'invariant est que le préfixe déjà traité est toujours trié.",
+        "correction": "Les invariants sont un outil formel pour raisonner sur la correction des algorithmes."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Liste chaînée ou collections.deque",
+        "correct": 1,
+        "correction": "Une file FIFO (First In, First Out) nécessite des opérations efficaces en tête et en queue. collections.deque offre O(1) pour ces deux opérations."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Pile LIFO : le dernier entré est le premier sorti. Opérations : push (empiler) et pop (dépiler). Utilisée pour les appels récursifs, l'analyse syntaxique."
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": 1073,
+  "title": "Dérivée de fonctions composées (introduction)",
+  "subject": "Mathématiques",
+  "level": "1ère",
+  "created_at": "2026-03-13T18:54:00.429843Z",
+  "questions": [
+    {
+      "id": "1073_1",
+      "type": "qcm",
+      "question": "La dérivée de (ax + b)ⁿ est :",
+      "options": [
+        "n·(ax+b)ⁿ⁻¹",
+        "n·a·(ax+b)ⁿ⁻¹",
+        "na·(ax+b)ⁿ",
+        "(ax+b)ⁿ⁻¹"
+      ]
+    },
+    {
+      "id": "1073_2",
+      "type": "vrai-faux",
+      "question": "La dérivée de √(ax + b) est a/(2√(ax+b))."
+    },
+    {
+      "id": "1073_3",
+      "type": "texte",
+      "question": "Calcule la dérivée de f(x) = (3x + 1)⁴."
+    },
+    {
+      "id": "1073_4",
+      "type": "qcm",
+      "question": "Quelle est la dérivée de f(x) = (x² + 3)⁵ ?",
+      "options": [
+        "5(x²+3)⁴",
+        "10x(x²+3)⁴",
+        "5·2x·(x²+3)⁴",
+        "5x(x²+3)⁵"
+      ]
+    },
+    {
+      "id": "1073_5",
+      "type": "vrai-faux",
+      "question": "La dérivée de 1/(2x − 1) est −2/(2x−1)²."
+    },
+    {
+      "id": "1073_6",
+      "type": "texte",
+      "question": "Calcule la dérivée de g(x) = √(x² − 1) pour x > 1."
+    },
+    {
+      "id": "1073_7",
+      "type": "qcm",
+      "question": "Quelle est la dérivée de h(x) = (2x + 5)³ ?",
+      "options": [
+        "3(2x+5)²",
+        "6(2x+5)²",
+        "6x(2x+5)²",
+        "3(2x+5)"
+      ]
+    },
+    {
+      "id": "1073_8",
+      "type": "vrai-faux",
+      "question": "Pour dériver une composée f(g(x)), on multiplie la dérivée extérieure par la dérivée intérieure."
+    }
+  ]
+}

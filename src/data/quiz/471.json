@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 471",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "description": "Diagnostic Français 1ère : Le théâtre classique (XVIIe siècle)",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Le théâtre classique (XVIIe siècle)",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelles sont les trois unités du théâtre classique ?",
+        "choices": [
+          "Temps, lieu, action",
+          "Personnage, intrigue, dénouement",
+          "Exposition, nœud, dénouement",
+          "Actes, scènes, répliques"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La bienséance interdit de montrer des scènes violentes sur la scène classique."
+      },
+      {
+        "type": "open",
+        "question": "La _____ est la règle imposant que les événements représentés paraissent vraisemblables au spectateur."
+      },
+      {
+        "type": "qcm",
+        "question": "Molière est l'auteur de :",
+        "choices": [
+          "Andromaque",
+          "Le Misanthrope",
+          "Phèdre",
+          "Le Cid"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Phèdre est une tragédie de Corneille."
+      },
+      {
+        "type": "open",
+        "question": "Dans la tragédie classique, la _____ est le moment de basculement qui conduit le héros vers sa chute."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le but de la tragédie selon Aristote ?",
+        "choices": [
+          "Faire rire le spectateur",
+          "Provoquer la catharsis (purification des passions)",
+          "Critiquer la société",
+          "Enseigner l'histoire"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'alexandrin est le vers dominant de la tragédie classique française."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

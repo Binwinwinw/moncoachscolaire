@@ -1,0 +1,110 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic BAC Espagnol - Serie 111 (VERSION AMÉLIORÉE)",
+    "type": "quiz",
+    "level": "bac",
+    "subject": "Espagnol",
+    "description": "Évaluation diagnostique niveau BAC en espagnol : conjugaison (pretérito perfecto, subjuntivo, imperativo), grammaire (ser/estar, genre/nombre), accentuation et vocabulaire courant",
+    "status": "published",
+    "created_at": "2026-03-07 18:25:00",
+    "updated_at": "2026-03-07 18:25:00"
+  },
+  "quiz": {
+    "title": "Diagnostic Espagnol BAC - Serie 111",
+    "level": "bac",
+    "subject": "Espagnol",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 20,
+    "questions": [
+      {
+        "id": 1,
+        "type": "qcm",
+        "question": "Le 'pretérito perfecto' en espagnol est un temps du passé qui s'utilise principalement pour :",
+        "choices": [
+          "Décrire des actions très lointaines dans le passé sans lien avec le présent",
+          "Exprimer des actions récentes ou ayant un lien avec le présent",
+          "Traduire l'imparfait français (actions habituelles dans le passé)",
+          "Former le conditionnel passé"
+        ]
+      },
+      {
+        "id": 2,
+        "type": "vrai-faux",
+        "question": "Le mode subjonctif (subjuntivo) en espagnol s'utilise pour exprimer l'incertitude, le doute, le souhait ou la subjectivité."
+      },
+      {
+        "id": 3,
+        "type": "texte",
+        "question": "Que signifie le verbe espagnol 'coger' en français ? (sens courant en Espagne)",
+        "placeholder": "Verbe d'action en français"
+      },
+      {
+        "id": 4,
+        "type": "qcm",
+        "question": "Quelle est la principale différence d'emploi entre les verbes 'estar' et 'ser' en espagnol ?",
+        "choices": [
+          "'Estar' exprime la position géographique ou l'état temporaire, 'ser' l'identité ou la caractéristique permanente",
+          "'Estar' signifie 'avoir', 'ser' signifie 'être'",
+          "'Estar' s'utilise uniquement au présent, 'ser' à tous les temps",
+          "'Estar' et 'ser' expriment tous deux le passé composé"
+        ]
+      },
+      {
+        "id": 5,
+        "type": "vrai-faux",
+        "question": "L'accent écrit 'tilde' (~) se place uniquement sur la lettre 'ñ' en espagnol."
+      },
+      {
+        "id": 6,
+        "type": "texte",
+        "question": "Conjugue le verbe 'correr' (courir) à l'impératif affirmatif, deuxième personne du singulier (tú) :",
+        "placeholder": "Forme verbale uniquement"
+      },
+      {
+        "id": 7,
+        "type": "qcm",
+        "question": "Quelle phrase respecte correctement l'accord en genre et en nombre en espagnol ?",
+        "choices": [
+          "Las hijos de mi hermano",
+          "Los hijos de mi hermano",
+          "Los hijo de mi hermano",
+          "La hijo de mi hermano"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "texte",
+        "question": "Donne un exemple d'adverbe de temps (adverbio de tiempo) en espagnol :",
+        "placeholder": "Par exemple : ahora, ayer, mañana..."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Conjugaison - Pretérito perfecto",
+      "description": "Temps composé formé avec 'haber' + participe passé, exprime le passé récent ou lié au présent"
+    },
+    {
+      "notion": "Mode subjonctif",
+      "description": "Exprime doute, souhait, émotion, incertitude (ex: espero que + subjonctif)"
+    },
+    {
+      "notion": "Verbes ser et estar",
+      "description": "Ser = identité/permanent, Estar = état temporaire/position"
+    },
+    {
+      "notion": "Impératif",
+      "description": "Mode de l'ordre et du conseil (ex: ¡corre!, ¡ven!)"
+    },
+    {
+      "notion": "Accentuation",
+      "description": "Règles d'accent tonique et signes diacritiques (tilde sur voyelles, virgulilla sur ñ)"
+    },
+    {
+      "notion": "Accord genre/nombre",
+      "description": "Articles et adjectifs s'accordent avec le nom (el hijo/los hijos, la hija/las hijas)"
+    }
+  ],
+  "exerciseresponses": []
+}

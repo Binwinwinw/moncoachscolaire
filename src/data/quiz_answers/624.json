@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 624",
+    "level": "1ère",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "La vaccination et la mémoire immunitaire",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Créant une mémoire immunitaire spécifique sans causer la maladie",
+        "correct": 1,
+        "correction": "Un vaccin introduit un antigène (atténué, inactivé, sous-unité ou ARNm) ; le système immunitaire mémorise -> réponse rapide et forte lors d'une vraie infection."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les cellules mémoires sont des lymphocytes à vie longue qui permettent une réponse secondaire plus rapide et plus intense lors d'une 2e rencontre avec l'antigène."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "rapide",
+        "correction": "Réponse secondaire (2-3 jours vs 10-14 jours) : les cellules mémoires permettent une réactivation rapide avec production d'anticorps en grande quantité."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Suffisamment d'individus sont immunisés pour briser les chaînes de transmission",
+        "correct": 1,
+        "correction": "Le seuil d'immunité collective varie selon R0 (taux de reproduction de base) : pour la rougeole (R0=15), il faut ~95% d'immunisés."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Les vaccins ARNm introduisent un ARN messager codant pour une protéine virale (spike) ; les cellules la produisent et le système immunitaire mémorise."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "variole",
+        "correction": "Jenner inocule la vaccine (cowpox) à un garçon qui devient résistant à la variole ; c'est la première vaccination de l'histoire."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Passive et temporaire",
+        "correct": 1,
+        "correction": "Sérothérapie : immunité passive (anticorps produits par un autre organisme, demi-vie courte) ; vaccination : immunité active (le receveur produit ses propres anticorps)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VIH infecte et détruit les LTh (CD4+) ; quand leur nombre tombe en dessous de 200/mm3 -> SIDA : infections opportunistes car immunité effondrée."
+      }
+    ]
+  }
+}

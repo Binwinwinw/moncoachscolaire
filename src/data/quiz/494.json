@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 494",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "description": "Diagnostic Français 1ère : Le roman au XXe siècle : nouveaux courants",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Le roman au XXe siècle : nouveaux courants",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Le Nouveau Roman des années 1950-60 se caractérise par :",
+        "choices": [
+          "Une intrigue linéaire et des personnages bien définis",
+          "Le refus du personnage traditionnel, de l'intrigue et du narrateur omniscient",
+          "Un retour au roman historique",
+          "L'engagement politique explicite"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Alain Robbe-Grillet est l'auteur du manifeste Pour un nouveau roman."
+      },
+      {
+        "type": "open",
+        "question": "L'Existentialisme, dont Sartre est la figure phare, affirme que l'existence précède l'_____, c'est-à-dire que l'homme se définit par ses choix."
+      },
+      {
+        "type": "qcm",
+        "question": "L'Étranger de Camus présente un narrateur :",
+        "choices": [
+          "Omniscient et engagé",
+          "Détaché et indifférent (absurde)",
+          "Lyrique et romantique",
+          "Comique et ironique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Simone de Beauvoir est une romancière et philosophe existentialiste."
+      },
+      {
+        "type": "open",
+        "question": "Dans le Nouveau Roman, le lecteur est souvent sollicité de manière active : il doit _____ le sens du texte."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel roman de Nathalie Sarraute est souvent cité comme exemple de Nouveau Roman ?",
+        "choices": [
+          "La Jalousie",
+          "Tropismes",
+          "L'Étranger",
+          "Les Gommes"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le roman existentialiste s'intéresse à la liberté et à la responsabilité de l'individu face au monde."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

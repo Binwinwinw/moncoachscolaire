@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic NSI 1ère - Série 894",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "description": "Diagnostic NSI 1ère : Fonctions et portée des variables",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "Fonctions et portée des variables",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Le mot-clé 'def' en Python est utilisé pour :",
+        "choices": [
+          "Définir une variable",
+          "Définir une fonction",
+          "Importer un module",
+          "Créer une classe"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une fonction Python peut retourner plusieurs valeurs simultanément."
+      },
+      {
+        "type": "open",
+        "question": "Expliquez la portée des variables (LEGB rule) en Python."
+      },
+      {
+        "type": "qcm",
+        "question": "Un paramètre avec une valeur par défaut en Python est défini comme :",
+        "choices": [
+          "def f(x = 0):",
+          "def f(x: 0):",
+          "def f(x default 0):",
+          "def f(x, default=0):"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "*args dans une définition de fonction permet de passer un nombre variable d'arguments positionnels."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce qu'une fonction lambda en Python ? Donnez un exemple."
+      },
+      {
+        "type": "qcm",
+        "question": "Une fonction récursive calcule n! (factorielle). Si on appelle factorielle(0), elle doit retourner :",
+        "choices": [
+          "0",
+          "1",
+          "-1",
+          "Une erreur"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les fonctions en Python sont des objets de première classe."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

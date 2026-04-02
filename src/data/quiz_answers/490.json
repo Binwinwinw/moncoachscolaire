@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 490",
+    "level": "1ère",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Racine : la tragédie et les passions",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "D'un amour coupable pour son beau-fils Hippolyte",
+        "correct": 1,
+        "correction": "Phèdre est victime d'une passion incestueuse inspirée par Vénus, qui la mène à la mort."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les héros raciniens sont écrasés par une fatalité (divine, amoureuse, politique) à laquelle ils ne peuvent échapper."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "amour",
+        "correction": "La chaîne d'amours non partagés crée une tension dramatique inexorable."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "La simplicité apparente et l'intensité psychologique",
+        "correct": 1,
+        "correction": "Racine use d'un vocabulaire simple mais dense ; 'Dans un mois, dans un an' (Bérénice) → sobriété déchirante."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Bérénice est une tragédie sans mort : Titus renonce à Bérénice pour la raison d'État ; ils se séparent."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "exprimer",
+        "correction": "La confidente (Œnone pour Phèdre, Pylade pour Oreste) permet l'exposition des sentiments intérieurs."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Racine privilégie la psychologie amoureuse et le langage des passions",
+        "correct": 1,
+        "correction": "Corneille met en scène la volonté héroïque (Le Cid) ; Racine explore les abîmes de la passion dévastatrice."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Hermione est au contraire un personnage actif, violent dans sa passion et sa jalousie, qui provoque la mort de Pyrrhus."
+      }
+    ]
+  }
+}

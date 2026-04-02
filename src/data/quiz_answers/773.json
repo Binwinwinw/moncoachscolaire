@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 773",
+    "level": "3eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Analyse d'un objet technique : demarche et methodes",
+    "question_count": 8,
+    "level": "3eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Le cahier des charges fonctionnel",
+        "correct": 1,
+        "correction": "Le CdCF (Cahier des Charges Fonctionnel) liste toutes les fonctions, contraintes et performances que le produit doit respecter pour satisfaire le besoin."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La demarche technologique suit un cycle : analyser le besoin â†’ concevoir une solution â†’ realiser un prototype â†’ valider par rapport au CdCF."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "maquette ou modele",
+        "correction": "Une maquette (ou modele) permet de tester et visualiser un objet avant sa fabrication definitive, reduisant les couts et les erreurs."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Un premier exemplaire fonctionnel d'un produit permettant de le tester",
+        "correct": 1,
+        "correction": "Le prototype est le premier exemplaire fonctionnel realise pour valider les choix techniques avant la production en serie."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La simulation (logiciels CAO, FEM, CFD) permet de prevoir le comportement mecanique, thermique ou fluidique d'un objet sans avoir a le fabriquer physiquement."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "maquette numerique 3D",
+        "correction": "La maquette numerique 3D (realise avec SolidWorks, FreeCAD, Fusion 360) permet de visualiser, simuler et modifier un objet avant fabrication."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Diagramme de Gantt",
+        "correct": 1,
+        "correction": "Le diagramme de Gantt (Henri Gantt, 1910) represente le planning d'un projet avec les taches, leur duree et leur chevauchement eventuel."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "ISO 9001 est la norme internationale de management de la qualite, certifiant qu'une organisation maitrise ses processus pour satisfaire ses clients."
+      }
+    ]
+  }
+}

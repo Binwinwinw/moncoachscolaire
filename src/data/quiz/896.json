@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic NSI 1ère - Série 896",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "description": "Diagnostic NSI 1ère : Gestion des erreurs et exceptions",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "Gestion des erreurs et exceptions",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel est le bloc Python utilisé pour capturer une exception ?",
+        "choices": [
+          "try/catch",
+          "try/except",
+          "error/handle",
+          "try/catch/finally"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le bloc finally s'exécute toujours, qu'une exception ait été levée ou non."
+      },
+      {
+        "type": "open",
+        "question": "Quelles sont les exceptions Python les plus courantes ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Le mot-clé 'raise' en Python permet de :",
+        "choices": [
+          "Capturer une exception",
+          "Lever (déclencher) une exception",
+          "Ignorer une exception",
+          "Afficher un message d'erreur"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "On peut créer des exceptions personnalisées en héritant de la classe Exception."
+      },
+      {
+        "type": "open",
+        "question": "Expliquez l'utilisation de 'with open()' pour lire un fichier en Python."
+      },
+      {
+        "type": "qcm",
+        "question": "Que se passe-t-il si aucune clause except ne capture une exception levée ?",
+        "choices": [
+          "L'exception est ignorée",
+          "Le programme continue normalement",
+          "L'exception se propage vers le code appelant, jusqu'à arrêter le programme",
+          "Python relance automatiquement le code"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "except Exception: capture toutes les exceptions standard mais pas les erreurs système (KeyboardInterrupt, SystemExit)."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

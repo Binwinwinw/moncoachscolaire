@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Philosophie 1ere - Série 246",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Philosophie",
+    "description": "Diagnostic Philosophie 1ere : Quiz Diagnostic 1ere Philosophie - Serie 23",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Philosophie - Serie 23",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Philosophie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle approche philosophique est au cœur de l'étude de 'L'amour et l'amitié' ?",
+        "choices": [
+          "Une approche empirique basée sur l'expérience",
+          "Une approche rationnelle et critique visant à clarifier les concepts fondamentaux",
+          "Une approche purement historique",
+          "Une approche scientifique expérimentale"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le questionnement philosophique sur 'L'amour et l'amitié' remonte à l'Antiquité grecque."
+      },
+      {
+        "type": "open",
+        "question": "En quoi consiste la démarche philosophique appliquée à 'L'amour et l'amitié' ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel philosophe de l'Antiquité a dit 'Je sais que je ne sais rien' pour exprimer la conscience de ses propres limites ?",
+        "choices": [
+          "Platon",
+          "Aristote",
+          "Socrate",
+          "Épicure"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La philosophie peut apporter des certitudes absolues sur toutes les questions qu'elle pose."
+      },
+      {
+        "type": "open",
+        "question": "Comment la notion de 'l'amour' peut-elle être rapprochée de la condition humaine ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que l'herméneutique en philosophie ?",
+        "choices": [
+          "L'art de la rhétorique et de la persuasion",
+          "La théorie et la méthode d'interprétation des textes et des discours",
+          "L'étude des langues mortes",
+          "La logique formelle"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La philosophie a pour seul but la contemplation désintéressée de la vérité, sans application pratique."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

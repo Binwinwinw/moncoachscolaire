@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic NSI 1ère - Série 879",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "description": "Diagnostic NSI 1ère : HTML — Structure d'une page web",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "HTML — Structure d'une page web",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "HTML signifie :",
+        "choices": [
+          "HyperText Markup Language",
+          "High Text Manage Language",
+          "HyperText Modern Layout",
+          "Hybrid Text Modeling Language"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La balise <head> contient le contenu visible de la page web."
+      },
+      {
+        "type": "open",
+        "question": "Quelle est la structure minimale d'une page HTML5 valide ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle balise HTML crée un lien hypertexte ?",
+        "choices": [
+          "<link>",
+          "<href>",
+          "<a>",
+          "<url>"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La balise <img> en HTML5 nécessite une balise de fermeture </img>."
+      },
+      {
+        "type": "open",
+        "question": "Expliquez la différence entre balises <div> et <span>."
+      },
+      {
+        "type": "qcm",
+        "question": "L'attribut 'alt' de la balise <img> sert à :",
+        "choices": [
+          "Définir la taille de l'image",
+          "Fournir un texte alternatif pour l'accessibilité",
+          "Animer l'image",
+          "Définir le format de l'image"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les balises sémantiques HTML5 comme <header>, <footer>, <article> améliorent l'accessibilité."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

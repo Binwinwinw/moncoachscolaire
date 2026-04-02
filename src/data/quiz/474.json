@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 474",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "description": "Diagnostic Français 1ère : Formes de l'argumentation : essai, pamphlet, apologue",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Formes de l'argumentation : essai, pamphlet, apologue",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel genre consiste en une réflexion personnelle non exhaustive sur un sujet ?",
+        "choices": [
+          "Le pamphlet",
+          "L'apologue",
+          "L'essai",
+          "La fable"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un pamphlet est un texte polémique qui attaque violemment une personne ou une idée."
+      },
+      {
+        "type": "open",
+        "question": "L'apologue est un récit court à visée _____, illustrant une morale."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est l'auteur des Fables, forme d'apologue majeure de la littérature française ?",
+        "choices": [
+          "Montaigne",
+          "La Fontaine",
+          "Voltaire",
+          "Molière"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Candide de Voltaire est un conte philosophique qui peut être classé comme apologue."
+      },
+      {
+        "type": "open",
+        "question": "Dans une fable, la _____ résume la leçon morale, souvent placée au début ou à la fin du texte."
+      },
+      {
+        "type": "qcm",
+        "question": "Montaigne est l'inventeur du genre de l'essai avec son œuvre :",
+        "choices": [
+          "Le Discours de la méthode",
+          "Les Essais",
+          "Candide",
+          "Les Pensées"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La parabole est une forme d'apologue à caractère religieux ou moral."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

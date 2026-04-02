@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 795",
+    "level": "3eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Le bilan energetique d'un systeme technique",
+    "question_count": 8,
+    "level": "3eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "La comparaison entre l'energie entrant dans le systeme et l'energie utile produite",
+        "correct": 1,
+        "correction": "Le bilan energetique identifie : energie entree = energie utile + pertes ; il permet de calculer le rendement et d'identifier les postes d'amelioration."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le deuxieme principe de la thermodynamique stipule que toute conversion d'energie produit inevitablement de l'entropie (chaleur dissipee), limitant le rendement a moins de 100%."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "diagramme de Sankey",
+        "correction": "Le diagramme de Sankey represente les flux d'energie par des fleches d'epaisseur proportionnelle, visualisant clairement les conversions et les pertes."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "40%",
+        "correct": 1,
+        "correction": "eta = E_utile / E_consommee = 80 / 200 = 0,40 = 40%. Les 120 J restants sont dissipes en chaleur."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les frottements transforment l'energie mecanique en chaleur inutile ; la lubrification, les roulements et les nouveaux materiaux reducteurs de friction ameliorent le rendement."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "chaleur fatale",
+        "correction": "La chaleur fatale est la chaleur inévitablement rejetee lors des conversions energetiques ; la cogeneration la recupere pour le chauffage, améliorant le rendement global."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Cogeneration (CHP)",
+        "correct": 1,
+        "correction": "La cogeneration (Combined Heat and Power) produit simultanement de l'electricite et de la chaleur utile a partir d'un meme combustible, atteignant des rendements globaux de 80 a 90%."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'isolation (murs, toiture, fenetres double-vitrage) reduit les flux de chaleur entre interieur et exterieur, diminuant les besoins de chauffage en hiver et de climatisation en ete."
+      }
+    ]
+  }
+}

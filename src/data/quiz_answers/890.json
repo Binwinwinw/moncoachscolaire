@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic NSI 1ère - Série 890",
+    "level": "1ère",
+    "subject": "NSI"
+  },
+  "quiz": {
+    "title": "Arbres et parcours",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "NSI",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Deux enfants",
+        "correct": 1,
+        "correction": "Un arbre binaire est un arbre dont chaque nœud a 0, 1 ou 2 enfants (gauche et droit). Un arbre binaire de recherche (ABR) respecte en plus une propriété d'ordre."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La racine est le sommet de l'arbre, sans parent. Les feuilles sont les nœuds sans enfants. La hauteur est la longueur du plus long chemin racine-feuille."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "Préfixe (pré-ordre) : racine, gauche, droite. Infixe (in-ordre) : gauche, racine, droite (donne les éléments triés pour un ABR). Postfixe (post-ordre) : gauche, droite, racine (utilisé pour supprimer un arbre).",
+        "correction": "Un parcours en largeur (BFS) utilise une file et explore niveau par niveau."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Plus petits que la racine",
+        "correct": 1,
+        "correction": "ABR : pour tout nœud, sous-arbre gauche < nœud ≤ sous-arbre droit. Cette propriété permet la recherche en O(h) où h est la hauteur."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Un arbre parfaitement équilibré à n nœuds a une hauteur ≈ log₂(n). Un arbre dégénéré (filiforme) a une hauteur n."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "class Noeud:\n    def __init__(self, valeur):\n        self.valeur = valeur\n        self.gauche = None\n        self.droite = None\n\ndef parcours_infixe(noeud):\n    if noeud is not None:\n        parcours_infixe(noeud.gauche)\n        print(noeud.valeur)\n        parcours_infixe(noeud.droite)",
+        "correction": "Le parcours infixe d'un ABR donne les éléments dans l'ordre croissant."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "La racine est plus grande (max-heap) ou plus petite (min-heap) que tous ses descendants",
+        "correct": 1,
+        "correction": "Un tas est utilisé pour les files de priorité et le tri par tas (heapsort). Python fournit heapq pour un min-heap."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le système de fichiers est une arborescence : chaque dossier est un nœud pouvant contenir des fichiers (feuilles) et d'autres dossiers (nœuds internes)."
+      }
+    ]
+  }
+}

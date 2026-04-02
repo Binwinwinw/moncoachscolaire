@@ -1,0 +1,77 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 2nde - SÃ©rie 1659",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 2nde : Diagnostic 2nde Anglais - Writing a Paragraph",
+    "status": "published",
+    "created_at": "2026-03-14 10:13:31",
+    "updated_at": "2026-03-14 10:13:31",
+    "source": "Eduscol programmes officiels + BOEN",
+    "programme_ref": "BO special n°1 du 22 janvier 2019 (LGT) + Eduscol Langues vivantes Seconde"
+  },
+  "quiz": {
+    "title": "Diagnostic 2nde Anglais - Writing a Paragraph",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "What is the role of a topic sentence?",
+        "choices": [
+          "To conclude the paragraph",
+          "To introduce the main idea",
+          "To add an unrelated example",
+          "To quote a dictionary"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "A coherent paragraph should use linking words."
+      },
+      {
+        "type": "open",
+        "question": "Give one linker to add an idea."
+      },
+      {
+        "type": "qcm",
+        "question": "Which sentence is the best concluding sentence?",
+        "choices": [
+          "I like music.",
+          "To sum up, social media can be useful if used responsibly.",
+          "Yesterday was sunny.",
+          "Because it is important."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Examples should support the main idea of the paragraph."
+      },
+      {
+        "type": "open",
+        "question": "Write one linker used to give an example."
+      },
+      {
+        "type": "qcm",
+        "question": "Which option best improves style in formal writing?",
+        "choices": [
+          "Use contractions everywhere",
+          "Avoid very repetitive basic words",
+          "Write without punctuation",
+          "Use only very short fragments"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Planning ideas before writing usually improves paragraph quality."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

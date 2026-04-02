@@ -1,0 +1,97 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 39",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ere : La description et l'analyse à l'écrit",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-08 00:05:00"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 39",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "id": 1,
+        "type": "qcm",
+        "question": "Which sentence is an ANALYSIS rather than just a description?",
+        "choices": [
+          "There is a woman standing near a window.",
+          "The woman is wearing a red dress.",
+          "The woman's isolated posture near the window suggests she feels lonely or disconnected from the world outside.",
+          "The window is large and lets in a lot of light."
+        ]
+      },
+      {
+        "id": 2,
+        "type": "vrai-faux",
+        "question": "When describing an image, it is good practice to start with the general scene before moving to specific details."
+      },
+      {
+        "id": 3,
+        "type": "texte",
+        "question": "Transforme cette description en analyse : 'The factory emits a lot of smoke into the sky.'",
+        "placeholder": "Écris ta réponse ici..."
+      },
+      {
+        "id": 4,
+        "type": "qcm",
+        "question": "Which expression is most appropriate to introduce an interpretation in an analytical text?",
+        "choices": [
+          "I think that...",
+          "This suggests that...",
+          "Obviously...",
+          "Everybody knows that..."
+        ]
+      },
+      {
+        "id": 5,
+        "type": "vrai-faux",
+        "question": "In a descriptive piece, using a variety of adjectives and sensory details (sight, sound, smell) makes the writing more vivid and engaging."
+      },
+      {
+        "id": 6,
+        "type": "texte",
+        "question": "Décris et analyse brièvement cette situation en 2 phrases : un enfant seul dans une salle de classe vide, la tête baissée sur son bureau.",
+        "placeholder": "Écris ta réponse ici..."
+      },
+      {
+        "id": 7,
+        "type": "qcm",
+        "question": "Which verb best completes an analytical sentence about a photograph? 'The image ___ the contrast between wealth and poverty.'",
+        "choices": [
+          "says",
+          "talks about",
+          "portrays",
+          "is about"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "vrai-faux",
+        "question": "A good analytical paragraph about a document should only focus on what is explicitly visible or written, never on what is implied."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Décrire une image ou une scène",
+      "description": "Pour décrire une image en anglais : commencer par le contexte général (In this picture, we can see...), puis décrire les éléments principaux (In the foreground/background/centre...), les personnages (appearance, actions), l'atmosphère (The image conveys..., The mood seems...). Utiliser le present simple pour les descriptions."
+    },
+    {
+      "notion": "Analyser un document : texte ou image",
+      "description": "L'analyse va au-delà de la description : elle interprète, cherche le sens profond, identifie les intentions de l'auteur. Formules utiles : This suggests that... / This implies... / The author seems to argue... / One can infer that... / This is significant because... / The use of [X] highlights [Y]."
+    },
+    {
+      "notion": "Vocabulary for description and analysis",
+      "description": "Vocabulaire de description : depicts, portrays, illustrates, shows, features, presents, focuses on, centres on. Vocabulaire d'analyse : emphasises, conveys, implies, suggests, reveals, challenges, critiques, underlines, demonstrates, reflects. Connecteurs : furthermore, in addition, as a result, consequently, in contrast, similarly, notably."
+    }
+  ],
+  "exerciseresponses": []
+}

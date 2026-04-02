@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 5ème Mathématiques",
+    "level": "5eme",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 5ème Mathématiques",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "**3/4** (0,75 = 75/100 = 3/4)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "correct": true,
+        "correction": "**Vrai**. 1,2 = 1 + 0,2."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "correct": null,
+        "correction": "**100** (25+75, dizaines)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "**6** (12=2×2×3, 18=2×3×3)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "correct": true,
+        "correction": "**Vrai**. 1/2 = 0,50."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "correct": null,
+        "correction": "**32** (virgule droite ×10)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "**2/3** (÷3 numérateur/dénominateur)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "correct": null,
+        "correction": "**1** (0,4+0,6=1,0)."
+      }
+    ],
+    "level": "5eme",
+    "subject": "Mathématiques"
+  }
+}

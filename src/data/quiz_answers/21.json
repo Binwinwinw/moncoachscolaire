@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 6eme SVT",
+    "level": "6eme",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 6eme SVT",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correct": 2,
+        "correction": "**glace** (solide). Eau : solide (0°C), liquide, gaz (100°C)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "correct": 1,
+        "correction": "**Vrai**. Caractéristiques des êtres vivants : eau, nourriture, reproduction."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "correct": null,
+        "correction": "Exemples : arbre, chien, herbe (êtres vivants observés proche)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "**vapeur** (gaz). Changements d'état : fusion, vaporisation."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "correct": 1,
+        "correction": "**Vrai**. Plantes = êtres vivants (croissance, reproduction)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "correct": null,
+        "correction": "Ex : rocher, pierre (forme solide, incompressible)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "**eau et nourriture** (besoins des animaux)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "correct": 1,
+        "correction": "**Vrai**. Point d'ébullition de l'eau : 100°C à pression normale."
+      }
+    ],
+    "level": "6eme",
+    "subject": "SVT"
+  }
+}

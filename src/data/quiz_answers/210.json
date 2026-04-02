@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 2nde - Série 210",
+    "level": "2nde",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Diagnostic 2nde Français - Lecture narrative et focalisation",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "L'emploi du pronom « je » pour raconter les actions",
+        "correct": 0,
+        "correction": "Le narrateur personnage participe à l'histoire et la raconte de son point de vue. L'emploi de « je » est un marqueur fréquent de cette implication."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "La focalisation interne limite l'information à ce qu'un personnage perçoit, pense ou sait. Le lecteur n'a donc pas accès à toutes les consciences."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "focalisation zéro",
+        "correction": "La focalisation zéro correspond à un narrateur omniscient. Il connaît le passé, l'avenir et les pensées de plusieurs personnages."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Une immersion dans la subjectivité d'un personnage",
+        "correct": 1,
+        "correction": "La focalisation interne place le lecteur au plus près de l'expérience d'un personnage. Elle renforce l'empathie et l'identification."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Beaucoup de récits changent de point de vue pour varier l'information donnée au lecteur. On parle alors de variations de focalisation."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "narrateur hétérodiégétique",
+        "correction": "Le narrateur hétérodiégétique n'est pas personnage de l'intrigue. Il raconte des événements auxquels il ne participe pas."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Paul serra les poings et fixa la porte sans parler.",
+        "correct": 2,
+        "correction": "La focalisation externe décrit ce qui est observable de l'extérieur, sans entrer dans les pensées. On voit les gestes, pas l'intériorité."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Selon les informations transmises, le lecteur juge différemment les personnages. La focalisation oriente la compréhension du récit."
+      }
+    ]
+  }
+}

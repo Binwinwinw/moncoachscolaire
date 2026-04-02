@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Geographie 1ere - Série 188",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "description": "Diagnostic Histoire-Geographie 1ere : Quiz Diagnostic 1ere Histoire-Géographie - Serie 14",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Histoire-Géographie - Serie 14",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle révolution européenne éclate en 1848 dans plusieurs pays simultanément ?",
+        "choices": [
+          "La Révolution industrielle",
+          "Le Printemps des peuples",
+          "La révolution bolchevique",
+          "La révolution libérale de 1830"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'unification de l'Italie se réalise entre 1859 et 1870 sous l'égide du Piémont-Sardaigne et de Cavour."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que le nationalisme et comment se manifeste-t-il en Europe au XIXe siècle ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qui unifie l'Allemagne en 1871 par la guerre contre la France ?",
+        "choices": [
+          "Frédéric le Grand",
+          "Napoléon III",
+          "Otto von Bismarck",
+          "Guillaume II"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La Commune de Paris (1871) est un épisode révolutionnaire qui s'établit après la défaite de la France face à la Prusse."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que le libéralisme politique au XIXe siècle et quelles sont ses principales revendications ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel régime politique est instauré en France après la révolution de 1848 ?",
+        "choices": [
+          "La monarchie constitutionnelle",
+          "La IIe République",
+          "Le Premier Empire",
+          "La IIIe République"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Victor Hugo est l'un des grands représentants du romantisme littéraire français du XIXe siècle."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

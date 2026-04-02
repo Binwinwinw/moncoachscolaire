@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 687",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 3ème : Écologie : pollution, déchets et santé environnementale",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "Écologie : pollution, déchets et santé environnementale",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle pollution provoque l'accumulation de nitrates et de phosphates dans un lac, favorisant la prolifération d'algues ?",
+        "choices": [
+          "L'acidification",
+          "L'eutrophisation",
+          "La désertification",
+          "La sédimentation glaciaire"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les microplastiques peuvent être ingérés par des organismes aquatiques et entrer dans les chaînes alimentaires."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on le tri, la collecte et la transformation de déchets en nouvelles matières premières ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel polluant atmosphérique est majoritairement émis par les moteurs thermiques et les chauffages au fioul ou au bois mal réglés ?",
+        "choices": [
+          "Le diazote",
+          "Les particules fines",
+          "Le néon",
+          "L'hélium"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Réduire, réutiliser puis recycler est un ordre cohérent pour limiter les déchets."
+      },
+      {
+        "type": "open",
+        "question": "Le fait qu'un polluant se concentre progressivement d'un maillon à l'autre d'une chaîne alimentaire s'appelle la _____."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel geste réduit directement la pollution plastique des océans ?",
+        "choices": [
+          "Jeter les déchets dans la nature",
+          "Privilégier les objets réutilisables et trier correctement",
+          "Brûler les emballages chez soi",
+          "Enterrer les bouteilles"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La pollution lumineuse peut perturber le comportement de nombreuses espèces nocturnes."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

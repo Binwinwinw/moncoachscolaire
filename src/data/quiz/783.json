@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 783",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 3eme : Les systemes automatises : logique et programmes",
+    "status": "published",
+    "created_at": "2026-03-14 04:06:19",
+    "updated_at": "2026-03-14 04:06:19"
+  },
+  "quiz": {
+    "title": "Les systemes automatises : logique et programmes",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'un diagramme d'etat (state machine) dans la programmation d'un systeme automatise ?",
+        "choices": [
+          "Un schema de cablage electrique",
+          "Une representation graphique des etats d'un systeme et des transitions entre ces etats",
+          "Un tableau des composants du systeme",
+          "Un planning de maintenance"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "En logique combinatoire, la sortie depend uniquement de l'etat actuel des entrees."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on le langage de programmation graphique utilise pour les automates industriels qui ressemble a un schema electrique ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la valeur d'une porte logique AND avec les entrees A=1 et B=0 ?",
+        "choices": [
+          "0",
+          "1",
+          "Indefini",
+          "2"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un grafcet est un outil graphique permettant de decrire le comportement sequentiel d'un automatisme."
+      },
+      {
+        "type": "open",
+        "question": "Quel est le resultat de l'operation logique NOT(1) ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Dans un systeme automatise, qu'est-ce qu'une temporisation ?",
+        "choices": [
+          "Un capteur de temps",
+          "Une fonction qui retarde ou limite dans le temps une action du systeme",
+          "Un moteur a vitesse variable",
+          "Un capteur de pression"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un systeme de securite industriel doit privilegier l'etat sur lors de toute defaillance ou perte d'alimentation."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

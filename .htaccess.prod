@@ -1,0 +1,88 @@
+# ============================================================================
+# .htaccess PRODUCTION - Environnement de production
+# Pour https://moncoachscolaire.fr
+# ============================================================================
+
+RewriteEngine On
+
+# ============================================================================
+# ROUTING API - PRODUCTION
+# ============================================================================
+
+# Router les appels API vers public/index.php
+# Matcher /api/*
+RewriteRule ^api/(.*)$ /public/index.php?page=api/$1 [L,QSA]
+
+# ============================================================================
+# ASSETS - Accès direct
+# ============================================================================
+
+# Accès direct aux assets dans /public/
+RewriteRule ^public/assets/(.*)$ public/assets/$1 [L]
+RewriteRule ^public/img/(.*)$ public/img/$1 [L]
+RewriteRule ^public/images/(.*)$ public/images/$1 [L]
+RewriteRule ^public/js/(.*)$ public/js/$1 [L]
+RewriteRule ^public/videos/(.*)$ public/videos/$1 [L]
+
+# Alias: /assets/ → /public/assets/
+RewriteRule ^assets/(.*)$ public/assets/$1 [L]
+RewriteRule ^img/(.*)$ public/img/$1 [L]
+RewriteRule ^images/(.*)$ public/images/$1 [L]
+RewriteRule ^js/(.*)$ public/js/$1 [L]
+RewriteRule ^videos/(.*)$ public/videos/$1 [L]
+
+# ============================================================================
+# SÉCURITÉ - PRODUCTION (strict)
+# ============================================================================
+
+# Masquer les erreurs PHP
+<IfModule mod_php.c>
+    php_flag display_errors Off
+    php_flag expose_php Off
+    php_flag log_errors On
+</IfModule>
+
+# Bloquer les fichiers sensibles (Apache 2.4)
+<IfModule mod_version.c>
+    <IfVersion >= 2.4>
+        <FilesMatch "\.(env|ini|log|sh|bak|sql|htaccessbak|md)$">
+            Require all denied
+        </FilesMatch>
+        
+        <FilesMatch "\.(zip|tar|gz|backup)$">
+            Require all denied
+        </FilesMatch>
+    </IfVersion>
+</IfModule>
+
+# Fallback Apache 2.2
+<IfModule mod_version.c>
+    <IfVersion < 2.4>
+        <FilesMatch "\.(env|ini|log|sh|bak|sql|htaccessbak|md|zip|tar|gz|backup)$">
+            Order allow,deny
+            Deny from all
+        </FilesMatch>
+    </IfVersion>
+</IfModule>
+
+# Bloquer l'accès aux dossiers sensibles
+<IfModule mod_rewrite.c>
+    RewriteCond %{REQUEST_URI} ^/(\.git|\.vscode|\.assistant|backups|dev|docs|tools|tests|includes|db)/ [NC]
+    RewriteRule .* - [F,L]
+    
+    # Bloquer /src sauf /src/api/ et /src/database/
+    RewriteCond %{REQUEST_URI} ^/src/
+    RewriteCond %{REQUEST_URI} !^/src/api/
+    RewriteCond %{REQUEST_URI} !^/src/database/
+    RewriteRule .* - [F,L]
+    
+    # Bloquer PHP dans certains dossiers sauf public/index.php
+    RewriteCond %{REQUEST_URI} ^/(uploads|public|files)/.*\.php$ [NC]
+    RewriteCond %{REQUEST_URI} !^/public/index\.php$ [NC]
+    RewriteRule .* - [F,L]
+</IfModule>
+
+# Options
+Options -Indexes
+AddType video/webm .webm
+AddType video/mp4 .mp4

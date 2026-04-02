@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 777",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 3eme : Les procedes de fabrication et de mise en forme",
+    "status": "published",
+    "created_at": "2026-03-14 04:06:19",
+    "updated_at": "2026-03-14 04:06:19"
+  },
+  "quiz": {
+    "title": "Les procedes de fabrication et de mise en forme",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel procede de fabrication consiste a couper, percer ou fraiser un bloc de matiere pour lui donner une forme ?",
+        "choices": [
+          "Moulage par injection",
+          "Usinage par enlevement de matiere",
+          "Impression 3D",
+          "Thermoformage"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le moulage par injection est utilise pour fabriquer en grande serie des pieces en plastique."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on le procede de fabrication qui consiste a chauffer une feuille de plastique et a la former sur un moule par aspiration ou pression ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel procede d'assemblage cree une liaison permanente entre deux pieces metalliques en les faisant fondre localement ?",
+        "choices": [
+          "Vissage",
+          "Soudage",
+          "Collage",
+          "Emboitement"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une machine a commande numerique (CNC) est programmee pour realiser automatiquement des operations d'usinage."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on le procede qui consiste a deposer une couche de metal sur un objet par voie electrolytique ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que la fabrication additive ?",
+        "choices": [
+          "L'ajout d'additifs chimiques dans les materiaux",
+          "Un procede qui construit un objet en ajoutant de la matiere couche par couche",
+          "L'assemblage de pieces fabriquees separement",
+          "La fabrication de produits alimentaires"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le decoupage laser permet de couper des materiaux avec une tres grande precision grace a un faisceau laser concentre."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

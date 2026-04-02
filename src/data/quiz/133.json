@@ -1,0 +1,102 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ère Anglais - Série 09",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ère : Science, Innovation, Advanced Expression (Eduscol B1/B2)",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-09 18:31:00"
+  },
+  "quiz": {
+    "title": "1ère English Diagnostic - Series 09 (Science & Innovation)",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "CRISPR gene editing technology could cure genetic diseases but raises ethical concerns.",
+        "choices": [
+          "Designer babies risk",
+          "Access inequality",
+          "Both A and B",
+          "No concerns"
+        ],
+        "correct_index": 2,
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Space tourism will be affordable for average people by 2030.",
+        "correct": false,
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "What is one benefit of quantum computing?",
+        "placeholder": "ex: Solve complex problems faster than classical computers",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Mixed conditional: If I _____ rich, I _____ donate to science.",
+        "choices": [
+          "were / would",
+          "was / will",
+          "am / donate",
+          "had been / donated"
+        ],
+        "correct_index": 0,
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "What matters most in scientific research is funding.",
+        "correct": false,
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "How might AI change jobs in the next decade? 1 prediction.",
+        "placeholder": "ex: Automate routine tasks, create new tech roles",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "Renewable energy sources include:",
+        "choices": [
+          "Solar, wind, geothermal",
+          "Coal, oil only",
+          "Nuclear fission",
+          "Natural gas"
+        ],
+        "correct_index": 0,
+        "id": 7
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Had we invested earlier in green tech, emissions would be lower now.",
+        "correct": true,
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Biotech",
+      "description": "CRISPR ethics, gene therapy (Eduscol 1ère science themes)"
+    },
+    {
+      "notion": "Future Tech",
+      "description": "Quantum computing, AI job impact, space tourism"
+    },
+    {
+      "notion": "Advanced Grammar",
+      "description": "Mixed conditionals, inversion (had we), emphasis (what matters)"
+    }
+  ]
+}

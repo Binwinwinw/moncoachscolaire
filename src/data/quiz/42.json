@@ -1,0 +1,85 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 4eme Français",
+    "type": "quiz",
+    "level": "4eme",
+    "subject": "Francais",
+    "description": "Diagnostic subjonctif, discours indirect, figures style 4eme"
+  },
+  "quiz": {
+    "title": "Diagnostic Français 4eme",
+    "level": "4eme",
+    "subject": "Francais",
+    "question_count": 8,
+    "passing_score": 80,
+    "questions": [
+      {
+        "id": 1,
+        "type": "texte",
+        "question": "Il faut que tu ... (venir)."
+      },
+      {
+        "id": 2,
+        "type": "qcm",
+        "question": "Il dit : 'Je pars.' → Il dit que...",
+        "choices": [
+          "il part",
+          "il partait",
+          "il est parti"
+        ]
+      },
+      {
+        "id": 3,
+        "type": "vrai-faux",
+        "question": "MÉTAPHORE = comparaison sans outil."
+      },
+      {
+        "id": 4,
+        "type": "texte",
+        "question": "Bien que ... (pleuvoir), nous sortons."
+      },
+      {
+        "id": 5,
+        "type": "qcm",
+        "question": "Il a crié 'Stop !' → Il a crié que...",
+        "choices": [
+          "stop",
+          "il arrête",
+          "stopper"
+        ]
+      },
+      {
+        "id": 6,
+        "type": "vrai-faux",
+        "question": "Que je parte = indicatif."
+      },
+      {
+        "id": 7,
+        "type": "qcm",
+        "question": "HYPERBOLE =",
+        "choices": [
+          "Vérité",
+          "Exagération",
+          "Silence"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "texte",
+        "question": "Pour que tu ... (comprendre), j'explique."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Subjonctif présent"
+    },
+    {
+      "notion": "Discours indirect"
+    },
+    {
+      "notion": "Figures de style"
+    }
+  ],
+  "exerciseresponses": []
+}

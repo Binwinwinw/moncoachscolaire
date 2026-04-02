@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 701",
+    "level": "3ème",
+    "subject": "Physique-Chimie"
+  },
+  "quiz": {
+    "title": "Ions et liaisons ioniques",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "En perdant des électrons",
+        "correct": 1,
+        "correction": "Un cation se forme quand un atome perd un ou plusieurs électrons, acquérant une charge positive nette."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le chlore (Z=17) gagne 1 électron pour former Cl-, portant ainsi 18 électrons."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "Na+",
+        "correction": "Le sodium (Z=11, 11 électrons) perd 1 électron pour former Na+ à configuration stable de néon."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "NaCl",
+        "correct": 1,
+        "correction": "NaCl est composé d'un ion Na+ et d'un ion Cl- ; la neutralité électrique impose la formule NaCl."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'électroneutralité impose que la somme des charges positives (cations) soit égale à celle des charges négatives (anions)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "liaison ionique",
+        "correction": "La liaison ionique résulte de l'attraction électrostatique entre ions de charges opposées dans un réseau cristallin."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Ion calcium",
+        "correct": 0,
+        "correction": "Ca2+ est l'ion calcium, formé par perte de 2 électrons de l'atome de calcium (Z=20)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'ion sulfate SO4^2- est un ion polyatomique portant une charge 2-."
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 696",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 3ème : Révisions : écologie et climat",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "Révisions : écologie et climat",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel rôle jouent les producteurs primaires dans un écosystème ?",
+        "choices": [
+          "Ils décomposent les cadavres",
+          "Ils fabriquent la matière organique à partir de matière minérale",
+          "Ils mangent les herbivores",
+          "Ils détruisent les champignons"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le CO2 atmosphérique participe à l'effet de serre."
+      },
+      {
+        "type": "open",
+        "question": "La capacité d'un milieu à absorber davantage de CO2 qu'il n'en émet correspond à un _____ de carbone."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel phénomène provoque souvent un manque d'oxygène dans l'eau après une prolifération massive d'algues ?",
+        "choices": [
+          "La dessiccation",
+          "L'eutrophisation",
+          "La fossilisation",
+          "La subduction"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le changement climatique n'a aucun effet attendu sur la répartition géographique des espèces."
+      },
+      {
+        "type": "open",
+        "question": "Le dioxyde de carbone, le méthane et le protoxyde d'azote sont des gaz à effet de _____."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel comportement contribue le plus directement à préserver la biodiversité locale ?",
+        "choices": [
+          "Introduire des espèces exotiques partout",
+          "Préserver les habitats et limiter l'artificialisation des sols",
+          "Supprimer tous les prédateurs",
+          "Augmenter l'éclairage nocturne"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les zones humides jouent un rôle utile à la fois pour la biodiversité et pour la gestion de l'eau."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

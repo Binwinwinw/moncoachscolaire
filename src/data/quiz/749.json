@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 3eme - Série 749",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 3eme : Les droits de l'enfant et la Convention internationale",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Les droits de l'enfant et la Convention internationale",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "EMC",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "En quelle annee a ete adoptee la Convention internationale des droits de l'enfant (CIDE) par l'ONU ?",
+        "choices": [
+          "1948",
+          "1959",
+          "1989",
+          "2000"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La CIDE reconnaît que tout enfant a droit à une identité, une nationalité et un nom dès sa naissance."
+      },
+      {
+        "type": "open",
+        "question": "Quel est le principe directeur fondamental de la CIDE qui doit guider toute decision concernant un enfant ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel age minimal de travail la CIDE tend-elle a proteger ?",
+        "choices": [
+          "Tout travail est interdit avant 18 ans",
+          "La CIDE protege contre le travail dangereux et l'exploitation ; l'age varie selon les pays",
+          "Les enfants peuvent travailler a partir de 10 ans",
+          "Il n'y a pas de protection contre le travail dans la CIDE"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "En France, l'instruction est obligatoire de 3 a 16 ans."
+      },
+      {
+        "type": "open",
+        "question": "Quel organisme de l'ONU surveille l'application de la CIDE et recoit les rapports des Etats ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Que garantit le droit a l'education selon la CIDE ?",
+        "choices": [
+          "L'acces gratuit et obligatoire a l'enseignement superieur",
+          "L'acces gratuit a l'enseignement primaire et le developpement de la personnalite",
+          "L'enseignement uniquement dans la langue maternelle",
+          "L'enseignement prive uniquement"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La CIDE reconnait aux enfants le droit d'exprimer librement leur opinion sur les questions les concernant."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

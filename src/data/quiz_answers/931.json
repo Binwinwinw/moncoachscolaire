@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic HGGSP 1ère - Série 931",
+    "level": "1ère",
+    "subject": "HGGSP"
+  },
+  "quiz": {
+    "title": "Le droit international humanitaire",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "HGGSP",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Protéger les personnes ne participant pas ou plus aux hostilités (prisonniers, blessés, civils)",
+        "correct": 1,
+        "correction": "Les quatre Conventions de Genève de 1949 constituent le noyau du DIH (Droit International Humanitaire). Elles protègent les blessés, naufragés, prisonniers de guerre et civils."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "L'article 3 commun aux quatre Conventions de Genève et le Protocole II s'appliquent aux conflits armés non internationaux (guerres civiles). Le DIH s'applique à toutes les formes de conflits armés."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "Distinction (entre combattants et civils), Proportionnalité (les dommages causés aux civils ne doivent pas être excessifs par rapport à l'avantage militaire), Précaution (minimiser les dommages collatéraux), Nécessité militaire (seule la force nécessaire est autorisée), Humanité (interdiction des souffrances superflues).",
+        "correction": "Ces principes s'appliquent même en guerre ; ils sont contraignants pour toutes les parties au conflit, étatiques ou non."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Une organisation humanitaire privée suisse, gardienne du DIH",
+        "correct": 2,
+        "correction": "Fondé en 1863 par Henry Dunant, le CICR est une organisation neutre, impartiale et indépendante qui protège les victimes de conflits armés et promeut le respect du DIH."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les attaques délibérées contre des populations civiles, l'utilisation de civils comme boucliers humains, la torture constituent des crimes de guerre poursuivis par la CPI."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "Le DIH exige qu'un être humain soit en mesure d'exercer un contrôle sur les décisions létales (principe de responsabilité). Les armes entièrement autonomes (Lethal Autonomous Weapons Systems, LAWS) soulèvent des questions sur leur capacité à distinguer combattants et civils, à respecter la proportionnalité. Des négociations à l'ONU tentent d'établir un cadre réglementaire sans accord à ce jour.",
+        "correction": "La campagne 'Stop Killer Robots' regroupe des ONG et États demandant l'interdiction des LAWS."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Des actes commis avec l'intention de détruire, en tout ou en partie, un groupe national, ethnique, racial ou religieux",
+        "correct": 1,
+        "correction": "L'intention spécifique (dolus specialis) de destruction d'un groupe est l'élément clé du crime de génocide, ce qui le distingue des autres crimes contre l'humanité."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le Traité d'Ottawa (1997) interdit l'utilisation, le stockage, la production et le transfert des mines antipersonnel. Plus de 160 pays l'ont ratifié. Les USA, Russie et Chine ne l'ont pas signé."
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques Terminale - Serie 1034",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques Terminale : Intégrale et accumulation",
+    "status": "published",
+    "created_at": "2026-03-13 11:24:24",
+    "updated_at": "2026-03-13 11:24:24"
+  },
+  "quiz": {
+    "title": "Intégrale et accumulation",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Si v(t) est la vitesse d'un objet, que représente ∫₀ᵀ v(t) dt ?",
+        "choices": [
+          "La vitesse moyenne",
+          "L'accélération",
+          "La distance parcourue",
+          "L'énergie cinétique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La fonction G(x) = ∫ₐˣ f(t) dt est une primitive de f sur I."
+      },
+      {
+        "type": "open",
+        "question": "Un débit d'eau Q(t) (en m³/h) coule dans un réservoir. Que représente ∫₀⁵ Q(t) dt ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Si P'(t) représente le profit marginal (€/unité), que vaut ∫₀¹⁰⁰ P'(t) dt ?",
+        "choices": [
+          "Le profit marginal en t=100",
+          "Le profit total sur 100 unités",
+          "Le coût total",
+          "Le prix moyen"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le théorème fondamental de l'analyse dit que d/dx [∫ₐˣ f(t)dt] = f(x)."
+      },
+      {
+        "type": "open",
+        "question": "La population P(t) croît à un taux r(t). Si P(0) = 1000 et ∫₀¹⁰ r(t) dt = 500, que vaut P(10) ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Le changement de variable u = g(x) dans une intégrale nécessite de remplacer dx par :",
+        "choices": [
+          "du",
+          "du/g'(x)",
+          "g'(x) dx",
+          "du · g(x)"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "∫ₐᶜ f(x) dx = ∫ₐᵇ f(x) dx + ∫ᵦᶜ f(x) dx (relation de Chasles pour les intégrales)."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

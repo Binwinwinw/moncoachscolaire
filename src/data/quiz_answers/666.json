@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 666",
+    "level": "3ème",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "Santé : microbiotes et hygiène",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "L'ensemble des micro-organismes vivant dans l'intestin",
+        "correct": 1,
+        "correction": "Le microbiote intestinal (ou flore intestinale) est composé de milliards de bactéries, virus et champignons bénéfiques pour l'hôte."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le lavage des mains avec du savon est l'un des gestes les plus efficaces pour prévenir la transmission de nombreux pathogènes."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "flore commensale",
+        "correction": "La flore commensale (ou microbiote) vit en harmonie avec l'hôte et joue des rôles essentiels (digestion, immunité, protection)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Il stimule et régule le développement du système immunitaire",
+        "correct": 1,
+        "correction": "Le microbiote intestinal interagit avec les cellules immunitaires de la paroi intestinale et contribue à la maturation du système immunitaire."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Les antibiotiques à large spectre éliminent aussi des bactéries bénéfiques du microbiote, pouvant favoriser des infections opportunistes."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "effet barrière",
+        "correction": "L'effet barrière du microbiote empêche les agents pathogènes de coloniser les muqueuses en occupant les niches écologiques disponibles."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Côlon",
+        "correct": 2,
+        "correction": "Le côlon (gros intestin) abrite la plus grande concentration de micro-organismes du corps humain."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Le microbiote évolue avec l'âge, le régime alimentaire, les médicaments, le mode de vie et l'environnement."
+      }
+    ]
+  }
+}

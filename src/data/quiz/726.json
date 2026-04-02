@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 726",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie 3ème : Électricité : sources d'énergie et piles",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Électricité : sources d'énergie et piles",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la différence entre une pile et un accumulateur ?",
+        "choices": [
+          "Aucune différence",
+          "La pile est à usage unique ; l'accumulateur est rechargeable",
+          "L'accumulateur est moins puissant",
+          "La pile fonctionne en AC, l'accumulateur en DC"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une cellule photovoltaïque convertit la lumière en électricité."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la tension mesurée aux bornes d'un générateur lorsqu'il ne débite aucun courant ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle technologie d'accumulateur équipe principalement les téléphones portables et véhicules électriques ?",
+        "choices": [
+          "Plomb-acide",
+          "Lithium-ion (Li-ion)",
+          "Nickel-cadmium (NiCd)",
+          "Carbone-zinc"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'éolienne convertit l'énergie cinétique du vent en énergie électrique."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on le dispositif qui stocke l'énergie électrique sous forme de champ électrique ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la capacité théorique de stockage d'énergie d'une batterie Li-ion de smartphone (3 000 mAh sous 3,7 V) ?",
+        "choices": [
+          "11,1 Wh",
+          "3 Wh",
+          "111 Wh",
+          "1,11 kWh"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le recyclage des piles et accumulateurs est obligatoire en France."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

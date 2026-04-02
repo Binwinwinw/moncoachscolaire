@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 2nde - Serie 994",
+    "level": "2nde",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Repères & coordonnées dans l'espace",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "B",
+        "correction": "Dans un repère cartésien orthonormé de l'espace, les coordonnées d'un point M sont données par (x, y, z)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Distance OA = √((1−0)² + (2−0)² + (3−0)²) = √(1 + 4 + 9) = √14."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "(2.5, 3.5, 4.5)",
+        "correction": "Milieu M = ((1+4)/2, (2+5)/2, (3+6)/2) = (2.5, 3.5, 4.5)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "C",
+        "correction": "Distance AB = √((4−1)² + (5−2)² + (6−3)²) = √(9 + 9 + 9) = √27."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Dans un repère orthonormé de l'espace, les trois axes sont perpendiculaires entre eux."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "(−1, 0, 0)",
+        "correction": "La droite AB peut être parametree par M(t) = A + t(B - A) = (1 + 3t, 2 + 3t, 3 + 3t). Pour l'intersection avec le plan z = 0 : 3 + 3t = 0, donc t = -1. Alors M(-1) = (-1, 0, 0)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "A",
+        "correction": "La projection orthogonale de A sur le plan xy consiste a annuler la coordonnee z : (1, 2, 0)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Distance OA = √14 ≈ 3.74 ; distance OB = √((4)² + (5)² + (6)²) = √(16 + 25 + 36) = √77 ≈ 8.77. A est plus proche de O que B."
+      }
+    ]
+  }
+}

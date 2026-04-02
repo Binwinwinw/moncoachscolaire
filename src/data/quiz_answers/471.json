@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 471",
+    "level": "1ère",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Le théâtre classique (XVIIe siècle)",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Temps, lieu, action",
+        "correct": 0,
+        "correction": "La règle des trois unités impose : une journée, un lieu, une action principale."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La bienséance impose que les actes choquants (meurtre, violence) soient narrés plutôt que montrés."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "vraisemblance",
+        "correction": "La vraisemblance exige que l'action soit crédible ; elle est complémentaire de la bienséance."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Le Misanthrope",
+        "correct": 1,
+        "correction": "Le Misanthrope (1666) est une comédie de Molière qui met en scène Alceste, ennemi de la flatterie."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Phèdre (1677) est une tragédie de Jean Racine."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "péripétie",
+        "correction": "La péripétie (renversement de situation) précipite la catastrophe finale."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Provoquer la catharsis (purification des passions)",
+        "correct": 1,
+        "correction": "La catharsis aristotélicienne : la tragédie purge les passions de crainte et de pitié."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La tragédie classique est écrite en alexandrins (12 syllabes) rimés."
+      }
+    ]
+  }
+}

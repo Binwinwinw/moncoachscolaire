@@ -1,0 +1,14 @@
+
+.form-group input.error,
+.form-group input[aria-invalid="true"] {
+    border-color: #dc2626 !important;
+    background-color: #fef2f2;
+    box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.1) !important;
+}
+
+.form-group input.error:focus,
+.form-group input[aria-invalid="true"]:focus {
+    outline: 2px solid #dc2626;
+    outline-offset: 2px;
+    border-color: #dc2626 !important;
+}

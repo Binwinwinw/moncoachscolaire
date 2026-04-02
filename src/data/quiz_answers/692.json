@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 692",
+    "level": "3ème",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "Révisions : immunologie et vaccination",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Les anticorps et certains lymphocytes",
+        "correct": 1,
+        "correction": "L'immunité adaptative repose sur une reconnaissance spécifique des antigènes par les lymphocytes B et T."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'inflammation fait partie des premières défenses de l'organisme face à une agression ou une infection."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "infection",
+        "correction": "La mémoire immunitaire accélère et renforce la réponse lors d'un nouveau contact avec le même agent pathogène."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Les lymphocytes T CD4",
+        "correct": 1,
+        "correction": "La diminution des lymphocytes T CD4 affaiblit l'ensemble de la réponse immunitaire."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le sérum fournit directement des anticorps déjà fabriqués, sans créer de mémoire immunitaire durable."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "phagocytose",
+        "correction": "Les phagocytes internalisent les agents pathogènes puis les digèrent grâce à des enzymes."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Parce qu'ils agissent sur les bactéries, pas sur les virus",
+        "correct": 1,
+        "correction": "La grippe est une maladie virale, donc les antibiotiques sont inefficaces sauf en cas de surinfection bactérienne."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Une forte couverture vaccinale réduit la circulation des agents infectieux dans la population."
+      }
+    ]
+  }
+}

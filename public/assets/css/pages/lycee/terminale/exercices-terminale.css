@@ -1,0 +1,158 @@
+/* Styles pour la page exercices Terminale - basés sur exercices-seconde.css */
+.page-exercices-terminale main { max-width: 1000px; margin: 0 auto; padding: 2rem; }
+.page-exercices-terminale .header { text-align: center; margin-bottom: 40px; border-bottom: 3px solid #dc2626; padding-bottom: 20px; }
+.page-exercices-terminale .header h1 { color: #dc2626; font-size: 28px; margin-bottom: 10px; }
+.page-exercices-terminale .subtitle { color: #666; font-size: 18px; font-style: italic; }
+.page-exercices-terminale h2 { color: #dc2626; border-left: 5px solid #dc2626; padding-left: 15px; margin-top: 30px; }
+.page-exercices-terminale h3 { color: #357a32; margin-top: 25px; }
+.page-exercices-terminale .coach-message { background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%); border-left: 4px solid #dc2626; padding: 20px; margin: 20px 0; border-radius: 8px; font-style: italic; }
+.page-exercices-terminale .coach-message strong { color: #dc2626; font-size: 18px; }
+.page-exercices-terminale .coach-preview { background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); border: 2px solid #e2e8f0; border-radius: 15px; padding: 2rem; text-align: center; margin: 2rem 0; }
+.page-exercices-terminale .coach-preview h2 { color: #dc2626; margin-bottom: 1rem; }
+.page-exercices-terminale .coach-preview p { color: #64748b; font-size: 1.1rem; margin-bottom: 1.5rem; }
+.page-exercices-terminale .preview-features { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 2rem 0; }
+.page-exercices-terminale .preview-feature { background: white; padding: 1.5rem; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+.page-exercices-terminale .preview-feature h3 { color: #059669; margin-bottom: 0.5rem; }
+.page-exercices-terminale .preview-feature p { color: #64748b; font-size: 0.9rem; }
+.page-exercices-terminale .coach-cta { background: linear-gradient(135deg, #059669 0%, #10b981 100%); color: white; border: none; padding: 1rem 2rem; border-radius: 8px; font-size: 1.1rem; font-weight: 600; cursor: pointer; text-decoration: none; display: inline-block; margin: 0 0.5rem; transition: all 0.3s ease; }
+.page-exercices-terminale .coach-cta:hover { transform: translateY(-2px); box-shadow: 0 10px 20px rgba(5, 150, 105, 0.3); }
+.page-exercices-terminale .coach-cta.secondary { background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%); }
+.page-exercices-terminale .coach-cta.secondary:hover { box-shadow: 0 10px 20px rgba(220, 38, 38, 0.3); }
+.page-exercices-terminale .exercise-card { background: #f8f9fa; border: 2px solid #e9ecef; border-radius: 10px; padding: 20px; margin: 20px 0; transition: all 0.3s ease; }
+.page-exercices-terminale .exercise-card:hover { border-color: #dc2626; box-shadow: 0 4px 12px rgba(220, 38, 38, 0.1); }
+.page-exercices-terminale .exercise-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
+.page-exercices-terminale .difficulty { background: #dc2626; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; }
+.page-exercices-terminale .progress-bar { width: 100%; height: 8px; background: #e9ecef; border-radius: 4px; margin: 10px 0; overflow: hidden; }
+.page-exercices-terminale .progress-fill { height: 100%; background: linear-gradient(90deg, #357a32, #dc2626); width: 0%; transition: width 0.5s ease; }
+.page-exercices-terminale .motivation-box { background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%); border: 2px solid #dc2626; border-radius: 10px; padding: 15px; margin: 15px 0; text-align: center; }
+.page-exercices-terminale .motivation-box h4 { color: #b91c1c; margin-bottom: 10px; }
+.page-exercices-terminale .btn-coach { background: #dc2626; color: white; border: none; padding: 10px 20px; border-radius: 6px; cursor: pointer; font-weight: bold; transition: all 0.3s ease; }
+.page-exercices-terminale .btn-coach:hover { background: #b91c1c; transform: translateY(-2px); }
+.page-exercices-terminale .success-message { background: #d4edda; color: #155724; padding: 15px; border-radius: 6px; margin: 15px 0; display: none; }
+.page-exercices-terminale .cta-actions { margin-top: 2rem; text-align: center; }
+.page-exercices-terminale .tip-box { background: #fef2f2; border-left: 4px solid #dc2626; padding: 15px; margin: 15px 0; }
+.page-exercices-terminale .tip-box h4 { color: #dc2626; margin-bottom: 8px; }
+
+/* Styles pour exercices interactifs */
+.page-exercices-terminale .exercise-subject-group { margin: 2rem 0; }
+.page-exercices-terminale .exercise-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; margin: 1.5rem 0; }
+.page-exercices-terminale .exercise-title-section { display: flex; align-items: center; gap: 0.5rem; }
+.page-exercices-terminale .exercise-icon { font-size: 1.5em; }
+.page-exercices-terminale .exercise-title { margin: 0; flex: 1; }
+.page-exercices-terminale .exercise-meta { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.page-exercices-terminale .exercise-level,
+.page-exercices-terminale .exercise-subject { background: #fee2e2; color: #991b1b; padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.875rem; }
+.page-exercices-terminale .exercise-content { margin: 1rem 0; }
+.page-exercices-terminale .exercise-enonce { line-height: 1.6; }
+.page-exercices-terminale .exercise-answer { margin-top: 1.5rem; padding-top: 1.5rem; border-top: 2px solid #e5e7eb; }
+.page-exercices-terminale .answer-title { color: #059669; margin-bottom: 1rem; }
+.page-exercices-terminale .answer-content { background: #f0fdf4; padding: 1rem; border-radius: 6px; border-left: 4px solid #10b981; }
+.page-exercices-terminale .exercise-actions { display: flex; gap: 0.5rem; margin-top: 1rem; flex-wrap: wrap; }
+.page-exercices-terminale .btn-show-answer,
+.page-exercices-terminale .btn-exercise-complete { background: #059669; color: white; border: none; padding: 0.75rem 1.5rem; border-radius: 6px; cursor: pointer; font-weight: 600; transition: all 0.3s ease; font-size: 0.9rem; }
+.page-exercices-terminale .btn-show-answer:hover,
+.page-exercices-terminale .btn-exercise-complete:hover { background: #047857; transform: translateY(-2px); box-shadow: 0 4px 8px rgba(5, 150, 105, 0.3); }
+.page-exercices-terminale .btn-exercise-complete:disabled { background: #9ca3af; cursor: not-allowed; transform: none; }
+.page-exercices-terminale .exercise-completed { border-color: #10b981 !important; background: #f0fdf4 !important; }
+.page-exercices-terminale .exercise-success-message { background: #d1fae5; border-left: 4px solid #10b981; padding: 1rem; margin-top: 1rem; border-radius: 6px; color: #065f46; animation: fadeIn 0.5s ease-out; }
+.page-exercices-terminale .no-exercises { text-align: center; padding: 2rem; color: #6b7280; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
+
+/* Styles pour exercices interactifs - Conjugaison (utilisé pour les réponses écrites) */
+.page-exercices-terminale .conjugation-exercise { margin: 1.5rem 0; }
+.page-exercices-terminale .conjugation-question { margin: 1rem 0; padding: 1rem; background: white; border-radius: 6px; border: 1px solid #e5e7eb; }
+.page-exercices-terminale .conjugation-input { width: 100%; max-width: 400px; padding: 0.75rem; font-size: 1rem; border: 2px solid #d1d5db; border-radius: 6px; margin-top: 0.5rem; transition: all 0.3s ease; }
+.page-exercices-terminale .conjugation-input:focus { outline: none; border-color: #dc2626; box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.1); }
+.page-exercices-terminale .conjugation-input.correct-input { border-color: #10b981; background: #f0fdf4; }
+.page-exercices-terminale .conjugation-input.wrong-input { border-color: #ef4444; background: #fef2f2; }
+.page-exercices-terminale .conjugation-feedback { padding: 1rem; border-radius: 6px; margin-top: 1rem; }
+
+/* Styles pour exercices interactifs - QCM */
+.page-exercices-terminale .qcm-exercise { margin: 1.5rem 0; }
+.page-exercices-terminale .qcm-question { margin: 1.5rem 0; padding: 1rem; background: white; border-radius: 6px; border: 1px solid #e5e7eb; }
+.page-exercices-terminale .qcm-choices {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+}
+.page-exercices-terminale .qcm-choice {
+    display: block !important;
+    width: 100% !important;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border: 2px solid #d1d5db;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: #f9fafb;
+    box-sizing: border-box;
+}
+.page-exercices-terminale .qcm-choice:hover { background: #f3f4f6; border-color: #9ca3af; }
+.page-exercices-terminale .qcm-choice input[type="radio"] { margin-right: 0.5rem; cursor: pointer; }
+.page-exercices-terminale .qcm-choice-text { user-select: none; }
+.page-exercices-terminale .qcm-choice.correct-choice { background: #f0fdf4; border-color: #10b981; color: #065f46; }
+.page-exercices-terminale .qcm-choice.wrong-choice { background: #fef2f2; border-color: #ef4444; color: #991b1b; }
+.page-exercices-terminale .qcm-feedback { padding: 1rem; border-radius: 6px; margin-top: 1rem; }
+.page-exercices-terminale .input-feedback { display: inline-block; margin-left: 0.5rem; font-size: 0.9rem; font-weight: 600; }
+.page-exercices-terminale .input-feedback.success { color: #059669; }
+.page-exercices-terminale .input-feedback.error { color: #dc2626; }
+.page-exercices-terminale .input-feedback.warning { color: #d97706; }
+.page-exercices-terminale .feedback-success { background: #d1fae5; border-left: 4px solid #10b981; padding: 1rem; border-radius: 6px; color: #065f46; }
+.page-exercices-terminale .feedback-good { background: #fef3c7; border-left: 4px solid #f59e0b; padding: 1rem; border-radius: 6px; color: #92400e; }
+.page-exercices-terminale .feedback-needs-work { background: #fee2e2; border-left: 4px solid #ef4444; padding: 1rem; border-radius: 6px; color: #991b1b; }
+
+/* Styles pour la navigation entre niveaux */
+.page-exercices-terminale .exercise-navigation {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 2px solid #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.page-exercices-terminale .exercise-navigation .nav-group {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.page-exercices-terminale .exercise-navigation .nav-btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: inline-block;
+    color: white;
+}
+
+.exercise-navigation .nav-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.exercise-navigation .nav-prev,
+.exercise-navigation .nav-next {
+    background: #dc2626;
+}
+
+.exercise-navigation .nav-prev:hover,
+.exercise-navigation .nav-next:hover {
+    background: #b91c1c;
+    box-shadow: 0 4px 8px rgba(220, 38, 38, 0.3);
+}
+
+@media (max-width: 768px) {
+    .exercise-navigation {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .exercise-navigation .nav-group {
+        justify-content: center;
+    }
+}

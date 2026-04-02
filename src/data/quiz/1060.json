@@ -1,0 +1,67 @@
+{
+  "id": 1060,
+  "title": "Discriminant et racines",
+  "subject": "Mathématiques",
+  "level": "1ère",
+  "created_at": "2026-03-13T18:54:00.421996Z",
+  "questions": [
+    {
+      "id": "1060_1",
+      "type": "qcm",
+      "question": "Le discriminant du trinôme ax² + bx + c est défini par :",
+      "options": [
+        "Δ = b² + 4ac",
+        "Δ = b² − 4ac",
+        "Δ = 4ac − b²",
+        "Δ = (b − a)²"
+      ]
+    },
+    {
+      "id": "1060_2",
+      "type": "vrai-faux",
+      "question": "Si Δ > 0, le trinôme admet deux racines réelles distinctes."
+    },
+    {
+      "id": "1060_3",
+      "type": "texte",
+      "question": "Calcule le discriminant et les racines de f(x) = x² − 5x + 6."
+    },
+    {
+      "id": "1060_4",
+      "type": "qcm",
+      "question": "Que peut-on conclure si Δ = 0 ?",
+      "options": [
+        "Pas de racine réelle",
+        "Deux racines distinctes",
+        "Une racine double x₀ = −b/(2a)",
+        "Une infinité de racines"
+      ]
+    },
+    {
+      "id": "1060_5",
+      "type": "vrai-faux",
+      "question": "Si Δ < 0, la parabole ne coupe pas l'axe des abscisses."
+    },
+    {
+      "id": "1060_6",
+      "type": "texte",
+      "question": "Pour quelle(s) valeur(s) de k l'équation x² − kx + 4 = 0 admet-elle une racine double ?"
+    },
+    {
+      "id": "1060_7",
+      "type": "qcm",
+      "question": "Les racines de 2x² − 3x + 1 = 0 sont :",
+      "options": [
+        "x = 1 et x = 1/2",
+        "x = 1 et x = −1/2",
+        "x = 3 et x = 1",
+        "x = −1 et x = −1/2"
+      ]
+    },
+    {
+      "id": "1060_8",
+      "type": "vrai-faux",
+      "question": "Le produit des racines d'un trinôme ax² + bx + c est c/a."
+    }
+  ]
+}

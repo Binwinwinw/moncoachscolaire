@@ -1,0 +1,84 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 3eme SVT",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "SVT",
+    "description": "Diagnostic évolution, géologie, reproduction végétaux 3eme brevet"
+  },
+  "quiz": {
+    "title": "Diagnostic SVT 3eme",
+    "level": "3eme",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 80,
+    "questions": [
+      {
+        "id": 1,
+        "type": "qcm",
+        "question": "Évolution = ... naturelles.",
+        "choices": [
+          "Sélection",
+          "Mutations"
+        ]
+      },
+      {
+        "id": 2,
+        "type": "texte",
+        "question": "Roche sédimentaire = couches ..."
+      },
+      {
+        "id": 3,
+        "type": "vrai-faux",
+        "question": "Fossiles = formes transitoires."
+      },
+      {
+        "id": 4,
+        "type": "qcm",
+        "question": "Reproduction angiosperme = ... + pollen",
+        "choices": [
+          "Feuille",
+          "Ovaire",
+          "Racine"
+        ]
+      },
+      {
+        "id": 5,
+        "type": "texte",
+        "question": "Ère actuelle = ... (65M ans)"
+      },
+      {
+        "id": 6,
+        "type": "vrai-faux",
+        "question": "Mutation = toujours bénéfique."
+      },
+      {
+        "id": 7,
+        "type": "qcm",
+        "question": "Dérive continents = Wegener ...",
+        "choices": [
+          "1912",
+          "1953",
+          "1789"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "texte",
+        "question": "Homologie = ... structures."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Évolution"
+    },
+    {
+      "notion": "Géologie"
+    },
+    {
+      "notion": "Reproduction plantes"
+    }
+  ],
+  "exerciseresponses": []
+}

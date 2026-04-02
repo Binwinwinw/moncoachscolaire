@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic HGGSP 1ère - Série 929",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "HGGSP",
+    "description": "Diagnostic HGGSP 1ère : L'ONU et le maintien de la paix",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "L'ONU et le maintien de la paix",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "HGGSP",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "L'ONU a été fondée en :",
+        "choices": [
+          "1919",
+          "1945",
+          "1948",
+          "1950"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le Conseil de sécurité de l'ONU compte 5 membres permanents avec droit de veto."
+      },
+      {
+        "type": "open",
+        "question": "Quelles sont les limites du droit de veto dans le fonctionnement du Conseil de sécurité ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Les Casques bleus de l'ONU sont des forces de :",
+        "choices": [
+          "Guerre offensive",
+          "Maintien de la paix déployées avec l'accord des parties",
+          "Coercition contre les États en infraction",
+          "Police internationale permanente"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'échec de l'ONU au Rwanda en 1994 a conduit à une réforme des opérations de maintien de la paix."
+      },
+      {
+        "type": "open",
+        "question": "Quelle est la différence entre une opération de maintien de la paix et une opération d'imposition de la paix ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel organe onusien est compétent pour le respect des droits humains ?",
+        "choices": [
+          "Le Conseil de sécurité",
+          "Le Conseil des droits de l'homme (CDH)",
+          "L'Assemblée générale uniquement",
+          "Le FMI"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'ONU dispose de sa propre armée permanente pour intervenir dans les conflits."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

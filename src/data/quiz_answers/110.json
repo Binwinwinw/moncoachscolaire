@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Terminale Philosophie",
+    "level": "terminale",
+    "subject": "Philosophie"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic Terminale Philosophie",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "**Agis universalité** ('Agis que maxime universelle')."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "correct": true,
+        "correction": "**Vrai**. Condamné être libre (Être/Sartre)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "correct": null,
+        "correction": "**Autrui d'abord** (visage éthique)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "**juste milieu** (mésotès courage...)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "correct": true,
+        "correction": "**Vrai**. Dignité personne (2e formulation)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "correct": null,
+        "correction": "**fuite responsabilité** (déni choix)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "**plus grand bonheur** (utilité collective)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "correct": null,
+        "correction": "**esclaves** (ressentiment vs maîtres)."
+      }
+    ],
+    "level": "terminale",
+    "subject": "Philosophie"
+  }
+}

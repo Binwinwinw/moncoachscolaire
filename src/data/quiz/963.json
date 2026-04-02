@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 2nde - Serie 963",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 2nde : Ensembles de nombres",
+    "status": "published",
+    "created_at": "2026-03-13 11:15:43",
+    "updated_at": "2026-03-13 11:15:43"
+  },
+  "quiz": {
+    "title": "Ensembles de nombres",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel ensemble contient tous les entiers naturels ET les entiers négatifs ?",
+        "choices": [
+          "N",
+          "Z",
+          "Q",
+          "R"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Tout nombre décimal est un nombre rationnel."
+      },
+      {
+        "type": "open",
+        "question": "Donne un exemple de nombre irrationnel et explique pourquoi il ne peut pas s'écrire sous forme de fraction."
+      },
+      {
+        "type": "qcm",
+        "question": "Parmi ces nombres, lequel N'appartient PAS à Q ?",
+        "choices": [
+          "0,333…",
+          "√3",
+          "−7/2",
+          "1,25"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'ensemble D des décimaux est inclus dans Q."
+      },
+      {
+        "type": "open",
+        "question": "Classe les ensembles N, Z, D, Q, R du plus petit (inclus) au plus grand."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la valeur de √9 ?",
+        "choices": [
+          "3",
+          "4,5",
+          "±3",
+          "9/2"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "π appartient à l'ensemble R mais pas à Q."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

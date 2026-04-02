@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 638",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 1ère : Le volcanisme : types et mécanismes",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "Le volcanisme : types et mécanismes",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Le volcanisme effusif (ex : Piton de la Fournaise) se caractérise par :",
+        "choices": [
+          "Des explosions violentes projetant des nuées ardentes",
+          "Des coulées de lave fluide basaltique peu chargée en gaz, peu dangereuse",
+          "La formation de dômes de lave visqueux",
+          "Des émissions de téphras uniquement"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le volcanisme explosif, comme celui du Pinatubo (1991), peut refroidir temporairement le climat mondial en injectant des aérosols soufrés dans la stratosphère."
+      },
+      {
+        "type": "open",
+        "question": "La nuée ardente (pyroclastic flow) est un mélange de gaz brûlants et de fragments de lave projetés à grande vitesse ; elle est la principale cause de _____ lors des éruptions explosives."
+      },
+      {
+        "type": "qcm",
+        "question": "Le magma se forme principalement par :",
+        "choices": [
+          "La fusion complète du manteau sous l'effet de la chaleur du noyau",
+          "La fusion partielle du manteau due à une baisse de pression (dorsales), à l'apport d'eau (subduction) ou à une anomalie thermique (points chauds)",
+          "La solidification de la croûte océanique",
+          "Des réactions chimiques entre les roches de la croûte continentale"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les volcans de subduction (ex : Mont Saint Helens, Vésuve) produisent des laves andésitiques plus visqueuses que les laves basaltiques."
+      },
+      {
+        "type": "open",
+        "question": "La chambre _____ est le réservoir souterrain où le magma s'accumule avant une éruption."
+      },
+      {
+        "type": "qcm",
+        "question": "La surveillance volcanique utilise :",
+        "choices": [
+          "Uniquement l'observation visuelle",
+          "La sismologie, la géodésie (GPS, inclinomètres), la géochimie des gaz et l'imagerie thermique",
+          "Seulement les satellites météo",
+          "Les prévisions météorologiques"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les sources hydrothermales (fumeurs noirs) au fond des océans abritent des écosystèmes indépendants de la photosynthèse."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

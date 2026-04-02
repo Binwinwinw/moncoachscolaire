@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Philosophie 1ere - Série 225",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Philosophie",
+    "description": "Diagnostic Philosophie 1ere : Quiz Diagnostic 1ere Philosophie - Serie 2",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Philosophie - Serie 2",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Philosophie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle méthode Freud développe-t-il pour accéder à l'inconscient ?",
+        "choices": [
+          "La méditation",
+          "La psychanalyse (association libre, interprétation des rêves)",
+          "La dialectique socratique",
+          "L'introspection rationnelle"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'inconscient freudien est simplement ce dont on n'est pas conscient à un moment donné, comme les souvenirs oubliés."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que le refoulement chez Freud et quel est son rôle dans la formation de l'inconscient ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle objection philosophique majeure peut-on adresser à la notion d'inconscient freudien ?",
+        "choices": [
+          "L'inconscient n'existe que chez les malades mentaux",
+          "Si l'inconscient est par définition inaccessible à la conscience, on ne peut ni le prouver ni le réfuter (problème de réfutabilité)",
+          "La psychanalyse est trop rationnelle",
+          "Freud ne parle que des rêves"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Selon Freud, le ça, le moi et le surmoi sont les trois instances de la deuxième topique de l'appareil psychique."
+      },
+      {
+        "type": "open",
+        "question": "En quoi la découverte de l'inconscient constitue-t-elle, selon Freud, une 'blessure narcissique' pour l'humanité ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel philosophe affirme que la thèse de l'inconscient est incompatible avec la liberté humaine et constitue une 'mauvaise foi' ?",
+        "choices": [
+          "Freud lui-même",
+          "Hegel",
+          "Sartre",
+          "Descartes"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'interprétation des rêves selon Freud montre que les rêves ont un sens caché qui exprime des désirs inconscients refoulés."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 601",
+    "level": "3ème",
+    "subject": "Histoire-Géographie"
+  },
+  "quiz": {
+    "title": "Brevet HG : méthode et repères",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Analyser la consigne et définir les mots-clés",
+        "correct": 1,
+        "correction": "La compréhension du sujet conditionne la pertinence de la réponse."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Titre, figurés et légende hiérarchisée sont indispensables."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "source",
+        "correction": "Identifier la source aide à contextualiser et critiquer le document."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Répartir le temps selon les points et garder une relecture",
+        "correct": 1,
+        "correction": "La gestion du temps améliore la complétude de la copie."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Dates, lieux et notions sont attendus au Brevet."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "exemple",
+        "correction": "L'exemple concret renforce la démonstration."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Répondre clairement à la question posée",
+        "correct": 1,
+        "correction": "La conclusion synthétise l'argumentation."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La relecture finale est un gain de points simple."
+      }
+    ]
+  }
+}

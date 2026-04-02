@@ -1,0 +1,152 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6ème - Série 5",
+    "level": "6eme",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Diagnostic Français 6ème",
+    "question_count": 20,
+    "level": "6eme",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "Dans la phrase « J’___ bien mes devoirs », le verbe conjugué est déjà présent dans le contexte, le mot manquant sert à introduire le complément « mes devoirs ». On choisit donc « à », qui est une préposition et non « a », forme du verbe avoir. Pour vérifier, on peut essayer de remplacer par « avait » : si la phrase devient incorrecte, c’est que l’on n’est pas face au verbe avoir."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "Dans « Les ___ chat sont mignons », le nom « chat » est au masculin pluriel, il impose donc un accord en genre et en nombre à l’adjectif. La seule forme correcte est « petits », masculin pluriel. Cette question vérifie que l’élève sait accorder un adjectif qualificatif avec le nom noyau du groupe nominal."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "tf",
+        "correct": 0,
+        "correction": "La phrase « je chant » est incorrecte au présent de l’indicatif pour le verbe « chanter ». La bonne forme est « je chante », avec la terminaison « -e » propre aux verbes du 1er groupe à la 1re personne du singulier. Cette question contrôle la maîtrise des terminaisons des verbes en -er au présent."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "Dans « ___ est le chat de Marie », on indique que le chat appartient à Marie. Il faut donc employer le déterminant possessif pluriel « ses ». Les formes « ces », « s’est » et « sais » ont d’autres fonctions : démonstratif, verbe pronominal ou forme du verbe savoir. L’élève doit reconnaître ici un homophone grammatical et choisir la forme possessive correcte."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "Dans « un beau jardin », le mot « beau » précise une qualité du nom « jardin ». Il ne désigne pas une chose ni une action, il qualifie simplement le nom. C’est donc un adjectif qualificatif. Cette question permet de vérifier que l’élève distingue la nature des mots et sait reconnaître un adjectif dans un groupe nominal."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "Dans « Nous (finir) nos exercices demain », l’indice de temps « demain » indique un futur. Le sujet « nous » demande la 1re personne du pluriel, la forme correcte est « finirons ». Au futur simple, un verbe du 2e groupe comme « finir » se conjugue « nous finirons », ce qui permet de travailler la correspondance entre sujet et terminaison verbale."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "correct": 2,
+        "correction": "La phrase « Il (lire) un livre » au passé décrit une action en cours. On utilise l’imparfait, et pour le verbe « lire » à la 3e personne du singulier, la forme correcte est « lisait ». L’élève doit reconnaître la terminaison « -ait » pour l’imparfait, qui est typique de la 3e personne du singulier dans ce temps du récit."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "tf",
+        "correct": 1,
+        "correction": "Dans « Les enfants joue au foot », il y a une erreur d’accord sujet‑verbe. Le sujet « les enfants » est pluriel, le verbe doit prendre la terminaison de la 3e personne du pluriel, on écrit donc « jouent ». Cette question évalue la capacité de l’élève à repérer et corriger un accord sujet‑verbe incorrect dans une phrase simple."
+      },
+      {
+        "index": 8,
+        "question_id": 9,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "Dans la phrase « Le chat dort », le mot « chat » répond à la question « qui est‑ce qui dort ? ». Il désigne l’être qui accomplit l’action exprimée par le verbe « dort », c’est donc le sujet de la phrase. Cette question vérifie que l’élève sait associer la fonction de sujet au bon mot dans une phrase très simple."
+      },
+      {
+        "index": 9,
+        "question_id": 10,
+        "type": "open",
+        "correction": "Un bon exemple est : « Il a beaucoup travaillé » et « Il va à l’école ». Dans le premier cas, « a » est le verbe avoir conjugué, dans le second, « à » est une préposition qui introduit un complément de lieu. On peut demander à l’élève d’expliquer que l’on distingue ces homophones en utilisant un test de substitution avec « avait » pour vérifier la présence du verbe avoir."
+      },
+      {
+        "index": 10,
+        "question_id": 11,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "Dans « Elles (manger) une pomme », le verbe est conjugué avec l’auxiliaire « avoir » et le complément d’objet direct « une pomme » est placé après le verbe. Dans ce cas simple, le participe passé reste invariable et on écrit « mangé ». Cette question évalue la règle d’accord du participe passé avec « avoir » lorsque le COD ne précède pas le verbe."
+      },
+      {
+        "index": 11,
+        "question_id": 12,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "Pour « Tu (finir) à 18h », le sujet « tu » demande la 2e personne du singulier. Le verbe « finir » appartient au 2e groupe, et au présent, la forme correcte est « tu finis ». L’élève doit reconnaître la terminaison « -is » qui caractérise la 2e personne du singulier pour ce type de verbe régulier."
+      },
+      {
+        "index": 12,
+        "question_id": 13,
+        "type": "tf",
+        "correct": 0,
+        "correction": "La phrase « L’adjectif s’accorde en genre/nombre avec le nom qu’il qualifie » est vraie. Un adjectif qualificatif doit toujours prendre les marques de genre et de nombre du nom qu’il accompagne. Cette question permet de vérifier que l’élève connaît cette règle d’accord fondamentale en grammaire."
+      },
+      {
+        "index": 13,
+        "question_id": 14,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "Dans « ___ livres sont sur la table », il faut un déterminant démonstratif pluriel pour accompagner le nom « livres ». La forme correcte est « ces ». Cette question vérifie que l’élève distingue les homophones proches et choisit bien le démonstratif qui sert à montrer des objets dont on parle."
+      },
+      {
+        "index": 14,
+        "question_id": 15,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "Dans « Nous (être) en classe », le sujet « nous » impose la 1re personne du pluriel. Au présent de l’indicatif, le verbe « être » se conjugue « nous sommes ». Les autres formes proposées correspondent à d’autres temps ou modes. L’objectif est de vérifier la maîtrise des formes de base du verbe être, pilier de la conjugaison."
+      },
+      {
+        "index": 15,
+        "question_id": 16,
+        "type": "open",
+        "correction": "On attend que l’élève cite au moins deux temps du récit étudiés au collège, par exemple l’imparfait et le passé simple, ou encore le passé composé. On peut lui demander de préciser que l’imparfait sert surtout à décrire et à exprimer des actions longues, tandis que le passé simple ou le passé composé racontent des actions ponctuelles qui font avancer l’histoire."
+      },
+      {
+        "index": 16,
+        "question_id": 17,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "Le pluriel correct du nom « cheval » est « chevaux ». C’est un pluriel irrégulier qui se forme en remplaçant la terminaison par « -aux ». Cette question permet de vérifier la connaissance des pluriels irréguliers fréquents, que les élèves doivent mémoriser car ils ne suivent pas la règle générale d’ajout d’un simple « s »."
+      },
+      {
+        "index": 17,
+        "question_id": 18,
+        "type": "tf",
+        "correct": 0,
+        "correction": "La phrase « Pronom personnel sujet : “Il court vite” (il = sujet) » est vraie. Le mot « il » remplace la personne ou l’animal qui effectue l’action de courir et occupe la fonction de sujet. Cette question vérifie que l’élève reconnaît un pronom personnel sujet et sait le relier au verbe qu’il accompagne."
+      },
+      {
+        "index": 18,
+        "question_id": 19,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "Dans « Je vais ___ la plage », le verbe « vais » est déjà conjugué, le mot manquant introduit le complément de lieu. On utilise la préposition « à ». Les formes « a » et « as » appartiennent au verbe avoir et « au » est la contraction de « à le ». Cette question travaille la distinction fine des homophones dans un contexte de lieu."
+      },
+      {
+        "index": 19,
+        "question_id": 20,
+        "type": "open",
+        "correction": "Avec l’auxiliaire « être », le participe passé s’accorde toujours en genre et en nombre avec le sujet, par exemple « ils sont partis » ou « elles sont arrivées ». On attend que l’élève explique qu’il faut regarder le sujet pour choisir la bonne terminaison, en ajoutant les marques du féminin et du pluriel si nécessaire."
+      }
+    ]
+  }
+}

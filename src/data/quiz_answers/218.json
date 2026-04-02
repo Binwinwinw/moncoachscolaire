@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 2nde - Série 218",
+    "level": "2nde",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Diagnostic 2nde Français - Genres et mouvements littéraires",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Le romantisme",
+        "correct": 1,
+        "correction": "Victor Hugo est une figure majeure du romantisme au XIXe siècle. Ce mouvement valorise la sensibilité, l'histoire et la liberté créatrice."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le naturalisme, notamment avec Zola, revendique une démarche d'observation du réel. Il étudie les milieux sociaux et les déterminismes."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "théâtre",
+        "correction": "Le théâtre est un genre destiné à la représentation. Son écriture combine dialogues, indications scéniques et structure en actes ou scènes."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "La recherche de l'ordre, de la mesure et de la clarté",
+        "correct": 1,
+        "correction": "Le classicisme valorise la raison, la maîtrise et l'équilibre. Il s'appuie sur des règles formelles et un idéal de clarté."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le surréalisme veut dépasser la logique ordinaire. Il privilégie l'imaginaire, le rêve et les rapprochements surprenants."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "romantisme",
+        "correction": "Le romantisme place au centre l'expression de la subjectivité. Il privilégie le lyrisme, l'élan personnel et la sensibilité."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Le roman",
+        "correct": 0,
+        "correction": "Le roman raconte une histoire construite autour de personnages et d'une intrigue. Il peut adopter des formes et des époques variées."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Un mouvement regroupe des auteurs et des œuvres partageant des choix esthétiques et des enjeux communs. La période historique ne suffit pas à le définir."
+      }
+    ]
+  }
+}

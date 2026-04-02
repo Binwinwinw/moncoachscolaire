@@ -1,0 +1,84 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 3eme Anglais",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Anglais",
+    "description": "Diagnostic reported speech, phrasal verbs, connectors 3eme brevet"
+  },
+  "quiz": {
+    "title": "Diagnostic Anglais 3eme",
+    "level": "3eme",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 80,
+    "questions": [
+      {
+        "id": 1,
+        "type": "texte",
+        "question": "'I am tired' → He said he ... tired."
+      },
+      {
+        "id": 2,
+        "type": "qcm",
+        "question": "Look ... the meaning !",
+        "choices": [
+          "at",
+          "up",
+          "after"
+        ]
+      },
+      {
+        "id": 3,
+        "type": "vrai-faux",
+        "question": "'I'll call' → He said he would call."
+      },
+      {
+        "id": 4,
+        "type": "texte",
+        "question": "'Don't touch !' → She told me ..."
+      },
+      {
+        "id": 5,
+        "type": "qcm",
+        "question": "However =",
+        "choices": [
+          "Donc",
+          "Cependant",
+          "Aussi"
+        ]
+      },
+      {
+        "id": 6,
+        "type": "texte",
+        "question": "Turn ... TV (éteindre)."
+      },
+      {
+        "id": 7,
+        "type": "vrai-faux",
+        "question": "Because = cause."
+      },
+      {
+        "id": 8,
+        "type": "qcm",
+        "question": "'Where are you ?' → He asked me ...",
+        "choices": [
+          "where I was",
+          "where was I"
+        ]
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Reported speech"
+    },
+    {
+      "notion": "Phrasal verbs"
+    },
+    {
+      "notion": "Connectors"
+    }
+  ],
+  "exerciseresponses": []
+}

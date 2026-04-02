@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 595",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 3ème : Changement climatique : constats et réponses",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "Changement climatique : constats et réponses",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Le principal gaz à effet de serre émis par les activités humaines est :",
+        "choices": [
+          "L'oxygène",
+          "Le CO2",
+          "L'argon",
+          "L'hélium"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le réchauffement climatique augmente la fréquence de certains événements extrêmes."
+      },
+      {
+        "type": "open",
+        "question": "L'objectif international est de limiter le réchauffement à 1,5 ou 2 _____ par rapport à l'ère préindustrielle."
+      },
+      {
+        "type": "qcm",
+        "question": "La COP21 a abouti à quel accord ?",
+        "choices": [
+          "Accord de Genève",
+          "Accord de Paris",
+          "Accord de Kyoto II",
+          "Accord de Rome"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'adaptation et l'atténuation sont deux stratégies complémentaires."
+      },
+      {
+        "type": "open",
+        "question": "Planter des forêts pour capter du carbone relève d'une stratégie de _____ carbone."
+      },
+      {
+        "type": "qcm",
+        "question": "Un levier pour réduire les émissions est :",
+        "choices": [
+          "Augmenter l'usage du charbon",
+          "Développer l'efficacité énergétique",
+          "Supprimer l'isolation des bâtiments",
+          "Multiplier les trajets vides"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le climat est aussi une question de justice sociale entre territoires."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

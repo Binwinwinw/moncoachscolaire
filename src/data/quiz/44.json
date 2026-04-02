@@ -1,0 +1,88 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 4eme Mathématiques",
+    "type": "quiz",
+    "level": "4eme",
+    "subject": "Mathematiques",
+    "description": "Diagnostic factorisations, équations 1er degré, théorème Pythagore 4eme"
+  },
+  "quiz": {
+    "title": "Diagnostic Maths 4eme",
+    "level": "4eme",
+    "subject": "Mathematiques",
+    "question_count": 8,
+    "passing_score": 80,
+    "questions": [
+      {
+        "id": 1,
+        "type": "texte",
+        "question": "Factorise x²-9 ="
+      },
+      {
+        "id": 2,
+        "type": "qcm",
+        "question": "Résous 2x+5=11",
+        "choices": [
+          "3",
+          "8",
+          "4",
+          "6"
+        ]
+      },
+      {
+        "id": 3,
+        "type": "vrai-faux",
+        "question": "Pythagore : 3²+4²=5² (triangle rectangle)."
+      },
+      {
+        "id": 4,
+        "type": "texte",
+        "question": "Aire trapèze bases 3+5 hauteur 4 ="
+      },
+      {
+        "id": 5,
+        "type": "qcm",
+        "question": "PGCD(15,25) =",
+        "choices": [
+          "5",
+          "15",
+          "25",
+          "1"
+        ]
+      },
+      {
+        "id": 6,
+        "type": "texte",
+        "question": "Développe (2x+1)² ="
+      },
+      {
+        "id": 7,
+        "type": "vrai-faux",
+        "question": "Dans triangle rectangle, hypoténuse = plus long côté."
+      },
+      {
+        "id": 8,
+        "type": "qcm",
+        "question": "PPCM(4,6) =",
+        "choices": [
+          "2",
+          "12",
+          "24",
+          "6"
+        ]
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Factorisations"
+    },
+    {
+      "notion": "Équations 1er degré"
+    },
+    {
+      "notion": "Pythagore"
+    }
+  ],
+  "exerciseresponses": []
+}

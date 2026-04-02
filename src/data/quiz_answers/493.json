@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 493",
+    "level": "1ère",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Poésie engagée et résistante",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Paul Éluard",
+        "correct": 1,
+        "correction": "'Liberté' d'Éluard (1942), publié dans Poésie et Vérité, est un poème-manifeste de la Résistance."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Aragon signe certains poèmes 'François la Colère' pour contourner la censure nazie."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "Liberté",
+        "correction": "Chaque strophe liste les surfaces (cahier d'écolier, arbre, pierre…) sur lesquelles le poète écrit 'Liberté'."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Chef de maquis dans le Vaucluse",
+        "correct": 1,
+        "correction": "Char (pseudonyme 'Capitaine Alexandre') dirige le groupe de résistance Ventoux dans le Vaucluse."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "La poésie résistante (Éluard, Aragon, Char) maintient une haute exigence formelle ; la beauté renforce le message."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "Feuillets d'Hypnos",
+        "correction": "Feuillets d'Hypnos (1946) rassemble les notes de Char pendant sa période de résistance armée."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "L'alexandrin rimé",
+        "correct": 2,
+        "correction": "'La Rose et le Réséda' utilise des alexandrins rimés, récupérant la tradition formelle pour mieux résister."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Prévert (Paroles, 1945) dénonce la guerre ('Familiale'), les inégalités et le conformisme avec humour et tendresse."
+      }
+    ]
+  }
+}

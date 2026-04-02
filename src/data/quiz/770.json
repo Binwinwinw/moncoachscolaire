@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 3eme - Série 770",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 3eme : Revision generale EMC : citoyennete et valeurs republicaines",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Revision generale EMC : citoyennete et valeurs republicaines",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "EMC",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quels sont les cinq adjectifs qui qualifient la Republique francaise selon l'article 1 de la Constitution de 1958 ?",
+        "choices": [
+          "Libre, egale, fraternelle, solidaire, europeenne",
+          "Indivisible, laique, democratique, sociale, europeenne",
+          "Forte, juste, seculiere, federale, pacifique",
+          "Centralise, populaire, laique, democratique, socialiste"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un citoyen peut etre prive de sa nationalite francaise comme sanction judiciaire."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on le texte fondamental qui enumere les droits et libertes fondamentaux et que tout Etat doit respecter selon la pensee liberale ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le symbole republicain represente sur le buste de Marianne, symbole de la Republique francaise ?",
+        "choices": [
+          "Le bonnet phrygien",
+          "La couronne royale",
+          "Le casque militaire",
+          "Le voile monastique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le Conseil economique, social et environnemental (CESE) represente la societe civile aupres des pouvoirs publics."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la procedure permettant a un groupe de citoyens d'imposer un vote au Parlement sur une question de loi ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le fondement de la democratie selon Abraham Lincoln ?",
+        "choices": [
+          "Le gouvernement du peuple par les experts",
+          "Le gouvernement du peuple, par le peuple, pour le peuple",
+          "Le gouvernement des meilleurs citoyens",
+          "Le gouvernement de la majorite sans droits pour la minorite"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un Etat peut etre a la fois democratique et ne pas respecter les droits de l'homme."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

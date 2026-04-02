@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 639",
+    "level": "1ère",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "L'atmosphère terrestre et l'effet de serre naturel",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Vapeur d'eau, CO2, méthane et azote ; sans oxygène libre",
+        "correct": 1,
+        "correction": "L'oxygène libre est apparu ~2,4 Ga (Grande Oxydation) grâce aux cyanobactéries ; avant, l'atmosphère était réductrice."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les gaz à effet de serre naturels (H2O, CO2, CH4, N2O) piègent ~33°C de chaleur supplémentaire ; l'effet de serre devient problématique quand il est amplifié par l'Homme."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "ozone",
+        "correction": "L'ozone stratosphérique (cycle de Chapman) absorbe les UV < 280 nm ; les CFC (maintenant interdits, protocole de Montréal 1987) avaient créé un trou dans la couche d'ozone."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "CO2, CH4, N2O et gaz fluorés (HFC, SF6)",
+        "correct": 1,
+        "correction": "Le CO2 (combustion fossile) est le principal GES anthropique en volume ; le CH4 (élevage, rizières, décharges) a un GWP100 28× le CO2 ; le N2O vient des engrais azotés."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les carottes de glace montrent que le CO2 a oscillé entre ~180 ppm (glaciations) et ~280 ppm (interglaciaires) ; il dépasse aujourd'hui 420 ppm (2023)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "réfléchie",
+        "correction": "La rétroaction glace-albédo : la fonte des glaces réduit l'albédo (mer sombre absorbe plus) → amplification du réchauffement. L'albédo de la Terre est ~0,3."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Un groupe intergouvernemental d'experts qui synthétise les publications scientifiques sur le changement climatique",
+        "correct": 1,
+        "correction": "Le GIEC (créé 1988) publie des rapports d'évaluation (AR6 en 2023) synthétisant des milliers d'articles ; il ne fait pas de recherche propre mais évalue la littérature existante."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les océans ont absorbé ~30 % du CO2 anthropique ; le pH est passé de 8,2 à 8,1 (~30 % plus acide en unités [H+]) menaçant les organismes calcifiants (coraux, mollusques, coccolithophores)."
+      }
+    ]
+  }
+}

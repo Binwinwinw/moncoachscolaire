@@ -1,0 +1,199 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6ème - Série 5",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic complet : orthographe (homophones a/à, ces/ses, accords GN), conjugaison (présent 1er/2e groupe, imparfait, futur), nature/fonction mots (GN, adjectif qualificatif, pronom). Programme officiel cycle 4.",
+    "status": "published",
+    "created_at": "2026-03-08 00:19:00",
+    "updated_at": "2026-03-08 00:19:00"
+  },
+  "quiz": {
+    "title": "Diagnostic Français 6ème",
+    "level": "6eme",
+    "subject": "Français",
+    "question_count": 20,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Complète : J'___ bien mes devoirs.",
+        "choices": [
+          "a",
+          "à",
+          "as",
+          "au"
+        ]
+      },
+      {
+        "type": "qcm",
+        "question": "Accord GN : Les ___ chat sont mignons.",
+        "choices": [
+          "petit",
+          "petits",
+          "petite",
+          "petites"
+        ]
+      },
+      {
+        "type": "tf",
+        "question": "Le verbe 'chanter' se conjugue au présent : je chant."
+      },
+      {
+        "type": "qcm",
+        "question": "Homophones : ___ est le chat de Marie.",
+        "choices": [
+          "Ces",
+          "Ses",
+          "S'est",
+          "Sais"
+        ]
+      },
+      {
+        "type": "qcm",
+        "question": "Nature du mot 'beau' dans 'un beau jardin' :",
+        "choices": [
+          "Nom",
+          "Adjectif qualificatif",
+          "Verbe",
+          "Adverbe"
+        ]
+      },
+      {
+        "type": "qcm",
+        "question": "Futur : Nous (finir) nos exercices demain.",
+        "choices": [
+          "finirons",
+          "finissons",
+          "finirais",
+          "finissions"
+        ]
+      },
+      {
+        "type": "qcm",
+        "question": "Imparfait : Il (lire) un livre.",
+        "choices": [
+          "lit",
+          "lira",
+          "lisait",
+          "lu"
+        ]
+      },
+      {
+        "type": "tf",
+        "question": "L'accord sujet-verbe : Les enfants joue au foot."
+      },
+      {
+        "type": "qcm",
+        "question": "Fonction : Dans 'Le chat dort', 'chat' est :",
+        "choices": [
+          "Sujet",
+          "COD",
+          "Attribut",
+          "Complément"
+        ]
+      },
+      {
+        "type": "open",
+        "question": "Donne un exemple d'homophone grammatical (ex: a/à). Explique la différence."
+      },
+      {
+        "type": "qcm",
+        "question": "Participe passé avec 'avoir' (cas simple) : Elles (manger) une pomme.",
+        "choices": [
+          "mangé",
+          "mangée",
+          "manges",
+          "mangées"
+        ]
+      },
+      {
+        "type": "qcm",
+        "question": "Présent 2e groupe : Tu (finir) à 18h.",
+        "choices": [
+          "finiras",
+          "finis",
+          "finissions",
+          "finira"
+        ]
+      },
+      {
+        "type": "tf",
+        "question": "Adjectif s'accorde en genre/nombre avec le nom qu'il qualifie."
+      },
+      {
+        "type": "qcm",
+        "question": "Complète : ___ livres sont sur la table.",
+        "choices": [
+          "Ces",
+          "Sait",
+          "Set",
+          "Sait"
+        ]
+      },
+      {
+        "type": "qcm",
+        "question": "Conjugaison : Nous (être) en classe.",
+        "choices": [
+          "étions",
+          "sommes",
+          "serons",
+          "étant"
+        ]
+      },
+      {
+        "type": "open",
+        "question": "Cite 2 temps du récit étudiés en 6ème."
+      },
+      {
+        "type": "qcm",
+        "question": "Orthographe : Le pluriel de 'cheval' est :",
+        "choices": [
+          "chevaux",
+          "chevals",
+          "chevails",
+          "chevalx"
+        ]
+      },
+      {
+        "type": "tf",
+        "question": "Pronom personnel sujet : 'Il court vite' (il = sujet)."
+      },
+      {
+        "type": "qcm",
+        "question": "À ou a : Je vais ___ la plage.",
+        "choices": [
+          "a",
+          "à",
+          "as",
+          "au"
+        ]
+      },
+      {
+        "type": "open",
+        "question": "Explique l'accord du participe passé avec 'être'."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Orthographe grammaticale",
+      "description": "Homophones (a/à, ces/ses), accords GN, pluriels, participes passés (cas simples)."
+    },
+    {
+      "notion": "Conjugaison",
+      "description": "Présent (1er/2e groupe, être/avoir), imparfait, futur simple, impératif."
+    },
+    {
+      "notion": "Nature et fonction des mots",
+      "description": "GN, adjectif qualificatif, pronom personnel sujet, verbe (sujet/COD)."
+    },
+    {
+      "notion": "Accords sujet-verbe",
+      "description": "Accords simples sujet-verbe et sujet-attribut."
+    }
+  ],
+  "exerciseresponses": []
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 677",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 3ème : Géologie : volcans et risque volcanique",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "Géologie : volcans et risque volcanique",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel est le nom du réservoir de roche fondue sous un volcan ?",
+        "choices": [
+          "Lave",
+          "Magma (dans la chambre magmatique)",
+          "Basalte",
+          "Pyroclaste"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les volcans des points chauds comme Hawaï se trouvent au centre des plaques tectoniques."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on les projections solides éjectées par un volcan lors d'une éruption explosive ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel gaz volcanique est le plus abondant dans les émissions volcaniques ?",
+        "choices": [
+          "CO2",
+          "SO2",
+          "H2O (vapeur d'eau)",
+          "H2S"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une éruption effusive produit des coulées de lave peu dangereuses pour les populations à cause de leur lenteur."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on le nuage de cendres, gaz et débris chauds qui dévale les flancs d'un volcan à très grande vitesse ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle éruption explosive catastrophique a détruit la ville de Saint-Pierre en Martinique en 1902 ?",
+        "choices": [
+          "Éruption du Vésuve",
+          "Éruption de la Montagne Pelée",
+          "Éruption du Pinatubo",
+          "Éruption du Krakatoa"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La surveillance volcanique (OVSG, IPGP) permet d'anticiper certaines éruptions et d'alerter les populations."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

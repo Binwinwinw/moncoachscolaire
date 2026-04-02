@@ -1,0 +1,97 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 34",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ere : Les formes du futur",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-08 00:05:00"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 34",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "id": 1,
+        "type": "qcm",
+        "question": "Choose the correct future form: 'Look at those dark clouds! It ___ rain.'",
+        "choices": [
+          "will",
+          "is going to",
+          "is about to will",
+          "shall"
+        ]
+      },
+      {
+        "id": 2,
+        "type": "vrai-faux",
+        "question": "'I will call you back in five minutes' expresses a spontaneous decision made at the moment of speaking."
+      },
+      {
+        "id": 3,
+        "type": "texte",
+        "question": "Quelle forme du futur utiliser et pourquoi ? 'I've already bought the tickets. We ___ (see) the concert next Saturday.'",
+        "placeholder": "Écris ta réponse ici..."
+      },
+      {
+        "id": 4,
+        "type": "qcm",
+        "question": "Which sentence correctly uses the future perfect?",
+        "choices": [
+          "By next year, she will finish her degree.",
+          "By next year, she will have finished her degree.",
+          "By next year, she is going to finish her degree.",
+          "By next year, she has finished her degree."
+        ]
+      },
+      {
+        "id": 5,
+        "type": "vrai-faux",
+        "question": "The present continuous can be used to talk about fixed, arranged plans in the near future."
+      },
+      {
+        "id": 6,
+        "type": "texte",
+        "question": "Complète avec will ou going to et justifie : 'A: The phone is ringing. B: Don't worry, I ___ answer it.'",
+        "placeholder": "Écris ta réponse ici..."
+      },
+      {
+        "id": 7,
+        "type": "qcm",
+        "question": "Choose the correct future form: 'By the time you arrive, I ___ cooking dinner.'",
+        "choices": [
+          "will finish",
+          "am going to finish",
+          "will have finished",
+          "will be finishing"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "vrai-faux",
+        "question": "'Shall' is commonly used in American English to express future actions."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Will – décision spontanée, promesse, prédiction",
+      "description": "Will s'utilise pour : (1) une décision prise au moment où l'on parle : 'I'll have the salad.' (2) une promesse : 'I will help you.' (3) une prédiction basée sur une opinion : 'I think it will rain.' (4) des faits futurs certains : 'She will be 18 next month.'"
+    },
+    {
+      "notion": "Going to – intention planifiée, prédiction basée sur des indices",
+      "description": "Be going to s'utilise pour : (1) une intention ou un plan décidé à l'avance : 'I'm going to study medicine.' (2) une prédiction basée sur des indices visibles maintenant : 'Look at those clouds — it's going to rain.' La différence avec 'will' : going to = déjà décidé, will = décision spontanée."
+    },
+    {
+      "notion": "Future Perfect – action accomplie avant un moment futur",
+      "description": "Le future perfect (will have + past participle) exprime une action qui sera terminée avant un moment précis dans le futur. Marqueurs : by, by the time, before. Ex : 'By 2030, scientists will have found a cure.' / 'I will have finished this report by 5pm.'"
+    }
+  ],
+  "exerciseresponses": []
+}

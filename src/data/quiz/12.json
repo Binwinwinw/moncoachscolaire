@@ -1,0 +1,97 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 5ème - Série 12",
+    "type": "quiz",
+    "level": "5eme",
+    "subject": "SVT",
+    "description": "Évaluation diagnostique en SVT 5ème : respiration et circulation sanguine, géologie (plaques tectoniques), écosystèmes",
+    "status": "published",
+    "created_at": "2026-03-07 23:55:00",
+    "updated_at": "2026-03-08 14:02:00"
+  },
+  "quiz": {
+    "title": "Diagnostic SVT 5ème",
+    "level": "5eme",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel élément du corps transporte l'oxygène vers les cellules ?",
+        "choices": [
+          "Les poumons",
+          "Le cœur",
+          "Les artères",
+          "Le sang (hémoglobine)"
+        ]
+      },
+      {
+        "type": "qcm",
+        "question": "Quel organe permet les échanges gazeux entre l'air et le sang ?",
+        "choices": [
+          "Le foie",
+          "Les poumons",
+          "L'estomac",
+          "Le pancréas"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les artères transportent toujours un sang pauvre en oxygène."
+      },
+      {
+        "type": "qcm",
+        "question": "Dans la chaîne alimentaire herbe -> lapin -> renard, le lapin est :",
+        "choices": [
+          "Un producteur",
+          "Un consommateur primaire",
+          "Un décomposeur",
+          "Un prédateur apex"
+        ]
+      },
+      {
+        "type": "texte",
+        "question": "Cite deux conséquences possibles du mouvement des plaques tectoniques."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel organe filtre le sang pour produire l'urine ?",
+        "choices": [
+          "Le cœur",
+          "Le foie",
+          "Les reins",
+          "Les poumons"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La photosynthèse des plantes produit du dioxyde de carbone en journée."
+      },
+      {
+        "type": "texte",
+        "question": "Explique brièvement le rôle du diaphragme pendant l'inspiration."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Respiration et circulation",
+      "description": "Concept clé de SVT au niveau 5eme"
+    },
+    {
+      "notion": "Géologie",
+      "description": "Concept clé de SVT au niveau 5eme"
+    },
+    {
+      "notion": "Écosystèmes",
+      "description": "Concept clé de SVT au niveau 5eme"
+    },
+    {
+      "notion": "Organisation du corps",
+      "description": "Concept clé de SVT au niveau 5eme"
+    }
+  ],
+  "exerciseresponses": []
+}

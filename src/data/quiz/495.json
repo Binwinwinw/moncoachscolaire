@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 495",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "description": "Diagnostic Français 1ère : Révisions : œuvres canoniques au programme",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Révisions : œuvres canoniques au programme",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qui a écrit 'À la recherche du temps perdu' ?",
+        "choices": [
+          "André Gide",
+          "Marcel Proust",
+          "Émile Zola",
+          "Stendhal"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'Illiade et L'Odyssée sont des épopées grecques attribuées à Homère."
+      },
+      {
+        "type": "open",
+        "question": "Le mythe de Sisyphe, revisité par Camus, symbolise l'_____."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel texte de Rousseau est considéré comme une autobiographie fondatrice ?",
+        "choices": [
+          "Du contrat social",
+          "Les Confessions",
+          "L'Émile",
+          "La Nouvelle Héloïse"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La Princesse de Clèves (1678) est un roman de Madame de Lafayette."
+      },
+      {
+        "type": "open",
+        "question": "Le 'roman épistolaire' comme Les Liaisons dangereuses est un roman composé de _____."
+      },
+      {
+        "type": "qcm",
+        "question": "Qui est l'auteur du Cid, tragi-comédie héroïque du XVIIe siècle ?",
+        "choices": [
+          "Molière",
+          "Racine",
+          "Corneille",
+          "Rotrou"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Voltaire est à la fois philosophe, poète, dramaturge, essayiste et auteur de contes philosophiques."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

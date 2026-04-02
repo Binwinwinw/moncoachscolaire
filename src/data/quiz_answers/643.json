@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 643",
+    "level": "1ère",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "La régulation hormonale de la fonction reproductrice",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Hypothalamus (GnRH) → hypophyse (FSH/LH) → gonades (stéroïdes sexuels)",
+        "correct": 1,
+        "correction": "GnRH (pulses, hypothalamus) → FSH + LH (hypophyse) → estradiol/progestérone (ovaires), testostérone (testicules) → rétroaction - sur hypothalamus/hypophyse."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La testostérone est essentielle à la spermatogenèse, au développement des organes sexuels accessoires et des caractères secondaires (pilosité, masse musculaire, voix grave)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "follicules",
+        "correction": "FSH chez la femme → maturation folliculaire et production d'estradiol. FSH chez l'homme → spermatogenèse dans les cellules de Sertoli."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "La fin des cycles menstruels due à l'épuisement des follicules ovariens, avec chute des estrogènes",
+        "correct": 1,
+        "correction": "À la ménopause (~50 ans), le capital folliculaire est épuisé ; estradiol chute → FSH monte (perte de rétroaction -) ; symptômes : bouffées de chaleur, ostéoporose, sécheresse vaginale."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le DIU au cuivre modifie l'environnement utérin (ions Cu2+) : effets spermicide et anti-implantation ; pas d'effet hormonal contrairement au DIU hormonal (Mirena)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "ovocyte",
+        "correction": "L'ICSI (Intra Cytoplasmic Sperm Injection) permet la fécondation même avec très peu de spermatozoïdes ; utilisée pour les azoospermies sévères ou les échecs de FIV classique."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Compenser le déficit en estrogènes pour réduire les symptômes climatériques et prévenir l'ostéoporose",
+        "correct": 1,
+        "correction": "THM (estrogènes ± progestatifs) réduit bouffées de chaleur, protège les os, mais présente des risques (cancer du sein, thromboses) à évaluer individuellement."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "À la puberté, le 'frein' hypothalamique de l'enfance se lève ; les pulses de GnRH s'amplifient → FSH/LH augmentent → maturation gonadique et caractères secondaires."
+      }
+    ]
+  }
+}

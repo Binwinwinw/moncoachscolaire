@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 496",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "description": "Diagnostic Français 1ère : Révisions : méthodologie EAF (écrit)",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Révisions : méthodologie EAF (écrit)",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "L'épreuve écrite anticipée de Français (EAF) comporte :",
+        "choices": [
+          "Une rédaction libre",
+          "Un commentaire ou une dissertation + une écriture d'invention",
+          "Un contrôle de connaissances",
+          "Un résumé de texte"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le commentaire littéraire nécessite une introduction avec problématique et annonce de plan."
+      },
+      {
+        "type": "open",
+        "question": "En dissertation, la _____ est la question centrale à laquelle tout le devoir doit répondre."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel plan choisir pour le sujet : 'Le roman est-il le meilleur genre pour dénoncer les injustices sociales ?' ?",
+        "choices": [
+          "Plan thématique",
+          "Plan dialectique",
+          "Plan chronologique",
+          "Plan analytique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'écriture d'invention peut prendre la forme d'un dialogue, d'un discours ou d'un récit selon le sujet."
+      },
+      {
+        "type": "open",
+        "question": "Dans un commentaire, chaque sous-partie s'articule : idée directrice + analyse du procédé + _____ + interprétation."
+      },
+      {
+        "type": "qcm",
+        "question": "Combien de temps dure l'épreuve écrite anticipée de Français au bac ?",
+        "choices": [
+          "2 heures",
+          "3 heures",
+          "4 heures",
+          "5 heures"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les brouillons et la planification comptent pour la note finale de l'EAF."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

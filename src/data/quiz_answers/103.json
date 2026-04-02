@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Seconde Mathématiques",
+    "level": "seconde",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic Seconde Mathématiques",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "**Fractionnaire** (après virgule). Ex: 3,14 = 3 + 0,14."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "correct": true,
+        "correction": "**Vrai**. Tout réel approximable (√2 ≈ 1,414). Droite graduée."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "correct": null,
+        "correction": "**10,0**. 25×4=100 → 1 virgule (2,5×4)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "**0,9 < 0,99** (9/10 < 99/100). Comparer digit par digit."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "correct": true,
+        "correction": "**Vrai**. Positionne 0,3 entre 0,2-0,4 (échelle 0,1)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "correct": null,
+        "correction": "**3,1** (4<5, pas arrondi). Règle: chiffre suivant <5."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "**0,01** (10^{-2}=1/100). Virgule 2 places gauche."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "correct": null,
+        "correction": "**3**. 45÷15=3 (ignore virgule, 1,5×3=4,5 vérif)."
+      }
+    ],
+    "level": "seconde",
+    "subject": "Mathématiques"
+  }
+}

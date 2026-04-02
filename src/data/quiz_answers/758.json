@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 3eme - Série 758",
+    "level": "3eme",
+    "subject": "EMC"
+  },
+  "quiz": {
+    "title": "L'Union europeenne et ses institutions",
+    "question_count": 8,
+    "level": "3eme",
+    "subject": "EMC",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Traite de Rome",
+        "correct": 1,
+        "correction": "Le Traité de Rome (25 mars 1957) a créé la CEE (devenue UE) et l'Euratom, signés par 6 pays fondateurs (France, Allemagne, Italie, Belgique, Pays-Bas, Luxembourg)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le Parlement européen (720 eurodéputés depuis 2024) est la seule institution de l'UE élue au suffrage universel direct, tous les 5 ans."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "euro",
+        "correction": "L'euro a été introduit le 1er janvier 1999 pour les transactions financières et le 1er janvier 2002 pour les billets et pièces dans 12 pays (aujourd'hui 20 pays)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Proposer les lois, veiller a leur application et representer l'UE",
+        "correct": 1,
+        "correction": "La Commission européenne (27 commissaires) est le 'moteur' de l'UE : elle propose les textes législatifs, veille à l'application du droit communautaire et représente l'UE à l'international."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La CJUE siège à Luxembourg et veille à l'application uniforme du droit de l'UE ; ses arrêts sont contraignants pour tous les États membres."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "subsidiarite",
+        "correction": "Le principe de subsidiarité (Traité de Maastricht) signifie que l'UE n'intervient que si l'objectif ne peut pas être atteint de manière suffisante par les États membres seuls."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Le Conseil europeen",
+        "correct": 2,
+        "correction": "Le Conseil européen réunit les chefs d'État et de gouvernement des 27 États membres pour définir les grandes orientations politiques de l'UE."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Le Conseil de l'Europe est une organisation internationale distincte de l'UE (fondée en 1949, 46 membres) qui gère la CEDH ; ne pas confondre avec le Conseil européen (institution de l'UE)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Philosophie 1ere - Série 227",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Philosophie",
+    "description": "Diagnostic Philosophie 1ere : Quiz Diagnostic 1ere Philosophie - Serie 4",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Philosophie - Serie 4",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Philosophie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la conception classique (correspondantiste) de la vérité ?",
+        "choices": [
+          "Est vrai ce qui est utile",
+          "Est vrai ce qui est cohérent avec un système de croyances",
+          "Est vrai ce qui correspond à la réalité (adéquation entre l'intellect et la chose)",
+          "Est vrai ce qui fait consensus dans une communauté"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le scepticisme philosophique affirme qu'il est impossible d'atteindre une vérité certaine et définitive."
+      },
+      {
+        "type": "open",
+        "question": "Quelle distinction Platon établit-il entre opinion (doxa) et savoir vrai (épistémè) ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Pour Nietzsche, 'il n'y a pas de faits, seulement des interprétations' signifie que :",
+        "choices": [
+          "La vérité scientifique est impossible",
+          "Toute vérité est une perspective, une interprétation liée à une volonté de puissance",
+          "Les faits historiques n'existent pas",
+          "Seules les opinions comptent"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "En sciences, une théorie est d'autant plus vraie qu'elle est ancienne et bien établie."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que la méthode du doute chez Descartes et à quoi mène-t-elle ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Le pragmatisme américain (William James, John Dewey) définit la vérité comme :",
+        "choices": [
+          "L'adéquation entre l'idée et la réalité",
+          "Ce qui est utile, ce qui 'fonctionne' dans la pratique",
+          "Ce qui résiste au doute radical",
+          "Ce qui est universellement accepté"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La vérité scientifique est définitive et ne peut être remise en question."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

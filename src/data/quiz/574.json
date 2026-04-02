@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 574",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 3ème : Les migrations internationales",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "Les migrations internationales",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Un migrant est une personne qui :",
+        "choices": [
+          "Voyage pour le tourisme",
+          "Change de pays de résidence pour une durée prolongée",
+          "Travaille dans plusieurs pays simultanément",
+          "Fuit une catastrophe naturelle uniquement"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les migrants économiques fuient des persécutions politiques et ont droit au statut de réfugié."
+      },
+      {
+        "type": "open",
+        "question": "Les envois d'argent des migrants vers leur pays d'origine s'appellent des _____ et représentent une source majeure de revenus pour certains pays."
+      },
+      {
+        "type": "qcm",
+        "question": "La convention de Genève de 1951 définit et protège :",
+        "choices": [
+          "Les droits des travailleurs immigrés",
+          "Le statut de réfugié pour les personnes persécutées",
+          "Les règles du commerce international",
+          "Les droits des enfants"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'Europe méditerranéenne est une zone de fort transit migratoire en provenance d'Afrique et du Moyen-Orient."
+      },
+      {
+        "type": "open",
+        "question": "On appelle _____ les personnes déplacées à l'intérieur de leur propre pays sans franchir une frontière internationale."
+      },
+      {
+        "type": "qcm",
+        "question": "Les principales causes des migrations forcées dans le monde sont :",
+        "choices": [
+          "Le tourisme et les études",
+          "Les guerres, persécutions et catastrophes naturelles",
+          "La recherche d'aventure",
+          "Le chômage dans les pays riches"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les Etats-Unis, l'Allemagne et la France sont parmi les pays qui accueillent le plus de migrants au monde."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 667",
+    "level": "3ème",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "Santé : cancers et facteurs de risque",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Une prolifération incontrôlée de cellules anormales",
+        "correct": 1,
+        "correction": "Un cancer résulte de mutations qui altèrent les mécanismes de contrôle de la division cellulaire."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Environ 85% des cancers du poumon sont liés à la consommation de tabac."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "métastases",
+        "correction": "Les métastases sont des foyers cancéreux secondaires formés par migration de cellules tumorales."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "HPV (papillomavirus humain)",
+        "correct": 2,
+        "correction": "Certains sérotypes du HPV (notamment HPV 16 et 18) sont oncogènes et responsables de la majorité des cancers du col de l'utérus."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'alcool est classé cancérigène de groupe 1 par le CIRC ; il augmente le risque de cancers de la bouche, du foie, du sein, etc."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "tumeur bénigne",
+        "correction": "Une tumeur bénigne ne métastase pas ; contrairement à une tumeur maligne (cancer), elle n'envahit pas les tissus voisins."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Radiothérapie",
+        "correct": 1,
+        "correction": "La radiothérapie utilise des rayonnements ionisants ciblés pour détruire l'ADN des cellules cancéreuses."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le dépistage précoce (mammographie, coloscopie, frottis) permet de détecter des cancers à des stades guérissables."
+      }
+    ]
+  }
+}

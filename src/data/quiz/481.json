@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 481",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "description": "Diagnostic Français 1ère : Vocabulaire littéraire et figures de style",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Vocabulaire littéraire et figures de style",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle figure de style compare deux éléments sans outil de comparaison ?",
+        "choices": [
+          "Comparaison",
+          "Métaphore",
+          "Métonymie",
+          "Synecdoque"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'hyperbole consiste à atténuer une réalité pour ménager la sensibilité."
+      },
+      {
+        "type": "open",
+        "question": "La _____ consiste à répéter le même mot ou la même construction en début de vers ou de phrase."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle figure désigne une partie pour le tout (ex. : 'une voile' pour 'un bateau') ?",
+        "choices": [
+          "Métaphore",
+          "Synecdoque",
+          "Oxymore",
+          "Litote"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'ironie exprime le contraire de ce qu'elle dit, souvent pour critiquer."
+      },
+      {
+        "type": "open",
+        "question": "L'association de deux termes contradictoires dans une même expression s'appelle un _____."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle figure consiste à exprimer beaucoup en disant peu (ex. : 'ce n'est pas mal' pour 'c'est très bien') ?",
+        "choices": [
+          "Hyperbole",
+          "Euphémisme",
+          "Litote",
+          "Antiphrase"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La prosopopée est une figure qui fait parler un absent, un mort, une abstraction ou un objet."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic NSI 1ère - Série 869",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "description": "Diagnostic NSI 1ère : Codage des images",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "Codage des images",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Un pixel est :",
+        "choices": [
+          "Un fichier image",
+          "L'unité élémentaire d'une image numérique",
+          "Un format de compression",
+          "Un type de capteur"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "En mode RGB, chaque pixel est codé par trois valeurs (rouge, vert, bleu)."
+      },
+      {
+        "type": "open",
+        "question": "Calculez la taille non compressée d'une image RGB de 800×600 pixels (en octets et Mo)."
+      },
+      {
+        "type": "qcm",
+        "question": "La résolution d'une image numérique se mesure en :",
+        "choices": [
+          "Mégaoctets",
+          "DPI (dots per inch) ou PPI",
+          "Mégapixels uniquement",
+          "Hz"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le format PNG utilise une compression sans perte."
+      },
+      {
+        "type": "open",
+        "question": "Expliquez la différence entre compression avec perte et sans perte."
+      },
+      {
+        "type": "qcm",
+        "question": "Une image en niveaux de gris sur 8 bits peut représenter :",
+        "choices": [
+          "8 nuances de gris",
+          "64 nuances",
+          "256 nuances",
+          "1024 nuances"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le format SVG est un format d'image vectorielle, pas matricielle."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques Terminale - Serie 1014",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques Terminale : Théorème des valeurs intermédiaires",
+    "status": "published",
+    "created_at": "2026-03-13 11:24:24",
+    "updated_at": "2026-03-13 11:24:24"
+  },
+  "quiz": {
+    "title": "Théorème des valeurs intermédiaires",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Le TVI affirme que si f est continue sur [a,b] et k est entre f(a) et f(b), alors :",
+        "choices": [
+          "f est dérivable en k",
+          "Il existe c ∈ [a,b] tel que f(c) = k",
+          "f(a) = f(b) = k",
+          "k = (f(a)+f(b))/2"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le TVI garantit l'unicité du point c tel que f(c) = k."
+      },
+      {
+        "type": "open",
+        "question": "Utilise le TVI pour montrer que f(x) = x³ − 2x − 5 a une racine dans ]2 ; 3[."
+      },
+      {
+        "type": "qcm",
+        "question": "Pour appliquer le TVI avec unicité (corollaire), quelle condition supplémentaire faut-il ?",
+        "choices": [
+          "f doit être bornée",
+          "f doit être strictement monotone sur [a,b]",
+          "f(a) et f(b) doivent être entiers",
+          "f doit être deux fois dérivable"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Si f(a) et f(b) ont des signes opposés, l'équation f(x) = 0 a au moins une solution dans ]a,b[."
+      },
+      {
+        "type": "open",
+        "question": "Qu'appelle-t-on méthode de dichotomie et sur quel théorème se base-t-elle ?"
+      },
+      {
+        "type": "qcm",
+        "question": "f est continue sur [0,1], f(0) = 2 et f(1) = −3. Que peut-on affirmer ?",
+        "choices": [
+          "f est croissante sur [0,1]",
+          "f admet un maximum en 0",
+          "Il existe c ∈ ]0,1[ tel que f(c) = 0",
+          "f est dérivable sur ]0,1["
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le TVI s'applique à toute fonction, même discontinue."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,72 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 6eme Mathematiques",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Mathematiques",
+    "description": "Diagnostic addition, fractions, aires, divisions 6eme"
+  },
+  "quiz": {
+    "title": "Diagnostic Mathematiques 6eme",
+    "level": "6eme",
+    "subject": "Mathematiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "70",
+        "correction": "Unites 3+7=10 (0, retenue 1), Dizaines 2+4+1=7"
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "texte",
+        "answer": "2/3",
+        "correction": "6/3=2, 9/3=3"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": false,
+        "correction": "FAUX, 1 m = 100 cm"
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "24",
+        "correction": "4 x 6 = 24 cm2"
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "calcul",
+        "answer": "6",
+        "correction": "Division exacte"
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": true,
+        "correction": "VRAI"
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "texte",
+        "answer": "12",
+        "correction": "3+4+5=12"
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "qcm",
+        "answer": "2",
+        "correction": "2 axes (diagonales)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques Terminale - Serie 1020",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques Terminale : Convexité & concavité",
+    "status": "published",
+    "created_at": "2026-03-13 11:24:24",
+    "updated_at": "2026-03-13 11:24:24"
+  },
+  "quiz": {
+    "title": "Convexité & concavité",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "f est convexe sur I si :",
+        "choices": [
+          "f' est décroissante sur I",
+          "f'' ≤ 0 sur I",
+          "f'' ≥ 0 sur I",
+          "f est croissante sur I"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un point d'inflexion est un point où la courbe change de convexité (f'' change de signe)."
+      },
+      {
+        "type": "open",
+        "question": "Détermine les intervalles de convexité de f(x) = x³ − 3x."
+      },
+      {
+        "type": "qcm",
+        "question": "La courbe de eˣ est :",
+        "choices": [
+          "Concave sur R",
+          "Convexe sur R",
+          "Convexe sur R⁺ seulement",
+          "Ni convexe ni concave"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La tangente à la courbe d'une fonction convexe est toujours en dessous (ou sur) la courbe."
+      },
+      {
+        "type": "open",
+        "question": "En quel point la courbe de f(x) = x⁴ − 6x² admet-elle des points d'inflexion ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Si f''(a) = 0 et f'''(a) ≠ 0, alors le point (a, f(a)) est :",
+        "choices": [
+          "Un maximum local",
+          "Un minimum local",
+          "Un point d'inflexion",
+          "Un point de discontinuité"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La fonction ln(x) est concave sur ]0 ; +∞[."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

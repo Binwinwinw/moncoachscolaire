@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic HGGSP 1ère - Série 927",
+    "level": "1ère",
+    "subject": "HGGSP"
+  },
+  "quiz": {
+    "title": "Les formes de conflits armés au XXe siècle",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "HGGSP",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Elle a mobilisé l'ensemble des sociétés (économie, civils, propagande, femmes)",
+        "correct": 1,
+        "correction": "La 'guerre totale' est un conflit dans lequel toutes les ressources d'une nation (humaines, économiques, industrielles, psychologiques) sont mobilisées pour la victoire."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La SGM est le conflit le plus meurtrier de l'histoire humaine (1939-1945), avec environ 60 à 70 millions de morts, dont une majorité de civils (génocide, bombardements)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "La dissuasion nucléaire est la doctrine selon laquelle la menace de représailles nucléaires dévaste empêche toute attaque directe entre puissances nucléaires. Pendant la Guerre froide, elle a évité une guerre directe USA-URSS ('équilibre de la terreur'), mais favorisé des conflits indirects (guerres par procuration en Corée, Vietnam, Angola). La crise de Cuba (1962) illustre ses limites.",
+        "correction": "La dissuasion nucléaire repose sur la crédibilité de la menace : il faut que l'adversaire croie que la réponse nucléaire sera effectivement déclenchée."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Par procuration (proxy war) de la Guerre froide",
+        "correct": 1,
+        "correction": "Les USA soutenaient la Corée du Sud, l'URSS et la Chine la Corée du Nord. C'est un conflit localisé dans lequel les superpuissances s'affrontent indirectement."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Entre avril et juillet 1994, les Hutus extremistes ont massacré environ 800 000 à 1 million de Tutsis et Hutus modérés au Rwanda, sous le regard passif de la communauté internationale."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "Conflit interétatique : guerre entre États souverains (ex : guerre Iran-Irak 1980-1988, guerre des Malouines 1982). Conflit intra-étatique (guerre civile) : conflit à l'intérieur d'un État (ex : guerre civile syrienne 2011-, Rwanda 1994). Depuis la fin de la Guerre froide, les conflits intra-étatiques dominent.",
+        "correction": "Les conflits intra-étatiques sont souvent plus complexes car ils impliquent des acteurs non étatiques, des clivages ethniques ou religieux."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "La communauté internationale peut intervenir pour protéger les civils quand un État faillit à cette mission",
+        "correct": 1,
+        "correction": "La R2P (Responsibility to Protect) est adoptée au Sommet mondial 2005 pour prévenir les génocides. Elle a été invoquée en Libye (2011) mais son application est très sélective."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les accords de Dayton (Dayton Peace Agreement) signés en décembre 1995 ont mis fin à la guerre en Bosnie (1992-1995) après les massacres de Srebrenica (génocide reconnu)."
+      }
+    ]
+  }
+}

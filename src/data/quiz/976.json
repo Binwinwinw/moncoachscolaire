@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 2nde - Serie 976",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 2nde : Image, antécédent & tableau de valeurs",
+    "status": "published",
+    "created_at": "2026-03-13 11:15:43",
+    "updated_at": "2026-03-13 11:15:43"
+  },
+  "quiz": {
+    "title": "Image, antécédent & tableau de valeurs",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Pour f(x) = 3x − 2, quel est l'antécédent de 7 ?",
+        "choices": [
+          "3",
+          "19",
+          "7/3",
+          "9/3"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une valeur peut n'avoir aucun antécédent par une fonction."
+      },
+      {
+        "type": "open",
+        "question": "Pour f(x) = x² − 4, détermine les antécédents de 0."
+      },
+      {
+        "type": "qcm",
+        "question": "Pour f(x) = −x + 5, quelle est l'image de −3 ?",
+        "choices": [
+          "−8",
+          "2",
+          "8",
+          "−2"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une image est unique (f associe à chaque x un seul f(x)), mais un antécédent peut ne pas l'être."
+      },
+      {
+        "type": "open",
+        "question": "Construis un tableau de valeurs pour f(x) = x² − x pour x ∈ {−1, 0, 1, 2, 3}."
+      },
+      {
+        "type": "qcm",
+        "question": "Combien d'antécédents peut avoir une valeur par f(x) = x³ ?",
+        "choices": [
+          "0",
+          "1",
+          "2",
+          "Peut varier"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Pour f(x) = |x|, les valeurs négatives n'ont aucune image."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

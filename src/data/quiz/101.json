@@ -1,0 +1,97 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic seconde SVT",
+    "type": "quiz",
+    "level": "seconde",
+    "subject": "SVT",
+    "description": "Diagnostic SVT seconde : Cellules et vivant",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-08 14:25:00"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic seconde SVT",
+    "level": "seconde",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "La cellule est l'unité :",
+        "choices": [
+          "du vivant",
+          "de la matière inerte",
+          "des molécules",
+          "des organes"
+        ],
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le noyau contient l'ADN.",
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "Rôle de la membrane plasmique ?",
+        "placeholder": "échange",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Les mitochondries produisent :",
+        "choices": [
+          "protéines",
+          "ATP",
+          "lipides",
+          "ADN"
+        ],
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Prokaryotes = cellules sans noyau.",
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "Organe responsable photosynthèse ?",
+        "placeholder": "chloroplaste",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "Le ribosome synthétise :",
+        "choices": [
+          "glucides",
+          "protéines",
+          "acides gras",
+          "nucléotides"
+        ],
+        "id": 7
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Eucaryotes ont noyau délimité.",
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Cellule unité du vivant",
+      "description": "Concept clé de SVT au niveau seconde"
+    },
+    {
+      "notion": "Organites cellulaires",
+      "description": "Concept clé de SVT au niveau seconde"
+    },
+    {
+      "notion": "Procaryotes/Eucaryotes",
+      "description": "Concept clé de SVT au niveau seconde"
+    }
+  ],
+  "exerciseresponses": []
+}

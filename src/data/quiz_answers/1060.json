@@ -1,0 +1,48 @@
+{
+  "quiz_id": 1060,
+  "title": "Discriminant et racines",
+  "subject": "Mathématiques",
+  "level": "1ère",
+  "answers": [
+    {
+      "question_id": "1060_1",
+      "correct_option": "B",
+      "explanation": "Δ = b² − 4ac. Le signe de Δ détermine le nombre de racines réelles."
+    },
+    {
+      "question_id": "1060_2",
+      "correct": true,
+      "explanation": "Δ > 0 → deux racines réelles x₁ = (−b − √Δ)/(2a) et x₂ = (−b + √Δ)/(2a)."
+    },
+    {
+      "question_id": "1060_3",
+      "correct_answer": "Δ = 25 − 24 = 1. x₁ = (5−1)/2 = 2 et x₂ = (5+1)/2 = 3.",
+      "explanation": "a=1, b=−5, c=6. Δ = 25 − 24 = 1. x₁ = 2, x₂ = 3."
+    },
+    {
+      "question_id": "1060_4",
+      "correct_option": "C",
+      "explanation": "Δ = 0 → racine double unique x₀ = −b/(2a)."
+    },
+    {
+      "question_id": "1060_5",
+      "correct": true,
+      "explanation": "Pas de racine réelle → la parabole est entièrement au-dessus ou en dessous de l'axe x."
+    },
+    {
+      "question_id": "1060_6",
+      "correct_answer": "k = 4 ou k = −4",
+      "explanation": "Δ = k² − 16 = 0 → k² = 16 → k = ±4."
+    },
+    {
+      "question_id": "1060_7",
+      "correct_option": "A",
+      "explanation": "Δ = 9 − 8 = 1. x₁ = (3−1)/4 = 1/2, x₂ = (3+1)/4 = 1."
+    },
+    {
+      "question_id": "1060_8",
+      "correct": true,
+      "explanation": "Relations de Viète : x₁ + x₂ = −b/a et x₁ · x₂ = c/a."
+    }
+  ]
+}

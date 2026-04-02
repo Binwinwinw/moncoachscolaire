@@ -1,0 +1,85 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 4eme Anglais",
+    "type": "quiz",
+    "level": "4eme",
+    "subject": "Anglais",
+    "description": "Diagnostic future, conditionnel, passive voice 4eme"
+  },
+  "quiz": {
+    "title": "Diagnostic Anglais 4eme",
+    "level": "4eme",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 75,
+    "questions": [
+      {
+        "id": 1,
+        "type": "texte",
+        "question": "Tomorrow I ... (go) to London."
+      },
+      {
+        "id": 2,
+        "type": "qcm",
+        "question": "If it rains, we ... (stay)",
+        "choices": [
+          "will stay",
+          "stay",
+          "stayed"
+        ]
+      },
+      {
+        "id": 3,
+        "type": "vrai-faux",
+        "question": "The book was written by him."
+      },
+      {
+        "id": 4,
+        "type": "texte",
+        "question": "I ... like to visit Japan."
+      },
+      {
+        "id": 5,
+        "type": "qcm",
+        "question": "The letter ... yesterday.",
+        "choices": [
+          "is sent",
+          "was sent",
+          "will send"
+        ]
+      },
+      {
+        "id": 6,
+        "type": "texte",
+        "question": "We ... (to be) happy if you come."
+      },
+      {
+        "id": 7,
+        "type": "vrai-faux",
+        "question": "I going to the cinema tonight."
+      },
+      {
+        "id": 8,
+        "type": "qcm",
+        "question": "Future near :",
+        "choices": [
+          "will",
+          "am going to",
+          "both OK"
+        ]
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Future will/going to"
+    },
+    {
+      "notion": "Conditionnel"
+    },
+    {
+      "notion": "Passive voice"
+    }
+  ],
+  "exerciseresponses": []
+}

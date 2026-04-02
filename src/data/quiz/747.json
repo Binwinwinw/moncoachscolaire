@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 3eme - Série 747",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 3eme : La dignite humaine et les droits fondamentaux",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "La dignite humaine et les droits fondamentaux",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "EMC",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel texte fondateur proclame que 'tous les etres humains naissent libres et egaux en dignite et en droits' ?",
+        "choices": [
+          "La Constitution francaise de 1958",
+          "La Declaration universelle des droits de l'homme de 1948",
+          "La Convention europeenne des droits de l'homme",
+          "Le Preambule de la Constitution de 1946"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les droits fondamentaux peuvent etre limites ou supprimes par un gouvernement democratique en toutes circonstances."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on les droits qui ne peuvent pas etre retires a une personne car ils sont attaches a sa nature d'etre humain ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle institution francaise est chargee de veiller au respect des droits fondamentaux et peut etre saisie par les citoyens ?",
+        "choices": [
+          "Le Conseil d'Etat",
+          "Le Defenseur des droits",
+          "Le Conseil constitutionnel",
+          "La Cour de cassation"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La Cour europeenne des droits de l'homme (CEDH) siege a Strasbourg et peut condamner les Etats membres du Conseil de l'Europe."
+      },
+      {
+        "type": "open",
+        "question": "Quel principe garantit qu'une personne ne peut pas etre jugee deux fois pour les memes faits ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Que signifie la presomption d'innocence ?",
+        "choices": [
+          "Tout accuse est coupable jusqu'a preuve du contraire",
+          "Toute personne accusee est presumee innocente jusqu'a ce que sa culpabilite soit legalement etablie",
+          "L'accuse n'a pas besoin d'avocat",
+          "Le juge decide seul de la culpabilite"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La torture est absolument interdite par le droit international, meme en periode de guerre ou de terrorisme."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

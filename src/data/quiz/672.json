@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 672",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 3ème : Développement embryonnaire et fœtal",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "Développement embryonnaire et fœtal",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Comment appelle-t-on la cellule résultant de la fusion du spermatozoïde et de l'ovocyte ?",
+        "choices": [
+          "Blastocyte",
+          "Zygote",
+          "Embryon",
+          "Gastrula"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le cœur fœtal commence à battre vers la 3ème semaine de grossesse."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on le stade de développement de 8 semaines après la fécondation jusqu'à la naissance ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle substance traverse facilement le placenta et peut nuire au développement fœtal ?",
+        "choices": [
+          "Les globules rouges maternels",
+          "La nicotine et l'alcool",
+          "Les anticorps maternels uniquement",
+          "Les bactéries"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'échographie permet de visualiser le fœtus sans danger pour la mère ni pour l'enfant."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on le liquide dans lequel le fœtus est immergé durant la grossesse ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que le syndrome d'alcoolisation fœtale (SAF) ?",
+        "choices": [
+          "Une maladie génétique",
+          "Un ensemble de malformations dues à la consommation d'alcool pendant la grossesse",
+          "Une infection du fœtus par le VIH",
+          "Une carence en vitamines"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La procréation médicalement assistée (PMA) comprend la fécondation in vitro (FIV)."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 630",
+    "level": "1ère",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "La biodiversité : définition, enjeux et menaces",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "La diversité des espèces, la diversité génétique intra-espèces et la diversité des écosystèmes",
+        "correct": 1,
+        "correction": "Trois niveaux de biodiversité (CDB, Rio 1992) : espèces (~8 millions estimées), génétique (variabilité allélique), écosystémique (types d'habitats)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Déforestation, pollution, surexploitation, espèces invasives et changements climatiques sont les 5 causes majeures de la crise de biodiversité actuelle."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "menacées",
+        "correction": "La Liste rouge de l'UICN classe les espèces de 'préoccupation mineure' à 'éteinte' ; ~28 % des espèces évaluées sont menacées d'extinction."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Pollinisation, purification de l'eau, régulation du climat, récréation et valeurs culturelles",
+        "correct": 1,
+        "correction": "Les services écosystémiques (MEA, 2005) : approvisionnement, régulation, soutien, et culturels — estimés à 125 000 milliards $/an."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Objectif Aichi (CDB 2010) : 17 % des terres et 10 % des mers d'ici 2020 ; accord Kunming-Montréal 2022 vise 30 % d'ici 2030."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "écosystèmes",
+        "correction": "La Décennie ONU de restauration écologique (2021-2030) vise la restauration de milliards d'hectares de terres dégradées."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Entrant en compétition avec les espèces indigènes, les prédatant ou transmettant des maladies",
+        "correct": 1,
+        "correction": "Les espèces invasives (2e cause de perte de biodiversité) perturbent les équilibres écologiques ; ex : frelon asiatique, ragondin, tortue de Floride."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les forêts tropicales couvrent ~7 % des terres mais hébergent ~50 % des espèces ; leur destruction constitue une perte irréversible de biodiversité."
+      }
+    ]
+  }
+}

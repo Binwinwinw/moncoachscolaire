@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 6eme Français",
+    "level": "6eme",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 6eme Français",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correct": 2,
+        "correction": "**Adjectif** : qualifie le nom 'chat', s'accorde en genre/nombre (noir/noire)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "correct": 1,
+        "correction": "**Vrai**. Ex : aimer, chanter (-er). 2e groupe : -ir (finir), 3e : irréguliers (aller)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "correct": null,
+        "correction": "**je vais**. Verbe irrégulier 3e groupe, présent : vais, vas, va..."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "**lis** (présent 1re singulier, 2e groupe -ir)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "correct": 1,
+        "correction": "**Vrai**. Son = possessif ; sont = verbe être (pluriel)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "correct": null,
+        "correction": "**maisons** (accord pluriel féminin)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "**fini** (participe passé 2e groupe)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "correct": 0,
+        "correction": "**a** (verbe avoir). À = préposition (direction)."
+      }
+    ],
+    "level": "6eme",
+    "subject": "Français"
+  }
+}

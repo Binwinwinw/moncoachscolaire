@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic HGGSP 1ère - Série 954",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "HGGSP",
+    "description": "Diagnostic HGGSP 1ère : ONG humanitaires",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "ONG humanitaires",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "HGGSP",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel problème central pose 'l'action humanitaire dans les crises' ?",
+        "choices": [
+          "Un enjeu uniquement technique",
+          "Un arbitrage entre intérêts politiques, économiques et culturels",
+          "Un sujet sans acteurs institutionnels",
+          "Un sujet purement local sans effet global"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'acteur 'le CICR' peut peser sur la gouvernance de ce thème."
+      },
+      {
+        "type": "open",
+        "question": "Montrez en quoi 'l'action humanitaire dans les crises' constitue un enjeu géopolitique actuel."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel exemple illustre le mieux ce thème ?",
+        "choices": [
+          "l'accès humanitaire en zone de conflit",
+          "Une décision strictement privée sans cadre public",
+          "Un cas sans enjeu international",
+          "Une mesure ponctuelle sans conséquence politique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les choix publics sur ce thème peuvent produire des gagnants et des perdants."
+      },
+      {
+        "type": "open",
+        "question": "Proposez une mesure opérationnelle crédible pour améliorer la gouvernance de ce thème."
+      },
+      {
+        "type": "qcm",
+        "question": "Pour traiter ce sujet en HGGSP, quelle stratégie est la plus solide ?",
+        "choices": [
+          "Comparer les acteurs et leurs intérêts à plusieurs échelles",
+          "Rester uniquement descriptif",
+          "Supprimer la dimension historique",
+          "Se limiter à un seul point de vue"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une conclusion HGGSP doit ouvrir sur une limite ou une perspective."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

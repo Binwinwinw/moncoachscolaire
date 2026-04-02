@@ -1,0 +1,97 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 6eme Français",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic complet des acquis en français 6eme : conjugaison, orthographe, accords, homophones. 8 questions variées.",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-08 14:04:00"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 6eme Français",
+    "level": "6eme",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Dans 'Le chat noir dort.', quelle est la nature de 'noir' ?",
+        "choices": [
+          "Nom",
+          "Verbe",
+          "Adjectif",
+          "Adverbe"
+        ],
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les verbes du 1er groupe se terminent par -er à l'infinitif.",
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "Conjugue 'aller' au présent, 1re personne singulier.",
+        "placeholder": "je...",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Complète : 'J'___ un livre.' (lire)",
+        "choices": [
+          "lis",
+          "lire",
+          "lu",
+          "lisons"
+        ],
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'Son' et 'sont' sont des homophones. Vrai ou faux ?",
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "Accorde l'adjectif : 'Les maison___ sont belles.'",
+        "placeholder": "...s",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le participe passé de 'finir' ?",
+        "choices": [
+          "finis",
+          "fini",
+          "finissant",
+          "finition"
+        ],
+        "id": 7
+      },
+      {
+        "type": "vrai-faux",
+        "question": "On écrit 'a' ou 'à' dans 'J'ai ___ la maison.'",
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Nature grammaticale",
+      "description": "Concept clé de Français au niveau 6eme"
+    },
+    {
+      "notion": "Conjugaison 1er groupe",
+      "description": "Concept clé de Français au niveau 6eme"
+    },
+    {
+      "notion": "Homophones/accords",
+      "description": "Concept clé de Français au niveau 6eme"
+    }
+  ],
+  "exerciseresponses": []
+}

@@ -1,0 +1,48 @@
+{
+  "quiz_id": 1111,
+  "title": "Fluctuations économiques et crises",
+  "subject": "SES",
+  "level": "Terminale",
+  "answers": [
+    {
+      "question_id": "1111_1",
+      "correct_option": "A",
+      "explanation": "Le cycle de Juglar (7-11 ans) : expansion (croissance), récession (ralentissement), dépression (contraction), reprise (redémarrage)."
+    },
+    {
+      "question_id": "1111_2",
+      "correct": true,
+      "explanation": "Définition standard : une récession correspond à au moins deux trimestres consécutifs de croissance négative du PIB."
+    },
+    {
+      "question_id": "1111_3",
+      "correct_answer": "Une hausse des dépenses autonomes (investissement, dépenses publiques) entraîne une hausse du revenu national supérieure à l'impulsion initiale, via la consommation induite. Multiplicateur k = 1/(1−c) où c est la propension marginale à consommer.",
+      "explanation": "Keynes : 1 € d'investissement génère plus de 1 € de revenu supplémentaire car il est en partie re-dépensé (consommation induite)."
+    },
+    {
+      "question_id": "1111_4",
+      "correct_option": "B",
+      "explanation": "La crise des subprimes (crédits hypothécaires à risque) a provoqué une crise bancaire mondiale par la titrisation et l'interconnexion des marchés financiers."
+    },
+    {
+      "question_id": "1111_5",
+      "correct": true,
+      "explanation": "Quand les taux sont proches de 0, les agents préfèrent garder la monnaie plutôt que d'investir : la politique monétaire ne stimule plus l'économie."
+    },
+    {
+      "question_id": "1111_6",
+      "correct_answer": "Choc d'offre : perturbation affectant les capacités de production (ex : hausse du prix du pétrole en 1973). Choc de demande : variation brutale de la demande globale (ex : effondrement de la consommation lors d'une crise financière).",
+      "explanation": "Les chocs d'offre négatifs provoquent simultanément inflation et chômage (stagflation). Les chocs de demande négatifs causent récession et déflation."
+    },
+    {
+      "question_id": "1111_7",
+      "correct_option": "B",
+      "explanation": "Les stabilisateurs automatiques (indemnités chômage, impôts progressifs) jouent sans décision discrétionnaire : ils soutiennent la demande en récession et la freinenet en expansion."
+    },
+    {
+      "question_id": "1111_8",
+      "correct": true,
+      "explanation": "Principe de l'accélérateur : les variations de la demande entraînent des variations amplifiées de l'investissement, amplifiant les cycles économiques."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Geographie 1ere - Série 189",
+    "level": "1ere",
+    "subject": "Histoire-Geographie"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Histoire-Géographie - Serie 15",
+    "question_count": 8,
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "La conférence de Berlin (1884-1885)",
+        "correct": 1,
+        "correction": "La conférence de Berlin (novembre 1884 – février 1885), organisée par Bismarck, réunit les puissances européennes pour réguler la colonisation de l'Afrique. Elle pose les règles du partage (occupation effective, liberté de commerce dans le bassin du Congo) et accélère la 'course au clocher' pour la colonisation africaine."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. À la veille de la Première Guerre mondiale (1914), les empires coloniaux européens couvrent environ 80-85% des terres émergées. Les plus grands empires sont britannique (~33 millions de km²) et français (~11 millions de km²). L'Afrique et l'Asie sont presque entièrement colonisées."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "correct_answer": "Les Européens justifient la colonisation par la 'mission civilisatrice', la supériorité raciale supposée et les intérêts économiques (matières premières, marchés).",
+        "answer": "Les Européens justifient la colonisation par la 'mission civilisatrice', la supériorité raciale supposée et les intérêts économiques (matières premières, marchés).",
+        "correction": "Les Européens avancent plusieurs justifications : idéologique (la 'mission civilisatrice' – apporter le progrès, la médecine, le christianisme aux peuples 'arriérés'), raciste (théories sur la hiérarchie des races, Social-darwinisme), économique (accès aux matières premières, marchés pour les produits manufacturés, terrains d'investissement) et stratégique (contrôle de routes commerciales, prestige national). Ces justifications masquent une réalité d'exploitation et de violence."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Un régime juridique d'exception discriminatoire appliqué aux colonisés",
+        "correct": 1,
+        "correction": "Le Code de l'indigénat est un système juridique d'exception qui s'applique aux 'indigènes' des colonies françaises (et non aux colons européens). Il prévoit des infractions spécifiques aux colonisés (manque de respect envers les autorités, refus de travaux forcés), des sanctions administratives sans jugement et des travaux forcés. C'est un instrument central de la domination coloniale."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "FAUX. Les populations colonisées ont résisté, parfois vigoureusement : résistance d'Abd el-Kader en Algérie (1832-1847), guerre des Zulu en Afrique du Sud (1879), résistance de Samory Touré en Afrique de l'Ouest, révolte des Boxer en Chine (1900), bataille d'Adoua (1896) où l'Éthiopie bat l'armée italienne. Ces résistances, souvent écrasées, témoignent du refus de la domination coloniale."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "correct_answer": "L'Algérie est une colonie de peuplement unique pour la France, avec une importante population de colons européens (pieds-noirs) et considérée comme partie intégrante du territoire français.",
+        "answer": "L'Algérie est une colonie de peuplement unique pour la France, avec une importante population de colons européens (pieds-noirs) et considérée comme partie intégrante du territoire français.",
+        "correction": "L'Algérie est une colonie d'un type particulier pour la France : conquise à partir de 1830, elle devient une colonie de peuplement avec plus d'un million de colons européens (pieds-noirs) à son indépendance. Elle est administrativement intégrée à la France (trois départements) depuis 1848, contrairement aux protectorats ou territoires. Cette spécificité explique la violence de la guerre d'indépendance (1954-1962) et le traumatisme que représente l'indépendance algérienne pour la société française."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "La construction d'une image de l'Orient par l'Occident comme l'autre inférieur et exotique, justifiant la domination coloniale",
+        "correct": 2,
+        "correction": "L'orientalisme (Edward Said, 1978) désigne le discours occidental qui construit l'Orient comme un espace exotique, mystérieux, inférieur et irrationnel, par opposition à un Occident rationnel et supérieur. Ce discours, incarné dans la littérature, la peinture et la recherche académique, contribue à légitimer la domination coloniale en présentant les peuples colonisés comme ayant 'besoin' d'être civilisés."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "FAUX (avec nuances). La Chine n'a pas été entièrement colonisée, mais elle a subi des 'semi-colonisation' : guerres de l'opium (1839-1842, 1856-1860) perdues face à la Grande-Bretagne, traités inégaux cédant Hong Kong, ouvrant les ports (concessions étrangères à Shanghai), concédant des zones d'influence à différentes puissances. La Chine garde une souveraineté formelle mais est en réalité dominée."
+      }
+    ]
+  }
+}

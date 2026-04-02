@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 476",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "description": "Diagnostic Français 1ère : La dissertation littéraire : méthode",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "La dissertation littéraire : méthode",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la première étape de la méthode de dissertation ?",
+        "choices": [
+          "Rédiger la conclusion",
+          "Analyser le sujet et dégager la problématique",
+          "Rédiger l'introduction",
+          "Chercher des exemples"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La problématique d'une dissertation est une question à laquelle le devoir va répondre."
+      },
+      {
+        "type": "open",
+        "question": "Le plan _____ est le plus adapté lorsque le sujet formule un jugement à discuter (ex. 'Le roman est-il un simple divertissement ?')."
+      },
+      {
+        "type": "qcm",
+        "question": "Une transition en dissertation sert à :",
+        "choices": [
+          "Introduire un exemple",
+          "Bilan de la partie et annonce de la suivante",
+          "Formuler la thèse",
+          "Citer un auteur"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'introduction d'une dissertation se termine par l'annonce du plan."
+      },
+      {
+        "type": "open",
+        "question": "En dissertation, un argument doit toujours être illustré par un _____ tiré des œuvres au programme."
+      },
+      {
+        "type": "qcm",
+        "question": "Que doit contenir la conclusion d'une dissertation ?",
+        "choices": [
+          "Un nouveau développement",
+          "Un bilan des arguments et une ouverture",
+          "La liste des auteurs cités",
+          "La reformulation de l'introduction"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il est acceptable de formuler sa propre opinion au 'je' dans une dissertation au lycée."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

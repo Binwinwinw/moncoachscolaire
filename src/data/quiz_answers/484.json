@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 484",
+    "level": "1ère",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Mouvements littéraires : Symbolisme et Surréalisme",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Le Manifeste du Surréalisme d'André Breton (1924)",
+        "correct": 1,
+        "correction": "Breton publie le premier Manifeste du Surréalisme en 1924, définissant l'écriture automatique et l'exploration de l'inconscient."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'écriture automatique vise à libérer le flux de l'inconscient en supprimant la censure rationnelle."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "suggérer",
+        "correction": "'Peindre non la chose mais l'effet qu'elle produit' (Mallarmé) : le symbole suggère plutôt qu'il n'affirme."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Paul Verlaine",
+        "correct": 1,
+        "correction": "Verlaine est présenté par lui-même comme un 'poète maudit' ; son œuvre est emblématique du Symbolisme musical."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Breton est fasciné par la psychanalyse freudienne et cherche à libérer le 'fonctionnement réel de la pensée'."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "Surréalisme",
+        "correction": "Ces trois poètes sont les piliers du groupe surréaliste parisien."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Cadavre exquis",
+        "correct": 0,
+        "correction": "Le cadavre exquis (ex. 'Le cadavre exquis boira le vin nouveau') est un jeu collectif surréaliste."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Mallarmé est réputé pour son hermétisme et sa recherche d'un langage poétique pur, difficile d'accès."
+      }
+    ]
+  }
+}

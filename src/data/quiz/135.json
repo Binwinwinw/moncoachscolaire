@@ -1,0 +1,102 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ère Anglais - Série 11",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ère : Consumerism, Advertising, Advanced Expression (Eduscol B1/B2)",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-09 18:34:00"
+  },
+  "quiz": {
+    "title": "1ère English Diagnostic - Series 11 (Consumerism & Ads)",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Black Friday sales encourage:",
+        "choices": [
+          "Overconsumption",
+          "Budget planning",
+          "Charity donations",
+          "Minimalism"
+        ],
+        "correct_index": 0,
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The latest iPhone model has features that justify its price.",
+        "correct": false,
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "Name 1 advertising technique used on Instagram.",
+        "placeholder": "ex: Influencer endorsements, sponsored posts",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Causative: I had my laptop _____ because it was slow.",
+        "choices": [
+          "repaired",
+          "repair",
+          "repairing",
+          "to repair"
+        ],
+        "correct_index": 0,
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Fast fashion brands produce clothes in ethical conditions.",
+        "correct": false,
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "Why do people buy luxury brands? 1 psychological reason.",
+        "placeholder": "ex: Status symbol, social belonging",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "The advert was designed _____ teenagers.",
+        "choices": [
+          "to target",
+          "targeting",
+          "targeted",
+          "to targeting"
+        ],
+        "correct_index": 0,
+        "id": 7
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Second-hand shopping has grown 20% yearly since 2020.",
+        "correct": true,
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Consumer Trends",
+      "description": "Fast fashion, Black Friday, luxury branding (Eduscol 1ère)"
+    },
+    {
+      "notion": "Advertising",
+      "description": "Social media techniques, target audiences"
+    },
+    {
+      "notion": "Advanced Grammar",
+      "description": "Causatives (have/get sth done), infinitive purpose"
+    }
+  ]
+}

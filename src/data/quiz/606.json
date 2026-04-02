@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 606",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 1ère : De l'ARN aux protéines : la traduction",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "De l'ARN aux protéines : la traduction",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "La traduction est le processus qui permet de :",
+        "choices": [
+          "Copier l'ADN",
+          "Synthétiser une protéine à partir de la séquence d'un ARNm",
+          "Transcrire l'ADN en ARN",
+          "Réparer les erreurs de l'ADN"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le code génétique est universel : les mêmes codons codent les mêmes acides aminés chez presque tous les êtres vivants."
+      },
+      {
+        "type": "open",
+        "question": "L'ARN de transfert (ARNt) est l'adaptateur moléculaire qui porte un acide aminé et reconnaît le codon correspondant de l'ARNm grâce à son _____."
+      },
+      {
+        "type": "qcm",
+        "question": "Le ribosome est composé de :",
+        "choices": [
+          "Uniquement des protéines",
+          "Uniquement de l'ADN",
+          "Deux sous-unités d'ARN ribosomique (ARNr) et de protéines",
+          "Lipides et sucres"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La traduction commence toujours par le codon AUG qui code pour la méthionine."
+      },
+      {
+        "type": "open",
+        "question": "Les codons UAA, UAG et UGA sont des codons _____ qui terminent la traduction."
+      },
+      {
+        "type": "qcm",
+        "question": "Les protéines sont des polymères constitués de monomères appelés :",
+        "choices": [
+          "Nucléotides",
+          "Acides gras",
+          "Acides aminés",
+          "Monosaccharides"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une mutation dans un gène peut modifier la séquence d'acides aminés d'une protéine et altérer sa fonction."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

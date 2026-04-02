@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic NSI 1ère - Série 868",
+    "level": "1ère",
+    "subject": "NSI"
+  },
+  "quiz": {
+    "title": "Codage des caractères",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "NSI",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "ASCII",
+        "correct": 1,
+        "correction": "L'ASCII (American Standard Code for Information Interchange, 1963) est la table historique sur 7 bits, codant 128 caractères."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les 128 premiers caractères Unicode sont identiques à l'ASCII, et leur encodage UTF-8 utilise le même octet."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "Unicode est un standard qui attribue un point de code unique à chaque caractère de toutes les langues. UTF-8 est un encodage (façon de stocker ces points de code) à longueur variable (1 à 4 octets).",
+        "correction": "Unicode définit 'quoi' ; UTF-8 définit 'comment' stocker en mémoire."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "65",
+        "correct": 1,
+        "correction": "'A' = 65 en ASCII. 'a' minuscule = 97. La différence est de 32 (= 2⁵), ce qui facilite la conversion majuscule/minuscule."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "ISO-8859-1 est une extension de l'ASCII sur 8 bits incluant les caractères accentués de l'Europe occidentale (é, è, à, ù…)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "UTF-8 est universel (supporte toutes les langues), rétrocompatible avec ASCII, économe (1 octet pour les caractères latins), et a été adopté comme standard par W3C et la plupart des systèmes. Il représente aujourd'hui plus de 97 % du web.",
+        "correction": "Sa compatibilité ASCII et son efficacité pour les textes occidentaux l'ont rendu omniprésent."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "65",
+        "correct": 1,
+        "correction": "ord() retourne le point de code Unicode d'un caractère. ord('A') = 65. La fonction inverse est chr(65) = 'A'."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Unicode définit plus de 1 100 000 points de code (U+0000 à U+10FFFF), couvrant toutes les écritures mondiales, emojis inclus."
+      }
+    ]
+  }
+}

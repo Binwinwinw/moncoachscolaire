@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 616",
+    "level": "1ère",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "La sélection naturelle et l'adaptation",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "La sélection naturelle : les individus les mieux adaptés survivent et se reproduisent davantage",
+        "correct": 1,
+        "correction": "Darwin (1859) : variation héréditaire + surproduction d'individus + compétition -> sélection des individus les plus adaptés -> évolution."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La sélection ne voit que les phénotypes ; mais en favorisant certains phénotypes, elle favorise les allèles sous-jacents."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "naturelle",
+        "correction": "En zone industrielle polluée (arbres noircis), la forme sombre est moins visible pour les prédateurs -> sélection de l'allèle 'mélanisme'."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Sa capacité à survivre et à transmettre ses gènes à la génération suivante",
+        "correct": 1,
+        "correction": "La fitness évolutive = succès reproducteur : nombre de descendants viables produits ; elle intègre survie ET reproduction."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les bactéries mutantes résistantes survivent sous traitement antibiotique et se reproduisent -> la résistance se répand -> sélection naturelle."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "reproducteur",
+        "correction": "Ex. : la queue du paon est un désavantage pour la survie mais favorise l'accès à la reproduction (sélection par la femelle)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Un changement aléatoire des fréquences alléliques dans une petite population",
+        "correct": 1,
+        "correction": "La dérive génétique (hasard) est plus forte dans les petites populations ; elle peut fixer ou éliminer des allèles indépendamment de leur valeur sélective."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La synthèse moderne (années 1930-1940, Dobzhansky, Mayr, Simpson) intègre mutations, génétique des populations, dérive et sélection naturelle."
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 686",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 3ème : Écologie : biodiversité et services écosystémiques",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "Écologie : biodiversité et services écosystémiques",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Que désigne un service écosystémique ?",
+        "choices": [
+          "Une aide financière pour les parcs naturels",
+          "Un bénéfice rendu par les écosystèmes aux sociétés humaines",
+          "Un programme scolaire sur l'écologie",
+          "Une pollution naturelle"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La pollinisation par les insectes est un exemple de service écosystémique."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la disparition locale d'une espèce due à la fragmentation ou à la destruction de son habitat ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel milieu naturel stocke beaucoup de carbone et protège les côtes contre les tempêtes ?",
+        "choices": [
+          "La toundra alpine",
+          "La mangrove",
+          "Le désert chaud",
+          "La savane sèche"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La disparition d'une espèce clé de voûte peut déséquilibrer tout un écosystème."
+      },
+      {
+        "type": "open",
+        "question": "Le fait de protéger un milieu naturel pour préserver les espèces et leurs interactions correspond à la _____ de la biodiversité."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel exemple illustre un service de régulation rendu par les écosystèmes ?",
+        "choices": [
+          "La fabrication de plastique",
+          "La régulation des crues par les zones humides",
+          "La production d'acier",
+          "La construction de barrages"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La biodiversité renforce généralement la résilience des écosystèmes face aux perturbations."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

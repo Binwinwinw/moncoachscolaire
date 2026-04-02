@@ -1,0 +1,45 @@
+{
+  "name": "moncoachscolaire-e2e",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test:e2e": "npx playwright test --project=chromium",
+    "lint:css": "stylelint \"public/assets/css/**/*.css\" ",
+    "build:css": "npx tailwindcss -i public/assets/css/tailwind.css -o public/assets/css/style.css",
+    "tailwind:css": "npx tailwindcss -i public/assets/css/tailwind.css -o public/assets/css/style.css",
+    "build:includes": "node dev/tools/scripts/inject-footer.js",
+    "context": "node dev/tools/scripts/build-context-bundle.js",
+    "build:diagnostic-bundles": "node dev/tools/quiz/build_diagnostic_bundles.js",
+    "quiz:generate:v1": "python dev/tools/quiz/generate_quiz_bank.py --config dev/tools/quiz/config_quiz_bank.v1.json --dry-run",
+    "quiz:generate:v1:apply": "python dev/tools/quiz/generate_quiz_bank.py --config dev/tools/quiz/config_quiz_bank.v1.json --apply",
+    "quiz:generate:v1:sync": "python dev/tools/quiz/generate_quiz_bank.py --config dev/tools/quiz/config_quiz_bank.v1.json --dry-run --sync-src-quiz",
+    "quiz:generate:v1:sync:apply": "python dev/tools/quiz/generate_quiz_bank.py --config dev/tools/quiz/config_quiz_bank.v1.json --apply --sync-src-quiz",
+    "quiz:harmonize:v1": "python dev/tools/quiz/generate_quiz_bank.py --config dev/tools/quiz/config_quiz_bank.v1.json --harmonize-only",
+    "quiz:harmonize:v1:sync": "python dev/tools/quiz/generate_quiz_bank.py --config dev/tools/quiz/config_quiz_bank.v1.json --harmonize-only --sync-src-quiz",
+    "quiz:harmonize:v1:apply": "python dev/tools/quiz/generate_quiz_bank.py --config dev/tools/quiz/config_quiz_bank.v1.json --harmonize-only --apply",
+    "quiz:harmonize:v1:sync:apply": "python dev/tools/quiz/generate_quiz_bank.py --config dev/tools/quiz/config_quiz_bank.v1.json --harmonize-only --apply --sync-src-quiz",
+    "quiz:validate:v1": "python dev/tools/quiz/validate_quiz_bank.py --target 50 --config dev/tools/quiz/config_quiz_bank.v1.json",
+    "quiz:quality": "python dev/tools/quiz/validate_quiz_quality.py --quiz-dir src/data/quiz --answers-dir src/data/quiz_answers",
+    "quiz:quality:report": "python dev/tools/quiz/validate_quiz_quality.py --quiz-dir src/data/quiz --answers-dir src/data/quiz_answers --report dev/reports/quiz_quality_report.md",
+    "quiz:workflow:generate": "python dev/tools/quiz/quiz_quality_workflow.py generate",
+    "quiz:workflow:harmonize": "python dev/tools/quiz/quiz_quality_workflow.py harmonize",
+    "quiz:workflow:enrich": "python dev/tools/quiz/quiz_quality_workflow.py enrich --batch-size 50",
+    "quiz:workflow:enrich:continue": "python dev/tools/quiz/quiz_quality_workflow.py enrich --batch-size 50 --start-id 192",
+    "audit": "npx gitnexus analyze"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "autoprefixer": "^10.4.20",
+    "gitnexus": "^1.4.7",
+    "playwright": "^1.35.0",
+    "postcss": "^8.4.47",
+    "postcss-cli": "^11.0.1",
+    "stylelint": "^16.26.1",
+    "stylelint-config-standard": "^36.0.1",
+    "tailwindcss": "^3.4.14"
+  },
+  "dependencies": {
+    "@tabler/icons": "^3.40.0",
+    "sql.js": "^1.14.0"
+  }
+}

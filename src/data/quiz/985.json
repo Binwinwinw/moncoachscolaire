@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 2nde - Serie 985",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 2nde : Comparaison de fonctions",
+    "status": "published",
+    "created_at": "2026-03-13 11:15:43",
+    "updated_at": "2026-03-13 11:15:43"
+  },
+  "quiz": {
+    "title": "Comparaison de fonctions",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Pour déterminer sur quel intervalle f(x) > g(x), on étudie le signe de :",
+        "choices": [
+          "f(x) + g(x)",
+          "f(x) × g(x)",
+          "f(x) − g(x)",
+          "f(x) / g(x)"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "f(x) = x² et g(x) = x se croisent en x = 0 et x = 1."
+      },
+      {
+        "type": "open",
+        "question": "Sur quel intervalle x² < x ? Explique."
+      },
+      {
+        "type": "qcm",
+        "question": "Sur ]1 ; +∞[, la comparaison entre x et √x donne :",
+        "choices": [
+          "x < √x",
+          "x = √x",
+          "x > √x",
+          "Impossible à comparer"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Pour comparer f et g graphiquement, on cherche les intervalles où la courbe de f est au-dessus de celle de g."
+      },
+      {
+        "type": "open",
+        "question": "Compare f(x) = 2x + 1 et g(x) = x² sur l'intervalle [0 ; 3]."
+      },
+      {
+        "type": "qcm",
+        "question": "Sur ]0 ; 1[, quelle inégalité est vraie entre √x et x ?",
+        "choices": [
+          "√x < x",
+          "√x = x",
+          "√x > x",
+          "Impossible à déterminer"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le tableau de signe de f(x) − g(x) permet de déterminer les intervalles où f > g, f = g et f < g."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

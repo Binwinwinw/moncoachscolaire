@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic NSI 1ère - Série 874",
+    "level": "1ère",
+    "subject": "NSI"
+  },
+  "quiz": {
+    "title": "Dictionnaires en Python",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "NSI",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Des objets hachables (immuables)",
+        "correct": 2,
+        "correction": "Les clés doivent être hachables : int, str, tuple (immuable) sont valides. Les listes (mutables) ne peuvent pas être clés."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "d['clé_inexistante'] lève KeyError. Pour éviter cela, utilisez d.get('clé_inexistante', valeur_par_défaut)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "for k in d: (clés) ; for v in d.values(): (valeurs) ; for k, v in d.items(): (paires clé-valeur). d.keys() retourne les clés, d.values() les valeurs, d.items() les tuples (clé, valeur).",
+        "correction": "Ces méthodes retournent des vues dynamiques qui reflètent les modifications du dictionnaire."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "O(1)",
+        "correct": 2,
+        "correction": "Les dictionnaires Python sont implémentés avec des tables de hachage. L'accès, l'insertion et la suppression sont en O(1) en moyenne."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Depuis Python 3.7, le dictionnaire standard maintient l'ordre d'insertion. Avant, l'ordre n'était pas garanti."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "Un dict comprehension crée un dictionnaire en une expression. Ex : {x: x**2 for x in range(5)} = {0:0, 1:1, 2:4, 3:9, 4:16}.",
+        "correction": "Syntaxe : {clé: valeur for élément in itérable if condition}."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Fusionner un autre dictionnaire (ou itérable de paires) dans le dictionnaire",
+        "correct": 1,
+        "correction": "d.update(d2) ajoute/modifie les clés de d avec celles de d2. En Python 3.9+, on peut aussi utiliser d | d2."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Les clés d'un dictionnaire sont uniques. Si on assigne deux fois la même clé, la deuxième valeur écrase la première."
+      }
+    ]
+  }
+}

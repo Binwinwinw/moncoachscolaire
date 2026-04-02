@@ -1,0 +1,36 @@
+# MonCoachScolaire - Routing configuration
+
+# Enable Rewrite Engine
+RewriteEngine On
+
+# Set base path (optional, useful for subdirectories)
+RewriteBase /
+
+# Don't rewrite if the request is for an actual file
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
+
+# Don't rewrite if the request is for an actual directory
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Rewrite all other requests to index.php
+# The page parameter will be set based on the requested path
+RewriteCond %{REQUEST_URI} !^/assets/
+RewriteRule ^(.+)$ index.php?page=$1 [QSA,L]
+
+# Alternative version for root-level routing
+# Uncomment below if you want to also handle top-level requests
+# RewriteRule ^([^/]+)/?$ index.php?page=$1 [QSA,L]
+
+# Security headers
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+    Header set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+# Disable directory listing
+<IfModule mod_autoindex.c>
+    Options -Indexes
+</IfModule>

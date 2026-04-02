@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 666",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 3ème : Santé : microbiotes et hygiène",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "Santé : microbiotes et hygiène",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Que désigne le terme 'microbiote intestinal' ?",
+        "choices": [
+          "Les bactéries pathogènes du tube digestif",
+          "L'ensemble des micro-organismes vivant dans l'intestin",
+          "Les globules blancs de la paroi intestinale",
+          "Les enzymes digestives"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le lavage des mains réduit la transmission des maladies infectieuses."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on les micro-organismes qui vivent en symbiose avec l'être humain sans lui causer de maladie ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle du microbiote intestinal dans l'immunité ?",
+        "choices": [
+          "Il affaiblit le système immunitaire",
+          "Il stimule et régule le développement du système immunitaire",
+          "Il produit des anticorps directement",
+          "Il détruit les lymphocytes"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation excessive d'antibiotiques est sans effet sur le microbiote."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on le phénomène par lequel le microbiote normal empêche les agents pathogènes de coloniser l'hôte ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel organe contient la plus grande densité de micro-organismes du microbiote humain ?",
+        "choices": [
+          "Estomac",
+          "Intestin grêle",
+          "Côlon",
+          "Bouche"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le microbiote d'une personne est identique tout au long de sa vie."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

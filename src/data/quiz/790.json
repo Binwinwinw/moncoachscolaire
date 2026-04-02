@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 790",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 3eme : Les reseaux informatiques et la communication",
+    "status": "published",
+    "created_at": "2026-03-14 04:06:19",
+    "updated_at": "2026-03-14 04:06:19"
+  },
+  "quiz": {
+    "title": "Les reseaux informatiques et la communication",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la fonction d'un routeur dans un reseau informatique ?",
+        "choices": [
+          "Amplifier le signal Wi-Fi",
+          "Acheminer les paquets de donnees entre differents reseaux",
+          "Stocker les donnees des utilisateurs",
+          "Securiser les mots de passe"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une adresse IP identifie de maniere unique un equipement sur un reseau."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on le protocole qui permet de naviguer sur des pages web en echangeant des donnees entre navigateur et serveur ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que le cloud computing ?",
+        "choices": [
+          "Un type de reseau local",
+          "L'utilisation de ressources informatiques (serveurs, stockage, logiciels) via internet plutot que localement",
+          "Un protocole de communication sans fil",
+          "Un systeme d'exploitation"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un pare-feu (firewall) filtre le trafic reseau pour bloquer les connexions non autorisees."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on le protocole qui traduit les adresses IP en adresses physiques (MAC) sur un reseau local ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel type de topologie reseau relie tous les equipements a un commutateur (switch) central ?",
+        "choices": [
+          "Topologie bus",
+          "Topologie anneau",
+          "Topologie etoile",
+          "Topologie maillage"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le chiffrement de bout en bout garantit que seuls l'emetteur et le destinataire peuvent lire le contenu d'un message."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES 1ère - Série 839",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SES",
+    "description": "Diagnostic SES 1ère : Les inégalités économiques",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Les inégalités économiques",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SES",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Le rapport interdécile D9/D1 mesure :",
+        "choices": [
+          "La différence entre le 9e et le 1er décile",
+          "Le rapport entre le revenu du 9e décile et celui du 1er décile",
+          "Le taux de pauvreté",
+          "L'indice de Gini"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les inégalités de patrimoine sont plus fortes que les inégalités de revenu."
+      },
+      {
+        "type": "open",
+        "question": "Quelles sont les principales dimensions des inégalités sociales au-delà du revenu ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Selon Piketty, les inégalités tendent à croître quand :",
+        "choices": [
+          "La croissance économique est forte",
+          "Le rendement du capital (r) est supérieur au taux de croissance (g)",
+          "Le chômage diminue",
+          "L'État-providence est fort"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La courbe de Kuznets suggère que les inégalités augmentent puis diminuent avec le développement économique."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que le seuil de pauvreté relatif et quel est son niveau en France ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Les inégalités de revenu ont globalement tendance à :",
+        "choices": [
+          "Disparaître dans tous les pays développés",
+          "Augmenter dans la plupart des pays depuis les années 1980",
+          "Rester stables depuis 50 ans",
+          "Diminuer grâce à la mondialisation"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "À l'échelle mondiale, les inégalités entre pays ont eu tendance à diminuer depuis les années 1990."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

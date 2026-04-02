@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 610",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 1ère : La méiose et le brassage génétique",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "La méiose et le brassage génétique",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "La méiose est une division cellulaire qui produit :",
+        "choices": [
+          "2 cellules diploïdes identiques",
+          "4 cellules haploïdes génétiquement variées (gamètes)",
+          "8 cellules haploïdes identiques",
+          "1 cellule tétraploïde"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le crossing-over (enjambement) se produit lors de la prophase I de la méiose et crée de nouvelles combinaisons alléliques."
+      },
+      {
+        "type": "open",
+        "question": "La séparation aléatoire des chromosomes homologues vers les pôles lors de la méiose I est appelée brassage _____."
+      },
+      {
+        "type": "qcm",
+        "question": "La fécondation rétablit la diploïdie en combinant :",
+        "choices": [
+          "Deux cellules diploïdes",
+          "Un gamète haploïde maternel et un gamète haploïde paternel",
+          "Deux cellules somatiques",
+          "Une cellule diploïde et un gamète"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La méiose et la fécondation sexuée sont les principaux mécanismes générant la diversité génétique des individus."
+      },
+      {
+        "type": "open",
+        "question": "L'ensemble des chromosomes d'une cellule photographiés et classés par paires s'appelle le _____."
+      },
+      {
+        "type": "qcm",
+        "question": "La trisomie 21 (syndrome de Down) résulte de :",
+        "choices": [
+          "Une délétion chromosomique",
+          "Une non-disjonction lors de la méiose produisant un gamète avec 2 chromosomes 21",
+          "Une mutation ponctuelle dans un gène",
+          "Un crossing-over excessif"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les gamètes femelles humains sont les ovocytes, produits lors de l'ovogenèse."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

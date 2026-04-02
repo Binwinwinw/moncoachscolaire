@@ -1,0 +1,82 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 17",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic : mode, voyage, environnement (B1+).",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-09 21:37:00"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 17",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "'Fashion and identity' explore comment:",
+        "choices": ["Clothes express personality", "Math equations", "Bus routes", "Recipe steps"],
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Mass tourism harms local cultures.",
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "Exemple de fashion montrant identité (ex: subcultures).",
+        "placeholder": "Ex: Punk style rebels against norms...",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Dans 'Travel and tourism', un impact négatif est:",
+        "choices": ["Overcrowding in cities", "Morning coffee", "Homework", "TV shows"],
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Individuals can reduce environmental impact via choices.",
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "Problème tourisme durable (ex: Venice).",
+        "placeholder": "Ex: Too many tourists damage canals...",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "Environment responsibility includes:",
+        "choices": ["Recycling and activism", "Fast food diets", "Late nights", "Video games"],
+        "id": 7
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Fashion industry pollutes a lot (fast fashion).",
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Fashion and identity",
+      "description": "Mode comme expression personnelle/culturelle (subcultures, brands)."
+    },
+    {
+      "notion": "Travel and tourism",
+      "description": "Tourisme : bénéfices, overtourism, cultures locales."
+    },
+    {
+      "notion": "Environment and responsibility",
+      "description": "Responsabilité éco : pollution, activism individuel."
+    }
+  ],
+  "exerciseresponses": []
+}

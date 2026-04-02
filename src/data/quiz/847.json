@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES 1ère - Série 847",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SES",
+    "description": "Diagnostic SES 1ère : La mondialisation financière",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "La mondialisation financière",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SES",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "La mondialisation financière désigne :",
+        "choices": [
+          "L'unification des monnaies mondiales",
+          "L'intégration et la libéralisation des marchés financiers à l'échelle mondiale",
+          "La création d'un gouvernement économique mondial",
+          "La suppression des banques nationales"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La règle des '3D' de Bourguinat désigne Déréglementation, Désintermédiation et Décloisonnement."
+      },
+      {
+        "type": "open",
+        "question": "Expliquez le risque systémique lié à la mondialisation financière."
+      },
+      {
+        "type": "qcm",
+        "question": "Les marchés financiers permettent :",
+        "choices": [
+          "Uniquement la spéculation",
+          "Le financement de l'économie réelle, la couverture des risques et la liquidité",
+          "La fixation des salaires",
+          "La planification de la production"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les hedge funds sont des fonds d'investissement très réglementés."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que la spéculation et peut-elle déstabiliser l'économie ?"
+      },
+      {
+        "type": "qcm",
+        "question": "La crise des subprimes de 2007-2008 a trouvé son origine dans :",
+        "choices": [
+          "Une crise de la dette publique européenne",
+          "Des prêts immobiliers risqués titrisés et vendus à des investisseurs mondiaux",
+          "Une guerre commerciale entre États-Unis et Chine",
+          "Une pénurie pétrolière"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La BCE (Banque Centrale Européenne) peut être prêteur en dernier ressort pour les États de la zone euro."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

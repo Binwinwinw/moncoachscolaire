@@ -1,0 +1,97 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic seconde Anglais - Serie 21",
+    "type": "quiz",
+    "level": "seconde",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais seconde : Grammaire Seconde",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-08 00:05:00"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic seconde Anglais - Serie 21",
+    "level": "seconde",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "choices": [
+          "Concept A",
+          "Concept B",
+          "Concept C",
+          "Concept D"
+        ],
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le niveau seconde aborde des notions fondamentales en Anglais.",
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "Cite un exemple concret lié à Anglais.",
+        "placeholder": "Exemple...",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "choices": [
+          "Concept A",
+          "Concept B",
+          "Concept C",
+          "Concept D"
+        ],
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le niveau seconde aborde des notions fondamentales en Anglais.",
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "Cite un exemple concret lié à Anglais.",
+        "placeholder": "Exemple...",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "choices": [
+          "Concept A",
+          "Concept B",
+          "Concept C",
+          "Concept D"
+        ],
+        "id": 7
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le niveau seconde aborde des notions fondamentales en Anglais.",
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Notion 1 - Anglais",
+      "description": "Concept clé de Anglais au niveau seconde"
+    },
+    {
+      "notion": "Notion 2 - Anglais",
+      "description": "Concept clé de Anglais au niveau seconde"
+    },
+    {
+      "notion": "Notion 3 - Anglais",
+      "description": "Concept clé de Anglais au niveau seconde"
+    }
+  ],
+  "exerciseresponses": []
+}

@@ -1,0 +1,97 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 30",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ere : Les verbes à particules (phrasal verbs)",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-08 00:05:00"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 30",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "id": 1,
+        "type": "qcm",
+        "question": "What does 'give up' mean in: 'She gave up smoking last year.'?",
+        "choices": [
+          "to start something new",
+          "to quit or stop doing something",
+          "to give something to someone",
+          "to look for something"
+        ]
+      },
+      {
+        "id": 2,
+        "type": "vrai-faux",
+        "question": "In the sentence 'Turn it off', the pronoun 'it' can be placed after the particle in a separable phrasal verb."
+      },
+      {
+        "id": 3,
+        "type": "texte",
+        "question": "Remplace le phrasal verb 'come across' par un synonyme et utilise-le dans une phrase : 'I came across an interesting article online.'",
+        "placeholder": "Écris ta réponse ici..."
+      },
+      {
+        "id": 4,
+        "type": "qcm",
+        "question": "Choose the correct meaning of 'run out of' in: 'We ran out of time during the exam.'",
+        "choices": [
+          "to have too much of something",
+          "to run away quickly",
+          "to have no more of something left",
+          "to start something new"
+        ]
+      },
+      {
+        "id": 5,
+        "type": "vrai-faux",
+        "question": "'Look after' is an inseparable phrasal verb, meaning the object must always follow the particle."
+      },
+      {
+        "id": 6,
+        "type": "texte",
+        "question": "Explique le sens de 'put off' dans la phrase suivante et reformule avec un synonyme : 'The meeting was put off until next week.'",
+        "placeholder": "Écris ta réponse ici..."
+      },
+      {
+        "id": 7,
+        "type": "qcm",
+        "question": "What does 'bring up' mean in: 'She was brought up by her grandparents.'?",
+        "choices": [
+          "to carry something upstairs",
+          "to raise or look after a child",
+          "to mention a topic",
+          "to vomit"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "vrai-faux",
+        "question": "'Turn down' can mean both 'to reduce the volume' and 'to refuse an offer'."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Nature et sens des phrasal verbs",
+      "description": "Un phrasal verb = verbe + particule (préposition ou adverbe). Leur sens est souvent idiomatique et différent du verbe seul. Ex : give up (abandonner) ≠ give (donner). Les phrasal verbs sont très fréquents à l'oral et dans les textes informels. Il faut les apprendre comme des unités de sens."
+    },
+    {
+      "notion": "Phrasal verbs séparables vs inséparables",
+      "description": "Séparables : l'objet peut se placer entre le verbe et la particule ou après. Ex : turn off the TV / turn the TV off. Avec un pronom, l'objet se place OBLIGATOIREMENT au milieu : turn it off (jamais 'turn off it'). Inséparables : l'objet suit toujours la particule. Ex : look after the baby / look after it."
+    },
+    {
+      "notion": "Phrasal verbs courants au programme",
+      "description": "Exemples fondamentaux : carry out (effectuer), give up (abandonner), look up (chercher), run out of (manquer de), come across (tomber sur), put off (remettre à plus tard), bring up (élever/mentionner), turn down (refuser/baisser), set up (établir/créer), get over (surmonter)."
+    }
+  ],
+  "exerciseresponses": []
+}

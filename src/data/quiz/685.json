@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 685",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 3ème : Écologie : eau et cycles biogéochimiques",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "Écologie : eau et cycles biogéochimiques",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel est le moteur principal du cycle de l'eau ?",
+        "choices": [
+          "Les volcans",
+          "L'énergie solaire et la gravité",
+          "Les vents polaires",
+          "La déforestation"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La transpiration des plantes contribue au cycle de l'eau."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la transformation de l'ammoniac en nitrates par des bactéries du sol ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel processus bactérien transforme les nitrates du sol en azote gazeux (N2) atmosphérique ?",
+        "choices": [
+          "Fixation de l'azote",
+          "Nitrification",
+          "Dénitrification",
+          "Ammonification"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les océans constituent le principal réservoir d'eau douce sur Terre."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on le stockage souterrain d'eau dans des couches poreuses de roches ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle activité humaine contribue le plus à la pollution des nappes phréatiques ?",
+        "choices": [
+          "L'agriculture intensive",
+          "La pêche",
+          "Le tourisme",
+          "L'industrie du textile"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le cycle du phosphore n'inclut pas de phase gazeuse."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

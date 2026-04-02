@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES 1ère - Série 825",
+    "level": "1ère",
+    "subject": "SES"
+  },
+  "quiz": {
+    "title": "L'entreprise et ses objectifs",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "SES",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Maximiser le profit",
+        "correct": 1,
+        "correction": "La théorie néoclassique pose la maximisation du profit comme l'objectif premier des entreprises."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Les entreprises peuvent aussi viser la croissance, la réputation, la RSE, la satisfaction des parties prenantes…"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "La RSE désigne l'intégration volontaire par les entreprises de préoccupations sociales et environnementales dans leurs activités commerciales et leurs relations avec les parties prenantes.",
+        "correction": "La RSE va au-delà du simple objectif de profit et inclut des dimensions environnementales, sociales et de gouvernance (ESG)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Tous les acteurs affectés par l'activité de l'entreprise",
+        "correct": 1,
+        "correction": "Les parties prenantes incluent : actionnaires, salariés, clients, fournisseurs, État, société civile…"
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les dirigeants (agents) peuvent avoir des intérêts différents des actionnaires (principaux), créant des coûts d'agence."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "La valeur ajoutée est la richesse créée par l'entreprise (CA - consommations intermédiaires). Elle est répartie entre salariés, État, prêteurs et actionnaires. Le profit est la part revenant aux actionnaires après toutes ces déductions.",
+        "correction": "La VA mesure la contribution à la production nationale ; le profit est l'excédent brut d'exploitation net."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Chiffre d'affaires - consommations intermédiaires",
+        "correct": 1,
+        "correction": "Les consommations intermédiaires sont les biens et services détruits dans le processus de production."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le PIB = somme des VA de tous les agents producteurs résidents, ce qui explique la place centrale de l'entreprise dans la mesure de la richesse nationale."
+      }
+    ]
+  }
+}

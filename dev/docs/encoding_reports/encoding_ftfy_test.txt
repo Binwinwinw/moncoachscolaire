@@ -1,0 +1,49 @@
+ORIGINAL (first 600 chars):
+============================================================
+<?php
+// topbar.php â€” central topbar include
+// Expected optional flags defined by the caller before include:
+//  - $hide_topbar : if true, do not render the topbar
+//  - $hide_topbar_persona : if true, show only the site name (no persona/level)
+
+if (!empty($hide_topbar)) {
+    return;
+}
+
+// Ensure session is available (header.php normally starts the session)
+if (function_exists('ensure_session_started')) {
+    ensure_session_started();
+} else {
+    if (session_status() === PHP_SESSION_NONE) {
+        if (!headers_sent()) {
+            session_start();
+        } else {
+    
+
+FIXED (first 600 chars):
+============================================================
+<?php
+// topbar.php — central topbar include
+// Expected optional flags defined by the caller before include:
+//  - $hide_topbar : if true, do not render the topbar
+//  - $hide_topbar_persona : if true, show only the site name (no persona/level)
+
+if (!empty($hide_topbar)) {
+    return;
+}
+
+// Ensure session is available (header.php normally starts the session)
+if (function_exists('ensure_session_started')) {
+    ensure_session_started();
+} else {
+    if (session_status() === PHP_SESSION_NONE) {
+        if (!headers_sent()) {
+            session_start();
+        } else {
+            error_log('t
+
+CHECKS:
+  'démarrer' in fixed: False
+  'accès' in fixed: False
+  'Vérifier' in fixed: False
+  Changed: True

@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic HGGSP 1ère - Série 937",
+    "level": "1ère",
+    "subject": "HGGSP"
+  },
+  "quiz": {
+    "title": "Usages politiques du passé",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "HGGSP",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "La remise en cause idéologique de faits historiques établis (souvent pour justifier des idéologies)",
+        "correct": 1,
+        "correction": "Le révisionnisme (sens péjoratif) consiste à nier ou minimiser des faits établis (génocides) pour servir des intérêts idéologiques. À distinguer de la révision scientifique légitime qui fait avancer la connaissance."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La Russie poutinienne utilise la victoire sur le nazisme (Grande Guerre patriotique) pour légitimer le régime. La Chine utilise le 'siècle d'humiliation' pour justifier sa politique étrangère affirmée."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "La guerre en Bosnie-Herzégovine (1992-1995) a été alimentée par des mémoires historiques réactivées : le souvenir de la collaboration des Oustachis croates pendant la SGM, les mythes fondateurs serbes (la bataille du Kosovo, 1389), l'instrumentalisation des identités religieuses (orthodoxes vs catholiques vs musulmans). Les politiciens nationalistes ont construit une propagande mémorielle pour mobiliser les populations.",
+        "correction": "Ce conflit illustre la 'manipulation mémorielle' comme instrument de mobilisation nationaliste et de légitimation de la violence."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Certains régimes autoritaires révolutionnaires (nazisme, communisme)",
+        "correct": 1,
+        "correction": "Certains régimes cherchent à repartir de zéro en détruisant les symboles du passé (URSS et icônes religieuses, Daech et Palmyre) pour imposer un nouveau récit historique."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La question arménienne (génocide de 1915 reconnu par la France en 2001, nié par la Turquie) ou les tensions France-Algérie sur la colonisation illustrent comment les mémoires historiques alimentent les tensions diplomatiques."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "Les monuments commémoratifs (Arc de Triomphe, Verdun, statues, mémoriaux) matérialisent une mémoire dans l'espace public et la rendent pérenne. Ils indiquent quels événements et quelles valeurs une société juge dignes de mémoire. Leur construction, entretien et controverses (déboulonnages) reflètent les luttes pour l'hégémonie mémorielle.",
+        "correction": "La destruction de statues controversées (Edward Colston à Bristol en 2020) illustre la remise en cause des mémoires nationales dominantes par des mémoires minoritaires."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Figer une interprétation du passé en lui donnant une légitimité officielle",
+        "correct": 1,
+        "correction": "La patrimonialisation sélectionne et fige une interprétation du passé. Elle peut négliger certaines mémoires (ex : mémoire coloniale dans les musées ethnographiques) tout en valorisant d'autres."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les commémorations du Centenaire 14-18 ont mis en avant la réconciliation (cérémonie franco-allemande à Verdun, 2016) plutôt que la victoire, reflétant l'évolution des valeurs européennes."
+      }
+    ]
+  }
+}

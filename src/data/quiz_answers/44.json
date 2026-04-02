@@ -1,0 +1,72 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 4eme Mathématiques",
+    "type": "quiz",
+    "level": "4eme",
+    "subject": "Mathematiques",
+    "description": "Diagnostic factorisations, équations 1er degré, théorème Pythagore 4eme"
+  },
+  "quiz": {
+    "title": "Diagnostic Maths 4eme",
+    "level": "4eme",
+    "subject": "Mathematiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "texte",
+        "answer": "(x-3)(x+3)",
+        "correction": "Différence carrés a²-b²=(a-b)(a+b)"
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "qcm",
+        "answer": "3",
+        "correction": "2x=6 → x=3"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": true,
+        "correction": "9+16=25 ✓"
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "texte",
+        "answer": "16",
+        "correction": "(3+5)/2 × 4 = 16"
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "5",
+        "correction": "Plus grand commun diviseur"
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "answer": "4x²+4x+1",
+        "correction": "(a+b)²=a²+2ab+b²"
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "vrai-faux",
+        "answer": true,
+        "correction": "VRAI. Définition Pythagore"
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "qcm",
+        "answer": "12",
+        "correction": "Plus petit commun multiple"
+      }
+    ]
+  }
+}

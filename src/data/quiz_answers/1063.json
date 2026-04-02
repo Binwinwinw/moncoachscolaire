@@ -1,0 +1,48 @@
+{
+  "quiz_id": 1063,
+  "title": "Équations et inéquations du second degré",
+  "subject": "Mathématiques",
+  "level": "1ère",
+  "answers": [
+    {
+      "question_id": "1063_1",
+      "correct_option": "A",
+      "explanation": "Δ = 4 − 20 = −16 < 0 : aucune solution réelle."
+    },
+    {
+      "question_id": "1063_2",
+      "correct": true,
+      "explanation": "x² = 9 ⟺ x² − 9 = 0 ⟺ (x−3)(x+3)=0 ⟺ x = ±3."
+    },
+    {
+      "question_id": "1063_3",
+      "correct_answer": "x ∈ ]−∞ ; 2[ ∪ ]5 ; +∞[",
+      "explanation": "Racines : Δ=49−40=9, x₁=2, x₂=5. a=1>0 → positif à l'extérieur des racines."
+    },
+    {
+      "question_id": "1063_4",
+      "correct_option": "A",
+      "explanation": "Relation de Viète : x₁ + x₂ = −b/a = −(−7)/3 = 7/3."
+    },
+    {
+      "question_id": "1063_5",
+      "correct": true,
+      "explanation": "Relation de Viète : x₁ · x₂ = c/a = 2/3."
+    },
+    {
+      "question_id": "1063_6",
+      "correct_answer": "Somme = −3/5 ; Produit = −1/5",
+      "explanation": "Viète : x₁+x₂ = −3/5 et x₁·x₂ = −1/5."
+    },
+    {
+      "question_id": "1063_7",
+      "correct_option": "A",
+      "explanation": "x²−4x+3=0. Δ=16−12=4. x₁=(4−2)/2=1, x₂=(4+2)/2=3."
+    },
+    {
+      "question_id": "1063_8",
+      "correct": true,
+      "explanation": "(x−2)² = 7 → x − 2 = ±√7 → x = 2 ± √7. Deux solutions réelles."
+    }
+  ]
+}

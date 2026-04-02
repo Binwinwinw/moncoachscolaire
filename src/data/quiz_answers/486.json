@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 486",
+    "level": "1ère",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "L'écriture d'invention",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Un texte original en respectant des contraintes de genre et de tonalité",
+        "correct": 1,
+        "correction": "L'écriture d'invention évalue la créativité et la maîtrise des codes génériques (argumentation, récit, dialogue…)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Même créative, l'écriture d'invention argumentative doit être cohérente et structurée."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "ton",
+        "correction": "La cohérence de ton, de style et de personnages garantit la vraisemblance de la suite."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Pathétique et/ou polémique",
+        "correct": 1,
+        "correction": "Un discours engagé use souvent du registre pathétique (émouvoir) et polémique (convaincre/persuader)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'écriture d'invention évalue aussi la richesse stylistique et la maîtrise de la langue."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "formels",
+        "correction": "Les codes formels du genre (lettre, discours, article) sont évalués dans l'écriture d'invention."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "La grandeur, l'héroïsme, l'ampleur narrative",
+        "correct": 1,
+        "correction": "Le registre épique évoque les grandes actions, les héros, les batailles, avec un style ample et solennel."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Hugo mêle justement le sublime et le grotesque ; les mélanges de registres peuvent être artistiquement réussis."
+      }
+    ]
+  }
+}

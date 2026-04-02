@@ -1,0 +1,291 @@
+{
+    "table_name": "exercises",
+    "extracted_at": "2026-02-15 07:19:12",
+    "columns": [
+        {
+            "name": "Id",
+            "type": "int(11)",
+            "nullable": false,
+            "key": "PRI",
+            "default": null,
+            "extra": "auto_increment"
+        },
+        {
+            "name": "Subject",
+            "type": "varchar(60)",
+            "nullable": true,
+            "key": "",
+            "default": null,
+            "extra": ""
+        },
+        {
+            "name": "Level",
+            "type": "varchar(10)",
+            "nullable": true,
+            "key": "MUL",
+            "default": null,
+            "extra": ""
+        },
+        {
+            "name": "Title",
+            "type": "varchar(250)",
+            "nullable": true,
+            "key": "",
+            "default": null,
+            "extra": ""
+        },
+        {
+            "name": "Content",
+            "type": "longtext",
+            "nullable": true,
+            "key": "",
+            "default": null,
+            "extra": ""
+        },
+        {
+            "name": "structure_type",
+            "type": "enum('simple','multi-parties')",
+            "nullable": true,
+            "key": "MUL",
+            "default": "simple",
+            "extra": ""
+        },
+        {
+            "name": "pattern_detected",
+            "type": "varchar(20)",
+            "nullable": true,
+            "key": "",
+            "default": null,
+            "extra": ""
+        },
+        {
+            "name": "sub_questions",
+            "type": "longtext",
+            "nullable": true,
+            "key": "",
+            "default": null,
+            "extra": ""
+        },
+        {
+            "name": "Type",
+            "type": "varchar(32)",
+            "nullable": true,
+            "key": "",
+            "default": null,
+            "extra": ""
+        },
+        {
+            "name": "Answer",
+            "type": "longtext",
+            "nullable": true,
+            "key": "",
+            "default": null,
+            "extra": ""
+        },
+        {
+            "name": "InteractiveConfig",
+            "type": "longtext",
+            "nullable": true,
+            "key": "",
+            "default": null,
+            "extra": ""
+        },
+        {
+            "name": "Tips",
+            "type": "longtext",
+            "nullable": true,
+            "key": "",
+            "default": null,
+            "extra": ""
+        },
+        {
+            "name": "Domain",
+            "type": "varchar(150)",
+            "nullable": true,
+            "key": "",
+            "default": null,
+            "extra": ""
+        },
+        {
+            "name": "Competence",
+            "type": "varchar(200)",
+            "nullable": true,
+            "key": "",
+            "default": null,
+            "extra": ""
+        },
+        {
+            "name": "Difficulty",
+            "type": "varchar(10)",
+            "nullable": true,
+            "key": "",
+            "default": null,
+            "extra": ""
+        },
+        {
+            "name": "exam_prep",
+            "type": "varchar(20)",
+            "nullable": true,
+            "key": "MUL",
+            "default": null,
+            "extra": ""
+        },
+        {
+            "name": "Identifier",
+            "type": "varchar(50)",
+            "nullable": true,
+            "key": "MUL",
+            "default": null,
+            "extra": ""
+        },
+        {
+            "name": "AnswerType",
+            "type": "varchar(30)",
+            "nullable": true,
+            "key": "",
+            "default": null,
+            "extra": ""
+        },
+        {
+            "name": "Choices",
+            "type": "longtext",
+            "nullable": true,
+            "key": "",
+            "default": null,
+            "extra": ""
+        },
+        {
+            "name": "Instruction",
+            "type": "text",
+            "nullable": true,
+            "key": "",
+            "default": null,
+            "extra": ""
+        },
+        {
+            "name": "is_active",
+            "type": "tinyint(1)",
+            "nullable": true,
+            "key": "",
+            "default": "1",
+            "extra": ""
+        },
+        {
+            "name": "XP_Points",
+            "type": "int(11)",
+            "nullable": true,
+            "key": "",
+            "default": "10",
+            "extra": ""
+        },
+        {
+            "name": "Coherence",
+            "type": "tinyint(1)",
+            "nullable": true,
+            "key": "",
+            "default": "0",
+            "extra": ""
+        },
+        {
+            "name": "processed",
+            "type": "tinyint(1)",
+            "nullable": true,
+            "key": "",
+            "default": "0",
+            "extra": ""
+        },
+        {
+            "name": "course_id",
+            "type": "int(11)",
+            "nullable": true,
+            "key": "MUL",
+            "default": null,
+            "extra": ""
+        },
+        {
+            "name": "LinkedCourses",
+            "type": "text",
+            "nullable": true,
+            "key": "",
+            "default": null,
+            "extra": ""
+        },
+        {
+            "name": "created_at",
+            "type": "datetime",
+            "nullable": true,
+            "key": "",
+            "default": "current_timestamp()",
+            "extra": ""
+        },
+        {
+            "name": "updated_at",
+            "type": "datetime",
+            "nullable": true,
+            "key": "MUL",
+            "default": "current_timestamp()",
+            "extra": "on update current_timestamp()"
+        }
+    ],
+    "indexes": [
+        {
+            "name": "PRIMARY",
+            "columns": [
+                "Id"
+            ],
+            "unique": true
+        },
+        {
+            "name": "idx_identifier",
+            "columns": [
+                "Identifier"
+            ],
+            "unique": false
+        },
+        {
+            "name": "idx_level_subject",
+            "columns": [
+                "Level",
+                "Subject"
+            ],
+            "unique": false
+        },
+        {
+            "name": "idx_course_id",
+            "columns": [
+                "course_id"
+            ],
+            "unique": false
+        },
+        {
+            "name": "idx_structure_type",
+            "columns": [
+                "structure_type"
+            ],
+            "unique": false
+        },
+        {
+            "name": "idx_exam_prep",
+            "columns": [
+                "exam_prep"
+            ],
+            "unique": false
+        },
+        {
+            "name": "idx_updated_at",
+            "columns": [
+                "updated_at"
+            ],
+            "unique": false
+        }
+    ],
+    "foreign_keys": [
+        {
+            "constraint": "exercises_ibfk_1",
+            "column": "course_id",
+            "referenced_table": "course_key_points",
+            "referenced_column": "id"
+        }
+    ],
+    "create_statement": "CREATE TABLE `exercises` (\n  `Id` int(11) NOT NULL AUTO_INCREMENT,\n  `Subject` varchar(60) DEFAULT NULL,\n  `Level` varchar(10) DEFAULT NULL,\n  `Title` varchar(250) DEFAULT NULL,\n  `Content` longtext DEFAULT NULL,\n  `structure_type` enum('simple','multi-parties') DEFAULT 'simple',\n  `pattern_detected` varchar(20) DEFAULT NULL,\n  `sub_questions` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT NULL COMMENT 'Sous-questions parsees automatiquement' CHECK (json_valid(`sub_questions`)),\n  `Type` varchar(32) DEFAULT NULL,\n  `Answer` longtext DEFAULT NULL,\n  `InteractiveConfig` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT NULL CHECK (json_valid(`InteractiveConfig`)),\n  `Tips` longtext DEFAULT NULL COMMENT 'Astuces pédagogiques et gamification',\n  `Domain` varchar(150) DEFAULT NULL COMMENT 'Domaine pédagogique (ex: Grammaire, Algèbre)',\n  `Competence` varchar(200) DEFAULT NULL COMMENT 'Compétence ciblée',\n  `Difficulty` varchar(10) DEFAULT NULL COMMENT 'Niveau de difficulté (facile, moyen, difficile)',\n  `exam_prep` varchar(20) DEFAULT NULL COMMENT 'BAC, BREVET, ou NULL',\n  `Identifier` varchar(50) DEFAULT NULL COMMENT 'Code unique (ex: FR-6EME-001)',\n  `AnswerType` varchar(30) DEFAULT NULL COMMENT 'Type de réponse attendue (qcm, texte, calcul, appariement, etc.)',\n  `Choices` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT NULL COMMENT 'Liste des choix pour QCM ou appariement' CHECK (json_valid(`Choices`)),\n  `Instruction` text DEFAULT NULL COMMENT 'Consigne spécifique à l’élève (si différente de Content)',\n  `is_active` tinyint(1) DEFAULT 1,\n  `XP_Points` int(11) DEFAULT 10,\n  `Coherence` tinyint(1) DEFAULT 0 COMMENT 'Indique si l''exercice est cohérent avec le parcours',\n  `processed` tinyint(1) DEFAULT 0,\n  `course_id` int(11) DEFAULT NULL,\n  `LinkedCourses` text DEFAULT NULL COMMENT 'JSON array des IDs de cours liés (ex: [1, 2, 3])',\n  `created_at` datetime DEFAULT current_timestamp() COMMENT 'Date de création de l''exercice',\n  `updated_at` datetime DEFAULT current_timestamp() ON UPDATE current_timestamp() COMMENT 'Date de dernière modification',\n  PRIMARY KEY (`Id`),\n  KEY `idx_identifier` (`Identifier`),\n  KEY `idx_level_subject` (`Level`,`Subject`),\n  KEY `idx_course_id` (`course_id`),\n  KEY `idx_structure_type` (`structure_type`),\n  KEY `idx_exam_prep` (`exam_prep`),\n  KEY `idx_updated_at` (`updated_at`),\n  CONSTRAINT `exercises_ibfk_1` FOREIGN KEY (`course_id`) REFERENCES `course_key_points` (`id`) ON DELETE SET NULL\n) ENGINE=InnoDB AUTO_INCREMENT=1234 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci"
+}

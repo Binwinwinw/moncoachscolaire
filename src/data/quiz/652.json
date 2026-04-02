@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 652",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 3ème : Génétique : lois de l'hérédité et croisements",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "Génétique : lois de l'hérédité et croisements",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Lorsqu'on croise deux individus homozygotes de génotypes AA et aa, quelle est la descendance F1 ?",
+        "choices": [
+          "Tous aa",
+          "Tous AA",
+          "Tous Aa",
+          "50% AA, 50% aa"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Si A est dominant sur a, un individu Aa présente le phénotype associé à l'allèle a."
+      },
+      {
+        "type": "open",
+        "question": "Dans un croisement Aa × Aa, quelle proportion d'individus présente le génotype aa ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel outil permet de visualiser les chromosomes d'un individu classés par paires ?",
+        "choices": [
+          "Électrophorèse",
+          "Caryotype",
+          "IRM",
+          "Séquençage"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le sexe génétique humain est déterminé par les chromosomes sexuels XX (femme) et XY (homme)."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la transmission d'un gène situé sur le chromosome X ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Que montre un arbre généalogique ?",
+        "choices": [
+          "La structure de l'ADN",
+          "Les liens de parenté et la transmission des caractères",
+          "La formule chromosomique",
+          "La composition en bases azotées"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une mutation est toujours pathologique."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

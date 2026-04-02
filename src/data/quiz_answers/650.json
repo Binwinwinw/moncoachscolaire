@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 650",
+    "level": "1ère",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "Quiz blanc final SVT 1ère",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "L'expérience des ballons à col de cygne montrant que l'air seul n'engendre pas la vie",
+        "correct": 1,
+        "correction": "Pasteur (1859) utilised des ballons à col de cygne ; le bouillon sterilise reste stérile jusqu'à cassure du col : preuve que la vie vient de la vie (omne vivum e vivo)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le 'monde ARN' (Gilbert, 1986) : les ribozymes (ARN catalytiques) peuvent à la fois stocker l'information et catalyser des réactions → ARN comme molécule primordiale avant ADN et protéines."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "C",
+        "correction": "La découverte du VHC a permis de développer des tests sanguins et des traitements antiviraux (AAD) qui guérissent l'hépatite C dans > 95 % des cas."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Par sélection naturelle : les mutants résistants survivent et se reproduisent en présence d'antibiotiques",
+        "correct": 1,
+        "correction": "L'antibiorésistance = évolution en temps réel ; les mutations aléatoires donnent une résistance à certaines bactéries ; l'antibiotique tue les sensibles et sélectionne les résistantes."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Biomimétique : gecko → matériaux adhésifs, aile de libellule → winglets d'avion, soie d'araignée → matériaux ultra-résistants, cerveau → algorithmes d'apprentissage automatique."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "cognitives",
+        "correction": "L'axe intestin-cerveau (gut-brain axis) : le microbiote produit des neurotransmetteurs (sérotonine, GABA) et influence l'humeur, les comportements et même les maladies neurologiques."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Le récepteur ACE2 des cellules épithéliales respiratoires et d'autres organes",
+        "correct": 1,
+        "correction": "La protéine Spike du SARS-CoV-2 se lie à l'ACE2 (enzyme de conversion de l'angiotensine 2) ; ce récepteur est présent dans les poumons, le cœur, les reins — expliquant le tropisme multi-organes."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Karl Popper : une hypothèse scientifique doit être falsifiable (réfutable). La démarche H-D : formuler une hypothèse → prévoir des conséquences → tester expérimentalement → valider ou infirmer."
+      }
+    ]
+  }
+}

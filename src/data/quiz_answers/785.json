@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 785",
+    "level": "3eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Les transmissions de mouvement",
+    "question_count": 8,
+    "level": "3eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Vis-ecrou ou cremaillere-pignon",
+        "correct": 1,
+        "correction": "La vis-ecrou et le pignon-cremaillere convertissent la rotation en translation lineaire ; ils equippent machines-outils, verins mecaniques et directions de vehicules."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Rapport de transmission r = n_sortie / n_entree ; si r > 1, il y a multiplication de vitesse (et reduction du couple) ; si r < 1, reduction de vitesse (et multiplication du couple)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "engrenages",
+        "correction": "Les engrenages (pignons) transmettent un mouvement de rotation avec un rapport de vitesse et de couple defini par le rapport du nombre de dents des roues."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Un reducteur de vitesse (boite de vitesses)",
+        "correct": 1,
+        "correction": "Le reducteur (train d'engrenages) diminue la vitesse de rotation et augmente proportionnellement le couple, permettant a un petit moteur de developper une grande force."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La courroie trapezoidale (section en V) s'enclave dans la gorge de la poulie, augmentant l'adherence et reduisant le glissement sous forte charge."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "rendement mecanique",
+        "correction": "Le rendement eta = P_utile / P_motrice (toujours < 1 a cause des frottements) mesure l'efficacite d'un mecanisme de transmission."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Courroie crantee (synchrone) ou chaine",
+        "correct": 1,
+        "correction": "La courroie crantee (timing belt) et la chaine de transmission (velo, moto) synchronisent les axes sans glissement, garantissant un rapport de transmission constant."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le mecanisme bielle-manivelle (moteur a piston, serrure a came) convertit la rotation de la manivelle en translation de la bielle, et vice versa."
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 26",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ere : Les modaux – capacité, permission, obligation",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-08 00:05:00"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 26",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "id": 1,
+        "type": "qcm",
+        "question": "Choose the correct modal to express a past ability: 'When she was young, she ___ play the piano beautifully.'",
+        "choices": [
+          "can",
+          "must",
+          "could",
+          "should"
+        ]
+      },
+      {
+        "id": 2,
+        "type": "vrai-faux",
+        "question": "'You mustn't park here' means that parking is not necessary here."
+      },
+      {
+        "id": 3,
+        "type": "texte",
+        "question": "Quelle est la différence de sens entre ces deux phrases ? 'You must wear a uniform at school.' / 'You should wear a uniform at school.'",
+        "placeholder": "Écris ta réponse ici..."
+      },
+      {
+        "id": 4,
+        "type": "qcm",
+        "question": "Which sentence correctly asks for permission in a formal context?",
+        "choices": [
+          "Can I use your computer?",
+          "May I use your computer?",
+          "Should I use your computer?",
+          "Must I use your computer?"
+        ]
+      },
+      {
+        "id": 5,
+        "type": "vrai-faux",
+        "question": "'I don't have to work on Sundays' means that working on Sundays is forbidden."
+      },
+      {
+        "id": 6,
+        "type": "texte",
+        "question": "Complète la phrase avec le bon modal et explique ton choix : 'You ___ (ne peux pas / il est interdit de) use your phone during the exam.'",
+        "placeholder": "Écris ta réponse ici..."
+      },
+      {
+        "id": 7,
+        "type": "qcm",
+        "question": "Which sentence uses 'be able to' correctly in the future tense?",
+        "choices": [
+          "She will can speak Spanish after the course.",
+          "She will be able to speak Spanish after the course.",
+          "She will could speak Spanish after the course.",
+          "She would able to speak Spanish after the course."
+        ]
+      },
+      {
+        "id": 8,
+        "type": "vrai-faux",
+        "question": "'Should' can be used to give advice or express a moral obligation."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Modaux de capacité : can, could, be able to",
+      "description": "Can exprime une capacité présente. Could exprime une capacité passée ou une demande polie. Be able to est plus formel et peut s'utiliser à tous les temps. Ex : I can swim / I could read at age 4 / I will be able to drive soon."
+    },
+    {
+      "notion": "Modaux de permission : can, could, may, might",
+      "description": "Can/could demandent ou accordent une permission de façon informelle. May/might sont plus formels. Ex : Can/Could I open the window? May I leave early? Note : could et might sont plus polis que can et may."
+    },
+    {
+      "notion": "Modaux d'obligation : must, have to, should, ought to, need to",
+      "description": "Must exprime une obligation forte souvent imposée par le locuteur. Have to exprime une obligation externe. Should/ought to donnent un conseil ou une obligation morale. Mustn't = interdiction. Don't have to = absence d'obligation."
+    }
+  ],
+  "exerciseresponses": []
+}

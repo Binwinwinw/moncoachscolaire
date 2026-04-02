@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 652",
+    "level": "3ème",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "Génétique : lois de l'hérédité et croisements",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Tous Aa",
+        "correct": 2,
+        "correction": "Tous les individus F1 reçoivent un allèle A de chaque parent : ils sont tous hétérozygotes Aa."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Avec A dominant, un individu Aa exprime le phénotype A."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "1/4",
+        "correction": "La grille de Punnett donne AA (1/4), Aa (2/4), aa (1/4)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Caryotype",
+        "correct": 1,
+        "correction": "Le caryotype est la représentation ordonnée des chromosomes d'une cellule."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les chromosomes sexuels X et Y déterminent le sexe génétique chez les mammifères."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "hérédité liée à l'X",
+        "correction": "Les gènes portés par le chromosome X sont transmis selon un mode lié au sexe."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Les liens de parenté et la transmission des caractères",
+        "correct": 1,
+        "correction": "L'arbre généalogique représente la transmission des caractères héréditaires dans une famille."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Les mutations peuvent être neutres, bénéfiques ou nocives selon leur contexte."
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 781",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 3eme : Les systemes techniques : structure et fonctionnement",
+    "status": "published",
+    "created_at": "2026-03-14 04:06:19",
+    "updated_at": "2026-03-14 04:06:19"
+  },
+  "quiz": {
+    "title": "Les systemes techniques : structure et fonctionnement",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'un systeme technique ?",
+        "choices": [
+          "Un outil simple avec une seule fonction",
+          "Un ensemble d'elements en interaction organise pour remplir une fonction globale",
+          "Un composant electronique unique",
+          "Un logiciel de gestion"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Dans un systeme technique, on distingue la partie operative (qui agit) et la partie commande (qui decide)."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on le schema representant le flux d'information et d'energie dans un systeme technique ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'une boucle de retroaction (feedback) dans un systeme automatise ?",
+        "choices": [
+          "Un court-circuit electrique",
+          "Un mecanisme qui compare la sortie a la consigne pour corriger les ecarts",
+          "Un composant de stockage d'energie",
+          "Un programme qui reduit la vitesse"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un systeme en boucle ouverte ne mesure pas sa sortie pour se corriger."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on le composant electronique programmable qui joue le role de cerveau dans un systeme automatise moderne ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'un automate programmable industriel (API/PLC) ?",
+        "choices": [
+          "Un robot humanoide",
+          "Un ordinateur specialise et robuste programme pour controler des systemes industriels",
+          "Un logiciel de gestion d'entreprise",
+          "Un capteur de mesure de temperature"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un systeme SCADA permet de superviser et controler a distance des installations industrielles."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

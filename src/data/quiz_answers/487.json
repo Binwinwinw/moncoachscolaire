@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 487",
+    "level": "1ère",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Victor Hugo : œuvres et thèmes majeurs",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Les Contemplations",
+        "correct": 0,
+        "correction": "Les Contemplations (1856) comprennent le livre IV ('Pauca meae') dédié à Léopoldine."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Opposé à Louis-Napoléon Bonaparte, Hugo s'exile à Bruxelles, Jersey et Guernesey (1851-1870)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "Quasimodo",
+        "correction": "Quasimodo, bossu et sourd, aime Esmeralda d'un amour pur ; Hugo illustre le contraste beauté/laideur."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "La misère sociale et la rédemption humaine",
+        "correct": 1,
+        "correction": "Jean Valjean, ex-forçat, cherche sa rédemption dans une société injuste."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Hugo est l'un des rares auteurs à exceller dans tous les genres : poésie (Les Contemplations), théâtre (Hernani), roman (Notre-Dame de Paris, Les Misérables)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "engagée",
+        "correction": "Hugo se bat toute sa vie pour les pauvres, l'abolition de la peine de mort et les droits des enfants."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Hernani",
+        "correct": 2,
+        "correction": "La première d'Hernani (1830) oppose classiques et romantiques dans une querelle célèbre."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les Châtiments (1853) sont des poèmes satiriques violents contre Louis-Napoléon Bonaparte, écrits depuis l'exil."
+      }
+    ]
+  }
+}

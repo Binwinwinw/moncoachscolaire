@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic NSI 1ère - Série 893",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "description": "Diagnostic NSI 1ère : Boucles for et while",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "Boucles for et while",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Que produit range(2, 10, 3) en Python ?",
+        "choices": [
+          "[2, 5, 8, 11]",
+          "[2, 5, 8]",
+          "[3, 6, 9]",
+          "[2, 4, 6, 8]"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une boucle while continue tant que sa condition est vraie."
+      },
+      {
+        "type": "open",
+        "question": "Quelle est la différence entre break et continue dans une boucle Python ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Que fait enumerate() dans une boucle for ?",
+        "choices": [
+          "Trie la liste",
+          "Retourne un tuple (indice, valeur) pour chaque élément",
+          "Filtre les éléments",
+          "Inverse la liste"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "En Python, for ... else exécute le bloc else si la boucle se termine normalement (sans break)."
+      },
+      {
+        "type": "open",
+        "question": "Écrivez une boucle Python pour calculer la somme des nombres pairs de 1 à 100."
+      },
+      {
+        "type": "qcm",
+        "question": "Que retourne zip([1,2,3], ['a','b','c']) ?",
+        "choices": [
+          "[[1,'a'],[2,'b'],[3,'c']]",
+          "Un itérateur de tuples (1,'a'), (2,'b'), (3,'c')",
+          "'1a2b3c'",
+          "Une erreur"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La fonction map(f, lst) applique la fonction f à chaque élément de lst."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

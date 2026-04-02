@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 664",
+    "level": "3ème",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "Immunologie : vaccination et sérum",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Stimuler l'immunité acquise en présentant un antigène inoffensif",
+        "correct": 1,
+        "correction": "Un vaccin contient des antigènes (atténués, inactivés ou fragments) qui stimulent l'immunité et créent une mémoire immunologique sans provoquer la maladie."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Le vaccin ARNm fournit les instructions pour que les cellules fabriquent elles-mêmes l'antigène, stimulant ainsi l'immunité."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "immunité collective",
+        "correction": "L'immunité collective (ou immunité grégaire) protège indirectement les individus non immunisés en réduisant la circulation du pathogène."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Le vaccin prévient la maladie ; le sérum guérit après l'infection",
+        "correct": 1,
+        "correction": "La vaccination crée une mémoire immunitaire (immunité active) ; le sérum apporte des anticorps préformés (immunité passive) pour un traitement d'urgence."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "L'immunité passive est temporaire car les anticorps reçus passivement sont progressivement éliminés."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "Edward Jenner",
+        "correction": "Edward Jenner a développé le premier vaccin en 1796 en utilisant la vaccine (variole de vache) pour immuniser contre la variole."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Car le virus de la grippe mute rapidement",
+        "correct": 1,
+        "correction": "Le virus influenza présente une forte variabilité antigénique (mutations et réassortiments génétiques) nécessitant une adaptation annuelle du vaccin."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Les antibiotiques ciblent les bactéries ; ils sont inefficaces contre les virus. Les antiviraux sont utilisés pour les infections virales."
+      }
+    ]
+  }
+}

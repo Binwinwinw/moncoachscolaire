@@ -1,0 +1,76 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Geographie 1ere - Série 184",
+    "level": "1ere",
+    "subject": "Histoire-Geographie"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Histoire-Géographie - Serie 10",
+    "question_count": 8,
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Le réfugié fuit une persécution ou une menace grave, tandis que le migrant économique cherche de meilleures conditions de vie",
+        "correct": 1,
+        "correction": "Selon la Convention de Genève (1951), un réfugié est une personne qui fuit son pays en raison de persécutions (pour motifs de race, religion, nationalité, opinion politique, appartenance à un groupe social). Le migrant économique cherche de meilleures conditions économiques. La distinction est importante juridiquement car le réfugié bénéficie d'une protection internationale."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Contrairement aux idées reçues, les migrations Sud-Sud (entre pays d'Afrique, d'Asie ou d'Amérique latine) sont aussi importantes que les migrations Sud-Nord. Par exemple, les migrations africaines se font majoritairement intra-africaines (vers l'Afrique du Sud, la Côte d'Ivoire, le Nigeria)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "correct_answer": "La diaspora est une communauté dispersée hors de son territoire d'origine. Elle joue un rôle économique majeur par les transferts d'argent (remittances) vers les pays d'origine.",
+        "answer": "La diaspora est une communauté dispersée hors de son territoire d'origine. Elle joue un rôle économique majeur par les transferts d'argent (remittances) vers les pays d'origine.",
+        "correction": "La diaspora désigne la dispersion d'une communauté à travers le monde tout en maintenant un lien avec le pays d'origine. Sur le plan économique, les diasporas envoient des remittances (transferts financiers) représentant des montants supérieurs à l'aide publique au développement dans de nombreux pays (ex : l'Inde reçoit plus de 80 milliards de dollars par an de sa diaspora). Elles transfèrent aussi des compétences, des technologies et des réseaux."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Le HCR (Haut-Commissariat des Nations Unies pour les Réfugiés)",
+        "correct": 2,
+        "correction": "Le HCR (UNHCR en anglais), créé en 1950, est l'agence de l'ONU mandatée pour protéger les réfugiés, les demandeurs d'asile et les apatrides. Il coordonne l'aide internationale aux réfugiés et travaille à trouver des solutions durables (rapatriement volontaire, intégration locale, réinstallation dans un pays tiers)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. En 2015, plus d'un million de personnes arrivent en Europe irrégulièrement, principalement des Syriens fuyant la guerre civile (depuis 2011), des Afghans et des Irakiens. Cette crise met à l'épreuve le système d'asile européen et génère des tensions politiques importantes au sein de l'UE."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "correct_answer": "La fuite des cerveaux (brain drain) est l'émigration des personnes hautement qualifiées vers les pays riches, privant les pays d'origine de leurs compétences.",
+        "answer": "La fuite des cerveaux (brain drain) est l'émigration des personnes hautement qualifiées vers les pays riches, privant les pays d'origine de leurs compétences.",
+        "correction": "La fuite des cerveaux (brain drain) désigne l'émigration des personnes les plus qualifiées (médecins, ingénieurs, scientifiques) des pays en développement vers les pays riches, attirés par de meilleures rémunérations et conditions de travail. Pour les pays d'origine : perte d'investissements publics en éducation, manque de compétences pour le développement, mais les remittances peuvent partiellement compenser. Le débat sur le 'brain gain' souligne les effets positifs potentiels (retour de compétences, réseaux)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "La protection accordée par un État à une personne persécutée dans son pays d'origine",
+        "correct": 1,
+        "correction": "Le droit d'asile est la protection qu'un État accorde à un étranger qui ne peut pas rentrer dans son pays d'origine en raison de persécutions graves (définies par la Convention de Genève de 1951). En France, c'est l'OFPRA (Office Français de Protection des Réfugiés et Apatrides) qui instruit les demandes."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les 'réfugiés climatiques' (ou déplacés environnementaux) fuient des zones rendues invivables par le changement climatique (montée des eaux, désertification, événements extrêmes). Selon les projections, entre 200 millions et 1 milliard de personnes pourraient être déplacées d'ici 2050. Cependant, ils ne bénéficient pas encore d'un statut juridique international protégé."
+      }
+    ]
+  }
+}

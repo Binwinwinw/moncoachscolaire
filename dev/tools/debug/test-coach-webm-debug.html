@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔧 Test Coach WebM - Débogage</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            padding: 30px;
+        }
+        
+        @media (max-width: 900px) {
+            .content {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .section {
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 20px;
+        }
+        
+        .section h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .status-box {
+            background: #f5f5f5;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 15px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.95em;
+            line-height: 1.6;
+        }
+        
+        .status-box.success {
+            background: #e8f5e9;
+            border-left: 4px solid #4caf50;
+        }
+        
+        .status-box.error {
+            background: #ffebee;
+            border-left: 4px solid #f44336;
+            color: #c62828;
+        }
+        
+        .status-box.warning {
+            background: #fff3e0;
+            border-left: 4px solid #ff9800;
+            color: #e65100;
+        }
+        
+        .buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        button {
+            padding: 10px 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            font-size: 0.95em;
+        }
+        
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+        
+        button:active {
+            transform: translateY(0);
+        }
+        
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #5568d3;
+        }
+        
+        .btn-success {
+            background: #4caf50;
+            color: white;
+            font-size: 0.9em;
+            padding: 8px 12px;
+        }
+        
+        .btn-success:hover {
+            background: #45a049;
+        }
+        
+        .btn-warning {
+            background: #ff9800;
+            color: white;
+            font-size: 0.9em;
+            padding: 8px 12px;
+        }
+        
+        .btn-warning:hover {
+            background: #e68900;
+        }
+        
+        .console {
+            background: #1e1e1e;
+            color: #00ff00;
+            padding: 15px;
+            border-radius: 6px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            max-height: 300px;
+            overflow-y: auto;
+            margin-top: 15px;
+            border: 1px solid #333;
+        }
+        
+        .console-line {
+            margin-bottom: 5px;
+            line-height: 1.4;
+        }
+        
+        .console-line.error {
+            color: #ff4444;
+        }
+        
+        .console-line.warning {
+            color: #ffaa00;
+        }
+        
+        .console-line.success {
+            color: #00ff00;
+        }
+        
+        .console-line.info {
+            color: #00aaff;
+        }
+        
+        .video-preview {
+            background: #000;
+            border: 2px solid #667eea;
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+        
+        .video-preview video {
+            width: 100%;
+            height: auto;
+            max-height: 400px;
+        }
+        
+        .video-info {
+            background: #f5f5f5;
+            padding: 10px;
+            font-size: 0.9em;
+        }
+        
+        .grid-videos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 10px;
+        }
+        
+        .video-item {
+            text-align: center;
+            padding: 10px;
+            background: #f5f5f5;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+        
+        .video-item:hover {
+            background: #e3f2fd;
+            border-color: #667eea;
+        }
+        
+        .video-item.active {
+            background: #e8eaf6;
+            border-color: #667eea;
+        }
+        
+        .video-item-name {
+            font-weight: 600;
+            color: #667eea;
+            font-size: 0.85em;
+            margin-bottom: 5px;
+            word-break: break-word;
+        }
+        
+        .video-item-action {
+            font-size: 0.75em;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔧 Test Coach WebM</h1>
+            <p>Débogage et vérification du fonctionnement du coach mascotte</p>
+        </div>
+        
+        <div class="content">
+            <!-- Section Gauche: Contrôles -->
+            <div>
+                <div class="section">
+                    <h2>📊 État du Système</h2>
+                    
+                    <div class="status-box" id="status-baseurl">
+                        <strong>window.baseUrl</strong><br>
+                        <span id="baseurl-value">Chargement...</span>
+                    </div>
+                    
+                    <div class="status-box" id="status-coach">
+                        <strong>window.showCoach</strong><br>
+                        <span id="coach-value">Chargement...</span>
+                    </div>
+                    
+                    <div class="status-box" id="status-container">
+                        <strong>Coach Container</strong><br>
+                        <span id="container-value">Chargement...</span>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2>🎬 Scénarios Rapides</h2>
+                    <div class="buttons">
+                        <button class="btn-success" onclick="testScenario('bonjour')">👋 Bonjour</button>
+                        <button class="btn-success" onclick="testScenario('bravo')">🎉 Bravo</button>
+                        <button class="btn-success" onclick="testScenario('tresbien')">⭐ Très Bien</button>
+                        <button class="btn-success" onclick="testScenario('champion')">🏆 Champion</button>
+                        <button class="btn-warning" onclick="testScenario('encouragement')">💪 Encouragement</button>
+                    </div>
+                    <button class="btn-primary" style="width: 100%;" onclick="hideCoach()">Masquer Coach</button>
+                </div>
+                
+                <div class="section">
+                    <h2>⚙️ Actions</h2>
+                    <button class="btn-primary" style="width: 100%; margin-bottom: 10px;" onclick="loadCoachScript()">
+                        ↻ Recharger Script Coach
+                    </button>
+                    <button class="btn-primary" style="width: 100%; margin-bottom: 10px;" onclick="checkVideoAccess()">
+                        🎥 Vérifier Accès Vidéos
+                    </button>
+                    <button class="btn-primary" style="width: 100%;" onclick="clearConsole()">
+                        🗑️ Effacer Console
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Section Droite: Preview & Console -->
+            <div>
+                <div class="section">
+                    <h2>🎬 Prévisualisation</h2>
+                    <div id="coach-preview-container" style="background: #000; border-radius: 8px; min-height: 250px; display: flex; align-items: center; justify-content: center; color: #fff;">
+                        <p>Aucune vidéo en cours de lecture</p>
+                    </div>
+                </div>
+                
+                <div class="section">
+                    <h2>📝 Console Débogage</h2>
+                    <div class="console" id="debug-console">
+                        <div class="console-line info">🔍 Console de débogage initialisée...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Logger custom
+        const debugLog = {
+            lines: [],
+            maxLines: 100,
+            
+            log(message, type = 'info') {
+                const timestamp = new Date().toLocaleTimeString();
+                const line = `[${timestamp}] ${message}`;
+                this.lines.push({ message: line, type });
+                
+                if (this.lines.length > this.maxLines) {
+                    this.lines.shift();
+                }
+                
+                this.render();
+            },
+            
+            render() {
+                const console = document.getElementById('debug-console');
+                console.innerHTML = this.lines.map(line => 
+                    `<div class="console-line ${line.type}">${line.message}</div>`
+                ).join('');
+                console.scrollTop = console.scrollHeight;
+            }
+        };
+        
+        // Override console methods
+        const originalLog = console.log;
+        const originalError = console.error;
+        const originalWarn = console.warn;
+        
+        console.log = function(...args) {
+            originalLog.apply(console, args);
+            debugLog.log(args.join(' '), 'success');
+        };
+        
+        console.error = function(...args) {
+            originalError.apply(console, args);
+            debugLog.log('❌ ' + args.join(' '), 'error');
+        };
+        
+        console.warn = function(...args) {
+            originalWarn.apply(console, args);
+            debugLog.log('⚠️ ' + args.join(' '), 'warning');
+        };
+        
+        // Initialisation
+        window.addEventListener('load', function() {
+            debugLog.log('🚀 Page chargée', 'info');
+            
+            // Déterminer baseUrl
+            const scripts = document.getElementsByTagName('script');
+            let detectedBaseUrl = '';
+            
+            // Essayer plusieurs méthodes
+            if (window.baseUrl) {
+                detectedBaseUrl = window.baseUrl;
+            } else if (document.currentScript) {
+                const scriptSrc = document.currentScript.src;
+                detectedBaseUrl = scriptSrc.substring(0, scriptSrc.indexOf('/tools/'));
+            } else {
+                detectedBaseUrl = window.location.origin + '/moncoachscolaire';
+            }
+            
+            // Définir baseUrl s'il n'existe pas
+            if (!window.baseUrl) {
+                window.baseUrl = detectedBaseUrl;
+                debugLog.log(`✅ window.baseUrl défini: ${detectedBaseUrl}`, 'success');
+            } else {
+                debugLog.log(`✅ window.baseUrl détecté: ${window.baseUrl}`, 'success');
+            }
+            
+            updateStatus();
+            
+            // Charger le script coach
+            loadCoachScript();
+        });
+        
+        function updateStatus() {
+            // Status baseUrl
+            const baseUrlBox = document.getElementById('status-baseurl');
+            const baseUrlValue = document.getElementById('baseurl-value');
+            if (window.baseUrl) {
+                baseUrlBox.classList.add('success');
+                baseUrlValue.textContent = `✅ ${window.baseUrl}`;
+            } else {
+                baseUrlBox.classList.add('error');
+                baseUrlValue.textContent = '❌ Non défini';
+            }
+            
+            // Status Coach
+            const coachBox = document.getElementById('status-coach');
+            const coachValue = document.getElementById('coach-value');
+            if (typeof window.showCoach === 'function') {
+                coachBox.classList.add('success');
+                coachValue.textContent = '✅ Fonction disponible';
+            } else {
+                coachBox.classList.add('error');
+                coachValue.textContent = '❌ Non chargé';
+            }
+            
+            // Status Container
+            const container = document.getElementById('coach-container');
+            const containerBox = document.getElementById('status-container');
+            const containerValue = document.getElementById('container-value');
+            if (container) {
+                containerBox.classList.add('success');
+                containerValue.textContent = `✅ Créé (ID: ${container.id})`;
+            } else {
+                containerBox.classList.add('warning');
+                containerValue.textContent = '⏳ Sera créé au premier usage';
+            }
+        }
+        
+        function loadCoachScript() {
+            debugLog.log('📥 Chargement du script coach-webm.js...', 'info');
+            
+            const script = document.createElement('script');
+            const scriptUrl = (window.baseUrl || '/moncoachscolaire') + '/assets/js/coach-webm.js';
+            
+            script.src = scriptUrl;
+            script.onload = function() {
+                debugLog.log(`✅ Script chargé depuis: ${scriptUrl}`, 'success');
+                setTimeout(updateStatus, 500);
+            };
+            script.onerror = function() {
+                debugLog.log(`❌ Erreur lors du chargement: ${scriptUrl}`, 'error');
+                updateStatus();
+            };
+            
+            document.head.appendChild(script);
+        }
+        
+        function testScenario(action) {
+            if (typeof window.showCoach !== 'function') {
+                debugLog.log('❌ window.showCoach non disponible', 'error');
+                return;
+            }
+            
+            debugLog.log(`🎬 Test scénario: ${action}`, 'info');
+            window.showCoach(action, 6000);
+            
+            // Afficher la vidéo en preview
+            const container = document.getElementById('coach-container');
+            if (container && container.querySelector('video')) {
+                const video = container.querySelector('video');
+                const preview = document.getElementById('coach-preview-container');
+                
+                // Cloner la vidéo pour la preview
+                const clonedVideo = video.cloneNode(true);
+                preview.innerHTML = '';
+                preview.appendChild(clonedVideo);
+                clonedVideo.play();
+            }
+        }
+        
+        function hideCoach() {
+            if (typeof window.hideCoach === 'function') {
+                window.hideCoach();
+                debugLog.log('✅ Coach masqué', 'success');
+            } else {
+                const container = document.getElementById('coach-container');
+                if (container) {
+                    container.classList.remove('active');
+                    debugLog.log('✅ Container masqué (classe active supprimée)', 'success');
+                }
+            }
+        }
+        
+        function checkVideoAccess() {
+            debugLog.log('🎥 Vérification des vidéos...', 'info');
+            
+            const videos = [
+                'bonjour_bienvenue',
+                'bravo',
+                'championdumonde',
+                'posture_positive_accueillante',
+                'toituvasyarriver',
+                'tresbien'
+            ];
+            
+            const baseUrl = window.baseUrl || '/moncoachscolaire';
+            
+            videos.forEach(video => {
+                const webmPath = `${baseUrl}/assets/img/coach/humain/${video}.webm`;
+                const mp4Path = `${baseUrl}/assets/img/coach/humain/${video}.mp4`;
+                
+                // Vérifier WebM
+                fetch(webmPath, { method: 'HEAD' })
+                    .then(r => {
+                        if (r.ok) {
+                            debugLog.log(`✅ ${video}.webm accessible`, 'success');
+                        } else {
+                            debugLog.log(`❌ ${video}.webm pas trouvé (${r.status})`, 'error');
+                        }
+                    })
+                    .catch(e => {
+                        debugLog.log(`❌ ${video}.webm erreur: ${e.message}`, 'error');
+                    });
+                
+                // Vérifier MP4
+                fetch(mp4Path, { method: 'HEAD' })
+                    .then(r => {
+                        if (r.ok) {
+                            debugLog.log(`✅ ${video}.mp4 accessible`, 'success');
+                        } else {
+                            debugLog.log(`❌ ${video}.mp4 pas trouvé (${r.status})`, 'error');
+                        }
+                    })
+                    .catch(e => {
+                        debugLog.log(`❌ ${video}.mp4 erreur: ${e.message}`, 'error');
+                    });
+            });
+        }
+        
+        function clearConsole() {
+            debugLog.lines = [];
+            debugLog.render();
+            debugLog.log('🗑️ Console effacée', 'info');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques Terminale - Serie 1026",
+    "level": "Terminale",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Propriétés du logarithme",
+    "question_count": 8,
+    "level": "Terminale",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "B",
+        "correction": "Propriété fondamentale : ln(ab) = ln(a) + ln(b) pour a, b > 0."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "ln(a/b) = ln(a·b⁻¹) = ln(a) + ln(b⁻¹) = ln(a) − ln(b)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "3·ln(2)",
+        "correction": "ln(8) = ln(2³) = 3·ln(2). Propriété de la puissance : ln(aⁿ) = n·ln(a)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "A",
+        "correction": "ln(e⁵) − ln(e²) = 5 − 2 = 3. Ou : ln(e⁵/e²) = ln(e³) = 3."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Propriété de la puissance du logarithme : ln(aⁿ) = n · ln(a)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "x = 3",
+        "correction": "ln(x(x−2)) = ln(3) ⟺ x(x−2) = 3 ⟺ x²−2x−3 = 0 ⟺ (x−3)(x+1)=0. x=3 (x>2)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "B",
+        "correction": "ln(√e) = ln(e^(1/2)) = 1/2."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "FAUX. ln(ab) = ln(a)+ln(b), mais ln(a+b) ≠ ln(a)+ln(b). Erreur fréquente !"
+      }
+    ]
+  }
+}

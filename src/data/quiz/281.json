@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 1ere - Série 281",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie 1ere : Quiz Diagnostic 1ere Physique-Chimie - Serie 9",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Physique-Chimie - Serie 9",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que la radioactivité ?",
+        "choices": [
+          "La propriété de certains atomes d'émettre de la lumière",
+          "La désintégration spontanée de noyaux atomiques instables avec émission de rayonnements",
+          "La fusion de noyaux atomiques stables",
+          "L'ionisation des atomes par des rayons X"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La demi-vie (ou période radioactive) est le temps au bout duquel la moitié des noyaux radioactifs d'un échantillon se sont désintégrés."
+      },
+      {
+        "type": "open",
+        "question": "Établissez la loi de conservation des nombres de masse et de charge lors d'une désintégration radioactive alpha."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel type de rayonnement radioactif est le plus pénétrant ?",
+        "choices": [
+          "Le rayonnement alpha (α)",
+          "Le rayonnement bêta (β)",
+          "Le rayonnement gamma (γ)",
+          "Les neutrons thermiques"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La fission nucléaire est la réaction dans laquelle un noyau lourd se casse en noyaux plus légers avec libération d'énergie."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que la fusion nucléaire et pourquoi représente-t-elle un défi technologique majeur ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Un isotope radioactif a une demi-vie de 10 jours. Après 30 jours, quelle fraction d'une quantité initiale N₀ reste-t-il ?",
+        "choices": [
+          "N₀/2",
+          "N₀/4",
+          "N₀/8",
+          "N₀/6"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La relation d'Einstein E = mc² permet de comprendre l'origine de l'énergie libérée lors des réactions nucléaires."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

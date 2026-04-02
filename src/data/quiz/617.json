@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 617",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 1ère : La spéciation et la diversité du vivant",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "La spéciation et la diversité du vivant",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "La spéciation est :",
+        "choices": [
+          "L'extinction d'une espèce",
+          "Le processus par lequel une nouvelle espèce se forme à partir d'une population ancestrale",
+          "La migration d'une espèce vers un nouvel habitat",
+          "La mutation d'un seul individu"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'isolement géographique (spéciation allopatrique) est le mécanisme de spéciation le plus commun."
+      },
+      {
+        "type": "open",
+        "question": "Deux populations appartiennent à des espèces différentes si elles ne peuvent plus produire de _____ fertiles entre elles."
+      },
+      {
+        "type": "qcm",
+        "question": "La radiation adaptative est un phénomène dans lequel :",
+        "choices": [
+          "Une espèce disparaît rapidement",
+          "Une espèce ancestrale donne naissance à de nombreuses espèces adaptées à différentes niches écologiques",
+          "Deux espèces fusionnent en une seule",
+          "Une population migre vers un seul habitat"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La biodiversité comprend la diversité des espèces, la diversité génétique au sein des espèces et la diversité des écosystèmes."
+      },
+      {
+        "type": "open",
+        "question": "La classification phylogénétique regroupe les espèces selon leurs relations de _____ (liens évolutifs)."
+      },
+      {
+        "type": "qcm",
+        "question": "Les taux d'extinction actuels sont estimés :",
+        "choices": [
+          "Inférieurs aux taux naturels (fond d'extinction)",
+          "Equivalents aux taux naturels",
+          "100 à 1000 fois supérieurs aux taux naturels à cause des activités humaines",
+          "Nuls depuis 1950"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La polyploïdie (duplication du génome entier) est un mécanisme de spéciation rapide chez les plantes."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

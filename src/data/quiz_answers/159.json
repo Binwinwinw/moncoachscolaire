@@ -1,0 +1,63 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 35",
+    "level": "1ere",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 35",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correction": "La bonne réponse est B : 'an'. On utilise 'an' devant les mots qui commencent par un SON vocalique (a, e, i, o, u). 'Engineer' commence par le son /ɛ/ (un son voyelle), donc on utilise 'an'. La règle se base sur la PRONONCIATION, pas sur l'orthographe. Ex : 'an hour' (h muet, son voyelle) mais 'a university' (son /j/ = consonne)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "correction": "FAUX. En général, on N'utilise PAS 'the' devant les noms de pays : France, Germany, Spain, Japan. Exceptions : pays dont le nom inclut un nom commun (the United Kingdom, the United States, the Netherlands, the Philippines, the Czech Republic). On utilise aussi 'the' avec les noms de régions géographiques : the Middle East, the North Pole."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "correction": "C'est la règle fondamentale des articles : à la PREMIÈRE mention d'un élément, on utilise 'a/an' car il est nouveau pour l'auditeur/lecteur. À la DEUXIÈME mention (et suivantes), on utilise 'the' car l'élément est maintenant identifié et connu. 'A dog' (je mentionne un chien pour la première fois) → 'The dog' (on parle maintenant de CE chien spécifique)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "correction": "La bonne réponse est D : 'I love listening to music.' 'Music' est un nom indénombrable au sens général → pas d'article. Erreurs dans les autres options : 'the tennis' → les sports ne prennent pas d'article (A) / 'a breakfast' → les repas ne prennent pas d'article : 'have breakfast' (B) / 'The life' → les concepts généraux ne prennent pas d'article (C)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "correction": "VRAI. Contrairement aux sports, les instruments de musique prennent 'the' : play the piano, play the guitar, play the violin. C'est une règle spécifique à mémoriser. Mais attention : 'She loves music' (pas d'article) vs 'She plays the piano' (article 'the'). Cette distinction est souvent source de confusion."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "correction": "La réponse est : 'The Amazon is the longest river in South America.' Explications : 'The Amazon' → les fleuves et rivières prennent 'the'. 'The longest' → superlatif → toujours précédé de 'the'. 'South America' → les continents ne prennent pas d'article (∅ South America, ∅ Europe, ∅ Asia)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "correction": "La bonne réponse est A : 'a doctor / a hospital'. 'A doctor' car c'est une profession mentionnée de façon générale (pas un médecin spécifique). 'A hospital' car c'est la première mention (on ne sait pas encore quel hôpital). Note : 'an hospital' (D) est incorrect — 'hospital' commence par le son /h/ (consonne), donc on utilise 'a'."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "correction": "VRAI. On n'utilise pas d'article devant les matières scolaires ou académiques (history, maths, physics, English, science) ni devant 'university/school/college' quand on parle de l'institution dans sa fonction générale. Ex : 'go to school' (être élève), 'go to university' (être étudiant). Si on précise lequel, 'the' revient : 'the university near my house'."
+      }
+    ],
+    "level": "1ere",
+    "subject": "Anglais"
+  }
+}

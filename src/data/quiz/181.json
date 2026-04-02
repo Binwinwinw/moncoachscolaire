@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Geographie 1ere - Série 181",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "description": "Diagnostic Histoire-Geographie 1ere : Quiz Diagnostic 1ere Histoire-Géographie - Serie 7",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Histoire-Géographie - Serie 7",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel traité crée la Communauté Économique Européenne (CEE) en 1957 ?",
+        "choices": [
+          "Le traité de Paris (1951)",
+          "Le traité de Rome (1957)",
+          "Le traité de Maastricht (1992)",
+          "Le traité de Lisbonne (2007)"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La réconciliation franco-allemande est au cœur de la construction européenne, symbolisée notamment par le traité de l'Élysée de 1963."
+      },
+      {
+        "type": "open",
+        "question": "Quels sont les principaux apports du traité de Maastricht (1992) pour la construction européenne ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Combien de pays membres compte l'Union européenne en 2024 ?",
+        "choices": [
+          "25",
+          "27",
+          "28",
+          "30"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'espace Schengen permet la libre circulation des personnes entre les pays membres, sans contrôles aux frontières intérieures."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que le Brexit et quelles en sont les principales conséquences ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle institution européenne est la seule élue directement par les citoyens de l'UE ?",
+        "choices": [
+          "La Commission européenne",
+          "Le Conseil de l'UE",
+          "Le Parlement européen",
+          "La Cour de justice de l'UE"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La politique agricole commune (PAC) est l'une des politiques les plus anciennes et les plus importantes de l'UE en termes de budget."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

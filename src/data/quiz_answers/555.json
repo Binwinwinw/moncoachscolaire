@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 555",
+    "level": "3ème",
+    "subject": "Histoire-Géographie"
+  },
+  "quiz": {
+    "title": "La Première Guerre mondiale : causes et déclenchement",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "L'assassinat de l'archiduc François-Ferdinand à Sarajevo",
+        "correct": 1,
+        "correction": "Le 28 juin 1914, l'archiduc héritier d'Autriche-Hongrie est assassiné à Sarajevo par Gavrilo Princip, déclenchant une crise diplomatique qui mène à la guerre."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La Triple Entente regroupe la France, le Royaume-Uni et la Russie, face à la Triple Alliance (Allemagne, Autriche-Hongrie, Italie)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "armements",
+        "correction": "La course aux armements entre les grandes puissances (notamment entre l'Allemagne et le Royaume-Uni pour la marine) est l'une des causes profondes de la guerre."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Transformer un conflit local en guerre européenne généralisée",
+        "correct": 1,
+        "correction": "Le jeu des alliances a enclenché un effet domino : un conflit austro-serbe s'est étendu à toute l'Europe en quelques semaines."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "L'Italie reste neutre en 1914, puis entre en guerre du côté de l'Entente en 1915, attirée par des promesses territoriales."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "nationalisme",
+        "correction": "Le nationalisme est une cause de fond de la PGM : la France veut récupérer l'Alsace-Lorraine perdue en 1871 ; les peuples balkaniques veulent leur indépendance."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Le rassemblement de tous les partis politiques derrière le gouvernement pour mener la guerre",
+        "correct": 1,
+        "correction": "Le président Poincaré appelle à l'Union sacrée le 4 août 1914 : socialistes et nationalistes s'unissent pour défendre la patrie."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Après l'ultimatum rejeté, l'Autriche-Hongrie déclare la guerre à la Serbie le 28 juillet 1914, déclenchant la chaîne des alliances."
+      }
+    ]
+  }
+}

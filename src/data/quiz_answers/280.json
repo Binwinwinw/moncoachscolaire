@@ -1,0 +1,76 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 1ere - Série 280",
+    "level": "1ere",
+    "subject": "Physique-Chimie"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Physique-Chimie - Serie 8",
+    "question_count": 8,
+    "level": "1ere",
+    "subject": "Physique-Chimie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "U = I × R (loi d'Ohm)",
+        "correct": 1,
+        "correction": "La loi d'Ohm établit que pour un conducteur ohmique (résistance), la tension U aux bornes est proportionnelle à l'intensité I qui le traverse : U = R × I, où R est la résistance en ohms (Ω). Cette relation est valable pour de nombreux composants électriques (fils, résistances). Les unités : U en volts (V), I en ampères (A), R en ohms (Ω). 1 Ω = 1 V/A."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Dans un circuit en série (composants montés les uns après les autres dans une seule boucle), l'intensité I est la même partout (conservation de la charge). Les tensions s'additionnent : U_total = U₁ + U₂ + ... Les résistances s'additionnent : R_eq = R₁ + R₂ + ... En parallèle, c'est l'inverse : les tensions sont égales et les intensités s'additionnent."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "correct_answer": "En parallèle : 1/R_eq = 1/R₁ + 1/R₂ = 1/100 + 1/200 = 3/200, donc R_eq = 200/3 ≈ 66,7 Ω.",
+        "answer": "En parallèle : 1/R_eq = 1/R₁ + 1/R₂ = 1/100 + 1/200 = 3/200, donc R_eq = 200/3 ≈ 66,7 Ω.",
+        "correction": "Pour des résistances en parallèle : 1/R_eq = 1/R₁ + 1/R₂ + ... Calcul : 1/R_eq = 1/100 + 1/200 = 2/200 + 1/200 = 3/200. Donc R_eq = 200/3 ≈ 66,7 Ω. La résistance équivalente en parallèle est toujours inférieure à la plus petite résistance. Vérification : R_eq < R₁ = 100 Ω ✓. En parallèle, chaque résistance reçoit la même tension, mais l'intensité totale se divise entre les branches."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "200 W",
+        "correct": 2,
+        "correction": "La puissance électrique dissipée par effet Joule : P = R × I² = 50 × (2)² = 50 × 4 = 200 W. Formules équivalentes (en utilisant la loi d'Ohm U = RI) : P = U × I = U²/R = R × I². L'effet Joule (dissipation thermique) est la conversion d'énergie électrique en chaleur dans un conducteur résistif."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Un condensateur (ou capacitor) est composé de deux armatures conductrices séparées par un isolant (diélectrique). Lorsqu'il est chargé, il stocke de l'énergie sous forme de champ électrique : E = ½CV², où C est la capacité (en farads, F) et V la tension. Les condensateurs sont utilisés pour stocker de l'énergie, lisser les tensions, filtrer les signaux et dans les circuits oscillants."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "correct_answer": "Le courant alternatif change périodiquement de sens et d'intensité (sinusoïdal) ; le courant continu a une intensité constante dans une seule direction.",
+        "answer": "Le courant alternatif change périodiquement de sens et d'intensité (sinusoïdal) ; le courant continu a une intensité constante dans une seule direction.",
+        "correction": "Le courant continu (CC ou DC) a une intensité constante qui circule toujours dans le même sens (piles, batteries). Le courant alternatif (CA ou AC) change périodiquement de sens selon une fonction sinusoïdale : i(t) = I_max × sin(2πft), où f est la fréquence (50 Hz en Europe, 60 Hz aux USA) et I_max l'amplitude. En France, le secteur est en 230 V (tension efficace) à 50 Hz. La valeur efficace est U_eff = U_max/√2."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "La loi des nœuds (Kirchhoff)",
+        "correct": 2,
+        "correction": "La loi des nœuds (1ère loi de Kirchhoff) : la somme algébrique des intensités en un nœud est nulle : ΣI_entrant = ΣI_sortant. Elle traduit la conservation de la charge électrique. La loi des mailles (2ème loi de Kirchhoff) : la somme algébrique des tensions dans une maille fermée est nulle : ΣU = 0. Ces deux lois permettent de résoudre tout circuit électrique."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La diode est un composant électronique à semi-conducteur (jonction P-N) qui ne conduit le courant que dans un seul sens (sens direct). En sens inverse, elle bloque le courant (sauf à partir de la tension de claquage). La DEL (diode électroluminescente, LED) est une diode qui émet de la lumière lorsqu'elle est traversée par un courant. Les diodes sont utilisées dans la rectification du courant (conversion CA → CC), les détecteurs, les circuits logiques."
+      }
+    ]
+  }
+}

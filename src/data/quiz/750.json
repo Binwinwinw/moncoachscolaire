@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 3eme - Série 750",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 3eme : Etat de droit et principes juridiques fondamentaux",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Etat de droit et principes juridiques fondamentaux",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "EMC",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'un Etat de droit ?",
+        "choices": [
+          "Un Etat tres puissant militairement",
+          "Un Etat dans lequel toutes les personnes et institutions sont soumises a la loi",
+          "Un Etat sans constitution ecrite",
+          "Un Etat gouverne par des juristes"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Dans un Etat de droit, le gouvernement peut agir en dehors du cadre juridique en situation d'urgence."
+      },
+      {
+        "type": "open",
+        "question": "Quel principe juridique signifie que la loi ne peut pas s'appliquer a des actes anterieurs a son entree en vigueur ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la hierarchie des normes juridiques en France (du plus haut au plus bas) ?",
+        "choices": [
+          "Constitution > Lois ordinaires > Decrets > Arretes",
+          "Lois ordinaires > Constitution > Traites > Decrets",
+          "Decrets > Lois > Constitution > Traites",
+          "Arretes > Decrets > Constitution > Lois"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le Conseil constitutionnel peut censurer une loi contraire a la Constitution."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on le principe selon lequel toute personne faisant l'objet d'une procedure doit pouvoir se defendre ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel principe separe les fonctions de faire la loi, de l'executer et de la faire respecter ?",
+        "choices": [
+          "Principe de subsidiarite",
+          "Separation des pouvoirs",
+          "Principe de proportionnalite",
+          "Federalisme"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "En France, la justice est rendue au nom du peuple francais."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

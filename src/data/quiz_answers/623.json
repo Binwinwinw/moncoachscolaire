@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 623",
+    "level": "1ère",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "L'immunité adaptative : lymphocytes et anticorps",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Sa spécificité envers un antigène précis et sa capacité de mémorisation",
+        "correct": 1,
+        "correction": "Immunité adaptative : réponse spécifique (anticorps, lymphocytes T), plus lente (5-10 jours) mais mémorisée pour une réponse plus rapide lors d'une 2e exposition."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Chaque lymphocyte B porte un récepteur unique (BCR) ; activé par son antigène, il se différencie en plasmocyte producteur d'anticorps."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "légères",
+        "correction": "Les anticorps (IgG, IgM, IgA, IgE, IgD) ont une région variable (liaison à l'antigène) et une région constante (effector function)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Les cellules présentant des antigènes intracellulaires (cellules infectées, cellules tumorales)",
+        "correct": 1,
+        "correction": "Les LTc reconnaissent les cellules qui présentent des peptides pathogènes sur le CMH de classe I et les détruisent par apoptose."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les LTh (CD4+) orchestrent la réponse adaptative : ils sécrètent des cytokines qui activent les LB (production d'anticorps) et les LTc."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "antigènes",
+        "correction": "CMH classe I (toutes les cellules nucléées) présente aux LTc ; CMH classe II (cellules présentatrices d'antigènes) présente aux LTh."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Seuls les lymphocytes dont le récepteur reconnait l'antigène prolifèrent",
+        "correct": 1,
+        "correction": "Sélection clonale (Burnet) : l'antigène sélectionne le lymphocyte compétent -> expansion clonale -> réponse immune spécifique."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Ex. : diabète type 1 (destruction des cellules bêta du pancréas), SEP, polyarthrite rhumatoïde, lupus -> le 'soi' n'est plus reconnu comme tel."
+      }
+    ]
+  }
+}

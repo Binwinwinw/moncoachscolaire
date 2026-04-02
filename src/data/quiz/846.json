@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES 1ère - Série 846",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SES",
+    "description": "Diagnostic SES 1ère : Les firmes multinationales",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Les firmes multinationales",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SES",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Une firme multinationale (FMN) est une entreprise qui :",
+        "choices": [
+          "Exporte seulement ses produits",
+          "Possède des filiales dans plusieurs pays",
+          "Importe uniquement des matières premières",
+          "Est contrôlée par un gouvernement étranger"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les FMN représentent une part minoritaire des échanges commerciaux mondiaux."
+      },
+      {
+        "type": "open",
+        "question": "Quelles sont les principales motivations des délocalisations d'une FMN ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Le prix de transfert est :",
+        "choices": [
+          "Le prix facturé entre filiales d'une même FMN pour minimiser l'impôt",
+          "Le taux de change appliqué aux transactions internationales",
+          "Le salaire des travailleurs expatriés",
+          "Le coût du transport international"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les FMN peuvent exercer une pression à la baisse sur les normes sociales et environnementales ('dumping social')."
+      },
+      {
+        "type": "open",
+        "question": "Quels sont les effets des IDE sur les pays d'accueil ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Les chaînes de valeur mondiales (CVM) désignent :",
+        "choices": [
+          "Les flux financiers entre banques",
+          "La fragmentation internationale de la production entre différents pays",
+          "Les accords commerciaux bilatéraux",
+          "Les réseaux de distribution locaux"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La mondialisation a conduit à une convergence des niveaux de vie entre tous les pays."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

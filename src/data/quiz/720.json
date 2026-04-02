@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 720",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie 3ème : Chimie : bilan des transformations",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Chimie : bilan des transformations",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la différence entre une transformation chimique et une transformation physique ?",
+        "choices": [
+          "Aucune différence",
+          "La transformation chimique produit de nouvelles substances ; la transformation physique ne modifie pas la nature des substances",
+          "La transformation physique est irréversible",
+          "La transformation chimique ne modifie pas la masse"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La dissolution du sucre dans l'eau est une transformation chimique."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la variation d'énergie échangée sous forme de chaleur lors d'une réaction chimique ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Laquelle de ces transformations est irréversible dans des conditions normales ?",
+        "choices": [
+          "Fusion de la glace",
+          "Combustion du bois",
+          "Dissolution du sel",
+          "Vaporisation de l'eau"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La coagulation du blanc d'œuf lors de la cuisson est une transformation chimique irréversible."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on l'énergie minimale nécessaire pour démarrer une réaction chimique ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Pourquoi la nourriture se conserve-t-elle mieux au réfrigérateur ?",
+        "choices": [
+          "Car le froid tue les bactéries",
+          "Car les réactions chimiques et microbiologiques de dégradation sont ralenties par le froid",
+          "Car l'humidité augmente au froid",
+          "Car la lumière est absente"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un catalyseur abaisse l'énergie d'activation d'une réaction sans modifier l'énergie du bilan global."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

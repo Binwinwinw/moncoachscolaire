@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Philosophie 1ere - Série 231",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Philosophie",
+    "description": "Diagnostic Philosophie 1ere : Quiz Diagnostic 1ere Philosophie - Serie 8",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Philosophie - Serie 8",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Philosophie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que l'impératif catégorique chez Kant ?",
+        "choices": [
+          "Une règle morale qui dépend des circonstances",
+          "Un commandement inconditionnel de la raison : 'Agis seulement selon la maxime que tu peux vouloir ériger en loi universelle'",
+          "L'obligation légale de respecter les lois de l'État",
+          "L'intérêt bien compris de chaque individu"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilitarisme (Bentham, Mill) juge la valeur morale d'une action par ses conséquences et l'utilité qu'elle produit."
+      },
+      {
+        "type": "open",
+        "question": "Quelle est la différence entre morale et éthique ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la position morale d'Aristote concernant la vertu ?",
+        "choices": [
+          "La vertu est une règle divine imposée de l'extérieur",
+          "La vertu est une disposition acquise par l'habitude, un juste milieu entre excès et défaut",
+          "La vertu n'existe pas, seul l'intérêt personnel compte",
+          "La vertu est l'obéissance aux lois de la cité"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le relativisme moral affirme qu'il n'existe pas de valeurs morales universelles valables pour tous les êtres humains."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que le dilemme du tramway (trolley problem) et qu'illustre-t-il en éthique ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que la 'golden rule' (règle d'or) présente dans de nombreuses traditions morales et religieuses ?",
+        "choices": [
+          "Le principe de maximiser son propre bonheur",
+          "'Ne fais pas à autrui ce que tu ne voudrais pas qu'il te fasse'",
+          "L'obligation d'obéir aux lois de l'État",
+          "Le devoir de chercher la vérité"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'éthique du care (Gilligan, Noddings) met l'accent sur les relations, la sollicitude et la responsabilité envers les personnes vulnérables."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 641",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 1ère : La reproduction humaine et contraception",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "La reproduction humaine et contraception",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "La gamétogenèse masculine (spermatogenèse) produit :",
+        "choices": [
+          "Des ovocytes",
+          "Des spermatozoïdes à partir de spermatogonies dans les tubes séminifères des testicules",
+          "Des hormones estrogènes",
+          "Des ovules dans les ovaires"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'ovulation se produit environ au 14e jour d'un cycle de 28 jours sous l'effet d'un pic de LH."
+      },
+      {
+        "type": "open",
+        "question": "La fécondation a lieu dans la _____ de Fallope, généralement dans le tiers externe (pavillon)."
+      },
+      {
+        "type": "qcm",
+        "question": "La progestérone est une hormone :",
+        "choices": [
+          "Produite uniquement pendant la puberté",
+          "Produite par le corps jaune après ovulation ; elle prépare l'endomètre à l'implantation et maintient la grossesse",
+          "Produite par la glande thyroïde",
+          "Qui déclenche la spermatogenèse chez l'homme"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La pilule contraceptive combinée (estro-progestative) empêche l'ovulation en bloquant le pic de LH et FSH."
+      },
+      {
+        "type": "open",
+        "question": "L'hormone gonadotrophine chorionique (hCG), détectée dans les tests de grossesse, est produite par le _____ dès la nidation."
+      },
+      {
+        "type": "qcm",
+        "question": "L'IVG (interruption volontaire de grossesse) médicamenteuse utilise :",
+        "choices": [
+          "Des antibiotiques",
+          "La mifépristone (RU 486) qui bloque les récepteurs à la progestérone, suivie de prostaglandines",
+          "Des hormones de croissance",
+          "Des contraceptifs oraux classiques à double dose"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les IST (infections sexuellement transmissibles) comme le VIH, la syphilis ou la chlamydia peuvent être prévenues par l'utilisation correcte du préservatif."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

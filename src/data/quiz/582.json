@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 582",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 3ème : Révisions Géographie 3ème – Première partie",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "Révisions Géographie 3ème – Première partie",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que la métropolisation ?",
+        "choices": [
+          "La diminution de la taille des villes",
+          "La concentration des hommes, activités et pouvoirs dans les grandes métropoles",
+          "La désertion des campagnes",
+          "Le déplacement de populations vers les zones rurales"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La littoralisation et la métropolisation sont deux dynamiques qui se cumulent souvent."
+      },
+      {
+        "type": "open",
+        "question": "L'espace mondial est organisé autour de trois grandes régions économiques dominantes : l'Amérique du Nord, l'Europe de l'Ouest et _____ orientale."
+      },
+      {
+        "type": "qcm",
+        "question": "Une ville mondiale (ville-monde ou global city) est caractérisée par :",
+        "choices": [
+          "Sa grande superficie",
+          "Son rôle de commandement dans l'économie mondiale (sièges de FMN, bourse, aéroports hub)",
+          "Sa haute tour",
+          "Sa population supérieure à 10 millions"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La mondialisation crée des 'espaces en marge' qui ne bénéficient pas des flux économiques mondiaux."
+      },
+      {
+        "type": "open",
+        "question": "Les flux de marchandises, de capitaux, d'informations et de personnes qui traversent le monde sont appelés des _____ mondiaux."
+      },
+      {
+        "type": "qcm",
+        "question": "Le développement humain se mesure notamment avec l'IDH. Quel pays a le plus fort IDH en 2023 ?",
+        "choices": [
+          "Les États-Unis",
+          "La France",
+          "La Suisse ou la Norvège",
+          "La Chine"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les Objectifs de Développement Durable (ODD) de l'ONU concernent uniquement les pays pauvres."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

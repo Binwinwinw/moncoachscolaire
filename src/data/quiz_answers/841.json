@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES 1ère - Série 841",
+    "level": "1ère",
+    "subject": "SES"
+  },
+  "quiz": {
+    "title": "La protection sociale",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "SES",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Le financement des retraites actuelles par les cotisations des actifs actuels",
+        "correct": 1,
+        "correction": "La répartition est fondée sur la solidarité entre générations : les actifs financent les retraites des inactifs."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "L'assurance maladie rembourse généralement 70 % des soins courants. Le reste (ticket modérateur) peut être couvert par la mutuelle. Les ALD (affections longues durées) sont remboursées à 100 %."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "Le vieillissement de la population (allongement de la vie) et la baisse du taux de natalité réduisent le ratio actifs/retraités. Avec moins d'actifs pour financer plus de retraités, le système est sous pression financière.",
+        "correction": "Les réformes successives (allongement durée de cotisation, recul de l'âge légal) visent à adapter le système."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Un prélèvement sur tous les revenus finançant la protection sociale",
+        "correct": 2,
+        "correction": "Créée en 1991, la CSG est prélevée sur tous les revenus (salaires, retraites, revenus du patrimoine) et finance la Sécurité sociale."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Les allocations familiales sont versées sans condition de ressources à tous les ménages ayant au moins 2 enfants à charge. Depuis 2015, leur montant est modulé selon les revenus."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "Bismarckien (Allemagne, France) : protection sociale fondée sur l'emploi et les cotisations professionnelles. Beveridgien (Royaume-Uni) : couverture universelle pour tous les citoyens, financée par l'impôt, visant un minimum vital.",
+        "correction": "La plupart des pays combinent les deux modèles. La France est plutôt bismarckienne, mais avec des éléments universels."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "L'autonomie (dépendance des personnes âgées et handicapées)",
+        "correct": 1,
+        "correction": "La branche autonomie répond au défi du vieillissement de la population et du financement de la perte d'autonomie."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Avec environ 32-33 % du PIB en dépenses sociales, la France est un des pays qui dépense le plus pour la protection sociale en Europe."
+      }
+    ]
+  }
+}

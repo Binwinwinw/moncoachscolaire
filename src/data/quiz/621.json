@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 621",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 1ère : La transmission synaptique",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "La transmission synaptique",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Une synapse est la jonction entre :",
+        "choices": [
+          "Deux cellules musculaires",
+          "Deux neurones ou un neurone et une cellule effectrice (muscle, glande)",
+          "Deux cellules épithéliales",
+          "Le sang et un neurone"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La transmission synaptique est chimique : des neurotransmetteurs sont libérés dans la fente synaptique."
+      },
+      {
+        "type": "open",
+        "question": "L'acétylcholine est un neurotransmetteur excitateur important à la jonction neuromusculaire ; la synapse entre un motoneurone et un muscle s'appelle la plaque _____."
+      },
+      {
+        "type": "qcm",
+        "question": "La dopamine est un neurotransmetteur impliqué dans :",
+        "choices": [
+          "La contraction musculaire uniquement",
+          "Le circuit de récompense, la motivation et les mouvements volontaires",
+          "La régulation de la glycémie",
+          "La digestion"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les drogues et les médicaments psychoactifs agissent souvent en mimant ou bloquant des neurotransmetteurs."
+      },
+      {
+        "type": "open",
+        "question": "Le GABA (acide gamma-aminobutyrique) est le principal neurotransmetteur _____ du SNC, qui réduit l'activité neuronale."
+      },
+      {
+        "type": "qcm",
+        "question": "Après libération dans la fente synaptique, les neurotransmetteurs sont :",
+        "choices": [
+          "Conservés indéfiniment dans la fente",
+          "Dégradés par des enzymes ou recaptés par le neurone présynaptique",
+          "Transportés vers le noyau du neurone",
+          "Transformés en hormones"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La plasticité synaptique est la capacité des synapses à se renforcer ou s'affaiblir selon l'activité neuronale, base de la mémoire et de l'apprentissage."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

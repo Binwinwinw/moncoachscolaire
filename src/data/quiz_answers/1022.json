@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques Terminale - Serie 1022",
+    "level": "Terminale",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Équation de la tangente",
+    "question_count": 8,
+    "level": "Terminale",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "B",
+        "correction": "Tangente en x=a : y = f(a) + f'(a)(x−a). Pente = f'(a), passe par (a, f(a))."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le nombre dérivé f'(a) est précisément le coefficient directeur (pente) de la tangente en a."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "y = x − 2",
+        "correction": "f(2) = 4−6+2 = 0 ; f'(x) = 2x−3, f'(2) = 1. Tangente : y = 0 + 1·(x−2) = x−2."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "C",
+        "correction": "f'(x) = eˣ, f'(0) = e⁰ = 1. La pente est 1."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Au point d'inflexion, la courbe traverse sa tangente (la courbe change de côté par rapport à la tangente)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "y = x − 1",
+        "correction": "f(1) = ln(1) = 0 ; f'(x) = 1/x, f'(1) = 1. Tangente : y = 0 + 1·(x−1) = x−1."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "B",
+        "correction": "f(1)=1 ; f'(x)=3x², f'(1)=3. Tangente : y = 1 + 3(x−1) = 3x−2."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Pente nulle → droite horizontale y = f(a). La courbe est localement 'plate' en a."
+      }
+    ]
+  }
+}

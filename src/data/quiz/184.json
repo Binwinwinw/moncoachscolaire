@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Geographie 1ere - Série 184",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "description": "Diagnostic Histoire-Geographie 1ere : Quiz Diagnostic 1ere Histoire-Géographie - Serie 10",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Histoire-Géographie - Serie 10",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la principale distinction entre un migrant économique et un réfugié ?",
+        "choices": [
+          "Le migrant économique est plus pauvre que le réfugié",
+          "Le réfugié fuit une persécution ou une menace grave, tandis que le migrant économique cherche de meilleures conditions de vie",
+          "Le réfugié est toujours reconnu comme tel par les États",
+          "Il n'y a pas de distinction juridique entre les deux"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les migrations Sud-Sud (entre pays en développement) représentent une part importante des migrations mondiales."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que la diaspora et quel est son rôle économique pour les pays d'origine ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel organisme des Nations Unies est chargé de protéger les réfugiés dans le monde ?",
+        "choices": [
+          "L'UNICEF",
+          "L'OMS",
+          "Le HCR (Haut-Commissariat des Nations Unies pour les Réfugiés)",
+          "Le FMI"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La 'crise migratoire' de 2015 en Europe est liée principalement aux guerres en Syrie et en Afghanistan."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que la 'fuite des cerveaux' et quelles en sont les conséquences pour les pays en développement ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que le droit d'asile ?",
+        "choices": [
+          "Le droit pour tout étranger de s'installer dans le pays de son choix",
+          "La protection accordée par un État à une personne persécutée dans son pays d'origine",
+          "Le droit pour les migrants économiques de travailler librement dans l'UE",
+          "Un régime douanier spécial pour les travailleurs frontaliers"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les migrations climatiques sont appelées à augmenter significativement dans les prochaines décennies en raison du changement climatique."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,73 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES Terminale - Serie 1126",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "SES",
+    "description": "Diagnostic SES Terminale : Politiques de l'emploi",
+    "status": "published",
+    "created_at": "2026-03-14 03:10:56",
+    "updated_at": "2026-03-14 03:10:56"
+  },
+  "quiz": {
+    "title": "Politiques de l'emploi",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "SES",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Les politiques actives de l'emploi visent à :",
+        "choices": [
+          "Indemniser les chômeurs sans contrepartie",
+          "Améliorer l'employabilité et faciliter le retour à l'emploi (formation, aide à la recherche, subventions à l'embauche)",
+          "Réduire le temps de travail",
+          "Augmenter les cotisations chômage"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le SMIC (Salaire Minimum Interprofessionnel de Croissance) peut générer du chômage chez les travailleurs peu qualifiés selon les économistes néo-classiques."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que la flexicurité et quel pays est souvent cité en modèle ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Les contrats aidés (ex-emplois d'avenir) sont des :",
+        "choices": [
+          "Subventions à l'investissement",
+          "Contrats de travail subventionnés par l'État pour favoriser l'insertion des publics éloignés de l'emploi",
+          "Allocations chômage majorées",
+          "Exonérations fiscales pour les entreprises exportatrices"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La réduction du temps de travail (RTT, 35 heures) vise à partager l'emploi disponible entre davantage de travailleurs."
+      },
+      {
+        "type": "open",
+        "question": "Quels sont les effets attendus et non attendus des exonérations de charges sur les bas salaires en France ?"
+      },
+      {
+        "type": "qcm",
+        "question": "La formation professionnelle continue vise principalement à :",
+        "choices": [
+          "Former les jeunes avant leur entrée sur le marché du travail",
+          "Adapter les compétences des salariés aux évolutions technologiques et sectorielles tout au long de leur carrière",
+          "Réduire les cotisations patronales",
+          "Augmenter le temps de travail"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le revenu universel (ou revenu de base) est une prestation sociale versée à tous sans condition de ressources ni de contrepartie."
+      }
+    ]
+  }
+}

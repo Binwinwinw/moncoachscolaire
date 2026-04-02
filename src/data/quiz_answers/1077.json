@@ -1,0 +1,48 @@
+{
+  "quiz_id": 1077,
+  "title": "Cercle trigonométrique et mesures d'angles",
+  "subject": "Mathématiques",
+  "level": "1ère",
+  "answers": [
+    {
+      "question_id": "1077_1",
+      "correct_option": "C",
+      "explanation": "Le cercle trigonométrique a un rayon égal à 1 (cercle unité)."
+    },
+    {
+      "question_id": "1077_2",
+      "correct": true,
+      "explanation": "π rad = 180°. La conversion est : angle_rad = angle_deg × π/180."
+    },
+    {
+      "question_id": "1077_3",
+      "correct_answer": "270° = 3π/2 rad. Sur le cercle, c'est le point (0, −1) (bas du cercle).",
+      "explanation": "270° × π/180 = 3π/2. Ce point correspond au bas du cercle unité."
+    },
+    {
+      "question_id": "1077_4",
+      "correct_option": "A",
+      "explanation": "7π/3 − 2π = 7π/3 − 6π/3 = π/3. La mesure principale est π/3."
+    },
+    {
+      "question_id": "1077_5",
+      "correct": true,
+      "explanation": "α et α + 2kπ (k entier) représentent le même point sur le cercle trigonométrique."
+    },
+    {
+      "question_id": "1077_6",
+      "correct_answer": "π/6 = 30°. M = (cos 30°, sin 30°) = (√3/2, 1/2).",
+      "explanation": "π/6 rad = 30°. Sur le cercle unité : abscisse = cos(30°) = √3/2, ordonnée = sin(30°) = 1/2."
+    },
+    {
+      "question_id": "1077_7",
+      "correct_option": "B",
+      "explanation": "45° × π/180 = π/4."
+    },
+    {
+      "question_id": "1077_8",
+      "correct": true,
+      "explanation": "Par convention, le sens trigonométrique positif est le sens antihoraire."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 3ème Français",
+    "level": "3eme",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 3ème Français",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "**qu'il partait** (présent→imparfait). [web:148]"
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "correct": true,
+        "correction": "**Vrai**. Elles sont parties (genre/nombre). [web:146]"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "correct": null,
+        "correction": "**cueillies** (COD avant avec avoir)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "**un seul parle** (soliloque). [web:144]"
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "correct": true,
+        "correction": "**Vrai**. Impératif→subjonctif/infinitif."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "correct": null,
+        "correction": "**lendemain** (indic temp discours indirect). [web:148]"
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "**invariable** (J'ai mangé les gâteaux)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "correct": null,
+        "correction": "**baignées** (COD refléchi avant). [web:146]"
+      }
+    ],
+    "level": "3eme",
+    "subject": "Français"
+  }
+}

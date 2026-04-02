@@ -1,0 +1,97 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 25",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ere : Les propositions relatives",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-08 00:05:00"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 25",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "id": 1,
+        "type": "qcm",
+        "question": "Choose the correct relative pronoun: 'The woman ___ called you yesterday is my aunt.'",
+        "choices": [
+          "which",
+          "who",
+          "whose",
+          "whom"
+        ]
+      },
+      {
+        "id": 2,
+        "type": "vrai-faux",
+        "question": "In a non-defining relative clause, the relative pronoun 'that' can replace 'which' or 'who'."
+      },
+      {
+        "id": 3,
+        "type": "texte",
+        "question": "Identifie et corrige l'erreur dans la phrase suivante : 'The Eiffel Tower, that was built in 1889, is located in Paris.'",
+        "placeholder": "Écris ta réponse ici..."
+      },
+      {
+        "id": 4,
+        "type": "qcm",
+        "question": "Which sentence contains a NON-DEFINING relative clause?",
+        "choices": [
+          "The student who studies hardest will pass.",
+          "Paris, which is the capital of France, is a beautiful city.",
+          "The book that I borrowed was very interesting.",
+          "Do you know the man who lives next door?"
+        ]
+      },
+      {
+        "id": 5,
+        "type": "vrai-faux",
+        "question": "In a defining relative clause, the relative pronoun can sometimes be omitted when it is the object of the clause."
+      },
+      {
+        "id": 6,
+        "type": "texte",
+        "question": "Combine les deux phrases en une seule à l'aide d'une proposition relative : 'I have a friend. Her mother is a famous actress.'",
+        "placeholder": "Écris ta réponse ici..."
+      },
+      {
+        "id": 7,
+        "type": "qcm",
+        "question": "Choose the correct sentence using 'where' as a relative pronoun.",
+        "choices": [
+          "That's the school where I studied for five years.",
+          "That's the school which I studied for five years.",
+          "That's the school who I studied for five years.",
+          "That's the school when I studied for five years."
+        ]
+      },
+      {
+        "id": 8,
+        "type": "vrai-faux",
+        "question": "The sentence 'My sister, who is a doctor, works in London' can be rewritten without commas and keep the same meaning."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Propositions relatives déterminatives (Defining)",
+      "description": "Une relative déterminative identifie précisément le nom qu'elle qualifie. Sans elle, la phrase perdrait son sens principal. Pas de virgules. On peut utiliser who/that (personnes), which/that (choses), whose (possession)."
+    },
+    {
+      "notion": "Propositions relatives non-déterminatives (Non-defining)",
+      "description": "Une relative non-déterminative apporte une information supplémentaire sur un nom déjà identifié. Elle est encadrée par des virgules. On N'utilise PAS 'that'. Ex : My brother, who lives in London, is a doctor."
+    },
+    {
+      "notion": "Pronoms relatifs : who, which, whose, where, when, that",
+      "description": "who = personnes (sujet), whom = personnes (complément), which = choses/animaux, whose = possession, where = lieu, when = temps, that = personnes ou choses (uniquement dans les relatives déterminatives)."
+    }
+  ],
+  "exerciseresponses": []
+}

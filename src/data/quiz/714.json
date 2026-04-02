@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 714",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie 3ème : Chimie : réactions en solution et tests",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Chimie : réactions en solution et tests",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel test permet d'identifier le dioxygène O2 parmi les gaz ?",
+        "choices": [
+          "Eau de chaux",
+          "Braise incandescente qui se rallume",
+          "Papier pH",
+          "Nitrate d'argent"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le dihydrogène H2 produit une légère détonation (pop) lors d'un test à la flamme."
+      },
+      {
+        "type": "open",
+        "question": "Quel réactif colore la flamme en jaune orangé pour révéler la présence d'ions sodium Na+ ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel réactif précipite les ions calcium Ca2+ sous forme blanche ?",
+        "choices": [
+          "NaOH",
+          "Carbonate de sodium Na2CO3",
+          "Nitrate d'argent",
+          "Acide chlorhydrique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le sulfate de baryum BaSO4 est un précipité blanc insoluble dans les acides forts."
+      },
+      {
+        "type": "open",
+        "question": "Comment confirme-t-on la présence d'ions ammonium NH4+ dans une solution ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le résultat du test de l'eau avec du sulfate de cuivre anhydre blanc ?",
+        "choices": [
+          "Le sulfate reste blanc",
+          "Le sulfate vire au bleu révélant la présence d'eau",
+          "Le sulfate devient noir",
+          "Le sulfate se dissout sans changement"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le papier de tournesol rouge indique un milieu basique."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

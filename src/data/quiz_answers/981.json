@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 2nde - Serie 981",
+    "level": "2nde",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Fonction linéaire & affine",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "B",
+        "correction": "Dans y = ax + b, le coefficient directeur est a = 3."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "f(x) = ax avec b = 0 est linéaire (la droite passe par l'origine)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "y = 2x + 1",
+        "correction": "Pente : (7−3)/(3−1) = 2. Ordonnée à l'origine : 3 = 2×1 + b → b = 1. Donc y = 2x + 1."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "B",
+        "correction": "Dans y = ax + b, l'ordonnée à l'origine est b = 7."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Même coefficient directeur (a = 3) et ordonnées à l'origine différentes : droites parallèles distinctes."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "x = 2",
+        "correction": "2x + 1 = −x + 7 → 3x = 6 → x = 2."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "C",
+        "correction": "x = 3 est une droite verticale passant par le point (3, 0)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le signe du coefficient directeur détermine le sens de variation : a > 0 → croissante, a < 0 → décroissante."
+      }
+    ]
+  }
+}

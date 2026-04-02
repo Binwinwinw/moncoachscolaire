@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 469",
+    "level": "1ère",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "La poésie lyrique",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "L'expression des sentiments personnels du poète",
+        "correct": 1,
+        "correction": "Le lyrisme vient de la lyre : il exprime les émotions intimes du sujet poétique."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les Romantiques (Lamartine, Hugo, Musset, Vigny) font du 'moi' lyrique le centre de la création poétique."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "mélancolie",
+        "correction": "Le spleen baudelairien est une mélancolie existentielle, opposée à l'idéal."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Personnification de la nature / pathetic fallacy",
+        "correct": 2,
+        "correction": "Le poète lyrique projette ses émotions sur la nature (paysage état d'âme)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "L'alexandrin compte 12 syllabes."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "Méditations poétiques",
+        "correction": "Les Méditations poétiques de Lamartine (1820) marquent le début de la poésie romantique française."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Lutter contre l'oubli du temps et d'un amour disparu",
+        "correct": 1,
+        "correction": "Le lac est invoqué comme témoin de l'amour passé ; le poème médite sur la fuite du temps."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le vers libre (Verlaine, Rimbaud, puis XXe siècle) s'affranchit des contraintes prosodiques classiques."
+      }
+    ]
+  }
+}

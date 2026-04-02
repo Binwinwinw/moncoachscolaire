@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 3eme - Série 756",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 3eme : La justice en France : organisation et principes",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "La justice en France : organisation et principes",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "EMC",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel est le principe selon lequel nul ne peut etre juge par le meme tribunal pour une faute commise par lui-meme ?",
+        "choices": [
+          "Impartialite du juge",
+          "Independance de la justice",
+          "Principe du contradictoire",
+          "Droit d'appel"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "En France, la justice penale juge les infractions (crimes, delits, contraventions)."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la voie de recours permettant de porter une affaire devant une juridiction superieure ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle juridiction juge les crimes punis de plus de 10 ans de reclusion ?",
+        "choices": [
+          "Tribunal correctionnel",
+          "Tribunal de police",
+          "Cour d'assises",
+          "Conseil de prud'hommes"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La Cour de cassation rejuge les faits de l'affaire et peut innocenter directement un condamne."
+      },
+      {
+        "type": "open",
+        "question": "Quel magistrat est charge de representer la societe et de declencher les poursuites penales au nom de l'Etat ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le role du juge d'instruction ?",
+        "choices": [
+          "Prononcer la peine",
+          "Instruire (enqueter sur) les affaires penales complexes de facon independante",
+          "Defendre l'accuse",
+          "Surveiller l'execution des peines"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'aide juridictionnelle permet aux personnes sans ressources d'etre assistees gratuitement par un avocat."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

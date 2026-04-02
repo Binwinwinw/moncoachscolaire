@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 557",
+    "level": "3ème",
+    "subject": "Histoire-Géographie"
+  },
+  "quiz": {
+    "title": "La Première Guerre mondiale : bilan et traité de Versailles",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "La clause de culpabilité de guerre (article 231) lui impose toute la responsabilité du conflit",
+        "correct": 1,
+        "correction": "L'article 231 du traité de Versailles impose à l'Allemagne la responsabilité exclusive de la guerre, justifiant des réparations financières colossales."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "On estime à 10 millions le nombre de soldats tués et à 20 millions le nombre de blessés ; auxquels s'ajoutent des millions de victimes civiles."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "Lorraine",
+        "correction": "Le traité de Versailles restitue l'Alsace-Lorraine à la France, satisfaisant un objectif de guerre français depuis 1914."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "La SDN (Société des Nations)",
+        "correct": 1,
+        "correction": "La SDN est créée par le traité de Versailles à l'initiative du président américain Wilson ; elle est l'ancêtre de l'ONU (1945)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Le Sénat américain refuse de ratifier le traité de Versailles ; les États-Unis ne rejoignent jamais la SDN, affaiblissant considérablement l'organisation."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "grippe espagnole",
+        "correction": "La grippe espagnole (influenza H1N1) est une pandémie dévastatrice qui frappe des populations affaiblies par la guerre."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "La montée du ressentiment nationaliste et l'arrivée d'Hitler au pouvoir",
+        "correct": 1,
+        "correction": "Le 'diktat' de Versailles humilie l'Allemagne ; Hitler exploitera ce ressentiment pour accéder au pouvoir en 1933."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La tombe du Soldat inconnu (sous l'Arc de Triomphe à Paris) rend hommage à tous les soldats non identifiés de la PGM."
+      }
+    ]
+  }
+}

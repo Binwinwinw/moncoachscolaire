@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 642",
+    "level": "1ère",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "Le développement embryonnaire et la grossesse",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "5 à 7 jours après la fécondation, au stade de blastocyste",
+        "correct": 1,
+        "correction": "Le zygote → morula → blastocyste migre 5–7 jours dans la trompe ; le blastocyste s'implante dans l'endomètre utérin ; c'est la nidation."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le placenta est une interface : les villosités choriales (fœtales) sont baignées par le sang maternel dans les lacunes ; diffusion de O2, nutriments, anticorps IgG, mais barrière aux globules rouges."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "liquide",
+        "correction": "L'amniocentèse (à partir de 15 SA) permet l'analyse du caryotype fœtal ; elle peut dépister la trisomie 21 et autres anomalies chromosomiques."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "La période embryonnaire (4e–8e semaines d'aménorrhée)",
+        "correct": 1,
+        "correction": "Les 3 feuillets embryonnaires (ectoderme, mésoderme, endoderme) donnent naissance aux différents organes lors de l'organogenèse ; période très sensible aux tératogènes."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'éthanol traverse librement le placenta ; aucune dose n'est prouvée sans risque pour le fœtus ; le SAF est la 1ère cause non génétique de handicap mental."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "dépistage",
+        "correction": "Le dépistage combiné du 1er trimestre (clarté nucale + marqueurs sériques + âge maternel) évalue le risque de trisomie 21 ; si risque élevé → diagnostic par amniocentèse ou CGH-array."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Augmentation du volume sanguin (+30–50%), de la fréquence cardiaque et de la ventilation pulmonaire",
+        "correct": 1,
+        "correction": "La grossesse impose des adaptations cardiovasculaires, respiratoires et métaboliques majeures ; le volume sanguin maternel augmente pour assurer les besoins fœtaux."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'ocytocine (loop de rétroaction positive) amplifie les contractions utérines ; elle provoque aussi la montée laiteuse post-partum. Utilisée en obstétrique pour déclencher/stimuler le travail."
+      }
+    ]
+  }
+}

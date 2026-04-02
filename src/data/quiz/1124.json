@@ -1,0 +1,73 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES Terminale - Serie 1124",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "SES",
+    "description": "Diagnostic SES Terminale : Gouvernance mondiale de l'économie",
+    "status": "published",
+    "created_at": "2026-03-14 03:10:56",
+    "updated_at": "2026-03-14 03:10:56"
+  },
+  "quiz": {
+    "title": "Gouvernance mondiale de l'économie",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "SES",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Le FMI (Fonds Monétaire International) a pour mission principale de :",
+        "choices": [
+          "Financer le développement des pays pauvres",
+          "Assurer la stabilité du système monétaire international et aider les pays en difficulté de balance des paiements",
+          "Réguler le commerce mondial",
+          "Financer les guerres"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La Banque mondiale finance principalement des projets de développement dans les pays à revenus faibles et intermédiaires."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que le G20 et quel rôle joue-t-il dans la gouvernance économique mondiale ?"
+      },
+      {
+        "type": "qcm",
+        "question": "L'évasion fiscale internationale par les multinationales utilise notamment :",
+        "choices": [
+          "Les taux d'imposition élevés",
+          "Les prix de transfert manipulés, les paradis fiscaux et l'optimisation fiscale agressive",
+          "La nationalisation de leurs filiales",
+          "Les droits de douane"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'accord de l'OCDE sur l'impôt minimum mondial de 15% pour les multinationales (Pilier 2, 2021) vise à limiter la concurrence fiscale déloyale."
+      },
+      {
+        "type": "open",
+        "question": "Quelles sont les critiques adressées à la mondialisation financière ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Le consensus de Washington (années 1980-90) recommandait aux pays en développement de :",
+        "choices": [
+          "Nationaliser les entreprises étrangères",
+          "Privatiser, libéraliser, déréguler et équilibrer les budgets (ajustement structurel)",
+          "Mettre en place des politiques keynésiennes de relance",
+          "Protéger leurs marchés avec des droits de douane élevés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La montée du nationalisme économique et du protectionnisme (ex : politiques America First, guerre commerciale sino-américaine) fragilise le multilatéralisme commercial."
+      }
+    ]
+  }
+}

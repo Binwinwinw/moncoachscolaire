@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 796",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 3eme : L'eco-conception et cycle de vie des produits",
+    "status": "published",
+    "created_at": "2026-03-14 04:06:19",
+    "updated_at": "2026-03-14 04:06:19"
+  },
+  "quiz": {
+    "title": "L'eco-conception et cycle de vie des produits",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que l'analyse du cycle de vie (ACV) d'un produit ?",
+        "choices": [
+          "Le calcul de la duree de vie garantie",
+          "L'evaluation des impacts environnementaux de la conception a la fin de vie",
+          "L'etude de la resistance mecanique",
+          "L'historique des ventes du produit"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'eco-conception integre les contraintes environnementales des la phase de conception du produit."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on les 7 etapes qui composent le cycle de vie d'un produit, du berceau a la tombe ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel principe de l'economie circulaire consiste a transformer les dechets d'une industrie en matieres premieres d'une autre ?",
+        "choices": [
+          "Recyclage classique",
+          "Ecologie industrielle et territoriale",
+          "Upcycling",
+          "Consigne"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Privilegier la reparabilite d'un produit fait partie des principes de l'eco-conception."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la valorisation d'un dechet en le transformant en un produit de valeur superieure ou egale (par opposition au recyclage classique) ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel label garantit qu'un produit electronique (smartphone, PC) respecte des criteres environnementaux et sociaux tout au long de sa chaine de production ?",
+        "choices": [
+          "Label AB",
+          "Label TCO Certified ou EPEAT",
+          "Label CE",
+          "Label NF"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le recyclage des dechets electroniques (DEEE) est obligatoire en France."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

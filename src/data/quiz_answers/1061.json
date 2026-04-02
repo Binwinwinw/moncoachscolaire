@@ -1,0 +1,48 @@
+{
+  "quiz_id": 1061,
+  "title": "Forme factorisée et canonique",
+  "subject": "Mathématiques",
+  "level": "1ère",
+  "answers": [
+    {
+      "question_id": "1061_1",
+      "correct_option": "B",
+      "explanation": "Forme canonique : a(x − α)² + β où α = −b/(2a) et β = −Δ/(4a) = f(α)."
+    },
+    {
+      "question_id": "1061_2",
+      "correct": true,
+      "explanation": "Quand il existe deux racines x₁ et x₂, on peut factoriser ax² + bx + c = a(x−x₁)(x−x₂)."
+    },
+    {
+      "question_id": "1061_3",
+      "correct_answer": "(x − 2)² − 3",
+      "explanation": "x² − 4x + 1 = (x − 2)² − 4 + 1 = (x−2)² − 3. Sommet en (2, −3)."
+    },
+    {
+      "question_id": "1061_4",
+      "correct_option": "A",
+      "explanation": "Racines : x₁=2, x₂=3. Factorisation : (x−2)(x−3)."
+    },
+    {
+      "question_id": "1061_5",
+      "correct": true,
+      "explanation": "f(x) = a(x−α)² + β → sommet S(α, β). Minimum ou maximum selon le signe de a."
+    },
+    {
+      "question_id": "1061_6",
+      "correct_answer": "2(x−1)(x−3)",
+      "explanation": "Δ = 64−48 = 16. x₁ = (8−4)/4 = 1, x₂ = (8+4)/4 = 3. f(x) = 2(x−1)(x−3)."
+    },
+    {
+      "question_id": "1061_7",
+      "correct_option": "A",
+      "explanation": "x² + 6x + 5 = (x+3)² − 9 + 5 = (x+3)² − 4."
+    },
+    {
+      "question_id": "1061_8",
+      "correct": true,
+      "explanation": "Sans racine réelle, on ne peut pas écrire a(x−x₁)(x−x₂) dans R. On garde la forme canonique."
+    }
+  ]
+}

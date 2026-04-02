@@ -1,0 +1,73 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES Terminale - Serie 1120",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "SES",
+    "description": "Diagnostic SES Terminale : Système financier et risques",
+    "status": "published",
+    "created_at": "2026-03-14 03:10:56",
+    "updated_at": "2026-03-14 03:10:56"
+  },
+  "quiz": {
+    "title": "Système financier et risques",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "SES",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Le risque systémique en finance désigne :",
+        "choices": [
+          "Le risque individuel d'une entreprise",
+          "Le risque qu'une défaillance locale se propage à l'ensemble du système financier",
+          "Le risque de change dans les échanges internationaux",
+          "Le risque de taux d'intérêt pour les ménages"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une bulle spéculative se forme quand le prix d'un actif s'éloigne durablement de sa valeur fondamentale."
+      },
+      {
+        "type": "open",
+        "question": "Explique le mécanisme de contagion financière lors d'une crise bancaire."
+      },
+      {
+        "type": "qcm",
+        "question": "La régulation prudentielle des banques (accords de Bâle) impose :",
+        "choices": [
+          "Des taux d'intérêt fixes",
+          "Des ratios de fonds propres minimaux pour absorber les pertes",
+          "La nationalisation des banques en crise",
+          "L'interdiction des opérations de marché"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le prêteur en dernier ressort (PDR) est la banque centrale qui intervient pour éviter la faillite des banques en crise de liquidité."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que l'aléa moral dans le secteur bancaire et comment le réguler ?"
+      },
+      {
+        "type": "qcm",
+        "question": "La finance de l'ombre (shadow banking) désigne :",
+        "choices": [
+          "Les banques qui financent l'économie souterraine",
+          "Les institutions financières non bancaires (fonds, assurances) qui réalisent des fonctions bancaires hors régulation",
+          "Les paradis fiscaux",
+          "Les crypto-monnaies"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'hypothèse d'efficience des marchés financiers (Fama) affirme que les prix reflètent toujours toute l'information disponible."
+      }
+    ]
+  }
+}

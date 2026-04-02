@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 605",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 1ère : De l'ADN aux protéines : la transcription",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "De l'ADN aux protéines : la transcription",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "La transcription est le processus qui permet de :",
+        "choices": [
+          "Dupliquer l'ADN",
+          "Synthétiser un ARN messager à partir d'un brin d'ADN",
+          "Fabriquer des protéines à partir d'ARN",
+          "Diviser une cellule en deux"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'ARN messager (ARNm) contient de la thymine (T) comme l'ADN."
+      },
+      {
+        "type": "open",
+        "question": "Chez les eucaryotes, la transcription se déroule dans le _____, puis l'ARNm migre vers le cytoplasme."
+      },
+      {
+        "type": "qcm",
+        "question": "L'épissage de l'ARNm consiste à :",
+        "choices": [
+          "Ajouter une queue poly-A",
+          "Éliminer les introns et assembler les exons",
+          "Coiffer l'extrémité 5'",
+          "Répliquer l'ARN"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les procaryotes réalisent la transcription et la traduction de façon simultanée dans le cytoplasme."
+      },
+      {
+        "type": "open",
+        "question": "L'enzyme responsable de la transcription s'appelle l'_____ polymérase."
+      },
+      {
+        "type": "qcm",
+        "question": "Le promoteur est :",
+        "choices": [
+          "La protéine finale synthétisée",
+          "La séquence d'ADN où l'ARN polymérase se fixe pour démarrer la transcription",
+          "Un type de ribosome",
+          "Un codon stop"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un seul gène peut donner naissance à plusieurs protéines différentes par épissage alternatif."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

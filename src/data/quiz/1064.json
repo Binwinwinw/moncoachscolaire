@@ -1,0 +1,67 @@
+{
+  "id": 1064,
+  "title": "Applications du second degré",
+  "subject": "Mathématiques",
+  "level": "1ère",
+  "created_at": "2026-03-13T18:54:00.424418Z",
+  "questions": [
+    {
+      "id": "1064_1",
+      "type": "qcm",
+      "question": "Un projectile a une trajectoire h(t) = −5t² + 20t (en mètres). À quelle hauteur maximale monte-t-il ?",
+      "options": [
+        "10 m",
+        "15 m",
+        "20 m",
+        "25 m"
+      ]
+    },
+    {
+      "id": "1064_2",
+      "type": "vrai-faux",
+      "question": "Pour maximiser la surface d'un rectangle de périmètre fixe P, la solution optimale est un carré."
+    },
+    {
+      "id": "1064_3",
+      "type": "texte",
+      "question": "On enclos un rectangle avec 40 m de grillage. Quelle longueur l maximise l'aire ? Quelle aire maximale ?"
+    },
+    {
+      "id": "1064_4",
+      "type": "qcm",
+      "question": "Le bénéfice d'une entreprise est B(x) = −2x² + 80x − 300 (€, x milliers d'unités). Quel x maximise le bénéfice ?",
+      "options": [
+        "x = 20",
+        "x = 40",
+        "x = 10",
+        "x = 80"
+      ]
+    },
+    {
+      "id": "1064_5",
+      "type": "vrai-faux",
+      "question": "L'équation h(t) = 0 (où h est la hauteur d'un projectile) donne les instants de départ et d'arrivée."
+    },
+    {
+      "id": "1064_6",
+      "type": "texte",
+      "question": "La surface d'un carré augmentée de 4 fois son côté vaut 21. Trouve le côté."
+    },
+    {
+      "id": "1064_7",
+      "type": "qcm",
+      "question": "Un rectangle a une diagonale de 10 et un périmètre de 28. Ses dimensions sont :",
+      "options": [
+        "6 et 8",
+        "5 et 9",
+        "4 et 10",
+        "7 et 7"
+      ]
+    },
+    {
+      "id": "1064_8",
+      "type": "vrai-faux",
+      "question": "Le bénéfice maximal d'une fonction B(x) = −ax² + bx + c (a > 0) s'obtient en x = b/(2a)."
+    }
+  ]
+}

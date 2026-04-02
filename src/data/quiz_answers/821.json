@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES 1ère - Série 821",
+    "level": "1ère",
+    "subject": "SES"
+  },
+  "quiz": {
+    "title": "Prix d'équilibre",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "SES",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "L'offre est égale à la demande",
+        "correct": 2,
+        "correction": "À l'équilibre, les quantités offertes et demandées sont égales, il n'y a ni surplus ni pénurie."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Un prix trop élevé décourage les acheteurs mais stimule les vendeurs, créant un surplus (excès d'offre)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "En cas de pénurie, la demande excède l'offre, les prix montent, ce qui incite les producteurs à produire plus et les consommateurs à demander moins, jusqu'à retrouver l'équilibre.",
+        "correction": "C'est la loi de l'offre et de la demande en action."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Le gain retiré par le consommateur payant moins que son prix de réserve",
+        "correct": 1,
+        "correction": "Le surplus du consommateur est la différence entre le prix qu'il était prêt à payer et le prix réel payé."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le surplus du producteur est la différence entre le prix reçu et le coût marginal de production."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "Un prix plancher est un prix minimum imposé par l'État en dessous duquel les échanges sont interdits. Exemple : le SMIC (salaire minimum).",
+        "correction": "Le prix plancher protège les vendeurs (ex : agriculteurs, travailleurs) mais peut créer un excès d'offre."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Une pénurie",
+        "correct": 1,
+        "correction": "Le prix plafond (ex : loyers encadrés) stimule la demande mais réduit l'offre, créant une pénurie."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est le théorème du premier théorème du bien-être : l'équilibre concurrentiel est Pareto-efficient."
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+File size: 11149 bytes
+Looking for 'démarrer' patterns:
+  Correct UTF-8 (d\xc3\xa9marrer): False
+  Double-encoded 1 (d\xc3\xa9\xc2\xa9marrer): True
+  Double-encoded 2 (d\xc3\xa9\xc2\xa8marrer): False
+
+Sample bytes at position 646:
+  b'd\xc3\xa9\xc2\xa9marrer la session \xc3\xa2\xe2\x82\xac\xe2\x80\x9d headers d\xc3\xa9\xc2\xa9j\xc3\xa9\xc2\xa0'
+  As hex: 64 c3 a9 c2 a9 6d 61 72 72 65 72 20 6c 61 20 73 65 73 73 69 6f 6e 20 c3 a2 e2 82 ac e2 80 9d 20 68 65 61 64 65 72 73 20 64 c3 a9 c2 a9 6a c3 a9 c2 a0
+
+After UTF-8 decode, char 400-500:
+  "re_session_started')) {\r\n    ensure_session_started();\r\n} else {\r\n    if (session_status() === PHP_S"
+
+Fix failed: 'latin-1' codec can't encode characters in position 22-23: ordinal not in range(256)

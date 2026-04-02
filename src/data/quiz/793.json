@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 793",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 3eme : Les donnees numeriques et leur traitement",
+    "status": "published",
+    "created_at": "2026-03-14 04:06:19",
+    "updated_at": "2026-03-14 04:06:19"
+  },
+  "quiz": {
+    "title": "Les donnees numeriques et leur traitement",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que le format binaire en informatique ?",
+        "choices": [
+          "Un fichier avec deux versions",
+          "Un systeme de representation des donnees utilisant uniquement les chiffres 0 et 1",
+          "Un protocole de communication",
+          "Un type de processeur"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un octet (byte) est compose de 8 bits."
+      },
+      {
+        "type": "open",
+        "question": "Comment s'appelle le fichier de donnees structure en lignes et colonnes souvent utilise pour stocker et analyser des informations ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que le big data ?",
+        "choices": [
+          "Un tres gros disque dur",
+          "Des ensembles massifs de donnees necessitant des outils specifiques pour leur collecte, stockage et analyse",
+          "Un logiciel de comptabilite",
+          "Une connexion internet tres rapide"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une base de donnees SQL permet de stocker et d'interroger des donnees structurees grace a des requetes."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la representation graphique qui visualise les donnees sous forme de points relies par des lignes pour montrer une evolution ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que l'intelligence artificielle (IA) dans le contexte du traitement des donnees ?",
+        "choices": [
+          "Un robot humanoide",
+          "Un ensemble de techniques permettant a des machines d'apprendre et de prendre des decisions a partir de donnees",
+          "Un antivirus avance",
+          "Un protocole reseau intelligent"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les algorithmes de recommandation des plateformes de streaming analysent vos habitudes pour vous suggerer des contenus."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

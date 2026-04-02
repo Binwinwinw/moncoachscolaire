@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 609",
+    "level": "1ère",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "La mitose et le cycle cellulaire",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "2 cellules filles génétiquement identiques à la cellule mère (2n chromosomes)",
+        "correct": 1,
+        "correction": "La mitose est une division équationnelle : les 2 cellules filles sont diploïdes (2n) et génétiquement identiques à la cellule mère."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le cycle cellulaire : G1 (croissance) - S (réplication ADN) - G2 (préparation) - M (mitose) - C (cytocinèse)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "télophase",
+        "correction": "PMAT : Prophase (condensation chromosomes), Métaphase (alignement), Anaphase (séparation chromatides), Télophase (décondensation + cytocinèse)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Alignés sur la plaque équatoriale de la cellule",
+        "correct": 1,
+        "correction": "La métaphase est caractérisée par l'alignement des chromosomes (chacun composé de 2 chromatides soeurs) au centre de la cellule."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les points de contrôle du cycle (G1/S, G2/M) empêchent normalement une division anormale ; les mutations dans les gènes suppresseurs de tumeur ou les proto-oncogènes lèvent ces contrôles."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "division",
+        "correction": "Le raccourcissement des télomères limite le nombre de divisions cellulaires ; la télomérase (enzyme) peut les rallonger (cellules souches, cancéreuses)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "La division du cytoplasme qui sépare les deux cellules filles",
+        "correct": 1,
+        "correction": "La cytocinèse suit la mitose : un sillon de division (animaux) ou une plaque cellulaire (végétaux) sépare les deux cellules filles."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La mitose permet la cicatrisation (remplacement des cellules mortes), la croissance (multiplication cellulaire) et la reproduction asexuée (bouturage)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "Id": "Identifiant unique pour l’exercice, utilisé pour le suivi, les statistiques et les récompenses (éventuellement un UUID ou un format spécifique)",
+    "Subject": "Matières",
+    "Level": "Niveaux scolaires",
+    "Title": "Titre de l’exercice",
+    "Content": "Enoncé de l’exercice, consigne, question…",
+    "structure_type": "questionnaire",
+    "pattern_detected": "exercice_choix_multiple",
+    "sub_questions": "Si applicable, liste des sous-questions pour les exercices complexes",
+    "Type": "Type d’exercice (ex : QCM, vrai/faux, rédaction…)",
+    "Answer": "Réponse attendue (texte, choix, etc.)",
+    "InteractiveConfig": "Configuration spécifique pour les exercices interactifs (si applicable)",
+    "Tips": "Conseils ou indices pour aider l’élève à résoudre l’exercice",
+    "Domain": "Domaine de compétence ciblé (ex : grammaire, mathématiques, histoire…)",
+    "Competence": "Compétence spécifique visée par l’exercice (ex : accorder les adjectifs)",
+    "Difficulty": "Niveau de difficulté (ex : facile, moyen, difficile)",
+    "exam_prep": "Indique si l’exercice est destiné à la préparation d’examens (true/false)",
+    "Identifier": "Un identifiant unique pour l’exercice, utilisé pour le suivi et les statistiques",
+    "AnswerType": "Type de réponse attendu (ex : texte libre, choix multiple, etc.)",
+    "Choices": "Liste des choix possibles pour les exercices à choix multiple (si applicable)",
+    "Instruction": "Instruction détaillée pour l’élève, expliquant comment répondre à l’exercice",
+    "is_active": "Indique si l’exercice est actif et disponible pour les élèves (true/false)",
+    "XP_Points": "Points d'expérience attribués pour la réussite de l’exercice",
+    "Coherence": "Indique si l’exercice est cohérent avec le reste du cours (true/false)",
+    "processed": "Indique si l’exercice a été traité par le parser (true/false)",
+    "course_id": "Identifiant du cours associé à l’exercice (si applicable)",
+    "LinkedCourses": "Liste des cours liés à l’exercice (si applicable)"
+  }
+]

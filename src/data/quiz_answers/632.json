@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 632",
+    "level": "1ère",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "La tectonique des plaques",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "S'écartent et du magma basaltique remonte pour former une nouvelle croûte océanique",
+        "correct": 2,
+        "correction": "Aux dorsales (ex : dorsale médio-atlantique), la divergence des plaques crée un rift, le magma remonte et forme de la croûte océanique neuve (expansion des fonds océaniques)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La croûte océanique froide et dense (eclogite après métamorphisme) plonge dans le manteau ; ce recyclage des fonds océaniques explique l'absence de croûte > 200 Ma."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "Wegener",
+        "correction": "Wegener observa l'emboîtement de l'Amérique du Sud et de l'Afrique et les similitudes de faunes fossiles mais ne put expliquer la force motrice — la tectonique des plaques viendra plus tard."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Le long des marges de plaques tectoniques",
+        "correct": 2,
+        "correction": "La carte des séismes/volcans dessine les limites des plaques : zones de subduction (ceinture de feu), dorsales, et failles transformantes."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Il y a ~50 Ma, la plaque indo-australienne a percuté l'Eurasie ; cette collision soulève l'Himalaya à raison de ~5 mm/an (l'Everest croît encore)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "zèbre",
+        "correction": "Les inversions magnétiques enregistrées symétriquement de part et d'autre de la dorsale (zèbre magnétique, Vine & Matthews 1963) ont confirmé l'expansion des fonds océaniques."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Les gradients de température dans le manteau qui créent des courants ascendants chauds et descendants froids",
+        "correct": 1,
+        "correction": "La cellule de convection : matériau chaud (densité faible) monte aux dorsales, se déplace latéralement, refroidit, s'alourdit et plonge en subduction."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Hawaii, La Réunion, Islande sont des points chauds ; le déplacement de la plaque sur le panache fixe crée une chaîne d'îles volcaniques."
+      }
+    ]
+  }
+}

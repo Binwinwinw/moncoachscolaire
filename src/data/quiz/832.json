@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES 1ère - Série 832",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SES",
+    "description": "Diagnostic SES 1ère : Le contrat de travail",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Le contrat de travail",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SES",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel est le contrat de travail de droit commun en France ?",
+        "choices": [
+          "CDD",
+          "CDI",
+          "Contrat d'intérim",
+          "Stage"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un CDD peut être renouvelé indéfiniment sans limite."
+      },
+      {
+        "type": "open",
+        "question": "Quelles sont les trois caractéristiques essentielles du contrat de travail ?"
+      },
+      {
+        "type": "qcm",
+        "question": "La rupture conventionnelle est :",
+        "choices": [
+          "Un licenciement économique",
+          "Une démission",
+          "Une rupture du CDI d'un commun accord entre salarié et employeur",
+          "Un départ à la retraite"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "En France, la durée légale du travail est de 35 heures par semaine depuis 2000."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce qu'une convention collective ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Le droit de grève en France est :",
+        "choices": [
+          "Interdit dans le secteur public",
+          "Un droit constitutionnel reconnu à tous les travailleurs",
+          "Réservé aux syndicats",
+          "Limité à 24 heures"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le télétravail est une forme d'organisation du travail reconnue légalement en France."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

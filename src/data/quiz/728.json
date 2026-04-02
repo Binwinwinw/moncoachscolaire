@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 728",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie 3ème : Lumière : propagation et vitesse",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Lumière : propagation et vitesse",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la vitesse de la lumière dans le vide ?",
+        "choices": [
+          "300 000 m/s",
+          "300 000 km/s (3 × 10^8 m/s)",
+          "3 000 km/s",
+          "30 000 km/s"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La lumière se propage en ligne droite dans un milieu homogène."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on l'unité de distance astronomique correspondant à la distance parcourue par la lumière en un an ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'une source lumineuse primaire ?",
+        "choices": [
+          "Un objet qui réfléchit la lumière",
+          "Un objet qui produit et émet sa propre lumière",
+          "Un miroir",
+          "Un prisme optique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'ombre portée d'un objet est due à la propagation rectiligne de la lumière."
+      },
+      {
+        "type": "open",
+        "question": "Combien de temps met la lumière du Soleil pour atteindre la Terre (distance ≈ 150 millions de km) ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la gamme de longueurs d'onde de la lumière visible ?",
+        "choices": [
+          "1 nm à 100 nm",
+          "400 nm à 700 nm",
+          "1 mm à 1 m",
+          "10 μm à 1 mm"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La lumière blanche est un mélange de toutes les couleurs du spectre visible."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

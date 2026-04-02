@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 670",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 3ème : Reproduction humaine : cycle menstruel et puberté",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "Reproduction humaine : cycle menstruel et puberté",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle hormone déclenche l'ovulation chez la femme ?",
+        "choices": [
+          "Œstrogènes",
+          "Progestérone",
+          "LH (hormone lutéinisante)",
+          "FSH (hormone folliculostimulante)"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La puberté chez les filles débute généralement entre 8 et 13 ans."
+      },
+      {
+        "type": "open",
+        "question": "Quel nom porte le premier cycle menstruel d'une jeune fille ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle hormone masculine est responsable du développement des caractères sexuels masculins à la puberté ?",
+        "choices": [
+          "Œstrogène",
+          "Progestérone",
+          "Testostérone",
+          "Cortisol"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les règles correspondent au renouvellement de l'endomètre en l'absence de fécondation."
+      },
+      {
+        "type": "open",
+        "question": "Quelle glande du cerveau régule les hormones de reproduction en sécrétant la FSH et la LH ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Combien de temps dure en moyenne la grossesse chez l'être humain ?",
+        "choices": [
+          "6 mois",
+          "9 mois (38 semaines de développement)",
+          "12 mois",
+          "4 mois"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La ménopause marque l'arrêt définitif de l'ovulation et des menstruations."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

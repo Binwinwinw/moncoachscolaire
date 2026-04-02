@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques Terminale - Serie 1051",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques Terminale : Matrices 2x2",
+    "status": "published",
+    "created_at": "2026-03-13 11:24:24",
+    "updated_at": "2026-03-13 11:24:24"
+  },
+  "quiz": {
+    "title": "Matrices 2x2",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Dans le chapitre 'Matrices 2x2', quelle premiere etape est la plus rigoureuse ?",
+        "choices": [
+          "Identifier les hypotheses et l'objectif",
+          "Choisir une reponse sans calcul",
+          "Ignorer les conditions de validite",
+          "Passer directement au resultat final"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "En Terminale, justifier la methode choisie fait partie de la reponse attendue."
+      },
+      {
+        "type": "open",
+        "question": "Explique en quelques lignes comment tu aborderais un exercice sur le theme suivant : operations, determinant et inversibilite."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle verification finale est la plus pertinente ?",
+        "choices": [
+          "Controler coherence, signe et domaine",
+          "Ne rien verifier",
+          "Modifier la question initiale",
+          "Recopier le resultat"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un contre-exemple ou un test numerique peut aider a controler une conjecture avant redaction finale."
+      },
+      {
+        "type": "open",
+        "question": "Cite une erreur frequente sur ce theme et explique comment l'eviter."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle attitude correspond au niveau attendu en specialite mathematiques ?",
+        "choices": [
+          "Justifier, organiser et verifier",
+          "Memoriser sans comprendre",
+          "Eviter les preuves",
+          "Ne pas relire les calculs"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Relire la consigne et la nature exacte du resultat attendu peut corriger une copie entiere."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

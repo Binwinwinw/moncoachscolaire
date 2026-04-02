@@ -1,0 +1,88 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 6eme SVT",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "SVT",
+    "description": "Diagnostic etats matiere, êtres vivants, environnement proche 6eme"
+  },
+  "quiz": {
+    "title": "Diagnostic SVT 6eme",
+    "level": "6eme",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "questions": [
+      {
+        "id": 1,
+        "type": "vrai-faux",
+        "question": "L'eau sur Terre est toujours liquide."
+      },
+      {
+        "id": 2,
+        "type": "qcm",
+        "question": "On mesure la température avec :",
+        "choices": [
+          "Thermomètre (°C)",
+          "Balance (kg)",
+          "Règle (cm)",
+          "Luxmètre (lumière)"
+        ]
+      },
+      {
+        "id": 3,
+        "type": "texte",
+        "question": "L'eau gèle à ... °C."
+      },
+      {
+        "id": 4,
+        "type": "qcm",
+        "question": "Quelle est la différence principale entre êtres vivants/non-vivants ?",
+        "choices": [
+          "Taille",
+          "Couleur",
+          "Nutrition/reproduction",
+          "Poids"
+        ]
+      },
+      {
+        "id": 5,
+        "type": "vrai-faux",
+        "question": "Tous les êtres vivants se déplacent."
+      },
+      {
+        "id": 6,
+        "type": "texte",
+        "question": "Un arbre appartient à la ..."
+      },
+      {
+        "id": 7,
+        "type": "qcm",
+        "question": "L'éclairement est plus important :",
+        "choices": [
+          "Forêt",
+          "Champ",
+          "Grotte",
+          "Sous l'eau"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "texte",
+        "question": "Le dioxygène est indispensable à..."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "États de l'eau"
+    },
+    {
+      "notion": "Êtres vivants"
+    },
+    {
+      "notion": "Environnement proche"
+    }
+  ],
+  "exerciseresponses": []
+}

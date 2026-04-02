@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 3eme - Série 760",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 3eme : L'engagement citoyen et associatif",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "L'engagement citoyen et associatif",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "EMC",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle loi fondamentale garantit en France la liberte d'association ?",
+        "choices": [
+          "Loi de 1881",
+          "Loi du 1er juillet 1901",
+          "Loi de 1905",
+          "Loi de 1972"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le benevole contribue a la societe civile sans recevoir de remuneration."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on l'ensemble des organisations, associations et citoyens qui agissent independamment de l'Etat et du marche ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le role d'un syndicat de salaries ?",
+        "choices": [
+          "Gerer les ressources humaines d'une entreprise",
+          "Defendre les interets professionnels et sociaux des travailleurs",
+          "Percevoir les cotisations sociales",
+          "Former les nouveaux employes"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un jeune de 16 ans peut rejoindre un parti politique en France."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on les organisations non gouvernementales qui agissent dans le domaine humanitaire sans but lucratif ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que le Service Civique en France ?",
+        "choices": [
+          "Le service militaire obligatoire",
+          "Un engagement volontaire de 6 a 12 mois au service de l'interet general, indemnise",
+          "Un stage en entreprise obligatoire",
+          "Une punition pour les mineurs delinquants"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La democratie participative permet aux citoyens de contribuer directement aux decisions politiques en dehors des elections."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

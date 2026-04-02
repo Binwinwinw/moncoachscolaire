@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 3eme - Série 754",
+    "level": "3eme",
+    "subject": "EMC"
+  },
+  "quiz": {
+    "title": "Les droits sociaux et economiques",
+    "question_count": 8,
+    "level": "3eme",
+    "subject": "EMC",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Droits economiques, sociaux et culturels",
+        "correct": 1,
+        "correction": "Les droits-créances (santé, éducation, logement, travail) exigent une prestation positive de l'État, contrairement aux libertés-défenses qui nécessitent seulement une abstention."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La loi DALO (2007) reconnaît le droit au logement comme opposable ; toute personne remplissant les critères peut saisir la commission de médiation si elle n'a pas de logement."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "RSA",
+        "correction": "Le RSA (Revenu de Solidarité Active), créé en 2009, assure un revenu minimum aux personnes sans ressources ou dont les revenus sont insuffisants."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "La Couverture Maladie Universelle (CMU) / Protection Universelle Maladie (PUMa)",
+        "correct": 1,
+        "correction": "La PUMa (2016, remplaçant la CMU) garantit à toute personne travaillant ou résidant stablement en France l'accès à la prise en charge de ses frais de santé."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le droit de grève est inscrit dans le Préambule de la Constitution de 1946 (à valeur constitutionnelle) ; il s'exerce dans le cadre des lois qui le réglementent."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "Preambule de la Constitution de 1946",
+        "correction": "Le Préambule de la Constitution de 1946 (intégré au bloc de constitutionnalité) proclame les droits économiques et sociaux fondamentaux."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "La Securite sociale",
+        "correct": 1,
+        "correction": "La Sécurité sociale (créée en 1945 par les ordonnances d'Ambroise Croizat et Alexandre Parodi) couvre les risques maladie, vieillesse, famille et accidents du travail."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'impôt progressif et les cotisations sociales expriment la solidarité nationale : les personnes aux revenus plus élevés contribuent proportionnellement plus."
+      }
+    ]
+  }
+}

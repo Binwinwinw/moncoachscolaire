@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 674",
+    "level": "3ème",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "Géologie : structure interne du globe terrestre",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Croûte, manteau, noyau",
+        "correct": 0,
+        "correction": "La Terre est structurée en croûte (externe), manteau (intermédiaire) et noyau (central, lui-même divisé en noyau externe liquide et interne solide)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Le noyau interne (graine) est solide composé de fer et de nickel, tandis que le noyau externe est liquide."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "discontinuité de Mohorovicic",
+        "correction": "La discontinuité de Mohorovicic (Moho) marque la limite entre la croûte terrestre et le manteau supérieur."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Fer et nickel",
+        "correct": 1,
+        "correction": "Le noyau est composé essentiellement de fer (80%) et de nickel, responsable du champ magnétique terrestre."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La lithosphère est la couche rigide externe incluant la croûte et le manteau lithosphérique jusqu'à environ 100 km de profondeur."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "sismologie",
+        "correction": "La sismologie analyse la vitesse et la direction des ondes sismiques pour déduire la composition et l'état des couches internes."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Solide plastique et partiellement fondu",
+        "correct": 1,
+        "correction": "L'asthénosphère est semi-plastique, permettant la convection et le déplacement des plaques lithosphériques."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "La croûte continentale mesure 30 à 70 km d'épaisseur, contre 5 à 10 km pour la croûte océanique."
+      }
+    ]
+  }
+}

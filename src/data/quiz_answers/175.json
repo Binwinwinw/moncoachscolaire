@@ -1,0 +1,76 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Geographie 1ere - Série 175",
+    "level": "1ere",
+    "subject": "Histoire-Geographie"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Histoire-Géographie - Serie 1",
+    "question_count": 8,
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "1871-1914",
+        "correct": 1,
+        "correction": "La Belle Époque désigne la période allant de 1871 à 1914, caractérisée par la paix relative, la prospérité économique et les avancées technologiques en Europe occidentale."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La Belle Époque est marquée par l'essor industriel (automobile, électricité, cinéma) et une croissance économique notable, bien que la croissance démographique française soit plus lente que celle de ses voisins."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "correct_answer": "L'automobile et l'électricité (ou le cinéma, l'avion, le téléphone...)",
+        "answer": "L'automobile et l'électricité (ou le cinéma, l'avion, le téléphone...)",
+        "correction": "Parmi les grandes innovations de la Belle Époque : l'automobile (Benz, Renault), l'électricité dans les foyers, le cinématographe des frères Lumière (1895), l'avion (frères Wright, 1903), le téléphone, la radiographie (Röntgen, 1895)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Le déclenchement de la Première Guerre mondiale en 1914",
+        "correct": 2,
+        "correction": "C'est l'assassinat de l'archiduc François-Ferdinand à Sarajevo le 28 juin 1914 et le déclenchement de la Première Guerre mondiale qui met brutalement fin à la Belle Époque."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La IIIe République est proclamée le 4 septembre 1870 après la capture de Napoléon III à Sedan. Elle durera jusqu'en 1940, devenant le régime républicain le plus long de l'histoire de France."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "correct_answer": "Elle instaure la laïcité en séparant les institutions religieuses des institutions de l'État.",
+        "answer": "Elle instaure la laïcité en séparant les institutions religieuses des institutions de l'État.",
+        "correction": "La loi du 9 décembre 1905 établit la séparation des Églises et de l'État, instaurant la laïcité comme principe républicain. L'État ne reconnaît, ne salarie ni ne subventionne aucun culte. C'est un pilier fondamental de la République française."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "L'affaire Dreyfus",
+        "correct": 1,
+        "correction": "L'affaire Dreyfus (1894-1906) est un scandale politico-judiciaire qui divise profondément la société française entre dreyfusards (défenseurs des droits de l'homme) et antidreyfusards (nationalistes, antisémites). Elle révèle les tensions de la IIIe République."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "FAUX. La Triple Entente (formée progressivement entre 1894 et 1907) regroupe la France, le Royaume-Uni et la Russie — et non l'Autriche-Hongrie, qui fait partie de la Triple Alliance avec l'Allemagne et l'Italie."
+      }
+    ]
+  }
+}

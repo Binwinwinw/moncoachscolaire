@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic HGGSP 1ère - Série 936",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "HGGSP",
+    "description": "Diagnostic HGGSP 1ère : Le rôle de l'État dans la construction des mémoires",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Le rôle de l'État dans la construction des mémoires",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "HGGSP",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Les 'lieux de mémoire' comme Verdun ou le Panthéon sont entretenus par l'État car ils permettent de :",
+        "choices": [
+          "Générer des revenus touristiques",
+          "Construire et transmettre une identité nationale",
+          "Éviter les conflits mémoriel",
+          "Satisfaire l'UNESCO"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les manuels scolaires sont des vecteurs importants de la mémoire collective officielle."
+      },
+      {
+        "type": "open",
+        "question": "Comment les politiques mémorielles peuvent-elles être instrumentalisées politiquement ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qui commémore-t-on le 8 mai en France ?",
+        "choices": [
+          "La fin de la guerre de 14-18",
+          "La libération de Paris",
+          "La victoire des Alliés et la fin de la Seconde Guerre mondiale en Europe",
+          "L'appel du 18 juin"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La reconnaissance des crimes coloniaux par un État peut susciter des tensions diplomatiques."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce qu'un 'roman national' et quelles sont ses limites ?"
+      },
+      {
+        "type": "qcm",
+        "question": "La 'concurrence des mémoires' désigne :",
+        "choices": [
+          "Une émission télévisée sur l'histoire",
+          "La rivalité entre différents groupes pour faire reconnaître leur mémoire dans l'espace public",
+          "Un débat académique entre historiens",
+          "Un conflit entre États sur leur passé commun"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les archives nationales jouent un rôle crucial dans la transmission de la mémoire historique."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

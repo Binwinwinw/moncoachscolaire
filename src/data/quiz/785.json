@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 785",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 3eme : Les transmissions de mouvement",
+    "status": "published",
+    "created_at": "2026-03-14 04:06:19",
+    "updated_at": "2026-03-14 04:06:19"
+  },
+  "quiz": {
+    "title": "Les transmissions de mouvement",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel systeme de transmission transforme un mouvement de rotation en mouvement de translation ?",
+        "choices": [
+          "Poulies-courroies",
+          "Vis-ecrou ou cremaillere-pignon",
+          "Engrenages cylindriques",
+          "Accouplement elastique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un rapport de transmission superieur a 1 signifie que la vitesse de sortie est plus grande que la vitesse d'entree."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on le systeme de transmission utilisant deux roues dentees en contact direct pour transmettre un mouvement de rotation ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel mecanisme permet de reduire la vitesse et d'augmenter le couple d'un moteur electrique ?",
+        "choices": [
+          "Un accouplement direct",
+          "Un reducteur de vitesse (boite de vitesses)",
+          "Un embrayage",
+          "Un variateur de frequence"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une courroie trapezoidale glisse moins qu'une courroie plate sous forte charge."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on le rapport entre la force utile produite et la force motrice dans un mecanisme de transmission ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel systeme de transmission est utilise pour synchroniser les mouvements entre deux axes distants (ex. distribution d'un moteur) ?",
+        "choices": [
+          "Engrenages droits",
+          "Courroie crantee (synchrone) ou chaine",
+          "Poulies lisses",
+          "Accouplement hydraulique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une bielle-manivelle transforme un mouvement de rotation continu en mouvement de translation alternatif."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

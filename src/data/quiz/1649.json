@@ -1,0 +1,77 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 2nde - Série 1649",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Français",
+    "description": "Diagnostic Français 2nde : Diagnostic 2nde Français - Phrase complexe et subordination",
+    "status": "published",
+    "created_at": "2026-03-14 07:35:11",
+    "updated_at": "2026-03-14 07:35:11",
+    "source": "Eduscol programmes officiels + BOEN",
+    "programme_ref": "<Référence programme officiel à renseigner>"
+  },
+  "quiz": {
+    "title": "Diagnostic 2nde Français - Phrase complexe et subordination",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Une phrase complexe est une phrase qui :",
+        "choices": [
+          "contient au moins deux verbes conjugués",
+          "contient uniquement des adjectifs",
+          "se termine toujours par un point d'exclamation",
+          "ne comporte jamais de conjonction"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Dans « Je pense que tu as raison », « que tu as raison » est une subordonnée conjonctive complétive."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on une subordonnée introduite par « qui », « que », « dont » ou « où » ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel lien logique exprime « parce que » ?",
+        "choices": [
+          "La conséquence",
+          "La cause",
+          "L'opposition",
+          "La concession"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "« Bien que » introduit généralement une idée de concession."
+      },
+      {
+        "type": "open",
+        "question": "Donne un connecteur de conséquence fréquemment utilisé dans un raisonnement."
+      },
+      {
+        "type": "qcm",
+        "question": "Dans « L'élève qui révise progresse », quelle est la nature de « qui révise » ?",
+        "choices": [
+          "Proposition indépendante",
+          "Subordonnée relative",
+          "Subordonnée circonstancielle de temps",
+          "Incise"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une proposition subordonnée ne peut jamais être supprimée sans modifier le sens de la phrase."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

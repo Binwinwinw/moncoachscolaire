@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 593",
+    "level": "3ème",
+    "subject": "Histoire-Géographie"
+  },
+  "quiz": {
+    "title": "Espaces productifs touristiques",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "La première destination touristique mondiale en nombre de visiteurs",
+        "correct": 1,
+        "correction": "La France attire des dizaines de millions de visiteurs par an."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Côtes atlantiques et méditerranéennes concentrent activités et emplois."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "durable",
+        "correction": "Il vise à préserver les ressources et les populations locales."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Les Alpes",
+        "correct": 0,
+        "correction": "Les Alpes concentrent stations de sports d'hiver et tourisme estival."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Pression immobilière, congestion et nuisances peuvent augmenter."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "saisonnier",
+        "correction": "Le tourisme génère beaucoup d'emplois temporaires."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Promouvoir des destinations moins fréquentées",
+        "correct": 1,
+        "correction": "La diversification des destinations réduit la pression."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Musées, monuments et festivals renforcent l'attractivité."
+      }
+    ]
+  }
+}

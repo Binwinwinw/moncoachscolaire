@@ -1,0 +1,226 @@
+/* Extracted from lycee/index.php */
+header { background: linear-gradient(135deg, #7c3aed 0%, #a855f7 100%); }
+
+/* Main transparent pour effet de flottement des cartes */
+.lycee-accueil-main,
+main.lycee-accueil-main {
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+/* Sections avec effet de flou pour flottement */
+.lycee-accueil-main .intro {
+    margin: 3rem auto;
+    max-width: 1200px;
+    position: relative;
+    z-index: 1;
+    padding: 0 1rem;
+}
+
+/* Grid pour utiliser toute la largeur de l'écran - 3 cartes sur une ligne */
+.lycee-accueil-main .niveau-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    justify-items: stretch;
+    width: 100%;
+    max-width: 100%;
+    margin: 2rem 0;
+    padding: 0 1rem;
+}
+
+/* Cartes avec effet de flou et flottement - utilisent toute la largeur disponible */
+.lycee-accueil-main .niveau-card {
+    background: rgba(255, 255, 255, 0.15) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    padding: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+    width: 100%;
+    max-width: 100%;
+    color: #1e293b;
+}
+
+.lycee-accueil-main .niveau-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.2) !important;
+}
+
+.niveau-card h3 {
+    color: #7c3aed;
+    margin: 0 0 0.5rem 0;
+}
+.niveau-card.special h3 { color: white; }
+.niveau-card.special {
+    background: linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%) !important;
+    color: white;
+    backdrop-filter: none;
+}
+.niveau-card.special::before { background: linear-gradient(90deg, #7c3aed, #a855f7, #c084fc); }
+.auth-links { margin-top: 1.5rem; }
+/* Messages coach avec effet de flou pour cohérence */
+.lycee-accueil-main .coach-message {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive : 2 colonnes sur tablette */
+@media (max-width: 1200px) {
+    .lycee-accueil-main .niveau-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+/* Responsive : 1 colonne sur mobile */
+@media (max-width: 768px) {
+    .lycee-accueil-main .niveau-cards {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .lycee-accueil-main .niveau-card {
+        max-width: 100%;
+    }
+}
+
+/* === Accueil niveau : Objectif + Continue + Navigation === */
+.lycee-accueil-main .level-home-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.lycee-accueil-main .level-home-card {
+    background: rgba(255, 255, 255, 0.18);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 6px 20px rgba(124, 58, 237, 0.12);
+    color: #1e293b;
+    position: relative;
+    overflow: hidden;
+}
+
+.lycee-accueil-main .level-home-card--goal {
+    border-left: 4px solid #7c3aed;
+}
+
+.lycee-accueil-main .level-home-card--goal::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(120deg, rgba(124, 58, 237, 0.18), rgba(255, 255, 255, 0));
+    opacity: 0;
+    animation: goalGlow 4s ease-in-out infinite;
+    pointer-events: none;
+}
+
+.lycee-accueil-main .level-home-card--continue {
+    border-left: 4px solid #a855f7;
+}
+
+.lycee-accueil-main .level-home-sub {
+    color: #1e293b;
+    margin: 0.5rem 0;
+}
+
+.lycee-accueil-main .level-home-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 0.75rem;
+}
+
+.lycee-accueil-main .level-home-primary {
+    background: #7c3aed;
+    color: #ffffff;
+}
+
+.lycee-accueil-main .level-home-primary:hover {
+    background: #6d28d9;
+}
+
+.lycee-accueil-main .level-home-meta {
+    margin-top: 0.75rem;
+    font-weight: 600;
+    color: #7c3aed;
+}
+
+.lycee-accueil-main .level-home-list {
+    list-style: none;
+    padding: 0;
+    margin: 0.75rem 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.lycee-accueil-main .level-home-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    background: rgba(255, 255, 255, 0.25);
+    padding: 0.75rem 1rem;
+    border-radius: 10px;
+}
+
+.lycee-accueil-main .level-home-nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin: 1.5rem 0 2rem;
+}
+
+.lycee-accueil-main .level-home-nav-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0.9rem 1rem;
+    border-radius: 10px;
+    background: rgba(124, 58, 237, 0.12);
+    border: 1px solid rgba(124, 58, 237, 0.2);
+    font-weight: 600;
+    color: #4c1d95;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.lycee-accueil-main .level-home-nav-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(124, 58, 237, 0.2);
+}
+
+@keyframes goalGlow {
+    0%, 100% { opacity: 0.15; }
+    50% { opacity: 0.45; }
+}
+
+@media (max-width: 1024px) {
+    .lycee-accueil-main .level-home-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .lycee-accueil-main .level-home-nav {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 640px) {
+    .lycee-accueil-main .level-home-nav {
+        grid-template-columns: 1fr;
+    }
+
+    .lycee-accueil-main .level-home-list li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

@@ -1,0 +1,102 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ère Anglais - Série 02",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ère : Expression avancée (Society, Environment - Eduscol B1/B2)",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-09 17:00:00"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ère English - Series 02",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Social media has changed how young people communicate. What's the main advantage?",
+        "choices": [
+          "Instant connection worldwide",
+          "Less face-to-face interaction",
+          "Privacy issues",
+          "Cyberbullying risks"
+        ],
+        "correct_index": 0,
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Climate change has been accelerating since the Industrial Revolution.",
+        "correct": true,
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "Name 2 actions to reduce plastic pollution (personal level).",
+        "placeholder": "ex: Use reusable bags, recycle properly",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Which tense for actions started in past and continue now? 'She _____ English for 5 years.'",
+        "choices": [
+          "has been learning",
+          "learned",
+          "is learning",
+          "learns"
+        ],
+        "correct_index": 0,
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Fake news spread faster on social media than real information.",
+        "correct": true,
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "Why is biodiversity important? Give 1 reason.",
+        "placeholder": "ex: Food chain balance, medicine sources",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "Governments should invest more in renewable energy because...",
+        "choices": [
+          "Reduces CO2 emissions",
+          "Creates jobs",
+          "Both A and B",
+          "Neither"
+        ],
+        "correct_index": 2,
+        "id": 7
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Passive voice: 'The book was written by J.K. Rowling.'",
+        "correct": true,
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Society & Media",
+      "description": "Social media impact, fake news (Eduscol 1ère themes)"
+    },
+    {
+      "notion": "Environment",
+      "description": "Climate change, biodiversity, pollution"
+    },
+    {
+      "notion": "Advanced Grammar",
+      "description": "Present perfect continuous, passive, conditionals"
+    }
+  ]
+}

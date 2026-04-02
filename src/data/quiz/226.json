@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Philosophie 1ere - Série 226",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Philosophie",
+    "description": "Diagnostic Philosophie 1ere : Quiz Diagnostic 1ere Philosophie - Serie 3",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Philosophie - Serie 3",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Philosophie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle position philosophique affirme que toutes nos actions sont déterminées par des causes antérieures, rendant la liberté illusoire ?",
+        "choices": [
+          "Le libertarisme",
+          "Le déterminisme",
+          "Le compatibilisme",
+          "L'existentialisme"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Pour Kant, la liberté est compatible avec le déterminisme naturel, car elle appartient à un ordre différent (le monde intelligible)."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que le libre arbitre et pourquoi est-il au cœur du débat sur la liberté ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Pour Spinoza, l'homme qui croit agir librement est en réalité :",
+        "choices": [
+          "Véritablement libre car il suit sa nature",
+          "Ignorant des causes qui le déterminent, car tout est nécessité",
+          "Libre grâce à la raison",
+          "Libre car il obéit à Dieu"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La liberté politique (civile) désigne la capacité d'agir sans aucune contrainte ni loi."
+      },
+      {
+        "type": "open",
+        "question": "Quelle est la thèse de Rousseau sur la liberté dans le Contrat social ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que l'autonomie au sens kantien ?",
+        "choices": [
+          "L'indépendance économique",
+          "La capacité à vivre seul sans aide",
+          "La capacité à se donner à soi-même sa propre loi morale par la raison",
+          "La liberté de faire ce que l'on veut"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'existentialisme sartrien affirme que 'l'existence précède l'essence', ce qui signifie que l'homme se définit par ses choix et non par une nature préalable."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,72 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 6eme SVT",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "SVT",
+    "description": "Diagnostic etats matiere, êtres vivants, environnement proche 6eme"
+  },
+  "quiz": {
+    "title": "Diagnostic SVT 6eme",
+    "level": "6eme",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "vrai-faux",
+        "answer": false,
+        "correction": "FAUX. Solide (glace), liquide (eau), gazeux (vapeur)"
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "qcm",
+        "answer": "Thermomètre (°C)",
+        "correction": "Thermomètre en degrés Celsius"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "answer": "0",
+        "correction": "Point de congélation = 0°C"
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Nutrition/reproduction",
+        "correction": "Vivants = se nourrissent, se reproduisent, respirent"
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": false,
+        "correction": "FAUX. Plantes = immobiles"
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "answer": "Flore",
+        "correction": "Flore = végétaux, Faune = animaux"
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Champ",
+        "correction": "Champ = moins d'arbres → plus de lumière"
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "answer": "La respiration",
+        "correction": "O₂ pour respiration animale/humaine"
+      }
+    ]
+  }
+}

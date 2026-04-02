@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 1ere - Série 280",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie 1ere : Quiz Diagnostic 1ere Physique-Chimie - Serie 8",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Physique-Chimie - Serie 8",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la relation entre la tension U (V), l'intensité I (A) et la résistance R (Ω) dans un conducteur ohmique ?",
+        "choices": [
+          "U = I + R",
+          "U = I × R (loi d'Ohm)",
+          "I = U × R",
+          "R = U + I"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Dans un circuit en série, l'intensité du courant est la même en tout point du circuit."
+      },
+      {
+        "type": "open",
+        "question": "Calculez la résistance équivalente de deux résistances R₁ = 100 Ω et R₂ = 200 Ω montées en parallèle."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la puissance électrique dissipée par une résistance de 50 Ω traversée par un courant de 2 A ?",
+        "choices": [
+          "25 W",
+          "100 W",
+          "200 W",
+          "4 W"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un condensateur stocke de l'énergie sous forme de champ électrique entre ses armatures."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que le courant alternatif (CA) et en quoi diffère-t-il du courant continu (CC) ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle loi permet de calculer l'intensité dans chaque branche d'un nœud de circuit ?",
+        "choices": [
+          "La loi d'Ohm",
+          "La loi des mailles (Kirchhoff)",
+          "La loi des nœuds (Kirchhoff)",
+          "La loi de Coulomb"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La diode est un composant électronique qui ne laisse passer le courant que dans un seul sens."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

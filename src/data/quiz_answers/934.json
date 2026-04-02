@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic HGGSP 1ère - Série 934",
+    "level": "1ère",
+    "subject": "HGGSP"
+  },
+  "quiz": {
+    "title": "La mémoire de la Seconde Guerre mondiale",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "HGGSP",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Le génocide des Juifs d'Europe par les nazis (1941-1945)",
+        "correct": 1,
+        "correction": "La Shoah (hébreu : 'catastrophe') désigne le génocide systématique de 6 millions de Juifs par le régime nazi et ses collaborateurs. Le terme s'est imposé notamment après le film de Claude Lanzmann (1985)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le Tribunal militaire international de Nuremberg a jugé les dirigeants nazis pour crimes contre la paix, crimes de guerre et crimes contre l'humanité. Il a posé les bases du droit pénal international."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "1944-1970s : mythe gaulliste d'une France résistante (glorification de la Résistance, minimisation de la collaboration). 1970s-1990s : travaux d'historiens (R. Paxton, H. Rousso) et films (Le Chagrin et la Pitié, 1971) révèlent la réalité de Vichy et la collaboration. 1995 : Chirac reconnaît la responsabilité de l'État français dans la déportation des Juifs. 2000s : multiplication des commémorations et débats sur la collaboration.",
+        "correction": "La mémoire de Vichy illustre le processus de deuil mémoriel complexe d'une société confrontée à un passé douloureux."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "27 janvier",
+        "correct": 2,
+        "correction": "Le 27 janvier commémore la libération du camp d'Auschwitz-Birkenau en 1945. L'ONU l'a officiellement désigné Journée internationale en 2005, pour les 60 ans de la libération."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Auschwitz-Birkenau est inscrit au patrimoine mondial de l'UNESCO depuis 1979 comme 'bien en péril' (héritage de la barbarie), pour transmettre la mémoire aux générations futures."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "Le négationnisme nie ou minimise les crimes nazis (génocide, chambre à gaz). Il est dangereux car il instrumentalise des 'arguments' pseudo-scientifiques pour servir des idéologies antisémites. Les États combattent le négationnisme par des lois (Gayssot en France, 1990) et les historiens par la rigueur scientifique. Il représente une menace pour la mémoire collective et la démocratie.",
+        "correction": "Figures négationnistes : Robert Faurisson, David Irving. Leurs thèses ont été réfutées par des historiens dans des procès retentissants."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Les victimes juives de la Shoah déportées de France",
+        "correct": 1,
+        "correction": "Le Mémorial de la Shoah (Paris, fondé en 1956, rénovations successives) conserve le Mur des Noms des 76 000 déportés juifs de France, un centre d'archives et un musée."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La Conférence de Wannsee (20 janvier 1942) réunit des hauts fonctionnaires nazis pour coordonner la mise en œuvre de la 'Solution finale' (Endlösung), confirmant le passage à l'extermination industrielle."
+      }
+    ]
+  }
+}

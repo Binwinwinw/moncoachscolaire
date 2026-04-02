@@ -1,0 +1,77 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 2nde - Série 214",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Français",
+    "description": "Diagnostic Français 2nde : Diagnostic 2nde Français - Orthographe grammaticale et accords",
+    "status": "published",
+    "created_at": "2026-03-14 07:16:54",
+    "updated_at": "2026-03-14 07:16:54",
+    "source": "Eduscol programmes officiels + BOEN",
+    "programme_ref": "<Référence programme officiel à renseigner>"
+  },
+  "quiz": {
+    "title": "Diagnostic 2nde Français - Orthographe grammaticale et accords",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Dans « Les élèves attentifs écoutent », quel mot commande l'accord du verbe ?",
+        "choices": [
+          "attentifs",
+          "écoutent",
+          "élèves",
+          "les"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Dans « Elles se sont parlé », le participe passé « parlé » reste invariable."
+      },
+      {
+        "type": "open",
+        "question": "Écris l'adjectif correctement : « des décisions (important) »."
+      },
+      {
+        "type": "qcm",
+        "question": "Choisis la phrase correcte.",
+        "choices": [
+          "Les fleurs que j'ai cueilli sont fanées.",
+          "Les fleurs que j'ai cueillies sont fanées.",
+          "Les fleurs que j'ai cueillis sont fanées.",
+          "Les fleurs que j'ai cueillie sont fanées."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le verbe s'accorde toujours avec le nom le plus proche."
+      },
+      {
+        "type": "open",
+        "question": "Complète correctement : « Ils se sont ___ de ce problème » (rendre compte)."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle phrase contient un accord correct du participe passé avec « être » ?",
+        "choices": [
+          "Elles sont parti tôt.",
+          "Elles sont parties tôt.",
+          "Elles sont partiez tôt.",
+          "Elles sont partis tôt."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Dans « ni Paul ni ses amis ne vient », l'accord est correct."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

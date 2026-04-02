@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 499",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "description": "Diagnostic Français 1ère : Grand oral : préparation et enjeux",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Grand oral : préparation et enjeux",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Le Grand Oral du baccalauréat s'appuie sur :",
+        "choices": [
+          "Un exposé de mathématiques",
+          "Une question liée aux spécialités du lycéen",
+          "Une récitation poétique",
+          "Un entretien sur la vie personnelle"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le Grand Oral valorise la clarté de l'expression et la posture de l'orateur."
+      },
+      {
+        "type": "open",
+        "question": "Pour préparer le Grand Oral, l'élève doit formuer sa question de façon _____, claire et problématisée."
+      },
+      {
+        "type": "qcm",
+        "question": "Lors du Grand Oral, quelle est la durée de la prise de parole en continu ?",
+        "choices": [
+          "5 minutes",
+          "10 minutes",
+          "15 minutes",
+          "20 minutes"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le Grand Oral peut également être utilisé pour présenter un projet personnel ou professionnel."
+      },
+      {
+        "type": "open",
+        "question": "La capacité à reformuler ses idées, à écouter les questions et à répondre avec nuance s'appelle l'_____ orale."
+      },
+      {
+        "type": "qcm",
+        "question": "Pour le Grand Oral, une bonne introduction doit :",
+        "choices": [
+          "Résumer toute la réponse",
+          "Poser la question, en montrer l'intérêt et annoncer le plan",
+          "Citer une définition de dictionnaire",
+          "Donner une liste d'exemples"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il est conseillé d'utiliser des supports visuels (diaporama) lors du Grand Oral."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques Terminale - Serie 1032",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques Terminale : Aire entre deux courbes",
+    "status": "published",
+    "created_at": "2026-03-13 11:24:24",
+    "updated_at": "2026-03-13 11:24:24"
+  },
+  "quiz": {
+    "title": "Aire entre deux courbes",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "L'aire entre f et g (avec f ≥ g) sur [a, b] est :",
+        "choices": [
+          "∫ₐᵇ f(x) dx − ∫ₐᵇ g(x) dx",
+          "∫ₐᵇ (f(x) + g(x)) dx",
+          "∫ₐᵇ f(x)·g(x) dx",
+          "|∫ₐᵇ f(x) dx|"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'aire entre la courbe de f et l'axe des x correspond à ∫ₐᵇ |f(x)| dx."
+      },
+      {
+        "type": "open",
+        "question": "Calcule l'aire entre f(x) = x² et g(x) = x sur [0, 1]."
+      },
+      {
+        "type": "qcm",
+        "question": "Pour calculer l'aire entre deux courbes qui se croisent, il faut :",
+        "choices": [
+          "Calculer directement ∫(f−g)dx",
+          "Repérer les intersections et séparer l'intégrale",
+          "Additionner les aires",
+          "Utiliser uniquement la valeur absolue de f"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une intégrale définie peut être négative, mais une aire est toujours positive ou nulle."
+      },
+      {
+        "type": "open",
+        "question": "Calcule l'aire entre y = x et y = x² (trouver d'abord les intersections)."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est l'unité de l'aire calculée par intégration ?",
+        "choices": [
+          "Mètres",
+          "Mètres carrés",
+          "Dépend des axes",
+          "Aucune"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "∫₀² (x² − x) dx donne l'aire entre y = x² et y = x sur [0, 2]."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

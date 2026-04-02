@@ -1,0 +1,67 @@
+{
+  "id": 1067,
+  "title": "Suites géométriques",
+  "subject": "Mathématiques",
+  "level": "1ère",
+  "created_at": "2026-03-13T18:54:00.426217Z",
+  "questions": [
+    {
+      "id": "1067_1",
+      "type": "qcm",
+      "question": "Dans une suite géométrique de premier terme u₁ et de raison q, que vaut uₙ ?",
+      "options": [
+        "uₙ = u₁ + (n−1)·q",
+        "uₙ = u₁ · q^(n−1)",
+        "uₙ = u₁ · qⁿ",
+        "uₙ = q + u₁^(n−1)"
+      ]
+    },
+    {
+      "id": "1067_2",
+      "type": "vrai-faux",
+      "question": "La suite 3, 6, 12, 24, … est géométrique de raison 2."
+    },
+    {
+      "id": "1067_3",
+      "type": "texte",
+      "question": "Une suite géométrique a u₁ = 5 et q = 3. Calcule u₄ et la somme S = u₁ + u₂ + u₃ + u₄."
+    },
+    {
+      "id": "1067_4",
+      "type": "qcm",
+      "question": "La somme des n premiers termes d'une suite géométrique (q ≠ 1) est :",
+      "options": [
+        "n·u₁·q",
+        "u₁·(qⁿ − 1)/(q − 1)",
+        "u₁/(1 − q)",
+        "u₁·(1 − qⁿ)/(q − 1)"
+      ]
+    },
+    {
+      "id": "1067_5",
+      "type": "vrai-faux",
+      "question": "Si |q| < 1, la suite géométrique uₙ = u₁·qⁿ tend vers 0."
+    },
+    {
+      "id": "1067_6",
+      "type": "texte",
+      "question": "Un capital de 2 000 € est placé à 3 % annuel. Exprime Cₙ après n années et estime le capital après 10 ans."
+    },
+    {
+      "id": "1067_7",
+      "type": "qcm",
+      "question": "Dans une suite géométrique de raison q > 1, la suite est :",
+      "options": [
+        "Constante",
+        "Décroissante",
+        "Croissante (si u₁ > 0)",
+        "Alternée"
+      ]
+    },
+    {
+      "id": "1067_8",
+      "type": "vrai-faux",
+      "question": "Chaque terme d'une suite géométrique est la moyenne géométrique de ses deux voisins."
+    }
+  ]
+}

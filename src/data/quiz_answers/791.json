@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 791",
+    "level": "3eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "La cybersecurite et protection des donnees",
+    "question_count": 8,
+    "level": "3eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Un programme concu pour endommager, perturber ou acceder sans autorisation a un systeme",
+        "correct": 1,
+        "correction": "Les malwares incluent virus, vers, chevaux de Troie, ransomwares, spywares ; ils peuvent voler des donnees, chiffrer des fichiers ou prendre le controle d'un systeme."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Un mot de passe robuste doit avoir au moins 12 caracteres et inclure des majuscules, minuscules, chiffres et symboles ; il doit etre unique pour chaque service."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "phishing",
+        "correction": "Le phishing (hameconnage) imite l'identite de banques, services publics ou reseaux sociaux pour inciter les victimes a saisir leurs identifiants sur de faux sites."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Une verification en deux etapes : mot de passe + second element (code SMS, application)",
+        "correct": 1,
+        "correction": "Le 2FA (Two-Factor Authentication) combine quelque chose que l'on sait (mot de passe) avec quelque chose que l'on possede (telephone, cle USB) pour renforcer la securite."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Les reseaux Wi-Fi publics non chiffres permettent des attaques 'man-in-the-middle' ou les donnees transitent en clair ; il faut utiliser un VPN ou eviter ces connexions."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "VPN",
+        "correction": "Un VPN (Virtual Private Network) cree un tunnel chiffre entre le client et un serveur distant, protégeant la confidentialite et permettant d'acceder a des contenus geo-restreints."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Une attaque qui sature un serveur avec un volume massif de requetes pour le rendre indisponible",
+        "correct": 1,
+        "correction": "DDoS (Distributed Denial of Service) coordonne des milliers de machines infectees (botnet) pour inonder un serveur de requetes jusqu'a le rendre inaccessible."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les mises a jour corrigent des vulnerabilites (zero-day, CVE) exploitees par les hackers ; retarder les mises a jour augmente le risque d'exploitation."
+      }
+    ]
+  }
+}

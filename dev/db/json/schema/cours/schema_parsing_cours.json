@@ -1,0 +1,66 @@
+{
+  "title": "Reported Speech (Style indirect)",
+  "subject": "Anglais",
+  "level": "Terminale",
+  "duration": 30,
+  "difficulty": "moyen",
+  "introduction": "Le reported speech permet de rapporter les paroles de quelqu'un...",
+  "objectives": [
+    "Comprendre le concept de backshift",
+    "Maîtriser les changements de pronoms",
+    "Transformer des phrases au style indirect"
+  ],
+  "sections": [
+    {
+      "id": 1,
+      "title": "Introduction au Reported Speech",
+      "type": "theory",
+      "content": "Le style indirect rapporte...",
+      "examples": [
+        {
+          "direct": "\"I am tired,\" she said.",
+          "indirect": "She said that she was tired.",
+          "explanation": "Le présent devient du passé (backshift)"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Les règles de transformation",
+      "type": "rules",
+      "content": "Voici les règles principales...",
+      "table": {
+        "headers": ["Direct Speech", "Reported Speech"],
+        "rows": [
+          ["Present Simple", "Past Simple"],
+          ["Will", "Would"]
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": "Exercice d'application",
+      "type": "practice",
+      "content": "Transforme ces phrases...",
+      "questions": [
+        {
+          "question": "\"I like this book,\" Tom said.",
+          "answer": "Tom said that he liked that book."
+        }
+      ]
+    }
+  ],
+  "key_points": [
+    "Le backshift est essentiel",
+    "Attention aux repères temporels (now → then)",
+    "Le mot 'that' est souvent optionnel"
+  ],
+  "resources": [
+    {
+      "type": "video",
+      "title": "Reported Speech explained",
+      "url": "https://example.com/video"
+    }
+  ],
+  "exercises_ids": [1088, 1089]
+}

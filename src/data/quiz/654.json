@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 654",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 3ème : Génétique : diversité génétique et brassage",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "Génétique : diversité génétique et brassage",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel mécanisme de la méiose augmente la diversité génétique en échangeant des segments entre chromosomes homologues ?",
+        "choices": [
+          "Mitose",
+          "Crossing-over",
+          "Apoptose",
+          "Traduction"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Deux frères et sœurs issus des mêmes parents ont exactement le même génome."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on l'ensemble des allèles d'une espèce au sein d'une population ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Pourquoi deux individus humains ne sont-ils jamais génétiquement identiques (hors vrais jumeaux) ?",
+        "choices": [
+          "Car ils ont des régimes alimentaires différents",
+          "Car la méiose et la fécondation sont des processus aléatoires",
+          "Car les cellules mutent constamment",
+          "Car les chromosomes disparaissent après chaque division"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La reproduction sexuée est le seul mécanisme permettant la diversité génétique."
+      },
+      {
+        "type": "open",
+        "question": "Quel est le nom du stade de la méiose où les chromosomes homologues s'échangent des segments ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la différence entre génotype et phénotype ?",
+        "choices": [
+          "Aucune différence",
+          "Le génotype est l'ensemble des allèles, le phénotype est l'expression observable",
+          "Le phénotype concerne l'ADN, le génotype les protéines",
+          "Le génotype est le comportement de l'individu"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'environnement peut influencer l'expression d'un génotype."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

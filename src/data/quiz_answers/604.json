@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 604",
+    "level": "1ère",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "L'ADN : structure, localisation et réplication",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Nucléotides",
+        "correct": 1,
+        "correction": "Chaque nucléotide d'ADN comprend : un sucre (désoxyribose), un groupement phosphate et une base azotée (A, T, G ou C)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Règle de complémentarité des bases (Chargaff) : A-T (deux liaisons hydrogène) et G-C (trois liaisons hydrogène)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "Crick",
+        "correction": "Watson et Crick publient en 1953 dans Nature le modèle de la double hélice, grâce aux données de diffraction X de Rosalind Franklin."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Matrice pour la synthèse d'un nouveau brin complémentaire",
+        "correct": 1,
+        "correction": "Réplication semi-conservative : chaque molécule fille conserve un brin parental et acquiert un brin nouvellement synthétisé."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "L'ADN est présent dans le noyau (ADN chromosomique), mais aussi dans les mitochondries et les chloroplastes (ADN circulaire propre)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "ADN",
+        "correction": "L'ADN polymérase lit le brin matrice et ajoute les nucléotides complémentaires dans le sens 5' vers 3'."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "46",
+        "correct": 1,
+        "correction": "L'être humain possède 46 chromosomes (23 paires) : 22 paires d'autosomes + 1 paire de chromosomes sexuels (XX ou XY)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Un gène est une portion de la molécule d'ADN qui contient l'information nécessaire à la synthèse d'une protéine ou d'un ARN fonctionnel."
+      }
+    ]
+  }
+}

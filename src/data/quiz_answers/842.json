@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES 1ère - Série 842",
+    "level": "1ère",
+    "subject": "SES"
+  },
+  "quiz": {
+    "title": "La fiscalité",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "SES",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Est payé directement par celui qui le supporte",
+        "correct": 1,
+        "correction": "Ex : impôt sur le revenu (IR), impôt sur les sociétés (IS), impôt sur la fortune immobilière (IFI)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La TVA (taux normal 20 %) représente environ 50 % des recettes fiscales nettes de l'État, devant l'IR et l'IS."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "La courbe de Laffer montre qu'au-delà d'un certain taux d'imposition, des taux plus élevés génèrent moins de recettes (car ils découragent l'activité, favorisent l'évasion fiscale). Cela a alimenté les politiques de réduction d'impôts dans les années 1980 (Reaganomics).",
+        "correction": "Son point clé : 'trop d'impôt tue l'impôt'. En pratique, trouver le taux optimal est difficile."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Un acte illégal de non-déclaration ou dissimulation de revenus",
+        "correct": 1,
+        "correction": "L'évasion fiscale est illégale. L'optimisation fiscale (evitement fiscal/tax avoidance) utilise légalement les failles de la loi."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La flat tax (impôt proportionnel) s'oppose à la progressivité de l'impôt sur le revenu. Elle a été introduite dans certains pays d'Europe de l'Est."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "1. Équité : chacun contribue selon ses moyens. 2. Certitude : règles claires et prévisibles. 3. Commodité : impôt facile à payer. 4. Économie : faibles coûts de collecte. (Smith en listait 4 mais certains résument à 3 : équité, efficacité, simplicité.)",
+        "correction": "Ces principes guident encore les débats sur la réforme fiscale."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Internaliser les coûts environnementaux dans les prix",
+        "correct": 1,
+        "correction": "En renchérissant les activités polluantes, la taxe carbone incite les agents à modifier leur comportement (logique pigouvienne)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Depuis janvier 2019, l'IR est prélevé directement sur le salaire par l'employeur, supprimant le décalage d'un an de paiement."
+      }
+    ]
+  }
+}

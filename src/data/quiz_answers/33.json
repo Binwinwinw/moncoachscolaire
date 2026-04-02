@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 4eme Mathématiques",
+    "level": "4eme",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 4eme Mathématiques",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "**4** (2x=8 → x=4)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "correct": 1,
+        "correction": "**Vrai**. Propriété triangle quelconque."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "correct": null,
+        "correction": "**7** (3,5×2=7)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "**égaux** (propriété parallélogramme)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "correct": 1,
+        "correction": "**Vrai**. 3×5-10=5."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "correct": null,
+        "correction": "**12 cm²** (longueur×largeur)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "**2x + 6** (distributivité)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "correct": 1,
+        "correction": "**Vrai**. Entre entiers (ex: 1,2 entre 1 et 2)."
+      }
+    ],
+    "level": "4eme",
+    "subject": "Mathématiques"
+  }
+}

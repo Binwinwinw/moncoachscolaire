@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 3ème - Série 8",
+    "level": "3eme",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Diagnostic Mathématiques 3ème",
+    "question_count": 8,
+    "level": "3eme",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "Substitution (isoler une inconnue et remplacer) ou élimination (addition/soustraction pour annuler une variable). Méthodes algébriques standard en 3ème pour systèmes linéaires à deux équations/deux inconnues."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "texte",
+        "correct": null,
+        "correction": "2x - 3 = 7 → 2x = 10 → x = 5. Étapes : isoler le terme en x, puis diviser par son coefficient. Équation du 1er degré linéaire, base du calcul algébrique en cycle 4."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "correct": 1,
+        "correction": "Vrai. f(x) = ax + b est la forme générale d'une fonction affine (droite non verticale). Cas particulier : si b=0, fonction linéaire passant par l'origine. Représentation graphique : droite."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "texte",
+        "correct": null,
+        "correction": "Côté opposé = hypoténuse × sin(30°) = 10 × 0,5 = 5 cm. Trigonométrie de base en triangle rectangle : sin = opposé/hypoténuse. Valeur mémorisée : sin 30° = 1/2."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "26 cartes rouges sur 52 → P = 26/52 = 1/4. Probabilité = cas favorables / total. Réduire la fraction. Événement élémentaire dans un univers équiprobable (jeu de cartes standard)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "On remplace x par 4 dans l'expression : f(4) = 2 x 4 - 3 = 8 - 3 = 5. Cette méthode d'évaluation d'une fonction est fondamentale pour lire une expression algébrique. Elle prépare aussi à la lecture graphique en associant une entrée x à une image f(x)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "vrai-faux",
+        "correct": 1,
+        "correction": "Vrai. C'est exactement l'énoncé du théorème de Pythagore : dans un triangle rectangle, c^2 = a^2 + b^2. Ce théorème sert à calculer une longueur manquante et à vérifier qu'un triangle est rectangle. Il est central en géométrie du cycle 4."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "correct": null,
+        "correction": "La probabilité est 3/6, soit 1/2, car les nombres pairs possibles sont 2, 4 et 6 (3 cas favorables sur 6 cas possibles). On peut simplifier 3/6 en divisant par 3. Cette approche utilise la formule de base : P = cas favorables / cas possibles."
+      }
+    ]
+  }
+}

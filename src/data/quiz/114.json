@@ -1,0 +1,98 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 5ème Français - Analyse Textes",
+    "type": "quiz",
+    "level": "5eme",
+    "subject": "Français",
+    "description": "Diagnostic Grammaire, types textes, compréhension - 5ème",
+    "status": "published",
+    "created_at": "2026-03-08 18:17:00",
+    "updated_at": "2026-03-08 18:17:00"
+  },
+  "quiz": {
+    "title": "Diagnostic 5ème - Français Analyse",
+    "level": "5eme",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Dans 'Le chat noir miaule', 'noir' =",
+        "choices": [
+          "Nom",
+          "Adjectif qualificatif",
+          "Verbe",
+          "Adverbe"
+        ],
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Conte = récit merveilleux (fées, animaux parlants).",
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "'Je mange' (verbe aller 1ps présent)",
+        "placeholder": "je vais",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Lettre = texte ...",
+        "choices": [
+          "narratif",
+          "argumentatif",
+          "expresse",
+          "poétique"
+        ],
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Adjectif s'accorde genre/nombre nom.",
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "Fable = morale + ... parlants",
+        "placeholder": "animaux",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "'Les enfants jouent' sujet pluriel =",
+        "choices": [
+          "jouent 3ps pluriel",
+          "joue 3ps singulier",
+          "jouais imparfait",
+          "jouera futur"
+        ],
+        "id": 7
+      },
+      {
+        "type": "texte",
+        "question": "Poème = texte en ...",
+        "placeholder": "vers",
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Adjectifs",
+      "description": "Qualificatifs accord GN (5ème grammaire)"
+    },
+    {
+      "notion": "Types textes",
+      "description": "Conte, fable, lettre, poème (5ème lecture)"
+    },
+    {
+      "notion": "Conjugaison",
+      "description": "Présent réguliers (-er, aller...)"
+    }
+  ],
+  "exerciseresponses": []
+}

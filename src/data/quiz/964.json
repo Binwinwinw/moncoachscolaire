@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 2nde - Serie 964",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 2nde : Calcul littéral & factorisation",
+    "status": "published",
+    "created_at": "2026-03-13 11:15:43",
+    "updated_at": "2026-03-13 11:15:43"
+  },
+  "quiz": {
+    "title": "Calcul littéral & factorisation",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel est le développement de (a + b)² ?",
+        "choices": [
+          "a² + b²",
+          "a² + 2ab + b²",
+          "a² − 2ab + b²",
+          "2a + 2b"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "(a − b)(a + b) = a² − b²."
+      },
+      {
+        "type": "open",
+        "question": "Factorise l'expression : x² − 9."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le développement de (2x − 3)² ?",
+        "choices": [
+          "4x² − 9",
+          "4x² + 12x + 9",
+          "4x² − 12x + 9",
+          "4x² − 6x + 9"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "3x² + 6x = 3x(x + 2)."
+      },
+      {
+        "type": "open",
+        "question": "Développe et réduis : (x + 4)(x − 1)."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle factorisation est correcte pour x² + 5x + 6 ?",
+        "choices": [
+          "(x+1)(x+6)",
+          "(x+2)(x+3)",
+          "(x−2)(x−3)",
+          "(x+1)(x+5)"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "a² + b² peut se factoriser en (a+b)(a+b)."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,224 @@
+}
+
+.login-btn {
+    background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+}
+
+.login-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(37, 99, 235, 0.3);
+}
+
+.login-links {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid #e5e7eb;
+}
+
+.login-links a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 1rem;
+    transition: color 0.3s ease;
+}
+
+.login-links a:hover {
+    color: #1d4ed8;
+}
+
+.demo-notice {
+    background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+    border: 1px solid #f59e0b;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.demo-notice strong {
+    color: #d97706;
+}
+
+/* Validation Styles */
+.password-input-wrapper {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    opacity: 0.6;
+    transition: opacity 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.toggle-password:hover {
+    opacity: 1;
+}
+
+/* Style pour l'œil barré (mot de passe masqué) */
+.eye-icon-hidden {
+    position: relative;
+}
+
+.eye-icon-hidden::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #dc2626;
+    transform: translateY(-50%) rotate(-45deg);
+    transform-origin: center;
+}
+
+.form-error {
+    display: block;
+    color: #dc2626;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+    min-height: 1.25rem;
+}
+
+.form-help {
+    display: block;
+    color: #6b7280;
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+    font-style: italic;
+}
+
+.required-asterisk {
+    color: #dc2626;
+    font-weight: bold;
+    margin-left: 2px;
+}
+
+.form-group input.error,
+.form-group input[aria-invalid="true"] {
+    border-color: #dc2626;
+    background-color: #fef2f2;
+}
+
+.form-group input.error:focus,
+.form-group input[aria-invalid="true"]:focus {
+    outline: 2px solid #dc2626;
+    outline-offset: 2px;
+}
+
+/* Animation pour les messages d'erreur */
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
+    20%, 40%, 60%, 80% { transform: translateX(5px); }
+}
+
+.error-icon {
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.form-group input.error {
+    border-color: #dc2626 !important;
+    box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.1) !important;
+}
+
+.error-message {
+    background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%);
+    border: 2px solid #dc2626;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    animation: shake 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: #991b1b;
+    transition: opacity 0.3s ease;
+    animation: slideIn 0.3s ease-out;
+}
+
+.success-message {
+    background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
+    border: 2px solid #10b981;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: #065f46;
+    animation: slideIn 0.3s ease-out;
+}
+
+.error-icon, .success-icon {
+    font-size: 1.25rem;
+    flex-shrink: 0;
+}
+
+.btn-loading {
+    display: inline-block;
+}
+
+.login-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Amélioration de l'accessibilité */
+.form-group input:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.form-group input:invalid:not(:placeholder-shown) {
+    border-color: #dc2626;
+}
+
+.form-group input:valid:not(:placeholder-shown) {
+    border-color: #10b981;
+}
+
+/* Rendre le main transparent uniquement sur la page login pour voir le fond directement */
+/* Surcharger la règle globale de style.css seulement pour login (éviter d'affecter la landing) */
+body.login-page main {
+    background-color: transparent !important;
+    min-height: calc(100vh - var(--header-height, 80px));
+}

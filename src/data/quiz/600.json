@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 600",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 3ème : Mers et océans : espaces stratégiques",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "Mers et océans : espaces stratégiques",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Environ quelle part du commerce mondial passe par la mer ?",
+        "choices": [
+          "20%",
+          "50%",
+          "90%",
+          "100%"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les détroits et canaux sont des points stratégiques du commerce mondial."
+      },
+      {
+        "type": "open",
+        "question": "La zone maritime sur laquelle un État dispose de droits économiques s'appelle la _____."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel enjeu environnemental majeur touche les océans ?",
+        "choices": [
+          "La glaciation généralisée",
+          "La pollution plastique",
+          "La disparition du sel",
+          "L'absence de trafic"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les câbles sous-marins transportent une grande partie des données internet mondiales."
+      },
+      {
+        "type": "open",
+        "question": "La surexploitation des ressources marines peut provoquer l'effondrement des _____."
+      },
+      {
+        "type": "qcm",
+        "question": "Pourquoi les littoraux concentrent-ils autant d'activités ?",
+        "choices": [
+          "Parce qu'ils sont vides d'habitants",
+          "Parce qu'ils offrent interfaces, ports et attractivité",
+          "Parce qu'ils interdisent les échanges",
+          "Parce qu'ils n'ont aucun risque"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La montée du niveau de la mer menace des zones côtières densément peuplées."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 607",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 1ère : Mutations et variabilité génétique",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Mutations et variabilité génétique",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Une mutation génétique est :",
+        "choices": [
+          "Un changement temporaire de l'ADN",
+          "Une modification permanente et héritable de la séquence d'ADN",
+          "Une erreur de lecture des ribosomes",
+          "Un processus normal de la transcription"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les mutations sont toujours néfastes pour l'organisme."
+      },
+      {
+        "type": "open",
+        "question": "La mutation qui change un seul nucléotide (substitution d'une base par une autre) est appelée mutation _____."
+      },
+      {
+        "type": "qcm",
+        "question": "Quels facteurs peuvent augmenter le taux de mutations (agents mutagènes) ?",
+        "choices": [
+          "L'eau et la lumière visible",
+          "Les rayonnements UV, les rayons X et certains produits chimiques",
+          "La température corporelle normale",
+          "L'alimentation équilibrée"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La drépanocytose est une maladie génétique causée par une mutation ponctuelle dans le gène de l'hémoglobine."
+      },
+      {
+        "type": "open",
+        "question": "Les systèmes de réparation de l'ADN permettent de corriger la majorité des erreurs de _____ et des dommages mutagènes."
+      },
+      {
+        "type": "qcm",
+        "question": "Une mutation dans une cellule somatique (non reproductrice) :",
+        "choices": [
+          "Est transmise à toute la descendance",
+          "N'affecte que l'individu porteur, pas ses descendants",
+          "N'a jamais de conséquences",
+          "Provoque toujours un cancer"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les mutations sont la source ultime de la diversité génétique et donc du matériel brut de l'évolution."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

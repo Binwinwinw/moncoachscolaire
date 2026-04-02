@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 796",
+    "level": "3eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "L'eco-conception et cycle de vie des produits",
+    "question_count": 8,
+    "level": "3eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "L'evaluation des impacts environnementaux de la conception a la fin de vie",
+        "correct": 1,
+        "correction": "L'ACV (ISO 14040) evalue les impacts environnementaux d'un produit de l'extraction des matieres premieres a sa fin de vie, en passant par la fabrication et l'usage."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'eco-conception prend en compte l'environnement comme parametre de conception (choix materiaux, energie, durabilite, recyclabilite) plutot qu'en fin de processus."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "cycle de vie",
+        "correction": "Le cycle de vie comprend : extraction des matieres premieres, fabrication, distribution, utilisation, fin de vie (reutilisation, recyclage, elimination)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Ecologie industrielle et territoriale",
+        "correct": 1,
+        "correction": "L'ecologie industrielle (ex. zone industrielle de Kalundborg au Danemark) organise des echanges de flux de matieres et d'energie entre entreprises voisines."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Un produit reparable a une duree de vie plus longue, reduisant la consommation de matieres premieres et les dechets ; l'indice de reparabilite est obligatoire en France depuis 2021."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "upcycling",
+        "correction": "L'upcycling (surcyclage) transforme des dechets en nouveaux produits de valeur superieure ou egale sans les degrader, contrairement au recyclage classique (downcycling)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Label TCO Certified ou EPEAT",
+        "correct": 1,
+        "correction": "TCO Certified et EPEAT (Electronic Product Environmental Assessment Tool) evaluent les criteres environnementaux et sociaux des produits electroniques."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La directive europeenne DEEE (2002/96/CE) et la loi francaise imposent la collecte et le traitement specifique des dechets electroniques pour recuperer les metaux rares et eviter les pollutions."
+      }
+    ]
+  }
+}

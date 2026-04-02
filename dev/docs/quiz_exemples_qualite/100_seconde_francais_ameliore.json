@@ -1,0 +1,102 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Seconde Français - Serie 100 (VERSION AMÉLIORÉE)",
+    "type": "quiz",
+    "level": "seconde",
+    "subject": "Français",
+    "description": "Évaluation diagnostique en littérature seconde : genres littéraires (fable, épopée), versification (alexandrin, rimes), auteurs classiques (Hugo, Molière, Rostand), narration et registres",
+    "status": "published",
+    "created_at": "2026-03-07 18:20:00",
+    "updated_at": "2026-03-07 18:20:00"
+  },
+  "quiz": {
+    "title": "Diagnostic Français Seconde - Serie 100",
+    "level": "seconde",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 20,
+    "questions": [
+      {
+        "id": 1,
+        "type": "qcm",
+        "question": "Quel est le genre littéraire caractéristique d'une fable (comme celles de La Fontaine) ?",
+        "choices": [
+          "Un poème lyrique exprimant des sentiments personnels",
+          "Un conte fantastique avec des éléments surnaturels",
+          "Un récit court à visée morale, souvent mettant en scène des animaux",
+          "Un roman d'aventures épiques"
+        ]
+      },
+      {
+        "id": 2,
+        "type": "vrai-faux",
+        "question": "Un alexandrin est un vers composé de 12 syllabes (ou pieds)."
+      },
+      {
+        "id": 3,
+        "type": "texte",
+        "question": "Comment appelle-t-on des rimes qui se terminent par les mêmes sons, comme 'jour' et 'amour' ou 'chanter' et 'aimer' ?",
+        "placeholder": "Type de rimes selon leur sonorité"
+      },
+      {
+        "id": 4,
+        "type": "qcm",
+        "question": "La littérature épique raconte principalement :",
+        "choices": [
+          "Des histoires d'amour et de sentiments intimes",
+          "Des exploits héroïques et des aventures extraordinaires",
+          "Des scènes de la vie quotidienne et réaliste",
+          "Des découvertes scientifiques et techniques"
+        ]
+      },
+      {
+        "id": 5,
+        "type": "texte",
+        "question": "Quel célèbre poète français du XIXe siècle a écrit le poème 'Demain dès l'aube', dédié à sa fille défunte ?",
+        "placeholder": "Nom et prénom de l'auteur"
+      },
+      {
+        "id": 6,
+        "type": "vrai-faux",
+        "question": "Molière, dramaturge français célèbre pour ses comédies, a vécu au XXe siècle."
+      },
+      {
+        "id": 7,
+        "type": "qcm",
+        "question": "La pièce de théâtre 'Cyrano de Bergerac' a été écrite par :",
+        "choices": [
+          "François Rabelais (XVIe siècle)",
+          "Michel de Montaigne (XVIe siècle)",
+          "Savinien de Cyrano de Bergerac lui-même (XVIIe siècle)",
+          "Edmond Rostand (XIXe-XXe siècle)"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "texte",
+        "question": "Dans un récit, comment appelle-t-on le type de narration où le narrateur est un personnage de l'histoire et raconte à la première personne ('je') ?",
+        "placeholder": "Narration à la... personne"
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Genres littéraires",
+      "description": "Fable (récit moral), épopée (exploits héroïques), poésie lyrique (sentiments)"
+    },
+    {
+      "notion": "Versification",
+      "description": "Alexandrin (12 syllabes), types de rimes (plates, croisées, embrassées), sonorités"
+    },
+    {
+      "notion": "Auteurs classiques",
+      "description": "Hugo (romantisme XIXe), Molière (comédie XVIIe), Rostand (théâtre XIXe-XXe)"
+    },
+    {
+      "notion": "Narration",
+      "description": "Points de vue narratifs : première personne (interne), troisième (externe, omniscient)"
+    }
+  ],
+  "exerciseresponses": []
+}

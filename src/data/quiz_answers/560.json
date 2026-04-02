@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 560",
+    "level": "3ème",
+    "subject": "Histoire-Géographie"
+  },
+  "quiz": {
+    "title": "La Deuxième Guerre mondiale : déclenchement et premières phases",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "L'invasion de la Pologne par l'Allemagne nazie",
+        "correct": 1,
+        "correction": "Le 1er septembre 1939, l'Allemagne envahit la Pologne ; la France et le Royaume-Uni déclarent la guerre à l'Allemagne le 3 septembre."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Après la défaite de juin 1940, la France est divisée : zone occupée au nord et zone libre au sud (gouvernée par Vichy jusqu'en 1942)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "18",
+        "correction": "L'Appel du 18 juin 1940 de De Gaulle sur la BBC refuse l'armistice et appelle les Français à continuer la lutte."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "La combinaison rapide de blindés, aviation et infanterie motorisée",
+        "correct": 1,
+        "correction": "La Blitzkrieg (foudre) contourne les défenses ennemies grâce à la rapidité et à la combinaison des armes."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le pacte Molotov-Ribbentrop (23 août 1939) prévoit la neutralité réciproque et un protocole secret partageant l'Europe de l'Est."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "collaboration",
+        "correction": "Le régime de Vichy collabore activement avec l'Allemagne nazie, notamment pour la déportation des Juifs."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Normandie",
+        "correct": 2,
+        "correction": "L'opération Overlord (6 juin 1944) voit les Alliés débarquer sur les plages de Normandie ; c'est le début de la libération de l'Europe occidentale."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le 22 juin 1941, l'Allemagne envahit l'URSS malgré le pacte germano-soviétique ; le front de l'Est devient le plus meurtrier du conflit."
+      }
+    ]
+  }
+}

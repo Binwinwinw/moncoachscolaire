@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 712",
+    "level": "3ème",
+    "subject": "Physique-Chimie"
+  },
+  "quiz": {
+    "title": "Acides et bases : réactions et neutralisation",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "NaCl + H2O",
+        "correct": 1,
+        "correction": "HCl + NaOH → NaCl + H2O : réaction de neutralisation donnant chlorure de sodium et eau."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Le pH final dépend des forces de l'acide et de la base. Acide fort + base forte → pH = 7, mais acide faible + base forte → pH > 7."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "titrage",
+        "correction": "Le titrage (ou dosage) consiste à mesurer le volume d'une solution titrante de concentration connue nécessaire pour neutraliser l'analyte."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Point d'équivalence",
+        "correct": 1,
+        "correction": "Au point d'équivalence (ou point stœchiométrique), la quantité de titrant ajouté correspond exactement à la quantité d'analyte."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "H2SO4 est un acide fort diprotique ; sa première dissociation est totale : H2SO4 → H+ + HSO4-."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "sulfate de sodium",
+        "correction": "H2SO4 + 2NaOH → Na2SO4 + 2H2O. Na2SO4 est le sulfate de sodium."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Tampon carbonate/bicarbonate (CO2/HCO3-)",
+        "correct": 1,
+        "correction": "Le système tampon CO2/HCO3- est le principal régulateur du pH sanguin, maintenu entre 7,35 et 7,45."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "SO2 + H2O → H2SO3 et NOx + H2O → HNO3 forment des acides qui acidifient les précipitations (pH < 5,6)."
+      }
+    ]
+  }
+}

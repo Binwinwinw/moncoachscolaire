@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 565",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 3ème : La guerre d'Algérie (1954–1962)",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "La guerre d'Algérie (1954–1962)",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "La guerre d'Algérie débute le 1er novembre 1954 avec :",
+        "choices": [
+          "Un coup d'État militaire",
+          "Des attentats du FLN contre des cibles françaises en Algérie",
+          "L'élection de De Gaulle",
+          "Le débarquement de troupes françaises"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'Algérie était, selon le gouvernement français, un département français et non une colonie."
+      },
+      {
+        "type": "open",
+        "question": "Les pieds-noirs sont les Européens installés en Algérie depuis des générations ; beaucoup quittent l'Algérie lors de l'indépendance de _____."
+      },
+      {
+        "type": "qcm",
+        "question": "Les harkis sont :",
+        "choices": [
+          "Des soldats français envoyés en Algérie",
+          "Des Algériens musulmans ayant combattu aux côtés de l'armée française",
+          "Des chefs du FLN",
+          "Des diplomates français"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'armée française a eu recours à la torture pendant la guerre d'Algérie, notamment lors de la bataille d'Alger."
+      },
+      {
+        "type": "open",
+        "question": "La crise du 13 mai 1958 en Algérie provoque le retour au pouvoir du général _____, qui fonde la Ve République."
+      },
+      {
+        "type": "qcm",
+        "question": "Les accords d'Évian (19 mars 1962) établissent :",
+        "choices": [
+          "La poursuite de la guerre",
+          "Un cessez-le-feu et l'organisation d'un référendum sur l'indépendance algérienne",
+          "L'annexion de l'Algérie à la France",
+          "Une autonomie interne"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La guerre d'Algérie est officiellement reconnue comme une 'guerre' par la France seulement en 1999."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 733",
+    "level": "3ème",
+    "subject": "Physique-Chimie"
+  },
+  "quiz": {
+    "title": "Lumière : polarisation et applications optiques",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "La restriction des vibrations de la lumière à une seule direction",
+        "correct": 2,
+        "correction": "La polarisation est le phénomène par lequel les vibrations d'une onde lumineuse sont limitées à une direction spécifique."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La lumière naturelle contient des ondes vibrantes dans toutes les directions, tandis que la réflexion sur des surfaces peut polariser partiellement la lumière."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "filtre polarisant (ou polariseur)",
+        "correction": "Un filtre polarisant bloque les ondes lumineuses dont les vibrations ne sont pas alignées avec sa direction de polarisation."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Réduire l'éblouissement causé par la réflexion sur les surfaces horizontales",
+        "correct": 1,
+        "correction": "Les lunettes de soleil polarisantes réduisent l'éblouissement en bloquant la lumière polarisée horizontalement réfléchie par des surfaces comme l'eau ou la route."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les écrans LCD utilisent des cristaux liquides pour contrôler la polarisation de la lumière et ainsi afficher des images."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "La polarisation linéaire a des vibrations dans une seule direction, la circulaire a des vibrations qui tournent en cercle, et l'elliptique a des vibrations qui décrivent une ellipse.",
+        "correction": "La polarisation linéaire est unidirectionnelle, la circulaire implique une rotation uniforme des vibrations, et l'elliptique combine les deux avec des amplitudes différentes."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Polarisation",
+        "correct": 2,
+        "correction": "Les lunettes 3D utilisent la polarisation pour envoyer des images différentes à chaque œil, créant ainsi une perception de profondeur."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "En utilisant un filtre polarisant, les photographes peuvent réduire les reflets indésirables sur l'eau et améliorer la saturation des couleurs."
+      }
+    ]
+  }
+}

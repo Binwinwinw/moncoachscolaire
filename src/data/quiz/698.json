@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 698",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 3ème : Quiz blanc final SVT 3ème",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "Quiz blanc final SVT 3ème",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel processus transforme l'énergie lumineuse en énergie chimique stockée dans la matière organique ?",
+        "choices": [
+          "La fermentation",
+          "La photosynthèse",
+          "La respiration",
+          "La digestion"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une espèce peut disparaître si son habitat est fortement dégradé ou fragmenté."
+      },
+      {
+        "type": "open",
+        "question": "Le nom de la molécule qui porte l'information génétique dans les cellules est l'_____."
+      },
+      {
+        "type": "qcm",
+        "question": "Dans quel organe se situe principalement le développement de l'embryon puis du fœtus chez l'être humain ?",
+        "choices": [
+          "L'ovaire",
+          "L'utérus",
+          "Le foie",
+          "Le rein"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les plaques tectoniques sont immobiles à l'échelle des temps géologiques."
+      },
+      {
+        "type": "open",
+        "question": "La protection d'une population par la vaccination d'une grande partie du groupe est appelée immunité _____."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel ensemble de relations alimentaires relie producteurs, consommateurs et décomposeurs dans un milieu ?",
+        "choices": [
+          "Le réseau trophique",
+          "Le caryotype",
+          "Le cycle menstruel",
+          "La tectonique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les connaissances scientifiques en SVT reposent sur l'observation, l'expérimentation et la confrontation des hypothèses aux faits."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,97 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 6eme Histoire-Géographie",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic repères spatiaux/temps, continents, Orient ancien 6eme",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-08 14:13:00"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 6eme Histoire-Géographie",
+    "level": "6eme",
+    "subject": "Histoire-Géographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Combien y a-t-il de continents sur Terre ?",
+        "choices": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La France est en Europe.",
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "Nommer un pays d'Afrique.",
+        "placeholder": "Ex: Maroc",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Où se trouve la Mésopotamie ?",
+        "choices": [
+          "Europe",
+          "Asie",
+          "Afrique",
+          "Amérique"
+        ],
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'Égypte ancienne est en Afrique.",
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "Quelle est la capitale de la France ?",
+        "placeholder": "Paris",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "L'invention de l'écriture date d'environ :",
+        "choices": [
+          "5000 av. J.-C.",
+          "1000 av. J.-C.",
+          "2000 ap. J.-C.",
+          "500 ap. J.-C."
+        ],
+        "id": 7
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les fleuves étaient importants pour les civilisations anciennes.",
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Repères spatiaux",
+      "description": "Concept clé de Histoire-Géographie au niveau 6eme"
+    },
+    {
+      "notion": "Continents/Orient ancien",
+      "description": "Concept clé de Histoire-Géographie au niveau 6eme"
+    },
+    {
+      "notion": "Repères chronologiques",
+      "description": "Concept clé de Histoire-Géographie au niveau 6eme"
+    }
+  ],
+  "exerciseresponses": []
+}

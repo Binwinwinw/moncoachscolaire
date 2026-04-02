@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 470",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "description": "Diagnostic Français 1ère : La poésie symboliste",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "La poésie symboliste",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel poème de Baudelaire est considéré comme manifeste du Symbolisme ?",
+        "choices": [
+          "Spleen",
+          "Correspondances",
+          "L'Albatros",
+          "Harmonie du soir"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le Symbolisme est un mouvement du XVIIe siècle."
+      },
+      {
+        "type": "open",
+        "question": "Chez les symbolistes, le symbole est une image qui suggère une réalité _____ invisible."
+      },
+      {
+        "type": "qcm",
+        "question": "Verlaine préconise dans 'Art poétique' de privilegier :",
+        "choices": [
+          "La rime riche",
+          "La musique avant toute chose",
+          "La clarté du discours",
+          "La régularité du mètre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Rimbaud a écrit 'Une saison en enfer'."
+      },
+      {
+        "type": "open",
+        "question": "Mallarmé recherche un langage poétique pur, dépouillé du réel, visant à suggérer plutôt qu'à _____."
+      },
+      {
+        "type": "qcm",
+        "question": "La synesthésie, procédé cher aux symbolistes, consiste à :",
+        "choices": [
+          "Répéter un son en fin de vers",
+          "Associer des sensations de registres différents",
+          "Inverser l'ordre habituel des mots",
+          "Omettre la ponctuation"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le Parnasse et le Symbolisme partagent le même idéal poétique."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

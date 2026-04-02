@@ -1,0 +1,98 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 5ème SVT - Biologie Naturelle",
+    "type": "quiz",
+    "level": "5eme",
+    "subject": "SVT",
+    "description": "Diagnostic Cellules, écosystèmes, reproduction - 5ème",
+    "status": "published",
+    "created_at": "2026-03-08 18:19:00",
+    "updated_at": "2026-03-08 18:19:00"
+  },
+  "quiz": {
+    "title": "Diagnostic 5ème - SVT Biologie",
+    "level": "5eme",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Cellule = unité ... vivants",
+        "choices": [
+          "vie",
+          "matière",
+          "énergie",
+          "eau"
+        ],
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Noyau = ADN instructions.",
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "Photosynthèse : CO2 + H2O + lumière → ... + O2",
+        "placeholder": "glucose",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Chaîne alimentaire : producteur → ... → prédateur",
+        "choices": [
+          "consommateur",
+          "décomposeur",
+          "parasite",
+          "symbiote"
+        ],
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Puberté = hormones sexuelles.",
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "Respiration cellulaire : glucose + O2 → ... + CO2 + H2O",
+        "placeholder": "énergie",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "Écosystème =",
+        "choices": [
+          "animaux seuls",
+          "biotope + biocénose",
+          "plantes",
+          "eau"
+        ],
+        "id": 7
+      },
+      {
+        "type": "texte",
+        "question": "Mitose = division ... cellules",
+        "placeholder": "identiques",
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Cellule",
+      "description": "Noyau, membrane, organelles (5ème SVT)"
+    },
+    {
+      "notion": "Énergie nourritures",
+      "description": "Photosynthèse, respiration, chaînes"
+    },
+    {
+      "notion": "Reproduction humaine",
+      "description": "Puberté, hormones (5ème)"
+    }
+  ],
+  "exerciseresponses": []
+}

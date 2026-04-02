@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 778",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 3eme : Le dessin technique et la representation des objets",
+    "status": "published",
+    "created_at": "2026-03-14 04:06:19",
+    "updated_at": "2026-03-14 04:06:19"
+  },
+  "quiz": {
+    "title": "Le dessin technique et la representation des objets",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Combien de vues standard comporte generalement un dessin technique en representation orthogonale (methode europeenne) ?",
+        "choices": [
+          "1 vue",
+          "2 vues",
+          "3 vues (face, dessus, cote)",
+          "6 vues"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'echelle 1:2 sur un dessin technique signifie que l'objet est represente deux fois plus grand que sa taille reelle."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la vue qui montre l'interieur d'un objet en le coupant par un plan imaginaire ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel type de ligne est utilise en dessin technique pour representer les contours visibles d'un objet ?",
+        "choices": [
+          "Ligne en tirets fins",
+          "Ligne en tirets point",
+          "Ligne continue forte",
+          "Ligne continue fine"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La cotation sur un dessin technique indique les dimensions de l'objet en millimetres."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la representation d'un objet en 3D avec des lignes obliques a 45 degrees, tres utilisee en technologie ?"
+      },
+      {
+        "type": "qcm",
+        "question": "A quoi sert un tolerancement geometrique sur un dessin technique ?",
+        "choices": [
+          "A indiquer la couleur de la piece",
+          "A preciser les ecarts maximaux admissibles de forme ou de position d'un element",
+          "A calculer le poids de la piece",
+          "A indiquer le materiau"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les logiciels de CAO (Conception Assistee par Ordinateur) permettent de creer directement des modeles 3D et d'en extraire des plans 2D."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

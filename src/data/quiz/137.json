@@ -1,0 +1,102 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ère Anglais - Série 13",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ère : Democracy, Politics, Advanced Expression (Eduscol B1/B2)",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-09 21:07:00"
+  },
+  "quiz": {
+    "title": "1ère English Diagnostic - Series 13 (Democracy & Politics)",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Social media has made political debates more democratic because:",
+        "choices": [
+          "Everyone can voice opinions",
+          "Only verified accounts",
+          "Algorithms decide",
+          "No anonymity"
+        ],
+        "correct_index": 0,
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "It is vital that citizens be informed before voting.",
+        "correct": true,
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "What is one threat to democracy from populism?",
+        "placeholder": "ex: Erosion of institutions, fake news spread",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Discourse marker: On the one hand free speech; _____, hate speech limits.",
+        "choices": [
+          "on the other hand",
+          "however",
+          "therefore",
+          "in addition"
+        ],
+        "correct_index": 0,
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Compulsory voting increases democratic legitimacy.",
+        "correct": true,
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "How can young people engage in politics? 1 way.",
+        "placeholder": "ex: Petitions, student councils, volunteering",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "The bill was passed _____ overwhelming majority.",
+        "choices": [
+          "by an",
+          "with a",
+          "in an",
+          "on a"
+        ],
+        "correct_index": 1,
+        "id": 7
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Were electoral reform implemented, turnout would rise.",
+        "correct": true,
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Political Participation",
+      "description": "Social media role, youth engagement (Eduscol 1ère)"
+    },
+    {
+      "notion": "Democratic Challenges",
+      "description": "Populism, compulsory voting, fake news"
+    },
+    {
+      "notion": "Advanced Grammar",
+      "description": "Discourse markers, subjunctive politics, prepositions"
+    }
+  ]
+}

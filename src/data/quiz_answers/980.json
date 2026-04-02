@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 2nde - Serie 980",
+    "level": "2nde",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Fonctions et modélisation",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "C",
+        "correction": "Le taux de variation est (f(b)−f(a))/(b−a). Il mesure la pente de la corde entre (a, f(a)) et (b, f(b))."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "f(x) = ax est la fonction linéaire, qui modélise la proportionnalité directe."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "D(t) = 75t",
+        "correction": "Vitesse = 150/2 = 75 km/h. Donc D(t) = 75t (fonction linéaire, proportionnalité)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "B",
+        "correction": "Coût fixe 15 € + coût variable 0,05 € par SMS : C(n) = 15 + 0,05n (fonction affine)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les unités sont essentielles pour l'interprétation et la cohérence physique du modèle."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "]0 ; +∞[ (ou [0 ; +∞[ selon si on accepte un côté nul)",
+        "correction": "Un côté de carré est positif (longueur > 0), donc x > 0. Le domaine physique est ]0 ; +∞[."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "B",
+        "correction": "Croissance exponentielle : N(t) = 100 × 2ᵗ (doublement à chaque heure)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "(f(b) − f(a))/(b − a) = (ab + b − aa − b)/(b − a) = a(b−a)/(b−a) = a. Constant."
+      }
+    ]
+  }
+}

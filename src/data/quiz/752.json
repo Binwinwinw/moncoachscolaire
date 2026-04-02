@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 3eme - Série 752",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 3eme : La citoyennete europeenne",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "La citoyennete europeenne",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "EMC",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que la citoyennete europeenne ?",
+        "choices": [
+          "Un statut accordé uniquement aux fonctionnaires européens",
+          "Un statut complémentaire à la nationalité nationale accordé à tout ressortissant d'un État membre de l'UE",
+          "La possibilite de vivre dans n'importe quel pays du monde",
+          "Un passeport commun a tous les pays europeens"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un citoyen europeen peut voter et se presenter aux elections municipales dans tout Etat membre de l'UE ou il reside."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on le droit des citoyens europeens de circuler et de s'installer librement dans tout Etat membre de l'UE ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Combien de pays membres compose l'Union europeenne en 2024 ?",
+        "choices": [
+          "25",
+          "27",
+          "30",
+          "35"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'espace Schengen coincide exactement avec les frontieres de l'Union europeenne."
+      },
+      {
+        "type": "open",
+        "question": "Quel mecanisme permet a 1 million de citoyens europeens de demander a la Commission europeenne de proposer une nouvelle legislation ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel traite a donne son nom actuel a l'Union europeenne et a institue la citoyennete europeenne ?",
+        "choices": [
+          "Traite de Rome (1957)",
+          "Acte unique europeen (1986)",
+          "Traite de Maastricht (1992)",
+          "Traite de Lisbonne (2007)"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les citoyens europeens peuvent adresser une petition au Parlement europeen sur tout sujet relevant des competences de l'UE."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

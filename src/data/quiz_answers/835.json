@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES 1ère - Série 835",
+    "level": "1ère",
+    "subject": "SES"
+  },
+  "quiz": {
+    "title": "Les causes du chômage",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "SES",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Une demande globale insuffisante",
+        "correct": 1,
+        "correction": "Pour Keynes, le chômage résulte d'une insuffisance de la demande effective. La solution est une politique de relance budgétaire."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les néoclassiques voient le chômage comme résultant de salaires rigides à la baisse (SMIC, syndicats) dépassant le salaire d'équilibre."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "La mondialisation a favorisé les délocalisations vers des pays à bas coûts salariaux, réduisant l'emploi industriel en France (désindustrialisation). Cela a créé du chômage structurel pour les travailleurs peu qualifiés de l'industrie.",
+        "correction": "La part de l'industrie dans l'emploi total est passée de ~25 % dans les années 1970 à environ 11 % aujourd'hui."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Il automatise des tâches occupées par des travailleurs",
+        "correct": 1,
+        "correction": "L'automatisation détruit certains emplois (chômage technologique) mais en crée d'autres dans de nouveaux secteurs (effets de compensation)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Même quand les offres d'emploi et les chômeurs coexistent, l'inadéquation géographique ou en termes de qualification empêche l'appariement optimal."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "Le modèle WS-PS (Wage Setting - Price Setting) prédit un taux de chômage d'équilibre déterminé par le pouvoir de négociation des syndicats (WS) et le pouvoir de marché des entreprises (PS). Plus les syndicats sont puissants ou les marchés concentrés, plus le chômage d'équilibre est élevé.",
+        "correction": "Ce modèle montre que le chômage peut être d'équilibre (et non uniquement conjoncturel)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Réduire le chômage en incitant à la reprise rapide d'un emploi",
+        "correct": 1,
+        "correction": "Des allocations plus faibles réduisent le salaire de réserve et incitent les chômeurs à accepter des offres d'emploi plus rapidement (vision libérale)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'hystérèse : les chômeurs longue durée perdent leurs compétences et leur motivation, rendant leur réinsertion difficile même en reprise économique."
+      }
+    ]
+  }
+}

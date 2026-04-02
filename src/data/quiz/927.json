@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic HGGSP 1ère - Série 927",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "HGGSP",
+    "description": "Diagnostic HGGSP 1ère : Les formes de conflits armés au XXe siècle",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Les formes de conflits armés au XXe siècle",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "HGGSP",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "La Première Guerre mondiale (1914-1918) est souvent qualifiée de 'guerre totale' car :",
+        "choices": [
+          "Elle n'a mobilisé que les armées professionnelles",
+          "Elle a mobilisé l'ensemble des sociétés (économie, civils, propagande, femmes)",
+          "Elle a utilisé des armes nucléaires",
+          "Elle s'est déroulée sur tous les continents"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La Seconde Guerre mondiale a fait environ 60 à 70 millions de victimes, civiles et militaires."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que la dissuasion nucléaire et comment a-t-elle influencé les conflits pendant la Guerre froide ?"
+      },
+      {
+        "type": "qcm",
+        "question": "La guerre de Corée (1950-1953) est un exemple de guerre :",
+        "choices": [
+          "Civile",
+          "Par procuration (proxy war) de la Guerre froide",
+          "Nucléaire",
+          "De décolonisation uniquement"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le génocide rwandais de 1994 a fait environ 800 000 à 1 million de victimes en moins de 100 jours."
+      },
+      {
+        "type": "open",
+        "question": "Distinguez conflit interétatique et conflit intra-étatique en donnant des exemples."
+      },
+      {
+        "type": "qcm",
+        "question": "Le concept de 'Responsabilité de protéger' (R2P) adopté par l'ONU en 2005 signifie que :",
+        "choices": [
+          "Les États ont le droit de s'armer",
+          "La communauté internationale peut intervenir pour protéger les civils quand un État faillit à cette mission",
+          "L'ONU peut imposer un gouvernement à un État",
+          "Les guerres préventives sont légitimes"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les accords de Dayton (1995) ont mis fin à la guerre en Bosnie-Herzégovine."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 2nde - Serie 976",
+    "level": "2nde",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Image, antécédent & tableau de valeurs",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "A",
+        "correction": "f(x) = 7 → 3x − 2 = 7 → 3x = 9 → x = 3."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Par exemple, f(x) = x² : la valeur −1 n'a aucun antécédent dans R."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "x = 2 ou x = −2",
+        "correction": "x² − 4 = 0 → x² = 4 → x = ±2."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "C",
+        "correction": "f(−3) = −(−3) + 5 = 3 + 5 = 8."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "f(x) = x² : f(2) = f(−2) = 4, donc 4 a deux antécédents (2 et −2)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "x: −1→2, 0→0, 1→0, 2→2, 3→6",
+        "correction": "f(−1)=1+1=2 ; f(0)=0 ; f(1)=0 ; f(2)=2 ; f(3)=6."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "B",
+        "correction": "f(x) = x³ est bijective sur R : chaque valeur a exactement un antécédent."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Toute valeur de x (même négative) a une image par f(x) = |x|. Par exemple f(−3) = 3."
+      }
+    ]
+  }
+}

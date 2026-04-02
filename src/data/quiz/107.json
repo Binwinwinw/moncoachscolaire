@@ -1,0 +1,98 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ère Philosophie - Connaissance",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Philosophie",
+    "description": "Diagnostic Connaissance, perception, doute - 1ère Phéno",
+    "status": "published",
+    "created_at": "2026-03-08 17:59:00",
+    "updated_at": "2026-03-08 17:59:00"
+  },
+  "quiz": {
+    "title": "Diagnostic 1ère - Connaissance & Perception",
+    "level": "1ere",
+    "subject": "Philosophie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Descartes 'Cogito ergo sum' prouve :",
+        "choices": [
+          "existence corps",
+          "existence esprit",
+          "existence Dieu",
+          "existence monde"
+        ],
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les sens trompent toujours (Descartes).",
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "Locke 'tabula rasa' signifie ...",
+        "placeholder": "esprit vierge",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Kant : connaissance =",
+        "choices": [
+          "expérience seule",
+          "raison seule",
+          "expérience + a priori",
+          "révélation"
+        ],
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Doute hyperbolique Descartes → certitude cogito.",
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "Hume : causalité = ... (habitude)",
+        "placeholder": "expérience répétée",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "Perception empiriste (Locke) :",
+        "choices": [
+          "idées innées",
+          "sens → idées simples",
+          "raison pure",
+          "intuition"
+        ],
+        "id": 7
+      },
+      {
+        "type": "texte",
+        "question": "Phénomène/nouméne (Kant).",
+        "placeholder": "perçu/connu en soi",
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Doute méthodique",
+      "description": "Descartes: sens → cogito (1ère Connaissance)"
+    },
+    {
+      "notion": "Empirisme",
+      "description": "Locke/Hume: expérience → connaissance"
+    },
+    {
+      "notion": "Critique raison",
+      "description": "Kant: a priori + expérience"
+    }
+  ],
+  "exerciseresponses": []
+}

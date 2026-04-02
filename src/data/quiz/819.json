@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES 1ère - Série 819",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SES",
+    "description": "Diagnostic SES 1ère : Introduction au marché",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Introduction au marché",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SES",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'un marché en économie ?",
+        "choices": [
+          "Un lieu physique de vente",
+          "La rencontre entre offre et demande",
+          "Un ensemble de vendeurs uniquement",
+          "Un prix fixé par l'État"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le marché peut être dématérialisé (internet, bourse…)."
+      },
+      {
+        "type": "open",
+        "question": "Donnez deux exemples de marchés et précisez ce qui y est échangé."
+      },
+      {
+        "type": "qcm",
+        "question": "Qui sont les acteurs principaux d'un marché ?",
+        "choices": [
+          "Acheteurs et vendeurs",
+          "L'État et les syndicats",
+          "Les banques uniquement",
+          "Les consommateurs uniquement"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Sur un marché concurrentiel, le prix est fixé par un seul vendeur."
+      },
+      {
+        "type": "open",
+        "question": "Expliquez la notion de 'prix de marché'."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel mécanisme ajuste l'offre et la demande sur un marché libre ?",
+        "choices": [
+          "La planification étatique",
+          "Le mécanisme des prix",
+          "Les syndicats",
+          "La publicité"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La concurrence pure et parfaite suppose que les produits soient homogènes."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

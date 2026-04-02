@@ -1,0 +1,73 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES Terminale - Serie 1113",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "SES",
+    "description": "Diagnostic SES Terminale : Marchés et concurrence — approfondissement",
+    "status": "published",
+    "created_at": "2026-03-14 03:10:56",
+    "updated_at": "2026-03-14 03:10:56"
+  },
+  "quiz": {
+    "title": "Marchés et concurrence — approfondissement",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "SES",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "En concurrence pure et parfaite (CPP), le prix d'équilibre est tel que :",
+        "choices": [
+          "L'offre est supérieure à la demande",
+          "L'offre est égale à la demande",
+          "Le producteur fixe le prix librement",
+          "L'État régule le prix"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "En situation de concurrence pure et parfaite, chaque producteur est « preneur de prix » (price taker)."
+      },
+      {
+        "type": "open",
+        "question": "Quelles sont les cinq conditions de la concurrence pure et parfaite ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Le surplus du consommateur représente :",
+        "choices": [
+          "La différence entre le prix payé et le prix maximal qu'il aurait accepté de payer",
+          "Le bénéfice du producteur",
+          "Les externalités positives",
+          "La valeur totale produite"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'optimum de Pareto est atteint quand il est impossible d'améliorer la situation d'un agent sans détériorer celle d'un autre."
+      },
+      {
+        "type": "open",
+        "question": "Explique pourquoi un prix plancher (prix minimum légal) crée un surplus d'offre."
+      },
+      {
+        "type": "qcm",
+        "question": "L'élasticité-prix de la demande mesure :",
+        "choices": [
+          "La sensibilité de la demande à un changement de revenu",
+          "Le pourcentage de variation de la demande pour 1% de variation du prix",
+          "La variation absolue de la demande",
+          "La rentabilité du producteur"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La demande pour les biens de première nécessité (ex : médicaments essentiels) est généralement peu élastique au prix."
+      }
+    ]
+  }
+}

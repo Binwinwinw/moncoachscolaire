@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 499",
+    "level": "1ère",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Grand oral : préparation et enjeux",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Une question liée aux spécialités du lycéen",
+        "correct": 1,
+        "correction": "Le Grand Oral (20 min) porte sur une question choisie par le candidat, en lien avec ses spécialités."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les critères d'évaluation incluent la qualité de l'expression, la posture, le regard et la structuration du discours."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "précise",
+        "correction": "La question doit être bien délimitée et problématisée pour permettre un développement structuré."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "5 minutes",
+        "correct": 0,
+        "correction": "Le candidat parle 5 minutes en continu, puis répond aux questions de l'examinateur pendant 10 minutes, puis suit 5 minutes sur le projet d'orientation."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La 3e partie du Grand Oral (5 min) porte sur le projet d'orientation du candidat."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "aisance",
+        "correction": "L'aisance orale (fluidité, adaptation, écoute) est un critère clé du Grand Oral."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Poser la question, en montrer l'intérêt et annoncer le plan",
+        "correct": 1,
+        "correction": "L'introduction accroche l'examinateur, contextualise la question et annonce la structure de l'exposé."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Le Grand Oral est une épreuve exclusivement orale, sans support numérique ou diaporama."
+      }
+    ]
+  }
+}

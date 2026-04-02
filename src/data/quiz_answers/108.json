@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Terminale Français",
+    "level": "terminale",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic Terminale Français",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correct": 2,
+        "correction": "**Relative COD** ('que' = le livre lu)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "correct": false,
+        "correction": "**Faux**. Subordonnée = liée à principale."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "correct": null,
+        "correction": "**Adverbe manière** (comment ? rapidement)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "**Hyperbole** (exagération pluie forte)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "correct": true,
+        "correction": "**Vrai**. Narratif littérature (3e pers.)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "correct": null,
+        "correction": "**Concession** (malgré pluie)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "**Phrase cassée** (ellipse sujet)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "correct": null,
+        "correction": "**Plus-que-parfait + cond présent** (hypothèse passé)."
+      }
+    ],
+    "level": "terminale",
+    "subject": "Français"
+  }
+}

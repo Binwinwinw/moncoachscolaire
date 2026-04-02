@@ -1,0 +1,48 @@
+{
+  "quiz_id": 1114,
+  "title": "Concurrence imparfaite et monopole",
+  "subject": "SES",
+  "level": "Terminale",
+  "answers": [
+    {
+      "question_id": "1114_1",
+      "correct_option": "B",
+      "explanation": "Monopole = 1 offreur, nombreux demandeurs. L'entreprise est « price maker » : elle fixe le prix (ou la quantité)."
+    },
+    {
+      "question_id": "1114_2",
+      "correct": true,
+      "explanation": "Le monopole fixe P > Cm pour maximiser son profit → quantité trop faible → perte sèche (triangle de Harberger)."
+    },
+    {
+      "question_id": "1114_3",
+      "correct_answer": "Un oligopole est un marché avec peu d'offreurs (ex : 2-5 grandes entreprises) faisant face à de nombreux consommateurs. Ex : téléphonie mobile (Orange, SFR, Bouygues, Free), grande distribution, secteur pétrolier.",
+      "explanation": "L'oligopole se caractérise par l'interdépendance stratégique : chaque entreprise tient compte des réactions de ses concurrents."
+    },
+    {
+      "question_id": "1114_4",
+      "correct_option": "B",
+      "explanation": "Concurrence monopolistique : nombreux producteurs + produits différenciés (marques, qualité) → chacun a un mini-monopole sur sa variété. Ex : restaurants, vêtements."
+    },
+    {
+      "question_id": "1114_5",
+      "correct": true,
+      "explanation": "Les cartels (ex : OPEP, ententes illicites) sont prohibés par le droit de la concurrence car ils lèsent les consommateurs."
+    },
+    {
+      "question_id": "1114_6",
+      "correct_answer": "Un monopole naturel existe quand les coûts fixes sont très élevés et les coûts marginaux dégressifs, rendant une seule entreprise plus efficace (ex : réseaux ferrés, eau). Régulation : éviter l'abus de position dominante tout en conservant les économies d'échelle.",
+      "explanation": "Exemples : SNCF (réseau), RTE (électricité). La régulation peut imposer l'accès aux tiers ou fixer le prix."
+    },
+    {
+      "question_id": "1114_7",
+      "correct_option": "A",
+      "explanation": "Le dilemme du prisonnier (Nash) montre que deux agents rationnels choisissent une stratégie dominante (trahir) conduisant à un équilibre sous-optimal, faute de coopération."
+    },
+    {
+      "question_id": "1114_8",
+      "correct": true,
+      "explanation": "Définition de l'équilibre de Nash (1950) : chaque joueur joue la meilleure réponse à la stratégie des autres joueurs."
+    }
+  ]
+}

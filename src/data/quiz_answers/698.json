@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 698",
+    "level": "3ème",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "Quiz blanc final SVT 3ème",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "La photosynthèse",
+        "correct": 1,
+        "correction": "La photosynthèse réalisée par les producteurs primaires est à la base de la plupart des chaînes alimentaires."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La perte d'habitat fait partie des principales causes d'érosion de la biodiversité à l'échelle mondiale."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "ADN",
+        "correction": "L'ADN stocke l'information héréditaire sous forme de séquences de nucléotides organisées en gènes."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "L'utérus",
+        "correct": 1,
+        "correction": "Après la nidation, l'embryon puis le fœtus se développent dans l'utérus pendant toute la grossesse."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Elles se déplacent lentement mais continuellement, modifiant océans, continents et reliefs au cours du temps."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "collective",
+        "correction": "L'immunité collective limite la circulation d'un agent infectieux et protège indirectement les personnes vulnérables."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Le réseau trophique",
+        "correct": 0,
+        "correction": "Le réseau trophique décrit les transferts de matière et d'énergie entre les êtres vivants d'un écosystème."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La démarche scientifique s'appuie sur des hypothèses testables, des mesures et une validation collective des résultats."
+      }
+    ]
+  }
+}

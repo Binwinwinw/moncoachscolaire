@@ -1,0 +1,102 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ère Anglais - Série 08",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ère : Art, Creativity, Advanced Expression (Eduscol B1/B2)",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-09 18:29:00"
+  },
+  "quiz": {
+    "title": "1ère English Diagnostic - Series 08 (Art & Creativity)",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Street art should be considered a legitimate form of artistic expression because:",
+        "choices": [
+          "Challenges traditional galleries",
+          "Illegal in most cities",
+          "Only vandalism",
+          "Temporary nature"
+        ],
+        "correct_index": 0,
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "It's essential that governments fund public art installations.",
+        "correct": true,
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "How does music therapy help mental health patients?",
+        "placeholder": "ex: Reduces anxiety, improves mood through rhythm",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Were I to win the art contest, _____ travel to New York.",
+        "choices": [
+          "I would",
+          "I will",
+          "I am",
+          "I was"
+        ],
+        "correct_index": 0,
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Social media has democratized access to art (Instagram galleries).",
+        "correct": true,
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "What makes Banksy unique as an artist? 1 reason.",
+        "placeholder": "ex: Anonymous, political messages via stencils",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "Creative industries contribute what % to EU GDP?",
+        "choices": [
+          "7%",
+          "20%",
+          "2%",
+          "50%"
+        ],
+        "correct_index": 0,
+        "id": 7
+      },
+      {
+        "type": "vrai-faux",
+        "question": "It's high time schools taught more arts subjects.",
+        "correct": true,
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Visual Arts",
+      "description": "Street art, graffiti legitimacy (Eduscol 1ère)"
+    },
+    {
+      "notion": "Music & Therapy",
+      "description": "Creative healing, industry economics"
+    },
+    {
+      "notion": "Advanced Grammar",
+      "description": "Subjunctive (essential that), inversions, clefts"
+    }
+  ]
+}

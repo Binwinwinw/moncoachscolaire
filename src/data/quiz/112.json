@@ -1,0 +1,98 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Bac Anglais - Advanced",
+    "type": "quiz",
+    "level": "bac",
+    "subject": "Anglais",
+    "description": "Diagnostic Inversion, clefts, idioms - Bac Anglais",
+    "status": "published",
+    "created_at": "2026-03-08 18:13:00",
+    "updated_at": "2026-03-08 18:13:00"
+  },
+  "quiz": {
+    "title": "Diagnostic Bac - Anglais Avancé",
+    "level": "bac",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Never **have I seen** such beauty. (Inversion)",
+        "choices": [
+          "adverbe first",
+          "never first négatif",
+          "have I sujet",
+          "seen participe"
+        ],
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "It **was John** who broke the vase. (Cleft emphasis).",
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "'Break down' =",
+        "placeholder": "tomber en panne",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Only after **finishing** can you leave.",
+        "choices": [
+          "present participle",
+          "gerund",
+          "infinitive",
+          "past participle"
+        ],
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Not only ... but also (correlation).",
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "'Piece of cake' idiom =",
+        "placeholder": "facile",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "Hardly **had** he arrived when...",
+        "choices": [
+          "inversion hardly",
+          "had sujet",
+          "arrived participe",
+          "when subordonnée"
+        ],
+        "id": 7
+      },
+      {
+        "type": "texte",
+        "question": "'Hit the nail on the head' =",
+        "placeholder": "exact",
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Inversions",
+      "description": "Never/hardly/only first (Bac advanced)"
+    },
+    {
+      "notion": "Cleft sentences",
+      "description": "It was ... who/that (emphasis)"
+    },
+    {
+      "notion": "Phrasal/idioms",
+      "description": "Break down, piece of cake"
+    }
+  ],
+  "exerciseresponses": []
+}

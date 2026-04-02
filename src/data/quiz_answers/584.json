@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 584",
+    "level": "3ème",
+    "subject": "Histoire-Géographie"
+  },
+  "quiz": {
+    "title": "Révisions générales Histoire-Géographie 3ème – Brevet",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "La Déclaration Universelle des Droits de l'Homme",
+        "correct": 1,
+        "correction": "La DUDH est adoptée le 10 décembre 1948 par l'Assemblée générale de l'ONU ; elle proclame les droits civils, politiques, économiques et sociaux de tout être humain."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'épreuve d'HG-EMC au Brevet dure 2h15 et comprend des exercices sur les documents, une question de développement et un sujet d'EMC."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "Éducation",
+        "correction": "L'EMC aborde la laïcité, la démocratie, les droits de l'homme, la lutte contre les discriminations et la citoyenneté européenne et mondiale."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Environnement, équité sociale, efficacité économique",
+        "correct": 1,
+        "correction": "Le triangle du développement durable articule la protection de l'environnement, la justice sociale et le développement économique."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La loi de 1905 sépare l'Église de l'État ; la laïcité garantit la liberté de croire ou de ne pas croire et l'égalité de tous les citoyens."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "judiciaire",
+        "correction": "La séparation des pouvoirs (exécutif : gouvernement ; législatif : parlement ; judiciaire : tribunaux) est la base de la démocratie libérale."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Liberté, Égalité, Fraternité",
+        "correct": 1,
+        "correction": "La devise républicaine héritée de la Révolution française est 'Liberté, Égalité, Fraternité'."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La citoyenneté implique la participation à la vie démocratique, le respect des lois et la contribution au bien commun."
+      }
+    ]
+  }
+}

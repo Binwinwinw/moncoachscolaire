@@ -1,0 +1,77 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 2nde - Série 217",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Français",
+    "description": "Diagnostic Français 2nde : Diagnostic 2nde Français - Registres littéraires",
+    "status": "published",
+    "created_at": "2026-03-14 07:16:54",
+    "updated_at": "2026-03-14 07:16:54",
+    "source": "Eduscol programmes officiels + BOEN",
+    "programme_ref": "<Référence programme officiel à renseigner>"
+  },
+  "quiz": {
+    "title": "Diagnostic 2nde Français - Registres littéraires",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel registre cherche principalement à susciter la peur et la pitié ?",
+        "choices": [
+          "Le registre tragique",
+          "Le registre comique",
+          "Le registre épistolaire",
+          "Le registre didactique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le registre comique peut reposer sur le langage, les gestes, les situations ou les caractères."
+      },
+      {
+        "type": "open",
+        "question": "Quel registre vise à dénoncer en ridiculisant des défauts ou des comportements ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel indice est le plus typique du registre polémique ?",
+        "choices": [
+          "Un vocabulaire neutre et objectif",
+          "Une argumentation vive avec attaques et réfutations",
+          "Une narration exclusivement descriptive",
+          "Une absence totale de jugement"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un même texte peut mêler plusieurs registres."
+      },
+      {
+        "type": "open",
+        "question": "Quel registre met en avant l'expression personnelle des sentiments ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Dans une scène où un personnage ignore un danger que le public connaît, l'effet dominant peut être :",
+        "choices": [
+          "Le registre épique",
+          "Le registre tragique",
+          "Le registre didactique",
+          "Le registre administratif"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le registre pathétique cherche à émouvoir en montrant la souffrance ou la vulnérabilité."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 684",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 3ème : Écologie : développement durable et actions humaines",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "Écologie : développement durable et actions humaines",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la définition du développement durable selon le rapport Brundtland (1987) ?",
+        "choices": [
+          "Un développement qui ne pollue pas",
+          "Un développement qui répond aux besoins du présent sans compromettre ceux des générations futures",
+          "Un développement économique maximal",
+          "Un développement uniquement écologique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le recyclage des déchets contribue à réduire l'exploitation des ressources naturelles."
+      },
+      {
+        "type": "open",
+        "question": "Quel sigle désigne les 17 objectifs mondiaux adoptés par l'ONU en 2015 pour un avenir durable ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Comment appelle-t-on l'ensemble des polluants chimiques persistants qui s'accumulent dans les chaînes alimentaires ?",
+        "choices": [
+          "Polluants volatils",
+          "Polluants organiques persistants (POP)",
+          "Pesticides biodégradables",
+          "Endocrine disruptors uniquement"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'agriculture intensive peut provoquer l'eutrophisation des cours d'eau."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la démarche qui vise à réduire les déchets en les transformant en ressources pour d'autres activités ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel phénomène est causé par les émissions de gaz CFC dans la stratosphère ?",
+        "choices": [
+          "Réchauffement climatique",
+          "Destruction de la couche d'ozone",
+          "Pluies acides",
+          "Eutrophisation"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le Protocole de Montréal (1987) a réussi à réduire les substances détruisant la couche d'ozone."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 772",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 3eme : Les familles d'objets techniques et leurs principes",
+    "status": "published",
+    "created_at": "2026-03-14 04:06:19",
+    "updated_at": "2026-03-14 04:06:19"
+  },
+  "quiz": {
+    "title": "Les familles d'objets techniques et leurs principes",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "A quelle famille d'objets techniques appartient une voiture electrique ?",
+        "choices": [
+          "Objet de communication",
+          "Objet de transport et deplacement",
+          "Objet de production d'energie",
+          "Objet de traitement de l'information"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un smartphone appartient a la fois a la famille des objets de communication et de traitement de l'information."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la caracteristique d'un objet technique qui permet de l'utiliser facilement et confortablement par des personnes de toutes capacites ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que la fonction d'usage d'un objet technique ?",
+        "choices": [
+          "Sa valeur marchande",
+          "Ce a quoi il sert, son utilite principale pour l'utilisateur",
+          "Sa duree de vie",
+          "Ses composants internes"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La standardisation des composants techniques facilite la reparation et la maintenance des objets."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la representation graphique decomposant un objet en sous-systemes et composants selon leurs fonctions ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle propriete technique permet a un materiau de retrouver sa forme initiale apres deformation ?",
+        "choices": [
+          "Plasticite",
+          "Elasticite",
+          "Fragilite",
+          "Viscosite"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'obsolescence programmee consiste a concevoir un produit avec une duree de vie limitee pour forcer son remplacement."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

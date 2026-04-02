@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français Seconde - Série 7",
+    "level": "2nde",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Diagnostic Français Seconde",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correct": 2,
+        "correction": "Le romantisme (XIXe siècle) valorise l'imagination, les passions et le 'moi' contre les règles classiques. Opposé au classicisme (raison, équilibre) et au réalisme (observation objective du quotidien). Exemples : Hugo, Musset."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "correct": 1,
+        "correction": "Vrai. La poésie épique (ex. La Chanson de Roland) chante les hauts faits des héros, guerriers et aventures collectives. Distinguer de la lyrique (émotions personnelles) et du roman moderne."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "correct": null,
+        "correction": "Exemple valide : « Il court vite comme le vent ». La comparaison relie deux éléments par 'comme' ou 'tel que', crée un effet d'image. Variantes acceptables tant que structure respectée (sujet + comme + image)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "Le focalisateur est le point de vue narratif (interne : yeux d'un personnage ; externe : observateur). Concept clé de l'analyse narrative en seconde pour étudier comment le lecteur perçoit l'histoire."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "texte",
+        "correct": null,
+        "correction": "Exemples : Madame Bovary (Flaubert, 1857) ou Le Père Goriot (Balzac, 1835). Réalisme : observation minutieuse de la société, critique sociale, personnages ordinaires. Distinguer du romantisme (idéalisation)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "Le registre lyrique exprime les émotions, les sentiments et l'intériorité. Dans 'Demain, dès l'aube...', Victor Hugo évoque le deuil et l'amour filial avec une forte charge émotionnelle. Ce n'est ni comique ni polémique : l'enjeu principal est l'expression d'une sensibilité intime."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "vrai-faux",
+        "correct": 0,
+        "correction": "Faux. Le réalisme vise au contraire une représentation crédible du réel social, avec des personnages ordinaires et des situations concrètes. Il s'oppose à l'idéalisation romantique. On y trouve une observation précise des milieux, des comportements et des déterminismes."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "correct": null,
+        "correction": "L'auteur est la personne réelle qui écrit l'oeuvre. Le narrateur est la voix qui raconte l'histoire dans le texte et peut être un personnage fictif. Distinguer ces deux instances évite les contresens dans l'analyse narrative. Cette distinction est une compétence clé de seconde."
+      }
+    ]
+  }
+}

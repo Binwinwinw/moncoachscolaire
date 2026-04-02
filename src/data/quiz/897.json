@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic NSI 1ère - Série 897",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "description": "Diagnostic NSI 1ère : Architecture de Von Neumann",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "Architecture de Von Neumann",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel est le principal apport du modèle de Von Neumann ?",
+        "choices": [
+          "La programmation orientée objet",
+          "Le programme stocké en mémoire avec les données",
+          "L'invention du transistor",
+          "Le protocole TCP/IP"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le modèle de Von Neumann comprend une unité centrale de traitement (CPU), une mémoire et des entrées/sorties."
+      },
+      {
+        "type": "open",
+        "question": "Expliquez le rôle de l'unité arithmétique et logique (UAL) dans le CPU."
+      },
+      {
+        "type": "qcm",
+        "question": "Le compteur de programme (Program Counter / PC) contient :",
+        "choices": [
+          "Le résultat du dernier calcul",
+          "L'adresse de la prochaine instruction à exécuter",
+          "La taille de la mémoire",
+          "Le nombre d'instructions exécutées"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le cycle d'exécution d'un processeur est : Fetch (chercher) – Decode (décoder) – Execute (exécuter)."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que la fréquence d'horloge d'un processeur et quelle est sa limite ?"
+      },
+      {
+        "type": "qcm",
+        "question": "La mémoire cache d'un processeur est :",
+        "choices": [
+          "Identique à la RAM",
+          "Une mémoire rapide proche du CPU pour réduire les accès à la RAM",
+          "Le disque dur",
+          "La mémoire virtuelle"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le modèle de Von Neumann est encore utilisé dans les ordinateurs modernes, malgré l'existence d'autres architectures (ex: Harvard)."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

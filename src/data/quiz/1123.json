@@ -1,0 +1,73 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES Terminale - Serie 1123",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "SES",
+    "description": "Diagnostic SES Terminale : Intégration européenne",
+    "status": "published",
+    "created_at": "2026-03-14 03:10:56",
+    "updated_at": "2026-03-14 03:10:56"
+  },
+  "quiz": {
+    "title": "Intégration européenne",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "SES",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "La zone euro est une zone monétaire optimale (ZMO) si :",
+        "choices": [
+          "Tous ses membres ont le même PIB",
+          "Il existe une mobilité des facteurs, une flexibilité des prix et des mécanismes de stabilisation budgétaire",
+          "Les taux de change sont fixes",
+          "Les États membres renoncent à leur politique fiscale"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le marché unique européen repose sur les quatre libertés de circulation (biens, services, capitaux, personnes)."
+      },
+      {
+        "type": "open",
+        "question": "Quels sont les avantages et inconvénients de l'appartenance à la zone euro pour un pays membre ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Le principe de subsidiarité dans l'UE stipule que :",
+        "choices": [
+          "L'UE doit tout décider",
+          "Les décisions doivent être prises au niveau le plus proche des citoyens, sauf si l'action européenne est plus efficace",
+          "Les États membres ont priorité sur l'UE",
+          "Le Parlement européen peut annuler les lois nationales"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La BCE a pour mandat principal la stabilité des prix (inflation proche de 2%) dans la zone euro."
+      },
+      {
+        "type": "open",
+        "question": "En quoi la crise de la dette souveraine en zone euro (2010-2015) a-t-elle révélé les limites de l'architecture de l'UEM ?"
+      },
+      {
+        "type": "qcm",
+        "question": "L'union douanière européenne implique :",
+        "choices": [
+          "La libre circulation des travailleurs uniquement",
+          "Un tarif extérieur commun vis-à-vis des pays tiers et la suppression des droits de douane internes",
+          "Une politique budgétaire commune",
+          "L'adoption d'une monnaie unique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le Brexit (sortie du Royaume-Uni de l'UE en 2020) a mis fin à la libre circulation des personnes entre le RU et l'UE."
+      }
+    ]
+  }
+}

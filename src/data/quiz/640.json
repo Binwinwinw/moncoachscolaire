@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 640",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 1ère : La reproduction sexuée et la méiose",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "La reproduction sexuée et la méiose",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "La méiose est une division cellulaire qui :",
+        "choices": [
+          "Produit deux cellules diploïdes identiques à la cellule mère",
+          "Produit quatre cellules haploïdes à partir d'une cellule diploïde",
+          "Réplique l'ADN uniquement",
+          "Se déroule uniquement dans les cellules somatiques"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le brassage interchromosomique (ségrégation indépendante) et le crossing-over augmentent la diversité génétique des gamètes."
+      },
+      {
+        "type": "open",
+        "question": "Le crossing-over, ou enjambement, se produit en méiose I lors de la _____ (appariement des chromosomes homologues)."
+      },
+      {
+        "type": "qcm",
+        "question": "La fécondation chez l'Homme est possible grâce à la fusion d'un spermatozoïde (n=23) et d'un ovule (n=23) pour donner :",
+        "choices": [
+          "Un zygote haploïde (n=23)",
+          "Un zygote diploïde (2n=46)",
+          "Un gamète triploïde (3n=69)",
+          "Une cellule tétraploïde (4n=92)"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La mitose produit des cellules filles génétiquement identiques à la cellule mère, contrairement à la méiose."
+      },
+      {
+        "type": "open",
+        "question": "Chez les angiospermes (plantes à fleurs), le grain de pollen contient les gamètes _____ et l'ovule les gamètes femelles."
+      },
+      {
+        "type": "qcm",
+        "question": "La polyploïdie (multiplication du nombre de génomes entiers) est particulièrement fréquente chez :",
+        "choices": [
+          "Les insectes",
+          "Les mammifères",
+          "Les plantes",
+          "Les bactéries"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La reproduction asexuée (clonage naturel) produit des individus génétiquement identiques à leurs parents."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

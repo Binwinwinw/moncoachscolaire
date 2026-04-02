@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 661",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 3ème : Évolution : biodiversité et conservation",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "Évolution : biodiversité et conservation",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Combien d'espèces connues coexistent sur Terre environ ?",
+        "choices": [
+          "10 000",
+          "500 000",
+          "8 à 10 millions",
+          "1 milliard"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'érosion de la biodiversité actuelle est principalement due aux activités humaines."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on une espèce dont la disparition aurait un impact majeur sur l'écosystème ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel document international, adopté à Rio en 1992, vise à protéger la biodiversité ?",
+        "choices": [
+          "Protocole de Kyoto",
+          "Convention sur la diversité biologique",
+          "Accord de Paris",
+          "Traité de Lisbonne"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les espèces invasives peuvent menacer la biodiversité locale."
+      },
+      {
+        "type": "open",
+        "question": "Quel outil classe les espèces selon leur risque d'extinction (Éteint, Menacé, Vulnérable...) ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Que désigne le terme 'point chaud de biodiversité' (hotspot) ?",
+        "choices": [
+          "Une région très chaude",
+          "Une zone à forte diversité d'espèces endémiques sous forte pression",
+          "Un lieu où la biodiversité est nulle",
+          "Un pays sans espèces menacées"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La création de réserves naturelles est inutile pour protéger la biodiversité."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

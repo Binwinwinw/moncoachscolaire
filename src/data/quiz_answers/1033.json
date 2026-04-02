@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques Terminale - Serie 1033",
+    "level": "Terminale",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Valeur moyenne d'une fonction",
+    "question_count": 8,
+    "level": "Terminale",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "C",
+        "correction": "Valeur moyenne de f sur [a,b] : m = (1/(b−a)) · ∫ₐᵇ f(x) dx."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "m = (1/(b−a)) · ∫ₐᵇ k dx = (1/(b−a)) · k(b−a) = k."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "3",
+        "correction": "m = (1/3)·∫₀³ x² dx = (1/3)·[x³/3]₀³ = (1/3)·9 = 3."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "C",
+        "correction": "m = (1/π)·∫₀^π sin(x) dx = (1/π)·[−cos x]₀^π = (1/π)·(1+1) = 2/π."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est le théorème de la valeur moyenne pour les intégrales (conséquence du TVI)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "C'est la vitesse constante qui aurait parcouru la même distance en même temps : (1/T)·∫₀ᵀ v(t) dt = distance totale / T.",
+        "correction": "L'intégrale ∫v(t)dt donne la distance parcourue. Divisée par T, on obtient la vitesse moyenne."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "D",
+        "correction": "m = (1/1)·∫₀¹ eˣ dx = [eˣ]₀¹ = e − 1."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "min f ≤ m ≤ max f. C'est une conséquence directe des propriétés de l'intégrale."
+      }
+    ]
+  }
+}

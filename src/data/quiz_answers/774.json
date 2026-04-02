@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 774",
+    "level": "3eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Les grandes inventions et leur impact sur la societe",
+    "question_count": 8,
+    "level": "3eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "L'imprimerie a caracteres mobiles",
+        "correct": 1,
+        "correction": "L'imprimerie de Gutenberg (vers 1450) a permis la reproduction rapide et economique de textes, democratisant l'acces au savoir et favorisant la Renaissance et la Reforme."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "ARPANET (1969), financé par le DoD americain, est le precurseur d'internet ; il visait a maintenir les communications en cas d'attaque nucleaire."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "Guglielmo Marconi",
+        "correction": "Marconi a realise la premiere transmission radio en 1895 et recu le prix Nobel de physique en 1909 pour ses travaux sur la telegraphie sans fil."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "La transformation de la production, de la communication et de l'acces au savoir a l'echelle mondiale",
+        "correct": 1,
+        "correction": "La revolution numerique a transforme l'economie (industrie 4.0), les communications (internet, reseaux sociaux), le travail et l'acces au savoir."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La 2e revolution industrielle (1870-1914) est caracterisee par l'electricite (Edison, Tesla), le moteur a explosion (Benz, Diesel) et la production de masse (taylorisme)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "industrie 4.0",
+        "correction": "L'Industrie 4.0 (quatrieme revolution industrielle) integre IA, robots, IoT, impression 3D et big data pour creer des usines connectees et intelligentes."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Impression 3D (fabrication additive)",
+        "correct": 1,
+        "correction": "L'impression 3D (FDM, SLA, SLS...) cree des objets en deposant ou solidifiant de la matiere couche par couche a partir d'un fichier CAO."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les nanotechnologies manipulent la matiere a l'echelle atomique et moleculaire (1-100 nm) pour creer de nouveaux materiaux et dispositifs aux proprietes inedites."
+      }
+    ]
+  }
+}

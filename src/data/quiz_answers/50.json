@@ -1,0 +1,72 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 5eme SVT",
+    "type": "quiz",
+    "level": "5eme",
+    "subject": "SVT",
+    "description": "Diagnostic reproduction humaine, squelette, énergie 5eme"
+  },
+  "quiz": {
+    "title": "Diagnostic SVT 5eme",
+    "level": "5eme",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Ovaire",
+        "correction": "Ovules"
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "texte",
+        "answer": "crânien",
+        "correction": "Neurocrâne"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": true,
+        "correction": "VRAI. Homme adulte"
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Chaleur",
+        "correction": "ATP → chaleur/mouvement"
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "texte",
+        "answer": "ovule",
+        "correction": "Zygote"
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": false,
+        "correction": "FAUX. Cartilages disques"
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Mitochondries",
+        "correction": "Usines énergie"
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "answer": "9",
+        "correction": "≈ 40 semaines"
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ère Physique-Chimie",
+    "level": "1ere",
+    "subject": "Physique-Chimie"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ère Physique-Chimie",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "**F = m × a**. Force nette = masse × accélération (2nde loi Newton)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "correct": true,
+        "correction": "**Vrai**. ΣF=0 → a=0 (1ère loi Newton)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "correct": null,
+        "correction": "**5 m/s²**. a = F/m = 10/2 = 5 (unité SI)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "**9,81 N/kg** (poids unitaire g Terre)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "correct": true,
+        "correction": "**Vrai**. a = ΣF/m (résultante)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "correct": null,
+        "correction": "**49 N**. P = 5 × 9,81 ≈ 49 N/kg."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "**Vitesse constante sans force** (inertie)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "correct": null,
+        "correction": "**5 m/s²**. a = 20/4 = 5."
+      }
+    ],
+    "level": "1ere",
+    "subject": "Physique-Chimie"
+  }
+}

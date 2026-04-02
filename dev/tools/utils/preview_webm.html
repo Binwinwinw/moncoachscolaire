@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <title>Prévisualisation WebM (alpha)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --bg1: #ddd;
+      --bg2: #fff;
+      --cell: 12px;
+    }
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      margin: 0;
+      background: #0f172a;
+      color: #e2e8f0;
+    }
+    header {
+      padding: 16px 24px;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .title {
+      font-weight: 700;
+      font-size: 18px;
+    }
+    .controls { margin-left: auto; display:flex; gap:8px; }
+    button {
+      background: #334155;
+      color: #e2e8f0;
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 6px;
+      padding: 8px 12px;
+      cursor: pointer;
+    }
+    button:hover { background: #475569; }
+    main { padding: 24px; }
+    .section-title {
+      font-size: 16px;
+      font-weight: 600;
+      margin: 24px 0 8px;
+      color: #93c5fd;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: #0b1220;
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .card header {
+      display:flex; justify-content:space-between; align-items:center;
+      padding: 10px 12px;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      font-size: 12px;
+      color:#cbd5e1;
+    }
+    .video-wrap {
+      position: relative;
+      aspect-ratio: 9/16; /* portrait par défaut, adaptable */
+      background-image:
+        linear-gradient(45deg, var(--bg1) 25%, transparent 25%),
+        linear-gradient(-45deg, var(--bg1) 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, var(--bg1) 75%),
+        linear-gradient(-45deg, transparent 75%, var(--bg1) 75%);
+      background-size: var(--cell) var(--cell);
+      background-position: 0 0, 0 var(--cell), var(--cell) -var(--cell), 0 0;
+    }
+    .video-wrap.dark {
+      --bg1: #2b2b2b; --bg2: #1a1a1a;
+    }
+    .video-wrap.light {
+      --bg1: #ddd; --bg2: #fff;
+    }
+    .video-wrap video {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      background: transparent;
+    }
+    .footer {
+      padding: 10px 12px;
+      display:flex; gap:8px; align-items:center;
+      border-top: 1px solid rgba(255,255,255,0.06);
+    }
+    .footer code { font-size: 11px; color:#94a3b8; }
+    .footer a {
+      background: #334155;
+      color: #e2e8f0;
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 6px;
+      padding: 6px 10px;
+      text-decoration: none;
+      font-size: 12px;
+    }
+    .footer a:hover { background: #475569; }
+    .format-label { font-weight:600; color:#cbd5e1; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="title">Prévisualisation WebM — Fond transparent (alpha)</div>
+    <div class="controls">
+      <button id="bgLight">Damier clair</button>
+      <button id="bgDark">Damier foncé</button>
+      <button id="bgOff">Fond uni</button>
+    </div>
+  </header>
+  <main>
+    <div class="section-title">Humain</div>
+    <div id="gridHumain" class="grid"></div>
+    <div class="section-title">Optimized</div>
+    <div id="gridOptimized" class="grid"></div>
+  </main>
+
+  <script>
+    // Listes des fichiers WebM (actuels)
+    const humain = [
+      'bonjour_bienvenue.webm',
+      'bravo.webm',
+      'championdumonde.webm',
+      'posture_positive_accueillante.webm',
+      'toituvasyarriver.webm',
+      'tresbien.webm'
+    ];
+
+    const optimized = [
+      'cartoondebutderxercice.webm',
+      'cartoonreponsecorrecte.webm',
+      'cartoon_volant.webm',
+      'colibricartoonvolantbackground.webm',
+      'realistecelebration.webm',
+      'realisteencourager.webm',
+      'realistefelicitations.webm',
+      'realiste_volant.webm'
+    ];
+
+    function renderGrid(list, basePath, mountId) {
+      const mount = document.getElementById(mountId);
+      mount.innerHTML = '';
+      list.forEach(name => {
+        const card = document.createElement('div');
+        card.className = 'card';
+        const base = name.replace(/\.webm$/,'');
+        const webmSrc = basePath + base + '.webm';
+        const mp4Src  = basePath + base + '.mp4';
+        card.innerHTML = `
+          <header>
+            <span>${base}</span>
+            <span class="format-label">WebM</span>
+          </header>
+          <div class="video-wrap light" data-base="${base}" data-base-path="${basePath}">
+            <video controls muted playsinline loop>
+              <source src="${webmSrc}" type="video/webm" />
+            </video>
+          </div>
+          <div class="footer">
+            <button onclick="this.closest('.card').querySelector('video').play()">Lire</button>
+            <button onclick="this.closest('.card').querySelector('video').pause()">Pause</button>
+            <button onclick="switchFormat(this, 'webm')">WebM</button>
+            <button onclick="switchFormat(this, 'mp4')">MP4</button>
+            <a href="${webmSrc}" target="_blank">Ouvrir WebM</a>
+            <a href="${mp4Src}" target="_blank">Ouvrir MP4</a>
+            <code>${webmSrc}</code>
+          </div>
+        `;
+        mount.appendChild(card);
+      });
+    }
+
+    function switchFormat(btn, format) {
+      const card = btn.closest('.card');
+      const wrap = card.querySelector('.video-wrap');
+      const video = wrap.querySelector('video');
+      const source = video.querySelector('source');
+      const base = wrap.getAttribute('data-base');
+      const basePath = wrap.getAttribute('data-base-path');
+      const src = basePath + base + (format === 'webm' ? '.webm' : '.mp4');
+      source.src = src;
+      source.type = format === 'webm' ? 'video/webm' : 'video/mp4';
+      video.load();
+      video.play();
+      const label = card.querySelector('.format-label');
+      if (label) label.textContent = format.toUpperCase();
+      // Mettre à jour le lien affiché
+      const codeEl = card.querySelector('.footer code');
+      if (codeEl) codeEl.textContent = src;
+    }
+
+    // Rendu initial
+    renderGrid(humain, '../assets/img/coach/humain/', 'gridHumain');
+    renderGrid(optimized, '../assets/img/coach/optimized/', 'gridOptimized');
+
+    // Contrôles fond
+    const setWrapClass = (cls) => {
+      document.querySelectorAll('.video-wrap').forEach(el => {
+        el.classList.remove('light','dark');
+        if (cls) el.classList.add(cls);
+      });
+    };
+    document.getElementById('bgLight').onclick = () => setWrapClass('light');
+    document.getElementById('bgDark').onclick  = () => setWrapClass('dark');
+    document.getElementById('bgOff').onclick   = () => {
+      document.querySelectorAll('.video-wrap').forEach(el => {
+        el.style.backgroundImage = 'none';
+        // Réactive le damier si on clique à nouveau sur Light/Dark
+        setTimeout(() => { el.style.backgroundImage = ''; }, 0);
+      });
+    };
+  </script>
+</body>
+</html>

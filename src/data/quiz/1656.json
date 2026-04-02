@@ -1,0 +1,77 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 2nde - SÃ©rie 1656",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 2nde : Diagnostic 2nde Anglais - Reading Skills",
+    "status": "published",
+    "created_at": "2026-03-14 10:13:31",
+    "updated_at": "2026-03-14 10:13:31",
+    "source": "Eduscol programmes officiels + BOEN",
+    "programme_ref": "BO special n°1 du 22 janvier 2019 (LGT) + Eduscol Langues vivantes Seconde"
+  },
+  "quiz": {
+    "title": "Diagnostic 2nde Anglais - Reading Skills",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "In reading, what does 'skimming' mean?",
+        "choices": [
+          "Reading every word slowly",
+          "Reading quickly to get the main idea",
+          "Translating each sentence",
+          "Copying the text"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'Scanning' means looking for specific information in a text."
+      },
+      {
+        "type": "open",
+        "question": "What is the English term for \"idée principale d'un paragraphe\"?"
+      },
+      {
+        "type": "qcm",
+        "question": "Which clue helps you infer the meaning of an unknown word?",
+        "choices": [
+          "Its color",
+          "Context around the word",
+          "Its length only",
+          "Its position on the page"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "A reliable summary should include only key information."
+      },
+      {
+        "type": "open",
+        "question": "Give one discourse marker used to introduce a contrast."
+      },
+      {
+        "type": "qcm",
+        "question": "What should you do first when answering comprehension questions?",
+        "choices": [
+          "Guess randomly",
+          "Read questions before rereading key parts",
+          "Translate the whole text",
+          "Ignore the title"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The title and subtitle can help predict the text content."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

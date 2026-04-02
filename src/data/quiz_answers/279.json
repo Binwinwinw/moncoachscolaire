@@ -1,0 +1,76 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 1ere - Série 279",
+    "level": "1ere",
+    "subject": "Physique-Chimie"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Physique-Chimie - Serie 7",
+    "question_count": 8,
+    "level": "1ere",
+    "subject": "Physique-Chimie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "3 × 10⁸ m/s",
+        "correct": 1,
+        "correction": "La vitesse de la lumière dans le vide est c = 3 × 10⁸ m/s ≈ 300 000 km/s. C'est une constante fondamentale de la physique (constante universelle). Dans un milieu d'indice de réfraction n, la lumière se propage à la vitesse v = c/n. Par exemple, dans l'eau (n ≈ 1,33) : v ≈ 2,26 × 10⁸ m/s."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La loi de Snell-Descartes (ou loi de la réfraction) : n₁ sin(θ₁) = n₂ sin(θ₂), où n₁ et n₂ sont les indices de réfraction des deux milieux et θ₁, θ₂ les angles par rapport à la normale à l'interface. Si n₂ > n₁ (milieu plus réfringent), le rayon se rapproche de la normale (θ₂ < θ₁). C'est la loi fondamentale de l'optique géométrique, à la base du fonctionnement des lentilles, prismes, fibres optiques."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "correct_answer": "La distance focale f' est la distance entre le centre optique et le foyer image F'. La vergence V = 1/f' s'exprime en dioptries (δ). Une lentille convergente a V > 0.",
+        "answer": "La distance focale f' est la distance entre le centre optique et le foyer image F'. La vergence V = 1/f' s'exprime en dioptries (δ). Une lentille convergente a V > 0.",
+        "correction": "Pour une lentille mince convergente : le foyer image F' est le point où converge un faisceau de rayons parallèles à l'axe optique ; la distance focale image f' = OF' est positive. La vergence (ou puissance) V = 1/f' (en dioptries, δ, si f' est en mètres). Une lentille convergente a f' > 0 et V > 0 (ex : lentille convergente de +3 δ a f' = 1/3 m ≈ 33 cm). Une lentille divergente a f' < 0 et V < 0. La relation de conjugaison : 1/OA' - 1/OA = 1/f' = V."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "La dispersion (réfraction dans un prisme)",
+        "correct": 2,
+        "correction": "La dispersion lumineuse est la décomposition de la lumière blanche en ses composantes monochromatiques (couleurs) lors de la réfraction, car l'indice de réfraction d'un milieu dépend de la longueur d'onde (fréquence). Un prisme ou une goutte de pluie (arc-en-ciel) dispersent la lumière blanche en spectre : violet (n le plus élevé, déviation maximale) → rouge (n le moins élevé). Newton a démontré que la lumière blanche est la superposition de toutes les couleurs."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Dans un œil myope, le globe oculaire est trop long ou le cristallin trop convergent : les rayons parallèles (venant de l'infini) convergent en avant de la rétine. L'image est donc floue pour les objets éloignés. Correction : lentille divergente (vergence négative) pour éloigner le foyer et le ramener sur la rétine. L'hypermétropie (foyer en arrière de la rétine) se corrige avec des lentilles convergentes."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "correct_answer": "Un microscope utilise deux lentilles convergentes : l'objectif (f' court) forme une image intermédiaire agrandie, et l'oculaire joue le rôle de loupe pour observer cette image.",
+        "answer": "Un microscope utilise deux lentilles convergentes : l'objectif (f' court) forme une image intermédiaire agrandie, et l'oculaire joue le rôle de loupe pour observer cette image.",
+        "correction": "Un microscope optique est composé de deux lentilles convergentes : l'objectif (très courte focale, de quelques mm) forme une image réelle, agrandie et renversée de l'objet ; l'oculaire (focale plus longue) joue le rôle d'une loupe : il forme une image virtuelle agrandie de l'image intermédiaire. Le grossissement total G = G_obj × G_ocul. La résolution (pouvoir séparateur) d'un microscope optique est limitée par la longueur d'onde de la lumière visible (~200 nm minimum)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "L'inverse du rapport : n = c/v",
+        "correct": 1,
+        "correction": "L'indice de réfraction n d'un milieu est défini par n = c/v, où c est la vitesse de la lumière dans le vide (3×10⁸ m/s) et v la vitesse de la lumière dans ce milieu. n ≥ 1 (la lumière est toujours moins rapide dans un milieu que dans le vide). Exemples : air n ≈ 1 ; eau n ≈ 1,33 ; verre n ≈ 1,5 ; diamant n ≈ 2,4. Plus n est élevé, plus le milieu est 'réfringent' (dévie davantage la lumière)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La fibre optique exploite la réflexion totale interne : lorsque la lumière passe d'un milieu plus réfringent (cœur, n₁ élevé) à un milieu moins réfringent (gaine, n₂ < n₁), au-delà d'un angle critique θc = arcsin(n₂/n₁), la lumière est totalement réfléchie et ne sort pas de la fibre. Elle se propage par réflexions successives sur toute la longueur de la fibre avec très peu de pertes. Applications : télécommunications (internet très haut débit), endoscopie médicale."
+      }
+    ]
+  }
+}

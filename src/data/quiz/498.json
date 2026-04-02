@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 498",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "description": "Diagnostic Français 1ère : Révisions finales : culture littéraire générale",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Révisions finales : culture littéraire générale",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel est le titre complet du roman de Flaubert publié en 1857 ?",
+        "choices": [
+          "Madame Bovary, mœurs de province",
+          "Madame Bovary, roman réaliste",
+          "Madame Bovary, vie d'une femme",
+          "Madame Bovary, histoire d'une passion"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La tragédie antique grecque est jouée en l'honneur du dieu Dionysos."
+      },
+      {
+        "type": "open",
+        "question": "Le sonnet est un poème de _____ vers, structuré en deux quatrains et deux tercets."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel genre littéraire propose une vision idéale et utopique d'une société parfaite ?",
+        "choices": [
+          "La dystopie",
+          "L'utopie",
+          "Le roman d'anticipation",
+          "Le roman noir"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La nouvelle littéraire se distingue du roman par sa brièveté et son effet de chute."
+      },
+      {
+        "type": "open",
+        "question": "Le genre du _____ autobiographique implique que l'auteur, le narrateur et le personnage principal soient la même personne."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le mouvement littéraire du roman La Nausée de Sartre ?",
+        "choices": [
+          "Surréalisme",
+          "Existentialisme",
+          "Naturalisme",
+          "Romantisme"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le théâtre absurde s'inscrit dans la continuité du théâtre classique."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

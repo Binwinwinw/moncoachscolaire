@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 733",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie 3ème : Lumière : polarisation et applications optiques",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Lumière : polarisation et applications optiques",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que la polarisation de la lumière ?",
+        "choices": [
+          "La réflexion de la lumière sur une surface",
+          "Le changement de direction de la lumière lorsqu'elle passe d'un milieu à un autre",
+          "La restriction des vibrations de la lumière à une seule direction",
+          "L'absorption de la lumière par un matériau"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La lumière naturelle est généralement non polarisée, tandis que la lumière réfléchie peut être partiellement polarisée."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on un dispositif optique qui ne laisse passer que les ondes lumineuses polarisées dans une certaine direction ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est l'application courante des lunettes de soleil polarisantes ?",
+        "choices": [
+          "Améliorer la vision nocturne",
+          "Réduire l'éblouissement causé par la réflexion sur les surfaces horizontales",
+          "Augmenter la luminosité",
+          "Corriger la vision"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les cristaux liquides utilisés dans les écrans LCD exploitent la polarisation de la lumière pour afficher des images."
+      },
+      {
+        "type": "open",
+        "question": "Quelle est la différence entre la polarisation linéaire, circulaire et elliptique ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel phénomène optique est utilisé dans les lunettes 3D pour créer une perception de profondeur ?",
+        "choices": [
+          "Interférences",
+          "Diffraction",
+          "Polarisation",
+          "Réflexion"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La lumière polarisée peut être utilisée pour réduire les reflets sur les surfaces d'eau lors de la photographie."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

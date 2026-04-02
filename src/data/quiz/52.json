@@ -1,0 +1,99 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 6ème Français",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic complet des acquis en français 6ème : conjugaison, orthographe, accords, homophones. 8 questions variées."
+  },
+  "quiz": {
+    "title": "Diagnostic Français 6ème",
+    "level": "6eme",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "questions": [
+      {
+        "id": 1,
+        "type": "qcm",
+        "question": "Le verbe 'aller' au présent 1ère personne pluriel ?",
+        "choices": [
+          "je vais",
+          "nous allons",
+          "ils vont",
+          "tu vas"
+        ]
+      },
+      {
+        "id": 2,
+        "type": "vrai-faux",
+        "question": "On écrit 'ces' devant un nom masculin."
+      },
+      {
+        "id": 3,
+        "type": "texte",
+        "question": "Complète : Le garçon ... (jouer) au foot."
+      },
+      {
+        "id": 4,
+        "type": "qcm",
+        "question": "Lequel est correct ?",
+        "choices": [
+          "a un stylo",
+          "a deux stylo",
+          "a trois stylos",
+          "a quatre stylo"
+        ]
+      },
+      {
+        "id": 5,
+        "type": "vrai-faux",
+        "question": "C'est / s'est / sest sont des homophones."
+      },
+      {
+        "id": 6,
+        "type": "texte",
+        "question": "Majuscule : ... est la capitale de la France."
+      },
+      {
+        "id": 7,
+        "type": "qcm",
+        "question": "Le pronom personnel sujet pour 'nous' ?",
+        "choices": [
+          "me",
+          "nous",
+          "le",
+          "lui"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "texte",
+        "question": "Trouve l'intrus : avion, maison, voiture, bateau."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Conjugaison présent",
+      "description": "Terminaisons -e, -es, -ons, -ez, -ent (1SG, 1PL...)"
+    },
+    {
+      "notion": "Homophones",
+      "description": "ces/ses, c'est/s'est, a/à, on/ont"
+    },
+    {
+      "notion": "Accords",
+      "description": "Adjectif s'accorde en genre/nombre avec nom"
+    },
+    {
+      "notion": "Majuscules",
+      "description": "Majuscule propre (Paris), minuscule article (la France)"
+    },
+    {
+      "notion": "Pronoms sujets",
+      "description": "Je, tu, il, nous, vous, ils (position avant verbe)"
+    }
+  ],
+  "exerciseresponses": []
+}

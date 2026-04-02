@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 486",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "description": "Diagnostic Français 1ère : L'écriture d'invention",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "L'écriture d'invention",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "L'écriture d'invention à l'EAF demande d'écrire :",
+        "choices": [
+          "Un résumé du corpus",
+          "Un texte original en respectant des contraintes de genre et de tonalité",
+          "Une synthèse de documents",
+          "Un commentaire critique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Dans un texte d'invention argumentatif, il est inutile de respecter la logique de l'argumentation."
+      },
+      {
+        "type": "open",
+        "question": "Quand le sujet demande 'd'écrire la suite du texte', on doit respecter le registre, le _____ et les personnages."
+      },
+      {
+        "type": "qcm",
+        "question": "Pour un sujet d'invention 'Écrivez un discours engagé', quelle tonalité est attendue ?",
+        "choices": [
+          "Humoristique",
+          "Pathétique et/ou polémique",
+          "Épique",
+          "Fantastique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La maîtrise des procédés stylistiques (figures de style, rythme) est valorisée dans l'écriture d'invention."
+      },
+      {
+        "type": "open",
+        "question": "Si le sujet demande de rédiger une lettre fictive, on respecte les codes _____ de la lettre (date, formule d'appel, signature)."
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que le registre épique dans une écriture d'invention ?",
+        "choices": [
+          "L'expression de la tristesse",
+          "La grandeur, l'héroïsme, l'ampleur narrative",
+          "L'ironie et le comique",
+          "La peur et l'angoisse"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il est possible de mêler registres comique et pathétique dans un texte d'invention."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

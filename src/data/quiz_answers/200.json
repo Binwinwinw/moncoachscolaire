@@ -1,0 +1,76 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Geographie 1ere - Série 200",
+    "level": "1ere",
+    "subject": "Histoire-Geographie"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Histoire-Géographie - Serie 26",
+    "question_count": 8,
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "XXe siècle",
+        "correct": 2,
+        "correction": "Ce thème s'inscrit principalement dans le contexte du XXe siècle, période de grandes transformations politiques, économiques et sociales qui ont façonné le monde contemporain."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Ce thème est inscrit au programme d'Histoire-Géographie de la classe de Première, permettant aux élèves d'acquérir des connaissances fondamentales sur les grandes évolutions du monde contemporain."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "correct_answer": "Ce thème permet de comprendre les grandes évolutions politiques, économiques et sociales qui ont façonné notre monde actuel.",
+        "answer": "Ce thème permet de comprendre les grandes évolutions politiques, économiques et sociales qui ont façonné notre monde actuel.",
+        "correction": "L'étude du thème 'L'ONU et la gouvernance mondiale' est essentielle pour comprendre les dynamiques du monde contemporain : les rapports de force entre nations, les transformations sociales et économiques, et les enjeux géopolitiques actuels. Elle développe l'esprit critique et la capacité d'analyse historique et géographique des élèves."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "L'analyse critique de documents et la construction d'une argumentation",
+        "correct": 1,
+        "correction": "L'étude de l'histoire-géographie développe l'analyse critique de documents (textes, cartes, images, statistiques), la construction d'une argumentation rigoureuse, la mise en perspective temporelle et spatiale des phénomènes, et la compréhension des enjeux du monde contemporain."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "FAUX. Les sources primaires (archives, témoignages, documents d'époque) et les sources secondaires (travaux d'historiens) sont complémentaires. Les sources primaires peuvent être biaisées, incomplètes ou difficiles à interpréter ; les sources secondaires apportent une analyse critique et une mise en perspective. L'historien doit confronter les deux types de sources."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "correct_answer": "Un territoire est un espace géographique approprié, vécu et organisé par une société, contrairement à un simple espace physique.",
+        "answer": "Un territoire est un espace géographique approprié, vécu et organisé par une société, contrairement à un simple espace physique.",
+        "correction": "En géographie, un territoire est un espace géographique délimité, approprié et organisé par un groupe humain qui lui donne une identité et un sens. Il se distingue d'un simple espace physique par la présence d'acteurs qui l'aménagent, le gèrent et le revendiquent. La notion de territoire implique donc une dimension sociale, politique et identitaire, en plus de la dimension physique."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Une représentation graphique qui représente la distribution spatiale d'un phénomène précis",
+        "correct": 1,
+        "correction": "Une carte thématique représente la distribution spatiale d'un phénomène géographique spécifique (densité de population, PIB par habitant, flux migratoires, etc.) à l'aide de signes conventionnels (couleurs, symboles, flèches). Elle est un outil d'analyse indispensable en géographie pour identifier des disparités spatiales et des dynamiques territoriales."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La géopolitique analyse les relations entre les données géographiques (ressources, territoires, frontières, positions stratégiques) et les stratégies politiques et militaires des États et des acteurs non-étatiques. Elle examine comment la géographie influence les rapports de puissance, les conflits et les alliances internationales."
+      }
+    ]
+  }
+}

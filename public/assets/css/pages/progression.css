@@ -1,0 +1,297 @@
+/* Styles pour la page de progression - Le Labo des Génies */
+
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.odyssey-container {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 20px;
+    padding: 2rem;
+    color: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.odyssey-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.odyssey-title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.odyssey-subtitle {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    margin-bottom: 2rem;
+}
+
+.player-status {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.status-item {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 1.5rem;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.status-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.status-label {
+    font-size: 0.9rem;
+    opacity: 0.9;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.status-value {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.status-subvalue {
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+.xp-progress-bar {
+    width: 100%;
+    height: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    margin: 0.5rem 0;
+    overflow: hidden;
+}
+
+.xp-progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #fbbf24, #f59e0b);
+    border-radius: 4px;
+    transition: width 0.5s ease;
+}
+
+/* Statistiques détaillées */
+.progress-details {
+    background: white;
+    border-radius: 15px;
+    padding: 2rem;
+    margin: 2rem 0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.progress-message {
+    text-align: center;
+    padding: 2rem;
+    color: #6b7280;
+}
+
+/* Plateau de jeu */
+.game-board-section {
+    margin-top: 3rem;
+}
+
+.game-board-section h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.game-board {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    aspect-ratio: 1;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 2px;
+    padding: 10px;
+}
+
+.board-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    border: 3px dashed rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.board-squares {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 2px;
+    z-index: 1;
+}
+
+.board-square {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.board-square:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1);
+    z-index: 10;
+}
+
+.board-square.visited {
+    background: rgba(34, 197, 94, 0.4);
+    border-color: rgba(34, 197, 94, 0.6);
+}
+
+.board-square.current {
+    background: rgba(251, 191, 36, 0.6);
+    border-color: #fbbf24;
+    box-shadow: 0 0 15px rgba(251, 191, 36, 0.8);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        box-shadow: 0 0 15px rgba(251, 191, 36, 0.8);
+    }
+    50% {
+        box-shadow: 0 0 25px rgba(251, 191, 36, 1);
+    }
+}
+
+.player-token {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, #fbbf24, #f59e0b);
+    border: 3px solid white;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 100;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s ease;
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0);
+}
+
+.player-token::before {
+    content: '🧙‍♂️';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+}
+
+.board-legend {
+    text-align: center;
+    color: white;
+    margin-top: 1.5rem;
+    opacity: 0.9;
+    font-size: 0.95rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .odyssey-title {
+        font-size: 1.8rem;
+    }
+    
+    .odyssey-subtitle {
+        font-size: 1rem;
+    }
+    
+    .player-status {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    
+    .status-value {
+        font-size: 1.5rem;
+    }
+    
+    .game-board {
+        max-width: 100%;
+    }
+    
+    .board-square {
+        font-size: 0.7rem;
+    }
+    
+    .player-token {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+/* Styles pour progress_display.php (déjà définis mais peut être surchargés) */
+.detailed-progress h3 {
+    color: #667eea;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.progress-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.stat-card {
+    text-align: center;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border-radius: 10px;
+    border: 2px solid #bae6fd;
+}
+
+.stat-icon {
+    font-size: 2.5em;
+    margin-bottom: 0.5rem;
+}
+
+.stat-value {
+    font-size: 2em;
+    font-weight: bold;
+    color: #1e40af;
+}
+
+.stat-label {
+    color: #6b7280;
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+}
+

@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 3eme - Série 750",
+    "level": "3eme",
+    "subject": "EMC"
+  },
+  "quiz": {
+    "title": "Etat de droit et principes juridiques fondamentaux",
+    "question_count": 8,
+    "level": "3eme",
+    "subject": "EMC",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Un Etat dans lequel toutes les personnes et institutions sont soumises a la loi",
+        "correct": 1,
+        "correction": "L'État de droit (Rechtsstaat) est un système où l'État lui-même est soumis au droit ; le pouvoir est encadré par des règles juridiques supérieures."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Même en état d'urgence, le gouvernement reste soumis aux règles constitutionnelles ; des dispositions spéciales peuvent s'appliquer, mais le contrôle juridictionnel demeure."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "non-retroactivite des lois",
+        "correction": "Le principe de non-rétroactivité garantit la sécurité juridique : une loi nouvelle ne peut pas rendre illégal un acte qui était légal au moment où il a été commis."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Constitution > Lois ordinaires > Decrets > Arretes",
+        "correct": 0,
+        "correction": "La hiérarchie des normes (Kelsen) : Constitution (sommet) > traités internationaux > lois organiques > lois ordinaires > décrets > arrêtés."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le Conseil constitutionnel contrôle la constitutionnalité des lois ; depuis 2010, la QPC (Question Prioritaire de Constitutionnalité) permet aux citoyens de contester une loi."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "droits de la defense",
+        "correction": "Les droits de la défense (droit au contradictoire, droit à un avocat, droit d'être entendu) sont garantis par l'État de droit dans toute procédure judiciaire."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Separation des pouvoirs",
+        "correct": 1,
+        "correction": "La séparation des pouvoirs (Montesquieu, 'De l'Esprit des lois', 1748) distingue pouvoir législatif, exécutif et judiciaire pour éviter l'abus de pouvoir."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les décisions de justice sont rendues 'au nom du peuple français', soulignant que l'autorité judiciaire tire sa légitimité de la souveraineté nationale."
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 468",
+    "level": "1ère",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Le roman d'apprentissage (Bildungsroman)",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Un roman centré sur la formation et la maturation d'un personnage jeune",
+        "correct": 1,
+        "correction": "Le Bildungsroman (all. : roman de formation) suit le héros de l'adolescence à l'âge adulte."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Frédéric Moreau y vit une initiation amoureuse et sociale qui constitue son éducation."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "province",
+        "correction": "Le départ de la province vers Paris est un schéma récurrent (Rastignac, Julien Sorel, Frédéric Moreau…)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Rastignac",
+        "correct": 1,
+        "correction": "Eugène de Rastignac, dans Le Père Goriot, incarne l'ambition provinciale dans la jungle parisienne."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "L'évolution du personnage est précisément le moteur du roman de formation."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "initiation",
+        "correction": "Le mentor (précepteur, ami plus âgé, figure paternelle) initie le héros aux codes du monde."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Candide",
+        "correct": 1,
+        "correction": "Candide (1759) suit un héros naïf qui 'apprend' que le monde n'est pas le meilleur des mondes possible."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Certains romans épistolaires (ex. Les Liaisons dangereuses) peuvent comporter une dimension initiatique."
+      }
+    ]
+  }
+}

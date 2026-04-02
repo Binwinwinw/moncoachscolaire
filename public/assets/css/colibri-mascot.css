@@ -1,0 +1,284 @@
+/**
+ * CSS pour la Mascotte Colibri - MonCoachScolaire
+ * Utilise des vidéos HTML5 pour l'animation continue
+ * Les poses servent pour les animations CSS et les messages
+ */
+
+/* Container principal de la mascotte - Format portrait rectangulaire */
+.colibri-mascot {
+    position: relative;
+    display: inline-block;
+    width: 150px; /* Largeur réduite pour format portrait */
+    height: 220px; /* Hauteur augmentée pour format portrait */
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    cursor: pointer;
+    visibility: visible;
+    opacity: 1;
+    background: transparent; /* Fond transparent */
+    border: none; /* Pas de bordure */
+    border-radius: 0; /* Rectangle avec coins droits */
+    overflow: visible; /* Permettre à la bulle de dépasser */
+}
+
+/* Poses du colibri - animations CSS appliquées au container */
+.colibri-mascot.colibri-neutre {
+    /* Pas d'animation spéciale pour la pose neutre */
+}
+
+.colibri-mascot.colibri-heureux {
+    animation: colibri-bounce 0.6s ease-in-out;
+}
+
+.colibri-mascot.colibri-encourageant {
+    animation: colibri-float 2s ease-in-out infinite;
+}
+
+.colibri-mascot.colibri-celebration {
+    animation: colibri-celebrate 0.8s ease-in-out 3;
+}
+
+.colibri-mascot.colibri-reflexion {
+    animation: colibri-think 2s ease-in-out infinite;
+}
+
+/* Animations */
+@keyframes colibri-bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+@keyframes colibri-float {
+    0%, 100% {
+        transform: translateY(0) rotate(0deg);
+    }
+
+    50% {
+        transform: translateY(-10px) rotate(2deg);
+    }
+}
+
+@keyframes colibri-celebrate {
+    0%, 100% {
+        transform: translateY(0) scale(1) rotate(0deg);
+    }
+
+    25% {
+        transform: translateY(-20px) scale(1.1) rotate(-5deg);
+    }
+
+    50% {
+        transform: translateY(-20px) scale(1.1) rotate(5deg);
+    }
+
+    75% {
+        transform: translateY(-20px) scale(1.1) rotate(-5deg);
+    }
+}
+
+@keyframes colibri-think {
+    0%, 100% {
+        transform: translateY(0) rotate(0deg);
+    }
+
+    50% {
+        transform: translateY(-5px) rotate(-3deg);
+    }
+}
+
+/* Bulle de parole */
+.colibri-speech-bubble {
+    position: absolute;
+    bottom: calc(100% + 15px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    border: 4px solid #6366f1;
+    border-radius: 18px;
+    padding: 12px 18px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #1e293b;
+    white-space: nowrap;
+    box-shadow: 0 8px 24px rgb(0 0 0 / 40%),
+                0 0 0 3px rgb(99 102 241 / 30%),
+                0 4px 12px rgb(0 0 0 / 20%);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 10001;
+    min-width: 140px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    filter: drop-shadow(0 4px 8px rgb(0 0 0 / 30%));
+}
+
+.colibri-speech-bubble::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #6366f1;
+}
+
+.colibri-speech-bubble.visible {
+    opacity: 1;
+    transform: translateX(-50%) translateY(-5px);
+    visibility: visible;
+    display: block;
+}
+
+/* Augmenter la spécificité pour éviter !important */
+.colibri-mascot .colibri-speech-bubble.visible {
+    opacity: 1;
+    visibility: visible;
+    display: block;
+}
+
+/* Styles pour différentes tailles - Format portrait rectangulaire */
+.colibri-mascot.size-small {
+    width: 60px; /* Format portrait : largeur réduite */
+    height: 100px; /* Format portrait : hauteur augmentée */
+}
+
+.colibri-mascot.size-medium {
+    width: 150px; /* Format portrait : largeur réduite */
+    height: 220px; /* Format portrait : hauteur augmentée */
+}
+
+.colibri-mascot.size-large {
+    width: 180px; /* Format portrait : largeur réduite */
+    height: 260px; /* Format portrait : hauteur augmentée */
+}
+
+/* Positionnement */
+.colibri-mascot.position-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+/* Mascotte globale qui vole sur toutes les pages - Format portrait */
+.colibri-mascot-global {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    pointer-events: none; /* Permet de cliquer à travers, sauf sur la mascotte elle-même */
+    width: 150px; /* Format portrait : largeur réduite */
+    height: 220px; /* Format portrait : hauteur augmentée */
+}
+
+.colibri-mascot-global .colibri-mascot {
+    pointer-events: auto; /* La mascotte elle-même est cliquable */
+    box-shadow: none; /* Pas d'ombre */
+    border: none; /* Pas de bordure */
+    border-radius: 0; /* Rectangle avec coins droits */
+    background-color: transparent; /* Fond transparent */
+    padding: 0; /* Pas de padding */
+    /* !important supprimé pour conformité stylelint. Si le rendu est altéré, revoir la spécificité du sélecteur. */
+    width: 100%;
+    height: 100%;
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    overflow: visible; /* Permettre à la bulle de dépasser */
+}
+
+.colibri-mascot.position-inline {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.colibri-mascot.position-center {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Effet hover */
+.colibri-mascot:hover {
+    transform: scale(1.05);
+}
+
+/* Version vidéo - vidéo toujours visible */
+.colibri-mascot video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border: none; /* Pas de bordure */
+    border-radius: 0; /* Pas d'arrondi pour laisser la vidéo normale */
+    display: block;
+    background: transparent; /* Fond transparent */
+}
+
+/* Sprites/images de la mascotte - pas de bordures ni d'arrondis */
+.colibri-mascot img,
+.colibri-sprite-overlay {
+    /* !important supprimé pour conformité stylelint. Si le rendu est altéré, revoir la spécificité du sélecteur. */
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+}
+
+/* Mode réduit (pour les coins d'écran) - Format portrait */
+.colibri-mascot.compact {
+    width: 90px; /* Format portrait : largeur réduite */
+    height: 140px; /* Format portrait : hauteur augmentée */
+}
+
+.colibri-mascot.compact .colibri-speech-bubble {
+    font-size: 11px;
+    padding: 8px 12px;
+    min-width: 100px;
+}
+
+/* Styles contextuels selon l'état */
+.colibri-mascot.state-success {
+    filter: brightness(1.1) saturate(1.2);
+}
+
+.colibri-mascot.state-error {
+    filter: brightness(0.9);
+}
+
+.colibri-mascot.state-thinking {
+    filter: brightness(0.95);
+}
+
+/* Responsive - Format portrait */
+@media (width <= 768px) {
+    .colibri-mascot {
+        width: 120px; /* Format portrait : largeur réduite */
+        height: 180px; /* Format portrait : hauteur augmentée */
+    }
+
+    .colibri-mascot-global {
+        width: 120px; /* Format portrait : largeur réduite */
+        height: 180px; /* Format portrait : hauteur augmentée */
+        bottom: 15px;
+        right: 15px;
+    }
+
+    .colibri-mascot.size-large {
+        width: 150px; /* Format portrait : largeur réduite */
+        height: 220px; /* Format portrait : hauteur augmentée */
+    }
+
+    .colibri-speech-bubble {
+        font-size: 11px;
+        padding: 8px 12px;
+        min-width: 100px;
+    }
+}
+

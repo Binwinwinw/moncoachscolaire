@@ -1,0 +1,48 @@
+{
+  "quiz_id": 1129,
+  "title": "Pauvreté et exclusion",
+  "subject": "SES",
+  "level": "Terminale",
+  "answers": [
+    {
+      "question_id": "1129_1",
+      "correct_option": "B",
+      "explanation": "La pauvreté monétaire relative (INSEE) : revenu disponible < 60% du revenu médian (seuil UE). En France : ~1 102 €/mois pour une personne seule (2022)."
+    },
+    {
+      "question_id": "1129_2",
+      "correct": true,
+      "explanation": "Pauvreté absolue : seuil fixe (ex : 2,15 $/jour BM) indépendant du revenu médian. Pauvreté relative : seuil qui varie avec le revenu médian de la société."
+    },
+    {
+      "question_id": "1129_3",
+      "correct_answer": "L'exclusion sociale (Robert Castel) est un processus de désaffiliation progressive (emploi → chômage → précarité → rupture des liens sociaux). La pauvreté est une condition économique (insuffisance de ressources). L'exclusion ajoute une dimension sociale (rupture du lien social, non-accès aux droits).",
+      "explanation": "Castel distingue zone d'intégration, zone de vulnérabilité et zone de désaffiliation. L'exclusion est le bout d'un processus cumulatif."
+    },
+    {
+      "question_id": "1129_4",
+      "correct_option": "B",
+      "explanation": "Trappe à pauvreté ou trappe à inactivité : si reprendre un emploi peu rémunéré implique de perdre des allocations, le gain net est insuffisant → désincitation."
+    },
+    {
+      "question_id": "1129_5",
+      "correct": true,
+      "explanation": "La pauvreté laborieuse : emploi à temps partiel contraint, CDD, bas salaires → revenus insuffisants malgré l'activité. Phénomène croissant avec la flexibilisation du marché du travail."
+    },
+    {
+      "question_id": "1129_6",
+      "correct_answer": "Sen (1999) : la pauvreté n'est pas seulement un manque de revenus, mais un manque de libertés réelles (capabilités = capacités à réaliser des fonctionnements). L'IDH s'en inspire : santé, éducation, revenu. Permet de mesurer une pauvreté multidimensionnelle.",
+      "explanation": "L'approche par les capabilités dépasse la mesure monétaire et évalue ce que les personnes peuvent réellement faire et être."
+    },
+    {
+      "question_id": "1129_7",
+      "correct_option": "B",
+      "explanation": "L'IPM (Alkire-Foster, PNUD) : une personne est pauvreté multidimensionnelle si elle est privée dans au moins un tiers des indicateurs (nutrition, mortalité infantile, scolarisation, eau, électricité, logement…)."
+    },
+    {
+      "question_id": "1129_8",
+      "correct": true,
+      "explanation": "La pauvreté infantile est un déterminant majeur des inégalités de santé, d'éducation et de revenus à l'âge adulte. Les enfants pauvres ont plus de risques de malnutrition, d'échec scolaire et de chômage à l'avenir."
+    }
+  ]
+}

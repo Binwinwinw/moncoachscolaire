@@ -1,0 +1,102 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ère Anglais - Série 03",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ère : Media, Technology, Advanced Expression (Eduscol B1/B2)",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-09 17:02:00"
+  },
+  "quiz": {
+    "title": "1ère English Diagnostic - Series 03 (Media & Tech)",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Smartphones have revolutionized communication but created addiction issues.",
+        "choices": [
+          "Agree - screen time limits needed",
+          "Disagree - total freedom",
+          "Neutral - depends on usage",
+          "No opinion"
+        ],
+        "correct_index": 2,
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "AI will replace teachers completely in the next decade.",
+        "correct": false,
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "Give 2 advantages of streaming platforms (Netflix, Spotify).",
+        "placeholder": "ex: On-demand access, personalized recommendations",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Which modal for advice? 'You _____ recycle more to help the planet.'",
+        "choices": [
+          "should",
+          "must",
+          "can",
+          "might"
+        ],
+        "correct_index": 0,
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "If governments invested more in green tech, emissions would drop significantly.",
+        "correct": true,
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "What's one danger of fake news on social media? Explain briefly.",
+        "placeholder": "ex: Misinformation spreads fast, influences opinions",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "Remote work has become popular since:",
+        "choices": [
+          "COVID-19 pandemic",
+          "2008 crisis",
+          "Internet invention",
+          "Smartphone era"
+        ],
+        "correct_index": 0,
+        "id": 7
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Podcasts are more interactive than traditional radio.",
+        "correct": false,
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Media & Digital",
+      "description": "Social media, streaming, fake news (Eduscol 1ère)"
+    },
+    {
+      "notion": "Technology Impact",
+      "description": "AI, smartphones, remote work pros/cons"
+    },
+    {
+      "notion": "Advanced Grammar",
+      "description": "Modals (should/might), 2nd conditional, reported speech"
+    }
+  ]
+}

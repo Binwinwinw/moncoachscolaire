@@ -1,0 +1,76 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Geographie 1ere - Série 188",
+    "level": "1ere",
+    "subject": "Histoire-Geographie"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Histoire-Géographie - Serie 14",
+    "question_count": 8,
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Le Printemps des peuples",
+        "correct": 1,
+        "correction": "Le 'Printemps des peuples' (1848) est une vague révolutionnaire qui touche simultanément la France (IIe République), les États allemands, l'Autriche-Hongrie, l'Italie, la Pologne. Ces révolutions mêlent revendications libérales (constitutions, libertés) et nationales (unité allemande, italienne). La plupart échouent, mais elles accélèrent les transformations politiques."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'unification italienne (Risorgimento) est menée par le royaume de Piémont-Sardaigne avec Cavour (Premier ministre) et Garibaldi (révolutionnaire). Elle s'achève avec la prise de Rome en 1870. Victor-Emmanuel II devient le premier roi d'Italie unifiée en 1861."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "correct_answer": "Le nationalisme est l'idéologie qui affirme que les nations ont le droit de constituer des États indépendants. Au XIXe siècle, il pousse à l'unification de nations divisées (Allemagne, Italie) et à l'indépendance de peuples dominés.",
+        "answer": "Le nationalisme est l'idéologie qui affirme que les nations ont le droit de constituer des États indépendants. Au XIXe siècle, il pousse à l'unification de nations divisées (Allemagne, Italie) et à l'indépendance de peuples dominés.",
+        "correction": "Le nationalisme est l'idéologie selon laquelle chaque nation (définie par une langue, une culture, une histoire communes) a le droit de former un État souverain. Au XIXe siècle, il prend deux formes : le nationalisme d'unification (Allemagne de Bismarck, Italie du Risorgimento) et le nationalisme de libération (Grèce, Belgique, Pologne). Il est lié au romantisme et à la revendication d'une identité culturelle distincte."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Otto von Bismarck",
+        "correct": 2,
+        "correction": "Otto von Bismarck, chancelier de Prusse, unifie l'Allemagne par la politique de la 'Realpolitik' : guerres contre le Danemark (1864), l'Autriche (1866) et la France (1870-1871). La défaite française de Sedan conduit à la proclamation du IIe Reich allemand dans la galerie des Glaces de Versailles le 18 janvier 1871."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Après la capitulation de Paris (janvier 1871), la Commune de Paris (18 mars – 28 mai 1871) est un gouvernement révolutionnaire qui contrôle Paris pendant deux mois. La répression versaillaise (Semaine sanglante) fait entre 10 000 et 30 000 morts. La Commune reste un symbole pour le mouvement ouvrier international."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "correct_answer": "Le libéralisme politique revendique les libertés individuelles (presse, expression, conscience), les constitutions limitant le pouvoir royal et la représentation politique.",
+        "answer": "Le libéralisme politique revendique les libertés individuelles (presse, expression, conscience), les constitutions limitant le pouvoir royal et la représentation politique.",
+        "correction": "Le libéralisme politique du XIXe siècle est fondé sur la philosophie des Lumières et revendique : les droits et libertés individuels (liberté de la presse, d'expression, de conscience, de réunion), des constitutions qui limitent le pouvoir des monarques, la représentation politique par un parlement élu, l'égalité devant la loi et la séparation des pouvoirs (Montesquieu). Il s'oppose aux régimes absolutistes et à la Sainte-Alliance."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "La IIe République",
+        "correct": 1,
+        "correction": "La révolution de février 1848 renverse la monarchie de Juillet de Louis-Philippe et proclame la IIe République. Elle instaure le suffrage universel masculin, abolit l'esclavage dans les colonies (décret Schoelcher) et les châtiments corporels. Elle est renversée par le coup d'État de Louis-Napoléon Bonaparte en décembre 1851."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Victor Hugo (1802-1885) est l'une des figures majeures du romantisme français : poète (Les Contemplations), romancier (Notre-Dame de Paris, Les Misérables) et dramaturge (Hernani). Engagé politiquement, il est aussi un républicain convaincu, exilé sous Napoléon III, et défenseur des pauvres et des opprimés."
+      }
+    ]
+  }
+}

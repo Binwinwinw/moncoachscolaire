@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 472",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "description": "Diagnostic Français 1ère : Le théâtre moderne et contemporain",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Le théâtre moderne et contemporain",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel mouvement dramatique du XXe siècle remet en cause les conventions théâtrales traditionnelles ?",
+        "choices": [
+          "Le Classicisme",
+          "Le théâtre de l'absurde",
+          "Le Romantisme",
+          "Le Naturalisme"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "En attendant Godot de Beckett possède une intrigue linéaire et un dénouement clair."
+      },
+      {
+        "type": "open",
+        "question": "Le drame bourgeois du XVIIIe siècle, théorisé par Diderot, introduit des personnages issus de la _____."
+      },
+      {
+        "type": "qcm",
+        "question": "Bertolt Brecht développe le concept de :",
+        "choices": [
+          "Catharsis",
+          "Distanciation (Verfremdungseffekt)",
+          "Bienséance",
+          "Vraisemblance"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le monologue intérieur peut être utilisé au théâtre sous la forme d'aparté ou de soliloque."
+      },
+      {
+        "type": "open",
+        "question": "La didascalie est une indication scénique fournie par l' _____ pour guider le metteur en scène et les acteurs."
+      },
+      {
+        "type": "qcm",
+        "question": "Le théâtre épique, cher à Brecht, se caractérise par :",
+        "choices": [
+          "L'immersion totale du spectateur",
+          "La rupture de l'illusion théâtrale",
+          "L'absence de conflits",
+          "L'unité de temps et de lieu"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Eugène Ionesco est l'auteur de La Cantatrice chauve."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

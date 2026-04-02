@@ -1,0 +1,76 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Geographie 1ere - Série 183",
+    "level": "1ere",
+    "subject": "Histoire-Geographie"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Histoire-Géographie - Serie 9",
+    "question_count": 8,
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Le processus d'interconnexion et d'interdépendance croissante des économies, des sociétés et des cultures à l'échelle mondiale",
+        "correct": 1,
+        "correction": "La mondialisation est un processus multidimensionnel d'interconnexion croissante des économies (commerce, investissements, finance), des sociétés (migrations, communication) et des cultures (diffusion des idées, modes de vie) à l'échelle planétaire, accéléré depuis les années 1980-1990."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La 'Triade' (Amérique du Nord, Europe occidentale, Asie orientale – Japon, Corée du Sud, Chine littorale) concentre la majorité des échanges commerciaux mondiaux, des investissements et de la production de richesses. Cependant, la montée des BRICS (Brésil, Russie, Inde, Chine, Afrique du Sud) rééquilibre progressivement ce schéma."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "correct_answer": "Une FTN est une entreprise qui produit et vend dans plusieurs pays, jouant un rôle central dans la mondialisation économique par ses investissements et ses chaînes de valeur mondiales.",
+        "answer": "Une FTN est une entreprise qui produit et vend dans plusieurs pays, jouant un rôle central dans la mondialisation économique par ses investissements et ses chaînes de valeur mondiales.",
+        "correction": "Une firme transnationale (FTN) ou multinationale est une entreprise dont les activités (production, vente, R&D) s'étendent sur plusieurs pays via des filiales. Elles sont des acteurs majeurs de la mondialisation : elles représentent environ 1/3 du commerce mondial, organisent des chaînes de valeur mondiales (délocalisation de la production), transfèrent des technologies et des capitaux. Exemples : Apple, Toyota, LVMH, Total."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "L'Afrique subsaharienne",
+        "correct": 2,
+        "correction": "L'Afrique subsaharienne reste globalement la région la plus marginalisée dans la mondialisation : faible part des échanges mondiaux (~2%), dépendance aux exportations de matières premières, manque d'investissements, instabilité politique. Cependant, des pays comme l'Éthiopie, le Rwanda ou le Sénégal connaissent une croissance significative."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI (avec nuances). Si la mondialisation a sorti des centaines de millions de personnes de la pauvreté (notamment en Chine et Inde), elle a également accentué les inégalités : entre pays (écart Nord-Sud), au sein des pays (fractures sociales dans les pays développés, ouvriers délocalisés vs cadres qualifiés) et entre régions (métropolisation vs déserts ruraux)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "correct_answer": "Une métropole mondiale est une ville qui exerce une influence et des fonctions de commandement à l'échelle mondiale. Exemples : New York, Londres, Tokyo.",
+        "answer": "Une métropole mondiale est une ville qui exerce une influence et des fonctions de commandement à l'échelle mondiale. Exemples : New York, Londres, Tokyo.",
+        "correction": "Une ville mondiale (global city, concept de Saskia Sassen) est une métropole qui concentre des fonctions de commandement économique (sièges sociaux de FTN, bourses mondiales), financier (places boursières), politique et culturel à l'échelle planétaire. Elles forment un réseau mondial. Exemples : New York (finance, ONU), Londres (City financière), Tokyo, Paris (culture, mode), Shanghai, Dubaï."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "La réduction des barrières commerciales (droits de douane, quotas) pour favoriser le commerce international",
+        "correct": 1,
+        "correction": "Le libre-échange est un principe commercial visant à réduire les obstacles aux échanges (droits de douane, quotas, normes protectionnistes). L'OMC (fondée en 1995, succédant au GATT) est l'organisation internationale qui promeut et arbitre les règles du commerce international et la libéralisation des échanges."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Internet, les technologies de l'information et de la communication (TIC), les réseaux sociaux et l'e-commerce ont révolutionné la mondialisation en permettant des échanges d'informations, de capitaux et de services quasi-instantanés à l'échelle mondiale. Ils ont créé de nouveaux acteurs mondiaux (GAFAM : Google, Apple, Facebook/Meta, Amazon, Microsoft)."
+      }
+    ]
+  }
+}

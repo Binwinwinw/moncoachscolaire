@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 717",
+    "level": "3ème",
+    "subject": "Physique-Chimie"
+  },
+  "quiz": {
+    "title": "Corrosion et protection des métaux",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Sa dégradation chimique par réaction avec son environnement",
+        "correct": 1,
+        "correction": "La corrosion est une oxydation naturelle des métaux par l'O2, l'eau ou des acides, réduisant leurs propriétés mécaniques."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'aluminium forme spontanément une fine couche d'alumine (Al2O3) qui le protège de la corrosion ultérieure."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "anodisation",
+        "correction": "L'anodisation (éloxage) épaissit la couche d'Al2O3 protectrice par électrolyse, améliorant la résistance à la corrosion."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Magnésium",
+        "correct": 2,
+        "correction": "Le magnésium (ou zinc) est une anode sacrificielle plus oxydable que l'acier ; il se corrode à sa place."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La corrosion représente un coût économique énorme : environ 3 à 4% du PIB mondial en dommages et coûts de maintenance."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "acier inoxydable",
+        "correction": "L'acier inoxydable contient au moins 10,5% de chrome qui forme une couche de Cr2O3 passive protégeant contre la corrosion."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Galvanisation ou électrodéposition",
+        "correct": 1,
+        "correction": "La galvanisation (dépôt de zinc) ou l'électrodéposition protège les métaux contre la corrosion."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La peinture forme une barrière physique empêchant le contact entre le métal et les agents corrosifs."
+      }
+    ]
+  }
+}

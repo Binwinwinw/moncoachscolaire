@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 771",
+    "level": "3eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "L'evolution des objets techniques dans l'histoire",
+    "question_count": 8,
+    "level": "3eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Analyse fonctionnelle",
+        "correct": 1,
+        "correction": "L'analyse fonctionnelle decompose un objet en fonctions principales (ce qu'il fait) et fonctions contraintes (conditions a respecter)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Tout objet technique est concu pour repondre a un besoin : se deplacer, communiquer, transformer l'energie, produire, etc."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "evolution technique",
+        "correction": "L'evolution technique designe les modifications successives d'un objet pour ameliorer ses performances, sa fiabilite, sa securite ou reduire son impact environnemental."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Une invention qui change radicalement les usages et rend obsoletes les solutions precedentes",
+        "correct": 1,
+        "correction": "L'innovation de rupture (ex. smartphone, moteur a explosion, internet) transforme profondement les pratiques sociales et economiques."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La machine a vapeur perfectionnee par Watt a permis la mecanisation de la production, lançant la revolution industrielle au Royaume-Uni."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "patrimoine technique",
+        "correction": "Le patrimoine technique (ou culture technique) designe l'heritage des inventions, savoir-faire et objets techniques qui ont marque une civilisation."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Bionique ou biomimetisme",
+        "correct": 1,
+        "correction": "Le biomimetisme (ou bionique) s'inspire des solutions evolutives de la nature : velcro inspire du bardane, structures en nid d'abeille, ailes d'avion inspirees des oiseaux."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Un brevet d'invention (INPI en France) confere un monopole d'exploitation de 20 ans en echange de la divulgation publique de l'invention."
+      }
+    ]
+  }
+}

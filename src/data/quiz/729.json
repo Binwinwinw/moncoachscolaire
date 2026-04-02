@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 729",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie 3ème : Lumière : réflexion et miroirs",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Lumière : réflexion et miroirs",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la loi de la réflexion de la lumière ?",
+        "choices": [
+          "L'angle d'incidence est supérieur à l'angle de réflexion",
+          "L'angle d'incidence est égal à l'angle de réflexion par rapport à la normale",
+          "Le rayon réfléchi est perpendiculaire au rayon incident",
+          "L'angle de réflexion dépend de la couleur"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un miroir plan forme une image virtuelle, droite et de même taille que l'objet."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on le point où les rayons lumineux parallèles à l'axe d'un miroir concave convergent ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la nature de l'image formée par un miroir convexe ?",
+        "choices": [
+          "Image réelle, inversée et agrandie",
+          "Image virtuelle, droite et réduite",
+          "Image réelle, droite et de même taille",
+          "Image virtuelle, inversée et agrandie"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'image d'un objet placé entre le foyer et un miroir concave est virtuelle, droite et agrandie."
+      },
+      {
+        "type": "open",
+        "question": "Quelle est la formule de la relation de conjugaison pour un miroir sphérique ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel type de miroir est utilisé dans les phares de voiture pour concentrer la lumière ?",
+        "choices": [
+          "Miroir plan",
+          "Miroir concave",
+          "Miroir convexe",
+          "Miroir sphérique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un miroir concave peut former une image réelle ou virtuelle selon la position de l'objet."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

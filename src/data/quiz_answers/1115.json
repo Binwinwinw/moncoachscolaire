@@ -1,0 +1,48 @@
+{
+  "quiz_id": 1115,
+  "title": "Défaillances du marché et externalités",
+  "subject": "SES",
+  "level": "Terminale",
+  "answers": [
+    {
+      "question_id": "1115_1",
+      "correct_option": "B",
+      "explanation": "Externalité négative : le coût social > coût privé. Ex : pollution industrielle → surproduction par rapport à l'optimum social."
+    },
+    {
+      "question_id": "1115_2",
+      "correct": true,
+      "explanation": "Quand la production d'un bien profite à des tiers (ex : vaccination, éducation), le producteur ne capte pas tous les bénéfices → sous-production → justification de la subvention."
+    },
+    {
+      "question_id": "1115_3",
+      "correct_answer": "Si les droits de propriété sont bien définis et les coûts de transaction nuls, les agents peuvent négocier une solution optimale aux externalités sans intervention de l'État. Limites : coûts de transaction élevés, asymétries d'information, problèmes de « hold-up ».",
+      "explanation": "Coase : la solution aux externalités peut être privée (négociation). En pratique, les hypothèses restrictives limitent son application."
+    },
+    {
+      "question_id": "1115_4",
+      "correct_option": "B",
+      "explanation": "Bien public pur (Samuelson) : non-rival (la consommation d'un ne réduit pas celle d'un autre) et non-excluable (impossible d'en exclure quiconque). Ex : phare, défense nationale."
+    },
+    {
+      "question_id": "1115_5",
+      "correct": true,
+      "explanation": "Pour les biens non-excluables, chacun espère profiter sans payer (free rider) → sous-financement privé → l'État doit les fournir et les financer par l'impôt."
+    },
+    {
+      "question_id": "1115_6",
+      "correct_answer": "Bien public pur (non-rival, non-excluable) : défense nationale. Bien de club (non-rival, excluable) : autoroute à péage. Bien commun (rival, non-excluable) : poisson en mer. Bien privé (rival, excluable) : pain.",
+      "explanation": "Taxonomie de Samuelson et Ostrom. Les biens communs souffrent de la « tragédie des communs » (Hardin)."
+    },
+    {
+      "question_id": "1115_7",
+      "correct_option": "B",
+      "explanation": "Hardin : chaque individu rationnel maximise son usage d'une ressource commune, menant à sa destruction collective. Ex : surpêche, déforestation."
+    },
+    {
+      "question_id": "1115_8",
+      "correct": true,
+      "explanation": "Ostrom a documenté des systèmes de gouvernance locale efficaces pour gérer les biens communs (forêts, pêche, irrigation) sans les deux solutions extrêmes."
+    }
+  ]
+}

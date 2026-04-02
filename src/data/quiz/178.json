@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Geographie 1ere - Série 178",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "description": "Diagnostic Histoire-Geographie 1ere : Quiz Diagnostic 1ere Histoire-Géographie - Serie 4",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Histoire-Géographie - Serie 4",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel est le nom de l'opération allemande qui conduit à la défaite de la France en juin 1940 ?",
+        "choices": [
+          "L'Opération Barbarossa",
+          "L'Opération Overlord",
+          "Le Plan Schlieffen",
+          "L'Opération Fall Gelb (Case Yellow)"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le général de Gaulle lance son appel à la résistance depuis Londres le 18 juin 1940."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que le régime de Vichy et quel rôle joue-t-il dans la persécution des Juifs de France ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel événement fait entrer les États-Unis dans la Seconde Guerre mondiale en décembre 1941 ?",
+        "choices": [
+          "L'invasion de la Pologne",
+          "L'attaque japonaise sur Pearl Harbor",
+          "La déclaration de guerre de l'Allemagne aux USA",
+          "Le débarquement allié en Afrique du Nord"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La conférence de Wannsee (1942) planifie la 'Solution finale', c'est-à-dire l'extermination systématique des Juifs d'Europe."
+      },
+      {
+        "type": "open",
+        "question": "Décrivez l'importance stratégique du débarquement du 6 juin 1944 (Jour J) en Normandie."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle arme est utilisée pour la première fois en guerre lors des bombardements d'Hiroshima et Nagasaki en août 1945 ?",
+        "choices": [
+          "La bombe à hydrogène",
+          "Les missiles balistiques",
+          "La bombe atomique",
+          "Les armes chimiques"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le procès de Nuremberg (1945-1946) juge les crimes de guerre et les crimes contre l'humanité commis par les dirigeants nazis."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,82 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 20",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic tech/inégalités/emplois futurs (B1+).",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-09 21:41:00"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 20",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "'Technology revolution' includes:",
+        "choices": ["AI changing jobs", "Old typewriters", "Paper letters", "Smoke signals"],
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Global inequalities widen with tech access.",
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "Exemple tech révolutionne vie quotidienne.",
+        "placeholder": "Ex: Smartphones connect but addict...",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "'Future jobs' predicts:",
+        "choices": ["Robots replace routine work", "All manual only", "No changes", "Back to farms"],
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Wealth gap = rich-poor divide grows.",
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "Défi inégalités sociales (ex: éducation).",
+        "placeholder": "Ex: Poor areas lack internet...",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "Tech solves inequalities by:",
+        "choices": ["Online education access", "Ignoring problems", "More factories", "Less schools"],
+        "id": 7
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Future work needs lifelong learning.",
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Technology revolution",
+      "description": "Tech transforme société/travail (AI, smartphones)."
+    },
+    {
+      "notion": "Inequalities",
+      "description": "Inégalités sociales/éco amplifiées par tech."
+    },
+    {
+      "notion": "Future jobs",
+      "description": "Emplois demain : automation, reskilling."
+    }
+  ],
+  "exerciseresponses": []
+}

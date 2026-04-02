@@ -1,0 +1,98 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 5ème Anglais - Communication",
+    "type": "quiz",
+    "level": "5eme",
+    "subject": "Anglais",
+    "description": "Diagnostic Present simple, vocab, dialogues - 5ème",
+    "status": "published",
+    "created_at": "2026-03-08 18:20:00",
+    "updated_at": "2026-03-08 18:20:00"
+  },
+  "quiz": {
+    "title": "Diagnostic 5ème - Anglais Bases",
+    "level": "5eme",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "I **play** football every day. (Present simple)",
+        "choices": [
+          "play",
+          "plays",
+          "played",
+          "playing"
+        ],
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "He **is** a student. (To be)",
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "My name **is** ...",
+        "placeholder": "Anna",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Where **do** you live?",
+        "choices": [
+          "do you live",
+          "are you live",
+          "live you",
+          "you live"
+        ],
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "She **has** two brothers. (To have)",
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "What time **is** it? **It's** ...",
+        "placeholder": "three o'clock",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "Colors: rojo =",
+        "choices": [
+          "blue",
+          "red",
+          "green",
+          "yellow"
+        ],
+        "id": 7
+      },
+      {
+        "type": "texte",
+        "question": "'Nice to meet you' réponse :",
+        "placeholder": "nice to meet you too",
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Present simple",
+      "description": "Habitudes: I play, he plays (5ème)"
+    },
+    {
+      "notion": "To be/have",
+      "description": "Être/avoir présent"
+    },
+    {
+      "notion": "Questions vocab",
+      "description": "Where do..., colors, dialogues"
+    }
+  ],
+  "exerciseresponses": []
+}

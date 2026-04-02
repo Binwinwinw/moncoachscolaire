@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 619",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 1ère : L'évolution humaine",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "L'évolution humaine",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "L'être humain (Homo sapiens) appartient au groupe des :",
+        "choices": [
+          "Singes du Nouveau Monde",
+          "Grands singes (Hominidés), comme les chimpanzés et gorilles",
+          "Prosimiens",
+          "Cercopithécidés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'homme descend du chimpanzé selon la théorie de l'évolution."
+      },
+      {
+        "type": "open",
+        "question": "La bipédie (marche sur deux membres) est l'une des premières caractéristiques des _____, groupe qui comprend nos ancêtres et nous-mêmes."
+      },
+      {
+        "type": "qcm",
+        "question": "Lucy (Australopithecus afarensis) est un fossile clé de l'évolution humaine découvert en Éthiopie ; il date d'environ :",
+        "choices": [
+          "300 000 ans",
+          "3,2 millions d'années",
+          "10 millions d'années",
+          "50 000 ans"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Homo sapiens et Homo neanderthalensis ont coexisté et se sont croisés : des humains actuels portent des gènes néandertaliens."
+      },
+      {
+        "type": "open",
+        "question": "L'augmentation du volume crânien au cours de l'évolution humaine est une tendance majeure : le cerveau d'Homo sapiens atteint environ _____ cm3."
+      },
+      {
+        "type": "qcm",
+        "question": "L'origine géographique d'Homo sapiens est :",
+        "choices": [
+          "L'Asie",
+          "L'Europe",
+          "L'Afrique (hypothèse Out of Africa)",
+          "L'Amérique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La culture et le langage sont des caractéristiques distinctives de l'espèce Homo sapiens."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

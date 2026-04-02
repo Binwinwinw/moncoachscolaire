@@ -1,0 +1,98 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Bac Phéno - Synthèse",
+    "type": "quiz",
+    "level": "bac",
+    "subject": "Philosophie",
+    "description": "Diagnostic Méthode dissert, plans, auteurs - Bac Phéno",
+    "status": "published",
+    "created_at": "2026-03-08 18:15:00",
+    "updated_at": "2026-03-08 18:15:00"
+  },
+  "quiz": {
+    "title": "Diagnostic Bac - Synthèse Philosophie",
+    "level": "bac",
+    "subject": "Philosophie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Dissertation plan dialectique :",
+        "choices": [
+          "Thèse seule",
+          "Thèse/antithèse/synthèse",
+          "Analytique",
+          "Chronologique"
+        ],
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Problématique = question reformulée sujet.",
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "Hegel dialectique : thèse → ... → synthèse",
+        "placeholder": "antithèse",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Nietzsche 'Dieu mort' =",
+        "choices": [
+          "athéisme",
+          "nihilisme",
+          "surhomme",
+          "éternel retour"
+        ],
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Explication texte: 1/ paraphrase 2/ problématique 3/ thèse.",
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "Rawls 'voile ignorance' =",
+        "placeholder": "justice équitable",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "Transition dissert =",
+        "choices": [
+          "Récapitulatif",
+          "Lien parties",
+          "Citation",
+          "Exemple"
+        ],
+        "id": 7
+      },
+      {
+        "type": "texte",
+        "question": "Bergson durée =",
+        "placeholder": "temps qualitatif",
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Méthode dissertation",
+      "description": "Problématique, plan dialectique (Bac Phéno)"
+    },
+    {
+      "notion": "Explication texte",
+      "description": "Paraphrase → thèse → ouvert"
+    },
+    {
+      "notion": "Auteurs modernes",
+      "description": "Hegel, Nietzsche, Rawls (synthèse)"
+    }
+  ],
+  "exerciseresponses": []
+}

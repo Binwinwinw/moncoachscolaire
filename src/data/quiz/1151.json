@@ -1,0 +1,73 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES Terminale - Serie 1151",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "SES",
+    "description": "Diagnostic SES Terminale : Pauvrete et precarite",
+    "status": "published",
+    "created_at": "2026-03-14 03:10:56",
+    "updated_at": "2026-03-14 03:10:56"
+  },
+  "quiz": {
+    "title": "Pauvrete et precarite",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "SES",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Dans le cadre de 'Pauvrete et precarite', quel acteur est le plus directement associe a la regulation de lutte contre la pauvrete monetaire ?",
+        "choices": [
+          "CAF",
+          "Les menages uniquement",
+          "Les entreprises sans cadre public",
+          "Les ONG locales sans coordination internationale"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'indicateur 'taux de pauvrete' est utile pour suivre les evolutions de lutte contre la pauvrete monetaire."
+      },
+      {
+        "type": "open",
+        "question": "Definis lutte contre la pauvrete monetaire et explique en quoi cet enjeu est important en Terminale SES."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel exemple illustre le mieux le mecanisme etudie ?",
+        "choices": [
+          "revalorisation des minima sociaux",
+          "Une situation sans intervention d'acteurs collectifs",
+          "Une evolution purement individuelle sans cadre institutionnel",
+          "Un cas sans donnees ni enjeux economiques"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le levier 'transferts sociaux' peut modifier les incitations des acteurs dans ce domaine."
+      },
+      {
+        "type": "open",
+        "question": "Propose un argument montreant a la fois un effet positif et une limite de 'transferts sociaux'."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle reference theorique est la plus pertinente pour discuter ce chapitre ?",
+        "choices": [
+          "Sen et capabilites",
+          "Une approche sans cadre theorique",
+          "Une interpretation uniquement morale sans faits",
+          "Une explication strictement biologique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Dans une dissertation SES, il faut articuler notions, donnees et exemples pour justifier l'argumentation."
+      }
+    ]
+  }
+}

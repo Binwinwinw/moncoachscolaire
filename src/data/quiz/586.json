@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 586",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 3ème : Valeurs de la République et laïcité",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "Valeurs de la République et laïcité",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "La devise de la République française est :",
+        "choices": [
+          "Travail, Famille, Patrie",
+          "Liberté, Égalité, Fraternité",
+          "Ordre et Progrès",
+          "Unité, Laïcité, Justice"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La laïcité garantit la liberté de conscience."
+      },
+      {
+        "type": "open",
+        "question": "La loi fondatrice de la séparation des Églises et de l'État date de _____."
+      },
+      {
+        "type": "qcm",
+        "question": "Dans une école publique, la neutralité religieuse s'impose surtout :",
+        "choices": [
+          "Aux élèves uniquement",
+          "Aux personnels de l'État dans l'exercice de leurs fonctions",
+          "Aux parents seulement",
+          "Aux associations sportives"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La laïcité interdit toute religion en France."
+      },
+      {
+        "type": "open",
+        "question": "L'instance scolaire qui enseigne les valeurs civiques au collège est l'_____ civique et morale."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel principe interdit les discriminations entre citoyens ?",
+        "choices": [
+          "L'autorité",
+          "L'égalité",
+          "La souveraineté",
+          "La subsidiarité"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La fraternité implique aussi la solidarité envers les plus vulnérables."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

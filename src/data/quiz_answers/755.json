@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 3eme - Série 755",
+    "level": "3eme",
+    "subject": "EMC"
+  },
+  "quiz": {
+    "title": "Les institutions de la Ve Republique",
+    "question_count": 8,
+    "level": "3eme",
+    "subject": "EMC",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "1958",
+        "correct": 2,
+        "correction": "La Ve République a été instaurée par la Constitution du 4 octobre 1958, rédigée sous l'impulsion du général de Gaulle pour résoudre la crise algérienne."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "En France, le Premier ministre est nommé par le Président de la République (article 8 de la Constitution), qui choisit une personnalité susceptible de disposer d'une majorité à l'Assemblée nationale."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "article 12",
+        "correction": "L'article 12 permet au Président de dissoudre l'Assemblée nationale après consultation du Premier ministre et des présidents des assemblées."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Voter les lois et controler le gouvernement",
+        "correct": 1,
+        "correction": "L'Assemblée nationale (577 députés élus pour 5 ans) vote les lois, le budget de l'État et peut renverser le gouvernement par une motion de censure."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Seule l'Assemblée nationale peut renverser le gouvernement par une motion de censure (article 49 de la Constitution) ; le Sénat ne dispose pas de ce pouvoir."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "cohabitation",
+        "correction": "La cohabitation (1986-88, 1993-95, 1997-2002) est une situation de division du pouvoir exécutif entre un président et un premier ministre de camps politiques opposés."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Verifier la conformite des lois a la Constitution",
+        "correct": 1,
+        "correction": "Le Conseil constitutionnel (9 membres nommés pour 9 ans non renouvelables) contrôle la constitutionnalité des lois avant et après promulgation (via la QPC)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le Conseil d'État est la plus haute juridiction administrative et conseille le gouvernement sur les projets de loi et d'ordonnances."
+      }
+    ]
+  }
+}

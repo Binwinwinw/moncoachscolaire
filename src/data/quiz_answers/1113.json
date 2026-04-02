@@ -1,0 +1,48 @@
+{
+  "quiz_id": 1113,
+  "title": "Marchés et concurrence — approfondissement",
+  "subject": "SES",
+  "level": "Terminale",
+  "answers": [
+    {
+      "question_id": "1113_1",
+      "correct_option": "B",
+      "explanation": "En CPP, le prix d'équilibre (prix de marché) équilibre offre et demande. C'est le prix pour lequel il n'y a ni pénurie ni surplus."
+    },
+    {
+      "question_id": "1113_2",
+      "correct": true,
+      "explanation": "Avec atomicité et homogénéité des produits, aucun acteur ne peut influencer le prix : chacun l'accepte comme une donnée."
+    },
+    {
+      "question_id": "1113_3",
+      "correct_answer": "Atomicité (nombreux offreurs et demandeurs), homogénéité des produits, libre entrée et sortie du marché, transparence de l'information, mobilité parfaite des facteurs.",
+      "explanation": "Ces cinq conditions (modèle théorique) assurent que le marché conduit à un optimum de Pareto."
+    },
+    {
+      "question_id": "1113_4",
+      "correct_option": "A",
+      "explanation": "Surplus consommateur = prix de réserve − prix payé. Il mesure le gain retiré de l'échange par le consommateur."
+    },
+    {
+      "question_id": "1113_5",
+      "correct": true,
+      "explanation": "Définition de l'efficacité au sens de Pareto. En CPP, l'équilibre de marché est Pareto-optimal (1er théorème du bien-être)."
+    },
+    {
+      "question_id": "1113_6",
+      "correct_answer": "Un prix plancher fixé au-dessus du prix d'équilibre incite les producteurs à offrir plus, mais les consommateurs demandent moins : offre > demande → surplus. Ex : salaire minimum peut créer du chômage selon certains économistes.",
+      "explanation": "Prix plancher > Péquilibre → Qofferte > Qdemandée → surplus. Inverse du plafond de prix."
+    },
+    {
+      "question_id": "1113_7",
+      "correct_option": "B",
+      "explanation": "e = (ΔQ/Q) / (ΔP/P). Si |e| > 1 : demande élastique. Si |e| < 1 : demande inélastique."
+    },
+    {
+      "question_id": "1113_8",
+      "correct": true,
+      "explanation": "Les biens essentiels sans substituts proches ont une demande inélastique : les consommateurs les achètent même si le prix monte."
+    }
+  ]
+}

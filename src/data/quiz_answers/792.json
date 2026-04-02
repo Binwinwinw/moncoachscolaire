@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 792",
+    "level": "3eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Les interfaces homme-machine (IHM) et UX design",
+    "question_count": 8,
+    "level": "3eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "L'ensemble des moyens par lesquels un utilisateur interagit avec un systeme technique",
+        "correct": 1,
+        "correction": "L'IHM (ou HMI) designe tous les elements d'interaction : ecran tactile, clavier, boutons, commandes vocales, voyants, permettant a l'humain de controler un systeme."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le design UX vise a rendre les interfaces intuitives (affordance) en respectant les conventions d'usage et en anticipant les actions de l'utilisateur."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "UX design",
+        "correction": "L'UX design (User Experience) etudie les besoins, comportements et emotions des utilisateurs pour concevoir des interfaces efficaces, efficientes et satisfaisantes."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "La conception de contenus utilisables par des personnes en situation de handicap",
+        "correct": 1,
+        "correction": "L'accessibilite numerique (WCAG, RGAA en France) assure que les sites et applications sont utilisables par des personnes malvoyantes, malentendantes ou avec des troubles moteurs."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les tests utilisateurs (user testing) sont une methode essentielle du design UX ; ils revelent les problemes d'usabilite non anticipes par les concepteurs."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "prototype interactif",
+        "correction": "Un prototype interactif (wireframe cliquable, Figma, Adobe XD) simule l'experience utilisateur sans coder, permettant de valider la navigation et l'architecture de l'information."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Principe d'affordance",
+        "correct": 1,
+        "correction": "L'affordance (J.J. Gibson, Norman) designe la propriete d'un objet a suggerer son utilisation : un bouton bombé evoque l'action d'appuyer, une poignee invite a tirer."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le responsive design utilise des grilles fluides et media queries CSS pour adapter la mise en page et la lisibilite selon le type d'ecran de l'utilisateur."
+      }
+    ]
+  }
+}

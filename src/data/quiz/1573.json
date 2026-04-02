@@ -1,0 +1,97 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic terminale Philosophie - Serie 30",
+    "type": "quiz",
+    "level": "terminale",
+    "subject": "Philosophie",
+    "description": "Diagnostic Philosophie terminale : Éthique et responsabilité",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-08 00:05:00"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic terminale Philosophie - Serie 30",
+    "level": "terminale",
+    "subject": "Philosophie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel concept clé as-tu étudié en Philosophie cette année ?",
+        "choices": [
+          "Concept A",
+          "Concept B",
+          "Concept C",
+          "Concept D"
+        ],
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le niveau terminale aborde des notions fondamentales en Philosophie.",
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "Cite un exemple concret lié à Philosophie.",
+        "placeholder": "Exemple...",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Quel concept clé as-tu étudié en Philosophie cette année ?",
+        "choices": [
+          "Concept A",
+          "Concept B",
+          "Concept C",
+          "Concept D"
+        ],
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le niveau terminale aborde des notions fondamentales en Philosophie.",
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "Cite un exemple concret lié à Philosophie.",
+        "placeholder": "Exemple...",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "Quel concept clé as-tu étudié en Philosophie cette année ?",
+        "choices": [
+          "Concept A",
+          "Concept B",
+          "Concept C",
+          "Concept D"
+        ],
+        "id": 7
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le niveau terminale aborde des notions fondamentales en Philosophie.",
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Notion 1 - Philosophie",
+      "description": "Concept clé de Philosophie au niveau terminale"
+    },
+    {
+      "notion": "Notion 2 - Philosophie",
+      "description": "Concept clé de Philosophie au niveau terminale"
+    },
+    {
+      "notion": "Notion 3 - Philosophie",
+      "description": "Concept clé de Philosophie au niveau terminale"
+    }
+  ],
+  "exerciseresponses": []
+}

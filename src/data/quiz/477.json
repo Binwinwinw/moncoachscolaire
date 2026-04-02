@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 477",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "description": "Diagnostic Français 1ère : Le commentaire littéraire : méthode",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Le commentaire littéraire : méthode",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel est l'objectif principal du commentaire littéraire ?",
+        "choices": [
+          "Raconter le résumé du texte",
+          "Analyser comment le texte produit du sens et de l'effet",
+          "Émettre un jugement personnel",
+          "Comparer plusieurs auteurs"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La paraphrase (reformulation du texte) est valorisée dans un commentaire littéraire."
+      },
+      {
+        "type": "open",
+        "question": "Dans un commentaire, l'axe de lecture est parfois appelé _____ : il oriente l'analyse d'une partie."
+      },
+      {
+        "type": "qcm",
+        "question": "Un relevé stylistique sans interprétation est :",
+        "choices": [
+          "Une analyse complète",
+          "Insuffisant : il faut toujours interpréter l'effet",
+          "Valorisé par les correcteurs",
+          "Une paraphrase"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'introduction d'un commentaire doit situer le texte dans son contexte et annoncer les axes d'analyse."
+      },
+      {
+        "type": "open",
+        "question": "Le mouvement du texte désigne la _____ interne du passage, c'est-à-dire comment il progresse."
+      },
+      {
+        "type": "qcm",
+        "question": "Dans quelle partie de la correction va-t-on insérer des citations courtes du texte ?",
+        "choices": [
+          "Uniquement en introduction",
+          "Dans chaque sous-partie pour appuyer les analyses",
+          "Uniquement en conclusion",
+          "Jamais"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La conclusion d'un commentaire littéraire peut proposer une ouverture vers une autre œuvre."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

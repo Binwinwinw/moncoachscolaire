@@ -1,0 +1,69 @@
+# Bloquer l'accès public aux fichiers .env (sécurité)
+<FilesMatch "^\.env">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+# ============================================================================
+# .htaccess LOCAL - Environnement de développement
+# Pour XAMPP/WAMP en local (http://localhost/moncoachscolaire/)
+# ============================================================================
+
+RewriteEngine On
+
+# ============================================================================
+# ROUTING - PAGES ET API
+# ============================================================================
+
+# Ne pas router les fichiers/dossiers existants
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Router les appels API vers public/index.php
+# Le .htaccess étant dans /moncoachscolaire/, Apache retire automatiquement ce préfixe
+# On voit seulement "api/*" et non "moncoachscolaire/api/*"
+RewriteRule ^api/(.*)$ public/index.php?page=api/$1&htaccess_rewrite=OK [L,QSA]
+
+# Router toutes les autres requêtes (pages) vers index.php
+# Cela permet les URLs comme /college/6eme/guide-remediation
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)$ index.php?page=$1 [QSA,L]
+
+# ============================================================================
+# ASSETS - Accès direct
+# ============================================================================
+
+# Accès direct aux assets dans /public/
+RewriteRule ^public/assets/(.*)$ public/assets/$1 [L]
+RewriteRule ^public/img/(.*)$ public/img/$1 [L]
+RewriteRule ^public/images/(.*)$ public/images/$1 [L]
+RewriteRule ^public/js/(.*)$ public/js/$1 [L]
+RewriteRule ^public/videos/(.*)$ public/videos/$1 [L]
+
+# Alias: /assets/ → /public/assets/
+RewriteRule ^assets/(.*)$ public/assets/$1 [L]
+RewriteRule ^img/(.*)$ public/img/$1 [L]
+RewriteRule ^images/(.*)$ public/images/$1 [L]
+RewriteRule ^js/(.*)$ public/js/$1 [L]
+RewriteRule ^videos/(.*)$ public/videos/$1 [L]
+
+# ============================================================================
+# SÉCURITÉ - LOCAL (permissif pour debugging)
+# ============================================================================
+
+# Afficher les erreurs PHP en local
+<IfModule mod_php.c>
+    php_flag display_errors On
+    php_flag expose_php Off
+    php_flag log_errors On
+</IfModule>
+
+# Bloquer les fichiers sensibles
+<FilesMatch "\.(htaccess|htpasswd|ini|log|sh|sql|bak)$">
+    Require all denied
+</FilesMatch>
+
+# Options
+Options -Indexes
+AddType video/webm .webm
+AddType video/mp4 .mp4

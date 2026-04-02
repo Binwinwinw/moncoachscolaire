@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 645",
+    "level": "1ère",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "Les comportements animaux et l'évolution",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "La science qui étudie le comportement animal dans son milieu naturel",
+        "correct": 1,
+        "correction": "L'éthologie (Lorenz, Tinbergen, Von Frisch — Nobel 1973) étudie les comportements innés (FAP) et appris et leur valeur adaptative dans l'évolution."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'empreinte filiale chez les oies : le jeune suit le premier objet mobile qu'il voit après l'éclosion (période sensible ~36h) ; ce programme est inné, le déclencheur est appris."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "symbolique",
+        "correction": "La danse frétillante (waggle dance) : l'angle avec la verticale indique la direction par rapport au soleil, la durée indique la distance. Nobel 1973."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Les caractères qui avantagent la reproduction (attractivité, compétition entre mâles, choix femelle)",
+        "correct": 1,
+        "correction": "Sélection sexuelle : dimorphisme sexuel (plumes du paon, bois du cerf), compétition entre mâles (tournois), sélection par la femelle des caractères indiquant bonne santé."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Hamilton : un comportement altruiste est sélectionné si rb > c (règle de Hamilton) ; r = coefficient de parenté, b = bénéfice pour les apparentés, c = coût pour l'acteur."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "K",
+        "correction": "Espèces r (lapins, souris) : nombreuse progéniture, courte durée de vie, milieux instables. Espèces K (éléphants, baleines) : peu de descendants, longue durée de vie, milieux stables."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "L'évolution conjointe de deux espèces qui interagissent étroitement, chacune exerçant une pression de sélection sur l'autre",
+        "correct": 1,
+        "correction": "Exemples : plantes à fleurs et pollinisateurs, prédateurs et proies (course aux armements), parasites et hôtes ; la coévolution peut mener à des spécialisations extrêmes."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La séquence du génome de Pan troglodytes (2005) confirme ~98,7 % d'identité avec l'Homme ; divergence il y a ~6-7 Ma ; les différences portent sur des gènes régulateurs."
+      }
+    ]
+  }
+}

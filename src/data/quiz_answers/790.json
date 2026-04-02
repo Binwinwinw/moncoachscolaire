@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 790",
+    "level": "3eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Les reseaux informatiques et la communication",
+    "question_count": 8,
+    "level": "3eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Acheminer les paquets de donnees entre differents reseaux",
+        "correct": 1,
+        "correction": "Un routeur analyse les adresses IP des paquets et les achemine vers le reseau de destination optimal, reliant le reseau local a internet."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'adresse IP (IPv4 en 4 octets, ex. 192.168.1.1 ; IPv6 en 128 bits) identifie un equipement sur un reseau ; elle peut etre fixe ou attribuee dynamiquement (DHCP)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "HTTP/HTTPS",
+        "correction": "HTTP (HyperText Transfer Protocol) permet l'echange de pages web ; HTTPS est sa version chiffree (TLS/SSL) qui securise les communications."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "L'utilisation de ressources informatiques (serveurs, stockage, logiciels) via internet plutot que localement",
+        "correct": 1,
+        "correction": "Le cloud computing (informatique en nuage) permet d'acceder a des ressources informatiques distantes via internet ; ex. Google Drive, OneDrive, AWS, Azure."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Un pare-feu analyse les paquets entrants et sortants et bloque ceux qui ne respectent pas les regles de securite definies, protégeant le reseau local."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "ARP",
+        "correction": "ARP (Address Resolution Protocol) resout les adresses IP en adresses MAC pour l'acheminement des donnees au niveau de la couche liaison du modele OSI."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Topologie etoile",
+        "correct": 2,
+        "correction": "Dans la topologie etoile, tous les equipements sont relies a un commutateur central ; si un cable tombe en panne, seul l'equipement concerne est affecte."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le chiffrement E2E (end-to-end) utilise des cles cryptographiques : les donnees sont chiffrees chez l'expediteur et seulement le destinataire peut les dechiffrer."
+      }
+    ]
+  }
+}

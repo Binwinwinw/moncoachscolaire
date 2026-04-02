@@ -1,0 +1,22 @@
+VERIFICATION DU FIX D'ENCODAGE
+============================================================
+
+Démo (demo.php)                -> [OK]   FIXED
+       Patterns found: Lycée
+
+Topbar (buttons)               -> [OK]   FIXED
+       Patterns found: démarrer
+
+Inscription (register)         -> [OK]   FIXED
+       Patterns found: démarrer
+
+Dashboard                      -> [OK]   FIXED
+       Patterns found: démarrer
+
+Dashboard Admin                -> [OK]   FIXED
+       Patterns found: démarrer
+
+Exercices                      -> [FAIL] BROKEN
+
+Cours                          -> [FAIL] BROKEN
+

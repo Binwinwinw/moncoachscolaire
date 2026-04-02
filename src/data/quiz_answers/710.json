@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 710",
+    "level": "3ème",
+    "subject": "Physique-Chimie"
+  },
+  "quiz": {
+    "title": "Chimie organique : introduction",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Il peut former 4 liaisons covalentes et s'enchaîner avec lui-même",
+        "correct": 1,
+        "correction": "La tétravalence du carbone et sa capacité à former des chaînes C-C permettent des millions de composés organiques."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'éthanol (alcool éthylique) a pour formule C2H6O ou C2H5OH. C'est l'alcool présent dans les boissons fermentées."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "alcanes",
+        "correction": "Les alcanes (méthane CH4, éthane C2H6, propane C3H8…) sont des hydrocarbures saturés de formule générale CnH(2n+2)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "-COOH (carboxyle)",
+        "correct": 1,
+        "correction": "Le groupe carboxyle -COOH définit les acides carboxyliques (acide acétique CH3COOH, acide lactique…)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les plastiques sont des polymères (longues chaînes de monomères organiques) comme le polyéthylène ou le PVC."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "condensation",
+        "correction": "La polymérisation par condensation (ex. formation de polyester, nylon) élimine de petites molécules (H2O, HCl) à chaque liaison."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Méthane",
+        "correct": 2,
+        "correction": "Le gaz naturel est composé à plus de 90% de méthane (CH4)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le vinaigre est une solution aqueuse contenant 5 à 8% d'acide acétique (CH3COOH)."
+      }
+    ]
+  }
+}

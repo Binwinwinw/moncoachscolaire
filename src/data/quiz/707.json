@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 707",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie 3ème : Réactions chimiques : combustions",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Réactions chimiques : combustions",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quels sont les trois éléments nécessaires à une combustion (triangle du feu) ?",
+        "choices": [
+          "Eau, air, chaleur",
+          "Combustible, comburant (O2), énergie d'activation",
+          "Carbone, hydrogène, azote",
+          "CO2, H2O, énergie"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La combustion complète du méthane produit du CO2 et de l'eau."
+      },
+      {
+        "type": "open",
+        "question": "Quel gaz toxique est produit lors d'une combustion incomplète faute d'oxygène suffisant ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Comment équilibre-t-on la combustion complète du butane C4H10 ?",
+        "choices": [
+          "C4H10 + 5O2 → 4CO2 + 5H2O",
+          "2C4H10 + 13O2 → 8CO2 + 10H2O",
+          "C4H10 + O2 → CO2 + H2O",
+          "C4H10 + 4O2 → 4CO2 + H2O"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La combustion du charbon (carbone) produit uniquement du CO2."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on un composé chimique contenant uniquement du carbone et de l'hydrogène ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel test permet de confirmer la présence de dioxyde de carbone dans les gaz d'une combustion ?",
+        "choices": [
+          "Test à la flamme",
+          "Eau de chaux qui se trouble",
+          "Papier pH qui change de couleur",
+          "Nitrate d'argent qui précipite"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les extincteurs à CO2 éteignent le feu en supprimant le comburant (O2) autour du foyer."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

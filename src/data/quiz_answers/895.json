@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic NSI 1ère - Série 895",
+    "level": "1ère",
+    "subject": "NSI"
+  },
+  "quiz": {
+    "title": "Modules et bibliothèques Python",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "NSI",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "from math import sqrt",
+        "correct": 2,
+        "correction": "from module import fonction importe directement sqrt dans l'espace de noms courant. Puis sqrt(16) suffit (sans math. préfixe)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "random.randint(a, b) retourne un entier entre a et b inclus. random.random() retourne un flottant entre 0 et 1. random.choice(lst) choisit un élément aléatoire."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "Le module os permet d'interagir avec le système d'exploitation. Fonctions : os.getcwd() (répertoire courant), os.listdir(path) (liste des fichiers), os.path.join() (construction de chemins), os.makedirs() (créer dossiers), os.remove() (supprimer fichier).",
+        "correction": "os.path est très utilisé pour manipuler les chemins de fichiers de façon portable (Windows/Linux/Mac)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "import math accède via math.sin() ; from math import * importe tout directement dans l'espace de noms",
+        "correct": 1,
+        "correction": "from module import * est déconseillé car il peut écraser des noms existants et rend difficile de savoir d'où viennent les fonctions."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "pip install nompaquet installe des bibliothèques depuis PyPI (Python Package Index). Ex : pip install pandas, pip install requests."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "Un environnement virtuel isole les dépendances d'un projet Python (packages et versions) dans un dossier dédié, évitant les conflits entre projets. python -m venv mon_env, puis activation et pip install dans cet environnement.",
+        "correction": "Chaque projet peut avoir ses propres versions de bibliothèques sans interférer avec les autres projets ou le Python système."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Dessiner des graphiques en déplaçant une tortue virtuelle",
+        "correct": 1,
+        "correction": "turtle est un module éducatif pour apprendre la programmation par le dessin. forward(100), right(90)... permettent de créer des figures géométriques."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "matplotlib est la bibliothèque de base pour la visualisation en Python. plt.plot(), plt.hist(), plt.scatter() permettent de créer divers graphiques."
+      }
+    ]
+  }
+}

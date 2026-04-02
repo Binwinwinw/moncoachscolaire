@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 779",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 3eme : Les liaisons et assemblages mecaniques",
+    "status": "published",
+    "created_at": "2026-03-14 04:06:19",
+    "updated_at": "2026-03-14 04:06:19"
+  },
+  "quiz": {
+    "title": "Les liaisons et assemblages mecaniques",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'une liaison pivot en mecanique ?",
+        "choices": [
+          "Une liaison qui bloque tous les mouvements",
+          "Une liaison qui autorise uniquement la rotation autour d'un axe",
+          "Une liaison qui autorise uniquement la translation",
+          "Une liaison qui autorise tous les mouvements"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un assemblage par vissage est une liaison demontable."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la liaison mecanique qui bloque completement deux pieces en interdisant tout mouvement relatif ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel type d'assemblage est utilise pour assembler des planches de bois sans colle ni vis ?",
+        "choices": [
+          "Soudage",
+          "Assemblage par tenon-mortaise",
+          "Rivetage",
+          "Frettage"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un roulement a billes reduit le frottement entre deux pieces en rotation."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on l'assemblage qui utilise des tiges metalliques deformees a froid pour lier des toles entre elles ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la fonction d'un joint d'etancheite dans un assemblage ?",
+        "choices": [
+          "Transmettre un mouvement de rotation",
+          "Empecher le passage de fluides ou de gaz a l'interface de deux pieces",
+          "Absorber les vibrations uniquement",
+          "Mesurer la pression interne"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une cle de voute est un element structural qui permet de transmettre les efforts dans une arche en compression."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

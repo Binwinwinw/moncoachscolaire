@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 684",
+    "level": "3ème",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "Écologie : développement durable et actions humaines",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Un développement qui répond aux besoins du présent sans compromettre ceux des générations futures",
+        "correct": 1,
+        "correction": "La définition du développement durable intègre trois piliers : économique, social et environnemental."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le recyclage permet de réintroduire des matériaux dans le cycle de production, réduisant l'extraction de nouvelles ressources."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "ODD",
+        "correction": "Les ODD (Objectifs de Développement Durable) de l'ONU couvrent la pauvreté, la santé, l'éducation, l'environnement, etc."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Polluants organiques persistants (POP)",
+        "correct": 1,
+        "correction": "Les POP (ex. DDT, PCB, dioxines) s'accumulent dans les graisses et se concentrent à chaque niveau de la chaîne alimentaire."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les nitrates et phosphates des engrais s'écoulent dans les cours d'eau et favorisent la prolifération d'algues (eutrophisation)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "économie circulaire",
+        "correction": "L'économie circulaire s'oppose à l'économie linéaire (extraire-produire-jeter) en minimisant les déchets et optimisant les ressources."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Destruction de la couche d'ozone",
+        "correct": 1,
+        "correction": "Les CFC (chlorofluorocarbones) libèrent du chlore qui détruit l'ozone stratosphérique protecteur contre les UV."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le Protocole de Montréal a permis de bannir progressivement les CFC ; la couche d'ozone montre des signes de récupération."
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Geographie 1ere - Série 175",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "description": "Diagnostic Histoire-Geographie 1ere : Quiz Diagnostic 1ere Histoire-Géographie - Serie 1",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Histoire-Géographie - Serie 1",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle période désigne-t-on par l'expression « Belle Époque » ?",
+        "choices": [
+          "1850-1870",
+          "1871-1914",
+          "1918-1939",
+          "1945-1968"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La France connaît une forte croissance industrielle et démographique à la Belle Époque."
+      },
+      {
+        "type": "open",
+        "question": "Citez deux inventions ou innovations majeures de la Belle Époque qui ont transformé la vie quotidienne."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel événement met fin à la Belle Époque ?",
+        "choices": [
+          "La Révolution russe de 1917",
+          "La crise de 1929",
+          "Le déclenchement de la Première Guerre mondiale en 1914",
+          "La chute de la Commune de Paris"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La IIIe République française est fondée après la défaite de 1870 face à la Prusse."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que la loi de séparation de l'Église et de l'État de 1905 établit en France ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel événement diplomatique majeur divise la France à la fin du XIXe siècle ?",
+        "choices": [
+          "La crise du Maroc",
+          "L'affaire Dreyfus",
+          "La guerre des Boers",
+          "La crise de Fachoda"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La Triple Entente regroupe la France, le Royaume-Uni et l'Autriche-Hongrie avant 1914."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

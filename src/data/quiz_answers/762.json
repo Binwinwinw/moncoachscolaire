@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 3eme - Série 762",
+    "level": "3eme",
+    "subject": "EMC"
+  },
+  "quiz": {
+    "title": "Egalite, discrimination et lutte contre les prejuges",
+    "question_count": 8,
+    "level": "3eme",
+    "subject": "EMC",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Un traitement defavorable fonde sur un critere interdit par la loi",
+        "correct": 1,
+        "correction": "La discrimination est un traitement défavorable fondé sur un critère protégé par la loi (origine, sexe, religion, handicap, orientation sexuelle…) dans des domaines comme l'emploi, le logement ou l'accès aux services."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La discrimination à l'embauche est punie de 3 ans d'emprisonnement et 45 000 € d'amende selon l'article 225-1 du Code pénal."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "prejuge",
+        "correction": "Un préjugé est une opinion préconstituée, souvent négative, sur un groupe de personnes ; il alimente les discriminations et les stéréotypes."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Loi Roudy de 1983",
+        "correct": 1,
+        "correction": "La loi Roudy (1983) a posé le principe d'égalité professionnelle entre hommes et femmes, y compris l'égalité de rémunération pour un travail de valeur égale."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Depuis la loi du 2 mars 2022, le harcèlement scolaire est une infraction pénale spécifique punie jusqu'à 10 ans d'emprisonnement si les faits ont conduit au suicide ou à une tentative."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "discrimination positive",
+        "correction": "La discrimination positive (ou action positive/affirmative action) consiste à favoriser un groupe sous-représenté pour rééquilibrer des inégalités structurelles."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Principe d'egalite",
+        "correct": 1,
+        "correction": "L'égalité devant la loi est un principe fondamental de la République française (article 1 de la Constitution) : la loi s'applique à tous de la même manière."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La loi Pleven (1972) et la loi Gayssot (1990) répriment les propos ou actes racistes, antisémites ou discriminatoires ; ils peuvent être punis d'amendes et d'emprisonnement."
+      }
+    ]
+  }
+}

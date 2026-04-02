@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Philosophie 1ere - Série 229",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Philosophie",
+    "description": "Diagnostic Philosophie 1ere : Quiz Diagnostic 1ere Philosophie - Serie 6",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Philosophie - Serie 6",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Philosophie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Pour quoi le langage est-il considéré comme spécifique à l'être humain ?",
+        "choices": [
+          "Les humains sont les seuls à émettre des sons",
+          "Le langage humain est articulé, symbolique et permet d'exprimer des pensées abstraites et de créer du sens",
+          "Les animaux ne communiquent pas",
+          "Le langage humain est inné et génétiquement programmé"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Selon Saussure, le signe linguistique est composé d'un signifiant (image acoustique) et d'un signifié (concept)."
+      },
+      {
+        "type": "open",
+        "question": "En quoi consiste la thèse de Wittgenstein 'les limites de mon langage signifient les limites de mon monde' ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que la performativité du langage selon Austin ?",
+        "choices": [
+          "La capacité du langage à décrire le monde",
+          "La propriété de certains énoncés à accomplir une action en les énonçant ('Je vous déclare mariés')",
+          "Le pouvoir rhétorique de convaincre",
+          "La musicalité du discours"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le langage est uniquement un instrument de communication neutre qui transmet des informations objectives."
+      },
+      {
+        "type": "open",
+        "question": "Quelle est la différence entre langue et parole selon Saussure ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Pour Bergson, le langage est insuffisant pour exprimer la réalité profonde de la conscience car :",
+        "choices": [
+          "Le langage est trop poétique",
+          "Le langage, fait pour l'action et la communication sociale, découpe et fige ce qui est en réalité fluide et continu (la durée)",
+          "La conscience est trop complexe pour aucun système symbolique",
+          "Bergson préfère le silence"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'apprentissage du langage est exclusivement culturel : un enfant sans contact humain développerait spontanément son propre langage."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

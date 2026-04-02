@@ -1,0 +1,48 @@
+{
+  "quiz_id": 1075,
+  "title": "Extrema et optimisation",
+  "subject": "Mathématiques",
+  "level": "1ère",
+  "answers": [
+    {
+      "question_id": "1075_1",
+      "correct_option": "C",
+      "explanation": "Sur [a,b], le maximum est atteint soit en un zéro de f' (extremum), soit aux bornes a ou b."
+    },
+    {
+      "question_id": "1075_2",
+      "correct": true,
+      "explanation": "L'optimisation consiste à trouver la valeur d'une variable qui maximise (ou minimise) une grandeur."
+    },
+    {
+      "question_id": "1075_3",
+      "correct_answer": "V(x) = x(12−2x)². V'(x) = (12−2x)² + x·2(12−2x)·(−2) = (12−2x)(12−6x). V'=0 pour x=6 (rejeté) ou x=2. Maximum en x=2 : V(2)=2×8²=128 cm³.",
+      "explanation": "V(x) = x(12−2x)². V' = (12−2x)[(12−2x)−4x] = (12−2x)(12−6x). x=2 donne V=128."
+    },
+    {
+      "question_id": "1075_4",
+      "correct_option": "A",
+      "explanation": "C'(x) = 2x − 6 = 0 → x = 3. C(3) = 9 − 18 + 14 = 5. Minimum = 5."
+    },
+    {
+      "question_id": "1075_5",
+      "correct": true,
+      "explanation": "La valeur mathématique peut être hors du domaine physique. Il faut vérifier la cohérence (ex : longueur > 0)."
+    },
+    {
+      "question_id": "1075_6",
+      "correct_answer": "CA(x) = x(100−x/2) = 100x − x²/2. CA'=100−x=0 → x=100. Prix = 100−50=50 €. CA max = 5000 €.",
+      "explanation": "CA' = 100 − x = 0 → x = 100. Prix = 100 − 50 = 50 €. CA = 100×50 = 5000."
+    },
+    {
+      "question_id": "1075_7",
+      "correct_option": "B",
+      "explanation": "f'(a) = 0 et f''(a) > 0 → minimum local (courbe convexe en a)."
+    },
+    {
+      "question_id": "1075_8",
+      "correct": true,
+      "explanation": "L'optimisation est omniprésente : trajectoire optimale, profit maximal, distance minimale…"
+    }
+  ]
+}

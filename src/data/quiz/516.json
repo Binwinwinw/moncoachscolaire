@@ -1,0 +1,98 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 3ème SVT - Série 50",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "SVT",
+    "description": "Diagnostic Contraception, IST, vaccination - 3ème Brevet",
+    "status": "published",
+    "created_at": "2026-03-08 23:04:00",
+    "updated_at": "2026-03-08 23:04:00"
+  },
+  "quiz": {
+    "title": "Diagnostic 3ème SVT - Santé Reproduction",
+    "level": "3eme",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Pilule: hormone évite",
+        "choices": [
+          "ovulation",
+          "règles",
+          "spermatoïdes",
+          "utérus"
+        ],
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Préservatif protège IST (VIH, chlamydia).",
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "Impfatuation = anticorps vs ...",
+        "placeholder": "antigène",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "IST: VIH transmis par",
+        "choices": [
+          "sang/sperme/sang menstruel",
+          "salive",
+          "larmes",
+          "sueur"
+        ],
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Stérilet = DIU cuivre/ormone utérus.",
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "Puberté fille: premières ...",
+        "placeholder": "règles",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "Vaccin COVID = ARNm → spike ...",
+        "choices": [
+          "protéine",
+          "ADN",
+          "virus",
+          "bactérie"
+        ],
+        "id": 7
+      },
+      {
+        "type": "texte",
+        "question": "Contraception d'urgence: ... 72h",
+        "placeholder": "pilule",
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Contraception",
+      "description": "Pilule/préservatif/stérilet (brevet)"
+    },
+    {
+      "notion": "IST",
+      "description": "VIH, chlamydia, transmission"
+    },
+    {
+      "notion": "Vaccination",
+      "description": "Antigène/anticorps, ARNm"
+    }
+  ],
+  "exerciseresponses": []
+}

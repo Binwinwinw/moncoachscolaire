@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 650",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 1ère : Quiz blanc final SVT 1ère",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "Quiz blanc final SVT 1ère",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle découverte de Louis Pasteur a invalidé la théorie de la génération spontanée ?",
+        "choices": [
+          "La structure en double hélice de l'ADN",
+          "L'expérience des ballons à col de cygne montrant que l'air seul n'engendre pas la vie",
+          "Le rôle des chromosomes dans l'hérédité",
+          "La théorie cellulaire"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'ARN aurait pu être la première molécule à la fois informationnelle et catalytique lors de l'origine de la vie ('monde ARN')."
+      },
+      {
+        "type": "open",
+        "question": "Le prix Nobel de physiologie ou médecine 2020 a été attribué à Harvey Alter, Michael Houghton et Charles Rice pour la découverte du virus de l'hépatite _____."
+      },
+      {
+        "type": "qcm",
+        "question": "Comment les bactéries développent-elles une résistance aux antibiotiques ?",
+        "choices": [
+          "Par adaptation volontaire",
+          "Par sélection naturelle : les mutants résistants survivent et se reproduisent en présence d'antibiotiques",
+          "Par absorption directe des antibiotiques",
+          "Par modification de leurs ribosomes uniquement"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La biomimétique s'inspire du vivant pour concevoir des solutions technologiques (ex : velcro inspiré des crochets de bardane)."
+      },
+      {
+        "type": "open",
+        "question": "Le microbiote intestinal humain comprend ~38 000 milliards de bactéries et joue un rôle clé dans l'immunité, la digestion, et même les fonctions _____."
+      },
+      {
+        "type": "qcm",
+        "question": "Le virus SARS-CoV-2 est un coronavirus à ARN simple brin qui infecte les cellules humaines via :",
+        "choices": [
+          "Le récepteur CD4 des lymphocytes T",
+          "Le récepteur ACE2 des cellules épithéliales respiratoires et d'autres organes",
+          "Les récepteurs de l'insuline",
+          "Les canaux sodiques des neurones"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La recherche scientifique en SVT avance par des cycles hypothèse → expérience → résultats → révision de l'hypothèse, caractéristiques de la démarche hypothético-déductive."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

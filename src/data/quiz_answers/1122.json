@@ -1,0 +1,48 @@
+{
+  "quiz_id": 1122,
+  "title": "Balance des paiements",
+  "subject": "SES",
+  "level": "Terminale",
+  "answers": [
+    {
+      "question_id": "1122_1",
+      "correct_option": "B",
+      "explanation": "La balance des paiements (BdP) est un document statistique qui retrace toutes les transactions (courantes, en capital, financières) entre résidents et non-résidents."
+    },
+    {
+      "question_id": "1122_2",
+      "correct": true,
+      "explanation": "La balance commerciale (biens) est distincte de la balance des services. La balance courante inclut biens + services + revenus + transferts courants."
+    },
+    {
+      "question_id": "1122_3",
+      "correct_answer": "1) Compte courant (biens, services, revenus primaires et secondaires). 2) Compte de capital (transferts en capital, acquisitions d'actifs non financiers). 3) Compte financier (investissements directs, portefeuille, autres, réserves de change).",
+      "explanation": "La BdP est toujours équilibrée comptablement : la somme des trois comptes est nulle."
+    },
+    {
+      "question_id": "1122_4",
+      "correct_option": "B",
+      "explanation": "Un déficit courant doit être financé par des entrées de capitaux (IDE, emprunts) → le pays s'endette vis-à-vis du reste du monde."
+    },
+    {
+      "question_id": "1122_5",
+      "correct": true,
+      "explanation": "Les IDE (prise de participation ≥ 10% dans une entreprise étrangère) apparaissent dans le compte financier de la BdP."
+    },
+    {
+      "question_id": "1122_6",
+      "correct_answer": "Perte de compétitivité-prix (coûts salariaux) et hors-prix (qualité, positionnement), spécialisation inadaptée, forte dépendance énergétique, désindustrialisation. Partiellement compensé par l'excédent des services (tourisme, ingénierie).",
+      "explanation": "Le déficit commercial français s'est aggravé avec la hausse des importations énergétiques, la perte de parts de marché industrielles et la montée en gamme insuffisante."
+    },
+    {
+      "question_id": "1122_7",
+      "correct_option": "B",
+      "explanation": "Une dépréciation rend les exportations moins chères (pour l'étranger) et les importations plus chères (pour les résidents) → amélioration tendancielle de la balance courante (condition de Marshall-Lerner)."
+    },
+    {
+      "question_id": "1122_8",
+      "correct": true,
+      "explanation": "La condition de Marshall-Lerner : |ε_x| + |ε_m| > 1 pour qu'une dépréciation améliore le solde commercial à long terme."
+    }
+  ]
+}

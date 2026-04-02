@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic NSI 1ère - Série 876",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "description": "Diagnostic NSI 1ère : Fichiers CSV et traitement de données",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "Fichiers CSV et traitement de données",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "CSV signifie :",
+        "choices": [
+          "Compressed Structured Values",
+          "Comma-Separated Values",
+          "Character String Values",
+          "Code Standard Variable"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le module csv de Python permet de lire et écrire des fichiers CSV."
+      },
+      {
+        "type": "open",
+        "question": "Écrivez le code Python pour lire un fichier 'data.csv' et afficher chaque ligne en tant que dictionnaire."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle bibliothèque Python est la plus utilisée pour l'analyse de données tabulaires ?",
+        "choices": [
+          "numpy",
+          "matplotlib",
+          "pandas",
+          "scipy"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "En pandas, df.head() affiche les 5 premières lignes du DataFrame par défaut."
+      },
+      {
+        "type": "open",
+        "question": "Comment filtrer les lignes d'un DataFrame pandas où la colonne 'age' est supérieure à 18 ?"
+      },
+      {
+        "type": "qcm",
+        "question": "La méthode df.describe() en pandas retourne :",
+        "choices": [
+          "La documentation du DataFrame",
+          "Des statistiques descriptives (count, mean, std, min, max…)",
+          "Le type de chaque colonne",
+          "La taille du fichier"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un fichier JSON est un format alternatif au CSV pour stocker des données structurées."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

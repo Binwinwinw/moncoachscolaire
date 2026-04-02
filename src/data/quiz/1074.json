@@ -1,0 +1,67 @@
+{
+  "id": 1074,
+  "title": "Applications de la dérivée — variations",
+  "subject": "Mathématiques",
+  "level": "1ère",
+  "created_at": "2026-03-13T18:54:00.430438Z",
+  "questions": [
+    {
+      "id": "1074_1",
+      "type": "qcm",
+      "question": "Si f'(x) > 0 sur un intervalle I, alors f est :",
+      "options": [
+        "Décroissante sur I",
+        "Croissante sur I",
+        "Constante sur I",
+        "Nulle sur I"
+      ]
+    },
+    {
+      "id": "1074_2",
+      "type": "vrai-faux",
+      "question": "Les extrema locaux d'une fonction dérivable se trouvent parmi les zéros de f'."
+    },
+    {
+      "id": "1074_3",
+      "type": "texte",
+      "question": "Étudie les variations de f(x) = x³ − 3x et dresse son tableau de variations."
+    },
+    {
+      "id": "1074_4",
+      "type": "qcm",
+      "question": "Si f'(a) = 0 et f' change de signe de − à + en a, alors f admet en a :",
+      "options": [
+        "Un maximum local",
+        "Un minimum local",
+        "Un point d'inflexion",
+        "Aucun extremum"
+      ]
+    },
+    {
+      "id": "1074_5",
+      "type": "vrai-faux",
+      "question": "f'(a) = 0 est une condition suffisante pour que f admette un extremum en a."
+    },
+    {
+      "id": "1074_6",
+      "type": "texte",
+      "question": "Détermine les intervalles de croissance de f(x) = 2x³ − 6x."
+    },
+    {
+      "id": "1074_7",
+      "type": "qcm",
+      "question": "La fonction f(x) = eˣ (si abordée) est croissante sur R car :",
+      "options": [
+        "f'(x) = eˣ > 0 pour tout x",
+        "f'(x) = 0",
+        "f est paire",
+        "f est bornée"
+      ]
+    },
+    {
+      "id": "1074_8",
+      "type": "vrai-faux",
+      "question": "Si f est décroissante puis croissante, le point de transition est un minimum local."
+    }
+  ]
+}

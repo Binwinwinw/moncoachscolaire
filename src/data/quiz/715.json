@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 715",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie 3ème : Chimie : nomenclature et formules",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Chimie : nomenclature et formules",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel est le nom du composé de formule H2SO4 ?",
+        "choices": [
+          "Acide chlorhydrique",
+          "Acide nitrique",
+          "Acide sulfurique",
+          "Acide phosphorique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le composé HNO3 est l'acide nitrique."
+      },
+      {
+        "type": "open",
+        "question": "Quelle est la formule du carbonate de calcium (calcaire) ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le nom de Fe2O3 ?",
+        "choices": [
+          "Chlorure de fer",
+          "Oxyde de fer III (rouille)",
+          "Sulfate de fer",
+          "Hydroxyde de fer"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le diazote N2 est le gaz le plus abondant dans l'atmosphère terrestre."
+      },
+      {
+        "type": "open",
+        "question": "Quelle est la formule de l'hydroxyde de sodium (soude caustique) ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Comment s'appelle le composé Al2O3 ?",
+        "choices": [
+          "Oxyde d'aluminium (alumine)",
+          "Chlorure d'aluminium",
+          "Sulfate d'aluminium",
+          "Carbonate d'aluminium"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le composé KMnO4 est le permanganate de potassium, de couleur violette."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

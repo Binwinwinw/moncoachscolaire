@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 656",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 3ème : Génétique : biotechnologies et applications",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "Génétique : biotechnologies et applications",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'un organisme génétiquement modifié (OGM) ?",
+        "choices": [
+          "Un organisme sélectionné naturellement",
+          "Un organisme dont le génome a été modifié par insertion ou suppression de gènes",
+          "Un organisme hybride né de deux espèces différentes",
+          "Un organisme cultivé sans produits chimiques"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le diagnostic prénatal permet de détecter certaines anomalies chromosomiques avant la naissance."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la technique qui amplifie des fragments d'ADN en laboratoire ?"
+      },
+      {
+        "type": "qcm",
+        "question": "L'insuline humaine produite par des bactéries OGM est utilisée pour traiter :",
+        "choices": [
+          "L'hypertension",
+          "Le diabète",
+          "L'asthme",
+          "La drépanocytose"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'empreinte génétique est utilisée dans les enquêtes judiciaires pour identifier un individu."
+      },
+      {
+        "type": "open",
+        "question": "Quel outil d'édition du génome, basé sur une protéine bactérienne, permet de couper l'ADN à un endroit précis ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Pourquoi l'identification d'une maladie génétique par diagnostic prénatal est-elle controversée éthiquement ?",
+        "choices": [
+          "Car elle est toujours fausse",
+          "Car elle peut conduire à des décisions difficiles concernant la grossesse",
+          "Car elle est trop coûteuse",
+          "Car elle modifie les gènes du fœtus"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le clonage reproductif est autorisé chez l'être humain en France."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 594",
+    "level": "3ème",
+    "subject": "Histoire-Géographie"
+  },
+  "quiz": {
+    "title": "Métropoles et réseaux de transport",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "La concentration des fonctions de commandement dans les grandes villes",
+        "correct": 1,
+        "correction": "Les métropoles concentrent emplois qualifiés, sièges et innovation."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Elles connectent les espaces et attirent activités et populations."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "TGV",
+        "correction": "Le TGV relie rapidement les grandes métropoles."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Roissy-Charles de Gaulle",
+        "correct": 1,
+        "correction": "Roissy est un nœud international majeur."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Ils réduisent congestion et émissions par passager."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "multimodal",
+        "correction": "La multimodalité optimise les chaînes logistiques."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "La hausse du coût du logement",
+        "correct": 1,
+        "correction": "La tension immobilière peut accentuer les inégalités."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Elles favorisent santé, qualité de l'air et apaisement urbain."
+      }
+    ]
+  }
+}

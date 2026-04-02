@@ -1,0 +1,99 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 6eme Histoire-Géographie",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic repères spatiaux/temps, continents, Orient ancien 6eme"
+  },
+  "quiz": {
+    "title": "Diagnostic Histoire-Géo 6eme",
+    "level": "6eme",
+    "subject": "Histoire-Géographie",
+    "question_count": 9,
+    "passing_score": 70,
+    "questions": [
+      {
+        "id": 1,
+        "type": "qcm",
+        "question": "La France appartient à quel continent ?",
+        "choices": [
+          "Asie",
+          "Afrique",
+          "Europe",
+          "Amérique"
+        ]
+      },
+      {
+        "id": 2,
+        "type": "texte",
+        "question": "Combien de continents y a-t-il ?"
+      },
+      {
+        "id": 3,
+        "type": "vrai-faux",
+        "question": "La Seine est la plus longue rivière de France."
+      },
+      {
+        "id": 4,
+        "type": "qcm",
+        "question": "Quelle est la plus grande ville de France ?",
+        "choices": [
+          "Marseille",
+          "Lyon",
+          "Paris",
+          "Toulouse"
+        ]
+      },
+      {
+        "id": 5,
+        "type": "texte",
+        "question": "Quelle mer borde la France au Sud ?"
+      },
+      {
+        "id": 6,
+        "type": "qcm",
+        "question": "L'Orient ancien comprend :",
+        "choices": [
+          "Egypte",
+          "Rome",
+          "Moyen-Age",
+          "Egypte et Mésopotamie"
+        ]
+      },
+      {
+        "id": 7,
+        "type": "vrai-faux",
+        "question": "Les pyramides ont été construites au Moyen-Age."
+      },
+      {
+        "id": 8,
+        "type": "texte",
+        "question": "Quelle civilisation a inventé l'écriture cunéiforme ?"
+      },
+      {
+        "id": 9,
+        "type": "qcm",
+        "question": "Le Nil coule dans quel pays ?",
+        "choices": [
+          "Irak",
+          "Egypte",
+          "Grèce",
+          "Inde"
+        ]
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Repères spatiaux France"
+    },
+    {
+      "notion": "6 continents"
+    },
+    {
+      "notion": "Orient ancien"
+    }
+  ],
+  "exerciseresponses": []
+}

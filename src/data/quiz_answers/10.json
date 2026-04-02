@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 3ème - Série 10",
+    "level": "3eme",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "Diagnostic Anglais 3ème",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "La bonne phrase est 'Yesterday, I went ... and saw ...' car 'yesterday' impose le past simple et les verbes irréguliers 'go -> went' et 'see -> saw'. Les autres propositions mélangent les temps ou utilisent des formes incorrectes. Cette maîtrise est clé en 3ème pour raconter un événement passé."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "On utilise 'since' avec un point de départ précis (since 2019, since Monday). 'For' exprime une durée (for three years). Distinguer ces deux marqueurs améliore la précision au present perfect."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "correct": 1,
+        "correction": "Vrai. En discours indirect, on effectue souvent un décalage des temps : present simple -> past simple. 'I am tired' devient donc 'he was tired'. Cette transformation fait partie des attendus de fin de collège."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "correct": 2,
+        "correction": "Dans la first conditional, la structure canonique est : If + present simple, will + base verbale. On obtient donc 'If it rains, we will stay at home.'. Cette structure permet d'exprimer une conséquence probable dans le futur."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "texte",
+        "correct": null,
+        "correction": "Exemple attendu : 'Dear Mrs Brown, I hope you are well.' ou 'Hello Mr Smith, I am writing to ask about...'. On valorise la politesse, la clarté et la formule d'ouverture adaptée au contexte scolaire."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "La phrase est au passé ('yesterday'), donc la voix passive prend 'was/were + participe passé'. Ici, sujet singulier 'The homework' -> 'was finished'. Les autres formes ne correspondent pas à la structure passive attendue."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "vrai-faux",
+        "correct": 1,
+        "correction": "Vrai. 'Must' sert à exprimer une obligation forte (You must wear a helmet). On peut le comparer à 'have to', souvent plus neutre ou contextuel. Cette nuance est utile pour l'expression écrite et orale en 3ème."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "correct": null,
+        "correction": "'For' s'utilise pour une durée (for two hours), tandis que 'since' s'emploie avec un point de départ (since 2022). Une réponse complète doit donner les deux usages avec un exemple correct pour chacun."
+      }
+    ],
+    "level": "3eme",
+    "subject": "Anglais"
+  }
+}

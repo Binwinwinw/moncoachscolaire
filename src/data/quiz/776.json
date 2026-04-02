@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 776",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 3eme : Les materiaux : proprietes et choix",
+    "status": "published",
+    "created_at": "2026-03-14 04:06:19",
+    "updated_at": "2026-03-14 04:06:19"
+  },
+  "quiz": {
+    "title": "Les materiaux : proprietes et choix",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle propriete d'un materiau decrit sa capacite a resister a une force qui tend a le dechirer ?",
+        "choices": [
+          "Durete",
+          "Resistance a la traction",
+          "Conductivite thermique",
+          "Transparence"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le verre est un materiau amorphe (sans structure cristalline reguliere)."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on un materiau compose de deux ou plusieurs materiaux differents combines pour obtenir des proprietes superieures ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel materiau est principalement utilise pour les circuits electroniques (cartes electroniques, processeurs) en raison de ses proprietes semi-conductrices ?",
+        "choices": [
+          "Cuivre",
+          "Silicium",
+          "Aluminium",
+          "Plastique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'aluminium est plus leger que l'acier, ce qui le rend utile dans l'aeronautique."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on le traitement thermique qui consiste a chauffer puis refroidir rapidement un acier pour le rendre plus dur ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel critere est determinant dans le choix d'un materiau pour une application donnee ?",
+        "choices": [
+          "Sa couleur uniquement",
+          "L'adequation entre ses proprietes (mecaniques, thermiques, chimiques) et les contraintes d'usage",
+          "Son prix toujours le plus bas",
+          "Sa disponibilite uniquement"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les biopolymeres sont des plastiques fabriques a partir de matieres premieres renouvelables (amidon, cellulose)."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

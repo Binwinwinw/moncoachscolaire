@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 620",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 1ère : Le système nerveux : organisation et fonctionnement",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Le système nerveux : organisation et fonctionnement",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Le système nerveux central (SNC) est composé de :",
+        "choices": [
+          "Uniquement le cerveau",
+          "L'encéphale (cerveau, cervelet, tronc cérébral) et la moelle épinière",
+          "Les nerfs périphériques uniquement",
+          "Le coeur et les poumons"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le neurone est la cellule fonctionnelle du système nerveux ; il transmet l'influx nerveux sous forme d'un signal électrique."
+      },
+      {
+        "type": "open",
+        "question": "La gaine de myéline, formée par les cellules de Schwann, permet une conduction plus rapide de l'influx nerveux par conduction _____."
+      },
+      {
+        "type": "qcm",
+        "question": "Le potentiel d'action est :",
+        "choices": [
+          "Une variation permanente de la charge électrique neuronale",
+          "Une variation transitoire et stéréotypée du potentiel de membrane qui se propage le long de l'axone",
+          "Un type de neurotransmetteur",
+          "Une structure du noyau neuronal"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le système nerveux végétatif (autonome) contrôle les fonctions involontaires comme la digestion et la fréquence cardiaque."
+      },
+      {
+        "type": "open",
+        "question": "Le cervelet est impliqué dans la coordination des _____ et l'équilibre."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle région du cerveau est principalement impliquée dans le langage (aire de Broca) ?",
+        "choices": [
+          "Lobe occipital",
+          "Cervelet",
+          "Lobe frontal gauche",
+          "Tronc cérébral"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La sclérose en plaques est une maladie auto-immune qui détruit la gaine de myéline des neurones."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

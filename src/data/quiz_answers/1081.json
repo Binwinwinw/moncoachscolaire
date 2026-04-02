@@ -1,0 +1,48 @@
+{
+  "quiz_id": 1081,
+  "title": "Fonctions cosinus et sinus",
+  "subject": "Mathématiques",
+  "level": "1ère",
+  "answers": [
+    {
+      "question_id": "1081_1",
+      "correct_option": "B",
+      "explanation": "cos(x + 2π) = cos(x) : la période est 2π."
+    },
+    {
+      "question_id": "1081_2",
+      "correct": true,
+      "explanation": "sin est impaire (symétrie centrale par rapport à l'origine sur la courbe)."
+    },
+    {
+      "question_id": "1081_3",
+      "correct_answer": "cos décroissant sur [0, π] (de 1 à −1) et croissant sur [π, 2π] (de −1 à 1).",
+      "explanation": "Sur [0,π] : cos décroît de 1 à −1. Sur [π,2π] : cos croît de −1 à 1."
+    },
+    {
+      "question_id": "1081_4",
+      "correct_option": "C",
+      "explanation": "Le sinus est borné : −1 ≤ sin(x) ≤ 1 pour tout réel x."
+    },
+    {
+      "question_id": "1081_5",
+      "correct": true,
+      "explanation": "cos(x − π/2) = sin(x) : la courbe de sin est celle de cos décalée de π/2 à droite."
+    },
+    {
+      "question_id": "1081_6",
+      "correct_answer": "Le graphe de g est celui de f étiré verticalement d'un facteur 2. L'amplitude passe de 1 à 2.",
+      "explanation": "Multiplier par 2 double les ordonnées : même période, amplitude doublée."
+    },
+    {
+      "question_id": "1081_7",
+      "correct_option": "B",
+      "explanation": "sin(3x) a une période T = 2π/3 (le coefficient 3 divise la période par 3)."
+    },
+    {
+      "question_id": "1081_8",
+      "correct": true,
+      "explanation": "(sin x)' = cos x. De même (cos x)' = −sin x."
+    }
+  ]
+}

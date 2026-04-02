@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 480",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "description": "Diagnostic Français 1ère : Conjugaison : subjonctif et conditionnel",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Conjugaison : subjonctif et conditionnel",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quand emploie-t-on principalement le subjonctif présent ?",
+        "choices": [
+          "Pour les faits certains",
+          "Dans les subordonnées après des verbes de doute, volonté, sentiment",
+          "Pour des hypothèses réelles",
+          "Dans les récits au passé"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le conditionnel présent peut exprimer un souhait ou une hypothèse irréelle."
+      },
+      {
+        "type": "open",
+        "question": "Dans une période conditionnelle au passé, la structure est : 'Si + plus-que-parfait, _____ passé.'"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la conjugaison correcte du verbe 'être' au subjonctif présent, 3e personne du singulier ?",
+        "choices": [
+          "Est",
+          "Soit",
+          "Était",
+          "Serait"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'imparfait du subjonctif est encore couramment utilisé à l'oral aujourd'hui."
+      },
+      {
+        "type": "open",
+        "question": "Le mode _____ exprime une action comme réelle, certaine ou probable ; c'est le mode de la réalité."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle construction exige l'infinitif plutôt que le subjonctif ?",
+        "choices": [
+          "Sujets différents dans les deux propositions",
+          "Même sujet dans les deux propositions",
+          "Verbe de sentiment",
+          "Locution conjonctive de but"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le conditionnel est parfois appelé 'mode' bien qu'il soit souvent classé parmi les temps de l'indicatif."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

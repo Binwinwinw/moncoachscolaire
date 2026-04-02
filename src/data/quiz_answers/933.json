@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic HGGSP 1ère - Série 933",
+    "level": "1ère",
+    "subject": "HGGSP"
+  },
+  "quiz": {
+    "title": "Mémoire collective et histoire",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "HGGSP",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "La mémoire collective",
+        "correct": 1,
+        "correction": "Maurice Halbwachs (1877-1945) a montré dans ses travaux que la mémoire individuelle est toujours construite dans un cadre social : les groupes maintiennent et transmettent des souvenirs partagés."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "L'histoire est une discipline critique qui analyse le passé avec des méthodes scientifiques (sources, distance critique). La mémoire est une représentation du passé chargée d'émotions et d'identité, sujette à reconstruction."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "Pour Paul Ricœur, la mémoire est une reconstruction du passé orientée par le présent et les identités (collective, sélective, émotionnelle). L'histoire distance le passé par la critique des sources et la méthode scientifique. Les deux entretiennent un rapport dialectique : la mémoire fournit des témoignages à l'histoire, mais l'histoire doit résister à la mémoire idéologique.",
+        "correction": "Ricœur parle d'une 'juste mémoire' : ni oubli, ni obsession, mais reconnaissance critique du passé."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Tout lieu (monument, date, texte, symbole) où se cristallise la mémoire d'un groupe",
+        "correct": 1,
+        "correction": "Pierre Nora définit les 'lieux de mémoire' comme des points de référence identitaires. Exemples : Verdun, la Marseillaise, le Panthéon, le 14-Juillet en France."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'État utilise les commémorations pour transmettre une mémoire nationale, renforcer le sentiment d'appartenance et légitimer le présent par un récit du passé."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "Le devoir de mémoire est l'obligation morale de ne pas oublier les crimes du passé (génocides, esclavage) pour honorer les victimes et prévenir leur répétition. Limites : peut devenir instrument politique, concurrence des mémoires (compétition mémorielle), peut nuire au travail historiographique critique, risque de 'victimisation' identitaire.",
+        "correction": "Tzvetan Todorov distingue la 'mémoire exemplaire' (tirer des leçons universelles) de la 'mémoire littérale' (enfermement dans le trauma)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "La négation des crimes contre l'humanité, notamment la Shoah",
+        "correct": 1,
+        "correction": "La loi Gayssot (1990) interdit le négationnisme relatif aux crimes contre l'humanité reconnus par le Tribunal de Nuremberg. Elle illustre l'intervention de l'État dans la régulation de la mémoire."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Des historiens (L. Rousso, P. Nora) ont critiqué les lois mémorielles (Gayssot, loi Taubira sur l'esclavage) qui, selon eux, pénalisent un débat historique légitime. La liberté d'enseignement et de recherche est un enjeu."
+      }
+    ]
+  }
+}

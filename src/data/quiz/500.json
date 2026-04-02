@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 500",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "description": "Diagnostic Français 1ère : Révision ultime : panorama de la littérature française",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Révision ultime : panorama de la littérature française",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la première grande époque de la littérature française ?",
+        "choices": [
+          "Le XVIe siècle humaniste",
+          "Le Moyen ge (IXe-XVe siècle)",
+          "Le XVIIe siècle classique",
+          "Le XIXe siècle romantique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La chanson de geste est un genre poétique médiéval qui chante les exploits guerriers des chevaliers."
+      },
+      {
+        "type": "open",
+        "question": "Le Roman de la Rose (XIIIe s.) est une allégorie de la _____ courtoise."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel siècle est souvent surnommé le 'Grand Siècle' de la littérature française ?",
+        "choices": [
+          "XVIe siècle",
+          "XVIIe siècle",
+          "XVIIIe siècle",
+          "XIXe siècle"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le XVIIIe siècle est surnommé le 'Siècle des Lumières' en raison du mouvement philosophique dominant."
+      },
+      {
+        "type": "open",
+        "question": "Le XXe siècle voit naître le _____, mouvement qui affirme l'absurdité de l'existence humaine."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel mouvement littéraire du XXe siècle associe littérature et engagement politique ?",
+        "choices": [
+          "Le Nouveau Roman",
+          "Le Surréalisme",
+          "La littérature engagée (Sartre, de Beauvoir)",
+          "Le Parnasse"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La littérature francophone inclut des auteurs du monde entier écrivant en français."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

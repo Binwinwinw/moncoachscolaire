@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic NSI 1ère - Série 888",
+    "level": "1ère",
+    "subject": "NSI"
+  },
+  "quiz": {
+    "title": "Récursivité",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "NSI",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "S'appelle elle-même directement ou indirectement",
+        "correct": 1,
+        "correction": "La récursivité est une technique où une fonction se définit en termes d'elle-même pour résoudre des sous-problèmes de taille réduite."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le cas de base (condition d'arrêt) est indispensable. Sans lui, la fonction s'appelle indéfiniment jusqu'à un dépassement de pile (RecursionError)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "def factorielle(n):\n    if n == 0 or n == 1:  # cas de base\n        return 1\n    else:  # cas récursif\n        return n * factorielle(n - 1)",
+        "correction": "factorielle(5) = 5 × factorielle(4) = 5 × 4 × 3 × 2 × 1 = 120."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "1000",
+        "correct": 1,
+        "correction": "Python limite la profondeur de récursion à ~1000 par défaut (sys.getrecursionlimit()). Au-delà, RecursionError est levée."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Python n'optimise pas la récursion terminale (tail-call optimization). Contrairement à certains langages fonctionnels (Haskell, Scheme), chaque appel récursif consomme de la pile en Python."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "def fib(n):\n    if n <= 1: return n\n    return fib(n-1) + fib(n-2)\nProblème : complexité O(2ⁿ) car les mêmes valeurs sont recalculées exponentiellement de fois. Solution : mémoïsation (@functools.lru_cache) réduit à O(n).",
+        "correction": "fib(40) fait environ 2,5 milliards d'appels récursifs sans mémoïsation."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "La récursivité",
+        "correct": 1,
+        "correction": "La structure récursive des arbres se prête naturellement à des algorithmes récursifs : parcours préfixe, infixe, postfixe."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La récursion peut toujours être simulée avec une pile explicite. Cela peut être nécessaire en Python pour éviter les limites de profondeur de récursion."
+      }
+    ]
+  }
+}

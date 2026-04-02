@@ -1,0 +1,76 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 1ere - Série 281",
+    "level": "1ere",
+    "subject": "Physique-Chimie"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Physique-Chimie - Serie 9",
+    "question_count": 8,
+    "level": "1ere",
+    "subject": "Physique-Chimie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "La désintégration spontanée de noyaux atomiques instables avec émission de rayonnements",
+        "correct": 1,
+        "correction": "La radioactivité (découverte par Henri Becquerel en 1896) est la propriété de certains noyaux atomiques instables de se désintégrer spontanément en émettant des rayonnements (particules ou ondes électromagnétiques) pour atteindre un état plus stable. Les principaux types de rayonnements sont : alpha (α, noyau He), bêta- (β⁻, électron), bêta+ (β⁺, positron) et gamma (γ, photon de haute énergie)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La demi-vie (t₁/₂ ou T) est le temps caractéristique d'une désintégration radioactive : après une demi-vie, la moitié des noyaux initiaux se sont désintégrés (N = N₀/2). La loi de décroissance radioactive est exponentielle : N(t) = N₀ × (1/2)^(t/T) = N₀ × e^(-λt), où λ = ln(2)/T est la constante radioactive. Les demi-vies varient de fractions de seconde à des milliards d'années selon les isotopes."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "correct_answer": "Lors d'une désintégration α : le nombre de masse A diminue de 4 et le numéro atomique Z diminue de 2. Ex : ²³⁸U → ²³⁴Th + ⁴He",
+        "answer": "Lors d'une désintégration α : le nombre de masse A diminue de 4 et le numéro atomique Z diminue de 2. Ex : ²³⁸U → ²³⁴Th + ⁴He",
+        "correction": "Une désintégration alpha : ᴬZX → ᴬ⁻⁴Z₋₂Y + ⁴₂He (particule α). Conservation : nombre de masse A : Z_Y = A-4 ; numéro atomique Z_Y = Z-2. Exemple : désintégration de l'uranium-238 : ²³⁸₉₂U → ²³⁴₉₀Th + ⁴₂He. Les particules alpha sont fortement ionisantes mais faiblement pénétrantes (arrêtées par une feuille de papier). Loi de conservation générale : la somme des nombres de masse et des charges se conserve de part et d'autre de la flèche."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Le rayonnement gamma (γ)",
+        "correct": 2,
+        "correction": "Le rayonnement gamma (γ) est le plus pénétrant des rayonnements radioactifs : ce sont des photons de très haute énergie (rayons X ou γ, λ très court). Ils nécessitent plusieurs centimètres de plomb ou plusieurs mètres de béton pour être absorbés. Le rayonnement α est le moins pénétrant (arrêté par quelques cm d'air ou une feuille de papier). Le β (électrons) est intermédiaire (arrêté par quelques mm d'aluminium)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La fission nucléaire est la scission d'un noyau lourd (uranium-235, plutonium-239) en deux noyaux plus légers (produits de fission), accompagnée de l'émission de 2 à 3 neutrons et d'une grande quantité d'énergie (E = mc², relation d'Einstein). Les neutrons émis peuvent provoquer d'autres fissions (réaction en chaîne). C'est le principe des réacteurs nucléaires (énergie contrôlée) et des bombes atomiques (énergie incontrôlée)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "correct_answer": "La fusion nucléaire est la fusion de noyaux légers (deutérium, tritium) en un noyau plus lourd avec libération d'énergie. Le défi est d'atteindre les conditions de température et de confinement extrêmes nécessaires.",
+        "answer": "La fusion nucléaire est la fusion de noyaux légers (deutérium, tritium) en un noyau plus lourd avec libération d'énergie. Le défi est d'atteindre les conditions de température et de confinement extrêmes nécessaires.",
+        "correction": "La fusion nucléaire est la fusion de noyaux légers (ex : deutérium ²H + tritium ³H → hélium ⁴He + neutron + 17,6 MeV) qui libère des quantités d'énergie considérables (plus que la fission). C'est le mécanisme qui alimente les étoiles. Le défi technologique est d'atteindre et maintenir les conditions nécessaires : température ~150 millions de degrés (plasma), pression et durée suffisantes (critère de Lawson). Le projet ITER (France) tente de réaliser la fusion contrôlée pour la production d'énergie."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "N₀/8",
+        "correct": 2,
+        "correction": "Après 30 jours, il s'est écoulé 30/10 = 3 demi-vies. Après n demi-vies, il reste N₀ × (1/2)ⁿ. Donc : N = N₀ × (1/2)³ = N₀/8. Vérification : après 10 j → N₀/2 ; après 20 j → N₀/4 ; après 30 j → N₀/8. La décroissance radioactive est exponentielle."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La relation d'Einstein E = mc² (énergie = masse × carré de la vitesse de la lumière) exprime l'équivalence masse-énergie. Lors des réactions nucléaires (fission, fusion), la masse totale des produits est légèrement inférieure à la masse des réactifs (défaut de masse Δm). Cette masse est convertie en énergie : ΔE = Δm × c². Même un très petit Δm donne une grande quantité d'énergie (c² = 9×10¹⁶ J/kg)."
+      }
+    ]
+  }
+}

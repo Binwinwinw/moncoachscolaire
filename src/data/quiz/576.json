@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 576",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 3ème : Les inégalités mondiales de développement",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "Les inégalités mondiales de développement",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "L'IDH (Indice de Développement Humain) mesure :",
+        "choices": [
+          "Uniquement le PIB par habitant",
+          "Le niveau de vie, l'espérance de vie et l'accès à l'éducation",
+          "La puissance militaire d'un pays",
+          "La superficie et la population"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les pays les moins avancés (PMA) sont concentrés principalement en Afrique subsaharienne."
+      },
+      {
+        "type": "open",
+        "question": "Les pays émergents comme le Brésil, la Russie, l'Inde, la Chine et l'Afrique du Sud forment le groupe appelé _____ ."
+      },
+      {
+        "type": "qcm",
+        "question": "La pauvreté absolue est définie par la Banque mondiale comme un revenu inférieur à :",
+        "choices": [
+          "1 dollar par jour",
+          "2,15 dollars par jour",
+          "5 dollars par jour",
+          "10 dollars par jour"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'aide publique au développement (APD) des pays riches est suffisante pour éradiquer la pauvreté mondiale."
+      },
+      {
+        "type": "open",
+        "question": "La transition démographique désigne le passage d'un régime de forte natalité et forte mortalité à un régime de faible natalité et _____ mortalité."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle organisation internationale a pour mission principale de combattre la pauvreté mondiale ?",
+        "choices": [
+          "L'OTAN",
+          "La Banque mondiale et le FMI",
+          "L'OMC",
+          "L'UNESCO"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'accès à l'eau potable et à l'assainissement est inégalement réparti dans le monde."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

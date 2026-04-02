@@ -1,0 +1,2722 @@
+{
+    "achievements": [
+        {
+            "Field": "Id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "Name",
+            "Type": "varchar(200)",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Description",
+            "Type": "text",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Icon",
+            "Type": "varchar(50)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "CreatedAt",
+            "Type": "datetime",
+            "Null": "NO",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        }
+    ],
+    "activity_events": [
+        {
+            "Field": "Id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "UserId",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "EventType",
+            "Type": "enum('course_view','exercise_start','exercise_complete','quiz_complete','badge_earned','level_up')",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "EventData",
+            "Type": "longtext",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "CreatedAt",
+            "Type": "timestamp",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        }
+    ],
+    "admin_audit": [
+        {
+            "Field": "id",
+            "Type": "bigint(20) unsigned",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "admin_id",
+            "Type": "int(10) unsigned",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "username",
+            "Type": "varchar(100)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "action",
+            "Type": "varchar(191)",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "resource",
+            "Type": "varchar(191)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "meta",
+            "Type": "longtext",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "ip",
+            "Type": "varchar(45)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "user_agent",
+            "Type": "varchar(255)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "created_at",
+            "Type": "timestamp",
+            "Null": "NO",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        }
+    ],
+    "adminlogs": [
+        {
+            "Field": "Id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "AdminId",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Action",
+            "Type": "varchar(100)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Details",
+            "Type": "text",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "TargetUserId",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "CreatedAt",
+            "Type": "datetime",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        }
+    ],
+    "badge": [
+        {
+            "Field": "id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "name",
+            "Type": "varchar(100)",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "description",
+            "Type": "text",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "icon",
+            "Type": "varchar(50)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "created_at",
+            "Type": "timestamp",
+            "Null": "NO",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        }
+    ],
+    "contact_messages": [
+        {
+            "Field": "id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "name",
+            "Type": "varchar(255)",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "email",
+            "Type": "varchar(255)",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "message",
+            "Type": "text",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "ip",
+            "Type": "varchar(45)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "created_at",
+            "Type": "timestamp",
+            "Null": "NO",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        }
+    ],
+    "contents": [
+        {
+            "Field": "id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "title",
+            "Type": "varchar(255)",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "type",
+            "Type": "enum('cours','exercice','ressource','quiz')",
+            "Null": "YES",
+            "Key": "MUL",
+            "Default": "cours",
+            "Extra": ""
+        },
+        {
+            "Field": "level",
+            "Type": "varchar(50)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "subject",
+            "Type": "varchar(100)",
+            "Null": "YES",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "description",
+            "Type": "text",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "content_url",
+            "Type": "varchar(500)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "status",
+            "Type": "enum('draft','published','archived')",
+            "Null": "YES",
+            "Key": "MUL",
+            "Default": "draft",
+            "Extra": ""
+        },
+        {
+            "Field": "created_at",
+            "Type": "timestamp",
+            "Null": "NO",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        },
+        {
+            "Field": "updated_at",
+            "Type": "timestamp",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": "current_timestamp()",
+            "Extra": "on update current_timestamp()"
+        }
+    ],
+    "course_key_points": [
+        {
+            "Field": "id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "level",
+            "Type": "enum('6eme','5eme','4eme','3eme','2nde','1ere','terminale')",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "subject",
+            "Type": "varchar(100)",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "competence",
+            "Type": "varchar(255)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "section",
+            "Type": "varchar(255)",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "key_point",
+            "Type": "text",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "explanation",
+            "Type": "text",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "formula",
+            "Type": "varchar(500)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "example",
+            "Type": "text",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "course_url",
+            "Type": "varchar(500)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "slug",
+            "Type": "varchar(255)",
+            "Null": "NO",
+            "Key": "UNI",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "domain",
+            "Type": "varchar(100)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "order_in_chapter",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "difficulty",
+            "Type": "enum('facile','moyen','difficile')",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "is_active",
+            "Type": "tinyint(1)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "1",
+            "Extra": ""
+        },
+        {
+            "Field": "created_at",
+            "Type": "timestamp",
+            "Null": "NO",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        },
+        {
+            "Field": "updated_at",
+            "Type": "timestamp",
+            "Null": "NO",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": "on update current_timestamp()"
+        }
+    ],
+    "coursecomments": [
+        {
+            "Field": "Id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "UserId",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "CourseId",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Comment",
+            "Type": "longtext",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "CreatedAt",
+            "Type": "datetime",
+            "Null": "YES",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        },
+        {
+            "Field": "UpdatedAt",
+            "Type": "datetime",
+            "Null": "YES",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": "on update current_timestamp()"
+        },
+        {
+            "Field": "Status",
+            "Type": "varchar(20)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "pending",
+            "Extra": ""
+        }
+    ],
+    "courseexternalresources": [
+        {
+            "Field": "Id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "CourseId",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "ResourceType",
+            "Type": "varchar(30)",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Title",
+            "Type": "varchar(255)",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Description",
+            "Type": "longtext",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "URL",
+            "Type": "varchar(500)",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Source",
+            "Type": "varchar(100)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Duration",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Language",
+            "Type": "varchar(10)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "fr",
+            "Extra": ""
+        },
+        {
+            "Field": "CreatedAt",
+            "Type": "datetime",
+            "Null": "YES",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        },
+        {
+            "Field": "IsActive",
+            "Type": "tinyint(4)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "1",
+            "Extra": ""
+        }
+    ],
+    "courses": [
+        {
+            "Field": "Id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "Title",
+            "Type": "varchar(255)",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Subject",
+            "Type": "varchar(100)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Level",
+            "Type": "varchar(50)",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Content",
+            "Type": "longtext",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Description",
+            "Type": "text",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "CourseNumber",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "1",
+            "Extra": ""
+        },
+        {
+            "Field": "Slug",
+            "Type": "varchar(255)",
+            "Null": "YES",
+            "Key": "UNI",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Domain",
+            "Type": "varchar(100)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Duration",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "30",
+            "Extra": ""
+        },
+        {
+            "Field": "Difficulty",
+            "Type": "enum('facile','moyen','difficile')",
+            "Null": "YES",
+            "Key": "",
+            "Default": "moyen",
+            "Extra": ""
+        },
+        {
+            "Field": "IsActive",
+            "Type": "tinyint(1)",
+            "Null": "YES",
+            "Key": "MUL",
+            "Default": "1",
+            "Extra": ""
+        },
+        {
+            "Field": "CreatedAt",
+            "Type": "timestamp",
+            "Null": "NO",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        },
+        {
+            "Field": "UpdatedAt",
+            "Type": "timestamp",
+            "Null": "NO",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": "on update current_timestamp()"
+        }
+    ],
+    "courses_backup_20260203": [
+        {
+            "Field": "Id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "Title",
+            "Type": "varchar(255)",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Description",
+            "Type": "text",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Level",
+            "Type": "enum('6eme','5eme','4eme','3eme','2nde','1ere','Terminale')",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Subject",
+            "Type": "varchar(60)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "CreatedAt",
+            "Type": "datetime",
+            "Null": "NO",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        }
+    ],
+    "courseviewevents": [
+        {
+            "Field": "Id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "UserId",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "CourseId",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "ViewedAt",
+            "Type": "datetime",
+            "Null": "YES",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        },
+        {
+            "Field": "DurationSeconds",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "ScrollDepth",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Source",
+            "Type": "varchar(100)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        }
+    ],
+    "daily_stats": [
+        {
+            "Field": "Id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "UserId",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Date",
+            "Type": "date",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "TotalStudyTime",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "CoursesViewed",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "ExercisesCompleted",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "QuizzesTaken",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "AverageScore",
+            "Type": "decimal(5,2)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "0.00",
+            "Extra": ""
+        },
+        {
+            "Field": "XPEarned",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "CristauxEarned",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        }
+    ],
+    "exercisecourselinks": [
+        {
+            "Field": "Id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "ExerciseId",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "CourseId",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "LinkType",
+            "Type": "varchar(20)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "theory",
+            "Extra": ""
+        },
+        {
+            "Field": "LinkedAt",
+            "Type": "datetime",
+            "Null": "YES",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        }
+    ],
+    "exerciseemotion": [
+        {
+            "Field": "id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "user_id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "exercise_id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "emotion",
+            "Type": "enum('frustrated','neutral','confident','excited')",
+            "Null": "YES",
+            "Key": "",
+            "Default": "neutral",
+            "Extra": ""
+        },
+        {
+            "Field": "note",
+            "Type": "varchar(255)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "created_at",
+            "Type": "timestamp",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        }
+    ],
+    "exercisenotion": [
+        {
+            "Field": "exercise_id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "notion_id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": ""
+        }
+    ],
+    "exerciseresponses": [
+        {
+            "Field": "Id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "UserId",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "ExerciseId",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Correct",
+            "Type": "tinyint(1)",
+            "Null": "NO",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "Score",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "SubmittedAt",
+            "Type": "datetime",
+            "Null": "NO",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        }
+    ],
+    "exercises": [
+        {
+            "Field": "Id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "Subject",
+            "Type": "varchar(60)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Level",
+            "Type": "varchar(10)",
+            "Null": "YES",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Title",
+            "Type": "varchar(250)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Content",
+            "Type": "longtext",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "structure_type",
+            "Type": "enum('simple','multi-parties')",
+            "Null": "YES",
+            "Key": "MUL",
+            "Default": "simple",
+            "Extra": ""
+        },
+        {
+            "Field": "pattern_detected",
+            "Type": "varchar(20)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "sub_questions",
+            "Type": "longtext",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Type",
+            "Type": "varchar(32)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Answer",
+            "Type": "longtext",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "InteractiveConfig",
+            "Type": "longtext",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Tips",
+            "Type": "longtext",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Domain",
+            "Type": "varchar(150)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Competence",
+            "Type": "varchar(200)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Difficulty",
+            "Type": "varchar(10)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "exam_prep",
+            "Type": "varchar(20)",
+            "Null": "YES",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Identifier",
+            "Type": "varchar(50)",
+            "Null": "YES",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "AnswerType",
+            "Type": "varchar(30)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Choices",
+            "Type": "longtext",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Instruction",
+            "Type": "text",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "is_active",
+            "Type": "tinyint(1)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "1",
+            "Extra": ""
+        },
+        {
+            "Field": "XP_Points",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "10",
+            "Extra": ""
+        },
+        {
+            "Field": "Coherence",
+            "Type": "tinyint(1)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "processed",
+            "Type": "tinyint(1)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "course_id",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "LinkedCourses",
+            "Type": "text",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "created_at",
+            "Type": "datetime",
+            "Null": "YES",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        },
+        {
+            "Field": "updated_at",
+            "Type": "datetime",
+            "Null": "YES",
+            "Key": "MUL",
+            "Default": "current_timestamp()",
+            "Extra": "on update current_timestamp()"
+        }
+    ],
+    "learning_paths": [
+        {
+            "Field": "Id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "Title",
+            "Type": "varchar(255)",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Subject",
+            "Type": "varchar(100)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Level",
+            "Type": "varchar(50)",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Description",
+            "Type": "text",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Duration",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "60",
+            "Extra": ""
+        },
+        {
+            "Field": "Difficulty",
+            "Type": "enum('facile','moyen','difficile')",
+            "Null": "YES",
+            "Key": "",
+            "Default": "moyen",
+            "Extra": ""
+        },
+        {
+            "Field": "Steps",
+            "Type": "longtext",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Prerequisites",
+            "Type": "longtext",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "IsActive",
+            "Type": "tinyint(1)",
+            "Null": "YES",
+            "Key": "MUL",
+            "Default": "1",
+            "Extra": ""
+        },
+        {
+            "Field": "CreatedAt",
+            "Type": "timestamp",
+            "Null": "NO",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        },
+        {
+            "Field": "UpdatedAt",
+            "Type": "timestamp",
+            "Null": "NO",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": "on update current_timestamp()"
+        }
+    ],
+    "mastery": [
+        {
+            "Field": "id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "user_id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "exercise_id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "level",
+            "Type": "enum('beginner','apprentice','proficient','expert')",
+            "Null": "YES",
+            "Key": "MUL",
+            "Default": "beginner",
+            "Extra": ""
+        },
+        {
+            "Field": "xp_earned",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "attempts",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "best_score",
+            "Type": "decimal(5,2)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "0.00",
+            "Extra": ""
+        },
+        {
+            "Field": "total_time_seconds",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "last_attempt_at",
+            "Type": "timestamp",
+            "Null": "NO",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": "on update current_timestamp()"
+        },
+        {
+            "Field": "created_at",
+            "Type": "timestamp",
+            "Null": "NO",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        },
+        {
+            "Field": "updated_at",
+            "Type": "timestamp",
+            "Null": "NO",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": "on update current_timestamp()"
+        }
+    ],
+    "notion": [
+        {
+            "Field": "id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "subject",
+            "Type": "varchar(100)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "level",
+            "Type": "varchar(20)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "name",
+            "Type": "varchar(150)",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "description",
+            "Type": "text",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "difficulty",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "1",
+            "Extra": ""
+        },
+        {
+            "Field": "order_index",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "created_at",
+            "Type": "timestamp",
+            "Null": "NO",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        }
+    ],
+    "powers": [
+        {
+            "Field": "Id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "Name",
+            "Type": "varchar(200)",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Icon",
+            "Type": "varchar(10)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Effect",
+            "Type": "longtext",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "CreatedAt",
+            "Type": "datetime",
+            "Null": "NO",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        }
+    ],
+    "quiz": [
+        {
+            "Field": "id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "level",
+            "Type": "varchar(20)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "subject",
+            "Type": "varchar(100)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "notion_id",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "type",
+            "Type": "enum('diagnostic','formative','summative')",
+            "Null": "YES",
+            "Key": "",
+            "Default": "formative",
+            "Extra": ""
+        },
+        {
+            "Field": "title",
+            "Type": "varchar(255)",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "description",
+            "Type": "text",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "question_count",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "5",
+            "Extra": ""
+        },
+        {
+            "Field": "passing_score",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "70",
+            "Extra": ""
+        },
+        {
+            "Field": "time_limit_minutes",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "created_at",
+            "Type": "timestamp",
+            "Null": "NO",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        }
+    ],
+    "quizresult": [
+        {
+            "Field": "id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "user_id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "quiz_id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "score",
+            "Type": "decimal(5,2)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "0.00",
+            "Extra": ""
+        },
+        {
+            "Field": "passed",
+            "Type": "tinyint(1)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "time_spent_seconds",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "answers",
+            "Type": "longtext",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "created_at",
+            "Type": "timestamp",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        }
+    ],
+    "study_sessions": [
+        {
+            "Field": "Id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "UserId",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "ResourceType",
+            "Type": "enum('course','exercise','quiz','path')",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "ResourceId",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "StartedAt",
+            "Type": "timestamp",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        },
+        {
+            "Field": "EndedAt",
+            "Type": "timestamp",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Duration",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "Score",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "CompletionRate",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "DeviceType",
+            "Type": "varchar(50)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "desktop",
+            "Extra": ""
+        }
+    ],
+    "user_goals": [
+        {
+            "Field": "Id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "UserId",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "GoalType",
+            "Type": "enum('daily_time','weekly_exercises','path_completion','score_target')",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "TargetValue",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "CurrentValue",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "StartDate",
+            "Type": "date",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "EndDate",
+            "Type": "date",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "IsCompleted",
+            "Type": "tinyint(1)",
+            "Null": "YES",
+            "Key": "MUL",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "CompletedAt",
+            "Type": "timestamp",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        }
+    ],
+    "user_path_progress": [
+        {
+            "Field": "Id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "UserId",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "PathId",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "CurrentStepIndex",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "CompletedSteps",
+            "Type": "longtext",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Score",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "TimeSpent",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "StartedAt",
+            "Type": "timestamp",
+            "Null": "NO",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        },
+        {
+            "Field": "CompletedAt",
+            "Type": "timestamp",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "LastAccessAt",
+            "Type": "timestamp",
+            "Null": "NO",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": "on update current_timestamp()"
+        }
+    ],
+    "userachievements": [
+        {
+            "Field": "Id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "UserId",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "AchievementId",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "UnlockedAt",
+            "Type": "datetime",
+            "Null": "NO",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        }
+    ],
+    "userbadge": [
+        {
+            "Field": "id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "user_id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "badge_id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "earned_at",
+            "Type": "timestamp",
+            "Null": "NO",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        }
+    ],
+    "usercourseprogress": [
+        {
+            "Field": "Id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "UserId",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "CourseId",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "StartedAt",
+            "Type": "datetime",
+            "Null": "YES",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        },
+        {
+            "Field": "CompletedAt",
+            "Type": "datetime",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "TimeSpent",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "Status",
+            "Type": "varchar(20)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "started",
+            "Extra": ""
+        },
+        {
+            "Field": "Notes",
+            "Type": "longtext",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "UpdatedAt",
+            "Type": "datetime",
+            "Null": "YES",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": "on update current_timestamp()"
+        }
+    ],
+    "userdailygoals": [
+        {
+            "Field": "Id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "UserId",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "GoalDate",
+            "Type": "date",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "GoalType",
+            "Type": "varchar(50)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "TargetValue",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "ProgressValue",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "Completed",
+            "Type": "tinyint(1)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "CreatedAt",
+            "Type": "datetime",
+            "Null": "YES",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        },
+        {
+            "Field": "UpdatedAt",
+            "Type": "datetime",
+            "Null": "YES",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": "on update current_timestamp()"
+        }
+    ],
+    "userloginhistory": [
+        {
+            "Field": "Id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "UserId",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "LoginAt",
+            "Type": "datetime",
+            "Null": "YES",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        },
+        {
+            "Field": "IpAddress",
+            "Type": "varchar(45)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "UserAgent",
+            "Type": "text",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        }
+    ],
+    "usernotifications": [
+        {
+            "Field": "Id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "UserId",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "NotificationType",
+            "Type": "varchar(50)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Message",
+            "Type": "text",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "IsRead",
+            "Type": "tinyint(1)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "CreatedAt",
+            "Type": "datetime",
+            "Null": "YES",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        }
+    ],
+    "userpowers": [
+        {
+            "Field": "Id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "UserId",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "PowerId",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "UnlockedAt",
+            "Type": "datetime",
+            "Null": "NO",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        }
+    ],
+    "userprogress": [
+        {
+            "Field": "Id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "UserId",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "CurrentPosition",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "",
+            "Default": "1",
+            "Extra": ""
+        },
+        {
+            "Field": "XP",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "ProgressJson",
+            "Type": "longtext",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "UpdatedAt",
+            "Type": "datetime",
+            "Null": "NO",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": "on update current_timestamp()"
+        }
+    ],
+    "userprogresshistory": [
+        {
+            "Field": "Id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "UserId",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "ProgressJson",
+            "Type": "longtext",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "UpdatedAt",
+            "Type": "datetime",
+            "Null": "YES",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        },
+        {
+            "Field": "Date",
+            "Type": "date",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "XP",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "ExercisesCompleted",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "Cristaux",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        }
+    ],
+    "users": [
+        {
+            "Field": "Id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "Username",
+            "Type": "varchar(100)",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Email",
+            "Type": "varchar(255)",
+            "Null": "NO",
+            "Key": "UNI",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "PasswordHash",
+            "Type": "varchar(255)",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "UserLevel",
+            "Type": "enum('6eme','5eme','4eme','3eme','2nde','1ere','Terminale','parent','Bac')",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Nom",
+            "Type": "varchar(100)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Prenom",
+            "Type": "varchar(100)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "Telephone",
+            "Type": "varchar(20)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "ParentId",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "CreatedAt",
+            "Type": "datetime",
+            "Null": "NO",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        },
+        {
+            "Field": "Role",
+            "Type": "enum('admin','student','parent')",
+            "Null": "NO",
+            "Key": "",
+            "Default": "student",
+            "Extra": ""
+        }
+    ],
+    "userstreak": [
+        {
+            "Field": "Id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "UserId",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "StreakType",
+            "Type": "varchar(50)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "CurrentStreak",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "BestStreak",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "LastUpdate",
+            "Type": "datetime",
+            "Null": "YES",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        }
+    ],
+    "userweeklygoals": [
+        {
+            "Field": "Id",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "PRI",
+            "Default": null,
+            "Extra": "auto_increment"
+        },
+        {
+            "Field": "UserId",
+            "Type": "int(11)",
+            "Null": "NO",
+            "Key": "MUL",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "WeekYear",
+            "Type": "varchar(10)",
+            "Null": "NO",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "GoalType",
+            "Type": "varchar(50)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "TargetValue",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": null,
+            "Extra": ""
+        },
+        {
+            "Field": "ProgressValue",
+            "Type": "int(11)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "Completed",
+            "Type": "tinyint(1)",
+            "Null": "YES",
+            "Key": "",
+            "Default": "0",
+            "Extra": ""
+        },
+        {
+            "Field": "CreatedAt",
+            "Type": "datetime",
+            "Null": "YES",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": ""
+        },
+        {
+            "Field": "UpdatedAt",
+            "Type": "datetime",
+            "Null": "YES",
+            "Key": "",
+            "Default": "current_timestamp()",
+            "Extra": "on update current_timestamp()"
+        }
+    ]
+}

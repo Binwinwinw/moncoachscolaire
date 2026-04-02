@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 662",
+    "level": "3ème",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "Évolution : paléontologie et datation",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Les restes ou traces conservés d'un organisme passé",
+        "correct": 1,
+        "correction": "Un fossile est tout vestige (os, empreinte, trace) d'un organisme ayant vécu dans le passé géologique."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Des isotopes comme le carbone 14 (courtes périodes) ou le potassium-argon (longues périodes) permettent de dater les fossiles."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "carbone 14",
+        "correction": "Le carbone 14 (¹⁴C) a une demi-vie d'environ 5 730 ans, idéale pour dater les matières organiques récentes."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Roches sédimentaires",
+        "correct": 2,
+        "correction": "Les roches sédimentaires, formées par accumulation de sédiments, emprisonnent et conservent les restes organiques."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Le principe de superposition : les couches supérieures sont plus récentes, les couches inférieures plus anciennes."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "fossiles stratigraphiques",
+        "correction": "Les fossiles stratigraphiques (ou fossiles directeurs) sont abondants, à large répartition et à courte durée d'existence."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "5 730 ans",
+        "correct": 1,
+        "correction": "La demi-vie du ¹⁴C est de 5 730 ans ± 40 ans."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les fossiles de transition (ex. Archaeopteryx entre reptiles et oiseaux) montrent des formes intermédiaires entre groupes."
+      }
+    ]
+  }
+}

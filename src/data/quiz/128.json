@@ -1,0 +1,102 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ère Anglais - Série 04",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ère : Education, Future Careers (Eduscol B1/B2 Advanced)",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-09 17:03:00"
+  },
+  "quiz": {
+    "title": "1ère English Diagnostic - Series 04 (Education & Careers)",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "University education should be free for all because:",
+        "choices": [
+          "Equal opportunities",
+          "Too expensive for governments",
+          "Not everyone wants to study",
+          "Online learning is better"
+        ],
+        "correct_index": 0,
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Apprenticeships provide better job prospects than university degrees.",
+        "correct": false,
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "Name 2 skills essential for future jobs (21st century).",
+        "placeholder": "ex: Critical thinking, digital literacy",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Reported speech: She said, 'I am tired.' → She said that...",
+        "choices": [
+          "she was tired",
+          "she is tired",
+          "I am tired",
+          "I was tired"
+        ],
+        "correct_index": 0,
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "I wish I had studied harder for the exam last week.",
+        "correct": true,
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "What career would you choose? Why? (2 sentences)",
+        "placeholder": "ex: I would be a doctor because I like helping people.",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "Online courses are as effective as traditional classes if...",
+        "choices": [
+          "Students are motivated",
+          "No internet needed",
+          "Same cost",
+          "Group work impossible"
+        ],
+        "correct_index": 0,
+        "id": 7
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Gap year experiences improve CVs for university applications.",
+        "correct": true,
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Education Systems",
+      "description": "University vs apprenticeships, online learning (Eduscol 1ère)"
+    },
+    {
+      "notion": "Future Careers",
+      "description": "21st century skills, CV building, gap years"
+    },
+    {
+      "notion": "Advanced Grammar",
+      "description": "Reported speech, wish/regret, 3rd conditional"
+    }
+  ]
+}

@@ -1,0 +1,771 @@
+/**
+ * ═══════════════════════════════════════════════════════════════════════════
+ * LEGAL PAGES - STYLES UNIFIÉS
+ * ═══════════════════════════════════════════════════════════════════════════
+ *
+ * Fichier CSS unifié pour toutes les pages légales de MonCoachScolaire
+ *
+ * 📄 Pages concernées :
+ *    • Politique de Confidentialité (confidentialite.php)
+ *    • Mentions Légales (mentions-legales.php)
+ *    • Conditions Générales de Vente / Utilisation (cgv.php / conditions-utilisation.php)
+ *
+ * 📅 Dernière mise à jour : 14 février 2026
+ * 🎨 Thème : Design cohérent avec gradient violet MonCoachScolaire
+ *
+ * ═══════════════════════════════════════════════════════════════════════════
+ */
+
+
+/* ─────────────────────────────────────────────────────────────────────────
+   1. VARIABLES CSS (customisation globale)
+   ───────────────────────────────────────────────────────────────────────── */
+
+:root {
+  /* Couleurs principales */
+  --legal-primary: #2563eb;
+  --legal-primary-dark: #1e40af;
+  --legal-secondary: #667eea;
+  --legal-accent: #764ba2;
+
+  /* Couleurs de texte */
+  --legal-text-dark: #1e293b;
+  --legal-text-medium: #334155;
+  --legal-text-light: #475569;
+  --legal-text-muted: #64748b;
+
+  /* Backgrounds */
+  --legal-bg-white: #ffffff;
+  --legal-bg-light: #f8fafc;
+  --legal-bg-overlay: rgba(255, 255, 255, 0.96);
+
+  /* Borders & Shadows */
+  --legal-border-light: #e5e7eb;
+  --legal-border-medium: #d1d5db;
+  --legal-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --legal-shadow-md: 0 4px 16px rgba(0, 0, 0, 0.06);
+  --legal-shadow-lg: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+  /* Spacing */
+  --legal-spacing-sm: 1rem;
+  --legal-spacing-md: 1.5rem;
+  --legal-spacing-lg: 2rem;
+  --legal-spacing-xl: 3rem;
+
+  /* Border radius */
+  --legal-radius-sm: 6px;
+  --legal-radius-md: 8px;
+  --legal-radius-lg: 12px;
+}
+
+
+/* ─────────────────────────────────────────────────────────────────────────
+   2. STYLES COMMUNS - BODY & BACKGROUND
+   ───────────────────────────────────────────────────────────────────────── */
+
+/**
+ * Background personnalisé pour les pages légales
+ * Appliqué via les classes body.mentions-legales, body.page-legal, etc.
+ */
+body.mentions-legales,
+body.page-legal,
+body.confidentialite,
+body.cgv,
+body.conditions-utilisation {
+  --page-bg-image: url("/assets/img/background-school-material.png");
+  --page-bg-overlay: var(--legal-bg-overlay);
+  background-image: var(--page-bg-image);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+body.mentions-legales::before,
+body.page-legal::before,
+body.confidentialite::before,
+body.cgv::before,
+body.conditions-utilisation::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--page-bg-overlay);
+  z-index: -1;
+}
+
+
+/* ─────────────────────────────────────────────────────────────────────────
+   3. STRUCTURE PRINCIPALE (COMMUNE AUX 3 PAGES)
+   ───────────────────────────────────────────────────────────────────────── */
+
+/**
+ * Container principal de la page
+ * Utilisé sur : confidentialite.php, mentions-legales.php, cgv.php
+ */
+main,
+.legal-page-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: var(--legal-spacing-lg);
+  background: var(--legal-bg-white);
+  border-radius: var(--legal-radius-lg);
+  box-shadow: var(--legal-shadow-md);
+}
+
+/**
+ * Header de la page (titre + sous-titre)
+ * Utilisé sur : toutes les pages légales
+ */
+.legal-header {
+  text-align: center;
+  margin-bottom: var(--legal-spacing-xl);
+  padding-bottom: var(--legal-spacing-lg);
+  border-bottom: 2px solid var(--legal-border-light);
+}
+
+
+/* ─────────────────────────────────────────────────────────────────────────
+   4. TYPOGRAPHIE COMMUNE
+   ───────────────────────────────────────────────────────────────────────── */
+
+/**
+ * Titre principal (H1)
+ * Utilisé sur : toutes les pages légales
+ */
+h1,
+.legal-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--legal-primary);
+  margin-bottom: var(--legal-spacing-md);
+  line-height: 1.2;
+}
+
+/**
+ * Sous-titre (date de mise à jour)
+ * Utilisé sur : toutes les pages légales
+ */
+.legal-subtitle {
+  font-size: 0.95rem;
+  color: var(--legal-text-muted);
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+/**
+ * Titres de section (H2)
+ * Utilisé sur : toutes les pages légales
+ */
+h2,
+.legal-section-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: var(--legal-text-medium);
+  margin-top: var(--legal-spacing-lg);
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid var(--legal-secondary);
+}
+
+/**
+ * Sous-titres (H3)
+ * Utilisé sur : sections détaillées
+ */
+h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--legal-text-medium);
+  margin-top: var(--legal-spacing-md);
+  margin-bottom: var(--legal-spacing-sm);
+  scroll-margin-top: 100px; /* Pour scroll smooth avec ancres */
+}
+
+/**
+ * Paragraphes et texte principal
+ * Utilisé sur : toutes les pages légales
+ */
+p,
+.legal-text {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--legal-text-light);
+  margin-bottom: var(--legal-spacing-sm);
+}
+
+.legal-text strong {
+  color: var(--legal-text-dark);
+  font-weight: 600;
+}
+
+
+/* ─────────────────────────────────────────────────────────────────────────
+   5. SECTIONS DE CONTENU (COMMUNES)
+   ───────────────────────────────────────────────────────────────────────── */
+
+/**
+ * Container du contenu principal
+ * Utilisé sur : toutes les pages légales
+ */
+.legal-content {
+  line-height: 1.8;
+  margin-top: var(--legal-spacing-lg);
+}
+
+/**
+ * Section individuelle (avec effet hover)
+ * Utilisé sur : sections numérotées (1. Introduction, 2. Données collectées, etc.)
+ */
+.legal-section {
+  background: var(--legal-bg-white);
+  padding: var(--legal-spacing-lg);
+  margin-bottom: var(--legal-spacing-lg);
+  border-radius: var(--legal-radius-lg);
+  box-shadow: var(--legal-shadow-sm);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.legal-section:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--legal-shadow-lg);
+}
+
+
+/* ─────────────────────────────────────────────────────────────────────────
+   6. LISTES (COMMUNES)
+   ───────────────────────────────────────────────────────────────────────── */
+
+/**
+ * Listes standards (ul, ol)
+ * Utilisé sur : toutes les pages légales
+ */
+ul,
+ol {
+  margin-left: 1.5rem;
+  margin-bottom: var(--legal-spacing-sm);
+}
+
+.legal-text ul,
+.legal-text ol {
+  margin-bottom: var(--legal-spacing-sm);
+}
+
+/**
+ * Listes personnalisées avec flèches
+ * Utilisé sur : listes de droits, de données collectées, etc.
+ */
+.legal-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: var(--legal-spacing-md);
+}
+
+.legal-list-item {
+  padding: 0.75rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.legal-list-item:last-child {
+  border-bottom: none;
+}
+
+.legal-list-item::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: var(--legal-secondary);
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+
+/* ─────────────────────────────────────────────────────────────────────────
+   7. BOUTON RETOUR (COMMUN)
+   ───────────────────────────────────────────────────────────────────────── */
+
+/**
+ * Bouton "← Retour à l'accueil"
+ * Utilisé sur : toutes les pages légales
+ */
+.btn-back-home,
+.btn-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  margin-bottom: var(--legal-spacing-lg);
+  background: linear-gradient(135deg, var(--legal-secondary) 0%, var(--legal-accent) 100%);
+  color: white;
+  text-decoration: none;
+  border-radius: var(--legal-radius-md);
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+}
+
+.btn-back-home:hover,
+.btn-back:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.5);
+  color: white;
+  text-decoration: none;
+}
+
+.btn-back-home:active,
+.btn-back:active {
+  transform: translateY(0);
+}
+
+.btn-back-home i,
+.btn-back-home svg,
+.btn-back i,
+.btn-back svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+
+/* ─────────────────────────────────────────────────────────────────────────
+   8. BOXES SPÉCIALES (COMMUNES)
+   ───────────────────────────────────────────────────────────────────────── */
+
+/**
+ * Info box (encadré bleu pour informations importantes)
+ * Utilisé sur : confidentialite.php, cgv.php
+ */
+.info-box {
+  background: #eff6ff;
+  border-left: 4px solid #3b82f6;
+  padding: 1.5rem;
+  border-radius: var(--legal-radius-md);
+  margin: var(--legal-spacing-md) 0;
+}
+
+.info-box h4 {
+  color: #1e40af;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.info-box p {
+  color: #1e3a8a;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/**
+ * Contact box (encadré vert pour coordonnées)
+ * Utilisé sur : toutes les pages légales
+ */
+.contact-box {
+  background: #f0fdf4;
+  border: 1px solid #86efac;
+  padding: var(--legal-spacing-lg);
+  border-radius: var(--legal-radius-lg);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: var(--legal-spacing-lg);
+}
+
+.contact-box h3 {
+  color: #065f46;
+  margin-bottom: var(--legal-spacing-sm);
+  margin-top: 0;
+}
+
+.contact-box p {
+  color: #047857;
+  margin-bottom: 0.5rem;
+}
+
+.contact-box a {
+  color: #059669;
+  font-weight: 600;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.contact-box a:hover {
+  color: #047857;
+}
+
+
+/* ─────────────────────────────────────────────────────────────────────────
+   9. FOOTER LINKS (COMMUN)
+   ───────────────────────────────────────────────────────────────────────── */
+
+/**
+ * Liens du footer (navigation entre pages légales)
+ * Utilisé sur : footer de toutes les pages légales
+ */
+.footer-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 20px;
+  margin-top: var(--legal-spacing-lg);
+}
+
+.footer-links a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  color: #fbbf24;
+}
+
+
+/* ─────────────────────────────────────────────────────────────────────────
+   10. STYLES SPÉCIFIQUES - CONFIDENTIALITÉ
+   ───────────────────────────────────────────────────────────────────────── */
+
+/**
+ * Tableau des données collectées
+ * Utilisé uniquement sur : confidentialite.php
+ */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--legal-spacing-md) 0;
+  box-shadow: var(--legal-shadow-sm);
+  border-radius: var(--legal-radius-md);
+  overflow: hidden;
+}
+
+.data-table th,
+.data-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid var(--legal-border-light);
+}
+
+.data-table th {
+  background: linear-gradient(135deg, var(--legal-secondary) 0%, var(--legal-accent) 100%);
+  color: white;
+  font-weight: 600;
+}
+
+.data-table tr:hover {
+  background: var(--legal-bg-light);
+}
+
+.data-table tr:last-child td {
+  border-bottom: none;
+}
+
+/**
+ * Section cookies (spécifique confidentialité)
+ * Utilisé uniquement sur : confidentialite.php
+ */
+.cookie-consent-section {
+  background: #fef3c7;
+  border-left: 4px solid #f59e0b;
+  padding: var(--legal-spacing-md);
+  border-radius: var(--legal-radius-md);
+  margin: var(--legal-spacing-lg) 0;
+}
+
+.cookie-consent-section h3 {
+  color: #92400e;
+  margin-top: 0;
+}
+
+.cookie-consent-section p {
+  color: #78350f;
+}
+
+
+/* ─────────────────────────────────────────────────────────────────────────
+   11. STYLES SPÉCIFIQUES - MENTIONS LÉGALES
+   ───────────────────────────────────────────────────────────────────────── */
+
+/**
+ * Informations éditeur (encadré spécial)
+ * Utilisé uniquement sur : mentions-legales.php
+ */
+.editor-info {
+  background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+  border: 2px solid var(--legal-primary);
+  padding: var(--legal-spacing-md);
+  border-radius: var(--legal-radius-md);
+  margin: var(--legal-spacing-lg) 0;
+}
+
+.editor-info h3 {
+  color: var(--legal-primary-dark);
+  margin-top: 0;
+}
+
+.editor-info p {
+  color: var(--legal-text-medium);
+  margin-bottom: 0.5rem;
+}
+
+.editor-info strong {
+  color: var(--legal-primary);
+}
+
+
+/* ─────────────────────────────────────────────────────────────────────────
+   12. STYLES SPÉCIFIQUES - CGV / CONDITIONS D'UTILISATION
+   ───────────────────────────────────────────────────────────────────────── */
+
+/**
+ * Tableau de tarification (si applicable)
+ * Utilisé uniquement sur : cgv.php
+ */
+.pricing-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--legal-spacing-md) 0;
+  box-shadow: var(--legal-shadow-sm);
+  border-radius: var(--legal-radius-md);
+  overflow: hidden;
+}
+
+.pricing-table th,
+.pricing-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--legal-border-light);
+}
+
+.pricing-table th {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  color: white;
+  font-weight: 600;
+}
+
+.pricing-table tr:hover {
+  background: #f0fdf4;
+}
+
+.pricing-table .price {
+  font-weight: 700;
+  color: #059669;
+  font-size: 1.1rem;
+}
+
+/**
+ * Section conditions de paiement
+ * Utilisé uniquement sur : cgv.php
+ */
+.payment-conditions {
+  background: #fef3c7;
+  border-left: 4px solid #f59e0b;
+  padding: var(--legal-spacing-md);
+  border-radius: var(--legal-radius-md);
+  margin: var(--legal-spacing-lg) 0;
+}
+
+.payment-conditions h3 {
+  color: #92400e;
+  margin-top: 0;
+}
+
+.payment-conditions p {
+  color: #78350f;
+}
+
+
+/* ─────────────────────────────────────────────────────────────────────────
+   13. RESPONSIVE - TABLETTE (≤ 768px)
+   ───────────────────────────────────────────────────────────────────────── */
+
+@media (max-width: 768px) {
+  /* Container principal */
+  main,
+  .legal-page-container {
+    padding: var(--legal-spacing-sm);
+    margin: 1rem;
+  }
+
+  /* Header */
+  .legal-header {
+    margin-bottom: var(--legal-spacing-lg);
+    padding-bottom: var(--legal-spacing-sm);
+  }
+
+  /* Typographie */
+  h1,
+  .legal-title {
+    font-size: 2rem !important;
+  }
+
+  h2,
+  .legal-section-title {
+    font-size: 1.5rem !important;
+    margin-top: var(--legal-spacing-md);
+  }
+
+  h3 {
+    font-size: 1.15rem;
+  }
+
+  /* Sections */
+  .legal-section {
+    padding: var(--legal-spacing-md);
+    margin-bottom: var(--legal-spacing-md);
+  }
+
+  /* Texte */
+  p,
+  .legal-text {
+    font-size: 0.95rem;
+  }
+
+  /* Bouton retour */
+  .btn-back-home,
+  .btn-back {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: var(--legal-spacing-md);
+  }
+
+  /* Listes */
+  ul,
+  ol {
+    margin-left: 1rem;
+  }
+
+  /* Tableaux */
+  .data-table,
+  .pricing-table {
+    font-size: 0.85rem;
+  }
+
+  .data-table th,
+  .data-table td,
+  .pricing-table th,
+  .pricing-table td {
+    padding: 0.5rem;
+  }
+
+  /* Footer links */
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .footer-links a {
+    margin: 0.25rem 0;
+  }
+}
+
+
+/* ─────────────────────────────────────────────────────────────────────────
+   14. RESPONSIVE - MOBILE (≤ 480px)
+   ───────────────────────────────────────────────────────────────────────── */
+
+@media (max-width: 480px) {
+  /* Container principal */
+  main,
+  .legal-page-container {
+    padding: 1rem 0.75rem;
+    margin: 0.5rem;
+    border-radius: var(--legal-radius-md);
+  }
+
+  /* Typographie */
+  h1,
+  .legal-title {
+    font-size: 1.75rem !important;
+  }
+
+  h2,
+  .legal-section-title {
+    font-size: 1.25rem !important;
+  }
+
+  h3 {
+    font-size: 1.05rem;
+  }
+
+  /* Sections */
+  .legal-section {
+    padding: var(--legal-spacing-sm);
+    margin-bottom: var(--legal-spacing-sm);
+  }
+
+  /* Boxes */
+  .info-box,
+  .contact-box,
+  .cookie-consent-section,
+  .editor-info,
+  .payment-conditions {
+    padding: var(--legal-spacing-sm);
+    margin: var(--legal-spacing-sm) 0;
+  }
+
+  /* Tableaux en mode scroll horizontal */
+  .data-table,
+  .pricing-table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+
+/* ─────────────────────────────────────────────────────────────────────────
+   15. UTILITAIRES (classes helper)
+   ───────────────────────────────────────────────────────────────────────── */
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.mt-1 { margin-top: 0.5rem; }
+.mt-2 { margin-top: var(--legal-spacing-sm); }
+.mt-3 { margin-top: var(--legal-spacing-md); }
+.mt-4 { margin-top: var(--legal-spacing-lg); }
+
+.mb-1 { margin-bottom: 0.5rem; }
+.mb-2 { margin-bottom: var(--legal-spacing-sm); }
+.mb-3 { margin-bottom: var(--legal-spacing-md); }
+.mb-4 { margin-bottom: var(--legal-spacing-lg); }
+
+.p-1 { padding: 0.5rem; }
+.p-2 { padding: var(--legal-spacing-sm); }
+.p-3 { padding: var(--legal-spacing-md); }
+.p-4 { padding: var(--legal-spacing-lg); }
+
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   FIN DU FICHIER - legal-pages.css
+   ═══════════════════════════════════════════════════════════════════════════
+
+   📊 STATISTIQUES :
+      • Variables CSS : 20+
+      • Classes communes : 30+
+      • Classes spécifiques : 8
+      • Media queries : 2 (768px, 480px)
+      • Lignes de code : ~700
+
+   🔧 MAINTENANCE :
+      Pour ajouter une nouvelle page légale, suivre ces étapes :
+      1. Ajouter la classe body dans la section 2 (body.nom-page)
+      2. Utiliser les classes communes (sections 3-9)
+      3. Si besoin de styles spécifiques, créer une section dédiée
+      4. Ajouter une référence <link> dans la page PHP
+
+   📝 DERNIÈRE MODIFICATION : 14 février 2026
+   👤 AUTEUR : MonCoachScolaire Team
+
+   ═══════════════════════════════════════════════════════════════════════════ */

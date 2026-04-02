@@ -1,0 +1,72 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 4eme Histoire-Géographie",
+    "type": "quiz",
+    "level": "4eme",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic France monarchie, guerres mondiales, Europe 4eme"
+  },
+  "quiz": {
+    "title": "Diagnostic Histoire-Géo 4eme",
+    "level": "4eme",
+    "subject": "Histoire-Géographie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "1789",
+        "correction": "1789 = chute Bastille, fin monarchie absolue"
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "texte",
+        "answer": "1918",
+        "correction": "Grande Guerre 1914-1918"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": true,
+        "correction": "VRAI. Versailles, L'Âge d'or"
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "1939",
+        "correction": "1er septembre 1939 (invasion Pologne)"
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "texte",
+        "answer": "CECA",
+        "correction": "CECA = CECA (Communauté Européenne Charbon Acier)"
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": false,
+        "correction": "FAUX. Libération 1944-45, Ve République 1958"
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Strasbourg",
+        "correction": "Parlement Européen Strasbourg"
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "answer": "6",
+        "correction": "Jour J = 6 juin 1944"
+      }
+    ]
+  }
+}

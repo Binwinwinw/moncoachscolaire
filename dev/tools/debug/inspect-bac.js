@@ -1,0 +1,26 @@
+const { chromium } = require('@playwright/test');
+(async ()=>{
+  const url = process.argv[2] || 'http://127.0.0.1:8080/public/index.php?page=bac%2Fbac-accueil';
+  const browser = await chromium.launch();
+  const page = await browser.newPage();
+  await page.goto(url);
+  const bodyClass = await page.evaluate(()=>document.body.className);
+  const bodyColor = await page.evaluate(()=>getComputedStyle(document.body).color);
+  const introH2Color = await page.evaluate(()=>{ const el = document.querySelector('.intro h2'); return el ? getComputedStyle(el).color : null; });
+  const introPColor = await page.evaluate(()=>{ const el = document.querySelector('.intro p'); return el ? getComputedStyle(el).color : null; });
+  const coachMsgColor = await page.evaluate(()=>{ const el = document.querySelector('.coach-message'); return el ? getComputedStyle(el).color : null; });
+  const overlay = await page.evaluate(()=>getComputedStyle(document.body,'::after').getPropertyValue('background'));
+  const pageBgImage = await page.evaluate(()=>getComputedStyle(document.documentElement).getPropertyValue('--page-bg-image'));
+  const pageBgOverlay = await page.evaluate(()=>getComputedStyle(document.documentElement).getPropertyValue('--page-bg-overlay'));
+  const stylesheets = await page.evaluate(()=>Array.from(document.querySelectorAll('link[rel="stylesheet"]')).map(l=>l.href).join('\n'));
+  console.log('body.className:', bodyClass);
+  console.log('body.color:', bodyColor);
+  console.log('.intro h2 color:', introH2Color);
+  console.log('.intro p color:', introPColor);
+  console.log('.coach-message color:', coachMsgColor);
+  console.log('overlay (::after background):', overlay);
+  console.log('--page-bg-image:', pageBgImage.trim());
+  console.log('--page-bg-overlay:', pageBgOverlay.trim());
+  console.log('stylesheets:\n' + stylesheets);
+  await browser.close();
+})();

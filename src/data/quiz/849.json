@@ -1,0 +1,97 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 5eme Mathématiques - Serie 40",
+    "type": "quiz",
+    "level": "5eme",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 5eme : Nombres et calculs",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-08 00:05:00"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 5eme Mathématiques - Serie 40",
+    "level": "5eme",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle opération mathématique correspond à la notion étudiée en 5eme ?",
+        "choices": [
+          "Addition",
+          "Soustraction",
+          "Multiplication",
+          "Division"
+        ],
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les nombres décimaux peuvent être représentés sur une droite graduée.",
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "Donne un exemple de calcul mental que tu peux faire rapidement.",
+        "placeholder": "Exemple: 25 + 75 = 100",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle opération mathématique correspond à la notion étudiée en 5eme ?",
+        "choices": [
+          "Addition",
+          "Soustraction",
+          "Multiplication",
+          "Division"
+        ],
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les nombres décimaux peuvent être représentés sur une droite graduée.",
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "Donne un exemple de calcul mental que tu peux faire rapidement.",
+        "placeholder": "Exemple: 25 + 75 = 100",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle opération mathématique correspond à la notion étudiée en 5eme ?",
+        "choices": [
+          "Addition",
+          "Soustraction",
+          "Multiplication",
+          "Division"
+        ],
+        "id": 7
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les nombres décimaux peuvent être représentés sur une droite graduée.",
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Notion 1 - Mathématiques",
+      "description": "Concept clé de Mathématiques au niveau 5eme"
+    },
+    {
+      "notion": "Notion 2 - Mathématiques",
+      "description": "Concept clé de Mathématiques au niveau 5eme"
+    },
+    {
+      "notion": "Notion 3 - Mathématiques",
+      "description": "Concept clé de Mathématiques au niveau 5eme"
+    }
+  ],
+  "exerciseresponses": []
+}

@@ -1,0 +1,93 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 3ème - Série 8",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Mathématiques",
+    "description": "Évaluation diagnostique en mathématiques 3ème : systèmes d'équations, fonctions affines/linéaires, trigonométrie, probabilités",
+    "status": "published",
+    "created_at": "2026-03-07 23:55:00",
+    "updated_at": "2026-03-07 23:55:00"
+  },
+  "quiz": {
+    "title": "Diagnostic Mathématiques 3ème",
+    "level": "3eme",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Pour résoudre un système de deux équations à deux inconnues, quelle méthode utilise-t-on ?",
+        "choices": [
+          "Intuition",
+          "Substitution ou élimination",
+          "Essais et erreurs",
+          "Graphique uniquement"
+        ]
+      },
+      {
+        "type": "texte",
+        "question": "Résous l'équation : 2x - 3 = 7. Donne la valeur de x.",
+        "placeholder": "Réponse: 5"
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une fonction affine a la forme f(x) = ax + b où a et b sont des constantes. Vrai ?"
+      },
+      {
+        "type": "texte",
+        "question": "Dans un triangle rectangle avec angle 30° et hypoténuse de 10 cm, quelle est la longueur du côté opposé ? (sin 30° = 0,5)",
+        "placeholder": "Réponse en cm: 5"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la probabilité de tirer une carte rouge dans un jeu de 52 cartes ?",
+        "choices": [
+          "1/52",
+          "1/4",
+          "1/2",
+          "1/3"
+        ]
+      },
+      {
+        "type": "qcm",
+        "question": "Si f(x) = 2x - 3, alors f(4) vaut :",
+        "choices": [
+          "3",
+          "5",
+          "8",
+          "11"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Dans un triangle rectangle, le carré de l'hypoténuse est la somme des carrés des deux autres côtés."
+      },
+      {
+        "type": "texte",
+        "question": "Quelle est la probabilité d'obtenir un nombre pair en lançant un dé équilibré à 6 faces ?"
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Systèmes d'équations",
+      "description": "Concept clé de Mathématiques au niveau 3eme"
+    },
+    {
+      "notion": "Fonctions affines et linéaires",
+      "description": "Concept clé de Mathématiques au niveau 3eme"
+    },
+    {
+      "notion": "Trigonométrie",
+      "description": "Concept clé de Mathématiques au niveau 3eme"
+    },
+    {
+      "notion": "Probabilités",
+      "description": "Concept clé de Mathématiques au niveau 3eme"
+    }
+  ],
+  "exerciseresponses": []
+}

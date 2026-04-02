@@ -1,0 +1,72 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 3eme Français",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Francais",
+    "description": "Diagnostic argumentation, théâtre, poésie 3eme brevet"
+  },
+  "quiz": {
+    "title": "Diagnostic Français 3eme",
+    "level": "3eme",
+    "subject": "Francais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Défendue",
+        "correction": "Argumentation"
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "texte",
+        "answer": "seul",
+        "correction": "Théâtre soliloque"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": true,
+        "correction": "VRAI. Poésie classique"
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Idées",
+        "correction": "Chiasme figure"
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "texte",
+        "answer": "expert",
+        "correction": "Avis spécialiste"
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": true,
+        "correction": "VRAI. 2 quatrains + 2 tercets"
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Spectateurs",
+        "correction": "Théâtre confidence"
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "answer": "problématique, conclusion",
+        "correction": "Structure classique"
+      }
+    ]
+  }
+}

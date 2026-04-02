@@ -1,0 +1,73 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES Terminale - Serie 1115",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "SES",
+    "description": "Diagnostic SES Terminale : Défaillances du marché et externalités",
+    "status": "published",
+    "created_at": "2026-03-14 03:10:56",
+    "updated_at": "2026-03-14 03:10:56"
+  },
+  "quiz": {
+    "title": "Défaillances du marché et externalités",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "SES",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Une externalité négative existe quand :",
+        "choices": [
+          "La production d'un bien profite à un tiers sans contrepartie",
+          "La production ou consommation d'un bien impose un coût à un tiers non partie à la transaction",
+          "Le marché produit trop peu d'un bien",
+          "L'État subventionne un secteur privé"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les externalités positives conduisent à une sous-production par rapport à l'optimum social."
+      },
+      {
+        "type": "open",
+        "question": "Explique le théorème de Coase (1960) et ses limites."
+      },
+      {
+        "type": "qcm",
+        "question": "Un bien public pur est caractérisé par :",
+        "choices": [
+          "La rivalité et l'excludabilité",
+          "La non-rivalité et la non-excludabilité",
+          "La rivalité et la non-excludabilité",
+          "La non-rivalité et l'excludabilité"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le problème du passager clandestin justifie la fourniture publique des biens collectifs."
+      },
+      {
+        "type": "open",
+        "question": "Distingue biens publics, biens collectifs, biens de club et biens communs, avec un exemple de chaque."
+      },
+      {
+        "type": "qcm",
+        "question": "La tragédie des communs (Hardin, 1968) montre que :",
+        "choices": [
+          "Les biens communs sont toujours bien gérés",
+          "La gestion collective d'une ressource commune mène inévitablement à sa surexploitation",
+          "L'État doit nationaliser toutes les ressources",
+          "La concurrence protège les ressources communes"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Elinor Ostrom (Prix Nobel 2009) a montré que les communautés peuvent gérer les ressources communes sans privatisation ni étatisation."
+      }
+    ]
+  }
+}

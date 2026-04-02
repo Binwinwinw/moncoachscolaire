@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 614",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 1ère : L'épigénétique et la régulation de l'expression génique",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "L'épigénétique et la régulation de l'expression génique",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "L'épigénétique étudie les modifications de l'expression des gènes :",
+        "choices": [
+          "Uniquement dues aux mutations de la séquence d'ADN",
+          "Héritables mais ne modifiant pas la séquence nucléotidique de l'ADN",
+          "Dues aux radiations uniquement",
+          "Qui s'effacent à chaque division cellulaire"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La méthylation des cytosines dans les régions promotrices d'un gène tend à réprimer son expression."
+      },
+      {
+        "type": "open",
+        "question": "L'environnement (alimentation, stress, exposition aux toxines) peut modifier les marques _____ et ainsi influencer l'expression des gènes."
+      },
+      {
+        "type": "qcm",
+        "question": "Les jumeaux monozygotes (vrais jumeaux) possèdent le même ADN mais peuvent présenter des phénotypes différents à l'âge adulte car :",
+        "choices": [
+          "Leurs ADN mutent différemment",
+          "Leurs profils épigénétiques divergent avec le temps et les expériences de vie",
+          "Leurs chromosomes se recomposent",
+          "Leurs ARNm sont différents dès la naissance"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'empreinte génomique parentale est un phénomène épigénétique par lequel certains gènes ne sont exprimés que selon leur origine maternelle ou paternelle."
+      },
+      {
+        "type": "open",
+        "question": "L'acétylation des histones tend à activer la transcription en _____ la chromatine."
+      },
+      {
+        "type": "qcm",
+        "question": "Les ARN non codants (micro-ARN, ARN interférents) jouent un rôle dans :",
+        "choices": [
+          "La réplication de l'ADN",
+          "La régulation post-transcriptionnelle (dégradation ou blocage de l'ARNm)",
+          "La synthèse des lipides",
+          "La division cellulaire uniquement"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'épigénétique a des applications médicales, notamment dans le traitement de certains cancers (inhibiteurs de DNMT)."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

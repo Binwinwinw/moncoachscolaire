@@ -1,0 +1,76 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 1ere - Série 276",
+    "level": "1ere",
+    "subject": "Physique-Chimie"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Physique-Chimie - Serie 4",
+    "question_count": 8,
+    "level": "1ere",
+    "subject": "Physique-Chimie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Tout corps reste en état de repos ou de mouvement rectiligne uniforme si la résultante des forces qui s'exercent sur lui est nulle",
+        "correct": 1,
+        "correction": "Le 1er principe de Newton (principe d'inertie) : 'Tout corps persévère dans son état de repos ou de mouvement rectiligne uniforme, sauf si des forces extérieures l'obligent à changer.' En formule : si ΣF = 0, alors a = 0. L'inertie est la propriété d'un corps de résister aux changements de son état de mouvement."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La 2ème loi de Newton : ΣF = m × a, soit a = ΣF/m. Si la masse m est constante et qu'on double la résultante des forces ΣF, l'accélération a est également doublée (relation de proportionnalité directe). Réciproquement, si la masse double pour la même force, l'accélération est divisée par 2."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "correct_answer": "La masse est une propriété intrinsèque d'un corps (en kg) ; le poids est la force gravitationnelle exercée sur ce corps (en N). Relation : P = m × g.",
+        "answer": "La masse est une propriété intrinsèque d'un corps (en kg) ; le poids est la force gravitationnelle exercée sur ce corps (en N). Relation : P = m × g.",
+        "correction": "La masse m (en kg) est une propriété intrinsèque d'un objet, indépendante du lieu (invariante). Elle mesure l'inertie d'un corps. Le poids P (en newtons, N) est la force gravitationnelle exercée par un astre sur un objet : P = m × g, où g est l'accélération de la pesanteur (g ≈ 9,81 m/s² sur Terre, 1,62 m/s² sur la Lune). Le poids varie selon le lieu, la masse non. Une balance mesure la masse ; un dynamomètre mesure le poids."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "3000 N",
+        "correct": 1,
+        "correction": "Application de la 2ème loi de Newton : ΣF = m × a = 1000 kg × 3 m/s² = 3000 N. Cette force résultante est la somme algébrique de toutes les forces horizontales (force motrice du moteur moins les frottements et la résistance de l'air). L'unité de force est le Newton (N = kg·m/s²)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le 3ème principe de Newton (action-réaction) : 'Toute action appelle une réaction égale et opposée.' Si A exerce F(A→B) sur B, alors B exerce F(B→A) = -F(A→B) sur A. Ces deux forces sont égales en module, opposées en sens, colinéaires mais exercées sur des objets différents. Exemple : la Terre attire la pomme (son poids), et la pomme attire la Terre avec la même force (mais la Terre est beaucoup plus massive, donc son accélération est négligeable)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "correct_answer": "La force de frottement s'oppose au mouvement d'un objet. On la modélise souvent comme f = μ × N, où μ est le coefficient de frottement et N la force normale.",
+        "answer": "La force de frottement s'oppose au mouvement d'un objet. On la modélise souvent comme f = μ × N, où μ est le coefficient de frottement et N la force normale.",
+        "correction": "La force de frottement (cinétique) s'oppose au glissement d'une surface sur une autre. Sa modélisation simplifiée : f = μk × N, où μk est le coefficient de frottement cinétique (sans unité, entre 0 et 1) et N la réaction normale (force perpendiculaire à la surface). La résistance à l'avancement (dans les fluides) est modélisée par une force proportionnelle à la vitesse (frottement visqueux) ou au carré de la vitesse (résistance aérodynamique) selon le régime d'écoulement."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "La quantité de mouvement totale du système",
+        "correct": 2,
+        "correction": "En l'absence de forces extérieures, la quantité de mouvement totale du système se conserve (principe de conservation de la quantité de mouvement, conséquence de la 3ème loi de Newton) : Σp(avant) = Σp(après), avec p = m·v. En cas de collision élastique, l'énergie cinétique se conserve aussi ; en cas de collision inélastique, l'énergie cinétique est partiellement dissipée en chaleur, son, déformation."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI (en équilibre statique). Pour un objet en équilibre sur un plan horizontal (a = 0), la somme des forces est nulle : R (réaction normale, vers le haut) + P (poids, vers le bas) = 0, donc R = -P, |R| = |P| = mg. Attention : ce n'est PAS la 3ème loi de Newton (qui s'applique à la paire 'la Terre attire l'objet / l'objet attire la Terre'), mais la conséquence du 1er principe appliqué à l'équilibre."
+      }
+    ]
+  }
+}

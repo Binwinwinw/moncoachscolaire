@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques Terminale - Serie 1017",
+    "level": "Terminale",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Dérivées des fonctions usuelles",
+    "question_count": 8,
+    "level": "Terminale",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "C",
+        "correction": "(xⁿ)' = n·xⁿ⁻¹. C'est la règle de base pour les puissances."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "(eˣ)' = eˣ. L'exponentielle est sa propre dérivée."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "(ln x)' = 1/x ; (sin x)' = cos x ; (cos x)' = −sin x",
+        "correction": "Dérivées fondamentales à connaître absolument."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "B",
+        "correction": "1/x = x⁻¹ → (x⁻¹)' = −x⁻² = −1/x²."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "√x = x^(1/2) → (x^(1/2))' = (1/2)·x^(−1/2) = 1/(2√x)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "f'(x) = 12x³ − 4x + 5",
+        "correction": "(3x⁴)' = 12x³ ; (−2x²)' = −4x ; (5x)' = 5 ; (−1)' = 0."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "C",
+        "correction": "(tan x)' = 1/cos²(x) = 1 + tan²(x). Valable là où cos(x) ≠ 0."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Si f(x) = c (constante), f'(x) = 0 : une constante ne varie pas."
+      }
+    ]
+  }
+}

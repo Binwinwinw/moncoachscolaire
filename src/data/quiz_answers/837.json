@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES 1ère - Série 837",
+    "level": "1ère",
+    "subject": "SES"
+  },
+  "quiz": {
+    "title": "Les revenus primaires",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "SES",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "De la participation directe à la production",
+        "correct": 1,
+        "correction": "Les revenus primaires résultent de la contribution des facteurs de production : salaires (travail) et profits, dividendes, loyers (capital)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Les revenus du patrimoine sont des revenus primaires du capital. Les revenus de transfert (pensions, allocations) sont versés sans contrepartie productive directe."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "Le revenu salarial (salaire) rémunère le facteur travail dans un emploi subordonné. Le revenu mixte rémunère à la fois le travail et le capital des travailleurs indépendants (artisans, agriculteurs, professions libérales) ; on ne peut distinguer les deux parts.",
+        "correction": "Le revenu mixte représente environ 10 % du revenu national en France."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "La part du revenu national revenant aux entreprises (profits + amortissements)",
+        "correct": 1,
+        "correction": "L'EBE mesure la capacité de l'entreprise à générer des ressources pour investir, rembourser ses dettes et rémunérer ses actionnaires."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "La part des salaires dans la VA a baissé dans les années 1980-1990 au profit des profits, avant de se stabiliser autour de 65-68 % selon les estimations."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "La financiarisation désigne la place croissante des marchés financiers dans l'économie. Elle a favorisé les revenus du capital (dividendes) au détriment des salaires, accroissant les inégalités entre capital et travail.",
+        "correction": "La norme du 'retour sur capitaux propres à 15 %' a conduit à des politiques de réduction des coûts salariaux."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Le revenu primaire + prestations sociales - impôts et cotisations",
+        "correct": 1,
+        "correction": "Le revenu disponible mesure ce dont disposent réellement les ménages pour consommer ou épargner."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les déciles classent les ménages par ordre croissant de revenus. Le D1 correspond aux 10 % les plus pauvres, le D10 aux 10 % les plus riches."
+      }
+    ]
+  }
+}

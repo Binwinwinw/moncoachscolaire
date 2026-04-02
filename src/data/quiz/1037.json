@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques Terminale - Serie 1037",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques Terminale : Convergence et limites de suites",
+    "status": "published",
+    "created_at": "2026-03-13 11:24:24",
+    "updated_at": "2026-03-13 11:24:24"
+  },
+  "quiz": {
+    "title": "Convergence et limites de suites",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Une suite (uₙ) converge vers L si :",
+        "choices": [
+          "uₙ est croissante",
+          "Pour tout ε > 0, il existe N tel que n > N ⟹ |uₙ − L| < ε",
+          "uₙ est bornée",
+          "uₙ₊₁ − uₙ → 0"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Toute suite croissante et majorée converge."
+      },
+      {
+        "type": "open",
+        "question": "Quelle est la limite de uₙ = (2n + 1)/(n + 3) quand n → +∞ ?"
+      },
+      {
+        "type": "qcm",
+        "question": "La suite uₙ = (−1)ⁿ :",
+        "choices": [
+          "Converge vers 0",
+          "Converge vers 1",
+          "Diverge",
+          "Converge vers −1"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Si uₙ → L et vₙ → M, alors uₙ + vₙ → L + M."
+      },
+      {
+        "type": "open",
+        "question": "Applique le théorème des gendarmes pour montrer que uₙ = sin(n)/n → 0."
+      },
+      {
+        "type": "qcm",
+        "question": "La suite uₙ = nⁿ/(n!) tend vers :",
+        "choices": [
+          "0",
+          "1",
+          "+∞",
+          "e"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une suite bornée est nécessairement convergente."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

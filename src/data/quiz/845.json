@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES 1ère - Série 845",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SES",
+    "description": "Diagnostic SES 1ère : La balance des paiements",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "La balance des paiements",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SES",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Que retrace la balance des paiements ?",
+        "choices": [
+          "Uniquement les échanges de biens",
+          "L'ensemble des transactions économiques entre résidents et non-résidents d'un pays",
+          "La dette publique d'un pays",
+          "Le taux de change"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La balance des paiements est toujours équilibrée comptablement."
+      },
+      {
+        "type": "open",
+        "question": "Quelles sont les trois composantes principales de la balance des paiements ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Un déficit du compte courant signifie qu'un pays :",
+        "choices": [
+          "Exporte plus qu'il n'importe",
+          "Importe plus de biens et services qu'il n'en exporte (incluant revenus et transferts)",
+          "A une dette publique élevée",
+          "A un fort taux de chômage"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La France a un déficit de son compte courant depuis le début des années 2000."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce qu'un investissement direct à l'étranger (IDE) ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Le taux de change euro/dollar mesure :",
+        "choices": [
+          "Le prix de l'or",
+          "Le nombre de dollars nécessaires pour acheter un euro",
+          "Le taux d'inflation",
+          "Le taux d'intérêt"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un taux de change flexible est déterminé par l'offre et la demande sur le marché des changes."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 636",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 1ère : La dérive des continents et paléogéographie",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "La dérive des continents et paléogéographie",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "La Pangée était :",
+        "choices": [
+          "Une ancienne mer disparue",
+          "Le supercontinent unique qui regroupait toutes les masses continentales il y a ~250 Ma",
+          "Un ancien océan",
+          "Le nom du premier continent formé il y a 4 Ga"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La présence de fossiles identiques sur des continents aujourd'hui séparés est une preuve de la dérive des continents."
+      },
+      {
+        "type": "open",
+        "question": "Le GPS et les géodètes mesurent le déplacement des plaques à raison de quelques _____ par an, correspondant à la vitesse de pousse des ongles."
+      },
+      {
+        "type": "qcm",
+        "question": "La Méditerranée est le vestige d'un ancien océan appelé :",
+        "choices": [
+          "Panthalassa",
+          "Iapétus",
+          "Téthys",
+          "Paléo-Pacifique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La vitesse de déplacement des plaques peut être mesurée en datant les basaltes de la croûte océanique à partir des dorsales."
+      },
+      {
+        "type": "open",
+        "question": "L'obduction est le processus inverse de la subduction : un lambeau de croûte _____ est poussé sur la croûte continentale."
+      },
+      {
+        "type": "qcm",
+        "question": "Les Alpes se sont formées par :",
+        "choices": [
+          "L'écartement de plaques à une dorsale",
+          "La subduction de la plaque africaine sous la plaque européenne puis leur collision continentale",
+          "Le volcanisme d'un point chaud",
+          "L'érosion glaciaire uniquement"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "les séismes profonds (> 300 km) ne se produisent que dans les zones de subduction où une plaque froide et rigide plonge profondément."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

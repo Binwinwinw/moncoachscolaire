@@ -1,0 +1,158 @@
+/* Styles pour la page exercices Première - basés sur exercices-seconde.css */
+.page-exercices-1ere main { max-width: 1000px; margin: 0 auto; padding: 2rem; }
+.page-exercices-1ere .header { text-align: center; margin-bottom: 40px; border-bottom: 3px solid #ec4899; padding-bottom: 20px; }
+.page-exercices-1ere .header h1 { color: #ec4899; font-size: 28px; margin-bottom: 10px; }
+.page-exercices-1ere .subtitle { color: #666; font-size: 18px; font-style: italic; }
+.page-exercices-1ere h2 { color: #ec4899; border-left: 5px solid #ec4899; padding-left: 15px; margin-top: 30px; }
+.page-exercices-1ere h3 { color: #357a32; margin-top: 25px; }
+.page-exercices-1ere .coach-message { background: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 100%); border-left: 4px solid #ec4899; padding: 20px; margin: 20px 0; border-radius: 8px; font-style: italic; }
+.page-exercices-1ere .coach-message strong { color: #ec4899; font-size: 18px; }
+.page-exercices-1ere .coach-preview { background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); border: 2px solid #e2e8f0; border-radius: 15px; padding: 2rem; text-align: center; margin: 2rem 0; }
+.page-exercices-1ere .coach-preview h2 { color: #ec4899; margin-bottom: 1rem; }
+.page-exercices-1ere .coach-preview p { color: #64748b; font-size: 1.1rem; margin-bottom: 1.5rem; }
+.page-exercices-1ere .preview-features { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin: 2rem 0; }
+.page-exercices-1ere .preview-feature { background: white; padding: 1.5rem; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+.page-exercices-1ere .preview-feature h3 { color: #059669; margin-bottom: 0.5rem; }
+.page-exercices-1ere .preview-feature p { color: #64748b; font-size: 0.9rem; }
+.page-exercices-1ere .coach-cta { background: linear-gradient(135deg, #059669 0%, #10b981 100%); color: white; border: none; padding: 1rem 2rem; border-radius: 8px; font-size: 1.1rem; font-weight: 600; cursor: pointer; text-decoration: none; display: inline-block; margin: 0 0.5rem; transition: all 0.3s ease; }
+.page-exercices-1ere .coach-cta:hover { transform: translateY(-2px); box-shadow: 0 10px 20px rgba(5, 150, 105, 0.3); }
+.page-exercices-1ere .coach-cta.secondary { background: linear-gradient(135deg, #ec4899 0%, #db2777 100%); }
+.page-exercices-1ere .coach-cta.secondary:hover { box-shadow: 0 10px 20px rgba(236, 72, 153, 0.3); }
+.page-exercices-1ere .exercise-card { background: #f8f9fa; border: 2px solid #e9ecef; border-radius: 10px; padding: 20px; margin: 20px 0; transition: all 0.3s ease; }
+.page-exercices-1ere .exercise-card:hover { border-color: #ec4899; box-shadow: 0 4px 12px rgba(236, 72, 153, 0.1); }
+.page-exercices-1ere .exercise-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
+.page-exercices-1ere .difficulty { background: #ec4899; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; }
+.page-exercices-1ere .progress-bar { width: 100%; height: 8px; background: #e9ecef; border-radius: 4px; margin: 10px 0; overflow: hidden; }
+.page-exercices-1ere .progress-fill { height: 100%; background: linear-gradient(90deg, #357a32, #ec4899); width: 0%; transition: width 0.5s ease; }
+.page-exercices-1ere .motivation-box { background: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 100%); border: 2px solid #ec4899; border-radius: 10px; padding: 15px; margin: 15px 0; text-align: center; }
+.page-exercices-1ere .motivation-box h4 { color: #db2777; margin-bottom: 10px; }
+.page-exercices-1ere .btn-coach { background: #ec4899; color: white; border: none; padding: 10px 20px; border-radius: 6px; cursor: pointer; font-weight: bold; transition: all 0.3s ease; }
+.page-exercices-1ere .btn-coach:hover { background: #db2777; transform: translateY(-2px); }
+.page-exercices-1ere .success-message { background: #d4edda; color: #155724; padding: 15px; border-radius: 6px; margin: 15px 0; display: none; }
+.page-exercices-1ere .cta-actions { margin-top: 2rem; text-align: center; }
+.page-exercices-1ere .tip-box { background: #fdf2f8; border-left: 4px solid #ec4899; padding: 15px; margin: 15px 0; }
+.page-exercices-1ere .tip-box h4 { color: #ec4899; margin-bottom: 8px; }
+
+/* Styles pour exercices interactifs */
+.page-exercices-1ere .exercise-subject-group { margin: 2rem 0; }
+.page-exercices-1ere .exercise-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.5rem; margin: 1.5rem 0; }
+.page-exercices-1ere .exercise-title-section { display: flex; align-items: center; gap: 0.5rem; }
+.page-exercices-1ere .exercise-icon { font-size: 1.5em; }
+.page-exercices-1ere .exercise-title { margin: 0; flex: 1; }
+.page-exercices-1ere .exercise-meta { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.page-exercices-1ere .exercise-level,
+.page-exercices-1ere .exercise-subject { background: #fce7f3; color: #9f1239; padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.875rem; }
+.page-exercices-1ere .exercise-content { margin: 1rem 0; }
+.page-exercices-1ere .exercise-enonce { line-height: 1.6; }
+.page-exercices-1ere .exercise-answer { margin-top: 1.5rem; padding-top: 1.5rem; border-top: 2px solid #e5e7eb; }
+.page-exercices-1ere .answer-title { color: #059669; margin-bottom: 1rem; }
+.page-exercices-1ere .answer-content { background: #f0fdf4; padding: 1rem; border-radius: 6px; border-left: 4px solid #10b981; }
+.page-exercices-1ere .exercise-actions { display: flex; gap: 0.5rem; margin-top: 1rem; flex-wrap: wrap; }
+.page-exercices-1ere .btn-show-answer,
+.page-exercices-1ere .btn-exercise-complete { background: #059669; color: white; border: none; padding: 0.75rem 1.5rem; border-radius: 6px; cursor: pointer; font-weight: 600; transition: all 0.3s ease; font-size: 0.9rem; }
+.page-exercices-1ere .btn-show-answer:hover,
+.page-exercices-1ere .btn-exercise-complete:hover { background: #047857; transform: translateY(-2px); box-shadow: 0 4px 8px rgba(5, 150, 105, 0.3); }
+.page-exercices-1ere .btn-exercise-complete:disabled { background: #9ca3af; cursor: not-allowed; transform: none; }
+.page-exercices-1ere .exercise-completed { border-color: #10b981 !important; background: #f0fdf4 !important; }
+.page-exercices-1ere .exercise-success-message { background: #d1fae5; border-left: 4px solid #10b981; padding: 1rem; margin-top: 1rem; border-radius: 6px; color: #065f46; animation: fadeIn 0.5s ease-out; }
+.page-exercices-1ere .no-exercises { text-align: center; padding: 2rem; color: #6b7280; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
+
+/* Styles pour exercices interactifs - Mathématiques */
+.page-exercices-1ere .conjugation-exercise { margin: 1.5rem 0; }
+.page-exercices-1ere .conjugation-question { margin: 1rem 0; padding: 1rem; background: white; border-radius: 6px; border: 1px solid #e5e7eb; }
+.page-exercices-1ere .conjugation-input { width: 100%; max-width: 400px; padding: 0.75rem; font-size: 1rem; border: 2px solid #d1d5db; border-radius: 6px; margin-top: 0.5rem; transition: all 0.3s ease; }
+.page-exercices-1ere .conjugation-input:focus { outline: none; border-color: #ec4899; box-shadow: 0 0 0 3px rgba(236, 72, 153, 0.1); }
+.page-exercices-1ere .conjugation-input.correct-input { border-color: #10b981; background: #f0fdf4; }
+.page-exercices-1ere .conjugation-input.wrong-input { border-color: #ef4444; background: #fef2f2; }
+.page-exercices-1ere .conjugation-feedback { padding: 1rem; border-radius: 6px; margin-top: 1rem; }
+
+/* Styles pour exercices interactifs - QCM */
+.page-exercices-1ere .qcm-exercise { margin: 1.5rem 0; }
+.page-exercices-1ere .qcm-question { margin: 1.5rem 0; padding: 1rem; background: white; border-radius: 6px; border: 1px solid #e5e7eb; }
+.page-exercices-1ere .qcm-choices {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.5rem;
+    margin-top: 0.75rem;
+}
+.page-exercices-1ere .qcm-choice {
+    display: block !important;
+    width: 100% !important;
+    padding: 0.75rem;
+    margin: 0.5rem 0;
+    border: 2px solid #d1d5db;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: #f9fafb;
+    box-sizing: border-box;
+}
+.page-exercices-1ere .qcm-choice:hover { background: #f3f4f6; border-color: #9ca3af; }
+.page-exercices-1ere .qcm-choice input[type="radio"] { margin-right: 0.5rem; cursor: pointer; }
+.page-exercices-1ere .qcm-choice-text { user-select: none; }
+.page-exercices-1ere .qcm-choice.correct-choice { background: #f0fdf4; border-color: #10b981; color: #065f46; }
+.page-exercices-1ere .qcm-choice.wrong-choice { background: #fef2f2; border-color: #ef4444; color: #991b1b; }
+.page-exercices-1ere .qcm-feedback { padding: 1rem; border-radius: 6px; margin-top: 1rem; }
+.page-exercices-1ere .input-feedback { display: inline-block; margin-left: 0.5rem; font-size: 0.9rem; font-weight: 600; }
+.page-exercices-1ere .input-feedback.success { color: #059669; }
+.page-exercices-1ere .input-feedback.error { color: #dc2626; }
+.page-exercices-1ere .input-feedback.warning { color: #d97706; }
+.page-exercices-1ere .feedback-success { background: #d1fae5; border-left: 4px solid #10b981; padding: 1rem; border-radius: 6px; color: #065f46; }
+.page-exercices-1ere .feedback-good { background: #fef3c7; border-left: 4px solid #f59e0b; padding: 1rem; border-radius: 6px; color: #92400e; }
+.page-exercices-1ere .feedback-needs-work { background: #fee2e2; border-left: 4px solid #ef4444; padding: 1rem; border-radius: 6px; color: #991b1b; }
+
+/* Styles pour la navigation entre niveaux */
+.page-exercices-1ere .exercise-navigation {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 2px solid #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.page-exercices-1ere .exercise-navigation .nav-group {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.page-exercices-1ere .exercise-navigation .nav-btn {
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    display: inline-block;
+    color: white;
+}
+
+.exercise-navigation .nav-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.exercise-navigation .nav-prev,
+.exercise-navigation .nav-next {
+    background: #ec4899;
+}
+
+.exercise-navigation .nav-prev:hover,
+.exercise-navigation .nav-next:hover {
+    background: #db2777;
+    box-shadow: 0 4px 8px rgba(236, 72, 153, 0.3);
+}
+
+@media (max-width: 768px) {
+    .exercise-navigation {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .exercise-navigation .nav-group {
+        justify-content: center;
+    }
+}

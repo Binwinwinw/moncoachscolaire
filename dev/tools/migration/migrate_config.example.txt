@@ -1,0 +1,14 @@
+# Configuration pour la migration vers la production
+# Copiez ce fichier vers migrate_config.txt et remplissez les valeurs
+
+# Host de la base de données (généralement localhost pour Hostinger)
+host=localhost
+
+# Username MySQL
+user=u936396612_moncoachadmin
+
+# Password MySQL (celui que vous avez mis dans le .env sur le serveur)
+password=votre_mot_de_passe_ici
+
+# Nom de la base de données
+database=u936396612_mcoachscolaire

@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES 1ère - Série 819",
+    "level": "1ère",
+    "subject": "SES"
+  },
+  "quiz": {
+    "title": "Introduction au marché",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "SES",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "La rencontre entre offre et demande",
+        "correct": 1,
+        "correction": "Un marché est le lieu (réel ou virtuel) où se rencontrent offre et demande pour déterminer un prix."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les marchés financiers ou e-commerce sont des exemples de marchés sans lieu physique unique."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "Marché du travail (travail contre salaire), marché des biens (produits contre argent), bourse (actions)…",
+        "correction": "Il existe de nombreux types de marchés : biens, services, travail, capitaux, changes…"
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Acheteurs et vendeurs",
+        "correct": 0,
+        "correction": "Sur un marché, les offreurs (vendeurs) et les demandeurs (acheteurs) interagissent."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "En concurrence pure et parfaite, aucun acteur n'a le pouvoir de fixer seul le prix ; c'est la confrontation offre/demande qui le détermine."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "Le prix de marché est le prix auquel se réalisent effectivement les échanges, résultant de la confrontation entre l'offre et la demande.",
+        "correction": "Il varie selon les conditions du marché (pénurie, surplus…)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Le mécanisme des prix",
+        "correct": 1,
+        "correction": "Les variations de prix signalent les déséquilibres et incitent les acteurs à adapter leur comportement."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'homogénéité des produits est une des cinq conditions de la CPP (avec atomicité, libre entrée, transparence, mobilité des facteurs)."
+      }
+    ]
+  }
+}

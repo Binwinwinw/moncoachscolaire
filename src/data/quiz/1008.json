@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 2nde - Serie 1008",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 2nde : Equations et modeles",
+    "status": "published",
+    "created_at": "2026-03-13 11:15:43",
+    "updated_at": "2026-03-13 11:15:43"
+  },
+  "quiz": {
+    "title": "Equations et modeles",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Dans le chapitre 'Equations et modeles', quelle demarche est la plus pertinente pour debuter un exercice ?",
+        "choices": [
+          "Identifier les donnees et l'inconnue",
+          "Choisir une reponse au hasard",
+          "Ignorer les hypotheses",
+          "Sauter directement a la conclusion"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une methode bien justifiee vaut mieux qu'un resultat non explique."
+      },
+      {
+        "type": "open",
+        "question": "Explique en 2-3 phrases comment tu traiterais un exercice sur le theme: traduction d'un probleme en equations."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle verification finale est la plus utile ?",
+        "choices": [
+          "Verifier unites, signe et coherence",
+          "Ne rien verifier",
+          "Changer la question",
+          "Reprendre une valeur au hasard"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un schema ou un croquis peut aider a structurer le raisonnement."
+      },
+      {
+        "type": "open",
+        "question": "Cite une erreur frequente dans ce type d'exercice et comment l'eviter."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle attitude correspond a une bonne methode de travail en 2nde ?",
+        "choices": [
+          "Justifier chaque etape et relire",
+          "Memoriser sans comprendre",
+          "Eviter les exercices d'entrainement",
+          "Ne pas corriger ses erreurs"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Relire la consigne et la question finale peut changer le resultat attendu."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

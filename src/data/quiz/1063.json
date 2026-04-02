@@ -1,0 +1,67 @@
+{
+  "id": 1063,
+  "title": "Équations et inéquations du second degré",
+  "subject": "Mathématiques",
+  "level": "1ère",
+  "created_at": "2026-03-13T18:54:00.423817Z",
+  "questions": [
+    {
+      "id": "1063_1",
+      "type": "qcm",
+      "question": "Combien de solutions réelles possède x² + 2x + 5 = 0 ?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "Infinité"
+      ]
+    },
+    {
+      "id": "1063_2",
+      "type": "vrai-faux",
+      "question": "x² = 9 a deux solutions réelles : x = 3 et x = −3."
+    },
+    {
+      "id": "1063_3",
+      "type": "texte",
+      "question": "Résous x² − 7x + 10 > 0."
+    },
+    {
+      "id": "1063_4",
+      "type": "qcm",
+      "question": "La somme des racines de 3x² − 7x + 2 = 0 est :",
+      "options": [
+        "7/3",
+        "2/3",
+        "7",
+        "−7/3"
+      ]
+    },
+    {
+      "id": "1063_5",
+      "type": "vrai-faux",
+      "question": "Le produit des racines de 3x² − 7x + 2 = 0 est 2/3."
+    },
+    {
+      "id": "1063_6",
+      "type": "texte",
+      "question": "Sans calculer les racines, détermine la somme et le produit des racines de 5x² + 3x − 1 = 0."
+    },
+    {
+      "id": "1063_7",
+      "type": "qcm",
+      "question": "Résous x(x − 4) = −3.",
+      "options": [
+        "x = 1 et x = 3",
+        "x = −1 et x = 3",
+        "x = 0 et x = 4",
+        "x = −1 et x = −3"
+      ]
+    },
+    {
+      "id": "1063_8",
+      "type": "vrai-faux",
+      "question": "L'équation (x − 2)² = 7 admet deux solutions réelles."
+    }
+  ]
+}

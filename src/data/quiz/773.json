@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 773",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 3eme : Analyse d'un objet technique : demarche et methodes",
+    "status": "published",
+    "created_at": "2026-03-14 04:06:19",
+    "updated_at": "2026-03-14 04:06:19"
+  },
+  "quiz": {
+    "title": "Analyse d'un objet technique : demarche et methodes",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel document decrit les caracteristiques qu'un objet technique doit satisfaire avant sa conception ?",
+        "choices": [
+          "Le plan de fabrication",
+          "Le cahier des charges fonctionnel",
+          "Le bon de commande",
+          "La fiche technique de montage"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La demarche de projet en technologie suit les etapes : analyser, concevoir, realiser, valider."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on un modele simplifie representant les caracteristiques essentielles d'un objet ou d'un systeme ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'un prototype en technologie ?",
+        "choices": [
+          "Un dessin technique sur papier",
+          "Un premier exemplaire fonctionnel d'un produit permettant de le tester",
+          "Un composant electronique",
+          "Un logiciel de simulation"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La simulation informatique permet de tester virtuellement le comportement d'un objet avant de le fabriquer."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la representation en trois dimensions d'un objet realisee par un logiciel de conception assistee par ordinateur ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel outil graphique represente les differentes etapes d'un projet avec leur duree et leurs dependances sous forme de barres horizontales ?",
+        "choices": [
+          "Organigramme",
+          "Diagramme de Gantt",
+          "PERT",
+          "Schema blocs"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La norme ISO 9001 concerne le management de la qualite dans les entreprises."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

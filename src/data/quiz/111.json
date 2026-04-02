@@ -1,0 +1,98 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Bac Espagnol - Compétences",
+    "type": "quiz",
+    "level": "bac",
+    "subject": "Espagnol",
+    "description": "Diagnostic Subjonctif, discours, culture hispanique - Bac",
+    "status": "published",
+    "created_at": "2026-03-08 18:11:00",
+    "updated_at": "2026-03-08 18:11:00"
+  },
+  "quiz": {
+    "title": "Diagnostic Bac - Espagnol Avancé",
+    "level": "bac",
+    "subject": "Espagnol",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Espero **que vengas** = subjonctif après ...",
+        "choices": [
+          "indicatif émotion",
+          "subjonctif doute",
+          "infinitif",
+          "gérondif"
+        ],
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Dudo que sea verdad (subjonctif négation).",
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "Me dijo **que vivía** en Madrid (discours indirect).",
+        "placeholder": "vivía imparfait",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Por **que** =",
+        "choices": [
+          "pour",
+          "parce que",
+          "afin que",
+          "quoique"
+        ],
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Ser/estar: ser identité, estar état.",
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "Cultura: Siglo de **Oro** (littérature).",
+        "placeholder": "17e siècle",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "Subjonctif après : quiero **que**...",
+        "choices": [
+          "venga",
+          "viene",
+          "vino",
+          "vendrá"
+        ],
+        "id": 7
+      },
+      {
+        "type": "texte",
+        "question": "Federico García **Lorca** œuvre.",
+        "placeholder": "Bodas de sangre",
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Subjonctif",
+      "description": "Doute, émotion, négation (Bac Espagnol)"
+    },
+    {
+      "notion": "Discours indirect",
+      "description": "Temps décalés (dijo → vivía)"
+    },
+    {
+      "notion": "Culture hispanique",
+      "description": "Siglo de Oro, auteurs (Lorca, Cervantes)"
+    }
+  ],
+  "exerciseresponses": []
+}

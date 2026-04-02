@@ -1,0 +1,77 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 2nde - Série 1645",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Français",
+    "description": "Diagnostic Français 2nde : Diagnostic 2nde Français - Poésie et figures de style",
+    "status": "published",
+    "created_at": "2026-03-14 07:35:11",
+    "updated_at": "2026-03-14 07:35:11",
+    "source": "Eduscol programmes officiels + BOEN",
+    "programme_ref": "<Référence programme officiel à renseigner>"
+  },
+  "quiz": {
+    "title": "Diagnostic 2nde Français - Poésie et figures de style",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle figure de style associe deux réalités grâce à un outil comparatif comme « comme » ?",
+        "choices": [
+          "La métaphore",
+          "La comparaison",
+          "L'hyperbole",
+          "L'antithèse"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un sonnet est traditionnellement composé de quatorze vers."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la répétition d'un même son consonantique dans un vers ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel registre est surtout mobilisé quand un poème insiste sur la souffrance, la plainte et la perte ?",
+        "choices": [
+          "Le registre lyrique",
+          "Le registre comique",
+          "Le registre didactique",
+          "Le registre épique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une métaphore contient toujours un outil comparatif explicite."
+      },
+      {
+        "type": "open",
+        "question": "Comment nomme-t-on la répétition d'un mot ou groupe de mots en début de vers successifs ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Dans un poème, quelle fonction peut avoir l'enjambement ?",
+        "choices": [
+          "Couper systématiquement le sens à la fin de chaque vers",
+          "Prolonger une phrase au-delà de la fin du vers",
+          "Supprimer toute ponctuation",
+          "Remplacer les rimes par des refrains"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le vers libre se caractérise par l'absence d'un mètre régulier imposé."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

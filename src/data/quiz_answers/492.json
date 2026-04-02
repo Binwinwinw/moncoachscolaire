@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 492",
+    "level": "1ère",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "L'oral de l'EAF : préparation et méthode",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "30 minutes",
+        "correct": 2,
+        "correction": "L'élève dispose de 30 minutes de préparation pour préparer son exposé de l'EAF."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'élève peut disposer de ses notes et annotations sur le texte pendant l'exposé."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "œuvres",
+        "correction": "L'entretien porte sur les œuvres intégrales étudiées dans l'année et sur les lectures cursives."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Parler distinctement et structurer clairement son analyse",
+        "correct": 1,
+        "correction": "L'oral valorise la clarté de l'expression, la précision des analyses et la maîtrise des références."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'exposé dure environ 10 minutes, puis l'entretien avec l'examinateur dure environ 10 minutes."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "plan",
+        "correction": "Un plan en 2-3 axes, annoncé en introduction et conclu par une synthèse, structure l'exposé oral."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Reconnaître honnêtement la limite de sa connaissance et proposer une piste",
+        "correct": 1,
+        "correction": "L'examinateur valorise l'honnêteté intellectuelle et la démarche de réflexion, même face à l'incertitude."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'examinateur peut interroger sur les lectures cursives lorsqu'elles enrichissent la réponse."
+      }
+    ]
+  }
+}

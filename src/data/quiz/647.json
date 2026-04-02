@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 647",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 1ère : Révisions synthèse : cellule, ADN et expression génétique",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "Révisions synthèse : cellule, ADN et expression génétique",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Le dogme central de la biologie moléculaire (Crick, 1958) décrit le flux d'information : ADN → ARN → Protéine. Quelle étape est réalisée par les ribosomes ?",
+        "choices": [
+          "La réplication",
+          "La transcription",
+          "La traduction",
+          "La recombinaison"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un organisme transgénique contient dans son génome un ou plusieurs gènes provenant d'une autre espèce."
+      },
+      {
+        "type": "open",
+        "question": "La PCR (Polymerase Chain Reaction) permet d'amplifier in vitro un fragment d'ADN spécifique en quelques heures grâce à une _____ thermostable (Taq)."
+      },
+      {
+        "type": "qcm",
+        "question": "L'électrophorèse sur gel permet :",
+        "choices": [
+          "La synthèse de protéines en laboratoire",
+          "La séparation des fragments d'ADN ou de protéines selon leur taille/charge dans un champ électrique",
+          "La dénaturation de l'ADN",
+          "La mesure du pH cellulaire"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La technologie Sanger (séquençage de l'ADN) a permis le projet Génome Humain (HGP) complété en 2003."
+      },
+      {
+        "type": "open",
+        "question": "Un anticorps monoclonal est produit par un seul clone de lymphocytes B et reconnaît un _____ unique."
+      },
+      {
+        "type": "qcm",
+        "question": "Les microARN (miARN) sont des petits ARN non codants qui :",
+        "choices": [
+          "Codent pour des protéines structurales",
+          "Régulent l'expression génique en s'appariant à des ARNm cibles et bloquant leur traduction",
+          "Forment les ribosomes",
+          "Répliquent l'ADN"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le Big Data génomique (millions de génomes séquencés) et l'IA permettent maintenant de prédire des risques de maladies complexes à partir du génotype."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

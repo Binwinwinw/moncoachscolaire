@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Geographie 1ere - Série 177",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "description": "Diagnostic Histoire-Geographie 1ere : Quiz Diagnostic 1ere Histoire-Géographie - Serie 3",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Histoire-Géographie - Serie 3",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Dans quel pays le fascisme prend-il le pouvoir en premier ?",
+        "choices": [
+          "L'Allemagne",
+          "L'Espagne",
+          "L'Italie",
+          "La Hongrie"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La crise économique de 1929 commence aux États-Unis avec le krach boursier de Wall Street."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que le nazisme et quels sont ses principaux fondements idéologiques ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le nom du régime autoritaire instauré par Staline en URSS dans les années 1930 ?",
+        "choices": [
+          "Le léninisme",
+          "Le stalinisme totalitaire",
+          "Le bolchevisme libéral",
+          "La démocratie populaire"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le Front populaire gouverne la France entre 1936 et 1938 sous la direction de Léon Blum."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que la politique d'apaisement (appeasement) pratiquée par les démocraties face à Hitler dans les années 1930 ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel pacte de non-agression est signé entre l'Allemagne nazie et l'URSS en août 1939 ?",
+        "choices": [
+          "Le pacte anti-Komintern",
+          "Le pacte germano-soviétique (pacte Molotov-Ribbentrop)",
+          "Le pacte d'acier",
+          "Le traité de non-prolifération"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La Seconde Guerre mondiale éclate le 1er septembre 1939 avec l'invasion de la Pologne par l'Allemagne."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

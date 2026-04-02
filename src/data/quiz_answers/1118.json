@@ -1,0 +1,48 @@
+{
+  "quiz_id": 1118,
+  "title": "Régulation et intervention de l'État",
+  "subject": "SES",
+  "level": "Terminale",
+  "answers": [
+    {
+      "question_id": "1118_1",
+      "correct_option": "B",
+      "explanation": "La régulation vise à corriger les défaillances de marché (monopoles naturels, externalités, asymétries d'info) sans nécessairement remplacer le marché."
+    },
+    {
+      "question_id": "1118_2",
+      "correct": true,
+      "explanation": "La dérégulation financière (années 1980-2000) a contribué à la crise de 2008 en permettant une prise de risque excessive. La régulation protège aussi contre les excès."
+    },
+    {
+      "question_id": "1118_3",
+      "correct_answer": "Production directe (entreprises publiques), réglementation (normes, droits), fiscalité (impôts, taxes), redistribution (transferts sociaux), politique industrielle (subventions, R&D), régulation des marchés (concurrence, finances).",
+      "explanation": "L'État intervient comme producteur, régulateur, redistribiteur et organisateur des marchés."
+    },
+    {
+      "question_id": "1118_4",
+      "correct_option": "B",
+      "explanation": "Les trois lois de Rolland : continuité du service, égalité de traitement, adaptabilité. Le service public vise l'intérêt général avant le profit."
+    },
+    {
+      "question_id": "1118_5",
+      "correct": true,
+      "explanation": "Ces autorités administratives indépendantes (AAI) régulent les marchés financiers, télécoms, médias sans être soumises au pouvoir politique direct."
+    },
+    {
+      "question_id": "1118_6",
+      "correct_answer": "La capture réglementaire (Stigler) : les entreprises régulées finissent par influencer (ou « capturer ») le régulateur pour que celui-ci serve leurs intérêts plutôt que ceux du public. Problème : la régulation perd son objectif de correction des défaillances.",
+      "explanation": "Ex : lobbying, portes tournantes (revolving doors) entre régulateurs et secteur privé. La capture affaiblit l'efficacité de la régulation."
+    },
+    {
+      "question_id": "1118_7",
+      "correct_option": "B",
+      "explanation": "Les directives européennes ont imposé l'ouverture à la concurrence des secteurs comme l'énergie, les télécoms, les transports pour bénéficier aux consommateurs."
+    },
+    {
+      "question_id": "1118_8",
+      "correct": true,
+      "explanation": "L'internalisation des externalités (Pigou) : taxer la pollution au niveau du dommage social force le pollueur à prendre en compte son impact environnemental."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 780",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 3eme : Controle qualite et metrologie",
+    "status": "published",
+    "created_at": "2026-03-14 04:06:19",
+    "updated_at": "2026-03-14 04:06:19"
+  },
+  "quiz": {
+    "title": "Controle qualite et metrologie",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que la metrologie en technologie industrielle ?",
+        "choices": [
+          "L'etude de la meteorologie",
+          "La science de la mesure et du controle dimensionnel",
+          "Le calcul des couts de production",
+          "La gestion des stocks de materiaux"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un pied a coulisse permet de mesurer des dimensions avec une precision de 0,1 mm ou moins."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on le document qui liste et enregistre toutes les operations de controle effectuees sur une piece ou un produit ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que l'incertitude de mesure ?",
+        "choices": [
+          "Une erreur de fabrication",
+          "L'intervalle de confiance autour d'une valeur mesuree qui quantifie le doute sur le resultat",
+          "La difference entre deux pieces identiques",
+          "L'ecart entre le dessin et la piece reelle"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une piece hors tolerance doit etre systematiquement mise au rebut."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on le processus qui verifie qu'un produit final satisfait toutes les exigences du cahier des charges ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel instrument de mesure permet de mesurer des diametres interieurs et exterieurs avec une tres haute precision (micrometre) ?",
+        "choices": [
+          "Reglet",
+          "Pied a coulisse",
+          "Palmer (micrometres)",
+          "Jauge de profondeur"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La traçabilite consiste a enregistrer l'historique complet d'une piece, de sa fabrication a son utilisation."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

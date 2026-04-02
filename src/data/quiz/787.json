@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 787",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 3eme : Introduction a la programmation : algorithmes",
+    "status": "published",
+    "created_at": "2026-03-14 04:06:19",
+    "updated_at": "2026-03-14 04:06:19"
+  },
+  "quiz": {
+    "title": "Introduction a la programmation : algorithmes",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'un algorithme ?",
+        "choices": [
+          "Un langage de programmation",
+          "Une suite finie d'instructions ordonnees pour resoudre un probleme",
+          "Un composant electronique",
+          "Un logiciel de dessin"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un diagramme de flux (organigramme) permet de representer graphiquement un algorithme."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on une instruction qui execute un bloc de code plusieurs fois tant qu'une condition est vraie ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle structure algorithmique permet d'executer un bloc d'instructions seulement si une condition est vraie ?",
+        "choices": [
+          "Boucle while",
+          "Structure conditionnelle si...alors...sinon",
+          "Sequence lineaire",
+          "Fonction recursive"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une variable en programmation est un espace memoire nomme qui peut stocker et modifier une valeur."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on un bloc d'instructions reutilisable qui accomplit une tache specifique et peut etre appele depuis d'autres parties du programme ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel langage visuel par blocs est utilise en education pour initier les enfants a la programmation ?",
+        "choices": [
+          "Python",
+          "Scratch",
+          "Java",
+          "C++"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Python est un langage de programmation lisible et polyvalent tres utilise en education et en data science."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

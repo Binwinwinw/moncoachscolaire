@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 466",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "description": "Diagnostic Français 1ère : Le roman : personnage et narration",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Le roman : personnage et narration",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'un narrateur homodiégétique ?",
+        "choices": [
+          "Il raconte une histoire dont il est absent",
+          "Il raconte une histoire dont il est le héros",
+          "Il est omniscient et extérieur",
+          "Il s'adresse directement au lecteur"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le narrateur hétérodiégétique est absent de l'histoire qu'il raconte."
+      },
+      {
+        "type": "open",
+        "question": "Complétez : 'La focalisation zéro correspond à un narrateur _____, qui sait tout des personnages.'"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle focalisation limite le savoir narratif à ce que perçoit un seul personnage ?",
+        "choices": [
+          "Focalisation zéro",
+          "Focalisation interne",
+          "Focalisation externe",
+          "Focalisation multiple"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un personnage rond (au sens de E.M. Forster) est stéréotypé et ne change pas."
+      },
+      {
+        "type": "open",
+        "question": "Quel procédé narratif consiste à raconter un événement antérieur à l'action principale ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Le discours indirect libre se caractérise par :",
+        "choices": [
+          "L'utilisation de guillemets",
+          "L'absence de verbe introducteur et le maintien des temps du passé",
+          "Une proposition subordonnée introduite par 'que'",
+          "La présence d'un tiret de dialogue"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le temps dominant du récit réaliste est l'imparfait pour les descriptions et le passé simple pour les actions."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

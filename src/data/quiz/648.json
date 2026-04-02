@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 648",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 1ère : Révisions synthèse : évolution et écologie",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "Révisions synthèse : évolution et écologie",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "La théorie synthétique de l'évolution ('Modern Synthesis') combine :",
+        "choices": [
+          "Uniquement la sélection naturelle de Darwin",
+          "La génétique mendélienne, la génétique des populations, la paléontologie et la sélection naturelle darwinienne",
+          "La tectonique des plaques et la biologie",
+          "Lamarck et Darwin uniquement"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La dérive génétique (drift) est plus forte dans les petites populations et peut fixer un allèle par simple hasard."
+      },
+      {
+        "type": "open",
+        "question": "La niche écologique d'une espèce décrit l'ensemble des rôles qu'elle joue dans son écosystème : sa position dans les réseaux _____, ses ressources, et ses interactions."
+      },
+      {
+        "type": "qcm",
+        "question": "L'équilibre ponctué (Gould & Eldredge, 1972) propose que l'évolution :",
+        "choices": [
+          "Se produit uniquement par petites mutations graduelles",
+          "Alterne de longues périodes de stase et de courtes periodes de changements rapides lors des spéciations",
+          "N'est pas influencée par les extinctions de masse",
+          "Est uniquement due aux mutations ponctuelles"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La symbiose mutualiste (les deux espèces bénéficient) est différente du parasitisme (une espèce bénéficie, l'autre est lésée)."
+      },
+      {
+        "type": "open",
+        "question": "Le principe de Gause stipule que deux espèces ayant des niches identiques ne peuvent pas coexister indéfiniment : l'une exclut l'autre (principe d'exclusion _____). "
+      },
+      {
+        "type": "qcm",
+        "question": "La biomasse d'un niveau trophique représente environ 10 % de celle du niveau inférieur (la loi des 10 %). Cela implique que :",
+        "choices": [
+          "Les prédateurs sont toujours plus nombreux que leurs proies",
+          "Les carnivores de 3e ordre sont très rares car chaque transfert perd ~90 % de l'énergie",
+          "Tous les niveaux trophiques ont la même biomasse",
+          "L'énergie est créée lors des transferts trophiques"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le changement climatique est considéré comme la menace la plus grave pour la biodiversité au XXIe siècle, menaçant d'extinction jusqu'à 30 % des espèces."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

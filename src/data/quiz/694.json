@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 694",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 3ème : Révisions : géologie interne et tectonique",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "Révisions : géologie interne et tectonique",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle couche terrestre est directement au-dessus du noyau ?",
+        "choices": [
+          "La croûte océanique",
+          "Le manteau",
+          "L'atmosphère",
+          "L'hydrosphère"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les plaques tectoniques reposent sur une lithosphère mobile totalement liquide."
+      },
+      {
+        "type": "open",
+        "question": "La théorie selon laquelle les continents se déplacent lentement à la surface de la Terre est à l'origine de la théorie de la dérive des _____."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel phénomène se produit surtout dans les zones de subduction ?",
+        "choices": [
+          "La formation de nouvelles glaces polaires",
+          "Un volcanisme souvent explosif et de forts séismes",
+          "La disparition de l'atmosphère",
+          "La formation de coraux"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La croûte océanique est en moyenne plus dense que la croûte continentale."
+      },
+      {
+        "type": "open",
+        "question": "Les vibrations enregistrées lors d'un séisme sont étudiées grâce à la _____."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel mouvement de plaques est à l'origine des dorsales océaniques ?",
+        "choices": [
+          "Convergence",
+          "Divergence",
+          "Collision continentale",
+          "Obduction"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les chaînes de montagnes peuvent se former lors de collisions entre plaques continentales."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

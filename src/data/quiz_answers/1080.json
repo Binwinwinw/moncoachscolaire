@@ -1,0 +1,48 @@
+{
+  "quiz_id": 1080,
+  "title": "Équations trigonométriques",
+  "subject": "Mathématiques",
+  "level": "1ère",
+  "answers": [
+    {
+      "question_id": "1080_1",
+      "correct_option": "B",
+      "explanation": "cos(x) = 1/2 ⟺ x = π/3 + 2kπ ou x = −π/3 + 2kπ (k ∈ Z)."
+    },
+    {
+      "question_id": "1080_2",
+      "correct": true,
+      "explanation": "Le sinus est borné entre −1 et 1 : sin(x) = a n'a de solution que pour |a| ≤ 1."
+    },
+    {
+      "question_id": "1080_3",
+      "correct_answer": "x = π/3 ou x = 2π/3",
+      "explanation": "sin = √3/2 correspond à π/3. Dans [0,2π[ : x = π/3 ou x = π − π/3 = 2π/3."
+    },
+    {
+      "question_id": "1080_4",
+      "correct_option": "B",
+      "explanation": "sin(x) = 0 ⟺ x est un multiple entier de π : x = kπ."
+    },
+    {
+      "question_id": "1080_5",
+      "correct": true,
+      "explanation": "cos = 0 aux points π/2 et 3π/2, soit π/2 + kπ pour k entier."
+    },
+    {
+      "question_id": "1080_6",
+      "correct_answer": "x = π/3 ou x = 5π/3",
+      "explanation": "cos(x) = 1/2. Dans [0,2π[ : x = π/3 ou x = 2π − π/3 = 5π/3."
+    },
+    {
+      "question_id": "1080_7",
+      "correct_option": "C",
+      "explanation": "sin = −1/2 → x = π + π/6 = 7π/6 et x = 2π − π/6 = 11π/6. Deux solutions."
+    },
+    {
+      "question_id": "1080_8",
+      "correct": true,
+      "explanation": "cos(u) = 1 ⟺ u = 2kπ. Donc 2x = 2kπ → x = kπ."
+    }
+  ]
+}

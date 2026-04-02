@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 797",
+    "level": "3eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Les energies renouvelables et leur integration",
+    "question_count": 8,
+    "level": "3eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Il convertit la lumiere en electricite grace a l'effet photovoltaique dans des cellules en silicium",
+        "correct": 1,
+        "correction": "L'effet photovoltaique (decouverte d'Edmond Becquerel, 1839) : les photons libèrent des electrons dans le semi-conducteur, creant un courant electrique continu."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les eoliennes a axe horizontal (HAWT) sont plus efficaces (rendement 35-45%) que les eoliennes a axe vertical (VAWT, 20-30%) ; elles dominent le marche eolien."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "power-to-gas",
+        "correction": "Le Power-to-Gas (PtG) electrolyse l'eau avec de l'electricite renouvelable excedentaire pour produire de l'hydrogene vert, vecteur energetique stockable et transportable."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Un reseau qui utilise les technologies numeriques pour equilibrer production et consommation en temps reel",
+        "correct": 1,
+        "correction": "Le smart grid integre capteurs, compteurs intelligents (Linky) et IA pour optimiser les flux d'electricite, integrer les EnR et gerer la demande."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'autoconsommation solaire avec injection du surplus est encadree en France ; les producteurs peuvent vendre l'exces a EDF OA (Obligation d'Achat) a un tarif fixe."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "STEP",
+        "correction": "La STEP (Station de Transfert d'Energie par Pompage) est la principale technologie de stockage massif d'electricite ; elle fonctionne comme une batterie hydraulique geante."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "40% d'EnR dans la consommation finale d'energie d'ici 2030",
+        "correct": 0,
+        "correction": "La France vise 40% d'energies renouvelables dans sa consommation finale d'energie d'ici 2030, conformement aux objectifs europeens (directive RED II)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La transition energetique necessite de grandes quantites de metaux rares pour les batteries, aimants eoliens, panneaux solaires ; leur extraction est concentree dans quelques pays (Chine, Congo), posant des enjeux de securite d'approvisionnement et de durabilite."
+      }
+    ]
+  }
+}

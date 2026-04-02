@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 587",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 3ème : Défense et sécurité nationale",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "Défense et sécurité nationale",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qui est chef des armées en France ?",
+        "choices": [
+          "Le Président de la République",
+          "Le ministre de l'Intérieur",
+          "Le chef d'état-major seul",
+          "Le Premier ministre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le service national universel (SNU) a remplacé le service militaire obligatoire."
+      },
+      {
+        "type": "open",
+        "question": "La mission principale de la Défense nationale est de protéger le _____ et la population."
+      },
+      {
+        "type": "qcm",
+        "question": "L'opération Sentinelle en France concerne :",
+        "choices": [
+          "La lutte contre les incendies",
+          "La sécurité antiterroriste sur le territoire",
+          "La surveillance maritime",
+          "La sécurité routière"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La cybersécurité fait désormais partie des enjeux de défense."
+      },
+      {
+        "type": "open",
+        "question": "L'alliance militaire principale de la France en Europe et en Amérique du Nord est l'_____."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle force intervient en priorité en cas de catastrophe naturelle en France ?",
+        "choices": [
+          "Les douanes",
+          "La sécurité civile",
+          "Le Sénat",
+          "Le Conseil constitutionnel"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La défense nationale mobilise uniquement les militaires."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

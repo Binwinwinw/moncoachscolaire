@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 558",
+    "level": "3ème",
+    "subject": "Histoire-Géographie"
+  },
+  "quiz": {
+    "title": "La Révolution russe et l'URSS stalinienne",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "1917",
+        "correct": 2,
+        "correction": "La révolution d'octobre 1917 (calendrier julien) porte Lénine et les bolchéviques au pouvoir en Russie."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Lénine dirige de 1917 à 1924 ; après une lutte de pouvoir, Staline s'impose comme dirigeant absolu à la fin des années 1920."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "1922",
+        "correction": "L'URSS est fondée le 30 décembre 1922 en regroupant la Russie soviétique et plusieurs républiques."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Le regroupement de force des paysans dans des fermes collectives (kolkhozes)",
+        "correct": 1,
+        "correction": "La collectivisation forcée détruit l'agriculture privée et provoque des famines (notamment en Ukraine en 1932-1933, l'Holodomor)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Staline fait exécuter ou déporter des millions de personnes accusées d'être des ennemis du peuple lors des Grandes Purges (1936-1938)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "Goulag",
+        "correction": "Le Goulag est le système concentrationnaire soviétique ; des millions de personnes y sont déportées dans des conditions inhumaines."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Totalitarisme",
+        "correct": 2,
+        "correction": "L'URSS stalinienne est un régime totalitaire : parti unique, culte du chef, propagande omniprésente, terreur et police secrète (NKVD)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les plans quinquennaux (1928-1932, 1933-1937...) fixent des objectifs de production industrielle ; l'URSS devient une grande puissance industrielle, mais au prix de sacrifices humains énormes."
+      }
+    ]
+  }
+}

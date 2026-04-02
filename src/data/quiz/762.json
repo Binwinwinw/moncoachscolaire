@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 3eme - Série 762",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 3eme : Egalite, discrimination et lutte contre les prejuges",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Egalite, discrimination et lutte contre les prejuges",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "EMC",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la definition juridique de la discrimination ?",
+        "choices": [
+          "Toute difference de traitement entre des personnes",
+          "Un traitement defavorable fonde sur un critere interdit par la loi",
+          "Une opinion negative sur un groupe",
+          "Une difference de salaire entre hommes et femmes"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "En France, la discrimination a l'embauche est un delit puni par la loi."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on un jugement stereotypique negatif porte sur un individu en raison de son appartenance a un groupe ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle loi a reconnu en France l'egalite de remuneration entre hommes et femmes pour un travail de valeur egale ?",
+        "choices": [
+          "Loi Aubry de 2000",
+          "Loi Roudy de 1983",
+          "Loi de 1944",
+          "Loi de 2017"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le harcelement scolaire (bullying) est reconnu et reprime par la loi en France."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la discrimination positive visant a corriger des inegalites historiques en favorisant des groupes sous-representes ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel principe republicain pose que tous les citoyens sont traites de la meme maniere par la loi, independamment de leur origine ou religion ?",
+        "choices": [
+          "Principe de fraternite",
+          "Principe d'egalite",
+          "Principe de laicite",
+          "Principe de solidarite"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le racisme et l'antisemitisme sont des infractions penales en France."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

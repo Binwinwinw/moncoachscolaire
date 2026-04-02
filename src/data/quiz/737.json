@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 737",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie 3ème : Électricité : semi-conducteurs et diodes",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Électricité : semi-conducteurs et diodes",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'un semi-conducteur ?",
+        "choices": [
+          "Un matériau qui conduit toujours le courant",
+          "Un matériau dont la conductivité est intermédiaire entre un conducteur et un isolant",
+          "Un matériau qui ne conduit jamais le courant",
+          "Un matériau supraconducteur"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une diode laisse passer le courant dans les deux sens."
+      },
+      {
+        "type": "open",
+        "question": "Quel est le principal élément chimique utilisé pour fabriquer la plupart des semi-conducteurs ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la principale application d'une diode électroluminescente (LED) ?",
+        "choices": [
+          "Amplifier un signal",
+          "Convertir l'énergie lumineuse en énergie électrique",
+          "Émettre de la lumière lorsqu'elle est traversée par un courant",
+          "Stocker de l'énergie électrique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le dopage d'un semi-conducteur consiste à lui ajouter des impuretés pour modifier sa conductivité."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on le montage qui utilise des diodes pour convertir un courant alternatif en courant continu ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la tension de seuil approximative d'une diode en silicium en sens passant ?",
+        "choices": [
+          "0 V",
+          "0,1 V",
+          "0,6-0,7 V",
+          "5 V"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une cellule photovoltaïque est une diode qui convertit la lumière en énergie électrique."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

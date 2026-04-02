@@ -1,0 +1,12 @@
+{
+    "id": 1,
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "competence": "Addition",
+    "domain": "Calcul",
+    "section": "Additionner des nombres entiers",
+    "key_point": "<ul><li>Aligner les chiffres par la droite (unités sous unités)</li><li>Commencer le calcul par la colonne de droite (unités)</li><li>Ne pas oublier de noter les retenues</li></ul>",
+    "explanation": "<h2>Comment faire une addition posée ?</h2><p>L'<strong>addition</strong> est une opération qui permet de calculer la somme de plusieurs nombres. Pour réussir ton calcul, la présentation est très importante : tu dois bien aligner les chiffres les uns sous les autres.</p><p>On commence toujours par additionner la colonne des unités (à droite). Si le résultat dépasse 9, tu écris le chiffre des unités et tu places le chiffre des dizaines en <strong>retenue</strong> en haut de la colonne suivante. Ensuite, tu continues avec les dizaines, puis les centaines, sans oublier d'ajouter les retenues si tu en as noté.</p>",
+    "example": "<div class='example'><h3>Exemple : 158 + 64</h3><pre>   1 1    (retenues)\n   1 5 8\n+    6 4\n--------\n   2 2 2</pre><p><strong>Étape 1 :</strong> 8 + 4 = 12. J'écris 2 et je retiens 1.</p><p><strong>Étape 2 :</strong> 5 + 6 + 1 (retenue) = 12. J'écris 2 et je retiens 1.</p><p><strong>Étape 3 :</strong> 1 + 1 (retenue) = 2.</p></div>",
+    "formula": "a + b = Somme"
+  }

@@ -1,0 +1,67 @@
+{
+  "id": 1072,
+  "title": "Fonctions dérivées — règles de base",
+  "subject": "Mathématiques",
+  "level": "1ère",
+  "created_at": "2026-03-13T18:54:00.429180Z",
+  "questions": [
+    {
+      "id": "1072_1",
+      "type": "qcm",
+      "question": "Quelle est la dérivée de f(x) = x³ ?",
+      "options": [
+        "x²",
+        "3x²",
+        "3x³",
+        "x⁴/4"
+      ]
+    },
+    {
+      "id": "1072_2",
+      "type": "vrai-faux",
+      "question": "La dérivée d'une constante est 0."
+    },
+    {
+      "id": "1072_3",
+      "type": "texte",
+      "question": "Donne les dérivées de f(x) = 5x³ − 3x² + 2x − 7."
+    },
+    {
+      "id": "1072_4",
+      "type": "qcm",
+      "question": "Quelle est la dérivée de f(x) = √x (pour x > 0) ?",
+      "options": [
+        "1/(2√x)",
+        "2√x",
+        "1/√x",
+        "√x/2"
+      ]
+    },
+    {
+      "id": "1072_5",
+      "type": "vrai-faux",
+      "question": "La dérivée du produit (f·g)' = f'·g + f·g'."
+    },
+    {
+      "id": "1072_6",
+      "type": "texte",
+      "question": "Calcule la dérivée de f(x) = (x² + 1)(x − 3)."
+    },
+    {
+      "id": "1072_7",
+      "type": "qcm",
+      "question": "Quelle est la dérivée de f(x) = 1/x² (pour x ≠ 0) ?",
+      "options": [
+        "−2/x³",
+        "2/x³",
+        "−1/(2x)",
+        "1/(2x³)"
+      ]
+    },
+    {
+      "id": "1072_8",
+      "type": "vrai-faux",
+      "question": "La dérivée du quotient (f/g)' = (f'g − fg')/g²."
+    }
+  ]
+}

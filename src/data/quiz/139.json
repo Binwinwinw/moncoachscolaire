@@ -1,0 +1,82 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 15",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic expression avancée : mythes, pouvoir, progrès (B1+).",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-09 21:34:00"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 15",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel mythe/héros moderne as-tu étudié en 'Myths and heroes'?",
+        "choices": ["Superheroes like Superman", "Daily chores", "Recipe ingredients", "Bus schedules"],
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'Places and forms of power' traite des inégalités sociales.",
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "Donne un exemple de 'hero' dans la société actuelle (2 phrases).",
+        "placeholder": "Ex: Activists fighting climate change...",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Dans 'Idea of progress', on explore:",
+        "choices": ["Tech advances (pros/cons)", "Bedtime stories", "Weather patterns", "Grocery lists"],
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le pouvoir médiatique est un thème clé en Première.",
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "Explique un 'form of power' comme la loi (exemple concret).",
+        "placeholder": "Ex: Laws protect rights but can limit freedom...",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "Mythes représentent souvent:",
+        "choices": ["Ideals vs reality", "Traffic rules", "Menu options", "Phone numbers"],
+        "id": 7
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le progrès scientifique pose des questions éthiques en 1ère.",
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Myths and heroes",
+      "description": "Héros/mythes modernes vs réalité (superhéros, activists)."
+    },
+    {
+      "notion": "Places and forms of power",
+      "description": "Pouvoir/inégalités (médias, lois, strikes)."
+    },
+    {
+      "notion": "Idea of progress",
+      "description": "Progrès tech/scientifique : avantages, risques éthiques."
+    }
+  ],
+  "exerciseresponses": []
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 732",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie 3ème : Lumière : interférences et diffraction",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Lumière : interférences et diffraction",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que les interférences lumineuses ?",
+        "choices": [
+          "La réflexion de la lumière sur une surface",
+          "Le changement de direction de la lumière lorsqu'elle passe d'un milieu à un autre",
+          "Le phénomène de superposition de deux ondes lumineuses qui peut être constructive ou destructive",
+          "L'absorption de la lumière par un matériau"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La diffraction est le phénomène par lequel une onde lumineuse se propage en contournant un obstacle ou en passant à travers une ouverture."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on l'expérience classique qui démontre les interférences lumineuses à partir d'une source unique ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le critère pour observer des interférences lumineuses visibles ?",
+        "choices": [
+          "Les ondes doivent être de différentes fréquences",
+          "Les ondes doivent être cohérentes (même fréquence et phase constante)",
+          "Les ondes doivent être polarisées",
+          "Les ondes doivent être de différentes amplitudes"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La diffraction est plus prononcée lorsque la taille de l'obstacle ou de l'ouverture est comparable à la longueur d'onde de la lumière."
+      },
+      {
+        "type": "open",
+        "question": "Quelle est la formule pour calculer les positions des franges d'interférences dans l'expérience des fentes de Young ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel phénomène optique est utilisé dans les hologrammes pour créer une image tridimensionnelle ?",
+        "choices": [
+          "Interférences",
+          "Diffraction",
+          "Réflexion",
+          "Absorption"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La diffraction limite la résolution des instruments optiques tels que les télescopes et les microscopes."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

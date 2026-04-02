@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 677",
+    "level": "3ème",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "Géologie : volcans et risque volcanique",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Magma (dans la chambre magmatique)",
+        "correct": 1,
+        "correction": "Le magma est le roche fondue en profondeur ; il devient lave lorsqu'il atteint la surface."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les volcans de point chaud (Hawaï, La Réunion) se forment au-dessus d'un panache mantellique fixe, indépendamment des frontières de plaques."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "pyroclastes",
+        "correction": "Les pyroclastes (bombes, lapilli, cendres) sont des fragments solides projetés lors d'éruptions explosives."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "H2O (vapeur d'eau)",
+        "correct": 2,
+        "correction": "La vapeur d'eau représente 60 à 90% des gaz volcaniques émis lors d'une éruption."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les éruptions effusives (comme à Hawaï) produisent des laves fluides qui s'écoulent lentement, permettant l'évacuation."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "nuée ardente",
+        "correction": "La nuée ardente (ou coulée pyroclastique) est l'un des phénomènes volcaniques les plus dangereux, atteignant 700°C et plus de 500 km/h."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Éruption de la Montagne Pelée",
+        "correct": 1,
+        "correction": "La Montagne Pelée (Martinique) a produit une nuée ardente dévastatrice en mai 1902, tuant environ 30 000 personnes."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les observatoires volcanologiques surveillent les séismes volcano-tectoniques, la déformation du sol et les émissions de gaz pour prévoir les éruptions."
+      }
+    ]
+  }
+}

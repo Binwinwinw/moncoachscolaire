@@ -1,0 +1,72 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 3eme Histoire-Géographie",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic France 1789-1945, mondialisation, développement durable 3eme"
+  },
+  "quiz": {
+    "title": "Diagnostic Histoire-Géo 3eme",
+    "level": "3eme",
+    "subject": "Histoire-Géographie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "1789",
+        "correction": "Révolution française"
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "texte",
+        "answer": "1962",
+        "correction": "Indépendance Algérie"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": true,
+        "correction": "VRAI. 1940-1944 Pétain"
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "1945",
+        "correction": "San Francisco 1945"
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "texte",
+        "answer": "1947",
+        "correction": "Gandhi indépendance"
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": false,
+        "correction": "FAUX. Traité Rome 1957 → Maastricht UE"
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Économique",
+        "correction": "Rapport Brundtland 1987"
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "answer": "1989",
+        "correction": "Fin Guerre froide"
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 612",
+    "level": "1ère",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "Génétique mendélienne : dihybridisme et liaison génétique",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Les gènes sont situés sur des chromosomes non homologues (ségrégation indépendante)",
+        "correct": 1,
+        "correction": "2e loi de Mendel : gènes sur chromosomes différents -> assortiment indépendant lors de la méiose I -> combinaisons alléliques aléatoires."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "9 A_B_ : 3 A_bb : 3 aaB_ : 1 aabb (en notation phénotypique) = ratio 9:3:3:1 classique du dihybridisme indépendant."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "liés",
+        "correction": "Les gènes liés (sur le même chromosome) sont transmis ensemble sauf si un crossing-over les sépare."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Crossing-over entre gènes liés lors de la prophase I",
+        "correct": 1,
+        "correction": "Le crossing-over crée de nouvelles combinaisons alléliques pour les gènes liés ; la fréquence des recombinaisons permet d'estimer la distance génétique."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Plus les gènes sont éloignés, plus la probabilité d'un crossing-over entre eux est élevée (loi de Morgan)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "recombinaison",
+        "correction": "1 centimorgan (cM) = 1% de fréquence de recombinaison ; c'est l'unité de distance génétique."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Un gène masque l'expression d'un autre gène",
+        "correct": 1,
+        "correction": "L'épistasie (interaction entre gènes) modifie les ratios mendéliens attendus ; ex. : gène inhibiteur qui masque le produit d'un autre gène."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le séquençage et les marqueurs moléculaires permettent une cartographie beaucoup plus précise et rapide que les croisements classiques."
+      }
+    ]
+  }
+}

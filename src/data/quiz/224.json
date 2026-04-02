@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Philosophie 1ere - Série 224",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Philosophie",
+    "description": "Diagnostic Philosophie 1ere : Quiz Diagnostic 1ere Philosophie - Serie 1",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Philosophie - Serie 1",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Philosophie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Pour Descartes, quelle est la première certitude absolue à laquelle parvient le philosophe après le doute méthodique ?",
+        "choices": [
+          "L'existence de Dieu",
+          "'Je pense, donc je suis' (cogito ergo sum)",
+          "L'existence du monde extérieur",
+          "La certitude des mathématiques"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La conscience de soi est une capacité présente chez tous les êtres vivants, y compris les animaux."
+      },
+      {
+        "type": "open",
+        "question": "Expliquez la distinction entre conscience immédiate (ou spontanée) et conscience réflexive."
+      },
+      {
+        "type": "qcm",
+        "question": "Selon Sartre, la conscience humaine est fondamentalement :",
+        "choices": [
+          "Déterminée par l'inconscient",
+          "Liberté absolue, sans nature fixée à l'avance ('l'existence précède l'essence')",
+          "Identique à la conscience animale",
+          "Déterminée par les conditions matérielles"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le sujet philosophique désigne simplement la personne grammaticale qui parle ou agit."
+      },
+      {
+        "type": "open",
+        "question": "En quoi consiste le problème de l'identité personnelle ? Illustrez avec un auteur."
+      },
+      {
+        "type": "qcm",
+        "question": "La maxime 'Connais-toi toi-même' (Gnôthi seauton) est associée à :",
+        "choices": [
+          "Aristote",
+          "Platon / Socrate",
+          "Épicure",
+          "Nietzsche"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Pour Freud, la conscience est la seule instance psychique qui détermine nos comportements."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

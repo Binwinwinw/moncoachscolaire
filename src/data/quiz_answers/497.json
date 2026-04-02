@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 497",
+    "level": "1ère",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Registres et niveaux de langue",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Soutenu",
+        "correct": 2,
+        "correction": "L'EAF exige un niveau de langue soutenu : vocabulaire précis, syntaxe correcte, absence d'argot."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le registre comique recouvre différentes tonalités : humour, ironie, burlesque, farce, satire…"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "pathétique",
+        "correction": "Le pathétique (pathos) provoque compassion et pitié chez le lecteur."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Un ton agressif et combatif visant à attaquer une idée ou une personne",
+        "correct": 1,
+        "correction": "Le registre polémique (ex. pamphlets, éditoriaux engagés) cherche à déstabiliser l'adversaire."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "La correspondance professionnelle exige un niveau soutenu ou courant, jamais familier."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "registre",
+        "correction": "Todorov définit le fantastique comme 'l'hésitation éprouvée par un être qui ne connaît que les lois naturelles, face à un événement en apparence surnaturel'."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Épique",
+        "correct": 1,
+        "correction": "Le registre épique valorise la grandeur, les héros, les batailles et l'ampleur des enjeux collectifs."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le tragique naît du conflit entre la volonté du héros et une force supérieure (destin, passion, loi divine) qui le condamne."
+      }
+    ]
+  }
+}

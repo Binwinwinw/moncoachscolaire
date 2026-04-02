@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 585",
+    "level": "3ème",
+    "subject": "Histoire-Géographie"
+  },
+  "quiz": {
+    "title": "La République française : institutions et principes",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Le Président de la République",
+        "correct": 1,
+        "correction": "Après adoption par le Parlement et contrôle éventuel, le Président promulgue la loi."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Il comprend l'Assemblée nationale et le Sénat."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "Montesquieu",
+        "correction": "Montesquieu formalise la séparation exécutif/législatif/judiciaire."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "La Constitution de 1958",
+        "correct": 2,
+        "correction": "La Constitution du 4 octobre 1958 fonde la Ve République."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Il vérifie la conformité des lois à la Constitution."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "Premier ministre",
+        "correction": "Le Premier ministre dirige l'action du gouvernement."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "L'Assemblée nationale",
+        "correct": 1,
+        "correction": "La motion de censure relève de l'Assemblée nationale."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les citoyens votent directement sur une question posée."
+      }
+    ]
+  }
+}

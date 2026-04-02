@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 794",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 3eme : Les sources d'energie et leur transformation",
+    "status": "published",
+    "created_at": "2026-03-14 04:06:19",
+    "updated_at": "2026-03-14 04:06:19"
+  },
+  "quiz": {
+    "title": "Les sources d'energie et leur transformation",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la distinction entre energie primaire et energie finale ?",
+        "choices": [
+          "L'energie primaire est produite par l'industrie ; l'energie finale est naturelle",
+          "L'energie primaire est extraite de la nature ; l'energie finale est l'energie utilisable par le consommateur apres transformation",
+          "L'energie finale est plus chère que l'energie primaire",
+          "Il n'y a aucune difference"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "En France, l'energie nucleaire represente la majorite de la production d'electricite."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on le processus physique utilise dans les centrales nucleaires pour produire de l'energie a partir de la division de l'atome ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle source d'energie renouvelable utilise les differences de marees pour produire de l'electricite ?",
+        "choices": [
+          "Energie eolienne",
+          "Energie maremotrice",
+          "Energie geothermique",
+          "Energie solaire photovoltaique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'energie hydroelectrique est produite par la force de l'eau en mouvement actionnant des turbines."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on l'energie produite par la chaleur interne de la Terre, exploitee pour le chauffage et l'electricite ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le principal inconvenient des energies solaire et eolienne compare aux energies fossiles ?",
+        "choices": [
+          "Leur cout de fonctionnement tres eleve",
+          "Leur intermittence (production variable selon la meteorologie)",
+          "Leur dangerosité pour l'environnement",
+          "L'impossibilite de les exporter"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La biomasse (bois, biogaz, dechets) est consideree comme une energie renouvelable."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

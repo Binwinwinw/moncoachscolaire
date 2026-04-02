@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 491",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "description": "Diagnostic Français 1ère : Lecture analytique : méthode et pratique",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Lecture analytique : méthode et pratique",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la première étape dans la lecture analytique d'un texte ?",
+        "choices": [
+          "Chercher les figures de style",
+          "Identifier le paratexte et situer l'extrait dans l'œuvre",
+          "Rédiger l'introduction",
+          "Compter les syllabes"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un axe de lecture est une piste d'analyse qui oriente l'étude d'une partie du texte."
+      },
+      {
+        "type": "open",
+        "question": "Dans l'explication de texte, on procède à un _____ stylistique : repérer les procédés linguistiques et littéraires."
+      },
+      {
+        "type": "qcm",
+        "question": "Comment appelle-t-on le mouvement interne d'un texte ?",
+        "choices": [
+          "La thèse",
+          "La progression",
+          "Le registre",
+          "Le genre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il est conseillé de citer le texte en insérant de courtes citations entre guillemets dans l'analyse."
+      },
+      {
+        "type": "open",
+        "question": "Le registre d'un texte désigne l'ensemble des procédés qui créent une _____ particulière chez le lecteur."
+      },
+      {
+        "type": "qcm",
+        "question": "Dans l'analyse d'un texte théâtral, qu'est-ce qu'une scène d'exposition ?",
+        "choices": [
+          "La scène de la mort du héros",
+          "La scène d'ouverture qui présente la situation initiale",
+          "La scène de climax",
+          "La scène finale"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La conclusion d'une lecture analytique peut proposer une mise en perspective de l'extrait."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

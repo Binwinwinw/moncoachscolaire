@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic HGGSP 1ère - Série 918",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "HGGSP",
+    "description": "Diagnostic HGGSP 1ère : Les usages civils et économiques de l'espace",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Les usages civils et économiques de l'espace",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "HGGSP",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Lequel de ces services du quotidien repose directement sur des satellites ?",
+        "choices": [
+          "La climatisation",
+          "La navigation GPS",
+          "Les réseaux électriques",
+          "Les transports en commun"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'observation de la Terre par satellite permet de surveiller les changements climatiques."
+      },
+      {
+        "type": "open",
+        "question": "Comment les satellites météorologiques contribuent-ils à la prévision des catastrophes naturelles ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Ariane 5 et Ariane 6 sont des lanceurs développés par :",
+        "choices": [
+          "La NASA",
+          "ArianeSpace / ESA (initiative européenne)",
+          "La Russie",
+          "SpaceX"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le tourisme spatial est aujourd'hui accessible uniquement aux astronautes professionnels."
+      },
+      {
+        "type": "open",
+        "question": "Quels sont les enjeux de l'exploitation des ressources minières dans l'espace (astéroïdes, Lune) ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Copernicus est un programme d'observation de la Terre géré par :",
+        "choices": [
+          "La NASA",
+          "L'ESA et l'Union européenne",
+          "L'ONU",
+          "La Chine"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'économie spatiale mondiale représente aujourd'hui plus de 400 milliards de dollars par an."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

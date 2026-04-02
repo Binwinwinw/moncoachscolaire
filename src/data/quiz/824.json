@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES 1ère - Série 824",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SES",
+    "description": "Diagnostic SES 1ère : Concurrence et monopole",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Concurrence et monopole",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SES",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "En situation de monopole, le producteur est :",
+        "choices": [
+          "Preneur de prix",
+          "Faiseur de prix",
+          "En concurrence avec de nombreux rivaux",
+          "Contrôlé par l'État"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "En concurrence pure et parfaite, les profits économiques sont nuls à long terme."
+      },
+      {
+        "type": "open",
+        "question": "Quelles sont les cinq conditions de la concurrence pure et parfaite ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Un oligopole est une structure de marché caractérisée par :",
+        "choices": [
+          "Un seul vendeur",
+          "Quelques grands vendeurs face à de nombreux acheteurs",
+          "Nombreux vendeurs et acheteurs",
+          "Un seul acheteur"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La différenciation des produits permet à une entreprise d'acquérir un pouvoir de marché."
+      },
+      {
+        "type": "open",
+        "question": "Expliquez en quoi une entente entre entreprises est néfaste pour les consommateurs."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel organisme régule la concurrence en France ?",
+        "choices": [
+          "La Banque de France",
+          "L'Autorité de la concurrence",
+          "Le ministère de l'Économie",
+          "La BCE"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La concurrence monopolistique combine des éléments de concurrence et de monopole."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

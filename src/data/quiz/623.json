@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 623",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 1ère : L'immunité adaptative : lymphocytes et anticorps",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "L'immunité adaptative : lymphocytes et anticorps",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "L'immunité adaptative se distingue de l'innée par :",
+        "choices": [
+          "Sa rapidité d'action",
+          "Sa spécificité envers un antigène précis et sa capacité de mémorisation",
+          "Le type de cellules impliquées uniquement",
+          "Sa localisation dans le foie"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les lymphocytes B produisent des anticorps (immunoglobulines) spécifiques d'un antigène."
+      },
+      {
+        "type": "open",
+        "question": "Un anticorps est une protéine en forme de Y composée de deux chaînes lourdes et deux chaînes _____, avec des régions variables qui reconnaissent l'antigène."
+      },
+      {
+        "type": "qcm",
+        "question": "Les lymphocytes T cytotoxiques (LTc) détruisent :",
+        "choices": [
+          "Les bactéries extracellulaires",
+          "Les cellules présentant des antigènes intracellulaires (cellules infectées, cellules tumorales)",
+          "Les parasites",
+          "Les champignons"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les lymphocytes T auxiliaires (LTh) activent à la fois les lymphocytes B et les lymphocytes T cytotoxiques."
+      },
+      {
+        "type": "open",
+        "question": "Le CMH (complexe majeur d'histocompatibilité) est l'ensemble de molécules qui présentent les _____ aux lymphocytes T."
+      },
+      {
+        "type": "qcm",
+        "question": "La sélection clonale est le processus par lequel :",
+        "choices": [
+          "Tous les lymphocytes sont activés simultanément",
+          "Seuls les lymphocytes dont le récepteur reconnait l'antigène prolifèrent",
+          "Les lymphocytes meurent après une infection",
+          "Les anticorps sont produits avant l'infection"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les maladies auto-immunes résultent d'une attaque du système immunitaire contre les cellules de l'organisme lui-même."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 1ere - Série 279",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie 1ere : Quiz Diagnostic 1ere Physique-Chimie - Serie 7",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Physique-Chimie - Serie 7",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la vitesse de la lumière dans le vide ?",
+        "choices": [
+          "3 × 10⁶ m/s",
+          "3 × 10⁸ m/s",
+          "3 × 10¹⁰ m/s",
+          "1,5 × 10⁸ m/s"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Lors de la réfraction à l'interface de deux milieux, un rayon lumineux change de direction selon la loi de Snell-Descartes : n₁sin(θ₁) = n₂sin(θ₂)."
+      },
+      {
+        "type": "open",
+        "question": "Quelle est la distance focale d'une lentille convergente et qu'appelle-t-on vergence ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Dans quel phénomène la lumière blanche est-elle décomposée en ses différentes couleurs (spectre) ?",
+        "choices": [
+          "La réflexion",
+          "La diffraction",
+          "La dispersion (réfraction dans un prisme)",
+          "La polarisation"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'oeil myope a un foyer image situé en avant de la rétine, et se corrige avec des lentilles divergentes."
+      },
+      {
+        "type": "open",
+        "question": "Comment fonctionne un microscope optique ? Quels types de lentilles utilise-t-il ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que l'indice de réfraction d'un milieu optique ?",
+        "choices": [
+          "Le rapport de la vitesse de la lumière dans le milieu sur la vitesse dans le vide",
+          "L'inverse du rapport : n = c/v",
+          "La couleur du milieu",
+          "L'absorption de la lumière par le milieu"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La fibre optique utilise le phénomène de réflexion totale interne pour transmettre la lumière sans perte sur de grandes distances."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

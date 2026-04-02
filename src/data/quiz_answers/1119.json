@@ -1,0 +1,48 @@
+{
+  "quiz_id": 1119,
+  "title": "Financement de l'économie",
+  "subject": "SES",
+  "level": "Terminale",
+  "answers": [
+    {
+      "question_id": "1119_1",
+      "correct_option": "B",
+      "explanation": "Financement indirect : les banques servent d'intermédiaires entre épargnants et emprunteurs. Financement direct : passage par les marchés (actions, obligations)."
+    },
+    {
+      "question_id": "1119_2",
+      "correct": true,
+      "explanation": "L'autofinancement (ou capacité d'autofinancement) évite le recours à l'emprunt ou à l'émission d'actions, mais limite la croissance aux capacités internes."
+    },
+    {
+      "question_id": "1119_3",
+      "correct_answer": "Action : titre de propriété donnant droit aux dividendes et au vote en AG (financement en capital, sans remboursement). Obligation : titre de dette avec intérêts et remboursement à échéance (financement par emprunt). L'action est plus risquée mais potentiellement plus rémunératrice.",
+      "explanation": "Actions (fonds propres) et obligations (dette) constituent les deux grandes sources de financement externe sur les marchés financiers."
+    },
+    {
+      "question_id": "1119_4",
+      "correct_option": "B",
+      "explanation": "« Les crédits font les dépôts » : quand une banque accorde un prêt, elle crée de la monnaie ex nihilo (inscription au crédit du compte de l'emprunteur)."
+    },
+    {
+      "question_id": "1119_5",
+      "correct": true,
+      "explanation": "Les taux directeurs de la BCE (taux de refinancement) fixent le coût auquel les banques se financent auprès de la banque centrale, influençant les taux pratiqués aux entreprises et ménages."
+    },
+    {
+      "question_id": "1119_6",
+      "correct_answer": "L'effet de levier consiste à financer un investissement par dette pour amplifier la rentabilité des fonds propres. Il amplifie les gains si le taux de rendement > taux d'intérêt, mais aussi les pertes. Dangereux en cas de retournement de marché (endettement excessif → faillite).",
+      "explanation": "Entreprises et banques utilisent l'effet de levier. Un levier trop élevé rend fragile : crise 2008 liée à un levier excessif des banques."
+    },
+    {
+      "question_id": "1119_7",
+      "correct_option": "A",
+      "explanation": "La titrisation (securitization) permet aux banques de regrouper des crédits (hypothécaires, auto…) et de les vendre sous forme de titres (MBS, CDO) à des investisseurs, transférant le risque."
+    },
+    {
+      "question_id": "1119_8",
+      "correct": true,
+      "explanation": "Tendance depuis les années 1980 : grandes entreprises et États se financent directement sur les marchés (obligations, billets de trésorerie) sans passer par les banques."
+    }
+  ]
+}

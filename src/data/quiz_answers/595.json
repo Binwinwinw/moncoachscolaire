@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 595",
+    "level": "3ème",
+    "subject": "Histoire-Géographie"
+  },
+  "quiz": {
+    "title": "Changement climatique : constats et réponses",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Le CO2",
+        "correct": 1,
+        "correction": "La combustion des énergies fossiles émet massivement du CO2."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Canicules, sécheresses et pluies intenses deviennent plus fréquentes."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "degrés",
+        "correction": "Objectif fixé dans le cadre de l'Accord de Paris."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Accord de Paris",
+        "correct": 1,
+        "correction": "Adopté en 2015, il engage les États à réduire leurs émissions."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Atténuer réduit les causes, adapter limite les effets."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "puits",
+        "correction": "Les puits de carbone absorbent une partie du CO2 atmosphérique."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Développer l'efficacité énergétique",
+        "correct": 1,
+        "correction": "Moins consommer à service rendu équivalent réduit les émissions."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les populations les plus vulnérables subissent souvent les impacts les plus forts."
+      }
+    ]
+  }
+}

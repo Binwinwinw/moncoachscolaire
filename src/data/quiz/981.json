@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 2nde - Serie 981",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 2nde : Fonction linéaire & affine",
+    "status": "published",
+    "created_at": "2026-03-13 11:15:43",
+    "updated_at": "2026-03-13 11:15:43"
+  },
+  "quiz": {
+    "title": "Fonction linéaire & affine",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la pente (coefficient directeur) de la droite y = 3x − 5 ?",
+        "choices": [
+          "−5",
+          "3",
+          "5",
+          "−3"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La fonction f(x) = 4x est une fonction linéaire."
+      },
+      {
+        "type": "open",
+        "question": "Détermine l'équation de la droite passant par A(1, 3) et B(3, 7)."
+      },
+      {
+        "type": "qcm",
+        "question": "L'ordonnée à l'origine de la droite y = −2x + 7 est :",
+        "choices": [
+          "−2",
+          "7",
+          "2",
+          "−7"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Deux droites y = 3x + 1 et y = 3x − 4 sont parallèles."
+      },
+      {
+        "type": "open",
+        "question": "Quelle est l'abscisse du point d'intersection des droites y = 2x + 1 et y = −x + 7 ?"
+      },
+      {
+        "type": "qcm",
+        "question": "La droite d'équation x = 3 est :",
+        "choices": [
+          "Horizontale",
+          "Oblique",
+          "Verticale",
+          "La courbe de f(x) = 3"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une fonction affine f(x) = ax + b est croissante si et seulement si a > 0."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

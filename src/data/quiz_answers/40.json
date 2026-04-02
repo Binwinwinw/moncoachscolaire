@@ -1,0 +1,72 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 3eme SVT",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "SVT",
+    "description": "Diagnostic évolution, géologie, reproduction végétaux 3eme brevet"
+  },
+  "quiz": {
+    "title": "Diagnostic SVT 3eme",
+    "level": "3eme",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Sélection",
+        "correction": "Darwin survie adaptés"
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "texte",
+        "answer": "strates",
+        "correction": "Sédimentation"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": true,
+        "correction": "VRAI. Preuves évolution"
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Ovaire",
+        "correction": "Fruit/graine"
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "texte",
+        "answer": "Cénozoïque",
+        "correction": "Mammifères dominants"
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": false,
+        "correction": "FAUX. Majorité neutres/néfastes"
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "1912",
+        "correction": "Théorie continents"
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "answer": "mêmes",
+        "correction": "Preuve évolution"
+      }
+    ]
+  }
+}

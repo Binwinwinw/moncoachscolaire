@@ -1,0 +1,72 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 5eme Histoire-Géographie",
+    "type": "quiz",
+    "level": "5eme",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic monde grec, empire romain, géographie France 5eme"
+  },
+  "quiz": {
+    "title": "Diagnostic Histoire-Géo 5eme",
+    "level": "5eme",
+    "subject": "Histoire-Géographie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Directe",
+        "correction": "Citoyens votent lois"
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "texte",
+        "answer": "2",
+        "correction": "Occident/Orient"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": false,
+        "correction": "FAUX. Guerriers"
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Lyon",
+        "correction": "Lugdunum"
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "texte",
+        "answer": "Perses",
+        "correction": "Victoire grecque"
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": false,
+        "correction": "FAUX. Celtes résistants"
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Sparte",
+        "correction": "Péloponnèse = Sparte"
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "answer": "place",
+        "correction": "Place publique assemblées"
+      }
+    ]
+  }
+}

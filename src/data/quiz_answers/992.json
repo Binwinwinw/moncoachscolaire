@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 2nde - Serie 992",
+    "level": "2nde",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Trigonométrie dans le triangle rectangle",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "B",
+        "correction": "cos(α) = côté adjacent / hypoténuse. Mnémotechnique : CAH dans SOH-CAH-TOA."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est l'identité fondamentale de la trigonométrie (conséquence du théorème de Pythagore)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "cos(α) = 4/5",
+        "correction": "sin²(α) + cos²(α) = 1 → (3/5)² + cos²(α) = 1 → cos²(α) = 1 − 9/25 = 16/25 → cos(α) = 4/5."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "A",
+        "correction": "sin(α) = opposé / hypoténuse = 5/13."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La tangente est le rapport sinus / cosinus, également égale à opposé / adjacent."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "Hypoténuse = 12",
+        "correction": "sin(30°) = 0,5 = 6/h → h = 6/0,5 = 12."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "B",
+        "correction": "cos(60°) = 1/2. (Valeur exacte à connaître pour 30°, 45°, 60°.)"
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Si α = 45°, tan(45°) = 1 = opposé/adjacent → les deux côtés sont égaux. Triangle isocèle rectangle."
+      }
+    ]
+  }
+}

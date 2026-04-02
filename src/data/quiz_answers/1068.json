@@ -1,0 +1,48 @@
+{
+  "quiz_id": 1068,
+  "title": "Sens de variation et monotonie des suites",
+  "subject": "Mathématiques",
+  "level": "1ère",
+  "answers": [
+    {
+      "question_id": "1068_1",
+      "correct_option": "B",
+      "explanation": "Pour les suites additivement : signe de uₙ₊₁ − uₙ. Pour les géométriques à termes positifs : signe de uₙ₊₁/uₙ − 1."
+    },
+    {
+      "question_id": "1068_2",
+      "correct": true,
+      "explanation": "uₙ₊₁ > uₙ pour tout n signifie que chaque terme est supérieur au précédent : suite strictement croissante."
+    },
+    {
+      "question_id": "1068_3",
+      "correct_answer": "uₙ₊₁ − uₙ = 2n − 2 > 0 pour n ≥ 2 → suite croissante pour n ≥ 2.",
+      "explanation": "uₙ₊₁ − uₙ = (n+1)²−3(n+1) − (n²−3n) = 2n+1−3 = 2n−2. Pour n≥2 : 2n−2≥2>0 → croissante."
+    },
+    {
+      "question_id": "1068_4",
+      "correct_option": "B",
+      "explanation": "uₙ₊₁ − uₙ = (n+2)/(n+1) − (n+1)/n = −1/(n(n+1)) < 0 → décroissante."
+    },
+    {
+      "question_id": "1068_5",
+      "correct": true,
+      "explanation": "Théorème fondamental : toute suite monotone et bornée converge."
+    },
+    {
+      "question_id": "1068_6",
+      "correct_answer": "uₙ₊₁ − uₙ = (3 − 1/(n+1)) − (3 − 1/n) = 1/n − 1/(n+1) = 1/(n(n+1)) > 0 → croissante.",
+      "explanation": "La différence est positive car 1/n > 1/(n+1) pour n ≥ 1."
+    },
+    {
+      "question_id": "1068_7",
+      "correct_option": "B",
+      "explanation": "u₁ > 0 et q = 0,5 < 1 → suite décroissante (les termes diminuent vers 0)."
+    },
+    {
+      "question_id": "1068_8",
+      "correct": true,
+      "explanation": "|uₙ| = 1/n ≤ 1 pour tout n ≥ 1 : la suite est bornée par −1 et 1."
+    }
+  ]
+}

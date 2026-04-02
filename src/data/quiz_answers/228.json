@@ -1,0 +1,76 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Philosophie 1ere - Série 228",
+    "level": "1ere",
+    "subject": "Philosophie"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Philosophie - Serie 5",
+    "question_count": 8,
+    "level": "1ere",
+    "subject": "Philosophie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Un raisonnement déductif composé de deux prémisses et d'une conclusion",
+        "correct": 1,
+        "correction": "Le syllogisme (Aristote, Premiers Analytiques) est une forme de raisonnement déductif valide composée de deux prémisses (une majeure et une mineure) et d'une conclusion. Exemple classique : 'Tout homme est mortel (majeure) ; Socrate est un homme (mineure) ; donc Socrate est mortel (conclusion).' La logique formelle aristotélicienne fonde la tradition de la démonstration rationnelle occidentale."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le rationalisme (Descartes, Spinoza, Leibniz) affirme que la raison – et non les sens ou l'expérience – est la source principale et la plus fiable de la connaissance. Les idées innées ou les vérités de raison (mathématiques, logique) sont indépendantes de l'expérience sensible. Il s'oppose à l'empirisme (Locke, Hume, Berkeley) qui fait de l'expérience le fondement de la connaissance."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "correct_answer": "La déduction part de principes généraux pour aboutir à une conclusion particulière nécessaire ; l'induction part de cas particuliers pour établir une loi générale probable.",
+        "answer": "La déduction part de principes généraux pour aboutir à une conclusion particulière nécessaire ; l'induction part de cas particuliers pour établir une loi générale probable.",
+        "correction": "La déduction (logique, mathématiques) part de prémisses générales pour tirer une conclusion particulière nécessairement vraie si les prémisses sont vraies. La conclusion est contenue dans les prémisses (ex : syllogisme). L'induction (sciences empiriques) part d'observations particulières répétées pour établir une loi générale probable mais jamais certaine (problème de l'induction de Hume : aucun nombre d'observations ne peut garantir la vérité d'une loi universelle)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Une suite de déductions à partir d'axiomes et de définitions, aboutissant à un théorème",
+        "correct": 1,
+        "correction": "Une démonstration mathématique est une suite de déductions logiques rigoureuses, partant d'axiomes (vérités premières acceptées sans preuve) et de définitions, pour établir la vérité nécessaire d'un théorème. Elle se distingue de la preuve empirique (qui dépend de l'expérience) par son caractère formel, universel et nécessaire. Les mathématiques sont pour les rationalistes le modèle de toute connaissance certaine."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Pour Hume (Enquête sur l'entendement humain), toutes nos idées proviennent d'impressions sensorielles : les idées sont des 'copies' plus faibles des impressions. Il n'existe pas d'idées innées. Même les idées complexes (comme la causalité) sont des habitudes mentales issues de l'expérience répétée, non des vérités rationnelles nécessaires. Cet empirisme radical remet en cause la métaphysique et la raison pure."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "correct_answer": "Kant synthétise rationalisme et empirisme en montrant que la connaissance résulte de l'application des formes a priori de la sensibilité et de l'entendement aux données de l'expérience.",
+        "answer": "Kant synthétise rationalisme et empirisme en montrant que la connaissance résulte de l'application des formes a priori de la sensibilité et de l'entendement aux données de l'expérience.",
+        "correction": "Kant (Critique de la raison pure, 1781) entreprend une 'révolution copernicienne' : ce n'est pas notre connaissance qui se règle sur les objets, mais les objets qui se règlent sur les structures de notre esprit. Il distingue les formes a priori (espace, temps, catégories comme la causalité) qui organisent l'expérience, et la matière a posteriori (données sensorielles). La connaissance naît de la synthèse de l'a priori et de l'expérience, dépassant l'opposition rationalisme/empirisme."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Une proposition ne peut pas être à la fois vraie et fausse dans le même sens et au même moment",
+        "correct": 0,
+        "correction": "Le principe de non-contradiction (Aristote, Métaphysique) est l'un des principes fondamentaux de la logique : 'Il est impossible qu'une même chose soit et ne soit pas en même temps, sous le même rapport.' Toute contradiction logique est source d'erreur. Ce principe est le fondement de toute démonstration et de toute pensée rationnelle cohérente."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "FAUX. La raison instrumentale (Horkheimer, Adorno – Dialectique de la Raison) est la raison réduite à l'efficacité technique : calculer les meilleurs moyens pour atteindre des fins données, sans questionner ces fins elles-mêmes. Elle s'oppose à la raison substantielle (qui juge des fins). La raison instrumentale, dominante dans la modernité, est critiquée car elle peut servir n'importe quelle fin, y compris les pires (ex : efficacité de l'industrie d'extermination nazie)."
+      }
+    ]
+  }
+}

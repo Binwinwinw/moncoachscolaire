@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 741",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie 3ème : Forces et mouvement : vitesse et accélération",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Forces et mouvement : vitesse et accélération",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Comment calcule-t-on la vitesse moyenne d'un objet ?",
+        "choices": [
+          "v = t / d",
+          "v = d × t",
+          "v = d / t",
+          "v = d + t"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un mouvement rectiligne uniforme se caractérise par une vitesse constante en direction et en valeur."
+      },
+      {
+        "type": "open",
+        "question": "Quelle est l'unité internationale de la vitesse ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que l'accélération d'un objet ?",
+        "choices": [
+          "La vitesse de l'objet à un instant donné",
+          "La variation de vitesse de l'objet par unité de temps",
+          "La distance parcourue par l'objet",
+          "La force exercée sur l'objet"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Dans un mouvement circulaire uniforme, la vitesse en valeur est constante mais la direction change."
+      },
+      {
+        "type": "open",
+        "question": "Quelle est la deuxième loi de Newton (principe fondamental de la dynamique) ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Un objet tombe en chute libre (sans frottement). Quelle est son accélération ?",
+        "choices": [
+          "0 m/s²",
+          "9,81 m/s²",
+          "10 m/s",
+          "3,14 m/s²"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un objet lancé horizontalement suit une trajectoire parabolique."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

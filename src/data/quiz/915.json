@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic HGGSP 1ère - Série 915",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "HGGSP",
+    "description": "Diagnostic HGGSP 1ère : Histoire de la conquête spatiale",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Histoire de la conquête spatiale",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "HGGSP",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle nation a lancé le premier satellite artificiel, Spoutnik 1, en 1957 ?",
+        "choices": [
+          "Les États-Unis",
+          "L'Union soviétique",
+          "La France",
+          "Le Royaume-Uni"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Neil Armstrong fut le premier humain à marcher sur la Lune en 1969."
+      },
+      {
+        "type": "open",
+        "question": "Pourquoi la conquête spatiale des années 1957-1969 est-elle indissociable du contexte de Guerre froide ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le premier homme à avoir voyagé dans l'espace (1961) ?",
+        "choices": [
+          "Buzz Aldrin",
+          "John Glenn",
+          "Youri Gagarine",
+          "Alan Shepard"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le traité de l'espace de 1967 interdit la mise en orbite d'armes nucléaires."
+      },
+      {
+        "type": "open",
+        "question": "Quelles sont les principales agences spatiales mondiales et leurs pays d'appartenance ?"
+      },
+      {
+        "type": "qcm",
+        "question": "La Station spatiale internationale (ISS) est le fruit d'une coopération entre :",
+        "choices": [
+          "Les États-Unis uniquement",
+          "Les États-Unis, la Russie, l'Europe, le Japon et le Canada",
+          "L'ONU et ses États membres",
+          "Les pays du G20"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La navette spatiale américaine fut mise en service en 1981 et retirée en 2011."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

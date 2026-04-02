@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 724",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie 3ème : Électricité : tension continue et alternative",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Électricité : tension continue et alternative",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la tension du secteur électrique domestique en France ?",
+        "choices": [
+          "12 V",
+          "110 V",
+          "230 V alternatif",
+          "400 V"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une batterie de voiture fournit une tension continue."
+      },
+      {
+        "type": "open",
+        "question": "Quel composant électronique convertit la tension alternative du secteur en tension continue pour alimenter les appareils électroniques ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que la fréquence d'une tension alternative ?",
+        "choices": [
+          "Sa valeur maximale",
+          "Son nombre d'oscillations par seconde (en Hz)",
+          "Sa valeur efficace",
+          "Son déphasage"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les LED fonctionnent en courant continu (DC)."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la valeur de tension continue qui produirait le même effet Joule qu'une tension alternative ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Pourquoi l'électricité est-elle transportée à haute tension dans les lignes à haute tension ?",
+        "choices": [
+          "Pour augmenter l'intensité",
+          "Pour réduire les pertes par effet Joule lors du transport",
+          "Pour faciliter la distribution dans les maisons",
+          "Pour augmenter la fréquence"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le transformateur permet de modifier la tension alternative sans changer la fréquence."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

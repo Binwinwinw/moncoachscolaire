@@ -1,0 +1,48 @@
+{
+  "quiz_id": 1086,
+  "title": "Géométrie vectorielle dans le plan",
+  "subject": "Mathématiques",
+  "level": "1ère",
+  "answers": [
+    {
+      "question_id": "1086_1",
+      "correct_option": "C",
+      "explanation": "D est tel que A est milieu de [CD] : A = (C+D)/2 → D = 2A − C = (2×1−4, 2×2−6) = (−2, 10)."
+    },
+    {
+      "question_id": "1086_2",
+      "correct": true,
+      "explanation": "M = ((3+7)/2, (5+9)/2) = (5, 7)."
+    },
+    {
+      "question_id": "1086_3",
+      "correct_answer": "AB⃗=(3,4), BE⃗=2AB⃗=(6,8). E=B+BE⃗=(4+6,5+8)=(10,13).",
+      "explanation": "AB⃗=(3,4), BE⃗=2AB⃗=(6,8). E=B+BE⃗=(10,13)."
+    },
+    {
+      "question_id": "1086_4",
+      "correct_option": "C",
+      "explanation": "AF⃗ + BF⃗ + CF⃗ = 0 → F est le centre de gravité de A, B, C : F = (A+B+C)/3 = (4/3, 2)."
+    },
+    {
+      "question_id": "1086_5",
+      "correct": true,
+      "explanation": "AB⃗=(3,4), AC⃗=(1,2). AG⃗=3AB⃗−2AC⃗=(7,8). G=A+AG⃗=(8,9)."
+    },
+    {
+      "question_id": "1086_6",
+      "correct_answer": "AB⃗=(3,4), AC⃗=(1,2). AH⃗=2AB⃗+3AC⃗=(9,14). H=A+AH⃗=(10,15).",
+      "explanation": "AB⃗=(3,4), AC⃗=(1,2). AH⃗=2AB⃗+3AC⃗=(9,14). H=A+AH⃗=(10,15)."
+    },
+    {
+      "question_id": "1086_7",
+      "correct_option": "D",
+      "explanation": "AB⃗=(3,4), AC⃗=(1,2). AI⃗=AB⃗+AC⃗=(4,6). I=A+AI⃗=(5,7)."
+    },
+    {
+      "question_id": "1086_8",
+      "correct": true,
+      "explanation": "AB⃗=(3,4), AC⃗=(1,2). AJ⃗=2AB⃗+AC⃗=(7,10). J=A+AJ⃗=(8,11)."
+    }
+  ]
+}

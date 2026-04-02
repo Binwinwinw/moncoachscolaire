@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 573",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 3ème : La mondialisation : acteurs, flux et inégalités",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "La mondialisation : acteurs, flux et inégalités",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "La mondialisation désigne :",
+        "choices": [
+          "L'isolement des économies nationales",
+          "L'interdépendance croissante des économies, sociétés et cultures à l'échelle mondiale",
+          "La domination d'un seul pays sur le monde",
+          "La création d'une monnaie mondiale"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les firmes multinationales (FMN) jouent un rôle moteur dans la mondialisation des échanges."
+      },
+      {
+        "type": "open",
+        "question": "Les zones franches et les espaces portuaires comme Shanghai ou Rotterdam sont des nœuds essentiels dans les réseaux commerciaux : on les appelle des _____ de la mondialisation."
+      },
+      {
+        "type": "qcm",
+        "question": "Les pays du Nord et les pays du Sud se distinguent principalement par :",
+        "choices": [
+          "Leur position géographique",
+          "Leur niveau de développement économique et social",
+          "Leur religion",
+          "Leur superficie"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La Chine est devenue la première puissance commerciale mondiale et un acteur majeur de la mondialisation."
+      },
+      {
+        "type": "open",
+        "question": "Le commerce mondial de marchandises s'effectue principalement par voie _____, qui transporte 90% des échanges mondiaux."
+      },
+      {
+        "type": "qcm",
+        "question": "L'Organisation Mondiale du Commerce (OMC) a pour rôle de :",
+        "choices": [
+          "Créer une monnaie mondiale",
+          "Réguler et libéraliser le commerce international",
+          "Distribuer l'aide humanitaire",
+          "Maintenir la paix mondiale"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La mondialisation accroît les inégalités entre territoires : certains sont intégrés et d'autres marginalisés."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

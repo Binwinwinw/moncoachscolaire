@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic NSI 1ère - Série 892",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "description": "Diagnostic NSI 1ère : Structures conditionnelles",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "Structures conditionnelles",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la syntaxe correcte d'une condition en Python ?",
+        "choices": [
+          "if (x > 0) then:",
+          "if x > 0:",
+          "IF x > 0 THEN",
+          "if x > 0 do:"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "En Python, elif est une contraction de 'else if'."
+      },
+      {
+        "type": "open",
+        "question": "Écrivez une fonction Python qui retourne 'positif', 'négatif' ou 'nul' selon le signe d'un nombre."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle valeur est évaluée comme False en Python ?",
+        "choices": [
+          "1",
+          "'False'",
+          "0",
+          "[1]"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'expression 'x if condition else y' est une expression conditionnelle (ternaire) valide en Python."
+      },
+      {
+        "type": "open",
+        "question": "Expliquez le court-circuit (short-circuit evaluation) des opérateurs and et or en Python."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le résultat de : print(3 > 2 > 1) en Python ?",
+        "choices": [
+          "False",
+          "True",
+          "Error",
+          "None"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "En Python, le mot-clé 'match' (Python 3.10+) permet de faire du filtrage par motif."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,225 @@
+/* Extracted from bac/index.php */
+/* Scoped: n'affecte que le conteneur principal BAC */
+.bac-accueil-main,
+main.bac-accueil-main {
+    /* Use dark text for readability on light translucent cards */
+    color: #1e293b;
+}
+
+/* Main transparent pour effet de flottement des cartes */
+.bac-accueil-main,
+main.bac-accueil-main {
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+/* Sections avec effet de flou pour flottement */
+.bac-accueil-main .intro {
+    margin: 3rem auto;
+    max-width: 1200px;
+    position: relative;
+    z-index: 1;
+    padding: 0 1rem;
+}
+
+/* Grid pour les cartes BAC - 4 colonnes pour les 4 premières cartes */
+.bac-accueil-main .niveau-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin: 2rem 0;
+    grid-auto-flow: row;
+}
+
+/* Carte Planning BAC spéciale - sur une ligne séparée, centrée */
+.bac-accueil-main .niveau-card.special {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    justify-self: center;
+    max-width: 500px;
+    margin-top: 1rem;
+}
+
+/* Responsive : 2 colonnes sur tablette */
+@media (max-width: 991px) {
+    .bac-accueil-main .niveau-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .bac-accueil-main .niveau-card.special {
+        grid-column: 1 / -1; /* Prend toute la largeur sur tablette */
+        grid-row: 3; /* Sur la 3ème ligne (après les 4 cartes en 2x2) */
+        max-width: 500px;
+        margin: 1rem auto 0;
+    }
+}
+
+/* Responsive : 1 colonne sur mobile */
+@media (max-width: 768px) {
+    .bac-accueil-main .niveau-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .bac-accueil-main .niveau-card.special {
+        grid-column: 1;
+    }
+}
+
+/* Cartes avec effet de flou et flottement amélioré */
+.bac-accueil-main .niveau-card {
+    background: rgba(255, 255, 255, 0.15) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    color: #1e293b;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    padding: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Ordre d'affichage des cartes : Guide Remédiation (1), Révisions Express (2), Sujets Types (3), Grand Oral (4), Planning (5) */
+.bac-accueil-main .niveau-cards > .niveau-card:nth-child(1) { order: 1; } /* Guide Remédiation */
+.bac-accueil-main .niveau-cards > .niveau-card:nth-child(2) { order: 2; } /* Révisions Express */
+.bac-accueil-main .niveau-cards > .niveau-card:nth-child(3) { order: 3; } /* Sujets Types */
+.bac-accueil-main .niveau-cards > .niveau-card:nth-child(4) { order: 4; } /* Grand Oral */
+.bac-accueil-main .niveau-cards > .niveau-card.special { order: 5; } /* Planning BAC */
+
+.bac-accueil-main .niveau-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.2) !important;
+    opacity: 0.85;
+}
+
+header.site-header { background: rgba(0,0,0,0.2); }
+footer { background: rgba(0,0,0,0.3); }
+
+.niveau-card.special {
+    background: linear-gradient(135deg, #f59e0b 0%, #fbbf24 100%) !important;
+    color: #1e293b;
+    border: 2px solid #f59e0b;
+    backdrop-filter: none;
+}
+.niveau-card.special h3, .niveau-card.special p, .niveau-card.special li { color: #1e293b; }
+.niveau-card.special li::before { color: #7c3aed; }
+
+.info-panel {
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-top: 1.5rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* === Accueil niveau : Objectif + Continue + Navigation === */
+.bac-accueil-main .level-home-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.bac-accueil-main .level-home-card {
+    background: rgba(255, 255, 255, 0.18);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    color: #1e293b;
+}
+
+.bac-accueil-main .level-home-card--goal {
+    border-left: 4px solid #f59e0b;
+}
+
+.bac-accueil-main .level-home-card--continue {
+    border-left: 4px solid #fbbf24;
+}
+
+.bac-accueil-main .level-home-sub {
+    color: #1e293b;
+    margin: 0.5rem 0;
+}
+
+.bac-accueil-main .level-home-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 0.75rem;
+}
+
+.bac-accueil-main .level-home-meta {
+    margin-top: 0.75rem;
+    font-weight: 600;
+    color: #fde68a;
+}
+
+.bac-accueil-main .level-home-list {
+    list-style: none;
+    padding: 0;
+    margin: 0.75rem 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.bac-accueil-main .level-home-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.75rem 1rem;
+    border-radius: 10px;
+}
+
+.bac-accueil-main .level-home-nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin: 1.5rem 0 2rem;
+}
+
+.bac-accueil-main .level-home-nav-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0.9rem 1rem;
+    border-radius: 10px;
+    background: rgba(245, 158, 11, 0.15);
+    border: 1px solid rgba(245, 158, 11, 0.35);
+    font-weight: 600;
+    color: #1e293b;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.bac-accueil-main .level-home-nav-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(245, 158, 11, 0.25);
+}
+
+@media (max-width: 1024px) {
+    .bac-accueil-main .level-home-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .bac-accueil-main .level-home-nav {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 640px) {
+    .bac-accueil-main .level-home-nav {
+        grid-template-columns: 1fr;
+    }
+
+    .bac-accueil-main .level-home-list li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

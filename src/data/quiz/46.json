@@ -1,0 +1,85 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 5eme Anglais",
+    "type": "quiz",
+    "level": "5eme",
+    "subject": "Anglais",
+    "description": "Diagnostic past simple, present continuous, comparative 5eme"
+  },
+  "quiz": {
+    "title": "Diagnostic Anglais 5eme",
+    "level": "5eme",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 75,
+    "questions": [
+      {
+        "id": 1,
+        "type": "texte",
+        "question": "Yesterday I ... (play) football."
+      },
+      {
+        "id": 2,
+        "type": "qcm",
+        "question": "What are you doing ? (now)",
+        "choices": [
+          "I play",
+          "I am playing",
+          "I played"
+        ]
+      },
+      {
+        "id": 3,
+        "type": "vrai-faux",
+        "question": "My house is bigger than yours."
+      },
+      {
+        "id": 4,
+        "type": "texte",
+        "question": "She ... (go) to school every day."
+      },
+      {
+        "id": 5,
+        "type": "qcm",
+        "question": "The film was ... (good) than the book.",
+        "choices": [
+          "gooder",
+          "better",
+          "best"
+        ]
+      },
+      {
+        "id": 6,
+        "type": "texte",
+        "question": "We ... (visit) London last summer."
+      },
+      {
+        "id": 7,
+        "type": "vrai-faux",
+        "question": "He go to the cinema."
+      },
+      {
+        "id": 8,
+        "type": "qcm",
+        "question": "This book is the ... (interesting).",
+        "choices": [
+          "more interesting",
+          "most interesting",
+          "interestinger"
+        ]
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Past simple"
+    },
+    {
+      "notion": "Present continuous"
+    },
+    {
+      "notion": "Comparatifs"
+    }
+  ],
+  "exerciseresponses": []
+}

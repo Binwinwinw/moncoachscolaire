@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 690",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 3ème : Révisions : génétique et hérédité",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "Révisions : génétique et hérédité",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel ensemble réunit la totalité des chromosomes d'un individu classés par paires ?",
+        "choices": [
+          "Un clone",
+          "Un caryotype",
+          "Un phénotype",
+          "Un allèle"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une mutation sur une cellule germinale peut être transmise à la descendance."
+      },
+      {
+        "type": "open",
+        "question": "Le croisement de deux individus hétérozygotes pour un caractère monogénique peut être représenté avec une grille de _____."
+      },
+      {
+        "type": "qcm",
+        "question": "Chez l'être humain, combien de chromosomes contient un gamète normal ?",
+        "choices": [
+          "23",
+          "46",
+          "69",
+          "92"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le phénotype dépend uniquement du génotype et jamais de l'environnement."
+      },
+      {
+        "type": "open",
+        "question": "Quand un allèle masque l'expression d'un autre allèle chez un hétérozygote, on dit qu'il est _____."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel processus cellulaire conserve le nombre de chromosomes d'une cellule somatique à l'autre ?",
+        "choices": [
+          "La méiose",
+          "La mitose",
+          "La fécondation",
+          "La mutation"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Deux vrais jumeaux proviennent du même zygote initial."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

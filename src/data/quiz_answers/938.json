@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic HGGSP 1ère - Série 938",
+    "level": "1ère",
+    "subject": "HGGSP"
+  },
+  "quiz": {
+    "title": "Mémoire et identité nationale",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "HGGSP",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Un vouloir vivre ensemble fondé sur une mémoire partagée et un consentement quotidien",
+        "correct": 1,
+        "correction": "Dans 'Qu'est-ce qu'une nation ?' (1882), Renan définit la nation par le plébiscite de chaque jour et la mémoire partagée (glorieuse et douloureuse), s'opposant aux conceptions racistes ou linguistiques de la nation."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La formule 'nos ancêtres les Gaulois' symbolise la construction d'un récit national homogène ignorant la diversité des origines. Elle fut enseignée jusqu'au milieu du XXe siècle, même dans les colonies."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "D'abord célébration de la victoire française en 1918, le 11 novembre est devenu progressivement une journée du souvenir pour tous les morts de guerre (1920 : soldat inconnu). Depuis 2012, il est officiellement la Journée d'hommage à tous les morts pour la France, incluant toutes les guerres. Cette évolution reflète le passage d'une mémoire victoriaire à une mémoire inclusive.",
+        "correction": "L'inscription du soldat inconnu sous l'Arc de Triomphe (1920) est emblématique de la construction mémorielle nationale."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Les restes de personnalités qui ont rendu de grands services à la France",
+        "correct": 1,
+        "correction": "Le Panthéon (Paris, construit sous Louis XV, panthéonisé en 1791) accueille 81 personnalités dont Voltaire, Rousseau, Marie Curie, Jean Moulin, Simone Veil. Chaque panthéonisation est un acte politique."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le récit national dominant peut marginaliser les mémoires des minorités (immigrés, descendants de colonisés, LGBTQ+). Des mouvements revendiquent l'inclusion de leurs histoires dans le récit national."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "Les manuels d'histoire ont longtemps présenté la colonisation comme une 'mission civilisatrice' positive. La loi de 2005 demandant de reconnaître 'les aspects positifs de la colonisation' fut abrogée après polémique. Aujourd'hui, les manuels intègrent mieux les violences coloniales mais restent critiqués pour insuffisance par les descendants de colonisés.",
+        "correction": "Ce débat reflète la tension entre construction d'une identité nationale positive et honnêteté historique sur les crimes commis au nom de la France."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Rituels mémoriels d'État remplissant une fonction identitaire et sociale",
+        "correct": 1,
+        "correction": "Ces cérémonies annuelles avec discours présidentiels, dépôt de gerbes, hymne national et minute de silence sont des rituels qui réactivent la mémoire collective et soudent la communauté nationale."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La fragmentation mémorielle (revendications concurrentes de groupes identitaires) peut complexifier la construction d'un récit national partagé. Certains parlent de 'guerre des mémoires'. Le défi est de concilier diversité mémorielle et cohésion sociale."
+      }
+    ]
+  }
+}

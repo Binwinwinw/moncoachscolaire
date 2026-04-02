@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic NSI 1ère - Série 897",
+    "level": "1ère",
+    "subject": "NSI"
+  },
+  "quiz": {
+    "title": "Architecture de Von Neumann",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "NSI",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Le programme stocké en mémoire avec les données",
+        "correct": 1,
+        "correction": "Le modèle de Von Neumann (1945) est révolutionnaire car le programme est stocké dans la même mémoire que les données, permettant de le modifier dynamiquement."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Composants du modèle : processeur (UAL + UC), mémoire principale, unités d'entrée/sortie, reliés par un bus."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "L'UAL (Arithmetic and Logic Unit) effectue les opérations arithmétiques (addition, soustraction, multiplication) et logiques (AND, OR, NOT, comparaisons). C'est le composant qui effectue les calculs proprement dits.",
+        "correction": "L'UAL travaille sur des opérandes stockés dans des registres et produit des résultats stockés à nouveau dans des registres."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "L'adresse de la prochaine instruction à exécuter",
+        "correct": 1,
+        "correction": "Le PC est incrémenté après chaque instruction. Les instructions de saut (branch, jump) modifient le PC pour changer le flux d'exécution."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Cycle FDE : Fetch (lire l'instruction depuis la mémoire), Decode (l'interpréter), Execute (l'exécuter). Ce cycle se répète plusieurs milliards de fois par seconde sur un CPU moderne."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "La fréquence d'horloge (GHz) mesure le nombre de cycles par seconde. Plus elle est élevée, plus le processeur est rapide. Limite physique : la dissipation thermique (effet Joule). Depuis ~2005, on a atteint un plafond (~4-5 GHz) et l'industrie s'est tournée vers les processeurs multicœurs.",
+        "correction": "La loi de Moore (doublement du nombre de transistors tous les 2 ans) ralentit depuis les années 2010."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Une mémoire rapide proche du CPU pour réduire les accès à la RAM",
+        "correct": 1,
+        "correction": "La hiérarchie mémoire : registres (plus rapide) > cache L1 > L2 > L3 > RAM > disque dur. Le cache stocke les données et instructions fréquemment utilisées pour accélérer l'exécution."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le modèle de Von Neumann est la base de la plupart des architectures de processeurs modernes, même si certaines utilisent une architecture Harvard (séparation des mémoires instructions/données) pour améliorer les performances."
+      }
+    ]
+  }
+}

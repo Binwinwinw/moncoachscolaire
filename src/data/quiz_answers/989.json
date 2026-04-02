@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 2nde - Serie 989",
+    "level": "2nde",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Coordonnées & milieux",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "A",
+        "correction": "Milieu M = ((2+8)/2, (6+4)/2) = (5, 5)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Par définition, M milieu de AB signifie MA = MB."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "B(5, −1)",
+        "correction": "M = (xA + xB)/2 → xB = 2×2 − (−1) = 5. yB = 2×1 − 3 = −1."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "A",
+        "correction": "AB = √((4−1)² + (5−1)²) = √(9+16) = √25 = 5."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est la formule de la distance euclidienne dans le plan cartésien (théorème de Pythagore)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "AB = 4, AC = √(4+12) = 4, BC = √(4+12) = 4 : tous les côtés sont égaux.",
+        "correction": "AC = √((2−0)² + (2√3)²) = √(4+12) = 4 ; BC = √((2−4)² + (2√3)²) = 4. Triangle équilatéral."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "A",
+        "correction": "M = ((−3+7)/2, (5+(−1))/2) = (4/2, 4/2) = (2, 2)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est une propriété du parallélogramme : les diagonales se bisectent mutuellement."
+      }
+    ]
+  }
+}

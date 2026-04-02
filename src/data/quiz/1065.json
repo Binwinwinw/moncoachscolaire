@@ -1,0 +1,67 @@
+{
+  "id": 1065,
+  "title": "Introduction aux suites",
+  "subject": "Mathématiques",
+  "level": "1ère",
+  "created_at": "2026-03-13T18:54:00.425012Z",
+  "questions": [
+    {
+      "id": "1065_1",
+      "type": "qcm",
+      "question": "Une suite numérique est :",
+      "options": [
+        "Une fonction de R dans R",
+        "Une liste ordonnée de réels indexée par les entiers naturels",
+        "Une séquence de lettres",
+        "Un ensemble de nombres réels"
+      ]
+    },
+    {
+      "id": "1065_2",
+      "type": "vrai-faux",
+      "question": "Une suite peut être définie par une formule explicite uₙ = f(n) ou par une relation de récurrence uₙ₊₁ = g(uₙ)."
+    },
+    {
+      "id": "1065_3",
+      "type": "texte",
+      "question": "La suite est définie par uₙ = 3n − 1. Calcule u₀, u₁, u₂ et u₅."
+    },
+    {
+      "id": "1065_4",
+      "type": "qcm",
+      "question": "La suite définie par u₀ = 2 et uₙ₊₁ = uₙ + 3. Que vaut u₃ ?",
+      "options": [
+        "5",
+        "8",
+        "11",
+        "14"
+      ]
+    },
+    {
+      "id": "1065_5",
+      "type": "vrai-faux",
+      "question": "La suite uₙ = (−1)ⁿ alterne entre 1 et −1."
+    },
+    {
+      "id": "1065_6",
+      "type": "texte",
+      "question": "Donne les 5 premiers termes de la suite définie par u₁ = 1 et uₙ₊₁ = uₙ + 2n + 1."
+    },
+    {
+      "id": "1065_7",
+      "type": "qcm",
+      "question": "La suite uₙ = n² − n est-elle croissante à partir de n = 1 ?",
+      "options": [
+        "Oui",
+        "Non",
+        "Seulement pour n pair",
+        "Impossible à déterminer"
+      ]
+    },
+    {
+      "id": "1065_8",
+      "type": "vrai-faux",
+      "question": "Une suite croissante est une suite où uₙ₊₁ ≥ uₙ pour tout n."
+    }
+  ]
+}

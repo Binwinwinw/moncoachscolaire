@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 3eme - Série 751",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 3eme : La citoyennete francaise : droits et devoirs",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "La citoyennete francaise : droits et devoirs",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "EMC",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "A quel age peut-on voter en France pour les elections politiques ?",
+        "choices": [
+          "16 ans",
+          "18 ans",
+          "21 ans",
+          "25 ans"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le service national universel (SNU) est obligatoire pour tous les jeunes Francais de 16 ans."
+      },
+      {
+        "type": "open",
+        "question": "Quel est le principal devoir civique des citoyens francais inscrit dans la Constitution ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que la nationalite francaise par le droit du sol ?",
+        "choices": [
+          "Etre ne de parents francais",
+          "Etre ne sur le territoire francais et y avoir grandi",
+          "Avoir ete naturalise apres 5 ans de residence",
+          "Etre marie a un citoyen francais"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un citoyen francais peut perdre sa nationalite s'il acquiert une autre nationalite."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on le document officiel attestant de la nationalite francaise d'une personne ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le principal droit politique reserve aux citoyens francais et non aux simples residents ?",
+        "choices": [
+          "Droit de travailler",
+          "Droit de vote aux elections presidentielles et legislatives",
+          "Droit a l'education",
+          "Droit a la securite sociale"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Payer ses impots est un devoir civique pour tout resident en France."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

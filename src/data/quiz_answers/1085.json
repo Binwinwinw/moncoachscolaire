@@ -1,0 +1,48 @@
+{
+  "quiz_id": 1085,
+  "title": "Applications du produit scalaire",
+  "subject": "Mathématiques",
+  "level": "1ère",
+  "answers": [
+    {
+      "question_id": "1085_1",
+      "correct_option": "B",
+      "explanation": "L'orthogonalité est caractérisée par un produit scalaire nul : u⃗·v⃗ = 0."
+    },
+    {
+      "question_id": "1085_2",
+      "correct": true,
+      "explanation": "Identité remarquable : ||u+v||² = (u+v)·(u+v) = ||u||² + 2u·v + ||v||²."
+    },
+    {
+      "question_id": "1085_3",
+      "correct_answer": "AB⃗=(3,0), AC⃗=(0,3). AB⃗·AC⃗ = 0+0 = 0 → perpendiculaires → angle droit en A.",
+      "explanation": "Produit scalaire AB⃗·AC⃗ = 3×0 + 0×3 = 0 → orthogonaux → angle droit en A."
+    },
+    {
+      "question_id": "1085_4",
+      "correct_option": "B",
+      "explanation": "||u−v||² = (u−v)·(u−v) = ||u||² − 2u·v + ||v||²."
+    },
+    {
+      "question_id": "1085_5",
+      "correct": true,
+      "explanation": "La médiatrice est définie par MA = MB (équidistance), pas par MA⃗·MB⃗=0."
+    },
+    {
+      "question_id": "1085_6",
+      "correct_answer": "cos θ = (u⃗·v⃗)/(||u⃗||·||v⃗||) = 1/(1×√2) = √2/2 → θ = π/4 = 45°.",
+      "explanation": "u⃗·v⃗=1, ||u⃗||=1, ||v⃗||=√2. cos θ=1/√2 → θ=π/4."
+    },
+    {
+      "question_id": "1085_7",
+      "correct_option": "B",
+      "explanation": "||u+v||² = ||u||²+2u·v+||v||² et ||u−v||² = ||u||²−2u·v+||v||². Soustraction : 4u·v → u·v = (||u+v||²−||u−v||²)/4."
+    },
+    {
+      "question_id": "1085_8",
+      "correct": true,
+      "explanation": "u⃗·v⃗ = ||u⃗||·||v⃗||·cos θ. Si égalité, alors cos θ = 1 → θ = 0 → colinéaires de même sens."
+    }
+  ]
+}

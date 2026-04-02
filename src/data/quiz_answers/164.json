@@ -1,0 +1,63 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 40",
+    "level": "1ere",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 40",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correction": "La bonne réponse est B. Le skimming consiste à lire rapidement pour saisir l'idée générale, la structure et le sujet principal d'un texte, sans s'attarder sur chaque mot. On lit les titres, sous-titres, premières et dernières phrases de chaque paragraphe. C'est différent du scanning (C) qui consiste à chercher une information précise. Le skimming est utilisé comme première approche d'un texte inconnu."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "correction": "FAUX. En compréhension écrite, les réponses DOIVENT être basées sur le texte, pas sur vos connaissances personnelles extérieures. L'exercice évalue votre capacité à comprendre et interpréter le texte donné. Utiliser des informations extérieures au texte peut conduire à des réponses incorrectes. La règle d'or : 'Is there evidence in the text for this answer?'"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "correction": "Question littérale : la réponse est explicitement dans le texte, on peut la citer directement. Ex : 'How old is the character?' → 'She is 25 years old' (trouvable mot pour mot). Question d'inférence : la réponse n'est pas formulée directement mais peut être déduite des indices du texte. Ex : 'How does the character feel about her job?' → on déduit de ses actions/paroles sans qu'une phrase ne le dise clairement. Les deux types sont testés au baccalauréat."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "correction": "La bonne réponse est C. La stratégie la plus efficace est d'utiliser le contexte (les mots et phrases autour du mot inconnu) pour en deviner le sens. Indices utiles : la catégorie grammaticale du mot, les mots de la même famille, le sens général de la phrase, les exemples donnés dans le texte. En examen, vous n'avez pas de dictionnaire — la déduction contextuelle est une compétence essentielle à développer."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "correction": "VRAI. En anglais, la structure des textes argumentatifs et journalistiques suit souvent le principe de la 'pyramide inversée' : l'information la plus importante est en premier. L'introduction présente la thèse ou l'idée principale, et la conclusion la reformule. Lire attentivement ces deux paragraphes lors du skimming permet d'avoir une bonne idée du contenu global avant de lire l'ensemble du texte."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "correction": "C'est un article de presse ou un rapport scientifique. Indices : (1) 'Experts warn' = référence à des sources d'autorité, typique du journalisme et des rapports. (2) Registre formel et objectif. (3) Données chiffrées précises (2°C, 2050) pour appuyer l'argument. (4) Vocabulaire technique (global temperatures, irreversible climate events). (5) Pas de 'I' ou de langage subjectif → texte informatif/informatif-persuasif."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "correction": "La bonne réponse est C. Le scanning est une lecture ciblée : on cherche une information précise (un nom, une date, un chiffre, un lieu) sans lire tout le texte. On laisse ses yeux parcourir rapidement le texte en cherchant le type d'information voulu. Ex : si la question porte sur une date, on scanne le texte en cherchant des chiffres. C'est différent du skimming (idée générale) ou de la lecture approfondie (tous les détails)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "correction": "VRAI. Paraphraser montre que vous avez réellement compris le texte et que vous êtes capable de le reformuler avec vos propres mots. Copier-coller des phrases du texte peut suggérer que vous n'avez pas vraiment compris — vous reproduisez sans comprendre. En examen, les correcteurs valorisent la reformulation. Cependant, les citations directes sont acceptables si elles sont courtes et pertinentes, accompagnées d'une explication."
+      }
+    ],
+    "level": "1ere",
+    "subject": "Anglais"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 647",
+    "level": "1ère",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "Révisions synthèse : cellule, ADN et expression génétique",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "La traduction",
+        "correct": 2,
+        "correction": "Ribosomes : synthèse protéique (traduction de l'ARNm en séquence d'acides aminés). L'ADN polymérase assure la réplication ; l'ARN polymérase assure la transcription."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "OGM, animaux transgéniques (souris knockout), bactéries productrices d'insuline humaine (E. coli + gène humain) = exemples de transgenèse. CRISPR permet maintenant l'édition sans transgène."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "ADN polymérase",
+        "correction": "La PCR (Mullis, Nobel 1993) utilise des cycles chaleur/froid et l'ADN polymérase Taq (de Thermus aquaticus) pour doubler le fragment cible à chaque cycle → amplification exponentielle."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "La séparation des fragments d'ADN ou de protéines selon leur taille/charge dans un champ électrique",
+        "correct": 1,
+        "correction": "L'ADN (chargé -) migre vers le + dans l'agarose ; les petits fragments migrent plus loin → profil de bandes caractéristique utilisé en génétique judiciaire, diagnostic, recherche."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le HGP (1990-2003) a séquencé les ~3 milliards de pb du génome humain ; les technologies de séquençage de nouvelle génération (NGS) permettent aujourd'hui de séquencer un génome en 24h."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "épitope",
+        "correction": "Les anticorps monoclonaux (Köhler & Milstein, Nobel 1984) sont des outils diagnostiques et thérapeutiques (Herceptin, Humira, pembrolizumab) reconnaissant un épitope spécifique."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Régulent l'expression génique en s'appariant à des ARNm cibles et bloquant leur traduction",
+        "correct": 1,
+        "correction": "Les miARN (~22 nt) régulent ~60 % des gènes humains ; ils participent au développement, à la différenciation et sont déréglés dans de nombreux cancers."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les GWAS (Genome Wide Association Studies) + machine learning permettent de calculer des 'scores polygéniques' et de prédire les risques de maladies cardiovasculaires, diabète, cancers."
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 1ere - Série 276",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie 1ere : Quiz Diagnostic 1ere Physique-Chimie - Serie 4",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Physique-Chimie - Serie 4",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Énoncez la première loi de Newton (principe d'inertie).",
+        "choices": [
+          "F = m × a",
+          "Tout corps reste en état de repos ou de mouvement rectiligne uniforme si la résultante des forces qui s'exercent sur lui est nulle",
+          "Les forces d'action et de réaction sont égales et opposées",
+          "L'accélération d'un objet est inversement proportionnelle à sa masse"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Selon la 2ème loi de Newton, si on double la force appliquée sur un objet (masse constante), son accélération double."
+      },
+      {
+        "type": "open",
+        "question": "Expliquez la différence entre masse et poids, et donnez leur relation."
+      },
+      {
+        "type": "qcm",
+        "question": "Une voiture de 1000 kg accélère avec a = 3 m/s². Quelle est la résultante des forces horizontales qui s'exercent sur elle ?",
+        "choices": [
+          "300 N",
+          "3000 N",
+          "333 N",
+          "9810 N"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La 3ème loi de Newton stipule que si A exerce une force sur B, alors B exerce sur A une force égale en module, opposée en sens, sur la même droite d'action."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que la force de frottement et comment modélise-t-on la résistance à l'avancement ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Lors d'une collision entre deux boules de billard, que se conserve-t-il en l'absence de forces extérieures ?",
+        "choices": [
+          "La vitesse de chaque boule",
+          "L'énergie cinétique uniquement",
+          "La quantité de mouvement totale du système",
+          "La force entre les boules"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La force de réaction normale exercée par un sol sur un objet en équilibre est toujours égale et opposée au poids de cet objet."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

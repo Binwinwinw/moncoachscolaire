@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 653",
+    "level": "3ème",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "Génétique : mutations et maladies génétiques",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Trois exemplaires du chromosome 21",
+        "correct": 1,
+        "correction": "La trisomie 21 est due à la présence d'un chromosome 21 supplémentaire (3 au lieu de 2)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les UV sont un agent mutagène qui peut induire des lésions de l'ADN, notamment dans les cellules de la peau."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "réparation de l'ADN",
+        "correction": "Les enzymes de réparation corrigent la plupart des erreurs survenant lors de la réplication ou sous l'effet de mutagènes."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Les globules rouges",
+        "correct": 1,
+        "correction": "La drépanocytose est une mutation du gène de la globine bêta qui déforme les globules rouges."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Seules les mutations des cellules germinales (gamètes) peuvent être transmises à la descendance."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "conducteur",
+        "correction": "Un conducteur (ou porteur sain) possède un allèle muté récessif et un allèle normal ; il n'est pas malade mais peut transmettre la mutation."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Ultraviolet",
+        "correct": 1,
+        "correction": "Les UV solaires sont le principal facteur de risque des mélanomes et carcinomes cutanés."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le gène CFTR responsable de la mucoviscidose est situé sur un autosome et la maladie nécessite deux allèles mutés."
+      }
+    ]
+  }
+}

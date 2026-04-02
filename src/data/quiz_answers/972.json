@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 2nde - Serie 972",
+    "level": "2nde",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Inéquations du premier degré",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "B",
+        "correction": "4x − 8 < 0 → 4x < 8 → x < 2."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est une règle fondamentale : diviser (ou multiplier) par un négatif retourne le signe < ou >."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "x ≤ 3, soit ]−∞ ; 3]",
+        "correction": "−3x ≥ −9 → x ≤ 3 (division par −3, inégalité retournée)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "C",
+        "correction": "2x ≤ 4 → x ≤ 2."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "0·x = 0 pour tout x, donc 0 > 1 est faux : aucune valeur de x ne convient."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "1 < x < 4, soit ]1 ; 4[",
+        "correction": "On ajoute 3 partout : 2 < 2x < 8, puis on divise par 2 : 1 < x < 4."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "B",
+        "correction": "0,8·p < 40 → p < 50. Le prix initial doit être strictement inférieur à 50 €."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "En divisant par a > 0, le sens de l'inégalité est conservé : x > b/a."
+      }
+    ]
+  }
+}

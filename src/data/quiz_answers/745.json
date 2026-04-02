@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 745",
+    "level": "3ème",
+    "subject": "Physique-Chimie"
+  },
+  "quiz": {
+    "title": "Énergie : conservation et bilan énergétique",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Elle se conserve (reste constante)",
+        "correct": 2,
+        "correction": "En l'absence de frottements, l'énergie mécanique Em = Ec + Ep se conserve : l'énergie cinétique et l'énergie potentielle se transforment l'une en l'autre."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "En chute libre sans frottements, Ep se convertit en Ec : plus l'objet descend (Ep diminue), plus il accélère (Ec augmente), Em restant constante."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "l'énergie mécanique (Em = Ec + Ep)",
+        "correction": "L'énergie mécanique Em est la somme de l'énergie cinétique Ec = ½mv² et de l'énergie potentielle de pesanteur Ep = mgh."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Énergie solaire → énergie thermique (chaleur)",
+        "correct": 1,
+        "correction": "Un panneau solaire thermique capte le rayonnement solaire et le convertit en chaleur pour chauffer de l'eau ou des locaux."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les forces de frottement dissipent de l'énergie mécanique sous forme de chaleur, réduisant ainsi l'énergie mécanique disponible pour le mouvement."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "la conservation de l'énergie (l'énergie totale se conserve)",
+        "correction": "Le premier principe de la thermodynamique stipule que l'énergie totale d'un système isolé est constante : elle ne peut être créée ni détruite."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Énergie chimique → énergie électrique",
+        "correct": 1,
+        "correction": "Une pile convertit l'énergie chimique stockée dans ses réactifs en énergie électrique par une réaction d'oxydoréduction."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'énergie nucléaire provient de la fission (division d'un noyau lourd) ou de la fusion (union de noyaux légers), libérant une grande quantité d'énergie via E = mc²."
+      }
+    ]
+  }
+}

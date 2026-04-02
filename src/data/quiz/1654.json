@@ -1,0 +1,77 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 2nde - SÃ©rie 1654",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 2nde : Diagnostic 2nde Anglais - Tenses and Timeline",
+    "status": "published",
+    "created_at": "2026-03-14 10:13:31",
+    "updated_at": "2026-03-14 10:13:31",
+    "source": "Eduscol programmes officiels + BOEN",
+    "programme_ref": "BO special n°1 du 22 janvier 2019 (LGT) + Eduscol Langues vivantes Seconde"
+  },
+  "quiz": {
+    "title": "Diagnostic 2nde Anglais - Tenses and Timeline",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Choose the correct form: I ___ my homework when she called.",
+        "choices": [
+          "did",
+          "was doing",
+          "have done",
+          "am doing"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The past simple is used for completed actions in the past."
+      },
+      {
+        "type": "open",
+        "question": "Write the past participle of \"write\"."
+      },
+      {
+        "type": "qcm",
+        "question": "Which sentence uses the present perfect correctly?",
+        "choices": [
+          "I have saw this film.",
+          "I have seen this film.",
+          "I seen this film.",
+          "I has seen this film."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'Since' is used with a starting point in time."
+      },
+      {
+        "type": "open",
+        "question": "Complete: She has lived here ___ 2019."
+      },
+      {
+        "type": "qcm",
+        "question": "Choose the best option: By next year, they ___ the project.",
+        "choices": [
+          "finish",
+          "will finish",
+          "will have finished",
+          "have finished"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'For' is used with a duration."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

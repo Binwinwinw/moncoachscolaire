@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 473",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "description": "Diagnostic Français 1ère : L'argumentation : thèse et arguments",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "L'argumentation : thèse et arguments",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'une thèse dans un texte argumentatif ?",
+        "choices": [
+          "Un exemple concret",
+          "La position défendue par l'auteur",
+          "Un contre-argument",
+          "Une question rhétorique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un argument est une affirmation qui étaie ou réfute une thèse."
+      },
+      {
+        "type": "open",
+        "question": "L'illustration d'un argument par un fait précis ou une anecdote s'appelle un _____."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle de la concession dans l'argumentation ?",
+        "choices": [
+          "Refuser tout contre-argument",
+          "Admettre partiellement l'opinion adverse avant de la réfuter",
+          "Renforcer l'émotion du lecteur",
+          "Introduire la conclusion"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un syllogisme est un raisonnement déductif en trois étapes : majeure, mineure, conclusion."
+      },
+      {
+        "type": "open",
+        "question": "L'appel aux émotions du lecteur pour le convaincre est appelé _____ dans la rhétorique classique."
+      },
+      {
+        "type": "qcm",
+        "question": "La réfutation directe consiste à :",
+        "choices": [
+          "Ignorer l'argument adverse",
+          "Démontrer qu'un argument adverse est faux ou insuffisant",
+          "Reformuler sa propre thèse",
+          "Utiliser une métaphore"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Dans un plan dialectique, la synthèse dépasse le simple résumé des deux parties précédentes."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

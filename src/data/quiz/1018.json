@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques Terminale - Serie 1018",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques Terminale : Règles de dérivation",
+    "status": "published",
+    "created_at": "2026-03-13 11:24:24",
+    "updated_at": "2026-03-13 11:24:24"
+  },
+  "quiz": {
+    "title": "Règles de dérivation",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la dérivée du produit f·g ?",
+        "choices": [
+          "f'·g'",
+          "f'·g + f·g'",
+          "f·g' − f'·g",
+          "(f'·g − f·g')/g²"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La dérivée du quotient f/g est (f'g − fg') / g²."
+      },
+      {
+        "type": "open",
+        "question": "Calcule la dérivée de f(x) = x²·sin(x)."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la dérivée de f(x) = (x² + 1) / (x − 1) ?",
+        "choices": [
+          "(2x(x−1) − (x²+1)) / (x−1)²",
+          "(2x(x−1) + (x²+1)) / (x−1)²",
+          "(x−1) / (x²+1)²",
+          "2x / (x−1)"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "(f + g)' = f' + g' (linéarité de la dérivation)."
+      },
+      {
+        "type": "open",
+        "question": "Calcule la dérivée de f(x) = (2x − 3) / (x + 1)."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la dérivée de f(x) = x·eˣ ?",
+        "choices": [
+          "eˣ",
+          "(x+1)eˣ",
+          "x·eˣ + eˣ",
+          "(x−1)eˣ"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La dérivée de (f(x))² est 2f(x)·f'(x)."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

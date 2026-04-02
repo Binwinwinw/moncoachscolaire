@@ -1,0 +1,73 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES Terminale - Serie 1134",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "SES",
+    "description": "Diagnostic SES Terminale : Crises financieres et regulation",
+    "status": "published",
+    "created_at": "2026-03-14 03:10:56",
+    "updated_at": "2026-03-14 03:10:56"
+  },
+  "quiz": {
+    "title": "Crises financieres et regulation",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "SES",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Dans le cadre de 'Crises financieres et regulation', quel acteur est le plus directement associe a la regulation de stabilite du systeme bancaire ?",
+        "choices": [
+          "Banque centrale",
+          "Les menages uniquement",
+          "Les entreprises sans cadre public",
+          "Les ONG locales sans coordination internationale"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'indicateur 'ratio de solvabilite' est utile pour suivre les evolutions de stabilite du systeme bancaire."
+      },
+      {
+        "type": "open",
+        "question": "Definis stabilite du systeme bancaire et explique en quoi cet enjeu est important en Terminale SES."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel exemple illustre le mieux le mecanisme etudie ?",
+        "choices": [
+          "crise des subprimes de 2008",
+          "Une situation sans intervention d'acteurs collectifs",
+          "Une evolution purement individuelle sans cadre institutionnel",
+          "Un cas sans donnees ni enjeux economiques"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le levier 'exigences prudentielles' peut modifier les incitations des acteurs dans ce domaine."
+      },
+      {
+        "type": "open",
+        "question": "Propose un argument montreant a la fois un effet positif et une limite de 'exigences prudentielles'."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle reference theorique est la plus pertinente pour discuter ce chapitre ?",
+        "choices": [
+          "Minsky et l'instabilite financiere",
+          "Une approche sans cadre theorique",
+          "Une interpretation uniquement morale sans faits",
+          "Une explication strictement biologique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Dans une dissertation SES, il faut articuler notions, donnees et exemples pour justifier l'argumentation."
+      }
+    ]
+  }
+}

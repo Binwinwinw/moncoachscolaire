@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 709",
+    "level": "3ème",
+    "subject": "Physique-Chimie"
+  },
+  "quiz": {
+    "title": "Électrolyse et applications",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Une réaction chimique forcée par un courant électrique",
+        "correct": 1,
+        "correction": "L'électrolyse utilise un courant électrique extérieur pour forcer une réaction redox non spontanée."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "À la cathode (électrode négative) : 2H2O + 2e- → H2 + 2OH-. Du H2 se libère."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "dioxygène",
+        "correction": "À l'anode (électrode positive) : 2H2O → O2 + 4H+ + 4e-. Du O2 est libéré."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "À affiner les métaux et produire du chlore ou de l'hydrogène",
+        "correct": 1,
+        "correction": "L'électrolyse est utilisée pour l'affinage du cuivre, la production de chlore (électrolyse du NaCl), d'aluminium et d'hydrogène."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La recharge d'un accumulateur (batterie) est une électrolyse : l'énergie électrique est stockée sous forme chimique."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "galvanoplastie",
+        "correction": "La galvanoplastie (ou électrodéposition) dépose un métal (or, chrome, nickel) sur un objet par électrolyse."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "La masse déposée est proportionnelle à la charge électrique (loi de Faraday)",
+        "correct": 1,
+        "correction": "Les lois de Faraday indiquent que m = M·Q / (F·z), reliant masse déposée, charge et équivalent électrochimique."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'hydrogène 'vert' produit par électrolyse de l'eau avec de l'électricité renouvelable peut être stocké et utilisé comme vecteur énergétique."
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 613",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 1ère : Hérédité liée au sexe et maladies génétiques",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Hérédité liée au sexe et maladies génétiques",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Les chromosomes sexuels chez l'humain sont :",
+        "choices": [
+          "XX chez le garçon, XY chez la fille",
+          "XY chez le garçon, XX chez la fille",
+          "XXX chez la fille, XYY chez le garçon",
+          "Y chez la fille, X chez le garçon"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La daltonisme (confusion des couleurs rouge-vert) est une maladie liée au chromosome X, plus fréquente chez les garçons."
+      },
+      {
+        "type": "open",
+        "question": "Une femme conductrice (hétérozygote XD Xd pour un allèle récessif lié à l'X) transmet l'allèle récessif à _____ % de ses fils."
+      },
+      {
+        "type": "qcm",
+        "question": "La mucoviscidose est une maladie génétique autosomique récessive. Un enfant atteint a forcément :",
+        "choices": [
+          "Au moins un parent atteint",
+          "Deux parents porteurs sains (hétérozygotes)",
+          "Un parent atteint et un parent sain",
+          "Deux parents atteints uniquement"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La maladie de Huntington est une maladie autosomique dominante : un seul allèle muté suffit pour être atteint."
+      },
+      {
+        "type": "open",
+        "question": "Le diagnostic prénatal (amniocentèse, biopsie de trophoblaste) permet d'analyser le _____ du foetus pour détecter des anomalies chromosomiques."
+      },
+      {
+        "type": "qcm",
+        "question": "L'hémophilie A est liée à l'X ; si la mère est conductrice et le père sain, le risque pour un fils d'être hémophile est de :",
+        "choices": [
+          "25%",
+          "50%",
+          "100%",
+          "0%"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le conseil génétique aide les familles à comprendre le risque de transmission d'une maladie génétique."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

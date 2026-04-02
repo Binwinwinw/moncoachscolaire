@@ -1,0 +1,97 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 4eme Mathématiques",
+    "type": "quiz",
+    "level": "4eme",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 4eme : Algèbre et géométrie",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-08 14:17:00"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 4eme Mathématiques",
+    "level": "4eme",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la solution de : 2x = 8 ?",
+        "choices": [
+          "2",
+          "4",
+          "6",
+          "10"
+        ],
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La somme des angles d'un triangle est 180°.",
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "Calcule : 3,5 × 2",
+        "placeholder": "7",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Dans un parallélogramme, les côtés opposés sont :",
+        "choices": [
+          "égaux",
+          "perpendiculaires",
+          "concaves",
+          "obliques"
+        ],
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "x = 5 est solution de 3x - 10 = 5.",
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "Quelle est l'aire d'un rectangle 4 cm × 3 cm ?",
+        "placeholder": "12 cm²",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "Développe : 2(x + 3) =",
+        "choices": [
+          "2x + 6",
+          "2x + 3",
+          "x + 6",
+          "2x"
+        ],
+        "id": 7
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les décimaux se placent sur droite graduée.",
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Équations simples",
+      "description": "Concept clé de Mathématiques au niveau 4eme"
+    },
+    {
+      "notion": "Géométrie plane",
+      "description": "Concept clé de Mathématiques au niveau 4eme"
+    },
+    {
+      "notion": "Calculs numériques",
+      "description": "Concept clé de Mathématiques au niveau 4eme"
+    }
+  ],
+  "exerciseresponses": []
+}

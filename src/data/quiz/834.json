@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES 1ère - Série 834",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SES",
+    "description": "Diagnostic SES 1ère : Le chômage : définition et mesure",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Le chômage : définition et mesure",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SES",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Selon la définition du BIT, un chômeur est une personne qui :",
+        "choices": [
+          "N'a pas d'emploi et ne cherche pas de travail",
+          "Est sans emploi, disponible et en recherche active d'un emploi",
+          "A un emploi à temps partiel",
+          "Est en arrêt maladie"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le halo du chômage comprend les personnes proches du chômage mais non comptabilisées comme chômeurs."
+      },
+      {
+        "type": "open",
+        "question": "Comment calcule-t-on le taux de chômage ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Le chômage frictionnel correspond au chômage :",
+        "choices": [
+          "Dû à une récession économique",
+          "Lié à la transition entre deux emplois",
+          "Causé par l'inadéquation entre qualifications offertes et demandées",
+          "Structurel de long terme"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le chômage structurel est lié à une inadéquation entre les qualifications des chômeurs et les besoins du marché."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que le taux de chômage naturel (NAIRU) ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Le chômage conjoncturel est principalement causé par :",
+        "choices": [
+          "Une inadéquation des qualifications",
+          "Un ralentissement de l'activité économique",
+          "La rigidité des salaires",
+          "Les migrations"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "En France, le taux de chômage est plus élevé chez les jeunes que dans l'ensemble de la population."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

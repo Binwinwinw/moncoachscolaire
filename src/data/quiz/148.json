@@ -1,0 +1,97 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 24",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ere : Le discours indirect",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-08 00:05:00"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 24",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "id": 1,
+        "type": "qcm",
+        "question": "Choose the correct reported speech for: He said: 'I am very tired.'",
+        "choices": [
+          "He said that he is very tired.",
+          "He said that he was very tired.",
+          "He said that he were very tired.",
+          "He said that I was very tired."
+        ]
+      },
+      {
+        "id": 2,
+        "type": "vrai-faux",
+        "question": "In reported speech, the sentence 'She asked me where did I live' is grammatically correct."
+      },
+      {
+        "id": 3,
+        "type": "texte",
+        "question": "Mets la phrase suivante au discours indirect : The teacher said: 'Open your books to page 42.'",
+        "placeholder": "Écris ta réponse ici..."
+      },
+      {
+        "id": 4,
+        "type": "qcm",
+        "question": "Choose the correct reported speech for: 'Don't touch my phone!' she said to him.",
+        "choices": [
+          "She said him to not touch her phone.",
+          "She told him don't touch her phone.",
+          "She told him not to touch her phone.",
+          "She asked him to not touching her phone."
+        ]
+      },
+      {
+        "id": 5,
+        "type": "vrai-faux",
+        "question": "In reported speech, 'will' becomes 'would' when the reporting verb is in the past tense."
+      },
+      {
+        "id": 6,
+        "type": "texte",
+        "question": "Mets la question suivante au discours indirect : She asked: 'Have you ever visited Paris?'",
+        "placeholder": "Écris ta réponse ici..."
+      },
+      {
+        "id": 7,
+        "type": "qcm",
+        "question": "Which time expression changes correctly in reported speech?",
+        "choices": [
+          "'today' becomes 'that day'",
+          "'yesterday' becomes 'the day before yesterday'",
+          "'tomorrow' becomes 'next day'",
+          "'now' becomes 'here'"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "vrai-faux",
+        "question": "The sentence 'He asked me if I was coming to the party' is an example of a reported yes/no question."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Reported Speech – Statements",
+      "description": "Au discours indirect, les temps reculent d'un cran (backshift) : present simple → past simple, present perfect → past perfect, past simple → past perfect. Les pronoms et expressions de temps changent aussi."
+    },
+    {
+      "notion": "Reported Speech – Questions",
+      "description": "Les questions indirectes utilisent l'ordre sujet + verbe (pas d'inversion). Yes/no questions → if/whether. Les mots interrogatifs (who, what, when...) sont conservés. Ex : 'Are you ready?' → He asked if I was ready."
+    },
+    {
+      "notion": "Reported Speech – Commands & Requests",
+      "description": "Les ordres et demandes au discours indirect utilisent tell/ask + someone + to + infinitive. Ex : 'Close the door!' → She told him to close the door. Pour la forme négative : not to + infinitive."
+    }
+  ],
+  "exerciseresponses": []
+}

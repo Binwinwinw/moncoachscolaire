@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 3eme - Série 755",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 3eme : Les institutions de la Ve Republique",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Les institutions de la Ve Republique",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "EMC",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "En quelle annee la Ve Republique a-t-elle ete fondee ?",
+        "choices": [
+          "1944",
+          "1946",
+          "1958",
+          "1962"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "En France, le Premier ministre est nomme par le Parlement."
+      },
+      {
+        "type": "open",
+        "question": "Quel article de la Constitution de 1958 donne au President de la Republique le pouvoir de dissolution de l'Assemblee nationale ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le role principal de l'Assemblee nationale dans le systeme institutionnel francais ?",
+        "choices": [
+          "Nommer le President de la Republique",
+          "Voter les lois et controler le gouvernement",
+          "Juger les criminels",
+          "Diriger la politique etrangere"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le Senat peut renverser le gouvernement par une motion de censure."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la situation ou le President de la Republique et le Premier ministre appartiennent a des partis politiques opposes ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le role du Conseil constitutionnel en France ?",
+        "choices": [
+          "Gouverner le pays en cas de crise",
+          "Verifier la conformite des lois a la Constitution",
+          "Nommer les ministres",
+          "Juger les crimes les plus graves"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le Conseil d'Etat est la plus haute juridiction administrative francaise."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

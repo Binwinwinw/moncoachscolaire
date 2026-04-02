@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 793",
+    "level": "3eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Les donnees numeriques et leur traitement",
+    "question_count": 8,
+    "level": "3eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Un systeme de representation des donnees utilisant uniquement les chiffres 0 et 1",
+        "correct": 1,
+        "correction": "Le systeme binaire (base 2) est la base de toute l'informatique ; toute information (texte, image, son) est codee en sequences de 0 et 1 (bits)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Un octet = 8 bits, pouvant representer 256 valeurs (0 a 255). 1 kilooctet = 1 024 octets, 1 megaoctet = 1 024 kilo-octets."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "tableur CSV",
+        "correction": "Le format CSV (Comma-Separated Values) est un fichier texte ou les donnees sont separees par des virgules, lisible par Excel, Python (pandas) ou LibreOffice."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Des ensembles massifs de donnees necessitant des outils specifiques pour leur collecte, stockage et analyse",
+        "correct": 1,
+        "correction": "Le big data caracterise les ensembles de donnees par leurs 3V : Volume (enorme), Variete (formats divers) et Velocite (flux continu) ; ils necessite des technologies comme Hadoop ou Spark."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "SQL (Structured Query Language) est le langage standard pour interroger des bases de donnees relationnelles (MySQL, PostgreSQL, SQLite) : SELECT, INSERT, UPDATE, DELETE."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "graphique en courbes",
+        "correction": "Le graphique en courbes (line chart) est utilise pour visualiser l'evolution d'une variable quantitative dans le temps ou en fonction d'une autre variable continue."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Un ensemble de techniques permettant a des machines d'apprendre et de prendre des decisions a partir de donnees",
+        "correct": 1,
+        "correction": "L'IA (machine learning, deep learning) apprend des patterns dans des donnees massives pour faire des predictions, classer des images ou comprendre le langage naturel."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les moteurs de recommandation (Netflix, Spotify, YouTube) utilisent le filtrage collaboratif et le machine learning pour analyser vos historiques et anticiper vos preferences."
+      }
+    ]
+  }
+}

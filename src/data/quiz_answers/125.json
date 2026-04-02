@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 3ème Mathématiques",
+    "level": "3eme",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 3ème Mathématiques",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "**hypoténuse** (sin α). [web:185]"
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "correct": true,
+        "correction": "**Vrai**. √3/2 ≈0,866. [web:186]"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "correct": null,
+        "correction": "**0.6** (3/5)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "**0.4²×0.6³** (binomiale). [web:188]"
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "correct": true,
+        "correction": "**Vrai**. Valeur médiane échantillon."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "correct": null,
+        "correction": "**0.6** (3/5 opp/hyp). [web:190]"
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "**C(5,3)(1/2)^5** =10/32."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "correct": null,
+        "correction": "**6** (7-1 max-min)."
+      }
+    ],
+    "level": "3eme",
+    "subject": "Mathématiques"
+  }
+}

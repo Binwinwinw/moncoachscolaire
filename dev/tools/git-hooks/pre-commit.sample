@@ -1,0 +1,18 @@
+#!/bin/sh
+# Sample pre-commit hook: take snapshots for files that will be committed
+# Install by copying to .git/hooks/pre-commit and make executable
+
+REPO_ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
+PHP="$REPO_ROOT/php"
+SNAP="$REPO_ROOT/scripts/snapshot.php"
+
+if [ -f "$SNAP" ]; then
+  # List staged files
+  FILES=$(git diff --cached --name-only --diff-filter=ACM)
+  if [ -n "$FILES" ]; then
+    echo "Creating snapshot for staged files..."
+    php "$SNAP" $FILES
+  fi
+fi
+
+exit 0

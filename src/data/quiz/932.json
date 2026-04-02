@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic HGGSP 1ère - Série 932",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "HGGSP",
+    "description": "Diagnostic HGGSP 1ère : Conflits contemporains et construction de la paix",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Conflits contemporains et construction de la paix",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "HGGSP",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Le conflit en Syrie (depuis 2011) illustre quel type de guerre ?",
+        "choices": [
+          "Un conflit interétatique classique",
+          "Une guerre civile devenue conflit international par proxy",
+          "Une guerre exclusivement terroriste",
+          "Un conflit colonial"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les conflits armés font aujourd'hui plus de victimes civiles que militaires."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que la consolidation de la paix (peacebuilding) et quels en sont les instruments ?"
+      },
+      {
+        "type": "qcm",
+        "question": "La justice transitionnelle est :",
+        "choices": [
+          "Un tribunal international permanent",
+          "L'ensemble des mécanismes judiciaires et non judiciaires permettant d'aborder les violations passées dans une société post-conflit",
+          "Une amnistie générale après un conflit",
+          "Un tribunal militaire"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La Commission Vérité et Réconciliation (TRC) d'Afrique du Sud est un exemple de justice transitionnelle."
+      },
+      {
+        "type": "open",
+        "question": "Quelles sont les 'nouvelles guerres' selon la politologue Mary Kaldor ?"
+      },
+      {
+        "type": "qcm",
+        "question": "L'opération Barkhane (2014-2022) est une intervention militaire française menée :",
+        "choices": [
+          "En Syrie",
+          "Dans le Sahel (Mali, Niger, Burkina Faso…) contre les groupes jihadistes",
+          "En Libye",
+          "En République centrafricaine uniquement"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La guerre en Ukraine (2022) marque un retour des guerres interétatiques majeures en Europe."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

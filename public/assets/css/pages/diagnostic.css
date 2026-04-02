@@ -1,0 +1,185 @@
+/* Page Diagnostic — Quiz personnalisés par niveau */
+
+/* Police professionnelle */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+/* Import du CSS du footer pour garantir son affichage */
+@import url("/moncoachscolaire/public/assets/css/components/footer.css");
+
+/* Baseline page */
+.diagnostic-page {
+    min-height: 100vh;
+    font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    background: #f8fafc;
+}
+
+.diagnostic-page main {
+    animation: fadeIn 0.4s ease-in-out;
+    background: rgba(255, 255, 255, 0.22);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 1rem;
+    box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+    padding: 2rem;
+    margin-top: 1.5rem;
+    border: 1px solid rgba(223, 226, 235, 0.5);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Badge de niveau dynamique */
+.diagnostic-page .level-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* Cartes de quiz */
+#diagnostic-app .quiz-card {
+    background: white;
+    border: 2px solid #e5e7eb;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+#diagnostic-app .quiz-card:hover {
+    border-color: #6366f1;
+    box-shadow: 0 10px 15px -3px rgba(99, 102, 241, 0.2);
+    transform: translateY(-2px);
+}
+
+#diagnostic-app .quiz-card h3 {
+    color: #1e293b;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+
+#diagnostic-app .quiz-card p {
+    color: #64748b;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+#diagnostic-app .quiz-card .btn-start-quiz {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
+    color: white;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+#diagnostic-app .quiz-card .btn-start-quiz:hover {
+    background: linear-gradient(135deg, #4f46e5 0%, #4338ca 100%);
+    transform: translateX(4px);
+    box-shadow: 0 4px 12px rgba(79, 70, 229, 0.4);
+}
+
+/* Loading state */
+#diagnostic-app .loading-spinner {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+/* Message "aucun quiz disponible" */
+#diagnostic-app .no-quiz-message {
+    background: #fef3c7;
+    border: 2px solid #f59e0b;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    color: #92400e;
+}
+
+#diagnostic-app .no-quiz-message h3 {
+    color: #92400e;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Harmonisation des titres */
+.diagnostic-page h1,
+.diagnostic-page h2,
+.diagnostic-page h3 {
+    font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    color: #0f172a;
+    font-weight: 700;
+}
+
+.diagnostic-page h1 {
+    color: #0b1f44;
+    font-size: clamp(1.6rem, 3vw, 2.4rem);
+}
+
+.diagnostic-page h2 {
+    font-size: clamp(1.25rem, 2.3vw, 1.9rem);
+}
+
+.diagnostic-page p {
+    color: #334155;
+    line-height: 1.7;
+}
+
+/* Bouton retour sobre */
+.diagnostic-page .back-btn {
+    background: #1d4ed8;
+    color: #fff;
+    border-radius: 0.75rem;
+    box-shadow: 0 10px 25px rgba(30, 58, 138, 0.2);
+}
+
+.diagnostic-page .back-btn:hover {
+    background: #1e40af;
+}
+
+/* Animation du spinner */
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.animate-spin {
+    animation: spin 1s linear infinite;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .diagnostic-page main {
+        padding: 1.5rem 1rem;
+    }
+
+    #diagnostic-app .quiz-card {
+        padding: 1.25rem;
+    }
+
+    .diagnostic-page h1 {
+        font-size: 1.875rem !important;
+    }
+}

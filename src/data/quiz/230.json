@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Philosophie 1ere - Série 230",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Philosophie",
+    "description": "Diagnostic Philosophie 1ere : Quiz Diagnostic 1ere Philosophie - Serie 7",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Philosophie - Serie 7",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Philosophie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Selon Marx, qu'est-ce que l'aliénation du travail dans le système capitaliste ?",
+        "choices": [
+          "Le fait de travailler trop longtemps",
+          "Le fait que l'ouvrier est séparé du produit de son travail, de son activité, de ses semblables et de lui-même",
+          "La mécanisation des tâches",
+          "Le salaire insuffisant des ouvriers"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Hegel voit dans le travail un moment positif par lequel l'homme se réalise et transforme la nature en y imprimant sa marque."
+      },
+      {
+        "type": "open",
+        "question": "En quoi la technique est-elle constitutive de l'humanité ? Illustrez avec un exemple."
+      },
+      {
+        "type": "qcm",
+        "question": "Heidegger critique la technique moderne car elle :",
+        "choices": [
+          "Est trop lente et inefficace",
+          "Réduit tout l'étant (le monde, les hommes, la nature) à un simple stock de ressources disponibles (le 'Gestell' ou arraisonnement)",
+          "Détruit les emplois",
+          "N'est pas assez universelle"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le progrès technique garantit automatiquement le progrès moral et le bonheur humain."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que la division du travail selon Adam Smith et quelles en sont les conséquences ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que l'homo faber ?",
+        "choices": [
+          "L'homme qui parle",
+          "L'homme qui pense abstraitement",
+          "L'homme fabricant, définit par son usage des outils et des techniques",
+          "L'homme politique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'automatisation et l'intelligence artificielle posent de nouveaux défis philosophiques quant à la place du travail humain dans la société."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

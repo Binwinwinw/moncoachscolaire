@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 574",
+    "level": "3ème",
+    "subject": "Histoire-Géographie"
+  },
+  "quiz": {
+    "title": "Les migrations internationales",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Change de pays de résidence pour une durée prolongée",
+        "correct": 1,
+        "correction": "Un migrant s'installe dans un autre pays ; un réfugié fuit une persécution ; un demandeur d'asile demande la protection d'un pays d'accueil."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Les migrants économiques fuient la pauvreté mais n'ont pas droit au statut de réfugié (convention de Genève de 1951) qui est réservé aux victimes de persécutions."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "remises",
+        "correction": "Les remises (transferts de fonds) sont essentielles pour de nombreux pays : elles peuvent représenter plus de 20% du PIB (ex. Haiti, Tonga)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Le statut de réfugié pour les personnes persécutées",
+        "correct": 1,
+        "correction": "La convention de Genève oblige les États signataires à accorder protection aux personnes persécutées en raison de leur race, religion, nationalité, opinions ou appartenance sociale."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La Méditerranée est l'une des frontières les plus dangereuses au monde pour les migrants ; des milliers de personnes se noient chaque année."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "déplacés internes",
+        "correction": "Les déplacés internes (PDI) fuient les conflits ou catastrophes sans quitter leur pays ; il y en a environ 60 millions dans le monde."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Les guerres, persécutions et catastrophes naturelles",
+        "correct": 1,
+        "correction": "Les conflits (Syrie, Afghanistan, Soudan) et les catastrophes sont les principales causes de migrations forcées."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les grandes économies développées attirent les migrants économiques et accueillent des demandeurs d'asile."
+      }
+    ]
+  }
+}

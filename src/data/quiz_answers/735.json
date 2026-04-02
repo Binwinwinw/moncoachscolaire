@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 735",
+    "level": "3ème",
+    "subject": "Physique-Chimie"
+  },
+  "quiz": {
+    "title": "Électricité : inductance et condensateurs",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Un composant qui stocke de l'énergie sous forme électrique entre deux armatures",
+        "correct": 1,
+        "correction": "Un condensateur est formé de deux armatures conductrices séparées par un isolant ; il stocke de l'énergie électrique sous forme de champ électrique."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "La charge d'un condensateur suit une courbe exponentielle et nécessite un certain temps caractérisé par la constante de temps τ = RC."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "le farad (F)",
+        "correction": "La capacité d'un condensateur se mesure en farads (F). En pratique, on utilise souvent des microfarads (μF) ou des nanofarads (nF)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Un composant qui stocke de l'énergie sous forme magnétique",
+        "correct": 1,
+        "correction": "Une bobine (inductance) stocke de l'énergie dans un champ magnétique créé par le passage du courant dans ses spires."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'inductance se mesure en henrys (H). En pratique, on utilise souvent des millihenrys (mH) ou des microhenrys (μH)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "E = ½ × C × U²",
+        "correction": "L'énergie stockée dans un condensateur est E = ½CU², où C est la capacité en farads et U la tension en volts."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Circuits de filtrage et de stockage d'énergie",
+        "correct": 0,
+        "correction": "Les condensateurs sont utilisés pour filtrer les signaux (ondulations), stocker de l'énergie, et dans les circuits oscillants."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Un circuit LC peut entrer en résonance à une fréquence propre f₀ = 1/(2π√(LC)), ce qui est utilisé notamment dans les radios pour sélectionner une fréquence."
+      }
+    ]
+  }
+}

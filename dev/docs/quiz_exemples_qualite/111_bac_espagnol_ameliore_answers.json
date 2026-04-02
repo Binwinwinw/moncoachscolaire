@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic BAC Espagnol - Serie 111 (VERSION AMÉLIORÉE)",
+    "level": "bac",
+    "subject": "Espagnol"
+  },
+  "quiz": {
+    "title": "Diagnostic Espagnol BAC - Serie 111",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Exprimer des actions récentes ou ayant un lien avec le présent",
+        "correction": "Le 'pretérito perfecto' (passé composé espagnol) s'utilise pour des actions récentes ou qui ont encore un impact sur le présent. Il se forme avec l'auxiliaire 'haber' au présent + participe passé : 'he comido' (j'ai mangé), 'has visto' (tu as vu). Exemple : 'Hoy he ido al mercado' (Aujourd'hui je suis allé au marché). Pour les actions lointaines sans lien avec le présent, on utilise le 'pretérito indefinido' : 'Ayer fui al mercado' (Hier je suis allé au marché)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": true,
+        "correction": "VRAI. Le subjonctif (subjuntivo) s'emploie après des expressions de doute, souhait, émotion, possibilité ou jugement subjectif. Exemples : 'Espero que vengas' (J'espère que tu viennes), 'Dudo que sea verdad' (Je doute que ce soit vrai), 'Es posible que llueva' (Il est possible qu'il pleuve). En revanche, pour exprimer la certitude ou la réalité objective, on utilise l'indicatif : 'Sé que vienes' (Je sais que tu viens)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "answer": "prendre",
+        "alternatives": ["attraper", "saisir", "prendre/attraper"],
+        "correction": "Le verbe 'coger' signifie 'prendre', 'attraper' ou 'saisir' en espagnol d'Espagne. Exemples : 'coger el autobús' (prendre le bus), 'coger una manzana' (prendre une pomme). Attention : en Amérique latine, ce verbe a parfois des connotations vulgaires, on préfère alors utiliser 'tomar' (prendre) ou 'agarrar' (attraper). C'est un exemple de variation linguistique entre l'espagnol européen et américain."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "'Estar' exprime la position géographique ou l'état temporaire, 'ser' l'identité ou la caractéristique permanente",
+        "correction": "La distinction ser/estar est fondamentale en espagnol. 'Ser' exprime l'identité, l'essence, les caractéristiques permanentes : 'Soy profesor' (Je suis professeur), 'Es inteligente' (Il est intelligent). 'Estar' exprime la position, l'état temporaire ou le résultat d'une action : 'Estoy en Madrid' (Je suis à Madrid), 'Está cansado' (Il est fatigué). Comparer : 'Es aburrido' (Il est ennuyeux, trait de caractère) vs 'Está aburrido' (Il s'ennuie, état momentané)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": false,
+        "correction": "FAUX. Il faut distinguer deux signes : la 'virgulilla' ou 'tilde de la eñe' (~) qui se place uniquement sur le ñ (España, niño), et les accents aigus (tildes) qui se placent sur les voyelles pour marquer l'accent tonique : á, é, í, ó, ú (exemples : café, árbol, Perú). Ces accents suivent des règles précises selon la terminaison du mot et l'accentuation naturelle de l'espagnol."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "answer": "corre",
+        "alternatives": ["¡corre!", "¡Corre!"],
+        "correction": "L'impératif affirmatif de 'correr' à la deuxième personne du singulier (tú) est '¡Corre!' (cours !). Pour former l'impératif de tú avec les verbes réguliers en -er et -ir, on utilise la forme de la 3e personne du singulier du présent de l'indicatif : corre, come (mange), vive (vis). Attention aux verbes irréguliers : 'poner' → '¡pon!', 'hacer' → '¡haz!', 'venir' → '¡ven!'. L'impératif négatif, lui, utilise le subjonctif : '¡No corras!' (Ne cours pas !)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Los hijos de mi hermano",
+        "correction": "La phrase correcte est 'Los hijos de mi hermano' (Les fils/enfants de mon frère). En espagnol, l'article et le nom doivent s'accorder en genre ET en nombre : MASCULIN SINGULIER = 'el hijo', MASCULIN PLURIEL = 'los hijos', FÉMININ SINGULIER = 'la hija', FÉMININ PLURIEL = 'las hijas'. 'Hijo' étant masculin, on utilise l'article masculin pluriel 'los' devant 'hijos'. Cette règle s'applique aussi aux adjectifs : 'los hijos inteligentes'."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "answer": "ahora",
+        "alternatives": ["ayer", "mañana", "hoy", "siempre", "nunca", "tarde", "temprano", "pronto", "luego", "después", "antes"],
+        "correction": "Exemples d'adverbes de temps (adverbios de tiempo) en espagnol : 'ahora' (maintenant), 'ayer' (hier), 'mañana' (demain), 'hoy' (aujourd'hui), 'siempre' (toujours), 'nunca' (jamais), 'tarde' (tard), 'temprano' (tôt), 'pronto' (bientôt), 'luego' (ensuite), 'después' (après), 'antes' (avant). Ces adverbes permettent de situer une action dans le temps et sont invariables (ils ne s'accordent pas)."
+      }
+    ],
+    "level": "bac",
+    "subject": "Espagnol"
+  }
+}

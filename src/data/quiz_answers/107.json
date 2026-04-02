@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ère Philosophie",
+    "level": "1ere",
+    "subject": "Philosophie"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ère Philosophie",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "**existence esprit**. Seul certain après doute (Méditations)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "correct": false,
+        "correction": "**Faux**. Parfois (rêve, illusion) → cogito sauve."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "correct": null,
+        "correction": "**tabula rasa** = esprit vierge (expérience forme)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "correct": 2,
+        "correction": "**expérience + a priori** (espace/temps formes)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "correct": true,
+        "correction": "**Vrai**. Doute total → 'je pense donc je suis'."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "correct": null,
+        "correction": "**habitude** (expérience répétée, non nécessaire)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "**sens → idées simples** (empirisme Locke)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "correct": null,
+        "correction": "**phénomène** perçu / **noumène** chose en soi (Kant)."
+      }
+    ],
+    "level": "1ere",
+    "subject": "Philosophie"
+  }
+}

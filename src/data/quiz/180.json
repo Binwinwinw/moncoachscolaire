@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Geographie 1ere - Série 180",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "description": "Diagnostic Histoire-Geographie 1ere : Quiz Diagnostic 1ere Histoire-Géographie - Serie 6",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Histoire-Géographie - Serie 6",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Dans quel contexte international la décolonisation s'accélère-t-elle après 1945 ?",
+        "choices": [
+          "Le renforcement des empires coloniaux après la Seconde Guerre mondiale",
+          "Le contexte de la Guerre Froide et l'affaiblissement des puissances coloniales",
+          "Le retour du nationalisme européen",
+          "La prospérité économique des métropoles coloniales"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'Inde obtient son indépendance du Royaume-Uni en 1947 grâce notamment à l'action non-violente de Gandhi."
+      },
+      {
+        "type": "open",
+        "question": "Quelles sont les principales caractéristiques de la guerre d'Algérie (1954-1962) ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que la conférence de Bandung (1955) représente dans le mouvement de décolonisation ?",
+        "choices": [
+          "Une alliance militaire des pays colonisés contre les puissances occidentales",
+          "La création d'une organisation des pays non-alignés",
+          "La première grande réunion des pays d'Asie et d'Afrique affirmant leur indépendance et refusant la bipolarité",
+          "Un traité économique entre pays du Tiers-Monde"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'année 1960 est surnommée 'l'année de l'Afrique' car 17 pays africains accèdent à l'indépendance cette année-là."
+      },
+      {
+        "type": "open",
+        "question": "Quels défis les nouveaux États indépendants doivent-ils relever après la décolonisation ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel régime sud-africain de ségrégation raciale prend fin en 1994 avec l'élection de Nelson Mandela ?",
+        "choices": [
+          "La colonisation",
+          "L'apartheid",
+          "Le ségrégationnisme",
+          "La négritude"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le néocolonialisme désigne les nouvelles formes de domination économique et politique exercées par les anciennes puissances coloniales sur les États décolonisés."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

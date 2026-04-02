@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES 1ère - Série 832",
+    "level": "1ère",
+    "subject": "SES"
+  },
+  "quiz": {
+    "title": "Le contrat de travail",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "SES",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "CDI",
+        "correct": 1,
+        "correction": "Le CDI (contrat à durée indéterminée) est la forme normale et générale de la relation de travail."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Un CDD est limité en durée et en renouvellement (généralement 2 renouvellements, durée totale max 18 ou 24 mois selon les cas)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "1. La prestation de travail (le salarié fournit un travail) ; 2. La rémunération (le salarié reçoit un salaire) ; 3. Le lien de subordination (le salarié est sous l'autorité de l'employeur).",
+        "correction": "C'est le lien de subordination qui distingue le salarié du travailleur indépendant."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Une rupture du CDI d'un commun accord entre salarié et employeur",
+        "correct": 2,
+        "correction": "La rupture conventionnelle (créée en 2008) permet de mettre fin au CDI d'un commun accord, avec des indemnités et droit aux allocations chômage."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les lois Aubry de 1998 et 2000 ont instauré les 35h, avec possibilité de dépassement via des heures supplémentaires majorées."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "Une convention collective est un accord négocié entre syndicats de salariés et organisations patronales d'une branche professionnelle. Elle fixe les conditions de travail (salaires, durée, avantages) qui s'appliquent à tous les salariés et employeurs de la branche.",
+        "correction": "Les conventions collectives complètent le Code du travail et ne peuvent être moins favorables que lui."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Un droit constitutionnel reconnu à tous les travailleurs",
+        "correct": 1,
+        "correction": "Le droit de grève est inscrit dans le Préambule de la Constitution de 1946 (réaffirmé en 1958). Dans le secteur public, un préavis de grève est obligatoire."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le télétravail est encadré par le Code du travail depuis 2012 et renforcé après la crise COVID-19 ; il nécessite un accord ou avenant au contrat."
+      }
+    ]
+  }
+}

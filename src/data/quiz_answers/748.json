@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 3eme - Série 748",
+    "level": "3eme",
+    "subject": "EMC"
+  },
+  "quiz": {
+    "title": "La Declaration des droits de l'homme et du citoyen",
+    "question_count": 8,
+    "level": "3eme",
+    "subject": "EMC",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "1789",
+        "correct": 1,
+        "correction": "La DDHC a été adoptée le 26 août 1789 par l'Assemblée nationale constituante, au début de la Révolution française."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le Conseil constitutionnel a reconnu en 1971 la valeur constitutionnelle de la DDHC via le Préambule de la Constitution de 1958, formant le 'bloc de constitutionnalité'."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "liberte, propriete, surete et resistance a l'oppression",
+        "correction": "L'article 2 cite : liberté, propriété, sûreté et résistance à l'oppression comme droits naturels et imprescriptibles."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "La Nation",
+        "correct": 1,
+        "correction": "Article 3 de la DDHC : 'Le principe de toute souveraineté réside essentiellement dans la Nation. Nul corps, nul individu ne peut exercer d'autorité qui n'en émane expressément.'"
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'article 7 de la DDHC dispose que nul ne peut être arrêté que dans les cas déterminés par la loi ; toute arrestation arbitraire est punie."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "Liberte, Egalite, Fraternite",
+        "correction": "La devise 'Liberté, Égalité, Fraternité' est la devise officielle de la République française, inscrite dans la Constitution."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Article 10 (liberte d'opinion)",
+        "correct": 1,
+        "correction": "L'article 10 garantit que nul ne doit être inquiété pour ses opinions, même religieuses, pourvu que leur manifestation ne trouble pas l'ordre public."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "La DDHC de 1789 ne reconnaissait les droits civiques qu'aux hommes. Les femmes ont obtenu le droit de vote en France seulement en 1944."
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": 1066,
+  "title": "Suites arithmétiques",
+  "subject": "Mathématiques",
+  "level": "1ère",
+  "created_at": "2026-03-13T18:54:00.425607Z",
+  "questions": [
+    {
+      "id": "1066_1",
+      "type": "qcm",
+      "question": "Dans une suite arithmétique de premier terme u₁ et de raison r, que vaut uₙ ?",
+      "options": [
+        "uₙ = u₁ · rⁿ⁻¹",
+        "uₙ = u₁ + (n−1)·r",
+        "uₙ = u₁ + n·r",
+        "uₙ = r + (n−1)·u₁"
+      ]
+    },
+    {
+      "id": "1066_2",
+      "type": "vrai-faux",
+      "question": "La suite 2, 5, 8, 11, 14, … est arithmétique de raison 3."
+    },
+    {
+      "id": "1066_3",
+      "type": "texte",
+      "question": "La suite arithmétique a u₁ = 7 et r = −2. Calcule u₈ et la somme S = u₁ + u₂ + … + u₈."
+    },
+    {
+      "id": "1066_4",
+      "type": "qcm",
+      "question": "La somme des n premiers termes d'une suite arithmétique est :",
+      "options": [
+        "n × u₁",
+        "n(u₁ + uₙ)/2",
+        "u₁ × (1 − rⁿ)/(1 − r)",
+        "n × r"
+      ]
+    },
+    {
+      "id": "1066_5",
+      "type": "vrai-faux",
+      "question": "Dans une suite arithmétique, chaque terme est la moyenne arithmétique de ses deux voisins."
+    },
+    {
+      "id": "1066_6",
+      "type": "texte",
+      "question": "Une suite arithmétique a u₃ = 11 et u₇ = 27. Trouve la raison r et u₁."
+    },
+    {
+      "id": "1066_7",
+      "type": "qcm",
+      "question": "Quelle est la somme 1 + 2 + 3 + … + 100 ?",
+      "options": [
+        "5000",
+        "5050",
+        "4950",
+        "10100"
+      ]
+    },
+    {
+      "id": "1066_8",
+      "type": "vrai-faux",
+      "question": "Une suite arithmétique de raison r < 0 est strictement décroissante."
+    }
+  ]
+}

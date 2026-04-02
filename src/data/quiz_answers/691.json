@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 691",
+    "level": "3ème",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "Révisions : évolution et classification",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Les caractères héréditaires influençant survie et reproduction",
+        "correct": 1,
+        "correction": "Les individus porteurs de variations avantageuses laissent en moyenne plus de descendants."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Un clade comprend un ancêtre commun et tous ses descendants."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "homologues",
+        "correction": "Les organes homologues ont une même origine évolutive même si leurs fonctions actuelles peuvent être différentes."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Archaeopteryx",
+        "correct": 1,
+        "correction": "Archaeopteryx combine des caractères reptiliens et aviens, ce qui en fait un fossile de transition célèbre."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'histoire du vivant comprend des extinctions, des radiations évolutives et des spéciations continues."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "phylogénie",
+        "correction": "La phylogénie cherche à reconstruire l'histoire évolutive et les relations de parenté entre les êtres vivants."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Parce que l'antibiotique sélectionne les bactéries déjà résistantes",
+        "correct": 1,
+        "correction": "L'antibiotique élimine les bactéries sensibles et laisse davantage de place aux souches résistantes pour se multiplier."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Des espèces peuvent se ressembler par convergence évolutive sans être proches parentes."
+      }
+    ]
+  }
+}

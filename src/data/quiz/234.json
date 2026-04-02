@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Philosophie 1ere - Série 234",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Philosophie",
+    "description": "Diagnostic Philosophie 1ere : Quiz Diagnostic 1ere Philosophie - Serie 11",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Philosophie - Serie 11",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Philosophie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Selon Rawls, les principes de justice doivent être choisis derrière un 'voile d'ignorance'. Que signifie cette expression ?",
+        "choices": [
+          "Choisir les lois sans regarder les autres",
+          "Choisir les principes de justice sans savoir quelle place on occupera dans la société",
+          "Ignorer les lois injustes",
+          "Voter à bulletin secret"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La justice distributive concerne la répartition équitable des biens et des charges dans une société."
+      },
+      {
+        "type": "open",
+        "question": "Quelle différence y a-t-il entre légalité et légitimité ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que le droit naturel ?",
+        "choices": [
+          "Le droit des animaux dans la nature",
+          "Un ensemble de droits fondamentaux inhérents à la nature humaine, antérieurs et supérieurs aux lois positives",
+          "Les lois tirées de l'observation de la nature",
+          "Le droit international de l'environnement"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Pour Thrasymachus (dans la République de Platon), la justice est l'avantage du plus fort."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que la peine dans le droit pénal et quels en sont les fondements philosophiques ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle position philosophique Nozick défend-il contre Rawls concernant la justice ?",
+        "choices": [
+          "La justice exige une redistribution égalitaire des richesses",
+          "Toute distribution issue d'échanges libres et volontaires est juste, quelle que soit son inégalité",
+          "La justice est la propriété du plus fort",
+          "Il n'existe pas de principes objectifs de justice"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La Déclaration universelle des droits de l'homme (1948) reconnaît des droits universels valables pour tous les êtres humains."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

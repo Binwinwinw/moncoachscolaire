@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 689",
+    "level": "3ème",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "Écologie : risques naturels et prévention",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "La rencontre entre un aléa naturel et des enjeux humains vulnérables",
+        "correct": 1,
+        "correction": "Le risque dépend de l'aléa, de l'exposition des populations et de leur vulnérabilité."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'urbanisation des zones inondables expose davantage de personnes et de biens aux crues."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "avalanche",
+        "correction": "Les avalanches sont des mouvements rapides de neige pouvant menacer les zones de montagne et les infrastructures."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Le plan de prévention des risques",
+        "correct": 1,
+        "correction": "Les plans de prévention des risques encadrent l'aménagement du territoire selon les aléas identifiés."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les alertes, les évacuations et la préparation des habitants permettent de limiter l'impact humain des catastrophes."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "reboisement",
+        "correction": "Le reboisement stabilise les sols, ralentit le ruissellement et limite certains mouvements de terrain."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "La montée du niveau de la mer",
+        "correct": 0,
+        "correction": "L'élévation du niveau marin augmente la fréquence et l'intensité potentielles des submersions côtières."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les vagues de chaleur, sécheresses, pluies intenses et incendies sont déjà influencés dans plusieurs régions par le réchauffement climatique."
+      }
+    ]
+  }
+}

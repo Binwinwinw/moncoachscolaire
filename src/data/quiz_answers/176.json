@@ -1,0 +1,76 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Geographie 1ere - Série 176",
+    "level": "1ere",
+    "subject": "Histoire-Geographie"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Histoire-Géographie - Serie 2",
+    "question_count": 8,
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "L'assassinat de l'archiduc François-Ferdinand à Sarajevo",
+        "correct": 1,
+        "correction": "L'assassinat de l'archiduc François-Ferdinand, héritier de l'empire austro-hongrois, le 28 juin 1914 à Sarajevo par Gavrilo Princip, nationaliste serbe, déclenche la crise diplomatique qui conduit à la guerre mondiale."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. À partir de fin 1914, le front occidental se stabilise en un réseau de tranchées s'étendant de la mer du Nord à la frontière suisse. Cette guerre de position, épuisante et meurtrière, durera jusqu'en 1918."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "correct_answer": "L'Union sacrée est la suspension des conflits politiques internes pour unir tous les Français derrière l'effort de guerre.",
+        "answer": "L'Union sacrée est la suspension des conflits politiques internes pour unir tous les Français derrière l'effort de guerre.",
+        "correction": "L'Union sacrée, proclamée par le président Poincaré le 4 août 1914, est l'union de toutes les forces politiques françaises (socialistes, républicains, conservateurs) pour soutenir l'effort de guerre. Les oppositions politiques sont suspendues ; même les syndicats et le parti socialiste y adhèrent."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "La bataille de Verdun",
+        "correct": 2,
+        "correction": "La bataille de Verdun (21 février – 18 décembre 1916) est la plus longue et l'une des plus meurtrières de la guerre : environ 700 000 victimes (morts, blessés, disparus) des deux côtés. Elle devient le symbole de la résistance française et de l'horreur de la Grande Guerre."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "FAUX. Les États-Unis maintiennent leur neutralité jusqu'en avril 1917, avant d'entrer en guerre aux côtés des Alliés, notamment en raison de la guerre sous-marine à outrance menée par l'Allemagne et de l'interception du télégramme Zimmermann."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "correct_answer": "L'Allemagne doit payer de lourdes réparations, céder des territoires (Alsace-Lorraine, etc.) et accepter la clause de responsabilité de la guerre.",
+        "answer": "L'Allemagne doit payer de lourdes réparations, céder des territoires (Alsace-Lorraine, etc.) et accepter la clause de responsabilité de la guerre.",
+        "correction": "Le traité de Versailles (28 juin 1919) impose à l'Allemagne : la cession de l'Alsace-Lorraine à la France, de territoires à la Pologne, au Danemark, à la Belgique ; des réparations de guerre colossales ; la limitation de son armée ; et la clause de responsabilité exclusive de la guerre (article 231), source d'humiliation qui alimentera le ressentiment nationaliste."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "La SDN (Société des Nations)",
+        "correct": 1,
+        "correction": "La Société des Nations (SDN) est créée par le traité de Versailles en 1919, sur proposition du président américain Wilson (14 points). Elle préfigure l'ONU mais sera fragilisée par l'absence des États-Unis, qui refusent de la rejoindre, et sera dissoute en 1946."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. À partir de 1915, l'Empire ottoman organise la déportation et le massacre systématique des Arméniens. Ce génocide, reconnu par de nombreux États dont la France, fait entre 600 000 et 1,5 million de victimes selon les estimations."
+      }
+    ]
+  }
+}

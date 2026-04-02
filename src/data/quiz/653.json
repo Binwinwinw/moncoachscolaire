@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 653",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 3ème : Génétique : mutations et maladies génétiques",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "Génétique : mutations et maladies génétiques",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la cause chromosomique de la trisomie 21 ?",
+        "choices": [
+          "Absence du chromosome 21",
+          "Trois exemplaires du chromosome 21",
+          "Mutation du gène 21",
+          "Délétion du chromosome 21"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les rayonnements UV peuvent provoquer des mutations de l'ADN."
+      },
+      {
+        "type": "open",
+        "question": "Quel mécanisme cellulaire répare la plupart des mutations de l'ADN avant la division ?"
+      },
+      {
+        "type": "qcm",
+        "question": "La drépanocytose est une maladie génétique affectant :",
+        "choices": [
+          "Les os",
+          "Les globules rouges",
+          "Les neurones",
+          "Le foie"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Toutes les mutations des cellules somatiques sont transmissibles aux enfants."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on un individu porteur d'un seul allèle muté récessif sans manifester la maladie ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel type de rayonnement est le plus souvent à l'origine des cancers de la peau ?",
+        "choices": [
+          "Infrarouge",
+          "Ultraviolet",
+          "Micro-ondes",
+          "Rayons gamma"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La mucoviscidose est une maladie autosomique récessive."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

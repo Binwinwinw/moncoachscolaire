@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 774",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 3eme : Les grandes inventions et leur impact sur la societe",
+    "status": "published",
+    "created_at": "2026-03-14 04:06:19",
+    "updated_at": "2026-03-14 04:06:19"
+  },
+  "quiz": {
+    "title": "Les grandes inventions et leur impact sur la societe",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle invention de Gutenberg (vers 1450) a revolutionne la diffusion du savoir ?",
+        "choices": [
+          "La machine a calculer",
+          "L'imprimerie a caracteres mobiles",
+          "Le telescope",
+          "La poudre a canon"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Internet a ete initialement developpe comme un reseau militaire americain (ARPANET) dans les annees 1960."
+      },
+      {
+        "type": "open",
+        "question": "Quel scientifique est considere comme l'inventeur de la radio, ayant realise la premiere transmission sans fil en 1895 ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est l'impact principal de la revolution numerique sur la societe depuis les annees 1990 ?",
+        "choices": [
+          "La disparition des emplois industriels uniquement",
+          "La transformation de la production, de la communication et de l'acces au savoir a l'echelle mondiale",
+          "La reduction des inegalites economiques mondiales",
+          "L'amelioration uniquement des transports"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La deuxieme revolution industrielle (fin XIXe siecle) est liee a l'electricite et au moteur a explosion."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la transition vers une economie ou les technologies numeriques transforment tous les secteurs de production et de service ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle technologie d'impression permet de creer des objets physiques couche par couche a partir d'un modele numerique 3D ?",
+        "choices": [
+          "Imprimerie offset",
+          "Impression 3D (fabrication additive)",
+          "Gravure laser",
+          "Decoupe numerique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les nanotechnologies permettent de manipuler la matiere a l'echelle du nanometre (10^-9 metre)."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

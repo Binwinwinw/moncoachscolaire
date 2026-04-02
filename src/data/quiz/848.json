@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES 1ère - Série 848",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SES",
+    "description": "Diagnostic SES 1ère : Les effets de la mondialisation",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Les effets de la mondialisation",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SES",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "La mondialisation a contribué à réduire la pauvreté en :",
+        "choices": [
+          "Augmentant les inégalités dans tous les pays",
+          "Permettant l'essor économique de la Chine, de l'Inde et d'autres pays émergents",
+          "Favorisant les pays développés uniquement",
+          "Supprimant les droits de douane partout"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La mondialisation a uniformisé les cultures à l'échelle mondiale ('McDonaldisation')."
+      },
+      {
+        "type": "open",
+        "question": "Quels sont les effets de la mondialisation sur l'emploi dans les pays développés ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Le terme 'globalisation' désigne :",
+        "choices": [
+          "Uniquement les échanges commerciaux",
+          "L'intégration mondiale des économies, cultures et flux d'information",
+          "La création d'un gouvernement mondial",
+          "L'unification des monnaies"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les accords commerciaux régionaux (ex : UE, ASEAN) constituent une forme de mondialisation partielle."
+      },
+      {
+        "type": "open",
+        "question": "Quels sont les défis environnementaux posés par la mondialisation ?"
+      },
+      {
+        "type": "qcm",
+        "question": "La 'démondialisation' ou 'slowbalisation' désigne :",
+        "choices": [
+          "Une accélération des échanges mondiaux",
+          "Un ralentissement ou recul de l'intégration commerciale et financière mondiale",
+          "La création d'un marché mondial unifié",
+          "La fin des firmes multinationales"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La souveraineté économique nationale est une réponse aux risques de dépendance excessive liés à la mondialisation."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 2nde - Serie 968",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 2nde : Ordre & inégalités",
+    "status": "published",
+    "created_at": "2026-03-13 11:15:43",
+    "updated_at": "2026-03-13 11:15:43"
+  },
+  "quiz": {
+    "title": "Ordre & inégalités",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel est le résultat de l'inégalité après multiplication par −2 des deux membres de x < 3 ?",
+        "choices": [
+          "−2x < −6",
+          "−2x > −6",
+          "2x > −6",
+          "x > −6"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Si a > b et c > 0, alors ac > bc."
+      },
+      {
+        "type": "open",
+        "question": "Résous l'inégalité 3x − 5 > 7 et exprime la solution sous forme d'intervalle."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle notation représente l'ensemble {x ∈ R | −1 ≤ x < 5} ?",
+        "choices": [
+          "[−1 ; 5]",
+          "]−1 ; 5[",
+          "[−1 ; 5[",
+          "]−1 ; 5]"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Si a < b et b < c, alors a < c (transitivité)."
+      },
+      {
+        "type": "open",
+        "question": "Résous le système d'inégalités : 2x + 1 > 5 ET x − 3 < 2."
+      },
+      {
+        "type": "qcm",
+        "question": "Si a² < b², avec a, b > 0, que peut-on conclure ?",
+        "choices": [
+          "a > b",
+          "a < b",
+          "a = b",
+          "Impossible à conclure"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'intervalle ]−∞ ; 3] est fermé à droite."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

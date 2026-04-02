@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic NSI 1ère - Série 898",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "description": "Diagnostic NSI 1ère : Systèmes de numération et codage binaire",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "Systèmes de numération et codage binaire",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel est le système de numération utilisé par les ordinateurs ?",
+        "choices": [
+          "Décimal",
+          "Binaire",
+          "Hexadécimal",
+          "Octal"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "En binaire, le nombre 1011 représente le nombre décimal 11."
+      },
+      {
+        "type": "open",
+        "question": "Comment convertir un nombre décimal en binaire ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le nombre binaire de 255 en hexadécimal ?",
+        "choices": [
+          "0xFF",
+          "0x00",
+          "0x1A",
+          "0xF0"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le code ASCII utilise 7 bits pour représenter les caractères."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que le code Unicode et pourquoi a-t-il été créé ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le résultat de l'opération binaire 1010 AND 1100 ?",
+        "choices": [
+          "1000",
+          "1110",
+          "0110",
+          "1010"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le complément à deux est une méthode pour représenter les nombres négatifs en binaire."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 3eme Mathématiques",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Mathematiques",
+    "description": "Diagnostic théorème Thalès, équations, probabilités 3eme"
+  },
+  "quiz": {
+    "title": "Diagnostic Maths 3eme",
+    "level": "3eme",
+    "subject": "Mathematiques",
+    "question_count": 8,
+    "passing_score": 80,
+    "questions": [
+      {
+        "id": 1,
+        "type": "texte",
+        "question": "Thalès parallèle coupe ... proportionnellement."
+      },
+      {
+        "id": 2,
+        "type": "qcm",
+        "question": "Équation 2x+3=7 → x=",
+        "choices": [
+          "2",
+          "5",
+          "3",
+          "1"
+        ]
+      },
+      {
+        "id": 3,
+        "type": "vrai-faux",
+        "question": "P(θ)=θ/360 (cercle)."
+      },
+      {
+        "id": 4,
+        "type": "texte",
+        "question": "PGCD(12,18)="
+      },
+      {
+        "id": 5,
+        "type": "qcm",
+        "question": "Trigonétrie : sin(90°)= ",
+        "choices": [
+          "0",
+          "1",
+          "0.5"
+        ]
+      },
+      {
+        "id": 6,
+        "type": "texte",
+        "question": "Volume cube côté 3= ... cm³"
+      },
+      {
+        "id": 7,
+        "type": "vrai-faux",
+        "question": "Développements binôme (a+b)²=a²+2ab+b²."
+      },
+      {
+        "id": 8,
+        "type": "qcm",
+        "question": "Thalès converse vraie si ... parallèle."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Thalès"
+    },
+    {
+      "notion": "Équations"
+    },
+    {
+      "notion": "Probabilités"
+    }
+  ],
+  "exerciseresponses": []
+}

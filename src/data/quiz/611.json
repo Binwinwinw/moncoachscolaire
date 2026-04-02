@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 611",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 1ère : Génétique mendélienne : monohybridisme",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Génétique mendélienne : monohybridisme",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'un allèle dominant ?",
+        "choices": [
+          "Un allèle présent sur le chromosome Y",
+          "Un allèle dont l'effet phénotypique s'exprime même en un seul exemplaire (hétérozygote)",
+          "Un allèle rare dans la population",
+          "Un allèle qui ne se transmet qu'aux filles"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un individu homozygote pour un gène possède deux allèles identiques pour ce gène."
+      },
+      {
+        "type": "open",
+        "question": "En croisant deux individus hétérozygotes (Aa x Aa), la proportion attendue d'individus de phénotype récessif (aa) est de _____ %."
+      },
+      {
+        "type": "qcm",
+        "question": "La loi de ségrégation de Mendel stipule que :",
+        "choices": [
+          "Les allèles se mélangent chez les descendants",
+          "Chaque gamète ne reçoit qu'un seul allèle de chaque paire",
+          "Les allèles dominants éliminent les récessifs",
+          "Les gènes sont toujours liés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Si un individu de phénotype dominant peut être hétérozygote, un test-cross (croisement avec un homozygote récessif) permet de déterminer son génotype."
+      },
+      {
+        "type": "open",
+        "question": "Le _____ est l'ensemble des allèles d'un individu ; le phénotype est son aspect observable résultant de l'expression du génotype."
+      },
+      {
+        "type": "qcm",
+        "question": "La codominance se produit quand :",
+        "choices": [
+          "Un allèle masque totalement l'autre",
+          "Les deux allèles s'expriment simultanément dans le phénotype de l'hétérozygote",
+          "Les allèles se mélangent pour donner un phénotype intermédiaire",
+          "Un gène contrôle plusieurs caractères"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le groupe sanguin ABO est déterminé par trois allèles : IA, IB et i (ou IO)."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

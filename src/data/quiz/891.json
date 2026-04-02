@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic NSI 1ère - Série 891",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "description": "Diagnostic NSI 1ère : Variables, types et expressions",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "Variables, types et expressions",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "En Python, quel est le type de la valeur 3.14 ?",
+        "choices": [
+          "int",
+          "float",
+          "str",
+          "complex"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "En Python, les variables n'ont pas de type fixe ; elles peuvent changer de type."
+      },
+      {
+        "type": "open",
+        "question": "Quelle est la différence entre les opérateurs // et / en Python ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le résultat de 17 % 5 en Python ?",
+        "choices": [
+          "3",
+          "2",
+          "0",
+          "3.4"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "En Python, l'opérateur ** est l'opérateur de puissance."
+      },
+      {
+        "type": "open",
+        "question": "Expliquez la différence entre = et == en Python."
+      },
+      {
+        "type": "qcm",
+        "question": "Que retourne type('hello') en Python ?",
+        "choices": [
+          "'string'",
+          "<class 'str'>",
+          "str",
+          "'hello'"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "En Python, int('42') convertit la chaîne '42' en entier 42."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

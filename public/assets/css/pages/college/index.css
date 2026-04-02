@@ -1,0 +1,350 @@
+/* Extracted from college/index.php */
+header {
+    background: linear-gradient(135deg, #059669 0%, #10b981 100%);
+}
+
+/* Main transparent pour effet de flottement des cartes */
+.college-accueil-main,
+main.college-accueil-main {
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+/* Sections avec effet de flou pour flottement */
+.college-accueil-main .intro {
+    margin: 3rem auto;
+    max-width: 1200px;
+    position: relative;
+    z-index: 1;
+    padding: 0 1rem;
+}
+
+/* Sur les grands écrans (>1200px), utiliser toute la largeur */
+@media (min-width: 1201px) {
+    .college-accueil-main .intro {
+        max-width: 100%;
+        padding: 0 3rem;
+    }
+}
+
+/* Grid pour utiliser toute la largeur de l'écran - 4 cartes sur une ligne */
+.college-accueil-main .niveau-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    justify-items: stretch;
+    width: 100%;
+    max-width: 100%;
+    margin: 2rem 0;
+    padding: 0 1rem;
+}
+
+/* Cartes avec style aplati - styles complets transférés de style.css */
+.college-accueil-main .niveau-card {
+    background: rgba(255, 255, 255, 0.15) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    color: #1e293b;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    padding: 2rem;
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Pseudo-élément ::before pour la barre colorée en haut */
+.college-accueil-main .niveau-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #059669, #10b981, #34d399);
+}
+
+/* Sur les grands écrans (>1200px), fixer la largeur des cartes et augmenter l'espacement */
+@media (min-width: 1201px) {
+    .college-accueil-main .niveau-cards {
+        grid-template-columns: repeat(4, auto);
+        gap: 3rem;
+        justify-content: center;
+        justify-items: start;
+        padding: 0 2rem;
+        max-width: 100%;
+        margin: 2rem auto;
+    }
+
+    .college-accueil-main .niveau-card {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+    }
+}
+
+/* Effet au survol */
+.college-accueil-main .niveau-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.2) !important;
+    opacity: 0.85;
+}
+
+/* Styles pour les titres h3 */
+.college-accueil-main .niveau-card h3 {
+    color: #059669;
+    font-size: 1.5em;
+    margin-bottom: 0.4rem;
+    font-weight: 700;
+}
+
+/* Styles pour les paragraphes */
+.college-accueil-main .niveau-card p {
+    font-weight: 600;
+    color: #1e293b;
+    margin-bottom: 1rem;
+    font-size: 0.95em;
+}
+
+/* Styles pour les listes */
+.college-accueil-main .niveau-card ul {
+    text-align: left;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Styles pour les éléments de liste */
+.college-accueil-main .niveau-card li {
+    margin-bottom: 0.5rem;
+    color: #1e293b;
+    position: relative;
+}
+
+/* Puce personnalisée pour les listes */
+.college-accueil-main .niveau-card li::before {
+    content: "✓";
+    color: #10b981;
+    font-weight: bold;
+    position: absolute;
+    left: -1.2rem;
+    top: -2px;
+}
+
+/* Styles des boutons dans les cartes */
+.college-accueil-main .niveau-card .btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.85em;
+    margin: 0.3rem 0;
+}
+
+/* Carte spéciale (3ème - Brevet) - style aplati */
+.college-accueil-main .niveau-card.special {
+    background: #fef3c7;
+    color: #1e293b;
+    backdrop-filter: none;
+    border: 1px solid #f59e0b;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.college-accueil-main .niveau-card.special::before {
+    background: linear-gradient(90deg, #059669, #10b981, #34d399);
+}
+
+.college-accueil-main .niveau-card.special h3 {
+    color: #1e293b;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.college-accueil-main .niveau-card.special p,
+.college-accueil-main .niveau-card.special li,
+.college-accueil-main .niveau-card.special ul {
+    color: #1e293b;
+}
+
+.college-accueil-main .niveau-card.special li {
+    font-weight: 600;
+}
+
+.college-accueil-main .niveau-card.special li::before {
+    color: #7c3aed;
+}
+
+/* Messages coach avec effet de flou pour cohérence */
+.college-accueil-main .coach-message {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive : 2 colonnes sur tablette */
+@media (max-width: 1200px) {
+    .college-accueil-main .niveau-cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
+/* Responsive : 1 colonne sur mobile */
+@media (max-width: 768px) {
+    .college-accueil-main .niveau-cards {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .college-accueil-main .niveau-card {
+        max-width: 100%;
+    }
+}
+
+/* === Accueil niveau : Objectif + Continue + Navigation === */
+.college-accueil-main .level-home-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.college-accueil-main .level-home-card {
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    position: relative;
+    overflow: hidden;
+}
+
+.college-accueil-main .level-home-card--goal {
+    border-left: 4px solid #059669;
+}
+
+.college-accueil-main .level-home-card--goal::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        120deg,
+        rgba(16, 185, 129, 0.15),
+        rgba(255, 255, 255, 0)
+    );
+    opacity: 0;
+    animation: goalGlow 4s ease-in-out infinite;
+    pointer-events: none;
+}
+
+.college-accueil-main .level-home-card--continue {
+    border-left: 4px solid #10b981;
+}
+
+.college-accueil-main .level-home-sub {
+    color: #1e293b;
+    margin: 0.5rem 0;
+}
+
+.college-accueil-main .level-home-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 0.75rem;
+}
+
+.college-accueil-main .level-home-primary {
+    background: #059669;
+    color: #ffffff;
+}
+
+.college-accueil-main .level-home-primary:hover {
+    background: #047857;
+}
+
+.college-accueil-main .level-home-meta {
+    margin-top: 0.75rem;
+    font-weight: 600;
+    color: #059669;
+}
+
+.college-accueil-main .level-home-list {
+    list-style: none;
+    padding: 0;
+    margin: 0.75rem 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.college-accueil-main .level-home-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    background: #f8fafc;
+    padding: 0.75rem 1rem;
+    border-radius: 10px;
+}
+
+.college-accueil-main .level-home-nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin: 1.5rem 0 2rem;
+}
+
+.college-accueil-main .level-home-nav-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0.9rem 1rem;
+    border-radius: 10px;
+    background: #ecfdf5;
+    border: 1px solid #d1fae5;
+    font-weight: 600;
+    color: #065f46;
+    text-decoration: none;
+    transition:
+        transform 0.2s,
+        box-shadow 0.2s;
+}
+
+.college-accueil-main .level-home-nav-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(5, 150, 105, 0.15);
+}
+
+@keyframes goalGlow {
+    0%,
+    100% {
+        opacity: 0.15;
+    }
+    50% {
+        opacity: 0.45;
+    }
+}
+
+@media (max-width: 1024px) {
+    .college-accueil-main .level-home-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .college-accueil-main .level-home-nav {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 640px) {
+    .college-accueil-main .level-home-nav {
+        grid-template-columns: 1fr;
+    }
+
+    .college-accueil-main .level-home-list li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

@@ -1,0 +1,1160 @@
+{
+    "6eme-maths": [
+        {
+            "title": "Exercice 1 : Nombres décimaux - écriture et lecture ★",
+            "difficulty": "★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) 23,45<\/p>\n            <p>b) Quarante-cinq unités et sept centièmes<\/p>\n            <p>c) Le chiffre des dixièmes est 3<\/p>\n            <p>d) 12,05 &lt; 12,5 = 12,50 = 12,500<\/p>\n            <p><strong>💡 Rappel :<\/strong> 12,5 = 12,50 = 12,500 (zéros inutiles après la virgule)<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Consignes :<\/strong><\/p>\n          <p>a) Écris en chiffres : vingt-trois unités et quarante-cinq centièmes<\/p>\n          <p>b) Écris en lettres : 45,07<\/p>\n          <p>c) Dans le nombre 126,384, quel est le chiffre des dixièmes ?<\/p>\n          <p>d) Range dans l'ordre croissant : 12,5 ; 12,05 ; 12,50 ; 12,500<\/p>",
+            "level": "6eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 2 : Addition et soustraction des décimaux ★",
+            "difficulty": "★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) 45,6 + 178,24 = 223,84<\/p>\n            <p>b) 203,5 - 67,89 = 135,61<\/p>\n            <p>c) 12,50 - 3,75 = 8,75 €<\/p>\n            <p><strong>⚠️ Méthode :<\/strong> Bien aligner les virgules lors du calcul posé<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Consignes :<\/strong> Calcule en posant les opérations<\/p>\n          <p>a) 45,6 + 178,24 = ?<\/p>\n          <p>b) 203,5 - 67,89 = ?<\/p>\n          <p>c) Un livre coûte 12,50 € et un cahier 3,75 €. Quelle est la différence de prix ?<\/p>",
+            "level": "6eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 3 : Multiplication des nombres décimaux ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) 2,5 × 4 = 10<\/p>\n            <p>b) 12,6 × 3,2 = 40,32<\/p>\n            <p>c) 2,40 × 7 = 16,80 €<\/p>\n            <p>d) 45,6 × 10 = 456 ; 45,6 × 100 = 4560 ; 45,6 × 1000 = 45600<\/p>\n            <p><strong>📝 Règle :<\/strong> Pour multiplier par 10, 100, 1000, on décale la virgule vers la droite<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Consignes :<\/strong><\/p>\n          <p>a) 2,5 × 4 = ?<\/p>\n          <p>b) 12,6 × 3,2 = ?<\/p>\n          <p>c) Un cahier coûte 2,40 €. Combien coûtent 7 cahiers ?<\/p>\n          <p>d) 45,6 × 10 = ? ; 45,6 × 100 = ? ; 45,6 × 1000 = ?<\/p>",
+            "level": "6eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 4 : Division décimale ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) 84 ÷ 6 = 14<\/p>\n            <p>b) 15,6 ÷ 4 = 3,9<\/p>\n            <p>c) 89,60 ÷ 7 = 12,80 € par personne<\/p>\n            <p><strong>💡 Méthode :<\/strong> On peut vérifier : 12,80 × 7 = 89,60 ✓<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Consignes :<\/strong><\/p>\n          <p>a) 84 ÷ 6 = ?<\/p>\n          <p>b) 15,6 ÷ 4 = ?<\/p>\n          <p>c) 7 amis se partagent équitablement une facture de 89,60 €. Combien paie chacun ?<\/p>",
+            "level": "6eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 5 : Fractions simples ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) [Schéma : rectangle avec 3 cases sur 4 coloriées]<\/p>\n            <p>b) 3\/8 du cercle est colorié<\/p>\n            <p>c) 0,5 = 5\/10 = 1\/2 ; 0,25 = 25\/100 = 1\/4 ; 0,75 = 75\/100 = 3\/4<\/p>\n            <p><strong>📖 Rappel :<\/strong> Une fraction indique combien de parts on prend sur un total<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Consignes :<\/strong><\/p>\n          <p>a) Colorie 3\/4 d'un rectangle divisé en 4 parties égales<\/p>\n          <p>b) Quelle fraction de ce cercle est coloriée ? [Figure : cercle divisé en 8, 3 parts coloriées]<\/p>\n          <p>c) Écris sous forme de fraction : 0,5 ; 0,25 ; 0,75<\/p>",
+            "level": "6eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 6 : Unités de longueur ★",
+            "difficulty": "★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) 3 m = 300 cm<\/p>\n            <p>b) 1500 mm = 1,5 m<\/p>\n            <p>c) 2,5 km = 2500 m<\/p>\n            <p>d) 150 cm = 1,5 m ; 0,002 km = 2 m ; 15 dm = 1,5 m ; donc : 150 cm = 15 dm &lt; 1,6 m &lt; 0,002 km<\/p>\n            <p><strong>📏 Tableau :<\/strong> km - hm - dam - m - dm - cm - mm<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Consignes :<\/strong> Effectue les conversions<\/p>\n          <p>a) 3 m = ? cm<\/p>\n          <p>b) 1500 mm = ? m<\/p>\n          <p>c) 2,5 km = ? m<\/p>\n          <p>d) Range dans l'ordre croissant : 150 cm ; 0,002 km ; 15 dm ; 1,6 m<\/p>",
+            "level": "6eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 7 : Aires et périmètres ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Périmètre = 2 × (L + l) = 2 × (8 + 5) = 2 × 13 = 26 cm<\/p>\n            <p>b) Aire = L × l = 8 × 5 = 40 cm²<\/p>\n            <p>c) Si aire du carré = 40 cm², alors côté² = 40, donc côté ≈ 6,3 cm<\/p>\n            <p><strong>📐 Formules :<\/strong> Rectangle P = 2(L+l), A = L×l ; Carré P = 4c, A = c²<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Données :<\/strong> Rectangle de longueur L = 8 cm et largeur l = 5 cm<\/p>\n          <p><strong>Consignes :<\/strong><\/p>\n          <p>a) Calcule le périmètre de ce rectangle<\/p>\n          <p>b) Calcule son aire<\/p>\n          <p>c) Un carré a la même aire. Quelle est la longueur de son côté ?<\/p>",
+            "level": "6eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 8 : Unités de masse et de capacité ★",
+            "difficulty": "★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) 2,5 kg = 2500 g<\/p>\n            <p>b) 3400 g = 3,4 kg<\/p>\n            <p>c) 1,5 L = 150 cL<\/p>\n            <p>d) 6 L = 600 cL ; 600 ÷ 75 = 8 bouteilles<\/p>\n            <p><strong>⚖️ Unités :<\/strong> kg-hg-dag-g-dg-cg-mg ; kL-hL-daL-L-dL-cL-mL<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Consignes :<\/strong><\/p>\n          <p>a) 2,5 kg = ? g<\/p>\n          <p>b) 3400 g = ? kg<\/p>\n          <p>c) 1,5 L = ? cL<\/p>\n          <p>d) Une bouteille contient 75 cL. Combien faut-il de bouteilles pour remplir un bidon de 6 L ?<\/p>",
+            "level": "6eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 9 : Durées ★",
+            "difficulty": "★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) 2 h 30 min = 2 × 60 + 30 = 150 min<\/p>\n            <p>b) 225 min = 225 ÷ 60 = 3 h 45 min<\/p>\n            <p>c) 14h45 + 1h40 = 16h25<\/p>\n            <p><strong>⏰ Méthode :<\/strong> 1 h = 60 min ; Attention aux retenues<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Consignes :<\/strong><\/p>\n          <p>a) 2 h 30 min = ? min<\/p>\n          <p>b) 225 min = ? h ? min<\/p>\n          <p>c) Un film commence à 14h45 et dure 1h40. À quelle heure se termine-t-il ?<\/p>",
+            "level": "6eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 10 : Droites, segments et points ★",
+            "difficulty": "★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) [Schéma : droite passant par A et B avec flèches aux extrémités]<\/p>\n            <p>b) [Schéma : point C sur (AB), point D à l'extérieur]<\/p>\n            <p>c) [Schéma : segment reliant C et D]<\/p>\n            <p>d) Oui, elles sont sécantes car elles se coupent au point C<\/p>\n            <p><strong>📐 Vocabulaire :<\/strong> Droite (infinie), segment [limité], demi-droite [origine)<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Consignes :<\/strong><\/p>\n          <p>a) Trace la droite (AB) passant par les points A et B<\/p>\n          <p>b) Place un point C sur cette droite et un point D à l'extérieur<\/p>\n          <p>c) Trace le segment [CD]<\/p>\n          <p>d) Les droites (AB) et (CD) sont-elles sécantes ? Pourquoi ?<\/p>",
+            "level": "6eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 11 : Figures géométriques simples ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) [Construction au compas : cercle de centre A et rayon 4 cm, cercle de centre B et rayon 5 cm]<\/p>\n            <p>b) Triangle quelconque (tous les côtés sont différents)<\/p>\n            <p>c) [Construction : carré avec règle et équerre]<\/p>\n            <p>d) Les diagonales se coupent à angle droit au centre du carré<\/p>\n            <p><strong>🔺 Triangles :<\/strong> Équilatéral (3 côtés égaux), Isocèle (2 côtés égaux), Quelconque<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Consignes :<\/strong><\/p>\n          <p>a) Construis un triangle ABC tel que AB = 6 cm, AC = 4 cm, BC = 5 cm<\/p>\n          <p>b) Ce triangle est-il équilatéral, isocèle ou quelconque ?<\/p>\n          <p>c) Construis un carré DEFG de côté 4 cm<\/p>\n          <p>d) Trace les diagonales de ce carré. Que constates-tu ?<\/p>",
+            "level": "6eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 12 : Solides usuels ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Cube : 6 faces carrées, 8 sommets, 12 arêtes<\/p>\n            <p>b) [Schéma du patron : croix avec rectangles 3×2, 3×1, 2×1]<\/p>\n            <p>c) Volume = L × l × h = 6 × 4 × 3 = 72 cm³<\/p>\n            <p><strong>📦 Formule :<\/strong> Volume pavé = longueur × largeur × hauteur<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Consignes :<\/strong><\/p>\n          <p>a) Cite les caractéristiques d'un cube (faces, sommets, arêtes)<\/p>\n          <p>b) Dessine le patron d'un pavé droit de dimensions 3×2×1<\/p>\n          <p>c) Calcule le volume d'un pavé de longueur 6 cm, largeur 4 cm, hauteur 3 cm<\/p>",
+            "level": "6eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 13 : Symétrie axiale ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) [Construction : perpendiculaire à d passant par A, report de la distance]<\/p>\n            <p>b) Si ABC est isocèle en A, l'axe de symétrie est la médiatrice de [BC]<\/p>\n            <p>c) [Compléter point par point en utilisant la symétrie axiale]<\/p>\n            <p><strong>🪞 Propriété :<\/strong> La droite est médiatrice du segment [point-symétrique]<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Consignes :<\/strong><\/p>\n          <p>a) Trace le symétrique du point A par rapport à la droite d<\/p>\n          <p>b) Le triangle ABC a-t-il un axe de symétrie ? Si oui, lequel ?<\/p>\n          <p>c) Complète cette figure pour qu'elle soit symétrique par rapport à l'axe (d)<\/p>",
+            "level": "6eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 14 : Programmes de construction ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>[Construction géométrique étape par étape]<\/p>\n            <p>Les triangles ABC et ABD ont tous les côtés déterminés : AB = 5, AC = 3, BC = 4, AD = 3, BD = 4<\/p>\n            <p><strong>📐 Remarque :<\/strong> Les points C et D sont symétriques par rapport à (AB)<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Programme :<\/strong><\/p>\n          <ol>\n            <li>Tracer un segment [AB] de 5 cm<\/li>\n            <li>Tracer un cercle de centre A et de rayon 3 cm<\/li>\n            <li>Tracer un cercle de centre B et de rayon 4 cm<\/li>\n            <li>Les deux cercles se coupent en C et D<\/li>\n            <li>Tracer les triangles ABC et ABD<\/li>\n          <\/ol>",
+            "level": "6eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 15 : Tableau et graphique ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Notes rangées : 8, 11, 12, 13, 14, 15, 16<\/p>\n            <p>b) Moyenne = (12+15+8+16+11+14+13) ÷ 7 = 89 ÷ 7 ≈ 12,7<\/p>\n            <p>c) [Graphique : diagramme en bâtons avec notes en abscisse et effectifs en ordonnée]<\/p>\n            <p><strong>📊 Moyenne :<\/strong> Somme des valeurs ÷ nombre de valeurs<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Données :<\/strong> Notes d'un élève : 12, 15, 8, 16, 11, 14, 13<\/p>\n          <p><strong>Consignes :<\/strong><\/p>\n          <p>a) Organise ces notes dans un tableau<\/p>\n          <p>b) Calcule la moyenne de cet élève<\/p>\n          <p>c) Représente ces notes sur un graphique<\/p>",
+            "level": "6eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 16 : Lecture de données ★",
+            "difficulty": "★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Janvier est le mois le plus froid (2°C)<\/p>\n            <p>b) La température en mai est de 16°C<\/p>\n            <p>c) Augmentation = 20° - 8° = 12°C entre mars et juin<\/p>\n            <p><strong>📈 Lecture :<\/strong> Bien identifier les axes (abscisse\/ordonnée)<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Graphique :<\/strong> Températures moyennes mensuelles d'une ville<\/p>\n          <p>[Données : Jan:2°, Fév:4°, Mar:8°, Avr:12°, Mai:16°, Jun:20°]<\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Quel est le mois le plus froid ?<\/p>\n          <p>b) Quelle est la température en mai ?<\/p>\n          <p>c) De combien la température augmente-t-elle entre mars et juin ?<\/p>",
+            "level": "6eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 17 : Moyenne simple ★",
+            "difficulty": "★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Total = 15 + 22 + 18 + 25 + 20 = 100 kg<\/p>\n            <p>Moyenne = 100 ÷ 5 = 20 kg par jour<\/p>\n            <p>b) Mardi (22 kg) et jeudi (25 kg) sont supérieurs à la moyenne<\/p>\n            <p><strong>📊 Moyenne :<\/strong> Somme ÷ nombre de termes<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p>\n            <strong>Situation :<\/strong> Un commerçant a vendu 15 kg de pommes lundi, 22 kg mardi, 18 kg mercredi, 25 kg\n            jeudi et 20 kg vendredi.\n          <\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Calcule la moyenne des ventes par jour<\/p>\n          <p>b) Quels jours les ventes sont-elles supérieures à la moyenne ?<\/p>",
+            "level": "6eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 18 : Reconnaître une situation de proportionnalité ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Tableau A : 3÷2 = 1,5 ; 6÷4 = 1,5 ; 9÷6 = 1,5 ; 12÷8 = 1,5 → Proportionnel<\/p>\n            <p>Tableau B : 140÷10 = 14 ; 160÷15 ≈ 10,7 → Pas proportionnel<\/p>\n            <p>b) Le coefficient de proportionnalité est 1,5 (prix = 1,5 × poids)<\/p>\n            <p><strong>⚖️ Test :<\/strong> Si tous les rapports sont égaux, c'est proportionnel<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Tableaux :<\/strong><\/p>\n          <p>Tableau A : Poids (kg) : 2, 4, 6, 8 | Prix (€) : 3, 6, 9, 12<\/p>\n          <p>Tableau B : Âge : 10, 15, 20, 25 | Taille (cm) : 140, 160, 175, 180<\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Quel tableau représente une situation de proportionnalité ?<\/p>\n          <p>b) Dans le cas de proportionnalité, quel est le coefficient ?<\/p>",
+            "level": "6eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 19 : Règle de trois ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Farine (kg) : 3 → 7,5 | Pains : 8 → ?<\/p>\n            <p>b) Si 3 kg → 8 pains, alors 7,5 kg → (8 × 7,5) ÷ 3 = 60 ÷ 3 = 20 pains<\/p>\n            <p>c) Vérification : 20 ÷ 7,5 = 8 ÷ 3 ≈ 2,67 pains par kg ✓<\/p>\n            <p><strong>✖️ Règle :<\/strong> (nouvelle quantité × ancienne valeur) ÷ ancienne quantité<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p>\n            <strong>Problème :<\/strong> Avec 3 kg de farine, on peut faire 8 pains. Combien peut-on faire de pains avec\n            7,5 kg de farine ?\n          <\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Organise les données dans un tableau<\/p>\n          <p>b) Résous par la règle de trois<\/p>\n          <p>c) Vérifie ta réponse<\/p>",
+            "level": "6eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 20 : Pourcentages simples ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) 20% de 25 = (20 × 25) ÷ 100 = 5 élèves absents<\/p>\n            <p>b) Réduction = 25% de 80 = 20 € ; Prix soldé = 80 - 20 = 60 €<\/p>\n            <p>c) (30 ÷ 120) × 100 = 25% des élèves<\/p>\n            <p><strong>% Méthode :<\/strong> Pourcentage = (partie ÷ total) × 100<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Situations :<\/strong><\/p>\n          <p>a) Dans une classe de 25 élèves, 20% sont absents. Combien d'élèves sont absents ?<\/p>\n          <p>b) Un article coûte 80 €. Il est soldé à 25%. Quel est le prix après réduction ?<\/p>\n          <p>c) Sur 120 élèves, 30 sont en 6ème. Quel pourcentage représentent-ils ?<\/p>",
+            "level": "6eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 21 : Algorithme simple ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) 7 → 7 × 2 = 14 → 14 + 5 = 19<\/p>\n            <p>b) Si résultat = 19, alors avant +5 c'était 14, et avant ×2 c'était 7<\/p>\n            <p>Vérification : 7 × 2 + 5 = 19 ✓<\/p>\n            <p><strong>💻 Méthode :<\/strong> Programme = suite d'instructions dans l'ordre<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Programme :<\/strong><\/p>\n          <p>1. Choisir un nombre<\/p>\n          <p>2. Le multiplier par 2<\/p>\n          <p>3. Ajouter 5<\/p>\n          <p>4. Afficher le résultat<\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Applique ce programme avec le nombre 7<\/p>\n          <p>b) Si le résultat final est 19, quel était le nombre de départ ?<\/p>",
+            "level": "6eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 22 : Programme de construction ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) [Construction géométrique avec règle et compas]<\/p>\n            <p>b) Triangle ABC isocèle en C (car C est sur la médiatrice de [AB], donc CA = CB)<\/p>\n            <p><strong>📐 Médiatrice :<\/strong> Droite perpendiculaire à un segment passant par son milieu<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Programme :<\/strong><\/p>\n          <p>1. Tracer un segment [AB] de 6 cm<\/p>\n          <p>2. Tracer la médiatrice de [AB]<\/p>\n          <p>3. Placer un point C sur cette médiatrice à 4 cm de [AB]<\/p>\n          <p>4. Tracer le triangle ABC<\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Réalise cette construction<\/p>\n          <p>b) Quelle est la nature de ce triangle ?<\/p>",
+            "level": "6eme",
+            "subject": "maths"
+        }
+    ],
+    "6eme-francais": [
+        {
+            "title": "Exercice 23 : Lecture fluente ★",
+            "difficulty": "★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) [Lecture chronométrée pour évaluer la fluence]<\/p>\n            <p>b) 31 mots<\/p>\n            <p>c) Un petit garçon<\/p>\n            <p>d) Dans un village au pied d'une montagne<\/p>\n            <p><strong>📖 Fluence :<\/strong> Objectif 6ème = 120-140 mots par minute<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p>\n            <strong>Texte :<\/strong>\n            <em>\"Il était une fois un petit garçon qui vivait dans un village au pied de la montagne. Chaque matin, il\n              regardait le sommet enneigé et rêvait de l'explorer un jour.\"<\/em>\n          <\/p>\n          <p><strong>Consignes :<\/strong><\/p>\n          <p>a) Lis ce texte à voix haute en 30 secondes maximum<\/p>\n          <p>b) Combien y a-t-il de mots dans ce texte ?<\/p>\n          <p>c) Qui est le personnage principal ?<\/p>\n          <p>d) Où se déroule l'action ?<\/p>",
+            "level": "6eme",
+            "subject": "francais"
+        }
+    ],
+    "5eme-maths": [
+        {
+            "title": "Exercice 48 : Repérage sur une droite graduée ★",
+            "difficulty": "★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) [Placer les points sur la droite]<\/p>\n            <p>b) -2 est plus grand que -5 (plus proche de 0)<\/p>\n            <p>c) -4 &lt; -1 &lt; 0 &lt; +2 &lt; +3<\/p>\n            <p><strong>📏 Règle :<\/strong> Plus un nombre négatif est éloigné de 0, plus il est petit<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Droite graduée :<\/strong> ... -5 -4 -3 -2 -1 0 +1 +2 +3 +4 +5 ...<\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Place les points A(+2), B(-3), C(-5), D(+4)<\/p>\n          <p>b) Quel nombre est le plus grand : -2 ou -5 ?<\/p>\n          <p>c) Range dans l'ordre croissant : +3, -1, -4, 0, +2<\/p>",
+            "level": "5eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 49 : Addition de nombres relatifs ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) (+5) + (+3) = +8<\/p>\n            <p>b) (+7) + (-2) = +5<\/p>\n            <p>c) (-4) + (-3) = -7<\/p>\n            <p>d) (-6) + (+10) = +4<\/p>\n            <p><strong>📝 Règles :<\/strong> Même signe → on additionne ; Signes différents → on soustrait<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Consignes :<\/strong> Calcule<\/p>\n          <p>a) (+5) + (+3) = ?<\/p>\n          <p>b) (+7) + (-2) = ?<\/p>\n          <p>c) (-4) + (-3) = ?<\/p>\n          <p>d) (-6) + (+10) = ?<\/p>",
+            "level": "5eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 50 : Soustraction de relatifs ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) (+8) - (+3) = (+8) + (-3) = +5<\/p>\n            <p>b) (+5) - (-2) = (+5) + (+2) = +7<\/p>\n            <p>c) (-4) - (+3) = (-4) + (-3) = -7<\/p>\n            <p>d) (-7) - (-5) = (-7) + (+5) = -2<\/p>\n            <p><strong>📝 Règle d'or :<\/strong> Soustraire un nombre = ajouter son opposé<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Consignes :<\/strong> Calcule<\/p>\n          <p>a) (+8) - (+3) = ?<\/p>\n          <p>b) (+5) - (-2) = ?<\/p>\n          <p>c) (-4) - (+3) = ?<\/p>\n          <p>d) (-7) - (-5) = ?<\/p>",
+            "level": "5eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 51 : Expressions littérales simples ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) 3×2 + 5 = 6 + 5 = 11<\/p>\n            <p>b) 2×10 - 7 = 20 - 7 = 13<\/p>\n            <p>c) x + x + x = 3x<\/p>\n            <p>d) 5a + 2a = 7a<\/p>\n            <p><strong>🔤 Lettres :<\/strong> Une lettre représente un nombre inconnu<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Consignes :<\/strong><\/p>\n          <p>a) Calcule 3x + 5 pour x = 2<\/p>\n          <p>b) Calcule 2a - 7 pour a = 10<\/p>\n          <p>c) Simplifie : x + x + x<\/p>\n          <p>d) Simplifie : 5a + 2a<\/p>",
+            "level": "5eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 52 : Fractions avancées ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) 12\/18 = 6\/9 = 2\/3 (diviser par 6)<\/p>\n            <p>b) 1\/4 + 2\/4 = 3\/4<\/p>\n            <p>c) 3\/5 = 9\/15 ; 2\/3 = 10\/15 ; donc 3\/5 &lt; 2\/3<\/p>\n            <p><strong>📐 Simplification :<\/strong> Diviser numérateur et dénominateur par le même nombre<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Consignes :<\/strong><\/p>\n          <p>a) Simplifie 12\/18<\/p>\n          <p>b) Calcule 1\/4 + 2\/4<\/p>\n          <p>c) Compare 3\/5 et 2\/3<\/p>",
+            "level": "5eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 53 : Pourcentages ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Réduction = 30% de 150 = 0,30 × 150 = 45 € ; Prix soldé = 150 - 45 = 105 €<\/p>\n            <p>b) 45% de 600 = 0,45 × 600 = 270 filles<\/p>\n            <p><strong>% Méthode :<\/strong> Pourcentage ÷ 100 puis multiplier<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Situations :<\/strong><\/p>\n          <p>a) Un article coûte 150 €. Il est soldé à 30%. Quel est le nouveau prix ?<\/p>\n          <p>b) Dans un collège de 600 élèves, 45% sont des filles. Combien y a-t-il de filles ?<\/p>",
+            "level": "5eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 54 : Vitesse moyenne ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Vitesse = Distance ÷ Temps = 180 ÷ 2 = 90 km\/h<\/p>\n            <p>b) Distance = Vitesse × Temps = 90 × 3,5 = 315 km<\/p>\n            <p><strong>🚗 Formules :<\/strong> v = d\/t ; d = v×t ; t = d\/v<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Problème :<\/strong> Une voiture parcourt 180 km en 2 heures.<\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Calcule la vitesse moyenne<\/p>\n          <p>b) Quelle distance parcourra-t-elle en 3h30 à cette vitesse ?<\/p>",
+            "level": "5eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 55 : Aires composées ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>Aire rectangle = 8 × 5 = 40 cm²<\/p>\n            <p>Aire triangle = (4 × 3) ÷ 2 = 6 cm²<\/p>\n            <p>Aire totale = 40 + 6 = 46 cm²<\/p>\n            <p><strong>📐 Stratégie :<\/strong> Décomposer en figures simples<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Figure :<\/strong> Un rectangle 8×5 cm avec un triangle rectangle collé (base 4 cm, hauteur 3 cm)<\/p>\n          <p><strong>Question :<\/strong> Calcule l'aire totale de cette figure<\/p>",
+            "level": "5eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 56 : Volume du pavé ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) V = L × l × h = 8 × 5 × 4 = 160 cm³<\/p>\n            <p>b) Nouvelles dimensions : 16×10×8 ; V = 16×10×8 = 1280 cm³ (×8)<\/p>\n            <p><strong>📦 Volume :<\/strong> Si on double les dimensions, le volume est multiplié par 8 (2³)<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Données :<\/strong> Pavé droit de longueur 8 cm, largeur 5 cm, hauteur 4 cm<\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Calcule le volume<\/p>\n          <p>b) Si on double toutes les dimensions, quel sera le nouveau volume ?<\/p>",
+            "level": "5eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 57 : Théorème de Pythagore - introduction ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>Dans le triangle rectangle ABC, d'après le théorème de Pythagore :<\/p>\n            <p>BC² = AB² + AC²<\/p>\n            <p>BC² = 3² + 4² = 9 + 16 = 25<\/p>\n            <p>BC = √25 = 5 cm<\/p>\n            <p><strong>📐 Pythagore :<\/strong> Dans un triangle rectangle, le carré de l'hypoténuse = somme des carrés des deux autres côtés<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Triangle rectangle ABC<\/strong> rectangle en A : AB = 3 cm, AC = 4 cm<\/p>\n          <p><strong>Question :<\/strong> Calcule la longueur de l'hypoténuse BC<\/p>",
+            "level": "5eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 58 : Triangles et cercles ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Triangle équilatéral (3 côtés égaux)<\/p>\n            <p>b) Périmètre (circonférence) = 2 × π × r = 2 × 3,14 × 3 = 18,84 cm<\/p>\n            <p><strong>⭕ Formules cercle :<\/strong> P = 2πr ; A = πr²<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Un triangle dont les 3 côtés mesurent 5 cm est-il équilatéral, isocèle ou quelconque ?<\/p>\n          <p>b) Calcule le périmètre d'un cercle de rayon 3 cm (π ≈ 3,14)<\/p>",
+            "level": "5eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 59 : Boucle simple ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>x = 5<\/p>\n            <p>1ère fois : x = 5 + 2 = 7<\/p>\n            <p>2e fois : x = 7 + 2 = 9<\/p>\n            <p>3e fois : x = 9 + 2 = 11<\/p>\n            <p>Valeur affichée : 11<\/p>\n            <p><strong>🔁 Boucle :<\/strong> Répéter des instructions plusieurs fois<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Programme :<\/strong><\/p>\n          <p>1. x prend la valeur 5<\/p>\n          <p>2. Répéter 3 fois : x = x + 2<\/p>\n          <p>3. Afficher x<\/p>\n          <p><strong>Question :<\/strong> Quelle valeur sera affichée ?<\/p>",
+            "level": "5eme",
+            "subject": "maths"
+        }
+    ],
+    "5eme-francais": [
+        {
+            "title": "Exercice 60 : Analyse d'un incipit ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Le narrateur est Robinson Crusoé lui-même (autobiographie)<\/p>\n            <p>b) 1ère personne du singulier (je)<\/p>\n            <p>c) Date et lieu de naissance, origine familiale, métier du père<\/p>\n            <p><strong>📖 Incipit :<\/strong> Début d'un récit, présente le cadre et les personnages<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Texte :<\/strong> Début de <em>Robinson Crusoé<\/em> de Defoe<\/p>\n          <p>\n            <em>\"Je naquis en 1632, dans la ville d'York, d'une bonne famille. Mon père, originaire de Brême, s'était\n              fixé d'abord à Hull. Après avoir acquis une fortune considérable dans le négoce, il avait quitté ses\n              affaires et était venu habiter York.\"<\/em>\n          <\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Qui est le narrateur ?<\/p>\n          <p>b) À quelle personne le texte est-il écrit ?<\/p>\n          <p>c) Quelles informations donne l'incipit ?<\/p>",
+            "level": "5eme",
+            "subject": "francais"
+        },
+        {
+            "title": "Exercice 61 : Figures de style ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>1. Métaphore (comparaison sans \"comme\")<\/p>\n            <p>2. Personnification (attribut humain au vent)<\/p>\n            <p>3. Métaphore<\/p>\n            <p><strong>🎨 Figures :<\/strong> Enrichissent le style et créent des images<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Phrases :<\/strong><\/p>\n          <p>1. \"Ses yeux étaient deux étoiles brillantes.\"<\/p>\n          <p>2. \"Le vent hurlait dans la nuit.\"<\/p>\n          <p>3. \"Cette fille est un ange.\"<\/p>\n          <p><strong>Question :<\/strong> Identifie la figure de style utilisée (métaphore, comparaison, personnification)<\/p>",
+            "level": "5eme",
+            "subject": "francais"
+        },
+        {
+            "title": "Exercice 62 : Description d'un lieu ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Critères de réussite :<\/strong><\/p>\n            <ul>\n              <li>✅ Vocabulaire riche et précis<\/li>\n              <li>✅ Adjectifs qualificatifs variés<\/li>\n              <li>✅ Organisation logique<\/li>\n              <li>✅ Présence de figures de style<\/li>\n              <li>✅ Orthographe et ponctuation correctes<\/li>\n            <\/ul>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Sujet :<\/strong> Décris un lieu qui t'impressionne (réel ou imaginaire)<\/p>\n          <p><strong>Consignes :<\/strong><\/p>\n          <ul>\n            <li>10 lignes minimum<\/li>\n            <li>Utilise des adjectifs variés<\/li>\n            <li>Emploie au moins une figure de style<\/li>\n            <li>Organise ta description (général → détails)<\/li>\n          <\/ul>",
+            "level": "5eme",
+            "subject": "francais"
+        },
+        {
+            "title": "Exercice 63 : Passé simple ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Il alla<\/p>\n            <p>b) Nous vîmes<\/p>\n            <p>c) Elles partirent<\/p>\n            <p>d) Je fis<\/p>\n            <p><strong>📚 Passé simple :<\/strong> Temps du récit, actions achevées du passé<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Consignes :<\/strong> Conjugue les verbes au passé simple<\/p>\n          <p>a) Il (aller) au marché<\/p>\n          <p>b) Nous (voir) un film<\/p>\n          <p>c) Elles (partir) tôt<\/p>\n          <p>d) Je (faire) mes devoirs<\/p>",
+            "level": "5eme",
+            "subject": "francais"
+        },
+        {
+            "title": "Exercice 64 : Propositions ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) 2 propositions<\/p>\n            <p>b) Principale : \"Le garçon est mon frère\"<\/p>\n            <p>c) Subordonnée relative : \"qui court dans le parc\"<\/p>\n            <p><strong>📖 Proposition :<\/strong> Groupe organisé autour d'un verbe conjugué<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Phrase :<\/strong> \"Le garçon qui court dans le parc est mon frère.\"<\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Combien y a-t-il de propositions ?<\/p>\n          <p>b) Quelle est la proposition principale ?<\/p>\n          <p>c) Quelle est la proposition subordonnée relative ?<\/p>",
+            "level": "5eme",
+            "subject": "francais"
+        }
+    ],
+    "5eme-sciences": [
+        {
+            "title": "Exercice 65 : Respiration et circulation ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Les poumons (et plus précisément les alvéoles pulmonaires)<\/p>\n            <p>b) Du dioxyde de carbone (CO₂) et de la vapeur d'eau<\/p>\n            <p>c) Le cœur<\/p>\n            <p><strong>🫁 Respiration :<\/strong> O₂ entre, CO₂ sort<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Quel organe permet l'échange de gaz dans la respiration ?<\/p>\n          <p>b) Que rejette-t-on en expirant ?<\/p>\n          <p>c) Quel organe fait circuler le sang ?<\/p>",
+            "level": "5eme",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 66 : Digestion ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Transformer les aliments en nutriments utilisables par l'organisme<\/p>\n            <p>b) Estomac, intestin grêle, foie, pancréas...<\/p>\n            <p>c) Les nutriments passent dans le sang, les déchets sont éliminés<\/p>\n            <p><strong>🍽️ Trajet :<\/strong> Bouche → œsophage → estomac → intestins<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Quel est le rôle de l'appareil digestif ?<\/p>\n          <p>b) Cite 3 organes de la digestion<\/p>\n          <p>c) Que deviennent les aliments après la digestion ?<\/p>",
+            "level": "5eme",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 67 : Circuit en série et dérivation ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Toutes les autres lampes s'éteignent (circuit ouvert)<\/p>\n            <p>b) Les autres lampes continuent de briller<\/p>\n            <p>c) Circuit en dérivation (pour l'indépendance des appareils)<\/p>\n            <p><strong>⚡ Circuits :<\/strong> Série = 1 chemin ; Dérivation = plusieurs chemins<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Dans un circuit en série, si une lampe grille, que se passe-t-il ?<\/p>\n          <p>b) Dans un circuit en dérivation, si une lampe grille ?<\/p>\n          <p>c) Quel type de circuit utilise-t-on dans les maisons ?<\/p>",
+            "level": "5eme",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 68 : Changements d'état ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Fusion<\/p>\n            <p>b) Solidification<\/p>\n            <p>c) Vaporisation (ébullition ou évaporation)<\/p>\n            <p>d) Liquéfaction (ou condensation)<\/p>\n            <p><strong>🔄 États :<\/strong> Solide ⇄ Liquide ⇄ Gaz<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Nomme le changement : solide → liquide<\/p>\n          <p>b) Nomme le changement : liquide → solide<\/p>\n          <p>c) Nomme le changement : liquide → gaz<\/p>\n          <p>d) Nomme le changement : gaz → liquide<\/p>",
+            "level": "5eme",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 24 : Compréhension littérale ★",
+            "difficulty": "★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Dans son lit<\/p>\n            <p>b) Parce qu'elle se trouve un peu malade<\/p>\n            <p>c) Tirer la chevillette<\/p>\n            <p><strong>📚 Vocabulaire ancien :<\/strong> \"la bobinette cherra\" = le loquet tombera<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Texte :<\/strong> Extrait des <em>Contes de Perrault<\/em> - Le Petit Chaperon Rouge<\/p>\n          <p>\n            <em>\"La mère-grand, qui était dans son lit à cause qu'elle se trouvait un peu mal, lui cria : 'Tire la\n              chevillette, la bobinette cherra.' Le petit Chaperon rouge tira la chevillette et la porte s'ouvrit.\"<\/em>\n          <\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Où se trouve la grand-mère ?<\/p>\n          <p>b) Pourquoi est-elle couchée ?<\/p>\n          <p>c) Que doit faire le Petit Chaperon rouge pour ouvrir la porte ?<\/p>",
+            "level": "5eme",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 25 : Compréhension inférentielle ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Il va sortir\/partir quelque part (il range ses affaires)<\/p>\n            <p>b) Il a peur d'être en retard et que le mauvais temps l'empêche d'arriver<\/p>\n            <p>c) Il va probablement pleuvoir (nuages qui s'amoncellent)<\/p>\n            <p><strong>🔍 Inférence :<\/strong> Comprendre ce qui n'est pas dit explicitement<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p>\n            <strong>Texte :<\/strong>\n            <em>\"Thomas rangea précipitamment ses affaires dans son sac. Il regarda une dernière fois par la fenêtre :\n              les nuages s'amoncelaient à l'horizon. 'J'espère que j'arriverai à temps', murmura-t-il.\"<\/em>\n          <\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Que va faire Thomas ? (Indice dans le texte)<\/p>\n          <p>b) Qu'est-ce qui l'inquiète ?<\/p>\n          <p>c) Quel type de temps va-t-il probablement faire ?<\/p>",
+            "level": "5eme",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 26 : Vocabulaire en contexte ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Promontoire = hauteur, élévation de terrain<\/p>\n            <p>b) Scrutait = observait, examinait, regardait attentivement<\/p>\n            <p>c) Allégresse = joie, bonheur, gaieté<\/p>\n            <p><strong>📖 Stratégie :<\/strong> S'aider du contexte pour deviner le sens<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Phrases :<\/strong><\/p>\n          <p>1. \"Le château était perché sur un promontoire rocheux.\"<\/p>\n          <p>2. \"L'explorateur scrutait l'horizon avec ses jumelles.\"<\/p>\n          <p>3. \"Les villageois étaient dans l'allégresse après la victoire.\"<\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Que signifie \"promontoire\" dans la phrase 1 ?<\/p>\n          <p>b) Remplace \"scrutait\" par un synonyme<\/p>\n          <p>c) Quel sentiment exprime \"allégresse\" ?<\/p>",
+            "level": "5eme",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 27 : Copie soignée ★",
+            "difficulty": "★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) [Copie du texte]<\/p>\n            <p>b) Adjectifs : flamboyantes, dorées, moelleux<\/p>\n            <p><strong>✍️ Conseil :<\/strong> Bien former les lettres, respecter la ponctuation<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Texte à copier :<\/strong><\/p>\n          <p>\n            <em>\"L'automne transforme la forêt en un théâtre de couleurs flamboyantes. Les feuilles dorées dansent dans\n              le vent avant de rejoindre le tapis moelleux qui recouvre le sentier.\"<\/em>\n          <\/p>\n          <p><strong>Consignes :<\/strong><\/p>\n          <p>a) Recopie ce texte sans erreur, en soignant ton écriture<\/p>\n          <p>b) Souligne les adjectifs qualificatifs<\/p>",
+            "level": "5eme",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 28 : Production guidée ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Exemple de production :<\/strong><\/p>\n            <p>\n              \"Mon animal préféré est le dauphin. C'est un mammifère marin très intelligent. Il a une peau lisse et\n              grise. Les dauphins sont joueurs et sociables. Ils vivent en groupe dans l'océan. J'aime les dauphins\n              car ils sont gentils avec les humains et toujours souriants.\"\n            <\/p>\n            <p><strong>📝 Critères de réussite :<\/strong> Cohérence, vocabulaire, orthographe<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Sujet :<\/strong> Décris ton animal préféré (réel ou imaginaire)<\/p>\n          <p><strong>Consignes :<\/strong><\/p>\n          <ul>\n            <li>5 à 8 phrases minimum<\/li>\n            <li>Utilise au moins 3 adjectifs<\/li>\n            <li>Explique pourquoi tu aimes cet animal<\/li>\n          <\/ul>",
+            "level": "5eme",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 29 : Réécriture et amélioration ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Exemple amélioré :<\/strong><\/p>\n            <p>\n              \"Aujourd'hui, il fait un temps magnifique et ensoleillé. Je décide d'aller au parc municipal avec mes\n              amis. Là-bas, nous jouons au ballon sur la grande pelouse verte. C'est un moment très agréable !\"\n            <\/p>\n            <p><strong>📖 Enrichissement :<\/strong> Adjectifs, compléments, connecteurs<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Texte initial :<\/strong><\/p>\n          <p><em>\"Il fait beau. Je vais au parc. Je joue. C'est bien.\"<\/em><\/p>\n          <p><strong>Consignes :<\/strong><\/p>\n          <p>a) Enrichis ce texte en ajoutant des adjectifs et des compléments<\/p>\n          <p>b) Varie les structures de phrases<\/p>",
+            "level": "5eme",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 30 : Classes de mots ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Noms : chien, jardin<\/p>\n            <p>b) Adjectifs : petit, noir, fleuri<\/p>\n            <p>c) Verbe : court<\/p>\n            <p>d) Déterminants : le (×2)<\/p>\n            <p>e) Adverbe : rapidement<\/p>\n            <p><strong>📚 Classes :<\/strong> Nom, verbe, adjectif, déterminant, adverbe, pronom, préposition<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Phrase :<\/strong> \"Le petit chien noir court rapidement dans le jardin fleuri.\"<\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Relève les noms<\/p>\n          <p>b) Relève les adjectifs<\/p>\n          <p>c) Relève le verbe conjugué<\/p>\n          <p>d) Relève les déterminants<\/p>\n          <p>e) Relève l'adverbe<\/p>",
+            "level": "5eme",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 31 : Accords simples ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Des fleurs blanches et parfumées (féminin pluriel)<\/p>\n            <p>b) Une histoire passionnante (féminin singulier)<\/p>\n            <p>c) Des garçons courageux (masculin pluriel)<\/p>\n            <p>d) La maison ancienne et grande (féminin singulier)<\/p>\n            <p><strong>📏 Règle :<\/strong> L'adjectif s'accorde en genre et nombre avec le nom<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Consignes :<\/strong> Accorde correctement les adjectifs<\/p>\n          <p>a) Des fleurs (blanc) et (parfumé)<\/p>\n          <p>b) Une histoire (passionnant)<\/p>\n          <p>c) Des garçons (courageux)<\/p>\n          <p>d) La maison (ancien) et (grand)<\/p>",
+            "level": "5eme",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 32 : Conjugaison présent ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Je chante<\/p>\n            <p>b) Tu finis<\/p>\n            <p>c) Il part<\/p>\n            <p>d) Nous avons<\/p>\n            <p>e) Vous êtes<\/p>\n            <p>f) Elles vont<\/p>\n            <p><strong>📖 Groupes :<\/strong> 1er (-er), 2e (-ir\/issons), 3e (autres + être\/avoir)<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Consignes :<\/strong> Conjugue les verbes au présent de l'indicatif<\/p>\n          <p>a) Je (chanter)<\/p>\n          <p>b) Tu (finir)<\/p>\n          <p>c) Il (partir)<\/p>\n          <p>d) Nous (avoir)<\/p>\n          <p>e) Vous (être)<\/p>\n          <p>f) Elles (aller)<\/p>",
+            "level": "5eme",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 33 : Types de phrases ★",
+            "difficulty": "★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Phrase impérative (ordre, conseil)<\/p>\n            <p>b) Phrase exclamative (sentiment, émotion)<\/p>\n            <p>c) Phrase interrogative (question)<\/p>\n            <p>d) Phrase déclarative (affirmation)<\/p>\n            <p><strong>💡 Types :<\/strong> Déclarative, interrogative, impérative, exclamative<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Questions :<\/strong> Identifie le type de chaque phrase<\/p>\n          <p>a) \"Ferme la porte.\"<\/p>\n          <p>b) \"Quelle belle journée !\"<\/p>\n          <p>c) \"Est-ce que tu viens ?\"<\/p>\n          <p>d) \"Le chat dort sur le canapé.\"<\/p>",
+            "level": "5eme",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 34 : Enrichissement lexical ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Synonymes de grand : immense, vaste, énorme, gigantesque<\/p>\n            <p>b) Antonymes de rapide : lent, lentement<\/p>\n            <p>c) Famille de terre : terrain, terrestre, territoire, terrasse, enterrer, déterrer, atterrir<\/p>\n            <p><strong>📚 Lexique :<\/strong> Objectif 6ème = 1500 mots du vocabulaire courant<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Consignes :<\/strong><\/p>\n          <p>a) Trouve 3 synonymes de \"grand\"<\/p>\n          <p>b) Trouve 2 antonymes de \"rapide\"<\/p>\n          <p>c) Trouve la famille du mot \"terre\" (4 mots minimum)<\/p>",
+            "level": "5eme",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 35 : Présentation orale courte ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Critères de réussite :<\/strong><\/p>\n            <ul>\n              <li>✅ Parler fort et distinctement<\/li>\n              <li>✅ Regarder l'auditoire<\/li>\n              <li>✅ Structurer son propos (introduction, développement, conclusion)<\/li>\n              <li>✅ Utiliser un vocabulaire précis<\/li>\n              <li>✅ Gérer son temps (ni trop court, ni trop long)<\/li>\n            <\/ul>\n            <p><strong>🎤 Conseil :<\/strong> S'entraîner à la maison avant de passer devant la classe<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Sujet :<\/strong> Présente ton livre préféré à la classe (2-3 minutes)<\/p>\n          <p><strong>Consignes :<\/strong><\/p>\n          <ul>\n            <li>Titre et auteur<\/li>\n            <li>Résumé en quelques phrases<\/li>\n            <li>Ce que tu as aimé<\/li>\n            <li>Pourquoi tu le recommandes<\/li>\n          <\/ul>",
+            "level": "5eme",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 36 : Lecture expressive ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Conseils de lecture :<\/strong><\/p>\n            <ul>\n              <li>📖 Préparer la lecture à l'avance (repérer les liaisons)<\/li>\n              <li>🎭 Jouer avec la voix pour rendre le texte vivant<\/li>\n              <li>⏸️ Marquer les pauses aux virgules et points<\/li>\n              <li>👀 Lever les yeux de temps en temps<\/li>\n            <\/ul>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Texte à lire :<\/strong> Extrait d'une fable de La Fontaine<\/p>\n          <p>\n            <em>\"Maître Corbeau, sur un arbre perché, <br>\n              Tenait en son bec un fromage. <br>\n              Maître Renard, par l'odeur alléché, <br>\n              Lui tint à peu près ce langage...\"<\/em>\n          <\/p>\n          <p><strong>Consignes :<\/strong><\/p>\n          <ul>\n            <li>Respecte la ponctuation et les vers<\/li>\n            <li>Varie l'intonation<\/li>\n            <li>Articule clairement<\/li>\n          <\/ul>",
+            "level": "5eme",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 37 : Débat simple ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Compétences travaillées :<\/strong><\/p>\n            <ul>\n              <li>💬 Argumenter et justifier son point de vue<\/li>\n              <li>👂 Écoute active<\/li>\n              <li>🤝 Respect des autres<\/li>\n              <li>🧠 Esprit critique<\/li>\n            <\/ul>\n            <p><strong>📝 Vocabulaire utile :<\/strong> À mon avis, je pense que, selon moi, d'un autre côté...<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Sujet :<\/strong> \"Faut-il limiter le temps d'écran pour les enfants ?\"<\/p>\n          <p><strong>Règles du débat :<\/strong><\/p>\n          <ul>\n            <li>Écouter les autres sans interrompre<\/li>\n            <li>Argumenter en donnant des exemples<\/li>\n            <li>Respecter les opinions différentes<\/li>\n            <li>Utiliser des connecteurs logiques (car, parce que, donc...)<\/li>\n          <\/ul>",
+            "level": "5eme",
+            "subject": "sciences"
+        }
+    ],
+    "6eme-sciences": [
+        {
+            "title": "Exercice 38 : États de l'eau ★",
+            "difficulty": "★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Solide (glace), liquide (eau), gaz (vapeur)<\/p>\n            <p>b) 100°C (à pression atmosphérique normale)<\/p>\n            <p>c) 0°C<\/p>\n            <p>d) Vaporisation (ou ébullition si chauffée)<\/p>\n            <p><strong>💧 Cycle de l'eau :<\/strong> Évaporation, condensation, précipitation<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Cite les 3 états de l'eau<\/p>\n          <p>b) À quelle température l'eau bout-elle ?<\/p>\n          <p>c) À quelle température l'eau gèle-t-elle ?<\/p>\n          <p>d) Nomme le changement d'état : liquide → gaz<\/p>",
+            "level": "6eme",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 39 : Circuit électrique simple ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) [Schéma : pile → fil → interrupteur → lampe → fil → pile]<\/p>\n            <p>b) La lampe s'éteint car le circuit est ouvert<\/p>\n            <p>c) Conducteur : cuivre, fer ; Isolant : plastique, bois<\/p>\n            <p><strong>⚡ Circuit :<\/strong> Le courant doit circuler en boucle fermée<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Matériel :<\/strong> Pile, lampe, fils électriques, interrupteur<\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Dessine un circuit électrique simple qui fait briller la lampe<\/p>\n          <p>b) Que se passe-t-il si on ouvre l'interrupteur ?<\/p>\n          <p>c) Cite un matériau conducteur et un isolant<\/p>",
+            "level": "6eme",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 40 : Sources d'énergie ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Soleil (solaire), vent (éolien), eau (hydraulique), biomasse<\/p>\n            <p>b) Pétrole, charbon, gaz naturel, uranium<\/p>\n            <p>c) Pour préserver les ressources, réduire la pollution, lutter contre le réchauffement climatique<\/p>\n            <p><strong>♻️ Développement durable :<\/strong> Énergies renouvelables privilégiées<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Cite 3 sources d'énergie renouvelables<\/p>\n          <p>b) Cite 2 sources d'énergie non renouvelables<\/p>\n          <p>c) Pourquoi doit-on économiser l'énergie ?<\/p>",
+            "level": "6eme",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 41 : Classification des êtres vivants ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Tous sont des vertébrés (possèdent une colonne vertébrale)<\/p>\n            <p>b) Mammifères : chien, dauphin (allaitent leurs petits)<\/p>\n            <p>c) Ovipares : aigle, truite, grenouille, serpent (pondent des œufs)<\/p>\n            <p><strong>🦴 Classification :<\/strong> Mammifères, oiseaux, reptiles, amphibiens, poissons<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Liste :<\/strong> Chien, aigle, truite, grenouille, serpent, dauphin<\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Classe ces animaux en vertébrés<\/p>\n          <p>b) Identifie les mammifères<\/p>\n          <p>c) Identifie les ovipares<\/p>",
+            "level": "6eme",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 42 : Besoins des végétaux ★",
+            "difficulty": "★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>La plante A va le mieux pousser car elle a de la lumière ET de l'eau<\/p>\n            <p>La plante B va sécher (pas d'eau)<\/p>\n            <p>La plante C va jaunir et s'étioler (pas de lumière = pas de photosynthèse)<\/p>\n            <p><strong>🌱 Besoins :<\/strong> Eau, lumière, nutriments (sels minéraux), air<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Expérience :<\/strong> On place 3 plantes identiques dans des conditions différentes<\/p>\n          <ul>\n            <li>Plante A : lumière + eau<\/li>\n            <li>Plante B : lumière + pas d'eau<\/li>\n            <li>Plante C : obscurité + eau<\/li>\n          <\/ul>\n          <p><strong>Question :<\/strong> Quelle plante va le mieux pousser ? Pourquoi ?<\/p>",
+            "level": "6eme",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 43 : Chaîne alimentaire ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Soleil → Herbe → Lapin → Renard<\/p>\n            <p>b) Producteur : herbe ; Consommateur primaire (herbivore) : lapin ; Consommateur secondaire (carnivore) : renard<\/p>\n            <p>c) Les lapins se multiplieraient beaucoup (plus de prédateur)<\/p>\n            <p><strong>🔗 Équilibre :<\/strong> Chaque maillon est important dans l'écosystème<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Éléments :<\/strong> Herbe, lapin, renard, soleil<\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Construis une chaîne alimentaire avec ces éléments<\/p>\n          <p>b) Identifie le producteur, le consommateur primaire, le consommateur secondaire<\/p>\n          <p>c) Que se passerait-il si les renards disparaissaient ?<\/p>",
+            "level": "6eme",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 44 : Propriétés des matériaux ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Le verre est transparent<\/p>\n            <p>b) Le métal est le plus dur<\/p>\n            <p>c) Le bois flotte (généralement)<\/p>\n            <p>d) Tous sont recyclables : verre, métal, plastique, bois (compost)<\/p>\n            <p><strong>♻️ Tri :<\/strong> Chaque matériau a sa filière de recyclage<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Matériaux :<\/strong> Bois, métal, plastique, verre<\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Quel matériau est transparent ?<\/p>\n          <p>b) Quel matériau est le plus dur ?<\/p>\n          <p>c) Quel matériau flotte sur l'eau ?<\/p>\n          <p>d) Quels matériaux sont recyclables ?<\/p>",
+            "level": "6eme",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 45 : Leviers et balances ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Le point d'appui est au centre (axe de rotation)<\/p>\n            <p>b) L'enfant léger doit s'éloigner du centre (augmenter le bras de levier)<\/p>\n            <p>c) Ciseaux, pince, casse-noix, brouette, pied-de-biche<\/p>\n            <p><strong>⚖️ Levier :<\/strong> Permet de soulever des charges avec moins d'effort<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Situation :<\/strong> Une balançoire est un levier<\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Où se situe le point d'appui ?<\/p>\n          <p>b) Si un enfant lourd s'assoit d'un côté, où doit s'asseoir un enfant léger pour équilibrer ?<\/p>\n          <p>c) Cite d'autres exemples de leviers<\/p>",
+            "level": "6eme",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 46 : Mouvement de la Terre ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) 24 heures (1 jour)<\/p>\n            <p>b) L'alternance jour\/nuit<\/p>\n            <p>c) 365 jours (1 an)<\/p>\n            <p>d) Les saisons (avec l'inclinaison de l'axe)<\/p>\n            <p><strong>🌍 Rotation :<\/strong> Sur elle-même ; <strong>Révolution :<\/strong> Autour du Soleil<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Combien de temps met la Terre pour tourner sur elle-même ?<\/p>\n          <p>b) Quel phénomène cela crée-t-il ?<\/p>\n          <p>c) Combien de temps met la Terre pour faire le tour du Soleil ?<\/p>\n          <p>d) Qu'est-ce que cela crée ?<\/p>",
+            "level": "6eme",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 47 : Volcans et séismes ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Un volcan est une ouverture dans la croûte terrestre d'où s'échappe du magma (lave)<\/p>\n            <p>b) Un séisme (ou tremblement de terre) est une secousse du sol<\/p>\n            <p>c) Ils se produisent aux limites des plaques tectoniques en mouvement<\/p>\n            <p><strong>🌋 Tectonique :<\/strong> La Terre est composée de plaques qui bougent<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Qu'est-ce qu'un volcan ?<\/p>\n          <p>b) Qu'est-ce qu'un séisme ?<\/p>\n          <p>c) Pourquoi ces phénomènes se produisent-ils souvent aux mêmes endroits ?<\/p>",
+            "level": "6eme",
+            "subject": "sciences"
+        }
+    ],
+    "4eme-maths": [
+        {
+            "title": "Exercice 69 : Puissances de 10 ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) 10³ = 10 × 10 × 10 = 1000<\/p>\n            <p>b) 10⁵ = 100 000<\/p>\n            <p>c) 10⁻² = 1\/100 = 0,01<\/p>\n            <p>d) 0,0001 = 10⁻⁴<\/p>\n            <p><strong>📐 Règle :<\/strong> 10ⁿ = 1 suivi de n zéros ; 10⁻ⁿ = 0, puis (n-1) zéros puis 1<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Consignes :<\/strong> Calcule<\/p>\n          <p>a) 10³ = ?<\/p>\n          <p>b) 10⁵ = ?<\/p>\n          <p>c) 10⁻² = ?<\/p>\n          <p>d) Écris 0,0001 sous forme de puissance de 10<\/p>",
+            "level": "4eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 70 : Calcul littéral - développement ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) 3(x + 5) = 3x + 15<\/p>\n            <p>b) 2(4x - 3) = 8x - 6<\/p>\n            <p>c) 5x + 2(x + 1) = 5x + 2x + 2 = 7x + 2<\/p>\n            <p><strong>🔤 Distributivité :<\/strong> k(a + b) = ka + kb<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Consignes :<\/strong> Développe et réduis<\/p>\n          <p>a) 3(x + 5) = ?<\/p>\n          <p>b) 2(4x - 3) = ?<\/p>\n          <p>c) 5x + 2(x + 1) = ?<\/p>",
+            "level": "4eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 71 : Équations du 1er degré ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) x = 12 - 5 = 7<\/p>\n            <p>b) x = 15 ÷ 3 = 5<\/p>\n            <p>c) 2x = 11 - 3 = 8 ; x = 8 ÷ 2 = 4<\/p>\n            <p><strong>⚖️ Méthode :<\/strong> Isoler l'inconnue en faisant les opérations inverses<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Consignes :<\/strong> Résous les équations<\/p>\n          <p>a) x + 5 = 12<\/p>\n          <p>b) 3x = 15<\/p>\n          <p>c) 2x + 3 = 11<\/p>",
+            "level": "4eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 72 : Thalès - introduction ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>D'après le théorème de Thalès : AM\/AB = AN\/AC<\/p>\n            <p>3\/6 = 2\/AC<\/p>\n            <p>AC = (2 × 6) ÷ 3 = 4 cm<\/p>\n            <p><strong>📐 Thalès :<\/strong> Si (MN) \/\/ (BC), alors AM\/AB = AN\/AC = MN\/BC<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Figure :<\/strong> (MN) \/\/ (BC) dans le triangle ABC<\/p>\n          <p><strong>Données :<\/strong> AM = 3 cm, AB = 6 cm, AN = 2 cm<\/p>\n          <p><strong>Question :<\/strong> Calcule AC<\/p>",
+            "level": "4eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 73 : Cosinus d'un angle ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>D'abord, calculer AC avec Pythagore : AC² = BC² - AB² = 25 - 16 = 9, donc AC = 3 cm<\/p>\n            <p>cos(ACB) = côté adjacent \/ hypoténuse = AC \/ BC = 3 \/ 5 = 0,6<\/p>\n            <p><strong>📐 Cosinus :<\/strong> cos(angle) = côté adjacent \/ hypoténuse<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Triangle rectangle ABC<\/strong> rectangle en A : AB = 4 cm, BC = 5 cm<\/p>\n          <p><strong>Question :<\/strong> Calcule cos(angle ACB)<\/p>",
+            "level": "4eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 74 : Médiane et étendue ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Série rangée : 8, 9, 11, 12, 14, 15, 18 (7 valeurs) → Médiane = 12 (valeur centrale)<\/p>\n            <p>b) Étendue = max - min = 18 - 8 = 10<\/p>\n            <p><strong>📊 Médiane :<\/strong> Valeur qui partage la série en deux parties égales<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Série :<\/strong> 12, 15, 8, 18, 11, 14, 9<\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Calcule la médiane<\/p>\n          <p>b) Calcule l'étendue<\/p>",
+            "level": "4eme",
+            "subject": "maths"
+        }
+    ],
+    "4eme-francais": [
+        {
+            "title": "Exercice 75 : Identifier les arguments ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Thèse : Les devoirs à la maison sont essentiels<\/p>\n            <p>b) 3 arguments (réviser, autonomie, préparation)<\/p>\n            <p>c) Connecteurs : D'abord, Ensuite, Enfin<\/p>\n            <p><strong>💡 Argumentation :<\/strong> Thèse + Arguments + Exemples<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Texte :<\/strong> \"Les devoirs à la maison sont essentiels. D'abord, ils permettent de réviser les leçons. Ensuite, ils développent l'autonomie des élèves. Enfin, ils préparent aux examens.\"<\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Quelle est la thèse défendue ?<\/p>\n          <p>b) Combien d'arguments sont donnés ?<\/p>\n          <p>c) Quels connecteurs logiques sont utilisés ?<\/p>",
+            "level": "4eme",
+            "subject": "francais"
+        },
+        {
+            "title": "Exercice 76 : Lettre argumentative ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Structure attendue :<\/strong><\/p>\n            <ul>\n              <li>En-tête (lieu, date, destinataire)<\/li>\n              <li>Formule d'appel (\"Monsieur le Principal,\")<\/li>\n              <li>Introduction (présentation de la demande)<\/li>\n              <li>Développement (arguments 1, 2...)<\/li>\n              <li>Conclusion (reformulation)<\/li>\n              <li>Formule de politesse finale<\/li>\n            <\/ul>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Sujet :<\/strong> Écris une lettre au principal pour demander un aménagement du collège<\/p>\n          <p><strong>Consignes :<\/strong><\/p>\n          <ul>\n            <li>Formules de politesse<\/li>\n            <li>Au moins 2 arguments<\/li>\n            <li>Exemples concrets<\/li>\n            <li>15 lignes minimum<\/li>\n          <\/ul>",
+            "level": "4eme",
+            "subject": "francais"
+        },
+        {
+            "title": "Exercice 77 : Propositions subordonnées ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Principale : \"Je pense\"<\/p>\n            <p>b) \"que tu réussiras\" = subordonnée conjonctive (COD de \"pense\")<\/p>\n            <p>\"parce que tu travailles beaucoup\" = subordonnée conjonctive circonstancielle de cause<\/p>\n            <p><strong>📖 Subordonnées :<\/strong> Relative, conjonctive, interrogative indirecte<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Phrase :<\/strong> \"Je pense que tu réussiras parce que tu travailles beaucoup.\"<\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Identifie la proposition principale<\/p>\n          <p>b) Identifie les propositions subordonnées et leur nature<\/p>",
+            "level": "4eme",
+            "subject": "francais"
+        }
+    ],
+    "4eme-sciences": [
+        {
+            "title": "Exercice 78 : Transmission des caractères ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Dans les chromosomes, au niveau de l'ADN<\/p>\n            <p>b) Le gène<\/p>\n            <p>c) 23 chromosomes de chaque parent (total 46)<\/p>\n            <p><strong>🧬 Hérédité :<\/strong> Les caractères se transmettent par les gènes<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Où se trouve l'information génétique ?<\/p>\n          <p>b) Comment s'appelle l'unité de l'hérédité ?<\/p>\n          <p>c) Un enfant hérite de combien de chromosomes de chaque parent ?<\/p>",
+            "level": "4eme",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 79 : Loi d'Ohm ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>D'après la loi d'Ohm : U = R × I<\/p>\n            <p>U = 10 × 2 = 20 V<\/p>\n            <p><strong>⚡ Loi d'Ohm :<\/strong> U = R × I (Tension = Résistance × Intensité)<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Données :<\/strong> Une résistance R = 10 Ω, parcouru par un courant I = 2 A<\/p>\n          <p><strong>Question :<\/strong> Calcule la tension U aux bornes de la résistance<\/p>",
+            "level": "4eme",
+            "subject": "sciences"
+        }
+    ],
+    "3eme-maths": [
+        {
+            "title": "Exercice 80 : Factorisation ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) 3x + 6 = 3(x + 2)<\/p>\n            <p>b) x² + 5x = x(x + 5)<\/p>\n            <p>c) 9 - x² = (3 - x)(3 + x) [Identité remarquable a² - b²]<\/p>\n            <p><strong>🔤 Factoriser :<\/strong> Mettre en évidence le facteur commun<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Consignes :<\/strong> Factorise<\/p>\n          <p>a) 3x + 6 = ?<\/p>\n          <p>b) x² + 5x = ?<\/p>\n          <p>c) 9 - x² = ?<\/p>",
+            "level": "3eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 81 : Racines carrées ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) √16 = 4<\/p>\n            <p>b) √49 = 7<\/p>\n            <p>c) √50 = √(25×2) = √25 × √2 = 5√2<\/p>\n            <p><strong>√ Propriété :<\/strong> √(a×b) = √a × √b<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Consignes :<\/strong><\/p>\n          <p>a) √16 = ?<\/p>\n          <p>b) √49 = ?<\/p>\n          <p>c) Simplifie √50<\/p>",
+            "level": "3eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 82 : Sinus, Cosinus, Tangente ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) sin(B) = côté opposé \/ hypoténuse = AC \/ BC = 4\/5 = 0,8<\/p>\n            <p>b) cos(B) = côté adjacent \/ hypoténuse = AB \/ BC = 3\/5 = 0,6<\/p>\n            <p>c) tan(B) = côté opposé \/ côté adjacent = AC \/ AB = 4\/3 ≈ 1,33<\/p>\n            <p><strong>📐 SOHCAHTOA :<\/strong> Sin = Opp\/Hyp, Cos = Adj\/Hyp, Tan = Opp\/Adj<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Triangle rectangle ABC<\/strong> rectangle en A : AB = 3 cm, AC = 4 cm, BC = 5 cm<\/p>\n          <p><strong>Questions :<\/strong> Pour l'angle B :<\/p>\n          <p>a) Calcule sin(B)<\/p>\n          <p>b) Calcule cos(B)<\/p>\n          <p>c) Calcule tan(B)<\/p>",
+            "level": "3eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 83 : Fonction affine ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) f(5) = 2×5 + 3 = 10 + 3 = 13<\/p>\n            <p>b) Coefficient directeur (pente) = 2<\/p>\n            <p>c) Ordonnée à l'origine = 3<\/p>\n            <p><strong>📈 Forme :<\/strong> f(x) = ax + b où a = pente, b = ordonnée à l'origine<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Fonction :<\/strong> f(x) = 2x + 3<\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Calcule f(5)<\/p>\n          <p>b) Quel est le coefficient directeur ?<\/p>\n          <p>c) Quelle est l'ordonnée à l'origine ?<\/p>",
+            "level": "3eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 84 : Quartiles ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>9 valeurs, déjà rangées<\/p>\n            <p>a) Q1 = 9 (25% des valeurs sont ≤ 9)<\/p>\n            <p>b) Médiane = 13 (valeur centrale, 50%)<\/p>\n            <p>c) Q3 = 19 (75% des valeurs sont ≤ 19)<\/p>\n            <p><strong>📊 Quartiles :<\/strong> Q1 (25%), Médiane (50%), Q3 (75%)<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Série :<\/strong> 5, 8, 10, 12, 13, 15, 18, 20, 22<\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Détermine Q1 (1er quartile)<\/p>\n          <p>b) Détermine la médiane<\/p>\n          <p>c) Détermine Q3 (3ème quartile)<\/p>",
+            "level": "3eme",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 85 : Probabilités simples ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) P(6) = 1\/6 ≈ 0,167<\/p>\n            <p>b) Nombres pairs : 2, 4, 6 → P(pair) = 3\/6 = 1\/2 = 0,5<\/p>\n            <p>c) Nombres &gt; 4 : 5, 6 → P(&gt;4) = 2\/6 = 1\/3 ≈ 0,333<\/p>\n            <p><strong>🎲 Probabilité :<\/strong> P = nombre de cas favorables \/ nombre de cas possibles<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Situation :<\/strong> On lance un dé à 6 faces<\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Quelle est la probabilité d'obtenir un 6 ?<\/p>\n          <p>b) Quelle est la probabilité d'obtenir un nombre pair ?<\/p>\n          <p>c) Quelle est la probabilité d'obtenir un nombre &gt; 4 ?<\/p>",
+            "level": "3eme",
+            "subject": "maths"
+        }
+    ],
+    "3eme-francais": [
+        {
+            "title": "Exercice 86 : Analyse de texte littéraire ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Méthodologie :<\/strong><\/p>\n            <ol>\n              <li>Lire le texte 2 fois attentivement<\/li>\n              <li>Souligner les informations clés<\/li>\n              <li>Répondre en citant le texte<\/li>\n              <li>Justifier ses réponses<\/li>\n              <li>Soigner la rédaction et l'orthographe<\/li>\n            <\/ol>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Compétences évaluées :<\/strong><\/p>\n          <ul>\n            <li>Compréhension littérale et inférentielle<\/li>\n            <li>Analyse des procédés littéraires<\/li>\n            <li>Interprétation et justification<\/li>\n          <\/ul>",
+            "level": "3eme",
+            "subject": "francais"
+        },
+        {
+            "title": "Exercice 87 : Analyse grammaticale complète ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) \"qui\" = pronom relatif<\/p>\n            <p>b) \"dans le parc\" = CCL (complément circonstanciel de lieu)<\/p>\n            <p>c) \"ont aperçu\" = passé composé de l'indicatif<\/p>\n            <p>d) \"L'enfant qui jouait dans le parc a aperçu un écureuil.\"<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Phrase :<\/strong> \"Les enfants qui jouaient dans le parc ont aperçu un écureuil.\"<\/p>\n          <p><strong>Questions types DNB :<\/strong><\/p>\n          <p>a) Nature de \"qui\"<\/p>\n          <p>b) Fonction de \"dans le parc\"<\/p>\n          <p>c) Temps et mode de \"ont aperçu\"<\/p>\n          <p>d) Réécris en remplaçant \"Les enfants\" par \"L'enfant\"<\/p>",
+            "level": "3eme",
+            "subject": "francais"
+        },
+        {
+            "title": "Exercice 88 : Sujet d'imagination ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Critères d'évaluation DNB :<\/strong><\/p>\n            <ul>\n              <li>✅ Respect du sujet et de la forme demandée (récit)<\/li>\n              <li>✅ Cohérence et organisation du texte<\/li>\n              <li>✅ Qualité de la langue (vocabulaire, syntaxe)<\/li>\n              <li>✅ Orthographe et grammaire<\/li>\n              <li>✅ Créativité et originalité<\/li>\n            <\/ul>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Sujet :<\/strong> Racontez une aventure extraordinaire vécue par un personnage<\/p>\n          <p><strong>Consignes :<\/strong><\/p>\n          <ul>\n            <li>Au moins 2 pages (300 mots minimum)<\/li>\n            <li>Utiliser les temps du récit (passé simple\/imparfait)<\/li>\n            <li>Structurer le récit (situation initiale, élément perturbateur, péripéties, résolution)<\/li>\n            <li>Varier le vocabulaire et les constructions de phrases<\/li>\n          <\/ul>",
+            "level": "3eme",
+            "subject": "francais"
+        },
+        {
+            "title": "Exercice 89 : Développement construit ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Conseils DNB :<\/strong><\/p>\n            <ul>\n              <li>✅ 20 lignes minimum<\/li>\n              <li>✅ 3 parties distinctes (sauter une ligne entre chaque)<\/li>\n              <li>✅ Dates et événements précis<\/li>\n              <li>✅ Vocabulaire historique adapté<\/li>\n              <li>✅ Orthographe soignée<\/li>\n            <\/ul>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Sujet type :<\/strong> \"Racontez la Première Guerre mondiale et ses conséquences\"<\/p>\n          <p><strong>Méthodologie :<\/strong><\/p>\n          <ul>\n            <li>Introduction : Présenter le sujet, dates, contexte<\/li>\n            <li>Partie 1 : Causes et déclenchement (1914)<\/li>\n            <li>Partie 2 : La guerre (1914-1918) - Verdun, tranchées<\/li>\n            <li>Partie 3 : Conséquences (traité de Versailles, bilan humain)<\/li>\n            <li>Conclusion : Bilan et ouverture<\/li>\n          <\/ul>",
+            "level": "3eme",
+            "subject": "francais"
+        },
+        {
+            "title": "Exercice 90 : EMC - Citoyenneté ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Liberté, Égalité, Fraternité<\/p>\n            <p>b) 18 ans<\/p>\n            <p>c) La laïcité est le principe de séparation de l'État et des religions, garantissant la liberté de conscience<\/p>\n            <p><strong>🇫🇷 République :<\/strong> Valeurs, symboles, institutions<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Questions types :<\/strong><\/p>\n          <p>a) Cite 3 valeurs de la République française<\/p>\n          <p>b) À quel âge peut-on voter en France ?<\/p>\n          <p>c) Qu'est-ce que la laïcité ?<\/p>",
+            "level": "3eme",
+            "subject": "francais"
+        }
+    ],
+    "3eme-sciences": [
+        {
+            "title": "Exercice 91 : SVT - Immunologie ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Les anticorps neutralisent les antigènes (virus, bactéries)<\/p>\n            <p>b) Un vaccin contient des antigènes atténués pour stimuler la production d'anticorps<\/p>\n            <p>c) Innée = présente dès la naissance ; Acquise = se développe après contact avec l'antigène<\/p>\n            <p><strong>🦠 Défense immunitaire :<\/strong> Barrières + Réponse spécifique<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Quel est le rôle des anticorps ?<\/p>\n          <p>b) Qu'est-ce qu'un vaccin ?<\/p>\n          <p>c) Différence entre immunité innée et acquise ?<\/p>",
+            "level": "3eme",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 92 : Physique-Chimie - Atomes et ions ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Un ion est un atome qui a gagné ou perdu des électrons<\/p>\n            <p>b) Cl⁻<\/p>\n            <p>c) Neutre (pH = 7)<\/p>\n            <p><strong>⚗️ pH :<\/strong> &lt; 7 = acide ; 7 = neutre ; &gt; 7 = basique<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Qu'est-ce qu'un ion ?<\/p>\n          <p>b) Quelle est la formule de l'ion chlorure ?<\/p>\n          <p>c) Le pH de l'eau pure est-il acide, basique ou neutre ?<\/p>",
+            "level": "3eme",
+            "subject": "sciences"
+        }
+    ],
+    "seconde-maths": [
+        {
+            "title": "Exercice 1 : Intervalles et valeurs absolues ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) [-3 ; 5[<\/p>\n            <p>b) x - 2 = 3 ou x - 2 = -3, donc x = 5 ou x = -1<\/p>\n            <p>c) -5 ≤ 2x + 1 ≤ 5 ⇔ -6 ≤ 2x ≤ 4 ⇔ -3 ≤ x ≤ 2, soit [-3 ; 2]<\/p>\n            <p><strong>📐 Méthode :<\/strong> La valeur absolue mesure la distance à zéro<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Consignes :<\/strong><\/p>\n          <p>a) Écris sous forme d'intervalle : {x ∈ ℝ | -3 ≤ x &lt; 5}<\/p>\n          <p>b) Résous |x - 2| = 3<\/p>\n          <p>c) Détermine l'ensemble des solutions de |2x + 1| ≤ 5<\/p>",
+            "level": "seconde",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 2 : Puissances et notation scientifique ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) 6 × 10⁻² = 6 × 10⁻²<\/p>\n            <p>b) 2 × 10⁹<\/p>\n            <p>c) 1,5 × 10⁸ km<\/p>\n            <p><strong>⚡ Règles :<\/strong> 10ᵃ × 10ᵇ = 10ᵃ⁺ᵇ ; 10ᵃ ÷ 10ᵇ = 10ᵃ⁻ᵇ<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Consignes :<\/strong> Calcule et exprime en notation scientifique<\/p>\n          <p>a) (2 × 10³) × (3 × 10⁻⁵)<\/p>\n          <p>b) (8 × 10⁷) ÷ (4 × 10⁻²)<\/p>\n          <p>c) La distance Terre-Soleil est environ 150 000 000 km. Exprime-la en notation scientifique.<\/p>",
+            "level": "seconde",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 3 : Identités remarquables ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) x² + 6x + 9<\/p>\n            <p>b) 4x² - 25<\/p>\n            <p>c) (x - 3)(x + 3)<\/p>\n            <p>d) (2x + 3)²<\/p>\n            <p><strong>📝 Identités :<\/strong> (a+b)² = a²+2ab+b² ; (a-b)² = a²-2ab+b² ; (a-b)(a+b) = a²-b²<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Consignes :<\/strong> Développe et factorise<\/p>\n          <p>a) (x + 3)²<\/p>\n          <p>b) (2x - 5)(2x + 5)<\/p>\n          <p>c) Factorise x² - 9<\/p>\n          <p>d) Factorise 4x² + 12x + 9<\/p>",
+            "level": "seconde",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 4 : Fonctions de référence ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) f(2) = 7 ; g(-3) = 9 ; h(0,5) = 2<\/p>\n            <p>b) Df = ℝ* (tous les réels sauf 0)<\/p>\n            <p>c) 2x + 3 = 7 ⇔ x = 2<\/p>\n            <p><strong>📈 Fonctions de base :<\/strong> Affine, carré, inverse<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Soit f(x) = 2x + 3, g(x) = x² et h(x) = 1\/x<\/strong><\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Calcule f(2), g(-3), h(0,5)<\/p>\n          <p>b) Détermine le domaine de définition de h<\/p>\n          <p>c) Résous f(x) = 7<\/p>",
+            "level": "seconde",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 5 : Variations de fonctions ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Maximum : f(1) = 4<\/p>\n            <p>b) 2 solutions (une sur [-2;1] et une sur [3;4])<\/p>\n            <p>\n              <strong>📊 Lecture graphique :<\/strong> Utiliser les variations pour résoudre équations et inéquations\n            <\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Soit f définie sur [-2; 4] par le tableau de variations suivant :<\/strong><\/p>\n          <p>f est croissante sur [-2; 1], décroissante sur [1; 3], croissante sur [3; 4]<\/p>\n          <p>f(-2) = 0, f(1) = 4, f(3) = -1, f(4) = 2<\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Quel est le maximum de f ?<\/p>\n          <p>b) Combien l'équation f(x) = 2 a-t-elle de solutions ?<\/p>",
+            "level": "seconde",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 6 : Résolution graphique ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Méthode :<\/strong><\/p>\n            <p>a) Points d'intersection des courbes<\/p>\n            <p>b) Intervalles où la courbe de f est au-dessus de celle de g<\/p>\n            <p>c) Signe de la différence selon la position relative des courbes<\/p>\n            <p><strong>📈 Graphique :<\/strong> Un outil puissant pour résoudre équations et inéquations<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>On donne les représentations graphiques des fonctions f et g.<\/strong><\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Résous graphiquement f(x) = g(x)<\/p>\n          <p>b) Résous f(x) &gt; g(x)<\/p>\n          <p>c) Détermine le signe de f(x) - g(x)<\/p>",
+            "level": "seconde",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 7 : Vecteurs et colinéarité ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) AB⃗(2; -3) et CD⃗(2; 3)<\/p>\n            <p>b) Non, car 2×3 ≠ (-3)×2<\/p>\n            <p>c) Il faut vérifier que AD⃗ = BC⃗<\/p>\n            <p><strong>📐 Vecteurs :<\/strong> Colinéaires si leurs coordonnées sont proportionnelles<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Données :<\/strong> A(1; 2), B(3; -1), C(-2; 4), D(0; 7)<\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Calcule les coordonnées de AB⃗ et CD⃗<\/p>\n          <p>b) Les vecteurs AB⃗ et CD⃗ sont-ils colinéaires ?<\/p>\n          <p>c) Démontre que ABDC est un parallélogramme<\/p>",
+            "level": "seconde",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 8 : Équations de droites ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) m = (-1-3)\/(5-2) = -4\/3<\/p>\n            <p>b) y = -4\/3·x + b avec 3 = -4\/3·2 + b donc b = 17\/3<\/p>\n            <p>Équation : y = -4\/3·x + 17\/3<\/p>\n            <p>c) -5 = -4\/3·8 + 17\/3 = -15\/3 = -5 ✓ Oui<\/p>\n            <p><strong>📏 Droite :<\/strong> y = mx + p où m est le coefficient directeur<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Droite d passant par A(2; 3) et B(5; -1)<\/strong><\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Calcule le coefficient directeur de la droite (AB)<\/p>\n          <p>b) Détermine l'équation de la droite (AB)<\/p>\n          <p>c) Le point C(8; -5) appartient-il à cette droite ?<\/p>",
+            "level": "seconde",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 9 : Géométrie repérée ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) AB = √[(4-1)² + (6-2)²] = 5<\/p>\n            <p>BC = √[(7-4)² + (2-6)²] = 5<\/p>\n            <p>AC = √[(7-1)² + (2-2)²] = 6<\/p>\n            <p>b) Triangle isocèle en B (AB = BC)<\/p>\n            <p>c) Le centre est équidistant des trois sommets<\/p>\n            <p><strong>📐 Distance :<\/strong> d = √[(x₂-x₁)² + (y₂-y₁)²]<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Triangle ABC avec A(1; 2), B(4; 6), C(7; 2)<\/strong><\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Calcule les longueurs AB, BC, AC<\/p>\n          <p>b) Quelle est la nature du triangle ABC ?<\/p>\n          <p>c) Calcule les coordonnées du centre du cercle circonscrit<\/p>",
+            "level": "seconde",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 10 : Statistiques descriptives ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Moyenne = (12+15+8+20+15+18+11+15+17+13)\/10 = 14,4<\/p>\n            <p>b) Série rangée : 8,11,12,13,15,15,15,17,18,20 → Médiane = 15<\/p>\n            <p>c) Variance = Σ(xi - x̄)²\/n puis σ = √variance<\/p>\n            <p><strong>📊 Indicateurs :<\/strong> Moyenne (tendance centrale), écart-type (dispersion)<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Série statistique :<\/strong> 12, 15, 8, 20, 15, 18, 11, 15, 17, 13<\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Calcule la moyenne<\/p>\n          <p>b) Détermine la médiane<\/p>\n          <p>c) Calcule l'écart-type<\/p>",
+            "level": "seconde",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 11 : Probabilités conditionnelles ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) P(Maths) = P(G)×P(M|G) + P(T)×P(M|T) = 0,6×0,8 + 0,4×0,3 = 0,6<\/p>\n            <p>b) P(G|M) = P(G∩M)\/P(M) = 0,48\/0,6 = 0,8<\/p>\n            <p><strong>🎲 Formule :<\/strong> P(A|B) = P(A∩B)\/P(B)<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Dans un lycée :<\/strong> 60% des élèves sont en voie générale, 40% en voie technologique<\/p>\n          <p>En voie générale : 80% choisissent maths ; En voie technologique : 30% choisissent maths<\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Quelle est la probabilité qu'un élève choisi au hasard fasse des maths ?<\/p>\n          <p>b) Un élève fait des maths, quelle est la probabilité qu'il soit en voie générale ?<\/p>",
+            "level": "seconde",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 12 : Variables aléatoires ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) S peut prendre les valeurs de 2 à 12<\/p>\n            <p>P(S=7) = 6\/36 = 1\/6 (maximum)<\/p>\n            <p>b) E(S) = 7 ; V(S) = 35\/6<\/p>\n            <p>c) P(S≥10) = P(S=10) + P(S=11) + P(S=12) = 6\/36 = 1\/6<\/p>\n            <p><strong>🎯 Variable :<\/strong> Fonction qui associe un nombre à chaque issue<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>On lance deux dés et on s'intéresse à la somme obtenue<\/strong><\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Détermine la loi de probabilité de la somme S<\/p>\n          <p>b) Calcule E(S) et V(S)<\/p>\n          <p>c) Calcule P(S ≥ 10)<\/p>",
+            "level": "seconde",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 13 : Boucles et conditions en Python ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Calcule la somme des nombres pairs de 1 à n<\/p>\n            <p>b) Pour n=10 : 2+4+6+8+10 = 30<\/p>\n            <p><strong>💻 Structures :<\/strong> Boucle for, condition if, opérateur modulo %<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Programme Python :<\/strong><\/p>\n          <pre>n = int(input(\"Nombre : \"))\nsomme = 0\nfor i in range(1, n+1):\n    if i % 2 == 0:\n        somme += i\nprint(somme)\n                <\/pre>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Que fait ce programme ?<\/p>\n          <p>b) Quelle valeur affiche-t-il pour n = 10 ?<\/p>",
+            "level": "seconde",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 14 : Fonctions en Python ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <pre>def factorielle(n):\n    if n &lt;= 1:\n        return 1\n    return n * factorielle(n-1)\n\ndef est_premier(n):\n    if n &lt; 2:\n        return False\n    for i in range(2, int(n**0.5) + 1):\n        if n % i == 0:\n            return False\n    return True\n                    <\/pre>\n            <p><strong>🔧 Fonctions :<\/strong> Réutilisabilité et structuration du code<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Écris une fonction Python qui :<\/strong><\/p>\n          <p>a) Calcule la factorielle d'un nombre n<\/p>\n          <p>b) Détermine si un nombre est premier<\/p>\n          <p>c) Teste tes fonctions<\/p>",
+            "level": "seconde",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 15 : Simulation avec Python ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <pre>import random\nimport matplotlib.pyplot as plt\n\nresultats = [random.randint(1,6) for _ in range(1000)]\nfrequences = [resultats.count(i)\/1000 for i in range(1,7)]\nplt.bar(range(1,7), frequences)\nplt.axhline(y=1\/6, color='r', linestyle='--')\nplt.show()\n                    <\/pre>\n            <p><strong>📈 Simulation :<\/strong> Vérification expérimentale des probabilités<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Simule 1000 lancers d'un dé et :<\/strong><\/p>\n          <p>a) Calcule la fréquence d'apparition de chaque face<\/p>\n          <p>b) Compare avec la probabilité théorique<\/p>\n          <p>c) Trace un histogramme des résultats<\/p>",
+            "level": "seconde",
+            "subject": "maths"
+        }
+    ],
+    "seconde-francais": [
+        {
+            "title": "Exercice 16 : Analyse d'un poème (Baudelaire) ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Quatrain d'alexandrins (12 pieds), rimes croisées (ABAB)<\/p>\n            <p>b) \"gouffres amers\" métaphore de l'océan hostile<\/p>\n            <p>c) Indolents = paresseux, nonchalants<\/p>\n            <p><strong>🎭 Baudelaire :<\/strong> Poète de la modernité, symbolisme<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Texte :<\/strong> \"L'Albatros\" de Baudelaire<\/p>\n          <p>\n            <em>\"Souvent, pour s'amuser, les hommes d'équipage<br>\n              Prennent des albatros, vastes oiseaux des mers,<br>\n              Qui suivent, indolents compagnons de voyage,<br>\n              Le navire glissant sur les gouffres amers.\"<\/em>\n          <\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Analysez la métrique de cette strophe<\/p>\n          <p>b) Relevez et analysez une métaphore<\/p>\n          <p>c) Quel est le sens du mot \"indolents\" ?<\/p>",
+            "level": "seconde",
+            "subject": "francais"
+        },
+        {
+            "title": "Exercice 17 : Commentaire de texte (méthode) ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Méthode :<\/strong><\/p>\n            <p><strong>Introduction :<\/strong> Amorce, présentation, problématique, annonce du plan<\/p>\n            <p><strong>Développement :<\/strong> 2-3 parties avec sous-parties, citations analysées<\/p>\n            <p><strong>Conclusion :<\/strong> Bilan, ouverture<\/p>\n            <p><strong>📝 Conseil :<\/strong> Toujours partir des procédés pour aller vers le sens<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Méthodologie du commentaire littéraire<\/strong><\/p>\n          <p><strong>Étapes :<\/strong><\/p>\n          <p>1. Lecture analytique du texte<\/p>\n          <p>2. Problématique et plan<\/p>\n          <p>3. Rédaction structurée<\/p>",
+            "level": "seconde",
+            "subject": "francais"
+        },
+        {
+            "title": "Exercice 18 : Lecture analytique d'une scène de théâtre ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Tirades, stichomythies, apartés<\/p>\n            <p>b) Sophistique, paradoxes, éloquence séductrice<\/p>\n            <p>c) Faire-valoir, voix de la morale populaire<\/p>\n            <p><strong>🎭 Théâtre :<\/strong> Texte ET représentation<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Extrait de \"Dom Juan\" de Molière, acte I, scène 2<\/strong><\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Identifiez les types de répliques<\/p>\n          <p>b) Analysez la stratégie argumentative de Dom Juan<\/p>\n          <p>c) Quel est le rôle de Sganarelle ?<\/p>",
+            "level": "seconde",
+            "subject": "francais"
+        },
+        {
+            "title": "Exercice 19 : Contraction de texte ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Méthode :<\/strong><\/p>\n            <p>1. Repérer les idées principales<\/p>\n            <p>2. Éliminer exemples et détails<\/p>\n            <p>3. Reformuler en respectant l'énonciation<\/p>\n            <p>4. Vérifier le nombre de mots<\/p>\n            <p><strong>⚡ Règle :<\/strong> ≈ 10% de marge sur le nombre de mots<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Consigne :<\/strong> Contractez le texte suivant au quart de sa longueur (≈ 100 mots)<\/p>\n          <p><em>[Texte de 400 mots sur les enjeux du numérique]<\/em><\/p>",
+            "level": "seconde",
+            "subject": "francais"
+        },
+        {
+            "title": "Exercice 20 : Essai argumenté ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Plan possible :<\/strong><\/p>\n            <p>I. La lecture comme évasion (divertissement, imaginaire)<\/p>\n            <p>II. La lecture comme compréhension (miroir du monde, empathie)<\/p>\n            <p>III. Une fonction double et complémentaire<\/p>\n            <p><strong>📖 Argumentation :<\/strong> Thèse, arguments, exemples précis<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p>\n            <strong>Sujet :<\/strong> \"La lecture de romans est-elle un moyen d'évasion ou de compréhension du monde ?\"\n          <\/p>\n          <p><strong>Consignes :<\/strong> Développez votre réflexion en 250 mots environ<\/p>",
+            "level": "seconde",
+            "subject": "francais"
+        },
+        {
+            "title": "Exercice 21 : Écriture d'invention ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Critères :<\/strong><\/p>\n            <p>✅ Respect des codes théâtraux<\/p>\n            <p>✅ Caractérisation des personnages<\/p>\n            <p>✅ Progression du dialogue<\/p>\n            <p>✅ Qualité de la langue<\/p>\n            <p><strong>🎭 Théâtre :<\/strong> Conflit dramatique, double énonciation<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p>\n            <strong>Sujet :<\/strong> Rédigez un dialogue théâtral entre deux personnages aux opinions opposées sur\n            l'usage des réseaux sociaux\n          <\/p>\n          <p><strong>Contraintes :<\/strong> Didascalies, registres différents, 20 répliques<\/p>",
+            "level": "seconde",
+            "subject": "francais"
+        },
+        {
+            "title": "Exercice 22 : Analyse syntaxique complète ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Phrase complexe avec 3 propositions<\/p>\n            <p>\n              b) \"Bien que...difficile\" = sub. circonstancielle de concession ; \"qui investissent\" = sub. relative ;\n              principale = \"les entreprises résistent\"\n            <\/p>\n            <p>c) Subjonctif après \"bien que\" (conjonction de concession)<\/p>\n            <p><strong>📝 Syntaxe :<\/strong> Coordination, subordination, juxtaposition<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p>\n            <strong>Phrase :<\/strong> \"Bien que la situation économique soit difficile, les entreprises qui investissent\n            dans l'innovation résistent mieux à la crise.\"\n          <\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Analysez la structure de cette phrase complexe<\/p>\n          <p>b) Identifiez les propositions et leurs fonctions<\/p>\n          <p>c) Justifiez le mode du verbe \"soit\"<\/p>",
+            "level": "seconde",
+            "subject": "francais"
+        },
+        {
+            "title": "Exercice 23 : Figures de style avancées ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Métaphore hyperbolique<\/p>\n            <p>b) Personnification<\/p>\n            <p>c) Métaphore + hyperbole<\/p>\n            <p>d) Hyperbole<\/p>\n            <p><strong>🎨 Effet :<\/strong> Expressivité, images, émotions<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Identifiez et analysez les figures de style :<\/strong><\/p>\n          <p>a) \"Il pleut des cordes\"<\/p>\n          <p>b) \"Cette musique me parle\"<\/p>\n          <p>c) \"Un silence de mort\"<\/p>\n          <p>d) \"Mourir de rire\"<\/p>",
+            "level": "seconde",
+            "subject": "francais"
+        },
+        {
+            "title": "Exercice 24 : Lexique et champs lexicaux ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Œuvre, pinceau, toile, couleur, exposition...<\/p>\n            <p>b) Évolution : support → œuvre → spectacle<\/p>\n            <p>c) Artiste, auteur, concepteur, inventeur<\/p>\n            <p><strong>📚 Lexique :<\/strong> Évolution historique des mots<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Texte sur l'art contemporain<\/strong><\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Relevez le champ lexical de l'art<\/p>\n          <p>b) Analysez l'évolution du sens du mot \"tableau\" du XVIIe à nos jours<\/p>\n          <p>c) Proposez des synonymes de \"créateur\"<\/p>",
+            "level": "seconde",
+            "subject": "francais"
+        },
+        {
+            "title": "Exercice 25 : Lecture expressive ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Conseils :<\/strong><\/p>\n            <p>✅ Respecter la métrique (vers impairs)<\/p>\n            <p>✅ Rendre la mélancolie verlainienne<\/p>\n            <p>✅ Jouer sur les sonorités<\/p>\n            <p>✅ Pause à la césure<\/p>\n            <p><strong>🎵 Verlaine :<\/strong> \"De la musique avant toute chose\"<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Préparez la lecture expressive de ce poème de Verlaine :<\/strong><\/p>\n          <p>\n            <em>\"Il pleure dans mon cœur<br>\n              Comme il pleut sur la ville...\"<\/em>\n          <\/p>\n          <p><strong>Consignes :<\/strong> Rythme, intonation, pauses, émotions<\/p>",
+            "level": "seconde",
+            "subject": "francais"
+        },
+        {
+            "title": "Exercice 26 : Exposé oral structuré ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Structure :<\/strong><\/p>\n            <p>I. Le mythe antique (Sophocle)<\/p>\n            <p>II. Les réécritures modernes (Anouilh, Brecht...)<\/p>\n            <p>III. Actualité du mythe<\/p>\n            <p><strong>🎤 Oral :<\/strong> Regard, articulation, gestion du temps<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Sujet :<\/strong> \"Les réécritures d'un mythe : Antigone\"<\/p>\n          <p><strong>Durée :<\/strong> 5 minutes<\/p>\n          <p><strong>Support :<\/strong> Diaporama autorisé<\/p>",
+            "level": "seconde",
+            "subject": "francais"
+        },
+        {
+            "title": "Exercice 27 : Débat argumenté ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Compétences :<\/strong><\/p>\n            <p>✅ Argumentation structurée<\/p>\n            <p>✅ Écoute active<\/p>\n            <p>✅ Réfutation courtoise<\/p>\n            <p>✅ Exemples précis<\/p>\n            <p><strong>🗣️ Débat :<\/strong> Confrontation d'idées respectueuse<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Sujet :<\/strong> \"Faut-il encore lire les classiques aujourd'hui ?\"<\/p>\n          <p><strong>Modalités :<\/strong> Débat en deux équipes, 20 minutes<\/p>\n          <p><strong>Rôles :<\/strong> Modérateur, arguments, réfutations<\/p>",
+            "level": "seconde",
+            "subject": "francais"
+        }
+    ],
+    "seconde-sciences": [
+        {
+            "title": "Exercice 28 : Ondes et signaux ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) v = d\/t = 340 m\/s<\/p>\n            <p>b) f = 1\/T = 1\/(2×10⁻³) = 500 Hz<\/p>\n            <p>c) λ = c\/f = (3×10⁸)\/(5×10¹⁴) = 6×10⁻⁷ m = 600 nm<\/p>\n            <p><strong>🌊 Formules :<\/strong> v = λf, c = 3×10⁸ m\/s<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Calculez la célérité d'une onde sonore qui parcourt 340 m en 1 s<\/p>\n          <p>b) Quelle est la fréquence d'un son de période T = 2 ms ?<\/p>\n          <p>c) Une onde lumineuse a une fréquence de 5×10¹⁴ Hz. Calculez sa longueur d'onde.<\/p>",
+            "level": "seconde",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 29 : Mouvement et forces ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) x₀ = 1 m, v₀ = 3 m\/s (coefficient de t)<\/p>\n            <p>b) v(t) = dx\/dt = 4t + 3, donc v(3) = 15 m\/s<\/p>\n            <p>c) Mouvement uniformément accéléré (a = 4 m\/s²)<\/p>\n            <p><strong>🚗 Cinématique :<\/strong> Position, vitesse, accélération<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Un mobile se déplace selon l'équation horaire : x(t) = 2t² + 3t + 1<\/strong><\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Déterminez la position initiale et la vitesse initiale<\/p>\n          <p>b) Calculez la vitesse à t = 3 s<\/p>\n          <p>c) Quelle est la nature du mouvement ?<\/p>",
+            "level": "seconde",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 30 : Énergie et conversions ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Ep = mgh = 0,2 × 9,8 × 5 = 9,8 J<\/p>\n            <p>b) Conservation : Ep = Ec ⟹ v = √(2gh) = √(2×9,8×5) = 9,9 m\/s<\/p>\n            <p>c) Conversion en chaleur (frottements), déformation<\/p>\n            <p><strong>⚡ Conservation :<\/strong> L'énergie se transforme mais ne se perd pas<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Une balle de 200 g est lâchée d'une hauteur de 5 m<\/strong><\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Calculez son énergie potentielle initiale<\/p>\n          <p>b) Quelle est sa vitesse juste avant l'impact au sol ?<\/p>\n          <p>c) Que devient l'énergie après le rebond ?<\/p>",
+            "level": "seconde",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 33 : SVT - La Terre dans l'Univers ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Croûte terrestre, manteau, noyau externe (liquide), noyau interne (solide)<\/p>\n            <p>b) La lithosphère est divisée en plaques qui se déplacent sur l'asthénosphère<\/p>\n            <p>c) Rupture brutale des roches aux limites de plaques → libération d'énergie<\/p>\n            <p><strong>🌍 Structure :<\/strong> La Terre est une planète active<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Quelle est la structure interne de la Terre ?<\/p>\n          <p>b) Qu'est-ce que la tectonique des plaques ?<\/p>\n          <p>c) Comment se forment les séismes ?<\/p>",
+            "level": "seconde",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 34 : SVT - Cellule et ADN ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Cellule procaryote (sans noyau, ex: bactéries) et eucaryote (avec noyau)<\/p>\n            <p>b) Dans le noyau (sous forme de chromosomes)<\/p>\n            <p>c) L'information génétique pour la fabrication des protéines<\/p>\n            <p><strong>🧬 Cellule :<\/strong> Unité fondamentale du vivant<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Quels sont les 2 types de cellules ?<\/p>\n          <p>b) Où se trouve l'ADN dans une cellule eucaryote ?<\/p>\n          <p>c) Que code l'ADN ?<\/p>",
+            "level": "seconde",
+            "subject": "sciences"
+        },
+        {
+            "title": "Exercice 35 : SVT - Biodiversité ★★",
+            "difficulty": "★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Diversité des êtres vivants et des écosystèmes sur Terre<\/p>\n            <p>b) Déforestation, pollution, changement climatique, surexploitation, espèces invasives<\/p>\n            <p>c) Services écosystémiques (nourriture, oxygène, régulation climat), équilibre des écosystèmes<\/p>\n            <p><strong>🌿 Enjeu :<\/strong> La biodiversité est essentielle à la vie<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Définis la biodiversité<\/p>\n          <p>b) Cite 3 causes de l'érosion de la biodiversité<\/p>\n          <p>c) Pourquoi est-il important de préserver la biodiversité ?<\/p>",
+            "level": "seconde",
+            "subject": "sciences"
+        }
+    ],
+    "premiere-maths": [
+        {
+            "title": "Exercice 36 : Forme canonique et racines ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) Δ = (-4)² - 4×1×3 = 16 - 12 = 4 &gt; 0 → 2 racines<\/p>\n            <p>x₁ = (4-2)\/2 = 1 ; x₂ = (4+2)\/2 = 3<\/p>\n            <p>b) f(x) = (x-2)² - 1 [forme canonique]<\/p>\n            <p>c) Sommet S(2, -1), parabole croissante avant 2, décroissante après<\/p>\n            <p><strong>📐 Discriminant :<\/strong> Δ = b² - 4ac<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Fonction :<\/strong> f(x) = x² - 4x + 3<\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Résous f(x) = 0<\/p>\n          <p>b) Mets f(x) sous forme canonique<\/p>\n          <p>c) Dresse le tableau de variations<\/p>",
+            "level": "premiere",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 37 : Calcul de dérivées ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) f'(x) = 6x + 5<\/p>\n            <p>b) g'(x) = 2(x² - 3) + (2x+1)(2x) = 2x² - 6 + 4x² + 2x = 6x² + 2x - 6<\/p>\n            <p>c) h'(x) = [3(x-1) - (3x+2)×1] \/ (x-1)² = -5\/(x-1)²<\/p>\n            <p><strong>📝 Formules :<\/strong> (uv)' = u'v + uv' ; (u\/v)' = (u'v - uv')\/v²<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Consignes :<\/strong> Calcule les dérivées<\/p>\n          <p>a) f(x) = 3x² + 5x - 2<\/p>\n          <p>b) g(x) = (2x+1)(x² - 3)<\/p>\n          <p>c) h(x) = (3x+2)\/(x-1)<\/p>",
+            "level": "premiere",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 38 : Suite arithmétique et géométrique ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) uₙ = u₀ + nr ; u₁₀ = 3 + 10×5 = 53<\/p>\n            <p>b) S = (nombre de termes) × (premier + dernier)\/2 = 11 × (3+53)\/2 = 11 × 28 = 308<\/p>\n            <p><strong>📊 Arithmétique :<\/strong> uₙ₊₁ = uₙ + r<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Suite arithmétique :<\/strong> u₀ = 3, raison r = 5<\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Calcule u₁₀<\/p>\n          <p>b) Calcule la somme S = u₀ + u₁ + ... + u₁₀<\/p>",
+            "level": "premiere",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 39 : Exponentielle ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) e³ × e⁵ = e⁸<\/p>\n            <p>b) (e²)⁴ = e⁸<\/p>\n            <p>c) e^x = e⁷ ⟹ x = 7<\/p>\n            <p>d) f'(x) = 2 × e^(2x+1)<\/p>\n            <p><strong>📈 Propriété :<\/strong> (e^u)' = u' × e^u<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Simplifie e³ × e⁵<\/p>\n          <p>b) Simplifie (e²)⁴<\/p>\n          <p>c) Résous e^x = e⁷<\/p>\n          <p>d) Dérive f(x) = e^(2x+1)<\/p>",
+            "level": "premiere",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 40 : Produit scalaire ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) u⃗ · v⃗ = 2×4 + 3×(-1) = 8 - 3 = 5<\/p>\n            <p>b) ||u⃗|| = √(2² + 3²) = √13<\/p>\n            <p>c) Non, car u⃗ · v⃗ ≠ 0 (si orthogonaux, produit scalaire = 0)<\/p>\n            <p><strong>📐 Produit scalaire :<\/strong> u⃗ · v⃗ = x₁x₂ + y₁y₂<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Vecteurs :<\/strong> u⃗(2; 3) et v⃗(4; -1)<\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Calcule u⃗ · v⃗<\/p>\n          <p>b) Calcule ||u⃗||<\/p>\n          <p>c) Les vecteurs sont-ils orthogonaux ?<\/p>",
+            "level": "premiere",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 41 : Loi binomiale ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) X suit la loi binomiale B(5 ; 0,5)<\/p>\n            <p>b) P(X=3) = C₅³ × (0,5)³ × (0,5)² = 10 × 0,125 × 0,25 = 0,3125<\/p>\n            <p>c) E(X) = n × p = 5 × 0,5 = 2,5<\/p>\n            <p><strong>🎲 Binomiale :<\/strong> n épreuves indépendantes, probabilité p constante<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Expérience :<\/strong> On lance 5 fois une pièce équilibrée<\/p>\n          <p>X = nombre de \"Face\"<\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) X suit quelle loi ?<\/p>\n          <p>b) Calcule P(X = 3)<\/p>\n          <p>c) Calcule E(X)<\/p>",
+            "level": "premiere",
+            "subject": "maths"
+        }
+    ],
+    "premiere-francais": [
+        {
+            "title": "Exercice 42 : Entraînement commentaire ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Exemple de plan :<\/strong><\/p>\n            <p><strong>Problématique :<\/strong> Comment Baudelaire fait-il de l'albatros une allégorie du poète ?<\/p>\n            <p><strong>I. L'albatros, un oiseau majestueux mais captif<\/strong><\/p>\n            <p>A. Majesté dans les airs<\/p>\n            <p>B. Humiliation sur le pont<\/p>\n            <p><strong>II. L'albatros, double allégorique du poète<\/strong><\/p>\n            <p>A. Le poète incompris par la société<\/p>\n            <p>B. La grandeur de l'art vs la médiocrité du quotidien<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Texte :<\/strong> Extrait de <em>Les Fleurs du Mal<\/em>, Baudelaire, \"L'Albatros\"<\/p>\n          <p><strong>Consignes :<\/strong><\/p>\n          <p>1. Lis attentivement le texte<\/p>\n          <p>2. Identifie les procédés littéraires (métaphores, allégorie...)<\/p>\n          <p>3. Propose une problématique<\/p>\n          <p>4. Élabore un plan en 2 parties<\/p>",
+            "level": "premiere",
+            "subject": "francais"
+        },
+        {
+            "title": "Exercice 43 : Simulation oral - Explication linéaire ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Conseils pour réussir l'oral :<\/strong><\/p>\n            <ul>\n              <li>✅ Bien connaître ses 12+ textes<\/li>\n              <li>✅ Lire les œuvres intégrales<\/li>\n              <li>✅ S'entraîner à la lecture à voix haute<\/li>\n              <li>✅ Maîtriser la grammaire (fonctions, propositions, temps...)<\/li>\n              <li>✅ Gérer son stress et son temps<\/li>\n            <\/ul>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Méthode de l'explication linéaire :<\/strong><\/p>\n          <ol>\n            <li><strong>Introduction :<\/strong> Situer le texte, problématique, mouvement du texte<\/li>\n            <li><strong>Explication :<\/strong> Suivre le texte ligne par ligne, analyser les procédés<\/li>\n            <li><strong>Conclusion :<\/strong> Bilan, réponse à la problématique<\/li>\n          <\/ol>",
+            "level": "premiere",
+            "subject": "francais"
+        }
+    ],
+    "terminale-maths": [
+        {
+            "title": "Exercice 44 : Calcul de limites ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) lim = +∞ (terme de plus haut degré)<\/p>\n            <p>b) lim = 0 (degré dénominateur &gt; degré numérateur)<\/p>\n            <p>c) lim = 1 (limite remarquable)<\/p>\n            <p><strong>📐 Limites :<\/strong> Comparer les degrés polynômes<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Consignes :<\/strong> Calcule les limites<\/p>\n          <p>a) lim(x→+∞) (2x² + 3x - 1)<\/p>\n          <p>b) lim(x→+∞) (3x + 5) \/ (x² - 1)<\/p>\n          <p>c) lim(x→0) sin(x) \/ x<\/p>",
+            "level": "terminale",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 45 : Logarithme ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) ln(e⁵) = 5<\/p>\n            <p>b) ln(8) - ln(2) = ln(8\/2) = ln(4)<\/p>\n            <p>c) ln(x) = 3 ⟹ x = e³<\/p>\n            <p>d) f'(x) = 2\/(2x+1)<\/p>\n            <p><strong>📊 Propriétés :<\/strong> ln(ab) = ln(a) + ln(b) ; (ln(u))' = u'\/u<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Simplifie ln(e⁵)<\/p>\n          <p>b) Simplifie ln(8) - ln(2)<\/p>\n          <p>c) Résous ln(x) = 3<\/p>\n          <p>d) Dérive f(x) = ln(2x + 1)<\/p>",
+            "level": "terminale",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 46 : Calcul intégral ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) F(x) = x³ + x² - x + C<\/p>\n            <p>b) [x² + x]₀² = (4 + 2) - 0 = 6<\/p>\n            <p>c) Aire sous la courbe entre x=0 et x=2<\/p>\n            <p><strong>∫ Intégrale :<\/strong> ∫f(x)dx = [F(x)]ₐᵇ = F(b) - F(a)<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Calcule une primitive de f(x) = 3x² + 2x - 1<\/p>\n          <p>b) Calcule ∫₀² (2x + 1) dx<\/p>\n          <p>c) Interprète géométriquement cette intégrale<\/p>",
+            "level": "terminale",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 47 : Loi normale ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) E(X) = 100<\/p>\n            <p>b) σ(X) = 15<\/p>\n            <p>c) P(85 ≤ X ≤ 115) ≈ 0,68 (intervalle [μ-σ ; μ+σ])<\/p>\n            <p><strong>📊 Loi normale :<\/strong> Courbe en cloche, symétrie autour de μ<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Variable :<\/strong> X suit la loi normale N(100 ; 15²)<\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Quelle est l'espérance de X ?<\/p>\n          <p>b) Quel est l'écart-type ?<\/p>\n          <p>c) Utilise la calculatrice pour P(85 ≤ X ≤ 115)<\/p>",
+            "level": "terminale",
+            "subject": "maths"
+        },
+        {
+            "title": "Exercice 48 : Vecteurs dans l'espace ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Correction :<\/strong><\/p>\n            <p>a) AB⃗(3 ; -1 ; -1)<\/p>\n            <p>b) ||AB⃗|| = √(9 + 1 + 1) = √11<\/p>\n            <p>c) AC⃗(1 ; 1 ; -2) ; pas proportionnels donc non colinéaires<\/p>\n            <p><strong>📐 Espace :<\/strong> 3 coordonnées (x, y, z)<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Points :<\/strong> A(1;2;3), B(4;1;2), C(2;3;1)<\/p>\n          <p><strong>Questions :<\/strong><\/p>\n          <p>a) Calcule les coordonnées de AB⃗<\/p>\n          <p>b) Calcule ||AB⃗||<\/p>\n          <p>c) AB⃗ et AC⃗ sont-ils colinéaires ?<\/p>",
+            "level": "terminale",
+            "subject": "maths"
+        }
+    ],
+    "terminale-philosophie": [
+        {
+            "title": "Exercice 49 : Entraînement dissertation ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Exemple de plan :<\/strong><\/p>\n            <p><strong>Problématique :<\/strong> La liberté implique-t-elle nécessairement la responsabilité ?<\/p>\n            <p><strong>I. Liberté et responsabilité semblent indissociables<\/strong><\/p>\n            <p>A. Être libre, c'est être l'auteur de ses actes (Sartre)<\/p>\n            <p>B. La responsabilité découle de la liberté<\/p>\n            <p><strong>II. Cependant, peut-on être libre sans assumer ?<\/strong><\/p>\n            <p>A. L'illusion de la liberté absolue<\/p>\n            <p>B. Les déterminismes (Spinoza)<\/p>\n            <p><strong>III. Liberté et responsabilité se renforcent mutuellement<\/strong><\/p>\n            <p>A. La responsabilité condition de la liberté authentique<\/p>\n            <p>B. Vers une liberté engagée (Kant)<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Sujet :<\/strong> \"Peut-on être libre sans être responsable ?\"<\/p>\n          <p><strong>Consignes :<\/strong><\/p>\n          <p>1. Analyse les termes : \"libre\", \"responsable\"<\/p>\n          <p>2. Dégage le problème philosophique<\/p>\n          <p>3. Formule une problématique<\/p>\n          <p>4. Propose un plan en 3 parties<\/p>",
+            "level": "terminale",
+            "subject": "philosophie"
+        },
+        {
+            "title": "Exercice 50 : Construire sa question de Grand Oral ★★★",
+            "difficulty": "★★★",
+            "correction": "<p><strong>🔍 Exemples de questions :<\/strong><\/p>\n            <ul>\n              <li><strong>Maths + Physique :<\/strong> \"Comment les équations différentielles modélisent-elles le mouvement des planètes ?\"<\/li>\n              <li><strong>SVT + Physique-Chimie :<\/strong> \"En quoi la bioluminescence repose-t-elle sur des réactions chimiques ?\"<\/li>\n              <li><strong>SES + HG :<\/strong> \"Quels sont les enjeux économiques et géopolitiques de la transition énergétique ?\"<\/li>\n              <li><strong>Maths + NSI :<\/strong> \"Comment les algorithmes de cryptographie protègent-ils nos données ?\"<\/li>\n            <\/ul>\n            <p><strong>💡 Conseil :<\/strong> Choisir une question qui vous passionne vraiment !<\/p>",
+            "content": "<div class=\"exercise\">\n          \n          <p><strong>Étapes :<\/strong><\/p>\n          <ol>\n            <li>Choisir un thème lié à vos 2 spécialités<\/li>\n            <li>Formuler une question problématisée (pas une récitation de cours)<\/li>\n            <li>Préparer un plan en 2-3 parties<\/li>\n            <li>Trouver des exemples concrets<\/li>\n            <li>Faire le lien avec votre projet d'orientation<\/li>\n          <\/ol>",
+            "level": "terminale",
+            "subject": "philosophie"
+        }
+    ]
+}

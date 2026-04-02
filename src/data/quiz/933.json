@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic HGGSP 1ère - Série 933",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "HGGSP",
+    "description": "Diagnostic HGGSP 1ère : Mémoire collective et histoire",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Mémoire collective et histoire",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "HGGSP",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Maurice Halbwachs est le sociologue qui a théorisé le concept de :",
+        "choices": [
+          "L'histoire officielle",
+          "La mémoire collective",
+          "La mémoire individuelle uniquement",
+          "L'oubli social"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'histoire et la mémoire sont deux approches identiques du passé."
+      },
+      {
+        "type": "open",
+        "question": "Expliquez la distinction entre histoire et mémoire selon Paul Ricœur."
+      },
+      {
+        "type": "qcm",
+        "question": "Un 'lieu de mémoire' (Pierre Nora) est :",
+        "choices": [
+          "Un musée uniquement",
+          "Tout lieu (monument, date, texte, symbole) où se cristallise la mémoire d'un groupe",
+          "Un site historique classé à l'UNESCO",
+          "Un cimetière militaire"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les commémorations officielles sont des outils de construction d'une identité nationale."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que le 'devoir de mémoire' et quelles en sont les limites ?"
+      },
+      {
+        "type": "qcm",
+        "question": "La loi Gayssot (1990) en France réprime :",
+        "choices": [
+          "La promotion de la violence",
+          "La négation des crimes contre l'humanité, notamment la Shoah",
+          "Le révisionnisme historique en général",
+          "Tout discours sur la Seconde Guerre mondiale"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les 'lois mémorielles' françaises font débat entre historiens et juristes."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

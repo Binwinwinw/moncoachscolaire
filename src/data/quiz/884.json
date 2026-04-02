@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic NSI 1ère - Série 884",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "description": "Diagnostic NSI 1ère : API et services web",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "API et services web",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "API signifie :",
+        "choices": [
+          "Advanced Program Interface",
+          "Application Programming Interface",
+          "Automated Process Integration",
+          "Application Protocol Interchange"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une API REST retourne le plus souvent des données au format JSON."
+      },
+      {
+        "type": "open",
+        "question": "Comment interroger une API web en Python avec le module requests ?"
+      },
+      {
+        "type": "qcm",
+        "question": "La clé API (API key) sert principalement à :",
+        "choices": [
+          "Chiffrer les données",
+          "Authentifier et autoriser l'accès à une API",
+          "Compresser les requêtes",
+          "Identifier le navigateur"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le format JSON est basé sur la syntaxe des objets JavaScript."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que le web scraping et quelles sont ses limites éthiques et légales ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Le module json en Python permet de :",
+        "choices": [
+          "Faire des requêtes HTTP",
+          "Sérialiser (encode) et désérialiser (decode) des données JSON",
+          "Créer des bases de données",
+          "Envoyer des emails"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "GraphQL est une alternative à REST pour les API web."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "Subject": "mathematiques",
+    "Level": "3eme",
+    "Title": "Calcul numérique (PGCD, racine carrée) - Corrigé",
+    "Content": "1) PGCD(18 ; 24) = 6\n2) PGCD(45 ; 60) = 15\n3) √49 = 7\n4) √81 = 9",
+    "Instruction": "",
+    "Answer": "",
+    "AnswerType": "",
+    "Choices": null,
+    "Tips": "",
+    "Domain": "",
+    "Competence": [],
+    "Difficulty": "a_verifier",
+    "Identifier": "MATHEMATIQUES-3EME-CALCUL-001",
+    "is_active": true,
+    "XP_Points": 0
+  },
+  {
+    "Subject": "mathematiques",
+    "Level": "3eme",
+    "Title": "Équations du 1er degré - Corrigé",
+    "Content": "1) 2x - 5 = 11 → x = 8\n2) 3x + 7 = 1 → x = -2\n3) 5x - 2 = 3x + 10 → x = 6",
+    "Instruction": "",
+    "Answer": "",
+    "AnswerType": "",
+    "Choices": null,
+    "Tips": "",
+    "Domain": "",
+    "Competence": [],
+    "Difficulty": "a_verifier",
+    "Identifier": "MATHEMATIQUES-3EME-EQUATIONS-001",
+    "is_active": true,
+    "XP_Points": 0
+  },
+  {
+    "Subject": "mathematiques",
+    "Level": "3eme",
+    "Title": "Lecture de fonction - Corrigé",
+    "Content": "1) Pente : 2\n2) f(x) = 2x + 2\n3) f(5) = 12",
+    "Instruction": "",
+    "Answer": "",
+    "AnswerType": "",
+    "Choices": null,
+    "Tips": "",
+    "Domain": "",
+    "Competence": [],
+    "Difficulty": "a_verifier",
+    "Identifier": "MATHEMATIQUES-3EME-LECTURE-001",
+    "is_active": true,
+    "XP_Points": 0
+  }
+]

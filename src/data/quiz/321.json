@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 1ere - Série 321",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie 1ere : Quiz Diagnostic 1ere Physique-Chimie - Serie 49",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Physique-Chimie - Serie 49",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la démarche expérimentale de base en physique-chimie pour étudier 'Révision générale Physique-Chimie 1ère' ?",
+        "choices": [
+          "Observer, formuler une hypothèse, expérimenter, analyser, conclure",
+          "Lire des documents et mémoriser les résultats",
+          "Effectuer des calculs mathématiques uniquement",
+          "Observer sans interpréter"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les grandeurs physiques étudiées en 'Révision générale Physique-Chimie 1ère' s'expriment toujours dans le Système International (SI) d'unités."
+      },
+      {
+        "type": "open",
+        "question": "Expliquez comment les mathématiques sont utilisées en physique-chimie pour modéliser des phénomènes réels."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est l'incertitude absolue et quel est son rôle dans les mesures expérimentales ?",
+        "choices": [
+          "L'erreur commise lors d'un calcul mathématique",
+          "L'intervalle dans lequel se trouve la valeur vraie d'une grandeur mesurée, reflétant la précision de la mesure",
+          "La valeur exacte d'une grandeur",
+          "L'écart entre deux mesures successives"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "En physique-chimie, une loi est plus générale qu'un principe car elle découle d'observations expérimentales."
+      },
+      {
+        "type": "open",
+        "question": "Donnez deux exemples d'applications concrètes dans notre vie quotidienne liées au domaine de 'Révision générale Physique-Chimie 1ère'."
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que l'analyse dimensionnelle en physique ?",
+        "choices": [
+          "L'étude de la forme géométrique des objets physiques",
+          "La vérification de la cohérence des unités dans une équation physique",
+          "La mesure des dimensions d'un objet",
+          "L'étude de la physique à différentes échelles"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La précision d'un instrument de mesure est toujours meilleure que son exactitude."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

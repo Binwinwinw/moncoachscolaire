@@ -1,0 +1,46 @@
+/* Style pour les pages légales */
+.legal-content {
+  line-height: 1.8;
+}
+
+.legal-section {
+  transition: transform 0.2s ease-in-out;
+}
+
+.legal-section:hover {
+  transform: translateY(-2px);
+}
+
+.legal-text p {
+  margin-bottom: 1rem;
+}
+
+.legal-text ul {
+  margin-bottom: 1rem;
+}
+
+.legal-text h3 {
+  scroll-margin-top: 100px;
+}
+
+.info-box {
+  border-radius: 8px;
+}
+
+.contact-box {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+  .legal-section {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem !important;
+  }
+
+  h2 {
+    font-size: 1.5rem !important;
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic NSI 1ère - Série 872",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "description": "Diagnostic NSI 1ère : Hexadécimal et conversions",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "Hexadécimal et conversions",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Dans le système hexadécimal, la lettre 'A' représente la valeur :",
+        "choices": [
+          "10",
+          "11",
+          "12",
+          "15"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "0xFF en hexadécimal est égal à 255 en décimal."
+      },
+      {
+        "type": "open",
+        "question": "Convertissez le nombre hexadécimal 2A en décimal et en binaire."
+      },
+      {
+        "type": "qcm",
+        "question": "En Python, hex(255) retourne :",
+        "choices": [
+          "'255'",
+          "'0xff'",
+          "'FF'",
+          "255"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les couleurs web en CSS peuvent être exprimées en hexadécimal (ex : #FF5733)."
+      },
+      {
+        "type": "open",
+        "question": "Pourquoi l'hexadécimal est-il souvent préféré au binaire en informatique ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le préfixe Python pour écrire un entier en hexadécimal dans le code ?",
+        "choices": [
+          "#",
+          "0b",
+          "0x",
+          "0o"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "1 Ko (kilooctet) = 1000 octets en informatique."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 3eme - Série 761",
+    "level": "3eme",
+    "subject": "EMC"
+  },
+  "quiz": {
+    "title": "Medias, information et democratie",
+    "question_count": 8,
+    "level": "3eme",
+    "subject": "EMC",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "La loi du 29 juillet 1881 sur la liberte de la presse",
+        "correct": 0,
+        "correction": "La loi de 1881 garantit la liberté de la presse tout en posant des limites (diffamation, injure, appel à la haine) ; elle reste le texte fondateur du droit de la presse en France."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "La liberté d'expression est garantie mais limitée par la loi : diffamation, injure, appel à la haine, négationnisme (loi Gayssot 1990) et provocation au terrorisme sont réprimés."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "desinformation",
+        "correction": "La désinformation (ou infox / fake news) désigne la diffusion intentionnelle de fausses informations pour manipuler l'opinion publique."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Le CSA / ARCOM",
+        "correct": 0,
+        "correction": "L'ARCOM (Autorité de Régulation de la Communication Audiovisuelle et Numérique, ex-CSA, créée en 2022) régule les médias audiovisuels et les plateformes numériques en France."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'éducation aux médias et à l'information (EMI) apprend à vérifier les sources, croiser les informations et distinguer faits et opinions pour lutter contre la désinformation."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "chambre d'echo",
+        "correction": "La chambre d'écho (ou bulle de filtre) désigne l'enfermement de l'utilisateur dans un univers informationnel homogène, renforçant ses biais cognitifs."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Informer le public, controler les pouvoirs et donner la parole aux citoyens",
+        "correct": 1,
+        "correction": "Les journalistes sont souvent qualifiés de 'quatrième pouvoir' : ils informent, enquêtent, contrôlent les institutions et permettent le débat démocratique."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le RGPD (Règlement Général sur la Protection des Données, 2018) protège les données personnelles des citoyens européens et impose des obligations aux entreprises numériques."
+      }
+    ]
+  }
+}

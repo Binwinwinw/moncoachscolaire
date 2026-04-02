@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 630",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 1ère : La biodiversité : définition, enjeux et menaces",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "La biodiversité : définition, enjeux et menaces",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "La biodiversité comprend :",
+        "choices": [
+          "Uniquement le nombre d'espèces animales",
+          "La diversité des espèces, la diversité génétique intra-espèces et la diversité des écosystèmes",
+          "Seulement les espèces menacées",
+          "Les plantes et les bactéries uniquement"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La sixième extinction de masse est principalement due aux activités humaines."
+      },
+      {
+        "type": "open",
+        "question": "L'UICN établit la Liste rouge des espèces _____ qui évalue le risque d'extinction des espèces."
+      },
+      {
+        "type": "qcm",
+        "question": "Les services écosystémiques incluent :",
+        "choices": [
+          "Uniquement la production alimentaire",
+          "Pollinisation, purification de l'eau, régulation du climat, récréation et valeurs culturelles",
+          "Seulement les produits médicinaux",
+          "La fourniture de matières premières industrielles uniquement"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les zones protégées (parcs nationaux, réserves) couvrent environ 15 % de la surface terrestre mondiale."
+      },
+      {
+        "type": "open",
+        "question": "La restauration écologique vise à rétablir des _____ dégradés à leur état fonctionnel d'origine."
+      },
+      {
+        "type": "qcm",
+        "question": "Les espèces invasives menacent la biodiversité en :",
+        "choices": [
+          "Enrichissant systématiquement les écosystèmes",
+          "Entrant en compétition avec les espèces indigènes, les prédatant ou transmettant des maladies",
+          "N'ayant aucun effet sur les espèces locales",
+          "Favorisant uniquement la pollinisation"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La déforestation tropicale est l'une des principales causes de perte de biodiversité car les forêts tropicales abritent ~50 % des espèces connues."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

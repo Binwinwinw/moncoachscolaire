@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Philosophie 1ere - Série 232",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Philosophie",
+    "description": "Diagnostic Philosophie 1ere : Quiz Diagnostic 1ere Philosophie - Serie 9",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Philosophie - Serie 9",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Philosophie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Selon Hobbes, pourquoi les hommes acceptent-ils de vivre sous l'autorité d'un État (Léviathan) ?",
+        "choices": [
+          "Par amour du bien commun",
+          "Pour sortir de l'état de nature (guerre de 'tous contre tous') et garantir leur sécurité",
+          "Par obligation divine",
+          "Par obéissance à la tradition"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Pour Locke, la légitimité de l'État repose sur le consentement des gouvernés et la protection des droits naturels (vie, liberté, propriété)."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que la démocratie selon Lincoln et quelles en sont les conditions ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que la séparation des pouvoirs selon Montesquieu ?",
+        "choices": [
+          "La division de l'État en régions autonomes",
+          "La séparation du pouvoir exécutif, législatif et judiciaire pour éviter les abus de pouvoir",
+          "La séparation de l'Église et de l'État",
+          "La division entre pouvoir central et collectivités locales"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'anarchisme philosophique affirme que l'État est une institution nécessaire pour organiser la société."
+      },
+      {
+        "type": "open",
+        "question": "Quelle distinction Arendt établit-elle entre le travail, l'œuvre et l'action ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que le totalitarisme selon Hannah Arendt ?",
+        "choices": [
+          "Un régime autoritaire qui contrôle l'armée et la police",
+          "Un régime politique inédit qui vise à transformer radicalement la société et l'être humain par la terreur et l'idéologie",
+          "Un régime de parti unique sans idéologie",
+          "La dictature d'un seul homme"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La désobéissance civile est une forme de résistance non-violente à des lois jugées injustes, théorisée notamment par Thoreau et Gandhi."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

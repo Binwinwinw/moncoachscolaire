@@ -1,0 +1,29 @@
+[
+    {
+        "Subject": "Physique-Chimie",
+        "Level": "Seconde",
+        "Title": "Les mouvements (source : Khan Academy adapte)",
+        "Content": "Un objet parcourt 100 metres en 10 secondes. Quelle est sa vitesse moyenne en m/s ?",
+        "structure_type": null,
+        "pattern_detected": null,
+        "sub_questions": null,
+        "Type": null,
+        "Answer": "v = distance / temps = 100 / 10 = 10 m/s",
+        "InteractiveConfig": null,
+        "Tips": "Relis bien la consigne et verifie ta reponse avant de valider.",
+        "Domain": "Sciences",
+        "Competence": "Compétence scientifique générale.",
+        "Difficulty": "facile",
+        "exam_prep": null,
+        "Identifier": "PHYSIQUE-CHIMIE-SECONDE-LES-001",
+        "AnswerType": "texte",
+        "Choices": null,
+        "Instruction": "Complète chaque phrase en choisissant la bonne réponse.",
+        "is_active": true,
+        "XP_Points": 0,
+        "Coherence": true,
+        "processed": null,
+        "course_id": null,
+        "LinkedCourses": null
+    }
+]

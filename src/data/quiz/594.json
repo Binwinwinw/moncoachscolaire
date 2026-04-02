@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 594",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 3ème : Métropoles et réseaux de transport",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "Métropoles et réseaux de transport",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "La métropolisation correspond à :",
+        "choices": [
+          "La disparition des villes",
+          "La concentration des fonctions de commandement dans les grandes villes",
+          "L'arrêt des transports",
+          "Le retour généralisé à la campagne"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les infrastructures de transport structurent les dynamiques territoriales."
+      },
+      {
+        "type": "open",
+        "question": "Le réseau ferroviaire à grande vitesse en France est appelé _____."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel hub aéroportuaire majeur sert la région parisienne ?",
+        "choices": [
+          "Nantes-Atlantique",
+          "Roissy-Charles de Gaulle",
+          "Biarritz",
+          "Clermont-Ferrand"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les transports en commun participent à la transition écologique des villes."
+      },
+      {
+        "type": "open",
+        "question": "Le transport combinant rail, route et voie d'eau est dit _____."
+      },
+      {
+        "type": "qcm",
+        "question": "Un risque des métropoles très attractives est :",
+        "choices": [
+          "La baisse de l'emploi",
+          "La hausse du coût du logement",
+          "La disparition des services",
+          "La fin des mobilités"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les mobilités douces (vélo, marche) sont de plus en plus intégrées aux politiques urbaines."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

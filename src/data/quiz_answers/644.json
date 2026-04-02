@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 644",
+    "level": "1ère",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "La transmission héréditaire des maladies génétiques",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Homozygote pour l'allèle muté (deux allèles malades)",
+        "correct": 1,
+        "correction": "Récessive : il faut deux copies de l'allèle muté pour que la maladie s'exprime ; les hétérozygotes sont porteurs sains (ex : mucoviscidose, drépanocytose)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le gène du facteur VIII est sur le chromosome X ; les garçons (XY) n'ont qu'une copie → un allèle muté suffit pour la maladie. Les filles (XX) doivent être homozygotes."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "CFTR",
+        "correction": "La délétion ΔF508 (70 % des allèles CF en Europe) supprime un acide aminé du CFTR → protéine non fonctionnelle → mucus épais dans les poumons, pancréas, intestin."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Autosomique récessive (les deux parents sont porteurs hétérozygotes)",
+        "correct": 1,
+        "correction": "Si Aa × Aa → 25 % AA (sain), 50 % Aa (porteur sain), 25 % aa (atteint) ; c'est la règle de Mendel pour une maladie autosomique récessive."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le conseil génétique (généticien médical + biologiste) analyse l'arbre généalogique, identifie le mode de transmission, calcule les risques et propose des options de diagnostic."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "hypothyroïdie",
+        "correction": "Le test de Guthrie (quelques gouttes de sang sur buvard à J3) dépiste phénylcétonurie, hypothyroïdie, mucoviscidose, drépanocytose, hyperplasie surrénalienne, MCADD."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Introduire un gène fonctionnel dans les cellules d'un patient pour corriger un déficit génétique",
+        "correct": 1,
+        "correction": "La thérapie génique (ex : Zynteglo pour la β-thalassémie, Luxturna pour l'amaurose de Leber) utilise des vecteurs viraux (AAV) pour délivrer le gène thérapeutique."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "CRISPR-Cas9 (Doudna & Charpentier, Nobel 2020) utilise un ARN guide pour cibler une séquence précise et une nucléase Cas9 pour couper l'ADN ; révolution thérapeutique et controverses éthiques."
+      }
+    ]
+  }
+}

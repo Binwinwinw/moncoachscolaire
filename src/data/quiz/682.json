@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 682",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 3ème : Écologie : photosynthèse et respiration",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "Écologie : photosynthèse et respiration",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est l'équation générale de la photosynthèse ?",
+        "choices": [
+          "CO2 + H2O + lumière → glucose + O2",
+          "O2 + glucose → CO2 + H2O + énergie",
+          "CO2 + O2 â†’ glucose + H2O",
+          "H2O + O2 â†’ CO2 + glucose"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La chlorophylle est le pigment qui absorbe la lumière pour la photosynthèse."
+      },
+      {
+        "type": "open",
+        "question": "Quel organite est le siège de la photosynthèse dans les cellules végétales ?"
+      },
+      {
+        "type": "qcm",
+        "question": "La respiration cellulaire produit de l'énergie à partir de :",
+        "choices": [
+          "CO2 et H2O",
+          "Glucose et O2",
+          "Lumière et chlorophylle",
+          "N2 et H2O"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La respiration et la photosynthèse sont des processus opposés qui se complementent dans les cycles biogéochimiques."
+      },
+      {
+        "type": "open",
+        "question": "Quel phénomène permet aux végétaux d'échanger les gaz avec l'atmosphère via des pores foliaires ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle des forêts tropicales dans le cycle du carbone ?",
+        "choices": [
+          "Elles libèrent plus de CO2 qu'elles n'en absorbent",
+          "Elles constituent un puits de carbone en absorbant le CO2 par photosynthèse",
+          "Elles ne participent pas au cycle du carbone",
+          "Elles produisent du méthane uniquement"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La déforestation libère du CO2 stocké dans la biomasse végétale."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

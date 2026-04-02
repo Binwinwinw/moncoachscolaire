@@ -1,0 +1,29 @@
+{
+    "liveServer.settings.port": 5501,
+    "yaml.schemas": {
+        "file:///c%3A/Users/Binwinwinw/.vscode/extensions/continue.continue-1.3.28-win32-x64/config-yaml-schema.json": [
+            ".continue/**/*.yaml"
+        ],
+        "file:///c%3A/Users/Binwinwinw/.vscode/extensions/continue.continue-1.2.14-win32-x64/config-yaml-schema.json": [
+            ".continue/**/*.yaml"
+        ],
+        "file:///c%3A/Users/Binwinwinw/.vscode/extensions/continue.continue-1.2.16-win32-x64/config-yaml-schema.json": [
+            ".continue/**/*.yaml"
+        ],
+        "file:///c:/Users/Binwinwinw/.vscode/extensions/continue.continue-1.3.28-win32-x64/config-yaml-schema.json": "file:///c%3A/Users/Binwinwinw/.continue/config.yaml",
+        "file:///c%3A/Users/Binwinwinw/.vscode/extensions/continue.continue-1.3.32-win32-x64/config-yaml-schema.json": [
+            ".continue/**/*.yaml"
+        ],
+        "file:///c:/Users/Binwinwinw/.vscode/extensions/continue.continue-1.3.32-win32-x64/config-yaml-schema.json": [
+            "file:///d%3A/Hostinger/public_html/moncoachscolaire/.continue/rules/rules.yaml",
+            "file:///c%3A/Users/Binwinwinw/.continue/config.yaml",
+            "file:///d%3A/Hostinger/public_html/moncoachscolaire/.continue/agents/new-config.yaml"
+        ]
+    },
+    "chat.tools.terminal.autoApprove": {
+        "/^New-Item -Path src/pages/cgv\\.php -ItemType File -Force; New-Item -Path src/pages/confidentialite\\.php -ItemType File -Force; New-Item -Path src/pages/mentions-legales\\.php -ItemType File -Force$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

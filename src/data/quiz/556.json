@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 556",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 3ème : La Grande Guerre : guerre de mouvement et de position",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "La Grande Guerre : guerre de mouvement et de position",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle bataille de 1916 symbolise l'horreur de la guerre des tranchées sur le front occidental ?",
+        "choices": [
+          "La bataille de la Marne",
+          "La bataille de Verdun",
+          "La bataille de la Somme",
+          "La bataille de Tannenberg"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La guerre de tranchées correspond à une guerre de mouvement rapide."
+      },
+      {
+        "type": "open",
+        "question": "Les soldats français de la PGM sont familièrement appelés les '_____' en référence à leurs uniformes bleu horizon."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle nouvelle arme est utilisée massivement pour la première fois lors de la PGM ?",
+        "choices": [
+          "La bombe atomique",
+          "Les gaz de combat (armes chimiques)",
+          "Le sous-marin nucléaire",
+          "Le drone"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les mutineries de 1917 dans l'armée française révèlent l'épuisement des soldats après des années de guerre."
+      },
+      {
+        "type": "open",
+        "question": "Le front de l'Ouest est matérialisé par des centaines de kilomètres de _____, fossés creusés pour se protéger des tirs ennemis."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel pays entre en guerre du côté de l'Entente en 1917, modifiant l'équilibre des forces ?",
+        "choices": [
+          "Le Japon",
+          "L'Espagne",
+          "Les États-Unis",
+          "La Chine"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La guerre totale implique la mobilisation de l'ensemble de la société (économie, femmes, colonies) pour l'effort de guerre."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

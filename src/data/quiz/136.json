@@ -1,0 +1,102 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ère Anglais - Série 12",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ère : Law, Justice, Advanced Expression (Eduscol B1/B2)",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-09 18:37:00"
+  },
+  "quiz": {
+    "title": "1ère English Diagnostic - Series 12 (Law & Justice)",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Jury trials guarantee fair justice because:",
+        "choices": [
+          "Citizen participation",
+          "Professional judges only",
+          "Speed priority",
+          "No appeals"
+        ],
+        "correct_index": 0,
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "It is recommended that minors be tried as adults for serious crimes.",
+        "correct": false,
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "What is 'habeas corpus' and why important?",
+        "placeholder": "ex: Right not to be detained unlawfully",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Had the defendant _____ guilty, the sentence would have been harsher.",
+        "choices": [
+          "pleaded",
+          "been pleading",
+          "plead",
+          "to plead"
+        ],
+        "correct_index": 0,
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The death penalty has been abolished in all EU countries.",
+        "correct": true,
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "Give 1 argument for and 1 against prison reform.",
+        "placeholder": "ex: For: Rehabilitation / Against: Recidivism risk",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "The case was _____ due to lack of evidence.",
+        "choices": [
+          "dismissed",
+          "dismiss",
+          "dismissing",
+          "dismissal"
+        ],
+        "correct_index": 0,
+        "id": 7
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Should the punishment fit the crime or the criminal?",
+        "correct": true,
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Legal Systems",
+      "description": "Jury trials, habeas corpus, EU law (Eduscol 1ère)"
+    },
+    {
+      "notion": "Justice Debates",
+      "description": "Death penalty, prison reform, minors"
+    },
+    {
+      "notion": "Advanced Grammar",
+      "description": "Subjunctive recommendation, hypothetical past, legal passives"
+    }
+  ]
+}

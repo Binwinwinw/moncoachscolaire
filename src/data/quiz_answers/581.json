@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 581",
+    "level": "3ème",
+    "subject": "Histoire-Géographie"
+  },
+  "quiz": {
+    "title": "Les Amériques : puissances et inégalités",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Leur puissance économique, militaire, technologique et culturelle (soft power)",
+        "correct": 1,
+        "correction": "Les USA dominent : 1er PIB mondial, 1ère puissance militaire (OTAN), Silicon Valley, Hollywood, dollar comme monnaie de réserve mondiale."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le Brésil est la 8e-9e économie mondiale et la 1ère d'Amérique latine ; il est membre des BRICS."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "numérique",
+        "correction": "Apple, Google, Facebook/Meta, Intel, Tesla... sont toutes nées ou développées dans la Silicon Valley."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Un accord de libre-échange entre USA, Canada et Mexique",
+        "correct": 1,
+        "correction": "L'ALENA (1994, remplacé par l'ACEUM en 2020) crée une zone de libre-échange nord-américaine de 500 millions de personnes."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'Amérique latine est l'une des régions les plus inégalitaires au monde ; les villes comme São Paulo ou Bogotá juxtaposent favelas et quartiers riches."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "Atlantique",
+        "correction": "Le canal de Panama (inauguré en 1914, agrandi en 2016) est une voie maritime essentielle réduisant de milliers de km les trajets entre Atlantique et Pacifique."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "La biodiversité mondiale et l'équilibre climatique",
+        "correct": 1,
+        "correction": "L'Amazonie abrite 10% de la biodiversité mondiale et stocke d'énormes quantités de CO2 ; sa déforestation accélère le changement climatique."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le soft power (pouvoir doux) de Joseph Nye : Hollywood, fast-food, anglais langue mondiale, internet américain... propagent les valeurs et le mode de vie américain."
+      }
+    ]
+  }
+}

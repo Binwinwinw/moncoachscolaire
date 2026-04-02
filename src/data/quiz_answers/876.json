@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic NSI 1ère - Série 876",
+    "level": "1ère",
+    "subject": "NSI"
+  },
+  "quiz": {
+    "title": "Fichiers CSV et traitement de données",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "NSI",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Comma-Separated Values",
+        "correct": 1,
+        "correction": "CSV est un format texte simple où les données sont séparées par des virgules (ou point-virgule). Chaque ligne est un enregistrement."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "import csv ; csv.reader() pour lire, csv.writer() pour écrire, csv.DictReader() pour lire en dictionnaires."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "import csv\nwith open('data.csv', 'r', encoding='utf-8') as f:\n    reader = csv.DictReader(f)\n    for row in reader:\n        print(row)",
+        "correction": "DictReader utilise la première ligne comme noms de colonnes et chaque ligne devient un dictionnaire {colonne: valeur}."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "pandas",
+        "correct": 2,
+        "correction": "pandas fournit DataFrame et Series pour manipuler des données tabulaires de façon efficace et expressive."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "df.head(n) affiche les n premières lignes (n=5 par défaut). df.tail() affiche les dernières lignes."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "df[df['age'] > 18] ou df.loc[df['age'] > 18]. Cette expression crée un masque booléen et sélectionne les lignes correspondantes.",
+        "correction": "Le filtrage booléen est central dans pandas : on peut combiner des conditions avec & (et), | (ou), ~ (non)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Des statistiques descriptives (count, mean, std, min, max…)",
+        "correct": 1,
+        "correction": "describe() est utile pour une première exploration des données numériques (count, mean, std, 25%, 50%, 75%, max)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "JSON (JavaScript Object Notation) est adapté aux données hiérarchiques. En Python, le module json permet de lire/écrire des fichiers JSON."
+      }
+    ]
+  }
+}

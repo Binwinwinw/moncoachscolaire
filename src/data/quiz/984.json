@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 2nde - Serie 984",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 2nde : Fonction racine carrée",
+    "status": "published",
+    "created_at": "2026-03-13 11:15:43",
+    "updated_at": "2026-03-13 11:15:43"
+  },
+  "quiz": {
+    "title": "Fonction racine carrée",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel est le domaine de définition de f(x) = √x ?",
+        "choices": [
+          "R",
+          "R*",
+          "[0 ; +∞[",
+          "]0 ; +∞["
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La fonction racine carrée est croissante sur [0 ; +∞[."
+      },
+      {
+        "type": "open",
+        "question": "Résous √(2x + 3) = 5."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est l'image de 9 par f(x) = √x ?",
+        "choices": [
+          "3",
+          "81",
+          "4,5",
+          "18"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "√(x²) = x pour tout x ∈ R."
+      },
+      {
+        "type": "open",
+        "question": "Simplifie √(75)."
+      },
+      {
+        "type": "qcm",
+        "question": "Combien vaut (√5)² ?",
+        "choices": [
+          "5",
+          "10",
+          "25",
+          "√25"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La courbe de y = √x passe par les points (0, 0), (1, 1) et (4, 2)."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

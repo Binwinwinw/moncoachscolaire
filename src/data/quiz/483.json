@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 483",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "description": "Diagnostic Français 1ère : Mouvements littéraires : Romantisme et Réalisme",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Mouvements littéraires : Romantisme et Réalisme",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel est le texte manifeste du Romantisme français ?",
+        "choices": [
+          "La Préface de Cromwell de Victor Hugo",
+          "Le Roman expérimental de Zola",
+          "L'Art poétique de Boileau",
+          "Du Bellay, Défense et illustration"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le Romantisme valorise la raison et l'ordre au détriment des émotions."
+      },
+      {
+        "type": "open",
+        "question": "Le 'mal du siècle' romantique désigne une mélancolie et un sentiment de _____ ressentis par la génération post-révolutionnaire."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le chef-d'œuvre du Romantisme de Victor Hugo ?",
+        "choices": [
+          "Germinal",
+          "Les Misérables",
+          "Madame Bovary",
+          "Le Rouge et le Noir"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le Réalisme cherche à représenter le monde tel qu'il est, sans embellissement."
+      },
+      {
+        "type": "open",
+        "question": "Balzac regroupe l'ensemble de ses romans sous le titre _____ pour créer une fresque sociale de la France."
+      },
+      {
+        "type": "qcm",
+        "question": "La technique du 'retour des personnages' est une invention de :",
+        "choices": [
+          "Zola",
+          "Flaubert",
+          "Balzac",
+          "Maupassant"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le Réalisme littéraire est un mouvement essentiellement du XXe siècle."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,178 @@
+/* Styles custom pour les hooks du dashboard élève */
+.dashboard-header {
+	border-radius: 1.5rem;
+	padding: 2rem;
+	margin-bottom: 2rem;
+	box-shadow: 0 4px 24px rgba(34,197,94,0.12);
+	background: linear-gradient(135deg, #d1fae5 0%, #f0fdf4 100%);
+	border-left: 8px solid #22c55e;
+}
+.dashboard-card {
+	border-radius: 1.5rem;
+	box-shadow: 0 6px 28px rgba(30,41,59,0.13);
+	background: #fff;
+	margin-bottom: 1.5rem;
+	overflow: hidden;
+	transition: box-shadow .18s cubic-bezier(.2,.8,.2,1), transform .18s cubic-bezier(.2,.8,.2,1);
+}
+.dashboard-card:hover {
+	box-shadow: 0 18px 48px rgba(30,41,59,0.19);
+	transform: translateY(-7px) scale(1.025);
+}
+.dashboard-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1.5rem;
+}
+@media (min-width: 768px) {
+	.dashboard-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+@media (min-width: 1280px) {
+	.dashboard-grid {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+.card-header {
+	padding: 1rem 1.5rem;
+	border-bottom: 1px solid #e5e7eb;
+	background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+}
+.card-body {
+	padding: 1.5rem;
+}
+.recommendation-item {
+	display: flex;
+	align-items: flex-start;
+	gap: 1rem;
+	margin-bottom: 1rem;
+}
+.recommendation-icon {
+	font-size: 1.5rem;
+}
+.recommendation-content {
+	flex: 1;
+}
+.quick-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+.action-btn {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 0.75rem 1.25rem;
+	border-radius: 0.75rem;
+	font-weight: 600;
+	text-decoration: none;
+	transition: background .2s;
+}
+.action-primary {
+	background: #2563eb;
+	color: #fff;
+}
+.action-primary:hover {
+	background: #1d4ed8;
+}
+.action-secondary {
+	background: #f1f5f9;
+	color: #334155;
+}
+.action-secondary:hover {
+	background: #e0e7ef;
+}
+.empty-state {
+	text-align: center;
+	color: #64748b;
+	padding: 2rem 0;
+}
+.empty-icon {
+	font-size: 2rem;
+	margin-bottom: 0.5rem;
+}
+.streak-display {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.5rem;
+}
+.streak-value-large {
+	font-size: 2rem;
+	font-weight: bold;
+	color: #22c55e;
+}
+.streak-label {
+	font-size: 1rem;
+	color: #64748b;
+}
+.weather-display {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+.weather-icon-large {
+	font-size: 2rem;
+	color: #94a3b8;
+}
+.weather-info {
+	flex: 1;
+}
+.weather-mood {
+	font-weight: bold;
+	color: #334155;
+}
+.weather-message {
+	color: #64748b;
+}
+.coach-message-card {
+	display: flex;
+	align-items: flex-start;
+	gap: 1rem;
+	background: #f8fafc;
+	border-radius: 1rem;
+	padding: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+.coach-avatar {
+	font-size: 2.5rem;
+}
+.coach-content {
+	flex: 1;
+}
+.coach-text {
+	font-size: 1.1rem;
+	font-weight: 500;
+	color: #334155;
+}
+.coach-text-secondary {
+	font-size: 1rem;
+	color: #64748b;
+}
+.coach-tip {
+	margin-top: 1rem;
+	font-size: 0.95rem;
+	color: #2563eb;
+}
+.chart-controls {
+	display: flex;
+	gap: 0.5rem;
+	margin-top: 0.5rem;
+}
+.chart-period-btn {
+	padding: 0.5rem 1rem;
+	border-radius: 0.5rem;
+	background: #f1f5f9;
+	color: #334155;
+	border: none;
+	font-weight: 600;
+	cursor: pointer;
+	transition: background .2s;
+}
+.chart-period-btn.active,
+.chart-period-btn:active {
+	background: #2563eb;
+	color: #fff;
+}
+

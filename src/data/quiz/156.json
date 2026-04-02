@@ -1,0 +1,97 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 32",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ere : Les temps du présent",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-08 00:05:00"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 32",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "id": 1,
+        "type": "qcm",
+        "question": "Choose the correct tense: 'She ___ (work) at the hospital every morning.'",
+        "choices": [
+          "is working",
+          "works",
+          "has worked",
+          "worked"
+        ]
+      },
+      {
+        "id": 2,
+        "type": "vrai-faux",
+        "question": "'I am not understanding this lesson' is a grammatically correct sentence in English."
+      },
+      {
+        "id": 3,
+        "type": "texte",
+        "question": "Explique la différence de sens entre ces deux phrases : 'I read a lot.' / 'I am reading a book about history.'",
+        "placeholder": "Écris ta réponse ici..."
+      },
+      {
+        "id": 4,
+        "type": "qcm",
+        "question": "Which sentence correctly uses the present perfect?",
+        "choices": [
+          "I have seen that film yesterday.",
+          "She has already finished her homework.",
+          "They have went to Paris last summer.",
+          "He has work here since ten years."
+        ]
+      },
+      {
+        "id": 5,
+        "type": "vrai-faux",
+        "question": "The present perfect can be used to talk about life experiences without specifying when they happened."
+      },
+      {
+        "id": 6,
+        "type": "texte",
+        "question": "Complète avec le bon temps (present simple, continuous ou perfect) : 'Look! The cat ___ (sleep) on the sofa again.'",
+        "placeholder": "Écris ta réponse ici..."
+      },
+      {
+        "id": 7,
+        "type": "qcm",
+        "question": "Choose the correct sentence using 'for' or 'since' with the present perfect.",
+        "choices": [
+          "She has lived here since three years.",
+          "She has lived here for 2019.",
+          "She has lived here for three years.",
+          "She has lived here since three years ago."
+        ]
+      },
+      {
+        "id": 8,
+        "type": "vrai-faux",
+        "question": "The sentence 'Water boils at 100 degrees' uses the present simple correctly to express a scientific fact."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Present Simple",
+      "description": "Le present simple exprime des habitudes, des vérités générales, des faits permanents et des horaires fixes. Marqueurs : always, usually, often, sometimes, never, every day. Ex : She works at a hospital. / Water boils at 100°C."
+    },
+    {
+      "notion": "Present Continuous",
+      "description": "Le present continuous exprime une action en cours au moment où l'on parle, une action temporaire, ou un futur proche planifié. Marqueurs : now, at the moment, currently, look!, listen!. Ex : He is reading a book right now. / They are moving to Paris next month."
+    },
+    {
+      "notion": "Present Perfect",
+      "description": "Le present perfect relie le passé au présent. Il exprime une expérience de vie, un résultat présent d'une action passée, ou une action récente. Marqueurs : ever, never, already, yet, just, recently, since, for. Ex : I have just finished my homework. / She has lived here for five years."
+    }
+  ],
+  "exerciseresponses": []
+}

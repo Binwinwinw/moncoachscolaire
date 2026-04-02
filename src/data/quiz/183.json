@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Geographie 1ere - Série 183",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "description": "Diagnostic Histoire-Geographie 1ere : Quiz Diagnostic 1ere Histoire-Géographie - Serie 9",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Histoire-Géographie - Serie 9",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que la mondialisation ?",
+        "choices": [
+          "L'uniformisation culturelle mondiale",
+          "Le processus d'interconnexion et d'interdépendance croissante des économies, des sociétés et des cultures à l'échelle mondiale",
+          "La domination économique des États-Unis sur le monde",
+          "La suppression des frontières nationales"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les flux commerciaux mondiaux sont dominés par la 'Triade' : Amérique du Nord, Europe occidentale et Asie orientale."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce qu'une firme transnationale (FTN) et quel est son rôle dans la mondialisation ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel continent est le plus marginalisé dans la mondialisation économique actuelle ?",
+        "choices": [
+          "L'Amérique latine",
+          "L'Asie du Sud",
+          "L'Afrique subsaharienne",
+          "L'Océanie"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La mondialisation accentue les inégalités entre pays et au sein des pays."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce qu'une métropole mondiale (ville mondiale ou global city) et citez deux exemples."
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que le libre-échange, promu par l'Organisation mondiale du commerce (OMC) ?",
+        "choices": [
+          "La suppression totale des droits de douane dans le monde entier",
+          "La réduction des barrières commerciales (droits de douane, quotas) pour favoriser le commerce international",
+          "Le commerce équitable entre pays du Nord et du Sud",
+          "La liberté de circulation des personnes entre tous les pays"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Internet et les technologies numériques sont des moteurs essentiels de la mondialisation contemporaine."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

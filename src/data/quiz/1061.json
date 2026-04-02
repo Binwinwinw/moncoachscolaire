@@ -1,0 +1,67 @@
+{
+  "id": 1061,
+  "title": "Forme factorisée et canonique",
+  "subject": "Mathématiques",
+  "level": "1ère",
+  "created_at": "2026-03-13T18:54:00.422612Z",
+  "questions": [
+    {
+      "id": "1061_1",
+      "type": "qcm",
+      "question": "La forme canonique du trinôme ax² + bx + c est :",
+      "options": [
+        "a(x − x₁)(x − x₂)",
+        "a(x + b/(2a))² − Δ/(4a)",
+        "a(x − b/(2a))² + c",
+        "(x − x₁)(x − x₂)/a"
+      ]
+    },
+    {
+      "id": "1061_2",
+      "type": "vrai-faux",
+      "question": "Si Δ > 0, la forme factorisée est a(x − x₁)(x − x₂)."
+    },
+    {
+      "id": "1061_3",
+      "type": "texte",
+      "question": "Mets x² − 4x + 1 sous forme canonique."
+    },
+    {
+      "id": "1061_4",
+      "type": "qcm",
+      "question": "La forme factorisée de x² − 5x + 6 est :",
+      "options": [
+        "(x−2)(x−3)",
+        "(x+2)(x+3)",
+        "(x−1)(x−6)",
+        "(x−2)(x+3)"
+      ]
+    },
+    {
+      "id": "1061_5",
+      "type": "vrai-faux",
+      "question": "La forme canonique permet de lire directement les coordonnées du sommet de la parabole."
+    },
+    {
+      "id": "1061_6",
+      "type": "texte",
+      "question": "Exprime f(x) = 2x² − 8x + 6 sous forme factorisée."
+    },
+    {
+      "id": "1061_7",
+      "type": "qcm",
+      "question": "Quelle est la forme canonique de f(x) = x² + 6x + 5 ?",
+      "options": [
+        "(x+3)² − 4",
+        "(x+3)² + 5",
+        "(x−3)² − 4",
+        "(x+6)² + 5"
+      ]
+    },
+    {
+      "id": "1061_8",
+      "type": "vrai-faux",
+      "question": "Si Δ < 0, le trinôme ne peut pas être factorisé dans R."
+    }
+  ]
+}

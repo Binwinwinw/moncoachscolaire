@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques Terminale - Serie 1033",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques Terminale : Valeur moyenne d'une fonction",
+    "status": "published",
+    "created_at": "2026-03-13 11:24:24",
+    "updated_at": "2026-03-13 11:24:24"
+  },
+  "quiz": {
+    "title": "Valeur moyenne d'une fonction",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "La valeur moyenne de f sur [a, b] est :",
+        "choices": [
+          "∫ₐᵇ f(x) dx",
+          "(f(a) + f(b)) / 2",
+          "(1/(b−a)) · ∫ₐᵇ f(x) dx",
+          "f((a+b)/2)"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La valeur moyenne d'une fonction constante f(x) = k sur [a,b] est k."
+      },
+      {
+        "type": "open",
+        "question": "Calcule la valeur moyenne de f(x) = x² sur [0, 3]."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la valeur moyenne de f(x) = sin(x) sur [0, π] ?",
+        "choices": [
+          "0",
+          "1",
+          "2/π",
+          "π/2"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Pour une fonction continue sur [a, b], il existe c ∈ [a, b] tel que f(c) égale la valeur moyenne."
+      },
+      {
+        "type": "open",
+        "question": "Interprète la valeur moyenne de la vitesse v(t) sur [0, T] en physique."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la valeur moyenne de f(x) = eˣ sur [0, 1] ?",
+        "choices": [
+          "e",
+          "e−1",
+          "1/(e−1)",
+          "(e−1)"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La valeur moyenne est toujours comprise entre le minimum et le maximum de f sur [a, b]."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

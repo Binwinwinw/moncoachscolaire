@@ -1,0 +1,76 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Geographie 1ere - Série 181",
+    "level": "1ere",
+    "subject": "Histoire-Geographie"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Histoire-Géographie - Serie 7",
+    "question_count": 8,
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Le traité de Rome (1957)",
+        "correct": 1,
+        "correction": "Le traité de Rome, signé le 25 mars 1957, crée la Communauté Économique Européenne (CEE) entre six pays fondateurs : France, Allemagne, Italie, Belgique, Pays-Bas, Luxembourg. Il établit un marché commun et des politiques communes (agricole notamment)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le traité de l'Élysée (22 janvier 1963), signé par de Gaulle et Adenauer, scelle la réconciliation franco-allemande. Ce 'couple franco-allemand' est le moteur de l'intégration européenne tout au long de la construction de l'UE."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "correct_answer": "Le traité de Maastricht crée l'Union européenne, prévoit la monnaie unique (euro) et renforce la citoyenneté européenne.",
+        "answer": "Le traité de Maastricht crée l'Union européenne, prévoit la monnaie unique (euro) et renforce la citoyenneté européenne.",
+        "correction": "Le traité de Maastricht (signé le 7 février 1992) transforme la CEE en Union européenne (UE) et instaure : la citoyenneté européenne, la politique étrangère et de sécurité commune (PESC), la coopération judiciaire et policière (JAI), et surtout l'Union économique et monétaire (UEM) prévoyant la création de l'euro. L'euro est introduit en 1999 (en 2002 pour les pièces et billets)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "27",
+        "correct": 1,
+        "correction": "L'Union européenne compte 27 États membres depuis le retrait du Royaume-Uni (Brexit, effectif le 31 janvier 2020) qui était le 28e membre. L'UE s'est élargie progressivement : 6 membres fondateurs (1957), puis 9, 12, 15, 25 (2004, grand élargissement), 27, 28 (2013), et de nouveau 27 depuis le Brexit."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'accord de Schengen (1985, entré en vigueur en 1995) crée un espace sans frontières intérieures pour les personnes entre les États signataires (26 pays aujourd'hui, dont des non-membres de l'UE comme la Suisse et la Norvège). Les contrôles aux frontières intérieures sont supprimés."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "correct_answer": "Le Brexit est le retrait du Royaume-Uni de l'Union européenne, voté en 2016 et effectif en 2020, entraînant de nouveaux obstacles commerciaux et diplomatiques.",
+        "answer": "Le Brexit est le retrait du Royaume-Uni de l'Union européenne, voté en 2016 et effectif en 2020, entraînant de nouveaux obstacles commerciaux et diplomatiques.",
+        "correction": "Le Brexit (contraction de British Exit) est la sortie du Royaume-Uni de l'UE, décidée par référendum le 23 juin 2016 (51,9 % de 'Leave'). Il devient effectif le 31 janvier 2020. Conséquences : fin de la libre circulation entre le RU et l'UE, nouvelles barrières douanières et commerciales, tensions en Irlande du Nord, questionnement sur l'avenir de l'Union, pertes économiques pour les deux parties."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Le Parlement européen",
+        "correct": 2,
+        "correction": "Le Parlement européen est la seule institution de l'UE élue au suffrage universel direct par les citoyens européens depuis 1979. Il siège à Strasbourg et partage le pouvoir législatif avec le Conseil de l'UE (Conseil des ministres)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La PAC, instaurée en 1962, est l'une des premières politiques communes de la CEE/UE. Elle représente encore aujourd'hui environ 31% du budget de l'UE (2021-2027), bien que cette part ait diminué. Elle vise à garantir la sécurité alimentaire et le revenu des agriculteurs européens."
+      }
+    ]
+  }
+}

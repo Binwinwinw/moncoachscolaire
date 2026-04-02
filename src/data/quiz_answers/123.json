@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 3ème SVT",
+    "level": "3eme",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 3ème SVT",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "**testostérone** (caractères secondaires garçons). [web:157]"
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "correct": true,
+        "correction": "**Vrai**. Cycle 28j, ovulation milieu. [web:156]"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "correct": null,
+        "correction": "**cellule-œuf** (46 chromosomes)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "**ovulation** (hormones synthèse). [web:158]"
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "correct": true,
+        "correction": "**Vrai**. Barrière mécanique double protection."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "correct": null,
+        "correction": "**1** (XY garçon, XX fille)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "**bactéries virus** (pathogènes)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "correct": null,
+        "correction": "**antigène** (mémoire immunitaire). [web:159]"
+      }
+    ],
+    "level": "3eme",
+    "subject": "SVT"
+  }
+}

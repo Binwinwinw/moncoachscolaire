@@ -1,0 +1,72 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 3eme Mathématiques",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Mathematiques",
+    "description": "Diagnostic théorème Thalès, équations, probabilités 3eme"
+  },
+  "quiz": {
+    "title": "Diagnostic Maths 3eme",
+    "level": "3eme",
+    "subject": "Mathematiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "texte",
+        "answer": "droites",
+        "correction": "Segments proportionnels"
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "qcm",
+        "answer": "2",
+        "correction": "2x=4 → x=2"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": true,
+        "correction": "VRAI. Probabilité angle"
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "texte",
+        "answer": "6",
+        "correction": "Plus grand commun diviseur"
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "1",
+        "correction": "Cercle trigonométrique"
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "answer": "27",
+        "correction": "a³=27"
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "vrai-faux",
+        "answer": true,
+        "correction": "VRAI. Identité remarquable"
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "qcm",
+        "answer": "droites",
+        "correction": "Réciproque théorème"
+      }
+    ]
+  }
+}

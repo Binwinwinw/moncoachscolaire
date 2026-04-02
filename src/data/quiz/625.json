@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 625",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 1ère : La régulation de la glycémie et le diabète",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "La régulation de la glycémie et le diabète",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "La glycémie normale à jeun chez l'humain est d'environ :",
+        "choices": [
+          "0,5 g/L",
+          "1 g/L",
+          "2 g/L",
+          "5 g/L"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'insuline est une hormone sécrétée par les cellules bêta du pancréas qui abaisse la glycémie."
+      },
+      {
+        "type": "open",
+        "question": "Le glucagon, sécrété par les cellules alpha du pancréas, est l'hormone antagoniste de l'insuline : il _____ la glycémie."
+      },
+      {
+        "type": "qcm",
+        "question": "Le diabète de type 1 est dû à :",
+        "choices": [
+          "Une résistance des cellules à l'insuline",
+          "Une destruction auto-immune des cellules bêta du pancréas -> manque d'insuline",
+          "Un excès de glucagon",
+          "Un régime alimentaire trop riche en sucres"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le diabète de type 2 est principalement associé à l'obésité et à la sédentarité, et se caractérise par une résistance à l'insuline."
+      },
+      {
+        "type": "open",
+        "question": "L'hyperglycémie chronique non traitée provoque des complications vasculaires comme la rétinopathie, la néphropathie et la _____ (atteinte des nerfs)."
+      },
+      {
+        "type": "qcm",
+        "question": "La régulation de la glycémie est un exemple de régulation en boucle de rétroaction (feedback) car :",
+        "choices": [
+          "L'insuline amplifie l'hyperglycémie",
+          "La correction du déséquilibre (via l'insuline ou le glucagon) rétablit la glycémie normale",
+          "La glycémie reste constante sans hormones",
+          "Le cerveau seul contrôle la glycémie"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'hémoglobine glyquée (HbA1c) reflète la glycémie moyenne des 2-3 derniers mois et est utilisée pour surveiller l'équilibre du diabète."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

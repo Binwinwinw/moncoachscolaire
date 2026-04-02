@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 3eme - Série 747",
+    "level": "3eme",
+    "subject": "EMC"
+  },
+  "quiz": {
+    "title": "La dignite humaine et les droits fondamentaux",
+    "question_count": 8,
+    "level": "3eme",
+    "subject": "EMC",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "La Declaration universelle des droits de l'homme de 1948",
+        "correct": 1,
+        "correction": "La DUDH, adoptee le 10 decembre 1948 par l'ONU apres les horreurs de la Seconde Guerre mondiale, pose la dignite humaine comme fondement universel."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Les droits fondamentaux sont inviolables et inaliénables. Même en état d'urgence, un noyau dur de droits (interdiction de la torture, droit à la vie) ne peut être suspendu."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "droits inaliénables",
+        "correction": "Les droits inaliénables (vie, dignité, liberté) appartiennent à tout être humain par nature et ne peuvent être ni cédés ni supprimés."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Le Defenseur des droits",
+        "correct": 1,
+        "correction": "Le Défenseur des droits (inscrit dans la Constitution en 2008) peut être saisi gratuitement par tout citoyen s'estimant victime d'une discrimination ou d'un dysfonctionnement d'un service public."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La CEDH, créée par la Convention européenne des droits de l'homme (1950), peut condamner les États membres et les obliger à réparer les violations."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "non bis in idem",
+        "correction": "Le principe non bis in idem (nul ne peut être jugé deux fois pour les mêmes faits) est un droit fondamental du procès équitable."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Toute personne accusee est presumee innocente jusqu'a ce que sa culpabilite soit legalement etablie",
+        "correct": 1,
+        "correction": "La présomption d'innocence est un droit fondamental garanti par l'article 9 de la DDHC de 1789 et la CEDH ; la charge de la preuve repose sur l'accusation."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'interdiction de la torture est une norme de jus cogens (droit impératif international) sans exception possible, même en état d'urgence ou de guerre."
+      }
+    ]
+  }
+}

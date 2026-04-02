@@ -1,0 +1,102 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ère Anglais - Série 07",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ère : Culture, Identity, Advanced Expression (Eduscol B1/B2)",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-09 17:08:00"
+  },
+  "quiz": {
+    "title": "1ère English Diagnostic - Series 07 (Culture & Identity)",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Globalization has made cultures more similar worldwide (McDonaldization). Opinion?",
+        "choices": [
+          "Cultural diversity loss",
+          "Enrichment through exchange",
+          "No impact",
+          "Only positive"
+        ],
+        "correct_index": 1,
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Bilingualism improves cognitive skills in children.",
+        "correct": true,
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "How does music shape cultural identity? 1 example.",
+        "placeholder": "ex: Rap = urban youth expression worldwide",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Emphasis: Never _____ such an amazing concert!",
+        "choices": [
+          "have I seen",
+          "I have seen",
+          "did I see",
+          "I saw"
+        ],
+        "correct_index": 0,
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "French identity is only defined by language.",
+        "correct": false,
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "What tradition is unique to your region? Describe.",
+        "placeholder": "ex: Fête de la musique = free concerts everywhere",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "Multiculturalism in France means:",
+        "choices": [
+          "Integration while preserving origins",
+          "Assimilation total",
+          "Segregation",
+          "No immigration"
+        ],
+        "correct_index": 0,
+        "id": 7
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Not only France but also Germany has strong regional identities.",
+        "correct": true,
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Culture & Globalization",
+      "description": "Cultural exchange vs homogenization (Eduscol 1ère)"
+    },
+    {
+      "notion": "Identity",
+      "description": "National/regional/multicultural identities"
+    },
+    {
+      "notion": "Advanced Grammar",
+      "description": "Inversions (never have I), cleft sentences, emphasis"
+    }
+  ]
+}

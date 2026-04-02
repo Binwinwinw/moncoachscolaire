@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic HGGSP 1ère - Série 937",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "HGGSP",
+    "description": "Diagnostic HGGSP 1ère : Usages politiques du passé",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Usages politiques du passé",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "HGGSP",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Le révisionnisme historique désigne :",
+        "choices": [
+          "La révision normale des connaissances historiques par la recherche",
+          "La remise en cause idéologique de faits historiques établis (souvent pour justifier des idéologies)",
+          "La commémoration officielle des guerres",
+          "L'enseignement critique de l'histoire"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Certains régimes autoritaires utilisent l'histoire pour légitimer leur pouvoir."
+      },
+      {
+        "type": "open",
+        "question": "En quoi le conflit entre Serbes et Bosniaques dans les années 1990 a-t-il mobilisé des mémoires historiques ?"
+      },
+      {
+        "type": "qcm",
+        "question": "La politique de 'tabula rasa' mémorielle (effacement du passé) est caractéristique de :",
+        "choices": [
+          "Les démocraties libérales",
+          "Certains régimes autoritaires révolutionnaires (nazisme, communisme)",
+          "L'UNESCO",
+          "Les mouvements féministes"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La 'mémoire blessée' peut être source de conflits politiques entre États."
+      },
+      {
+        "type": "open",
+        "question": "Comment les monuments commémoratifs participent-ils à la construction d'une mémoire nationale ?"
+      },
+      {
+        "type": "qcm",
+        "question": "La patrimonialisation d'un lieu historique peut avoir pour effet de :",
+        "choices": [
+          "Effacer la mémoire de ce lieu",
+          "Figer une interprétation du passé en lui donnant une légitimité officielle",
+          "Ouvrir le lieu à la recherche indépendante",
+          "Dépolitiser complètement le passé"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les commémorations du Centenaire de la Première Guerre mondiale (2014-2018) ont visé à promouvoir la réconciliation franco-allemande."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

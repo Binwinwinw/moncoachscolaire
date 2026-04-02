@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 475",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "description": "Diagnostic Français 1ère : Les Lumières et la littérature engagée (XVIIIe s.)",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Les Lumières et la littérature engagée (XVIIIe s.)",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel est le grand projet éditorial des philosophes des Lumières ?",
+        "choices": [
+          "La Comédie humaine",
+          "L'Encyclopédie",
+          "Les Rougon-Macquart",
+          "La Nouvelle Héloïse"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Voltaire défend la tolérance religieuse notamment dans son Traité sur la tolérance."
+      },
+      {
+        "type": "open",
+        "question": "Rousseau développe la notion de _____ social dans son œuvre Du contrat social."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la devise des Lumières selon Kant ?",
+        "choices": [
+          "Liberté, Égalité, Fraternité",
+          "Ose savoir (Sapere aude)",
+          "Je pense donc je suis",
+          "L'homme est un loup pour l'homme"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le conte philosophique est un genre utilisé par les philosophes des Lumières pour transmettre leurs idées."
+      },
+      {
+        "type": "open",
+        "question": "Dans les Lettres persanes, Montesquieu utilise le point de vue d'étrangers pour _____ la société française."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel philosophe des Lumières est le plus associé à la défense de la liberté d'expression ?",
+        "choices": [
+          "Rousseau",
+          "Voltaire",
+          "Montesquieu",
+          "Diderot"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La littérature engagée implique nécessairement un parti politique précis."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

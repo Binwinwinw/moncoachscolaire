@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Bac Philosophie",
+    "level": "bac",
+    "subject": "Philosophie"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic Bac Philosophie",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "**Thèse/antithèse/synthèse** (Hegel bac)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "correct": true,
+        "correction": "**Vrai**. Sujet → problématique centrale."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "correct": null,
+        "correction": "**antithèse** (contradiction → dépassement)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "**nihilisme** (valeurs traditionnelles perdues)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "correct": true,
+        "correction": "**Vrai**. Paraphrase → thèse → ouverture."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "correct": null,
+        "correction": "**voile ignorance** (justice sans biais)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "**Lien parties** (articulation idées)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "correct": null,
+        "correction": "**durée** temps vécu (vs espace mesuré)."
+      }
+    ],
+    "level": "bac",
+    "subject": "Philosophie"
+  }
+}

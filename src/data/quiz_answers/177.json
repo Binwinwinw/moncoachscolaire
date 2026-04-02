@@ -1,0 +1,76 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Geographie 1ere - Série 177",
+    "level": "1ere",
+    "subject": "Histoire-Geographie"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Histoire-Géographie - Serie 3",
+    "question_count": 8,
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "L'Italie",
+        "correct": 2,
+        "correction": "C'est en Italie que Benito Mussolini fonde le premier régime fasciste. Après la 'Marche sur Rome' (octobre 1922), il prend le pouvoir et instaure progressivement une dictature totalitaire, le 'fascisme', qui donnera son nom à ce courant idéologique."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le jeudi 24 octobre 1929 ('jeudi noir'), la Bourse de New York s'effondre. Cette crise financière se propage rapidement à l'économie réelle et au monde entier, provoquant une dépression économique mondiale avec des millions de chômeurs."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "correct_answer": "Le nazisme est le régime totalitaire d'Hitler, fondé sur le racisme (antisémitisme), le nationalisme extrême et le rejet de la démocratie.",
+        "answer": "Le nazisme est le régime totalitaire d'Hitler, fondé sur le racisme (antisémitisme), le nationalisme extrême et le rejet de la démocratie.",
+        "correction": "Le nazisme (national-socialisme) est l'idéologie du parti d'Adolf Hitler (NSDAP), fondée sur : l'antisémitisme et le racisme (théorie de la race aryenne supérieure), le nationalisme extrême et le pangermanisme, le rejet de la démocratie au profit d'un chef (Führerprinzip), l'anticommunisme, et l'expansionnisme territorial (Lebensraum). Hitler prend le pouvoir en janvier 1933."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Le stalinisme totalitaire",
+        "correct": 1,
+        "correction": "Le stalinisme désigne le régime totalitaire mis en place par Joseph Staline à partir des années 1920-1930 en URSS : collectivisation forcée, industrialisation à marche forcée (plans quinquennaux), culte de la personnalité, Goulag et Grandes Purges (1936-1938)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le Front populaire (coalition socialistes-radicaux-communistes) remporte les élections de mai 1936. Sous Léon Blum, il adopte les accords Matignon : congés payés (2 semaines), semaine de 40 heures, hausse des salaires."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "correct_answer": "C'est la politique de concessions faites à Hitler pour éviter la guerre, symbolisée par les accords de Munich en 1938.",
+        "answer": "C'est la politique de concessions faites à Hitler pour éviter la guerre, symbolisée par les accords de Munich en 1938.",
+        "correction": "La politique d'apaisement (appeasement) consiste pour le Royaume-Uni (Chamberlain) et la France (Daladier) à faire des concessions à Hitler pour éviter une nouvelle guerre. Son symbole est la conférence de Munich (septembre 1938) où ils acceptent l'annexion des Sudètes par l'Allemagne, croyant avoir assuré 'la paix pour notre temps'."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Le pacte germano-soviétique (pacte Molotov-Ribbentrop)",
+        "correct": 1,
+        "correction": "Le pacte germano-soviétique (ou pacte Molotov-Ribbentrop, signé le 23 août 1939) est un accord de non-agression entre l'Allemagne nazie et l'URSS. Il contient des clauses secrètes de partage de l'Europe de l'Est. Il libère Hitler pour envahir la Pologne sans craindre un front à l'Est."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le 1er septembre 1939, l'Allemagne nazie envahit la Pologne. Le 3 septembre, la France et le Royaume-Uni déclarent la guerre à l'Allemagne, conformément à leurs engagements envers la Pologne. La Seconde Guerre mondiale commence."
+      }
+    ]
+  }
+}

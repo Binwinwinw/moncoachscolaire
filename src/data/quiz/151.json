@@ -1,0 +1,97 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 27",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ere : Les modaux – déduction et probabilité",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-08 00:05:00"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 27",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "id": 1,
+        "type": "qcm",
+        "question": "The lights are off and the car is gone. Choose the best deduction: '___ be at home.'",
+        "choices": [
+          "She must",
+          "She can't",
+          "She should",
+          "She would"
+        ]
+      },
+      {
+        "id": 2,
+        "type": "vrai-faux",
+        "question": "'She might be at the library' expresses a strong certainty about her location."
+      },
+      {
+        "id": 3,
+        "type": "texte",
+        "question": "Exprime une déduction certaine positive au présent : tu vois de la lumière chez ton voisin et sa moto est garée dehors. Formule une phrase avec 'must'.",
+        "placeholder": "Écris ta réponse ici..."
+      },
+      {
+        "id": 4,
+        "type": "qcm",
+        "question": "He didn't answer any of my calls. Choose the best past deduction:",
+        "choices": [
+          "He must forget his phone.",
+          "He might have forgotten his phone.",
+          "He can't have forgot his phone.",
+          "He should be forgotten his phone."
+        ]
+      },
+      {
+        "id": 5,
+        "type": "vrai-faux",
+        "question": "'She must have passed her exam' is used to make a deduction about a past event."
+      },
+      {
+        "id": 6,
+        "type": "texte",
+        "question": "Traduis en anglais en utilisant le bon modal de déduction : 'Elle ne peut pas avoir dit ça — c'est impossible !'",
+        "placeholder": "Écris ta réponse ici..."
+      },
+      {
+        "id": 7,
+        "type": "qcm",
+        "question": "Which sentence expresses the HIGHEST degree of certainty?",
+        "choices": [
+          "He might be the thief.",
+          "He could be the thief.",
+          "He must be the thief.",
+          "He may be the thief."
+        ]
+      },
+      {
+        "id": 8,
+        "type": "vrai-faux",
+        "question": "In the sentence 'It could rain tomorrow', 'could' expresses a possibility about the future."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Déduction certaine au présent : must / can't",
+      "description": "Must + infinitif exprime une déduction quasi-certaine positive : 'She must be at home' (j'en suis presque sûr). Can't + infinitif exprime une déduction quasi-certaine négative : 'He can't be sleeping, it's noon' (c'est impossible)."
+    },
+    {
+      "notion": "Probabilité et incertitude : may, might, could",
+      "description": "May, might et could expriment une probabilité incertaine au présent ou futur. May = environ 50% de probabilité. Might et could = légère possibilité. Ex : 'It might rain later.' / 'She could be in a meeting.'"
+    },
+    {
+      "notion": "Déduction dans le passé : must have, can't have, might have",
+      "description": "Pour exprimer une déduction sur le passé, on utilise modal + have + past participle. Ex : 'He must have forgotten' (il a sûrement oublié), 'She can't have seen it' (elle n'a pas pu le voir), 'They might have left already' (ils ont peut-être déjà quitté)."
+    }
+  ],
+  "exerciseresponses": []
+}

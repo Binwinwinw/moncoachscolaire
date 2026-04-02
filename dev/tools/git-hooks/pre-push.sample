@@ -1,0 +1,14 @@
+#!/bin/sh
+# Sample pre-push hook: snapshot all modified files before pushing
+# Install by copying to .git/hooks/pre-push and make executable
+
+REPO_ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
+SNAP="$REPO_ROOT/scripts/snapshot.php"
+
+if [ -f "$SNAP" ]; then
+  echo "Creating a full snapshot prior to push..."
+  # snapshot all project files (fast) - excludes backups/vendor/node_modules
+  php "$SNAP" --all
+fi
+
+exit 0

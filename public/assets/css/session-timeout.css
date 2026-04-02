@@ -1,0 +1,176 @@
+/**
+ * Styles pour le système de déconnexion automatique
+ */
+
+/* Modal d'avertissement */
+.session-timeout-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.session-timeout-modal.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Overlay sombre */
+.session-timeout-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgb(0 0 0 / 70%);
+    backdrop-filter: blur(4px);
+}
+
+/* Contenu du modal */
+.session-timeout-content {
+    position: relative;
+    background: #fff;
+    border-radius: 16px;
+    padding: 2rem;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 20px 60px rgb(0 0 0 / 30%);
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.session-timeout-modal.active .session-timeout-content {
+    transform: scale(1);
+}
+
+/* Icône */
+.session-timeout-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+/* Titre */
+.session-timeout-content h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin: 0 0 1rem;
+}
+
+/* Texte */
+.session-timeout-content p {
+    font-size: 1rem;
+    color: #4b5563;
+    margin: 0.5rem 0;
+    line-height: 1.6;
+}
+
+/* Compte à rebours */
+.session-timeout-countdown {
+    font-size: 1.25rem;
+    font-weight: 600;
+        /* !important supprimé pour conformité stylelint. Si le rendu est altéré, revoir la spécificité du sélecteur. */
+        color: #dc2626;
+    /* !important supprimé pour conformité stylelint. Si le rendu est altéré, revoir la spécificité du sélecteur. */
+    margin: 1.5rem 0;
+}
+
+.session-timeout-countdown span {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #dc2626;
+    font-family: 'Courier New', monospace;
+}
+
+/* Actions */
+.session-timeout-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Boutons */
+.btn-extend-session,
+.btn-logout-now {
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: none;
+    min-width: 150px;
+}
+
+.btn-extend-session {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    color: white;
+    box-shadow: 0 4px 12px rgb(16 185 129 / 30%);
+}
+
+.btn-extend-session:hover {
+    background: linear-gradient(135deg, #059669 0%, #047857 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgb(16 185 129 / 40%);
+}
+
+.btn-extend-session:active {
+    transform: translateY(0);
+}
+
+.btn-logout-now {
+    background: #f3f4f6;
+    color: #374151;
+    border: 2px solid #e5e7eb;
+}
+
+.btn-logout-now:hover {
+    background: #e5e7eb;
+    border-color: #d1d5db;
+    transform: translateY(-2px);
+}
+
+.btn-logout-now:active {
+    transform: translateY(0);
+}
+
+/* Responsive */
+@media (width <= 600px) {
+    .session-timeout-content {
+        padding: 1.5rem;
+        margin: 1rem;
+    }
+
+    .session-timeout-content h2 {
+        font-size: 1.25rem;
+    }
+
+    .session-timeout-icon {
+        font-size: 3rem;
+    }
+
+    .session-timeout-actions {
+        flex-direction: column;
+    }
+
+    .btn-extend-session,
+    .btn-logout-now {
+        width: 100%;
+    }
+}

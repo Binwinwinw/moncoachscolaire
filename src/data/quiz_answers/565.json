@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 565",
+    "level": "3ème",
+    "subject": "Histoire-Géographie"
+  },
+  "quiz": {
+    "title": "La guerre d'Algérie (1954–1962)",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Des attentats du FLN contre des cibles françaises en Algérie",
+        "correct": 1,
+        "correction": "La Toussaint Rouge (1er novembre 1954) : le FLN (Front de Libération Nationale) lance une série d'attentats marquant le début de l'insurrection."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'Algérie était juridiquement un territoire français (trois départements) depuis 1848, ce qui rendait son indépendance plus complexe politiquement."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "1962",
+        "correction": "Les accords d'Évian (mars 1962) et le référendum de juillet 1962 consacrent l'indépendance de l'Algérie."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Des Algériens musulmans ayant combattu aux côtés de l'armée française",
+        "correct": 1,
+        "correction": "Environ 200 000 harkis ont servi dans l'armée française ; beaucoup ont été massacrés après l'indépendance ou ont fui en France où ils ont été mal accueillis."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'usage de la torture par l'armée française est documenté et reconnu aujourd'hui ; il a fait l'objet de débats et de condamnations morales en France."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "de Gaulle",
+        "correction": "Le 13 mai 1958, des généraux et pieds-noirs se soulèvent à Alger ; De Gaulle revient au pouvoir et rédige la Constitution de la Ve République."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Un cessez-le-feu et l'organisation d'un référendum sur l'indépendance algérienne",
+        "correct": 1,
+        "correction": "Les accords d'Évian mettent fin aux combats ; le référendum d'autodétermination (1er juillet 1962) aboutit à l'indépendance de l'Algérie."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Longtemps appelée 'opérations de maintien de l'ordre', la guerre d'Algérie est officiellement reconnue comme telle par la loi française du 18 octobre 1999."
+      }
+    ]
+  }
+}

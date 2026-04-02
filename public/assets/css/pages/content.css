@@ -1,0 +1,192 @@
+/* admin-content.css - Styles pour la gestion du contenu pédagogique */
+
+.admin-content-page {
+    background: linear-gradient(135deg, #f5f7fa 0%, #e3f2fd 100%);
+    min-height: 100vh;
+}
+
+/* Animations */
+@keyframes fade-in {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+    animation: fade-in 0.3s ease-out;
+}
+
+/* Feedback */
+.feedback {
+    border-left: 4px solid;
+    animation: fade-in 0.3s ease-out;
+}
+
+.feedback-success {
+    background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
+    border-color: #28a745;
+    color: #155724;
+}
+
+.feedback-info {
+    background: linear-gradient(135deg, #d1ecf1 0%, #bee5eb 100%);
+    border-color: #17a2b8;
+    color: #0c5460;
+}
+
+.feedback-warning {
+    background: linear-gradient(135deg, #fff3cd 0%, #ffeeba 100%);
+    border-color: #ffc107;
+    color: #856404;
+}
+
+.feedback-error {
+    background: linear-gradient(135deg, #f8d7da 0%, #f5c6cb 100%);
+    border-color: #dc3545;
+    color: #721c24;
+}
+
+/* Statistiques */
+.stats-grid {
+    animation: fade-in 0.5s ease-out;
+}
+
+.stat-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Filtres */
+.filters-bar {
+    animation: fade-in 0.6s ease-out;
+}
+
+.filters-bar input:focus,
+.filters-bar select:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+/* Tableau */
+.content-list {
+    animation: fade-in 0.7s ease-out;
+}
+
+.content-list table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.content-list tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+.content-list tbody tr:hover {
+    background-color: #f8fafc;
+}
+
+/* Modal */
+.modal {
+    backdrop-filter: blur(4px);
+    animation: fade-in 0.2s ease-out;
+}
+
+.modal.hidden {
+    display: none;
+}
+
+.modal-content {
+    animation: slide-up 0.3s ease-out;
+}
+
+@keyframes slide-up {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Badges de statut */
+.content-list tbody span {
+    font-weight: 600;
+    letter-spacing: 0.025em;
+}
+
+/* Boutons d'action */
+.content-list button {
+    font-size: 0.875rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.content-list button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .filters-bar form {
+        grid-template-columns: 1fr;
+    }
+    
+    .content-list table {
+        font-size: 0.875rem;
+    }
+    
+    .content-list th,
+    .content-list td {
+        padding: 0.75rem 0.5rem;
+    }
+    
+    .modal-content {
+        max-width: 95%;
+        padding: 1.5rem;
+    }
+}
+
+/* Accessibilité */
+button:focus,
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid #3b82f6;
+    outline-offset: 2px;
+}
+
+/* Scrollbar personnalisée */
+.modal-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.modal-content::-webkit-scrollbar-track {
+    background: #f1f5f9;
+    border-radius: 4px;
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 4px;
+}
+
+.modal-content::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+}
+
+/* États vides */
+.content-list .text-center {
+    animation: fade-in 0.5s ease-out;
+}

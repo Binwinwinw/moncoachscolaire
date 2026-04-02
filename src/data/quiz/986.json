@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 2nde - Serie 986",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 2nde : Transformations de courbes",
+    "status": "published",
+    "created_at": "2026-03-13 11:15:43",
+    "updated_at": "2026-03-13 11:15:43"
+  },
+  "quiz": {
+    "title": "Transformations de courbes",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "La courbe de g(x) = f(x) + 3 est la courbe de f :",
+        "choices": [
+          "Translatée de 3 vers la droite",
+          "Translatée de 3 vers le haut",
+          "Multipliée par 3",
+          "Symétrique de f"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La courbe de g(x) = f(x − 2) est la courbe de f translatée de 2 vers la droite."
+      },
+      {
+        "type": "open",
+        "question": "Si f(x) = x², quelle est l'expression de la courbe obtenue par translation de 1 vers la droite et 2 vers le haut ?"
+      },
+      {
+        "type": "qcm",
+        "question": "La courbe de g(x) = −f(x) est la courbe de f :",
+        "choices": [
+          "Translatée vers le bas",
+          "Symétrique par rapport à l'axe x",
+          "Symétrique par rapport à l'axe y",
+          "Agrandie"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La courbe de g(x) = f(−x) est le symétrique de la courbe de f par rapport à l'axe des ordonnées."
+      },
+      {
+        "type": "open",
+        "question": "La parabole y = x² est translatée de 3 vers la gauche. Quelle est la nouvelle équation ?"
+      },
+      {
+        "type": "qcm",
+        "question": "La courbe de g(x) = 2f(x) par rapport à celle de f est :",
+        "choices": [
+          "Translatée verticalement de 2",
+          "Étirée verticalement d'un facteur 2",
+          "Translatée horizontalement de 2",
+          "Rétrécie horizontalement"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La courbe de y = (x+1)² − 4 a pour sommet le point (−1, −4)."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

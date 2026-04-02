@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment utiliser le Dashboard Admin</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 { color: #333; }
+        h2 { color: #0066cc; border-bottom: 2px solid #0066cc; padding-bottom: 10px; }
+        .step { background: #f0f8ff; padding: 15px; margin: 10px 0; border-left: 4px solid #0066cc; }
+        .warning { background: #fff3cd; padding: 15px; margin: 10px 0; border-left: 4px solid #ffc107; }
+        .success { background: #d4edda; padding: 15px; margin: 10px 0; border-left: 4px solid #28a745; }
+        code { background: #f4f4f4; padding: 2px 6px; border-radius: 3px; font-family: 'Courier New'; }
+        pre { background: #2d2d2d; color: #f8f8f2; padding: 15px; border-radius: 5px; overflow-x: auto; }
+        button { background: #0066cc; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; }
+        button:hover { background: #0052a3; }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h1>🔧 Erreurs 403 sur Dashboard Admin - EXPLICATION ET SOLUTION</h1>
+</div>
+
+<div class="card">
+    <h2>❓ Quel est le problème ?</h2>
+    <p>Tu vois ces erreurs :</p>
+    <pre>Erreur lors du chargement des statistiques: Erreur HTTP 403
+Erreur chargement qualité: Erreur HTTP 403
+Erreur lors du chargement des utilisateurs: Erreur HTTP 403
+Erreur lors du chargement des logs: Erreur HTTP 403</pre>
+    <p><strong>C'est normal !</strong> Le code 403 signifie <strong>"Accès refusé"</strong>. Les APIs demandent une authentification admin.</p>
+</div>
+
+<div class="card">
+    <h2>✅ Solution: Se connecter en tant qu'admin</h2>
+    <p>Les erreurs 403 disparaîtront une fois que tu seras connecté en tant qu'administrateur.</p>
+    
+    <div class="step">
+        <h3>Étape 1 : Créer ou trouver un compte admin</h3>
+        <p>Dans la base de données, tu dois avoir un utilisateur avec le rôle <code>admin</code>.</p>
+        <p>Admin existant: <code>zinzin</code></p>
+        <p>Si tu dois en créer un:</p>
+        <pre>INSERT INTO Users (Username, Email, PasswordHash, Role) 
+VALUES ('admin', 'admin@example.com', '$2y$10$[hash]', 'admin');</pre>
+    </div>
+
+    <div class="step">
+        <h3>Étape 2 : Te connecter</h3>
+        <ol>
+            <li>Va sur la page de login: <code>/public/index.php?page=login</code></li>
+            <li>Connecte-toi avec ton compte admin (ex: <code>zinzin</code>)</li>
+            <li>Tu devrais voir un cookie <code>PHPSESSID</code> créé dans le navigateur</li>
+        </ol>
+    </div>
+
+    <div class="step">
+        <h3>Étape 3 : Accéder au Dashboard Admin</h3>
+        <ol>
+            <li>Va sur: <code>/public/index.php?page=dashboard_admin</code></li>
+            <li>Le JavaScript va automatiquement appeler les APIs avec ta session admin</li>
+            <li>Les erreurs 403 devraient disparaître</li>
+            <li>Tu verras les données: statistiques, utilisateurs, logs, etc.</li>
+        </ol>
+    </div>
+</div>
+
+<div class="card">
+    <h2>🔐 Pourquoi il y a une authentification ?</h2>
+    <ul>
+        <li><strong>Sécurité</strong> : Les APIs admin contiennent des données sensibles</li>
+        <li><strong>Confidentialité</strong> : Seul un admin peut voir les stats, utilisateurs, logs</li>
+        <li><strong>Contrôle d'accès</strong> : Évite les attaques par accès non autorisé</li>
+    </ul>
+</div>
+
+<div class="card">
+    <h2>📋 Checklist de Troubleshooting</h2>
+    <div class="success">
+        <p>✅ <strong>Si tu es connecté en admin:</strong></p>
+        <ul>
+            <li>Les erreurs 403 disparaissent</li>
+            <li>Les API retournent les données correctement</li>
+            <li>Tout devrait fonctionner normalement</li>
+        </ul>
+    </div>
+
+    <div class="warning">
+        <p>⚠️ <strong>Si tu as TOUJOURS des erreurs 403 même en étant admin:</strong></p>
+        <ul>
+            <li>Vérifier que la session PHP est active (F12 → Application → Cookies → PHPSESSID)</li>
+            <li>Vérifier que le fichier <code>api_proxy.php</code> existe</li>
+            <li>Vérifier que le fichier <code>.htaccess</code> n'a pas été modifié</li>
+            <li>Tester les APIs directement: <code>/api/admin/stats.php</code> (doit retourner JSON)</li>
+        </ul>
+    </div>
+</div>
+
+<div class="card">
+    <h2>🧪 Test rapide (sans connexion)</h2>
+    <p>Pour tester l'API directement (sans avoir à se connecter), tu peux :</p>
+    <ol>
+        <li>Consulter : <a href="test_api_admin.html" target="_blank">test_api_admin.html</a></li>
+        <li>Cela montre le statut HTTP de chaque API</li>
+        <li>Si tu vois 403, c'est l'authentification qui manque</li>
+    </ol>
+</div>
+
+<div class="card">
+    <h2>📚 Fichiers impliqués</h2>
+    <ul>
+        <li><code>src/pages/dashboard_admin.php</code> - Page principale du dashboard</li>
+        <li><code>public/assets/js/admin-dashboard.js</code> - JavaScript qui appelle les APIs</li>
+        <li><code>src/api/admin/*.php</code> - Endpoints API (stats, users, logs, etc.)</li>
+        <li><code>src/includes/admin_auth.php</code> - Système d'authentification</li>
+        <li><code>api_proxy.php</code> - Routeur pour les APIs en production</li>
+        <li><code>.htaccess</code> - Règles de routage</li>
+    </ul>
+</div>
+
+<div class="card" style="background: #e7f3ff;">
+    <h2>💡 En Résumé</h2>
+    <p><strong>Les erreurs 403 sont ATTENDUES si tu n'es pas admin !</strong></p>
+    <p>C'est un mécanisme de sécurité. Connecte-toi en tant qu'admin et le problème sera résolu.</p>
+    <button onclick="window.location.href='/moncoachscolaire/public/index.php?page=login'">
+        → Aller à la page de connexion
+    </button>
+</div>
+
+</body>
+</html>

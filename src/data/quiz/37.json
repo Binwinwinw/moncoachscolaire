@@ -1,0 +1,84 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 3eme Français",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Francais",
+    "description": "Diagnostic argumentation, théâtre, poésie 3eme brevet"
+  },
+  "quiz": {
+    "title": "Diagnostic Français 3eme",
+    "level": "3eme",
+    "subject": "Francais",
+    "question_count": 8,
+    "passing_score": 80,
+    "questions": [
+      {
+        "id": 1,
+        "type": "qcm",
+        "question": "Thèse = position ... débat.",
+        "choices": [
+          "Neutre",
+          "Défendue",
+          "Adverse"
+        ]
+      },
+      {
+        "id": 2,
+        "type": "texte",
+        "question": "Monologue = personnage parle ..."
+      },
+      {
+        "id": 3,
+        "type": "vrai-faux",
+        "question": "Alexandrin = 12 syllabes."
+      },
+      {
+        "id": 4,
+        "type": "qcm",
+        "question": "ANTITHÈSE = opposition ...",
+        "choices": [
+          "Idées",
+          "Images",
+          "Son"
+        ]
+      },
+      {
+        "id": 5,
+        "type": "texte",
+        "question": "Argument d'autorité = citation ..."
+      },
+      {
+        "id": 6,
+        "type": "vrai-faux",
+        "question": "Sonnet = 14 vers."
+      },
+      {
+        "id": 7,
+        "type": "qcm",
+        "question": "Aparté = dit aux ... (pas entendus personnages).",
+        "choices": [
+          "Spectateurs",
+          "Acteurs"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "texte",
+        "question": "Dissertation = ... + développement + ..."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Argumentation"
+    },
+    {
+      "notion": "Théâtre"
+    },
+    {
+      "notion": "Poésie"
+    }
+  ],
+  "exerciseresponses": []
+}

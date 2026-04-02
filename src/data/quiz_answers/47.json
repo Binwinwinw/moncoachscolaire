@@ -1,0 +1,72 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 5eme Français",
+    "type": "quiz",
+    "level": "5eme",
+    "subject": "Francais",
+    "description": "Diagnostic grammaire conjugaison orthographe niveau 5eme"
+  },
+  "quiz": {
+    "title": "Diagnostic Français 5eme",
+    "level": "5eme",
+    "subject": "Francais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "texte",
+        "answer": "mange",
+        "correction": "Présent 1ere singulier → mange"
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "qcm",
+        "answer": "ils",
+        "correction": "Enfants = masculin pluriel → ils"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": false,
+        "correction": "FAUX. J'ai **allé** (verbe aller)"
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "texte",
+        "answer": "finissons",
+        "correction": "Présent 1er pluriel → finissons"
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "mon",
+        "correction": "Mon = possessif 1er singulier"
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": false,
+        "correction": "FAUX. Aller, venir, voir... irréguliers"
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "texte",
+        "answer": "es",
+        "correction": "Présent 2e singulier → es"
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "qcm",
+        "answer": "ent",
+        "correction": "Filles = pluriel → chantent"
+      }
+    ]
+  }
+}

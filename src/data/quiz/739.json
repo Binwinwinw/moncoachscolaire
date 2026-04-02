@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 739",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie 3ème : Électricité : bilan et révisions",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Électricité : bilan et révisions",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle relation donne la loi d'Ohm ?",
+        "choices": [
+          "U = R + I",
+          "U = R × I",
+          "U = R / I",
+          "U = I / R"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Dans un circuit en série, l'intensité du courant est la même en tout point."
+      },
+      {
+        "type": "open",
+        "question": "Quelle est la formule de la puissance électrique P en fonction de la tension U et de l'intensité I ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel composant transforme l'énergie électrique en énergie lumineuse avec le meilleur rendement ?",
+        "choices": [
+          "Lampe à incandescence",
+          "Lampe fluorescente (néon)",
+          "LED (diode électroluminescente)",
+          "Lampe halogène"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'énergie électrique consommée E est égale au produit de la puissance P par la durée t : E = P × t."
+      },
+      {
+        "type": "open",
+        "question": "Quel dispositif de protection peut couper automatiquement un circuit électrique en cas de court-circuit ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est l'unité de l'énergie électrique sur les compteurs des foyers français ?",
+        "choices": [
+          "Watt (W)",
+          "Ampère (A)",
+          "Kilowattheure (kWh)",
+          "Volt (V)"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le courant électrique dans les fils de cuivre est dû au déplacement d'électrons libres."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

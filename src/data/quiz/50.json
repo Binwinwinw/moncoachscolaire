@@ -1,0 +1,85 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 5eme SVT",
+    "type": "quiz",
+    "level": "5eme",
+    "subject": "SVT",
+    "description": "Diagnostic reproduction humaine, squelette, énergie 5eme"
+  },
+  "quiz": {
+    "title": "Diagnostic SVT 5eme",
+    "level": "5eme",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 75,
+    "questions": [
+      {
+        "id": 1,
+        "type": "qcm",
+        "question": "Organe femelle reproduction :",
+        "choices": [
+          "Testicule",
+          "Ovaire",
+          "Prostate"
+        ]
+      },
+      {
+        "id": 2,
+        "type": "texte",
+        "question": "Os du crâne = ..."
+      },
+      {
+        "id": 3,
+        "type": "vrai-faux",
+        "question": "Squelette = 206 os adultes."
+      },
+      {
+        "id": 4,
+        "type": "qcm",
+        "question": "Énergie chimique → ... (respiration)",
+        "choices": [
+          "Lumière",
+          "Chaleur",
+          "Mécanique"
+        ]
+      },
+      {
+        "id": 5,
+        "type": "texte",
+        "question": "Fécondation = spermatozoïde + ..."
+      },
+      {
+        "id": 6,
+        "type": "vrai-faux",
+        "question": "Colonne vertébrale = osseuse uniquement."
+      },
+      {
+        "id": 7,
+        "type": "qcm",
+        "question": "Respiration cellulaire lieu :",
+        "choices": [
+          "Noyau",
+          "Cytoplasme",
+          "Mitochondries"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "texte",
+        "question": "Grossesse humaine = ... mois"
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Reproduction humaine"
+    },
+    {
+      "notion": "Squelette"
+    },
+    {
+      "notion": "Énergie cellulaire"
+    }
+  ],
+  "exerciseresponses": []
+}

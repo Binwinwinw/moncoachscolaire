@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 730",
+    "level": "3ème",
+    "subject": "Physique-Chimie"
+  },
+  "quiz": {
+    "title": "Lumière : réfraction et lentilles",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Le changement de direction de la lumière lorsqu'elle passe d'un milieu à un autre",
+        "correct": 1,
+        "correction": "La réfraction est le phénomène de déviation des rayons lumineux à l'interface entre deux milieux d'indices de réfraction différents."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "n = c/v où n est l'indice de réfraction, c la vitesse de la lumière dans le vide, v la vitesse dans le milieu."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "lentille convergente (ou convexe)",
+        "correction": "Une lentille convergente (convexe) fait converger les rayons parallèles vers un point focal."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Image virtuelle, droite et réduite",
+        "correct": 1,
+        "correction": "Une lentille divergente forme une image virtuelle (du côté objet), droite et plus petite que l'objet."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Si l'objet est entre F et L (lentille), l'image est virtuelle (du côté objet), droite et plus grande que l'objet."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "(1/f) = (1/do) + (1/di)",
+        "correction": "(1/f) = (1/do) + (1/di) où f est la distance focale, do la distance objet-lentille, di la distance image-lentille."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Lentille divergente (concave)",
+        "correct": 1,
+        "correction": "Les lunettes pour myopes utilisent des lentilles divergentes pour compenser la focalisation de l'image devant la rétine."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Selon la position de l'objet par rapport au foyer, une lentille mince peut former une image réelle (inversée) ou virtuelle (droite)."
+      }
+    ]
+  }
+}

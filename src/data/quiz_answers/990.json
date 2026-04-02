@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 2nde - Serie 990",
+    "level": "2nde",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Droites — équation cartésienne",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "B",
+        "correction": "y = ax + b avec a = 3 et b = 2 (ordonnée à l'origine) : y = 3x + 2."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Les droites verticales (x = constante) ne peuvent pas s'écrire y = ax + b."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "y = 2x + 1",
+        "correction": "Pente : (9−5)/(4−2) = 2. Puis 5 = 2×2 + b → b = 1. Équation : y = 2x + 1."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "B",
+        "correction": "3y = −2x + 6 → y = (−2/3)x + 2. Pente = −2/3."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Une droite horizontale est y = b (constante) : y = 0·x + b, pente = 0."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "ax + by + c = 0 (équation cartésienne générale), avec (a, b) ≠ (0, 0).",
+        "correction": "Cette forme inclut les droites verticales (b=0) et horizontales (a=0)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "C",
+        "correction": "Deux droites de pentes a₁ et a₂ sont perpendiculaires si a₁ × a₂ = −1."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Parallèle → même pente a = 2. Puis 4 = 2×1 + b → b = 2. Équation : y = 2x + 2. ✓"
+      }
+    ]
+  }
+}

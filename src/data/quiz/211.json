@@ -1,0 +1,77 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 2nde - Série 211",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Français",
+    "description": "Diagnostic Français 2nde : Diagnostic 2nde Français - Théâtre et double énonciation",
+    "status": "published",
+    "created_at": "2026-03-14 07:16:54",
+    "updated_at": "2026-03-14 07:16:54",
+    "source": "Eduscol programmes officiels + BOEN",
+    "programme_ref": "<Référence programme officiel à renseigner>"
+  },
+  "quiz": {
+    "title": "Diagnostic 2nde Français - Théâtre et double énonciation",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Au théâtre, que signifie la double énonciation ?",
+        "choices": [
+          "Le texte est écrit par deux auteurs",
+          "Un personnage parle à un autre personnage et, en même temps, au public",
+          "La pièce possède deux actes seulement",
+          "Les répliques sont dites deux fois"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une didascalie est destinée prioritairement à la mise en scène et au jeu des acteurs."
+      },
+      {
+        "type": "open",
+        "question": "Comment nomme-t-on une longue réplique prononcée par un seul personnage ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel terme désigne un personnage qui parle seul sur scène pour exprimer ses pensées ?",
+        "choices": [
+          "Aparté",
+          "Monologue",
+          "Stichomythie",
+          "Prologue"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'aparté est entendu par tous les personnages présents sur scène."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on l'enchaînement très rapide de répliques brèves au théâtre ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Dans une comédie classique, quelle fonction est la plus fréquente des quiproquos ?",
+        "choices": [
+          "Créer de la tension tragique irréversible",
+          "Produire un effet comique fondé sur le malentendu",
+          "Présenter un commentaire historique",
+          "Remplacer les didascalies"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le texte théâtral est conçu pour être joué, pas seulement lu."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

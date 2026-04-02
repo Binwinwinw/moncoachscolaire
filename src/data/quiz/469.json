@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 469",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "description": "Diagnostic Français 1ère : La poésie lyrique",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "La poésie lyrique",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la caractéristique principale de la poésie lyrique ?",
+        "choices": [
+          "La narration d'événements historiques",
+          "L'expression des sentiments personnels du poète",
+          "La satire sociale",
+          "La description objective du monde"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le Romantisme est un mouvement littéraire favorable au lyrisme personnel."
+      },
+      {
+        "type": "open",
+        "question": "Le spleen désigne chez Baudelaire un sentiment de _____ et d'ennui profond."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle figure de style exprime le lyrisme en attribuant des sentiments à la nature ?",
+        "choices": [
+          "Métaphore",
+          "Prosopopée",
+          "Personnification de la nature / pathetic fallacy",
+          "Anaphore"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'alexandrin est un vers de 14 syllabes."
+      },
+      {
+        "type": "open",
+        "question": "Le recueil de Lamartine intitulé _____ (1820) inaugure le lyrisme romantique en France."
+      },
+      {
+        "type": "qcm",
+        "question": "Dans 'Le Lac' de Lamartine, le poète s'adresse au lac pour :",
+        "choices": [
+          "Décrire un paysage pittoresque",
+          "Lutter contre l'oubli du temps et d'un amour disparu",
+          "Célébrer une victoire",
+          "Critiquer la société"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le vers libre est caractérisé par l'absence de métrique fixe et de rime obligatoire."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

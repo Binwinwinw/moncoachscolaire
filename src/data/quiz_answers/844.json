@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES 1ère - Série 844",
+    "level": "1ère",
+    "subject": "SES"
+  },
+  "quiz": {
+    "title": "Théories du commerce international",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "SES",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Un avantage comparatif",
+        "correct": 1,
+        "correction": "Ricardo (1817) : même si un pays est moins efficace dans tous les secteurs, il a intérêt à se spécialiser là où son désavantage est le plus faible."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Adam Smith (1776) : un pays a avantage absolu s'il produit un bien à moindre coût que son partenaire. L'échange est mutuellement bénéfique si chacun se spécialise où il est le meilleur."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "Le théorème HOS prédit qu'un pays se spécialisera dans la production qui utilise intensivement son facteur le plus abondant. Un pays riche en capital exportera des biens capitalistiques ; un pays riche en travail exportera des biens intensifs en travail.",
+        "correction": "Le HOS fonde la théorie du commerce sur les dotations factorielles différentes entre pays."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Les États-Unis exportaient des biens intensifs en travail, contrairement aux prédictions du HOS",
+        "correct": 1,
+        "correction": "Leontief (1953) a montré empiriquement que les exportations américaines (pays à fort capital) étaient plus intensives en travail qu'en capital."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Krugman (Prix Nobel 2008) montre que des pays similaires échangent des produits différenciés, même sans avantages comparatifs (commerce intra-branche)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "Le commerce intra-branche désigne l'échange de produits similaires entre pays (ex : la France exporte des Renault et importe des BMW). Il est dominant entre pays développés et s'explique par les économies d'échelle et la différenciation (Krugman).",
+        "correction": "Contraste avec le commerce inter-branche (biens différents entre pays) prédit par les théories classiques."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Est mutuellement bénéfique pour tous les pays participants",
+        "correct": 1,
+        "correction": "La théorie ricardienne prédit un gain mutuel de l'échange : chaque pays se spécialise et produit plus efficacement."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les 'avantages comparatifs construits' (Porter) résultent d'investissements publics en R&D, éducation, infrastructures. Les pays peuvent créer de nouveaux avantages."
+      }
+    ]
+  }
+}

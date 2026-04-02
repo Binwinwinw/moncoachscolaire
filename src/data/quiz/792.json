@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 792",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 3eme : Les interfaces homme-machine (IHM) et UX design",
+    "status": "published",
+    "created_at": "2026-03-14 04:06:19",
+    "updated_at": "2026-03-14 04:06:19"
+  },
+  "quiz": {
+    "title": "Les interfaces homme-machine (IHM) et UX design",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'une interface homme-machine (IHM) ?",
+        "choices": [
+          "Un logiciel de CAO",
+          "L'ensemble des moyens par lesquels un utilisateur interagit avec un systeme technique",
+          "Un composant electronique",
+          "Un protocole reseau"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une interface bien concue doit permettre a l'utilisateur d'accomplir ses taches de maniere intuitive et sans formation prealable."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la discipline qui etudie et optimise l'experience globale de l'utilisateur avec un produit ou service numerique ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que le principe d'accessibilite numerique ?",
+        "choices": [
+          "La rapidite de chargement d'une page web",
+          "La conception de contenus utilisables par des personnes en situation de handicap",
+          "La securite des donnees personnelles",
+          "La compatibilite entre navigateurs"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un test utilisateur consiste a observer de vrais utilisateurs interagir avec un prototype pour identifier les problemes."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on une representation simplifiee et interactive d'une interface web ou mobile, creee pour tester les flux de navigation ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel principe de design indique que chaque element d'une interface doit suggerer son utilisation par sa forme ou son apparence ?",
+        "choices": [
+          "Principe de coherence",
+          "Principe d'affordance",
+          "Principe de simplicite",
+          "Principe de contraste"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La conception responsive design permet a un site web de s'adapter automatiquement a la taille de l'ecran (mobile, tablette, PC)."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

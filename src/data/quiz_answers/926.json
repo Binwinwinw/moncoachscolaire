@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic HGGSP 1ère - Série 926",
+    "level": "1ère",
+    "subject": "HGGSP"
+  },
+  "quiz": {
+    "title": "Numérique et nouvelles frontières",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "HGGSP",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "La fragmentation d'Internet en réseaux nationaux contrôlés (Chine, Russie, Iran)",
+        "correct": 1,
+        "correction": "Le splinternet est la tendance à fragmenter l'Internet mondial en blocs géopolitiques avec des régulations, contenus et infrastructures différents, à l'opposé du réseau ouvert et mondial d'origine."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La loi russe sur le RuNet (2019) crée un système permettant l'isolation du réseau russe. Des tests ont été effectués, notamment depuis l'invasion de l'Ukraine en 2022."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "95 % du trafic internet mondial passe par des câbles sous-marins. Leurs points d'atterrissage sont des infrastructures critiques. Des États (USA via submarine cable agreements) et des entreprises privées (Facebook, Google) investissent dans ces câbles pour contrôler les flux. Leur sabotage (cas de la mer Baltique en 2023) peut couper des pays entiers.",
+        "correction": "Le câble MAREA (Microsoft/Facebook, 2017) est un exemple de l'investissement des GAFAM dans les infrastructures physiques d'Internet."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Elle peut être utilisée pour la désinformation, la surveillance et la guerre cognitive",
+        "correct": 1,
+        "correction": "L'IA générative facilite les deepfakes, la propagande automatisée, les cyberattaques sophistiquées. Sa maîtrise technologique est un enjeu de puissance nationale."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La controverse Huawei 5G illustre ce que : si un équipementier contrôle les réseaux 5G, il pourrait théoriquement accéder aux données ou perturber les communications. Les USA ont poussé leurs alliés à exclure Huawei."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "La guerre informationnelle utilise l'information comme arme pour influencer les perceptions, démoraliser l'adversaire, manipuler l'opinion publique. Exemples : ingérence russe dans les élections (2016), désinformation COVID-19, propagande de Daech sur les réseaux sociaux, trolls, deepfakes. Les réseaux sociaux sont devenus des champs de bataille informationnels.",
+        "correction": "La guerre informationnelle brouille la frontière entre guerre et paix, et rend difficile la défense car elle cible les démocraties ouvertes."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "L'établissement de normes internationales prohibant les cyberattaques contre les civils et les infrastructures critiques",
+        "correct": 1,
+        "correction": "Des acteurs comme Microsoft, l'ICJ ou des ONG défendent l'idée d'une Convention de Genève du numérique qui protégerait les civils des cyberattaques en période de conflit."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'OTAN a reconnu le cyberespace comme domaine opérationnel en 2016 (Varsovie) et l'espace en 2019 (Londres), en plus des domaines traditionnels terre, mer et air."
+      }
+    ]
+  }
+}

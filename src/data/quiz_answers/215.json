@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 2nde - Série 215",
+    "level": "2nde",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Diagnostic 2nde Français - Temps du récit",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Le passé simple",
+        "correct": 1,
+        "correction": "Le passé simple marque en général les actions de premier plan. Il fait avancer l'intrigue."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'imparfait installe l'arrière-plan du récit. Il exprime la durée, la répétition ou la description."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "plus-que-parfait",
+        "correction": "Le plus-que-parfait situe une action avant un repère passé. Il crée un effet de retour en arrière temporel."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Il marchait dans la rue quand soudain la porte s'ouvrit.",
+        "correct": 0,
+        "correction": "L'imparfait pose l'action de fond (« marchait »), tandis que le passé simple marque l'événement soudain (« s'ouvrit »)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Le passé simple appartient surtout à la langue écrite littéraire. À l'oral, on emploie plus fréquemment le passé composé."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "passé composé",
+        "correction": "Le passé composé est le temps usuel du récit oral pour des faits terminés. Il concurrence le passé simple dans la langue courante."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Action brève de premier plan",
+        "correct": 1,
+        "correction": "Le passé simple met en relief des actions successives qui structurent l'histoire. Il sert la progression narrative."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le présent de narration crée un effet de proximité et de dynamisme. Il actualise une action pourtant située dans le passé."
+      }
+    ]
+  }
+}

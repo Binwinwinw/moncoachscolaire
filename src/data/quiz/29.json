@@ -1,0 +1,97 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 4eme Anglais",
+    "type": "quiz",
+    "level": "4eme",
+    "subject": "Anglais",
+    "description": "Diagnostic vocabulaire present perfect, verbes irreguliers, comprehension orale 4eme",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-08 14:15:00"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 4eme Anglais",
+    "level": "4eme",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "I _____ never _____ to London.",
+        "choices": [
+          "have / been",
+          "has / been",
+          "am / go",
+          "did / go"
+        ],
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "She has just eaten.",
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "Past participle de 'go' ?",
+        "placeholder": "gone",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "We _____ this film before.",
+        "choices": [
+          "see",
+          "saw",
+          "have seen",
+          "seeing"
+        ],
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'Buy' → bought → ______ (past participle)",
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "They have ______ (read) this book.",
+        "placeholder": "read",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "Past participle de 'eat' :",
+        "choices": [
+          "ate",
+          "eaten",
+          "eat",
+          "eating"
+        ],
+        "id": 7
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Present perfect = have/has + past participle.",
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Present Perfect",
+      "description": "Concept clé de Anglais au niveau 4eme"
+    },
+    {
+      "notion": "Verbes irréguliers",
+      "description": "Concept clé de Anglais au niveau 4eme"
+    },
+    {
+      "notion": "Compréhension orale",
+      "description": "Concept clé de Anglais au niveau 4eme"
+    }
+  ],
+  "exerciseresponses": []
+}

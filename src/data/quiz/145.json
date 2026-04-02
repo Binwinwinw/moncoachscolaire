@@ -1,0 +1,97 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 21",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ère – Expression avancée : modaux parfaits (regret/déduction), conditionnel de type 2, discours rapporté, voix passive, expressions idiomatiques, present perfect vs simple past. Programme officiel Tronc commun & Spécialité LCA – Éduscol.",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-10 00:00:00"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 21",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Which sentence correctly expresses a past regret in English?",
+        "choices": [
+          "He should have studied harder before the exam.",
+          "He must studied harder before the exam.",
+          "He would study harder before the exam.",
+          "He could studied harder before the exam."
+        ],
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "In the sentence 'If I had more time, I would travel the world', the speaker implies they currently do NOT have enough time.",
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "Express your opinion on the following statement in 4–5 sentences: 'Social media does more harm than good.' Use at least one modal verb (can, should, must…) and one logical connective (however, although, therefore…).",
+        "placeholder": "Write your answer here in English (4–5 sentences)...",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Transform into reported speech — She said: \"I am going to the cinema tonight.\"",
+        "choices": [
+          "She said she is going to the cinema tonight.",
+          "She said she was going to the cinema that night.",
+          "She said she goes to the cinema tonight.",
+          "She told she was going to the cinema tonight."
+        ],
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The sentence 'The new climate law was passed by Parliament last year' is written in the passive voice.",
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "In 5–6 sentences, discuss the advantages and disadvantages of living abroad. Use at least one contrast connective (whereas, on the other hand, in contrast…) and one relative clause (who, which, that…).",
+        "placeholder": "Write your answer here in English (5–6 sentences)...",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "What does the idiomatic expression 'to bite the bullet' mean?",
+        "choices": [
+          "To eat very quickly without thinking",
+          "To endure a painful or difficult situation stoically",
+          "To make a reckless and impulsive decision",
+          "To speak too loudly in public"
+        ],
+        "id": 7
+      },
+      {
+        "type": "vrai-faux",
+        "question": "In English, the present perfect tense (have/has + past participle) must be used when a specific past time marker is mentioned (e.g. yesterday, last year, in 2010).",
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Modaux parfaits et discours rapporté",
+      "description": "Emploi de should/could/must + have + participe passé pour exprimer regret, possibilité ou déduction sur une action passée. Transformation au discours rapporté (reported speech) : backshift des temps verbaux et changement des marqueurs temporels (tonight → that night, now → then)."
+    },
+    {
+      "notion": "Conditionnel de type 2 et voix passive",
+      "description": "Le conditionnel de type 2 (if + past simple + would + base verbale) exprime une hypothèse irréelle au présent. La voix passive se forme avec : sujet + auxiliaire be conjugué + participe passé + (by + agent). Elle met en avant l'action plutôt que l'auteur, très usitée dans les textes formels et journalistiques."
+    },
+    {
+      "notion": "Expression argumentée, idiomes et present perfect",
+      "description": "Structurer un argumentaire en anglais : connecteurs logiques (however, whereas, therefore, although…), propositions relatives (who, which, that…). Maîtrise des expressions idiomatiques de niveau B2–C1. Distinction present perfect (action sans marqueur temporel précis ou liée au présent) vs simple past (action à un moment précis révolu)."
+    }
+  ],
+  "exerciseresponses": []
+}

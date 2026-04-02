@@ -1,0 +1,72 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 4eme Français",
+    "type": "quiz",
+    "level": "4eme",
+    "subject": "Francais",
+    "description": "Diagnostic subjonctif, discours indirect, figures style 4eme"
+  },
+  "quiz": {
+    "title": "Diagnostic Français 4eme",
+    "level": "4eme",
+    "subject": "Francais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "texte",
+        "answer": "viennes",
+        "correction": "Subjonctif présent"
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "qcm",
+        "answer": "il part",
+        "correction": "Présent direct→présent indirect"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": true,
+        "correction": "VRAI. 'Il pleut des cordes'"
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "texte",
+        "answer": "il pleuve",
+        "correction": "Subjonctif imparfait"
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "stop",
+        "correction": "Verbe exclamatif inchangé"
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": false,
+        "correction": "FAUX. Subjonctif"
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Exagération",
+        "correction": "'Je meurs de faim'"
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "answer": "comprennes",
+        "correction": "Subjonctif présent 2e singulier"
+      }
+    ]
+  }
+}

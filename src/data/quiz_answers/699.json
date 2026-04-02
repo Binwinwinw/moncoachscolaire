@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 699",
+    "level": "3ème",
+    "subject": "Physique-Chimie"
+  },
+  "quiz": {
+    "title": "L'atome : structure et composition",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Protons, neutrons, électrons",
+        "correct": 0,
+        "correction": "Un atome est composé d'un noyau (protons + neutrons) entouré d'électrons en mouvement."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Le noyau est extrêmement petit (10^-15 m) comparé à l'atome (10^-10 m) ; l'atome est presque entièrement vide."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "numéro atomique",
+        "correction": "Le numéro atomique Z est le nombre de protons du noyau ; il définit l'élément chimique."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "+1",
+        "correct": 2,
+        "correction": "Le proton porte une charge positive élémentaire (+e = +1,6 × 10^-19 C)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La neutralité électrique de l'atome résulte de l'égalité entre le nombre de protons (charges +) et d'électrons (charges -)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "isotopes",
+        "correction": "Des isotopes sont des atomes du même élément chimique (même Z) mais de masses différentes (nombre de neutrons différent)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "1 836 fois plus grande",
+        "correct": 1,
+        "correction": "Le proton est environ 1 836 fois plus massif que l'électron ; la masse de l'atome est donc concentrée dans le noyau."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "A = Z (protons) + N (neutrons). Le nombre de masse A est inscrit en exposant supérieur gauche dans la notation symbolique."
+      }
+    ]
+  }
+}

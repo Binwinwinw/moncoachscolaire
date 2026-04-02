@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 731",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie 3ème : Lumière : dispersion et spectre lumineux",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Lumière : dispersion et spectre lumineux",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que la dispersion de la lumière ?",
+        "choices": [
+          "La réflexion de la lumière sur une surface",
+          "Le changement de direction de la lumière lorsqu'elle passe d'un milieu à un autre",
+          "La séparation de la lumière blanche en différentes couleurs en fonction de leur longueur d'onde",
+          "L'absorption de la lumière par un matériau"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le rouge a une longueur d'onde plus grande que le violet dans le spectre visible."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on l'instrument utilisé pour analyser les différentes longueurs d'onde composant une source lumineuse ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la nature des raies sombres observées dans le spectre solaire ?",
+        "choices": [
+          "Raies d'émission",
+          "Raies d'absorption",
+          "Raies de diffraction",
+          "Raies de réflexion"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Chaque élément chimique a un spectre d'émission unique qui peut être utilisé pour l'identifier."
+      },
+      {
+        "type": "open",
+        "question": "Quelle est la gamme de longueurs d'onde de la lumière ultraviolette (UV) ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel phénomène optique est responsable de la formation d'un arc-en-ciel ?",
+        "choices": [
+          "Réflexion totale interne",
+          "Diffraction",
+          "Dispersion et réfraction dans les gouttes d'eau",
+          "Interférence"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La lumière infrarouge a une longueur d'onde plus grande que la lumière visible."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

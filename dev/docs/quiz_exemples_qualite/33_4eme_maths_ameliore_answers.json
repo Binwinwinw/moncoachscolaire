@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 4eme Mathématiques - Serie 33 (VERSION AMÉLIORÉE)",
+    "level": "4eme",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Diagnostic Mathématiques 4eme - Serie 33",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "x = -b/a",
+        "correction": "La bonne réponse est x = -b/a. Pour résoudre l'équation ax + b = 0, on isole x en soustrayant b des deux côtés (ax = -b), puis en divisant par a (x = -b/a). Par exemple, si 3x + 6 = 0, alors 3x = -6, donc x = -6/3 = -2. Cette méthode fonctionne pour toutes les équations du premier degré."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": false,
+        "correction": "FAUX. L'identité remarquable correcte est (a + b)² = a² + 2ab + b². On oublie souvent le terme du milieu 2ab ! Par exemple : (3 + 2)² = 5² = 25, mais 3² + 2² = 9 + 4 = 13. Il manque bien le double produit : 2 × 3 × 2 = 12, et 9 + 12 + 4 = 25. Retiens : quand on développe un carré, il y a toujours trois termes."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "answer": "a² + b² = c²",
+        "alternatives": ["a^2 + b^2 = c^2", "c² = a² + b²", "c^2 = a^2 + b^2"],
+        "correction": "Le théorème de Pythagore énonce que dans un triangle rectangle, le carré de l'hypoténuse (le côté opposé à l'angle droit, noté c) est égal à la somme des carrés des deux autres côtés (a et b). Formule : a² + b² = c². Ce théorème permet de calculer une longueur manquante dans un triangle rectangle. Exemple : si a = 3 cm et b = 4 cm, alors c² = 9 + 16 = 25, donc c = 5 cm."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "La méthode par substitution ou par élimination",
+        "correction": "Pour résoudre un système de deux équations à deux inconnues, on utilise principalement deux méthodes : la substitution (on exprime une variable en fonction de l'autre dans une équation, puis on remplace dans la seconde) ou l'élimination (on additionne ou soustrait les équations pour supprimer une variable). Ces méthodes sont systématiques et garantissent la solution, contrairement aux essais par intuition."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "texte",
+        "answer": "(x - 1)(x + 1)",
+        "alternatives": ["(x-1)(x+1)", "(x+1)(x-1)"],
+        "correction": "La factorisation utilise l'identité remarquable a² - b² = (a - b)(a + b). Ici, x² - 1 = x² - 1², donc a = x et b = 1. On applique : (x - 1)(x + 1). Pour vérifier, développe : (x - 1)(x + 1) = x² + x - x - 1 = x² - 1. Cette identité est très utile pour résoudre des équations et simplifier des expressions."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": true,
+        "correction": "VRAI. La formule de l'aire d'un disque est bien A = π × r², où r est le rayon du disque et π (pi) vaut environ 3,14. Par exemple, un disque de rayon 5 cm a une aire A = 3,14 × 5² = 3,14 × 25 = 78,5 cm². Attention à ne pas confondre avec le périmètre (circonférence) du cercle qui est P = 2πr."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Une droite passant par l'origine du repère",
+        "correction": "Une fonction linéaire f(x) = ax est représentée graphiquement par une droite qui passe toujours par l'origine du repère (point de coordonnées 0,0). Le coefficient a est appelé coefficient directeur et détermine la pente de la droite. Par exemple, f(x) = 2x donne une droite qui monte (pente positive), tandis que f(x) = -x donne une droite qui descend."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "answer": "0",
+        "alternatives": ["0%", "zéro"],
+        "correction": "La probabilité d'un événement impossible est 0 (ou 0%). En probabilité, on utilise une échelle de 0 à 1 : 0 signifie que l'événement ne peut jamais se produire (par exemple, obtenir 7 en lançant un dé à 6 faces), et 1 signifie que l'événement est certain (obtenir un nombre entre 1 et 6 avec ce même dé). Une probabilité de 0,5 (ou 50%) indique une chance sur deux."
+      }
+    ],
+    "level": "4eme",
+    "subject": "Mathématiques"
+  }
+}

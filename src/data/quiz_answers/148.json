@@ -1,0 +1,63 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 24",
+    "level": "1ere",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 24",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correction": "La bonne réponse est B : 'He said that he was very tired.' Au discours indirect, le present simple 'am' recule au past simple 'was' (backshift). Le pronom 'I' devient 'he' pour correspondre au sujet rapporteur."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "correction": "FAUX. La phrase correcte est : 'She asked me where I lived.' Dans les questions indirectes, on n'utilise PAS l'inversion sujet-auxiliaire. L'ordre des mots est celui d'une phrase affirmative : sujet + verbe. De plus, 'did' disparaît et le verbe prend la forme du passé."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "correction": "La réponse attendue est : 'The teacher told the students to open their books to page 42.' Les ordres (imperative) au discours indirect utilisent tell + someone + to + infinitive. Le pronom 'your' devient 'their'. On peut aussi utiliser 'asked' pour une demande plus polie."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "correction": "La bonne réponse est C : 'She told him not to touch her phone.' Pour un ordre négatif au discours indirect, la structure est : tell + someone + not to + infinitive. 'My' devient 'her' car le pronom change selon la personne qui rapporte les paroles."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "correction": "VRAI. C'est une règle fondamentale du backshift (recul des temps) : 'will' → 'would'. Ex : 'I will come tomorrow' → She said she would come the next day. Les autres modaux suivent la même logique : can → could, may → might, must → had to."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "correction": "La réponse attendue est : 'She asked me if/whether I had ever visited Paris.' Pour les yes/no questions, on utilise if ou whether. Le present perfect 'have visited' recule au past perfect 'had visited'. L'inversion de la question disparaît : sujet + verbe."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "correction": "La bonne réponse est A : 'today' → 'that day'. Les expressions de temps changent systématiquement au discours indirect : yesterday → the day before / the previous day, tomorrow → the next day / the following day, now → then, here → there, this → that."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "correction": "VRAI. La question directe d'origine était : 'Are you coming to the party?' C'est une yes/no question (on peut répondre oui ou non), transformée avec 'if'. L'ordre sujet+verbe est respecté ('I was coming'), sans inversion. Le present continuous 'are coming' est devenu past continuous 'was coming'."
+      }
+    ],
+    "level": "1ere",
+    "subject": "Anglais"
+  }
+}

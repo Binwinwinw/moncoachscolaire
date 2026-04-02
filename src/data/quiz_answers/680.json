@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 680",
+    "level": "3ème",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "Géologie : histoire de la Terre et temps géologiques",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "4,5 milliards d'années",
+        "correct": 2,
+        "correction": "La Terre a été formée il y a environ 4,54 milliards d'années par accrétion de matières dans la nébuleuse solaire."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le Mésozoïque (252 – 66 Ma) comprend le Trias, le Jurassique et le Crétacé, période de domination des dinosaures."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "Pangée",
+        "correction": "La Pangée était l'unique super-continent de la fin du Paléozoïque, entouré par l'océan Panthallassa."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Il y a 66 millions d'années",
+        "correct": 1,
+        "correction": "L'extinction Crétacé-Paléogène a éliminé les dinosaures non-aviens il y a 66 Ma, probablement causée par l'impact d'un astéroïde et/ou un volcanisme intense."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'Homo sapiens est apparu il y a environ 300 000 ans dans le Quaternaire (ère Cénozoïque)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "datation radiométrique",
+        "correction": "La datation radiométrique utilise la désintégration d'isotopes radioactifs (U-Pb, K-Ar, Rb-Sr) pour mesurer l'âge absolu des roches."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Principe de superposition",
+        "correct": 1,
+        "correction": "Le principe de superposition (Nicolas Sténon, 1669) stipule que dans une série non perturbée, les couches inférieures sont plus anciennes."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le déplacement des continents a modifié les courants océaniques, la distribution des terres et des mers, et influencé les paléoclimats."
+      }
+    ]
+  }
+}

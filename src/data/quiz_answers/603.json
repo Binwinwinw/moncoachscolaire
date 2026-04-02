@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 603",
+    "level": "1ère",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "La cellule : organisation et ultrastructure",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "La cellule eucaryote possède un noyau délimité par une membrane, pas la procaryote",
+        "correct": 1,
+        "correction": "Eucaryote (animaux, végétaux, champignons, protistes) : noyau membranaire. Procaryote (bactéries) : matériel génétique libre dans le cytoplasme."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les mitochondries (siège de la respiration cellulaire) sont présentes dans toutes les cellules eucaryotes, animales et végétales."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "chloroplaste",
+        "correction": "Le chloroplaste contient de la chlorophylle et capte l'énergie lumineuse pour synthétiser du glucose à partir de CO2 et d'eau."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Une bicouche de phospholipides avec des protéines insérées",
+        "correct": 2,
+        "correction": "Le modèle de la mosaïque fluide (Singer & Nicolson, 1972) : bicouche lipidique avec protéines transmembranaires et périphériques."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La paroi en cellulose (polysaccharide) donne rigidité et forme à la cellule végétale ; elle est absente des cellules animales."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "ribosomes",
+        "correction": "Les ribosomes du RER synthétisent les protéines destinées à être sécrétées ou incorporées aux membranes."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "La mitochondrie",
+        "correct": 2,
+        "correction": "La mitochondrie produit l'ATP par respiration cellulaire (oxydation du glucose) ; l'ATP est la monnaie énergétique universelle."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Lynn Margulis (1967) propose que les mitochondries et chloroplastes étaient des bactéries libres qui ont été phagocytées et sont devenues endosymbiotes."
+      }
+    ]
+  }
+}

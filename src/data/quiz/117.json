@@ -1,0 +1,98 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 5ème Maths - Nombres Calculs",
+    "type": "quiz",
+    "level": "5eme",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Décimaux, fractions, PGCD - 5ème",
+    "status": "published",
+    "created_at": "2026-03-08 18:22:00",
+    "updated_at": "2026-03-08 18:22:00"
+  },
+  "quiz": {
+    "title": "Diagnostic 5ème - Nombres & Calculs",
+    "level": "5eme",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "0,75 = ... /100",
+        "choices": [
+          "75",
+          "3/4",
+          "75/100",
+          "0,75"
+        ],
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Droite graduée: 1,2 entre 1 et 1,5.",
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "25 + 75 = ... (mental)",
+        "placeholder": "100",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "PGCD(12,18) =",
+        "choices": [
+          "6",
+          "3",
+          "2",
+          "1"
+        ],
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "1/2 = 0,50.",
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "3,2 × 10 = ...",
+        "placeholder": "32",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "Fraction irréductible 6/9 =",
+        "choices": [
+          "2/3",
+          "6/9",
+          "1/1,5",
+          "3/4"
+        ],
+        "id": 7
+      },
+      {
+        "type": "texte",
+        "question": "0,4 + 0,6 = ...",
+        "placeholder": "1",
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Décimaux",
+      "description": "Droite graduée, calculs (5ème Nombres)"
+    },
+    {
+      "notion": "Fractions",
+      "description": "Comparaison, irréductible, équivalente"
+    },
+    {
+      "notion": "PGCD/PPG",
+      "description": "Simplification fractions"
+    }
+  ],
+  "exerciseresponses": []
+}

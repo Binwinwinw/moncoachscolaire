@@ -1,0 +1,48 @@
+{
+  "quiz_id": 1071,
+  "title": "Nombre dérivé et tangente",
+  "subject": "Mathématiques",
+  "level": "1ère",
+  "answers": [
+    {
+      "question_id": "1071_1",
+      "correct_option": "B",
+      "explanation": "f'(a) = lim(h→0) [f(a+h) − f(a)] / h. C'est le taux de variation instantané en a."
+    },
+    {
+      "question_id": "1071_2",
+      "correct": true,
+      "explanation": "Le nombre dérivé f'(a) est précisément le coefficient directeur de la tangente en ce point."
+    },
+    {
+      "question_id": "1071_3",
+      "correct_answer": "f'(3) = 6",
+      "explanation": "[f(3+h)−f(3)]/h = [(3+h)²−9]/h = [9+6h+h²−9]/h = 6+h → 6 quand h→0."
+    },
+    {
+      "question_id": "1071_4",
+      "correct_option": "B",
+      "explanation": "Tangente en a : y = f(a) + f'(a)·(x−a). Pente = f'(a), passe par (a, f(a))."
+    },
+    {
+      "question_id": "1071_5",
+      "correct": true,
+      "explanation": "Le taux de variation est la pente de la droite sécante reliant (a, f(a)) à (b, f(b))."
+    },
+    {
+      "question_id": "1071_6",
+      "correct_answer": "y = −1",
+      "explanation": "f(1) = 1−2 = −1. f'(x) = 2x−2, f'(1) = 0. Tangente : y = −1 + 0·(x−1) = −1."
+    },
+    {
+      "question_id": "1071_7",
+      "correct_option": "B",
+      "explanation": "f'(a) = 0 → pente nulle → tangente horizontale (parallèle à l'axe des x)."
+    },
+    {
+      "question_id": "1071_8",
+      "correct": true,
+      "explanation": "C'est l'interprétation physique : vitesse instantanée si f est une position, taux de croissance si f est une population…"
+    }
+  ]
+}

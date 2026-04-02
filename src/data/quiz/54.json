@@ -1,0 +1,94 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 6eme Mathematiques",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Mathematiques",
+    "description": "Diagnostic addition, fractions, aires, divisions 6eme"
+  },
+  "quiz": {
+    "title": "Diagnostic Mathematiques 6eme",
+    "level": "6eme",
+    "subject": "Mathematiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "questions": [
+      {
+        "id": 1,
+        "type": "qcm",
+        "question": "Calcule 23 + 47",
+        "choices": [
+          "60",
+          "69",
+          "70",
+          "71"
+        ]
+      },
+      {
+        "id": 2,
+        "type": "texte",
+        "question": "Simplifie 6/9"
+      },
+      {
+        "id": 3,
+        "type": "vrai-faux",
+        "question": "1 m = 1000 cm"
+      },
+      {
+        "id": 4,
+        "type": "qcm",
+        "question": "Aire 4x6 cm",
+        "choices": [
+          "10",
+          "24",
+          "20",
+          "12"
+        ]
+      },
+      {
+        "id": 5,
+        "type": "calcul",
+        "question": "18 / 3"
+      },
+      {
+        "id": 6,
+        "type": "vrai-faux",
+        "question": "Carre = rectangle"
+      },
+      {
+        "id": 7,
+        "type": "texte",
+        "question": "Perimetre triangle 3-4-5"
+      },
+      {
+        "id": 8,
+        "type": "qcm",
+        "question": "Symetries losange",
+        "choices": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Addition posee"
+    },
+    {
+      "notion": "Fractions"
+    },
+    {
+      "notion": "Aire"
+    },
+    {
+      "notion": "Division"
+    },
+    {
+      "notion": "Grandeurs"
+    }
+  ],
+  "exerciseresponses": []
+}

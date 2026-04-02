@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES 1ère - Série 837",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SES",
+    "description": "Diagnostic SES 1ère : Les revenus primaires",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Les revenus primaires",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SES",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Les revenus primaires sont les revenus issus :",
+        "choices": [
+          "De la redistribution par l'État",
+          "De la participation directe à la production",
+          "Des héritages",
+          "Des jeux de hasard"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les revenus du patrimoine (dividendes, loyers, intérêts) sont des revenus de transfert."
+      },
+      {
+        "type": "open",
+        "question": "Distinguez revenu salarial et revenu mixte."
+      },
+      {
+        "type": "qcm",
+        "question": "L'excédent brut d'exploitation (EBE) représente :",
+        "choices": [
+          "Le salaire brut total",
+          "La part du revenu national revenant aux entreprises (profits + amortissements)",
+          "Les impôts sur les sociétés",
+          "Les dividendes versés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le partage de la valeur ajoutée entre salaires et profits est resté stable en France depuis les années 1980."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que la financiarisation de l'économie et comment affecte-t-elle la distribution des revenus ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Le revenu disponible des ménages est :",
+        "choices": [
+          "Le revenu primaire avant impôts",
+          "Le revenu primaire + prestations sociales - impôts et cotisations",
+          "Le PIB par habitant",
+          "Le salaire médian"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les ménages du premier décile ont un niveau de vie inférieur à ceux du dernier décile."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

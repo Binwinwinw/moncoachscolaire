@@ -1,0 +1,69 @@
+name: CI MonCoachScolaire
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    services:
+      mysql:
+        image: mysql:5.7
+        env:
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_DATABASE: moncoachscolaire
+        ports:
+          - 3306:3306
+        options: >-
+          --health-cmd="mysqladmin ping --silent" --health-interval=10s --health-timeout=5s --health-retries=3
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.1'
+          extensions: mbstring, pdo, pdo_mysql, intl
+      - name: Install Composer dependencies
+        run: composer install --prefer-dist --no-progress --no-suggest
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - name: Install Node dependencies
+        run: npm install
+      - name: Build includes (inject footer)
+        run: npm run build:includes
+      - name: Run Stylelint
+        run: npm run lint:css
+      - name: Wait for MySQL
+        run: |
+          for i in {1..30}; do
+            if mysqladmin ping -h 127.0.0.1 -uroot -proot --silent; then
+              break
+            fi
+            sleep 2
+          done
+      - name: Import database schema
+        run: |
+          mysql -h 127.0.0.1 -uroot -proot moncoachscolaire < db/ALTER_EXERCISES_TABLE.sql
+      - name: Run PHPUnit tests
+        run: vendor/bin/phpunit --configuration dev/tests/phpunit.xml || vendor/bin/phpunit --configuration phpunit.xml
+      - name: PHP Lint
+        run: find . -type f -name "*.php" -not -path "./vendor/*" -exec php -l {} \;
+      - name: Start PHP built-in server (for smoke tests)
+        run: php -S 127.0.0.1:8080 -t public > /dev/null 2>&1 & sleep 1
+      - name: Run exercises smoke tests
+        run: |
+          php -f dev/tools/tests/test_exercices_filter_alias.php
+          php -f dev/tools/tests/test_exercices_subject_normalization.php
+      - name: Run accessibility smoke test
+        run: php -f dev/tools/tests/test_exercices_accessibility.php
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps
+      - name: Run Playwright E2E tests
+        env:
+          PLAYWRIGHT_BASE_URL: 'http://127.0.0.1:8080'
+        run: npm run test:e2e --if-present || npx playwright test --project=chromium --retries=1 --workers=1

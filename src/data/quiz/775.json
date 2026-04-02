@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 775",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 3eme : Les objets techniques communicants et l'IoT",
+    "status": "published",
+    "created_at": "2026-03-14 04:06:19",
+    "updated_at": "2026-03-14 04:06:19"
+  },
+  "quiz": {
+    "title": "Les objets techniques communicants et l'IoT",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Que signifie IoT (Internet of Things) en francais ?",
+        "choices": [
+          "Informatique ou Technologie",
+          "Internet des objets",
+          "Interconnexion des terminaux",
+          "Integration des outils technologiques"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un thermostat connecte est un exemple d'objet de l'Internet des objets."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on un mini-ordinateur programmable, de la taille d'une carte de credit, utilise pour creer des objets connectes et des prototypes ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel protocole de communication sans fil courte portee est le plus utilise par les objets connectes dans une maison ?",
+        "choices": [
+          "Ethernet",
+          "Wi-Fi et Bluetooth",
+          "Fibre optique",
+          "4G/5G uniquement"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les objets connectes peuvent presenter des risques pour la vie privee s'ils ne sont pas securises."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on l'ensemble des technologies permettant de controler l'eclairage, le chauffage et la securite d'une maison depuis un smartphone ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'un capteur dans un objet technique ?",
+        "choices": [
+          "Un composant qui produit de l'energie",
+          "Un composant qui mesure une grandeur physique et la convertit en signal exploitable",
+          "Un composant qui stocke des donnees",
+          "Un composant qui affiche des informations"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un actionneur est un composant qui produit une action physique a partir d'un signal de commande."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

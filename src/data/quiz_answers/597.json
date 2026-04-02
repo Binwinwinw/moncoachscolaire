@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 597",
+    "level": "3ème",
+    "subject": "Histoire-Géographie"
+  },
+  "quiz": {
+    "title": "Risques majeurs et prévention",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Aléa x vulnérabilité",
+        "correct": 0,
+        "correction": "Sans population exposée, le risque reste limité."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Cartographie, normes et alerte sauvent des vies."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "DICRIM",
+        "correction": "Le DICRIM sensibilise la population aux conduites à tenir."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Une marée noire",
+        "correct": 1,
+        "correction": "Elle résulte d'activités humaines et industrielles."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Submersion et érosion côtière augmentent avec la montée des eaux."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "parasismiques",
+        "correction": "Elles limitent les effondrements lors des séismes."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Diffuser un message d'évacuation avant l'événement",
+        "correct": 1,
+        "correction": "L'anticipation améliore la protection des populations."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les entraînements améliorent les réactions en situation réelle."
+      }
+    ]
+  }
+}

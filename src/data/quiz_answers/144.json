@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 20",
+    "level": "1ere",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 20",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "bonne_reponse": "AI changing jobs",
+        "correction": "Correct ! AI automatise. Relis tech chap., débat impacts."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "bonne_reponse": "Vrai",
+        "correction": "Vrai : Digital divide. Étudie stats ONU pour oral."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "bonne_reponse": "Ex: Smartphones connect but addict",
+        "correction": "Nuancé fort ! Structure arguments (for/against)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "bonne_reponse": "Robots replace routine work",
+        "correction": "Exact ! Upskill needed. Vidéos futur jobs."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "bonne_reponse": "Vrai",
+        "correction": "Vrai : Gini index rises. Compare pays riches/pauvres."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "bonne_reponse": "Ex: Poor areas lack internet",
+        "correction": "Concret ! Vocab inequality (gap, access)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "bonne_reponse": "Online education access",
+        "correction": "Parfait ! MOOCs ex. Mais qualité ? Débat."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "bonne_reponse": "Vrai",
+        "correction": "Vrai : Reskill constantly. Prépare CV futur-proof."
+      }
+    ],
+    "level": "1ere",
+    "subject": "Anglais"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 3eme Histoire-Géographie",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic France 1789-1945, mondialisation, développement durable 3eme"
+  },
+  "quiz": {
+    "title": "Diagnostic Histoire-Géo 3eme",
+    "level": "3eme",
+    "subject": "Histoire-Géographie",
+    "question_count": 8,
+    "passing_score": 80,
+    "questions": [
+      {
+        "id": 1,
+        "type": "qcm",
+        "question": "Déclaration droits homme : 26 août ...",
+        "choices": [
+          "1789",
+          "1791",
+          "1946"
+        ]
+      },
+      {
+        "id": 2,
+        "type": "texte",
+        "question": "Empire colonial français fin = ..."
+      },
+      {
+        "id": 3,
+        "type": "vrai-faux",
+        "question": "Vichy = collaboration Allemagne."
+      },
+      {
+        "id": 4,
+        "type": "qcm",
+        "question": "ONU créée :",
+        "choices": [
+          "1919",
+          "1945",
+          "1939"
+        ]
+      },
+      {
+        "id": 5,
+        "type": "texte",
+        "question": "Décolonisation Asie = Inde ..."
+      },
+      {
+        "id": 6,
+        "type": "vrai-faux",
+        "question": "CEE = Maastricht 1992 (UE)."
+      },
+      {
+        "id": 7,
+        "type": "qcm",
+        "question": "Développement durable = ... + social + environnement",
+        "choices": [
+          "Économique",
+          "Militaire",
+          "Culturel"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "texte",
+        "question": "Mur Berlin tombe : 19 novembre ..."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Révolutions XIXe"
+    },
+    {
+      "notion": "Totalitarismes XXe"
+    },
+    {
+      "notion": "Mondialisation"
+    }
+  ],
+  "exerciseresponses": []
+}

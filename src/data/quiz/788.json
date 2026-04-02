@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 788",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 3eme : Programmation Arduino et electronique",
+    "status": "published",
+    "created_at": "2026-03-14 04:06:19",
+    "updated_at": "2026-03-14 04:06:19"
+  },
+  "quiz": {
+    "title": "Programmation Arduino et electronique",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que l'Arduino ?",
+        "choices": [
+          "Un logiciel de dessin technique",
+          "Une carte microcontroleur open source programmable pour creer des prototypes electroniques",
+          "Un capteur de mouvement",
+          "Un protocole de communication"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La fonction setup() d'un programme Arduino s'execute une seule fois au demarrage."
+      },
+      {
+        "type": "open",
+        "question": "Quelle instruction Arduino allume une LED connectee sur la broche 13 ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Que fait la fonction analogRead() sur un Arduino ?",
+        "choices": [
+          "Lit un signal numerique 0 ou 1",
+          "Lit une tension analogique (0-5V) et la convertit en valeur numerique (0-1023)",
+          "Ecrit une valeur PWM sur une broche",
+          "Lit la temperature du microcontroleur"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une resistance de 220 ohms est generalement utilisee en serie avec une LED pour limiter le courant et la proteger."
+      },
+      {
+        "type": "open",
+        "question": "Quel composant electronique permet de polariser un courant dans un seul sens et est utilise dans les circuits de protection et d'affichage ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Que signifie PWM dans le contexte de la commande de moteurs ou de l'eclairage avec Arduino ?",
+        "choices": [
+          "Programme de gestion sans memoire",
+          "Modulation de largeur d'impulsion : varier la duree des impulsions pour simuler une tension variable",
+          "Protocole de communication sans fil",
+          "Mode programmation avance"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un breadboard (plaque d'essais) permet de realiser des circuits electroniques sans soudure."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

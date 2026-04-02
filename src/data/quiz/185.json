@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Geographie 1ere - Série 185",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "description": "Diagnostic Histoire-Geographie 1ere : Quiz Diagnostic 1ere Histoire-Géographie - Serie 11",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Histoire-Géographie - Serie 11",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel est le plus grand désert français en termes de densité de population ?",
+        "choices": [
+          "La Camargue",
+          "La Creuse",
+          "La diagonale du vide",
+          "Les Alpes"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Paris et l'Île-de-France concentrent environ 20% de la population française et plus de 30% de la richesse nationale."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que la métropolisation et comment transforme-t-elle les territoires français ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel espace géographique français présente la densité de population la plus élevée hors Île-de-France ?",
+        "choices": [
+          "La région PACA",
+          "L'Alsace (Bas-Rhin)",
+          "Le Nord-Pas-de-Calais (Nord)",
+          "La Gironde"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les espaces ruraux français sont tous en déclin démographique."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que les Outre-Mer français et quel est leur statut ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel phénomène désigne la croissance des villes au détriment des campagnes environnantes ?",
+        "choices": [
+          "L'exode rural",
+          "L'étalement urbain",
+          "La périurbanisation",
+          "L'urbanisation"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La France possède la deuxième zone économique exclusive (ZEE) la plus grande du monde grâce à ses territoires ultramarins."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

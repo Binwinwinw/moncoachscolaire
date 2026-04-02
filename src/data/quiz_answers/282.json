@@ -1,0 +1,76 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 1ere - Série 282",
+    "level": "1ere",
+    "subject": "Physique-Chimie"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Physique-Chimie - Serie 10",
+    "question_count": 8,
+    "level": "1ere",
+    "subject": "Physique-Chimie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "La température mesure l'agitation thermique moyenne des particules ; la chaleur est un transfert d'énergie thermique",
+        "correct": 1,
+        "correction": "La température (T, en kelvins K ou °C) est une grandeur intensive qui mesure l'agitation thermique moyenne des particules d'un système. La chaleur (Q, en joules J) est un transfert d'énergie thermique entre deux systèmes à températures différentes (du plus chaud vers le plus froid). La chaleur est une énergie en transit, pas une propriété du corps (contrairement à l'énergie interne)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les trois modes de transfert d'énergie thermique : conduction (transfert par contact direct entre particules dans un solide ou fluide immobile, ex : chauffage d'un métal) ; convection (transfert par déplacement de matière dans un fluide, ex : courants d'air chaud) ; rayonnement (transfert par ondes électromagnétiques infrarouge sans support matériel, ex : chaleur du Soleil dans le vide, infrarouge d'un radiateur)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "correct_answer": "Le 2e principe stipule que la chaleur se transfère spontanément du corps le plus chaud vers le corps le plus froid (entropie croissante). Le transfert inverse est impossible sans travail extérieur.",
+        "answer": "Le 2e principe stipule que la chaleur se transfère spontanément du corps le plus chaud vers le corps le plus froid (entropie croissante). Le transfert inverse est impossible sans travail extérieur.",
+        "correction": "Le 2e principe de la thermodynamique (principe de Carnot, Clausius) : 'Dans un système isolé, l'entropie (désordre) ne peut qu'augmenter ou rester constante (processus réversible).' Conséquence directe : la chaleur se transfère spontanément du corps chaud vers le corps froid, jamais l'inverse sans apport extérieur d'énergie. Cela explique l'irréversibilité des processus naturels (refroidissement d'un café, mélange de fluides) et les limites de rendement des machines thermiques."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Q = m × c × ΔT (chaleur sensible)",
+        "correct": 1,
+        "correction": "La chaleur sensible (sans changement d'état) : Q = m × c × ΔT, où m est la masse (kg), c la capacité thermique massique (J/(kg·K), propre à chaque matériau) et ΔT la variation de température. Si Q > 0, le corps reçoit de la chaleur et sa température augmente. La capacité thermique de l'eau est c = 4 180 J/(kg·K), ce qui en fait un excellent fluide caloporteur."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Lors d'un changement d'état à pression constante (ex : fusion de la glace à 0°C, ébullition de l'eau à 100°C), la température reste constante tant que les deux phases coexistent. L'énergie fournie (chaleur latente) sert à rompre les liaisons intermoléculaires sans augmenter l'agitation thermique. Q = m × L, où L est la chaleur latente spécifique (fusion, vaporisation). Pour l'eau : Lf = 334 kJ/kg (fusion) ; Lv = 2 257 kJ/kg (vaporisation)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "correct_answer": "L'effet de serre naturel maintient la température terrestre habitable. L'effet de serre renforcé par les GES d'origine humaine (CO₂, CH₄) piège davantage de chaleur et réchauffe la planète.",
+        "answer": "L'effet de serre naturel maintient la température terrestre habitable. L'effet de serre renforcé par les GES d'origine humaine (CO₂, CH₄) piège davantage de chaleur et réchauffe la planète.",
+        "correction": "L'effet de serre naturel : l'atmosphère terrestre laisse passer les rayonnements solaires (UV, visible) mais absorbe et réémet les infrarouges émis par la Terre (gaz à effet de serre : H₂O, CO₂, CH₄, N₂O). Sans cet effet, la température serait -18°C au lieu de +15°C. L'effet de serre renforcé : l'augmentation des GES d'origine humaine (combustion fossiles, déforestation, agriculture) intensifie cet effet, entraînant un réchauffement global (+1,1°C depuis l'ère préindustrielle), avec des conséquences climatiques majeures."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "T(K) = T(°C) + 273,15",
+        "correct": 1,
+        "correction": "T(K) = T(°C) + 273,15. Le zéro absolu (0 K = -273,15 °C) est la température la plus basse possible (agitation thermique nulle). L'échelle Kelvin est l'échelle de température du SI. Exemples : 0°C = 273 K (fusion de la glace) ; 100°C = 373 K (ébullition de l'eau) ; -273°C ≈ 0 K (zéro absolu). L'échelle Fahrenheit : T(°F) = T(°C) × 9/5 + 32."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Un corps noir est un objet idéal qui absorbe tout le rayonnement incident (aucune réflexion) et émet le maximum de rayonnement pour une température donnée. Sa distribution spectrale est décrite par la loi de Planck (1900). La loi de Stefan-Boltzmann : P = σ × T⁴ (puissance émise proportionnelle à T⁴). La loi de Wien : λ_max × T = constante (longueur d'onde d'émission maximale inversement proportionnelle à T). Le Soleil se comporte approximativement comme un corps noir à 5 778 K."
+      }
+    ]
+  }
+}

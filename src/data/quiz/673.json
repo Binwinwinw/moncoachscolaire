@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 673",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 3ème : Puberté, croissance et hormones",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "Puberté, croissance et hormones",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle glande cérébrale est souvent appelée 'chef d'orchestre' du système hormonal ?",
+        "choices": [
+          "Thyroïde",
+          "Hypophyse",
+          "Surrénale",
+          "Épiphyse"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'hormone de croissance (GH) est sécrétée par le pancréas."
+      },
+      {
+        "type": "open",
+        "question": "Quel organe produit les hormones thyroïdiennes qui régulent le métabolisme ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Comment les hormones circulent-elles dans l'organisme pour atteindre leurs cellules cibles ?",
+        "choices": [
+          "Par les nerfs",
+          "Via le sang",
+          "Par diffusion dans les tissus",
+          "Par les vaisseaux lymphatiques uniquement"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les caractères sexuels secondaires (pilosité, mue de la voix, développement des seins) apparaissent à la puberté sous l'effet des hormones sexuelles."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on les glandes qui libèrent leurs sécrétions directement dans le sang sans canal excréteur ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle de l'adrénaline sécrétée par les glandes surrénales ?",
+        "choices": [
+          "Réguler la glycémie",
+          "Préparer l'organisme à une réaction de 'combat ou fuite'",
+          "Favoriser la croissance osseuse",
+          "Stimuler la production de gamètes"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le diabète insipide est causé par une carence en insuline."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 781",
+    "level": "3eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Les systemes techniques : structure et fonctionnement",
+    "question_count": 8,
+    "level": "3eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Un ensemble d'elements en interaction organise pour remplir une fonction globale",
+        "correct": 1,
+        "correction": "Un systeme technique est un ensemble structure de composants mecaniques, electroniques et logiciels qui cooperent pour remplir une ou plusieurs fonctions."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La partie operative (actionneurs, mecanismes) execute les actions physiques ; la partie commande (controleur, programme) prend les decisions et envoie les ordres."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "schema blocs fonctionnel",
+        "correction": "Le schema blocs fonctionnel (ou diagramme de flux) represente les entrees (energie, matiere, information) et sorties de chaque sous-systeme et leurs interactions."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Un mecanisme qui compare la sortie a la consigne pour corriger les ecarts",
+        "correct": 1,
+        "correction": "La retroaction (asservissement) mesure la sortie du systeme et la compare a la consigne ; l'ecart (erreur) est utilise pour corriger la commande et atteindre la valeur desiree."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Un systeme en boucle ouverte execute ses instructions sans mesurer le resultat ; il est simple mais sensible aux perturbations (ex. minuterie de four sans thermostat)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "microcontroleur",
+        "correction": "Un microcontroleur (Arduino, PIC, STM32) integre processeur, memoire et peripheriques d'E/S sur une seule puce ; il lit les capteurs et commande les actionneurs."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Un ordinateur specialise et robuste programme pour controler des systemes industriels",
+        "correct": 1,
+        "correction": "L'API (PLC en anglais) est un calculateur industriel robuste programme en langage ladder ou structuredText pour controler des machines, convoyeurs ou lignes de production."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "SCADA (Supervisory Control And Data Acquisition) est un systeme de supervision qui collecte des donnees en temps reel et permet le controle a distance de processus industriels."
+      }
+    ]
+  }
+}

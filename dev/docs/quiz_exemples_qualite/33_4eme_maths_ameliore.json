@@ -1,0 +1,110 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 4eme Mathématiques - Serie 33 (VERSION AMÉLIORÉE)",
+    "type": "quiz",
+    "level": "4eme",
+    "subject": "Mathématiques",
+    "description": "Évaluation diagnostique en mathématiques 4ème : équations du premier degré, identités remarquables, théorème de Pythagore, systèmes d'équations, fonctions linéaires et probabilités",
+    "status": "published",
+    "created_at": "2026-03-07 18:15:00",
+    "updated_at": "2026-03-07 18:15:00"
+  },
+  "quiz": {
+    "title": "Diagnostic Mathématiques 4eme - Serie 33",
+    "level": "4eme",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 20,
+    "questions": [
+      {
+        "id": 1,
+        "type": "qcm",
+        "question": "Pour résoudre une équation du premier degré de la forme ax + b = 0 (avec a ≠ 0), quelle est la solution ?",
+        "choices": [
+          "L'équation n'a pas de solution",
+          "x = -b/a",
+          "x = a/b",
+          "L'équation a une infinité de solutions"
+        ]
+      },
+      {
+        "id": 2,
+        "type": "vrai-faux",
+        "question": "L'identité remarquable suivante est-elle correcte : (a + b)² = a² + b² ?"
+      },
+      {
+        "id": 3,
+        "type": "texte",
+        "question": "Dans un triangle rectangle, quelle relation existe-t-il entre les longueurs des trois côtés selon le théorème de Pythagore ? (Utilise les lettres a, b pour les côtés de l'angle droit et c pour l'hypoténuse)",
+        "placeholder": "Par exemple : a² + b² = c²"
+      },
+      {
+        "id": 4,
+        "type": "qcm",
+        "question": "Pour résoudre un système de deux équations à deux inconnues, quelle méthode peut-on utiliser ?",
+        "choices": [
+          "La méthode graphique uniquement",
+          "La méthode par substitution ou par élimination",
+          "L'intuition et les essais successifs",
+          "La méthode itérative de Newton"
+        ]
+      },
+      {
+        "id": 5,
+        "type": "texte",
+        "question": "Factorise l'expression suivante en utilisant l'identité remarquable a² - b² : x² - 1",
+        "placeholder": "Écris sous la forme d'un produit"
+      },
+      {
+        "id": 6,
+        "type": "vrai-faux",
+        "question": "La formule de l'aire d'un disque de rayon r est : A = π × r²"
+      },
+      {
+        "id": 7,
+        "type": "qcm",
+        "question": "Une fonction linéaire de la forme f(x) = ax a pour représentation graphique :",
+        "choices": [
+          "Une parabole",
+          "Une droite passant par l'origine du repère",
+          "Une hyperbole",
+          "Un cercle"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "texte",
+        "question": "Quelle est la probabilité d'un événement impossible ?",
+        "placeholder": "Donne la valeur numérique"
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Équations du premier degré",
+      "description": "Résolution d'équations de type ax + b = 0 par isolation de la variable"
+    },
+    {
+      "notion": "Identités remarquables",
+      "description": "Formules de développement : (a+b)² = a² + 2ab + b² et a² - b² = (a-b)(a+b)"
+    },
+    {
+      "notion": "Théorème de Pythagore",
+      "description": "Dans un triangle rectangle : carré de l'hypoténuse = somme des carrés des deux autres côtés"
+    },
+    {
+      "notion": "Systèmes d'équations",
+      "description": "Résolution simultanée de deux équations à deux inconnues (substitution ou élimination)"
+    },
+    {
+      "notion": "Fonctions linéaires",
+      "description": "Fonctions de type f(x) = ax représentées par des droites passant par l'origine"
+    },
+    {
+      "notion": "Probabilités",
+      "description": "Calcul de chances : événement impossible = 0, événement certain = 1"
+    }
+  ],
+  "exerciseresponses": []
+}

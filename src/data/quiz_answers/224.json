@@ -1,0 +1,76 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Philosophie 1ere - Série 224",
+    "level": "1ere",
+    "subject": "Philosophie"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Philosophie - Serie 1",
+    "question_count": 8,
+    "level": "1ere",
+    "subject": "Philosophie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "'Je pense, donc je suis' (cogito ergo sum)",
+        "correct": 1,
+        "correction": "Le cogito cartésien ('Je pense, donc je suis') est la première vérité indubitable trouvée par Descartes après avoir appliqué le doute hyperbolique à toutes ses croyances (Méditations métaphysiques, 1641). Même si je doute, je suis une chose qui pense : c'est le fondement de toute connaissance."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "FAUX. Pour la plupart des philosophes (Descartes, Hegel), la conscience de soi (capacité à se prendre soi-même comme objet de réflexion) est une caractéristique spécifiquement humaine. Les animaux peuvent avoir une conscience spontanée (perception immédiate), mais la conscience réflexive – se retourner sur soi-même et se connaître – semble propre à l'être humain."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "correct_answer": "La conscience immédiate est la perception directe du monde ; la conscience réflexive est la capacité à se prendre soi-même comme objet de pensée.",
+        "answer": "La conscience immédiate est la perception directe du monde ; la conscience réflexive est la capacité à se prendre soi-même comme objet de pensée.",
+        "correction": "La conscience immédiate (ou spontanée) est la conscience tournée vers le monde : je perçois, j'agis, je ressens, sans me prendre moi-même pour objet. La conscience réflexive (ou réflexion) est le retour de la conscience sur elle-même : je pense ma propre pensée, je m'observe, je me connais. Hegel dans la Phénoménologie de l'Esprit montre que la conscience de soi passe nécessairement par l'autre (dialectique maître-esclave)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Liberté absolue, sans nature fixée à l'avance ('l'existence précède l'essence')",
+        "correct": 1,
+        "correction": "Pour Sartre (L'existentialisme est un humanisme, 1945), 'l'existence précède l'essence' : l'homme n'a pas de nature prédéfinie, il se crée par ses choix et ses actes. La conscience est 'néant', pur projet, liberté radicale. L'homme est 'condamné à être libre' : même ne pas choisir est un choix."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "FAUX. En philosophie, le 'sujet' est l'être conscient, pensant, capable de se rapporter à lui-même et au monde. Il est le centre de l'expérience subjective et de la connaissance. Cette notion implique l'identité personnelle, la liberté et la responsabilité morale – bien au-delà du simple usage grammatical."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "correct_answer": "Le problème de l'identité personnelle est de savoir ce qui fait qu'une personne reste la même au fil du temps malgré les changements. Locke l'ancre dans la continuité de la conscience et de la mémoire.",
+        "answer": "Le problème de l'identité personnelle est de savoir ce qui fait qu'une personne reste la même au fil du temps malgré les changements. Locke l'ancre dans la continuité de la conscience et de la mémoire.",
+        "correction": "Le problème de l'identité personnelle pose la question : qu'est-ce qui fait que je suis bien la même personne qu'hier, enfant, ou il y a 10 ans, malgré les changements physiques et psychologiques ? Locke (Essai sur l'entendement humain) ancre l'identité dans la continuité de la conscience et de la mémoire. Hume nie toute identité substantielle du moi (faisceau de perceptions). Parfit (Reasons and Persons) remet en question la notion même de personne identique dans le temps."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Platon / Socrate",
+        "correct": 1,
+        "correction": "'Connais-toi toi-même' est l'inscription gravée au frontispice du temple de Delphes et le principe fondateur de la philosophie socratique. Pour Socrate (selon Platon), la sagesse commence par la connaissance de soi, de ses ignorances et de ses limites. C'est le point de départ de toute démarche philosophique authentique."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "FAUX. Freud (L'interprétation des rêves, 1900 ; Introduction à la psychanalyse) montre que l'inconscient – ensemble de représentations refoulées inaccessibles à la conscience – joue un rôle déterminant dans nos comportements, désirs, symptômes et actes manqués. La conscience n'est que 'la partie émergée de l'iceberg' ; l'inconscient en constitue la plus grande partie."
+      }
+    ]
+  }
+}

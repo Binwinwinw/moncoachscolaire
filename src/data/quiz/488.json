@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 488",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "description": "Diagnostic Français 1ère : Baudelaire et Les Fleurs du Mal",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Baudelaire et Les Fleurs du Mal",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "En quelle année Les Fleurs du Mal sont-elles publiées ?",
+        "choices": [
+          "1820",
+          "1857",
+          "1880",
+          "1900"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les Fleurs du Mal sont organisées en sections thématiques."
+      },
+      {
+        "type": "open",
+        "question": "Dans Les Fleurs du Mal, la tension centrale oppose le _____ (aspiration à l'élévation) au spleen (dépression)."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle image baudelairienne représente le poète incompris dans la société moderne ?",
+        "choices": [
+          "La rose",
+          "L'albatros",
+          "Le chat",
+          "Le gouffre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Baudelaire est considéré comme le précurseur du Symbolisme."
+      },
+      {
+        "type": "open",
+        "question": "Le titre paradoxal 'Les Fleurs du Mal' réunit la _____ (fleurs) et le mal moral/esthétique."
+      },
+      {
+        "type": "qcm",
+        "question": "Dans quel poème Baudelaire associe les parfums, les couleurs et les sons ?",
+        "choices": [
+          "Spleen",
+          "Correspondances",
+          "L'Invitation au voyage",
+          "La Beauté"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le 'voyage' est un thème récurrent dans Les Fleurs du Mal, symbolisant la fuite et l'aspiration à l'idéal."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

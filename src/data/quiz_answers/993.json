@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 2nde - Serie 993",
+    "level": "2nde",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Solides & sections planes",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "C",
+        "correction": "Un cube est un parallélépipède rectangle à 6 faces carrées."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Un plan parallèle à une face coupe le cube en un rectangle, qui est un carré si le plan est à égale distance des deux faces parallèles."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "Un cercle de même rayon que la base du cylindre.",
+        "correction": "Un plan perpendiculaire à l'axe du cylindre coupe le cylindre en un cercle de même rayon que la base."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "C",
+        "correction": "La section d'une pyramide par un plan parallèle à la base est un polygone similaire à la base (même forme, mais de taille différente)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Un plan parallèle à la base d'un cône coupe le cône en un cercle de même centre que la base."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "Un rectangle de même hauteur que le prisme.",
+        "correction": "Un plan perpendiculaire aux bases d'un prisme droit coupe le prisme en un rectangle de même hauteur que le prisme."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "C",
+        "correction": "Un plan passant par le centre d'une sphère coupe la sphère en un cercle de même rayon que la sphère."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Il est possible de couper un cube avec un plan oblique pour obtenir une section en forme d'hexagone régulier (section hexagonale)."
+      }
+    ]
+  }
+}

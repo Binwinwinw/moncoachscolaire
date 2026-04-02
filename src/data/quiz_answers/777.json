@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 777",
+    "level": "3eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Les procedes de fabrication et de mise en forme",
+    "question_count": 8,
+    "level": "3eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Usinage par enlevement de matiere",
+        "correct": 1,
+        "correction": "L'usinage (fraisage, tournage, percage) enleve de la matiere par coupe pour obtenir la forme souhaitee ; il convient aux metaux, bois et plastiques."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'injection plastique consiste a injecter du plastique fondu sous pression dans un moule ; c'est la technique la plus utilisee pour la fabrication en serie de pieces plastiques."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "thermoformage",
+        "correction": "Le thermoformage est utilise pour fabriquer des barquettes alimentaires, blister d'emballage et pieces de carrosserie en chauffant une feuille plastique et en la moulant."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Soudage",
+        "correct": 1,
+        "correction": "Le soudage (MIG, TIG, arc electrique) cree une liaison metallurgique permanente entre pieces metalliques en les fondant localement avec ou sans metal d'apport."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les machines CNC (Computer Numerical Control) executent automatiquement des programmes d'usinage (code G), garantissant precision et reproductibilite."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "electrodeposition",
+        "correction": "L'electrodeposition (galvanoplastie, chromage, nickelage) depose une fine couche metallique sur un objet par electrlyse pour le proteger ou l'embellir."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Un procede qui construit un objet en ajoutant de la matiere couche par couche",
+        "correct": 1,
+        "correction": "La fabrication additive (impression 3D) est l'opposee de l'usinage : elle construit l'objet en ajoutant de la matiere, reduisant les dechets et permettant des formes complexes."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La decoupe laser (CO2, fibre) utilise un faisceau lumineux intense pour couper ou graver des materiaux (acier, bois, acrylique) avec une precision de l'ordre du dixieme de millimetre."
+      }
+    ]
+  }
+}

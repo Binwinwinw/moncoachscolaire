@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 470",
+    "level": "1ère",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "La poésie symboliste",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Correspondances",
+        "correct": 1,
+        "correction": "Dans 'Correspondances', Baudelaire pose les bases du Symbolisme en affirmant les liens secrets entre les sens."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Le Symbolisme est un mouvement de la fin du XIXe siècle (1880-1900), avec Mallarmé, Verlaine, Rimbaud."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "spirituelle",
+        "correction": "Le symbole renvoie à un au-delà du réel visible : idées, états d'âme, vérités métaphysiques."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "La musique avant toute chose",
+        "correct": 1,
+        "correction": "'De la musique avant toute chose' : Verlaine place la musicalité au-dessus de la signification."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Une saison en enfer (1873) est l'œuvre autobiographique majeure de Rimbaud."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "nommer",
+        "correction": "'Nommer un objet, c'est supprimer les trois quarts de la jouissance du poème' (Mallarmé)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Associer des sensations de registres différents",
+        "correct": 1,
+        "correction": "Ex. : 'des parfums frais comme des chairs d'enfants' (Baudelaire) mêle olfactif et tactile."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Le Parnasse valorise la forme parfaite et l'impassibilité ; le Symbolisme cherche la suggestion et la musique intérieure."
+      }
+    ]
+  }
+}

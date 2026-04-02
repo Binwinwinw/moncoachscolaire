@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic HGGSP 1ère - Série 959",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "HGGSP",
+    "description": "Diagnostic HGGSP 1ère : Désinformation électorale",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Désinformation électorale",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "HGGSP",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel problème central pose 'les ingérences informationnelles' ?",
+        "choices": [
+          "Un enjeu uniquement technique",
+          "Un arbitrage entre intérêts politiques, économiques et culturels",
+          "Un sujet sans acteurs institutionnels",
+          "Un sujet purement local sans effet global"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'acteur 'les autorités électorales' peut peser sur la gouvernance de ce thème."
+      },
+      {
+        "type": "open",
+        "question": "Expliquez l'intérêt géopolitique du thème en mobilisant deux arguments précis."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel exemple illustre le mieux ce thème ?",
+        "choices": [
+          "les campagnes de manipulation sur réseaux sociaux",
+          "Une décision strictement privée sans cadre public",
+          "Un cas sans enjeu international",
+          "Une mesure ponctuelle sans conséquence politique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les choix publics sur ce thème peuvent produire des gagnants et des perdants."
+      },
+      {
+        "type": "open",
+        "question": "Proposez une mesure opérationnelle crédible pour améliorer la gouvernance de ce thème."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle démarche méthodologique est la plus pertinente pour analyser ce thème ?",
+        "choices": [
+          "Empiler des faits sans problématique",
+          "Croiser acteurs, temporalités et échelles",
+          "Écarter les jeux d'acteurs institutionnels",
+          "Limiter l'analyse à un seul document"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une conclusion HGGSP doit ouvrir sur une limite ou une perspective."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

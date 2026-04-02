@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 482",
+    "level": "1ère",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Mouvements littéraires : Humanisme, Baroque, Classicisme",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "L'Humanisme",
+        "correct": 2,
+        "correction": "L'Humanisme (XVIe s.) place l'Homme au centre et redécouvre les Anciens (studia humanitatis)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Le Baroque (fin XVIe-début XVIIe) valorise le mouvement, l'excès, l'ornement et l'instabilité."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "homme",
+        "correction": "L'humaniste aspire à l'honnête homme universel, curieux de tout savoir humain."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Racine",
+        "correct": 2,
+        "correction": "Racine (Andromaque, Phèdre) est l'un des grands tragédiens classiques du XVIIe siècle."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le Classicisme (1660-1685) est l'esthétique du Grand Siècle, soutenu par la monarchie absolue."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "roses",
+        "correction": "Ronsard, 'Ode à Cassandre' : 'Cueillez dès aujourd'hui les roses de la vie' → carpe diem."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Les tragi-comédies et le théâtre dans le théâtre",
+        "correct": 1,
+        "correction": "Le Baroque mêle les genres et joue avec les illusions théâtrales (Le Vrai Saint-Genest de Rotrou)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La philosophie cartésienne (raison, méthode) est parallèle à l'esthétique classique (ordre, clarté)."
+      }
+    ]
+  }
+}

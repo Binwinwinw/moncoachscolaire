@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic HGGSP 1ère - Série 920",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "HGGSP",
+    "description": "Diagnostic HGGSP 1ère : L'espace, bien commun de l'humanité ?",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "L'espace, bien commun de l'humanité ?",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "HGGSP",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel principe fondamental du Traité de l'espace de 1967 encadre l'accès à l'espace ?",
+        "choices": [
+          "L'espace appartient aux nations développées",
+          "L'espace est un bien commun de toute l'humanité, non appropriable",
+          "L'espace est géré par l'ONU",
+          "L'espace est partagé entre les grandes puissances"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les accords Artémis (2020) respectent pleinement le principe de patrimoine commun du Traité de 1967."
+      },
+      {
+        "type": "open",
+        "question": "Pourquoi les pays en développement défendent-ils le principe de 'patrimoine commun de l'humanité' pour l'espace ?"
+      },
+      {
+        "type": "qcm",
+        "question": "L'UNOOSA est :",
+        "choices": [
+          "Une agence spatiale nationale",
+          "Le Bureau des Nations Unies pour les affaires de l'espace extra-atmosphérique",
+          "Un traité de désarmement spatial",
+          "Une entreprise privée de lanceurs"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La prolifération des débris spatiaux menace l'accès futur à l'espace pour toutes les nations."
+      },
+      {
+        "type": "open",
+        "question": "Quels sont les défis de la gouvernance internationale de l'espace au XXIe siècle ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Le Comité des Nations Unies sur les utilisations pacifiques de l'espace extra-atmosphérique (COPUOS) est chargé de :",
+        "choices": [
+          "Construire des satellites pour les pays pauvres",
+          "Promouvoir la coopération internationale et élaborer les normes spatiales",
+          "Gérer les vols habités vers la Lune",
+          "Surveiller les lancements militaires"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les Pays-Bas, le Luxembourg et les Émirats Arabes Unis ont adopté des lois autorisant l'exploitation privée des ressources spatiales."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

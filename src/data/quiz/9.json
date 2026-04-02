@@ -1,0 +1,103 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6ème - Série 9",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Anglais",
+    "description": "Évaluation diagnostique en anglais 6ème : présent simple, vocabulaire courant, questions/réponses basiques, textes courts",
+    "status": "published",
+    "created_at": "2026-03-07 23:55:00",
+    "updated_at": "2026-03-08 13:52:00"
+  },
+  "quiz": {
+    "title": "Diagnostic Anglais 6ème",
+    "level": "6eme",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "What does Tom do after school?",
+        "choices": [
+          "I eat an apple",
+          "He watch TV",
+          "He plays football",
+          "We go home"
+        ]
+      },
+      {
+        "type": "qcm",
+        "question": "Choose the correct sentence in the present simple:",
+        "choices": [
+          "She go to school at 8.",
+          "She goes to school at 8.",
+          "She going to school at 8.",
+          "She gone to school at 8."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "In English, we usually put the adjective before the noun (for example: a big house)."
+      },
+      {
+        "type": "qcm",
+        "question": "Complete: My brother ___ two cats.",
+        "choices": [
+          "have",
+          "has",
+          "is",
+          "are"
+        ]
+      },
+      {
+        "type": "qcm",
+        "question": "Choose the correct question form:",
+        "choices": [
+          "Where you live?",
+          "Where do you live?",
+          "Where does you live?",
+          "Where are you live?"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The sentence 'I am 12 years old.' is correct in English."
+      },
+      {
+        "type": "qcm",
+        "question": "Pick the correct translation of \"Je fais mes devoirs tous les soirs\".",
+        "choices": [
+          "I do my homework every evening.",
+          "I make my homework every evening.",
+          "I am doing my homework every evening yesterday.",
+          "I does my homework every evening."
+        ]
+      },
+      {
+        "type": "texte",
+        "question": "Write one short sentence in English about your daily routine in the present simple."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Présent simple",
+      "description": "Concept clé de Anglais au niveau 6eme"
+    },
+    {
+      "notion": "Vocabulaire courant",
+      "description": "Concept clé de Anglais au niveau 6eme"
+    },
+    {
+      "notion": "Questions et réponses",
+      "description": "Concept clé de Anglais au niveau 6eme"
+    },
+    {
+      "notion": "Compréhension simple",
+      "description": "Concept clé de Anglais au niveau 6eme"
+    }
+  ],
+  "exerciseresponses": []
+}

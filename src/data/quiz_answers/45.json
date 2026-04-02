@@ -1,0 +1,72 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 4eme SVT",
+    "type": "quiz",
+    "level": "4eme",
+    "subject": "SVT",
+    "description": "Diagnostic ADN, vaccination, électricité corporelle 4eme"
+  },
+  "quiz": {
+    "title": "Diagnostic SVT 4eme",
+    "level": "4eme",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Hélice",
+        "correction": "Watson/Crick 1953"
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "texte",
+        "answer": "antigène",
+        "correction": "Système immunitaire mémoire"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": true,
+        "correction": "VRAI. (sauf mutations)"
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Neurone",
+        "correction": "Transmission impulsions"
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "texte",
+        "answer": "70",
+        "correction": "60-80 bpm"
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": false,
+        "correction": "FAUX. Antigène atténué/mort"
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Noyau",
+        "correction": "46 chromosomes humains"
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "answer": "100",
+        "correction": "100 m/s fibres myélinisées"
+      }
+    ]
+  }
+}

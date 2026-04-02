@@ -1,0 +1,67 @@
+{
+  "id": 1059,
+  "title": "Polynôme du second degré — forme générale",
+  "subject": "Mathématiques",
+  "level": "1ère",
+  "created_at": "2026-03-13T18:54:00.421252Z",
+  "questions": [
+    {
+      "id": "1059_1",
+      "type": "qcm",
+      "question": "Un trinôme du second degré s'écrit sous la forme :",
+      "options": [
+        "ax + b",
+        "ax² + bx + c avec a ≠ 0",
+        "ax² + bx",
+        "ax³ + bx² + c"
+      ]
+    },
+    {
+      "id": "1059_2",
+      "type": "vrai-faux",
+      "question": "La parabole représentant ax² + bx + c est tournée vers le haut quand a > 0."
+    },
+    {
+      "id": "1059_3",
+      "type": "texte",
+      "question": "Pour f(x) = 2x² − 4x + 3, identifie les coefficients a, b et c."
+    },
+    {
+      "id": "1059_4",
+      "type": "qcm",
+      "question": "L'axe de symétrie de la parabole ax² + bx + c est la droite d'équation :",
+      "options": [
+        "x = −b",
+        "x = −b/(2a)",
+        "x = b/(2a)",
+        "x = c/a"
+      ]
+    },
+    {
+      "id": "1059_5",
+      "type": "vrai-faux",
+      "question": "Le sommet de la parabole f(x) = x² − 6x + 5 a pour abscisse x = 3."
+    },
+    {
+      "id": "1059_6",
+      "type": "texte",
+      "question": "Calcule les coordonnées du sommet S de f(x) = x² − 4x + 7."
+    },
+    {
+      "id": "1059_7",
+      "type": "qcm",
+      "question": "Parmi ces expressions, laquelle est un trinôme du second degré ?",
+      "options": [
+        "3x + 2",
+        "x² + 1",
+        "x³ − x + 1",
+        "0·x² + 2x + 1"
+      ]
+    },
+    {
+      "id": "1059_8",
+      "type": "vrai-faux",
+      "question": "La valeur minimale (ou maximale) d'un trinôme ax² + bx + c est atteinte au sommet de la parabole."
+    }
+  ]
+}

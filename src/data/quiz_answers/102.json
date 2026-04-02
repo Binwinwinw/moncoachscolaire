@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic seconde Anglais",
+    "level": "seconde",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic seconde Anglais",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "**was read** (passif past simple)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "correct": 1,
+        "correction": "**Vrai**. Reported speech : said + past."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "correct": null,
+        "correction": "**must go** (obligation forte)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "**she liked coffee** (tense backshift)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "correct": 1,
+        "correction": "**Vrai**. Passif : were cleaned (pluriel)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "correct": null,
+        "correction": "**was eaten** (passif past)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "**mustn't** (interdiction)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "correct": 1,
+        "correction": "**Vrai**. May I...? / Can I...? permission."
+      }
+    ],
+    "level": "seconde",
+    "subject": "Anglais"
+  }
+}

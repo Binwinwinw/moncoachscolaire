@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 659",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 3ème : Évolution : adaptation et sélection naturelle",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "Évolution : adaptation et sélection naturelle",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'une adaptation évolutive ?",
+        "choices": [
+          "Un apprentissage individuel",
+          "Un caractère héréditaire augmentant la valeur sélective",
+          "Une modification du comportement au cours de la vie",
+          "Un organe inutile"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La résistance des bactéries aux antibiotiques est un exemple de sélection naturelle."
+      },
+      {
+        "type": "open",
+        "question": "Quel est le terme qui désigne la capacité d'un individu à survivre et à se reproduire dans son milieu ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel mécanisme évolutif non sélectif peut modifier la fréquence des allèles dans une petite population par hasard ?",
+        "choices": [
+          "Sélection naturelle",
+          "Dérive génétique",
+          "Migration",
+          "Mutation directe"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Tous les individus d'une population sont identiques avant la sélection naturelle."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la capacité d'une espèce à modifier son phénotype en réponse à l'environnement sans changement génétique ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel exemple illustre la coévolution entre deux espèces ?",
+        "choices": [
+          "La relation fleur-pollinisateur",
+          "La prédation d'un lapin par un renard",
+          "La compétition entre deux arbres",
+          "La migration des oiseaux"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La dérive génétique peut conduire à la fixation d'un allèle délétère dans une petite population."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

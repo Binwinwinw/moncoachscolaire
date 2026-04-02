@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic NSI 1ère - Série 879",
+    "level": "1ère",
+    "subject": "NSI"
+  },
+  "quiz": {
+    "title": "HTML — Structure d'une page web",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "NSI",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "HyperText Markup Language",
+        "correct": 0,
+        "correction": "HTML est le langage de balisage standard pour créer des pages web. La version actuelle est HTML5."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "<head> contient les métadonnées (titre, liens CSS, scripts…). Le contenu visible est dans <body>."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "<!DOCTYPE html><html lang='fr'><head><meta charset='UTF-8'><title>Titre</title></head><body>Contenu</body></html>",
+        "correction": "Le DOCTYPE déclare la version HTML. <html> est la racine. <head> contient les métadonnées. <body> le contenu visible."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "<a>",
+        "correct": 2,
+        "correction": "<a href='url'>texte</a> crée un lien. L'attribut href spécifie la destination. <link> est pour les feuilles de style CSS dans <head>."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "<img> est une balise auto-fermante (void element) : <img src='image.jpg' alt='description'>. Pas de </img>."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "<div> est un conteneur de niveau bloc (block-level) : il occupe toute la largeur disponible et crée une nouvelle ligne. <span> est en ligne (inline) : il s'intègre dans le flux du texte sans créer de nouvelle ligne.",
+        "correction": "<div> est utilisé pour structurer de grandes sections. <span> pour cibler du texte à l'intérieur d'un paragraphe."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Fournir un texte alternatif pour l'accessibilité",
+        "correct": 1,
+        "correction": "alt est lu par les lecteurs d'écran (accessibilité) et affiché si l'image ne se charge pas. Il est indispensable pour le SEO et l'accessibilité."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les balises sémantiques donnent un sens structurel au contenu, améliorant l'accessibilité (lecteurs d'écran) et le référencement (SEO)."
+      }
+    ]
+  }
+}

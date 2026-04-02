@@ -1,0 +1,48 @@
+{
+  "quiz_id": 1117,
+  "title": "Politique de la concurrence",
+  "subject": "SES",
+  "level": "Terminale",
+  "answers": [
+    {
+      "question_id": "1117_1",
+      "correct_option": "B",
+      "explanation": "L'Autorité de la concurrence (ex-Conseil de la concurrence) sanctionne les cartels, abus de position dominante et autorise ou refuse les concentrations."
+    },
+    {
+      "question_id": "1117_2",
+      "correct": true,
+      "explanation": "L'article 101 du TFUE interdit les accords entre entreprises qui faussent la concurrence (cartels, partage de marchés, fixation des prix)."
+    },
+    {
+      "question_id": "1117_3",
+      "correct_answer": "Un abus de position dominante (art. 102 TFUE) : une entreprise dominant son marché adopte des pratiques déloyales (prix prédateurs, refus de vente, tying). Ex : amendes infligées à Google (2017-2019) par la Commission européenne pour abus dans la recherche et la pub en ligne.",
+      "explanation": "La domination n'est pas interdite en soi, mais l'exploitation abusive de cette position l'est."
+    },
+    {
+      "question_id": "1117_4",
+      "correct_option": "B",
+      "explanation": "Avant une fusion importante, les parties doivent obtenir l'accord de la Commission européenne ou de l'Autorité nationale, qui vérifie qu'elle ne crée pas un quasi-monopole."
+    },
+    {
+      "question_id": "1117_5",
+      "correct": true,
+      "explanation": "Créer des champions nationaux (fusions autorisées pour concurrencer les géants américains/chinois) peut réduire la concurrence interne et contredire les règles de l'UE."
+    },
+    {
+      "question_id": "1117_6",
+      "correct_answer": "Effets de réseau, économies d'échelle numériques, lock-in des utilisateurs, data comme barrière à l'entrée : les GAFAM peuvent dominer sans être sanctionnés par les critères classiques (prix non abusifs car services gratuits). Nouveaux outils : DMA européen (2022).",
+      "explanation": "Le Digital Markets Act (DMA) européen crée des obligations ex ante pour les « gatekeepers » afin de limiter les pratiques anticoncurrentielles numériques."
+    },
+    {
+      "question_id": "1117_7",
+      "correct_option": "B",
+      "explanation": "Prix prédateur : casser les prix en dessous du coût de revient pour évincer les rivaux, puis exploiter la position dominante acquise. Interdit par le droit de la concurrence."
+    },
+    {
+      "question_id": "1117_8",
+      "correct": false,
+      "explanation": "La politique de concurrence est une compétence exclusive de l'UE (Commission européenne, DG Competition) pour les affaires transfrontalières."
+    }
+  ]
+}

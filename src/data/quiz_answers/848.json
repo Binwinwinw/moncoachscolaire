@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES 1ère - Série 848",
+    "level": "1ère",
+    "subject": "SES"
+  },
+  "quiz": {
+    "title": "Les effets de la mondialisation",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "SES",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Permettant l'essor économique de la Chine, de l'Inde et d'autres pays émergents",
+        "correct": 1,
+        "correction": "Selon la Banque mondiale, la mondialisation a contribué à sortir des centaines de millions de personnes de la pauvreté en Asie."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Si la mondialisation diffuse une culture 'globale', elle coexiste avec des identités locales (glocalisaton). Les cultures locales résistent et se réinventent."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "La mondialisation a favorisé la désindustrialisation et la pression à la baisse sur les salaires peu qualifiés dans les pays développés. Elle a aussi favorisé des emplois qualifiés et réduit les prix à la consommation. Le bilan net est controversé.",
+        "correction": "Le rapport Autor/Dorn/Hanson (2013) a montré un impact négatif significatif de la concurrence chinoise sur l'emploi manufacturier américain."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "L'intégration mondiale des économies, cultures et flux d'information",
+        "correct": 1,
+        "correction": "La globalisation est un phénomène multidimensionnel : économique, financier, culturel, informationnel et migratoire."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les blocs régionaux créent des zones de libre-échange interne tout en maintenant des barrières extérieures (tarif extérieur commun)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "Augmentation du transport international (émissions CO2), délocalisation vers pays moins contraignants (fuite carbone), surexploitation des ressources mondiales, difficultés à coordonner des politiques environnementales mondiales.",
+        "correction": "La mondialisation complique la lutte contre le changement climatique en fragmentant les responsabilités entre pays."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Un ralentissement ou recul de l'intégration commerciale et financière mondiale",
+        "correct": 1,
+        "correction": "Depuis 2008, les échanges mondiaux croissent moins vite. La COVID-19 et les tensions géopolitiques ont accéléré les réflexions sur la relocalisation."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La pandémie COVID-19 a révélé des dépendances critiques (médicaments, semi-conducteurs). De nombreux États repensent leur politique industrielle pour réduire ces dépendances."
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "quiz_id": 1066,
+  "title": "Suites arithmétiques",
+  "subject": "Mathématiques",
+  "level": "1ère",
+  "answers": [
+    {
+      "question_id": "1066_1",
+      "correct_option": "B",
+      "explanation": "Terme général d'une suite arithmétique (indexée à partir de 1) : uₙ = u₁ + (n−1)·r."
+    },
+    {
+      "question_id": "1066_2",
+      "correct": true,
+      "explanation": "Différence constante : 5−2=3, 8−5=3, 11−8=3, … Raison r = 3."
+    },
+    {
+      "question_id": "1066_3",
+      "correct_answer": "u₈ = 7 + 7×(−2) = −7. S = 8×(7+(−7))/2 = 0.",
+      "explanation": "u₈ = 7 + 7×(−2) = −7. Somme : S₈ = 8×(u₁+u₈)/2 = 8×0/2 = 0."
+    },
+    {
+      "question_id": "1066_4",
+      "correct_option": "B",
+      "explanation": "Sₙ = n × (premier terme + dernier terme)/2 = n(u₁ + uₙ)/2."
+    },
+    {
+      "question_id": "1066_5",
+      "correct": true,
+      "explanation": "uₙ = (uₙ₋₁ + uₙ₊₁)/2 : c'est une propriété caractéristique des suites arithmétiques."
+    },
+    {
+      "question_id": "1066_6",
+      "correct_answer": "r = 4, u₁ = 3",
+      "explanation": "u₇ − u₃ = (7−3)r = 4r = 16 → r = 4. u₁ = u₃ − 2r = 11 − 8 = 3."
+    },
+    {
+      "question_id": "1066_7",
+      "correct_option": "B",
+      "explanation": "Suite arithmétique : S = 100×(1+100)/2 = 100×101/2 = 5050."
+    },
+    {
+      "question_id": "1066_8",
+      "correct": true,
+      "explanation": "uₙ₊₁ = uₙ + r < uₙ si r < 0 : chaque terme est plus petit que le précédent."
+    }
+  ]
+}

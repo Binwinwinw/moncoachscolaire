@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 608",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 1ère : Les cellules souches et la différenciation cellulaire",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Les cellules souches et la différenciation cellulaire",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Une cellule souche se caractérise par :",
+        "choices": [
+          "Son incapacité à se diviser",
+          "Sa capacité à s'auto-renouveler et à se différencier en différents types cellulaires",
+          "Sa spécialisation irréversible",
+          "Son absence de noyau"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Toutes les cellules d'un organisme contiennent le même ADN, mais n'expriment pas les mêmes gènes."
+      },
+      {
+        "type": "open",
+        "question": "Les cellules souches embryonnaires sont dites totipotentes ou pluripotentes car elles peuvent donner naissance à tous (ou presque tous) les types _____ de l'organisme."
+      },
+      {
+        "type": "qcm",
+        "question": "Les cellules iPS (cellules souches pluripotentes induites) sont obtenues en :",
+        "choices": [
+          "Clonant des cellules embryonnaires",
+          "Reprogrammant des cellules adultes différenciées",
+          "Fusionnant deux cellules souches",
+          "Irradiant des cellules tumorales"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les cellules souches adultes sont plus polyvalentes que les cellules souches embryonnaires."
+      },
+      {
+        "type": "open",
+        "question": "La différenciation cellulaire est contrôlée par des facteurs de transcription qui activent ou répriment l'expression de certains _____."
+      },
+      {
+        "type": "qcm",
+        "question": "La médecine régénérative vise à utiliser les cellules souches pour :",
+        "choices": [
+          "Répliquer l'ADN plus rapidement",
+          "Réparer ou remplacer des tissus et organes endommagés",
+          "Augmenter la taille des chromosomes",
+          "Éliminer les mutations héréditaires"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'épigénétique étudie les modifications héritables de l'expression génique sans changement de la séquence d'ADN."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

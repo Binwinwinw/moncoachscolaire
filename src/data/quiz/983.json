@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 2nde - Serie 983",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 2nde : Fonction inverse",
+    "status": "published",
+    "created_at": "2026-03-13 11:15:43",
+    "updated_at": "2026-03-13 11:15:43"
+  },
+  "quiz": {
+    "title": "Fonction inverse",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel est le domaine de définition de f(x) = 1/x ?",
+        "choices": [
+          "R",
+          "R⁺",
+          "R \\ {0}",
+          "R⁺ \\ {0}"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La courbe de f(x) = 1/x est une hyperbole."
+      },
+      {
+        "type": "open",
+        "question": "Décris les variations de f(x) = 1/x sur ]0 ; +∞[."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est l'image de 4 par f(x) = 1/x ?",
+        "choices": [
+          "4",
+          "1/4",
+          "−4",
+          "−1/4"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La droite y = 0 est une asymptote horizontale de f(x) = 1/x."
+      },
+      {
+        "type": "open",
+        "question": "Pourquoi l'axe des ordonnées (x = 0) est-il une asymptote verticale de f(x) = 1/x ?"
+      },
+      {
+        "type": "qcm",
+        "question": "La fonction f(x) = 1/x est-elle paire, impaire ou ni l'une ni l'autre ?",
+        "choices": [
+          "Paire",
+          "Impaire",
+          "Ni l'une ni l'autre",
+          "Les deux"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "f(x) = 1/x est décroissante sur R \\ {0}."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 5ème - Série 11",
+    "level": "5eme",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Diagnostic Mathématiques 5ème",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "On regroupe les termes semblables : 3x + 2x - x = (3 + 2 - 1)x = 4x. Cette simplification repose sur l'addition des coefficients devant la même lettre. C'est une base du calcul littéral en 5ème."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "qcm",
+        "correct": 2,
+        "correction": "Le périmètre d'un rectangle vaut 2 x (L + l). Ici : 2 x (9 + 4) = 2 x 13 = 26 cm. Il faut distinguer périmètre (contour) et aire (surface)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "correct": 1,
+        "correction": "Vrai. Partir de -3 et ajouter 5 revient à avancer de 5 unités sur la droite graduée : on arrive à 2. Cette visualisation aide à comprendre les nombres relatifs."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "texte",
+        "correct": null,
+        "correction": "Moyenne = (12 + 15 + 9) / 3 = 36 / 3 = 12. On additionne d'abord les valeurs puis on divise par le nombre de notes. La moyenne est un indicateur central en statistique."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "Si 3 cahiers coûtent 6 euros, le prix d'un cahier est 6 / 3 = 2 euros. C'est une situation de proportionnalité simple avec retour à l'unité."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "La somme des angles d'un triangle est toujours 180°. Cette propriété permet de calculer un angle inconnu à partir des deux autres."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "vrai-faux",
+        "correct": 1,
+        "correction": "Vrai. Par commutativité de l'addition, on peut changer l'ordre des termes : 2x + 3 = 3 + 2x. Les deux expressions donnent la même valeur pour tout x."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "correct": null,
+        "correction": "Le double de n est 2n. Augmenté de 5, cela donne 2n + 5. Une bonne réponse doit conserver la variable n et traduire précisément l'ordre des opérations."
+      }
+    ],
+    "level": "5eme",
+    "subject": "Mathématiques"
+  }
+}

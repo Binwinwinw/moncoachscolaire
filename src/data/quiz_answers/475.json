@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 475",
+    "level": "1ère",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Les Lumières et la littérature engagée (XVIIIe s.)",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "L'Encyclopédie",
+        "correct": 1,
+        "correction": "L'Encyclopédie (1751-1772), dirigée par Diderot et d'Alembert, diffuse les savoirs et les idées des Lumières."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le Traité sur la tolérance (1763) est écrit par Voltaire à la suite de l'affaire Calas."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "contrat",
+        "correction": "Du contrat social (1762) théorise le pacte entre les individus comme fondement de la société."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Ose savoir (Sapere aude)",
+        "correct": 1,
+        "correction": "Kant définit les Lumières comme la sortie de l'homme de sa minorité : 'Ose te servir de ton propre entendement.'"
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Voltaire, Diderot et Montesquieu utilisent la fiction (conte, roman, lettres) pour propager les idées des Lumières."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "critiquer",
+        "correction": "La vision extérieure du Persan Rica rend visible l'absurdité de certaines institutions françaises."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Voltaire",
+        "correct": 1,
+        "correction": "Voltaire combat toute sa vie l'intolérance et la censure : 'Je ne suis pas d'accord avec ce que vous dites, mais je me battrai pour que vous puissiez le dire.'"
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "La littérature engagée défend des valeurs (liberté, justice) sans se limiter à un parti ; Sartre la théorise dans Qu'est-ce que la littérature ?"
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 5eme Français",
+    "type": "quiz",
+    "level": "5eme",
+    "subject": "Francais",
+    "description": "Diagnostic grammaire conjugaison orthographe niveau 5eme"
+  },
+  "quiz": {
+    "title": "Diagnostic Français 5eme",
+    "level": "5eme",
+    "subject": "Francais",
+    "question_count": 8,
+    "passing_score": 75,
+    "questions": [
+      {
+        "id": 1,
+        "type": "texte",
+        "question": "Je ... (manger) une pomme."
+      },
+      {
+        "id": 2,
+        "type": "qcm",
+        "question": "Le pronom qui remplace 'les enfants' :",
+        "choices": [
+          "ils",
+          "elles",
+          "nous",
+          "vous"
+        ]
+      },
+      {
+        "id": 3,
+        "type": "vrai-faux",
+        "question": "On écrit 'a' au lieu de 'à' dans 'J'ai allé'."
+      },
+      {
+        "id": 4,
+        "type": "texte",
+        "question": "Nous ... (finir) nos devoirs."
+      },
+      {
+        "id": 5,
+        "type": "qcm",
+        "question": "Quel est l'adjectif possessif ? 'Mon chat est noir.'",
+        "choices": [
+          "noir",
+          "chat",
+          "mon",
+          "est"
+        ]
+      },
+      {
+        "id": 6,
+        "type": "vrai-faux",
+        "question": "Les verbes du 3e groupe ont tous la même conjugaison."
+      },
+      {
+        "id": 7,
+        "type": "texte",
+        "question": "Tu ... (être) content ?"
+      },
+      {
+        "id": 8,
+        "type": "qcm",
+        "question": "Accord sujet-verbe : 'Les filles chant... bien.'",
+        "choices": [
+          "e",
+          "ent",
+          "ons",
+          "ait"
+        ]
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Présent indicatif"
+    },
+    {
+      "notion": "Pronoms personnels"
+    },
+    {
+      "notion": "Adjectifs possessifs"
+    },
+    {
+      "notion": "Orthographe verbes"
+    }
+  ],
+  "exerciseresponses": []
+}

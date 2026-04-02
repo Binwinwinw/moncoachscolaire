@@ -1,0 +1,89 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 6eme Anglais",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Anglais",
+    "description": "Diagnostic verbes etre/avoir, present simple, vocabulaire 6eme"
+  },
+  "quiz": {
+    "title": "Diagnostic Anglais 6eme",
+    "level": "6eme",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "questions": [
+      {
+        "id": 1,
+        "type": "qcm",
+        "question": "I ... a student.",
+        "choices": [
+          "am",
+          "is",
+          "are"
+        ]
+      },
+      {
+        "id": 2,
+        "type": "vrai-faux",
+        "question": "We ... teachers."
+      },
+      {
+        "id": 3,
+        "type": "texte",
+        "question": "She ... a book."
+      },
+      {
+        "id": 4,
+        "type": "qcm",
+        "question": "They ... in Paris.",
+        "choices": [
+          "live",
+          "lives",
+          "living"
+        ]
+      },
+      {
+        "id": 5,
+        "type": "texte",
+        "question": "My house ... big."
+      },
+      {
+        "id": 6,
+        "type": "vrai-faux",
+        "question": "I has got a cat."
+      },
+      {
+        "id": 7,
+        "type": "qcm",
+        "question": "Hello, I ... Paul.",
+        "choices": [
+          "am",
+          "is",
+          "are",
+          "have"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "texte",
+        "question": "We ... TV."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "To be / To have"
+    },
+    {
+      "notion": "Present simple"
+    },
+    {
+      "notion": "Pronoms personnels"
+    },
+    {
+      "notion": "Vocabulaire quotidien"
+    }
+  ],
+  "exerciseresponses": []
+}

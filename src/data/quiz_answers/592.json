@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 592",
+    "level": "3ème",
+    "subject": "Histoire-Géographie"
+  },
+  "quiz": {
+    "title": "Espaces productifs agricoles",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "L'Union européenne",
+        "correct": 1,
+        "correction": "La Politique agricole commune encadre et soutient l'agriculture européenne."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Grandes cultures, élevage, viticulture, maraîchage se répartissent différemment."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "durable",
+        "correction": "Elle vise à concilier rendement, environnement et santé."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "La Beauce",
+        "correct": 1,
+        "correction": "La Beauce est un grand bassin céréaliers français."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Ils réduisent les intermédiaires et valorisent le local."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "origine",
+        "correction": "Ils certifient savoir-faire et ancrage territorial."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "L'adaptation au changement climatique",
+        "correct": 1,
+        "correction": "Sécheresses et événements extrêmes imposent de nouvelles pratiques."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Produire et sécuriser l'alimentation devient central."
+      }
+    ]
+  }
+}

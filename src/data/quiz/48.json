@@ -1,0 +1,86 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 5eme Histoire-Géographie",
+    "type": "quiz",
+    "level": "5eme",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic monde grec, empire romain, géographie France 5eme"
+  },
+  "quiz": {
+    "title": "Diagnostic Histoire-Géo 5eme",
+    "level": "5eme",
+    "subject": "Histoire-Géographie",
+    "question_count": 8,
+    "passing_score": 75,
+    "questions": [
+      {
+        "id": 1,
+        "type": "qcm",
+        "question": "Athènes = démocratie ?",
+        "choices": [
+          "Directe",
+          "Indirecte",
+          "Monarchie"
+        ]
+      },
+      {
+        "id": 2,
+        "type": "texte",
+        "question": "Empire romain divisé en ... parties (395 ap. J.-C.)"
+      },
+      {
+        "id": 3,
+        "type": "vrai-faux",
+        "question": "Sparte = ville commerçante."
+      },
+      {
+        "id": 4,
+        "type": "qcm",
+        "question": "Capitale Gaule romaine :",
+        "choices": [
+          "Paris",
+          "Lyon",
+          "Marseille",
+          "Rome"
+        ]
+      },
+      {
+        "id": 5,
+        "type": "texte",
+        "question": "Marathon 490 av. J.-C. = Grecs vs ..."
+      },
+      {
+        "id": 6,
+        "type": "vrai-faux",
+        "question": "La Gaule = entièrement romanisée."
+      },
+      {
+        "id": 7,
+        "type": "qcm",
+        "question": "Péloponnèse =",
+        "choices": [
+          "Sparte",
+          "Athènes",
+          "Corinthe"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "texte",
+        "question": "Forum romain = ... publique"
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Cité grecque"
+    },
+    {
+      "notion": "Empire romain"
+    },
+    {
+      "notion": "Gaule romaine"
+    }
+  ],
+  "exerciseresponses": []
+}

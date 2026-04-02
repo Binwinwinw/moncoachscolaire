@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 495",
+    "level": "1ère",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Révisions : œuvres canoniques au programme",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Marcel Proust",
+        "correct": 1,
+        "correction": "À la recherche du temps perdu (7 tomes, 1913-1927) est le grand roman de la mémoire involontaire de Proust."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Ces deux épopées (VIIIe s. av. J.-C.) sont les textes fondateurs de la littérature occidentale."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "absurde",
+        "correction": "Sisyphe, condamné à rouler un rocher éternellement, incarne l'absurde ; Camus conclut qu'il faut l'imaginer heureux."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Les Confessions",
+        "correct": 1,
+        "correction": "Les Confessions (posthume, 1782) de Rousseau inaugurent le genre autobiographique moderne."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Madame de Lafayette est l'auteure de ce roman psychologique précurseur du roman moderne."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "lettres",
+        "correction": "Le roman épistolaire (epistola = lettre) est composé d'échanges de lettres entre personnages."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Corneille",
+        "correct": 2,
+        "correction": "Le Cid (1637) de Corneille provoque la querelle du Cid ; c'est une tragi-comédie devenue emblème du héroïsme cornélien."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Voltaire est un génie universel des Lumières, excellent dans tous les genres."
+      }
+    ]
+  }
+}

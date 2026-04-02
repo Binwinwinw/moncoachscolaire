@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 719",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie 3ème : Synthèse chimique et chimie verte",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Synthèse chimique et chimie verte",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que la chimie verte ?",
+        "choices": [
+          "La chimie qui étudie les plantes",
+          "Une approche visant à réduire l'impact environnemental des procédés chimiques",
+          "La synthèse de colorants verts",
+          "La chimie des engrais agricoles"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un solvant vert idéal est l'eau, car elle est non toxique, abondante et bon marché."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la synthèse d'un médicament ou d'un composé chimique à partir de précurseurs naturels plutôt que pétrochimiques ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel principe de chimie verte consiste à incorporer tous les atomes des réactifs dans le produit final ?",
+        "choices": [
+          "Principe d'économie d'atomes",
+          "Principe de neutralisation",
+          "Principe de dilution",
+          "Principe d'exothermicité"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La catalyse enzymatique est un outil de la chimie verte car elle opère dans des conditions douces."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on le procédé qui transforme la biomasse végétale en carburant ou en produits chimiques ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle technique de synthèse utilise les micro-ondes pour accélérer les réactions chimiques ?",
+        "choices": [
+          "Photochimie",
+          "Synthèse assistée par micro-ondes",
+          "Électrosynthèse",
+          "Sonochimie"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Réduire les déchets chimiques produits est l'un des principes fondamentaux de la chimie verte."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

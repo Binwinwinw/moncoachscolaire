@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 3eme - Série 766",
+    "level": "3eme",
+    "subject": "EMC"
+  },
+  "quiz": {
+    "title": "L'egalite femmes-hommes : droits et combats",
+    "question_count": 8,
+    "level": "3eme",
+    "subject": "EMC",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "1944",
+        "correct": 2,
+        "correction": "L'ordonnance du 21 avril 1944 (Gouvernement provisoire du général de Gaulle) a accordé le droit de vote et d'éligibilité aux femmes françaises."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La loi du 6 juin 2000 impose l'alternance stricte femmes-hommes sur les listes électorales ; les partis ne respectant pas la parité sont sanctionnés financièrement."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "stereotypes de genre",
+        "correction": "Les stéréotypes de genre sont des représentations figées attribuant des qualités, rôles ou comportements différents aux hommes et aux femmes, alimentant les discriminations."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Environ 16 a 17% en defaveur des femmes",
+        "correct": 1,
+        "correction": "Selon l'INSEE, l'écart de salaire entre femmes et hommes est d'environ 16-17% en défaveur des femmes (tous secteurs et temps de travail confondus)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le sexisme et le harcèlement sexuel au travail sont réprimés par le Code pénal et le Code du travail ; l'employeur a l'obligation de les prévenir."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "MeToo",
+        "correction": "Le mouvement #MeToo (2017) a libéré la parole des victimes de harcèlement et violences sexuelles, entraînant des évolutions législatives et sociales importantes."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Eliminer toutes les formes de discrimination et de violence a l'egard des femmes et des filles",
+        "correct": 0,
+        "correction": "L'ODD 5 des Nations Unies vise à 'parvenir à l'égalité des sexes et autonomiser toutes les femmes et les filles', incluant la fin des violences et discriminations."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La Convention d'Istanbul (Convention du Conseil de l'Europe sur la prévention et la lutte contre la violence à l'égard des femmes, 2011) est le traité international le plus complet en matière de violences faites aux femmes."
+      }
+    ]
+  }
+}

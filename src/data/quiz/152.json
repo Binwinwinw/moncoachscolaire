@@ -1,0 +1,97 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 28",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ere : Gérondifs et infinitifs",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-08 00:05:00"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 28",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "id": 1,
+        "type": "qcm",
+        "question": "Choose the correct form: 'She enjoys ___ to music every evening.'",
+        "choices": [
+          "to listen",
+          "listen",
+          "listening",
+          "listened"
+        ]
+      },
+      {
+        "id": 2,
+        "type": "vrai-faux",
+        "question": "'I stopped to smoke' means the same thing as 'I stopped smoking'."
+      },
+      {
+        "id": 3,
+        "type": "texte",
+        "question": "Complète et explique : 'I remember ___ (meet) him for the first time at a conference.' Gérondif ou infinitif ?",
+        "placeholder": "Écris ta réponse ici..."
+      },
+      {
+        "id": 4,
+        "type": "qcm",
+        "question": "Choose the correct form: 'He refused ___ the documents.'",
+        "choices": [
+          "signing",
+          "to sign",
+          "sign",
+          "to signing"
+        ]
+      },
+      {
+        "id": 5,
+        "type": "vrai-faux",
+        "question": "The sentence 'She suggested to go to the cinema' is grammatically correct."
+      },
+      {
+        "id": 6,
+        "type": "texte",
+        "question": "Explique la différence de sens : 'I tried to open the window.' vs 'I tried opening the window.'",
+        "placeholder": "Écris ta réponse ici..."
+      },
+      {
+        "id": 7,
+        "type": "qcm",
+        "question": "Which sentence is grammatically correct?",
+        "choices": [
+          "I avoid to eat fast food.",
+          "She decided going abroad.",
+          "They managed to finish the project on time.",
+          "He admitted to steal the money."
+        ]
+      },
+      {
+        "id": 8,
+        "type": "vrai-faux",
+        "question": "After prepositions, we always use the gerund (V-ing) form."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Verbes suivis du gérondif (V-ing)",
+      "description": "Certains verbes sont toujours suivis du gérondif : enjoy, avoid, suggest, mind, consider, keep, finish, deny, imagine, practise, miss, risk, admit, etc. Ex : I enjoy swimming. / She avoids eating sugar."
+    },
+    {
+      "notion": "Verbes suivis de l'infinitif (to + V)",
+      "description": "Certains verbes sont toujours suivis de l'infinitif : want, decide, hope, plan, promise, refuse, seem, agree, afford, manage, need, expect, etc. Ex : I want to leave. / She decided to study abroad."
+    },
+    {
+      "notion": "Verbes suivis des deux formes (avec ou sans changement de sens)",
+      "description": "Certains verbes acceptent gérondif et infinitif sans changement de sens (like, love, hate, start, begin, continue). D'autres changent de sens : remember/forget/stop/try + V-ing (action passée ou habituelle) vs + to infinitive (action future ou intentionnelle)."
+    }
+  ],
+  "exerciseresponses": []
+}

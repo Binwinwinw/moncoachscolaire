@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Geographie 1ere - Série 187",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "description": "Diagnostic Histoire-Geographie 1ere : Quiz Diagnostic 1ere Histoire-Géographie - Serie 13",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Histoire-Géographie - Serie 13",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel pays est considéré comme le berceau de la Révolution industrielle au XVIIIe siècle ?",
+        "choices": [
+          "La France",
+          "L'Allemagne",
+          "Le Royaume-Uni",
+          "Les États-Unis"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'exode rural accompagne l'industrialisation avec la migration des paysans vers les villes industrielles."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce qu'un prolétariat et comment apparaît-il avec l'industrialisation ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel philosophe théorise la lutte des classes entre bourgeoisie et prolétariat au XIXe siècle ?",
+        "choices": [
+          "Adam Smith",
+          "Karl Marx",
+          "Auguste Comte",
+          "John Stuart Mill"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les premières lois sociales protégeant les travailleurs sont adoptées en France sous la Troisième République."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que le mouvement ouvrier et quelles formes d'action développe-t-il au XIXe siècle ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que le taylorisme ?",
+        "choices": [
+          "Une doctrine économique libérale",
+          "Une méthode d'organisation scientifique du travail visant à maximiser la productivité",
+          "Un mouvement syndical américain",
+          "Une technique de construction industrielle"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La bourgeoisie industrielle devient la classe dominante du XIXe siècle, remplaçant progressivement l'aristocratie foncière."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

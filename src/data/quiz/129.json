@@ -1,0 +1,102 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ère Anglais - Série 05",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ère : Health, Lifestyle, Advanced Expression (Eduscol B1/B2)",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-09 17:04:00"
+  },
+  "quiz": {
+    "title": "1ère English Diagnostic - Series 05 (Health & Lifestyle)",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Fast food consumption has increased due to:",
+        "choices": [
+          "Busy lifestyles",
+          "Higher prices",
+          "Health awareness",
+          "Cooking classes"
+        ],
+        "correct_index": 0,
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Mental health issues among teens have risen with social media use.",
+        "correct": true,
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "Name 2 benefits of regular exercise for mental health.",
+        "placeholder": "ex: Reduces stress, improves sleep",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Phrasal verb: 'I need to _____ weight before summer.'",
+        "choices": [
+          "put on",
+          "lose",
+          "give up",
+          "look after"
+        ],
+        "correct_index": 1,
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Junk food was banned in all French schools last year.",
+        "correct": false,
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "How can schools promote healthy eating? 1 idea.",
+        "placeholder": "ex: Vending machines with fruits instead of crisps",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "The article was _____ by a nutritionist.",
+        "choices": [
+          "written",
+          "wrote",
+          "writing",
+          "writes"
+        ],
+        "correct_index": 0,
+        "id": 7
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Veganism has become more popular among young people.",
+        "correct": true,
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Health & Diet",
+      "description": "Fast food impact, veganism, mental health (Eduscol 1ère)"
+    },
+    {
+      "notion": "Lifestyle Choices",
+      "description": "Exercise benefits, school canteens, habits"
+    },
+    {
+      "notion": "Grammar",
+      "description": "Phrasal verbs (put on/lose), passive advanced"
+    }
+  ]
+}

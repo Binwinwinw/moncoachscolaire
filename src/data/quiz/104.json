@@ -1,0 +1,98 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ère Physique-Chimie - Dynamique",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Dynamique, forces, mouvement - Programme 1ère",
+    "status": "published",
+    "created_at": "2026-03-08 17:49:00",
+    "updated_at": "2026-03-08 17:49:00"
+  },
+  "quiz": {
+    "title": "Diagnostic 1ère - Dynamique & Forces",
+    "level": "1ere",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "La 2nde loi de Newton F = m × a signifie :",
+        "choices": [
+          "Force proportionnelle masse",
+          "Force = masse × accélération",
+          "vitesse constante",
+          "Énergie cinétique"
+        ],
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un objet au repos a une accélération nulle.",
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "Un objet de 2 kg subit F = 10 N. Calculez a = ... m/s²",
+        "placeholder": "5",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "La force gravitationnelle près Terre g ≈ :",
+        "choices": [
+          "9,81 N/kg",
+          "3,14 m/s",
+          "1 atm",
+          "300 000 km/s"
+        ],
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La résultante des forces détermine l'accélération.",
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "Poids P = m × g (m=5 kg). P = ... N",
+        "placeholder": "49",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "Principe d'inertie (1ère loi Newton) :",
+        "choices": [
+          "vitesse constante sans force",
+          "accélération infinie",
+          "force nulle",
+          "mouvement circulaire"
+        ],
+        "id": 7
+      },
+      {
+        "type": "texte",
+        "question": "F = 20 N, m = 4 kg. a = ... m/s²",
+        "placeholder": "5",
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "2nde loi Newton",
+      "description": "F = m × a (1ère PC Chap Dynamique)"
+    },
+    {
+      "notion": "Principe d'inertie",
+      "description": "v constante sans résultante (Galilée-Newton)"
+    },
+    {
+      "notion": "Poids et forces",
+      "description": "P = m × g ≈ 9,81 N/kg (1ère PC)"
+    }
+  ],
+  "exerciseresponses": []
+}

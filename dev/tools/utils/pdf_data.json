@@ -1,0 +1,513 @@
+{
+  "metadata": {
+    "source": "PDF Cahiers Complets",
+    "levels": [
+      "6ème",
+      "5ème",
+      "4ème",
+      "3ème"
+    ]
+  },
+  "data": {
+    "6ème": {
+      "Mathématiques": [
+        {
+          "numero": "1.1",
+          "titre": "Opérations avec les décimaux",
+          "contenu": "Consigne : E\u0000ectue les calculs suivants\n1. 45,23 + 17,89 = ____\n2. 82,5 - 34,17 = ____\n3. 12,4 × 5 = ____\n4. 52,6 ÷ 4 = ____\n5. 100,5 + 25,3 - 12,4 = ____",
+          "reponse": "1) 63,12 • 2) 48,33 • 3) 62 • 4) 13,15 • 5) 113,4"
+        },
+        {
+          "numero": "1.2",
+          "titre": "Fractions simples",
+          "contenu": "Consigne : Place les fractions sur la demi-droite graduée\nPlacer sur une demi-droite graduée de 0 à 3 : , , , , ,",
+          "reponse": "Placer sur la droite entre 0 et 3 en respectant les positions"
+        },
+        {
+          "numero": "1.3",
+          "titre": "Problème de proportionnalité",
+          "contenu": "Consigne : Résous ce problème\nÀ la cantine, 6 élèves mangent 18 yaourts. Combien de yaourts faut-il pour 15 élèves ?\nSolution : ____\nChapitre 2: Géométrie",
+          "reponse": "15 × 18 ÷ 6 = 45 yaourts"
+        },
+        {
+          "numero": "2.1",
+          "titre": "Calcul de périmètres",
+          "contenu": "Consigne : Calcule le périmètre des \u0000gures suivantes\n1. Rectangle de longueur 8 cm et largeur 5 cm\nPérimètre = ____\n2. Carré de côté 6 cm\nPérimètre = ____\n3. Triangle équilatéral de côté 4 cm\nPérimètre = ____",
+          "reponse": "1) 26 cm • 2) 24 cm • 3) 12 cm"
+        },
+        {
+          "numero": "2.2",
+          "titre": "Droites parallèles et perpendiculaires",
+          "contenu": "Consigne : Complète les a\u0000rmations\n1. Deux droites ______________ ne se coupent jamais.\n2. Deux droites ______________ se coupent à angle droit (90°).\n3. Pour tracer une perpendiculaire, j'utilise mon ______________ ou mon ______________.",
+          "reponse": "1) parallèles • 2) perpendiculaires • 3) équerre / règle"
+        },
+        {
+          "numero": "2.3",
+          "titre": "Angles",
+          "contenu": "Consigne : Classe ces angles du plus petit au plus grand\nAngle aigu (< 90°)\nAngle droit (= 90°)\nAngle obtus (> 90° et < 180°)\nAngle plat (= 180°)\nChapitre 3: Grandeurs et Mesures",
+          "reponse": "Non fournie"
+        },
+        {
+          "numero": "3.1",
+          "titre": "Conversions de durées",
+          "contenu": "Consigne : Convertis les durées\n1. 2 heures 30 minutes = ____ minutes\n2. 180 minutes = ____ heures\n3. 1 jour = ____ heures\n4. 48 heures = ____ jours",
+          "reponse": "1) 150 • 2) 3 • 3) 24 • 4) 2"
+        },
+        {
+          "numero": "3.2",
+          "titre": "Calcul d'aires",
+          "contenu": "Consigne : Calcule l'aire des \u0000gures\n1. Rectangle de longueur 10 cm et largeur 6 cm\nAire = ____ cm²\n2. Carré de côté 5 cm\nAire = ____ cm²\n3. Triangle avec base 8 cm et hauteur 4 cm\nAire = ____ cm²",
+          "reponse": "1) 60 cm² • 2) 25 cm² • 3) 16 cm²"
+        }
+      ],
+      "Français": [
+        {
+          "numero": "1.1",
+          "titre": "Verbe et sujet",
+          "contenu": "Consigne : Surligne le verbe conjugué et encadre le sujet\n1. Les élèves arrivent à l'école.\n2. Le professeur corrige les copies.\n3. Marie et Jean jouent au football.\n4. Le chat dort sous le soleil.\n5. Vous téléphonez à vos amis.",
+          "reponse": "Identi\u0000er verbes et sujets dans chaque phrase"
+        },
+        {
+          "numero": "1.2",
+          "titre": "Nature et fonction des mots",
+          "contenu": "Consigne : Identi\u0000e la nature des mots en gras\n1. Le soleil brille au-dessus des montagnes. (Nature : _____)\n2. Les enfants jouent gaiement dans le parc. (Nature : _____)\n3. Il aime les fruits rouges. (Nature : _____)\n4. Rapidement, le chien a couru après le ballon. (Nature : _____)",
+          "reponse": "1) article • 2) adverbe • 3) article • 4) adverbe"
+        },
+        {
+          "numero": "1.3",
+          "titre": "Compléments d'objet",
+          "contenu": "Consigne : Surligne le COD (complément d'objet direct) en vert\n1. Le joueur tape le ballon.\n2. Marie regarde un \u0000lm.\n3. Les enfants mangent des fruits.\n4. Le professeur explique la leçon aux élèves.\n5. J'aime mon ami.\nChapitre 2: Conjugaison",
+          "reponse": "1) le ballon • 2) un \u0000lm • 3) des fruits • 4) la leçon"
+        },
+        {
+          "numero": "2.1",
+          "titre": "Présent de l'indicatif",
+          "contenu": "Consigne : Conjugue les verbes au présent\n• Être : Je _______, tu _______, il/elle _______, nous _______, vous _______, ils/elles _______\n• Avoir : Je _______, tu _______, il/elle _______, nous _______, vous _______, ils/elles _______\n• Aller : Je _______, tu _______, il/elle _______, nous _______, vous _______, ils/elles _______\n• Parler : Je _______, tu _______, il/elle _______, nous _______, vous _______, ils/elles _______",
+          "reponse": "Non fournie"
+        },
+        {
+          "numero": "2.2",
+          "titre": "Imparfait",
+          "contenu": "Consigne : Conjugue à l'imparfait\n1. Quand j'(être) _______ enfant, j'(jouer) _______ souvent.\n2. Nous (habiter) _______ dans une petite maison.\n3. Elles (faire) _______ leurs devoirs chaque soir.\n4. Tu (avoir) _______ un chien noir.",
+          "reponse": "1) était, jouais • 2) habitions • 3) faisaient • 4) avais"
+        },
+        {
+          "numero": "2.3",
+          "titre": "Passé composé",
+          "contenu": "Consigne : Conjugue au passé composé\n1. Je (aller) _______ au cinéma hier.\n2. Elle (manger) _______ une pomme.\n3. Vous (voir) _______ ce \u0000lm ?\n4. Ils (jouer) _______ au football.\nChapitre 3: Orthographe et Vocabulaire",
+          "reponse": "1) suis allé(e) • 2) a mangé • 3) avez vu • 4) ont joué"
+        },
+        {
+          "numero": "3.1",
+          "titre": "Accords grammaticaux",
+          "contenu": "Consigne : Accorde correctement les adjectifs\n1. des enfants _______ (heureux)\n2. une maison _______ (grand)\n3. les \u0000lles _______ (blond)\n4. un garçon _______ (intelligent)",
+          "reponse": "1) heureux • 2) grande • 3) blondes • 4) intelligent"
+        },
+        {
+          "numero": "3.2",
+          "titre": "Mots de la même famille",
+          "contenu": "Consigne : Complète avec des mots de la même famille\n1. jouer → _______ → joyeux\n2. lire → _______ → lecture\n3. marcher → _______ → marche\n4. dormir → _______ → sommeil",
+          "reponse": "1) jeu • 2) lecteur • 3) marche • 4) dormir/sommeil"
+        },
+        {
+          "numero": "3.3",
+          "titre": "Synonymes et antonymes",
+          "contenu": "Consigne : Trouve un synonyme et un antonyme\nMot Synonyme Antonyme\nGrand _______ _______\nRapide _______ _______\nBeau _______ _______\nChaud _______ _______\nTable 1: Synonymes et antonymes",
+          "reponse": "Beau = magni\u0000que/laid • Rapide = vite/lent • Grand = immense/petit • Chaud ="
+        }
+      ],
+      "Anglais": [
+        {
+          "numero": "1.1",
+          "titre": "Pronoms personnels",
+          "contenu": "Consigne : Complète avec les pronoms personnels (I, you, he, she, it, we, they)\n1. _______ am a student. (Je)\n2. _______ are teachers. (Ils)\n3. _______ is eleven years old. (Elle)\n4. _______ have a dog. (Nous)\n5. _______ has a sister. (Il)",
+          "reponse": "1) I • 2) They • 3) She • 4) We • 5) He"
+        },
+        {
+          "numero": "1.2",
+          "titre": "Présent simple du verbe « to be »",
+          "contenu": "Consigne : Conjugue le verbe « to be » au présent\n1. I _______ happy.\n2. You _______ my friend.\n3. He _______ a student.\n4. We _______ in France.\n5. They _______ British.",
+          "reponse": "1) am • 2) are • 3) is • 4) are • 5) are"
+        },
+        {
+          "numero": "1.3",
+          "titre": "Présent simple (verbes réguliers)",
+          "contenu": "Consigne : Conjugue les verbes au présent simple\n| I | play | |\n| He/She | _______ | plays |\n| They | _______ | |\n| We | _______ | |\nChapitre 2: Vocabulaire",
+          "reponse": "I play • He/She plays • They play • We play"
+        },
+        {
+          "numero": "2.1",
+          "titre": "Les couleurs (Colours)",
+          "contenu": "Consigne : Écris la couleur en",
+          "reponse": "1) red • 2) blue • 3) green • 4) yellow • 5) black"
+        }
+      ]
+    },
+    "5ème": {
+      "Mathématiques": [
+        {
+          "numero": "1.1",
+          "titre": "Fractions et simpli\u0000cations",
+          "contenu": "Consigne : Écris les fractions suivantes sous forme simpli\u0000ée\n1. = ______\n2. = ______\n3. = ______\n4. = ______\n5. = ______",
+          "reponse": "1) • 2) • 3) • 4) • 5)"
+        },
+        {
+          "numero": "1.2",
+          "titre": "Calculs avec des fractions",
+          "contenu": "Consigne : E\u0000ectue les calculs et donne le résultat sous forme de fraction simpli\u0000ée\n1. = ______\n2. = ______\n3. = ______\n4. = ______",
+          "reponse": "1) • 2) • 3) • 4)"
+        },
+        {
+          "numero": "1.3",
+          "titre": "Puissances",
+          "contenu": "Consigne : Calcule les puissances suivantes\n1. ______\n2. ______\n3. ______\n4. ______\n5. ______",
+          "reponse": "1) 8 • 2) 25 • 3) 1000 • 4) 9 • 5) -8"
+        },
+        {
+          "numero": "1.4",
+          "titre": "Proportionnalité",
+          "contenu": "Consigne : Complète le tableau de proportionnalité\nUn carnet coûte 2,50 €. Complète le tableau :\n| Nombre de carnets | 1 | 2 | 4 | 10 |\n| Prix en € | 2,50 | ______ | ______ | ______ |\nChapitre 2: Géométrie",
+          "reponse": "5 €, 10 €, 25 €"
+        },
+        {
+          "numero": "2.1",
+          "titre": "Propriétés des triangles",
+          "contenu": "Consigne : Classe les triangles suivants selon leur nature\n1. Triangle avec côtés 5 cm, 5 cm, 5 cm : ______\n2. Triangle avec côtés 4 cm, 4 cm, 6 cm : ______\n3. Triangle avec côtés 3 cm, 4 cm, 5 cm : ______\n4. Triangle avec côtés 2 cm, 3 cm, 4 cm : ______",
+          "reponse": "Non fournie"
+        },
+        {
+          "numero": "2.2",
+          "titre": "Parallélogrammes",
+          "contenu": "Consigne : Complète les phrases suivantes\n1. Dans un parallélogramme, les côtés opposés sont ____________ et ____________.\n2. Dans un parallélogramme, les diagonales se ____________.\n3. Un rectangle est un ____________ particulier.\n4. Un losange est un parallélogramme qui a ses quatre côtés ____________.",
+          "reponse": "Non fournie"
+        },
+        {
+          "numero": "2.3",
+          "titre": "Construction de triangle",
+          "contenu": "Consigne : Sur ta feuille, construis un triangle ABC tel que :\nAB = 5 cm\nAC = 7 cm\nPuis indique la nature du triangle.\nChapitre 3: Grandeurs et Statistiques",
+          "reponse": "Non fournie"
+        },
+        {
+          "numero": "3.1",
+          "titre": "Conversions",
+          "contenu": "Consigne : E\u0000ectue les conversions suivantes\n1. 3,5 km = ______ m\n2. 4500 m = ______ km\n3. 2,3 kg = ______ g\n4. 750 g = ______ kg",
+          "reponse": "Non fournie"
+        },
+        {
+          "numero": "3.2",
+          "titre": "Aires de \u0000gures",
+          "contenu": "Consigne : Calcule l'aire des \u0000gures suivantes\n1. Rectangle de longueur 12 cm et largeur 5 cm : Aire = ______ cm²\n2. Triangle de base 10 cm et de hauteur 6 cm : Aire = ______ cm²\n3. Parallélogramme de base 8 cm et hauteur 5 cm : Aire = ______ cm²",
+          "reponse": "Non fournie"
+        },
+        {
+          "numero": "3.3",
+          "titre": "Diagramme et moyenne",
+          "contenu": "Notes obtenues : 12, 15, 9, 18, 10, 14, 16, 8, 11, 15\nConsigne :\n1. Calcule la moyenne de la classe.\n2. Combien d'élèves ont une note ≥ 15 ?\n3. Combien d'élèves ont une note < 10 ?",
+          "reponse": "Non fournie"
+        }
+      ],
+      "Français": [
+        {
+          "numero": "1.1",
+          "titre": "Phrase simple et phrase complexe",
+          "contenu": "Consigne : Indique si la phrase est simple (S) ou complexe (C)\n1. Les élèves sortent de la classe. (____)\n2. Quand il pleut, je prends mon parapluie. (____)\n3. Le professeur explique la leçon et les élèves écoutent. (____)\n4. Elle lit un livre qui lui plaît beaucoup. (____)",
+          "reponse": "1) S • 2) C • 3) C • 4) C"
+        },
+        {
+          "numero": "1.2",
+          "titre": "Propositions subordonnées",
+          "contenu": "Consigne : Surligne la proposition subordonnée et indique son type\n1. Le \u0000lm que tu as choisi est très intéressant. (Type : ______)\n2. Quand il fait beau, nous allons au parc. (Type : ______)\n3. La maison où j'habite est ancienne. (Type : ______)",
+          "reponse": "1) relative • 2) circonstancielle • 3) relative"
+        },
+        {
+          "numero": "1.3",
+          "titre": "Fonctions (sujet, COD, COI)",
+          "contenu": "Consigne : Indique la fonction du groupe de mots en gras\n1. Les élèves écoutent le professeur. (Fonction : ______)\n2. Il regarde le \u0000lm. (Fonction : ______)\n3. Elle parle à sa sœur. (Fonction : ______)\n4. Nous donnons un cadeau à notre ami. (Fonction : ______)\nChapitre 2: Conjugaison",
+          "reponse": "1) sujet • 2) COD • 3) COI • 4) COD"
+        },
+        {
+          "numero": "2.1",
+          "titre": "Conjugaison aux di\u0000érents temps",
+          "contenu": "Consigne : Conjugue les verbes au temps demandé\n1. Demain, nous (aller) _______ au musée. (futur simple)\n2. Quand j'étais petit, je (jouer) _______ dans le jardin. (imparfait)\n3. En ce moment, tu (faire) _______ tes devoirs. (présent)\n4. Plus tard, ils (être) _______ médecins. (futur simple)",
+          "reponse": "1) irons • 2) jouais • 3) fais • 4) seront"
+        },
+        {
+          "numero": "2.2",
+          "titre": "Passé composé / Plus-que-parfait",
+          "contenu": "Consigne : Conjugue les verbes au temps demandé\n1. Hier, nous (\u0000nir) _______ notre travail. (passé composé)\n2. Il (déjà voir) _______ ce \u0000lm quand je suis arrivé. (plus-que-parfait)\n3. Elle (prendre) _______ le bus ce matin. (passé composé)\n4. Ils (déjà manger) _______ quand tu es venu. (plus-que-parfait)",
+          "reponse": "1) avons \u0000ni • 2) avait vu • 3) a pris • 4) avaient mangé"
+        },
+        {
+          "numero": "2.3",
+          "titre": "Accord du participe passé",
+          "contenu": "Consigne : Accorde correctement le participe passé\n1. Les lettres que j'ai (écrire) _______ sont importantes.\n2. Les \u0000lles sont (arriver) _______ en retard.\n3. La chanson qu'elle a (chanter) _______ était émouvante.\n4. Ils se sont (promener) _______ dans le parc.\nChapitre 3: Orthographe et Vocabulaire",
+          "reponse": "1) écrites • 2) arrivées • 3) chantée • 4) promenés"
+        },
+        {
+          "numero": "3.1",
+          "titre": "Homophones grammaticaux",
+          "contenu": "Consigne : Choisis entre « a / à », « et / est »\n1. Il ____ un chien ____ un chat.\n2. Elle ____ partie ____ la bibliothèque.\n3. Pierre ____ Marie jouent dans le jardin.\n4. Il ____ trois livres ____ lire.",
+          "reponse": "1) a / et • 2) est / à • 3) et • 4) a / à"
+        },
+        {
+          "numero": "3.2",
+          "titre": "Familles de mots",
+          "contenu": "Consigne : Complète avec un mot de la même famille\n1. clair → _______ → éclaircir\n2. chant → _______ → chanter\n3. rapide → _______ → rapidité\n4. lire → _______ → lecture",
+          "reponse": "1) clarté • 2) chanteur • 3) rapidement • 4) lecteur"
+        },
+        {
+          "numero": "3.3",
+          "titre": "Champ lexical",
+          "contenu": "Consigne : Donne quatre mots appartenant au champ lexical de « la mer »\n1.\n2.\n3.\n4.",
+          "reponse": "Non fournie"
+        }
+      ],
+      "Anglais": [
+        {
+          "numero": "1.1",
+          "titre": "Present simple vs Present continuous",
+          "contenu": "Consigne : Mets le verbe au présent simple ou au présent continu\n1. She usually (go) _______ to school by bus.\n2. Look! It (rain) _______ outside.\n3. We (play) _______ football every Saturday.\n4. Right now, they (do) _______ their homework.",
+          "reponse": "1) goes • 2) is raining • 3) play • 4) are doing"
+        },
+        {
+          "numero": "1.2",
+          "titre": "Past simple",
+          "contenu": "Consigne : Mets les verbes au prétérit\n1. Yesterday, I (go) _______ to the cinema.\n2. She (watch) _______ a movie last night.\n3. They (have) _______ a big party.\n4. We (study) _______ English yesterday.",
+          "reponse": "1) went • 2) watched • 3) had • 4) studied"
+        },
+        {
+          "numero": "1.3",
+          "titre": "Questions et négations",
+          "contenu": "Consigne : Transforme les phrases au passé simple\n1. He played football.\nQuestion : _______\nNégative : _______\n2. They went to London.\nQuestion : _______\nNégative : _______\nChapitre 2: Vocabulaire",
+          "reponse": "1) Did he play football? / He didn't play football • 2) Did they go to London? /"
+        },
+        {
+          "numero": "2.1",
+          "titre": "Daily routine",
+          "contenu": "Consigne : Traduis en",
+          "reponse": "1) I wake up at 7 o'clock • 2) I have breakfast • 3) I go to school • 4) I do my"
+        }
+      ]
+    },
+    "4ème": {
+      "Mathématiques": [
+        {
+          "numero": "1.1",
+          "titre": "Calculs avec nombres relatifs",
+          "contenu": "Consigne : E\u0000ectue les calculs suivants\n1. (-5) + 12 = ______\n2. 7 - (-3) = ______\n3. (-8) - 5 = ______\n4. (-4) × (-6) = ______\n5. 18 ÷ (-3) = ______",
+          "reponse": "1) 7 • 2) 10 • 3) -13 • 4) 24 • 5) -6"
+        },
+        {
+          "numero": "1.2",
+          "titre": "Fractions et écritures décimales",
+          "contenu": "Consigne : Donne l'écriture décimale et simpli\u0000e\n1. = ______\n2. = ______\n3. = ______\n4. = ______",
+          "reponse": "1) 0,75 • 2) 1,4 • 3) 0,25 • 4) 1,5"
+        },
+        {
+          "numero": "1.3",
+          "titre": "Puissances et priorités",
+          "contenu": "Consigne : Calcule en respectant les priorités\n1. ______\n2. ______\n3. ______\n4. ______\nChapitre 2: Expressions et Équations",
+          "reponse": "1) 16 • 2) -27 • 3) 28 • 4) 2"
+        },
+        {
+          "numero": "2.1",
+          "titre": "Développement",
+          "contenu": "Consigne : Développe et réduis\n1. ______\n2. ______\n3. ______\n4. ______",
+          "reponse": "1) • 2) • 3) • 4)"
+        },
+        {
+          "numero": "2.2",
+          "titre": "Réduction d'expressions",
+          "contenu": "Consigne : Réduis les expressions\n1. ______\n2. ______\n3. ______\n4. ______",
+          "reponse": "1) • 2) • 3) • 4)"
+        },
+        {
+          "numero": "2.3",
+          "titre": "Équations simples",
+          "contenu": "Consigne : Résous les équations\n1.\n2.\n3.\n4.\nChapitre 3: Géométrie",
+          "reponse": "1) x = 4 • 2) x = 3 • 3) x = 7 • 4) x = 4"
+        },
+        {
+          "numero": "3.1",
+          "titre": "Théorème de Pythagore",
+          "contenu": "Consigne : Dans un triangle rectangle ABC rectangle en A, AB = 6 cm, AC = 8 cm.\n1. Calcule la longueur BC.\n2. Donne la valeur de BC au dixième près.",
+          "reponse": "BC = 10 cm"
+        },
+        {
+          "numero": "3.2",
+          "titre": "Réciproque de Pythagore",
+          "contenu": "Consigne : Indique si les triangles suivants sont rectangles\n1. Côtés : 5 cm, 12 cm, 13 cm\n2. Côtés : 7 cm, 24 cm, 25 cm\n3. Côtés : 4 cm, 5 cm, 6 cm",
+          "reponse": "Non fournie"
+        },
+        {
+          "numero": "3.3",
+          "titre": "Thalès",
+          "contenu": "Consigne : Dans un triangle ABC, DE est parallèle à BC.\nAD = 3 cm, AE = 4 cm, AB = 6 cm.\n1. Calcule le rapport AD/AB.\n2. Déduis AC.\n3. Si BC = 8 cm, calcule DE.",
+          "reponse": "Non fournie"
+        }
+      ],
+      "Français": [
+        {
+          "numero": "1.1",
+          "titre": "Identi\u0000er les subordonnées",
+          "contenu": "Consigne : Surligne la subordonnée et précise son type\n1. Je pense qu'il viendra demain. (Type : ______)\n2. Nous irons au parc si le temps le permet. (Type : ______)\n3. Le livre que tu m'as prêté est passionnant. (Type : ______)",
+          "reponse": "1) conjonctive • 2) circonstancielle • 3) relative"
+        },
+        {
+          "numero": "1.2",
+          "titre": "Fonctions dans la phrase",
+          "contenu": "Consigne : Indique la fonction des groupes en gras\n1. Les élèves travaillent sérieusement. (Fonction : ______)\n2. Il regarde le match à la télévision. (Fonction : ______)\n3. Ils parlent à leurs parents. (Fonction : ______)\n4. Nous partirons demain matin. (Fonction : ______)\nChapitre 2: Conjugaison (Indicatif et Conditionnel)",
+          "reponse": "1) sujet • 2) COD + complément circonstanciel • 3) COI • 4) complément"
+        },
+        {
+          "numero": "2.1",
+          "titre": "Di\u0000érents temps",
+          "contenu": "Consigne : Conjugue les verbes au temps indiqué\n1. Hier, il (manger) _______ au restaurant. (passé simple)\n2. Quand nous étions petits, nous (jouer) _______ (imparfait)\n3. Aujourd'hui, tu (faire) _______ un exposé. (présent)",
+          "reponse": "1) mangea • 2) jouions • 3) fais"
+        },
+        {
+          "numero": "2.2",
+          "titre": "Conditionnel présent",
+          "contenu": "Consigne : Conjugue au conditionnel présent\n1. Si j'avais le temps, je (lire) _______ plus de livres.\n2. Nous (aimer) _______ visiter ce musée.\n3. Tu (pouvoir) _______ m'aider, s'il te plaît ?\n4. Ils (vouloir) _______ partir plus tôt.\nChapitre 3: Orthographe et Rédaction",
+          "reponse": "1) lirais • 2) aimerions • 3) pourrais • 4) voudraient"
+        },
+        {
+          "numero": "3.1",
+          "titre": "Participes passés",
+          "contenu": "Consigne : Accorde et réécris\n1. Les valises qu'ils ont (porter) _______ sont lourdes.\n2. Les \u0000lles se sont (dépêcher) _______.\n3. La lettre qu'elle a (écrire) _______ est longue.",
+          "reponse": "1) portées • 2) dépêchées • 3) écrite"
+        },
+        {
+          "numero": "3.2",
+          "titre": "Champs lexicaux",
+          "contenu": "Consigne : Donne quatre mots du champ lexical de « la peur »\n1.\n2.\n3.\n4.",
+          "reponse": "Exemples : frayeur, angoisse, terreur, inquiétude, crainte, panique"
+        },
+        {
+          "numero": "3.3",
+          "titre": "Rédaction courte",
+          "contenu": "Consigne : Rédige un court paragraphe (5 à 7 lignes) racontant un souvenir marquant.",
+          "reponse": "Non fournie"
+        }
+      ],
+      "Anglais": [
+        {
+          "numero": "1.1",
+          "titre": "Present perfect vs Past simple",
+          "contenu": "Consigne : Choisis entre present perfect et past simple\n1. I (see) _______ this \u0000lm last week.\n2. She (already / \u0000nish) _______ her homework.\n3. We (go) _______ to London in 2020.\n4. They (just / arrive) _______.",
+          "reponse": "1) saw • 2) has already \u0000nished • 3) went • 4) have just arrived"
+        },
+        {
+          "numero": "1.2",
+          "titre": "For / Since",
+          "contenu": "Consigne : Complète avec « for » ou « since »\n1. I have lived here _______ \u0000ve years.\n2. She has known him _______ 2019.\n3. We have studied English _______ two hours.\n4. They have been friends _______ childhood.\nChapitre 2: Vocabulaire et Expressions",
+          "reponse": "1) for • 2) since • 3) for • 4) since"
+        },
+        {
+          "numero": "2.1",
+          "titre": "Comparatifs",
+          "contenu": "Consigne : Mets l'adjectif au comparatif de supériorité\n1. tall → _______\n2. interesting → _______\n3. good → _______\n4. far → _______",
+          "reponse": "1) taller • 2) more interesting • 3) better • 4) farther / further"
+        },
+        {
+          "numero": "2.2",
+          "titre": "École et loisirs",
+          "contenu": "Consigne : Traduis en",
+          "reponse": "Non fournie"
+        }
+      ]
+    },
+    "3ème": {
+      "Mathématiques": [
+        {
+          "numero": "1.1",
+          "titre": "PGCD et Racines carrées",
+          "contenu": "Consigne : Calcule\n1. PGCD(18 ; 24) = ______\n2. PGCD(45 ; 60) = ______\n3. ______\n4. ______",
+          "reponse": "1) 6 • 2) 15 • 3) 7 • 4) 9"
+        },
+        {
+          "numero": "1.2",
+          "titre": "Équations du 1er degré",
+          "contenu": "Consigne : Résous\n1.\n2.\n3.",
+          "reponse": "1) x = 8 • 2) x = -2 • 3) x = 6"
+        },
+        {
+          "numero": "1.3",
+          "titre": "Lecture de fonction",
+          "contenu": "Consigne : Une fonction linéaire : f(0) = 2, f(2) = 6\n1. Détermine le coe\u0000cient directeur.\n2. Donne l'expression de f(x).\n3. Calcule f(5).\nChapitre 2: Géométrie (Brevet)",
+          "reponse": "1) pente = 2 • 2) f(x) = 2x + 2 • 3) f(5) = 12"
+        },
+        {
+          "numero": "2.1",
+          "titre": "Thalès",
+          "contenu": "Consigne : Dans un triangle ABC, D est sur [AB], E sur [AC], DE // BC.\nAD = 3 cm, AB = 9 cm, AE = 4 cm.\n1. Calcule le rapport AD/AB.\n2. En déduire AC.",
+          "reponse": "1) AD/AB = 1/3 • 2) AC = 12 cm"
+        },
+        {
+          "numero": "2.2",
+          "titre": "Trigonométrie",
+          "contenu": "Consigne : Triangle rectangle en A : AB = 5 cm, AC = 12 cm\n1. Calcule BC (Pythagore).\n2. Calcule cos B.\nChapitre 3: Statistiques et Probabilités",
+          "reponse": "1) BC = 13 cm • 2) cos B = 5/13"
+        },
+        {
+          "numero": "3.1",
+          "titre": "Fréquences",
+          "contenu": "Consigne : Temps de travail quotidien (20 élèves) :\n0-1 h : 4 élèves\n1-2 h : 8 élèves\n2-3 h : 6 élèves\n3 h : 2 élèves\n1. Calcule la fréquence de chaque classe.\n2. Classe la plus fréquente ?",
+          "reponse": "Fréquences : 0,2 ; 0,4 ; 0,3 ; 0,1 • Classe 1-2 h la plus fréquente"
+        },
+        {
+          "numero": "3.2",
+          "titre": "Probabilités",
+          "contenu": "Consigne : Dé à 6 faces équilibré\n1. Probabilité d'obtenir un nombre pair.\n2. Probabilité d'obtenir un nombre > 4.",
+          "reponse": "1) 1/2 • 2) 1/3"
+        }
+      ],
+      "Français": [
+        {
+          "numero": "1.1",
+          "titre": "Types de discours",
+          "contenu": "Consigne : Indique le type de discours\n1. Je pense que la lecture est essentielle. (Type : ______)\n2. Le jardin était couvert de \u0000eurs colorées. (Type : ______)\n3. Hier, nous avons visité un musée d'art moderne. (Type : ______)",
+          "reponse": "1) argumentatif • 2) descriptif • 3) narratif"
+        },
+        {
+          "numero": "1.2",
+          "titre": "Connecteurs logiques",
+          "contenu": "Consigne : Complète avec un connecteur adapté\n1. Je voulais sortir, ______ il pleuvait beaucoup.\n2. Il a beaucoup travaillé, ______ il a réussi son examen.\n3. ______, nous présenterons le contexte.\n4. Il dit la vérité, ______ il était présent ce jour-là.\nChapitre 2: Discours Rapporté et Conjugaison",
+          "reponse": "1) mais • 2) donc • 3) D'abord • 4) en e\u0000et"
+        },
+        {
+          "numero": "2.1",
+          "titre": "Discours indirect",
+          "contenu": "Consigne : Transforme au discours indirect\n1. Il dit : « Je viendrai demain. » → Il dit que _______.\n2. Elle a déclaré : « J'ai terminé mon travail. » → Elle a déclaré qu'_______.\n3. Ils ont répondu : « Nous ne pouvons pas venir. » → Ils ont répondu qu'_______.\nChapitre 3: Rédaction (Brevet)",
+          "reponse": "1) qu'il viendra demain • 2) qu'elle avait terminé son travail • 3) qu'ils ne"
+        },
+        {
+          "numero": "3.1",
+          "titre": "Récit",
+          "contenu": "Consigne : Rédige un récit d'une vingtaine de lignes racontant un événement important\n(imparfait, passé simple, passé composé, 3 connecteurs logiques minimum).",
+          "reponse": "Non fournie"
+        }
+      ],
+      "Anglais": [
+        {
+          "numero": "1.1",
+          "titre": "Passive voice",
+          "contenu": "Consigne : Mets les phrases à la voix passive\n1. People speak English all over the world. → _______\n2. They built this bridge in 1990. → _______",
+          "reponse": "1) English is spoken all over the world • 2) This bridge was built in 1990"
+        },
+        {
+          "numero": "1.2",
+          "titre": "If clauses",
+          "contenu": "Consigne : Complète\n1. If it rains, I _______ (stay) at home.\n2. If I were rich, I _______ (travel) around the world.\n3. If you study, you _______ (pass) your exam.\nChapitre 2: Vocabulaire et Expression",
+          "reponse": "1) will stay • 2) would travel • 3) will pass"
+        },
+        {
+          "numero": "2.1",
+          "titre": "Exprimer une opinion",
+          "contenu": "Consigne : Traduis en",
+          "reponse": "1) In my opinion, the Internet is very useful • 2) I think that books are"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "target_quiz_per_pair": 50,
+  "default_question_count": 8,
+  "paths": {
+    "public_quiz": "src/data/quiz",
+    "quiz_answers": "src/data/quiz_answers",
+    "src_quiz_optional": "src/data/quiz"
+  },
+  "normalization": {
+    "level_aliases": {
+      "6ème": "6eme",
+      "5ème": "5eme",
+      "4ème": "4eme",
+      "3ème": "3eme",
+      "2nde": "seconde",
+      "1ère": "1ere",
+      "premiere": "1ere",
+      "première": "1ere"
+    },
+    "subject_aliases": {
+      "Mathematiques": "Mathématiques",
+      "Francais": "Français"
+    }
+  }
+}

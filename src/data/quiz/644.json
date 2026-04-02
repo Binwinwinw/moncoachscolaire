@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 644",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 1ère : La transmission héréditaire des maladies génétiques",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "La transmission héréditaire des maladies génétiques",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Une maladie autosomique récessive se manifeste chez un individu :",
+        "choices": [
+          "Porteur d'un seul allèle muté (hétérozygote)",
+          "Homozygote pour l'allèle muté (deux allèles malades)",
+          "Porteur de l'allèle sur le chromosome X",
+          "Uniquement chez les femmes"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'hémophilie A est une maladie récessive liée au chromosome X qui touche principalement les garçons."
+      },
+      {
+        "type": "open",
+        "question": "La mucoviscidose est caused par une mutation du gène _____ (CFTR) qui code une protéine canal chlorure dans les épithéliums."
+      },
+      {
+        "type": "qcm",
+        "question": "Un arbre généalogique montre que deux parents sains ont un enfant atteint d'une maladie. Cela suggère une transmission :",
+        "choices": [
+          "Autosomique dominante",
+          "Autosomique récessive (les deux parents sont porteurs hétérozygotes)",
+          "Liée au chromosome Y",
+          "Non héréditaire"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le conseil génétique permet d'évaluer le risque de transmission d'une maladie génétique dans une famille et d'envisager un diagnostic prénatal."
+      },
+      {
+        "type": "open",
+        "question": "Le dépistage néonatal systématique en France teste dès la naissance 6 maladies dont la phénylcétonurie, la _____ congénitale et la mucoviscidose (test de Guthrie)."
+      },
+      {
+        "type": "qcm",
+        "question": "La thérapie génique vise à :",
+        "choices": [
+          "Remplacer un organe défaillant",
+          "Introduire un gène fonctionnel dans les cellules d'un patient pour corriger un déficit génétique",
+          "Augmenter artificiellement les performances sportives",
+          "Modifier le génome des gamètes pour éliminer les maladies génétiques"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "CRISPR-Cas9 est une technique d'édition du génome précise qui permet de modifier, supprimer ou insérer des séquences d'ADN spécifiques."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

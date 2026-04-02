@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 706",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie 3ème : Réactions chimiques : précipitation et dissolution",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Réactions chimiques : précipitation et dissolution",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'un précipité dans une réaction chimique ?",
+        "choices": [
+          "Un gaz libéré lors de la réaction",
+          "Un solide insoluble formé lors du mélange de deux solutions",
+          "Une solution très concentrée",
+          "Un liquide huileux"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le précipité chlorure d'argent AgCl est blanc."
+      },
+      {
+        "type": "open",
+        "question": "Quel réactif permet de détecter les ions fer III (Fe3+) en solution en formant un précipité rouille ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel test permet de détecter les ions sulfate SO4(2-) en solution ?",
+        "choices": [
+          "Ajout de NaOH",
+          "Ajout de chlorure de baryum BaCl2",
+          "Ajout de nitrate d'argent",
+          "Test à la flamme"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le précipité d'hydroxyde de cuivre Cu(OH)2 est de couleur bleue."
+      },
+      {
+        "type": "open",
+        "question": "Quel ion est révélé par la formation d'un précipité blanc caillé avec le nitrate d'argent AgNO3 ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Comment appelle-t-on la réaction entre un acide et une base qui produit de l'eau et un sel ?",
+        "choices": [
+          "Précipitation",
+          "Neutralisation",
+          "Oxydation",
+          "Combustion"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La réaction entre le fer et le soufre chauffé produit un nouveau corps : le sulfure de fer (FeS)."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

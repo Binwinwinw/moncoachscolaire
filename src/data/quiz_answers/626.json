@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 626",
+    "level": "1ère",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "Les maladies cardiovasculaires et la nutrition",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Un dépôt de plaques lipidiques (athéromes) dans les parois artérielles réduisant leur lumière",
+        "correct": 1,
+        "correction": "L'athérosclérose entraîne un rétrécissement des artères (sténose) ; une rupture de plaque peut provoquer un caillot -> infarctus ou AVC."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "LDL transporte le cholestérol vers les tissus (peut se déposer) ; HDL le transporte vers le foie pour élimination."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "oxygène",
+        "correction": "L'ischémie myocardique (manque d'O2) provoque la nécrose des cardiomyocytes ; les signes cliniques sont douleur thoracique, élévation des troponines."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Le tabagisme, l'hypertension, l'obésité, le diabète, la sédentarité",
+        "correct": 1,
+        "correction": "Les facteurs modifiables sont cibles des interventions préventives ; les non modifiables (âge, sexe, génétique) informent sur le risque de base."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les graisses saturées augmentent le LDL ; le sel augmente la pression artérielle ; les deux sont des facteurs de risque cardiovasculaire."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "140",
+        "correction": "HTA : pression systolique > 140 mmHg et/ou diastolique > 90 mmHg au repos ; l'HTA est un facteur majeur d'infarctus et d'AVC."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Améliore le profil lipidique, renforce le coeur et réduit la pression artérielle",
+        "correct": 2,
+        "correction": "L'activité physique aérobique améliore le HDL, réduit le LDL, renforce le muscle cardiaque et régule la pression artérielle."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les statines inhibent l'HMG-CoA réductase (enzyme clé de la synthèse du cholestérol hépatique) -> réduction du LDL de 30-50%."
+      }
+    ]
+  }
+}

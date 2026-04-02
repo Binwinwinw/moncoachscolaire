@@ -1,0 +1,91 @@
+# MonCoachScolaire - Git ignore policy (security-first)
+
+# 1) Ignore everything by default (allowlist strategy)
+/*
+
+# 2) Allowlist: only what is expected to be versioned
+!.gitignore
+!README.md
+!DOCUMENTATION.md
+!CONTEXT_INDEX.md
+!CONTEXT_BUNDLE.md
+!ARCHITECTURE.md
+!AGENTS.md
+!CONTRIBUTING.md
+!composer.json
+!package.json
+!tailwind.config.js
+!postcss.config.js
+!playwright.config.js
+
+!.github/
+!.agents/
+!docs/
+!public/
+!src/
+!tests/
+!python/
+
+# Minimal dev tracking (journal + tooling docs)
+!dev/
+!dev/JOURNAL_REPRISE.md
+!dev/SUIVI_BUGS_AMELIORATIONS.md
+!dev/tools/
+!dev/tools/README.md
+
+# DB docs only (never dumps)
+!db/
+!db/README.md
+
+# 3) Never commit sensitive/local/generated data
+
+# Secrets and env
+.env
+.env.*
+!.env.example
+
+# Local environments and dependencies
+.venv/
+venv/
+node_modules/
+vendor/
+
+# Sensitive runtime config
+src/config/config.php
+
+# Database dumps and data exports
+*.sql
+db/*.sql
+db/json/*.json
+dev/backups/
+dev/backups/*.sql
+.backups/
+
+# Internal agent assistant data
+.assistant/
+
+# Logs and reports
+*.log
+dev/**/*.log
+reports/
+test-results/
+
+# Temp and OS files
+*.bak
+*.tmp
+*~
+ehthumbs.db
+.directory
+.DS_Store
+.Spotlight-V100
+
+# Tooling cache/index
+.gitnexus/
+.memory/
+
+# Python build artifacts
+__pycache__/
+*.pyc
+
+# Keep this workflow private by default
+.github/prompts/ui-ux-pro-max/

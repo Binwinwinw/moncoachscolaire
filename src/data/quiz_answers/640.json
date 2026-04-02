@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 640",
+    "level": "1ère",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "La reproduction sexuée et la méiose",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Produit quatre cellules haploïdes à partir d'une cellule diploïde",
+        "correct": 1,
+        "correction": "La méiose comprend deux divisions (méiose I & II) et produit 4 cellules haploïdes (n chromosomes) ; elle génère les gamètes chez les animaux et les spores chez les végétaux."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Brassage interchromosomique (2²³ combinaisons chez l'Homme) + crossing-over (recombinaison génétique entre chromatides) = diversité quasi-infinie des gamètes."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "prophase",
+        "correction": "En prophase I, les tétrades (bivalents) se forment ; les chromatides non-sœurs échangent des segments d'ADN homologues au niveau des chiasmas."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Un zygote diploïde (2n=46)",
+        "correct": 1,
+        "correction": "La fécondation (amphimixie) restaure la ploïdie diploïde (2n=46) à partir de deux gamètes haploïdes ; alternance de méiose et fécondation garantit la constance du caryotype."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Mitose : division équationnelle, 2 cellules filles 2n identiques (croissance, remplacement). Méiose : division réductionnelle, 4 cellules n diversifiées (reproduction sexuée)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "mâles",
+        "correction": "La pollinisation transporte le pollen de l'anthère (mâle) jusqu'au pistil (femelle) ; le tube pollinique permet la fécondation malgré l'immobilité des plantes."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Les plantes",
+        "correct": 2,
+        "correction": "~70 % des plantes à fleurs sont polyploïdes ou ont des ancêtres polyploïdes ; le blé hexaploïde (6n=42) résulte de 2 croisements + polyploïdisation naturels."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Reproduction asexuée (mitose) : bouturage, stolons, rhizomes, bourgeonnement → clones ; avantage : rapidité et efficacité ; inconvénient : absence de diversité génétique."
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 708",
+    "level": "3ème",
+    "subject": "Physique-Chimie"
+  },
+  "quiz": {
+    "title": "Réactions d'oxydoréduction",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Un transfert d'électrons entre un réducteur et un oxydant",
+        "correct": 1,
+        "correction": "L'oxydoréduction est un transfert d'électrons : l'oxydant capte les électrons du réducteur, qui lui les cède."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'oxydation est une perte d'électrons (OIL : Oxidation Is Loss) ; la réduction est un gain d'électrons (RIG : Reduction Is Gain)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "oxyde de fer",
+        "correction": "La rouille (Fe2O3·nH2O) est un oxyde de fer hydraté, résultant de l'oxydation du fer par l'O2 en présence d'eau."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Zn",
+        "correct": 3,
+        "correction": "Le zinc Zn cède des électrons (il s'oxyde) pour réduire Cu2+ en Cu. Zn est le réducteur."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La corrosion est une oxydation des métaux par l'oxygène et/ou l'humidité ; le métal joue le rôle de réducteur."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "zinc",
+        "correction": "La galvanisation protège le fer en le recouvrant de zinc, qui s'oxyde préférentiellement à la place du fer."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Le transfert spontané d'électrons lors d'une réaction redox",
+        "correct": 1,
+        "correction": "Une pile convertit l'énergie chimique (réaction redox spontanée) en énergie électrique."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "O2 accepte des électrons dans la respiration cellulaire, jouant le rôle d'oxydant terminal."
+      }
+    ]
+  }
+}

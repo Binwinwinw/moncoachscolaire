@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 2nde - Serie 987",
+    "level": "2nde",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Vecteurs — définition & opérations",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "C",
+        "correction": "Un vecteur est caractérisé par trois éléments : norme (longueur), direction et sens."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "AB = B − A = (4−1, 6−2) = (3, 4)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "||u⃗|| = 5",
+        "correction": "||u⃗|| = √(3² + 4²) = √(9 + 16) = √25 = 5."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "A",
+        "correction": "u⃗ + v⃗ = (2+3, −1+4) = (5, 3)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le vecteur nul est (0, 0) ; sa norme est √(0²+0²) = 0."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "Pour tous points A, B, C : AB⃗ + BC⃗ = AC⃗.",
+        "correction": "La relation de Chasles (ou relation de translation) indique que la somme de deux vecteurs consécutifs donne le vecteur résultant."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "C",
+        "correction": "3·u⃗ = (3×2, 3×(−5)) = (6, −15)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'égalité de vecteurs signifie qu'ils ont exactement les mêmes caractéristiques : norme, direction et sens."
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 492",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "description": "Diagnostic Français 1ère : L'oral de l'EAF : préparation et méthode",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "L'oral de l'EAF : préparation et méthode",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Combien de temps dure la préparation de l'exposé oral à l'EAF ?",
+        "choices": [
+          "10 minutes",
+          "20 minutes",
+          "30 minutes",
+          "1 heure"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "À l'oral du bac de Français, l'élève peut consulter ses notes pendant l'exposé."
+      },
+      {
+        "type": "open",
+        "question": "L'examinateur peut poser des questions sur les _____ au programme lors de l'entretien suivant l'exposé."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle qualité est primordiale lors de l'exposé oral du bac ?",
+        "choices": [
+          "Lire son texte mot à mot",
+          "Parler distinctement et structurer clairement son analyse",
+          "Mémoriser tout le cours",
+          "Éviter les figures de style"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'oral de l'EAF dure en totalité environ 20 minutes (exposé + entretien)."
+      },
+      {
+        "type": "open",
+        "question": "Pour l'oral, l'élève présente un texte étudié en classe : son exposé doit suivre un _____ clair avec introduction et conclusion."
+      },
+      {
+        "type": "qcm",
+        "question": "Lors de l'entretien, si l'examinateur pose une question à laquelle on ne sait pas répondre, la meilleure attitude est :",
+        "choices": [
+          "Rester silencieux",
+          "Reconnaître honnêtement la limite de sa connaissance et proposer une piste",
+          "Changer de sujet",
+          "Répéter l'exposé"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La lecture cursive (lecture personnelle) peut être évoquée lors de l'entretien de l'oral EAF."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

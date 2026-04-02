@@ -1,0 +1,72 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 3eme Anglais",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Anglais",
+    "description": "Diagnostic reported speech, phrasal verbs, connectors 3eme brevet"
+  },
+  "quiz": {
+    "title": "Diagnostic Anglais 3eme",
+    "level": "3eme",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "texte",
+        "answer": "was",
+        "correction": "Reported speech present→past"
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "qcm",
+        "answer": "up",
+        "correction": "Phrasal verb dictionnaire"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": true,
+        "correction": "Will→would"
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "texte",
+        "answer": "not to touch",
+        "correction": "Reported ordre négatif"
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Cependant",
+        "correction": "Connector opposition"
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "answer": "off",
+        "correction": "Phrasal verb OFF"
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "vrai-faux",
+        "answer": true,
+        "correction": "VRAI. Connector raison"
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "qcm",
+        "answer": "where I was",
+        "correction": "Question→affirmative ordre"
+      }
+    ]
+  }
+}

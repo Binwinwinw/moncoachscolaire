@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques Terminale - Serie 1030",
+    "level": "Terminale",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Calcul d'intégrales",
+    "question_count": 8,
+    "level": "Terminale",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "C",
+        "correction": "[x³/3 + x]₀² = 8/3 + 2 = 8/3 + 6/3 = 14/3."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La primitive de cos(x) est sin(x), puisque (sin x)' = cos x."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "2",
+        "correction": "[−cos(x)]₀^π = −cos(π) − (−cos(0)) = −(−1) − (−1) = 1 + 1 = 2."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "B",
+        "correction": "∫ 1/(ax+b) dx = (1/a)·ln|ax+b| + C. Ici a=2 : (1/2)ln|2x+1| + C."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est la formule de base pour les puissances (sauf n=−1 pour laquelle on obtient ln|x|)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "e − 1",
+        "correction": "[eˣ]₀¹ = e¹ − e⁰ = e − 1."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "B",
+        "correction": "∫ x^(−1/2) dx = 2√x + C. [2√x]₁⁴ = 2·2 − 2·1 = 4 − 2 = 2."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'intégrale est linéaire : elle distribue sur la somme et le scalaire."
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 29",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ere : Formation des mots – préfixes et suffixes",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-08 00:05:00"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 29",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "id": 1,
+        "type": "qcm",
+        "question": "What does the prefix 'mis-' mean in the word 'misunderstand'?",
+        "choices": [
+          "again",
+          "not enough",
+          "wrongly or badly",
+          "too much"
+        ]
+      },
+      {
+        "id": 2,
+        "type": "vrai-faux",
+        "question": "The suffix '-less' added to a noun creates an adjective meaning 'without something'."
+      },
+      {
+        "id": 3,
+        "type": "texte",
+        "question": "Forme le nom correspondant au verbe 'develop' en ajoutant le bon suffixe. Utilise-le dans une phrase.",
+        "placeholder": "Écris ta réponse ici..."
+      },
+      {
+        "id": 4,
+        "type": "qcm",
+        "question": "Choose the correct word formation: The adjective form of 'danger' is:",
+        "choices": [
+          "dangerful",
+          "dangerous",
+          "dangerless",
+          "dangerly"
+        ]
+      },
+      {
+        "id": 5,
+        "type": "vrai-faux",
+        "question": "The prefix 'over-' in 'overestimate' means the action was done too much or beyond normal."
+      },
+      {
+        "id": 6,
+        "type": "texte",
+        "question": "Transforme l'adjectif 'happy' en nom et en adverbe à l'aide de suffixes appropriés.",
+        "placeholder": "Écris ta réponse ici..."
+      },
+      {
+        "id": 7,
+        "type": "qcm",
+        "question": "Which word is formed correctly using the prefix 're-'?",
+        "choices": [
+          "reread",
+          "reunderstand",
+          "rediscover",
+          "Both A and C"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "vrai-faux",
+        "question": "The suffix '-able' in 'comfortable' and 'reliable' creates adjectives meaning 'can be done' or 'worthy of'."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Préfixes courants et leurs sens",
+      "description": "Les préfixes modifient le sens d'un mot : un- (not: unhappy), re- (again: redo), pre- (before: preview), dis- (not/opposite: disagree), over- (too much: overwork), under- (too little: underestimate), mis- (wrongly: misunderstand), inter- (between: international)."
+    },
+    {
+      "notion": "Suffixes nominaux et adjectivaux",
+      "description": "Les suffixes transforment la catégorie grammaticale. Suffixes nominaux : -tion/-sion (action→ation), -ness (happy→happiness), -ment (develop→development), -er/-or (teach→teacher), -ity (equal→equality). Suffixes adjectivaux : -ful (hope→hopeful), -less (hope→hopeless), -ous (danger→dangerous), -able/-ible (comfort→comfortable)."
+    },
+    {
+      "notion": "Suffixes verbaux et adverbiaux",
+      "description": "Suffixes verbaux : -ize/-ise (modern→modernize), -en (short→shorten), -ify (simple→simplify). Suffixe adverbial principal : -ly (quick→quickly, careful→carefully). Attention aux irrégularités : good→well, fast→fast, hard→hard."
+    }
+  ],
+  "exerciseresponses": []
+}

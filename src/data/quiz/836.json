@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES 1ère - Série 836",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SES",
+    "description": "Diagnostic SES 1ère : Les politiques de l'emploi",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Les politiques de l'emploi",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SES",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la différence entre politique de l'emploi active et passive ?",
+        "choices": [
+          "Active = indemnisation du chômage ; Passive = formation professionnelle",
+          "Active = formation et accompagnement ; Passive = indemnisation du chômage",
+          "Active = réduction du temps de travail ; Passive = contrôle des licenciements",
+          "Aucune différence"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'allocation chômage en France est versée par Pôle emploi (France Travail)."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que la flexicurité et quel pays en est le modèle ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Les allègements de cotisations sociales sur les bas salaires visent à :",
+        "choices": [
+          "Augmenter les profits des entreprises",
+          "Réduire le coût du travail peu qualifié et favoriser l'emploi",
+          "Diminuer le SMIC",
+          "Augmenter les recettes fiscales"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La formation professionnelle est considérée comme une politique active de l'emploi."
+      },
+      {
+        "type": "open",
+        "question": "Expliquez le débat entre politiques de l'offre et politiques de la demande pour lutter contre le chômage."
+      },
+      {
+        "type": "qcm",
+        "question": "Les emplois aidés (ex-contrats aidés) sont financés par :",
+        "choices": [
+          "Les entreprises privées",
+          "L'État et les collectivités locales",
+          "Les syndicats",
+          "Les assurances privées"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le RSA (Revenu de Solidarité Active) a pour but d'inciter à la reprise d'emploi en complétant les revenus du travail."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

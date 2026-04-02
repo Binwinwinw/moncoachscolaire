@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic HGGSP 1ère - Série 944",
+    "level": "1ère",
+    "subject": "HGGSP"
+  },
+  "quiz": {
+    "title": "Restitutions d'œuvres et justice historique",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "HGGSP",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Un arbitrage entre intérêts politiques, économiques et culturels",
+        "correct": 1,
+        "correction": "L'analyse HGGSP repose sur les rapports de force et les compromis entre acteurs."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "les musées nationaux interviennent par leurs décisions, financements ou capacités de coordination."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "Ce thème est géopolitique car il influence les alliances, les normes et la capacité d'influence des acteurs. Il produit aussi des effets de coopération ou de rivalité selon les choix publics opérés autour de 'les restitutions d'objets culturels'. L'exemple 'les restitutions d'œuvres au Bénin' en donne une illustration concrète.",
+        "correction": "Attendu : deux arguments étayés par un exemple contextualisé."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "les restitutions d'œuvres au Bénin",
+        "correct": 0,
+        "correction": "L'exemple choisi doit permettre de discuter acteurs, normes et stratégies."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Toute politique publique redistribue coûts, bénéfices et visibilité entre groupes."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "Piste opérationnelle : les accords bilatéraux de restitution. Cette proposition est crédible car elle combine pilotage public, mise en œuvre concrète et critères d'évaluation.",
+        "correction": "On attend une proposition précise, faisable et justifiée."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Croiser acteurs, temporalités et échelles",
+        "correct": 1,
+        "correction": "C'est le cœur de la méthode HGGSP: problématiser et mettre en relation les dimensions d'analyse."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La mise en perspective finale renforce la qualité d'analyse attendue en 1ère."
+      }
+    ]
+  }
+}

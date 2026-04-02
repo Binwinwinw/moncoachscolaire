@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 771",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 3eme : L'evolution des objets techniques dans l'histoire",
+    "status": "published",
+    "created_at": "2026-03-14 04:06:19",
+    "updated_at": "2026-03-14 04:06:19"
+  },
+  "quiz": {
+    "title": "L'evolution des objets techniques dans l'histoire",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Comment appelle-t-on la demarche qui consiste a analyser un objet technique pour comprendre son fonctionnement ?",
+        "choices": [
+          "Synthese technique",
+          "Analyse fonctionnelle",
+          "Prototypage rapide",
+          "Modelisation 3D"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un objet technique repond toujours a un besoin humain identifie."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on l'amelioration progressive d'un objet technique au fil du temps pour mieux repondre aux besoins ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'une innovation de rupture en technologie ?",
+        "choices": [
+          "Une amelioration mineure d'un produit existant",
+          "Une invention qui change radicalement les usages et rend obsoletes les solutions precedentes",
+          "Un brevet depose par une grande entreprise",
+          "Un objet technique casse"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La machine a vapeur de James Watt (1769) est consideree comme le moteur de la premiere revolution industrielle."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on l'ensemble des techniques, outils et savoirs caracteristiques d'une periode historique donnee ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel principe design permet de creer un objet en s'inspirant des formes et solutions trouvees dans la nature ?",
+        "choices": [
+          "Design industriel",
+          "Bionique ou biomimetisme",
+          "Design modulaire",
+          "Ergonomie"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le brevet d'invention protege une innovation technique pendant 20 ans en France."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

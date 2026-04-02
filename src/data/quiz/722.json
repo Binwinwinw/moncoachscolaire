@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 722",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie 3ème : Électricité : loi d'Ohm et résistances",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Électricité : loi d'Ohm et résistances",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la formule de la loi d'Ohm ?",
+        "choices": [
+          "U = R/I",
+          "U = R × I",
+          "U = I/R",
+          "R = U × I"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La résistance s'exprime en ohms (Ω), symbole de l'unité SI."
+      },
+      {
+        "type": "open",
+        "question": "Quelle est la résistance d'un dipôle soumis à 12 V et parcouru par un courant de 0,4 A ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la résistance totale de deux résistances R1 = 10 Ω et R2 = 20 Ω en série ?",
+        "choices": [
+          "10 Ω",
+          "6,7 Ω",
+          "30 Ω",
+          "200 Ω"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La résistance équivalente de deux résistances en parallèle est inférieure à la plus petite des deux."
+      },
+      {
+        "type": "open",
+        "question": "Quelle est l'intensité circulant dans une résistance de 50 Ω soumise à 10 V ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Un conducteur ohmique est un composant dont la résistance :",
+        "choices": [
+          "Augmente avec la tension",
+          "Diminue avec la température",
+          "Est constante quelle que soit la tension appliquée",
+          "Est nulle"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une diode est un exemple de composant non ohmique (non linéaire)."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic HGGSP 1ère - Série 934",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "HGGSP",
+    "description": "Diagnostic HGGSP 1ère : La mémoire de la Seconde Guerre mondiale",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "La mémoire de la Seconde Guerre mondiale",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "HGGSP",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Le terme 'Shoah' désigne :",
+        "choices": [
+          "L'ensemble des victimes de la Seconde Guerre mondiale",
+          "Le génocide des Juifs d'Europe par les nazis (1941-1945)",
+          "Le bombardement de Dresde",
+          "La politique des otages en France"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le procès de Nuremberg (1945-1946) est le premier tribunal pénal international de l'histoire."
+      },
+      {
+        "type": "open",
+        "question": "Comment la mémoire de la Résistance et de Vichy a-t-elle évolué en France depuis 1944 ?"
+      },
+      {
+        "type": "qcm",
+        "question": "La Journée internationale de commémoration en mémoire des victimes de la Shoah est le :",
+        "choices": [
+          "1er septembre",
+          "8 mai",
+          "27 janvier",
+          "9 novembre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le camp d'Auschwitz-Birkenau est classé au patrimoine mondial de l'UNESCO."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que le négationnisme et pourquoi est-il combattu par les historiens et les États ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Le Mémorial de la Shoah à Paris est dédié à :",
+        "choices": [
+          "Les soldats français de la Seconde Guerre mondiale",
+          "Les victimes juives de la Shoah déportées de France",
+          "Les résistants français",
+          "Les prisonniers de guerre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La Conférence de Wannsee (janvier 1942) a planifié la 'Solution finale' — l'extermination systématique des Juifs."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

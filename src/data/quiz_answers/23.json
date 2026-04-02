@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 6eme Histoire-Géographie",
+    "level": "6eme",
+    "subject": "Histoire-Géographie"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 6eme Histoire-Géographie",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correct": 2,
+        "correction": "**7** continents : Afrique, Amérique, Antarctique, Asie, Europe, Océanie, Amérique."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "correct": 1,
+        "correction": "**Vrai**. Repère spatial clé 6ème."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "correct": null,
+        "correction": "Ex : Maroc, Sénégal, Égypte (Afrique)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "**Asie** (entre Tigre/Euphrate, berceau Mésopotamie)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "correct": 1,
+        "correction": "**Vrai**. Nil, civilisation pharaonique."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "correct": null,
+        "correction": "**Paris** (repère spatial France)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "correct": 0,
+        "correction": "**5000 av. J.-C.** (Mésopotamie, cunéiforme)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "correct": 1,
+        "correction": "**Vrai**. Irrigation, transport (Tigre, Euphrate, Nil)."
+      }
+    ],
+    "level": "6eme",
+    "subject": "Histoire-Géographie"
+  }
+}

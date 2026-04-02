@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 482",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "description": "Diagnostic Français 1ère : Mouvements littéraires : Humanisme, Baroque, Classicisme",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Mouvements littéraires : Humanisme, Baroque, Classicisme",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel mouvement du XVIe siècle redécouvre les textes antiques grecs et latins ?",
+        "choices": [
+          "Le Baroque",
+          "Le Classicisme",
+          "L'Humanisme",
+          "Le Romantisme"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le Baroque est caractérisé par l'ordre, la mesure et la sobriété."
+      },
+      {
+        "type": "open",
+        "question": "La devise humaniste 'Je suis homme et rien d'humain ne m'est étranger' est associée à l'idéal de l'_____ universel."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel auteur est le représentant majeur du Classicisme dramatique ?",
+        "choices": [
+          "Ronsard",
+          "Montaigne",
+          "Racine",
+          "Victor Hugo"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le Classicisme français se développe principalement sous Louis XIV."
+      },
+      {
+        "type": "open",
+        "question": "Ronsard, poète de la Pléiade, invite la jeune fille à profiter de la vie dans 'Cueillez dès aujourd'hui les _____ de la vie'."
+      },
+      {
+        "type": "qcm",
+        "question": "Le Baroque au théâtre se manifeste notamment par :",
+        "choices": [
+          "La règle stricte des trois unités",
+          "Les tragi-comédies et le théâtre dans le théâtre",
+          "L'unité de ton",
+          "La séparation stricte des genres"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Descartes et son 'Je pense donc je suis' participe de l'esprit du Classicisme rationnel du XVIIe siècle."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques Terminale - Serie 1028",
+    "level": "Terminale",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Applications : modèles exponentiels & logarithmiques",
+    "question_count": 8,
+    "level": "Terminale",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "B",
+        "correction": "k > 0 est le taux de croissance (positif). k < 0 modéliserait une décroissance."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "N(t₁/₂) = N₀/2 → e^(−kt₁/₂) = 1/2 → kt₁/₂ = ln(2) → t₁/₂ = ln(2)/k."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "P(t) = 1000·(1,05)ᵗ. Doublement : 1,05ᵗ = 2 → t = ln(2)/ln(1,05) ≈ 14,2 ans.",
+        "correction": "Croissance géométrique : P(t) = 1000×1,05ᵗ. Doublement : t = ln 2 / ln 1,05."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "B",
+        "correction": "L'intensité I(l) = I₀·e^(−αl) décroît exponentiellement. L'absorbance A = log(I₀/I) est logarithmique."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le pH est une échelle logarithmique décimale de la concentration en ions H⁺."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "t = ln(2)/0,04 ≈ 17,3 ans",
+        "correction": "C(t) = 2C₀ → e^(0,04t) = 2 → t = ln(2)/0,04 ≈ 17,3 ans."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "B",
+        "correction": "2^(t/3) = e^(ln2·t/3). Donc N(t) = N₀·e^((ln2/3)·t)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Chaque incrément de 1 sur l'échelle de Richter correspond à une multiplication par 10 de l'amplitude."
+      }
+    ]
+  }
+}

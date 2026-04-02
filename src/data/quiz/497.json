@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 497",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "description": "Diagnostic Français 1ère : Registres et niveaux de langue",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Registres et niveaux de langue",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel niveau de langue est attendu dans un devoir de Français au lycée ?",
+        "choices": [
+          "Familier",
+          "Courant",
+          "Soutenu",
+          "Populaire"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le registre comique peut inclure le burlesque, le parodique et l'ironie."
+      },
+      {
+        "type": "open",
+        "question": "Le registre _____ vise à émouvoir le lecteur par la représentation de la souffrance et du malheur."
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que le registre polémique ?",
+        "choices": [
+          "Une tonalité douce et mélancolique",
+          "Un ton agressif et combatif visant à attaquer une idée ou une personne",
+          "Un registre épique",
+          "Un style poétique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le niveau de langue familier est approprié dans une correspondance professionnelle."
+      },
+      {
+        "type": "open",
+        "question": "Le _____ fantastique crée l'hésitation entre explication rationnelle et surnaturelle, selon Todorov."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel registre domine dans les épopées homériques ?",
+        "choices": [
+          "Lyrique",
+          "Épique",
+          "Comique",
+          "Pathétique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le registre tragique implique une fatalité qui écrase le personnage malgré ses efforts."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

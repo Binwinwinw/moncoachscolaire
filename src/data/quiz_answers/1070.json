@@ -1,0 +1,48 @@
+{
+  "quiz_id": 1070,
+  "title": "Suites et modélisation",
+  "subject": "Mathématiques",
+  "level": "1ère",
+  "answers": [
+    {
+      "question_id": "1070_1",
+      "correct_option": "C",
+      "explanation": "u₁=3, u₂=7, u₃=15."
+    },
+    {
+      "question_id": "1070_2",
+      "correct": true,
+      "explanation": "Si uₙ₊₁ = a·uₙ + b, avec L = b/(1−a), alors vₙ = uₙ − L vérifie vₙ₊₁ = a·vₙ : suite géométrique."
+    },
+    {
+      "question_id": "1070_3",
+      "correct_answer": "Pₙ = 500 × 2ⁿ. 500 × 2ⁿ > 16000 → 2ⁿ > 32 = 2⁵ → n > 5. Dès n = 6 (6ème année).",
+      "explanation": "2ⁿ > 32 ⟺ n > 5. À partir de n=6 : P₆ = 500×64 = 32 000 > 16 000."
+    },
+    {
+      "question_id": "1070_4",
+      "correct_option": "B",
+      "explanation": "L = 0,9·L + 5 → 0,1·L = 5 → L = 50."
+    },
+    {
+      "question_id": "1070_5",
+      "correct": true,
+      "explanation": "vₙ = uₙ − 50, vₙ₊₁ = 0,9·vₙ (géométrique de raison 0,9 < 1) → vₙ → 0 → uₙ → 50."
+    },
+    {
+      "question_id": "1070_6",
+      "correct_answer": "100 × 0,8⁵ = 100 × 0,32768 ≈ 32,77 mg",
+      "explanation": "Suite géométrique de raison q=0,8. u₅ = 100×0,8⁵ ≈ 32,77 mg."
+    },
+    {
+      "question_id": "1070_7",
+      "correct_option": "B",
+      "explanation": "2×1,5ⁿ > 100 ⟺ 1,5ⁿ > 50. On résout par les logarithmes : n > log(50)/log(1,5)."
+    },
+    {
+      "question_id": "1070_8",
+      "correct": true,
+      "explanation": "Chaque terme augmente (ou diminue) de r unités : taux d'accroissement absolu constant. La suite géométrique modélise un taux relatif constant."
+    }
+  ]
+}

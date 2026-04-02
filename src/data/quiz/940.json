@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic HGGSP 1ère - Série 940",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "HGGSP",
+    "description": "Diagnostic HGGSP 1ère : Menaces et défis pour le patrimoine mondial",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Menaces et défis pour le patrimoine mondial",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "HGGSP",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Le trafic illicite d'antiquités est une menace majeure pour le patrimoine mondial car il :",
+        "choices": [
+          "Permet de financer des groupes terroristes",
+          "Détruit les contextes archéologiques",
+          "Alimente le marché noir de l'art",
+          "Toutes les réponses ci-dessus"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le changement climatique n'affecte pas les sites du patrimoine mondial situés en zone tempérée."
+      },
+      {
+        "type": "open",
+        "question": "Comment les conflits armés menacent-ils le patrimoine mondial ?"
+      },
+      {
+        "type": "qcm",
+        "question": "La surfréquentation touristique peut causer :",
+        "choices": [
+          "L'érosion des sites",
+          "La pollution",
+          "La perturbation de la vie locale",
+          "Toutes les réponses ci-dessus"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La restauration d'un site du patrimoine mondial doit toujours viser à le rendre comme neuf."
+      },
+      {
+        "type": "open",
+        "question": "Quelles sont les stratégies de conservation pour protéger le patrimoine mondial ?"
+      },
+      {
+        "type": "qcm",
+        "question": "L'UNESCO a créé la Convention du patrimoine mondial en :",
+        "choices": [
+          "1972",
+          "1985",
+          "1990",
+          "2001"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La guerre en Syrie a causé des dommages importants au patrimoine mondial du pays."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

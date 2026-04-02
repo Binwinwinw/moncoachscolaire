@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 592",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 3ème : Espaces productifs agricoles",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "Espaces productifs agricoles",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "La PAC est une politique de :",
+        "choices": [
+          "L'ONU",
+          "L'Union européenne",
+          "L'OTAN",
+          "La Banque mondiale"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'agriculture française est diversifiée selon les régions."
+      },
+      {
+        "type": "open",
+        "question": "L'agriculture qui limite les intrants chimiques est dite plus _____."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel espace est associé aux grandes cultures céréalières ?",
+        "choices": [
+          "Les Alpes",
+          "La Beauce",
+          "La Corse intérieure",
+          "Le massif armoricain"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les circuits courts rapprochent producteurs et consommateurs."
+      },
+      {
+        "type": "open",
+        "question": "Les labels de qualité comme AOP protègent l'_____ géographique des produits."
+      },
+      {
+        "type": "qcm",
+        "question": "Un défi agricole majeur actuel est :",
+        "choices": [
+          "L'absence d'aléas climatiques",
+          "L'adaptation au changement climatique",
+          "La disparition de la demande alimentaire",
+          "La suppression des sols"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La souveraineté alimentaire est un enjeu stratégique pour les États."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

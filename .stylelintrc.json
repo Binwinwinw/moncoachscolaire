@@ -1,0 +1,23 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "rules": {
+    "no-empty-source": null,
+    "comment-empty-line-before": null,
+    "declaration-block-no-shorthand-property-overrides": null,
+    "declaration-block-single-line-max-declarations": null,
+    "no-descending-specificity": null,
+    "no-duplicate-selectors": null,
+    "selector-type-no-unknown": null,
+    "keyframes-name-pattern": null,
+  "selector-disallowed-list": ["/^html$/", "/^body$/"],
+  "declaration-no-important": [true, { "severity": "warning" }]
+  },
+  "overrides": [
+    {
+      "files": ["public/assets/css/components/**"],
+      "rules": {
+        "selector-class-pattern": null
+      }
+    }
+  ]
+}

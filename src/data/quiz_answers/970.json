@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 2nde - Serie 970",
+    "level": "2nde",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Systèmes d'équations",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "B",
+        "correction": "La méthode par substitution exprime une variable (ex: x = …) et la substitue dans l'autre équation."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Géométriquement : deux droites peuvent se couper (1 solution), être parallèles (0) ou confondues (∞)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "x = 5, y = 2",
+        "correction": "Addition : 2x = 10 → x = 5. Substitution : y = 7 − 5 = 2."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "A",
+        "correction": "Addition : 3x = 6 → x = 2. Substitution : y = 5 − 4 = 1."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La seconde équation est le double de la première : même droite, infinité de solutions."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "2 adultes et 3 enfants",
+        "correction": "a + e = 5 et 12a + 6e = 42. De la 1ère : e = 5−a. Substitution : 12a + 6(5−a) = 42 → 6a + 30 = 42 → a = 2, e = 3."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "A",
+        "correction": "Les deux droites sont parallèles (même coefficient directeur, ordonnées à l'origine différentes) : aucune solution."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "En multipliant les équations par des scalaires appropriés, on soustrait ou additionne pour faire disparaître une variable."
+      }
+    ]
+  }
+}

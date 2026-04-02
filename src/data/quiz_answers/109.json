@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Terminale SVT",
+    "level": "terminale",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic Terminale SVT",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "**Transcription (ADN→ARN) + traduction (ARN→protéine)**."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "correct": true,
+        "correction": "**Vrai**. Triplet dégénéré (64→20 aa)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "correct": null,
+        "correction": "**3 milliards** paires bases (23 paires chromosomes)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "**Changement 1 base** (ex: A→G = missense)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "correct": true,
+        "correction": "**Vrai**. Mitochondries quelques exceptions."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "texte",
+        "correct": null,
+        "correction": "**Ribosome** traduit ARNm (20 aa)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "correct": 1,
+        "correction": "**Amplification ADN** (polymerase chain reaction)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "correct": null,
+        "correction": "**ARNm intermédiaire** ADN info → protéine."
+      }
+    ],
+    "level": "terminale",
+    "subject": "SVT"
+  }
+}

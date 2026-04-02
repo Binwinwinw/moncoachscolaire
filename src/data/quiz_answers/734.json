@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 734",
+    "level": "3ème",
+    "subject": "Physique-Chimie"
+  },
+  "quiz": {
+    "title": "Électricité : circuits électriques et lois de Kirchhoff",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Un circuit où les composants sont connectés les uns après les autres, formant une seule boucle",
+        "correct": 1,
+        "correction": "Dans un circuit en série, les composants sont connectés de manière à ce que le même courant les traverse, et la tension totale est la somme des tensions aux bornes de chaque composant."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Dans un circuit en parallèle, tous les composants sont connectés aux mêmes points de tension, donc la tension à leurs bornes est identique."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "loi de Kirchhoff des tensions (ou loi des mailles)",
+        "correction": "La loi de Kirchhoff des tensions (ou loi des mailles) affirme que la somme algébrique des tensions dans une boucle fermée est nulle, reflétant la conservation de l'énergie."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Loi de Kirchhoff des courants (ou loi des nœuds)",
+        "correct": 0,
+        "correction": "La loi de Kirchhoff des courants (ou loi des nœuds) affirme que la somme des courants entrant dans un nœud est égale à la somme des courants sortants, reflétant la conservation de la charge."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Dans un circuit en série, un composant défectueux (circuit ouvert) empêche le passage du courant dans tout le circuit, car il n'y a qu'un chemin pour le courant."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "1/Req = 1/R1 + 1/R2",
+        "correction": "La résistance équivalente Req d'un circuit en parallèle de deux résistances R1 et R2 est donnée par la formule 1/Req = 1/R1 + 1/R2."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "5 A",
+        "correct": 3,
+        "correction": "Calcul de la résistance équivalente : 1/Req = 1/4 + 1/6 = 5/12 → Req = 12/5 = 2,4 Ω. Ensuite, I = V/Req = 12 V / 2,4 Ω = 5 A."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La loi de Kirchhoff des tensions découle du principe de conservation de l'énergie, affirmant que l'énergie fournie par les sources est égale à l'énergie consommée par les composants dans une boucle fermée."
+      }
+    ]
+  }
+}

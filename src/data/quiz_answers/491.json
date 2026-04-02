@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 491",
+    "level": "1ère",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Lecture analytique : méthode et pratique",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Identifier le paratexte et situer l'extrait dans l'œuvre",
+        "correct": 1,
+        "correction": "Avant l'analyse, on situe l'auteur, l'œuvre, le genre, le mouvement et la place de l'extrait."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'axe (centre d'intérêt) est le fil conducteur de chaque partie de l'analyse."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "relevé",
+        "correction": "Le relevé systématique (lexique, syntaxe, figures, rythme) précède l'interprétation."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "La progression",
+        "correct": 1,
+        "correction": "Identifier la progression (comment le texte avance, quelles étapes) permet de construire un plan pertinent."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les citations courtes et précises sont la preuve textuelle de chaque analyse ; elles sont indispensables."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "tonalité",
+        "correction": "Le registre (lyrique, comique, tragique…) est défini par les effets produits sur le lecteur."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "La scène d'ouverture qui présente la situation initiale",
+        "correct": 1,
+        "correction": "La scène d'exposition (acte I) fournit les informations nécessaires sur les personnages et la situation de départ."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La mise en perspective (ouverture) enrichit la conclusion en reliant le texte à d'autres œuvres ou contextes."
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Seconde Français - Serie 100 (VERSION AMÉLIORÉE)",
+    "level": "seconde",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Diagnostic Français Seconde - Serie 100",
+    "question_count": 8,
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Un récit court à visée morale, souvent mettant en scène des animaux",
+        "correction": "Une fable est un récit court, souvent en vers, qui met en scène des personnages (animaux parlants, humains, objets personnifiés) pour transmettre une morale, c'est-à-dire une leçon de vie ou une critique sociale. Jean de La Fontaine (1621-1695) est le fabuliste français le plus célèbre avec ses 'Fables' comme 'Le Corbeau et le Renard' ou 'La Cigale et la Fourmi'."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": true,
+        "correction": "VRAI. L'alexandrin est le vers français classique par excellence, composé de 12 syllabes (ou pieds métriques). On le trouve notamment dans les tragédies de Racine et Corneille, ou dans les poèmes de Baudelaire ('Les Fleurs du mal'). Exemple : 'De/main / dès / l'au/be / à / l'heu/re / où / blan/chit / la cam/pagne' (Victor Hugo) compte bien 12 syllabes."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "answer": "rimes suffisantes",
+        "alternatives": ["suffisantes", "rimes riches", "riches"],
+        "correction": "Les rimes 'jour/amour' et 'chanter/aimer' sont des rimes dites 'suffisantes' car elles partagent deux éléments phonétiques identiques (voyelle + consonne finale). On distingue : les rimes pauvres (1 son commun : 'ami/parti'), suffisantes (2 sons : 'jour/amour'), et riches (3 sons ou plus : 'alarme/arme'). La qualité de la rime contribue à la musicalité du poème."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Des exploits héroïques et des aventures extraordinaires",
+        "correction": "La littérature épique (du grec 'epos' = récit) met en scène des héros accomplissant des exploits surhumains, souvent dans un contexte de guerre ou de quête. Les œuvres épiques célèbres incluent 'L'Iliade' et 'L'Odyssée' d'Homère (Antiquité grecque), 'La Chanson de Roland' (Moyen Âge français), ou encore 'Les Misérables' de Victor Hugo (dimension épique moderne)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "texte",
+        "answer": "Victor Hugo",
+        "alternatives": ["Hugo", "Victor HUGO", "V. Hugo"],
+        "correction": "Victor Hugo (1802-1885) a écrit 'Demain dès l'aube' en 1847, quatre ans après la mort tragique de sa fille Léopoldine, noyée dans la Seine. Ce poème poignant évoque son pèlerinage annuel sur sa tombe. Hugo est une figure majeure du romantisme français, auteur de romans ('Les Misérables', 'Notre-Dame de Paris') et de nombreux recueils poétiques ('Les Contemplations', 'Les Châtiments')."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": false,
+        "correction": "FAUX. Molière (Jean-Baptiste Poquelin, 1622-1673) a vécu au XVIIe siècle, sous le règne de Louis XIV. Il est l'auteur de comédies célèbres comme 'Le Tartuffe', 'Le Misanthrope', 'L'Avare' ou 'Le Malade imaginaire'. Son théâtre critique les travers de la société de son époque (hypocrisie, avarice, pédanterie) avec humour et finesse. Il est mort sur scène en jouant 'Le Malade imaginaire' en 1673."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Edmond Rostand (XIXe-XXe siècle)",
+        "correction": "La pièce 'Cyrano de Bergerac' a été écrite par Edmond Rostand en 1897 (et non par Cyrano de Bergerac lui-même, qui était un véritable écrivain du XVIIe siècle). Cette comédie héroïque en vers raconte l'histoire de Cyrano, poète et bretteur au grand nez, qui aide son ami Christian à séduire Roxane qu'il aime secrètement. C'est un chef-d'œuvre du théâtre français, mêlant bravoure, poésie et tragédie amoureuse."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "texte",
+        "answer": "Narration à la première personne",
+        "alternatives": ["première personne", "narration interne", "point de vue interne", "focalisation interne"],
+        "correction": "Quand le narrateur est un personnage de l'histoire qui raconte à la première personne ('je'), on parle de narration à la première personne ou de point de vue interne. Le lecteur découvre l'histoire à travers les yeux et les pensées de ce personnage-narrateur (exemple : 'L'Étranger' de Camus). À l'inverse, la narration à la troisième personne utilise 'il/elle' et peut être externe (observateur neutre) ou omnisciente (narrateur qui sait tout)."
+      }
+    ],
+    "level": "seconde",
+    "subject": "Français"
+  }
+}

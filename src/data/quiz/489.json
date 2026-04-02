@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 489",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "description": "Diagnostic Français 1ère : Molière : comédies et satire sociale",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Molière : comédies et satire sociale",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Dans Le Tartuffe, quel vice principal est dénoncé ?",
+        "choices": [
+          "L'avarice",
+          "L'hypocrisie religieuse",
+          "La jalousie",
+          "L'orgueil"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le Bourgeois gentilhomme de Molière est une comédie-ballet."
+      },
+      {
+        "type": "open",
+        "question": "Dans L'Avare, le personnage d'Harpagon incarne le défaut de l'_____ poussé à l'extrême."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le mécanisme comique fondamental décrit par Bergson ?",
+        "choices": [
+          "L'ironie",
+          "Le rire naît du mécanique plaqué sur du vivant",
+          "Le paradoxe",
+          "Le jeu de mots"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Dom Juan de Molière est une tragédie."
+      },
+      {
+        "type": "open",
+        "question": "La comédie de caractère met en scène un personnage dominé par un _____ unique (avarice, misanthropie…)."
+      },
+      {
+        "type": "qcm",
+        "question": "Les Précieuses ridicules (1659) satirise :",
+        "choices": [
+          "Les paysans",
+          "L'Église",
+          "Les femmes qui singent les manières aristocratiques",
+          "Les médecins"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Molière a lui-même joué dans plusieurs de ses pièces."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

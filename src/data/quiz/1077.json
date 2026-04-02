@@ -1,0 +1,67 @@
+{
+  "id": 1077,
+  "title": "Cercle trigonométrique et mesures d'angles",
+  "subject": "Mathématiques",
+  "level": "1ère",
+  "created_at": "2026-03-13T18:54:00.432241Z",
+  "questions": [
+    {
+      "id": "1077_1",
+      "type": "qcm",
+      "question": "Le cercle trigonométrique est un cercle de centre O et de rayon :",
+      "options": [
+        "π",
+        "2",
+        "1",
+        "360"
+      ]
+    },
+    {
+      "id": "1077_2",
+      "type": "vrai-faux",
+      "question": "Un angle de π radians correspond à 180°."
+    },
+    {
+      "id": "1077_3",
+      "type": "texte",
+      "question": "Convertis 270° en radians et situe cet angle sur le cercle trigonométrique."
+    },
+    {
+      "id": "1077_4",
+      "type": "qcm",
+      "question": "Quelle est la mesure principale (dans [0, 2π[) de l'angle 7π/3 ?",
+      "options": [
+        "π/3",
+        "2π/3",
+        "4π/3",
+        "5π/3"
+      ]
+    },
+    {
+      "id": "1077_5",
+      "type": "vrai-faux",
+      "question": "Deux angles sont dits associés si leur différence est un multiple de 2π."
+    },
+    {
+      "id": "1077_6",
+      "type": "texte",
+      "question": "Convertis π/6 en degrés et donne les coordonnées du point M correspondant sur le cercle unité."
+    },
+    {
+      "id": "1077_7",
+      "type": "qcm",
+      "question": "Quelle est la mesure en radians de 45° ?",
+      "options": [
+        "π/6",
+        "π/4",
+        "π/3",
+        "π/2"
+      ]
+    },
+    {
+      "id": "1077_8",
+      "type": "vrai-faux",
+      "question": "Sur le cercle trigonométrique, l'angle est mesuré dans le sens direct (antihoraire) à partir de l'axe des abscisses."
+    }
+  ]
+}

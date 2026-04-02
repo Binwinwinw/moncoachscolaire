@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic HGGSP 1ère - Série 930",
+    "level": "1ère",
+    "subject": "HGGSP"
+  },
+  "quiz": {
+    "title": "La diplomatie et la résolution des conflits",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "HGGSP",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "La gestion des relations entre États par des négociations pacifiques",
+        "correct": 1,
+        "correction": "La diplomatie est l'ensemble des pratiques et institutions permettant aux États de gérer leurs relations (traités, négociations, représentations diplomatiques)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les Conventions de Vienne établissent l'immunité diplomatique, l'inviolabilité des ambassades, les privilèges consulaires. Ces règles sont le fondement du droit diplomatique moderne."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "Négociation bilatérale (directe entre États), médiation (par un tiers), conciliation (commission d'enquête), arbitrage (tribunal arbitral), règlement judiciaire (CIJ — Cour internationale de Justice), bons offices, conférence internationale. La Charte ONU (Art.33) invite les États à recourir à ces moyens avant la force.",
+        "correction": "La CIJ (créée en 1945, La Haye) est le principal organe judiciaire de l'ONU pour les différends entre États."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Israélo-palestinien",
+        "correct": 1,
+        "correction": "Les accords d'Oslo (1993) ont été signés entre Yasser Arafat (OLP) et Yitzhak Rabin (Israël), avec la médiation des USA. Ils ont créé l'Autorité palestinienne mais n'ont pas abouti à un État palestinien."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les Accords d'Abraham (2020), négociés par les USA sous Trump, normalisent les relations d'Israël avec les EAU, Bahreïn, le Soudan et le Maroc, contournant la question palestinienne."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "La diplomatie multilatérale implique plusieurs États négociant ensemble dans des cadres institutionnels. Enceintes : ONU (Assemblée générale, Conseil de sécurité), OMC, G7, G20, COP (changement climatique), OTAN, UE. Elle permet de coordonner des réponses à des problèmes globaux mais nécessite des compromis.",
+        "correction": "La diplomatie multilatérale a connu un essor depuis 1945 mais fait face à la montée du nationalisme et du bilatéralisme."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Irlande du Nord",
+        "correct": 2,
+        "correction": "L'Accord du Vendredi Saint (Good Friday Agreement, 1998) a mis fin aux 'Troubles' en Irlande du Nord en reconnaissant les deux communautés et en créant des institutions de partage du pouvoir."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Des médiations réussies : accords d'Arusha (Rwanda), accords de Lomé (Sierra Leone), processus de paix en Colombie (2016). La médiation internationale reste un outil essentiel mais insuffisant pour les conflits complexes."
+      }
+    ]
+  }
+}

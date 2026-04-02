@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic HGGSP 1ère - Série 916",
+    "level": "1ère",
+    "subject": "HGGSP"
+  },
+  "quiz": {
+    "title": "Les nouveaux acteurs de la conquête spatiale",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "HGGSP",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "SpaceX",
+        "correct": 2,
+        "correction": "SpaceX (Space Exploration Technologies) est fondée en 2002. Elle développe les fusées Falcon 9 et Starship, et transporte des astronautes vers l'ISS depuis 2020."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Yang Liwei fut le premier taikonaute (astronaute chinois) en octobre 2003, à bord de Shenzhou 5. La Chine est la troisième nation après l'URSS/Russie et les États-Unis."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "Le New Space désigne l'émergence d'acteurs privés (SpaceX, Blue Origin, OneWeb, Planet Labs…) qui révolutionnent le secteur spatial. Ils réduisent les coûts (fusées réutilisables), accélèrent l'innovation et commercialisent l'accès à l'espace (tourisme, petits satellites, Internet par satellite). L'espace n'est plus uniquement une affaire d'États.",
+        "correction": "Le New Space soulève des questions de régulation, de gouvernance et de partage des ressources spatiales."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Retourner des astronautes sur la Lune, dont la première femme",
+        "correct": 1,
+        "correction": "Artémis (à partir de 2022) vise à établir une présence humaine durable sur la Lune, avec un regard sur Mars. La première femme et la première personne de couleur sur la Lune sont prévues."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "En août 2023, l'Inde est devenue le 4e pays à atterrir sur la Lune et le 1er à se poser au pôle sud lunaire avec Chandrayaan-3."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "La Lune contient de l'hélium-3 (potentiel combustible pour la fusion nucléaire), des minéraux rares, de la glace d'eau aux pôles (utilisable pour l'eau et le carburant). Ces ressources suscitent un intérêt croissant des États (USA, Chine, Russie) et du secteur privé, rouvrant des débats sur la propriété des ressources spatiales.",
+        "correction": "Les Accords Artémis (2020, initiés par les USA) et le Traité de l'espace de 1967 s'affrontent sur la question de l'exploitation des ressources lunaires."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Un accès à Internet par satellite dans le monde entier",
+        "correct": 1,
+        "correction": "Starlink est une constellation de milliers de petits satellites en orbite basse (LEO) fournissant l'Internet haut débit, y compris en zones rurales ou de conflit (Ukraine)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le syndrome de Kessler : une accumulation de débris spatiaux pourrait rendre certaines orbites inutilisables. L'ESA et d'autres agences travaillent à des solutions de nettoyage orbital."
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 555",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 3ème : La Première Guerre mondiale : causes et déclenchement",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "La Première Guerre mondiale : causes et déclenchement",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel événement déclenche directement la Première Guerre mondiale en juin 1914 ?",
+        "choices": [
+          "La révolution russe",
+          "L'assassinat de l'archiduc François-Ferdinand à Sarajevo",
+          "L'invasion de la Belgique par l'Allemagne",
+          "Le coulage du Lusitania"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "En 1914, la France et la Russie font partie de la Triple Entente."
+      },
+      {
+        "type": "open",
+        "question": "Complétez : La politique de 'fuite en avant' des nations européennes avant 1914 se traduit par une course aux _____ (armements)."
+      },
+      {
+        "type": "qcm",
+        "question": "Le système d'alliances en Europe avant 1914 a eu pour effet de :",
+        "choices": [
+          "Maintenir la paix durablement",
+          "Transformer un conflit local en guerre européenne généralisée",
+          "Empêcher toute mobilisation",
+          "Favoriser la diplomatie"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'Italie rejoint la Triple Alliance (Allemagne et Autriche) dès le début de la guerre en 1914."
+      },
+      {
+        "type": "open",
+        "question": "Le sentiment de fierté nationale exacerbé, souvent lié au désir de revanche ou d'expansion, est appelé le _____ ."
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que l'Union sacrée en France en 1914 ?",
+        "choices": [
+          "Un traité militaire avec la Russie",
+          "Le rassemblement de tous les partis politiques derrière le gouvernement pour mener la guerre",
+          "Un mouvement pacifiste",
+          "Une alliance économique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La Première Guerre mondiale éclate officiellement le 28 juillet 1914 avec la déclaration de guerre de l'Autriche-Hongrie à la Serbie."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

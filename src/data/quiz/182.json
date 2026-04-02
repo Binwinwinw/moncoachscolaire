@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Geographie 1ere - Série 182",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "description": "Diagnostic Histoire-Geographie 1ere : Quiz Diagnostic 1ere Histoire-Géographie - Serie 8",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Histoire-Géographie - Serie 8",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Histoire-Geographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qui est le fondateur et premier président de la Ve République française ?",
+        "choices": [
+          "Georges Pompidou",
+          "François Mitterrand",
+          "Charles de Gaulle",
+          "Valéry Giscard d'Estaing"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le président de la Ve République est élu au suffrage universel direct depuis 1962."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que la cohabitation en politique française et quand survient-elle pour la première fois ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel événement majeur de mai 1968 marque profondément la société française ?",
+        "choices": [
+          "Un coup d'État militaire",
+          "Une grande vague de grèves et de contestation étudiante et ouvrière",
+          "L'assassinat du général de Gaulle",
+          "Une invasion étrangère"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "François Mitterrand est le premier président socialiste de la Ve République, élu en 1981."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que la décentralisation mise en œuvre par les lois Defferre de 1982 ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Comment appelle-t-on la tendance à voter pour des partis extrémistes ou à s'abstenir par méfiance envers les institutions ?",
+        "choices": [
+          "La bipolarisation",
+          "Le populisme",
+          "La démocratie participative",
+          "La crise de la représentation politique ou 'NIMBY'"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La France est une République laïque, ce qui signifie que l'État ne reconnaît officiellement aucune religion."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

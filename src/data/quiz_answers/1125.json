@@ -1,0 +1,48 @@
+{
+  "quiz_id": 1125,
+  "title": "Marché du travail et chômage",
+  "subject": "SES",
+  "level": "Terminale",
+  "answers": [
+    {
+      "question_id": "1125_1",
+      "correct_option": "B",
+      "explanation": "Taux de chômage BIT = (personnes sans emploi, cherchant un emploi et disponibles) / population active. La population active = actifs occupés + chômeurs."
+    },
+    {
+      "question_id": "1125_2",
+      "correct": true,
+      "explanation": "Le halo du chômage (INSEE) inclut les inactifs qui souhaitent travailler sans rechercher activement. Le sous-emploi et le halo révèlent la sous-estimation du chômage."
+    },
+    {
+      "question_id": "1125_3",
+      "correct_answer": "Néo-classique : le chômage résulte d'un salaire réel trop élevé (rigidité à la baisse, SMIC). Solution : flexibiliser les salaires. Keynésienne : le chômage est involontaire, lié à l'insuffisance de la demande globale. Solution : relance budgétaire et monétaire.",
+      "explanation": "Ce débat fondamental structure la politique économique : libéralisation du marché du travail (offre) vs politiques de relance (demande)."
+    },
+    {
+      "question_id": "1125_4",
+      "correct_option": "B",
+      "explanation": "Chômage frictionnel = chômage volontaire, de court terme, lié aux délais de recherche d'emploi (mobilité, information). Il est inévitable et considéré comme sain."
+    },
+    {
+      "question_id": "1125_5",
+      "correct": true,
+      "explanation": "Le NAIRU ou taux de chômage naturel (Friedman) : en dessous de ce taux, la demande de travail excédentaire pousse les salaires et l'inflation à la hausse."
+    },
+    {
+      "question_id": "1125_6",
+      "correct_answer": "Le chômage structurel résulte d'une inadéquation entre les qualifications des chômeurs et les besoins des employeurs (sectorielles, géographiques, technologiques). Difficile à résorber car nécessite formation, reconversion, mobilité géographique : processus longs et coûteux.",
+      "explanation": "Ex : désindustrialisation crée des chômeurs industriels dans des bassins d'emploi où les offres sont dans les services de haute technologie."
+    },
+    {
+      "question_id": "1125_7",
+      "correct_option": "B",
+      "explanation": "Les insiders ont le pouvoir de négocier des salaires élevés sans se soucier des chômeurs (outsiders) qui ne peuvent pas entrer en concurrence. Source de chômage persistant."
+    },
+    {
+      "question_id": "1125_8",
+      "correct": true,
+      "explanation": "Théorie du marché du travail segmenté (Piore) : les deux segments coexistent sans passerelles faciles, créant une inégalité structurelle entre salariés."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 668",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 3ème : Santé : nutrition et maladies nutritionnelles",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "Santé : nutrition et maladies nutritionnelles",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle maladie est liée à un excès de cholestérol LDL dans les artères ?",
+        "choices": [
+          "Diabète de type 1",
+          "Athérosclérose",
+          "Ostéoporose",
+          "Anémie"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le diabète de type 2 est lié à une résistance à l'insuline souvent associée à l'obésité."
+      },
+      {
+        "type": "open",
+        "question": "Quel organe sécrète l'insuline pour réguler la glycémie ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle vitamine est synthétisée par la peau sous l'effet des rayons UV ?",
+        "choices": [
+          "Vitamine A",
+          "Vitamine B12",
+          "Vitamine C",
+          "Vitamine D"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un régime trop riche en sucres rapides peut conduire à un diabète de type 2."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on l'indice qui mesure le rapport entre le poids et la taille au carré d'une personne ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la conséquence d'une carence en fer sur l'organisme ?",
+        "choices": [
+          "Diabète",
+          "Anémie ferriprive",
+          "Cancer du foie",
+          "Maladie de Parkinson"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'activité physique régulière contribue à prévenir les maladies cardiovasculaires."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 657",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 3ème : Évolution : théorie et preuves",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "Évolution : théorie et preuves",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qui a proposé la théorie de la sélection naturelle ?",
+        "choices": [
+          "Lamarck",
+          "Mendel",
+          "Darwin",
+          "Pasteur"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La sélection naturelle favorise les individus les mieux adaptés à leur environnement."
+      },
+      {
+        "type": "open",
+        "question": "Quel type de structure anatomique partageant la même origine mais remplissant des fonctions différentes illustre l'évolution par homologie ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle discipline compare les séquences d'ADN pour établir des liens de parenté entre espèces ?",
+        "choices": [
+          "Anatomie comparée",
+          "Phylogénétique moléculaire",
+          "Paléontologie",
+          "Écologie"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les fossiles sont des preuves de l'évolution car ils montrent des formes de vie disparues."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la formation d'une nouvelle espèce à partir d'une espèce ancestrale ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Selon Darwin, qu'est-ce qui provoque la variation héréditaire dans une population ?",
+        "choices": [
+          "La volonté des individus",
+          "Les mutations et la reproduction sexuée",
+          "L'alimentation",
+          "L'usage ou le non-usage des organes"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'évolution est dirigée vers un objectif précis de perfection."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

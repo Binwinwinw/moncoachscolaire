@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic NSI 1ère - Série 873",
+    "level": "1ère",
+    "subject": "NSI"
+  },
+  "quiz": {
+    "title": "Listes et tableaux en Python",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "NSI",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "5",
+        "correct": 1,
+        "correction": "len() retourne le nombre d'éléments de la liste. [1,2,3,4,5] contient 5 éléments."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Python est dynamiquement typé. Une liste peut mélanger int, str, float, d'autres listes, etc. : [1, 'hello', 3.14, True]."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "Le slicing extrait une sous-liste avec la syntaxe liste[début:fin:pas]. Ex : lst = [0,1,2,3,4] ; lst[1:4] = [1,2,3] ; lst[::2] = [0,2,4] ; lst[::-1] = [4,3,2,1,0].",
+        "correction": "Le slicing ne modifie pas la liste originale ; il retourne une nouvelle liste."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "append()",
+        "correct": 2,
+        "correction": "list.append(x) ajoute x à la fin. insert(i, x) insère à l'indice i. extend() fusionne avec une autre liste."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "range(5) = [0,1,2,3,4]. En élevant chaque élément au carré : [0,1,4,9,16]."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "La liste Python est dynamique, peut contenir des types mixtes, mais les opérations sont lentes en boucle. Le tableau numpy est homogène (même type), stocké de façon contiguë en mémoire, et supporte les opérations vectorisées très rapides. Numpy est préféré pour le calcul scientifique.",
+        "correction": "Pour des milliers d'éléments numériques, numpy est 10 à 100 fois plus rapide qu'une liste Python."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "La liste [0, 0, 0]",
+        "correct": 1,
+        "correction": "La multiplication d'une liste par n la répète n fois. [0]*3 = [0,0,0]."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "pop() sans argument retire le dernier élément. pop(i) retire l'élément à l'indice i. remove(x) retire la première occurrence de la valeur x."
+      }
+    ]
+  }
+}

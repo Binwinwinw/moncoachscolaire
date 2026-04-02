@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic NSI 1ère - Série 880",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "description": "Diagnostic NSI 1ère : CSS — Mise en forme",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "CSS — Mise en forme",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "CSS signifie :",
+        "choices": [
+          "Computer Style Sheet",
+          "Cascading Style Sheets",
+          "Creative Style Syntax",
+          "Content Styling System"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un sélecteur CSS #monId cible les éléments ayant l'attribut class='monId'."
+      },
+      {
+        "type": "open",
+        "question": "Expliquez le modèle de boîte (box model) en CSS."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle propriété CSS contrôle la couleur du texte ?",
+        "choices": [
+          "background-color",
+          "font-color",
+          "color",
+          "text-color"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Flexbox est un mode de mise en page CSS conçu pour aligner et distribuer les éléments dans un conteneur."
+      },
+      {
+        "type": "open",
+        "question": "Qu'est-ce que le responsive design et comment le CSS y contribue-t-il ?"
+      },
+      {
+        "type": "qcm",
+        "question": "En CSS, la propriété position: absolute place un élément :",
+        "choices": [
+          "Selon le flux normal du document",
+          "Par rapport à son ancêtre positionné le plus proche",
+          "Par rapport à la fenêtre du navigateur",
+          "Au centre de la page"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les variables CSS (custom properties) permettent de réutiliser des valeurs dans une feuille de style."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

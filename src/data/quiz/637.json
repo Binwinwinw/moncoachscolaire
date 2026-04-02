@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ère - Série 637",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 1ère : La sismologie et les ondes sismiques",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "La sismologie et les ondes sismiques",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Les ondes P (primaires) sont :",
+        "choices": [
+          "Des ondes de cisaillement qui ne traversent pas les liquides",
+          "Des ondes de compression qui traversent solides et liquides et arrivent en premier",
+          "Des ondes de surface uniquement",
+          "Des ondes électromagnétiques"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les ondes de surface (Love, Rayleigh) sont les plus destructrices lors d'un séisme malgré leur propagation plus lente."
+      },
+      {
+        "type": "open",
+        "question": "Pour localiser l'épicentre d'un séisme, il faut au minimum _____ stations sismographiques."
+      },
+      {
+        "type": "qcm",
+        "question": "L'échelle MSK (ou EMS) mesure :",
+        "choices": [
+          "L'énergie totale libérée par le séisme",
+          "L'intensité perçue localement par les personnes et les dégâts observés",
+          "La profondeur du foyer",
+          "La durée du séisme"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La zone d'ombre sismique pour les ondes P est due à la réfraction des ondes à l'interface noyau externe-manteau."
+      },
+      {
+        "type": "open",
+        "question": "Les parasismiques ou normes _____ définissent les règles de construction pour résister aux séismes selon les zones de sismicité."
+      },
+      {
+        "type": "qcm",
+        "question": "Le phénomène de liquéfaction lors d'un séisme désigne :",
+        "choices": [
+          "La fusion des roches due à la chaleur",
+          "La transformation de sols saturés d'eau en une boue fluide qui perd tout support mécanique",
+          "La dissolution des calcaires",
+          "La fonte des glaces polaires"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il est actuellement impossible de prédire précisément l'occurrence (date, lieu, magnitude) d'un séisme."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

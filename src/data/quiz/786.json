@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 786",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 3eme : L'energie dans les systemes techniques",
+    "status": "published",
+    "created_at": "2026-03-14 04:06:19",
+    "updated_at": "2026-03-14 04:06:19"
+  },
+  "quiz": {
+    "title": "L'energie dans les systemes techniques",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que le rendement energetique d'un systeme ?",
+        "choices": [
+          "La quantite totale d'energie consommee",
+          "Le rapport entre l'energie utile produite et l'energie totale consommee",
+          "La puissance maximale du systeme",
+          "La duree de fonctionnement"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un moteur a combustion interne a un rendement superieur a celui d'un moteur electrique."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la puissance electrique instantanee consommee par un appareil exprimee en watts ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle technologie stocke de l'energie electrique sous forme d'energie chimique pour l'alimentation d'un systeme portable ?",
+        "choices": [
+          "Supercondensateur",
+          "Accumulateur (batterie)",
+          "Alternateur",
+          "Transformateur"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La recuperation de l'energie de freinage dans une voiture electrique ameliore son autonomie."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la chaleur produite par un conducteur electrique parcouru par un courant, qui represente une perte d'energie ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel indicateur compare la consommation energetique annuelle d'un appareil electromenager ?",
+        "choices": [
+          "L'etiquette energie (classes A a G)",
+          "La tension d'alimentation",
+          "La masse de l'appareil",
+          "La couleur du boitier"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un systeme en veille (standby) consomme de l'energie electrique meme lorsqu'il n'est pas utilise."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

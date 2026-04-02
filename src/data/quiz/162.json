@@ -1,0 +1,97 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 38",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ere : L'essay argumentatif",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-08 00:05:00"
+  },
+  "quiz": {
+    "title": "Quiz Diagnostic 1ere Anglais - Serie 38",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "id": 1,
+        "type": "qcm",
+        "question": "What is the PRIMARY purpose of a thesis statement in an argumentative essay?",
+        "choices": [
+          "To summarise the entire essay in detail",
+          "To present a clear, arguable position on the topic",
+          "To list all the arguments you will use",
+          "To introduce yourself to the reader"
+        ]
+      },
+      {
+        "id": 2,
+        "type": "vrai-faux",
+        "question": "In an argumentative essay, each body paragraph should present only one main idea or argument."
+      },
+      {
+        "id": 3,
+        "type": "texte",
+        "question": "Réécris la conclusion faible suivante en l'améliorant : 'In conclusion, social media is bad. I think people should use it less.'",
+        "placeholder": "Écris ta réponse ici..."
+      },
+      {
+        "id": 4,
+        "type": "qcm",
+        "question": "Which discourse marker is best used to introduce a CONTRASTING argument?",
+        "choices": [
+          "Furthermore",
+          "In addition",
+          "However",
+          "As a result"
+        ]
+      },
+      {
+        "id": 5,
+        "type": "vrai-faux",
+        "question": "Using informal contractions like 'don't', 'can't', 'it's' is perfectly acceptable in a formal argumentative essay."
+      },
+      {
+        "id": 6,
+        "type": "texte",
+        "question": "Identifie la structure PEEL dans ce paragraphe et nomme chaque partie : 'Firstly, excessive screen time negatively affects children's sleep. Studies show that blue light from screens suppresses melatonin production. For example, a 2022 WHO report found that children using devices before bed slept 45 minutes less on average. Therefore, limiting screen time is essential for healthy development.'",
+        "placeholder": "Écris ta réponse ici..."
+      },
+      {
+        "id": 7,
+        "type": "qcm",
+        "question": "Which sentence is the most effective thesis statement for an essay about the benefits of renewable energy?",
+        "choices": [
+          "Renewable energy is good.",
+          "This essay will discuss renewable energy.",
+          "Although transitioning to renewable energy requires significant investment, its long-term environmental and economic benefits make it an essential solution to climate change.",
+          "Many people think renewable energy is important."
+        ]
+      },
+      {
+        "id": 8,
+        "type": "vrai-faux",
+        "question": "The introduction of an argumentative essay should reveal all your arguments in full detail."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Structure de l'essay argumentatif",
+      "description": "Un essay argumentatif en anglais suit généralement la structure : Introduction (hook + context + thesis statement) → Body paragraphs (argument + evidence + example, un paragraphe par idée) → Conclusion (restatement of thesis + summary + final thought). Chaque paragraphe doit être cohérent et connecté par des discourse markers."
+    },
+    {
+      "notion": "La thesis statement",
+      "description": "La thesis statement est la phrase principale de l'introduction qui présente clairement la position de l'auteur. Elle doit être précise, arguable et annoncer le plan. Ex : 'Although social media has some benefits, its negative impact on mental health and social skills outweighs its advantages.' Elle guide tout le développement de l'essay."
+    },
+    {
+      "notion": "Arguments, preuves et exemples",
+      "description": "Chaque body paragraph suit la structure PEEL : Point (idée principale), Evidence (preuve/donnée), Example (exemple concret), Link (lien avec la thesis). Les arguments doivent être développés, pas seulement listés. Utiliser des discourse markers : Furthermore, However, In addition, On the other hand, As a result, In conclusion."
+    }
+  ],
+  "exerciseresponses": []
+}

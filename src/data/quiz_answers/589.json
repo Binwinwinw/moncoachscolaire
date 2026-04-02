@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 589",
+    "level": "3ème",
+    "subject": "Histoire-Géographie"
+  },
+  "quiz": {
+    "title": "Population française et mobilités",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Dans les espaces urbains",
+        "correct": 1,
+        "correction": "La France est fortement urbanisée."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Ce sont des déplacements quotidiens réguliers."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "espérance",
+        "correction": "L'espérance de vie élevée transforme la pyramide des âges."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "L'extension des villes vers leurs périphéries",
+        "correct": 1,
+        "correction": "Les couronnes périurbaines se développent autour des pôles urbains."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'immigration peut compenser un faible accroissement naturel."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "vide",
+        "correction": "Cette diagonale traverse le pays du Nord-Est au Sud-Ouest."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Paris",
+        "correct": 1,
+        "correction": "La métropole parisienne domine les fonctions de commandement."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Arrivées de néo-ruraux et télétravail modifient l'organisation locale."
+      }
+    ]
+  }
+}

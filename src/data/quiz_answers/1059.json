@@ -1,0 +1,48 @@
+{
+  "quiz_id": 1059,
+  "title": "Polynôme du second degré — forme générale",
+  "subject": "Mathématiques",
+  "level": "1ère",
+  "answers": [
+    {
+      "question_id": "1059_1",
+      "correct_option": "B",
+      "explanation": "Un trinôme du second degré est ax² + bx + c avec a ≠ 0 (le coefficient de x² ne peut pas être nul)."
+    },
+    {
+      "question_id": "1059_2",
+      "correct": true,
+      "explanation": "Si a > 0, la parabole est ouverte vers le haut (souriant). Si a < 0, elle est ouverte vers le bas."
+    },
+    {
+      "question_id": "1059_3",
+      "correct_answer": "a = 2, b = −4, c = 3",
+      "explanation": "Dans ax² + bx + c : a est le coefficient de x², b celui de x et c le terme constant."
+    },
+    {
+      "question_id": "1059_4",
+      "correct_option": "B",
+      "explanation": "L'axe de symétrie de la parabole passe par le sommet : x = −b/(2a)."
+    },
+    {
+      "question_id": "1059_5",
+      "correct": true,
+      "explanation": "Abscisse du sommet : −b/(2a) = −(−6)/(2×1) = 6/2 = 3."
+    },
+    {
+      "question_id": "1059_6",
+      "correct_answer": "S(2, 3)",
+      "explanation": "xS = −(−4)/(2×1) = 2. yS = f(2) = 4 − 8 + 7 = 3. Sommet S(2, 3)."
+    },
+    {
+      "question_id": "1059_7",
+      "correct_option": "B",
+      "explanation": "x² + 1 = 1·x² + 0·x + 1 avec a = 1 ≠ 0 : c'est bien un trinôme du second degré."
+    },
+    {
+      "question_id": "1059_8",
+      "correct": true,
+      "explanation": "Le sommet de la parabole correspond au minimum (si a>0) ou au maximum (si a<0) du trinôme."
+    }
+  ]
+}

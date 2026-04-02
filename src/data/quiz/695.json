@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 695",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 3ème : Révisions : séismes, volcans et risques",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "Révisions : séismes, volcans et risques",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel nom donne-t-on au point de rupture en profondeur d'un séisme ?",
+        "choices": [
+          "L'épicentre",
+          "Le foyer",
+          "Le cratère",
+          "La faille inversée"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une nuée ardente est généralement plus dangereuse qu'une coulée de lave effusive."
+      },
+      {
+        "type": "open",
+        "question": "Le plan d'évacuation et les consignes transmises à la population relèvent de la _____ des risques."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel phénomène peut suivre un séisme sous-marin majeur ?",
+        "choices": [
+          "Une mousson",
+          "Un tsunami",
+          "Une marée noire",
+          "Une éclipse"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Tous les volcans ont des éruptions identiques en intensité et en type."
+      },
+      {
+        "type": "open",
+        "question": "Les bâtiments conçus pour mieux résister aux secousses sont dits _____."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel indice permet surtout de décrire les dégâts observés localement après un séisme ?",
+        "choices": [
+          "L'intensité macrosismique",
+          "L'albédo",
+          "Le pH",
+          "La salinité"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La surveillance scientifique d'un volcan peut combiner mesures sismiques, déformation du sol et analyse des gaz."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 738",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie 3ème : Électricité : transistors et circuits logiques",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:45",
+    "updated_at": "2026-03-13 18:59:45"
+  },
+  "quiz": {
+    "title": "Électricité : transistors et circuits logiques",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle principal d'un transistor ?",
+        "choices": [
+          "Stocker de l'énergie",
+          "Amplifier ou commuter des signaux électriques",
+          "Convertir le courant alternatif en courant continu",
+          "Mesurer la résistance d'un circuit"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le transistor est l'invention de base qui a permis le développement de l'informatique moderne."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on la porte logique qui donne 1 en sortie uniquement si toutes les entrées sont à 1 ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Combien de transistors contient approximativement un processeur moderne ?",
+        "choices": [
+          "Quelques centaines",
+          "Quelques milliers",
+          "Quelques millions",
+          "Des milliards"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un circuit logique travaille avec deux niveaux de tension correspondant aux états 0 et 1."
+      },
+      {
+        "type": "open",
+        "question": "Quel système de numération utilise les ordinateurs pour représenter l'information ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'un circuit intégré (puce électronique) ?",
+        "choices": [
+          "Un circuit électrique composé uniquement de résistances",
+          "Un ensemble de composants (transistors, résistances, diodes) intégrés sur une même puce de silicium",
+          "Un circuit qui intègre uniquement des condensateurs",
+          "Un circuit de mesure de tension"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La porte NON (NOT) est une porte logique qui inverse l'état de son entrée."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

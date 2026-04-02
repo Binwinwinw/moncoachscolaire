@@ -1,0 +1,102 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic 1ère Anglais - Série 06",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ère : Travel, Global Issues, Advanced Expression (Eduscol B1/B2)",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-09 17:06:00"
+  },
+  "quiz": {
+    "title": "1ère English Diagnostic - Series 06 (Travel & Global)",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Air travel contributes significantly to global CO2 emissions (about 2%). Solutions?",
+        "choices": [
+          "Electric planes",
+          "High-speed trains",
+          "Carbon offsetting",
+          "All of the above"
+        ],
+        "correct_index": 3,
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Tourism helps preserve cultural heritage sites.",
+        "correct": true,
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "Name 1 pro and 1 con of mass tourism.",
+        "placeholder": "ex: Pro: Jobs / Con: Overcrowding",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "The man _____ I met yesterday was very helpful.",
+        "choices": [
+          "who",
+          "which",
+          "whose",
+          "where"
+        ],
+        "correct_index": 0,
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "I used to live in London when I was a child.",
+        "correct": true,
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "Why do people prefer budget airlines? 2 reasons.",
+        "placeholder": "ex: Cheap tickets, flexible schedules",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "Refugees often face challenges such as:",
+        "choices": [
+          "Language barriers",
+          "Job opportunities",
+          "Free housing",
+          "Easy integration"
+        ],
+        "correct_index": 0,
+        "id": 7
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Sustainable tourism focuses only on luxury eco-resorts.",
+        "correct": false,
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Travel & Tourism",
+      "description": "Mass tourism pros/cons, sustainable travel (Eduscol 1ère)"
+    },
+    {
+      "notion": "Global Mobility",
+      "description": "Refugees, migration, air travel impact"
+    },
+    {
+      "notion": "Grammar",
+      "description": "Relative clauses, used to vs would, gerunds"
+    }
+  ]
+}

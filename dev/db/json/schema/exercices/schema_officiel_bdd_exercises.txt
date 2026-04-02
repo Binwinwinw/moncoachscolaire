@@ -1,0 +1,33 @@
+Table: exercises
+Extraite le: 2026-02-15 07:19:12
+
+Nom                     Type                Null    Key     Default       Extra
+--------------------------------------------------------------------------------
+Id                      int(11)             NON     PRI                   auto_increment
+Subject                 varchar(60)         OUI                           
+Level                   varchar(10)         OUI     MUL                   
+Title                   varchar(250)        OUI                           
+Content                 longtext            OUI                           
+structure_type          enum('simple','multi-parties')OUI     MUL     simple        
+pattern_detected        varchar(20)         OUI                           
+sub_questions           longtext            OUI                           
+Type                    varchar(32)         OUI                           
+Answer                  longtext            OUI                           
+InteractiveConfig       longtext            OUI                           
+Tips                    longtext            OUI                           
+Domain                  varchar(150)        OUI                           
+Competence              varchar(200)        OUI                           
+Difficulty              varchar(10)         OUI                           
+exam_prep               varchar(20)         OUI     MUL                   
+Identifier              varchar(50)         OUI     MUL                   
+AnswerType              varchar(30)         OUI                           
+Choices                 longtext            OUI                           
+Instruction             text                OUI                           
+is_active               tinyint(1)          OUI             1             
+XP_Points               int(11)             OUI             10            
+Coherence               tinyint(1)          OUI             0             
+processed               tinyint(1)          OUI             0             
+course_id               int(11)             OUI     MUL                   
+LinkedCourses           text                OUI                           
+created_at              datetime            OUI             current_timestamp()
+updated_at              datetime            OUI     MUL     current_timestamp()on update current_timestamp()

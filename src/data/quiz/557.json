@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 557",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 3ème : La Première Guerre mondiale : bilan et traité de Versailles",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "La Première Guerre mondiale : bilan et traité de Versailles",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Le traité de Versailles est signé le 28 juin 1919. Quelle clause humiliante est imposée à l'Allemagne ?",
+        "choices": [
+          "L'Allemagne perd son armée",
+          "La clause de culpabilité de guerre (article 231) lui impose toute la responsabilité du conflit",
+          "L'Allemagne est divisée en deux",
+          "L'Allemagne rejoint la Triple Entente"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La Première Guerre mondiale fait environ 10 millions de morts militaires en Europe."
+      },
+      {
+        "type": "open",
+        "question": "La France récupère les régions d'Alsace et de _____ perdues lors de la guerre franco-prussienne de 1870."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle organisation internationale est créée en 1919 pour maintenir la paix ?",
+        "choices": [
+          "L'ONU",
+          "La SDN (Société des Nations)",
+          "L'OTAN",
+          "Le Conseil de l'Europe"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les États-Unis ratifient le traité de Versailles et rejoignent la SDN."
+      },
+      {
+        "type": "open",
+        "question": "L'épidémie de _____ de 1918-1919 tue entre 20 et 50 millions de personnes dans le monde, aggravant le bilan humain de la guerre."
+      },
+      {
+        "type": "qcm",
+        "question": "Les lourdes réparations imposées à l'Allemagne par le traité de Versailles contribuent à :",
+        "choices": [
+          "La prospérité économique de l'Allemagne",
+          "La montée du ressentiment nationaliste et l'arrivée d'Hitler au pouvoir",
+          "La stabilité politique de la République de Weimar",
+          "L'alliance franco-allemande des années 1920"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les soldats morts sans sépulture identifiée sont honorés par le symbole du Soldat inconnu."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

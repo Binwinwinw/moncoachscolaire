@@ -1,0 +1,74 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 713",
+    "level": "3ème",
+    "subject": "Physique-Chimie"
+  },
+  "quiz": {
+    "title": "Chimie et vie quotidienne : produits ménagers",
+    "question_count": 8,
+    "level": "3ème",
+    "subject": "Physique-Chimie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Dégagement de chlore gazeux Cl2 très toxique",
+        "correct": 1,
+        "correction": "NaClO + HCl → NaCl + H2O + Cl2. Le chlore gazeux est toxique pour les voies respiratoires."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le bicarbonate de soude a un pH d'environ 8,4 en solution ; il est légèrement basique et neutralise les acides."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "acide acétique",
+        "correction": "Le vinaigre blanc contient de l'acide acétique (CH3COOH) qui dissout les dépôts calcaires (CaCO3)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Par action de ses molécules amphiphiles qui solubilisent les graisses",
+        "correct": 1,
+        "correction": "Les molécules de savon ont une tête hydrophile et une queue hydrophobe ; elles entourent les graisses en micelles et les dispersent dans l'eau."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le chauffage décompose les bicarbonates dissous et précipite CaCO3 (tartre) sur les parois des appareils."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "chou rouge",
+        "correction": "Le jus de chou rouge contient des anthocyanes qui sont des indicateurs naturels acido-basiques."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "26 g/L",
+        "correct": 1,
+        "correction": "2,6% en masse pour un litre de solution (densité ≈ 1) correspond à 26 g/L de matière active."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les acides (acide citrique, acide acétique) réagissent avec CaCO3 : CaCO3 + 2H+ → Ca2+ + H2O + CO2, dissolvant le tartre."
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 2nde - Serie 977",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 2nde : Représentation graphique",
+    "status": "published",
+    "created_at": "2026-03-13 11:15:43",
+    "updated_at": "2026-03-13 11:15:43"
+  },
+  "quiz": {
+    "title": "Représentation graphique",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "La courbe représentative d'une fonction f est l'ensemble des points de coordonnées :",
+        "choices": [
+          "(f(x), x)",
+          "(x, x)",
+          "(x, f(x))",
+          "(f(x), f(x))"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une courbe verticale (droite d'équation x = a) ne peut pas être la représentation d'une fonction."
+      },
+      {
+        "type": "open",
+        "question": "Comment lit-on graphiquement l'image de x = 2 par une fonction f ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Un point A(3, 5) est sur la courbe de f. Que signifie cela ?",
+        "choices": [
+          "f(5) = 3",
+          "f(3) = 5",
+          "f(3) = 3",
+          "f(0) = 5"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Pour lire un antécédent graphiquement, on part de l'axe des ordonnées."
+      },
+      {
+        "type": "open",
+        "question": "Décris comment identifier graphiquement si une fonction est paire (symétrique par rapport à l'axe des ordonnées)."
+      },
+      {
+        "type": "qcm",
+        "question": "La parabole y = x² coupe l'axe des abscisses en :",
+        "choices": [
+          "Deux points",
+          "Un seul point",
+          "Aucun point",
+          "Trois points"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'axe des abscisses correspond aux points où f(x) = 0 (les zéros de la fonction)."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 3ème - Série 662",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 3ème : Évolution : paléontologie et datation",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:46",
+    "updated_at": "2026-03-13 18:59:46"
+  },
+  "quiz": {
+    "title": "Évolution : paléontologie et datation",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'un fossile ?",
+        "choices": [
+          "Un organisme vivant très ancien",
+          "Les restes ou traces conservés d'un organisme passé",
+          "Un minéral cristallisé",
+          "Un rocher sédimentaire"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La datation radiométrique utilise la désintégration d'éléments radioactifs pour estimer l'âge des roches."
+      },
+      {
+        "type": "open",
+        "question": "Quel isotope radioactif est utilisé pour dater des restes organiques de moins de 50 000 ans ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel type de roche conserve le mieux les fossiles ?",
+        "choices": [
+          "Roches magmatiques",
+          "Roches métamorphiques",
+          "Roches sédimentaires",
+          "Roches volcaniques"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Plus un fossile est profond dans les couches sédimentaires, plus il est récent."
+      },
+      {
+        "type": "open",
+        "question": "Comment appelle-t-on les fossiles caractéristiques d'une époque géologique précise permettant de dater les couches qui les contiennent ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la demi-vie approximative du carbone 14 ?",
+        "choices": [
+          "730 ans",
+          "5 730 ans",
+          "45 000 ans",
+          "1 300 millions d'années"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'existence de fossiles de transition valide la théorie de l'évolution."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

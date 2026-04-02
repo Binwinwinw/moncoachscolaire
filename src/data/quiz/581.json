@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 581",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 3ème : Les Amériques : puissances et inégalités",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "Les Amériques : puissances et inégalités",
+    "type": "quiz",
+    "level": "3ème",
+    "subject": "Histoire-Géographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Les États-Unis sont la première puissance mondiale grâce à :",
+        "choices": [
+          "Leur superficie uniquement",
+          "Leur puissance économique, militaire, technologique et culturelle (soft power)",
+          "Leur population la plus nombreuse du monde",
+          "Leurs ressources naturelles exclusivement"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le Brésil est la plus grande économie d'Amérique latine."
+      },
+      {
+        "type": "open",
+        "question": "La 'Silicon Valley' en Californie est la capitale mondiale de l'industrie _____ et de l'innovation technologique."
+      },
+      {
+        "type": "qcm",
+        "question": "L'ALENA (aujourd'hui ACEUM) est :",
+        "choices": [
+          "Une alliance militaire",
+          "Un accord de libre-échange entre USA, Canada et Mexique",
+          "Une organisation humanitaire",
+          "Une monnaie commune américaine"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les inégalités sociales sont très marquées en Amérique latine, avec des contrastes importants entre riches et pauvres."
+      },
+      {
+        "type": "open",
+        "question": "Le canal de Panama relie l'océan _____ à l'océan Pacifique, évitant de contourner l'Amérique du Sud."
+      },
+      {
+        "type": "qcm",
+        "question": "La déforestation de l'Amazonie est une menace pour :",
+        "choices": [
+          "La production de pétrole",
+          "La biodiversité mondiale et l'équilibre climatique",
+          "Le tourisme local",
+          "L'industrie automobile brésilienne"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le soft power américain s'exprime notamment par la diffusion mondiale de sa culture (cinéma, musique, mode de vie)."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

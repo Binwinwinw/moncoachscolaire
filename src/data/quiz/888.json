@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic NSI 1ère - Série 888",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "description": "Diagnostic NSI 1ère : Récursivité",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:44",
+    "updated_at": "2026-03-13 18:59:44"
+  },
+  "quiz": {
+    "title": "Récursivité",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "NSI",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Une fonction récursive est une fonction qui :",
+        "choices": [
+          "S'appelle une seule fois",
+          "S'appelle elle-même directement ou indirectement",
+          "Boucle sans fin",
+          "N'a pas de paramètres"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Toute fonction récursive doit avoir un cas de base pour éviter une récursion infinie."
+      },
+      {
+        "type": "open",
+        "question": "Écrivez en Python une fonction récursive calculant la factorielle de n."
+      },
+      {
+        "type": "qcm",
+        "question": "La profondeur de récursion maximale par défaut en Python est d'environ :",
+        "choices": [
+          "100",
+          "1000",
+          "10000",
+          "illimitée"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La récursion terminale (tail recursion) est toujours optimisée par Python."
+      },
+      {
+        "type": "open",
+        "question": "Expliquez la suite de Fibonacci récursive et son problème de complexité."
+      },
+      {
+        "type": "qcm",
+        "question": "Le parcours d'un arbre binaire est naturellement implémenté par :",
+        "choices": [
+          "Une boucle while",
+          "La récursivité",
+          "Une pile manuelle uniquement",
+          "La recherche dichotomique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Tout algorithme récursif peut être réécrit de façon itérative."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

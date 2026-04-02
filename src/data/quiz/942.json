@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic HGGSP 1ère - Série 942",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "HGGSP",
+    "description": "Diagnostic HGGSP 1ère : Patrimoine et tourisme de masse",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Patrimoine et tourisme de masse",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "HGGSP",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel problème central pose 'la tension entre valorisation et préservation' ?",
+        "choices": [
+          "Un enjeu uniquement technique",
+          "Un arbitrage entre intérêts politiques, économiques et culturels",
+          "Un sujet sans acteurs institutionnels",
+          "Un sujet purement local sans effet global"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'acteur 'les collectivités locales' peut peser sur la gouvernance de ce thème."
+      },
+      {
+        "type": "open",
+        "question": "Montrez en quoi 'la tension entre valorisation et préservation' constitue un enjeu géopolitique actuel."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel exemple illustre le mieux ce thème ?",
+        "choices": [
+          "la régulation des flux à Venise",
+          "Une décision strictement privée sans cadre public",
+          "Un cas sans enjeu international",
+          "Une mesure ponctuelle sans conséquence politique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les choix publics sur ce thème peuvent produire des gagnants et des perdants."
+      },
+      {
+        "type": "open",
+        "question": "Proposez une mesure opérationnelle crédible pour améliorer la gouvernance de ce thème."
+      },
+      {
+        "type": "qcm",
+        "question": "Pour traiter ce sujet en HGGSP, quelle stratégie est la plus solide ?",
+        "choices": [
+          "Comparer les acteurs et leurs intérêts à plusieurs échelles",
+          "Rester uniquement descriptif",
+          "Supprimer la dimension historique",
+          "Se limiter à un seul point de vue"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une conclusion HGGSP doit ouvrir sur une limite ou une perspective."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

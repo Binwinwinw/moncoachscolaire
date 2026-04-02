@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ère - Série 468",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "description": "Diagnostic Français 1ère : Le roman d'apprentissage (Bildungsroman)",
+    "status": "published",
+    "created_at": "2026-03-13 18:59:43",
+    "updated_at": "2026-03-13 18:59:43"
+  },
+  "quiz": {
+    "title": "Le roman d'apprentissage (Bildungsroman)",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'un roman d'apprentissage ?",
+        "choices": [
+          "Un roman policier",
+          "Un roman centré sur la formation et la maturation d'un personnage jeune",
+          "Un roman épistolaire",
+          "Un roman historique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'Éducation sentimentale de Flaubert est un roman d'apprentissage."
+      },
+      {
+        "type": "open",
+        "question": "Dans le roman d'apprentissage, le héros part souvent d'une _____ (lieu natal) vers la ville ou le monde."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel personnage balzacien est le type même du jeune ambitieux venu de province à Paris ?",
+        "choices": [
+          "Jean Valjean",
+          "Rastignac",
+          "Vautrin",
+          "Père Goriot"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Dans un roman d'apprentissage, le personnage principal n'évolue pas au fil du récit."
+      },
+      {
+        "type": "open",
+        "question": "Le mentor est une figure récurrente du roman d'apprentissage : il guide le héros dans sa _____."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel roman de Voltaire peut être lu comme une parodie du roman d'apprentissage ?",
+        "choices": [
+          "Zadig",
+          "Candide",
+          "Micromégas",
+          "L'Ingénu"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le roman épistolaire est incompatible avec le schéma du roman d'apprentissage."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}
