@@ -552,20 +552,25 @@ if (function_exists('levels_match') && (levels_match($user_level_norm, 'Terminal
             <div class="p-6">
                 <?php
                 // Récupérer les cours du MÊME NIVEAU que l'utilisateur avec exercices
-                try {
-                    $stmt = $pdo->prepare("
-                        SELECT DISTINCT c.* FROM Courses c
-                        INNER JOIN exercisecourselinks ecl ON c.Id = ecl.CourseId
-                        WHERE c.is_active = 1
-                        AND c.Level = ?
-                        ORDER BY c.Title
-                        LIMIT 4
-                    ");
-                    $stmt->execute([$user_level]);
-                    $recommendedCourses = $stmt->fetchAll(PDO::FETCH_ASSOC);
-                } catch (Exception $e) {
-                    error_log("Erreur récupération cours: " . $e->getMessage());
-                    $recommendedCourses = [];
+                $recommendedCourses = [];
+                if ($pdo instanceof PDO) {
+                    try {
+                        $stmt = $pdo->prepare("
+                            SELECT DISTINCT c.* FROM Courses c
+                            INNER JOIN exercisecourselinks ecl ON c.Id = ecl.CourseId
+                            WHERE c.is_active = 1
+                            AND c.Level = ?
+                            ORDER BY c.Title
+                            LIMIT 4
+                        ");
+                        $stmt->execute([$user_level]);
+                        $recommendedCourses = $stmt->fetchAll(PDO::FETCH_ASSOC);
+                    } catch (Exception $e) {
+                        error_log("Erreur récupération cours: " . $e->getMessage());
+                        $recommendedCourses = [];
+                    }
+                } else {
+                    error_log('dashboard.php: PDO non initialisé pour la récupération des cours recommandés.');
                 }
 
 if (!empty($recommendedCourses)): ?>

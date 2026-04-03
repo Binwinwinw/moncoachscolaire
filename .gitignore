@@ -52,6 +52,8 @@ vendor/
 
 # Sensitive runtime config
 src/config/config.php
+# Scripts that generate production config from local env should never be committed
+dev/tools/migration/migrate_to_production_config.php
 
 # Database dumps and data exports
 *.sql
