@@ -262,6 +262,13 @@ if (!function_exists('asset_url')) {
         $path = ltrim($path, '/');
         $base = isset($baseUrl) ? rtrim($baseUrl, '/') : '';
 
+        $query = '';
+        if (strpos($path, '?') !== false) {
+            $parts = explode('?', $path, 2);
+            $path = $parts[0];
+            $query = $parts[1] ?? '';
+        }
+
         // Si baseUrl n'est pas défini, essayer de le détecter
         if (empty($base) && function_exists('detectBaseUrl')) {
             $base = rtrim(detectBaseUrl(), '/');
@@ -270,11 +277,28 @@ if (!function_exists('asset_url')) {
         // En local, base peut être '/moncoachscolaire/public', donc asset_url doit produire
         // '/moncoachscolaire/public/assets/css/style.css' (pas '/moncoachscolaire/public/public/assets/css/style.css').
         // En prod, base peut être '', donc on renvoie '/assets/css/style.css'.
-        if ($base === '') {
-            return '/' . $path;
+        $url = ($base === '') ? ('/' . $path) : ($base . '/' . $path);
+
+        // Cache-busting: ajoute ?v=<filemtime> pour les assets locaux.
+        $projectRoot = dirname(__DIR__, 2);
+        $assetFile = $projectRoot . '/public/' . str_replace('\\', '/', $path);
+        if (!is_file($assetFile)) {
+            $assetFile = $projectRoot . '/' . str_replace('\\', '/', $path);
         }
 
-        return $base . '/' . $path;
+        $params = [];
+        if ($query !== '') {
+            parse_str($query, $params);
+        }
+        if (is_file($assetFile) && !isset($params['v'])) {
+            $params['v'] = (string) filemtime($assetFile);
+        }
+
+        if (!empty($params)) {
+            $url .= '?' . http_build_query($params);
+        }
+
+        return $url;
     }
 }
 

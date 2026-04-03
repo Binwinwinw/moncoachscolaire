@@ -2,6 +2,13 @@
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
+
+if (!headers_sent()) {
+    header('X-Content-Type-Options: nosniff');
+    header('X-Frame-Options: SAMEORIGIN');
+    header('Referrer-Policy: strict-origin-when-cross-origin');
+}
+
 // Redirection automatique : /index.php?page=parents => /index.php?page=parents/parents
 if (isset($_GET['page']) && trim($_GET['page'], '/ ') === 'parents') {
     $redirectBase = isset($baseUrl) ? rtrim($baseUrl, '/') : '';

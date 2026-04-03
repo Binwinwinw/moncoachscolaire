@@ -10,6 +10,13 @@ if (is_file(dirname(__DIR__, 2) . '/config/site_boot.php')) {
 if (!isset($pdo) || !$pdo) {
     require_once dirname(__DIR__, 2) . '/database/connection.php';
 }
+if (is_file(dirname(__DIR__, 2) . '/includes/login_security.php')) {
+    require_once dirname(__DIR__, 2) . '/includes/login_security.php';
+}
+
+$csrfToken = function_exists('generateCSRFToken')
+    ? generateCSRFToken()
+    : ((string) ($_SESSION['csrf_token'] ?? ''));
 
 $error = null;
 $success = null;
@@ -37,13 +44,22 @@ if ($token) {
 
 // Traitement du formulaire
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && $user) {
+    $postedCsrf = trim((string) ($_POST['csrf_token'] ?? ''));
+    $csrfValid = function_exists('verifyCSRFToken')
+        ? verifyCSRFToken($postedCsrf)
+        : ($postedCsrf !== '' && hash_equals($csrfToken, $postedCsrf));
+
+    if (!$csrfValid) {
+        $error = 'Jeton de sécurité invalide. Merci de recharger la page.';
+    }
+
     $new_password = $_POST['new_password'] ?? '';
     $confirm_password = $_POST['confirm_password'] ?? '';
-    if (strlen($new_password) < 8) {
+    if ($error === null && strlen($new_password) < 8) {
         $error = "Le mot de passe doit contenir au moins 8 caractères.";
-    } elseif ($new_password !== $confirm_password) {
+    } elseif ($error === null && $new_password !== $confirm_password) {
         $error = "Les mots de passe ne correspondent pas.";
-    } else {
+    } elseif ($error === null) {
         // Mettre à jour le mot de passe
         $hash = password_hash($new_password, PASSWORD_DEFAULT);
         $pdo->prepare("UPDATE users SET PasswordHash = ? WHERE Id = ?")->execute([$hash, $user['Id']]);
@@ -79,6 +95,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $user) {
             </div>
         <?php elseif ($user): ?>
             <form method="POST" class="flex flex-col gap-6" autocomplete="off" id="reset-form">
+                <input type="hidden" name="csrf_token" value="<?php echo htmlspecialchars($csrfToken, ENT_QUOTES, 'UTF-8'); ?>">
                 <div class="flex flex-col mb-4">
                     <label for="new_password" class="font-semibold text-gray-700 mb-2 text-base">Nouveau mot de passe <span class="text-red-500 font-bold ml-1">*</span></label>
                     <input type="password" id="new_password" name="new_password" required minlength="8" placeholder="Nouveau mot de passe"

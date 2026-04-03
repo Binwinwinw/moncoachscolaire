@@ -277,8 +277,8 @@ if (!$sessionId) {
     exit(1);
 }
 
-// Preuve post-login : page protégée qui redirige vers login si non connecté
-$protectedUrl = $proofUrlOverride ?: ($base . '/index.php?page=eleve/dashboard');
+// Preuve post-login : la page login doit rediriger hors formulaire si session authentifiée.
+$protectedUrl = $proofUrlOverride ?: ($base . '/index.php?page=login');
 $protected = curl_request($protectedUrl, [], $cookieJar, $origin, 5, $allowCrossHost);
 $protectedBody = $protected['body'];
 $protectedCode = $protected['code'];
@@ -302,6 +302,11 @@ if ($protectedCode >= 300 && $protectedCode < 400) {
     if (!empty($protected['redirectTarget'])) {
         fwrite(STDERR, "Redirect blocked to: {$protected['redirectTarget']} (host={$protected['redirectBlockedHost']})\n");
     }
+}
+
+if ($loginOk && $protectedBody && preg_match('/name\s*=\s*"password"/i', $protectedBody)) {
+    $loginOk = false;
+    fwrite(STDERR, "Auth proof failed: login form still visible after login\n");
 }
 
 $authPayload = [

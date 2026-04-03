@@ -11,6 +11,7 @@ require_once __DIR__ . '/../_core/middleware.php';
 
 api_require([
     'method' => 'POST',
+    'csrf' => true,
 ]);
 
 header('Content-Type: application/json; charset=utf-8');

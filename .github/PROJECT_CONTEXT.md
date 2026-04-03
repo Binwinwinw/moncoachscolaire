@@ -1,5 +1,9 @@
 # PROJECT_CONTEXT
 
+**Ajout du 02/04/2026 :** Le pilotage de la suite est aligne sur [../dev/SUIVI_BUGS_AMELIORATIONS.md](../dev/SUIVI_BUGS_AMELIORATIONS.md), structure en trois blocs : priorites actives, realise, abandonne / remplace. Priorites actives courtes : robustesse Quiz AI, anti-repetition, smoke test E2E connecte, nouveaux exercices/cours, mode sombre.
+
+**Ajout du 02/04/2026 :** Pivot produit Quiz AI confirme comme orientation principale. Les scripts de creation de quiz sont declasses au rang de support technique; la priorite est la generation dynamique cote eleve et la production de nouveaux exercices/cours.
+
 **Ajout du 22/03/2026 :** Synchronisation globale de la documentation avec le `JOURNAL_REPRISE.md` et le `SUIVI_BUGS_AMELIORATIONS.md`. Ces fichiers sont désormais les sources de vérité pour le suivi d'avancement (dashboards).
 
 ## Règle d’inclusion du dashboard élève

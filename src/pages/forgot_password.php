@@ -8,14 +8,31 @@ if (is_file(dirname(__DIR__, 2) . '/config/site_boot.php')) {
 if (!isset($pdo) || !$pdo) {
     require_once dirname(__DIR__, 2) . '/database/connection.php';
 }
+if (is_file(dirname(__DIR__, 2) . '/includes/login_security.php')) {
+    require_once dirname(__DIR__, 2) . '/includes/login_security.php';
+}
+
+$csrfToken = function_exists('generateCSRFToken')
+    ? generateCSRFToken()
+    : ((string) ($_SESSION['csrf_token'] ?? ''));
+
 $email_sent = false;
 $error = null;
 $success = null;
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $postedCsrf = trim((string) ($_POST['csrf_token'] ?? ''));
+    $csrfValid = function_exists('verifyCSRFToken')
+        ? verifyCSRFToken($postedCsrf)
+        : ($postedCsrf !== '' && hash_equals($csrfToken, $postedCsrf));
+
+    if (!$csrfValid) {
+        $error = 'Jeton de sécurité invalide. Merci de recharger la page.';
+    }
+
     $email = trim($_POST['email'] ?? '');
-    if (empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    if ($error === null && (empty($email) || !filter_var($email, FILTER_VALIDATE_EMAIL))) {
         $error = "Merci de saisir une adresse email valide.";
-    } else {
+    } elseif ($error === null) {
         $success = "Si un compte existe pour cet email, un lien de réinitialisation a été envoyé.";
         $email_sent = true;
         if (isset($pdo) && $pdo instanceof PDO) {
@@ -61,6 +78,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </div>
             <?php endif; ?>
             <form method="POST" class="flex flex-col gap-6" autocomplete="off" id="forgot-form">
+                <input type="hidden" name="csrf_token" value="<?php echo htmlspecialchars($csrfToken, ENT_QUOTES, 'UTF-8'); ?>">
                 <div class="flex flex-col mb-4">
                     <label for="email" class="font-semibold text-gray-700 mb-2 text-base">Adresse email utilisée pour le compte <span class="text-red-500 font-bold ml-1">*</span></label>
                     <input type="email" id="email" name="email" required placeholder="exemple@domaine.com" autocomplete="email"

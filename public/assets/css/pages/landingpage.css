@@ -741,40 +741,16 @@
     }
 } /* close @media (max-width:480px) */
 
-/* Landing page rules — overrides via CSS variables (clean, global background handling) */
-/* Instead of overriding the whole background here, we set per-page variables that the global */
-/* background in `public/assets/css/style.css` will use (via body::before / body::after). */
-body.landing-page {
-    --page-bg-image: url("/assets/img/background-school-material.png");
-    --page-bg-overlay: transparent; /* Remove overlay to show the image clearly on landing */
-    background-color: transparent !important; /* protect against accidental overrides */
-}
-
-/* Force le fond global de l'app à rester visible sous les blocs landing */
+/* Landing page background policy: exactly the same as global app background */
 body.landing-page.app-bg {
-    background-image: url("../img/background-school-material.png") !important;
+    background-image: url("../../img/background-school-material.png") !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
     background-attachment: fixed !important;
 }
 
-.landing-header,
-.landing-page .lp-wrap,
-.landing-page .card-niveau,
-.landing-page .section-header,
-.landing-page .admin-content {
-    background-color: rgba(255, 255, 255, 0.2) !important;
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+/* Même stratégie que login: ne jamais peindre un fond sur le conteneur principal */
+body.landing-page main {
+    background-color: transparent !important;
 }
-
-@media (max-width: 900px) {
-    body.landing-page {
-        --page-bg-image: url("/assets/img/landing-illustration-mobile.webp");
-        --page-bg-overlay: transparent; /* Mobile: also transparent for landing */
-        background-color: transparent !important;
-    }
-}
-
-/* End landing page rules */

@@ -194,52 +194,6 @@ if (empty($niveau_normalise)) :
             <p class="text-slate-600">Retrouve tes exercices par discipline pour cibler tes révisions.</p>
         </div>
         <div id="matiere-list" class="flex flex-wrap gap-2 justify-center"></div>
-
-        <?php
-    // Mapping matières affichées => noms dans la DB
-    $matieres_mapping = [
-        '➗ Mathématiques' => 'Mathématiques',
-        '📝 Français' => 'Français',
-        '🔬 Physique-Chimie' => 'Physique-Chimie',
-        '🌿 SVT' => 'SVT',
-        '🗺️ Histoire-Géo' => 'Histoire-Géographie',
-        '🌐 Anglais' => 'Anglais',
-        '🇪🇸 Espagnol' => 'Espagnol',
-        '💡 Philosophie' => 'Philosophie',
-    ];
-
-// Mapping niveau scolaire => matières disponibles
-$matieres_par_niveau = [
-    // Collège
-    '6eme' => ['➗ Mathématiques', '📝 Français', '🔬 Physique-Chimie', '🌿 SVT', '🗺️ Histoire-Géo', '🌐 Anglais', '🇪🇸 Espagnol'],
-    '5eme' => ['➗ Mathématiques', '📝 Français', '🔬 Physique-Chimie', '🌿 SVT', '🗺️ Histoire-Géo', '🌐 Anglais', '🇪🇸 Espagnol'],
-    '4eme' => ['➗ Mathématiques', '📝 Français', '🔬 Physique-Chimie', '🌿 SVT', '🗺️ Histoire-Géo', '🌐 Anglais', '🇪🇸 Espagnol'],
-    '3eme' => ['➗ Mathématiques', '📝 Français', '🔬 Physique-Chimie', '🌿 SVT', '🗺️ Histoire-Géo', '🌐 Anglais', '🇪🇸 Espagnol'],
-    // Lycée
-    '2nde' => ['➗ Mathématiques', '📝 Français', '🔬 Physique-Chimie', '🌿 SVT', '🗺️ Histoire-Géo', '🌐 Anglais', '🇪🇸 Espagnol'],
-    '1ere' => ['➗ Mathématiques', '📝 Français', '🔬 Physique-Chimie', '🌿 SVT', '🗺️ Histoire-Géo', '🌐 Anglais', '🇪🇸 Espagnol', '💡 Philosophie'],
-    'terminale' => ['➗ Mathématiques', '📝 Français', '🔬 Physique-Chimie', '🌿 SVT', '🗺️ Histoire-Géo', '🌐 Anglais', '🇪🇸 Espagnol', '💡 Philosophie'],
-    // BAC (affiche tout)
-    'bac' => ['➗ Mathématiques', '📝 Français', '🔬 Physique-Chimie', '🌿 SVT', '🗺️ Histoire-Géo', '🌐 Anglais', '🇪🇸 Espagnol', '💡 Philosophie'],
-];
-// Détection du niveau scolaire de l'élève connecté
-$niveau = $_SESSION['user_level'] ?? '';
-$niveau_normalise = strtolower(preg_replace('/[^a-z0-9]/i', '', $niveau));
-// Si connecté, filtrer, sinon tout afficher
-if (!empty($niveau_normalise) && isset($matieres_par_niveau[$niveau_normalise])) {
-    foreach ($matieres_par_niveau[$niveau_normalise] as $matiere_display) {
-        $matiere_db = $matieres_mapping[$matiere_display] ?? $matiere_display;
-        echo '<button class="subject-filter-btn px-4 py-2 rounded-full bg-slate-100 text-slate-700 font-semibold shadow hover:bg-blue-100 transition cursor-pointer" data-subject="' . htmlspecialchars($matiere_db) . '">' . $matiere_display . '</button>';
-    }
-} else {
-    // Visiteur ou niveau inconnu : tout afficher
-    $all_matieres_display = ['➗ Mathématiques', '📝 Français', '🔬 Physique-Chimie', '🌿 SVT', '🗺️ Histoire-Géo', '🌐 Anglais', '🇪🇸 Espagnol', '💡 Philosophie'];
-    foreach ($all_matieres_display as $matiere_display) {
-        $matiere_db = $matieres_mapping[$matiere_display] ?? $matiere_display;
-        echo '<button class="subject-filter-btn px-4 py-2 rounded-full bg-slate-100 text-slate-700 font-semibold shadow hover:bg-blue-100 transition cursor-pointer" data-subject="' . htmlspecialchars($matiere_db) . '">' . $matiere_display . '</button>';
-    }
-}
-?>
     </section>
 
     <!-- Bloc exercice aléatoire principal -->
@@ -486,10 +440,14 @@ if ($niveau_js) {
             try {
                 // Utiliser le routeur pour l'API
                 const apiUrl = (window.baseUrl || '') + '/index.php?page=api/ia/generate_quiz';
+                const csrfToken = window.csrfToken || '';
                 const response = await fetch(apiUrl, {
                     method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ niveau, matiere, type })
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-CSRF-Token': csrfToken
+                    },
+                    body: JSON.stringify({ niveau, matiere, type, csrf_token: csrfToken })
                 });
                 const data = await response.json();
                 if (data && data.quiz_html) {
@@ -506,13 +464,18 @@ if ($niveau_js) {
                             saveBtn.innerHTML = '⌛ Sauvegarde en cours...';
                             try {
                                 const saveUrl = (window.baseUrl || '') + '/index.php?page=api/ia/save_generated_quiz';
+                                const csrfToken = window.csrfToken || '';
                                 const saveRes = await fetch(saveUrl, {
                                     method: 'POST',
-                                    headers: { 'Content-Type': 'application/json' },
-                                    body: JSON.stringify({ 
-                                        questions: data.questions, 
-                                        level: data.level, 
-                                        subject: data.subject 
+                                    headers: {
+                                        'Content-Type': 'application/json',
+                                        'X-CSRF-Token': csrfToken
+                                    },
+                                    body: JSON.stringify({
+                                        questions: data.questions,
+                                        level: data.level,
+                                        subject: data.subject,
+                                        csrf_token: csrfToken
                                     })
                                 });
                                 const saveData = await saveRes.json();

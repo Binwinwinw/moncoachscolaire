@@ -1,5 +1,11 @@
 # CONTEXT_INDEX.md — Index de contexte (MonCoachScolaire)
 
+**⚠️ SOURCE DE VÉRITÉ [02/04/2026]:** Les priorités actives, état des travaux et décisions sont centralisées dans **[dev/SUIVI_BUGS_AMELIORATIONS.md](dev/SUIVI_BUGS_AMELIORATIONS.md)** (tableau de priorités, état réalisé, abandonné). **[dev/JOURNAL_REPRISE.md](dev/JOURNAL_REPRISE.md)** fournit le contexte historique et les motivations. Les autres fichiers (CONTEXT_INDEX, DOCUMENTATION, PROJECT_CONTEXT) référencent ces deux sources sans dupliquer.
+
+**Ajout du 02/04/2026 :** Le tableau de priorites pour la suite est consolide dans [dev/SUIVI_BUGS_AMELIORATIONS.md](dev/SUIVI_BUGS_AMELIORATIONS.md), organise en trois sections : priorites actives, realise, abandonne / remplace. Les axes actifs a retenir sont : robustesse Quiz AI, anti-repetition, smoke test E2E connecte, nouveaux exercices/cours, mode sombre.
+
+**Ajout du 02/04/2026 :** Pivot produit Quiz AI confirme. La generation de quiz par scripts manuels n'est plus l'objectif principal; la priorite est la generation dynamique cote eleve et le developpement de nouveaux exercices/cours. Voir `dev/JOURNAL_REPRISE.md` (entree datee du 02/04/2026) et `dev/SUIVI_BUGS_AMELIORATIONS.md`.
+
 **Ajout du 01/04/2026 :** Traçabilité consolidée de l'harmonisation des couleurs des guides de remédiation (collège vert, lycée violet/pourpre, bac doré), avec règle d'implémentation via `get_theme_variant_by_level`. Voir `dev/JOURNAL_REPRISE.md` (entrée datée du 01/04/2026) et `DOCUMENTATION.md` (section "Trace consolidée").
 
 **Ajout du 07/03/2026 :** Ajout explicite des fichiers de suivi opérationnel (`dev/JOURNAL_REPRISE.md`, `dev/SUIVI_BUGS_AMELIORATIONS.md`) dans les fichiers essentiels de reprise.

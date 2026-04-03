@@ -16,7 +16,6 @@ if (is_file(dirname(__DIR__, 2) . '/src/database/connection.php')) {
 $levelRaw = isset($_GET['level']) ? strtolower(trim((string) $_GET['level'])) : '6eme';
 $subject = isset($_GET['subject']) ? trim((string) $_GET['subject']) : '';
 $userId = isset($_SESSION['user_id']) ? (int) $_SESSION['user_id'] : 0;
-$historyWindow = 20;
 
 $levelCandidates = buildLevelCandidates($levelRaw);
 $levelNormalized = $levelCandidates[0] ?? '6eme';
@@ -25,49 +24,63 @@ try {
     $quizDir = dirname(__DIR__) . '/data/quiz';
     $allQuiz = loadQuizCatalogFromJson($quizDir, $levelCandidates, $subject);
 
-    $recentSignatures = [];
-    if ($userId > 0 && isset($pdo) && $pdo instanceof PDO) {
-        $historyStmt = $pdo->prepare(
-            "SELECT q.title, q.subject, q.level
-             FROM quizresult qr
-             JOIN quiz q ON q.id = qr.quiz_id
-             WHERE qr.user_id = ? AND q.type = 'diagnostic'
-             ORDER BY qr.created_at DESC
-             LIMIT {$historyWindow}",
-        );
-        $historyStmt->execute([$userId]);
-        $historyRows = $historyStmt->fetchAll(PDO::FETCH_ASSOC);
-
-        foreach ($historyRows as $historyRow) {
-            if (!is_array($historyRow)) {
-                continue;
+    // [02/04/2026] Filtrer les quizzes draft (marqués comme non-servables en diagnostic)
+    $draftIds = [];
+    if (isset($pdo) && $pdo instanceof PDO) {
+        try {
+            $stmt = $pdo->query("SELECT DISTINCT id FROM quiz WHERE status = 'draft'");
+            if ($stmt) {
+                while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+                    $draftIds[(int)$row['id']] = true;
+                }
             }
-
-            $historyLevel = normalizeSchoolLevel((string) ($historyRow['level'] ?? ''));
-            if ($historyLevel !== '' && !in_array($historyLevel, $levelCandidates, true)) {
-                continue;
-            }
-
-            $signature = buildQuizSignature(
-                (string) ($historyRow['title'] ?? ''),
-                (string) ($historyRow['subject'] ?? ''),
-                (string) ($historyRow['level'] ?? ''),
-            );
-            if ($signature !== '') {
-                $recentSignatures[$signature] = true;
-            }
+        } catch (PDOException $e) {
+            // Colonne status peut ne pas exister si migration non appliquée
+            // Continuer sans filtrage
         }
     }
 
-    usort($allQuiz, static function (array $a, array $b) use ($recentSignatures): int {
-        $sigA = buildQuizSignature((string) ($a['title'] ?? ''), (string) ($a['subject'] ?? ''), (string) ($a['level'] ?? ''));
-        $sigB = buildQuizSignature((string) ($b['title'] ?? ''), (string) ($b['subject'] ?? ''), (string) ($b['level'] ?? ''));
+    // Exclure les quizzes draft du catalogue servi
+    if (!empty($draftIds)) {
+        $allQuiz = array_filter($allQuiz, static function (array $quiz) use ($draftIds): bool {
+            return !isset($draftIds[(int)$quiz['id']]);
+        });
+        $allQuiz = array_values($allQuiz); // Re-index
+    }
 
-        $aSeen = $sigA !== '' && isset($recentSignatures[$sigA]);
-        $bSeen = $sigB !== '' && isset($recentSignatures[$sigB]);
+    $historyStats = [];
+    if ($userId > 0 && isset($pdo) && $pdo instanceof PDO) {
+        $historyStats = loadUserQuizHistoryStats($pdo, $userId, $levelCandidates);
+    }
 
-        if ($aSeen !== $bSeen) {
-            return $aSeen ? 1 : -1;
+    usort($allQuiz, static function (array $a, array $b) use ($historyStats): int {
+        $statsA = getQuizHistoryStats($a, $historyStats);
+        $statsB = getQuizHistoryStats($b, $historyStats);
+
+        $attemptsA = (int) ($statsA['attempts'] ?? 0);
+        $attemptsB = (int) ($statsB['attempts'] ?? 0);
+
+        if ($attemptsA !== $attemptsB) {
+            return $attemptsA <=> $attemptsB;
+        }
+
+        $lastSeenA = (string) ($statsA['last_seen_at'] ?? '');
+        $lastSeenB = (string) ($statsB['last_seen_at'] ?? '');
+
+        if ($lastSeenA === '' && $lastSeenB !== '') {
+            return -1;
+        }
+        if ($lastSeenB === '' && $lastSeenA !== '') {
+            return 1;
+        }
+        if ($lastSeenA !== '' && $lastSeenB !== '' && $lastSeenA !== $lastSeenB) {
+            return strcmp($lastSeenA, $lastSeenB);
+        }
+
+        $subjectA = normalizeTextForSignature((string) ($a['subject'] ?? ''));
+        $subjectB = normalizeTextForSignature((string) ($b['subject'] ?? ''));
+        if ($subjectA !== $subjectB) {
+            return strcmp($subjectA, $subjectB);
         }
 
         $aId = isset($a['id']) ? (int) $a['id'] : 0;
@@ -105,7 +118,7 @@ try {
         'count' => count($quiz),
         'total_pool' => count($allQuiz),
         'recommendation' => $recommendedQuiz,
-        'history_window' => $historyWindow,
+        'history_window' => 'full-history',
         'level' => $levelNormalized,
         'subject' => $subject,
     ], JSON_UNESCAPED_UNICODE);
@@ -214,6 +227,86 @@ function buildQuizSignature(string $title, string $subject, string $level): stri
     }
 
     return $titleKey . '|' . $subjectKey . '|' . $levelKey;
+}
+
+function loadUserQuizHistoryStats(PDO $pdo, int $userId, array $levelCandidates): array
+{
+    if ($userId <= 0) {
+        return [];
+    }
+
+    $stmt = $pdo->prepare(
+        "SELECT q.title, q.subject, q.level, COUNT(*) AS attempts, MAX(qr.created_at) AS last_seen_at
+         FROM quizresult qr
+         JOIN quiz q ON q.id = qr.quiz_id
+         WHERE qr.user_id = ? AND q.type = 'diagnostic'
+         GROUP BY q.title, q.subject, q.level",
+    );
+    $stmt->execute([$userId]);
+
+    $levelIndex = [];
+    foreach ($levelCandidates as $candidate) {
+        $normalized = normalizeSchoolLevel((string) $candidate);
+        if ($normalized !== '') {
+            $levelIndex[$normalized] = true;
+        }
+    }
+
+    $stats = [];
+    $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    foreach ($rows as $row) {
+        if (!is_array($row)) {
+            continue;
+        }
+
+        $historyLevel = normalizeSchoolLevel((string) ($row['level'] ?? ''));
+        if ($historyLevel !== '' && !isset($levelIndex[$historyLevel])) {
+            continue;
+        }
+
+        $signature = buildQuizSignature(
+            (string) ($row['title'] ?? ''),
+            (string) ($row['subject'] ?? ''),
+            (string) ($row['level'] ?? ''),
+        );
+
+        if ($signature === '') {
+            continue;
+        }
+
+        if (!isset($stats[$signature])) {
+            $stats[$signature] = [
+                'attempts' => 0,
+                'last_seen_at' => '',
+            ];
+        }
+
+        $stats[$signature]['attempts'] += (int) ($row['attempts'] ?? 0);
+        $lastSeenAt = (string) ($row['last_seen_at'] ?? '');
+        if ($lastSeenAt !== '' && ($stats[$signature]['last_seen_at'] === '' || strcmp($lastSeenAt, $stats[$signature]['last_seen_at']) > 0)) {
+            $stats[$signature]['last_seen_at'] = $lastSeenAt;
+        }
+    }
+
+    return $stats;
+}
+
+function getQuizHistoryStats(array $row, array $historyStats): array
+{
+    $signature = buildQuizSignature(
+        (string) ($row['title'] ?? ''),
+        (string) ($row['subject'] ?? ''),
+        (string) ($row['level'] ?? ''),
+    );
+
+    if ($signature === '' || !isset($historyStats[$signature]) || !is_array($historyStats[$signature])) {
+        return [
+            'attempts' => 0,
+            'last_seen_at' => '',
+        ];
+    }
+
+    return $historyStats[$signature];
 }
 
 function loadQuizCatalogFromJson(string $quizDir, array $levelCandidates, string $subjectFilter): array

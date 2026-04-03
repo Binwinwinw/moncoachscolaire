@@ -18,18 +18,12 @@ if (function_exists('ensure_session_started')) {
 $page_title = 'Inscription - MonCoachScolaire';
 $page_css   = 'register.css';
 
-// Gestion CSS (si tu veux encore t’en servir côté <head>)
-if ($_SERVER['HTTP_HOST'] === 'localhost') {
-    $cssStyle = '/moncoachscolaire/public/assets/css/tailwind.css';
-    $cssPage  = '/moncoachscolaire/public/assets/css/pages/' . $page_css;
-} else {
-    $cssStyle = '/public/assets/css/tailwind.css';
-    $cssPage  = '/public/assets/css/pages/' . $page_css;
-}
-
 // 3. CONFIG + DB + site_url()
 require_once __DIR__ . '/../config/config.php';
 require_once __DIR__ . '/../database/connection.php';
+if (is_file(__DIR__ . '/../includes/login_security.php')) {
+    require_once __DIR__ . '/../includes/login_security.php';
+}
 
 if (!function_exists('site_url')) {
     $siteBoot = __DIR__ . '/../config/site_boot.php';
@@ -137,12 +131,25 @@ $form_type = $_GET['type'] ?? ($_POST['form_type'] ?? null);
 $show_student_form = ($form_type === 'student');
 $show_parent_form  = ($form_type === 'parent');
 
+$csrfToken = function_exists('generateCSRFToken')
+    ? generateCSRFToken()
+    : ((string) ($_SESSION['csrf_token'] ?? ''));
+
 // 8. TRAITEMENT POST
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $postedCsrf = trim((string) ($_POST['csrf_token'] ?? ''));
+    $csrfValid = function_exists('verifyCSRFToken')
+        ? verifyCSRFToken($postedCsrf)
+        : ($postedCsrf !== '' && hash_equals($csrfToken, $postedCsrf));
+
+    if (!$csrfValid) {
+        $error = 'Jeton de sécurité invalide. Merci de recharger la page.';
+    }
+
     $form_type_post = $_POST['form_type'] ?? '';
 
     // === FORMULAIRE ÉLÈVE ===
-    if ($form_type_post === 'student') {
+    if ($error === null && $form_type_post === 'student') {
         $show_student_form = true;
 
         $username = trim($_POST['username'] ?? '');
@@ -207,7 +214,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             error_log("UserProgress erreur: " . $e->getMessage());
                         }
 
-                        session_regenerate_id(false);
+                        session_regenerate_id(true);
 
                         $redirectUrl = getDashboardUrlForLevel($classe);
                         header('Location: ' . $redirectUrl);
@@ -228,7 +235,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     // === FORMULAIRE PARENT ===
-    if ($form_type_post === 'parent') {
+    if ($error === null && $form_type_post === 'parent') {
         $show_parent_form = true;
 
         $email     = trim($_POST['email'] ?? '');
@@ -303,7 +310,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         $_SESSION['logged_in'] = true;
                         unset($_SESSION['is_demo']);
 
-                        session_regenerate_id(false);
+                        session_regenerate_id(true);
 
                         $redirectUrl = site_url('parents/dashboard_parent');
                         header('Location: ' . $redirectUrl);
@@ -331,9 +338,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo htmlspecialchars($page_title, ENT_QUOTES, 'UTF-8'); ?></title>
     <!-- Tailwind + style global -->
-    <link rel="stylesheet" href="/moncoachscolaire/public/assets/css/style.css">
-    <link rel="stylesheet" href="/moncoachscolaire/public/assets/css/tailwind.css">
-    <link rel="stylesheet" href="/moncoachscolaire/public/assets/css/pages/<?php echo htmlspecialchars($page_css, ENT_QUOTES, 'UTF-8'); ?>">
+    <link rel="stylesheet" href="<?php echo asset_url('assets/css/style.css'); ?>">
+    <link rel="stylesheet" href="<?php echo asset_url('assets/css/tailwind.css'); ?>">
+    <link rel="stylesheet" href="<?php echo asset_url('assets/css/pages/' . $page_css); ?>">
 </head>
 <body class="app-bg register-page">
 <?php
@@ -399,6 +406,7 @@ if (is_file(__DIR__ . '/../includes/topbar.php')) {
                 <form action="<?php echo site_url('register'); ?>" method="POST"
                       class="register-form grid grid-cols-1 md:grid-cols-2 gap-6" id="student-form">
                     <input type="hidden" name="form_type" value="student">
+                                        <input type="hidden" name="csrf_token" value="<?php echo htmlspecialchars($csrfToken, ENT_QUOTES, 'UTF-8'); ?>">
 
                     <div class="flex flex-col gap-2">
                         <label for="username">👤 Nom d'utilisateur</label>
@@ -509,6 +517,7 @@ if (is_file(__DIR__ . '/../includes/topbar.php')) {
                 <form action="<?php echo site_url('register'); ?>" method="POST"
                       class="register-form grid grid-cols-1 md:grid-cols-2 gap-6" id="parent-form">
                     <input type="hidden" name="form_type" value="parent">
+                                        <input type="hidden" name="csrf_token" value="<?php echo htmlspecialchars($csrfToken, ENT_QUOTES, 'UTF-8'); ?>">
 
                     <div class="flex flex-col gap-2 md:col-span-2">
                         <label for="email">📧 Adresse email</label>

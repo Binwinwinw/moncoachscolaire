@@ -310,7 +310,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !isset($GLOBALS['__login_post_proce
                                     $_SESSION['__login_last_attempt']['phase'] = 'session_set';
                                     $_SESSION['__login_last_attempt']['user_id'] = $_SESSION['user_id'] ?? null;
                                     $_SESSION['__login_last_attempt']['parent_id'] = $_SESSION['parent_id'] ?? null;
-                                    session_regenerate_id(false);
+                                    session_regenerate_id(true);
 
                                     resetLoginAttempts($username);
 
@@ -377,7 +377,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !isset($GLOBALS['__login_post_proce
                                         updateLoginStreak($_SESSION['user_id']);
                                     }
 
-                                    session_regenerate_id(false);
+                                    session_regenerate_id(true);
                                     session_write_close();
                                     // NE PAS REDIRIGER ICI, laisser la redirection au bloc post-login (10)
                                 }
@@ -410,7 +410,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !isset($GLOBALS['__login_post_proce
                         $_SESSION['user_role'] = 'student';
                         $_SESSION['logged_in'] = true;
                         $_SESSION['is_demo'] = true;
-                        session_regenerate_id(false);
+                        session_regenerate_id(true);
                         session_write_close();
                         // NE PAS REDIRIGER ICI, laisser la redirection au bloc post-login (10)
                     } else {
@@ -500,14 +500,8 @@ if (!$root) {
         $root = '';
     }
 }
-// Forcer le chemin absolu selon environnement (localhost ou prod)
-if ($_SERVER['HTTP_HOST'] === 'localhost') {
-    $cssStyle = '/moncoachscolaire/public/assets/css/style.css';
-    $cssPage = '/moncoachscolaire/public/assets/css/pages/' . $page_css;
-} else {
-    $cssStyle = '/public/assets/css/style.css';
-    $cssPage = '/public/assets/css/pages/' . $page_css;
-}
+$cssStyle = asset_url('assets/css/style.css');
+$cssPage = asset_url('assets/css/pages/' . $page_css);
 ?>
     <link rel="stylesheet" href="<?php echo htmlspecialchars($cssStyle, ENT_QUOTES); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars($cssPage, ENT_QUOTES); ?>">

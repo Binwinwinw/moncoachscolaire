@@ -1,32 +1,35 @@
 // diagnostic.js — Diagnostic initial MonCoachScolaire (MVP 2026)
 // Version améliorée avec meilleur logging et gestion d'erreurs
-console.log('✅ diagnostic.js chargé');
+console.log("✅ diagnostic.js chargé");
 
 let currentQuizState = null;
 
 function escapeHtml(value) {
     return String(value)
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
-        .replace(/"/g, '&quot;')
-        .replace(/'/g, '&#39;');
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
 }
 
-document.addEventListener('DOMContentLoaded', async () => {
-    console.log('✅ DOMContentLoaded déclenché');
-    const app = document.getElementById('diagnostic-app');
-    if (!app) return console.error('diagnostic-app non trouvé');
+document.addEventListener("DOMContentLoaded", async () => {
+    console.log("✅ DOMContentLoaded déclenché");
+    const app = document.getElementById("diagnostic-app");
+    if (!app) return console.error("diagnostic-app non trouvé");
 
     // Niveau synchronisé depuis PHP
-    const level = window.userLevel || '6eme';
+    const level = window.userLevel || "6eme";
     const urlParams = new URLSearchParams(window.location.search);
-    const subject = urlParams.get('subject') || null;
+    const subject = urlParams.get("subject") || null;
 
     // Vérifier que apiBasePath est défini
     if (!window.apiBasePath) {
-        console.error('ERROR: window.apiBasePath non défini');
-        console.log('Configuration disponible:', { userLevel: window.userLevel, basePath: window.basePath });
+        console.error("ERROR: window.apiBasePath non défini");
+        console.log("Configuration disponible:", {
+            userLevel: window.userLevel,
+            basePath: window.basePath,
+        });
         app.innerHTML = `
             <div class="text-center py-20 px-4">
                 <div class="w-24 h-24 bg-red-100 rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-lg">
@@ -39,54 +42,67 @@ document.addEventListener('DOMContentLoaded', async () => {
         return;
     }
 
-    const apiUrl = `${window.apiBasePath}/diagnostic.php?level=${encodeURIComponent(level)}` +
-                   (subject ? `&subject=${encodeURIComponent(subject)}` : '');
+    const apiUrl =
+        `${window.apiBasePath}/diagnostic.php?level=${encodeURIComponent(level)}` +
+        (subject ? `&subject=${encodeURIComponent(subject)}` : "");
 
-    console.log('INFO: Diagnostic page loading');
-    console.log('- User Level:', level);
-    console.log('- API Base Path:', window.apiBasePath);
-    console.log('- API URL:', apiUrl);
-    console.log('- Subject:', subject || 'none');
+    console.log("INFO: Diagnostic page loading");
+    console.log("- User Level:", level);
+    console.log("- API Base Path:", window.apiBasePath);
+    console.log("- API URL:", apiUrl);
+    console.log("- Subject:", subject || "none");
 
     try {
-        console.log('FETCH: Appel API...');
+        console.log("FETCH: Appel API...");
         const response = await fetch(apiUrl);
 
         // Vérifier le statut HTTP
         if (!response.ok) {
-            throw new Error(`Erreur HTTP ${response.status}: ${response.statusText}`);
+            throw new Error(
+                `Erreur HTTP ${response.status}: ${response.statusText}`,
+            );
         }
 
         // Lire la réponse comme texte d'abord pour debug
         const responseText = await response.text();
-        console.log('RESPONSE: Réponse brute reçue (' + responseText.length + ' bytes)');
-        console.log('RESPONSE: Premiers 300 caractères:', responseText.substring(0, 300));
+        console.log(
+            "RESPONSE: Réponse brute reçue (" + responseText.length + " bytes)",
+        );
+        console.log(
+            "RESPONSE: Premiers 300 caractères:",
+            responseText.substring(0, 300),
+        );
 
         // Essayer de parser en JSON
         let data;
         try {
             data = JSON.parse(responseText);
         } catch (parseError) {
-            console.error('ERROR: Impossible de parser JSON:', parseError.message);
-            console.error('ERROR: Contenu:', responseText);
-            throw new Error(`Réponse API invalide (JSON parse error): ${parseError.message}`);
+            console.error(
+                "ERROR: Impossible de parser JSON:",
+                parseError.message,
+            );
+            console.error("ERROR: Contenu:", responseText);
+            throw new Error(
+                `Réponse API invalide (JSON parse error): ${parseError.message}`,
+            );
         }
 
-        console.log('SUCCESS: JSON parsé', data);
+        console.log("SUCCESS: JSON parsé", data);
 
         // Récupérer les quiz (data.quiz ou data.data selon la structure)
         const quizArray = data.quiz || data.data || [];
         const recommendedQuizId = Number(data?.recommendation?.id || 0);
 
-        console.log('INFO: Quiz array reçu:', {
+        console.log("INFO: Quiz array reçu:", {
             isArray: Array.isArray(quizArray),
-            length: quizArray ? quizArray.length : 'N/A',
+            length: quizArray ? quizArray.length : "N/A",
             type: typeof quizArray,
-            content: quizArray
+            content: quizArray,
         });
 
         if (!Array.isArray(quizArray)) {
-            console.error('ERROR: data.quiz n\'est pas un array:', quizArray);
+            console.error("ERROR: data.quiz n'est pas un array:", quizArray);
             app.innerHTML = `
                 <div class="text-center py-20 px-4">
                     <div class="w-24 h-24 bg-red-100 rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-lg">
@@ -101,7 +117,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
 
         if (quizArray.length === 0) {
-            console.log('INFO: Aucun quiz trouvé pour le niveau: ' + level);
+            console.log("INFO: Aucun quiz trouvé pour le niveau: " + level);
             app.innerHTML = `
                 <div class="text-center py-20 px-4">
                     <div class="w-24 h-24 bg-yellow-100 rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-lg">
@@ -117,16 +133,20 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // Grille quiz
         // Déterminer le type de niveau pour le badge
-        let levelType = 'Collège'; // Par défaut
-        let levelBadgeClass = 'bg-blue-100 text-blue-800';
+        let levelType = "Collège"; // Par défaut
+        let levelBadgeClass = "bg-blue-100 text-blue-800";
 
         const levelLower = level.toLowerCase();
-        if (['2nde', 'seconde', '1ere', 'premiere', 'terminale'].includes(levelLower)) {
-            levelType = 'Lycée';
-            levelBadgeClass = 'bg-purple-100 text-purple-800';
-        } else if (levelLower === 'bac') {
-            levelType = 'BAC';
-            levelBadgeClass = 'bg-amber-100 text-amber-800';
+        if (
+            ["2nde", "seconde", "1ere", "premiere", "terminale"].includes(
+                levelLower,
+            )
+        ) {
+            levelType = "Lycée";
+            levelBadgeClass = "bg-purple-100 text-purple-800";
+        } else if (levelLower === "bac") {
+            levelType = "BAC";
+            levelBadgeClass = "bg-amber-100 text-amber-800";
         }
 
         const pageSize = 12;
@@ -135,14 +155,14 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         function renderPagination() {
             if (totalPages <= 1) {
-                return '';
+                return "";
             }
 
             const buttons = [];
             for (let page = 1; page <= totalPages; page++) {
                 const isActive = page === currentPage;
                 buttons.push(`
-                    <button data-quiz-page="${page}" class="px-4 py-2 rounded-xl border-2 text-sm font-bold transition-all ${isActive ? 'bg-blue-600 text-white border-blue-600 shadow-lg' : 'bg-white text-blue-700 border-blue-200 hover:border-blue-400 hover:bg-blue-50'}">
+                    <button data-quiz-page="${page}" class="px-4 py-2 rounded-xl border-2 text-sm font-bold transition-all ${isActive ? "bg-blue-600 text-white border-blue-600 shadow-lg" : "bg-white text-blue-700 border-blue-200 hover:border-blue-400 hover:bg-blue-50"}">
                         ${page}
                     </button>
                 `);
@@ -151,7 +171,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             return `
                 <div class="w-full flex flex-wrap justify-center items-center gap-2 mt-8">
                     <span class="text-sm text-gray-600 font-semibold mr-2">Page ${currentPage}/${totalPages}</span>
-                    ${buttons.join('')}
+                    ${buttons.join("")}
                 </div>
             `;
         }
@@ -190,15 +210,17 @@ document.addEventListener('DOMContentLoaded', async () => {
                         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-full">
             `;
 
-            pagedQuiz.forEach(quiz => {
-            const isRecommended = recommendedQuizId > 0 && Number(quiz.id) === recommendedQuizId;
-            const recommendedBadge = isRecommended
-                ? '<span class="absolute top-4 left-4 px-4 py-2 rounded-full bg-gradient-to-r from-emerald-500 to-green-600 text-white font-bold text-xs shadow-lg">⭐ Recommandé</span>'
-                : '';
+            pagedQuiz.forEach((quiz) => {
+                const isRecommended =
+                    recommendedQuizId > 0 &&
+                    Number(quiz.id) === recommendedQuizId;
+                const recommendedBadge = isRecommended
+                    ? '<span class="absolute top-4 left-4 px-4 py-2 rounded-full bg-gradient-to-r from-emerald-500 to-green-600 text-white font-bold text-xs shadow-lg">⭐ Recommandé</span>'
+                    : "";
 
-            const recommendedCardClass = isRecommended
-                ? 'border-emerald-400 ring-2 ring-emerald-200 shadow-emerald-200'
-                : 'border-blue-200';
+                const recommendedCardClass = isRecommended
+                    ? "border-emerald-400 ring-2 ring-emerald-200 shadow-emerald-200"
+                    : "border-blue-200";
 
                 html += `
                         <button onclick="startQuiz(${quiz.id}, '${quiz.title.replace(/'/g, "\\'").replace(/"/g, '\\"')}')"
@@ -214,7 +236,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                                     <p class="text-sm font-bold text-indigo-900 bg-indigo-100 px-4 py-2 rounded-full mt-2 inline-block shadow">${quiz.subject}</p>
                                 </div>
                             </div>
-                            <p class="text-gray-800 text-base leading-relaxed font-medium mb-2">${quiz.description || 'Diagnostic niveau ' + level}</p>
+                            <p class="text-gray-800 text-base leading-relaxed font-medium mb-2">${quiz.description || "Diagnostic niveau " + level}</p>
                             <div class="flex flex-wrap gap-2 mt-4">
                                 <span class="px-3 py-1 rounded-full bg-green-100 text-green-800 text-xs font-semibold shadow">${quiz.level}</span>
                                 <span class="px-3 py-1 rounded-full bg-yellow-100 text-yellow-800 text-xs font-semibold shadow">Quiz</span>
@@ -230,32 +252,48 @@ document.addEventListener('DOMContentLoaded', async () => {
                 </div>
             `;
 
-            console.log('SUCCESS: Contenu généré avec ' + pagedQuiz.length + ' quiz sur la page ' + currentPage + '/' + totalPages);
+            console.log(
+                "SUCCESS: Contenu généré avec " +
+                    pagedQuiz.length +
+                    " quiz sur la page " +
+                    currentPage +
+                    "/" +
+                    totalPages,
+            );
             app.innerHTML = html;
 
-            const pagerButtons = app.querySelectorAll('button[data-quiz-page]');
-            pagerButtons.forEach(button => {
-                button.addEventListener('click', () => {
-                    const nextPage = Number(button.getAttribute('data-quiz-page') || '1');
-                    if (Number.isNaN(nextPage) || nextPage < 1 || nextPage > totalPages || nextPage === currentPage) {
+            const pagerButtons = app.querySelectorAll("button[data-quiz-page]");
+            pagerButtons.forEach((button) => {
+                button.addEventListener("click", () => {
+                    const nextPage = Number(
+                        button.getAttribute("data-quiz-page") || "1",
+                    );
+                    if (
+                        Number.isNaN(nextPage) ||
+                        nextPage < 1 ||
+                        nextPage > totalPages ||
+                        nextPage === currentPage
+                    ) {
                         return;
                     }
                     currentPage = nextPage;
                     renderQuizPage();
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                    window.scrollTo({ top: 0, behavior: "smooth" });
                 });
             });
 
-            const input = app.querySelector('#quiz-id-input');
-            const launchBtn = app.querySelector('#quiz-id-start-btn');
+            const input = app.querySelector("#quiz-id-input");
+            const launchBtn = app.querySelector("#quiz-id-start-btn");
             const launchById = () => {
                 const requestedId = Number(input?.value || 0);
                 if (!requestedId) {
-                    alert('Entre un ID de quiz valide.');
+                    alert("Entre un ID de quiz valide.");
                     return;
                 }
 
-                const selected = quizArray.find(item => Number(item.id) === requestedId);
+                const selected = quizArray.find(
+                    (item) => Number(item.id) === requestedId,
+                );
                 if (!selected) {
                     alert(`Quiz ID ${requestedId} introuvable pour ce niveau.`);
                     return;
@@ -265,11 +303,11 @@ document.addEventListener('DOMContentLoaded', async () => {
             };
 
             if (launchBtn) {
-                launchBtn.addEventListener('click', launchById);
+                launchBtn.addEventListener("click", launchById);
             }
             if (input) {
-                input.addEventListener('keydown', (event) => {
-                    if (event.key === 'Enter') {
+                input.addEventListener("keydown", (event) => {
+                    if (event.key === "Enter") {
                         launchById();
                     }
                 });
@@ -277,10 +315,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
 
         renderQuizPage();
-
     } catch (error) {
-        console.error('CATCH ERROR:', error);
-        console.error('Error stack:', error.stack);
+        console.error("CATCH ERROR:", error);
+        console.error("Error stack:", error.stack);
 
         app.innerHTML = `
             <div class="text-center py-20 px-4">
@@ -290,7 +327,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 <h2 class="text-3xl font-bold text-red-600 mb-4">Chargement échoué</h2>
                 <p class="text-lg text-gray-600 mb-8">${error.message}</p>
                 <p class="text-sm text-gray-500 mb-8 max-w-2xl mx-auto bg-gray-100 p-4 rounded-lg font-mono">
-                    ${error.stack ? error.stack.substring(0, 300) : 'No stack trace'}
+                    ${error.stack ? error.stack.substring(0, 300) : "No stack trace"}
                 </p>
                 <button onclick="location.reload()" class="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-2xl shadow-lg transition-all">
                     🔄 Réessayer
@@ -302,7 +339,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
 // Quiz engine
 async function startQuiz(contentId, title) {
-    const app = document.getElementById('diagnostic-app');
+    const app = document.getElementById("diagnostic-app");
 
     app.innerHTML = `
         <div class="min-h-[60vh] flex items-center justify-center p-8">
@@ -315,24 +352,30 @@ async function startQuiz(contentId, title) {
     `;
 
     try {
-        const response = await fetch(`${window.apiBasePath}/quiz.php?id=${contentId}`);
+        const response = await fetch(
+            `${window.apiBasePath}/quiz.php?id=${contentId}`,
+        );
         if (!response.ok) {
             if (response.status === 404) {
-                throw new Error('Ce quiz est en cours de preparation. Reviens dans un instant, il arrive bientot.');
+                throw new Error(
+                    "Ce quiz est en cours de preparation. Reviens dans un instant, il arrive bientot.",
+                );
             }
-            throw new Error('Le quiz est temporairement indisponible. Merci de reessayer dans quelques instants.');
+            throw new Error(
+                "Le quiz est temporairement indisponible. Merci de reessayer dans quelques instants.",
+            );
         }
 
         const quizData = await response.json();
         const questions = quizData.quiz?.questions || [];
 
-        if (questions.length === 0) throw new Error('Quiz vide');
+        if (questions.length === 0) throw new Error("Quiz vide");
 
         currentQuizState = {
             contentId,
             title,
             totalQuestions: questions.length,
-            startedAt: Date.now()
+            startedAt: Date.now(),
         };
 
         // Questions UI
@@ -392,14 +435,13 @@ async function startQuiz(contentId, title) {
 
         // Live progress
         const inputs = document.querySelectorAll('input[name^="q"]');
-        inputs.forEach(input => {
-            input.addEventListener('change', updateProgress);
-            input.addEventListener('input', updateProgress);
+        inputs.forEach((input) => {
+            input.addEventListener("change", updateProgress);
+            input.addEventListener("input", updateProgress);
         });
         updateProgress();
-
     } catch (error) {
-        console.error('Quiz load error:', error);
+        console.error("Quiz load error:", error);
         app.innerHTML = `
             <div class="min-h-screen flex items-center justify-center p-8">
                 <div class="max-w-md text-center">
@@ -420,9 +462,11 @@ async function startQuiz(contentId, title) {
 
 function updateProgress() {
     const answered = Object.keys(collectAnswers()).length;
-    const total = currentQuizState?.totalQuestions || document.querySelectorAll('.question').length;
-    const elements = document.querySelectorAll('#progress-count');
-    elements.forEach(el => {
+    const total =
+        currentQuizState?.totalQuestions ||
+        document.querySelectorAll(".question").length;
+    const elements = document.querySelectorAll("#progress-count");
+    elements.forEach((el) => {
         el.textContent = `${answered}`;
     });
 }
@@ -437,69 +481,87 @@ async function submitQuiz() {
     const totalQuestions = currentQuizState.totalQuestions || 1;
 
     if (answeredCount === 0) {
-        alert('Commence par repondre a quelques questions pour recevoir ton diagnostic.');
+        alert(
+            "Commence par repondre a quelques questions pour recevoir ton diagnostic.",
+        );
         return;
     }
 
     const durationSeconds = Math.max(
         1,
-        Math.round((Date.now() - (currentQuizState.startedAt || Date.now())) / 1000)
+        Math.round(
+            (Date.now() - (currentQuizState.startedAt || Date.now())) / 1000,
+        ),
     );
 
     // Préparer payload avec métadonnées de révision si applicable
     const payload = {
         quiz_id: currentQuizState.contentId,
         answers,
-        duration_seconds: durationSeconds
+        duration_seconds: durationSeconds,
+        csrf_token: window.csrfToken || "",
     };
 
     if (currentQuizState.isReview && currentQuizState.originalAnswers) {
         payload.is_review = true;
         payload.original_answers = currentQuizState.originalAnswers;
-        payload.reviewed_question_indexes = currentQuizState.reviewQuestionIndexes || [];
+        payload.reviewed_question_indexes =
+            currentQuizState.reviewQuestionIndexes || [];
     }
 
     let responseData;
     try {
-        const response = await fetch(`${window.apiBasePath}/diagnostic/submit.php`, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Accept': 'application/json'
+        const response = await fetch(
+            `${window.apiBasePath}/diagnostic/submit.php`,
+            {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    Accept: "application/json",
+                    "X-CSRF-Token": window.csrfToken || "",
+                },
+                body: JSON.stringify(payload),
             },
-            body: JSON.stringify(payload)
-        });
+        );
 
         const bodyText = await response.text();
         let parsed;
         try {
             parsed = JSON.parse(bodyText);
         } catch (parseError) {
-            throw new Error('Reponse JSON invalide du serveur');
+            throw new Error("Reponse JSON invalide du serveur");
         }
 
         if (!response.ok || !parsed.success) {
-            const apiMessage = parsed?.error || parsed?.error?.message || `HTTP ${response.status}`;
+            const apiMessage =
+                parsed?.error ||
+                parsed?.error?.message ||
+                `HTTP ${response.status}`;
             throw new Error(apiMessage);
         }
 
         responseData = parsed.data || {};
     } catch (error) {
-        console.error('Erreur soumission diagnostic:', error);
+        console.error("Erreur soumission diagnostic:", error);
         alert(`Impossible de corriger le diagnostic: ${error.message}`);
         return;
     }
 
     const score = Number(responseData.score || 0);
-    const oldScore = responseData.old_score !== undefined && responseData.old_score !== null
-        ? Number(responseData.old_score)
-        : null;
+    const oldScore =
+        responseData.old_score !== undefined && responseData.old_score !== null
+            ? Number(responseData.old_score)
+            : null;
     const isReviewResult = responseData.is_review === true;
     const feedback = responseData.feedback || {};
     const xpGained = Number(responseData.xp_gained || 0);
     const xpTotal = Number(responseData.xp_total || 0);
-    const strengths = Array.isArray(feedback.strengths) ? feedback.strengths : [];
-    const toReview = Array.isArray(feedback.to_review) ? feedback.to_review : [];
+    const strengths = Array.isArray(feedback.strengths)
+        ? feedback.strengths
+        : [];
+    const toReview = Array.isArray(feedback.to_review)
+        ? feedback.to_review
+        : [];
 
     // Stocker les réponses initiales pour révision future
     if (!isReviewResult) {
@@ -507,7 +569,7 @@ async function submitQuiz() {
         currentQuizState.originalScore = score;
     }
 
-    document.body.style.overflow = 'hidden';
+    document.body.style.overflow = "hidden";
 
     // Message conditionnel selon révision ou première tentative
     let scoreDisplay = `<h1 class="text-5xl font-black bg-gradient-to-r from-green-600 to-emerald-700 bg-clip-text text-transparent mb-6">
@@ -516,9 +578,10 @@ async function submitQuiz() {
 
     if (isReviewResult && oldScore !== null) {
         const improvement = score - oldScore;
-        const improvementText = improvement > 0
-            ? `<span class="text-green-600">+${improvement.toFixed(1)} points</span>`
-            : `<span class="text-orange-600">${improvement.toFixed(1)} points</span>`;
+        const improvementText =
+            improvement > 0
+                ? `<span class="text-green-600">+${improvement.toFixed(1)} points</span>`
+                : `<span class="text-orange-600">${improvement.toFixed(1)} points</span>`;
 
         scoreDisplay = `
             <div class="mb-6">
@@ -531,25 +594,25 @@ async function submitQuiz() {
         `;
     }
 
-    document.querySelector('#diagnostic-app').innerHTML = `
+    document.querySelector("#diagnostic-app").innerHTML = `
         <div class="min-h-screen flex items-center justify-center p-8 bg-gradient-to-br from-green-50 to-emerald-50">
             <div class="max-w-2xl mx-auto text-center backdrop-blur-xl bg-white/90 rounded-3xl p-12 shadow-2xl border border-green-200">
-                <div class="w-32 h-32 bg-gradient-to-br from-green-400 to-emerald-500 rounded-3xl flex items-center justify-center mx-auto mb-8 shadow-2xl ${isReviewResult ? '' : 'animate-bounce'}">
-                    <span class="text-5xl font-black">${isReviewResult ? '🎯' : '⭐'}</span>
+                <div class="w-32 h-32 bg-gradient-to-br from-green-400 to-emerald-500 rounded-3xl flex items-center justify-center mx-auto mb-8 shadow-2xl ${isReviewResult ? "" : "animate-bounce"}">
+                    <span class="text-5xl font-black">${isReviewResult ? "🎯" : "⭐"}</span>
                 </div>
                 ${scoreDisplay}
                 <p class="text-2xl font-semibold text-gray-700 mb-4">${answeredCount}/${totalQuestions} reponses analysees</p>
-                <p class="text-lg text-gray-700 mb-8">${escapeHtml(feedback.message || 'Bravo pour ton effort, continue comme ca !')}</p>
+                <p class="text-lg text-gray-700 mb-8">${escapeHtml(feedback.message || "Bravo pour ton effort, continue comme ca !")}</p>
                 <div class="grid md:grid-cols-3 gap-6 mb-12">
                     <div class="p-6 bg-green-100 rounded-2xl">
                         <span class="text-3xl font-bold text-green-700">✅</span>
                         <p class="font-bold text-lg mt-2">Points forts</p>
-                        <p class="text-sm text-green-800">${strengths.length ? escapeHtml(strengths.join(', ')) : 'Progression en cours'}</p>
+                        <p class="text-sm text-green-800">${strengths.length ? escapeHtml(strengths.join(", ")) : "Progression en cours"}</p>
                     </div>
                     <div class="p-6 bg-yellow-100 rounded-2xl">
                         <span class="text-3xl font-bold text-yellow-700">⚠️</span>
                         <p class="font-bold text-lg mt-2">À revoir</p>
-                        <p class="text-sm text-yellow-800">${toReview.length ? escapeHtml(toReview.join(', ')) : 'Tres bon niveau global'}</p>
+                        <p class="text-sm text-yellow-800">${toReview.length ? escapeHtml(toReview.join(", ")) : "Tres bon niveau global"}</p>
                     </div>
                     <div class="p-6 bg-blue-100 rounded-2xl">
                         <span class="text-3xl font-bold text-blue-700">📚</span>
@@ -562,19 +625,27 @@ async function submitQuiz() {
                             class="flex-1 inline-flex items-center justify-center px-8 py-5 bg-gradient-to-r from-yellow-500 to-amber-600 hover:from-yellow-600 hover:to-amber-700 text-white font-black text-lg rounded-3xl shadow-2xl hover:shadow-3xl transform hover:scale-[1.05] transition-all duration-300">
                         🔄 Refaire tout le quiz
                     </button>
-                    ${toReview.length > 0 ? `
-                    <button onclick="reviewFailedQuestions(${JSON.stringify(toReview).replace(/"/g, '&quot;')})"
+                    ${
+                        toReview.length > 0
+                            ? `
+                    <button onclick="reviewFailedQuestions(${JSON.stringify(toReview).replace(/"/g, "&quot;")})"
                             class="flex-1 inline-flex items-center justify-center px-8 py-5 bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white font-black text-lg rounded-3xl shadow-2xl hover:shadow-3xl transform hover:scale-[1.05] transition-all duration-300">
                         ⚠️ Revoir les questions ratées
                     </button>
-                    ` : ''}
+                    `
+                            : ""
+                    }
                 </div>
-                ${score < 50 ? `
+                ${
+                    score < 50
+                        ? `
                 <button onclick="showCorrectionsHelp()"
                         class="mb-6 inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-violet-600 to-fuchsia-600 hover:from-violet-700 hover:to-fuchsia-700 text-white font-bold rounded-2xl shadow-xl transition-all">
                     💡 Voir les corrections pour progresser
                 </button>
-                ` : ''}
+                `
+                        : ""
+                }
                 <a href="?page=exercices"
                    class="inline-flex items-center px-12 py-6 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-black text-xl rounded-3xl shadow-2xl hover:shadow-3xl transform hover:scale-[1.05] transition-all duration-300">
                     🚀 Commencer mes exercices adaptés
@@ -584,12 +655,14 @@ async function submitQuiz() {
         </div>
     `;
 
-    setTimeout(() => document.body.style.overflow = 'auto', 100);
+    setTimeout(() => (document.body.style.overflow = "auto"), 100);
 }
 
 function retryQuiz() {
     if (!currentQuizState) {
-        alert('Impossible de relancer le quiz (état perdu). Retournez à la liste des quiz.');
+        alert(
+            "Impossible de relancer le quiz (état perdu). Retournez à la liste des quiz.",
+        );
         return;
     }
     startQuiz(currentQuizState.contentId, currentQuizState.title);
@@ -597,33 +670,43 @@ function retryQuiz() {
 
 async function showCorrectionsHelp() {
     if (!currentQuizState) {
-        alert('Etat du quiz indisponible.');
+        alert("Etat du quiz indisponible.");
         return;
     }
 
     try {
-        const response = await fetch(`${window.apiBasePath}/quiz.php?id=${currentQuizState.contentId}&include_answers=1`);
+        const response = await fetch(
+            `${window.apiBasePath}/quiz.php?id=${currentQuizState.contentId}&include_answers=1`,
+        );
         if (!response.ok) {
             throw new Error(`HTTP ${response.status}`);
         }
 
         const quizData = await response.json();
-        const answersData = quizData.answers || quizData.quiz_answers || quizData.quiz?.answers || [];
+        const answersData =
+            quizData.answers ||
+            quizData.quiz_answers ||
+            quizData.quiz?.answers ||
+            [];
 
         if (!Array.isArray(answersData) || answersData.length === 0) {
-            alert('Corrections indisponibles pour ce quiz.');
+            alert("Corrections indisponibles pour ce quiz.");
             return;
         }
 
         const rows = answersData
             .slice(0, 8)
             .map((row, idx) => {
-                const correction = escapeHtml((row && row.correction) ? String(row.correction) : 'Correction non disponible.');
+                const correction = escapeHtml(
+                    row && row.correction
+                        ? String(row.correction)
+                        : "Correction non disponible.",
+                );
                 return `<div class="p-4 border rounded-xl bg-gray-50 mb-3"><p class="font-bold mb-1">Q${idx + 1}</p><p class="text-sm text-gray-700">${correction}</p></div>`;
             })
-            .join('');
+            .join("");
 
-        const app = document.getElementById('diagnostic-app');
+        const app = document.getElementById("diagnostic-app");
         app.innerHTML = `
             <div class="max-w-4xl mx-auto p-6">
                 <div class="bg-white rounded-3xl border shadow-xl p-6">
@@ -637,24 +720,26 @@ async function showCorrectionsHelp() {
             </div>
         `;
     } catch (error) {
-        console.error('Erreur affichage corrections:', error);
-        alert('Impossible de charger les corrections pour le moment.');
+        console.error("Erreur affichage corrections:", error);
+        alert("Impossible de charger les corrections pour le moment.");
     }
 }
 
 function reviewFailedQuestions(toReviewLabels) {
     if (!currentQuizState) {
-        alert('Impossible de revoir les questions (état perdu). Retournez à la liste des quiz.');
+        alert(
+            "Impossible de revoir les questions (état perdu). Retournez à la liste des quiz.",
+        );
         return;
     }
 
     if (!currentQuizState.originalAnswers) {
-        alert('Aucune réponse initiale trouvée. Refais le quiz complet.');
+        alert("Aucune réponse initiale trouvée. Refais le quiz complet.");
         retryQuiz();
         return;
     }
 
-    const app = document.getElementById('diagnostic-app');
+    const app = document.getElementById("diagnostic-app");
 
     app.innerHTML = `
         <div class="min-h-[60vh] flex items-center justify-center p-8">
@@ -667,23 +752,25 @@ function reviewFailedQuestions(toReviewLabels) {
     `;
 
     fetch(`${window.apiBasePath}/quiz.php?id=${currentQuizState.contentId}`)
-        .then(response => response.json())
-        .then(quizData => {
+        .then((response) => response.json())
+        .then((quizData) => {
             const allQuestions = quizData.quiz?.questions || [];
 
             // Extraire les numéros de questions depuis les labels (ex: "Q1", "Q2")
             const questionNumbers = toReviewLabels
-                .map(label => {
+                .map((label) => {
                     const match = label.match(/Q(\d+)/i);
                     return match ? parseInt(match[1], 10) - 1 : null;
                 })
-                .filter(n => n !== null && n >= 0 && n < allQuestions.length);
+                .filter((n) => n !== null && n >= 0 && n < allQuestions.length);
 
             if (questionNumbers.length === 0) {
-                throw new Error('Aucune question à revoir trouvée');
+                throw new Error("Aucune question à revoir trouvée");
             }
 
-            const questionsToReview = questionNumbers.map(idx => allQuestions[idx]);
+            const questionsToReview = questionNumbers.map(
+                (idx) => allQuestions[idx],
+            );
 
             // Mettre à jour l'état pour la révision
             currentQuizState.totalQuestions = questionsToReview.length;
@@ -693,8 +780,8 @@ function reviewFailedQuestions(toReviewLabels) {
 
             renderReviewQuiz(questionsToReview, toReviewLabels);
         })
-        .catch(error => {
-            console.error('Erreur chargement révision:', error);
+        .catch((error) => {
+            console.error("Erreur chargement révision:", error);
             app.innerHTML = `
                 <div class="min-h-screen flex items-center justify-center p-8">
                     <div class="max-w-md text-center">
@@ -713,7 +800,7 @@ function reviewFailedQuestions(toReviewLabels) {
 }
 
 function renderReviewQuiz(questions, labels) {
-    const app = document.getElementById('diagnostic-app');
+    const app = document.getElementById("diagnostic-app");
 
     let html = `
         <header class="sticky top-0 bg-white/80 backdrop-blur-md border-b-2 border-orange-100 z-20 p-6 mb-8 shadow-sm">
@@ -723,7 +810,7 @@ function renderReviewQuiz(questions, labels) {
                         <h1 class="text-2xl font-bold bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
                             ${currentQuizState.title} - Révision ciblée
                         </h1>
-                        <p class="text-sm text-gray-600 mt-1">Questions à revoir : ${labels.join(', ')}</p>
+                        <p class="text-sm text-gray-600 mt-1">Questions à revoir : ${labels.join(", ")}</p>
                     </div>
                     <div class="flex items-center space-x-4 text-sm font-semibold">
                         <span>Progression: <span id="progress-count">0</span>/${questions.length}</span>
@@ -774,38 +861,44 @@ function renderReviewQuiz(questions, labels) {
 
     // Live progress
     const inputs = document.querySelectorAll('input[name^="q"]');
-    inputs.forEach(input => {
-        input.addEventListener('change', updateProgress);
-        input.addEventListener('input', updateProgress);
+    inputs.forEach((input) => {
+        input.addEventListener("change", updateProgress);
+        input.addEventListener("input", updateProgress);
     });
     updateProgress();
 }
 
 function renderQuestionInputs(question, index) {
-    const type = String(question.type || '').toLowerCase();
+    const type = String(question.type || "").toLowerCase();
     const choiceList = Array.isArray(question.choices) ? question.choices : [];
 
     if (choiceList.length > 0) {
-        return choiceList.map(choice => {
-            const safeChoice = escapeHtml(choice);
-            return `
+        return choiceList
+            .map((choice) => {
+                const safeChoice = escapeHtml(choice);
+                return `
                 <label class="flex items-center p-6 border-2 border-gray-200 rounded-2xl cursor-pointer hover:border-blue-400 hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 transition-all duration-200 group min-h-[80px]">
                     <input type="radio" name="q${index}" value="${safeChoice}"
                            class="w-7 h-7 text-blue-600 border-4 border-gray-300 focus:ring-4 focus:ring-blue-200 mr-6 accent-blue-600 shadow-md">
                     <span class="text-xl leading-relaxed group-hover:text-blue-900 font-medium">${safeChoice}</span>
                 </label>
             `;
-        }).join('');
+            })
+            .join("");
     }
 
-    if (type === 'vrai-faux' || type === 'vrai_faux') {
-        return ['Vrai', 'Faux'].map(choice => `
+    if (type === "vrai-faux" || type === "vrai_faux") {
+        return ["Vrai", "Faux"]
+            .map(
+                (choice) => `
             <label class="flex items-center p-6 border-2 border-gray-200 rounded-2xl cursor-pointer hover:border-blue-400 hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 transition-all duration-200 group min-h-[80px]">
                 <input type="radio" name="q${index}" value="${choice.toLowerCase()}"
                        class="w-7 h-7 text-blue-600 border-4 border-gray-300 focus:ring-4 focus:ring-blue-200 mr-6 accent-blue-600 shadow-md">
                 <span class="text-xl leading-relaxed group-hover:text-blue-900 font-medium">${choice}</span>
             </label>
-        `).join('');
+        `,
+            )
+            .join("");
     }
 
     return `<div class="p-1">
@@ -818,13 +911,15 @@ function renderQuestionInputs(question, index) {
 function collectAnswers() {
     const answers = {};
 
-    document.querySelectorAll('input[type="radio"]:checked').forEach(input => {
-        answers[input.name] = input.value;
-    });
+    document
+        .querySelectorAll('input[type="radio"]:checked')
+        .forEach((input) => {
+            answers[input.name] = input.value;
+        });
 
-    document.querySelectorAll('input[type="text"]').forEach(input => {
+    document.querySelectorAll('input[type="text"]').forEach((input) => {
         const value = input.value.trim();
-        if (value !== '') {
+        if (value !== "") {
             answers[input.name] = value;
         }
     });

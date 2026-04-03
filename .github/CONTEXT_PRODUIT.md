@@ -1,5 +1,10 @@
 ﻿# CONTEXT_PRODUIT - MonCoachScolaire
 
+**Ajout du 02/04/2026 :** La suite produit se pilote depuis [../dev/SUIVI_BUGS_AMELIORATIONS.md](../dev/SUIVI_BUGS_AMELIORATIONS.md). Priorites actives retenues : robustesse Quiz AI, validation anti-repetition, smoke test E2E connecte, nouveaux exercices/cours, mode sombre a cadrer.
+
+**Ajout du 02/04/2026 :** Pivot produit Quiz AI confirme.
+La generation de quiz par scripts manuels n'est plus une finalite produit. La voie principale est desormais la generation dynamique cote eleve via Quiz AI, avec priorite sur la creation de nouveaux exercices et nouveaux cours.
+
 **Ajout du 01/04/2026 :** Refactorisation gouvernee du fichier pour reprise rapide.
 Le contenu historique complet est preserve dans [CONTEXT_PRODUIT_REFERENCE.md](CONTEXT_PRODUIT_REFERENCE.md).
 
@@ -39,6 +44,7 @@ Ce fichier centralise le contexte produit de haut niveau:
 - Public cible: eleves college -> lycee -> bac, avec accompagnement parent et administration.
 - Valeurs: bienveillance, progression, autonomie, feedback constructif.
 - Priorites qualite: accessibilite, robustesse des parcours, coherence visuelle par niveau, tracabilite documentaire.
+- Axe quiz 2026: generation dynamique via Quiz AI prioritaire; scripts batch limites a un role de support technique.
 
 ## Historique detaille et lots anciens
 

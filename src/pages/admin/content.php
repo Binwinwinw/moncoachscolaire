@@ -51,6 +51,7 @@
 require_once dirname(__DIR__, 2) . '/config/config.php';
 require_once dirname(__DIR__, 2) . '/database/connection.php';
 require_once dirname(__DIR__, 2) . '/includes/admin_auth.php';
+require_once dirname(__DIR__, 2) . '/includes/login_security.php';
 requireAdmin();
 
 // Vérifier la connexion BDD
@@ -65,12 +66,18 @@ $page_class = 'admin-content-page';
 
 $feedback = '';
 $feedback_type = 'success'; // success, info, warning, error
+$csrf_token = generateCSRFToken();
 
 // ========== 3. TRAITEMENT DES ACTIONS (CRUD) ==========
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $action = $_POST['action'] ?? '';
+    $submitted_token = $_POST['csrf_token'] ?? '';
+    if (!verifyCSRFToken($submitted_token)) {
+        $feedback = '⚠️ Jeton de sécurité invalide. Merci de recharger la page.';
+        $feedback_type = 'error';
+    } else {
+        $action = $_POST['action'] ?? '';
 
-    try {
+        try {
         // ===== AJOUT DE CONTENU =====
         if ($action === 'add') {
             $title = trim($_POST['title'] ?? '');
@@ -169,10 +176,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             }
         }
 
-    } catch (PDOException $e) {
-        error_log('Erreur admin/content.php : ' . $e->getMessage());
-        $feedback = '⚠️ Une erreur est survenue. Veuillez réessayer.';
-        $feedback_type = 'error';
+        } catch (PDOException $e) {
+            error_log('Erreur admin/content.php : ' . $e->getMessage());
+            $feedback = '⚠️ Une erreur est survenue. Veuillez réessayer.';
+            $feedback_type = 'error';
+        }
     }
 }
 
@@ -422,6 +430,7 @@ $statuses = ['draft' => 'Brouillon', 'published' => 'Publié', 'archived' => 'Ar
                                             ✏️ Éditer
                                         </button>
                                         <form method="POST" style="display:inline;" onsubmit="return confirm('Confirmer la suppression ?');">
+                                            <input type="hidden" name="csrf_token" value="<?php echo htmlspecialchars($csrf_token, ENT_QUOTES, 'UTF-8'); ?>">
                                             <input type="hidden" name="action" value="delete">
                                             <input type="hidden" name="id" value="<?php echo $content['id']; ?>">
                                             <button type="submit" class="px-3 py-1 bg-red-600 text-white rounded hover:bg-red-700 transition text-sm shadow-md focus:outline-none focus:ring-2 focus:ring-red-500">
@@ -449,6 +458,7 @@ $statuses = ['draft' => 'Brouillon', 'published' => 'Publié', 'archived' => 'Ar
         </div>
 
         <form method="POST" class="space-y-4">
+            <input type="hidden" name="csrf_token" value="<?php echo htmlspecialchars($csrf_token, ENT_QUOTES, 'UTF-8'); ?>">
             <input type="hidden" name="action" id="formAction" value="add">
             <input type="hidden" name="id" id="formId" value="">
 

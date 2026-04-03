@@ -10,10 +10,22 @@ error_reporting(0);
 
 require_once __DIR__ . '/../../config/config.php';
 require_once __DIR__ . '/../../includes/exercice_loader.php';
+if (is_file(__DIR__ . '/../../includes/login_security.php')) {
+    require_once __DIR__ . '/../../includes/login_security.php';
+}
+
+if (($_SERVER['REQUEST_METHOD'] ?? 'GET') !== 'POST') {
+    http_response_code(405);
+    echo json_encode(['success' => false, 'error' => 'Méthode non autorisée']);
+    exit;
+}
 
 // Optionnel : restreindre aux utilisateurs connectés
-session_start();
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
 if (empty($_SESSION['user_id'])) {
+    http_response_code(401);
     echo json_encode(['success' => false, 'error' => 'Veuillez vous connecter pour sauvegarder un quiz.']);
     exit;
 }
@@ -21,7 +33,25 @@ if (empty($_SESSION['user_id'])) {
 try {
     // Récupérer les données POST
     $input = json_decode(file_get_contents('php://input'), true);
-    
+    if (!is_array($input)) {
+        throw new Exception('JSON invalide.');
+    }
+
+    $csrfToken = (string) ($_SERVER['HTTP_X_CSRF_TOKEN'] ?? ($input['csrf_token'] ?? ''));
+    $csrfValid = function_exists('verifyCSRFToken')
+        ? verifyCSRFToken($csrfToken)
+        : (
+            isset($_SESSION['csrf_token'])
+            && $csrfToken !== ''
+            && hash_equals((string) $_SESSION['csrf_token'], $csrfToken)
+        );
+
+    if (!$csrfValid) {
+        http_response_code(403);
+        echo json_encode(['success' => false, 'error' => 'Jeton CSRF invalide.']);
+        exit;
+    }
+
     $questions = $input['questions'] ?? [];
     $subject = $input['subject'] ?? '';
     $level = $input['level'] ?? '';
@@ -45,7 +75,7 @@ try {
     } else {
         $levelDB = $level;
     }
-    
+
     if (function_exists('normalizeSubject')) {
         $subjectDB = normalizeSubject($subject);
     } else {
@@ -57,10 +87,10 @@ try {
 
     $stmt = $pdo->prepare("
         INSERT INTO exercises (
-            Title, Content, Answer, Subject, Level, 
+            Title, Content, Answer, Subject, Level,
             AnswerType, Choices, is_active, created_at
         ) VALUES (
-            :title, :content, :answer, :subject, :level, 
+            :title, :content, :answer, :subject, :level,
             'choix', :choices, 1, NOW()
         )
     ");
@@ -69,7 +99,7 @@ try {
         $qText = $q['question'] ?? '';
         $choices = $q['choices'] ?? [];
         $correctKey = $q['correct'] ?? '';
-        
+
         if (empty($qText)) continue;
 
         // Trouver le label de la réponse correcte
@@ -91,7 +121,7 @@ try {
             'level' => $levelDB,
             'choices' => json_encode($choices, JSON_UNESCAPED_UNICODE)
         ]);
-        
+
         $insertedCount++;
     }
 

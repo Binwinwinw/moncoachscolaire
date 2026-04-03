@@ -753,8 +753,15 @@ if (isset($_SESSION['demo_action_count'])) {
         // Sauvegarder dans la session (via AJAX)
         fetch('<?php echo $baseUrl; ?>/api/track-demo-action.php', {
             method: 'POST',
-            headers: {'Content-Type': 'application/json'},
-            body: JSON.stringify({action: 'exercise_completed', count: actionCount})
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRF-Token': window.csrfToken || ''
+            },
+            body: JSON.stringify({
+                action: 'exercise_completed',
+                count: actionCount,
+                csrf_token: window.csrfToken || ''
+            })
         }).catch(err => console.error('Erreur tracking:', err));
 
         // Afficher le message de limitation si nécessaire

@@ -17,6 +17,14 @@ if (!function_exists('site_url')) {
         require_once __DIR__ . '/../config/site_boot.php';
     }
 }
+
+if (is_file(dirname(__DIR__, 2) . '/includes/login_security.php')) {
+    require_once dirname(__DIR__, 2) . '/includes/login_security.php';
+}
+
+$csrfToken = function_exists('generateCSRFToken')
+    ? generateCSRFToken()
+    : ((string) ($_SESSION['csrf_token'] ?? ''));
 ?>
 
 <main class="main-content contact-page-main">
@@ -28,6 +36,7 @@ if (!function_exists('site_url')) {
       <div class="contact-error">Une erreur est survenue. Merci de réessayer.</div>
     <?php endif; ?>
     <form class="contact-form" method="post" action="<?php echo site_url('users/send_contact'); ?>">
+      <input type="hidden" name="csrf_token" value="<?php echo htmlspecialchars($csrfToken, ENT_QUOTES, 'UTF-8'); ?>">
       <div class="form-group">
         <label for="nom">👤 Nom</label>
         <input type="text" id="nom" name="nom" required placeholder="Votre nom">

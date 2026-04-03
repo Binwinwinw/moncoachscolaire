@@ -6,6 +6,38 @@
 > - 📅 **Journal de Reprise** : [dev/JOURNAL_REPRISE.md](dev/JOURNAL_REPRISE.md) (Historique daté des interventions)
 > - 🐛 **Suivi Bugs & Améliorations** : [dev/SUIVI_BUGS_AMELIORATIONS.md](dev/SUIVI_BUGS_AMELIORATIONS.md) (Backlog actif et priorités)
 
+## [02/04/2026] Pivot produit — Quiz AI comme voie principale
+
+Decision validee:
+
+- Le bouton **Quiz AI** cote eleve devient la voie standard de generation de quiz.
+- La generation manuelle massive par scripts n'est plus un objectif produit.
+- Les scripts quiz restent utiles pour maintenance/migration/dry-run, mais ne pilotent plus la strategie pedagogique.
+
+Contexte qualite retenu:
+
+- Le lot historique de 1643 quiz a montre un ecart majeur entre volume et qualite (placeholders, contenu peu exploitable en production).
+- La priorite produit est recentree sur la qualite reelle pour l'eleve: quiz dynamiques pertinents, nouveaux exercices, nouveaux cours.
+
+Sources de verite:
+
+- [dev/JOURNAL_REPRISE.md](dev/JOURNAL_REPRISE.md)
+- [dev/SUIVI_BUGS_AMELIORATIONS.md](dev/SUIVI_BUGS_AMELIORATIONS.md)
+
+## [02/04/2026] Priorites actives pour la suite
+
+Le tableau de pilotage a ete consolide dans [dev/SUIVI_BUGS_AMELIORATIONS.md](dev/SUIVI_BUGS_AMELIORATIONS.md) avec trois sections stables : priorites actives, realise, abandonne / remplace.
+
+Axes actifs a retenir:
+
+- robustesse Quiz AI
+- anti-repetition quiz
+- smoke test E2E connecte
+- nouveaux exercices et nouveaux cours
+- mode sombre (a cadrer)
+
+Regle documentaire: le detail des statuts reste dans [dev/SUIVI_BUGS_AMELIORATIONS.md](dev/SUIVI_BUGS_AMELIORATIONS.md). Les autres documents gardent uniquement un resume de pilotage et un lien vers cette source.
+
 ## [06/03/2026] Cloture lot diagnostic securise (VALIDE ET TERMINE)
 
 Cette partie est officiellement validee et terminee.

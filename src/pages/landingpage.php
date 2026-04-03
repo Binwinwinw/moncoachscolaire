@@ -294,7 +294,7 @@ $is_lycee   = is_lycee_level($user_level);
   <!-- VISITEUR NON CONNECTÉ -->
 
   <!-- HEADER HERO VISITEUR -->
-  <header class="flex flex-col gap-2 items-center justify-center text-center py-10 px-4 pb-14 mx-auto my-8 max-w-5xl backdrop-blur-md rounded-2xl shadow-xl relative" role="banner" aria-label="Intro" style="background-color: rgba(255, 255, 255, 0.15); background-image: none;">
+  <header class="flex flex-col gap-2 items-center justify-center text-center py-10 px-4 pb-14 mx-auto my-8 max-w-5xl backdrop-blur-md rounded-2xl shadow-xl relative" role="banner" aria-label="Intro">
     <h1 class="m-0 max-w-4xl text-4xl md:text-6xl font-bold text-slate-800 leading-tight">
       Bienvenue sur MonCoachScolaire&nbsp;!
     </h1>

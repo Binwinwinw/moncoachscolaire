@@ -55,6 +55,20 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     exit;
 }
 
+$csrfToken = trim((string) ($_POST['csrf_token'] ?? ''));
+$sessionToken = isset($_SESSION['csrf_token']) ? (string) $_SESSION['csrf_token'] : '';
+if ($csrfToken === '' || $sessionToken === '' || !hash_equals($sessionToken, $csrfToken)) {
+    $err = 'Jeton de sécurité invalide. Merci de recharger la page.';
+    if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) === 'xmlhttprequest') {
+        echo json_encode(['success' => false, 'error' => $err]);
+        exit;
+    }
+
+    $redirect = function_exists('site_url') ? site_url('users/contact') . '?error=1' : '/index.php?page=contact&error=1';
+    header('Location: ' . $redirect);
+    exit;
+}
+
 // Read POST data
 $nom = trim((string) ($_POST['nom'] ?? $_POST['name'] ?? ''));
 $email = trim((string) ($_POST['email'] ?? ''));
@@ -117,7 +131,10 @@ if (is_file(dirname(__DIR__, 2) . '/config/config.php')) {
     }
 }
 if (defined('SITE_ADMIN_EMAIL')) {
-    $adminEmail = SITE_ADMIN_EMAIL;
+    $configuredAdminEmail = (string) constant('SITE_ADMIN_EMAIL');
+    if ($configuredAdminEmail !== '') {
+        $adminEmail = $configuredAdminEmail;
+    }
 }
 
 $subject = '[Contact] Message depuis le site - ' . htmlspecialchars($nom);

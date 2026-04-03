@@ -2,13 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Fond global MonCoachScolaire */
-.app-bg {
-	background-image: url('../img/background-school-material.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-attachment: fixed;
+/* Accessibilité : Focus visible pour navigation clavier [02/04/2026] */
+:focus-visible {
+    outline: 2px solid #3b82f6;
+    outline-offset: 2px;
 }
 
-
+/* Fond global MonCoachScolaire */
+.app-bg {
+    background-image: url("../img/background-school-material.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}

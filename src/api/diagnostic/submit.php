@@ -23,6 +23,9 @@ if (is_file(__DIR__ . '/../../config/config.php')) {
 if (is_file(__DIR__ . '/../../database/connection.php')) {
     require_once __DIR__ . '/../../database/connection.php';
 }
+if (is_file(__DIR__ . '/../../includes/login_security.php')) {
+    require_once __DIR__ . '/../../includes/login_security.php';
+}
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     http_response_code(405);
@@ -59,6 +62,24 @@ if (!is_array($payload)) {
     echo json_encode([
         'success' => false,
         'error' => 'Payload JSON invalide',
+    ], JSON_UNESCAPED_UNICODE);
+    exit;
+}
+
+$csrfToken = (string) ($_SERVER['HTTP_X_CSRF_TOKEN'] ?? ($payload['csrf_token'] ?? ''));
+$csrfValid = function_exists('verifyCSRFToken')
+    ? verifyCSRFToken($csrfToken)
+    : (
+        isset($_SESSION['csrf_token'])
+        && $csrfToken !== ''
+        && hash_equals((string) $_SESSION['csrf_token'], $csrfToken)
+    );
+
+if (!$csrfValid) {
+    http_response_code(403);
+    echo json_encode([
+        'success' => false,
+        'error' => 'Jeton CSRF invalide',
     ], JSON_UNESCAPED_UNICODE);
     exit;
 }

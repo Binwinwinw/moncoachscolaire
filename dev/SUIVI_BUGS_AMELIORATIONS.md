@@ -1,3 +1,10 @@
+﻿## [02/04/2026] Decision produit — Pivot Quiz AI (mise a jour des priorites)
+
+- Le pivot **Quiz AI** est confirme comme choix produit principal pour la generation de quiz cote eleve.
+- Les scripts de creation manuelle de quiz ne sont plus une finalite; ils restent des outils de support technique.
+- Le lot historique de generation massive (1643 quiz) est classe comme retour d'experience qualite, pas comme cible a reproduire.
+- Priorites actives alignees: robustesse Quiz AI (timeouts/erreurs/parsing), qualite UX eleve, et developpement de nouveaux exercices/cours.
+
 ## [13/03/2026] Synthese priorites actives (clarification)
 
 ### [14/03/2026] Re-baseline detection placeholders (raffinement anti-bruit)
@@ -19,7 +26,7 @@ Comparatif vs scan 14/03 non raffine (`dev/reports/placeholders_detected_2026-03
 
 Decision : baseline qualite mise a jour sur le rapport raffine pour eviter les faux positifs QCM/vrai-faux.
 
-### [EN COURS] Remplacement des placeholders residuels (post-enrichissement)
+### [CLOS - REMPLACE PAR QUIZ AI] Remplacement des placeholders residuels (post-enrichissement)
 
 13/03/2026 : re-audit execute apres enrichissement.
 
@@ -27,7 +34,7 @@ Decision : baseline qualite mise a jour sur le rapport raffine pour eviter les f
 - Resultat : 32127 placeholders detectes sur 1559 quiz (1559 quiz affectes).
 - Repartition severite : CRITICAL 9801, HIGH 7701, MEDIUM 14625, LOW 0.
 - Categories principales : `too_short_correction` 14621, `generic_template` 9653, `incomplete_sentence` 7701, `placeholder_text` 148.
-- Action validee : traiter ce lot comme priorite active distincte (remplacement progressif avec validation qualite).
+- Action initiale archivee : ce lot n'est plus une priorite active depuis la validation du pivot Quiz AI.
 
 ### [OK] Smoke test E2E diagnostic (post-reboot)
 
@@ -42,14 +49,19 @@ Decision : baseline qualite mise a jour sur le rapport raffine pour eviter les f
 1. Diagnostic quiz securise (anti-repetition utilisateur)
 
 - Statut: EN COURS
-- Reste concret: tester le comportement anti-repetition sur un volume cible (~50 tentatives) pour verifier l'absence de schema repetitif.
+- **[02/04/2026] Objectif "50 tentatives" ABANDONNÉ** — voir section "Abandonné / Remplacé" ci-dessus.
+- Nouveau reste concret: (1) enrichir les petits pools (ex: 4eme Mathémaiques = 2 seulement), (2) afficher UX si répétitions fréquentes, (3) valider simulation sur tous les niveaux/sujets produits.
 
 2. Pipeline validation diagnostic (parcours complet)
 
-- Statut: EN COURS
-- Reste concret:
-  - smoke test E2E connecte post-reboot (front + API + progression),
-  - ajustement fin des regles de parsing pour quelques cas legacy de `quiz_answers`.
+- Statut: FAIT (02/04/2026)
+- Smoke test E2E connecté livré:
+  - Charge liste diagnostique ✅
+  - Clique quiz → affiche questions ✅
+  - Remplit réponses ✅
+  - API submit.php reçoit et répond (401 si non authentifié, conforme) ✅
+  - Test en `dev/tools/tests/e2e/diagnostic-quiz-paths.spec.ts`
+- Reste futur: tester avec utilisateur authentifié (amélioration, pas blocker)
 
 3. Mode sombre
 
@@ -84,29 +96,115 @@ Decision : baseline qualite mise a jour sur le rapport raffine pour eviter les f
 - À faire : historique anti-répétition utilisateur (~50 tests sans même schéma) + smoke test E2E complet connecté.
 - Statut : En cours (lot minimal livré, lot anti-répétition restant).
 
-# Suivi des bugs et améliorations — MonCoachScolaire
+# Suivi des bugs et ameliorations -- MonCoachScolaire
 
-| Priorité | Page/Zone                         | Description courte                                                                                   | Statut                                                         | Responsable        | Date cible    | Commentaire                                                                                                                                                                                                                                           |
-| -------- | --------------------------------- | ---------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ------------------ | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Haute    | src/api/ia/generate_quiz.php      | **Quiz IA** : Générateur de quiz dynamique par IA (Groq / Perplexity / OpenAI)                       | Fait                                                           | Copilot            | 22/03/2026    | Backend opérationnel. Intégration avec `interactive-exercises.js`. Clé Groq gratuite à définir dans `.env` (`GROQ_API_KEY`). Priorité : tests de robustesse (timeout, erreur IA, parsing JSON).                                                       |
-| Haute    | src/data/quiz contenu (PHASE 1B)  | Remplacement des placeholders residuels detectes apres enrichissement                                | **ANNULÉ**                                                     | Copilot            | 14/03/2026    | Remplacé par le système **Quiz IA** qui permet de régénérer du contenu de qualité à la demande.                                                                                                                                                       |
-| Haute    | eleve/dashboard.php               | Restructuration layout en 4 lignes de 3 cartes + harmonisation headers                               | Fait                                                           | Copilot            | 07/03/2026    | Grid Tailwind strict (`items-stretch`, `h-full`), headers standardisés (`card-header`), hooks JS conservés                                                                                                                                            |
-| Haute    | src/data/quiz contenu (PHASE 1)   | Amélioration qualité pédagogique quiz (questions claires, corrections détaillées, niveau académique) | ✅ COMPLÉTÉ - 1558/1559 quiz enrichis (100%), -85.2% problèmes | Copilot            | 08/03/2026    | Enrichissement 31 lots automatiques. HIGH -99.93% (14 problèmes restants), MEDIUM -99.92% (6 problèmes). Stratégie accélération: 1→5→10 lots. Scripts: enrich_batch_auto.py, quiz_quality_workflow.py. Doc: dev/tools/quiz/README_WORKFLOW_QUALITE.md |
-| Haute    | src/data/quiz contenu (PHASE 2)   | Enrichissement avec sources vérifiées (Éduscol, Wikiversity) - corrections pédagogiques réelles      | ⏸️ EN ATTENTE - déploiement suspendu                           | Copilot+Perplexity | À replanifier | Déploiement production mis en pause. Autorisé: scan/dry-run/documentation. Reprise uniquement après lot pilote validé, checklist qualité signée et GO produit explicite.                                                                              |
-| Haute    | API diagnostic + diagnostic.js    | Pagination + UX quiz diagnostics                                                                     | Fait                                                           | Copilot            | 07/03/2026    | 12 cartes/page, messages friendly, quiz #33 créé, 31 quiz validés                                                                                                                                                                                     |
-| Haute    | Pipeline validation diagnostic    | Score réel + révision ciblée + anti-farming XP + choix quiz par ID                                   | En cours                                                       | Copilot            | 11/03/2026    | Livré: boutons refaire/revoir, affichage delta score, `include_answers=1`, anti-farming XP. Reste: smoke test E2E connecté post-reboot + ajustement fin des règles de parsing si cas legacy.                                                          |
-| Haute    | src/data/quiz + API diagnostic    | V1 Quiz Bank: harmonisation + migration + 1517 quiz                                                  | Fait                                                           | Copilot            | 07/03/2026    | 1550 quiz (50/pair), métadonnées normalisées, anti-répétition prêt                                                                                                                                                                                    |
-| Haute    | landingpage                       | Harmonisation des fonds de section (transparence)                                                    | Fait                                                           | Copilot            | 13/02/2026    | Patch appliqué                                                                                                                                                                                                                                        |
-| Moyenne  | landingpage, dashboard, exercices | Harmonisation des ombres et hover des cards                                                          | Fait                                                           | Copilot            | 05/03/2026    | Patch CSS global appliqué (contraste + hover unifié)                                                                                                                                                                                                  |
-| Haute    | eleve/lycee/lycee-accueil.php     | Uniformiser boutons (palette, hover)                                                                 | Fait                                                           | Copilot            | 12/02/2026    | Harmonisé                                                                                                                                                                                                                                             |
-| Moyenne  | eleve/bac/bac-accueil.php         | Uniformiser boutons (palette, hover)                                                                 | Fait                                                           | Copilot            | 12/02/2026    | Harmonisé                                                                                                                                                                                                                                             |
-| Haute    | landingpage                       | Correction duplication bouton Collège+                                                               | Fait                                                           | Copilot            | 12/02/2026    | Corrigé                                                                                                                                                                                                                                               |
-| Moyenne  | landingpage                       | Accessibilité (contraste, aria-labels)                                                               | Fait                                                           | Copilot            | 04/03/2026    | Audit réalisé, couleurs et aria mis à jour                                                                                                                                                                                                            |
-| Basse    | Toutes pages                      | Ajout d’un mode sombre                                                                               | À étudier                                                      |                    |               |                                                                                                                                                                                                                                                       |
-| Haute    | landingpage                       | Séparation claire des sections (balises <section>)                                                   | Fait                                                           | Copilot            | 13/02/2026    | Doublons supprimés                                                                                                                                                                                                                                    |
-| Moyenne  | eleve/college/college-accueil.php | Bordure mascotte Collège (épaisseur/couleur)                                                         | Fait                                                           | Copilot            | 12/02/2026    | Harmonisé                                                                                                                                                                                                                                             |
-| Moyenne  | eleve/lycee/lycee-accueil.php     | Bordure mascotte Lycée (épaisseur/couleur)                                                           | Fait                                                           | Copilot            | 12/02/2026    | Harmonisé                                                                                                                                                                                                                                             |
-| Moyenne  | eleve/bac/bac-accueil.php         | Bordure mascotte Bac (épaisseur/couleur)                                                             | Fait                                                           | Copilot            | 12/02/2026    | Harmonisé                                                                                                                                                                                                                                             |
+> Maj au 02/04/2026. Statuts : A faire / En cours / Fait / Abandonne / A etudier
+> Pour l'historique complet, voir dev/JOURNAL_REPRISE.md.
 
-> Ce tableau doit être mis à jour à chaque évolution, bug ou amélioration majeure.
-> Statuts possibles : À faire / En cours / Fait / À étudier / Bloqué
+---
+
+## Priorites actives (a faire / en cours)
+
+| Priorite | Zone                         | Description                                                           | Statut    | Commentaire                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| -------- | ---------------------------- | --------------------------------------------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Haute    | src/api/ia/generate_quiz.php | Quiz IA - robustesse : timeout, fallback, validation JSON             | En cours  | Durcissement endpoint livre le 02/04/2026 : validation entree, ordre provider Groq en priorite, fallback, normalisation JSON, erreurs HTTP propres. Reste : test reel multi-provider et cas timeout.                                                                                                                                                                                                                                                  |
+| Haute    | API diagnostic + front       | Anti-repetition quiz : adapter au stock disponible par niveau/matière | En cours  | **[02/04/2026] Objectif "50 tentatives sans répétition" ABANDONNÉ** (relevé du contexte batch). Correctif livré : tri basé sur historique cumulé (tentatives + récence), simulation OK. Validation : pool de 41 → 40 uniques/50 tentatives; pool de 2 → répétition rapide (limite structurelle). **Ligne directrice actuelle**: anti-répétition dans les limites du stock réel; enrichissement petit pools ou affichage UX si répétitions fréquentes. |
+| Haute    | Pipeline diagnostic          | Smoke test E2E connecte livré (list → quiz → questions → submit)      | Fait      | Smoke test E2E livré le 02/04/2026. Couvre : chargement diagnostic, clique quiz, affichage questions, remplissage réponses, soumission API. Test dans `dev/tools/tests/e2e/diagnostic-quiz-paths.spec.ts`. Amélioration future : authentifier les tests pour valider la soumission complète (pas blocker).                                                                                                                                            |
+| Haute    | Nouveaux exercices et cours  | Creer du contenu pedagogique de qualite (exercices, cours)            | A faire   | Priorite produit confirmee le 02/04/2026 suite au pivot Quiz AI.                                                                                                                                                                                                                                                                                                                                                                                      |
+| Basse    | Toutes pages                 | Mode sombre                                                           | A etudier | Cadrage UI/CSS global a definir.                                                                                                                                                                                                                                                                                                                                                                                                                      |
+
+---
+
+## [02/04/2026] Chantier transverse — Normalisation des assets + cache-busting
+
+Objectif:
+
+- fiabiliser le chargement CSS/JS/images sur toutes les pages
+- eliminer les chemins hardcodes fragiles (`/assets/...`, `/public/assets/...`)
+- eviter les faux bugs de cache navigateur
+
+Perimetre mesure:
+
+- hard refs detectees: 40
+- fichiers concernes: 15
+- fichiers utilisant deja `asset_url(...)`: 25
+
+Etat valide a date:
+
+- `asset_url(...)` ajoute maintenant un parametre de version `?v=<filemtime>` dans:
+  - `src/config/site_boot.php`
+  - `src/config/config.php`
+- correction critique livree sur landing:
+  - chemin background CSS corrige vers `../../img/...` depuis `assets/css/pages/`
+
+Plan de lotissement (source de verite):
+
+| Lot | Intitule                                 | Statut   | Cible                                                            |
+| --- | ---------------------------------------- | -------- | ---------------------------------------------------------------- |
+| 1   | Socle helper assets                      | FAIT     | Cache-busting `?v=filemtime`, verification locale CSS versionnes |
+| 2   | Pages publiques prioritaires             | FAIT     | landing/login/register/pages legales                             |
+| 3   | Pages exercices eleve (plus gros volume) | A FAIRE  | college/lycee/bac exercices\* (scripts + css)                    |
+| 4   | Composants partages                      | A FAIRE  | footer/topbar/components communs                                 |
+| 5   | Audit final + documentation              | EN COURS | checklist de reprise, preuves, reste a faire                     |
+
+Preuves Lot 2 (cloture):
+
+- `src/pages/login.php` migre sur `asset_url('assets/css/...')`
+- `src/pages/register.php` migre sur `asset_url('assets/css/...')`
+- scan cible pages publiques: plus de references hardcodees `/assets` ou `/public/assets`
+
+Definition de fini (DoD) du chantier:
+
+- plus aucune reference hardcodee critique dans `src/**/*.php` pour CSS/JS d'app
+- toutes les pages publiques critiques chargent des assets versionnes (`?v=`)
+- verification visuelle locale sur pages cibles (desktop + mobile)
+- bloc "passation" mis a jour dans `dev/JOURNAL_REPRISE.md`
+
+Commandes de controle a reutiliser:
+
+```powershell
+# 1) inventaire refs hardcodees
+$files = Get-ChildItem src -Recurse -File -Include *.php
+$hard = $files | Select-String -Pattern '<link[^>]+href="/(assets|public/assets)|<script[^>]+src="/(assets|public/assets)' -AllMatches
+"HARD_REF_MATCHES=$($hard.Count)"
+"FILES_WITH_HARD_REFS=$((($hard | Select-Object -ExpandProperty Path -Unique).Count))"
+
+# 2) verification href CSS versionnes sur landing
+node dev/tmp/check-css-version.js
+```
+
+Regles d'execution pour reprise:
+
+- traiter un lot a la fois
+- livrer un diff minimal par lot
+- verifier rendu avant lot suivant
+- noter immediatement dans ce fichier ce qui est "FAIT / EN COURS / A FAIRE"
+
+---
+
+## Realise (cloture)
+
+| Zone                                     | Description                                               | Date       | Commentaire                                                    |
+| ---------------------------------------- | --------------------------------------------------------- | ---------- | -------------------------------------------------------------- |
+| src/api/ia/generate_quiz.php             | Quiz IA backend livre (Groq / Perplexity / OpenAI)        | 22/03/2026 | Integre avec interactive-exercises.js                          |
+| Guides remediation college / lycee / bac | Palette couleur par niveau via get_theme_variant_by_level | 01/04/2026 | College vert, lycee violet, bac dore. Zero couleur en dur.     |
+| eleve/dashboard.php                      | Restructuration layout 4 lignes x 3 cartes                | 07/03/2026 | Grid Tailwind strict, headers standardises, hooks JS conserves |
+| API diagnostic + diagnostic.js           | Pagination + UX quiz diagnostics                          | 07/03/2026 | 12 cartes/page, messages friendly, 31 quiz valides             |
+| src/data/quiz + API diagnostic           | V1 Quiz Bank : 1550 quiz, metadonnees normalisees         | 07/03/2026 | Anti-repetition pret, separation public/prive operationnelle   |
+| src/api/diagnostic/submit.php            | Correction serveur, score reel, anti-farming XP           | 06/03/2026 | Reponses/corrections retirees des JSON publics                 |
+| Audit securite complet                   | PHP, API, fichiers sensibles, dependances                 | 19/03/2026 | composer audit OK, recommandations .gitignore et acces serveur |
+| landingpage                              | Harmonisation fonds, ombres, hover, sections, boutons     | fev. 2026  | Doublons supprimes, contraste + aria mis a jour                |
+| eleve/college, lycee, bac                | Uniformisation boutons, mascottes, cartes niveau          | fev. 2026  | Harmonise sur les 3 niveaux                                    |
+
+---
+
+## Abandonne / Remplace (historique)
+
+> Ces phases font partie de l'histoire du projet. Elles ne sont plus des objectifs actifs.
+
+| Zone                             | Description                                              | Abandon    | Raison                                                                                                                                                                     |
+| -------------------------------- | -------------------------------------------------------- | ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Diagnostic quiz anti-repetition  | **Objectif "50 tentatives sans répétition"**             | 02/04/2026 | Spécifique à l'ère batch (volume → diversité). Pivot Quiz AI remplace : anti-répétition s'adapte au stock actuel par niveau/matière. Enrichissement ou UX si petits pools. |
+| src/data/quiz -- PHASE 1 (masse) | Generation de ~1643 quiz par scripts automatiques        | mars 2026  | Volume eleve mais qualite insuffisante : placeholders massifs, QCM creux. Decision : changer de direction.                                                                 |
+| src/data/quiz -- PHASE 1B        | Remplacement manuel des placeholders residuels           | mars 2026  | Sans objet : remplace par Quiz AI qui genere a la demande avec qualite pilotee.                                                                                            |
+| src/data/quiz -- PHASE 2         | Enrichissement sources verifiees (Eduscol / Wikiversity) | mars 2026  | Suspendu definitivement : la direction Quiz AI rend ce lot sans objet.                                                                                                     |
