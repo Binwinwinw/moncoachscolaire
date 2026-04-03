@@ -206,15 +206,15 @@ if (!function_exists('render_level_navigation')) {
         // Générer le HTML avec style amélioré inspiré de bac/cours-bac
         ob_start();
         ?>
-        <div class="exercise-navigation" style="margin-bottom: 2rem; padding: 1.5rem; background: rgba(255, 255, 255, 0.95); border-radius: 12px; border: 2px solid #e5e7eb; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);">
-            <div class="nav-group" style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
+        <div class="exercise-navigation">
+            <div class="nav-group">
                 <?php if ($prev_url && $prev_label): ?>
                     <?php if ($canPrevAccess): ?>
-                        <a href="<?php echo htmlspecialchars($prev_url); ?>" class="nav-btn nav-prev" style="background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%); color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s ease; display: inline-flex; align-items: center; gap: 0.5rem; box-shadow: 0 2px 8px rgba(99, 102, 241, 0.3);">
+                        <a href="<?php echo htmlspecialchars($prev_url); ?>" class="nav-btn nav-prev">
                             <?php echo htmlspecialchars($prev_label); ?>
                         </a>
                     <?php else: ?>
-                        <span class="nav-btn nav-prev disabled" title="Niveau verrouillé" style="background: #f3f4f6; color: #9ca3af; padding: 0.75rem 1.5rem; border-radius: 8px; font-weight:600; display:inline-flex; align-items:center; gap:0.5rem; border:2px solid #e5e7eb;">
+                        <span class="nav-btn nav-prev disabled" title="Niveau verrouillé">
                             🔒 <?php echo htmlspecialchars($prev_label); ?>
                         </span>
                     <?php endif; ?>
@@ -222,19 +222,19 @@ if (!function_exists('render_level_navigation')) {
             </div>
             <div class="nav-group">
                 <?php if ($home_url && $home_label): ?>
-                    <a href="<?php echo htmlspecialchars($home_url); ?>" class="nav-btn nav-home" style="background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%); color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s ease; display: inline-flex; align-items: center; gap: 0.5rem; box-shadow: 0 2px 8px rgba(139, 92, 246, 0.3);">
+                    <a href="<?php echo htmlspecialchars($home_url); ?>" class="nav-btn nav-home">
                         <?php echo htmlspecialchars($home_label); ?>
                     </a>
                 <?php endif; ?>
             </div>
-            <div class="nav-group" style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
+            <div class="nav-group">
                 <?php if ($next_url && $next_label): ?>
                     <?php if ($canNextAccess): ?>
-                        <a href="<?php echo htmlspecialchars($next_url); ?>" class="nav-btn nav-next" style="background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%); color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s ease; display: inline-flex; align-items: center; gap: 0.5rem; box-shadow: 0 2px 8px rgba(99, 102, 241, 0.3);">
+                        <a href="<?php echo htmlspecialchars($next_url); ?>" class="nav-btn nav-next">
                             <?php echo htmlspecialchars($next_label); ?>
                         </a>
                     <?php else: ?>
-                        <span class="nav-btn nav-next disabled" title="Niveau verrouillé" style="background: #f3f4f6; color: #9ca3af; padding: 0.75rem 1.5rem; border-radius: 8px; font-weight:600; display:inline-flex; align-items:center; gap:0.5rem; border:2px solid #e5e7eb;">
+                        <span class="nav-btn nav-next disabled" title="Niveau verrouillé">
                             <?php echo htmlspecialchars($next_label); ?> 🔒
                         </span>
                     <?php endif; ?>
@@ -326,12 +326,12 @@ if (!function_exists('render_accueil_navigation')) {
         // Générer le HTML
         ob_start();
         ?>
-        <div class="accueil-navigation-tool" style="margin-bottom: 2rem; padding: 1.5rem; background: rgba(255, 255, 255, 0.9); border-radius: 12px; border: 2px solid #e5e7eb; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
-            <div style="text-align: center; margin-bottom: 1rem;">
-                <h3 style="margin: 0; color: #1f2937; font-size: 1.1rem; font-weight: 600;">📚 Navigation entre les espaces</h3>
-                <p style="margin: 0.5rem 0 0 0; color: #6b7280; font-size: 0.9rem;">Accédez rapidement aux autres niveaux scolaires</p>
+        <div class="accueil-navigation-tool">
+            <div>
+                <h3>📚 Navigation entre les espaces</h3>
+                <p>Accédez rapidement aux autres niveaux scolaires</p>
             </div>
-            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; align-items: center;">
+            <div>
                 <?php foreach ($accueils as $key => $accueil): ?>
                     <?php if (!in_array($key, $allowed_keys, true)) {
                         continue;
@@ -339,30 +339,11 @@ if (!function_exists('render_accueil_navigation')) {
                     <?php if ($key !== $current_accueil): ?>
                            <a href="<?php echo htmlspecialchars($accueil['url']); ?>"
                               class="nav-accueil-btn"
-                              style="background: <?php echo htmlspecialchars($accueil['color']); ?>;
-                                  color: white;
-                                  padding: 0.75rem 1.5rem;
-                                  border-radius: 8px;
-                                  text-decoration: none;
-                                  font-weight: 600;
-                                  transition: all 0.3s ease;
-                                  display: inline-flex;
-                                  align-items: center;
-                                  gap: 0.5rem;
-                                  box-shadow: 0 4px 12px <?php echo htmlspecialchars($accueil['shadow']); ?>;">
+                             >
                             <?php echo htmlspecialchars($accueil['label']); ?>
                         </a>
                     <?php else: ?>
-                        <span style="background: #f3f4f6;
-                                     color: #6b7280;
-                                     padding: 0.75rem 1.5rem;
-                                     border-radius: 8px;
-                                     font-weight: 600;
-                                     display: inline-flex;
-                                     align-items: center;
-                                     gap: 0.5rem;
-                                     border: 2px solid #e5e7eb;
-                                     cursor: default;">
+                        <span>
                             <?php echo htmlspecialchars($accueil['label']); ?> (Actuel)
                         </span>
                     <?php endif; ?>
@@ -374,4 +355,5 @@ if (!function_exists('render_accueil_navigation')) {
     }
 }
 ?>
+
 

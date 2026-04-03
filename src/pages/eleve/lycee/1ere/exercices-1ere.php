@@ -175,7 +175,7 @@ $page_class = 'page-exercices-1ere';
     </style>
 
     <!-- FRANÇAIS (Ancien système - masqué) -->
-    <section id="francais" style="display: none;">
+    <section id="francais">
         <h2>📚 Français - Dissertation et Commentaire</h2>
 
         <div class="coach-message">
@@ -218,7 +218,7 @@ $page_class = 'page-exercices-1ere';
 
                     <div class="qcm-exercise" data-questions='[{"question":"Dans une dissertation, la problématique se trouve :","choices":[{"value":"a","label":"a) Dans l\'introduction"},{"value":"b","label":"b) Dans la conclusion"},{"value":"c","label":"c) Dans le développement"}],"correct":"a"},{"question":"Un bon argument doit être :","choices":[{"value":"a","label":"a) Illustré par un exemple concret"},{"value":"b","label":"b) Sans exemple"},{"value":"c","label":"c) Général seulement"}],"correct":"a"}]'>
                         <div class="qcm-container"><!-- Questions QCM via JS --></div>
-                        <div style="display:flex;gap:.5rem;margin-top:.5rem;">
+                        <div>
                             <button class="btn-outline" data-action="verify-exercise">Vérifier mes réponses</button>
                             <a href="#" class="btn-outline">Ouvrir</a>
                         </div>
@@ -272,7 +272,7 @@ $page_class = 'page-exercices-1ere';
 
                     <div class="conjugation-exercise" data-questions='[{"sentence":"Quelle est la dérivée de f(x) = x^2 ? (Écris ta réponse)","answer":"2x"},{"sentence":"Quelle est la dérivée de f(x) = x^3 - 3x + 2 ? (Écris ta réponse)","answer":"3x^2 - 3"},{"sentence":"Quelle est la dérivée de f(x) = 5x^4 ? (Écris ta réponse)","answer":"20x^3"}]'>
                         <div class="conjugation-container"><!-- Champs via JS --></div>
-                        <div style="display:flex;gap:.5rem;margin-top:.5rem;">
+                        <div>
                             <button class="btn-outline" data-action="verify-exercise">Vérifier mes réponses</button>
                             <a href="#" class="btn-outline">Ouvrir</a>
                         </div>
@@ -484,3 +484,4 @@ $page_class = 'page-exercices-1ere';
     </style>
 </div>
 </main>
+

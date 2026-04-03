@@ -3,7 +3,7 @@
 $hero_video_src = function_exists('asset_url') ? asset_url('assets/video/parent-hero-demo.mp4') : '/assets/video/parent-hero-demo.mp4';
 $hero_img_src = function_exists('asset_url') ? asset_url('assets/img/parent-famille-demo.png') : '/assets/img/parent-famille-demo.png';
 ?>
-<section class="relative flex flex-col items-center justify-center min-h-[340px] md:min-h-[420px] rounded-3xl shadow-lg overflow-hidden mb-8" style="background:transparent!important;">
+<section class="relative flex flex-col items-center justify-center min-h-[340px] md:min-h-[420px] rounded-3xl shadow-lg overflow-hidden mb-8">
     <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover opacity-10 pointer-events-none">
         <source src="<?= htmlspecialchars($hero_video_src, ENT_QUOTES) ?>" type="video/mp4">
     </video>
@@ -19,3 +19,4 @@ $hero_img_src = function_exists('asset_url') ? asset_url('assets/img/parent-fami
         </div>
     </div>
 </section>
+

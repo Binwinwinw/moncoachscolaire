@@ -133,7 +133,7 @@ try {
                     'cardClass' => 'demo-exercise-card',
                 ]);
                 // Ajouter le message de blocage des réponses
-                echo '<div class="demo-answer-lock" id="demo-answer-lock-' . $index . '" style="display: none;">';
+                echo '<div class="demo-answer-lock" id="demo-answer-lock-' . $index . '">';
                 echo '<div class="lock-content">';
                 echo '<span class="lock-icon">🔒</span>';
                 echo '<h4>Inscrivez-vous pour voir vos résultats !</h4>';
@@ -401,3 +401,4 @@ if ($jsonOutput === false) {
 } else {
     echo $jsonOutput;
 }
+

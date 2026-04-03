@@ -23,7 +23,7 @@ $show_user_card_lead = isset($show_user_card_lead) ? $show_user_card_lead : ($sh
 ?>
 <div class="user-card-landing-context">
     <?php if ($show_user_card_title): ?>
-    <h1 style="margin-bottom:0.5rem">
+    <h1>
         <?php if ($is_logged_in): ?>
             Bienvenue <?php echo htmlspecialchars($user_name); ?>&nbsp;!
         <?php else: ?>
@@ -50,19 +50,19 @@ $show_user_card_lead = isset($show_user_card_lead) ? $show_user_card_lead : ($sh
 
     <?php if ($is_logged_in || $is_parent_logged_in): ?>
         <?php if ($is_admin): ?>
-            <div class="coach-message" style="background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%); border-left: 4px solid #f59e0b; padding: 1.5rem; margin: 1.5rem 0; border-radius: 8px;">
+            <div class="coach-message">
                 <strong>👋 Salut <?php echo htmlspecialchars($user_name); ?> !</strong><br>
                 Tu es connecté en tant qu'<strong>administrateur</strong>.<br>
                 Tu as accès à tous les niveaux, exercices et cours de l'application.
             </div>
         <?php elseif ($is_parent_logged_in): ?>
-            <div class="coach-message" style="background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%); border-left: 4px solid #10b981; padding: 1.5rem; margin: 1.5rem 0; border-radius: 8px;">
+            <div class="coach-message">
                 <strong>👋 Salut <?php echo htmlspecialchars($user_name); ?> !</strong><br>
                 Tu es connecté en tant que <strong>parent</strong>.<br>
                 Accède rapidement aux ressources de suivi de tes enfants ci-dessous.
             </div>
         <?php else: ?>
-            <div class="coach-message" style="background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%); border-left: 4px solid #3b82f6; padding: 1.5rem; margin: 1.5rem 0; border-radius: 8px;">
+            <div class="coach-message">
                 <strong>👋 Salut <?php echo htmlspecialchars($user_name); ?> !</strong><br>
                 Tu es connecté en tant qu'élève de <strong><?php echo htmlspecialchars($user_level_display); ?></strong>.<br>
                 Accède rapidement à tes ressources ci-dessous.
@@ -70,3 +70,4 @@ $show_user_card_lead = isset($show_user_card_lead) ? $show_user_card_lead : ($sh
         <?php endif; ?>
     <?php endif; ?>
 </div>
+

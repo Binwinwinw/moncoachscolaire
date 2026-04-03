@@ -19,7 +19,7 @@
             <div class="rounded-2xl p-6 shadow-lg flex flex-col gap-2">
                 <p class="text-lg font-semibold text-gray-900"><?= htmlspecialchars($prog['nom']) ?></p>
                 <div class="w-full bg-gray-200 rounded-full h-3 mb-2">
-                    <div class="bg-emerald-500 h-3 rounded-full transition-all duration-300" style="width: <?= (int) $prog['pourcent'] ?>%"></div>
+                    <div class="bg-emerald-500 h-3 rounded-full transition-all duration-300"></div>
                 </div>
                 <p class="text-sm text-gray-500"><?= (int) $prog['pourcent'] ?>% du parcours</p>
             </div>
@@ -49,3 +49,4 @@
         <?php endforeach; ?>
     </div>
 </section>
+

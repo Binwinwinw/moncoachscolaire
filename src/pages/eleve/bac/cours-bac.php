@@ -80,7 +80,7 @@ if (function_exists('render_level_navigation')) {
             Bienvenue dans tes cours de préparation au BAC ! Ici, tu trouveras des fiches de synthèse complètes,
             des points clés pour chaque matière, et des méthodes efficaces pour réviser et réussir ton examen.
             <?php if ($is_demo && !$is_admin): ?>
-            <br><small style="color: #666; font-style: italic;">💡 Mode démo : tu as accès à <strong>un seul cours BAC</strong>. Crée un compte pour accéder à tous les cours de révision !</small>
+            <br><small>💡 Mode démo : tu as accès à <strong>un seul cours BAC</strong>. Crée un compte pour accéder à tous les cours de révision !</small>
             <?php endif; ?>
         </div>
 
@@ -142,7 +142,7 @@ foreach ($subjectsToDisplay as $subject):
     ];
     $icon = $icons[$subject] ?? '📖';
     ?>
-            <section id="<?php echo htmlspecialchars($subjectId); ?>" class="cours-section cours-bac-section" style="display: none;">
+            <section id="<?php echo htmlspecialchars($subjectId); ?>" class="cours-section cours-bac-section">
                 <div class="cours-section-header">
                     <button class="btn-back-subject" onclick="toggleSubject('<?php echo htmlspecialchars($subjectId); ?>')">← Retour aux matières</button>
                     <h2>
@@ -261,3 +261,4 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 </script>
+

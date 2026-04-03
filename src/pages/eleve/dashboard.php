@@ -339,7 +339,7 @@ if (function_exists('levels_match') && (levels_match($user_level_norm, 'Terminal
     $dominant_accent = 'text-yellow-600';
 }
 ?>
-    <div class="dashboard-header rounded-2xl p-8 mb-8 shadow-lg flex flex-col gap-6 bg-gradient-to-br <?php echo $dominant_bg; ?> <?php echo $dominant_border; ?> backdrop-blur-md bg-opacity-80" style="border-left-width: 8px; border-color: <?php echo $dominant_color; ?>;">
+    <div class="dashboard-header rounded-2xl p-8 mb-8 shadow-lg flex flex-col gap-6 bg-gradient-to-br <?php echo $dominant_bg; ?> <?php echo $dominant_border; ?> backdrop-blur-md bg-opacity-80">
         <div class="flex flex-col md:flex-row md:justify-between md:items-center gap-6">
             <div class="flex-1 min-w-[220px]">
                 <h1 class="flex items-center gap-3 text-3xl md:text-4xl font-bold <?php echo $dominant_accent; ?>">
@@ -397,7 +397,7 @@ if (function_exists('levels_match') && (levels_match($user_level_norm, 'Terminal
         <div class="dashboard-card card-progression bg-white rounded-2xl shadow-lg overflow-hidden transition hover:-translate-y-1 hover:shadow-xl">
             <div class="flex justify-between items-center px-6 py-4 border-b bg-gradient-to-br from-slate-50 to-slate-100">
                 <h3 class="text-lg font-semibold flex items-center gap-2">📊 Ma Progression</h3>
-                <span class="px-3 py-1 rounded-full text-xs font-semibold" style="background: <?php echo $dominant_color; ?>20; color: <?php echo $dominant_color; ?>;">Niveau <?php echo $userLevelNumber; ?></span>
+                <span class="px-3 py-1 rounded-full text-xs font-semibold">Niveau <?php echo $userLevelNumber; ?></span>
             </div>
             <div class="p-6">
                 <div class="flex items-end gap-2 mb-4">
@@ -405,7 +405,7 @@ if (function_exists('levels_match') && (levels_match($user_level_norm, 'Terminal
                     <div class="text-base text-slate-500">/ <?php echo $nextLevelXP; ?> XP</div>
                 </div>
                 <div class="w-full h-4 bg-slate-200 rounded-lg overflow-hidden mb-6">
-                    <div class="h-full rounded-lg transition-all duration-500" style="width: <?php echo min($xpProgress, 100); ?>%; background: linear-gradient(90deg, <?php echo $dominant_color; ?>, <?php echo $dominant_color; ?>dd);"></div>
+                    <div class="h-full rounded-lg transition-all duration-500"></div>
                 </div>
                 <div class="flex justify-around gap-2">
                     <div class="text-center flex-1">
@@ -471,7 +471,7 @@ if (function_exists('levels_match') && (levels_match($user_level_norm, 'Terminal
                             <div class="flex items-center gap-3 flex-1 max-w-[200px]">
                                 <span class="text-xs text-slate-500 whitespace-nowrap"><?php echo $subjectStat['count']; ?> exercices</span>
                                 <div class="flex-1 h-2 bg-slate-200 rounded overflow-hidden">
-                                    <div class="h-full bg-gradient-to-r from-blue-500 to-violet-500 transition-all duration-500" style="width: <?php echo min(($subjectStat['count'] / 10) * 100, 100); ?>%;"></div>
+                                    <div class="h-full bg-gradient-to-r from-blue-500 to-violet-500 transition-all duration-500"></div>
                                 </div>
                             </div>
                         </div>
@@ -659,13 +659,13 @@ if (!empty($popularResources)): ?>
     <div class="dashboard-grid grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mb-8 items-stretch">
         <!-- Widget Météo -->
         <?php if ($weatherMood): ?>
-        <div class="dashboard-card card-weather bg-white rounded-2xl shadow-lg overflow-hidden transition hover:-translate-y-1 hover:shadow-xl h-full" style="border-left: 5px solid <?php echo $weatherMood['color']; ?>;">
+        <div class="dashboard-card card-weather bg-white rounded-2xl shadow-lg overflow-hidden transition hover:-translate-y-1 hover:shadow-xl h-full">
             <div class="card-header">
                 <h3>🌤️ Météo de Progression</h3>
             </div>
             <div class="card-body">
                 <div class="weather-display">
-                    <div class="weather-icon-large" style="color: <?php echo $weatherMood['color']; ?>;">
+                    <div class="weather-icon-large">
                         <?php echo $weatherMood['icon']; ?>
                     </div>
                     <div class="weather-info">
@@ -865,7 +865,7 @@ if (!empty($popularResources)): ?>
 
     <!-- CINQUIÈME POSITION : ligne graphique inchangée -->
     <div class="dashboard-grid grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mb-8">
-        <div class="dashboard-card card-chart bg-white rounded-2xl shadow-lg overflow-hidden transition hover:-translate-y-1 hover:shadow-xl" style="grid-column: 1 / -1;">
+        <div class="dashboard-card card-chart bg-white rounded-2xl shadow-lg overflow-hidden transition hover:-translate-y-1 hover:shadow-xl">
             <div class="card-header">
                 <h3>📈 Évolution de ta Progression</h3>
                 <div class="chart-controls">
@@ -934,7 +934,7 @@ if (!empty($popularResources)): ?>
                         </div>
                     </div>
                     <div class="goal-bar">
-                        <div class="goal-bar-fill" style="width: <?php echo min($goal['Progress'], 100); ?>%;"></div>
+                        <div class="goal-bar-fill"></div>
                     </div>
                     <div class="goal-percentage"><?php echo min($goal['Progress'], 100); ?>%</div>
                 </div>
@@ -962,7 +962,7 @@ if (!empty($popularResources)): ?>
                         </div>
                     </div>
                     <div class="goal-bar">
-                        <div class="goal-bar-fill" style="width: <?php echo min($goal['Progress'], 100); ?>%;"></div>
+                        <div class="goal-bar-fill"></div>
                     </div>
                     <div class="goal-percentage"><?php echo min($goal['Progress'], 100); ?>%</div>
                 </div>
@@ -1286,7 +1286,7 @@ function loadProgressChart(days = 30) {
                         const errorMsg = document.createElement('div');
                         errorMsg.className = 'chart-error';
                         errorMsg.style.cssText = 'padding: 20px; text-align: center; color: #666;';
-                        errorMsg.innerHTML = '<p>⚠️ Impossible de charger le graphique de progression</p><p style="font-size: 0.875rem; color: #999;">Aucune donnée disponible pour le moment</p>';
+                        errorMsg.innerHTML = '<p>⚠️ Impossible de charger le graphique de progression</p><p>Aucune donnée disponible pour le moment</p>';
                         chartCtx.parentNode.replaceChild(errorMsg, chartCtx);
                     }
                 }
@@ -1378,3 +1378,4 @@ if (isset($direct_access) && $direct_access) {
     echo "</body>\n</html>";
 }
 ?>
+

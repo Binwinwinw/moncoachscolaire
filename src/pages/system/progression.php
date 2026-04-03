@@ -194,7 +194,7 @@ if (!empty($_SESSION['parent_id'])) {
                     <div class="text-sm opacity-90 mb-2 uppercase tracking-wider">Points d'Expérience</div>
                     <div class="text-3xl font-bold mb-2" id="xp-points"><?php echo $xp; ?></div>
                     <div class="w-full h-2 bg-white/20 rounded-full mb-2 overflow-hidden">
-                        <div class="h-full bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-full transition-all duration-500" id="xp-progress-fill" style="width: <?php echo $progressPercentage; ?>%"></div>
+                        <div class="h-full bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-full transition-all duration-500" id="xp-progress-fill"></div>
                     </div>
                     <div class="text-sm opacity-80" id="xp-next-level">
                         <?php echo getXPForNextLevel($level) - $xp; ?> points jusqu'au niveau <?php echo $level + 1; ?>
@@ -225,7 +225,7 @@ if (!empty($_SESSION['parent_id'])) {
             <div class="relative w-full max-w-2xl mx-auto aspect-square bg-white/10 backdrop-blur-md rounded-3xl border-4 border-white/30 grid grid-cols-8 grid-rows-8 gap-1 p-3">
                 <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 h-4/5 border-4 border-dashed border-white/30 rounded-full pointer-events-none"></div>
                 <div class="relative w-full h-full grid grid-cols-8 grid-rows-8 gap-1 z-10" id="board-squares"></div>
-                <div class="absolute w-10 h-10 bg-gradient-to-br from-yellow-400 to-yellow-500 border-4 border-white rounded-full shadow-lg z-50 transform -translate-x-1/2 -translate-y-1/2 transition-all duration-500 opacity-0 scale-0" id="player-token" style="left: 0%; top: 0%;"></div>
+                <div class="absolute w-10 h-10 bg-gradient-to-br from-yellow-400 to-yellow-500 border-4 border-white rounded-full shadow-lg z-50 transform -translate-x-1/2 -translate-y-1/2 transition-all duration-500 opacity-0 scale-0" id="player-token"></div>
             </div>
             <p class="text-center text-white mt-6 opacity-90 text-base">
                 Chaque exercice complété te fait progresser dans le laboratoire. Continue tes expériences pour devenir un génie scientifique !
@@ -310,3 +310,4 @@ const progressData = <?php echo json_encode($jsProgressData); ?>;
     }
 })();
 </script>
+

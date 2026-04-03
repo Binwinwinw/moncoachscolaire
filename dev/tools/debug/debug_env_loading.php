@@ -36,7 +36,7 @@ if ($directAccess) {
     header('Content-Type: text/plain; charset=utf-8');
 } else {
     $page_title = 'Debug Chargement .env';
-    echo '<main class="main-content"><section><pre style="background: #f5f5f5; padding: 20px; border-radius: 8px; overflow-x: auto; font-family: monospace; white-space: pre-wrap;">';
+    echo '<main class="main-content"><section><pre>';
 }
 
 echo "🔍 Diagnostic approfondi du chargement .env\n";
@@ -201,3 +201,4 @@ if (!$directAccess) {
     echo '</pre></section></main>';
 }
 ?>
+

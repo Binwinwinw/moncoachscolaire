@@ -104,7 +104,7 @@ if (!$has_access) {
         <div class="coach-preview text-center bg-gradient-to-br from-slate-50 to-slate-100 rounded-2xl p-8 shadow-lg mt-6">
              <h2 class="text-2xl font-bold text-slate-800">🔒 Accès restreint</h2>
              <p class="text-slate-600">Le contenu pédagogique est réservé aux membres inscrits.</p>
-             <p class="mt-5 flex flex-wrap gap-3 justify-center" style="margin-top:20px;">
+             <p class="mt-5 flex flex-wrap gap-3 justify-center">
                  <a href="<?php echo site_url('register'); ?>" class="btn btn-primary inline-flex items-center justify-center px-4 py-2 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-colors">Créer un compte</a>
                  <a href="<?php echo site_url('login'); ?>" class="btn btn-secondary inline-flex items-center justify-center px-4 py-2 rounded-lg bg-white text-slate-800 font-semibold border border-slate-200 hover:bg-slate-50 transition-colors">Se connecter</a>
              </p>
@@ -173,11 +173,11 @@ try {
     <div class="header text-center mb-8 rounded-xl bg-gradient-to-br from-emerald-500 to-teal-600 text-white p-8 shadow-lg">
         <h1 class="text-4xl font-bold"><?php echo $params['title']; ?></h1>
         <p class="subtitle text-lg text-white/90"><?php echo $params['subtitle']; ?></p>
-        <div class="exercices-navigation flex flex-wrap gap-4 justify-center mt-6" style="margin-top: 1.5rem; display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
-            <a href="<?php echo site_url('cours', ['niveau' => $params['cours']]); ?>" class="nav-btn nav-cours inline-flex items-center justify-center px-6 py-3 rounded-lg bg-blue-500 text-white font-semibold hover:bg-blue-600 transition-colors" style="background: #3b82f6; color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s ease;">📚 Mes Cours</a>
-            <a href="<?php echo site_url('lycee/lycee-accueil'); ?>" class="nav-btn nav-accueil inline-flex items-center justify-center px-6 py-3 rounded-lg bg-emerald-500 text-white font-semibold hover:bg-emerald-600 transition-colors" style="background: #10b981; color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s ease;">🏠 Accueil Lycée</a>
+        <div class="exercices-navigation flex flex-wrap gap-4 justify-center mt-6">
+            <a href="<?php echo site_url('cours', ['niveau' => $params['cours']]); ?>" class="nav-btn nav-cours inline-flex items-center justify-center px-6 py-3 rounded-lg bg-blue-500 text-white font-semibold hover:bg-blue-600 transition-colors">📚 Mes Cours</a>
+            <a href="<?php echo site_url('lycee/lycee-accueil'); ?>" class="nav-btn nav-accueil inline-flex items-center justify-center px-6 py-3 rounded-lg bg-emerald-500 text-white font-semibold hover:bg-emerald-600 transition-colors">🏠 Accueil Lycée</a>
             <?php if (!empty($is_logged_in)): ?>
-                <a href="<?php echo site_url('eleve/dashboard'); ?>" class="nav-btn nav-dashboard inline-flex items-center justify-center px-6 py-3 rounded-lg bg-purple-500 text-white font-semibold hover:bg-purple-600 transition-colors" style="background: #8b5cf6; color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s ease;">📊 Mon Dashboard</a>
+                <a href="<?php echo site_url('eleve/dashboard'); ?>" class="nav-btn nav-dashboard inline-flex items-center justify-center px-6 py-3 rounded-lg bg-purple-500 text-white font-semibold hover:bg-purple-600 transition-colors">📊 Mon Dashboard</a>
             <?php endif; ?>
         </div>
     </div>
@@ -185,12 +185,12 @@ try {
     <?php // Subject selector for logged-in users?>
     <?php if (!empty($is_logged_in) && function_exists('getSubjectsByLevels')): ?>
         <?php $availableSubjects = getSubjectsByLevels($params['level_db']); ?>
-        <div class="subject-filter max-w-4xl mx-auto mt-3 flex justify-center" style="max-width:980px;margin:12px auto 0;display:flex;justify-content:center;">
+        <div class="subject-filter max-w-4xl mx-auto mt-3 flex justify-center">
             <form method="get" id="subject-filter-form">
                 <input type="hidden" name="page" value="<?php echo htmlspecialchars($_GET['page'] ?? 'lycee/exercices-lycee'); ?>">
                 <input type="hidden" name="niveau" value="<?php echo htmlspecialchars($_GET['niveau'] ?? ($niveau)); ?>">
-            <label for="subject-select" class="mr-2 font-semibold self-center text-slate-800" style="margin-right:8px;font-weight:700;align-self:center;color:#1f2937;">Choisir une matière :</label>
-            <select id="subject-select" name="subject" onchange="document.getElementById('subject-filter-form').submit()" class="px-3 py-2 rounded-lg border border-slate-200 bg-white text-slate-800" style="padding:8px 12px;border-radius:8px;border:1px solid #e6eef8;">
+            <label for="subject-select" class="mr-2 font-semibold self-center text-slate-800">Choisir une matière :</label>
+            <select id="subject-select" name="subject" onchange="document.getElementById('subject-filter-form').submit()" class="px-3 py-2 rounded-lg border border-slate-200 bg-white text-slate-800">
                     <option value="">Toutes les matières</option>
                     <?php foreach ($availableSubjects as $sub): ?>
                         <option value="<?php echo htmlspecialchars($sub); ?>" <?php echo (isset($_GET['subject']) && $_GET['subject'] === $sub) ? 'selected' : ''; ?>><?php echo htmlspecialchars($sub); ?></option>
@@ -201,3 +201,4 @@ try {
     <?php endif; ?>
     <!-- ... (le reste du contenu interactif, coach, exercices, etc. à compléter selon besoins) ... -->
 </main>
+

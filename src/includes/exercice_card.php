@@ -98,8 +98,8 @@ function renderExerciseCard($exercise, $options = [])
          data-subject="<?php echo htmlspecialchars($subject); ?>">
         <header class="exercise-header" role="heading" aria-level="3">
             <div class="exercise-title-section">
-                <span class="exercise-icon" style="color: <?php echo $subjectColor ?? '#64748B'; ?>; display: inline-block; width: 48px; height: 48px; max-width: 100%;" aria-hidden="true">
-                    <?php echo preg_replace('/<svg /', '<svg style="width:48px;height:48px;max-width:100%;" ', $subjectIcon); ?>
+                <span class="exercise-icon" aria-hidden="true">
+                    <?php echo preg_replace('/<svg /', '<svg ', $subjectIcon); ?>
                 </span>
                 <h3 id="exercise-title-<?php echo $id; ?>" class="exercise-title">
                         <span class="exercise-number">#<?php echo htmlspecialchars($id); ?></span>
@@ -355,8 +355,8 @@ function generateInteractiveExercise($exercise, $subject)
         // Si l'énoncé contient des sous-questions a), b), c)... ajouter une zone de réponse libre
         $hasEnumeratedQuestions = preg_match('/\b[a-e]\)\s/i', strip_tags($content));
         if ($hasEnumeratedQuestions) {
-            $hint = '<div class="exercise-freeform-hint" style="margin-top:1rem;font-weight:600;color:#0f172a;">Saisis tes réponses pour a), b), c) ici :</div>';
-            $textarea = '<textarea class="exercise-freeform-input" style="width:100%;min-height:140px;margin-top:0.5rem;padding:0.75rem;border:1px solid #cbd5e1;border-radius:8px;" placeholder="Réponds pour chaque sous-question (a, b, c, ...)"></textarea>';
+            $hint = '<div class="exercise-freeform-hint">Saisis tes réponses pour a), b), c) ici :</div>';
+            $textarea = '<textarea class="exercise-freeform-input" placeholder="Réponds pour chaque sous-question (a, b, c, ...)"></textarea>';
             return '<div class="exercise-enonce">' . $cleanedContent . '</div>' . $hint . $textarea;
         }
         return '<div class="exercise-enonce">' . $cleanedContent . '</div>';
@@ -377,7 +377,7 @@ function generateInteractiveExercise($exercise, $subject)
         case 'saisie':
             // Affichage champ texte libre
             $cleanedContent = cleanExerciseContent($content);
-            $textarea = '<textarea class="exercise-freeform-input" style="width:100%;min-height:100px;margin-top:0.5rem;padding:0.75rem;border:1px solid #cbd5e1;border-radius:8px;" placeholder="Écris ta réponse ici..."></textarea>';
+            $textarea = '<textarea class="exercise-freeform-input" placeholder="Écris ta réponse ici..."></textarea>';
             return '<div class="exercise-enonce">' . $cleanedContent . '</div>' . $textarea;
         default:
             // Nettoyer le contenu pour éviter les fuites de code HTML
@@ -497,10 +497,10 @@ function generateWordColoringExercise($exercise, $exerciseId)
     return <<<HTML
     <div class="word-coloring-exercise" data-sentence="{$sentenceAttr}" data-correct='{$mappingJson}' data-exercise-id="{$exerciseId}">
         <div class="word-coloring-container"></div>
-        <button class="btn-check-coloring" style="margin-top: 1rem; padding: 0.75rem 1.5rem; background: #3b82f6; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: 600;">
+        <button class="btn-check-coloring">
             ✅ Vérifier mes réponses
         </button>
-        <div class="coloring-feedback" style="margin-top: 1rem; display: none;"></div>
+        <div class="coloring-feedback"></div>
     </div>
 HTML;
 }
@@ -796,10 +796,10 @@ function generateQCMExercise($questions, $exerciseId)
     return <<<HTML
     <div class="qcm-exercise" data-questions='{$questionsJson}' data-exercise-id="{$exerciseId}">
         <div class="qcm-container"></div>
-        <button class="btn-check-qcm" style="margin-top: 1rem; padding: 0.75rem 1.5rem; background: #3b82f6; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: 600;">
+        <button class="btn-check-qcm">
             ✅ Vérifier mes réponses
         </button>
-        <div class="qcm-feedback" style="margin-top: 1rem; display: none;"></div>
+        <div class="qcm-feedback"></div>
     </div>
 HTML;
 }
@@ -814,10 +814,10 @@ function generateMathExercise($questions, $exerciseId)
     return <<<HTML
     <div class="math-exercise" data-questions='{$questionsJson}' data-exercise-id="{$exerciseId}">
         <div class="math-container"></div>
-        <button class="btn-check-math" style="margin-top: 1rem; padding: 0.75rem 1.5rem; background: #3b82f6; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: 600;">
+        <button class="btn-check-math">
             ✅ Vérifier mes réponses
         </button>
-        <div class="math-feedback" style="margin-top: 1rem; display: none;"></div>
+        <div class="math-feedback"></div>
     </div>
 HTML;
 }
@@ -832,10 +832,10 @@ function generateConjugationExercise($questions, $exerciseId)
     return <<<HTML
     <div class="conjugation-exercise" data-questions='{$questionsJson}' data-exercise-id="{$exerciseId}">
         <div class="conjugation-container"></div>
-        <button class="btn-check-conjugation" style="margin-top: 1rem; padding: 0.75rem 1.5rem; background: #3b82f6; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: 600;">
+        <button class="btn-check-conjugation">
             ✅ Vérifier mes réponses
         </button>
-        <div class="conjugation-feedback" style="margin-top: 1rem; display: none;"></div>
+        <div class="conjugation-feedback"></div>
     </div>
 HTML;
 }
@@ -1193,3 +1193,4 @@ function showBadgeUnlocked(badgeName) {
 <?php
     }
 }
+

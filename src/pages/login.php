@@ -440,7 +440,7 @@ if ($show_auth_debug) {
 // ========== DEBUG SESSION LOGIN ==========
 $show_debug_block = $show_auth_debug && (isset($_GET['debug']) && $_GET['debug'] == '1');
 if ($show_debug_block) {
-    echo '<div style="background:#ffeeba;color:#222;padding:10px 16px;border-radius:8px;margin:16px 0 0 0;font-size:14px;">';
+    echo '<div>';
     echo '<strong>DEBUG SESSION</strong><br>';
     echo 'session_id: ' . session_id() . '<br>';
     echo 'logged_in: ' . (isset($_SESSION['logged_in']) ? var_export($_SESSION['logged_in'], true) : 'NON DÉFINI') . '<br>';
@@ -671,3 +671,4 @@ if (is_file(__DIR__ . '/../includes/footer.php')) {
 ?>
 </body>
 </html>
+

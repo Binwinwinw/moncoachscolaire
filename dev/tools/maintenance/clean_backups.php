@@ -1,6 +1,6 @@
 <?php
 // tools/clean_backups.php
-// Scans backups/ for PHP/HTML files, extracts inline <style> blocks and style="..." attributes
+// Scans backups/ for PHP/HTML files, extracts inline <style> blocks and attributes
 // into assets/css/pages/backups/<timestamp>/ and writes cleaned copies to backups/cleaned/<timestamp>/
 // Usage: php clean_backups.php [--apply]
 
@@ -59,7 +59,7 @@ foreach ($files as $file) {
         $content = preg_replace('#<style[^>]*>.*?</style>#is', '', $content);
     }
 
-    // Extract style="..." occurrences
+    // Extract occurrences
     if (preg_match_all('#style\s*=\s*(?:"([^"]*)"|\'([^\']*)\')#is', $content, $m2, PREG_SET_ORDER)) {
         foreach ($m2 as $match) {
             $styleStr = $match[1] !== '' ? $match[1] : $match[2];
@@ -71,7 +71,7 @@ foreach ($files as $file) {
             $rule = '.' . $className . ' { ' . $styleStr . ' }';
             $fileCssRules[] = $rule;
 
-            // Replace style="..." with class insertion
+            // Replace with class insertion
             // Try to keep existing class attribute if present
             // strategy: replace "style="..." with "" then add class attribute if missing or append
             // We'll do a lightweight replacement using regex: find element starting before style attribute and inject class="..."
@@ -81,7 +81,7 @@ foreach ($files as $file) {
             if (preg_match($pattern, $content)) {
                 $content = preg_replace($pattern, '\1class="\3 ' . $className . '"\4', $content, 1);
             } else {
-                // fallback: replace style="..." after the tag opening, adding class attr
+                // fallback: replace after the tag opening, adding class attr
                 $pattern2 = '/(<[a-zA-Z0-9_-]+\b)([^>]*?)\sstyle\s*=\s*("|\')' . preg_quote($styleStr, '/') . '\3/si';
                 if (preg_match($pattern2, $content)) {
                     $content = preg_replace($pattern2, '\1 class="' . $className . '"\2', $content, 1);
@@ -118,3 +118,4 @@ if ($apply) {
 }
 
 exit(0);
+

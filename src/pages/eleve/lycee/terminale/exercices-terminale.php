@@ -167,7 +167,7 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
         </style>
 
         <!-- MATHÉMATIQUES (Ancien système - masqué) -->
-        <section id="maths" style="display: none;">
+        <section id="maths">
             <h2>🧮 Mathématiques - Annales Bac</h2>
 
             <div class="coach-message">
@@ -215,7 +215,7 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
                              {"sentence": "Quelle est la limite de f(x) quand x tend vers +∞ ?", "answer": "+∞"}
                          ]'>
                         <div class="conjugation-container"><!-- Champs dynamiques via JS --></div>
-                        <div style="display:flex;gap:.5rem;margin-top:.5rem;">
+                        <div>
                             <button class="btn-outline" data-action="verify-exercise">Vérifier mes réponses</button>
                             <a href="#" class="btn-outline">Ouvrir</a>
                         </div>
@@ -249,7 +249,7 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
 
                     <div class="math-exercise" data-questions='[{"question":"Calcule ∫_0^1 x^2 dx","answer":"1/3"}]'>
                         <div class="exercise-content"><div class="math-container"><!-- Champs dynamiques via JS --></div></div>
-                        <div style="display:flex;gap:.5rem;margin-top:.5rem;">
+                        <div>
                             <button class="btn-outline" data-action="verify-exercise">Vérifier mes réponses</button>
                             <a href="#" class="btn-outline">Ouvrir</a>
                         </div>
@@ -303,7 +303,7 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
 
                     <div class="qcm-exercise" data-questions='[]'>
                         <div class="qcm-container"><!-- Contenu additionnel à venir --></div>
-                        <div style="display:flex;gap:.5rem;margin-top:.5rem;">
+                        <div>
                             <button class="btn-outline" data-action="verify-exercise">Vérifier mes réponses</button>
                             <a href="#" class="btn-outline">Ouvrir</a>
                         </div>
@@ -358,7 +358,7 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
 
                     <div class="qcm-exercise" data-questions='[{"question":"Un bilan énergétique permet de :","choices":[{"value":"a","label":"a) Vérifier la conservation de l'énergie"},{"value":"b","label":"b) Mesurer la température seulement"},{"value":"c","label":"c) Compter les atomes"}],"correct":"a"}]'>
                         <div class="qcm-container"><!-- Les questions QCM seront générées dynamiquement par JavaScript --></div>
-                        <div style="display:flex;gap:.5rem;margin-top:.5rem;">
+                        <div>
                             <button class="btn-outline" data-action="verify-exercise">Vérifier mes réponses</button>
                             <a href="#" class="btn-outline">Ouvrir</a>
                         </div>
@@ -519,3 +519,4 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
 </main>
 <?php
 // Fin du fichier exercices-terminale.php
+

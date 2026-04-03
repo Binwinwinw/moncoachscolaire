@@ -171,7 +171,7 @@ if ($user_id) {
                 <svg class="xp-progress-ring" width="150" height="150">
                     <circle class="progress-ring-bg" cx="75" cy="75" r="65" />
                     <circle class="progress-ring-fill" cx="75" cy="75" r="65"
-                            style="stroke-dashoffset: <?php echo 408 - (408 * $progress_to_next / 100); ?>"/>
+                           />
                 </svg>
             </div>
             <div class="xp-stats">
@@ -184,7 +184,7 @@ if ($user_id) {
                     <span class="xp-stat-value"><?php echo number_format($next_level_xp - $total_xp); ?> XP</span>
                 </div>
                 <div class="xp-progress-bar">
-                    <div class="xp-progress-fill" style="width: <?php echo $progress_to_next; ?>%"></div>
+                    <div class="xp-progress-fill"></div>
                 </div>
                 <div class="xp-progress-label"><?php echo $progress_to_next; ?>% vers niveau <?php echo $user_level_xp + 1; ?></div>
             </div>
@@ -277,9 +277,9 @@ if ($user_id) {
                     $color = $avg >= 80 ? '#10b981' : ($avg >= 60 ? '#f59e0b' : '#ef4444');
                     ?>
                             <div class="score-bar">
-                                <div class="score-bar-fill" style="width: <?php echo $avg; ?>%; background: <?php echo $color; ?>"></div>
+                                <div class="score-bar-fill"></div>
                             </div>
-                            <span class="score-value" style="color: <?php echo $color; ?>"><?php echo $avg; ?>%</span>
+                            <span class="score-value"><?php echo $avg; ?>%</span>
                         </div>
                     </div>
                 <?php endforeach; ?>
@@ -593,3 +593,4 @@ if (ctx) {
     });
 }
 </script>
+

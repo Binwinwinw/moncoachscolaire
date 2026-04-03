@@ -131,7 +131,7 @@ if ($has_access) {
                                 </div>
 
                                 <!-- Zone d'explication (cachée par défaut) -->
-                                <div class="question-explanation bg-blue-50 border-l-4 border-blue-500 rounded-xl mt-4 p-4" style="display: none;">
+                                <div class="question-explanation bg-blue-50 border-l-4 border-blue-500 rounded-xl mt-4 p-4">
                                     <strong>💡 Explication :</strong>
                                     <p><?php echo htmlspecialchars($question['explanation'] ?? 'Pas d\'explication disponible.'); ?></p>
                                 </div>
@@ -286,7 +286,7 @@ if ($has_access) {
                     <h3>${emoji} Résultats du Quiz</h3>
                     <p><strong>Score : ${score}/${total} (${percentage}%)</strong></p>
                     <p>${message}</p>
-                    <p style="margin-top: 1rem;"><a href="<?php echo site_url('cours'); ?>" class="coach-cta secondary" style="font-size: 0.9rem; padding: 0.75rem 1.5rem;">📚 Revoir mes cours</a></p>
+                    <p><a href="<?php echo site_url('cours'); ?>" class="coach-cta secondary">📚 Revoir mes cours</a></p>
                 </div>
             `;
             resultsDiv.style.display = 'block';
@@ -337,3 +337,4 @@ if ($has_access) {
       }
     </style>
 </main>
+

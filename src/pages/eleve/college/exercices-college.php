@@ -119,7 +119,7 @@ foreach ($levels as $lvl) {
                                 </div>
                             </div>
                             <div class="card-content mt-2 text-slate-700 flex-1">
-                                <p class="leading-relaxed text-base mb-2 line-clamp-4" style="min-height:60px;">
+                                <p class="leading-relaxed text-base mb-2 line-clamp-4">
                                     <?php echo nl2br(htmlspecialchars(substr($ex['Content'] ?? '', 0, 400))); ?><?php if (strlen($ex['Content'] ?? '') > 400) {
                                         echo '...';
                                     } ?>
@@ -142,3 +142,4 @@ foreach ($levels as $lvl) {
     <script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/exercises.js') : 'assets/js/exercises.js'; ?>"></script>
 
 </main>
+

@@ -57,7 +57,7 @@ $subjects = ['Mathématiques', 'Français', 'Sciences', 'Histoire-Géo', 'Anglai
             <strong>👋 Salut <?php echo htmlspecialchars($user_name ?? $_SESSION['user_name'] ?? 'Élève'); ?> !</strong><br>
             C'est l'année du BAC ! Nos cours de Terminale te permettront de maîtriser toutes les notions du programme et de te préparer efficacement aux épreuves finales et au Grand Oral.
             <?php if ($is_demo && !$is_admin): ?>
-            <br><small style="color: #666; font-style: italic;">💡 Mode démo : tu as accès à <strong>un seul cours Terminale</strong>. Crée un compte pour accéder à tous les cours et réussir ton BAC !</small>
+            <br><small>💡 Mode démo : tu as accès à <strong>un seul cours Terminale</strong>. Crée un compte pour accéder à tous les cours et réussir ton BAC !</small>
             <?php endif; ?>
         </div>
 
@@ -98,7 +98,7 @@ foreach ($subjectsToDisplay as $subject):
     $icons = ['Mathématiques' => '🧮', 'Français' => '📚', 'Sciences' => '🔬', 'Histoire-Géo' => '🏛️', 'Anglais' => '🇬🇧', 'Philosophie' => '🤔'];
     $icon = $icons[$subject] ?? '📖';
     ?>
-            <section id="<?php echo htmlspecialchars($subjectId); ?>" class="cours-section cours-terminale-section" style="display: none;">
+            <section id="<?php echo htmlspecialchars($subjectId); ?>" class="cours-section cours-terminale-section">
                 <div class="cours-section-header">
                     <button class="btn-back-subject" onclick="toggleSubject('<?php echo htmlspecialchars($subjectId); ?>')">← Retour aux matières</button>
                     <h2><?php echo $icon; ?> <?php echo htmlspecialchars($subject); ?> - Terminale</h2>
@@ -223,3 +223,4 @@ function toggleSubject(subjectId) {
 }
 document.addEventListener('DOMContentLoaded', () => { if (window.location.hash) toggleSubject(window.location.hash.substring(1)); });
 </script>
+

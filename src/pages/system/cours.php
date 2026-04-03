@@ -123,7 +123,7 @@ if ($is_admin) {
 
 
 <?php $cours_background = function_exists('asset_url') ? asset_url('assets/img/background_school_material.webp') : '/public/assets/img/background_school_material.webp'; ?>
-<main class="cours-main" style="background-image: url('<?= htmlspecialchars($cours_background, ENT_QUOTES) ?>'); background-size: cover; background-position: center; background-attachment: fixed; min-height: 100vh;">
+<main class="cours-main">
     <?php if (!empty($user_level) && $is_admin) {
         echo render_level_navigation($user_level, 'cours');
     } ?>
@@ -173,15 +173,15 @@ if ($is_admin) {
                 <?php if ($is_demo && !$is_admin): ?>
                     <p class="text-sm text-amber-600 mt-2 italic">💡 Mode démo : 1 cours. Crée un compte pour tout !</p>
                 <?php endif; ?>
-                <div class="meta-item" style="display:inline-block; margin-top:1rem;">
+                <div class="meta-item">
                     <?php echo $is_bac ? '🎯 BAC' : ($is_lycee ? '🎓 Lycée' : '🏫 Collège'); ?>
                 </div>
-                <span id="courseCountTotal" class="meta-item" style="display:inline-block; margin-left:1rem;">0 cours</span>
+                <span id="courseCountTotal" class="meta-item">0 cours</span>
             </div>
 
             <!-- Recherche + filtres matières -->
             <div class="subjects-nav">
-                <input type="text" id="searchInput" placeholder="Recherche un cours (ex: fractions, SVT)..." class="subject-nav-btn" style="min-width:220px;" />
+                <input type="text" id="searchInput" placeholder="Recherche un cours (ex: fractions, SVT)..." class="subject-nav-btn" />
                 <select id="subjectFilter" class="subject-nav-btn">
                     <option value="">Toutes tes matières</option>
                     <?php foreach ($subjects as $sub): ?>
@@ -278,3 +278,4 @@ function renderCourses(courses) {
     document.getElementById('allCoursesGrid').innerHTML = courses.map(createCourseCard).join('');
 }
 </script>
+

@@ -43,7 +43,7 @@ if (!function_exists('asset_url')) {
 
   <div id="integrations-list"></div>
 
-  <div id="integration-modal" class="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-40 z-50" style="display:none;">
+  <div id="integration-modal" class="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-40 z-50">
     <div class="bg-white rounded-xl shadow-lg p-6 w-full max-w-xl">
       <h3 id="modal-title" class="text-xl font-semibold mb-4">Nouvelle intégration</h3>
       <form id="integration-form" class="space-y-4">
@@ -129,3 +129,4 @@ if (!function_exists('asset_url')) {
     document.addEventListener('DOMContentLoaded', listIntegrations);
   </script>
 </main>
+

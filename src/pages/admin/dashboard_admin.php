@@ -110,7 +110,7 @@ if (is_file(dirname(__DIR__, 2) . '/includes/topbar.php')) {
     </header>
 
     <!-- Modal Création/Édition Utilisateur -->
-    <div id="user-modal" class="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-40 z-50" style="display:none;">
+    <div id="user-modal" class="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-40 z-50">
         <div class="bg-white rounded-xl shadow-lg p-6 w-full max-w-xl">
             <div class="flex justify-between items-center mb-4">
                 <h3 id="user-modal-title" class="text-xl font-semibold">Nouvel Utilisateur</h3>
@@ -493,17 +493,17 @@ if ($exSection && is_file($exSection)) {
                     <h3>Email / SMTP</h3>
                     <form id="debug-email-form" onsubmit="event.preventDefault(); sendDebugEmail(); return false;">
                         <label for="debug-email-to">Envoyer un email de test à :</label>
-                        <input type="email" id="debug-email-to" name="to" placeholder="destinataire@example.com" required style="width:100%;margin-bottom:8px;">
+                        <input type="email" id="debug-email-to" name="to" placeholder="destinataire@example.com" required>
                         <button type="submit" class="btn-admin-secondary">Envoyer Email Test</button>
                     </form>
-                    <div style="margin-top:8px;">
+                    <div>
                         <button class="btn-admin-secondary" onclick="loadDebugInfo('smtp'); return false;">Afficher config SMTP</button>
                     </div>
-                    <pre id="debug-smtp" class="debug-output" style="margin-top:8px;"></pre>
-                    <div style="margin-top:8px;">
+                    <pre id="debug-smtp" class="debug-output"></pre>
+                    <div>
                         <button class="btn-admin-secondary" onclick="loadDebugInfo('smtp_log'); return false;">Afficher dernier log PHPMailer</button>
                     </div>
-                    <pre id="debug-smtp-log" class="debug-output" style="margin-top:8px;"></pre>
+                    <pre id="debug-smtp-log" class="debug-output"></pre>
                 </div>
             </div>
         </section>
@@ -896,3 +896,4 @@ if (is_file($footerPath)) {
     echo "</body>\n</html>";
 }
 ?>
+

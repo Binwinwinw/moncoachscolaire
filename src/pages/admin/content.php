@@ -429,7 +429,7 @@ $statuses = ['draft' => 'Brouillon', 'published' => 'Publié', 'archived' => 'Ar
                                                 class="px-3 py-1 bg-blue-600 text-white rounded hover:bg-blue-700 transition text-sm shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500">
                                             ✏️ Éditer
                                         </button>
-                                        <form method="POST" style="display:inline;" onsubmit="return confirm('Confirmer la suppression ?');">
+                                        <form method="POST" onsubmit="return confirm('Confirmer la suppression ?');">
                                             <input type="hidden" name="csrf_token" value="<?php echo htmlspecialchars($csrf_token, ENT_QUOTES, 'UTF-8'); ?>">
                                             <input type="hidden" name="action" value="delete">
                                             <input type="hidden" name="id" value="<?php echo $content['id']; ?>">
@@ -581,3 +581,4 @@ setTimeout(() => {
 } ?>
 </body>
 </html>
+

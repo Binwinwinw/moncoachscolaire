@@ -262,7 +262,7 @@ if (isset($enfant_not_found) && $enfant_not_found) {
             </a>
         </nav>
     <?php $suivi_bg = function_exists('asset_url') ? asset_url('assets/img/background_school_material.webp') : '/assets/img/background_school_material.webp'; ?>
-    <main class="min-h-screen bg-cover bg-center bg-no-repeat bg-fixed font-sans" style="background-image: url('<?= htmlspecialchars($suivi_bg, ENT_QUOTES) ?>');">
+    <main class="min-h-screen bg-cover bg-center bg-no-repeat bg-fixed font-sans">
     <!-- Nav Breadcrumbs -->
     <nav class="max-w-6xl mx-auto mb-8 flex items-center gap-4 text-sm text-gray-600">
         <a href="<?= site_url('parents/dashboard_parent') ?>" class="hover:text-indigo-600 transition">📊 Dashboard</a>
@@ -370,7 +370,7 @@ if (isset($enfant_not_found) && $enfant_not_found) {
                     <h3 class="text-3xl font-bold text-gray-900 mb-6 text-center">Dashboard Interactif</h3>
                     <p class="text-lg text-gray-700 mb-8 leading-relaxed">Badges live, objectifs dynamiques, stats en temps réel pour booster la motivation quotidienne.</p>
                     <div class="w-full rounded-full h-4 mb-6 overflow-hidden">
-                        <div class="bg-gradient-to-r from-blue-500 to-indigo-500 h-4 rounded-full shadow-lg transition-all duration-1000 animate-pulse" style="width: 78%"></div>
+                        <div class="bg-gradient-to-r from-blue-500 to-indigo-500 h-4 rounded-full shadow-lg transition-all duration-1000 animate-pulse"></div>
                     </div>
                     <p class="text-sm text-blue-600 font-semibold mb-8 text-center">Actif • +247 XP ce mois</p>
                     <button class="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 shadow-2xl hover:shadow-3xl py-5 px-8 rounded-2xl font-bold text-xl text-white transition-all duration-300 transform hover:-translate-y-1">
@@ -389,7 +389,7 @@ if (isset($enfant_not_found) && $enfant_not_found) {
                     <h3 class="text-3xl font-bold text-gray-900 mb-6 text-center">Grille Niveaux</h3>
                     <p class="text-lg text-gray-700 mb-8 leading-relaxed">Sessions guidées par niveau/matière, exercices ciblés pour combler les lacunes précises.</p>
                     <div class="w-full rounded-full h-4 mb-6 overflow-hidden">
-                        <div class="bg-gradient-to-r from-green-500 to-emerald-500 h-4 rounded-full shadow-lg transition-all duration-1000" style="width: 92%"></div>
+                        <div class="bg-gradient-to-r from-green-500 to-emerald-500 h-4 rounded-full shadow-lg transition-all duration-1000"></div>
                     </div>
                     <p class="text-sm text-green-600 font-semibold mb-8 text-center">94% complété</p>
                     <button class="w-full bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 shadow-2xl hover:shadow-3xl py-5 px-8 rounded-2xl font-bold text-xl text-white transition-all duration-300 transform hover:-translate-y-1">
@@ -409,7 +409,7 @@ if (isset($enfant_not_found) && $enfant_not_found) {
                     <p class="text-lg text-gray-700 mb-8 leading-relaxed">Objectifs smart, routines adaptées, rappels automatisés pour un rythme gagnant.</p>
                     <div class="flex gap-2 mb-6">
                         <div class="flex-1 rounded-xl h-3 overflow-hidden">
-                            <div class="bg-gradient-to-r from-amber-500 to-orange-500 h-3 rounded-xl shadow-lg" style="width: 65%"></div>
+                            <div class="bg-gradient-to-r from-amber-500 to-orange-500 h-3 rounded-xl shadow-lg"></div>
                         </div>
                         <span class="text-sm font-bold text-amber-700 min-w-[40px]">65%</span>
                     </div>
@@ -433,7 +433,7 @@ if (isset($enfant_not_found) && $enfant_not_found) {
                             <span>Nouveaux</span><span class="font-bold text-purple-600">3</span>
                         </div>
                         <div class="w-full rounded-full h-2">
-                            <div class="bg-gradient-to-r from-purple-500 to-violet-500 h-2 rounded-full" style="width: 45%"></div>
+                            <div class="bg-gradient-to-r from-purple-500 to-violet-500 h-2 rounded-full"></div>
                         </div>
                     </div>
                     <button class="w-full bg-gradient-to-r from-purple-600 to-violet-600 hover:from-purple-700 hover:to-violet-700 shadow-2xl hover:shadow-3xl py-5 px-8 rounded-2xl font-bold text-xl text-white transition-all duration-300 transform hover:-translate-y-1">
@@ -467,3 +467,4 @@ if (isset($enfant_not_found) && $enfant_not_found) {
 </main>
 
 <?php endif; ?>
+

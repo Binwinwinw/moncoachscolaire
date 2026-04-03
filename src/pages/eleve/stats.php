@@ -106,7 +106,7 @@ $goals = getUserGoals($userId);
         <div class="flex items-center gap-2">
             <span class="w-32 text-sm font-medium text-gray-700"><?= htmlspecialchars($subject['Subject']) ?></span>
             <div class="flex-1 h-3 bg-gray-200 rounded overflow-hidden">
-                <div class="h-full bg-gradient-to-r from-blue-400 to-blue-700 transition-all duration-500" style="width: <?= min(100, ($subject['total_time'] / 3600) * 10) ?>%"></div>
+                <div class="h-full bg-gradient-to-r from-blue-400 to-blue-700 transition-all duration-500"></div>
             </div>
             <span class="w-16 text-xs text-gray-500 text-right"><?= formatDuration($subject['total_time']) ?></span>
         </div>
@@ -123,7 +123,7 @@ $goals = getUserGoals($userId);
         <div class="bg-white rounded-xl shadow p-4 flex flex-col gap-2">
             <h3 class="font-semibold text-blue-700 mb-1"><?= formatGoalTitle($goal['GoalType']) ?></h3>
             <div class="w-full h-3 bg-gray-200 rounded overflow-hidden mb-2">
-                <div class="h-full bg-gradient-to-r from-green-400 to-green-600 transition-all duration-500" style="width: <?= $goal['progress_percentage'] ?>%"></div>
+                <div class="h-full bg-gradient-to-r from-green-400 to-green-600 transition-all duration-500"></div>
             </div>
             <span class="text-xs text-gray-500 mb-1"><?= $goal['CurrentValue'] ?> / <?= $goal['TargetValue'] ?></span>
             <p class="text-xs text-gray-400">⏳ <?= round($goal['remaining_days']) ?> jour<?= $goal['remaining_days'] > 1 ? 's' : '' ?> restant<?= $goal['remaining_days'] > 1 ? 's' : '' ?></p>
@@ -272,3 +272,4 @@ function timeAgo($datetime)
     return floor($diff / 86400) . 'j';
 }
 ?>
+

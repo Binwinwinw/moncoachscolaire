@@ -81,7 +81,7 @@ $page_class = 'page-exercices-5eme';
             </p>
             <div class="bg-white rounded-lg p-4 shadow-sm">
                 <div class="w-full bg-gray-200 rounded-full h-3 mb-2">
-                    <div class="bg-green-600 h-3 rounded-full transition-all duration-300" id="globalProgress" style="width: 0%;"></div>
+                    <div class="bg-green-600 h-3 rounded-full transition-all duration-300" id="globalProgress"></div>
                 </div>
                 <p class="text-sm text-gray-600">
                     <strong>Progression de l'exploration : <span id="progressText">0%</span></strong>
@@ -220,7 +220,7 @@ $page_class = 'page-exercices-5eme';
             </p>
             <div class="bg-white rounded-lg p-4 shadow-sm">
                 <div class="w-full bg-gray-200 rounded-full h-3 mb-2">
-                    <div class="bg-green-600 h-3 rounded-full transition-all duration-300" id="globalProgress" style="width: 0%;"></div>
+                    <div class="bg-green-600 h-3 rounded-full transition-all duration-300" id="globalProgress"></div>
                 </div>
                 <p class="text-sm text-gray-600">
                     <strong>Progression de l'exploration : <span id="progressText">0%</span></strong>
@@ -349,3 +349,4 @@ $page_class = 'page-exercices-5eme';
     </style>
     </div>
 </main>
+

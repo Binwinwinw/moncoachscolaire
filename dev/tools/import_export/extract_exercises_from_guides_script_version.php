@@ -214,7 +214,7 @@ function formatExerciseForApp($exercise, $subject) {
     // Formater la correction
     $correctionHtml = '';
     if ($correction) {
-        $correctionHtml = '<div class="success-message" style="display:none;" id="correction-' . uniqid() . '">' . 
+        $correctionHtml = '<div class="success-message" id="correction-' . uniqid() . '">' . 
                          strip_tags($correction, '<p><strong><br><ul><li>') . 
                          '</div>';
     }
@@ -428,4 +428,5 @@ foreach ($groupedExercises as $key => $exercises) {
 }
 
 echo "\n✅ Extraction et intégration terminées !\n";
+
 

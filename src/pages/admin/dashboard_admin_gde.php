@@ -44,7 +44,7 @@ if (!function_exists('safe_redirect')) {
         </table>
     </div>
     <div class="pagination" id="exercises-pagination"></div>
-    <div id="exercises-message" class="empty-message" style="display:none;"></div>
+    <div id="exercises-message" class="empty-message"></div>
 
     <!-- Modal Ajout/Édition Exercice -->
     <div id="exercise-modal" class="modal">
@@ -237,13 +237,13 @@ function renderPagination(current, totalPages, totalItems) {
     totalPages = parseInt(totalPages);
 
     if (totalPages <= 1) {
-        container.innerHTML = `<div class="pagination-info" style="text-align:center; padding:10px; color:#666;">Total : ${totalItems} exercice(s)</div>`;
+        container.innerHTML = `<div class="pagination-info">Total : ${totalItems} exercice(s)</div>`;
         return;
     }
 
-    let html = `<div class="pagination-container" style="display:flex; flex-direction:column; align-items:center; gap:10px; margin-top:20px;">`;
-    html += `<div class="pagination-info" style="color:#666; font-size:0.9em;">Page ${current} / ${totalPages} (Total : ${totalItems} exercices)</div>`;
-    html += `<div class="pagination-controls" style="display:flex; gap:5px; align-items:center;">`;
+    let html = `<div class="pagination-container">`;
+    html += `<div class="pagination-info">Page ${current} / ${totalPages} (Total : ${totalItems} exercices)</div>`;
+    html += `<div class="pagination-controls">`;
 
     // Bouton Précédent
     if (current > 1) {
@@ -258,7 +258,7 @@ function renderPagination(current, totalPages, totalItems) {
     // Première page + points de suspension
     if (start > 1) {
         html += `<button class="btn-admin-secondary" onclick="fetchExercises(1)">1</button> `;
-        if (start > 2) html += `<span class="pagination-dots" style="padding:0 5px;">...</span> `;
+        if (start > 2) html += `<span class="pagination-dots">...</span> `;
     }
 
     // Pages numérotées
@@ -269,7 +269,7 @@ function renderPagination(current, totalPages, totalItems) {
 
     // Dernière page + points de suspension
     if (end < totalPages) {
-        if (end < totalPages - 1) html += `<span class="pagination-dots" style="padding:0 5px;">...</span> `;
+        if (end < totalPages - 1) html += `<span class="pagination-dots">...</span> `;
         html += `<button class="btn-admin-secondary" onclick="fetchExercises(${totalPages})">${totalPages}</button> `;
     }
 
@@ -375,3 +375,4 @@ function deleteExercise(id) {
 document.addEventListener('DOMContentLoaded', () => fetchExercises(1));
 // TODO: hooks pour ajout/édition, import/export, feedback UX
 </script>
+

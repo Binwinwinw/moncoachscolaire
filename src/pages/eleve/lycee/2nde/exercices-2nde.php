@@ -175,7 +175,7 @@ $page_class = 'page-exercices-2nde';
     </style>
 
     <!-- MATHÉMATIQUES (Ancien système - masqué) -->
-    <section id="maths" style="display: none;">
+    <section id="maths">
         <h2>🧮 Mathématiques - Algèbre et Géométrie</h2>
 
         <div class="coach-message">
@@ -221,7 +221,7 @@ $page_class = 'page-exercices-2nde';
                             <p><strong>Simplifie ces fractions :</strong></p>
                             <div class="math-container"><!-- Champs dynamiques via JS --></div>
                         </div>
-                        <div style="display:flex;gap:.5rem;margin-top:.5rem;">
+                        <div>
                             <button class="btn-outline" data-action="verify-exercise">Vérifier mes réponses</button>
                             <a href="#" class="btn-outline">Ouvrir</a>
                         </div>
@@ -257,7 +257,7 @@ $page_class = 'page-exercices-2nde';
                             <p><strong>Résous ces problèmes de géométrie :</strong></p>
                             <div class="math-container"><!-- Champs dynamiques via JS --></div>
                         </div>
-                        <div style="display:flex;gap:.5rem;margin-top:.5rem;">
+                        <div>
                             <button class="btn-outline" data-action="verify-exercise">Vérifier mes réponses</button>
                             <a href="#" class="btn-outline">Ouvrir</a>
                         </div>
@@ -311,7 +311,7 @@ $page_class = 'page-exercices-2nde';
 
                     <div class="qcm-exercise" data-questions='[{"question":"Dans un texte argumentatif, la thèse est :","choices":[{"value":"a","label":"a) L\'idée principale que l\'auteur défend"},{"value":"b","label":"b) Le résumé du texte"},{"value":"c","label":"c) L\'introduction uniquement"}],"correct":"a"},{"question":"Les arguments servent à :","choices":[{"value":"a","label":"a) Illustrer le texte"},{"value":"b","label":"b) Soutenir et justifier la thèse"},{"value":"c","label":"c) Décorer le texte"}],"correct":"b"}]'>
                         <div class="qcm-container"><!-- Questions QCM via JS --></div>
-                        <div style="display:flex;gap:.5rem;margin-top:.5rem;">
+                        <div>
                             <button class="btn-outline" data-action="verify-exercise">Vérifier mes réponses</button>
                             <a href="#" class="btn-outline">Ouvrir</a>
                         </div>
@@ -365,7 +365,7 @@ $page_class = 'page-exercices-2nde';
 
                     <div class="qcm-exercise" data-questions='[{"question":"Quel organite contient l\'ADN ?","choices":[{"value":"a","label":"a) Mitochondrie"},{"value":"b","label":"b) Noyau"},{"value":"c","label":"c) Ribosome"}],"correct":"b"},{"question":"Quel organite produit l\'énergie cellulaire ?","choices":[{"value":"a","label":"a) Noyau"},{"value":"b","label":"b) Mitochondrie"},{"value":"c","label":"c) Ribosome"}],"correct":"b"}]'>
                         <div class="qcm-container"><!-- Questions QCM via JS --></div>
-                        <div style="display:flex;gap:.5rem;margin-top:.5rem;">
+                        <div>
                             <button class="btn-outline" data-action="verify-exercise">Vérifier mes réponses</button>
                             <a href="#" class="btn-outline">Ouvrir</a>
                         </div>
@@ -486,3 +486,4 @@ $page_class = 'page-exercices-2nde';
     </style>
 </div>
 </main>
+

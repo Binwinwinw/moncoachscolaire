@@ -171,7 +171,7 @@ if (empty($is_logged_in)) {
             </p>
             <div class="bg-white rounded-lg p-4 shadow-sm">
                 <div class="w-full bg-gray-200 rounded-full h-3 mb-2">
-                    <div class="bg-orange-600 h-3 rounded-full transition-all duration-300" id="globalProgress" style="width: 0%;"></div>
+                    <div class="bg-orange-600 h-3 rounded-full transition-all duration-300" id="globalProgress"></div>
                 </div>
                 <p class="text-sm text-gray-600">
                     <strong>Progression de la réparation : <span id="progressText">0%</span></strong>
@@ -194,7 +194,7 @@ if (empty($is_logged_in)) {
     </style>
 
     <!-- FRANÇAIS (Ancien système - masqué) -->
-    <section id="francais" style="display: none;">
+    <section id="francais">
         <h2>📚 Français - Ingénieur Grammatical</h2>
 
         <div class="coach-message">
@@ -599,3 +599,4 @@ if (empty($is_logged_in)) {
     </style>
     </div>
 </main>
+

@@ -49,7 +49,7 @@ foreach ($exercises as $ex) {
         $upd = $pdo->prepare("UPDATE exercises SET structure_type = 'multi-parties', sub_questions = :json WHERE Id = :id");
         $upd->execute([':json' => $json, ':id' => $ex['Id']]);
 
-        echo "<div style='border:1px solid green; margin:5px; padding:5px;'>";
+        echo "<div>";
         echo "✅ Exercice <strong>{$ex['Title']}</strong> (ID: {$ex['Id']}) converti avec " . count($questions) . " questions.<br>";
         echo "</div>";
         $count++;
@@ -59,3 +59,4 @@ foreach ($exercises as $ex) {
 echo "<h3>Terminé ! $count exercices corrigés.</h3>";
 echo "<a href='index.php?page=demo'>Retour à la démo</a>";
 ?>
+

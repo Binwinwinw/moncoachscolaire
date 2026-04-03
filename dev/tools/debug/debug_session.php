@@ -36,7 +36,7 @@ echo "</pre>";
 if (isset($_GET['set'])) {
     $_SESSION['test_time'] = time();
     $_SESSION['test_data'] = 'Login test at ' . date('H:i:s');
-    echo "<p style='color: green;'>✓ Session définie avec succès!</p>";
+    echo "<p>✓ Session définie avec succès!</p>";
 }
 
 echo "<h2>3. Contenu de la session</h2>";
@@ -80,3 +80,4 @@ if (isset($_SESSION['user_id'])) {
 
 echo "\n=== ALL SESSIONS VARS ===\n";
 print_r($_SESSION);
+

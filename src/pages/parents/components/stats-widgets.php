@@ -7,11 +7,11 @@
     </h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div class="rounded-2xl shadow p-6 flex flex-col items-center w-full max-w-md mx-auto mcs-card-bg">
-            <canvas id="chart-satisfaction" class="w-full max-w-[220px] h-[120px]" style="max-width:220px;max-height:120px;"></canvas>
+            <canvas id="chart-satisfaction" class="w-full max-w-[220px] h-[120px]"></canvas>
             <div class="mt-2 text-xs text-gray-700">95% de parents satisfaits</div>
         </div>
         <div class="rounded-2xl shadow p-6 flex flex-col items-center w-full max-w-md mx-auto mcs-card-bg">
-            <canvas id="chart-progression" class="w-full max-w-[220px] h-[120px]" style="max-width:220px;max-height:120px;"></canvas>
+            <canvas id="chart-progression" class="w-full max-w-[220px] h-[120px]"></canvas>
             <div class="mt-2 text-xs text-gray-700">Progression moyenne : 78%</div>
         </div>
     </div>
@@ -45,3 +45,4 @@
     });
     </script>
 </section>
+

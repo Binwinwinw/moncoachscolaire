@@ -188,7 +188,7 @@ if (empty($niveau_normalise)) :
     <?php endif; ?>
 
     <!-- Section Par matière -->
-    <section class="my-12" id="matiere-section" style="display:none">
+    <section class="my-12" id="matiere-section">
         <div class="text-center mb-6">
             <h2 class="text-2xl font-bold text-slate-800 mb-2">Choisis ta matière</h2>
             <p class="text-slate-600">Retrouve tes exercices par discipline pour cibler tes révisions.</p>
@@ -197,7 +197,7 @@ if (empty($niveau_normalise)) :
     </section>
 
     <!-- Bloc exercice aléatoire principal -->
-    <section class="my-12" id="random-exercise-section" style="display:none">
+    <section class="my-12" id="random-exercise-section">
         <div class="text-center mb-6">
             <h2 class="text-xl font-bold text-blue-700 mb-2">🎯 Ton exercice à faire</h2>
             <p class="text-slate-600">Un exercice aléatoire de ton niveau, ou choisis une matière ci-dessous.</p>
@@ -495,7 +495,7 @@ if ($niveau_js) {
                         quizIaResult.appendChild(saveBtn);
                     }
                 } else if (data && data.error) {
-                    quizIaResult.innerHTML = '<div style="color:red;padding:8px;background:#fff0f0;border-radius:4px"><b>Erreur :</b> ' + data.error + '</div>';
+                    quizIaResult.innerHTML = '<div><b>Erreur :</b> ' + data.error + '</div>';
                 } else {
                     quizIaResult.innerHTML = '<div class="text-red-600">Aucun quiz généré. Réessaie ou change les paramètres.</div>';
                 }
@@ -506,4 +506,5 @@ if ($niveau_js) {
     }
 })();
 </script>
+
 

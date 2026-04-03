@@ -5,7 +5,7 @@ require_once dirname(__DIR__, 3) . '/includes/header.php';
 require_once dirname(__DIR__, 3) . '/includes/topbar.php';
 $parent_bg_img = function_exists('asset_url') ? asset_url('assets/img/background_school_material.webp') : '/assets/img/background_school_material.webp';
 ?>
-<div class="min-h-screen bg-cover bg-center bg-no-repeat bg-fixed relative" style="background-color:transparent!important; background-image: url('<?= htmlspecialchars($parent_bg_img, ENT_QUOTES) ?>');">
+<div class="min-h-screen bg-cover bg-center bg-no-repeat bg-fixed relative">
     <main class="max-w-5xl mx-auto px-4 md:px-0 pb-16 font-sans">
         <?php include __DIR__ . '/../components/hero-onboarding.php'; ?>
         <?php include __DIR__ . '/../components/child-grid.php'; ?>
@@ -35,3 +35,4 @@ h1, h2, h3, h4 {
 // Inclusion du footer global
 require_once dirname(__DIR__, 3) . '/includes/footer.php';
 ?>
+

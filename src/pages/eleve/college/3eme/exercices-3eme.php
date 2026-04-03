@@ -118,7 +118,7 @@ if (empty($is_logged_in)) {
                         Progression Globale des Exercices
                     </h5>
                     <div class="w-full bg-gray-200 rounded-full h-3 mb-2">
-                        <div class="bg-blue-600 h-3 rounded-full transition-all duration-300" id="globalProgress" style="width: 0%;"></div>
+                        <div class="bg-blue-600 h-3 rounded-full transition-all duration-300" id="globalProgress"></div>
                     </div>
                     <p class="text-sm text-gray-600">
                         <strong>Exercices terminés : <span id="progressText">0%</span></strong>
@@ -142,7 +142,7 @@ if (empty($is_logged_in)) {
     </style>
 
     <!-- FRANÇAIS (Ancien système - masqué) -->
-    <section id="francais" style="display: none;">
+    <section id="francais">
         <h2>📖 Français - Épreuve d'Analyse Textuelle</h2>
 
         <div class="coach-message">
@@ -165,13 +165,13 @@ if (empty($is_logged_in)) {
                 <p><em>Connecte-toi pour voir tous les exercices disponibles !</em></p>
 
                 <!-- Message si DB non disponible -->
-                <div class="coach-message" style="background: #fef3c7; border-color: #f59e0b;">
+                <div class="coach-message">
                     <strong>⚠️ Base de données non disponible</strong><br>
                     Affichage du contenu statique. Les exercices de la base de données seront disponibles une fois la connexion rétablie.
                 </div>
 
                 <!-- Aucun exercice trouvé -->
-                <div class="coach-message" style="background: #fef3c7; border-color: #f59e0b;">
+                <div class="coach-message">
                     <strong>ℹ️ Aucun exercice trouvé dans la base de données</strong><br>
                     Veuillez importer les exercices avec : <code>php tools/import_exercices_to_db.php</code>
                 </div>
@@ -229,7 +229,7 @@ if (empty($is_logged_in)) {
                  ]'>
                 <div class="qcm-container"></div>
                 <button class="btn-check-qcm">✅ Vérifier mes réponses</button>
-                <div class="qcm-feedback" style="display:none;"></div>
+                <div class="qcm-feedback"></div>
             </div>
         </div>
 
@@ -258,7 +258,7 @@ if (empty($is_logged_in)) {
                  ]'>
                 <div class="conjugation-container"></div>
                 <button class="btn-check-conjugation">✅ Vérifier ma réécriture</button>
-                <div class="conjugation-feedback" style="display:none;"></div>
+                <div class="conjugation-feedback"></div>
             </div>
         </div>
 
@@ -304,7 +304,7 @@ if (empty($is_logged_in)) {
                  ]'>
                 <div class="math-container"></div>
                 <button class="btn-check-math">✅ Vérifier mes calculs</button>
-                <div class="math-feedback" style="display:none;"></div>
+                <div class="math-feedback"></div>
             </div>
         </div>
 
@@ -364,7 +364,7 @@ if (empty($is_logged_in)) {
                  ]'>
                 <div class="qcm-container"></div>
                 <button class="btn-check-qcm">✅ Vérifier mes réponses</button>
-                <div class="qcm-feedback" style="display:none;"></div>
+                <div class="qcm-feedback"></div>
             </div>
         </div>
     </section>
@@ -431,7 +431,7 @@ if (empty($is_logged_in)) {
                  ]'>
                 <div class="qcm-container"></div>
                 <button class="btn-check-qcm">✅ Vérifier mes réponses</button>
-                <div class="qcm-feedback" style="display:none;"></div>
+                <div class="qcm-feedback"></div>
             </div>
         </div>
 
@@ -486,7 +486,7 @@ if (empty($is_logged_in)) {
                  ]'>
                 <div class="qcm-container"></div>
                 <button class="btn-check-qcm">✅ Vérifier mes réponses</button>
-                <div class="qcm-feedback" style="display:none;"></div>
+                <div class="qcm-feedback"></div>
             </div>
         </div>
     </section>
@@ -554,7 +554,7 @@ if (empty($is_logged_in)) {
                  ]'>
                 <div class="qcm-container"></div>
                 <button class="btn-check-qcm">✅ Vérifier mes réponses</button>
-                <div class="qcm-feedback" style="display:none;"></div>
+                <div class="qcm-feedback"></div>
             </div>
         </div>
 
@@ -610,7 +610,7 @@ if (empty($is_logged_in)) {
                  ]'>
                 <div class="qcm-container"></div>
                 <button class="btn-check-qcm">✅ Analyser l'aménagement</button>
-                <div class="qcm-feedback" style="display:none;"></div>
+                <div class="qcm-feedback"></div>
             </div>
         </div>
     </section>
@@ -734,3 +734,4 @@ if (empty($is_logged_in)) {
     </style>
 </div>
 </main>
+

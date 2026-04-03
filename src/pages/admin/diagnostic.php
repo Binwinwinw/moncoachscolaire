@@ -146,7 +146,7 @@ if ($notion_id && $pdo) {
 
             <form id="diagnosticForm" data-notion-id="<?php echo $notion_id; ?>">
                 <?php foreach ($quiz_exercises as $index => $exercise): ?>
-                    <div class="question-slide" data-question="<?php echo $index + 1; ?>" style="display: <?php echo $index === 0 ? 'block' : 'none'; ?>">
+                    <div class="question-slide" data-question="<?php echo $index + 1; ?>">
                         <div class="question-content">
                             <h3>Question <?php echo $index + 1; ?></h3>
                             <div class="exercise-title"><?php echo htmlspecialchars($exercise['Title']); ?></div>
@@ -183,7 +183,7 @@ if ($notion_id && $pdo) {
                 <?php endforeach; ?>
             </form>
 
-            <div id="quizResults" style="display: none;">
+            <div id="quizResults">
                 <div class="results-header">
                     <h2>📊 Résultats de ton diagnostic</h2>
                 </div>
@@ -483,3 +483,4 @@ function displayResults(result) {
     margin-top: 2rem;
 }
 </style>
+

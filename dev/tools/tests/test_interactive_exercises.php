@@ -21,7 +21,7 @@ $exercise1 = [
 ];
 
 $result1 = generateInteractiveExercise($exercise1, 'Français');
-echo "<div style='border: 1px solid #ccc; padding: 10px; margin: 10px;'>\n";
+echo "<div>\n";
 echo $result1;
 echo "</div>\n";
 echo "<p>✅ Contient 'qcm-exercise': " . (strpos($result1, 'qcm-exercise') !== false ? 'OUI' : 'NON') . "</p>\n";
@@ -38,7 +38,7 @@ $exercise2 = [
 ];
 
 $result2 = generateInteractiveExercise($exercise2, 'Mathématiques');
-echo "<div style='border: 1px solid #ccc; padding: 10px; margin: 10px;'>\n";
+echo "<div>\n";
 echo $result2;
 echo "</div>\n";
 echo "<p>✅ Contient 'math-exercise': " . (strpos($result2, 'math-exercise') !== false ? 'OUI' : 'NON') . "</p>\n";
@@ -54,7 +54,7 @@ $exercise3 = [
 ];
 
 $result3 = generateInteractiveExercise($exercise3, 'Français');
-echo "<div style='border: 1px solid #ccc; padding: 10px; margin: 10px;'>\n";
+echo "<div>\n";
 echo $result3;
 echo "</div>\n";
 echo "<p>✅ Contient 'conjugation-exercise': " . (strpos($result3, 'conjugation-exercise') !== false ? 'OUI' : 'NON') . "</p>\n";
@@ -70,7 +70,7 @@ $exercise4 = [
 ];
 
 $result4 = generateInteractiveExercise($exercise4, 'Histoire');
-echo "<div style='border: 1px solid #ccc; padding: 10px; margin: 10px;'>\n";
+echo "<div>\n";
 echo $result4;
 echo "</div>\n";
 echo "<p>✅ Contient 'qcm-exercise': " . (strpos($result4, 'qcm-exercise') !== false ? 'OUI' : 'NON') . "</p>\n";
@@ -93,4 +93,5 @@ if (preg_match("/data-questions='(.*?)'/", $result1, $matches)) {
 
 echo "<h2>Résumé</h2>\n";
 echo "<p>Si tous les tests montrent ✅, les exercices sont bien générés en format interactif.</p>\n";
+
 

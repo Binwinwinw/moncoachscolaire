@@ -75,7 +75,7 @@ $subjects = ['Mathématiques', 'Français', 'Sciences', 'Histoire-Géo', 'Anglai
         ?> !</strong><br>
             Bienvenue dans tes cours de 5ème ! Continue de progresser avec des cours adaptés qui te permettront d'aller plus loin dans chaque matière.
             <?php if ($is_demo && !$is_admin): ?>
-            <br><small style="color: #666; font-style: italic;">💡 Mode démo : tu as accès à <strong>un seul cours 5ème</strong>. Crée un compte pour accéder à tous les cours !</small>
+            <br><small>💡 Mode démo : tu as accès à <strong>un seul cours 5ème</strong>. Crée un compte pour accéder à tous les cours !</small>
             <?php endif; ?>
         </div>
 
@@ -115,7 +115,7 @@ foreach ($subjectsToDisplay as $subject):
     $icons = ['Mathématiques' => '🧮', 'Français' => '📚', 'Sciences' => '🔬', 'Histoire-Géo' => '🏛️', 'Anglais' => '🇬🇧'];
     $icon = $icons[$subject] ?? '📖';
     ?>
-            <section id="<?php echo htmlspecialchars($subjectId); ?>" class="cours-section cours-5eme-section" style="display: none;">
+            <section id="<?php echo htmlspecialchars($subjectId); ?>" class="cours-section cours-5eme-section">
                 <div class="cours-section-header">
                     <button class="btn-back-subject" onclick="toggleSubject('<?php echo htmlspecialchars($subjectId); ?>')">← Retour aux matières</button>
                     <h2><?php echo $icon; ?> <?php echo htmlspecialchars($subject); ?> - 5ème</h2>
@@ -257,3 +257,4 @@ document.addEventListener('DOMContentLoaded', () => {
     if (window.location.hash) toggleSubject(window.location.hash.substring(1));
 });
 </script>
+

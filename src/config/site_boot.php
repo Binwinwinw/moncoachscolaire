@@ -483,28 +483,28 @@ if (!function_exists('render_level_navigation')) {
         // HTML de navigation
         ob_start();
         ?>
-        <div class="exercise-navigation" style="margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 2px solid #e5e7eb; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
-            <div class="nav-group" style="display: flex; gap: 1rem; align-items: center;">
+        <div class="exercise-navigation">
+            <div class="nav-group">
                 <?php if ($prev_url): ?>
-                    <a href="<?php echo htmlspecialchars($prev_url); ?>" class="nav-btn nav-prev" style="background: #6366f1; color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s ease; display: inline-block;">◀️ <?php echo htmlspecialchars($config['prev']); ?></a>
-                    <span style="color: #9ca3af; padding: 0.75rem 0;"><?php echo htmlspecialchars($config['accueil_label']); ?></span>
+                    <a href="<?php echo htmlspecialchars($prev_url); ?>" class="nav-btn nav-prev">◀️ <?php echo htmlspecialchars($config['prev']); ?></a>
+                    <span><?php echo htmlspecialchars($config['accueil_label']); ?></span>
                 <?php else: ?>
-                    <span style="color: #9ca3af; padding: 0.75rem 0;">Premier niveau</span>
+                    <span>Premier niveau</span>
                 <?php endif; ?>
             </div>
             <div class="nav-group">
-                <a href="<?php echo htmlspecialchars($accueil_url); ?>" class="nav-btn" style="background: #64748b; color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s ease; display: inline-block;">🏠 Accueil <?php echo htmlspecialchars($config['accueil_label']); ?></a>
+                <a href="<?php echo htmlspecialchars($accueil_url); ?>" class="nav-btn">🏠 Accueil <?php echo htmlspecialchars($config['accueil_label']); ?></a>
             </div>
-            <div class="nav-group" style="display: flex; gap: 1rem; align-items: center;">
+            <div class="nav-group">
                 <?php if ($next_url): ?>
                     <?php if ($config['next'] === 'BAC'): ?>
-                        <span style="color: #9ca3af; padding: 0.75rem 0;">Vers le BAC :</span>
+                        <span>Vers le BAC :</span>
                     <?php else: ?>
-                        <span style="color: #9ca3af; padding: 0.75rem 0;">Niveau suivant :</span>
+                        <span>Niveau suivant :</span>
                     <?php endif; ?>
-                    <a href="<?php echo htmlspecialchars($next_url); ?>" class="nav-btn nav-next" style="background: #6366f1; color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s ease; display: inline-block;">▶️ <?php echo htmlspecialchars($config['next']); ?></a>
+                    <a href="<?php echo htmlspecialchars($next_url); ?>" class="nav-btn nav-next">▶️ <?php echo htmlspecialchars($config['next']); ?></a>
                 <?php else: ?>
-                    <span style="color: #9ca3af; padding: 0.75rem 0;">Niveau terminal</span>
+                    <span>Niveau terminal</span>
                 <?php endif; ?>
             </div>
         </div>
@@ -512,4 +512,5 @@ if (!function_exists('render_level_navigation')) {
         return ob_get_clean();
     }
 }
+
 

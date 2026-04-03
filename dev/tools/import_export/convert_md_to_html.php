@@ -457,7 +457,7 @@ function generateGroupHTML($level, $subject, $exercises, $outputDir) {
 <body>
     <div class="container">
         <h1>📚 Exercices $level - $subject</h1>
-        <p style="color: #7f8c8d; margin-bottom: 30px;">Généré automatiquement le " . date('d/m/Y H:i:s') . "</p>
+        <p>Généré automatiquement le " . date('d/m/Y H:i:s') . "</p>
 
 HTML;
 
@@ -669,3 +669,4 @@ echo "Statistiques:\n";
 echo "  • Fichiers markdown traités: {$stats['md_files_found']}\n";
 echo "  • Exercices extraits: {$stats['exercises_extracted']}\n";
 echo "  • Fichiers HTML créés: {$stats['html_files_created']}\n";
+

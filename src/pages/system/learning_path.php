@@ -47,7 +47,7 @@ $isCompleted = !empty($progress['CompletedAt']);
 
         <!-- Barre de progression -->
         <div class="progress-bar-container">
-            <div class="progress-bar" style="width: <?= $progressPercentage ?>%"></div>
+            <div class="progress-bar"></div>
             <span class="progress-text"><?= $progressPercentage ?>% complété</span>
         </div>
 
@@ -134,3 +134,4 @@ function getStepUrl($step)
     }
 }
 ?>
+

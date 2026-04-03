@@ -129,10 +129,10 @@ function generateQualityQCM($exercise, $content, $answer, $title, $id)
     return <<<HTML
     <div class="qcm-exercise" data-questions='{$questionsJson}'>
         <div class="qcm-container"></div>
-        <button class="btn-check-qcm" style="margin-top: 1rem; padding: 0.75rem 1.5rem; background: #3b82f6; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: 600;">
+        <button class="btn-check-qcm">
             ✅ Vérifier mes réponses
         </button>
-        <div class="qcm-feedback" style="margin-top: 1rem; display: none;"></div>
+        <div class="qcm-feedback"></div>
     </div>
 HTML;
 }
@@ -508,10 +508,10 @@ function generateQualityMath($exercise, $content, $answer, $id)
     return <<<HTML
     <div class="math-exercise" data-questions='{$questionsJson}'>
         <div class="math-container"></div>
-        <button class="btn-check-math" style="margin-top: 1rem; padding: 0.75rem 1.5rem; background: #3b82f6; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: 600;">
+        <button class="btn-check-math">
             ✅ Vérifier mes réponses
         </button>
-        <div class="math-feedback" style="margin-top: 1rem; display: none;"></div>
+        <div class="math-feedback"></div>
     </div>
 HTML;
 }
@@ -836,10 +836,10 @@ function generateQualityFillBlank($exercise, $content, $answer, $id)
         return <<<HTML
         <div class="conjugation-exercise" data-questions='{$questionsJson}' data-exercise-id="{$id}">
             <div class="conjugation-container"></div>
-            <button class="btn-check-conjugation" style="margin-top: 1rem; padding: 0.75rem 1.5rem; background: #3b82f6; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: 600;">
+            <button class="btn-check-conjugation">
                 ✅ Vérifier mes réponses
             </button>
-            <div class="conjugation-feedback" style="margin-top: 1rem; display: none;"></div>
+            <div class="conjugation-feedback"></div>
         </div>
 HTML;
     }
@@ -910,10 +910,10 @@ function generateQualityOrdering($exercise, $content, $answer, $id)
     return <<<HTML
     <div class="chronology-exercise" data-events='{$itemsJson}'>
         <div class="chronology-container"></div>
-        <button class="btn-check-chronology" style="margin-top: 1rem; padding: 0.75rem 1.5rem; background: #3b82f6; color: white; border: none; border-radius: 6px; cursor: pointer; font-weight: 600;">
+        <button class="btn-check-chronology">
             ✅ Vérifier l'ordre
         </button>
-        <div class="chronology-feedback" style="margin-top: 1rem; display: none;"></div>
+        <div class="chronology-feedback"></div>
     </div>
 HTML;
 }
@@ -946,3 +946,4 @@ function generateQualityMatching($exercise, $content, $answer, $id)
     // Pour l'instant, retourner null (à implémenter plus tard)
     return null;
 }
+

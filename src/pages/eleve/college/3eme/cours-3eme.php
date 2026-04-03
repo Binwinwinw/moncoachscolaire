@@ -58,7 +58,7 @@ $subjects = ['Mathématiques', 'Français', 'Sciences', 'Histoire-Géo', 'Anglai
             <strong>👋 Salut <?php echo htmlspecialchars($user_name ?? $_SESSION['user_name'] ?? 'Élève'); ?> !</strong><br>
             C'est l'année du brevet ! Nos cours de 3ème te permettront de maîtriser toutes les notions du programme et de te préparer sereinement à l'examen.
             <?php if ($is_demo && !$is_admin): ?>
-            <br><small style="color: #666; font-style: italic;">💡 Mode démo : tu as accès à <strong>un seul cours 3ème</strong>. Crée un compte pour accéder à tous les cours et réussir ton brevet !</small>
+            <br><small>💡 Mode démo : tu as accès à <strong>un seul cours 3ème</strong>. Crée un compte pour accéder à tous les cours et réussir ton brevet !</small>
             <?php endif; ?>
         </div>
 
@@ -98,7 +98,7 @@ foreach ($subjectsToDisplay as $subject):
     $icons = ['Mathématiques' => '🧮', 'Français' => '📚', 'Sciences' => '🔬', 'Histoire-Géo' => '🏛️', 'Anglais' => '🇬🇧'];
     $icon = $icons[$subject] ?? '📖';
     ?>
-            <section id="<?php echo htmlspecialchars($subjectId); ?>" class="cours-section cours-3eme-section" style="display: none;">
+            <section id="<?php echo htmlspecialchars($subjectId); ?>" class="cours-section cours-3eme-section">
                 <div class="cours-section-header">
                     <button class="btn-back-subject" onclick="toggleSubject('<?php echo htmlspecialchars($subjectId); ?>')">← Retour aux matières</button>
                     <h2><?php echo $icon; ?> <?php echo htmlspecialchars($subject); ?> - 3ème / Brevet</h2>
@@ -219,3 +219,4 @@ function toggleSubject(subjectId) {
 }
 document.addEventListener('DOMContentLoaded', () => { if (window.location.hash) toggleSubject(window.location.hash.substring(1)); });
 </script>
+

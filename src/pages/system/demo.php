@@ -431,7 +431,7 @@ if (isset($_SESSION['demo_action_count'])) {
                             <span class="subject-stats"><?php echo $data['completed']; ?>/<?php echo $data['total']; ?></span>
                         </div>
                         <div class="progress-bar">
-                            <div class="progress-fill" style="width: <?php echo ($data['completed'] / $data['total']) * 100; ?>%"></div>
+                            <div class="progress-fill"></div>
                         </div>
                     </div>
                 <?php endforeach; ?>
@@ -592,7 +592,7 @@ if (isset($_SESSION['demo_action_count'])) {
             </div>
         <?php endif; ?>
 
-        <div class="demo-limit-message" id="exercise-limit" style="display: none;">
+        <div class="demo-limit-message" id="exercise-limit">
             <p>⚠️ <strong>Limite atteinte</strong></p>
             <p>Vous avez testé 5 exercices en mode démo. Créez un compte pour continuer !</p>
             <a href="<?php echo site_url('register'); ?>" class="demo-cta-link">✨ Créer mon compte gratuit</a>
@@ -647,11 +647,11 @@ if (isset($_SESSION['demo_action_count'])) {
 
                 <div class="course-actions">
                     <?php if (!empty($sampleCourse['exercise_id'])): ?>
-                        <span class="btn-cours disabled-btn" style="opacity: 0.6; cursor: not-allowed; background: #e5e7eb; color: #6b7280;" title="Créez un compte pour accéder aux cours complets">📖 Voir le cours complet</span>
-                        <p style="font-size: 0.85em; color: #666; margin-top: 10px;">✨ Créez un compte pour accéder aux <strong>cours complets</strong> !</p>
+                        <span class="btn-cours disabled-btn" title="Créez un compte pour accéder aux cours complets">📖 Voir le cours complet</span>
+                        <p>✨ Créez un compte pour accéder aux <strong>cours complets</strong> !</p>
                     <?php else: ?>
-                        <span class="btn-cours disabled-btn" style="opacity: 0.6; cursor: not-allowed; background: #e5e7eb; color: #6b7280;" title="Créez un compte pour accéder à tous les cours">📖 Voir tous les cours</span>
-                        <p style="font-size: 0.85em; color: #666; margin-top: 10px;">✨ Créez un compte pour accéder à <strong>tous</strong> les cours de ce niveau !</p>
+                        <span class="btn-cours disabled-btn" title="Créez un compte pour accéder à tous les cours">📖 Voir tous les cours</span>
+                        <p>✨ Créez un compte pour accéder à <strong>tous</strong> les cours de ce niveau !</p>
                     <?php endif; ?>
                 </div>
             </div>
@@ -1269,7 +1269,7 @@ function updateExercisesSection(exercises, level) {
                             <p>${escapeHtml((exercise.Content || '').substring(0, 200))}${(exercise.Content || '').length > 200 ? '...' : ''}</p>
                         </div>
                     </div>
-                    <div class="demo-answer-lock" id="demo-answer-lock-${exerciseIndex}" style="display: none;">
+                    <div class="demo-answer-lock" id="demo-answer-lock-${exerciseIndex}">
                         <div class="lock-content">
                             <span class="lock-icon">🔒</span>
                             <h4>Inscrivez-vous pour voir vos résultats !</h4>
@@ -1415,7 +1415,7 @@ function updateCourseSection(course, level) {
         : `${getBaseUrl()}/index.php?page=cours&niveau=${encodeURIComponent(normalizeLevelForUrl(level))}`;
 
     // Pour "Voir tous les cours", afficher un bouton désactivé au lieu d'un lien
-    const courseActionButton = `<span class="btn-cours disabled-btn" style="opacity: 0.6; cursor: not-allowed; background: #e5e7eb; color: #6b7280;" title="Créez un compte pour accéder aux cours complets">📖 Voir le cours complet</span><p style="font-size: 0.85em; color: #666; margin-top: 10px;">✨ Créez un compte pour accéder aux <strong>cours complets</strong> !</p>`;
+    const courseActionButton = `<span class="btn-cours disabled-btn" title="Créez un compte pour accéder aux cours complets">📖 Voir le cours complet</span><p>✨ Créez un compte pour accéder aux <strong>cours complets</strong> !</p>`;
     // Sauvegarder le titre et la description avant de remplacer
     const title = section.querySelector('h2')?.textContent || '📚 Cours Complet';
     const description = section.querySelector('.section-description')?.textContent || 'Découvrez un cours complet avec navigation et explications détaillées';
@@ -1523,7 +1523,7 @@ function updateQuizSection(quiz, level) {
                     </label>
                 `;
             }).join('')
-            : '<p style="color: #9ca3af; font-style: italic; padding: 1rem;">Aucun choix disponible pour cette question</p>';
+            : '<p>Aucun choix disponible pour cette question</p>';
 
         return `
             <div class="quiz-question-preview demo-quiz-question" data-question-index="${index}">
@@ -1533,7 +1533,7 @@ function updateQuizSection(quiz, level) {
                     ${escapeHtml(question.question || '')}
                 </p>
                 <div class="question-choices">
-                    ${choicesHTML || '<p style="color: #9ca3af; font-style: italic;">Aucun choix disponible</p>'}
+                    ${choicesHTML || '<p>Aucun choix disponible</p>'}
                 </div>
             </div>
         `;
@@ -1673,4 +1673,5 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('✅ Event listeners attachés avec succès');
 });
 </script>
+
 

@@ -144,7 +144,7 @@ foreach ($exercises as $ex) {
             $count++;
             $repaired_ids[] = $ex['Id'];
         } catch (Exception $e) {
-            echo "<div style='color:red'>Erreur update ID {$ex['Id']}: " . $e->getMessage() . "</div>";
+            echo "<div>Erreur update ID {$ex['Id']}: " . $e->getMessage() . "</div>";
         }
     }
 }
@@ -155,8 +155,9 @@ if ($count === 0) {
     echo "<h3 class='text-2xl font-bold text-green-600 mt-8 mb-4'>🎉 Terminé ! $count exercices supplémentaires sauvés !</h3>";
 }
 
-echo "<div style='margin-top:30px;'>";
+echo "<div>";
 echo "<div class='mt-10 text-center'>";
 echo "<a href='index.php?page=demo' class='inline-block px-6 py-3 bg-blue-600 text-white rounded-lg font-bold shadow hover:bg-blue-700 transition'>Retour à la démo</a>";
 echo "</div>";
 echo "</div>"; // fin container
+

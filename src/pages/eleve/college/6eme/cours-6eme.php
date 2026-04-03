@@ -80,7 +80,7 @@ if (function_exists('render_level_navigation')) {
             Bienvenue dans tes cours de 6ème ! Ici, tu trouveras des cours clairs et illustrés
             pour bien comprendre les notions de base dans toutes les matières.
             <?php if ($is_demo && !$is_admin): ?>
-            <br><small style="color: #666; font-style: italic;">💡 Mode démo : tu as accès à <strong>un seul cours 6ème</strong>. Crée un compte pour accéder à tous les cours !</small>
+            <br><small>💡 Mode démo : tu as accès à <strong>un seul cours 6ème</strong>. Crée un compte pour accéder à tous les cours !</small>
             <?php endif; ?>
         </div>
 
@@ -142,7 +142,7 @@ foreach ($subjectsToDisplay as $subject):
     ];
     $icon = $icons[$subject] ?? '📖';
     ?>
-            <section id="<?php echo htmlspecialchars($subjectId); ?>" class="cours-section cours-6eme-section" style="display: none;">
+            <section id="<?php echo htmlspecialchars($subjectId); ?>" class="cours-section cours-6eme-section">
                 <div class="cours-section-header">
                     <button class="btn-back-subject" onclick="toggleSubject('<?php echo htmlspecialchars($subjectId); ?>')">← Retour aux matières</button>
                     <h2>
@@ -322,3 +322,4 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 </script>
+

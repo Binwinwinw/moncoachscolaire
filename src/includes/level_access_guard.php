@@ -73,16 +73,16 @@ function render_level_access_guard($required_level, $section = 'exercices', $rel
     $user_level_display = function_exists('get_level_display_name') ? get_level_display_name($user_level) : $user_level;
     $required_level_display = function_exists('get_level_display_name') ? get_level_display_name($required_level) : $required_level;
 
-    echo '<div style="background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%); border-left: 4px solid #ef4444; padding: 2rem; margin: 2rem auto; border-radius: 8px; max-width: 600px; text-align: center;">';
-    echo '<h2 style="color: #dc2626; margin-top: 0;">❌ Les matières ne sont pas disponibles pour ce niveau</h2>';
-    echo '<p style="color: #7f1d1d; font-size: 1.1rem; margin: 1rem 0;">';
+    echo '<div>';
+    echo '<h2>❌ Les matières ne sont pas disponibles pour ce niveau</h2>';
+    echo '<p>';
     echo 'Tu es connecté en tant qu\'élève de <strong>' . htmlspecialchars($user_level_display ?: 'N/A') . '</strong>.<br>';
     echo 'Cette section est réservée au niveau <strong>' . htmlspecialchars($required_level_display) . '</strong>.';
     echo '</p>';
 
     // Proposer les liens de retour
-    echo '<div style="margin-top: 1.5rem; display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">';
-    echo '<a class="btn btn-outline" href="' . (function_exists('site_url') ? site_url('eleve/dashboard') : '#') . '" style="background: #f3f4f6; border: 2px solid #6b7280; color: #374151; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600;">📊 Revenir au dashboard</a>';
+    echo '<div>';
+    echo '<a class="btn btn-outline" href="' . (function_exists('site_url') ? site_url('eleve/dashboard') : '#') . '">📊 Revenir au dashboard</a>';
 
     // Proposer un lien vers les exercices du bon niveau si c'est un collégien ou lycéen
     if (!empty($user_level)) {
@@ -99,7 +99,7 @@ function render_level_access_guard($required_level, $section = 'exercices', $rel
 
             if ($target_url !== '#') {
                 $user_level_display_btn = function_exists('get_level_display_name') ? get_level_display_name($user_level) : $user_level;
-                echo '<a class="btn btn-secondary" href="' . $target_url . '" style="background: #3b82f6; color: white; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600;">🧩 Mes ' . htmlspecialchars($section) . ' (' . htmlspecialchars($user_level_display_btn) . ')</a>';
+                echo '<a class="btn btn-secondary" href="' . $target_url . '">🧩 Mes ' . htmlspecialchars($section) . ' (' . htmlspecialchars($user_level_display_btn) . ')</a>';
             }
         }
     }
@@ -147,3 +147,4 @@ function check_level_access($required_level)
 
     return $user_level === $required_level;
 }
+

@@ -156,7 +156,7 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
                         Progression Globale des Exercices
                     </h5>
                     <div class="w-full bg-gray-200 rounded-full h-3 mb-2">
-                        <div class="bg-blue-600 h-3 rounded-full transition-all duration-300" id="globalProgress" style="width: 0%;"></div>
+                        <div class="bg-blue-600 h-3 rounded-full transition-all duration-300" id="globalProgress"></div>
                     </div>
                     <p class="text-sm text-gray-600">
                         <strong>Exercices terminés : <span id="progressText">0%</span></strong>
@@ -174,7 +174,7 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
                         <span class="text-sm text-gray-600">/ 15 cristaux</span>
                     </div>
                     <div class="w-full bg-gray-200 rounded-full h-3 mb-2">
-                        <div class="bg-purple-600 h-3 rounded-full transition-all duration-300" id="crystal-progress" style="width: 0%;"></div>
+                        <div class="bg-purple-600 h-3 rounded-full transition-all duration-300" id="crystal-progress"></div>
                     </div>
                     <p class="text-xs text-gray-500 italic">
                         Objectif : 15 cristaux pour un indice du Sceptre Unificateur !
@@ -182,7 +182,7 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
                 </div>
             </div>
 
-            <div class="bg-gradient-to-r from-yellow-100 to-orange-100 rounded-lg p-4 mt-4 border border-yellow-300" id="scepter-hint" style="display: none;">
+            <div class="bg-gradient-to-r from-yellow-100 to-orange-100 rounded-lg p-4 mt-4 border border-yellow-300" id="scepter-hint">
                 <div class="text-center">
                     <h4 class="text-lg font-bold text-yellow-800 mb-2">🎭 Indice du Sceptre Débloqué !</h4>
                     <p class="text-yellow-700 italic mb-2">
@@ -211,7 +211,7 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
     </style>
 
     <!-- FRANÇAIS (Ancien système - masqué) -->
-    <section id="francais" style="display: none;">
+    <section id="francais">
         <h2>📚 Français - Maître des Mots</h2>
 
         <div class="coach-message">
@@ -233,13 +233,13 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
                 <p><em>Connecte-toi pour voir tous les exercices disponibles !</em></p>
 
                 <!-- Message si DB non disponible -->
-                <div class="coach-message" style="background: #fef3c7; border-color: #f59e0b;">
+                <div class="coach-message">
                     <strong>⚠️ Base de données non disponible</strong><br>
                     Affichage du contenu statique. Les exercices de la base de données seront disponibles une fois la connexion rétablie.
                 </div>
 
                 <!-- Aucun exercice trouvé -->
-                <div class="coach-message" style="background: #fef3c7; border-color: #f59e0b;">
+                <div class="coach-message">
                     <strong>ℹ️ Aucun exercice trouvé dans la base de données</strong><br>
                     Veuillez importer les exercices avec : <code>php tools/import_exercices_to_db.php</code>
                 </div>
@@ -302,7 +302,7 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
                     <!-- Les champs seront générés dynamiquement par JavaScript -->
                 </div>
                 <button class="btn-coach btn-check-conjugation">Vérifier mes réponses</button>
-                <div class="conjugation-feedback" style="display: none; margin-top: 1rem;"></div>
+                <div class="conjugation-feedback"></div>
             </div>
         </div>
 
@@ -356,13 +356,13 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
                 <p><em>Connecte-toi pour voir tous les exercices disponibles !</em></p>
 
                 <!-- Message si DB non disponible -->
-                <div class="coach-message" style="background: #fef3c7; border-color: #f59e0b;">
+                <div class="coach-message">
                     <strong>⚠️ Base de données non disponible</strong><br>
                     Affichage du contenu statique.
                 </div>
 
                 <!-- Aucun exercice trouvé -->
-                <div class="coach-message" style="background: #fef3c7; border-color: #f59e0b;">
+                <div class="coach-message">
                     <strong>ℹ️ Aucun exercice trouvé dans la base de données</strong><br>
                     Veuillez importer les exercices avec : <code>php tools/import_exercices_to_db.php</code>
                 </div>
@@ -790,3 +790,4 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
             [data-colibri-global] { display: none !important; }
 </main>
     <?php include __DIR__ . '/../../../../includes/footer.php'; ?>
+

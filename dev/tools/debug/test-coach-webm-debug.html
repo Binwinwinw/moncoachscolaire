@@ -282,18 +282,18 @@
                         <button class="btn-success" onclick="testScenario('champion')">🏆 Champion</button>
                         <button class="btn-warning" onclick="testScenario('encouragement')">💪 Encouragement</button>
                     </div>
-                    <button class="btn-primary" style="width: 100%;" onclick="hideCoach()">Masquer Coach</button>
+                    <button class="btn-primary" onclick="hideCoach()">Masquer Coach</button>
                 </div>
                 
                 <div class="section">
                     <h2>⚙️ Actions</h2>
-                    <button class="btn-primary" style="width: 100%; margin-bottom: 10px;" onclick="loadCoachScript()">
+                    <button class="btn-primary" onclick="loadCoachScript()">
                         ↻ Recharger Script Coach
                     </button>
-                    <button class="btn-primary" style="width: 100%; margin-bottom: 10px;" onclick="checkVideoAccess()">
+                    <button class="btn-primary" onclick="checkVideoAccess()">
                         🎥 Vérifier Accès Vidéos
                     </button>
-                    <button class="btn-primary" style="width: 100%;" onclick="clearConsole()">
+                    <button class="btn-primary" onclick="clearConsole()">
                         🗑️ Effacer Console
                     </button>
                 </div>
@@ -303,7 +303,7 @@
             <div>
                 <div class="section">
                     <h2>🎬 Prévisualisation</h2>
-                    <div id="coach-preview-container" style="background: #000; border-radius: 8px; min-height: 250px; display: flex; align-items: center; justify-content: center; color: #fff;">
+                    <div id="coach-preview-container">
                         <p>Aucune vidéo en cours de lecture</p>
                     </div>
                 </div>
@@ -542,3 +542,4 @@
     </script>
 </body>
 </html>
+

@@ -47,7 +47,7 @@ function renderProgressBar($userId, $options = [])
                 <span class="font-bold text-green-600"><?php echo $xp; ?> XP</span>
             </div>
             <div class="w-full h-2 bg-gray-200 rounded-full overflow-hidden">
-                <div class="h-full bg-gradient-to-r from-blue-500 to-purple-500 transition-all duration-500" style="width: <?php echo min($xpProgress, 100); ?>%"></div>
+                <div class="h-full bg-gradient-to-r from-blue-500 to-purple-500 transition-all duration-500"></div>
             </div>
             <div class="text-sm text-gray-500 mt-1">Prochain niveau : <?php echo $nextLevelXP; ?> XP</div>
         </div>
@@ -193,4 +193,5 @@ function getNextLevelXP($currentLevel)
 }
 
 ?>
+
 

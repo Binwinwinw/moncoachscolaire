@@ -129,10 +129,11 @@ if (!defined('REDIRECT_HELPERS_LOADED')) {
                 safe_redirect($redirect_on_fail);
             }
             if (function_exists('should_show_db_notice') && should_show_db_notice()) {
-                die('<div style="max-width:600px;margin:50px auto;padding:20px;background:#fee;border-left:4px solid #f00;border-radius:8px;"><h2 style="color:#c00;">⚠️ Base de données indisponible</h2><p>Le service est temporairement indisponible. Veuillez réessayer dans quelques instants.</p></div>');
+                die('<div><h2>⚠️ Base de données indisponible</h2><p>Le service est temporairement indisponible. Veuillez réessayer dans quelques instants.</p></div>');
             } else {
                 safe_redirect(site_url('landingpage'));
             }
         }
     }
 }
+

@@ -424,7 +424,7 @@ $filesToTest = [
                                 <div class="file-path-label">Chemin dans le code:</div>
                                 <div class="file-path-value"><?php echo $file; ?></div>
                                 
-                                <div class="file-path-label" style="margin-top: 10px;">URL générée:</div>
+                                <div class="file-path-label">URL générée:</div>
                                 <div class="file-path-value"><?php echo $localURL; ?></div>
                             </div>
                             
@@ -460,7 +460,7 @@ $filesToTest = [
             <p>
                 Modifier la fonction <code>asset_url()</code> dans <code>src/config/config.php</code> pour:
             </p>
-            <ol style="margin-left: 20px; margin-bottom: 15px;">
+            <ol>
                 <li>Vérifier d'abord si le fichier existe à <code>/public/assets/</code></li>
                 <li>Si non trouvé, chercher à <code>/assets/</code> (racine)</li>
                 <li>Cela rend l'app vraiment hybride ✅</li>
@@ -477,3 +477,4 @@ if (is_file($projectRoot . '/public/' . $path)) {
     </div>
 </body>
 </html>
+

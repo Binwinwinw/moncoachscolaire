@@ -214,7 +214,7 @@ function formatExerciseHTML($exercise, $subject, $exerciseId) {
                 {$content}
             </div>
             <button class="btn-coach" onclick="showCorrection('{$uniqueId}')">Voir la correction</button>
-            <div class="success-message" style="display:none;" id="correction-{$uniqueId}">
+            <div class="success-message" id="correction-{$uniqueId}">
                 {$correctionClean}
             </div>
         </div>
@@ -392,4 +392,5 @@ foreach ($grouped as $key => $exercises) {
 }
 
 echo "✅ Terminé !\n";
+
 

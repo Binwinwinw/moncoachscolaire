@@ -13,7 +13,7 @@ if ($directAccess) {
     header('Content-Type: text/plain; charset=utf-8');
 } else {
     $page_title = 'Vérification Composer';
-    echo '<main class="main-content"><section><pre style="background: #f5f5f5; padding: 20px; border-radius: 8px; overflow-x: auto; font-family: monospace; white-space: pre-wrap;">';
+    echo '<main class="main-content"><section><pre>';
 }
 
 echo "🔍 Vérification de Composer\n";
@@ -114,3 +114,4 @@ if (!$directAccess) {
     echo '</pre></section></main>';
 }
 ?>
+

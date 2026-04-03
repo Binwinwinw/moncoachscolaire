@@ -79,10 +79,10 @@ function renderChoices($choices, $name) {
             <form onsubmit="return false;"><?= renderChoices($exo['Choices'], 'qcm_' . $idx) ?></form>
             <button class="btn" onclick="validateExo(<?= $idx ?>, 'qcm', <?= json_encode($exo['Answer']) ?>)">Valider</button>
         <?php elseif ($exo['AnswerType'] === 'texte'): ?>
-            <textarea id="txt_<?= $idx ?>" rows="3" style="width:100%" placeholder="Écris ta réponse ici..."></textarea>
+            <textarea id="txt_<?= $idx ?>" rows="3" placeholder="Écris ta réponse ici..."></textarea>
             <button class="btn" onclick="validateExo(<?= $idx ?>, 'texte', <?= json_encode($exo['Answer']) ?>)">Valider</button>
         <?php elseif ($exo['AnswerType'] === 'calcul'): ?>
-            <input id="calc_<?= $idx ?>" type="text" style="width:200px" placeholder="Réponse (ex: 10 cm)">
+            <input id="calc_<?= $idx ?>" type="text" placeholder="Réponse (ex: 10 cm)">
             <button class="btn" onclick="validateExo(<?= $idx ?>, 'calcul', <?= json_encode($exo['Answer']) ?>)">Valider</button>
         <?php endif; ?>
         <div id="score_<?= $idx ?>"></div>
@@ -95,3 +95,4 @@ function renderChoices($choices, $name) {
 <?php endforeach; ?>
 </body>
 </html>
+

@@ -161,7 +161,7 @@ header('Content-Type: text/html; charset=utf-8');
             </div>
         <?php endforeach; ?>
         
-        <div style="margin-top: 30px; padding: 15px; background: #fef3c7; border-radius: 8px;">
+        <div>
             <h3>💡 Instructions</h3>
             <ul>
                 <li>Vérifiez que tous les fichiers existent et sont lisibles</li>
@@ -173,3 +173,4 @@ header('Content-Type: text/html; charset=utf-8');
     </div>
 </body>
 </html>
+

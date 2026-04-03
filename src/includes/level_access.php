@@ -169,8 +169,8 @@ function enforce_level_access_or_abort($requiredLevel)
         // Return 403
         http_response_code(403);
         // Simple HTML message
-        echo '<div style="max-width:800px;margin:40px auto;padding:20px;background:#fff;border-radius:8px;border:1px solid #f1f1f1;">';
-        echo '<h1 style="color:#b91c1c;">🔒 Accès refusé</h1>';
+        echo '<div>';
+        echo '<h1>🔒 Accès refusé</h1>';
         echo '<p>Ce contenu est destiné aux élèves de niveau <strong>' . htmlspecialchars($requiredLevel) . '</strong>.</p>';
         echo '<p>Vous êtes actuellement en niveau <strong>' . htmlspecialchars($userLevelName) . '</strong>.</p>';
         echo '<p>Pour débloquer ce contenu, progressez dans votre parcours actuel ou contactez votre coach.</p>';
@@ -178,3 +178,4 @@ function enforce_level_access_or_abort($requiredLevel)
         exit;
     }
 }
+
