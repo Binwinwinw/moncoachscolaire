@@ -49,6 +49,7 @@ Ce fichier complète l’index général CONTEXT_INDEX.md et la documentation pr
     - Renommage decide le 14/03/2026 pour conserver le template en tete de liste parmi les scripts `generate_*.py`
   - `validate_generator_pattern.py` : controle de conformite des scripts `generate_*.py` avec la checklist projet
   - `validate_quiz_bank.py` : valide la banque generee (schema minimal, non-fuite de reponses dans `public/quiz`, couverture par niveau/matiere)
+  - `check_quiz_integrity.py` : (nouveau) vérifie l’appariement `src/data/quiz/*.json` <-> `src/data/quiz_answers/*.json` et crée des stubs manquants
   - `config_quiz_bank.v1.json` : configuration V1 (cible, aliases de normalisation, chemins)
 
 ### Workflow recommande (quiz generators)

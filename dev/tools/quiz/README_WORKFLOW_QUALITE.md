@@ -238,11 +238,40 @@ npm run quiz:workflow:generate
 
 # Si seuils dépassés, inspecter rapport
 cat dev/reports/quiz_quality_report.md
+```
+
+### 3. Pipeline finale (check + QA + placeholders + pack)
+
+**Objectif** : passer d'un état de source à un état “push-ready” avec preuve de vérification.
+
+```bash
+# pipeline final (mode normal)
+npm run quiz:finalize
+
+# pipeline final (pas de génération de packs, juste contrôle+QA)
+npm run quiz:finalize -- --no-pack
+
+# pipeline final + création stubs quiz_answers (si manquants)
+# (plus robuste en raison du warning npm -- option inconnue)
+npm run quiz:finalize:fix
+```
+
+**Rapport final** : `dev/reports/quiz_final_checklist.md` (cases cochées + état de chaque étape)
+
+--
+
+## 📝 Journal de mise à jour
+
+- 2026-04-03 : ajout du script `dev/tools/quiz/validator/quiz_finalize.py` et du script npm `quiz:finalize`.
+- 2026-04-03 : organisation dossier en `generator`, `enrichment`, `validator`, `analyse`.
 
 # Réenrichir quiz problématiques manuellement
+
 # Puis relancer validation
+
 npm run quiz:quality:report
-```
+
+````
 
 ### 3. Harmoniser métadonnées après import
 
@@ -254,7 +283,7 @@ npm run quiz:workflow:harmonize
 
 # Si avertissements, consulter rapport
 cat dev/reports/quiz_quality_report.md
-```
+````
 
 ### 4. Valider avant commit Git
 

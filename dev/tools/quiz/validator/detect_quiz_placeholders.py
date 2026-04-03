@@ -457,14 +457,14 @@ class PlaceholderDetector:
             with open(output_path, 'w', encoding='utf-8') as f:
                 json.dump(report_dict, f, ensure_ascii=False, indent=2)
 
-            print(f"✅ Rapport exporté: {output_path}")
+            print(f"Rapport exporté: {output_path}")
 
         return report_dict
 
     def print_summary(self):
         """Affiche un résumé du rapport dans le terminal"""
         print("\n" + "="*70)
-        print("📊 RAPPORT DE DÉTECTION DES PLACEHOLDERS")
+        print("RAPPORT DE DÉTECTION DES PLACEHOLDERS")
         print("="*70)
         print(f"Date du scan: {self.report.scan_date}")
         print(f"Quiz scannés: {self.report.total_quiz_scanned}")
@@ -472,13 +472,18 @@ class PlaceholderDetector:
         print(f"Quiz affectés: {len(self.report.quiz_with_placeholders)}")
         print()
 
-        print("📈 Répartition par sévérité:")
+        print("Répartition par sévérité:")
         for severity, count in sorted(self.report.stats_by_severity.items()):
-            emoji = {'critical': '🔴', 'high': '🟠', 'medium': '🟡', 'low': '🟢'}.get(severity, '⚪')
-            print(f"  {emoji} {severity.upper()}: {count}")
+            label = {
+                'critical': 'CRITICAL',
+                'high': 'HIGH',
+                'medium': 'MEDIUM',
+                'low': 'LOW'
+            }.get(severity, severity.upper())
+            print(f"  {label}: {count}")
         print()
 
-        print("📋 Répartition par catégorie:")
+        print("Répartition par catégorie:")
         for category, count in sorted(
             self.report.stats_by_category.items(),
             key=lambda x: x[1],
@@ -487,7 +492,7 @@ class PlaceholderDetector:
             print(f"  • {category}: {count}")
         print()
 
-        print("🎯 Quiz prioritaires (critical + high):")
+        print("Quiz prioritaires (critical + high):")
         critical_high_ids = set()
         for detection in self.report.detections:
             if detection.severity in ['critical', 'high']:
@@ -539,7 +544,7 @@ def main():
     )
 
     # Scan
-    print("🔍 Scan des placeholders en cours...")
+    print("Scan des placeholders en cours...")
     detector.scan_all(min_id=args.min_id, max_id=args.max_id)
 
     # Export

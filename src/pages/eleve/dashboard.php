@@ -320,38 +320,30 @@ $coachMessages = [
 <main class="main-content max-w-7xl mx-auto px-4 py-8">
     <!-- Header personnalisé selon le niveau -->
     <?php
-        // Palette dynamique selon niveau
+        // Palette sobriété: pas de couleurs flashy, style neutre.
         $user_level_norm = function_exists('normalize_school_level') ? normalize_school_level($user_level) : $user_level;
-$dominant_color = '#22c55e'; // vert par défaut (collège)
-$dominant_bg = 'from-green-100 to-green-50';
-$dominant_border = 'border-green-500';
-$dominant_accent = 'text-green-600';
-if (function_exists('is_lycee_level') && is_lycee_level($user_level_norm)) {
-    $dominant_color = '#a855f7'; // pourpre lycée
-    $dominant_bg = 'from-purple-100 to-purple-50';
-    $dominant_border = 'border-purple-500';
-    $dominant_accent = 'text-purple-600';
-}
-if (function_exists('levels_match') && (levels_match($user_level_norm, 'Terminale') || levels_match($user_level_norm, 'BAC'))) {
-    $dominant_color = '#f59e0b'; // doré bac
-    $dominant_bg = 'from-yellow-100 to-yellow-50';
-    $dominant_border = 'border-yellow-500';
-    $dominant_accent = 'text-yellow-600';
-}
-?>
-    <div class="dashboard-header rounded-2xl p-8 mb-8 shadow-lg flex flex-col gap-6 bg-gradient-to-br <?php echo $dominant_bg; ?> <?php echo $dominant_border; ?> backdrop-blur-md bg-opacity-80">
+        $theme = function_exists('get_theme_variant_by_level') ? get_theme_variant_by_level($user_level_norm) : [];
+        $dominant_bg = 'bg-slate-100';
+        $dominant_border = 'border-slate-300';
+        $dominant_accent = 'text-slate-900';
+        $card_title = 'text-slate-800';
+        $btn_primary = 'bg-slate-700 text-white hover:bg-slate-800';
+        $btn_secondary = 'bg-slate-500 text-white hover:bg-slate-600';
+        $status_admin = 'text-slate-500';
+    ?>
+    <div class="dashboard-header rounded-2xl p-8 mb-8 shadow-sm flex flex-col gap-6 <?php echo $dominant_bg; ?> <?php echo $dominant_border; ?>">
         <div class="flex flex-col md:flex-row md:justify-between md:items-center gap-6">
             <div class="flex-1 min-w-[220px]">
                 <h1 class="flex items-center gap-3 text-3xl md:text-4xl font-bold <?php echo $dominant_accent; ?>">
-                    <span class="animate-pulse text-4xl md:text-5xl"><?php echo $config['icon']; ?></span>
+                    <span class="text-4xl md:text-5xl"><?php echo $config['icon']; ?></span>
                     Salut <?php echo htmlspecialchars($user_name); ?> !
                 </h1>
-                <p class="text-base mt-1 <?php echo $dominant_accent; ?>">
+                <p class="text-base mt-1 <?php echo $card_title; ?>">
                     <strong><?php echo $config['title']; ?></strong>
                     <?php if (!$is_admin): ?>
                         <span class="mx-2">•</span> Niveau scolaire : <strong><?php echo htmlspecialchars($user_level_display); ?></strong>
                     <?php else: ?>
-                        <span class="mx-2 text-amber-500">• Administrateur</span>
+                        <span class="mx-2 <?php echo $status_admin; ?>">• Administrateur</span>
                     <?php endif; ?>
                 </p>
             </div>
@@ -390,7 +382,7 @@ if (function_exists('levels_match') && (levels_match($user_level_norm, 'Terminal
             </div>
             <div class="p-6 flex flex-col items-center justify-center text-center">
                 <p class="text-slate-700 mb-4">Évalue tes connaissances sur chaque notion clé pour personnaliser ton parcours&nbsp;!</p>
-                <a href="<?php echo site_url('diagnostic'); ?>" class="inline-block px-6 py-3 rounded-lg bg-blue-600 text-white font-bold shadow hover:bg-blue-700 transition text-base">Lancer le diagnostic</a>
+                <a href="<?php echo site_url('diagnostic'); ?>" class="inline-block px-6 py-3 rounded-lg bg-slate-700 text-white font-bold shadow hover:bg-slate-800 transition text-base">Lancer le diagnostic</a>
             </div>
         </div>
         <!-- Card: Progression Globale -->
@@ -437,7 +429,7 @@ if (function_exists('levels_match') && (levels_match($user_level_norm, 'Terminal
                 <p class="text-slate-500">Chargement des parents...</p>
                 <div class="mt-4 flex gap-2">
                     <input id="family-code-input" placeholder="Code parent 6 caractères" maxlength="6" class="px-4 py-2 border rounded-lg w-full" />
-                    <button id="family-code-attach" class="px-4 py-2 bg-amber-500 text-white rounded-lg hover:bg-amber-600 transition">Rattacher</button>
+                    <button id="family-code-attach" class="px-4 py-2 bg-slate-700 text-white rounded-lg hover:bg-slate-800 transition">Rattacher</button>
                 </div>
                 <div id="family-code-message" class="mt-3 text-sm"></div>
             </div>
@@ -482,7 +474,7 @@ if (function_exists('levels_match') && (levels_match($user_level_norm, 'Terminal
                         <span class="block text-3xl mb-2">📝</span>
                         <p class="mb-4">Aucun exercice complété pour le moment.</p>
                         <?php if ($is_admin): ?>
-                            <a href="<?php echo site_url('eleve/college/college-accueil'); ?>" class="inline-block px-6 py-2 rounded bg-blue-600 text-white font-semibold shadow hover:bg-blue-700 transition">📚 Accéder aux Exercices</a>
+                            <a href="<?php echo site_url('eleve/college/college-accueil'); ?>" class="inline-block px-6 py-2 rounded bg-slate-700 text-white font-semibold shadow hover:bg-slate-800 transition">📚 Accéder aux Exercices</a>
                         <?php else: ?>
                             <a href="<?php
                                 $level_normalized = normalize_level_for_url($user_level);
@@ -503,7 +495,7 @@ if (function_exists('levels_match') && (levels_match($user_level_norm, 'Terminal
                                     echo '#erreur-niveau-lycee';
                                 }
                             }
-                            ?>" class="inline-block px-6 py-2 rounded bg-blue-600 text-white font-semibold shadow hover:bg-blue-700 transition">Commencer</a>
+                            ?>" class="inline-block px-6 py-2 rounded bg-slate-700 text-white font-semibold shadow hover:bg-slate-800 transition">Commencer</a>
                         <?php endif; ?>
                     </div>
                 <?php endif; ?>
@@ -595,11 +587,11 @@ if (!empty($recommendedCourses)): ?>
                                 <div class="flex flex-col bg-slate-50 rounded-lg p-4 shadow hover:bg-slate-100 transition">
                                     <div class="flex justify-between items-center mb-2">
                                         <h4 class="font-semibold text-slate-800 text-lg"><?php echo htmlspecialchars($course['Title']); ?></h4>
-                                        <span class="px-2 py-1 rounded bg-blue-100 text-blue-700 text-xs font-semibold"><?php echo htmlspecialchars($course['Level'] ?? 'Tous'); ?></span>
+                                        <span class="px-2 py-1 rounded bg-slate-200 text-slate-800 text-xs font-semibold"><?php echo htmlspecialchars($course['Level'] ?? 'Tous'); ?></span>
                                     </div>
                                     <div class="mb-2 text-sm text-slate-500">📖 <?php echo htmlspecialchars($course['Subject'] ?? 'Général'); ?></div>
                                     <div class="mb-2 text-xs text-slate-500">⚡ <?php echo $exCount; ?> exercice<?php echo $exCount > 1 ? 's' : ''; ?></div>
-                                    <a href="<?php echo site_url('view_course', ['id' => $course['Id']]); ?>" class="inline-block px-4 py-2 rounded bg-blue-600 text-white font-semibold shadow hover:bg-blue-700 transition text-xs">Démarrer</a>
+                                    <a href="<?php echo site_url('view_course', ['id' => $course['Id']]); ?>" class="inline-block px-4 py-2 rounded bg-slate-700 text-white font-semibold shadow hover:bg-slate-800 transition text-xs">Démarrer</a>
                                 </div>
                                 <?php endforeach; ?>
                             </div>
@@ -642,7 +634,7 @@ if (!empty($popularResources)): ?>
                                 <h5 class="font-semibold text-slate-800 text-base mb-1"><?php echo htmlspecialchars($resource['Title']); ?></h5>
                                 <p class="text-xs text-slate-500"><?php echo htmlspecialchars($resource['Source'] ?? 'Source'); ?></p>
                             </div>
-                            <a href="<?php echo htmlspecialchars($resource['URL']); ?>" target="_blank" rel="noopener" class="inline-block px-3 py-1 rounded bg-blue-600 text-white font-semibold shadow hover:bg-blue-700 transition text-xs">Accéder</a>
+                            <a href="<?php echo htmlspecialchars($resource['URL']); ?>" target="_blank" rel="noopener" class="inline-block px-3 py-1 rounded bg-slate-700 text-white font-semibold shadow hover:bg-slate-800 transition text-xs">Accéder</a>
                         </div>
                         <?php endforeach; ?>
                     </div>

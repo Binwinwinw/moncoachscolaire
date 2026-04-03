@@ -25,6 +25,8 @@
     "quiz:workflow:harmonize": "python dev/tools/quiz/quiz_quality_workflow.py harmonize",
     "quiz:workflow:enrich": "python dev/tools/quiz/quiz_quality_workflow.py enrich --batch-size 50",
     "quiz:workflow:enrich:continue": "python dev/tools/quiz/quiz_quality_workflow.py enrich --batch-size 50 --start-id 192",
+    "quiz:finalize": "python dev/tools/quiz/validator/quiz_finalize.py",
+    "quiz:finalize:fix": "python dev/tools/quiz/validator/quiz_finalize.py --fix-stub",
     "audit": "npx gitnexus analyze"
   },
   "devDependencies": {
