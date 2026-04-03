@@ -143,7 +143,7 @@ Plan de lotissement (source de verite):
 | --- | ---------------------------------------- | -------- | ---------------------------------------------------------------- |
 | 1   | Socle helper assets                      | FAIT     | Cache-busting `?v=filemtime`, verification locale CSS versionnes |
 | 2   | Pages publiques prioritaires             | FAIT     | landing/login/register/pages legales                             |
-| 3   | Pages exercices eleve (plus gros volume) | A FAIRE  | college/lycee/bac exercices\* (scripts + css)                    |
+| 3   | Pages exercices eleve (plus gros volume) | FAIT     | college/lycee/bac exercices\* (scripts + css)                    |
 | 4   | Composants partages                      | A FAIRE  | footer/topbar/components communs                                 |
 | 5   | Audit final + documentation              | EN COURS | checklist de reprise, preuves, reste a faire                     |
 
@@ -152,6 +152,12 @@ Preuves Lot 2 (cloture):
 - `src/pages/login.php` migre sur `asset_url('assets/css/...')`
 - `src/pages/register.php` migre sur `asset_url('assets/css/...')`
 - scan cible pages publiques: plus de references hardcodees `/assets` ou `/public/assets`
+
+Preuves Lot 3 (cloture):
+
+- 9 fichiers `src/pages/eleve/**/exercices*.php` migres (blocs `if/else` hardcodes remplaces)
+- verification syntaxe PHP OK sur toutes les pages exercices du perimetre
+- scan perimetre Lot 3: `HITS=0` pour `<link|script>` hardcodes `/assets` et `/public/assets`
 
 Definition de fini (DoD) du chantier:
 

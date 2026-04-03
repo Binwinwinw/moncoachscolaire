@@ -8,11 +8,8 @@ $exercices_url = $exercices_url ?? (function_exists('get_exercices_url_from_sess
 $show_bac_link = isset($show_bac_link) ? (bool) $show_bac_link : false;
 ?>
 <!-- Footer (composant) -->
-<?php if (function_exists('asset_url')): ?>
-    <link rel="stylesheet" href="<?= asset_url('assets/css/components/footer.css') ?>">
-<?php else: ?>
-    <link rel="stylesheet" href="/assets/css/components/footer.css">
-<?php endif; ?>
+<?php $footerCss = function_exists('asset_url') ? asset_url('assets/css/components/footer.css') : '/assets/css/components/footer.css'; ?>
+<link rel="stylesheet" href="<?= htmlspecialchars($footerCss, ENT_QUOTES) ?>">
 <footer class="site-footer" role="contentinfo" aria-label="Pied de page du site">
     <div class="site-footer-inner">
         <div class="footer-grid">

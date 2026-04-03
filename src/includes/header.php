@@ -7,8 +7,8 @@ if (defined('HEAD_EMITTED')) {
 define('HEAD_EMITTED', true);
 $page_title = $page_title ?? 'MonCoachScolaire';
 $page_css = $page_css ?? 'dashboard.css';
-$cssStyle = '/moncoachscolaire/public/assets/css/style.css';
-$cssPage = '/moncoachscolaire/public/assets/css/pages/' . htmlspecialchars($page_css);
+$cssStyle = function_exists('asset_url') ? asset_url('assets/css/style.css') : '/public/assets/css/style.css';
+$cssPage = function_exists('asset_url') ? asset_url('assets/css/pages/' . $page_css) : '/public/assets/css/pages/' . htmlspecialchars($page_css, ENT_QUOTES);
 ?>
 <!doctype html>
 <html lang="fr">

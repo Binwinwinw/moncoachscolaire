@@ -17,7 +17,8 @@ Etat transmis:
 
 - Lot 1 FAIT (helper `asset_url` avec cache-busting filemtime)
 - Lot 2 FAIT (pages publiques prioritaires: landing/login/register/pages legales)
-- Lot 3 a 5 non termines (voir etat a jour dans le suivi)
+- Lot 3 FAIT (pages exercices eleve)
+- Lot 4 a 5 non termines (voir etat a jour dans le suivi)
 
 Commande de verification rapide (handover):
 

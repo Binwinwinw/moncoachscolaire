@@ -68,7 +68,7 @@ $page_title = ($course['Title'] ?? 'Cours') . ' - MonCoachScolaire';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo htmlspecialchars($page_title); ?></title>
-    <link rel="stylesheet" href="/public/assets/css/tailwind.css">
+    <link rel="stylesheet" href="<?php echo function_exists('asset_url') ? asset_url('assets/css/tailwind.css') : '/public/assets/css/tailwind.css'; ?>">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="app-bg">

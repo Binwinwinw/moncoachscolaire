@@ -261,7 +261,8 @@ if (isset($enfant_not_found) && $enfant_not_found) {
             <!-- Bouton vers parents/parents et texte 'Espace Parent' supprimés -->
             </a>
         </nav>
-    <main class="min-h-screen bg-[url('/assets/img/background_school_material.webp')] bg-cover bg-center bg-no-repeat bg-fixed font-sans">
+    <?php $suivi_bg = function_exists('asset_url') ? asset_url('assets/img/background_school_material.webp') : '/assets/img/background_school_material.webp'; ?>
+    <main class="min-h-screen bg-cover bg-center bg-no-repeat bg-fixed font-sans" style="background-image: url('<?= htmlspecialchars($suivi_bg, ENT_QUOTES) ?>');">
     <!-- Nav Breadcrumbs -->
     <nav class="max-w-6xl mx-auto mb-8 flex items-center gap-4 text-sm text-gray-600">
         <a href="<?= site_url('parents/dashboard_parent') ?>" class="hover:text-indigo-600 transition">📊 Dashboard</a>

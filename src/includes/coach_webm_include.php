@@ -54,7 +54,8 @@ if (!empty($_SESSION['user_id']) && !empty($_SESSION['logged_in'])):
 </style>
 
 <!-- Inclure le script de gestion du coach -->
-<script src="<?php echo site_url('/assets/js/coach-webm.js'); ?>"></script>
+<?php $coachWebmScript = function_exists('asset_url') ? asset_url('assets/js/coach-webm.js') : '/assets/js/coach-webm.js'; ?>
+<script src="<?= htmlspecialchars($coachWebmScript, ENT_QUOTES) ?>"></script>
 
 <?php
 endif;

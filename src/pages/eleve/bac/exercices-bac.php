@@ -135,11 +135,7 @@ if (!$has_access) {
     <?php $dataSubjects = !empty($availableSubjects) ? implode(',', $availableSubjects) : '';
 $selectedSubjectEsc = isset($selectedSubject) ? htmlspecialchars($selectedSubject) : ''; ?>
     <div id="dynamic-exercises-container" data-dynamic-exercises data-level="Terminale" data-subjects="<?php echo htmlspecialchars($dataSubjects); ?>" data-selected-subject="<?php echo $selectedSubjectEsc; ?>" style="margin-top:2rem;"></div>
-    <?php if (function_exists('asset_url')): ?>
-        <script src="<?php echo asset_url('assets/js/dynamic-exercises.js'); ?>"></script>
-    <?php else: ?>
-        <script src="/assets/js/dynamic-exercises.js"></script>
-    <?php endif; ?>
+    <script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/dynamic-exercises.js') : 'assets/js/dynamic-exercises.js'; ?>"></script>
     <script>
         // Initialisation du système dynamique
         document.addEventListener('DOMContentLoaded', function() {
@@ -149,11 +145,7 @@ $selectedSubjectEsc = isset($selectedSubject) ? htmlspecialchars($selectedSubjec
         });
     </script>
     <!-- Coach WebM -->
-    <?php if (function_exists('asset_url')): ?>
-        <script src="<?php echo asset_url('assets/js/coach-webm.js'); ?>"></script>
-    <?php else: ?>
-        <script src="/assets/js/coach-webm.js"></script>
-    <?php endif; ?>
+    <script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/coach-webm.js') : 'assets/js/coach-webm.js'; ?>"></script>
     <style>
       .coach-overlay {
         position: fixed;
@@ -191,11 +183,7 @@ $selectedSubjectEsc = isset($selectedSubject) ? htmlspecialchars($selectedSubjec
       [data-colibri-global] { display: none !important; }
     </style>
 
-<?php if (function_exists('asset_url')): ?>
-    <script src="<?php echo asset_url('assets/js/exercises.js'); ?>"></script>
-<?php else: ?>
-    <script src="/assets/js/exercises.js"></script>
-<?php endif; ?>
+<script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/exercises.js') : 'assets/js/exercises.js'; ?>"></script>
 
 </main>
 

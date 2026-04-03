@@ -239,6 +239,6 @@ try {
         updateSubjects();
     });
     </script>
-    <script src="<?= isset($baseUrl) ? $baseUrl : '' ?>/assets/js/exercises-admin.js" defer></script>
+    <script src="<?= function_exists('asset_url') ? asset_url('assets/js/exercises-admin.js') : (isset($baseUrl) ? rtrim($baseUrl, '/') : '') . '/assets/js/exercises-admin.js'; ?>" defer></script>
 </body>
 </html>

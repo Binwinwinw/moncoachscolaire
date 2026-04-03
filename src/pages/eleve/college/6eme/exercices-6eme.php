@@ -555,25 +555,13 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
     </div>
 
     <!-- CSS pour le système dynamique -->
-    <?php if (function_exists('asset_url')): ?>
-        <link rel="stylesheet" href="<?php echo asset_url('assets/css/pages/dynamic-exercises.css'); ?>">
-    <?php else: ?>
-        <link rel="stylesheet" href="/assets/css/pages/dynamic-exercises.css">
-    <?php endif; ?>
+    <link rel="stylesheet" href="<?php echo function_exists('asset_url') ? asset_url('assets/css/pages/dynamic-exercises.css') : 'assets/css/pages/dynamic-exercises.css'; ?>">
 
     <!-- Script pour les exercices interactifs (charger AVANT le système dynamique) -->
-    <?php if (function_exists('asset_url')): ?>
-        <script src="<?php echo asset_url('assets/js/interactive-exercises.js'); ?>"></script>
-    <?php else: ?>
-        <script src="/assets/js/interactive-exercises.js"></script>
-    <?php endif; ?>
+    <script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/interactive-exercises.js') : 'assets/js/interactive-exercises.js'; ?>"></script>
 
     <!-- JavaScript pour le système dynamique -->
-    <?php if (function_exists('asset_url')): ?>
-        <script src="<?php echo asset_url('assets/js/dynamic-exercises.js'); ?>"></script>
-    <?php else: ?>
-        <script src="/assets/js/dynamic-exercises.js"></script>
-    <?php endif; ?>
+    <script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/dynamic-exercises.js') : 'assets/js/dynamic-exercises.js'; ?>"></script>
 
     <script>
         // Initialiser le système dynamique après chargement

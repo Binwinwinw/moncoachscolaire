@@ -375,34 +375,18 @@ $page_class = 'page-exercices-1ere';
 
 
     <!-- CSS pour le système dynamique -->
-    <?php if (function_exists('asset_url')): ?>
-        <link rel="stylesheet" href="<?php echo asset_url('assets/css/pages/dynamic-exercises.css'); ?>">
-    <?php else: ?>
-        <link rel="stylesheet" href="/assets/css/pages/dynamic-exercises.css">
-    <?php endif; ?>
+    <link rel="stylesheet" href="<?php echo function_exists('asset_url') ? asset_url('assets/css/pages/dynamic-exercises.css') : 'assets/css/pages/dynamic-exercises.css'; ?>">
 
     <!-- Colibri désactivé (remplacé par Coach WebM) -->
     <!-- ancien: colibri-mascot.css + colibri-mascot.js -->
 
     <!-- Script pour les exercices interactifs (charger AVANT le système dynamique) -->
-    <?php if (function_exists('asset_url')): ?>
-        <script src="<?php echo asset_url('assets/js/interactive-exercises.js'); ?>"></script>
-    <?php else: ?>
-        <script src="/assets/js/interactive-exercises.js"></script>
-    <?php endif; ?>
+    <script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/interactive-exercises.js') : 'assets/js/interactive-exercises.js'; ?>"></script>
 
     <!-- JavaScript pour le système dynamique -->
-    <?php if (function_exists('asset_url')): ?>
-        <script src="<?php echo asset_url('assets/js/dynamic-exercises.js'); ?>"></script>
-    <?php else: ?>
-        <script src="/assets/js/dynamic-exercises.js"></script>
-    <?php endif; ?>
+    <script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/dynamic-exercises.js') : 'assets/js/dynamic-exercises.js'; ?>"></script>
 
-    <?php if (function_exists('asset_url')): ?>
-        <script src="<?php echo asset_url('assets/js/exercises.js'); ?>"></script>
-    <?php else: ?>
-        <script src="/assets/js/exercises.js"></script>
-    <?php endif; ?>
+    <script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/exercises.js') : 'assets/js/exercises.js'; ?>"></script>
 
     <script>
         // S'assurer que baseUrl est défini (ne pas écraser s'il existe déjà depuis index.php)

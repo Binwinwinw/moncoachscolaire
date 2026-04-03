@@ -34,15 +34,17 @@ require_once dirname(__DIR__) . '/components/footer_component.php';
 
     <!-- Scripts -->
     <?php
-    // Utiliser un chemin direct aux assets sans passer par asset_url()
-    // qui cause des problèmes de double /public/
-    if (isset($basePath)) {
-        $footerScriptPath = $basePath . '/public/assets/js/footer-animations.js';
+    if (function_exists('asset_url')) {
+        $footerScriptPath = asset_url('assets/js/footer-animations.js');
     } else {
-        // Fallback: essayer de déterminer le basePath
-        $scriptPath = dirname($_SERVER['SCRIPT_NAME'] ?? '/public/index.php');
-        $basePath = preg_replace('#/public$#', '', $scriptPath);
-        $footerScriptPath = $basePath . '/public/assets/js/footer-animations.js';
+        // Fallback projet historique si asset_url n'est pas disponible
+        if (isset($basePath)) {
+            $footerScriptPath = $basePath . '/public/assets/js/footer-animations.js';
+        } else {
+            $scriptPath = dirname($_SERVER['SCRIPT_NAME'] ?? '/public/index.php');
+            $basePath = preg_replace('#/public$#', '', $scriptPath);
+            $footerScriptPath = $basePath . '/public/assets/js/footer-animations.js';
+        }
     }
 ?>
     <script src="<?php echo htmlspecialchars($footerScriptPath, ENT_QUOTES); ?>" defer></script>
@@ -59,8 +61,13 @@ if ($is_authenticated && !$is_demo_account):
         $scriptPath = dirname($_SERVER['SCRIPT_NAME'] ?? '/public/index.php');
         $basePath = preg_replace('#/public$#', '', $scriptPath);
     }
-    $sessionTimeoutCssPath = $basePath . '/public/assets/css/session-timeout.css';
-    $sessionTimeoutJsPath = $basePath . '/public/assets/js/session-timeout.js';
+    if (function_exists('asset_url')) {
+        $sessionTimeoutCssPath = asset_url('assets/css/session-timeout.css');
+        $sessionTimeoutJsPath = asset_url('assets/js/session-timeout.js');
+    } else {
+        $sessionTimeoutCssPath = $basePath . '/public/assets/css/session-timeout.css';
+        $sessionTimeoutJsPath = $basePath . '/public/assets/js/session-timeout.js';
+    }
     ?>
         <link rel="stylesheet" href="<?php echo htmlspecialchars($sessionTimeoutCssPath, ENT_QUOTES); ?>">
         <script>

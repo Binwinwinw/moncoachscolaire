@@ -902,7 +902,7 @@ if (isset($_SESSION['demo_action_count'])) {
 <!-- Colibri désactivé (remplacé par Coach WebM) -->
 
 <!-- Charger le script des exercices interactifs -->
-<script src="<?php echo isset($baseUrl) ? rtrim($baseUrl, '/') : ''; ?>/assets/js/interactive-exercises.js"></script>
+<script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/interactive-exercises.js') : (isset($baseUrl) ? rtrim($baseUrl, '/') : '') . '/assets/js/interactive-exercises.js'; ?>"></script>
 
 <!-- ancien: colibri-mascot.js -->
 

@@ -122,7 +122,8 @@ if ($is_admin) {
 ?>
 
 
-<main class="cours-main" style="background-image: url('/public/assets/img/background_school_material.webp'); background-size: cover; background-position: center; background-attachment: fixed; min-height: 100vh;">
+<?php $cours_background = function_exists('asset_url') ? asset_url('assets/img/background_school_material.webp') : '/public/assets/img/background_school_material.webp'; ?>
+<main class="cours-main" style="background-image: url('<?= htmlspecialchars($cours_background, ENT_QUOTES) ?>'); background-size: cover; background-position: center; background-attachment: fixed; min-height: 100vh;">
     <?php if (!empty($user_level) && $is_admin) {
         echo render_level_navigation($user_level, 'cours');
     } ?>

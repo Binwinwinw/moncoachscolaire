@@ -105,14 +105,20 @@ if ($direct_access) {
             $root = '';
         }
     }
-    // Utiliser asset_url() si disponible
-    // Forcer le chemin absolu selon environnement (localhost ou prod)
-    if ($_SERVER['HTTP_HOST'] === 'localhost') {
-        $cssStyle = '/moncoachscolaire/public/assets/css/style.css';
-        $cssPage = '/moncoachscolaire/public/assets/css/pages/' . htmlspecialchars($page_css);
+    if (function_exists('asset_url')) {
+        $cssStyle = asset_url('assets/css/style.css');
+        $cssPage = asset_url('assets/css/pages/' . $page_css);
+        $coachWebmScript = asset_url('assets/js/coach-webm.js');
     } else {
-        $cssStyle = '/public/assets/css/style.css';
-        $cssPage = '/public/assets/css/pages/' . htmlspecialchars($page_css);
+        if ($_SERVER['HTTP_HOST'] === 'localhost') {
+            $cssStyle = '/moncoachscolaire/public/assets/css/style.css';
+            $cssPage = '/moncoachscolaire/public/assets/css/pages/' . htmlspecialchars($page_css, ENT_QUOTES);
+            $coachWebmScript = '/moncoachscolaire/public/assets/js/coach-webm.js';
+        } else {
+            $cssStyle = '/public/assets/css/style.css';
+            $cssPage = '/public/assets/css/pages/' . htmlspecialchars($page_css, ENT_QUOTES);
+            $coachWebmScript = '/public/assets/js/coach-webm.js';
+        }
     }
     ?>
                 <link rel="stylesheet" href="<?php echo htmlspecialchars($cssStyle, ENT_QUOTES); ?>">
@@ -127,7 +133,7 @@ if ($direct_access) {
     echo "<script>window.baseUrl = " . json_encode($jsBaseUrl, JSON_UNESCAPED_SLASHES) . ";</script>\n";
     ?>
                 <!-- Coach WebM Script -->
-                <script src="/public/assets/js/coach-webm.js"></script>
+                <script src="<?= htmlspecialchars($coachWebmScript, ENT_QUOTES); ?>"></script>
                 <style>
                     /* Conteneur du coach avec positionnement fixe */
                     .coach-overlay {

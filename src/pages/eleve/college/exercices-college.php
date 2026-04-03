@@ -139,10 +139,6 @@ foreach ($levels as $lvl) {
 
     <?php ?>
 
-    <?php if (function_exists('asset_url')): ?>
-        <script src="<?php echo asset_url('assets/js/exercises.js'); ?>"></script>
-    <?php else: ?>
-        <script src="/assets/js/exercises.js"></script>
-    <?php endif; ?>
+    <script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/exercises.js') : 'assets/js/exercises.js'; ?>"></script>
 
 </main>

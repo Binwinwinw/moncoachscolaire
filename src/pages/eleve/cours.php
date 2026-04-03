@@ -20,9 +20,9 @@ $page_css = 'cours.css';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo htmlspecialchars($page_title); ?></title>
-    <link rel="stylesheet" href="/public/assets/css/style.css">
-    <link rel="stylesheet" href="/public/assets/css/pages/<?php echo $page_css; ?>">
-    <link rel="stylesheet" href="/public/assets/css/pages/exercices.css">
+    <link rel="stylesheet" href="<?php echo function_exists('asset_url') ? asset_url('assets/css/style.css') : '/public/assets/css/style.css'; ?>">
+    <link rel="stylesheet" href="<?php echo function_exists('asset_url') ? asset_url('assets/css/pages/' . $page_css) : '/public/assets/css/pages/' . htmlspecialchars($page_css, ENT_QUOTES); ?>">
+    <link rel="stylesheet" href="<?php echo function_exists('asset_url') ? asset_url('assets/css/pages/exercices.css') : '/public/assets/css/pages/exercices.css'; ?>">
     <!-- DEBUG: Patch refonte cours.php appliqué, CSS exercices.css chargé -->
     <script>window.baseUrl = "/";</script>
 </head>
