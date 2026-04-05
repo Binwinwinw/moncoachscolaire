@@ -74,11 +74,19 @@ if (function_exists('asset_url')) {
     $cssStyle = asset_url('assets/css/tailwind.css');
     $cssPage = asset_url('assets/css/pages/' . $page_css);
 } else {
-    $cssStyle = ($root !== '' ? $root : '') . '/assets/css/tailwind.css';
-    $cssPage = ($root !== '' ? $root : '') . '/assets/css/pages/' . $page_css;
+    $assetBase = function_exists('detectBaseUrl') ? rtrim(detectBaseUrl(), '/') : '';
+    $cssStyle = $assetBase . '/assets/css/tailwind.css';
+    $cssPage = $assetBase . '/assets/css/pages/' . $page_css;
 }
 ?>
-    <link rel="stylesheet" href="<?php echo function_exists('asset_url') ? asset_url('assets/css/style.css') : (($root !== '' ? $root : '') . '/assets/css/style.css'); ?>">
+    <link rel="stylesheet" href="<?php
+        if (function_exists('asset_url')) {
+            echo asset_url('assets/css/style.css');
+        } else {
+            $assetBase = function_exists('detectBaseUrl') ? rtrim(detectBaseUrl(), '/') : '';
+            echo htmlspecialchars($assetBase . '/assets/css/style.css', ENT_QUOTES);
+        }
+    ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars($cssStyle, ENT_QUOTES); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars($cssPage, ENT_QUOTES); ?>">
     <?php
@@ -884,7 +892,14 @@ document.addEventListener('DOMContentLoaded', function() {
 // Define baseUrl globally so admin-dashboard.js works correctly
 if (!window.baseUrl) window.baseUrl = '<?php echo rtrim(site_url(""), "index.php?page="); ?>';
 </script>
-<script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/admin-dashboard.js') : (($root !== '' ? $root : '') . '/assets/js/admin-dashboard.js'); ?>"></script>
+<script src="<?php
+    if (function_exists('asset_url')) {
+        echo asset_url('assets/js/admin-dashboard.js');
+    } else {
+        $assetBase = function_exists('detectBaseUrl') ? rtrim(detectBaseUrl(), '/') : '';
+        echo htmlspecialchars($assetBase . '/assets/js/admin-dashboard.js', ENT_QUOTES);
+    }
+?>"></script>
 
 
 <?php

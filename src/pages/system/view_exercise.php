@@ -5,6 +5,9 @@
  */
 
 require_once dirname(__DIR__, 2) . '/config/config.php';
+if (is_file(dirname(__DIR__, 2) . '/config/site_boot.php')) {
+    require_once dirname(__DIR__, 2) . '/config/site_boot.php';
+}
 require_once dirname(__DIR__, 2) . '/includes/exercice_loader.php';
 
 // ✅ 1. Récupérer l'ID de l'exercice D'ABORD
@@ -67,7 +70,14 @@ $page_title = ($exercise['Title'] ?? 'Exercice') . ' - MonCoachScolaire';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo htmlspecialchars($page_title); ?></title>
-    <link rel="stylesheet" href="<?php echo function_exists('asset_url') ? asset_url('assets/css/tailwind.css') : '/public/assets/css/tailwind.css'; ?>">
+    <link rel="stylesheet" href="<?php
+        if (function_exists('asset_url')) {
+            echo asset_url('assets/css/tailwind.css');
+        } else {
+            $assetBase = function_exists('detectBaseUrl') ? rtrim(detectBaseUrl(), '/') : '';
+            echo htmlspecialchars($assetBase . '/assets/css/tailwind.css', ENT_QUOTES);
+        }
+    ?>">
 </head>
 <body class="app-bg">
     <?php if (is_file(dirname(__DIR__, 2) . '/includes/topbar.php')) {

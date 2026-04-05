@@ -303,7 +303,14 @@ if ($has_access) {
     </script>
 
     <!-- Coach WebM -->
-    <script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/coach-webm.js') : '/public/assets/js/coach-webm.js'; ?>"></script>
+    <script src="<?php
+        if (function_exists('asset_url')) {
+            echo asset_url('assets/js/coach-webm.js');
+        } else {
+            $assetBase = function_exists('detectBaseUrl') ? rtrim(detectBaseUrl(), '/') : '';
+            echo htmlspecialchars($assetBase . '/assets/js/coach-webm.js', ENT_QUOTES);
+        }
+    ?>"></script>
     <style>
       .coach-overlay {
         position: fixed;

@@ -12,6 +12,12 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 require_once dirname(__DIR__, 2) . '/database/connection.php';
+if (!function_exists('site_url')) {
+    $siteBoot = dirname(__DIR__, 2) . '/config/site_boot.php';
+    if (is_file($siteBoot)) {
+        require_once $siteBoot;
+    }
+}
 if (!isset($pdo) || !$pdo) {
     die('<div class="bg-red-100 text-red-700 p-3 rounded mb-4">Erreur : Connexion à la base de données impossible. Vérifiez la configuration dans .env.</div>');
 }
@@ -145,8 +151,22 @@ try {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title><?= htmlspecialchars($page_title) ?></title>
-    <link rel="stylesheet" href="<?= isset($baseUrl) ? $baseUrl : '' ?>/assets/css/tailwind.css">
-    <link rel="stylesheet" href="<?= isset($baseUrl) ? $baseUrl : '' ?>/assets/css/pages/exercices-admin.css">
+    <link rel="stylesheet" href="<?php
+        if (function_exists('asset_url')) {
+            echo asset_url('assets/css/tailwind.css');
+        } else {
+            $assetBase = function_exists('detectBaseUrl') ? rtrim(detectBaseUrl(), '/') : '';
+            echo htmlspecialchars($assetBase . '/assets/css/tailwind.css', ENT_QUOTES);
+        }
+    ?>">
+    <link rel="stylesheet" href="<?php
+        if (function_exists('asset_url')) {
+            echo asset_url('assets/css/pages/exercices-admin.css');
+        } else {
+            $assetBase = function_exists('detectBaseUrl') ? rtrim(detectBaseUrl(), '/') : '';
+            echo htmlspecialchars($assetBase . '/assets/css/pages/exercices-admin.css', ENT_QUOTES);
+        }
+    ?>">
 </head>
 <body class="exercices-admin">
     <header class="mb-8 border-b pb-4">
@@ -239,6 +259,13 @@ try {
         updateSubjects();
     });
     </script>
-    <script src="<?= function_exists('asset_url') ? asset_url('assets/js/exercises-admin.js') : (isset($baseUrl) ? rtrim($baseUrl, '/') : '') . '/assets/js/exercises-admin.js'; ?>" defer></script>
+    <script src="<?php
+        if (function_exists('asset_url')) {
+            echo asset_url('assets/js/exercises-admin.js');
+        } else {
+            $assetBase = function_exists('detectBaseUrl') ? rtrim(detectBaseUrl(), '/') : '';
+            echo htmlspecialchars($assetBase . '/assets/js/exercises-admin.js', ENT_QUOTES);
+        }
+    ?>" defer></script>
 </body>
 </html>

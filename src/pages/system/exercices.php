@@ -366,13 +366,41 @@ if ($niveau_js) {
         }
     });
     </script>
-    <script src="<?php echo(function_exists('asset_url') ? asset_url('assets/js/exercices.js') : '/assets/js/exercices.js'); ?>"></script>
-    <script src="<?php echo(function_exists('asset_url') ? asset_url('assets/js/course_modal.js') : '/assets/js/course_modal.js'); ?>"></script>
+    <script src="<?php
+        if (function_exists('asset_url')) {
+            echo asset_url('assets/js/exercices.js');
+        } else {
+            $assetBase = function_exists('detectBaseUrl') ? rtrim(detectBaseUrl(), '/') : '';
+            echo htmlspecialchars($assetBase . '/assets/js/exercices.js', ENT_QUOTES);
+        }
+    ?>"></script>
+    <script src="<?php
+        if (function_exists('asset_url')) {
+            echo asset_url('assets/js/course_modal.js');
+        } else {
+            $assetBase = function_exists('detectBaseUrl') ? rtrim(detectBaseUrl(), '/') : '';
+            echo htmlspecialchars($assetBase . '/assets/js/course_modal.js', ENT_QUOTES);
+        }
+    ?>"></script>
     <!-- Exercices interactifs (nécessaires pour les vérifications) -->
-    <script src="<?php echo(function_exists('asset_url') ? asset_url('assets/js/interactive-exercises.js') : '/assets/js/interactive-exercises.js'); ?>"></script>
+    <script src="<?php
+        if (function_exists('asset_url')) {
+            echo asset_url('assets/js/interactive-exercises.js');
+        } else {
+            $assetBase = function_exists('detectBaseUrl') ? rtrim(detectBaseUrl(), '/') : '';
+            echo htmlspecialchars($assetBase . '/assets/js/interactive-exercises.js', ENT_QUOTES);
+        }
+    ?>"></script>
 
     <!-- Coach WebM -->
-    <script src="<?php echo(function_exists('asset_url') ? asset_url('assets/js/coach-webm.js') : '/assets/js/coach-webm.js'); ?>"></script>
+    <script src="<?php
+        if (function_exists('asset_url')) {
+            echo asset_url('assets/js/coach-webm.js');
+        } else {
+            $assetBase = function_exists('detectBaseUrl') ? rtrim(detectBaseUrl(), '/') : '';
+            echo htmlspecialchars($assetBase . '/assets/js/coach-webm.js', ENT_QUOTES);
+        }
+    ?>"></script>
 
     <?php include __DIR__ . '/../../components/course_modal.php'; ?>
 

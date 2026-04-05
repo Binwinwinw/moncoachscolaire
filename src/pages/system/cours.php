@@ -18,6 +18,11 @@ if (is_file(dirname(__DIR__, 2) . '/includes/admin_auth.php')) {
     require_once dirname(__DIR__, 2) . '/includes/admin_auth.php';
 }
 
+// Charger site_boot.php POUR asset_url()
+if (is_file(dirname(__DIR__, 2) . '/config/site_boot.php')) {
+    require_once dirname(__DIR__, 2) . '/config/site_boot.php';
+}
+
 // ✅ VÉRIFICATION DÉMO : REDIRECTION AVANT TOUT OUTPUT
 $is_admin = function_exists('isAdmin') && isAdmin();
 $is_demo = function_exists('isDemoUser') && isDemoUser();
@@ -122,7 +127,11 @@ if ($is_admin) {
 ?>
 
 
-<?php $cours_background = function_exists('asset_url') ? asset_url('assets/img/background_school_material.webp') : '/public/assets/img/background_school_material.webp'; ?>
+<?php
+$cours_background = function_exists('asset_url')
+    ? asset_url('assets/img/background_school_material.webp')
+    : (function_exists('detectBaseUrl') ? rtrim(detectBaseUrl(), '/') : '') . '/assets/img/background_school_material.webp';
+?>
 <main class="cours-main">
     <?php if (!empty($user_level) && $is_admin) {
         echo render_level_navigation($user_level, 'cours');
