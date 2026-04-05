@@ -3,6 +3,11 @@
 // Utilisation : src/pages/lycee/exercices-lycee.php
 // Détection automatique du niveau via l'URL ou paramètre GET
 
+$redirect_helpers = dirname(__DIR__, 3) . '/includes/redirect_helpers.php';
+if (is_file($redirect_helpers)) {
+    require_once $redirect_helpers;
+}
+
 // Détection du niveau
 $niveau = null;
 $uri = $_SERVER['REQUEST_URI'] ?? '';
@@ -38,7 +43,10 @@ $legacy_redirects = [
 ];
 foreach ($legacy_redirects as $from => $to) {
     if (strpos($uri, $from) !== false) {
-        header('Location: ' . site_url($to), true, 301);
+        $redirectUrl = site_url($to);
+        if (function_exists('safe_redirect')) {
+            safe_redirect($redirectUrl, 301);
+        }
         exit;
     }
 }

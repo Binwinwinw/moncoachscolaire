@@ -111,6 +111,10 @@ $_SESSION['debug_diagnostic'] = [
         </div>
     </main>
 
+    <?php if (is_file(dirname(__DIR__, 2) . '/components/course_modal.php')) {
+        require_once dirname(__DIR__, 2) . '/components/course_modal.php';
+    } ?>
+
     <?php if (is_file(dirname(__DIR__, 2) . '/includes/footer.php')) {
         require_once dirname(__DIR__, 2) . '/includes/footer.php';
     } ?>
@@ -128,5 +132,6 @@ $_SESSION['debug_diagnostic'] = [
             requestSubject: '<?php echo htmlspecialchars($request_subject); ?>'
         });
     </script>
+    <script src="<?php echo $basePath; ?>/public/assets/js/course_modal.js"></script>
     <!-- Charger diagnostic.js directement sans router asset_url() -->
     <script src="<?php echo $basePath; ?>/public/assets/js/diagnostic.js"></script>

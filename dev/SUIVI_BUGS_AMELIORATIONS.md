@@ -1,9 +1,38 @@
 ﻿## [02/04/2026] Decision produit — Pivot Quiz AI (mise a jour des priorites)
 
+> NOTE IMPORTANTE : Ce fichier `dev/SUIVI_BUGS_AMELIORATIONS.md` est la source de verite pour le plan de travail. Ne pas choisir au hasard une tache différente de l’ordre indiqué. Suivre la roadmap / priorites listée ici en priorité.
+
 - Le pivot **Quiz AI** est confirme comme choix produit principal pour la generation de quiz cote eleve.
 - Les scripts de creation manuelle de quiz ne sont plus une finalite; ils restent des outils de support technique.
 - Le lot historique de generation massive (1643 quiz) est classe comme retour d'experience qualite, pas comme cible a reproduire.
 - Priorites actives alignees: robustesse Quiz AI (timeouts/erreurs/parsing), qualite UX eleve, et developpement de nouveaux exercices/cours.
+
+## [04/04/2026] Plan d'implementation - IA pedagogique pour cours cibles et explications 100%
+
+Decision de pilotage:
+
+- reutiliser le socle Quiz AI pour deux nouveaux usages distincts: mini-cours cibles et explications d'exercices
+- conserver une separation stricte entre correction metier et explication pedagogique
+- preparer un plan executable sans reclarifier l'architecture au prochain lot
+
+Regle cle:
+
+- pour les exercices existants, l'IA ne corrige pas; elle explique une correction deja validee par le projet
+
+Ordre de travail valide:
+
+1. endpoint `generate_exercise_explanation`
+2. integration front "Comprendre mon erreur"
+3. reuse du modal de cours pour l'aide detaillee
+4. endpoint `generate_precise_course`
+5. enrichissement du schema Quiz AI avec explications embarquees
+
+Definition de fini lot pedagogique IA:
+
+- feedback court inline disponible apres une erreur
+- explication detaillee ouvrable depuis l'exercice
+- mini-cours cible generable depuis une competence ou un exercice source
+- aucune substitution de la source de verite de correction par l'IA
 
 ## [13/03/2026] Synthese priorites actives (clarification)
 
@@ -50,7 +79,7 @@ Decision : baseline qualite mise a jour sur le rapport raffine pour eviter les f
 
 - Statut: EN COURS
 - **[02/04/2026] Objectif "50 tentatives" ABANDONNÉ** — voir section "Abandonné / Remplacé" ci-dessus.
-- Nouveau reste concret: (1) enrichir les petits pools (ex: 4eme Mathémaiques = 2 seulement), (2) afficher UX si répétitions fréquentes, (3) valider simulation sur tous les niveaux/sujets produits.
+- Nouveau reste concret: (1) enrichir les petits pools (ex: 4eme Mathémaiques = 2 seulement), (2) afficher UX si répétitions fréquentes (mis en place par diagnostic.js warning pool), (3) valider simulation sur tous les niveaux/sujets produits.
 
 2. Pipeline validation diagnostic (parcours complet)
 
@@ -105,13 +134,14 @@ Decision : baseline qualite mise a jour sur le rapport raffine pour eviter les f
 
 ## Priorites actives (a faire / en cours)
 
-| Priorite | Zone                         | Description                                                           | Statut    | Commentaire                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| -------- | ---------------------------- | --------------------------------------------------------------------- | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Haute    | src/api/ia/generate_quiz.php | Quiz IA - robustesse : timeout, fallback, validation JSON             | En cours  | Durcissement endpoint livre le 02/04/2026 : validation entree, ordre provider Groq en priorite, fallback, normalisation JSON, erreurs HTTP propres. Reste : test reel multi-provider et cas timeout.                                                                                                                                                                                                                                                  |
-| Haute    | API diagnostic + front       | Anti-repetition quiz : adapter au stock disponible par niveau/matière | En cours  | **[02/04/2026] Objectif "50 tentatives sans répétition" ABANDONNÉ** (relevé du contexte batch). Correctif livré : tri basé sur historique cumulé (tentatives + récence), simulation OK. Validation : pool de 41 → 40 uniques/50 tentatives; pool de 2 → répétition rapide (limite structurelle). **Ligne directrice actuelle**: anti-répétition dans les limites du stock réel; enrichissement petit pools ou affichage UX si répétitions fréquentes. |
-| Haute    | Pipeline diagnostic          | Smoke test E2E connecte livré (list → quiz → questions → submit)      | Fait      | Smoke test E2E livré le 02/04/2026. Couvre : chargement diagnostic, clique quiz, affichage questions, remplissage réponses, soumission API. Test dans `dev/tools/tests/e2e/diagnostic-quiz-paths.spec.ts`. Amélioration future : authentifier les tests pour valider la soumission complète (pas blocker).                                                                                                                                            |
-| Haute    | Nouveaux exercices et cours  | Creer du contenu pedagogique de qualite (exercices, cours)            | A faire   | Priorite produit confirmee le 02/04/2026 suite au pivot Quiz AI.                                                                                                                                                                                                                                                                                                                                                                                      |
-| Basse    | Toutes pages                 | Mode sombre                                                           | A etudier | Cadrage UI/CSS global a definir.                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| Priorite | Zone                         | Description                                                           | Statut    | Commentaire                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| -------- | ---------------------------- | --------------------------------------------------------------------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Haute    | src/api/ia/generate_quiz.php | Quiz IA - robustesse : timeout, fallback, validation JSON             | En cours  | Durcissement endpoint livre le 02/04/2026 : validation entree, ordre provider Groq en priorite, fallback, normalisation JSON, erreurs HTTP propres. Mise a jour 03/04/2026 : fallback complet provider par provider meme si JSON invalide/reponse vide/quiz incomplet. Validation reelle executee via `php dev/tools/tests/test_generate_quiz_resilience.php` : scenario default et force-groq en 200 (provider_used=groq, 5 questions), providers non configures en 422 propre. Reste : activer au moins un second provider configure pour verifier fallback inter-provider et cas timeout en conditions reelles. |
+| Haute    | API IA pedagogique + front   | Explications d'exercices et mini-cours cibles                         | A faire   | Plan valide le 04/04/2026. Etapes: (1) creer `generate_exercise_explanation`, (2) ajouter le bouton "Comprendre mon erreur" dans les feedbacks, (3) reutiliser le modal de cours pour l'explication detaillee, (4) creer `generate_precise_course`, (5) enrichir ensuite le schema Quiz AI avec `explanation`, `competence`, `common_trap`, `retry_tip`. Regle non negociable: l'IA explique une correction officielle, elle ne remplace pas le correcteur metier.                                                                                                                                                 |
+| Haute    | API diagnostic + front       | Anti-repetition quiz : adapter au stock disponible par niveau/matière | En cours  | **[02/04/2026] Objectif "50 tentatives sans répétition" ABANDONNÉ** (relevé du contexte batch). Correctif livré : tri basé sur historique cumulé (tentatives + récence), simulation OK. Validation : pool de 41 → 40 uniques/50 tentatives; pool de 2 → répétition rapide (limite structurelle). **Ligne directrice actuelle**: anti-répétition dans les limites du stock réel; enrichissement petit pools ou affichage UX si répétitions fréquentes.                                                                                                                                                              |
+| Haute    | Pipeline diagnostic          | Smoke test E2E connecte livré (list → quiz → questions → submit)      | Fait      | Smoke test E2E livré le 02/04/2026. Couvre : chargement diagnostic, clique quiz, affichage questions, remplissage réponses, soumission API. Test dans `dev/tools/tests/e2e/diagnostic-quiz-paths.spec.ts`. Amélioration future : authentifier les tests pour valider la soumission complète (pas blocker).                                                                                                                                                                                                                                                                                                         |
+| Haute    | Nouveaux exercices et cours  | Creer du contenu pedagogique de qualite (exercices, cours)            | A faire   | Priorite produit confirmee le 02/04/2026 suite au pivot Quiz AI.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Basse    | Toutes pages                 | Mode sombre                                                           | A etudier | Cadrage UI/CSS global a definir.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
 ---
 

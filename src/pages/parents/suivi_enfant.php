@@ -19,6 +19,23 @@
 
 // ...existing code...
 
+$parent_session_id = (int) ($_SESSION['parent_id'] ?? $_SESSION['user_id'] ?? 0);
+
+$build_inline_avatar = static function (string $label, string $accent = '#4f46e5'): string {
+    $initial = strtoupper(substr(trim($label), 0, 1));
+    if ($initial === '') {
+        $initial = 'E';
+    }
+
+    $svg = sprintf(
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Avatar %1$s"><rect width="96" height="96" rx="48" fill="#eef2ff"/><circle cx="48" cy="48" r="42" fill="%2$s" opacity="0.16"/><text x="48" y="56" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="%2$s">%1$s</text></svg>',
+        htmlspecialchars($initial, ENT_QUOTES, 'UTF-8'),
+        htmlspecialchars($accent, ENT_QUOTES, 'UTF-8')
+    );
+
+    return 'data:image/svg+xml;utf8,' . rawurlencode($svg);
+};
+
 // Inclure le helper de redirection sécurisée si absent
 if (!function_exists('safe_redirect')) {
     $redirect_helpers = dirname(__DIR__, 2) . '/includes/redirect_helpers.php';
@@ -33,15 +50,14 @@ $is_authenticated = isset($_SESSION['parent_id']) || $is_admin;
 
 // Si non authentifié, rediriger MAINTENANT (avant la topbar)
 if (!$is_authenticated) {
-    if (!headers_sent()) {
-        header('Location: ' . site_url('login'));
-        exit;
-    }
+    safe_redirect(site_url('login'));
 }
 
 // Récupérer l'ID enfant de façon sécurisée (GET)
 
 $enfant_id = isset($_GET['id']) ? intval($_GET['id']) : null;
+$nb_enfants = 0;
+$liste_enfants = [];
 // Si aucun enfant sélectionné, afficher la section des plans parentaux
 if (!$enfant_id) {
     $show_plans_parentaux = true;
@@ -49,12 +65,29 @@ if (!$enfant_id) {
     $enfantName = 'Enfant';
     $niveau_scolaire_display = 'Non défini';
     // Récupérer la liste des enfants du parent
-    $nb_enfants = 0;
-    $liste_enfants = [];
-    if (isset($pdo) && isset($_SESSION['parent_id'])) {
-        $stmt = $pdo->prepare("SELECT Id, Prenom, Nom, Username FROM users WHERE ParentId = ? AND Role = 'student' ORDER BY Prenom, Nom");
-        $stmt->execute([$_SESSION['parent_id']]);
-        $liste_enfants = $stmt->fetchAll();
+    if (isset($pdo) && $pdo instanceof PDO && $parent_session_id > 0) {
+        try {
+            $stmt = $pdo->prepare("SELECT u.Id, u.Prenom, u.Nom, u.Username
+                FROM users u
+                JOIN parent_child_invites pci ON u.Id = pci.child_user_id
+                WHERE pci.parent_user_id = ? AND pci.status = 'accepted' AND u.Role = 'student'
+                ORDER BY u.Prenom, u.Nom");
+            $stmt->execute([$parent_session_id]);
+            $liste_enfants = $stmt->fetchAll();
+        } catch (Exception $e) {
+            error_log('suivi_enfant: erreur récupération parent_child_invites: ' . $e->getMessage());
+        }
+
+        if (empty($liste_enfants)) {
+            $stmt = $pdo->prepare("SELECT u.Id, u.Prenom, u.Nom, u.Username
+                FROM users u
+                JOIN parent_enfants pe ON u.Id = pe.student_id
+                WHERE pe.parent_id = ? AND u.Role = 'student'
+                ORDER BY u.Prenom, u.Nom");
+            $stmt->execute([$parent_session_id]);
+            $liste_enfants = $stmt->fetchAll();
+        }
+
         $nb_enfants = count($liste_enfants);
     }
 } else {
@@ -87,21 +120,31 @@ if (!isset($pdo) || !$pdo) {
         $stmt = $pdo->prepare("
             SELECT Id, Username, Email, UserLevel, Prenom as prenom, Nom as nom
             FROM users
-            WHERE Id = ? AND ParentId = ? AND Role = 'student'
+            WHERE Id = ? AND Role = 'student' AND (
+                EXISTS (
+                    SELECT 1
+                    FROM parent_child_invites pci
+                    WHERE pci.child_user_id = users.Id
+                      AND pci.parent_user_id = ?
+                      AND pci.status = 'accepted'
+                )
+                OR EXISTS (
+                    SELECT 1
+                    FROM parent_enfants pe
+                    WHERE pe.student_id = users.Id
+                      AND pe.parent_id = ?
+                )
+                OR ParentId = ?
+            )
             LIMIT 1
         ");
-        $stmt->execute([$enfant_id, $_SESSION['parent_id']]);
+        $stmt->execute([$enfant_id, $parent_session_id, $parent_session_id, $parent_session_id]);
     }
     $enfant = $stmt->fetch();
 
     // Si l'enfant n'existe pas, rediriger
     if (!$enfant) {
-        if (!headers_sent()) {
-            header('Location: ' . site_url('parents/dashboard_parent'));
-            exit;
-        }
-        // Si headers déjà envoyés, définir une erreur
-        $enfant_not_found = true;
+        safe_redirect(site_url('parents/dashboard_parent'));
     } else {
         $enfant_not_found = false;
 
@@ -172,7 +215,7 @@ if (!isset($pdo) || !$pdo) {
             $enfantName = $enfant['Username'] ?? 'Enfant';
         }
 
-        $avatar_url = 'https://ui-avatars.com/api/?name=' . urlencode($enfantName) . '&background=1e293b&color=fff&size=128';
+        $avatar_url = $build_inline_avatar($enfantName, '#1e293b');
 
         // Calculer les statistiques de progression
         $xp_total = 0;
@@ -249,7 +292,7 @@ if (isset($enfant_not_found) && $enfant_not_found) {
 ?>
 
 
-<?php if (!empty($show_plans_parentaux)): ?>
+<?php if (empty($show_plans_parentaux)): ?>
         <!-- Barre de navigation haut de page -->
         <nav class="flex flex-wrap gap-3 justify-center mb-8 mt-2">
             <a href="<?php echo site_url('landingpage'); ?>" class="px-5 py-2.5 rounded-full bg-indigo-50 hover:bg-indigo-100 text-indigo-700 border border-indigo-100 text-sm font-semibold shadow transition">
@@ -261,7 +304,33 @@ if (isset($enfant_not_found) && $enfant_not_found) {
             <!-- Bouton vers parents/parents et texte 'Espace Parent' supprimés -->
             </a>
         </nav>
-    <?php $suivi_bg = function_exists('asset_url') ? asset_url('assets/img/background_school_material.webp') : '/assets/img/background_school_material.webp'; ?>
+    <?php
+    $assetsBase = '';
+    if (function_exists('detectBaseUrl')) {
+        $assetsBase = rtrim((string) detectBaseUrl(), '/');
+    } elseif (isset($baseUrl)) {
+        $assetsBase = rtrim((string) $baseUrl, '/');
+    }
+    $resolveParentAsset = static function (string $relativePath) use ($assetsBase): string {
+        if (function_exists('asset_url')) {
+            return asset_url($relativePath);
+        }
+
+        $assetBase = $assetsBase;
+        $projectRoot = dirname(__DIR__, 3);
+        $normalizedPath = ltrim($relativePath, '/');
+        if ($assetBase !== ''
+            && stripos($assetBase, '/public') === false
+            && is_file($projectRoot . '/public/' . $normalizedPath)) {
+            $assetBase .= '/public';
+        }
+
+        return $assetBase . '/' . $normalizedPath;
+    };
+    $suivi_bg = function_exists('asset_url')
+        ? asset_url('assets/img/background_school_material.webp')
+        : $resolveParentAsset('assets/img/background_school_material.webp');
+    ?>
     <main class="min-h-screen bg-cover bg-center bg-no-repeat bg-fixed font-sans">
     <!-- Nav Breadcrumbs -->
     <nav class="max-w-6xl mx-auto mb-8 flex items-center gap-4 text-sm text-gray-600">
@@ -344,8 +413,9 @@ if (isset($enfant_not_found) && $enfant_not_found) {
             </div>
             <ul class="flex flex-wrap gap-4 justify-center">
                 <?php foreach ($liste_enfants as $enfant): ?>
+                    <?php $liste_enfant_id = $enfant['Id'] ?? $enfant['id'] ?? $enfant['user_id'] ?? null; ?>
                     <li class="group">
-                        <a href="?id=<?= $enfant['user_id'] ?? '' ?>" class="w-20 h-20 bg-gradient-to-br from-gray-200 to-gray-300 rounded-2xl flex items-center justify-center text-xl shadow-lg hover:shadow-2xl hover:scale-110 transition-all duration-300 font-semibold hover:bg-indigo-400 hover:text-white">
+                        <a href="?id=<?= urlencode((string) $liste_enfant_id) ?>" class="w-20 h-20 bg-gradient-to-br from-gray-200 to-gray-300 rounded-2xl flex items-center justify-center text-xl shadow-lg hover:shadow-2xl hover:scale-110 transition-all duration-300 font-semibold hover:bg-indigo-400 hover:text-white">
                             <?= substr(htmlspecialchars($enfant['Prenom'] ?? ''), 0, 1) . substr(htmlspecialchars($enfant['Nom'] ?? ''), 0, 1) ?>
                         </a>
                     </li>

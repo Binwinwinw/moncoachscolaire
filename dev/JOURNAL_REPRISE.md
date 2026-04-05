@@ -32,6 +32,45 @@ Resultat attendu:
 
 ---
 
+## [04/04/2026] Decision d'architecture - IA pedagogique pour cours cibles et explications d'exercices
+
+Contexte:
+
+- le flux Quiz AI est maintenant viable cote robustesse
+- le besoin suivant porte sur la valeur pedagogique: aider l'eleve a comprendre et a atteindre 100% sur certains exercices
+- le projet dispose deja d'un modal de cours, de feedbacks d'exercices et d'une correction serveur sur plusieurs parcours
+
+Decision prise:
+
+- reutiliser le procede Quiz AI pour deux nouveaux flux distincts:
+  - generation de mini-cours cibles par notion / competence
+  - generation d'explications pedagogiques a partir d'une correction officielle
+- ne pas melanger ces deux usages dans un seul endpoint
+- ne pas laisser l'IA devenir correcteur metier pour les exercices existants
+
+Regle non negociable:
+
+- pour tout exercice deja connu du projet, la source de verite reste la correction serveur, la BDD ou les JSON prives
+- l'IA ne fait que reformuler, expliquer, guider et proposer une reprise adaptee
+
+Plan retenu pour le prochain lot:
+
+1. creer un endpoint `generate_exercise_explanation`
+2. y envoyer l'enonce, la bonne reponse, la reponse eleve et la correction officielle
+3. brancher un bouton "Comprendre mon erreur" dans les feedbacks d'exercices
+4. reutiliser le modal de cours existant pour l'aide detaillee
+5. creer ensuite un endpoint `generate_precise_course`
+6. enrichir enfin le schema Quiz AI pour embarquer des champs d'explication directement dans les questions generees
+
+Impact attendu:
+
+- l'eleve dispose d'une aide courte immediate apres erreur
+- il peut ouvrir une aide detaillee sans quitter l'exercice
+- les futurs cours IA deviennent precis, bases sur des notions reelles et non sur des demandes trop larges
+- le lot suivant peut etre execute sans re-decision d'architecture
+
+---
+
 ## [02/04/2026 - 17h30] 🚀 Actions IMMÉDIAT exécutées — Réduction risques critiques
 
 **Contexte:** Audit complet révèle blockers sur 4 domaines (sécurité, pédagogie, accessibilité, repo). Exécution des 3 actions IMMÉDIAT prioritaires.

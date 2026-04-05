@@ -45,6 +45,11 @@ if (is_file(dirname(__DIR__, 2) . '/config/site_boot.php')) {
     require_once __DIR__ . '/bootstrap/site_boot.php';
 }
 
+$redirect_helpers = dirname(__DIR__, 2) . '/includes/redirect_helpers.php';
+if (is_file($redirect_helpers)) {
+    require_once $redirect_helpers;
+}
+
 $is_admin = false;
 if (is_file(dirname(__DIR__, 2) . '/includes/admin_auth.php')) {
     require_once dirname(__DIR__, 2) . '/includes/admin_auth.php';
@@ -62,17 +67,14 @@ if (empty($_SESSION['parent_id']) && !$is_admin) {
     if (!empty($_SESSION['user_role'])) {
         $role = strtolower((string) $_SESSION['user_role']);
         if ($role === 'admin') {
-            header('Location: ' . site_url('admin/dashboard_admin'));
-            exit;
+            safe_redirect(site_url('admin/dashboard_admin'));
         } elseif ($role === 'student') {
-            header('Location: ' . site_url('eleve/dashboard'));
-            exit;
+            safe_redirect(site_url('eleve/dashboard'));
         }
     }
     // Sinon, forcer la connexion
     $_SESSION['redirect_after_login'] = $_SERVER['REQUEST_URI'] ?? 'dashboard_parent';
-    header('Location: ' . site_url('login'));
-    exit;
+    safe_redirect(site_url('login'));
 }
 
 // 2. APRES seulement, includes qui peuvent afficher du HTML (header, topbar, etc.)
@@ -93,6 +95,9 @@ if (is_file(dirname(__DIR__, 2) . '/config/site_boot.php')) {
 
 require_once dirname(__DIR__, 2) . '/database/connection.php';
 
+$has_pdo = isset($pdo) && $pdo instanceof PDO;
+$db = $has_pdo ? $pdo : null;
+
 $parent_id = $_SESSION['parent_id'] ?? null;
 
 // Récupérer les informations du parent (depuis users avec Role='parent')
@@ -108,19 +113,28 @@ if ($is_admin) {
         'Nom'       => '',
         'UserLevel' => 'Admin',
     ];
-} elseif ($parent_id) {
+} elseif ($parent_id && $db instanceof PDO) {
     // Parent : récupérer les infos depuis la base
-    $parentStmt = $pdo->prepare("SELECT * FROM users WHERE Id = :parent_id AND Role IN ('parent', 'parents') LIMIT 1");
+    $parentStmt = $db->prepare("SELECT * FROM users WHERE Id = :parent_id AND Role IN ('parent', 'parents') LIMIT 1");
     $parentStmt->execute(['parent_id' => $parent_id]);
     $parent = $parentStmt->fetch(PDO::FETCH_ASSOC);
+} elseif ($parent_id) {
+    $parent = [
+        'Id' => $parent_id,
+        'Username' => $_SESSION['user_name'] ?? 'Parent',
+        'Email' => $_SESSION['user_email'] ?? '',
+        'Prenom' => $_SESSION['user_name'] ?? 'Parent',
+        'Nom' => '',
+        'UserLevel' => 'Parent',
+    ];
 }
 
 // --- Préparation des variables attendues par les composants (logique métier complète) ---
 // 1. Récupérer les enfants rattachés (parent_child_invites acceptés)
 $enfants = [];
-if ($parent_id) {
+if ($parent_id && $db instanceof PDO) {
     try {
-        $stmt = $pdo->prepare("SELECT u.*, pci.accepted_at FROM users u
+        $stmt = $db->prepare("SELECT u.*, pci.accepted_at FROM users u
             JOIN parent_child_invites pci ON u.Id = pci.child_user_id
             WHERE pci.parent_user_id = :parent_id AND pci.status = 'accepted'
             ORDER BY u.Prenom, u.Nom");
@@ -132,8 +146,8 @@ if ($parent_id) {
 }
 
 // Si aucun résultat, fallback legacy parent_enfants (protection compatibilité)
-if (empty($enfants) && $parent_id) {
-    $stmt = $pdo->prepare("SELECT u.* FROM users u
+if (empty($enfants) && $parent_id && $db instanceof PDO) {
+    $stmt = $db->prepare("SELECT u.* FROM users u
         JOIN parent_enfants pe ON u.Id = pe.student_id
         WHERE pe.parent_id = :parent_id");
     $stmt->execute(['parent_id' => $parent_id]);
@@ -147,7 +161,16 @@ $matieresFortes = [];
 $notifications = [];
 $objectifs = [];
 $conseils = [];
-if (!empty($enfants)) {
+if (!($db instanceof PDO)) {
+    $progressions = [];
+    $dernierExos = [];
+    $matieresFortes = [];
+    $notifications = [
+        [ 'icone' => '⚠️', 'texte' => "La base de données est temporairement indisponible. Le tableau de bord parent reste accessible, mais sans données de suivi.", 'type' => 'warning' ],
+    ];
+    $objectifs = ['Réessayer dans quelques instants'];
+    $conseils = ['Actualisez la page plus tard si le problème persiste'];
+} elseif (!empty($enfants)) {
     try {
         foreach ($enfants as $enfant) {
             $childId = $enfant['Id'] ?? $enfant['id'] ?? null;
@@ -157,7 +180,7 @@ if (!empty($enfants)) {
             }
 
             // Progression globale à partir des résultats de quiz
-            $statStmt = $pdo->prepare("SELECT COUNT(*) AS total_quiz, AVG(score) AS avg_score, SUM(passed) AS passed_count FROM quizresult WHERE user_id = ?");
+            $statStmt = $db->prepare("SELECT COUNT(*) AS total_quiz, AVG(score) AS avg_score, SUM(passed) AS passed_count FROM quizresult WHERE user_id = ?");
             $statStmt->execute([$childId]);
             $stats = $statStmt->fetch(PDO::FETCH_ASSOC) ?: [];
 
@@ -172,7 +195,7 @@ if (!empty($enfants)) {
             ];
 
             // Derniers exercices / diagnostics
-            $lastStmt = $pdo->prepare("SELECT qr.score, qr.passed, qr.created_at, q.subject FROM quizresult qr LEFT JOIN quiz q ON qr.quiz_id = q.id WHERE qr.user_id = ? ORDER BY qr.created_at DESC LIMIT 5");
+            $lastStmt = $db->prepare("SELECT qr.score, qr.passed, qr.created_at, q.subject FROM quizresult qr LEFT JOIN quiz q ON qr.quiz_id = q.id WHERE qr.user_id = ? ORDER BY qr.created_at DESC LIMIT 5");
             $lastStmt->execute([$childId]);
             $lasts = $lastStmt->fetchAll(PDO::FETCH_ASSOC);
             foreach ($lasts as $result) {
@@ -186,7 +209,7 @@ if (!empty($enfants)) {
             }
 
             // Matières fortes
-            $bestSubjectsStmt = $pdo->prepare("SELECT q.subject, AVG(qr.score) AS avg_score, COUNT(*) AS attempts FROM quizresult qr JOIN quiz q ON qr.quiz_id = q.id WHERE qr.user_id = ? GROUP BY q.subject ORDER BY avg_score DESC LIMIT 3");
+            $bestSubjectsStmt = $db->prepare("SELECT q.subject, AVG(qr.score) AS avg_score, COUNT(*) AS attempts FROM quizresult qr JOIN quiz q ON qr.quiz_id = q.id WHERE qr.user_id = ? GROUP BY q.subject ORDER BY avg_score DESC LIMIT 3");
             $bestSubjectsStmt->execute([$childId]);
             $bestSubjects = $bestSubjectsStmt->fetchAll(PDO::FETCH_ASSOC);
             foreach ($bestSubjects as $subj) {
@@ -208,41 +231,26 @@ if (!empty($enfants)) {
 
     } catch (Exception $e) {
         error_log('dashboard_parent: erreur récupération progression enfants : ' . $e->getMessage());
-        // Fallback visuel si la requête DB échoue
-        $progressions = [
-            ['nom' => 'Enfant', 'pourcent' => 70],
+        $progressions = [];
+        $dernierExos = [];
+        $matieresFortes = [];
+        $notifications = [
+            [ 'icone' => '⚠️', 'texte' => "Impossible de récupérer les données de suivi pour le moment. Réessayez dans quelques instants.", 'type' => 'warning' ],
         ];
-        $dernierExos = [
-            ['matiere' => 'Mathématiques', 'date' => date('d/m/Y'), 'resultat' => 'À revoir', 'score' => 62],
-        ];
-        $matieresFortes = [
-            ['nom' => 'Français', 'score' => 83, 'exos' => 12],
-        ];
-        $notifications = [ [ 'icone' => '⚠️', 'texte' => "Impossible de récupérer les données réelles. En mode dégradé.", 'type' => 'warning' ] ];
-        $objectifs = ['Rafraîchir la page', 'Contacter support si problème persiste'];
-        $conseils = ['Vérifier la connexion à la base de données', 'Valider le rôle parent'];
+        $objectifs = ['Rafraîchir la page', 'Vérifier le rattachement de vos enfants'];
+        $conseils = ['Réessayez dans quelques minutes', 'Contactez le support si le problème persiste'];
     }
 } else {
-    // Fallback démo si aucun enfant
-    $progressions = [
-        ['nom' => 'Emma (démo)', 'pourcent' => 85],
-        ['nom' => 'Lucas (démo)', 'pourcent' => 72],
-    ];
-    $dernierExos = [
-        ['enfant' => 'Emma (démo)', 'matiere' => 'Mathématiques', 'date' => date('d/m/Y', strtotime('-2 days')), 'resultat' => 'Réussi', 'score' => 92],
-        ['enfant' => 'Lucas (démo)', 'matiere' => 'Français', 'date' => date('d/m/Y', strtotime('-4 days')), 'resultat' => 'À revoir', 'score' => 65],
-    ];
-    $matieresFortes = [
-        ['nom' => 'Français', 'score' => 88, 'exos' => 12],
-        ['nom' => 'Mathématiques', 'score' => 78, 'exos' => 9],
-    ];
+    $progressions = [];
+    $dernierExos = [];
+    $matieresFortes = [];
     $notifications = [
         [ 'icone' => '✅', 'texte' => "Bienvenue sur MonCoachScolaire !", 'type' => 'succès' ],
-        [ 'icone' => '📅', 'texte' => "Aucun enfant rattaché. Ajoutez-en pour suivre leur progression !", 'type' => 'info' ],
-        [ 'icone' => '💡', 'texte' => "Découvrez nos guides pour accompagner vos enfants.", 'type' => 'info' ],
+        [ 'icone' => '📅', 'texte' => "Aucun enfant rattaché. Ajoutez-en pour suivre leur progression réelle.", 'type' => 'info' ],
+        [ 'icone' => '💡', 'texte' => "Commencez par générer un code de rattachement ou invitez votre enfant depuis cet espace.", 'type' => 'info' ],
     ];
-    $objectifs = ['Découvrir la plateforme', 'Ajouter un enfant'];
-    $conseils = ['Regardez la vidéo tutoriel', 'Contactez l’assistance en cas de besoin'];
+    $objectifs = ['Ajouter un enfant', 'Activer le premier suivi'];
+    $conseils = ['Utilisez le code de rattachement ci-dessous', 'Consultez le tutoriel si vous démarrez'];
 }
 
 // Sécurisation (toujours tableau)

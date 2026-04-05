@@ -38,7 +38,65 @@ function sanitizeInputString($value): string
     return htmlspecialchars(trim((string) $value), ENT_QUOTES, 'UTF-8');
 }
 
-function getConfiguredProviders(): array
+function isQuizAiDebugMode(): bool
+{
+    $appEnv = strtolower((string) (getenv('APP_ENV') ?: ($GLOBALS['appEnv'] ?? '')));
+    $appDebug = filter_var(getenv('APP_DEBUG') ?: getenv('DEBUG') ?: 'false', FILTER_VALIDATE_BOOLEAN);
+
+    return $appEnv === 'local' || $appDebug;
+}
+
+function logQuizAiMessage(string $message, bool $debugOnly = false): void
+{
+    if ($debugOnly && !isQuizAiDebugMode()) {
+        return;
+    }
+
+    error_log($message);
+}
+
+function getDebugProviderOverrides(array $data): array
+{
+    if (!isQuizAiDebugMode()) {
+        return [];
+    }
+
+    $overrides = $data['_debug_provider_overrides'] ?? null;
+    if (!is_array($overrides)) {
+        return [];
+    }
+
+    $supportedProviders = ['groq', 'ollama', 'gemini', 'openai', 'perplexity'];
+    $normalizedOverrides = [];
+
+    foreach ($overrides as $providerName => $override) {
+        $normalizedProvider = strtolower(sanitizeInputString($providerName));
+        if (!in_array($normalizedProvider, $supportedProviders, true)) {
+            continue;
+        }
+
+        if (is_string($override)) {
+            $normalizedOverrides[$normalizedProvider] = [
+                'mode' => strtolower(sanitizeInputString($override)),
+            ];
+            continue;
+        }
+
+        if (!is_array($override)) {
+            continue;
+        }
+
+        $normalizedOverrides[$normalizedProvider] = [
+            'mode' => strtolower(sanitizeInputString($override['mode'] ?? 'success')),
+            'raw' => isset($override['raw']) ? (string) $override['raw'] : null,
+            'label' => isset($override['label']) ? sanitizeInputString($override['label']) : null,
+        ];
+    }
+
+    return $normalizedOverrides;
+}
+
+function getConfiguredProviders(array $debugProviderOverrides = []): array
 {
     $configured = [];
 
@@ -62,13 +120,19 @@ function getConfiguredProviders(): array
         $configured[] = 'perplexity';
     }
 
+    foreach (array_keys($debugProviderOverrides) as $debugProvider) {
+        if (!in_array($debugProvider, $configured, true)) {
+            $configured[] = $debugProvider;
+        }
+    }
+
     return $configured;
 }
 
-function resolveProviderOrder(?string $requestedProvider): array
+function resolveProviderOrder(?string $requestedProvider, array $debugProviderOverrides = []): array
 {
     $supportedProviders = ['groq', 'ollama', 'gemini', 'openai', 'perplexity'];
-    $configuredProviders = getConfiguredProviders();
+    $configuredProviders = getConfiguredProviders($debugProviderOverrides);
 
     if (empty($configuredProviders)) {
         throw new RuntimeException('Aucun provider IA configuré. Veuillez renseigner OLLAMA_API_URL ou une clé API dans .env');
@@ -95,6 +159,64 @@ function resolveProviderOrder(?string $requestedProvider): array
     }
 
     return $providers;
+}
+
+function buildDebugQuizResponse(string $providerName, ?string $label = null): string
+{
+    $providerLabel = $label !== null && $label !== '' ? $label : strtoupper($providerName);
+    $questions = [];
+
+    for ($index = 1; $index <= 5; $index++) {
+        $questions[] = [
+            'question' => $providerLabel . ' - question ' . $index,
+            'choices' => [
+                ['value' => 'a', 'label' => 'Choix A'],
+                ['value' => 'b', 'label' => 'Choix B'],
+                ['value' => 'c', 'label' => 'Choix C'],
+                ['value' => 'd', 'label' => 'Choix D'],
+            ],
+            'correct' => 'a',
+        ];
+    }
+
+    $payload = json_encode($questions, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES);
+    if ($payload === false) {
+        throw new RuntimeException('Impossible de construire le quiz de debug');
+    }
+
+    return $payload;
+}
+
+function getQuizProviderResponse(string $providerName, string $prompt, array $debugProviderOverrides): string
+{
+    if (isset($debugProviderOverrides[$providerName])) {
+        $override = $debugProviderOverrides[$providerName];
+        $mode = $override['mode'] ?? 'success';
+
+        switch ($mode) {
+            case 'empty':
+                return '';
+
+            case 'invalid_json':
+                return '{"questions": [';
+
+            case 'incomplete':
+            case 'partial':
+                return '[{"question":"Question incomplète","choices":["A","B"],"correct":"A"}]';
+
+            case 'timeout':
+                throw new RuntimeException('Timeout simulé du provider');
+
+            case 'raw':
+                return (string) ($override['raw'] ?? '');
+
+            case 'success':
+            default:
+                return buildDebugQuizResponse($providerName, $override['label'] ?? null);
+        }
+    }
+
+    return (string) callAIProvider($providerName, $prompt);
 }
 
 function extractJsonArrayFromResponse(string $aiResponse): string
@@ -283,42 +405,46 @@ try {
         throw new InvalidArgumentException('Matière invalide');
     }
 
-    $providers = resolveProviderOrder($provider);
+    $debugProviderOverrides = getDebugProviderOverrides($data);
+    $providers = resolveProviderOrder($provider, $debugProviderOverrides);
 
-    $aiResponse = null;
-    $lastError = null;
     $usedProvider = null;
+    $questions = [];
+    $providerFailures = [];
+
     foreach ($providers as $tryProvider) {
         try {
-            $aiResponse = callAIProvider($tryProvider, $prompt);
-            if (!empty($aiResponse)) {
-                $usedProvider = $tryProvider;
-                break;
+            $aiResponse = getQuizProviderResponse($tryProvider, $prompt, $debugProviderOverrides);
+            if (trim($aiResponse) === '') {
+                throw new RuntimeException('Réponse vide du provider');
             }
-        } catch (Throwable $e) {
-            $lastError = $e->getMessage();
-            error_log('[Quiz AI] Provider failure: ' . $tryProvider . ' - ' . $e->getMessage());
+
+            $aiJsonArray = extractJsonArrayFromResponse($aiResponse);
+            $decodedQuestions = json_decode($aiJsonArray, true);
+
+            if (json_last_error() !== JSON_ERROR_NONE || !is_array($decodedQuestions)) {
+                throw new RuntimeException('JSON invalide: ' . json_last_error_msg());
+            }
+
+            $normalizedQuestions = normalizeQuizQuestions($decodedQuestions);
+            if (count($normalizedQuestions) < 3) {
+                throw new RuntimeException('Quiz incomplet après normalisation');
+            }
+
+            $questions = $normalizedQuestions;
+            $usedProvider = $tryProvider;
+            break;
+        } catch (Throwable $providerError) {
+            $providerFailures[] = $tryProvider . ': ' . $providerError->getMessage();
+            logQuizAiMessage('[Quiz AI] Provider failure: ' . $tryProvider . ' - ' . $providerError->getMessage(), true);
         }
     }
 
-    if ($aiResponse === null) {
+    if ($usedProvider === null) {
+        if (!empty($providerFailures)) {
+            logQuizAiMessage('[Quiz AI] All providers failed: ' . implode(' | ', array_slice($providerFailures, 0, 5)), true);
+        }
         throw new RuntimeException('Impossible de générer le quiz IA pour le moment');
-    }
-
-    $aiResponse = extractJsonArrayFromResponse($aiResponse);
-
-    $questions = json_decode($aiResponse, true);
-
-    if (json_last_error() !== JSON_ERROR_NONE || !is_array($questions)) {
-        error_log('[Quiz AI] JSON parse error: ' . json_last_error_msg() . ' | provider=' . ($usedProvider ?? 'unknown'));
-        throw new RuntimeException('La reponse du service IA est invalide');
-    }
-
-    $questions = normalizeQuizQuestions($questions);
-
-    if (count($questions) < 3) {
-        error_log('[Quiz AI] Not enough valid questions after normalization | provider=' . ($usedProvider ?? 'unknown') . ' | last_error=' . ($lastError ?? 'none'));
-        throw new RuntimeException('Le quiz genere est incomplet. Merci de reessayer.');
     }
 
     // Conversion en HTML pour interactive-exercises.js
@@ -328,7 +454,7 @@ try {
         throw new RuntimeException('Impossible de preparer le quiz pour affichage');
     }
 
-    $html = '<div class="qcm-exercise" data-questions=\'' . $questionsJson . '\'>';
+    $html = '<div class="qcm-exercise" data-questions=\'' . $questionsJson . '\' data-level="' . htmlspecialchars($level, ENT_QUOTES, 'UTF-8') . '" data-subject="' . htmlspecialchars($subject, ENT_QUOTES, 'UTF-8') . '" data-source="quiz-ai">';
     $html .= '    <h3 class="text-xl font-bold mb-4">🤖 Quiz IA : ' . $subject . ' (' . $level . ')</h3>';
     $html .= '    <div class="qcm-container"></div>';
     $html .= '    <div class="mt-6 flex gap-4">';
@@ -356,7 +482,12 @@ try {
         $statusCode = 502;
     }
 
-    error_log('[Quiz AI] Endpoint error: ' . $e->getMessage());
+    if ($statusCode === 422) {
+        logQuizAiMessage('[Quiz AI] Validation error: ' . $e->getMessage());
+    } else {
+        logQuizAiMessage('[Quiz AI] Endpoint error: ' . $e->getMessage(), true);
+        logQuizAiMessage('[Quiz AI] Endpoint error');
+    }
 
     jsonResponse([
         'success' => false,

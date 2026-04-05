@@ -38,6 +38,114 @@ Axes actifs a retenir:
 
 Regle documentaire: le detail des statuts reste dans [dev/SUIVI_BUGS_AMELIORATIONS.md](dev/SUIVI_BUGS_AMELIORATIONS.md). Les autres documents gardent uniquement un resume de pilotage et un lien vers cette source.
 
+## [04/04/2026] Architecture cible - Cours IA cibles et explications d'exercices
+
+Objectif pedagogique:
+
+- reutiliser le procede Quiz AI pour produire des contenus vraiment utiles a la reussite
+- separer clairement le besoin "mini-cours cible" du besoin "explication de correction"
+- permettre un parcours de progression vers 100% sans transformer l'IA en correcteur metier
+
+Decision d'architecture:
+
+- l'IA peut etre auteur pedagogique et reformulateur, mais pas source de verite pour les reponses des exercices existants
+- la correction officielle reste cote serveur, a partir des donnees de reference du projet (BDD, JSON prives, logique metier)
+- l'IA intervient ensuite pour expliquer, reformuler, guider la reprise et proposer un mini-entrainement cible
+
+Separations fonctionnelles a respecter:
+
+### 1) Mini-cours IA cible
+
+Usage:
+
+- generer un cours court et precis a partir d'une notion ou competence reelle
+- exemple: "developper et reduire une expression litterale en 4eme" plutot que "faire un cours de mathematiques 4eme"
+
+Contrat attendu:
+
+- entree: niveau, matiere, competence, notion, exercice_source optionnel
+- sortie: titre, objectif, prerequis, explication structuree, methode, exemple, erreurs frequentes, mini-verification
+
+Implementation cible:
+
+- nouvel endpoint dedie de type `generate_precise_course`
+- rendu dans le modal de cours existant via [src/components/course_modal.php](src/components/course_modal.php)
+- fallback provider et validation JSON alignes sur [src/api/ia/generate_quiz.php](src/api/ia/generate_quiz.php)
+
+### 2) Explication d'exercice / correction pedagogique
+
+Usage:
+
+- expliquer pourquoi une reponse est correcte ou incorrecte
+- transformer une correction brute en aide pedagogique actionnable
+- guider l'eleve pour reussir a 100% au second passage
+
+Contrat attendu:
+
+- entree: niveau, matiere, type d'exercice, enonce, reponse attendue, reponse eleve, correction officielle, competence optionnelle
+- sortie: explication courte, explication detaillee, erreur probable, methode a retenir, conseil de reprise, micro-question de verification
+
+Implementation cible:
+
+- nouvel endpoint dedie de type `generate_exercise_explanation`
+- consommation depuis les feedbacks d'exercices dans [public/assets/js/interactive-exercises.js](public/assets/js/interactive-exercises.js)
+- affichage en deux niveaux:
+  - aide courte inline sous la question ou dans le feedback
+  - aide detaillee dans le modal de cours existant
+
+### 3) Regle non negociable - IA pedagogue, pas correcteur
+
+Pour tous les exercices deja connus du projet:
+
+- ne jamais demander a l'IA de deviner la bonne reponse
+- toujours transmettre a l'IA la reponse attendue et la correction officielle deja validees
+- limiter le role de l'IA a la reformulation, a l'explication et a la guidance
+
+Conséquence directe:
+
+- les endpoints de correction existants restent prioritaires pour dire juste/faux
+- les futurs endpoints IA s'appuient sur ces sorties, ils ne les remplacent pas
+
+### 4) Extension du schema Quiz AI
+
+Pour les quiz generes dynamiquement par IA, le schema cible doit evoluer.
+
+Au-dela de:
+
+- `question`
+- `choices`
+- `correct`
+
+Ajouter a terme:
+
+- `explanation`
+- `competence`
+- `common_trap`
+- `retry_tip`
+- `course_hint`
+
+But:
+
+- eviter un second appel IA quand l'explication peut etre fournie des la generation
+- rendre les feedbacks plus riches dans [public/assets/js/interactive-exercises.js](public/assets/js/interactive-exercises.js)
+
+### 5) Plan d'execution recommande
+
+Ordre recommande pour implementation sans blocage:
+
+1. creer `generate_exercise_explanation` avec le meme socle de robustesse que `generate_quiz`
+2. brancher un bouton "Comprendre mon erreur" dans les feedbacks d'exercices
+3. reutiliser [src/components/course_modal.php](src/components/course_modal.php) pour l'explication detaillee
+4. creer `generate_precise_course` pour les notions et competences cibles
+5. enrichir ensuite le schema de sortie de `generate_quiz` avec les champs d'explication
+
+Definition de fini du lot:
+
+- un exercice faux peut afficher une explication pedagogique exploitable sans casser la correction existante
+- un cours cible peut etre genere depuis une competence ou un exercice source
+- le front distingue clairement correction courte et aide detaillee
+- les providers IA restent encapsules dans des endpoints robustes avec fallback et JSON valide
+
 ## [06/03/2026] Cloture lot diagnostic securise (VALIDE ET TERMINE)
 
 Cette partie est officiellement validee et terminee.

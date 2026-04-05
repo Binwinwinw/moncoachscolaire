@@ -293,6 +293,9 @@ try {
         'success' => true,
         'data' => [
             'quiz_id' => $quizId,
+            'quiz_title' => $quizTitle,
+            'level' => $quizLevel,
+            'subject' => $quizSubject,
             'score' => $score,
             'passed' => $passed,
             'correct_count' => $correctCount,
@@ -301,6 +304,7 @@ try {
             'xp_gained' => $xpGained,
             'xp_total' => $xpTotal,
             'anti_farming' => true,
+            'results' => $results,
             'feedback' => [
                 'message' => $isReview && $oldScore !== null
                     ? buildReviewMessage($score, $oldScore)

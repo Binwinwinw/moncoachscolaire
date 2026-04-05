@@ -3,7 +3,31 @@
 require_once dirname(__DIR__, 3) . '/includes/header.php';
 // Inclusion explicite de la topbar globale
 require_once dirname(__DIR__, 3) . '/includes/topbar.php';
-$parent_bg_img = function_exists('asset_url') ? asset_url('assets/img/background_school_material.webp') : '/assets/img/background_school_material.webp';
+$assetsBase = '';
+if (function_exists('detectBaseUrl')) {
+    $assetsBase = rtrim((string) detectBaseUrl(), '/');
+} elseif (isset($baseUrl)) {
+    $assetsBase = rtrim((string) $baseUrl, '/');
+}
+$resolveParentAsset = static function (string $relativePath) use ($assetsBase): string {
+    if (function_exists('asset_url')) {
+        return asset_url($relativePath);
+    }
+
+    $assetBase = $assetsBase;
+    $projectRoot = dirname(__DIR__, 4);
+    $normalizedPath = ltrim($relativePath, '/');
+    if ($assetBase !== ''
+        && stripos($assetBase, '/public') === false
+        && is_file($projectRoot . '/public/' . $normalizedPath)) {
+        $assetBase .= '/public';
+    }
+
+    return $assetBase . '/' . $normalizedPath;
+};
+$parent_bg_img = function_exists('asset_url')
+    ? asset_url('assets/img/background_school_material.webp')
+    : $resolveParentAsset('assets/img/background_school_material.webp');
 ?>
 <div class="min-h-screen bg-cover bg-center bg-no-repeat bg-fixed relative">
     <main class="max-w-5xl mx-auto px-4 md:px-0 pb-16 font-sans">

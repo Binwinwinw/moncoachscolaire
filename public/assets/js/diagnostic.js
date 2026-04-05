@@ -13,6 +13,354 @@ function escapeHtml(value) {
         .replace(/'/g, "&#39;");
 }
 
+function getDiagnosticIncorrectItems(results) {
+    if (!Array.isArray(results)) {
+        return [];
+    }
+
+    return results
+        .filter((result) => result && result.is_correct === false)
+        .slice(0, 4)
+        .map((result) => ({
+            question: result.question || "Question de diagnostic",
+            user_answer: result.user_answer || "",
+            correct_answer: result.expected_answer || "",
+            official_correction: result.correction || "",
+            question_type: result.type || "texte",
+        }))
+        .filter((item) => item.question && item.correct_answer);
+}
+
+function buildDiagnosticAiPayload() {
+    if (!currentQuizState) {
+        return null;
+    }
+
+    const incorrectItems = getDiagnosticIncorrectItems(
+        currentQuizState.lastResults,
+    );
+
+    if (incorrectItems.length === 0) {
+        return null;
+    }
+
+    return {
+        exercise_id: 0,
+        level: currentQuizState.level || window.userLevel || "",
+        subject: currentQuizState.subject || window.userSubject || "",
+        competence: currentQuizState.quizTitle || currentQuizState.title || "",
+        official_correction: incorrectItems
+            .map((item) => item.official_correction)
+            .filter(Boolean)
+            .join(" "),
+        source: "diagnostic-quiz",
+        incorrect_items: incorrectItems,
+    };
+}
+
+function buildDiagnosticExplanationModalHtml(explanationData) {
+    const steps = Array.isArray(explanationData.steps)
+        ? explanationData.steps
+        : [];
+    const perQuestion = Array.isArray(explanationData.per_question)
+        ? explanationData.per_question
+        : [];
+
+    const stepsHtml = steps
+        .map((step) => `<li>${escapeHtml(step)}</li>`)
+        .join("");
+    const perQuestionHtml = perQuestion
+        .map(
+            (item, index) => `
+                <div class="course-section">
+                    <h3>❓ Question ${index + 1}</h3>
+                    <div class="course-section-content">
+                        <p><strong>Enoncé :</strong> ${escapeHtml(item.question || "")}</p>
+                        <p><strong>Ta réponse :</strong> ${escapeHtml(item.your_answer || "Aucune réponse")}</p>
+                        <p><strong>Bonne réponse :</strong> ${escapeHtml(item.correct_answer || "")}</p>
+                        <p><strong>Explication :</strong> ${escapeHtml(item.explanation || "")}</p>
+                    </div>
+                </div>
+            `,
+        )
+        .join("");
+
+    let html = "";
+
+    if (explanationData.summary) {
+        html += `<div class="key-points"><h3>🎯 Résumé utile</h3><p>${escapeHtml(explanationData.summary)}</p></div>`;
+    }
+    if (explanationData.learning_objective) {
+        html += `<div class="course-section"><h3>📘 Objectif</h3><div class="course-section-content">${escapeHtml(explanationData.learning_objective)}</div></div>`;
+    }
+    if (explanationData.mistake_pattern) {
+        html += `<div class="example-box"><h3>🧠 Erreur probable</h3><p>${escapeHtml(explanationData.mistake_pattern)}</p></div>`;
+    }
+    if (stepsHtml) {
+        html += `<div class="course-section"><h3>🪜 Comment refaire juste</h3><div class="course-section-content"><ol>${stepsHtml}</ol></div></div>`;
+    }
+    html += perQuestionHtml;
+    if (explanationData.retry_tip) {
+        html += `<div class="formula-box">💡 ${escapeHtml(explanationData.retry_tip)}</div>`;
+    }
+    if (explanationData.verification_question) {
+        html += `<div class="course-section"><h3>✅ Vérifie ta compréhension</h3><div class="course-section-content">${escapeHtml(explanationData.verification_question)}</div></div>`;
+    }
+
+    return (
+        html ||
+        '<div class="course-section-content">Aucune explication disponible.</div>'
+    );
+}
+
+function buildDiagnosticPreciseCourseModalHtml(courseData) {
+    const keyPoints = Array.isArray(courseData.key_points)
+        ? courseData.key_points
+        : [];
+    const methodSteps = Array.isArray(courseData.method_steps)
+        ? courseData.method_steps
+        : [];
+    const commonPitfalls = Array.isArray(courseData.common_pitfalls)
+        ? courseData.common_pitfalls
+        : [];
+    const references = Array.isArray(courseData.references)
+        ? courseData.references
+        : [];
+
+    const keyPointsHtml = keyPoints
+        .map((item) => `<li>${escapeHtml(item)}</li>`)
+        .join("");
+    const methodStepsHtml = methodSteps
+        .map((item) => `<li>${escapeHtml(item)}</li>`)
+        .join("");
+    const commonPitfallsHtml = commonPitfalls
+        .map((item) => `<li>${escapeHtml(item)}</li>`)
+        .join("");
+    const referencesHtml = references
+        .map(
+            (reference) =>
+                `<li><a href="${escapeHtml(reference.url || "")}" target="_blank" rel="noopener">${escapeHtml(reference.title || "Ressource")}</a>${reference.source ? ` <span class="text-slate-600">(${escapeHtml(reference.source)})</span>` : ""}</li>`,
+        )
+        .join("");
+
+    let html = "";
+
+    if (courseData.summary) {
+        html += `<div class="key-points"><h3>🎯 Résumé utile</h3><p>${escapeHtml(courseData.summary)}</p></div>`;
+    }
+    if (courseData.concept_focus) {
+        html += `<div class="course-section"><h3>📘 Notion à retenir</h3><div class="course-section-content">${escapeHtml(courseData.concept_focus)}</div></div>`;
+    }
+    if (keyPointsHtml) {
+        html += `<div class="course-section"><h3>🧩 Points clés</h3><div class="course-section-content"><ul>${keyPointsHtml}</ul></div></div>`;
+    }
+    if (methodStepsHtml) {
+        html += `<div class="course-section"><h3>🪜 Méthode</h3><div class="course-section-content"><ol>${methodStepsHtml}</ol></div></div>`;
+    }
+    if (courseData.worked_example) {
+        html += `<div class="example-box"><h3>✏️ Exemple guidé</h3><p>${escapeHtml(courseData.worked_example)}</p></div>`;
+    }
+    if (commonPitfallsHtml) {
+        html += `<div class="course-section"><h3>🚫 Pièges à éviter</h3><div class="course-section-content"><ul>${commonPitfallsHtml}</ul></div></div>`;
+    }
+    if (courseData.practice_tip) {
+        html += `<div class="formula-box">💡 ${escapeHtml(courseData.practice_tip)}</div>`;
+    }
+    if (courseData.verification_question) {
+        html += `<div class="course-section"><h3>✅ Vérifie ta compréhension</h3><div class="course-section-content">${escapeHtml(courseData.verification_question)}</div></div>`;
+    }
+    if (referencesHtml) {
+        html += `<div class="course-section"><h3>🔎 Ressources utiles</h3><div class="course-section-content"><ul>${referencesHtml}</ul></div></div>`;
+    }
+
+    return (
+        html ||
+        '<div class="course-section-content">Aucun mini-cours disponible.</div>'
+    );
+}
+
+function ensureDiagnosticCourseModal() {
+    let modal = document.getElementById("course-modal");
+    if (modal) {
+        return modal;
+    }
+
+    const wrapper = document.createElement("div");
+    wrapper.innerHTML = `
+        <div id="course-modal" class="modal">
+            <div class="modal-overlay"></div>
+            <div class="modal-content course-modal-content">
+                <div class="modal-header">
+                    <h2 id="course-title">📚 Cours</h2>
+                    <button type="button" class="modal-close">✕</button>
+                </div>
+                <div class="modal-body" id="course-body"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">J'ai compris ! 💪</button>
+                </div>
+            </div>
+        </div>
+    `;
+
+    modal = wrapper.firstElementChild;
+    if (!modal) {
+        return null;
+    }
+
+    document.body.appendChild(modal);
+
+    const closeModal = function () {
+        modal.classList.remove("active");
+        document.body.style.overflow = "";
+    };
+
+    const overlay = modal.querySelector(".modal-overlay");
+    const closeButton = modal.querySelector(".modal-close");
+    const footerButton = modal.querySelector(".modal-footer .btn");
+
+    [overlay, closeButton, footerButton].forEach(function (element) {
+        if (element) {
+            element.addEventListener("click", closeModal);
+        }
+    });
+
+    window.closeCourseModal = window.closeCourseModal || closeModal;
+
+    return modal;
+}
+
+function openDiagnosticAiModal(html, title) {
+    const modal = ensureDiagnosticCourseModal();
+
+    if (
+        typeof window.openCourseModal === "function" &&
+        document.getElementById("course-modal")
+    ) {
+        window.openCourseModal(html, title);
+        return;
+    }
+
+    if (!modal) {
+        alert(title);
+        return;
+    }
+
+    const titleNode = document.getElementById("course-title");
+    const bodyNode = document.getElementById("course-body");
+
+    if (titleNode) {
+        titleNode.textContent = title || "Cours";
+    }
+    if (bodyNode) {
+        bodyNode.innerHTML =
+            html ||
+            '<div class="course-section-content">Contenu indisponible.</div>';
+    }
+
+    modal.classList.add("active");
+    document.body.style.overflow = "hidden";
+}
+
+async function requestDiagnosticAi(endpoint, payload) {
+    const response = await fetch(endpoint, {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+            "X-CSRF-Token": window.csrfToken || "",
+        },
+        body: JSON.stringify(
+            Object.assign({}, payload, {
+                csrf_token: window.csrfToken || "",
+            }),
+        ),
+    });
+
+    let data;
+    try {
+        data = await response.json();
+    } catch (error) {
+        throw new Error("Réponse JSON invalide du serveur");
+    }
+
+    if (!response.ok || !data || !data.success || !data.data) {
+        throw new Error(
+            data && data.error
+                ? data.error
+                : "Contenu pédagogique indisponible pour le moment",
+        );
+    }
+
+    return data.data;
+}
+
+async function openDiagnosticExplanation() {
+    const payload = buildDiagnosticAiPayload();
+    if (!payload) {
+        alert(
+            "Aucune erreur exploitable trouvée pour générer une explication.",
+        );
+        return;
+    }
+
+    openDiagnosticAiModal(
+        '<div class="course-section-content">⏳ Génération de l explication en cours...</div>',
+        "Comprendre mes erreurs",
+    );
+
+    const data = await requestDiagnosticAi(
+        `${window.basePath || ""}/index.php?page=api/ia/generate_exercise_explanation`,
+        payload,
+    );
+
+    openDiagnosticAiModal(
+        buildDiagnosticExplanationModalHtml(data),
+        "Comprendre mes erreurs",
+    );
+}
+
+async function openDiagnosticPreciseCourse() {
+    const payload = buildDiagnosticAiPayload();
+    if (!payload) {
+        alert("Aucune erreur exploitable trouvée pour générer un mini-cours.");
+        return;
+    }
+
+    openDiagnosticAiModal(
+        '<div class="course-section-content">⏳ Génération du mini-cours en cours...</div>',
+        "Mini-cours ciblé",
+    );
+
+    const data = await requestDiagnosticAi(
+        `${window.basePath || ""}/index.php?page=api/ia/generate_precise_course`,
+        payload,
+    );
+
+    openDiagnosticAiModal(
+        buildDiagnosticPreciseCourseModalHtml(data),
+        data.title || "Mini-cours ciblé",
+    );
+}
+
+function getPoolHintText(totalPool) {
+    if (Number.isNaN(totalPool) || totalPool <= 0) {
+        return "";
+    }
+
+    if (totalPool <= 2) {
+        return `⚠️ Pool très petit (${totalPool} quiz). Tu risques de retrouver les mêmes quiz très vite. On travaille à enrichir le contenu.`;
+    }
+
+    if (totalPool <= 5) {
+        return `⚠️ Pool réduit (${totalPool} quiz). Les répétitions sont possibles rapidement, surtout pour ta matière.`;
+    }
+
+    if (totalPool <= 10) {
+        return `ℹ️ Pool modéré (${totalPool} quiz). Tu auras de la nouveauté, mais surveille les répétitions sur plusieurs sessions.`;
+    }
+
+    return "";
+}
+
 document.addEventListener("DOMContentLoaded", async () => {
     console.log("✅ DOMContentLoaded déclenché");
     const app = document.getElementById("diagnostic-app");
@@ -93,10 +441,15 @@ document.addEventListener("DOMContentLoaded", async () => {
         // Récupérer les quiz (data.quiz ou data.data selon la structure)
         const quizArray = data.quiz || data.data || [];
         const recommendedQuizId = Number(data?.recommendation?.id || 0);
+        const totalPool = Number(data?.total_pool || quizArray.length);
+
+        const poolHintText = getPoolHintText(totalPool);
 
         console.log("INFO: Quiz array reçu:", {
             isArray: Array.isArray(quizArray),
             length: quizArray ? quizArray.length : "N/A",
+            totalPool,
+            poolHintText,
             type: typeof quizArray,
             content: quizArray,
         });
@@ -187,6 +540,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                         🩺 Diagnostics ${level.toUpperCase()}
                     </h1>
                     <p class="text-2xl text-gray-800 font-semibold mb-2">${quizArray.length} quiz disponibles</p>
+                    ${poolHintText ? `<p class="text-base text-yellow-700 mb-4 font-semibold bg-yellow-100 p-3 rounded-xl border border-yellow-200">${escapeHtml(poolHintText)}</p>` : ""}
                     <div class="flex flex-wrap justify-center gap-4 mb-4">
                         <span class="px-4 py-2 rounded-full ${levelBadgeClass} font-bold shadow">${levelType}</span>
                         <span class="px-4 py-2 rounded-full bg-indigo-100 text-indigo-800 font-bold shadow">Test de niveau</span>
@@ -556,12 +910,28 @@ async function submitQuiz() {
     const feedback = responseData.feedback || {};
     const xpGained = Number(responseData.xp_gained || 0);
     const xpTotal = Number(responseData.xp_total || 0);
+    const detailedResults = Array.isArray(responseData.results)
+        ? responseData.results
+        : [];
     const strengths = Array.isArray(feedback.strengths)
         ? feedback.strengths
         : [];
     const toReview = Array.isArray(feedback.to_review)
         ? feedback.to_review
         : [];
+
+    currentQuizState.lastResults = detailedResults;
+    currentQuizState.level = responseData.level || currentQuizState.level || "";
+    currentQuizState.subject =
+        responseData.subject ||
+        currentQuizState.subject ||
+        window.userSubject ||
+        "";
+    currentQuizState.quizTitle =
+        responseData.quiz_title ||
+        currentQuizState.quizTitle ||
+        currentQuizState.title ||
+        "";
 
     // Stocker les réponses initiales pour révision future
     if (!isReviewResult) {
@@ -637,6 +1007,24 @@ async function submitQuiz() {
                     }
                 </div>
                 ${
+                    detailedResults.some(
+                        (result) => result && result.is_correct === false,
+                    )
+                        ? `
+                <div class="grid md:grid-cols-2 gap-4 mb-6">
+                    <button data-ai-action="diagnostic-explanation" onclick="openDiagnosticExplanation().catch((error) => { console.error('Diagnostic explanation error:', error); alert(error.message || 'Explication indisponible'); })"
+                            class="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-indigo-600 to-blue-700 hover:from-indigo-700 hover:to-blue-800 text-white font-bold rounded-2xl shadow-xl transition-all">
+                        💡 Comprendre mes erreurs
+                    </button>
+                    <button data-ai-action="diagnostic-precise-course" onclick="openDiagnosticPreciseCourse().catch((error) => { console.error('Diagnostic precise course error:', error); alert(error.message || 'Mini-cours indisponible'); })"
+                            class="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-slate-800 to-slate-950 hover:from-slate-900 hover:to-black text-white font-bold rounded-2xl shadow-xl transition-all">
+                        📘 Voir mon mini-cours ciblé
+                    </button>
+                </div>
+                `
+                        : ""
+                }
+                ${
                     score < 50
                         ? `
                 <button onclick="showCorrectionsHelp()"
@@ -671,6 +1059,51 @@ function retryQuiz() {
 async function showCorrectionsHelp() {
     if (!currentQuizState) {
         alert("Etat du quiz indisponible.");
+        return;
+    }
+
+    if (
+        Array.isArray(currentQuizState.lastResults) &&
+        currentQuizState.lastResults.length > 0
+    ) {
+        const rows = currentQuizState.lastResults
+            .filter((row) => row && row.is_correct === false)
+            .slice(0, 8)
+            .map((row, idx) => {
+                const correction = escapeHtml(
+                    row && row.correction
+                        ? String(row.correction)
+                        : "Correction non disponible.",
+                );
+                const yourAnswer = escapeHtml(
+                    row && row.user_answer
+                        ? String(row.user_answer)
+                        : "Aucune réponse",
+                );
+                const expectedAnswer = escapeHtml(
+                    row && row.expected_answer
+                        ? String(row.expected_answer)
+                        : "Réponse attendue non disponible",
+                );
+                return `<div class="p-4 border rounded-xl bg-gray-50 mb-3"><p class="font-bold mb-1">Q${idx + 1}</p><p class="text-sm text-gray-700 mb-2"><strong>Ta réponse :</strong> ${yourAnswer}</p><p class="text-sm text-gray-700 mb-2"><strong>Réponse attendue :</strong> ${expectedAnswer}</p><p class="text-sm text-gray-700">${correction}</p></div>`;
+            })
+            .join("");
+
+        const app = document.getElementById("diagnostic-app");
+        app.innerHTML = `
+            <div class="max-w-4xl mx-auto p-6">
+                <div class="bg-white rounded-3xl border shadow-xl p-6">
+                    <h2 class="text-2xl font-black mb-2">Corrections guidees</h2>
+                    <p class="text-gray-600 mb-6">Lis les explications, puis refais le quiz pour gagner des points.</p>
+                    ${rows || '<p class="text-gray-600">Aucune correction détaillée disponible.</p>'}
+                    <div class="mt-6 flex flex-wrap gap-3">
+                        <button onclick="retryQuiz()" class="px-5 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold">🔄 Refaire le quiz</button>
+                        <button data-ai-action="diagnostic-explanation" onclick="openDiagnosticExplanation().catch((error) => { console.error('Diagnostic explanation error:', error); alert(error.message || 'Explication indisponible'); })" class="px-5 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold">💡 Comprendre mes erreurs</button>
+                        <button data-ai-action="diagnostic-precise-course" onclick="openDiagnosticPreciseCourse().catch((error) => { console.error('Diagnostic precise course error:', error); alert(error.message || 'Mini-cours indisponible'); })" class="px-5 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold">📘 Mini-cours ciblé</button>
+                    </div>
+                </div>
+            </div>
+        `;
         return;
     }
 

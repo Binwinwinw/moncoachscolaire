@@ -10,6 +10,11 @@
 
 header('Content-Type: application/json; charset=utf-8');
 
+$loginSecurityPath = dirname(__DIR__) . '/includes/login_security.php';
+if (is_file($loginSecurityPath)) {
+    require_once $loginSecurityPath;
+}
+
 if (!isset($pdo) || !$pdo instanceof PDO) {
     http_response_code(503);
     echo json_encode(['success' => false, 'error' => 'Base de données non disponible']);

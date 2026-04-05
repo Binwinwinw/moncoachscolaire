@@ -2,6 +2,19 @@
 <?php
 // AUCUN ESPACE NI LIGNE VIDE AVANT CE PHP !
 // Démarrer la session et vérifier l'authentification AVANT toute inclusion ou configuration
+$site_boot = dirname(__DIR__, 2) . '/config/site_boot.php';
+if (!is_file($site_boot)) {
+    $site_boot = __DIR__ . '/bootstrap/site_boot.php';
+}
+if (is_file($site_boot)) {
+    require_once $site_boot;
+}
+
+$redirect_helpers = dirname(__DIR__, 2) . '/includes/redirect_helpers.php';
+if (is_file($redirect_helpers)) {
+    require_once $redirect_helpers;
+}
+
 if (function_exists('ensure_session_started')) {
     ensure_session_started();
 } else {
@@ -15,9 +28,10 @@ if (function_exists('ensure_session_started')) {
 }
 if (empty($_SESSION['user_id']) || empty($_SESSION['logged_in'])) {
     $_SESSION['redirect_after_login'] = $_SERVER['REQUEST_URI'] ?? 'eleve/dashboard';
-    // Redirection dynamique selon environnement (locale/prod)
-    $loginUrl = function_exists('site_url') ? site_url('public/index.php?page=login') : ($_SERVER['HTTP_HOST'] === 'localhost' ? '/moncoachscolaire/public/index.php?page=login' : '/public/index.php?page=login');
-    header('Location: ' . $loginUrl);
+    $loginUrl = site_url('login');
+    if (function_exists('safe_redirect')) {
+        safe_redirect($loginUrl);
+    }
     exit;
 }
 
@@ -29,11 +43,6 @@ if (!isset($pdo)) {
     require_once dirname(__DIR__, 2) . '/config/config.php';
 }
 // Charger site_boot.php pour avoir accès aux fonctions utilitaires (site_url, normalize_level_for_url, etc.)
-if (is_file(dirname(__DIR__, 2) . '/config/site_boot.php')) {
-    require_once dirname(__DIR__, 2) . '/config/site_boot.php';
-} elseif (is_file(__DIR__ . '/bootstrap/site_boot.php')) {
-    require_once __DIR__ . '/bootstrap/site_boot.php';
-}
 require_once dirname(__DIR__, 2) . '/database/connection.php';
 
 // Charger le système de normalisation des niveaux pour gérer les problèmes d'encodage UTF-8
@@ -54,8 +63,11 @@ $is_admin = function_exists('isAdmin') && isAdmin();
 
 // SÉCURITÉ : Rediriger le compte démo vers la page de démo
 if (isDemoUser()) {
-    $demoUrl = function_exists('site_url') ? site_url('demo') : ($_SERVER['HTTP_HOST'] === 'localhost' ? '/moncoachscolaire/public/demo' : '/public/demo');
-    header('Location: ' . $demoUrl . '?demo=1&redirected=1');
+    $demoUrl = site_url('demo');
+    $demoRedirectUrl = $demoUrl . '?demo=1&redirected=1';
+    if (function_exists('safe_redirect')) {
+        safe_redirect($demoRedirectUrl);
+    }
     exit;
 }
 
@@ -79,15 +91,6 @@ $direct_access = (realpath($_SERVER['SCRIPT_FILENAME'] ?? '') === realpath(__FIL
 if ($direct_access) {
     // === DÉCLENCHEUR HEAD/HTML : n'émettre le <head> que si accès direct ===
     // Charger les helpers et la configuration
-    $site_boot = __DIR__ . '/site_boot.php';
-    if (!is_file($site_boot)) {
-        $site_boot = __DIR__ . '/bootstrap/site_boot.php';
-    }
-    if (is_file($site_boot)) {
-        require_once $site_boot;
-    }
-
-
     // Emettre le head avec les CSS
     ?><!doctype html>
         <html lang="fr">
@@ -110,15 +113,10 @@ if ($direct_access) {
         $cssPage = asset_url('assets/css/pages/' . $page_css);
         $coachWebmScript = asset_url('assets/js/coach-webm.js');
     } else {
-        if ($_SERVER['HTTP_HOST'] === 'localhost') {
-            $cssStyle = '/moncoachscolaire/public/assets/css/style.css';
-            $cssPage = '/moncoachscolaire/public/assets/css/pages/' . htmlspecialchars($page_css, ENT_QUOTES);
-            $coachWebmScript = '/moncoachscolaire/public/assets/js/coach-webm.js';
-        } else {
-            $cssStyle = '/public/assets/css/style.css';
-            $cssPage = '/public/assets/css/pages/' . htmlspecialchars($page_css, ENT_QUOTES);
-            $coachWebmScript = '/public/assets/js/coach-webm.js';
-        }
+        $assetBase = ($root !== '') ? $root : '';
+        $cssStyle = $assetBase . '/assets/css/style.css';
+        $cssPage = $assetBase . '/assets/css/pages/' . rawurlencode($page_css);
+        $coachWebmScript = $assetBase . '/assets/js/coach-webm.js';
     }
     ?>
                 <link rel="stylesheet" href="<?php echo htmlspecialchars($cssStyle, ENT_QUOTES); ?>">

@@ -2,13 +2,21 @@
 $page_title = 'Mes Statistiques - MonCoachScolaire';
 $page_css = 'pages/stats.css';
 
+$redirect_helpers = dirname(__DIR__, 2) . '/includes/redirect_helpers.php';
+if (is_file($redirect_helpers)) {
+    require_once $redirect_helpers;
+}
+
 require_once dirname(__DIR__, 2) . '/config/config.php';
 require_once dirname(__DIR__, 2) . '/config/site_boot.php';
 require_once dirname(__DIR__, 2) . '/includes/study_tracker.php';
 
 // Vérifier connexion
 if (!$is_logged_in) {
-    header('Location: ' . site_url('login'));
+    $loginUrl = site_url('login');
+    if (function_exists('safe_redirect')) {
+        safe_redirect($loginUrl);
+    }
     exit;
 }
 

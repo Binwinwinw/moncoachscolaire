@@ -20,16 +20,14 @@ if ($session_status !== PHP_SESSION_ACTIVE) {
 $is_logged_in = !empty($_SESSION['user_id']);
 $user_id = $_SESSION['user_id'] ?? null;
 if (!$is_logged_in) {
-    header('Location: ' . site_url('login') . '?redirect=admin/diagnostic');
-    exit;
+    safe_redirect(site_url('login') . '?redirect=admin/diagnostic');
 }
 // Charger et vérifier admin
 if (is_file(dirname(__DIR__, 2) . '/includes/admin_auth.php')) {
     require_once dirname(__DIR__, 2) . '/includes/admin_auth.php';
     // Si l'utilisateur connecté n'est pas admin, rediriger
     if (!function_exists('isAdmin') || !isAdmin()) {
-        header('Location: ' . site_url('eleve/dashboard'));
-        exit;
+        safe_redirect(site_url('eleve/dashboard'));
     }
 }
 // Charger connexion BD

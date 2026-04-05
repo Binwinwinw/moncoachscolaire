@@ -1,15 +1,13 @@
-	<?php
-    // Détection dynamique du chemin base pour compatibilité locale/prod
-    $baseAccueil = (isset($_SERVER['HTTP_HOST']) && strpos($_SERVER['HTTP_HOST'], 'moncoachscolaire.fr') !== false)
-        ? '/public/index.php?page=landingpage'
-        : '/moncoachscolaire/public/index.php?page=landingpage';
-?>
 <?php
 // Protection session et vérification admin
+require_once dirname(__DIR__, 2) . '/config/site_boot.php';
+require_once dirname(__DIR__, 2) . '/includes/redirect_helpers.php';
 require_once dirname(__DIR__, 2) . '/includes/admin_auth.php';
+
+$baseAccueil = site_url('landingpage');
+
 if (!isAdmin()) {
-    header('Location: /public/index.php?page=login&redirect=admin%2Fstats');
-    exit;
+	safe_redirect(site_url('login', ['redirect' => 'admin/stats']));
 }
 
 // Connexion DB
