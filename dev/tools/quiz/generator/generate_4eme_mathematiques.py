@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Générateur quiz Mathématiques 4e — SQUELETTE
-"""
+"""Générateur de quiz Mathématiques 4e — lot pilote fractions."""
 
 from __future__ import annotations
+
 import json
 import os
 import random
@@ -15,41 +14,481 @@ OUTPUT_DIR = os.path.join(SCRIPT_DIR, "mathematiques_4eme_quizzes")
 QUIZ_DIR = os.path.join(OUTPUT_DIR, "quiz")
 ANSWERS_DIR = os.path.join(OUTPUT_DIR, "quiz_answers")
 
-quizzes_data = [
-    # À compléter : (id, titre, "Mathématiques", "4e", [questions...])
-]
 
-def make_quiz(qid, title, subject, level, questions):
-    created_at = datetime.now(UTC).strftime("%Y-%m-%d %H:%M:%S")
-    runtime_questions = []
-    for question in questions:
-        # ...existing code...
-        pass
-    # ...existing code...
+def make_qcm(question_id, question, options, correct_option, explanation):
     return {
-        "id": qid,
-        "title": title,
-        "subject": subject,
-        "level": level,
-        "questions": runtime_questions,
-        "created_at": created_at,
+        "id": question_id,
+        "type": "qcm",
+        "question": question,
+        "options": options,
+        "correct_option": correct_option,
+        "explanation": explanation,
     }
 
+
+def make_true_false(question_id, question, correct, explanation):
+    return {
+        "id": question_id,
+        "type": "vrai-faux",
+        "question": question,
+        "correct": correct,
+        "explanation": explanation,
+    }
+
+
+def make_open(question_id, question, correct_answer, explanation):
+    return {
+        "id": question_id,
+        "type": "texte",
+        "question": question,
+        "correct_answer": correct_answer,
+        "explanation": explanation,
+    }
+
+
+quizzes_data = [
+    (
+        4101,
+        "Addition de fractions",
+        "Mathématiques",
+        "4eme",
+        [
+            {
+                "notion": "Dénominateur commun",
+                "description": "Trouver un dénominateur commun avant d'additionner deux fractions de dénominateurs différents.",
+            },
+            {
+                "notion": "Addition des numérateurs",
+                "description": "Une fois les dénominateurs égaux, on additionne seulement les numérateurs.",
+            },
+            {
+                "notion": "Simplification finale",
+                "description": "Réduire la fraction obtenue pour donner une réponse plus lisible.",
+            },
+        ],
+        [
+            make_qcm(
+                "4101question_1",
+                "Pour additionner 3/4 et 1/4, quel dénominateur commun utilises-tu ?",
+                ["4", "8", "12", "2"],
+                "4",
+                "Les deux fractions ont déjà le même dénominateur : on garde 4.",
+            ),
+            make_true_false(
+                "4101question_2",
+                "1/2 et 2/4 représentent la même quantité.",
+                True,
+                "Oui, 1/2 = 2/4 : on a simplement multiplié numérateur et dénominateur par 2.",
+            ),
+            make_qcm(
+                "4101question_3",
+                "Comment calcule-t-on correctement 2/3 + 1/6 ?",
+                [
+                    "Je prends 6 comme dénominateur commun, puis 2/3 devient 4/6 et j'obtiens 5/6.",
+                    "J'additionne 2+1 et 3+6 pour obtenir 3/9.",
+                    "Je multiplie directement les deux fractions.",
+                    "Je garde 2/3 sans transformation puis j'ajoute 1/6 à part.",
+                ],
+                "Je prends 6 comme dénominateur commun, puis 2/3 devient 4/6 et j'obtiens 5/6.",
+                "La bonne méthode consiste à chercher un dénominateur commun puis à additionner les numérateurs.",
+            ),
+            make_qcm(
+                "4101question_4",
+                "Quel est le résultat de 5/8 + 1/8 ?",
+                ["6/8", "5/16", "6/16", "4/8"],
+                "6/8",
+                "Quand les dénominateurs sont identiques, on additionne seulement les numérateurs : 5 + 1 = 6.",
+            ),
+            make_true_false(
+                "4101question_5",
+                "Quand les dénominateurs sont identiques, on ne change pas le dénominateur.",
+                True,
+                "C'est la règle de base : le dénominateur reste le même.",
+            ),
+            make_qcm(
+                "4101question_6",
+                "Quelle erreur fréquente faut-il éviter quand on additionne des fractions ?",
+                [
+                    "Additionner aussi les dénominateurs",
+                    "Chercher un dénominateur commun",
+                    "Simplifier le résultat final",
+                    "Vérifier l'ordre de grandeur",
+                ],
+                "Additionner aussi les dénominateurs",
+                "L'erreur classique consiste à faire 1/2 + 1/3 = 2/5, ce qui est faux.",
+            ),
+            make_qcm(
+                "4101question_7",
+                "Quel est le résultat de 2/5 + 1/10 ?",
+                ["3/15", "1/2", "3/10", "2/10"],
+                "1/2",
+                "2/5 = 4/10, donc 4/10 + 1/10 = 5/10 = 1/2.",
+            ),
+            make_true_false(
+                "4101question_8",
+                "Après une addition, on peut parfois simplifier la fraction obtenue.",
+                True,
+                "Par exemple 6/8 peut être simplifiée en 3/4.",
+            ),
+        ],
+    ),
+    (
+        4102,
+        "Soustraction de fractions",
+        "Mathématiques",
+        "4eme",
+        [
+            {
+                "notion": "Soustraction avec même dénominateur",
+                "description": "Soustraire les numérateurs lorsque les fractions ont déjà le même dénominateur.",
+            },
+            {
+                "notion": "Écriture équivalente",
+                "description": "Transformer une fraction pour obtenir un dénominateur commun avant la soustraction.",
+            },
+            {
+                "notion": "Contrôle du résultat",
+                "description": "Vérifier que le résultat reste cohérent avec l'ordre de grandeur attendu.",
+            },
+        ],
+        [
+            make_qcm(
+                "4102question_1",
+                "Quel est le résultat de 7/8 - 3/8 ?",
+                ["3/8", "4/8", "4/16", "10/8"],
+                "4/8",
+                "7/8 - 3/8 = 4/8, que l'on peut ensuite simplifier en 1/2.",
+            ),
+            make_true_false(
+                "4102question_2",
+                "3/4 - 1/2 = 2/2.",
+                False,
+                "1/2 vaut 2/4, donc 3/4 - 2/4 = 1/4 et non 2/2.",
+            ),
+            make_qcm(
+                "4102question_3",
+                "Comment calcule-t-on correctement 5/6 - 1/3 ?",
+                [
+                    "Je transforme 1/3 en 2/6, puis je fais 5/6 - 2/6 = 3/6, soit 1/2.",
+                    "Je soustrais 5-1 et 6-3 pour obtenir 4/3.",
+                    "Je multiplie les dénominateurs et les numérateurs.",
+                    "Je garde les fractions telles quelles sans transformation.",
+                ],
+                "Je transforme 1/3 en 2/6, puis je fais 5/6 - 2/6 = 3/6, soit 1/2.",
+                "La démarche correcte passe par un dénominateur commun puis une simplification éventuelle.",
+            ),
+            make_qcm(
+                "4102question_4",
+                "Pour calculer 3/5 - 1/10, on peut écrire 3/5 sous la forme...",
+                ["6/10", "3/10", "9/10", "4/10"],
+                "6/10",
+                "3/5 = 6/10 ; cela permet de faire ensuite 6/10 - 1/10.",
+            ),
+            make_true_false(
+                "4102question_5",
+                "Pour soustraire deux fractions, on soustrait aussi les dénominateurs.",
+                False,
+                "C'est faux : on garde le dénominateur commun et on ne soustrait que les numérateurs.",
+            ),
+            make_qcm(
+                "4102question_6",
+                "Pourquoi est-il utile d'estimer mentalement le résultat avant de calculer ?",
+                [
+                    "Pour vérifier que le résultat paraît plausible",
+                    "Pour éviter d'écrire les fractions",
+                    "Pour ne plus avoir besoin de calculer",
+                    "Pour transformer automatiquement les fractions",
+                ],
+                "Pour vérifier que le résultat paraît plausible",
+                "L'estimation évite les erreurs grossières comme obtenir un résultat plus grand après une soustraction.",
+            ),
+            make_qcm(
+                "4102question_7",
+                "Quel est le résultat de 9/10 - 1/5 ?",
+                ["8/5", "7/5", "7/10", "8/10"],
+                "7/10",
+                "1/5 = 2/10, donc 9/10 - 2/10 = 7/10.",
+            ),
+            make_true_false(
+                "4102question_8",
+                "Une vérification finale peut consister à comparer le résultat à un dessin ou une droite graduée.",
+                True,
+                "Une représentation visuelle aide à confirmer le sens de la soustraction.",
+            ),
+        ],
+    ),
+    (
+        4103,
+        "Fractions en situation-problème",
+        "Mathématiques",
+        "4eme",
+        [
+            {
+                "notion": "Traduire un énoncé",
+                "description": "Repérer les données utiles et les convertir en fractions comparables.",
+            },
+            {
+                "notion": "Sens du résultat",
+                "description": "Décider si le résultat final doit être inférieur, supérieur ou égal à 1.",
+            },
+            {
+                "notion": "Résolution progressive",
+                "description": "Procéder étape par étape pour éviter les contresens dans un problème.",
+            },
+        ],
+        [
+            make_qcm(
+                "4103question_1",
+                "Lina boit 1/3 d'une bouteille le matin puis 1/6 l'après-midi. Quelle quantité a-t-elle bue au total ?",
+                ["1/2", "2/9", "1/9", "2/3"],
+                "1/2",
+                "1/3 = 2/6, donc 2/6 + 1/6 = 3/6 = 1/2.",
+            ),
+            make_true_false(
+                "4103question_2",
+                "4/8 et 1/2 désignent la même portion.",
+                True,
+                "On simplifie 4/8 en divisant par 4 : on obtient 1/2.",
+            ),
+            make_qcm(
+                "4103question_3",
+                "Un élève a déjà résolu 3/4 d'un exercice puis encore 1/8. Quelle fraction de l'exercice est terminée ?",
+                [
+                    "7/8",
+                    "4/12",
+                    "3/32",
+                    "1 entier",
+                ],
+                "7/8",
+                "L'essentiel est de passer à un même dénominateur avant d'additionner.",
+            ),
+            make_qcm(
+                "4103question_4",
+                "Quel dénominateur commun est pertinent pour 1/6 et 5/9 ?",
+                ["9", "15", "18", "54"],
+                "18",
+                "18 est le plus petit multiple commun de 6 et 9.",
+            ),
+            make_true_false(
+                "4103question_5",
+                "On peut simplifier une fraction en divisant le numérateur et le dénominateur par un même nombre non nul.",
+                True,
+                "Cette opération conserve la valeur de la fraction.",
+            ),
+            make_qcm(
+                "4103question_6",
+                "À quoi sert le dénominateur commun dans un problème sur les fractions ?",
+                [
+                    "À comparer ou additionner des parts dans la même unité",
+                    "À supprimer les fractions de l'énoncé",
+                    "À éviter toute simplification",
+                    "À rendre toutes les réponses égales à 1",
+                ],
+                "À comparer ou additionner des parts dans la même unité",
+                "Sans dénominateur commun, on additionne des quantités qui ne sont pas directement comparables.",
+            ),
+            make_qcm(
+                "4103question_7",
+                "Quel est le résultat de 5/12 + 1/4 ?",
+                ["6/16", "6/12", "8/12", "2/3"],
+                "2/3",
+                "1/4 = 3/12, donc 5/12 + 3/12 = 8/12 = 2/3.",
+            ),
+            make_true_false(
+                "4103question_8",
+                "Avant de répondre, estimer si le résultat final est inférieur ou supérieur à 1 aide à éviter les erreurs.",
+                True,
+                "Le contrôle d'ordre de grandeur est un très bon réflexe de 4e.",
+            ),
+        ],
+    ),
+]
+
+
+def normalize_question_type(question_type):
+    qtype = str(question_type).strip().lower()
+    if qtype in {"vrai-faux", "vrai faux"}:
+        return "vrai-faux"
+    if qtype == "qcm":
+        return "qcm"
+    if qtype in {"texte", "open", "text"}:
+        return "open"
+    return "open"
+
+
+def resolve_qcm_answer(question):
+    options = list(question.get("options", []))
+    raw_answer = str(question.get("correct_option", question.get("correct_answer", ""))).strip()
+    letter_map = {"A": 0, "B": 1, "C": 2, "D": 3}
+
+    if raw_answer.upper() in letter_map:
+        option_index = letter_map[raw_answer.upper()]
+        if option_index < len(options):
+            return options[option_index]
+
+    return raw_answer
+
+
+def make_quiz(qid, title, subject, level, notions, questions):
+    created_at = datetime.now(UTC).strftime("%Y-%m-%d %H:%M:%S")
+    runtime_questions = []
+
+    for question in questions:
+        qtype = normalize_question_type(question.get("type", "texte"))
+        if qtype == "qcm":
+            runtime_questions.append(
+                {
+                    "type": "qcm",
+                    "question": str(question.get("question", "")),
+                    "choices": list(question.get("options", [])),
+                }
+            )
+        elif qtype == "vrai-faux":
+            runtime_questions.append(
+                {
+                    "type": "vrai-faux",
+                    "question": str(question.get("question", "")),
+                }
+            )
+        else:
+            runtime_questions.append(
+                {
+                    "type": "open",
+                    "question": str(question.get("question", "")),
+                }
+            )
+
+    return {
+        "contents": {
+            "title": f"Quiz Diagnostic {subject} {level} - Série {qid}",
+            "type": "quiz",
+            "level": level,
+            "subject": subject,
+            "description": f"Diagnostic {subject} {level} : {title}",
+            "status": "published",
+            "created_at": created_at,
+            "updated_at": created_at,
+        },
+        "quiz": {
+            "title": title,
+            "type": "quiz",
+            "level": level,
+            "subject": subject,
+            "question_count": len(runtime_questions),
+            "passing_score": 70,
+            "time_limit_minutes": 15,
+            "questions": runtime_questions,
+        },
+        "exercisenotion": notions,
+        "exerciseresponses": [],
+    }
+
+
 def make_answers(qid, title, subject, level, questions):
-    # ...existing code...
-    return {}
+    answers = []
+
+    for index, question in enumerate(questions):
+        qtype = normalize_question_type(question.get("type", "texte"))
+        if qtype == "qcm":
+            answers.append(
+                {
+                    "index": index,
+                    "question_id": index + 1,
+                    "type": "qcm",
+                    "answer": resolve_qcm_answer(question),
+                    "correction": question.get("explanation", ""),
+                }
+            )
+        elif qtype == "vrai-faux":
+            answers.append(
+                {
+                    "index": index,
+                    "question_id": index + 1,
+                    "type": "vrai-faux",
+                    "answer": "vrai" if question.get("correct", False) else "faux",
+                    "correction": question.get("explanation", ""),
+                }
+            )
+        else:
+            answers.append(
+                {
+                    "index": index,
+                    "question_id": index + 1,
+                    "type": "open",
+                    "answer": question.get("correct_answer", ""),
+                    "correction": question.get("explanation", ""),
+                }
+            )
+
+    return {
+        "contents": {
+            "title": f"Quiz Diagnostic {subject} {level} - Série {qid}",
+            "level": level,
+            "subject": subject,
+        },
+        "quiz": {
+            "title": title,
+            "question_count": len(answers),
+            "level": level,
+            "subject": subject,
+            "answers": answers,
+        },
+    }
+
+
+def verify_random_sentinel():
+    if not quizzes_data:
+        print("[sentinel] skipped: no quiz data")
+        return
+
+    sentinel_qid, _, _, _, _, _ = random.choice(quizzes_data)
+    quiz_path = os.path.join(QUIZ_DIR, f"{sentinel_qid}.json")
+    answers_path = os.path.join(ANSWERS_DIR, f"{sentinel_qid}.json")
+
+    with open(quiz_path, "r", encoding="utf-8") as file_obj:
+        quiz_payload = json.load(file_obj)
+
+    with open(answers_path, "r", encoding="utf-8") as file_obj:
+        answers_payload = json.load(file_obj)
+
+    questions = list(quiz_payload.get("quiz", {}).get("questions", []))
+    answers = list(answers_payload.get("quiz", {}).get("answers", []))
+
+    if len(questions) != len(answers):
+        raise ValueError(
+            f"[sentinel] mismatch for quiz {sentinel_qid}: questions={len(questions)} answers={len(answers)}"
+        )
+
+    allowed_types = {"qcm", "vrai-faux", "open"}
+    for index, question in enumerate(questions):
+        question_type = str(question.get("type", ""))
+        if question_type not in allowed_types:
+            raise ValueError(
+                f"[sentinel] invalid question type for quiz {sentinel_qid} at index {index}: {question_type}"
+            )
+
+    print(f"[sentinel] OK quiz={sentinel_qid} questions={len(questions)} answers={len(answers)}")
+
 
 def write_quiz_files():
     os.makedirs(QUIZ_DIR, exist_ok=True)
     os.makedirs(ANSWERS_DIR, exist_ok=True)
-    for quiz in quizzes_data:
-        qid, title, subject, level, questions = quiz
-        quiz_obj = make_quiz(qid, title, subject, level, questions)
+
+    for qid, title, subject, level, notions, questions in quizzes_data:
+        quiz_obj = make_quiz(qid, title, subject, level, notions, questions)
         answers_obj = make_answers(qid, title, subject, level, questions)
-        with open(os.path.join(QUIZ_DIR, f"{qid}.json"), "w", encoding="utf-8") as f:
-            json.dump(quiz_obj, f, ensure_ascii=False, indent=2)
-        with open(os.path.join(ANSWERS_DIR, f"{qid}.json"), "w", encoding="utf-8") as f:
-            json.dump(answers_obj, f, ensure_ascii=False, indent=2)
+
+        with open(os.path.join(QUIZ_DIR, f"{qid}.json"), "w", encoding="utf-8", newline="\n") as file_obj:
+            json.dump(quiz_obj, file_obj, ensure_ascii=False, indent=2)
+            file_obj.write("\n")
+
+        with open(os.path.join(ANSWERS_DIR, f"{qid}.json"), "w", encoding="utf-8", newline="\n") as file_obj:
+            json.dump(answers_obj, file_obj, ensure_ascii=False, indent=2)
+            file_obj.write("\n")
+
+    print(f"{len(quizzes_data)} quiz générés dans {OUTPUT_DIR}")
+    verify_random_sentinel()
+
 
 if __name__ == "__main__":
     write_quiz_files()

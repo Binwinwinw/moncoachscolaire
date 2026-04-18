@@ -1,4 +1,22 @@
-﻿## [06/04/2026] 🚀 ENRICHISSEMENT MASIF QUIZZES — +945 quizzes valides (1684 total)
+﻿## [18/04/2026] 🧹 Nettoyage runtime placeholders — VALIDÉ
+
+Résumé :
+
+- template de génération quiz réaligné sur la structure runtime réellement utilisée
+- lot pilote 4e fractions conservé et recopié dans les données applicatives
+- suppression ciblée des quiz placeholders manifestes dans `src/data/quiz/` et `src/data/quiz_answers/`
+
+Preuves :
+
+- **733 fichiers placeholder supprimés**
+- **0 occurrence restante** sur les motifs forts vérifiés (Concept A/B/C, Notion 1, placeholder, corrections génériques)
+- quiz pilotes 4101-4103 toujours présents après nettoyage
+
+Impact : amélioration nette de la qualité des quizzes servis en production locale.
+
+---
+
+## [06/04/2026] 🚀 ENRICHISSEMENT MASIF QUIZZES — +945 quizzes valides (1684 total)
 
 **PROJET ACHEVÉ : Migration de 1598 → 1820 quizzes + enrichissement notions pédagogiques**
 
@@ -285,7 +303,7 @@ Decision : baseline qualite mise a jour sur le rapport raffine pour eviter les f
 | Haute    | API IA pedagogique + front   | ✅ Explications d'exercices + mini-cours cibles — COMPLET        | ✅ Fait — À VALIDER | **[06/04/2026]** Audit code : `generate_exercise_explanation.php` IMPLÉMENTÉ + `generate_precise_course.php` EXISTE (ancien) + bouton "💡 Comprendre mon erreur" intégré dans `interactive-exercises.js` (4 points). À VALIDER : test E2E complet (appel API + affichage modal + interactivité). Endpoints IA all ready, structure JSON testée.                                                                                                                                    |
 | Haute    | API diagnostic + front       | ✅ Anti-répétition quiz — IMPLÉMENTÉ                             | ✅ Fait — À VALIDER | **[05/04/2026]** Audit code : `src/api/diagnostic.php` IMPLÉMENTÉ avec `loadUserQuizHistoryStats()` + tri par tentatives + récence. Filtrage draft en place. ✅ **[02/04/2026] Objectif "50 tentatives" ABANDONNÉ**. Correctif livré : tri historique cumulé. À VALIDER : simulation sur TOUS les niveaux/sujets (spécialement petits pools < 5).                                                                                                                                  |
 | Haute    | Pipeline diagnostic          | Smoke test E2E connecte livré (list → quiz → questions → submit) | Fait                | Smoke test E2E livré le 02/04/2026. Couvre : chargement diagnostic, clique quiz, affichage questions, remplissage réponses, soumission API. Test dans `dev/tools/tests/e2e/diagnostic-quiz-paths.spec.ts`. Amélioration future : authentifier les tests pour valider la soumission complète (pas blocker).                                                                                                                                                                         |
-| Haute    | Nouveaux exercices et cours  | Creer du contenu pedagogique de qualite (exercices, cours)       | A faire             | Priorite produit confirmee le 02/04/2026 suite au pivot Quiz AI.                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Haute    | Nouveaux exercices et cours  | Creer du contenu pedagogique de qualite (exercices, cours)       | En cours            | **[17/04/2026]** Lot pilote 1 lance : Mathématiques 4eme — fractions. Générateur complété + 3 quiz runtime créés (4101-4103) avec réponses et notions pédagogiques. Étape suivante : test fonctionnel dans l'application puis revue qualité humaine avant extension à d'autres lots.                                                                                                                                                                                               |
 | Basse    | Toutes pages                 | Mode sombre                                                      | A etudier           | Cadrage UI/CSS global a definir.                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
 ---

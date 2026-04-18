@@ -24,6 +24,20 @@ Sources de verite:
 - [dev/JOURNAL_REPRISE.md](dev/JOURNAL_REPRISE.md)
 - [dev/SUIVI_BUGS_AMELIORATIONS.md](dev/SUIVI_BUGS_AMELIORATIONS.md)
 
+## [18/04/2026] Gouvernance quiz runtime — nettoyage et fiabilisation
+
+Mise à jour documentaire :
+
+- le template de génération Python a été réaligné sur la structure JSON réellement consommée par l'application
+- les sorties validées du lot pilote ont été recopiées dans les données runtime
+- une campagne de nettoyage a supprimé les quizzes placeholders manifestes encore présents dans la base applicative
+
+À retenir :
+
+- pour l'état d'avancement, suivre [dev/SUIVI_BUGS_AMELIORATIONS.md](dev/SUIVI_BUGS_AMELIORATIONS.md)
+- pour l'historique détaillé des interventions, suivre [dev/JOURNAL_REPRISE.md](dev/JOURNAL_REPRISE.md)
+- les futurs générateurs doivent partir des templates du dossier quiz generator déjà réalignés
+
 ## [02/04/2026] Priorites actives pour la suite
 
 Le tableau de pilotage a ete consolide dans [dev/SUIVI_BUGS_AMELIORATIONS.md](dev/SUIVI_BUGS_AMELIORATIONS.md) avec trois sections stables : priorites actives, realise, abandonne / remplace.

@@ -21,84 +21,129 @@ QUIZ_DIR = os.path.join(OUTPUT_DIR, "quiz")
 ANSWERS_DIR = os.path.join(OUTPUT_DIR, "quiz_answers")
 
 # Keep this tuple updated and aligned with the declared ID range.
-# Pattern recommended for 8 questions:
-# qcm, vrai-faux, texte, qcm, vrai-faux, texte, qcm, vrai-faux
+# Pattern aligned with the real runtime example from quiz 1:
+# qcm, vrai-faux, qcm, qcm, vrai-faux, qcm, qcm, vrai-faux
+# Use "texte" only when an open answer is truly needed.
 quizzes_data = [
     (
-        id,
+        "0001",
         "Titre du quiz",
         "Matiere",
         "niveau",
         [
             {
-                "id": f"{id}question_1",
+                "id": "0001_1",
                 "type": "qcm",
-                "question": "Question QCM ?",
-                "options": ["A", "B", "C", "D"],
-                "correct_option": "A",
-                "explanation": "Explication concise datée sourcée.",
+                "question": "Quelle réponse correspond au document ?",
+                "options": [
+                    "Réponse attendue",
+                    "Distracteur 1",
+                    "Distracteur 2",
+                    "Distracteur 3",
+                ],
+                "correct_option": "Réponse attendue",
+                "explanation": "Explication concise, claire et pédagogique.",
             },
             {
-                "id": f"{id}question_2",
+                "id": "0001_2",
                 "type": "vrai-faux",
-                "question": "Affirmation vrai/faux ?",
+                "question": "Cette affirmation est correcte.",
                 "correct": True,
-                "explanation": "Explication concise datée sourcée.",
+                "explanation": "Justification brève et compréhensible.",
             },
             {
-                "id": f"{id}question_3",
-                "type": "vrai-faux + vrai-faux",
-                "question": "Affirmation combinée vrai/faux ?",
-                "correct_answer": "Reponse attendue + Reponse attendue",
-                "explanation": "Explication concise datée sourcée.",
-            },
-            {
-                "id": f"{id}question_4",
+                "id": "0001_3",
                 "type": "qcm",
-                "question": "Question QCM 2 ?",
-                "options": ["A", "B", "C", "D"],
-                "correct_option": "B",
-                "explanation": "Explication concise datée sourcée.",
+                "question": "Quelle formulation décrit le mieux la situation ?",
+                "options": [
+                    "Bonne formulation",
+                    "Formulation imprécise",
+                    "Contresens 1",
+                    "Contresens 2",
+                ],
+                "correct_option": "Bonne formulation",
+                "explanation": "Le quiz runtime stocke la réponse littérale, pas une lettre A/B/C/D.",
             },
             {
-                "id": f"{id}question_5",
-                "type": "vrai-faux",
-                "question": "Affirmation vrai/faux 2 ?",
-                "correct": False,
-                "explanation": "Explication concise datée sourcée.",
-            },
-            {
-                "id": f"{id}question_6",
-                "type": "vrai-faux + vrai-faux",
-                "question": "Affirmation combinée vrai/faux 2 ?",
-                "correct_answer": "Reponse attendue + Reponse attendue",
-                "explanation": "Explication concise datée sourcée.",
-            },
-            {
-                "id": f"{id}question_7",
+                "id": "0001_4",
                 "type": "qcm",
-                "question": "Question QCM 3 ?",
-                "options": ["A", "B", "C", "D"],
-                "correct_option": "C",
-                "explanation": "Explication concise datée sourcée.",
+                "question": "Quelle méthode est la plus pertinente ?",
+                "options": [
+                    "Méthode correcte",
+                    "Méthode incomplète",
+                    "Méthode erronée",
+                    "Réponse hors sujet",
+                ],
+                "correct_option": "Méthode correcte",
+                "explanation": "Le format de sortie doit correspondre au couple quiz/réponses du dépôt.",
             },
             {
-                "id": f"{id}question_8",
+                "id": "0001_5",
                 "type": "vrai-faux",
-                "question": "Affirmation vrai/faux 3 ?",
+                "question": "Une vérification finale est utile.",
                 "correct": True,
-                "explanation": "Explication concise datée sourcée.",
+                "explanation": "La relecture évite beaucoup d'erreurs simples.",
             },
             {
-                "id": f"{id}question_9",
-                "type": "vrai-faux + vrai-faux",
-                "question": "Affirmation combinée vrai/faux 3 ?",
-                "correct_answer": "Reponse attendue + Reponse attendue",
-                "explanation": "Explication concise datée sourcée.",
-            }
-        ]
+                "id": "0001_6",
+                "type": "qcm",
+                "question": "Quelle erreur faut-il éviter ?",
+                "options": [
+                    "Erreur classique",
+                    "Bonne pratique",
+                    "Réflexe utile",
+                    "Méthode experte",
+                ],
+                "correct_option": "Erreur classique",
+                "explanation": "Le distracteur correct doit rester exprimé comme le texte exact de la bonne réponse.",
+            },
+            {
+                "id": "0001_7",
+                "type": "qcm",
+                "question": "Quelle conclusion est correcte ?",
+                "options": [
+                    "Conclusion juste",
+                    "Conclusion incomplète",
+                    "Conclusion fausse",
+                    "Conclusion hors contexte",
+                ],
+                "correct_option": "Conclusion juste",
+                "explanation": "Cette structure recopie le comportement observé dans les quiz déjà en production.",
+            },
+            {
+                "id": "0001_8",
+                "type": "vrai-faux",
+                "question": "Le modèle peut rester simple et robuste.",
+                "correct": True,
+                "explanation": "Le plus important est la compatibilité avec le runtime existant.",
+            },
+        ],
     ),
 ]
+
+
+def normalize_question_type(question_type):
+    qtype = str(question_type).strip().lower()
+    if qtype in {"vrai-faux", "vrai faux"}:
+        return "vrai-faux"
+    if qtype == "qcm":
+        return "qcm"
+    if qtype in {"texte", "open", "text"}:
+        return "open"
+    return "open"
+
+
+def resolve_qcm_answer(question):
+    options = list(question.get("options", []))
+    raw_answer = str(question.get("correct_option", question.get("correct_answer", ""))).strip()
+    letter_map = {"A": 0, "B": 1, "C": 2, "D": 3}
+
+    if raw_answer.upper() in letter_map:
+        option_index = letter_map[raw_answer.upper()]
+        if option_index < len(options):
+            return options[option_index]
+
+    return raw_answer
 
 
 def make_quiz(qid, title, subject, level, questions):
@@ -106,7 +151,7 @@ def make_quiz(qid, title, subject, level, questions):
     runtime_questions = []
 
     for question in questions:
-        qtype = str(question.get("type", "texte"))
+        qtype = normalize_question_type(question.get("type", "texte"))
         if qtype == "qcm":
             runtime_questions.append(
                 {
@@ -159,17 +204,18 @@ def make_quiz(qid, title, subject, level, questions):
 def make_answers(qid, title, subject, level, questions):
     answers = []
     for index, q in enumerate(questions):
-        if q["type"] == "qcm":
+        qtype = normalize_question_type(q.get("type", "texte"))
+        if qtype == "qcm":
             answers.append(
                 {
                     "index": index,
                     "question_id": index + 1,
                     "type": "qcm",
-                    "answer": q["correct_option"],
+                    "answer": resolve_qcm_answer(q),
                     "correction": q["explanation"],
                 }
             )
-        elif q["type"] == "vrai-faux":
+        elif qtype == "vrai-faux":
             answers.append(
                 {
                     "index": index,

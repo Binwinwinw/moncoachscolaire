@@ -1,0 +1,100 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 4eme - Série 4101",
+    "type": "quiz",
+    "level": "4eme",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 4eme : Addition de fractions",
+    "status": "published",
+    "created_at": "2026-04-18 04:12:34",
+    "updated_at": "2026-04-18 04:12:34"
+  },
+  "quiz": {
+    "title": "Addition de fractions",
+    "type": "quiz",
+    "level": "4eme",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Pour additionner 3/4 et 1/4, quel dénominateur commun utilises-tu ?",
+        "choices": [
+          "4",
+          "8",
+          "12",
+          "2"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "1/2 et 2/4 représentent la même quantité."
+      },
+      {
+        "type": "qcm",
+        "question": "Comment calcule-t-on correctement 2/3 + 1/6 ?",
+        "choices": [
+          "Je prends 6 comme dénominateur commun, puis 2/3 devient 4/6 et j'obtiens 5/6.",
+          "J'additionne 2+1 et 3+6 pour obtenir 3/9.",
+          "Je multiplie directement les deux fractions.",
+          "Je garde 2/3 sans transformation puis j'ajoute 1/6 à part."
+        ]
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le résultat de 5/8 + 1/8 ?",
+        "choices": [
+          "6/8",
+          "5/16",
+          "6/16",
+          "4/8"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Quand les dénominateurs sont identiques, on ne change pas le dénominateur."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle erreur fréquente faut-il éviter quand on additionne des fractions ?",
+        "choices": [
+          "Additionner aussi les dénominateurs",
+          "Chercher un dénominateur commun",
+          "Simplifier le résultat final",
+          "Vérifier l'ordre de grandeur"
+        ]
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le résultat de 2/5 + 1/10 ?",
+        "choices": [
+          "3/15",
+          "1/2",
+          "3/10",
+          "2/10"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Après une addition, on peut parfois simplifier la fraction obtenue."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Dénominateur commun",
+      "description": "Trouver un dénominateur commun avant d'additionner deux fractions de dénominateurs différents."
+    },
+    {
+      "notion": "Addition des numérateurs",
+      "description": "Une fois les dénominateurs égaux, on additionne seulement les numérateurs."
+    },
+    {
+      "notion": "Simplification finale",
+      "description": "Réduire la fraction obtenue pour donner une réponse plus lisible."
+    }
+  ],
+  "exerciseresponses": []
+}

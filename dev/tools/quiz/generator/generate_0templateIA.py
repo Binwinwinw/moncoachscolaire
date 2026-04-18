@@ -76,6 +76,19 @@ def normalize_question_type(question_type):
     return qt
 
 
+def resolve_qcm_answer(question):
+    options = list(question.get("options", []))
+    raw_answer = str(question.get("correct_option", question.get("correct_answer", ""))).strip()
+    letter_map = {"A": 0, "B": 1, "C": 2, "D": 3}
+
+    if raw_answer.upper() in letter_map:
+        option_index = letter_map[raw_answer.upper()]
+        if option_index < len(options):
+            return options[option_index]
+
+    return raw_answer
+
+
 def make_quiz(qid, title, subject, level, questions,
               source="Eduscol + BOEN",
               programme_ref=""):
@@ -139,15 +152,11 @@ def make_answers(qid, title, subject, level, questions):
     for index, q in enumerate(questions):
         qtype = normalize_question_type(q.get("type", ""))
         if qtype == "qcm":
-            options = list(q.get("options", []))
-            correct_answer = str(q.get("correct_option", q.get("correct_answer", "")))
-            correct_index = options.index(correct_answer) if correct_answer in options else 0
             answers.append({
                 "index": index,
                 "question_id": index + 1,
                 "type": "qcm",
-                "answer": correct_answer,
-                "correct": correct_index,
+                "answer": resolve_qcm_answer(q),
                 "correction": str(q.get("explanation", "")),
             })
         elif qtype == "vrai-faux":
@@ -194,72 +203,24 @@ quizzes_data = [
         [
             {
                 "id": "id_question_1",
-                "type": "type_question (qcm, vrai-faux)",
+                "type": "qcm",
                 "question": "Enoncé de la question ?",
-                "options": ["A", "B", "C", "D"],
-                "correct_option": "A",
+                "options": ["Bonne réponse", "Distracteur 1", "Distracteur 2", "Distracteur 3"],
+                "correct_option": "Bonne réponse",
                 "explanation": "Explication concise et pédagogique.",
             },
             {
                 "id": "id_question_2",
-                "type": "type_question (qcm, vrai-faux)",
-                "question": "Enoncé de la question ?",
-                "options": ["A", "B", "C", "D"],
-                "correct_option": "A",
-                "explanation": "Explication concise et pédagogique.",
+                "type": "vrai-faux",
+                "question": "Cette affirmation est-elle correcte ?",
+                "correct": True,
+                "explanation": "Justification simple et claire.",
             },
         ],
     ),
 ]
 
-def make_quiz(qid, title, subject, level, questions,
-            source="Eduscol programmes officiels + BOEN",
-            programme_ref="<Référence programme officiel à renseigner>"):
-    created_at = datetime.now(UTC).strftime("%Y-%m-%d %H:%M:%S")
-    runtime_questions = []
-    for question in questions:
-        qtype = str(question.get("type", "texte")).strip().lower()
-        if qtype == "qcm":
-            runtime_questions.append(
-                {
-                    "type": "qcm",
-                    "question": str(question.get("question", "")),
-                    "choices": list(question.get("options", [])),
-                }
-            )
-        elif qtype == "vrai-faux":
-            runtime_questions.append(
-                {
-                    "type": "vrai-faux",
-                    "question": str(question.get("question", "")),
-                }
-            )
-    return {
-        "contents": {
-            "title": f"Quiz Diagnostic {subject} {level} - Série {qid}",
-            "type": "quiz",
-            "level": level,
-            "subject": subject,
-            "description": f"Diagnostic {subject} {level} : {title}",
-            "status": "published",
-            "created_at": created_at,
-            "updated_at": created_at,
-            "source": source,
-            "programme_ref": programme_ref,
-        },
-        "quiz": {
-            "title": title,
-            "type": "quiz",
-            "level": level,
-            "subject": subject,
-            "question_count": len(runtime_questions),
-            "passing_score": 70,
-            "time_limit_minutes": 15,
-            "questions": runtime_questions,
-        },
-        "exercisenotion": [],
-        "exerciseresponses": [],
-    }
+# La fonction make_quiz définie plus haut reste l'unique source de vérité.
 def write_quiz_files():
     count = 0
     for qid, title, subject, level, questions in quizzes_data:

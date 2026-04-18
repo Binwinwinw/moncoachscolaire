@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 4eme - Série 4101",
+    "level": "4eme",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Addition de fractions",
+    "question_count": 8,
+    "level": "4eme",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "4",
+        "correction": "Les deux fractions ont déjà le même dénominateur : on garde 4."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Oui, 1/2 = 2/4 : on a simplement multiplié numérateur et dénominateur par 2."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Je prends 6 comme dénominateur commun, puis 2/3 devient 4/6 et j'obtiens 5/6.",
+        "correction": "La bonne méthode consiste à chercher un dénominateur commun puis à additionner les numérateurs."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "6/8",
+        "correction": "Quand les dénominateurs sont identiques, on additionne seulement les numérateurs : 5 + 1 = 6."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est la règle de base : le dénominateur reste le même."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "qcm",
+        "answer": "Additionner aussi les dénominateurs",
+        "correction": "L'erreur classique consiste à faire 1/2 + 1/3 = 2/5, ce qui est faux."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "1/2",
+        "correction": "2/5 = 4/10, donc 4/10 + 1/10 = 5/10 = 1/2."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Par exemple 6/8 peut être simplifiée en 3/4."
+      }
+    ]
+  }
+}

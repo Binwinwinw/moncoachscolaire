@@ -1,3 +1,47 @@
+## [18/04/2026] Nettoyage runtime quiz + réalignement template — ✅ validé
+
+Travail réalisé :
+
+- réalignement du template Python de génération sur le format réel observé dans les quiz runtime et leurs réponses
+- remplacement confirmé des fichiers générés validés dans `src/data/quiz/` et `src/data/quiz_answers/`
+- suppression des quiz placeholders manifestes de type "Concept A / B / C", "Notion 1", ou corrections génériques
+
+Résultat vérifié :
+
+- 3 quiz pilotes 4e fractions maintenus en runtime (4101 à 4103)
+- 733 JSON placeholders supprimés
+- contrôle final : 0 match restant sur les motifs forts de placeholders
+
+Impact :
+
+- la base runtime est plus propre et plus fiable pour les diagnostics
+- les générateurs futurs disposent maintenant d'un template cohérent avec la structure réellement servie par l'application
+
+---
+
+## [17/04/2026] Lot pilote contenu lancé — ✅ Mathématiques 4e fractions
+
+Avancement réalisé :
+
+- générateur complété : `dev/tools/quiz/generator/generate_4eme_mathematiques.py`
+- 3 quiz pilotes créés sur les fractions : IDs 4101, 4102, 4103
+- fichiers runtime copiés dans `src/data/quiz/` et `src/data/quiz_answers/`
+- vérification OK : génération réelle + contrôle sentinelle 8 questions / 8 réponses
+
+Portée pédagogique du lot :
+
+- addition de fractions
+- soustraction de fractions
+- situations-problèmes avec fractions
+
+Prochaine étape recommandée :
+
+1. test fonctionnel dans l'application
+2. revue pédagogique humaine
+3. extension vers un second lot (autre notion ou autre matière)
+
+---
+
 ## [06/04/2026, APRÈS-MIDI/SOIR] Validation système mini-cours interactif — ✅ COMPLET & TESTÉ
 
 **Découverte clé:**
