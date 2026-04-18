@@ -1,70 +1,73 @@
 {
   "contents": {
-    "title": "QUIZ 1649 - réponses à remplir",
-    "level": "unknown",
-    "subject": "unknown"
+    "title": "Quiz Diagnostic Français 2nde - Série 1649",
+    "level": "2nde",
+    "subject": "Français"
   },
   "quiz": {
-    "title": "Quiz 1649 - corrections placeholder",
+    "title": "Diagnostic 2nde Français - Phrase complexe et subordination",
     "question_count": 8,
-    "level": "unknown",
-    "subject": "unknown",
+    "level": "2nde",
+    "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "",
-        "correction": ""
+        "answer": "contient au moins deux verbes conjugués",
+        "correct": 0,
+        "correction": "La phrase complexe associe plusieurs propositions. La présence d'au moins deux verbes conjugués est un indice fréquent."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "answer": "faux",
-        "correction": "Réponse attendue : faux"
+        "answer": "vrai",
+        "correction": "La subordonnée introduite par « que » complète le verbe principal « pense ». Elle remplit la fonction de complément."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "",
-        "correction": ""
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La subordonnée relative complète un nom antécédent. Elle apporte une précision sur ce nom."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "",
-        "correction": ""
+        "answer": "La cause",
+        "correct": 1,
+        "correction": "« Parce que » introduit la raison d'un fait. C'est un connecteur de causalité."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
-        "answer": "faux",
-        "correction": "Réponse attendue : faux"
+        "answer": "vrai",
+        "correction": "La concession oppose un fait à une attente logique. « Bien que » signale cette relation argumentative."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "",
-        "correction": ""
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Un connecteur de conséquence marque le résultat d'une cause ou d'un raisonnement. « Donc » est l'un des plus courants."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "",
-        "correction": ""
+        "answer": "Subordonnée relative",
+        "correct": 1,
+        "correction": "« Qui révise » complète l'antécédent « l'élève » et est introduite par le pronom relatif « qui ». C'est une relative."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "faux",
-        "correction": "Réponse attendue : faux"
+        "correction": "Certaines subordonnées sont essentielles, d'autres apportent une précision facultative. Leur suppression peut être possible selon le cas."
       }
     ]
   }

@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic NSI 1ère - Série 867",
-    "level": "1ère",
+    "title": "Quiz Diagnostic NSI 1ere - Série 867",
+    "level": "1ere",
     "subject": "NSI"
   },
   "quiz": {
     "title": "Codage binaire des entiers",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "11",
+        "correct": 2,
         "correction": "1011 en binaire = 1×2³ + 0×2² + 1×2¹ + 1×2⁰ = 8 + 0 + 2 + 1 = 11."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. 42 = 32 + 8 + 2 = 2⁵ + 2³ + 2¹ = 101010 en binaire."
+        "answer": "faux",
+        "correction": "42 = 32 + 8 + 2 = 2⁵ + 2³ + 2¹ = 101010 en binaire."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "255",
+        "correct": 1,
         "correction": "Sur n bits non signés, la plage est [0, 2ⁿ-1]. Sur 8 bits : 2⁸ - 1 = 255."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. +5 = 00000101. Inversion : 11111010. On ajoute 1 : 11111011. Vérification : 11111011 = -128+64+32+16+8+2+1 = -128+123 = -5."
+        "answer": "faux",
+        "correction": "+5 = 00000101. Inversion : 11111010. On ajoute 1 : 11111011. Vérification : 11111011 = -128+64+32+16+8+2+1 = -128+123 = -5."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "1011",
+        "correct": 0,
         "correction": "0110 (6) + 0101 (5) = 1011 (11). On additionne bit par bit en propageant les retenues."
       },
       {

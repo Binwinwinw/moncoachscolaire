@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Une liaison qui autorise uniquement la rotation autour d'un axe",
+        "correct": 1,
         "correction": "La liaison pivot (ex. charniere, roulement) n'autorise qu'une seule mobilite : la rotation autour d'un axe fixe."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. L'encastrement (liaison complete) supprime les 6 degres de liberte (3 translations + 3 rotations) entre deux pieces ; ex. une poutre scelle dans un mur."
+        "correction": "L'encastrement (liaison complete) supprime les 6 degres de liberte (3 translations + 3 rotations) entre deux pieces ; ex. une poutre scelle dans un mur."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Assemblage par tenon-mortaise",
+        "correct": 1,
         "correction": "L'assemblage tenon-mortaise est une technique de menuiserie ancestrale qui emboite une saillie (tenon) dans une cavite (mortaise) sans elements d'assemblage externes."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le rivetage est un assemblage permanent par deformation plastique de rivets metalliques ; tres utilise en aeronautique pour assembler les structures aluminium."
+        "correction": "Le rivetage est un assemblage permanent par deformation plastique de rivets metalliques ; tres utilise en aeronautique pour assembler les structures aluminium."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Empecher le passage de fluides ou de gaz a l'interface de deux pieces",
+        "correct": 1,
         "correction": "Les joints d'etancheite (O-ring, joints plats, joints toriques) s'interposent entre deux pieces pour empecher les fuites de fluides ou l'entree de contaminants."
       },
       {

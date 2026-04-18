@@ -2,17 +2,17 @@
   "contents": {
     "title": "Quiz Diagnostic HGGSP 1ère - Série 923",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP",
     "description": "Diagnostic HGGSP 1ère : Le cyberespace : définition et enjeux",
     "status": "published",
-    "created_at": "2026-04-06 06:40:39",
-    "updated_at": "2026-04-06 06:40:39"
+    "created_at": "2026-04-18 15:13:09",
+    "updated_at": "2026-04-18 15:13:09"
   },
   "quiz": {
     "title": "Le cyberespace : définition et enjeux",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Cette structuration en couches aide à comprendre les différentes formes de vulnérabilités et d'attaques dans le cyberespace."
+        "question": "Quelles sont les quatre couches du cyberespace ?"
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La fracture numérique désigne les inégalités d'accès et d'usage du numérique."
+        "question": "Qu'est-ce que la fracture numérique et quelles en sont les dimensions ?"
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de HGGSP",
-      "description": "Notion du programme 1ère"
-    },
-    {
-      "notion": "Compétences de base 1ère",
-      "description": "Notion du programme 1ère"
-    },
-    {
-      "notion": "Savoir-faire hggsp",
-      "description": "Notion du programme 1ère"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

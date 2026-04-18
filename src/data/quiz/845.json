@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic SES 1ère - Série 845",
+    "title": "Quiz Diagnostic SES 1ere - Série 845",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
-    "description": "Diagnostic SES 1ère : La balance des paiements",
+    "description": "Diagnostic SES 1ere : La balance des paiements",
     "status": "published",
-    "created_at": "2026-04-06 06:40:40",
-    "updated_at": "2026-04-06 06:40:40"
+    "created_at": "2026-04-18 20:28:31",
+    "updated_at": "2026-04-18 20:28:31"
   },
   "quiz": {
     "title": "La balance des paiements",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Le solde des transactions courantes est l'indicateur le plus suivi."
+        "question": "Quelles sont les trois composantes principales de la balance des paiements ?"
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Un IDE est un investissement par lequel une entreprise d'un pays établit ou acquiert une participation durable (≥10 % du capital) dans une entreprise d'un autre pays."
+        "question": "Qu'est-ce qu'un investissement direct à l'étranger (IDE) ?"
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Inégalités et redistribution",
-      "description": "Notion fondamentale de SES"
-    },
-    {
-      "notion": "Croissance économique",
-      "description": "Notion fondamentale de SES"
-    },
-    {
-      "notion": "Mondialisation",
-      "description": "Notion fondamentale de SES"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

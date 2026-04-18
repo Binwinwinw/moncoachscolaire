@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 3eme - Série 6103",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 3eme : Maquette numérique et modélisation",
+    "status": "published",
+    "created_at": "2026-04-18 21:24:13",
+    "updated_at": "2026-04-18 21:24:13"
+  },
+  "quiz": {
+    "title": "Maquette numérique et modélisation",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "En technologie, pourquoi étudie-t-on la modélisation 3D ?",
+        "choices": [
+          "Pour comprendre le fonctionnement et les usages d'un système technique",
+          "Pour faire uniquement de la récitation",
+          "Pour éviter toute expérimentation",
+          "Pour remplacer les mathématiques"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La modélisation 3d peut être étudié à partir d'exemples concrets d'objets ou de systèmes."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel outil est souvent utile pour comprendre la modélisation 3D ?",
+        "choices": [
+          "Un schéma ou une maquette",
+          "Une fable",
+          "Une carte des climats",
+          "Une dictée"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Analyser un objet technique permet de repérer ses fonctions principales et ses contraintes."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est l'objectif principal d'un exercice sur la modélisation 3D ?",
+        "choices": [
+          "Comprendre et expliquer un choix technique",
+          "Apprendre sans vérifier",
+          "Répondre au hasard",
+          "Éviter les documents"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une bonne réponse en technologie peut être appuyée par une observation, un schéma ou un exemple d'usage."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle méthode aide à progresser sur la modélisation 3D ?",
+        "choices": [
+          "S'entraîner, tester et corriger",
+          "Ne jamais relire",
+          "Ignorer les consignes",
+          "Répondre sans observer"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "En technologie, un raisonnement clair vaut mieux qu'une réponse donnée sans explication."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic SVT 3ème - Série 671",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT"
   },
   "quiz": {
     "title": "Reproduction humaine : contraception et IST",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le préservatif",
+        "correct": 2,
         "correction": "Le préservatif (masculin ou féminin) est la seule méthode contraceptive qui protège aussi contre les IST."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La contraception d'urgence (pilule du lendemain) retarde ou inhibe l'ovulation si elle est prise dans les 72 heures."
+        "correction": "La contraception d'urgence (pilule du lendemain) retarde ou inhibe l'ovulation si elle est prise dans les 72 heures."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Chlamydiose",
+        "correct": 1,
         "correction": "La chlamydiose est l'IST bactérienne la plus répandue dans les pays développés, souvent asymptomatique."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. L'IVG (Interruption Volontaire de Grossesse) est légale en France jusqu'à 14 semaines d'aménorrhée."
+        "correction": "L'IVG (Interruption Volontaire de Grossesse) est légale en France jusqu'à 14 semaines d'aménorrhée."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Un traitement préventif contre le VIH pris avant l'exposition",
+        "correct": 1,
         "correction": "La PrEP (Prophylaxie Pré-Exposition) est un traitement antirétroviral pris par des personnes séronégatives à risque pour prévenir l'infection par le VIH."
       },
       {

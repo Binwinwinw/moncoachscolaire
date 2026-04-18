@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Geometrie dans l'espace",
     "status": "published",
-    "created_at": "2026-04-06 06:40:48",
-    "updated_at": "2026-04-06 06:40:48"
+    "created_at": "2026-04-18 18:52:46",
+    "updated_at": "2026-04-18 18:52:46"
   },
   "quiz": {
     "title": "Geometrie dans l'espace",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Je commence par reformuler la question, j'identifie les outils utiles, puis je deroule le calcul en verifiant les hypotheses et l'interpretation finale."
+        "question": "Explique en quelques lignes comment tu aborderais un exercice sur le theme suivant : vecteurs, droites, plans et intersections. La bonne réponse attendue est : Je commence par reformuler la question, j'identifie les outils utiles, puis je deroule le calcul en verifiant les hypotheses et l'interpretation finale."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Erreur frequente : appliquer une formule sans verifier ses conditions."
+        "question": "Cite une erreur frequente sur ce theme et explique comment l'eviter. La bonne réponse attendue est : Erreur frequente : appliquer une formule sans verifier ses conditions. Pour l'eviter, je controle d'abord le cadre de validite avant tout calcul."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Compréhension des concepts fondamentaux",
-      "description": "La première étape la plus rigoureuse dans le chapitre 'Géométrie dans l'espace' est de comprendre les concepts fondamentaux tels que les points, les droites, les plans et les solides, ainsi que leurs "
-    },
-    {
-      "notion": "Visualisation et représentation",
-      "description": "La capacité à visualiser et à représenter des objets et des figures dans l'espace est essentielle pour aborder les problèmes de géométrie dans l'espace, ce qui nécessite une bonne compréhension des ou"
-    },
-    {
-      "notion": "Définition des repères et des référentiels",
-      "description": "La définition de repères et de référentiels appropriés est cruciale pour décrire avec précision les positions et les mouvements des objets dans l'espace, ce qui constitue une étape fondamentale dans l"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

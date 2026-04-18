@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Impartialite du juge",
+        "correct": 0,
         "correction": "L'impartialité du juge est un principe fondamental garantissant qu'aucun juge ne peut être partial ou avoir un intérêt dans l'affaire qu'il juge."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. L'appel permet de contester une décision de première instance devant une cour d'appel, qui réexamine l'affaire en droit et en fait."
+        "correction": "L'appel permet de contester une décision de première instance devant une cour d'appel, qui réexamine l'affaire en droit et en fait."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Cour d'assises",
+        "correct": 2,
         "correction": "La Cour d'assises juge les crimes (infractions les plus graves) avec un jury populaire de 6 jurés citoyens tirés au sort."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le procureur (ministère public) représente la société et déclenche l'action publique ; il dirige la police judiciaire et requiert les peines devant le tribunal."
+        "correction": "Le procureur (ministère public) représente la société et déclenche l'action publique ; il dirige la police judiciaire et requiert les peines devant le tribunal."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Instruire (enqueter sur) les affaires penales complexes de facon independante",
+        "correct": 1,
         "correction": "Le juge d'instruction mène une enquête judiciaire indépendante sur les affaires complexes ; il peut mettre en examen, inculper ou placer en détention provisoire."
       },
       {

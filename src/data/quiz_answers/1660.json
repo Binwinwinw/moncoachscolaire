@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "A central position to defend",
+        "correct": 1,
         "correction": "Le claim est la thèse ou position principale que l'on défend."
       },
       {
@@ -27,8 +28,8 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "however",
+        "type": "vrai-faux",
+        "answer": "vrai",
         "correction": "Un contre-argument est souvent introduit par 'however' ou 'on the other hand'."
       },
       {
@@ -36,6 +37,7 @@
         "question_id": 4,
         "type": "qcm",
         "answer": "Claim -> Evidence -> Explanation",
+        "correct": 0,
         "correction": "Cette progression rend l'argumentation lisible et convaincante."
       },
       {
@@ -48,8 +50,8 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "therefore",
+        "type": "vrai-faux",
+        "answer": "vrai",
         "correction": "'Therefore' introduit une conclusion logique à partir des arguments."
       },
       {
@@ -57,6 +59,7 @@
         "question_id": 7,
         "type": "qcm",
         "answer": "It can be argued that",
+        "correct": 2,
         "correction": "Cette formule est adaptée au registre argumentatif formel."
       },
       {

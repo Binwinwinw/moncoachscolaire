@@ -6,8 +6,8 @@
     "subject": "Technologie",
     "description": "Diagnostic Technologie 3eme : Controle qualite et metrologie",
     "status": "published",
-    "created_at": "2026-04-06 06:40:45",
-    "updated_at": "2026-04-06 06:40:45"
+    "created_at": "2026-04-18 21:24:12",
+    "updated_at": "2026-04-18 21:24:12"
   },
   "quiz": {
     "title": "Controle qualite et metrologie",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Fiche de controle qualite."
+        "question": "La bonne réponse attendue est : fiche de controle qualite."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La validation est la derniere etape du cycle de conception ; elle confirme que le produit repond bien aux besoins de l'utilisateur definis dans le CdCF."
+        "question": "La bonne réponse attendue est : validation."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Technologie",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Compétences de base 3eme",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Savoir-faire technologie",
-      "description": "Notion du programme 3eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

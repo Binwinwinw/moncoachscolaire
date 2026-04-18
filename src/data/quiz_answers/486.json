@@ -1,70 +1,73 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 486",
-    "level": "1ère",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 486",
+    "level": "1ere",
     "subject": "Français"
   },
   "quiz": {
-    "title": "L'écriture d'invention",
+    "title": "L'Ã©criture d'invention",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Un texte original en respectant des contraintes de genre et de tonalité",
-        "correction": "L'écriture d'invention évalue la créativité et la maîtrise des codes génériques (argumentation, récit, dialogue…)."
+        "answer": "Un texte original en respectant des contraintes de genre et de tonalitÃ©",
+        "correct": 1,
+        "correction": "L'Ã©criture d'invention Ã©value la crÃ©ativitÃ© et la maÃ®trise des codes gÃ©nÃ©riques (argumentation, rÃ©cit, dialogueâ€¦)."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "faux",
-        "correction": "Même créative, l'écriture d'invention argumentative doit être cohérente et structurée."
+        "correction": "MÃªme crÃ©ative, l'Ã©criture d'invention argumentative doit Ãªtre cohÃ©rente et structurÃ©e."
       },
       {
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La cohérence de ton, de style et de personnages garantit la vraisemblance de la suite."
+        "answer": "faux",
+        "correction": "La cohÃ©rence de ton, de style et de personnages garantit la vraisemblance de la suite."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "Pathétique et/ou polémique",
-        "correction": "Un discours engagé use souvent du registre pathétique (émouvoir) et polémique (convaincre/persuader)."
+        "answer": "PathÃ©tique et/ou polÃ©mique",
+        "correct": 1,
+        "correction": "Un discours engagÃ© use souvent du registre pathÃ©tique (Ã©mouvoir) et polÃ©mique (convaincre/persuader)."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "L'écriture d'invention évalue aussi la richesse stylistique et la maîtrise de la langue."
+        "correction": "L'Ã©criture d'invention Ã©value aussi la richesse stylistique et la maÃ®trise de la langue."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Les codes formels du genre (lettre, discours, article) sont évalués dans l'écriture d'invention."
+        "answer": "faux",
+        "correction": "Les codes formels du genre (lettre, discours, article) sont Ã©valuÃ©s dans l'Ã©criture d'invention."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "La grandeur, l'héroïsme, l'ampleur narrative",
-        "correction": "Le registre épique évoque les grandes actions, les héros, les batailles, avec un style ample et solennel."
+        "answer": "La grandeur, l'hÃ©roÃ¯sme, l'ampleur narrative",
+        "correct": 1,
+        "correction": "Le registre Ã©pique Ã©voque les grandes actions, les hÃ©ros, les batailles, avec un style ample et solennel."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "Hugo mêle justement le sublime et le grotesque ; les mélanges de registres peuvent être artistiquement réussis."
+        "correction": "Hugo mÃªle justement le sublime et le grotesque ; les mÃ©langes de registres peuvent Ãªtre artistiquement rÃ©ussis."
       }
     ]
   }

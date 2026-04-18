@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "uₙ = u₀ + n·r",
+        "answer": "B",
         "correction": "Terme général d'une suite arithmétique : uₙ = u₀ + n·r."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. u₁₀ = 5 + 10×3 = 35. Somme : S = (n+1)×(u₀+uₙ)/2 = 11×40/2 = 220."
+        "correction": "u₁₀ = 5 + 10×3 = 35. Somme : S = (n+1)×(u₀+uₙ)/2 = 11×40/2 = 220."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "n(n+1)/2",
+        "answer": "B",
         "correction": "Somme des n premiers entiers = n(n+1)/2 (suite arithmétique de premier terme 1, raison 1)."
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Suite arithmétique : u₁=2000, r=50, u₁₂=2000+11×50=2550. S₁₂=12×(2000+2550)/2=27300."
+        "correction": "Suite arithmétique : u₁=2000, r=50, u₁₂=2000+11×50=2550. S₁₂=12×(2000+2550)/2=27300."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "n",
+        "answer": "B",
         "correction": "uₙ = 3n + 2 → uₙ₊₁ − uₙ = 3(n+1)+2 − (3n+2) = 3. Raison r = 3."
       },
       {

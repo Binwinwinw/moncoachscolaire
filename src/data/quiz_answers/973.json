@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "A = 0 ou B = 0",
+        "answer": "B",
         "correction": "Un produit est nul si et seulement si l'un au moins des facteurs est nul."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. x² − x = x(x−1) = 0 → x = 0 ou x − 1 = 0 → x = 1."
+        "correction": "x² − x = x(x−1) = 0 → x = 0 ou x − 1 = 0 → x = 1."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "x = 2 et x = −1",
+        "answer": "A",
         "correction": "2x − 4 = 0 → x = 2 ; x + 1 = 0 → x = −1."
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. x² − 4 = (x−2)(x+2) = 0 → x = 2 ou x = −2."
+        "correction": "x² − 4 = (x−2)(x+2) = 0 → x = 2 ou x = −2."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "4",
+        "answer": "B",
         "correction": "x − 1 = 0 → x = 1 (double, mais compte pour 1 valeur distincte) ; x = −2. Donc 2 valeurs distinctes."
       },
       {

@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 6eme - Série 0101",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 6eme : EMC 6e - La citoyenneté européenne",
+    "status": "published",
+    "created_at": "2026-04-18 20:07:59",
+    "updated_at": "2026-04-18 20:07:59"
+  },
+  "quiz": {
+    "title": "EMC 6e - La citoyenneté européenne",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que la citoyenneté européenne ?",
+        "choices": [
+          "La citoyenneté européenne est un statut qui confère des droits et des devoirs aux citoyens des États membres de l'Union européenne.",
+          "La citoyenneté européenne est un statut qui confère des droits et des devoirs aux citoyens de tous les pays d'Europe.",
+          "La citoyenneté européenne est un statut qui confère des droits et des devoirs aux citoyens de la France uniquement.",
+          "La citoyenneté européenne est un statut qui confère des droits et des devoirs aux citoyens de l'Union européenne et de la France."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La citoyenneté européenne permet aux citoyens de l'Union européenne de circuler librement et de résider dans n'importe quel pays de l'Union européenne."
+      },
+      {
+        "type": "qcm",
+        "question": "Quels sont les droits politiques associés à la citoyenneté européenne ?",
+        "choices": [
+          "Le droit de vote et d'éligibilité aux élections municipales, régionales, nationales et européennes dans l'État membre de résidence.",
+          "Le droit de vote et d'éligibilité uniquement aux élections européennes.",
+          "Le droit de vote et d'éligibilité uniquement aux élections nationales du pays d'origine.",
+          "Le droit de vote et d'éligibilité uniquement aux élections municipales du pays de résidence."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La citoyenneté européenne confère également des droits sociaux, économiques et culturels aux citoyens de l'Union européenne."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle du Parlement européen pour les citoyens européens ?",
+        "choices": [
+          "Le Parlement européen représente les citoyens européens au sein des institutions de l'Union européenne et participe à l'élaboration des lois européennes.",
+          "Le Parlement européen gère les finances publiques de l'Union européenne.",
+          "Le Parlement européen est chargé de la défense nationale de l'Union européenne.",
+          "Le Parlement européen élabore les politiques étrangères de l'Union européenne."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les citoyens européens peuvent se déplacer librement dans tous les États membres de l'Union européenne."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle de la Cour de justice de l'Union européenne pour les citoyens européens ?",
+        "choices": [
+          "La Cour de justice de l'Union européenne veille à l'application uniforme du droit européen et protège les droits des citoyens européens.",
+          "La Cour de justice de l'Union européenne gère les finances publiques de l'Union européenne.",
+          "La Cour de justice de l'Union européenne est chargée de la défense nationale de l'Union européenne.",
+          "La Cour de justice de l'Union européenne élabore les politiques étrangères de l'Union européenne."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La citoyenneté européenne permet aux citoyens d'un pays non membre de l'Union européenne d'obtenir des droits au sein de l'UE."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic SVT 3ème - Série 654",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT"
   },
   "quiz": {
     "title": "Génétique : diversité génétique et brassage",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Crossing-over",
+        "correct": 1,
         "correction": "Le crossing-over (enjambement) produit de nouveaux arrangements alléliques lors de la méiose."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le pool génétique (ou patrimoine génétique) désigne l'ensemble des allèles présents dans une population."
+        "correction": "Le pool génétique (ou patrimoine génétique) désigne l'ensemble des allèles présents dans une population."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Car la méiose et la fécondation sont des processus aléatoires",
+        "correct": 1,
         "correction": "La ségrégation aléatoire des chromosomes et les crossing-overs, combinés à la fécondation, assurent une diversité génétique quasi infinie."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. C'est lors de la prophase I que se produisent les crossing-overs entre chromosomes homologues."
+        "correction": "C'est lors de la prophase I que se produisent les crossing-overs entre chromosomes homologues."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Le génotype est l'ensemble des allèles, le phénotype est l'expression observable",
+        "correct": 1,
         "correction": "Le génotype est la constitution allélique ; le phénotype est le caractère observable résultant du génotype et de l'environnement."
       },
       {

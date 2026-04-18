@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic NSI 1ère - Série 898",
+    "title": "Quiz Diagnostic NSI 1ere - Série 898",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
-    "description": "Diagnostic NSI 1ère : Systèmes de numération et codage binaire",
+    "description": "Diagnostic NSI 1ere : Systèmes de numération et codage binaire",
     "status": "published",
-    "created_at": "2026-04-06 06:40:40",
-    "updated_at": "2026-04-06 06:40:40"
+    "created_at": "2026-04-18 20:28:31",
+    "updated_at": "2026-04-18 20:28:31"
   },
   "quiz": {
     "title": "Systèmes de numération et codage binaire",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Diviser le nombre par 2 et noter le reste."
+        "question": "Comment convertir un nombre décimal en binaire ?"
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Unicode est un standard de codage de caractères qui utilise jusqu'à 32 bits pour représenter plus d'un million de caractères, couvrant presque tous les systèmes d'écriture du monde."
+        "question": "Qu'est-ce que le code Unicode et pourquoi a-t-il été créé ?"
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Algorithmes et complexité",
-      "description": "Notion fondamentale de NSI"
-    },
-    {
-      "notion": "Programmation objet",
-      "description": "Notion fondamentale de NSI"
-    },
-    {
-      "notion": "Données et réseaux",
-      "description": "Notion fondamentale de NSI"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

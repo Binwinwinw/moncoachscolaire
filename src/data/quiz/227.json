@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Philosophie 1ere - Série 227",
+    "title": "Quiz Diagnostic Philosophie 1ere - SÃ©rie 227",
     "type": "quiz",
     "level": "1ere",
     "subject": "Philosophie",
     "description": "Diagnostic Philosophie 1ere : Quiz Diagnostic 1ere Philosophie - Serie 4",
     "status": "published",
-    "created_at": "2026-03-13 18:59:45",
-    "updated_at": "2026-03-13 18:59:45"
+    "created_at": "2026-04-18 15:13:09",
+    "updated_at": "2026-04-18 15:13:09"
   },
   "quiz": {
     "title": "Quiz Diagnostic 1ere Philosophie - Serie 4",
@@ -20,69 +20,56 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Quelle est la conception classique (correspondantiste) de la vérité ?",
+        "question": "Quelle est la conception classique (correspondantiste) de la vÃ©ritÃ© ?",
         "choices": [
           "Est vrai ce qui est utile",
-          "Est vrai ce qui est cohérent avec un système de croyances",
-          "Est vrai ce qui correspond à la réalité (adéquation entre l'intellect et la chose)",
-          "Est vrai ce qui fait consensus dans une communauté"
+          "Est vrai ce qui est cohÃ©rent avec un systÃ¨me de croyances",
+          "Est vrai ce qui correspond Ã  la rÃ©alitÃ© (adÃ©quation entre l'intellect et la chose)",
+          "Est vrai ce qui fait consensus dans une communautÃ©"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Le scepticisme philosophique affirme qu'il est impossible d'atteindre une vérité certaine et définitive."
+        "question": "Le scepticisme philosophique affirme qu'il est impossible d'atteindre une vÃ©ritÃ© certaine et dÃ©finitive."
       },
       {
         "type": "vrai-faux",
-        "question": "Pour Platon, l'opinion porte sur le monde sensible changeant, tandis que le savoir vrai porte sur les Idées éternelles et immuables, accessibles par la raison."
+        "question": "Quelle distinction Platon Ã©tablit-il entre opinion (doxa) et savoir vrai (Ã©pistÃ©mÃ¨) ?"
       },
       {
         "type": "qcm",
-        "question": "Pour Nietzsche, 'il n'y a pas de faits, seulement des interprétations' signifie que :",
+        "question": "Pour Nietzsche, 'il n'y a pas de faits, seulement des interprÃ©tations' signifie que :",
         "choices": [
-          "La vérité scientifique est impossible",
-          "Toute vérité est une perspective, une interprétation liée à une volonté de puissance",
+          "La vÃ©ritÃ© scientifique est impossible",
+          "Toute vÃ©ritÃ© est une perspective, une interprÃ©tation liÃ©e Ã  une volontÃ© de puissance",
           "Les faits historiques n'existent pas",
           "Seules les opinions comptent"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "En sciences, une théorie est d'autant plus vraie qu'elle est ancienne et bien établie."
+        "question": "En sciences, une thÃ©orie est d'autant plus vraie qu'elle est ancienne et bien Ã©tablie."
       },
       {
         "type": "vrai-faux",
-        "question": "Le doute méthodique cartésien consiste à rejeter tout ce qui peut être mis en doute pour trouver une première vérité indubitable : le cogito."
+        "question": "Qu'est-ce que la mÃ©thode du doute chez Descartes et Ã  quoi mÃ¨ne-t-elle ?"
       },
       {
         "type": "qcm",
-        "question": "Le pragmatisme américain (William James, John Dewey) définit la vérité comme :",
+        "question": "Le pragmatisme amÃ©ricain (William James, John Dewey) dÃ©finit la vÃ©ritÃ© comme :",
         "choices": [
-          "L'adéquation entre l'idée et la réalité",
+          "L'adÃ©quation entre l'idÃ©e et la rÃ©alitÃ©",
           "Ce qui est utile, ce qui 'fonctionne' dans la pratique",
-          "Ce qui résiste au doute radical",
-          "Ce qui est universellement accepté"
+          "Ce qui rÃ©siste au doute radical",
+          "Ce qui est universellement acceptÃ©"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "La vérité scientifique est définitive et ne peut être remise en question."
+        "question": "La vÃ©ritÃ© scientifique est dÃ©finitive et ne peut Ãªtre remise en question."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Philosophie",
-      "description": "Notion du programme 1ere"
-    },
-    {
-      "notion": "Compétences de base 1ere",
-      "description": "Notion du programme 1ere"
-    },
-    {
-      "notion": "Savoir-faire philosophie",
-      "description": "Notion du programme 1ere"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

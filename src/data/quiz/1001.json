@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques 2nde : Suites geometriques",
     "status": "published",
-    "created_at": "2026-04-06 06:40:42",
-    "updated_at": "2026-04-06 06:40:42"
+    "created_at": "2026-04-18 18:34:33",
+    "updated_at": "2026-04-18 18:34:33"
   },
   "quiz": {
     "title": "Suites geometriques",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Je commence par reformuler le probleme, puis je choisis les outils adaptes et je verifie le resultat dans le contexte de l'enonce."
+        "question": "Explique en 2-3 phrases comment tu traiterais un exercice sur le theme: raison multiplicative et evolution. La bonne réponse attendue est : Je commence par reformuler le probleme, puis je choisis les outils adaptes et je verifie le resultat dans le contexte de l'enonce."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Erreur frequente: appliquer une formule hors conditions."
+        "question": "Cite une erreur frequente dans ce type d'exercice et comment l'eviter. La bonne réponse attendue est : Erreur frequente: appliquer une formule hors conditions. Pour l'eviter, je verifie d'abord les hypotheses d'application."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Définition de la suite géométrique",
-      "description": "Comprendre que une suite géométrique est une suite de nombres où chaque terme est obtenu en multipliant le terme précédent par un nombre constant appelé raison"
-    },
-    {
-      "notion": "Identification de la raison",
-      "description": "Reconnaître l'importance de trouver la raison pour déterminer les caractéristiques de la suite géométrique et résoudre les problèmes liés"
-    },
-    {
-      "notion": "Formule du nième terme",
-      "description": "Connaître la formule du nième terme d'une suite géométrique pour calculer facilement les termes de la suite"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

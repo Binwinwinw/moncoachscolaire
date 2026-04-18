@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 557",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie"
   },
   "quiz": {
     "title": "La Première Guerre mondiale : bilan et traité de Versailles",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La clause de culpabilité de guerre (article 231) lui impose toute la responsabilité du conflit",
+        "correct": 1,
         "correction": "L'article 231 du traité de Versailles impose à l'Allemagne la responsabilité exclusive de la guerre, justifiant des réparations financières colossales."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le traité de Versailles restitue l'Alsace-Lorraine à la France, satisfaisant un objectif de guerre français depuis 1914."
+        "correction": "Le traité de Versailles restitue l'Alsace-Lorraine à la France, satisfaisant un objectif de guerre français depuis 1914."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La SDN (Société des Nations)",
+        "correct": 1,
         "correction": "La SDN est créée par le traité de Versailles à l'initiative du président américain Wilson ; elle est l'ancêtre de l'ONU (1945)."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La grippe espagnole (influenza H1N1) est une pandémie dévastatrice qui frappe des populations affaiblies par la guerre."
+        "correction": "La grippe espagnole (influenza H1N1) est une pandémie dévastatrice qui frappe des populations affaiblies par la guerre."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La montée du ressentiment nationaliste et l'arrivée d'Hitler au pouvoir",
+        "correct": 1,
         "correction": "Le 'diktat' de Versailles humilie l'Allemagne ; Hitler exploitera ce ressentiment pour accéder au pouvoir en 1933."
       },
       {

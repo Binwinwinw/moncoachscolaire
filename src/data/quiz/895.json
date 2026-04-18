@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic NSI 1ère - Série 895",
+    "title": "Quiz Diagnostic NSI 1ere - Série 895",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
-    "description": "Diagnostic NSI 1ère : Modules et bibliothèques Python",
+    "description": "Diagnostic NSI 1ere : Modules et bibliothèques Python",
     "status": "published",
-    "created_at": "2026-04-06 06:40:40",
-    "updated_at": "2026-04-06 06:40:40"
+    "created_at": "2026-04-18 20:28:31",
+    "updated_at": "2026-04-18 20:28:31"
   },
   "quiz": {
     "title": "Modules et bibliothèques Python",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Le module os permet d'interagir avec le système d'exploitation."
+        "question": "À quoi sert le module os en Python ? Citez trois fonctions utiles."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Un environnement virtuel isole les dépendances d'un projet Python (packages et versions) dans un dossier dédié, évitant les conflits entre projets."
+        "question": "Qu'est-ce qu'un environnement virtuel Python (venv) et pourquoi l'utiliser ?"
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Algorithmes et complexité",
-      "description": "Notion fondamentale de NSI"
-    },
-    {
-      "notion": "Programmation objet",
-      "description": "Notion fondamentale de NSI"
-    },
-    {
-      "notion": "Données et réseaux",
-      "description": "Notion fondamentale de NSI"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

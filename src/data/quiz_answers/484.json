@@ -1,70 +1,73 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 484",
-    "level": "1ère",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 484",
+    "level": "1ere",
     "subject": "Français"
   },
   "quiz": {
-    "title": "Mouvements littéraires : Symbolisme et Surréalisme",
+    "title": "Mouvements littÃ©raires : Symbolisme et SurrÃ©alisme",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Le Manifeste du Surréalisme d'André Breton (1924)",
-        "correction": "Breton publie le premier Manifeste du Surréalisme en 1924, définissant l'écriture automatique et l'exploration de l'inconscient."
+        "answer": "Le Manifeste du SurrÃ©alisme d'AndrÃ© Breton (1924)",
+        "correct": 1,
+        "correction": "Breton publie le premier Manifeste du SurrÃ©alisme en 1924, dÃ©finissant l'Ã©criture automatique et l'exploration de l'inconscient."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "L'écriture automatique vise à libérer le flux de l'inconscient en supprimant la censure rationnelle."
+        "correction": "L'Ã©criture automatique vise Ã  libÃ©rer le flux de l'inconscient en supprimant la censure rationnelle."
       },
       {
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. 'Peindre non la chose mais l'effet qu'elle produit' (Mallarmé) : le symbole suggère plutôt qu'il n'affirme."
+        "answer": "faux",
+        "correction": "'Peindre non la chose mais l'effet qu'elle produit' (MallarmÃ©) : le symbole suggÃ¨re plutÃ´t qu'il n'affirme."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Paul Verlaine",
-        "correction": "Verlaine est présenté par lui-même comme un 'poète maudit' ; son œuvre est emblématique du Symbolisme musical."
+        "correct": 1,
+        "correction": "Verlaine est prÃ©sentÃ© par lui-mÃªme comme un 'poÃ¨te maudit' ; son Å“uvre est emblÃ©matique du Symbolisme musical."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "Breton est fasciné par la psychanalyse freudienne et cherche à libérer le 'fonctionnement réel de la pensée'."
+        "correction": "Breton est fascinÃ© par la psychanalyse freudienne et cherche Ã  libÃ©rer le 'fonctionnement rÃ©el de la pensÃ©e'."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Ces trois poètes sont les piliers du groupe surréaliste parisien."
+        "answer": "faux",
+        "correction": "Ces trois poÃ¨tes sont les piliers du groupe surrÃ©aliste parisien."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Cadavre exquis",
-        "correction": "Le cadavre exquis (ex. 'Le cadavre exquis boira le vin nouveau') est un jeu collectif surréaliste."
+        "correct": 0,
+        "correction": "Le cadavre exquis (ex. 'Le cadavre exquis boira le vin nouveau') est un jeu collectif surrÃ©aliste."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "faux",
-        "correction": "Mallarmé est réputé pour son hermétisme et sa recherche d'un langage poétique pur, difficile d'accès."
+        "correction": "MallarmÃ© est rÃ©putÃ© pour son hermÃ©tisme et sa recherche d'un langage poÃ©tique pur, difficile d'accÃ¨s."
       }
     ]
   }

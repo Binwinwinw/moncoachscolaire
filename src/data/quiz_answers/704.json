@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 704",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie"
   },
   "quiz": {
     "title": "Solutions aqueuses et concentration",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "g/L",
+        "correct": 1,
         "correction": "La concentration massique Cm = masse de soluté (g) / volume de solution (L) s'exprime en g/L."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La concentration molaire (ou molalité volumique) C = n/V s'exprime en mol/L."
+        "correction": "La concentration molaire (ou molalité volumique) C = n/V s'exprime en mol/L."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "20 g/L",
+        "correct": 2,
         "correction": "Cm = 10 g / 0,5 L = 20 g/L."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La fiole jaugée (fiole volumétrique) permet de préparer un volume précis de solution."
+        "correction": "La fiole jaugée (fiole volumétrique) permet de préparer un volume précis de solution."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Ions positifs et négatifs",
+        "correct": 1,
         "correction": "La dissolution ionique dissocie le solide en cations et anions hydratés (ex. NaCl → Na+ + Cl-)."
       },
       {

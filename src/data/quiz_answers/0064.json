@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 0064",
+    "level": "6eme",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Résolution de problèmes simples",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "180 km",
+        "correction": "Si un train parcourt 60 km en 1 heure, il parcourra 60 km x 3 heures = 180 km en 3 heures."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Si une voiture consomme 5 litres pour 100 km, elle consommera 10 litres pour 200 km (5 litres x 2)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "40 cm²",
+        "correction": "La surface d'un rectangle est calculée en multipliant la longueur par la largeur : 8 cm x 5 cm = 40 cm²."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le coût total du sac est de 3 pommes x 2 euros par pomme = 6 euros."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "40 cm²",
+        "correction": "La surface d'un rectangle est calculée en multipliant la longueur par la largeur : 10 cm x 4 cm = 40 cm²."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La vitesse moyenne est calculée en divisant la distance parcourue par le temps : 80 km / 2 heures = 40 km/h."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "15 euros",
+        "correction": "Le coût total du sac est de 5 oranges x 3 euros par orange = 15 euros."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Si une voiture consomme 8 litres pour 160 km, elle consommera 16 litres pour 320 km (8 litres x 2)."
+      }
+    ]
+  }
+}

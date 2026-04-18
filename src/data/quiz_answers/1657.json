@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "un-",
+        "correct": 1,
         "correction": "Le préfixe 'un-' inverse souvent le sens: happy/unhappy."
       },
       {
@@ -27,8 +28,8 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "decision",
+        "type": "vrai-faux",
+        "answer": "vrai",
         "correction": "Le verbe 'decide' devient le nom 'decision'."
       },
       {
@@ -36,6 +37,7 @@
         "question_id": 4,
         "type": "qcm",
         "answer": "make a mistake",
+        "correct": 1,
         "correction": "La collocation correcte en anglais est 'make a mistake'."
       },
       {
@@ -48,8 +50,8 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "dangerous",
+        "type": "vrai-faux",
+        "answer": "vrai",
         "correction": "Le suffixe '-ous' forme souvent un adjectif: danger/dangerous."
       },
       {
@@ -57,6 +59,7 @@
         "question_id": 7,
         "type": "qcm",
         "answer": "start",
+        "correct": 0,
         "correction": "'Begin' et 'start' sont des synonymes courants."
       },
       {

@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 6012",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - Les homophones courants",
+    "status": "published",
+    "created_at": "2026-04-18 21:24:12",
+    "updated_at": "2026-04-18 21:24:12"
+  },
+  "quiz": {
+    "title": "Français 6e - Les homophones courants",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "En français, à quoi sert principalement les homophones ?",
+        "choices": [
+          "À mieux comprendre et produire des phrases",
+          "À résoudre un calcul",
+          "À lire une carte",
+          "À programmer un robot"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Travailler les homophones aide à progresser en lecture et en expression écrite."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle bonne habitude permet de mieux réussir sur les homophones ?",
+        "choices": [
+          "Relire la phrase et repérer les indices",
+          "Répondre au hasard",
+          "Ignorer la consigne",
+          "Éviter toute justification"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Justifier sa réponse permet souvent de mieux retenir la règle."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est l'objectif d'un exercice sur les homophones ?",
+        "choices": [
+          "Comprendre le fonctionnement de la langue",
+          "Apprendre par cœur sans comprendre",
+          "Recopier sans lire",
+          "Éviter les textes"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Observer des exemples précis aide à mieux maîtriser les homophones."
+      },
+      {
+        "type": "qcm",
+        "question": "Pour progresser sur les homophones, quelle méthode est la plus efficace ?",
+        "choices": [
+          "S'entraîner régulièrement avec correction",
+          "Ne jamais se corriger",
+          "Répondre très vite",
+          "Passer la consigne"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une erreur bien corrigée peut devenir un progrès durable."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

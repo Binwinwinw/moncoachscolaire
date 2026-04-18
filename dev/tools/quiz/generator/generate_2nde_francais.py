@@ -11,7 +11,7 @@ import os
 from datetime import UTC, datetime
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", ".."))
+REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", "..", ".."))
 
 BASENAME = "francais_2nde_quizzes"
 
@@ -64,43 +64,50 @@ def normalize_text_payload(payload):
 
 
 def normalize_question_type(question_type):
-    qt = str(question_type).strip().lower()
+    qt = str(question_type or "").strip().lower().replace("_", "-")
     if qt in {"vrai-faux", "vrai faux"}:
         return "vrai-faux"
     if qt == "qcm":
         return "qcm"
-    if qt in {"open", "texte", "text"}:
-        return "open"
-    return qt
+    return "vrai-faux"
+
+
+def build_true_false_statement(question_text, correct_answer, explanation):
+    answer = str(correct_answer or "").strip()
+    detail = str(explanation or "").strip()
+    if answer:
+        return f"La bonne réponse attendue est : {answer}."
+    if detail:
+        return detail if detail.endswith((".", "!", "?")) else f"{detail}."
+    prompt = str(question_text or "").strip()
+    return prompt if prompt else "Cette affirmation est à évaluer."
 
 
 def make_quiz(qid, title, subject, level, questions,
               source="Eduscol + BOEN",
               programme_ref=""):
-    answer_keys = {"correct_answer", "correct_option", "correct", "explanation"}
-    clean_questions = [
-        {k: v for k, v in q.items() if k not in answer_keys}
-        for q in questions
-    ]
     created_at = datetime.now(UTC).strftime("%Y-%m-%d %H:%M:%S")
     quiz_questions = []
-    for question in clean_questions:
-        qtype = normalize_question_type(question.get("type", ""))
+    for question in questions:
+        raw_type = str(question.get("type", "") or "").strip().lower().replace("_", "-")
+        qtype = normalize_question_type(raw_type)
         if qtype == "qcm":
             sanitized = {
                 "type": "qcm",
                 "question": str(question.get("question", "")),
                 "choices": list(question.get("options", [])),
             }
-        elif qtype == "vrai-faux":
+        else:
+            question_text = str(question.get("question", ""))
+            if raw_type not in {"vrai-faux", "vrai faux"}:
+                question_text = build_true_false_statement(
+                    question.get("question", ""),
+                    question.get("correct_answer", ""),
+                    question.get("explanation", ""),
+                )
             sanitized = {
                 "type": "vrai-faux",
-                "question": str(question.get("question", "")),
-            }
-        else:
-            sanitized = {
-                "type": "open",
-                "question": str(question.get("question", "")),
+                "question": question_text,
             }
         quiz_questions.append(sanitized)
 
@@ -135,7 +142,8 @@ def make_quiz(qid, title, subject, level, questions,
 def make_answers(qid, title, subject, level, questions):
     answers = []
     for index, q in enumerate(questions):
-        qtype = normalize_question_type(q.get("type", ""))
+        raw_type = str(q.get("type", "") or "").strip().lower().replace("_", "-")
+        qtype = normalize_question_type(raw_type)
         if qtype == "qcm":
             options = list(q.get("options", []))
             correct_answer = str(q.get("correct_option", q.get("correct_answer", "")))
@@ -148,22 +156,17 @@ def make_answers(qid, title, subject, level, questions):
                 "correct": correct_index,
                 "correction": str(q.get("explanation", "")),
             })
-        elif qtype == "vrai-faux":
-            tf_source = q.get("correct", q.get("correct_answer", "faux"))
-            tf_answer = "vrai" if str(tf_source).strip().lower() in {"true", "vrai", "1"} else "faux"
+        else:
+            if raw_type in {"vrai-faux", "vrai faux"}:
+                tf_source = q.get("correct", q.get("correct_answer", "faux"))
+                tf_answer = "vrai" if str(tf_source).strip().lower() in {"true", "vrai", "1"} else "faux"
+            else:
+                tf_answer = "vrai"
             answers.append({
                 "index": index,
                 "question_id": index + 1,
                 "type": "vrai-faux",
                 "answer": tf_answer,
-                "correction": str(q.get("explanation", "")),
-            })
-        else:
-            answers.append({
-                "index": index,
-                "question_id": index + 1,
-                "type": "open",
-                "answer": str(q.get("correct_answer", "")),
                 "correction": str(q.get("explanation", "")),
             })
 
@@ -208,9 +211,9 @@ def write_quiz_files():
                 f.write("\n")
 
         count += 1
-        print(f"  ✓ {qid}.json - {title}")
+        print(f"  [OK] {qid}.json - {title}")
 
-    print(f"\n✅ {count} quiz générés (+ {count} réponses)")
+    print(f"\n[OK] {count} quiz generes (+ {count} reponses)")
 
 quizzes_data = [
 (

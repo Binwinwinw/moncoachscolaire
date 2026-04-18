@@ -6,8 +6,8 @@
     "subject": "Technologie",
     "description": "Diagnostic Technologie 3eme : Introduction a la programmation : algorithmes",
     "status": "published",
-    "created_at": "2026-04-06 06:40:45",
-    "updated_at": "2026-04-06 06:40:45"
+    "created_at": "2026-04-18 21:24:12",
+    "updated_at": "2026-04-18 21:24:12"
   },
   "quiz": {
     "title": "Introduction a la programmation : algorithmes",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Une boucle (while, for) repete l'execution d'un bloc d'instructions tant qu'une condition est satisfaite, permettant de traiter des sequences repetitives."
+        "question": "La bonne réponse attendue est : boucle."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Une fonction (procedure, sous-programme) est un bloc de code nomme qui peut recevoir des parametres et retourner une valeur, favorisant la reutilisabilite du code."
+        "question": "La bonne réponse attendue est : fonction."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Technologie",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Compétences de base 3eme",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Savoir-faire technologie",
-      "description": "Notion du programme 3eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

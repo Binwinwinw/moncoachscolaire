@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Philosophie 1ere - Série 230",
+    "title": "Quiz Diagnostic Philosophie 1ere - SÃ©rie 230",
     "type": "quiz",
     "level": "1ere",
     "subject": "Philosophie",
     "description": "Diagnostic Philosophie 1ere : Quiz Diagnostic 1ere Philosophie - Serie 7",
     "status": "published",
-    "created_at": "2026-03-13 18:59:45",
-    "updated_at": "2026-03-13 18:59:45"
+    "created_at": "2026-04-18 15:13:09",
+    "updated_at": "2026-04-18 15:13:09"
   },
   "quiz": {
     "title": "Quiz Diagnostic 1ere Philosophie - Serie 7",
@@ -20,39 +20,39 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Selon Marx, qu'est-ce que l'aliénation du travail dans le système capitaliste ?",
+        "question": "Selon Marx, qu'est-ce que l'aliÃ©nation du travail dans le systÃ¨me capitaliste ?",
         "choices": [
           "Le fait de travailler trop longtemps",
-          "Le fait que l'ouvrier est séparé du produit de son travail, de son activité, de ses semblables et de lui-même",
-          "La mécanisation des tâches",
+          "Le fait que l'ouvrier est sÃ©parÃ© du produit de son travail, de son activitÃ©, de ses semblables et de lui-mÃªme",
+          "La mÃ©canisation des tÃ¢ches",
           "Le salaire insuffisant des ouvriers"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Hegel voit dans le travail un moment positif par lequel l'homme se réalise et transforme la nature en y imprimant sa marque."
+        "question": "Hegel voit dans le travail un moment positif par lequel l'homme se rÃ©alise et transforme la nature en y imprimant sa marque."
       },
       {
         "type": "vrai-faux",
-        "question": "La technique est constitutive de l'humanité car l'être humain est par nature un être technicien qui transforme son milieu par des outils ; sans technique, il ne pourrait survivre ni se développer."
+        "question": "En quoi la technique est-elle constitutive de l'humanitÃ© ? Illustrez avec un exemple."
       },
       {
         "type": "qcm",
         "question": "Heidegger critique la technique moderne car elle :",
         "choices": [
           "Est trop lente et inefficace",
-          "Réduit tout l'étant (le monde, les hommes, la nature) à un simple stock de ressources disponibles (le 'Gestell' ou arraisonnement)",
-          "Détruit les emplois",
+          "RÃ©duit tout l'Ã©tant (le monde, les hommes, la nature) Ã  un simple stock de ressources disponibles (le 'Gestell' ou arraisonnement)",
+          "DÃ©truit les emplois",
           "N'est pas assez universelle"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Le progrès technique garantit automatiquement le progrès moral et le bonheur humain."
+        "question": "Le progrÃ¨s technique garantit automatiquement le progrÃ¨s moral et le bonheur humain."
       },
       {
         "type": "vrai-faux",
-        "question": "La division du travail est la spécialisation des travailleurs dans des tâches précises, accroissant la productivité mais pouvant aboutir à l'abrutissement du travailleur."
+        "question": "Qu'est-ce que la division du travail selon Adam Smith et quelles en sont les consÃ©quences ?"
       },
       {
         "type": "qcm",
@@ -60,29 +60,16 @@
         "choices": [
           "L'homme qui parle",
           "L'homme qui pense abstraitement",
-          "L'homme fabricant, définit par son usage des outils et des techniques",
+          "L'homme fabricant, dÃ©finit par son usage des outils et des techniques",
           "L'homme politique"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "L'automatisation et l'intelligence artificielle posent de nouveaux défis philosophiques quant à la place du travail humain dans la société."
+        "question": "L'automatisation et l'intelligence artificielle posent de nouveaux dÃ©fis philosophiques quant Ã  la place du travail humain dans la sociÃ©tÃ©."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Philosophie",
-      "description": "Notion du programme 1ere"
-    },
-    {
-      "notion": "Compétences de base 1ere",
-      "description": "Notion du programme 1ere"
-    },
-    {
-      "notion": "Savoir-faire philosophie",
-      "description": "Notion du programme 1ere"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

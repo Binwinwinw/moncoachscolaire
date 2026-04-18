@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic SES 1ère - Série 823",
-    "level": "1ère",
+    "title": "Quiz Diagnostic SES 1ere - Série 823",
+    "level": "1ere",
     "subject": "SES"
   },
   "quiz": {
     "title": "Défaillances du marché",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Un coût imposé à des tiers sans compensation",
+        "correct": 1,
         "correction": "La pollution industrielle est l'exemple classique d'externalité négative : le coût social dépasse le coût privé."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. L'État intervient pour financer les biens publics (défense, justice, éclairage public) via l'impôt."
+        "answer": "faux",
+        "correction": "L'État intervient pour financer les biens publics (défense, justice, éclairage public) via l'impôt."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Un agent possède plus d'informations que l'autre",
+        "correct": 1,
         "correction": "Ex : un vendeur de voitures d'occasion connaît mieux l'état du véhicule que l'acheteur (Akerlof)."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. L'aléa moral est une asymétrie d'information ex post qui nuit à l'efficience."
+        "answer": "faux",
+        "correction": "L'aléa moral est une asymétrie d'information ex post qui nuit à l'efficience."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Taxer l'activité polluante (taxe pigouvienne)",
+        "correct": 1,
         "correction": "La taxe pigouvienne internalise le coût externe en l'intégrant dans le prix privé du producteur."
       },
       {

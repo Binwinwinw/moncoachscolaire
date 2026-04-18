@@ -2,17 +2,17 @@
   "contents": {
     "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 728",
     "type": "quiz",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "description": "Diagnostic Physique-Chimie 3ème : Lumière : propagation et vitesse",
     "status": "published",
-    "created_at": "2026-03-13 18:59:45",
-    "updated_at": "2026-03-13 18:59:45"
+    "created_at": "2026-04-18 18:28:05",
+    "updated_at": "2026-04-18 18:28:05"
   },
   "quiz": {
     "title": "Lumière : propagation et vitesse",
     "type": "quiz",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "1 année-lumière = 9,46 × 10^12 km, distance parcourue par la lumière dans le vide en une année."
+        "question": "La bonne réponse attendue est : année-lumière."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "T = d/c = 1,5 × 10^11 m / 3 × 10^8 m/s = 500 s ≈ 8 minutes 20 secondes."
+        "question": "La bonne réponse attendue est : 8 minutes."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Physique-Chimie",
-      "description": "Notion du programme 3ème"
-    },
-    {
-      "notion": "Compétences de base 3ème",
-      "description": "Notion du programme 3ème"
-    },
-    {
-      "notion": "Savoir-faire physique-chimie",
-      "description": "Notion du programme 3ème"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

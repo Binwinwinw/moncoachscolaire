@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Une representation graphique des etats d'un systeme et des transitions entre ces etats",
+        "correct": 1,
         "correction": "Un diagramme d'etat modelise le comportement d'un systeme en decrivant ses etats possibles (veille, marche, alarme) et les evenements qui declenchent les transitions."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le langage Ladder (echelle) est un langage de programmation graphique pour API, avec des contacts (entrees) et bobines (sorties) arranges comme un schema de cablage."
+        "correction": "Le langage Ladder (echelle) est un langage de programmation graphique pour API, avec des contacts (entrees) et bobines (sorties) arranges comme un schema de cablage."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "0",
+        "correct": 0,
         "correction": "La porte AND (ET logique) donne 1 uniquement si TOUTES ses entrees sont a 1 : 1 AND 0 = 0."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La porte NOT (NON logique) inverse la valeur : NOT(1) = 0 et NOT(0) = 1."
+        "correction": "La porte NOT (NON logique) inverse la valeur : NOT(1) = 0 et NOT(0) = 1."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Une fonction qui retarde ou limite dans le temps une action du systeme",
+        "correct": 1,
         "correction": "Une temporisation (timer) introduit un delai avant ou apres une action ; ex. une lumiere qui s'eteint 5 minutes apres la detection de presence."
       },
       {

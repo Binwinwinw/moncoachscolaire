@@ -6,10 +6,10 @@
     "subject": "Français",
     "description": "Diagnostic Français 2nde : Diagnostic 2nde Français - Synthèse des compétences de début d'année",
     "status": "published",
-    "created_at": "2026-03-14 07:35:11",
-    "updated_at": "2026-03-14 07:35:11",
+    "created_at": "2026-04-18 15:23:24",
+    "updated_at": "2026-04-18 15:23:24",
     "source": "Eduscol programmes officiels + BOEN",
-    "programme_ref": "<Référence programme officiel à renseigner>"
+    "programme_ref": "BO spécial n°1 du 22 janvier 2019 (LGT) + Eduscol Français seconde"
   },
   "quiz": {
     "title": "Diagnostic 2nde Français - Synthèse des compétences de début d'année",
@@ -35,8 +35,8 @@
         "question": "Dans un paragraphe d'analyse littéraire, il est conseillé de citer le texte et d'expliquer l'effet produit."
       },
       {
-        "type": "open",
-        "question": "Quel terme désigne l'idée directrice qui organise une lecture analytique ?"
+        "type": "vrai-faux",
+        "question": "La bonne réponse attendue est : problématique."
       },
       {
         "type": "qcm",
@@ -53,8 +53,8 @@
         "question": "La conclusion d'un devoir doit simplement répéter mot à mot l'introduction."
       },
       {
-        "type": "open",
-        "question": "Donne le nom du procédé qui consiste à reprendre les mots exacts d'un texte entre guillemets."
+        "type": "vrai-faux",
+        "question": "La bonne réponse attendue est : citation."
       },
       {
         "type": "qcm",
@@ -72,19 +72,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Mouvements littéraires",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Analyse narratologique",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Argumentation structurée",
-      "description": "Notion fondamentale de Français"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

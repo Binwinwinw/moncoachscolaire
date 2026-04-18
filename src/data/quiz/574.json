@@ -2,17 +2,17 @@
   "contents": {
     "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 574",
     "type": "quiz",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "description": "Diagnostic Histoire-Géographie 3ème : Les migrations internationales",
     "status": "published",
-    "created_at": "2026-04-06 06:40:44",
-    "updated_at": "2026-04-06 06:40:44"
+    "created_at": "2026-04-18 18:28:04",
+    "updated_at": "2026-04-18 18:28:04"
   },
   "quiz": {
     "title": "Les migrations internationales",
     "type": "quiz",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Les remises (transferts de fonds) sont essentielles pour de nombreux pays : elles peuvent représenter plus de 20% du PIB (ex."
+        "question": "La bonne réponse attendue est : remises."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Les déplacés internes (PDI) fuient les conflits ou catastrophes sans quitter leur pays ; il y en a environ 60 millions dans le monde."
+        "question": "La bonne réponse attendue est : déplacés internes."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Histoire-Géographie",
-      "description": "Notion du programme 3ème"
-    },
-    {
-      "notion": "Compétences de base 3ème",
-      "description": "Notion du programme 3ème"
-    },
-    {
-      "notion": "Savoir-faire histoire-géographie",
-      "description": "Notion du programme 3ème"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

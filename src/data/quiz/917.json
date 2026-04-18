@@ -2,17 +2,17 @@
   "contents": {
     "title": "Quiz Diagnostic HGGSP 1ère - Série 917",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP",
     "description": "Diagnostic HGGSP 1ère : L'espace, enjeu géopolitique",
     "status": "published",
-    "created_at": "2026-04-06 06:40:39",
-    "updated_at": "2026-04-06 06:40:39"
+    "created_at": "2026-04-18 15:13:09",
+    "updated_at": "2026-04-18 15:13:09"
   },
   "quiz": {
     "title": "L'espace, enjeu géopolitique",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Les satellites militaires assurent le renseignement (espionnage, imagerie), les communications des forces armées, la navigation (GPS, GLONASS, Galileo), la détection de missiles et les drones armés."
+        "question": "En quoi le contrôle des satellites est-il un enjeu stratégique militaire ?"
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Risques : course aux armements spatiaux (tests antisatellites), création de débris menaçant toutes les orbites, escalade possible vers des conflits terrestres (dépendance militaire aux satellites), absence d'un cadre juridique adapté aux nouvelles capacités (cyberattaques spatiales, armes antisatellites)."
+        "question": "Quels sont les risques liés à la militarisation croissante de l'espace ?"
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de HGGSP",
-      "description": "Notion du programme 1ère"
-    },
-    {
-      "notion": "Compétences de base 1ère",
-      "description": "Notion du programme 1ère"
-    },
-    {
-      "notion": "Savoir-faire hggsp",
-      "description": "Notion du programme 1ère"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

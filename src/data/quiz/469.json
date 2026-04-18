@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 469",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 469",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
-    "description": "Diagnostic Français 1ère : La poésie lyrique",
+    "description": "Diagnostic Français 1ere : La poÃ©sie lyrique",
     "status": "published",
-    "created_at": "2026-03-13 18:59:43",
-    "updated_at": "2026-03-13 18:59:43"
+    "created_at": "2026-04-18 20:20:12",
+    "updated_at": "2026-04-18 20:20:12"
   },
   "quiz": {
-    "title": "La poésie lyrique",
+    "title": "La poÃ©sie lyrique",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
@@ -20,28 +20,28 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Quelle est la caractéristique principale de la poésie lyrique ?",
+        "question": "Quelle est la caractÃ©ristique principale de la poÃ©sie lyrique ?",
         "choices": [
-          "La narration d'événements historiques",
-          "L'expression des sentiments personnels du poète",
+          "La narration d'Ã©vÃ©nements historiques",
+          "L'expression des sentiments personnels du poÃ¨te",
           "La satire sociale",
           "La description objective du monde"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Le Romantisme est un mouvement littéraire favorable au lyrisme personnel."
+        "question": "Le Romantisme est un mouvement littÃ©raire favorable au lyrisme personnel."
       },
       {
         "type": "vrai-faux",
-        "question": "Le spleen baudelairien est une mélancolie existentielle, opposée à l'idéal."
+        "question": "Le spleen dÃ©signe chez Baudelaire un sentiment de _____ et d'ennui profond."
       },
       {
         "type": "qcm",
-        "question": "Quelle figure de style exprime le lyrisme en attribuant des sentiments à la nature ?",
+        "question": "Quelle figure de style exprime le lyrisme en attribuant des sentiments Ã  la nature ?",
         "choices": [
-          "Métaphore",
-          "Prosopopée",
+          "MÃ©taphore",
+          "ProsopopÃ©e",
           "Personnification de la nature / pathetic fallacy",
           "Anaphore"
         ]
@@ -52,37 +52,24 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Méditations poétiques."
+        "question": "Le recueil de Lamartine intitulÃ© _____ (1820) inaugure le lyrisme romantique en France."
       },
       {
         "type": "qcm",
-        "question": "Dans 'Le Lac' de Lamartine, le poète s'adresse au lac pour :",
+        "question": "Dans 'Le Lac' de Lamartine, le poÃ¨te s'adresse au lac pour :",
         "choices": [
-          "Décrire un paysage pittoresque",
+          "DÃ©crire un paysage pittoresque",
           "Lutter contre l'oubli du temps et d'un amour disparu",
-          "Célébrer une victoire",
-          "Critiquer la société"
+          "CÃ©lÃ©brer une victoire",
+          "Critiquer la sociÃ©tÃ©"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Le vers libre est caractérisé par l'absence de métrique fixe et de rime obligatoire."
+        "question": "Le vers libre est caractÃ©risÃ© par l'absence de mÃ©trique fixe et de rime obligatoire."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Baccalauréat français",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Poésie baroque et classique",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Théâtre et représentation",
-      "description": "Notion fondamentale de Français"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

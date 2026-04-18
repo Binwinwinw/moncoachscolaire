@@ -6,8 +6,8 @@
     "subject": "EMC",
     "description": "Diagnostic EMC 3eme : La citoyennete francaise : droits et devoirs",
     "status": "published",
-    "created_at": "2026-04-06 06:40:43",
-    "updated_at": "2026-04-06 06:40:43"
+    "created_at": "2026-04-18 21:24:13",
+    "updated_at": "2026-04-18 21:24:13"
   },
   "quiz": {
     "title": "La citoyennete francaise : droits et devoirs",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Participer a la defense nationale."
+        "question": "La bonne réponse attendue est : participer a la defense nationale."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Certificat de nationalite francaise."
+        "question": "La bonne réponse attendue est : certificat de nationalite francaise."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de EMC",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Compétences de base 3eme",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Savoir-faire emc",
-      "description": "Notion du programme 3eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

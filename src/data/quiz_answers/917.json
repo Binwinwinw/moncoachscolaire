@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic HGGSP 1ère - Série 917",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP"
   },
   "quiz": {
     "title": "L'espace, enjeu géopolitique",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Province de toute l'humanité, non soumise à appropriation nationale",
+        "correct": 2,
         "correction": "L'article II du Traité de 1967 interdit toute revendication de souveraineté nationale sur l'espace, la Lune et les corps célestes."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. L'espace est devenu un domaine militaire à part entière ('domain warfare'). La France a annoncé en 2019 une stratégie de défense spatiale."
+        "answer": "faux",
+        "correction": "L'espace est devenu un domaine militaire à part entière ('domain warfare'). La France a annoncé en 2019 une stratégie de défense spatiale."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "2000",
+        "correct": 3,
         "correction": "Le GPS (Global Positioning System) fut développé par l'armée américaine. En 2000, Bill Clinton mit fin à la dégradation volontaire du signal civil (Selective Availability), rendant le GPS pleinement précis pour tous."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Le Traité de 1967 interdit les armes de destruction massive dans l'espace mais pas les armes conventionnelles ni les antisatellites."
+        "answer": "faux",
+        "correction": "Le Traité de 1967 interdit les armes de destruction massive dans l'espace mais pas les armes conventionnelles ni les antisatellites."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Satellites de communication militaires",
+        "correct": 1,
         "correction": "Syracuse est le système de télécommunications militaires français par satellite, géré par l'armée. La France a aussi développé des capacités de surveillance spatiale (GRAVES, GEOINT)."
       },
       {

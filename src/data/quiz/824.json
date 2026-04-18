@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic SES 1ère - Série 824",
+    "title": "Quiz Diagnostic SES 1ere - Série 824",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
-    "description": "Diagnostic SES 1ère : Concurrence et monopole",
+    "description": "Diagnostic SES 1ere : Concurrence et monopole",
     "status": "published",
-    "created_at": "2026-04-06 06:40:40",
-    "updated_at": "2026-04-06 06:40:40"
+    "created_at": "2026-04-18 20:28:31",
+    "updated_at": "2026-04-18 20:28:31"
   },
   "quiz": {
     "title": "Concurrence et monopole",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Ces conditions assurent qu'aucun acteur n'a de pouvoir de marché."
+        "question": "Quelles sont les cinq conditions de la concurrence pure et parfaite ?"
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Une entente (cartel) permet aux entreprises de fixer des prix plus élevés ou de réduire la production, réduisant le surplus des consommateurs et l'efficience du marché."
+        "question": "Expliquez en quoi une entente entre entreprises est néfaste pour les consommateurs."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Inégalités et redistribution",
-      "description": "Notion fondamentale de SES"
-    },
-    {
-      "notion": "Croissance économique",
-      "description": "Notion fondamentale de SES"
-    },
-    {
-      "notion": "Mondialisation",
-      "description": "Notion fondamentale de SES"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

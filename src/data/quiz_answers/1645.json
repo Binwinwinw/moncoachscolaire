@@ -1,70 +1,73 @@
 {
   "contents": {
-    "title": "QUIZ 1645 - réponses à remplir",
-    "level": "unknown",
-    "subject": "unknown"
+    "title": "Quiz Diagnostic Français 2nde - Série 1645",
+    "level": "2nde",
+    "subject": "Français"
   },
   "quiz": {
-    "title": "Quiz 1645 - corrections placeholder",
+    "title": "Diagnostic 2nde Français - Poésie et figures de style",
     "question_count": 8,
-    "level": "unknown",
-    "subject": "unknown",
+    "level": "2nde",
+    "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "",
-        "correction": ""
+        "answer": "La comparaison",
+        "correct": 1,
+        "correction": "La comparaison rapproche explicitement deux éléments à l'aide d'un comparatif. Elle met en valeur une ressemblance précise."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "answer": "faux",
-        "correction": "Réponse attendue : faux"
+        "answer": "vrai",
+        "correction": "Le sonnet classique comporte 14 vers, souvent répartis en deux quatrains et deux tercets. Cette forme impose une forte contrainte d'écriture."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "",
-        "correction": ""
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'allitération est la répétition d'une consonne pour créer un effet sonore. Elle peut suggérer douceur, violence ou insistance."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "",
-        "correction": ""
+        "answer": "Le registre lyrique",
+        "correct": 0,
+        "correction": "Le registre lyrique exprime les émotions personnelles, notamment l'amour, la mélancolie ou la nostalgie. Il privilégie la subjectivité."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
         "answer": "faux",
-        "correction": "Réponse attendue : faux"
+        "correction": "Contrairement à la comparaison, la métaphore rapproche deux réalités sans outil comparatif. Le lien est implicite."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "",
-        "correction": ""
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'anaphore crée un rythme insistant et structure le poème. Elle met en relief une idée essentielle."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "",
-        "correction": ""
+        "answer": "Prolonger une phrase au-delà de la fin du vers",
+        "correct": 1,
+        "correction": "L'enjambement dépasse la frontière du vers et crée un effet de continuité. Il peut accélérer ou nuancer le rythme de lecture."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "answer": "faux",
-        "correction": "Réponse attendue : faux"
+        "answer": "vrai",
+        "correction": "Le vers libre s'affranchit des règles fixes de syllabes et parfois de rimes. Il conserve pourtant une organisation poétique du langage."
       }
     ]
   }

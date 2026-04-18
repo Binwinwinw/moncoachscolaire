@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic SVT 3ème - Série 660",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT"
   },
   "quiz": {
     "title": "Évolution : de la cellule à l'être humain",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Il y a 3,5 milliards d'années",
+        "correct": 2,
         "correction": "Les traces les plus anciennes de vie (stromatolites) sont datées d'environ 3,5 milliards d'années."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Cinq grandes extinctions de masse ont été identifiées, dont celle du Crétacé-Paléogène il y a 66 Ma."
+        "correction": "Cinq grandes extinctions de masse ont été identifiées, dont celle du Crétacé-Paléogène il y a 66 Ma."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Il y a 6 millions d'années",
+        "correct": 1,
         "correction": "Les données génétiques et paléontologiques situent la divergence hominine-chimpanzé il y a 6 à 8 millions d'années."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La bipédie permanente est un caractère dérivé des hominidés, distinguant la lignée humaine de celle des autres primates."
+        "correction": "La bipédie permanente est un caractère dérivé des hominidés, distinguant la lignée humaine de celle des autres primates."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Lucy (Australopithecus afarensis)",
+        "correct": 0,
         "correction": "Lucy est un squelette fossile d'Australopithecus afarensis vieux d'environ 3,2 millions d'années."
       },
       {

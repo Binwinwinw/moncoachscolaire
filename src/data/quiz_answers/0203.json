@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 0203",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Types de mouvements (rectiligne, circulaire).",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Tous les types mentionnÃ©s",
+        "correction": "Il existe plusieurs types de mouvements, notamment le mouvement rectiligne, qui se fait en ligne droite, et le mouvement circulaire, qui se fait autour d'un point fixe."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, le mouvement rectiligne se fait en ligne droite, et peut Ãªtre horizontal ou vertical selon le contexte."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Le mouvement d'une roue de vÃ©lo",
+        "correction": "Le mouvement d'une roue de vÃ©lo est un exemple de mouvement circulaire, car elle tourne autour d'un point fixe (l'axe de la roue)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, le mouvement circulaire se fait autour d'un point fixe et n'est pas en ligne droite."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Le mouvement d'une voiture sur une route droite",
+        "correction": "Le mouvement d'une voiture sur une route droite est un exemple de mouvement rectiligne, car elle se dÃ©place en ligne droite."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, il existe une diffÃ©rence entre les mouvements rectilignes et circulaires en termes de leur trajectoire et de leur nature."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Une roue de vÃ©lo",
+        "correction": "Une roue de vÃ©lo utilise un mouvement circulaire, car elle tourne autour d'un point fixe (l'axe de la roue)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, la vitesse d'un mouvement rectiligne ou circulaire dÃ©pend de nombreux facteurs, tels que la force appliquÃ©e, la rÃ©sistance, et les conditions environnementales, et il n'est pas correct de dire que l'un est intrinsÃ¨quement plus rapide que l'autre."
+      }
+    ]
+  }
+}

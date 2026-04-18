@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "(5, 5)",
+        "answer": "A",
         "correction": "Milieu M = ((2+8)/2, (6+4)/2) = (5, 5)."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. M = (xA + xB)/2 → xB = 2×2 − (−1) = 5. yB = 2×1 − 3 = −1."
+        "correction": "M = (xA + xB)/2 → xB = 2×2 − (−1) = 5. yB = 2×1 − 3 = −1."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "5",
+        "answer": "A",
         "correction": "AB = √((4−1)² + (5−1)²) = √(9+16) = √25 = 5."
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. AC = √((2−0)² + (2√3)²) = √(4+12) = 4 ; BC = √((2−4)² + (2√3)²) = 4. Triangle équilatéral."
+        "correction": "AC = √((2−0)² + (2√3)²) = √(4+12) = 4 ; BC = √((2−4)² + (2√3)²) = 4. Triangle équilatéral."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "(2, 2)",
+        "answer": "A",
         "correction": "M = ((−3+7)/2, (5+(−1))/2) = (4/2, 4/2) = (2, 2)."
       },
       {

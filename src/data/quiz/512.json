@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 512",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Français",
+    "description": "Diagnostic Français 1ere : Méthode du commentaire littéraire",
+    "status": "published",
+    "created_at": "2026-04-18 20:20:13",
+    "updated_at": "2026-04-18 20:20:13"
+  },
+  "quiz": {
+    "title": "Méthode du commentaire littéraire",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle définition correspond le mieux à le commentaire littéraire ?",
+        "choices": [
+          "Un exercice qui analyse un texte de façon organisée à partir d'une problématique",
+          "Un simple résumé du texte",
+          "Une dictée évaluée",
+          "Un devoir de calcul"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le commentaire littéraire peut être relié au mouvement Analyse littéraire."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel auteur est souvent associé à le commentaire littéraire ?",
+        "choices": [
+          "Le lecteur critique",
+          "Le narrateur omniscient",
+          "Le héros comique",
+          "Le personnage secondaire"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "le texte étudié peut servir d'œuvre de référence pour travailler le commentaire littéraire."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle notion aide le plus à analyser le commentaire littéraire ?",
+        "choices": [
+          "la problématique",
+          "le hors-sujet",
+          "la paraphrase seule",
+          "l'absence de citation"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Pour réussir un devoir sur le commentaire littéraire, il faut s'appuyer sur des citations précises du texte."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel exercice du bac mobilise efficacement des références liées à le commentaire littéraire ?",
+        "choices": [
+          "Le commentaire littéraire",
+          "La récitation mécanique",
+          "Le hors-sujet",
+          "L'absence de plan"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Confondre le commentaire littéraire avec un simple résumé de cours suffit pour une bonne analyse."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

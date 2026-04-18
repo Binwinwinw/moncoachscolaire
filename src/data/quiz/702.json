@@ -2,17 +2,17 @@
   "contents": {
     "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 702",
     "type": "quiz",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "description": "Diagnostic Physique-Chimie 3ème : Molécules et liaisons covalentes",
     "status": "published",
-    "created_at": "2026-03-13 18:59:45",
-    "updated_at": "2026-03-13 18:59:45"
+    "created_at": "2026-04-18 18:28:05",
+    "updated_at": "2026-04-18 18:28:05"
   },
   "quiz": {
     "title": "Molécules et liaisons covalentes",
     "type": "quiz",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "CO2 est composé d'un atome C lié à deux atomes O par des doubles liaisons covalentes."
+        "question": "La bonne réponse attendue est : CO2."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La formule de Lewis représente les doublets liants (liaisons) et non liants (doublets libres) de chaque atome."
+        "question": "La bonne réponse attendue est : formule de Lewis."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Physique-Chimie",
-      "description": "Notion du programme 3ème"
-    },
-    {
-      "notion": "Compétences de base 3ème",
-      "description": "Notion du programme 3ème"
-    },
-    {
-      "notion": "Savoir-faire physique-chimie",
-      "description": "Notion du programme 3ème"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

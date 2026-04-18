@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic HGGSP 1ère - Série 932",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP"
   },
   "quiz": {
     "title": "Conflits contemporains et construction de la paix",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Une guerre civile devenue conflit international par proxy",
+        "correct": 1,
         "correction": "La guerre civile syrienne a impliqué de nombreux acteurs extérieurs : Russie et Iran soutenant Assad, USA, Turquie, Arabie Saoudite soutenant des factions rebelles, Daech. C'est une guerre par procuration internalisée."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La Commission de consolidation de la paix (ONU, 2005) soutient les États sortant de conflits."
+        "answer": "faux",
+        "correction": "La Commission de consolidation de la paix (ONU, 2005) soutient les États sortant de conflits."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "L'ensemble des mécanismes judiciaires et non judiciaires permettant d'aborder les violations passées dans une société post-conflit",
+        "correct": 1,
         "correction": "La justice transitionnelle comprend : poursuites pénales, commissions vérité-réconciliation (Afrique du Sud), réparations, réformes institutionnelles. Elle vise réconciliation et prévention des rechutes."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Les 'nouvelles guerres' remettent en cause les catégories classiques du droit de la guerre et posent de nouveaux défis humanitaires."
+        "answer": "faux",
+        "correction": "Les 'nouvelles guerres' remettent en cause les catégories classiques du droit de la guerre et posent de nouveaux défis humanitaires."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Dans le Sahel (Mali, Niger, Burkina Faso…) contre les groupes jihadistes",
+        "correct": 1,
         "correction": "L'opération Barkhane, successeur de Serval, déploie jusqu'à 5 000 soldats français dans la bande sahélo-saharienne (BSS) pour combattre les groupes armés terroristes (GAT). La France s'en est retirée entre 2022 et 2023 sous pression politique locale."
       },
       {

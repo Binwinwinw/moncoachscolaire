@@ -6,8 +6,8 @@
     "subject": "EMC",
     "description": "Diagnostic EMC 3eme : Les institutions de la Ve Republique",
     "status": "published",
-    "created_at": "2026-04-06 06:40:43",
-    "updated_at": "2026-04-06 06:40:43"
+    "created_at": "2026-04-18 21:24:13",
+    "updated_at": "2026-04-18 21:24:13"
   },
   "quiz": {
     "title": "Les institutions de la Ve Republique",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "L'article 12 permet au Président de dissoudre l'Assemblée nationale après consultation du Premier ministre et des présidents des assemblées."
+        "question": "La bonne réponse attendue est : article 12."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La cohabitation (1986-88, 1993-95, 1997-2002) est une situation de division du pouvoir exécutif entre un président et un premier ministre de camps politiques opposés."
+        "question": "La bonne réponse attendue est : cohabitation."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de EMC",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Compétences de base 3eme",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Savoir-faire emc",
-      "description": "Notion du programme 3eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

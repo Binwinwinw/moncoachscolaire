@@ -1,0 +1,77 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 6eme - SÃ©rie 1797",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie 6eme : Physique-Chimie 6eme - Reactions chimiques",
+    "status": "published",
+    "created_at": "2026-04-18 18:52:45",
+    "updated_at": "2026-04-18 18:52:45",
+    "source": "Eduscol programmes officiels + BOEN",
+    "programme_ref": "Programmes College + Eduscol Sciences et technologie"
+  },
+  "quiz": {
+    "title": "Physique-Chimie 6eme - Reactions chimiques",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "[Physique-Chimie 6eme] Sur le theme 'Reactions chimiques', quelle demarche est la plus efficace pour reussir un exercice diagnostic ?",
+        "choices": [
+          "Relire la consigne et identifier l'objectif",
+          "Repondre vite sans verifier",
+          "Ignorer le contexte",
+          "Memoriser sans comprendre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Physique-Chimie 6eme] Sur 'Reactions chimiques', verifier ses reponses avant validation ameliore la fiabilite."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Physique-Chimie 6eme] Cite une methode concrete pour progresser sur le theme 'Reactions chimiques'."
+      },
+      {
+        "type": "qcm",
+        "question": "[Physique-Chimie 6eme] Quelle action favorise la memorisation durable du theme 'Reactions chimiques' ?",
+        "choices": [
+          "Faire des rappels espaces",
+          "Tout revoir une seule fois",
+          "Copier sans comprendre",
+          "Eviter les exercices"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Physique-Chimie 6eme] L'explication d'une reponse est moins importante que la reponse elle-meme."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Physique-Chimie 6eme] Propose un exemple d'auto-correction pertinente sur 'Reactions chimiques'."
+      },
+      {
+        "type": "qcm",
+        "question": "[Physique-Chimie 6eme] Quel indicateur montre une bonne maitrise du theme 'Reactions chimiques' ?",
+        "choices": [
+          "Expliquer clairement la demarche",
+          "Donner une reponse au hasard",
+          "Eviter les notions difficiles",
+          "Memoriser sans application"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Physique-Chimie 6eme] Alterner entrainement, feedback et reprise des erreurs aide a progresser sur 'Reactions chimiques'."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

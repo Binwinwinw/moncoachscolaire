@@ -6,8 +6,8 @@
     "subject": "SVT",
     "description": "Diagnostic SVT 2nde : SVT 2nde - Biodiversite",
     "status": "published",
-    "created_at": "2026-04-06 06:40:43",
-    "updated_at": "2026-04-06 06:40:43",
+    "created_at": "2026-04-18 21:26:10",
+    "updated_at": "2026-04-18 21:26:10",
     "source": "Eduscol programmes officiels + BOEN",
     "programme_ref": "BO special ndeg1 du 22 janvier 2019 (LGT) + Eduscol SVT Seconde"
   },
@@ -35,7 +35,7 @@
         "question": "[SVT 2nde] Sur 'Biodiversite', verifier ses reponses avant validation ameliore la fiabilite."
       },
       {
-        "type": "open",
+        "type": "vrai-faux",
         "question": "[SVT 2nde] Cite une methode concrete pour progresser sur le theme 'Biodiversite'."
       },
       {
@@ -53,7 +53,7 @@
         "question": "[SVT 2nde] L'explication d'une reponse est moins importante que la reponse elle-meme."
       },
       {
-        "type": "open",
+        "type": "vrai-faux",
         "question": "[SVT 2nde] Propose un exemple d'auto-correction pertinente sur 'Biodiversite'."
       },
       {
@@ -72,19 +72,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Cellule et organites",
-      "description": "Notion fondamentale de SVT"
-    },
-    {
-      "notion": "Énergies renouvelables",
-      "description": "Notion fondamentale de SVT"
-    },
-    {
-      "notion": "Biodiversité",
-      "description": "Notion fondamentale de SVT"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

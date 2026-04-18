@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 708",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie"
   },
   "quiz": {
     "title": "Réactions d'oxydoréduction",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Un transfert d'électrons entre un réducteur et un oxydant",
+        "correct": 1,
         "correction": "L'oxydoréduction est un transfert d'électrons : l'oxydant capte les électrons du réducteur, qui lui les cède."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La rouille (Fe2O3·nH2O) est un oxyde de fer hydraté, résultant de l'oxydation du fer par l'O2 en présence d'eau."
+        "correction": "La rouille (Fe2O3·nH2O) est un oxyde de fer hydraté, résultant de l'oxydation du fer par l'O2 en présence d'eau."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Zn",
+        "correct": 3,
         "correction": "Le zinc Zn cède des électrons (il s'oxyde) pour réduire Cu2+ en Cu. Zn est le réducteur."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La galvanisation protège le fer en le recouvrant de zinc, qui s'oxyde préférentiellement à la place du fer."
+        "correction": "La galvanisation protège le fer en le recouvrant de zinc, qui s'oxyde préférentiellement à la place du fer."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Le transfert spontané d'électrons lors d'une réaction redox",
+        "correct": 1,
         "correction": "Une pile convertit l'énergie chimique (réaction redox spontanée) en énergie électrique."
       },
       {

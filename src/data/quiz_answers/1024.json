@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "x = 2",
+        "answer": "A",
         "correction": "e^(3x) = e^6 ⟺ 3x = 6 ⟺ x = 2."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. e strictement croissante : 2x−1 ≥ x+2 ⟺ x ≥ 3."
+        "correction": "e strictement croissante : 2x−1 ≥ x+2 ⟺ x ≥ 3."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "u = e^x",
+        "answer": "A",
         "correction": "Avec u = eˣ (u > 0) : u² − 3u + 2 = 0 → (u−1)(u−2) = 0 → u=1 ou u=2."
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. eˣ = 2 → x = ln 2 ; eˣ = −1 impossible (eˣ > 0). Unique solution : x = ln 2."
+        "correction": "eˣ = 2 → x = ln 2 ; eˣ = −1 impossible (eˣ > 0). Unique solution : x = ln 2."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "x > ln 5",
+        "answer": "B",
         "correction": "eˣ > 5 ⟺ x > ln 5 (fonction exp strictement croissante)."
       },
       {

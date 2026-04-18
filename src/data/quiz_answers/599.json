@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 599",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie"
   },
   "quiz": {
     "title": "Géopolitique de l'énergie",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Charbon, pétrole et gaz",
+        "correct": 1,
         "correction": "Elles dominent encore le mix énergétique mondial."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Leur accès est stratégique pour la transition énergétique."
+        "correction": "Leur accès est stratégique pour la transition énergétique."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "OPEP",
+        "correct": 1,
         "correction": "L'OPEP peut influencer l'offre mondiale de pétrole."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Multiplier les sources limite les dépendances."
+        "correction": "Multiplier les sources limite les dépendances."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Accélérer les renouvelables et l'efficacité énergétique",
+        "correct": 1,
         "correction": "Les politiques visent décarbonation et autonomie relative."
       },
       {

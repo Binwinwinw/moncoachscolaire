@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic SES 1ère - Série 847",
-    "level": "1ère",
+    "title": "Quiz Diagnostic SES 1ere - Série 847",
+    "level": "1ere",
     "subject": "SES"
   },
   "quiz": {
     "title": "La mondialisation financière",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'intégration et la libéralisation des marchés financiers à l'échelle mondiale",
+        "correct": 1,
         "correction": "Depuis les années 1980, les marchés de capitaux sont largement déréglementés et interconnectés (règle des '3D' de Bourguinat)."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. L'interdépendance financière amplifie les chocs et rend difficile la régulation nationale seule."
+        "answer": "faux",
+        "correction": "L'interdépendance financière amplifie les chocs et rend difficile la régulation nationale seule."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Le financement de l'économie réelle, la couverture des risques et la liquidité",
+        "correct": 1,
         "correction": "Les marchés financiers remplissent des fonctions d'allocation du capital, de gestion des risques (couverture) et de liquidité."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Keynes comparait les marchés financiers à un concours de beauté : ce qui compte est ce que les autres croient, pas la valeur fondamentale."
+        "answer": "faux",
+        "correction": "Keynes comparait les marchés financiers à un concours de beauté : ce qui compte est ce que les autres croient, pas la valeur fondamentale."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Des prêts immobiliers risqués titrisés et vendus à des investisseurs mondiaux",
+        "correct": 1,
         "correction": "La titrisation a transformé des créances douteuses en produits financiers complexes, diffusant le risque dans tout le système financier mondial."
       },
       {

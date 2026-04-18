@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "uₙ = u₀ · qⁿ",
+        "answer": "B",
         "correction": "Terme général d'une suite géométrique : uₙ = u₀ · qⁿ."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Suite géométrique de raison 2, premier terme 1. S = (2¹¹ − 1)/(2−1) = 2047."
+        "correction": "Suite géométrique de raison 2, premier terme 1. S = (2¹¹ − 1)/(2−1) = 2047."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "u₀ · (1 − qⁿ) / (1 − q)",
+        "answer": "B",
         "correction": "Sₙ = u₀ · (1 − qⁿ)/(1 − q) pour q ≠ 1."
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Suite géométrique de raison q=1,04. C₅ = 1000×1,04⁵ ≈ 1216,65."
+        "correction": "Suite géométrique de raison q=1,04. C₅ = 1000×1,04⁵ ≈ 1216,65."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "3n",
+        "answer": "B",
         "correction": "uₙ₊₁/uₙ = 3ⁿ⁺¹/3ⁿ = 3. La raison est q = 3."
       },
       {

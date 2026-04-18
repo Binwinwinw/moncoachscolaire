@@ -2,17 +2,17 @@
   "contents": {
     "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 708",
     "type": "quiz",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "description": "Diagnostic Physique-Chimie 3ème : Réactions d'oxydoréduction",
     "status": "published",
-    "created_at": "2026-03-13 18:59:45",
-    "updated_at": "2026-03-13 18:59:45"
+    "created_at": "2026-04-18 18:28:05",
+    "updated_at": "2026-04-18 18:28:05"
   },
   "quiz": {
     "title": "Réactions d'oxydoréduction",
     "type": "quiz",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La rouille (Fe2O3·nH2O) est un oxyde de fer hydraté, résultant de l'oxydation du fer par l'O2 en présence d'eau."
+        "question": "La bonne réponse attendue est : oxyde de fer."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La galvanisation protège le fer en le recouvrant de zinc, qui s'oxyde préférentiellement à la place du fer."
+        "question": "La bonne réponse attendue est : zinc."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Physique-Chimie",
-      "description": "Notion du programme 3ème"
-    },
-    {
-      "notion": "Compétences de base 3ème",
-      "description": "Notion du programme 3ème"
-    },
-    {
-      "notion": "Savoir-faire physique-chimie",
-      "description": "Notion du programme 3ème"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

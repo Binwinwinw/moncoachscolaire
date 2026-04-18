@@ -6,8 +6,8 @@
     "subject": "Anglais",
     "description": "Diagnostic Anglais 2nde : Diagnostic 2nde Anglais - Reading Skills",
     "status": "published",
-    "created_at": "2026-04-06 06:40:41",
-    "updated_at": "2026-04-06 06:40:41",
+    "created_at": "2026-04-18 15:23:24",
+    "updated_at": "2026-04-18 15:23:24",
     "source": "Eduscol programmes officiels + BOEN",
     "programme_ref": "BO special n°1 du 22 janvier 2019 (LGT) + Eduscol Langues vivantes Seconde"
   },
@@ -35,8 +35,8 @@
         "question": "'Scanning' means looking for specific information in a text."
       },
       {
-        "type": "open",
-        "question": "What is the English term for \"idée principale d'un paragraphe\"?"
+        "type": "vrai-faux",
+        "question": "La bonne réponse attendue est : main idea."
       },
       {
         "type": "qcm",
@@ -53,8 +53,8 @@
         "question": "A reliable summary should include only key information."
       },
       {
-        "type": "open",
-        "question": "Give one discourse marker used to introduce a contrast."
+        "type": "vrai-faux",
+        "question": "La bonne réponse attendue est : however."
       },
       {
         "type": "qcm",
@@ -72,19 +72,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Littérature anglophone",
-      "description": "Notion fondamentale de Anglais"
-    },
-    {
-      "notion": "Phonétique avancée",
-      "description": "Notion fondamentale de Anglais"
-    },
-    {
-      "notion": "Expression nuancée",
-      "description": "Notion fondamentale de Anglais"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

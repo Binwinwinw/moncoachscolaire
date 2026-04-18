@@ -1,42 +1,44 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 467",
-    "level": "1ère",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 467",
+    "level": "1ere",
     "subject": "Français"
   },
   "quiz": {
-    "title": "Le roman réaliste et naturaliste",
+    "title": "Le roman rÃ©aliste et naturaliste",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Émile Zola",
-        "correction": "Zola théorise le naturalisme dans Le Roman expérimental (1880) et le met en pratique dans Les Rougon-Macquart."
+        "answer": "Ã‰mile Zola",
+        "correct": 2,
+        "correction": "Zola thÃ©orise le naturalisme dans Le Roman expÃ©rimental (1880) et le met en pratique dans Les Rougon-Macquart."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "faux",
-        "correction": "La Comédie humaine appartient à Honoré de Balzac."
+        "correction": "La ComÃ©die humaine appartient Ã  HonorÃ© de Balzac."
       },
       {
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Flaubert, bien que rejetant l'étiquette, est associé au réalisme par son souci du style et de l'exactitude."
+        "answer": "faux",
+        "correction": "Flaubert, bien que rejetant l'Ã©tiquette, est associÃ© au rÃ©alisme par son souci du style et de l'exactitude."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "L'application des méthodes scientifiques à la littérature",
-        "correction": "Zola s'inspire de Claude Bernard pour appliquer l'expérimentation à la création romanesque."
+        "answer": "L'application des mÃ©thodes scientifiques Ã  la littÃ©rature",
+        "correct": 1,
+        "correction": "Zola s'inspire de Claude Bernard pour appliquer l'expÃ©rimentation Ã  la crÃ©ation romanesque."
       },
       {
         "index": 4,
@@ -49,22 +51,23 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Roland Barthes théorise l' 'effet de réel' : les détails inutiles créent un sentiment d'authenticité."
+        "answer": "faux",
+        "correction": "Roland Barthes thÃ©orise l' 'effet de rÃ©el' : les dÃ©tails inutiles crÃ©ent un sentiment d'authenticitÃ©."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Le Rouge et le Noir",
-        "correction": "Le Rouge et le Noir (1830) est le grand roman de Stendhal, avec Julien Sorel pour héros."
+        "correct": 1,
+        "correction": "Le Rouge et le Noir (1830) est le grand roman de Stendhal, avec Julien Sorel pour hÃ©ros."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "faux",
-        "correction": "Le réalisme vise à représenter fidèlement la réalité sociale et humaine, sans idéalisation."
+        "correction": "Le rÃ©alisme vise Ã  reprÃ©senter fidÃ¨lement la rÃ©alitÃ© sociale et humaine, sans idÃ©alisation."
       }
     ]
   }

@@ -68,6 +68,8 @@ def normalize_text_payload(payload):
     return payload
 
 def make_quiz(qid, title, subject, level, questions):
+    subject = normalize_subject_label(subject)
+    level = normalize_level_label(level)
     answer_keys = {"correct_answer", "correct_option", "correct", "explanation"}
     questions = [{k: v for k, v in q.items() if k not in answer_keys} for q in questions]
     created_at = datetime.now(UTC).strftime("%Y-%m-%d %H:%M:%S")
@@ -118,6 +120,8 @@ def make_quiz(qid, title, subject, level, questions):
     }
 
 def make_answers(qid, title, subject, level, questions):
+    subject = normalize_subject_label(subject)
+    level = normalize_level_label(level)
     answers = []
     for index, q in enumerate(questions):
         question_type = normalize_question_type(q.get("type", ""))
@@ -168,13 +172,26 @@ def make_answers(qid, title, subject, level, questions):
 
 
 def normalize_question_type(question_type):
-    if question_type == "vrai-faux":
+    qtype = str(question_type or "").strip().lower().replace("_", "-")
+    if qtype in {"vrai-faux", "vrai faux"}:
         return "vrai-faux"
-    if question_type == "qcm":
+    if qtype == "qcm":
         return "qcm"
-    if question_type == "open":
-        return "vrai-faux"
-    return question_type
+    return "vrai-faux"
+
+
+def normalize_level_label(level):
+    normalized = fix_mojibake_text(level).strip().lower()
+    if normalized in {"1ere", "1ère", "1ã¨re", "premiere"}:
+        return "1ere"
+    return fix_mojibake_text(level).strip()
+
+
+def normalize_subject_label(subject):
+    normalized = fix_mojibake_text(subject).strip().lower()
+    if normalized in {"francais", "français", "franã§ais"}:
+        return "Français"
+    return fix_mojibake_text(subject).strip()
 
 quizzes_data = [
 
@@ -1292,7 +1309,7 @@ quizzes_data = [
 (500, "RÃ©vision ultime : panorama de la littÃ©rature franÃ§aise", "FranÃ§ais", "1Ã¨re", [
     {"id":"500_1","type":"qcm","question":"Quelle est la premiÃ¨re grande Ã©poque de la littÃ©rature franÃ§aise ?",
      "options":["Le XVIe siÃ¨cle humaniste","Le Moyen Ã‚ge (IXe-XVe siÃ¨cle)","Le XVIIe siÃ¨cle classique","Le XIXe siÃ¨cle romantique"],
-     "correct_option":"Le Moyen Ã‚ge (IXe-XVe siÃ¨cle)","explanation":"La littÃ©rature franÃ§aise commence au Moyen Ã‚ge : Serments de Strasbourg (842), Chanson de Roland, roman courtoisâ€¦"},
+     "correct_option":"Le Moyen Ã‚ge (IXe-XVe siÃ¨cle)","explanation":"La littÃ©rature franÃ©aise commence au Moyen Ã‚ge : Serments de Strasbourg (842), Chanson de Roland, roman courtoisâ€¦"},
     {"id":"500_2","type":"vrai-faux","question":"La chanson de geste est un genre poÃ©tique mÃ©diÃ©val qui chante les exploits guerriers des chevaliers.",
      "correct":True,"explanation":"La Chanson de Roland (XIe s.) est la chanson de geste la plus cÃ©lÃ¨bre, chantant la bravoure des chevaliers de Charlemagne."},
     {"id":"500_3","type":"vrai-faux","question":"Le Roman de la Rose (XIIIe s.) est une allÃ©gorie de la _____ courtoise.",
@@ -1310,6 +1327,52 @@ quizzes_data = [
     {"id":"500_8","type":"vrai-faux","question":"La littÃ©rature francophone inclut des auteurs du monde entier Ã©crivant en franÃ§ais.",
      "correct":True,"explanation":"AimÃ© CÃ©saire (Martinique), LÃ©opold SÃ©dar Senghor (SÃ©nÃ©gal), Marguerite Yourcenar (Belgique)â€¦ la littÃ©rature francophone est mondiale."},
 ])]
+
+
+FRENCH_COMPLEMENT_SPECS = [
+    {"qid": 501, "title": "Poésie lyrique et expression des sentiments", "focus": "la poésie lyrique", "definition": "L'expression des sentiments personnels du poète", "definition_distractors": ["Un récit strictement historique", "Une règle de grammaire", "Un exposé scientifique"], "author": "Lamartine", "author_distractors": ["Zola", "Molière", "Montaigne"], "work": "Méditations poétiques", "movement": "Romantisme", "notion": "le moi poétique", "exercise": "Le commentaire littéraire"},
+    {"qid": 502, "title": "Versification, rimes et rythmes", "focus": "la versification", "definition": "L'étude des mètres, des rimes et du rythme dans un poème", "definition_distractors": ["La biographie du poète", "La liste des personnages", "Le résumé du récit"], "author": "Baudelaire", "author_distractors": ["Camus", "Rabelais", "Voltaire"], "work": "Les Fleurs du mal", "movement": "Poésie moderne", "notion": "l'alexandrin", "exercise": "Le commentaire littéraire"},
+    {"qid": 503, "title": "Figures de style et effets littéraires", "focus": "les figures de style", "definition": "Des procédés d'écriture qui produisent un effet de sens ou de rythme", "definition_distractors": ["Des erreurs à éviter", "Des dates historiques", "Des notes de bas de page"], "author": "Victor Hugo", "author_distractors": ["Descartes", "Sartre", "Chrétien de Troyes"], "work": "Les Contemplations", "movement": "Romantisme", "notion": "la métaphore", "exercise": "Le commentaire littéraire"},
+    {"qid": 504, "title": "Humanisme et Renaissance", "focus": "l'humanisme", "definition": "Un courant qui place l'être humain, le savoir et l'esprit critique au centre", "definition_distractors": ["Une doctrine militaire", "Un genre théâtral", "Une règle de versification"], "author": "Montaigne", "author_distractors": ["Racine", "Aragon", "Beckett"], "work": "Les Essais", "movement": "Renaissance", "notion": "la formation de l'esprit critique", "exercise": "La dissertation"},
+    {"qid": 505, "title": "Classicisme et idéal de mesure", "focus": "le classicisme", "definition": "Un mouvement attaché à l'ordre, à la clarté et à la recherche de la mesure", "definition_distractors": ["Une poésie improvisée", "Une écriture automatique", "Un journal intime"], "author": "Racine", "author_distractors": ["Prévert", "Zola", "Ionesco"], "work": "Phèdre", "movement": "Classicisme", "notion": "les règles de bienséance", "exercise": "La dissertation"},
+    {"qid": 506, "title": "Romantisme et lyrisme personnel", "focus": "le romantisme", "definition": "Un mouvement qui valorise l'expression du moi, la sensibilité et la nature", "definition_distractors": ["Un exercice de rhétorique antique", "Une méthode de résumé", "Un courant purement scientifique"], "author": "Musset", "author_distractors": ["Corneille", "Diderot", "Maupassant"], "work": "La Nuit de mai", "movement": "Romantisme", "notion": "le lyrisme", "exercise": "Le commentaire littéraire"},
+    {"qid": 507, "title": "Réalisme et représentation du monde social", "focus": "le réalisme", "definition": "Une volonté de représenter le réel et les milieux sociaux avec précision", "definition_distractors": ["Une poésie religieuse", "Une scène comique improvisée", "Une fable mythologique"], "author": "Flaubert", "author_distractors": ["Ronsard", "Giraudoux", "Apollinaire"], "work": "Madame Bovary", "movement": "Réalisme", "notion": "la description précise", "exercise": "La dissertation"},
+    {"qid": 508, "title": "Naturalisme et observation scientifique", "focus": "le naturalisme", "definition": "Un prolongement du réalisme qui insiste sur le milieu, l'hérédité et l'observation", "definition_distractors": ["Une comédie antique", "Un art oratoire sans texte", "Un poème médiéval"], "author": "Zola", "author_distractors": ["La Fontaine", "Camus", "Racine"], "work": "Germinal", "movement": "Naturalisme", "notion": "l'enquête sociale", "exercise": "La dissertation"},
+    {"qid": 509, "title": "Argumentation directe et indirecte", "focus": "l'argumentation", "definition": "L'art de défendre une thèse à l'aide d'arguments et d'exemples", "definition_distractors": ["La copie d'un poème", "Le relevé des rimes uniquement", "La simple description d'un personnage"], "author": "Voltaire", "author_distractors": ["Hugo", "Proust", "Beaumarchais"], "work": "Candide", "movement": "Lumières", "notion": "la thèse", "exercise": "La dissertation"},
+    {"qid": 510, "title": "Théâtre classique, conflit et passions", "focus": "le théâtre classique", "definition": "Un théâtre fondé sur la règle, le conflit dramatique et la tension des passions", "definition_distractors": ["Un traité philosophique", "Une autobiographie scolaire", "Une chronique sportive"], "author": "Corneille", "author_distractors": ["Senghor", "Maupassant", "Sarraute"], "work": "Le Cid", "movement": "Classicisme", "notion": "la double énonciation", "exercise": "Le commentaire littéraire"},
+    {"qid": 511, "title": "Théâtre moderne et absurdité", "focus": "le théâtre de l'absurde", "definition": "Un théâtre qui montre le non-sens, l'attente et la fragilité du langage", "definition_distractors": ["Une méthode d'apprentissage du latin", "Une règle de versification", "Une fiche biographique"], "author": "Beckett", "author_distractors": ["Molière", "Balzac", "Montaigne"], "work": "En attendant Godot", "movement": "Théâtre moderne", "notion": "la rupture des codes dramatiques", "exercise": "Le commentaire littéraire"},
+    {"qid": 512, "title": "Méthode du commentaire littéraire", "focus": "le commentaire littéraire", "definition": "Un exercice qui analyse un texte de façon organisée à partir d'une problématique", "definition_distractors": ["Un simple résumé du texte", "Une dictée évaluée", "Un devoir de calcul"], "author": "Le lecteur critique", "author_distractors": ["Le narrateur omniscient", "Le héros comique", "Le personnage secondaire"], "work": "le texte étudié", "movement": "Analyse littéraire", "notion": "la problématique", "exercise": "Le commentaire littéraire"},
+    {"qid": 513, "title": "Méthode de la dissertation littéraire", "focus": "la dissertation littéraire", "definition": "Un exercice argumentatif structuré qui répond à une question sur la littérature", "definition_distractors": ["Une récitation sans plan", "Une liste de citations sans analyse", "Une note de lecture improvisée"], "author": "Le candidat", "author_distractors": ["Le souffleur", "Le copiste", "Le figurant"], "work": "les œuvres du programme", "movement": "Réflexion argumentée", "notion": "le plan dialectique", "exercise": "La dissertation"},
+]
+
+
+def build_francais_complement(spec):
+    qid = spec["qid"]
+    focus = spec["focus"]
+    definition_options = [spec["definition"], *spec["definition_distractors"]]
+    author_options = [spec["author"], *spec["author_distractors"]]
+    notion_options = [spec["notion"], "le hors-sujet", "la paraphrase seule", "l'absence de citation"]
+    exercise_options = [spec["exercise"], "La récitation mécanique", "Le hors-sujet", "L'absence de plan"]
+
+    return (
+        qid,
+        spec["title"],
+        "Français",
+        "1ere",
+        [
+            {"id": f"{qid}_1", "type": "qcm", "question": f"Quelle définition correspond le mieux à {focus} ?", "options": definition_options, "correct_option": spec["definition"], "explanation": f"{focus.capitalize()} renvoie ici à : {spec['definition'].lower()}."},
+            {"id": f"{qid}_2", "type": "vrai-faux", "question": f"{focus.capitalize()} peut être relié au mouvement {spec['movement']}.", "correct": True, "explanation": f"Cette notion s'étudie bien à travers le mouvement {spec['movement']}."},
+            {"id": f"{qid}_3", "type": "qcm", "question": f"Quel auteur est souvent associé à {focus} ?", "options": author_options, "correct_option": spec["author"], "explanation": f"{spec['author']} est une référence utile pour réviser {focus}."},
+            {"id": f"{qid}_4", "type": "vrai-faux", "question": f"{spec['work']} peut servir d'œuvre de référence pour travailler {focus}.", "correct": True, "explanation": f"L'œuvre {spec['work']} constitue un bon repère pour ce thème d'étude."},
+            {"id": f"{qid}_5", "type": "qcm", "question": f"Quelle notion aide le plus à analyser {focus} ?", "options": notion_options, "correct_option": spec["notion"], "explanation": f"La notion clé ici est : {spec['notion']}."},
+            {"id": f"{qid}_6", "type": "vrai-faux", "question": f"Pour réussir un devoir sur {focus}, il faut s'appuyer sur des citations précises du texte.", "correct": True, "explanation": "Une analyse littéraire solide repose toujours sur des citations et leur interprétation."},
+            {"id": f"{qid}_7", "type": "qcm", "question": f"Quel exercice du bac mobilise efficacement des références liées à {focus} ?", "options": exercise_options, "correct_option": spec["exercise"], "explanation": f"Les connaissances sur {focus} servent directement dans {spec['exercise'].lower()}."},
+            {"id": f"{qid}_8", "type": "vrai-faux", "question": f"Confondre {focus} avec un simple résumé de cours suffit pour une bonne analyse.", "correct": False, "explanation": "Il faut définir la notion, citer le texte et interpréter les procédés, pas seulement réciter le cours."},
+        ],
+    )
+
+
+quizzes_data.extend(build_francais_complement(spec) for spec in FRENCH_COMPLEMENT_SPECS)
 
 
 def write_quiz_files():

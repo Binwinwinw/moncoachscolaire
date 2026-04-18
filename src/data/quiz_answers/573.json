@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 573",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie"
   },
   "quiz": {
     "title": "La mondialisation : acteurs, flux et inégalités",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'interdépendance croissante des économies, sociétés et cultures à l'échelle mondiale",
+        "correct": 1,
         "correction": "La mondialisation est le processus d'intégration des économies et sociétés : flux de marchandises, capitaux, personnes, informations."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Les hubs (nœuds) de la mondialisation concentrent les échanges commerciaux, financiers et humains."
+        "correction": "Les hubs (nœuds) de la mondialisation concentrent les échanges commerciaux, financiers et humains."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Leur niveau de développement économique et social",
+        "correct": 1,
         "correction": "Nord/Sud est une distinction de développement (IDH, PIB, espérance de vie) plus que géographique ; les pays émergents brouillent cette frontière."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le transport maritime est le moins cher par tonne transportée ; les grands ports (Shanghai, Rotterdam, Singapour) sont des points névralgiques."
+        "correction": "Le transport maritime est le moins cher par tonne transportée ; les grands ports (Shanghai, Rotterdam, Singapour) sont des points névralgiques."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Réguler et libéraliser le commerce international",
+        "correct": 1,
         "correction": "L'OMC (depuis 1995) organise les règles du commerce mondial et arbitre les différends commerciaux entre États membres."
       },
       {

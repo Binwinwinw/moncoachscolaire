@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 500",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 500",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
-    "description": "Diagnostic Français 1ère : Révision ultime : panorama de la littérature française",
+    "description": "Diagnostic Français 1ere : RÃ©vision ultime : panorama de la littÃ©rature franÃ§aise",
     "status": "published",
-    "created_at": "2026-03-13 18:59:43",
-    "updated_at": "2026-03-13 18:59:43"
+    "created_at": "2026-04-18 20:20:13",
+    "updated_at": "2026-04-18 20:20:13"
   },
   "quiz": {
-    "title": "Révision ultime : panorama de la littérature française",
+    "title": "RÃ©vision ultime : panorama de la littÃ©rature franÃ§aise",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
@@ -20,69 +20,56 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Quelle est la première grande époque de la littérature française ?",
+        "question": "Quelle est la premiÃ¨re grande Ã©poque de la littÃ©rature franÃ§aise ?",
         "choices": [
-          "Le XVIe siècle humaniste",
-          "Le Moyen ge (IXe-XVe siècle)",
-          "Le XVIIe siècle classique",
-          "Le XIXe siècle romantique"
+          "Le XVIe siÃ¨cle humaniste",
+          "Le Moyen Âge (IXe-XVe siècle)",
+          "Le XVIIe siÃ¨cle classique",
+          "Le XIXe siÃ¨cle romantique"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "La chanson de geste est un genre poétique médiéval qui chante les exploits guerriers des chevaliers."
+        "question": "La chanson de geste est un genre poÃ©tique mÃ©diÃ©val qui chante les exploits guerriers des chevaliers."
       },
       {
         "type": "vrai-faux",
-        "question": "Le Roman de la Rose allègorise la conquête de l'amour (la rose = la femme aimée)."
+        "question": "Le Roman de la Rose (XIIIe s.) est une allÃ©gorie de la _____ courtoise."
       },
       {
         "type": "qcm",
-        "question": "Quel siècle est souvent surnommé le 'Grand Siècle' de la littérature française ?",
+        "question": "Quel siÃ¨cle est souvent surnommÃ© le 'Grand SiÃ¨cle' de la littÃ©rature franÃ§aise ?",
         "choices": [
-          "XVIe siècle",
-          "XVIIe siècle",
-          "XVIIIe siècle",
-          "XIXe siècle"
+          "XVIe siÃ¨cle",
+          "XVIIe siÃ¨cle",
+          "XVIIIe siÃ¨cle",
+          "XIXe siÃ¨cle"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Le XVIIIe siècle est surnommé le 'Siècle des Lumières' en raison du mouvement philosophique dominant."
+        "question": "Le XVIIIe siÃ¨cle est surnommÃ© le 'SiÃ¨cle des LumiÃ¨res' en raison du mouvement philosophique dominant."
       },
       {
         "type": "vrai-faux",
-        "question": "Sartre et Camus, dans les années 1940-50, définissent l'existentialisme comme philosophie et esthétique littéraire."
+        "question": "Le XXe siÃ¨cle voit naÃ®tre le _____, mouvement qui affirme l'absurditÃ© de l'existence humaine."
       },
       {
         "type": "qcm",
-        "question": "Quel mouvement littéraire du XXe siècle associe littérature et engagement politique ?",
+        "question": "Quel mouvement littÃ©raire du XXe siÃ¨cle associe littÃ©rature et engagement politique ?",
         "choices": [
           "Le Nouveau Roman",
-          "Le Surréalisme",
-          "La littérature engagée (Sartre, de Beauvoir)",
+          "Le SurrÃ©alisme",
+          "La littÃ©rature engagÃ©e (Sartre, de Beauvoir)",
           "Le Parnasse"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "La littérature francophone inclut des auteurs du monde entier écrivant en français."
+        "question": "La littÃ©rature francophone inclut des auteurs du monde entier Ã©crivant en franÃ§ais."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Baccalauréat français",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Poésie baroque et classique",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Théâtre et représentation",
-      "description": "Notion fondamentale de Français"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

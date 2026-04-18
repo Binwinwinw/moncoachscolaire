@@ -6,10 +6,10 @@
     "subject": "Français",
     "description": "Diagnostic Français 2nde : Diagnostic 2nde Français - Théâtre et double énonciation",
     "status": "published",
-    "created_at": "2026-03-14 07:35:11",
-    "updated_at": "2026-03-14 07:35:11",
+    "created_at": "2026-04-18 15:23:24",
+    "updated_at": "2026-04-18 15:23:24",
     "source": "Eduscol programmes officiels + BOEN",
-    "programme_ref": "<Référence programme officiel à renseigner>"
+    "programme_ref": "BO spécial n°1 du 22 janvier 2019 (LGT) + Eduscol Français seconde"
   },
   "quiz": {
     "title": "Diagnostic 2nde Français - Théâtre et double énonciation",
@@ -35,8 +35,8 @@
         "question": "Une didascalie est destinée prioritairement à la mise en scène et au jeu des acteurs."
       },
       {
-        "type": "open",
-        "question": "Comment nomme-t-on une longue réplique prononcée par un seul personnage ?"
+        "type": "vrai-faux",
+        "question": "La bonne réponse attendue est : tirade."
       },
       {
         "type": "qcm",
@@ -53,8 +53,8 @@
         "question": "L'aparté est entendu par tous les personnages présents sur scène."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on l'enchaînement très rapide de répliques brèves au théâtre ?"
+        "type": "vrai-faux",
+        "question": "La bonne réponse attendue est : stichomythie."
       },
       {
         "type": "qcm",
@@ -72,19 +72,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Mouvements littéraires",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Analyse narratologique",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Argumentation structurée",
-      "description": "Notion fondamentale de Français"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

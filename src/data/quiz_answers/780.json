@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La science de la mesure et du controle dimensionnel",
+        "correct": 1,
         "correction": "La metrologie est la science des mesures ; en industrie, elle garantit que les pieces fabriquees respectent les tolerances du dessin technique."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La fiche de controle qualite (ou rapport de controle) enregistre les mesures realisees, les comparant aux tolerances du CdCF pour valider ou rejeter une piece."
+        "correction": "La fiche de controle qualite (ou rapport de controle) enregistre les mesures realisees, les comparant aux tolerances du CdCF pour valider ou rejeter une piece."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "L'intervalle de confiance autour d'une valeur mesuree qui quantifie le doute sur le resultat",
+        "correct": 1,
         "correction": "L'incertitude de mesure exprime le doute incontournable sur tout resultat ; elle est liee a l'instrument, a l'operateur et aux conditions de mesure."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La validation est la derniere etape du cycle de conception ; elle confirme que le produit repond bien aux besoins de l'utilisateur definis dans le CdCF."
+        "correction": "La validation est la derniere etape du cycle de conception ; elle confirme que le produit repond bien aux besoins de l'utilisateur definis dans le CdCF."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Palmer (micrometres)",
+        "correct": 2,
         "correction": "Le palmer (ou micrometres) permet des mesures avec une resolution de 0,01 mm voire 0,001 mm, ideal pour le controle de precision des pieces mecaniques."
       },
       {

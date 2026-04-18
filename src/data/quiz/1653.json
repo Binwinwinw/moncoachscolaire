@@ -6,8 +6,8 @@
     "subject": "Anglais",
     "description": "Diagnostic Anglais 2nde : Diagnostic 2nde Anglais - Grammar Foundations",
     "status": "published",
-    "created_at": "2026-04-06 06:40:41",
-    "updated_at": "2026-04-06 06:40:41",
+    "created_at": "2026-04-18 15:23:24",
+    "updated_at": "2026-04-18 15:23:24",
     "source": "Eduscol programmes officiels + BOEN",
     "programme_ref": "BO special n°1 du 22 janvier 2019 (LGT) + Eduscol Langues vivantes Seconde"
   },
@@ -35,8 +35,8 @@
         "question": "The present simple is often used for habits and routines."
       },
       {
-        "type": "open",
-        "question": "Write the missing auxiliary in this question: ___ you like reading novels?"
+        "type": "vrai-faux",
+        "question": "La bonne réponse attendue est : do."
       },
       {
         "type": "qcm",
@@ -53,8 +53,8 @@
         "question": "In English, adjectives are usually placed before the noun."
       },
       {
-        "type": "open",
-        "question": "Give the comparative form of \"good\"."
+        "type": "vrai-faux",
+        "question": "La bonne réponse attendue est : better."
       },
       {
         "type": "qcm",
@@ -72,19 +72,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Littérature anglophone",
-      "description": "Notion fondamentale de Anglais"
-    },
-    {
-      "notion": "Phonétique avancée",
-      "description": "Notion fondamentale de Anglais"
-    },
-    {
-      "notion": "Expression nuancée",
-      "description": "Notion fondamentale de Anglais"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

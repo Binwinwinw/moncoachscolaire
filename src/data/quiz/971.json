@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques 2nde : Équations du second degré",
     "status": "published",
-    "created_at": "2026-04-06 06:40:42",
-    "updated_at": "2026-04-06 06:40:42"
+    "created_at": "2026-04-18 18:34:32",
+    "updated_at": "2026-04-18 18:34:32"
   },
   "quiz": {
     "title": "Équations du second degré",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Cette affirmation reformule l'idée essentielle à retenir : Résous x² − 5x + 6 = 0 en utilisant le discriminant."
+        "question": "Résous x² − 5x + 6 = 0 en utilisant le discriminant. La bonne réponse attendue est : x = 2 ou x = 3."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "X = −2 (racine double)."
+        "question": "Résous x² + 4x + 4 = 0. La bonne réponse attendue est : x = −2 (racine double)."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fonctions polynomiales",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Géométrie analytique",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Ensembles et logique",
-      "description": "Notion fondamentale de Mathématiques"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 0074",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 6eme : Échelles cartographiques",
+    "status": "published",
+    "created_at": "2026-04-18 20:07:58",
+    "updated_at": "2026-04-18 20:07:58"
+  },
+  "quiz": {
+    "title": "Échelles cartographiques",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Si une carte a une échelle de 1:100 000, cela signifie que 1 cm sur la carte représente combien de cm dans la réalité ?",
+        "choices": [
+          "1 cm",
+          "10 cm",
+          "100 cm",
+          "100 000 cm"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Si une carte a une échelle de 1:50 000, cela signifie que 1 cm sur la carte représente 50 000 cm dans la réalité."
+      },
+      {
+        "type": "qcm",
+        "question": "Si une carte a une échelle de 1:25 000, cela signifie que 1 cm sur la carte représente combien de cm dans la réalité ?",
+        "choices": [
+          "25 cm",
+          "250 cm",
+          "2 500 cm",
+          "25 000 cm"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Si une carte a une échelle de 1:10 000, cela signifie que 1 cm sur la carte représente 10 000 cm dans la réalité."
+      },
+      {
+        "type": "qcm",
+        "question": "Si une carte a une échelle de 1:5 000, cela signifie que 1 cm sur la carte représente combien de cm dans la réalité ?",
+        "choices": [
+          "5 cm",
+          "50 cm",
+          "500 cm",
+          "5 000 cm"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Si une carte a une échelle de 1:1 000, cela signifie que 1 cm sur la carte représente 1 000 cm dans la réalité."
+      },
+      {
+        "type": "qcm",
+        "question": "Si une carte a une échelle de 1:500, cela signifie que 1 cm sur la carte représente combien de cm dans la réalité ?",
+        "choices": [
+          "5 cm",
+          "50 cm",
+          "500 cm",
+          "5 000 cm"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Si une carte a une échelle de 1:200, cela signifie que 1 cm sur la carte représente 200 cm dans la réalité."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

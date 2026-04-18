@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 498",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 498",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
-    "description": "Diagnostic Français 1ère : Révisions finales : culture littéraire générale",
+    "description": "Diagnostic Français 1ere : RÃ©visions finales : culture littÃ©raire gÃ©nÃ©rale",
     "status": "published",
-    "created_at": "2026-03-13 18:59:43",
-    "updated_at": "2026-03-13 18:59:43"
+    "created_at": "2026-04-18 20:20:13",
+    "updated_at": "2026-04-18 20:20:13"
   },
   "quiz": {
-    "title": "Révisions finales : culture littéraire générale",
+    "title": "RÃ©visions finales : culture littÃ©raire gÃ©nÃ©rale",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
@@ -20,25 +20,25 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel est le titre complet du roman de Flaubert publié en 1857 ?",
+        "question": "Quel est le titre complet du roman de Flaubert publiÃ© en 1857 ?",
         "choices": [
-          "Madame Bovary, mœurs de province",
-          "Madame Bovary, roman réaliste",
+          "Madame Bovary, mÅ“urs de province",
+          "Madame Bovary, roman rÃ©aliste",
           "Madame Bovary, vie d'une femme",
           "Madame Bovary, histoire d'une passion"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "La tragédie antique grecque est jouée en l'honneur du dieu Dionysos."
+        "question": "La tragÃ©die antique grecque est jouÃ©e en l'honneur du dieu Dionysos."
       },
       {
         "type": "vrai-faux",
-        "question": "Le sonnet (Pétrarque, Ronsard, Baudelaire) comporte 14 vers : ABBA ABBA CCD EDE (ou variantes)."
+        "question": "Le sonnet est un poÃ¨me de _____ vers, structurÃ© en deux quatrains et deux tercets."
       },
       {
         "type": "qcm",
-        "question": "Quel genre littéraire propose une vision idéale et utopique d'une société parfaite ?",
+        "question": "Quel genre littÃ©raire propose une vision idÃ©ale et utopique d'une sociÃ©tÃ© parfaite ?",
         "choices": [
           "La dystopie",
           "L'utopie",
@@ -48,17 +48,17 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La nouvelle littéraire se distingue du roman par sa brièveté et son effet de chute."
+        "question": "La nouvelle littÃ©raire se distingue du roman par sa briÃ¨vetÃ© et son effet de chute."
       },
       {
         "type": "vrai-faux",
-        "question": "Philippe Lejeune définit le 'pacte autobiographique' : identité auteur = narrateur = personnage principal."
+        "question": "Le genre du _____ autobiographique implique que l'auteur, le narrateur et le personnage principal soient la mÃªme personne."
       },
       {
         "type": "qcm",
-        "question": "Quel est le mouvement littéraire du roman La Nausée de Sartre ?",
+        "question": "Quel est le mouvement littÃ©raire du roman La NausÃ©e de Sartre ?",
         "choices": [
-          "Surréalisme",
+          "SurrÃ©alisme",
           "Existentialisme",
           "Naturalisme",
           "Romantisme"
@@ -66,23 +66,10 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Le théâtre absurde s'inscrit dans la continuité du théâtre classique."
+        "question": "Le thÃ©Ã¢tre absurde s'inscrit dans la continuitÃ© du thÃ©Ã¢tre classique."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Baccalauréat français",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Poésie baroque et classique",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Théâtre et représentation",
-      "description": "Notion fondamentale de Français"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

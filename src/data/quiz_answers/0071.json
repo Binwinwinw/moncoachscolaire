@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 0071",
+    "level": "6eme",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Notion de variable (sans calcul de l’expression littérale)",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Une variable",
+        "correction": "Dans l'expression 2x + 3, x représente une variable."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Dans l'expression 5y - 4, y est une variable."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Une variable",
+        "correction": "Dans l'expression 3z + 2, z représente une variable."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Dans l'expression 7a - 5, a est une variable."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Une variable",
+        "correction": "Dans l'expression 4b + 6, b représente une variable."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Dans l'expression 9c - 3, c est une variable."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Une variable",
+        "correction": "Dans l'expression 6d + 1, d représente une variable."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Dans l'expression 8e - 2, e est une variable."
+      }
+    ]
+  }
+}

@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Republic of Ireland",
+        "correct": 2,
         "correction": "Le Royaume-Uni comprend Angleterre, Écosse, Pays de Galles et Irlande du Nord."
       },
       {
@@ -27,8 +28,8 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Canada",
+        "type": "vrai-faux",
+        "answer": "vrai",
         "correction": "Le Canada a l'anglais parmi ses langues officielles, selon les provinces."
       },
       {
@@ -36,6 +37,7 @@
         "question_id": 4,
         "type": "qcm",
         "answer": "A network of states historically linked to the UK",
+        "correct": 1,
         "correction": "Le Commonwealth réunit des États historiquement liés à l'ancien Empire britannique."
       },
       {
@@ -48,8 +50,8 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "London",
+        "type": "vrai-faux",
+        "answer": "vrai",
         "correction": "Des repères géographiques et culturels aident à contextualiser les documents."
       },
       {
@@ -57,6 +59,7 @@
         "question_id": 7,
         "type": "qcm",
         "answer": "Voting systems in anglophone countries",
+        "correct": 1,
         "correction": "La civilisation anglophone traite des institutions, sociétés et cultures."
       },
       {

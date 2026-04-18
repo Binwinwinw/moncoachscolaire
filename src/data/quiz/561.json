@@ -2,17 +2,17 @@
   "contents": {
     "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 561",
     "type": "quiz",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "description": "Diagnostic Histoire-Géographie 3ème : La Résistance et la France libre",
     "status": "published",
-    "created_at": "2026-04-06 06:40:43",
-    "updated_at": "2026-04-06 06:40:43"
+    "created_at": "2026-04-18 18:28:04",
+    "updated_at": "2026-04-18 18:28:04"
   },
   "quiz": {
     "title": "La Résistance et la France libre",
     "type": "quiz",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Le maquis désigne les unités de résistance armée cachées en zone rurale ; ses membres sont les maquisards."
+        "question": "La bonne réponse attendue est : maquisards."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La presse clandestine informe les Français malgré la censure de Vichy et des nazis ; elle joue un rôle majeur dans le maintien de l'espoir."
+        "question": "La bonne réponse attendue est : clandestine."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Histoire-Géographie",
-      "description": "Notion du programme 3ème"
-    },
-    {
-      "notion": "Compétences de base 3ème",
-      "description": "Notion du programme 3ème"
-    },
-    {
-      "notion": "Savoir-faire histoire-géographie",
-      "description": "Notion du programme 3ème"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

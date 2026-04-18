@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Suites arithmétiques",
     "status": "published",
-    "created_at": "2026-04-06 06:40:48",
-    "updated_at": "2026-04-06 06:40:48"
+    "created_at": "2026-04-18 18:52:46",
+    "updated_at": "2026-04-18 18:52:46"
   },
   "quiz": {
     "title": "Suites arithmétiques",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "U₁₀ = 35 ; S = 11 × (5+35)/2 = 220."
+        "question": "La suite (uₙ) est arithmétique avec u₀ = 5 et r = 3. Calcule u₁₀ et S = u₀ + u₁ + … + u₁₀. La bonne réponse attendue est : u₁₀ = 35 ; S = 11 × (5+35)/2 = 220."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Salaire au mois 12 : 2550 €."
+        "question": "Un employé gagne 2 000 € le premier mois et une augmentation de 50 € chaque mois. Quel est son salaire au bout de 12 mois ? Quelle est la somme totale perçue ? La bonne réponse attendue est : Salaire au mois 12 : 2550 €. Somme : 12×(2000+2550)/2 = 27300 €."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Suite arithmétique",
-      "description": "Une suite de nombres dans laquelle chaque terme après le premier est obtenu en ajoutant une constante fixe, appelée la raison, au terme précédent"
-    },
-    {
-      "notion": "Terme général",
-      "description": "Le terme général d'une suite arithmétique est donné par la formule : an = a1 + (n-1)r, où an est le nième terme, a1 est le premier terme, n est la position du terme et r est la raison"
-    },
-    {
-      "notion": "Raison d'une suite arithmétique",
-      "description": "La raison d'une suite arithmétique est la différence constante entre deux termes consécutifs, notée r, qui permet de définir la progression de la suite"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

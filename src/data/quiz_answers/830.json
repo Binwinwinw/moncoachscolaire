@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic SES 1ère - Série 830",
-    "level": "1ère",
+    "title": "Quiz Diagnostic SES 1ere - Série 830",
+    "level": "1ere",
     "subject": "SES"
   },
   "quiz": {
     "title": "Innovation et progrès technique",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La destruction créatrice et la croissance",
+        "correct": 1,
         "correction": "Schumpeter voit l'innovation comme un processus de 'destruction créatrice' : de nouvelles industries détruisent les anciennes mais créent plus de valeur."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Schumpeter ajoutait aussi l'utilisation de nouvelles matières premières et les nouvelles structures de marché."
+        "answer": "faux",
+        "correction": "Schumpeter ajoutait aussi l'utilisation de nouvelles matières premières et les nouvelles structures de marché."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Elle cherche à comprendre sans objectif d'application immédiate",
+        "correct": 1,
         "correction": "La recherche fondamentale (universités, CNRS) alimente la recherche appliquée qui, elle, vise des débouchés commerciaux."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Sans intervention, le niveau d'innovation serait inférieur à l'optimum social."
+        "answer": "faux",
+        "correction": "Sans intervention, le niveau d'innovation serait inférieur à l'optimum social."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "De politique budgétaire visant à encourager la R&D",
+        "correct": 1,
         "correction": "Le CIR permet aux entreprises de déduire de leur impôt une partie de leurs dépenses de R&D, stimulant l'innovation."
       },
       {

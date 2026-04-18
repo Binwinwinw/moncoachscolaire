@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 502",
+    "level": "1ere",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Versification, rimes et rythmes",
+    "question_count": 8,
+    "level": "1ere",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "L'étude des mètres, des rimes et du rythme dans un poème",
+        "correct": 0,
+        "correction": "La versification renvoie ici à : l'étude des mètres, des rimes et du rythme dans un poème."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Cette notion s'étudie bien à travers le mouvement Poésie moderne."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Baudelaire",
+        "correct": 0,
+        "correction": "Baudelaire est une référence utile pour réviser la versification."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'œuvre Les Fleurs du mal constitue un bon repère pour ce thème d'étude."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "l'alexandrin",
+        "correct": 0,
+        "correction": "La notion clé ici est : l'alexandrin."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Une analyse littéraire solide repose toujours sur des citations et leur interprétation."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Le commentaire littéraire",
+        "correct": 0,
+        "correction": "Les connaissances sur la versification servent directement dans le commentaire littéraire."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Il faut définir la notion, citer le texte et interpréter les procédés, pas seulement réciter le cours."
+      }
+    ]
+  }
+}

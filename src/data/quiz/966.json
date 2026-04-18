@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques 2nde : Fractions & calcul fractionnaire",
     "status": "published",
-    "created_at": "2026-04-06 06:40:42",
-    "updated_at": "2026-04-06 06:40:42"
+    "created_at": "2026-04-18 18:34:32",
+    "updated_at": "2026-04-18 18:34:32"
   },
   "quiz": {
     "title": "Fractions & calcul fractionnaire",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "(3/5) ÷ (9/10) = (3/5) × (10/9) = 30/45 = 2/3."
+        "question": "Calcule et simplifie : (3/5) ÷ (9/10). La bonne réponse attendue est : 2/3."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Cette affirmation reformule l'idée essentielle à retenir : Simplifie la fraction 42/70."
+        "question": "Simplifie la fraction 42/70. La bonne réponse attendue est : 3/5."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fonctions polynomiales",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Géométrie analytique",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Ensembles et logique",
-      "description": "Notion fondamentale de Mathématiques"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

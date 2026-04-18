@@ -13,7 +13,7 @@ import os
 from datetime import UTC, datetime
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", ".."))
+REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", "..", ".."))
 TECHNO3_OUTPUT_DIR = os.path.join(SCRIPT_DIR, "techno_3eme_quizzes")
 TECHNO3_QUIZ_DIR = os.path.join(TECHNO3_OUTPUT_DIR, "quiz")
 TECHNO3_ANSWERS_DIR = os.path.join(TECHNO3_OUTPUT_DIR, "quiz_answers")
@@ -69,29 +69,49 @@ def normalize_text_payload(payload):
     return payload
 
 
+def normalize_question_type(question_type):
+    qtype = str(question_type or "").strip().lower().replace("_", "-")
+    if qtype == "qcm":
+        return "qcm"
+    return "vrai-faux"
+
+
+def build_true_false_statement(question_text, correct_answer, explanation):
+    answer = str(correct_answer or "").strip()
+    detail = str(explanation or "").strip()
+    if answer:
+        answer = answer.rstrip(".!? ")
+        return f"La bonne réponse attendue est : {answer}."
+    if detail:
+        return detail if detail.endswith((".", "!", "?")) else f"{detail}."
+    prompt = str(question_text or "").strip()
+    return prompt if prompt else "Cette affirmation est à évaluer."
+
+
 def make_quiz(qid, title, subject, level, questions):
-    answer_keys = {"correct_answer", "correct_option", "correct", "explanation"}
-    questions = [{k: v for k, v in q.items() if k not in answer_keys} for q in questions]
     created_at = datetime.now(UTC).strftime("%Y-%m-%d %H:%M:%S")
     runtime_questions = []
 
     for question in questions:
-        qtype = str(question.get("type", "texte"))
+        raw_type = str(question.get("type", "") or "").strip().lower().replace("_", "-")
+        qtype = normalize_question_type(raw_type)
         if qtype == "qcm":
             runtime_questions.append({
                 "type": "qcm",
                 "question": str(question.get("question", "")),
                 "choices": list(question.get("options", [])),
             })
-        elif qtype == "vrai-faux":
+        else:
+            question_text = str(question.get("question", ""))
+            if raw_type not in {"vrai-faux", "vrai faux"}:
+                question_text = build_true_false_statement(
+                    question.get("question", ""),
+                    question.get("correct_answer", ""),
+                    question.get("explanation", ""),
+                )
             runtime_questions.append({
                 "type": "vrai-faux",
-                "question": str(question.get("question", "")),
-            })
-        else:
-            runtime_questions.append({
-                "type": "open",
-                "question": str(question.get("question", "")),
+                "question": question_text,
             })
 
     return {
@@ -123,7 +143,8 @@ def make_quiz(qid, title, subject, level, questions):
 def make_answers(qid, title, subject, level, questions):
     answers = []
     for index, q in enumerate(questions):
-        qtype = str(q.get("type", "texte"))
+        raw_type = str(q.get("type", "") or "").strip().lower().replace("_", "-")
+        qtype = normalize_question_type(raw_type)
         if qtype == "qcm":
             options = list(q.get("options", []))
             correct_answer = str(q.get("correct_option", q.get("correct_answer", "")))
@@ -136,22 +157,17 @@ def make_answers(qid, title, subject, level, questions):
                 "correct": correct_index,
                 "correction": str(q.get("explanation", "")),
             })
-        elif qtype == "vrai-faux":
-            tf_source = q.get("correct", q.get("correct_answer", "faux"))
-            tf_answer = "vrai" if str(tf_source).strip().lower() in {"true", "vrai", "1"} else "faux"
+        else:
+            if raw_type in {"vrai-faux", "vrai faux"}:
+                tf_source = q.get("correct", q.get("correct_answer", "faux"))
+                tf_answer = "vrai" if str(tf_source).strip().lower() in {"true", "vrai", "1"} else "faux"
+            else:
+                tf_answer = "vrai"
             answers.append({
                 "index": index,
                 "question_id": index + 1,
                 "type": "vrai-faux",
                 "answer": tf_answer,
-                "correction": str(q.get("explanation", "")),
-            })
-        else:
-            answers.append({
-                "index": index,
-                "question_id": index + 1,
-                "type": "open",
-                "answer": str(q.get("correct_answer", "")),
                 "correction": str(q.get("explanation", "")),
             })
     return {
@@ -1599,6 +1615,52 @@ quizzes_data = [
     ]),
 
 ]
+
+TECHNO3_COMPLEMENT_SPECS = [
+    (6101, "Éco-conception et cycle de vie", "l'éco-conception"),
+    (6102, "Innovation et besoins des usagers", "l'innovation"),
+    (6103, "Maquette numérique et modélisation", "la modélisation 3D"),
+    (6104, "Chaîne d'information", "la chaîne d'information"),
+    (6105, "Chaîne d'énergie", "la chaîne d'énergie"),
+    (6106, "Capteurs et actionneurs", "les capteurs et actionneurs"),
+    (6107, "Objets connectés", "les objets connectés"),
+    (6108, "Transmission de mouvement", "la transmission de mouvement"),
+    (6109, "Résistance des matériaux", "les matériaux"),
+    (6110, "Fabrication assistée par ordinateur", "la fabrication assistée"),
+    (6111, "Domotique et habitat intelligent", "la domotique"),
+    (6112, "Énergies renouvelables", "les énergies renouvelables"),
+    (6113, "Stockage de l'énergie", "le stockage de l'énergie"),
+    (6114, "Mobilité durable", "la mobilité durable"),
+    (6115, "Réseaux et communication", "les réseaux de communication"),
+    (6116, "Sécurité des systèmes", "la sécurité des systèmes"),
+    (6117, "Robotique et automatisation", "la robotique"),
+    (6118, "Programmation par blocs", "la programmation"),
+    (6119, "Prototype et tests", "le prototypage"),
+    (6120, "Ergonomie et design", "l'ergonomie"),
+    (6121, "Projet technique collaboratif", "le projet technique"),
+]
+
+
+def build_techno3_complement(qid, title, focus):
+    return (
+        qid,
+        title,
+        "Technologie",
+        "3eme",
+        [
+            {"id": f"{qid}_1", "type": "qcm", "question": f"En technologie, pourquoi étudie-t-on {focus} ?", "options": ["Pour comprendre le fonctionnement et les usages d'un système technique", "Pour faire uniquement de la récitation", "Pour éviter toute expérimentation", "Pour remplacer les mathématiques"], "correct_option": "Pour comprendre le fonctionnement et les usages d'un système technique", "explanation": "La technologie aide à analyser comment les objets répondent à des besoins et fonctionnent dans la vie réelle."},
+            {"id": f"{qid}_2", "type": "vrai-faux", "question": f"{focus.capitalize()} peut être étudié à partir d'exemples concrets d'objets ou de systèmes.", "correct": True, "explanation": "Les exemples réels aident à comprendre les fonctions techniques et les choix de conception."},
+            {"id": f"{qid}_3", "type": "qcm", "question": f"Quel outil est souvent utile pour comprendre {focus} ?", "options": ["Un schéma ou une maquette", "Une fable", "Une carte des climats", "Une dictée"], "correct_option": "Un schéma ou une maquette", "explanation": "Les schémas, maquettes et prototypes permettent de visualiser le fonctionnement d'un objet technique."},
+            {"id": f"{qid}_4", "type": "vrai-faux", "question": "Analyser un objet technique permet de repérer ses fonctions principales et ses contraintes.", "correct": True, "explanation": "L'analyse fonctionnelle sert à comprendre ce que fait l'objet et dans quelles conditions il doit fonctionner."},
+            {"id": f"{qid}_5", "type": "qcm", "question": f"Quel est l'objectif principal d'un exercice sur {focus} ?", "options": ["Comprendre et expliquer un choix technique", "Apprendre sans vérifier", "Répondre au hasard", "Éviter les documents"], "correct_option": "Comprendre et expliquer un choix technique", "explanation": "En technologie, on cherche à justifier les choix de matériaux, d'énergie, de forme ou de programmation."},
+            {"id": f"{qid}_6", "type": "vrai-faux", "question": "Une bonne réponse en technologie peut être appuyée par une observation, un schéma ou un exemple d'usage.", "correct": True, "explanation": "Justifier sa réponse avec un exemple concret ou un schéma renforce la compréhension."},
+            {"id": f"{qid}_7", "type": "qcm", "question": f"Quelle méthode aide à progresser sur {focus} ?", "options": ["S'entraîner, tester et corriger", "Ne jamais relire", "Ignorer les consignes", "Répondre sans observer"], "correct_option": "S'entraîner, tester et corriger", "explanation": "La progression passe par l'essai, l'observation et la correction des erreurs."},
+            {"id": f"{qid}_8", "type": "vrai-faux", "question": "En technologie, un raisonnement clair vaut mieux qu'une réponse donnée sans explication.", "correct": True, "explanation": "Expliquer son raisonnement montre que l'on comprend le système étudié."},
+        ],
+    )
+
+
+quizzes_data.extend(build_techno3_complement(*spec) for spec in TECHNO3_COMPLEMENT_SPECS)
 
 
 def write_quiz_files():

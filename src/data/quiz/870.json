@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic NSI 1ère - Série 870",
+    "title": "Quiz Diagnostic NSI 1ere - Série 870",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
-    "description": "Diagnostic NSI 1ère : Codage des nombres flottants",
+    "description": "Diagnostic NSI 1ere : Codage des nombres flottants",
     "status": "published",
-    "created_at": "2026-04-06 06:40:40",
-    "updated_at": "2026-04-06 06:40:40"
+    "created_at": "2026-04-18 20:28:31",
+    "updated_at": "2026-04-18 20:28:31"
   },
   "quiz": {
     "title": "Codage des nombres flottants",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "0.1 en décimal est une fraction décimale périodique en base 2 : 0.0001100110011."
+        "question": "Expliquez pourquoi 0.1 ne peut pas être représenté exactement en binaire."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Un overflow se produit quand un calcul produit un résultat trop grand pour être représenté (supérieur à ~3.4×10³⁸ en float32)."
+        "question": "Qu'est-ce que le dépassement de capacité (overflow) en virgule flottante ?"
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Algorithmes et complexité",
-      "description": "Notion fondamentale de NSI"
-    },
-    {
-      "notion": "Programmation objet",
-      "description": "Notion fondamentale de NSI"
-    },
-    {
-      "notion": "Données et réseaux",
-      "description": "Notion fondamentale de NSI"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

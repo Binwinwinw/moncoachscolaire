@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic SVT 3ème - Série 659",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT"
   },
   "quiz": {
     "title": "Évolution : adaptation et sélection naturelle",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Un caractère héréditaire augmentant la valeur sélective",
+        "correct": 1,
         "correction": "Une adaptation est un caractère héréditaire qui améliore la survie ou la reproduction d'un individu dans son environnement."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La valeur sélective (fitness) mesure la contribution relative d'un individu à la génération suivante."
+        "correction": "La valeur sélective (fitness) mesure la contribution relative d'un individu à la génération suivante."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Dérive génétique",
+        "correct": 1,
         "correction": "La dérive génétique est un processus aléatoire particulièrement important dans les petites populations."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La plasticité phénotypique permet à un génotype de produire des phénotypes différents selon les conditions environnementales."
+        "correction": "La plasticité phénotypique permet à un génotype de produire des phénotypes différents selon les conditions environnementales."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La relation fleur-pollinisateur",
+        "correct": 0,
         "correction": "Les fleurs et leurs pollinisateurs ont co-évolué, chaque espèce influençant l'évolution de l'autre."
       },
       {

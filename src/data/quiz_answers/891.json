@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic NSI 1ère - Série 891",
-    "level": "1ère",
+    "title": "Quiz Diagnostic NSI 1ere - Série 891",
+    "level": "1ere",
     "subject": "NSI"
   },
   "quiz": {
     "title": "Variables, types et expressions",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "float",
+        "correct": 1,
         "correction": "3.14 est un flottant (float). En Python, type(3.14) retourne <class 'float'>."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. // est utile pour l'algorithmique (indices, modulo) quand on veut un résultat entier."
+        "answer": "faux",
+        "correction": "// est utile pour l'algorithmique (indices, modulo) quand on veut un résultat entier."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "3.4",
+        "answer": "2",
+        "correct": 1,
         "correction": "% est l'opérateur modulo (reste de la division entière). 17 = 5×3 + 2, donc 17 % 5 = 2."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Autre confusion fréquente : is (identité d'objet) vs == (égalité de valeur)."
+        "answer": "faux",
+        "correction": "Autre confusion fréquente : is (identité d'objet) vs == (égalité de valeur)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "<class 'str'>",
+        "correct": 1,
         "correction": "type() retourne l'objet classe. En Python 3, type('hello') affiche <class 'str'>. isinstance('hello', str) retourne True."
       },
       {

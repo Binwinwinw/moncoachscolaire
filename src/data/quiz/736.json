@@ -2,17 +2,17 @@
   "contents": {
     "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 736",
     "type": "quiz",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "description": "Diagnostic Physique-Chimie 3ème : Électricité : signaux périodiques et oscilloscope",
     "status": "published",
-    "created_at": "2026-03-13 18:59:45",
-    "updated_at": "2026-03-13 18:59:45"
+    "created_at": "2026-04-18 18:28:05",
+    "updated_at": "2026-04-18 18:28:05"
   },
   "quiz": {
     "title": "Électricité : signaux périodiques et oscilloscope",
     "type": "quiz",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Le courant alternatif du réseau électrique français a une fréquence de 50 Hz, soit 50 cycles par seconde."
+        "question": "La bonne réponse attendue est : 50 Hz."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Signal sinusoïdal (ou courant alternatif sinusoïdal)."
+        "question": "La bonne réponse attendue est : signal sinusoïdal (ou courant alternatif sinusoïdal)."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Physique-Chimie",
-      "description": "Notion du programme 3ème"
-    },
-    {
-      "notion": "Compétences de base 3ème",
-      "description": "Notion du programme 3ème"
-    },
-    {
-      "notion": "Savoir-faire physique-chimie",
-      "description": "Notion du programme 3ème"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

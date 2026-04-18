@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 706",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie"
   },
   "quiz": {
     "title": "Réactions chimiques : précipitation et dissolution",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Un solide insoluble formé lors du mélange de deux solutions",
+        "correct": 1,
         "correction": "Un précipité est un solide insoluble qui se forme lorsque deux ions en solution réagissent (ex. AgCl blanc lors de AgNO3 + NaCl)."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. NaOH (soude) réagit avec Fe3+ pour former Fe(OH)3, précipité rouille-brun caractéristique."
+        "correction": "NaOH (soude) réagit avec Fe3+ pour former Fe(OH)3, précipité rouille-brun caractéristique."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Ajout de chlorure de baryum BaCl2",
+        "correct": 1,
         "correction": "BaCl2 réagit avec SO4^2- pour former BaSO4, précipité blanc insoluble dans l'acide chlorhydrique."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La réaction Ag+ + Cl- → AgCl (précipité blanc) permet d'identifier les ions chlorure Cl-."
+        "correction": "La réaction Ag+ + Cl- → AgCl (précipité blanc) permet d'identifier les ions chlorure Cl-."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Neutralisation",
+        "correct": 1,
         "correction": "La neutralisation : acide + base → sel + eau. Exemple : HCl + NaOH → NaCl + H2O."
       },
       {

@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 711",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie"
   },
   "quiz": {
     "title": "Acides et bases : généralités et pH",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "pHmètre",
+        "correct": 1,
         "correction": "Le pHmètre utilise une électrode sensible aux ions H+ pour mesurer précisément le pH d'une solution."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Une solution neutre a un pH = 7 à 25°C, correspondant à [H+] = [OH-] = 10^-7 mol/L."
+        "correction": "Une solution neutre a un pH = 7 à 25°C, correspondant à [H+] = [OH-] = 10^-7 mol/L."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Donne des protons H+",
+        "correct": 1,
         "correction": "Un acide (Brønsted-Lowry) est un donneur de proton H+, une base est un accepteur de proton H+."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Des indicateurs comme le BBT (bleu de bromothymol), la phénolphtaléine ou le papier pH changent de couleur selon l'acidité."
+        "correction": "Des indicateurs comme le BBT (bleu de bromothymol), la phénolphtaléine ou le papier pH changent de couleur selon l'acidité."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "10",
+        "correct": 2,
         "correction": "NaOH est une base forte ; une solution diluée a un pH supérieur à 7 (basique). Une solution 0,01 mol/L a pH = 12."
       },
       {

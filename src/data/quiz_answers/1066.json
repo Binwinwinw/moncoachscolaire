@@ -1,70 +1,74 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Anglais 1ère - SÃ©rie 1066",
-    "level": "1ère",
-    "subject": "Anglais"
+    "title": "Quiz Diagnostic Mathématiques 1ere - Série 1066",
+    "level": "1ere",
+    "subject": "Mathématiques"
   },
   "quiz": {
-    "title": "Diagnostic Anglais 1ère - Série 8",
+    "title": "Mathématiques 1ère - Trigonométrie et cercle trigonométrique",
     "question_count": 8,
-    "level": "1ère",
-    "subject": "Anglais",
+    "level": "1ere",
+    "subject": "Mathématiques",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "worst",
-        "correction": "The superlative form of \"bad\" is \"worst\"."
+        "correction": "π radians correspondent à un demi-tour, soit 180°.",
+        "answer": "180°",
+        "correct": 2
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "\"Their\" is a possessive pronoun used to indicate ownership."
+        "correction": "Ils diffèrent d'un tour complet et représentent donc le même point.",
+        "answer": "vrai"
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. The correct translation of \"We are eating breakfast\" in French is \"Nous mangeons le petit déjeuner\"."
+        "type": "qcm",
+        "correction": "90° est un quart de tour, donc π/2 radians.",
+        "answer": "π/2",
+        "correct": 2
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "answer": "joyful",
-        "correction": "\"Joyful\" is a synonym for \"happy\"."
+        "type": "vrai-faux",
+        "correction": "Dans le repère du cercle trigonométrique, le cosinus donne l'abscisse et le sinus l'ordonnée.",
+        "answer": "vrai"
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "answer": "faux",
-        "correction": "\"It's\" is a contraction of \"it is\" or \"it has\", not a possessive pronoun. The possessive pronoun for \"it\" is \"its\"."
+        "type": "qcm",
+        "correction": "Le point le plus haut a pour coordonnées (0 ; 1), soit l'angle π/2.",
+        "answer": "π/2",
+        "correct": 1
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. The past tense of \"see\" is \"saw\"."
+        "correction": "Dans la partie basse du cercle trigonométrique, l'ordonnée est négative.",
+        "answer": "vrai"
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "He doesn't like sports.",
-        "correction": "The correct sentence is \"He doesn't like sports.\" because \"he\" is third person singular and requires \"does not\" for negation."
+        "correction": "3π/2 radians correspondent à trois quarts de tour, soit 270°.",
+        "answer": "270°",
+        "correct": 1
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "\"Happily\" is an adverb because it describes how an action is performed."
+        "correction": "Ce sont deux unités usuelles pour mesurer un angle en trigonométrie.",
+        "answer": "vrai"
       }
     ]
   }

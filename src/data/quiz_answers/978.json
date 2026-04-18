@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "f(a) < f(b) pour tout a < b dans I",
+        "answer": "A",
         "correction": "f croissante : a < b ⟹ f(a) < f(b). Les valeurs augmentent quand x augmente."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La parabole descend jusqu'à x=0 puis remonte. Le sommet (0,0) est le minimum absolu."
+        "correction": "La parabole descend jusqu'à x=0 puis remonte. Le sommet (0,0) est le minimum absolu."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "Croissante",
+        "answer": "C",
         "correction": "Par convention, une flèche montante (↗) dans un tableau de variations indique une fonction croissante."
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le maximum global est la valeur la plus élevée inscrite dans la ligne f(x) du tableau de variations."
+        "correction": "Le maximum global est la valeur la plus élevée inscrite dans la ligne f(x) du tableau de variations."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "4",
+        "answer": "C",
         "correction": "(x−2)² ≥ 0, donc f(x) ≥ 3. Le minimum est 3, atteint en x = 2."
       },
       {

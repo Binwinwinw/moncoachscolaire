@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 733",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie"
   },
   "quiz": {
     "title": "Lumière : polarisation et applications optiques",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La restriction des vibrations de la lumière à une seule direction",
+        "correct": 2,
         "correction": "La polarisation est le phénomène par lequel les vibrations d'une onde lumineuse sont limitées à une direction spécifique."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Un filtre polarisant bloque les ondes lumineuses dont les vibrations ne sont pas alignées avec sa direction de polarisation."
+        "correction": "Un filtre polarisant bloque les ondes lumineuses dont les vibrations ne sont pas alignées avec sa direction de polarisation."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Réduire l'éblouissement causé par la réflexion sur les surfaces horizontales",
+        "correct": 1,
         "correction": "Les lunettes de soleil polarisantes réduisent l'éblouissement en bloquant la lumière polarisée horizontalement réfléchie par des surfaces comme l'eau ou la route."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La polarisation linéaire est unidirectionnelle, la circulaire implique une rotation uniforme des vibrations, et l'elliptique combine les deux avec des amplitudes différentes."
+        "correction": "La polarisation linéaire est unidirectionnelle, la circulaire implique une rotation uniforme des vibrations, et l'elliptique combine les deux avec des amplitudes différentes."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Polarisation",
+        "correct": 2,
         "correction": "Les lunettes 3D utilisent la polarisation pour envoyer des images différentes à chaque œil, créant ainsi une perception de profondeur."
       },
       {

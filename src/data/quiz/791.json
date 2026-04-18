@@ -6,8 +6,8 @@
     "subject": "Technologie",
     "description": "Diagnostic Technologie 3eme : La cybersecurite et protection des donnees",
     "status": "published",
-    "created_at": "2026-04-06 06:40:45",
-    "updated_at": "2026-04-06 06:40:45"
+    "created_at": "2026-04-18 21:24:12",
+    "updated_at": "2026-04-18 21:24:12"
   },
   "quiz": {
     "title": "La cybersecurite et protection des donnees",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Le phishing (hameconnage) imite l'identite de banques, services publics ou reseaux sociaux pour inciter les victimes a saisir leurs identifiants sur de faux sites."
+        "question": "La bonne réponse attendue est : phishing."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Un VPN (Virtual Private Network) cree un tunnel chiffre entre le client et un serveur distant, protégeant la confidentialite et permettant d'acceder a des contenus geo-restreints."
+        "question": "La bonne réponse attendue est : VPN."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Technologie",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Compétences de base 3eme",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Savoir-faire technologie",
-      "description": "Notion du programme 3eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

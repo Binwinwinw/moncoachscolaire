@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic HGGSP 1ère - Série 938",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP"
   },
   "quiz": {
     "title": "Mémoire et identité nationale",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Un vouloir vivre ensemble fondé sur une mémoire partagée et un consentement quotidien",
+        "correct": 1,
         "correction": "Dans 'Qu'est-ce qu'une nation ?' (1882), Renan définit la nation par le plébiscite de chaque jour et la mémoire partagée (glorieuse et douloureuse), s'opposant aux conceptions racistes ou linguistiques de la nation."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. L'inscription du soldat inconnu sous l'Arc de Triomphe (1920) est emblématique de la construction mémorielle nationale."
+        "answer": "faux",
+        "correction": "L'inscription du soldat inconnu sous l'Arc de Triomphe (1920) est emblématique de la construction mémorielle nationale."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Les restes de personnalités qui ont rendu de grands services à la France",
+        "correct": 1,
         "correction": "Le Panthéon (Paris, construit sous Louis XV, panthéonisé en 1791) accueille 81 personnalités dont Voltaire, Rousseau, Marie Curie, Jean Moulin, Simone Veil. Chaque panthéonisation est un acte politique."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Ce débat reflète la tension entre construction d'une identité nationale positive et honnêteté historique sur les crimes commis au nom de la France."
+        "answer": "faux",
+        "correction": "Ce débat reflète la tension entre construction d'une identité nationale positive et honnêteté historique sur les crimes commis au nom de la France."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Rituels mémoriels d'État remplissant une fonction identitaire et sociale",
+        "correct": 1,
         "correction": "Ces cérémonies annuelles avec discours présidentiels, dépôt de gerbes, hymne national et minute de silence sont des rituels qui réactivent la mémoire collective et soudent la communauté nationale."
       },
       {

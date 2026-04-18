@@ -6,8 +6,8 @@
     "subject": "EMC",
     "description": "Diagnostic EMC 3eme : Les elections et la democratie representative",
     "status": "published",
-    "created_at": "2026-04-06 06:40:43",
-    "updated_at": "2026-04-06 06:40:43"
+    "created_at": "2026-04-18 21:24:13",
+    "updated_at": "2026-04-18 21:24:13"
   },
   "quiz": {
     "title": "Les elections et la democratie representative",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "L'abstention désigne le fait de ne pas participer à un scrutin."
+        "question": "La bonne réponse attendue est : abstention."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Le référendum est un vote direct des citoyens sur une question précise (ex."
+        "question": "La bonne réponse attendue est : referendum."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de EMC",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Compétences de base 3eme",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Savoir-faire emc",
-      "description": "Notion du programme 3eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

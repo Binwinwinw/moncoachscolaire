@@ -6,8 +6,8 @@
     "subject": "Espagnol",
     "description": "Diagnostic Espagnol 5eme : Espagnol 5eme - Strategies de comprehension",
     "status": "published",
-    "created_at": "2026-04-06 06:40:47",
-    "updated_at": "2026-04-06 06:40:47",
+    "created_at": "2026-04-18 18:35:53",
+    "updated_at": "2026-04-18 18:35:53",
     "source": "Eduscol programmes officiels + BOEN",
     "programme_ref": "BO ndeg31 du 30 juillet 2020 (Cycle 4) + Eduscol Langues vivantes"
   },
@@ -35,7 +35,7 @@
         "question": "[Espagnol 5eme] Sur 'Strategies de comprehension', verifier ses reponses avant validation ameliore la fiabilite."
       },
       {
-        "type": "open",
+        "type": "vrai-faux",
         "question": "[Espagnol 5eme] Cite une methode concrete pour progresser sur le theme 'Strategies de comprehension'."
       },
       {
@@ -53,7 +53,7 @@
         "question": "[Espagnol 5eme] L'explication d'une reponse est moins importante que la reponse elle-meme."
       },
       {
-        "type": "open",
+        "type": "vrai-faux",
         "question": "[Espagnol 5eme] Propose un exemple d'auto-correction pertinente sur 'Strategies de comprehension'."
       },
       {
@@ -72,19 +72,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Espagnol",
-      "description": "Notion du programme 5eme"
-    },
-    {
-      "notion": "Compétences de base 5eme",
-      "description": "Notion du programme 5eme"
-    },
-    {
-      "notion": "Savoir-faire espagnol",
-      "description": "Notion du programme 5eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

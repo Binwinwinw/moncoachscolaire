@@ -6,8 +6,8 @@
     "subject": "EMC",
     "description": "Diagnostic EMC 3eme : Solidarite, fraternite et engagement humanitaire",
     "status": "published",
-    "created_at": "2026-04-06 06:40:43",
-    "updated_at": "2026-04-06 06:40:43"
+    "created_at": "2026-04-18 21:24:13",
+    "updated_at": "2026-04-18 21:24:13"
   },
   "quiz": {
     "title": "Solidarite, fraternite et engagement humanitaire",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La Croix-Rouge internationale (CICR), fondée en 1863 par Henri Dunant après la bataille de Solférino, est à l'origine du droit international humanitaire."
+        "question": "La bonne réponse attendue est : Croix-Rouge."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Devoir d'assistance a personne en danger."
+        "question": "La bonne réponse attendue est : devoir d'assistance a personne en danger."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de EMC",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Compétences de base 3eme",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Savoir-faire emc",
-      "description": "Notion du programme 3eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

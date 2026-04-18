@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 0094",
+    "level": "6eme",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Nombres et calculs (nombres entiers, décimaux, fractions, pourcentages, puissances, racines carrées, opérations sur les nombres)",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "5/4",
+        "correction": "Pour additionner les fractions 3/4 et 1/2, on trouve un dénominateur commun qui est 4. On convertit 1/2 en 2/4, puis on additionne les numérateurs : 3/4 + 2/4 = (3 + 2)/4 = 5/4."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Pour calculer 25% de 80, on multiplie 80 par 0.25 : 80 x 0.25 = 20."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "125",
+        "correction": "5^3 signifie 5 multiplié par lui-même trois fois : 5 x 5 x 5 = 125."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La racine carrée de 49 est le nombre qui, multiplié par lui-même, donne 49. Ce nombre est 7, car 7 x 7 = 49."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "20",
+        "correction": "Selon les règles de priorité des opérations, on effectue d'abord les parenthèses : (2 + 3) = 5, puis on multiplie par 4 : 5 x 4 = 20."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Pour multiplier les décimaux, on multiplie les nombres comme s'ils étaient entiers et on place la virgule au bon endroit : 0.5 x 0.2 = (5 x 2) / (10 x 10) = 10 / 100 = 0.1."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "20",
+        "correction": "Pour calculer 10% de 200, on multiplie 200 par 0.10 : 200 x 0.10 = 20."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "7^2 signifie 7 multiplié par lui-même : 7 x 7 = 49."
+      }
+    ]
+  }
+}

@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 477",
-    "level": "1ère",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 477",
+    "level": "1ere",
     "subject": "Français"
   },
   "quiz": {
-    "title": "Le commentaire littéraire : méthode",
+    "title": "Le commentaire littÃ©raire : mÃ©thode",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "answers": [
       {
@@ -15,56 +15,59 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Analyser comment le texte produit du sens et de l'effet",
-        "correction": "Le commentaire analyse les procédés stylistiques et leur effet sur le lecteur."
+        "correct": 1,
+        "correction": "Le commentaire analyse les procÃ©dÃ©s stylistiques et leur effet sur le lecteur."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "faux",
-        "correction": "La paraphrase est à éviter ; il faut analyser les procédés, pas simplement reformuler."
+        "correction": "La paraphrase est Ã  Ã©viter ; il faut analyser les procÃ©dÃ©s, pas simplement reformuler."
       },
       {
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Chaque partie développe un centre d'intérêt (ou axe) qui éclaire un aspect du texte."
+        "answer": "faux",
+        "correction": "Chaque partie dÃ©veloppe un centre d'intÃ©rÃªt (ou axe) qui Ã©claire un aspect du texte."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "Insuffisant : il faut toujours interpréter l'effet",
-        "correction": "Identifier un procédé n'est que la première étape ; il faut expliquer pourquoi l'auteur l'utilise et quel effet il produit."
+        "answer": "Insuffisant : il faut toujours interprÃ©ter l'effet",
+        "correct": 1,
+        "correction": "Identifier un procÃ©dÃ© n'est que la premiÃ¨re Ã©tape ; il faut expliquer pourquoi l'auteur l'utilise et quel effet il produit."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "L'introduction : accroche, présentation de l'auteur/œuvre/extrait, problématique, annonce du plan."
+        "correction": "L'introduction : accroche, prÃ©sentation de l'auteur/Å“uvre/extrait, problÃ©matique, annonce du plan."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Identifier le mouvement permet de dégager les étapes de l'extrait avant de construire le plan."
+        "answer": "faux",
+        "correction": "Identifier le mouvement permet de dÃ©gager les Ã©tapes de l'extrait avant de construire le plan."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Dans chaque sous-partie pour appuyer les analyses",
-        "correction": "Les citations (entre guillemets, avec référence) sont la preuve textuelle de chaque argument."
+        "correct": 1,
+        "correction": "Les citations (entre guillemets, avec rÃ©fÃ©rence) sont la preuve textuelle de chaque argument."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "L'ouverture met en perspective l'analyse en reliant le texte à une autre œuvre, un thème, une époque."
+        "correction": "L'ouverture met en perspective l'analyse en reliant le texte Ã  une autre Å“uvre, un thÃ¨me, une Ã©poque."
       }
     ]
   }

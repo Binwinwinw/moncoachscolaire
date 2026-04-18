@@ -2,17 +2,17 @@
   "contents": {
     "title": "Quiz Diagnostic HGGSP 1ère - Série 930",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP",
     "description": "Diagnostic HGGSP 1ère : La diplomatie et la résolution des conflits",
     "status": "published",
-    "created_at": "2026-04-06 06:40:39",
-    "updated_at": "2026-04-06 06:40:39"
+    "created_at": "2026-04-18 15:13:09",
+    "updated_at": "2026-04-18 15:13:09"
   },
   "quiz": {
     "title": "La diplomatie et la résolution des conflits",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Négociation bilatérale (directe entre États), médiation (par un tiers), conciliation (commission d'enquête), arbitrage (tribunal arbitral), règlement judiciaire (CIJ — Cour internationale de Justice), bons offices, conférence internationale."
+        "question": "Quels sont les différents modes de règlement pacifique des différends internationaux ?"
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La diplomatie multilatérale implique plusieurs États négociant ensemble dans des cadres institutionnels."
+        "question": "Qu'est-ce que la diplomatie multilatérale et quelles en sont les enceintes principales ?"
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de HGGSP",
-      "description": "Notion du programme 1ère"
-    },
-    {
-      "notion": "Compétences de base 1ère",
-      "description": "Notion du programme 1ère"
-    },
-    {
-      "notion": "Savoir-faire hggsp",
-      "description": "Notion du programme 1ère"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

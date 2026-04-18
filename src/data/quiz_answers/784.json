@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'integration de la mecanique, de l'electronique et de l'informatique pour concevoir des systemes intelligents",
+        "correct": 1,
         "correction": "La mecatronique (mecanique + electronique + informatique) est a la base des systemes modernes : voitures, robots, drones, smartphones."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Un robot mobile (AGV, robot aspirateur, drone) se deplace de maniere autonome ou semi-autonome dans son environnement pour accomplir des taches."
+        "correction": "Un robot mobile (AGV, robot aspirateur, drone) se deplace de maniere autonome ou semi-autonome dans son environnement pour accomplir des taches."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "6 DDL",
+        "correct": 2,
         "correction": "Un bras robotique a 6 degres de liberte (DDL) peut atteindre n'importe quelle position et orientation dans son espace de travail, comme le bras humain."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La vision artificielle (computer vision) utilise des cameras et des algorithmes d'IA pour detecter, reconnaitre et localiser des objets dans l'environnement du robot."
+        "correction": "La vision artificielle (computer vision) utilise des cameras et des algorithmes d'IA pour detecter, reconnaitre et localiser des objets dans l'environnement du robot."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La collaboration directe et securisee entre robots et humains sur un meme espace de travail",
+        "correct": 1,
         "correction": "La cobotique (collaborative robotics) conçoit des robots (cobots) equipes de capteurs de force pour travailler en securite a cote des humains sans cage de protection."
       },
       {

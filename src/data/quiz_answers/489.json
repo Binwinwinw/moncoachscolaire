@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 489",
-    "level": "1ère",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 489",
+    "level": "1ere",
     "subject": "Français"
   },
   "quiz": {
-    "title": "Molière : comédies et satire sociale",
+    "title": "MoliÃ¨re : comÃ©dies et satire sociale",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "answers": [
       {
@@ -15,56 +15,59 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'hypocrisie religieuse",
-        "correction": "Tartuffe est un faux dévot qui manipule Orgon ; Molière dénonce l'hypocrisie des bigots."
+        "correct": 1,
+        "correction": "Tartuffe est un faux dÃ©vot qui manipule Orgon ; MoliÃ¨re dÃ©nonce l'hypocrisie des bigots."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "Le Bourgeois gentilhomme (1670) est une comédie-ballet avec musique de Lully."
+        "correction": "Le Bourgeois gentilhomme (1670) est une comÃ©die-ballet avec musique de Lully."
       },
       {
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Harpagon est l'archétype de l'avare, prêt à sacrifier famille et bonheur pour son or."
+        "answer": "faux",
+        "correction": "Harpagon est l'archÃ©type de l'avare, prÃªt Ã  sacrifier famille et bonheur pour son or."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "Le rire naît du mécanique plaqué sur du vivant",
-        "correction": "Bergson (Le Rire, 1900) : le comique naît d'une rigidité mécanique (l'obsession) qui s'oppose à la souplesse du vivant."
+        "answer": "Le rire naÃ®t du mÃ©canique plaquÃ© sur du vivant",
+        "correct": 1,
+        "correction": "Bergson (Le Rire, 1900) : le comique naÃ®t d'une rigiditÃ© mÃ©canique (l'obsession) qui s'oppose Ã  la souplesse du vivant."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
         "answer": "faux",
-        "correction": "Dom Juan (1665) est une comédie (en prose) qui explore l'athéisme et le libertinage."
+        "correction": "Dom Juan (1665) est une comÃ©die (en prose) qui explore l'athÃ©isme et le libertinage."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Chaque comédie de caractère de Molière centre l'intrigue sur un défaut psychologique dominant."
+        "answer": "faux",
+        "correction": "Chaque comÃ©die de caractÃ¨re de MoliÃ¨re centre l'intrigue sur un dÃ©faut psychologique dominant."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "Les femmes qui singent les manières aristocratiques",
-        "correction": "Molière moque les bourgeoises qui imitent maladroitement les précieuses de la cour."
+        "answer": "Les femmes qui singent les maniÃ¨res aristocratiques",
+        "correct": 2,
+        "correction": "MoliÃ¨re moque les bourgeoises qui imitent maladroitement les prÃ©cieuses de la cour."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "Molière était acteur-auteur-directeur de troupe ; il jouait souvent le rôle du valet ou du héros ridicule."
+        "correction": "MoliÃ¨re Ã©tait acteur-auteur-directeur de troupe ; il jouait souvent le rÃ´le du valet ou du hÃ©ros ridicule."
       }
     ]
   }

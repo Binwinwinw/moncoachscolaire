@@ -14,9 +14,12 @@ import random
 from datetime import UTC, datetime
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", "..", ".."))
 OUTPUT_DIR = os.path.join(SCRIPT_DIR, "terminale_ses_quizzes")
 QUIZ_DIR = os.path.join(OUTPUT_DIR, "quiz")
 ANSWERS_DIR = os.path.join(OUTPUT_DIR, "quiz_answers")
+RUNTIME_QUIZ_DIR = os.path.join(REPO_ROOT, "src", "data", "quiz")
+RUNTIME_ANSWERS_DIR = os.path.join(REPO_ROOT, "src", "data", "quiz_answers")
 
 # Pattern : qcm, vrai-faux, texte, qcm, vrai-faux, texte, qcm, vrai-faux
 quizzes_data = [
@@ -2065,6 +2068,23 @@ for _qid, _title, _subject, _level, _theme, _angle, _institution, _indicator, _e
     )
 
 
+def normalize_question_type(question_type):
+    qt = str(question_type).strip().lower()
+    if qt == "qcm":
+        return "qcm"
+    if qt in {"vrai-faux", "vrai faux", "open", "texte", "text"}:
+        return "vrai-faux"
+    return "vrai-faux"
+
+
+def build_true_false_statement(question_text, fallback_answer=""):
+    question_text = str(question_text).strip()
+    fallback_answer = str(fallback_answer).strip().rstrip(".")
+    if fallback_answer:
+        return f"{question_text} La bonne réponse attendue est : {fallback_answer}."
+    return question_text or "Choisis si l'affirmation est vraie ou fausse."
+
+
 def make_quiz(qid, title, subject, level, questions):
     answer_keys = {"correct_answer", "correct_option", "correct", "explanation"}
     created_at = datetime.now(UTC).strftime("%Y-%m-%d %H:%M:%S")
@@ -2072,7 +2092,7 @@ def make_quiz(qid, title, subject, level, questions):
 
     for question in questions:
         cleaned_question = {k: v for k, v in question.items() if k not in answer_keys}
-        qtype = str(question.get("type", "texte"))
+        qtype = normalize_question_type(question.get("type", ""))
         if qtype == "qcm":
             runtime_questions.append(
                 {
@@ -2081,18 +2101,14 @@ def make_quiz(qid, title, subject, level, questions):
                     "choices": list(cleaned_question.get("options", [])),
                 }
             )
-        elif qtype == "vrai-faux":
-            runtime_questions.append(
-                {
-                    "type": "vrai-faux",
-                    "question": str(cleaned_question.get("question", "")),
-                }
-            )
         else:
             runtime_questions.append(
                 {
-                    "type": "open",
-                    "question": str(cleaned_question.get("question", "")),
+                    "type": "vrai-faux",
+                    "question": build_true_false_statement(
+                        cleaned_question.get("question", ""),
+                        question.get("correct_answer", ""),
+                    ),
                 }
             )
 
@@ -2123,7 +2139,7 @@ def make_quiz(qid, title, subject, level, questions):
 def make_answers(qid, title, subject, level, questions):
     answers = []
     for question in questions:
-        qtype = str(question.get("type", "texte"))
+        qtype = normalize_question_type(question.get("type", ""))
         if qtype == "qcm":
             answers.append(
                 {
@@ -2132,22 +2148,14 @@ def make_answers(qid, title, subject, level, questions):
                     "explanation": question.get("explanation", ""),
                 }
             )
-        elif qtype == "vrai-faux":
-            correct_value = question.get("correct", False)
+        else:
+            correct_value = question.get("correct", True)
             if isinstance(correct_value, str):
                 correct_value = correct_value.strip().lower() == "vrai"
             answers.append(
                 {
                     "question_id": question.get("id"),
                     "correct": bool(correct_value),
-                    "explanation": question.get("explanation", ""),
-                }
-            )
-        else:
-            answers.append(
-                {
-                    "question_id": question.get("id"),
-                    "correct_answer": question.get("correct_answer", ""),
                     "explanation": question.get("explanation", ""),
                 }
             )
@@ -2176,7 +2184,7 @@ def verify_random_sentinel():
 
     questions = quiz_obj.get("quiz", {}).get("questions", [])
     answers = answers_obj.get("answers", [])
-    allowed_types = {"qcm", "vrai-faux", "open", "texte"}
+    allowed_types = {"qcm", "vrai-faux"}
 
     assert len(questions) == len(answers), (
         f"[sentinel] FAIL quiz={qid}: {len(questions)} questions vs {len(answers)} reponses"

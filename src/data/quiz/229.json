@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Philosophie 1ere - Série 229",
+    "title": "Quiz Diagnostic Philosophie 1ere - SÃ©rie 229",
     "type": "quiz",
     "level": "1ere",
     "subject": "Philosophie",
     "description": "Diagnostic Philosophie 1ere : Quiz Diagnostic 1ere Philosophie - Serie 6",
     "status": "published",
-    "created_at": "2026-03-13 18:59:45",
-    "updated_at": "2026-03-13 18:59:45"
+    "created_at": "2026-04-18 15:13:09",
+    "updated_at": "2026-04-18 15:13:09"
   },
   "quiz": {
     "title": "Quiz Diagnostic 1ere Philosophie - Serie 6",
@@ -20,30 +20,30 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Pour quoi le langage est-il considéré comme spécifique à l'être humain ?",
+        "question": "Pour quoi le langage est-il considÃ©rÃ© comme spÃ©cifique Ã  l'Ãªtre humain ?",
         "choices": [
-          "Les humains sont les seuls à émettre des sons",
-          "Le langage humain est articulé, symbolique et permet d'exprimer des pensées abstraites et de créer du sens",
+          "Les humains sont les seuls Ã  Ã©mettre des sons",
+          "Le langage humain est articulÃ©, symbolique et permet d'exprimer des pensÃ©es abstraites et de crÃ©er du sens",
           "Les animaux ne communiquent pas",
-          "Le langage humain est inné et génétiquement programmé"
+          "Le langage humain est innÃ© et gÃ©nÃ©tiquement programmÃ©"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Selon Saussure, le signe linguistique est composé d'un signifiant (image acoustique) et d'un signifié (concept)."
+        "question": "Selon Saussure, le signe linguistique est composÃ© d'un signifiant (image acoustique) et d'un signifiÃ© (concept)."
       },
       {
         "type": "vrai-faux",
-        "question": "Cette thèse signifie que notre capacité à penser et à concevoir le monde est limitée par les possibilités expressives de notre langage."
+        "question": "En quoi consiste la thÃ¨se de Wittgenstein 'les limites de mon langage signifient les limites de mon monde' ?"
       },
       {
         "type": "qcm",
-        "question": "Qu'est-ce que la performativité du langage selon Austin ?",
+        "question": "Qu'est-ce que la performativitÃ© du langage selon Austin ?",
         "choices": [
-          "La capacité du langage à décrire le monde",
-          "La propriété de certains énoncés à accomplir une action en les énonçant ('Je vous déclare mariés')",
-          "Le pouvoir rhétorique de convaincre",
-          "La musicalité du discours"
+          "La capacitÃ© du langage Ã  dÃ©crire le monde",
+          "La propriÃ©tÃ© de certains Ã©noncÃ©s Ã  accomplir une action en les Ã©nonÃ§ant ('Je vous dÃ©clare mariÃ©s')",
+          "Le pouvoir rhÃ©torique de convaincre",
+          "La musicalitÃ© du discours"
         ]
       },
       {
@@ -52,37 +52,24 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La langue est le système collectif de signes partagé par une communauté ; la parole est l'usage individuel et concret de ce système."
+        "question": "Quelle est la diffÃ©rence entre langue et parole selon Saussure ?"
       },
       {
         "type": "qcm",
-        "question": "Pour Bergson, le langage est insuffisant pour exprimer la réalité profonde de la conscience car :",
+        "question": "Pour Bergson, le langage est insuffisant pour exprimer la rÃ©alitÃ© profonde de la conscience car :",
         "choices": [
-          "Le langage est trop poétique",
-          "Le langage, fait pour l'action et la communication sociale, découpe et fige ce qui est en réalité fluide et continu (la durée)",
-          "La conscience est trop complexe pour aucun système symbolique",
-          "Bergson préfère le silence"
+          "Le langage est trop poÃ©tique",
+          "Le langage, fait pour l'action et la communication sociale, dÃ©coupe et fige ce qui est en rÃ©alitÃ© fluide et continu (la durÃ©e)",
+          "La conscience est trop complexe pour aucun systÃ¨me symbolique",
+          "Bergson prÃ©fÃ¨re le silence"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "L'apprentissage du langage est exclusivement culturel : un enfant sans contact humain développerait spontanément son propre langage."
+        "question": "L'apprentissage du langage est exclusivement culturel : un enfant sans contact humain dÃ©velopperait spontanÃ©ment son propre langage."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Philosophie",
-      "description": "Notion du programme 1ere"
-    },
-    {
-      "notion": "Compétences de base 1ere",
-      "description": "Notion du programme 1ere"
-    },
-    {
-      "notion": "Savoir-faire philosophie",
-      "description": "Notion du programme 1ere"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

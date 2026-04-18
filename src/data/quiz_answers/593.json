@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 593",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie"
   },
   "quiz": {
     "title": "Espaces productifs touristiques",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La première destination touristique mondiale en nombre de visiteurs",
+        "correct": 1,
         "correction": "La France attire des dizaines de millions de visiteurs par an."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Il vise à préserver les ressources et les populations locales."
+        "correction": "Il vise à préserver les ressources et les populations locales."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Les Alpes",
+        "correct": 0,
         "correction": "Les Alpes concentrent stations de sports d'hiver et tourisme estival."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le tourisme génère beaucoup d'emplois temporaires."
+        "correction": "Le tourisme génère beaucoup d'emplois temporaires."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Promouvoir des destinations moins fréquentées",
+        "correct": 1,
         "correction": "La diversification des destinations réduit la pression."
       },
       {

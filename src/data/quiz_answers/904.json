@@ -1,70 +1,74 @@
 {
   "contents": {
-    "title": "Anglais - Le cycle de l'eau en SVT",
-    "level": "5eme",
-    "subject": "SVT"
+    "title": "Quiz Diagnostic NSI 1ere - Série 904",
+    "level": "1ere",
+    "subject": "NSI"
   },
   "quiz": {
-    "title": "Anglais - Le cycle de l'eau en SVT",
+    "title": "Bases de données relationnelles",
     "question_count": 8,
-    "level": "5eme",
-    "subject": "SVT",
+    "level": "1ere",
+    "subject": "NSI",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "",
-        "correction": "La bonne réponse est ‘L'évaporation’. C'est la transformation de l'eau en vapeur."
+        "answer": "Un ensemble de tables reliées entre elles",
+        "correct": 0,
+        "correction": "En NSI, une base de données relationnelle désigne : un ensemble de tables reliées entre elles."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "answer": "faux",
-        "correction": "Vrai. La condensation transforme la vapeur en gouttes d'eau."
+        "answer": "vrai",
+        "correction": "Cette notion fait partie des fondamentaux travaillés en NSI."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Réponds en décrivant la formation de la pluie lorsque la vapeur d'eau se refroidit."
+        "type": "qcm",
+        "answer": "les tables",
+        "correct": 0,
+        "correction": "La notion clé à retenir ici est : les tables."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "answer": "",
-        "correction": "La bonne réponse est ‘Dans le sol’. L'eau s'infiltre dans le sol après la pluie."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La NSI combine pratique, raisonnement algorithmique et compréhension des systèmes."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "answer": "faux",
-        "correction": "Vrai. L'eau de la mer peut aussi s'évaporer et rejoindre les nuages."
+        "type": "qcm",
+        "answer": "Comprendre les outils et concepts du numérique",
+        "correct": 0,
+        "correction": "L'objectif de la NSI est de comprendre le fonctionnement des outils numériques et des algorithmes."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "qcm",
-        "answer": "",
-        "correction": "La bonne réponse est ‘Elles transpirent de l'eau dans l'air’."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les notions de NSI s'observent dans le web, les réseaux, les programmes et les objets connectés."
       },
       {
         "index": 6,
         "question_id": 7,
-        "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Réponds en expliquant que l'eau est nécessaire pour les cellules et les réactions de la vie."
+        "type": "qcm",
+        "answer": "Un algorithme, un schéma ou un exemple de code",
+        "correct": 0,
+        "correction": "Les schémas, algorithmes et fragments de code aident à clarifier les notions de NSI."
       },
       {
         "index": 7,
         "question_id": 8,
-        "type": "qcm",
-        "answer": "",
-        "correction": "La bonne réponse est ‘La photosynthèse’. Elle ne fait pas partie du cycle de l'eau."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est un objectif central de l'enseignement NSI."
       }
     ]
   }

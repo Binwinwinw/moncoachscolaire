@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Équations & inéquations avec ln",
     "status": "published",
-    "created_at": "2026-04-06 06:40:48",
-    "updated_at": "2026-04-06 06:40:48"
+    "created_at": "2026-04-18 18:52:46",
+    "updated_at": "2026-04-18 18:52:46"
   },
   "quiz": {
     "title": "Équations & inéquations avec ln",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "X = 0 ou x = 3 (avec vérification x²−3x+2 > 0)."
+        "question": "Résous ln(x² − 3x + 2) = 0. La bonne réponse attendue est : x = 0 ou x = 3 (avec vérification x²−3x+2 > 0)."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Ln(x(x+2)) = ln(8) ⟺ x²+2x = 8 ⟺ x²+2x−8=0 ⟺ (x+4)(x−2)=0."
+        "question": "Résous ln(x) + ln(x+2) = ln(8). La bonne réponse attendue est : x = 2."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fonction logarithmique",
-      "description": "La fonction logarithmique ln(x) est définie pour x > 0, et ln(1) = 0. Dans ce cas, ln(2x - 1) = 0 implique 2x - 1 = 1, car ln(1) = 0."
-    },
-    {
-      "notion": "Résolution d'équations logarithmiques",
-      "description": "Pour résoudre l'équation ln(2x - 1) = 0, il faut utiliser les propriétés de la fonction logarithmique, notamment le fait que ln(1) = 0, pour trouver la valeur de x qui satisfait l'équation."
-    },
-    {
-      "notion": "Domaine de définition",
-      "description": "Il est essentiel de vérifier que la solution trouvée satisfait au domaine de définition de la fonction logarithmique, c'est-à-dire que 2x - 1 > 0, pour garantir que la solution est valide."
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

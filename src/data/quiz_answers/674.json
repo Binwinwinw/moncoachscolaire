@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic SVT 3ème - Série 674",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT"
   },
   "quiz": {
     "title": "Géologie : structure interne du globe terrestre",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Croûte, manteau, noyau",
+        "correct": 0,
         "correction": "La Terre est structurée en croûte (externe), manteau (intermédiaire) et noyau (central, lui-même divisé en noyau externe liquide et interne solide)."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La discontinuité de Mohorovicic (Moho) marque la limite entre la croûte terrestre et le manteau supérieur."
+        "correction": "La discontinuité de Mohorovicic (Moho) marque la limite entre la croûte terrestre et le manteau supérieur."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Fer et nickel",
+        "correct": 1,
         "correction": "Le noyau est composé essentiellement de fer (80%) et de nickel, responsable du champ magnétique terrestre."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La sismologie analyse la vitesse et la direction des ondes sismiques pour déduire la composition et l'état des couches internes."
+        "correction": "La sismologie analyse la vitesse et la direction des ondes sismiques pour déduire la composition et l'état des couches internes."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Solide plastique et partiellement fondu",
+        "correct": 1,
         "correction": "L'asthénosphère est semi-plastique, permettant la convection et le déplacement des plaques lithosphériques."
       },
       {

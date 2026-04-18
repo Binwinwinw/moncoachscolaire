@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 703",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie"
   },
   "quiz": {
     "title": "Mélanges, corps purs et états de la matière",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Distillation",
+        "correct": 1,
         "correction": "La distillation sépare les liquides par chauffage progressif ; le composant le plus volatil s'évapore en premier."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La sublimation est le passage direct solide → gaz (ex. glace carbonique, iode, naphthalène)."
+        "correction": "La sublimation est le passage direct solide → gaz (ex. glace carbonique, iode, naphthalène)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Solution",
+        "correct": 2,
         "correction": "Une solution est un mélange homogène d'un soluté (dissous) dans un solvant ; exemple : sel dans l'eau."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La chromatographie (sur papier, sur couche mince) sépare les constituants d'un mélange selon leur affinité pour la phase mobile et la phase stationnaire."
+        "correction": "La chromatographie (sur papier, sur couche mince) sépare les constituants d'un mélange selon leur affinité pour la phase mobile et la phase stationnaire."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Décantation",
+        "correct": 2,
         "correction": "La décantation exploite la différence de densité entre l'eau et l'huile pour les séparer par gravité."
       },
       {

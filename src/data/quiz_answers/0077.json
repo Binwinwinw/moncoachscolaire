@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 0077",
+    "level": "6eme",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Initiation programmation (ex. : Scratch blocs)",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Répéter 10 fois",
+        "correction": "Le bloc Scratch 'Répéter 10 fois' permet de répéter une action 10 fois."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le bloc Scratch 'Répéter indéfiniment' permet de répéter une action sans fin."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Répéter jusqu'à ce que",
+        "correction": "Le bloc Scratch 'Répéter jusqu'à ce que' permet de répéter une action jusqu'à ce qu'une condition soit vraie."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le bloc Scratch 'Répéter pendant' permet de répéter une action pendant un certain temps."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Répéter indéfiniment",
+        "correction": "Le bloc Scratch 'Répéter indéfiniment' permet de répéter une action indéfiniment."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le bloc Scratch 'Répéter 10 fois' permet de répéter une action 10 fois."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Répéter pendant",
+        "correction": "Le bloc Scratch 'Répéter pendant' permet de répéter une action pendant un certain temps."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le bloc Scratch 'Répéter jusqu'à ce que' permet de répéter une action jusqu'à ce qu'une condition soit vraie."
+      }
+    ]
+  }
+}

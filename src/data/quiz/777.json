@@ -6,8 +6,8 @@
     "subject": "Technologie",
     "description": "Diagnostic Technologie 3eme : Les procedes de fabrication et de mise en forme",
     "status": "published",
-    "created_at": "2026-04-06 06:40:45",
-    "updated_at": "2026-04-06 06:40:45"
+    "created_at": "2026-04-18 21:24:12",
+    "updated_at": "2026-04-18 21:24:12"
   },
   "quiz": {
     "title": "Les procedes de fabrication et de mise en forme",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Le thermoformage est utilise pour fabriquer des barquettes alimentaires, blister d'emballage et pieces de carrosserie en chauffant une feuille plastique et en la moulant."
+        "question": "La bonne réponse attendue est : thermoformage."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "L'electrodeposition (galvanoplastie, chromage, nickelage) depose une fine couche metallique sur un objet par electrlyse pour le proteger ou l'embellir."
+        "question": "La bonne réponse attendue est : electrodeposition."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Technologie",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Compétences de base 3eme",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Savoir-faire technologie",
-      "description": "Notion du programme 3eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

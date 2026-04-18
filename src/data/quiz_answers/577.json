@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 577",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie"
   },
   "quiz": {
     "title": "Les espaces productifs et les acteurs économiques en France",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Ses vastes plaines fertiles, son climat et sa PAC européenne",
+        "correct": 1,
         "correction": "La France est le premier producteur agricole de l'UE ; ses plaines (Beauce, Brie, Picardie) et son climat tempéré favorisent la polyculture."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Les technopôles rassemblent entreprises de haute technologie, laboratoires de recherche et universités pour favoriser l'innovation."
+        "correction": "Les technopôles rassemblent entreprises de haute technologie, laboratoires de recherche et universités pour favoriser l'innovation."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Environ 8% du PIB et le premier rang mondial d'accueil de touristes",
+        "correct": 1,
         "correction": "La France est la première destination touristique mondiale (90 millions de visiteurs) ; le tourisme représente environ 8% du PIB."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La tertiarisation de l'économie française est avancée : le secteur tertiaire représente la grande majorité des emplois et de la valeur ajoutée."
+        "correction": "La tertiarisation de l'économie française est avancée : le secteur tertiaire représente la grande majorité des emplois et de la valeur ajoutée."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Marseille et Le Havre",
+        "correct": 1,
         "correction": "Marseille-Fos (1er port français, Méditerranée) et Le Havre (2e, Manche) sont les principales portes d'entrée du commerce maritime français."
       },
       {

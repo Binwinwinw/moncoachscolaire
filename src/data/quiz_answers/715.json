@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 715",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie"
   },
   "quiz": {
     "title": "Chimie : nomenclature et formules",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Acide sulfurique",
+        "correct": 2,
         "correction": "H2SO4 est l'acide sulfurique, un acide fort diprotique très corrosif utilisé dans les batteries."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. CaCO3 est le carbonate de calcium, composant principal du calcaire, de la craie et du marbre."
+        "correction": "CaCO3 est le carbonate de calcium, composant principal du calcaire, de la craie et du marbre."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Oxyde de fer III (rouille)",
+        "correct": 1,
         "correction": "Fe2O3 est l'oxyde de fer (III), principal constituant de la rouille."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. NaOH est l'hydroxyde de sodium, une base forte fortement caustique utilisée dans l'industrie chimique."
+        "correction": "NaOH est l'hydroxyde de sodium, une base forte fortement caustique utilisée dans l'industrie chimique."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Oxyde d'aluminium (alumine)",
+        "correct": 0,
         "correction": "Al2O3 est l'alumine, composé très stable formant une couche protectrice contre la corrosion sur l'aluminium."
       },
       {

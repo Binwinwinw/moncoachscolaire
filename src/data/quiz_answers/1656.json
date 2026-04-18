@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Reading quickly to get the main idea",
+        "correct": 1,
         "correction": "Le skimming est une lecture globale rapide pour saisir le sens général."
       },
       {
@@ -27,8 +28,8 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "main idea",
+        "type": "vrai-faux",
+        "answer": "vrai",
         "correction": "'Main idea' désigne l'idée principale développée dans un passage."
       },
       {
@@ -36,6 +37,7 @@
         "question_id": 4,
         "type": "qcm",
         "answer": "Context around the word",
+        "correct": 1,
         "correction": "Le contexte lexical et syntaxique permet d'inférer le sens d'un mot inconnu."
       },
       {
@@ -48,8 +50,8 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "however",
+        "type": "vrai-faux",
+        "answer": "vrai",
         "correction": "'However' introduit un contraste ou une opposition d'idées."
       },
       {
@@ -57,6 +59,7 @@
         "question_id": 7,
         "type": "qcm",
         "answer": "Read questions before rereading key parts",
+        "correct": 1,
         "correction": "Lire d'abord les questions permet de cibler les informations pertinentes."
       },
       {

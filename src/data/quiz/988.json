@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques 2nde : Colinéarité & parallélisme",
     "status": "published",
-    "created_at": "2026-04-06 06:40:42",
-    "updated_at": "2026-04-06 06:40:42"
+    "created_at": "2026-04-18 18:34:33",
+    "updated_at": "2026-04-18 18:34:33"
   },
   "quiz": {
     "title": "Colinéarité & parallélisme",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Oui, ils sont alignés car AB⃗ = (2,4) et AC⃗ = (4,8) = 2·AB⃗ sont colinéaires."
+        "question": "Vérifie si A(1, 1), B(3, 5) et C(5, 9) sont alignés. La bonne réponse attendue est : Oui, ils sont alignés car AB⃗ = (2,4) et AC⃗ = (4,8) = 2·AB⃗ sont colinéaires."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Déterminant : 2×6 − k×4 = 12 − 4k = 0 → k = 3."
+        "question": "À quelle condition sur k les vecteurs u⃗ = (2, k) et v⃗ = (4, 6) sont-ils colinéaires ? La bonne réponse attendue est : k = 3."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fonctions polynomiales",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Géométrie analytique",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Ensembles et logique",
-      "description": "Notion fondamentale de Mathématiques"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

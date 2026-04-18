@@ -2,17 +2,17 @@
   "contents": {
     "title": "Quiz Diagnostic HGGSP 1ère - Série 931",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP",
     "description": "Diagnostic HGGSP 1ère : Le droit international humanitaire",
     "status": "published",
-    "created_at": "2026-04-06 06:40:39",
-    "updated_at": "2026-04-06 06:40:39"
+    "created_at": "2026-04-18 15:13:09",
+    "updated_at": "2026-04-18 15:13:09"
   },
   "quiz": {
     "title": "Le droit international humanitaire",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Distinction (entre combattants et civils), Proportionnalité (les dommages causés aux civils ne doivent pas être excessifs par rapport à l'avantage militaire), Précaution (minimiser les dommages collatéraux), Nécessité militaire (seule la force nécessaire est autorisée), Humanité (interdiction des souffrances superflues)."
+        "question": "Quels sont les principes fondamentaux du droit international humanitaire ?"
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Le DIH exige qu'un être humain soit en mesure d'exercer un contrôle sur les décisions létales (principe de responsabilité)."
+        "question": "Comment le DIH encadre-t-il l'utilisation des armes autonomes (drones, robots armés) ?"
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de HGGSP",
-      "description": "Notion du programme 1ère"
-    },
-    {
-      "notion": "Compétences de base 1ère",
-      "description": "Notion du programme 1ère"
-    },
-    {
-      "notion": "Savoir-faire hggsp",
-      "description": "Notion du programme 1ère"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

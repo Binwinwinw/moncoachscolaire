@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 561",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie"
   },
   "quiz": {
     "title": "La Résistance et la France libre",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Unifié les mouvements de résistance intérieure sous l'autorité de De Gaulle",
+        "correct": 1,
         "correction": "Jean Moulin crée le Conseil National de la Résistance (CNR) en mai 1943 ; il est arrêté, torturé et meurt en juillet 1943."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le maquis désigne les unités de résistance armée cachées en zone rurale ; ses membres sont les maquisards."
+        "correction": "Le maquis désigne les unités de résistance armée cachées en zone rurale ; ses membres sont les maquisards."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Le représentant légitime de la France combattante",
+        "correct": 1,
         "correction": "De Gaulle est reconnu par Churchill comme chef de la France libre ; ses Forces françaises libres (FFL) combattent aux côtés des Alliés."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La presse clandestine informe les Français malgré la censure de Vichy et des nazis ; elle joue un rôle majeur dans le maintien de l'espoir."
+        "correction": "La presse clandestine informe les Français malgré la censure de Vichy et des nazis ; elle joue un rôle majeur dans le maintien de l'espoir."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Un maquis qui a été écrasé par les Allemands en juillet 1944",
+        "correct": 1,
         "correction": "Le maquis du Vercors, isolé, est attaqué massivement par les Allemands en juillet 1944 ; les résistants sont massacrés."
       },
       {

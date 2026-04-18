@@ -2,17 +2,17 @@
   "contents": {
     "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 570",
     "type": "quiz",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "description": "Diagnostic Histoire-Géographie 3ème : La France : territoire et organisation",
     "status": "published",
-    "created_at": "2026-04-06 06:40:44",
-    "updated_at": "2026-04-06 06:40:44"
+    "created_at": "2026-04-18 18:28:04",
+    "updated_at": "2026-04-18 18:28:04"
   },
   "quiz": {
     "title": "La France : territoire et organisation",
     "type": "quiz",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La France possède des territoires dans l'Atlantique, le Pacifique, l'océan Indien et l'Antarctique, ce qui lui donne la 2e ZEE mondiale."
+        "question": "La bonne réponse attendue est : océans."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La décentralisation donne des compétences aux communes, aux départements et aux régions."
+        "question": "La bonne réponse attendue est : régions."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Histoire-Géographie",
-      "description": "Notion du programme 3ème"
-    },
-    {
-      "notion": "Compétences de base 3ème",
-      "description": "Notion du programme 3ème"
-    },
-    {
-      "notion": "Savoir-faire histoire-géographie",
-      "description": "Notion du programme 3ème"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

@@ -89,7 +89,7 @@ def normalize_text_payload(payload):
 
 
 def normalize_question_type(question_type):
-    qtype = str(question_type or "texte").strip().lower().replace("_", "-")
+    qtype = str(question_type or "").strip().lower().replace("_", "-")
     if qtype in {"vrai-faux", "vrai faux"}:
         return "vrai-faux"
     if qtype == "qcm":
@@ -103,7 +103,7 @@ def make_quiz(qid, title, subject, level, questions):
     runtime_questions = []
 
     for question in questions:
-        qtype = normalize_question_type(question.get("type", "texte"))
+        qtype = normalize_question_type(question.get("type", ""))
         if qtype == "qcm":
             runtime_questions.append({
                 "type": "qcm",
@@ -149,7 +149,7 @@ def make_quiz(qid, title, subject, level, questions):
 def make_answers(qid, title, subject, level, questions):
     answers = []
     for index, question in enumerate(questions):
-        qtype = normalize_question_type(question.get("type", "texte"))
+        qtype = normalize_question_type(question.get("type", ""))
         if qtype == "qcm":
             options = list(question.get("options", []))
             correct_answer = str(question.get("correct_option", question.get("correct_answer", "")))
@@ -173,11 +173,13 @@ def make_answers(qid, title, subject, level, questions):
                 "correction": str(question.get("explanation", "")),
             })
         else:
+            tf_source = question.get("correct", question.get("correct_answer", "faux"))
+            tf_answer = "vrai" if str(tf_source).strip().lower() in {"true", "vrai", "1"} else "faux"
             answers.append({
                 "index": index,
                 "question_id": index + 1,
                 "type": "vrai-faux",
-                "answer": str(question.get("correct_answer", "")),
+                "answer": tf_answer,
                 "correction": str(question.get("explanation", "")),
             })
 
@@ -1107,24 +1109,24 @@ def actor_action(actor):
 def build_quality_lot_questions(qid, angle, acteur, exemple, outils):
     verb, possessive = actor_action(acteur)
 
-    open_variants = [
+    review_variants = [
         {
-            "question": f"Montrez en quoi '{angle}' constitue un enjeu géopolitique actuel.",
-            "answer": f"'{angle}' est un enjeu géopolitique car il met en tension des intérêts d'acteurs publics et privés, à plusieurs échelles. Les arbitrages de gouvernance influencent l'image internationale des acteurs, la coopération et les rapports de puissance. L'exemple '{exemple}' illustre des choix politiques concrets et leurs effets.",
-            "correction": "Attendu : problématique claire, acteurs identifiés, effets politiques explicites.",
+            "question": f"Le thème '{angle}' constitue un enjeu géopolitique actuel.",
+            "answer": "Vrai",
+            "correction": "Ce sujet met en jeu des acteurs, des normes et des rapports de force à plusieurs échelles.",
         },
         {
-            "question": f"Expliquez pourquoi '{angle}' oblige à articuler plusieurs échelles d'analyse.",
-            "answer": f"Le thème '{angle}' implique des décisions prises localement, encadrées par des normes nationales et internationales. L'acteur '{acteur}' agit dans un système d'interdépendances où les effets politiques dépassent souvent le cadre local. Cette articulation d'échelles explique la dimension géopolitique du sujet.",
-            "correction": "Attendu : articulation local/national/international + rôle des acteurs.",
+            "question": f"Le thème '{angle}' ne s'analyse qu'à l'échelle locale.",
+            "answer": "Faux",
+            "correction": "L'analyse HGGSP doit articuler les échelles locale, nationale et internationale.",
         },
         {
-            "question": "Expliquez l'intérêt géopolitique du thème en mobilisant deux arguments précis.",
-            "answer": f"Ce thème est géopolitique car il influence les alliances, les normes et la capacité d'influence des acteurs. Il produit aussi des effets de coopération ou de rivalité selon les choix publics opérés autour de '{angle}'. L'exemple '{exemple}' en donne une illustration concrète.",
-            "correction": "Attendu : deux arguments étayés par un exemple contextualisé.",
+            "question": "Une étude géopolitique solide doit identifier acteurs, intérêts et effets politiques.",
+            "answer": "Vrai",
+            "correction": "C'est la base d'une réponse problématisée en HGGSP.",
         },
     ]
-    open_variant = open_variants[qid % len(open_variants)]
+    review_variant = review_variants[qid % len(review_variants)]
 
     method_variants = [
         {
@@ -1187,9 +1189,9 @@ def build_quality_lot_questions(qid, angle, acteur, exemple, outils):
         {
             "id": f"{qid}_3",
             "type": "vrai-faux",
-            "question": open_variant["question"],
-            "correct_answer": open_variant["answer"],
-            "explanation": open_variant["correction"],
+            "question": review_variant["question"],
+            "correct_answer": review_variant["answer"],
+            "explanation": review_variant["correction"],
         },
         {
             "id": f"{qid}_4",

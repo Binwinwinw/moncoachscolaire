@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "(x, f(x))",
+        "answer": "C",
         "correction": "La courbe est l'ensemble {(x, f(x)) | x ∈ D(f)}."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. L'abscisse correspond à l'antécédent, l'ordonnée au point sur la courbe est l'image f(2)."
+        "correction": "L'abscisse correspond à l'antécédent, l'ordonnée au point sur la courbe est l'image f(2)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "f(3) = 5",
+        "answer": "B",
         "correction": "Un point (a, b) sur la courbe de f signifie f(a) = b, donc f(3) = 5."
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. f est paire si f(−x) = f(x). Graphiquement, la courbe est invariante par réflexion par rapport à l'axe des ordonnées."
+        "correction": "f est paire si f(−x) = f(x). Graphiquement, la courbe est invariante par réflexion par rapport à l'axe des ordonnées."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "Un seul point",
+        "answer": "B",
         "correction": "x² = 0 → x = 0 : la parabole est tangente à l'axe en un seul point, l'origine."
       },
       {

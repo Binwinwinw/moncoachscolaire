@@ -2,17 +2,17 @@
   "contents": {
     "title": "Quiz Diagnostic HGGSP 1ère - Série 937",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP",
     "description": "Diagnostic HGGSP 1ère : Usages politiques du passé",
     "status": "published",
-    "created_at": "2026-04-06 06:40:39",
-    "updated_at": "2026-04-06 06:40:39"
+    "created_at": "2026-04-18 15:13:09",
+    "updated_at": "2026-04-18 15:13:09"
   },
   "quiz": {
     "title": "Usages politiques du passé",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La guerre en Bosnie-Herzégovine (1992-1995) a été alimentée par des mémoires historiques réactivées : le souvenir de la collaboration des Oustachis croates pendant la SGM, les mythes fondateurs serbes (la bataille du Kosovo, 1389), l'instrumentalisation des identités religieuses (orthodoxes vs catholiques vs musulmans)."
+        "question": "En quoi le conflit entre Serbes et Bosniaques dans les années 1990 a-t-il mobilisé des mémoires historiques ?"
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Les monuments commémoratifs (Arc de Triomphe, Verdun, statues, mémoriaux) matérialisent une mémoire dans l'espace public et la rendent pérenne."
+        "question": "Comment les monuments commémoratifs participent-ils à la construction d'une mémoire nationale ?"
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de HGGSP",
-      "description": "Notion du programme 1ère"
-    },
-    {
-      "notion": "Compétences de base 1ère",
-      "description": "Notion du programme 1ère"
-    },
-    {
-      "notion": "Savoir-faire hggsp",
-      "description": "Notion du programme 1ère"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

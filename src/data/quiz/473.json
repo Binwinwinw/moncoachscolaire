@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 473",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 473",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
-    "description": "Diagnostic Français 1ère : L'argumentation : thèse et arguments",
+    "description": "Diagnostic Français 1ere : L'argumentation : thÃ¨se et arguments",
     "status": "published",
-    "created_at": "2026-03-13 18:59:43",
-    "updated_at": "2026-03-13 18:59:43"
+    "created_at": "2026-04-18 20:20:12",
+    "updated_at": "2026-04-18 20:20:12"
   },
   "quiz": {
-    "title": "L'argumentation : thèse et arguments",
+    "title": "L'argumentation : thÃ¨se et arguments",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
@@ -20,69 +20,56 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Qu'est-ce qu'une thèse dans un texte argumentatif ?",
+        "question": "Qu'est-ce qu'une thÃ¨se dans un texte argumentatif ?",
         "choices": [
           "Un exemple concret",
-          "La position défendue par l'auteur",
+          "La position dÃ©fendue par l'auteur",
           "Un contre-argument",
-          "Une question rhétorique"
+          "Une question rhÃ©torique"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Un argument est une affirmation qui étaie ou réfute une thèse."
+        "question": "Un argument est une affirmation qui Ã©taie ou rÃ©fute une thÃ¨se."
       },
       {
         "type": "vrai-faux",
-        "question": "L'exemple concrétise l'argument et lui donne une valeur démonstrative."
+        "question": "L'illustration d'un argument par un fait prÃ©cis ou une anecdote s'appelle un _____."
       },
       {
         "type": "qcm",
-        "question": "Quel est le rôle de la concession dans l'argumentation ?",
+        "question": "Quel est le rÃ´le de la concession dans l'argumentation ?",
         "choices": [
           "Refuser tout contre-argument",
-          "Admettre partiellement l'opinion adverse avant de la réfuter",
-          "Renforcer l'émotion du lecteur",
+          "Admettre partiellement l'opinion adverse avant de la rÃ©futer",
+          "Renforcer l'Ã©motion du lecteur",
           "Introduire la conclusion"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Un syllogisme est un raisonnement déductif en trois étapes : majeure, mineure, conclusion."
+        "question": "Un syllogisme est un raisonnement dÃ©ductif en trois Ã©tapes : majeure, mineure, conclusion."
       },
       {
         "type": "vrai-faux",
-        "question": "Le pathos (ethos, pathos, logos) vise à émouvoir le destinataire pour le persuader."
+        "question": "L'appel aux Ã©motions du lecteur pour le convaincre est appelÃ© _____ dans la rhÃ©torique classique."
       },
       {
         "type": "qcm",
-        "question": "La réfutation directe consiste à :",
+        "question": "La rÃ©futation directe consiste Ã  :",
         "choices": [
           "Ignorer l'argument adverse",
-          "Démontrer qu'un argument adverse est faux ou insuffisant",
-          "Reformuler sa propre thèse",
-          "Utiliser une métaphore"
+          "DÃ©montrer qu'un argument adverse est faux ou insuffisant",
+          "Reformuler sa propre thÃ¨se",
+          "Utiliser une mÃ©taphore"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Dans un plan dialectique, la synthèse dépasse le simple résumé des deux parties précédentes."
+        "question": "Dans un plan dialectique, la synthÃ¨se dÃ©passe le simple rÃ©sumÃ© des deux parties prÃ©cÃ©dentes."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Baccalauréat français",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Poésie baroque et classique",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Théâtre et représentation",
-      "description": "Notion fondamentale de Français"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

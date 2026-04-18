@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic HGGSP 1ère - Série 915",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP"
   },
   "quiz": {
     "title": "Histoire de la conquête spatiale",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'Union soviétique",
+        "correct": 1,
         "correction": "Spoutnik 1 fut lancé le 4 octobre 1957 par l'URSS, déclenchant la 'course à l'espace' entre les deux superpuissances de la Guerre froide."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La conquête spatiale illustre parfaitement la rivalité bipolaire de la Guerre froide, où science et technologie devenaient des armes géopolitiques."
+        "answer": "faux",
+        "correction": "La conquête spatiale illustre parfaitement la rivalité bipolaire de la Guerre froide, où science et technologie devenaient des armes géopolitiques."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Youri Gagarine",
+        "correct": 2,
         "correction": "Youri Gagarine (URSS) effectua le premier vol habité dans l'espace le 12 avril 1961 à bord de Vostok 1, devenant un héros mondial."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La multiplication des agences spatiales reflète la diffusion du pouvoir spatial au-delà des deux superpuissances originelles."
+        "answer": "faux",
+        "correction": "La multiplication des agences spatiales reflète la diffusion du pouvoir spatial au-delà des deux superpuissances originelles."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Les États-Unis, la Russie, l'Europe, le Japon et le Canada",
+        "correct": 1,
         "correction": "L'ISS, construite depuis 1998, est un exemple rare de coopération internationale, réunissant d'anciens rivaux de la Guerre froide."
       },
       {

@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 700",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie"
   },
   "quiz": {
     "title": "Tableau périodique et classification des éléments",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Dmitri Mendeleïev",
+        "correct": 1,
         "correction": "Mendeleïev a publié sa classification périodique en 1869, en classant les éléments par masse atomique croissante et propriétés similaires."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Fe vient du latin 'ferrum'. Le fer est un métal de transition de numéro atomique Z = 26."
+        "correction": "Fe vient du latin 'ferrum'. Le fer est un métal de transition de numéro atomique Z = 26."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Gaz nobles (rares)",
+        "correct": 2,
         "correction": "Les gaz nobles (He, Ne, Ar, Kr, Xe, Rn) ont une couche externe saturée et sont très peu réactifs."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Les halogènes sont des non-métaux très réactifs qui forment des sels en réagissant avec les métaux."
+        "correction": "Les halogènes sont des non-métaux très réactifs qui forment des sels en réagissant avec les métaux."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Le nombre de couches électroniques occupées",
+        "correct": 1,
         "correction": "Le numéro de période correspond au nombre de couches électroniques de l'atome."
       },
       {

@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "1944",
+        "correct": 2,
         "correction": "L'ordonnance du 21 avril 1944 (Gouvernement provisoire du général de Gaulle) a accordé le droit de vote et d'éligibilité aux femmes françaises."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Les stéréotypes de genre sont des représentations figées attribuant des qualités, rôles ou comportements différents aux hommes et aux femmes, alimentant les discriminations."
+        "correction": "Les stéréotypes de genre sont des représentations figées attribuant des qualités, rôles ou comportements différents aux hommes et aux femmes, alimentant les discriminations."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Environ 16 a 17% en defaveur des femmes",
+        "correct": 1,
         "correction": "Selon l'INSEE, l'écart de salaire entre femmes et hommes est d'environ 16-17% en défaveur des femmes (tous secteurs et temps de travail confondus)."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le mouvement #MeToo (2017) a libéré la parole des victimes de harcèlement et violences sexuelles, entraînant des évolutions législatives et sociales importantes."
+        "correction": "Le mouvement #MeToo (2017) a libéré la parole des victimes de harcèlement et violences sexuelles, entraînant des évolutions législatives et sociales importantes."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Eliminer toutes les formes de discrimination et de violence a l'egard des femmes et des filles",
+        "correct": 0,
         "correction": "L'ODD 5 des Nations Unies vise à 'parvenir à l'égalité des sexes et autonomiser toutes les femmes et les filles', incluant la fin des violences et discriminations."
       },
       {

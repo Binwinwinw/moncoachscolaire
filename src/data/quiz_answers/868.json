@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic NSI 1ère - Série 868",
-    "level": "1ère",
+    "title": "Quiz Diagnostic NSI 1ere - Série 868",
+    "level": "1ere",
     "subject": "NSI"
   },
   "quiz": {
     "title": "Codage des caractères",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "ASCII",
+        "correct": 1,
         "correction": "L'ASCII (American Standard Code for Information Interchange, 1963) est la table historique sur 7 bits, codant 128 caractères."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Unicode définit 'quoi' ; UTF-8 définit 'comment' stocker en mémoire."
+        "answer": "faux",
+        "correction": "Unicode définit 'quoi' ; UTF-8 définit 'comment' stocker en mémoire."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "65",
+        "correct": 1,
         "correction": "'A' = 65 en ASCII. 'a' minuscule = 97. La différence est de 32 (= 2⁵), ce qui facilite la conversion majuscule/minuscule."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Sa compatibilité ASCII et son efficacité pour les textes occidentaux l'ont rendu omniprésent."
+        "answer": "faux",
+        "correction": "Sa compatibilité ASCII et son efficacité pour les textes occidentaux l'ont rendu omniprésent."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "65",
+        "correct": 1,
         "correction": "ord() retourne le point de code Unicode d'un caractère. ord('A') = 65. La fonction inverse est chr(65) = 'A'."
       },
       {

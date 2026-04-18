@@ -6,8 +6,8 @@
     "subject": "Technologie",
     "description": "Diagnostic Technologie 3eme : Les objets techniques communicants et l'IoT",
     "status": "published",
-    "created_at": "2026-04-06 06:40:45",
-    "updated_at": "2026-04-06 06:40:45"
+    "created_at": "2026-04-18 21:24:12",
+    "updated_at": "2026-04-18 21:24:12"
   },
   "quiz": {
     "title": "Les objets techniques communicants et l'IoT",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Le Raspberry Pi est un ordinateur monocarte abordable et programmable, tres utilise en education et pour les projets IoT et de domotique."
+        "question": "La bonne réponse attendue est : Raspberry Pi."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La domotique (du latin 'domus' = maison) integre l'automatisation et la communication pour controler et optimiser les equipements d'un habitat."
+        "question": "La bonne réponse attendue est : domotique."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Technologie",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Compétences de base 3eme",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Savoir-faire technologie",
-      "description": "Notion du programme 3eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

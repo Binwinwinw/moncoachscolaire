@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Une carte microcontroleur open source programmable pour creer des prototypes electroniques",
+        "correct": 1,
         "correction": "Arduino est une plateforme electronique open source (materiel + logiciel) basee sur un microcontroleur ATmega, utilisee en education et prototypage."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. digitalWrite(pin, valeur) ecrit un niveau logique HIGH (1, 5V) ou LOW (0, 0V) sur une broche numerique ; digitalWrite(13, HIGH) allume la LED."
+        "correction": "digitalWrite(pin, valeur) ecrit un niveau logique HIGH (1, 5V) ou LOW (0, 0V) sur une broche numerique ; digitalWrite(13, HIGH) allume la LED."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Lit une tension analogique (0-5V) et la convertit en valeur numerique (0-1023)",
+        "correct": 1,
         "correction": "analogRead() utilise le convertisseur analogique-numerique (CAN) 10 bits de l'Arduino : 0V â†’ 0, 5V â†’ 1023, permettant de lire capteurs (LDR, potentiometre, temperature)."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La diode (junction PN) ne laisse passer le courant que dans un sens (anode vers cathode en direct) ; les LED sont des diodes electroluminescentes."
+        "correction": "La diode (junction PN) ne laisse passer le courant que dans un sens (anode vers cathode en direct) ; les LED sont des diodes electroluminescentes."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Modulation de largeur d'impulsion : varier la duree des impulsions pour simuler une tension variable",
+        "correct": 1,
         "correction": "PWM (Pulse Width Modulation) fait varier le rapport cyclique d'un signal numerique pour simuler une tension analogique : utilisee pour piloter la vitesse des moteurs et la luminosite des LED."
       },
       {

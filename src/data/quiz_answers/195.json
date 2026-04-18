@@ -1,70 +1,75 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Histoire-Geographie 1ere - Série 195",
+    "title": "Quiz Diagnostic Histoire-Géographie 1ere - SÃ©rie 195",
     "level": "1ere",
-    "subject": "Histoire-Geographie"
+    "subject": "Histoire-Géographie"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Histoire-Géographie - Serie 21",
+    "title": "Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 21",
     "question_count": 8,
     "level": "1ere",
-    "subject": "Histoire-Geographie",
+    "subject": "Histoire-Géographie",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "XXe siècle",
-        "correction": "Ce thème s'inscrit principalement dans le contexte du XXe siècle, période de grandes transformations politiques, économiques et sociales qui ont façonné le monde contemporain."
+        "answer": "XXe siÃ¨cle",
+        "correct": 2,
+        "correction": "Ce thÃ¨me s'inscrit principalement dans le contexte du XXe siÃ¨cle, pÃ©riode de grandes transformations politiques, Ã©conomiques et sociales qui ont faÃ§onnÃ© le monde contemporain."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Ce thème est inscrit au programme d'Histoire-Géographie de la classe de Première, permettant aux élèves d'acquérir des connaissances fondamentales sur les grandes évolutions du monde contemporain."
+        "correction": "VRAI. Ce thÃ¨me est inscrit au programme d'Histoire-GÃ©ographie de la classe de PremiÃ¨re, permettant aux Ã©lÃ¨ves d'acquÃ©rir des connaissances fondamentales sur les grandes Ã©volutions du monde contemporain."
       },
       {
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. L'étude du thème 'Russie et espaces post-soviétiques' est essentielle pour comprendre les dynamiques du monde contemporain : les rapports de force entre nations, les transformations sociales et économiques, et les enjeux géopolitiques actuels. Elle développe l'esprit critique et la capacité d'analyse historique et géographique des élèves."
+        "correct_answer": "Ce thÃ¨me permet de comprendre les grandes Ã©volutions politiques, Ã©conomiques et sociales qui ont faÃ§onnÃ© notre monde actuel.",
+        "answer": "Ce thÃ¨me permet de comprendre les grandes Ã©volutions politiques, Ã©conomiques et sociales qui ont faÃ§onnÃ© notre monde actuel.",
+        "correction": "L'Ã©tude du thÃ¨me 'Russie et espaces post-soviÃ©tiques' est essentielle pour comprendre les dynamiques du monde contemporain : les rapports de force entre nations, les transformations sociales et Ã©conomiques, et les enjeux gÃ©opolitiques actuels. Elle dÃ©veloppe l'esprit critique et la capacitÃ© d'analyse historique et gÃ©ographique des Ã©lÃ¨ves."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "L'analyse critique de documents et la construction d'une argumentation",
-        "correction": "L'étude de l'histoire-géographie développe l'analyse critique de documents (textes, cartes, images, statistiques), la construction d'une argumentation rigoureuse, la mise en perspective temporelle et spatiale des phénomènes, et la compréhension des enjeux du monde contemporain."
+        "correct": 1,
+        "correction": "L'Ã©tude de l'histoire-gÃ©ographie dÃ©veloppe l'analyse critique de documents (textes, cartes, images, statistiques), la construction d'une argumentation rigoureuse, la mise en perspective temporelle et spatiale des phÃ©nomÃ¨nes, et la comprÃ©hension des enjeux du monde contemporain."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
         "answer": "faux",
-        "correction": "FAUX. Les sources primaires (archives, témoignages, documents d'époque) et les sources secondaires (travaux d'historiens) sont complémentaires. Les sources primaires peuvent être biaisées, incomplètes ou difficiles à interpréter ; les sources secondaires apportent une analyse critique et une mise en perspective. L'historien doit confronter les deux types de sources."
+        "correction": "FAUX. Les sources primaires (archives, tÃ©moignages, documents d'Ã©poque) et les sources secondaires (travaux d'historiens) sont complÃ©mentaires. Les sources primaires peuvent Ãªtre biaisÃ©es, incomplÃ¨tes ou difficiles Ã  interprÃ©ter ; les sources secondaires apportent une analyse critique et une mise en perspective. L'historien doit confronter les deux types de sources."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. En géographie, un territoire est un espace géographique délimité, approprié et organisé par un groupe humain qui lui donne une identité et un sens. Il se distingue d'un simple espace physique par la présence d'acteurs qui l'aménagent, le gèrent et le revendiquent. La notion de territoire implique donc une dimension sociale, politique et identitaire, en plus de la dimension physique."
+        "correct_answer": "Un territoire est un espace gÃ©ographique appropriÃ©, vÃ©cu et organisÃ© par une sociÃ©tÃ©, contrairement Ã  un simple espace physique.",
+        "answer": "Un territoire est un espace gÃ©ographique appropriÃ©, vÃ©cu et organisÃ© par une sociÃ©tÃ©, contrairement Ã  un simple espace physique.",
+        "correction": "En gÃ©ographie, un territoire est un espace gÃ©ographique dÃ©limitÃ©, appropriÃ© et organisÃ© par un groupe humain qui lui donne une identitÃ© et un sens. Il se distingue d'un simple espace physique par la prÃ©sence d'acteurs qui l'amÃ©nagent, le gÃ¨rent et le revendiquent. La notion de territoire implique donc une dimension sociale, politique et identitaire, en plus de la dimension physique."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "Une représentation graphique qui représente la distribution spatiale d'un phénomène précis",
-        "correction": "Une carte thématique représente la distribution spatiale d'un phénomène géographique spécifique (densité de population, PIB par habitant, flux migratoires, etc.) à l'aide de signes conventionnels (couleurs, symboles, flèches). Elle est un outil d'analyse indispensable en géographie pour identifier des disparités spatiales et des dynamiques territoriales."
+        "answer": "Une reprÃ©sentation graphique qui reprÃ©sente la distribution spatiale d'un phÃ©nomÃ¨ne prÃ©cis",
+        "correct": 1,
+        "correction": "Une carte thÃ©matique reprÃ©sente la distribution spatiale d'un phÃ©nomÃ¨ne gÃ©ographique spÃ©cifique (densitÃ© de population, PIB par habitant, flux migratoires, etc.) Ã  l'aide de signes conventionnels (couleurs, symboles, flÃ¨ches). Elle est un outil d'analyse indispensable en gÃ©ographie pour identifier des disparitÃ©s spatiales et des dynamiques territoriales."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La géopolitique analyse les relations entre les données géographiques (ressources, territoires, frontières, positions stratégiques) et les stratégies politiques et militaires des États et des acteurs non-étatiques. Elle examine comment la géographie influence les rapports de puissance, les conflits et les alliances internationales."
+        "correction": "VRAI. La gÃ©opolitique analyse les relations entre les donnÃ©es gÃ©ographiques (ressources, territoires, frontiÃ¨res, positions stratÃ©giques) et les stratÃ©gies politiques et militaires des Ã‰tats et des acteurs non-Ã©tatiques. Elle examine comment la gÃ©ographie influence les rapports de puissance, les conflits et les alliances internationales."
       }
     ]
   }

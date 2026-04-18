@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic SES 1ère - Série 837",
-    "level": "1ère",
+    "title": "Quiz Diagnostic SES 1ere - Série 837",
+    "level": "1ere",
     "subject": "SES"
   },
   "quiz": {
     "title": "Les revenus primaires",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "De la participation directe à la production",
+        "correct": 1,
         "correction": "Les revenus primaires résultent de la contribution des facteurs de production : salaires (travail) et profits, dividendes, loyers (capital)."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Le revenu mixte représente environ 10 % du revenu national en France."
+        "answer": "faux",
+        "correction": "Le revenu mixte représente environ 10 % du revenu national en France."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La part du revenu national revenant aux entreprises (profits + amortissements)",
+        "correct": 1,
         "correction": "L'EBE mesure la capacité de l'entreprise à générer des ressources pour investir, rembourser ses dettes et rémunérer ses actionnaires."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La norme du 'retour sur capitaux propres à 15 %' a conduit à des politiques de réduction des coûts salariaux."
+        "answer": "faux",
+        "correction": "La norme du 'retour sur capitaux propres à 15 %' a conduit à des politiques de réduction des coûts salariaux."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Le revenu primaire + prestations sociales - impôts et cotisations",
+        "correct": 1,
         "correction": "Le revenu disponible mesure ce dont disposent réellement les ménages pour consommer ou épargner."
       },
       {

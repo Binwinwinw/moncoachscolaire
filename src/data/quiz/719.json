@@ -2,17 +2,17 @@
   "contents": {
     "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 719",
     "type": "quiz",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "description": "Diagnostic Physique-Chimie 3ème : Synthèse chimique et chimie verte",
     "status": "published",
-    "created_at": "2026-03-13 18:59:45",
-    "updated_at": "2026-03-13 18:59:45"
+    "created_at": "2026-04-18 18:28:05",
+    "updated_at": "2026-04-18 18:28:05"
   },
   "quiz": {
     "title": "Synthèse chimique et chimie verte",
     "type": "quiz",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Biosynthèse ou chimie biosourcée."
+        "question": "La bonne réponse attendue est : biosynthèse ou chimie biosourcée."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La bioraffinerie est l'équivalent vert de la raffinerie pétrolière ; elle valorise la biomasse en carburants, chimiques et matériaux."
+        "question": "La bonne réponse attendue est : bioraffinerie."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Physique-Chimie",
-      "description": "Notion du programme 3ème"
-    },
-    {
-      "notion": "Compétences de base 3ème",
-      "description": "Notion du programme 3ème"
-    },
-    {
-      "notion": "Savoir-faire physique-chimie",
-      "description": "Notion du programme 3ème"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

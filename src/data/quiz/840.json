@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic SES 1ère - Série 840",
+    "title": "Quiz Diagnostic SES 1ere - Série 840",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
-    "description": "Diagnostic SES 1ère : Pauvreté et exclusion sociale",
+    "description": "Diagnostic SES 1ere : Pauvreté et exclusion sociale",
     "status": "published",
-    "created_at": "2026-04-06 06:40:40",
-    "updated_at": "2026-04-06 06:40:40"
+    "created_at": "2026-04-18 20:28:31",
+    "updated_at": "2026-04-18 20:28:31"
   },
   "quiz": {
     "title": "Pauvreté et exclusion sociale",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La trappe à pauvreté désigne une situation où les mécanismes d'aide sociale (allocations) créent une désincitation à reprendre un emploi : si la reprise d'emploi entraîne la perte d'allocations supérieures au salaire perçu, il est 'rationnel' de rester au chômage."
+        "question": "Qu'est-ce que la trappe à pauvreté ?"
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "RSA (revenu minimum), prime d'activité, aides au logement (APL), complémentaire santé solidaire (CSS), aide alimentaire, CCAS, politiques de la ville, accès aux droits, accompagnement social."
+        "question": "Présentez les politiques de lutte contre la pauvreté en France."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Inégalités et redistribution",
-      "description": "Notion fondamentale de SES"
-    },
-    {
-      "notion": "Croissance économique",
-      "description": "Notion fondamentale de SES"
-    },
-    {
-      "notion": "Mondialisation",
-      "description": "Notion fondamentale de SES"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

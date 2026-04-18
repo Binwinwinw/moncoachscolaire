@@ -405,14 +405,23 @@ quizzes_data.extend(build_generic_quiz(theme_id, theme_title) for theme_id, them
 
 
 def normalize_question_type(question_type):
-    qtype = str(question_type).strip().lower()
+    qtype = str(question_type or "").strip().lower().replace("_", "-")
     if qtype in {"vrai-faux", "vrai faux"}:
         return "vrai-faux"
     if qtype == "qcm":
         return "qcm"
-    if qtype in {"texte", "open", "text"}:
-        return "open"
-    return "open"
+    return "vrai-faux"
+
+
+def build_true_false_statement(question_text, correct_answer, explanation):
+    answer = str(correct_answer or "").strip().rstrip(".!? ")
+    detail = str(explanation or "").strip()
+    if answer:
+        return f"La bonne réponse attendue est : {answer}."
+    if detail:
+        return detail if detail.endswith((".", "!", "?")) else f"{detail}."
+    prompt = str(question_text or "").strip()
+    return prompt if prompt else "Cette affirmation est à évaluer."
 
 
 def resolve_qcm_answer(question):
@@ -433,7 +442,8 @@ def make_quiz(qid, title, subject, level, notions, questions):
     runtime_questions = []
 
     for question in questions:
-        qtype = normalize_question_type(question.get("type", "texte"))
+        raw_type = str(question.get("type", "") or "").strip().lower().replace("_", "-")
+        qtype = normalize_question_type(raw_type)
         if qtype == "qcm":
             runtime_questions.append(
                 {
@@ -442,18 +452,18 @@ def make_quiz(qid, title, subject, level, notions, questions):
                     "choices": list(question.get("options", [])),
                 }
             )
-        elif qtype == "vrai-faux":
+        else:
+            question_text = str(question.get("question", ""))
+            if raw_type not in {"vrai-faux", "vrai faux"}:
+                question_text = build_true_false_statement(
+                    question.get("question", ""),
+                    question.get("correct_answer", ""),
+                    question.get("explanation", ""),
+                )
             runtime_questions.append(
                 {
                     "type": "vrai-faux",
-                    "question": str(question.get("question", "")),
-                }
-            )
-        else:
-            runtime_questions.append(
-                {
-                    "type": "open",
-                    "question": str(question.get("question", "")),
+                    "question": question_text,
                 }
             )
 
@@ -487,7 +497,8 @@ def make_answers(qid, title, subject, level, questions):
     answers = []
 
     for index, question in enumerate(questions):
-        qtype = normalize_question_type(question.get("type", "texte"))
+        raw_type = str(question.get("type", "") or "").strip().lower().replace("_", "-")
+        qtype = normalize_question_type(raw_type)
         if qtype == "qcm":
             answers.append(
                 {
@@ -498,23 +509,17 @@ def make_answers(qid, title, subject, level, questions):
                     "correction": question.get("explanation", ""),
                 }
             )
-        elif qtype == "vrai-faux":
+        else:
+            if raw_type in {"vrai-faux", "vrai faux"}:
+                tf_answer = "vrai" if question.get("correct", False) else "faux"
+            else:
+                tf_answer = "vrai"
             answers.append(
                 {
                     "index": index,
                     "question_id": index + 1,
                     "type": "vrai-faux",
-                    "answer": "vrai" if question.get("correct", False) else "faux",
-                    "correction": question.get("explanation", ""),
-                }
-            )
-        else:
-            answers.append(
-                {
-                    "index": index,
-                    "question_id": index + 1,
-                    "type": "open",
-                    "answer": question.get("correct_answer", ""),
+                    "answer": tf_answer,
                     "correction": question.get("explanation", ""),
                 }
             )
@@ -558,7 +563,7 @@ def verify_random_sentinel():
             f"[sentinel] mismatch for quiz {sentinel_qid}: questions={len(questions)} answers={len(answers)}"
         )
 
-    allowed_types = {"qcm", "vrai-faux", "open"}
+    allowed_types = {"qcm", "vrai-faux"}
     for index, question in enumerate(questions):
         question_type = str(question.get("type", ""))
         if question_type not in allowed_types:

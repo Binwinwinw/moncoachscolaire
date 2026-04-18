@@ -2,17 +2,17 @@
   "contents": {
     "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 559",
     "type": "quiz",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "description": "Diagnostic Histoire-Géographie 3ème : Les totalitarismes fasciste et nazi",
     "status": "published",
-    "created_at": "2026-04-06 06:40:43",
-    "updated_at": "2026-04-06 06:40:43"
+    "created_at": "2026-04-18 18:28:04",
+    "updated_at": "2026-04-18 18:28:04"
   },
   "quiz": {
     "title": "Les totalitarismes fasciste et nazi",
     "type": "quiz",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Le Lebensraum (espace vital) est la théorie nazie selon laquelle l'Allemagne doit conquérir des territoires à l'Est pour installer la 'race aryenne'."
+        "question": "La bonne réponse attendue est : Lebensraum."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "NSDAP = Nationalsozialistische Deutsche Arbeiterpartei (Parti national-socialiste des travailleurs allemands), dit parti nazi."
+        "question": "La bonne réponse attendue est : nazi."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Histoire-Géographie",
-      "description": "Notion du programme 3ème"
-    },
-    {
-      "notion": "Compétences de base 3ème",
-      "description": "Notion du programme 3ème"
-    },
-    {
-      "notion": "Savoir-faire histoire-géographie",
-      "description": "Notion du programme 3ème"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

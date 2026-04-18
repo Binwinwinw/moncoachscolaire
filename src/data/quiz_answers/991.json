@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "x² + y² = r²",
+        "answer": "C",
         "correction": "Le cercle de centre O et rayon r est l'ensemble des points M(x, y) tels que x² + y² = r²."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Cercle de centre (a, b) et rayon r : (x−a)² + (y−b)² = r². Ici : (x−2)² + (y+1)² = 9."
+        "correction": "Cercle de centre (a, b) et rayon r : (x−a)² + (y−b)² = r². Ici : (x−2)² + (y+1)² = 9."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "5",
+        "answer": "C",
         "correction": "AB = √((4−1)² + (6−2)²) = √(9+16) = √25 = 5."
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. (x−2)² − 4 + (y+1)² − 1 − 4 = 0 → (x−2)² + (y+1)² = 9. Centre (2, −1), r = 3."
+        "correction": "(x−2)² − 4 + (y+1)² − 1 − 4 = 0 → (x−2)² + (y+1)² = 9. Centre (2, −1), r = 3."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "0, 1 ou 2",
+        "answer": "C",
         "correction": "Selon la distance du centre à la droite : 0 (extérieure), 1 (tangente) ou 2 (sécante)."
       },
       {

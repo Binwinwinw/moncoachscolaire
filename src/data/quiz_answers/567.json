@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 567",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie"
   },
   "quiz": {
     "title": "La fin de la guerre froide et le monde depuis 1989",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "9 novembre 1989",
+        "correct": 0,
         "correction": "Le 9 novembre 1989, le régime est-allemand annonce l'ouverture des frontières ; les Berlinois abattent le mur dans une atmosphère de liesse."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La glasnost (transparence) et la perestroïka (restructuration) de Gorbatchev libéralisent la société soviétique, accélérant paradoxalement la chute du système."
+        "correction": "La glasnost (transparence) et la perestroïka (restructuration) de Gorbatchev libéralisent la société soviétique, accélérant paradoxalement la chute du système."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Une guerre contre le terrorisme et l'invasion de l'Afghanistan",
+        "correct": 1,
         "correction": "Les attentats d'Al-Qaïda déclenchent la 'guerre contre le terrorisme' ; les USA et leurs alliés envahissent l'Afghanistan (2001) puis l'Irak (2003)."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le génocide des Tutsis du Rwanda (avril-juillet 1994) est commis par des extrémistes Hutus ; la communauté internationale n'intervient pas."
+        "correction": "Le génocide des Tutsis du Rwanda (avril-juillet 1994) est commis par des extrémistes Hutus ; la communauté internationale n'intervient pas."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "2002",
+        "correct": 2,
         "correction": "L'euro entre en circulation fiduciaire le 1er janvier 2002 dans les pays de la zone euro (12 pays initialement)."
       },
       {

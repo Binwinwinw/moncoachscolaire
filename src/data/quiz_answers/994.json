@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "(x, y, z)",
+        "answer": "B",
         "correction": "Dans un repère cartésien orthonormé de l'espace, les coordonnées d'un point M sont données par (x, y, z)."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Milieu M = ((1+4)/2, (2+5)/2, (3+6)/2) = (2.5, 3.5, 4.5)."
+        "correction": "Milieu M = ((1+4)/2, (2+5)/2, (3+6)/2) = (2.5, 3.5, 4.5)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "√54",
+        "answer": "C",
         "correction": "Distance AB = √((4−1)² + (5−2)² + (6−3)²) = √(9 + 9 + 9) = √27."
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La droite AB peut être parametree par M(t) = A + t(B - A) = (1 + 3t, 2 + 3t, 3 + 3t). Pour l'intersection avec le plan z = 0 : 3 + 3t = 0, donc t = -1. Alors M(-1) = (-1, 0, 0)."
+        "correction": "La droite AB peut être parametree par M(t) = A + t(B - A) = (1 + 3t, 2 + 3t, 3 + 3t). Pour l'intersection avec le plan z = 0 : 3 + 3t = 0, donc t = -1. Alors M(-1) = (-1, 0, 0)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "(1, 2, 0)",
+        "answer": "A",
         "correction": "La projection orthogonale de A sur le plan xy consiste a annuler la coordonnee z : (1, 2, 0)."
       },
       {

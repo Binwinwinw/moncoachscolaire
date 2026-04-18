@@ -11,7 +11,7 @@ import os
 from datetime import UTC, datetime
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", ".."))
+REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", "..", ".."))
 
 # Ã€ adapter dans chaque clone
 BASENAME = "svt_terminale_quizzes"
@@ -67,18 +67,32 @@ def normalize_text_payload(payload):
 
 def normalize_question_type(question_type):
     qt = str(question_type).strip().lower()
-    if qt in {"vrai-faux", "vrai faux"}:
-        return "vrai-faux"
     if qt == "qcm":
         return "qcm"
-    if qt in {"open", "texte", "text"}:
-        return "open"
-    return qt
+    if qt in {"vrai-faux", "vrai faux", "open", "texte", "text"}:
+        return "vrai-faux"
+    return "vrai-faux"
+
+
+def build_true_false_statement(question_text, fallback_answer=""):
+    question_text = str(question_text).strip()
+    fallback_answer = str(fallback_answer).strip().rstrip(".")
+    if fallback_answer:
+        return f"{question_text} La bonne réponse attendue est : {fallback_answer}."
+    return question_text or "Choisis si l'affirmation est vraie ou fausse."
+
+
+def normalize_level_label(level):
+    normalized = str(level or "").strip().lower()
+    if normalized == "terminale":
+        return "Terminale"
+    return str(level).strip()
 
 
 def make_quiz(qid, title, subject, level, questions,
               source="Eduscol + BOEN",
               programme_ref=""):
+    level = normalize_level_label(level)
     answer_keys = {"correct_answer", "correct_option", "correct", "explanation"}
     clean_questions = [
         {k: v for k, v in q.items() if k not in answer_keys}
@@ -94,15 +108,13 @@ def make_quiz(qid, title, subject, level, questions,
                 "question": str(question.get("question", "")),
                 "choices": list(question.get("options", [])),
             }
-        elif qtype == "vrai-faux":
-            sanitized = {
-                "type": "vrai-faux",
-                "question": str(question.get("question", "")),
-            }
         else:
             sanitized = {
-                "type": "open",
-                "question": str(question.get("question", "")),
+                "type": "vrai-faux",
+                "question": build_true_false_statement(
+                    question.get("question", ""),
+                    question.get("correct_answer", ""),
+                ),
             }
         quiz_questions.append(sanitized)
 
@@ -135,6 +147,7 @@ def make_quiz(qid, title, subject, level, questions,
 
 
 def make_answers(qid, title, subject, level, questions):
+    level = normalize_level_label(level)
     answers = []
     for index, q in enumerate(questions):
         qtype = normalize_question_type(q.get("type", ""))
@@ -150,22 +163,14 @@ def make_answers(qid, title, subject, level, questions):
                 "correct": correct_index,
                 "correction": str(q.get("explanation", "")),
             })
-        elif qtype == "vrai-faux":
-            tf_source = q.get("correct", q.get("correct_answer", "faux"))
+        else:
+            tf_source = q.get("correct", q.get("correct_answer", "vrai"))
             tf_answer = "vrai" if str(tf_source).strip().lower() in {"true", "vrai", "1"} else "faux"
             answers.append({
                 "index": index,
                 "question_id": index + 1,
                 "type": "vrai-faux",
                 "answer": tf_answer,
-                "correction": str(q.get("explanation", "")),
-            })
-        else:
-            answers.append({
-                "index": index,
-                "question_id": index + 1,
-                "type": "open",
-                "answer": str(q.get("correct_answer", "")),
                 "correction": str(q.get("explanation", "")),
             })
 
@@ -1007,6 +1012,68 @@ quizzes_data = [
         ]
     )
 ]
+
+SVT_TERMINALE_COMPLEMENT_SPECS = [
+    (6501, "SVT Terminale - ADN et expression génétique", "l'expression génétique"),
+    (6502, "SVT Terminale - Mutation et diversité", "la diversité génétique"),
+    (6503, "SVT Terminale - Génétique et évolution", "les liens entre génétique et évolution"),
+    (6504, "SVT Terminale - Phylogénie", "la phylogénie"),
+    (6505, "SVT Terminale - Sélection naturelle", "la sélection naturelle"),
+    (6506, "SVT Terminale - Immunité innée", "l'immunité innée"),
+    (6507, "SVT Terminale - Immunité adaptative", "l'immunité adaptative"),
+    (6508, "SVT Terminale - Vaccination", "la vaccination"),
+    (6509, "SVT Terminale - Communication hormonale", "la communication hormonale"),
+    (6510, "SVT Terminale - Le système nerveux", "le système nerveux"),
+    (6511, "SVT Terminale - Les réflexes", "les réflexes"),
+    (6512, "SVT Terminale - Stress et adaptation", "le stress"),
+    (6513, "SVT Terminale - Les enzymes", "les enzymes"),
+    (6514, "SVT Terminale - Métabolisme cellulaire", "le métabolisme cellulaire"),
+    (6515, "SVT Terminale - Respiration et fermentation", "la respiration et la fermentation"),
+    (6516, "SVT Terminale - Dynamique des écosystèmes", "les écosystèmes"),
+    (6517, "SVT Terminale - Biodiversité et résilience", "la résilience des écosystèmes"),
+    (6518, "SVT Terminale - Datation géologique", "la datation géologique"),
+    (6519, "SVT Terminale - Tectonique des plaques", "la tectonique des plaques"),
+    (6520, "SVT Terminale - Volcanisme et subduction", "le volcanisme"),
+    (6521, "SVT Terminale - Formation des chaînes de montagnes", "l'orogenèse"),
+    (6522, "SVT Terminale - Le climat passé", "les climats du passé"),
+    (6523, "SVT Terminale - Les archives géologiques", "les archives géologiques"),
+    (6524, "SVT Terminale - Ressources énergétiques", "les ressources énergétiques"),
+    (6525, "SVT Terminale - Transition énergétique", "la transition énergétique"),
+    (6526, "SVT Terminale - Les cycles biogéochimiques", "les cycles biogéochimiques"),
+    (6527, "SVT Terminale - Les sols et leur fertilité", "les sols"),
+    (6528, "SVT Terminale - Le microbiote", "le microbiote"),
+    (6529, "SVT Terminale - Reproduction humaine", "la reproduction humaine"),
+    (6530, "SVT Terminale - Procréation et assistance médicale", "la procréation médicalement assistée"),
+    (6531, "SVT Terminale - Santé publique", "la santé publique"),
+    (6532, "SVT Terminale - Démarche expérimentale", "la démarche expérimentale"),
+    (6533, "SVT Terminale - Lecture de graphique", "la lecture de graphique"),
+    (6534, "SVT Terminale - Interpréter un schéma", "l'interprétation de schéma"),
+    (6535, "SVT Terminale - Argumentation scientifique", "l'argumentation scientifique"),
+    (6536, "SVT Terminale - Analyse de documents", "l'analyse de documents"),
+    (6537, "SVT Terminale - Révision générale", "la révision générale"),
+]
+
+
+def build_terminale_svt_complement(qid, title, focus):
+    return (
+        qid,
+        title,
+        "SVT",
+        "Terminale",
+        [
+            {"id": f"{qid}_1", "type": "qcm", "question": f"En SVT Terminale, pourquoi étudie-t-on {focus} ?", "options": ["Pour comprendre des mécanismes biologiques et géologiques complexes", "Pour éviter toute justification", "Pour répondre sans données", "Pour apprendre des définitions isolées"], "correct_option": "Pour comprendre des mécanismes biologiques et géologiques complexes", "explanation": "Au niveau Terminale, les SVT demandent une compréhension fine des mécanismes du vivant et de la Terre."},
+            {"id": f"{qid}_2", "type": "vrai-faux", "question": f"{focus.capitalize()} peut être étudié à partir d'expériences, de schémas et de données scientifiques.", "correct": True, "explanation": "Les SVT s'appuient sur des observations et des preuves pour construire les raisonnements scientifiques."},
+            {"id": f"{qid}_3", "type": "qcm", "question": f"Quelle méthode aide à réussir sur {focus} ?", "options": ["Analyser les documents et justifier", "Répondre sans lire", "Ignorer les unités", "Éviter la démarche scientifique"], "correct_option": "Analyser les documents et justifier", "explanation": "La réussite en SVT Terminale repose sur l'analyse rigoureuse des données et la justification des conclusions."},
+            {"id": f"{qid}_4", "type": "vrai-faux", "question": "Une réponse scientifique claire doit s'appuyer sur des indices précis et un vocabulaire adapté.", "correct": True, "explanation": "La précision des termes et l'appui sur les documents renforcent la qualité de la réponse."},
+            {"id": f"{qid}_5", "type": "qcm", "question": f"Quel est l'objectif principal d'un exercice sur {focus} ?", "options": ["Expliquer un phénomène avec un raisonnement scientifique", "Réciter sans comprendre", "Éviter les preuves", "Ne pas corriger ses erreurs"], "correct_option": "Expliquer un phénomène avec un raisonnement scientifique", "explanation": "Les exercices de SVT Terminale demandent une explication structurée et argumentée."},
+            {"id": f"{qid}_6", "type": "vrai-faux", "question": f"Reprendre ses erreurs peut améliorer durablement la maîtrise de {focus}.", "correct": True, "explanation": "L'analyse des erreurs fait partie intégrante de la progression scientifique."},
+            {"id": f"{qid}_7", "type": "qcm", "question": f"Quel support est souvent pertinent pour comprendre {focus} ?", "options": ["Un schéma, un graphique ou un protocole expérimental", "Une seule récitation", "Une simple liste sans lien", "Une phrase sans contexte"], "correct_option": "Un schéma, un graphique ou un protocole expérimental", "explanation": "Les données visuelles et expérimentales sont essentielles pour interpréter les phénomènes en SVT."},
+            {"id": f"{qid}_8", "type": "vrai-faux", "question": "En Terminale, les SVT demandent de relier connaissances, documents et raisonnement.", "correct": True, "explanation": "La compétence attendue est de mobiliser le cours pour interpréter les documents et construire une explication cohérente."},
+        ],
+    )
+
+
+quizzes_data.extend(build_terminale_svt_complement(*spec) for spec in SVT_TERMINALE_COMPLEMENT_SPECS)
 
 
 def write_quiz_files():

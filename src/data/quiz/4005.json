@@ -1,0 +1,83 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 1ere - SÃƒÂ©rie 4005",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ere : English 1ère - Passive voice",
+    "status": "published",
+    "created_at": "2026-04-18 20:32:09",
+    "updated_at": "2026-04-18 20:32:09",
+    "source": "Eduscol programmes officiels + BOEN",
+    "programme_ref": "BO special ndeg1 du 22 janvier 2019 (LGT) + Eduscol Langues vivantes Premiere"
+  },
+  "quiz": {
+    "title": "English 1ère - Passive voice",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "What does this unit mainly help you practise: the passive voice?",
+        "choices": [
+          "A key skill for communication",
+          "A chemistry experiment",
+          "A geometry proof",
+          "A history timeline"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Working on the passive voice can improve both written and spoken English."
+      },
+      {
+        "type": "qcm",
+        "question": "Which learning habit is the most useful to improve the passive voice?",
+        "choices": [
+          "Regular practice in context",
+          "Memorising random words only",
+          "Ignoring corrections",
+          "Avoiding authentic English"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Understanding context is important when choosing the correct form in English."
+      },
+      {
+        "type": "qcm",
+        "question": "Which activity can reinforce the passive voice?",
+        "choices": [
+          "Reading, listening and speaking practice",
+          "Only copying without understanding",
+          "Skipping examples",
+          "Using no context at all"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Good English learning also involves noticing mistakes and correcting them."
+      },
+      {
+        "type": "qcm",
+        "question": "At lycée level, why is the passive voice useful?",
+        "choices": [
+          "It helps communicate clearly and precisely",
+          "It replaces all other subjects",
+          "It avoids any need for practice",
+          "It is only useful in mathematics"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Clear expression and accuracy matter in English assessments."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

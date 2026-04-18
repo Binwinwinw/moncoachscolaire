@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic SES 1ère - Série 838",
-    "level": "1ère",
+    "title": "Quiz Diagnostic SES 1ere - Série 838",
+    "level": "1ere",
     "subject": "SES"
   },
   "quiz": {
     "title": "La redistribution et l'État-providence",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Assure la protection sociale de ses citoyens contre les risques (maladie, chômage, vieillesse)",
+        "correct": 1,
         "correction": "L'État-providence (Welfare State) est né après la Seconde Guerre mondiale (rapport Beveridge, Sécurité sociale 1945)."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La Sécurité sociale réalise les deux types de redistribution."
+        "answer": "faux",
+        "correction": "La Sécurité sociale réalise les deux types de redistribution."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Le taux d'imposition augmente avec le revenu",
+        "correct": 1,
         "correction": "L'impôt sur le revenu (IR) est progressif en France : plus on gagne, plus le taux marginal est élevé, réduisant les inégalités."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La Sécurité sociale est financée par les cotisations sociales et la CSG/CRDS."
+        "answer": "faux",
+        "correction": "La Sécurité sociale est financée par les cotisations sociales et la CSG/CRDS."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Le degré d'inégalité des revenus dans une population",
+        "correct": 2,
         "correction": "Le Gini varie de 0 (égalité parfaite) à 1 (inégalité totale). La France a un Gini d'environ 0,29 avant redistribution et 0,29 après (redistribution significative)."
       },
       {

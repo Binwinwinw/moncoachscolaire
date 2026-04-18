@@ -6,8 +6,8 @@
     "subject": "Anglais",
     "description": "Diagnostic Anglais 2nde : Diagnostic 2nde Anglais - Culture and Civilization Basics",
     "status": "published",
-    "created_at": "2026-04-06 06:40:41",
-    "updated_at": "2026-04-06 06:40:41",
+    "created_at": "2026-04-18 15:23:24",
+    "updated_at": "2026-04-18 15:23:24",
     "source": "Eduscol programmes officiels + BOEN",
     "programme_ref": "BO special n°1 du 22 janvier 2019 (LGT) + Eduscol Langues vivantes Seconde"
   },
@@ -35,8 +35,8 @@
         "question": "English is spoken as an official language in many countries outside Europe."
       },
       {
-        "type": "open",
-        "question": "Name one major English-speaking country in North America."
+        "type": "vrai-faux",
+        "question": "La bonne réponse attendue est : Canada."
       },
       {
         "type": "qcm",
@@ -53,8 +53,8 @@
         "question": "Cultural references can help interpret a text more accurately."
       },
       {
-        "type": "open",
-        "question": "Give one famous English-speaking city."
+        "type": "vrai-faux",
+        "question": "La bonne réponse attendue est : London."
       },
       {
         "type": "qcm",
@@ -72,19 +72,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Littérature anglophone",
-      "description": "Notion fondamentale de Anglais"
-    },
-    {
-      "notion": "Phonétique avancée",
-      "description": "Notion fondamentale de Anglais"
-    },
-    {
-      "notion": "Expression nuancée",
-      "description": "Notion fondamentale de Anglais"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

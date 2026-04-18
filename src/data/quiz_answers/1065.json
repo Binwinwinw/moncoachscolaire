@@ -1,70 +1,74 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Anglais 1ère - SÃ©rie 1065",
-    "level": "1ère",
-    "subject": "Anglais"
+    "title": "Quiz Diagnostic Mathématiques 1ere - Série 1065",
+    "level": "1ere",
+    "subject": "Mathématiques"
   },
   "quiz": {
-    "title": "Diagnostic Anglais 1ère - Série 7",
+    "title": "Mathématiques 1ère - Probabilités conditionnelles",
     "question_count": 8,
-    "level": "1ère",
-    "subject": "Anglais",
+    "level": "1ere",
+    "subject": "Mathématiques",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "wrote",
-        "correction": "The past tense of \"write\" is \"wrote\"."
+        "correction": "L'intersection A ∩ B correspond à la réalisation simultanée des événements A et B.",
+        "answer": "la probabilité de A et B",
+        "correct": 1
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "\"Your\" is a possessive pronoun used to indicate ownership."
+        "correction": "C'est la propriété caractéristique de l'indépendance de deux événements.",
+        "answer": "vrai"
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. The correct translation of \"They are watching TV\" in French is \"Ils regardent la télévision\"."
+        "type": "qcm",
+        "correction": "On applique P(A ∩ B) = P(A) × P(B sachant A) = 0,4 × 0,5 = 0,2.",
+        "answer": "0,2",
+        "correct": 1
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "answer": "dark",
-        "correction": "\"Dark\" is an antonym of \"light\"."
+        "type": "vrai-faux",
+        "correction": "L'arbre pondéré est l'outil classique pour organiser les cas et lire les probabilités.",
+        "answer": "vrai"
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "answer": "faux",
-        "correction": "\"It's\" is a contraction of \"it is\" or \"it has\", not a possessive pronoun. The possessive pronoun for \"it\" is \"its\"."
+        "type": "qcm",
+        "correction": "Des événements incompatibles ne peuvent pas se produire simultanément.",
+        "answer": "Non, jamais",
+        "correct": 2
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. The past participle of \"go\" is \"gone\". It is used in perfect tenses and passive voice."
+        "correction": "La probabilité totale d'un univers certain est toujours égale à 1.",
+        "answer": "vrai"
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "They don't like music.",
-        "correction": "The correct sentence is \"They don't like music.\" because \"they\" is plural and requires \"do not\" for negation."
+        "correction": "La probabilité de l'événement contraire vaut 1 - 0,7 = 0,3.",
+        "answer": "0,3",
+        "correct": 0
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "\"Slowly\" is an adverb because it describes how an action is performed."
+        "correction": "Par définition, une probabilité appartient toujours à l'intervalle [0 ; 1].",
+        "answer": "vrai"
       }
     ]
   }

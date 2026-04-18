@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic SES 1ère - Série 839",
+    "title": "Quiz Diagnostic SES 1ere - Série 839",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
-    "description": "Diagnostic SES 1ère : Les inégalités économiques",
+    "description": "Diagnostic SES 1ere : Les inégalités économiques",
     "status": "published",
-    "created_at": "2026-04-06 06:40:40",
-    "updated_at": "2026-04-06 06:40:40"
+    "created_at": "2026-04-18 20:28:31",
+    "updated_at": "2026-04-18 20:28:31"
   },
   "quiz": {
     "title": "Les inégalités économiques",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Inégalités de patrimoine (héritage), d'éducation (accès aux grandes écoles), de santé (espérance de vie), de logement, de genre (écarts F/H), d'origine (discriminations ethniques), géographiques (rural/urbain)."
+        "question": "Quelles sont les principales dimensions des inégalités sociales au-delà du revenu ?"
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Le seuil de pauvreté relatif est fixé à 60 % du revenu médian (ou parfois 50 %)."
+        "question": "Qu'est-ce que le seuil de pauvreté relatif et quel est son niveau en France ?"
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Inégalités et redistribution",
-      "description": "Notion fondamentale de SES"
-    },
-    {
-      "notion": "Croissance économique",
-      "description": "Notion fondamentale de SES"
-    },
-    {
-      "notion": "Mondialisation",
-      "description": "Notion fondamentale de SES"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

@@ -1,70 +1,75 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 6eme - Série 0189",
-    "level": "6eme",
-    "subject": "Français"
+    "title": "Quiz Diagnostic Histoire-Géographie 1ere - SÃ©rie 189",
+    "level": "1ere",
+    "subject": "Histoire-Géographie"
   },
   "quiz": {
-    "title": "Français 6e - Les valeurs de la fable",
+    "title": "Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 15",
     "question_count": 8,
-    "level": "6eme",
-    "subject": "Français",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Un genre littéraire",
-        "correction": "Une fable est un genre littéraire qui utilise des récits courts pour transmettre des leçons morales ou des valeurs."
+        "answer": "La confÃ©rence de Berlin (1884-1885)",
+        "correct": 1,
+        "correction": "La confÃ©rence de Berlin (novembre 1884 â€“ fÃ©vrier 1885), organisÃ©e par Bismarck, rÃ©unit les puissances europÃ©ennes pour rÃ©guler la colonisation de l'Afrique. Elle pose les rÃ¨gles du partage (occupation effective, libertÃ© de commerce dans le bassin du Congo) et accÃ©lÃ¨re la 'course au clocher' pour la colonisation africaine."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "C'est vrai. Les fables peuvent être classées en plusieurs types, tels que les fables animalières (qui mettent en scène des animaux pour transmettre des leçons morales), les fables morales (qui utilisent des personnages humains pour transmettre des leçons morales), etc., en fonction de la manière dont elles transmettent des leçons morales ou des valeurs."
+        "correction": "VRAI. Ã€ la veille de la PremiÃ¨re Guerre mondiale (1914), les empires coloniaux europÃ©ens couvrent environ 80-85% des terres Ã©mergÃ©es. Les plus grands empires sont britannique (~33 millions de kmÂ²) et franÃ§ais (~11 millions de kmÂ²). L'Afrique et l'Asie sont presque entiÃ¨rement colonisÃ©es."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "qcm",
-        "answer": "Elle permet de transmettre des leçons morales ou des valeurs de manière artistique",
-        "correction": "Le rôle d'une fable dans la communication est de permettre de transmettre des leçons morales ou des valeurs de manière artistique, en utilisant des récits courts et souvent humoristiques pour enseigner des principes éthiques ou sociaux."
+        "type": "vrai-faux",
+        "correct_answer": "Les EuropÃ©ens justifient la colonisation par la 'mission civilisatrice', la supÃ©rioritÃ© raciale supposÃ©e et les intÃ©rÃªts Ã©conomiques (matiÃ¨res premiÃ¨res, marchÃ©s).",
+        "answer": "Les EuropÃ©ens justifient la colonisation par la 'mission civilisatrice', la supÃ©rioritÃ© raciale supposÃ©e et les intÃ©rÃªts Ã©conomiques (matiÃ¨res premiÃ¨res, marchÃ©s).",
+        "correction": "Les EuropÃ©ens avancent plusieurs justifications : idÃ©ologique (la 'mission civilisatrice' â€“ apporter le progrÃ¨s, la mÃ©decine, le christianisme aux peuples 'arriÃ©rÃ©s'), raciste (thÃ©ories sur la hiÃ©rarchie des races, Social-darwinisme), Ã©conomique (accÃ¨s aux matiÃ¨res premiÃ¨res, marchÃ©s pour les produits manufacturÃ©s, terrains d'investissement) et stratÃ©gique (contrÃ´le de routes commerciales, prestige national). Ces justifications masquent une rÃ©alitÃ© d'exploitation et de violence."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "C'est vrai. Une fable peut être dramatique, en utilisant des situations et des personnages pour susciter des émotions fortes et transmettre des leçons morales de manière impactante."
+        "type": "qcm",
+        "answer": "Un rÃ©gime juridique d'exception discriminatoire appliquÃ© aux colonisÃ©s",
+        "correct": 1,
+        "correction": "Le Code de l'indigÃ©nat est un systÃ¨me juridique d'exception qui s'applique aux 'indigÃ¨nes' des colonies franÃ§aises (et non aux colons europÃ©ens). Il prÃ©voit des infractions spÃ©cifiques aux colonisÃ©s (manque de respect envers les autoritÃ©s, refus de travaux forcÃ©s), des sanctions administratives sans jugement et des travaux forcÃ©s. C'est un instrument central de la domination coloniale."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "qcm",
-        "answer": "Le Petit Prince",
-        "correction": "Le Petit Prince n'est pas une fable, c'est un roman."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "FAUX. Les populations colonisÃ©es ont rÃ©sistÃ©, parfois vigoureusement : rÃ©sistance d'Abd el-Kader en AlgÃ©rie (1832-1847), guerre des Zulu en Afrique du Sud (1879), rÃ©sistance de Samory TourÃ© en Afrique de l'Ouest, rÃ©volte des Boxer en Chine (1900), bataille d'Adoua (1896) oÃ¹ l'Ã‰thiopie bat l'armÃ©e italienne. Ces rÃ©sistances, souvent Ã©crasÃ©es, tÃ©moignent du refus de la domination coloniale."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "C'est vrai. Les fables peuvent être utilisées pour enseigner des leçons morales ou des valeurs importantes aux lecteurs, en fournissant des exemples concrets et des récits engageants qui illustrent ces leçons de manière artistique, ce qui peut contribuer à la sensibilisation et à la compréhension de ces leçons chez les lecteurs."
+        "correct_answer": "L'AlgÃ©rie est une colonie de peuplement unique pour la France, avec une importante population de colons europÃ©ens (pieds-noirs) et considÃ©rÃ©e comme partie intÃ©grante du territoire franÃ§ais.",
+        "answer": "L'AlgÃ©rie est une colonie de peuplement unique pour la France, avec une importante population de colons europÃ©ens (pieds-noirs) et considÃ©rÃ©e comme partie intÃ©grante du territoire franÃ§ais.",
+        "correction": "L'AlgÃ©rie est une colonie d'un type particulier pour la France : conquise Ã  partir de 1830, elle devient une colonie de peuplement avec plus d'un million de colons europÃ©ens (pieds-noirs) Ã  son indÃ©pendance. Elle est administrativement intÃ©grÃ©e Ã  la France (trois dÃ©partements) depuis 1848, contrairement aux protectorats ou territoires. Cette spÃ©cificitÃ© explique la violence de la guerre d'indÃ©pendance (1954-1962) et le traumatisme que reprÃ©sente l'indÃ©pendance algÃ©rienne pour la sociÃ©tÃ© franÃ§aise."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "Elle permet de transmettre des leçons morales ou des valeurs de manière artistique",
-        "correction": "Le rôle d'une fable dans la communication est de permettre de transmettre des leçons morales ou des valeurs de manière artistique, en utilisant des récits courts et souvent humoristiques pour enseigner des principes éthiques ou sociaux."
+        "answer": "La construction d'une image de l'Orient par l'Occident comme l'autre infÃ©rieur et exotique, justifiant la domination coloniale",
+        "correct": 2,
+        "correction": "L'orientalisme (Edward Said, 1978) dÃ©signe le discours occidental qui construit l'Orient comme un espace exotique, mystÃ©rieux, infÃ©rieur et irrationnel, par opposition Ã  un Occident rationnel et supÃ©rieur. Ce discours, incarnÃ© dans la littÃ©rature, la peinture et la recherche acadÃ©mique, contribue Ã  lÃ©gitimer la domination coloniale en prÃ©sentant les peuples colonisÃ©s comme ayant 'besoin' d'Ãªtre civilisÃ©s."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "C'est vrai. La fable est un genre littéraire qui utilise des récits courts pour transmettre des leçons morales ou des valeurs."
+        "answer": "faux",
+        "correction": "FAUX (avec nuances). La Chine n'a pas Ã©tÃ© entiÃ¨rement colonisÃ©e, mais elle a subi des 'semi-colonisation' : guerres de l'opium (1839-1842, 1856-1860) perdues face Ã  la Grande-Bretagne, traitÃ©s inÃ©gaux cÃ©dant Hong Kong, ouvrant les ports (concessions Ã©trangÃ¨res Ã  Shanghai), concÃ©dant des zones d'influence Ã  diffÃ©rentes puissances. La Chine garde une souverainetÃ© formelle mais est en rÃ©alitÃ© dominÃ©e."
       }
     ]
   }

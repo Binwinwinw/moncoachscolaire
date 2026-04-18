@@ -6,8 +6,8 @@
     "subject": "EMC",
     "description": "Diagnostic EMC 3eme : L'Union europeenne et ses institutions",
     "status": "published",
-    "created_at": "2026-04-06 06:40:43",
-    "updated_at": "2026-04-06 06:40:43"
+    "created_at": "2026-04-18 21:24:13",
+    "updated_at": "2026-04-18 21:24:13"
   },
   "quiz": {
     "title": "L'Union europeenne et ses institutions",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "L'euro a été introduit le 1er janvier 1999 pour les transactions financières et le 1er janvier 2002 pour les billets et pièces dans 12 pays (aujourd'hui 20 pays)."
+        "question": "La bonne réponse attendue est : euro."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Le principe de subsidiarité (Traité de Maastricht) signifie que l'UE n'intervient que si l'objectif ne peut pas être atteint de manière suffisante par les États membres seuls."
+        "question": "La bonne réponse attendue est : subsidiarite."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de EMC",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Compétences de base 3eme",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Savoir-faire emc",
-      "description": "Notion du programme 3eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

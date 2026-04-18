@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic NSI 1ère - Série 875",
+    "title": "Quiz Diagnostic NSI 1ere - Série 875",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
-    "description": "Diagnostic NSI 1ère : Tuples et ensembles",
+    "description": "Diagnostic NSI 1ere : Tuples et ensembles",
     "status": "published",
-    "created_at": "2026-04-06 06:40:40",
-    "updated_at": "2026-04-06 06:40:40"
+    "created_at": "2026-04-18 20:28:31",
+    "updated_at": "2026-04-18 20:28:31"
   },
   "quiz": {
     "title": "Tuples et ensembles",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Le dépaquetage affecte simultanément les éléments d'un tuple à plusieurs variables."
+        "question": "Expliquez le dépaquetage (unpacking) de tuples en Python avec un exemple."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "On utilise un set quand : 1) on veut des éléments uniques (suppression des doublons) ; 2) on fait des tests d'appartenance fréquents (O(1) pour set vs O(n) pour liste) ; 3) on utilise des opérations ensemblistes (union, intersection…)."
+        "question": "Quand utiliser un set plutôt qu'une liste en Python ?"
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Algorithmes et complexité",
-      "description": "Notion fondamentale de NSI"
-    },
-    {
-      "notion": "Programmation objet",
-      "description": "Notion fondamentale de NSI"
-    },
-    {
-      "notion": "Données et réseaux",
-      "description": "Notion fondamentale de NSI"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

@@ -1,0 +1,83 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT Terminale - SÃ©rie 6537",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "SVT",
+    "description": "Diagnostic SVT Terminale : SVT Terminale - Révision générale",
+    "status": "published",
+    "created_at": "2026-04-18 21:26:10",
+    "updated_at": "2026-04-18 21:26:10",
+    "source": "Eduscol programmes officiels + BOEN",
+    "programme_ref": "BO special ndeg8 du 25 juillet 2019 + Eduscol SVT Terminale"
+  },
+  "quiz": {
+    "title": "SVT Terminale - Révision générale",
+    "type": "quiz",
+    "level": "Terminale",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "En SVT Terminale, pourquoi étudie-t-on la révision générale ?",
+        "choices": [
+          "Pour comprendre des mécanismes biologiques et géologiques complexes",
+          "Pour éviter toute justification",
+          "Pour répondre sans données",
+          "Pour apprendre des définitions isolées"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La révision générale peut être étudié à partir d'expériences, de schémas et de données scientifiques."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle méthode aide à réussir sur la révision générale ?",
+        "choices": [
+          "Analyser les documents et justifier",
+          "Répondre sans lire",
+          "Ignorer les unités",
+          "Éviter la démarche scientifique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une réponse scientifique claire doit s'appuyer sur des indices précis et un vocabulaire adapté."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est l'objectif principal d'un exercice sur la révision générale ?",
+        "choices": [
+          "Expliquer un phénomène avec un raisonnement scientifique",
+          "Réciter sans comprendre",
+          "Éviter les preuves",
+          "Ne pas corriger ses erreurs"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Reprendre ses erreurs peut améliorer durablement la maîtrise de la révision générale."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel support est souvent pertinent pour comprendre la révision générale ?",
+        "choices": [
+          "Un schéma, un graphique ou un protocole expérimental",
+          "Une seule récitation",
+          "Une simple liste sans lien",
+          "Une phrase sans contexte"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "En Terminale, les SVT demandent de relier connaissances, documents et raisonnement."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

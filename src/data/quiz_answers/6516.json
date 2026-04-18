@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT Terminale - SÃ©rie 6516",
+    "level": "Terminale",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "SVT Terminale - Dynamique des écosystèmes",
+    "question_count": 8,
+    "level": "Terminale",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Pour comprendre des mécanismes biologiques et géologiques complexes",
+        "correct": 0,
+        "correction": "Au niveau Terminale, les SVT demandent une compréhension fine des mécanismes du vivant et de la Terre."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les SVT s'appuient sur des observations et des preuves pour construire les raisonnements scientifiques."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Analyser les documents et justifier",
+        "correct": 0,
+        "correction": "La réussite en SVT Terminale repose sur l'analyse rigoureuse des données et la justification des conclusions."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La précision des termes et l'appui sur les documents renforcent la qualité de la réponse."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Expliquer un phénomène avec un raisonnement scientifique",
+        "correct": 0,
+        "correction": "Les exercices de SVT Terminale demandent une explication structurée et argumentée."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'analyse des erreurs fait partie intégrante de la progression scientifique."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Un schéma, un graphique ou un protocole expérimental",
+        "correct": 0,
+        "correction": "Les données visuelles et expérimentales sont essentielles pour interpréter les phénomènes en SVT."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La compétence attendue est de mobiliser le cours pour interpréter les documents et construire une explication cohérente."
+      }
+    ]
+  }
+}

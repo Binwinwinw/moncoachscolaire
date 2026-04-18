@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "x < 2",
+        "answer": "B",
         "correction": "4x − 8 < 0 → 4x < 8 → x < 2."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. −3x ≥ −9 → x ≤ 3 (division par −3, inégalité retournée)."
+        "correction": "−3x ≥ −9 → x ≤ 3 (division par −3, inégalité retournée)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "x ≤ 2",
+        "answer": "C",
         "correction": "2x ≤ 4 → x ≤ 2."
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. On ajoute 3 partout : 2 < 2x < 8, puis on divise par 2 : 1 < x < 4."
+        "correction": "On ajoute 3 partout : 2 < 2x < 8, puis on divise par 2 : 1 < x < 4."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "50 €",
+        "answer": "B",
         "correction": "0,8·p < 40 → p < 50. Le prix initial doit être strictement inférieur à 50 €."
       },
       {

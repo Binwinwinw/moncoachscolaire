@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic SVT 3ème - Série 681",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT"
   },
   "quiz": {
     "title": "Écologie : écosystèmes et chaînes alimentaires",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'ensemble des êtres vivants et de leur milieu physique en interaction",
+        "correct": 1,
         "correction": "Un écosystème comprend la biocénose (communauté d'êtres vivants) et le biotope (milieu physique) qui interagissent."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le réseau trophique (ou réseau alimentaire) représente toutes les relations alimentaires entre les espèces d'un écosystème."
+        "correction": "Le réseau trophique (ou réseau alimentaire) représente toutes les relations alimentaires entre les espèces d'un écosystème."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Consommateur primaire (herbivore)",
+        "correct": 1,
         "correction": "Le consommateur primaire se nourrit directement de végétaux ; il est au 2ème niveau trophique."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le commensalisme est une relation interspécifique bénéfique pour une espèce (le commensal) et neutre pour l'autre (l'hôte)."
+        "correction": "Le commensalisme est une relation interspécifique bénéfique pour une espèce (le commensal) et neutre pour l'autre (l'hôte)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Un graphique montrant la diminution du nombre d'individus à chaque niveau trophique",
+        "correct": 1,
         "correction": "La pyramide des nombres illustre la réduction progressive du nombre d'individus des producteurs aux prédateurs."
       },
       {

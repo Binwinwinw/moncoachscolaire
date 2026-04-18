@@ -1,0 +1,83 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 2nde - SÃ©rie 6321",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 2nde : Histoire-Géographie 2nde - Comprendre un tableau",
+    "status": "published",
+    "created_at": "2026-04-18 21:24:13",
+    "updated_at": "2026-04-18 21:24:13",
+    "source": "Eduscol programmes officiels + BOEN",
+    "programme_ref": "BO special ndeg1 du 22 janvier 2019 (LGT) + Eduscol Histoire-Geographie Seconde"
+  },
+  "quiz": {
+    "title": "Histoire-Géographie 2nde - Comprendre un tableau",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Histoire-Géographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "En histoire-géographie, pourquoi travaille-t-on la lecture de tableau ?",
+        "choices": [
+          "Pour mieux comprendre les sociétés, les territoires et les documents",
+          "Pour faire uniquement des calculs",
+          "Pour éviter les documents",
+          "Pour apprendre sans réflexion"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La lecture de tableau peut être étudié à partir de cartes, textes, images ou graphiques."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle méthode aide à réussir sur la lecture de tableau ?",
+        "choices": [
+          "Repérer les informations utiles et les relier au cours",
+          "Répondre au hasard",
+          "Ignorer la légende",
+          "Ne jamais justifier"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Justifier sa réponse avec un document ou un exemple renforce l'analyse."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est l'objectif d'un exercice sur la lecture de tableau ?",
+        "choices": [
+          "Comprendre et expliquer une situation historique ou géographique",
+          "Mémoriser sans vérifier",
+          "Réciter sans contexte",
+          "Éviter toute interprétation"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Observer attentivement le document aide à mieux maîtriser la lecture de tableau."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle pratique est la plus utile pour progresser sur la lecture de tableau ?",
+        "choices": [
+          "S'entraîner, corriger et reformuler",
+          "Ne jamais relire",
+          "Répondre sans document",
+          "Aller le plus vite possible"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "En histoire-géographie, une réponse claire, organisée et justifiée est essentielle."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

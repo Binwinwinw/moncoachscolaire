@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 493",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 493",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
-    "description": "Diagnostic Français 1ère : Poésie engagée et résistante",
+    "description": "Diagnostic Français 1ere : PoÃ©sie engagÃ©e et rÃ©sistante",
     "status": "published",
-    "created_at": "2026-03-13 18:59:43",
-    "updated_at": "2026-03-13 18:59:43"
+    "created_at": "2026-04-18 20:20:13",
+    "updated_at": "2026-04-18 20:20:13"
   },
   "quiz": {
-    "title": "Poésie engagée et résistante",
+    "title": "PoÃ©sie engagÃ©e et rÃ©sistante",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
@@ -20,25 +20,25 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel poète de la Résistance a écrit 'Liberté' (1942) ?",
+        "question": "Quel poÃ¨te de la RÃ©sistance a Ã©crit 'LibertÃ©' (1942) ?",
         "choices": [
           "Louis Aragon",
-          "Paul Éluard",
-          "René Char",
+          "Paul Ã‰luard",
+          "RenÃ© Char",
           "Francis Ponge"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Aragon a écrit des poèmes engagés pendant la Résistance sous le pseudonyme de 'François la Colère'."
+        "question": "Aragon a Ã©crit des poÃ¨mes engagÃ©s pendant la RÃ©sistance sous le pseudonyme de 'FranÃ§ois la ColÃ¨re'."
       },
       {
         "type": "vrai-faux",
-        "question": "Chaque strophe liste les surfaces (cahier d'écolier, arbre, pierre…) sur lesquelles le poète écrit 'Liberté'."
+        "question": "Dans 'LibertÃ©' d'Ã‰luard, le poÃ¨me s'achÃ¨ve par l'Ã©criture du mot _____ sur toutes les surfaces du monde."
       },
       {
         "type": "qcm",
-        "question": "René Char, poète résistant, est également connu comme :",
+        "question": "RenÃ© Char, poÃ¨te rÃ©sistant, est Ã©galement connu comme :",
         "choices": [
           "Romancier policier",
           "Chef de maquis dans le Vaucluse",
@@ -48,41 +48,28 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La poésie engagée renonce toujours à la beauté formelle au profit du message."
+        "question": "La poÃ©sie engagÃ©e renonce toujours Ã  la beautÃ© formelle au profit du message."
       },
       {
         "type": "vrai-faux",
-        "question": "Feuillets d'Hypnos (1946) rassemble les notes de Char pendant sa période de résistance armée."
+        "question": "Le poÃ¨me 'Le DÃ©sespoir du soleil' de RenÃ© Char fait partie du recueil _____ (1946)."
       },
       {
         "type": "qcm",
-        "question": "Quelle technique le poème 'La Rose et le Réséda' d'Aragon célèbre-t-il ?",
+        "question": "Quelle technique le poÃ¨me 'La Rose et le RÃ©sÃ©da' d'Aragon cÃ©lÃ¨bre-t-il ?",
         "choices": [
           "Le vers libre",
           "Le sonnet traditionnel",
-          "L'alexandrin rimé",
-          "Le poème en prose"
+          "L'alexandrin rimÃ©",
+          "Le poÃ¨me en prose"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Jacques Prévert est associé à une poésie engagée contre la guerre et les injustices sociales."
+        "question": "Jacques PrÃ©vert est associÃ© Ã  une poÃ©sie engagÃ©e contre la guerre et les injustices sociales."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Baccalauréat français",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Poésie baroque et classique",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Théâtre et représentation",
-      "description": "Notion fondamentale de Français"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

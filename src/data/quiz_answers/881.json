@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic NSI 1ère - Série 881",
-    "level": "1ère",
+    "title": "Quiz Diagnostic NSI 1ere - Série 881",
+    "level": "1ere",
     "subject": "NSI"
   },
   "quiz": {
     "title": "Formulaires HTML et interactivité",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "<form>",
+        "correct": 2,
         "correction": "<form action='url' method='POST'> encapsule les champs de saisie. action définit où envoyer les données, method (GET ou POST) comment."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Les types HTML5 activent la validation côté client et affichent des claviers adaptés sur mobile."
+        "answer": "faux",
+        "correction": "Les types HTML5 activent la validation côté client et affichent des claviers adaptés sur mobile."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Le champ doit être rempli avant soumission du formulaire",
+        "correct": 1,
         "correction": "required est une validation HTML5 côté client. Sans valeur, le formulaire ne peut pas être soumis (navigateur affiche un message d'erreur)."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Par convention REST, GET est pour lire, POST pour créer, PUT pour modifier, DELETE pour supprimer."
+        "answer": "faux",
+        "correction": "Par convention REST, GET est pour lire, POST pour créer, PUT pour modifier, DELETE pour supprimer."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Associer un texte descriptif à un champ de formulaire",
+        "correct": 1,
         "correction": "<label for='id_champ'>Nom :</label> associe le texte au champ. Cliquer sur le label active le champ associé. Indispensable pour l'accessibilité."
       },
       {

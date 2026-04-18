@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic SES 1ère - Série 839",
-    "level": "1ère",
+    "title": "Quiz Diagnostic SES 1ere - Série 839",
+    "level": "1ere",
     "subject": "SES"
   },
   "quiz": {
     "title": "Les inégalités économiques",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le rapport entre le revenu du 9e décile et celui du 1er décile",
+        "correct": 1,
         "correction": "D9/D1 = seuil du 9e décile / seuil du 1er décile. Plus ce rapport est élevé, plus les inégalités sont fortes."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Les inégalités sont multidimensionnelles et se cumulent souvent (cumul des inégalités)."
+        "answer": "faux",
+        "correction": "Les inégalités sont multidimensionnelles et se cumulent souvent (cumul des inégalités)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Le rendement du capital (r) est supérieur au taux de croissance (g)",
+        "correct": 1,
         "correction": "La thèse de Piketty (Capital au 21e siècle) : r > g creuse les inégalités car les patrimoines croissent plus vite que les revenus du travail."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Ce seuil est dit 'relatif' car il dépend du niveau de vie moyen de la société."
+        "answer": "faux",
+        "correction": "Ce seuil est dit 'relatif' car il dépend du niveau de vie moyen de la société."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Augmenter dans la plupart des pays depuis les années 1980",
+        "correct": 1,
         "correction": "Depuis les années 1980, les inégalités ont augmenté dans la plupart des pays de l'OCDE, liées à la mondialisation, au progrès technique et aux réformes fiscales."
       },
       {

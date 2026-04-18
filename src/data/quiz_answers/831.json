@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic SES 1ère - Série 831",
-    "level": "1ère",
+    "title": "Quiz Diagnostic SES 1ere - Série 831",
+    "level": "1ere",
     "subject": "SES"
   },
   "quiz": {
     "title": "Le marché du travail",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Les travailleurs",
+        "correct": 1,
         "correction": "Les travailleurs offrent leur force de travail ; les entreprises en sont les demandeurs."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Ces institutions fixent les règles du jeu : salaire minimum, durée du travail, conditions de licenciement…"
+        "answer": "faux",
+        "correction": "Ces institutions fixent les règles du jeu : salaire minimum, durée du travail, conditions de licenciement…"
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La proportion de personnes en emploi ou en recherche d'emploi parmi la population en âge de travailler",
+        "correct": 1,
         "correction": "Taux d'activité = population active / population en âge de travailler (15-64 ans)."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. En France, environ 85 % des emplois sont salariés."
+        "answer": "faux",
+        "correction": "En France, environ 85 % des emplois sont salariés."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "1970",
+        "correct": 1,
         "correction": "Le SMIG (salaire minimum interprofessionnel garanti, 1950) est devenu le SMIC (croissance) en 1970, indexé à la fois sur l'inflation et la croissance des salaires."
       },
       {

@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 705",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie"
   },
   "quiz": {
     "title": "Réactions chimiques : loi de conservation",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La masse totale des réactifs est égale à la masse totale des produits",
+        "correct": 1,
         "correction": "Lavoisier (1789) : 'Rien ne se crée, rien ne se perd, tout se transforme.' La masse est conservée lors d'une réaction chimique."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. 2H2 + O2 → 2H2O : 4 atomes H à gauche nécessitent 2 molécules H2O à droite."
+        "correction": "2H2 + O2 → 2H2O : 4 atomes H à gauche nécessitent 2 molécules H2O à droite."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Les substances consommées",
+        "correct": 1,
         "correction": "Les réactifs sont les substances de départ qui se transforment ; les produits sont les substances formées."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le réactif limitant est celui qui est entièrement consommé et détermine la quantité maximale de produits formés."
+        "correction": "Le réactif limitant est celui qui est entièrement consommé et détermine la quantité maximale de produits formés."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Elle libère de l'énergie sous forme de chaleur",
+        "correct": 1,
         "correction": "Une réaction exothermique libère de l'énergie (chaleur) dans le milieu ; la combustion en est un exemple."
       },
       {

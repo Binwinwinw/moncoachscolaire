@@ -1,20 +1,20 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic SVT terminale - SÃ©rie 1867",
+    "title": "Quiz Diagnostic SVT Terminale - SÃ©rie 1867",
     "type": "quiz",
-    "level": "terminale",
+    "level": "Terminale",
     "subject": "SVT",
-    "description": "Diagnostic SVT terminale : SVT terminale - Biodiversite",
+    "description": "Diagnostic SVT Terminale : SVT terminale - Biodiversite",
     "status": "published",
-    "created_at": "2026-04-06 06:40:49",
-    "updated_at": "2026-04-06 06:40:49",
+    "created_at": "2026-04-18 21:26:10",
+    "updated_at": "2026-04-18 21:26:10",
     "source": "Eduscol programmes officiels + BOEN",
     "programme_ref": "BO special ndeg8 du 25 juillet 2019 + Eduscol SVT Terminale"
   },
   "quiz": {
     "title": "SVT terminale - Biodiversite",
     "type": "quiz",
-    "level": "terminale",
+    "level": "Terminale",
     "subject": "SVT",
     "question_count": 8,
     "passing_score": 70,
@@ -35,7 +35,7 @@
         "question": "[SVT terminale] Sur 'Biodiversite', verifier ses reponses avant validation ameliore la fiabilite."
       },
       {
-        "type": "open",
+        "type": "vrai-faux",
         "question": "[SVT terminale] Cite une methode concrete pour progresser sur le theme 'Biodiversite'."
       },
       {
@@ -53,7 +53,7 @@
         "question": "[SVT terminale] L'explication d'une reponse est moins importante que la reponse elle-meme."
       },
       {
-        "type": "open",
+        "type": "vrai-faux",
         "question": "[SVT terminale] Propose un exemple d'auto-correction pertinente sur 'Biodiversite'."
       },
       {
@@ -72,19 +72,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Théorie synthétique de l'évolution",
-      "description": "Notion fondamentale de SVT"
-    },
-    {
-      "notion": "Biologie cellulaire moléculaire",
-      "description": "Notion fondamentale de SVT"
-    },
-    {
-      "notion": "Écosystèmes et biosphère",
-      "description": "Notion fondamentale de SVT"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

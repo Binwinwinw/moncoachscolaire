@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic SES 1ère - Série 844",
-    "level": "1ère",
+    "title": "Quiz Diagnostic SES 1ere - Série 844",
+    "level": "1ere",
     "subject": "SES"
   },
   "quiz": {
     "title": "Théories du commerce international",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Un avantage comparatif",
+        "correct": 1,
         "correction": "Ricardo (1817) : même si un pays est moins efficace dans tous les secteurs, il a intérêt à se spécialiser là où son désavantage est le plus faible."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Le HOS fonde la théorie du commerce sur les dotations factorielles différentes entre pays."
+        "answer": "faux",
+        "correction": "Le HOS fonde la théorie du commerce sur les dotations factorielles différentes entre pays."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Les États-Unis exportaient des biens intensifs en travail, contrairement aux prédictions du HOS",
+        "correct": 1,
         "correction": "Leontief (1953) a montré empiriquement que les exportations américaines (pays à fort capital) étaient plus intensives en travail qu'en capital."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Contraste avec le commerce inter-branche (biens différents entre pays) prédit par les théories classiques."
+        "answer": "faux",
+        "correction": "Contraste avec le commerce inter-branche (biens différents entre pays) prédit par les théories classiques."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Est mutuellement bénéfique pour tous les pays participants",
+        "correct": 1,
         "correction": "La théorie ricardienne prédit un gain mutuel de l'échange : chaque pays se spécialise et produit plus efficacement."
       },
       {

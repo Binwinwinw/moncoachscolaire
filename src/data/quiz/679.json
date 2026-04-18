@@ -2,17 +2,17 @@
   "contents": {
     "title": "Quiz Diagnostic SVT 3ème - Série 679",
     "type": "quiz",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT",
     "description": "Diagnostic SVT 3ème : Géologie : ressources naturelles et énergie",
     "status": "published",
-    "created_at": "2026-04-06 06:40:45",
-    "updated_at": "2026-04-06 06:40:45"
+    "created_at": "2026-04-18 18:28:04",
+    "updated_at": "2026-04-18 18:28:04"
   },
   "quiz": {
     "title": "Géologie : ressources naturelles et énergie",
     "type": "quiz",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La pechblende (uraninite) est le principal minerai d'uranium ; l'uranium extrait alimente les centrales nucléaires."
+        "question": "La bonne réponse attendue est : pechblende."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Les sables bitumineux (tar sands) contiennent une forme lourde de pétrole nécessitant des procédés d'extraction très énergivores."
+        "question": "La bonne réponse attendue est : sables bitumineux."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Génétique et reproduction",
-      "description": "Notion fondamentale de SVT"
-    },
-    {
-      "notion": "Évolution des espèces",
-      "description": "Notion fondamentale de SVT"
-    },
-    {
-      "notion": "Organes sensoriels",
-      "description": "Notion fondamentale de SVT"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

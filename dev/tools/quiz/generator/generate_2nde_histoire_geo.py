@@ -11,7 +11,7 @@ import os
 from datetime import UTC, datetime
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", ".."))
+REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", "..", ".."))
 
 # Ã€ adapter dans chaque clone
 BASENAME = "histoire_geo_2nde_quizzes"
@@ -66,43 +66,58 @@ def normalize_text_payload(payload):
 
 
 def normalize_question_type(question_type):
-    qt = str(question_type).strip().lower()
+    qt = str(question_type or "").strip().lower().replace("_", "-")
     if qt in {"vrai-faux", "vrai faux"}:
         return "vrai-faux"
     if qt == "qcm":
         return "qcm"
-    if qt in {"open", "texte", "text"}:
-        return "open"
-    return qt
+    return "vrai-faux"
+
+
+def build_true_false_statement(question_text, correct_answer, explanation):
+    answer = str(correct_answer or "").strip()
+    detail = str(explanation or "").strip()
+    if answer:
+        return f"La bonne réponse attendue est : {answer}."
+    if detail:
+        return detail if detail.endswith((".", "!", "?")) else f"{detail}."
+    prompt = str(question_text or "").strip()
+    return prompt if prompt else "Cette affirmation est à évaluer."
+
+
+def normalize_subject_label(subject):
+    normalized = fix_mojibake_text(subject).strip().lower()
+    if normalized in {"histoire-geographie", "histoire géographie", "histoire-géographie"}:
+        return "Histoire-Géographie"
+    return fix_mojibake_text(subject).strip()
 
 
 def make_quiz(qid, title, subject, level, questions,
               source="Eduscol + BOEN",
               programme_ref=""):
-    answer_keys = {"correct_answer", "correct_option", "correct", "explanation"}
-    clean_questions = [
-        {k: v for k, v in q.items() if k not in answer_keys}
-        for q in questions
-    ]
+    subject = normalize_subject_label(subject)
     created_at = datetime.now(UTC).strftime("%Y-%m-%d %H:%M:%S")
     quiz_questions = []
-    for question in clean_questions:
-        qtype = normalize_question_type(question.get("type", ""))
+    for question in questions:
+        raw_type = str(question.get("type", "") or "").strip().lower().replace("_", "-")
+        qtype = normalize_question_type(raw_type)
         if qtype == "qcm":
             sanitized = {
                 "type": "qcm",
                 "question": str(question.get("question", "")),
                 "choices": list(question.get("options", [])),
             }
-        elif qtype == "vrai-faux":
+        else:
+            question_text = str(question.get("question", ""))
+            if raw_type not in {"vrai-faux", "vrai faux"}:
+                question_text = build_true_false_statement(
+                    question.get("question", ""),
+                    question.get("correct_answer", ""),
+                    question.get("explanation", ""),
+                )
             sanitized = {
                 "type": "vrai-faux",
-                "question": str(question.get("question", "")),
-            }
-        else:
-            sanitized = {
-                "type": "open",
-                "question": str(question.get("question", "")),
+                "question": question_text,
             }
         quiz_questions.append(sanitized)
 
@@ -135,9 +150,11 @@ def make_quiz(qid, title, subject, level, questions,
 
 
 def make_answers(qid, title, subject, level, questions):
+    subject = normalize_subject_label(subject)
     answers = []
     for index, q in enumerate(questions):
-        qtype = normalize_question_type(q.get("type", ""))
+        raw_type = str(q.get("type", "") or "").strip().lower().replace("_", "-")
+        qtype = normalize_question_type(raw_type)
         if qtype == "qcm":
             options = list(q.get("options", []))
             correct_answer = str(q.get("correct_option", q.get("correct_answer", "")))
@@ -150,22 +167,17 @@ def make_answers(qid, title, subject, level, questions):
                 "correct": correct_index,
                 "correction": str(q.get("explanation", "")),
             })
-        elif qtype == "vrai-faux":
-            tf_source = q.get("correct", q.get("correct_answer", "faux"))
-            tf_answer = "vrai" if str(tf_source).strip().lower() in {"true", "vrai", "1"} else "faux"
+        else:
+            if raw_type in {"vrai-faux", "vrai faux"}:
+                tf_source = q.get("correct", q.get("correct_answer", "faux"))
+                tf_answer = "vrai" if str(tf_source).strip().lower() in {"true", "vrai", "1"} else "faux"
+            else:
+                tf_answer = "vrai"
             answers.append({
                 "index": index,
                 "question_id": index + 1,
                 "type": "vrai-faux",
                 "answer": tf_answer,
-                "correction": str(q.get("explanation", "")),
-            })
-        else:
-            answers.append({
-                "index": index,
-                "question_id": index + 1,
-                "type": "open",
-                "answer": str(q.get("correct_answer", "")),
                 "correction": str(q.get("explanation", "")),
             })
 
@@ -1008,6 +1020,59 @@ quizzes_data = [
     )
 ]
 
+HG2NDE_COMPLEMENT_SPECS = [
+    (6301, "Histoire-Géographie 2nde - Cartes et échelles", "les cartes et les échelles"),
+    (6302, "Histoire-Géographie 2nde - Repères spatiaux", "les repères spatiaux"),
+    (6303, "Histoire-Géographie 2nde - Lire un document historique", "la lecture d'un document historique"),
+    (6304, "Histoire-Géographie 2nde - Situer un événement", "la chronologie"),
+    (6305, "Histoire-Géographie 2nde - Décrire un paysage", "la description d'un paysage"),
+    (6306, "Histoire-Géographie 2nde - Comprendre une carte thématique", "la carte thématique"),
+    (6307, "Histoire-Géographie 2nde - Identifier un acteur historique", "les acteurs historiques"),
+    (6308, "Histoire-Géographie 2nde - Les territoires de proximité", "les territoires"),
+    (6309, "Histoire-Géographie 2nde - Les mobilités", "les mobilités"),
+    (6310, "Histoire-Géographie 2nde - Urbanisation et métropoles", "l'urbanisation"),
+    (6311, "Histoire-Géographie 2nde - Ressources et développement", "les ressources"),
+    (6312, "Histoire-Géographie 2nde - Les littoraux", "les littoraux"),
+    (6313, "Histoire-Géographie 2nde - Les espaces ruraux", "les espaces ruraux"),
+    (6314, "Histoire-Géographie 2nde - Les espaces productifs", "les espaces productifs"),
+    (6315, "Histoire-Géographie 2nde - Frontières et échanges", "les frontières"),
+    (6316, "Histoire-Géographie 2nde - Le développement durable", "le développement durable"),
+    (6317, "Histoire-Géographie 2nde - Les sociétés face aux risques", "les risques"),
+    (6318, "Histoire-Géographie 2nde - Raconter et expliquer", "l'explication historique"),
+    (6319, "Histoire-Géographie 2nde - Analyser une source", "l'analyse critique des sources"),
+    (6320, "Histoire-Géographie 2nde - Comprendre un graphique", "la lecture de graphique"),
+    (6321, "Histoire-Géographie 2nde - Comprendre un tableau", "la lecture de tableau"),
+    (6322, "Histoire-Géographie 2nde - Développement et inégalités", "les inégalités"),
+    (6323, "Histoire-Géographie 2nde - Population et dynamiques", "les dynamiques de population"),
+    (6324, "Histoire-Géographie 2nde - Mondialisation des échanges", "la mondialisation"),
+    (6325, "Histoire-Géographie 2nde - Habiter une métropole", "les métropoles"),
+    (6326, "Histoire-Géographie 2nde - Conflits d'usage", "les conflits d'usage"),
+    (6327, "Histoire-Géographie 2nde - Patrimoine et mémoire", "le patrimoine"),
+    (6328, "Histoire-Géographie 2nde - Révision générale", "la révision générale"),
+]
+
+
+def build_2nde_hg_complement(qid, title, focus):
+    return (
+        qid,
+        title,
+        "Histoire-Géographie",
+        "2nde",
+        [
+            {"id": f"{qid}_1", "type": "qcm", "question": f"En histoire-géographie, pourquoi travaille-t-on {focus} ?", "options": ["Pour mieux comprendre les sociétés, les territoires et les documents", "Pour faire uniquement des calculs", "Pour éviter les documents", "Pour apprendre sans réflexion"], "correct_option": "Pour mieux comprendre les sociétés, les territoires et les documents", "explanation": "L'histoire-géographie apprend à situer, expliquer, comparer et interpréter des faits et des espaces."},
+            {"id": f"{qid}_2", "type": "vrai-faux", "question": f"{focus.capitalize()} peut être étudié à partir de cartes, textes, images ou graphiques.", "correct": True, "explanation": "Les documents variés sont au cœur du travail en histoire-géographie."},
+            {"id": f"{qid}_3", "type": "qcm", "question": f"Quelle méthode aide à réussir sur {focus} ?", "options": ["Repérer les informations utiles et les relier au cours", "Répondre au hasard", "Ignorer la légende", "Ne jamais justifier"], "correct_option": "Repérer les informations utiles et les relier au cours", "explanation": "Il faut sélectionner les indices pertinents du document et les relier aux notions du programme."},
+            {"id": f"{qid}_4", "type": "vrai-faux", "question": "Justifier sa réponse avec un document ou un exemple renforce l'analyse.", "correct": True, "explanation": "L'appui sur des indices précis montre que la réponse repose sur une vraie analyse."},
+            {"id": f"{qid}_5", "type": "qcm", "question": f"Quel est l'objectif d'un exercice sur {focus} ?", "options": ["Comprendre et expliquer une situation historique ou géographique", "Mémoriser sans vérifier", "Réciter sans contexte", "Éviter toute interprétation"], "correct_option": "Comprendre et expliquer une situation historique ou géographique", "explanation": "L'objectif est d'interpréter des faits ou des territoires de manière claire et argumentée."},
+            {"id": f"{qid}_6", "type": "vrai-faux", "question": f"Observer attentivement le document aide à mieux maîtriser {focus}.", "correct": True, "explanation": "Une observation rigoureuse permet d'éviter les contresens et de construire une réponse pertinente."},
+            {"id": f"{qid}_7", "type": "qcm", "question": f"Quelle pratique est la plus utile pour progresser sur {focus} ?", "options": ["S'entraîner, corriger et reformuler", "Ne jamais relire", "Répondre sans document", "Aller le plus vite possible"], "correct_option": "S'entraîner, corriger et reformuler", "explanation": "La progression vient de l'entraînement régulier et de la reprise des erreurs."},
+            {"id": f"{qid}_8", "type": "vrai-faux", "question": "En histoire-géographie, une réponse claire, organisée et justifiée est essentielle.", "correct": True, "explanation": "Une bonne réponse doit être compréhensible, précise et appuyée sur des éléments du cours ou du document."},
+        ],
+    )
+
+
+quizzes_data.extend(build_2nde_hg_complement(*spec) for spec in HG2NDE_COMPLEMENT_SPECS)
+
 
 def write_quiz_files():
     count = 0
@@ -1034,9 +1099,9 @@ def write_quiz_files():
                 f.write("\n")
 
         count += 1
-        print(f"  âœ“ {qid}.json - {title}")
+        print(f"  [OK] {qid}.json - {title}")
 
-    print(f"\nâœ… {count} quiz gÃ©nÃ©rÃ©s (+ {count} rÃ©ponses)")
+    print(f"\n[OK] {count} quiz generes (+ {count} reponses)")
 
 
 if __name__ == "__main__":

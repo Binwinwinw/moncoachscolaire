@@ -1,70 +1,73 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 472",
-    "level": "1ère",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 472",
+    "level": "1ere",
     "subject": "Français"
   },
   "quiz": {
-    "title": "Le théâtre moderne et contemporain",
+    "title": "Le thÃ©Ã¢tre moderne et contemporain",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Le théâtre de l'absurde",
-        "correction": "Ionesco, Beckett et le théâtre de l'absurde déconstruisent le langage et la logique dramatique."
+        "answer": "Le thÃ©Ã¢tre de l'absurde",
+        "correct": 1,
+        "correction": "Ionesco, Beckett et le thÃ©Ã¢tre de l'absurde dÃ©construisent le langage et la logique dramatique."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "faux",
-        "correction": "En attendant Godot est construit sur la répétition, l'attente et l'absence de résolution."
+        "correction": "En attendant Godot est construit sur la rÃ©pÃ©tition, l'attente et l'absence de rÃ©solution."
       },
       {
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Diderot veut représenter des personnages de condition moyenne, plus proches du spectateur."
+        "answer": "faux",
+        "correction": "Diderot veut reprÃ©senter des personnages de condition moyenne, plus proches du spectateur."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Distanciation (Verfremdungseffekt)",
-        "correction": "La distanciation brechtiènne empêche l'identification du spectateur pour favoriser son esprit critique."
+        "correct": 1,
+        "correction": "La distanciation brechtiÃ¨nne empÃªche l'identification du spectateur pour favoriser son esprit critique."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "Le soliloque (parole seul sur scène) et l'aparté (parole à voix basse non entendue des autres personnages) sont des formes théâtrales de l'intériorité."
+        "correction": "Le soliloque (parole seul sur scÃ¨ne) et l'apartÃ© (parole Ã  voix basse non entendue des autres personnages) sont des formes thÃ©Ã¢trales de l'intÃ©rioritÃ©."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Les didascalies (en italique) précisent décors, costumes, gestes, ton."
+        "answer": "faux",
+        "correction": "Les didascalies (en italique) prÃ©cisent dÃ©cors, costumes, gestes, ton."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "La rupture de l'illusion théâtrale",
-        "correction": "Le théâtre épique interpelle le public, use de panneaux, de chants, pour briser l'illusion."
+        "answer": "La rupture de l'illusion thÃ©Ã¢trale",
+        "correct": 1,
+        "correction": "Le thÃ©Ã¢tre Ã©pique interpelle le public, use de panneaux, de chants, pour briser l'illusion."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "La Cantatrice chauve (1950) est la première pièce de Ionesco, fondatrice du théâtre de l'absurde en France."
+        "correction": "La Cantatrice chauve (1950) est la premiÃ¨re piÃ¨ce de Ionesco, fondatrice du thÃ©Ã¢tre de l'absurde en France."
       }
     ]
   }

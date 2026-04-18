@@ -6,8 +6,8 @@
     "subject": "EMC",
     "description": "Diagnostic EMC 3eme : La laicite : principes et enjeux",
     "status": "published",
-    "created_at": "2026-04-06 06:40:43",
-    "updated_at": "2026-04-06 06:40:43"
+    "created_at": "2026-04-18 21:24:13",
+    "updated_at": "2026-04-18 21:24:13"
   },
   "quiz": {
     "title": "La laicite : principes et enjeux",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Liberte de conscience, neutralite de l'ecole et egale dignite de tous."
+        "question": "La bonne réponse attendue est : liberte de conscience, neutralite de l'ecole et egale dignite de tous."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "L'obscurantisme désigne le refus d'accepter la raison et la discussion ; il s'oppose à l'esprit critique promu par la laïcité et l'enseignement républicain."
+        "question": "La bonne réponse attendue est : obscurantisme."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de EMC",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Compétences de base 3eme",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Savoir-faire emc",
-      "description": "Notion du programme 3eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques 2nde : Droites — équation cartésienne",
     "status": "published",
-    "created_at": "2026-04-06 06:40:42",
-    "updated_at": "2026-04-06 06:40:42"
+    "created_at": "2026-04-18 18:34:33",
+    "updated_at": "2026-04-18 18:34:33"
   },
   "quiz": {
     "title": "Droites — équation cartésienne",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Pente : (9−5)/(4−2) = 2."
+        "question": "Détermine l'équation de la droite passant par A(2, 5) et B(4, 9). La bonne réponse attendue est : y = 2x + 1."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Ax + by + c = 0 (équation cartésienne générale), avec (a, b) ≠ (0, 0)."
+        "question": "Sous quelle forme générale peut-on écrire toute droite du plan ? La bonne réponse attendue est : ax + by + c = 0 (équation cartésienne générale), avec (a, b) ≠ (0, 0)."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fonctions polynomiales",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Géométrie analytique",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Ensembles et logique",
-      "description": "Notion fondamentale de Mathématiques"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

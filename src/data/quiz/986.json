@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques 2nde : Transformations de courbes",
     "status": "published",
-    "created_at": "2026-04-06 06:40:42",
-    "updated_at": "2026-04-06 06:40:42"
+    "created_at": "2026-04-18 18:34:33",
+    "updated_at": "2026-04-18 18:34:33"
   },
   "quiz": {
     "title": "Transformations de courbes",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "G(x) = (x − 1)² + 2."
+        "question": "Si f(x) = x², quelle est l'expression de la courbe obtenue par translation de 1 vers la droite et 2 vers le haut ? La bonne réponse attendue est : g(x) = (x − 1)² + 2."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Translation de 3 vers la gauche : remplacer x par x + 3 → y = (x+3)²."
+        "question": "La parabole y = x² est translatée de 3 vers la gauche. Quelle est la nouvelle équation ? La bonne réponse attendue est : y = (x + 3)²."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fonctions polynomiales",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Géométrie analytique",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Ensembles et logique",
-      "description": "Notion fondamentale de Mathématiques"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

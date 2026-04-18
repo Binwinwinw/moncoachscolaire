@@ -6,8 +6,8 @@
     "subject": "Technologie",
     "description": "Diagnostic Technologie 3eme : Programmation Python en technologie",
     "status": "published",
-    "created_at": "2026-04-06 06:40:45",
-    "updated_at": "2026-04-06 06:40:45"
+    "created_at": "2026-04-18 21:24:12",
+    "updated_at": "2026-04-18 21:24:12"
   },
   "quiz": {
     "title": "Programmation Python en technologie",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Maliste = [1, 2, 3, 4, 5]."
+        "question": "La bonne réponse attendue est : maliste = [1, 2, 3, 4, 5]."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Une SyntaxError (ou IndentationError) est signalee par l'interpreteur Python quand le code ne respecte pas la grammaire du langage."
+        "question": "La bonne réponse attendue est : SyntaxError."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Technologie",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Compétences de base 3eme",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Savoir-faire technologie",
-      "description": "Notion du programme 3eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic SVT 3ème - Série 672",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT"
   },
   "quiz": {
     "title": "Développement embryonnaire et fœtal",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Zygote",
+        "correct": 1,
         "correction": "Le zygote est la cellule initiale formée par la fécondation ; il contient 46 chromosomes (23 paternels + 23 maternels)."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. L'embryon devient un fœtus à partir de la 8ème semaine de développement, lorsque tous les organes sont ébauches."
+        "correction": "L'embryon devient un fœtus à partir de la 8ème semaine de développement, lorsque tous les organes sont ébauches."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La nicotine et l'alcool",
+        "correct": 1,
         "correction": "De nombreuses substances (alcool, nicotine, drogues, certains médicaments) traversent le placenta et peuvent provoquer des malformations."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le liquide amniotique remplit la cavité amniotique et protège le fœtus des chocs tout en permettant ses mouvements."
+        "correction": "Le liquide amniotique remplit la cavité amniotique et protège le fœtus des chocs tout en permettant ses mouvements."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Un ensemble de malformations dues à la consommation d'alcool pendant la grossesse",
+        "correct": 1,
         "correction": "Le SAF est la première cause non génétique de handicap mental en France, causé par l'alcool qui traverse le placenta."
       },
       {

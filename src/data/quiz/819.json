@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic SES 1ère - Série 819",
+    "title": "Quiz Diagnostic SES 1ere - Série 819",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
-    "description": "Diagnostic SES 1ère : Introduction au marché",
+    "description": "Diagnostic SES 1ere : Introduction au marché",
     "status": "published",
-    "created_at": "2026-04-06 06:40:40",
-    "updated_at": "2026-04-06 06:40:40"
+    "created_at": "2026-04-18 20:28:31",
+    "updated_at": "2026-04-18 20:28:31"
   },
   "quiz": {
     "title": "Introduction au marché",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Marché du travail (travail contre salaire), marché des biens (produits contre argent), bourse (actions)…."
+        "question": "Donnez deux exemples de marchés et précisez ce qui y est échangé."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Le prix de marché est le prix auquel se réalisent effectivement les échanges, résultant de la confrontation entre l'offre et la demande."
+        "question": "Expliquez la notion de 'prix de marché'."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Inégalités et redistribution",
-      "description": "Notion fondamentale de SES"
-    },
-    {
-      "notion": "Croissance économique",
-      "description": "Notion fondamentale de SES"
-    },
-    {
-      "notion": "Mondialisation",
-      "description": "Notion fondamentale de SES"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

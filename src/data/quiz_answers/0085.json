@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 0085",
+    "level": "6eme",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Méso-espace (cour d’école)",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "60 mètres",
+        "correction": "Le périmètre d'un rectangle est calculé en additionnant la longueur et la largeur, puis en multipliant par 2. Donc, le périmètre de la cour d'école est (20 m + 10 m) x 2 = 60 mètres."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Le périmètre d'un rectangle est calculé en additionnant la longueur et la largeur, puis en multipliant par 2. Donc, le périmètre de la cour d'école est (15 m + 5 m) x 2 = 40 mètres, pas 30 mètres."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "80 mètres",
+        "correction": "Le périmètre d'un rectangle est calculé en additionnant la longueur et la largeur, puis en multipliant par 2. Donc, le périmètre de la cour d'école est (25 m + 15 m) x 2 = 80 mètres."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le périmètre d'un rectangle est calculé en additionnant la longueur et la largeur, puis en multipliant par 2. Donc, le périmètre de la cour d'école est (10 m + 5 m) x 2 = 30 mètres."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "100 mètres",
+        "correction": "Le périmètre d'un rectangle est calculé en additionnant la longueur et la largeur, puis en multipliant par 2. Donc, le périmètre de la cour d'école est (30 m + 20 m) x 2 = 100 mètres."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Le périmètre d'un rectangle est calculé en additionnant la longueur et la largeur, puis en multipliant par 2. Donc, le périmètre de la cour d'école est (20 m + 10 m) x 2 = 60 mètres, pas 50 mètres."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "130 mètres",
+        "correction": "Le périmètre d'un rectangle est calculé en additionnant la longueur et la largeur, puis en multipliant par 2. Donc, le périmètre de la cour d'école est (40 m + 25 m) x 2 = 130 mètres."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Le périmètre d'un rectangle est calculé en additionnant la longueur et la largeur, puis en multipliant par 2. Donc, le périmètre de la cour d'école est (15 m + 10 m) x 2 = 50 mètres."
+      }
+    ]
+  }
+}

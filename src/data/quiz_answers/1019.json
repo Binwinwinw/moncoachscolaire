@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "g'(f(x)) · f'(x)",
+        "answer": "C",
         "correction": "Règle de la chaîne : (g∘f)'(x) = g'(f(x)) · f'(x)."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. f = sin(u) avec u = 3x²+1 ; f' = cos(u)·u' = cos(3x²+1)·6x."
+        "correction": "f = sin(u) avec u = 3x²+1 ; f' = cos(u)·u' = cos(3x²+1)·6x."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "2x/(x²+1)",
+        "answer": "C",
         "correction": "(ln u)' = u'/u. Ici u = x²+1, u' = 2x → (2x)/(x²+1)."
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. f = e^u avec u = −x², u' = −2x → f' = −2x·e^(−x²)."
+        "correction": "f = e^u avec u = −x², u' = −2x → f' = −2x·e^(−x²)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "2(2x+3)^(−1/2)",
+        "answer": "D",
         "correction": "(√u)' = u'/(2√u). u = 2x+3, u' = 2 → 2/(2√(2x+3)) = 1/√(2x+3). Options C et D équivalentes."
       },
       {

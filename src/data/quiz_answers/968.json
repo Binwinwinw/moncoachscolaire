@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "−2x > −6",
+        "answer": "B",
         "correction": "Multiplier par un nombre négatif inverse le sens de l'inégalité : x < 3 → −2x > −6."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. 3x − 5 > 7 → 3x > 12 → x > 4, donc x ∈ ]4 ; +∞[."
+        "correction": "3x − 5 > 7 → 3x > 12 → x > 4, donc x ∈ ]4 ; +∞[."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "[−1 ; 5[",
+        "answer": "C",
         "correction": "−1 inclus (crochet fermé) et 5 exclu (crochet ouvert) donne [−1 ; 5[."
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. 2x+1>5 → x>2 ; x−3<2 → x<5. L'intersection est ]2 ; 5[."
+        "correction": "2x+1>5 → x>2 ; x−3<2 → x<5. L'intersection est ]2 ; 5[."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "a < b",
+        "answer": "B",
         "correction": "Pour a, b > 0 : a² < b² ⟺ a < b (la fonction x² est croissante sur R₊)."
       },
       {

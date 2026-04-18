@@ -6,8 +6,8 @@
     "subject": "EMC",
     "description": "Diagnostic EMC 3eme : Le numerique, les libertes et la vie privee",
     "status": "published",
-    "created_at": "2026-04-06 06:40:43",
-    "updated_at": "2026-04-06 06:40:43"
+    "created_at": "2026-04-18 21:24:13",
+    "updated_at": "2026-04-18 21:24:13"
   },
   "quiz": {
     "title": "Le numerique, les libertes et la vie privee",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La CNIL (Commission Nationale de l'Informatique et des Libertés) veille au respect de la loi Informatique et Libertés et du RGPD ; elle peut sanctionner les entreprises en infraction."
+        "question": "La bonne réponse attendue est : CNIL."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Le phishing (hameçonnage) est une technique de fraude en ligne qui consiste à imiter des sites ou courriels officiels pour voler des identifiants, mots de passe ou données bancaires."
+        "question": "La bonne réponse attendue est : phishing."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de EMC",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Compétences de base 3eme",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Savoir-faire emc",
-      "description": "Notion du programme 3eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

@@ -6,8 +6,8 @@
     "subject": "Technologie",
     "description": "Diagnostic Technologie 3eme : Les sources d'energie et leur transformation",
     "status": "published",
-    "created_at": "2026-04-06 06:40:45",
-    "updated_at": "2026-04-06 06:40:45"
+    "created_at": "2026-04-18 21:24:12",
+    "updated_at": "2026-04-18 21:24:12"
   },
   "quiz": {
     "title": "Les sources d'energie et leur transformation",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La fission nucleaire divise des noyaux lourds (uranium-235) en noyaux plus legers, liberant une enorme quantite d'energie thermique utilisee pour produire de la vapeur et de l'electricite."
+        "question": "La bonne réponse attendue est : fission nucleaire."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Energie geothermique."
+        "question": "La bonne réponse attendue est : energie geothermique."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Technologie",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Compétences de base 3eme",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Savoir-faire technologie",
-      "description": "Notion du programme 3eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

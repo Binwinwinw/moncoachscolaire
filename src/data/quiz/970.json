@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques 2nde : Systèmes d'équations",
     "status": "published",
-    "created_at": "2026-04-06 06:40:42",
-    "updated_at": "2026-04-06 06:40:42"
+    "created_at": "2026-04-18 18:34:32",
+    "updated_at": "2026-04-18 18:34:32"
   },
   "quiz": {
     "title": "Systèmes d'équations",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Addition : 2x = 10 → x = 5."
+        "question": "Résous le système : x + y = 7 et x − y = 3. La bonne réponse attendue est : x = 5, y = 2."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "2 adultes et 3 enfants."
+        "question": "Un adulte paye 12 € et un enfant 6 €. Un groupe de 5 personnes paye 42 €. Combien y a-t-il d'adultes et d'enfants ? La bonne réponse attendue est : 2 adultes et 3 enfants."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fonctions polynomiales",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Géométrie analytique",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Ensembles et logique",
-      "description": "Notion fondamentale de Mathématiques"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

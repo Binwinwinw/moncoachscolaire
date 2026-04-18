@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Capteur ultrasonique",
+        "correct": 1,
         "correction": "Le capteur ultrasonique (ex. HC-SR04) emet une onde sonore et mesure le temps de retour pour calculer la distance par la formule d = v × t/2."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le capteur photoelectrique (barriere optique, reflex, diffus) utilise un faisceau lumineux (visible ou infrarouge) pour detecter la presence d'objets."
+        "correction": "Le capteur photoelectrique (barriere optique, reflex, diffus) utilise un faisceau lumineux (visible ou infrarouge) pour detecter la presence d'objets."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Moteur electrique",
+        "correct": 1,
         "correction": "Le moteur electrique (DC, AC, pas-a-pas) convertit l'energie electrique en energie mecanique de rotation ; il equipe ventilateurs, pompes, robots, vehicules."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le verin pneumatique utilise la pression d'air pour deplacer un piston lineairement ; tres utilise dans l'automatisation industrielle pour des mouvements rapides."
+        "correction": "Le verin pneumatique utilise la pression d'air pour deplacer un piston lineairement ; tres utilise dans l'automatisation industrielle pour des mouvements rapides."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Un composant electronique qui regle la vitesse d'un moteur en faisant varier la frequence ou la tension",
+        "correct": 1,
         "correction": "Le variateur electronique (VFD) permet de controler la vitesse d'un moteur AC en modulant la frequence d'alimentation, economisant l'energie."
       },
       {

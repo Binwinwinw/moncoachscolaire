@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 483",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 483",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
-    "description": "Diagnostic Français 1ère : Mouvements littéraires : Romantisme et Réalisme",
+    "description": "Diagnostic Français 1ere : Mouvements littÃ©raires : Romantisme et RÃ©alisme",
     "status": "published",
-    "created_at": "2026-03-13 18:59:43",
-    "updated_at": "2026-03-13 18:59:43"
+    "created_at": "2026-04-18 20:20:13",
+    "updated_at": "2026-04-18 20:20:13"
   },
   "quiz": {
-    "title": "Mouvements littéraires : Romantisme et Réalisme",
+    "title": "Mouvements littÃ©raires : Romantisme et RÃ©alisme",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
@@ -20,39 +20,39 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel est le texte manifeste du Romantisme français ?",
+        "question": "Quel est le texte manifeste du Romantisme franÃ§ais ?",
         "choices": [
-          "La Préface de Cromwell de Victor Hugo",
-          "Le Roman expérimental de Zola",
-          "L'Art poétique de Boileau",
-          "Du Bellay, Défense et illustration"
+          "La PrÃ©face de Cromwell de Victor Hugo",
+          "Le Roman expÃ©rimental de Zola",
+          "L'Art poÃ©tique de Boileau",
+          "Du Bellay, DÃ©fense et illustration"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Le Romantisme valorise la raison et l'ordre au détriment des émotions."
+        "question": "Le Romantisme valorise la raison et l'ordre au dÃ©triment des Ã©motions."
       },
       {
         "type": "vrai-faux",
-        "question": "Musset, dans La Confession d'un enfant du siècle, décrit ce malaise existentiel de la génération de 1820."
+        "question": "Le 'mal du siÃ¨cle' romantique dÃ©signe une mÃ©lancolie et un sentiment de _____ ressentis par la gÃ©nÃ©ration post-rÃ©volutionnaire."
       },
       {
         "type": "qcm",
-        "question": "Quel est le chef-d'œuvre du Romantisme de Victor Hugo ?",
+        "question": "Quel est le chef-d'Å“uvre du Romantisme de Victor Hugo ?",
         "choices": [
           "Germinal",
-          "Les Misérables",
+          "Les MisÃ©rables",
           "Madame Bovary",
           "Le Rouge et le Noir"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Le Réalisme cherche à représenter le monde tel qu'il est, sans embellissement."
+        "question": "Le RÃ©alisme cherche Ã  reprÃ©senter le monde tel qu'il est, sans embellissement."
       },
       {
         "type": "vrai-faux",
-        "question": "La Comédie humaine (90+ romans) est la grande entreprise réaliste de Balzac."
+        "question": "Balzac regroupe l'ensemble de ses romans sous le titre _____ pour crÃ©er une fresque sociale de la France."
       },
       {
         "type": "qcm",
@@ -66,23 +66,10 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Le Réalisme littéraire est un mouvement essentiellement du XXe siècle."
+        "question": "Le RÃ©alisme littÃ©raire est un mouvement essentiellement du XXe siÃ¨cle."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Baccalauréat français",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Poésie baroque et classique",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Théâtre et représentation",
-      "description": "Notion fondamentale de Français"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

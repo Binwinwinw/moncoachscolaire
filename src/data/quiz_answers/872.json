@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic NSI 1ère - Série 872",
-    "level": "1ère",
+    "title": "Quiz Diagnostic NSI 1ere - Série 872",
+    "level": "1ere",
     "subject": "NSI"
   },
   "quiz": {
     "title": "Hexadécimal et conversions",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "10",
+        "correct": 0,
         "correction": "Hexadécimal : 0-9 = 0-9, A=10, B=11, C=12, D=13, E=14, F=15."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Chaque chiffre hexadécimal correspond exactement à 4 bits : 2 = 0010, A = 1010 → 00101010 = 42."
+        "answer": "faux",
+        "correction": "Chaque chiffre hexadécimal correspond exactement à 4 bits : 2 = 0010, A = 1010 → 00101010 = 42."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "'0xff'",
+        "correct": 1,
         "correction": "hex() retourne une chaîne de caractères avec le préfixe '0x'. Pour obtenir 'FF', on peut faire hex(255)[2:].upper()."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Ex : 11111111 (binaire) = FF (hex), bien plus lisible pour les adresses mémoire ou les codes couleur."
+        "answer": "faux",
+        "correction": "Ex : 11111111 (binaire) = FF (hex), bien plus lisible pour les adresses mémoire ou les codes couleur."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "0x",
+        "correct": 2,
         "correction": "0x pour hexadécimal, 0b pour binaire, 0o pour octal. Ex : 0xFF = 255, 0b1010 = 10, 0o17 = 15."
       },
       {

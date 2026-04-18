@@ -1063,7 +1063,7 @@ def make_answers(qid, title, subject, level, questions):
     }
 
 
-def write_quiz_file(file_id, serie, title, description, questions, subject="Histoire-Geographie"):
+def write_quiz_file(file_id, serie, title, description, questions, subject="Histoire-Géographie"):
     del serie, description
     quiz_data = make_quiz(file_id, title, subject, "1ere", questions)
     answers_data = make_answers(file_id, title, subject, "1ere", questions)
@@ -1131,7 +1131,7 @@ def write_quiz_files():
         description = qdata["description"]
         questions = qdata["questions"]
 
-        quiz_obj, answers_obj = write_quiz_file(fid, qdata["serie"], title, description, questions, "Histoire-Geographie")
+        quiz_obj, answers_obj = write_quiz_file(fid, qdata["serie"], title, description, questions, "Histoire-Géographie")
 
         dump_json_file(os.path.join(HG_QUIZ_DIR, f"{fid}.json"), quiz_obj)
         dump_json_file(os.path.join(HG_ANSWERS_DIR, f"{fid}.json"), answers_obj)

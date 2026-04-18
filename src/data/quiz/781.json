@@ -6,8 +6,8 @@
     "subject": "Technologie",
     "description": "Diagnostic Technologie 3eme : Les systemes techniques : structure et fonctionnement",
     "status": "published",
-    "created_at": "2026-04-06 06:40:45",
-    "updated_at": "2026-04-06 06:40:45"
+    "created_at": "2026-04-18 21:24:12",
+    "updated_at": "2026-04-18 21:24:12"
   },
   "quiz": {
     "title": "Les systemes techniques : structure et fonctionnement",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Schema blocs fonctionnel."
+        "question": "La bonne réponse attendue est : schema blocs fonctionnel."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Un microcontroleur (Arduino, PIC, STM32) integre processeur, memoire et peripheriques d'E/S sur une seule puce ; il lit les capteurs et commande les actionneurs."
+        "question": "La bonne réponse attendue est : microcontroleur."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Technologie",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Compétences de base 3eme",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Savoir-faire technologie",
-      "description": "Notion du programme 3eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

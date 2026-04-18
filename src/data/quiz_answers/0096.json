@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 0096",
+    "level": "6eme",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Espace et géométrie (patrons de solides)",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Un carré",
+        "correction": "Le patron d'un cube est composé de six carrés identiques qui représentent les faces du cube."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Le patron d'un cube est composé de six carrés identiques, pas de rectangles."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Deux triangles et trois rectangles",
+        "correction": "Le patron d'un prisme à base triangulaire est composé de deux triangles (les bases) et de trois rectangles (les faces latérales)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le patron d'un prisme à base triangulaire est composé de deux triangles (les bases) et de trois rectangles (les faces latérales)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Deux cercles et un rectangle",
+        "correction": "Le patron d'un cylindre est composé de deux cercles (les bases) et d'un rectangle (la face latérale qui s'enroule autour des bases)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le patron d'un cylindre est composé de deux cercles (les bases) et d'un rectangle (la face latérale qui s'enroule autour des bases)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Un carré et quatre triangles",
+        "correction": "Le patron d'une pyramide à base carrée est composé d'un carré (la base) et de quatre triangles (les faces latérales)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le patron d'une pyramide à base carrée est composé d'un carré (la base) et de quatre triangles (les faces latérales)."
+      }
+    ]
+  }
+}

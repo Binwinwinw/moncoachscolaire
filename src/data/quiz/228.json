@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Philosophie 1ere - Série 228",
+    "title": "Quiz Diagnostic Philosophie 1ere - SÃ©rie 228",
     "type": "quiz",
     "level": "1ere",
     "subject": "Philosophie",
     "description": "Diagnostic Philosophie 1ere : Quiz Diagnostic 1ere Philosophie - Serie 5",
     "status": "published",
-    "created_at": "2026-03-13 18:59:45",
-    "updated_at": "2026-03-13 18:59:45"
+    "created_at": "2026-04-18 15:13:09",
+    "updated_at": "2026-04-18 15:13:09"
   },
   "quiz": {
     "title": "Quiz Diagnostic 1ere Philosophie - Serie 5",
@@ -20,10 +20,10 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Qu'est-ce qu'un syllogisme aristotélicien ?",
+        "question": "Qu'est-ce qu'un syllogisme aristotÃ©licien ?",
         "choices": [
-          "Une forme de méditation",
-          "Un raisonnement déductif composé de deux prémisses et d'une conclusion",
+          "Une forme de mÃ©ditation",
+          "Un raisonnement dÃ©ductif composÃ© de deux prÃ©misses et d'une conclusion",
           "Un raisonnement par analogie",
           "Une preuve empirique"
         ]
@@ -34,55 +34,42 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La déduction part de principes généraux pour aboutir à une conclusion particulière nécessaire ; l'induction part de cas particuliers pour établir une loi générale probable."
+        "question": "Quelle est la diffÃ©rence entre raisonnement dÃ©ductif et raisonnement inductif ?"
       },
       {
         "type": "qcm",
-        "question": "Qu'est-ce qu'une démonstration mathématique ?",
+        "question": "Qu'est-ce qu'une dÃ©monstration mathÃ©matique ?",
         "choices": [
-          "Une vérification expérimentale",
-          "Une suite de déductions à partir d'axiomes et de définitions, aboutissant à un théorème",
-          "Une argumentation rhétorique convaincante",
+          "Une vÃ©rification expÃ©rimentale",
+          "Une suite de dÃ©ductions Ã  partir d'axiomes et de dÃ©finitions, aboutissant Ã  un thÃ©orÃ¨me",
+          "Une argumentation rhÃ©torique convaincante",
           "Un raisonnement par analogie"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "L'empirisme de Hume affirme que toute connaissance vient de l'expérience sensible et que les idées sont des copies affaiblies des impressions sensorielles."
+        "question": "L'empirisme de Hume affirme que toute connaissance vient de l'expÃ©rience sensible et que les idÃ©es sont des copies affaiblies des impressions sensorielles."
       },
       {
         "type": "vrai-faux",
-        "question": "Kant synthétise rationalisme et empirisme en montrant que la connaissance résulte de l'application des formes a priori de la sensibilité et de l'entendement aux données de l'expérience."
+        "question": "Comment Kant tente-t-il de dÃ©passer l'opposition entre rationalisme et empirisme ?"
       },
       {
         "type": "qcm",
         "question": "Qu'est-ce que le principe de non-contradiction en logique ?",
         "choices": [
-          "Une proposition ne peut pas être à la fois vraie et fausse dans le même sens et au même moment",
-          "Toute démonstration doit éviter les répétitions",
-          "Il ne faut pas contredire les autorités",
-          "Deux théories ne peuvent jamais coexister"
+          "Une proposition ne peut pas Ãªtre Ã  la fois vraie et fausse dans le mÃªme sens et au mÃªme moment",
+          "Toute dÃ©monstration doit Ã©viter les rÃ©pÃ©titions",
+          "Il ne faut pas contredire les autoritÃ©s",
+          "Deux thÃ©ories ne peuvent jamais coexister"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "La raison instrumentale désigne l'usage de la raison pour définir les fins morales et politiques d'une société."
+        "question": "La raison instrumentale dÃ©signe l'usage de la raison pour dÃ©finir les fins morales et politiques d'une sociÃ©tÃ©."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Philosophie",
-      "description": "Notion du programme 1ere"
-    },
-    {
-      "notion": "Compétences de base 1ere",
-      "description": "Notion du programme 1ere"
-    },
-    {
-      "notion": "Savoir-faire philosophie",
-      "description": "Notion du programme 1ere"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

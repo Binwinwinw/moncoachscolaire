@@ -1,94 +1,81 @@
 {
   "contents": {
-    "title": "Le rôle des animaux dans l'écosystème",
+    "title": "Quiz Diagnostic NSI 1ere - Série 908",
     "type": "quiz",
-    "level": "5eme",
-    "subject": "SVT",
-    "description": "Diagnostic SVT 5eme : Haricots, animaux et interactions écologiques",
+    "level": "1ere",
+    "subject": "NSI",
+    "description": "Diagnostic NSI 1ere : Tri par insertion et tri par sélection",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-08 00:05:00"
+    "created_at": "2026-04-18 20:28:31",
+    "updated_at": "2026-04-18 20:28:31"
   },
   "quiz": {
-    "title": "Anglais - Le rôle des animaux dans l'écosystème",
-    "level": "5eme",
-    "subject": "SVT",
+    "title": "Tri par insertion et tri par sélection",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "NSI",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel rôle remplit un animal pollinisateur ?",
+        "question": "Quelle définition correspond le mieux à les algorithmes de tri ?",
         "choices": [
-          "Il transporte le pollen entre les plantes",
-          "Il décompose la matière organique",
-          "Il produit de l'oxygène",
-          "Il capture les proies"
+          "Des méthodes pour ranger des données dans un ordre donné",
+          "Une figure géométrique",
+          "Une règle de grammaire",
+          "Un mouvement littéraire"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Les animaux peuvent aider à disperser les graines."
-      },
-      {
-        "type": "vrai-faux",
-        "question": "Réponds en expliquant qu'un oiseau transporte du pollen ou des graines d'une plante à l'autre."
+        "question": "Les algorithmes de tri est une notion utile pour comprendre le fonctionnement des systèmes numériques."
       },
       {
         "type": "qcm",
-        "question": "Quel animal est souvent un prédateur dans un écosystème forestier ?",
+        "question": "Quelle notion est la plus directement associée à les algorithmes de tri ?",
         "choices": [
-          "Un renard",
-          "Une chenille",
-          "Une graine",
-          "Une pierre"
+          "la complexité",
+          "la fable",
+          "la photosynthèse",
+          "la mondialisation"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Les herbivores mangent principalement des plantes."
+        "question": "Pour travailler les algorithmes de tri, on peut utiliser des activités pratiques, du code ou des schémas."
       },
       {
         "type": "qcm",
-        "question": "Quel est le rôle d'un décomposeur ?",
+        "question": "Quel est l'objectif principal de l'étude de les algorithmes de tri ?",
         "choices": [
-          "Recycler la matière organique",
-          "Chasser les proies",
-          "Produire des graines",
-          "Nager dans l'eau"
+          "Comprendre les outils et concepts du numérique",
+          "Réciter des dates historiques",
+          "Apprendre uniquement par cœur",
+          "Éviter toute expérimentation"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Réponds pourquoi une grande diversité d'animaux rend un écosystème plus équilibré."
+        "question": "Les algorithmes de tri peut être relié à des usages concrets du quotidien numérique."
       },
       {
         "type": "qcm",
-        "question": "Quel est un exemple d'interaction positive entre plantes et animaux ?",
+        "question": "Quel support peut aider à mieux comprendre les algorithmes de tri ?",
         "choices": [
-          "La pollinisation",
-          "La compétition pour l'eau",
-          "La prédation",
-          "La pollution"
+          "Un algorithme, un schéma ou un exemple de code",
+          "Une seule récitation orale",
+          "Un vers rimé",
+          "Une carte des reliefs"
         ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Étudier les algorithmes de tri développe la logique et la compréhension des systèmes informatiques."
       }
-    ],
-    "type": "quiz"
+    ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Rôle des animaux",
-      "description": "Les animaux aident à polliniser les plantes, disperser les graines et recycler les matières."
-    },
-    {
-      "notion": "Pollinisateurs",
-      "description": "Les pollinisateurs transportent le pollen entre les fleurs pour aider les plantes à produire des graines."
-    },
-    {
-      "notion": "Décomposeurs",
-      "description": "Les décomposeurs transforment les organismes morts en nutriments utiles pour le sol."
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

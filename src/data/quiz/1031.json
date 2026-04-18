@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Intégration par parties",
     "status": "published",
-    "created_at": "2026-04-06 06:40:48",
-    "updated_at": "2026-04-06 06:40:48"
+    "created_at": "2026-04-18 18:52:46",
+    "updated_at": "2026-04-18 18:52:46"
   },
   "quiz": {
     "title": "Intégration par parties",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "IPP : u'=eˣ, u=eˣ ; v=x, v'=1."
+        "question": "Calcule ∫ x·eˣ dx par intégration par parties. La bonne réponse attendue est : (x−1)eˣ + C."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "[x·ln(x) − x]₁ᵉ = (e·1 − e) − (1·0 − 1) = 0 − (−1) = 1."
+        "question": "Calcule ∫₁ᵉ ln(x) dx. La bonne réponse attendue est : 1."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Intégration par parties",
-      "description": "Méthode d'intégration qui consiste à intégrer une fonction en la décomposant en deux parties, l'une étant intégrée et l'autre étant dérivée"
-    },
-    {
-      "notion": "Formule d'intégration par parties",
-      "description": "Formule mathématique qui permet d'appliquer la méthode d'intégration par parties : ∫u(x)v'(x)dx = u(x)v(x) - ∫u'(x)v(x)dx"
-    },
-    {
-      "notion": "Choix de u(x) et v'(x)",
-      "description": "Étape clé de l'intégration par parties qui consiste à choisir judicieusement les fonctions u(x) et v'(x) pour faciliter les calculs d'intégration"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

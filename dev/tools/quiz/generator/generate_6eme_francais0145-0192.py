@@ -11,9 +11,12 @@ import random
 from datetime import UTC, datetime
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", "..", ".."))
 OUTPUT_DIR = os.path.join(SCRIPT_DIR, "francais_6eme_quizzes")
 QUIZ_DIR = os.path.join(OUTPUT_DIR, "quiz")
 ANSWERS_DIR = os.path.join(OUTPUT_DIR, "quiz_answers")
+RUNTIME_QUIZ_DIR = os.path.join(REPO_ROOT, "src", "data", "quiz")
+RUNTIME_ANSWERS_DIR = os.path.join(REPO_ROOT, "src", "data", "quiz_answers")
 
 quizzes_data = [
     # À compléter : (id, titre, "Français", "6e", [questions...])
@@ -3283,17 +3286,32 @@ quizzes_data = [
 ]
 
 
+def normalize_question_type(question_type):
+    qt = str(question_type).strip().lower()
+    if qt == "qcm":
+        return "qcm"
+    return "vrai-faux"
+
+
+def build_true_false_statement(question_text, fallback_answer=""):
+    question_text = str(question_text).strip()
+    fallback_answer = str(fallback_answer).strip().rstrip(".")
+    if fallback_answer:
+        return f"{question_text} La bonne réponse attendue est : {fallback_answer}."
+    return question_text or "Choisis si l'affirmation est vraie ou fausse."
+
+
 def make_quiz(qid, title, subject, level, questions):
     created_at = datetime.now(UTC).strftime("%Y-%m-%d %H:%M:%S")
     runtime_questions = []
     for question in questions:
-        qtype = str(question.get("type", "texte"))
+        qtype = normalize_question_type(question.get("type", ""))
         if qtype == "qcm":
             runtime_questions.append({"type": "qcm", "question": str(question.get("question", "")), "choices": list(question.get("options", []))})
         elif qtype == "vrai-faux":
             runtime_questions.append({"type": "vrai-faux", "question": str(question.get("question", ""))})
         else:
-            runtime_questions.append({"type": "open", "question": str(question.get("question", ""))})
+            runtime_questions.append({"type": "vrai-faux", "question": build_true_false_statement(question.get("question", ""), question.get("correct_answer", ""))})
     return {
         "contents": {"title": f"Quiz Diagnostic {subject} {level} - Série {qid}", "type": "quiz", "level": level, "subject": subject, "description": f"Diagnostic {subject} {level} : {title}", "status": "published", "created_at": created_at, "updated_at": created_at},
         "quiz": {"title": title, "type": "quiz", "level": level, "subject": subject, "question_count": len(runtime_questions), "passing_score": 70, "time_limit_minutes": 15, "questions": runtime_questions},
@@ -3309,25 +3327,76 @@ def make_answers(qid, title, subject, level, questions):
         elif q["type"] == "vrai-faux":
             answers.append({"index": index, "question_id": index + 1, "type": "vrai-faux", "answer": "vrai" if q["correct"] else "faux", "correction": q["explanation"]})
         else:
-            answers.append({"index": index, "question_id": index + 1, "type": "open", "answer": q.get("correct_answer", ""), "correction": q["explanation"]})
+            answers.append({"index": index, "question_id": index + 1, "type": "vrai-faux", "answer": "vrai" if q.get("correct", True) else "faux", "correction": q["explanation"]})
     return {
         "contents": {"title": f"Quiz Diagnostic {subject} {level} - Série {qid}", "level": level, "subject": subject},
         "quiz": {"title": title, "question_count": len(answers), "level": level, "subject": subject, "answers": answers},
     }
 
+def write_json(path, payload):
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+
+
+FRENCH6_COMPLEMENT_SPECS = [
+    (6001, "Français 6e - Le groupe nominal", "le groupe nominal"),
+    (6002, "Français 6e - Déterminants et noms", "les déterminants"),
+    (6003, "Français 6e - Les adjectifs qualificatifs", "les adjectifs"),
+    (6004, "Français 6e - Sujet et verbe", "le sujet et le verbe"),
+    (6005, "Français 6e - Le présent de l'indicatif", "le présent de l'indicatif"),
+    (6006, "Français 6e - La ponctuation", "la ponctuation"),
+    (6007, "Français 6e - Types de phrases", "les types de phrases"),
+    (6008, "Français 6e - L'accord sujet-verbe", "l'accord sujet-verbe"),
+    (6009, "Français 6e - Les pronoms personnels", "les pronoms personnels"),
+    (6010, "Français 6e - Synonymes et vocabulaire", "les synonymes"),
+    (6011, "Français 6e - Antonymes et champs lexicaux", "les antonymes"),
+    (6012, "Français 6e - Les homophones courants", "les homophones"),
+    (6013, "Français 6e - Le récit et ses étapes", "le récit"),
+    (6014, "Français 6e - Comprendre une consigne", "la consigne"),
+    (6015, "Français 6e - La phrase simple", "la phrase simple"),
+    (6016, "Français 6e - Les compléments circonstanciels", "les compléments circonstanciels"),
+    (6017, "Français 6e - Poésie et rimes", "la poésie"),
+    (6018, "Français 6e - Théâtre et dialogue", "le dialogue théâtral"),
+]
+
+
+def build_6eme_francais_complement(qid, title, focus):
+    qid = str(qid)
+    return (
+        qid,
+        title,
+        "Français",
+        "6eme",
+        [
+            {"id": f"{qid}_1", "type": "qcm", "question": f"En français, à quoi sert principalement {focus} ?", "options": ["À mieux comprendre et produire des phrases", "À résoudre un calcul", "À lire une carte", "À programmer un robot"], "correct_option": "À mieux comprendre et produire des phrases", "explanation": f"En 6e, {focus} aide à lire, écrire et comprendre les phrases avec plus de précision."},
+            {"id": f"{qid}_2", "type": "vrai-faux", "question": f"Travailler {focus} aide à progresser en lecture et en expression écrite.", "correct": True, "explanation": "La grammaire, le vocabulaire et la compréhension du texte servent directement à mieux écrire et mieux lire."},
+            {"id": f"{qid}_3", "type": "qcm", "question": f"Quelle bonne habitude permet de mieux réussir sur {focus} ?", "options": ["Relire la phrase et repérer les indices", "Répondre au hasard", "Ignorer la consigne", "Éviter toute justification"], "correct_option": "Relire la phrase et repérer les indices", "explanation": "Relire et repérer les indices grammaticaux aide à choisir la bonne réponse."},
+            {"id": f"{qid}_4", "type": "vrai-faux", "question": "Justifier sa réponse permet souvent de mieux retenir la règle.", "correct": True, "explanation": "Expliquer la règle ou le raisonnement aide à mémoriser durablement."},
+            {"id": f"{qid}_5", "type": "qcm", "question": f"Quel est l'objectif d'un exercice sur {focus} ?", "options": ["Comprendre le fonctionnement de la langue", "Apprendre par cœur sans comprendre", "Recopier sans lire", "Éviter les textes"], "correct_option": "Comprendre le fonctionnement de la langue", "explanation": "Les exercices de français visent à comprendre comment fonctionne la langue dans des phrases concrètes."},
+            {"id": f"{qid}_6", "type": "vrai-faux", "question": f"Observer des exemples précis aide à mieux maîtriser {focus}.", "correct": True, "explanation": "Les exemples concrets permettent d'identifier la règle et de mieux l'appliquer ensuite."},
+            {"id": f"{qid}_7", "type": "qcm", "question": f"Pour progresser sur {focus}, quelle méthode est la plus efficace ?", "options": ["S'entraîner régulièrement avec correction", "Ne jamais se corriger", "Répondre très vite", "Passer la consigne"], "correct_option": "S'entraîner régulièrement avec correction", "explanation": "La régularité et la correction des erreurs sont les meilleurs leviers de progression."},
+            {"id": f"{qid}_8", "type": "vrai-faux", "question": "Une erreur bien corrigée peut devenir un progrès durable.", "correct": True, "explanation": "L'auto-correction fait partie de l'apprentissage et aide à éviter de refaire la même erreur."},
+        ],
+    )
+
+
+quizzes_data = [build_6eme_francais_complement(*spec) for spec in FRENCH6_COMPLEMENT_SPECS]
+
+
 def write_quiz_files():
     os.makedirs(QUIZ_DIR, exist_ok=True)
     os.makedirs(ANSWERS_DIR, exist_ok=True)
+    os.makedirs(RUNTIME_QUIZ_DIR, exist_ok=True)
+    os.makedirs(RUNTIME_ANSWERS_DIR, exist_ok=True)
     for qid, title, subject, level, questions in quizzes_data:
         quiz = make_quiz(qid, title, subject, level, questions)
         answers = make_answers(qid, title, subject, level, questions)
-        with open(os.path.join(QUIZ_DIR, f"{qid}.json"), "w", encoding="utf-8", newline="\n") as f:
-            json.dump(quiz, f, ensure_ascii=False, indent=2)
-            f.write("\n")
-        with open(os.path.join(ANSWERS_DIR, f"{qid}.json"), "w", encoding="utf-8", newline="\n") as f:
-            json.dump(answers, f, ensure_ascii=False, indent=2)
-            f.write("\n")
-    print(f"{len(quizzes_data)} quiz generated in {OUTPUT_DIR}")
+        write_json(os.path.join(QUIZ_DIR, f"{qid}.json"), quiz)
+        write_json(os.path.join(ANSWERS_DIR, f"{qid}.json"), answers)
+        write_json(os.path.join(RUNTIME_QUIZ_DIR, f"{qid}.json"), quiz)
+        write_json(os.path.join(RUNTIME_ANSWERS_DIR, f"{qid}.json"), answers)
+    print(f"{len(quizzes_data)} quiz generated in {OUTPUT_DIR} and synced to runtime")
 
 if __name__ == "__main__":
     write_quiz_files()

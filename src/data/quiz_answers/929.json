@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic HGGSP 1ère - Série 929",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP"
   },
   "quiz": {
     "title": "L'ONU et le maintien de la paix",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "1945",
+        "correct": 1,
         "correction": "L'ONU (Organisation des Nations Unies) fut fondée le 24 octobre 1945, succédant à la Société des Nations (SDN). Elle compte aujourd'hui 193 États membres."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Des réformes du Conseil de sécurité sont régulièrement proposées (élargissement, limitation du veto) mais bloquées par les P5 eux-mêmes."
+        "answer": "faux",
+        "correction": "Des réformes du Conseil de sécurité sont régulièrement proposées (élargissement, limitation du veto) mais bloquées par les P5 eux-mêmes."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Maintien de la paix déployées avec l'accord des parties",
+        "correct": 1,
         "correction": "Les opérations de maintien de la paix (OMP) reposent sur trois principes : consentement des parties, impartialité, non-recours à la force (sauf légitime défense). Il y a environ 87 000 Casques bleus actuellement déployés."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Le passage du maintien à l'imposition de la paix nécessite une résolution du Conseil de sécurité sous Chapitre VII."
+        "answer": "faux",
+        "correction": "Le passage du maintien à l'imposition de la paix nécessite une résolution du Conseil de sécurité sous Chapitre VII."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Le Conseil des droits de l'homme (CDH)",
+        "correct": 1,
         "correction": "Le CDH (remplaçant la Commission des droits de l'homme en 2006) surveille le respect des droits humains dans le monde. Il a été critiqué pour l'élection de pays peu respectueux des droits."
       },
       {

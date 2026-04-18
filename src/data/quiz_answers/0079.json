@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 0079",
+    "level": "6eme",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Masse (kg/g/mg)",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "1 000 g",
+        "correction": "Il y a 1 000 grammes dans 1 kilogramme."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Il y a 1 000 milligrammes dans 1 gramme."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "1 000 000 mg",
+        "correction": "Il y a 1 000 000 milligrammes dans 1 kilogramme."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Il y a 1 000 grammes dans 1 kilogramme, pas 100."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "0.5 g",
+        "correction": "Il y a 0.5 gramme dans 500 milligrammes."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Il y a 1 000 milligrammes dans 1 gramme, pas 10."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "2 kg",
+        "correction": "Il y a 2 kilogrammes dans 2 000 grammes."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Il y a 1 000 grammes dans 1 kilogramme."
+      }
+    ]
+  }
+}

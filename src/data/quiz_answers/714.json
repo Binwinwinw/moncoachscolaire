@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 714",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie"
   },
   "quiz": {
     "title": "Chimie : réactions en solution et tests",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Braise incandescente qui se rallume",
+        "correct": 1,
         "correction": "O2 est un comburant ; une braise incandescente introduite dans O2 pur se rallume vivement."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le test à la flamme (test colorimétrique) : Na+ → flamme jaune, K+ → violette, Cu2+ → verte, Ca2+ → rouge brique."
+        "correction": "Le test à la flamme (test colorimétrique) : Na+ → flamme jaune, K+ → violette, Cu2+ → verte, Ca2+ → rouge brique."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Carbonate de sodium Na2CO3",
+        "correct": 1,
         "correction": "Ca2+ + CO3^2- → CaCO3 (précipité blanc) permet d'identifier les ions calcium."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Ajout de NaOH chaud → dégagement de NH3 gazeux (odeur âcre) qui bleuit le papier pH humide (basique)."
+        "correction": "Ajout de NaOH chaud → dégagement de NH3 gazeux (odeur âcre) qui bleuit le papier pH humide (basique)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Le sulfate vire au bleu révélant la présence d'eau",
+        "correct": 1,
         "correction": "CuSO4 anhydre (blanc) + H2O → CuSO4·5H2O (bleu) : ce test révèle la présence d'eau."
       },
       {

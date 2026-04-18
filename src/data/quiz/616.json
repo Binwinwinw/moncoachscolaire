@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 1ere - Série 616",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 1ere : La sélection naturelle et l'adaptation",
+    "status": "published",
+    "created_at": "2026-04-18 20:09:48",
+    "updated_at": "2026-04-18 20:09:48"
+  },
+  "quiz": {
+    "title": "La sélection naturelle et l'adaptation",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Le concept central de la théorie darwinienne est :",
+        "choices": [
+          "L'hérédité des caractères acquis (Lamarck)",
+          "La sélection naturelle : les individus les mieux adaptés survivent et se reproduisent davantage",
+          "La mutation comme seul moteur de l'évolution",
+          "La dérive génétique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La sélection naturelle agit sur les phénotypes et, indirectement, sur les génotypes (allèles)."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'exemple classique de la phalène du bouleau illustre la sélection _____ : la forme sombre (melanica) a été favorisée par la pollution industrielle."
+      },
+      {
+        "type": "qcm",
+        "question": "La valeur sélective (fitness) d'un individu est mesurée par :",
+        "choices": [
+          "Sa taille et sa force physique",
+          "Sa capacité à survivre et à transmettre ses gènes à la génération suivante",
+          "Son espérance de vie",
+          "Son intelligence"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La résistance des bactéries aux antibiotiques est un exemple de sélection naturelle en action."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La sélection sexuelle est un type de sélection naturelle dans laquelle les traits favorisés augmentent le succès _____."
+      },
+      {
+        "type": "qcm",
+        "question": "La dérive génétique est :",
+        "choices": [
+          "Une sélection dans un grand groupe",
+          "Un changement aléatoire des fréquences alléliques dans une petite population",
+          "Une mutation dirigée",
+          "Une migration de gènes"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La théorie synthétique de l'évolution (Modern Synthesis) combine la génétique mendélienne avec la théorie darwinienne de la sélection naturelle."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

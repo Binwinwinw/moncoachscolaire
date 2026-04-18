@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques 2nde : Calcul littéral & factorisation",
     "status": "published",
-    "created_at": "2026-04-06 06:40:42",
-    "updated_at": "2026-04-06 06:40:42"
+    "created_at": "2026-04-18 18:34:32",
+    "updated_at": "2026-04-18 18:34:32"
   },
   "quiz": {
     "title": "Calcul littéral & factorisation",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "X² − 9 = x² − 3² = (x−3)(x+3) grâce à l'identité a² − b² = (a−b)(a+b)."
+        "question": "Factorise l'expression : x² − 9. La bonne réponse attendue est : (x − 3)(x + 3)."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "(x+4)(x−1) = x² − x + 4x − 4 = x² + 3x − 4."
+        "question": "Développe et réduis : (x + 4)(x − 1). La bonne réponse attendue est : x² + 3x − 4."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fonctions polynomiales",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Géométrie analytique",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Ensembles et logique",
-      "description": "Notion fondamentale de Mathématiques"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

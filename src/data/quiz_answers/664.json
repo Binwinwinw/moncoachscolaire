@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic SVT 3ème - Série 664",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT"
   },
   "quiz": {
     "title": "Immunologie : vaccination et sérum",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Stimuler l'immunité acquise en présentant un antigène inoffensif",
+        "correct": 1,
         "correction": "Un vaccin contient des antigènes (atténués, inactivés ou fragments) qui stimulent l'immunité et créent une mémoire immunologique sans provoquer la maladie."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. L'immunité collective (ou immunité grégaire) protège indirectement les individus non immunisés en réduisant la circulation du pathogène."
+        "correction": "L'immunité collective (ou immunité grégaire) protège indirectement les individus non immunisés en réduisant la circulation du pathogène."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Le vaccin prévient la maladie ; le sérum guérit après l'infection",
+        "correct": 1,
         "correction": "La vaccination crée une mémoire immunitaire (immunité active) ; le sérum apporte des anticorps préformés (immunité passive) pour un traitement d'urgence."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Edward Jenner a développé le premier vaccin en 1796 en utilisant la vaccine (variole de vache) pour immuniser contre la variole."
+        "correction": "Edward Jenner a développé le premier vaccin en 1796 en utilisant la vaccine (variole de vache) pour immuniser contre la variole."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Car le virus de la grippe mute rapidement",
+        "correct": 1,
         "correction": "Le virus influenza présente une forte variabilité antigénique (mutations et réassortiments génétiques) nécessitant une adaptation annuelle du vaccin."
       },
       {

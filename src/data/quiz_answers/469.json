@@ -1,42 +1,44 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 469",
-    "level": "1ère",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 469",
+    "level": "1ere",
     "subject": "Français"
   },
   "quiz": {
-    "title": "La poésie lyrique",
+    "title": "La poÃ©sie lyrique",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "L'expression des sentiments personnels du poète",
-        "correction": "Le lyrisme vient de la lyre : il exprime les émotions intimes du sujet poétique."
+        "answer": "L'expression des sentiments personnels du poÃ¨te",
+        "correct": 1,
+        "correction": "Le lyrisme vient de la lyre : il exprime les Ã©motions intimes du sujet poÃ©tique."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "Les Romantiques (Lamartine, Hugo, Musset, Vigny) font du 'moi' lyrique le centre de la création poétique."
+        "correction": "Les Romantiques (Lamartine, Hugo, Musset, Vigny) font du 'moi' lyrique le centre de la crÃ©ation poÃ©tique."
       },
       {
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Le spleen baudelairien est une mélancolie existentielle, opposée à l'idéal."
+        "answer": "faux",
+        "correction": "Le spleen baudelairien est une mÃ©lancolie existentielle, opposÃ©e Ã  l'idÃ©al."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Personnification de la nature / pathetic fallacy",
-        "correction": "Le poète lyrique projette ses émotions sur la nature (paysage état d'âme)."
+        "correct": 2,
+        "correction": "Le poÃ¨te lyrique projette ses Ã©motions sur la nature (paysage Ã©tat d'Ã¢me)."
       },
       {
         "index": 4,
@@ -49,22 +51,23 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Les Méditations poétiques de Lamartine (1820) marquent le début de la poésie romantique française."
+        "answer": "faux",
+        "correction": "Les MÃ©ditations poÃ©tiques de Lamartine (1820) marquent le dÃ©but de la poÃ©sie romantique franÃ§aise."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Lutter contre l'oubli du temps et d'un amour disparu",
-        "correction": "Le lac est invoqué comme témoin de l'amour passé ; le poème médite sur la fuite du temps."
+        "correct": 1,
+        "correction": "Le lac est invoquÃ© comme tÃ©moin de l'amour passÃ© ; le poÃ¨me mÃ©dite sur la fuite du temps."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "Le vers libre (Verlaine, Rimbaud, puis XXe siècle) s'affranchit des contraintes prosodiques classiques."
+        "correction": "Le vers libre (Verlaine, Rimbaud, puis XXe siÃ¨cle) s'affranchit des contraintes prosodiques classiques."
       }
     ]
   }

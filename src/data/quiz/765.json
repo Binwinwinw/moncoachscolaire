@@ -6,8 +6,8 @@
     "subject": "EMC",
     "description": "Diagnostic EMC 3eme : Les menaces contemporaines et la securite collective",
     "status": "published",
-    "created_at": "2026-04-06 06:40:43",
-    "updated_at": "2026-04-06 06:40:43"
+    "created_at": "2026-04-18 21:24:13",
+    "updated_at": "2026-04-18 21:24:13"
   },
   "quiz": {
     "title": "Les menaces contemporaines et la securite collective",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Risques environnementaux globaux."
+        "question": "La bonne réponse attendue est : risques environnementaux globaux."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Un rançongiciel (ransomware) est un logiciel malveillant qui chiffre les données et exige une rançon (souvent en cryptomonnaie) pour leur restitution."
+        "question": "La bonne réponse attendue est : rançongiciel."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de EMC",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Compétences de base 3eme",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Savoir-faire emc",
-      "description": "Notion du programme 3eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

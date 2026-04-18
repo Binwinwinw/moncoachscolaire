@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 707",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie"
   },
   "quiz": {
     "title": "Réactions chimiques : combustions",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Combustible, comburant (O2), énergie d'activation",
+        "correct": 1,
         "correction": "Le triangle du feu requiert un combustible, un comburant (généralement O2) et une source d'énergie d'activation."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La combustion incomplète produit du CO (monoxyde de carbone), gaz incolore et inodore très toxique."
+        "correction": "La combustion incomplète produit du CO (monoxyde de carbone), gaz incolore et inodore très toxique."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "2C4H10 + 13O2 → 8CO2 + 10H2O",
+        "correct": 1,
         "correction": "Combustion complète du butane : 2C4H10 + 13O2 → 8CO2 + 10H2O (conservation des atomes C, H, O)."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Les hydrocarbures (alcanes, alcènes, alcynes) ne contiennent que C et H ; le méthane (CH4) est le plus simple."
+        "correction": "Les hydrocarbures (alcanes, alcènes, alcynes) ne contiennent que C et H ; le méthane (CH4) est le plus simple."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Eau de chaux qui se trouble",
+        "correct": 1,
         "correction": "CO2 + Ca(OH)2 → CaCO3 (précipité blanc) + H2O. L'eau de chaux qui se trouble révèle le CO2."
       },
       {

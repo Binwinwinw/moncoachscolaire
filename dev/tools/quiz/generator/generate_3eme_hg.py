@@ -15,7 +15,7 @@ import os
 from datetime import UTC, datetime
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", ".."))
+REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", "..", ".."))
 HG3_OUTPUT_DIR = os.path.join(SCRIPT_DIR, "hg_3eme_quizzes")
 HG3_QUIZ_DIR = os.path.join(HG3_OUTPUT_DIR, "quiz")
 HG3_ANSWERS_DIR = os.path.join(HG3_OUTPUT_DIR, "quiz_answers")
@@ -90,29 +90,49 @@ def normalize_text_payload(payload):
         return fix_mojibake_text(payload)
     return payload
 
+
+def normalize_question_type(question_type):
+    qtype = str(question_type or "").strip().lower().replace("_", "-")
+    if qtype == "qcm":
+        return "qcm"
+    return "vrai-faux"
+
+
+def build_true_false_statement(question_text, correct_answer, explanation):
+    answer = str(correct_answer or "").strip().rstrip(".!? ")
+    detail = str(explanation or "").strip()
+    if answer:
+        return f"La bonne réponse attendue est : {answer}."
+    if detail:
+        return detail if detail.endswith((".", "!", "?")) else f"{detail}."
+    prompt = str(question_text or "").strip()
+    return prompt if prompt else "Cette affirmation est à évaluer."
+
+
 def make_quiz(qid, title, subject, level, questions):
-    answer_keys = {"correct_answer", "correct_option", "correct", "explanation"}
-    questions = [{k: v for k, v in q.items() if k not in answer_keys} for q in questions]
     created_at = datetime.now(UTC).strftime("%Y-%m-%d %H:%M:%S")
     runtime_questions = []
 
     for question in questions:
-        qtype = str(question.get("type", "texte"))
+        raw_type = str(question.get("type", "") or "").strip().lower().replace("_", "-")
+        qtype = normalize_question_type(raw_type)
         if qtype == "qcm":
             runtime_questions.append({
                 "type": "qcm",
                 "question": str(question.get("question", "")),
                 "choices": list(question.get("options", [])),
             })
-        elif qtype == "vrai-faux":
+        else:
+            question_text = str(question.get("question", ""))
+            if raw_type not in {"vrai-faux", "vrai faux"}:
+                question_text = build_true_false_statement(
+                    question.get("question", ""),
+                    question.get("correct_answer", ""),
+                    question.get("explanation", ""),
+                )
             runtime_questions.append({
                 "type": "vrai-faux",
-                "question": str(question.get("question", "")),
-            })
-        else:
-            runtime_questions.append({
-                "type": "open",
-                "question": str(question.get("question", "")),
+                "question": question_text,
             })
 
     return {
@@ -143,7 +163,8 @@ def make_quiz(qid, title, subject, level, questions):
 def make_answers(qid, title, subject, level, questions):
     answers = []
     for index, q in enumerate(questions):
-        qtype = str(q.get("type", "texte"))
+        raw_type = str(q.get("type", "") or "").strip().lower().replace("_", "-")
+        qtype = normalize_question_type(raw_type)
         if qtype == "qcm":
             options = list(q.get("options", []))
             correct_answer = str(q.get("correct_option", q.get("correct_answer", "")))
@@ -156,22 +177,17 @@ def make_answers(qid, title, subject, level, questions):
                 "correct": correct_index,
                 "correction": str(q.get("explanation", "")),
             })
-        elif qtype == "vrai-faux":
-            tf_source = q.get("correct", q.get("correct_answer", "faux"))
-            tf_answer = "vrai" if str(tf_source).strip().lower() in {"true", "vrai", "1"} else "faux"
+        else:
+            if raw_type in {"vrai-faux", "vrai faux"}:
+                tf_source = q.get("correct", q.get("correct_answer", "faux"))
+                tf_answer = "vrai" if str(tf_source).strip().lower() in {"true", "vrai", "1"} else "faux"
+            else:
+                tf_answer = "vrai"
             answers.append({
                 "index": index,
                 "question_id": index + 1,
                 "type": "vrai-faux",
                 "answer": tf_answer,
-                "correction": str(q.get("explanation", "")),
-            })
-        else:
-            answers.append({
-                "index": index,
-                "question_id": index + 1,
-                "type": "open",
-                "answer": str(q.get("correct_answer", "")),
                 "correction": str(q.get("explanation", "")),
             })
     return {

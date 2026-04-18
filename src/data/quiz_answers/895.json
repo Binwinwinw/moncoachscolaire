@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic NSI 1ère - Série 895",
-    "level": "1ère",
+    "title": "Quiz Diagnostic NSI 1ere - Série 895",
+    "level": "1ere",
     "subject": "NSI"
   },
   "quiz": {
     "title": "Modules et bibliothèques Python",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "from math import sqrt",
+        "correct": 2,
         "correction": "from module import fonction importe directement sqrt dans l'espace de noms courant. Puis sqrt(16) suffit (sans math. préfixe)."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. os.path est très utilisé pour manipuler les chemins de fichiers de façon portable (Windows/Linux/Mac)."
+        "answer": "faux",
+        "correction": "os.path est très utilisé pour manipuler les chemins de fichiers de façon portable (Windows/Linux/Mac)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "import math accède via math.sin() ; from math import * importe tout directement dans l'espace de noms",
+        "correct": 1,
         "correction": "from module import * est déconseillé car il peut écraser des noms existants et rend difficile de savoir d'où viennent les fonctions."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Chaque projet peut avoir ses propres versions de bibliothèques sans interférer avec les autres projets ou le Python système."
+        "answer": "faux",
+        "correction": "Chaque projet peut avoir ses propres versions de bibliothèques sans interférer avec les autres projets ou le Python système."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Dessiner des graphiques en déplaçant une tortue virtuelle",
+        "correct": 1,
         "correction": "turtle est un module éducatif pour apprendre la programmation par le dessin. forward(100), right(90)... permettent de créer des figures géométriques."
       },
       {

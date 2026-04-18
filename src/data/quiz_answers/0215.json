@@ -1,0 +1,43 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 0215",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Ã‰volution des besoins et innovations techniques.",
+    "question_count": 4,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Tous les concepts mentionnÃ©s",
+        "correction": "Les concepts de base en Ã©volution des besoins et innovations techniques comprennent l'Ã©volution des besoins, qui fait rÃ©fÃ©rence aux changements dans les attentes, les prÃ©fÃ©rences, et les exigences des utilisateurs au fil du temps, les innovations techniques, qui sont des avancÃ©es ou des amÃ©liorations dans les technologies existantes ou la crÃ©ation de nouvelles technologies pour rÃ©pondre Ã  ces besoins changeants, et l'impact sur la sociÃ©tÃ©, qui examine comment ces Ã©volutions et innovations affectent la maniÃ¨re dont les gens vivent, travaillent, et interagissent."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, l'Ã©volution des besoins fait rÃ©fÃ©rence aux changements dans les attentes, les prÃ©fÃ©rences, et les exigences des utilisateurs au fil du temps, ce qui peut Ãªtre influencÃ© par divers facteurs tels que les avancÃ©es technologiques, les tendances sociales, et les changements culturels."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnÃ©s",
+        "correction": "L'intelligence artificielle, la rÃ©alitÃ© virtuelle, et l'impression 3D sont tous des exemples d'innovations techniques qui ont apportÃ© de nouvelles possibilitÃ©s et amÃ©liorations dans divers domaines tels que la santÃ©, l'Ã©ducation, le divertissement, et la fabrication."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, les innovations techniques ont un impact significatif sur la sociÃ©tÃ©, influenÃ§ant la maniÃ¨re dont les gens vivent, travaillent, et interagissent."
+      }
+    ]
+  }
+}

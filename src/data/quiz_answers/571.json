@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 571",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie"
   },
   "quiz": {
     "title": "Les espaces urbains en France",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "80%",
+        "correct": 2,
         "correction": "Environ 80% des Français vivent dans des espaces urbains (villes et leurs agglomérations)."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La politique de la ville vise à réduire les inégalités entre centres-villes riches et banlieues défavorisées (zones sensibles, ANRU...)."
+        "correction": "La politique de la ville vise à réduire les inégalités entre centres-villes riches et banlieues défavorisées (zones sensibles, ANRU...)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Une grande ville qui rayonne sur une large région et propose de nombreux services",
+        "correct": 2,
         "correction": "Une métropole est un centre urbain majeur offrant emploi, culture, transport, enseignement supérieur et santé à une large aire d'influence."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La suburbanisation (ou étalement urbain) est liée à la recherche de logements plus grands, moins chers et plus proches de la nature."
+        "correction": "La suburbanisation (ou étalement urbain) est liée à la recherche de logements plus grands, moins chers et plus proches de la nature."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Loi SRU (Solidarité et Renouvellement Urbain)",
+        "correct": 2,
         "correction": "La loi SRU de 2000 (renforcée par la loi Duflot en 2013 à 25%) impose un quota de logements sociaux dans les communes de plus de 3 500 habitants."
       },
       {

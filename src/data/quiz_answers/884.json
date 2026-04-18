@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic NSI 1ère - Série 884",
-    "level": "1ère",
+    "title": "Quiz Diagnostic NSI 1ere - Série 884",
+    "level": "1ere",
     "subject": "NSI"
   },
   "quiz": {
     "title": "API et services web",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Application Programming Interface",
+        "correct": 1,
         "correction": "Une API est une interface qui permet à des programmes de communiquer entre eux, en exposant des fonctions ou des données."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. requests.get() envoie une requête GET. .json() décode la réponse JSON. On peut aussi passer des paramètres : params={'cle': 'valeur'}."
+        "answer": "faux",
+        "correction": "requests.get() envoie une requête GET. .json() décode la réponse JSON. On peut aussi passer des paramètres : params={'cle': 'valeur'}."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Authentifier et autoriser l'accès à une API",
+        "correct": 1,
         "correction": "La clé API identifie l'application ou l'utilisateur qui interroge l'API. Elle permet de contrôler l'accès et de limiter le nombre de requêtes (rate limiting)."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. En Python, BeautifulSoup et Scrapy sont des bibliothèques de scraping. Respecter le fichier robots.txt est une convention de politesse."
+        "answer": "faux",
+        "correction": "En Python, BeautifulSoup et Scrapy sont des bibliothèques de scraping. Respecter le fichier robots.txt est une convention de politesse."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Sérialiser (encode) et désérialiser (decode) des données JSON",
+        "correct": 1,
         "correction": "json.dumps(obj) convertit un objet Python en chaîne JSON. json.loads(chaine) convertit une chaîne JSON en objet Python."
       },
       {

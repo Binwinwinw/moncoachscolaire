@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6ème - Série 0028",
+    "level": "6eme",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "Grammaire de base : articles, prépositions, pronoms personnels",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "The",
+        "correction": "The definite article in English is 'the', which is used to refer to specific nouns that are known to the speaker and listener."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The indefinite articles in English are indeed 'a' and 'an', which are used to refer to non-specific nouns."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "'In', 'On', and 'At' are all common English prepositions that indicate location, time, or direction."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The preposition 'in' is indeed used to indicate location inside something, such as 'The book is in the bag.'"
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "'I', 'You', and 'He' are all common English personal pronouns that are used to refer to specific people or things in a sentence."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The personal pronoun 'she' is indeed used to refer to a female person."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "'My', 'Your', and 'His' are all common English possessive pronouns that are used to indicate ownership or possession."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The possessive pronoun 'our' is indeed used to refer to something that belongs to us, such as 'This is our house.'"
+      }
+    ]
+  }
+}

@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Propriétés du logarithme",
     "status": "published",
-    "created_at": "2026-04-06 06:40:48",
-    "updated_at": "2026-04-06 06:40:48"
+    "created_at": "2026-04-18 18:52:46",
+    "updated_at": "2026-04-18 18:52:46"
   },
   "quiz": {
     "title": "Propriétés du logarithme",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Ln(8) = ln(2³) = 3·ln(2)."
+        "question": "Simplifie : ln(8) en utilisant les propriétés du logarithme. La bonne réponse attendue est : 3·ln(2)."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Ln(x(x−2)) = ln(3) ⟺ x(x−2) = 3 ⟺ x²−2x−3 = 0 ⟺ (x−3)(x+1)=0."
+        "question": "Résous ln(x) + ln(x − 2) = ln(3) avec x > 2. La bonne réponse attendue est : x = 3."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Propriété de logarithme",
-      "description": "Le logarithme d'un produit est égal à la somme des logarithmes : ln(a · b) = ln(a) + ln(b)"
-    },
-    {
-      "notion": "Fonction logarithmique",
-      "description": "La fonction logarithmique est une fonction mathématique qui inverse l'opération d'exponentiation : ln(x) est la puissance à laquelle il faut élever e pour obtenir x"
-    },
-    {
-      "notion": "Identité logarithmique",
-      "description": "Les identités logarithmiques sont des équations qui relient les logarithmes entre eux, comme ln(a · b) = ln(a) + ln(b), et sont utilisées pour simplifier les expressions logarithmiques"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

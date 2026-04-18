@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 731",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie"
   },
   "quiz": {
     "title": "Lumière : dispersion et spectre lumineux",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La séparation de la lumière blanche en différentes couleurs en fonction de leur longueur d'onde",
+        "correct": 2,
         "correction": "La dispersion est le phénomène par lequel un prisme ou une goutte d'eau sépare la lumière blanche en un spectre de couleurs (arc-en-ciel)."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Un spectroscope permet de décomposer la lumière en son spectre et d'analyser les raies d'émission ou d'absorption."
+        "correction": "Un spectroscope permet de décomposer la lumière en son spectre et d'analyser les raies d'émission ou d'absorption."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Raies d'absorption",
+        "correct": 1,
         "correction": "Les raies sombres (raies de Fraunhofer) sont des raies d'absorption causées par les éléments chimiques dans l'atmosphère solaire qui absorbent certaines longueurs d'onde."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La lumière UV s'étend de 10 nm à 400 nm, en dessous du violet du spectre visible."
+        "correction": "La lumière UV s'étend de 10 nm à 400 nm, en dessous du violet du spectre visible."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Dispersion et réfraction dans les gouttes d'eau",
+        "correct": 2,
         "correction": "L'arc-en-ciel se forme par la réfraction, la dispersion et la réflexion interne dans les gouttes d'eau suspendues dans l'air."
       },
       {

@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic HGGSP 1ère - Série 924",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP"
   },
   "quiz": {
     "title": "La cybersécurité et les cyberattaques",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le programme nucléaire iranien",
+        "correct": 1,
         "correction": "Stuxnet, développé par les USA et Israël, ciblait les centrifugeuses d'enrichissement d'uranium iraniennes, détruisant physiquement des équipements via un virus informatique."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Ces attaques sont souvent difficiles à attribuer (deniability plausible) car opérées via des intermédiaires ou des groupes hackers parrainés."
+        "answer": "faux",
+        "correction": "Ces attaques sont souvent difficiles à attribuer (deniability plausible) car opérées via des intermédiaires ou des groupes hackers parrainés."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La cybersécurité et la défense des systèmes d'information",
+        "correct": 1,
         "correction": "L'ANSSI (Agence nationale de la sécurité des systèmes d'information) protège les infrastructures critiques françaises et conseille les administrations et entreprises sur la cybersécurité."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La difficulté d'attribution affaiblit la dissuasion et favorise l'impunité des États agresseurs."
+        "answer": "faux",
+        "correction": "La difficulté d'attribution affaiblit la dissuasion et favorise l'impunité des États agresseurs."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Une étude académique sur l'application du droit international aux cyberopérations, commanditée par l'OTAN",
+        "correct": 1,
         "correction": "Le Manuel de Tallinn (2013, 2017) est une référence pour les experts mais n'a pas force contraignante. Il analyse comment le droit international (droit des conflits armés) s'applique aux cyberopérations."
       },
       {

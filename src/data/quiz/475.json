@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 475",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 475",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
-    "description": "Diagnostic Français 1ère : Les Lumières et la littérature engagée (XVIIIe s.)",
+    "description": "Diagnostic Français 1ere : Les LumiÃ¨res et la littÃ©rature engagÃ©e (XVIIIe s.)",
     "status": "published",
-    "created_at": "2026-03-13 18:59:43",
-    "updated_at": "2026-03-13 18:59:43"
+    "created_at": "2026-04-18 20:20:12",
+    "updated_at": "2026-04-18 20:20:12"
   },
   "quiz": {
-    "title": "Les Lumières et la littérature engagée (XVIIIe s.)",
+    "title": "Les LumiÃ¨res et la littÃ©rature engagÃ©e (XVIIIe s.)",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
@@ -20,27 +20,27 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel est le grand projet éditorial des philosophes des Lumières ?",
+        "question": "Quel est le grand projet Ã©ditorial des philosophes des LumiÃ¨res ?",
         "choices": [
-          "La Comédie humaine",
-          "L'Encyclopédie",
+          "La ComÃ©die humaine",
+          "L'EncyclopÃ©die",
           "Les Rougon-Macquart",
-          "La Nouvelle Héloïse"
+          "La Nouvelle HÃ©loÃ¯se"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Voltaire défend la tolérance religieuse notamment dans son Traité sur la tolérance."
+        "question": "Voltaire dÃ©fend la tolÃ©rance religieuse notamment dans son TraitÃ© sur la tolÃ©rance."
       },
       {
         "type": "vrai-faux",
-        "question": "Du contrat social (1762) théorise le pacte entre les individus comme fondement de la société."
+        "question": "Rousseau dÃ©veloppe la notion de _____ social dans son Å“uvre Du contrat social."
       },
       {
         "type": "qcm",
-        "question": "Quelle est la devise des Lumières selon Kant ?",
+        "question": "Quelle est la devise des LumiÃ¨res selon Kant ?",
         "choices": [
-          "Liberté, Égalité, Fraternité",
+          "LibertÃ©, Ã‰galitÃ©, FraternitÃ©",
           "Ose savoir (Sapere aude)",
           "Je pense donc je suis",
           "L'homme est un loup pour l'homme"
@@ -48,15 +48,15 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Le conte philosophique est un genre utilisé par les philosophes des Lumières pour transmettre leurs idées."
+        "question": "Le conte philosophique est un genre utilisÃ© par les philosophes des LumiÃ¨res pour transmettre leurs idÃ©es."
       },
       {
         "type": "vrai-faux",
-        "question": "La vision extérieure du Persan Rica rend visible l'absurdité de certaines institutions françaises."
+        "question": "Dans les Lettres persanes, Montesquieu utilise le point de vue d'Ã©trangers pour _____ la sociÃ©tÃ© franÃ§aise."
       },
       {
         "type": "qcm",
-        "question": "Quel philosophe des Lumières est le plus associé à la défense de la liberté d'expression ?",
+        "question": "Quel philosophe des LumiÃ¨res est le plus associÃ© Ã  la dÃ©fense de la libertÃ© d'expression ?",
         "choices": [
           "Rousseau",
           "Voltaire",
@@ -66,23 +66,10 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La littérature engagée implique nécessairement un parti politique précis."
+        "question": "La littÃ©rature engagÃ©e implique nÃ©cessairement un parti politique prÃ©cis."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Baccalauréat français",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Poésie baroque et classique",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Théâtre et représentation",
-      "description": "Notion fondamentale de Français"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

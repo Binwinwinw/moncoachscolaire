@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "+∞",
+        "answer": "C",
         "correction": "La fonction exponentielle tend vers +∞ quand x → +∞."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. On divise numérateur et dénominateur par x² : (1 + 3/x − 2/x²)/(2 − 1/x + 1/x²) → 1/2."
+        "correction": "On divise numérateur et dénominateur par x² : (1 + 3/x − 2/x²)/(2 − 1/x + 1/x²) → 1/2."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "+∞",
+        "answer": "C",
         "correction": "Le logarithme népérien tend vers +∞ quand x → +∞ (croissance lente mais divergente)."
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. f(x) = x + 1/x ; lim[f(x) − x] = 0. La droite y = x est une asymptote oblique en ±∞."
+        "correction": "f(x) = x + 1/x ; lim[f(x) − x] = 0. La droite y = x est une asymptote oblique en ±∞."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "+∞",
+        "answer": "C",
         "correction": "Croissances comparées : l'exponentielle l'emporte sur tout polynôme. x·e^(−x) → 0."
       },
       {

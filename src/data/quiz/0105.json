@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 6eme - Série 0105",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 6eme : EMC 6e - Les droits et devoirs du citoyen",
+    "status": "published",
+    "created_at": "2026-04-18 20:07:59",
+    "updated_at": "2026-04-18 20:07:59"
+  },
+  "quiz": {
+    "title": "EMC 6e - Les droits et devoirs du citoyen",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quels sont les droits fondamentaux des citoyens français ?",
+        "choices": [
+          "La liberté d'expression, le droit de vote, le droit à l'éducation",
+          "Le droit de posséder des armes, le droit de ne pas payer d'impôts",
+          "Le droit de ne pas respecter les lois, le droit de ne pas travailler",
+          "Le droit de contrôler les médias, le droit de faire la guerre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les citoyens français ont le devoir de respecter les lois."
+      },
+      {
+        "type": "qcm",
+        "question": "Quels sont les devoirs des citoyens français ?",
+        "choices": [
+          "Respecter les lois, payer des impôts, participer à la vie démocratique",
+          "Ne pas respecter les lois, ne pas payer d'impôts, ne pas participer à la vie démocratique",
+          "Respecter les lois uniquement lorsqu'ils le souhaitent",
+          "Payer des impôts uniquement lorsqu'ils en ont envie"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les citoyens français ont le droit de ne pas respecter les lois s'ils ne sont pas d'accord avec elles."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle de la participation citoyenne dans une démocratie ?",
+        "choices": [
+          "La participation citoyenne permet aux citoyens de s'impliquer dans les décisions qui affectent leur vie et de contribuer au fonctionnement de la démocratie.",
+          "La participation citoyenne est inutile dans une démocratie, car les décisions sont prises par les politiciens.",
+          "La participation citoyenne est réservée aux élites politiques et économiques.",
+          "La participation citoyenne est limitée aux élections uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les citoyens français ont le droit de ne pas payer d'impôts s'ils ne sont pas d'accord avec les politiques fiscales du gouvernement."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle de l'éducation civique dans la formation des citoyens français ?",
+        "choices": [
+          "L'éducation civique permet aux citoyens français de comprendre leurs droits et devoirs, ainsi que le fonctionnement des institutions de la République.",
+          "L'éducation civique est inutile dans la formation des citoyens français, car ils peuvent apprendre par eux-mêmes.",
+          "L'éducation civique est réservée aux élites politiques et économiques.",
+          "L'éducation civique est limitée aux écoles uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les citoyens français ont le droit de ne pas participer à la vie démocratique s'ils ne le souhaitent pas."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

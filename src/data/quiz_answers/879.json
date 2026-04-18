@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic NSI 1ère - Série 879",
-    "level": "1ère",
+    "title": "Quiz Diagnostic NSI 1ere - Série 879",
+    "level": "1ere",
     "subject": "NSI"
   },
   "quiz": {
     "title": "HTML — Structure d'une page web",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "HyperText Markup Language",
+        "correct": 0,
         "correction": "HTML est le langage de balisage standard pour créer des pages web. La version actuelle est HTML5."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Le DOCTYPE déclare la version HTML. est la racine. contient les métadonnées. le contenu visible."
+        "answer": "faux",
+        "correction": "Le DOCTYPE déclare la version HTML. <html> est la racine. <head> contient les métadonnées. <body> le contenu visible."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "<a>",
+        "correct": 2,
         "correction": "<a href='url'>texte</a> crée un lien. L'attribut href spécifie la destination. <link> est pour les feuilles de style CSS dans <head>."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. est utilisé pour structurer de grandes sections. pour cibler du texte à l'intérieur d'un paragraphe."
+        "answer": "faux",
+        "correction": "<div> est utilisé pour structurer de grandes sections. <span> pour cibler du texte à l'intérieur d'un paragraphe."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Fournir un texte alternatif pour l'accessibilité",
+        "correct": 1,
         "correction": "alt est lu par les lecteurs d'écran (accessibilité) et affiché si l'image ne se charge pas. Il est indispensable pour le SEO et l'accessibilité."
       },
       {

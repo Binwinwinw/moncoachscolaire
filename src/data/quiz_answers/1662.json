@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "I am always tired on Monday.",
+        "correct": 1,
         "correction": "L'adverbe de fréquence se place avant l'adjectif ou après l'auxiliaire."
       },
       {
@@ -27,8 +28,8 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "us",
+        "type": "vrai-faux",
+        "answer": "vrai",
         "correction": "En fonction complément, on utilise 'us', pas 'we'."
       },
       {
@@ -36,6 +37,7 @@
         "question_id": 4,
         "type": "qcm",
         "answer": "If I have time, I will call you.",
+        "correct": 1,
         "correction": "First conditional: if + present simple, will + base verb."
       },
       {
@@ -48,8 +50,8 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "I see your point, but",
+        "type": "vrai-faux",
+        "answer": "vrai",
         "correction": "On peut nuancer un désaccord avec une formule polie puis un contre-argument."
       },
       {
@@ -57,6 +59,7 @@
         "question_id": 7,
         "type": "qcm",
         "answer": "Spaced repetition with regular review",
+        "correct": 1,
         "correction": "La répétition espacée améliore fortement la mémorisation durable."
       },
       {

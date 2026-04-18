@@ -6,8 +6,8 @@
     "subject": "Anglais",
     "description": "Diagnostic Anglais 2nde : Diagnostic 2nde Anglais - Vocabulary and Word Formation",
     "status": "published",
-    "created_at": "2026-04-06 06:40:41",
-    "updated_at": "2026-04-06 06:40:41",
+    "created_at": "2026-04-18 15:23:24",
+    "updated_at": "2026-04-18 15:23:24",
     "source": "Eduscol programmes officiels + BOEN",
     "programme_ref": "BO special n°1 du 22 janvier 2019 (LGT) + Eduscol Langues vivantes Seconde"
   },
@@ -35,8 +35,8 @@
         "question": "'Careful' and 'careless' have opposite meanings."
       },
       {
-        "type": "open",
-        "question": "Give the noun form of \"decide\"."
+        "type": "vrai-faux",
+        "question": "La bonne réponse attendue est : decision."
       },
       {
         "type": "qcm",
@@ -53,8 +53,8 @@
         "question": "A false friend is a word that looks similar in two languages but has a different meaning."
       },
       {
-        "type": "open",
-        "question": "Give the adjective form of \"danger\"."
+        "type": "vrai-faux",
+        "question": "La bonne réponse attendue est : dangerous."
       },
       {
         "type": "qcm",
@@ -72,19 +72,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Littérature anglophone",
-      "description": "Notion fondamentale de Anglais"
-    },
-    {
-      "notion": "Phonétique avancée",
-      "description": "Notion fondamentale de Anglais"
-    },
-    {
-      "notion": "Expression nuancée",
-      "description": "Notion fondamentale de Anglais"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

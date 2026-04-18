@@ -2,19 +2,19 @@
   "contents": {
     "title": "Quiz Diagnostic Espagnol terminale - SÃ©rie 1815",
     "type": "quiz",
-    "level": "terminale",
+    "level": "Terminale",
     "subject": "Espagnol",
     "description": "Diagnostic Espagnol terminale : Espagnol terminale - Expression ecrite breve",
     "status": "published",
-    "created_at": "2026-04-06 06:40:47",
-    "updated_at": "2026-04-06 06:40:47",
+    "created_at": "2026-04-18 18:52:45",
+    "updated_at": "2026-04-18 18:52:45",
     "source": "Eduscol programmes officiels + BOEN",
     "programme_ref": "BO special ndeg8 du 25 juillet 2019 + Eduscol Langues vivantes Terminale"
   },
   "quiz": {
     "title": "Espagnol terminale - Expression ecrite breve",
     "type": "quiz",
-    "level": "terminale",
+    "level": "Terminale",
     "subject": "Espagnol",
     "question_count": 8,
     "passing_score": 70,
@@ -35,7 +35,7 @@
         "question": "[Espagnol terminale] Sur 'Expression ecrite breve', verifier ses reponses avant validation ameliore la fiabilite."
       },
       {
-        "type": "open",
+        "type": "vrai-faux",
         "question": "[Espagnol terminale] Cite une methode concrete pour progresser sur le theme 'Expression ecrite breve'."
       },
       {
@@ -53,7 +53,7 @@
         "question": "[Espagnol terminale] L'explication d'une reponse est moins importante que la reponse elle-meme."
       },
       {
-        "type": "open",
+        "type": "vrai-faux",
         "question": "[Espagnol terminale] Propose un exemple d'auto-correction pertinente sur 'Expression ecrite breve'."
       },
       {
@@ -72,19 +72,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Grandes œuvres espagnoles",
-      "description": "Notion fondamentale de Espagnol"
-    },
-    {
-      "notion": "Politique et société latino",
-      "description": "Notion fondamentale de Espagnol"
-    },
-    {
-      "notion": "Presse et média espagnol",
-      "description": "Notion fondamentale de Espagnol"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

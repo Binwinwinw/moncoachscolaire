@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques 2nde : Repères & coordonnées dans l'espace",
     "status": "published",
-    "created_at": "2026-04-06 06:40:42",
-    "updated_at": "2026-04-06 06:40:42"
+    "created_at": "2026-04-18 18:34:33",
+    "updated_at": "2026-04-18 18:34:33"
   },
   "quiz": {
     "title": "Repères & coordonnées dans l'espace",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Milieu M = ((1+4)/2, (2+5)/2, (3+6)/2) = (2.5, 3.5, 4.5)."
+        "question": "Calcule les coordonnées du milieu du segment [AB] si A(1, 2, 3) et B(4, 5, 6). La bonne réponse attendue est : (2.5, 3.5, 4.5)."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La droite AB peut être parametree par M(t) = A + t(B - A) = (1 + 3t, 2 + 3t, 3 + 3t)."
+        "question": "Détermine les coordonnées du point d'intersection de la droite passant par A(1, 2, 3) et B(4, 5, 6) avec le plan z = 0. La bonne réponse attendue est : (−1, 0, 0)."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fonctions polynomiales",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Géométrie analytique",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Ensembles et logique",
-      "description": "Notion fondamentale de Mathématiques"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

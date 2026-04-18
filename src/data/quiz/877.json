@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic NSI 1ère - Série 877",
+    "title": "Quiz Diagnostic NSI 1ere - Série 877",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
-    "description": "Diagnostic NSI 1ère : Algorithmes de recherche dans des données",
+    "description": "Diagnostic NSI 1ere : Algorithmes de recherche dans des données",
     "status": "published",
-    "created_at": "2026-04-06 06:40:40",
-    "updated_at": "2026-04-06 06:40:40"
+    "created_at": "2026-04-18 20:28:31",
+    "updated_at": "2026-04-18 20:28:31"
   },
   "quiz": {
     "title": "Algorithmes de recherche dans des données",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "On compare la valeur cible avec l'élément central."
+        "question": "Expliquez le principe de la recherche dichotomique et donnez sa complexité."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Def recherche_dichotomique(lst, cible): gauche, droite = 0, len(lst) - 1 while gauche <= droite: milieu = (gauche + droite) // 2 if lst[milieu] == cible: return milieu elif lst[milieu] < cible: gauche = milieu + 1 else: droite = milieu - 1 return -1."
+        "question": "Implémentez la recherche dichotomique en Python."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Algorithmes et complexité",
-      "description": "Notion fondamentale de NSI"
-    },
-    {
-      "notion": "Programmation objet",
-      "description": "Notion fondamentale de NSI"
-    },
-    {
-      "notion": "Données et réseaux",
-      "description": "Notion fondamentale de NSI"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

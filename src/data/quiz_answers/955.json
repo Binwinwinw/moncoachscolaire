@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic HGGSP 1ère - Série 955",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP"
   },
   "quiz": {
     "title": "Organisations régionales",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Un arbitrage entre intérêts politiques, économiques et culturels",
+        "correct": 1,
         "correction": "L'analyse HGGSP repose sur les rapports de force et les compromis entre acteurs."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Attendu : articulation local/national/international + rôle des acteurs."
+        "answer": "faux",
+        "correction": "L'analyse HGGSP doit articuler les échelles locale, nationale et internationale."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "les réponses régionales aux crises migratoires",
+        "correct": 0,
         "correction": "L'exemple choisi doit permettre de discuter acteurs, normes et stratégies."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. On attend une proposition précise, faisable et justifiée."
+        "answer": "faux",
+        "correction": "On attend une proposition précise, faisable et justifiée."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Identifier enjeux, acteurs, instruments et effets",
+        "correct": 0,
         "correction": "Cette méthode structure la démonstration et rend les arguments vérifiables."
       },
       {

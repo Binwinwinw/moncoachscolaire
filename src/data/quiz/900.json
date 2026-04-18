@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic NSI 1ere - Série 900",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "NSI",
+    "description": "Diagnostic NSI 1ere : CSS et mise en forme",
+    "status": "published",
+    "created_at": "2026-04-18 20:28:31",
+    "updated_at": "2026-04-18 20:28:31"
+  },
+  "quiz": {
+    "title": "CSS et mise en forme",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "NSI",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle définition correspond le mieux à CSS ?",
+        "choices": [
+          "Le langage utilisé pour styliser une page web",
+          "Une figure géométrique",
+          "Une règle de grammaire",
+          "Un mouvement littéraire"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Css est une notion utile pour comprendre le fonctionnement des systèmes numériques."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle notion est la plus directement associée à CSS ?",
+        "choices": [
+          "la feuille de style",
+          "la fable",
+          "la photosynthèse",
+          "la mondialisation"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Pour travailler CSS, on peut utiliser des activités pratiques, du code ou des schémas."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est l'objectif principal de l'étude de CSS ?",
+        "choices": [
+          "Comprendre les outils et concepts du numérique",
+          "Réciter des dates historiques",
+          "Apprendre uniquement par cœur",
+          "Éviter toute expérimentation"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Css peut être relié à des usages concrets du quotidien numérique."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel support peut aider à mieux comprendre CSS ?",
+        "choices": [
+          "Un algorithme, un schéma ou un exemple de code",
+          "Une seule récitation orale",
+          "Un vers rimé",
+          "Une carte des reliefs"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Étudier CSS développe la logique et la compréhension des systèmes informatiques."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

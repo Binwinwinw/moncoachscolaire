@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic NSI 1ère - Série 873",
-    "level": "1ère",
+    "title": "Quiz Diagnostic NSI 1ere - Série 873",
+    "level": "1ere",
     "subject": "NSI"
   },
   "quiz": {
     "title": "Listes et tableaux en Python",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "5",
+        "correct": 1,
         "correction": "len() retourne le nombre d'éléments de la liste. [1,2,3,4,5] contient 5 éléments."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Le slicing ne modifie pas la liste originale ; il retourne une nouvelle liste."
+        "answer": "faux",
+        "correction": "Le slicing ne modifie pas la liste originale ; il retourne une nouvelle liste."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "append()",
+        "correct": 2,
         "correction": "list.append(x) ajoute x à la fin. insert(i, x) insère à l'indice i. extend() fusionne avec une autre liste."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Pour des milliers d'éléments numériques, numpy est 10 à 100 fois plus rapide qu'une liste Python."
+        "answer": "faux",
+        "correction": "Pour des milliers d'éléments numériques, numpy est 10 à 100 fois plus rapide qu'une liste Python."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La liste [0, 0, 0]",
+        "correct": 1,
         "correction": "La multiplication d'une liste par n la répète n fois. [0]*3 = [0,0,0]."
       },
       {

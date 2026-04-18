@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6e - SÃ©rie 0193",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "DÃ©couverte de la technologie",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "L'Ã©tude des objets techniques",
+        "correction": "La technologie est l'Ã©tude des objets techniques et de leur utilisation."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, la technologie est utilisÃ©e dans de nombreux domaines, pas seulement pour les ordinateurs."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Un smartphone",
+        "correction": "Il existe de nombreux objets techniques que nous utilisons quotidiennement, comme les smartphones, les voitures, les lampes, etc."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, la technologie peut Ãªtre utilisÃ©e pour trouver des solutions Ã  de nombreux problÃ¨mes du quotidien."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "AmÃ©liorer la vie des gens",
+        "correction": "Le but principal de la technologie est d'amÃ©liorer la vie des gens en crÃ©ant des outils et des solutions pour rÃ©pondre Ã  leurs besoins."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, la technologie Ã©volue constamment avec de nouvelles inventions et innovations."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Un objet fabriquÃ© par l'homme pour rÃ©pondre Ã  un besoin",
+        "correction": "Un objet technique est un objet fabriquÃ© par l'homme pour rÃ©pondre Ã  un besoin spÃ©cifique."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, la technologie peut Ãªtre utilisÃ©e pour crÃ©er des Å“uvres d'art, comme la musique, les films, les jeux vidÃ©o, etc."
+      }
+    ]
+  }
+}

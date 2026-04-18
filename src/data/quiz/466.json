@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 466",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 466",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
-    "description": "Diagnostic Français 1ère : Le roman : personnage et narration",
+    "description": "Diagnostic Français 1ere : Le roman : personnage et narration",
     "status": "published",
-    "created_at": "2026-03-13 18:59:43",
-    "updated_at": "2026-03-13 18:59:43"
+    "created_at": "2026-04-18 20:20:12",
+    "updated_at": "2026-04-18 20:20:12"
   },
   "quiz": {
     "title": "Le roman : personnage et narration",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
@@ -20,27 +20,27 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Qu'est-ce qu'un narrateur homodiégétique ?",
+        "question": "Qu'est-ce qu'un narrateur homodiÃ©gÃ©tique ?",
         "choices": [
           "Il raconte une histoire dont il est absent",
-          "Il raconte une histoire dont il est le héros",
-          "Il est omniscient et extérieur",
+          "Il raconte une histoire dont il est le hÃ©ros",
+          "Il est omniscient et extÃ©rieur",
           "Il s'adresse directement au lecteur"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Le narrateur hétérodiégétique est absent de l'histoire qu'il raconte."
+        "question": "Le narrateur hÃ©tÃ©rodiÃ©gÃ©tique est absent de l'histoire qu'il raconte."
       },
       {
         "type": "vrai-faux",
-        "question": "En focalisation zéro, le narrateur connaît pensées, sentiments et événements passés/futurs."
+        "question": "ComplÃ©tez : 'La focalisation zÃ©ro correspond Ã  un narrateur _____, qui sait tout des personnages.'"
       },
       {
         "type": "qcm",
-        "question": "Quelle focalisation limite le savoir narratif à ce que perçoit un seul personnage ?",
+        "question": "Quelle focalisation limite le savoir narratif Ã  ce que perÃ§oit un seul personnage ?",
         "choices": [
-          "Focalisation zéro",
+          "Focalisation zÃ©ro",
           "Focalisation interne",
           "Focalisation externe",
           "Focalisation multiple"
@@ -48,41 +48,28 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Un personnage rond (au sens de E.M. Forster) est stéréotypé et ne change pas."
+        "question": "Un personnage rond (au sens de E.M. Forster) est stÃ©rÃ©otypÃ© et ne change pas."
       },
       {
         "type": "vrai-faux",
-        "question": "L'analepse (ou retour en arrière, flashback) remonte dans le temps."
+        "question": "Quel procÃ©dÃ© narratif consiste Ã  raconter un Ã©vÃ©nement antÃ©rieur Ã  l'action principale ?"
       },
       {
         "type": "qcm",
-        "question": "Le discours indirect libre se caractérise par :",
+        "question": "Le discours indirect libre se caractÃ©rise par :",
         "choices": [
           "L'utilisation de guillemets",
-          "L'absence de verbe introducteur et le maintien des temps du passé",
-          "Une proposition subordonnée introduite par 'que'",
-          "La présence d'un tiret de dialogue"
+          "L'absence de verbe introducteur et le maintien des temps du passÃ©",
+          "Une proposition subordonnÃ©e introduite par 'que'",
+          "La prÃ©sence d'un tiret de dialogue"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Le temps dominant du récit réaliste est l'imparfait pour les descriptions et le passé simple pour les actions."
+        "question": "Le temps dominant du rÃ©cit rÃ©aliste est l'imparfait pour les descriptions et le passÃ© simple pour les actions."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Baccalauréat français",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Poésie baroque et classique",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Théâtre et représentation",
-      "description": "Notion fondamentale de Français"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

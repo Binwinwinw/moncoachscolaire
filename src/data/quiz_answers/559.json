@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 559",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie"
   },
   "quiz": {
     "title": "Les totalitarismes fasciste et nazi",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "1922",
+        "correct": 1,
         "correction": "Mussolini arrive au pouvoir en octobre 1922 après la Marche sur Rome ; il instaure un régime fasciste et se fait appeler 'Il Duce'."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le Lebensraum (espace vital) est la théorie nazie selon laquelle l'Allemagne doit conquérir des territoires à l'Est pour installer la 'race aryenne'."
+        "correction": "Le Lebensraum (espace vital) est la théorie nazie selon laquelle l'Allemagne doit conquérir des territoires à l'Est pour installer la 'race aryenne'."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La crise de 1929",
+        "correct": 1,
         "correction": "La Grande Dépression de 1929 entraîne chômage massif et désespoir social, favorisant les partis extrémistes promettant un ordre nouveau."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. NSDAP = Nationalsozialistische Deutsche Arbeiterpartei (Parti national-socialiste des travailleurs allemands), dit parti nazi."
+        "correction": "NSDAP = Nationalsozialistische Deutsche Arbeiterpartei (Parti national-socialiste des travailleurs allemands), dit parti nazi."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Un pogrom organisé contre les Juifs en Allemagne",
+        "correct": 1,
         "correction": "La nuit de Cristal : des SA et SS incendient synagogues, brisent vitrines de commerces juifs ; environ 100 Juifs sont tués et 30 000 déportés."
       },
       {

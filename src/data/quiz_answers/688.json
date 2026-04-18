@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic SVT 3ème - Série 688",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT"
   },
   "quiz": {
     "title": "Écologie : énergies, transition et empreinte carbone",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La quantité totale de gaz à effet de serre émise par une activité, une personne ou un produit",
+        "correct": 1,
         "correction": "L'empreinte carbone additionne les émissions directes et indirectes de gaz à effet de serre, souvent exprimées en équivalent CO2."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Les éoliennes transforment l'énergie cinétique du vent en électricité."
+        "correction": "Les éoliennes transforment l'énergie cinétique du vent en électricité."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Le transport",
+        "correct": 0,
         "correction": "Les transports routiers, aériens et maritimes contribuent fortement aux émissions mondiales de gaz à effet de serre."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La neutralité carbone vise à limiter fortement les émissions résiduelles et à compenser le reste par des puits de carbone."
+        "correction": "La neutralité carbone vise à limiter fortement les émissions résiduelles et à compenser le reste par des puits de carbone."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Elles émettent généralement moins de gaz à effet de serre sur l'ensemble de leur cycle de vie",
+        "correct": 1,
         "correction": "Même si elles nécessitent des matériaux et des infrastructures, leurs émissions globales restent bien inférieures à celles du charbon, du pétrole ou du gaz."
       },
       {

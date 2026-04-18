@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 595",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie"
   },
   "quiz": {
     "title": "Changement climatique : constats et réponses",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le CO2",
+        "correct": 1,
         "correction": "La combustion des énergies fossiles émet massivement du CO2."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Objectif fixé dans le cadre de l'Accord de Paris."
+        "correction": "Objectif fixé dans le cadre de l'Accord de Paris."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Accord de Paris",
+        "correct": 1,
         "correction": "Adopté en 2015, il engage les États à réduire leurs émissions."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Les puits de carbone absorbent une partie du CO2 atmosphérique."
+        "correction": "Les puits de carbone absorbent une partie du CO2 atmosphérique."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Développer l'efficacité énergétique",
+        "correct": 1,
         "correction": "Moins consommer à service rendu équivalent réduit les émissions."
       },
       {

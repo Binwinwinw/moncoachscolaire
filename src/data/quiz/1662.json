@@ -6,8 +6,8 @@
     "subject": "Anglais",
     "description": "Diagnostic Anglais 2nde : Diagnostic 2nde Anglais - Start of Year Synthesis",
     "status": "published",
-    "created_at": "2026-04-06 06:40:41",
-    "updated_at": "2026-04-06 06:40:41",
+    "created_at": "2026-04-18 15:23:24",
+    "updated_at": "2026-04-18 15:23:24",
     "source": "Eduscol programmes officiels + BOEN",
     "programme_ref": "BO special n°1 du 22 janvier 2019 (LGT) + Eduscol Langues vivantes Seconde"
   },
@@ -35,8 +35,8 @@
         "question": "In English, every full sentence needs at least a subject and a verb."
       },
       {
-        "type": "open",
-        "question": "Write the correct pronoun to replace \"my friends and I\" as an object."
+        "type": "vrai-faux",
+        "question": "La bonne réponse attendue est : us."
       },
       {
         "type": "qcm",
@@ -53,8 +53,8 @@
         "question": "A clear paragraph usually has an introduction, development and conclusion."
       },
       {
-        "type": "open",
-        "question": "Give one polite expression to disagree in English."
+        "type": "vrai-faux",
+        "question": "La bonne réponse attendue est : I see your point, but."
       },
       {
         "type": "qcm",
@@ -72,19 +72,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Littérature anglophone",
-      "description": "Notion fondamentale de Anglais"
-    },
-    {
-      "notion": "Phonétique avancée",
-      "description": "Notion fondamentale de Anglais"
-    },
-    {
-      "notion": "Expression nuancée",
-      "description": "Notion fondamentale de Anglais"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Z",
+        "answer": "B",
         "correction": "Z est l'ensemble des entiers relatifs (positifs, négatifs et zéro). N ne contient que les entiers naturels (≥ 0)."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. √2 ≈ 1,41421… n'est pas périodique. La preuve classique par l'absurde montre qu'on ne peut pas l'écrire p/q."
+        "correction": "√2 ≈ 1,41421… n'est pas périodique. La preuve classique par l'absurde montre qu'on ne peut pas l'écrire p/q."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "√3",
+        "answer": "B",
         "correction": "√3 est irrationnel (non rationnel). Les autres sont des décimaux ou fractions, donc rationnels."
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Chaque ensemble est inclus dans le suivant : les entiers naturels sont dans Z, les entiers dans D (via fractions décimales), D dans Q, Q dans R."
+        "correction": "Chaque ensemble est inclus dans le suivant : les entiers naturels sont dans Z, les entiers dans D (via fractions décimales), D dans Q, Q dans R."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "9/2",
+        "answer": "A",
         "correction": "Par convention, √9 désigne la racine carrée positive : √9 = 3."
       },
       {

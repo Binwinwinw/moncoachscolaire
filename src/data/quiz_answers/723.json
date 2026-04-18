@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 723",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie"
   },
   "quiz": {
     "title": "Électricité : puissance et énergie électrique",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "P = U × I",
+        "correct": 2,
         "correction": "La puissance P = U × I (en watts) mesure la vitesse de transfert d'énergie électrique."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le kilowattheure (kWh) est l'énergie consommée par un appareil de 1 kW pendant 1 heure. 1 kWh = 3,6 × 10^6 J."
+        "correction": "Le kilowattheure (kWh) est l'énergie consommée par un appareil de 1 kW pendant 1 heure. 1 kWh = 3,6 × 10^6 J."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "25 W",
+        "correct": 1,
         "correction": "P = R × I² = 100 × 0,5² = 100 × 0,25 = 25 W."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le disjoncteur (ou fusible) protège les circuits et les appareils d'une surintensité pouvant causer un incendie."
+        "correction": "Le disjoncteur (ou fusible) protège les circuits et les appareils d'une surintensité pouvant causer un incendie."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "21,6 kWh",
+        "correct": 0,
         "correction": "E = 90 W × 8 h × 30 j = 21 600 Wh = 21,6 kWh."
       },
       {

@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 482",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 482",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
-    "description": "Diagnostic Français 1ère : Mouvements littéraires : Humanisme, Baroque, Classicisme",
+    "description": "Diagnostic Français 1ere : Mouvements littÃ©raires : Humanisme, Baroque, Classicisme",
     "status": "published",
-    "created_at": "2026-03-13 18:59:43",
-    "updated_at": "2026-03-13 18:59:43"
+    "created_at": "2026-04-18 20:20:13",
+    "updated_at": "2026-04-18 20:20:13"
   },
   "quiz": {
-    "title": "Mouvements littéraires : Humanisme, Baroque, Classicisme",
+    "title": "Mouvements littÃ©raires : Humanisme, Baroque, Classicisme",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
@@ -20,7 +20,7 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel mouvement du XVIe siècle redécouvre les textes antiques grecs et latins ?",
+        "question": "Quel mouvement du XVIe siÃ¨cle redÃ©couvre les textes antiques grecs et latins ?",
         "choices": [
           "Le Baroque",
           "Le Classicisme",
@@ -30,15 +30,15 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Le Baroque est caractérisé par l'ordre, la mesure et la sobriété."
+        "question": "Le Baroque est caractÃ©risÃ© par l'ordre, la mesure et la sobriÃ©tÃ©."
       },
       {
         "type": "vrai-faux",
-        "question": "L'humaniste aspire à l'honnête homme universel, curieux de tout savoir humain."
+        "question": "La devise humaniste 'Je suis homme et rien d'humain ne m'est Ã©tranger' est associÃ©e Ã  l'idÃ©al de l'_____ universel."
       },
       {
         "type": "qcm",
-        "question": "Quel auteur est le représentant majeur du Classicisme dramatique ?",
+        "question": "Quel auteur est le reprÃ©sentant majeur du Classicisme dramatique ?",
         "choices": [
           "Ronsard",
           "Montaigne",
@@ -48,41 +48,28 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Le Classicisme français se développe principalement sous Louis XIV."
+        "question": "Le Classicisme franÃ§ais se dÃ©veloppe principalement sous Louis XIV."
       },
       {
         "type": "vrai-faux",
-        "question": "Ronsard, 'Ode à Cassandre' : 'Cueillez dès aujourd'hui les roses de la vie' → carpe diem."
+        "question": "Ronsard, poÃ¨te de la PlÃ©iade, invite la jeune fille Ã  profiter de la vie dans 'Cueillez dÃ¨s aujourd'hui les _____ de la vie'."
       },
       {
         "type": "qcm",
-        "question": "Le Baroque au théâtre se manifeste notamment par :",
+        "question": "Le Baroque au thÃ©Ã¢tre se manifeste notamment par :",
         "choices": [
-          "La règle stricte des trois unités",
-          "Les tragi-comédies et le théâtre dans le théâtre",
-          "L'unité de ton",
-          "La séparation stricte des genres"
+          "La rÃ¨gle stricte des trois unitÃ©s",
+          "Les tragi-comÃ©dies et le thÃ©Ã¢tre dans le thÃ©Ã¢tre",
+          "L'unitÃ© de ton",
+          "La sÃ©paration stricte des genres"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Descartes et son 'Je pense donc je suis' participe de l'esprit du Classicisme rationnel du XVIIe siècle."
+        "question": "Descartes et son 'Je pense donc je suis' participe de l'esprit du Classicisme rationnel du XVIIe siÃ¨cle."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Baccalauréat français",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Poésie baroque et classique",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Théâtre et représentation",
-      "description": "Notion fondamentale de Français"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

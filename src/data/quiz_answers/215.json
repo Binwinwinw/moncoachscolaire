@@ -1,70 +1,75 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 2nde - Série 215",
-    "level": "2nde",
-    "subject": "Français"
+    "title": "Quiz Diagnostic Histoire-Géographie 1ere - SÃ©rie 215",
+    "level": "1ere",
+    "subject": "Histoire-Géographie"
   },
   "quiz": {
-    "title": "Diagnostic 2nde Français - Temps du récit",
+    "title": "Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 41",
     "question_count": 8,
-    "level": "2nde",
-    "subject": "Français",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Le passé simple",
-        "correction": "Le passé simple marque en général les actions de premier plan. Il fait avancer l'intrigue."
+        "answer": "XXe siÃ¨cle",
+        "correct": 2,
+        "correction": "Ce thÃ¨me s'inscrit principalement dans le contexte du XXe siÃ¨cle, pÃ©riode de grandes transformations politiques, Ã©conomiques et sociales qui ont faÃ§onnÃ© le monde contemporain."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "L'imparfait installe l'arrière-plan du récit. Il exprime la durée, la répétition ou la description."
+        "correction": "VRAI. Ce thÃ¨me est inscrit au programme d'Histoire-GÃ©ographie de la classe de PremiÃ¨re, permettant aux Ã©lÃ¨ves d'acquÃ©rir des connaissances fondamentales sur les grandes Ã©volutions du monde contemporain."
       },
       {
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Le plus-que-parfait situe une action avant un repère passé. Il crée un effet de retour en arrière temporel."
+        "correct_answer": "Ce thÃ¨me permet de comprendre les grandes Ã©volutions politiques, Ã©conomiques et sociales qui ont faÃ§onnÃ© notre monde actuel.",
+        "answer": "Ce thÃ¨me permet de comprendre les grandes Ã©volutions politiques, Ã©conomiques et sociales qui ont faÃ§onnÃ© notre monde actuel.",
+        "correction": "L'Ã©tude du thÃ¨me 'GÃ©ographie de la santÃ© dans le monde' est essentielle pour comprendre les dynamiques du monde contemporain : les rapports de force entre nations, les transformations sociales et Ã©conomiques, et les enjeux gÃ©opolitiques actuels. Elle dÃ©veloppe l'esprit critique et la capacitÃ© d'analyse historique et gÃ©ographique des Ã©lÃ¨ves."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "Il marchait dans la rue quand soudain la porte s'ouvrit.",
-        "correction": "L'imparfait pose l'action de fond (« marchait »), tandis que le passé simple marque l'événement soudain (« s'ouvrit »)."
+        "answer": "L'analyse critique de documents et la construction d'une argumentation",
+        "correct": 1,
+        "correction": "L'Ã©tude de l'histoire-gÃ©ographie dÃ©veloppe l'analyse critique de documents (textes, cartes, images, statistiques), la construction d'une argumentation rigoureuse, la mise en perspective temporelle et spatiale des phÃ©nomÃ¨nes, et la comprÃ©hension des enjeux du monde contemporain."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
         "answer": "faux",
-        "correction": "Le passé simple appartient surtout à la langue écrite littéraire. À l'oral, on emploie plus fréquemment le passé composé."
+        "correction": "FAUX. Les sources primaires (archives, tÃ©moignages, documents d'Ã©poque) et les sources secondaires (travaux d'historiens) sont complÃ©mentaires. Les sources primaires peuvent Ãªtre biaisÃ©es, incomplÃ¨tes ou difficiles Ã  interprÃ©ter ; les sources secondaires apportent une analyse critique et une mise en perspective. L'historien doit confronter les deux types de sources."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Le passé composé est le temps usuel du récit oral pour des faits terminés. Il concurrence le passé simple dans la langue courante."
+        "correct_answer": "Un territoire est un espace gÃ©ographique appropriÃ©, vÃ©cu et organisÃ© par une sociÃ©tÃ©, contrairement Ã  un simple espace physique.",
+        "answer": "Un territoire est un espace gÃ©ographique appropriÃ©, vÃ©cu et organisÃ© par une sociÃ©tÃ©, contrairement Ã  un simple espace physique.",
+        "correction": "En gÃ©ographie, un territoire est un espace gÃ©ographique dÃ©limitÃ©, appropriÃ© et organisÃ© par un groupe humain qui lui donne une identitÃ© et un sens. Il se distingue d'un simple espace physique par la prÃ©sence d'acteurs qui l'amÃ©nagent, le gÃ¨rent et le revendiquent. La notion de territoire implique donc une dimension sociale, politique et identitaire, en plus de la dimension physique."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "Action brève de premier plan",
-        "correction": "Le passé simple met en relief des actions successives qui structurent l'histoire. Il sert la progression narrative."
+        "answer": "Une reprÃ©sentation graphique qui reprÃ©sente la distribution spatiale d'un phÃ©nomÃ¨ne prÃ©cis",
+        "correct": 1,
+        "correction": "Une carte thÃ©matique reprÃ©sente la distribution spatiale d'un phÃ©nomÃ¨ne gÃ©ographique spÃ©cifique (densitÃ© de population, PIB par habitant, flux migratoires, etc.) Ã  l'aide de signes conventionnels (couleurs, symboles, flÃ¨ches). Elle est un outil d'analyse indispensable en gÃ©ographie pour identifier des disparitÃ©s spatiales et des dynamiques territoriales."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "Le présent de narration crée un effet de proximité et de dynamisme. Il actualise une action pourtant située dans le passé."
+        "correction": "VRAI. La gÃ©opolitique analyse les relations entre les donnÃ©es gÃ©ographiques (ressources, territoires, frontiÃ¨res, positions stratÃ©giques) et les stratÃ©gies politiques et militaires des Ã‰tats et des acteurs non-Ã©tatiques. Elle examine comment la gÃ©ographie influence les rapports de puissance, les conflits et les alliances internationales."
       }
     ]
   }

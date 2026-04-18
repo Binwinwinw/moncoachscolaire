@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 0082",
+    "level": "6eme",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Somme angles triangle",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "180°",
+        "correction": "La somme des angles d'un triangle est toujours égale à 180°."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La somme des angles d'un triangle est toujours égale à 180°."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "45°",
+        "correction": "La somme des angles d'un triangle est de 180°. Si un triangle a un angle de 90° et un angle de 45°, alors le troisième angle mesure 180° - 90° - 45° = 45°."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La somme des angles d'un triangle est de 180°. Si un triangle a deux angles de 60°, alors le troisième angle mesure 180° - 60° - 60° = 60°."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "30°",
+        "correction": "La somme des angles d'un triangle est de 180°. Si un triangle a un angle de 120° et un angle de 30°, alors le troisième angle mesure 180° - 120° - 30° = 30°."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La somme des angles d'un triangle est de 180°. Si un triangle a trois angles égaux, alors chaque angle mesure 180° / 3 = 60°."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "60°",
+        "correction": "La somme des angles d'un triangle est de 180°. Si un triangle a un angle de 70° et un angle de 50°, alors le troisième angle mesure 180° - 70° - 50° = 60°."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La somme des angles d'un triangle est de 180°. Si un triangle a un angle de 90° et un angle de 60°, alors le troisième angle mesure 180° - 90° - 60° = 30°."
+      }
+    ]
+  }
+}

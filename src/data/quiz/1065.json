@@ -1,90 +1,91 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Anglais 1ère - SÃ©rie 1065",
+    "title": "Quiz Diagnostic Mathématiques 1ere - Série 1065",
     "type": "quiz",
-    "level": "1ère",
-    "subject": "Anglais",
-    "description": "Diagnostic Anglais 1ère : Diagnostic Anglais 1ère - Série 7",
+    "level": "1ere",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 1ere : Mathématiques 1ère - Probabilités conditionnelles",
     "status": "published",
-    "created_at": "2026-04-06 06:40:39",
-    "updated_at": "2026-04-06 06:40:39",
-    "source": "Eduscol programmes officiels + BOEN",
-    "programme_ref": "BO special ndeg1 du 22 janvier 2019 (LGT) + Eduscol Langues vivantes Premiere"
+    "created_at": "2026-04-18T20:22:11.623554Z",
+    "updated_at": "2026-04-18T20:22:11.623554Z",
+    "source": "MonCoachScolaire",
+    "programme_ref": "Mathématiques 1ère"
   },
   "quiz": {
-    "title": "Diagnostic Anglais 1ère - Série 7",
+    "title": "Mathématiques 1ère - Probabilités conditionnelles",
     "type": "quiz",
-    "level": "1ère",
-    "subject": "Anglais",
+    "level": "1ere",
+    "subject": "Mathématiques",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
+        "id": "1065_1",
         "type": "qcm",
-        "question": "What is the past tense of the verb \"write\"?",
+        "question": "La notation P(A ∩ B) désigne :",
         "choices": [
-          "wrote",
-          "written",
-          "writing",
-          "writes"
+          "la probabilité de A ou B",
+          "la probabilité de A et B",
+          "la probabilité contraire de A",
+          "la probabilité de A sachant B"
         ]
       },
       {
+        "id": "1065_2",
         "type": "vrai-faux",
-        "question": "The word \"your\" is a possessive pronoun."
+        "question": "Si deux événements sont indépendants, alors P(A ∩ B) = P(A) × P(B)."
       },
       {
-        "type": "vrai-faux",
-        "question": "Ils regardent la télévision."
-      },
-      {
+        "id": "1065_3",
         "type": "qcm",
-        "question": "Which of the following words is an antonym of \"light\"?",
+        "question": "Si P(A) = 0,4 et P(B sachant A) = 0,5, alors P(A ∩ B) vaut :",
         "choices": [
-          "bright",
-          "dark",
-          "shiny",
-          "glossy"
+          "0,1",
+          "0,2",
+          "0,5",
+          "0,9"
         ]
       },
       {
+        "id": "1065_4",
         "type": "vrai-faux",
-        "question": "\"It's\" can be used as a possessive pronoun."
+        "question": "Un arbre pondéré peut aider à calculer une probabilité conditionnelle."
       },
       {
-        "type": "vrai-faux",
-        "question": "The past participle of \"go\" is \"gone\"."
-      },
-      {
+        "id": "1065_5",
         "type": "qcm",
-        "question": "Choose the correct sentence:",
+        "question": "Deux événements incompatibles peuvent-ils se réaliser en même temps ?",
         "choices": [
-          "They doesn't like music.",
-          "They don't like music.",
-          "They isn't like music.",
-          "They no like music."
+          "Oui, toujours",
+          "Oui, parfois",
+          "Non, jamais",
+          "Seulement si leur somme vaut 1"
         ]
       },
       {
+        "id": "1065_6",
         "type": "vrai-faux",
-        "question": "The word \"slowly\" is an adverb."
+        "question": "La somme des probabilités de toutes les issues d'une expérience vaut 1."
+      },
+      {
+        "id": "1065_7",
+        "type": "qcm",
+        "question": "Si P(A) = 0,7 et P(A barre) désigne l'événement contraire, alors P(A barre) vaut :",
+        "choices": [
+          "0,3",
+          "0,7",
+          "1,7",
+          "0"
+        ]
+      },
+      {
+        "id": "1065_8",
+        "type": "vrai-faux",
+        "question": "Une probabilité ne peut jamais être négative."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Civilisation britannique",
-      "description": "Notion fondamentale de Anglais"
-    },
-    {
-      "notion": "Nuances grammaticales",
-      "description": "Notion fondamentale de Anglais"
-    },
-    {
-      "notion": "Débat en anglais",
-      "description": "Notion fondamentale de Anglais"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

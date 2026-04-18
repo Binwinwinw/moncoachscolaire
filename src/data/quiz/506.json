@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 506",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Français",
+    "description": "Diagnostic Français 1ere : Romantisme et lyrisme personnel",
+    "status": "published",
+    "created_at": "2026-04-18 20:20:13",
+    "updated_at": "2026-04-18 20:20:13"
+  },
+  "quiz": {
+    "title": "Romantisme et lyrisme personnel",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle définition correspond le mieux à le romantisme ?",
+        "choices": [
+          "Un mouvement qui valorise l'expression du moi, la sensibilité et la nature",
+          "Un exercice de rhétorique antique",
+          "Une méthode de résumé",
+          "Un courant purement scientifique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le romantisme peut être relié au mouvement Romantisme."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel auteur est souvent associé à le romantisme ?",
+        "choices": [
+          "Musset",
+          "Corneille",
+          "Diderot",
+          "Maupassant"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La Nuit de mai peut servir d'œuvre de référence pour travailler le romantisme."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle notion aide le plus à analyser le romantisme ?",
+        "choices": [
+          "le lyrisme",
+          "le hors-sujet",
+          "la paraphrase seule",
+          "l'absence de citation"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Pour réussir un devoir sur le romantisme, il faut s'appuyer sur des citations précises du texte."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel exercice du bac mobilise efficacement des références liées à le romantisme ?",
+        "choices": [
+          "Le commentaire littéraire",
+          "La récitation mécanique",
+          "Le hors-sujet",
+          "L'absence de plan"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Confondre le romantisme avec un simple résumé de cours suffit pour une bonne analyse."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

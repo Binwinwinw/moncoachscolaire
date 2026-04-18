@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Convergence et limites de suites",
     "status": "published",
-    "created_at": "2026-04-06 06:40:48",
-    "updated_at": "2026-04-06 06:40:48"
+    "created_at": "2026-04-18 18:52:46",
+    "updated_at": "2026-04-18 18:52:46"
   },
   "quiz": {
     "title": "Convergence et limites de suites",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Diviser par n : (2 + 1/n)/(1 + 3/n) → 2/1 = 2."
+        "question": "Quelle est la limite de uₙ = (2n + 1)/(n + 3) quand n → +∞ ? La bonne réponse attendue est : 2."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "−1/n ≤ sin(n)/n ≤ 1/n."
+        "question": "Applique le théorème des gendarmes pour montrer que uₙ = sin(n)/n → 0. La bonne réponse attendue est : −1/n ≤ sin(n)/n ≤ 1/n. Les deux encadrants → 0, donc sin(n)/n → 0."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Convergence de suites",
-      "description": "La convergence d'une suite signifie que les termes de la suite s'approchent de plus en plus d'une valeur limite L à mesure que l'indice de la suite augmente"
-    },
-    {
-      "notion": "Limites de suites",
-      "description": "La limite d'une suite est la valeur L vers laquelle la suite converge, c'est-à-dire que pour tout epsilon > 0, il existe un entier N tel que pour tout n > N, |uₙ - L| < epsilon"
-    },
-    {
-      "notion": "Définition formelle de la convergence",
-      "description": "La convergence d'une suite peut être définie formellement en utilisant la notion de limite, c'est-à-dire que la suite (uₙ) converge vers L si et seulement si pour tout epsilon > 0, il existe un entier"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

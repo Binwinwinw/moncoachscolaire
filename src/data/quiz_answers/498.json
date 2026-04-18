@@ -1,70 +1,73 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 498",
-    "level": "1ère",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 498",
+    "level": "1ere",
     "subject": "Français"
   },
   "quiz": {
-    "title": "Révisions finales : culture littéraire générale",
+    "title": "RÃ©visions finales : culture littÃ©raire gÃ©nÃ©rale",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Madame Bovary, mœurs de province",
-        "correction": "Le sous-titre 'mœurs de province' ancre le roman dans une critique sociale du milieu bourgeois provincial."
+        "answer": "Madame Bovary, mÅ“urs de province",
+        "correct": 0,
+        "correction": "Le sous-titre 'mÅ“urs de province' ancre le roman dans une critique sociale du milieu bourgeois provincial."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "Les concours de tragédies athéniens (Eschyle, Sophocle, Euripide) se déroulent lors des fêtes dionysiaques."
+        "correction": "Les concours de tragÃ©dies athÃ©niens (Eschyle, Sophocle, Euripide) se dÃ©roulent lors des fÃªtes dionysiaques."
       },
       {
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Le sonnet (Pétrarque, Ronsard, Baudelaire) comporte 14 vers : ABBA ABBA CCD EDE (ou variantes)."
+        "answer": "faux",
+        "correction": "Le sonnet (PÃ©trarque, Ronsard, Baudelaire) comporte 14 vers : ABBA ABBA CCD EDE (ou variantes)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "L'utopie",
-        "correction": "L'utopie (Thomas More, 1516) décrit une société idéale ; son contraire est la dystopie (Orwell, Huxley)."
+        "correct": 1,
+        "correction": "L'utopie (Thomas More, 1516) dÃ©crit une sociÃ©tÃ© idÃ©ale ; son contraire est la dystopie (Orwell, Huxley)."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "La nouvelle est un récit court, condensé, souvent avec un dénouement surprenant (chute ou fin ouverte)."
+        "correction": "La nouvelle est un rÃ©cit court, condensÃ©, souvent avec un dÃ©nouement surprenant (chute ou fin ouverte)."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Philippe Lejeune définit le 'pacte autobiographique' : identité auteur = narrateur = personnage principal."
+        "answer": "faux",
+        "correction": "Philippe Lejeune dÃ©finit le 'pacte autobiographique' : identitÃ© auteur = narrateur = personnage principal."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Existentialisme",
-        "correction": "La Nausée (1938) de Sartre est le roman manifeste de l'existentialisme."
+        "correct": 1,
+        "correction": "La NausÃ©e (1938) de Sartre est le roman manifeste de l'existentialisme."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "faux",
-        "correction": "Le théâtre de l'absurde (Ionesco, Beckett) rompt avec toutes les conventions dramatiques classiques."
+        "correction": "Le thÃ©Ã¢tre de l'absurde (Ionesco, Beckett) rompt avec toutes les conventions dramatiques classiques."
       }
     ]
   }

@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 0207",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "PÃ©riphÃ©riques d'un ordinateur (entrÃ©e/sortie).",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Tous les pÃ©riphÃ©riques mentionnÃ©s",
+        "correction": "Les pÃ©riphÃ©riques d'entrÃ©e d'un ordinateur comprennent le clavier, la souris, et l'Ã©cran tactile, qui permettent Ã  l'utilisateur de fournir des donnÃ©es et des commandes Ã  l'ordinateur."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, un Ã©cran est un pÃ©riphÃ©rique de sortie qui affiche les informations traitÃ©es par l'ordinateur Ã  l'utilisateur."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Imprimante",
+        "correction": "Une imprimante est un pÃ©riphÃ©rique de sortie qui permet d'obtenir une copie papier des informations traitÃ©es par l'ordinateur."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, un microphone est un pÃ©riphÃ©rique d'entrÃ©e qui permet de capturer des sons et de les transmettre Ã  l'ordinateur pour traitement."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Ã‰cran",
+        "correction": "Un Ã©cran est un pÃ©riphÃ©rique de sortie qui affiche les informations traitÃ©es par l'ordinateur Ã  l'utilisateur."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, il existe une diffÃ©rence entre les pÃ©riphÃ©riques d'entrÃ©e et de sortie en termes de leur fonction dans le systÃ¨me informatique. Les pÃ©riphÃ©riques d'entrÃ©e permettent Ã  l'utilisateur de fournir des donnÃ©es et des commandes Ã  l'ordinateur, tandis que les pÃ©riphÃ©riques de sortie permettent Ã  l'ordinateur de communiquer des informations Ã  l'utilisateur."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Ã‰cran tactile",
+        "correction": "Un Ã©cran tactile peut Ãªtre Ã  la fois un pÃ©riphÃ©rique d'entrÃ©e, car il permet Ã  l'utilisateur d'interagir avec l'ordinateur en touchant l'Ã©cran, et un pÃ©riphÃ©rique de sortie, car il affiche les informations traitÃ©es par l'ordinateur."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, certains pÃ©riphÃ©riques peuvent Ãªtre Ã  la fois d'entrÃ©e et de sortie, comme les Ã©crans tactiles ou les haut-parleurs avec microphone intÃ©grÃ©, qui permettent Ã  la fois de fournir des donnÃ©es Ã  l'ordinateur et de recevoir des informations de l'ordinateur."
+      }
+    ]
+  }
+}

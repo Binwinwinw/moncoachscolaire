@@ -1,94 +1,81 @@
 {
   "contents": {
-    "title": "Producteurs et consommateurs en SVT",
+    "title": "Quiz Diagnostic NSI 1ere - Série 903",
     "type": "quiz",
-    "level": "5eme",
-    "subject": "SVT",
-    "description": "Diagnostic SVT 5eme : Producteurs, consommateurs et chaines alimentaires",
+    "level": "1ere",
+    "subject": "NSI",
+    "description": "Diagnostic NSI 1ere : DNS et noms de domaine",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-08 00:05:00"
+    "created_at": "2026-04-18 20:28:31",
+    "updated_at": "2026-04-18 20:28:31"
   },
   "quiz": {
-    "title": "Anglais - Producteurs et consommateurs en SVT",
-    "level": "5eme",
-    "subject": "SVT",
+    "title": "DNS et noms de domaine",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "NSI",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel organisme est un producteur dans un écosystème ?",
+        "question": "Quelle définition correspond le mieux à le DNS ?",
         "choices": [
-          "Une plante",
-          "Un renard",
-          "Un champignon",
-          "Un loup"
+          "Le système qui traduit un nom de domaine en adresse IP",
+          "Une figure géométrique",
+          "Une règle de grammaire",
+          "Un mouvement littéraire"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Un consommateur primaire mange principalement des plantes."
-      },
-      {
-        "type": "vrai-faux",
-        "question": "Réponds en expliquant que les producteurs fournissent l'énergie de base pour toute la chaîne alimentaire."
+        "question": "Le dns est une notion utile pour comprendre le fonctionnement des systèmes numériques."
       },
       {
         "type": "qcm",
-        "question": "Quel rôle joue un herbivore dans une chaîne alimentaire ?",
+        "question": "Quelle notion est la plus directement associée à le DNS ?",
         "choices": [
-          "Il mange les plantes",
-          "Il décompose les déchets",
-          "Il produit son propre aliment",
-          "Il absorbe la lumière"
+          "la résolution de noms",
+          "la fable",
+          "la photosynthèse",
+          "la mondialisation"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Les décomposeurs transforment les organismes morts en nutriments."
+        "question": "Pour travailler le DNS, on peut utiliser des activités pratiques, du code ou des schémas."
       },
       {
         "type": "qcm",
-        "question": "Quel type d'organisme est souvent au sommet d'une chaîne alimentaire ?",
+        "question": "Quel est l'objectif principal de l'étude de le DNS ?",
         "choices": [
-          "Un carnivore",
-          "Un producteur",
-          "Un décomposeur",
-          "Un herbivore"
+          "Comprendre les outils et concepts du numérique",
+          "Réciter des dates historiques",
+          "Apprendre uniquement par cœur",
+          "Éviter toute expérimentation"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Réponds par un exemple comme un renard qui mange un lapin, soit un consommateur secondaire."
+        "question": "Le dns peut être relié à des usages concrets du quotidien numérique."
       },
       {
         "type": "qcm",
-        "question": "Pourquoi la chaîne alimentaire est-elle importante pour les écosystèmes ?",
+        "question": "Quel support peut aider à mieux comprendre le DNS ?",
         "choices": [
-          "Elle montre le flux d'énergie entre les organismes",
-          "Elle arrête la croissance des plantes",
-          "Elle empêche les animaux de bouger",
-          "Elle remplace la photosynthèse"
+          "Un algorithme, un schéma ou un exemple de code",
+          "Une seule récitation orale",
+          "Un vers rimé",
+          "Une carte des reliefs"
         ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Étudier le DNS développe la logique et la compréhension des systèmes informatiques."
       }
-    ],
-    "type": "quiz"
+    ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Producteurs",
-      "description": "Les producteurs fabriquent leur propre nourriture à partir de la lumière, de l'eau et des nutriments."
-    },
-    {
-      "notion": "Consommateurs",
-      "description": "Les consommateurs mangent des plantes ou d'autres animaux dans une chaîne alimentaire."
-    },
-    {
-      "notion": "Chaîne alimentaire",
-      "description": "La chaîne alimentaire montre comment l'énergie circule entre les organismes."
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

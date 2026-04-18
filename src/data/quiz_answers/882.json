@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic NSI 1ère - Série 882",
-    "level": "1ère",
+    "title": "Quiz Diagnostic NSI 1ere - Série 882",
+    "level": "1ere",
     "subject": "NSI"
   },
   "quiz": {
     "title": "Introduction à JavaScript",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Rendre les pages web interactives côté client",
+        "correct": 1,
         "correction": "JavaScript s'exécute dans le navigateur et permet de modifier le DOM, réagir aux événements, valider des formulaires, faire des requêtes asynchrones…"
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. document.getElementById(), document.querySelector(), element.innerHTML sont des méthodes DOM courantes."
+        "answer": "faux",
+        "correction": "document.getElementById(), document.querySelector(), element.innerHTML sont des méthodes DOM courantes."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "document.querySelector('#monBouton')",
+        "correct": 1,
         "correction": "querySelector accepte les sélecteurs CSS. document.getElementById('monBouton') fonctionne aussi pour les ids."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Les fonctions fléchées sont très utilisées comme callbacks dans les méthodes de tableaux (map, filter, reduce)."
+        "answer": "faux",
+        "correction": "Les fonctions fléchées sont très utilisées comme callbacks dans les méthodes de tableaux (map, filter, reduce)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Effectuer des requêtes HTTP asynchrones (AJAX)",
+        "correct": 1,
         "correction": "fetch() retourne une Promise. fetch('url').then(r => r.json()).then(data => console.log(data)) récupère des données JSON."
       },
       {

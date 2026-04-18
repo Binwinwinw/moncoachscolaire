@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 600",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie"
   },
   "quiz": {
     "title": "Mers et océans : espaces stratégiques",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "90%",
+        "correct": 2,
         "correction": "Le transport maritime domine les échanges de marchandises."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La zone économique exclusive s'étend jusqu'à 200 milles marins."
+        "correction": "La zone économique exclusive s'étend jusqu'à 200 milles marins."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La pollution plastique",
+        "correct": 1,
         "correction": "Elle menace biodiversité et chaînes alimentaires."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Une pêche non durable compromet le renouvellement des espèces."
+        "correction": "Une pêche non durable compromet le renouvellement des espèces."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Parce qu'ils offrent interfaces, ports et attractivité",
+        "correct": 1,
         "correction": "Ils relient espaces terrestres et maritimes."
       },
       {

@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "must",
+        "correct": 2,
         "correction": "'Must' exprime une obligation forte ou une nécessité."
       },
       {
@@ -27,8 +28,8 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "may",
+        "type": "vrai-faux",
+        "answer": "vrai",
         "correction": "'May' est courant pour demander une permission de façon formelle."
       },
       {
@@ -36,6 +37,7 @@
         "question_id": 4,
         "type": "qcm",
         "answer": "You should see a doctor.",
+        "correct": 1,
         "correction": "'Should' sert à donner un conseil ou une recommandation."
       },
       {
@@ -48,8 +50,8 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "must",
+        "type": "vrai-faux",
+        "answer": "vrai",
         "correction": "'Must not' exprime l'interdiction."
       },
       {
@@ -57,6 +59,7 @@
         "question_id": 7,
         "type": "qcm",
         "answer": "might",
+        "correct": 3,
         "correction": "'Might' marque une probabilité possible mais non certaine."
       },
       {

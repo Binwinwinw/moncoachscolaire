@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES 1ere - Série 852",
+    "level": "1ere",
+    "subject": "SES"
+  },
+  "quiz": {
+    "title": "Groupes sociaux et réseaux",
+    "question_count": 8,
+    "level": "1ere",
+    "subject": "SES",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Un ensemble d'individus en interaction partageant un sentiment d'appartenance",
+        "correct": 0,
+        "correction": "En SES, un groupe social désigne bien : un ensemble d'individus en interaction partageant un sentiment d'appartenance."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les SES s'appuient sur des situations réelles pour comprendre les mécanismes sociaux et économiques."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "le lien social",
+        "correct": 0,
+        "correction": "La notion associée ici est : le lien social."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les SES croisent connaissances théoriques, données chiffrées et faits d'actualité."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Comprendre les mécanismes sociaux et économiques",
+        "correct": 0,
+        "correction": "L'objectif est d'expliquer les mécanismes observés dans la société et l'économie."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les SES reposent sur des définitions, des raisonnements et des observations rigoureuses."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Un schéma, un tableau ou un graphique",
+        "correct": 0,
+        "correction": "Les SES utilisent souvent des tableaux, graphiques et schémas pour clarifier les phénomènes."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est l'un des objectifs majeurs des SES au lycée."
+      }
+    ]
+  }
+}

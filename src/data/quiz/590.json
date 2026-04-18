@@ -2,17 +2,17 @@
   "contents": {
     "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 590",
     "type": "quiz",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "description": "Diagnostic Histoire-Géographie 3ème : Espaces de faible densité et attractivité",
     "status": "published",
-    "created_at": "2026-04-06 06:40:44",
-    "updated_at": "2026-04-06 06:40:44"
+    "created_at": "2026-04-18 18:28:04",
+    "updated_at": "2026-04-18 18:28:04"
   },
   "quiz": {
     "title": "Espaces de faible densité et attractivité",
     "type": "quiz",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Ces activités structurent l'économie locale."
+        "question": "La bonne réponse attendue est : majeur."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "On parle aussi de recomposition des campagnes."
+        "question": "La bonne réponse attendue est : renaissance."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Histoire-Géographie",
-      "description": "Notion du programme 3ème"
-    },
-    {
-      "notion": "Compétences de base 3ème",
-      "description": "Notion du programme 3ème"
-    },
-    {
-      "notion": "Savoir-faire histoire-géographie",
-      "description": "Notion du programme 3ème"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

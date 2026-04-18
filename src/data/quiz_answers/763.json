@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le President de la Republique",
+        "correct": 2,
         "correction": "L'article 15 de la Constitution dispose que 'le Président de la République est le chef des armées' ; il dispose du pouvoir nuclear et préside les conseils de défense."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le service national obligatoire a été suspendu en 1997 sous Jacques Chirac ; il a été remplacé par la Journée Défense et Citoyenneté (JDC)."
+        "correction": "Le service national obligatoire a été suspendu en 1997 sous Jacques Chirac ; il a été remplacé par la Journée Défense et Citoyenneté (JDC)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Une journee d'information et de sensibilisation a la defense nationale obligatoire pour les jeunes de 17 ans",
+        "correct": 1,
         "correction": "La JDC (anciennement JAPD) est une journée citoyenne obligatoire pour tous les Français de 17 ans, préalable nécessaire pour passer les examens comme le baccalauréat."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Les opérations de maintien de la paix (OMP), souvent sous mandat ONU ou OTAN, visent à stabiliser des zones de conflit et protéger les populations civiles."
+        "correction": "Les opérations de maintien de la paix (OMP), souvent sous mandat ONU ou OTAN, visent à stabiliser des zones de conflit et protéger les populations civiles."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La Gendarmerie nationale",
+        "correct": 1,
         "correction": "La Gendarmerie nationale (corps militaire) assure la sécurité dans les zones rurales et périurbaines, tandis que la Police nationale couvre les grandes villes."
       },
       {

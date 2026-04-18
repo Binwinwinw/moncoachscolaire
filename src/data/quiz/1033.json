@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Valeur moyenne d'une fonction",
     "status": "published",
-    "created_at": "2026-04-06 06:40:48",
-    "updated_at": "2026-04-06 06:40:48"
+    "created_at": "2026-04-18 18:52:46",
+    "updated_at": "2026-04-18 18:52:46"
   },
   "quiz": {
     "title": "Valeur moyenne d'une fonction",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "M = (1/3)·∫₀³ x² dx = (1/3)·[x³/3]₀³ = (1/3)·9 = 3."
+        "question": "Calcule la valeur moyenne de f(x) = x² sur [0, 3]. La bonne réponse attendue est : 3."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "C'est la vitesse constante qui aurait parcouru la même distance en même temps : (1/T)·∫₀ᵀ v(t) dt = distance totale / T."
+        "question": "Interprète la valeur moyenne de la vitesse v(t) sur [0, T] en physique. La bonne réponse attendue est : C'est la vitesse constante qui aurait parcouru la même distance en même temps : (1/T)·∫₀ᵀ v(t) dt = distance totale / T."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Intégrale",
-      "description": "La valeur moyenne d'une fonction f sur un intervalle [a, b] peut être calculée à l'aide de l'intégrale, en divisant l'aire sous la courbe de la fonction par la longueur de l'intervalle"
-    },
-    {
-      "notion": "Formule de la valeur moyenne",
-      "description": "La formule de la valeur moyenne d'une fonction f sur [a, b] est donnée par : (1/(b-a)) * ∫[a, b] f(x) dx"
-    },
-    {
-      "notion": "Calcul infinitésimal",
-      "description": "Le calcul infinitésimal, notamment l'intégration, est un outil fondamental pour déterminer la valeur moyenne d'une fonction sur un intervalle donné"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

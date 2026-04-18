@@ -1,94 +1,81 @@
 {
   "contents": {
-    "title": "Les habitats et la biodiversité",
+    "title": "Quiz Diagnostic NSI 1ere - Série 905",
     "type": "quiz",
-    "level": "5eme",
-    "subject": "SVT",
-    "description": "Diagnostic SVT 5eme : Habitats, espèces et biodiversité",
+    "level": "1ere",
+    "subject": "NSI",
+    "description": "Diagnostic NSI 1ere : Requêtes SQL simples",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-08 00:05:00"
+    "created_at": "2026-04-18 20:28:31",
+    "updated_at": "2026-04-18 20:28:31"
   },
   "quiz": {
-    "title": "Anglais - Les habitats et la biodiversité",
-    "level": "5eme",
-    "subject": "SVT",
+    "title": "Requêtes SQL simples",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "NSI",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel habitat convient à une grenouille ?",
+        "question": "Quelle définition correspond le mieux à SQL ?",
         "choices": [
-          "Une mare ou un étang",
-          "Un désert sec",
-          "Un sommet de montagne sans eau",
-          "Une caverne sombre"
+          "Le langage qui permet d'interroger et manipuler une base de données",
+          "Une figure géométrique",
+          "Une règle de grammaire",
+          "Un mouvement littéraire"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "La biodiversité peut aider un écosystème à résister aux changements."
-      },
-      {
-        "type": "vrai-faux",
-        "question": "Réponds en décrivant un habitat comme une forêt ou une prairie où un oiseau migrateur vit en été."
+        "question": "Sql est une notion utile pour comprendre le fonctionnement des systèmes numériques."
       },
       {
         "type": "qcm",
-        "question": "Quel animal est bien adapté à la vie dans le désert ?",
+        "question": "Quelle notion est la plus directement associée à SQL ?",
         "choices": [
-          "Le chameau",
-          "La grenouille",
-          "Le saumon",
-          "Le pingouin"
+          "les requêtes",
+          "la fable",
+          "la photosynthèse",
+          "la mondialisation"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Un habitat offre de la nourriture, un abri et de l'eau aux organismes."
+        "question": "Pour travailler SQL, on peut utiliser des activités pratiques, du code ou des schémas."
       },
       {
         "type": "qcm",
-        "question": "Quel facteur peut réduire la biodiversité d'un habitat ?",
+        "question": "Quel est l'objectif principal de l'étude de SQL ?",
         "choices": [
-          "La pollution",
-          "La pluie naturelle",
-          "La lumière du soleil",
-          "Le vent"
+          "Comprendre les outils et concepts du numérique",
+          "Réciter des dates historiques",
+          "Apprendre uniquement par cœur",
+          "Éviter toute expérimentation"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Réponds que les animaux migrent pour trouver de meilleures conditions climatiques et plus de nourriture."
+        "question": "Sql peut être relié à des usages concrets du quotidien numérique."
       },
       {
         "type": "qcm",
-        "question": "Quel est un avantage de la biodiversité ?",
+        "question": "Quel support peut aider à mieux comprendre SQL ?",
         "choices": [
-          "Elle rend l'écosystème plus résilient",
-          "Elle diminue l'eau disponible",
-          "Elle augmente la température du sol",
-          "Elle arrête la croissance des plantes"
+          "Un algorithme, un schéma ou un exemple de code",
+          "Une seule récitation orale",
+          "Un vers rimé",
+          "Une carte des reliefs"
         ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Étudier SQL développe la logique et la compréhension des systèmes informatiques."
       }
-    ],
-    "type": "quiz"
+    ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Habitat",
-      "description": "Un habitat est un lieu où un organisme trouve sa nourriture, son abri et l'eau dont il a besoin."
-    },
-    {
-      "notion": "Biodiversité",
-      "description": "La biodiversité correspond à la variété des espèces dans un habitat."
-    },
-    {
-      "notion": "Adaptation",
-      "description": "Les organismes s'adaptent à leur habitat pour survivre et se reproduire."
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

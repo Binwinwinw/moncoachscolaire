@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "ad − bc = 0",
+        "answer": "C",
         "correction": "u⃗ et v⃗ sont colinéaires si et seulement si ad − bc = 0 (déterminant nul)."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Déterminant : 2×8 − 4×4 = 16 − 16 = 0. Les vecteurs AB⃗ et AC⃗ sont colinéaires → A, B, C alignés."
+        "correction": "Déterminant : 2×8 − 4×4 = 16 − 16 = 0. Les vecteurs AB⃗ et AC⃗ sont colinéaires → A, B, C alignés."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "(3, 6) et (1, 2)",
+        "answer": "B",
         "correction": "(3, 6) = 3·(1, 2) : ils sont proportionnels (colinéaires). Déterminant : 3×2 − 6×1 = 6−6 = 0. ✓"
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Déterminant : 2×6 − k×4 = 12 − 4k = 0 → k = 3."
+        "correction": "Déterminant : 2×6 − k×4 = 12 − 4k = 0 → k = 3."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "AB⃗ et CD⃗ sont colinéaires",
+        "answer": "B",
         "correction": "Des droites parallèles ont des vecteurs directeurs colinéaires."
       },
       {

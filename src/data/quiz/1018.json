@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Règles de dérivation",
     "status": "published",
-    "created_at": "2026-04-06 06:40:48",
-    "updated_at": "2026-04-06 06:40:48"
+    "created_at": "2026-04-18 18:52:46",
+    "updated_at": "2026-04-18 18:52:46"
   },
   "quiz": {
     "title": "Règles de dérivation",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "F'(x) = 2x·sin(x) + x²·cos(x)."
+        "question": "Calcule la dérivée de f(x) = x²·sin(x). La bonne réponse attendue est : f'(x) = 2x·sin(x) + x²·cos(x)."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "F' = (2(x+1) − (2x−3)·1)/(x+1)² = (2x+2−2x+3)/(x+1)² = 5/(x+1)²."
+        "question": "Calcule la dérivée de f(x) = (2x − 3) / (x + 1). La bonne réponse attendue est : f'(x) = 5/(x+1)²."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Règle du produit",
-      "description": "La dérivée du produit de deux fonctions f et g est donnée par (f·g)' = f'·g + f·g'"
-    },
-    {
-      "notion": "Dérivation",
-      "description": "La dérivation est une opération mathématique qui consiste à trouver la dérivée d'une fonction, c'est-à-dire la fonction qui représente la variation instantanée de la fonction originale"
-    },
-    {
-      "notion": "Fonctions composées",
-      "description": "La compréhension des règles de dérivation, notamment la règle du produit, est essentielle pour dériver des fonctions composées et résoudre des problèmes de calcul différentiel"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

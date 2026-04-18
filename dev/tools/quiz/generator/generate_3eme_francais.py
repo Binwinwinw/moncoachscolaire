@@ -37,12 +37,12 @@ THEMES = [
 
 
 def normalize_question_type(question_type: str) -> str:
-    qt = str(question_type).strip().lower()
+    qt = str(question_type or "").strip().lower().replace("_", "-")
     if qt in {"vrai-faux", "vrai faux"}:
         return "vrai-faux"
     if qt == "qcm":
         return "qcm"
-    return "open"
+    return "vrai-faux"
 
 
 def build_questions(theme: str, quiz_id: int) -> list[dict]:

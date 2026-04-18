@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic NSI 1ère - Série 885",
-    "level": "1ère",
+    "title": "Quiz Diagnostic NSI 1ere - Série 885",
+    "level": "1ere",
     "subject": "NSI"
   },
   "quiz": {
     "title": "Algorithmes de recherche",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Une suite finie d'instructions résolvant un problème",
+        "correct": 1,
         "correction": "Un algorithme est une description abstraite d'une procédure de résolution, indépendante du langage de programmation."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La recherche séquentielle est simple mais O(n). Utilisée quand la liste n'est pas triée."
+        "answer": "faux",
+        "correction": "La recherche séquentielle est simple mais O(n). Utilisée quand la liste n'est pas triée."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "O(log n)",
+        "correct": 1,
         "correction": "À chaque étape, l'espace de recherche est divisé par 2. Après k étapes, il reste n/2ᵏ éléments. Terminaison quand 1 = n/2ᵏ, soit k = log₂(n)."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Les invariants sont un outil formel pour raisonner sur la correction des algorithmes."
+        "answer": "faux",
+        "correction": "Les invariants sont un outil formel pour raisonner sur la correction des algorithmes."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Liste chaînée ou collections.deque",
+        "correct": 1,
         "correction": "Une file FIFO (First In, First Out) nécessite des opérations efficaces en tête et en queue. collections.deque offre O(1) pour ces deux opérations."
       },
       {

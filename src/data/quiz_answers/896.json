@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic NSI 1ère - Série 896",
-    "level": "1ère",
+    "title": "Quiz Diagnostic NSI 1ere - Série 896",
+    "level": "1ere",
     "subject": "NSI"
   },
   "quiz": {
     "title": "Gestion des erreurs et exceptions",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "try/except",
+        "correct": 1,
         "correction": "Python utilise try/except (pas try/catch comme Java/JavaScript). try: code risqué ; except TypeErreur: gestion de l'erreur."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Toutes héritent de la classe Exception. BaseException est la classe racine."
+        "answer": "faux",
+        "correction": "Toutes héritent de la classe Exception. BaseException est la classe racine."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Lever (déclencher) une exception",
+        "correct": 1,
         "correction": "raise ValueError('message') lève une exception. On peut relever une exception capturée avec raise (sans argument) dans un bloc except."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Les modes d'ouverture : 'r' (lecture), 'w' (écriture, écrase), 'a' (append), 'x' (création exclusive), 'b' pour binaire."
+        "answer": "faux",
+        "correction": "Les modes d'ouverture : 'r' (lecture), 'w' (écriture, écrase), 'a' (append), 'x' (création exclusive), 'b' pour binaire."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "L'exception se propage vers le code appelant, jusqu'à arrêter le programme",
+        "correct": 2,
         "correction": "Une exception non gérée remonte la pile d'appels (stack trace) jusqu'à atteindre le niveau supérieur, où elle arrête le programme avec un message d'erreur."
       },
       {

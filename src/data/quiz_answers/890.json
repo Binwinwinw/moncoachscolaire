@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic NSI 1ère - Série 890",
-    "level": "1ère",
+    "title": "Quiz Diagnostic NSI 1ere - Série 890",
+    "level": "1ere",
     "subject": "NSI"
   },
   "quiz": {
     "title": "Arbres et parcours",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Deux enfants",
+        "correct": 1,
         "correction": "Un arbre binaire est un arbre dont chaque nœud a 0, 1 ou 2 enfants (gauche et droit). Un arbre binaire de recherche (ABR) respecte en plus une propriété d'ordre."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Un parcours en largeur (BFS) utilise une file et explore niveau par niveau."
+        "answer": "faux",
+        "correction": "Un parcours en largeur (BFS) utilise une file et explore niveau par niveau."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Plus petits que la racine",
+        "correct": 1,
         "correction": "ABR : pour tout nœud, sous-arbre gauche < nœud ≤ sous-arbre droit. Cette propriété permet la recherche en O(h) où h est la hauteur."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Le parcours infixe d'un ABR donne les éléments dans l'ordre croissant."
+        "answer": "faux",
+        "correction": "Le parcours infixe d'un ABR donne les éléments dans l'ordre croissant."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La racine est plus grande (max-heap) ou plus petite (min-heap) que tous ses descendants",
+        "correct": 1,
         "correction": "Un tas est utilisé pour les files de priorité et le tri par tas (heapsort). Python fournit heapq pour un min-heap."
       },
       {

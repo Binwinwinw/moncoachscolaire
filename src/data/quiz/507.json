@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 507",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Français",
+    "description": "Diagnostic Français 1ere : Réalisme et représentation du monde social",
+    "status": "published",
+    "created_at": "2026-04-18 20:20:13",
+    "updated_at": "2026-04-18 20:20:13"
+  },
+  "quiz": {
+    "title": "Réalisme et représentation du monde social",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle définition correspond le mieux à le réalisme ?",
+        "choices": [
+          "Une volonté de représenter le réel et les milieux sociaux avec précision",
+          "Une poésie religieuse",
+          "Une scène comique improvisée",
+          "Une fable mythologique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le réalisme peut être relié au mouvement Réalisme."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel auteur est souvent associé à le réalisme ?",
+        "choices": [
+          "Flaubert",
+          "Ronsard",
+          "Giraudoux",
+          "Apollinaire"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Madame Bovary peut servir d'œuvre de référence pour travailler le réalisme."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle notion aide le plus à analyser le réalisme ?",
+        "choices": [
+          "la description précise",
+          "le hors-sujet",
+          "la paraphrase seule",
+          "l'absence de citation"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Pour réussir un devoir sur le réalisme, il faut s'appuyer sur des citations précises du texte."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel exercice du bac mobilise efficacement des références liées à le réalisme ?",
+        "choices": [
+          "La dissertation",
+          "La récitation mécanique",
+          "Le hors-sujet",
+          "L'absence de plan"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Confondre le réalisme avec un simple résumé de cours suffit pour une bonne analyse."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

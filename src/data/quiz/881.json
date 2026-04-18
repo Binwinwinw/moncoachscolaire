@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic NSI 1ère - Série 881",
+    "title": "Quiz Diagnostic NSI 1ere - Série 881",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
-    "description": "Diagnostic NSI 1ère : Formulaires HTML et interactivité",
+    "description": "Diagnostic NSI 1ere : Formulaires HTML et interactivité",
     "status": "published",
-    "created_at": "2026-04-06 06:40:40",
-    "updated_at": "2026-04-06 06:40:40"
+    "created_at": "2026-04-18 20:28:31",
+    "updated_at": "2026-04-18 20:28:31"
   },
   "quiz": {
     "title": "Formulaires HTML et interactivité",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
     "question_count": 8,
     "passing_score": 70,
@@ -34,11 +34,11 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Text, password, email, number, date, checkbox, radio, file, submit, reset, range, color, search, tel, url."
+        "question": "Quels sont les principaux types de champs <input> en HTML5 ?"
       },
       {
         "type": "qcm",
-        "question": "L'attribut 'required' dans un champ signifie que :",
+        "question": "L'attribut 'required' dans un champ <input> signifie que :",
         "choices": [
           "Le champ est en lecture seule",
           "Le champ doit être rempli avant soumission du formulaire",
@@ -52,11 +52,11 @@
       },
       {
         "type": "vrai-faux",
-        "question": "GET : données dans l'URL, limité en taille (~2000 caractères), mis en cache, visible dans l'historique."
+        "question": "Expliquez la différence entre GET et POST dans un formulaire."
       },
       {
         "type": "qcm",
-        "question": "La balise en HTML est utilisée pour :",
+        "question": "La balise <label> en HTML est utilisée pour :",
         "choices": [
           "Afficher une liste déroulante",
           "Associer un texte descriptif à un champ de formulaire",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Algorithmes et complexité",
-      "description": "Notion fondamentale de NSI"
-    },
-    {
-      "notion": "Programmation objet",
-      "description": "Notion fondamentale de NSI"
-    },
-    {
-      "notion": "Données et réseaux",
-      "description": "Notion fondamentale de NSI"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

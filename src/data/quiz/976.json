@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques 2nde : Image, antécédent & tableau de valeurs",
     "status": "published",
-    "created_at": "2026-04-06 06:40:42",
-    "updated_at": "2026-04-06 06:40:42"
+    "created_at": "2026-04-18 18:34:32",
+    "updated_at": "2026-04-18 18:34:32"
   },
   "quiz": {
     "title": "Image, antécédent & tableau de valeurs",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "X² − 4 = 0 → x² = 4 → x = ±2."
+        "question": "Pour f(x) = x² − 4, détermine les antécédents de 0. La bonne réponse attendue est : x = 2 ou x = −2."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "X: −1→2, 0→0, 1→0, 2→2, 3→6."
+        "question": "Construis un tableau de valeurs pour f(x) = x² − x pour x ∈ {−1, 0, 1, 2, 3}. La bonne réponse attendue est : x: −1→2, 0→0, 1→0, 2→2, 3→6."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fonctions polynomiales",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Géométrie analytique",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Ensembles et logique",
-      "description": "Notion fondamentale de Mathématiques"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

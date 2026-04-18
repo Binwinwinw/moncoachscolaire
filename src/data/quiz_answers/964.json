@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "a² + 2ab + b²",
+        "answer": "B",
         "correction": "(a+b)² = a² + 2ab + b². C'est l'identité remarquable du carré d'une somme."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. x² − 9 = x² − 3² = (x−3)(x+3) grâce à l'identité a² − b² = (a−b)(a+b)."
+        "correction": "x² − 9 = x² − 3² = (x−3)(x+3) grâce à l'identité a² − b² = (a−b)(a+b)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "4x² − 12x + 9",
+        "answer": "C",
         "correction": "(2x−3)² = (2x)² − 2·(2x)·3 + 3² = 4x² − 12x + 9."
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. (x+4)(x−1) = x² − x + 4x − 4 = x² + 3x − 4."
+        "correction": "(x+4)(x−1) = x² − x + 4x − 4 = x² + 3x − 4."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "(x+2)(x+3)",
+        "answer": "B",
         "correction": "(x+2)(x+3) = x² + 3x + 2x + 6 = x² + 5x + 6. ✓"
       },
       {

@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic NSI 1ère - Série 879",
+    "title": "Quiz Diagnostic NSI 1ere - Série 879",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
-    "description": "Diagnostic NSI 1ère : HTML — Structure d'une page web",
+    "description": "Diagnostic NSI 1ere : HTML — Structure d'une page web",
     "status": "published",
-    "created_at": "2026-04-06 06:40:40",
-    "updated_at": "2026-04-06 06:40:40"
+    "created_at": "2026-04-18 20:28:31",
+    "updated_at": "2026-04-18 20:28:31"
   },
   "quiz": {
     "title": "HTML — Structure d'une page web",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
     "question_count": 8,
     "passing_score": 70,
@@ -30,11 +30,11 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La balise contient le contenu visible de la page web."
+        "question": "La balise <head> contient le contenu visible de la page web."
       },
       {
         "type": "vrai-faux",
-        "question": "Le DOCTYPE déclare la version HTML."
+        "question": "Quelle est la structure minimale d'une page HTML5 valide ?"
       },
       {
         "type": "qcm",
@@ -48,15 +48,15 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La balise en HTML5 nécessite une balise de fermeture ."
+        "question": "La balise <img> en HTML5 nécessite une balise de fermeture </img>."
       },
       {
         "type": "vrai-faux",
-        "question": "Est un conteneur de niveau bloc (block-level) : il occupe toute la largeur disponible et crée une nouvelle ligne."
+        "question": "Expliquez la différence entre balises <div> et <span>."
       },
       {
         "type": "qcm",
-        "question": "L'attribut 'alt' de la balise sert à :",
+        "question": "L'attribut 'alt' de la balise <img> sert à :",
         "choices": [
           "Définir la taille de l'image",
           "Fournir un texte alternatif pour l'accessibilité",
@@ -66,23 +66,10 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Les balises sémantiques HTML5 comme , , améliorent l'accessibilité."
+        "question": "Les balises sémantiques HTML5 comme <header>, <footer>, <article> améliorent l'accessibilité."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Algorithmes et complexité",
-      "description": "Notion fondamentale de NSI"
-    },
-    {
-      "notion": "Programmation objet",
-      "description": "Notion fondamentale de NSI"
-    },
-    {
-      "notion": "Données et réseaux",
-      "description": "Notion fondamentale de NSI"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

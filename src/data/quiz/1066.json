@@ -1,90 +1,91 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Anglais 1ère - SÃ©rie 1066",
+    "title": "Quiz Diagnostic Mathématiques 1ere - Série 1066",
     "type": "quiz",
-    "level": "1ère",
-    "subject": "Anglais",
-    "description": "Diagnostic Anglais 1ère : Diagnostic Anglais 1ère - Série 8",
+    "level": "1ere",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 1ere : Mathématiques 1ère - Trigonométrie et cercle trigonométrique",
     "status": "published",
-    "created_at": "2026-04-06 06:40:39",
-    "updated_at": "2026-04-06 06:40:39",
-    "source": "Eduscol programmes officiels + BOEN",
-    "programme_ref": "BO special ndeg1 du 22 janvier 2019 (LGT) + Eduscol Langues vivantes Premiere"
+    "created_at": "2026-04-18T20:22:11.628594Z",
+    "updated_at": "2026-04-18T20:22:11.628594Z",
+    "source": "MonCoachScolaire",
+    "programme_ref": "Mathématiques 1ère"
   },
   "quiz": {
-    "title": "Diagnostic Anglais 1ère - Série 8",
+    "title": "Mathématiques 1ère - Trigonométrie et cercle trigonométrique",
     "type": "quiz",
-    "level": "1ère",
-    "subject": "Anglais",
+    "level": "1ere",
+    "subject": "Mathématiques",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
+        "id": "1066_1",
         "type": "qcm",
-        "question": "What is the superlative form of the adjective \"bad\"?",
+        "question": "Sur le cercle trigonométrique, l'angle π radians correspond à :",
         "choices": [
-          "badder",
-          "worse",
-          "worst",
-          "worser"
+          "90°",
+          "120°",
+          "180°",
+          "360°"
         ]
       },
       {
+        "id": "1066_2",
         "type": "vrai-faux",
-        "question": "The word \"their\" is a possessive pronoun."
+        "question": "Les angles 0 et 2π radians ont le même point image sur le cercle trigonométrique."
       },
       {
-        "type": "vrai-faux",
-        "question": "Nous mangeons le petit déjeuner."
-      },
-      {
+        "id": "1066_3",
         "type": "qcm",
-        "question": "Which of the following words is a synonym for \"happy\"?",
+        "question": "Quelle est la mesure en radians de 90° ?",
         "choices": [
-          "sad",
-          "angry",
-          "joyful",
-          "tired"
+          "π/6",
+          "π/4",
+          "π/2",
+          "π"
         ]
       },
       {
+        "id": "1066_4",
         "type": "vrai-faux",
-        "question": "\"It's\" can be used as a possessive pronoun."
+        "question": "Sur le cercle trigonométrique, le cosinus d'un angle correspond à l'abscisse du point associé."
       },
       {
-        "type": "vrai-faux",
-        "question": "The past tense of \"see\" is \"saw\"."
-      },
-      {
+        "id": "1066_5",
         "type": "qcm",
-        "question": "Choose the correct sentence:",
+        "question": "Quel angle est associé au point le plus haut du cercle trigonométrique ?",
         "choices": [
-          "He don't like sports.",
-          "He doesn't like sports.",
-          "He isn't like sports.",
-          "He no like sports."
+          "0",
+          "π/2",
+          "π",
+          "3π/2"
         ]
       },
       {
+        "id": "1066_6",
         "type": "vrai-faux",
-        "question": "The word \"happily\" is an adverb."
+        "question": "Le sinus d'un angle peut être négatif."
+      },
+      {
+        "id": "1066_7",
+        "type": "qcm",
+        "question": "À quel angle en degrés correspond 3π/2 radians ?",
+        "choices": [
+          "180°",
+          "270°",
+          "300°",
+          "360°"
+        ]
+      },
+      {
+        "id": "1066_8",
+        "type": "vrai-faux",
+        "question": "Les angles peuvent être exprimés en degrés ou en radians."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Civilisation britannique",
-      "description": "Notion fondamentale de Anglais"
-    },
-    {
-      "notion": "Nuances grammaticales",
-      "description": "Notion fondamentale de Anglais"
-    },
-    {
-      "notion": "Débat en anglais",
-      "description": "Notion fondamentale de Anglais"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

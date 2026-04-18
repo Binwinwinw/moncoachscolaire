@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "6",
+        "answer": "B",
         "correction": "u₁ = (u₀ + 4)/2 = (2 + 4)/2 = 3."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. En supposant convergence vers L : L = L/2 + 1 → L = 2. La suite est croissante et bornée par 2."
+        "correction": "En supposant convergence vers L : L = L/2 + 1 → L = 2. La suite est croissante et bornée par 2."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "Étudier le signe de uₙ₊₁ − uₙ = f(uₙ) − uₙ",
+        "answer": "B",
         "correction": "Le sens de variation s'obtient en étudiant le signe de uₙ₊₁ − uₙ = f(uₙ) − uₙ."
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. uₙ/2 ≤ 1 (si uₙ ≤ 2) → uₙ/2 + 1 ≤ 2. L'invariant uₙ ≤ 2 est héréditaire."
+        "correction": "uₙ/2 ≤ 1 (si uₙ ≤ 2) → uₙ/2 + 1 ≤ 2. L'invariant uₙ ≤ 2 est héréditaire."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "5",
+        "answer": "A",
         "correction": "u₀=0, u₁=1, u₂=1, u₃=2, u₄=3, u₅=5."
       },
       {

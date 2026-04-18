@@ -1,70 +1,75 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 2nde - Série 219",
-    "level": "2nde",
-    "subject": "Français"
+    "title": "Quiz Diagnostic Histoire-Géographie 1ere - SÃ©rie 219",
+    "level": "1ere",
+    "subject": "Histoire-Géographie"
   },
   "quiz": {
-    "title": "Diagnostic 2nde Français - Synthèse des compétences de début d'année",
+    "title": "Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 45",
     "question_count": 8,
-    "level": "2nde",
-    "subject": "Français",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Présenter le texte et formuler une problématique",
-        "correction": "L'introduction situe le texte (auteur, œuvre, contexte utile) puis annonce l'angle d'analyse. La problématique guide tout le développement."
+        "answer": "XXe siÃ¨cle",
+        "correct": 2,
+        "correction": "Ce thÃ¨me s'inscrit principalement dans le contexte du XXe siÃ¨cle, pÃ©riode de grandes transformations politiques, Ã©conomiques et sociales qui ont faÃ§onnÃ© le monde contemporain."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "Une analyse efficace articule preuve et interprétation. La citation doit être brève, pertinente et commentée."
+        "correction": "VRAI. Ce thÃ¨me est inscrit au programme d'Histoire-GÃ©ographie de la classe de PremiÃ¨re, permettant aux Ã©lÃ¨ves d'acquÃ©rir des connaissances fondamentales sur les grandes Ã©volutions du monde contemporain."
       },
       {
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La problématique pose la question centrale à laquelle l'analyse répond. Elle donne une cohérence à l'ensemble du devoir."
+        "correct_answer": "Ce thÃ¨me permet de comprendre les grandes Ã©volutions politiques, Ã©conomiques et sociales qui ont faÃ§onnÃ© notre monde actuel.",
+        "answer": "Ce thÃ¨me permet de comprendre les grandes Ã©volutions politiques, Ã©conomiques et sociales qui ont faÃ§onnÃ© notre monde actuel.",
+        "correction": "L'Ã©tude du thÃ¨me 'L'espace numÃ©rique et la gÃ©opolitique' est essentielle pour comprendre les dynamiques du monde contemporain : les rapports de force entre nations, les transformations sociales et Ã©conomiques, et les enjeux gÃ©opolitiques actuels. Elle dÃ©veloppe l'esprit critique et la capacitÃ© d'analyse historique et gÃ©ographique des Ã©lÃ¨ves."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "De plus",
-        "correction": "« De plus » ajoute un élément convergent. C'est un connecteur d'addition utile pour renforcer une démonstration."
+        "answer": "L'analyse critique de documents et la construction d'une argumentation",
+        "correct": 1,
+        "correction": "L'Ã©tude de l'histoire-gÃ©ographie dÃ©veloppe l'analyse critique de documents (textes, cartes, images, statistiques), la construction d'une argumentation rigoureuse, la mise en perspective temporelle et spatiale des phÃ©nomÃ¨nes, et la comprÃ©hension des enjeux du monde contemporain."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
         "answer": "faux",
-        "correction": "La conclusion répond à la problématique en synthétisant les acquis de l'analyse. Elle reformule, sans copier, et peut ouvrir sur une perspective."
+        "correction": "FAUX. Les sources primaires (archives, tÃ©moignages, documents d'Ã©poque) et les sources secondaires (travaux d'historiens) sont complÃ©mentaires. Les sources primaires peuvent Ãªtre biaisÃ©es, incomplÃ¨tes ou difficiles Ã  interprÃ©ter ; les sources secondaires apportent une analyse critique et une mise en perspective. L'historien doit confronter les deux types de sources."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La citation sert d'appui précis à l'analyse. Elle doit être intégrée à la phrase et expliquée."
+        "correct_answer": "Un territoire est un espace gÃ©ographique appropriÃ©, vÃ©cu et organisÃ© par une sociÃ©tÃ©, contrairement Ã  un simple espace physique.",
+        "answer": "Un territoire est un espace gÃ©ographique appropriÃ©, vÃ©cu et organisÃ© par une sociÃ©tÃ©, contrairement Ã  un simple espace physique.",
+        "correction": "En gÃ©ographie, un territoire est un espace gÃ©ographique dÃ©limitÃ©, appropriÃ© et organisÃ© par un groupe humain qui lui donne une identitÃ© et un sens. Il se distingue d'un simple espace physique par la prÃ©sence d'acteurs qui l'amÃ©nagent, le gÃ¨rent et le revendiquent. La notion de territoire implique donc une dimension sociale, politique et identitaire, en plus de la dimension physique."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "La concession",
-        "correction": "La concession oppose un fait à ce qu'on attendrait logiquement. « Bien que » est un marqueur typique de cette relation."
+        "answer": "Une reprÃ©sentation graphique qui reprÃ©sente la distribution spatiale d'un phÃ©nomÃ¨ne prÃ©cis",
+        "correct": 1,
+        "correction": "Une carte thÃ©matique reprÃ©sente la distribution spatiale d'un phÃ©nomÃ¨ne gÃ©ographique spÃ©cifique (densitÃ© de population, PIB par habitant, flux migratoires, etc.) Ã  l'aide de signes conventionnels (couleurs, symboles, flÃ¨ches). Elle est un outil d'analyse indispensable en gÃ©ographie pour identifier des disparitÃ©s spatiales et des dynamiques territoriales."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "La relecture est une étape stratégique : elle réduit les fautes et clarifie les idées. Elle améliore directement la qualité de l'expression."
+        "correction": "VRAI. La gÃ©opolitique analyse les relations entre les donnÃ©es gÃ©ographiques (ressources, territoires, frontiÃ¨res, positions stratÃ©giques) et les stratÃ©gies politiques et militaires des Ã‰tats et des acteurs non-Ã©tatiques. Elle examine comment la gÃ©ographie influence les rapports de puissance, les conflits et les alliances internationales."
       }
     ]
   }

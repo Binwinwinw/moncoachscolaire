@@ -6,8 +6,8 @@
     "subject": "Technologie",
     "description": "Diagnostic Technologie 3eme : L'eco-conception et cycle de vie des produits",
     "status": "published",
-    "created_at": "2026-04-06 06:40:45",
-    "updated_at": "2026-04-06 06:40:45"
+    "created_at": "2026-04-18 21:24:12",
+    "updated_at": "2026-04-18 21:24:12"
   },
   "quiz": {
     "title": "L'eco-conception et cycle de vie des produits",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Le cycle de vie comprend : extraction des matieres premieres, fabrication, distribution, utilisation, fin de vie (reutilisation, recyclage, elimination)."
+        "question": "La bonne réponse attendue est : cycle de vie."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "L'upcycling (surcyclage) transforme des dechets en nouveaux produits de valeur superieure ou egale sans les degrader, contrairement au recyclage classique (downcycling)."
+        "question": "La bonne réponse attendue est : upcycling."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Technologie",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Compétences de base 3eme",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Savoir-faire technologie",
-      "description": "Notion du programme 3eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

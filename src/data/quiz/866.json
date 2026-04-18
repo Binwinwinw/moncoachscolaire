@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SES 1ere - Série 866",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "SES",
+    "description": "Diagnostic SES 1ere : L'intégration européenne et la mondialisation",
+    "status": "published",
+    "created_at": "2026-04-18 20:28:31",
+    "updated_at": "2026-04-18 20:28:31"
+  },
+  "quiz": {
+    "title": "L'intégration européenne et la mondialisation",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "SES",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle définition correspond le mieux à la mondialisation ?",
+        "choices": [
+          "L'intensification des échanges à l'échelle mondiale",
+          "Une règle mathématique",
+          "Un procédé purement technique",
+          "Une décision individuelle isolée"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La mondialisation peut être étudié à partir d'exemples concrets de la vie sociale et économique."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle notion est la plus directement liée à la mondialisation ?",
+        "choices": [
+          "l'intégration économique",
+          "la tectonique des plaques",
+          "la versification",
+          "la conjugaison"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Pour analyser la mondialisation, on peut mobiliser des données statistiques et des exemples d'actualité."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel objectif pédagogique est lié à l'étude de la mondialisation ?",
+        "choices": [
+          "Comprendre les mécanismes sociaux et économiques",
+          "Apprendre des dates sans explication",
+          "Réciter une définition isolée",
+          "Éviter toute interprétation"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une notion comme la mondialisation ne se réduit pas à une simple opinion : elle s'appuie sur des concepts précis."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel outil aide souvent à mieux comprendre la mondialisation ?",
+        "choices": [
+          "Un schéma, un tableau ou un graphique",
+          "Une rime suivie",
+          "Un vers alexandrin",
+          "Un théorème de géométrie"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Étudier la mondialisation aide à développer l'esprit critique face aux phénomènes économiques et sociaux."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

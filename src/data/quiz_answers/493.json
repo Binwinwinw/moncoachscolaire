@@ -1,70 +1,73 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 493",
-    "level": "1ère",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 493",
+    "level": "1ere",
     "subject": "Français"
   },
   "quiz": {
-    "title": "Poésie engagée et résistante",
+    "title": "PoÃ©sie engagÃ©e et rÃ©sistante",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Paul Éluard",
-        "correction": "'Liberté' d'Éluard (1942), publié dans Poésie et Vérité, est un poème-manifeste de la Résistance."
+        "answer": "Paul Ã‰luard",
+        "correct": 1,
+        "correction": "'LibertÃ©' d'Ã‰luard (1942), publiÃ© dans PoÃ©sie et VÃ©ritÃ©, est un poÃ¨me-manifeste de la RÃ©sistance."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "Aragon signe certains poèmes 'François la Colère' pour contourner la censure nazie."
+        "correction": "Aragon signe certains poÃ¨mes 'FranÃ§ois la ColÃ¨re' pour contourner la censure nazie."
       },
       {
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Chaque strophe liste les surfaces (cahier d'écolier, arbre, pierre…) sur lesquelles le poète écrit 'Liberté'."
+        "answer": "faux",
+        "correction": "Chaque strophe liste les surfaces (cahier d'Ã©colier, arbre, pierreâ€¦) sur lesquelles le poÃ¨te Ã©crit 'LibertÃ©'."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Chef de maquis dans le Vaucluse",
-        "correction": "Char (pseudonyme 'Capitaine Alexandre') dirige le groupe de résistance Ventoux dans le Vaucluse."
+        "correct": 1,
+        "correction": "Char (pseudonyme 'Capitaine Alexandre') dirige le groupe de rÃ©sistance Ventoux dans le Vaucluse."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
         "answer": "faux",
-        "correction": "La poésie résistante (Éluard, Aragon, Char) maintient une haute exigence formelle ; la beauté renforce le message."
+        "correction": "La poÃ©sie rÃ©sistante (Ã‰luard, Aragon, Char) maintient une haute exigence formelle ; la beautÃ© renforce le message."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Feuillets d'Hypnos (1946) rassemble les notes de Char pendant sa période de résistance armée."
+        "answer": "faux",
+        "correction": "Feuillets d'Hypnos (1946) rassemble les notes de Char pendant sa pÃ©riode de rÃ©sistance armÃ©e."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "L'alexandrin rimé",
-        "correction": "'La Rose et le Réséda' utilise des alexandrins rimés, récupérant la tradition formelle pour mieux résister."
+        "answer": "L'alexandrin rimÃ©",
+        "correct": 2,
+        "correction": "'La Rose et le RÃ©sÃ©da' utilise des alexandrins rimÃ©s, rÃ©cupÃ©rant la tradition formelle pour mieux rÃ©sister."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "Prévert (Paroles, 1945) dénonce la guerre ('Familiale'), les inégalités et le conformisme avec humour et tendresse."
+        "correction": "PrÃ©vert (Paroles, 1945) dÃ©nonce la guerre ('Familiale'), les inÃ©galitÃ©s et le conformisme avec humour et tendresse."
       }
     ]
   }

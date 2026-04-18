@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "ln(a) + ln(b)",
+        "answer": "B",
         "correction": "Propriété fondamentale : ln(ab) = ln(a) + ln(b) pour a, b > 0."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. ln(8) = ln(2³) = 3·ln(2). Propriété de la puissance : ln(aⁿ) = n·ln(a)."
+        "correction": "ln(8) = ln(2³) = 3·ln(2). Propriété de la puissance : ln(aⁿ) = n·ln(a)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "ln 3",
+        "answer": "A",
         "correction": "ln(e⁵) − ln(e²) = 5 − 2 = 3. Ou : ln(e⁵/e²) = ln(e³) = 3."
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. ln(x(x−2)) = ln(3) ⟺ x(x−2) = 3 ⟺ x²−2x−3 = 0 ⟺ (x−3)(x+1)=0. x=3 (x>2)."
+        "correction": "ln(x(x−2)) = ln(3) ⟺ x(x−2) = 3 ⟺ x²−2x−3 = 0 ⟺ (x−3)(x+1)=0. x=3 (x>2)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "1/2",
+        "answer": "B",
         "correction": "ln(√e) = ln(e^(1/2)) = 1/2."
       },
       {

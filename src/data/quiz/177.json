@@ -1,94 +1,75 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 6eme - Série 0177",
+    "title": "Quiz Diagnostic Histoire-Géographie 1ere - SÃ©rie 177",
     "type": "quiz",
-    "level": "6eme",
-    "subject": "Français",
-    "description": "Diagnostic Français 6eme : Français 6e - Les subordonnées",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 1ere : Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 3",
     "status": "published",
-    "created_at": "2026-04-06 06:25:38",
-    "updated_at": "2026-04-06 06:25:38"
+    "created_at": "2026-04-18 20:30:32",
+    "updated_at": "2026-04-18 20:30:32"
   },
   "quiz": {
-    "title": "Français 6e - Les subordonnées",
+    "title": "Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 3",
     "type": "quiz",
-    "level": "6eme",
-    "subject": "Français",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Qu'est-ce qu'une subordonnée ?",
+        "question": "Dans quel pays le fascisme prend-il le pouvoir en premier ?",
         "choices": [
-          "Une proposition indépendante",
-          "Une proposition qui dépend d'une autre proposition",
-          "Une proposition qui n'a pas de sujet",
-          "Une proposition qui n'a pas de verbe"
+          "L'Allemagne",
+          "L'Espagne",
+          "L'Italie",
+          "La Hongrie"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Les subordonnées peuvent être classées en plusieurs types, tels que les subordonnées relatives, les subordonnées complétives et les subordonnées circonstancielles, en fonction de leur fonction grammaticale et de leur relation avec la proposition principale."
+        "question": "La crise Ã©conomique de 1929 commence aux Ã‰tats-Unis avec le krach boursier de Wall Street."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Qu'est-ce que le nazisme et quels sont ses principaux fondements idÃ©ologiques ?"
       },
       {
         "type": "qcm",
-        "question": "Quel est le rôle d'une subordonnée relative ?",
+        "question": "Quel est le nom du rÃ©gime autoritaire instaurÃ© par Staline en URSS dans les annÃ©es 1930 ?",
         "choices": [
-          "Elle fournit des informations supplémentaires sur un nom ou un pronom dans la proposition principale",
-          "Elle complète le sens d'un verbe dans la proposition principale",
-          "Elle indique les circonstances de l'action exprimée dans la proposition principale",
-          "Elle n'a pas de rôle spécifique"
+          "Le lÃ©ninisme",
+          "Le stalinisme totalitaire",
+          "Le bolchevisme libÃ©ral",
+          "La dÃ©mocratie populaire"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "L'utilisation correcte des subordonnées est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les écrivains utilisent les subordonnées de manière appropriée en fonction du contexte et du message qu'ils souhaitent transmettre, ce qui contribue à la clarté et à l'efficacité de la communication écrite."
+        "question": "Le Front populaire gouverne la France entre 1936 et 1938 sous la direction de LÃ©on Blum."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Qu'est-ce que la politique d'apaisement (appeasement) pratiquÃ©e par les dÃ©mocraties face Ã  Hitler dans les annÃ©es 1930 ?"
       },
       {
         "type": "qcm",
-        "question": "Quel est le rôle d'une subordonnée complétive ?",
+        "question": "Quel pacte de non-agression est signÃ© entre l'Allemagne nazie et l'URSS en aoÃ»t 1939 ?",
         "choices": [
-          "Elle fournit des informations supplémentaires sur un nom ou un pronom dans la proposition principale",
-          "Elle complète le sens d'un verbe dans la proposition principale",
-          "Elle indique les circonstances de l'action exprimée dans la proposition principale",
-          "Elle n'a pas de rôle spécifique"
+          "Le pacte anti-Komintern",
+          "Le pacte germano-soviÃ©tique (pacte Molotov-Ribbentrop)",
+          "Le pacte d'acier",
+          "Le traitÃ© de non-prolifÃ©ration"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "L'utilisation incorrecte des subordonnées peut parfois entraîner des confusions ou des malentendus dans la communication écrite, en rendant difficile pour les lecteurs de comprendre les relations entre les différentes propositions dans un texte, ce qui peut nuire à la clarté du message et à l'efficacité de la communication écrite."
-      },
-      {
-        "type": "qcm",
-        "question": "Quel est le rôle d'une subordonnée circonstancielle ?",
-        "choices": [
-          "Elle fournit des informations supplémentaires sur un nom ou un pronom dans la proposition principale",
-          "Elle complète le sens d'un verbe dans la proposition principale",
-          "Elle indique les circonstances de l'action exprimée dans la proposition principale",
-          "Elle n'a pas de rôle spécifique"
-        ]
-      },
-      {
-        "type": "vrai-faux",
-        "question": "L'utilisation correcte des subordonnées est essentielle pour éviter les confusions et les erreurs dans la communication écrite."
+        "question": "La Seconde Guerre mondiale Ã©clate le 1er septembre 1939 avec l'invasion de la Pologne par l'Allemagne."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Français",
-      "description": "Notion du programme 6eme"
-    },
-    {
-      "notion": "Compétences de base 6eme",
-      "description": "Notion du programme 6eme"
-    },
-    {
-      "notion": "Savoir-faire français",
-      "description": "Notion du programme 6eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

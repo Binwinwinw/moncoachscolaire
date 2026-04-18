@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 591",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie"
   },
   "quiz": {
     "title": "Espaces productifs industriels",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La baisse du poids de l'industrie dans l'emploi et la production",
+        "correct": 1,
         "correction": "Ce phénomène touche de nombreux territoires européens."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Ils regroupent recherche, universités et entreprises."
+        "correction": "Ils regroupent recherche, universités et entreprises."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "L'aéronautique",
+        "correct": 1,
         "correction": "Airbus et toute sa filière structurent de grands territoires."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Elle répond à des enjeux de souveraineté et de résilience."
+        "correction": "Elle répond à des enjeux de souveraineté et de résilience."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La recherche et développement",
+        "correct": 1,
         "correction": "L'innovation est un levier central de performance."
       },
       {

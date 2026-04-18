@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic HGGSP 1ère - Série 934",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP"
   },
   "quiz": {
     "title": "La mémoire de la Seconde Guerre mondiale",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le génocide des Juifs d'Europe par les nazis (1941-1945)",
+        "correct": 1,
         "correction": "La Shoah (hébreu : 'catastrophe') désigne le génocide systématique de 6 millions de Juifs par le régime nazi et ses collaborateurs. Le terme s'est imposé notamment après le film de Claude Lanzmann (1985)."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La mémoire de Vichy illustre le processus de deuil mémoriel complexe d'une société confrontée à un passé douloureux."
+        "answer": "faux",
+        "correction": "La mémoire de Vichy illustre le processus de deuil mémoriel complexe d'une société confrontée à un passé douloureux."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "27 janvier",
+        "correct": 2,
         "correction": "Le 27 janvier commémore la libération du camp d'Auschwitz-Birkenau en 1945. L'ONU l'a officiellement désigné Journée internationale en 2005, pour les 60 ans de la libération."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Figures négationnistes : Robert Faurisson, David Irving. Leurs thèses ont été réfutées par des historiens dans des procès retentissants."
+        "answer": "faux",
+        "correction": "Figures négationnistes : Robert Faurisson, David Irving. Leurs thèses ont été réfutées par des historiens dans des procès retentissants."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Les victimes juives de la Shoah déportées de France",
+        "correct": 1,
         "correction": "Le Mémorial de la Shoah (Paris, fondé en 1956, rénovations successives) conserve le Mur des Noms des 76 000 déportés juifs de France, un centre d'archives et un musée."
       },
       {

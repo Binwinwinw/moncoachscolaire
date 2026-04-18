@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 587",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie"
   },
   "quiz": {
     "title": "Défense et sécurité nationale",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le Président de la République",
+        "correct": 0,
         "correction": "La Constitution fait du Président le chef des armées."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Elle protège la souveraineté nationale et les citoyens."
+        "correction": "Elle protège la souveraineté nationale et les citoyens."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La sécurité antiterroriste sur le territoire",
+        "correct": 1,
         "correction": "Sentinelle mobilise des militaires pour protéger des sites sensibles."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. L'OTAN coordonne la défense collective de ses membres."
+        "correction": "L'OTAN coordonne la défense collective de ses membres."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La sécurité civile",
+        "correct": 1,
         "correction": "Elle coordonne secours, pompiers et dispositifs d'urgence."
       },
       {

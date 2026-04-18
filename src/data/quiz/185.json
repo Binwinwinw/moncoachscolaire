@@ -1,100 +1,75 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 6eme - Série 0185",
+    "title": "Quiz Diagnostic Histoire-Géographie 1ere - SÃ©rie 185",
     "type": "quiz",
-    "level": "6eme",
-    "subject": "Français",
-    "description": "Diagnostic Français 6eme : Français 6e - Les figures d’insistance",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 1ere : Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 11",
     "status": "published",
-    "created_at": "2026-04-06 06:25:38",
-    "updated_at": "2026-04-06 06:25:38"
+    "created_at": "2026-04-18 20:30:32",
+    "updated_at": "2026-04-18 20:30:32"
   },
   "quiz": {
-    "title": "Français 6e - Les figures d’insistance",
+    "title": "Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 11",
     "type": "quiz",
-    "level": "6eme",
-    "subject": "Français",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Qu'est-ce qu'une figure d'insistance ?",
+        "question": "Quel est le plus grand dÃ©sert franÃ§ais en termes de densitÃ© de population ?",
         "choices": [
-          "Une figure de style qui atténue l'importance d'une idée",
-          "Une figure de style qui met en valeur une idée en la répétant ou en la soulignant",
-          "Une figure de style qui compare deux idées",
-          "Une figure de style qui exagère une idée"
+          "La Camargue",
+          "La Creuse",
+          "La diagonale du vide",
+          "Les Alpes"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Les figures d'insistance peuvent être classées en plusieurs types, tels que les anaphores, les épiphore, les répétitions, les parallélismes, etc., en fonction de la manière dont elles mettent en valeur une idée."
+        "question": "Paris et l'ÃŽle-de-France concentrent environ 20% de la population franÃ§aise et plus de 30% de la richesse nationale."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Qu'est-ce que la mÃ©tropolisation et comment transforme-t-elle les territoires franÃ§ais ?"
       },
       {
         "type": "qcm",
-        "question": "Quel est la figure d'insistance parmi ces options ?",
+        "question": "Quel espace gÃ©ographique franÃ§ais prÃ©sente la densitÃ© de population la plus Ã©levÃ©e hors ÃŽle-de-France ?",
         "choices": [
-          "Anaphore",
-          "Affirmation",
-          "booléen",
-          "Allitération"
-        ]
-      },
-      {
-        "type": "qcm",
-        "question": "Quel est le rôle d'une figure d'insistance dans la communication ?",
-        "choices": [
-          "Atténuer l'importance d'une idée",
-          "Mettre en valeur une idée en la répétant ou en la soulignant",
-          "Comparer deux idées",
-          "Exagérer une idée"
+          "La rÃ©gion PACA",
+          "L'Alsace (Bas-Rhin)",
+          "Le Nord-Pas-de-Calais (Nord)",
+          "La Gironde"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Est-il facile d'utiliser les figures d'insistance de manière appropriée dans la communication ?"
+        "question": "Les espaces ruraux franÃ§ais sont tous en dÃ©clin dÃ©mographique."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Qu'est-ce que les Outre-Mer franÃ§ais et quel est leur statut ?"
       },
       {
         "type": "qcm",
-        "question": "Quel est la figure d'insistance parmi ces options ?",
+        "question": "Quel phÃ©nomÃ¨ne dÃ©signe la croissance des villes au dÃ©triment des campagnes environnantes ?",
         "choices": [
-          "Démonstration",
-          "Hyperbole",
-          "booléen",
-          "Répétition"
+          "L'exode rural",
+          "L'Ã©talement urbain",
+          "La pÃ©riurbanisation",
+          "L'urbanisation"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "L'utilisation correcte des figures d'insistance est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les écrivains utilisent les figures d'insistance de manière appropriée en fonction du contexte et du message qu'ils souhaitent transmettre, ce qui contribue à la clarté du message et à l'efficacité de la communication écrite."
-      },
-      {
-        "type": "qcm",
-        "question": "Quel est la figure d'insistance parmi ces options ?",
-        "choices": [
-          "Comparaison",
-          "Allitération",
-          "booléen",
-          "Parallélisme"
-        ]
+        "question": "La France possÃ¨de la deuxiÃ¨me zone Ã©conomique exclusive (ZEE) la plus grande du monde grÃ¢ce Ã  ses territoires ultramarins."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Français",
-      "description": "Notion du programme 6eme"
-    },
-    {
-      "notion": "Compétences de base 6eme",
-      "description": "Notion du programme 6eme"
-    },
-    {
-      "notion": "Savoir-faire français",
-      "description": "Notion du programme 6eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

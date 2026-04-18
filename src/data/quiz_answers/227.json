@@ -1,6 +1,6 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Philosophie 1ere - Série 227",
+    "title": "Quiz Diagnostic Philosophie 1ere - SÃ©rie 227",
     "level": "1ere",
     "subject": "Philosophie"
   },
@@ -14,57 +14,60 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Est vrai ce qui correspond à la réalité (adéquation entre l'intellect et la chose)",
-        "correction": "La conception correspondantiste (ou adéquationniste) de la vérité, héritée d'Aristote ('est vraie la proposition qui affirme ce qui est'), définit la vérité comme l'adéquation (adequatio) entre un jugement ou une proposition et la réalité qu'il représente. C'est la conception la plus intuitive et la plus répandue en philosophie classique."
+        "answer": "Est vrai ce qui correspond Ã  la rÃ©alitÃ© (adÃ©quation entre l'intellect et la chose)",
+        "correct": 2,
+        "correction": "La conception correspondantiste (ou adÃ©quationniste) de la vÃ©ritÃ©, hÃ©ritÃ©e d'Aristote ('est vraie la proposition qui affirme ce qui est'), dÃ©finit la vÃ©ritÃ© comme l'adÃ©quation (adequatio) entre un jugement ou une proposition et la rÃ©alitÃ© qu'il reprÃ©sente. C'est la conception la plus intuitive et la plus rÃ©pandue en philosophie classique."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le scepticisme (de Pyrrhon à Sextus Empiricus dans l'Antiquité) affirme qu'on ne peut avoir de connaissance certaine car nos facultés sont faillibles, les opinions contradictoires se valent et toute preuve exige une autre preuve (régression à l'infini). La réponse sceptique est l'épochè (suspension du jugement) et l'ataraxie (tranquillité de l'âme). Le scepticisme modéré (Montaigne) est une posture intellectuelle d'humilité."
+        "correction": "VRAI. Le scepticisme (de Pyrrhon Ã  Sextus Empiricus dans l'AntiquitÃ©) affirme qu'on ne peut avoir de connaissance certaine car nos facultÃ©s sont faillibles, les opinions contradictoires se valent et toute preuve exige une autre preuve (rÃ©gression Ã  l'infini). La rÃ©ponse sceptique est l'Ã©pochÃ¨ (suspension du jugement) et l'ataraxie (tranquillitÃ© de l'Ã¢me). Le scepticisme modÃ©rÃ© (Montaigne) est une posture intellectuelle d'humilitÃ©."
       },
       {
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Dans la République (allégorie de la ligne), Platon distingue : l'opinion (doxa) – connaissance du monde sensible, du visible, instable et incertaine – et la science (épistémè) – connaissance du monde intelligible, des Idées (Formes) éternelles et immuables. L'allégorie de la caverne illustre ce passage de l'opinion (ombres sur la paroi) à la vérité (lumière du soleil = l'Idée du Bien). La philosophie est le chemin qui mène de la doxa à l'épistémè."
+        "answer": "faux",
+        "correction": "Dans la RÃ©publique (allÃ©gorie de la ligne), Platon distingue : l'opinion (doxa) â€“ connaissance du monde sensible, du visible, instable et incertaine â€“ et la science (Ã©pistÃ©mÃ¨) â€“ connaissance du monde intelligible, des IdÃ©es (Formes) Ã©ternelles et immuables. L'allÃ©gorie de la caverne illustre ce passage de l'opinion (ombres sur la paroi) Ã  la vÃ©ritÃ© (lumiÃ¨re du soleil = l'IdÃ©e du Bien). La philosophie est le chemin qui mÃ¨ne de la doxa Ã  l'Ã©pistÃ©mÃ¨."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "Toute vérité est une perspective, une interprétation liée à une volonté de puissance",
-        "correction": "Pour Nietzsche (Le Gai Savoir, Fragments posthumes), la vérité n'est pas une adéquation au réel mais le résultat d'une interprétation perpétuelle du monde. Il n'y a pas de 'fait brut' : toute perception, tout concept est déjà une interprétation liée à une perspective, une volonté de puissance. La 'vérité' est une 'armée mobile de métaphores' – une fiction utile que nous confondons avec le réel."
+        "answer": "Toute vÃ©ritÃ© est une perspective, une interprÃ©tation liÃ©e Ã  une volontÃ© de puissance",
+        "correct": 1,
+        "correction": "Pour Nietzsche (Le Gai Savoir, Fragments posthumes), la vÃ©ritÃ© n'est pas une adÃ©quation au rÃ©el mais le rÃ©sultat d'une interprÃ©tation perpÃ©tuelle du monde. Il n'y a pas de 'fait brut' : toute perception, tout concept est dÃ©jÃ  une interprÃ©tation liÃ©e Ã  une perspective, une volontÃ© de puissance. La 'vÃ©ritÃ©' est une 'armÃ©e mobile de mÃ©taphores' â€“ une fiction utile que nous confondons avec le rÃ©el."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
         "answer": "faux",
-        "correction": "FAUX. En philosophie des sciences, Karl Popper (La Logique de la découverte scientifique) affirme que la science progresse par réfutations et révolutions. Une théorie scientifique n'est jamais définitivement vraie : elle est acceptée provisoirement jusqu'à ce qu'une expérience la réfute. Thomas Kuhn parle de 'révolutions scientifiques' (changements de paradigme). L'ancienneté d'une théorie ne garantit pas sa vérité."
+        "correction": "FAUX. En philosophie des sciences, Karl Popper (La Logique de la dÃ©couverte scientifique) affirme que la science progresse par rÃ©futations et rÃ©volutions. Une thÃ©orie scientifique n'est jamais dÃ©finitivement vraie : elle est acceptÃ©e provisoirement jusqu'Ã  ce qu'une expÃ©rience la rÃ©fute. Thomas Kuhn parle de 'rÃ©volutions scientifiques' (changements de paradigme). L'anciennetÃ© d'une thÃ©orie ne garantit pas sa vÃ©ritÃ©."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Descartes (Méditations métaphysiques, 1ère méditation) applique un doute méthodique (provisoire et volontaire, non sceptique définitif) : il rejette les certitudes des sens (qui trompent parfois), l'existence du monde extérieur (peut-être un rêve), même les vérités mathématiques (hypothèse du malin génie). Ce doute hyperbolique le conduit à la seule certitude indubitable : 'Je pense, donc je suis.' Le cogito est le fondement de tout l'édifice de la connaissance cartésienne."
+        "answer": "faux",
+        "correction": "Descartes (MÃ©ditations mÃ©taphysiques, 1Ã¨re mÃ©ditation) applique un doute mÃ©thodique (provisoire et volontaire, non sceptique dÃ©finitif) : il rejette les certitudes des sens (qui trompent parfois), l'existence du monde extÃ©rieur (peut-Ãªtre un rÃªve), mÃªme les vÃ©ritÃ©s mathÃ©matiques (hypothÃ¨se du malin gÃ©nie). Ce doute hyperbolique le conduit Ã  la seule certitude indubitable : 'Je pense, donc je suis.' Le cogito est le fondement de tout l'Ã©difice de la connaissance cartÃ©sienne."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Ce qui est utile, ce qui 'fonctionne' dans la pratique",
-        "correction": "Le pragmatisme (William James, Pragmatism, 1907 ; John Dewey) définit la vérité de manière instrumentale : est vrai ce qui est utile, ce qui 'fonctionne' (works), ce qui produit de bons résultats dans l'action. Une idée vraie est une idée qui 'paie' (pays). Cette conception rompt avec le réalisme classique en faisant de la vérité une valeur pratique plutôt qu'une correspondance théorique."
+        "correct": 1,
+        "correction": "Le pragmatisme (William James, Pragmatism, 1907 ; John Dewey) dÃ©finit la vÃ©ritÃ© de maniÃ¨re instrumentale : est vrai ce qui est utile, ce qui 'fonctionne' (works), ce qui produit de bons rÃ©sultats dans l'action. Une idÃ©e vraie est une idÃ©e qui 'paie' (pays). Cette conception rompt avec le rÃ©alisme classique en faisant de la vÃ©ritÃ© une valeur pratique plutÃ´t qu'une correspondance thÃ©orique."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "faux",
-        "correction": "FAUX. La vérité scientifique est provisoire, révisable et falsifiable (Popper). L'histoire des sciences montre de nombreuses révisions : la physique newtonienne a été relativisée par Einstein, la cosmologie géocentrique remplacée par l'héliocentrisme. Bachelard (La Formation de l'esprit scientifique) montre que la science progresse contre les 'obstacles épistémologiques' et par rectifications successives."
+        "correction": "FAUX. La vÃ©ritÃ© scientifique est provisoire, rÃ©visable et falsifiable (Popper). L'histoire des sciences montre de nombreuses rÃ©visions : la physique newtonienne a Ã©tÃ© relativisÃ©e par Einstein, la cosmologie gÃ©ocentrique remplacÃ©e par l'hÃ©liocentrisme. Bachelard (La Formation de l'esprit scientifique) montre que la science progresse contre les 'obstacles Ã©pistÃ©mologiques' et par rectifications successives."
       }
     ]
   }

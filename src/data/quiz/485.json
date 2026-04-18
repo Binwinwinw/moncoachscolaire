@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 485",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 485",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
-    "description": "Diagnostic Français 1ère : L'expression écrite : la synthèse de documents",
+    "description": "Diagnostic Français 1ere : L'expression Ã©crite : la synthÃ¨se de documents",
     "status": "published",
-    "created_at": "2026-03-13 18:59:43",
-    "updated_at": "2026-03-13 18:59:43"
+    "created_at": "2026-04-18 20:20:13",
+    "updated_at": "2026-04-18 20:20:13"
   },
   "quiz": {
-    "title": "L'expression écrite : la synthèse de documents",
+    "title": "L'expression Ã©crite : la synthÃ¨se de documents",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
@@ -20,69 +20,56 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Qu'est-ce qu'une synthèse de documents ?",
+        "question": "Qu'est-ce qu'une synthÃ¨se de documents ?",
         "choices": [
-          "Un résumé de chaque document séparément",
-          "Un texte qui articule les idées de plusieurs documents autour d'une problématique commune",
-          "Un commentaire littéraire",
+          "Un rÃ©sumÃ© de chaque document sÃ©parÃ©ment",
+          "Un texte qui articule les idÃ©es de plusieurs documents autour d'une problÃ©matique commune",
+          "Un commentaire littÃ©raire",
           "Un texte d'opinion personnel"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Dans une synthèse, on peut donner son opinion personnelle."
+        "question": "Dans une synthÃ¨se, on peut donner son opinion personnelle."
       },
       {
         "type": "vrai-faux",
-        "question": "Cette affirmation reformule l'idée essentielle à retenir : Dans une synthèse, on attribue chaque idée à son auteur à l'aide d'un verbe introducteur ou d'une _____."
+        "question": "Dans une synthÃ¨se, on attribue chaque idÃ©e Ã  son auteur Ã  l'aide d'un verbe introducteur ou d'une _____."
       },
       {
         "type": "qcm",
-        "question": "Quelle est la structure habituelle d'une synthèse réussie ?",
+        "question": "Quelle est la structure habituelle d'une synthÃ¨se rÃ©ussie ?",
         "choices": [
-          "Résumé doc. 1, résumé doc. 2, résumé doc. 3",
-          "Introduction (problématique) + développement thématique + conclusion",
-          "Introduction + thèse + antithèse + synthèse",
-          "Résumé + commentaire + opinion"
+          "RÃ©sumÃ© doc. 1, rÃ©sumÃ© doc. 2, rÃ©sumÃ© doc. 3",
+          "Introduction (problÃ©matique) + dÃ©veloppement thÃ©matique + conclusion",
+          "Introduction + thÃ¨se + antithÃ¨se + synthÃ¨se",
+          "RÃ©sumÃ© + commentaire + opinion"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "La synthèse peut comporter de longues citations extraites des documents."
+        "question": "La synthÃ¨se peut comporter de longues citations extraites des documents."
       },
       {
         "type": "vrai-faux",
-        "question": "Avant tout, on interroge : Quel est le problème/thème commun à tous ces documents."
+        "question": "La _____ de documents commence par dÃ©finir une problÃ©matique commune Ã  l'ensemble du corpus."
       },
       {
         "type": "qcm",
-        "question": "Le plan documentaire (doc. 1, doc. 2…) est à éviter dans une synthèse car :",
+        "question": "Le plan documentaire (doc. 1, doc. 2â€¦) est Ã  Ã©viter dans une synthÃ¨se car :",
         "choices": [
-          "Il rend la synthèse trop longue",
+          "Il rend la synthÃ¨se trop longue",
           "Il juxtapose les documents sans les articuler",
-          "Il est difficile à mettre en œuvre",
+          "Il est difficile Ã  mettre en Å“uvre",
           "Il exige trop de citations"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "La synthèse de documents fait partie des épreuves anticipées de Français au baccalauréat."
+        "question": "La synthÃ¨se de documents fait partie des Ã©preuves anticipÃ©es de FranÃ§ais au baccalaurÃ©at."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Baccalauréat français",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Poésie baroque et classique",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Théâtre et représentation",
-      "description": "Notion fondamentale de Français"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

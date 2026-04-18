@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 482",
-    "level": "1ère",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 482",
+    "level": "1ere",
     "subject": "Français"
   },
   "quiz": {
-    "title": "Mouvements littéraires : Humanisme, Baroque, Classicisme",
+    "title": "Mouvements littÃ©raires : Humanisme, Baroque, Classicisme",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "answers": [
       {
@@ -15,56 +15,59 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'Humanisme",
-        "correction": "L'Humanisme (XVIe s.) place l'Homme au centre et redécouvre les Anciens (studia humanitatis)."
+        "correct": 2,
+        "correction": "L'Humanisme (XVIe s.) place l'Homme au centre et redÃ©couvre les Anciens (studia humanitatis)."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "faux",
-        "correction": "Le Baroque (fin XVIe-début XVIIe) valorise le mouvement, l'excès, l'ornement et l'instabilité."
+        "correction": "Le Baroque (fin XVIe-dÃ©but XVIIe) valorise le mouvement, l'excÃ¨s, l'ornement et l'instabilitÃ©."
       },
       {
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. L'humaniste aspire à l'honnête homme universel, curieux de tout savoir humain."
+        "answer": "faux",
+        "correction": "L'humaniste aspire Ã  l'honnÃªte homme universel, curieux de tout savoir humain."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Racine",
-        "correction": "Racine (Andromaque, Phèdre) est l'un des grands tragédiens classiques du XVIIe siècle."
+        "correct": 2,
+        "correction": "Racine (Andromaque, PhÃ¨dre) est l'un des grands tragÃ©diens classiques du XVIIe siÃ¨cle."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "Le Classicisme (1660-1685) est l'esthétique du Grand Siècle, soutenu par la monarchie absolue."
+        "correction": "Le Classicisme (1660-1685) est l'esthÃ©tique du Grand SiÃ¨cle, soutenu par la monarchie absolue."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Ronsard, 'Ode à Cassandre' : 'Cueillez dès aujourd'hui les roses de la vie' → carpe diem."
+        "answer": "faux",
+        "correction": "Ronsard, 'Ode Ã  Cassandre' : 'Cueillez dÃ¨s aujourd'hui les roses de la vie' â†’ carpe diem."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "Les tragi-comédies et le théâtre dans le théâtre",
-        "correction": "Le Baroque mêle les genres et joue avec les illusions théâtrales (Le Vrai Saint-Genest de Rotrou)."
+        "answer": "Les tragi-comÃ©dies et le thÃ©Ã¢tre dans le thÃ©Ã¢tre",
+        "correct": 1,
+        "correction": "Le Baroque mÃªle les genres et joue avec les illusions thÃ©Ã¢trales (Le Vrai Saint-Genest de Rotrou)."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "La philosophie cartésienne (raison, méthode) est parallèle à l'esthétique classique (ordre, clarté)."
+        "correction": "La philosophie cartÃ©sienne (raison, mÃ©thode) est parallÃ¨le Ã  l'esthÃ©tique classique (ordre, clartÃ©)."
       }
     ]
   }

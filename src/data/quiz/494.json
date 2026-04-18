@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 494",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 494",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
-    "description": "Diagnostic Français 1ère : Le roman au XXe siècle : nouveaux courants",
+    "description": "Diagnostic Français 1ere : Le roman au XXe siÃ¨cle : nouveaux courants",
     "status": "published",
-    "created_at": "2026-03-13 18:59:43",
-    "updated_at": "2026-03-13 18:59:43"
+    "created_at": "2026-04-18 20:20:13",
+    "updated_at": "2026-04-18 20:20:13"
   },
   "quiz": {
-    "title": "Le roman au XXe siècle : nouveaux courants",
+    "title": "Le roman au XXe siÃ¨cle : nouveaux courants",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
@@ -20,9 +20,9 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Le Nouveau Roman des années 1950-60 se caractérise par :",
+        "question": "Le Nouveau Roman des annÃ©es 1950-60 se caractÃ©rise par :",
         "choices": [
-          "Une intrigue linéaire et des personnages bien définis",
+          "Une intrigue linÃ©aire et des personnages bien dÃ©finis",
           "Le refus du personnage traditionnel, de l'intrigue et du narrateur omniscient",
           "Un retour au roman historique",
           "L'engagement politique explicite"
@@ -34,55 +34,42 @@
       },
       {
         "type": "vrai-faux",
-        "question": "'L'existence précède l'essence' : l'homme n'a pas de nature prédéfinie ; il se crée par ses actes."
+        "question": "L'Existentialisme, dont Sartre est la figure phare, affirme que l'existence prÃ©cÃ¨de l'_____, c'est-Ã -dire que l'homme se dÃ©finit par ses choix."
       },
       {
         "type": "qcm",
-        "question": "L'Étranger de Camus présente un narrateur :",
+        "question": "L'Ã‰tranger de Camus prÃ©sente un narrateur :",
         "choices": [
-          "Omniscient et engagé",
-          "Détaché et indifférent (absurde)",
+          "Omniscient et engagÃ©",
+          "DÃ©tachÃ© et indiffÃ©rent (absurde)",
           "Lyrique et romantique",
           "Comique et ironique"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Simone de Beauvoir est une romancière et philosophe existentialiste."
+        "question": "Simone de Beauvoir est une romanciÃ¨re et philosophe existentialiste."
       },
       {
         "type": "vrai-faux",
-        "question": "Le Nouveau Roman refuse le sens tout fait et engage le lecteur dans une co-construction du sens."
+        "question": "Dans le Nouveau Roman, le lecteur est souvent sollicitÃ© de maniÃ¨re active : il doit _____ le sens du texte."
       },
       {
         "type": "qcm",
-        "question": "Quel roman de Nathalie Sarraute est souvent cité comme exemple de Nouveau Roman ?",
+        "question": "Quel roman de Nathalie Sarraute est souvent citÃ© comme exemple de Nouveau Roman ?",
         "choices": [
           "La Jalousie",
           "Tropismes",
-          "L'Étranger",
+          "L'Ã‰tranger",
           "Les Gommes"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Le roman existentialiste s'intéresse à la liberté et à la responsabilité de l'individu face au monde."
+        "question": "Le roman existentialiste s'intÃ©resse Ã  la libertÃ© et Ã  la responsabilitÃ© de l'individu face au monde."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Baccalauréat français",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Poésie baroque et classique",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Théâtre et représentation",
-      "description": "Notion fondamentale de Français"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

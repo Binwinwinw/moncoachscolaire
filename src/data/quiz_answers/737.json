@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 737",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie"
   },
   "quiz": {
     "title": "Électricité : semi-conducteurs et diodes",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Un matériau dont la conductivité est intermédiaire entre un conducteur et un isolant",
+        "correct": 1,
         "correction": "Les semi-conducteurs (silicium, germanium) ont une conductivité entre les conducteurs et les isolants, modulable par dopage ou température."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le silicium est le semi-conducteur le plus utilisé en électronique, notamment pour la fabrication des transistors et circuits intégrés."
+        "correction": "Le silicium est le semi-conducteur le plus utilisé en électronique, notamment pour la fabrication des transistors et circuits intégrés."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Émettre de la lumière lorsqu'elle est traversée par un courant",
+        "correct": 2,
         "correction": "Une LED (Light Emitting Diode) émet de la lumière lorsqu'elle est polarisée en sens passant. Elle est très utilisée pour l'éclairage et les signaux lumineux."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Un redresseur utilise une ou plusieurs diodes pour ne laisser passer qu'une seule polarité du courant alternatif, convertissant ainsi en courant continu."
+        "correction": "Un redresseur utilise une ou plusieurs diodes pour ne laisser passer qu'une seule polarité du courant alternatif, convertissant ainsi en courant continu."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "0,6-0,7 V",
+        "correct": 2,
         "correction": "Une diode en silicium a une tension de seuil d'environ 0,6 à 0,7 V : en dessous de ce seuil, elle est bloquée ; au-dessus, elle conduit."
       },
       {

@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Traite de Rome",
+        "correct": 1,
         "correction": "Le Traité de Rome (25 mars 1957) a créé la CEE (devenue UE) et l'Euratom, signés par 6 pays fondateurs (France, Allemagne, Italie, Belgique, Pays-Bas, Luxembourg)."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. L'euro a été introduit le 1er janvier 1999 pour les transactions financières et le 1er janvier 2002 pour les billets et pièces dans 12 pays (aujourd'hui 20 pays)."
+        "correction": "L'euro a été introduit le 1er janvier 1999 pour les transactions financières et le 1er janvier 2002 pour les billets et pièces dans 12 pays (aujourd'hui 20 pays)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Proposer les lois, veiller a leur application et representer l'UE",
+        "correct": 1,
         "correction": "La Commission européenne (27 commissaires) est le 'moteur' de l'UE : elle propose les textes législatifs, veille à l'application du droit communautaire et représente l'UE à l'international."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le principe de subsidiarité (Traité de Maastricht) signifie que l'UE n'intervient que si l'objectif ne peut pas être atteint de manière suffisante par les États membres seuls."
+        "correction": "Le principe de subsidiarité (Traité de Maastricht) signifie que l'UE n'intervient que si l'objectif ne peut pas être atteint de manière suffisante par les États membres seuls."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Le Conseil europeen",
+        "correct": 2,
         "correction": "Le Conseil européen réunit les chefs d'État et de gouvernement des 27 États membres pour définir les grandes orientations politiques de l'UE."
       },
       {

@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic NSI 1ère - Série 894",
-    "level": "1ère",
+    "title": "Quiz Diagnostic NSI 1ere - Série 894",
+    "level": "1ere",
     "subject": "NSI"
   },
   "quiz": {
     "title": "Fonctions et portée des variables",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Définir une fonction",
+        "correct": 1,
         "correction": "def nom_fonction(paramètres): définit une nouvelle fonction. Le corps est indenté."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Le mot-clé global déclare qu'une variable locale référence la variable globale. nonlocal fait de même pour les fonctions imbriquées."
+        "answer": "faux",
+        "correction": "Le mot-clé global déclare qu'une variable locale référence la variable globale. nonlocal fait de même pour les fonctions imbriquées."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "def f(x = 0):",
+        "correct": 0,
         "correction": "Les paramètres avec valeur par défaut sont optionnels lors de l'appel. Ils doivent être placés après les paramètres obligatoires."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Les lambdas sont équivalentes à des def simples mais ne peuvent contenir qu'une expression."
+        "answer": "faux",
+        "correction": "Les lambdas sont équivalentes à des def simples mais ne peuvent contenir qu'une expression."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "1",
+        "correct": 1,
         "correction": "Par convention mathématique, 0! = 1. C'est le cas de base de la récursion de la factorielle."
       },
       {

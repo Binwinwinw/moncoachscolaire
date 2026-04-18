@@ -1,0 +1,83 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 2nde - SÃ©rie 6411",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 2nde : SVT 2nde - Évolution et sélection",
+    "status": "published",
+    "created_at": "2026-04-18 21:26:10",
+    "updated_at": "2026-04-18 21:26:10",
+    "source": "Eduscol programmes officiels + BOEN",
+    "programme_ref": "BO special ndeg1 du 22 janvier 2019 (LGT) + Eduscol SVT Seconde"
+  },
+  "quiz": {
+    "title": "SVT 2nde - Évolution et sélection",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "En SVT, pourquoi étudie-t-on l'évolution ?",
+        "choices": [
+          "Pour comprendre le vivant et les phénomènes naturels",
+          "Pour éviter toute observation",
+          "Pour réciter sans preuve",
+          "Pour apprendre uniquement des dates"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'évolution peut être étudié à l'aide de documents, d'observations ou d'expériences."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle méthode aide à progresser sur l'évolution ?",
+        "choices": [
+          "Observer, comparer et justifier",
+          "Répondre au hasard",
+          "Ignorer les documents",
+          "Éviter les schémas"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une bonne réponse en SVT s'appuie souvent sur une observation précise ou une donnée."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est l'objectif d'un exercice sur l'évolution ?",
+        "choices": [
+          "Comprendre un mécanisme du vivant ou de la Terre",
+          "Réciter sans réfléchir",
+          "Éviter toute preuve",
+          "Ne jamais corriger"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Reprendre ses erreurs permet d'améliorer sa maîtrise de l'évolution."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel support aide souvent à comprendre l'évolution ?",
+        "choices": [
+          "Un schéma, un graphique ou une expérience",
+          "Une simple récitation",
+          "Une rime poétique",
+          "Une addition posée"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "En SVT, la précision du vocabulaire scientifique est importante."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

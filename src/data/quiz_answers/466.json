@@ -1,41 +1,43 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 466",
-    "level": "1ère",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 466",
+    "level": "1ere",
     "subject": "Français"
   },
   "quiz": {
     "title": "Le roman : personnage et narration",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Il raconte une histoire dont il est le héros",
-        "correction": "Homodiégétique = narrateur présent dans l'histoire comme personnage principal."
+        "answer": "Il raconte une histoire dont il est le hÃ©ros",
+        "correct": 1,
+        "correction": "HomodiÃ©gÃ©tique = narrateur prÃ©sent dans l'histoire comme personnage principal."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "Hétéro = autre ; ce narrateur est extérieur à la diégèse."
+        "correction": "HÃ©tÃ©ro = autre ; ce narrateur est extÃ©rieur Ã  la diÃ©gÃ¨se."
       },
       {
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. En focalisation zéro, le narrateur connaît pensées, sentiments et événements passés/futurs."
+        "answer": "faux",
+        "correction": "En focalisation zÃ©ro, le narrateur connaÃ®t pensÃ©es, sentiments et Ã©vÃ©nements passÃ©s/futurs."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Focalisation interne",
+        "correct": 1,
         "correction": "En focalisation interne, le lecteur ne sait que ce que sait le personnage focal."
       },
       {
@@ -43,28 +45,29 @@
         "question_id": 5,
         "type": "vrai-faux",
         "answer": "faux",
-        "correction": "Un personnage rond est complexe et évolue ; le personnage plat est stéréotypé."
+        "correction": "Un personnage rond est complexe et Ã©volue ; le personnage plat est stÃ©rÃ©otypÃ©."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. L'analepse (ou retour en arrière, flashback) remonte dans le temps."
+        "answer": "faux",
+        "correction": "L'analepse (ou retour en arriÃ¨re, flashback) remonte dans le temps."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "L'absence de verbe introducteur et le maintien des temps du passé",
-        "correction": "Le DIL fusionne la voix du narrateur et la pensée du personnage sans marqueurs typographiques."
+        "answer": "L'absence de verbe introducteur et le maintien des temps du passÃ©",
+        "correct": 1,
+        "correction": "Le DIL fusionne la voix du narrateur et la pensÃ©e du personnage sans marqueurs typographiques."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "Cette alternance imparfait/passé simple est caractéristique du roman réaliste du XIXe siècle."
+        "correction": "Cette alternance imparfait/passÃ© simple est caractÃ©ristique du roman rÃ©aliste du XIXe siÃ¨cle."
       }
     ]
   }

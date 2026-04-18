@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "y = 3x + 2",
+        "answer": "B",
         "correction": "y = ax + b avec a = 3 et b = 2 (ordonnée à l'origine) : y = 3x + 2."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Pente : (9−5)/(4−2) = 2. Puis 5 = 2×2 + b → b = 1. Équation : y = 2x + 1."
+        "correction": "Pente : (9−5)/(4−2) = 2. Puis 5 = 2×2 + b → b = 1. Équation : y = 2x + 1."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "−2/3",
+        "answer": "B",
         "correction": "3y = −2x + 6 → y = (−2/3)x + 2. Pente = −2/3."
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Cette forme inclut les droites verticales (b=0) et horizontales (a=0)."
+        "correction": "Cette forme inclut les droites verticales (b=0) et horizontales (a=0)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "−1",
+        "answer": "C",
         "correction": "Deux droites de pentes a₁ et a₂ sont perpendiculaires si a₁ × a₂ = −1."
       },
       {

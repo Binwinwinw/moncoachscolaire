@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 468",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 468",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
-    "description": "Diagnostic Français 1ère : Le roman d'apprentissage (Bildungsroman)",
+    "description": "Diagnostic Français 1ere : Le roman d'apprentissage (Bildungsroman)",
     "status": "published",
-    "created_at": "2026-03-13 18:59:43",
-    "updated_at": "2026-03-13 18:59:43"
+    "created_at": "2026-04-18 20:20:12",
+    "updated_at": "2026-04-18 20:20:12"
   },
   "quiz": {
     "title": "Le roman d'apprentissage (Bildungsroman)",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
@@ -23,66 +23,53 @@
         "question": "Qu'est-ce qu'un roman d'apprentissage ?",
         "choices": [
           "Un roman policier",
-          "Un roman centré sur la formation et la maturation d'un personnage jeune",
-          "Un roman épistolaire",
+          "Un roman centrÃ© sur la formation et la maturation d'un personnage jeune",
+          "Un roman Ã©pistolaire",
           "Un roman historique"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "L'Éducation sentimentale de Flaubert est un roman d'apprentissage."
+        "question": "L'Ã‰ducation sentimentale de Flaubert est un roman d'apprentissage."
       },
       {
         "type": "vrai-faux",
-        "question": "Le départ de la province vers Paris est un schéma récurrent (Rastignac, Julien Sorel, Frédéric Moreau…)."
+        "question": "Dans le roman d'apprentissage, le hÃ©ros part souvent d'une _____ (lieu natal) vers la ville ou le monde."
       },
       {
         "type": "qcm",
-        "question": "Quel personnage balzacien est le type même du jeune ambitieux venu de province à Paris ?",
+        "question": "Quel personnage balzacien est le type mÃªme du jeune ambitieux venu de province Ã  Paris ?",
         "choices": [
           "Jean Valjean",
           "Rastignac",
           "Vautrin",
-          "Père Goriot"
+          "PÃ¨re Goriot"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Dans un roman d'apprentissage, le personnage principal n'évolue pas au fil du récit."
+        "question": "Dans un roman d'apprentissage, le personnage principal n'Ã©volue pas au fil du rÃ©cit."
       },
       {
         "type": "vrai-faux",
-        "question": "Le mentor (précepteur, ami plus âgé, figure paternelle) initie le héros aux codes du monde."
+        "question": "Le mentor est une figure rÃ©currente du roman d'apprentissage : il guide le hÃ©ros dans sa _____."
       },
       {
         "type": "qcm",
-        "question": "Quel roman de Voltaire peut être lu comme une parodie du roman d'apprentissage ?",
+        "question": "Quel roman de Voltaire peut Ãªtre lu comme une parodie du roman d'apprentissage ?",
         "choices": [
           "Zadig",
           "Candide",
-          "Micromégas",
-          "L'Ingénu"
+          "MicromÃ©gas",
+          "L'IngÃ©nu"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Le roman épistolaire est incompatible avec le schéma du roman d'apprentissage."
+        "question": "Le roman Ã©pistolaire est incompatible avec le schÃ©ma du roman d'apprentissage."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Baccalauréat français",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Poésie baroque et classique",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Théâtre et représentation",
-      "description": "Notion fondamentale de Français"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

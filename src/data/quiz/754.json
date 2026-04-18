@@ -6,8 +6,8 @@
     "subject": "EMC",
     "description": "Diagnostic EMC 3eme : Les droits sociaux et economiques",
     "status": "published",
-    "created_at": "2026-04-06 06:40:43",
-    "updated_at": "2026-04-06 06:40:43"
+    "created_at": "2026-04-18 21:24:13",
+    "updated_at": "2026-04-18 21:24:13"
   },
   "quiz": {
     "title": "Les droits sociaux et economiques",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Le RSA (Revenu de Solidarité Active), créé en 2009, assure un revenu minimum aux personnes sans ressources ou dont les revenus sont insuffisants."
+        "question": "La bonne réponse attendue est : RSA."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Preambule de la Constitution de 1946."
+        "question": "La bonne réponse attendue est : Preambule de la Constitution de 1946."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de EMC",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Compétences de base 3eme",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Savoir-faire emc",
-      "description": "Notion du programme 3eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

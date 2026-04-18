@@ -1,41 +1,43 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 476",
-    "level": "1ère",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 476",
+    "level": "1ere",
     "subject": "Français"
   },
   "quiz": {
-    "title": "La dissertation littéraire : méthode",
+    "title": "La dissertation littÃ©raire : mÃ©thode",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Analyser le sujet et dégager la problématique",
-        "correction": "Avant tout plan ou rédaction, il faut comprendre précisément ce que le sujet demande."
+        "answer": "Analyser le sujet et dÃ©gager la problÃ©matique",
+        "correct": 1,
+        "correction": "Avant tout plan ou rÃ©daction, il faut comprendre prÃ©cisÃ©ment ce que le sujet demande."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "La problématique formule l'enjeu intellectuel du sujet sous forme interrogative."
+        "correction": "La problÃ©matique formule l'enjeu intellectuel du sujet sous forme interrogative."
       },
       {
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Le plan dialectique (thèse / antithèse / synthèse) convient aux sujets d'opinion à nuancer."
+        "answer": "faux",
+        "correction": "Le plan dialectique (thÃ¨se / antithÃ¨se / synthÃ¨se) convient aux sujets d'opinion Ã  nuancer."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Bilan de la partie et annonce de la suivante",
+        "correct": 1,
         "correction": "La transition (ou lien) assure la progression logique du devoir."
       },
       {
@@ -43,28 +45,29 @@
         "question_id": 5,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "L'introduction comprend : accroche, présentation du sujet, problématique, annonce du plan."
+        "correction": "L'introduction comprend : accroche, prÃ©sentation du sujet, problÃ©matique, annonce du plan."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. L'exemple littéraire précis donne du poids à l'argument et montre la maîtrise des textes."
+        "answer": "faux",
+        "correction": "L'exemple littÃ©raire prÃ©cis donne du poids Ã  l'argument et montre la maÃ®trise des textes."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Un bilan des arguments et une ouverture",
-        "correction": "La conclusion synthétise la réponse à la problématique, puis ouvre sur une perspective plus large."
+        "correct": 1,
+        "correction": "La conclusion synthÃ©tise la rÃ©ponse Ã  la problÃ©matique, puis ouvre sur une perspective plus large."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "faux",
-        "correction": "On évite le 'je' en dissertation ; on utilise 'nous' ou des tournures impersonnelles pour maintenir la distance critique."
+        "correction": "On Ã©vite le 'je' en dissertation ; on utilise 'nous' ou des tournures impersonnelles pour maintenir la distance critique."
       }
     ]
   }

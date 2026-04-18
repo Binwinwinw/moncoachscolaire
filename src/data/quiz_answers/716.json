@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 716",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie"
   },
   "quiz": {
     "title": "Combustion des carburants et énergie",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Pouvoir calorifique supérieur (PCS)",
+        "correct": 0,
         "correction": "Le pouvoir calorifique (PCS ou PCI) caractérise l'énergie dégagée par la combustion complète d'une unité de masse de carburant."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le cliquetis (ou détonation) est une combustion anormale qui peut endommager le moteur à explosion."
+        "correction": "Le cliquetis (ou détonation) est une combustion anormale qui peut endommager le moteur à explosion."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Gaz naturel",
+        "correct": 2,
         "correction": "Le gaz naturel (méthane CH4) émet le moins de CO2 par kWh produit parmi les combustibles fossiles."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le décane C10H22 est un alcane à 10 carbones, souvent utilisé comme modèle du kérosène en chimie."
+        "correction": "Le décane C10H22 est un alcane à 10 carbones, souvent utilisé comme modèle du kérosène en chimie."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Car la combustion est mieux contrôlée avec moins de pertes",
+        "correct": 1,
         "correction": "L'injection directe optimise le mélange air/carburant, améliorant le rendement et réduisant les émissions polluantes."
       },
       {

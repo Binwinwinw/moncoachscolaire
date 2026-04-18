@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Synthese calcul integral",
     "status": "published",
-    "created_at": "2026-04-06 06:40:48",
-    "updated_at": "2026-04-06 06:40:48"
+    "created_at": "2026-04-18 18:52:46",
+    "updated_at": "2026-04-18 18:52:46"
   },
   "quiz": {
     "title": "Synthese calcul integral",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Je commence par reformuler la question, j'identifie les outils utiles, puis je deroule le calcul en verifiant les hypotheses et l'interpretation finale."
+        "question": "Explique en quelques lignes comment tu aborderais un exercice sur le theme suivant : primitives, aires et accumulation. La bonne réponse attendue est : Je commence par reformuler la question, j'identifie les outils utiles, puis je deroule le calcul en verifiant les hypotheses et l'interpretation finale."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Erreur frequente : appliquer une formule sans verifier ses conditions."
+        "question": "Cite une erreur frequente sur ce theme et explique comment l'eviter. La bonne réponse attendue est : Erreur frequente : appliquer une formule sans verifier ses conditions. Pour l'eviter, je controle d'abord le cadre de validite avant tout calcul."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Intégration et primitives",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Logarithme naturel",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Espaces vectoriels",
-      "description": "Notion fondamentale de Mathématiques"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

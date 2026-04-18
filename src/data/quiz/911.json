@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic NSI 1ere - Série 911",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "NSI",
+    "description": "Diagnostic NSI 1ere : Systèmes d'exploitation",
+    "status": "published",
+    "created_at": "2026-04-18 20:28:31",
+    "updated_at": "2026-04-18 20:28:31"
+  },
+  "quiz": {
+    "title": "Systèmes d'exploitation",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "NSI",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle définition correspond le mieux à un système d'exploitation ?",
+        "choices": [
+          "Le logiciel qui gère les ressources matérielles et logicielles",
+          "Une figure géométrique",
+          "Une règle de grammaire",
+          "Un mouvement littéraire"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un système d'exploitation est une notion utile pour comprendre le fonctionnement des systèmes numériques."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle notion est la plus directement associée à un système d'exploitation ?",
+        "choices": [
+          "la gestion des processus",
+          "la fable",
+          "la photosynthèse",
+          "la mondialisation"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Pour travailler un système d'exploitation, on peut utiliser des activités pratiques, du code ou des schémas."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est l'objectif principal de l'étude de un système d'exploitation ?",
+        "choices": [
+          "Comprendre les outils et concepts du numérique",
+          "Réciter des dates historiques",
+          "Apprendre uniquement par cœur",
+          "Éviter toute expérimentation"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un système d'exploitation peut être relié à des usages concrets du quotidien numérique."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel support peut aider à mieux comprendre un système d'exploitation ?",
+        "choices": [
+          "Un algorithme, un schéma ou un exemple de code",
+          "Une seule récitation orale",
+          "Un vers rimé",
+          "Une carte des reliefs"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Étudier un système d'exploitation développe la logique et la compréhension des systèmes informatiques."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

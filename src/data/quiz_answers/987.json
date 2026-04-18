@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Sa norme, sa direction et son sens",
+        "answer": "C",
         "correction": "Un vecteur est caractérisé par trois éléments : norme (longueur), direction et sens."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. ||u⃗|| = √(3² + 4²) = √(9 + 16) = √25 = 5."
+        "correction": "||u⃗|| = √(3² + 4²) = √(9 + 16) = √25 = 5."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "(5, 3)",
+        "answer": "A",
         "correction": "u⃗ + v⃗ = (2+3, −1+4) = (5, 3)."
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La relation de Chasles (ou relation de translation) indique que la somme de deux vecteurs consécutifs donne le vecteur résultant."
+        "correction": "La relation de Chasles (ou relation de translation) indique que la somme de deux vecteurs consécutifs donne le vecteur résultant."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "(6, −15)",
+        "answer": "C",
         "correction": "3·u⃗ = (3×2, 3×(−5)) = (6, −15)."
       },
       {

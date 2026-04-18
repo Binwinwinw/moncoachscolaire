@@ -6,8 +6,8 @@
     "subject": "EMC",
     "description": "Diagnostic EMC 3eme : Medias, information et democratie",
     "status": "published",
-    "created_at": "2026-04-06 06:40:43",
-    "updated_at": "2026-04-06 06:40:43"
+    "created_at": "2026-04-18 21:24:13",
+    "updated_at": "2026-04-18 21:24:13"
   },
   "quiz": {
     "title": "Medias, information et democratie",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La désinformation (ou infox / fake news) désigne la diffusion intentionnelle de fausses informations pour manipuler l'opinion publique."
+        "question": "La bonne réponse attendue est : desinformation."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La chambre d'écho (ou bulle de filtre) désigne l'enfermement de l'utilisateur dans un univers informationnel homogène, renforçant ses biais cognitifs."
+        "question": "La bonne réponse attendue est : chambre d'echo."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de EMC",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Compétences de base 3eme",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Savoir-faire emc",
-      "description": "Notion du programme 3eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic SES 1ère - Série 827",
+    "title": "Quiz Diagnostic SES 1ere - Série 827",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
-    "description": "Diagnostic SES 1ère : La productivité",
+    "description": "Diagnostic SES 1ere : La productivité",
     "status": "published",
-    "created_at": "2026-04-06 06:40:40",
-    "updated_at": "2026-04-06 06:40:40"
+    "created_at": "2026-04-18 20:28:31",
+    "updated_at": "2026-04-18 20:28:31"
   },
   "quiz": {
     "title": "La productivité",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Les gains de productivité peuvent être : distribués en hausses de salaires, répercutés en baisses de prix, distribués en dividendes aux actionnaires, ou utilisés pour investir (autofinancement)."
+        "question": "Comment les gains de productivité sont-ils répartis dans une économie ?"
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Le paradoxe de Solow (1987) : 'On voit des ordinateurs partout, sauf dans les statistiques de productivité.' Malgré l'essor des TIC, la croissance de la productivité ne s'accélérait pas."
+        "question": "Expliquez le paradoxe de Solow concernant les technologies de l'information."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Inégalités et redistribution",
-      "description": "Notion fondamentale de SES"
-    },
-    {
-      "notion": "Croissance économique",
-      "description": "Notion fondamentale de SES"
-    },
-    {
-      "notion": "Mondialisation",
-      "description": "Notion fondamentale de SES"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

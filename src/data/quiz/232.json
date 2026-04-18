@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Philosophie 1ere - Série 232",
+    "title": "Quiz Diagnostic Philosophie 1ere - SÃ©rie 232",
     "type": "quiz",
     "level": "1ere",
     "subject": "Philosophie",
     "description": "Diagnostic Philosophie 1ere : Quiz Diagnostic 1ere Philosophie - Serie 9",
     "status": "published",
-    "created_at": "2026-03-13 18:59:45",
-    "updated_at": "2026-03-13 18:59:45"
+    "created_at": "2026-04-18 15:13:09",
+    "updated_at": "2026-04-18 15:13:09"
   },
   "quiz": {
     "title": "Quiz Diagnostic 1ere Philosophie - Serie 9",
@@ -20,69 +20,56 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Selon Hobbes, pourquoi les hommes acceptent-ils de vivre sous l'autorité d'un État (Léviathan) ?",
+        "question": "Selon Hobbes, pourquoi les hommes acceptent-ils de vivre sous l'autoritÃ© d'un Ã‰tat (LÃ©viathan) ?",
         "choices": [
           "Par amour du bien commun",
-          "Pour sortir de l'état de nature (guerre de 'tous contre tous') et garantir leur sécurité",
+          "Pour sortir de l'Ã©tat de nature (guerre de 'tous contre tous') et garantir leur sÃ©curitÃ©",
           "Par obligation divine",
-          "Par obéissance à la tradition"
+          "Par obÃ©issance Ã  la tradition"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Pour Locke, la légitimité de l'État repose sur le consentement des gouvernés et la protection des droits naturels (vie, liberté, propriété)."
+        "question": "Pour Locke, la lÃ©gitimitÃ© de l'Ã‰tat repose sur le consentement des gouvernÃ©s et la protection des droits naturels (vie, libertÃ©, propriÃ©tÃ©)."
       },
       {
         "type": "vrai-faux",
-        "question": "La démocratie est le gouvernement 'du peuple, par le peuple, pour le peuple'."
+        "question": "Qu'est-ce que la dÃ©mocratie selon Lincoln et quelles en sont les conditions ?"
       },
       {
         "type": "qcm",
-        "question": "Qu'est-ce que la séparation des pouvoirs selon Montesquieu ?",
+        "question": "Qu'est-ce que la sÃ©paration des pouvoirs selon Montesquieu ?",
         "choices": [
-          "La division de l'État en régions autonomes",
-          "La séparation du pouvoir exécutif, législatif et judiciaire pour éviter les abus de pouvoir",
-          "La séparation de l'Église et de l'État",
-          "La division entre pouvoir central et collectivités locales"
+          "La division de l'Ã‰tat en rÃ©gions autonomes",
+          "La sÃ©paration du pouvoir exÃ©cutif, lÃ©gislatif et judiciaire pour Ã©viter les abus de pouvoir",
+          "La sÃ©paration de l'Ã‰glise et de l'Ã‰tat",
+          "La division entre pouvoir central et collectivitÃ©s locales"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "L'anarchisme philosophique affirme que l'État est une institution nécessaire pour organiser la société."
+        "question": "L'anarchisme philosophique affirme que l'Ã‰tat est une institution nÃ©cessaire pour organiser la sociÃ©tÃ©."
       },
       {
         "type": "vrai-faux",
-        "question": "Arendt distingue le travail (activité biologique de survie), l'œuvre (fabrication d'objets durables) et l'action (dimension politique de la liberté et de l'espace public)."
+        "question": "Quelle distinction Arendt Ã©tablit-elle entre le travail, l'Å“uvre et l'action ?"
       },
       {
         "type": "qcm",
         "question": "Qu'est-ce que le totalitarisme selon Hannah Arendt ?",
         "choices": [
-          "Un régime autoritaire qui contrôle l'armée et la police",
-          "Un régime politique inédit qui vise à transformer radicalement la société et l'être humain par la terreur et l'idéologie",
-          "Un régime de parti unique sans idéologie",
+          "Un rÃ©gime autoritaire qui contrÃ´le l'armÃ©e et la police",
+          "Un rÃ©gime politique inÃ©dit qui vise Ã  transformer radicalement la sociÃ©tÃ© et l'Ãªtre humain par la terreur et l'idÃ©ologie",
+          "Un rÃ©gime de parti unique sans idÃ©ologie",
           "La dictature d'un seul homme"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "La désobéissance civile est une forme de résistance non-violente à des lois jugées injustes, théorisée notamment par Thoreau et Gandhi."
+        "question": "La dÃ©sobÃ©issance civile est une forme de rÃ©sistance non-violente Ã  des lois jugÃ©es injustes, thÃ©orisÃ©e notamment par Thoreau et Gandhi."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Philosophie",
-      "description": "Notion du programme 1ere"
-    },
-    {
-      "notion": "Compétences de base 1ere",
-      "description": "Notion du programme 1ere"
-    },
-    {
-      "notion": "Savoir-faire philosophie",
-      "description": "Notion du programme 1ere"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic NSI 1ère - Série 892",
-    "level": "1ère",
+    "title": "Quiz Diagnostic NSI 1ere - Série 892",
+    "level": "1ere",
     "subject": "NSI"
   },
   "quiz": {
     "title": "Structures conditionnelles",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "if x > 0:",
+        "correct": 1,
         "correction": "Python utilise if, elif, else sans parenthèses obligatoires, sans then, et avec un deux-points. L'indentation définit le bloc."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La structure if/elif/else gère les trois cas mutuellement exclusifs."
+        "answer": "faux",
+        "correction": "La structure if/elif/else gère les trois cas mutuellement exclusifs."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "'False'",
+        "answer": "0",
+        "correct": 2,
         "correction": "En Python, les valeurs falsy sont : 0, 0.0, '' (chaîne vide), [] (liste vide), {} (dict vide), None, False. Toutes les autres sont truthy."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Le court-circuit permet aussi des idiomes comme x = x or valeur_par_défaut."
+        "answer": "faux",
+        "correction": "Le court-circuit permet aussi des idiomes comme x = x or valeur_par_défaut."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "True",
+        "correct": 1,
         "correction": "Python supporte les comparaisons chaînées : 3 > 2 > 1 est équivalent à (3 > 2) and (2 > 1) = True and True = True."
       },
       {

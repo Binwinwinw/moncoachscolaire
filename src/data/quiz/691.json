@@ -2,17 +2,17 @@
   "contents": {
     "title": "Quiz Diagnostic SVT 3ème - Série 691",
     "type": "quiz",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT",
     "description": "Diagnostic SVT 3ème : Révisions : évolution et classification",
     "status": "published",
-    "created_at": "2026-04-06 06:40:45",
-    "updated_at": "2026-04-06 06:40:45"
+    "created_at": "2026-04-18 18:28:05",
+    "updated_at": "2026-04-18 18:28:05"
   },
   "quiz": {
     "title": "Révisions : évolution et classification",
     "type": "quiz",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Les organes homologues ont une même origine évolutive même si leurs fonctions actuelles peuvent être différentes."
+        "question": "La bonne réponse attendue est : homologues."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La phylogénie cherche à reconstruire l'histoire évolutive et les relations de parenté entre les êtres vivants."
+        "question": "La bonne réponse attendue est : phylogénie."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Génétique et reproduction",
-      "description": "Notion fondamentale de SVT"
-    },
-    {
-      "notion": "Évolution des espèces",
-      "description": "Notion fondamentale de SVT"
-    },
-    {
-      "notion": "Organes sensoriels",
-      "description": "Notion fondamentale de SVT"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

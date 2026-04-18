@@ -22,7 +22,10 @@ os.makedirs(RUNTIME_ANSWERS_DIR, exist_ok=True)
 
 
 def normalize_question_type(question_type):
-    return str(question_type or "").strip().lower().replace("_", "-")
+    qtype = str(question_type or "").strip().lower().replace("_", "-")
+    if qtype == "qcm":
+        return "qcm"
+    return "vrai-faux"
 
 
 def now_utc_z():
@@ -171,12 +174,13 @@ def make_answers(qid, title, subject, level, questions):
                 "correction": explanation,
             })
         else:
+            tf_source = q.get("correct", q.get("answer", "faux"))
+            tf_answer = "vrai" if str(tf_source).strip().lower() in {"true", "vrai", "1"} else "faux"
             answers.append({
                 "index": index,
                 "question_id": index + 1,
                 "type": "vrai-faux",
-                "correct_answer": q.get("answer", ""),
-                "answer": q.get("answer", ""),
+                "answer": tf_answer,
                 "correction": explanation,
             })
 

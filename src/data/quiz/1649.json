@@ -6,10 +6,10 @@
     "subject": "Français",
     "description": "Diagnostic Français 2nde : Diagnostic 2nde Français - Phrase complexe et subordination",
     "status": "published",
-    "created_at": "2026-03-14 07:35:11",
-    "updated_at": "2026-03-14 07:35:11",
+    "created_at": "2026-04-18 15:23:24",
+    "updated_at": "2026-04-18 15:23:24",
     "source": "Eduscol programmes officiels + BOEN",
-    "programme_ref": "<Référence programme officiel à renseigner>"
+    "programme_ref": "BO spécial n°1 du 22 janvier 2019 (LGT) + Eduscol Français seconde"
   },
   "quiz": {
     "title": "Diagnostic 2nde Français - Phrase complexe et subordination",
@@ -35,8 +35,8 @@
         "question": "Dans « Je pense que tu as raison », « que tu as raison » est une subordonnée conjonctive complétive."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on une subordonnée introduite par « qui », « que », « dont » ou « où » ?"
+        "type": "vrai-faux",
+        "question": "La bonne réponse attendue est : subordonnée relative."
       },
       {
         "type": "qcm",
@@ -53,8 +53,8 @@
         "question": "« Bien que » introduit généralement une idée de concession."
       },
       {
-        "type": "open",
-        "question": "Donne un connecteur de conséquence fréquemment utilisé dans un raisonnement."
+        "type": "vrai-faux",
+        "question": "La bonne réponse attendue est : donc."
       },
       {
         "type": "qcm",
@@ -72,19 +72,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Mouvements littéraires",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Analyse narratologique",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Argumentation structurée",
-      "description": "Notion fondamentale de Français"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

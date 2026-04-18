@@ -1,94 +1,81 @@
 {
   "contents": {
-    "title": "Le cycle de l'eau en SVT",
+    "title": "Quiz Diagnostic NSI 1ere - Série 904",
     "type": "quiz",
-    "level": "5eme",
-    "subject": "SVT",
-    "description": "Diagnostic SVT 5eme : Cycle de l'eau et ses étapes",
+    "level": "1ere",
+    "subject": "NSI",
+    "description": "Diagnostic NSI 1ere : Bases de données relationnelles",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-08 00:05:00"
+    "created_at": "2026-04-18 20:28:31",
+    "updated_at": "2026-04-18 20:28:31"
   },
   "quiz": {
-    "title": "Anglais - Le cycle de l'eau en SVT",
-    "level": "5eme",
-    "subject": "SVT",
+    "title": "Bases de données relationnelles",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "NSI",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel processus transforme l'eau liquide en vapeur ?",
+        "question": "Quelle définition correspond le mieux à une base de données relationnelle ?",
         "choices": [
-          "L'évaporation",
-          "La condensation",
-          "La précipitation",
-          "L'infiltration"
+          "Un ensemble de tables reliées entre elles",
+          "Une figure géométrique",
+          "Une règle de grammaire",
+          "Un mouvement littéraire"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "La condensation se produit quand l'eau vapeur devient liquide."
-      },
-      {
-        "type": "vrai-faux",
-        "question": "Réponds en décrivant la formation de la pluie lorsque la vapeur d'eau se refroidit."
+        "question": "Une base de données relationnelle est une notion utile pour comprendre le fonctionnement des systèmes numériques."
       },
       {
         "type": "qcm",
-        "question": "Où l'eau s'infiltre-t-elle après être tombée sur le sol ?",
+        "question": "Quelle notion est la plus directement associée à une base de données relationnelle ?",
         "choices": [
-          "Dans le sol",
-          "Dans le vent",
-          "Dans le Soleil",
-          "Dans les nuages"
+          "les tables",
+          "la fable",
+          "la photosynthèse",
+          "la mondialisation"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "L'eau de la mer peut aussi s'évaporer pour rejoindre les nuages."
+        "question": "Pour travailler une base de données relationnelle, on peut utiliser des activités pratiques, du code ou des schémas."
       },
       {
         "type": "qcm",
-        "question": "Quel rôle jouent les plantes dans le cycle de l'eau ?",
+        "question": "Quel est l'objectif principal de l'étude de une base de données relationnelle ?",
         "choices": [
-          "Elles transpirent de l'eau dans l'air",
-          "Elles transforment l'eau en roche",
-          "Elles absorbent l'air",
-          "Elles produisent du feu"
+          "Comprendre les outils et concepts du numérique",
+          "Réciter des dates historiques",
+          "Apprendre uniquement par cœur",
+          "Éviter toute expérimentation"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Réponds en expliquant que l'eau est nécessaire pour les cellules et les réactions de la vie."
+        "question": "Une base de données relationnelle peut être relié à des usages concrets du quotidien numérique."
       },
       {
         "type": "qcm",
-        "question": "Quel élément ne fait pas partie du cycle de l'eau ?",
+        "question": "Quel support peut aider à mieux comprendre une base de données relationnelle ?",
         "choices": [
-          "La photosynthèse",
-          "L'évaporation",
-          "La condensation",
-          "La précipitation"
+          "Un algorithme, un schéma ou un exemple de code",
+          "Une seule récitation orale",
+          "Un vers rimé",
+          "Une carte des reliefs"
         ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Étudier une base de données relationnelle développe la logique et la compréhension des systèmes informatiques."
       }
-    ],
-    "type": "quiz"
+    ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Evaporation",
-      "description": "L'évaporation transforme l'eau liquide en vapeur sous l'effet de la chaleur."
-    },
-    {
-      "notion": "Condensation",
-      "description": "La condensation transforme la vapeur d'eau en gouttes d'eau dans les nuages."
-    },
-    {
-      "notion": "Précipitation",
-      "description": "La précipitation fait tomber l'eau du ciel sous forme de pluie, neige ou grêle."
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

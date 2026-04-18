@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 738",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie"
   },
   "quiz": {
     "title": "Électricité : transistors et circuits logiques",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Amplifier ou commuter des signaux électriques",
+        "correct": 1,
         "correction": "Un transistor peut amplifier un signal faible ou fonctionner comme un interrupteur commandé électroniquement (commutation)."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La porte ET (AND) réalise la fonction logique ET : la sortie est 1 uniquement si toutes les entrées sont à 1."
+        "correction": "La porte ET (AND) réalise la fonction logique ET : la sortie est 1 uniquement si toutes les entrées sont à 1."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Des milliards",
+        "correct": 3,
         "correction": "Les processeurs modernes contiennent plusieurs milliards de transistors gravés à l'échelle nanométrique."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Les ordinateurs utilisent le système binaire (0 et 1) car il correspond aux deux états physiques des transistors (bloqué/saturé)."
+        "correction": "Les ordinateurs utilisent le système binaire (0 et 1) car il correspond aux deux états physiques des transistors (bloqué/saturé)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Un ensemble de composants (transistors, résistances, diodes) intégrés sur une même puce de silicium",
+        "correct": 1,
         "correction": "Un circuit intégré regroupe de nombreux composants sur une seule puce de silicium, permettant la miniaturisation et la réduction des coûts."
       },
       {

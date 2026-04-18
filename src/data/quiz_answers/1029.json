@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "F' = f sur I",
+        "answer": "B",
         "correction": "F est une primitive de f si F'(x) = f(x) pour tout x de I."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Primitive générale : x³ − x² + x + C. F(0) = C = 0 → F(x) = x³ − x² + x."
+        "correction": "Primitive générale : x³ − x² + x + C. F(0) = C = 0 → F(x) = x³ − x² + x."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "1",
+        "answer": "B",
         "correction": "∫₀¹ 2x dx = [x²]₀¹ = 1² − 0² = 1."
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. ∫₁ᵉ (1/x) dx = [ln x]₁ᵉ = ln(e) − ln(1) = 1 − 0 = 1."
+        "correction": "∫₁ᵉ (1/x) dx = [ln x]₁ᵉ = ln(e) − ln(1) = 1 − 0 = 1."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "eˣ + C",
+        "answer": "A",
         "correction": "La primitive de eˣ est eˣ + C, car (eˣ)' = eˣ."
       },
       {

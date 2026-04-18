@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Équation de la tangente",
     "status": "published",
-    "created_at": "2026-04-06 06:40:48",
-    "updated_at": "2026-04-06 06:40:48"
+    "created_at": "2026-04-18 18:52:46",
+    "updated_at": "2026-04-18 18:52:46"
   },
   "quiz": {
     "title": "Équation de la tangente",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "F(2) = 4−6+2 = 0 ; f'(x) = 2x−3, f'(2) = 1."
+        "question": "Détermine l'équation de la tangente à f(x) = x² − 3x + 2 en x = 2. La bonne réponse attendue est : y = x − 2."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "F(1) = ln(1) = 0 ; f'(x) = 1/x, f'(1) = 1."
+        "question": "Quelle est l'équation de la tangente à y = ln(x) en x = 1 ? La bonne réponse attendue est : y = x − 1."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Équation de la tangente",
-      "description": "L'équation de la tangente à une courbe en un point est donnée par l'équation de la droite tangente à la courbe en ce point, qui peut être trouvée en utilisant la dérivée de la fonction"
-    },
-    {
-      "notion": "Dérivée",
-      "description": "La dérivée d'une fonction en un point représente la pente de la tangente à la courbe en ce point, et est utilisée pour trouver l'équation de la tangente"
-    },
-    {
-      "notion": "Pente de la tangente",
-      "description": "La pente de la tangente à une courbe en un point est donnée par la dérivée de la fonction en ce point, et est utilisée pour déterminer l'équation de la droite tangente"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

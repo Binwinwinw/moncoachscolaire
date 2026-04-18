@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 478",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 478",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
-    "description": "Diagnostic Français 1ère : Grammaire avancée : syntaxe et subordination",
+    "description": "Diagnostic Français 1ere : Grammaire avancÃ©e : syntaxe et subordination",
     "status": "published",
-    "created_at": "2026-03-13 18:59:43",
-    "updated_at": "2026-03-13 18:59:43"
+    "created_at": "2026-04-18 20:20:13",
+    "updated_at": "2026-04-18 20:20:13"
   },
   "quiz": {
-    "title": "Grammaire avancée : syntaxe et subordination",
+    "title": "Grammaire avancÃ©e : syntaxe et subordination",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
@@ -20,25 +20,25 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Quelle proposition est une subordonnée relative :",
+        "question": "Quelle proposition est une subordonnÃ©e relative :",
         "choices": [
           "Parce qu'il pleuvait",
           "Que je lis chaque soir",
-          "Bien qu'il soit fatigué",
-          "Dès que le soleil se lève"
+          "Bien qu'il soit fatiguÃ©",
+          "DÃ¨s que le soleil se lÃ¨ve"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Une proposition subordonnée conjonctive complétive est introduite par 'que'."
+        "question": "Une proposition subordonnÃ©e conjonctive complÃ©tive est introduite par 'que'."
       },
       {
         "type": "vrai-faux",
-        "question": "'Bien que' introduit une subordonnée circonstancielle de concession."
+        "question": "Dans 'Bien qu'il travaille dur, il Ã©choue', la subordonnÃ©e exprime une relation de _____."
       },
       {
         "type": "qcm",
-        "question": "Quel est le mode verbal utilisé dans la subordonnée après 'bien que' ?",
+        "question": "Quel est le mode verbal utilisÃ© dans la subordonnÃ©e aprÃ¨s 'bien que' ?",
         "choices": [
           "Indicatif",
           "Conditionnel",
@@ -48,15 +48,15 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La proposition participiale est une subordonnée sans conjonction de subordination."
+        "question": "La proposition participiale est une subordonnÃ©e sans conjonction de subordination."
       },
       {
         "type": "vrai-faux",
-        "question": "La principale n'est subordonnée à aucune autre ; les subordonnées en dépendent."
+        "question": "Dans la phrase complexe, la proposition principale est celle dont aucune autre ne dÃ©pend ; elle est syntaxiquement _____."
       },
       {
         "type": "qcm",
-        "question": "Quelle conjonction introduit une subordonnée de but ?",
+        "question": "Quelle conjonction introduit une subordonnÃ©e de but ?",
         "choices": [
           "Parce que",
           "Pendant que",
@@ -66,23 +66,10 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Le discours indirect transforme les déictiques (je, ici, maintenant) du discours direct."
+        "question": "Le discours indirect transforme les dÃ©ictiques (je, ici, maintenant) du discours direct."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Baccalauréat français",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Poésie baroque et classique",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Théâtre et représentation",
-      "description": "Notion fondamentale de Français"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

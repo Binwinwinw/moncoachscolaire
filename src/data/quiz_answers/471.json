@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 471",
-    "level": "1ère",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 471",
+    "level": "1ere",
     "subject": "Français"
   },
   "quiz": {
-    "title": "Le théâtre classique (XVIIe siècle)",
+    "title": "Le thÃ©Ã¢tre classique (XVIIe siÃ¨cle)",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "answers": [
       {
@@ -15,56 +15,59 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Temps, lieu, action",
-        "correction": "La règle des trois unités impose : une journée, un lieu, une action principale."
+        "correct": 0,
+        "correction": "La rÃ¨gle des trois unitÃ©s impose : une journÃ©e, un lieu, une action principale."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "La bienséance impose que les actes choquants (meurtre, violence) soient narrés plutôt que montrés."
+        "correction": "La biensÃ©ance impose que les actes choquants (meurtre, violence) soient narrÃ©s plutÃ´t que montrÃ©s."
       },
       {
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La vraisemblance exige que l'action soit crédible ; elle est complémentaire de la bienséance."
+        "answer": "faux",
+        "correction": "La vraisemblance exige que l'action soit crÃ©dible ; elle est complÃ©mentaire de la biensÃ©ance."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Le Misanthrope",
-        "correction": "Le Misanthrope (1666) est une comédie de Molière qui met en scène Alceste, ennemi de la flatterie."
+        "correct": 1,
+        "correction": "Le Misanthrope (1666) est une comÃ©die de MoliÃ¨re qui met en scÃ¨ne Alceste, ennemi de la flatterie."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
         "answer": "faux",
-        "correction": "Phèdre (1677) est une tragédie de Jean Racine."
+        "correction": "PhÃ¨dre (1677) est une tragÃ©die de Jean Racine."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La péripétie (renversement de situation) précipite la catastrophe finale."
+        "answer": "faux",
+        "correction": "La pÃ©ripÃ©tie (renversement de situation) prÃ©cipite la catastrophe finale."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Provoquer la catharsis (purification des passions)",
-        "correction": "La catharsis aristotélicienne : la tragédie purge les passions de crainte et de pitié."
+        "correct": 1,
+        "correction": "La catharsis aristotÃ©licienne : la tragÃ©die purge les passions de crainte et de pitiÃ©."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "La tragédie classique est écrite en alexandrins (12 syllabes) rimés."
+        "correction": "La tragÃ©die classique est Ã©crite en alexandrins (12 syllabes) rimÃ©s."
       }
     ]
   }

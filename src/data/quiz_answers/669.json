@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic SVT 3ème - Série 669",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT"
   },
   "quiz": {
     "title": "Reproduction humaine : les organes génitaux",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Ovaire",
+        "correct": 2,
         "correction": "Les ovaires produisent les ovocytes (gamètes femelles) et les hormones sexuelles féminines."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. L'endomètre est la muqueuse utérine qui se régénère à chaque cycle et est éliminée lors des règles en l'absence de fécondation."
+        "correction": "L'endomètre est la muqueuse utérine qui se régénère à chaque cycle et est éliminée lors des règles en l'absence de fécondation."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Dans la trompe de Fallope",
+        "correct": 2,
         "correction": "La fécondation (fusion du spermatozoïde et de l'ovocyte) a lieu dans le tiers supérieur de la trompe de Fallope."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La nidation (ou implantation) est l'insertion de l'embryon dans l'endomètre vers le 7ème jour après la fécondation."
+        "correction": "La nidation (ou implantation) est l'insertion de l'embryon dans l'endomètre vers le 7ème jour après la fécondation."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "L'organe d'échange entre la mère et le fœtus",
+        "correct": 1,
         "correction": "Le placenta assure les échanges de nutriments, d'O2 et de CO2 entre la circulation maternelle et fœtale."
       },
       {

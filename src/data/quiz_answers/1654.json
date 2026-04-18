@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "was doing",
+        "correct": 1,
         "correction": "Le past continuous exprime une action en cours interrompue par un événement."
       },
       {
@@ -27,8 +28,8 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "written",
+        "type": "vrai-faux",
+        "answer": "vrai",
         "correction": "Le verbe irrégulier write suit la série write/wrote/written."
       },
       {
@@ -36,6 +37,7 @@
         "question_id": 4,
         "type": "qcm",
         "answer": "I have seen this film.",
+        "correct": 1,
         "correction": "Le present perfect: have/has + participe passé."
       },
       {
@@ -48,8 +50,8 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "since",
+        "type": "vrai-faux",
+        "answer": "vrai",
         "correction": "Avec un repère initial précis, on emploie 'since'."
       },
       {
@@ -57,6 +59,7 @@
         "question_id": 7,
         "type": "qcm",
         "answer": "will have finished",
+        "correct": 2,
         "correction": "Le futur antérieur exprime une action achevée avant un repère futur."
       },
       {

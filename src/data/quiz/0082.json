@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 0082",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 6eme : Somme angles triangle",
+    "status": "published",
+    "created_at": "2026-04-18 20:07:58",
+    "updated_at": "2026-04-18 20:07:58"
+  },
+  "quiz": {
+    "title": "Somme angles triangle",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel est la somme des angles d'un triangle ?",
+        "choices": [
+          "90°",
+          "180°",
+          "270°",
+          "360°"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La somme des angles d'un triangle est toujours égale à 180°."
+      },
+      {
+        "type": "qcm",
+        "question": "Si un triangle a un angle de 90° et un angle de 45°, quel est la mesure du troisième angle ?",
+        "choices": [
+          "45°",
+          "60°",
+          "90°",
+          "135°"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Si un triangle a deux angles de 60°, alors le troisième angle mesure 60°."
+      },
+      {
+        "type": "qcm",
+        "question": "Si un triangle a un angle de 120° et un angle de 30°, quel est la mesure du troisième angle ?",
+        "choices": [
+          "30°",
+          "40°",
+          "50°",
+          "60°"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Si un triangle a trois angles égaux, alors chaque angle mesure 60°."
+      },
+      {
+        "type": "qcm",
+        "question": "Si un triangle a un angle de 70° et un angle de 50°, quel est la mesure du troisième angle ?",
+        "choices": [
+          "60°",
+          "70°",
+          "80°",
+          "90°"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Si un triangle a un angle de 90° et un angle de 60°, alors le troisième angle mesure 30°."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques 2nde : Notion de fonction",
     "status": "published",
-    "created_at": "2026-04-06 06:40:42",
-    "updated_at": "2026-04-06 06:40:42"
+    "created_at": "2026-04-18 18:34:32",
+    "updated_at": "2026-04-18 18:34:32"
   },
   "quiz": {
     "title": "Notion de fonction",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La racine est définie pour x − 3 ≥ 0, soit x ≥ 3."
+        "question": "Quel est le domaine de définition de f(x) = √(x − 3) ? La bonne réponse attendue est : [3 ; +∞[."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Car à x ≠ 0 on associe deux images distinctes (x et −x), ce qui viole l'unicité de l'image."
+        "question": "Pourquoi la relation qui associe à chaque x ∈ R les deux valeurs x et −x n'est-elle pas une fonction ? La bonne réponse attendue est : Car à x ≠ 0 on associe deux images distinctes (x et −x), ce qui viole l'unicité de l'image."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fonctions polynomiales",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Géométrie analytique",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Ensembles et logique",
-      "description": "Notion fondamentale de Mathématiques"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

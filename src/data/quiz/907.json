@@ -1,94 +1,81 @@
 {
   "contents": {
-    "title": "Les dangers de la pollution en SVT",
+    "title": "Quiz Diagnostic NSI 1ere - Série 907",
     "type": "quiz",
-    "level": "5eme",
-    "subject": "SVT",
-    "description": "Diagnostic SVT 5eme : Pollution, eau et santé des écosystèmes",
+    "level": "1ere",
+    "subject": "NSI",
+    "description": "Diagnostic NSI 1ere : Recherche dichotomique",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-08 00:05:00"
+    "created_at": "2026-04-18 20:28:31",
+    "updated_at": "2026-04-18 20:28:31"
   },
   "quiz": {
-    "title": "Anglais - Les dangers de la pollution en SVT",
-    "level": "5eme",
-    "subject": "SVT",
+    "title": "Recherche dichotomique",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "NSI",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel type de pollution affecte l'eau ?",
+        "question": "Quelle définition correspond le mieux à la recherche dichotomique ?",
         "choices": [
-          "La pollution chimique",
-          "La pollution sonore",
-          "La pollution lumineuse",
-          "La pollution thermique"
+          "Une méthode de recherche dans une liste triée en divisant l'espace par deux",
+          "Une figure géométrique",
+          "Une règle de grammaire",
+          "Un mouvement littéraire"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Les déchets jetés dans les rivières peuvent nuire aux poissons."
-      },
-      {
-        "type": "vrai-faux",
-        "question": "Réponds comment la pollution peut rendre les animaux malades et diminuer leur nourriture."
+        "question": "La recherche dichotomique est une notion utile pour comprendre le fonctionnement des systèmes numériques."
       },
       {
         "type": "qcm",
-        "question": "Quel est un moyen de réduire la pollution de l'eau ?",
+        "question": "Quelle notion est la plus directement associée à la recherche dichotomique ?",
         "choices": [
-          "Recycler les déchets",
-          "Augmenter le trafic routier",
-          "Brûler les déchets dans la nature",
-          "Ignorer les fuites"
+          "la liste triée",
+          "la fable",
+          "la photosynthèse",
+          "la mondialisation"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Les usines peuvent rejeter des produits chimiques dangereux dans l'eau."
+        "question": "Pour travailler la recherche dichotomique, on peut utiliser des activités pratiques, du code ou des schémas."
       },
       {
         "type": "qcm",
-        "question": "Quelle conséquence la pollution de l'air peut-elle avoir sur les plantes ?",
+        "question": "Quel est l'objectif principal de l'étude de la recherche dichotomique ?",
         "choices": [
-          "Elle peut endommager leurs feuilles",
-          "Elle peut leur donner plus d'eau",
-          "Elle peut augmenter leur croissance",
-          "Elle peut les rendre plus colorées"
+          "Comprendre les outils et concepts du numérique",
+          "Réciter des dates historiques",
+          "Apprendre uniquement par cœur",
+          "Éviter toute expérimentation"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Réponds en donnant une action comme ramasser des déchets ou utiliser moins de plastique."
+        "question": "La recherche dichotomique peut être relié à des usages concrets du quotidien numérique."
       },
       {
         "type": "qcm",
-        "question": "Pourquoi est-il important de réduire la pollution ?",
+        "question": "Quel support peut aider à mieux comprendre la recherche dichotomique ?",
         "choices": [
-          "Pour protéger les plantes, les animaux et les humains",
-          "Pour rendre l'air plus sale",
-          "Pour détruire les habitats naturels",
-          "Pour augmenter les déchets"
+          "Un algorithme, un schéma ou un exemple de code",
+          "Une seule récitation orale",
+          "Un vers rimé",
+          "Une carte des reliefs"
         ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Étudier la recherche dichotomique développe la logique et la compréhension des systèmes informatiques."
       }
-    ],
-    "type": "quiz"
+    ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Pollution de l'eau",
-      "description": "La pollution de l'eau met en danger les poissons et les plantes aquatiques."
-    },
-    {
-      "notion": "Pollution de l'air",
-      "description": "La pollution de l'air peut endommager les feuilles des plantes et la santé des animaux."
-    },
-    {
-      "notion": "Préservation de l'environnement",
-      "description": "Réduire la pollution aide à protéger les écosystèmes et la santé humaine."
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

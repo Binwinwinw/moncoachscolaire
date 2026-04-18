@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 487",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 487",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
-    "description": "Diagnostic Français 1ère : Victor Hugo : œuvres et thèmes majeurs",
+    "description": "Diagnostic Français 1ere : Victor Hugo : Å“uvres et thÃ¨mes majeurs",
     "status": "published",
-    "created_at": "2026-03-13 18:59:43",
-    "updated_at": "2026-03-13 18:59:43"
+    "created_at": "2026-04-18 20:20:13",
+    "updated_at": "2026-04-18 20:20:13"
   },
   "quiz": {
-    "title": "Victor Hugo : œuvres et thèmes majeurs",
+    "title": "Victor Hugo : Å“uvres et thÃ¨mes majeurs",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
@@ -20,69 +20,56 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Dans quel recueil Hugo exprime-t-il son deuil après la mort de sa fille Léopoldine ?",
+        "question": "Dans quel recueil Hugo exprime-t-il son deuil aprÃ¨s la mort de sa fille LÃ©opoldine ?",
         "choices": [
           "Les Contemplations",
-          "Les Châtiments",
-          "La Légende des siècles",
+          "Les ChÃ¢timents",
+          "La LÃ©gende des siÃ¨cles",
           "Les Feuilles d'automne"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Hugo a été exilé en Belgique et aux îles anglo-normandes pendant le Second Empire."
+        "question": "Hugo a Ã©tÃ© exilÃ© en Belgique et aux Ã®les anglo-normandes pendant le Second Empire."
       },
       {
         "type": "vrai-faux",
-        "question": "Quasimodo, bossu et sourd, aime Esmeralda d'un amour pur ; Hugo illustre le contraste beauté/laideur."
+        "question": "Dans Notre-Dame de Paris, le personnage de _____ illustre la beautÃ© intÃ©rieure malgrÃ© la laideur physique."
       },
       {
         "type": "qcm",
-        "question": "Les Misérables traite principalement de :",
+        "question": "Les MisÃ©rables traite principalement de :",
         "choices": [
-          "La guerre de Napoléon",
-          "La misère sociale et la rédemption humaine",
-          "L'amour courtois médiéval",
-          "La Révolution américaine"
+          "La guerre de NapolÃ©on",
+          "La misÃ¨re sociale et la rÃ©demption humaine",
+          "L'amour courtois mÃ©diÃ©val",
+          "La RÃ©volution amÃ©ricaine"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Victor Hugo est à la fois poète, dramaturge et romancier."
+        "question": "Victor Hugo est Ã  la fois poÃ¨te, dramaturge et romancier."
       },
       {
         "type": "vrai-faux",
-        "question": "Hugo se bat toute sa vie pour les pauvres, l'abolition de la peine de mort et les droits des enfants."
+        "question": "Le discours d'Hugo 'DÃ©truisez la misÃ¨re !' est un exemple de littÃ©rature _____."
       },
       {
         "type": "qcm",
-        "question": "Quelle pièce de Hugo provoque la fameuse 'bataille d'Hernani' en 1830 ?",
+        "question": "Quelle piÃ¨ce de Hugo provoque la fameuse 'bataille d'Hernani' en 1830 ?",
         "choices": [
           "Ruy Blas",
-          "Lucrèce Borgia",
+          "LucrÃ¨ce Borgia",
           "Hernani",
           "Marion de Lorme"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Les Châtiments est un recueil de pamphlets poétiques contre Napoléon III."
+        "question": "Les ChÃ¢timents est un recueil de pamphlets poÃ©tiques contre NapolÃ©on III."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Baccalauréat français",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Poésie baroque et classique",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Théâtre et représentation",
-      "description": "Notion fondamentale de Français"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

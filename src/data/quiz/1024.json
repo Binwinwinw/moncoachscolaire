@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Équations et inéquations avec exp",
     "status": "published",
-    "created_at": "2026-04-06 06:40:48",
-    "updated_at": "2026-04-06 06:40:48"
+    "created_at": "2026-04-18 18:52:46",
+    "updated_at": "2026-04-18 18:52:46"
   },
   "quiz": {
     "title": "Équations et inéquations avec exp",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "E strictement croissante : 2x−1 ≥ x+2 ⟺ x ≥ 3."
+        "question": "Résous l'inéquation e^(2x−1) ≥ e^(x+2). La bonne réponse attendue est : x ≥ 3."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "X = ln 2 (la seule solution, car eˣ = −1 est impossible)."
+        "question": "Résous (eˣ − 2)(eˣ + 1) = 0. La bonne réponse attendue est : x = ln 2 (la seule solution, car eˣ = −1 est impossible)."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Équations exponentielles",
-      "description": "Les équations exponentielles impliquent des fonctions exponentielles, comme e^(3x) = e^6, qui nécessitent l'utilisation de propriétés des exponentielles pour résoudre l'inconnue."
-    },
-    {
-      "notion": "Propriétés des exponentielles",
-      "description": "Les propriétés des exponentielles, telles que e^a = e^b impliquant a = b, sont essentielles pour résoudre les équations exponentielles et simplifier les expressions."
-    },
-    {
-      "notion": "Résolution d'équations",
-      "description": "La résolution d'équations, en particulier celles impliquant des fonctions exponentielles, nécessite une compréhension approfondie des propriétés algébriques et des opérations inverses pour isoler l'in"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

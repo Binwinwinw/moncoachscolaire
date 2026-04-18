@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Loi du 1er juillet 1901",
+        "correct": 1,
         "correction": "La loi de 1901 garantit la liberté d'association en permettant à toute personne de créer une association sans autorisation préalable, simplement par déclaration en préfecture."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La société civile regroupe les organisations non gouvernementales (ONG), associations, syndicats, médias et mouvements citoyens qui participent à la vie publique."
+        "correction": "La société civile regroupe les organisations non gouvernementales (ONG), associations, syndicats, médias et mouvements citoyens qui participent à la vie publique."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Defendre les interets professionnels et sociaux des travailleurs",
+        "correct": 1,
         "correction": "Les syndicats (CGT, CFDT, CGT-FO, etc.) représentent et défendent les intérêts des salariés dans les négociations collectives et les conflits du travail."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Les ONG (Organisations Non Gouvernementales) comme Médecins Sans Frontières, Amnesty International ou le CICR agissent dans les domaines humanitaire, environnemental et des droits humains."
+        "correction": "Les ONG (Organisations Non Gouvernementales) comme Médecins Sans Frontières, Amnesty International ou le CICR agissent dans les domaines humanitaire, environnemental et des droits humains."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Un engagement volontaire de 6 a 12 mois au service de l'interet general, indemnise",
+        "correct": 1,
         "correction": "Le Service Civique (loi de 2010) permet aux 16-25 ans (30 ans pour les personnes en situation de handicap) de s'engager dans des missions d'intérêt général avec une indemnisation."
       },
       {

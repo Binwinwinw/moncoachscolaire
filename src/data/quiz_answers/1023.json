@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "1",
+        "answer": "B",
         "correction": "e⁰ = 1. Propriété fondamentale : toute base à la puissance 0 vaut 1."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. eˣ est injective : e^(2x) = e^(x+3) ⟺ 2x = x+3 ⟺ x = 3."
+        "correction": "eˣ est injective : e^(2x) = e^(x+3) ⟺ 2x = x+3 ⟺ x = 3."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "5",
+        "answer": "A",
         "correction": "e^(ln x) = x pour tout x > 0. Donc e^(ln 5) = 5."
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. e^(x²−1) = 1 = e⁰ ⟺ x²−1 = 0 ⟺ x = ±1."
+        "correction": "e^(x²−1) = 1 = e⁰ ⟺ x²−1 = 0 ⟺ x = ±1."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "1/3",
+        "answer": "C",
         "correction": "e^(−ln 3) = 1/e^(ln 3) = 1/3."
       },
       {

@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic SES 1ère - Série 827",
-    "level": "1ère",
+    "title": "Quiz Diagnostic SES 1ere - Série 827",
+    "level": "1ere",
     "subject": "SES"
   },
   "quiz": {
     "title": "La productivité",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le résidu de croissance non expliqué par l'accumulation des facteurs",
+        "correct": 1,
         "correction": "La PGF (ou résidu de Solow) mesure l'efficacité globale de l'utilisation des facteurs, notamment liée au progrès technique."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La répartition dépend du rapport de force entre capital et travail, et de la politique des entreprises."
+        "answer": "faux",
+        "correction": "La répartition dépend du rapport de force entre capital et travail, et de la politique des entreprises."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Il améliore l'efficacité du travail",
+        "correct": 1,
         "correction": "Un progrès technique travail-augmentant (Harrod-neutre) augmente la productivité marginale du travail."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Ce paradoxe illustre le délai entre adoption technologique et gains de productivité mesurables."
+        "answer": "faux",
+        "correction": "Ce paradoxe illustre le délai entre adoption technologique et gains de productivité mesurables."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Une baisse du coût unitaire avec l'augmentation de la production",
+        "correct": 1,
         "correction": "Les économies d'échelle expliquent pourquoi les grandes entreprises peuvent produire à moindre coût unitaire."
       },
       {

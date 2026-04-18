@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 477",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 477",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
-    "description": "Diagnostic Français 1ère : Le commentaire littéraire : méthode",
+    "description": "Diagnostic Français 1ere : Le commentaire littÃ©raire : mÃ©thode",
     "status": "published",
-    "created_at": "2026-03-13 18:59:43",
-    "updated_at": "2026-03-13 18:59:43"
+    "created_at": "2026-04-18 20:20:12",
+    "updated_at": "2026-04-18 20:20:12"
   },
   "quiz": {
-    "title": "Le commentaire littéraire : méthode",
+    "title": "Le commentaire littÃ©raire : mÃ©thode",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
@@ -20,29 +20,29 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel est l'objectif principal du commentaire littéraire ?",
+        "question": "Quel est l'objectif principal du commentaire littÃ©raire ?",
         "choices": [
-          "Raconter le résumé du texte",
+          "Raconter le rÃ©sumÃ© du texte",
           "Analyser comment le texte produit du sens et de l'effet",
-          "Émettre un jugement personnel",
+          "Ã‰mettre un jugement personnel",
           "Comparer plusieurs auteurs"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "La paraphrase (reformulation du texte) est valorisée dans un commentaire littéraire."
+        "question": "La paraphrase (reformulation du texte) est valorisÃ©e dans un commentaire littÃ©raire."
       },
       {
         "type": "vrai-faux",
-        "question": "Chaque partie développe un centre d'intérêt (ou axe) qui éclaire un aspect du texte."
+        "question": "Dans un commentaire, l'axe de lecture est parfois appelÃ© _____ : il oriente l'analyse d'une partie."
       },
       {
         "type": "qcm",
-        "question": "Un relevé stylistique sans interprétation est :",
+        "question": "Un relevÃ© stylistique sans interprÃ©tation est :",
         "choices": [
-          "Une analyse complète",
-          "Insuffisant : il faut toujours interpréter l'effet",
-          "Valorisé par les correcteurs",
+          "Une analyse complÃ¨te",
+          "Insuffisant : il faut toujours interprÃ©ter l'effet",
+          "ValorisÃ© par les correcteurs",
           "Une paraphrase"
         ]
       },
@@ -52,11 +52,11 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Identifier le mouvement permet de dégager les étapes de l'extrait avant de construire le plan."
+        "question": "Le mouvement du texte dÃ©signe la _____ interne du passage, c'est-Ã -dire comment il progresse."
       },
       {
         "type": "qcm",
-        "question": "Dans quelle partie de la correction va-t-on insérer des citations courtes du texte ?",
+        "question": "Dans quelle partie de la correction va-t-on insÃ©rer des citations courtes du texte ?",
         "choices": [
           "Uniquement en introduction",
           "Dans chaque sous-partie pour appuyer les analyses",
@@ -66,23 +66,10 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La conclusion d'un commentaire littéraire peut proposer une ouverture vers une autre œuvre."
+        "question": "La conclusion d'un commentaire littÃ©raire peut proposer une ouverture vers une autre Å“uvre."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Baccalauréat français",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Poésie baroque et classique",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Théâtre et représentation",
-      "description": "Notion fondamentale de Français"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

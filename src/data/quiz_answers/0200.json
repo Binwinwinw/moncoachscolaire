@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 0200",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "MatiÃ¨re vs matÃ©riau : diffÃ©rences et exemples.",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "La matiÃ¨re est un matÃ©riau naturel, le matÃ©riau est fabriquÃ© par l'homme",
+        "correction": "La matiÃ¨re est un matÃ©riau naturel qui existe dans la nature, tandis que le matÃ©riau est un matÃ©riau fabriquÃ© par l'homme Ã  partir de matiÃ¨res premiÃ¨res pour rÃ©pondre Ã  des besoins spÃ©cifiques."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, le bois est un exemple de matiÃ¨re naturelle qui peut Ãªtre utilisÃ©e pour fabriquer des matÃ©riaux comme le contreplaquÃ© ou les panneaux de particules."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Le plastique",
+        "correction": "Le plastique est un exemple de matÃ©riau fabriquÃ© par l'homme Ã  partir de matiÃ¨res premiÃ¨res comme le pÃ©trole."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, le mÃ©tal est un matÃ©riau fabriquÃ© par l'homme Ã  partir de matiÃ¨res premiÃ¨res comme le minerai de fer."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Le bois",
+        "correction": "Le bois est un exemple de matiÃ¨re naturelle qui peut Ãªtre utilisÃ©e pour fabriquer des matÃ©riaux comme le contreplaquÃ© ou les panneaux de particules."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, le verre est un matÃ©riau fabriquÃ© par l'homme Ã  partir de matiÃ¨res premiÃ¨res comme le sable et la soude."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Le bois",
+        "correction": "Le bois est une matiÃ¨re naturelle, tandis que le plastique, le mÃ©tal et le verre sont des matÃ©riaux fabriquÃ©s par l'homme Ã  partir de matiÃ¨res premiÃ¨res."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, il y a une diffÃ©rence entre une matiÃ¨re et un matÃ©riau. La matiÃ¨re est un matÃ©riau naturel qui existe dans la nature, tandis que le matÃ©riau est un matÃ©riau fabriquÃ© par l'homme Ã  partir de matiÃ¨res premiÃ¨res pour rÃ©pondre Ã  des besoins spÃ©cifiques."
+      }
+    ]
+  }
+}

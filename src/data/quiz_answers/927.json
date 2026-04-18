@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic HGGSP 1ère - Série 927",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP"
   },
   "quiz": {
     "title": "Les formes de conflits armés au XXe siècle",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Elle a mobilisé l'ensemble des sociétés (économie, civils, propagande, femmes)",
+        "correct": 1,
         "correction": "La 'guerre totale' est un conflit dans lequel toutes les ressources d'une nation (humaines, économiques, industrielles, psychologiques) sont mobilisées pour la victoire."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La dissuasion nucléaire repose sur la crédibilité de la menace : il faut que l'adversaire croie que la réponse nucléaire sera effectivement déclenchée."
+        "answer": "faux",
+        "correction": "La dissuasion nucléaire repose sur la crédibilité de la menace : il faut que l'adversaire croie que la réponse nucléaire sera effectivement déclenchée."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Par procuration (proxy war) de la Guerre froide",
+        "correct": 1,
         "correction": "Les USA soutenaient la Corée du Sud, l'URSS et la Chine la Corée du Nord. C'est un conflit localisé dans lequel les superpuissances s'affrontent indirectement."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Les conflits intra-étatiques sont souvent plus complexes car ils impliquent des acteurs non étatiques, des clivages ethniques ou religieux."
+        "answer": "faux",
+        "correction": "Les conflits intra-étatiques sont souvent plus complexes car ils impliquent des acteurs non étatiques, des clivages ethniques ou religieux."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La communauté internationale peut intervenir pour protéger les civils quand un État faillit à cette mission",
+        "correct": 1,
         "correction": "La R2P (Responsibility to Protect) est adoptée au Sommet mondial 2005 pour prévenir les génocides. Elle a été invoquée en Libye (2011) mais son application est très sélective."
       },
       {

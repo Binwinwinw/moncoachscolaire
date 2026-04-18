@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Un systeme de representation des donnees utilisant uniquement les chiffres 0 et 1",
+        "correct": 1,
         "correction": "Le systeme binaire (base 2) est la base de toute l'informatique ; toute information (texte, image, son) est codee en sequences de 0 et 1 (bits)."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le format CSV (Comma-Separated Values) est un fichier texte ou les donnees sont separees par des virgules, lisible par Excel, Python (pandas) ou LibreOffice."
+        "correction": "Le format CSV (Comma-Separated Values) est un fichier texte ou les donnees sont separees par des virgules, lisible par Excel, Python (pandas) ou LibreOffice."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Des ensembles massifs de donnees necessitant des outils specifiques pour leur collecte, stockage et analyse",
+        "correct": 1,
         "correction": "Le big data caracterise les ensembles de donnees par leurs 3V : Volume (enorme), Variete (formats divers) et Velocite (flux continu) ; ils necessite des technologies comme Hadoop ou Spark."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le graphique en courbes (line chart) est utilise pour visualiser l'evolution d'une variable quantitative dans le temps ou en fonction d'une autre variable continue."
+        "correction": "Le graphique en courbes (line chart) est utilise pour visualiser l'evolution d'une variable quantitative dans le temps ou en fonction d'une autre variable continue."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Un ensemble de techniques permettant a des machines d'apprendre et de prendre des decisions a partir de donnees",
+        "correct": 1,
         "correction": "L'IA (machine learning, deep learning) apprend des patterns dans des donnees massives pour faire des predictions, classer des images ou comprendre le langage naturel."
       },
       {

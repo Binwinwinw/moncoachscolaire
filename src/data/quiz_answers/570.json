@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 570",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie"
   },
   "quiz": {
     "title": "La France : territoire et organisation",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "13",
+        "correct": 2,
         "correction": "La réforme de 2015 (appliquée en 2016) réduit le nombre de régions métropolitaines de 22 à 13 (ex. : Nouvelle-Aquitaine, Auvergne-Rhône-Alpes)."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La France possède des territoires dans l'Atlantique, le Pacifique, l'océan Indien et l'Antarctique, ce qui lui donne la 2e ZEE mondiale."
+        "correction": "La France possède des territoires dans l'Atlantique, le Pacifique, l'océan Indien et l'Antarctique, ce qui lui donne la 2e ZEE mondiale."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "68 millions",
+        "correct": 1,
         "correction": "La France compte environ 68 millions d'habitants (métropole + outre-mer) en 2024."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La décentralisation donne des compétences aux communes, aux départements et aux régions."
+        "correction": "La décentralisation donne des compétences aux communes, aux départements et aux régions."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Une zone peu peuplée allant du Nord-Est au Sud-Ouest",
+        "correct": 1,
         "correction": "La diagonale du vide (de la Meuse aux Landes) est une zone de faible densité de population traversant la France du NE au SO."
       },
       {

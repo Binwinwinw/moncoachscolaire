@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Un ensemble d'elements en interaction organise pour remplir une fonction globale",
+        "correct": 1,
         "correction": "Un systeme technique est un ensemble structure de composants mecaniques, electroniques et logiciels qui cooperent pour remplir une ou plusieurs fonctions."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le schema blocs fonctionnel (ou diagramme de flux) represente les entrees (energie, matiere, information) et sorties de chaque sous-systeme et leurs interactions."
+        "correction": "Le schema blocs fonctionnel (ou diagramme de flux) represente les entrees (energie, matiere, information) et sorties de chaque sous-systeme et leurs interactions."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Un mecanisme qui compare la sortie a la consigne pour corriger les ecarts",
+        "correct": 1,
         "correction": "La retroaction (asservissement) mesure la sortie du systeme et la compare a la consigne ; l'ecart (erreur) est utilise pour corriger la commande et atteindre la valeur desiree."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Un microcontroleur (Arduino, PIC, STM32) integre processeur, memoire et peripheriques d'E/S sur une seule puce ; il lit les capteurs et commande les actionneurs."
+        "correction": "Un microcontroleur (Arduino, PIC, STM32) integre processeur, memoire et peripheriques d'E/S sur une seule puce ; il lit les capteurs et commande les actionneurs."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Un ordinateur specialise et robuste programme pour controler des systemes industriels",
+        "correct": 1,
         "correction": "L'API (PLC en anglais) est un calculateur industriel robuste programme en langage ladder ou structuredText pour controler des machines, convoyeurs ou lignes de production."
       },
       {

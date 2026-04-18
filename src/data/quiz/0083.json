@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 0083",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 6eme : Angles complémentaires et supplémentaires",
+    "status": "published",
+    "created_at": "2026-04-18 20:07:58",
+    "updated_at": "2026-04-18 20:07:58"
+  },
+  "quiz": {
+    "title": "Angles complémentaires et supplémentaires",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Deux angles sont complémentaires si leur somme vaut :",
+        "choices": [
+          "90°",
+          "180°",
+          "270°",
+          "360°"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Deux angles supplémentaires ont une somme égale à 180°."
+      },
+      {
+        "type": "qcm",
+        "question": "Si un angle mesure 25°, son complémentaire mesure :",
+        "choices": [
+          "55°",
+          "65°",
+          "145°",
+          "155°"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'angle supplémentaire d'un angle de 130° mesure 50°."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le supplémentaire d'un angle de 72° ?",
+        "choices": [
+          "18°",
+          "72°",
+          "108°",
+          "128°"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Deux angles de 40° et 50° sont complémentaires."
+      },
+      {
+        "type": "qcm",
+        "question": "Deux angles de 95° et 85° sont :",
+        "choices": [
+          "Complémentaires",
+          "Supplémentaires",
+          "Égaux",
+          "Opposés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Si deux angles ont une somme de 90°, alors ils sont supplémentaires."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

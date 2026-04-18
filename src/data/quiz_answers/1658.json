@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "know",
+        "correct": 0,
         "correction": "Dans 'know', la lettre 'k' est muette."
       },
       {
@@ -27,8 +28,8 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "ən",
+        "type": "vrai-faux",
+        "answer": "vrai",
         "correction": "En parole enchaînée, 'and' est souvent réduit à /ən/ ou /n/."
       },
       {
@@ -36,6 +37,7 @@
         "question_id": 4,
         "type": "qcm",
         "answer": "Focus on overall meaning and continue",
+        "correct": 1,
         "correction": "En compréhension orale, il faut garder le fil global plutôt que bloquer sur un mot."
       },
       {
@@ -48,8 +50,8 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "ship/sheep",
+        "type": "vrai-faux",
+        "answer": "vrai",
         "correction": "Les minimal pairs entraînent la discrimination fine des sons voyelles."
       },
       {
@@ -57,6 +59,7 @@
         "question_id": 7,
         "type": "qcm",
         "answer": "watched",
+        "correct": 2,
         "correction": "Après un son sourd, -ed se prononce souvent /t/: watched."
       },
       {

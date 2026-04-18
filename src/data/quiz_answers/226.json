@@ -1,6 +1,6 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Philosophie 1ere - Série 226",
+    "title": "Quiz Diagnostic Philosophie 1ere - SÃ©rie 226",
     "level": "1ere",
     "subject": "Philosophie"
   },
@@ -14,57 +14,60 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Le déterminisme",
-        "correction": "Le déterminisme affirme que tous les événements, y compris nos actions et pensées, sont intégralement déterminés par des causes antérieures (biologiques, psychologiques, sociales, physiques). Dans cette perspective, la liberté au sens de 'pouvoir faire autrement' est une illusion. Spinoza et plus tard le positivisme scientifique défendent cette position."
+        "answer": "Le dÃ©terminisme",
+        "correct": 1,
+        "correction": "Le dÃ©terminisme affirme que tous les Ã©vÃ©nements, y compris nos actions et pensÃ©es, sont intÃ©gralement dÃ©terminÃ©s par des causes antÃ©rieures (biologiques, psychologiques, sociales, physiques). Dans cette perspective, la libertÃ© au sens de 'pouvoir faire autrement' est une illusion. Spinoza et plus tard le positivisme scientifique dÃ©fendent cette position."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Kant (Critique de la raison pratique) résout l'antinomie liberté/déterminisme en distinguant deux mondes : le monde phénoménal (nature, déterminisme causal) et le monde noumènal (choses en soi, liberté). En tant qu'être sensible, l'homme est soumis au déterminisme ; en tant qu'être raisonnable (noumène), il est libre et soumis à la loi morale qu'il se donne lui-même (autonomie)."
+        "correction": "VRAI. Kant (Critique de la raison pratique) rÃ©sout l'antinomie libertÃ©/dÃ©terminisme en distinguant deux mondes : le monde phÃ©nomÃ©nal (nature, dÃ©terminisme causal) et le monde noumÃ¨nal (choses en soi, libertÃ©). En tant qu'Ãªtre sensible, l'homme est soumis au dÃ©terminisme ; en tant qu'Ãªtre raisonnable (noumÃ¨ne), il est libre et soumis Ã  la loi morale qu'il se donne lui-mÃªme (autonomie)."
       },
       {
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Le libre arbitre (liberum arbitrium) est la faculté de choisir librement, d'être la cause de ses propres actes sans être entièrement déterminé par des causes externes ou internes (nature, éducation, inconscient). Il est central en philosophie morale et juridique : si l'homme n'a pas de libre arbitre, peut-on le tenir responsable de ses actes ? Le compatibilisme (Hume, Hobbes) tente de concilier liberté et déterminisme en redéfinissant la liberté comme l'absence de contrainte extérieure."
+        "answer": "faux",
+        "correction": "Le libre arbitre (liberum arbitrium) est la facultÃ© de choisir librement, d'Ãªtre la cause de ses propres actes sans Ãªtre entiÃ¨rement dÃ©terminÃ© par des causes externes ou internes (nature, Ã©ducation, inconscient). Il est central en philosophie morale et juridique : si l'homme n'a pas de libre arbitre, peut-on le tenir responsable de ses actes ? Le compatibilisme (Hume, Hobbes) tente de concilier libertÃ© et dÃ©terminisme en redÃ©finissant la libertÃ© comme l'absence de contrainte extÃ©rieure."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "Ignorant des causes qui le déterminent, car tout est nécessité",
-        "correction": "Pour Spinoza (Éthique, Appendice de la Partie I), l'homme croit être libre parce qu'il a conscience de ses désirs mais ignore les causes qui les déterminent. 'Les hommes se croient libres parce qu'ils sont conscients de leurs désirs et ignorants des causes qui les déterminent.' La vraie liberté spinoziste n'est pas le libre arbitre mais la compréhension des nécessités qui nous gouvernent (la liberté comme nécessité comprise)."
+        "answer": "Ignorant des causes qui le dÃ©terminent, car tout est nÃ©cessitÃ©",
+        "correct": 1,
+        "correction": "Pour Spinoza (Ã‰thique, Appendice de la Partie I), l'homme croit Ãªtre libre parce qu'il a conscience de ses dÃ©sirs mais ignore les causes qui les dÃ©terminent. 'Les hommes se croient libres parce qu'ils sont conscients de leurs dÃ©sirs et ignorants des causes qui les dÃ©terminent.' La vraie libertÃ© spinoziste n'est pas le libre arbitre mais la comprÃ©hension des nÃ©cessitÃ©s qui nous gouvernent (la libertÃ© comme nÃ©cessitÃ© comprise)."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
         "answer": "faux",
-        "correction": "FAUX. La liberté politique (civile ou sociale) n'est pas l'absence de toute loi, mais la capacité d'agir dans le cadre de lois que l'on s'est données collectivement (Rousseau : 'la liberté, c'est l'obéissance à la loi qu'on s'est prescrite'). Montesquieu (De l'esprit des lois) la définit comme le droit de faire tout ce que les lois permettent. Elle implique un équilibre entre liberté individuelle et contraintes légitimes de la vie sociale."
+        "correction": "FAUX. La libertÃ© politique (civile ou sociale) n'est pas l'absence de toute loi, mais la capacitÃ© d'agir dans le cadre de lois que l'on s'est donnÃ©es collectivement (Rousseau : 'la libertÃ©, c'est l'obÃ©issance Ã  la loi qu'on s'est prescrite'). Montesquieu (De l'esprit des lois) la dÃ©finit comme le droit de faire tout ce que les lois permettent. Elle implique un Ã©quilibre entre libertÃ© individuelle et contraintes lÃ©gitimes de la vie sociale."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Dans Du Contrat social (1762), Rousseau distingue liberté naturelle (faire tout ce que l'on veut, limitée par la force) et liberté civile (obéir aux lois issues de la volonté générale). En entrant dans la société politique, l'homme renonce à sa liberté naturelle mais gagne une liberté civile plus noble : 'l'obéissance à la loi qu'on s'est prescrite est liberté.' Il ajoute la liberté morale : la maîtrise de soi par la raison contre les passions."
+        "answer": "faux",
+        "correction": "Dans Du Contrat social (1762), Rousseau distingue libertÃ© naturelle (faire tout ce que l'on veut, limitÃ©e par la force) et libertÃ© civile (obÃ©ir aux lois issues de la volontÃ© gÃ©nÃ©rale). En entrant dans la sociÃ©tÃ© politique, l'homme renonce Ã  sa libertÃ© naturelle mais gagne une libertÃ© civile plus noble : 'l'obÃ©issance Ã  la loi qu'on s'est prescrite est libertÃ©.' Il ajoute la libertÃ© morale : la maÃ®trise de soi par la raison contre les passions."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "La capacité à se donner à soi-même sa propre loi morale par la raison",
-        "correction": "L'autonomie (auto = soi-même, nomos = loi) chez Kant est la propriété qu'a la volonté de se donner à elle-même sa propre loi morale par la raison pure pratique, indépendamment de toute inclination sensible ou autorité extérieure. Elle s'oppose à l'hétéronomie (recevoir sa loi d'une source extérieure : désirs, traditions, autorité). L'autonomie est le fondement de la dignité humaine et de la morale kantienne."
+        "answer": "La capacitÃ© Ã  se donner Ã  soi-mÃªme sa propre loi morale par la raison",
+        "correct": 2,
+        "correction": "L'autonomie (auto = soi-mÃªme, nomos = loi) chez Kant est la propriÃ©tÃ© qu'a la volontÃ© de se donner Ã  elle-mÃªme sa propre loi morale par la raison pure pratique, indÃ©pendamment de toute inclination sensible ou autoritÃ© extÃ©rieure. Elle s'oppose Ã  l'hÃ©tÃ©ronomie (recevoir sa loi d'une source extÃ©rieure : dÃ©sirs, traditions, autoritÃ©). L'autonomie est le fondement de la dignitÃ© humaine et de la morale kantienne."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Pour Sartre (L'existentialisme est un humanisme, 1945), contrairement aux objets (dont l'essence – ce qu'ils sont – précède l'existence), l'homme existe d'abord puis se définit par ses choix et ses actes. Il n'a pas de nature fixe à l'avance. Cette absence de nature préalable est source de liberté absolue mais aussi d'angoisse et de responsabilité totale."
+        "correction": "VRAI. Pour Sartre (L'existentialisme est un humanisme, 1945), contrairement aux objets (dont l'essence â€“ ce qu'ils sont â€“ prÃ©cÃ¨de l'existence), l'homme existe d'abord puis se dÃ©finit par ses choix et ses actes. Il n'a pas de nature fixe Ã  l'avance. Cette absence de nature prÃ©alable est source de libertÃ© absolue mais aussi d'angoisse et de responsabilitÃ© totale."
       }
     ]
   }

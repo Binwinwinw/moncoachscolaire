@@ -2,19 +2,19 @@
   "contents": {
     "title": "Quiz Diagnostic Physique-Chimie terminale - SÃ©rie 1859",
     "type": "quiz",
-    "level": "terminale",
+    "level": "Terminale",
     "subject": "Physique-Chimie",
     "description": "Diagnostic Physique-Chimie terminale : Physique-Chimie terminale - Ondes et signaux",
     "status": "published",
-    "created_at": "2026-04-06 06:40:48",
-    "updated_at": "2026-04-06 06:40:48",
+    "created_at": "2026-04-18 18:52:46",
+    "updated_at": "2026-04-18 18:52:46",
     "source": "Eduscol programmes officiels + BOEN",
     "programme_ref": "BO special ndeg8 du 25 juillet 2019 + Eduscol Physique-Chimie Terminale"
   },
   "quiz": {
     "title": "Physique-Chimie terminale - Ondes et signaux",
     "type": "quiz",
-    "level": "terminale",
+    "level": "Terminale",
     "subject": "Physique-Chimie",
     "question_count": 8,
     "passing_score": 70,
@@ -35,7 +35,7 @@
         "question": "[Physique-Chimie terminale] Sur 'Ondes et signaux', verifier ses reponses avant validation ameliore la fiabilite."
       },
       {
-        "type": "open",
+        "type": "vrai-faux",
         "question": "[Physique-Chimie terminale] Cite une methode concrete pour progresser sur le theme 'Ondes et signaux'."
       },
       {
@@ -53,7 +53,7 @@
         "question": "[Physique-Chimie terminale] L'explication d'une reponse est moins importante que la reponse elle-meme."
       },
       {
-        "type": "open",
+        "type": "vrai-faux",
         "question": "[Physique-Chimie terminale] Propose un exemple d'auto-correction pertinente sur 'Ondes et signaux'."
       },
       {
@@ -72,19 +72,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Mécanique quantique intro",
-      "description": "Notion fondamentale de Physique-Chimie"
-    },
-    {
-      "notion": "Thermodynamique",
-      "description": "Notion fondamentale de Physique-Chimie"
-    },
-    {
-      "notion": "Électromagnétisme",
-      "description": "Notion fondamentale de Physique-Chimie"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

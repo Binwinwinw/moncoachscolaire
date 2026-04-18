@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques 2nde : Équations du premier degré",
     "status": "published",
-    "created_at": "2026-04-06 06:40:42",
-    "updated_at": "2026-04-06 06:40:42"
+    "created_at": "2026-04-18 18:34:32",
+    "updated_at": "2026-04-18 18:34:32"
   },
   "quiz": {
     "title": "Équations du premier degré",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "5x − 10 = 3x + 4 → 2x = 14 → x = 7."
+        "question": "Résous l'équation 5(x − 2) = 3x + 4. La bonne réponse attendue est : x = 7."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "9x + 4×15 = 129 → 9x + 60 = 129 → 9x = 69 → x = 69/9."
+        "question": "Un billet de cinéma coûte 9 € et une place de théâtre coûte 15 €. On dépense au total 129 € pour x billets de cinéma et 4 places de théâtre. Trouve x. La bonne réponse attendue est : x = 7."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fonctions polynomiales",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Géométrie analytique",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Ensembles et logique",
-      "description": "Notion fondamentale de Mathématiques"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

@@ -1,70 +1,73 @@
 {
   "contents": {
-    "title": "QUIZ 1644 - réponses à remplir",
-    "level": "unknown",
-    "subject": "unknown"
+    "title": "Quiz Diagnostic Français 2nde - Série 1644",
+    "level": "2nde",
+    "subject": "Français"
   },
   "quiz": {
-    "title": "Quiz 1644 - corrections placeholder",
+    "title": "Diagnostic 2nde Français - Théâtre et double énonciation",
     "question_count": 8,
-    "level": "unknown",
-    "subject": "unknown",
+    "level": "2nde",
+    "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "",
-        "correction": ""
+        "answer": "Un personnage parle à un autre personnage et, en même temps, au public",
+        "correct": 1,
+        "correction": "La parole théâtrale fonctionne sur deux plans : dialogue interne à la scène et réception par les spectateurs. C'est un principe central du théâtre."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "answer": "faux",
-        "correction": "Réponse attendue : faux"
+        "answer": "vrai",
+        "correction": "Les didascalies donnent des indications de décor, de gestes, de ton ou de déplacements. Elles guident la représentation."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "",
-        "correction": ""
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La tirade est une réplique développée, souvent argumentative ou expressive. Elle permet de déployer une pensée ou une émotion."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "",
-        "correction": ""
+        "answer": "Monologue",
+        "correct": 1,
+        "correction": "Le monologue est une parole prolongée d'un personnage seul en scène. Il révèle sa réflexion, son conflit intérieur ou ses intentions."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
         "answer": "faux",
-        "correction": "Réponse attendue : faux"
+        "correction": "Par convention, l'aparté est censé être entendu par le public mais pas par les autres personnages. Il crée souvent un effet comique ou critique."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "",
-        "correction": ""
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La stichomythie dynamise l'échange et met en scène un affrontement verbal. Elle rend le conflit particulièrement vif."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "",
-        "correction": ""
+        "answer": "Produire un effet comique fondé sur le malentendu",
+        "correct": 1,
+        "correction": "Le quiproquo repose sur une confusion de sens ou d'identité. Ce décalage entre ce que savent les personnages et le public déclenche le rire."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "answer": "faux",
-        "correction": "Réponse attendue : faux"
+        "answer": "vrai",
+        "correction": "Le théâtre est un art de la scène : voix, corps, espace et rythme participent au sens. La représentation complète la lecture."
       }
     ]
   }

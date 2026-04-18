@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "y = f'(a)(x − a) + f(a)",
+        "answer": "B",
         "correction": "Tangente en x=a : y = f(a) + f'(a)(x−a). Pente = f'(a), passe par (a, f(a))."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. f(2) = 4−6+2 = 0 ; f'(x) = 2x−3, f'(2) = 1. Tangente : y = 0 + 1·(x−2) = x−2."
+        "correction": "f(2) = 4−6+2 = 0 ; f'(x) = 2x−3, f'(2) = 1. Tangente : y = 0 + 1·(x−2) = x−2."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "e",
+        "answer": "C",
         "correction": "f'(x) = eˣ, f'(0) = e⁰ = 1. La pente est 1."
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. f(1) = ln(1) = 0 ; f'(x) = 1/x, f'(1) = 1. Tangente : y = 0 + 1·(x−1) = x−1."
+        "correction": "f(1) = ln(1) = 0 ; f'(x) = 1/x, f'(1) = 1. Tangente : y = 0 + 1·(x−1) = x−1."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "y = 3x − 2",
+        "answer": "B",
         "correction": "f(1)=1 ; f'(x)=3x², f'(1)=3. Tangente : y = 1 + 3(x−1) = 3x−2."
       },
       {

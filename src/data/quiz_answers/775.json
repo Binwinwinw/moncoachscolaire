@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Internet des objets",
+        "correct": 1,
         "correction": "L'IoT (Internet of Things / Internet des objets) designe l'ensemble des objets physiques connectes a internet qui collectent et echangent des donnees."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le Raspberry Pi est un ordinateur monocarte abordable et programmable, tres utilise en education et pour les projets IoT et de domotique."
+        "correction": "Le Raspberry Pi est un ordinateur monocarte abordable et programmable, tres utilise en education et pour les projets IoT et de domotique."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Wi-Fi et Bluetooth",
+        "correct": 1,
         "correction": "Le Wi-Fi (reseau local sans fil) et le Bluetooth (courte portee) sont les protocoles les plus repandus pour connecter les objets domestiques (enceintes, montres, capteurs)."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La domotique (du latin 'domus' = maison) integre l'automatisation et la communication pour controler et optimiser les equipements d'un habitat."
+        "correction": "La domotique (du latin 'domus' = maison) integre l'automatisation et la communication pour controler et optimiser les equipements d'un habitat."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Un composant qui mesure une grandeur physique et la convertit en signal exploitable",
+        "correct": 1,
         "correction": "Un capteur (temperature, luminosite, acceleration, CO2...) mesure une grandeur physique et la convertit en signal electrique numerique traitable par un microcontroleur."
       },
       {

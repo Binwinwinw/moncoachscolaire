@@ -1,70 +1,74 @@
 {
   "contents": {
-    "title": "Anglais - Les dangers de la pollution en SVT",
-    "level": "5eme",
-    "subject": "SVT"
+    "title": "Quiz Diagnostic NSI 1ere - Série 907",
+    "level": "1ere",
+    "subject": "NSI"
   },
   "quiz": {
-    "title": "Anglais - Les dangers de la pollution en SVT",
+    "title": "Recherche dichotomique",
     "question_count": 8,
-    "level": "5eme",
-    "subject": "SVT",
+    "level": "1ere",
+    "subject": "NSI",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "",
-        "correction": "La bonne réponse est ‘La pollution chimique’. Elle affecte l'eau."
+        "answer": "Une méthode de recherche dans une liste triée en divisant l'espace par deux",
+        "correct": 0,
+        "correction": "En NSI, la recherche dichotomique désigne : une méthode de recherche dans une liste triée en divisant l'espace par deux."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "answer": "faux",
-        "correction": "Vrai. Les déchets dans les rivières font du mal aux poissons."
+        "answer": "vrai",
+        "correction": "Cette notion fait partie des fondamentaux travaillés en NSI."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Réponds comment la pollution peut rendre les animaux malades et diminuer leur nourriture."
+        "type": "qcm",
+        "answer": "la liste triée",
+        "correct": 0,
+        "correction": "La notion clé à retenir ici est : la liste triée."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "answer": "",
-        "correction": "La bonne réponse est ‘Recycler les déchets’. C'est un moyen de réduire la pollution de l'eau."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La NSI combine pratique, raisonnement algorithmique et compréhension des systèmes."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "answer": "faux",
-        "correction": "Vrai. Les usines peuvent rejeter des produits chimiques dangereux dans l'eau."
+        "type": "qcm",
+        "answer": "Comprendre les outils et concepts du numérique",
+        "correct": 0,
+        "correction": "L'objectif de la NSI est de comprendre le fonctionnement des outils numériques et des algorithmes."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "qcm",
-        "answer": "",
-        "correction": "La bonne réponse est ‘Elle peut endommager leurs feuilles’."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les notions de NSI s'observent dans le web, les réseaux, les programmes et les objets connectés."
       },
       {
         "index": 6,
         "question_id": 7,
-        "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Réponds en donnant une action comme ramasser des déchets ou utiliser moins de plastique."
+        "type": "qcm",
+        "answer": "Un algorithme, un schéma ou un exemple de code",
+        "correct": 0,
+        "correction": "Les schémas, algorithmes et fragments de code aident à clarifier les notions de NSI."
       },
       {
         "index": 7,
         "question_id": 8,
-        "type": "qcm",
-        "answer": "",
-        "correction": "La bonne réponse est ‘Pour protéger les plantes, les animaux et les humains’."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est un objectif central de l'enseignement NSI."
       }
     ]
   }

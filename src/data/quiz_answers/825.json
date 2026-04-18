@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic SES 1ère - Série 825",
-    "level": "1ère",
+    "title": "Quiz Diagnostic SES 1ere - Série 825",
+    "level": "1ere",
     "subject": "SES"
   },
   "quiz": {
     "title": "L'entreprise et ses objectifs",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Maximiser le profit",
+        "correct": 1,
         "correction": "La théorie néoclassique pose la maximisation du profit comme l'objectif premier des entreprises."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La RSE va au-delà du simple objectif de profit et inclut des dimensions environnementales, sociales et de gouvernance (ESG)."
+        "answer": "faux",
+        "correction": "La RSE va au-delà du simple objectif de profit et inclut des dimensions environnementales, sociales et de gouvernance (ESG)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Tous les acteurs affectés par l'activité de l'entreprise",
+        "correct": 1,
         "correction": "Les parties prenantes incluent : actionnaires, salariés, clients, fournisseurs, État, société civile…"
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La VA mesure la contribution à la production nationale ; le profit est l'excédent brut d'exploitation net."
+        "answer": "faux",
+        "correction": "La VA mesure la contribution à la production nationale ; le profit est l'excédent brut d'exploitation net."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Chiffre d'affaires - consommations intermédiaires",
+        "correct": 1,
         "correction": "Les consommations intermédiaires sont les biens et services détruits dans le processus de production."
       },
       {

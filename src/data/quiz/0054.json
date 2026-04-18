@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 0054",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 6eme : Organisation et gestion de données",
+    "status": "published",
+    "created_at": "2026-04-18 20:07:58",
+    "updated_at": "2026-04-18 20:07:58"
+  },
+  "quiz": {
+    "title": "Organisation et gestion de données",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle principal d'un tableau de données ?",
+        "choices": [
+          "Stocker des données",
+          "Analyser des données",
+          "Afficher des données",
+          "Toutes les réponses"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un graphique en barres est utilisé pour représenter des données catégorielles."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel type de graphique est le mieux adapté pour montrer la répartition d'un ensemble de données ?",
+        "choices": [
+          "Graphique en barres",
+          "Graphique circulaire",
+          "Histogramme",
+          "Graphique linéaire"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un histogramme est utilisé pour représenter des données continues."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle d'une légende dans un graphique ?",
+        "choices": [
+          "Expliquer les axes",
+          "Identifier les séries de données",
+          "Afficher les titres",
+          "Aucune des réponses"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un graphique linéaire est utilisé pour représenter des données temporelles."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel type de graphique est le mieux adapté pour montrer l'évolution d'une variable dans le temps ?",
+        "choices": [
+          "Graphique en barres",
+          "Graphique circulaire",
+          "Histogramme",
+          "Graphique linéaire"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un graphique en barres peut être utilisé pour représenter des données continues."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

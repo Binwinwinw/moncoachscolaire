@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques 2nde : Représentation graphique",
     "status": "published",
-    "created_at": "2026-04-06 06:40:42",
-    "updated_at": "2026-04-06 06:40:42"
+    "created_at": "2026-04-18 18:34:32",
+    "updated_at": "2026-04-18 18:34:32"
   },
   "quiz": {
     "title": "Représentation graphique",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "On trace la droite verticale x = 2 et on lit l'ordonnée du point d'intersection avec la courbe."
+        "question": "Comment lit-on graphiquement l'image de x = 2 par une fonction f ? La bonne réponse attendue est : On trace la droite verticale x = 2 et on lit l'ordonnée du point d'intersection avec la courbe."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La courbe est symétrique par rapport à l'axe (Oy) : pour tout x, le point (x, f(x)) a son symétrique (−x, f(x)) sur la courbe."
+        "question": "Décris comment identifier graphiquement si une fonction est paire (symétrique par rapport à l'axe des ordonnées). La bonne réponse attendue est : La courbe est symétrique par rapport à l'axe (Oy) : pour tout x, le point (x, f(x)) a son symétrique (−x, f(x)) sur la courbe."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fonctions polynomiales",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Géométrie analytique",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Ensembles et logique",
-      "description": "Notion fondamentale de Mathématiques"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

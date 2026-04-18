@@ -1,94 +1,75 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 6eme - Série 0179",
+    "title": "Quiz Diagnostic Histoire-Géographie 1ere - SÃ©rie 179",
     "type": "quiz",
-    "level": "6eme",
-    "subject": "Français",
-    "description": "Diagnostic Français 6eme : Français 6e - Les valeurs de la négation",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 1ere : Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 5",
     "status": "published",
-    "created_at": "2026-04-06 06:25:38",
-    "updated_at": "2026-04-06 06:25:38"
+    "created_at": "2026-04-18 20:30:32",
+    "updated_at": "2026-04-18 20:30:32"
   },
   "quiz": {
-    "title": "Français 6e - Les valeurs de la négation",
+    "title": "Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 5",
     "type": "quiz",
-    "level": "6eme",
-    "subject": "Français",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Qu'est-ce que la négation ?",
+        "question": "En quelle annÃ©e la Guerre Froide est-elle gÃ©nÃ©ralement considÃ©rÃ©e comme commenÃ§ant ?",
         "choices": [
-          "L'expression de l'affirmation",
-          "L'expression de la question",
-          "L'expression de la négation",
-          "L'expression de l'exclamation"
+          "1945",
+          "1947",
+          "1950",
+          "1953"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "La négation peut être exprimée de différentes manières en français, telles que l'utilisation de 'ne.pas', 'ne.plus', 'ne.jamais', 'ne.rien', etc., en fonction du type de négation que l'on souhaite exprimer."
+        "question": "L'OTAN est une alliance militaire de l'Ouest crÃ©Ã©e en 1949 pour contrer la menace soviÃ©tique."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Expliquez ce que signifie la notion de 'rideau de fer' dans le contexte de la Guerre Froide."
       },
       {
         "type": "qcm",
-        "question": "Quel est le rôle de la négation dans la communication écrite ?",
+        "question": "Quelle est la crise la plus dangereuse de la Guerre Froide, frÃ´lant le conflit nuclÃ©aire en 1962 ?",
         "choices": [
-          "Elle n'a pas de rôle spécifique",
-          "Elle permet d'exprimer des affirmations",
-          "Elle permet d'exprimer des questions",
-          "Elle permet d'exprimer des idées ou des faits qui ne sont pas vrais ou qui ne se produisent pas"
+          "La crise de Berlin (1961)",
+          "La guerre de CorÃ©e (1950-1953)",
+          "La crise des missiles de Cuba",
+          "La guerre du Vietnam"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "L'utilisation correcte de la négation est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les écrivains utilisent les formes de négation appropriées en fonction du contexte et du message qu'ils souhaitent transmettre, ce qui contribue à la clarté et à l'efficacité de la communication écrite."
+        "question": "La Chine communiste de Mao Zedong rejoint le bloc soviÃ©tique dÃ¨s 1949 et reste alliÃ©e Ã  l'URSS tout au long de la Guerre Froide."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Qu'est-ce que la dÃ©tente et quand intervient-elle dans la Guerre Froide ?"
       },
       {
         "type": "qcm",
-        "question": "Quel est le rôle de la négation dans la communication écrite ?",
+        "question": "Quel dirigeant soviÃ©tique lance les rÃ©formes de la glasnost et de la perestroÃ¯ka dans les annÃ©es 1980 ?",
         "choices": [
-          "Elle n'a pas de rôle spécifique",
-          "Elle permet d'exprimer des affirmations",
-          "Elle permet d'exprimer des questions",
-          "Elle permet d'exprimer des idées ou des faits qui ne sont pas vrais ou qui ne se produisent pas"
+          "Brejnev",
+          "Andropov",
+          "Gorbatchev",
+          "Eltsine"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "L'utilisation incorrecte de la négation peut parfois entraîner des confusions ou des malentendus dans la communication écrite, en rendant difficile pour les lecteurs de comprendre les idées ou les faits qui ne sont pas vrais ou qui ne se produisent pas, ce qui peut nuire à la clarté du message et à l'efficacité de la communication écrite."
-      },
-      {
-        "type": "qcm",
-        "question": "Quel est le rôle de la négation dans la communication écrite ?",
-        "choices": [
-          "Elle n'a pas de rôle spécifique",
-          "Elle permet d'exprimer des affirmations",
-          "Elle permet d'exprimer des questions",
-          "Elle permet d'exprimer des idées ou des faits qui ne sont pas vrais ou qui ne se produisent pas"
-        ]
-      },
-      {
-        "type": "vrai-faux",
-        "question": "L'utilisation correcte de la négation est essentielle pour éviter les confusions et les erreurs dans la communication écrite."
+        "question": "La chute du mur de Berlin en novembre 1989 symbolise la fin de la Guerre Froide et la rÃ©unification allemande."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Français",
-      "description": "Notion du programme 6eme"
-    },
-    {
-      "notion": "Compétences de base 6eme",
-      "description": "Notion du programme 6eme"
-    },
-    {
-      "notion": "Savoir-faire français",
-      "description": "Notion du programme 6eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

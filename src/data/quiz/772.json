@@ -6,8 +6,8 @@
     "subject": "Technologie",
     "description": "Diagnostic Technologie 3eme : Les familles d'objets techniques et leurs principes",
     "status": "published",
-    "created_at": "2026-04-06 06:40:45",
-    "updated_at": "2026-04-06 06:40:45"
+    "created_at": "2026-04-18 21:24:12",
+    "updated_at": "2026-04-18 21:24:12"
   },
   "quiz": {
     "title": "Les familles d'objets techniques et leurs principes",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "L'ergonomie etudie l'adaptation des outils et objets a l'utilisateur humain pour reduire la fatigue, les erreurs et ameliorer le confort."
+        "question": "La bonne réponse attendue est : ergonomie."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Le diagramme FAST (Function Analysis System Technique) decompose les fonctions d'un produit en repondant aux questions 'Pourquoi ?', 'Comment ?' et 'Quand ?'."
+        "question": "La bonne réponse attendue est : diagramme FAST."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Technologie",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Compétences de base 3eme",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Savoir-faire technologie",
-      "description": "Notion du programme 3eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

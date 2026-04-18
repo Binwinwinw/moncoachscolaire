@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Aire entre deux courbes",
     "status": "published",
-    "created_at": "2026-04-06 06:40:48",
-    "updated_at": "2026-04-06 06:40:48"
+    "created_at": "2026-04-18 18:52:46",
+    "updated_at": "2026-04-18 18:52:46"
   },
   "quiz": {
     "title": "Aire entre deux courbes",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Cette affirmation reformule l'idée essentielle à retenir : Calcule l'aire entre f(x) = x² et g(x) = x sur [0, 1]."
+        "question": "Calcule l'aire entre f(x) = x² et g(x) = x sur [0, 1]. La bonne réponse attendue est : 1/6."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "1/6 (entre x=0 et x=1)."
+        "question": "Calcule l'aire entre y = x et y = x² (trouver d'abord les intersections). La bonne réponse attendue est : 1/6 (entre x=0 et x=1)."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Intégrale définie",
-      "description": "L'aire entre deux courbes peut être calculée en utilisant l'intégrale définie, qui représente la somme des aires des rectangles infiniment petits sous la courbe"
-    },
-    {
-      "notion": "Fonctions à intégrer",
-      "description": "Pour calculer l'aire entre deux courbes, il faut intégrer la différence entre les deux fonctions f et g sur l'intervalle [a, b]"
-    },
-    {
-      "notion": "Inégalité des fonctions",
-      "description": "La condition f ≥ g est essentielle pour déterminer l'aire entre les deux courbes, car elle garantit que l'aire est positive ou nulle"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

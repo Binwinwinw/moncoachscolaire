@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 492",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 492",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
-    "description": "Diagnostic Français 1ère : L'oral de l'EAF : préparation et méthode",
+    "description": "Diagnostic Français 1ere : L'oral de l'EAF : prÃ©paration et mÃ©thode",
     "status": "published",
-    "created_at": "2026-03-13 18:59:43",
-    "updated_at": "2026-03-13 18:59:43"
+    "created_at": "2026-04-18 20:20:13",
+    "updated_at": "2026-04-18 20:20:13"
   },
   "quiz": {
-    "title": "L'oral de l'EAF : préparation et méthode",
+    "title": "L'oral de l'EAF : prÃ©paration et mÃ©thode",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
@@ -20,7 +20,7 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Combien de temps dure la préparation de l'exposé oral à l'EAF ?",
+        "question": "Combien de temps dure la prÃ©paration de l'exposÃ© oral Ã  l'EAF ?",
         "choices": [
           "10 minutes",
           "20 minutes",
@@ -30,59 +30,46 @@
       },
       {
         "type": "vrai-faux",
-        "question": "À l'oral du bac de Français, l'élève peut consulter ses notes pendant l'exposé."
+        "question": "Ã€ l'oral du bac de FranÃ§ais, l'Ã©lÃ¨ve peut consulter ses notes pendant l'exposÃ©."
       },
       {
         "type": "vrai-faux",
-        "question": "L'entretien porte sur les œuvres intégrales étudiées dans l'année et sur les lectures cursives."
+        "question": "L'examinateur peut poser des questions sur les _____ au programme lors de l'entretien suivant l'exposÃ©."
       },
       {
         "type": "qcm",
-        "question": "Quelle qualité est primordiale lors de l'exposé oral du bac ?",
+        "question": "Quelle qualitÃ© est primordiale lors de l'exposÃ© oral du bac ?",
         "choices": [
-          "Lire son texte mot à mot",
+          "Lire son texte mot Ã  mot",
           "Parler distinctement et structurer clairement son analyse",
-          "Mémoriser tout le cours",
-          "Éviter les figures de style"
+          "MÃ©moriser tout le cours",
+          "Ã‰viter les figures de style"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "L'oral de l'EAF dure en totalité environ 20 minutes (exposé + entretien)."
+        "question": "L'oral de l'EAF dure en totalitÃ© environ 20 minutes (exposÃ© + entretien)."
       },
       {
         "type": "vrai-faux",
-        "question": "Un plan en 2-3 axes, annoncé en introduction et conclu par une synthèse, structure l'exposé oral."
+        "question": "Pour l'oral, l'Ã©lÃ¨ve prÃ©sente un texte Ã©tudiÃ© en classe : son exposÃ© doit suivre un _____ clair avec introduction et conclusion."
       },
       {
         "type": "qcm",
-        "question": "Lors de l'entretien, si l'examinateur pose une question à laquelle on ne sait pas répondre, la meilleure attitude est :",
+        "question": "Lors de l'entretien, si l'examinateur pose une question Ã  laquelle on ne sait pas rÃ©pondre, la meilleure attitude est :",
         "choices": [
           "Rester silencieux",
-          "Reconnaître honnêtement la limite de sa connaissance et proposer une piste",
+          "ReconnaÃ®tre honnÃªtement la limite de sa connaissance et proposer une piste",
           "Changer de sujet",
-          "Répéter l'exposé"
+          "RÃ©pÃ©ter l'exposÃ©"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "La lecture cursive (lecture personnelle) peut être évoquée lors de l'entretien de l'oral EAF."
+        "question": "La lecture cursive (lecture personnelle) peut Ãªtre Ã©voquÃ©e lors de l'entretien de l'oral EAF."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Baccalauréat français",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Poésie baroque et classique",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Théâtre et représentation",
-      "description": "Notion fondamentale de Français"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

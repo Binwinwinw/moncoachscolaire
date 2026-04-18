@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic HGGSP 1ère - Série 941",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP"
   },
   "quiz": {
     "title": "Patrimoine en guerre",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Un enjeu géopolitique mêlant pouvoir, acteurs et régulation",
+        "correct": 1,
         "correction": "En HGGSP, les thèmes croisent rapports de force, acteurs multiples et instruments de gouvernance."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Une bonne réponse articule acteurs, échelles, intérêts et conséquences."
+        "answer": "faux",
+        "correction": "Une bonne réponse articule acteurs, échelles, intérêts et conséquences."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "la Convention de La Haye (1954)",
+        "correct": 0,
         "correction": "la Convention de La Haye (1954) sert de repère pour comprendre la régulation et les marges de manœuvre des acteurs."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. L'exemple doit être contextualisé et interprété (pas seulement cité)."
+        "answer": "faux",
+        "correction": "L'exemple doit être contextualisé et interprété (pas seulement cité)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Croiser acteurs, échelles, temporalités et rapports de force",
+        "correct": 1,
         "correction": "La méthode HGGSP repose sur une analyse pluriscalaire et problématisée."
       },
       {

@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Intégrale et accumulation",
     "status": "published",
-    "created_at": "2026-04-06 06:40:48",
-    "updated_at": "2026-04-06 06:40:48"
+    "created_at": "2026-04-18 18:52:46",
+    "updated_at": "2026-04-18 18:52:46"
   },
   "quiz": {
     "title": "Intégrale et accumulation",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Le volume total d'eau entré dans le réservoir entre t=0 et t=5 heures."
+        "question": "Un débit d'eau Q(t) (en m³/h) coule dans un réservoir. Que représente ∫₀⁵ Q(t) dt ? La bonne réponse attendue est : Le volume total d'eau entré dans le réservoir entre t=0 et t=5 heures."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "P(10) = P(0) + ∫₀¹⁰ r(t) dt = 1000 + 500 = 1500."
+        "question": "La population P(t) croît à un taux r(t). Si P(0) = 1000 et ∫₀¹⁰ r(t) dt = 500, que vaut P(10) ? La bonne réponse attendue est : P(10) = 1500."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Intégrale",
-      "description": "L'intégrale ∫₀ᵀ v(t) dt représente la distance totale parcourue par l'objet entre les instants 0 et T, en fonction de sa vitesse v(t)"
-    },
-    {
-      "notion": "Accumulation",
-      "description": "L'accumulation de la vitesse v(t) sur l'intervalle [0, T] donne la position finale de l'objet par rapport à sa position initiale"
-    },
-    {
-      "notion": "Calcul infinitésimal",
-      "description": "Le calcul infinitésimal est utilisé pour définir l'intégrale ∫₀ᵀ v(t) dt, qui est la limite de la somme des aires des rectangles infinitésimaux sous la courbe de vitesse v(t)"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

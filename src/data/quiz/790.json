@@ -6,8 +6,8 @@
     "subject": "Technologie",
     "description": "Diagnostic Technologie 3eme : Les reseaux informatiques et la communication",
     "status": "published",
-    "created_at": "2026-04-06 06:40:45",
-    "updated_at": "2026-04-06 06:40:45"
+    "created_at": "2026-04-18 21:24:12",
+    "updated_at": "2026-04-18 21:24:12"
   },
   "quiz": {
     "title": "Les reseaux informatiques et la communication",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "HTTP (HyperText Transfer Protocol) permet l'echange de pages web ; HTTPS est sa version chiffree (TLS/SSL) qui securise les communications."
+        "question": "La bonne réponse attendue est : HTTP/HTTPS."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "ARP (Address Resolution Protocol) resout les adresses IP en adresses MAC pour l'acheminement des donnees au niveau de la couche liaison du modele OSI."
+        "question": "La bonne réponse attendue est : ARP."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Technologie",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Compétences de base 3eme",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Savoir-faire technologie",
-      "description": "Notion du programme 3eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

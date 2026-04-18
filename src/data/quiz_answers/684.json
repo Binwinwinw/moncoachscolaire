@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic SVT 3ème - Série 684",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT"
   },
   "quiz": {
     "title": "Écologie : développement durable et actions humaines",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Un développement qui répond aux besoins du présent sans compromettre ceux des générations futures",
+        "correct": 1,
         "correction": "La définition du développement durable intègre trois piliers : économique, social et environnemental."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Les ODD (Objectifs de Développement Durable) de l'ONU couvrent la pauvreté, la santé, l'éducation, l'environnement, etc."
+        "correction": "Les ODD (Objectifs de Développement Durable) de l'ONU couvrent la pauvreté, la santé, l'éducation, l'environnement, etc."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Polluants organiques persistants (POP)",
+        "correct": 1,
         "correction": "Les POP (ex. DDT, PCB, dioxines) s'accumulent dans les graisses et se concentrent à chaque niveau de la chaîne alimentaire."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. L'économie circulaire s'oppose à l'économie linéaire (extraire-produire-jeter) en minimisant les déchets et optimisant les ressources."
+        "correction": "L'économie circulaire s'oppose à l'économie linéaire (extraire-produire-jeter) en minimisant les déchets et optimisant les ressources."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Destruction de la couche d'ozone",
+        "correct": 1,
         "correction": "Les CFC (chlorofluorocarbones) libèrent du chlore qui détruit l'ozone stratosphérique protecteur contre les UV."
       },
       {

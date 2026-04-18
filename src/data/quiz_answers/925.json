@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic HGGSP 1ère - Série 925",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP"
   },
   "quiz": {
     "title": "La gouvernance d'Internet",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Les États, les entreprises privées, la société civile et la communauté technique",
+        "correct": 1,
         "correction": "Le modèle multipartite (multistakeholder) est défendu par les USA et l'Occident. Il s'oppose au modèle intergouvernemental défendu par la Russie et la Chine via l'UIT."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. L'UE garantit la neutralité du Net par règlement depuis 2016. Aux USA, la neutralité a été abrogée en 2017 puis rétablie en 2024."
+        "answer": "faux",
+        "correction": "L'UE garantit la neutralité du Net par règlement depuis 2016. Aux USA, la neutralité a été abrogée en 2017 puis rétablie en 2024."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Règlement Général de Protection des Données",
+        "correct": 0,
         "correction": "Le RGPD (2018) est le règlement européen sur la protection des données personnelles. Il s'applique à toute organisation traitant des données de résidents européens, y compris les GAFAM."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La souveraineté numérique est un défi difficile à atteindre compte tenu de la domination technologique américaine et de l'intégration mondiale des chaînes numériques."
+        "answer": "faux",
+        "correction": "La souveraineté numérique est un défi difficile à atteindre compte tenu de la domination technologique américaine et de l'intégration mondiale des chaînes numériques."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Responsabiliser les plateformes numériques pour les contenus illicites et les pratiques monopolistiques",
+        "correct": 1,
         "correction": "Le DSA (2022) impose aux grandes plateformes des obligations de transparence, de lutte contre les contenus illicites et de respect des droits des utilisateurs, sous peine d'amendes importantes."
       },
       {

@@ -6,8 +6,8 @@
     "subject": "Technologie",
     "description": "Diagnostic Technologie 3eme : Les automatismes : capteurs et actionneurs",
     "status": "published",
-    "created_at": "2026-04-06 06:40:45",
-    "updated_at": "2026-04-06 06:40:45"
+    "created_at": "2026-04-18 21:24:12",
+    "updated_at": "2026-04-18 21:24:12"
   },
   "quiz": {
     "title": "Les automatismes : capteurs et actionneurs",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Capteur photoelectrique."
+        "question": "La bonne réponse attendue est : capteur photoelectrique."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Le verin pneumatique utilise la pression d'air pour deplacer un piston lineairement ; tres utilise dans l'automatisation industrielle pour des mouvements rapides."
+        "question": "La bonne réponse attendue est : verin pneumatique."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Technologie",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Compétences de base 3eme",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Savoir-faire technologie",
-      "description": "Notion du programme 3eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

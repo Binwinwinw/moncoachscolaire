@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 0070",
+    "level": "6eme",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Probabilités équiprobables (pièces, dés)",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "1/2",
+        "correction": "La probabilité d'obtenir face en lançant une pièce est de 1/2."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "qcm",
+        "answer": "1/6",
+        "correction": "La probabilité d'obtenir un 6 en lançant un dé est de 1/6."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "1/2",
+        "correction": "La probabilité d'obtenir un nombre pair en lançant un dé est de 1/2 (2, 4, 6)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "1/2",
+        "correction": "La probabilité d'obtenir un nombre impair en lançant un dé est de 1/2 (1, 3, 5)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "1",
+        "correction": "La probabilité d'obtenir face ou pile en lançant une pièce est de 1 (100%)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "qcm",
+        "answer": "1/3",
+        "correction": "La probabilité d'obtenir un nombre supérieur à 4 en lançant un dé est de 1/3 (5, 6)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "1/3",
+        "correction": "La probabilité d'obtenir un nombre inférieur à 3 en lançant un dé est de 1/3 (1, 2)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "qcm",
+        "answer": "1/2",
+        "correction": "La probabilité d'obtenir un nombre entre 2 et 5 en lançant un dé est de 1/2 (2, 3, 4, 5)."
+      }
+    ]
+  }
+}

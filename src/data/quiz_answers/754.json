@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Droits economiques, sociaux et culturels",
+        "correct": 1,
         "correction": "Les droits-créances (santé, éducation, logement, travail) exigent une prestation positive de l'État, contrairement aux libertés-défenses qui nécessitent seulement une abstention."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le RSA (Revenu de Solidarité Active), créé en 2009, assure un revenu minimum aux personnes sans ressources ou dont les revenus sont insuffisants."
+        "correction": "Le RSA (Revenu de Solidarité Active), créé en 2009, assure un revenu minimum aux personnes sans ressources ou dont les revenus sont insuffisants."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La Couverture Maladie Universelle (CMU) / Protection Universelle Maladie (PUMa)",
+        "correct": 1,
         "correction": "La PUMa (2016, remplaçant la CMU) garantit à toute personne travaillant ou résidant stablement en France l'accès à la prise en charge de ses frais de santé."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le Préambule de la Constitution de 1946 (intégré au bloc de constitutionnalité) proclame les droits économiques et sociaux fondamentaux."
+        "correction": "Le Préambule de la Constitution de 1946 (intégré au bloc de constitutionnalité) proclame les droits économiques et sociaux fondamentaux."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La Securite sociale",
+        "correct": 1,
         "correction": "La Sécurité sociale (créée en 1945 par les ordonnances d'Ambroise Croizat et Alexandre Parodi) couvre les risques maladie, vieillesse, famille et accidents du travail."
       },
       {

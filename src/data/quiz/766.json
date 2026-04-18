@@ -6,8 +6,8 @@
     "subject": "EMC",
     "description": "Diagnostic EMC 3eme : L'egalite femmes-hommes : droits et combats",
     "status": "published",
-    "created_at": "2026-04-06 06:40:43",
-    "updated_at": "2026-04-06 06:40:43"
+    "created_at": "2026-04-18 21:24:13",
+    "updated_at": "2026-04-18 21:24:13"
   },
   "quiz": {
     "title": "L'egalite femmes-hommes : droits et combats",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Stereotypes de genre."
+        "question": "La bonne réponse attendue est : stereotypes de genre."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Le mouvement #MeToo (2017) a libéré la parole des victimes de harcèlement et violences sexuelles, entraînant des évolutions législatives et sociales importantes."
+        "question": "La bonne réponse attendue est : MeToo."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de EMC",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Compétences de base 3eme",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Savoir-faire emc",
-      "description": "Notion du programme 3eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

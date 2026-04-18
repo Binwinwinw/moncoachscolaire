@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic SVT 3ème - Série 686",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT"
   },
   "quiz": {
     "title": "Écologie : biodiversité et services écosystémiques",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Un bénéfice rendu par les écosystèmes aux sociétés humaines",
+        "correct": 1,
         "correction": "Les écosystèmes fournissent des services d'approvisionnement, de régulation, de soutien et culturels indispensables à l'humanité."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La perte d'habitat peut conduire à l'extinction locale d'une espèce avant une éventuelle disparition globale."
+        "correction": "La perte d'habitat peut conduire à l'extinction locale d'une espèce avant une éventuelle disparition globale."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La mangrove",
+        "correct": 1,
         "correction": "Les mangroves stockent du carbone dans leurs sédiments, servent de nurseries pour de nombreuses espèces et protègent les littoraux."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La conservation repose sur la protection des espèces, des habitats et des équilibres écologiques."
+        "correction": "La conservation repose sur la protection des espèces, des habitats et des équilibres écologiques."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La régulation des crues par les zones humides",
+        "correct": 1,
         "correction": "Les zones humides absorbent l'eau lors des fortes pluies, limitent les inondations et filtrent une partie des polluants."
       },
       {

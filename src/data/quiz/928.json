@@ -2,17 +2,17 @@
   "contents": {
     "title": "Quiz Diagnostic HGGSP 1ère - Série 928",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP",
     "description": "Diagnostic HGGSP 1ère : Guerres asymétriques, terrorisme et nouvelles formes de conflits",
     "status": "published",
-    "created_at": "2026-04-06 06:40:39",
-    "updated_at": "2026-04-06 06:40:39"
+    "created_at": "2026-04-18 15:13:09",
+    "updated_at": "2026-04-18 15:13:09"
   },
   "quiz": {
     "title": "Guerres asymétriques, terrorisme et nouvelles formes de conflits",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Déclenchement de la 'guerre contre le terrorisme', invasion de l'Afghanistan (2001) et de l'Irak (2003), création du Département de la sécurité intérieure américaine (DHS), loi Patriot Act (surveillance), émergence d'Al-Qaïda puis Daech, déstabilisation du Moyen-Orient, redéfinition des menaces sécuritaires mondiales, tensions avec le monde musulman."
+        "question": "Quels ont été les impacts géopolitiques des attentats du 11 septembre 2001 ?"
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La guerre hybride combine des moyens militaires conventionnels et non conventionnels : désinformation, cyberattaques, soldats sans insignes ('petits hommes verts'), soutien à des groupes séparatistes, guerre économique."
+        "question": "Qu'est-ce qu'une guerre hybride ? Donnez l'exemple de la Russie en Ukraine (2014-2015)."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de HGGSP",
-      "description": "Notion du programme 1ère"
-    },
-    {
-      "notion": "Compétences de base 1ère",
-      "description": "Notion du programme 1ère"
-    },
-    {
-      "notion": "Savoir-faire hggsp",
-      "description": "Notion du programme 1ère"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

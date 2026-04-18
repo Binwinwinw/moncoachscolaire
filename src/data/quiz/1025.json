@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Fonction logarithme népérien",
     "status": "published",
-    "created_at": "2026-04-06 06:40:48",
-    "updated_at": "2026-04-06 06:40:48"
+    "created_at": "2026-04-18 18:52:46",
+    "updated_at": "2026-04-18 18:52:46"
   },
   "quiz": {
     "title": "Fonction logarithme népérien",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Ln(x) = 3 ⟺ x = e³ (définition du logarithme comme réciproque de l'exponentielle)."
+        "question": "Résous ln(x) = 3. La bonne réponse attendue est : x = e³."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Ln strictement croissante : ln(x) < 2 = ln(e²) ⟺ 0 < x < e²."
+        "question": "Résous l'inéquation ln(x) < 2. La bonne réponse attendue est : 0 < x < e²."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Domaine de définition",
-      "description": "Le domaine de définition de la fonction logarithme népérien ln(x) est l'ensemble des nombres réels strictement positifs, noté R+* ou (0, +∞)."
-    },
-    {
-      "notion": "Définition de la fonction logarithme népérien",
-      "description": "La fonction logarithme népérien ln(x) est l'inverse de la fonction exponentielle e^x, où e est la base du logarithme népérien, approximativement égale à 2,71828."
-    },
-    {
-      "notion": "Propriétés des fonctions logarithmiques",
-      "description": "Les fonctions logarithmiques, comme ln(x), ont des propriétés telles que la monotonie croissante, la continuité et la dérivabilité sur leur domaine de définition, ce qui les rend utiles pour résoudre "
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

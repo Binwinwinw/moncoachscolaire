@@ -11,7 +11,7 @@ import os
 from datetime import UTC, datetime
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", ".."))
+REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", "..", ".."))
 
 # Ã€ adapter dans chaque clone
 BASENAME = "phychi_6eme_quizzes"
@@ -67,13 +67,19 @@ def normalize_text_payload(payload):
 
 def normalize_question_type(question_type):
     qt = str(question_type).strip().lower()
-    if qt in {"vrai-faux", "vrai faux"}:
-        return "vrai-faux"
     if qt == "qcm":
         return "qcm"
-    if qt in {"open", "texte", "text"}:
-        return "open"
-    return qt
+    if qt in {"vrai-faux", "vrai faux"}:
+        return "vrai-faux"
+    raise ValueError(f"Type de question inconnu ou interdit : '{question_type}' (valeur normalisée : '{qt}')")
+
+
+def build_true_false_statement(question_text, fallback_answer=""):
+    question_text = str(question_text).strip()
+    fallback_answer = str(fallback_answer).strip().rstrip(".")
+    if fallback_answer:
+        return f"{question_text} La bonne réponse attendue est : {fallback_answer}."
+    return question_text or "Choisis si l'affirmation est vraie ou fausse."
 
 
 def make_quiz(qid, title, subject, level, questions,
@@ -94,15 +100,13 @@ def make_quiz(qid, title, subject, level, questions,
                 "question": str(question.get("question", "")),
                 "choices": list(question.get("options", [])),
             }
-        elif qtype == "vrai-faux":
-            sanitized = {
-                "type": "vrai-faux",
-                "question": str(question.get("question", "")),
-            }
         else:
             sanitized = {
-                "type": "open",
-                "question": str(question.get("question", "")),
+                "type": "vrai-faux",
+                "question": build_true_false_statement(
+                    question.get("question", ""),
+                    question.get("correct_answer", ""),
+                ),
             }
         quiz_questions.append(sanitized)
 
@@ -150,22 +154,14 @@ def make_answers(qid, title, subject, level, questions):
                 "correct": correct_index,
                 "correction": str(q.get("explanation", "")),
             })
-        elif qtype == "vrai-faux":
-            tf_source = q.get("correct", q.get("correct_answer", "faux"))
+        else:
+            tf_source = q.get("correct", q.get("correct_answer", "vrai"))
             tf_answer = "vrai" if str(tf_source).strip().lower() in {"true", "vrai", "1"} else "faux"
             answers.append({
                 "index": index,
                 "question_id": index + 1,
                 "type": "vrai-faux",
                 "answer": tf_answer,
-                "correction": str(q.get("explanation", "")),
-            })
-        else:
-            answers.append({
-                "index": index,
-                "question_id": index + 1,
-                "type": "open",
-                "answer": str(q.get("correct_answer", "")),
                 "correction": str(q.get("explanation", "")),
             })
 
@@ -214,10 +210,10 @@ quizzes_data = [
             },
             {
                 'id': '1793_3',
-                'type': 'texte',
-                'question': "[Physique-Chimie 6eme] Cite une methode concrete pour progresser sur le theme 'Mesures et unites'.",
-                'correct_answer': "S'entrainer regulierement, analyser ses erreurs et reformuler les notions essentielles.",
-                'explanation': "La progression vient de la repetition guidee et de l'analyse des erreurs."
+                'type': 'vrai-faux',
+                'question': "S'entraîner régulièrement, analyser ses erreurs et reformuler les notions essentielles ne permet pas de progresser sur le thème 'Mesures et unités'.",
+                'correct': False,
+                'explanation': "La progression vient de la répétition guidée et de l'analyse des erreurs."
             },
             {
                 'id': '1793_4',
@@ -241,9 +237,9 @@ quizzes_data = [
             },
             {
                 'id': '1793_6',
-                'type': 'texte',
-                'question': "[Physique-Chimie 6eme] Propose un exemple d'auto-correction pertinente sur 'Mesures et unites'.",
-                'correct_answer': "Comparer sa reponse au corrig?, identifier l'erreur precise et ecrire la bonne strategie.",
+                'type': 'vrai-faux',
+                'question': "Comparer sa réponse au corrigé, identifier l'erreur précise et écrire la bonne stratégie est une auto-correction pertinente sur 'Mesures et unités'.",
+                'correct': True,
                 'explanation': "L'auto-correction explicite transforme une erreur en apprentissage."
             },
             {
@@ -296,10 +292,10 @@ quizzes_data = [
             },
             {
                 'id': '1794_3',
-                'type': 'texte',
-                'question': "[Physique-Chimie 6eme] Cite une methode concrete pour progresser sur le theme 'Mouvements et forces'.",
-                'correct_answer': "S'entrainer regulierement, analyser ses erreurs et reformuler les notions essentielles.",
-                'explanation': "La progression vient de la repetition guidee et de l'analyse des erreurs."
+                'type': 'vrai-faux',
+                'question': "S'entraîner régulièrement, analyser ses erreurs et reformuler les notions essentielles permet de progresser sur le thème 'Mouvements et forces'.",
+                'correct': True,
+                'explanation': "La progression vient de la répétition guidée et de l'analyse des erreurs."
             },
             {
                 'id': '1794_4',
@@ -323,9 +319,9 @@ quizzes_data = [
             },
             {
                 'id': '1794_6',
-                'type': 'texte',
-                'question': "[Physique-Chimie 6eme] Propose un exemple d'auto-correction pertinente sur 'Mouvements et forces'.",
-                'correct_answer': "Comparer sa reponse au corrig?, identifier l'erreur precise et ecrire la bonne strategie.",
+                'type': 'vrai-faux',
+                'question': "Comparer sa réponse au corrigé, identifier l'erreur précise et écrire la bonne stratégie n'est pas une auto-correction pertinente sur 'Mouvements et forces'.",
+                'correct': False,
                 'explanation': "L'auto-correction explicite transforme une erreur en apprentissage."
             },
             {
@@ -378,10 +374,10 @@ quizzes_data = [
             },
             {
                 'id': '1795_3',
-                'type': 'texte',
-                'question': "[Physique-Chimie 6eme] Cite une methode concrete pour progresser sur le theme 'Energie et conversion'.",
-                'correct_answer': "S'entrainer regulierement, analyser ses erreurs et reformuler les notions essentielles.",
-                'explanation': "La progression vient de la repetition guidee et de l'analyse des erreurs."
+                'type': 'vrai-faux',
+                'question': "S'entraîner régulièrement, analyser ses erreurs et reformuler les notions essentielles ne permet pas de progresser sur le thème 'Énergie et conversion'.",
+                'correct': False,
+                'explanation': "La progression vient de la répétition guidée et de l'analyse des erreurs."
             },
             {
                 'id': '1795_4',
@@ -405,9 +401,9 @@ quizzes_data = [
             },
             {
                 'id': '1795_6',
-                'type': 'texte',
-                'question': "[Physique-Chimie 6eme] Propose un exemple d'auto-correction pertinente sur 'Energie et conversion'.",
-                'correct_answer': "Comparer sa reponse au corrig?, identifier l'erreur precise et ecrire la bonne strategie.",
+                'type': 'vrai-faux',
+                'question': "Comparer sa réponse au corrigé, identifier l'erreur précise et écrire la bonne stratégie est une auto-correction pertinente sur 'Énergie et conversion'.",
+                'correct': True,
                 'explanation': "L'auto-correction explicite transforme une erreur en apprentissage."
             },
             {
@@ -460,10 +456,10 @@ quizzes_data = [
             },
             {
                 'id': '1796_3',
-                'type': 'texte',
-                'question': "[Physique-Chimie 6eme] Cite une methode concrete pour progresser sur le theme 'Modeles particulaires'.",
-                'correct_answer': "S'entrainer regulierement, analyser ses erreurs et reformuler les notions essentielles.",
-                'explanation': "La progression vient de la repetition guidee et de l'analyse des erreurs."
+                'type': 'vrai-faux',
+                'question': "S'entraîner régulièrement, analyser ses erreurs et reformuler les notions essentielles permet de progresser sur le thème 'Modèles particulaires'.",
+                'correct': True,
+                'explanation': "La progression vient de la répétition guidée et de l'analyse des erreurs."
             },
             {
                 'id': '1796_4',
@@ -487,9 +483,9 @@ quizzes_data = [
             },
             {
                 'id': '1796_6',
-                'type': 'texte',
-                'question': "[Physique-Chimie 6eme] Propose un exemple d'auto-correction pertinente sur 'Modeles particulaires'.",
-                'correct_answer': "Comparer sa reponse au corrig?, identifier l'erreur precise et ecrire la bonne strategie.",
+                'type': 'vrai-faux',
+                'question': "Comparer sa réponse au corrigé, identifier l'erreur précise et écrire la bonne stratégie n'est pas une auto-correction pertinente sur 'Modèles particulaires'.",
+                'correct': False,
                 'explanation': "L'auto-correction explicite transforme une erreur en apprentissage."
             },
             {
@@ -542,10 +538,10 @@ quizzes_data = [
             },
             {
                 'id': '1797_3',
-                'type': 'texte',
-                'question': "[Physique-Chimie 6eme] Cite une methode concrete pour progresser sur le theme 'Reactions chimiques'.",
-                'correct_answer': "S'entrainer regulierement, analyser ses erreurs et reformuler les notions essentielles.",
-                'explanation': "La progression vient de la repetition guidee et de l'analyse des erreurs."
+                'type': 'vrai-faux',
+                'question': "S'entraîner régulièrement, analyser ses erreurs et reformuler les notions essentielles permet de progresser sur le thème 'Réactions chimiques'.",
+                'correct': True,
+                'explanation': "La progression vient de la répétition guidée et de l'analyse des erreurs."
             },
             {
                 'id': '1797_4',
@@ -569,9 +565,9 @@ quizzes_data = [
             },
             {
                 'id': '1797_6',
-                'type': 'texte',
-                'question': "[Physique-Chimie 6eme] Propose un exemple d'auto-correction pertinente sur 'Reactions chimiques'.",
-                'correct_answer': "Comparer sa reponse au corrig?, identifier l'erreur precise et ecrire la bonne strategie.",
+                'type': 'vrai-faux',
+                'question': "Comparer sa réponse au corrigé, identifier l'erreur précise et écrire la bonne stratégie est une auto-correction pertinente sur 'Réactions chimiques'.",
+                'correct': True,
                 'explanation': "L'auto-correction explicite transforme une erreur en apprentissage."
             },
             {
@@ -624,10 +620,10 @@ quizzes_data = [
             },
             {
                 'id': '1798_3',
-                'type': 'texte',
-                'question': "[Physique-Chimie 6eme] Cite une methode concrete pour progresser sur le theme 'Electricite'.",
-                'correct_answer': "S'entrainer regulierement, analyser ses erreurs et reformuler les notions essentielles.",
-                'explanation': "La progression vient de la repetition guidee et de l'analyse des erreurs."
+                'type': 'vrai-faux',
+                'question': "S'entraîner régulièrement, analyser ses erreurs et reformuler les notions essentielles ne permet pas de progresser sur le thème 'Électricité'.",
+                'correct': False,
+                'explanation': "La progression vient de la répétition guidée et de l'analyse des erreurs."
             },
             {
                 'id': '1798_4',
@@ -651,9 +647,9 @@ quizzes_data = [
             },
             {
                 'id': '1798_6',
-                'type': 'texte',
-                'question': "[Physique-Chimie 6eme] Propose un exemple d'auto-correction pertinente sur 'Electricite'.",
-                'correct_answer': "Comparer sa reponse au corrig?, identifier l'erreur precise et ecrire la bonne strategie.",
+                'type': 'vrai-faux',
+                'question': "Comparer sa réponse au corrigé, identifier l'erreur précise et écrire la bonne stratégie est une auto-correction pertinente sur 'Électricité'.",
+                'correct': True,
                 'explanation': "L'auto-correction explicite transforme une erreur en apprentissage."
             },
             {
@@ -706,10 +702,10 @@ quizzes_data = [
             },
             {
                 'id': '1799_3',
-                'type': 'texte',
-                'question': "[Physique-Chimie 6eme] Cite une methode concrete pour progresser sur le theme 'Ondes et signaux'.",
-                'correct_answer': "S'entrainer regulierement, analyser ses erreurs et reformuler les notions essentielles.",
-                'explanation': "La progression vient de la repetition guidee et de l'analyse des erreurs."
+                'type': 'vrai-faux',
+                'question': "S'entraîner régulièrement, analyser ses erreurs et reformuler les notions essentielles permet de progresser sur le thème 'Ondes et signaux'.",
+                'correct': True,
+                'explanation': "La progression vient de la répétition guidée et de l'analyse des erreurs."
             },
             {
                 'id': '1799_4',
@@ -733,9 +729,9 @@ quizzes_data = [
             },
             {
                 'id': '1799_6',
-                'type': 'texte',
-                'question': "[Physique-Chimie 6eme] Propose un exemple d'auto-correction pertinente sur 'Ondes et signaux'.",
-                'correct_answer': "Comparer sa reponse au corrig?, identifier l'erreur precise et ecrire la bonne strategie.",
+                'type': 'vrai-faux',
+                'question': "Comparer sa réponse au corrigé, identifier l'erreur précise et écrire la bonne stratégie n'est pas une auto-correction pertinente sur 'Ondes et signaux'.",
+                'correct': False,
                 'explanation': "L'auto-correction explicite transforme une erreur en apprentissage."
             },
             {
@@ -788,10 +784,10 @@ quizzes_data = [
             },
             {
                 'id': '1800_3',
-                'type': 'texte',
-                'question': "[Physique-Chimie 6eme] Cite une methode concrete pour progresser sur le theme 'Securite au laboratoire'.",
-                'correct_answer': "S'entrainer regulierement, analyser ses erreurs et reformuler les notions essentielles.",
-                'explanation': "La progression vient de la repetition guidee et de l'analyse des erreurs."
+                'type': 'vrai-faux',
+                'question': "S'entraîner régulièrement, analyser ses erreurs et reformuler les notions essentielles permet de progresser sur le thème 'Sécurité au laboratoire'.",
+                'correct': True,
+                'explanation': "La progression vient de la répétition guidée et de l'analyse des erreurs."
             },
             {
                 'id': '1800_4',

@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 588",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie"
   },
   "quiz": {
     "title": "La construction européenne : étapes et enjeux",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La CEE",
+        "correct": 1,
         "correction": "La Communauté économique européenne naît en 1957."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Mise en circulation fiduciaire le 1er janvier 2002."
+        "correction": "Mise en circulation fiduciaire le 1er janvier 2002."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La Commission européenne",
+        "correct": 1,
         "correction": "Elle détient l'initiative législative dans l'UE."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Erasmus facilite les études dans un autre pays européen."
+        "correction": "Erasmus facilite les études dans un autre pays européen."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Concilier intégration, souveraineté et transition écologique",
+        "correct": 1,
         "correction": "L'UE doit équilibrer unité, diversité et défis contemporains."
       },
       {

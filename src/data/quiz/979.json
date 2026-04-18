@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques 2nde : Lecture graphique",
     "status": "published",
-    "created_at": "2026-04-06 06:40:42",
-    "updated_at": "2026-04-06 06:40:42"
+    "created_at": "2026-04-18 18:34:32",
+    "updated_at": "2026-04-18 18:34:32"
   },
   "quiz": {
     "title": "Lecture graphique",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Ce sont les abscisses des points d'intersection de la courbe de f avec l'axe des abscisses (axe y = 0)."
+        "question": "Décris comment lire graphiquement les solutions de f(x) = 0. La bonne réponse attendue est : Ce sont les abscisses des points d'intersection de la courbe de f avec l'axe des abscisses (axe y = 0)."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "On regarde si la courbe de f est en dessous ou au même niveau que la courbe de g sur cet intervalle."
+        "question": "Sur un graphique, comment déterminer graphiquement si f(x) ≤ g(x) sur un intervalle ? La bonne réponse attendue est : On regarde si la courbe de f est en dessous ou au même niveau que la courbe de g sur cet intervalle."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fonctions polynomiales",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Géométrie analytique",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Ensembles et logique",
-      "description": "Notion fondamentale de Mathématiques"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

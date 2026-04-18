@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Pour tout ε > 0, il existe N tel que n > N ⟹ |uₙ − L| < ε",
+        "answer": "B",
         "correction": "C'est la définition formelle (ε-N) de la convergence d'une suite vers L."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Diviser par n : (2 + 1/n)/(1 + 3/n) → 2/1 = 2."
+        "correction": "Diviser par n : (2 + 1/n)/(1 + 3/n) → 2/1 = 2."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "Diverge",
+        "answer": "C",
         "correction": "(−1)ⁿ alterne entre 1 et −1 : la suite diverge (pas de limite)."
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. |sin(n)| ≤ 1 → −1/n ≤ sin(n)/n ≤ 1/n. Comme ±1/n → 0, par gendarmes : uₙ → 0."
+        "correction": "|sin(n)| ≤ 1 → −1/n ≤ sin(n)/n ≤ 1/n. Comme ±1/n → 0, par gendarmes : uₙ → 0."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "+∞",
+        "answer": "C",
         "correction": "nⁿ/n! → +∞ (Stirling : n! ~ √(2πn)·(n/e)ⁿ, donc nⁿ/n! ~ eⁿ/√(2πn) → +∞)."
       },
       {

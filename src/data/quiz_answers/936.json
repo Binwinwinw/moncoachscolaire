@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic HGGSP 1ère - Série 936",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP"
   },
   "quiz": {
     "title": "Le rôle de l'État dans la construction des mémoires",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Construire et transmettre une identité nationale",
+        "correct": 1,
         "correction": "L'État investit dans les lieux de mémoire pour fédérer les citoyens autour d'un récit national commun, légitimer les institutions et transmettre des valeurs civiques."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. L'historien Henry Rousso parle de 'politique de la mémoire' pour désigner l'usage stratégique du passé par les acteurs politiques."
+        "answer": "faux",
+        "correction": "L'historien Henry Rousso parle de 'politique de la mémoire' pour désigner l'usage stratégique du passé par les acteurs politiques."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La victoire des Alliés et la fin de la Seconde Guerre mondiale en Europe",
+        "correct": 2,
         "correction": "Le 8 mai 1945 est la date de la capitulation de l'Allemagne nazie. Le 11 novembre commémore l'armistice de 1918. Ces dates sont des 'lieux de mémoire' temporels en France."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. L'historienne Suzanne Citron a critiqué le roman national français pour son eurocentrisme et son oubli des populations colonisées."
+        "answer": "faux",
+        "correction": "L'historienne Suzanne Citron a critiqué le roman national français pour son eurocentrisme et son oubli des populations colonisées."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La rivalité entre différents groupes pour faire reconnaître leur mémoire dans l'espace public",
+        "correct": 1,
         "correction": "Plusieurs groupes (descendants d'esclaves, harkis, pieds-noirs, Arméniens, Juifs…) revendiquent la reconnaissance officielle de leurs mémoires. Ces revendications peuvent entrer en concurrence pour la visibilité et les commémorations."
       },
       {

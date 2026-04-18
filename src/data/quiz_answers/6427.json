@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 2nde - SÃ©rie 6427",
+    "level": "2nde",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "SVT 2nde - Histoire de la Terre",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Pour comprendre le vivant et les phénomènes naturels",
+        "correct": 0,
+        "correction": "Les SVT permettent d'expliquer scientifiquement le vivant, la Terre et l'environnement."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les SVT s'appuient sur des données observables et des démarches expérimentales."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Observer, comparer et justifier",
+        "correct": 0,
+        "correction": "Observer les indices et justifier sa réponse est essentiel en SVT."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les données et observations rendent l'explication scientifique plus solide."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Comprendre un mécanisme du vivant ou de la Terre",
+        "correct": 0,
+        "correction": "Les exercices de SVT visent à expliquer des phénomènes biologiques ou géologiques."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La correction des erreurs aide à mieux comprendre les notions et à progresser durablement."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Un schéma, un graphique ou une expérience",
+        "correct": 0,
+        "correction": "Les schémas, les expériences et les graphiques sont des outils de compréhension très utiles en SVT."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Employer les bons termes scientifiques améliore la clarté et la justesse des réponses."
+      }
+    ]
+  }
+}

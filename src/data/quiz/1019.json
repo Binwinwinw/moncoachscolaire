@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Dérivée de la fonction composée",
     "status": "published",
-    "created_at": "2026-04-06 06:40:48",
-    "updated_at": "2026-04-06 06:40:48"
+    "created_at": "2026-04-18 18:52:46",
+    "updated_at": "2026-04-18 18:52:46"
   },
   "quiz": {
     "title": "Dérivée de la fonction composée",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "F'(x) = 6x·cos(3x² + 1)."
+        "question": "Calcule la dérivée de f(x) = sin(3x² + 1). La bonne réponse attendue est : f'(x) = 6x·cos(3x² + 1)."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "F'(x) = −2x·e^(−x²)."
+        "question": "Calcule la dérivée de f(x) = e^(−x²). La bonne réponse attendue est : f'(x) = −2x·e^(−x²)."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Règle de la chaîne",
-      "description": "La règle de la chaîne est utilisée pour trouver la dérivée d'une fonction composée. Elle stipule que la dérivée de (g∘f)(x) = g(f(x)) est donnée par (g∘f)'(x) = g'(f(x)) * f'(x)"
-    },
-    {
-      "notion": "Fonction composée",
-      "description": "Une fonction composée est une fonction de la forme (g∘f)(x) = g(f(x)), où f et g sont deux fonctions. La dérivée de cette fonction est importante pour comprendre le comportement de la fonction composé"
-    },
-    {
-      "notion": "Dérivée",
-      "description": "La dérivée d'une fonction représente la variation instantanée de la fonction par rapport à la variable indépendante. Dans le cas de la fonction composée, la dérivée est donnée par l'application de la "
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 6eme - Série 0099",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 6eme : EMC 6e - Les droits et devoirs des citoyens",
+    "status": "published",
+    "created_at": "2026-04-18 20:07:59",
+    "updated_at": "2026-04-18 20:07:59"
+  },
+  "quiz": {
+    "title": "EMC 6e - Les droits et devoirs des citoyens",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quels sont les trois droits fondamentaux des citoyens français ?",
+        "choices": [
+          "Le droit de vote, la liberté d'expression, le droit à l'éducation",
+          "Le droit de vote, la liberté de religion, le droit à la santé",
+          "La liberté d'expression, le droit à l'éducation, le droit à la santé",
+          "Le droit de vote, la liberté d'expression, le droit à la santé"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le droit de vote est un droit fondamental pour tous les citoyens français majeurs."
+      },
+      {
+        "type": "qcm",
+        "question": "Quels sont les devoirs des citoyens français ?",
+        "choices": [
+          "Respecter les lois, payer des impôts, défendre la patrie",
+          "Respecter les lois, payer des impôts, avoir une profession",
+          "Payer des impôts, défendre la patrie, avoir une profession",
+          "Respecter les lois, défendre la patrie, avoir une profession"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La liberté d'expression permet aux citoyens français de s'exprimer librement sans aucune restriction."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le devoir de solidarité en France ?",
+        "choices": [
+          "Aider les personnes en difficulté, respecter les différences, participer à la vie de la communauté",
+          "Aider les personnes en difficulté, respecter les différences, avoir une profession",
+          "Respecter les différences, participer à la vie de la communauté, avoir une profession",
+          "Aider les personnes en difficulté, participer à la vie de la communauté, avoir une profession"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le droit à l'éducation est un droit fondamental pour tous les citoyens français."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le devoir de respect en France ?",
+        "choices": [
+          "Respecter les lois, respecter les différences, participer à la vie de la communauté",
+          "Respecter les lois, respecter les différences, avoir une profession",
+          "Respecter les différences, participer à la vie de la communauté, avoir une profession",
+          "Respecter les lois, participer à la vie de la communauté, avoir une profession"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le devoir de défendre la patrie est obligatoire pour tous les citoyens français."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

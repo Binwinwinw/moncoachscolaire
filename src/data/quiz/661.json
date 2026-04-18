@@ -2,17 +2,17 @@
   "contents": {
     "title": "Quiz Diagnostic SVT 3ème - Série 661",
     "type": "quiz",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT",
     "description": "Diagnostic SVT 3ème : Évolution : biodiversité et conservation",
     "status": "published",
-    "created_at": "2026-04-06 06:40:44",
-    "updated_at": "2026-04-06 06:40:44"
+    "created_at": "2026-04-18 18:28:04",
+    "updated_at": "2026-04-18 18:28:04"
   },
   "quiz": {
     "title": "Évolution : biodiversité et conservation",
     "type": "quiz",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Espèce clé de voûte."
+        "question": "La bonne réponse attendue est : espèce clé de voûte."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Liste rouge de l'UICN."
+        "question": "La bonne réponse attendue est : liste rouge de l'UICN."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Génétique et reproduction",
-      "description": "Notion fondamentale de SVT"
-    },
-    {
-      "notion": "Évolution des espèces",
-      "description": "Notion fondamentale de SVT"
-    },
-    {
-      "notion": "Organes sensoriels",
-      "description": "Notion fondamentale de SVT"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic SES 1ère - Série 836",
+    "title": "Quiz Diagnostic SES 1ere - Série 836",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
-    "description": "Diagnostic SES 1ère : Les politiques de l'emploi",
+    "description": "Diagnostic SES 1ere : Les politiques de l'emploi",
     "status": "published",
-    "created_at": "2026-04-06 06:40:40",
-    "updated_at": "2026-04-06 06:40:40"
+    "created_at": "2026-04-18 20:28:31",
+    "updated_at": "2026-04-18 20:28:31"
   },
   "quiz": {
     "title": "Les politiques de l'emploi",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La flexicurité combine flexibilité du marché du travail (facilité d'embauche et de licenciement) et sécurité pour les salariés (généreux système d'indemnisation et politiques actives d'emploi)."
+        "question": "Qu'est-ce que la flexicurité et quel pays en est le modèle ?"
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Politiques de l'offre (libérales) : réduire les rigidités du marché du travail, baisser les cotisations, flexibiliser l'emploi."
+        "question": "Expliquez le débat entre politiques de l'offre et politiques de la demande pour lutter contre le chômage."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Inégalités et redistribution",
-      "description": "Notion fondamentale de SES"
-    },
-    {
-      "notion": "Croissance économique",
-      "description": "Notion fondamentale de SES"
-    },
-    {
-      "notion": "Mondialisation",
-      "description": "Notion fondamentale de SES"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

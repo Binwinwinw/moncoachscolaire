@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 496",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 496",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
-    "description": "Diagnostic Français 1ère : Révisions : méthodologie EAF (écrit)",
+    "description": "Diagnostic Français 1ere : RÃ©visions : mÃ©thodologie EAF (Ã©crit)",
     "status": "published",
-    "created_at": "2026-03-13 18:59:43",
-    "updated_at": "2026-03-13 18:59:43"
+    "created_at": "2026-04-18 20:20:13",
+    "updated_at": "2026-04-18 20:20:13"
   },
   "quiz": {
-    "title": "Révisions : méthodologie EAF (écrit)",
+    "title": "RÃ©visions : mÃ©thodologie EAF (Ã©crit)",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
@@ -20,27 +20,27 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "L'épreuve écrite anticipée de Français (EAF) comporte :",
+        "question": "L'Ã©preuve Ã©crite anticipÃ©e de FranÃ§ais (EAF) comporte :",
         "choices": [
-          "Une rédaction libre",
-          "Un commentaire ou une dissertation + une écriture d'invention",
-          "Un contrôle de connaissances",
-          "Un résumé de texte"
+          "Une rÃ©daction libre",
+          "Un commentaire ou une dissertation + une Ã©criture d'invention",
+          "Un contrÃ´le de connaissances",
+          "Un rÃ©sumÃ© de texte"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Le commentaire littéraire nécessite une introduction avec problématique et annonce de plan."
+        "question": "Le commentaire littÃ©raire nÃ©cessite une introduction avec problÃ©matique et annonce de plan."
       },
       {
         "type": "vrai-faux",
-        "question": "La problématique articule le sujet en une question ouverte, guide et fil conducteur du devoir."
+        "question": "En dissertation, la _____ est la question centrale Ã  laquelle tout le devoir doit rÃ©pondre."
       },
       {
         "type": "qcm",
-        "question": "Quel plan choisir pour le sujet : 'Le roman est-il le meilleur genre pour dénoncer les injustices sociales ?' ?",
+        "question": "Quel plan choisir pour le sujet : 'Le roman est-il le meilleur genre pour dÃ©noncer les injustices sociales ?' ?",
         "choices": [
-          "Plan thématique",
+          "Plan thÃ©matique",
           "Plan dialectique",
           "Plan chronologique",
           "Plan analytique"
@@ -48,15 +48,15 @@
       },
       {
         "type": "vrai-faux",
-        "question": "L'écriture d'invention peut prendre la forme d'un dialogue, d'un discours ou d'un récit selon le sujet."
+        "question": "L'Ã©criture d'invention peut prendre la forme d'un dialogue, d'un discours ou d'un rÃ©cit selon le sujet."
       },
       {
         "type": "vrai-faux",
-        "question": "La citation courte du texte est la preuve textuelle de l'analyse ; elle est indispensable."
+        "question": "Dans un commentaire, chaque sous-partie s'articule : idÃ©e directrice + analyse du procÃ©dÃ© + _____ + interprÃ©tation."
       },
       {
         "type": "qcm",
-        "question": "Combien de temps dure l'épreuve écrite anticipée de Français au bac ?",
+        "question": "Combien de temps dure l'Ã©preuve Ã©crite anticipÃ©e de FranÃ§ais au bac ?",
         "choices": [
           "2 heures",
           "3 heures",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Baccalauréat français",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Poésie baroque et classique",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Théâtre et représentation",
-      "description": "Notion fondamentale de Français"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

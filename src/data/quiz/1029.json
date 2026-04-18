@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Primitives et intégrale définie",
     "status": "published",
-    "created_at": "2026-04-06 06:40:48",
-    "updated_at": "2026-04-06 06:40:48"
+    "created_at": "2026-04-18 18:52:46",
+    "updated_at": "2026-04-18 18:52:46"
   },
   "quiz": {
     "title": "Primitives et intégrale définie",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Primitive générale : x³ − x² + x + C."
+        "question": "Quelle est la primitive de f(x) = 3x² − 2x + 1 qui vaut 0 en x = 0 ? La bonne réponse attendue est : F(x) = x³ − x² + x."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "∫₁ᵉ (1/x) dx = [ln x]₁ᵉ = ln(e) − ln(1) = 1 − 0 = 1."
+        "question": "Calcule ∫₁ᵉ (1/x) dx. La bonne réponse attendue est : 1."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Primitive",
-      "description": "Une fonction F est dite primitive de f sur un intervalle I si la dérivée de F est égale à f sur I"
-    },
-    {
-      "notion": "Intégrale définie",
-      "description": "L'intégrale définie d'une fonction f sur un intervalle [a, b] est notée ∫[a, b] f(x) dx et représente l'aire sous la courbe de f entre a et b"
-    },
-    {
-      "notion": "Théorème fondamental de l'analyse",
-      "description": "Ce théorème établit un lien entre la dérivation et l'intégration, en montrant que la dérivée d'une intégrale définie est égale à la fonction d'origine"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

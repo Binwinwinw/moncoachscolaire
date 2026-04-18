@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Suites géométriques",
     "status": "published",
-    "created_at": "2026-04-06 06:40:48",
-    "updated_at": "2026-04-06 06:40:48"
+    "created_at": "2026-04-18 18:52:46",
+    "updated_at": "2026-04-18 18:52:46"
   },
   "quiz": {
     "title": "Suites géométriques",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Suite géométrique de raison 2, premier terme 1."
+        "question": "Calcule la somme S = 1 + 2 + 4 + 8 + … + 2¹⁰. La bonne réponse attendue est : S = 2¹¹ − 1 = 2047."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Suite géométrique de raison q=1,04."
+        "question": "Un capital de 1000 € est placé à 4% annuel. Exprime la valeur Cₙ après n années et calcule C₅. La bonne réponse attendue est : Cₙ = 1000 × 1,04ⁿ. C₅ = 1000 × 1,04⁵ ≈ 1216,65 €."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Suite géométrique",
-      "description": "Une suite de nombres où chaque terme est obtenu en multipliant le terme précédent par une constante appelée raison (q)"
-    },
-    {
-      "notion": "Terme général",
-      "description": "Le nième terme d'une suite, noté un, qui peut être calculé à l'aide d'une formule spécifique"
-    },
-    {
-      "notion": "Raison (q)",
-      "description": "Un nombre qui représente le facteur de multiplication entre deux termes consécutifs dans une suite géométrique"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

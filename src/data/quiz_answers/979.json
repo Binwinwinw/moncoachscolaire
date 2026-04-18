@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Là où la courbe est au-dessus de l'axe des abscisses",
+        "answer": "B",
         "correction": "f(x) > 0 correspond aux points de la courbe situés au-dessus de l'axe des x (y > 0)."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. f(x) = 0 signifie que les points (x, 0) sont sur la courbe, i.e. intersections avec l'axe des x."
+        "correction": "f(x) = 0 signifie que les points (x, 0) sont sur la courbe, i.e. intersections avec l'axe des x."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "f(0)",
+        "answer": "B",
         "correction": "L'ordonnée à l'origine est la valeur de f en x = 0, soit f(0). C'est l'intersection avec l'axe des y."
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. f(x) ≤ g(x) ⟺ la courbe de f est sous (ou confondue avec) la courbe de g."
+        "correction": "f(x) ≤ g(x) ⟺ la courbe de f est sous (ou confondue avec) la courbe de g."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "Le taux de variation de f entre 0 et 2",
+        "answer": "B",
         "correction": "Taux de variation = (f(2) − f(0))/(2 − 0) = (7 − 3)/2 = 2."
       },
       {

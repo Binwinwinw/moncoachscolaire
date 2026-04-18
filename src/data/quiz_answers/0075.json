@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 0075",
+    "level": "6eme",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Suites logiques (numériques, géométriques, de formes, de couleurs)",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Cercle",
+        "correction": "La suite de formes est cercle, carré, triangle, cercle, carré, triangle, ... La prochaine forme est donc un cercle."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La suite de nombres 2, 4, 6, 8, ... est une suite logique car chaque nombre est obtenu en ajoutant 2 au nombre précédent."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Rouge",
+        "correction": "La suite de couleurs est rouge, vert, bleu, rouge, vert, bleu, ... La prochaine couleur est donc rouge."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La suite de nombres 1, 2, 4, 8, ... est une suite logique car chaque nombre est obtenu en multipliant le nombre précédent par 2."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Carré",
+        "correction": "La suite de formes est carré, triangle, cercle, carré, triangle, cercle, ... La prochaine forme est donc un carré."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La suite de nombres 3, 6, 9, 12, ... est une suite logique car chaque nombre est obtenu en ajoutant 3 au nombre précédent."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Jaune",
+        "correction": "La suite de couleurs est jaune, bleu, rouge, jaune, bleu, rouge, ... La prochaine couleur est donc jaune."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La suite de nombres 5, 10, 15, 20, ... est une suite logique car chaque nombre est obtenu en ajoutant 5 au nombre précédent."
+      }
+    ]
+  }
+}

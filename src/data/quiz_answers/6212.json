@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 3eme - Série 6212",
+    "level": "3eme",
+    "subject": "EMC"
+  },
+  "quiz": {
+    "title": "La protection des données",
+    "question_count": 8,
+    "level": "3eme",
+    "subject": "EMC",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Pour comprendre la vie citoyenne et républicaine",
+        "correct": 0,
+        "correction": "L'EMC aide à comprendre les règles communes, les droits, les responsabilités et la vie démocratique."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'EMC s'appuie sur des exemples concrets pour relier les valeurs républicaines à la vie de tous les jours."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Écouter, argumenter et respecter les autres",
+        "correct": 0,
+        "correction": "Le respect, l'écoute et l'argumentation sont des attitudes centrales en EMC."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'EMC prépare les élèves à comprendre leurs droits, leurs devoirs et leur rôle de citoyen."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Réfléchir et agir de manière responsable",
+        "correct": 0,
+        "correction": "L'EMC vise l'esprit critique, la responsabilité et le respect du bien commun."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les études de cas permettent d'appliquer les principes républicains à des situations réelles."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Débattre, justifier et corriger",
+        "correct": 0,
+        "correction": "L'argumentation et la correction des erreurs favorisent une compréhension plus solide en EMC."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le respect d'autrui et du cadre collectif est au cœur de l'enseignement moral et civique."
+      }
+    ]
+  }
+}

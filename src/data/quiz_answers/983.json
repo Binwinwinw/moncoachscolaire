@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "R \\ {0}",
+        "answer": "C",
         "correction": "La division par zéro est interdite : f est définie sur R* = R \\ {0}."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Pour x > 0, plus x est grand, plus 1/x est petit. f est décroissante, tendant vers 0 sans l'atteindre."
+        "correction": "Pour x > 0, plus x est grand, plus 1/x est petit. f est décroissante, tendant vers 0 sans l'atteindre."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "1/4",
+        "answer": "B",
         "correction": "f(4) = 1/4."
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Quand x → 0⁺, 1/x → +∞ ; quand x → 0⁻, 1/x → −∞. La droite x=0 est asymptote verticale."
+        "correction": "Quand x → 0⁺, 1/x → +∞ ; quand x → 0⁻, 1/x → −∞. La droite x=0 est asymptote verticale."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "Impaire",
+        "answer": "B",
         "correction": "f(−x) = 1/(−x) = −1/x = −f(x) : la fonction inverse est impaire (symétrie centrale par rapport à O)."
       },
       {

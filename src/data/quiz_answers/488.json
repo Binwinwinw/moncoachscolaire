@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 488",
-    "level": "1ère",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 488",
+    "level": "1ere",
     "subject": "Français"
   },
   "quiz": {
     "title": "Baudelaire et Les Fleurs du Mal",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "answers": [
       {
@@ -15,56 +15,59 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "1857",
-        "correction": "Les Fleurs du Mal paraissent en 1857 ; Baudelaire est condamné pour immoralité et doit supprimer 6 pièces."
+        "correct": 1,
+        "correction": "Les Fleurs du Mal paraissent en 1857 ; Baudelaire est condamnÃ© pour immoralitÃ© et doit supprimer 6 piÃ¨ces."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "Le recueil est structuré en 6 sections : Spleen et Idéal, Tableaux parisiens, Le Vin, Fleurs du Mal, Révolte, La Mort."
+        "correction": "Le recueil est structurÃ© en 6 sections : Spleen et IdÃ©al, Tableaux parisiens, Le Vin, Fleurs du Mal, RÃ©volte, La Mort."
       },
       {
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Spleen et Idéal est la première et la plus longue section : l'idéal est l'aspiration à la beauté absolue."
+        "answer": "faux",
+        "correction": "Spleen et IdÃ©al est la premiÃ¨re et la plus longue section : l'idÃ©al est l'aspiration Ã  la beautÃ© absolue."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "L'albatros",
-        "correction": "Dans 'L'Albatros', le poète est comme l'oiseau majestueux en vol mais ridicule sur le pont du navire."
+        "correct": 1,
+        "correction": "Dans 'L'Albatros', le poÃ¨te est comme l'oiseau majestueux en vol mais ridicule sur le pont du navire."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "'Correspondances' et sa théorie des synesthésies préfigurent l'esthétique symboliste."
+        "correction": "'Correspondances' et sa thÃ©orie des synesthÃ©sies prÃ©figurent l'esthÃ©tique symboliste."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Baudelaire extrait la beauté (fleurs) du mal, de la souffrance et de la laideur moderne."
+        "answer": "faux",
+        "correction": "Baudelaire extrait la beautÃ© (fleurs) du mal, de la souffrance et de la laideur moderne."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Correspondances",
-        "correction": "'Correspondances' développe la théorie des synesthésies entre les différents sens."
+        "correct": 1,
+        "correction": "'Correspondances' dÃ©veloppe la thÃ©orie des synesthÃ©sies entre les diffÃ©rents sens."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "'L'Invitation au voyage', 'Le Voyage' (final du recueil) montrent l'aspiration à échapper au spleen."
+        "correction": "'L'Invitation au voyage', 'Le Voyage' (final du recueil) montrent l'aspiration Ã  Ã©chapper au spleen."
       }
     ]
   }

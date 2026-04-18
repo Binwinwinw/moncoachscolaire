@@ -1,94 +1,75 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 6eme - Série 0189",
+    "title": "Quiz Diagnostic Histoire-Géographie 1ere - SÃ©rie 189",
     "type": "quiz",
-    "level": "6eme",
-    "subject": "Français",
-    "description": "Diagnostic Français 6eme : Français 6e - Les valeurs de la fable",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 1ere : Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 15",
     "status": "published",
-    "created_at": "2026-04-06 06:25:38",
-    "updated_at": "2026-04-06 06:25:38"
+    "created_at": "2026-04-18 20:30:32",
+    "updated_at": "2026-04-18 20:30:32"
   },
   "quiz": {
-    "title": "Français 6e - Les valeurs de la fable",
+    "title": "Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 15",
     "type": "quiz",
-    "level": "6eme",
-    "subject": "Français",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Qu'est-ce qu'une fable ?",
+        "question": "Quelle confÃ©rence internationale en 1884-1885 organise le partage de l'Afrique entre puissances europÃ©ennes ?",
         "choices": [
-          "Un genre littéraire",
-          "Une figure de style",
-          "Une forme de communication",
-          "Une discipline scientifique"
+          "La confÃ©rence de Vienne (1815)",
+          "La confÃ©rence de Berlin (1884-1885)",
+          "La confÃ©rence de San Francisco (1945)",
+          "La confÃ©rence de Bandung (1955)"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Les fables peuvent être classées en plusieurs types, tels que les fables animalières, les fables morales, etc., en fonction de la manière dont elles transmettent des leçons morales ou des valeurs."
+        "question": "En 1914, les puissances europÃ©ennes contrÃ´lent environ 80% des terres Ã©mergÃ©es du globe."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Quelles sont les justifications avancÃ©es par les EuropÃ©ens pour lÃ©gitimer la colonisation ?"
       },
       {
         "type": "qcm",
-        "question": "Quel est le rôle d'une fable dans la communication ?",
+        "question": "Qu'est-ce que le Code de l'indigÃ©nat, appliquÃ© dans les colonies franÃ§aises ?",
         "choices": [
-          "Elle n'a pas de rôle spécifique",
-          "Elle permet d'exprimer des affirmations",
-          "Elle permet d'exprimer des questions",
-          "Elle permet de transmettre des leçons morales ou des valeurs de manière artistique"
+          "Un code civil adaptÃ© pour les colonies",
+          "Un rÃ©gime juridique d'exception discriminatoire appliquÃ© aux colonisÃ©s",
+          "Un programme d'assimilation des populations indigÃ¨nes",
+          "Un statut de citoyennetÃ© pour les colonisÃ©s"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Une fable peut être dramatique."
+        "question": "La rÃ©sistance des populations colonisÃ©es est inexistante face Ã  la puissance militaire europÃ©enne."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Qu'est-ce que l'AlgÃ©rie reprÃ©sente comme colonie particuliÃ¨re pour la France ?"
       },
       {
         "type": "qcm",
-        "question": "Lequel de ces titres n'est pas une fable ?",
+        "question": "Qu'est-ce que l'orientalisme, tel que l'a thÃ©orisÃ© Edward Said ?",
         "choices": [
-          "Le Corbeau et le Renard",
-          "La Cigale et la Fourmi",
-          "Le Petit Prince",
-          "Le Lièvre et la Tortue"
+          "L'Ã©tude acadÃ©mique des civilisations orientales",
+          "Un courant artistique europÃ©en du XIXe siÃ¨cle sur l'Orient",
+          "La construction d'une image de l'Orient par l'Occident comme l'autre infÃ©rieur et exotique, justifiant la domination coloniale",
+          "Les Ã©changes commerciaux entre Europe et ExtrÃªme-Orient"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Les fables peuvent être utilisées pour enseigner des leçons morales ou des valeurs importantes aux lecteurs, en fournissant des exemples concrets et des récits engageants qui illustrent ces leçons de manière artistique."
-      },
-      {
-        "type": "qcm",
-        "question": "Quel est le rôle d'une fable dans la communication ?",
-        "choices": [
-          "Elle n'a pas de rôle spécifique",
-          "Elle permet d'exprimer des affirmations",
-          "Elle permet d'exprimer des questions",
-          "Elle permet de transmettre des leçons morales ou des valeurs de manière artistique"
-        ]
-      },
-      {
-        "type": "vrai-faux",
-        "question": "La fable est un genre littéraire qui utilise des récits courts pour transmettre des leçons morales ou des valeurs."
+        "question": "La Chine n'a jamais Ã©tÃ© officiellement colonisÃ©e par les puissances europÃ©ennes au XIXe siÃ¨cle."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Français",
-      "description": "Notion du programme 6eme"
-    },
-    {
-      "notion": "Compétences de base 6eme",
-      "description": "Notion du programme 6eme"
-    },
-    {
-      "notion": "Savoir-faire français",
-      "description": "Notion du programme 6eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

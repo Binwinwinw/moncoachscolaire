@@ -1,94 +1,75 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 6eme - Série 0188",
+    "title": "Quiz Diagnostic Histoire-Géographie 1ere - SÃ©rie 188",
     "type": "quiz",
-    "level": "6eme",
-    "subject": "Français",
-    "description": "Diagnostic Français 6eme : Français 6e - Les valeurs de la littérature",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 1ere : Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 14",
     "status": "published",
-    "created_at": "2026-04-06 06:25:38",
-    "updated_at": "2026-04-06 06:25:38"
+    "created_at": "2026-04-18 20:30:32",
+    "updated_at": "2026-04-18 20:30:32"
   },
   "quiz": {
-    "title": "Français 6e - Les valeurs de la littérature",
+    "title": "Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 14",
     "type": "quiz",
-    "level": "6eme",
-    "subject": "Français",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Qu'est-ce que la littérature ?",
+        "question": "Quelle rÃ©volution europÃ©enne Ã©clate en 1848 dans plusieurs pays simultanÃ©ment ?",
         "choices": [
-          "Un genre littéraire",
-          "Une figure de style",
-          "Une forme de communication",
-          "Une discipline scientifique"
+          "La RÃ©volution industrielle",
+          "Le Printemps des peuples",
+          "La rÃ©volution bolchevique",
+          "La rÃ©volution libÃ©rale de 1830"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "La littérature peut être classée en plusieurs genres, tels que la fiction, la poésie, le théâtre, etc., en fonction de la manière dont elle exprime les idées, les émotions ou les expériences."
+        "question": "L'unification de l'Italie se rÃ©alise entre 1859 et 1870 sous l'Ã©gide du PiÃ©mont-Sardaigne et de Cavour."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Qu'est-ce que le nationalisme et comment se manifeste-t-il en Europe au XIXe siÃ¨cle ?"
       },
       {
         "type": "qcm",
-        "question": "Quel est le rôle de la littérature dans la communication ?",
+        "question": "Qui unifie l'Allemagne en 1871 par la guerre contre la France ?",
         "choices": [
-          "Elle n'a pas de rôle spécifique",
-          "Elle permet d'exprimer des affirmations",
-          "Elle permet d'exprimer des questions",
-          "Elle permet d'exprimer des idées, des émotions ou des expériences de manière artistique"
+          "FrÃ©dÃ©ric le Grand",
+          "NapolÃ©on III",
+          "Otto von Bismarck",
+          "Guillaume II"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "L'utilisation correcte de la littérature est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les écrivains utilisent les formes de la littérature appropriées en fonction du contexte et du message qu'ils souhaitent transmettre, ce qui contribue à la clarté et à l'efficacité de la communication écrite."
+        "question": "La Commune de Paris (1871) est un Ã©pisode rÃ©volutionnaire qui s'Ã©tablit aprÃ¨s la dÃ©faite de la France face Ã  la Prusse."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Qu'est-ce que le libÃ©ralisme politique au XIXe siÃ¨cle et quelles sont ses principales revendications ?"
       },
       {
         "type": "qcm",
-        "question": "Lequel de ces titres n'est pas une œuvre littéraire ?",
+        "question": "Quel rÃ©gime politique est instaurÃ© en France aprÃ¨s la rÃ©volution de 1848 ?",
         "choices": [
-          "Le Cid",
-          "Les Fleurs du mal",
-          "Le Petit Prince",
-          "La Tour Eiffel"
+          "La monarchie constitutionnelle",
+          "La IIe RÃ©publique",
+          "Le Premier Empire",
+          "La IIIe RÃ©publique"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "La littérature peut être utilisée pour transmettre des messages sociaux, politiques ou culturels importants, en fournissant une plateforme pour l'expression de différentes perspectives et expériences à travers des œuvres écrites."
-      },
-      {
-        "type": "qcm",
-        "question": "Quel genre littéraire n'est pas principalement axé sur l'expression artistique ?",
-        "choices": [
-          "Fiction",
-          "Poésie",
-          "Théâtre",
-          "Essai"
-        ]
-      },
-      {
-        "type": "vrai-faux",
-        "question": "La littérature est toujours ennuyeuse et difficile à comprendre."
+        "question": "Victor Hugo est l'un des grands reprÃ©sentants du romantisme littÃ©raire franÃ§ais du XIXe siÃ¨cle."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Français",
-      "description": "Notion du programme 6eme"
-    },
-    {
-      "notion": "Compétences de base 6eme",
-      "description": "Notion du programme 6eme"
-    },
-    {
-      "notion": "Savoir-faire français",
-      "description": "Notion du programme 6eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

@@ -1,70 +1,75 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 6eme - Série 0192",
-    "level": "6eme",
-    "subject": "Français"
+    "title": "Quiz Diagnostic Histoire-Géographie 1ere - SÃ©rie 192",
+    "level": "1ere",
+    "subject": "Histoire-Géographie"
   },
   "quiz": {
-    "title": "Français 6e - Les valeurs du texte injonctif",
+    "title": "Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 18",
     "question_count": 8,
-    "level": "6eme",
-    "subject": "Français",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Une forme de communication",
-        "correction": "Un texte injonctif a pour but de donner des instructions, des conseils ou des ordres à un lecteur ou à un auditeur, en utilisant des verbes à l'impératif et des phrases directives."
+        "answer": "XXe siÃ¨cle",
+        "correct": 2,
+        "correction": "Ce thÃ¨me s'inscrit principalement dans le contexte du XXe siÃ¨cle, pÃ©riode de grandes transformations politiques, Ã©conomiques et sociales qui ont faÃ§onnÃ© le monde contemporain."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "C'est vrai. Les textes injonctifs peuvent être classés en plusieurs types, tels que les recettes de cuisine (qui donnent des instructions pour préparer des plats), les manuels d'instructions (qui donnent des instructions pour utiliser un produit ou accomplir une tâche), les règles de jeu (qui donnent des instructions pour jouer à un jeu), etc., en fonction de la manière dont ils donnent des instructions ou des conseils."
+        "correction": "VRAI. Ce thÃ¨me est inscrit au programme d'Histoire-GÃ©ographie de la classe de PremiÃ¨re, permettant aux Ã©lÃ¨ves d'acquÃ©rir des connaissances fondamentales sur les grandes Ã©volutions du monde contemporain."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "qcm",
-        "answer": "Il permet de donner des instructions, des conseils ou des ordres à un lecteur ou à un auditeur",
-        "correction": "Le rôle d'un texte injonctif dans la communication est de permettre de donner des instructions, des conseils ou des ordres à un lecteur ou à un auditeur, en utilisant des verbes à l'impératif et des phrases directives pour guider les actions ou les comportements du destinataire."
+        "type": "vrai-faux",
+        "correct_answer": "Ce thÃ¨me permet de comprendre les grandes Ã©volutions politiques, Ã©conomiques et sociales qui ont faÃ§onnÃ© notre monde actuel.",
+        "answer": "Ce thÃ¨me permet de comprendre les grandes Ã©volutions politiques, Ã©conomiques et sociales qui ont faÃ§onnÃ© notre monde actuel.",
+        "correction": "L'Ã©tude du thÃ¨me 'Les Ã©changes commerciaux mondiaux' est essentielle pour comprendre les dynamiques du monde contemporain : les rapports de force entre nations, les transformations sociales et Ã©conomiques, et les enjeux gÃ©opolitiques actuels. Elle dÃ©veloppe l'esprit critique et la capacitÃ© d'analyse historique et gÃ©ographique des Ã©lÃ¨ves."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "C'est vrai. Un texte injonctif peut être utilisé pour transmettre des informations importantes sur la manière d'accomplir une tâche ou de suivre une procédure, en fournissant des instructions claires et précises qui aident le destinataire à comprendre et à exécuter les actions nécessaires."
+        "type": "qcm",
+        "answer": "L'analyse critique de documents et la construction d'une argumentation",
+        "correct": 1,
+        "correction": "L'Ã©tude de l'histoire-gÃ©ographie dÃ©veloppe l'analyse critique de documents (textes, cartes, images, statistiques), la construction d'une argumentation rigoureuse, la mise en perspective temporelle et spatiale des phÃ©nomÃ¨nes, et la comprÃ©hension des enjeux du monde contemporain."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "qcm",
-        "answer": "Le Petit Prince",
-        "correction": "Le Petit Prince n'est pas un texte injonctif. C'est un conte philosophique et poétique écrit par Antoine de Saint-Exupéry."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "FAUX. Les sources primaires (archives, tÃ©moignages, documents d'Ã©poque) et les sources secondaires (travaux d'historiens) sont complÃ©mentaires. Les sources primaires peuvent Ãªtre biaisÃ©es, incomplÃ¨tes ou difficiles Ã  interprÃ©ter ; les sources secondaires apportent une analyse critique et une mise en perspective. L'historien doit confronter les deux types de sources."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "C'est vrai. Les textes injonctifs peuvent être utilisés pour guider les actions ou les comportements des destinataires, en fournissant des instructions claires et précises qui aident à accomplir des tâches, à suivre des procédures ou à respecter des règles, ce qui peut contribuer à la sécurité, à l'efficacité et au bon fonctionnement dans divers contextes."
+        "correct_answer": "Un territoire est un espace gÃ©ographique appropriÃ©, vÃ©cu et organisÃ© par une sociÃ©tÃ©, contrairement Ã  un simple espace physique.",
+        "answer": "Un territoire est un espace gÃ©ographique appropriÃ©, vÃ©cu et organisÃ© par une sociÃ©tÃ©, contrairement Ã  un simple espace physique.",
+        "correction": "En gÃ©ographie, un territoire est un espace gÃ©ographique dÃ©limitÃ©, appropriÃ© et organisÃ© par un groupe humain qui lui donne une identitÃ© et un sens. Il se distingue d'un simple espace physique par la prÃ©sence d'acteurs qui l'amÃ©nagent, le gÃ¨rent et le revendiquent. La notion de territoire implique donc une dimension sociale, politique et identitaire, en plus de la dimension physique."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "Un ton impératif",
-        "correction": "Un texte injonctif utilise un ton impératif, en se concentrant sur les instructions et les directives pour guider les actions ou les comportements du destinataire."
+        "answer": "Une reprÃ©sentation graphique qui reprÃ©sente la distribution spatiale d'un phÃ©nomÃ¨ne prÃ©cis",
+        "correct": 1,
+        "correction": "Une carte thÃ©matique reprÃ©sente la distribution spatiale d'un phÃ©nomÃ¨ne gÃ©ographique spÃ©cifique (densitÃ© de population, PIB par habitant, flux migratoires, etc.) Ã  l'aide de signes conventionnels (couleurs, symboles, flÃ¨ches). Elle est un outil d'analyse indispensable en gÃ©ographie pour identifier des disparitÃ©s spatiales et des dynamiques territoriales."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "C'est vrai. Un texte injonctif a pour but de donner des instructions, des conseils ou des ordres à un lecteur ou à un auditeur."
+        "correction": "VRAI. La gÃ©opolitique analyse les relations entre les donnÃ©es gÃ©ographiques (ressources, territoires, frontiÃ¨res, positions stratÃ©giques) et les stratÃ©gies politiques et militaires des Ã‰tats et des acteurs non-Ã©tatiques. Elle examine comment la gÃ©ographie influence les rapports de puissance, les conflits et les alliances internationales."
       }
     ]
   }

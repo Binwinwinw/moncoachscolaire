@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Suites définies par récurrence",
     "status": "published",
-    "created_at": "2026-04-06 06:40:48",
-    "updated_at": "2026-04-06 06:40:48"
+    "created_at": "2026-04-18 18:52:46",
+    "updated_at": "2026-04-18 18:52:46"
   },
   "quiz": {
     "title": "Suites définies par récurrence",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "L = L/2 + 1 → L/2 = 1 → L = 2."
+        "question": "La suite uₙ₊₁ = uₙ/2 + 1, u₀ = 0. Trouve la limite éventuelle L et vérifie. La bonne réponse attendue est : L = L/2 + 1 → L/2 = 1 → L = 2. La suite converge vers 2."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Uₙ ≤ 2 → uₙ₊₁ = uₙ/2 + 1 ≤ 2/2 + 1 = 2."
+        "question": "Montre par récurrence que si uₙ ≤ 2, alors uₙ₊₁ = uₙ/2 + 1 ≤ 2. La bonne réponse attendue est : uₙ ≤ 2 → uₙ₊₁ = uₙ/2 + 1 ≤ 2/2 + 1 = 2. La propriété est conservée."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Récurrence",
-      "description": "La suite est définie par une formule de récurrence, où chaque terme est calculé à partir du terme précédent"
-    },
-    {
-      "notion": "Calcul de termes",
-      "description": "Pour trouver u₁, il faut appliquer la formule de récurrence à u₀, ce qui nécessite une compréhension de la relation entre les termes consécutifs"
-    },
-    {
-      "notion": "Algèbre",
-      "description": "La résolution de l'exercice nécessite des compétences algébriques, notamment la manipulation d'équations et d'expressions"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

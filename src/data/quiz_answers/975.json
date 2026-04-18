@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Un processus qui associe à chaque x de D un unique réel f(x)",
+        "answer": "B",
         "correction": "Une fonction associe à chaque élément de son domaine D un unique réel (image)."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La racine est définie pour x − 3 ≥ 0, soit x ≥ 3. Domaine : [3 ; +∞[."
+        "correction": "La racine est définie pour x − 3 ≥ 0, soit x ≥ 3. Domaine : [3 ; +∞[."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "17",
+        "answer": "B",
         "correction": "f(3) = 2×9 − 1 = 18 − 1 = 17."
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Une fonction exige une unique image par antécédent. Ici, pour x = 3 on aurait f(3) = 3 ET f(3) = −3."
+        "correction": "Une fonction exige une unique image par antécédent. Ici, pour x = 3 on aurait f(3) = 3 ET f(3) = −3."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "[−2 ; 2]",
+        "answer": "B",
         "correction": "4 − x² ≥ 0 ⟺ x² ≤ 4 ⟺ |x| ≤ 2, soit x ∈ [−2 ; 2]."
       },
       {

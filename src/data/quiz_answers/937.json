@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic HGGSP 1ère - Série 937",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP"
   },
   "quiz": {
     "title": "Usages politiques du passé",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La remise en cause idéologique de faits historiques établis (souvent pour justifier des idéologies)",
+        "correct": 1,
         "correction": "Le révisionnisme (sens péjoratif) consiste à nier ou minimiser des faits établis (génocides) pour servir des intérêts idéologiques. À distinguer de la révision scientifique légitime qui fait avancer la connaissance."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Ce conflit illustre la 'manipulation mémorielle' comme instrument de mobilisation nationaliste et de légitimation de la violence."
+        "answer": "faux",
+        "correction": "Ce conflit illustre la 'manipulation mémorielle' comme instrument de mobilisation nationaliste et de légitimation de la violence."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Certains régimes autoritaires révolutionnaires (nazisme, communisme)",
+        "correct": 1,
         "correction": "Certains régimes cherchent à repartir de zéro en détruisant les symboles du passé (URSS et icônes religieuses, Daech et Palmyre) pour imposer un nouveau récit historique."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La destruction de statues controversées (Edward Colston à Bristol en 2020) illustre la remise en cause des mémoires nationales dominantes par des mémoires minoritaires."
+        "answer": "faux",
+        "correction": "La destruction de statues controversées (Edward Colston à Bristol en 2020) illustre la remise en cause des mémoires nationales dominantes par des mémoires minoritaires."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Figer une interprétation du passé en lui donnant une légitimité officielle",
+        "correct": 1,
         "correction": "La patrimonialisation sélectionne et fige une interprétation du passé. Elle peut négliger certaines mémoires (ex : mémoire coloniale dans les musées ethnographiques) tout en valorisant d'autres."
       },
       {

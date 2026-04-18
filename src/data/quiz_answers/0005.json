@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6eme - Série 0005",
+    "level": "6eme",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "environnement/société : écologie, citoyenneté, vie sociale",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "Deforestation, pollution, and greenhouse gas emissions are all major contributors to climate change."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Recycling is an important practice that helps reduce waste and conserve natural resources."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "Solar power, wind power, and hydropower are all renewable energy sources."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Voting in elections is a fundamental right of citizens in a democratic society."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "Using public transportation, planting trees, and reducing plastic use are all effective ways to help protect the environment."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "'Reduce, Reuse, Recycle' is indeed a common slogan that promotes environmental conservation."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "Poverty, education, and healthcare are all important social issues that affect communities around the world."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Volunteering is a great way to contribute to your community and make a positive impact on the lives of others."
+      }
+    ]
+  }
+}

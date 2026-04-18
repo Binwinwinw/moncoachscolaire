@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 472",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 472",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
-    "description": "Diagnostic Français 1ère : Le théâtre moderne et contemporain",
+    "description": "Diagnostic Français 1ere : Le thÃ©Ã¢tre moderne et contemporain",
     "status": "published",
-    "created_at": "2026-03-13 18:59:43",
-    "updated_at": "2026-03-13 18:59:43"
+    "created_at": "2026-04-18 20:20:12",
+    "updated_at": "2026-04-18 20:20:12"
   },
   "quiz": {
-    "title": "Le théâtre moderne et contemporain",
+    "title": "Le thÃ©Ã¢tre moderne et contemporain",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
@@ -20,69 +20,56 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel mouvement dramatique du XXe siècle remet en cause les conventions théâtrales traditionnelles ?",
+        "question": "Quel mouvement dramatique du XXe siÃ¨cle remet en cause les conventions thÃ©Ã¢trales traditionnelles ?",
         "choices": [
           "Le Classicisme",
-          "Le théâtre de l'absurde",
+          "Le thÃ©Ã¢tre de l'absurde",
           "Le Romantisme",
           "Le Naturalisme"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "En attendant Godot de Beckett possède une intrigue linéaire et un dénouement clair."
+        "question": "En attendant Godot de Beckett possÃ¨de une intrigue linÃ©aire et un dÃ©nouement clair."
       },
       {
         "type": "vrai-faux",
-        "question": "Diderot veut représenter des personnages de condition moyenne, plus proches du spectateur."
+        "question": "Le drame bourgeois du XVIIIe siÃ¨cle, thÃ©orisÃ© par Diderot, introduit des personnages issus de la _____."
       },
       {
         "type": "qcm",
-        "question": "Bertolt Brecht développe le concept de :",
+        "question": "Bertolt Brecht dÃ©veloppe le concept de :",
         "choices": [
           "Catharsis",
           "Distanciation (Verfremdungseffekt)",
-          "Bienséance",
+          "BiensÃ©ance",
           "Vraisemblance"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Le monologue intérieur peut être utilisé au théâtre sous la forme d'aparté ou de soliloque."
+        "question": "Le monologue intÃ©rieur peut Ãªtre utilisÃ© au thÃ©Ã¢tre sous la forme d'apartÃ© ou de soliloque."
       },
       {
         "type": "vrai-faux",
-        "question": "Les didascalies (en italique) précisent décors, costumes, gestes, ton."
+        "question": "La didascalie est une indication scÃ©nique fournie par l' _____ pour guider le metteur en scÃ¨ne et les acteurs."
       },
       {
         "type": "qcm",
-        "question": "Le théâtre épique, cher à Brecht, se caractérise par :",
+        "question": "Le thÃ©Ã¢tre Ã©pique, cher Ã  Brecht, se caractÃ©rise par :",
         "choices": [
           "L'immersion totale du spectateur",
-          "La rupture de l'illusion théâtrale",
+          "La rupture de l'illusion thÃ©Ã¢trale",
           "L'absence de conflits",
-          "L'unité de temps et de lieu"
+          "L'unitÃ© de temps et de lieu"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Eugène Ionesco est l'auteur de La Cantatrice chauve."
+        "question": "EugÃ¨ne Ionesco est l'auteur de La Cantatrice chauve."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Baccalauréat français",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Poésie baroque et classique",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Théâtre et représentation",
-      "description": "Notion fondamentale de Français"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

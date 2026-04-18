@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Anglais terminale - SÃ©rie 1806",
-    "level": "terminale",
+    "level": "Terminale",
     "subject": "Anglais"
   },
   "quiz": {
     "title": "Anglais terminale - Temps et conjugaison",
     "question_count": 8,
-    "level": "terminale",
+    "level": "Terminale",
     "subject": "Anglais",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Relire la consigne et identifier l'objectif",
+        "correct": 0,
         "correction": "Identifier l'objectif de la consigne permet de mobiliser la bonne methode."
       },
       {
@@ -27,8 +28,8 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "S'entrainer regulierement, analyser ses erreurs et reformuler les notions essentielles.",
+        "type": "vrai-faux",
+        "answer": "faux",
         "correction": "La progression vient de la repetition guidee et de l'analyse des erreurs."
       },
       {
@@ -36,6 +37,7 @@
         "question_id": 4,
         "type": "qcm",
         "answer": "Faire des rappels espaces",
+        "correct": 0,
         "correction": "Les rappels espaces consolidant la memoire a long terme."
       },
       {
@@ -48,8 +50,8 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Comparer sa reponse au corrig?, identifier l'erreur precise et ecrire la bonne strategie.",
+        "type": "vrai-faux",
+        "answer": "faux",
         "correction": "L'auto-correction explicite transforme une erreur en apprentissage."
       },
       {
@@ -57,6 +59,7 @@
         "question_id": 7,
         "type": "qcm",
         "answer": "Expliquer clairement la demarche",
+        "correct": 0,
         "correction": "Savoir expliquer la demarche prouve une comprehension solide."
       },
       {

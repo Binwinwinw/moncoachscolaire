@@ -6,8 +6,8 @@
     "subject": "Espagnol",
     "description": "Diagnostic Espagnol 3eme : Espagnol 3eme - Comprendre un message oral",
     "status": "published",
-    "created_at": "2026-04-06 06:40:43",
-    "updated_at": "2026-04-06 06:40:43",
+    "created_at": "2026-04-18 15:30:23",
+    "updated_at": "2026-04-18 15:30:23",
     "source": "Eduscol programmes officiels + BOEN",
     "programme_ref": "BO ndeg31 du 30 juillet 2020 (Cycle 4) + Eduscol Langues vivantes"
   },
@@ -35,8 +35,8 @@
         "question": "[Espagnol 3eme] Sur 'Comprendre un message oral', verifier ses reponses avant validation ameliore la fiabilite."
       },
       {
-        "type": "open",
-        "question": "[Espagnol 3eme] Cite une methode concrete pour progresser sur le theme 'Comprendre un message oral'."
+        "type": "vrai-faux",
+        "question": "La bonne réponse attendue est : S'entrainer regulierement, analyser ses erreurs et reformuler les notions essentielles."
       },
       {
         "type": "qcm",
@@ -53,8 +53,8 @@
         "question": "[Espagnol 3eme] L'explication d'une reponse est moins importante que la reponse elle-meme."
       },
       {
-        "type": "open",
-        "question": "[Espagnol 3eme] Propose un exemple d'auto-correction pertinente sur 'Comprendre un message oral'."
+        "type": "vrai-faux",
+        "question": "La bonne réponse attendue est : Comparer sa reponse au corrig?, identifier l'erreur precise et ecrire la bonne strategie."
       },
       {
         "type": "qcm",
@@ -72,19 +72,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Espagnol",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Compétences de base 3eme",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Savoir-faire espagnol",
-      "description": "Notion du programme 3eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

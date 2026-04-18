@@ -1,42 +1,44 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 473",
-    "level": "1ère",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 473",
+    "level": "1ere",
     "subject": "Français"
   },
   "quiz": {
-    "title": "L'argumentation : thèse et arguments",
+    "title": "L'argumentation : thÃ¨se et arguments",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "La position défendue par l'auteur",
-        "correction": "La thèse est l'idée principale que l'auteur cherche à faire admettre au lecteur."
+        "answer": "La position dÃ©fendue par l'auteur",
+        "correct": 1,
+        "correction": "La thÃ¨se est l'idÃ©e principale que l'auteur cherche Ã  faire admettre au lecteur."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "L'argument apporte une raison, un fait ou un raisonnement qui soutient ou contredit la thèse."
+        "correction": "L'argument apporte une raison, un fait ou un raisonnement qui soutient ou contredit la thÃ¨se."
       },
       {
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. L'exemple concrétise l'argument et lui donne une valeur démonstrative."
+        "answer": "faux",
+        "correction": "L'exemple concrÃ©tise l'argument et lui donne une valeur dÃ©monstrative."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "Admettre partiellement l'opinion adverse avant de la réfuter",
-        "correction": "La concession (certes…, il est vrai que… mais) montre que l'auteur connaît les objections et les dépasse."
+        "answer": "Admettre partiellement l'opinion adverse avant de la rÃ©futer",
+        "correct": 1,
+        "correction": "La concession (certesâ€¦, il est vrai queâ€¦ mais) montre que l'auteur connaÃ®t les objections et les dÃ©passe."
       },
       {
         "index": 4,
@@ -49,22 +51,23 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Le pathos (ethos, pathos, logos) vise à émouvoir le destinataire pour le persuader."
+        "answer": "faux",
+        "correction": "Le pathos (ethos, pathos, logos) vise Ã  Ã©mouvoir le destinataire pour le persuader."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "Démontrer qu'un argument adverse est faux ou insuffisant",
-        "correction": "La réfutation directe attaque frontalement l'argument de l'adversaire."
+        "answer": "DÃ©montrer qu'un argument adverse est faux ou insuffisant",
+        "correct": 1,
+        "correction": "La rÃ©futation directe attaque frontalement l'argument de l'adversaire."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "La synthèse propose un dépassement (Aufhebung) qui intègre et transcende thèse et antithèse."
+        "correction": "La synthÃ¨se propose un dÃ©passement (Aufhebung) qui intÃ¨gre et transcende thÃ¨se et antithÃ¨se."
       }
     ]
   }

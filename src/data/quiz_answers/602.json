@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 602",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie"
   },
   "quiz": {
     "title": "Quiz blanc final Histoire-Géographie 3ème",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La déclaration de guerre de l'Autriche-Hongrie à la Serbie",
+        "correct": 1,
         "correction": "Le 28 juillet 1914, cette déclaration déclenche la guerre en Europe."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Il crée l'Union européenne et ouvre la voie à l'euro."
+        "correction": "Il crée l'Union européenne et ouvre la voie à l'euro."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Littoralisation",
+        "correct": 1,
         "correction": "Activités et habitants se concentrent de plus en plus sur les littoraux."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. L'Indice de développement humain mesure le niveau de développement."
+        "correction": "L'Indice de développement humain mesure le niveau de développement."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "ONU",
+        "correct": 1,
         "correction": "L'Organisation des Nations Unies coordonne la paix et la coopération internationale."
       },
       {

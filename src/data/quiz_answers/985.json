@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "f(x) − g(x)",
+        "answer": "C",
         "correction": "f(x) > g(x) ⟺ f(x) − g(x) > 0 : on étudie le signe de la différence."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. x² − x = x(x−1). Signe négatif si x > 0 et x − 1 < 0, soit 0 < x < 1."
+        "correction": "x² − x = x(x−1). Signe négatif si x > 0 et x − 1 < 0, soit 0 < x < 1."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "x > √x",
+        "answer": "C",
         "correction": "Pour x > 1, x > √x car (√x)² = x et √x < x (on peut vérifier : pour x=4, 4 > 2)."
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. 2x+1 − x² = −(x²−2x−1). Racines : x = 1±√2 ≈ −0.41 et 2.41. Sur [0;3], f>g sur ]0;1+√2[ et g>f sur ]1+√2;3]."
+        "correction": "2x+1 − x² = −(x²−2x−1). Racines : x = 1±√2 ≈ −0.41 et 2.41. Sur [0;3], f>g sur ]0;1+√2[ et g>f sur ]1+√2;3]."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "√x > x",
+        "answer": "C",
         "correction": "Pour 0 < x < 1, √x > x. Ex: x = 0,25 → √x = 0,5 > 0,25."
       },
       {

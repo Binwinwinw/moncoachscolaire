@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 474",
-    "level": "1ère",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 474",
+    "level": "1ere",
     "subject": "Français"
   },
   "quiz": {
     "title": "Formes de l'argumentation : essai, pamphlet, apologue",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "answers": [
       {
@@ -15,56 +15,59 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'essai",
-        "correction": "L'essai (Montaigne, XVI e s.) est une réflexion libre et subjective sur des questions diverses."
+        "correct": 2,
+        "correction": "L'essai (Montaigne, XVI e s.) est une rÃ©flexion libre et subjective sur des questions diverses."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "Le pamphlet (ex. J'accuse de Zola) est virulent et engagé, souvent à caractère politique."
+        "correction": "Le pamphlet (ex. J'accuse de Zola) est virulent et engagÃ©, souvent Ã  caractÃ¨re politique."
       },
       {
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. L'apologue (fable, conte philosophique, parabole) enseigne par le plaisir d'un récit fictif."
+        "answer": "faux",
+        "correction": "L'apologue (fable, conte philosophique, parabole) enseigne par le plaisir d'un rÃ©cit fictif."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La Fontaine",
-        "correction": "Jean de La Fontaine (1621-1695) est l'auteur des Fables en vers, adaptées d'Ésope et Phèdre."
+        "correct": 1,
+        "correction": "Jean de La Fontaine (1621-1695) est l'auteur des Fables en vers, adaptÃ©es d'Ã‰sope et PhÃ¨dre."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "Candide illustre la critique de l'optimisme leibnizien à travers un récit fictif à portée didactique."
+        "correction": "Candide illustre la critique de l'optimisme leibnizien Ã  travers un rÃ©cit fictif Ã  portÃ©e didactique."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La morale est l'énoncé de la leçon que l'auteur tire du récit allégorique."
+        "answer": "faux",
+        "correction": "La morale est l'Ã©noncÃ© de la leÃ§on que l'auteur tire du rÃ©cit allÃ©gorique."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Les Essais",
-        "correction": "Les Essais (1580-1588) de Montaigne inaugurent le genre de la réflexion personnelle libre."
+        "correct": 1,
+        "correction": "Les Essais (1580-1588) de Montaigne inaugurent le genre de la rÃ©flexion personnelle libre."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "Les paraboles évangéliques (ex. le Fils prodigue) sont des récits symboliques à portée morale."
+        "correction": "Les paraboles Ã©vangÃ©liques (ex. le Fils prodigue) sont des rÃ©cits symboliques Ã  portÃ©e morale."
       }
     ]
   }

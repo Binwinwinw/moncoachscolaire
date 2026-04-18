@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Convexité & concavité",
     "status": "published",
-    "created_at": "2026-04-06 06:40:48",
-    "updated_at": "2026-04-06 06:40:48"
+    "created_at": "2026-04-18 18:52:46",
+    "updated_at": "2026-04-18 18:52:46"
   },
   "quiz": {
     "title": "Convexité & concavité",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Cette affirmation reformule l'idée essentielle à retenir : Détermine les intervalles de convexité de f(x) = x³ − 3x."
+        "question": "Détermine les intervalles de convexité de f(x) = x³ − 3x. La bonne réponse attendue est : f'' = 6x. f convexe sur [0;+∞[ (f''≥0) et concave sur ]−∞;0] (f''≤0). Point d'inflexion en x=0."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "F'' = 12x² − 12 = 0 → x² = 1 → x = ±1."
+        "question": "En quel point la courbe de f(x) = x⁴ − 6x² admet-elle des points d'inflexion ? La bonne réponse attendue est : x = ±1."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Convexité",
-      "description": "Une fonction f est dite convexe sur un intervalle I si pour tout x1 et x2 dans I et tout lambda dans [0,1], on a f(lambda*x1 + (1-lambda)*x2) <= lambda*f(x1) + (1-lambda)*f(x2)"
-    },
-    {
-      "notion": "Inégalité de Jensen",
-      "description": "L'inégalité de Jensen est une propriété des fonctions convexes qui stipule que la fonction convexe satisfait l'inégalité f(E[X]) <= E[f(X)] pour une variable aléatoire X"
-    },
-    {
-      "notion": "Test de convexité",
-      "description": "Le test de convexité est une méthode pour vérifier si une fonction est convexe en vérifiant si la dérivée seconde est positive sur l'intervalle considéré"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

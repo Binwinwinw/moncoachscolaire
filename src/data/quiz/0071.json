@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 0071",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 6eme : Notion de variable (sans calcul de l’expression littérale)",
+    "status": "published",
+    "created_at": "2026-04-18 20:07:58",
+    "updated_at": "2026-04-18 20:07:58"
+  },
+  "quiz": {
+    "title": "Notion de variable (sans calcul de l’expression littérale)",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Dans l'expression 2x + 3, que représente x ?",
+        "choices": [
+          "Une constante",
+          "Une variable",
+          "Un coefficient",
+          "Un nombre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Dans l'expression 5y - 4, y est une variable."
+      },
+      {
+        "type": "qcm",
+        "question": "Dans l'expression 3z + 2, que représente z ?",
+        "choices": [
+          "Une constante",
+          "Une variable",
+          "Un coefficient",
+          "Un nombre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Dans l'expression 7a - 5, a est une variable."
+      },
+      {
+        "type": "qcm",
+        "question": "Dans l'expression 4b + 6, que représente b ?",
+        "choices": [
+          "Une constante",
+          "Une variable",
+          "Un coefficient",
+          "Un nombre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Dans l'expression 9c - 3, c est une variable."
+      },
+      {
+        "type": "qcm",
+        "question": "Dans l'expression 6d + 1, que représente d ?",
+        "choices": [
+          "Une constante",
+          "Une variable",
+          "Un coefficient",
+          "Un nombre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Dans l'expression 8e - 2, e est une variable."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

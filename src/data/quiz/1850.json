@@ -2,19 +2,19 @@
   "contents": {
     "title": "Quiz Diagnostic Philosophie terminale - SÃ©rie 1850",
     "type": "quiz",
-    "level": "terminale",
+    "level": "Terminale",
     "subject": "Philosophie",
     "description": "Diagnostic Philosophie terminale : Philosophie terminale - L'art",
     "status": "published",
-    "created_at": "2026-04-06 06:40:48",
-    "updated_at": "2026-04-06 06:40:48",
+    "created_at": "2026-04-18 18:52:46",
+    "updated_at": "2026-04-18 18:52:46",
     "source": "Eduscol programmes officiels + BOEN",
     "programme_ref": "BO special ndeg8 du 25 juillet 2019 + Eduscol Philosophie Terminale"
   },
   "quiz": {
     "title": "Philosophie terminale - L'art",
     "type": "quiz",
-    "level": "terminale",
+    "level": "Terminale",
     "subject": "Philosophie",
     "question_count": 8,
     "passing_score": 70,
@@ -35,7 +35,7 @@
         "question": "[Philosophie terminale] Sur 'L'art', verifier ses reponses avant validation ameliore la fiabilite."
       },
       {
-        "type": "open",
+        "type": "vrai-faux",
         "question": "[Philosophie terminale] Cite une methode concrete pour progresser sur le theme 'L'art'."
       },
       {
@@ -53,7 +53,7 @@
         "question": "[Philosophie terminale] L'explication d'une reponse est moins importante que la reponse elle-meme."
       },
       {
-        "type": "open",
+        "type": "vrai-faux",
         "question": "[Philosophie terminale] Propose un exemple d'auto-correction pertinente sur 'L'art'."
       },
       {
@@ -72,19 +72,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Liberté et déterminisme",
-      "description": "Notion fondamentale de Philosophie"
-    },
-    {
-      "notion": "Justice et droit",
-      "description": "Notion fondamentale de Philosophie"
-    },
-    {
-      "notion": "Beauté et art",
-      "description": "Notion fondamentale de Philosophie"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

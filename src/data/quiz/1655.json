@@ -6,8 +6,8 @@
     "subject": "Anglais",
     "description": "Diagnostic Anglais 2nde : Diagnostic 2nde Anglais - Modal Verbs",
     "status": "published",
-    "created_at": "2026-04-06 06:40:41",
-    "updated_at": "2026-04-06 06:40:41",
+    "created_at": "2026-04-18 15:23:24",
+    "updated_at": "2026-04-18 15:23:24",
     "source": "Eduscol programmes officiels + BOEN",
     "programme_ref": "BO special n°1 du 22 janvier 2019 (LGT) + Eduscol Langues vivantes Seconde"
   },
@@ -35,8 +35,8 @@
         "question": "After a modal verb, the main verb is in base form."
       },
       {
-        "type": "open",
-        "question": "Give one modal used to ask for permission politely."
+        "type": "vrai-faux",
+        "question": "La bonne réponse attendue est : may."
       },
       {
         "type": "qcm",
@@ -53,8 +53,8 @@
         "question": "'Can' may express both ability and permission."
       },
       {
-        "type": "open",
-        "question": "Complete: You ___ not park here. It is forbidden."
+        "type": "vrai-faux",
+        "question": "La bonne réponse attendue est : must."
       },
       {
         "type": "qcm",
@@ -72,19 +72,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Littérature anglophone",
-      "description": "Notion fondamentale de Anglais"
-    },
-    {
-      "notion": "Phonétique avancée",
-      "description": "Notion fondamentale de Anglais"
-    },
-    {
-      "notion": "Expression nuancée",
-      "description": "Notion fondamentale de Anglais"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

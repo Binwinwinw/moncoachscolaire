@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 476",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 476",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
-    "description": "Diagnostic Français 1ère : La dissertation littéraire : méthode",
+    "description": "Diagnostic Français 1ere : La dissertation littÃ©raire : mÃ©thode",
     "status": "published",
-    "created_at": "2026-03-13 18:59:43",
-    "updated_at": "2026-03-13 18:59:43"
+    "created_at": "2026-04-18 20:20:12",
+    "updated_at": "2026-04-18 20:20:12"
   },
   "quiz": {
-    "title": "La dissertation littéraire : méthode",
+    "title": "La dissertation littÃ©raire : mÃ©thode",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
@@ -20,29 +20,29 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Quelle est la première étape de la méthode de dissertation ?",
+        "question": "Quelle est la premiÃ¨re Ã©tape de la mÃ©thode de dissertation ?",
         "choices": [
-          "Rédiger la conclusion",
-          "Analyser le sujet et dégager la problématique",
-          "Rédiger l'introduction",
+          "RÃ©diger la conclusion",
+          "Analyser le sujet et dÃ©gager la problÃ©matique",
+          "RÃ©diger l'introduction",
           "Chercher des exemples"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "La problématique d'une dissertation est une question à laquelle le devoir va répondre."
+        "question": "La problÃ©matique d'une dissertation est une question Ã  laquelle le devoir va rÃ©pondre."
       },
       {
         "type": "vrai-faux",
-        "question": "Le plan dialectique (thèse / antithèse / synthèse) convient aux sujets d'opinion à nuancer."
+        "question": "Le plan _____ est le plus adaptÃ© lorsque le sujet formule un jugement Ã  discuter (ex. 'Le roman est-il un simple divertissement ?')."
       },
       {
         "type": "qcm",
-        "question": "Une transition en dissertation sert à :",
+        "question": "Une transition en dissertation sert Ã  :",
         "choices": [
           "Introduire un exemple",
           "Bilan de la partie et annonce de la suivante",
-          "Formuler la thèse",
+          "Formuler la thÃ¨se",
           "Citer un auteur"
         ]
       },
@@ -52,37 +52,24 @@
       },
       {
         "type": "vrai-faux",
-        "question": "L'exemple littéraire précis donne du poids à l'argument et montre la maîtrise des textes."
+        "question": "En dissertation, un argument doit toujours Ãªtre illustrÃ© par un _____ tirÃ© des Å“uvres au programme."
       },
       {
         "type": "qcm",
         "question": "Que doit contenir la conclusion d'une dissertation ?",
         "choices": [
-          "Un nouveau développement",
+          "Un nouveau dÃ©veloppement",
           "Un bilan des arguments et une ouverture",
-          "La liste des auteurs cités",
+          "La liste des auteurs citÃ©s",
           "La reformulation de l'introduction"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Il est acceptable de formuler sa propre opinion au 'je' dans une dissertation au lycée."
+        "question": "Il est acceptable de formuler sa propre opinion au 'je' dans une dissertation au lycÃ©e."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Baccalauréat français",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Poésie baroque et classique",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Théâtre et représentation",
-      "description": "Notion fondamentale de Français"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

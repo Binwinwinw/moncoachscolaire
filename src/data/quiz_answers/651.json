@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic SVT 3ème - Série 651",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT"
   },
   "quiz": {
     "title": "Génétique : cellule, ADN et chromosomes",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "46",
+        "correct": 1,
         "correction": "Les cellules humaines sont diploïdes et possèdent 46 chromosomes (23 paires)."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Un gène est une portion d'ADN codant une information héréditaire."
+        "correction": "Un gène est une portion d'ADN codant une information héréditaire."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Une forme alternative d'un gène",
+        "correct": 1,
         "correction": "Les allèles sont les différentes versions d'un même gène, occupant le même locus."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La mitose assure la reproduction conforme des cellules somatiques."
+        "correction": "La mitose assure la reproduction conforme des cellules somatiques."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "homozygote",
+        "correct": 1,
         "correction": "L'homozygotie signifie que les deux allèles du gène sont identiques."
       },
       {

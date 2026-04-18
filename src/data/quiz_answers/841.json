@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic SES 1ère - Série 841",
-    "level": "1ère",
+    "title": "Quiz Diagnostic SES 1ere - Série 841",
+    "level": "1ere",
     "subject": "SES"
   },
   "quiz": {
     "title": "La protection sociale",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le financement des retraites actuelles par les cotisations des actifs actuels",
+        "correct": 1,
         "correction": "La répartition est fondée sur la solidarité entre générations : les actifs financent les retraites des inactifs."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Les réformes successives (allongement durée de cotisation, recul de l'âge légal) visent à adapter le système."
+        "answer": "faux",
+        "correction": "Les réformes successives (allongement durée de cotisation, recul de l'âge légal) visent à adapter le système."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Un prélèvement sur tous les revenus finançant la protection sociale",
+        "correct": 2,
         "correction": "Créée en 1991, la CSG est prélevée sur tous les revenus (salaires, retraites, revenus du patrimoine) et finance la Sécurité sociale."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La plupart des pays combinent les deux modèles. La France est plutôt bismarckienne, mais avec des éléments universels."
+        "answer": "faux",
+        "correction": "La plupart des pays combinent les deux modèles. La France est plutôt bismarckienne, mais avec des éléments universels."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "L'autonomie (dépendance des personnes âgées et handicapées)",
+        "correct": 1,
         "correction": "La branche autonomie répond au défi du vieillissement de la population et du financement de la perte d'autonomie."
       },
       {

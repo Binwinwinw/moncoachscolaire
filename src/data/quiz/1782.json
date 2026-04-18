@@ -6,8 +6,8 @@
     "subject": "Physique-Chimie",
     "description": "Diagnostic Physique-Chimie 5eme : Physique-Chimie 5eme - Resolution de problemes",
     "status": "published",
-    "created_at": "2026-04-06 06:40:47",
-    "updated_at": "2026-04-06 06:40:47",
+    "created_at": "2026-04-18 18:35:53",
+    "updated_at": "2026-04-18 18:35:53",
     "source": "Eduscol programmes officiels + BOEN",
     "programme_ref": "BO ndeg31 du 30 juillet 2020 (Cycle 4) + Eduscol Physique-Chimie"
   },
@@ -35,7 +35,7 @@
         "question": "[Physique-Chimie 5eme] Sur 'Resolution de problemes', verifier ses reponses avant validation ameliore la fiabilite."
       },
       {
-        "type": "open",
+        "type": "vrai-faux",
         "question": "[Physique-Chimie 5eme] Cite une methode concrete pour progresser sur le theme 'Resolution de problemes'."
       },
       {
@@ -53,7 +53,7 @@
         "question": "[Physique-Chimie 5eme] L'explication d'une reponse est moins importante que la reponse elle-meme."
       },
       {
-        "type": "open",
+        "type": "vrai-faux",
         "question": "[Physique-Chimie 5eme] Propose un exemple d'auto-correction pertinente sur 'Resolution de problemes'."
       },
       {
@@ -72,19 +72,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Physique-Chimie",
-      "description": "Notion du programme 5eme"
-    },
-    {
-      "notion": "Compétences de base 5eme",
-      "description": "Notion du programme 5eme"
-    },
-    {
-      "notion": "Savoir-faire physique-chimie",
-      "description": "Notion du programme 5eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

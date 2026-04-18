@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic SVT 3ème - Série 670",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT"
   },
   "quiz": {
     "title": "Reproduction humaine : cycle menstruel et puberté",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "LH (hormone lutéinisante)",
+        "correct": 2,
         "correction": "Le pic de LH produit par l'hypophyse déclenche l'ovulation environ 36 heures après son apparition."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La ménarche désigne les premières règles, marquant le début de la fertilité féminine."
+        "correction": "La ménarche désigne les premières règles, marquant le début de la fertilité féminine."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Testostérone",
+        "correct": 2,
         "correction": "La testostérone, sécrétée par les testicules sous contrôle de la LH, déclenche la puberté masculine."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. L'hypophyse (antérieure) sécrète FSH et LH, qui contrôlent le cycle ovarien et la production de gamètes."
+        "correction": "L'hypophyse (antérieure) sécrète FSH et LH, qui contrôlent le cycle ovarien et la production de gamètes."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "9 mois (38 semaines de développement)",
+        "correct": 1,
         "correction": "La grossesse dure environ 38 semaines de développement embryonnaire/fœtal, soit 40 semaines d'aménorrhée."
       },
       {

@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 0083",
+    "level": "6eme",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Angles complémentaires et supplémentaires",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "90°",
+        "correction": "Deux angles complémentaires ont une somme égale à 90°."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Par définition, deux angles supplémentaires totalisent 180°."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "65°",
+        "correction": "L'angle complémentaire vaut 90° - 25° = 65°."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'angle supplémentaire vaut 180° - 130° = 50°."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "108°",
+        "correction": "Le supplémentaire vaut 180° - 72° = 108°."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "40° + 50° = 90°, donc ils sont complémentaires."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Supplémentaires",
+        "correction": "95° + 85° = 180°, ce sont donc des angles supplémentaires."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Une somme de 90° correspond à des angles complémentaires, pas supplémentaires."
+      }
+    ]
+  }
+}

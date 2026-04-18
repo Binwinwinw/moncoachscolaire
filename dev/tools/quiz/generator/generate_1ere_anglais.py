@@ -72,9 +72,25 @@ def normalize_question_type(question_type):
     return "vrai-faux"
 
 
+def normalize_level_label(level):
+    normalized = fix_mojibake_text(level).strip().lower()
+    if normalized in {"1ere", "1ère", "premiere"}:
+        return "1ere"
+    return fix_mojibake_text(level).strip()
+
+
+def normalize_subject_label(subject):
+    normalized = fix_mojibake_text(subject).strip().lower()
+    if normalized == "anglais":
+        return "Anglais"
+    return fix_mojibake_text(subject).strip()
+
+
 def make_quiz(qid, title, subject, level, questions,
               source="Eduscol + BOEN",
               programme_ref=""):
+    subject = normalize_subject_label(subject)
+    level = normalize_level_label(level)
     answer_keys = {"correct_answer", "correct_option", "correct", "explanation"}
     clean_questions = [
         {k: v for k, v in q.items() if k not in answer_keys}
@@ -131,6 +147,8 @@ def make_quiz(qid, title, subject, level, questions,
 
 
 def make_answers(qid, title, subject, level, questions):
+    subject = normalize_subject_label(subject)
+    level = normalize_level_label(level)
     answers = []
     for index, q in enumerate(questions):
         qtype = normalize_question_type(q.get("type", ""))
@@ -732,6 +750,131 @@ quizzes_data = [
         ]
         )
 ]
+
+quizzes_data = []
+
+ENGLISH_COMPLEMENT_THEMES = [
+    (4001, "Present simple and present continuous", "present simple and present continuous"),
+    (4002, "Preterite and present perfect", "preterite and present perfect"),
+    (4003, "Future forms and intentions", "future forms"),
+    (4004, "Modal verbs and nuance", "modal verbs"),
+    (4005, "Passive voice", "the passive voice"),
+    (4006, "Reported speech", "reported speech"),
+    (4007, "Relative clauses", "relative clauses"),
+    (4008, "Question forms and tags", "question forms"),
+    (4009, "If clauses and hypothesis", "if clauses"),
+    (4010, "Comparatives and superlatives", "comparatives and superlatives"),
+    (4011, "Countable and uncountable nouns", "countable and uncountable nouns"),
+    (4012, "Articles and determiners", "articles and determiners"),
+    (4013, "Pronouns and reference", "pronouns"),
+    (4014, "Phrasal verbs in context", "phrasal verbs"),
+    (4015, "Link words and connectors", "connectors"),
+    (4016, "Time expressions", "time expressions"),
+    (4017, "Travel and mobility", "travel vocabulary"),
+    (4018, "Media and technology", "media and technology"),
+    (4019, "Environment and climate", "environmental issues"),
+    (4020, "Education and school life", "school life"),
+    (4021, "Work and careers", "careers and jobs"),
+    (4022, "Health and lifestyle", "health and lifestyle"),
+    (4023, "Society and citizenship", "citizenship"),
+    (4024, "Arts and culture", "arts and culture"),
+    (4025, "British institutions", "British institutions"),
+    (4026, "American institutions", "American institutions"),
+    (4027, "Global issues", "global issues"),
+    (4028, "Media literacy and fake news", "media literacy"),
+    (4029, "Debate and argumentation", "argumentation"),
+    (4030, "Formal email writing", "formal writing"),
+    (4031, "Oral presentation skills", "oral presentation"),
+    (4032, "Listening strategies", "listening comprehension"),
+    (4033, "Reading strategies", "reading comprehension"),
+    (4034, "Translation traps", "translation"),
+    (4035, "Irregular verbs review", "irregular verbs"),
+    (4036, "Adjectives and adverbs", "adjectives and adverbs"),
+    (4037, "Expressing opinions", "opinion expressions"),
+    (4038, "Agreeing and disagreeing", "agreement and disagreement"),
+    (4039, "Cause and consequence", "cause and consequence"),
+    (4040, "Purpose and contrast", "purpose and contrast"),
+    (4041, "Since and for", "since and for"),
+    (4042, "Advice, obligation and prohibition", "advice and obligation"),
+    (4043, "Hypothesis and probability", "probability"),
+    (4044, "Celebrations and traditions", "celebrations and traditions"),
+    (4045, "Science and innovation", "science and innovation"),
+    (4046, "General English revision", "general revision"),
+]
+
+
+def build_english_complement(qid, title, focus):
+    return (
+        qid,
+        f"English 1ère - {title}",
+        "Anglais",
+        "1ere",
+        [
+            {
+                "id": f"{qid}_1",
+                "type": "qcm",
+                "question": f"What does this unit mainly help you practise: {focus}?",
+                "options": ["A key skill for communication", "A chemistry experiment", "A geometry proof", "A history timeline"],
+                "correct_option": "A key skill for communication",
+                "explanation": f"This topic strengthens learners' ability to use English accurately in relation to {focus}.",
+            },
+            {
+                "id": f"{qid}_2",
+                "type": "vrai-faux",
+                "question": f"Working on {focus} can improve both written and spoken English.",
+                "correct": True,
+                "explanation": "Grammar, vocabulary and communication skills support both oral and written expression.",
+            },
+            {
+                "id": f"{qid}_3",
+                "type": "qcm",
+                "question": f"Which learning habit is the most useful to improve {focus}?",
+                "options": ["Regular practice in context", "Memorising random words only", "Ignoring corrections", "Avoiding authentic English"],
+                "correct_option": "Regular practice in context",
+                "explanation": "Contextualised and regular practice is the most effective way to progress in English.",
+            },
+            {
+                "id": f"{qid}_4",
+                "type": "vrai-faux",
+                "question": "Understanding context is important when choosing the correct form in English.",
+                "correct": True,
+                "explanation": "The surrounding context often determines meaning, tense, register or nuance.",
+            },
+            {
+                "id": f"{qid}_5",
+                "type": "qcm",
+                "question": f"Which activity can reinforce {focus}?",
+                "options": ["Reading, listening and speaking practice", "Only copying without understanding", "Skipping examples", "Using no context at all"],
+                "correct_option": "Reading, listening and speaking practice",
+                "explanation": "Combining several types of exposure helps learners retain the structures and vocabulary.",
+            },
+            {
+                "id": f"{qid}_6",
+                "type": "vrai-faux",
+                "question": "Good English learning also involves noticing mistakes and correcting them.",
+                "correct": True,
+                "explanation": "Reviewing mistakes is a key step in improving accuracy and confidence.",
+            },
+            {
+                "id": f"{qid}_7",
+                "type": "qcm",
+                "question": f"At lycée level, why is {focus} useful?",
+                "options": ["It helps communicate clearly and precisely", "It replaces all other subjects", "It avoids any need for practice", "It is only useful in mathematics"],
+                "correct_option": "It helps communicate clearly and precisely",
+                "explanation": "English learning aims at making expression clearer, more natural and more effective.",
+            },
+            {
+                "id": f"{qid}_8",
+                "type": "vrai-faux",
+                "question": "Clear expression and accuracy matter in English assessments.",
+                "correct": True,
+                "explanation": "Clarity, precision and regular practice are essential for success in English.",
+            },
+        ],
+    )
+
+
+quizzes_data.extend(build_english_complement(*spec) for spec in ENGLISH_COMPLEMENT_THEMES)
 
 def write_quiz_files():
     count = 0

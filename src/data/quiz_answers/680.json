@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic SVT 3ème - Série 680",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT"
   },
   "quiz": {
     "title": "Géologie : histoire de la Terre et temps géologiques",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "4,5 milliards d'années",
+        "correct": 2,
         "correction": "La Terre a été formée il y a environ 4,54 milliards d'années par accrétion de matières dans la nébuleuse solaire."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La Pangée était l'unique super-continent de la fin du Paléozoïque, entouré par l'océan Panthallassa."
+        "correction": "La Pangée était l'unique super-continent de la fin du Paléozoïque, entouré par l'océan Panthallassa."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Il y a 66 millions d'années",
+        "correct": 1,
         "correction": "L'extinction Crétacé-Paléogène a éliminé les dinosaures non-aviens il y a 66 Ma, probablement causée par l'impact d'un astéroïde et/ou un volcanisme intense."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La datation radiométrique utilise la désintégration d'isotopes radioactifs (U-Pb, K-Ar, Rb-Sr) pour mesurer l'âge absolu des roches."
+        "correction": "La datation radiométrique utilise la désintégration d'isotopes radioactifs (U-Pb, K-Ar, Rb-Sr) pour mesurer l'âge absolu des roches."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Principe de superposition",
+        "correct": 1,
         "correction": "Le principe de superposition (Nicolas Sténon, 1669) stipule que dans une série non perturbée, les couches inférieures sont plus anciennes."
       },
       {

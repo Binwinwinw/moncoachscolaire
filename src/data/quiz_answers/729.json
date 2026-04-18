@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 729",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie"
   },
   "quiz": {
     "title": "Lumière : réflexion et miroirs",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'angle d'incidence est égal à l'angle de réflexion par rapport à la normale",
+        "correct": 1,
         "correction": "La loi de la réflexion : i = r, où i est l'angle d'incidence et r l'angle de réflexion, mesurés par rapport à la normale à la surface."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le foyer F d'un miroir concave est le point de convergence des rayons parallèles à l'axe optique."
+        "correction": "Le foyer F d'un miroir concave est le point de convergence des rayons parallèles à l'axe optique."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Image virtuelle, droite et réduite",
+        "correct": 1,
         "correction": "Un miroir convexe forme une image virtuelle (derrière le miroir), droite et plus petite que l'objet."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. (1/f) = (1/do) + (1/di) où f est la distance focale, do la distance objet-miroir, di la distance image-miroir."
+        "correction": "(1/f) = (1/do) + (1/di) où f est la distance focale, do la distance objet-miroir, di la distance image-miroir."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Miroir concave",
+        "correct": 1,
         "correction": "Les phares de voiture utilisent des miroirs concaves pour concentrer la lumière en un faisceau parallèle."
       },
       {

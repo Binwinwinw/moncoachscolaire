@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic SES 1ère - Série 842",
-    "level": "1ère",
+    "title": "Quiz Diagnostic SES 1ere - Série 842",
+    "level": "1ere",
     "subject": "SES"
   },
   "quiz": {
     "title": "La fiscalité",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Est payé directement par celui qui le supporte",
+        "correct": 1,
         "correction": "Ex : impôt sur le revenu (IR), impôt sur les sociétés (IS), impôt sur la fortune immobilière (IFI)."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Son point clé : 'trop d'impôt tue l'impôt'. En pratique, trouver le taux optimal est difficile."
+        "answer": "faux",
+        "correction": "Son point clé : 'trop d'impôt tue l'impôt'. En pratique, trouver le taux optimal est difficile."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Un acte illégal de non-déclaration ou dissimulation de revenus",
+        "correct": 1,
         "correction": "L'évasion fiscale est illégale. L'optimisation fiscale (evitement fiscal/tax avoidance) utilise légalement les failles de la loi."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Ces principes guident encore les débats sur la réforme fiscale."
+        "answer": "faux",
+        "correction": "Ces principes guident encore les débats sur la réforme fiscale."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Internaliser les coûts environnementaux dans les prix",
+        "correct": 1,
         "correction": "En renchérissant les activités polluantes, la taxe carbone incite les agents à modifier leur comportement (logique pigouvienne)."
       },
       {

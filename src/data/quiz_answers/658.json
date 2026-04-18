@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic SVT 3ème - Série 658",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT"
   },
   "quiz": {
     "title": "Évolution : classification phylogénétique",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Les liens de parenté évolutifs",
+        "correct": 1,
         "correction": "La classification phylogénétique regroupe les êtres vivants selon leur histoire évolutive commune."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Un clade (ou groupe monophylétique) inclut un ancêtre commun et la totalité de sa descendance."
+        "correction": "Un clade (ou groupe monophylétique) inclut un ancêtre commun et la totalité de sa descendance."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La colonne vertébrale",
+        "correct": 1,
         "correction": "La présence d'une colonne vertébrale est un caractère dérivé commun à tous les vertébrés."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. L'arbre phylogénétique (cladogramme) représente les relations évolutives entre espèces."
+        "correction": "L'arbre phylogénétique (cladogramme) représente les relations évolutives entre espèces."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Le chimpanzé",
+        "correct": 2,
         "correction": "L'être humain et le chimpanzé partagent environ 98,7% de leur ADN et un ancêtre commun récent (~6 millions d'années)."
       },
       {

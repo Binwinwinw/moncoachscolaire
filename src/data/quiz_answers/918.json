@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic HGGSP 1ère - Série 918",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP"
   },
   "quiz": {
     "title": "Les usages civils et économiques de l'espace",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La navigation GPS",
+        "correct": 1,
         "correction": "GPS, météo, télécommunications, télévision, internet par satellite sont des usages quotidiens reposant sur des satellites. Environ 50 applications civiles dépendent du GPS."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Sans satellites, la prévision météorologique serait limitée aux mesures au sol, perdant la vision globale indispensable."
+        "answer": "faux",
+        "correction": "Sans satellites, la prévision météorologique serait limitée aux mesures au sol, perdant la vision globale indispensable."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "ArianeSpace / ESA (initiative européenne)",
+        "correct": 1,
         "correction": "ArianeSpace est une entreprise franco-européenne qui commercialise les lanceurs Ariane. Ariane 6 a effectué son premier vol en 2024, assurant l'autonomie d'accès à l'espace de l'Europe."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. L'exploitation spatiale pourrait répondre à la raréfaction terrestre de métaux critiques mais soulève des questions éthiques et juridiques sur le partage."
+        "answer": "faux",
+        "correction": "L'exploitation spatiale pourrait répondre à la raréfaction terrestre de métaux critiques mais soulève des questions éthiques et juridiques sur le partage."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "L'ESA et l'Union européenne",
+        "correct": 1,
         "correction": "Copernicus est le programme phare de l'ESA/UE pour l'observation de la Terre, fournissant des données libres d'accès pour l'environnement, l'agriculture, les urgences, la sécurité maritime."
       },
       {

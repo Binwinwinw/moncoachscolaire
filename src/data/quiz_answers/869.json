@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic NSI 1ère - Série 869",
-    "level": "1ère",
+    "title": "Quiz Diagnostic NSI 1ere - Série 869",
+    "level": "1ere",
     "subject": "NSI"
   },
   "quiz": {
     "title": "Codage des images",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'unité élémentaire d'une image numérique",
+        "correct": 1,
         "correction": "Un pixel (picture element) est le plus petit élément d'une image numérique, caractérisé par sa position et sa couleur."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Taille = largeur × hauteur × nombre de canaux × octets par canal."
+        "answer": "faux",
+        "correction": "Taille = largeur × hauteur × nombre de canaux × octets par canal."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "DPI (dots per inch) ou PPI",
+        "correct": 1,
         "correction": "DPI (ou PPI, pixels per inch) mesure la densité de pixels. Une image de 300 DPI est adaptée à l'impression, 72-96 DPI pour l'écran."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. JPEG est adapté aux photos ; PNG aux images avec texte, logos ou transparence."
+        "answer": "faux",
+        "correction": "JPEG est adapté aux photos ; PNG aux images avec texte, logos ou transparence."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "256 nuances",
+        "correct": 2,
         "correction": "Sur 8 bits : 2⁸ = 256 niveaux de gris (0 = noir, 255 = blanc)."
       },
       {

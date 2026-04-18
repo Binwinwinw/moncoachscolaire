@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic NSI 1ère - Série 877",
-    "level": "1ère",
+    "title": "Quiz Diagnostic NSI 1ere - Série 877",
+    "level": "1ere",
     "subject": "NSI"
   },
   "quiz": {
     "title": "Algorithmes de recherche dans des données",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "O(n)",
+        "correct": 2,
         "correction": "La recherche séquentielle parcourt les éléments un à un. Dans le pire cas, elle examine tous les n éléments."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Ex : pour 1000 éléments, la recherche séquentielle fait jusqu'à 1000 comparaisons ; la dichotomique en fait au plus 10 (log₂1000 ≈ 10)."
+        "answer": "faux",
+        "correction": "Ex : pour 1000 éléments, la recherche séquentielle fait jusqu'à 1000 comparaisons ; la dichotomique en fait au plus 10 (log₂1000 ≈ 10)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "10",
+        "correct": 0,
         "correction": "log₂(1024) = 10. La recherche dichotomique effectue au plus log₂(n) + 1 comparaisons."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Cette implémentation itérative est préférable à la récursive pour éviter les dépassements de pile sur de grandes listes."
+        "answer": "faux",
+        "correction": "Cette implémentation itérative est préférable à la récursive pour éviter les dépassements de pile sur de grandes listes."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Des fonctions de recherche dans des listes triées",
+        "correct": 1,
         "correction": "bisect.bisect_left(lst, x) et bisect.bisect_right(lst, x) retournent l'indice d'insertion de x dans lst triée, en O(log n)."
       },
       {

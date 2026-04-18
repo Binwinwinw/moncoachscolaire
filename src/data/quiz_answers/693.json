@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic SVT 3ème - Série 693",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT"
   },
   "quiz": {
     "title": "Révisions : reproduction humaine",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La fécondation",
+        "correct": 1,
         "correction": "La grossesse débute par la rencontre d'un spermatozoïde et d'un ovocyte, formant un zygote."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. L'ovulation survient en général au milieu du cycle et rend possible la fécondation pendant une courte période."
+        "correction": "L'ovulation survient en général au milieu du cycle et rend possible la fécondation pendant une courte période."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Le placenta",
+        "correct": 1,
         "correction": "Le placenta relie les circulations maternelle et fœtale sans les mélanger directement."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. L'IVG peut être médicamenteuse ou chirurgicale selon le terme de la grossesse et le cadre légal."
+        "correction": "L'IVG peut être médicamenteuse ou chirurgicale selon le terme de la grossesse et le cadre légal."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Les hormones sexuelles",
+        "correct": 0,
         "correction": "Les hormones produites par les gonades sous contrôle cérébral modifient progressivement le corps à la puberté."
       },
       {

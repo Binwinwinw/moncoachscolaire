@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "1/8",
+        "answer": "B",
         "correction": "2⁻³ = 1/2³ = 1/8. Un exposant négatif donne l'inverse de la puissance positive."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. √48 = √(16×3) = √16 × √3 = 4√3."
+        "correction": "√48 = √(16×3) = √16 × √3 = 4√3."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "a⁸",
+        "answer": "A",
         "correction": "aᵐ × aⁿ = aᵐ⁺ⁿ. Donc a⁵ × a³ = a⁵⁺³ = a⁸."
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. (aᵐ)ⁿ = aᵐⁿ. (3²)⁴ = 3^(2×4) = 3⁸ = 6561."
+        "correction": "(aᵐ)ⁿ = aᵐⁿ. (3²)⁴ = 3^(2×4) = 3⁸ = 6561."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "a⁴",
+        "answer": "B",
         "correction": "aᵐ ÷ aⁿ = aᵐ⁻ⁿ. Donc a⁶ ÷ a² = a⁶⁻² = a⁴."
       },
       {

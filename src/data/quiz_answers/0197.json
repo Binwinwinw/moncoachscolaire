@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 0197",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Les objets connectÃ©s et la sÃ©curitÃ©",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Un objet qui peut se connecter Ã  Internet",
+        "correction": "Un objet connectÃ© est un objet qui peut se connecter Ã  Internet pour envoyer et recevoir des donnÃ©es, comme les smartphones, les montres connectÃ©es, les assistants vocaux, etc."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, les objets connectÃ©s peuvent aider Ã  amÃ©liorer notre vie quotidienne en facilitant certaines tÃ¢ches, en offrant des informations en temps rÃ©el, et en permettant une meilleure gestion de notre environnement."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "La violation de la vie privÃ©e",
+        "correction": "Le principal risque liÃ© aux objets connectÃ©s est la violation de la vie privÃ©e, car ils collectent souvent des donnÃ©es personnelles qui peuvent Ãªtre utilisÃ©es Ã  des fins malveillantes."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, il est crucial de sÃ©curiser les objets connectÃ©s en utilisant des mots de passe forts, en mettant Ã  jour rÃ©guliÃ¨rement le firmware, et en Ã©tant vigilant quant aux permissions accordÃ©es aux applications pour protÃ©ger nos donnÃ©es personnelles."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Utiliser des mots de passe forts",
+        "correction": "Pour protÃ©ger la sÃ©curitÃ© de nos objets connectÃ©s, il est important d'utiliser des mots de passe forts, de ne pas partager nos donnÃ©es avec tout le monde, et de mettre Ã  jour rÃ©guliÃ¨rement le firmware pour corriger les vulnÃ©rabilitÃ©s de sÃ©curitÃ©."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, il n'est pas sÃ»r de connecter tous les objets Ã  Internet sans protections, car cela peut exposer les donnÃ©es personnelles Ã  des risques de piratage et de violation de la vie privÃ©e."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Tous les objets connectÃ©s",
+        "correction": "Tous les objets connectÃ©s peuvent prÃ©senter des risques de sÃ©curitÃ© s'ils ne sont pas correctement sÃ©curisÃ©s, car ils collectent souvent des donnÃ©es personnelles qui peuvent Ãªtre utilisÃ©es Ã  des fins malveillantes."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, il est important de lire les politiques de confidentialitÃ© des objets connectÃ©s que nous utilisons pour comprendre quelles donnÃ©es sont collectÃ©es, comment elles sont utilisÃ©es, et quelles mesures de sÃ©curitÃ© sont en place pour protÃ©ger nos informations personnelles."
+      }
+    ]
+  }
+}

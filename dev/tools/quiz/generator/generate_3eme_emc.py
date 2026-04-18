@@ -13,7 +13,7 @@ import os
 from datetime import UTC, datetime
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", ".."))
+REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", "..", ".."))
 EMC3_OUTPUT_DIR = os.path.join(SCRIPT_DIR, "emc_3eme_quizzes")
 EMC3_QUIZ_DIR = os.path.join(EMC3_OUTPUT_DIR, "quiz")
 EMC3_ANSWERS_DIR = os.path.join(EMC3_OUTPUT_DIR, "quiz_answers")
@@ -69,29 +69,49 @@ def normalize_text_payload(payload):
     return payload
 
 
+def normalize_question_type(question_type):
+    qtype = str(question_type or "").strip().lower().replace("_", "-")
+    if qtype == "qcm":
+        return "qcm"
+    return "vrai-faux"
+
+
+def build_true_false_statement(question_text, correct_answer, explanation):
+    answer = str(correct_answer or "").strip()
+    detail = str(explanation or "").strip()
+    if answer:
+        answer = answer.rstrip(".!? ")
+        return f"La bonne réponse attendue est : {answer}."
+    if detail:
+        return detail if detail.endswith((".", "!", "?")) else f"{detail}."
+    prompt = str(question_text or "").strip()
+    return prompt if prompt else "Cette affirmation est à évaluer."
+
+
 def make_quiz(qid, title, subject, level, questions):
-    answer_keys = {"correct_answer", "correct_option", "correct", "explanation"}
-    questions = [{k: v for k, v in q.items() if k not in answer_keys} for q in questions]
     created_at = datetime.now(UTC).strftime("%Y-%m-%d %H:%M:%S")
     runtime_questions = []
 
     for question in questions:
-        qtype = str(question.get("type", "texte"))
+        raw_type = str(question.get("type", "") or "").strip().lower().replace("_", "-")
+        qtype = normalize_question_type(raw_type)
         if qtype == "qcm":
             runtime_questions.append({
                 "type": "qcm",
                 "question": str(question.get("question", "")),
                 "choices": list(question.get("options", [])),
             })
-        elif qtype == "vrai-faux":
+        else:
+            question_text = str(question.get("question", ""))
+            if raw_type not in {"vrai-faux", "vrai faux"}:
+                question_text = build_true_false_statement(
+                    question.get("question", ""),
+                    question.get("correct_answer", ""),
+                    question.get("explanation", ""),
+                )
             runtime_questions.append({
                 "type": "vrai-faux",
-                "question": str(question.get("question", "")),
-            })
-        else:
-            runtime_questions.append({
-                "type": "open",
-                "question": str(question.get("question", "")),
+                "question": question_text,
             })
 
     return {
@@ -123,7 +143,8 @@ def make_quiz(qid, title, subject, level, questions):
 def make_answers(qid, title, subject, level, questions):
     answers = []
     for index, q in enumerate(questions):
-        qtype = str(q.get("type", "texte"))
+        raw_type = str(q.get("type", "") or "").strip().lower().replace("_", "-")
+        qtype = normalize_question_type(raw_type)
         if qtype == "qcm":
             options = list(q.get("options", []))
             correct_answer = str(q.get("correct_option", q.get("correct_answer", "")))
@@ -136,22 +157,17 @@ def make_answers(qid, title, subject, level, questions):
                 "correct": correct_index,
                 "correction": str(q.get("explanation", "")),
             })
-        elif qtype == "vrai-faux":
-            tf_source = q.get("correct", q.get("correct_answer", "faux"))
-            tf_answer = "vrai" if str(tf_source).strip().lower() in {"true", "vrai", "1"} else "faux"
+        else:
+            if raw_type in {"vrai-faux", "vrai faux"}:
+                tf_source = q.get("correct", q.get("correct_answer", "faux"))
+                tf_answer = "vrai" if str(tf_source).strip().lower() in {"true", "vrai", "1"} else "faux"
+            else:
+                tf_answer = "vrai"
             answers.append({
                 "index": index,
                 "question_id": index + 1,
                 "type": "vrai-faux",
                 "answer": tf_answer,
-                "correction": str(q.get("explanation", "")),
-            })
-        else:
-            answers.append({
-                "index": index,
-                "question_id": index + 1,
-                "type": "open",
-                "answer": str(q.get("correct_answer", "")),
                 "correction": str(q.get("explanation", "")),
             })
     return {
@@ -1432,6 +1448,55 @@ quizzes_data = [
          "explanation": "Une vÃ©ritable dÃ©mocratie implique nÃ©cessairement le respect des droits fondamentaux, la sÃ©paration des pouvoirs, la libertÃ© de la presse et des Ã©lections libres ; sans ces garanties, on parle de dÃ©mocratie illibÃ©rale ou autoritaire."},
     ]),
 ]
+
+EMC3_COMPLEMENT_SPECS = [
+    (6201, "La citoyenneté numérique", "la citoyenneté numérique"),
+    (6202, "Liberté d'expression et responsabilité", "la liberté d'expression"),
+    (6203, "Lutte contre le harcèlement", "le harcèlement"),
+    (6204, "Égalité filles-garçons", "l'égalité"),
+    (6205, "Laïcité à l'école", "la laïcité"),
+    (6206, "Respect des différences", "le respect d'autrui"),
+    (6207, "Les symboles de la République", "les symboles républicains"),
+    (6208, "La justice des mineurs", "la justice des mineurs"),
+    (6209, "Le rôle du maire", "les collectivités locales"),
+    (6210, "Le vote et la participation", "la participation citoyenne"),
+    (6211, "Les médias et l'esprit critique", "l'esprit critique"),
+    (6212, "La protection des données", "les données personnelles"),
+    (6213, "Droits et devoirs au collège", "les droits et devoirs"),
+    (6214, "Solidarité et engagement", "la solidarité"),
+    (6215, "Le bénévolat", "l'engagement associatif"),
+    (6216, "Prévention des discriminations", "les discriminations"),
+    (6217, "Défense et sécurité", "la défense nationale"),
+    (6218, "Secours et protection civile", "la protection civile"),
+    (6219, "Le développement durable", "la responsabilité environnementale"),
+    (6220, "La fraternité républicaine", "la fraternité"),
+    (6221, "Le débat démocratique", "le débat démocratique"),
+    (6222, "Les institutions européennes", "les institutions européennes"),
+    (6223, "Les droits de l'enfant", "les droits de l'enfant"),
+    (6224, "Agir pour le bien commun", "le bien commun"),
+]
+
+
+def build_emc3_complement(qid, title, focus):
+    return (
+        qid,
+        title,
+        "EMC",
+        "3eme",
+        [
+            {"id": f"{qid}_1", "type": "qcm", "question": f"En EMC, pourquoi étudie-t-on {focus} ?", "options": ["Pour comprendre la vie citoyenne et républicaine", "Pour faire un calcul", "Pour apprendre une formule chimique", "Pour étudier un circuit"], "correct_option": "Pour comprendre la vie citoyenne et républicaine", "explanation": "L'EMC aide à comprendre les règles communes, les droits, les responsabilités et la vie démocratique."},
+            {"id": f"{qid}_2", "type": "vrai-faux", "question": f"{focus.capitalize()} peut être relié à des situations concrètes de la vie quotidienne.", "correct": True, "explanation": "L'EMC s'appuie sur des exemples concrets pour relier les valeurs républicaines à la vie de tous les jours."},
+            {"id": f"{qid}_3", "type": "qcm", "question": f"Quelle attitude correspond le mieux à l'étude de {focus} ?", "options": ["Écouter, argumenter et respecter les autres", "Insulter pour convaincre", "Refuser tout échange", "Ignorer les règles communes"], "correct_option": "Écouter, argumenter et respecter les autres", "explanation": "Le respect, l'écoute et l'argumentation sont des attitudes centrales en EMC."},
+            {"id": f"{qid}_4", "type": "vrai-faux", "question": "Une bonne compréhension de l'EMC aide à mieux exercer sa citoyenneté.", "correct": True, "explanation": "L'EMC prépare les élèves à comprendre leurs droits, leurs devoirs et leur rôle de citoyen."},
+            {"id": f"{qid}_5", "type": "qcm", "question": f"Quel est l'objectif principal d'un travail sur {focus} ?", "options": ["Réfléchir et agir de manière responsable", "Répondre sans justification", "Mémoriser sans comprendre", "Éviter le dialogue"], "correct_option": "Réfléchir et agir de manière responsable", "explanation": "L'EMC vise l'esprit critique, la responsabilité et le respect du bien commun."},
+            {"id": f"{qid}_6", "type": "vrai-faux", "question": "Discuter d'une situation concrète peut aider à mieux comprendre une valeur républicaine.", "correct": True, "explanation": "Les études de cas permettent d'appliquer les principes républicains à des situations réelles."},
+            {"id": f"{qid}_7", "type": "qcm", "question": f"Quelle méthode aide le plus à progresser sur {focus} ?", "options": ["Débattre, justifier et corriger", "Ne jamais s'expliquer", "Parler sans écouter", "Répondre au hasard"], "correct_option": "Débattre, justifier et corriger", "explanation": "L'argumentation et la correction des erreurs favorisent une compréhension plus solide en EMC."},
+            {"id": f"{qid}_8", "type": "vrai-faux", "question": "Respecter autrui et le cadre commun est cohérent avec les apprentissages d'EMC.", "correct": True, "explanation": "Le respect d'autrui et du cadre collectif est au cœur de l'enseignement moral et civique."},
+        ],
+    )
+
+
+quizzes_data.extend(build_emc3_complement(*spec) for spec in EMC3_COMPLEMENT_SPECS)
 
 
 def write_quiz_files():

@@ -1,90 +1,75 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 2nde - Série 210",
+    "title": "Quiz Diagnostic Histoire-Géographie 1ere - SÃ©rie 210",
     "type": "quiz",
-    "level": "2nde",
-    "subject": "Français",
-    "description": "Diagnostic Français 2nde : Diagnostic 2nde Français - Lecture narrative et focalisation",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 1ere : Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 36",
     "status": "published",
-    "created_at": "2026-03-14 07:16:54",
-    "updated_at": "2026-03-14 07:16:54",
-    "source": "Eduscol programmes officiels + BOEN",
-    "programme_ref": "<Référence programme officiel à renseigner>"
+    "created_at": "2026-04-18 20:30:33",
+    "updated_at": "2026-04-18 20:30:33"
   },
   "quiz": {
-    "title": "Diagnostic 2nde Français - Lecture narrative et focalisation",
+    "title": "Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 36",
     "type": "quiz",
-    "level": "2nde",
-    "subject": "Français",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Dans un récit à la première personne, quel indice permet le plus souvent d'identifier un narrateur personnage ?",
+        "question": "Quelle est la pÃ©riode principale couverte par le thÃ¨me 'Le tourisme, un phÃ©nomÃ¨ne mondial' ?",
         "choices": [
-          "L'emploi du pronom « je » pour raconter les actions",
-          "La présence exclusive de dialogues",
-          "L'absence de repères temporels",
-          "L'utilisation du présent de vérité générale"
+          "XVIIIe siÃ¨cle",
+          "XIXe siÃ¨cle",
+          "XXe siÃ¨cle",
+          "XXIe siÃ¨cle"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "En focalisation interne, le lecteur connaît toutes les pensées de tous les personnages."
+        "question": "Le thÃ¨me 'Le tourisme mondial' fait partie du programme officiel d'Histoire-GÃ©ographie de 1Ã¨re."
       },
       {
         "type": "vrai-faux",
-        "question": "La focalisation zéro correspond à un narrateur omniscient."
+        "question": "PrÃ©sentez en quelques lignes l'importance de l'Ã©tude du thÃ¨me 'Le tourisme mondial' pour comprendre le monde contemporain."
       },
       {
         "type": "qcm",
-        "question": "Quel effet produit surtout la focalisation interne dans un roman ?",
+        "question": "Quelle dÃ©marche est au cÅ“ur de l'Ã©tude historique et gÃ©ographique ?",
         "choices": [
-          "Une distance froide et objective",
-          "Une immersion dans la subjectivité d'un personnage",
-          "Une description uniquement historique",
-          "Une suppression de toute émotion"
+          "La mÃ©morisation de dates et de faits",
+          "L'analyse critique de documents et la construction d'une argumentation",
+          "La rÃ©citation de dÃ©finitions",
+          "L'apprentissage des frontiÃ¨res"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Un récit peut alterner plusieurs focalisations selon les passages."
+        "question": "Les sources primaires (documents d'Ã©poque) sont plus fiables que les sources secondaires (analyses d'historiens) pour comprendre un Ã©vÃ©nement historique."
       },
       {
         "type": "vrai-faux",
-        "question": "Narrateur hétérodiégétique."
+        "question": "Qu'est-ce qu'un territoire et en quoi diffÃ¨re-t-il d'un simple espace gÃ©ographique ?"
       },
       {
         "type": "qcm",
-        "question": "Quel énoncé correspond à une focalisation externe ?",
+        "question": "Qu'est-ce qu'une carte thÃ©matique en gÃ©ographie ?",
         "choices": [
-          "Il pensa qu'il avait enfin compris son erreur.",
-          "Je me sentais humilié devant toute la classe.",
-          "Paul serra les poings et fixa la porte sans parler.",
-          "Elle savait déjà ce qui arriverait dix ans plus tard."
+          "Une carte routiÃ¨re ou touristique",
+          "Une reprÃ©sentation graphique qui reprÃ©sente la distribution spatiale d'un phÃ©nomÃ¨ne prÃ©cis",
+          "Une carte de relief topographique",
+          "Un plan d'une ville"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Le choix de la focalisation influence l'interprétation d'un personnage par le lecteur."
+        "question": "La gÃ©opolitique Ã©tudie les liens entre la gÃ©ographie et le pouvoir politique des Ã‰tats."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Mouvements littéraires",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Analyse narratologique",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Argumentation structurée",
-      "description": "Notion fondamentale de Français"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

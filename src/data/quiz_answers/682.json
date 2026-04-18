@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic SVT 3ème - Série 682",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT"
   },
   "quiz": {
     "title": "Écologie : photosynthèse et respiration",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "CO2 + H2O + lumière → glucose + O2",
+        "correct": 0,
         "correction": "La photosynthèse utilise CO2 et H2O en présence de lumière pour synthétiser du glucose et libérer de l'O2."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Les chloroplastes contiennent la chlorophylle et les enzymes nécessaires aux deux phases de la photosynthèse."
+        "correction": "Les chloroplastes contiennent la chlorophylle et les enzymes nécessaires aux deux phases de la photosynthèse."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Glucose et O2",
+        "correct": 1,
         "correction": "La respiration aérobie dégrade le glucose en présence d'O2 pour produire de l'énergie (ATP), du CO2 et de l'H2O."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Les stomates (pores foliaires) permettent les échanges gazeux (CO2, O2, H2O) entre la feuille et l'atmosphère."
+        "correction": "Les stomates (pores foliaires) permettent les échanges gazeux (CO2, O2, H2O) entre la feuille et l'atmosphère."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Elles constituent un puits de carbone en absorbant le CO2 par photosynthèse",
+        "correct": 1,
         "correction": "Les forêts tropicales sont des puits de carbone majeurs, absorbant environ 2,5 milliards de tonnes de CO2 par an."
       },
       {

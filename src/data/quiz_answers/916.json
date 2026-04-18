@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic HGGSP 1ère - Série 916",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP"
   },
   "quiz": {
     "title": "Les nouveaux acteurs de la conquête spatiale",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "HGGSP",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "SpaceX",
+        "correct": 2,
         "correction": "SpaceX (Space Exploration Technologies) est fondée en 2002. Elle développe les fusées Falcon 9 et Starship, et transporte des astronautes vers l'ISS depuis 2020."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Le New Space soulève des questions de régulation, de gouvernance et de partage des ressources spatiales."
+        "answer": "faux",
+        "correction": "Le New Space soulève des questions de régulation, de gouvernance et de partage des ressources spatiales."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Retourner des astronautes sur la Lune, dont la première femme",
+        "correct": 1,
         "correction": "Artémis (à partir de 2022) vise à établir une présence humaine durable sur la Lune, avec un regard sur Mars. La première femme et la première personne de couleur sur la Lune sont prévues."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Les Accords Artémis (2020, initiés par les USA) et le Traité de l'espace de 1967 s'affrontent sur la question de l'exploitation des ressources lunaires."
+        "answer": "faux",
+        "correction": "Les Accords Artémis (2020, initiés par les USA) et le Traité de l'espace de 1967 s'affrontent sur la question de l'exploitation des ressources lunaires."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Un accès à Internet par satellite dans le monde entier",
+        "correct": 1,
         "correction": "Starlink est une constellation de milliers de petits satellites en orbite basse (LEO) fournissant l'Internet haut débit, y compris en zones rurales ou de conflit (Ukraine)."
       },
       {

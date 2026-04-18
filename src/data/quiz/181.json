@@ -1,94 +1,75 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 6eme - Série 0181",
+    "title": "Quiz Diagnostic Histoire-Géographie 1ere - SÃ©rie 181",
     "type": "quiz",
-    "level": "6eme",
-    "subject": "Français",
-    "description": "Diagnostic Français 6eme : Français 6e - Les phrases complexes",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 1ere : Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 7",
     "status": "published",
-    "created_at": "2026-04-06 06:25:38",
-    "updated_at": "2026-04-06 06:25:38"
+    "created_at": "2026-04-18 20:30:32",
+    "updated_at": "2026-04-18 20:30:32"
   },
   "quiz": {
-    "title": "Français 6e - Les phrases complexes",
+    "title": "Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 7",
     "type": "quiz",
-    "level": "6eme",
-    "subject": "Français",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Qu'est-ce qu'une phrase complexe ?",
+        "question": "Quel traitÃ© crÃ©e la CommunautÃ© Ã‰conomique EuropÃ©enne (CEE) en 1957 ?",
         "choices": [
-          "Une phrase qui contient une seule proposition",
-          "Une phrase qui contient plusieurs propositions indépendantes",
-          "Une phrase qui contient une proposition principale et au moins une proposition subordonnée",
-          "Une phrase qui n'a pas de verbe"
+          "Le traitÃ© de Paris (1951)",
+          "Le traitÃ© de Rome (1957)",
+          "Le traitÃ© de Maastricht (1992)",
+          "Le traitÃ© de Lisbonne (2007)"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Les phrases complexes peuvent être classées en plusieurs types, tels que les phrases subordonnées, les phrases coordonnées et les phrases juxtaposées, en fonction de la relation entre les différentes propositions dans la phrase."
+        "question": "La rÃ©conciliation franco-allemande est au cÅ“ur de la construction europÃ©enne, symbolisÃ©e notamment par le traitÃ© de l'Ã‰lysÃ©e de 1963."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Quels sont les principaux apports du traitÃ© de Maastricht (1992) pour la construction europÃ©enne ?"
       },
       {
         "type": "qcm",
-        "question": "Quel est le rôle d'une proposition subordonnée dans une phrase complexe ?",
+        "question": "Combien de pays membres compte l'Union europÃ©enne en 2024 ?",
         "choices": [
-          "Elle n'a pas de rôle spécifique",
-          "Elle fournit des informations supplémentaires sur un élément de la proposition principale",
-          "Elle exprime une idée indépendante de la proposition principale",
-          "Elle indique une relation de cause à effet avec la proposition principale"
+          "25",
+          "27",
+          "28",
+          "30"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "L'utilisation correcte des phrases complexes est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les écrivains utilisent les phrases complexes de manière appropriée en fonction du contexte et du message qu'ils souhaitent transmettre, ce qui contribue à la clarté et à l'efficacité de la communication écrite."
+        "question": "L'espace Schengen permet la libre circulation des personnes entre les pays membres, sans contrÃ´les aux frontiÃ¨res intÃ©rieures."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Qu'est-ce que le Brexit et quelles en sont les principales consÃ©quences ?"
       },
       {
         "type": "qcm",
-        "question": "Quel est le rôle d'une proposition coordonnée dans une phrase complexe ?",
+        "question": "Quelle institution europÃ©enne est la seule Ã©lue directement par les citoyens de l'UE ?",
         "choices": [
-          "Elle n'a pas de rôle spécifique",
-          "Elle fournit des informations supplémentaires sur un élément de la proposition principale",
-          "Elle exprime une idée indépendante de la proposition principale",
-          "Elle indique une relation de cause à effet avec la proposition principale"
+          "La Commission europÃ©enne",
+          "Le Conseil de l'UE",
+          "Le Parlement europÃ©en",
+          "La Cour de justice de l'UE"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "L'utilisation incorrecte des phrases complexes peut parfois entraîner des confusions ou des malentendus dans la communication écrite, en rendant difficile pour les lecteurs de comprendre les relations entre les différentes propositions dans une phrase complexe, ce qui peut nuire à la clarté du message et à l'efficacité de la communication écrite."
-      },
-      {
-        "type": "qcm",
-        "question": "Quel est le rôle d'une proposition juxtaposée dans une phrase complexe ?",
-        "choices": [
-          "Elle n'a pas de rôle spécifique",
-          "Elle fournit des informations supplémentaires sur un élément de la proposition principale",
-          "Elle exprime une idée indépendante de la proposition principale",
-          "Elle indique une relation de cause à effet avec la proposition principale"
-        ]
-      },
-      {
-        "type": "vrai-faux",
-        "question": "L'utilisation correcte des phrases complexes est essentielle pour éviter les confusions et les erreurs dans la communication écrite."
+        "question": "La politique agricole commune (PAC) est l'une des politiques les plus anciennes et les plus importantes de l'UE en termes de budget."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Français",
-      "description": "Notion du programme 6eme"
-    },
-    {
-      "notion": "Compétences de base 6eme",
-      "description": "Notion du programme 6eme"
-    },
-    {
-      "notion": "Savoir-faire français",
-      "description": "Notion du programme 6eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

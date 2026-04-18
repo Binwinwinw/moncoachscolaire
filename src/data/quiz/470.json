@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 470",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 470",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
-    "description": "Diagnostic Français 1ère : La poésie symboliste",
+    "description": "Diagnostic Français 1ere : La poÃ©sie symboliste",
     "status": "published",
-    "created_at": "2026-03-13 18:59:43",
-    "updated_at": "2026-03-13 18:59:43"
+    "created_at": "2026-04-18 20:20:12",
+    "updated_at": "2026-04-18 20:20:12"
   },
   "quiz": {
-    "title": "La poésie symboliste",
+    "title": "La poÃ©sie symboliste",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
@@ -20,7 +20,7 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel poème de Baudelaire est considéré comme manifeste du Symbolisme ?",
+        "question": "Quel poÃ¨me de Baudelaire est considÃ©rÃ© comme manifeste du Symbolisme ?",
         "choices": [
           "Spleen",
           "Correspondances",
@@ -30,59 +30,46 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Le Symbolisme est un mouvement du XVIIe siècle."
+        "question": "Le Symbolisme est un mouvement du XVIIe siÃ¨cle."
       },
       {
         "type": "vrai-faux",
-        "question": "Le symbole renvoie à un au-delà du réel visible : idées, états d'âme, vérités métaphysiques."
+        "question": "Chez les symbolistes, le symbole est une image qui suggÃ¨re une rÃ©alitÃ© _____ invisible."
       },
       {
         "type": "qcm",
-        "question": "Verlaine préconise dans 'Art poétique' de privilegier :",
+        "question": "Verlaine prÃ©conise dans 'Art poÃ©tique' de privilegier :",
         "choices": [
           "La rime riche",
           "La musique avant toute chose",
-          "La clarté du discours",
-          "La régularité du mètre"
+          "La clartÃ© du discours",
+          "La rÃ©gularitÃ© du mÃ¨tre"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Rimbaud a écrit 'Une saison en enfer'."
+        "question": "Rimbaud a Ã©crit 'Une saison en enfer'."
       },
       {
         "type": "vrai-faux",
-        "question": "'Nommer un objet, c'est supprimer les trois quarts de la jouissance du poème' (Mallarmé)."
+        "question": "MallarmÃ© recherche un langage poÃ©tique pur, dÃ©pouillÃ© du rÃ©el, visant Ã  suggÃ©rer plutÃ´t qu'Ã  _____."
       },
       {
         "type": "qcm",
-        "question": "La synesthésie, procédé cher aux symbolistes, consiste à :",
+        "question": "La synesthÃ©sie, procÃ©dÃ© cher aux symbolistes, consiste Ã  :",
         "choices": [
-          "Répéter un son en fin de vers",
-          "Associer des sensations de registres différents",
+          "RÃ©pÃ©ter un son en fin de vers",
+          "Associer des sensations de registres diffÃ©rents",
           "Inverser l'ordre habituel des mots",
           "Omettre la ponctuation"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Le Parnasse et le Symbolisme partagent le même idéal poétique."
+        "question": "Le Parnasse et le Symbolisme partagent le mÃªme idÃ©al poÃ©tique."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Baccalauréat français",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Poésie baroque et classique",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Théâtre et représentation",
-      "description": "Notion fondamentale de Français"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

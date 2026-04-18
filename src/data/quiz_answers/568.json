@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 568",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie"
   },
   "quiz": {
     "title": "Révisions Histoire 3ème – Première partie (1914–1945)",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "PGM, Révolution russe, crise de 1929, nazisme, SGM",
+        "correct": 0,
         "correction": "Chronologie : PGM 1914-1918, Révolution russe 1917, crise 1929, Hitler au pouvoir 1933, SGM 1939-1945."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Trois systèmes différents mais partageant: parti unique, culte du chef, propagande, terreur et contrôle total de la société."
+        "correction": "Trois systèmes différents mais partageant: parti unique, culte du chef, propagande, terreur et contrôle total de la société."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "8 mai 1945",
+        "correct": 1,
         "correction": "Le 8 mai 1945 est le jour de la victoire en Europe (V-E Day) : capitulation sans conditions de l'Allemagne nazie."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. L'armistice du 11 novembre 1918 (à 11h) est signé dans un wagon à Rethondes ; il est célébré chaque année comme jour du souvenir."
+        "correction": "L'armistice du 11 novembre 1918 (à 11h) est signé dans un wagon à Rethondes ; il est célébré chaque année comme jour du souvenir."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Ils entrent tardivement mais apportent une aide décisive",
+        "correct": 1,
         "correction": "USA entrent en guerre en avril 1917 (PGM) et décembre 1941 (SGM) ; dans les deux cas, leur soutien militaire et économique est décisif."
       },
       {

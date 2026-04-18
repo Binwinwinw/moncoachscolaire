@@ -1,70 +1,74 @@
 {
   "contents": {
-    "title": "Anglais - Les cycles des nutriments en SVT",
-    "level": "5eme",
-    "subject": "SVT"
+    "title": "Quiz Diagnostic NSI 1ere - Série 906",
+    "level": "1ere",
+    "subject": "NSI"
   },
   "quiz": {
-    "title": "Anglais - Les cycles des nutriments en SVT",
+    "title": "Algorithmes gloutons",
     "question_count": 8,
-    "level": "5eme",
-    "subject": "SVT",
+    "level": "1ere",
+    "subject": "NSI",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "",
-        "correction": "La bonne réponse est ‘Un ver de terre’. Il aide à recycler les nutriments dans le sol."
+        "answer": "Une méthode qui fait un choix localement optimal à chaque étape",
+        "correct": 0,
+        "correction": "En NSI, un algorithme glouton désigne : une méthode qui fait un choix localement optimal à chaque étape."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "answer": "faux",
-        "correction": "Vrai. Les décomposeurs transforment les matières mortes en éléments nutritifs."
+        "answer": "vrai",
+        "correction": "Cette notion fait partie des fondamentaux travaillés en NSI."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Réponds que le recyclage des nutriments permet aux plantes de retrouver de l'azote et d'autres éléments dans le sol."
+        "type": "qcm",
+        "answer": "l'optimisation",
+        "correct": 0,
+        "correction": "La notion clé à retenir ici est : l'optimisation."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "answer": "",
-        "correction": "La bonne réponse est ‘L'azote’. La décomposition libère de l'azote utilisé par les plantes."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La NSI combine pratique, raisonnement algorithmique et compréhension des systèmes."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "answer": "faux",
-        "correction": "Vrai. Les racines absorbent les nutriments du sol."
+        "type": "qcm",
+        "answer": "Comprendre les outils et concepts du numérique",
+        "correct": 0,
+        "correction": "L'objectif de la NSI est de comprendre le fonctionnement des outils numériques et des algorithmes."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "qcm",
-        "answer": "",
-        "correction": "La bonne réponse est ‘Une bactérie’. Beaucoup de décomposeurs sont des bactéries."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les notions de NSI s'observent dans le web, les réseaux, les programmes et les objets connectés."
       },
       {
         "index": 6,
         "question_id": 7,
-        "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Réponds avec une action comme limiter le labour ou éviter les produits chimiques pour protéger le sol."
+        "type": "qcm",
+        "answer": "Un algorithme, un schéma ou un exemple de code",
+        "correct": 0,
+        "correction": "Les schémas, algorithmes et fragments de code aident à clarifier les notions de NSI."
       },
       {
         "index": 7,
         "question_id": 8,
-        "type": "qcm",
-        "answer": "",
-        "correction": "La bonne réponse est ‘Une meilleure croissance des plantes’."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est un objectif central de l'enseignement NSI."
       }
     ]
   }

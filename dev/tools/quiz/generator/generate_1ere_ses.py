@@ -21,14 +21,29 @@ os.makedirs(SES1_QUIZ_DIR, exist_ok=True)
 os.makedirs(SES1_ANSWERS_DIR, exist_ok=True)
 
 
+def normalize_question_type(question_type):
+    qtype = str(question_type or "").strip().lower().replace("_", "-")
+    if qtype == "qcm":
+        return "qcm"
+    return "vrai-faux"
+
+
+def normalize_level_label(level):
+    normalized = str(level or "").strip().lower()
+    if normalized in {"1ère", "1ere", "premiere"}:
+        return "1ere"
+    return str(level).strip()
+
+
 def make_quiz(qid, title, subject, level, questions):
+    level = normalize_level_label(level)
     answer_keys = {"correct_answer", "correct_option", "correct", "explanation"}
     questions = [{k: v for k, v in q.items() if k not in answer_keys} for q in questions]
     created_at = datetime.now(UTC).strftime("%Y-%m-%d %H:%M:%S")
     runtime_questions = []
 
     for question in questions:
-        qtype = str(question.get("type", "texte"))
+        qtype = normalize_question_type(question.get("type", ""))
         if qtype == "qcm":
             runtime_questions.append(
                 {
@@ -79,11 +94,13 @@ def make_quiz(qid, title, subject, level, questions):
 
 
 def make_answers(qid, title, subject, level, questions):
+    level = normalize_level_label(level)
     answers = []
     for index, q in enumerate(questions):
-        if q["type"] == "qcm":
+        qtype = normalize_question_type(q.get("type", ""))
+        if qtype == "qcm":
             options = list(q.get("options", []))
-            correct_answer = str(q.get("correct_answer", ""))
+            correct_answer = str(q.get("correct_option", q.get("correct_answer", "")))
             correct_index = options.index(correct_answer) if correct_answer in options else 0
             answers.append({
                 "index": index,
@@ -93,8 +110,9 @@ def make_answers(qid, title, subject, level, questions):
                 "correct": correct_index,
                 "correction": str(q.get("explanation", "")),
             })
-        elif q["type"] == "vrai-faux":
-            tf_answer = "vrai" if str(q.get("correct_answer", "")).strip().lower() == "vrai" else "faux"
+        elif qtype == "vrai-faux":
+            tf_source = q.get("correct", q.get("correct_answer", "faux"))
+            tf_answer = "vrai" if str(tf_source).strip().lower() in {"true", "vrai", "1"} else "faux"
             answers.append({
                 "index": index,
                 "question_id": index + 1,
@@ -103,11 +121,13 @@ def make_answers(qid, title, subject, level, questions):
                 "correction": str(q.get("explanation", "")),
             })
         else:
+            tf_source = q.get("correct", q.get("correct_answer", "faux"))
+            tf_answer = "vrai" if str(tf_source).strip().lower() in {"true", "vrai", "1"} else "faux"
             answers.append({
                 "index": index,
                 "question_id": index + 1,
                 "type": "vrai-faux",
-                "answer": str(q.get("correct_answer", "")),
+                "answer": tf_answer,
                 "correction": str(q.get("explanation", "")),
             })
 
@@ -1052,6 +1072,49 @@ quizzes_data = [
 ]),
 
 ]
+
+SES_COMPLEMENT_SPECS = [
+    (849, "La socialisation primaire et secondaire", "la socialisation", "Famille, école, pairs et médias", "les instances de socialisation"),
+    (850, "Normes, valeurs et rôles sociaux", "les normes sociales", "Des règles de comportement partagées", "la conformité sociale"),
+    (851, "La construction des identités", "l'identité sociale", "L'ensemble des appartenances et rôles d'un individu", "les groupes sociaux"),
+    (852, "Groupes sociaux et réseaux", "un groupe social", "Un ensemble d'individus en interaction partageant un sentiment d'appartenance", "le lien social"),
+    (853, "Stratification et classes sociales", "la stratification sociale", "La hiérarchisation des groupes dans la société", "les classes sociales"),
+    (854, "Mobilité sociale et trajectoires", "la mobilité sociale", "Le changement de position sociale d'un individu ou d'un groupe", "la table de mobilité"),
+    (855, "Les inégalités économiques et sociales", "les inégalités", "Des écarts d'accès aux ressources ou aux positions sociales", "les revenus et le patrimoine"),
+    (856, "L'emploi, le chômage et le marché du travail", "le chômage", "La situation d'une personne sans emploi qui en recherche un", "le marché du travail"),
+    (857, "La monnaie et ses fonctions", "la monnaie", "Un instrument d'échange, d'unité de compte et de réserve de valeur", "les fonctions de la monnaie"),
+    (858, "Banques, crédit et financement", "le crédit", "Une mise à disposition d'argent remboursable avec intérêts", "le financement de l'économie"),
+    (859, "Croissance économique et progrès technique", "la croissance", "L'augmentation durable de la production de biens et services", "le PIB"),
+    (860, "Développement durable et externalités", "les externalités", "Les effets d'une activité sur des tiers sans compensation monétaire", "l'intervention publique"),
+    (861, "Biens communs et action collective", "les biens communs", "Des ressources partagées dont l'usage doit être régulé", "la coopération"),
+    (862, "Le vote et la participation politique", "la participation politique", "L'ensemble des actions liées à la vie politique", "la citoyenneté"),
+    (863, "Opinion publique et médias", "l'opinion publique", "Les jugements et prises de position d'une population", "les sondages"),
+    (864, "Déviance et contrôle social", "la déviance", "Un comportement s'écartant des normes en vigueur", "le contrôle social"),
+    (865, "Protection sociale et solidarité", "la protection sociale", "Les mécanismes qui couvrent les risques sociaux", "la redistribution"),
+    (866, "L'intégration européenne et la mondialisation", "la mondialisation", "L'intensification des échanges à l'échelle mondiale", "l'intégration économique"),
+]
+
+
+def build_ses_complement(qid, title, focus, definition, notion):
+    return (
+        qid,
+        title,
+        "SES",
+        "1ere",
+        [
+            {"id": f"{qid}_1", "type": "qcm", "question": f"Quelle définition correspond le mieux à {focus} ?", "options": [definition, "Une règle mathématique", "Un procédé purement technique", "Une décision individuelle isolée"], "correct_option": definition, "explanation": f"En SES, {focus} désigne bien : {definition.lower()}."},
+            {"id": f"{qid}_2", "type": "vrai-faux", "question": f"{focus.capitalize()} peut être étudié à partir d'exemples concrets de la vie sociale et économique.", "correct": True, "explanation": "Les SES s'appuient sur des situations réelles pour comprendre les mécanismes sociaux et économiques."},
+            {"id": f"{qid}_3", "type": "qcm", "question": f"Quelle notion est la plus directement liée à {focus} ?", "options": [notion, "la tectonique des plaques", "la versification", "la conjugaison"], "correct_option": notion, "explanation": f"La notion associée ici est : {notion}."},
+            {"id": f"{qid}_4", "type": "vrai-faux", "question": f"Pour analyser {focus}, on peut mobiliser des données statistiques et des exemples d'actualité.", "correct": True, "explanation": "Les SES croisent connaissances théoriques, données chiffrées et faits d'actualité."},
+            {"id": f"{qid}_5", "type": "qcm", "question": f"Quel objectif pédagogique est lié à l'étude de {focus} ?", "options": ["Comprendre les mécanismes sociaux et économiques", "Apprendre des dates sans explication", "Réciter une définition isolée", "Éviter toute interprétation"], "correct_option": "Comprendre les mécanismes sociaux et économiques", "explanation": "L'objectif est d'expliquer les mécanismes observés dans la société et l'économie."},
+            {"id": f"{qid}_6", "type": "vrai-faux", "question": f"Une notion comme {focus} ne se réduit pas à une simple opinion : elle s'appuie sur des concepts précis.", "correct": True, "explanation": "Les SES reposent sur des définitions, des raisonnements et des observations rigoureuses."},
+            {"id": f"{qid}_7", "type": "qcm", "question": f"Quel outil aide souvent à mieux comprendre {focus} ?", "options": ["Un schéma, un tableau ou un graphique", "Une rime suivie", "Un vers alexandrin", "Un théorème de géométrie"], "correct_option": "Un schéma, un tableau ou un graphique", "explanation": "Les SES utilisent souvent des tableaux, graphiques et schémas pour clarifier les phénomènes."},
+            {"id": f"{qid}_8", "type": "vrai-faux", "question": f"Étudier {focus} aide à développer l'esprit critique face aux phénomènes économiques et sociaux.", "correct": True, "explanation": "C'est l'un des objectifs majeurs des SES au lycée."},
+        ],
+    )
+
+
+quizzes_data.extend(build_ses_complement(*spec) for spec in SES_COMPLEMENT_SPECS)
 
 
 def write_quiz_files():

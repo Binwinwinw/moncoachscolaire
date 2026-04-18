@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 484",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 484",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
-    "description": "Diagnostic Français 1ère : Mouvements littéraires : Symbolisme et Surréalisme",
+    "description": "Diagnostic Français 1ere : Mouvements littÃ©raires : Symbolisme et SurrÃ©alisme",
     "status": "published",
-    "created_at": "2026-03-13 18:59:43",
-    "updated_at": "2026-03-13 18:59:43"
+    "created_at": "2026-04-18 20:20:13",
+    "updated_at": "2026-04-18 20:20:13"
   },
   "quiz": {
-    "title": "Mouvements littéraires : Symbolisme et Surréalisme",
+    "title": "Mouvements littÃ©raires : Symbolisme et SurrÃ©alisme",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
@@ -20,25 +20,25 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel manifeste fonde officiellement le Surréalisme ?",
+        "question": "Quel manifeste fonde officiellement le SurrÃ©alisme ?",
         "choices": [
           "Le Manifeste du Futurisme",
-          "Le Manifeste du Surréalisme d'André Breton (1924)",
-          "La Préface de Cromwell",
-          "L'Art poétique de Verlaine"
+          "Le Manifeste du SurrÃ©alisme d'AndrÃ© Breton (1924)",
+          "La PrÃ©face de Cromwell",
+          "L'Art poÃ©tique de Verlaine"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "L'écriture automatique surréaliste consiste à écrire sans contrôle de la raison."
+        "question": "L'Ã©criture automatique surrÃ©aliste consiste Ã  Ã©crire sans contrÃ´le de la raison."
       },
       {
         "type": "vrai-faux",
-        "question": "'Peindre non la chose mais l'effet qu'elle produit' (Mallarmé) : le symbole suggère plutôt qu'il n'affirme."
+        "question": "Le Symbolisme refuse de nommer les choses directement et prÃ©fÃ¨re les _____."
       },
       {
         "type": "qcm",
-        "question": "Quel poète est associé à la fois au Symbolisme et aux 'poètes maudits' ?",
+        "question": "Quel poÃ¨te est associÃ© Ã  la fois au Symbolisme et aux 'poÃ¨tes maudits' ?",
         "choices": [
           "Victor Hugo",
           "Paul Verlaine",
@@ -48,41 +48,28 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Le Surréalisme s'intéresse aux rêves et à l'inconscient, influencé par les théories de Freud."
+        "question": "Le SurrÃ©alisme s'intÃ©resse aux rÃªves et Ã  l'inconscient, influencÃ© par les thÃ©ories de Freud."
       },
       {
         "type": "vrai-faux",
-        "question": "Ces trois poètes sont les piliers du groupe surréaliste parisien."
+        "question": "Paul Ã‰luard, Louis Aragon et AndrÃ© Breton sont des figures majeures du mouvement _____."
       },
       {
         "type": "qcm",
-        "question": "Quelle technique surréaliste consiste à écrire un texte à plusieurs mains sans voir ce que l'autre a écrit ?",
+        "question": "Quelle technique surrÃ©aliste consiste Ã  Ã©crire un texte Ã  plusieurs mains sans voir ce que l'autre a Ã©crit ?",
         "choices": [
           "Cadavre exquis",
           "Collage",
-          "Écriture automatique",
-          "Poème en prose"
+          "Ã‰criture automatique",
+          "PoÃ¨me en prose"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Stéphane Mallarmé est un poète symboliste dont l'œuvre se caractérise par la clarté et la simplicité."
+        "question": "StÃ©phane MallarmÃ© est un poÃ¨te symboliste dont l'Å“uvre se caractÃ©rise par la clartÃ© et la simplicitÃ©."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Baccalauréat français",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Poésie baroque et classique",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Théâtre et représentation",
-      "description": "Notion fondamentale de Français"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

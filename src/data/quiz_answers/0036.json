@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6ème - Série 0036",
+    "level": "6eme",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "Vocabulaire de base : couleurs, nombres, formes",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "'Colors', 'Hues', and 'Shades' are all common English words that can be used to refer to different aspects of color and its variations."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English word for 'nombres' is indeed 'numbers', which refers to mathematical symbols used to represent quantities and perform calculations."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "'Shapes', 'Figures', and 'Geometric forms' are all common English words that can be used to refer to different types of shapes and forms in geometry and everyday life."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English word for 'couleurs' is indeed 'colors', which refers to the visual perception of different wavelengths of light."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "'Numbers', 'Digits', and 'Numerals' are all common English words that can be used to refer to mathematical symbols used to represent quantities and perform calculations."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English word for 'formes' is indeed 'shapes', which refers to the external form or appearance of an object or figure."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "'Colors', 'Tints', and 'Tones' are all common English words that can be used to refer to different aspects of color and its variations."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English word for 'nombres' can indeed be translated as 'digits', which refers to the individual symbols used to represent numbers in the decimal system (0-9)."
+      }
+    ]
+  }
+}

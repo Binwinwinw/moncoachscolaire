@@ -1,42 +1,44 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 499",
-    "level": "1ère",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 499",
+    "level": "1ere",
     "subject": "Français"
   },
   "quiz": {
-    "title": "Grand oral : préparation et enjeux",
+    "title": "Grand oral : prÃ©paration et enjeux",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Une question liée aux spécialités du lycéen",
-        "correction": "Le Grand Oral (20 min) porte sur une question choisie par le candidat, en lien avec ses spécialités."
+        "answer": "Une question liÃ©e aux spÃ©cialitÃ©s du lycÃ©en",
+        "correct": 1,
+        "correction": "Le Grand Oral (20 min) porte sur une question choisie par le candidat, en lien avec ses spÃ©cialitÃ©s."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "Les critères d'évaluation incluent la qualité de l'expression, la posture, le regard et la structuration du discours."
+        "correction": "Les critÃ¨res d'Ã©valuation incluent la qualitÃ© de l'expression, la posture, le regard et la structuration du discours."
       },
       {
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La question doit être bien délimitée et problématisée pour permettre un développement structuré."
+        "answer": "faux",
+        "correction": "La question doit Ãªtre bien dÃ©limitÃ©e et problÃ©matisÃ©e pour permettre un dÃ©veloppement structurÃ©."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "5 minutes",
-        "correction": "Le candidat parle 5 minutes en continu, puis répond aux questions de l'examinateur pendant 10 minutes, puis suit 5 minutes sur le projet d'orientation."
+        "correct": 0,
+        "correction": "Le candidat parle 5 minutes en continu, puis rÃ©pond aux questions de l'examinateur pendant 10 minutes, puis suit 5 minutes sur le projet d'orientation."
       },
       {
         "index": 4,
@@ -49,22 +51,23 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. L'aisance orale (fluidité, adaptation, écoute) est un critère clé du Grand Oral."
+        "answer": "faux",
+        "correction": "L'aisance orale (fluiditÃ©, adaptation, Ã©coute) est un critÃ¨re clÃ© du Grand Oral."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "Poser la question, en montrer l'intérêt et annoncer le plan",
-        "correction": "L'introduction accroche l'examinateur, contextualise la question et annonce la structure de l'exposé."
+        "answer": "Poser la question, en montrer l'intÃ©rÃªt et annoncer le plan",
+        "correct": 1,
+        "correction": "L'introduction accroche l'examinateur, contextualise la question et annonce la structure de l'exposÃ©."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "faux",
-        "correction": "Le Grand Oral est une épreuve exclusivement orale, sans support numérique ou diaporama."
+        "correction": "Le Grand Oral est une Ã©preuve exclusivement orale, sans support numÃ©rique ou diaporama."
       }
     ]
   }

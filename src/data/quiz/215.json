@@ -1,90 +1,75 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 2nde - Série 215",
+    "title": "Quiz Diagnostic Histoire-Géographie 1ere - SÃ©rie 215",
     "type": "quiz",
-    "level": "2nde",
-    "subject": "Français",
-    "description": "Diagnostic Français 2nde : Diagnostic 2nde Français - Temps du récit",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 1ere : Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 41",
     "status": "published",
-    "created_at": "2026-03-14 07:16:54",
-    "updated_at": "2026-03-14 07:16:54",
-    "source": "Eduscol programmes officiels + BOEN",
-    "programme_ref": "<Référence programme officiel à renseigner>"
+    "created_at": "2026-04-18 20:30:33",
+    "updated_at": "2026-04-18 20:30:33"
   },
   "quiz": {
-    "title": "Diagnostic 2nde Français - Temps du récit",
+    "title": "Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 41",
     "type": "quiz",
-    "level": "2nde",
-    "subject": "Français",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Dans un récit au passé, quel temps sert le plus souvent à exprimer l'action principale et ponctuelle ?",
+        "question": "Quelle est la pÃ©riode principale couverte par le thÃ¨me 'InÃ©galitÃ©s de santÃ© et accÃ¨s aux soins' ?",
         "choices": [
-          "L'imparfait",
-          "Le passé simple",
-          "Le présent",
-          "Le futur antérieur"
+          "XVIIIe siÃ¨cle",
+          "XIXe siÃ¨cle",
+          "XXe siÃ¨cle",
+          "XXIe siÃ¨cle"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "L'imparfait sert souvent à décrire un cadre, une habitude ou une action en cours dans le passé."
+        "question": "Le thÃ¨me 'GÃ©ographie de la santÃ© dans le monde' fait partie du programme officiel d'Histoire-GÃ©ographie de 1Ã¨re."
       },
       {
         "type": "vrai-faux",
-        "question": "Le plus-que-parfait situe une action avant un repère passé."
+        "question": "PrÃ©sentez en quelques lignes l'importance de l'Ã©tude du thÃ¨me 'GÃ©ographie de la santÃ© dans le monde' pour comprendre le monde contemporain."
       },
       {
         "type": "qcm",
-        "question": "Quelle phrase illustre le mieux la répartition classique imparfait / passé simple ?",
+        "question": "Quelle dÃ©marche est au cÅ“ur de l'Ã©tude historique et gÃ©ographique ?",
         "choices": [
-          "Il marchait dans la rue quand soudain la porte s'ouvrit.",
-          "Il marcha dans la rue quand soudain la porte s'ouvrait.",
-          "Il marchait dans la rue quand soudain la porte s'ouvrait.",
-          "Il marcha dans la rue quand soudain la porte s'ouvre."
+          "La mÃ©morisation de dates et de faits",
+          "L'analyse critique de documents et la construction d'une argumentation",
+          "La rÃ©citation de dÃ©finitions",
+          "L'apprentissage des frontiÃ¨res"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Le passé simple est majoritairement utilisé à l'oral courant."
+        "question": "Les sources primaires (documents d'Ã©poque) sont plus fiables que les sources secondaires (analyses d'historiens) pour comprendre un Ã©vÃ©nement historique."
       },
       {
         "type": "vrai-faux",
-        "question": "Le passé composé est le temps usuel du récit oral pour des faits terminés."
+        "question": "Qu'est-ce qu'un territoire et en quoi diffÃ¨re-t-il d'un simple espace gÃ©ographique ?"
       },
       {
         "type": "qcm",
-        "question": "Dans « Il lut la lettre, puis il resta silencieux », la valeur principale du passé simple est :",
+        "question": "Qu'est-ce qu'une carte thÃ©matique en gÃ©ographie ?",
         "choices": [
-          "Description durable",
-          "Action brève de premier plan",
-          "Hypothèse",
-          "Ordre"
+          "Une carte routiÃ¨re ou touristique",
+          "Une reprÃ©sentation graphique qui reprÃ©sente la distribution spatiale d'un phÃ©nomÃ¨ne prÃ©cis",
+          "Une carte de relief topographique",
+          "Un plan d'une ville"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Dans un récit, on peut utiliser le présent de narration pour vivifier une scène passée."
+        "question": "La gÃ©opolitique Ã©tudie les liens entre la gÃ©ographie et le pouvoir politique des Ã‰tats."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Mouvements littéraires",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Analyse narratologique",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Argumentation structurée",
-      "description": "Notion fondamentale de Français"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

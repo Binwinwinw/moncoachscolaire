@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Produit scalaire",
     "status": "published",
-    "created_at": "2026-04-06 06:40:48",
-    "updated_at": "2026-04-06 06:40:48"
+    "created_at": "2026-04-18 18:52:46",
+    "updated_at": "2026-04-18 18:52:46"
   },
   "quiz": {
     "title": "Produit scalaire",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Je commence par reformuler la question, j'identifie les outils utiles, puis je deroule le calcul en verifiant les hypotheses et l'interpretation finale."
+        "question": "Explique en quelques lignes comment tu aborderais un exercice sur le theme suivant : orthogonalite et calcul d'angles. La bonne réponse attendue est : Je commence par reformuler la question, j'identifie les outils utiles, puis je deroule le calcul en verifiant les hypotheses et l'interpretation finale."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Erreur frequente : appliquer une formule sans verifier ses conditions."
+        "question": "Cite une erreur frequente sur ce theme et explique comment l'eviter. La bonne réponse attendue est : Erreur frequente : appliquer une formule sans verifier ses conditions. Pour l'eviter, je controle d'abord le cadre de validite avant tout calcul."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Définition du produit scalaire",
-      "description": "Comprendre que le produit scalaire de deux vecteurs est une opération qui associe à chaque paire de vecteurs un scalaire"
-    },
-    {
-      "notion": "Calcul du produit scalaire",
-      "description": "Savoir calculer le produit scalaire à l'aide de la formule : u · v = |u| |v| cos(θ)"
-    },
-    {
-      "notion": "Interprétation géométrique",
-      "description": "Interpréter géométriquement le produit scalaire comme la projection d'un vecteur sur un autre"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

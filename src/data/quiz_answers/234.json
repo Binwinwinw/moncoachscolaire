@@ -1,6 +1,6 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Philosophie 1ere - Série 234",
+    "title": "Quiz Diagnostic Philosophie 1ere - SÃ©rie 234",
     "level": "1ere",
     "subject": "Philosophie"
   },
@@ -14,57 +14,60 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Choisir les principes de justice sans savoir quelle place on occupera dans la société",
-        "correction": "Le 'voile d'ignorance' (John Rawls, Théorie de la justice, 1971) est un dispositif de pensée : pour choisir des principes justes, imaginons que nous ne sachions pas quelle position nous occuperons dans la société (riche/pauvre, homme/femme, etc.). Derrière ce voile, des personnes rationnelles choisiraient des principes garantissant les libertés fondamentales et profitant aux plus défavorisés (principe de différence)."
+        "answer": "Choisir les principes de justice sans savoir quelle place on occupera dans la sociÃ©tÃ©",
+        "correct": 1,
+        "correction": "Le 'voile d'ignorance' (John Rawls, ThÃ©orie de la justice, 1971) est un dispositif de pensÃ©e : pour choisir des principes justes, imaginons que nous ne sachions pas quelle position nous occuperons dans la sociÃ©tÃ© (riche/pauvre, homme/femme, etc.). DerriÃ¨re ce voile, des personnes rationnelles choisiraient des principes garantissant les libertÃ©s fondamentales et profitant aux plus dÃ©favorisÃ©s (principe de diffÃ©rence)."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La justice distributive (Aristote, Politique) traite de la distribution équitable des biens, des ressources, des droits et des charges dans une société. Elle s'oppose à la justice commutative (égalité dans les échanges) et à la justice corrective (réparation des torts). Les théories modernes de la justice (Rawls, Nozick, Walzer) débattent des principes de cette distribution."
+        "correction": "VRAI. La justice distributive (Aristote, Politique) traite de la distribution Ã©quitable des biens, des ressources, des droits et des charges dans une sociÃ©tÃ©. Elle s'oppose Ã  la justice commutative (Ã©galitÃ© dans les Ã©changes) et Ã  la justice corrective (rÃ©paration des torts). Les thÃ©ories modernes de la justice (Rawls, Nozick, Walzer) dÃ©battent des principes de cette distribution."
       },
       {
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La légalité est la conformité aux règles juridiques positives en vigueur (ce qui est conforme à la loi). La légitimité est la justification morale, politique ou philosophique d'un pouvoir ou d'une règle (ce qui est juste, ce qui mérite d'être obéi). Un régime peut être légal (respecter ses propres lois) sans être légitime (régimes totalitaires). La résistance civile et la désobéissance civile s'appuient sur la distinction légalité/légitimité."
+        "answer": "faux",
+        "correction": "La lÃ©galitÃ© est la conformitÃ© aux rÃ¨gles juridiques positives en vigueur (ce qui est conforme Ã  la loi). La lÃ©gitimitÃ© est la justification morale, politique ou philosophique d'un pouvoir ou d'une rÃ¨gle (ce qui est juste, ce qui mÃ©rite d'Ãªtre obÃ©i). Un rÃ©gime peut Ãªtre lÃ©gal (respecter ses propres lois) sans Ãªtre lÃ©gitime (rÃ©gimes totalitaires). La rÃ©sistance civile et la dÃ©sobÃ©issance civile s'appuient sur la distinction lÃ©galitÃ©/lÃ©gitimitÃ©."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "Un ensemble de droits fondamentaux inhérents à la nature humaine, antérieurs et supérieurs aux lois positives",
-        "correction": "Le droit naturel (Cicéron, Grotius, Locke) est un ensemble de droits ou de principes moraux universels, fondés sur la nature humaine ou la raison, antérieurs et supérieurs aux lois positives (établies par les sociétés). Il fonde les droits de l'homme (Déclaration de 1789 : droits 'naturels, inaliénables et sacrés'). Il s'oppose au positivisme juridique (Kelsen) qui ne reconnaît que les lois positives effectivement édictées."
+        "answer": "Un ensemble de droits fondamentaux inhÃ©rents Ã  la nature humaine, antÃ©rieurs et supÃ©rieurs aux lois positives",
+        "correct": 1,
+        "correction": "Le droit naturel (CicÃ©ron, Grotius, Locke) est un ensemble de droits ou de principes moraux universels, fondÃ©s sur la nature humaine ou la raison, antÃ©rieurs et supÃ©rieurs aux lois positives (Ã©tablies par les sociÃ©tÃ©s). Il fonde les droits de l'homme (DÃ©claration de 1789 : droits 'naturels, inaliÃ©nables et sacrÃ©s'). Il s'oppose au positivisme juridique (Kelsen) qui ne reconnaÃ®t que les lois positives effectivement Ã©dictÃ©es."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Thrasymachus (interlocuteur de Socrate dans la République) soutient que 'la justice n'est rien d'autre que l'avantage du plus fort' : ceux qui détiennent le pouvoir édictent des lois qui servent leurs intérêts et appellent cela 'justice'. C'est une position cynique que Socrate/Platon réfutent longuement. Nietzsche reformulera une idée similaire avec la critique de la 'morale des esclaves'."
+        "correction": "VRAI. Thrasymachus (interlocuteur de Socrate dans la RÃ©publique) soutient que 'la justice n'est rien d'autre que l'avantage du plus fort' : ceux qui dÃ©tiennent le pouvoir Ã©dictent des lois qui servent leurs intÃ©rÃªts et appellent cela 'justice'. C'est une position cynique que Socrate/Platon rÃ©futent longuement. Nietzsche reformulera une idÃ©e similaire avec la critique de la 'morale des esclaves'."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La philosophie de la peine distingue plusieurs fondements : la rétribution (Kant : punir le criminel est un impératif de justice, il le mérite) ; la dissuasion/prévention générale (Bentham : la peine doit dissuader les crimes futurs, calculer la douleur) ; la réhabilitation (rééducation, réinsertion du condamné) ; et la protection sociale (isoler les individus dangereux). Ces fondements conduisent à des politiques pénales très différentes et alimentent les débats sur la prison, la peine de mort et la récidive."
+        "answer": "faux",
+        "correction": "La philosophie de la peine distingue plusieurs fondements : la rÃ©tribution (Kant : punir le criminel est un impÃ©ratif de justice, il le mÃ©rite) ; la dissuasion/prÃ©vention gÃ©nÃ©rale (Bentham : la peine doit dissuader les crimes futurs, calculer la douleur) ; la rÃ©habilitation (rÃ©Ã©ducation, rÃ©insertion du condamnÃ©) ; et la protection sociale (isoler les individus dangereux). Ces fondements conduisent Ã  des politiques pÃ©nales trÃ¨s diffÃ©rentes et alimentent les dÃ©bats sur la prison, la peine de mort et la rÃ©cidive."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "Toute distribution issue d'échanges libres et volontaires est juste, quelle que soit son inégalité",
-        "correction": "Robert Nozick (Anarchie, État et Utopie, 1974) défend le libertarianisme : toute distribution issue d'acquisitions et d'échanges librement consentis est juste, même si elle produit de grandes inégalités. Il s'oppose à Rawls : l'État minimal est le seul État juste ; tout État plus grand viole les droits individuels en redistribuant les richesses ('la taxation, c'est le travail forcé')."
+        "answer": "Toute distribution issue d'Ã©changes libres et volontaires est juste, quelle que soit son inÃ©galitÃ©",
+        "correct": 1,
+        "correction": "Robert Nozick (Anarchie, Ã‰tat et Utopie, 1974) dÃ©fend le libertarianisme : toute distribution issue d'acquisitions et d'Ã©changes librement consentis est juste, mÃªme si elle produit de grandes inÃ©galitÃ©s. Il s'oppose Ã  Rawls : l'Ã‰tat minimal est le seul Ã‰tat juste ; tout Ã‰tat plus grand viole les droits individuels en redistribuant les richesses ('la taxation, c'est le travail forcÃ©')."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La Déclaration universelle des droits de l'homme, adoptée par l'ONU le 10 décembre 1948, proclame 30 droits universels, inaliénables et indivisibles pour tous les êtres humains 'sans distinction aucune' (race, sexe, religion, etc.). Elle constitue le fondement philosophique du droit international des droits de l'homme, bien que sa valeur contraignante soit limitée."
+        "correction": "VRAI. La DÃ©claration universelle des droits de l'homme, adoptÃ©e par l'ONU le 10 dÃ©cembre 1948, proclame 30 droits universels, inaliÃ©nables et indivisibles pour tous les Ãªtres humains 'sans distinction aucune' (race, sexe, religion, etc.). Elle constitue le fondement philosophique du droit international des droits de l'homme, bien que sa valeur contraignante soit limitÃ©e."
       }
     ]
   }

@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6ème - Série 0026",
+    "level": "6eme",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "Conjuguaison : verbes réguliers, verbes irréguliers, temps de base",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Walk",
+        "correction": "A regular verb in English is one that forms its past tense and past participle by adding -ed to the base form. 'Walk' is a regular verb, while 'Go', 'Eat', and 'Have' are irregular verbs."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The past tense of 'walk' is indeed 'walked', following the regular verb conjugation pattern."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Run",
+        "correction": "An irregular verb in English is one that does not follow the regular conjugation pattern. 'Run' is an irregular verb, while 'Jump', 'Play', and 'Talk' are regular verbs."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The past tense of 'run' is indeed 'ran', which is an irregular conjugation."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Ate",
+        "correction": "The correct past tense form of 'eat' is 'ate', which is an irregular verb conjugation."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The past tense of 'have' is indeed 'had', which is an irregular verb conjugation."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Gone",
+        "correction": "The correct past participle form of 'go' is 'gone', which is an irregular verb conjugation."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The past participle of 'go' is indeed 'gone', which is used in perfect tenses and passive voice."
+      }
+    ]
+  }
+}

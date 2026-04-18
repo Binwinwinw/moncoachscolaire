@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 596",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie"
   },
   "quiz": {
     "title": "Gestion durable des ressources",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Se reconstitue à l'échelle humaine",
+        "correct": 0,
         "correction": "Exemples : vent, soleil, biomasse gérée durablement."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Elle limite déchets et extraction de matières premières."
+        "correction": "Elle limite déchets et extraction de matières premières."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Rotation des cultures",
+        "correct": 1,
         "correction": "La rotation améliore fertilité et résilience des sols."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La pêche excessive menace les stocks halieutiques."
+        "correction": "La pêche excessive menace les stocks halieutiques."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "L'empreinte écologique",
+        "correct": 0,
         "correction": "Elle estime la surface nécessaire pour soutenir nos modes de vie."
       },
       {

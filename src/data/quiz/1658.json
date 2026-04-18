@@ -6,8 +6,8 @@
     "subject": "Anglais",
     "description": "Diagnostic Anglais 2nde : Diagnostic 2nde Anglais - Pronunciation and Listening Basics",
     "status": "published",
-    "created_at": "2026-04-06 06:40:41",
-    "updated_at": "2026-04-06 06:40:41",
+    "created_at": "2026-04-18 15:23:24",
+    "updated_at": "2026-04-18 15:23:24",
     "source": "Eduscol programmes officiels + BOEN",
     "programme_ref": "BO special n°1 du 22 janvier 2019 (LGT) + Eduscol Langues vivantes Seconde"
   },
@@ -35,8 +35,8 @@
         "question": "English word stress can change the intelligibility of speech."
       },
       {
-        "type": "open",
-        "question": "Write one common weak form of \"and\" in connected speech."
+        "type": "vrai-faux",
+        "question": "La bonne réponse attendue est : ən."
       },
       {
         "type": "qcm",
@@ -53,8 +53,8 @@
         "question": "In English, intonation may indicate if a speaker is asking a yes/no question."
       },
       {
-        "type": "open",
-        "question": "Give one pair of words that differ by vowel sound only (minimal pair)."
+        "type": "vrai-faux",
+        "question": "La bonne réponse attendue est : ship/sheep."
       },
       {
         "type": "qcm",
@@ -72,19 +72,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Littérature anglophone",
-      "description": "Notion fondamentale de Anglais"
-    },
-    {
-      "notion": "Phonétique avancée",
-      "description": "Notion fondamentale de Anglais"
-    },
-    {
-      "notion": "Expression nuancée",
-      "description": "Notion fondamentale de Anglais"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

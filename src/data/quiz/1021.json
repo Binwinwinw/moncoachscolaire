@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Étude complète d'une fonction",
     "status": "published",
-    "created_at": "2026-04-06 06:40:48",
-    "updated_at": "2026-04-06 06:40:48"
+    "created_at": "2026-04-18 18:52:46",
+    "updated_at": "2026-04-18 18:52:46"
   },
   "quiz": {
     "title": "Étude complète d'une fonction",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "F'(x) = (1−x)e^(−x)."
+        "question": "Étudie les variations de f(x) = x·e^(−x) sur R. La bonne réponse attendue est : f'(x) = (1−x)e^(−x). f'=0 en x=1. f croissante sur ]−∞;1], décroissante sur [1;+∞[. Maximum en x=1 : f(1)=1/e."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Maximum local en x=−1 : f(−1)=2/3 ; minimum local en x=1 : f(1)=−2/3."
+        "question": "Pour f(x) = x³/3 − x, détermine les extrema locaux. La bonne réponse attendue est : Maximum local en x=−1 : f(−1)=2/3 ; minimum local en x=1 : f(1)=−2/3."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Définition du domaine de définition",
-      "description": "L'étude d'une fonction commence par déterminer son domaine de définition, c'est-à-dire l'ensemble des valeurs de x pour lesquelles la fonction est définie"
-    },
-    {
-      "notion": "Recherche des asymptotes",
-      "description": "La recherche des asymptotes verticales et horizontales est une étape cruciale pour comprendre le comportement de la fonction à l'infini"
-    },
-    {
-      "notion": "Analyse des variations",
-      "description": "L'analyse des variations de la fonction, y compris les intervalles de croissance et de décroissance, permet de comprendre son comportement global"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

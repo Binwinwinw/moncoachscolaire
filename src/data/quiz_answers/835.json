@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic SES 1ère - Série 835",
-    "level": "1ère",
+    "title": "Quiz Diagnostic SES 1ere - Série 835",
+    "level": "1ere",
     "subject": "SES"
   },
   "quiz": {
     "title": "Les causes du chômage",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Une demande globale insuffisante",
+        "correct": 1,
         "correction": "Pour Keynes, le chômage résulte d'une insuffisance de la demande effective. La solution est une politique de relance budgétaire."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La part de l'industrie dans l'emploi total est passée de ~25 % dans les années 1970 à environ 11 % aujourd'hui."
+        "answer": "faux",
+        "correction": "La part de l'industrie dans l'emploi total est passée de ~25 % dans les années 1970 à environ 11 % aujourd'hui."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Il automatise des tâches occupées par des travailleurs",
+        "correct": 1,
         "correction": "L'automatisation détruit certains emplois (chômage technologique) mais en crée d'autres dans de nouveaux secteurs (effets de compensation)."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Ce modèle montre que le chômage peut être d'équilibre (et non uniquement conjoncturel)."
+        "answer": "faux",
+        "correction": "Ce modèle montre que le chômage peut être d'équilibre (et non uniquement conjoncturel)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Réduire le chômage en incitant à la reprise rapide d'un emploi",
+        "correct": 1,
         "correction": "Des allocations plus faibles réduisent le salaire de réserve et incitent les chômeurs à accepter des offres d'emploi plus rapidement (vision libérale)."
       },
       {

@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques 2nde : Valeur absolue & distance",
     "status": "published",
-    "created_at": "2026-04-06 06:40:42",
-    "updated_at": "2026-04-06 06:40:42"
+    "created_at": "2026-04-18 18:34:32",
+    "updated_at": "2026-04-18 18:34:32"
   },
   "quiz": {
     "title": "Valeur absolue & distance",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "|x−3| = 5 donne x−3 = 5 (x=8) ou x−3 = −5 (x=−2)."
+        "question": "Résous |x − 3| = 5. La bonne réponse attendue est : x = 8 ou x = −2."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "L'intervalle [−3 ; 5] (tous les x à distance ≤ 4 du point 1)."
+        "question": "Décris géométriquement l'ensemble des réels x vérifiant |x − 1| ≤ 4. La bonne réponse attendue est : L'intervalle [−3 ; 5] (tous les x à distance ≤ 4 du point 1)."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fonctions polynomiales",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Géométrie analytique",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Ensembles et logique",
-      "description": "Notion fondamentale de Mathématiques"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 478",
-    "level": "1ère",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 478",
+    "level": "1ere",
     "subject": "Français"
   },
   "quiz": {
-    "title": "Grammaire avancée : syntaxe et subordination",
+    "title": "Grammaire avancÃ©e : syntaxe et subordination",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "answers": [
       {
@@ -15,27 +15,29 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Que je lis chaque soir",
-        "correction": "'Que je lis chaque soir' est une relative (introduite par un pronom relatif) qui complète un nom."
+        "correct": 1,
+        "correction": "'Que je lis chaque soir' est une relative (introduite par un pronom relatif) qui complÃ¨te un nom."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "Ex. : 'Il pense que tu as raison.' – 'que tu as raison' est une complétive, COD du verbe 'penser'."
+        "correction": "Ex. : 'Il pense que tu as raison.' â€“ 'que tu as raison' est une complÃ©tive, COD du verbe 'penser'."
       },
       {
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. 'Bien que' introduit une subordonnée circonstancielle de concession."
+        "answer": "faux",
+        "correction": "'Bien que' introduit une subordonnÃ©e circonstancielle de concession."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Subjonctif",
+        "correct": 2,
         "correction": "Les conjonctions de concession (bien que, quoique) exigent le subjonctif."
       },
       {
@@ -43,28 +45,29 @@
         "question_id": 5,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "La proposition participiale (ex. 'La nuit tombant, nous rentrâmes') est construite autour d'un participe avec son sujet propre."
+        "correction": "La proposition participiale (ex. 'La nuit tombant, nous rentrÃ¢mes') est construite autour d'un participe avec son sujet propre."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La principale n'est subordonnée à aucune autre ; les subordonnées en dépendent."
+        "answer": "faux",
+        "correction": "La principale n'est subordonnÃ©e Ã  aucune autre ; les subordonnÃ©es en dÃ©pendent."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Pour que",
-        "correction": "'Pour que' + subjonctif introduit une subordonnée circonstancielle de but."
+        "correct": 2,
+        "correction": "'Pour que' + subjonctif introduit une subordonnÃ©e circonstancielle de but."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "En passant au discours indirect, 'je' devient 'il/elle', 'ici' devient 'là', 'maintenant' devient 'alors', etc."
+        "correction": "En passant au discours indirect, 'je' devient 'il/elle', 'ici' devient 'lÃ ', 'maintenant' devient 'alors', etc."
       }
     ]
   }

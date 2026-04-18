@@ -1,70 +1,74 @@
 {
   "contents": {
-    "title": "Anglais - Les habitats et la biodiversité",
-    "level": "5eme",
-    "subject": "SVT"
+    "title": "Quiz Diagnostic NSI 1ere - Série 905",
+    "level": "1ere",
+    "subject": "NSI"
   },
   "quiz": {
-    "title": "Anglais - Les habitats et la biodiversité",
+    "title": "Requêtes SQL simples",
     "question_count": 8,
-    "level": "5eme",
-    "subject": "SVT",
+    "level": "1ere",
+    "subject": "NSI",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "",
-        "correction": "La bonne réponse est ‘Une mare ou un étang’. C'est un habitat adapté pour une grenouille."
+        "answer": "Le langage qui permet d'interroger et manipuler une base de données",
+        "correct": 0,
+        "correction": "En NSI, SQL désigne : le langage qui permet d'interroger et manipuler une base de données."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "answer": "faux",
-        "correction": "Vrai. La biodiversité aide un écosystème à mieux résister aux changements."
+        "answer": "vrai",
+        "correction": "Cette notion fait partie des fondamentaux travaillés en NSI."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Réponds en décrivant un habitat comme une forêt ou une prairie où un oiseau migrateur vit en été."
+        "type": "qcm",
+        "answer": "les requêtes",
+        "correct": 0,
+        "correction": "La notion clé à retenir ici est : les requêtes."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "answer": "",
-        "correction": "La bonne réponse est ‘Le chameau’. Il est bien adapté au désert."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La NSI combine pratique, raisonnement algorithmique et compréhension des systèmes."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "answer": "faux",
-        "correction": "Vrai. Un habitat fournit nourriture, abri et eau."
+        "type": "qcm",
+        "answer": "Comprendre les outils et concepts du numérique",
+        "correct": 0,
+        "correction": "L'objectif de la NSI est de comprendre le fonctionnement des outils numériques et des algorithmes."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "qcm",
-        "answer": "",
-        "correction": "La bonne réponse est ‘La pollution’. La pollution réduit souvent la biodiversité."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les notions de NSI s'observent dans le web, les réseaux, les programmes et les objets connectés."
       },
       {
         "index": 6,
         "question_id": 7,
-        "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Réponds que les animaux migrent pour trouver de meilleures conditions climatiques et plus de nourriture."
+        "type": "qcm",
+        "answer": "Un algorithme, un schéma ou un exemple de code",
+        "correct": 0,
+        "correction": "Les schémas, algorithmes et fragments de code aident à clarifier les notions de NSI."
       },
       {
         "index": 7,
         "question_id": 8,
-        "type": "qcm",
-        "answer": "",
-        "correction": "La bonne réponse est ‘Elle rend l'écosystème plus résilient’."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est un objectif central de l'enseignement NSI."
       }
     ]
   }

@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "∫ u'v dx = [uv] − ∫ uv' dx",
+        "answer": "B",
         "correction": "IPP : ∫ u'v dx = [uv] − ∫ uv' dx. On dérive v et on intègre u'."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. IPP : u'=eˣ, u=eˣ ; v=x, v'=1. ∫xeˣ dx = xeˣ − ∫eˣ dx = xeˣ − eˣ + C = (x−1)eˣ + C."
+        "correction": "IPP : u'=eˣ, u=eˣ ; v=x, v'=1. ∫xeˣ dx = xeˣ − ∫eˣ dx = xeˣ − eˣ + C = (x−1)eˣ + C."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "u' = 1, v = ln(x)",
+        "answer": "B",
         "correction": "On pose u' = 1 → u = x et v = ln(x) → v' = 1/x. IPP : ∫ln(x)dx = x·ln(x) − x + C."
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. [x·ln(x) − x]₁ᵉ = (e·1 − e) − (1·0 − 1) = 0 − (−1) = 1."
+        "correction": "[x·ln(x) − x]₁ᵉ = (e·1 − e) − (1·0 − 1) = 0 − (−1) = 1."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "x·sin(x) + cos(x) + C",
+        "answer": "A",
         "correction": "IPP : u'=cos x → u=sin x ; v=x → v'=1. ∫x·cos x dx = x·sin x − ∫sin x dx = x·sin x + cos x + C."
       },
       {

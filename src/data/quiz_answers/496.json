@@ -1,70 +1,73 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 496",
-    "level": "1ère",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 496",
+    "level": "1ere",
     "subject": "Français"
   },
   "quiz": {
-    "title": "Révisions : méthodologie EAF (écrit)",
+    "title": "RÃ©visions : mÃ©thodologie EAF (Ã©crit)",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Un commentaire ou une dissertation + une écriture d'invention",
-        "correction": "L'EAF écrit propose le choix entre commentaire et dissertation, plus un sujet d'écriture d'invention."
+        "answer": "Un commentaire ou une dissertation + une Ã©criture d'invention",
+        "correct": 1,
+        "correction": "L'EAF Ã©crit propose le choix entre commentaire et dissertation, plus un sujet d'Ã©criture d'invention."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "L'introduction du commentaire comprend : accroche, présentation du texte, problématique, annonce du plan."
+        "correction": "L'introduction du commentaire comprend : accroche, prÃ©sentation du texte, problÃ©matique, annonce du plan."
       },
       {
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La problématique articule le sujet en une question ouverte, guide et fil conducteur du devoir."
+        "answer": "faux",
+        "correction": "La problÃ©matique articule le sujet en une question ouverte, guide et fil conducteur du devoir."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Plan dialectique",
-        "correction": "La question appelle une discussion : oui (thèse) / nuances ou non (antithèse) / dépassement (synthèse)."
+        "correct": 1,
+        "correction": "La question appelle une discussion : oui (thÃ¨se) / nuances ou non (antithÃ¨se) / dÃ©passement (synthÃ¨se)."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "Le sujet d'invention précise souvent le genre (dialogue, lettre, discours, suite de texte…)."
+        "correction": "Le sujet d'invention prÃ©cise souvent le genre (dialogue, lettre, discours, suite de texteâ€¦)."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La citation courte du texte est la preuve textuelle de l'analyse ; elle est indispensable."
+        "answer": "faux",
+        "correction": "La citation courte du texte est la preuve textuelle de l'analyse ; elle est indispensable."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "4 heures",
-        "correction": "L'EAF écrit dure 4 heures, permettant de traiter les deux parties (lecture + écriture)."
+        "correct": 2,
+        "correction": "L'EAF Ã©crit dure 4 heures, permettant de traiter les deux parties (lecture + Ã©criture)."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "faux",
-        "correction": "Seule la copie finale est notée ; les brouillons sont des outils de préparation non évalués."
+        "correction": "Seule la copie finale est notÃ©e ; les brouillons sont des outils de prÃ©paration non Ã©valuÃ©s."
       }
     ]
   }

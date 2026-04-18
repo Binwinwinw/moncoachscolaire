@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 566",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie"
   },
   "quiz": {
     "title": "La France de la Ve République et les Trente Glorieuses",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "1958",
+        "correct": 2,
         "correction": "La Constitution de la Ve République est adoptée par référendum le 28 septembre 1958 ; elle renforce le pouvoir exécutif (président de la République)."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Mai 68 est une crise sociale et culturelle majeure ; De Gaulle dissout l'Assemblée nationale et remporte les élections, mais démissionne en 1969."
+        "correction": "Mai 68 est une crise sociale et culturelle majeure ; De Gaulle dissout l'Assemblée nationale et remporte les élections, mais démissionne en 1969."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Charles de Gaulle",
+        "correct": 3,
         "correction": "De Gaulle est élu premier président de la Ve République en décembre 1958, et jusqu'à sa démission en avril 1969."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La loi Veil (du nom de Simone Veil, ministre de la Santé) légalise l'IVG le 17 janvier 1975, malgré une vive opposition."
+        "correction": "La loi Veil (du nom de Simone Veil, ministre de la Santé) légalise l'IVG le 17 janvier 1975, malgré une vive opposition."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Le premier choc pétrolier",
+        "correct": 1,
         "correction": "Le choc pétrolier de 1973 (quadruplement du prix du pétrole par les pays arabes de l'OPEP) met fin à la croissance facile et inaugure une longue période de chômage."
       },
       {

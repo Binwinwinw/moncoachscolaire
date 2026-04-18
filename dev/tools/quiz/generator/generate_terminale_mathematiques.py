@@ -17,9 +17,12 @@ import random
 from datetime import UTC, datetime
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", "..", ".."))
 OUTPUT_DIR = os.path.join(SCRIPT_DIR, "terminale_mathematiques_quizzes")
 QUIZ_DIR = os.path.join(OUTPUT_DIR, "quiz")
 ANSWERS_DIR = os.path.join(OUTPUT_DIR, "quiz_answers")
+RUNTIME_QUIZ_DIR = os.path.join(REPO_ROOT, "src", "data", "quiz")
+RUNTIME_ANSWERS_DIR = os.path.join(REPO_ROOT, "src", "data", "quiz_answers")
 
 # Pattern : qcm, vrai-faux, texte, qcm, vrai-faux, texte, qcm, vrai-faux
 quizzes_data = [
@@ -2151,6 +2154,23 @@ for qid, title, theme in PROGRESSIVE_COMPLETION_SPECS:
     )
 
 
+def normalize_question_type(question_type):
+    qt = str(question_type).strip().lower()
+    if qt == "qcm":
+        return "qcm"
+    if qt in {"vrai-faux", "vrai faux", "open", "texte", "text"}:
+        return "vrai-faux"
+    return "vrai-faux"
+
+
+def build_true_false_statement(question_text, fallback_answer=""):
+    question_text = str(question_text).strip()
+    fallback_answer = str(fallback_answer).strip().rstrip(".")
+    if fallback_answer:
+        return f"{question_text} La bonne réponse attendue est : {fallback_answer}."
+    return question_text or "Choisis si l'affirmation est vraie ou fausse."
+
+
 def make_quiz(qid, title, subject, level, questions):
     created_at = datetime.now(UTC).strftime("%Y-%m-%d %H:%M:%S")
     runtime_questions = []
@@ -2158,7 +2178,7 @@ def make_quiz(qid, title, subject, level, questions):
 
     for question in questions:
         cleaned_question = {key: value for key, value in question.items() if key not in answer_keys}
-        qtype = str(question.get("type", "texte"))
+        qtype = normalize_question_type(question.get("type", ""))
         if qtype == "qcm":
             runtime_questions.append(
                 {
@@ -2167,18 +2187,14 @@ def make_quiz(qid, title, subject, level, questions):
                     "choices": list(cleaned_question.get("options", [])),
                 }
             )
-        elif qtype == "vrai-faux":
-            runtime_questions.append(
-                {
-                    "type": "vrai-faux",
-                    "question": str(cleaned_question.get("question", "")),
-                }
-            )
         else:
             runtime_questions.append(
                 {
-                    "type": "open",
-                    "question": str(cleaned_question.get("question", "")),
+                    "type": "vrai-faux",
+                    "question": build_true_false_statement(
+                        cleaned_question.get("question", ""),
+                        question.get("correct_answer", ""),
+                    ),
                 }
             )
 
@@ -2211,7 +2227,7 @@ def make_quiz(qid, title, subject, level, questions):
 def make_answers(qid, title, subject, level, questions):
     answers = []
     for index, question in enumerate(questions):
-        qtype = str(question.get("type", "texte"))
+        qtype = normalize_question_type(question.get("type", ""))
         if qtype == "qcm":
             answers.append(
                 {
@@ -2222,23 +2238,13 @@ def make_answers(qid, title, subject, level, questions):
                     "correction": question.get("explanation", ""),
                 }
             )
-        elif qtype == "vrai-faux":
-            answers.append(
-                {
-                    "index": index,
-                    "question_id": index + 1,
-                    "type": "vrai-faux",
-                    "answer": "vrai" if bool(question.get("correct", False)) else "faux",
-                    "correction": question.get("explanation", ""),
-                }
-            )
         else:
             answers.append(
                 {
                     "index": index,
                     "question_id": index + 1,
-                    "type": "open",
-                    "answer": question.get("correct_answer", ""),
+                    "type": "vrai-faux",
+                    "answer": "vrai" if bool(question.get("correct", True)) else "faux",
                     "correction": question.get("explanation", ""),
                 }
             )
@@ -2282,7 +2288,7 @@ def verify_random_sentinel():
             f"[sentinel] mismatch for quiz {sentinel_qid}: questions={len(questions)} answers={len(answers)}"
         )
 
-    allowed_types = {"qcm", "vrai-faux", "open"}
+    allowed_types = {"qcm", "vrai-faux"}
     for index, question in enumerate(questions):
         question_type = str(question.get("type", ""))
         if question_type not in allowed_types:
@@ -2293,23 +2299,28 @@ def verify_random_sentinel():
     print(f"[sentinel] OK quiz={sentinel_qid} questions={len(questions)} answers={len(answers)}")
 
 
+def write_json(path, payload):
+    with open(path, "w", encoding="utf-8", newline="\n") as file_obj:
+        json.dump(payload, file_obj, ensure_ascii=False, indent=2)
+        file_obj.write("\n")
+
+
 def write_quiz_files():
     os.makedirs(QUIZ_DIR, exist_ok=True)
     os.makedirs(ANSWERS_DIR, exist_ok=True)
+    os.makedirs(RUNTIME_QUIZ_DIR, exist_ok=True)
+    os.makedirs(RUNTIME_ANSWERS_DIR, exist_ok=True)
 
     for qid, title, subject, level, questions in quizzes_data:
         quiz = make_quiz(qid, title, subject, level, questions)
         answers = make_answers(qid, title, subject, level, questions)
 
-        with open(os.path.join(QUIZ_DIR, f"{qid}.json"), "w", encoding="utf-8", newline="\n") as file_obj:
-            json.dump(quiz, file_obj, ensure_ascii=False, indent=2)
-            file_obj.write("\n")
+        write_json(os.path.join(QUIZ_DIR, f"{qid}.json"), quiz)
+        write_json(os.path.join(ANSWERS_DIR, f"{qid}.json"), answers)
+        write_json(os.path.join(RUNTIME_QUIZ_DIR, f"{qid}.json"), quiz)
+        write_json(os.path.join(RUNTIME_ANSWERS_DIR, f"{qid}.json"), answers)
 
-        with open(os.path.join(ANSWERS_DIR, f"{qid}.json"), "w", encoding="utf-8", newline="\n") as file_obj:
-            json.dump(answers, file_obj, ensure_ascii=False, indent=2)
-            file_obj.write("\n")
-
-    print(f"{len(quizzes_data)} quiz generated in {OUTPUT_DIR}")
+    print(f"{len(quizzes_data)} quiz generated in {OUTPUT_DIR} and synced to runtime")
     verify_random_sentinel()
 
 

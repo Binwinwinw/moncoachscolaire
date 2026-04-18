@@ -2,19 +2,19 @@
   "contents": {
     "title": "Quiz Diagnostic Anglais terminale - SÃ©rie 1809",
     "type": "quiz",
-    "level": "terminale",
+    "level": "Terminale",
     "subject": "Anglais",
     "description": "Diagnostic Anglais terminale : Anglais terminale - Comprendre un article",
     "status": "published",
-    "created_at": "2026-04-06 06:40:47",
-    "updated_at": "2026-04-06 06:40:47",
+    "created_at": "2026-04-18 18:52:45",
+    "updated_at": "2026-04-18 18:52:45",
     "source": "Eduscol programmes officiels + BOEN",
     "programme_ref": "BO special ndeg8 du 25 juillet 2019 + Eduscol Langues vivantes Terminale"
   },
   "quiz": {
     "title": "Anglais terminale - Comprendre un article",
     "type": "quiz",
-    "level": "terminale",
+    "level": "Terminale",
     "subject": "Anglais",
     "question_count": 8,
     "passing_score": 70,
@@ -35,7 +35,7 @@
         "question": "[Anglais terminale] Sur 'Comprendre un article', verifier ses reponses avant validation ameliore la fiabilite."
       },
       {
-        "type": "open",
+        "type": "vrai-faux",
         "question": "[Anglais terminale] Cite une methode concrete pour progresser sur le theme 'Comprendre un article'."
       },
       {
@@ -53,7 +53,7 @@
         "question": "[Anglais terminale] L'explication d'une reponse est moins importante que la reponse elle-meme."
       },
       {
-        "type": "open",
+        "type": "vrai-faux",
         "question": "[Anglais terminale] Propose un exemple d'auto-correction pertinente sur 'Comprendre un article'."
       },
       {
@@ -72,19 +72,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Littérature contemporaine",
-      "description": "Notion fondamentale de Anglais"
-    },
-    {
-      "notion": "Débat et réfutation",
-      "description": "Notion fondamentale de Anglais"
-    },
-    {
-      "notion": "Anglais spécialisé",
-      "description": "Notion fondamentale de Anglais"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

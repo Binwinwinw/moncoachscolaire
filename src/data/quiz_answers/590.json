@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 590",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie"
   },
   "quiz": {
     "title": "Espaces de faible densité et attractivité",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Moins de 30 hab/km2",
+        "correct": 1,
         "correction": "Ce seuil est souvent utilisé en géographie scolaire."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Ces activités structurent l'économie locale."
+        "correction": "Ces activités structurent l'économie locale."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Le numérique et le télétravail",
+        "correct": 1,
         "correction": "La connectivité améliore l'installation et l'emploi."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. On parle aussi de recomposition des campagnes."
+        "correction": "On parle aussi de recomposition des campagnes."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La désertification médicale",
+        "correct": 1,
         "correction": "L'accès aux services de santé est un enjeu majeur."
       },
       {

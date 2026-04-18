@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 576",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie"
   },
   "quiz": {
     "title": "Les inégalités mondiales de développement",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le niveau de vie, l'espérance de vie et l'accès à l'éducation",
+        "correct": 1,
         "correction": "L'IDH (PNUD, 1990) combine espérance de vie, niveau d'éducation et revenu national brut par habitant en un indice de 0 à 1."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Les BRICS sont des économies émergentes majeures qui représentent plus de 40% de la population mondiale et 25% du PIB mondial."
+        "correction": "Les BRICS sont des économies émergentes majeures qui représentent plus de 40% de la population mondiale et 25% du PIB mondial."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "2,15 dollars par jour",
+        "correct": 1,
         "correction": "Le seuil de pauvreté extrême de la Banque mondiale est de 2,15 dollars/jour (2022) ; environ 700 millions de personnes vivent en dessous."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La transition démographique accompagne le développement économique ; les pays riches sont en phase 4 (faible natalité et faible mortalité)."
+        "correction": "La transition démographique accompagne le développement économique ; les pays riches sont en phase 4 (faible natalité et faible mortalité)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La Banque mondiale et le FMI",
+        "correct": 1,
         "correction": "La Banque mondiale finance des projets de développement dans les pays pauvres ; le FMI supervise le système monétaire international."
       },
       {

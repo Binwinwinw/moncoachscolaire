@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "To introduce the main idea",
+        "correct": 1,
         "correction": "La topic sentence annonce clairement l'idée directrice du paragraphe."
       },
       {
@@ -27,8 +28,8 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "moreover",
+        "type": "vrai-faux",
+        "answer": "vrai",
         "correction": "'Moreover' sert à ajouter un argument de façon formelle."
       },
       {
@@ -36,6 +37,7 @@
         "question_id": 4,
         "type": "qcm",
         "answer": "To sum up, social media can be useful if used responsibly.",
+        "correct": 1,
         "correction": "Une conclusion reformule l'idée principale de manière synthétique."
       },
       {
@@ -48,8 +50,8 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "for example",
+        "type": "vrai-faux",
+        "answer": "vrai",
         "correction": "'For example' introduit une illustration concrète."
       },
       {
@@ -57,6 +59,7 @@
         "question_id": 7,
         "type": "qcm",
         "answer": "Avoid very repetitive basic words",
+        "correct": 1,
         "correction": "Varier le lexique et structurer les phrases améliore la qualité rédactionnelle."
       },
       {

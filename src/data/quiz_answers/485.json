@@ -1,70 +1,73 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 485",
-    "level": "1ère",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 485",
+    "level": "1ere",
     "subject": "Français"
   },
   "quiz": {
-    "title": "L'expression écrite : la synthèse de documents",
+    "title": "L'expression Ã©crite : la synthÃ¨se de documents",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Un texte qui articule les idées de plusieurs documents autour d'une problématique commune",
-        "correction": "La synthèse regroupe et organise les idées des documents sans les juxtaposer ni donner son avis personnel."
+        "answer": "Un texte qui articule les idÃ©es de plusieurs documents autour d'une problÃ©matique commune",
+        "correct": 1,
+        "correction": "La synthÃ¨se regroupe et organise les idÃ©es des documents sans les juxtaposer ni donner son avis personnel."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "faux",
-        "correction": "La synthèse est un exercice objectif : on reformule les idées des auteurs sans les commenter ni y adhérer."
+        "correction": "La synthÃ¨se est un exercice objectif : on reformule les idÃ©es des auteurs sans les commenter ni y adhÃ©rer."
       },
       {
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Ex. : 'Selon (doc. 1)…', 'L'auteur du doc. 2 montre que…' → référence aux sources."
+        "answer": "faux",
+        "correction": "Ex. : 'Selon (doc. 1)â€¦', 'L'auteur du doc. 2 montre queâ€¦' â†’ rÃ©fÃ©rence aux sources."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "Introduction (problématique) + développement thématique + conclusion",
-        "correction": "La synthèse suit un plan thématique (non documentaire) : les idées sont regroupées par thèmes, pas par document."
+        "answer": "Introduction (problÃ©matique) + dÃ©veloppement thÃ©matique + conclusion",
+        "correct": 1,
+        "correction": "La synthÃ¨se suit un plan thÃ©matique (non documentaire) : les idÃ©es sont regroupÃ©es par thÃ¨mes, pas par document."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
         "answer": "faux",
-        "correction": "Les citations sont réduites au minimum ; on reformule (reformulation fidèle) plutôt qu'on ne cite."
+        "correction": "Les citations sont rÃ©duites au minimum ; on reformule (reformulation fidÃ¨le) plutÃ´t qu'on ne cite."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Avant tout, on interroge : Quel est le problème/thème commun à tous ces documents ?"
+        "answer": "faux",
+        "correction": "Avant tout, on interroge : Quel est le problÃ¨me/thÃ¨me commun Ã  tous ces documents ?"
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Il juxtapose les documents sans les articuler",
-        "correction": "La synthèse doit croiser les documents, pas les présenter l'un après l'autre."
+        "correct": 1,
+        "correction": "La synthÃ¨se doit croiser les documents, pas les prÃ©senter l'un aprÃ¨s l'autre."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "faux",
-        "correction": "L'épreuve anticipée de Français au bac comprend la lecture (commentaire ou dissertation) et l'écriture personnelle, non la synthèse qui est propre au BTS/classes prépas."
+        "correction": "L'Ã©preuve anticipÃ©e de FranÃ§ais au bac comprend la lecture (commentaire ou dissertation) et l'Ã©criture personnelle, non la synthÃ¨se qui est propre au BTS/classes prÃ©pas."
       }
     ]
   }

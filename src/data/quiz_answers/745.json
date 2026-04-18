@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 745",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie"
   },
   "quiz": {
     "title": "Énergie : conservation et bilan énergétique",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Elle se conserve (reste constante)",
+        "correct": 2,
         "correction": "En l'absence de frottements, l'énergie mécanique Em = Ec + Ep se conserve : l'énergie cinétique et l'énergie potentielle se transforment l'une en l'autre."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. L'énergie mécanique Em est la somme de l'énergie cinétique Ec = ½mv² et de l'énergie potentielle de pesanteur Ep = mgh."
+        "correction": "L'énergie mécanique Em est la somme de l'énergie cinétique Ec = ½mv² et de l'énergie potentielle de pesanteur Ep = mgh."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Énergie solaire → énergie thermique (chaleur)",
+        "correct": 1,
         "correction": "Un panneau solaire thermique capte le rayonnement solaire et le convertit en chaleur pour chauffer de l'eau ou des locaux."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le premier principe de la thermodynamique stipule que l'énergie totale d'un système isolé est constante : elle ne peut être créée ni détruite."
+        "correction": "Le premier principe de la thermodynamique stipule que l'énergie totale d'un système isolé est constante : elle ne peut être créée ni détruite."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Énergie chimique → énergie électrique",
+        "correct": 1,
         "correction": "Une pile convertit l'énergie chimique stockée dans ses réactifs en énergie électrique par une réaction d'oxydoréduction."
       },
       {

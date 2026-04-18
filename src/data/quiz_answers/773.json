@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le cahier des charges fonctionnel",
+        "correct": 1,
         "correction": "Le CdCF (Cahier des Charges Fonctionnel) liste toutes les fonctions, contraintes et performances que le produit doit respecter pour satisfaire le besoin."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Une maquette (ou modele) permet de tester et visualiser un objet avant sa fabrication definitive, reduisant les couts et les erreurs."
+        "correction": "Une maquette (ou modele) permet de tester et visualiser un objet avant sa fabrication definitive, reduisant les couts et les erreurs."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Un premier exemplaire fonctionnel d'un produit permettant de le tester",
+        "correct": 1,
         "correction": "Le prototype est le premier exemplaire fonctionnel realise pour valider les choix techniques avant la production en serie."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La maquette numerique 3D (realise avec SolidWorks, FreeCAD, Fusion 360) permet de visualiser, simuler et modifier un objet avant fabrication."
+        "correction": "La maquette numerique 3D (realise avec SolidWorks, FreeCAD, Fusion 360) permet de visualiser, simuler et modifier un objet avant fabrication."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Diagramme de Gantt",
+        "correct": 1,
         "correction": "Le diagramme de Gantt (Henri Gantt, 1910) represente le planning d'un projet avec les taches, leur duree et leur chevauchement eventuel."
       },
       {

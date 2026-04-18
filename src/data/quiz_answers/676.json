@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic SVT 3ème - Série 676",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT"
   },
   "quiz": {
     "title": "Géologie : séismes",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le point en surface situé à la verticale du foyer",
+        "correct": 1,
         "correction": "L'épicentre est le point de la surface terrestre directement au-dessus du foyer (hypocentre) du séisme."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le sismographe enregistre les vibrations du sol lors d'un séisme ; le tracé obtenu est un sismogramme."
+        "correction": "Le sismographe enregistre les vibrations du sol lors d'un séisme ; le tracé obtenu est un sismogramme."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Un séisme sous-marin ou une éruption volcanique sous-marine",
+        "correct": 1,
         "correction": "Un tsunami résulte d'un déplacement vertical brutal du fond marin lors d'un séisme sous-marin ou d'une éruption volcanique."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La liquéfaction des sols est un phénomène où les secousses sismiques transforment un sol meuble en liquide, provoquant l'effondrement des bâtiments."
+        "correction": "La liquéfaction des sols est un phénomène où les secousses sismiques transforment un sol meuble en liquide, provoquant l'effondrement des bâtiments."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Le séisme 7 libère environ 32 fois plus d'énergie",
+        "correct": 1,
         "correction": "L'échelle de Richter est logarithmique : chaque unité correspond à environ 32 fois plus d'énergie libérée."
       },
       {

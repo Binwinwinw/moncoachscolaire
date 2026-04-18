@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic SES 1ère - Série 822",
+    "title": "Quiz Diagnostic SES 1ere - Série 822",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
-    "description": "Diagnostic SES 1ère : Élasticité-prix",
+    "description": "Diagnostic SES 1ere : Élasticité-prix",
     "status": "published",
-    "created_at": "2026-04-06 06:40:40",
-    "updated_at": "2026-04-06 06:40:40"
+    "created_at": "2026-04-18 20:28:31",
+    "updated_at": "2026-04-18 20:28:31"
   },
   "quiz": {
     "title": "Élasticité-prix",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "L'essence, les médicaments indispensables, le tabac… La demande varie peu car ce sont des biens de première nécessité ou sans substitut proche."
+        "question": "Donnez un exemple de bien à demande inélastique et expliquez pourquoi."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Une entreprise augmentera son prix si la demande est inélastique (les recettes augmentent) et baissera son prix si la demande est élastique (les recettes augmentent aussi via le volume)."
+        "question": "Pourquoi les entreprises utilisent-elles l'élasticité-prix pour fixer leurs tarifs ?"
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Inégalités et redistribution",
-      "description": "Notion fondamentale de SES"
-    },
-    {
-      "notion": "Croissance économique",
-      "description": "Notion fondamentale de SES"
-    },
-    {
-      "notion": "Mondialisation",
-      "description": "Notion fondamentale de SES"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

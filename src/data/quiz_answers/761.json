@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La loi du 29 juillet 1881 sur la liberte de la presse",
+        "correct": 0,
         "correction": "La loi de 1881 garantit la liberté de la presse tout en posant des limites (diffamation, injure, appel à la haine) ; elle reste le texte fondateur du droit de la presse en France."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La désinformation (ou infox / fake news) désigne la diffusion intentionnelle de fausses informations pour manipuler l'opinion publique."
+        "correction": "La désinformation (ou infox / fake news) désigne la diffusion intentionnelle de fausses informations pour manipuler l'opinion publique."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Le CSA / ARCOM",
+        "correct": 0,
         "correction": "L'ARCOM (Autorité de Régulation de la Communication Audiovisuelle et Numérique, ex-CSA, créée en 2022) régule les médias audiovisuels et les plateformes numériques en France."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La chambre d'écho (ou bulle de filtre) désigne l'enfermement de l'utilisateur dans un univers informationnel homogène, renforçant ses biais cognitifs."
+        "correction": "La chambre d'écho (ou bulle de filtre) désigne l'enfermement de l'utilisateur dans un univers informationnel homogène, renforçant ses biais cognitifs."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Informer le public, controler les pouvoirs et donner la parole aux citoyens",
+        "correct": 1,
         "correction": "Les journalistes sont souvent qualifiés de 'quatrième pouvoir' : ils informent, enquêtent, contrôlent les institutions et permettent le débat démocratique."
       },
       {

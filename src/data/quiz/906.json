@@ -1,94 +1,81 @@
 {
   "contents": {
-    "title": "Les cycles des nutriments en SVT",
+    "title": "Quiz Diagnostic NSI 1ere - Série 906",
     "type": "quiz",
-    "level": "5eme",
-    "subject": "SVT",
-    "description": "Diagnostic SVT 5eme : Nutriments et recyclage dans les écosystèmes",
+    "level": "1ere",
+    "subject": "NSI",
+    "description": "Diagnostic NSI 1ere : Algorithmes gloutons",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-08 00:05:00"
+    "created_at": "2026-04-18 20:28:31",
+    "updated_at": "2026-04-18 20:28:31"
   },
   "quiz": {
-    "title": "Anglais - Les cycles des nutriments en SVT",
-    "level": "5eme",
-    "subject": "SVT",
+    "title": "Algorithmes gloutons",
+    "type": "quiz",
+    "level": "1ere",
+    "subject": "NSI",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel organisme aide à recycler les nutriments dans le sol ?",
+        "question": "Quelle définition correspond le mieux à un algorithme glouton ?",
         "choices": [
-          "Un ver de terre",
-          "Une libellule",
-          "Un aigle",
-          "Un poisson"
+          "Une méthode qui fait un choix localement optimal à chaque étape",
+          "Une figure géométrique",
+          "Une règle de grammaire",
+          "Un mouvement littéraire"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Les décomposeurs transforment les matières mortes en éléments nutritifs."
-      },
-      {
-        "type": "vrai-faux",
-        "question": "Réponds que le recyclage des nutriments permet aux plantes de retrouver de l'azote et d'autres éléments dans le sol."
+        "question": "Un algorithme glouton est une notion utile pour comprendre le fonctionnement des systèmes numériques."
       },
       {
         "type": "qcm",
-        "question": "Quel élément est libéré par la décomposition pour être utilisé par les plantes ?",
+        "question": "Quelle notion est la plus directement associée à un algorithme glouton ?",
         "choices": [
-          "Le carbone",
-          "Le fer",
-          "L'azote",
-          "Le plastique"
+          "l'optimisation",
+          "la fable",
+          "la photosynthèse",
+          "la mondialisation"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Le sol retourne des nutriments aux plantes via les racines."
+        "question": "Pour travailler un algorithme glouton, on peut utiliser des activités pratiques, du code ou des schémas."
       },
       {
         "type": "qcm",
-        "question": "Quel type d'organisme est souvent appelé un décomposeur ?",
+        "question": "Quel est l'objectif principal de l'étude de un algorithme glouton ?",
         "choices": [
-          "Une bactérie",
-          "Une griffe",
-          "Un arbre",
-          "Un oiseau"
+          "Comprendre les outils et concepts du numérique",
+          "Réciter des dates historiques",
+          "Apprendre uniquement par cœur",
+          "Éviter toute expérimentation"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Réponds avec une action comme limiter le labour ou éviter les produits chimiques pour protéger le sol."
+        "question": "Un algorithme glouton peut être relié à des usages concrets du quotidien numérique."
       },
       {
         "type": "qcm",
-        "question": "Quel est un effet positif du recyclage des nutriments ?",
+        "question": "Quel support peut aider à mieux comprendre un algorithme glouton ?",
         "choices": [
-          "Une meilleure croissance des plantes",
-          "Une diminution de l'eau disponible",
-          "Une augmentation de la pollution",
-          "Une perte d'espèces"
+          "Un algorithme, un schéma ou un exemple de code",
+          "Une seule récitation orale",
+          "Un vers rimé",
+          "Une carte des reliefs"
         ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Étudier un algorithme glouton développe la logique et la compréhension des systèmes informatiques."
       }
-    ],
-    "type": "quiz"
+    ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Nutriments",
-      "description": "Les nutriments comme l'azote et le carbone sont nécessaires aux plantes pour grandir."
-    },
-    {
-      "notion": "Décomposeurs",
-      "description": "Les décomposeurs recyclent la matière morte en éléments nutritifs dans le sol."
-    },
-    {
-      "notion": "Cycle des nutriments",
-      "description": "Le cycle des nutriments décrit comment les éléments se déplacent entre les plantes, les animaux et le sol."
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

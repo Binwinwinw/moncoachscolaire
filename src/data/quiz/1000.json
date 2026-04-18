@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques 2nde : Suites arithmetiques",
     "status": "published",
-    "created_at": "2026-04-06 06:40:42",
-    "updated_at": "2026-04-06 06:40:42"
+    "created_at": "2026-04-18 18:34:33",
+    "updated_at": "2026-04-18 18:34:33"
   },
   "quiz": {
     "title": "Suites arithmetiques",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Je commence par reformuler le probleme, puis je choisis les outils adaptes et je verifie le resultat dans le contexte de l'enonce."
+        "question": "Explique en 2-3 phrases comment tu traiterais un exercice sur le theme: terme general, raison et somme. La bonne réponse attendue est : Je commence par reformuler le probleme, puis je choisis les outils adaptes et je verifie le resultat dans le contexte de l'enonce."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Erreur frequente: appliquer une formule hors conditions."
+        "question": "Cite une erreur frequente dans ce type d'exercice et comment l'eviter. La bonne réponse attendue est : Erreur frequente: appliquer une formule hors conditions. Pour l'eviter, je verifie d'abord les hypotheses d'application."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Définition et identification",
-      "description": "Comprendre la définition d'une suite arithmétique et identifier les éléments clés tels que le premier terme et la raison"
-    },
-    {
-      "notion": "Formule de la suite arithmétique",
-      "description": "Utiliser la formule de la suite arithmétique pour trouver le nième terme ou la somme des termes"
-    },
-    {
-      "notion": "Analyse des données",
-      "description": "Analyser les données fournies dans l'exercice pour déterminer les informations nécessaires pour résoudre le problème"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6ème - Série 0023",
+    "level": "6eme",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "Expressions courantes : salutations, formules de politesse, phrases simples",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Hello",
+        "correction": "'Hello' is a common English greeting used to say hi or welcome someone."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "'Thank you' is indeed a phrase used to express gratitude in English."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "See you later",
+        "correction": "'See you later' is a common English expression used to say goodbye or indicate that you will see someone again in the future."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "'Please' is indeed a word used to make requests more polite in English."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "'How are you?', 'What's up?', and 'How's it going?' are all common English expressions used to ask how someone is doing or feeling."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "'Excuse me' is indeed a phrase used to get someone's attention or apologize in English."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "'Thank you', 'You're welcome', and 'Great job' are all common English expressions used to show appreciation."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "'Have a nice day' is indeed a common way to wish someone well in English."
+      }
+    ]
+  }
+}

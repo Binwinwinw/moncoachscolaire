@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 0210",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Notions de base en Ã©lectronique (circuit, composant).",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Tous les concepts mentionnÃ©s",
+        "correction": "Les concepts de base en Ã©lectronique comprennent le circuit, qui est un chemin fermÃ© Ã  travers lequel le courant Ã©lectrique peut circuler, le composant, qui est une partie individuelle d'un circuit Ã©lectronique, et la rÃ©sistance, qui est une mesure de la difficultÃ© pour le courant de circuler Ã  travers un composant ou un circuit."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, un circuit est dÃ©fini comme un chemin fermÃ© qui permet au courant Ã©lectrique de circuler, et il peut Ãªtre composÃ© de divers composants Ã©lectroniques tels que des rÃ©sistances, des condensateurs, et des transistors."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "RÃ©sistance",
+        "correction": "Une rÃ©sistance est un exemple de composant Ã©lectronique qui limite le flux de courant dans un circuit."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, un transistor est un composant Ã©lectronique essentiel qui peut Ãªtre utilisÃ© pour amplifier ou commuter des signaux Ã©lectriques dans les circuits Ã©lectroniques."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Un circuit imprimÃ©",
+        "correction": "Un circuit imprimÃ© (PCB) est un exemple de circuit Ã©lectronique qui supporte et connecte les composants Ã©lectroniques Ã  l'aide de pistes conductrices."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, il existe une diffÃ©rence entre les diffÃ©rents concepts en Ã©lectronique en termes de leur fonction, de leur utilisation, et de leur importance dans la conception et le fonctionnement des circuits Ã©lectroniques."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Clavier",
+        "correction": "Un clavier est un pÃ©riphÃ©rique d'entrÃ©e utilisÃ© pour interagir avec un ordinateur, et n'est pas considÃ©rÃ© comme un composant Ã©lectronique dans le contexte des circuits Ã©lectroniques."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, tous les composants Ã©lectroniques sont conÃ§us pour Ãªtre utilisÃ©s dans des circuits Ã©lectroniques afin de remplir des fonctions spÃ©cifiques telles que la rÃ©sistance, l'amplification, ou la commutation de signaux Ã©lectriques."
+      }
+    ]
+  }
+}

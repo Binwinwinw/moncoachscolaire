@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques 2nde : Ordre & inégalités",
     "status": "published",
-    "created_at": "2026-04-06 06:40:42",
-    "updated_at": "2026-04-06 06:40:42"
+    "created_at": "2026-04-18 18:34:32",
+    "updated_at": "2026-04-18 18:34:32"
   },
   "quiz": {
     "title": "Ordre & inégalités",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "X > 4, soit ]4 ; +∞[."
+        "question": "Résous l'inégalité 3x − 5 > 7 et exprime la solution sous forme d'intervalle. La bonne réponse attendue est : x > 4, soit ]4 ; +∞[."
       },
       {
         "type": "qcm",
@@ -52,11 +52,11 @@
       },
       {
         "type": "vrai-faux",
-        "question": "X > 2 ET x < 5, soit x ∈ ]2 ; 5[."
+        "question": "Résous le système d'inégalités : 2x + 1 > 5 ET x − 3 < 2. La bonne réponse attendue est : x > 2 ET x < 5, soit x ∈ ]2 ; 5[."
       },
       {
         "type": "qcm",
-        "question": "Si a² 0, que peut-on conclure ?",
+        "question": "Si a² < b², avec a, b > 0, que peut-on conclure ?",
         "choices": [
           "a > b",
           "a < b",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fonctions polynomiales",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Géométrie analytique",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Ensembles et logique",
-      "description": "Notion fondamentale de Mathématiques"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

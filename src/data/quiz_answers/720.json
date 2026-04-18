@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 720",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie"
   },
   "quiz": {
     "title": "Chimie : bilan des transformations",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La transformation chimique produit de nouvelles substances ; la transformation physique ne modifie pas la nature des substances",
+        "correct": 1,
         "correction": "Une transformation chimique rompt et crée des liaisons (nouvelles substances) ; une transformation physique change l'état ou l'aspect sans modifier la formule chimique."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. L'enthalpie de réaction ΔH mesure la chaleur échangée à pression constante ; négative si exothermique, positive si endothermique."
+        "correction": "L'enthalpie de réaction ΔH mesure la chaleur échangée à pression constante ; négative si exothermique, positive si endothermique."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Combustion du bois",
+        "correct": 1,
         "correction": "La combustion est une réaction irréversible dans les conditions normales ; les produits (CO2, H2O, cendres) ne peuvent pas redevenir du bois spontanément."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. L'énergie d'activation est la barrière énergétique que les réactifs doivent franchir pour se transformer en produits."
+        "correction": "L'énergie d'activation est la barrière énergétique que les réactifs doivent franchir pour se transformer en produits."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Car les réactions chimiques et microbiologiques de dégradation sont ralenties par le froid",
+        "correct": 1,
         "correction": "La vitesse des réactions chimiques diminue avec la température (loi d'Arrhénius) ; les bactéries se développent aussi plus lentement."
       },
       {

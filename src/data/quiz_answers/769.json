@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Fraternite",
+        "correct": 1,
         "correction": "La fraternité, troisième terme de la devise républicaine, exprime le lien de solidarité entre citoyens : chacun doit contribuer au bien commun et aider les plus fragiles."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La Croix-Rouge internationale (CICR), fondée en 1863 par Henri Dunant après la bataille de Solférino, est à l'origine du droit international humanitaire."
+        "correction": "La Croix-Rouge internationale (CICR), fondée en 1863 par Henri Dunant après la bataille de Solférino, est à l'origine du droit international humanitaire."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La communaute internationale a le droit d'intervenir quand un Etat faillit a proteger ses citoyens de crimes contre l'humanite",
+        "correct": 1,
         "correction": "La R2P établit que si un État ne peut ou ne veut pas protéger ses citoyens de génocides, crimes de guerre ou crimes contre l'humanité, la communauté internationale peut intervenir."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. L'article 223-6 du Code pénal punit la non-assistance à personne en danger ; le devoir d'assistance est une obligation légale et morale."
+        "correction": "L'article 223-6 du Code pénal punit la non-assistance à personne en danger ; le devoir d'assistance est une obligation légale et morale."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "L'agence de l'ONU chargee de lutter contre la faim dans le monde",
+        "correct": 1,
         "correction": "Le PAM (Prix Nobel de la Paix 2020) est la plus grande organisation humanitaire mondiale ; il fournit une aide alimentaire d'urgence et lutte contre la faim et la malnutrition."
       },
       {

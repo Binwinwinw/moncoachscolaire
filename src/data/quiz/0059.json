@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 0059",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 6eme : Multiplication entiers (1 chiffre)",
+    "status": "published",
+    "created_at": "2026-04-18 20:07:58",
+    "updated_at": "2026-04-18 20:07:58"
+  },
+  "quiz": {
+    "title": "Multiplication entiers (1 chiffre)",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel est le résultat de 3 x 4 ?",
+        "choices": [
+          "7",
+          "11",
+          "12",
+          "15"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le résultat de 5 x 6 est 30."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le résultat de 7 x 8 ?",
+        "choices": [
+          "54",
+          "56",
+          "58",
+          "60"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le résultat de 9 x 9 est 81."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le résultat de 4 x 5 ?",
+        "choices": [
+          "18",
+          "19",
+          "20",
+          "21"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le résultat de 6 x 7 est 42."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le résultat de 8 x 9 ?",
+        "choices": [
+          "70",
+          "72",
+          "74",
+          "76"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le résultat de 2 x 3 est 5."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 712",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie"
   },
   "quiz": {
     "title": "Acides et bases : réactions et neutralisation",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "NaCl + H2O",
+        "correct": 1,
         "correction": "HCl + NaOH → NaCl + H2O : réaction de neutralisation donnant chlorure de sodium et eau."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le titrage (ou dosage) consiste à mesurer le volume d'une solution titrante de concentration connue nécessaire pour neutraliser l'analyte."
+        "correction": "Le titrage (ou dosage) consiste à mesurer le volume d'une solution titrante de concentration connue nécessaire pour neutraliser l'analyte."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Point d'équivalence",
+        "correct": 1,
         "correction": "Au point d'équivalence (ou point stœchiométrique), la quantité de titrant ajouté correspond exactement à la quantité d'analyte."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. H2SO4 + 2NaOH → Na2SO4 + 2H2O. Na2SO4 est le sulfate de sodium."
+        "correction": "H2SO4 + 2NaOH → Na2SO4 + 2H2O. Na2SO4 est le sulfate de sodium."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Tampon carbonate/bicarbonate (CO2/HCO3-)",
+        "correct": 1,
         "correction": "Le système tampon CO2/HCO3- est le principal régulateur du pH sanguin, maintenu entre 7,35 et 7,45."
       },
       {

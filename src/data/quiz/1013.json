@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Continuité d'une fonction",
     "status": "published",
-    "created_at": "2026-04-06 06:40:48",
-    "updated_at": "2026-04-06 06:40:48"
+    "created_at": "2026-04-18 18:52:46",
+    "updated_at": "2026-04-18 18:52:46"
   },
   "quiz": {
     "title": "Continuité d'une fonction",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "(x²−4)/(x−2) = x+2 → 4 quand x→2."
+        "question": "La fonction f définie par f(x) = (x²−4)/(x−2) pour x≠2 et f(2) = k est-elle continue en 2 ? Quelle valeur k doit prendre ? La bonne réponse attendue est : k = 4. Car lim(x→2)(x²−4)/(x−2) = lim(x+2) = 4."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "En tout entier n : lim par la gauche = n−1 ≠ lim par la droite = n."
+        "question": "Explique pourquoi la fonction partie entière ⌊x⌋ n'est pas continue en tout entier n. La bonne réponse attendue est : En tout entier n : lim par la gauche = n−1 ≠ lim par la droite = n. Il y a une discontinuité de saut."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Définition de la continuité",
-      "description": "Une fonction f est dite continue en a si la limite de f en a existe, si f(a) est défini et si la limite de f en a est égale à f(a)"
-    },
-    {
-      "notion": "Critères de continuité",
-      "description": "Les critères de continuité d'une fonction en un point a incluent la définition de la fonction en a, l'existence de la limite de la fonction en a et l'égalité entre la limite et la valeur de la fonctio"
-    },
-    {
-      "notion": "Théorème de la continuité",
-      "description": "Le théorème de la continuité stipule que si une fonction f est définie sur un intervalle [a, b] et si f est continue en chaque point de [a, b], alors f est continue sur [a, b]"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

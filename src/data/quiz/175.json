@@ -1,94 +1,75 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 6eme - Série 0175",
+    "title": "Quiz Diagnostic Histoire-Géographie 1ere - SÃ©rie 175",
     "type": "quiz",
-    "level": "6eme",
-    "subject": "Français",
-    "description": "Diagnostic Français 6eme : Français 6e - Les champs lexicaux",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 1ere : Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 1",
     "status": "published",
-    "created_at": "2026-04-06 06:25:38",
-    "updated_at": "2026-04-06 06:25:38"
+    "created_at": "2026-04-18 20:30:32",
+    "updated_at": "2026-04-18 20:30:32"
   },
   "quiz": {
-    "title": "Français 6e - Les champs lexicaux",
+    "title": "Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 1",
     "type": "quiz",
-    "level": "6eme",
-    "subject": "Français",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Qu'est-ce qu'un champ lexical ?",
+        "question": "Quelle pÃ©riode dÃ©signe-t-on par l'expression Â« Belle Ã‰poque Â» ?",
         "choices": [
-          "Un groupe de mots qui partagent une même racine",
-          "Un groupe de mots qui appartiennent à la même catégorie grammaticale",
-          "Un groupe de mots qui sont liés par un thème ou une idée commune",
-          "Un groupe de mots qui ont des significations opposées"
+          "1850-1870",
+          "1871-1914",
+          "1918-1939",
+          "1945-1968"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "L'utilisation de champs lexicaux peut contribuer à améliorer la qualité et l'efficacité de la communication écrite en permettant aux écrivains de créer une cohérence et une unité dans leur texte, en utilisant des mots qui évoquent des images ou des concepts liés, ce qui peut renforcer l'impact du message et favoriser une meilleure compréhension de la part des lecteurs."
+        "question": "La France connaÃ®t une forte croissance industrielle et dÃ©mographique Ã  la Belle Ã‰poque."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Citez deux inventions ou innovations majeures de la Belle Ã‰poque qui ont transformÃ© la vie quotidienne."
       },
       {
         "type": "qcm",
-        "question": "Quel est le champ lexical associé au thème de la nature ?",
+        "question": "Quel Ã©vÃ©nement met fin Ã  la Belle Ã‰poque ?",
         "choices": [
-          "Arbre, fleur, rivière",
-          "Maison, voiture, ville",
-          "Amour, amitié, famille",
-          "Musique, danse, art"
+          "La RÃ©volution russe de 1917",
+          "La crise de 1929",
+          "Le dÃ©clenchement de la PremiÃ¨re Guerre mondiale en 1914",
+          "La chute de la Commune de Paris"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "L'utilisation incorrecte des champs lexicaux peut parfois entraîner des confusions ou des malentendus dans la communication écrite, en rendant difficile pour les lecteurs de comprendre le thème ou l'idée commune que les écrivains cherchent à transmettre à travers les mots utilisés dans le texte."
+        "question": "La IIIe RÃ©publique franÃ§aise est fondÃ©e aprÃ¨s la dÃ©faite de 1870 face Ã  la Prusse."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Qu'est-ce que la loi de sÃ©paration de l'Ã‰glise et de l'Ã‰tat de 1905 Ã©tablit en France ?"
       },
       {
         "type": "qcm",
-        "question": "Quel est le champ lexical associé au thème de l'amour ?",
+        "question": "Quel Ã©vÃ©nement diplomatique majeur divise la France Ã  la fin du XIXe siÃ¨cle ?",
         "choices": [
-          "Amour, amitié, famille",
-          "Maison, voiture, ville",
-          "Arbre, fleur, rivière",
-          "Musique, danse, art"
+          "La crise du Maroc",
+          "L'affaire Dreyfus",
+          "La guerre des Boers",
+          "La crise de Fachoda"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "L'utilisation correcte des champs lexicaux est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les écrivains utilisent les mots de manière appropriée en fonction du thème ou de l'idée commune qu'ils souhaitent transmettre à travers leur texte."
-      },
-      {
-        "type": "qcm",
-        "question": "Quel est le champ lexical associé au thème de la musique ?",
-        "choices": [
-          "Musique, danse, art",
-          "Amour, amitié, famille",
-          "Maison, voiture, ville",
-          "Arbre, fleur, rivière"
-        ]
-      },
-      {
-        "type": "vrai-faux",
-        "question": "L'utilisation correcte des champs lexicaux est essentielle pour éviter les confusions et les erreurs dans la communication écrite."
+        "question": "La Triple Entente regroupe la France, le Royaume-Uni et l'Autriche-Hongrie avant 1914."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Français",
-      "description": "Notion du programme 6eme"
-    },
-    {
-      "notion": "Compétences de base 6eme",
-      "description": "Notion du programme 6eme"
-    },
-    {
-      "notion": "Savoir-faire français",
-      "description": "Notion du programme 6eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

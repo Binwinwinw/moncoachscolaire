@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques 2nde : Ensembles de nombres",
     "status": "published",
-    "created_at": "2026-04-06 06:40:42",
-    "updated_at": "2026-04-06 06:40:42"
+    "created_at": "2026-04-18 18:34:32",
+    "updated_at": "2026-04-18 18:34:32"
   },
   "quiz": {
     "title": "Ensembles de nombres",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "√2 est irrationnel : sa représentation décimale est infinie et non périodique, il ne peut pas s'écrire p/q avec p, q entiers."
+        "question": "Donne un exemple de nombre irrationnel et explique pourquoi il ne peut pas s'écrire sous forme de fraction. La bonne réponse attendue est : √2 est irrationnel : sa représentation décimale est infinie et non périodique, il ne peut pas s'écrire p/q avec p, q entiers."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Chaque ensemble est inclus dans le suivant : les entiers naturels sont dans Z, les entiers dans D (via fractions décimales), D dans Q, Q dans R."
+        "question": "Classe les ensembles N, Z, D, Q, R du plus petit (inclus) au plus grand. La bonne réponse attendue est : N ⊂ Z ⊂ D ⊂ Q ⊂ R."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fonctions polynomiales",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Géométrie analytique",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Ensembles et logique",
-      "description": "Notion fondamentale de Mathématiques"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic SES 1ère - Série 828",
-    "level": "1ère",
+    "title": "Quiz Diagnostic SES 1ere - Série 828",
+    "level": "1ere",
     "subject": "SES"
   },
   "quiz": {
     "title": "Les coûts de production",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Ne varie pas avec le niveau de production",
+        "correct": 1,
         "correction": "Les coûts fixes (loyer, amortissements) doivent être payés même si l'entreprise ne produit rien."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Seuil de rentabilité = coûts fixes / taux de marge sur coûts variables."
+        "answer": "faux",
+        "correction": "Seuil de rentabilité = coûts fixes / taux de marge sur coûts variables."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Diminue",
+        "correct": 1,
         "correction": "Quand Cm < CM, chaque unité supplémentaire coûte moins que la moyenne, donc la moyenne baisse."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. L'amortissement est un coût fixe interne qui n'entraîne pas de sortie de trésorerie annuelle mais réduit le résultat comptable."
+        "answer": "faux",
+        "correction": "L'amortissement est un coût fixe interne qui n'entraîne pas de sortie de trésorerie annuelle mais réduit le résultat comptable."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "L'entreprise couvre exactement tous ses coûts, y compris le coût d'opportunité",
+        "correct": 1,
         "correction": "Le profit économique nul signifie que l'entreprise gagne autant que dans la meilleure alternative possible (profit comptable = coût d'opportunité)."
       },
       {

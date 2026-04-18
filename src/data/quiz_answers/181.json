@@ -1,70 +1,73 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 6eme - Série 0181",
-    "level": "6eme",
-    "subject": "Français"
+    "title": "Quiz Diagnostic Histoire-Géographie 1ere - SÃ©rie 181",
+    "level": "1ere",
+    "subject": "Histoire-Géographie"
   },
   "quiz": {
-    "title": "Français 6e - Les phrases complexes",
+    "title": "Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 7",
     "question_count": 8,
-    "level": "6eme",
-    "subject": "Français",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Une phrase qui contient une proposition principale et au moins une proposition subordonnée",
-        "correction": "Une phrase complexe est une phrase qui contient une proposition principale et au moins une proposition subordonnée, ce qui permet d'exprimer des idées plus détaillées et nuancées."
+        "answer": "Le traitÃ© de Rome (1957)",
+        "correct": 1,
+        "correction": "Le traitÃ© de Rome, signÃ© le 25 mars 1957, crÃ©e la CommunautÃ© Ã‰conomique EuropÃ©enne (CEE) entre six pays fondateurs : France, Allemagne, Italie, Belgique, Pays-Bas, Luxembourg. Il Ã©tablit un marchÃ© commun et des politiques communes (agricole notamment)."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "C'est vrai. Les phrases complexes peuvent être classées en plusieurs types, tels que les phrases subordonnées, qui contiennent une proposition principale et une ou plusieurs propositions subordonnées; les phrases coordonnées, qui contiennent plusieurs propositions indépendantes reliées par des conjonctions de coordination; et les phrases juxtaposées, qui contiennent plusieurs propositions indépendantes sans conjonctions de coordination."
+        "correction": "VRAI. Le traitÃ© de l'Ã‰lysÃ©e (22 janvier 1963), signÃ© par de Gaulle et Adenauer, scelle la rÃ©conciliation franco-allemande. Ce 'couple franco-allemand' est le moteur de l'intÃ©gration europÃ©enne tout au long de la construction de l'UE."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "qcm",
-        "answer": "Elle fournit des informations supplémentaires sur un élément de la proposition principale",
-        "correction": "Le rôle d'une proposition subordonnée dans une phrase complexe est de fournir des informations supplémentaires sur un élément de la proposition principale, en ajoutant des détails ou des précisions qui enrichissent le sens de la phrase."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Le traitÃ© de Maastricht (signÃ© le 7 fÃ©vrier 1992) transforme la CEE en Union europÃ©enne (UE) et instaure : la citoyennetÃ© europÃ©enne, la politique Ã©trangÃ¨re et de sÃ©curitÃ© commune (PESC), la coopÃ©ration judiciaire et policiÃ¨re (JAI), et surtout l'Union Ã©conomique et monÃ©taire (UEM) prÃ©voyant la crÃ©ation de l'euro. L'euro est introduit en 1999 (en 2002 pour les piÃ¨ces et billets)."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "C'est vrai. L'utilisation correcte des phrases complexes est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les écrivains utilisent les phrases complexes de manière appropriée en fonction du contexte et du message qu'ils souhaitent transmettre, ce qui contribue à la clarté du message et à l'efficacité de la communication écrite, en permettant aux lecteurs de comprendre les relations entre les différentes propositions dans une phrase complexe et d'interpréter le message de manière plus précise."
+        "type": "qcm",
+        "answer": "27",
+        "correct": 1,
+        "correction": "L'Union europÃ©enne compte 27 Ã‰tats membres depuis le retrait du Royaume-Uni (Brexit, effectif le 31 janvier 2020) qui Ã©tait le 28e membre. L'UE s'est Ã©largie progressivement : 6 membres fondateurs (1957), puis 9, 12, 15, 25 (2004, grand Ã©largissement), 27, 28 (2013), et de nouveau 27 depuis le Brexit."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "qcm",
-        "answer": "Elle exprime une idée indépendante de la proposition principale",
-        "correction": "Le rôle d'une proposition coordonnée dans une phrase complexe est d'exprimer une idée indépendante de la proposition principale, en ajoutant une information ou une idée qui est au même niveau que la proposition principale."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'accord de Schengen (1985, entrÃ© en vigueur en 1995) crÃ©e un espace sans frontiÃ¨res intÃ©rieures pour les personnes entre les Ã‰tats signataires (26 pays aujourd'hui, dont des non-membres de l'UE comme la Suisse et la NorvÃ¨ge). Les contrÃ´les aux frontiÃ¨res intÃ©rieures sont supprimÃ©s."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "C'est vrai. L'utilisation incorrecte des phrases complexes peut parfois entraîner des confusions ou des malentendus dans la communication écrite, en rendant difficile pour les lecteurs de comprendre les relations entre les différentes propositions dans une phrase complexe, ce qui peut nuire à la clarté du message et à l'efficacité de la communication écrite."
+        "answer": "faux",
+        "correction": "Le Brexit (contraction de British Exit) est la sortie du Royaume-Uni de l'UE, dÃ©cidÃ©e par rÃ©fÃ©rendum le 23 juin 2016 (51,9 % de 'Leave'). Il devient effectif le 31 janvier 2020. ConsÃ©quences : fin de la libre circulation entre le RU et l'UE, nouvelles barriÃ¨res douaniÃ¨res et commerciales, tensions en Irlande du Nord, questionnement sur l'avenir de l'Union, pertes Ã©conomiques pour les deux parties."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "Elle exprime une idée indépendante de la proposition principale",
-        "correction": "Le rôle d'une proposition juxtaposée dans une phrase complexe est d'exprimer une idée indépendante de la proposition principale, en ajoutant une information ou une idée qui est au même niveau que la proposition principale, sans utiliser de conjonctions de coordination pour relier les propositions."
+        "answer": "Le Parlement europÃ©en",
+        "correct": 2,
+        "correction": "Le Parlement europÃ©en est la seule institution de l'UE Ã©lue au suffrage universel direct par les citoyens europÃ©ens depuis 1979. Il siÃ¨ge Ã  Strasbourg et partage le pouvoir lÃ©gislatif avec le Conseil de l'UE (Conseil des ministres)."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "C'est vrai. L'utilisation correcte des phrases complexes est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les écrivains utilisent les phrases complexes de manière appropriée en fonction du contexte et du message qu'ils souhaitent transmettre, ce qui contribue à la clarté du message et à l'efficacité de la communication écrite."
+        "correction": "VRAI. La PAC, instaurÃ©e en 1962, est l'une des premiÃ¨res politiques communes de la CEE/UE. Elle reprÃ©sente encore aujourd'hui environ 31% du budget de l'UE (2021-2027), bien que cette part ait diminuÃ©. Elle vise Ã  garantir la sÃ©curitÃ© alimentaire et le revenu des agriculteurs europÃ©ens."
       }
     ]
   }

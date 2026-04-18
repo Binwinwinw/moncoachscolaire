@@ -11,9 +11,12 @@ import random
 from datetime import UTC, datetime
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", "..", ".."))
 OUTPUT_DIR = os.path.join(SCRIPT_DIR, "mathematiques_6eme_quizzes")
 QUIZ_DIR = os.path.join(OUTPUT_DIR, "quiz")
 ANSWERS_DIR = os.path.join(OUTPUT_DIR, "quiz_answers")
+RUNTIME_QUIZ_DIR = os.path.join(REPO_ROOT, "src", "data", "quiz")
+RUNTIME_ANSWERS_DIR = os.path.join(REPO_ROOT, "src", "data", "quiz_answers")
 
 quizzes_data = [
 # ─── 0049 – Nombres et opérations	 ───────────────────────────────────
@@ -2298,6 +2301,74 @@ quizzes_data = [
         ]
     ),
     (
+        "0083",
+        'Angles complémentaires et supplémentaires',
+        'Mathématiques',
+        '6eme',
+        [
+            {
+                'id': "0083_1",
+                'type': "qcm",
+                'question': "Deux angles sont complémentaires si leur somme vaut :",
+                'options': ["90°", "180°", "270°", "360°"],
+                'correct_option': "90°",
+                'explanation': "Deux angles complémentaires ont une somme égale à 90°."
+            },
+            {
+                'id': "0083_2",
+                'type': "vrai-faux",
+                'question': "Deux angles supplémentaires ont une somme égale à 180°.",
+                'correct': True,
+                'explanation': "Par définition, deux angles supplémentaires totalisent 180°."
+            },
+            {
+                'id': "0083_3",
+                'type': "qcm",
+                'question': "Si un angle mesure 25°, son complémentaire mesure :",
+                'options': ["55°", "65°", "145°", "155°"],
+                'correct_option': "65°",
+                'explanation': "L'angle complémentaire vaut 90° - 25° = 65°."
+            },
+            {
+                'id': "0083_4",
+                'type': "vrai-faux",
+                'question': "L'angle supplémentaire d'un angle de 130° mesure 50°.",
+                'correct': True,
+                'explanation': "L'angle supplémentaire vaut 180° - 130° = 50°."
+            },
+            {
+                'id': "0083_5",
+                'type': "qcm",
+                'question': "Quel est le supplémentaire d'un angle de 72° ?",
+                'options': ["18°", "72°", "108°", "128°"],
+                'correct_option': "108°",
+                'explanation': "Le supplémentaire vaut 180° - 72° = 108°."
+            },
+            {
+                'id': "0083_6",
+                'type': "vrai-faux",
+                'question': "Deux angles de 40° et 50° sont complémentaires.",
+                'correct': True,
+                'explanation': "40° + 50° = 90°, donc ils sont complémentaires."
+            },
+            {
+                'id': "0083_7",
+                'type': "qcm",
+                'question': "Deux angles de 95° et 85° sont :",
+                'options': ["Complémentaires", "Supplémentaires", "Égaux", "Opposés"],
+                'correct_option': "Supplémentaires",
+                'explanation': "95° + 85° = 180°, ce sont donc des angles supplémentaires."
+            },
+            {
+                'id': "0083_8",
+                'type': "vrai-faux",
+                'question': "Si deux angles ont une somme de 90°, alors ils sont supplémentaires.",
+                'correct': False,
+                'explanation': "Une somme de 90° correspond à des angles complémentaires, pas supplémentaires."
+            },
+        ]
+    ),
+    (
         "0084",
         'Angles triangle',
         'Mathématiques',
@@ -3182,17 +3253,40 @@ quizzes_data = [
     )
 ]
 
+def normalize_question_type(question_type):
+    qt = str(question_type).strip().lower()
+    if qt == "qcm":
+        return "qcm"
+    return "vrai-faux"
+
+
+def normalize_level_label(level):
+    normalized = str(level).strip().lower()
+    if normalized in {"6e", "6ème", "6eme", "sixieme"}:
+        return "6eme"
+    return str(level).strip()
+
+
+def build_true_false_statement(question_text, fallback_answer=""):
+    question_text = str(question_text).strip()
+    fallback_answer = str(fallback_answer).strip().rstrip(".")
+    if fallback_answer:
+        return f"{question_text} La bonne réponse attendue est : {fallback_answer}."
+    return question_text or "Choisis si l'affirmation est vraie ou fausse."
+
+
 def make_quiz(qid, title, subject, level, questions):
+    level = normalize_level_label(level)
     created_at = datetime.now(UTC).strftime("%Y-%m-%d %H:%M:%S")
     runtime_questions = []
     for question in questions:
-        qtype = str(question.get("type", "texte"))
+        qtype = normalize_question_type(question.get("type", ""))
         if qtype == "qcm":
             runtime_questions.append({"type": "qcm", "question": str(question.get("question", "")), "choices": list(question.get("options", []))})
         elif qtype == "vrai-faux":
             runtime_questions.append({"type": "vrai-faux", "question": str(question.get("question", ""))})
         else:
-            runtime_questions.append({"type": "open", "question": str(question.get("question", ""))})
+            runtime_questions.append({"type": "vrai-faux", "question": build_true_false_statement(question.get("question", ""), question.get("correct_answer", ""))})
     return {
         "contents": {"title": f"Quiz Diagnostic {subject} {level} - Série {qid}", "type": "quiz", "level": level, "subject": subject, "description": f"Diagnostic {subject} {level} : {title}", "status": "published", "created_at": created_at, "updated_at": created_at},
         "quiz": {"title": title, "type": "quiz", "level": level, "subject": subject, "question_count": len(runtime_questions), "passing_score": 70, "time_limit_minutes": 15, "questions": runtime_questions},
@@ -3201,32 +3295,39 @@ def make_quiz(qid, title, subject, level, questions):
     }
 
 def make_answers(qid, title, subject, level, questions):
+    level = normalize_level_label(level)
     answers = []
     for index, q in enumerate(questions):
-        if q["type"] == "qcm":
+        qtype = normalize_question_type(q.get("type", ""))
+        if qtype == "qcm":
             answers.append({"index": index, "question_id": index + 1, "type": "qcm", "answer": q["correct_option"], "correction": q["explanation"]})
-        elif q["type"] == "vrai-faux":
-            answers.append({"index": index, "question_id": index + 1, "type": "vrai-faux", "answer": "vrai" if q["correct"] else "faux", "correction": q["explanation"]})
         else:
-            answers.append({"index": index, "question_id": index + 1, "type": "open", "answer": q.get("correct_answer", ""), "correction": q["explanation"]})
+            answers.append({"index": index, "question_id": index + 1, "type": "vrai-faux", "answer": "vrai" if q.get("correct", True) else "faux", "correction": q["explanation"]})
     return {
         "contents": {"title": f"Quiz Diagnostic {subject} {level} - Série {qid}", "level": level, "subject": subject},
         "quiz": {"title": title, "question_count": len(answers), "level": level, "subject": subject, "answers": answers},
     }
 
+
+def write_json(path, payload):
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+
+
 def write_quiz_files():
     os.makedirs(QUIZ_DIR, exist_ok=True)
     os.makedirs(ANSWERS_DIR, exist_ok=True)
+    os.makedirs(RUNTIME_QUIZ_DIR, exist_ok=True)
+    os.makedirs(RUNTIME_ANSWERS_DIR, exist_ok=True)
     for qid, title, subject, level, questions in quizzes_data:
         quiz = make_quiz(qid, title, subject, level, questions)
         answers = make_answers(qid, title, subject, level, questions)
-        with open(os.path.join(QUIZ_DIR, f"{qid}.json"), "w", encoding="utf-8", newline="\n") as f:
-            json.dump(quiz, f, ensure_ascii=False, indent=2)
-            f.write("\n")
-        with open(os.path.join(ANSWERS_DIR, f"{qid}.json"), "w", encoding="utf-8", newline="\n") as f:
-            json.dump(answers, f, ensure_ascii=False, indent=2)
-            f.write("\n")
-    print(f"{len(quizzes_data)} quiz generated in {OUTPUT_DIR}")
+        write_json(os.path.join(QUIZ_DIR, f"{qid}.json"), quiz)
+        write_json(os.path.join(ANSWERS_DIR, f"{qid}.json"), answers)
+        write_json(os.path.join(RUNTIME_QUIZ_DIR, f"{qid}.json"), quiz)
+        write_json(os.path.join(RUNTIME_ANSWERS_DIR, f"{qid}.json"), answers)
+    print(f"{len(quizzes_data)} quiz generated in {OUTPUT_DIR} and synced to runtime")
 
 if __name__ == "__main__":
     write_quiz_files()

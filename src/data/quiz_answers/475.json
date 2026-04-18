@@ -1,70 +1,73 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 475",
-    "level": "1ère",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 475",
+    "level": "1ere",
     "subject": "Français"
   },
   "quiz": {
-    "title": "Les Lumières et la littérature engagée (XVIIIe s.)",
+    "title": "Les LumiÃ¨res et la littÃ©rature engagÃ©e (XVIIIe s.)",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "L'Encyclopédie",
-        "correction": "L'Encyclopédie (1751-1772), dirigée par Diderot et d'Alembert, diffuse les savoirs et les idées des Lumières."
+        "answer": "L'EncyclopÃ©die",
+        "correct": 1,
+        "correction": "L'EncyclopÃ©die (1751-1772), dirigÃ©e par Diderot et d'Alembert, diffuse les savoirs et les idÃ©es des LumiÃ¨res."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "Le Traité sur la tolérance (1763) est écrit par Voltaire à la suite de l'affaire Calas."
+        "correction": "Le TraitÃ© sur la tolÃ©rance (1763) est Ã©crit par Voltaire Ã  la suite de l'affaire Calas."
       },
       {
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Du contrat social (1762) théorise le pacte entre les individus comme fondement de la société."
+        "answer": "faux",
+        "correction": "Du contrat social (1762) thÃ©orise le pacte entre les individus comme fondement de la sociÃ©tÃ©."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Ose savoir (Sapere aude)",
-        "correction": "Kant définit les Lumières comme la sortie de l'homme de sa minorité : 'Ose te servir de ton propre entendement.'"
+        "correct": 1,
+        "correction": "Kant dÃ©finit les LumiÃ¨res comme la sortie de l'homme de sa minoritÃ© : 'Ose te servir de ton propre entendement.'"
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "Voltaire, Diderot et Montesquieu utilisent la fiction (conte, roman, lettres) pour propager les idées des Lumières."
+        "correction": "Voltaire, Diderot et Montesquieu utilisent la fiction (conte, roman, lettres) pour propager les idÃ©es des LumiÃ¨res."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La vision extérieure du Persan Rica rend visible l'absurdité de certaines institutions françaises."
+        "answer": "faux",
+        "correction": "La vision extÃ©rieure du Persan Rica rend visible l'absurditÃ© de certaines institutions franÃ§aises."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Voltaire",
-        "correction": "Voltaire combat toute sa vie l'intolérance et la censure : 'Je ne suis pas d'accord avec ce que vous dites, mais je me battrai pour que vous puissiez le dire.'"
+        "correct": 1,
+        "correction": "Voltaire combat toute sa vie l'intolÃ©rance et la censure : 'Je ne suis pas d'accord avec ce que vous dites, mais je me battrai pour que vous puissiez le dire.'"
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "faux",
-        "correction": "La littérature engagée défend des valeurs (liberté, justice) sans se limiter à un parti ; Sartre la théorise dans Qu'est-ce que la littérature ?"
+        "correction": "La littÃ©rature engagÃ©e dÃ©fend des valeurs (libertÃ©, justice) sans se limiter Ã  un parti ; Sartre la thÃ©orise dans Qu'est-ce que la littÃ©rature ?"
       }
     ]
   }

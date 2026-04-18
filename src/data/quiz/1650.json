@@ -6,10 +6,10 @@
     "subject": "Français",
     "description": "Diagnostic Français 2nde : Diagnostic 2nde Français - Registres littéraires",
     "status": "published",
-    "created_at": "2026-03-14 07:35:11",
-    "updated_at": "2026-03-14 07:35:11",
+    "created_at": "2026-04-18 15:23:24",
+    "updated_at": "2026-04-18 15:23:24",
     "source": "Eduscol programmes officiels + BOEN",
-    "programme_ref": "<Référence programme officiel à renseigner>"
+    "programme_ref": "BO spécial n°1 du 22 janvier 2019 (LGT) + Eduscol Français seconde"
   },
   "quiz": {
     "title": "Diagnostic 2nde Français - Registres littéraires",
@@ -35,8 +35,8 @@
         "question": "Le registre comique peut reposer sur le langage, les gestes, les situations ou les caractères."
       },
       {
-        "type": "open",
-        "question": "Quel registre vise à dénoncer en ridiculisant des défauts ou des comportements ?"
+        "type": "vrai-faux",
+        "question": "La bonne réponse attendue est : satirique."
       },
       {
         "type": "qcm",
@@ -53,8 +53,8 @@
         "question": "Un même texte peut mêler plusieurs registres."
       },
       {
-        "type": "open",
-        "question": "Quel registre met en avant l'expression personnelle des sentiments ?"
+        "type": "vrai-faux",
+        "question": "La bonne réponse attendue est : lyrique."
       },
       {
         "type": "qcm",
@@ -72,19 +72,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Mouvements littéraires",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Analyse narratologique",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Argumentation structurée",
-      "description": "Notion fondamentale de Français"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

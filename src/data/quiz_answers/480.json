@@ -1,70 +1,73 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 480",
-    "level": "1ère",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 480",
+    "level": "1ere",
     "subject": "Français"
   },
   "quiz": {
     "title": "Conjugaison : subjonctif et conditionnel",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Dans les subordonnées après des verbes de doute, volonté, sentiment",
-        "correction": "Verbes de volonté (vouloir), doute (douter), sentiment (regretter) imposent le subjonctif."
+        "answer": "Dans les subordonnÃ©es aprÃ¨s des verbes de doute, volontÃ©, sentiment",
+        "correct": 1,
+        "correction": "Verbes de volontÃ© (vouloir), doute (douter), sentiment (regretter) imposent le subjonctif."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "Ex. : 'Je voudrais partir' (souhait) ; 'S'il venait, je serais content' (hypothèse irréelle dans l'apodose)."
+        "correction": "Ex. : 'Je voudrais partir' (souhait) ; 'S'il venait, je serais content' (hypothÃ¨se irrÃ©elle dans l'apodose)."
       },
       {
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Ex. : 'Si tu avais étudié, tu aurais réussi.' – conditionnel passé dans l'apodose."
+        "answer": "faux",
+        "correction": "Ex. : 'Si tu avais Ã©tudiÃ©, tu aurais rÃ©ussi.' â€“ conditionnel passÃ© dans l'apodose."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Soit",
-        "correction": "Subjonctif présent d'être : que je sois, que tu sois, qu'il soit…"
+        "correct": 1,
+        "correction": "Subjonctif prÃ©sent d'Ãªtre : que je sois, que tu sois, qu'il soitâ€¦"
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
         "answer": "faux",
-        "correction": "L'imparfait du subjonctif ('qu'il fît', 'qu'il eût') est perçu comme archaïque et réservé au style soutenu écrit."
+        "correction": "L'imparfait du subjonctif ('qu'il fÃ®t', 'qu'il eÃ»t') est perÃ§u comme archaÃ¯que et rÃ©servÃ© au style soutenu Ã©crit."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. L'indicatif est le mode de l'assertion ; il s'oppose au subjonctif (mode du virtuel)."
+        "answer": "faux",
+        "correction": "L'indicatif est le mode de l'assertion ; il s'oppose au subjonctif (mode du virtuel)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "Même sujet dans les deux propositions",
-        "correction": "Si le sujet est le même : 'Il veut partir' (infinitif) ; sujets différents : 'Il veut qu'elle parte' (subjonctif)."
+        "answer": "MÃªme sujet dans les deux propositions",
+        "correct": 1,
+        "correction": "Si le sujet est le mÃªme : 'Il veut partir' (infinitif) ; sujets diffÃ©rents : 'Il veut qu'elle parte' (subjonctif)."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "Selon les grammaires, le conditionnel est tantôt un mode à part, tantôt un temps de l'indicatif (futur du passé)."
+        "correction": "Selon les grammaires, le conditionnel est tantÃ´t un mode Ã  part, tantÃ´t un temps de l'indicatif (futur du passÃ©)."
       }
     ]
   }

@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Applications : modèles exponentiels & logarithmiques",
     "status": "published",
-    "created_at": "2026-04-06 06:40:48",
-    "updated_at": "2026-04-06 06:40:48"
+    "created_at": "2026-04-18 18:52:46",
+    "updated_at": "2026-04-18 18:52:46"
   },
   "quiz": {
     "title": "Applications : modèles exponentiels & logarithmiques",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "P(t) = 1000·(1,05)ᵗ."
+        "question": "Une population de 1000 individus croît de 5% par an. Modélise P(t) et calcule le temps de doublement. La bonne réponse attendue est : P(t) = 1000·(1,05)ᵗ. Doublement : 1,05ᵗ = 2 → t = ln(2)/ln(1,05) ≈ 14,2 ans."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "T = ln(2)/0,04 ≈ 17,3 ans."
+        "question": "Un capital C₀ placé à un taux annuel r (continu) vaut C(t) = C₀·e^(rt). En combien de temps double-t-il pour r = 0,04 ? La bonne réponse attendue est : t = ln(2)/0,04 ≈ 17,3 ans."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Taux de croissance",
-      "description": "k > 0 représente le taux de croissance instantané du modèle exponentiel, indiquant la vitesse à laquelle la quantité N(t) augmente à chaque instant"
-    },
-    {
-      "notion": "Constante de croissance",
-      "description": "k est une constante qui détermine la rapidité de la croissance exponentielle, avec des valeurs plus élevées de k indiquant une croissance plus rapide"
-    },
-    {
-      "notion": "Modélisation de phénomènes naturels",
-      "description": "Le modèle exponentiel N(t) = N₀·e^(kt) est souvent utilisé pour décrire des phénomènes naturels tels que la croissance de populations, la propagation de maladies ou la dégradation de substances radioa"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

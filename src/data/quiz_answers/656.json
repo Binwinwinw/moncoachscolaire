@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic SVT 3ème - Série 656",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT"
   },
   "quiz": {
     "title": "Génétique : biotechnologies et applications",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Un organisme dont le génome a été modifié par insertion ou suppression de gènes",
+        "correct": 1,
         "correction": "Un OGM est obtenu par transgenèse ou par édition du génome (ex. CRISPR-Cas9)."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La PCR (Polymerase Chain Reaction) permet de multiplier un fragment d'ADN cible des millions de fois."
+        "correction": "La PCR (Polymerase Chain Reaction) permet de multiplier un fragment d'ADN cible des millions de fois."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Le diabète",
+        "correct": 1,
         "correction": "Des bactéries transformées par le gène de l'insuline humaine produisent cette hormone utilisée en thérapie du diabète."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. CRISPR-Cas9 utilise un guide ARN pour diriger la protéase Cas9 vers une séquence cible de l'ADN."
+        "correction": "CRISPR-Cas9 utilise un guide ARN pour diriger la protéase Cas9 vers une séquence cible de l'ADN."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Car elle peut conduire à des décisions difficiles concernant la grossesse",
+        "correct": 1,
         "correction": "Le diagnostic prénatal soulève des questions éthiques autour de l'interruption médicale de grossesse."
       },
       {

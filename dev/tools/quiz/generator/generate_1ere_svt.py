@@ -44,6 +44,13 @@ def normalize_question_type(question_type):
     return qtype
 
 
+def normalize_level_label(level):
+    normalized = fix_mojibake_text(level).strip().lower()
+    if normalized in {"1ere", "1ère", "1ã¨re", "premiere"}:
+        return "1ere"
+    return fix_mojibake_text(level).strip()
+
+
 def fix_mojibake_text(value):
     if not isinstance(value, str):
         return value
@@ -89,6 +96,7 @@ def dump_json_file(path, payload):
         file_handle.write("\n")
 
 def make_quiz(qid, title, subject, level, questions):
+    level = normalize_level_label(level)
     answer_keys = {"correct_answer", "correct_option", "correct", "explanation"}
     questions = [{k: v for k, v in q.items() if k not in answer_keys} for q in questions]
     created_at = datetime.now(UTC).strftime("%Y-%m-%d %H:%M:%S")
@@ -139,6 +147,7 @@ def make_quiz(qid, title, subject, level, questions):
     }
 
 def make_answers(qid, title, subject, level, questions):
+    level = normalize_level_label(level)
     answers = []
     for index, q in enumerate(questions):
         qtype = normalize_question_type(q.get("type", ""))

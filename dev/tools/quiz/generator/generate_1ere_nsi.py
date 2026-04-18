@@ -67,14 +67,29 @@ def normalize_text_payload(payload):
     return payload
 
 
+def normalize_question_type(question_type):
+    qtype = str(question_type or "").strip().lower().replace("_", "-")
+    if qtype == "qcm":
+        return "qcm"
+    return "vrai-faux"
+
+
+def normalize_level_label(level):
+    normalized = str(level or "").strip().lower()
+    if normalized in {"1ère", "1ere", "premiere"}:
+        return "1ere"
+    return str(level).strip()
+
+
 def make_quiz(qid, title, subject, level, questions):
+    level = normalize_level_label(level)
     answer_keys = {"correct_answer", "correct_option", "correct", "explanation"}
     questions = [{k: v for k, v in q.items() if k not in answer_keys} for q in questions]
     created_at = datetime.now(UTC).strftime("%Y-%m-%d %H:%M:%S")
     runtime_questions = []
 
     for question in questions:
-        qtype = str(question.get("type", "texte"))
+        qtype = normalize_question_type(question.get("type", ""))
         if qtype == "qcm":
             runtime_questions.append(
                 {
@@ -125,9 +140,10 @@ def make_quiz(qid, title, subject, level, questions):
 
 
 def make_answers(qid, title, subject, level, questions):
+    level = normalize_level_label(level)
     answers = []
     for index, q in enumerate(questions):
-        qtype = str(q.get("type", "texte"))
+        qtype = normalize_question_type(q.get("type", ""))
         if qtype == "qcm":
             options = list(q.get("options", []))
             correct_answer = str(q.get("correct_option", q.get("correct_answer", "")))
@@ -151,11 +167,13 @@ def make_answers(qid, title, subject, level, questions):
                 "correction": str(q.get("explanation", "")),
             })
         else:
+            tf_source = q.get("correct", q.get("correct_answer", "faux"))
+            tf_answer = "vrai" if str(tf_source).strip().lower() in {"true", "vrai", "1"} else "faux"
             answers.append({
                 "index": index,
                 "question_id": index + 1,
                 "type": "vrai-faux",
-                "answer": str(q.get("correct_answer", "")),
+                "answer": tf_answer,
                 "correction": str(q.get("explanation", "")),
             })
     return {
@@ -1162,6 +1180,47 @@ quizzes_data = [
 ]),
 
 ]
+
+NSI_COMPLEMENT_SPECS = [
+    (899, "HTML et structure d'une page web", "HTML", "Le langage de balisage qui structure une page web", "les balises"),
+    (900, "CSS et mise en forme", "CSS", "Le langage utilisé pour styliser une page web", "la feuille de style"),
+    (901, "Le protocole HTTP et les requêtes", "HTTP", "Le protocole d'échange entre navigateur et serveur web", "la requête-réponse"),
+    (902, "Adresses IP et routage", "l'adresse IP", "Un identifiant d'une machine sur un réseau", "le routage"),
+    (903, "DNS et noms de domaine", "le DNS", "Le système qui traduit un nom de domaine en adresse IP", "la résolution de noms"),
+    (904, "Bases de données relationnelles", "une base de données relationnelle", "Un ensemble de tables reliées entre elles", "les tables"),
+    (905, "Requêtes SQL simples", "SQL", "Le langage qui permet d'interroger et manipuler une base de données", "les requêtes"),
+    (906, "Algorithmes gloutons", "un algorithme glouton", "Une méthode qui fait un choix localement optimal à chaque étape", "l'optimisation"),
+    (907, "Recherche dichotomique", "la recherche dichotomique", "Une méthode de recherche dans une liste triée en divisant l'espace par deux", "la liste triée"),
+    (908, "Tri par insertion et tri par sélection", "les algorithmes de tri", "Des méthodes pour ranger des données dans un ordre donné", "la complexité"),
+    (909, "Programmation récursive", "la récursivité", "Le fait pour une fonction de s'appeler elle-même", "la condition d'arrêt"),
+    (910, "Graphes et chemins", "un graphe", "Un ensemble de sommets reliés par des arêtes", "les sommets et arêtes"),
+    (911, "Systèmes d'exploitation", "un système d'exploitation", "Le logiciel qui gère les ressources matérielles et logicielles", "la gestion des processus"),
+    (912, "Cybersécurité et mots de passe", "la cybersécurité", "L'ensemble des pratiques qui protègent données et systèmes", "la sécurité informatique"),
+    (913, "Objets connectés et réseaux", "un objet connecté", "Un appareil capable d'échanger des données via un réseau", "l'internet des objets"),
+    (914, "Données, IA et apprentissage", "l'intelligence artificielle", "Un ensemble de techniques qui permettent à une machine de réaliser certaines tâches cognitives", "les données d'entraînement"),
+]
+
+
+def build_nsi_complement(qid, title, focus, definition, notion):
+    return (
+        qid,
+        title,
+        "NSI",
+        "1ere",
+        [
+            {"id": f"{qid}_1", "type": "qcm", "question": f"Quelle définition correspond le mieux à {focus} ?", "options": [definition, "Une figure géométrique", "Une règle de grammaire", "Un mouvement littéraire"], "correct_option": definition, "explanation": f"En NSI, {focus} désigne : {definition.lower()}."},
+            {"id": f"{qid}_2", "type": "vrai-faux", "question": f"{focus.capitalize()} est une notion utile pour comprendre le fonctionnement des systèmes numériques.", "correct": True, "explanation": "Cette notion fait partie des fondamentaux travaillés en NSI."},
+            {"id": f"{qid}_3", "type": "qcm", "question": f"Quelle notion est la plus directement associée à {focus} ?", "options": [notion, "la fable", "la photosynthèse", "la mondialisation"], "correct_option": notion, "explanation": f"La notion clé à retenir ici est : {notion}."},
+            {"id": f"{qid}_4", "type": "vrai-faux", "question": f"Pour travailler {focus}, on peut utiliser des activités pratiques, du code ou des schémas.", "correct": True, "explanation": "La NSI combine pratique, raisonnement algorithmique et compréhension des systèmes."},
+            {"id": f"{qid}_5", "type": "qcm", "question": f"Quel est l'objectif principal de l'étude de {focus} ?", "options": ["Comprendre les outils et concepts du numérique", "Réciter des dates historiques", "Apprendre uniquement par cœur", "Éviter toute expérimentation"], "correct_option": "Comprendre les outils et concepts du numérique", "explanation": "L'objectif de la NSI est de comprendre le fonctionnement des outils numériques et des algorithmes."},
+            {"id": f"{qid}_6", "type": "vrai-faux", "question": f"{focus.capitalize()} peut être relié à des usages concrets du quotidien numérique.", "correct": True, "explanation": "Les notions de NSI s'observent dans le web, les réseaux, les programmes et les objets connectés."},
+            {"id": f"{qid}_7", "type": "qcm", "question": f"Quel support peut aider à mieux comprendre {focus} ?", "options": ["Un algorithme, un schéma ou un exemple de code", "Une seule récitation orale", "Un vers rimé", "Une carte des reliefs"], "correct_option": "Un algorithme, un schéma ou un exemple de code", "explanation": "Les schémas, algorithmes et fragments de code aident à clarifier les notions de NSI."},
+            {"id": f"{qid}_8", "type": "vrai-faux", "question": f"Étudier {focus} développe la logique et la compréhension des systèmes informatiques.", "correct": True, "explanation": "C'est un objectif central de l'enseignement NSI."},
+        ],
+    )
+
+
+quizzes_data.extend(build_nsi_complement(*spec) for spec in NSI_COMPLEMENT_SPECS)
 
 
 def write_quiz_files():

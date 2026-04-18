@@ -1,70 +1,73 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 6eme - Série 0176",
-    "level": "6eme",
-    "subject": "Français"
+    "title": "Quiz Diagnostic Histoire-Géographie 1ere - SÃ©rie 176",
+    "level": "1ere",
+    "subject": "Histoire-Géographie"
   },
   "quiz": {
-    "title": "Français 6e - Les verbes pronominaux",
+    "title": "Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 2",
     "question_count": 8,
-    "level": "6eme",
-    "subject": "Français",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Un verbe qui se conjugue avec un pronom réfléchi",
-        "correction": "Un verbe pronominal est un verbe qui se conjugue avec un pronom réfléchi, en indiquant que le sujet de l'action est également l'objet de l'action, ce qui peut exprimer des actions réciproques, des actions passives ou des actions qui affectent le sujet lui-même."
+        "answer": "L'assassinat de l'archiduc FranÃ§ois-Ferdinand Ã  Sarajevo",
+        "correct": 1,
+        "correction": "L'assassinat de l'archiduc FranÃ§ois-Ferdinand, hÃ©ritier de l'empire austro-hongrois, le 28 juin 1914 Ã  Sarajevo par Gavrilo Princip, nationaliste serbe, dÃ©clenche la crise diplomatique qui conduit Ã  la guerre mondiale."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "C'est vrai. Les verbes pronominaux peuvent être classés en trois catégories : les verbes pronominaux réfléchis, qui expriment une action que le sujet fait sur lui-même (comme 'se laver'); les verbes pronominaux réciproques, qui expriment une action que deux ou plusieurs sujets font l'un à l'autre (comme 'se parler'); et les verbes pronominaux passifs, qui expriment une action subie par le sujet (comme 'se vendre')."
+        "correction": "VRAI. Ã€ partir de fin 1914, le front occidental se stabilise en un rÃ©seau de tranchÃ©es s'Ã©tendant de la mer du Nord Ã  la frontiÃ¨re suisse. Cette guerre de position, Ã©puisante et meurtriÃ¨re, durera jusqu'en 1918."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "qcm",
-        "answer": "Me",
-        "correction": "Le pronom réfléchi utilisé pour conjuguer un verbe pronominal à la première personne du singulier est 'me', en indiquant que le sujet de l'action est également l'objet de l'action."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "L'Union sacrÃ©e, proclamÃ©e par le prÃ©sident PoincarÃ© le 4 aoÃ»t 1914, est l'union de toutes les forces politiques franÃ§aises (socialistes, rÃ©publicains, conservateurs) pour soutenir l'effort de guerre. Les oppositions politiques sont suspendues ; mÃªme les syndicats et le parti socialiste y adhÃ¨rent."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "C'est vrai. L'utilisation correcte des verbes pronominaux est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les écrivains utilisent les verbes pronominaux de manière appropriée en fonction du contexte et du message qu'ils souhaitent transmettre, ce qui contribue à la clarté et à l'efficacité de la communication écrite, en permettant aux lecteurs de comprendre les actions exprimées par les verbes pronominaux et d'interpréter le message de manière plus précise."
+        "type": "qcm",
+        "answer": "La bataille de Verdun",
+        "correct": 2,
+        "correction": "La bataille de Verdun (21 fÃ©vrier â€“ 18 dÃ©cembre 1916) est la plus longue et l'une des plus meurtriÃ¨res de la guerre : environ 700 000 victimes (morts, blessÃ©s, disparus) des deux cÃ´tÃ©s. Elle devient le symbole de la rÃ©sistance franÃ§aise et de l'horreur de la Grande Guerre."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "qcm",
-        "answer": "Se",
-        "correction": "Le pronom réfléchi utilisé pour conjuguer un verbe pronominal à la troisième personne du pluriel est 'se', en indiquant que le sujet de l'action est également l'objet de l'action."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "FAUX. Les Ã‰tats-Unis maintiennent leur neutralitÃ© jusqu'en avril 1917, avant d'entrer en guerre aux cÃ´tÃ©s des AlliÃ©s, notamment en raison de la guerre sous-marine Ã  outrance menÃ©e par l'Allemagne et de l'interception du tÃ©lÃ©gramme Zimmermann."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "C'est vrai. L'utilisation incorrecte des verbes pronominaux peut parfois entraîner des confusions ou des malentendus dans la communication écrite, en rendant difficile pour les lecteurs de comprendre les actions exprimées par les verbes pronominaux et d'interpréter le message de manière plus précise, ce qui peut nuire à la clarté du message et à l'efficacité de la communication écrite."
+        "answer": "faux",
+        "correction": "Le traitÃ© de Versailles (28 juin 1919) impose Ã  l'Allemagne : la cession de l'Alsace-Lorraine Ã  la France, de territoires Ã  la Pologne, au Danemark, Ã  la Belgique ; des rÃ©parations de guerre colossales ; la limitation de son armÃ©e ; et la clause de responsabilitÃ© exclusive de la guerre (article 231), source d'humiliation qui alimentera le ressentiment nationaliste."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "Te",
-        "correction": "Le pronom réfléchi utilisé pour conjuguer un verbe pronominal à la deuxième personne du singulier est 'te', en indiquant que le sujet de l'action est également l'objet de l'action."
+        "answer": "La SDN (SociÃ©tÃ© des Nations)",
+        "correct": 1,
+        "correction": "La SociÃ©tÃ© des Nations (SDN) est crÃ©Ã©e par le traitÃ© de Versailles en 1919, sur proposition du prÃ©sident amÃ©ricain Wilson (14 points). Elle prÃ©figure l'ONU mais sera fragilisÃ©e par l'absence des Ã‰tats-Unis, qui refusent de la rejoindre, et sera dissoute en 1946."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "C'est vrai. L'utilisation correcte des verbes pronominaux est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les écrivains utilisent les verbes pronominaux de manière appropriée en fonction du contexte et du message qu'ils souhaitent transmettre, ce qui contribue à la clarté et à l'efficacité de la communication écrite."
+        "correction": "VRAI. Ã€ partir de 1915, l'Empire ottoman organise la dÃ©portation et le massacre systÃ©matique des ArmÃ©niens. Ce gÃ©nocide, reconnu par de nombreux Ã‰tats dont la France, fait entre 600 000 et 1,5 million de victimes selon les estimations."
       }
     ]
   }

@@ -1,94 +1,75 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 6eme - Série 0178",
+    "title": "Quiz Diagnostic Histoire-Géographie 1ere - SÃ©rie 178",
     "type": "quiz",
-    "level": "6eme",
-    "subject": "Français",
-    "description": "Diagnostic Français 6eme : Français 6e - Les compléments circonstanciels",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 1ere : Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 4",
     "status": "published",
-    "created_at": "2026-04-06 06:25:38",
-    "updated_at": "2026-04-06 06:25:38"
+    "created_at": "2026-04-18 20:30:32",
+    "updated_at": "2026-04-18 20:30:32"
   },
   "quiz": {
-    "title": "Français 6e - Les compléments circonstanciels",
+    "title": "Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 4",
     "type": "quiz",
-    "level": "6eme",
-    "subject": "Français",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Qu'est-ce qu'un complément circonstanciel ?",
+        "question": "Quel est le nom de l'opÃ©ration allemande qui conduit Ã  la dÃ©faite de la France en juin 1940 ?",
         "choices": [
-          "Un complément qui indique le sujet de l'action",
-          "Un complément qui indique l'objet de l'action",
-          "Un complément qui indique les circonstances de l'action",
-          "Un complément qui n'a pas de rôle spécifique"
+          "L'OpÃ©ration Barbarossa",
+          "L'OpÃ©ration Overlord",
+          "Le Plan Schlieffen",
+          "L'OpÃ©ration Fall Gelb (Case Yellow)"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Les compléments circonstanciels peuvent être classés en plusieurs types, tels que les compléments circonstanciels de temps, de lieu, de cause, de conséquence et de condition, en fonction des informations qu'ils fournissent sur les circonstances de l'action exprimée par le verbe."
+        "question": "Le gÃ©nÃ©ral de Gaulle lance son appel Ã  la rÃ©sistance depuis Londres le 18 juin 1940."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Qu'est-ce que le rÃ©gime de Vichy et quel rÃ´le joue-t-il dans la persÃ©cution des Juifs de France ?"
       },
       {
         "type": "qcm",
-        "question": "Quel est le rôle d'un complément circonstanciel de temps ?",
+        "question": "Quel Ã©vÃ©nement fait entrer les Ã‰tats-Unis dans la Seconde Guerre mondiale en dÃ©cembre 1941 ?",
         "choices": [
-          "Il indique quand l'action se déroule",
-          "Il indique où l'action se déroule",
-          "Il indique pourquoi l'action se déroule",
-          "Il indique ce qui résulte de l'action"
+          "L'invasion de la Pologne",
+          "L'attaque japonaise sur Pearl Harbor",
+          "La dÃ©claration de guerre de l'Allemagne aux USA",
+          "Le dÃ©barquement alliÃ© en Afrique du Nord"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "L'utilisation correcte des compléments circonstanciels est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les écrivains utilisent les compléments circonstanciels de manière appropriée en fonction du contexte et du message qu'ils souhaitent transmettre, ce qui contribue à la clarté et à l'efficacité de la communication écrite."
+        "question": "La confÃ©rence de Wannsee (1942) planifie la 'Solution finale', c'est-Ã -dire l'extermination systÃ©matique des Juifs d'Europe."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "DÃ©crivez l'importance stratÃ©gique du dÃ©barquement du 6 juin 1944 (Jour J) en Normandie."
       },
       {
         "type": "qcm",
-        "question": "Quel est le rôle d'un complément circonstanciel de lieu ?",
+        "question": "Quelle arme est utilisÃ©e pour la premiÃ¨re fois en guerre lors des bombardements d'Hiroshima et Nagasaki en aoÃ»t 1945 ?",
         "choices": [
-          "Il indique quand l'action se déroule",
-          "Il indique où l'action se déroule",
-          "Il indique pourquoi l'action se déroule",
-          "Il indique ce qui résulte de l'action"
+          "La bombe Ã  hydrogÃ¨ne",
+          "Les missiles balistiques",
+          "La bombe atomique",
+          "Les armes chimiques"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "L'utilisation incorrecte des compléments circonstanciels peut parfois entraîner des confusions ou des malentendus dans la communication écrite, en rendant difficile pour les lecteurs de comprendre les circonstances de l'action exprimée par le verbe, ce qui peut nuire à la clarté du message et à l'efficacité de la communication écrite."
-      },
-      {
-        "type": "qcm",
-        "question": "Quel est le rôle d'un complément circonstanciel de cause ?",
-        "choices": [
-          "Il indique quand l'action se déroule",
-          "Il indique où l'action se déroule",
-          "Il indique pourquoi l'action se déroule",
-          "Il indique ce qui résulte de l'action"
-        ]
-      },
-      {
-        "type": "vrai-faux",
-        "question": "L'utilisation correcte des compléments circonstanciels est essentielle pour éviter les confusions et les erreurs dans la communication écrite."
+        "question": "Le procÃ¨s de Nuremberg (1945-1946) juge les crimes de guerre et les crimes contre l'humanitÃ© commis par les dirigeants nazis."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Français",
-      "description": "Notion du programme 6eme"
-    },
-    {
-      "notion": "Compétences de base 6eme",
-      "description": "Notion du programme 6eme"
-    },
-    {
-      "notion": "Savoir-faire français",
-      "description": "Notion du programme 6eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

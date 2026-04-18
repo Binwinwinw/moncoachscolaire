@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 564",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie"
   },
   "quiz": {
     "title": "La décolonisation en Asie et en Afrique",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le processus d'indépendance des territoires colonisés après la SGM",
+        "correct": 1,
         "correction": "La décolonisation est le mouvement d'émancipation des peuples colonisés qui obtiennent leur indépendance principalement entre 1945 et 1975."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La bataille de Dien Bien Phu (mars-mai 1954) est une défaite militaire française décisive qui entraîne les accords de Genève et l'indépendance de l'Indochine."
+        "correction": "La bataille de Dien Bien Phu (mars-mai 1954) est une défaite militaire française décisive qui entraîne les accords de Genève et l'indépendance de l'Indochine."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "17 pays africains accèdent à l'indépendance",
+        "correct": 1,
         "correction": "En 1960, 17 pays africains (principalement des colonies françaises et belges) accèdent à l'indépendance."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le mouvement des non-alignés refuse de choisir entre bloc occidental et soviétique ; il regroupe les nouveaux États indépendants du Tiers-Monde."
+        "correction": "Le mouvement des non-alignés refuse de choisir entre bloc occidental et soviétique ; il regroupe les nouveaux États indépendants du Tiers-Monde."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Afrique du Sud",
+        "correct": 2,
         "correction": "L'apartheid (1948-1991) est le régime de ségrégation raciale institutionnalisée en Afrique du Sud ; Nelson Mandela lutte pour son abolition."
       },
       {

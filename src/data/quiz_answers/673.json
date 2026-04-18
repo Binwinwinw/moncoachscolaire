@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic SVT 3ème - Série 673",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT"
   },
   "quiz": {
     "title": "Puberté, croissance et hormones",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Hypophyse",
+        "correct": 1,
         "correction": "L'hypophyse contrôle de nombreuses glandes endocrines via ses hormones (TSH, FSH, LH, GH, etc.)."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La glande thyroïde, située dans le cou, produit T3 et T4 qui régulent le métabolisme de base."
+        "correction": "La glande thyroïde, située dans le cou, produit T3 et T4 qui régulent le métabolisme de base."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Via le sang",
+        "correct": 1,
         "correction": "Les hormones sont sécrétées dans le sang par les glandes endocrines et transportées vers leurs organes cibles."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Les glandes endocrines (thyroïde, hypophyse, glandes surrénales, gonades) sécrètent leurs hormones directement dans la circulation sanguine."
+        "correction": "Les glandes endocrines (thyroïde, hypophyse, glandes surrénales, gonades) sécrètent leurs hormones directement dans la circulation sanguine."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Préparer l'organisme à une réaction de 'combat ou fuite'",
+        "correct": 1,
         "correction": "L'adrénaline augmente la fréquence cardiaque, dilate les bronches et mobilise les réserves énergétiques face au stress."
       },
       {

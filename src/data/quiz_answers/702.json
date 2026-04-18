@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 702",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie"
   },
   "quiz": {
     "title": "Molécules et liaisons covalentes",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Un partage d'une paire d'électrons entre deux atomes",
+        "correct": 1,
         "correction": "La liaison covalente résulte du partage de doublets électroniques, permettant à chaque atome d'atteindre la configuration du gaz noble le plus proche."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. CO2 est composé d'un atome C lié à deux atomes O par des doubles liaisons covalentes."
+        "correction": "CO2 est composé d'un atome C lié à deux atomes O par des doubles liaisons covalentes."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "24",
+        "correct": 3,
         "correction": "C6H12O6 contient 6+12+6 = 24 atomes au total (6 C + 12 H + 6 O)."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La formule de Lewis représente les doublets liants (liaisons) et non liants (doublets libres) de chaque atome."
+        "correction": "La formule de Lewis représente les doublets liants (liaisons) et non liants (doublets libres) de chaque atome."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "NH3",
+        "correct": 2,
         "correction": "L'ammoniac est NH3 : un atome N lié à 3 atomes H avec un doublet non liant sur N."
       },
       {

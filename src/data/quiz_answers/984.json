@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "[0 ; +∞[",
+        "answer": "C",
         "correction": "La racine carrée est définie pour x ≥ 0 : domaine [0 ; +∞[."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. On élève au carré : 2x + 3 = 25 → 2x = 22 → x = 11. Vérification : √25 = 5. ✓"
+        "correction": "On élève au carré : 2x + 3 = 25 → 2x = 22 → x = 11. Vérification : √25 = 5. ✓"
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "18",
+        "answer": "A",
         "correction": "f(9) = √9 = 3."
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. √75 = √(25×3) = 5√3."
+        "correction": "√75 = √(25×3) = 5√3."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "5",
+        "answer": "A",
         "correction": "(√5)² = 5 par définition de la racine carrée."
       },
       {

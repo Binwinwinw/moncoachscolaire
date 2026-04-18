@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Le taux de croissance",
+        "answer": "B",
         "correction": "k > 0 est le taux de croissance (positif). k < 0 modéliserait une décroissance."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Croissance géométrique : P(t) = 1000×1,05ᵗ. Doublement : t = ln 2 / ln 1,05."
+        "correction": "Croissance géométrique : P(t) = 1000×1,05ᵗ. Doublement : t = ln 2 / ln 1,05."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "L'intensité lumineuse décroît exponentiellement",
+        "answer": "B",
         "correction": "L'intensité I(l) = I₀·e^(−αl) décroît exponentiellement. L'absorbance A = log(I₀/I) est logarithmique."
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. C(t) = 2C₀ → e^(0,04t) = 2 → t = ln(2)/0,04 ≈ 17,3 ans."
+        "correction": "C(t) = 2C₀ → e^(0,04t) = 2 → t = ln(2)/0,04 ≈ 17,3 ans."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "N₀·e^(t·ln2/3)",
+        "answer": "B",
         "correction": "2^(t/3) = e^(ln2·t/3). Donc N(t) = N₀·e^((ln2/3)·t)."
       },
       {

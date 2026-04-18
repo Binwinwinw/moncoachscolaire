@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 0195",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Les Ã©nergies renouvelables",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Une Ã©nergie qui ne s'Ã©puise pas",
+        "correction": "Une Ã©nergie renouvelable est une Ã©nergie qui ne s'Ã©puise pas et qui peut Ãªtre utilisÃ©e de maniÃ¨re durable, comme l'Ã©nergie solaire, Ã©olienne, hydraulique, etc."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, l'Ã©nergie solaire est une Ã©nergie renouvelable qui provient du soleil."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Elles ne polluent pas",
+        "correction": "L'avantage principal des Ã©nergies renouvelables est qu'elles ne polluent pas l'environnement, contrairement aux Ã©nergies fossiles."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, l'Ã©nergie Ã©olienne est produite par le mouvement du vent qui fait tourner les Ã©oliennes."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Elles nÃ©cessitent beaucoup d'espace",
+        "correction": "Le principal inconvÃ©nient des Ã©nergies renouvelables est qu'elles nÃ©cessitent souvent beaucoup d'espace pour Ãªtre installÃ©es, comme les panneaux solaires ou les Ã©oliennes."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, l'Ã©nergie hydraulique est produite par le mouvement de l'eau, comme les barrages hydroÃ©lectriques."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "La dÃ©pendance au climat",
+        "correction": "Le principal dÃ©fi pour l'utilisation des Ã©nergies renouvelables est leur dÃ©pendance au climat, car elles peuvent Ãªtre moins efficaces dans certaines conditions mÃ©tÃ©orologiques."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, l'Ã©nergie gÃ©othermique est une Ã©nergie renouvelable qui provient de la chaleur de la Terre."
+      }
+    ]
+  }
+}

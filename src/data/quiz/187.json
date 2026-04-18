@@ -1,94 +1,75 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 6eme - Série 0187",
+    "title": "Quiz Diagnostic Histoire-Géographie 1ere - SÃ©rie 187",
     "type": "quiz",
-    "level": "6eme",
-    "subject": "Français",
-    "description": "Diagnostic Français 6eme : Français 6e - Les valeurs de la poésie",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 1ere : Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 13",
     "status": "published",
-    "created_at": "2026-04-06 06:25:38",
-    "updated_at": "2026-04-06 06:25:38"
+    "created_at": "2026-04-18 20:30:32",
+    "updated_at": "2026-04-18 20:30:32"
   },
   "quiz": {
-    "title": "Français 6e - Les valeurs de la poésie",
+    "title": "Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 13",
     "type": "quiz",
-    "level": "6eme",
-    "subject": "Français",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Qu'est-ce que la poésie ?",
+        "question": "Quel pays est considÃ©rÃ© comme le berceau de la RÃ©volution industrielle au XVIIIe siÃ¨cle ?",
         "choices": [
-          "Un genre littéraire",
-          "Une figure de style",
-          "Une forme de communication",
-          "Une discipline scientifique"
+          "La France",
+          "L'Allemagne",
+          "Le Royaume-Uni",
+          "Les Ã‰tats-Unis"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "La Poésie peut être classée en plusieurs types, tels que la poésie lyrique, la poésie épique, la poésie dramatique, etc., en fonction de la manière dont elle exprime les émotions, les idées ou les expériences."
+        "question": "L'exode rural accompagne l'industrialisation avec la migration des paysans vers les villes industrielles."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Qu'est-ce qu'un prolÃ©tariat et comment apparaÃ®t-il avec l'industrialisation ?"
       },
       {
         "type": "qcm",
-        "question": "Quel est le rôle de la poésie dans la communication ?",
+        "question": "Quel philosophe thÃ©orise la lutte des classes entre bourgeoisie et prolÃ©tariat au XIXe siÃ¨cle ?",
         "choices": [
-          "Elle n'a pas de rôle spécifique",
-          "Elle permet d'exprimer des affirmations",
-          "Elle permet d'exprimer des questions",
-          "Elle permet d'exprimer des émotions, des idées ou des expériences de manière artistique"
+          "Adam Smith",
+          "Karl Marx",
+          "Auguste Comte",
+          "John Stuart Mill"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "L'utilisation correcte de la poésie est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les écrivains utilisent les formes de la poésie appropriées en fonction du contexte et du message qu'ils souhaitent transmettre, ce qui contribue à la clarté et à l'efficacité de la communication écrite."
+        "question": "Les premiÃ¨res lois sociales protÃ©geant les travailleurs sont adoptÃ©es en France sous la TroisiÃ¨me RÃ©publique."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Qu'est-ce que le mouvement ouvrier et quelles formes d'action dÃ©veloppe-t-il au XIXe siÃ¨cle ?"
       },
       {
         "type": "qcm",
-        "question": "Lequel de ces titres n'est pas une Poésie?",
+        "question": "Qu'est-ce que le taylorisme ?",
         "choices": [
-          "La Nuit étoilée",
-          "Le Cid",
-          "Les Fleurs du mal",
-          "Le Petit Prince"
+          "Une doctrine Ã©conomique libÃ©rale",
+          "Une mÃ©thode d'organisation scientifique du travail visant Ã  maximiser la productivitÃ©",
+          "Un mouvement syndical amÃ©ricain",
+          "Une technique de construction industrielle"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "La poésie peut se chanter."
-      },
-      {
-        "type": "qcm",
-        "question": "Quel style de poésie n'a pas de rime ?",
-        "choices": [
-          "Poésie lyrique",
-          "Poésie épique",
-          "Poésie dramatique",
-          "Poésie en vers libres"
-        ]
-      },
-      {
-        "type": "vrai-faux",
-        "question": "La poésie a une composition particulière."
+        "question": "La bourgeoisie industrielle devient la classe dominante du XIXe siÃ¨cle, remplaÃ§ant progressivement l'aristocratie fonciÃ¨re."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Français",
-      "description": "Notion du programme 6eme"
-    },
-    {
-      "notion": "Compétences de base 6eme",
-      "description": "Notion du programme 6eme"
-    },
-    {
-      "notion": "Savoir-faire français",
-      "description": "Notion du programme 6eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

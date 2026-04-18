@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'imprimerie a caracteres mobiles",
+        "correct": 1,
         "correction": "L'imprimerie de Gutenberg (vers 1450) a permis la reproduction rapide et economique de textes, democratisant l'acces au savoir et favorisant la Renaissance et la Reforme."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Marconi a realise la premiere transmission radio en 1895 et recu le prix Nobel de physique en 1909 pour ses travaux sur la telegraphie sans fil."
+        "correction": "Marconi a realise la premiere transmission radio en 1895 et recu le prix Nobel de physique en 1909 pour ses travaux sur la telegraphie sans fil."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La transformation de la production, de la communication et de l'acces au savoir a l'echelle mondiale",
+        "correct": 1,
         "correction": "La revolution numerique a transforme l'economie (industrie 4.0), les communications (internet, reseaux sociaux), le travail et l'acces au savoir."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. L'Industrie 4.0 (quatrieme revolution industrielle) integre IA, robots, IoT, impression 3D et big data pour creer des usines connectees et intelligentes."
+        "correction": "L'Industrie 4.0 (quatrieme revolution industrielle) integre IA, robots, IoT, impression 3D et big data pour creer des usines connectees et intelligentes."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Impression 3D (fabrication additive)",
+        "correct": 1,
         "correction": "L'impression 3D (FDM, SLA, SLS...) cree des objets en deposant ou solidifiant de la matiere couche par couche a partir d'un fichier CAO."
       },
       {

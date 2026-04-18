@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Philosophie 1ere - Série 224",
+    "title": "Quiz Diagnostic Philosophie 1ere - SÃ©rie 224",
     "type": "quiz",
     "level": "1ere",
     "subject": "Philosophie",
     "description": "Diagnostic Philosophie 1ere : Quiz Diagnostic 1ere Philosophie - Serie 1",
     "status": "published",
-    "created_at": "2026-03-13 18:59:45",
-    "updated_at": "2026-03-13 18:59:45"
+    "created_at": "2026-04-18 15:13:09",
+    "updated_at": "2026-04-18 15:13:09"
   },
   "quiz": {
     "title": "Quiz Diagnostic 1ere Philosophie - Serie 1",
@@ -20,69 +20,56 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Pour Descartes, quelle est la première certitude absolue à laquelle parvient le philosophe après le doute méthodique ?",
+        "question": "Pour Descartes, quelle est la premiÃ¨re certitude absolue Ã  laquelle parvient le philosophe aprÃ¨s le doute mÃ©thodique ?",
         "choices": [
           "L'existence de Dieu",
           "'Je pense, donc je suis' (cogito ergo sum)",
-          "L'existence du monde extérieur",
-          "La certitude des mathématiques"
+          "L'existence du monde extÃ©rieur",
+          "La certitude des mathÃ©matiques"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "La conscience de soi est une capacité présente chez tous les êtres vivants, y compris les animaux."
+        "question": "La conscience de soi est une capacitÃ© prÃ©sente chez tous les Ãªtres vivants, y compris les animaux."
       },
       {
         "type": "vrai-faux",
-        "question": "La conscience immédiate est la perception directe du monde ; la conscience réflexive est la capacité à se prendre soi-même comme objet de pensée."
+        "question": "Expliquez la distinction entre conscience immÃ©diate (ou spontanÃ©e) et conscience rÃ©flexive."
       },
       {
         "type": "qcm",
         "question": "Selon Sartre, la conscience humaine est fondamentalement :",
         "choices": [
-          "Déterminée par l'inconscient",
-          "Liberté absolue, sans nature fixée à l'avance ('l'existence précède l'essence')",
-          "Identique à la conscience animale",
-          "Déterminée par les conditions matérielles"
+          "DÃ©terminÃ©e par l'inconscient",
+          "LibertÃ© absolue, sans nature fixÃ©e Ã  l'avance ('l'existence prÃ©cÃ¨de l'essence')",
+          "Identique Ã  la conscience animale",
+          "DÃ©terminÃ©e par les conditions matÃ©rielles"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Le sujet philosophique désigne simplement la personne grammaticale qui parle ou agit."
+        "question": "Le sujet philosophique dÃ©signe simplement la personne grammaticale qui parle ou agit."
       },
       {
         "type": "vrai-faux",
-        "question": "Le problème de l'identité personnelle est de savoir ce qui fait qu'une personne reste la même au fil du temps malgré les changements."
+        "question": "En quoi consiste le problÃ¨me de l'identitÃ© personnelle ? Illustrez avec un auteur."
       },
       {
         "type": "qcm",
-        "question": "La maxime 'Connais-toi toi-même' (Gnôthi seauton) est associée à :",
+        "question": "La maxime 'Connais-toi toi-mÃªme' (GnÃ´thi seauton) est associÃ©e Ã  :",
         "choices": [
           "Aristote",
           "Platon / Socrate",
-          "Épicure",
+          "Ã‰picure",
           "Nietzsche"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Pour Freud, la conscience est la seule instance psychique qui détermine nos comportements."
+        "question": "Pour Freud, la conscience est la seule instance psychique qui dÃ©termine nos comportements."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Philosophie",
-      "description": "Notion du programme 1ere"
-    },
-    {
-      "notion": "Compétences de base 1ere",
-      "description": "Notion du programme 1ere"
-    },
-    {
-      "notion": "Savoir-faire philosophie",
-      "description": "Notion du programme 1ere"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

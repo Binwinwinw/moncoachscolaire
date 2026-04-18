@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic NSI 1ère - Série 878",
-    "level": "1ère",
+    "title": "Quiz Diagnostic NSI 1ere - Série 878",
+    "level": "1ere",
     "subject": "NSI"
   },
   "quiz": {
     "title": "Tri de données",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "O(n²)",
+        "correct": 2,
         "correction": "Le tri par sélection effectue n(n-1)/2 comparaisons dans tous les cas : complexité O(n²) en temps."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Le tri par insertion est efficace sur des listes presque triées et sur de petites listes."
+        "answer": "faux",
+        "correction": "Le tri par insertion est efficace sur des listes presque triées et sur de petites listes."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "En place (modifie la liste originale)",
+        "correct": 1,
         "correction": "list.sort() trie en place. sorted(list) crée et retourne une nouvelle liste triée sans modifier l'originale."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La fonction key= reçoit une fonction qui extrait la valeur à comparer pour chaque élément."
+        "answer": "faux",
+        "correction": "La fonction key= reçoit une fonction qui extrait la valeur à comparer pour chaque élément."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Tri fusion (merge sort)",
+        "correct": 1,
         "correction": "Merge sort est toujours O(n log n). Quicksort est O(n log n) en moyenne mais O(n²) dans le pire cas (pivot mal choisi)."
       },
       {

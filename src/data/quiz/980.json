@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques 2nde : Fonctions et modélisation",
     "status": "published",
-    "created_at": "2026-04-06 06:40:42",
-    "updated_at": "2026-04-06 06:40:42"
+    "created_at": "2026-04-18 18:34:32",
+    "updated_at": "2026-04-18 18:34:32"
   },
   "quiz": {
     "title": "Fonctions et modélisation",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Vitesse = 150/2 = 75 km/h."
+        "question": "Une voiture roule à vitesse constante. Elle parcourt 150 km en 2 h. Modélise la distance D en fonction du temps t (en heures). La bonne réponse attendue est : D(t) = 75t."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "]0 ; +∞[ (ou [0 ; +∞[ selon si on accepte un côté nul)."
+        "question": "L'aire d'un carré de côté x est A(x) = x². Quel est le domaine de définition pertinent dans ce contexte ? La bonne réponse attendue est : ]0 ; +∞[ (ou [0 ; +∞[ selon si on accepte un côté nul)."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fonctions polynomiales",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Géométrie analytique",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Ensembles et logique",
-      "description": "Notion fondamentale de Mathématiques"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

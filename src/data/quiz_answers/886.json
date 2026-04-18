@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic NSI 1ère - Série 886",
-    "level": "1ère",
+    "title": "Quiz Diagnostic NSI 1ere - Série 886",
+    "level": "1ere",
     "subject": "NSI"
   },
   "quiz": {
     "title": "Algorithmes de tri",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Adjacents en remontant les plus grands vers la fin",
+        "correct": 1,
         "correction": "À chaque passage, le tri à bulles compare les éléments adjacents et échange ceux dans le mauvais ordre, 'faisant remonter' le plus grand vers la fin."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. On mémorise l'élément courant (clé) et on décale les éléments plus grands d'une position vers la droite pour insérer la clé à sa place."
+        "answer": "faux",
+        "correction": "On mémorise l'élément courant (clé) et on décale les éléments plus grands d'une position vers la droite pour insérer la clé à sa place."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Diviser pour régner",
+        "correct": 1,
         "correction": "Merge sort divise le tableau en deux moitiés, trie chacune récursivement, puis fusionne les deux moitiés triées."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Le choix du pivot est crucial : pivot aléatoire ou médiane de trois valeurs améliore les performances."
+        "answer": "faux",
+        "correction": "Le choix du pivot est crucial : pivot aléatoire ou médiane de trois valeurs améliore les performances."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Tri par insertion",
+        "correct": 2,
         "correction": "Le tri par insertion est O(n) sur une liste presque triée (peu d'échanges nécessaires). C'est pourquoi Timsort (Python) l'utilise sur de petits sous-tableaux."
       },
       {

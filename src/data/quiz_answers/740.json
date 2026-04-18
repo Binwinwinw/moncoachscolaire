@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 740",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie"
   },
   "quiz": {
     "title": "Forces et mouvement : les forces et leur représentation",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Par une flèche (vecteur) avec un point d'application, une direction, un sens et une norme",
+        "correct": 1,
         "correction": "Une force est une grandeur vectorielle représentée par une flèche ayant un point d'application, une direction, un sens et une norme (intensité) en newtons."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le poids P est la force exercée par la Terre sur un objet. P = m × g, où m est la masse en kg et g ≈ 9,81 N/kg sur Terre."
+        "correction": "Le poids P est la force exercée par la Terre sur un objet. P = m × g, où m est la masse en kg et g ≈ 9,81 N/kg sur Terre."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La somme vectorielle de toutes les forces",
+        "correct": 1,
         "correction": "La résultante est la somme vectorielle de toutes les forces appliquées à un objet. Si elle est nulle, l'objet est en équilibre."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La masse est constante quel que soit l'endroit. Le poids varie selon la gravité locale (P = mg). Sur la Lune, le poids est 6 fois plus faible qu'sur Terre."
+        "correction": "La masse est constante quel que soit l'endroit. Le poids varie selon la gravité locale (P = mg). Sur la Lune, le poids est 6 fois plus faible qu'sur Terre."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Frottement",
+        "correct": 2,
         "correction": "La force de frottement s'oppose au mouvement relatif entre deux surfaces en contact. Elle est responsable de la résistance au glissement."
       },
       {

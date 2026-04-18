@@ -1,100 +1,75 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 6eme - Série 0186",
+    "title": "Quiz Diagnostic Histoire-Géographie 1ere - SÃ©rie 186",
     "type": "quiz",
-    "level": "6eme",
-    "subject": "Français",
-    "description": "Diagnostic Français 6eme : Français 6e - Les valeurs de la répétition",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 1ere : Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 12",
     "status": "published",
-    "created_at": "2026-04-06 06:25:38",
-    "updated_at": "2026-04-06 06:25:38"
+    "created_at": "2026-04-18 20:30:32",
+    "updated_at": "2026-04-18 20:30:32"
   },
   "quiz": {
-    "title": "Français 6e - Les valeurs de la répétition",
+    "title": "Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 12",
     "type": "quiz",
-    "level": "6eme",
-    "subject": "Français",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Qu'est-ce que la répétition ?",
+        "question": "Que signifie le concept de dÃ©veloppement durable ?",
         "choices": [
-          "Une figure de style qui atténue l'importance d'une idée",
-          "Une figure de style qui met en valeur une idée en la répétant ou en la soulignant",
-          "Une figure de style qui compare deux idées",
-          "Une figure de style qui exagère une idée"
+          "Un dÃ©veloppement Ã©conomique sans limites",
+          "Un dÃ©veloppement qui rÃ©pond aux besoins du prÃ©sent sans compromettre ceux des gÃ©nÃ©rations futures",
+          "La protection exclusive de l'environnement au dÃ©triment de l'Ã©conomie",
+          "La croissance Ã©conomique des pays en dÃ©veloppement"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "La répétition peut être classée en plusieurs types, tels que les anaphores, les épiphore, les parallélismes, etc., en fonction de la manière dont elle met en valeur une idée."
+        "question": "Le changement climatique est principalement causÃ© par les Ã©missions de gaz Ã  effet de serre d'origine humaine."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Qu'est-ce que l'accord de Paris (2015) et quels sont ses objectifs en matiÃ¨re de changement climatique ?"
       },
       {
         "type": "qcm",
-        "question": "Quel est la figure de répétition parmi ces options ?",
+        "question": "Quel type de risque naturel menace le plus les cÃ´tes franÃ§aises en raison du changement climatique ?",
         "choices": [
-          "Anaphore",
-          "Affirmation",
-          "booléen",
-          "Allitération"
-        ]
-      },
-      {
-        "type": "qcm",
-        "question": "Quel est le rôle d'une figure de répétition dans la communication ?",
-        "choices": [
-          "Atténuer l'importance d'une idée",
-          "Mettre en valeur une idée en la répétant ou en la soulignant",
-          "Comparer deux idées",
-          "Exagérer une idée"
+          "Les tremblements de terre",
+          "Les Ã©ruptions volcaniques",
+          "La montÃ©e du niveau des mers et les submersions marines",
+          "Les tsunamis"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Est-il facile d'utiliser les figures de répétition de manière appropriée dans la communication ?"
+        "question": "La France tire environ 70-75% de son Ã©lectricitÃ© de l'Ã©nergie nuclÃ©aire, ce qui est l'une des proportions les plus Ã©levÃ©es au monde."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Qu'est-ce qu'un risque majeur et comment les sociÃ©tÃ©s peuvent-elles s'y prÃ©parer ?"
       },
       {
         "type": "qcm",
-        "question": "Quel est la figure de répétition parmi ces options ?",
+        "question": "Qu'est-ce que l'empreinte carbone d'un pays ou d'une personne ?",
         "choices": [
-          "Démonstration",
-          "Hyperbole",
-          "booléen",
-          "Négation"
+          "La surface de forÃªt nÃ©cessaire pour absorber le COÂ² Ã©mis",
+          "La quantitÃ© totale de gaz Ã  effet de serre Ã©mise directement et indirectement",
+          "Le bilan des Ã©missions de carbone d'un territoire",
+          "Le score de pollution atmosphÃ©rique d'une ville"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Si une figure de répétition est utilisée de manière excessive ou inappropriée, cela peut entraîner des confusions ou des malentendus dans la communication, en rendant difficile à comprendre le message"
-      },
-      {
-        "type": "qcm",
-        "question": "Quel est la figure de répétition parmi ces options ?",
-        "choices": [
-          "Comparaison",
-          "Allitération",
-          "booléen",
-          "Parallèle"
-        ]
+        "question": "La biodiversitÃ© mondiale est actuellement menacÃ©e par une extinction de masse liÃ©e aux activitÃ©s humaines."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Français",
-      "description": "Notion du programme 6eme"
-    },
-    {
-      "notion": "Compétences de base 6eme",
-      "description": "Notion du programme 6eme"
-    },
-    {
-      "notion": "Savoir-faire français",
-      "description": "Notion du programme 6eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

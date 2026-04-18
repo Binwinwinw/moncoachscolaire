@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic SES 1ère - Série 835",
+    "title": "Quiz Diagnostic SES 1ere - Série 835",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
-    "description": "Diagnostic SES 1ère : Les causes du chômage",
+    "description": "Diagnostic SES 1ere : Les causes du chômage",
     "status": "published",
-    "created_at": "2026-04-06 06:40:40",
-    "updated_at": "2026-04-06 06:40:40"
+    "created_at": "2026-04-18 20:28:31",
+    "updated_at": "2026-04-18 20:28:31"
   },
   "quiz": {
     "title": "Les causes du chômage",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La mondialisation a favorisé les délocalisations vers des pays à bas coûts salariaux, réduisant l'emploi industriel en France (désindustrialisation)."
+        "question": "Expliquez l'effet de la mondialisation sur l'emploi industriel en France."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Le modèle WS-PS (Wage Setting - Price Setting) prédit un taux de chômage d'équilibre déterminé par le pouvoir de négociation des syndicats (WS) et le pouvoir de marché des entreprises (PS)."
+        "question": "Qu'est-ce que le modèle WS-PS et que prédit-il ?"
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Inégalités et redistribution",
-      "description": "Notion fondamentale de SES"
-    },
-    {
-      "notion": "Croissance économique",
-      "description": "Notion fondamentale de SES"
-    },
-    {
-      "notion": "Mondialisation",
-      "description": "Notion fondamentale de SES"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

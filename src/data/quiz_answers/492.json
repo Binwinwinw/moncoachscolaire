@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 492",
-    "level": "1ère",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 492",
+    "level": "1ere",
     "subject": "Français"
   },
   "quiz": {
-    "title": "L'oral de l'EAF : préparation et méthode",
+    "title": "L'oral de l'EAF : prÃ©paration et mÃ©thode",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "answers": [
       {
@@ -15,56 +15,59 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "30 minutes",
-        "correction": "L'élève dispose de 30 minutes de préparation pour préparer son exposé de l'EAF."
+        "correct": 2,
+        "correction": "L'Ã©lÃ¨ve dispose de 30 minutes de prÃ©paration pour prÃ©parer son exposÃ© de l'EAF."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "L'élève peut disposer de ses notes et annotations sur le texte pendant l'exposé."
+        "correction": "L'Ã©lÃ¨ve peut disposer de ses notes et annotations sur le texte pendant l'exposÃ©."
       },
       {
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. L'entretien porte sur les œuvres intégrales étudiées dans l'année et sur les lectures cursives."
+        "answer": "faux",
+        "correction": "L'entretien porte sur les Å“uvres intÃ©grales Ã©tudiÃ©es dans l'annÃ©e et sur les lectures cursives."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Parler distinctement et structurer clairement son analyse",
-        "correction": "L'oral valorise la clarté de l'expression, la précision des analyses et la maîtrise des références."
+        "correct": 1,
+        "correction": "L'oral valorise la clartÃ© de l'expression, la prÃ©cision des analyses et la maÃ®trise des rÃ©fÃ©rences."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "L'exposé dure environ 10 minutes, puis l'entretien avec l'examinateur dure environ 10 minutes."
+        "correction": "L'exposÃ© dure environ 10 minutes, puis l'entretien avec l'examinateur dure environ 10 minutes."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Un plan en 2-3 axes, annoncé en introduction et conclu par une synthèse, structure l'exposé oral."
+        "answer": "faux",
+        "correction": "Un plan en 2-3 axes, annoncÃ© en introduction et conclu par une synthÃ¨se, structure l'exposÃ© oral."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "Reconnaître honnêtement la limite de sa connaissance et proposer une piste",
-        "correction": "L'examinateur valorise l'honnêteté intellectuelle et la démarche de réflexion, même face à l'incertitude."
+        "answer": "ReconnaÃ®tre honnÃªtement la limite de sa connaissance et proposer une piste",
+        "correct": 1,
+        "correction": "L'examinateur valorise l'honnÃªtetÃ© intellectuelle et la dÃ©marche de rÃ©flexion, mÃªme face Ã  l'incertitude."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "L'examinateur peut interroger sur les lectures cursives lorsqu'elles enrichissent la réponse."
+        "correction": "L'examinateur peut interroger sur les lectures cursives lorsqu'elles enrichissent la rÃ©ponse."
       }
     ]
   }

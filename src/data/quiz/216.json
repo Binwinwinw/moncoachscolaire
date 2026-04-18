@@ -1,90 +1,75 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 2nde - Série 216",
+    "title": "Quiz Diagnostic Histoire-Géographie 1ere - SÃ©rie 216",
     "type": "quiz",
-    "level": "2nde",
-    "subject": "Français",
-    "description": "Diagnostic Français 2nde : Diagnostic 2nde Français - Phrase complexe et subordination",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 1ere : Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 42",
     "status": "published",
-    "created_at": "2026-03-14 07:16:54",
-    "updated_at": "2026-03-14 07:16:54",
-    "source": "Eduscol programmes officiels + BOEN",
-    "programme_ref": "<Référence programme officiel à renseigner>"
+    "created_at": "2026-04-18 20:30:33",
+    "updated_at": "2026-04-18 20:30:33"
   },
   "quiz": {
-    "title": "Diagnostic 2nde Français - Phrase complexe et subordination",
+    "title": "Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 42",
     "type": "quiz",
-    "level": "2nde",
-    "subject": "Français",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Une phrase complexe est une phrase qui :",
+        "question": "Quelle est la pÃ©riode principale couverte par le thÃ¨me 'Le terrorisme, menace globale' ?",
         "choices": [
-          "contient au moins deux verbes conjugués",
-          "contient uniquement des adjectifs",
-          "se termine toujours par un point d'exclamation",
-          "ne comporte jamais de conjonction"
+          "XVIIIe siÃ¨cle",
+          "XIXe siÃ¨cle",
+          "XXe siÃ¨cle",
+          "XXIe siÃ¨cle"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Dans « Je pense que tu as raison », « que tu as raison » est une subordonnée conjonctive complétive."
+        "question": "Le thÃ¨me 'Le terrorisme international' fait partie du programme officiel d'Histoire-GÃ©ographie de 1Ã¨re."
       },
       {
         "type": "vrai-faux",
-        "question": "Subordonnée relative."
+        "question": "PrÃ©sentez en quelques lignes l'importance de l'Ã©tude du thÃ¨me 'Le terrorisme international' pour comprendre le monde contemporain."
       },
       {
         "type": "qcm",
-        "question": "Quel lien logique exprime « parce que » ?",
+        "question": "Quelle dÃ©marche est au cÅ“ur de l'Ã©tude historique et gÃ©ographique ?",
         "choices": [
-          "La conséquence",
-          "La cause",
-          "L'opposition",
-          "La concession"
+          "La mÃ©morisation de dates et de faits",
+          "L'analyse critique de documents et la construction d'une argumentation",
+          "La rÃ©citation de dÃ©finitions",
+          "L'apprentissage des frontiÃ¨res"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "« Bien que » introduit généralement une idée de concession."
+        "question": "Les sources primaires (documents d'Ã©poque) sont plus fiables que les sources secondaires (analyses d'historiens) pour comprendre un Ã©vÃ©nement historique."
       },
       {
         "type": "vrai-faux",
-        "question": "Un connecteur de conséquence marque le résultat d'une cause ou d'un raisonnement."
+        "question": "Qu'est-ce qu'un territoire et en quoi diffÃ¨re-t-il d'un simple espace gÃ©ographique ?"
       },
       {
         "type": "qcm",
-        "question": "Dans « L'élève qui révise progresse », quelle est la nature de « qui révise » ?",
+        "question": "Qu'est-ce qu'une carte thÃ©matique en gÃ©ographie ?",
         "choices": [
-          "Proposition indépendante",
-          "Subordonnée relative",
-          "Subordonnée circonstancielle de temps",
-          "Incise"
+          "Une carte routiÃ¨re ou touristique",
+          "Une reprÃ©sentation graphique qui reprÃ©sente la distribution spatiale d'un phÃ©nomÃ¨ne prÃ©cis",
+          "Une carte de relief topographique",
+          "Un plan d'une ville"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Une proposition subordonnée ne peut jamais être supprimée sans modifier le sens de la phrase."
+        "question": "La gÃ©opolitique Ã©tudie les liens entre la gÃ©ographie et le pouvoir politique des Ã‰tats."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Mouvements littéraires",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Analyse narratologique",
-      "description": "Notion fondamentale de Français"
-    },
-    {
-      "notion": "Argumentation structurée",
-      "description": "Notion fondamentale de Français"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

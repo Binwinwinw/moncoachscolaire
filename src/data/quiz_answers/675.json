@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic SVT 3ème - Série 675",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT"
   },
   "quiz": {
     "title": "Géologie : tectonique des plaques",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Alfred Wegener",
+        "correct": 1,
         "correction": "Alfred Wegener a proposé la théorie de la dérive des continents en 1912, prémisse de la tectonique des plaques."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Les dorsales océaniques sont des zones de divergence où le magma remonte et crée de la nouvelle croûte océanique."
+        "correction": "Les dorsales océaniques sont des zones de divergence où le magma remonte et crée de la nouvelle croûte océanique."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Une plaque plonge sous une autre",
+        "correct": 1,
         "correction": "Dans une zone de subduction, la plaque océanique (plus dense) plonge sous une plaque continentale ou océanique."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Les courants de convection dans l'asthénosphère et le manteau inférieur entraînent les plaques tectoniques."
+        "correction": "Les courants de convection dans l'asthénosphère et le manteau inférieur entraînent les plaques tectoniques."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La plaque qui plonge libère de l'eau qui abaisse le point de fusion du manteau, formant du magma",
+        "correct": 1,
         "correction": "La déshydratation de la plaque subduite hydrate le manteau sus-jacent, abaissant son point de fusion et générant du magma."
       },
       {

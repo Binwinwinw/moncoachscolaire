@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 1ère - Série 490",
-    "level": "1ère",
+    "title": "Quiz Diagnostic Français 1ere - SÃ©rie 490",
+    "level": "1ere",
     "subject": "Français"
   },
   "quiz": {
-    "title": "Racine : la tragédie et les passions",
+    "title": "Racine : la tragÃ©die et les passions",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "Français",
     "answers": [
       {
@@ -15,49 +15,52 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "D'un amour coupable pour son beau-fils Hippolyte",
-        "correction": "Phèdre est victime d'une passion incestueuse inspirée par Vénus, qui la mène à la mort."
+        "correct": 1,
+        "correction": "PhÃ¨dre est victime d'une passion incestueuse inspirÃ©e par VÃ©nus, qui la mÃ¨ne Ã  la mort."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "Les héros raciniens sont écrasés par une fatalité (divine, amoureuse, politique) à laquelle ils ne peuvent échapper."
+        "correction": "Les hÃ©ros raciniens sont Ã©crasÃ©s par une fatalitÃ© (divine, amoureuse, politique) Ã  laquelle ils ne peuvent Ã©chapper."
       },
       {
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La chaîne d'amours non partagés crée une tension dramatique inexorable."
+        "answer": "faux",
+        "correction": "La chaÃ®ne d'amours non partagÃ©s crÃ©e une tension dramatique inexorable."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "La simplicité apparente et l'intensité psychologique",
-        "correction": "Racine use d'un vocabulaire simple mais dense ; 'Dans un mois, dans un an' (Bérénice) → sobriété déchirante."
+        "answer": "La simplicitÃ© apparente et l'intensitÃ© psychologique",
+        "correct": 1,
+        "correction": "Racine use d'un vocabulaire simple mais dense ; 'Dans un mois, dans un an' (BÃ©rÃ©nice) â†’ sobriÃ©tÃ© dÃ©chirante."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "Bérénice est une tragédie sans mort : Titus renonce à Bérénice pour la raison d'État ; ils se séparent."
+        "correction": "BÃ©rÃ©nice est une tragÃ©die sans mort : Titus renonce Ã  BÃ©rÃ©nice pour la raison d'Ã‰tat ; ils se sÃ©parent."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La confidente (Œnone pour Phèdre, Pylade pour Oreste) permet l'exposition des sentiments intérieurs."
+        "answer": "faux",
+        "correction": "La confidente (Å’none pour PhÃ¨dre, Pylade pour Oreste) permet l'exposition des sentiments intÃ©rieurs."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "Racine privilégie la psychologie amoureuse et le langage des passions",
-        "correction": "Corneille met en scène la volonté héroïque (Le Cid) ; Racine explore les abîmes de la passion dévastatrice."
+        "answer": "Racine privilÃ©gie la psychologie amoureuse et le langage des passions",
+        "correct": 1,
+        "correction": "Corneille met en scÃ¨ne la volontÃ© hÃ©roÃ¯que (Le Cid) ; Racine explore les abÃ®mes de la passion dÃ©vastatrice."
       },
       {
         "index": 7,

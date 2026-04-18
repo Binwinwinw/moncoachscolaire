@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques 2nde : Solides & sections planes",
     "status": "published",
-    "created_at": "2026-04-06 06:40:42",
-    "updated_at": "2026-04-06 06:40:42"
+    "created_at": "2026-04-18 18:34:33",
+    "updated_at": "2026-04-18 18:34:33"
   },
   "quiz": {
     "title": "Solides & sections planes",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Un cercle de même rayon que la base du cylindre."
+        "question": "Quelle est la section d'un cylindre par un plan perpendiculaire à son axe ? La bonne réponse attendue est : Un cercle de même rayon que la base du cylindre."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Un rectangle de même hauteur que le prisme."
+        "question": "Quelle est la section d'un prisme droit par un plan perpendiculaire à ses bases ? La bonne réponse attendue est : Un rectangle de même hauteur que le prisme."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fonctions polynomiales",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Géométrie analytique",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Ensembles et logique",
-      "description": "Notion fondamentale de Mathématiques"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

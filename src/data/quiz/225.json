@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Philosophie 1ere - Série 225",
+    "title": "Quiz Diagnostic Philosophie 1ere - SÃ©rie 225",
     "type": "quiz",
     "level": "1ere",
     "subject": "Philosophie",
     "description": "Diagnostic Philosophie 1ere : Quiz Diagnostic 1ere Philosophie - Serie 2",
     "status": "published",
-    "created_at": "2026-03-13 18:59:45",
-    "updated_at": "2026-03-13 18:59:45"
+    "created_at": "2026-04-18 15:13:09",
+    "updated_at": "2026-04-18 15:13:09"
   },
   "quiz": {
     "title": "Quiz Diagnostic 1ere Philosophie - Serie 2",
@@ -20,45 +20,45 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Quelle méthode Freud développe-t-il pour accéder à l'inconscient ?",
+        "question": "Quelle mÃ©thode Freud dÃ©veloppe-t-il pour accÃ©der Ã  l'inconscient ?",
         "choices": [
-          "La méditation",
-          "La psychanalyse (association libre, interprétation des rêves)",
+          "La mÃ©ditation",
+          "La psychanalyse (association libre, interprÃ©tation des rÃªves)",
           "La dialectique socratique",
           "L'introspection rationnelle"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "L'inconscient freudien est simplement ce dont on n'est pas conscient à un moment donné, comme les souvenirs oubliés."
+        "question": "L'inconscient freudien est simplement ce dont on n'est pas conscient Ã  un moment donnÃ©, comme les souvenirs oubliÃ©s."
       },
       {
         "type": "vrai-faux",
-        "question": "Le refoulement est le mécanisme de défense par lequel des représentations jugées inacceptables sont repoussées dans l'inconscient et maintenues hors de la conscience."
+        "question": "Qu'est-ce que le refoulement chez Freud et quel est son rÃ´le dans la formation de l'inconscient ?"
       },
       {
         "type": "qcm",
-        "question": "Quelle objection philosophique majeure peut-on adresser à la notion d'inconscient freudien ?",
+        "question": "Quelle objection philosophique majeure peut-on adresser Ã  la notion d'inconscient freudien ?",
         "choices": [
           "L'inconscient n'existe que chez les malades mentaux",
-          "Si l'inconscient est par définition inaccessible à la conscience, on ne peut ni le prouver ni le réfuter (problème de réfutabilité)",
+          "Si l'inconscient est par dÃ©finition inaccessible Ã  la conscience, on ne peut ni le prouver ni le rÃ©futer (problÃ¨me de rÃ©futabilitÃ©)",
           "La psychanalyse est trop rationnelle",
-          "Freud ne parle que des rêves"
+          "Freud ne parle que des rÃªves"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Selon Freud, le ça, le moi et le surmoi sont les trois instances de la deuxième topique de l'appareil psychique."
+        "question": "Selon Freud, le Ã§a, le moi et le surmoi sont les trois instances de la deuxiÃ¨me topique de l'appareil psychique."
       },
       {
         "type": "vrai-faux",
-        "question": "L'inconscient montre que le moi n'est pas maître chez lui : nos comportements sont en partie déterminés par des forces que nous ne contrôlons pas, blessant ainsi notre image de maîtrise de nous-mêmes."
+        "question": "En quoi la dÃ©couverte de l'inconscient constitue-t-elle, selon Freud, une 'blessure narcissique' pour l'humanitÃ© ?"
       },
       {
         "type": "qcm",
-        "question": "Quel philosophe affirme que la thèse de l'inconscient est incompatible avec la liberté humaine et constitue une 'mauvaise foi' ?",
+        "question": "Quel philosophe affirme que la thÃ¨se de l'inconscient est incompatible avec la libertÃ© humaine et constitue une 'mauvaise foi' ?",
         "choices": [
-          "Freud lui-même",
+          "Freud lui-mÃªme",
           "Hegel",
           "Sartre",
           "Descartes"
@@ -66,23 +66,10 @@
       },
       {
         "type": "vrai-faux",
-        "question": "L'interprétation des rêves selon Freud montre que les rêves ont un sens caché qui exprime des désirs inconscients refoulés."
+        "question": "L'interprÃ©tation des rÃªves selon Freud montre que les rÃªves ont un sens cachÃ© qui exprime des dÃ©sirs inconscients refoulÃ©s."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Philosophie",
-      "description": "Notion du programme 1ere"
-    },
-    {
-      "notion": "Compétences de base 1ere",
-      "description": "Notion du programme 1ere"
-    },
-    {
-      "notion": "Savoir-faire philosophie",
-      "description": "Notion du programme 1ere"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic SES 1ère - Série 822",
-    "level": "1ère",
+    "title": "Quiz Diagnostic SES 1ere - Série 822",
+    "level": "1ere",
     "subject": "SES"
   },
   "quiz": {
     "title": "Élasticité-prix",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La variation relative de la demande suite à une variation relative du prix",
+        "correct": 1,
         "correction": "Élasticité-prix demande = (ΔQ/Q) / (ΔP/P). Elle est généralement négative."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Pour les biens inélastiques (|e| < 1), une variation de prix modifie peu les quantités demandées."
+        "answer": "faux",
+        "correction": "Pour les biens inélastiques (|e| < 1), une variation de prix modifie peu les quantités demandées."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Substituts",
+        "correct": 1,
         "correction": "Une élasticité croisée positive indique que la hausse du prix d'un bien augmente la demande de l'autre (substitution)."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. L'élasticité guide la stratégie tarifaire et influence le chiffre d'affaires."
+        "answer": "faux",
+        "correction": "L'élasticité guide la stratégie tarifaire et influence le chiffre d'affaires."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Une baisse de la demande de 3 %",
+        "correct": 1,
         "correction": "ΔQ/Q = élasticité × ΔP/P = (-0,3) × 10 % = -3 %."
       },
       {

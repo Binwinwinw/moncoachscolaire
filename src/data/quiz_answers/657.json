@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic SVT 3ème - Série 657",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT"
   },
   "quiz": {
     "title": "Évolution : théorie et preuves",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "SVT",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Darwin",
+        "correct": 2,
         "correction": "Charles Darwin a formulé la théorie de la sélection naturelle dans 'De l'origine des espèces' (1859)."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Les organes homologues (ex. aile de chauve-souris, bras humain, nageoire de baleine) montrent une origine commune malgré des fonctions différentes."
+        "correction": "Les organes homologues (ex. aile de chauve-souris, bras humain, nageoire de baleine) montrent une origine commune malgré des fonctions différentes."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Phylogénétique moléculaire",
+        "correct": 1,
         "correction": "La phylogénétique moléculaire utilise les séquences génétiques pour reconstruire l'histoire évolutive."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La spéciation est le processus par lequel une population évolue en une espèce distincte."
+        "correction": "La spéciation est le processus par lequel une population évolue en une espèce distincte."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Les mutations et la reproduction sexuée",
+        "correct": 1,
         "correction": "La variabilité génétique héréditaire vient des mutations et du brassage lors de la reproduction sexuée."
       },
       {

@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 699",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie"
   },
   "quiz": {
     "title": "L'atome : structure et composition",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Protons, neutrons, électrons",
+        "correct": 0,
         "correction": "Un atome est composé d'un noyau (protons + neutrons) entouré d'électrons en mouvement."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le numéro atomique Z est le nombre de protons du noyau ; il définit l'élément chimique."
+        "correction": "Le numéro atomique Z est le nombre de protons du noyau ; il définit l'élément chimique."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "+1",
+        "correct": 2,
         "correction": "Le proton porte une charge positive élémentaire (+e = +1,6 × 10^-19 C)."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Des isotopes sont des atomes du même élément chimique (même Z) mais de masses différentes (nombre de neutrons différent)."
+        "correction": "Des isotopes sont des atomes du même élément chimique (même Z) mais de masses différentes (nombre de neutrons différent)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "1 836 fois plus grande",
+        "correct": 1,
         "correction": "Le proton est environ 1 836 fois plus massif que l'électron ; la masse de l'atome est donc concentrée dans le noyau."
       },
       {

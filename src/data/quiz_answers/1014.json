@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Il existe c ∈ [a,b] tel que f(c) = k",
+        "answer": "B",
         "correction": "Le TVI garantit l'existence d'un c ∈ ]a,b[ (au moins) tel que f(c) = k."
       },
       {
@@ -29,13 +29,13 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. f continue sur [2,3], f(2)=−1 0 ; par le TVI il existe c ∈ ]2;3[ tel que f(c)=0."
+        "correction": "f continue sur [2,3], f(2)=−1<0, f(3)=16>0 ; par le TVI il existe c ∈ ]2;3[ tel que f(c)=0."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "f doit être strictement monotone sur [a,b]",
+        "answer": "B",
         "correction": "Si f est continue ET strictement monotone sur [a,b], alors pour chaque k entre f(a) et f(b), il y a un unique c."
       },
       {
@@ -50,13 +50,13 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. On coupe [a,b] en deux. On garde le sous-intervalle où f change de signe. Convergence vers la racine."
+        "correction": "On coupe [a,b] en deux. On garde le sous-intervalle où f change de signe. Convergence vers la racine."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "Il existe c ∈ ]0,1[ tel que f(c) = 0",
+        "answer": "C",
         "correction": "f(0)=2>0 et f(1)=−3<0 : changement de signe → par TVI, existence d'une racine dans ]0,1[."
       },
       {

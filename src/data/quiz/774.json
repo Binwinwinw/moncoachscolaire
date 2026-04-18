@@ -6,8 +6,8 @@
     "subject": "Technologie",
     "description": "Diagnostic Technologie 3eme : Les grandes inventions et leur impact sur la societe",
     "status": "published",
-    "created_at": "2026-04-06 06:40:45",
-    "updated_at": "2026-04-06 06:40:45"
+    "created_at": "2026-04-18 21:24:12",
+    "updated_at": "2026-04-18 21:24:12"
   },
   "quiz": {
     "title": "Les grandes inventions et leur impact sur la societe",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Marconi a realise la premiere transmission radio en 1895 et recu le prix Nobel de physique en 1909 pour ses travaux sur la telegraphie sans fil."
+        "question": "La bonne réponse attendue est : Guglielmo Marconi."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "L'Industrie 4.0 (quatrieme revolution industrielle) integre IA, robots, IoT, impression 3D et big data pour creer des usines connectees et intelligentes."
+        "question": "La bonne réponse attendue est : industrie 4.0."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Technologie",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Compétences de base 3eme",
-      "description": "Notion du programme 3eme"
-    },
-    {
-      "notion": "Savoir-faire technologie",
-      "description": "Notion du programme 3eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

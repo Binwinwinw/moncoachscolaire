@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic SES 1ère - Série 846",
-    "level": "1ère",
+    "title": "Quiz Diagnostic SES 1ere - Série 846",
+    "level": "1ere",
     "subject": "SES"
   },
   "quiz": {
     "title": "Les firmes multinationales",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Possède des filiales dans plusieurs pays",
+        "correct": 1,
         "correction": "Une FMN contrôle des unités de production ou distribution dans au moins deux pays, coordonnant une stratégie mondiale."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Les délocalisations verticales (fragmentation productive) sont motivées par les coûts ; les horizontales (répliquer la production) visent les marchés locaux."
+        "answer": "faux",
+        "correction": "Les délocalisations verticales (fragmentation productive) sont motivées par les coûts ; les horizontales (répliquer la production) visent les marchés locaux."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Le prix facturé entre filiales d'une même FMN pour minimiser l'impôt",
+        "correct": 0,
         "correction": "En manipulant les prix intra-groupe, les FMN peuvent transférer des profits vers des filiales dans des paradis fiscaux."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Les effets des IDE dépendent des conditions d'accueil et de la capacité du pays à négocier avec les FMN."
+        "answer": "faux",
+        "correction": "Les effets des IDE dépendent des conditions d'accueil et de la capacité du pays à négocier avec les FMN."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La fragmentation internationale de la production entre différents pays",
+        "correct": 1,
         "correction": "Ex : un iPhone est conçu aux États-Unis, ses composants fabriqués dans 40 pays différents, assemblé en Chine."
       },
       {

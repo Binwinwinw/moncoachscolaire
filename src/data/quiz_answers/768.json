@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La Charte de l'environnement de 2004, adossee a la Constitution",
+        "correct": 1,
         "correction": "La Charte de l'environnement (2004) a été adossée à la Constitution de 1958 et reconnaît à chacun le droit de vivre dans un environnement équilibré et respectueux de la santé."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Des mouvements comme Fridays for Future (lancé par Greta Thunberg en 2018) ou Youth for Climate mobilisent des millions de jeunes dans le monde pour exiger des politiques climatiques ambitieuses."
+        "correction": "Des mouvements comme Fridays for Future (lancé par Greta Thunberg en 2018) ou Youth for Climate mobilisent des millions de jeunes dans le monde pour exiger des politiques climatiques ambitieuses."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Une assemblee de 150 citoyens tires au sort pour proposer des mesures de lutte contre le changement climatique",
+        "correct": 1,
         "correction": "La Convention citoyenne pour le climat (CCC) a réuni 150 citoyens tirés au sort en 2019-2020 pour proposer des mesures réduisant les émissions de GES de 40% d'ici 2030."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La RSE (Responsabilité Sociétale des Entreprises) désigne l'engagement volontaire des entreprises à intégrer des préoccupations sociales et environnementales dans leurs activités."
+        "correction": "La RSE (Responsabilité Sociétale des Entreprises) désigne l'engagement volontaire des entreprises à intégrer des préoccupations sociales et environnementales dans leurs activités."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Capacite de charge de la Terre (limites planetaires)",
+        "correct": 1,
         "correction": "Les 9 limites planétaires (Rockström et al., 2009) définissent l'espace sécurisé pour l'humanité ; plusieurs ont déjà été dépassées (changement climatique, biodiversité)."
       },
       {

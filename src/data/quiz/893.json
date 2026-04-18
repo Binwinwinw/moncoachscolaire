@@ -1,18 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic NSI 1ère - Série 893",
+    "title": "Quiz Diagnostic NSI 1ere - Série 893",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
-    "description": "Diagnostic NSI 1ère : Boucles for et while",
+    "description": "Diagnostic NSI 1ere : Boucles for et while",
     "status": "published",
-    "created_at": "2026-04-06 06:40:40",
-    "updated_at": "2026-04-06 06:40:40"
+    "created_at": "2026-04-18 20:28:31",
+    "updated_at": "2026-04-18 20:28:31"
   },
   "quiz": {
     "title": "Boucles for et while",
     "type": "quiz",
-    "level": "1ère",
+    "level": "1ere",
     "subject": "NSI",
     "question_count": 8,
     "passing_score": 70,
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Break interrompt immédiatement la boucle entière."
+        "question": "Quelle est la différence entre break et continue dans une boucle Python ?"
       },
       {
         "type": "qcm",
@@ -48,11 +48,11 @@
       },
       {
         "type": "vrai-faux",
-        "question": "En Python, for . else exécute le bloc else si la boucle se termine normalement (sans break)."
+        "question": "En Python, for ... else exécute le bloc else si la boucle se termine normalement (sans break)."
       },
       {
         "type": "vrai-faux",
-        "question": "Somme = 0 for i in range(2, 101, 2): somme += i print(somme) # 2550 # Ou: somme = sum(range(2, 101, 2))."
+        "question": "Écrivez une boucle Python pour calculer la somme des nombres pairs de 1 à 100."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Algorithmes et complexité",
-      "description": "Notion fondamentale de NSI"
-    },
-    {
-      "notion": "Programmation objet",
-      "description": "Notion fondamentale de NSI"
-    },
-    {
-      "notion": "Données et réseaux",
-      "description": "Notion fondamentale de NSI"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

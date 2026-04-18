@@ -1,94 +1,75 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français 6eme - Série 0180",
+    "title": "Quiz Diagnostic Histoire-Géographie 1ere - SÃ©rie 180",
     "type": "quiz",
-    "level": "6eme",
-    "subject": "Français",
-    "description": "Diagnostic Français 6eme : Français 6e - Les temps composés",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 1ere : Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 6",
     "status": "published",
-    "created_at": "2026-04-06 06:25:38",
-    "updated_at": "2026-04-06 06:25:38"
+    "created_at": "2026-04-18 20:30:32",
+    "updated_at": "2026-04-18 20:30:32"
   },
   "quiz": {
-    "title": "Français 6e - Les temps composés",
+    "title": "Quiz Diagnostic 1ere Histoire-GÃ©ographie - Serie 6",
     "type": "quiz",
-    "level": "6eme",
-    "subject": "Français",
+    "level": "1ere",
+    "subject": "Histoire-Géographie",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Qu'est-ce qu'un temps composé ?",
+        "question": "Dans quel contexte international la dÃ©colonisation s'accÃ©lÃ¨re-t-elle aprÃ¨s 1945 ?",
         "choices": [
-          "Un temps qui se conjugue avec un auxiliaire",
-          "Un temps qui se conjugue sans auxiliaire",
-          "Un temps qui n'a pas de verbe",
-          "Un temps qui n'a pas de sujet"
+          "Le renforcement des empires coloniaux aprÃ¨s la Seconde Guerre mondiale",
+          "Le contexte de la Guerre Froide et l'affaiblissement des puissances coloniales",
+          "Le retour du nationalisme europÃ©en",
+          "La prospÃ©ritÃ© Ã©conomique des mÃ©tropoles coloniales"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Les temps composés peuvent être classés en plusieurs types, tels que le passé composé, le plus-que-parfait, le futur antérieur, etc., en fonction du temps de l'auxiliaire utilisé et du contexte dans lequel ils sont employés."
+        "question": "L'Inde obtient son indÃ©pendance du Royaume-Uni en 1947 grÃ¢ce notamment Ã  l'action non-violente de Gandhi."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Quelles sont les principales caractÃ©ristiques de la guerre d'AlgÃ©rie (1954-1962) ?"
       },
       {
         "type": "qcm",
-        "question": "Quel est l'auxiliaire utilisé pour conjuguer les verbes pronominaux au passé composé ?",
+        "question": "Qu'est-ce que la confÃ©rence de Bandung (1955) reprÃ©sente dans le mouvement de dÃ©colonisation ?",
         "choices": [
-          "Avoir",
-          "Être",
-          "Faire",
-          "Aller"
+          "Une alliance militaire des pays colonisÃ©s contre les puissances occidentales",
+          "La crÃ©ation d'une organisation des pays non-alignÃ©s",
+          "La premiÃ¨re grande rÃ©union des pays d'Asie et d'Afrique affirmant leur indÃ©pendance et refusant la bipolaritÃ©",
+          "Un traitÃ© Ã©conomique entre pays du Tiers-Monde"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "L'utilisation correcte des temps composés est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les écrivains utilisent les temps composés de manière appropriée en fonction du contexte et du message qu'ils souhaitent transmettre, ce qui contribue à la clarté et à l'efficacité de la communication écrite."
+        "question": "L'annÃ©e 1960 est surnommÃ©e 'l'annÃ©e de l'Afrique' car 17 pays africains accÃ¨dent Ã  l'indÃ©pendance cette annÃ©e-lÃ ."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Quels dÃ©fis les nouveaux Ã‰tats indÃ©pendants doivent-ils relever aprÃ¨s la dÃ©colonisation ?"
       },
       {
         "type": "qcm",
-        "question": "Quel est l'auxiliaire utilisé pour conjuguer les verbes intransitifs au passé composé ?",
+        "question": "Quel rÃ©gime sud-africain de sÃ©grÃ©gation raciale prend fin en 1994 avec l'Ã©lection de Nelson Mandela ?",
         "choices": [
-          "Avoir",
-          "Être",
-          "Faire",
-          "Aller"
+          "La colonisation",
+          "L'apartheid",
+          "Le sÃ©grÃ©gationnisme",
+          "La nÃ©gritude"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "L'utilisation incorrecte des temps composés peut parfois entraîner des confusions ou des malentendus dans la communication écrite, en rendant difficile pour les lecteurs de comprendre les relations temporelles entre les différentes actions exprimées par les temps composés, ce qui peut nuire à la clarté du message et à l'efficacité de la communication écrite."
-      },
-      {
-        "type": "qcm",
-        "question": "Quel est l'auxiliaire utilisé pour conjuguer les verbes transitifs au passé composé ?",
-        "choices": [
-          "Avoir",
-          "Être",
-          "Faire",
-          "Aller"
-        ]
-      },
-      {
-        "type": "vrai-faux",
-        "question": "L'utilisation correcte des temps composés est essentielle pour éviter les confusions et les erreurs dans la communication écrite."
+        "question": "Le nÃ©ocolonialisme dÃ©signe les nouvelles formes de domination Ã©conomique et politique exercÃ©es par les anciennes puissances coloniales sur les Ã‰tats dÃ©colonisÃ©s."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fondamentaux de Français",
-      "description": "Notion du programme 6eme"
-    },
-    {
-      "notion": "Compétences de base 6eme",
-      "description": "Notion du programme 6eme"
-    },
-    {
-      "notion": "Savoir-faire français",
-      "description": "Notion du programme 6eme"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

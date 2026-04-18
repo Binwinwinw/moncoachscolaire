@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 3eme - Série 6222",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 3eme : Les institutions européennes",
+    "status": "published",
+    "created_at": "2026-04-18 21:24:13",
+    "updated_at": "2026-04-18 21:24:13"
+  },
+  "quiz": {
+    "title": "Les institutions européennes",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "EMC",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "En EMC, pourquoi étudie-t-on les institutions européennes ?",
+        "choices": [
+          "Pour comprendre la vie citoyenne et républicaine",
+          "Pour faire un calcul",
+          "Pour apprendre une formule chimique",
+          "Pour étudier un circuit"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les institutions européennes peut être relié à des situations concrètes de la vie quotidienne."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle attitude correspond le mieux à l'étude de les institutions européennes ?",
+        "choices": [
+          "Écouter, argumenter et respecter les autres",
+          "Insulter pour convaincre",
+          "Refuser tout échange",
+          "Ignorer les règles communes"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une bonne compréhension de l'EMC aide à mieux exercer sa citoyenneté."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est l'objectif principal d'un travail sur les institutions européennes ?",
+        "choices": [
+          "Réfléchir et agir de manière responsable",
+          "Répondre sans justification",
+          "Mémoriser sans comprendre",
+          "Éviter le dialogue"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Discuter d'une situation concrète peut aider à mieux comprendre une valeur républicaine."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle méthode aide le plus à progresser sur les institutions européennes ?",
+        "choices": [
+          "Débattre, justifier et corriger",
+          "Ne jamais s'expliquer",
+          "Parler sans écouter",
+          "Répondre au hasard"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Respecter autrui et le cadre commun est cohérent avec les apprentissages d'EMC."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

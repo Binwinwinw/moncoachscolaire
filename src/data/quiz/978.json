@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques 2nde : Sens de variation & extremum",
     "status": "published",
-    "created_at": "2026-04-06 06:40:42",
-    "updated_at": "2026-04-06 06:40:42"
+    "created_at": "2026-04-18 18:34:32",
+    "updated_at": "2026-04-18 18:34:32"
   },
   "quiz": {
     "title": "Sens de variation & extremum",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "F est décroissante sur ]−∞ ; 0] et croissante sur [0 ; +∞[."
+        "question": "Décris les variations de f(x) = x² sur R. La bonne réponse attendue est : f est décroissante sur ]−∞ ; 0] et croissante sur [0 ; +∞[. Elle admet un minimum global en x = 0 avec f(0) = 0."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "C'est la plus grande valeur atteinte par f, qui apparaît en haut du tableau de variations, au sommet d'une flèche montante."
+        "question": "Comment lit-on le maximum d'une fonction sur un tableau de variations ? La bonne réponse attendue est : C'est la plus grande valeur atteinte par f, qui apparaît en haut du tableau de variations, au sommet d'une flèche montante."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Fonctions polynomiales",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Géométrie analytique",
-      "description": "Notion fondamentale de Mathématiques"
-    },
-    {
-      "notion": "Ensembles et logique",
-      "description": "Notion fondamentale de Mathématiques"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

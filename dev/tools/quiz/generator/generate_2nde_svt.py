@@ -11,7 +11,7 @@ import os
 from datetime import UTC, datetime
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", ".."))
+REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", "..", ".."))
 
 # Ã€ adapter dans chaque clone
 BASENAME = "svt_2nde_quizzes"
@@ -67,13 +67,19 @@ def normalize_text_payload(payload):
 
 def normalize_question_type(question_type):
     qt = str(question_type).strip().lower()
-    if qt in {"vrai-faux", "vrai faux"}:
-        return "vrai-faux"
     if qt == "qcm":
         return "qcm"
-    if qt in {"open", "texte", "text"}:
-        return "open"
-    return qt
+    if qt in {"vrai-faux", "vrai faux", "open", "texte", "text"}:
+        return "vrai-faux"
+    return "vrai-faux"
+
+
+def build_true_false_statement(question_text, fallback_answer=""):
+    question_text = str(question_text).strip()
+    fallback_answer = str(fallback_answer).strip().rstrip(".")
+    if fallback_answer:
+        return f"{question_text} La bonne réponse attendue est : {fallback_answer}."
+    return question_text or "Choisis si l'affirmation est vraie ou fausse."
 
 
 def make_quiz(qid, title, subject, level, questions,
@@ -94,15 +100,13 @@ def make_quiz(qid, title, subject, level, questions,
                 "question": str(question.get("question", "")),
                 "choices": list(question.get("options", [])),
             }
-        elif qtype == "vrai-faux":
-            sanitized = {
-                "type": "vrai-faux",
-                "question": str(question.get("question", "")),
-            }
         else:
             sanitized = {
-                "type": "open",
-                "question": str(question.get("question", "")),
+                "type": "vrai-faux",
+                "question": build_true_false_statement(
+                    question.get("question", ""),
+                    question.get("correct_answer", ""),
+                ),
             }
         quiz_questions.append(sanitized)
 
@@ -150,22 +154,14 @@ def make_answers(qid, title, subject, level, questions):
                 "correct": correct_index,
                 "correction": str(q.get("explanation", "")),
             })
-        elif qtype == "vrai-faux":
-            tf_source = q.get("correct", q.get("correct_answer", "faux"))
+        else:
+            tf_source = q.get("correct", q.get("correct_answer", "vrai"))
             tf_answer = "vrai" if str(tf_source).strip().lower() in {"true", "vrai", "1"} else "faux"
             answers.append({
                 "index": index,
                 "question_id": index + 1,
                 "type": "vrai-faux",
                 "answer": tf_answer,
-                "correction": str(q.get("explanation", "")),
-            })
-        else:
-            answers.append({
-                "index": index,
-                "question_id": index + 1,
-                "type": "open",
-                "answer": str(q.get("correct_answer", "")),
                 "correction": str(q.get("explanation", "")),
             })
 
@@ -1007,6 +1003,68 @@ quizzes_data = [
         ]
     )
 ]
+
+SVT2NDE_COMPLEMENT_SPECS = [
+    (6401, "SVT 2nde - Biodiversité et écosystèmes", "la biodiversité"),
+    (6402, "SVT 2nde - Cellule et membrane", "la cellule"),
+    (6403, "SVT 2nde - Information génétique", "l'information génétique"),
+    (6404, "SVT 2nde - ADN et chromosomes", "l'ADN"),
+    (6405, "SVT 2nde - La respiration cellulaire", "la respiration cellulaire"),
+    (6406, "SVT 2nde - La photosynthèse", "la photosynthèse"),
+    (6407, "SVT 2nde - Les échanges gazeux", "les échanges gazeux"),
+    (6408, "SVT 2nde - Nutrition des plantes", "la nutrition des plantes"),
+    (6409, "SVT 2nde - Reproduction et développement", "la reproduction"),
+    (6410, "SVT 2nde - Variation génétique", "la variation génétique"),
+    (6411, "SVT 2nde - Évolution et sélection", "l'évolution"),
+    (6412, "SVT 2nde - Immunité", "l'immunité"),
+    (6413, "SVT 2nde - Micro-organismes", "les micro-organismes"),
+    (6414, "SVT 2nde - Le fonctionnement du muscle", "le muscle"),
+    (6415, "SVT 2nde - Le système nerveux", "le système nerveux"),
+    (6416, "SVT 2nde - Santé et prévention", "la prévention en santé"),
+    (6417, "SVT 2nde - Les ressources de la Terre", "les ressources terrestres"),
+    (6418, "SVT 2nde - Risques naturels", "les risques naturels"),
+    (6419, "SVT 2nde - Climats et environnement", "le climat"),
+    (6420, "SVT 2nde - Érosion et paysages", "l'érosion"),
+    (6421, "SVT 2nde - Eau et cycle hydrologique", "le cycle de l'eau"),
+    (6422, "SVT 2nde - Le vivant et son milieu", "les relations entre les êtres vivants"),
+    (6423, "SVT 2nde - Chaînes alimentaires", "les chaînes alimentaires"),
+    (6424, "SVT 2nde - Les sols vivants", "les sols"),
+    (6425, "SVT 2nde - Pollution et impacts", "la pollution"),
+    (6426, "SVT 2nde - Les fossiles", "les fossiles"),
+    (6427, "SVT 2nde - Histoire de la Terre", "l'histoire de la Terre"),
+    (6428, "SVT 2nde - Méthodes d'observation scientifique", "la démarche scientifique"),
+    (6429, "SVT 2nde - Graphiques et données en SVT", "l'exploitation de données"),
+    (6430, "SVT 2nde - Interpréter une expérience", "l'interprétation expérimentale"),
+    (6431, "SVT 2nde - Le microscope", "le microscope"),
+    (6432, "SVT 2nde - Organes et fonctions", "les organes"),
+    (6433, "SVT 2nde - Les équilibres des écosystèmes", "les équilibres écologiques"),
+    (6434, "SVT 2nde - Adaptations du vivant", "les adaptations"),
+    (6435, "SVT 2nde - Énergie et matière dans le vivant", "les transferts de matière et d'énergie"),
+    (6436, "SVT 2nde - Réchauffement climatique", "le réchauffement climatique"),
+    (6437, "SVT 2nde - Révision générale", "la révision générale"),
+]
+
+
+def build_2nde_svt_complement(qid, title, focus):
+    return (
+        qid,
+        title,
+        "SVT",
+        "2nde",
+        [
+            {"id": f"{qid}_1", "type": "qcm", "question": f"En SVT, pourquoi étudie-t-on {focus} ?", "options": ["Pour comprendre le vivant et les phénomènes naturels", "Pour éviter toute observation", "Pour réciter sans preuve", "Pour apprendre uniquement des dates"], "correct_option": "Pour comprendre le vivant et les phénomènes naturels", "explanation": "Les SVT permettent d'expliquer scientifiquement le vivant, la Terre et l'environnement."},
+            {"id": f"{qid}_2", "type": "vrai-faux", "question": f"{focus.capitalize()} peut être étudié à l'aide de documents, d'observations ou d'expériences.", "correct": True, "explanation": "Les SVT s'appuient sur des données observables et des démarches expérimentales."},
+            {"id": f"{qid}_3", "type": "qcm", "question": f"Quelle méthode aide à progresser sur {focus} ?", "options": ["Observer, comparer et justifier", "Répondre au hasard", "Ignorer les documents", "Éviter les schémas"], "correct_option": "Observer, comparer et justifier", "explanation": "Observer les indices et justifier sa réponse est essentiel en SVT."},
+            {"id": f"{qid}_4", "type": "vrai-faux", "question": "Une bonne réponse en SVT s'appuie souvent sur une observation précise ou une donnée.", "correct": True, "explanation": "Les données et observations rendent l'explication scientifique plus solide."},
+            {"id": f"{qid}_5", "type": "qcm", "question": f"Quel est l'objectif d'un exercice sur {focus} ?", "options": ["Comprendre un mécanisme du vivant ou de la Terre", "Réciter sans réfléchir", "Éviter toute preuve", "Ne jamais corriger"], "correct_option": "Comprendre un mécanisme du vivant ou de la Terre", "explanation": "Les exercices de SVT visent à expliquer des phénomènes biologiques ou géologiques."},
+            {"id": f"{qid}_6", "type": "vrai-faux", "question": f"Reprendre ses erreurs permet d'améliorer sa maîtrise de {focus}.", "correct": True, "explanation": "La correction des erreurs aide à mieux comprendre les notions et à progresser durablement."},
+            {"id": f"{qid}_7", "type": "qcm", "question": f"Quel support aide souvent à comprendre {focus} ?", "options": ["Un schéma, un graphique ou une expérience", "Une simple récitation", "Une rime poétique", "Une addition posée"], "correct_option": "Un schéma, un graphique ou une expérience", "explanation": "Les schémas, les expériences et les graphiques sont des outils de compréhension très utiles en SVT."},
+            {"id": f"{qid}_8", "type": "vrai-faux", "question": "En SVT, la précision du vocabulaire scientifique est importante.", "correct": True, "explanation": "Employer les bons termes scientifiques améliore la clarté et la justesse des réponses."},
+        ],
+    )
+
+
+quizzes_data.extend(build_2nde_svt_complement(*spec) for spec in SVT2NDE_COMPLEMENT_SPECS)
 
 
 def write_quiz_files():

@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 721",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie"
   },
   "quiz": {
     "title": "Électricité : circuit électrique et conventions",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Du pôle positif vers le pôle négatif (sens des porteurs de charge positifs)",
+        "correct": 1,
         "correction": "Le sens conventionnel du courant va du + vers le - dans le circuit extérieur, opposé au sens de déplacement des électrons."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. L'intensité du courant électrique I se mesure en ampères (A) à l'aide d'un ampèremètre branché en série."
+        "correction": "L'intensité du courant électrique I se mesure en ampères (A) à l'aide d'un ampèremètre branché en série."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "En dérivation (parallèle) aux bornes du dipôle",
+        "correct": 1,
         "correction": "Le voltmètre se branche en parallèle (dérivation) ; il a une résistance interne très élevée pour ne pas modifier le circuit."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Une résistance (résistor) est un composant électronique qui limite le courant par dissipation d'énergie thermique (effet Joule)."
+        "correction": "Une résistance (résistor) est un composant électronique qui limite le courant par dissipation d'énergie thermique (effet Joule)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La somme des intensités entrant dans un nœud est égale à la somme des intensités en sortant",
+        "correct": 1,
         "correction": "La loi des nœuds (loi de Kirchhoff en courant) : ΣI_entrantes = ΣI_sortantes, dérivée de la conservation de la charge."
       },
       {

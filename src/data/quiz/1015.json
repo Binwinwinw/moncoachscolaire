@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Asymptotes & comportements asymptotiques",
     "status": "published",
-    "created_at": "2026-04-06 06:40:48",
-    "updated_at": "2026-04-06 06:40:48"
+    "created_at": "2026-04-18 18:52:46",
+    "updated_at": "2026-04-18 18:52:46"
   },
   "quiz": {
     "title": "Asymptotes & comportements asymptotiques",
@@ -34,7 +34,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "Asymptote verticale : x = 3."
+        "question": "Détermine les asymptotes de f(x) = (2x + 1) / (x − 3). La bonne réponse attendue est : Asymptote verticale : x = 3. Asymptote horizontale : y = 2 (car f(x)→2 quand x→±∞)."
       },
       {
         "type": "qcm",
@@ -52,7 +52,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "G(x) − x = sin(x)/x → 0 quand x→+∞ (car |sin(x)|≤1)."
+        "question": "Montre que y = x est asymptote oblique de g(x) = x + sin(x)/x. La bonne réponse attendue est : g(x) − x = sin(x)/x → 0 quand x→+∞ (car |sin(x)|≤1). Donc y=x est AO."
       },
       {
         "type": "qcm",
@@ -70,19 +70,6 @@
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Asymptote horizontale",
-      "description": "Une droite qui approche la fonction à mesure que x tend vers l'infini ou vers moins l'infini"
-    },
-    {
-      "notion": "Comportement asymptotique",
-      "description": "Étude de la façon dont une fonction se comporte lorsqu'elle approche une asymptote"
-    },
-    {
-      "notion": "Limites",
-      "description": "Notion mathématique qui permet de définir les asymptotes et de comprendre le comportement d'une fonction à l'approche de ces asymptotes"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

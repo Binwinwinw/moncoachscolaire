@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Physique-Chimie 3ème - Série 725",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie"
   },
   "quiz": {
     "title": "Électricité : sécurité et normes électriques",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Physique-Chimie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Évacuer les courants de fuite vers la terre pour éviter l'électrocution",
+        "correct": 1,
         "correction": "Le fil de terre conduit les courants de défaut vers la terre, déclenchant le disjoncteur différentiel avant électrocution."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le disjoncteur différentiel (DDR) coupe le circuit lorsqu'il détecte une différence entre courant entrant et sortant (fuite ≥ 30 mA)."
+        "correction": "Le disjoncteur différentiel (DDR) coupe le circuit lorsqu'il détecte une différence entre courant entrant et sortant (fuite ≥ 30 mA)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "10 000 à 100 000 Ω",
+        "correct": 2,
         "correction": "La résistance du corps humain varie de 10 kΩ (peau sèche) à 1 kΩ (peau humide), rendant le contact avec le secteur (230V) dangereux."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La norme NFC 15-100 définit les règles d'installation électrique basse tension en France pour la sécurité des personnes et des biens."
+        "correction": "La norme NFC 15-100 définit les règles d'installation électrique basse tension en France pour la sécurité des personnes et des biens."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Appareil de classe II (double isolation, sans terre)",
+        "correct": 1,
         "correction": "La double isolation classe II protège par deux couches d'isolation indépendantes, sans nécessiter de prise de terre."
       },
       {

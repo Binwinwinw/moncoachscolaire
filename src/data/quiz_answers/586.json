@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 586",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie"
   },
   "quiz": {
     "title": "Valeurs de la République et laïcité",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Liberté, Égalité, Fraternité",
+        "correct": 1,
         "correction": "C'est la devise républicaine officielle."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La loi du 9 décembre 1905 instaure la séparation."
+        "correction": "La loi du 9 décembre 1905 instaure la séparation."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Aux personnels de l'État dans l'exercice de leurs fonctions",
+        "correct": 1,
         "correction": "Les agents publics sont soumis à une obligation de neutralité."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. L'EMC forme les élèves à la citoyenneté."
+        "correction": "L'EMC forme les élèves à la citoyenneté."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "L'égalité",
+        "correct": 1,
         "correction": "Tous les citoyens sont égaux en droits."
       },
       {

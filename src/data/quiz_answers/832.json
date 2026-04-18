@@ -1,13 +1,13 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic SES 1ère - Série 832",
-    "level": "1ère",
+    "title": "Quiz Diagnostic SES 1ere - Série 832",
+    "level": "1ere",
     "subject": "SES"
   },
   "quiz": {
     "title": "Le contrat de travail",
     "question_count": 8,
-    "level": "1ère",
+    "level": "1ere",
     "subject": "SES",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "CDI",
+        "correct": 1,
         "correction": "Le CDI (contrat à durée indéterminée) est la forme normale et générale de la relation de travail."
       },
       {
@@ -28,14 +29,15 @@
         "index": 2,
         "question_id": 3,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. C'est le lien de subordination qui distingue le salarié du travailleur indépendant."
+        "answer": "faux",
+        "correction": "C'est le lien de subordination qui distingue le salarié du travailleur indépendant."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Une rupture du CDI d'un commun accord entre salarié et employeur",
+        "correct": 2,
         "correction": "La rupture conventionnelle (créée en 2008) permet de mettre fin au CDI d'un commun accord, avec des indemnités et droit aux allocations chômage."
       },
       {
@@ -49,14 +51,15 @@
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Les conventions collectives complètent le Code du travail et ne peuvent être moins favorables que lui."
+        "answer": "faux",
+        "correction": "Les conventions collectives complètent le Code du travail et ne peuvent être moins favorables que lui."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Un droit constitutionnel reconnu à tous les travailleurs",
+        "correct": 1,
         "correction": "Le droit de grève est inscrit dans le Préambule de la Constitution de 1946 (réaffirmé en 1958). Dans le secteur public, un préavis de grève est obligatoire."
       },
       {

@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 598",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie"
   },
   "quiz": {
     "title": "Puissances et tensions du monde contemporain",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Capacités économiques, diplomatiques, militaires et culturelles",
+        "correct": 1,
         "correction": "La puissance est multidimensionnelle."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. L'Organisation des Nations Unies structure la coopération internationale."
+        "correction": "L'Organisation des Nations Unies structure la coopération internationale."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Un acteur étatique et un acteur non étatique aux moyens inégaux",
+        "correct": 1,
         "correction": "Ce type de conflit est fréquent au XXIe siècle."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Il encadre la conduite des hostilités."
+        "correction": "Il encadre la conduite des hostilités."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La recomposition de la hiérarchie des puissances",
+        "correct": 1,
         "correction": "Le système international devient plus multipolaire."
       },
       {

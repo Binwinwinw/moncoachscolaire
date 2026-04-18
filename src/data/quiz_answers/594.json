@@ -1,13 +1,13 @@
 {
   "contents": {
     "title": "Quiz Diagnostic Histoire-Géographie 3ème - Série 594",
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie"
   },
   "quiz": {
     "title": "Métropoles et réseaux de transport",
     "question_count": 8,
-    "level": "3ème",
+    "level": "3eme",
     "subject": "Histoire-Géographie",
     "answers": [
       {
@@ -15,6 +15,7 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La concentration des fonctions de commandement dans les grandes villes",
+        "correct": 1,
         "correction": "Les métropoles concentrent emplois qualifiés, sièges et innovation."
       },
       {
@@ -29,13 +30,14 @@
         "question_id": 3,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le TGV relie rapidement les grandes métropoles."
+        "correction": "Le TGV relie rapidement les grandes métropoles."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Roissy-Charles de Gaulle",
+        "correct": 1,
         "correction": "Roissy est un nœud international majeur."
       },
       {
@@ -50,13 +52,14 @@
         "question_id": 6,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La multimodalité optimise les chaînes logistiques."
+        "correction": "La multimodalité optimise les chaînes logistiques."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La hausse du coût du logement",
+        "correct": 1,
         "correction": "La tension immobilière peut accentuer les inégalités."
       },
       {
