@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Les États-Unis et leurs alliés face à l'URSS et ses satellites",
-        "correct": 1,
         "correction": "La guerre froide (1947-1991) est une confrontation idéologique, politique et militaire entre le bloc occidental (capitaliste) et le bloc soviétique (communiste)."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "fer",
-        "correction": "Churchill utilise l'expression 'rideau de fer' à Fulton (USA) en mars 1946 pour décrire la division de l'Europe."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Churchill utilise l'expression 'rideau de fer' à Fulton (USA) en mars 1946 pour décrire la division de l'Europe."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Le moment le plus proche d'une guerre nucléaire entre USA et URSS",
-        "correct": 1,
         "correction": "La crise des missiles de Cuba met face à face Kennedy et Khrouchtchev pendant 13 jours ; elle se résout par la retraite soviétique et des négociations secrètes."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "terreur",
-        "correction": "L'équilibre de la terreur : chaque superpuissance possède suffisamment d'armes nucléaires pour détruire l'autre en cas de premier tir, ce qui dissuade toute attaque."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'équilibre de la terreur : chaque superpuissance possède suffisamment d'armes nucléaires pour détruire l'autre en cas de premier tir, ce qui dissuade toute attaque."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Une aide économique américaine pour reconstruire l'Europe de l'Ouest",
-        "correct": 1,
         "correction": "Le plan Marshall injecte 13 milliards de dollars pour reconstruire l'Europe de l'Ouest ; il renforce l'influence américaine et exclut les pays de l'Est."
       },
       {

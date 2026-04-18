@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "D'un amour coupable pour son beau-fils Hippolyte",
-        "correct": 1,
         "correction": "Phèdre est victime d'une passion incestueuse inspirée par Vénus, qui la mène à la mort."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "amour",
-        "correction": "La chaîne d'amours non partagés crée une tension dramatique inexorable."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La chaîne d'amours non partagés crée une tension dramatique inexorable."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La simplicité apparente et l'intensité psychologique",
-        "correct": 1,
         "correction": "Racine use d'un vocabulaire simple mais dense ; 'Dans un mois, dans un an' (Bérénice) → sobriété déchirante."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "exprimer",
-        "correction": "La confidente (Œnone pour Phèdre, Pylade pour Oreste) permet l'exposition des sentiments intérieurs."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La confidente (Œnone pour Phèdre, Pylade pour Oreste) permet l'exposition des sentiments intérieurs."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Racine privilégie la psychologie amoureuse et le langage des passions",
-        "correct": 1,
         "correction": "Corneille met en scène la volonté héroïque (Le Cid) ; Racine explore les abîmes de la passion dévastatrice."
       },
       {

@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Acheminer les paquets de donnees entre differents reseaux",
-        "correct": 1,
         "correction": "Un routeur analyse les adresses IP des paquets et les achemine vers le reseau de destination optimal, reliant le reseau local a internet."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "HTTP/HTTPS",
-        "correction": "HTTP (HyperText Transfer Protocol) permet l'echange de pages web ; HTTPS est sa version chiffree (TLS/SSL) qui securise les communications."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. HTTP (HyperText Transfer Protocol) permet l'echange de pages web ; HTTPS est sa version chiffree (TLS/SSL) qui securise les communications."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "L'utilisation de ressources informatiques (serveurs, stockage, logiciels) via internet plutot que localement",
-        "correct": 1,
         "correction": "Le cloud computing (informatique en nuage) permet d'acceder a des ressources informatiques distantes via internet ; ex. Google Drive, OneDrive, AWS, Azure."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "ARP",
-        "correction": "ARP (Address Resolution Protocol) resout les adresses IP en adresses MAC pour l'acheminement des donnees au niveau de la couche liaison du modele OSI."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. ARP (Address Resolution Protocol) resout les adresses IP en adresses MAC pour l'acheminement des donnees au niveau de la couche liaison du modele OSI."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Topologie etoile",
-        "correct": 2,
         "correction": "Dans la topologie etoile, tous les equipements sont relies a un commutateur central ; si un cable tombe en panne, seul l'equipement concerne est affecte."
       },
       {

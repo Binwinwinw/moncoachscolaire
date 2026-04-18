@@ -33,8 +33,8 @@
         "question": "Le tri par sélection trouve le minimum du sous-tableau non trié et le place en tête."
       },
       {
-        "type": "open",
-        "question": "Implémentez le tri par insertion en Python."
+        "type": "vrai-faux",
+        "question": "Def tri_insertion(lst): for i in range(1, len(lst)): cle = lst[i] j = i - 1 while j >= 0 and lst[j] > cle: lst[j + 1] = lst[j] j -= 1 lst[j + 1] = cle return lst."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Le tri fusion nécessite un espace mémoire supplémentaire proportionnel à n."
       },
       {
-        "type": "open",
-        "question": "Expliquez le principe du tri rapide (quicksort)."
+        "type": "vrai-faux",
+        "question": "On choisit un pivot."
       },
       {
         "type": "qcm",

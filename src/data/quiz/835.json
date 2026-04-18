@@ -33,8 +33,8 @@
         "question": "Pour les néoclassiques, le chômage volontaire résulte d'un salaire réel trop élevé."
       },
       {
-        "type": "open",
-        "question": "Expliquez l'effet de la mondialisation sur l'emploi industriel en France."
+        "type": "vrai-faux",
+        "question": "La mondialisation a favorisé les délocalisations vers des pays à bas coûts salariaux, réduisant l'emploi industriel en France (désindustrialisation)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Le chômage d'appariement résulte de l'inadéquation entre l'offre et la demande de travail."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce que le modèle WS-PS et que prédit-il ?"
+        "type": "vrai-faux",
+        "question": "Le modèle WS-PS (Wage Setting - Price Setting) prédit un taux de chômage d'équilibre déterminé par le pouvoir de négociation des syndicats (WS) et le pouvoir de marché des entreprises (PS)."
       },
       {
         "type": "qcm",

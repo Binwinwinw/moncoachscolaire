@@ -33,8 +33,8 @@
         "question": "Le terrorisme est defini comme l'usage delibere de la violence contre des populations civiles pour semer la terreur a des fins politiques."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on le phenomene de risque pour la planete lie aux activites humaines (rechauffement climatique, perte de biodiversite) qui constitue aussi une menace pour la securite ?"
+        "type": "vrai-faux",
+        "question": "Risques environnementaux globaux."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La cooperation internationale est indispensable pour lutter contre les menaces mondiales telles que le terrorisme ou les pandemies."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on une attaque informatique qui prend en otage les donnees d'une entreprise ou d'une institution en les chiffrant jusqu'au paiement d'une rancon ?"
+        "type": "vrai-faux",
+        "question": "Un rançongiciel (ransomware) est un logiciel malveillant qui chiffre les données et exige une rançon (souvent en cryptomonnaie) pour leur restitution."
       },
       {
         "type": "qcm",

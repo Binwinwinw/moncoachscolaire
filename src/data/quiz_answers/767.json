@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Loi Informatique et Libertes de 1978",
-        "correct": 1,
         "correction": "La loi du 6 janvier 1978 (dite 'Informatique et Libertés') a créé la CNIL et posé les bases de la protection des données personnelles en France."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "CNIL",
-        "correction": "La CNIL (Commission Nationale de l'Informatique et des Libertés) veille au respect de la loi Informatique et Libertés et du RGPD ; elle peut sanctionner les entreprises en infraction."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La CNIL (Commission Nationale de l'Informatique et des Libertés) veille au respect de la loi Informatique et Libertés et du RGPD ; elle peut sanctionner les entreprises en infraction."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Le droit de demander la suppression de donnees personnelles des moteurs de recherche et sites web",
-        "correct": 1,
         "correction": "Consacré par la CJUE en 2014 (affaire Google Spain) et le RGPD, le droit à l'oubli permet de demander le déréférencement d'informations personnelles obsolètes ou inexactes."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "phishing",
-        "correction": "Le phishing (hameçonnage) est une technique de fraude en ligne qui consiste à imiter des sites ou courriels officiels pour voler des identifiants, mots de passe ou données bancaires."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le phishing (hameçonnage) est une technique de fraude en ligne qui consiste à imiter des sites ou courriels officiels pour voler des identifiants, mots de passe ou données bancaires."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Neutralite du net",
-        "correct": 1,
         "correction": "La neutralité du net garantit que les fournisseurs d'accès internet traitent tous les flux de données de la même manière, sans discrimination selon leur source, destination ou contenu."
       },
       {

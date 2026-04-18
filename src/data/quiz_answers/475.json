@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'Encyclopédie",
-        "correct": 1,
         "correction": "L'Encyclopédie (1751-1772), dirigée par Diderot et d'Alembert, diffuse les savoirs et les idées des Lumières."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "contrat",
-        "correction": "Du contrat social (1762) théorise le pacte entre les individus comme fondement de la société."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Du contrat social (1762) théorise le pacte entre les individus comme fondement de la société."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Ose savoir (Sapere aude)",
-        "correct": 1,
         "correction": "Kant définit les Lumières comme la sortie de l'homme de sa minorité : 'Ose te servir de ton propre entendement.'"
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "critiquer",
-        "correction": "La vision extérieure du Persan Rica rend visible l'absurdité de certaines institutions françaises."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La vision extérieure du Persan Rica rend visible l'absurdité de certaines institutions françaises."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Voltaire",
-        "correct": 1,
         "correction": "Voltaire combat toute sa vie l'intolérance et la censure : 'Je ne suis pas d'accord avec ce que vous dites, mais je me battrai pour que vous puissiez le dire.'"
       },
       {

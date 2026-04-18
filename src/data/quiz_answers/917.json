@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Province de toute l'humanité, non soumise à appropriation nationale",
-        "correct": 2,
         "correction": "L'article II du Traité de 1967 interdit toute revendication de souveraineté nationale sur l'espace, la Lune et les corps célestes."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Les satellites militaires assurent le renseignement (espionnage, imagerie), les communications des forces armées, la navigation (GPS, GLONASS, Galileo), la détection de missiles et les drones armés. La destruction de satellites adverses (antisatellites, ASAT) est une capacité militaire développée par USA, Russie, Chine et Inde.",
-        "correction": "L'espace est devenu un domaine militaire à part entière ('domain warfare'). La France a annoncé en 2019 une stratégie de défense spatiale."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'espace est devenu un domaine militaire à part entière ('domain warfare'). La France a annoncé en 2019 une stratégie de défense spatiale."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "2000",
-        "correct": 3,
         "correction": "Le GPS (Global Positioning System) fut développé par l'armée américaine. En 2000, Bill Clinton mit fin à la dégradation volontaire du signal civil (Selective Availability), rendant le GPS pleinement précis pour tous."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Risques : course aux armements spatiaux (tests antisatellites), création de débris menaçant toutes les orbites, escalade possible vers des conflits terrestres (dépendance militaire aux satellites), absence d'un cadre juridique adapté aux nouvelles capacités (cyberattaques spatiales, armes antisatellites).",
-        "correction": "Le Traité de 1967 interdit les armes de destruction massive dans l'espace mais pas les armes conventionnelles ni les antisatellites."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le Traité de 1967 interdit les armes de destruction massive dans l'espace mais pas les armes conventionnelles ni les antisatellites."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Satellites de communication militaires",
-        "correct": 1,
         "correction": "Syracuse est le système de télécommunications militaires français par satellite, géré par l'armée. La France a aussi développé des capacités de surveillance spatiale (GRAVES, GEOINT)."
       },
       {

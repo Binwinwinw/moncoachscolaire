@@ -1,48 +1,71 @@
 {
-  "quiz_id": 1102,
-  "title": "Probabilités conditionnelles et indépendance",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "answers": [
-    {
-      "question_id": "1102_1",
-      "correct_option": "A",
-      "explanation": "La proposition A est correcte pour Probabilités conditionnelles et indépendance en 1ère."
-    },
-    {
-      "question_id": "1102_2",
-      "correct": true,
-      "explanation": "Probabilités conditionnelles et indépendance fait bien partie des notions clés du programme de 1ère."
-    },
-    {
-      "question_id": "1102_3",
-      "correct_answer": "Le principe fondamental de Probabilités conditionnelles et indépendance repose sur une propriété clé du programme de 1ère.",
-      "explanation": "Une bonne réponse résume la définition ou le théorème central de Probabilités conditionnelles et indépendance."
-    },
-    {
-      "question_id": "1102_4",
-      "correct_option": "A",
-      "explanation": "Le résultat A est le plus important pour Probabilités conditionnelles et indépendance."
-    },
-    {
-      "question_id": "1102_5",
-      "correct": true,
-      "explanation": "Oui, maîtriser Probabilités conditionnelles et indépendance permet de résoudre efficacement des exercices de 1ère."
-    },
-    {
-      "question_id": "1102_6",
-      "correct_answer": "Un exemple typique de Probabilités conditionnelles et indépendance en 1ère est un problème mobilisant cette notion directement.",
-      "explanation": "Les exercices sur Probabilités conditionnelles et indépendance en 1ère testent la compréhension et l'application du concept."
-    },
-    {
-      "question_id": "1102_7",
-      "correct_option": "A",
-      "explanation": "La formule A est celle à retenir pour Probabilités conditionnelles et indépendance en 1ère."
-    },
-    {
-      "question_id": "1102_8",
-      "correct": true,
-      "explanation": "Probabilités conditionnelles et indépendance est un thème récurrent dans les sujets de bac de 1ère."
-    }
-  ]
+  "contents": {
+    "title": "Probabilités conditionnelles et indépendance",
+    "level": "1ère",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Probabilités conditionnelles et indépendance",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "",
+        "correction": "La proposition A est correcte pour Probabilités conditionnelles et indépendance en 1ère."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Probabilités conditionnelles et indépendance fait bien partie des notions clés du programme de 1ère."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Une bonne réponse résume la définition ou le théorème central de Probabilités conditionnelles et indépendance."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "",
+        "correction": "Le résultat A est le plus important pour Probabilités conditionnelles et indépendance."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Oui, maîtriser Probabilités conditionnelles et indépendance permet de résoudre efficacement des exercices de 1ère."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les exercices sur Probabilités conditionnelles et indépendance en 1ère testent la compréhension et l'application du concept."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "",
+        "correction": "La formule A est celle à retenir pour Probabilités conditionnelles et indépendance en 1ère."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Probabilités conditionnelles et indépendance est un thème récurrent dans les sujets de bac de 1ère."
+      }
+    ]
+  }
 }

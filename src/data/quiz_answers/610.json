@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "4 cellules haploïdes génétiquement variées (gamètes)",
-        "correct": 1,
         "correction": "La méiose : 2 divisions successives (méiose I réductionnelle + méiose II équationnelle) produisant 4 cellules à n chromosomes."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "interchromosomique",
-        "correction": "Le brassage interchromosomique produit 2^23 (environ 8 millions) de combinaisons différentes chez l'humain pour les seuls chromosomes."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le brassage interchromosomique produit 2^23 (environ 8 millions) de combinaisons différentes chez l'humain pour les seuls chromosomes."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Un gamète haploïde maternel et un gamète haploïde paternel",
-        "correct": 1,
         "correction": "n (gamete) + n (gamete) = 2n (zygote diploïde) : la fécondation rétablit le nombre chromosomique de l'espèce."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "caryotype",
-        "correction": "Le caryotype permet de visualiser les chromosomes ; il révèle des anomalies comme la trisomie 21 (3 chromosomes 21 au lieu de 2)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le caryotype permet de visualiser les chromosomes ; il révèle des anomalies comme la trisomie 21 (3 chromosomes 21 au lieu de 2)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Une non-disjonction lors de la méiose produisant un gamète avec 2 chromosomes 21",
-        "correct": 1,
         "correction": "Non-disjonction méiotique : les deux chromosomes 21 vont dans le même gamète ; après fécondation, la cellule a 3 chromosomes 21 (47 au total)."
       },
       {

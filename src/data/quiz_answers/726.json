@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La pile est à usage unique ; l'accumulateur est rechargeable",
-        "correct": 1,
         "correction": "Une pile (primaire) ne peut être rechargée ; un accumulateur (secondaire) peut être rechargé par électrolyse."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "force électromotrice",
-        "correction": "La force électromotrice (f.é.m.) e est la tension à vide d'un générateur, représentant son énergie chimique disponible."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La force électromotrice (f.é.m.) e est la tension à vide d'un générateur, représentant son énergie chimique disponible."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Lithium-ion (Li-ion)",
-        "correct": 1,
         "correction": "Les accumulateurs Li-ion offrent une haute densité d'énergie, une longue durée de vie et un faible effet mémoire."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "condensateur",
-        "correction": "Le condensateur stocke des charges électriques entre deux armatures conductrices séparées par un diélectrique."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le condensateur stocke des charges électriques entre deux armatures conductrices séparées par un diélectrique."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "11,1 Wh",
-        "correct": 0,
         "correction": "E = 3 000 mAh × 3,7 V = 11 100 mWh = 11,1 Wh."
       },
       {

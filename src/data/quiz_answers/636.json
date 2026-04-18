@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le supercontinent unique qui regroupait toutes les masses continentales il y a ~250 Ma",
-        "correct": 1,
         "correction": "La Pangée (Wegener) s'est fragmentée dès le Trias/Jurassique : Laurasie (nord) et Gondwana (sud), puis les continents actuels au Crétacé-Tertiaire."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "centimètres",
-        "correction": "Les plaques se déplacent à 1–15 cm/an ; en 200 Ma, l'Atlantique s'est ouvert de ~5 000 km. Les mesures GPS confirment les vitesses prédites par les modèles paléomagnétiques."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les plaques se déplacent à 1–15 cm/an ; en 200 Ma, l'Atlantique s'est ouvert de ~5 000 km. Les mesures GPS confirment les vitesses prédites par les modèles paléomagnétiques."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Téthys",
-        "correct": 2,
         "correction": "L'océan Téthys séparait Laurasie et Gondwana ; sa fermeture progressive par la collision Afrique-Europe a formé les Alpes, les Pyrénées et l'arc méditerranéen."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "océanique",
-        "correction": "L'obduction crée des ophiolites (fragments de croûte océanique sur les continents) ; exemples : Oman, Nouvelle-Calédonie — témoins d'anciens fonds océaniques."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'obduction crée des ophiolites (fragments de croûte océanique sur les continents) ; exemples : Oman, Nouvelle-Calédonie — témoins d'anciens fonds océaniques."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La subduction de la plaque africaine sous la plaque européenne puis leur collision continentale",
-        "correct": 1,
         "correction": "La fermeture de la Téthys alpine (Crétacé-Miocène) : subduction d'abord, puis collision Afrique-Europe → nappes de charriage, chevauchements, écailles tectoniques."
       },
       {

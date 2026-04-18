@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "CO2",
-        "correct": 2,
         "correction": "Le CO2 est le principal GES émis par les activités humaines (combustion fossile, déforestation), représentant ~76% des émissions mondiales."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "GIEC",
-        "correction": "Le GIEC (Groupe d'experts Intergouvernemental sur l'Évolution du Climat) synthétise les connaissances scientifiques sur le changement climatique."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le GIEC (Groupe d'experts Intergouvernemental sur l'Évolution du Climat) synthétise les connaissances scientifiques sur le changement climatique."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Élévation du niveau des mers",
-        "correct": 1,
         "correction": "La fonte des glaces terrestres (glaciers, calotte arctique et antarctique) contribue à l'élévation du niveau des océans."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Accord de Paris",
-        "correction": "L'Accord de Paris (COP21) engage les États signataires à réduire leurs émissions de GES pour limiter le réchauffement à 1,5-2°C."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'Accord de Paris (COP21) engage les États signataires à réduire leurs émissions de GES pour limiter le réchauffement à 1,5-2°C."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Rétroaction glace-albédo",
-        "correct": 1,
         "correction": "La fonte des glaces réduit l'albédo (réflexion) et augmente l'absorption solaire, amplifiant le réchauffement (boucle de rétroaction positive)."
       },
       {

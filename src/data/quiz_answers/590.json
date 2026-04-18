@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Moins de 30 hab/km2",
-        "correct": 1,
         "correction": "Ce seuil est souvent utilisé en géographie scolaire."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "majeur",
-        "correction": "Ces activités structurent l'économie locale."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Ces activités structurent l'économie locale."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Le numérique et le télétravail",
-        "correct": 1,
         "correction": "La connectivité améliore l'installation et l'emploi."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "renaissance",
-        "correction": "On parle aussi de recomposition des campagnes."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. On parle aussi de recomposition des campagnes."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La désertification médicale",
-        "correct": 1,
         "correction": "L'accès aux services de santé est un enjeu majeur."
       },
       {

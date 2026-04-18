@@ -33,8 +33,8 @@
         "question": "lim(x→+∞) xⁿ / eˣ = 0 pour tout entier n ≥ 0."
       },
       {
-        "type": "open",
-        "question": "Calcule lim(x→+∞) x³ · e^(−x)."
+        "type": "vrai-faux",
+        "question": "X³·e^(−x) = x³/eˣ → 0 par croissances comparées (eˣ domine x³)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "lim(x→0⁺) x · ln(x) = 0."
       },
       {
-        "type": "open",
-        "question": "Classe par ordre de croissance (vers +∞) : eˣ, x¹⁰⁰, ln(x), x."
+        "type": "vrai-faux",
+        "question": "Ln(x) ≪ x ≪ x¹⁰⁰ ≪ eˣ."
       },
       {
         "type": "qcm",

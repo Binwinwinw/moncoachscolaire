@@ -33,8 +33,8 @@
         "question": "Lors de la réfraction à l'interface de deux milieux, un rayon lumineux change de direction selon la loi de Snell-Descartes : n₁sin(θ₁) = n₂sin(θ₂)."
       },
       {
-        "type": "open",
-        "question": "Quelle est la distance focale d'une lentille convergente et qu'appelle-t-on vergence ?"
+        "type": "vrai-faux",
+        "question": "La distance focale f' est la distance entre le centre optique et le foyer image F'."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "L'oeil myope a un foyer image situé en avant de la rétine, et se corrige avec des lentilles divergentes."
       },
       {
-        "type": "open",
-        "question": "Comment fonctionne un microscope optique ? Quels types de lentilles utilise-t-il ?"
+        "type": "vrai-faux",
+        "question": "Un microscope utilise deux lentilles convergentes : l'objectif (f' court) forme une image intermédiaire agrandie, et l'oculaire joue le rôle de loupe pour observer cette image."
       },
       {
         "type": "qcm",

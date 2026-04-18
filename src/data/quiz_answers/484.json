@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le Manifeste du Surréalisme d'André Breton (1924)",
-        "correct": 1,
         "correction": "Breton publie le premier Manifeste du Surréalisme en 1924, définissant l'écriture automatique et l'exploration de l'inconscient."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "suggérer",
-        "correction": "'Peindre non la chose mais l'effet qu'elle produit' (Mallarmé) : le symbole suggère plutôt qu'il n'affirme."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. 'Peindre non la chose mais l'effet qu'elle produit' (Mallarmé) : le symbole suggère plutôt qu'il n'affirme."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Paul Verlaine",
-        "correct": 1,
         "correction": "Verlaine est présenté par lui-même comme un 'poète maudit' ; son œuvre est emblématique du Symbolisme musical."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Surréalisme",
-        "correction": "Ces trois poètes sont les piliers du groupe surréaliste parisien."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Ces trois poètes sont les piliers du groupe surréaliste parisien."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Cadavre exquis",
-        "correct": 0,
         "correction": "Le cadavre exquis (ex. 'Le cadavre exquis boira le vin nouveau') est un jeu collectif surréaliste."
       },
       {

@@ -33,8 +33,8 @@
         "question": "En Terminale, justifier la methode choisie fait partie de la reponse attendue."
       },
       {
-        "type": "open",
-        "question": "Explique en quelques lignes comment tu aborderais un exercice sur le theme suivant : schema de Bernoulli et calcul de probabilites."
+        "type": "vrai-faux",
+        "question": "Je commence par reformuler la question, j'identifie les outils utiles, puis je deroule le calcul en verifiant les hypotheses et l'interpretation finale."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Un contre-exemple ou un test numerique peut aider a controler une conjecture avant redaction finale."
       },
       {
-        "type": "open",
-        "question": "Cite une erreur frequente sur ce theme et explique comment l'eviter."
+        "type": "vrai-faux",
+        "question": "Erreur frequente : appliquer une formule sans verifier ses conditions."
       },
       {
         "type": "qcm",

@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le changement de direction de la lumière lorsqu'elle passe d'un milieu à un autre",
-        "correct": 1,
         "correction": "La réfraction est le phénomène de déviation des rayons lumineux à l'interface entre deux milieux d'indices de réfraction différents."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "lentille convergente (ou convexe)",
-        "correction": "Une lentille convergente (convexe) fait converger les rayons parallèles vers un point focal."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Une lentille convergente (convexe) fait converger les rayons parallèles vers un point focal."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Image virtuelle, droite et réduite",
-        "correct": 1,
         "correction": "Une lentille divergente forme une image virtuelle (du côté objet), droite et plus petite que l'objet."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "(1/f) = (1/do) + (1/di)",
-        "correction": "(1/f) = (1/do) + (1/di) où f est la distance focale, do la distance objet-lentille, di la distance image-lentille."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. (1/f) = (1/do) + (1/di) où f est la distance focale, do la distance objet-lentille, di la distance image-lentille."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Lentille divergente (concave)",
-        "correct": 1,
         "correction": "Les lunettes pour myopes utilisent des lentilles divergentes pour compenser la focalisation de l'image devant la rétine."
       },
       {

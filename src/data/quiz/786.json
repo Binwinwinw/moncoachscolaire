@@ -33,8 +33,8 @@
         "question": "Un moteur a combustion interne a un rendement superieur a celui d'un moteur electrique."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on la puissance electrique instantanee consommee par un appareil exprimee en watts ?"
+        "type": "vrai-faux",
+        "question": "La puissance nominale (en W ou kW) indiquee sur un appareil est la puissance electrique absorbee dans des conditions normales de fonctionnement."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La recuperation de l'energie de freinage dans une voiture electrique ameliore son autonomie."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on la chaleur produite par un conducteur electrique parcouru par un courant, qui represente une perte d'energie ?"
+        "type": "vrai-faux",
+        "question": "L'effet Joule (Q = R × I² × t) est la dissipation d'energie electrique en chaleur dans les conducteurs resistifs ; minimiser les pertes Joule ameliore le rendement."
       },
       {
         "type": "qcm",

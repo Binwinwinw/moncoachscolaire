@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Une approche rationnelle et critique visant à clarifier les concepts fondamentaux",
-        "correct": 1,
         "correction": "La philosophie aborde le thème de 'La philosophie des Lumières' par une démarche rationnelle et critique : elle interroge les concepts fondamentaux, examine les arguments, identifie les présupposés et cherche des principes universels, distinguant ainsi l'approche philosophique des approches scientifiques ou historiques."
       },
       {
@@ -28,17 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "correct_answer": "La démarche philosophique consiste à définir les concepts, à examiner les arguments, à identifier les contradictions et à construire une réflexion rigoureuse et autonome.",
-        "answer": "La démarche philosophique consiste à définir les concepts, à examiner les arguments, à identifier les contradictions et à construire une réflexion rigoureuse et autonome.",
-        "correction": "Philosopher sur 'La philosophie des Lumières' consiste à : 1) définir précisément les concepts impliqués (qu'est-ce que cela signifie vraiment ?) ; 2) identifier et examiner les différentes positions possibles (thèses et antithèses) ; 3) évaluer les arguments par la logique et la raison ; 4) dépasser les opinions communes (doxa) pour atteindre une réflexion fondée. Cette démarche dialectique (Hegel) permet de construire une pensée autonome et rigoureuse."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Philosopher sur 'La philosophie des Lumières' consiste à : 1) définir précisément les concepts impliqués (qu'est-ce que cela signifie vraiment ?) ; 2) identifier et examiner les différentes positions possibles (thèses et antithèses) ; 3) évaluer les arguments par la logique et la raison ; 4) dépasser les opinions communes (doxa) pour atteindre une réflexion fondée. Cette démarche dialectique (Hegel) permet de construire une pensée autonome et rigoureuse."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Socrate",
-        "correct": 2,
         "correction": "Cette formule est attribuée à Socrate (bien qu'elle soit une reformulation tardive). Elle exprime l'humilité intellectuelle fondamentale (la 'docte ignorance'). Pour Socrate, cette conscience de son ignorance le distinguait de ceux qui croyaient savoir sans vraiment savoir : la sagesse commence par la reconnaissance de ses limites. C'est le point de départ de toute démarche philosophique authentique."
       },
       {
@@ -51,17 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "correct_answer": "Cette notion touche à des aspects essentiels de la condition humaine : la finitude, la liberté, la recherche de sens et le rapport à autrui.",
-        "answer": "Cette notion touche à des aspects essentiels de la condition humaine : la finitude, la liberté, la recherche de sens et le rapport à autrui.",
-        "correction": "Les grands thèmes philosophiques, dont 'La philosophie des Lumières', éclairent la condition humaine dans ses dimensions fondamentales : la finitude et la mortalité, la liberté et la responsabilité, le rapport à l'autre et à la société, la recherche de sens et de bonheur. La philosophie nous aide à nous orienter dans l'existence en nous dotant d'outils conceptuels pour penser notre situation et nos choix."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les grands thèmes philosophiques, dont 'La philosophie des Lumières', éclairent la condition humaine dans ses dimensions fondamentales : la finitude et la mortalité, la liberté et la responsabilité, le rapport à l'autre et à la société, la recherche de sens et de bonheur. La philosophie nous aide à nous orienter dans l'existence en nous dotant d'outils conceptuels pour penser notre situation et nos choix."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La théorie et la méthode d'interprétation des textes et des discours",
-        "correct": 1,
         "correction": "L'herméneutique (de Hermès, messager des dieux) est l'art et la théorie de l'interprétation, notamment des textes (bibliques initialement, puis littéraires, historiques, philosophiques). Les principaux théoriciens sont Schleiermacher, Dilthey, Heidegger et Gadamer (Vérité et méthode). L'herméneutique soulève la question du cercle herméneutique : comprendre le tout par les parties et les parties par le tout."
       },
       {

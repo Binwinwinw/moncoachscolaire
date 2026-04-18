@@ -33,8 +33,8 @@
         "question": "Un diagramme de flux (organigramme) permet de representer graphiquement un algorithme."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on une instruction qui execute un bloc de code plusieurs fois tant qu'une condition est vraie ?"
+        "type": "vrai-faux",
+        "question": "Une boucle (while, for) repete l'execution d'un bloc d'instructions tant qu'une condition est satisfaite, permettant de traiter des sequences repetitives."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Une variable en programmation est un espace memoire nomme qui peut stocker et modifier une valeur."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on un bloc d'instructions reutilisable qui accomplit une tache specifique et peut etre appele depuis d'autres parties du programme ?"
+        "type": "vrai-faux",
+        "question": "Une fonction (procedure, sous-programme) est un bloc de code nomme qui peut recevoir des parametres et retourner une valeur, favorisant la reutilisabilite du code."
       },
       {
         "type": "qcm",

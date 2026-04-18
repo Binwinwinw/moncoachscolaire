@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Identifier le paratexte et situer l'extrait dans l'œuvre",
-        "correct": 1,
         "correction": "Avant l'analyse, on situe l'auteur, l'œuvre, le genre, le mouvement et la place de l'extrait."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "relevé",
-        "correction": "Le relevé systématique (lexique, syntaxe, figures, rythme) précède l'interprétation."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le relevé systématique (lexique, syntaxe, figures, rythme) précède l'interprétation."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La progression",
-        "correct": 1,
         "correction": "Identifier la progression (comment le texte avance, quelles étapes) permet de construire un plan pertinent."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "tonalité",
-        "correction": "Le registre (lyrique, comique, tragique…) est défini par les effets produits sur le lecteur."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le registre (lyrique, comique, tragique…) est défini par les effets produits sur le lecteur."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La scène d'ouverture qui présente la situation initiale",
-        "correct": 1,
         "correction": "La scène d'exposition (acte I) fournit les informations nécessaires sur les personnages et la situation de départ."
       },
       {

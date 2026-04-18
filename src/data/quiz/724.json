@@ -33,8 +33,8 @@
         "question": "Une batterie de voiture fournit une tension continue."
       },
       {
-        "type": "open",
-        "question": "Quel composant électronique convertit la tension alternative du secteur en tension continue pour alimenter les appareils électroniques ?"
+        "type": "vrai-faux",
+        "question": "Transformateur-redresseur."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Les LED fonctionnent en courant continu (DC)."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on la valeur de tension continue qui produirait le même effet Joule qu'une tension alternative ?"
+        "type": "vrai-faux",
+        "question": "La valeur efficace (ou RMS) Ueff = Umax / √2 est la valeur caractéristique d'une tension alternative indiquée sur les appareils."
       },
       {
         "type": "qcm",

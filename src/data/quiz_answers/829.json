@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La SAS offre plus de souplesse dans son fonctionnement",
-        "correct": 1,
         "correction": "La SAS est très flexible dans son organisation statutaire, tandis que la SARL est plus encadrée par la loi."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Une SA est une société dont le capital est divisé en actions. Elle peut être cotée en bourse (SA cotée) et accessible à tout investisseur, ou non cotée. Les actionnaires sont responsables à hauteur de leurs apports.",
-        "correction": "La SA est la forme adoptée par les grandes entreprises (CAC 40). Elle est dirigée par un conseil d'administration ou un directoire."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La SA est la forme adoptée par les grandes entreprises (CAC 40). Elle est dirigée par un conseil d'administration ou un directoire."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La responsabilité illimitée sur le patrimoine personnel",
-        "correct": 1,
         "correction": "En entreprise individuelle, les dettes professionnelles peuvent être réclamées sur les biens personnels du propriétaire (sauf protections légales récentes)."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Les entreprises privées lucratives visent le profit distribué aux associés. Les associations (loi 1901) sont des organisations à but non lucratif ; les éventuels excédents ne sont pas distribués aux membres mais réinvestis dans l'objet social.",
-        "correction": "L'économie sociale et solidaire (ESS) regroupe associations, coopératives, mutuelles et fondations."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'économie sociale et solidaire (ESS) regroupe associations, coopératives, mutuelles et fondations."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "L'État est actionnaire majoritaire ou unique",
-        "correct": 1,
         "correction": "Ex : SNCF, EDF (anciennement)… L'État peut intervenir via les entreprises publiques pour des missions de service public."
       },
       {

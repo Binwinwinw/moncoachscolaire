@@ -33,8 +33,8 @@
         "question": "La combustion des énergies fossiles (charbon, pétrole, gaz) libère du CO2 atmosphérique, amplifiant l'effet de serre."
       },
       {
-        "type": "open",
-        "question": "La fixation biologique de l'azote atmosphérique (N2) est réalisée par des bactéries _____ comme Rhizobium (symbiotes des légumineuses)."
+        "type": "vrai-faux",
+        "question": "Les bactéries fixatrices (Rhizobium, Azotobacter) réduisent N2 en NH3 (ammoniac), forme assimilable par les plantes."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Les puits de carbone (forêts, océans, tourbières) absorbent plus de CO2 qu'ils n'en émettent."
       },
       {
-        "type": "open",
-        "question": "L'excès de nitrates dans les sols agricoles, dû aux engrais, pollue les nappes phréatiques et les cours d'eau : c'est le phénomène de _____ des eaux."
+        "type": "vrai-faux",
+        "question": "La pollution par les nitrates (directive européenne 91/676/CEE) cause l'eutrophisation des eaux et des risques sanitaires (méthémoglobinémie)."
       },
       {
         "type": "qcm",

@@ -33,8 +33,8 @@
         "question": "La pauvreté absolue se mesure indépendamment du niveau de vie de la société, contrairement à la pauvreté relative."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce que l'exclusion sociale et en quoi se distingue-t-elle de la pauvreté ?"
+        "type": "vrai-faux",
+        "question": "Cette affirmation reformule l'idée essentielle à retenir : Qu'est-ce que l'exclusion sociale et en quoi se distingue-t-elle de la pauvreté."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Les working poor (travailleurs pauvres) sont des personnes qui ont un emploi mais restent sous le seuil de pauvreté."
       },
       {
-        "type": "open",
-        "question": "Présente l'approche par les capabilités d'Amartya Sen et son apport à la mesure de la pauvreté."
+        "type": "vrai-faux",
+        "question": "Cette affirmation reformule l'idée essentielle à retenir : Présente l'approche par les capabilités d'Amartya Sen et son apport à la mesure de la pauvreté."
       },
       {
         "type": "qcm",
@@ -83,5 +83,6 @@
       "notion": "Intégration économique mondiale",
       "description": "Notion fondamentale de SES"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

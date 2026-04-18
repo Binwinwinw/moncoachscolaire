@@ -33,8 +33,8 @@
         "question": "eˣ > eʸ ⟺ x > y."
       },
       {
-        "type": "open",
-        "question": "Résous l'inéquation e^(2x−1) ≥ e^(x+2)."
+        "type": "vrai-faux",
+        "question": "E strictement croissante : 2x−1 ≥ x+2 ⟺ x ≥ 3."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "L'équation e^(2x) − 3e^x + 2 = 0 admet deux solutions réelles."
       },
       {
-        "type": "open",
-        "question": "Résous (eˣ − 2)(eˣ + 1) = 0."
+        "type": "vrai-faux",
+        "question": "X = ln 2 (la seule solution, car eˣ = −1 est impossible)."
       },
       {
         "type": "qcm",

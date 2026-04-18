@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'énergie solaire et la gravité",
-        "correct": 1,
         "correction": "L'énergie solaire provoque l'évaporation ; la gravité assure le retour des précipitations vers les océans et les cours d'eau."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "nitrification",
-        "correction": "La nitrification est réalisée par des bactéries nitrifiantes (Nitrosomonas, Nitrobacter) qui oxydent l'ammoniac en nitrites puis en nitrates."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La nitrification est réalisée par des bactéries nitrifiantes (Nitrosomonas, Nitrobacter) qui oxydent l'ammoniac en nitrites puis en nitrates."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Dénitrification",
-        "correct": 2,
         "correction": "La dénitrification (bactéries anaérobies) convertit les nitrates en N2, refermant le cycle de l'azote."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "nappe phréatique",
-        "correction": "La nappe phréatique est une accumulation d'eau dans un aquifère (couche souterraine perméable), alimentée par l'infiltration des eaux de pluie."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La nappe phréatique est une accumulation d'eau dans un aquifère (couche souterraine perméable), alimentée par l'infiltration des eaux de pluie."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "L'agriculture intensive",
-        "correct": 0,
         "correction": "L'utilisation excessive d'engrais et de pesticides en agriculture peut contaminer les nappes phréatiques par lixiviation."
       },
       {

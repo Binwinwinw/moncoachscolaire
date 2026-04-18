@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Les anticorps et certains lymphocytes",
-        "correct": 1,
         "correction": "L'immunité adaptative repose sur une reconnaissance spécifique des antigènes par les lymphocytes B et T."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "infection",
-        "correction": "La mémoire immunitaire accélère et renforce la réponse lors d'un nouveau contact avec le même agent pathogène."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La mémoire immunitaire accélère et renforce la réponse lors d'un nouveau contact avec le même agent pathogène."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Les lymphocytes T CD4",
-        "correct": 1,
         "correction": "La diminution des lymphocytes T CD4 affaiblit l'ensemble de la réponse immunitaire."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "phagocytose",
-        "correction": "Les phagocytes internalisent les agents pathogènes puis les digèrent grâce à des enzymes."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les phagocytes internalisent les agents pathogènes puis les digèrent grâce à des enzymes."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Parce qu'ils agissent sur les bactéries, pas sur les virus",
-        "correct": 1,
         "correction": "La grippe est une maladie virale, donc les antibiotiques sont inefficaces sauf en cas de surinfection bactérienne."
       },
       {

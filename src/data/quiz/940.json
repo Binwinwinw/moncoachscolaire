@@ -33,8 +33,8 @@
         "question": "Le changement climatique n'affecte pas les sites du patrimoine mondial situés en zone tempérée."
       },
       {
-        "type": "open",
-        "question": "Comment les conflits armés menacent-ils le patrimoine mondial ?"
+        "type": "vrai-faux",
+        "question": "Les conflits armés peuvent entraîner la destruction intentionnelle (ex : Palmyre par Daech), les dommages collatéraux (bombardements), le pillage (ex : Irak, Syrie) et la négligence (manque de ressources pour la conservation)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La restauration d'un site du patrimoine mondial doit toujours viser à le rendre comme neuf."
       },
       {
-        "type": "open",
-        "question": "Quelles sont les stratégies de conservation pour protéger le patrimoine mondial ?"
+        "type": "vrai-faux",
+        "question": "Les stratégies de conservation incluent la surveillance régulière, la gestion des risques (incendies, inondations), la sensibilisation du public, la réglementation du tourisme, la lutte contre le trafic illicite, et la coopération internationale."
       },
       {
         "type": "qcm",

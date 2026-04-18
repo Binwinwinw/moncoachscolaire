@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La décomposition anaérobie de matière organique sur des millions d'années",
-        "correct": 0,
         "correction": "Pétrole/gaz : transformation (catagenèse) de matière organique marine enfouie sous chaleur/pression. Charbon : compression de végétaux des forêts carbonifères."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Richter",
-        "correction": "L'échelle de Richter (1935, logarithmique) mesure l'amplitude des ondes sismiques ; aujourd'hui remplacée par la magnitude de moment (Mw) plus précise pour les grands séismes."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'échelle de Richter (1935, logarithmique) mesure l'amplitude des ondes sismiques ; aujourd'hui remplacée par la magnitude de moment (Mw) plus précise pour les grands séismes."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "De l'aléa (probabilité de séisme) multiplié par la vulnérabilité (population, bâtiments) des zones concernées",
-        "correct": 1,
         "correction": "Risque = aléa × vulnérabilité × exposition ; un séisme de forte magnitude en zone désertique cause peu de dégâts vs un modéré en mégalopole (cf. Haïti 2010 vs Chili 2010)."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "électricité",
-        "correction": "Géothermie haute énergie (>150°C, zones volcaniques) → électricité. Géothermie basse énergie (<30°C) → chauffage. France : 250 000 logements chauffés par géothermie."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Géothermie haute énergie (>150°C, zones volcaniques) → électricité. Géothermie basse énergie (<30°C) → chauffage. France : 250 000 logements chauffés par géothermie."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Provient de la désintégration de l'uranium dans les roches granitiques et cause des cancers du poumon",
-        "correct": 1,
         "correction": "Le radon (²²²Rn) est la 2e cause de cancer du poumon en France (3 000 décès/an) ; il s'accumule dans les maisons mal ventilées sur socle granitique."
       },
       {

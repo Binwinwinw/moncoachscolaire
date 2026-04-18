@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'énergie cinétique",
-        "correct": 1,
         "correction": "L'énergie cinétique (due au mouvement) est une forme d'énergie. Les autres propositions sont des grandeurs physiques mais pas des formes d'énergie."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "le joule (J)",
-        "correction": "L'unité SI de l'énergie est le joule (J). D'autres unités existent : calorie (cal), kilowattheure (kWh), électronvolt (eV)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'unité SI de l'énergie est le joule (J). D'autres unités existent : calorie (cal), kilowattheure (kWh), électronvolt (eV)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Énergie chimique → énergie mécanique (et thermique)",
-        "correct": 1,
         "correction": "La combustion transforme l'énergie chimique du carburant en énergie mécanique (mouvement du piston) et en chaleur (énergie thermique)."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "l'énergie cinétique",
-        "correction": "L'énergie cinétique Ec = ½mv² est l'énergie possédée par un objet en raison de son mouvement (m = masse en kg, v = vitesse en m/s)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'énergie cinétique Ec = ½mv² est l'énergie possédée par un objet en raison de son mouvement (m = masse en kg, v = vitesse en m/s)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Générateur (alternateur)",
-        "correct": 1,
         "correction": "Un générateur (ou alternateur) convertit l'énergie mécanique de rotation en énergie électrique par induction électromagnétique."
       },
       {

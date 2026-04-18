@@ -33,8 +33,8 @@
         "question": "Le diagnostic prénatal permet de détecter certaines anomalies chromosomiques avant la naissance."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on la technique qui amplifie des fragments d'ADN en laboratoire ?"
+        "type": "vrai-faux",
+        "question": "La PCR (Polymerase Chain Reaction) permet de multiplier un fragment d'ADN cible des millions de fois."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "L'empreinte génétique est utilisée dans les enquêtes judiciaires pour identifier un individu."
       },
       {
-        "type": "open",
-        "question": "Quel outil d'édition du génome, basé sur une protéine bactérienne, permet de couper l'ADN à un endroit précis ?"
+        "type": "vrai-faux",
+        "question": "CRISPR-Cas9 utilise un guide ARN pour diriger la protéase Cas9 vers une séquence cible de l'ADN."
       },
       {
         "type": "qcm",

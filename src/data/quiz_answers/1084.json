@@ -1,48 +1,71 @@
 {
-  "quiz_id": 1084,
-  "title": "Produit scalaire — définition et calcul",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "answers": [
-    {
-      "question_id": "1084_1",
-      "correct_option": "B",
-      "explanation": "u⃗·v⃗ = u₁v₁ + u₂v₂ (somme des produits des composantes)."
-    },
-    {
-      "question_id": "1084_2",
-      "correct": true,
-      "explanation": "u⃗·v⃗ ∈ R : le produit scalaire donne un nombre, contrairement au produit vectoriel."
-    },
-    {
-      "question_id": "1084_3",
-      "correct_answer": "u⃗·v⃗ = 3×1 + (−2)×4 = 3 − 8 = −5",
-      "explanation": "Produit scalaire en coordonnées : u₁v₁ + u₂v₂ = 3 − 8 = −5."
-    },
-    {
-      "question_id": "1084_4",
-      "correct_option": "B",
-      "explanation": "u⃗·v⃗ = ||u⃗||·||v⃗||·cos θ où θ est l'angle entre les vecteurs."
-    },
-    {
-      "question_id": "1084_5",
-      "correct": true,
-      "explanation": "u⃗·u⃗ = ||u⃗||·||u⃗||·cos(0) = ||u⃗||². Ou en coordonnées : u₁² + u₂²."
-    },
-    {
-      "question_id": "1084_6",
-      "correct_answer": "AB⃗=(3,0), AC⃗=(0,4). AB⃗·AC⃗ = 3×0 + 0×4 = 0.",
-      "explanation": "Le produit scalaire est nul : les vecteurs sont perpendiculaires (angle droit en A)."
-    },
-    {
-      "question_id": "1084_7",
-      "correct_option": "C",
-      "explanation": "u⃗ ⊥ v⃗ ⟺ θ = 90° ⟺ cos(90°) = 0 ⟺ u⃗·v⃗ = 0."
-    },
-    {
-      "question_id": "1084_8",
-      "correct": true,
-      "explanation": "u₁v₁ + u₂v₂ = v₁u₁ + v₂u₂ : commutativité du produit scalaire."
-    }
-  ]
+  "contents": {
+    "title": "Produit scalaire — définition et calcul",
+    "level": "1ère",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Produit scalaire — définition et calcul",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "",
+        "correction": "u⃗·v⃗ = u₁v₁ + u₂v₂ (somme des produits des composantes)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "u⃗·v⃗ ∈ R : le produit scalaire donne un nombre, contrairement au produit vectoriel."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Produit scalaire en coordonnées : u₁v₁ + u₂v₂ = 3 − 8 = −5."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "",
+        "correction": "u⃗·v⃗ = ||u⃗||·||v⃗||·cos θ où θ est l'angle entre les vecteurs."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "u⃗·u⃗ = ||u⃗||·||u⃗||·cos(0) = ||u⃗||². Ou en coordonnées : u₁² + u₂²."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le produit scalaire est nul : les vecteurs sont perpendiculaires (angle droit en A)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "",
+        "correction": "u⃗ ⊥ v⃗ ⟺ θ = 90° ⟺ cos(90°) = 0 ⟺ u⃗·v⃗ = 0."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "u₁v₁ + u₂v₂ = v₁u₁ + v₂u₂ : commutativité du produit scalaire."
+      }
+    ]
+  }
 }

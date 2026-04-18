@@ -33,8 +33,8 @@
         "question": "Le granite est une roche volcanique qui se forme par refroidissement rapide à la surface."
       },
       {
-        "type": "open",
-        "question": "Le métamorphisme est la transformation d'une roche préexistante sous l'effet de la température et de la _____, sans fusion."
+        "type": "vrai-faux",
+        "question": "Le métamorphisme (sans fusion partielle) produit de nouvelles associations minérales (ex : argile → schiste → gneiss → migmatite)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Les roches sédimentaires peuvent enregistrer des informations sur les environnements passés et contiennent des fossiles."
       },
       {
-        "type": "open",
-        "question": "Dans les zones de subduction, les roches métamorphiques de haute pression et basse température comme les _____ témoignent d'un enfouissement rapide."
+        "type": "vrai-faux",
+        "question": "Les éclogites (haute pression, haute température) et les schistes bleus (haute pression, basse température) se forment dans la plaque plongeante."
       },
       {
         "type": "qcm",

@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "B",
+        "answer": "−3",
         "correction": "Dans y = ax + b, le coefficient directeur est a = 3."
       },
       {
@@ -27,15 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "y = 2x + 1",
-        "correction": "Pente : (7−3)/(3−1) = 2. Ordonnée à l'origine : 3 = 2×1 + b → b = 1. Donc y = 2x + 1."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Pente : (7−3)/(3−1) = 2. Ordonnée à l'origine : 3 = 2×1 + b → b = 1. Donc y = 2x + 1."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "B",
+        "answer": "7",
         "correction": "Dans y = ax + b, l'ordonnée à l'origine est b = 7."
       },
       {
@@ -48,15 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "x = 2",
-        "correction": "2x + 1 = −x + 7 → 3x = 6 → x = 2."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. 2x + 1 = −x + 7 → 3x = 6 → x = 2."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "C",
+        "answer": "Verticale",
         "correction": "x = 3 est une droite verticale passant par le point (3, 0)."
       },
       {

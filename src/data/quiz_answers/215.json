@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le passé simple",
-        "correct": 1,
         "correction": "Le passé simple marque en général les actions de premier plan. Il fait avancer l'intrigue."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "plus-que-parfait",
-        "correction": "Le plus-que-parfait situe une action avant un repère passé. Il crée un effet de retour en arrière temporel."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le plus-que-parfait situe une action avant un repère passé. Il crée un effet de retour en arrière temporel."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Il marchait dans la rue quand soudain la porte s'ouvrit.",
-        "correct": 0,
         "correction": "L'imparfait pose l'action de fond (« marchait »), tandis que le passé simple marque l'événement soudain (« s'ouvrit »)."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "passé composé",
-        "correction": "Le passé composé est le temps usuel du récit oral pour des faits terminés. Il concurrence le passé simple dans la langue courante."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le passé composé est le temps usuel du récit oral pour des faits terminés. Il concurrence le passé simple dans la langue courante."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Action brève de premier plan",
-        "correct": 1,
         "correction": "Le passé simple met en relief des actions successives qui structurent l'histoire. Il sert la progression narrative."
       },
       {

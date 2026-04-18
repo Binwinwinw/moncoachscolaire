@@ -33,8 +33,8 @@
         "question": "L'accès à une clé inexistante dans un dictionnaire lève une KeyError."
       },
       {
-        "type": "open",
-        "question": "Comment itérer sur les clés, les valeurs et les paires clé-valeur d'un dictionnaire ?"
+        "type": "vrai-faux",
+        "question": "For k in d: (clés) ; for v in d.values(): (valeurs) ; for k, v in d.items(): (paires clé-valeur)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "En Python 3.7+, les dictionnaires conservent l'ordre d'insertion des clés."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce qu'un dictionnaire par compréhension (dict comprehension) ? Donnez un exemple."
+        "type": "vrai-faux",
+        "question": "Un dict comprehension crée un dictionnaire en une expression."
       },
       {
         "type": "qcm",

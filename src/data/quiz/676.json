@@ -33,8 +33,8 @@
         "question": "L'échelle de Richter mesure l'intensité ressentie d'un séisme."
       },
       {
-        "type": "open",
-        "question": "Quel instrument mesure les ondes sismiques ?"
+        "type": "vrai-faux",
+        "question": "Le sismographe enregistre les vibrations du sol lors d'un séisme ; le tracé obtenu est un sismogramme."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Les séismes les plus destructeurs se produisent généralement aux frontières de plaques."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on le phénomène de liquéfaction des sols meubles saturés d'eau lors d'un séisme ?"
+        "type": "vrai-faux",
+        "question": "La liquéfaction des sols est un phénomène où les secousses sismiques transforment un sol meuble en liquide, provoquant l'effondrement des bâtiments."
       },
       {
         "type": "qcm",

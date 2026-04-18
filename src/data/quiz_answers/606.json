@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Synthétiser une protéine à partir de la séquence d'un ARNm",
-        "correct": 1,
         "correction": "La traduction (cytoplasme, ribosomes) : chaque triplet de nucléotides de l'ARNm (codon) code pour un acide aminé."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "anticodon",
-        "correction": "L'anticodon de l'ARNt est complémentaire du codon de l'ARNm ; cette reconnaissance assure la spécificité de la traduction."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'anticodon de l'ARNt est complémentaire du codon de l'ARNm ; cette reconnaissance assure la spécificité de la traduction."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Deux sous-unités d'ARN ribosomique (ARNr) et de protéines",
-        "correct": 2,
         "correction": "Le ribosome comprend une grande et une petite sous-unité composées d'ARNr et de protéines ; il est le siège de la traduction."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "stop",
-        "correction": "Les trois codons stop (non-sens) ne codent aucun acide aminé ; ils signalent la fin de la traduction et la libération de la protéine."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les trois codons stop (non-sens) ne codent aucun acide aminé ; ils signalent la fin de la traduction et la libération de la protéine."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Acides aminés",
-        "correct": 2,
         "correction": "Il existe 20 acides aminés différents ; leur séquence (structure primaire) détermine la structure tridimensionnelle et la fonction de la protéine."
       },
       {

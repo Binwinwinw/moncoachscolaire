@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Ec = ½ × m × v²",
-        "correct": 1,
         "correction": "L'énergie cinétique est Ec = ½mv² (en joules, J), où m est la masse en kg et v la vitesse en m/s. Elle est toujours positive ou nulle. Le théorème de l'énergie cinétique stipule que la variation d'énergie cinétique d'un objet est égale au travail total des forces qui s'exercent sur lui : ΔEc = W(toutes forces) = Ec_finale - Ec_initiale."
       },
       {
@@ -28,17 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "correct_answer": "L'énergie potentielle gravitationnelle est l'énergie d'un objet due à sa position en hauteur : Ep = mgh, où m est la masse, g la pesanteur et h l'altitude.",
-        "answer": "L'énergie potentielle gravitationnelle est l'énergie d'un objet due à sa position en hauteur : Ep = mgh, où m est la masse, g la pesanteur et h l'altitude.",
-        "correction": "L'énergie potentielle de pesanteur Ep = mgh, où m est la masse (kg), g l'accélération de la pesanteur (≈9,81 m/s²) et h l'altitude (m) mesurée par rapport à une référence choisie arbitrairement (Ep = 0). Elle représente le travail que la pesanteur peut effectuer pour amener l'objet de l'altitude h à la référence. La variation d'Ep lors d'une chute de h₁ à h₂ : ΔEp = mg(h₂-h₁) ; si h₂ < h₁ (chute), ΔEp < 0 et Ec augmente (conservation de Em)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'énergie potentielle de pesanteur Ep = mgh, où m est la masse (kg), g l'accélération de la pesanteur (≈9,81 m/s²) et h l'altitude (m) mesurée par rapport à une référence choisie arbitrairement (Ep = 0). Elle représente le travail que la pesanteur peut effectuer pour amener l'objet de l'altitude h à la référence. La variation d'Ep lors d'une chute de h₁ à h₂ : ΔEp = mg(h₂-h₁) ; si h₂ < h₁ (chute), ΔEp < 0 et Ec augmente (conservation de Em)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "10 m/s",
-        "correct": 1,
         "correction": "Conservation de l'énergie mécanique (sans frottements) : Em_initiale = Em_finale. L'objet part du repos (Ec_i = 0) à h = 5m : Em_i = mgh = 2×10×5 = 100 J. Au sol (h = 0, Ep = 0) : Em_f = ½mv² = 100 J. Donc ½ × 2 × v² = 100 → v² = 100 → v = 10 m/s. Vérification : v² = 2gh = 2×10×5 = 100, v = 10 m/s ✓"
       },
       {
@@ -51,17 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "correct_answer": "La puissance est la quantité d'énergie transférée ou convertie par unité de temps : P = E/t ou P = W/t. Son unité est le watt (W).",
-        "answer": "La puissance est la quantité d'énergie transférée ou convertie par unité de temps : P = E/t ou P = W/t. Son unité est le watt (W).",
-        "correction": "La puissance P est le rythme de transfert ou de conversion d'énergie : P = ΔE/Δt = W/t, en watts (W = J/s). Elle mesure à quelle vitesse l'énergie est fournie ou consommée. Exemples : une ampoule de 60 W consomme 60 J par seconde ; un moteur de 100 kW développe 100 000 J par seconde. La puissance instantanée est P = F·v (force × vitesse) pour une force appliquée dans la direction du mouvement."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La puissance P est le rythme de transfert ou de conversion d'énergie : P = ΔE/Δt = W/t, en watts (W = J/s). Elle mesure à quelle vitesse l'énergie est fournie ou consommée. Exemples : une ampoule de 60 W consomme 60 J par seconde ; un moteur de 100 kW développe 100 000 J par seconde. La puissance instantanée est P = F·v (force × vitesse) pour une force appliquée dans la direction du mouvement."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Energie lumineuse → électrique",
-        "correct": 2,
         "correction": "Un panneau solaire photovoltaïque convertit l'énergie lumineuse (photons du rayonnement solaire) en énergie électrique, par l'effet photoélectrique (découvert par Einstein en 1905). Les photons libèrent des électrons dans les cellules photovoltaïques en silicium, créant un courant électrique. Le rendement typique des panneaux commerciaux est de 15 à 22%."
       },
       {

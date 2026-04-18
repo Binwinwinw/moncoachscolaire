@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La concentration des hommes, activités et pouvoirs dans les grandes métropoles",
-        "correct": 1,
         "correction": "La métropolisation est un processus mondial : les métropoles captent les richesses, les emplois qualifiés et les décisions au détriment des villes moyennes."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "l'Asie",
-        "correction": "La 'triade' (USA, Europe, Asie orientale) concentre l'essentiel de la production, du commerce et des décisions financières mondiales."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La 'triade' (USA, Europe, Asie orientale) concentre l'essentiel de la production, du commerce et des décisions financières mondiales."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Son rôle de commandement dans l'économie mondiale (sièges de FMN, bourse, aéroports hub)",
-        "correct": 1,
         "correction": "New York, Londres, Tokyo sont des global cities : elles commandent l'économie mondiale quelle que soit leur taille."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "flux",
-        "correction": "Les flux (de capitaux, marchandises, données numériques, migrants) sont le moteur de l'intégration mondiale."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les flux (de capitaux, marchandises, données numériques, migrants) sont le moteur de l'intégration mondiale."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La Suisse ou la Norvège",
-        "correct": 2,
         "correction": "Les pays scandinaves (Norvège, Suède, Islande) et la Suisse dominent régulièrement le classement IDH."
       },
       {

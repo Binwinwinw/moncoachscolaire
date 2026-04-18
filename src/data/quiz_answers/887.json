@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Linéaire",
-        "correct": 1,
         "correction": "O(n) : le temps d'exécution croît proportionnellement à la taille des données. Ex : recherche séquentielle, parcours de liste."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "O(1) < O(log n) < O(n) < O(n log n) < O(n²). Pour n=1000 : O(1)=1, O(log n)≈10, O(n)=1000, O(n log n)≈10000, O(n²)=1 000 000.",
-        "correction": "Pour de grands n, la différence devient considérable. Un algorithme O(n²) avec n=10⁶ ferait 10¹² opérations, inutilisable en pratique."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Pour de grands n, la différence devient considérable. Un algorithme O(n²) avec n=10⁶ ferait 10¹² opérations, inutilisable en pratique."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "O(1)",
-        "correct": 2,
         "correction": "L'accès par indice (tableau[i]) est O(1) car l'adresse mémoire est calculée directement : adresse_base + i × taille_élément."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Big O capture le comportement asymptotique (croissance) pour de grands n, en ignorant les constantes multiplicatives et les termes de degré inférieur. Ex : O(2n) = O(n). Elle mesure le pire cas en général.",
-        "correction": "Big O est utile pour comparer des algorithmes mais ne donne pas les performances absolues. Un O(n²) peut être plus rapide qu'un O(n log n) pour de petits n."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Big O est utile pour comparer des algorithmes mais ne donne pas les performances absolues. Un O(n²) peut être plus rapide qu'un O(n log n) pour de petits n."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "O(n²)",
-        "correct": 3,
         "correction": "n × n = n² opérations au total. Ex : tri à bulles, tri par sélection, tri par insertion (cas général) ont des boucles imbriquées d'où O(n²)."
       },
       {

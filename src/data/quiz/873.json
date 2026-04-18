@@ -33,8 +33,8 @@
         "question": "En Python, une liste peut contenir des éléments de types différents."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce que le slicing (découpage) de liste en Python ? Donnez un exemple."
+        "type": "vrai-faux",
+        "question": "Le slicing extrait une sous-liste avec la syntaxe liste[début:fin:pas]."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La compréhension de liste [x**2 for x in range(5)] produit [0, 1, 4, 9, 16]."
       },
       {
-        "type": "open",
-        "question": "Expliquez la différence entre une liste et un tableau (array) numpy."
+        "type": "vrai-faux",
+        "question": "La liste Python est dynamique, peut contenir des types mixtes, mais les opérations sont lentes en boucle."
       },
       {
         "type": "qcm",

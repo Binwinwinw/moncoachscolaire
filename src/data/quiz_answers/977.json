@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "C",
+        "answer": "(x, f(x))",
         "correction": "La courbe est l'ensemble {(x, f(x)) | x ∈ D(f)}."
       },
       {
@@ -27,15 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "On trace la droite verticale x = 2 et on lit l'ordonnée du point d'intersection avec la courbe.",
-        "correction": "L'abscisse correspond à l'antécédent, l'ordonnée au point sur la courbe est l'image f(2)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'abscisse correspond à l'antécédent, l'ordonnée au point sur la courbe est l'image f(2)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "B",
+        "answer": "f(3) = 5",
         "correction": "Un point (a, b) sur la courbe de f signifie f(a) = b, donc f(3) = 5."
       },
       {
@@ -48,15 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "La courbe est symétrique par rapport à l'axe (Oy) : pour tout x, le point (x, f(x)) a son symétrique (−x, f(x)) sur la courbe.",
-        "correction": "f est paire si f(−x) = f(x). Graphiquement, la courbe est invariante par réflexion par rapport à l'axe des ordonnées."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. f est paire si f(−x) = f(x). Graphiquement, la courbe est invariante par réflexion par rapport à l'axe des ordonnées."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "B",
+        "answer": "Un seul point",
         "correction": "x² = 0 → x = 0 : la parabole est tangente à l'axe en un seul point, l'origine."
       },
       {

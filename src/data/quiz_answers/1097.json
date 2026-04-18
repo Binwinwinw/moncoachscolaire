@@ -1,48 +1,71 @@
 {
-  "quiz_id": 1097,
-  "title": "Suites numériques — définition et termes",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "answers": [
-    {
-      "question_id": "1097_1",
-      "correct_option": "A",
-      "explanation": "La proposition A est correcte pour Suites numériques — définition et termes en 1ère."
-    },
-    {
-      "question_id": "1097_2",
-      "correct": true,
-      "explanation": "Suites numériques — définition et termes fait bien partie des notions clés du programme de 1ère."
-    },
-    {
-      "question_id": "1097_3",
-      "correct_answer": "Le principe fondamental de Suites numériques — définition et termes repose sur une propriété clé du programme de 1ère.",
-      "explanation": "Une bonne réponse résume la définition ou le théorème central de Suites numériques — définition et termes."
-    },
-    {
-      "question_id": "1097_4",
-      "correct_option": "A",
-      "explanation": "Le résultat A est le plus important pour Suites numériques — définition et termes."
-    },
-    {
-      "question_id": "1097_5",
-      "correct": true,
-      "explanation": "Oui, maîtriser Suites numériques — définition et termes permet de résoudre efficacement des exercices de 1ère."
-    },
-    {
-      "question_id": "1097_6",
-      "correct_answer": "Un exemple typique de Suites numériques — définition et termes en 1ère est un problème mobilisant cette notion directement.",
-      "explanation": "Les exercices sur Suites numériques — définition et termes en 1ère testent la compréhension et l'application du concept."
-    },
-    {
-      "question_id": "1097_7",
-      "correct_option": "A",
-      "explanation": "La formule A est celle à retenir pour Suites numériques — définition et termes en 1ère."
-    },
-    {
-      "question_id": "1097_8",
-      "correct": true,
-      "explanation": "Suites numériques — définition et termes est un thème récurrent dans les sujets de bac de 1ère."
-    }
-  ]
+  "contents": {
+    "title": "Suites numériques — définition et termes",
+    "level": "1ère",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Suites numériques — définition et termes",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "",
+        "correction": "La proposition A est correcte pour Suites numériques — définition et termes en 1ère."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Suites numériques — définition et termes fait bien partie des notions clés du programme de 1ère."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Une bonne réponse résume la définition ou le théorème central de Suites numériques — définition et termes."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "",
+        "correction": "Le résultat A est le plus important pour Suites numériques — définition et termes."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Oui, maîtriser Suites numériques — définition et termes permet de résoudre efficacement des exercices de 1ère."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les exercices sur Suites numériques — définition et termes en 1ère testent la compréhension et l'application du concept."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "",
+        "correction": "La formule A est celle à retenir pour Suites numériques — définition et termes en 1ère."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Suites numériques — définition et termes est un thème récurrent dans les sujets de bac de 1ère."
+      }
+    ]
+  }
 }

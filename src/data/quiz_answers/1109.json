@@ -1,48 +1,71 @@
 {
-  "quiz_id": 1109,
-  "title": "Innovation et progrès technique",
-  "subject": "SES",
-  "level": "Terminale",
-  "answers": [
-    {
-      "question_id": "1109_1",
-      "correct_option": "B",
-      "explanation": "Schumpeter (1942) : l'innovation détruit les anciens secteurs (destruction) pour créer de nouvelles activités (créatrice). Ex : voiture/cheval, streaming/DVD."
-    },
-    {
-      "question_id": "1109_2",
-      "correct": false,
-      "explanation": "L'innovation de procédé améliore les méthodes de production. L'innovation de produit introduit un bien ou service nouveau."
-    },
-    {
-      "question_id": "1109_3",
-      "correct_answer": "L'invention est une découverte scientifique ou technique. L'innovation est la mise en œuvre commerciale d'une invention : c'est l'entrepreneur qui transforme l'invention en source de profit.",
-      "explanation": "Schumpeter insiste sur l'entrepreneur innovateur qui prend le risque de commercialiser une nouvelle idée."
-    },
-    {
-      "question_id": "1109_4",
-      "correct_option": "C",
-      "explanation": "La connaissance issue de la R&D profite à tous (diffusion, spillovers) → l'entreprise ne peut pas tout capturer → sous-investissement → justification des subventions publiques."
-    },
-    {
-      "question_id": "1109_5",
-      "correct": true,
-      "explanation": "Le brevet protège l'innovation pendant 20 ans, permettant à l'innovateur de récupérer son investissement avant que la concurrence ne diffuse l'innovation."
-    },
-    {
-      "question_id": "1109_6",
-      "correct_answer": "Une innovation de rupture transforme radicalement un marché existant ou en crée un nouveau, rendant les solutions précédentes obsolètes. Ex : smartphone (disrupte téléphone fixe + appareil photo + GPS), plateforme de streaming (disrupte DVD/télévision).",
-      "explanation": "Concept de Christensen : l'innovation disruptive commence souvent sur des marchés de niche avant de s'imposer massivement."
-    },
-    {
-      "question_id": "1109_7",
-      "correct_option": "B",
-      "explanation": "Les NTIC réduisent les coûts de transaction (Coase), facilitent la coordination entre agents et accélèrent la diffusion de l'information (économie numérique)."
-    },
-    {
-      "question_id": "1109_8",
-      "correct": true,
-      "explanation": "« On voit des ordinateurs partout, sauf dans les statistiques de productivité. » Ce paradoxe a été en partie résolu dans les années 1990 avec la hausse effective de la productivité américaine."
-    }
-  ]
+  "contents": {
+    "title": "Quiz Diagnostic SES Terminale - Serie 1109",
+    "level": "Terminale",
+    "subject": "SES"
+  },
+  "quiz": {
+    "title": "Innovation et progrès technique",
+    "question_count": 8,
+    "level": "Terminale",
+    "subject": "SES",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Cette affirmation reformule l'idée essentielle à retenir : Distingue invention et innovation au sens schumpétérien."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Cette affirmation reformule l'idée essentielle à retenir : Qu'est-ce qu'une innovation de rupture (disruptive) ? Donne un exemple récent."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      }
+    ]
+  }
 }

@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La décomposition d'organismes anciens sous chaleur et pression",
-        "correct": 1,
         "correction": "Les combustibles fossiles sont issus de la transformation de matière organique (algues, végétaux, animaux) sur des millions d'années."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "pechblende",
-        "correction": "La pechblende (uraninite) est le principal minerai d'uranium ; l'uranium extrait alimente les centrales nucléaires."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La pechblende (uraninite) est le principal minerai d'uranium ; l'uranium extrait alimente les centrales nucléaires."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Car leur formation prend des millions d'années, bien plus que leur consommation",
-        "correct": 1,
         "correction": "Les combustibles fossiles se forment sur des millions d'années ; leur consommation actuelle est des millions de fois plus rapide que leur renouvellement."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "sables bitumineux",
-        "correction": "Les sables bitumineux (tar sands) contiennent une forme lourde de pétrole nécessitant des procédés d'extraction très énergivores."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les sables bitumineux (tar sands) contiennent une forme lourde de pétrole nécessitant des procédés d'extraction très énergivores."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Dioxyde de carbone (CO2)",
-        "correct": 1,
         "correction": "La combustion d'hydrocarbures produit principalement du CO2, principal gaz à effet de serre d'origine anthropique."
       },
       {

@@ -33,8 +33,8 @@
         "question": "Le thème 'Géopolitique du Moyen-Orient' fait partie du programme officiel d'Histoire-Géographie de 1ère."
       },
       {
-        "type": "open",
-        "question": "Présentez en quelques lignes l'importance de l'étude du thème 'Géopolitique du Moyen-Orient' pour comprendre le monde contemporain."
+        "type": "vrai-faux",
+        "question": "Ce thème permet de comprendre les grandes évolutions politiques, économiques et sociales qui ont façonné notre monde actuel."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Les sources primaires (documents d'époque) sont plus fiables que les sources secondaires (analyses d'historiens) pour comprendre un événement historique."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce qu'un territoire et en quoi diffère-t-il d'un simple espace géographique ?"
+        "type": "vrai-faux",
+        "question": "Un territoire est un espace géographique approprié, vécu et organisé par une société, contrairement à un simple espace physique."
       },
       {
         "type": "qcm",

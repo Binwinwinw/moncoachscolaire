@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Les barrières naturelles (peau, muqueuses)",
-        "correct": 1,
         "correction": "La peau et les muqueuses constituent la première barrière physique contre l'entrée des agents pathogènes."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "phagocytes",
-        "correction": "Les phagocytes (macrophages, neutrophiles) ingèrent et digèrent les agents pathogènes par phagocytose."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les phagocytes (macrophages, neutrophiles) ingèrent et digèrent les agents pathogènes par phagocytose."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Lymphocyte B / plasmocyte",
-        "correct": 2,
         "correction": "Les lymphocytes B se différencient en plasmocytes qui sécrètent des anticorps spécifiques."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "antigènes",
-        "correction": "Un antigène est toute molécule (protéine, polysaccharide) reconnue comme étrangère par le système immunitaire."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Un antigène est toute molécule (protéine, polysaccharide) reconnue comme étrangère par le système immunitaire."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "L'immunité innée est non spécifique et rapide ; l'immunité acquise est spécifique et mémorisée",
-        "correct": 1,
         "correction": "L'immunité innée répond immédiatement sans mémoire ; l'immunité adaptative est spécifique et génère une mémoire immunologique."
       },
       {

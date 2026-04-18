@@ -33,8 +33,8 @@
         "question": "f(x) = x² et g(x) = x se croisent en x = 0 et x = 1."
       },
       {
-        "type": "open",
-        "question": "Sur quel intervalle x² < x ? Explique."
+        "type": "vrai-faux",
+        "question": "Cette affirmation reformule l'idée essentielle à retenir : Sur quel intervalle x² < x ? Explique."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Pour comparer f et g graphiquement, on cherche les intervalles où la courbe de f est au-dessus de celle de g."
       },
       {
-        "type": "open",
-        "question": "Compare f(x) = 2x + 1 et g(x) = x² sur l'intervalle [0 ; 3]."
+        "type": "vrai-faux",
+        "question": "F > g sur ]0 ; 2[ (intersection en x=0 et x=2 non inclus dans [0;3] pour x=2), g > f sur ]2 ; 3]."
       },
       {
         "type": "qcm",

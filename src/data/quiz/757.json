@@ -33,8 +33,8 @@
         "question": "La decentralisation signifie que l'Etat transfere des competences a des collectivites locales elues."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on le representant de l'Etat dans chaque departement et region ?"
+        "type": "vrai-faux",
+        "question": "Le préfet est le représentant de l'État dans le département/la région ; il veille à l'application des lois et coordonne l'action de l'État au niveau local."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Le maire est a la fois chef de la commune et representant de l'Etat dans celle-ci."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on le budget vote chaque annee par le conseil municipal pour financer les depenses de la commune ?"
+        "type": "vrai-faux",
+        "question": "Budget primitif communal."
       },
       {
         "type": "qcm",

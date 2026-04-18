@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "CDI",
-        "correct": 1,
         "correction": "Le CDI (contrat à durée indéterminée) est la forme normale et générale de la relation de travail."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "1. La prestation de travail (le salarié fournit un travail) ; 2. La rémunération (le salarié reçoit un salaire) ; 3. Le lien de subordination (le salarié est sous l'autorité de l'employeur).",
-        "correction": "C'est le lien de subordination qui distingue le salarié du travailleur indépendant."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. C'est le lien de subordination qui distingue le salarié du travailleur indépendant."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Une rupture du CDI d'un commun accord entre salarié et employeur",
-        "correct": 2,
         "correction": "La rupture conventionnelle (créée en 2008) permet de mettre fin au CDI d'un commun accord, avec des indemnités et droit aux allocations chômage."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Une convention collective est un accord négocié entre syndicats de salariés et organisations patronales d'une branche professionnelle. Elle fixe les conditions de travail (salaires, durée, avantages) qui s'appliquent à tous les salariés et employeurs de la branche.",
-        "correction": "Les conventions collectives complètent le Code du travail et ne peuvent être moins favorables que lui."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les conventions collectives complètent le Code du travail et ne peuvent être moins favorables que lui."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Un droit constitutionnel reconnu à tous les travailleurs",
-        "correct": 1,
         "correction": "Le droit de grève est inscrit dans le Préambule de la Constitution de 1946 (réaffirmé en 1958). Dans le secteur public, un préavis de grève est obligatoire."
       },
       {

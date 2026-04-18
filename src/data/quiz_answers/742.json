@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Isaac Newton",
-        "correct": 2,
         "correction": "Isaac Newton a formulé la loi de la gravitation universelle en 1687, décrivant l'attraction entre deux masses."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "révolution (ou orbite)",
-        "correction": "Les planètes effectuent une révolution (orbite) autour du Soleil sous l'effet de la force de gravitation solaire."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les planètes effectuent une révolution (orbite) autour du Soleil sous l'effet de la force de gravitation solaire."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Elle se divise par 4",
-        "correct": 2,
         "correction": "Selon la loi de Newton, F ∝ 1/d². Si d double, F est divisée par 4 (loi du carré inverse de la distance)."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "g ≈ 9,81 N/kg (ou 10 N/kg en valeur approchée)",
-        "correction": "L'intensité de la pesanteur à la surface de la Terre est g ≈ 9,81 N/kg. Elle varie légèrement selon la latitude et l'altitude."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'intensité de la pesanteur à la surface de la Terre est g ≈ 9,81 N/kg. Elle varie légèrement selon la latitude et l'altitude."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Il est en état d'apesanteur (chute libre) mais son poids n'est pas nul",
-        "correct": 2,
         "correction": "La SSI est en chute libre autour de la Terre, créant une apesanteur apparente. La gravité y est encore ~88% de celle au sol."
       },
       {

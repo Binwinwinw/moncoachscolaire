@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Un arbitrage entre intérêts politiques, économiques et culturels",
-        "correct": 1,
         "correction": "L'analyse HGGSP repose sur les rapports de force et les compromis entre acteurs."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "'la langue comme instrument de puissance' est un enjeu géopolitique car il met en tension des intérêts d'acteurs publics et privés, à plusieurs échelles. Les arbitrages de gouvernance influencent l'image internationale des acteurs, la coopération et les rapports de puissance. L'exemple 'les programmes éducatifs francophones' illustre des choix politiques concrets et leurs effets.",
-        "correction": "Attendu : problématique claire, acteurs identifiés, effets politiques explicites."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Attendu : problématique claire, acteurs identifiés, effets politiques explicites."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "les programmes éducatifs francophones",
-        "correct": 0,
         "correction": "L'exemple choisi doit permettre de discuter acteurs, normes et stratégies."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Piste opérationnelle : les sommets de la Francophonie. Cette proposition est crédible car elle combine pilotage public, mise en œuvre concrète et critères d'évaluation.",
-        "correction": "On attend une proposition précise, faisable et justifiée."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. On attend une proposition précise, faisable et justifiée."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Comparer les acteurs et leurs intérêts à plusieurs échelles",
-        "correct": 0,
         "correction": "La comparaison des acteurs et des intérêts permet une argumentation rigoureuse et nuancée."
       },
       {

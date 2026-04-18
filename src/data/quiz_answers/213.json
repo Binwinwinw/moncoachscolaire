@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'idée principale que l'auteur défend",
-        "correct": 1,
         "correction": "La thèse est la position globale de l'auteur sur un sujet. Les arguments servent à la justifier."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "cependant",
-        "correction": "Un connecteur d'opposition permet de nuancer ou de contredire une idée précédente. « Cependant » est un marqueur classique."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Un connecteur d'opposition permet de nuancer ou de contredire une idée précédente. « Cependant » est un marqueur classique."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Argument → Exemple → Bilan partiel",
-        "correct": 1,
         "correction": "Cette structure facilite la progression : on affirme, on prouve, puis on tire une petite conclusion. Elle aide à la clarté argumentative."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "induction",
-        "correction": "L'induction observe des faits particuliers pour formuler une généralisation. C'est l'inverse d'un raisonnement déductif."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'induction observe des faits particuliers pour formuler une généralisation. C'est l'inverse d'un raisonnement déductif."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "L'appel aux sentiments",
-        "correct": 1,
         "correction": "L'argumentation peut jouer sur la sensibilité pour persuader. Ce levier affectif complète parfois la démonstration rationnelle."
       },
       {

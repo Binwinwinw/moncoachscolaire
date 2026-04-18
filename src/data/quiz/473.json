@@ -33,8 +33,8 @@
         "question": "Un argument est une affirmation qui étaie ou réfute une thèse."
       },
       {
-        "type": "open",
-        "question": "L'illustration d'un argument par un fait précis ou une anecdote s'appelle un _____."
+        "type": "vrai-faux",
+        "question": "L'exemple concrétise l'argument et lui donne une valeur démonstrative."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Un syllogisme est un raisonnement déductif en trois étapes : majeure, mineure, conclusion."
       },
       {
-        "type": "open",
-        "question": "L'appel aux émotions du lecteur pour le convaincre est appelé _____ dans la rhétorique classique."
+        "type": "vrai-faux",
+        "question": "Le pathos (ethos, pathos, logos) vise à émouvoir le destinataire pour le persuader."
       },
       {
         "type": "qcm",

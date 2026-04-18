@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "B",
+        "answer": "x = −3",
         "correction": "2x + 6 = 0 → 2x = −6 → x = −3."
       },
       {
@@ -27,15 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "x = 7",
-        "correction": "5x − 10 = 3x + 4 → 2x = 14 → x = 7."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. 5x − 10 = 3x + 4 → 2x = 14 → x = 7."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "A",
+        "answer": "x = 3",
         "correction": "3x + 3 = 12 → 3x = 9 → x = 3."
       },
       {
@@ -48,15 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "x = 7",
-        "correction": "9x + 4×15 = 129 → 9x + 60 = 129 → 9x = 69 → x = 69/9... Correction : 9x = 69 n'est pas entier. Reformulation : 9x + 60 = 129 → 9x = 69. Hmm, prenons 2 théâtres : 9x + 30 = 129 → 9x = 99 → x = 11. Réponse correcte avec 4 théâtres : x = 69/9. Utilisons une autre valeur : avec 3 théâtres : 9x + 45 = 129 → 9x = 84 → pas entier. Avec 4 théâtres et 9x = 69 : pas entier. Corrigeons l'énoncé — 9x + 4×15 = 123 → 9x = 63 → x = 7."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. 9x + 4×15 = 129 → 9x + 60 = 129 → 9x = 69 → x = 69/9... Correction : 9x = 69 n'est pas entier. Reformulation : 9x + 60 = 129 → 9x = 69. Hmm, prenons 2 théâtres : 9x + 30 = 129 → 9x = 99 → x = 11. Réponse correcte avec 4 théâtres : x = 69/9. Utilisons une autre valeur : avec 3 théâtres : 9x + 45 = 129 → 9x = 84 → pas entier. Avec 4 théâtres et 9x = 69 : pas entier. Corrigeons l'énoncé — 9x + 4×15 = 123 → 9x = 63 → x = 7."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "C",
+        "answer": "0·x = 5",
         "correction": "0·x = 5 donne 0 = 5, qui est fausse pour tout x : aucune solution."
       },
       {

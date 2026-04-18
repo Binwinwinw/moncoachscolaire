@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Émile Zola",
-        "correct": 2,
         "correction": "Zola théorise le naturalisme dans Le Roman expérimental (1880) et le met en pratique dans Les Rougon-Macquart."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "réalisme",
-        "correction": "Flaubert, bien que rejetant l'étiquette, est associé au réalisme par son souci du style et de l'exactitude."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Flaubert, bien que rejetant l'étiquette, est associé au réalisme par son souci du style et de l'exactitude."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "L'application des méthodes scientifiques à la littérature",
-        "correct": 1,
         "correction": "Zola s'inspire de Claude Bernard pour appliquer l'expérimentation à la création romanesque."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "effet de réel",
-        "correction": "Roland Barthes théorise l' 'effet de réel' : les détails inutiles créent un sentiment d'authenticité."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Roland Barthes théorise l' 'effet de réel' : les détails inutiles créent un sentiment d'authenticité."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Le Rouge et le Noir",
-        "correct": 1,
         "correction": "Le Rouge et le Noir (1830) est le grand roman de Stendhal, avec Julien Sorel pour héros."
       },
       {

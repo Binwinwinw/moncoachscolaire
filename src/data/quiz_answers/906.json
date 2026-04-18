@@ -7,57 +7,65 @@
   "quiz": {
     "title": "Anglais - Les cycles des nutriments en SVT",
     "question_count": 8,
+    "level": "5eme",
+    "subject": "SVT",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
+        "answer": "",
         "correction": "La bonne réponse est ‘Un ver de terre’. Il aide à recycler les nutriments dans le sol."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
+        "answer": "faux",
         "correction": "Vrai. Les décomposeurs transforment les matières mortes en éléments nutritifs."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correction": "Réponds que le recyclage des nutriments permet aux plantes de retrouver de l'azote et d'autres éléments dans le sol."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Réponds que le recyclage des nutriments permet aux plantes de retrouver de l'azote et d'autres éléments dans le sol."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
+        "answer": "",
         "correction": "La bonne réponse est ‘L'azote’. La décomposition libère de l'azote utilisé par les plantes."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
+        "answer": "faux",
         "correction": "Vrai. Les racines absorbent les nutriments du sol."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "qcm",
+        "answer": "",
         "correction": "La bonne réponse est ‘Une bactérie’. Beaucoup de décomposeurs sont des bactéries."
       },
       {
         "index": 6,
         "question_id": 7,
-        "type": "texte",
-        "correction": "Réponds avec une action comme limiter le labour ou éviter les produits chimiques pour protéger le sol."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Réponds avec une action comme limiter le labour ou éviter les produits chimiques pour protéger le sol."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "qcm",
+        "answer": "",
         "correction": "La bonne réponse est ‘Une meilleure croissance des plantes’."
       }
-    ],
-    "level": "5eme",
-    "subject": "SVT"
+    ]
   }
 }

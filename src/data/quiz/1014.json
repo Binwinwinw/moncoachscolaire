@@ -33,8 +33,8 @@
         "question": "Le TVI garantit l'unicité du point c tel que f(c) = k."
       },
       {
-        "type": "open",
-        "question": "Utilise le TVI pour montrer que f(x) = x³ − 2x − 5 a une racine dans ]2 ; 3[."
+        "type": "vrai-faux",
+        "question": "F(2) = 8−4−5 = −1 0."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Si f(a) et f(b) ont des signes opposés, l'équation f(x) = 0 a au moins une solution dans ]a,b[."
       },
       {
-        "type": "open",
-        "question": "Qu'appelle-t-on méthode de dichotomie et sur quel théorème se base-t-elle ?"
+        "type": "vrai-faux",
+        "question": "Méthode numérique qui divise un intervalle en deux à chaque étape pour encadrer une racine."
       },
       {
         "type": "qcm",

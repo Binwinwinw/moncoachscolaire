@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "C",
+        "answer": "Une parabole",
         "correction": "f(x) = x² est une parabole d'axe de symétrie x = 0 et de sommet (0, 0)."
       },
       {
@@ -27,15 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Le minimum est 0, atteint en x = 0.",
-        "correction": "x² ≥ 0 pour tout réel x, avec égalité en x = 0. La parabole a son sommet en (0, 0)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. x² ≥ 0 pour tout réel x, avec égalité en x = 0. La parabole a son sommet en (0, 0)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "B",
+        "answer": "25",
         "correction": "f(−5) = (−5)² = 25."
       },
       {
@@ -48,15 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "x = 3 ou x = −3",
-        "correction": "La parabole y = x² coupe la droite horizontale y = 9 en (3, 9) et (−3, 9), donc x = ±3."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La parabole y = x² coupe la droite horizontale y = 9 en (3, 9) et (−3, 9), donc x = ±3."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "B",
+        "answer": "x = 2",
         "correction": "y = (x−2)² est la parabole translatée de 2 vers la droite. Son axe de symétrie est x = 2."
       },
       {

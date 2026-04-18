@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'activité physique régulière et une alimentation équilibrée",
-        "correct": 1,
         "correction": "Ces habitudes limitent notamment l'obésité, l'hypertension et certains troubles métaboliques."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "cancer",
-        "correction": "Détecter une maladie tôt améliore souvent les chances de traitement et réduit la gravité des complications."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Détecter une maladie tôt améliore souvent les chances de traitement et réduit la gravité des complications."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Le pancréas",
-        "correct": 0,
         "correction": "Le pancréas endocrine sécrète des hormones comme l'insuline et le glucagon qui régulent le taux de glucose sanguin."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "anémie",
-        "correction": "L'anémie diminue la capacité du sang à transporter l'oxygène et provoque fatigue, pâleur et essoufflement."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'anémie diminue la capacité du sang à transporter l'oxygène et provoque fatigue, pâleur et essoufflement."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "L'IMC",
-        "correct": 1,
         "correction": "L'indice de masse corporelle est un repère simple, à interpréter avec d'autres éléments selon l'âge et la situation médicale."
       },
       {

@@ -1,48 +1,71 @@
 {
-  "quiz_id": 1123,
-  "title": "Intégration européenne",
-  "subject": "SES",
-  "level": "Terminale",
-  "answers": [
-    {
-      "question_id": "1123_1",
-      "correct_option": "B",
-      "explanation": "Mundell (1961) : une ZMO nécessite mobilité du travail, flexibilité des salaires et transfers budgétaires fédéraux pour absorber les chocs asymétriques."
-    },
-    {
-      "question_id": "1123_2",
-      "correct": true,
-      "explanation": "L'Acte unique européen (1986) et le Traité de Maastricht (1992) ont établi ces quatre libertés fondamentales du marché intérieur."
-    },
-    {
-      "question_id": "1123_3",
-      "correct_answer": "Avantages : élimination du risque de change, réduction des coûts de transaction, stabilité monétaire, crédibilité anti-inflationniste. Inconvénients : perte de la politique monétaire nationale, impossibilité de dévaluer pour regagner la compétitivité, chocs asymétriques sans mécanisme d'ajustement fédéral.",
-      "explanation": "Le débat sur les zones monétaires optimales est au cœur des crises de la zone euro (2010-2015)."
-    },
-    {
-      "question_id": "1123_4",
-      "correct_option": "B",
-      "explanation": "Le principe de subsidiarité (Traité de Maastricht) : l'UE n'intervient que si l'action au niveau national est insuffisante. Cherche à équilibrer intégration et souveraineté nationale."
-    },
-    {
-      "question_id": "1123_5",
-      "correct": true,
-      "explanation": "Contrairement à la Fed américaine (double mandat : inflation + emploi), la BCE a un mandat principalement centré sur la stabilité des prix."
-    },
-    {
-      "question_id": "1123_6",
-      "correct_answer": "Absence de mécanisme de solidarité budgétaire, pas de prêteur en dernier ressort pour les États, asymétries de compétitivité entre pays, pas de mutualisation de la dette. Solutions apportées : MES, OMT de la BCE, union bancaire.",
-      "explanation": "La crise grecque (2010), irlandaise, portugaise, espagnole a montré les faiblesses institutionnelles de l'Union Économique et Monétaire."
-    },
-    {
-      "question_id": "1123_7",
-      "correct_option": "B",
-      "explanation": "L'union douanière = libre-échange interne + tarif extérieur commun (TEC). C'est une étape avant le marché commun et l'union économique."
-    },
-    {
-      "question_id": "1123_8",
-      "correct": true,
-      "explanation": "Après le Brexit (effectif le 1er jan. 2021), les ressortissants européens au RU et vice-versa sont soumis aux règles de droit commun des étrangers (visa, permis de travail)."
-    }
-  ]
+  "contents": {
+    "title": "Quiz Diagnostic SES Terminale - Serie 1123",
+    "level": "Terminale",
+    "subject": "SES"
+  },
+  "quiz": {
+    "title": "Intégration européenne",
+    "question_count": 8,
+    "level": "Terminale",
+    "subject": "SES",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Cette affirmation reformule l'idée essentielle à retenir : Quels sont les avantages et inconvénients de l'appartenance à la zone euro pour un pays membre."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Cette affirmation reformule l'idée essentielle à retenir : En quoi la crise de la dette souveraine en zone euro (2010-2015) a-t-elle révélé les limites de l'architecture de l'UEM."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      }
+    ]
+  }
 }

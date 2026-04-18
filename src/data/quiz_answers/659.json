@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Un caractère héréditaire augmentant la valeur sélective",
-        "correct": 1,
         "correction": "Une adaptation est un caractère héréditaire qui améliore la survie ou la reproduction d'un individu dans son environnement."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "valeur sélective",
-        "correction": "La valeur sélective (fitness) mesure la contribution relative d'un individu à la génération suivante."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La valeur sélective (fitness) mesure la contribution relative d'un individu à la génération suivante."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Dérive génétique",
-        "correct": 1,
         "correction": "La dérive génétique est un processus aléatoire particulièrement important dans les petites populations."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "plasticité phénotypique",
-        "correction": "La plasticité phénotypique permet à un génotype de produire des phénotypes différents selon les conditions environnementales."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La plasticité phénotypique permet à un génotype de produire des phénotypes différents selon les conditions environnementales."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La relation fleur-pollinisateur",
-        "correct": 0,
         "correction": "Les fleurs et leurs pollinisateurs ont co-évolué, chaque espèce influençant l'évolution de l'autre."
       },
       {

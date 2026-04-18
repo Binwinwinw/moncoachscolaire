@@ -33,8 +33,8 @@
         "question": "L'ARN aurait pu être la première molécule à la fois informationnelle et catalytique lors de l'origine de la vie ('monde ARN')."
       },
       {
-        "type": "open",
-        "question": "Le prix Nobel de physiologie ou médecine 2020 a été attribué à Harvey Alter, Michael Houghton et Charles Rice pour la découverte du virus de l'hépatite _____."
+        "type": "vrai-faux",
+        "question": "La découverte du VHC a permis de développer des tests sanguins et des traitements antiviraux (AAD) qui guérissent l'hépatite C dans > 95 % des cas."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La biomimétique s'inspire du vivant pour concevoir des solutions technologiques (ex : velcro inspiré des crochets de bardane)."
       },
       {
-        "type": "open",
-        "question": "Le microbiote intestinal humain comprend ~38 000 milliards de bactéries et joue un rôle clé dans l'immunité, la digestion, et même les fonctions _____."
+        "type": "vrai-faux",
+        "question": "L'axe intestin-cerveau (gut-brain axis) : le microbiote produit des neurotransmetteurs (sérotonine, GABA) et influence l'humeur, les comportements et même les maladies neurologiques."
       },
       {
         "type": "qcm",

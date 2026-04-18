@@ -16,6 +16,7 @@ Impact :
 
 - la base runtime est plus propre et plus fiable pour les diagnostics
 - les générateurs futurs disposent maintenant d'un template cohérent avec la structure réellement servie par l'application
+- le workflow de clôture est clarifié : validation → copie runtime → suppression du dossier temporaire
 
 ---
 

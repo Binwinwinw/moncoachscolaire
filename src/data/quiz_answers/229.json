@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le langage humain est articulé, symbolique et permet d'exprimer des pensées abstraites et de créer du sens",
-        "correct": 1,
         "correction": "Ce qui distingue le langage humain des systèmes de communication animaux (signaux, codes génétiques), c'est son double articulation (Martinet), sa créativité infinie (Chomsky), sa dimension symbolique (le mot n'est pas la chose) et sa capacité à exprimer des contenus abstraits, des contre-factuels et des récits. Aristote définit l'homme comme 'animal politique' précisément parce qu'il a le logos (raison + langage)."
       },
       {
@@ -28,17 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "correct_answer": "Cette thèse signifie que notre capacité à penser et à concevoir le monde est limitée par les possibilités expressives de notre langage.",
-        "answer": "Cette thèse signifie que notre capacité à penser et à concevoir le monde est limitée par les possibilités expressives de notre langage.",
-        "correction": "Wittgenstein (Tractatus logico-philosophicus, 1921) affirme que le monde ne peut être pensé qu'à travers le langage : 'Les limites de mon langage signifient les limites de mon monde.' Ce qui ne peut être dit (l'indicible : l'éthique, le mystique) ne peut être pensé. Cette thèse a des implications importantes : notre vision du monde est structurée par notre langue. Le relativisme linguistique (hypothèse Sapir-Whorf) prolonge cette idée : la langue maternelle influence la façon de percevoir le réel."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Wittgenstein (Tractatus logico-philosophicus, 1921) affirme que le monde ne peut être pensé qu'à travers le langage : 'Les limites de mon langage signifient les limites de mon monde.' Ce qui ne peut être dit (l'indicible : l'éthique, le mystique) ne peut être pensé. Cette thèse a des implications importantes : notre vision du monde est structurée par notre langue. Le relativisme linguistique (hypothèse Sapir-Whorf) prolonge cette idée : la langue maternelle influence la façon de percevoir le réel."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La propriété de certains énoncés à accomplir une action en les énonçant ('Je vous déclare mariés')",
-        "correct": 1,
         "correction": "J.L. Austin (Quand dire, c'est faire, 1962) distingue les énoncés constatifs (qui décrivent) et les énoncés performatifs (qui accomplissent une action en étant prononcés). Ex : 'Je promets', 'Je vous déclare mariés', 'La séance est ouverte'. Ces actes de langage ne sont pas vrais ou faux mais 'heureux' ou 'malheureux' selon les conditions de leur énonciation (contexte, autorité du locuteur)."
       },
       {
@@ -51,17 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "correct_answer": "La langue est le système collectif de signes partagé par une communauté ; la parole est l'usage individuel et concret de ce système.",
-        "answer": "La langue est le système collectif de signes partagé par une communauté ; la parole est l'usage individuel et concret de ce système.",
-        "correction": "Saussure (Cours de linguistique générale) distingue : la langue (système abstrait, collectif, social, de signes partagé par tous les membres d'une communauté linguistique, code commun) et la parole (acte individuel, concret, variable, d'utilisation de ce système). La langue est l'objet de la linguistique ; la parole est son actualisation. Chomsky reformulera cette distinction en compétence/performance linguistique."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Saussure (Cours de linguistique générale) distingue : la langue (système abstrait, collectif, social, de signes partagé par tous les membres d'une communauté linguistique, code commun) et la parole (acte individuel, concret, variable, d'utilisation de ce système). La langue est l'objet de la linguistique ; la parole est son actualisation. Chomsky reformulera cette distinction en compétence/performance linguistique."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Le langage, fait pour l'action et la communication sociale, découpe et fige ce qui est en réalité fluide et continu (la durée)",
-        "correct": 1,
         "correction": "Bergson (Essai sur les données immédiates de la conscience) critique le langage qui, adapté à la vie pratique et à la communication sociale, impose ses découpages spatiaux et statiques sur une réalité qui est en réalité durée pure, mouvement continu, qualité irréductible à la quantité. En mettant des mots sur notre vie intérieure, nous la trahissons en la figeant. La vraie conscience est ineffable (ne peut se dire entièrement)."
       },
       {

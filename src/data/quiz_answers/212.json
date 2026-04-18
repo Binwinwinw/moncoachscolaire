@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La comparaison",
-        "correct": 1,
         "correction": "La comparaison rapproche explicitement deux éléments à l'aide d'un comparatif. Elle met en valeur une ressemblance précise."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "allitération",
-        "correction": "L'allitération est la répétition d'une consonne pour créer un effet sonore. Elle peut suggérer douceur, violence ou insistance."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'allitération est la répétition d'une consonne pour créer un effet sonore. Elle peut suggérer douceur, violence ou insistance."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Le registre lyrique",
-        "correct": 0,
         "correction": "Le registre lyrique exprime les émotions personnelles, notamment l'amour, la mélancolie ou la nostalgie. Il privilégie la subjectivité."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "anaphore",
-        "correction": "L'anaphore crée un rythme insistant et structure le poème. Elle met en relief une idée essentielle."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'anaphore crée un rythme insistant et structure le poème. Elle met en relief une idée essentielle."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Prolonger une phrase au-delà de la fin du vers",
-        "correct": 1,
         "correction": "L'enjambement dépasse la frontière du vers et crée un effet de continuité. Il peut accélérer ou nuancer le rythme de lecture."
       },
       {

@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La forte natalité en Afrique subsaharienne et en Asie du Sud",
-        "correct": 1,
         "correction": "La population mondiale croît surtout grâce à la forte natalité en Afrique (Niger, Mali, Congo) et en Asie du Sud (Pakistan, Bangladesh)."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "ceinture tropicale",
-        "correction": "Les forêts tropicales humides couvrent environ 10% des terres émergées mais abritent plus de 50% des espèces vivantes."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les forêts tropicales humides couvrent environ 10% des terres émergées mais abritent plus de 50% des espèces vivantes."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Le remplacement progressif des énergies fossiles par des énergies renouvelables",
-        "correct": 1,
         "correction": "La transition énergétique vise à réduire les GES en remplaçant charbon, pétrole et gaz par solaire, éolien, hydraulique et nucléaire."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "échanges",
-        "correction": "La Méditerranée est un carrefour de civilisations (Europe, Afrique, Orient) mais aussi une frontière de l'immigration clandestine vers l'Europe."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La Méditerranée est un carrefour de civilisations (Europe, Afrique, Orient) mais aussi une frontière de l'immigration clandestine vers l'Europe."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Métropole émergente construite sur les revenus pétroliers et le commerce mondial",
-        "correct": 1,
         "correction": "Dubaï illustre l'émergence de nouvelles métropoles mondiales dans le Golfe persique, hubs commerciaux et touristiques construits ex nihilo."
       },
       {

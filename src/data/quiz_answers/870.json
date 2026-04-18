@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Des nombres à virgule flottante",
-        "correct": 1,
         "correction": "IEEE 754 est le standard international pour la représentation des flottants en binaire (simple précision 32 bits, double précision 64 bits)."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "0.1 en décimal est une fraction décimale périodique en base 2 : 0.0001100110011... (infinie). La mémoire étant finie, on tronque, introduisant une erreur d'arrondi.",
-        "correction": "Seules les fractions dont le dénominateur est une puissance de 2 sont représentables exactement en binaire."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Seules les fractions dont le dénominateur est une puissance de 2 sont représentables exactement en binaire."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "32 bits",
-        "correct": 1,
         "correction": "IEEE 754 simple précision : 1 bit signe + 8 bits exposant + 23 bits mantisse = 32 bits total."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Un overflow se produit quand un calcul produit un résultat trop grand pour être représenté (supérieur à ~3.4×10³⁸ en float32). Le résultat est alors +inf ou -inf selon IEEE 754.",
-        "correction": "IEEE 754 définit des valeurs spéciales : +inf, -inf, NaN (Not a Number) pour gérer ces cas."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. IEEE 754 définit des valeurs spéciales : +inf, -inf, NaN (Not a Number) pour gérer ces cas."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "float64",
-        "correct": 1,
         "correction": "Python utilise le type float, qui correspond à un double précision IEEE 754 64 bits (C double)."
       },
       {

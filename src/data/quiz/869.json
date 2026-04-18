@@ -33,8 +33,8 @@
         "question": "En mode RGB, chaque pixel est codé par trois valeurs (rouge, vert, bleu)."
       },
       {
-        "type": "open",
-        "question": "Calculez la taille non compressée d'une image RGB de 800×600 pixels (en octets et Mo)."
+        "type": "vrai-faux",
+        "question": "800 × 600 × 3 = 1 440 000 octets ≈ 1,44 Mo (en utilisant 3 octets par pixel en RGB 24 bits)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Le format PNG utilise une compression sans perte."
       },
       {
-        "type": "open",
-        "question": "Expliquez la différence entre compression avec perte et sans perte."
+        "type": "vrai-faux",
+        "question": "Compression sans perte (PNG, BMP, GIF) : l'image originale est parfaitement reconstituée."
       },
       {
         "type": "qcm",

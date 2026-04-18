@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "XY chez le garçon, XX chez la fille",
-        "correct": 1,
         "correction": "Le gène SRY sur le chromosome Y détermine le développement masculin ; XX -> fille, XY -> garçon."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "50",
-        "correction": "La mère XD Xd produit des gamètes XD et Xd en proportion égale (50%) ; chaque fils reçoit le chromosome Y du père."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La mère XD Xd produit des gamètes XD et Xd en proportion égale (50%) ; chaque fils reçoit le chromosome Y du père."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Deux parents porteurs sains (hétérozygotes)",
-        "correct": 1,
         "correction": "Autosomique récessif : les parents porteurs (Aa x Aa) ont 25% de risque d'avoir un enfant atteint (aa)."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "caryotype",
-        "correction": "L'analyse du caryotype foetal révèle les trisomies (21, 18, 13) et autres anomalies chromosomiques."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'analyse du caryotype foetal révèle les trisomies (21, 18, 13) et autres anomalies chromosomiques."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "50%",
-        "correct": 1,
         "correction": "Mère XH Xh : gamètes XH (50%) et Xh (50%) ; fils : XH Y (sain, 50%) ou Xh Y (hémophile, 50%)."
       },
       {

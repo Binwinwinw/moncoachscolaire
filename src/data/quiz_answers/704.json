@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "g/L",
-        "correct": 1,
         "correction": "La concentration massique Cm = masse de soluté (g) / volume de solution (L) s'exprime en g/L."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "concentration molaire",
-        "correction": "La concentration molaire (ou molalité volumique) C = n/V s'exprime en mol/L."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La concentration molaire (ou molalité volumique) C = n/V s'exprime en mol/L."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "20 g/L",
-        "correct": 2,
         "correction": "Cm = 10 g / 0,5 L = 20 g/L."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "fiole jaugée",
-        "correction": "La fiole jaugée (fiole volumétrique) permet de préparer un volume précis de solution."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La fiole jaugée (fiole volumétrique) permet de préparer un volume précis de solution."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Ions positifs et négatifs",
-        "correct": 1,
         "correction": "La dissolution ionique dissocie le solide en cations et anions hydratés (ex. NaCl → Na+ + Cl-)."
       },
       {

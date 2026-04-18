@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La baisse du poids de l'industrie dans l'emploi et la production",
-        "correct": 1,
         "correction": "Ce phénomène touche de nombreux territoires européens."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "technopôles",
-        "correction": "Ils regroupent recherche, universités et entreprises."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Ils regroupent recherche, universités et entreprises."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "L'aéronautique",
-        "correct": 1,
         "correction": "Airbus et toute sa filière structurent de grands territoires."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "territoire",
-        "correction": "Elle répond à des enjeux de souveraineté et de résilience."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Elle répond à des enjeux de souveraineté et de résilience."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La recherche et développement",
-        "correct": 1,
         "correction": "L'innovation est un levier central de performance."
       },
       {

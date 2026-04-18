@@ -35,8 +35,8 @@
         "question": "Dans un paragraphe d'analyse littéraire, il est conseillé de citer le texte et d'expliquer l'effet produit."
       },
       {
-        "type": "open",
-        "question": "Quel terme désigne l'idée directrice qui organise une lecture analytique ?"
+        "type": "vrai-faux",
+        "question": "La problématique pose la question centrale à laquelle l'analyse répond."
       },
       {
         "type": "qcm",
@@ -53,8 +53,8 @@
         "question": "La conclusion d'un devoir doit simplement répéter mot à mot l'introduction."
       },
       {
-        "type": "open",
-        "question": "Donne le nom du procédé qui consiste à reprendre les mots exacts d'un texte entre guillemets."
+        "type": "vrai-faux",
+        "question": "La citation sert d'appui précis à l'analyse."
       },
       {
         "type": "qcm",

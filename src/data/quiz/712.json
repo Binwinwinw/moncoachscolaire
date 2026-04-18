@@ -33,8 +33,8 @@
         "question": "Lors d'une neutralisation totale, le pH de la solution résultante est toujours 7."
       },
       {
-        "type": "open",
-        "question": "Quel nom porte la technique qui consiste à ajouter progressivement un réactif jusqu'à la neutralisation complète ?"
+        "type": "vrai-faux",
+        "question": "Le titrage (ou dosage) consiste à mesurer le volume d'une solution titrante de concentration connue nécessaire pour neutraliser l'analyte."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "L'acide sulfurique H2SO4 est un acide fort qui se dissocie totalement en solution aqueuse."
       },
       {
-        "type": "open",
-        "question": "Quel nom porte le sel formé par la réaction de l'acide sulfurique avec la soude NaOH ?"
+        "type": "vrai-faux",
+        "question": "H2SO4 + 2NaOH → Na2SO4 + 2H2O."
       },
       {
         "type": "qcm",

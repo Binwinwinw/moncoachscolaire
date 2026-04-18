@@ -1,48 +1,71 @@
 {
-  "quiz_id": 1108,
-  "title": "Facteurs de production et productivité",
-  "subject": "SES",
-  "level": "Terminale",
-  "answers": [
-    {
-      "question_id": "1108_1",
-      "correct_option": "B",
-      "explanation": "Productivité du travail = production / quantité de travail. Elle mesure l'efficacité de chaque heure travaillée."
-    },
-    {
-      "question_id": "1108_2",
-      "correct": true,
-      "explanation": "Concept développé par Gary Becker et Theodore Schultz : l'investissement en éducation/formation augmente la productivité du travail."
-    },
-    {
-      "question_id": "1108_3",
-      "correct_answer": "Une hausse de productivité → hausse des salaires réels → hausse du pouvoir d'achat → hausse de la demande → hausse de la production → nouvelles hausses de productivité.",
-      "explanation": "Ce cercle vertueux (fordisme) a caractérisé les Trente Glorieuses. Il combine gains de productivité et partage de la valeur ajoutée."
-    },
-    {
-      "question_id": "1108_4",
-      "correct_option": "B",
-      "explanation": "La substitution capital-travail implique de remplacer des emplois humains par du capital (machines, automatisation)."
-    },
-    {
-      "question_id": "1108_5",
-      "correct": true,
-      "explanation": "Le capital immatériel inclut R&D, logiciels, marques, formation. Il est de plus en plus central dans les économies de la connaissance."
-    },
-    {
-      "question_id": "1108_6",
-      "correct_answer": "VA = Production − Consommations intermédiaires. Elle mesure la richesse créée par l'entreprise. La somme des VA = PIB.",
-      "explanation": "La VA représente la contribution nette de chaque entreprise à la richesse nationale. PIB = somme des valeurs ajoutées."
-    },
-    {
-      "question_id": "1108_7",
-      "correct_option": "B",
-      "explanation": "Taux de marge = EBE/VA. Il mesure la part de la VA qui revient aux entreprises (après rémunération du travail)."
-    },
-    {
-      "question_id": "1108_8",
-      "correct": false,
-      "explanation": "La relation est ambiguë : une hausse de productivité peut créer des emplois (effet de compétitivité) mais aussi en détruire (substitution capital-travail). Débat entre économistes."
-    }
-  ]
+  "contents": {
+    "title": "Quiz Diagnostic SES Terminale - Serie 1108",
+    "level": "Terminale",
+    "subject": "SES"
+  },
+  "quiz": {
+    "title": "Facteurs de production et productivité",
+    "question_count": 8,
+    "level": "Terminale",
+    "subject": "SES",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Cette affirmation reformule l'idée essentielle à retenir : Explique le cercle vertueux entre productivité, salaires et croissance."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Cette affirmation reformule l'idée essentielle à retenir : Qu'est-ce que la valeur ajoutée et comment se calcule-t-elle."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      }
+    ]
+  }
 }

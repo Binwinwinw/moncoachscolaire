@@ -33,8 +33,8 @@
         "question": "Le noyau de l'atome occupe la quasi-totalité du volume atomique."
       },
       {
-        "type": "open",
-        "question": "Quel est le nom du nombre qui indique le nombre de protons dans le noyau d'un atome ?"
+        "type": "vrai-faux",
+        "question": "Le numéro atomique Z est le nombre de protons du noyau ; il définit l'élément chimique."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Un atome est électriquement neutre car il possède autant de protons que d'électrons."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on deux atomes ayant le même nombre de protons mais un nombre de neutrons différent ?"
+        "type": "vrai-faux",
+        "question": "Des isotopes sont des atomes du même élément chimique (même Z) mais de masses différentes (nombre de neutrons différent)."
       },
       {
         "type": "qcm",

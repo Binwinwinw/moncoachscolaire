@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'energie primaire est extraite de la nature ; l'energie finale est l'energie utilisable par le consommateur apres transformation",
-        "correct": 1,
         "correction": "L'energie primaire (petrole brut, charbon, vent, soleil) est transformee en energie finale (electricite, carburant) ; chaque conversion engendre des pertes."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "fission nucleaire",
-        "correction": "La fission nucleaire divise des noyaux lourds (uranium-235) en noyaux plus legers, liberant une enorme quantite d'energie thermique utilisee pour produire de la vapeur et de l'electricite."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La fission nucleaire divise des noyaux lourds (uranium-235) en noyaux plus legers, liberant une enorme quantite d'energie thermique utilisee pour produire de la vapeur et de l'electricite."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Energie maremotrice",
-        "correct": 1,
         "correction": "L'usine maremotrice (ex. usine de la Rance en Bretagne, 240 MW) exploite la difference de niveau entre maree haute et basse pour faire tourner des turbines."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "energie geothermique",
-        "correction": "La geothermie exploite la chaleur des roches profondes (haute enthalpie) ou des nappes chaudes (basse enthalpie) pour produire electricite et chauffage."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La geothermie exploite la chaleur des roches profondes (haute enthalpie) ou des nappes chaudes (basse enthalpie) pour produire electricite et chauffage."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Leur intermittence (production variable selon la meteorologie)",
-        "correct": 1,
         "correction": "L'intermittence des EnR solaires et eoliennes necessite des solutions de stockage (batteries, step, hydrogene) ou de flexibilite du reseau pour equilibrer offre et demande."
       },
       {

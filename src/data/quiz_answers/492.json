@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "30 minutes",
-        "correct": 2,
         "correction": "L'élève dispose de 30 minutes de préparation pour préparer son exposé de l'EAF."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "œuvres",
-        "correction": "L'entretien porte sur les œuvres intégrales étudiées dans l'année et sur les lectures cursives."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'entretien porte sur les œuvres intégrales étudiées dans l'année et sur les lectures cursives."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Parler distinctement et structurer clairement son analyse",
-        "correct": 1,
         "correction": "L'oral valorise la clarté de l'expression, la précision des analyses et la maîtrise des références."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "plan",
-        "correction": "Un plan en 2-3 axes, annoncé en introduction et conclu par une synthèse, structure l'exposé oral."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Un plan en 2-3 axes, annoncé en introduction et conclu par une synthèse, structure l'exposé oral."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Reconnaître honnêtement la limite de sa connaissance et proposer une piste",
-        "correct": 1,
         "correction": "L'examinateur valorise l'honnêteté intellectuelle et la démarche de réflexion, même face à l'incertitude."
       },
       {

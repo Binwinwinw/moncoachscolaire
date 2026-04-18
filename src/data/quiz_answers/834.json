@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Est sans emploi, disponible et en recherche active d'un emploi",
-        "correct": 1,
         "correction": "Les trois critères du BIT : sans emploi, disponible sous deux semaines, en recherche active. C'est la définition internationale."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Taux de chômage = (nombre de chômeurs au sens du BIT / population active) × 100. La population active comprend les personnes en emploi et les chômeurs.",
-        "correction": "En France, ce taux est mesuré trimestriellement par l'INSEE via l'Enquête emploi."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. En France, ce taux est mesuré trimestriellement par l'INSEE via l'Enquête emploi."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Lié à la transition entre deux emplois",
-        "correct": 1,
         "correction": "Le chômage frictionnel est temporaire et inévitable : il reflète le temps de recherche d'emploi entre deux postes."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Le NAIRU (Non Accelerating Inflation Rate of Unemployment) est le taux de chômage compatible avec une inflation stable. Il correspond à la somme du chômage frictionnel et structurel. En dessous du NAIRU, l'inflation s'accélère.",
-        "correction": "Le NAIRU est un concept de la théorie monétariste (Friedman) indiquant qu'il existe un niveau minimum de chômage incompressible."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le NAIRU est un concept de la théorie monétariste (Friedman) indiquant qu'il existe un niveau minimum de chômage incompressible."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Un ralentissement de l'activité économique",
-        "correct": 1,
         "correction": "Le chômage conjoncturel varie avec le cycle économique : il augmente en récession et diminue en expansion."
       },
       {

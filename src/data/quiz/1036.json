@@ -33,8 +33,8 @@
         "question": "Dans une suite géométrique, le rapport uₙ₊₁/uₙ est constant et égal à q."
       },
       {
-        "type": "open",
-        "question": "Calcule la somme S = 1 + 2 + 4 + 8 + … + 2¹⁰."
+        "type": "vrai-faux",
+        "question": "Suite géométrique de raison 2, premier terme 1."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Si |q| < 1, la suite géométrique uₙ = u₀·qⁿ converge vers 0."
       },
       {
-        "type": "open",
-        "question": "Un capital de 1000 € est placé à 4% annuel. Exprime la valeur Cₙ après n années et calcule C₅."
+        "type": "vrai-faux",
+        "question": "Suite géométrique de raison q=1,04."
       },
       {
         "type": "qcm",

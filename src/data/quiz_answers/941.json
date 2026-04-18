@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Un enjeu géopolitique mêlant pouvoir, acteurs et régulation",
-        "correct": 1,
         "correction": "En HGGSP, les thèmes croisent rapports de force, acteurs multiples et instruments de gouvernance."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Ce thème est stratégique car il influence la puissance des États, la coopération internationale et les tensions entre acteurs. Les décisions prises sur 'la protection du patrimoine en zone de conflit' ont des effets économiques, politiques et sociétaux. Elles mobilisent des institutions, des normes et des acteurs publics comme privés.",
-        "correction": "Une bonne réponse articule acteurs, échelles, intérêts et conséquences."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Une bonne réponse articule acteurs, échelles, intérêts et conséquences."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "la Convention de La Haye (1954)",
-        "correct": 0,
         "correction": "la Convention de La Haye (1954) sert de repère pour comprendre la régulation et les marges de manœuvre des acteurs."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Exemple : la destruction de Palmyre en Syrie. Cet exemple révèle que les décisions autour de 'la protection du patrimoine en zone de conflit' impliquent des intérêts divergents, des négociations et des effets de puissance. Il montre aussi le rôle des normes et de la gouvernance internationale.",
-        "correction": "L'exemple doit être contextualisé et interprété (pas seulement cité)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'exemple doit être contextualisé et interprété (pas seulement cité)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Croiser acteurs, échelles, temporalités et rapports de force",
-        "correct": 1,
         "correction": "La méthode HGGSP repose sur une analyse pluriscalaire et problématisée."
       },
       {

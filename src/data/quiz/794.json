@@ -33,8 +33,8 @@
         "question": "En France, l'energie nucleaire represente la majorite de la production d'electricite."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on le processus physique utilise dans les centrales nucleaires pour produire de l'energie a partir de la division de l'atome ?"
+        "type": "vrai-faux",
+        "question": "La fission nucleaire divise des noyaux lourds (uranium-235) en noyaux plus legers, liberant une enorme quantite d'energie thermique utilisee pour produire de la vapeur et de l'electricite."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "L'energie hydroelectrique est produite par la force de l'eau en mouvement actionnant des turbines."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on l'energie produite par la chaleur interne de la Terre, exploitee pour le chauffage et l'electricite ?"
+        "type": "vrai-faux",
+        "question": "Energie geothermique."
       },
       {
         "type": "qcm",

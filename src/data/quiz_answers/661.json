@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "8 à 10 millions",
-        "correct": 2,
         "correction": "On estime entre 8 et 10 millions d'espèces sur Terre, dont seulement 1,5 à 2 millions ont été décrites."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "espèce clé de voûte",
-        "correction": "Une espèce clé de voûte joue un rôle disproportionné dans son écosystème par rapport à son abondance."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Une espèce clé de voûte joue un rôle disproportionné dans son écosystème par rapport à son abondance."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Convention sur la diversité biologique",
-        "correct": 1,
         "correction": "La CDB adoptée au Sommet de Rio en 1992 est le principal accord international pour la conservation de la biodiversité."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "liste rouge de l'UICN",
-        "correction": "La Liste Rouge de l'UICN (Union internationale pour la conservation de la nature) évalue le statut de conservation des espèces."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La Liste Rouge de l'UICN (Union internationale pour la conservation de la nature) évalue le statut de conservation des espèces."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Une zone à forte diversité d'espèces endémiques sous forte pression",
-        "correct": 1,
         "correction": "Les hotspots abritent de nombreuses espèces endémiques et ont perdu plus de 70% de leur végétation d'origine."
       },
       {

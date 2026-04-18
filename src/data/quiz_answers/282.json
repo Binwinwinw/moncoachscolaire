@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La température mesure l'agitation thermique moyenne des particules ; la chaleur est un transfert d'énergie thermique",
-        "correct": 1,
         "correction": "La température (T, en kelvins K ou °C) est une grandeur intensive qui mesure l'agitation thermique moyenne des particules d'un système. La chaleur (Q, en joules J) est un transfert d'énergie thermique entre deux systèmes à températures différentes (du plus chaud vers le plus froid). La chaleur est une énergie en transit, pas une propriété du corps (contrairement à l'énergie interne)."
       },
       {
@@ -28,17 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "correct_answer": "Le 2e principe stipule que la chaleur se transfère spontanément du corps le plus chaud vers le corps le plus froid (entropie croissante). Le transfert inverse est impossible sans travail extérieur.",
-        "answer": "Le 2e principe stipule que la chaleur se transfère spontanément du corps le plus chaud vers le corps le plus froid (entropie croissante). Le transfert inverse est impossible sans travail extérieur.",
-        "correction": "Le 2e principe de la thermodynamique (principe de Carnot, Clausius) : 'Dans un système isolé, l'entropie (désordre) ne peut qu'augmenter ou rester constante (processus réversible).' Conséquence directe : la chaleur se transfère spontanément du corps chaud vers le corps froid, jamais l'inverse sans apport extérieur d'énergie. Cela explique l'irréversibilité des processus naturels (refroidissement d'un café, mélange de fluides) et les limites de rendement des machines thermiques."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le 2e principe de la thermodynamique (principe de Carnot, Clausius) : 'Dans un système isolé, l'entropie (désordre) ne peut qu'augmenter ou rester constante (processus réversible).' Conséquence directe : la chaleur se transfère spontanément du corps chaud vers le corps froid, jamais l'inverse sans apport extérieur d'énergie. Cela explique l'irréversibilité des processus naturels (refroidissement d'un café, mélange de fluides) et les limites de rendement des machines thermiques."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Q = m × c × ΔT (chaleur sensible)",
-        "correct": 1,
         "correction": "La chaleur sensible (sans changement d'état) : Q = m × c × ΔT, où m est la masse (kg), c la capacité thermique massique (J/(kg·K), propre à chaque matériau) et ΔT la variation de température. Si Q > 0, le corps reçoit de la chaleur et sa température augmente. La capacité thermique de l'eau est c = 4 180 J/(kg·K), ce qui en fait un excellent fluide caloporteur."
       },
       {
@@ -51,17 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "correct_answer": "L'effet de serre naturel maintient la température terrestre habitable. L'effet de serre renforcé par les GES d'origine humaine (CO₂, CH₄) piège davantage de chaleur et réchauffe la planète.",
-        "answer": "L'effet de serre naturel maintient la température terrestre habitable. L'effet de serre renforcé par les GES d'origine humaine (CO₂, CH₄) piège davantage de chaleur et réchauffe la planète.",
-        "correction": "L'effet de serre naturel : l'atmosphère terrestre laisse passer les rayonnements solaires (UV, visible) mais absorbe et réémet les infrarouges émis par la Terre (gaz à effet de serre : H₂O, CO₂, CH₄, N₂O). Sans cet effet, la température serait -18°C au lieu de +15°C. L'effet de serre renforcé : l'augmentation des GES d'origine humaine (combustion fossiles, déforestation, agriculture) intensifie cet effet, entraînant un réchauffement global (+1,1°C depuis l'ère préindustrielle), avec des conséquences climatiques majeures."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'effet de serre naturel : l'atmosphère terrestre laisse passer les rayonnements solaires (UV, visible) mais absorbe et réémet les infrarouges émis par la Terre (gaz à effet de serre : H₂O, CO₂, CH₄, N₂O). Sans cet effet, la température serait -18°C au lieu de +15°C. L'effet de serre renforcé : l'augmentation des GES d'origine humaine (combustion fossiles, déforestation, agriculture) intensifie cet effet, entraînant un réchauffement global (+1,1°C depuis l'ère préindustrielle), avec des conséquences climatiques majeures."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "T(K) = T(°C) + 273,15",
-        "correct": 1,
         "correction": "T(K) = T(°C) + 273,15. Le zéro absolu (0 K = -273,15 °C) est la température la plus basse possible (agitation thermique nulle). L'échelle Kelvin est l'échelle de température du SI. Exemples : 0°C = 273 K (fusion de la glace) ; 100°C = 373 K (ébullition de l'eau) ; -273°C ≈ 0 K (zéro absolu). L'échelle Fahrenheit : T(°F) = T(°C) × 9/5 + 32."
       },
       {

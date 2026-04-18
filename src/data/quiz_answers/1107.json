@@ -1,48 +1,71 @@
 {
-  "quiz_id": 1107,
-  "title": "Croissance économique — mesure et sources",
-  "subject": "SES",
-  "level": "Terminale",
-  "answers": [
-    {
-      "question_id": "1107_1",
-      "correct_option": "B",
-      "explanation": "Le PIB mesure la production totale de richesses (biens et services) réalisée sur un territoire donné sur une période (généralement un an)."
-    },
-    {
-      "question_id": "1107_2",
-      "correct": true,
-      "explanation": "La croissance extensive mobilise plus de travail et de capital. La croissance intensive repose sur la productivité (PTF)."
-    },
-    {
-      "question_id": "1107_3",
-      "correct_answer": "Le PIB nominal est calculé aux prix courants ; le PIB réel est corrigé de l'inflation (prix constants). On utilise le PIB réel pour mesurer la vraie croissance de la production, sans l'effet des prix.",
-      "explanation": "Le déflateur du PIB permet de passer du nominal au réel. Seul le PIB réel mesure la croissance effective du volume de production."
-    },
-    {
-      "question_id": "1107_4",
-      "correct_option": "B",
-      "explanation": "La PTF (résidu de Solow) capture l'efficacité de la combinaison des facteurs, principalement liée au progrès technique."
-    },
-    {
-      "question_id": "1107_5",
-      "correct": false,
-      "explanation": "Le PIB/habitant mesure la richesse moyenne mais ignore les inégalités, l'environnement, le travail domestique. Des indicateurs comme l'IDH complètent cette mesure."
-    },
-    {
-      "question_id": "1107_6",
-      "correct_answer": "L'Indice de Développement Humain (PNUD) mesure : l'espérance de vie à la naissance, le niveau d'éducation (accès et durée de scolarisation), et le revenu national brut par habitant.",
-      "explanation": "L'IDH, créé par Amartya Sen et Mahbub ul Haq (1990), dépasse la seule dimension économique pour intégrer santé et éducation."
-    },
-    {
-      "question_id": "1107_7",
-      "correct_option": "C",
-      "explanation": "Les modèles de croissance endogène (Romer, Lucas, Barro) montrent que la R&D, le capital humain et les institutions génèrent une croissance auto-entretenue."
-    },
-    {
-      "question_id": "1107_8",
-      "correct": true,
-      "explanation": "Dans le modèle de Solow, chaque unité de capital supplémentaire produit moins que la précédente : tendance à la convergence et à l'état stationnaire."
-    }
-  ]
+  "contents": {
+    "title": "Quiz Diagnostic SES Terminale - Serie 1107",
+    "level": "Terminale",
+    "subject": "SES"
+  },
+  "quiz": {
+    "title": "Croissance économique — mesure et sources",
+    "question_count": 8,
+    "level": "Terminale",
+    "subject": "SES",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le PIB réel corrige l'effet de l'inflation, contrairement au PIB nominal."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'IDH combine la santé, l'éducation et le niveau de vie."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      }
+    ]
+  }
 }

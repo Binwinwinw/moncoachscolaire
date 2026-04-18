@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Produit quatre cellules haploïdes à partir d'une cellule diploïde",
-        "correct": 1,
         "correction": "La méiose comprend deux divisions (méiose I & II) et produit 4 cellules haploïdes (n chromosomes) ; elle génère les gamètes chez les animaux et les spores chez les végétaux."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "prophase",
-        "correction": "En prophase I, les tétrades (bivalents) se forment ; les chromatides non-sœurs échangent des segments d'ADN homologues au niveau des chiasmas."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. En prophase I, les tétrades (bivalents) se forment ; les chromatides non-sœurs échangent des segments d'ADN homologues au niveau des chiasmas."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Un zygote diploïde (2n=46)",
-        "correct": 1,
         "correction": "La fécondation (amphimixie) restaure la ploïdie diploïde (2n=46) à partir de deux gamètes haploïdes ; alternance de méiose et fécondation garantit la constance du caryotype."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "mâles",
-        "correction": "La pollinisation transporte le pollen de l'anthère (mâle) jusqu'au pistil (femelle) ; le tube pollinique permet la fécondation malgré l'immobilité des plantes."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La pollinisation transporte le pollen de l'anthère (mâle) jusqu'au pistil (femelle) ; le tube pollinique permet la fécondation malgré l'immobilité des plantes."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Les plantes",
-        "correct": 2,
         "correction": "~70 % des plantes à fleurs sont polyploïdes ou ont des ancêtres polyploïdes ; le blé hexaploïde (6n=42) résulte de 2 croisements + polyploïdisation naturels."
       },
       {

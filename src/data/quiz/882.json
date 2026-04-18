@@ -33,8 +33,8 @@
         "question": "JavaScript et Java sont le même langage de programmation."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce que le DOM (Document Object Model) ?"
+        "type": "vrai-faux",
+        "question": "Le DOM est une représentation en arbre de la page HTML, accessible et modifiable par JavaScript."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "addEventListener permet d'ajouter un gestionnaire d'événement à un élément HTML."
       },
       {
-        "type": "open",
-        "question": "Expliquez ce qu'est une fonction fléchée (arrow function) en JavaScript."
+        "type": "vrai-faux",
+        "question": "Une fonction fléchée est une syntaxe raccourcie pour les fonctions anonymes."
       },
       {
         "type": "qcm",

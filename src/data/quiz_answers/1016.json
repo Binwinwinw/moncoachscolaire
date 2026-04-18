@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "C",
+        "answer": "eˣ domine xⁿ quand x→+∞",
         "correction": "Hiérarchie : ln(x) ≪ xⁿ ≪ eˣ quand x→+∞. L'exponentielle croît plus vite que tout polynôme."
       },
       {
@@ -27,15 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "0",
-        "correction": "x³·e^(−x) = x³/eˣ → 0 par croissances comparées (eˣ domine x³)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. x³·e^(−x) = x³/eˣ → 0 par croissances comparées (eˣ domine x³)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "C",
+        "answer": "+∞",
         "correction": "ln(x) ≪ x : ln(x)/x → 0. Le polynôme x domine ln(x)."
       },
       {
@@ -48,15 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "ln(x) ≪ x ≪ x¹⁰⁰ ≪ eˣ",
-        "correction": "La hiérarchie est : logarithme ≪ polynômes (croissant en degré) ≪ exponentielle."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La hiérarchie est : logarithme ≪ polynômes (croissant en degré) ≪ exponentielle."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "B",
+        "answer": "+∞",
         "correction": "eˣ domine x² : eˣ − x² ~ eˣ → +∞."
       },
       {

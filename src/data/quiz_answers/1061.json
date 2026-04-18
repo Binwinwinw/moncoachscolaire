@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "worst",
-        "correct": 2,
         "correction": "The superlative form of \"bad\" is \"worst\"."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Ils jouent au football",
-        "correction": "The correct translation of \"They are playing soccer\" in French is \"Ils jouent au football\"."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. The correct translation of \"They are playing soccer\" in French is \"Ils jouent au football\"."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "large",
-        "correct": 1,
         "correction": "\"Large\" is a synonym for \"big\"."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "saw",
-        "correction": "The past tense of \"see\" is \"saw\"."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. The past tense of \"see\" is \"saw\"."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "He doesn't like sports.",
-        "correct": 1,
         "correction": "The correct sentence is \"He doesn't like sports.\" because \"he\" is third person singular and requires \"does not\" for negation."
       },
       {
@@ -74,7 +71,6 @@
         "question_id": 9,
         "type": "qcm",
         "answer": "large",
-        "correct": 1,
         "correction": "\"Large\" is a synonym for \"big\"."
       },
       {
@@ -87,16 +83,15 @@
       {
         "index": 10,
         "question_id": 11,
-        "type": "open",
-        "answer": "saw",
-        "correction": "The past tense of \"see\" is \"saw\"."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. The past tense of \"see\" is \"saw\"."
       },
       {
         "index": 11,
         "question_id": 12,
         "type": "qcm",
         "answer": "He doesn't like sports.",
-        "correct": 1,
         "correction": "The correct sentence is \"He doesn't like sports.\" because \"he\" is third person singular and requires \"does not\" for negation."
       },
       {

@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Sa capacité à s'auto-renouveler et à se différencier en différents types cellulaires",
-        "correct": 1,
         "correction": "Les cellules souches maintiennent un pool de cellules non différenciées tout en produisant des cellules spécialisées selon les besoins de l'organisme."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "cellulaires",
-        "correction": "Totipotentes : peuvent former un organisme entier (cellules de l'embryon précoce). Pluripotentes : peuvent former tous les types cellulaires sauf placenta."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Totipotentes : peuvent former un organisme entier (cellules de l'embryon précoce). Pluripotentes : peuvent former tous les types cellulaires sauf placenta."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Reprogrammant des cellules adultes différenciées",
-        "correct": 1,
         "correction": "Yamanaka (Nobel 2012) reprogramme des cellules adultes (fibroblastes) en cellules souches pluripotentes en introduisant 4 facteurs de transcription."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "gènes",
-        "correction": "Les facteurs de transcription se fixent sur les promoteurs et régulent l'expression des gènes selon le type cellulaire et les signaux de l'environnement."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les facteurs de transcription se fixent sur les promoteurs et régulent l'expression des gènes selon le type cellulaire et les signaux de l'environnement."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Réparer ou remplacer des tissus et organes endommagés",
-        "correct": 1,
         "correction": "La médecine régénérative utilise les cellules souches pour traiter des maladies comme Parkinson, le diabète, les maladies cardiaques."
       },
       {

@@ -33,8 +33,8 @@
         "question": "La valeur moyenne d'une fonction constante f(x) = k sur [a,b] est k."
       },
       {
-        "type": "open",
-        "question": "Calcule la valeur moyenne de f(x) = x² sur [0, 3]."
+        "type": "vrai-faux",
+        "question": "M = (1/3)·∫₀³ x² dx = (1/3)·[x³/3]₀³ = (1/3)·9 = 3."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Pour une fonction continue sur [a, b], il existe c ∈ [a, b] tel que f(c) égale la valeur moyenne."
       },
       {
-        "type": "open",
-        "question": "Interprète la valeur moyenne de la vitesse v(t) sur [0, T] en physique."
+        "type": "vrai-faux",
+        "question": "C'est la vitesse constante qui aurait parcouru la même distance en même temps : (1/T)·∫₀ᵀ v(t) dt = distance totale / T."
       },
       {
         "type": "qcm",

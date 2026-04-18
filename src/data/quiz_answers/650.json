@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'expérience des ballons à col de cygne montrant que l'air seul n'engendre pas la vie",
-        "correct": 1,
         "correction": "Pasteur (1859) utilised des ballons à col de cygne ; le bouillon sterilise reste stérile jusqu'à cassure du col : preuve que la vie vient de la vie (omne vivum e vivo)."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "C",
-        "correction": "La découverte du VHC a permis de développer des tests sanguins et des traitements antiviraux (AAD) qui guérissent l'hépatite C dans > 95 % des cas."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La découverte du VHC a permis de développer des tests sanguins et des traitements antiviraux (AAD) qui guérissent l'hépatite C dans > 95 % des cas."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Par sélection naturelle : les mutants résistants survivent et se reproduisent en présence d'antibiotiques",
-        "correct": 1,
         "correction": "L'antibiorésistance = évolution en temps réel ; les mutations aléatoires donnent une résistance à certaines bactéries ; l'antibiotique tue les sensibles et sélectionne les résistantes."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "cognitives",
-        "correction": "L'axe intestin-cerveau (gut-brain axis) : le microbiote produit des neurotransmetteurs (sérotonine, GABA) et influence l'humeur, les comportements et même les maladies neurologiques."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'axe intestin-cerveau (gut-brain axis) : le microbiote produit des neurotransmetteurs (sérotonine, GABA) et influence l'humeur, les comportements et même les maladies neurologiques."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Le récepteur ACE2 des cellules épithéliales respiratoires et d'autres organes",
-        "correct": 1,
         "correction": "La protéine Spike du SARS-CoV-2 se lie à l'ACE2 (enzyme de conversion de l'angiotensine 2) ; ce récepteur est présent dans les poumons, le cœur, les reins — expliquant le tropisme multi-organes."
       },
       {

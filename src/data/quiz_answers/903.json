@@ -7,57 +7,65 @@
   "quiz": {
     "title": "Anglais - Producteurs et consommateurs en SVT",
     "question_count": 8,
+    "level": "5eme",
+    "subject": "SVT",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
+        "answer": "",
         "correction": "La bonne réponse est ‘Une plante’. Les plantes sont des producteurs."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
+        "answer": "faux",
         "correction": "Vrai. Un consommateur primaire mange principalement des plantes."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correction": "Réponds en expliquant que les producteurs fournissent l'énergie de base pour toute la chaîne alimentaire."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Réponds en expliquant que les producteurs fournissent l'énergie de base pour toute la chaîne alimentaire."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
+        "answer": "",
         "correction": "La bonne réponse est ‘Il mange les plantes’. C'est le rôle d'un herbivore."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
+        "answer": "faux",
         "correction": "Vrai. Les décomposeurs transforment les restes d'organismes morts en nutriments."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "qcm",
+        "answer": "",
         "correction": "La bonne réponse est ‘Un carnivore’. Les carnivores se situent généralement au sommet de la chaîne alimentaire."
       },
       {
         "index": 6,
         "question_id": 7,
-        "type": "texte",
-        "correction": "Réponds par un exemple comme un renard qui mange un lapin, soit un consommateur secondaire."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Réponds par un exemple comme un renard qui mange un lapin, soit un consommateur secondaire."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "qcm",
+        "answer": "",
         "correction": "La bonne réponse est ‘Elle montre le flux d'énergie entre les organismes’."
       }
-    ],
-    "level": "5eme",
-    "subject": "SVT"
+    ]
   }
 }

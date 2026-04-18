@@ -33,8 +33,8 @@
         "question": "Tout nombre décimal est un nombre rationnel."
       },
       {
-        "type": "open",
-        "question": "Donne un exemple de nombre irrationnel et explique pourquoi il ne peut pas s'écrire sous forme de fraction."
+        "type": "vrai-faux",
+        "question": "√2 est irrationnel : sa représentation décimale est infinie et non périodique, il ne peut pas s'écrire p/q avec p, q entiers."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "L'ensemble D des décimaux est inclus dans Q."
       },
       {
-        "type": "open",
-        "question": "Classe les ensembles N, Z, D, Q, R du plus petit (inclus) au plus grand."
+        "type": "vrai-faux",
+        "question": "Chaque ensemble est inclus dans le suivant : les entiers naturels sont dans Z, les entiers dans D (via fractions décimales), D dans Q, Q dans R."
       },
       {
         "type": "qcm",

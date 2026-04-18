@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "C",
+        "answer": "]0 ; +∞[",
         "correction": "ln est défini uniquement pour x > 0, donc sur ]0 ; +∞[."
       },
       {
@@ -27,15 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "x = e³",
-        "correction": "ln(x) = 3 ⟺ x = e³ (définition du logarithme comme réciproque de l'exponentielle)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. ln(x) = 3 ⟺ x = e³ (définition du logarithme comme réciproque de l'exponentielle)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "B",
+        "answer": "2e",
         "correction": "ln(eˣ) = x pour tout x. Donc ln(e²) = 2."
       },
       {
@@ -48,15 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "0 < x < e²",
-        "correction": "ln strictement croissante : ln(x) < 2 = ln(e²) ⟺ 0 < x < e²."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. ln strictement croissante : ln(x) < 2 = ln(e²) ⟺ 0 < x < e²."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "B",
+        "answer": "−1",
         "correction": "ln(1/e) = ln(e⁻¹) = −1."
       },
       {

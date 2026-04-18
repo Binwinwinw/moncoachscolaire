@@ -1,48 +1,71 @@
 {
-  "quiz_id": 1127,
-  "title": "Protection sociale et État-providence",
-  "subject": "SES",
-  "level": "Terminale",
-  "answers": [
-    {
-      "question_id": "1127_1",
-      "correct_option": "B",
-      "explanation": "Le Welfare State (Beveridge, Keynes) repose sur la protection contre les risques sociaux (maladie, vieillesse, chômage, famille) via la solidarité nationale."
-    },
-    {
-      "question_id": "1127_2",
-      "correct": true,
-      "explanation": "Modèle bismarckien (Allemagne, France) : assurance professionnelle, cotisations, accès lié à l'emploi. S'oppose au modèle beveridgien (universel, financé par l'impôt, ex : Royaume-Uni)."
-    },
-    {
-      "question_id": "1127_3",
-      "correct_answer": "1) Maladie (assurance maladie, CNAM) ; 2) Vieillesse/retraite (CNAV) ; 3) Famille/maternité (CNAF) ; 4) Accidents du travail et maladies professionnelles. Le 5e risque de dépendance (CNSA) est en cours de constitution.",
-      "explanation": "La Sécurité sociale française (1945, Ambroise Croizat, Pierre Laroque) couvre ces risques sociaux majeurs."
-    },
-    {
-      "question_id": "1127_4",
-      "correct_option": "C",
-      "explanation": "Le modèle social-démocrate (Suède, Danemark, Norvège) offre des prestations universelles généreuses financées par des impôts élevés, avec un fort taux de démarchandisation."
-    },
-    {
-      "question_id": "1127_5",
-      "correct": true,
-      "explanation": "Le RSA (2009, Martin Hirsch) fusionne RMI et API et est versé aux personnes sans emploi ou à faibles ressources, en maintenant une incitation financière au retour à l'emploi."
-    },
-    {
-      "question_id": "1127_6",
-      "correct_answer": "Le taux de remplacement = allocation chômage / dernier salaire. Il sécurise le revenu des chômeurs (maintien de la demande, stabilisateur automatique) mais peut réduire l'incitation à chercher un emploi rapidement si trop élevé.",
-      "explanation": "Arbitrage entre protection sociale (taux élevé) et incitation au retour à l'emploi (risque d'aléa moral si trop généreux)."
-    },
-    {
-      "question_id": "1127_7",
-      "correct_option": "B",
-      "explanation": "L'universalisation (PUMA en France, 2016 : Protection Universelle Maladie) étend la couverture maladie à tous les résidents légaux, sans condition d'emploi."
-    },
-    {
-      "question_id": "1127_8",
-      "correct": true,
-      "explanation": "Dans un système par répartition, les actifs financent les retraites courantes. Le vieillissement (baisse du ratio actifs/retraités) crée un déséquilibre financier structurel."
-    }
-  ]
+  "contents": {
+    "title": "Quiz Diagnostic SES Terminale - Serie 1127",
+    "level": "Terminale",
+    "subject": "SES"
+  },
+  "quiz": {
+    "title": "Protection sociale et État-providence",
+    "question_count": 8,
+    "level": "Terminale",
+    "subject": "SES",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Cette affirmation reformule l'idée essentielle à retenir : Quels sont les quatre risques couverts par la Sécurité sociale française."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Cette affirmation reformule l'idée essentielle à retenir : Qu'est-ce que le taux de remplacement d'une assurance chômage et quel est son rôle économique."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      }
+    ]
+  }
 }

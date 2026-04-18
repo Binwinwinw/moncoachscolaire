@@ -33,8 +33,8 @@
         "question": "lim(x→−∞) eˣ = 0."
       },
       {
-        "type": "open",
-        "question": "Calcule lim(x→+∞) (x² + 3x − 2) / (2x² − x + 1)."
+        "type": "vrai-faux",
+        "question": "On divise numérateur et dénominateur par x² : (1 + 3/x − 2/x²)/(2 − 1/x + 1/x²) → 1/2."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "lim(x→0⁺) ln(x) = −∞."
       },
       {
-        "type": "open",
-        "question": "Détermine les branches infinies de f(x) = (x² + 1) / x."
+        "type": "vrai-faux",
+        "question": "F(x) = x + 1/x ; lim[f(x) − x] = 0."
       },
       {
         "type": "qcm",

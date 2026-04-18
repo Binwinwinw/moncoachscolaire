@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Resistance a la traction",
-        "correct": 1,
         "correction": "La resistance a la traction (Rm) mesure la contrainte maximale qu'un materiau peut supporter avant rupture sous un effort d'etirement."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "materiau composite",
-        "correction": "Un materiau composite (ex. fibre de carbone + resine, beton arme) associe deux materiaux pour combiner leurs qualites (legereté + resistance, rigidite + flexibilite)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Un materiau composite (ex. fibre de carbone + resine, beton arme) associe deux materiaux pour combiner leurs qualites (legereté + resistance, rigidite + flexibilite)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Silicium",
-        "correct": 1,
         "correction": "Le silicium est le semi-conducteur de base de l'electronique moderne ; sa conductivite peut etre modulee par dopage, permettant de creer transistors et circuits integres."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "trempe",
-        "correction": "La trempe est un traitement thermique (chauffage au rouge puis refroidissement brutal dans l'eau ou l'huile) qui augmente la durete et la resistance de l'acier."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La trempe est un traitement thermique (chauffage au rouge puis refroidissement brutal dans l'eau ou l'huile) qui augmente la durete et la resistance de l'acier."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "L'adequation entre ses proprietes (mecaniques, thermiques, chimiques) et les contraintes d'usage",
-        "correct": 1,
         "correction": "Le choix d'un materiau integre plusieurs criteres : proprietes techniques, cout, disponibilite, recyclabilite et impact environnemental."
       },
       {

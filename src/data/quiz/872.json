@@ -33,8 +33,8 @@
         "question": "0xFF en hexadécimal est égal à 255 en décimal."
       },
       {
-        "type": "open",
-        "question": "Convertissez le nombre hexadécimal 2A en décimal et en binaire."
+        "type": "vrai-faux",
+        "question": "2A (hex) = 2×16 + 10 = 32 + 10 = 42 (décimal)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Les couleurs web en CSS peuvent être exprimées en hexadécimal (ex : #FF5733)."
       },
       {
-        "type": "open",
-        "question": "Pourquoi l'hexadécimal est-il souvent préféré au binaire en informatique ?"
+        "type": "vrai-faux",
+        "question": "Chaque chiffre hexadécimal représente exactement 4 bits, ce qui rend l'hexadécimal beaucoup plus compact que le binaire (4× moins de chiffres)."
       },
       {
         "type": "qcm",

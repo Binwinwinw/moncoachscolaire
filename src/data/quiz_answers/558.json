@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "1917",
-        "correct": 2,
         "correction": "La révolution d'octobre 1917 (calendrier julien) porte Lénine et les bolchéviques au pouvoir en Russie."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "1922",
-        "correction": "L'URSS est fondée le 30 décembre 1922 en regroupant la Russie soviétique et plusieurs républiques."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'URSS est fondée le 30 décembre 1922 en regroupant la Russie soviétique et plusieurs républiques."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Le regroupement de force des paysans dans des fermes collectives (kolkhozes)",
-        "correct": 1,
         "correction": "La collectivisation forcée détruit l'agriculture privée et provoque des famines (notamment en Ukraine en 1932-1933, l'Holodomor)."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Goulag",
-        "correction": "Le Goulag est le système concentrationnaire soviétique ; des millions de personnes y sont déportées dans des conditions inhumaines."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le Goulag est le système concentrationnaire soviétique ; des millions de personnes y sont déportées dans des conditions inhumaines."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Totalitarisme",
-        "correct": 2,
         "correction": "L'URSS stalinienne est un régime totalitaire : parti unique, culte du chef, propagande omniprésente, terreur et police secrète (NKVD)."
       },
       {

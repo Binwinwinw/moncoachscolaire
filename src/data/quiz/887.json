@@ -33,8 +33,8 @@
         "question": "O(1) représente une complexité constante, indépendante de la taille des données."
       },
       {
-        "type": "open",
-        "question": "Classez les complexités suivantes de la plus rapide à la plus lente : O(n²), O(1), O(n log n), O(log n), O(n)."
+        "type": "vrai-faux",
+        "question": "O(1) < O(log n) < O(n) < O(n log n) < O(n²)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La complexité en espace mesure la mémoire supplémentaire utilisée par un algorithme."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce que la notation grand O (Big O) capture-t-elle et qu'ignore-t-elle ?"
+        "type": "vrai-faux",
+        "question": "Big O capture le comportement asymptotique (croissance) pour de grands n, en ignorant les constantes multiplicatives et les termes de degré inférieur."
       },
       {
         "type": "qcm",

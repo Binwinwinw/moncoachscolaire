@@ -33,8 +33,8 @@
         "question": "ln(1) = 0."
       },
       {
-        "type": "open",
-        "question": "Résous ln(x) = 3."
+        "type": "vrai-faux",
+        "question": "Ln(x) = 3 ⟺ x = e³ (définition du logarithme comme réciproque de l'exponentielle)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La fonction ln est strictement croissante sur ]0 ; +∞[."
       },
       {
-        "type": "open",
-        "question": "Résous l'inéquation ln(x) < 2."
+        "type": "vrai-faux",
+        "question": "Ln strictement croissante : ln(x) < 2 = ln(e²) ⟺ 0 < x < e²."
       },
       {
         "type": "qcm",

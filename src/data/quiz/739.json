@@ -33,8 +33,8 @@
         "question": "Dans un circuit en série, l'intensité du courant est la même en tout point."
       },
       {
-        "type": "open",
-        "question": "Quelle est la formule de la puissance électrique P en fonction de la tension U et de l'intensité I ?"
+        "type": "vrai-faux",
+        "question": "La puissance électrique P (en watts) est le produit de la tension U (en volts) par l'intensité I (en ampères) : P = UI."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "L'énergie électrique consommée E est égale au produit de la puissance P par la durée t : E = P × t."
       },
       {
-        "type": "open",
-        "question": "Quel dispositif de protection peut couper automatiquement un circuit électrique en cas de court-circuit ?"
+        "type": "vrai-faux",
+        "question": "Le disjoncteur (ou fusible)."
       },
       {
         "type": "qcm",

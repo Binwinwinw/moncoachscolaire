@@ -25,19 +25,15 @@
           "règles",
           "spermatoïdes",
           "utérus"
-        ],
-        "id": 1
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Préservatif protège IST (VIH, chlamydia).",
-        "id": 2
+        "question": "Préservatif protège IST (VIH, chlamydia)."
       },
       {
-        "type": "texte",
-        "question": "Impfatuation = anticorps vs ...",
-        "placeholder": "antigène",
-        "id": 3
+        "type": "vrai-faux",
+        "question": "**antigène** (mémoire immunitaire)."
       },
       {
         "type": "qcm",
@@ -47,38 +43,32 @@
           "salive",
           "larmes",
           "sueur"
-        ],
-        "id": 4
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Stérilet = DIU cuivre/ormone utérus.",
-        "id": 5
+        "question": "Stérilet = DIU cuivre/ormone utérus."
       },
       {
-        "type": "texte",
-        "question": "Puberté fille: premières ...",
-        "placeholder": "règles",
-        "id": 6
+        "type": "vrai-faux",
+        "question": "**règles** (12-14 ans)."
       },
       {
         "type": "qcm",
-        "question": "Vaccin COVID = ARNm → spike ...",
+        "question": "Vaccin COVID = ARNm → spike .",
         "choices": [
           "protéine",
           "ADN",
           "virus",
           "bactérie"
-        ],
-        "id": 7
+        ]
       },
       {
-        "type": "texte",
-        "question": "Contraception d'urgence: ... 72h",
-        "placeholder": "pilule",
-        "id": 8
+        "type": "vrai-faux",
+        "question": "**pilule** (Norlevo, 72h post-rapport)."
       }
-    ]
+    ],
+    "type": "quiz"
   },
   "exercisenotion": [
     {

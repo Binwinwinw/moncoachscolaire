@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Un commentaire ou une dissertation + une écriture d'invention",
-        "correct": 1,
         "correction": "L'EAF écrit propose le choix entre commentaire et dissertation, plus un sujet d'écriture d'invention."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "problématique",
-        "correction": "La problématique articule le sujet en une question ouverte, guide et fil conducteur du devoir."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La problématique articule le sujet en une question ouverte, guide et fil conducteur du devoir."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Plan dialectique",
-        "correct": 1,
         "correction": "La question appelle une discussion : oui (thèse) / nuances ou non (antithèse) / dépassement (synthèse)."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "citation",
-        "correction": "La citation courte du texte est la preuve textuelle de l'analyse ; elle est indispensable."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La citation courte du texte est la preuve textuelle de l'analyse ; elle est indispensable."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "4 heures",
-        "correct": 2,
         "correction": "L'EAF écrit dure 4 heures, permettant de traiter les deux parties (lecture + écriture)."
       },
       {

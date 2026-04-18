@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "A",
+        "answer": "−1",
         "correction": "Δ = b² − 4ac = (−5)² − 4·1·6 = 25 − 24 = 1."
       },
       {
@@ -27,15 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "x = 2 ou x = 3",
-        "correction": "Δ = 1. x₁ = (5−1)/2 = 2, x₂ = (5+1)/2 = 3."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Δ = 1. x₁ = (5−1)/2 = 2, x₂ = (5+1)/2 = 3."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "C",
+        "answer": "x = ±2",
         "correction": "x² = 4 → x = 2 ou x = −2 (racines carrées de 4)."
       },
       {
@@ -48,15 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "x = −2 (racine double)",
-        "correction": "Δ = 16 − 16 = 0. x = −4/2 = −2. On peut aussi reconnaître (x+2)² = 0."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Δ = 16 − 16 = 0. x = −4/2 = −2. On peut aussi reconnaître (x+2)² = 0."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "D",
+        "answer": "k = ±6",
         "correction": "Δ = k² − 36 = 0 → k² = 36 → k = ±6."
       },
       {

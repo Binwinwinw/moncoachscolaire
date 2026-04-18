@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "1989",
-        "correct": 2,
         "correction": "La CIDE a été adoptée le 20 novembre 1989 par l'Assemblée générale de l'ONU. Ratifiée par 196 États, c'est le traité international le plus ratifié au monde."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "interet superieur de l'enfant",
-        "correction": "L'article 3 de la CIDE pose que 'l'intérêt supérieur de l'enfant' doit être une considération primordiale dans toutes les décisions le concernant."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'article 3 de la CIDE pose que 'l'intérêt supérieur de l'enfant' doit être une considération primordiale dans toutes les décisions le concernant."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La CIDE protege contre le travail dangereux et l'exploitation ; l'age varie selon les pays",
-        "correct": 1,
         "correction": "L'article 32 protège les enfants contre l'exploitation économique et les travaux dangereux, sans fixer un âge universel absolu."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Comite des droits de l'enfant",
-        "correction": "Le Comité des droits de l'enfant de l'ONU surveille la mise en œuvre de la CIDE et examine les rapports périodiques des États parties."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le Comité des droits de l'enfant de l'ONU surveille la mise en œuvre de la CIDE et examine les rapports périodiques des États parties."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "L'acces gratuit a l'enseignement primaire et le developpement de la personnalite",
-        "correct": 1,
         "correction": "L'article 28 garantit l'enseignement primaire gratuit et obligatoire ; l'article 29 précise que l'éducation doit viser le plein épanouissement de l'enfant."
       },
       {

@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "B",
+        "answer": "Translatée de 3 vers le haut",
         "correction": "Ajouter une constante au bilan de f déplace la courbe verticalement vers le haut de 3 unités."
       },
       {
@@ -27,15 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "g(x) = (x − 1)² + 2",
-        "correction": "Translation horizontale +1 : (x−1)² ; translation verticale +2 : (x−1)² + 2."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Translation horizontale +1 : (x−1)² ; translation verticale +2 : (x−1)² + 2."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "B",
+        "answer": "Symétrique par rapport à l'axe x",
         "correction": "Multiplier f par −1 retourne la courbe par rapport à l'axe des abscisses."
       },
       {
@@ -48,15 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "y = (x + 3)²",
-        "correction": "Translation de 3 vers la gauche : remplacer x par x + 3 → y = (x+3)²."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Translation de 3 vers la gauche : remplacer x par x + 3 → y = (x+3)²."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "B",
+        "answer": "Étirée verticalement d'un facteur 2",
         "correction": "Multiplier f(x) par 2 étire la courbe dans le sens vertical (ordonnées multipliées par 2)."
       },
       {

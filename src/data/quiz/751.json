@@ -33,8 +33,8 @@
         "question": "Le service national universel (SNU) est obligatoire pour tous les jeunes Francais de 16 ans."
       },
       {
-        "type": "open",
-        "question": "Quel est le principal devoir civique des citoyens francais inscrit dans la Constitution ?"
+        "type": "vrai-faux",
+        "question": "Participer a la defense nationale."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Un citoyen francais peut perdre sa nationalite s'il acquiert une autre nationalite."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on le document officiel attestant de la nationalite francaise d'une personne ?"
+        "type": "vrai-faux",
+        "question": "Certificat de nationalite francaise."
       },
       {
         "type": "qcm",

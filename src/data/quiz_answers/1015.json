@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "C",
+        "answer": "lim(x→±∞) f(x) = L",
         "correction": "Asymptote horizontale y = L : la courbe se rapproche indéfiniment de cette droite à l'infini."
       },
       {
@@ -27,15 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Asymptote verticale : x = 3. Asymptote horizontale : y = 2 (car f(x)→2 quand x→±∞).",
-        "correction": "f non définie en 3 et |f(x)|→∞. Pour x→∞ : (2x+1)/(x−3) ~ 2x/x = 2."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. f non définie en 3 et |f(x)|→∞. Pour x→∞ : (2x+1)/(x−3) ~ 2x/x = 2."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "B",
+        "answer": "lim(x→+∞) [f(x) − (ax+b)] = 0",
         "correction": "La courbe a l'asymptote oblique y=ax+b si la différence f(x)−(ax+b) tend vers 0 à l'infini."
       },
       {
@@ -48,15 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "g(x) − x = sin(x)/x → 0 quand x→+∞ (car |sin(x)|≤1). Donc y=x est AO.",
-        "correction": "sin(x)/x est bornée (|sin x|≤1) divisée par x→∞, donc tend vers 0. La droite y=x est AO."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. sin(x)/x est bornée (|sin x|≤1) divisée par x→∞, donc tend vers 0. La droite y=x est AO."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "C",
+        "answer": "y = 3",
         "correction": "Diviser par x² : (3 + 1/x²)/(1 − 4/x²) → 3. Asymptote horizontale : y = 3."
       },
       {

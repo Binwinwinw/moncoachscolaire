@@ -1,69 +1,73 @@
 {
-  "id": 1075,
-  "title": "Extrema et optimisation",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "created_at": "2026-03-13T18:54:00.431036Z",
-  "questions": [
-    {
-      "id": "1075_1",
-      "type": "qcm",
-      "question": "Pour trouver le maximum d'une fonction sur un intervalle fermé [a, b], on étudie :",
-      "options": [
-        "Seulement f(a) et f(b)",
-        "Seulement les zéros de f'",
-        "Les zéros de f' dans ]a,b[ et les valeurs aux extrémités",
-        "La concavité de f"
-      ]
-    },
-    {
-      "id": "1075_2",
-      "type": "vrai-faux",
-      "question": "Un problème d'optimisation se modélise par la maximisation ou minimisation d'une fonction objectif."
-    },
-    {
-      "id": "1075_3",
-      "type": "texte",
-      "question": "On découpe un carré de côté 12 cm en enlevant de petits carrés aux coins pour former une boîte ouverte. Exprime le volume V(x) et trouve le x qui le maximise."
-    },
-    {
-      "id": "1075_4",
-      "type": "qcm",
-      "question": "Pour minimiser le coût de fabrication C(x) = x² − 6x + 14, quel est le minimum ?",
-      "options": [
-        "5 en x=3",
-        "14 en x=0",
-        "5 en x=6",
-        "0 en x=3"
-      ]
-    },
-    {
-      "id": "1075_5",
-      "type": "vrai-faux",
-      "question": "Pour un problème d'optimisation, il faut toujours vérifier que la valeur critique correspond bien à un extremum dans le domaine physique."
-    },
-    {
-      "id": "1075_6",
-      "type": "texte",
-      "question": "Une entreprise vend x objets à (100 − x/2) € chacun. Quel prix et quelle quantité maximisent le chiffre d'affaires ?"
-    },
-    {
-      "id": "1075_7",
-      "type": "qcm",
-      "question": "La dérivée seconde f''(a) > 0 permet de confirmer que f admet en a :",
-      "options": [
-        "Un maximum local",
-        "Un minimum local",
-        "Un point d'inflexion",
-        "Aucun extremum"
-      ]
-    },
-    {
-      "id": "1075_8",
-      "type": "vrai-faux",
-      "question": "Les problèmes d'optimisation se rencontrent en physique, économie, géométrie et bien d'autres domaines."
-    }
-  ],
+  "contents": {
+    "title": "Extrema et optimisation",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Mathématiques",
+    "description": "",
+    "status": "published"
+  },
+  "quiz": {
+    "title": "Extrema et optimisation",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Pour trouver le maximum d'une fonction sur un intervalle fermé [a, b], on étudie :",
+        "choices": [
+          "Seulement f(a) et f(b)",
+          "Seulement les zéros de f'",
+          "Les zéros de f' dans ]a,b[ et les valeurs aux extrémités",
+          "La concavité de f"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un problème d'optimisation se modélise par la maximisation ou minimisation d'une fonction objectif."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Cette affirmation reformule l'idée essentielle à retenir : On découpe un carré de côté 12 cm en enlevant de petits carrés aux coins pour former une boîte ouverte. Exprime le volume V(x) et trouve le x qui le maximise."
+      },
+      {
+        "type": "qcm",
+        "question": "Pour minimiser le coût de fabrication C(x) = x² − 6x + 14, quel est le minimum ?",
+        "choices": [
+          "5 en x=3",
+          "14 en x=0",
+          "5 en x=6",
+          "0 en x=3"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Pour un problème d'optimisation, il faut toujours vérifier que la valeur critique correspond bien à un extremum dans le domaine physique."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "CA(x) = x(100−x/2) = 100x − x²/2."
+      },
+      {
+        "type": "qcm",
+        "question": "La dérivée seconde f''(a) > 0 permet de confirmer que f admet en a :",
+        "choices": [
+          "Un maximum local",
+          "Un minimum local",
+          "Un point d'inflexion",
+          "Aucun extremum"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les problèmes d'optimisation se rencontrent en physique, économie, géométrie et bien d'autres domaines."
+      }
+    ]
+  },
   "exercisenotion": [
     {
       "notion": "Fondamentaux de Indéfini",
@@ -77,5 +81,6 @@
       "notion": "Savoir-faire indéfini",
       "description": "Notion du programme Indéfini"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

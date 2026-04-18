@@ -33,8 +33,8 @@
         "question": "Le droit a un logement opposable (DALO) permet aux personnes sans logis de contraindre l'Etat a leur en fournir un."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on le revenu minimum garanti par l'Etat aux personnes sans ressources suffisantes en France ?"
+        "type": "vrai-faux",
+        "question": "Le RSA (Revenu de Solidarité Active), créé en 2009, assure un revenu minimum aux personnes sans ressources ou dont les revenus sont insuffisants."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Le droit de greve est un droit constitutionnel reconnu aux travailleurs en France."
       },
       {
-        "type": "open",
-        "question": "Quel texte constitutionnel de 1946 enumere les droits sociaux (droit au travail, a la sante, a l'education) qui ont valeur constitutionnelle ?"
+        "type": "vrai-faux",
+        "question": "Preambule de la Constitution de 1946."
       },
       {
         "type": "qcm",

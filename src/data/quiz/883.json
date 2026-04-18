@@ -33,8 +33,8 @@
         "question": "HTTPS est une version sécurisée de HTTP qui chiffre les communications."
       },
       {
-        "type": "open",
-        "question": "Quels sont les principaux codes de statut HTTP et leur signification ?"
+        "type": "vrai-faux",
+        "question": "200 OK (succès), 201 Created, 301 Moved Permanently (redirection), 400 Bad Request (requête invalide), 401 Unauthorized (non authentifié), 403 Forbidden (accès refusé), 404 Not Found (ressource introuvable), 500 Internal Server Error."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "HTTP est un protocole avec état (stateful)."
       },
       {
-        "type": "open",
-        "question": "Expliquez le rôle des cookies HTTP."
+        "type": "vrai-faux",
+        "question": "Les cookies sont de petits fichiers texte stockés par le navigateur pour maintenir un état entre les requêtes HTTP (qui est sans état)."
       },
       {
         "type": "qcm",

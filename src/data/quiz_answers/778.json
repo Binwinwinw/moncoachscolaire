@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "3 vues (face, dessus, cote)",
-        "correct": 2,
         "correction": "Le dessin technique standard comporte 3 vues principales : la vue de face, la vue de dessus et la vue de cote gauche (methode europeenne ou du 1er diedre)."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "vue en coupe",
-        "correction": "La vue en coupe (ou section) est obtenue en 'coupant' virtuellement l'objet par un plan pour visualiser son interieur et les details caches."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La vue en coupe (ou section) est obtenue en 'coupant' virtuellement l'objet par un plan pour visualiser son interieur et les details caches."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Ligne continue forte",
-        "correct": 2,
         "correction": "Les contours visibles sont representes par des lignes continues fortes (epaisses). Les contours caches utilisent des tirets fins et les axes des lignes mixtes."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "perspective cavaliere",
-        "correction": "La perspective cavaliere represente un objet en 3D en traçant les aretes de profondeur a 45° et a echelle reduite (souvent 0,5), facilitant la visualisation."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La perspective cavaliere represente un objet en 3D en traçant les aretes de profondeur a 45° et a echelle reduite (souvent 0,5), facilitant la visualisation."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "A preciser les ecarts maximaux admissibles de forme ou de position d'un element",
-        "correct": 1,
         "correction": "Le tolerancement geometrique (norme ISO 1101) fixe les limites admissibles de forme (rectitude, planeite) et de position (perpendicularite, parallelisme) pour garantir l'interchangeabilite."
       },
       {

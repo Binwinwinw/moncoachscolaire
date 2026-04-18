@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "CH₄",
-        "correct": 1,
         "correction": "Le méthane CH₄ est le premier alcane (hydrocarbure saturé à chaîne ouverte). La formule générale des alcanes est CₙH₂ₙ₊₂. Pour n=1 : CH₄ (méthane) ; n=2 : C₂H₆ (éthane) ; n=3 : C₃H₈ (propane) ; n=4 : C₄H₁₀ (butane). Chaque atome de carbone fait 4 liaisons covalentes (règle de l'octet)."
       },
       {
@@ -28,17 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "correct_answer": "Une fonction chimique est un groupe d'atomes qui confère des propriétés chimiques caractéristiques à une molécule organique. Exemples : alcool (-OH), acide carboxylique (-COOH), amine (-NH₂).",
-        "answer": "Une fonction chimique est un groupe d'atomes qui confère des propriétés chimiques caractéristiques à une molécule organique. Exemples : alcool (-OH), acide carboxylique (-COOH), amine (-NH₂).",
-        "correction": "Un groupe fonctionnel (ou fonction chimique) est un atome ou groupe d'atomes responsable des propriétés chimiques caractéristiques d'une famille de molécules organiques. Exemples : groupe hydroxyle -OH → alcools (éthanol C₂H₅OH) ; groupe carboxyle -COOH → acides carboxyliques (acide acétique CH₃COOH) ; groupe amine -NH₂ → amines (aniline, acides aminés) ; groupe aldéhyde -CHO → aldéhydes ; groupe cétone C=O → cétones ; ester -COO- → esters."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Un groupe fonctionnel (ou fonction chimique) est un atome ou groupe d'atomes responsable des propriétés chimiques caractéristiques d'une famille de molécules organiques. Exemples : groupe hydroxyle -OH → alcools (éthanol C₂H₅OH) ; groupe carboxyle -COOH → acides carboxyliques (acide acétique CH₃COOH) ; groupe amine -NH₂ → amines (aniline, acides aminés) ; groupe aldéhyde -CHO → aldéhydes ; groupe cétone C=O → cétones ; ester -COO- → esters."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Propanol-1",
-        "correct": 0,
         "correction": "CH₃-CH₂-CH₂-OH est le propan-1-ol (propanol-1). La chaîne principale compte 3 carbones (prop-), la fonction est alcool (-ol), et le groupe -OH est sur le carbone 1. Nomenclature IUPAC : 1) identifier la chaîne principale (la plus longue contenant le groupe fonctionnel) ; 2) nommer la chaîne ; 3) ajouter le suffixe du groupe fonctionnel (-ol, -al, -one, -oïque...) ; 4) numéroter les carbones pour minimiser les indices."
       },
       {
@@ -51,17 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "correct_answer": "L'estérification est la réaction entre un acide carboxylique et un alcool pour former un ester et de l'eau. Elle est lente, limitée et catalysée par les ions H⁺.",
-        "answer": "L'estérification est la réaction entre un acide carboxylique et un alcool pour former un ester et de l'eau. Elle est lente, limitée et catalysée par les ions H⁺.",
-        "correction": "L'estérification : RCOOH + R'OH ⇌ RCOOR' + H₂O. C'est une réaction entre un acide carboxylique et un alcool qui donne un ester et de l'eau. Conditions : lente (cinétique), limitée (équilibre, τ ~ 2/3 si alcool primaire + acide), catalysée par les ions H⁺ (acide sulfurique concentré ou résine échangeuse d'ions). La réaction inverse (hydrolyse de l'ester) est la saponification (en milieu basique, totale et rapide). Applications : arômes alimentaires, parfums, plastifiants."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'estérification : RCOOH + R'OH ⇌ RCOOR' + H₂O. C'est une réaction entre un acide carboxylique et un alcool qui donne un ester et de l'eau. Conditions : lente (cinétique), limitée (équilibre, τ ~ 2/3 si alcool primaire + acide), catalysée par les ions H⁺ (acide sulfurique concentré ou résine échangeuse d'ions). La réaction inverse (hydrolyse de l'ester) est la saponification (en milieu basique, totale et rapide). Applications : arômes alimentaires, parfums, plastifiants."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Groupe carboxyle -COOH et amine -NH₂",
-        "correct": 1,
         "correction": "Les acides α-aminés ont la structure générale : NH₂-CHR-COOH, avec un groupe carboxyle -COOH (fonction acide), un groupe amine -NH₂ (fonction basique) et un radical R variable (chaîne latérale, 20 acides aminés différents). Les acides aminés s'unissent par des liaisons peptidiques (-CO-NH-) pour former les protéines. Leur caractère amphotère (acide et basique à la fois) est essentiel à leur fonction biologique."
       },
       {

@@ -33,8 +33,8 @@
         "question": "L'érosion de la biodiversité actuelle est principalement due aux activités humaines."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on une espèce dont la disparition aurait un impact majeur sur l'écosystème ?"
+        "type": "vrai-faux",
+        "question": "Espèce clé de voûte."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Les espèces invasives peuvent menacer la biodiversité locale."
       },
       {
-        "type": "open",
-        "question": "Quel outil classe les espèces selon leur risque d'extinction (Éteint, Menacé, Vulnérable...) ?"
+        "type": "vrai-faux",
+        "question": "Liste rouge de l'UICN."
       },
       {
         "type": "qcm",

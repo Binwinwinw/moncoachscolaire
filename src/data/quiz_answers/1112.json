@@ -1,48 +1,71 @@
 {
-  "quiz_id": 1112,
-  "title": "Politiques macroéconomiques",
-  "subject": "SES",
-  "level": "Terminale",
-  "answers": [
-    {
-      "question_id": "1112_1",
-      "correct_option": "B",
-      "explanation": "Politique keynésienne de relance : hausse des dépenses publiques et/ou baisse d'impôts pour stimuler la demande globale."
-    },
-    {
-      "question_id": "1112_2",
-      "correct": true,
-      "explanation": "Depuis l'entrée dans la zone euro (1999), la France a délégué sa politique monétaire à la BCE, qui fixe les taux directeurs pour la zone euro."
-    },
-    {
-      "question_id": "1112_3",
-      "correct_answer": "Croissance du PIB, plein emploi (faible chômage), stabilité des prix (faible inflation) et équilibre extérieur (balance courante équilibrée). Ces quatre objectifs sont souvent contradictoires.",
-      "explanation": "Le carré magique de Kaldor représente graphiquement ces quatre objectifs macroéconomiques simultanés, rarement tous atteints ensemble."
-    },
-    {
-      "question_id": "1112_4",
-      "correct_option": "B",
-      "explanation": "L'effet d'éviction (critique libérale) : l'emprunt public fait monter les taux d'intérêt, décourageant l'investissement privé et annulant partiellement l'effet de relance."
-    },
-    {
-      "question_id": "1112_5",
-      "correct": true,
-      "explanation": "Le PSC (1997) fixe la règle des 3% de déficit et 60% de dette publique en % du PIB pour les États membres de la zone euro."
-    },
-    {
-      "question_id": "1112_6",
-      "correct_answer": "La courbe de Phillips (1958) montre un arbitrage : moins de chômage → plus d'inflation. Remise en cause : Friedman/Phelps (1968) → courbe de Phillips augmentée des anticipations, neutralité à long terme. Stagflation des années 1970 invalide empiriquement l'arbitrage simple.",
-      "explanation": "À court terme, la relation inverse peut exister, mais à long terme, le taux de chômage naturel (NAIRU) est indépendant de l'inflation."
-    },
-    {
-      "question_id": "1112_7",
-      "correct_option": "B",
-      "explanation": "Le QE (utilisé par la BCE et la Fed après 2008) : la banque centrale crée de la monnaie pour acheter des obligations, abaissant les taux longs et stimulant le crédit."
-    },
-    {
-      "question_id": "1112_8",
-      "correct": false,
-      "explanation": "La règle d'or autorise l'emprunt pour les dépenses d'investissement (qui créent des actifs futurs) mais pas pour les dépenses courantes de fonctionnement."
-    }
-  ]
+  "contents": {
+    "title": "Quiz Diagnostic SES Terminale - Serie 1112",
+    "level": "Terminale",
+    "subject": "SES"
+  },
+  "quiz": {
+    "title": "Politiques macroéconomiques",
+    "question_count": 8,
+    "level": "Terminale",
+    "subject": "SES",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Cette affirmation reformule l'idée essentielle à retenir : Quels sont les objectifs du carré magique de Nicholas Kaldor."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Cette affirmation reformule l'idée essentielle à retenir : Explique le dilemme inflation-chômage selon la courbe de Phillips et ses remises en cause."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      }
+    ]
+  }
 }

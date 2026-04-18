@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le foyer",
-        "correct": 1,
         "correction": "Le foyer, ou hypocentre, est le point de départ de la rupture ; l'épicentre est sa projection à la surface."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "prévention",
-        "correction": "La prévention réduit la vulnérabilité grâce à l'information, aux exercices, aux normes et à l'aménagement du territoire."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La prévention réduit la vulnérabilité grâce à l'information, aux exercices, aux normes et à l'aménagement du territoire."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Un tsunami",
-        "correct": 1,
         "correction": "Un déplacement brutal du plancher océanique peut générer une onde de très grande longueur d'onde à travers l'océan."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "parasismiques",
-        "correction": "Les constructions parasismiques limitent l'effondrement et protègent les habitants dans les zones exposées."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les constructions parasismiques limitent l'effondrement et protègent les habitants dans les zones exposées."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "L'intensité macrosismique",
-        "correct": 0,
         "correction": "L'intensité décrit les effets sur les personnes, les bâtiments et le paysage en un lieu donné."
       },
       {

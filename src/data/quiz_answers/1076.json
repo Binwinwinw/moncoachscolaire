@@ -1,48 +1,71 @@
 {
-  "quiz_id": 1076,
-  "title": "Convexité — introduction",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "answers": [
-    {
-      "question_id": "1076_1",
-      "correct_option": "B",
-      "explanation": "f convexe ⟺ f'' ≥ 0. Géométriquement : la courbe est 'en forme de bol'."
-    },
-    {
-      "question_id": "1076_2",
-      "correct": true,
-      "explanation": "f concave ⟺ f'' ≤ 0. La courbe est 'en forme de cloche', tournée vers le bas."
-    },
-    {
-      "question_id": "1076_3",
-      "correct_answer": "f'' = 6x − 6. f'' ≥ 0 ⟺ x ≥ 1 (convexe). f'' ≤ 0 ⟺ x ≤ 1 (concave). Point d'inflexion en x=1.",
-      "explanation": "f'=3x²−6x, f''=6x−6=0 en x=1. f convexe sur [1;+∞[ et concave sur ]−∞;1]."
-    },
-    {
-      "question_id": "1076_4",
-      "correct_option": "B",
-      "explanation": "Un point d'inflexion est un point où la concavité change : f'' s'annule et change de signe."
-    },
-    {
-      "question_id": "1076_5",
-      "correct": true,
-      "explanation": "f''(x) = 2 > 0 pour tout x : la parabole est convexe (tournée vers le haut) partout."
-    },
-    {
-      "question_id": "1076_6",
-      "correct_answer": "La tangente est en dessous (ou sur) la courbe : f(x) ≥ f(a) + f'(a)(x−a) pour toute courbe convexe.",
-      "explanation": "Pour f convexe, la courbe est au-dessus de toute tangente. Pour f concave, c'est l'inverse."
-    },
-    {
-      "question_id": "1076_7",
-      "correct_option": "B",
-      "explanation": "(ln x)'' = −1/x² < 0 pour tout x > 0 : ln est concave."
-    },
-    {
-      "question_id": "1076_8",
-      "correct": false,
-      "explanation": "Faux : un point d'inflexion est un changement de concavité, pas nécessairement un extremum de f."
-    }
-  ]
+  "contents": {
+    "title": "Convexité — introduction",
+    "level": "1ère",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Convexité — introduction",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "",
+        "correction": "f convexe ⟺ f'' ≥ 0. Géométriquement : la courbe est 'en forme de bol'."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "f concave ⟺ f'' ≤ 0. La courbe est 'en forme de cloche', tournée vers le bas."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. f'=3x²−6x, f''=6x−6=0 en x=1. f convexe sur [1;+∞[ et concave sur ]−∞;1]."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "",
+        "correction": "Un point d'inflexion est un point où la concavité change : f'' s'annule et change de signe."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "f''(x) = 2 > 0 pour tout x : la parabole est convexe (tournée vers le haut) partout."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Pour f convexe, la courbe est au-dessus de toute tangente. Pour f concave, c'est l'inverse."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "",
+        "correction": "(ln x)'' = −1/x² < 0 pour tout x > 0 : ln est concave."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux : un point d'inflexion est un changement de concavité, pas nécessairement un extremum de f."
+      }
+    ]
+  }
 }

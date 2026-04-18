@@ -33,8 +33,8 @@
         "question": "Le Brevet des Collèges comprend une épreuve d'Histoire-Géographie et d'EMC."
       },
       {
-        "type": "open",
-        "question": "La _____ civique et morale (EMC) est enseignée au collège pour former les élèves à leur rôle de citoyens."
+        "type": "vrai-faux",
+        "question": "L'EMC aborde la laïcité, la démocratie, les droits de l'homme, la lutte contre les discriminations et la citoyenneté européenne et mondiale."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La laïcité est un principe fondamental de la République française qui garantit la liberté de conscience et la séparation de l'Église et de l'État."
       },
       {
-        "type": "open",
-        "question": "Les trois pouvoirs de la démocratie (Montesquieu) sont le pouvoir exécutif, le pouvoir législatif et le pouvoir _____ ."
+        "type": "vrai-faux",
+        "question": "La séparation des pouvoirs (exécutif : gouvernement ; législatif : parlement ; judiciaire : tribunaux) est la base de la démocratie libérale."
       },
       {
         "type": "qcm",

@@ -33,8 +33,8 @@
         "question": "La courbe d'offre est généralement croissante avec le prix."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce qui peut déplacer la courbe de demande vers la droite ?"
+        "type": "vrai-faux",
+        "question": "Une hausse des revenus, une mode favorable, une baisse du prix des biens complémentaires, une augmentation de la population…."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Un bien inférieur voit sa demande augmenter quand le revenu baisse."
       },
       {
-        "type": "open",
-        "question": "Définissez les biens complémentaires et les biens substituts."
+        "type": "vrai-faux",
+        "question": "Biens complémentaires : consommés ensemble (voiture/essence)."
       },
       {
         "type": "qcm",

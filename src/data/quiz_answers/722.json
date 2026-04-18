@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "U = R × I",
-        "correct": 1,
         "correction": "La loi d'Ohm : U = R·I où U est la tension (V), R la résistance (Ω) et I l'intensité (A)."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "30 Ω",
-        "correction": "R = U/I = 12/0,4 = 30 Ω."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. R = U/I = 12/0,4 = 30 Ω."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "30 Ω",
-        "correct": 2,
         "correction": "En série : R_totale = R1 + R2 = 10 + 20 = 30 Ω."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "0,2 A",
-        "correction": "I = U/R = 10/50 = 0,2 A."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. I = U/R = 10/50 = 0,2 A."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Est constante quelle que soit la tension appliquée",
-        "correct": 2,
         "correction": "Un conducteur ohmique suit la loi d'Ohm : U/I = constante = R, indépendamment de la tension."
       },
       {

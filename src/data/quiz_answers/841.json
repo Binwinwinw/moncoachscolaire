@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le financement des retraites actuelles par les cotisations des actifs actuels",
-        "correct": 1,
         "correction": "La répartition est fondée sur la solidarité entre générations : les actifs financent les retraites des inactifs."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Le vieillissement de la population (allongement de la vie) et la baisse du taux de natalité réduisent le ratio actifs/retraités. Avec moins d'actifs pour financer plus de retraités, le système est sous pression financière.",
-        "correction": "Les réformes successives (allongement durée de cotisation, recul de l'âge légal) visent à adapter le système."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les réformes successives (allongement durée de cotisation, recul de l'âge légal) visent à adapter le système."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Un prélèvement sur tous les revenus finançant la protection sociale",
-        "correct": 2,
         "correction": "Créée en 1991, la CSG est prélevée sur tous les revenus (salaires, retraites, revenus du patrimoine) et finance la Sécurité sociale."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Bismarckien (Allemagne, France) : protection sociale fondée sur l'emploi et les cotisations professionnelles. Beveridgien (Royaume-Uni) : couverture universelle pour tous les citoyens, financée par l'impôt, visant un minimum vital.",
-        "correction": "La plupart des pays combinent les deux modèles. La France est plutôt bismarckienne, mais avec des éléments universels."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La plupart des pays combinent les deux modèles. La France est plutôt bismarckienne, mais avec des éléments universels."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "L'autonomie (dépendance des personnes âgées et handicapées)",
-        "correct": 1,
         "correction": "La branche autonomie répond au défi du vieillissement de la population et du financement de la perte d'autonomie."
       },
       {

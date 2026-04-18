@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Loi du 9 decembre 1905 sur la separation des Eglises et de l'Etat",
-        "correct": 1,
         "correction": "La loi de 1905 (portée par Aristide Briand et Ferdinand Buisson) consacre la séparation des Églises et de l'État ; la France ne reconnaît ni ne subventionne aucun culte."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "liberte de conscience, neutralite de l'ecole et egale dignite de tous",
-        "correction": "La Charte de la laïcité à l'école (2013) rappelle : liberté de conscience, neutralité du service public d'éducation et égale dignité de tous les élèves."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La Charte de la laïcité à l'école (2013) rappelle : liberté de conscience, neutralité du service public d'éducation et égale dignité de tous les élèves."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Elle interdit le port de signes religieux ostensibles dans les ecoles publiques",
-        "correct": 1,
         "correction": "La loi de 2004 (dite loi 'voile') interdit dans les écoles, collèges et lycées publics le port de signes ou tenues manifestant ostensiblement une appartenance religieuse."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "obscurantisme",
-        "correction": "L'obscurantisme désigne le refus d'accepter la raison et la discussion ; il s'oppose à l'esprit critique promu par la laïcité et l'enseignement républicain."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'obscurantisme désigne le refus d'accepter la raison et la discussion ; il s'oppose à l'esprit critique promu par la laïcité et l'enseignement républicain."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Article 1",
-        "correct": 0,
         "correction": "L'article 1 de la Constitution dispose : 'La France est une République indivisible, laïque, démocratique et sociale.'"
       },
       {

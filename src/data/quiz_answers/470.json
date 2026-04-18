@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Correspondances",
-        "correct": 1,
         "correction": "Dans 'Correspondances', Baudelaire pose les bases du Symbolisme en affirmant les liens secrets entre les sens."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "spirituelle",
-        "correction": "Le symbole renvoie à un au-delà du réel visible : idées, états d'âme, vérités métaphysiques."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le symbole renvoie à un au-delà du réel visible : idées, états d'âme, vérités métaphysiques."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La musique avant toute chose",
-        "correct": 1,
         "correction": "'De la musique avant toute chose' : Verlaine place la musicalité au-dessus de la signification."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "nommer",
-        "correction": "'Nommer un objet, c'est supprimer les trois quarts de la jouissance du poème' (Mallarmé)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. 'Nommer un objet, c'est supprimer les trois quarts de la jouissance du poème' (Mallarmé)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Associer des sensations de registres différents",
-        "correct": 1,
         "correction": "Ex. : 'des parfums frais comme des chairs d'enfants' (Baudelaire) mêle olfactif et tactile."
       },
       {

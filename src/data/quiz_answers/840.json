@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'incapacité à satisfaire les besoins vitaux de base",
-        "correct": 1,
         "correction": "La pauvreté absolue est mesurée par un seuil de subsistance (Banque mondiale : 2,15 $/jour). Elle est distincte de la pauvreté relative."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "La trappe à pauvreté désigne une situation où les mécanismes d'aide sociale (allocations) créent une désincitation à reprendre un emploi : si la reprise d'emploi entraîne la perte d'allocations supérieures au salaire perçu, il est 'rationnel' de rester au chômage.",
-        "correction": "Le RSA a été conçu pour limiter cet effet en maintenant une partie des aides lors de la reprise d'emploi."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le RSA a été conçu pour limiter cet effet en maintenant une partie des aides lors de la reprise d'emploi."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Le revenu médian",
-        "correct": 1,
         "correction": "En France, le seuil officiel de pauvreté est fixé à 60 % du revenu médian disponible par unité de consommation."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "RSA (revenu minimum), prime d'activité, aides au logement (APL), complémentaire santé solidaire (CSS), aide alimentaire, CCAS, politiques de la ville, accès aux droits, accompagnement social.",
-        "correction": "Ces dispositifs combinent soutien financier et accompagnement social vers l'insertion."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Ces dispositifs combinent soutien financier et accompagnement social vers l'insertion."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Un déficit de capacités (capabilities) permettant de mener une vie épanouissante",
-        "correct": 1,
         "correction": "Amartya Sen dépasse la vision monétaire de la pauvreté : il s'intéresse aux libertés réelles (éducation, santé, participation sociale)."
       },
       {

@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le pouvoir d'achat du salaire (salaire nominal corrigé de l'inflation)",
-        "correct": 2,
         "correction": "Salaire réel = salaire nominal / indice des prix. C'est le salaire réel qui mesure la capacité d'achat."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Le niveau de qualification et d'éducation (capital humain), l'ancienneté, le secteur d'activité, la taille de l'entreprise, la localisation géographique, la négociation collective, l'état du marché du travail (chômage).",
-        "correction": "Ces facteurs expliquent les écarts de salaires observés entre individus."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Ces facteurs expliquent les écarts de salaires observés entre individus."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Un salaire supérieur à l'équilibre du marché pour motiver les salariés",
-        "correct": 1,
         "correction": "Payer au-dessus du marché réduit le turnover, augmente la productivité et dissuade les comportements déviants (Shapiro-Stiglitz)."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Salaire brut = salaire avant déduction des cotisations salariales. Salaire net = salaire brut - cotisations salariales. Coût total = salaire brut + cotisations patronales. Ces cotisations financent la protection sociale.",
-        "correction": "Le coin fiscal/social est la différence entre le coût employeur et le salaire net perçu."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le coin fiscal/social est la différence entre le coût employeur et le salaire net perçu."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La protection sociale (retraite, maladie, chômage…)",
-        "correct": 1,
         "correction": "Les cotisations sociales alimentent la Sécurité sociale (URSSAF) et l'assurance chômage (Unédic)."
       },
       {

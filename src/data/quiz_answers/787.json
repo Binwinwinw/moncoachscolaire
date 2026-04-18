@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Une suite finie d'instructions ordonnees pour resoudre un probleme",
-        "correct": 1,
         "correction": "Un algorithme est une sequence ordonnee d'instructions qui, lorsqu'elle est executee, resout un probleme ou accomplit une tache specifique."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "boucle",
-        "correction": "Une boucle (while, for) repete l'execution d'un bloc d'instructions tant qu'une condition est satisfaite, permettant de traiter des sequences repetitives."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Une boucle (while, for) repete l'execution d'un bloc d'instructions tant qu'une condition est satisfaite, permettant de traiter des sequences repetitives."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Structure conditionnelle si...alors...sinon",
-        "correct": 1,
         "correction": "La structure conditionnelle (if...then...else) teste une condition et execute l'un ou l'autre bloc d'instructions selon le resultat."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "fonction",
-        "correction": "Une fonction (procedure, sous-programme) est un bloc de code nomme qui peut recevoir des parametres et retourner une valeur, favorisant la reutilisabilite du code."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Une fonction (procedure, sous-programme) est un bloc de code nomme qui peut recevoir des parametres et retourner une valeur, favorisant la reutilisabilite du code."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Scratch",
-        "correct": 1,
         "correction": "Scratch (MIT Media Lab) est un environnement de programmation visuelle par blocs colorés emboitables, conçu pour apprendre la programmation de maniere ludique."
       },
       {

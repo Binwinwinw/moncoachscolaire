@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "A",
+        "answer": "+∞",
         "correction": "Le terme dominant est 3x² → +∞ quand x → +∞."
       },
       {
@@ -27,15 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "On ne peut pas conclure directement. On factorise par le terme dominant pour lever l'indétermination.",
-        "correction": "Ex: x² − x = x(x−1) → ∞ ; mais x² − x³ → −∞. Il faut factoriser par x^n le plus grand."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Ex: x² − x = x(x−1) → ∞ ; mais x² − x³ → −∞. Il faut factoriser par x^n le plus grand."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "B",
+        "answer": "1",
         "correction": "C'est une limite fondamentale : lim(x→0) sin(x)/x = 1."
       },
       {
@@ -48,15 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "2",
-        "correction": "On divise par x³ : (2 − 1/x²) / (1 + 5/x³) → 2/1 = 2."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. On divise par x³ : (2 − 1/x²) / (1 + 5/x³) → 2/1 = 2."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "C",
+        "answer": "6",
         "correction": "(x²−9)/(x−3) = (x−3)(x+3)/(x−3) = x+3 → 6 quand x→3."
       },
       {

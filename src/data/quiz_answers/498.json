@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Madame Bovary, mœurs de province",
-        "correct": 0,
         "correction": "Le sous-titre 'mœurs de province' ancre le roman dans une critique sociale du milieu bourgeois provincial."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "14",
-        "correction": "Le sonnet (Pétrarque, Ronsard, Baudelaire) comporte 14 vers : ABBA ABBA CCD EDE (ou variantes)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le sonnet (Pétrarque, Ronsard, Baudelaire) comporte 14 vers : ABBA ABBA CCD EDE (ou variantes)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "L'utopie",
-        "correct": 1,
         "correction": "L'utopie (Thomas More, 1516) décrit une société idéale ; son contraire est la dystopie (Orwell, Huxley)."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "pacte",
-        "correction": "Philippe Lejeune définit le 'pacte autobiographique' : identité auteur = narrateur = personnage principal."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Philippe Lejeune définit le 'pacte autobiographique' : identité auteur = narrateur = personnage principal."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Existentialisme",
-        "correct": 1,
         "correction": "La Nausée (1938) de Sartre est le roman manifeste de l'existentialisme."
       },
       {

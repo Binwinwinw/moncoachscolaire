@@ -33,8 +33,8 @@
         "question": "Un thermostat connecte est un exemple d'objet de l'Internet des objets."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on un mini-ordinateur programmable, de la taille d'une carte de credit, utilise pour creer des objets connectes et des prototypes ?"
+        "type": "vrai-faux",
+        "question": "Le Raspberry Pi est un ordinateur monocarte abordable et programmable, tres utilise en education et pour les projets IoT et de domotique."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Les objets connectes peuvent presenter des risques pour la vie privee s'ils ne sont pas securises."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on l'ensemble des technologies permettant de controler l'eclairage, le chauffage et la securite d'une maison depuis un smartphone ?"
+        "type": "vrai-faux",
+        "question": "La domotique (du latin 'domus' = maison) integre l'automatisation et la communication pour controler et optimiser les equipements d'un habitat."
       },
       {
         "type": "qcm",

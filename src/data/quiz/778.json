@@ -33,8 +33,8 @@
         "question": "L'echelle 1:2 sur un dessin technique signifie que l'objet est represente deux fois plus grand que sa taille reelle."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on la vue qui montre l'interieur d'un objet en le coupant par un plan imaginaire ?"
+        "type": "vrai-faux",
+        "question": "La vue en coupe (ou section) est obtenue en 'coupant' virtuellement l'objet par un plan pour visualiser son interieur et les details caches."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La cotation sur un dessin technique indique les dimensions de l'objet en millimetres."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on la representation d'un objet en 3D avec des lignes obliques a 45 degrees, tres utilisee en technologie ?"
+        "type": "vrai-faux",
+        "question": "Perspective cavaliere."
       },
       {
         "type": "qcm",

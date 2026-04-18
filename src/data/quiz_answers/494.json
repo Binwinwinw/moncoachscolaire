@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le refus du personnage traditionnel, de l'intrigue et du narrateur omniscient",
-        "correct": 1,
         "correction": "Robbe-Grillet, Sarraute, Butor, Simon déconstruisent les codes du roman réaliste."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "essence",
-        "correction": "'L'existence précède l'essence' : l'homme n'a pas de nature prédéfinie ; il se crée par ses actes."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. 'L'existence précède l'essence' : l'homme n'a pas de nature prédéfinie ; il se crée par ses actes."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Détaché et indifférent (absurde)",
-        "correct": 1,
         "correction": "Meursault raconte les événements (même le meurtre) avec une neutralité qui incarne l'absurde camusien."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "construire",
-        "correction": "Le Nouveau Roman refuse le sens tout fait et engage le lecteur dans une co-construction du sens."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le Nouveau Roman refuse le sens tout fait et engage le lecteur dans une co-construction du sens."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Tropismes",
-        "correct": 1,
         "correction": "Tropismes (1939, rééd. 1957) de Sarraute explore les micro-mouvements psychologiques presque imperceptibles."
       },
       {

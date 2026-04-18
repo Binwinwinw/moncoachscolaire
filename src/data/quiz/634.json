@@ -33,8 +33,8 @@
         "question": "Un séisme est causé par la rupture soudaine d'une roche le long d'une faille et la libération d'énergie sous forme d'ondes sismiques."
       },
       {
-        "type": "open",
-        "question": "L'échelle de _____ mesure la magnitude d'un séisme (énergie libérée) ; chaque degré correspond à une énergie 32 fois supérieure."
+        "type": "vrai-faux",
+        "question": "L'échelle de Richter (1935, logarithmique) mesure l'amplitude des ondes sismiques ; aujourd'hui remplacée par la magnitude de moment (Mw) plus précise pour les grands séismes."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Les tsunamis sont principalement déclenchés par des séismes sous-marins qui déplacent verticalement une grande masse d'eau."
       },
       {
-        "type": "open",
-        "question": "La géothermie exploite la chaleur interne de la Terre pour produire de la chaleur ou de l'_____ selon la température des ressources."
+        "type": "vrai-faux",
+        "question": "Géothermie haute énergie (>150°C, zones volcaniques) → électricité."
       },
       {
         "type": "qcm",

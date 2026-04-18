@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Ne varie pas avec le niveau de production",
-        "correct": 1,
         "correction": "Les coûts fixes (loyer, amortissements) doivent être payés même si l'entreprise ne produit rien."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Le seuil de rentabilité est le niveau de chiffre d'affaires (ou de production) à partir duquel l'entreprise couvre tous ses coûts et commence à dégager un bénéfice. En dessous, elle est en perte.",
-        "correction": "Seuil de rentabilité = coûts fixes / taux de marge sur coûts variables."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Seuil de rentabilité = coûts fixes / taux de marge sur coûts variables."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Diminue",
-        "correct": 1,
         "correction": "Quand Cm < CM, chaque unité supplémentaire coûte moins que la moyenne, donc la moyenne baisse."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "L'amortissement comptabilise la dépréciation d'un bien d'équipement sur sa durée de vie. Il étale le coût d'achat sur plusieurs années et permet de reconstituer les fonds pour le renouvellement du capital.",
-        "correction": "L'amortissement est un coût fixe interne qui n'entraîne pas de sortie de trésorerie annuelle mais réduit le résultat comptable."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'amortissement est un coût fixe interne qui n'entraîne pas de sortie de trésorerie annuelle mais réduit le résultat comptable."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "L'entreprise couvre exactement tous ses coûts, y compris le coût d'opportunité",
-        "correct": 1,
         "correction": "Le profit économique nul signifie que l'entreprise gagne autant que dans la meilleure alternative possible (profit comptable = coût d'opportunité)."
       },
       {

@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Trois exemplaires du chromosome 21",
-        "correct": 1,
         "correction": "La trisomie 21 est due à la présence d'un chromosome 21 supplémentaire (3 au lieu de 2)."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "réparation de l'ADN",
-        "correction": "Les enzymes de réparation corrigent la plupart des erreurs survenant lors de la réplication ou sous l'effet de mutagènes."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les enzymes de réparation corrigent la plupart des erreurs survenant lors de la réplication ou sous l'effet de mutagènes."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Les globules rouges",
-        "correct": 1,
         "correction": "La drépanocytose est une mutation du gène de la globine bêta qui déforme les globules rouges."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "conducteur",
-        "correction": "Un conducteur (ou porteur sain) possède un allèle muté récessif et un allèle normal ; il n'est pas malade mais peut transmettre la mutation."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Un conducteur (ou porteur sain) possède un allèle muté récessif et un allèle normal ; il n'est pas malade mais peut transmettre la mutation."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Ultraviolet",
-        "correct": 1,
         "correction": "Les UV solaires sont le principal facteur de risque des mélanomes et carcinomes cutanés."
       },
       {

@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Rendre les pages web interactives côté client",
-        "correct": 1,
         "correction": "JavaScript s'exécute dans le navigateur et permet de modifier le DOM, réagir aux événements, valider des formulaires, faire des requêtes asynchrones…"
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Le DOM est une représentation en arbre de la page HTML, accessible et modifiable par JavaScript. Chaque balise HTML devient un nœud. JavaScript peut modifier le DOM dynamiquement : ajouter/supprimer des éléments, changer du texte, modifier des styles.",
-        "correction": "document.getElementById(), document.querySelector(), element.innerHTML sont des méthodes DOM courantes."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. document.getElementById(), document.querySelector(), element.innerHTML sont des méthodes DOM courantes."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "document.querySelector('#monBouton')",
-        "correct": 1,
         "correction": "querySelector accepte les sélecteurs CSS. document.getElementById('monBouton') fonctionne aussi pour les ids."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Une fonction fléchée est une syntaxe raccourcie pour les fonctions anonymes. Ex : const double = x => x * 2; ou (a, b) => a + b; Elle n'a pas son propre 'this', ce qui la distingue des fonctions classiques.",
-        "correction": "Les fonctions fléchées sont très utilisées comme callbacks dans les méthodes de tableaux (map, filter, reduce)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les fonctions fléchées sont très utilisées comme callbacks dans les méthodes de tableaux (map, filter, reduce)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Effectuer des requêtes HTTP asynchrones (AJAX)",
-        "correct": 1,
         "correction": "fetch() retourne une Promise. fetch('url').then(r => r.json()).then(data => console.log(data)) récupère des données JSON."
       },
       {

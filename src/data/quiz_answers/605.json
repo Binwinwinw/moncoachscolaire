@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Synthétiser un ARN messager à partir d'un brin d'ADN",
-        "correct": 1,
         "correction": "La transcription (noyau) : l'ARN polymérase lit le brin d'ADN antisens et synthétise un ARNm complémentaire."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "noyau",
-        "correction": "L'ARNm est synthétisé dans le noyau ; il subit des modifications (épissage, coiffe, queue polyA) avant d'être exporté vers le cytoplasme."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'ARNm est synthétisé dans le noyau ; il subit des modifications (épissage, coiffe, queue polyA) avant d'être exporté vers le cytoplasme."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Éliminer les introns et assembler les exons",
-        "correct": 1,
         "correction": "Chez les eucaryotes, le pré-ARNm contient des introns (séquences non codantes) qui sont éliminés ; les exons (séquences codantes) sont assemblés."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "ARN",
-        "correction": "L'ARN polymérase utilise les nucléotides d'ARN (A, U, G, C) et le brin antisens d'ADN comme matrice."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'ARN polymérase utilise les nucléotides d'ARN (A, U, G, C) et le brin antisens d'ADN comme matrice."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La séquence d'ADN où l'ARN polymérase se fixe pour démarrer la transcription",
-        "correct": 1,
         "correction": "Le promoteur est une séquence régulatrice en amont du gène ; sa reconnaissance par l'ARN polymérase initie la transcription."
       },
       {

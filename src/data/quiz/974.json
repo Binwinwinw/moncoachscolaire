@@ -33,8 +33,8 @@
         "question": "Pour résoudre un problème par équation, il faut d'abord identifier l'inconnue et la définir clairement."
       },
       {
-        "type": "open",
-        "question": "Paul a 5 ans de plus que Marie. La somme de leurs âges est 31. Quel est l'âge de Marie ?"
+        "type": "vrai-faux",
+        "question": "Marie = x, Paul = x + 5."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Dans un problème de mélange, la quantité totale de soluté est conservée."
       },
       {
-        "type": "open",
-        "question": "Un train part à 80 km/h et un autre à 120 km/h dans la même direction, avec 1 h d'avance pour le lent. Quand le rapide rattrape-t-il le lent ?"
+        "type": "vrai-faux",
+        "question": "Après 2 h de marche du rapide."
       },
       {
         "type": "qcm",

@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'Inde",
-        "correct": 1,
         "correction": "L'Inde a dépassé la Chine en 2023 pour devenir le pays le plus peuplé avec plus de 1,44 milliard d'habitants."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "atelier",
-        "correction": "La Chine produit une part énorme des biens manufacturés mondiaux grâce à sa main-d'oeuvre nombreuse et ses coûts bas."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La Chine produit une part énorme des biens manufacturés mondiaux grâce à sa main-d'oeuvre nombreuse et ses coûts bas."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Singapour, Hong Kong, Taiwan et Corée du Sud, dont les économies se sont développées très rapidement",
-        "correct": 1,
         "correction": "Les quatre Dragons (ou Tigres) asiatiques ont connu une croissance économique spectaculaire dans les années 1960-1980, basée sur l'exportation industrielle."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "l'Afrique",
-        "correction": "Les nouvelles routes de la soie relient la Chine à l'Asie centrale, au Moyen-Orient, à l'Afrique et à l'Europe par des routes, chemins de fer et ports."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les nouvelles routes de la soie relient la Chine à l'Asie centrale, au Moyen-Orient, à l'Afrique et à l'Europe par des routes, chemins de fer et ports."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Elle est revendiquée par plusieurs pays pour ses ressources et sa position stratégique",
-        "correct": 1,
         "correction": "La Chine revendique 90% de la mer de Chine méridionale (ligne des neuf traits) malgré les contestations du Vietnam, des Philippines et d'autres États."
       },
       {

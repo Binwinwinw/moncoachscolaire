@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "better",
-        "correct": 2,
         "correction": "The comparative form of \"good\" is \"better\"."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Elle a un chat",
-        "correction": "The correct translation of \"She has a cat\" in French is \"Elle a un chat\"."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. The correct translation of \"She has a cat\" in French is \"Elle a un chat\"."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "cold",
-        "correct": 1,
         "correction": "\"Cold\" is an antonym of \"hot\"."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "eaten",
-        "correction": "The past participle of \"eat\" is \"eaten\". It is used in perfect tenses and passive voice."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. The past participle of \"eat\" is \"eaten\". It is used in perfect tenses and passive voice."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "They don't like music.",
-        "correct": 1,
         "correction": "The correct sentence is \"They don't like music.\" because \"they\" is plural and requires \"do not\" for negation."
       },
       {

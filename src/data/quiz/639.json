@@ -33,8 +33,8 @@
         "question": "L'effet de serre naturel est essentiel à la vie sur Terre : sans lui, la température moyenne serait de -18°C au lieu de +15°C."
       },
       {
-        "type": "open",
-        "question": "La couche d'_____ (O3) dans la stratosphère absorbe les UV-B et UV-C nocifs pour les organismes vivants."
+        "type": "vrai-faux",
+        "question": "L'ozone stratosphérique (cycle de Chapman) absorbe les UV < 280 nm ; les CFC (maintenant interdits, protocole de Montréal 1987) avaient créé un trou dans la couche d'ozone."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La concentration de CO2 atmosphérique n'avait jamais dépassé 300 ppm durant les 800 000 dernières années avant l'ère industrielle."
       },
       {
-        "type": "open",
-        "question": "L'albédo est la fraction de rayonnement solaire _____ par une surface ; la neige et les glaces ont un albédo élevé (~0,8–0,9)."
+        "type": "vrai-faux",
+        "question": "La rétroaction glace-albédo : la fonte des glaces réduit l'albédo (mer sombre absorbe plus) → amplification du réchauffement."
       },
       {
         "type": "qcm",

@@ -33,8 +33,8 @@
         "question": "La dérivée de e^(f(x)) est f'(x)·e^(f(x))."
       },
       {
-        "type": "open",
-        "question": "Calcule la dérivée de f(x) = sin(3x² + 1)."
+        "type": "vrai-faux",
+        "question": "F'(x) = 6x·cos(3x² + 1)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La dérivée de (ax + b)ⁿ est n·a·(ax + b)ⁿ⁻¹."
       },
       {
-        "type": "open",
-        "question": "Calcule la dérivée de f(x) = e^(−x²)."
+        "type": "vrai-faux",
+        "question": "F'(x) = −2x·e^(−x²)."
       },
       {
         "type": "qcm",

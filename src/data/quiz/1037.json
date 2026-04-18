@@ -33,8 +33,8 @@
         "question": "Toute suite croissante et majorée converge."
       },
       {
-        "type": "open",
-        "question": "Quelle est la limite de uₙ = (2n + 1)/(n + 3) quand n → +∞ ?"
+        "type": "vrai-faux",
+        "question": "Diviser par n : (2 + 1/n)/(1 + 3/n) → 2/1 = 2."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Si uₙ → L et vₙ → M, alors uₙ + vₙ → L + M."
       },
       {
-        "type": "open",
-        "question": "Applique le théorème des gendarmes pour montrer que uₙ = sin(n)/n → 0."
+        "type": "vrai-faux",
+        "question": "−1/n ≤ sin(n)/n ≤ 1/n."
       },
       {
         "type": "qcm",

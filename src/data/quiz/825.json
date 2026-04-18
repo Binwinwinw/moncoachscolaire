@@ -33,8 +33,8 @@
         "question": "Toutes les entreprises ont uniquement un objectif de profit."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce que la responsabilité sociale des entreprises (RSE) ?"
+        "type": "vrai-faux",
+        "question": "La RSE désigne l'intégration volontaire par les entreprises de préoccupations sociales et environnementales dans leurs activités commerciales et leurs relations avec les parties prenantes."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Le conflit entre actionnaires et dirigeants est appelé 'problème principal-agent'."
       },
       {
-        "type": "open",
-        "question": "Distinguez valeur ajoutée et profit."
+        "type": "vrai-faux",
+        "question": "La valeur ajoutée est la richesse créée par l'entreprise (CA - consommations intermédiaires)."
       },
       {
         "type": "qcm",

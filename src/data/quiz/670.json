@@ -33,8 +33,8 @@
         "question": "La puberté chez les filles débute généralement entre 8 et 13 ans."
       },
       {
-        "type": "open",
-        "question": "Quel nom porte le premier cycle menstruel d'une jeune fille ?"
+        "type": "vrai-faux",
+        "question": "La ménarche désigne les premières règles, marquant le début de la fertilité féminine."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Les règles correspondent au renouvellement de l'endomètre en l'absence de fécondation."
       },
       {
-        "type": "open",
-        "question": "Quelle glande du cerveau régule les hormones de reproduction en sécrétant la FSH et la LH ?"
+        "type": "vrai-faux",
+        "question": "L'hypophyse (antérieure) sécrète FSH et LH, qui contrôlent le cycle ovarien et la production de gamètes."
       },
       {
         "type": "qcm",

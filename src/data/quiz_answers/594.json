@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La concentration des fonctions de commandement dans les grandes villes",
-        "correct": 1,
         "correction": "Les métropoles concentrent emplois qualifiés, sièges et innovation."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "TGV",
-        "correction": "Le TGV relie rapidement les grandes métropoles."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le TGV relie rapidement les grandes métropoles."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Roissy-Charles de Gaulle",
-        "correct": 1,
         "correction": "Roissy est un nœud international majeur."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "multimodal",
-        "correction": "La multimodalité optimise les chaînes logistiques."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La multimodalité optimise les chaînes logistiques."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La hausse du coût du logement",
-        "correct": 1,
         "correction": "La tension immobilière peut accentuer les inégalités."
       },
       {

@@ -3,7 +3,37 @@
 Documentation des workflows automatisés de génération et validation qualité des quiz diagnostics.
 
 **Date création** : 08/03/2026  
-**Dernière MAJ** : 09/03/2026
+**Dernière MAJ** : 18/04/2026
+
+---
+
+## ✅ Workflow runtime final quiz (04/2026)
+
+Référence actuelle pour les quiz uniquement :
+
+1. générer ou corriger la source,
+2. normaliser vers la structure runtime finale,
+3. vérifier l’appariement `src/data/quiz` ↔ `src/data/quiz_answers`,
+4. lancer l’audit structurel et la détection de placeholders,
+5. ne publier que les lots sans anomalies bloquantes.
+
+### Commandes de contrôle à conserver
+
+```bash
+# Normaliser les anciens quiz/answers runtime
+.venv\Scripts\python.exe dev/tools/quiz/enrichment/normalize_runtime_answer_files.py
+
+# Vérifier les placeholders restants
+.venv\Scripts\python.exe dev/tools/quiz/analyse/detect_placeholders_v2.py
+
+# Vérifier que quiz et quiz_answers ont les mêmes IDs
+.venv\Scripts\python.exe dev/tools/quiz/analyse/compare_quiz_folders.py
+
+# Auditer la structure finale runtime
+php dev/tools/quiz/analyse/audit_quiz_schema.php
+```
+
+> L’audit runtime signale maintenant les vrais écarts restants : réponses/corrections incomplètes ou lots legacy non finalisés.
 
 ---
 

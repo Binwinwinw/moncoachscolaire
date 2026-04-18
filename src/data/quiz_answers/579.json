@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "1,4 milliard",
-        "correct": 1,
         "correction": "L'Afrique compte environ 1,4 milliard d'habitants ; sa population devrait doubler d'ici 2050, avec les plus forts taux de natalité au monde."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Suez",
-        "correction": "Le canal de Suez (inauguré en 1869) est l'un des passages maritimes les plus fréquentés au monde ; il relie l'Europe à l'Asie sans contourner l'Afrique."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le canal de Suez (inauguré en 1869) est l'un des passages maritimes les plus fréquentés au monde ; il relie l'Europe à l'Asie sans contourner l'Afrique."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Une organisation continentale regroupant les États africains pour favoriser l'intégration et la paix",
-        "correct": 1,
         "correction": "L'UA (54 États membres) succède à l'OUA en 2002 ; elle gère des missions de paix et promeut l'intégration économique africaine."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "saut",
-        "correction": "Le saut technologique (leapfrogging) : l'Afrique adopte directement la téléphonie mobile sans passer par les infrastructures téléphoniques fixes."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le saut technologique (leapfrogging) : l'Afrique adopte directement la téléphonie mobile sans passer par les infrastructures téléphoniques fixes."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Mégapoles africaines en forte croissance",
-        "correct": 1,
         "correction": "Ces villes dépassent 10 millions d'habitants et connaissent une croissance urbaine très rapide, souvent sans planification suffisante."
       },
       {

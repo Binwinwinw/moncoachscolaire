@@ -33,8 +33,8 @@
         "question": "À l'oral du bac de Français, l'élève peut consulter ses notes pendant l'exposé."
       },
       {
-        "type": "open",
-        "question": "L'examinateur peut poser des questions sur les _____ au programme lors de l'entretien suivant l'exposé."
+        "type": "vrai-faux",
+        "question": "L'entretien porte sur les œuvres intégrales étudiées dans l'année et sur les lectures cursives."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "L'oral de l'EAF dure en totalité environ 20 minutes (exposé + entretien)."
       },
       {
-        "type": "open",
-        "question": "Pour l'oral, l'élève présente un texte étudié en classe : son exposé doit suivre un _____ clair avec introduction et conclusion."
+        "type": "vrai-faux",
+        "question": "Un plan en 2-3 axes, annoncé en introduction et conclu par une synthèse, structure l'exposé oral."
       },
       {
         "type": "qcm",

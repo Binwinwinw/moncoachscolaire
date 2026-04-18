@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Choisit à chaque étape l'option localement optimale",
-        "correct": 1,
         "correction": "L'approche gloutonne (greedy) prend toujours la décision localement meilleure, sans revenir en arrière, en espérant obtenir un optimal global."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "1 pièce de 25 (reste 16), 1 pièce de 10 (reste 6), 1 pièce de 5 (reste 1), 1 pièce de 1. Total : 4 pièces. L'algorithme glouton prend toujours la plus grande pièce possible.",
-        "correction": "Pour le système de monnaie classique, l'algorithme glouton est optimal. Avec des pièces de 1, 3, 4 centimes pour rendre 6, il échoue (choisit 4+1+1=3 pièces au lieu de 3+3=2)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Pour le système de monnaie classique, l'algorithme glouton est optimal. Avec des pièces de 1, 3, 4 centimes pour rendre 6, il échoue (choisit 4+1+1=3 pièces au lieu de 3+3=2)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Glouton",
-        "correct": 1,
         "correction": "Dijkstra choisit à chaque étape le sommet non visité avec la distance minimale connue (choix glouton local). Il est optimal pour les graphes à poids positifs."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Pour chaque sommet (dans un ordre quelconque), on lui attribue la plus petite couleur non utilisée par ses voisins déjà colorés. Glouton car on ne revient pas sur les choix. Peut ne pas utiliser le nombre chromatique minimum mais est efficace en pratique.",
-        "correction": "La coloration de graphe est utilisée pour l'allocation de registres dans les compilateurs."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La coloration de graphe est utilisée pour l'allocation de registres dans les compilateurs."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Fusionne toujours les deux arbres de fréquence minimale",
-        "correct": 1,
         "correction": "Huffman construit un arbre de codage en fusionnant à chaque étape les deux sous-arbres de plus faible fréquence (choix glouton)."
       },
       {

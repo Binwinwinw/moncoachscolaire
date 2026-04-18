@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "went",
-        "correct": 1,
         "correction": "The past tense of \"go\" is \"went\"."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Je vais au marché",
-        "correction": "The correct translation of \"I am going to the market\" in French is \"Je vais au marché\"."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. The correct translation of \"I am going to the market\" in French is \"Je vais au marché\"."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "joyful",
-        "correct": 2,
         "correction": "\"Joyful\" is a synonym for \"happy\"."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "children",
-        "correction": "The plural form of \"child\" is \"children\"."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. The plural form of \"child\" is \"children\"."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "She doesn't like pizza.",
-        "correct": 1,
         "correction": "\"She doesn't like pizza.\" is the correct sentence because it uses the correct auxiliary verb \"doesn't\" for third person singular."
       },
       {

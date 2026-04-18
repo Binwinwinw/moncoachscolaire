@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Consommateurs primaires",
-        "correct": 2,
         "correction": "Chaîne trophique : Producteurs (végétaux) -> Consommateurs primaires (herbivores) -> Consommateurs secondaires (carnivores) -> etc."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "10",
-        "correction": "Règle des 10% : 90% de l'énergie est perdue (respiration, chaleur, matières fécales) à chaque niveau trophique ; d'où la rareté des grands prédateurs."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Règle des 10% : 90% de l'énergie est perdue (respiration, chaleur, matières fécales) à chaque niveau trophique ; d'où la rareté des grands prédateurs."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La quantité de matière organique (biomasse) à chaque niveau trophique",
-        "correct": 1,
         "correction": "La pyramide de biomasse (g de matière sèche / m2) est généralement plus large à la base (producteurs) et s'amincit vers les niveaux supérieurs."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "trophique",
-        "correction": "Ex. : le DDT s'accumule dans les graisses et se concentre : 1 ppm dans l'eau -> 1000 ppm dans les poissons -> 10 millions ppm dans les oeufs de rapaces."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Ex. : le DDT s'accumule dans les graisses et se concentre : 1 ppm dans l'eau -> 1000 ppm dans les poissons -> 10 millions ppm dans les oeufs de rapaces."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Moins d'énergie est perdue dans la chaîne trophique (un niveau intermédiaire en moins)",
-        "correct": 1,
         "correction": "Régime végétarien : producteurs -> humain (1 niveau) ; régime carné : producteurs -> bétail -> humain (2 niveaux, 90% de perte supplémentaire)."
       },
       {

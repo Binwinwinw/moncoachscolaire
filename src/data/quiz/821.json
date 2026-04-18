@@ -33,8 +33,8 @@
         "question": "Si le prix de marché est supérieur au prix d'équilibre, il y a un excès d'offre."
       },
       {
-        "type": "open",
-        "question": "Comment le mécanisme de marché ramène-t-il l'équilibre en cas de pénurie ?"
+        "type": "vrai-faux",
+        "question": "En cas de pénurie, la demande excède l'offre, les prix montent, ce qui incite les producteurs à produire plus et les consommateurs à demander moins, jusqu'à retrouver l'équilibre."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Le surplus du producteur correspond au profit réalisé au-dessus de son coût de production."
       },
       {
-        "type": "open",
-        "question": "Définissez le 'prix plancher' et donnez un exemple."
+        "type": "vrai-faux",
+        "question": "Un prix plancher est un prix minimum imposé par l'État en dessous duquel les échanges sont interdits."
       },
       {
         "type": "qcm",

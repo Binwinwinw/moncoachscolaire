@@ -20,7 +20,7 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Quelle est la prochaine forme dans la suite : cercle, carré, triangle, cercle, carré, triangle, ... ?",
+        "question": "Quelle est la prochaine forme dans la suite : cercle, carré, triangle, cercle, carré, triangle, . ?",
         "choices": [
           "Cercle",
           "Carré",
@@ -30,11 +30,11 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La suite de nombres 2, 4, 6, 8, ... est une suite logique."
+        "question": "La suite de nombres 2, 4, 6, 8, . est une suite logique."
       },
       {
         "type": "qcm",
-        "question": "Quelle est la prochaine couleur dans la suite : rouge, vert, bleu, rouge, vert, bleu, ... ?",
+        "question": "Quelle est la prochaine couleur dans la suite : rouge, vert, bleu, rouge, vert, bleu, . ?",
         "choices": [
           "Rouge",
           "Vert",
@@ -44,11 +44,11 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La suite de nombres 1, 2, 4, 8, ... est une suite logique."
+        "question": "La suite de nombres 1, 2, 4, 8, . est une suite logique."
       },
       {
         "type": "qcm",
-        "question": "Quelle est la prochaine forme dans la suite : carré, triangle, cercle, carré, triangle, cercle, ... ?",
+        "question": "Quelle est la prochaine forme dans la suite : carré, triangle, cercle, carré, triangle, cercle, . ?",
         "choices": [
           "Carré",
           "Triangle",
@@ -58,11 +58,11 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La suite de nombres 3, 6, 9, 12, ... est une suite logique."
+        "question": "La suite de nombres 3, 6, 9, 12, . est une suite logique."
       },
       {
         "type": "qcm",
-        "question": "Quelle est la prochaine couleur dans la suite : jaune, bleu, rouge, jaune, bleu, rouge, ... ?",
+        "question": "Quelle est la prochaine couleur dans la suite : jaune, bleu, rouge, jaune, bleu, rouge, . ?",
         "choices": [
           "Jaune",
           "Bleu",
@@ -72,7 +72,7 @@
       },
       {
         "type": "vrai-faux",
-        "question": "La suite de nombres 5, 10, 15, 20, ... est une suite logique."
+        "question": "La suite de nombres 5, 10, 15, 20, . est une suite logique."
       }
     ]
   },

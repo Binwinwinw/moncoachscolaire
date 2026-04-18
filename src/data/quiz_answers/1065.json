@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "wrote",
-        "correct": 0,
         "correction": "The past tense of \"write\" is \"wrote\"."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Ils regardent la télévision",
-        "correction": "The correct translation of \"They are watching TV\" in French is \"Ils regardent la télévision\"."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. The correct translation of \"They are watching TV\" in French is \"Ils regardent la télévision\"."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "dark",
-        "correct": 1,
         "correction": "\"Dark\" is an antonym of \"light\"."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "gone",
-        "correction": "The past participle of \"go\" is \"gone\". It is used in perfect tenses and passive voice."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. The past participle of \"go\" is \"gone\". It is used in perfect tenses and passive voice."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "They don't like music.",
-        "correct": 1,
         "correction": "The correct sentence is \"They don't like music.\" because \"they\" is plural and requires \"do not\" for negation."
       },
       {

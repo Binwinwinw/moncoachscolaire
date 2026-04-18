@@ -1,48 +1,71 @@
 {
-  "quiz_id": 1074,
-  "title": "Applications de la dérivée — variations",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "answers": [
-    {
-      "question_id": "1074_1",
-      "correct_option": "B",
-      "explanation": "f'(x) > 0 sur I ⟺ f strictement croissante sur I."
-    },
-    {
-      "question_id": "1074_2",
-      "correct": true,
-      "explanation": "Condition nécessaire : si f admet un extremum en a et est dérivable en a, alors f'(a) = 0."
-    },
-    {
-      "question_id": "1074_3",
-      "correct_answer": "f'=3x²−3=3(x−1)(x+1). Maximum local en x=−1 : f(−1)=2. Minimum local en x=1 : f(1)=−2.",
-      "explanation": "f'=0 en x=±1. f'>0 sur ]−∞;−1[ et ]1;+∞[, f'<0 sur ]−1;1[."
-    },
-    {
-      "question_id": "1074_4",
-      "correct_option": "B",
-      "explanation": "f' passe de − à + : f décroit puis croit → minimum local en a."
-    },
-    {
-      "question_id": "1074_5",
-      "correct": false,
-      "explanation": "C'est nécessaire mais pas suffisant. Ex : f(x)=x³ a f'(0)=0 mais 0 n'est pas un extremum."
-    },
-    {
-      "question_id": "1074_6",
-      "correct_answer": "f croissante sur ]−∞;−1] et [1;+∞[, décroissante sur [−1;1].",
-      "explanation": "f'=6x²−6=6(x²−1). f'>0 ⟺ |x|>1. Croissante sur ]−∞;−1] et [1;+∞[."
-    },
-    {
-      "question_id": "1074_7",
-      "correct_option": "A",
-      "explanation": "(eˣ)' = eˣ > 0 pour tout réel x : la fonction est strictement croissante sur R."
-    },
-    {
-      "question_id": "1074_8",
-      "correct": true,
-      "explanation": "f décroissante avant a et croissante après → a est un minimum local. f'(a) = 0 et f' change de − à +."
-    }
-  ]
+  "contents": {
+    "title": "Applications de la dérivée — variations",
+    "level": "1ère",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Applications de la dérivée — variations",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "",
+        "correction": "f'(x) > 0 sur I ⟺ f strictement croissante sur I."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Condition nécessaire : si f admet un extremum en a et est dérivable en a, alors f'(a) = 0."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. f'=0 en x=±1. f'>0 sur ]−∞;−1[ et ]1;+∞[, f'<0 sur ]−1;1[."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "",
+        "correction": "f' passe de − à + : f décroit puis croit → minimum local en a."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est nécessaire mais pas suffisant. Ex : f(x)=x³ a f'(0)=0 mais 0 n'est pas un extremum."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. f'=6x²−6=6(x²−1). f'>0 ⟺ |x|>1. Croissante sur ]−∞;−1] et [1;+∞[."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "",
+        "correction": "(eˣ)' = eˣ > 0 pour tout réel x : la fonction est strictement croissante sur R."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "f décroissante avant a et croissante après → a est un minimum local. f'(a) = 0 et f' change de − à +."
+      }
+    ]
+  }
 }

@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Les quantités demandées en fonction du prix",
-        "correct": 1,
         "correction": "La courbe de demande est décroissante : quand le prix augmente, les consommateurs demandent moins."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Une hausse des revenus, une mode favorable, une baisse du prix des biens complémentaires, une augmentation de la population…",
-        "correction": "Tout facteur hors prix qui augmente la demande déplace la courbe vers la droite."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Tout facteur hors prix qui augmente la demande déplace la courbe vers la droite."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La demande augmente",
-        "correct": 2,
         "correction": "Pour un bien normal, la demande varie dans le même sens que le revenu."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Biens complémentaires : consommés ensemble (voiture/essence). Biens substituts : s'utilisent à la place l'un de l'autre (beurre/margarine).",
-        "correction": "Ces relations influencent les déplacements des courbes de demande."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Ces relations influencent les déplacements des courbes de demande."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Un déplacement de la courbe d'offre vers la gauche",
-        "correct": 1,
         "correction": "Des coûts plus élevés réduisent la rentabilité et poussent les producteurs à offrir moins à chaque niveau de prix."
       },
       {

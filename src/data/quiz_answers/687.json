@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'eutrophisation",
-        "correct": 1,
         "correction": "L'excès de nutriments stimule la prolifération d'algues puis l'appauvrissement en dioxygène de l'eau."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "recyclage",
-        "correction": "Le recyclage permet de réutiliser certains matériaux et de limiter l'extraction de nouvelles ressources."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le recyclage permet de réutiliser certains matériaux et de limiter l'extraction de nouvelles ressources."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Les particules fines",
-        "correct": 1,
         "correction": "Les particules fines pénètrent profondément dans les voies respiratoires et augmentent les risques cardiovasculaires et respiratoires."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "bioaccumulation",
-        "correction": "Lorsqu'un polluant persistant s'accumule dans les tissus et augmente de concentration à chaque niveau trophique, on parle de bioaccumulation ou biomagnification."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Lorsqu'un polluant persistant s'accumule dans les tissus et augmente de concentration à chaque niveau trophique, on parle de bioaccumulation ou biomagnification."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Privilégier les objets réutilisables et trier correctement",
-        "correct": 1,
         "correction": "Limiter les plastiques à usage unique et améliorer le tri diminue les rejets dans l'environnement."
       },
       {

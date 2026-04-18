@@ -33,8 +33,8 @@
         "question": "Le dihydrogène H2 produit une légère détonation (pop) lors d'un test à la flamme."
       },
       {
-        "type": "open",
-        "question": "Quel réactif colore la flamme en jaune orangé pour révéler la présence d'ions sodium Na+ ?"
+        "type": "vrai-faux",
+        "question": "Le test à la flamme (test colorimétrique) : Na+ → flamme jaune, K+ → violette, Cu2+ → verte, Ca2+ → rouge brique."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Le sulfate de baryum BaSO4 est un précipité blanc insoluble dans les acides forts."
       },
       {
-        "type": "open",
-        "question": "Comment confirme-t-on la présence d'ions ammonium NH4+ dans une solution ?"
+        "type": "vrai-faux",
+        "question": "Papier pH humide qui bleuit."
       },
       {
         "type": "qcm",

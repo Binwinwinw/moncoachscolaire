@@ -35,8 +35,8 @@
         "question": "En focalisation interne, le lecteur connaît toutes les pensées de tous les personnages."
       },
       {
-        "type": "open",
-        "question": "Donne le nom de la focalisation quand le narrateur en sait plus que les personnages."
+        "type": "vrai-faux",
+        "question": "La focalisation zéro correspond à un narrateur omniscient."
       },
       {
         "type": "qcm",
@@ -53,8 +53,8 @@
         "question": "Un récit peut alterner plusieurs focalisations selon les passages."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on un narrateur absent de l'histoire qu'il raconte ?"
+        "type": "vrai-faux",
+        "question": "Narrateur hétérodiégétique."
       },
       {
         "type": "qcm",

@@ -33,8 +33,8 @@
         "question": "Dans tout systeme energetique reel, une partie de l'energie est inevitablement dissipee sous forme de chaleur."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on la representation graphique qui montre visuellement comment l'energie se decompose entre partie utile et pertes dans un systeme ?"
+        "type": "vrai-faux",
+        "question": "Diagramme de Sankey."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Reduire les pertes par frottement dans un mecanisme ameliore son rendement energetique."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on la chaleur perdue lors du refroidissement des moteurs ou des centrales electriques ?"
+        "type": "vrai-faux",
+        "question": "La chaleur fatale est la chaleur inévitablement rejetee lors des conversions energetiques ; la cogeneration la recupere pour le chauffage, améliorant le rendement global."
       },
       {
         "type": "qcm",

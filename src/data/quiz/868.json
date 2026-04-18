@@ -33,8 +33,8 @@
         "question": "L'UTF-8 est compatible avec l'ASCII pour les 128 premiers caractères."
       },
       {
-        "type": "open",
-        "question": "Quelle est la différence entre Unicode et UTF-8 ?"
+        "type": "vrai-faux",
+        "question": "Unicode est un standard qui attribue un point de code unique à chaque caractère de toutes les langues."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "L'encodage Latin-1 (ISO-8859-1) peut représenter les caractères accentués français."
       },
       {
-        "type": "open",
-        "question": "Pourquoi UTF-8 est-il devenu le standard dominant sur le web ?"
+        "type": "vrai-faux",
+        "question": "UTF-8 est universel (supporte toutes les langues), rétrocompatible avec ASCII, économe (1 octet pour les caractères latins), et a été adopté comme standard par W3C et la plupart des systèmes."
       },
       {
         "type": "qcm",

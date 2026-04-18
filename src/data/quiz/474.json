@@ -33,8 +33,8 @@
         "question": "Un pamphlet est un texte polémique qui attaque violemment une personne ou une idée."
       },
       {
-        "type": "open",
-        "question": "L'apologue est un récit court à visée _____, illustrant une morale."
+        "type": "vrai-faux",
+        "question": "L'apologue (fable, conte philosophique, parabole) enseigne par le plaisir d'un récit fictif."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Candide de Voltaire est un conte philosophique qui peut être classé comme apologue."
       },
       {
-        "type": "open",
-        "question": "Dans une fable, la _____ résume la leçon morale, souvent placée au début ou à la fin du texte."
+        "type": "vrai-faux",
+        "question": "La morale est l'énoncé de la leçon que l'auteur tire du récit allégorique."
       },
       {
         "type": "qcm",

@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "best",
-        "correct": 1,
         "correction": "The superlative form of \"good\" is \"best\"."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Elle cuisine le dîner",
-        "correction": "The correct translation of \"She is cooking dinner\" in French is \"Elle cuisine le dîner\"."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. The correct translation of \"She is cooking dinner\" in French is \"Elle cuisine le dîner\"."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "new",
-        "correct": 1,
         "correction": "\"New\" is an antonym of \"old\"."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "broken",
-        "correction": "The past participle of \"break\" is \"broken\". It is used in perfect tenses and passive voice."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. The past participle of \"break\" is \"broken\". It is used in perfect tenses and passive voice."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "He doesn't like sports.",
-        "correct": 1,
         "correction": "The correct sentence is \"He doesn't like sports.\" because \"he\" is third person singular and requires \"does not\" for negation."
       },
       {

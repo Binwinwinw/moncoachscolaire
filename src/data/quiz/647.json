@@ -33,8 +33,8 @@
         "question": "Un organisme transgénique contient dans son génome un ou plusieurs gènes provenant d'une autre espèce."
       },
       {
-        "type": "open",
-        "question": "La PCR (Polymerase Chain Reaction) permet d'amplifier in vitro un fragment d'ADN spécifique en quelques heures grâce à une _____ thermostable (Taq)."
+        "type": "vrai-faux",
+        "question": "La PCR (Mullis, Nobel 1993) utilise des cycles chaleur/froid et l'ADN polymérase Taq (de Thermus aquaticus) pour doubler le fragment cible à chaque cycle → amplification exponentielle."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La technologie Sanger (séquençage de l'ADN) a permis le projet Génome Humain (HGP) complété en 2003."
       },
       {
-        "type": "open",
-        "question": "Un anticorps monoclonal est produit par un seul clone de lymphocytes B et reconnaît un _____ unique."
+        "type": "vrai-faux",
+        "question": "Les anticorps monoclonaux (Köhler & Milstein, Nobel 1984) sont des outils diagnostiques et thérapeutiques (Herceptin, Humira, pembrolizumab) reconnaissant un épitope spécifique."
       },
       {
         "type": "qcm",

@@ -7,6 +7,8 @@
   "quiz": {
     "title": "Diagnostic SVT Terminale - Série 50",
     "question_count": 20,
+    "level": "terminale",
+    "subject": "SVT",
     "answers": [
       {
         "index": 0,
@@ -18,7 +20,7 @@
       {
         "index": 1,
         "question_id": 2,
-        "type": "texte",
+        "type": "open",
         "answer": "fécondation",
         "correction": "Spermatozoïde (mâle) + ovule (femelle) → zygote diploïde. Origine génotype."
       },
@@ -39,7 +41,7 @@
       {
         "index": 4,
         "question_id": 5,
-        "type": "texte",
+        "type": "open",
         "answer": "environnement",
         "correction": "Phénotype = génotype + influences environnementales."
       },
@@ -53,7 +55,7 @@
       {
         "index": 6,
         "question_id": 7,
-        "type": "texte",
+        "type": "open",
         "answer": "gène",
         "correction": "Gène = portion ADN transmise, code protéine/caractère."
       },
@@ -81,7 +83,7 @@
       {
         "index": 10,
         "question_id": 11,
-        "type": "texte",
+        "type": "open",
         "answer": "Weinberg",
         "correction": "Hardy-Weinberg : équilibre fréquences alléliques (pas mutation/sélection/dérive)."
       },
@@ -102,7 +104,7 @@
       {
         "index": 13,
         "question_id": 14,
-        "type": "texte",
+        "type": "open",
         "answer": "hasard",
         "correction": "Dérive : fluctuations aléatoires (effet fondateur, goulot d'étranglement)."
       },
@@ -123,7 +125,7 @@
       {
         "index": 16,
         "question_id": 17,
-        "type": "texte",
+        "type": "open",
         "answer": "identiques",
         "correction": "Clone : cellules issues mitoses (mutations près)."
       },
@@ -144,12 +146,10 @@
       {
         "index": 19,
         "question_id": 20,
-        "type": "texte",
+        "type": "open",
         "answer": "dérive génétique",
         "correction": "Évolution = mutation + sélection + dérive."
       }
-    ],
-    "level": "terminale",
-    "subject": "SVT"
+    ]
   }
 }

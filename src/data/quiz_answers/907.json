@@ -7,57 +7,65 @@
   "quiz": {
     "title": "Anglais - Les dangers de la pollution en SVT",
     "question_count": 8,
+    "level": "5eme",
+    "subject": "SVT",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
+        "answer": "",
         "correction": "La bonne réponse est ‘La pollution chimique’. Elle affecte l'eau."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
+        "answer": "faux",
         "correction": "Vrai. Les déchets dans les rivières font du mal aux poissons."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correction": "Réponds comment la pollution peut rendre les animaux malades et diminuer leur nourriture."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Réponds comment la pollution peut rendre les animaux malades et diminuer leur nourriture."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
+        "answer": "",
         "correction": "La bonne réponse est ‘Recycler les déchets’. C'est un moyen de réduire la pollution de l'eau."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
+        "answer": "faux",
         "correction": "Vrai. Les usines peuvent rejeter des produits chimiques dangereux dans l'eau."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "qcm",
+        "answer": "",
         "correction": "La bonne réponse est ‘Elle peut endommager leurs feuilles’."
       },
       {
         "index": 6,
         "question_id": 7,
-        "type": "texte",
-        "correction": "Réponds en donnant une action comme ramasser des déchets ou utiliser moins de plastique."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Réponds en donnant une action comme ramasser des déchets ou utiliser moins de plastique."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "qcm",
+        "answer": "",
         "correction": "La bonne réponse est ‘Pour protéger les plantes, les animaux et les humains’."
       }
-    ],
-    "level": "5eme",
-    "subject": "SVT"
+    ]
   }
 }

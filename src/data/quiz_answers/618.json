@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Les relations de parenté et la chronologie des divergences entre espèces",
-        "correct": 1,
         "correction": "L'arbre phylogénétique (ou dendrogramme) représente les liens de parenté et les noeuds de divergence (ancêtres communs)."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "clade",
-        "correction": "Un clade (ou groupe monophylétique) est la seule unité valide en classification phylogénétique."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Un clade (ou groupe monophylétique) est la seule unité valide en classification phylogénétique."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Bacteria, Archaea, Eukarya",
-        "correct": 1,
         "correction": "Carl Woese (1977) établit la classification en 3 domaines basée sur les séquences d'ARN ribosomal 16S/18S."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "éloignées",
-        "correction": "La conservation de la cytochrome c à travers les règnes illustre l'horloge moléculaire : les différences s'accumulent proportionnellement au temps de divergence."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La conservation de la cytochrome c à travers les règnes illustre l'horloge moléculaire : les différences s'accumulent proportionnellement au temps de divergence."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Estimer le temps de divergence entre deux espèces à partir des différences moléculaires",
-        "correct": 1,
         "correction": "Horloge moléculaire (Zuckerkandl & Pauling) : les mutations s'accumulent à un taux approximativement constant -> estimation des dates de divergence."
       },
       {

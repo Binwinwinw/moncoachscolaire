@@ -33,8 +33,8 @@
         "question": "Un citoyen europeen peut voter et se presenter aux elections municipales dans tout Etat membre de l'UE ou il reside."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on le droit des citoyens europeens de circuler et de s'installer librement dans tout Etat membre de l'UE ?"
+        "type": "vrai-faux",
+        "question": "Libre circulation des personnes."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "L'espace Schengen coincide exactement avec les frontieres de l'Union europeenne."
       },
       {
-        "type": "open",
-        "question": "Quel mecanisme permet a 1 million de citoyens europeens de demander a la Commission europeenne de proposer une nouvelle legislation ?"
+        "type": "vrai-faux",
+        "question": "Initiative citoyenne europeenne."
       },
       {
         "type": "qcm",

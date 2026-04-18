@@ -7,17 +7,65 @@
   "quiz": {
     "title": "Quiz Diagnostic Seconde SVT - Série 50",
     "question_count": 8,
-    "answers": [
-      {"index": 0, "question_id": 1, "type": "qcm", "correct": 0, "correction": "**noyau** (bactéries ADN libre). [web:240]"},
-      {"index": 1, "question_id": 2, "type": "vrai-faux", "correct": true, "correction": "**Vrai**. Chaîne respiratoire crêtes."},
-      {"index": 2, "question_id": 3, "type": "texte", "correct": null, "correction": "**chloroplastes** (autotrophes)."},
-      {"index": 3, "question_id": 4, "type": "qcm", "correct": 0, "correction": "**hélice** (A-T, G-C complémentaire). [web:242]"},
-      {"index": 4, "question_id": 5, "type": "vrai-faux", "correct": true, "correction": "**Vrai**. Différenciation expression gènes."},
-      {"index": 5, "question_id": 6, "type": "texte", "correct": null, "correction": "**O₂** (anaérobie)."},
-      {"index": 6, "question_id": 7, "type": "qcm", "correct": 0, "correction": "**organites** (mito, chloro, Golgi)."},
-      {"index": 7, "question_id": 8, "type": "texte", "correct": null, "correction": "**monnaie** (ADP + Pi → ATP). [web:244]"}
-    ],
     "level": "seconde",
-    "subject": "SVT"
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "noyau",
+        "correction": "**noyau** (bactéries ADN libre). [web:240]"
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "**Vrai**. Chaîne respiratoire crêtes."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "",
+        "correction": "**chloroplastes** (autotrophes)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "hélice",
+        "correction": "**hélice** (A-T, G-C complémentaire). [web:242]"
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "**Vrai**. Différenciation expression gènes."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "",
+        "correction": "**O₂** (anaérobie)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "organites",
+        "correction": "**organites** (mito, chloro, Golgi)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "open",
+        "answer": "",
+        "correction": "**monnaie** (ADP + Pi → ATP). [web:244]"
+      }
+    ]
   }
 }

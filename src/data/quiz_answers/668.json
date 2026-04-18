@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Athérosclérose",
-        "correct": 1,
         "correction": "L'athérosclérose est caractérisée par le dépôt de plaques de cholestérol dans les artères, augmentant le risque cardiovasculaire."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "pancréas",
-        "correction": "Le pancréas endocrine sécrète l'insuline (cellules bêta des îlots de Langerhans) pour abaisser la glycémie."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le pancréas endocrine sécrète l'insuline (cellules bêta des îlots de Langerhans) pour abaisser la glycémie."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Vitamine D",
-        "correct": 3,
         "correction": "La vitamine D est synthétisée dans la peau à partir de précurseurs sous l'action des UVB du soleil."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "IMC",
-        "correction": "L'Indice de Masse Corporelle (IMC = poids/taille²) permet d'évaluer si une personne est en sous-poids, normale, en surpoids ou obèse."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'Indice de Masse Corporelle (IMC = poids/taille²) permet d'évaluer si une personne est en sous-poids, normale, en surpoids ou obèse."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Anémie ferriprive",
-        "correct": 1,
         "correction": "Le fer est indispensable à la synthèse de l'hémoglobine ; sa carence provoque une anémie (diminution des globules rouges fonctionnels)."
       },
       {

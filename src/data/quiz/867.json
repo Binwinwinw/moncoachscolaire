@@ -33,8 +33,8 @@
         "question": "Le nombre binaire 1111 vaut 15 en décimal."
       },
       {
-        "type": "open",
-        "question": "Convertissez le nombre décimal 42 en binaire."
+        "type": "vrai-faux",
+        "question": "42 = 32 + 8 + 2 = 2⁵ + 2³ + 2¹ = 101010 en binaire."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Le complément à deux permet de représenter les entiers négatifs en binaire."
       },
       {
-        "type": "open",
-        "question": "Comment représente-t-on -5 en complément à deux sur 8 bits ?"
+        "type": "vrai-faux",
+        "question": "Cette affirmation reformule l'idée essentielle à retenir : Comment représente-t-on -5 en complément à deux sur 8 bits."
       },
       {
         "type": "qcm",

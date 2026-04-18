@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La protection des systemes informatiques, reseaux et donnees contre les attaques numeriques",
-        "correct": 1,
         "correction": "La cybersécurité protège les systèmes d'information contre les cyberattaques (piratage, ransomware, espionnage) ; en France, l'ANSSI (Agence Nationale de la Sécurité des Systèmes d'Information) coordonne cette protection."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "risques environnementaux globaux",
-        "correction": "Les risques environnementaux globaux (changement climatique, perte de biodiversité, raréfaction des ressources) génèrent de nouvelles menaces pour la sécurité internationale."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les risques environnementaux globaux (changement climatique, perte de biodiversité, raréfaction des ressources) génèrent de nouvelles menaces pour la sécurité internationale."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La propagation mondiale d'une nouvelle maladie infectieuse",
-        "correct": 1,
         "correction": "L'OMS déclare la pandémie lorsqu'une maladie infectieuse se propage à l'échelle mondiale (ex. Covid-19 en 2020, grippe espagnole en 1918)."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "rançongiciel",
-        "correction": "Un rançongiciel (ransomware) est un logiciel malveillant qui chiffre les données et exige une rançon (souvent en cryptomonnaie) pour leur restitution."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Un rançongiciel (ransomware) est un logiciel malveillant qui chiffre les données et exige une rançon (souvent en cryptomonnaie) pour leur restitution."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Le Conseil de securite de l'ONU",
-        "correct": 1,
         "correction": "Le Conseil de sécurité de l'ONU (15 membres dont 5 permanents : USA, Russie, Chine, France, Royaume-Uni) a la responsabilité principale du maintien de la paix et de la sécurité internationales."
       },
       {

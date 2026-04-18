@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le Président de la République",
-        "correct": 0,
         "correction": "La Constitution fait du Président le chef des armées."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "territoire",
-        "correction": "Elle protège la souveraineté nationale et les citoyens."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Elle protège la souveraineté nationale et les citoyens."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La sécurité antiterroriste sur le territoire",
-        "correct": 1,
         "correction": "Sentinelle mobilise des militaires pour protéger des sites sensibles."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "OTAN",
-        "correction": "L'OTAN coordonne la défense collective de ses membres."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'OTAN coordonne la défense collective de ses membres."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La sécurité civile",
-        "correct": 1,
         "correction": "Elle coordonne secours, pompiers et dispositifs d'urgence."
       },
       {

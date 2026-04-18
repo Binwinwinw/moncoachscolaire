@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "80 %",
-        "correct": 2,
         "correction": "Plus de 80 % des fonds marins demeurent inexplorés ou mal cartographiés, faisant de l'océan profond le dernier grand espace terra incognita."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Les champs hydrothermaux (ou fumeurs noirs) sont des sources d'eau chaude et chargée de minéraux aux dorsales océaniques. Ils forment des sulfures massifs riches en or, argent, zinc, cuivre, cobalt. Ils abritent aussi des écosystèmes uniques (tubeworms, bactéries chimiosynthétiques) sans lumière solaire.",
-        "correction": "L'exploitation des champs hydrothermaux est techniquement possible mais menacerait des écosystèmes uniques et encore mal connus."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'exploitation des champs hydrothermaux est techniquement possible mais menacerait des écosystèmes uniques et encore mal connus."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Une réserve d'énergie considérable, mais aussi un risque climatique",
-        "correct": 1,
         "correction": "Les hydrates de méthane stockent d'immenses quantités de méthane. Leur exploitation énergétique est étudiée (Japon), mais leur libération par réchauffement constitue un risque climatique majeur."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "L'exploitation minière profonde (deep sea mining) crée des panaches de sédiments, détruit des habitats uniques, génère des bruits et vibrations perturbant la faune, et affecte des écosystèmes encore mal connus. Une exploitation irréversible d'espèces et d'écosystèmes jamais étudiés est une préoccupation majeure des scientifiques.",
-        "correction": "Plusieurs États et ONG (WWF, Greenpeace) demandent un moratoire sur l'exploitation des grands fonds en attendant une meilleure connaissance scientifique."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Plusieurs États et ONG (WWF, Greenpeace) demandent un moratoire sur l'exploitation des grands fonds en attendant une meilleure connaissance scientifique."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Réglementer l'exploration et l'exploitation des ressources des fonds marins internationaux",
-        "correct": 1,
         "correction": "L'AIFM (International Seabed Authority) est créée par la CNUDM de 1982. Elle attribue des licences d'exploration et partage les bénéfices avec les pays en développement."
       },
       {

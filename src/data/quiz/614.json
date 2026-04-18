@@ -33,8 +33,8 @@
         "question": "La méthylation des cytosines dans les régions promotrices d'un gène tend à réprimer son expression."
       },
       {
-        "type": "open",
-        "question": "L'environnement (alimentation, stress, exposition aux toxines) peut modifier les marques _____ et ainsi influencer l'expression des gènes."
+        "type": "vrai-faux",
+        "question": "Des facteurs environnementaux peuvent ajouter ou retirer des marques épigénétiques, modulant l'expression génique à long terme."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "L'empreinte génomique parentale est un phénomène épigénétique par lequel certains gènes ne sont exprimés que selon leur origine maternelle ou paternelle."
       },
       {
-        "type": "open",
-        "question": "L'acétylation des histones tend à activer la transcription en _____ la chromatine."
+        "type": "vrai-faux",
+        "question": "Histones acétylées : chromatine décondensée (euchromatine) -> ADN accessible -> transcription activée."
       },
       {
         "type": "qcm",

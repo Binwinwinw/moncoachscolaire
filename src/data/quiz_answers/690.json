@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Un caryotype",
-        "correct": 1,
         "correction": "Le caryotype permet d'observer le nombre et la structure des chromosomes, utile pour repérer certaines anomalies chromosomiques."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Punnett",
-        "correction": "La grille de Punnett permet de prévoir les proportions génotypiques et phénotypiques attendues chez la descendance."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La grille de Punnett permet de prévoir les proportions génotypiques et phénotypiques attendues chez la descendance."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "23",
-        "correct": 0,
         "correction": "Les gamètes sont haploïdes et contiennent un seul exemplaire de chaque chromosome."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "dominant",
-        "correction": "L'allèle dominant s'exprime chez l'hétérozygote alors que l'allèle récessif ne s'exprime qu'en double exemplaire."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'allèle dominant s'exprime chez l'hétérozygote alors que l'allèle récessif ne s'exprime qu'en double exemplaire."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La mitose",
-        "correct": 1,
         "correction": "La mitose produit deux cellules filles génétiquement très proches de la cellule mère, avec le même nombre de chromosomes."
       },
       {

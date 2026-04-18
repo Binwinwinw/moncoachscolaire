@@ -33,8 +33,8 @@
         "question": "En logique combinatoire, la sortie depend uniquement de l'etat actuel des entrees."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on le langage de programmation graphique utilise pour les automates industriels qui ressemble a un schema electrique ?"
+        "type": "vrai-faux",
+        "question": "Le langage Ladder (echelle) est un langage de programmation graphique pour API, avec des contacts (entrees) et bobines (sorties) arranges comme un schema de cablage."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Un grafcet est un outil graphique permettant de decrire le comportement sequentiel d'un automatisme."
       },
       {
-        "type": "open",
-        "question": "Quel est le resultat de l'operation logique NOT(1) ?"
+        "type": "vrai-faux",
+        "question": "La porte NOT (NON logique) inverse la valeur : NOT(1) = 0 et NOT(0) = 1."
       },
       {
         "type": "qcm",

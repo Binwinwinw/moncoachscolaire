@@ -33,8 +33,8 @@
         "question": "La lumière se propage en ligne droite dans un milieu homogène."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on l'unité de distance astronomique correspondant à la distance parcourue par la lumière en un an ?"
+        "type": "vrai-faux",
+        "question": "1 année-lumière = 9,46 × 10^12 km, distance parcourue par la lumière dans le vide en une année."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "L'ombre portée d'un objet est due à la propagation rectiligne de la lumière."
       },
       {
-        "type": "open",
-        "question": "Combien de temps met la lumière du Soleil pour atteindre la Terre (distance ≈ 150 millions de km) ?"
+        "type": "vrai-faux",
+        "question": "T = d/c = 1,5 × 10^11 m / 3 × 10^8 m/s = 500 s ≈ 8 minutes 20 secondes."
       },
       {
         "type": "qcm",

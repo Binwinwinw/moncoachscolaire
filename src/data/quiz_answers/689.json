@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La rencontre entre un aléa naturel et des enjeux humains vulnérables",
-        "correct": 1,
         "correction": "Le risque dépend de l'aléa, de l'exposition des populations et de leur vulnérabilité."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "avalanche",
-        "correction": "Les avalanches sont des mouvements rapides de neige pouvant menacer les zones de montagne et les infrastructures."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les avalanches sont des mouvements rapides de neige pouvant menacer les zones de montagne et les infrastructures."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Le plan de prévention des risques",
-        "correct": 1,
         "correction": "Les plans de prévention des risques encadrent l'aménagement du territoire selon les aléas identifiés."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "reboisement",
-        "correction": "Le reboisement stabilise les sols, ralentit le ruissellement et limite certains mouvements de terrain."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le reboisement stabilise les sols, ralentit le ruissellement et limite certains mouvements de terrain."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La montée du niveau de la mer",
-        "correct": 0,
         "correction": "L'élévation du niveau marin augmente la fréquence et l'intensité potentielles des submersions côtières."
       },
       {

@@ -33,8 +33,8 @@
         "question": "La théorie HOS (Heckscher-Ohlin-Samuelson) prédit que les pays se spécialisent en fonction de leur dotation en facteurs de production."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce que le commerce intra-branche et en quoi contredit-il les théories classiques ?"
+        "type": "vrai-faux",
+        "question": "Cette affirmation reformule l'idée essentielle à retenir : Qu'est-ce que le commerce intra-branche et en quoi contredit-il les théories classiques."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "L'OMC (Organisation Mondiale du Commerce) promeut la libéralisation des échanges via des cycles de négociations commerciales."
       },
       {
-        "type": "open",
-        "question": "Explique le paradoxe de Léontief et comment il remet en cause la théorie HOS."
+        "type": "vrai-faux",
+        "question": "Cette affirmation reformule l'idée essentielle à retenir : Explique le paradoxe de Léontief et comment il remet en cause la théorie HOS."
       },
       {
         "type": "qcm",
@@ -83,5 +83,6 @@
       "notion": "Intégration économique mondiale",
       "description": "Notion fondamentale de SES"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

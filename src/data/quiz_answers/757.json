@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Communes, departements, regions",
-        "correct": 1,
         "correction": "La France est organisée en 3 niveaux de collectivités : 34 965 communes, 101 départements et 18 régions (dont 5 d'outre-mer)."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "prefet",
-        "correction": "Le préfet est le représentant de l'État dans le département/la région ; il veille à l'application des lois et coordonne l'action de l'État au niveau local."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le préfet est le représentant de l'État dans le département/la région ; il veille à l'application des lois et coordonne l'action de l'État au niveau local."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Action sociale (RSA, aide aux personnes agees et handicapees) et colleges",
-        "correct": 1,
         "correction": "Le département gère l'action sociale (RSA, PMI, aide aux personnes âgées/handicapées), les collèges et les routes départementales."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "budget primitif communal",
-        "correction": "Le budget primitif communal est voté chaque année par le conseil municipal avant le 31 décembre pour l'exercice suivant."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le budget primitif communal est voté chaque année par le conseil municipal avant le 31 décembre pour l'exercice suivant."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Taxe fonciere et taxe d'habitation",
-        "correct": 2,
         "correction": "Les impôts locaux (taxe foncière sur propriétés bâties et non bâties, anciennement taxe d'habitation) constituent les principales ressources propres des communes."
       },
       {

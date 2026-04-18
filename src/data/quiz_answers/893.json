@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "[2, 5, 8]",
-        "correct": 1,
         "correction": "range(début, fin_exclue, pas) : 2, 2+3=5, 5+3=8, 8+3=11 (exclu car ≥ 10). → [2, 5, 8]."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "break interrompt immédiatement la boucle entière. continue passe directement à l'itération suivante (saute le reste du corps de la boucle pour cette itération).",
-        "correction": "break sort de la boucle la plus interne. continue la reprend à l'itération suivante."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. break sort de la boucle la plus interne. continue la reprend à l'itération suivante."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Retourne un tuple (indice, valeur) pour chaque élément",
-        "correct": 1,
         "correction": "for i, v in enumerate(lst): permet d'accéder simultanément à l'indice et à la valeur, sans avoir à gérer un compteur manuellement."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "somme = 0\nfor i in range(2, 101, 2):\n    somme += i\nprint(somme)  # 2550\n# Ou: somme = sum(range(2, 101, 2))",
-        "correction": "range(2, 101, 2) génère 2, 4, 6, …, 100. sum() est encore plus concis."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. range(2, 101, 2) génère 2, 4, 6, …, 100. sum() est encore plus concis."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Un itérateur de tuples (1,'a'), (2,'b'), (3,'c')",
-        "correct": 1,
         "correction": "zip() associe les éléments de même position dans plusieurs itérables. Utile pour itérer en parallèle sur plusieurs séquences."
       },
       {

@@ -33,8 +33,8 @@
         "question": "La lumière naturelle est généralement non polarisée, tandis que la lumière réfléchie peut être partiellement polarisée."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on un dispositif optique qui ne laisse passer que les ondes lumineuses polarisées dans une certaine direction ?"
+        "type": "vrai-faux",
+        "question": "Filtre polarisant (ou polariseur)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Les cristaux liquides utilisés dans les écrans LCD exploitent la polarisation de la lumière pour afficher des images."
       },
       {
-        "type": "open",
-        "question": "Quelle est la différence entre la polarisation linéaire, circulaire et elliptique ?"
+        "type": "vrai-faux",
+        "question": "La polarisation linéaire a des vibrations dans une seule direction, la circulaire a des vibrations qui tournent en cercle, et l'elliptique a des vibrations qui décrivent une ellipse."
       },
       {
         "type": "qcm",

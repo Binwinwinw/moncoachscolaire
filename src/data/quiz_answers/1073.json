@@ -1,48 +1,71 @@
 {
-  "quiz_id": 1073,
-  "title": "Dérivée de fonctions composées (introduction)",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "answers": [
-    {
-      "question_id": "1073_1",
-      "correct_option": "B",
-      "explanation": "Règle de la chaîne : ((ax+b)ⁿ)' = n·(ax+b)ⁿ⁻¹ · a."
-    },
-    {
-      "question_id": "1073_2",
-      "correct": true,
-      "explanation": "(√u)' = u'/(2√u). u = ax+b, u' = a → a/(2√(ax+b))."
-    },
-    {
-      "question_id": "1073_3",
-      "correct_answer": "f'(x) = 12(3x + 1)³",
-      "explanation": "f' = 4·(3x+1)³ · 3 = 12(3x+1)³."
-    },
-    {
-      "question_id": "1073_4",
-      "correct_option": "B",
-      "explanation": "f' = 5·(x²+3)⁴ · 2x = 10x(x²+3)⁴."
-    },
-    {
-      "question_id": "1073_5",
-      "correct": true,
-      "explanation": "f(x) = (2x−1)⁻¹. f'(x) = −1·(2x−1)⁻² · 2 = −2/(2x−1)²."
-    },
-    {
-      "question_id": "1073_6",
-      "correct_answer": "g'(x) = x/√(x²−1)",
-      "explanation": "g = (x²−1)^(1/2). g' = (1/2)(x²−1)^(−1/2) · 2x = x/√(x²−1)."
-    },
-    {
-      "question_id": "1073_7",
-      "correct_option": "B",
-      "explanation": "h' = 3·(2x+5)² · 2 = 6(2x+5)²."
-    },
-    {
-      "question_id": "1073_8",
-      "correct": true,
-      "explanation": "C'est la règle de la chaîne : [f(g(x))]' = f'(g(x)) · g'(x)."
-    }
-  ]
+  "contents": {
+    "title": "Dérivée de fonctions composées (introduction)",
+    "level": "1ère",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Dérivée de fonctions composées (introduction)",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "",
+        "correction": "Règle de la chaîne : ((ax+b)ⁿ)' = n·(ax+b)ⁿ⁻¹ · a."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "(√u)' = u'/(2√u). u = ax+b, u' = a → a/(2√(ax+b))."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. f' = 4·(3x+1)³ · 3 = 12(3x+1)³."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "",
+        "correction": "f' = 5·(x²+3)⁴ · 2x = 10x(x²+3)⁴."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "f(x) = (2x−1)⁻¹. f'(x) = −1·(2x−1)⁻² · 2 = −2/(2x−1)²."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. g = (x²−1)^(1/2). g' = (1/2)(x²−1)^(−1/2) · 2x = x/√(x²−1)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "",
+        "correction": "h' = 3·(2x+5)² · 2 = 6(2x+5)²."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est la règle de la chaîne : [f(g(x))]' = f'(g(x)) · g'(x)."
+      }
+    ]
+  }
 }

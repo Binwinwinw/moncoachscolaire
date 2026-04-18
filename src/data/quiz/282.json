@@ -33,8 +33,8 @@
         "question": "La conduction, la convection et le rayonnement sont les trois modes de transfert thermique."
       },
       {
-        "type": "open",
-        "question": "Énoncez le deuxième principe de la thermodynamique et expliquez son implication sur l'échange de chaleur."
+        "type": "vrai-faux",
+        "question": "Le 2e principe stipule que la chaleur se transfère spontanément du corps le plus chaud vers le corps le plus froid (entropie croissante)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Lors d'un changement d'état (fusion, vaporisation), la température reste constante malgré l'apport ou la soustraction de chaleur."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce que l'effet de serre et comment contribue-t-il au réchauffement climatique ?"
+        "type": "vrai-faux",
+        "question": "L'effet de serre naturel maintient la température terrestre habitable."
       },
       {
         "type": "qcm",

@@ -33,8 +33,8 @@
         "question": "La racine d'un arbre est le nœud sans parent."
       },
       {
-        "type": "open",
-        "question": "Décrivez les trois ordres de parcours d'un arbre binaire."
+        "type": "vrai-faux",
+        "question": "Préfixe (pré-ordre) : racine, gauche, droite."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La hauteur d'un arbre binaire équilibré de n nœuds est O(log n)."
       },
       {
-        "type": "open",
-        "question": "Implémentez en Python le parcours infixe d'un arbre binaire."
+        "type": "vrai-faux",
+        "question": "Class Noeud: def __init__(self, valeur): self.valeur = valeur self.gauche = None self.droite = None def parcours_infixe(noeud): if noeud is not None: parcours_infixe(noeud.gauche) print(noeud.valeur) parcours_infixe(noeud.droite)."
       },
       {
         "type": "qcm",

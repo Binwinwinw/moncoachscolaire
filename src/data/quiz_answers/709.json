@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Une réaction chimique forcée par un courant électrique",
-        "correct": 1,
         "correction": "L'électrolyse utilise un courant électrique extérieur pour forcer une réaction redox non spontanée."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "dioxygène",
-        "correction": "À l'anode (électrode positive) : 2H2O → O2 + 4H+ + 4e-. Du O2 est libéré."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. À l'anode (électrode positive) : 2H2O → O2 + 4H+ + 4e-. Du O2 est libéré."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "À affiner les métaux et produire du chlore ou de l'hydrogène",
-        "correct": 1,
         "correction": "L'électrolyse est utilisée pour l'affinage du cuivre, la production de chlore (électrolyse du NaCl), d'aluminium et d'hydrogène."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "galvanoplastie",
-        "correction": "La galvanoplastie (ou électrodéposition) dépose un métal (or, chrome, nickel) sur un objet par électrolyse."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La galvanoplastie (ou électrodéposition) dépose un métal (or, chrome, nickel) sur un objet par électrolyse."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La masse déposée est proportionnelle à la charge électrique (loi de Faraday)",
-        "correct": 1,
         "correction": "Les lois de Faraday indiquent que m = M·Q / (F·z), reliant masse déposée, charge et équivalent électrochimique."
       },
       {

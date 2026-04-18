@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "1982",
-        "correct": 2,
         "correction": "La CNUDM (Convention de Montego Bay, 1982) est le cadre juridique fondamental régissant les espaces maritimes : eaux territoriales (12 nm), ZEE (200 nm), plateau continental, haute mer."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Surpêche et effondrement des stocks, pollution plastique et chimique, changement climatique (montée des eaux), piraterie maritime (golfe de Guinée, Somalie), conflits de ZEE (mer de Chine méridionale), câbles sous-marins vulnérables, exploitation non réglementée des grands fonds.",
-        "correction": "La CNUDM est un cadre robuste mais insuffisant face à des acteurs non signataires (USA) ou qui la contournent (Chine en mer de Chine du Sud)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La CNUDM est un cadre robuste mais insuffisant face à des acteurs non signataires (USA) ou qui la contournent (Chine en mer de Chine du Sud)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Elle est revendiquée quasi intégralement par la Chine malgré les droits d'autres pays riverains",
-        "correct": 1,
         "correction": "La 'ligne des neuf traits' chinoise englobe ~90 % de la mer de Chine méridionale, chevauchant les ZEE du Vietnam, des Philippines, de la Malaisie, de Brunei. La CPA a invalidé les revendications chinoises en 2016."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Le Traité BBNJ (Biodiversity Beyond National Jurisdiction, 2023) est le premier accord international pour protéger la biodiversité marine en haute mer. Il crée des aires marines protégées, encadre les évaluations d'impact environnemental et organise le partage des ressources génétiques marines. Il complète la CNUDM.",
-        "correction": "Surnommé 'Traité des mers', il a nécessité 20 ans de négociations. Sa ratification et mise en œuvre restent des défis."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Surnommé 'Traité des mers', il a nécessité 20 ans de négociations. Sa ratification et mise en œuvre restent des défis."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Les stocks halieutiques mondiaux, dont 35 % sont surexploités selon la FAO",
-        "correct": 1,
         "correction": "La FAO estime qu'environ 35 % des stocks de poissons sont surexploités. La surpêche menace la sécurité alimentaire de milliards de personnes dépendant de la pêche."
       },
       {

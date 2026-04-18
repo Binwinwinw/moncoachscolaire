@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "1789",
-        "correct": 1,
         "correction": "La DDHC a été adoptée le 26 août 1789 par l'Assemblée nationale constituante, au début de la Révolution française."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "liberte, propriete, surete et resistance a l'oppression",
-        "correction": "L'article 2 cite : liberté, propriété, sûreté et résistance à l'oppression comme droits naturels et imprescriptibles."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'article 2 cite : liberté, propriété, sûreté et résistance à l'oppression comme droits naturels et imprescriptibles."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La Nation",
-        "correct": 1,
         "correction": "Article 3 de la DDHC : 'Le principe de toute souveraineté réside essentiellement dans la Nation. Nul corps, nul individu ne peut exercer d'autorité qui n'en émane expressément.'"
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Liberte, Egalite, Fraternite",
-        "correction": "La devise 'Liberté, Égalité, Fraternité' est la devise officielle de la République française, inscrite dans la Constitution."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La devise 'Liberté, Égalité, Fraternité' est la devise officielle de la République française, inscrite dans la Constitution."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Article 10 (liberte d'opinion)",
-        "correct": 1,
         "correction": "L'article 10 garantit que nul ne doit être inquiété pour ses opinions, même religieuses, pourvu que leur manifestation ne trouble pas l'ordre public."
       },
       {

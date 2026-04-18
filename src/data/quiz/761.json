@@ -33,8 +33,8 @@
         "question": "La liberte d'expression est un droit absolu sans aucune limite legale."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on la propagation deliberee de fausses informations pour tromper le public ?"
+        "type": "vrai-faux",
+        "question": "La désinformation (ou infox / fake news) désigne la diffusion intentionnelle de fausses informations pour manipuler l'opinion publique."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Verifier les sources d'une information avant de la partager est une pratique essentielle de l'education aux medias."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on le phenomene par lequel les algorithmes des reseaux sociaux n'exposent l'utilisateur qu'a des informations confirmant ses opinions ?"
+        "type": "vrai-faux",
+        "question": "La chambre d'écho (ou bulle de filtre) désigne l'enfermement de l'utilisateur dans un univers informationnel homogène, renforçant ses biais cognitifs."
       },
       {
         "type": "qcm",

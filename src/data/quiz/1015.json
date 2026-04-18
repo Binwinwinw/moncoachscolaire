@@ -33,8 +33,8 @@
         "question": "La droite x = a est une asymptote verticale de f si lim(x→a) |f(x)| = +∞."
       },
       {
-        "type": "open",
-        "question": "Détermine les asymptotes de f(x) = (2x + 1) / (x − 3)."
+        "type": "vrai-faux",
+        "question": "Asymptote verticale : x = 3."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La courbe de f(x) = 1/x a deux asymptotes : x = 0 et y = 0."
       },
       {
-        "type": "open",
-        "question": "Montre que y = x est asymptote oblique de g(x) = x + sin(x)/x."
+        "type": "vrai-faux",
+        "question": "G(x) − x = sin(x)/x → 0 quand x→+∞ (car |sin(x)|≤1)."
       },
       {
         "type": "qcm",

@@ -33,8 +33,8 @@
         "question": "La datation radiométrique utilise la désintégration d'éléments radioactifs pour estimer l'âge des roches."
       },
       {
-        "type": "open",
-        "question": "Quel isotope radioactif est utilisé pour dater des restes organiques de moins de 50 000 ans ?"
+        "type": "vrai-faux",
+        "question": "Le carbone 14 (¹⁴C) a une demi-vie d'environ 5 730 ans, idéale pour dater les matières organiques récentes."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Plus un fossile est profond dans les couches sédimentaires, plus il est récent."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on les fossiles caractéristiques d'une époque géologique précise permettant de dater les couches qui les contiennent ?"
+        "type": "vrai-faux",
+        "question": "Fossiles stratigraphiques."
       },
       {
         "type": "qcm",

@@ -33,8 +33,8 @@
         "question": "Le diabète de type 2 est lié à une résistance à l'insuline souvent associée à l'obésité."
       },
       {
-        "type": "open",
-        "question": "Quel organe sécrète l'insuline pour réguler la glycémie ?"
+        "type": "vrai-faux",
+        "question": "Le pancréas endocrine sécrète l'insuline (cellules bêta des îlots de Langerhans) pour abaisser la glycémie."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Un régime trop riche en sucres rapides peut conduire à un diabète de type 2."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on l'indice qui mesure le rapport entre le poids et la taille au carré d'une personne ?"
+        "type": "vrai-faux",
+        "question": "L'Indice de Masse Corporelle (IMC = poids/taille²) permet d'évaluer si une personne est en sous-poids, normale, en surpoids ou obèse."
       },
       {
         "type": "qcm",

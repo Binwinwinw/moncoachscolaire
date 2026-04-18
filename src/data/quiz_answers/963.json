@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "B",
+        "answer": "Z",
         "correction": "Z est l'ensemble des entiers relatifs (positifs, négatifs et zéro). N ne contient que les entiers naturels (≥ 0)."
       },
       {
@@ -27,15 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "√2 est irrationnel : sa représentation décimale est infinie et non périodique, il ne peut pas s'écrire p/q avec p, q entiers.",
-        "correction": "√2 ≈ 1,41421… n'est pas périodique. La preuve classique par l'absurde montre qu'on ne peut pas l'écrire p/q."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. √2 ≈ 1,41421… n'est pas périodique. La preuve classique par l'absurde montre qu'on ne peut pas l'écrire p/q."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "B",
+        "answer": "√3",
         "correction": "√3 est irrationnel (non rationnel). Les autres sont des décimaux ou fractions, donc rationnels."
       },
       {
@@ -48,15 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "N ⊂ Z ⊂ D ⊂ Q ⊂ R",
-        "correction": "Chaque ensemble est inclus dans le suivant : les entiers naturels sont dans Z, les entiers dans D (via fractions décimales), D dans Q, Q dans R."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Chaque ensemble est inclus dans le suivant : les entiers naturels sont dans Z, les entiers dans D (via fractions décimales), D dans Q, Q dans R."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "A",
+        "answer": "9/2",
         "correction": "Par convention, √9 désigne la racine carrée positive : √9 = 3."
       },
       {

@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le rapport entre l'energie utile produite et l'energie totale consommee",
-        "correct": 1,
         "correction": "Le rendement eta = E_utile / E_consommee (exprime en %) mesure l'efficacite d'un systeme ; l'energie non utile est dissipee en chaleur (pertes)."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "puissance nominale",
-        "correction": "La puissance nominale (en W ou kW) indiquee sur un appareil est la puissance electrique absorbee dans des conditions normales de fonctionnement."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La puissance nominale (en W ou kW) indiquee sur un appareil est la puissance electrique absorbee dans des conditions normales de fonctionnement."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Accumulateur (batterie)",
-        "correct": 1,
         "correction": "L'accumulateur (batterie) stocke l'energie electrique sous forme d'energie chimique lors de la charge et la restitue lors de la decharge."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "effet Joule",
-        "correction": "L'effet Joule (Q = R × I² × t) est la dissipation d'energie electrique en chaleur dans les conducteurs resistifs ; minimiser les pertes Joule ameliore le rendement."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'effet Joule (Q = R × I² × t) est la dissipation d'energie electrique en chaleur dans les conducteurs resistifs ; minimiser les pertes Joule ameliore le rendement."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "L'etiquette energie (classes A a G)",
-        "correct": 0,
         "correction": "L'etiquette energie europeenne (classes A a G) permet aux consommateurs de comparer la consommation energetique des appareils et d'identifier les plus efficients."
       },
       {

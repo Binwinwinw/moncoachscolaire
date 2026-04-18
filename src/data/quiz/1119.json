@@ -33,8 +33,8 @@
         "question": "L'autofinancement correspond à l'utilisation des bénéfices non distribués (épargne interne) pour financer les investissements."
       },
       {
-        "type": "open",
-        "question": "Distingue action et obligation comme instruments de financement pour une entreprise."
+        "type": "vrai-faux",
+        "question": "Cette affirmation reformule l'idée essentielle à retenir : Distingue action et obligation comme instruments de financement pour une entreprise."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Le taux d'intérêt directeur de la BCE influence le coût du crédit dans la zone euro."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce que l'effet de levier financier et quand devient-il dangereux ?"
+        "type": "vrai-faux",
+        "question": "Cette affirmation reformule l'idée essentielle à retenir : Qu'est-ce que l'effet de levier financier et quand devient-il dangereux."
       },
       {
         "type": "qcm",
@@ -83,5 +83,6 @@
       "notion": "Intégration économique mondiale",
       "description": "Notion fondamentale de SES"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

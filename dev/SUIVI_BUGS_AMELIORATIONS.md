@@ -14,6 +14,8 @@ Preuves :
 
 Impact : amélioration nette de la qualité des quizzes servis en production locale.
 
+Pattern validé pour les prochains lots : après vérification et approbation des quiz générés, copier `quiz/` et `quiz_answers/` dans les dossiers runtime puis supprimer le dossier temporaire de génération.
+
 ---
 
 ## [06/04/2026] 🚀 ENRICHISSEMENT MASIF QUIZZES — +945 quizzes valides (1684 total)

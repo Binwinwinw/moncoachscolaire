@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "float",
-        "correct": 1,
         "correction": "3.14 est un flottant (float). En Python, type(3.14) retourne <class 'float'>."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "/ est la division réelle (retourne toujours un float). // est la division entière (retourne le quotient entier, arrondi vers -inf). Ex : 7/2 = 3.5 ; 7//2 = 3 ; -7//2 = -4.",
-        "correction": "// est utile pour l'algorithmique (indices, modulo) quand on veut un résultat entier."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. // est utile pour l'algorithmique (indices, modulo) quand on veut un résultat entier."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "2",
-        "correct": 1,
+        "answer": "3.4",
         "correction": "% est l'opérateur modulo (reste de la division entière). 17 = 5×3 + 2, donc 17 % 5 = 2."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "= est l'opérateur d'affectation : x = 5 assigne la valeur 5 à x. == est l'opérateur de comparaison d'égalité : x == 5 retourne True ou False. Confondre les deux est une erreur courante.",
-        "correction": "Autre confusion fréquente : is (identité d'objet) vs == (égalité de valeur)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Autre confusion fréquente : is (identité d'objet) vs == (égalité de valeur)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "<class 'str'>",
-        "correct": 1,
         "correction": "type() retourne l'objet classe. En Python 3, type('hello') affiche <class 'str'>. isinstance('hello', str) retourne True."
       },
       {

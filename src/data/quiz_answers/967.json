@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "B",
+        "answer": "7",
         "correction": "|−7| = 7. La valeur absolue est toujours positive ou nulle."
       },
       {
@@ -27,15 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "x = 8 ou x = −2",
-        "correction": "|x−3| = 5 donne x−3 = 5 (x=8) ou x−3 = −5 (x=−2)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. |x−3| = 5 donne x−3 = 5 (x=8) ou x−3 = −5 (x=−2)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "B",
+        "answer": "7",
         "correction": "d(A,B) = |5 − (−2)| = |7| = 7."
       },
       {
@@ -48,15 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "L'intervalle [−3 ; 5] (tous les x à distance ≤ 4 du point 1).",
-        "correction": "|x−1| ≤ 4 ⟺ −4 ≤ x−1 ≤ 4 ⟺ −3 ≤ x ≤ 5, soit x ∈ [−3 ; 5]."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. |x−1| ≤ 4 ⟺ −4 ≤ x−1 ≤ 4 ⟺ −3 ≤ x ≤ 5, soit x ∈ [−3 ; 5]."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "C",
+        "answer": "5",
         "correction": "|−3| + |2| = 3 + 2 = 5."
       },
       {

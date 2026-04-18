@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'espace est un bien commun de toute l'humanité, non appropriable",
-        "correct": 1,
         "correction": "Le concept de 'province de toute l'humanité' (common heritage of mankind) interdit toute revendication de souveraineté sur l'espace et les corps célestes."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Les pays en développement n'ont pas les moyens techniques et financiers d'accéder à l'espace. Le principe de patrimoine commun garantit que les ressources spatiales bénéficieraient à tous, pas seulement aux grandes puissances spatiales. Sans ce principe, l'espace risque de devenir le monopole de quelques nations riches.",
-        "correction": "Ce débat rappelle celui sur le droit de la mer (CNUDM, 1982) et le partage des ressources des grands fonds marins."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Ce débat rappelle celui sur le droit de la mer (CNUDM, 1982) et le partage des ressources des grands fonds marins."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Le Bureau des Nations Unies pour les affaires de l'espace extra-atmosphérique",
-        "correct": 1,
         "correction": "L'UNOOSA (United Nations Office for Outer Space Affairs) coordonne la coopération internationale pacifique dans l'espace et administre les traités spatiaux."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Prolifération des acteurs (privés, nouveaux États), absence de règles sur les ASAT, gestion des débris, régulation de l'exploitation des ressources, prévention des conflits, équité d'accès pour les pays en développement, attribution des orbites. Le Traité de 1967 est insuffisant face à ces nouveaux enjeux.",
-        "correction": "Une réforme de la gouvernance spatiale internationale est jugée nécessaire par de nombreux experts mais se heurte aux rivalités entre puissances."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Une réforme de la gouvernance spatiale internationale est jugée nécessaire par de nombreux experts mais se heurte aux rivalités entre puissances."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Promouvoir la coopération internationale et élaborer les normes spatiales",
-        "correct": 1,
         "correction": "Le COPUOS (Committee on the Peaceful Uses of Outer Space) est le principal forum onusien sur l'espace. Il a produit les cinq traités spatiaux majeurs."
       },
       {

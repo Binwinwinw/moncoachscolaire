@@ -1,54 +1,47 @@
 #!/usr/bin/env python3
-"""Comparer public/quiz vs src/data/quiz"""
+"""Comparer les dossiers quiz runtime pour vérifier la cohérence des IDs."""
 
-import json
+from __future__ import annotations
+
+import argparse
 from pathlib import Path
-import hashlib
 
-repo_root = Path(__file__).resolve().parents[3]
-public_dir = repo_root / "public" / "quiz"
-src_dir = repo_root / "src" / "data" / "quiz"
+REPO_ROOT = Path(__file__).resolve().parents[4]
+DEFAULT_LEFT = REPO_ROOT / "src" / "data" / "quiz"
+DEFAULT_RIGHT = REPO_ROOT / "src" / "data" / "quiz_answers"
 
-public_files = sorted([p.name for p in public_dir.glob("*.json")])
-src_files = sorted([p.name for p in src_dir.glob("*.json")])
 
-print(f"[compare] public/quiz: {len(public_files)} fichiers")
-print(f"[compare] src/data/quiz: {len(src_files)} fichiers")
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Comparer deux dossiers JSON de quiz.")
+    parser.add_argument("--left", default=str(DEFAULT_LEFT), help="Premier dossier")
+    parser.add_argument("--right", default=str(DEFAULT_RIGHT), help="Second dossier")
+    return parser.parse_args()
 
-if public_files != src_files:
-    print("\n[WARN] Listes différentes!")
-    missing_in_src = set(public_files) - set(src_files)
-    missing_in_public = set(src_files) - set(public_files)
-    if missing_in_src:
-        print(f"  Manquants dans src/data/quiz: {sorted(missing_in_src)}")
-    if missing_in_public:
-        print(f"  Manquants dans public/quiz: {sorted(missing_in_public)}")
-else:
-    print("\n[OK] Même liste de fichiers")
 
-different_count = 0
-identical_count = 0
+def main() -> None:
+    args = parse_args()
+    left_dir = Path(args.left)
+    right_dir = Path(args.right)
 
-for filename in public_files:
-    if filename not in src_files:
-        continue
+    left_files = sorted(p.stem for p in left_dir.glob("*.json")) if left_dir.exists() else []
+    right_files = sorted(p.stem for p in right_dir.glob("*.json")) if right_dir.exists() else []
 
-    public_path = public_dir / filename
-    src_path = src_dir / filename
+    print(f"[compare] left: {left_dir} -> {len(left_files)} fichiers")
+    print(f"[compare] right: {right_dir} -> {len(right_files)} fichiers")
 
-    public_hash = hashlib.sha256(public_path.read_bytes()).hexdigest()
-    src_hash = hashlib.sha256(src_path.read_bytes()).hexdigest()
+    missing_in_right = sorted(set(left_files) - set(right_files), key=lambda x: int(x) if x.isdigit() else x)
+    missing_in_left = sorted(set(right_files) - set(left_files), key=lambda x: int(x) if x.isdigit() else x)
 
-    if public_hash != src_hash:
-        different_count += 1
-        print(f"  [DIFF] {filename}")
-    else:
-        identical_count += 1
+    if not missing_in_right and not missing_in_left:
+        print("\n[OK] Les deux dossiers ont les mêmes IDs de quiz")
+        return
 
-print(f"\n[compare] Identiques: {identical_count}")
-print(f"[compare] Différents: {different_count}")
+    print("\n[WARN] Désynchronisation détectée")
+    if missing_in_right:
+        print(f"  Manquants à droite: {missing_in_right[:100]}")
+    if missing_in_left:
+        print(f"  Manquants à gauche: {missing_in_left[:100]}")
 
-if different_count == 0 and len(public_files) == len(src_files):
-    print("\n[OK] Les deux dossiers sont IDENTIQUES - sûr de supprimer public/quiz/")
-else:
-    print("\n[WARN] Différences détectées - synchroniser d'abord!")
+
+if __name__ == "__main__":
+    main()

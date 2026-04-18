@@ -33,8 +33,8 @@
         "question": "La phase S (synthèse) du cycle cellulaire est la phase pendant laquelle l'ADN est répliqué."
       },
       {
-        "type": "open",
-        "question": "La mitose comprend 4 phases : prophase, métaphase, anaphase et _____."
+        "type": "vrai-faux",
+        "question": "PMAT : Prophase (condensation chromosomes), Métaphase (alignement), Anaphase (séparation chromatides), Télophase (décondensation + cytocinèse)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Les cellules cancéreuses se divisent de façon incontrôlée car les mécanismes de contrôle du cycle cellulaire sont défaillants."
       },
       {
-        "type": "open",
-        "question": "La télomère est une séquence répétée au bout de chaque chromosome qui raccourcit à chaque _____."
+        "type": "vrai-faux",
+        "question": "Le raccourcissement des télomères limite le nombre de divisions cellulaires ; la télomérase (enzyme) peut les rallonger (cellules souches, cancéreuses)."
       },
       {
         "type": "qcm",

@@ -33,8 +33,8 @@
         "question": "La daltonisme (confusion des couleurs rouge-vert) est une maladie liée au chromosome X, plus fréquente chez les garçons."
       },
       {
-        "type": "open",
-        "question": "Une femme conductrice (hétérozygote XD Xd pour un allèle récessif lié à l'X) transmet l'allèle récessif à _____ % de ses fils."
+        "type": "vrai-faux",
+        "question": "La mère XD Xd produit des gamètes XD et Xd en proportion égale (50%) ; chaque fils reçoit le chromosome Y du père."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La maladie de Huntington est une maladie autosomique dominante : un seul allèle muté suffit pour être atteint."
       },
       {
-        "type": "open",
-        "question": "Le diagnostic prénatal (amniocentèse, biopsie de trophoblaste) permet d'analyser le _____ du foetus pour détecter des anomalies chromosomiques."
+        "type": "vrai-faux",
+        "question": "L'analyse du caryotype foetal révèle les trisomies (21, 18, 13) et autres anomalies chromosomiques."
       },
       {
         "type": "qcm",

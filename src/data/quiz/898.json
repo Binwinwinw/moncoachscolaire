@@ -33,8 +33,8 @@
         "question": "En binaire, le nombre 1011 représente le nombre décimal 11."
       },
       {
-        "type": "open",
-        "question": "Comment convertir un nombre décimal en binaire ?"
+        "type": "vrai-faux",
+        "question": "Diviser le nombre par 2 et noter le reste."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Le code ASCII utilise 7 bits pour représenter les caractères."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce que le code Unicode et pourquoi a-t-il été créé ?"
+        "type": "vrai-faux",
+        "question": "Unicode est un standard de codage de caractères qui utilise jusqu'à 32 bits pour représenter plus d'un million de caractères, couvrant presque tous les systèmes d'écriture du monde."
       },
       {
         "type": "qcm",

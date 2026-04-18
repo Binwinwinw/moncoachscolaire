@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Des objets hachables (immuables)",
-        "correct": 2,
         "correction": "Les clés doivent être hachables : int, str, tuple (immuable) sont valides. Les listes (mutables) ne peuvent pas être clés."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "for k in d: (clés) ; for v in d.values(): (valeurs) ; for k, v in d.items(): (paires clé-valeur). d.keys() retourne les clés, d.values() les valeurs, d.items() les tuples (clé, valeur).",
-        "correction": "Ces méthodes retournent des vues dynamiques qui reflètent les modifications du dictionnaire."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Ces méthodes retournent des vues dynamiques qui reflètent les modifications du dictionnaire."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "O(1)",
-        "correct": 2,
         "correction": "Les dictionnaires Python sont implémentés avec des tables de hachage. L'accès, l'insertion et la suppression sont en O(1) en moyenne."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Un dict comprehension crée un dictionnaire en une expression. Ex : {x: x**2 for x in range(5)} = {0:0, 1:1, 2:4, 3:9, 4:16}.",
-        "correction": "Syntaxe : {clé: valeur for élément in itérable if condition}."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Syntaxe : {clé: valeur for élément in itérable if condition}."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Fusionner un autre dictionnaire (ou itérable de paires) dans le dictionnaire",
-        "correct": 1,
         "correction": "d.update(d2) ajoute/modifie les clés de d avec celles de d2. En Python 3.9+, on peut aussi utiliser d | d2."
       },
       {

@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Analyser le sujet et dégager la problématique",
-        "correct": 1,
         "correction": "Avant tout plan ou rédaction, il faut comprendre précisément ce que le sujet demande."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "dialectique",
-        "correction": "Le plan dialectique (thèse / antithèse / synthèse) convient aux sujets d'opinion à nuancer."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le plan dialectique (thèse / antithèse / synthèse) convient aux sujets d'opinion à nuancer."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Bilan de la partie et annonce de la suivante",
-        "correct": 1,
         "correction": "La transition (ou lien) assure la progression logique du devoir."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "exemple",
-        "correction": "L'exemple littéraire précis donne du poids à l'argument et montre la maîtrise des textes."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'exemple littéraire précis donne du poids à l'argument et montre la maîtrise des textes."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Un bilan des arguments et une ouverture",
-        "correct": 1,
         "correction": "La conclusion synthétise la réponse à la problématique, puis ouvre sur une perspective plus large."
       },
       {

@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Les États, les entreprises privées, la société civile et la communauté technique",
-        "correct": 1,
         "correction": "Le modèle multipartite (multistakeholder) est défendu par les USA et l'Occident. Il s'oppose au modèle intergouvernemental défendu par la Russie et la Chine via l'UIT."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "La neutralité du Net est le principe selon lequel tous les flux de données doivent être traités de façon égale par les opérateurs (sans discrimination par source, destination ou type). Elle protège l'innovation et la liberté d'expression. Elle est remise en cause par les opérateurs qui veulent faire payer plus pour des contenus prioritaires, et par les États qui veulent contrôler certains contenus.",
-        "correction": "L'UE garantit la neutralité du Net par règlement depuis 2016. Aux USA, la neutralité a été abrogée en 2017 puis rétablie en 2024."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'UE garantit la neutralité du Net par règlement depuis 2016. Aux USA, la neutralité a été abrogée en 2017 puis rétablie en 2024."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Règlement Général de Protection des Données",
-        "correct": 0,
         "correction": "Le RGPD (2018) est le règlement européen sur la protection des données personnelles. Il s'applique à toute organisation traitant des données de résidents européens, y compris les GAFAM."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "La souveraineté numérique désigne la capacité d'un État à maîtriser ses données, ses infrastructures et ses règles dans le cyberespace. L'Europe cherche à réduire sa dépendance aux GAFAM américains et aux équipements chinois (Huawei 5G), à développer son cloud souverain (GAIA-X), à réguler les plateformes (DSA, DMA) et à protéger les données des citoyens (RGPD).",
-        "correction": "La souveraineté numérique est un défi difficile à atteindre compte tenu de la domination technologique américaine et de l'intégration mondiale des chaînes numériques."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La souveraineté numérique est un défi difficile à atteindre compte tenu de la domination technologique américaine et de l'intégration mondiale des chaînes numériques."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Responsabiliser les plateformes numériques pour les contenus illicites et les pratiques monopolistiques",
-        "correct": 1,
         "correction": "Le DSA (2022) impose aux grandes plateformes des obligations de transparence, de lutte contre les contenus illicites et de respect des droits des utilisateurs, sous peine d'amendes importantes."
       },
       {

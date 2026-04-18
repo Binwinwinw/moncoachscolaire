@@ -33,8 +33,8 @@
         "question": "L'allocation chômage en France est versée par Pôle emploi (France Travail)."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce que la flexicurité et quel pays en est le modèle ?"
+        "type": "vrai-faux",
+        "question": "La flexicurité combine flexibilité du marché du travail (facilité d'embauche et de licenciement) et sécurité pour les salariés (généreux système d'indemnisation et politiques actives d'emploi)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La formation professionnelle est considérée comme une politique active de l'emploi."
       },
       {
-        "type": "open",
-        "question": "Expliquez le débat entre politiques de l'offre et politiques de la demande pour lutter contre le chômage."
+        "type": "vrai-faux",
+        "question": "Politiques de l'offre (libérales) : réduire les rigidités du marché du travail, baisser les cotisations, flexibiliser l'emploi."
       },
       {
         "type": "qcm",

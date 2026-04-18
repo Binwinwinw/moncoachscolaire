@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'invasion de la Pologne par l'Allemagne nazie",
-        "correct": 1,
         "correction": "Le 1er septembre 1939, l'Allemagne envahit la Pologne ; la France et le Royaume-Uni déclarent la guerre à l'Allemagne le 3 septembre."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "18",
-        "correction": "L'Appel du 18 juin 1940 de De Gaulle sur la BBC refuse l'armistice et appelle les Français à continuer la lutte."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'Appel du 18 juin 1940 de De Gaulle sur la BBC refuse l'armistice et appelle les Français à continuer la lutte."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La combinaison rapide de blindés, aviation et infanterie motorisée",
-        "correct": 1,
         "correction": "La Blitzkrieg (foudre) contourne les défenses ennemies grâce à la rapidité et à la combinaison des armes."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "collaboration",
-        "correction": "Le régime de Vichy collabore activement avec l'Allemagne nazie, notamment pour la déportation des Juifs."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le régime de Vichy collabore activement avec l'Allemagne nazie, notamment pour la déportation des Juifs."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Normandie",
-        "correct": 2,
         "correction": "L'opération Overlord (6 juin 1944) voit les Alliés débarquer sur les plages de Normandie ; c'est le début de la libération de l'Europe occidentale."
       },
       {

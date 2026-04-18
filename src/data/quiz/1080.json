@@ -1,69 +1,73 @@
 {
-  "id": 1080,
-  "title": "Équations trigonométriques",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "created_at": "2026-03-13T18:54:00.434004Z",
-  "questions": [
-    {
-      "id": "1080_1",
-      "type": "qcm",
-      "question": "Les solutions de cos(x) = 1/2 sur R sont :",
-      "options": [
-        "x = π/3 + 2kπ",
-        "x = ±π/3 + 2kπ",
-        "x = π/3 + kπ",
-        "x = π/6 + kπ"
-      ]
-    },
-    {
-      "id": "1080_2",
-      "type": "vrai-faux",
-      "question": "sin(x) = a admet des solutions si et seulement si |a| ≤ 1."
-    },
-    {
-      "id": "1080_3",
-      "type": "texte",
-      "question": "Résous sin(x) = √3/2 sur [0, 2π[."
-    },
-    {
-      "id": "1080_4",
-      "type": "qcm",
-      "question": "Les solutions de sin(x) = 0 sont :",
-      "options": [
-        "x = π/2 + kπ",
-        "x = kπ",
-        "x = 2kπ",
-        "x = π + 2kπ"
-      ]
-    },
-    {
-      "id": "1080_5",
-      "type": "vrai-faux",
-      "question": "cos(x) = 0 ⟺ x = π/2 + kπ (k ∈ Z)."
-    },
-    {
-      "id": "1080_6",
-      "type": "texte",
-      "question": "Résous 2cos(x) − 1 = 0 sur [0, 2π[."
-    },
-    {
-      "id": "1080_7",
-      "type": "qcm",
-      "question": "Combien de solutions sur [0, 2π[ possède sin(x) = −1/2 ?",
-      "options": [
-        "0",
-        "1",
-        "2",
-        "4"
-      ]
-    },
-    {
-      "id": "1080_8",
-      "type": "vrai-faux",
-      "question": "L'équation cos(2x) = 1 est équivalente à 2x = 2kπ, soit x = kπ."
-    }
-  ],
+  "contents": {
+    "title": "Équations trigonométriques",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Mathématiques",
+    "description": "",
+    "status": "published"
+  },
+  "quiz": {
+    "title": "Équations trigonométriques",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Les solutions de cos(x) = 1/2 sur R sont :",
+        "choices": [
+          "x = π/3 + 2kπ",
+          "x = ±π/3 + 2kπ",
+          "x = π/3 + kπ",
+          "x = π/6 + kπ"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "sin(x) = a admet des solutions si et seulement si |a| ≤ 1."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "X = π/3 ou x = 2π/3."
+      },
+      {
+        "type": "qcm",
+        "question": "Les solutions de sin(x) = 0 sont :",
+        "choices": [
+          "x = π/2 + kπ",
+          "x = kπ",
+          "x = 2kπ",
+          "x = π + 2kπ"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "cos(x) = 0 ⟺ x = π/2 + kπ (k ∈ Z)."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "X = π/3 ou x = 5π/3."
+      },
+      {
+        "type": "qcm",
+        "question": "Combien de solutions sur [0, 2π[ possède sin(x) = −1/2 ?",
+        "choices": [
+          "0",
+          "1",
+          "2",
+          "4"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'équation cos(2x) = 1 est équivalente à 2x = 2kπ, soit x = kπ."
+      }
+    ]
+  },
   "exercisenotion": [
     {
       "notion": "Fondamentaux de Indéfini",
@@ -77,5 +81,6 @@
       "notion": "Savoir-faire indéfini",
       "description": "Notion du programme Indéfini"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

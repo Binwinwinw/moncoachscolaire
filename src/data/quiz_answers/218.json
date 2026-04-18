@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le romantisme",
-        "correct": 1,
         "correction": "Victor Hugo est une figure majeure du romantisme au XIXe siècle. Ce mouvement valorise la sensibilité, l'histoire et la liberté créatrice."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "théâtre",
-        "correction": "Le théâtre est un genre destiné à la représentation. Son écriture combine dialogues, indications scéniques et structure en actes ou scènes."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le théâtre est un genre destiné à la représentation. Son écriture combine dialogues, indications scéniques et structure en actes ou scènes."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La recherche de l'ordre, de la mesure et de la clarté",
-        "correct": 1,
         "correction": "Le classicisme valorise la raison, la maîtrise et l'équilibre. Il s'appuie sur des règles formelles et un idéal de clarté."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "romantisme",
-        "correction": "Le romantisme place au centre l'expression de la subjectivité. Il privilégie le lyrisme, l'élan personnel et la sensibilité."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le romantisme place au centre l'expression de la subjectivité. Il privilégie le lyrisme, l'élan personnel et la sensibilité."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Le roman",
-        "correct": 0,
         "correction": "Le roman raconte une histoire construite autour de personnages et d'une intrigue. Il peut adopter des formes et des époques variées."
       },
       {

@@ -33,8 +33,8 @@
         "question": "(x − 2)(x + 3) = 0 admet deux solutions : x = 2 et x = −3."
       },
       {
-        "type": "open",
-        "question": "Résous x² − x = 0 par factorisation."
+        "type": "vrai-faux",
+        "question": "X² − x = x(x−1) = 0 → x = 0 ou x − 1 = 0 → x = 1."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Pour résoudre une équation produit-nul, il faut d'abord mettre le membre gauche sous forme développée."
       },
       {
-        "type": "open",
-        "question": "Résous x² − 4 = 0 en utilisant la factorisation."
+        "type": "vrai-faux",
+        "question": "X² − 4 = (x−2)(x+2) = 0 → x = 2 ou x = −2."
       },
       {
         "type": "qcm",

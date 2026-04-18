@@ -1,48 +1,71 @@
 {
-  "quiz_id": 1079,
-  "title": "Formules trigonométriques",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "answers": [
-    {
-      "question_id": "1079_1",
-      "correct_option": "B",
-      "explanation": "cos(π − x) = −cos(x). Formule d'angle supplémentaire."
-    },
-    {
-      "question_id": "1079_2",
-      "correct": true,
-      "explanation": "sin(π − x) = sin(x). Les angles supplémentaires ont le même sinus."
-    },
-    {
-      "question_id": "1079_3",
-      "correct_answer": "cos²(x) = 1 − sin²(x)",
-      "explanation": "En isolant cos²(x) dans l'identité fondamentale."
-    },
-    {
-      "question_id": "1079_4",
-      "correct_option": "B",
-      "explanation": "sin(π/2 − x) = cos(x). Formule de co-fonction."
-    },
-    {
-      "question_id": "1079_5",
-      "correct": true,
-      "explanation": "Formule de co-fonction : cos(π/2 − x) = sin(x)."
-    },
-    {
-      "question_id": "1079_6",
-      "correct_answer": "1 + sin²(x)·cos²(y) (pas de simplification supplémentaire sans info sur y)",
-      "explanation": "sin²(x)+cos²(x)=1, donc l'expression devient 1 + sin²(x)·cos²(y)."
-    },
-    {
-      "question_id": "1079_7",
-      "correct_option": "B",
-      "explanation": "cos(2π − x) = cos(−x) = cos(x) (cosinus paire et périodicité)."
-    },
-    {
-      "question_id": "1079_8",
-      "correct": true,
-      "explanation": "La tangente est le rapport sin/cos, définie pour cos(x) ≠ 0, i.e. x ≠ π/2 + kπ."
-    }
-  ]
+  "contents": {
+    "title": "Formules trigonométriques",
+    "level": "1ère",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Formules trigonométriques",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "",
+        "correction": "cos(π − x) = −cos(x). Formule d'angle supplémentaire."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "sin(π − x) = sin(x). Les angles supplémentaires ont le même sinus."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. En isolant cos²(x) dans l'identité fondamentale."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "",
+        "correction": "sin(π/2 − x) = cos(x). Formule de co-fonction."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Formule de co-fonction : cos(π/2 − x) = sin(x)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. sin²(x)+cos²(x)=1, donc l'expression devient 1 + sin²(x)·cos²(y)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "",
+        "correction": "cos(2π − x) = cos(−x) = cos(x) (cosinus paire et périodicité)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La tangente est le rapport sin/cos, définie pour cos(x) ≠ 0, i.e. x ≠ π/2 + kπ."
+      }
+    ]
+  }
 }

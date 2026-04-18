@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "v = d / t",
-        "correct": 2,
         "correction": "La vitesse moyenne est le rapport de la distance parcourue d (en mètres) sur le temps t (en secondes) : v = d/t, exprimée en m/s."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "le mètre par seconde (m/s)",
-        "correction": "L'unité SI de la vitesse est le mètre par seconde (m/s). En pratique, on utilise souvent le km/h : 1 m/s = 3,6 km/h."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'unité SI de la vitesse est le mètre par seconde (m/s). En pratique, on utilise souvent le km/h : 1 m/s = 3,6 km/h."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La variation de vitesse de l'objet par unité de temps",
-        "correct": 1,
         "correction": "L'accélération a = Δv/Δt représente la variation de vitesse par unité de temps. Son unité est le m/s²."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "F = m × a (la résultante des forces = masse × accélération)",
-        "correction": "La deuxième loi de Newton : la résultante vectorielle des forces F = ma, où F est en newtons, m en kg et a en m/s²."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La deuxième loi de Newton : la résultante vectorielle des forces F = ma, où F est en newtons, m en kg et a en m/s²."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "9,81 m/s²",
-        "correct": 1,
         "correction": "En chute libre sur Terre, l'objet est soumis uniquement à son poids. Son accélération est g ≈ 9,81 m/s² (valeur approchée : 10 m/s²)."
       },
       {

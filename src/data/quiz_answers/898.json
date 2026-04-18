@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Binaire",
-        "correct": 1,
         "correction": "Les ordinateurs utilisent le système binaire (base 2) car il est plus facile de représenter deux états (0 et 1) avec des composants électroniques."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Diviser le nombre par 2 et noter le reste. Répéter avec le quotient jusqu'à ce que le quotient soit 0. Les restes lus à l'envers donnent le nombre binaire. Ex : 13 → 13/2=6 reste 1, 6/2=3 reste 0, 3/2=1 reste 1, 1/2=0 reste 1 → binaire = 1101.",
-        "correction": "Cette méthode est appelée la division successive. Pour les nombres entiers, on peut aussi utiliser des puissances de 2."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Cette méthode est appelée la division successive. Pour les nombres entiers, on peut aussi utiliser des puissances de 2."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "0xFF",
-        "correct": 0,
         "correction": "255 en décimal = 15×16¹ + 15×16⁰ = 0xFF en hexadécimal. En binaire, 255 = 11111111."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Unicode est un standard de codage de caractères qui utilise jusqu'à 32 bits pour représenter plus d'un million de caractères, couvrant presque tous les systèmes d'écriture du monde. Il a été créé pour résoudre les limitations d'ASCII et permettre l'internationalisation des logiciels.",
-        "correction": "UTF-8 est une implémentation de Unicode qui utilise 1 à 4 octets par caractère, compatible avec ASCII."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. UTF-8 est une implémentation de Unicode qui utilise 1 à 4 octets par caractère, compatible avec ASCII."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "1000",
-        "correct": 0,
         "correction": "AND (ET) : 1 AND 1 = 1, sinon 0. 1010 AND 1100 = 1000."
       },
       {

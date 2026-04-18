@@ -33,8 +33,8 @@
         "question": "En situation de concurrence pure et parfaite, chaque producteur est « preneur de prix » (price taker)."
       },
       {
-        "type": "open",
-        "question": "Quelles sont les cinq conditions de la concurrence pure et parfaite ?"
+        "type": "vrai-faux",
+        "question": "Cette affirmation reformule l'idée essentielle à retenir : Quelles sont les cinq conditions de la concurrence pure et parfaite."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "L'optimum de Pareto est atteint quand il est impossible d'améliorer la situation d'un agent sans détériorer celle d'un autre."
       },
       {
-        "type": "open",
-        "question": "Explique pourquoi un prix plancher (prix minimum légal) crée un surplus d'offre."
+        "type": "vrai-faux",
+        "question": "Cette affirmation reformule l'idée essentielle à retenir : Explique pourquoi un prix plancher (prix minimum légal) crée un surplus d'offre."
       },
       {
         "type": "qcm",
@@ -83,5 +83,6 @@
       "notion": "Intégration économique mondiale",
       "description": "Notion fondamentale de SES"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Une modification permanente et héritable de la séquence d'ADN",
-        "correct": 1,
         "correction": "Les mutations modifient de façon permanente la séquence d'ADN ; si elles touchent les cellules germinales, elles sont transmissibles à la descendance."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "ponctuelle",
-        "correction": "La mutation ponctuelle (substitution) est la plus fréquente ; elle peut être silencieuse, faux-sens ou non-sens selon son effet sur le codon."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La mutation ponctuelle (substitution) est la plus fréquente ; elle peut être silencieuse, faux-sens ou non-sens selon son effet sur le codon."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Les rayonnements UV, les rayons X et certains produits chimiques",
-        "correct": 1,
         "correction": "Les UV (soleil) endommagent l'ADN ; les rayons X et gamma ionisent les molécules ; certains cancérigènes chimiques alkylent les bases de l'ADN."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "réplication",
-        "correction": "Les mécanismes de réparation (excision de nucléotides, réparation par mésappariement) réduisent considérablement le taux de mutations."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les mécanismes de réparation (excision de nucléotides, réparation par mésappariement) réduisent considérablement le taux de mutations."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "N'affecte que l'individu porteur, pas ses descendants",
-        "correct": 1,
         "correction": "Les mutations somatiques ne sont pas transmises aux gamètes ; elles peuvent causer des cancers chez l'individu mais ne sont pas héritables."
       },
       {

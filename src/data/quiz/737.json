@@ -33,8 +33,8 @@
         "question": "Une diode laisse passer le courant dans les deux sens."
       },
       {
-        "type": "open",
-        "question": "Quel est le principal élément chimique utilisé pour fabriquer la plupart des semi-conducteurs ?"
+        "type": "vrai-faux",
+        "question": "Le silicium est le semi-conducteur le plus utilisé en électronique, notamment pour la fabrication des transistors et circuits intégrés."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Le dopage d'un semi-conducteur consiste à lui ajouter des impuretés pour modifier sa conductivité."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on le montage qui utilise des diodes pour convertir un courant alternatif en courant continu ?"
+        "type": "vrai-faux",
+        "question": "Redresseur (ou pont de Graetz)."
       },
       {
         "type": "qcm",

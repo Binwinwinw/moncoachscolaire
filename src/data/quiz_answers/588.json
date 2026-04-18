@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La CEE",
-        "correct": 1,
         "correction": "La Communauté économique européenne naît en 1957."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "2002",
-        "correction": "Mise en circulation fiduciaire le 1er janvier 2002."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Mise en circulation fiduciaire le 1er janvier 2002."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La Commission européenne",
-        "correct": 1,
         "correction": "Elle détient l'initiative législative dans l'UE."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Erasmus",
-        "correction": "Erasmus facilite les études dans un autre pays européen."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Erasmus facilite les études dans un autre pays européen."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Concilier intégration, souveraineté et transition écologique",
-        "correct": 1,
         "correction": "L'UE doit équilibrer unité, diversité et défis contemporains."
       },
       {

@@ -33,8 +33,8 @@
         "question": "La transmission synaptique est chimique : des neurotransmetteurs sont libérés dans la fente synaptique."
       },
       {
-        "type": "open",
-        "question": "L'acétylcholine est un neurotransmetteur excitateur important à la jonction neuromusculaire ; la synapse entre un motoneurone et un muscle s'appelle la plaque _____."
+        "type": "vrai-faux",
+        "question": "La plaque motrice (jonction neuromusculaire) utilise l'acétylcholine pour déclencher la contraction musculaire."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Les drogues et les médicaments psychoactifs agissent souvent en mimant ou bloquant des neurotransmetteurs."
       },
       {
-        "type": "open",
-        "question": "Le GABA (acide gamma-aminobutyrique) est le principal neurotransmetteur _____ du SNC, qui réduit l'activité neuronale."
+        "type": "vrai-faux",
+        "question": "Le GABA diminue l'excitabilité neuronale ; les benzodiazépines (anxiolytiques) potentialisent l'action du GABA."
       },
       {
         "type": "qcm",

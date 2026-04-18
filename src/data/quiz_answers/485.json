@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Un texte qui articule les idées de plusieurs documents autour d'une problématique commune",
-        "correct": 1,
         "correction": "La synthèse regroupe et organise les idées des documents sans les juxtaposer ni donner son avis personnel."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "référence",
-        "correction": "Ex. : 'Selon (doc. 1)…', 'L'auteur du doc. 2 montre que…' → référence aux sources."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Ex. : 'Selon (doc. 1)…', 'L'auteur du doc. 2 montre que…' → référence aux sources."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Introduction (problématique) + développement thématique + conclusion",
-        "correct": 1,
         "correction": "La synthèse suit un plan thématique (non documentaire) : les idées sont regroupées par thèmes, pas par document."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "synthèse",
-        "correction": "Avant tout, on interroge : Quel est le problème/thème commun à tous ces documents ?"
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Avant tout, on interroge : Quel est le problème/thème commun à tous ces documents ?"
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Il juxtapose les documents sans les articuler",
-        "correct": 1,
         "correction": "La synthèse doit croiser les documents, pas les présenter l'un après l'autre."
       },
       {

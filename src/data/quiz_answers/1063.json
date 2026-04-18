@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "worse",
-        "correct": 1,
         "correction": "The comparative form of \"bad\" is \"worse\"."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Il lit un livre",
-        "correction": "The correct translation of \"He is reading a book\" in French is \"Il lit un livre\"."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. The correct translation of \"He is reading a book\" in French is \"Il lit un livre\"."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "tiny",
-        "correct": 0,
         "correction": "\"Tiny\" is a synonym for \"small\"."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "drank",
-        "correction": "The past tense of \"drink\" is \"drank\"."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. The past tense of \"drink\" is \"drank\"."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "They don't like music.",
-        "correct": 1,
         "correction": "The correct sentence is \"They don't like music.\" because \"they\" is plural and requires \"do not\" for negation."
       },
       {

@@ -33,8 +33,8 @@
         "question": "En Python, les variables n'ont pas de type fixe ; elles peuvent changer de type."
       },
       {
-        "type": "open",
-        "question": "Quelle est la différence entre les opérateurs // et / en Python ?"
+        "type": "vrai-faux",
+        "question": "/ est la division réelle (retourne toujours un float)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "En Python, l'opérateur ** est l'opérateur de puissance."
       },
       {
-        "type": "open",
-        "question": "Expliquez la différence entre = et == en Python."
+        "type": "vrai-faux",
+        "question": "= est l'opérateur d'affectation : x = 5 assigne la valeur 5 à x."
       },
       {
         "type": "qcm",

@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Indivisible, laique, democratique, sociale, europeenne",
-        "correct": 1,
         "correction": "L'article 1 : 'La France est une République indivisible, laïque, démocratique et sociale.' Le terme 'européenne' a été ajouté ultérieurement dans d'autres articles."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "constitution",
-        "correction": "La Constitution est la loi fondamentale d'un État ; elle organise les pouvoirs, garantit les droits fondamentaux et s'impose à toutes les autres normes juridiques."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La Constitution est la loi fondamentale d'un État ; elle organise les pouvoirs, garantit les droits fondamentaux et s'impose à toutes les autres normes juridiques."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Le bonnet phrygien",
-        "correct": 0,
         "correction": "Marianne porte le bonnet phrygien (symbole de la liberté dans l'Antiquité), emblème de la République française depuis la Révolution."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "initiative populaire",
-        "correction": "L'initiative populaire ou référendum d'initiative partagée (RIP, article 11 de la Constitution) permet à 1/10 des électeurs appuyés par 1/5 du Parlement de soumettre une proposition de loi à référendum."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'initiative populaire ou référendum d'initiative partagée (RIP, article 11 de la Constitution) permet à 1/10 des électeurs appuyés par 1/5 du Parlement de soumettre une proposition de loi à référendum."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Le gouvernement du peuple, par le peuple, pour le peuple",
-        "correct": 1,
         "correction": "La formule de Lincoln (discours de Gettysburg, 1863) : 'government of the people, by the people, for the people' résume l'essence de la démocratie."
       },
       {

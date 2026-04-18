@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "C",
+        "answer": "lim(x→a) f(x) = f(a)",
         "correction": "La continuité en a requiert : f(a) définie, la limite existe et elle égale f(a)."
       },
       {
@@ -27,15 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "k = 4. Car lim(x→2)(x²−4)/(x−2) = lim(x+2) = 4.",
-        "correction": "(x²−4)/(x−2) = x+2 → 4 quand x→2. Pour la continuité : f(2) = k = 4."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. (x²−4)/(x−2) = x+2 → 4 quand x→2. Pour la continuité : f(2) = k = 4."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "C",
+        "answer": "Non, mais elle est continue",
         "correction": "|x| est continue en 0 (f(0)=0) mais non dérivable : les dérivées à gauche (−1) et à droite (+1) diffèrent."
       },
       {
@@ -48,15 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "En tout entier n : lim par la gauche = n−1 ≠ lim par la droite = n. Il y a une discontinuité de saut.",
-        "correction": "⌊x⌋ = n pour x ∈ [n, n+1[. En x=n : limite à gauche = n−1, valeur = n → discontinuité."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. ⌊x⌋ = n pour x ∈ [n, n+1[. En x=n : limite à gauche = n−1, valeur = n → discontinuité."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "A",
+        "answer": "Toujours continue",
         "correction": "La composée de fonctions continues est continue : si f et g sont continues, g∘f l'est aussi."
       },
       {

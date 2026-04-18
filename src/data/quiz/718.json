@@ -33,8 +33,8 @@
         "question": "La fermentation alcoolique est une oxydation anaérobie qui produit de l'éthanol."
       },
       {
-        "type": "open",
-        "question": "Quel organite cellulaire est le siège de la respiration cellulaire aérobie ?"
+        "type": "vrai-faux",
+        "question": "Les mitochondries sont les centrales énergétiques de la cellule, où se déroule la respiration aérobie."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La fermentation lactique produit de l'acide lactique à partir de glucose."
       },
       {
-        "type": "open",
-        "question": "Quel est le nom de la molécule universelle porteuse d'énergie dans les cellules vivantes ?"
+        "type": "vrai-faux",
+        "question": "L'ATP (Adénosine TriPhosphate) est la monnaie énergétique universelle ; son hydrolyse libère de l'énergie utilisable par la cellule."
       },
       {
         "type": "qcm",

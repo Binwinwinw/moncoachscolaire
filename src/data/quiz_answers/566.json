@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "1958",
-        "correct": 2,
         "correction": "La Constitution de la Ve République est adoptée par référendum le 28 septembre 1958 ; elle renforce le pouvoir exécutif (président de la République)."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Gaulle",
-        "correction": "Mai 68 est une crise sociale et culturelle majeure ; De Gaulle dissout l'Assemblée nationale et remporte les élections, mais démissionne en 1969."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Mai 68 est une crise sociale et culturelle majeure ; De Gaulle dissout l'Assemblée nationale et remporte les élections, mais démissionne en 1969."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Charles de Gaulle",
-        "correct": 3,
         "correction": "De Gaulle est élu premier président de la Ve République en décembre 1958, et jusqu'à sa démission en avril 1969."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "interruption",
-        "correction": "La loi Veil (du nom de Simone Veil, ministre de la Santé) légalise l'IVG le 17 janvier 1975, malgré une vive opposition."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La loi Veil (du nom de Simone Veil, ministre de la Santé) légalise l'IVG le 17 janvier 1975, malgré une vive opposition."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Le premier choc pétrolier",
-        "correct": 1,
         "correction": "Le choc pétrolier de 1973 (quadruplement du prix du pétrole par les pays arabes de l'OPEP) met fin à la croissance facile et inaugure une longue période de chômage."
       },
       {

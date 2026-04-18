@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Un dépôt de plaques lipidiques (athéromes) dans les parois artérielles réduisant leur lumière",
-        "correct": 1,
         "correction": "L'athérosclérose entraîne un rétrécissement des artères (sténose) ; une rupture de plaque peut provoquer un caillot -> infarctus ou AVC."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "oxygène",
-        "correction": "L'ischémie myocardique (manque d'O2) provoque la nécrose des cardiomyocytes ; les signes cliniques sont douleur thoracique, élévation des troponines."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'ischémie myocardique (manque d'O2) provoque la nécrose des cardiomyocytes ; les signes cliniques sont douleur thoracique, élévation des troponines."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Le tabagisme, l'hypertension, l'obésité, le diabète, la sédentarité",
-        "correct": 1,
         "correction": "Les facteurs modifiables sont cibles des interventions préventives ; les non modifiables (âge, sexe, génétique) informent sur le risque de base."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "140",
-        "correction": "HTA : pression systolique > 140 mmHg et/ou diastolique > 90 mmHg au repos ; l'HTA est un facteur majeur d'infarctus et d'AVC."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. HTA : pression systolique > 140 mmHg et/ou diastolique > 90 mmHg au repos ; l'HTA est un facteur majeur d'infarctus et d'AVC."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Améliore le profil lipidique, renforce le coeur et réduit la pression artérielle",
-        "correct": 2,
         "correction": "L'activité physique aérobique améliore le HDL, réduit le LDL, renforce le muscle cardiaque et régule la pression artérielle."
       },
       {

@@ -33,8 +33,8 @@
         "question": "Le placenta assure les échanges entre la circulation maternelle et fœtale sans qu'il y ait de mélange direct du sang."
       },
       {
-        "type": "open",
-        "question": "Le diagnostic prénatal par amniocentèse consiste à prélever le _____ amniotique pour analyser les chromosomes de cellules fœtales."
+        "type": "vrai-faux",
+        "question": "L'amniocentèse (à partir de 15 SA) permet l'analyse du caryotype fœtal ; elle peut dépister la trisomie 21 et autres anomalies chromosomiques."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "L'alcool est un tératogène qui peut provoquer le syndrome d'alcoolisation fœtale (SAF) avec retard mental et malformations."
       },
       {
-        "type": "open",
-        "question": "Le test de _____ (test HT21, ou prélèvement trophoblastique) permet un dépistage précoce de la trisomie 21 dès la 12e semaine."
+        "type": "vrai-faux",
+        "question": "Le dépistage combiné du 1er trimestre (clarté nucale + marqueurs sériques + âge maternel) évalue le risque de trisomie 21 ; si risque élevé → diagnostic par amniocentèse ou CGH-array."
       },
       {
         "type": "qcm",

@@ -7,17 +7,65 @@
   "quiz": {
     "title": "Quiz Diagnostic 3ème SVT - Série 50",
     "question_count": 8,
-    "answers": [
-      {"index": 0, "question_id": 1, "type": "qcm", "correct": 0, "correction": "**ovulation** (œstrog/progestérone)."},
-      {"index": 1, "question_id": 2, "type": "vrai-faux", "correct": true, "correction": "**Vrai**. Barrière + spermicide."},
-      {"index": 2, "question_id": 3, "type": "texte", "correct": null, "correction": "**antigène** (mémoire immunitaire)."},
-      {"index": 3, "question_id": 4, "type": "qcm", "correct": 0, "correction": "**sang/sperme/sang menstruel** (rapports non protégés)."},
-      {"index": 4, "question_id": 5, "type": "vrai-faux", "correct": true, "correction": "**Vrai**. Intra-utérin toxique sperme."},
-      {"index": 5, "question_id": 6, "type": "texte", "correct": null, "correction": "**règles** (12-14 ans)."},
-      {"index": 6, "question_id": 7, "type": "qcm", "correct": 0, "correction": "**protéine** (anticorps vs spike)."},
-      {"index": 7, "question_id": 8, "type": "texte", "correct": null, "correction": "**pilule** (Norlevo, 72h post-rapport)."}
-    ],
     "level": "3eme",
-    "subject": "SVT"
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "ovulation",
+        "correction": "**ovulation** (œstrog/progestérone)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "**Vrai**. Barrière + spermicide."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. **antigène** (mémoire immunitaire)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "sang/sperme/sang menstruel",
+        "correction": "**sang/sperme/sang menstruel** (rapports non protégés)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "**Vrai**. Intra-utérin toxique sperme."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. **règles** (12-14 ans)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "protéine",
+        "correction": "**protéine** (anticorps vs spike)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. **pilule** (Norlevo, 72h post-rapport)."
+      }
+    ]
   }
 }

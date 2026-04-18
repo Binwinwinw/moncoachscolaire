@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le manteau",
-        "correct": 1,
         "correction": "De la surface vers le centre, on trouve la croûte, le manteau puis le noyau."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "continents",
-        "correction": "La dérive des continents proposée par Wegener a préparé la théorie moderne de la tectonique des plaques."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La dérive des continents proposée par Wegener a préparé la théorie moderne de la tectonique des plaques."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Un volcanisme souvent explosif et de forts séismes",
-        "correct": 1,
         "correction": "La plongée d'une plaque sous une autre génère fusion partielle, remontée de magma et forte activité sismique."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "sismologie",
-        "correction": "La sismologie renseigne sur la structure interne du globe et sur la propagation des ondes sismiques."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La sismologie renseigne sur la structure interne du globe et sur la propagation des ondes sismiques."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Divergence",
-        "correct": 1,
         "correction": "Aux dorsales, les plaques s'écartent et du magma remonte pour former une nouvelle croûte océanique."
       },
       {

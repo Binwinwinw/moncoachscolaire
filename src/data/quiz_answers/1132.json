@@ -1,48 +1,71 @@
 {
-  "quiz_id": 1132,
-  "title": "Commerce international et protectionnisme",
-  "subject": "SES",
-  "level": "Terminale",
-  "answers": [
-    {
-      "question_id": "1132_1",
-      "correct_option": "A",
-      "explanation": "Dans ce chapitre de Echanges internationaux, Union europeenne est un acteur central pour organiser et encadrer specialisation productive."
-    },
-    {
-      "question_id": "1132_2",
-      "correct": true,
-      "explanation": "En SES, l'analyse de specialisation productive mobilise des indicateurs objectivables comme 'solde commercial' pour comparer les situations dans le temps et dans l'espace."
-    },
-    {
-      "question_id": "1132_3",
-      "correct_answer": "specialisation productive designe un ensemble de mecanismes economiques et sociaux qui influencent les comportements des acteurs. Cet enjeu est important car il permet de comprendre les arbitrages entre efficacite economique, equite sociale et soutenabilite.",
-      "explanation": "Une bonne reponse mobilise une definition precise, les acteurs concerns et les effets attendus ou observes."
-    },
-    {
-      "question_id": "1132_4",
-      "correct_option": "A",
-      "explanation": "L'exemple 'taxes douanieres sur l'acier' permet d'analyser concretement les logiques d'acteurs et les effets de droits de douane."
-    },
-    {
-      "question_id": "1132_5",
-      "correct": true,
-      "explanation": "En SES, les instruments d'action publique comme 'droits de douane' orientent les comportements, les couts relatifs et les resultats collectifs."
-    },
-    {
-      "question_id": "1132_6",
-      "correct_answer": "Effet positif : 'droits de douane' peut corriger une defaillance de marche ou une inegalite. Limite : ses effets dependent du contexte institutionnel, des comportements strategiques et de la coordination entre acteurs.",
-      "explanation": "On attend une argumentation nuancee : effets attendus, conditions de reussite et limites eventuelles."
-    },
-    {
-      "question_id": "1132_7",
-      "correct_option": "A",
-      "explanation": "La reference 'Ricardo puis Krugman' fournit un cadre analytique mobilisable dans une copie de Terminale SES."
-    },
-    {
-      "question_id": "1132_8",
-      "correct": true,
-      "explanation": "La methode attendue au bac combine definitions, mecanismes, ordres de grandeur et illustrations precises."
-    }
-  ]
+  "contents": {
+    "title": "Quiz Diagnostic SES Terminale - Serie 1132",
+    "level": "Terminale",
+    "subject": "SES"
+  },
+  "quiz": {
+    "title": "Commerce international et protectionnisme",
+    "question_count": 8,
+    "level": "Terminale",
+    "subject": "SES",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Cette affirmation reformule l'idée essentielle à retenir : Definis specialisation productive et explique en quoi cet enjeu est important en Terminale SES."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Cette affirmation reformule l'idée essentielle à retenir : Propose un argument montreant a la fois un effet positif et une limite de 'droits de douane'."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      }
+    ]
+  }
 }

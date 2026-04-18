@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Analyse fonctionnelle",
-        "correct": 1,
         "correction": "L'analyse fonctionnelle decompose un objet en fonctions principales (ce qu'il fait) et fonctions contraintes (conditions a respecter)."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "evolution technique",
-        "correction": "L'evolution technique designe les modifications successives d'un objet pour ameliorer ses performances, sa fiabilite, sa securite ou reduire son impact environnemental."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'evolution technique designe les modifications successives d'un objet pour ameliorer ses performances, sa fiabilite, sa securite ou reduire son impact environnemental."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Une invention qui change radicalement les usages et rend obsoletes les solutions precedentes",
-        "correct": 1,
         "correction": "L'innovation de rupture (ex. smartphone, moteur a explosion, internet) transforme profondement les pratiques sociales et economiques."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "patrimoine technique",
-        "correction": "Le patrimoine technique (ou culture technique) designe l'heritage des inventions, savoir-faire et objets techniques qui ont marque une civilisation."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le patrimoine technique (ou culture technique) designe l'heritage des inventions, savoir-faire et objets techniques qui ont marque une civilisation."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Bionique ou biomimetisme",
-        "correct": 1,
         "correction": "Le biomimetisme (ou bionique) s'inspire des solutions evolutives de la nature : velcro inspire du bardane, structures en nid d'abeille, ailes d'avion inspirees des oiseaux."
       },
       {

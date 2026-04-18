@@ -33,8 +33,8 @@
         "question": "Le Parlement europeen est la seule institution de l'UE directement elue par les citoyens europeens."
       },
       {
-        "type": "open",
-        "question": "Quel est le nom de la monnaie unique utilisee dans la zone euro ?"
+        "type": "vrai-faux",
+        "question": "L'euro a été introduit le 1er janvier 1999 pour les transactions financières et le 1er janvier 2002 pour les billets et pièces dans 12 pays (aujourd'hui 20 pays)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La Cour de justice de l'Union europeenne (CJUE) siege au Luxembourg."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on le principe selon lequel l'UE n'agit que dans les domaines ou son action est plus efficace que celle des Etats membres ?"
+        "type": "vrai-faux",
+        "question": "Le principe de subsidiarité (Traité de Maastricht) signifie que l'UE n'intervient que si l'objectif ne peut pas être atteint de manière suffisante par les États membres seuls."
       },
       {
         "type": "qcm",

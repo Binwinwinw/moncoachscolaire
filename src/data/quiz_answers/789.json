@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "print('Bonjour')",
-        "correct": 0,
         "correction": "La fonction print() en Python affiche du texte ou des variables dans la console ; c'est l'instruction de base pour afficher des informations."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "maliste = [1, 2, 3, 4, 5]",
-        "correction": "Une liste Python est definie avec des crochets [] contenant des elements separes par des virgules ; elle est mutable (modifiable) et peut contenir des types mixtes."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Une liste Python est definie avec des crochets [] contenant des elements separes par des virgules ; elle est mutable (modifiable) et peut contenir des types mixtes."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "for element in liste",
-        "correct": 1,
         "correction": "La boucle for...in en Python parcourt directement chaque element d'une sequence (liste, chaine, range) sans gerer manuellement l'index."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "SyntaxError",
-        "correction": "Une SyntaxError (ou IndentationError) est signalee par l'interpreteur Python quand le code ne respecte pas la grammaire du langage."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Une SyntaxError (ou IndentationError) est signalee par l'interpreteur Python quand le code ne respecte pas la grammaire du langage."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "def",
-        "correct": 1,
         "correction": "Le mot-cle def (define) introduit la definition d'une fonction : def ma_fonction(parametre): ; la fonction est ensuite appelee par son nom."
       },
       {

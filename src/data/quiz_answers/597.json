@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Aléa x vulnérabilité",
-        "correct": 0,
         "correction": "Sans population exposée, le risque reste limité."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "DICRIM",
-        "correction": "Le DICRIM sensibilise la population aux conduites à tenir."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le DICRIM sensibilise la population aux conduites à tenir."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Une marée noire",
-        "correct": 1,
         "correction": "Elle résulte d'activités humaines et industrielles."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "parasismiques",
-        "correction": "Elles limitent les effondrements lors des séismes."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Elles limitent les effondrements lors des séismes."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Diffuser un message d'évacuation avant l'événement",
-        "correct": 1,
         "correction": "L'anticipation améliore la protection des populations."
       },
       {

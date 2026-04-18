@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'ordre de superposition des couches géologiques pour reconstituer l'histoire de la Terre",
-        "correct": 1,
         "correction": "Principe de superposition (Sténon 1669) : les couches les plus anciennes sont en bas ; la stratigraphie permet de dater relativement les événements géologiques."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "directeur",
-        "correction": "Fossiles directeurs (index fossils) : ammonites, foraminifères, trilobites — présents dans des couches précises permettant de corréler les strates à l'échelle mondiale."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Fossiles directeurs (index fossils) : ammonites, foraminifères, trilobites — présents dans des couches précises permettant de corréler les strates à l'échelle mondiale."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "4,5 milliards d'années",
-        "correct": 2,
         "correction": "Datation isotopique (Pb/U, Pb/Pb) des météorites et des plus vieilles roches terrestres donne ~4,5 Ga ; la Terre s'est formée par accrétion avec le reste du Système solaire."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "sédimentaire",
-        "correction": "Le calcaire (CaCO3) se forme dans les mers chaudes peu profondes par bioclastes ou précipitation ; il constitue d'importantes réserves d'eau souterraine (karst)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le calcaire (CaCO3) se forme dans les mers chaudes peu profondes par bioclastes ou précipitation ; il constitue d'importantes réserves d'eau souterraine (karst)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La dissolution du calcaire par l'eau chargée en CO2, créant grottes, gouffres et sources",
-        "correct": 1,
         "correction": "H2O + CO2 â†’ H2CO3 â†’ CaCO3 se dissout â†’ formation de karst (stalactites, stalagmites, grottes, poljes) ; exemples : Gorges du Verdon, Causses."
       },
       {

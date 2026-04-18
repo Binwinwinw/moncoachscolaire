@@ -33,8 +33,8 @@
         "question": "Le halo du chômage désigne les personnes qui ne sont pas comptabilisées comme chômeurs mais proches du marché du travail (ex : découragés, temps partiel subi)."
       },
       {
-        "type": "open",
-        "question": "Distingue les approches néo-classique et keynésienne du chômage."
+        "type": "vrai-faux",
+        "question": "Cette affirmation reformule l'idée essentielle à retenir : Distingue les approches néo-classique et keynésienne du chômage."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Le NAIRU (Non Accelerating Inflation Rate of Unemployment) représente le taux de chômage compatible avec une inflation stable."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce que le chômage structurel et pourquoi est-il difficile à résorber ?"
+        "type": "vrai-faux",
+        "question": "Cette affirmation reformule l'idée essentielle à retenir : Qu'est-ce que le chômage structurel et pourquoi est-il difficile à résorber."
       },
       {
         "type": "qcm",
@@ -83,5 +83,6 @@
       "notion": "Intégration économique mondiale",
       "description": "Notion fondamentale de SES"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

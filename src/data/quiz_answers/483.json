@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La Préface de Cromwell de Victor Hugo",
-        "correct": 0,
         "correction": "La Préface de Cromwell (1827) de Hugo rompt avec les règles classiques et théorise le mélange des genres."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "désenchantement",
-        "correction": "Musset, dans La Confession d'un enfant du siècle, décrit ce malaise existentiel de la génération de 1820."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Musset, dans La Confession d'un enfant du siècle, décrit ce malaise existentiel de la génération de 1820."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Les Misérables",
-        "correct": 1,
         "correction": "Les Misérables (1862) est le grand roman social de Hugo, incarnant les idéaux romantiques et humanistes."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "La Comédie humaine",
-        "correction": "La Comédie humaine (90+ romans) est la grande entreprise réaliste de Balzac."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La Comédie humaine (90+ romans) est la grande entreprise réaliste de Balzac."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Balzac",
-        "correct": 2,
         "correction": "Balzac fait revenir les mêmes personnages d'un roman à l'autre pour créer l'illusion d'un monde cohérent."
       },
       {

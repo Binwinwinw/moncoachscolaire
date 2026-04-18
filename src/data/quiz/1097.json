@@ -1,69 +1,73 @@
 {
-  "id": 1097,
-  "title": "Suites numériques — définition et termes",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "created_at": "2026-03-13T18:54:00.448085Z",
-  "questions": [
-    {
-      "id": "1097_1",
-      "type": "qcm",
-      "question": "[Suites] Parmi les propositions suivantes concernant Suites numériques — définition et termes, laquelle est correcte ?",
-      "options": [
-        "Proposition A",
-        "Proposition B",
-        "Proposition C",
-        "Proposition D"
-      ]
-    },
-    {
-      "id": "1097_2",
-      "type": "vrai-faux",
-      "question": "[Suites] En 1ère, la notion de Suites numériques — définition et termes est au programme de mathématiques."
-    },
-    {
-      "id": "1097_3",
-      "type": "texte",
-      "question": "[Suites] Explique en une phrase le principe fondamental de Suites numériques — définition et termes."
-    },
-    {
-      "id": "1097_4",
-      "type": "qcm",
-      "question": "[Suites] Quel résultat est associé à Suites numériques — définition et termes en 1ère mathématiques ?",
-      "options": [
-        "Résultat A",
-        "Résultat B",
-        "Résultat C",
-        "Résultat D"
-      ]
-    },
-    {
-      "id": "1097_5",
-      "type": "vrai-faux",
-      "question": "[Suites] L'application de Suites numériques — définition et termes peut simplifier la résolution de certains problèmes de 1ère."
-    },
-    {
-      "id": "1097_6",
-      "type": "texte",
-      "question": "[Suites] Donne un exemple d'application de Suites numériques — définition et termes dans un exercice de 1ère."
-    },
-    {
-      "id": "1097_7",
-      "type": "qcm",
-      "question": "[Suites] Quelle formule ou définition caractérise Suites numériques — définition et termes ?",
-      "options": [
-        "Formule A",
-        "Formule B",
-        "Formule C",
-        "Formule D"
-      ]
-    },
-    {
-      "id": "1097_8",
-      "type": "vrai-faux",
-      "question": "[Suites] La maîtrise de Suites numériques — définition et termes est indispensable pour réussir le bac de 1ère."
-    }
-  ],
+  "contents": {
+    "title": "Suites numériques — définition et termes",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Mathématiques",
+    "description": "",
+    "status": "published"
+  },
+  "quiz": {
+    "title": "Suites numériques — définition et termes",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "[Suites] Parmi les propositions suivantes concernant Suites numériques — définition et termes, laquelle est correcte ?",
+        "choices": [
+          "Proposition A",
+          "Proposition B",
+          "Proposition C",
+          "Proposition D"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Suites] En 1ère, la notion de Suites numériques — définition et termes est au programme de mathématiques."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le principe fondamental de Suites numériques — définition et termes repose sur une propriété clé du programme de 1ère."
+      },
+      {
+        "type": "qcm",
+        "question": "[Suites] Quel résultat est associé à Suites numériques — définition et termes en 1ère mathématiques ?",
+        "choices": [
+          "Résultat A",
+          "Résultat B",
+          "Résultat C",
+          "Résultat D"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Suites] L'application de Suites numériques — définition et termes peut simplifier la résolution de certains problèmes de 1ère."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un exemple typique de Suites numériques — définition et termes en 1ère est un problème mobilisant cette notion directement."
+      },
+      {
+        "type": "qcm",
+        "question": "[Suites] Quelle formule ou définition caractérise Suites numériques — définition et termes ?",
+        "choices": [
+          "Formule A",
+          "Formule B",
+          "Formule C",
+          "Formule D"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Suites] La maîtrise de Suites numériques — définition et termes est indispensable pour réussir le bac de 1ère."
+      }
+    ]
+  },
   "exercisenotion": [
     {
       "notion": "Fondamentaux de Indéfini",
@@ -77,5 +81,6 @@
       "notion": "Savoir-faire indéfini",
       "description": "Notion du programme Indéfini"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

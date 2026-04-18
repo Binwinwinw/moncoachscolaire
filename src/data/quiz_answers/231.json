@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Un commandement inconditionnel de la raison : 'Agis seulement selon la maxime que tu peux vouloir ériger en loi universelle'",
-        "correct": 1,
         "correction": "L'impératif catégorique (Kant, Fondements de la métaphysique des mœurs, 1785) est la loi morale suprême, inconditionnelle (non hypothétique) : 'Agis seulement d'après la maxime grâce à laquelle tu peux vouloir en même temps qu'elle devienne une loi universelle.' Il a plusieurs formulations, dont la formule de l'humanité : 'Agis de façon à traiter l'humanité toujours comme une fin et jamais seulement comme un moyen.'"
       },
       {
@@ -28,17 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "correct_answer": "La morale désigne l'ensemble des règles et devoirs qui s'imposent à tous ; l'éthique est une réflexion philosophique sur ce qui constitue une 'bonne vie' et les fondements de l'agir moral.",
-        "answer": "La morale désigne l'ensemble des règles et devoirs qui s'imposent à tous ; l'éthique est une réflexion philosophique sur ce qui constitue une 'bonne vie' et les fondements de l'agir moral.",
-        "correction": "La distinction est souvent nuancée : la morale (du latin mores : mœurs) désigne traditionnellement les normes, règles et devoirs qui s'imposent à tous (dimension impérative, devoir). L'éthique (du grec ethos : caractère, manière de vivre) est la réflexion philosophique sur ce qui constitue une 'bonne vie', les vertus, et les fondements de l'agir juste. Pour certains (Ricoeur), l'éthique (visée du bien) précède la morale (obligation) ; l'éthique est première."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La distinction est souvent nuancée : la morale (du latin mores : mœurs) désigne traditionnellement les normes, règles et devoirs qui s'imposent à tous (dimension impérative, devoir). L'éthique (du grec ethos : caractère, manière de vivre) est la réflexion philosophique sur ce qui constitue une 'bonne vie', les vertus, et les fondements de l'agir juste. Pour certains (Ricoeur), l'éthique (visée du bien) précède la morale (obligation) ; l'éthique est première."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La vertu est une disposition acquise par l'habitude, un juste milieu entre excès et défaut",
-        "correct": 1,
         "correction": "Pour Aristote (Éthique à Nicomaque), la vertu (arètè) est une disposition stable du caractère acquise par l'habitude et l'éducation, qui consiste à choisir le juste milieu (médiété) entre deux extrêmes défectueux. Ex : le courage est le juste milieu entre la lâcheté et la témérité. La vie vertueuse mène à l'eudaimonia (bonheur, épanouissement) – fin ultime de l'existence humaine."
       },
       {
@@ -51,17 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "correct_answer": "Le dilemme du tramway est une expérience de pensée qui oppose l'intuition d'épargner le plus de vies (utilitarisme) à l'interdiction de se servir d'une personne comme moyen (déontologie kantienne).",
-        "answer": "Le dilemme du tramway est une expérience de pensée qui oppose l'intuition d'épargner le plus de vies (utilitarisme) à l'interdiction de se servir d'une personne comme moyen (déontologie kantienne).",
-        "correction": "Le trolley problem (Foot, Thomson) : un tramway fou fonce vers 5 personnes ; vous pouvez actionner un levier pour le dévier vers une voie où il tuera 1 personne. Devez-vous agir ? L'utilitarisme dit oui (5 > 1) ; la déontologie kantienne dit non (on ne peut pas utiliser quelqu'un comme moyen). Ce dilemme illustre la tension entre éthiques conséquentialistes (résultats) et déontologiques (règles absolues), et révèle nos intuitions morales souvent contradictoires."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le trolley problem (Foot, Thomson) : un tramway fou fonce vers 5 personnes ; vous pouvez actionner un levier pour le dévier vers une voie où il tuera 1 personne. Devez-vous agir ? L'utilitarisme dit oui (5 > 1) ; la déontologie kantienne dit non (on ne peut pas utiliser quelqu'un comme moyen). Ce dilemme illustre la tension entre éthiques conséquentialistes (résultats) et déontologiques (règles absolues), et révèle nos intuitions morales souvent contradictoires."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "'Ne fais pas à autrui ce que tu ne voudrais pas qu'il te fasse'",
-        "correct": 1,
         "correction": "La règle d'or ('Ne fais pas à autrui ce que tu ne voudrais pas qu'on te fasse' / 'Fais aux autres ce que tu voudrais qu'on te fasse') est un principe moral présent dans pratiquement toutes les traditions éthiques et religieuses (Confucius, Bible, Coran, Kant, etc.). Elle constitue un des fondements les plus universels de l'éthique et anticipe le principe kantien d'universalisabilité."
       },
       {

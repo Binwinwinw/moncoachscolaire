@@ -33,8 +33,8 @@
         "question": "Dans un systeme technique, on distingue la partie operative (qui agit) et la partie commande (qui decide)."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on le schema representant le flux d'information et d'energie dans un systeme technique ?"
+        "type": "vrai-faux",
+        "question": "Schema blocs fonctionnel."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Un systeme en boucle ouverte ne mesure pas sa sortie pour se corriger."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on le composant electronique programmable qui joue le role de cerveau dans un systeme automatise moderne ?"
+        "type": "vrai-faux",
+        "question": "Un microcontroleur (Arduino, PIC, STM32) integre processeur, memoire et peripheriques d'E/S sur une seule puce ; il lit les capteurs et commande les actionneurs."
       },
       {
         "type": "qcm",

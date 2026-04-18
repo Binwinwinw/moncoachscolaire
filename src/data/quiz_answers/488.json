@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "1857",
-        "correct": 1,
         "correction": "Les Fleurs du Mal paraissent en 1857 ; Baudelaire est condamné pour immoralité et doit supprimer 6 pièces."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "idéal",
-        "correction": "Spleen et Idéal est la première et la plus longue section : l'idéal est l'aspiration à la beauté absolue."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Spleen et Idéal est la première et la plus longue section : l'idéal est l'aspiration à la beauté absolue."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "L'albatros",
-        "correct": 1,
         "correction": "Dans 'L'Albatros', le poète est comme l'oiseau majestueux en vol mais ridicule sur le pont du navire."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "beauté",
-        "correction": "Baudelaire extrait la beauté (fleurs) du mal, de la souffrance et de la laideur moderne."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Baudelaire extrait la beauté (fleurs) du mal, de la souffrance et de la laideur moderne."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Correspondances",
-        "correct": 1,
         "correction": "'Correspondances' développe la théorie des synesthésies entre les différents sens."
       },
       {

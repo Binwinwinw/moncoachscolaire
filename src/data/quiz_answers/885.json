@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Une suite finie d'instructions résolvant un problème",
-        "correct": 1,
         "correction": "Un algorithme est une description abstraite d'une procédure de résolution, indépendante du langage de programmation."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "POUR i de 0 à n-1 FAIRE\n  SI tableau[i] == cible ALORS\n    RETOURNER i\n  FIN SI\nFIN POUR\nRETOURNER -1  // non trouvé",
-        "correction": "La recherche séquentielle est simple mais O(n). Utilisée quand la liste n'est pas triée."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La recherche séquentielle est simple mais O(n). Utilisée quand la liste n'est pas triée."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "O(log n)",
-        "correct": 1,
         "correction": "À chaque étape, l'espace de recherche est divisé par 2. Après k étapes, il reste n/2ᵏ éléments. Terminaison quand 1 = n/2ᵏ, soit k = log₂(n)."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Un invariant de boucle est une propriété vraie avant la boucle, maintenue vraie après chaque itération, et vraie à la sortie. Il sert à prouver la correction d'un algorithme itératif. Ex : pour le tri par insertion, l'invariant est que le préfixe déjà traité est toujours trié.",
-        "correction": "Les invariants sont un outil formel pour raisonner sur la correction des algorithmes."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les invariants sont un outil formel pour raisonner sur la correction des algorithmes."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Liste chaînée ou collections.deque",
-        "correct": 1,
         "correction": "Une file FIFO (First In, First Out) nécessite des opérations efficaces en tête et en queue. collections.deque offre O(1) pour ces deux opérations."
       },
       {

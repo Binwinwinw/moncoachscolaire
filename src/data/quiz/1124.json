@@ -33,8 +33,8 @@
         "question": "La Banque mondiale finance principalement des projets de développement dans les pays à revenus faibles et intermédiaires."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce que le G20 et quel rôle joue-t-il dans la gouvernance économique mondiale ?"
+        "type": "vrai-faux",
+        "question": "Cette affirmation reformule l'idée essentielle à retenir : Qu'est-ce que le G20 et quel rôle joue-t-il dans la gouvernance économique mondiale."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "L'accord de l'OCDE sur l'impôt minimum mondial de 15% pour les multinationales (Pilier 2, 2021) vise à limiter la concurrence fiscale déloyale."
       },
       {
-        "type": "open",
-        "question": "Quelles sont les critiques adressées à la mondialisation financière ?"
+        "type": "vrai-faux",
+        "question": "Cette affirmation reformule l'idée essentielle à retenir : Quelles sont les critiques adressées à la mondialisation financière."
       },
       {
         "type": "qcm",
@@ -83,5 +83,6 @@
       "notion": "Intégration économique mondiale",
       "description": "Notion fondamentale de SES"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

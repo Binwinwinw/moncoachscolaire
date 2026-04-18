@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "SpaceX",
-        "correct": 2,
         "correction": "SpaceX (Space Exploration Technologies) est fondée en 2002. Elle développe les fusées Falcon 9 et Starship, et transporte des astronautes vers l'ISS depuis 2020."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Le New Space désigne l'émergence d'acteurs privés (SpaceX, Blue Origin, OneWeb, Planet Labs…) qui révolutionnent le secteur spatial. Ils réduisent les coûts (fusées réutilisables), accélèrent l'innovation et commercialisent l'accès à l'espace (tourisme, petits satellites, Internet par satellite). L'espace n'est plus uniquement une affaire d'États.",
-        "correction": "Le New Space soulève des questions de régulation, de gouvernance et de partage des ressources spatiales."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le New Space soulève des questions de régulation, de gouvernance et de partage des ressources spatiales."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Retourner des astronautes sur la Lune, dont la première femme",
-        "correct": 1,
         "correction": "Artémis (à partir de 2022) vise à établir une présence humaine durable sur la Lune, avec un regard sur Mars. La première femme et la première personne de couleur sur la Lune sont prévues."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "La Lune contient de l'hélium-3 (potentiel combustible pour la fusion nucléaire), des minéraux rares, de la glace d'eau aux pôles (utilisable pour l'eau et le carburant). Ces ressources suscitent un intérêt croissant des États (USA, Chine, Russie) et du secteur privé, rouvrant des débats sur la propriété des ressources spatiales.",
-        "correction": "Les Accords Artémis (2020, initiés par les USA) et le Traité de l'espace de 1967 s'affrontent sur la question de l'exploitation des ressources lunaires."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les Accords Artémis (2020, initiés par les USA) et le Traité de l'espace de 1967 s'affrontent sur la question de l'exploitation des ressources lunaires."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Un accès à Internet par satellite dans le monde entier",
-        "correct": 1,
         "correction": "Starlink est une constellation de milliers de petits satellites en orbite basse (LEO) fournissant l'Internet haut débit, y compris en zones rurales ou de conflit (Ukraine)."
       },
       {

@@ -33,8 +33,8 @@
         "question": "Les fossiles constituent des preuves directes de l'évolution en montrant des formes de vie disparues et des transitions évolutives."
       },
       {
-        "type": "open",
-        "question": "La comparaison des séquences d'ADN ou de protéines entre espèces (phylogénie _____) est la preuve moléculaire la plus puissante de l'évolution."
+        "type": "vrai-faux",
+        "question": "Plus deux espèces sont proches évolutivement, plus leurs séquences d'ADN/protéines sont similaires."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "L'évolution convergente produit des structures analogues (même fonction) chez des espèces non apparentées."
       },
       {
-        "type": "open",
-        "question": "La biogéographie (distribution des espèces à la surface du globe) est une preuve de l'évolution : les espèces d'une même région sont souvent plus apparentées entre elles, témoignant d'une _____ commune."
+        "type": "vrai-faux",
+        "question": "Darwin observe aux Galapagos que chaque île a ses propres espèces de pinsons adaptées localement mais toutes dérivées d'un ancêtre commun."
       },
       {
         "type": "qcm",

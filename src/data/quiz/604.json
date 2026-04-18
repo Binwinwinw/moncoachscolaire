@@ -33,8 +33,8 @@
         "question": "Dans l'ADN, l'adénine (A) s'apparie toujours avec la thymine (T), et la guanine (G) avec la cytosine (C)."
       },
       {
-        "type": "open",
-        "question": "La double hélice de l'ADN a été décrite par Watson et _____ en 1953."
+        "type": "vrai-faux",
+        "question": "Watson et Crick publient en 1953 dans Nature le modèle de la double hélice, grâce aux données de diffraction X de Rosalind Franklin."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "L'ADN est localisé uniquement dans le noyau des cellules eucaryotes."
       },
       {
-        "type": "open",
-        "question": "L'enzyme principale qui synthétise le nouveau brin d'ADN lors de la réplication est l'_____ polymérase."
+        "type": "vrai-faux",
+        "question": "L'ADN polymérase lit le brin matrice et ajoute les nucléotides complémentaires dans le sens 5' vers 3'."
       },
       {
         "type": "qcm",

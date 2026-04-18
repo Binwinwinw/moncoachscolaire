@@ -33,8 +33,8 @@
         "question": "Un assemblage par vissage est une liaison demontable."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on la liaison mecanique qui bloque completement deux pieces en interdisant tout mouvement relatif ?"
+        "type": "vrai-faux",
+        "question": "L'encastrement (liaison complete) supprime les 6 degres de liberte (3 translations + 3 rotations) entre deux pieces ; ex."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Un roulement a billes reduit le frottement entre deux pieces en rotation."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on l'assemblage qui utilise des tiges metalliques deformees a froid pour lier des toles entre elles ?"
+        "type": "vrai-faux",
+        "question": "Le rivetage est un assemblage permanent par deformation plastique de rivets metalliques ; tres utilise en aeronautique pour assembler les structures aluminium."
       },
       {
         "type": "qcm",

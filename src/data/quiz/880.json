@@ -33,8 +33,8 @@
         "question": "Un sélecteur CSS #monId cible les éléments ayant l'attribut class='monId'."
       },
       {
-        "type": "open",
-        "question": "Expliquez le modèle de boîte (box model) en CSS."
+        "type": "vrai-faux",
+        "question": "Chaque élément HTML est une boîte composée de : contenu (content), rembourrage intérieur (padding), bordure (border), marge extérieure (margin)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Flexbox est un mode de mise en page CSS conçu pour aligner et distribuer les éléments dans un conteneur."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce que le responsive design et comment le CSS y contribue-t-il ?"
+        "type": "vrai-faux",
+        "question": "Le responsive design adapte la mise en page à la taille de l'écran (desktop, tablette, mobile)."
       },
       {
         "type": "qcm",

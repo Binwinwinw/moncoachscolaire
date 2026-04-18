@@ -35,8 +35,8 @@
         "question": "Un sonnet est traditionnellement composé de quatorze vers."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on la répétition d'un même son consonantique dans un vers ?"
+        "type": "vrai-faux",
+        "question": "L'allitération est la répétition d'une consonne pour créer un effet sonore."
       },
       {
         "type": "qcm",
@@ -53,8 +53,8 @@
         "question": "Une métaphore contient toujours un outil comparatif explicite."
       },
       {
-        "type": "open",
-        "question": "Comment nomme-t-on la répétition d'un mot ou groupe de mots en début de vers successifs ?"
+        "type": "vrai-faux",
+        "question": "L'anaphore crée un rythme insistant et structure le poème."
       },
       {
         "type": "qcm",

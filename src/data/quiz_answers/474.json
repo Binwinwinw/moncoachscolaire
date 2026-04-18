@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'essai",
-        "correct": 2,
         "correction": "L'essai (Montaigne, XVI e s.) est une réflexion libre et subjective sur des questions diverses."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "didactique",
-        "correction": "L'apologue (fable, conte philosophique, parabole) enseigne par le plaisir d'un récit fictif."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'apologue (fable, conte philosophique, parabole) enseigne par le plaisir d'un récit fictif."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La Fontaine",
-        "correct": 1,
         "correction": "Jean de La Fontaine (1621-1695) est l'auteur des Fables en vers, adaptées d'Ésope et Phèdre."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "morale",
-        "correction": "La morale est l'énoncé de la leçon que l'auteur tire du récit allégorique."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La morale est l'énoncé de la leçon que l'auteur tire du récit allégorique."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Les Essais",
-        "correct": 1,
         "correction": "Les Essais (1580-1588) de Montaigne inaugurent le genre de la réflexion personnelle libre."
       },
       {

@@ -33,8 +33,8 @@
         "question": "Les rayonnements UV peuvent provoquer des mutations de l'ADN."
       },
       {
-        "type": "open",
-        "question": "Quel mécanisme cellulaire répare la plupart des mutations de l'ADN avant la division ?"
+        "type": "vrai-faux",
+        "question": "Réparation de l'ADN."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Toutes les mutations des cellules somatiques sont transmissibles aux enfants."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on un individu porteur d'un seul allèle muté récessif sans manifester la maladie ?"
+        "type": "vrai-faux",
+        "question": "Un conducteur (ou porteur sain) possède un allèle muté récessif et un allèle normal ; il n'est pas malade mais peut transmettre la mutation."
       },
       {
         "type": "qcm",

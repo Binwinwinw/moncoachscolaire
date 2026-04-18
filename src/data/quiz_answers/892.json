@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "if x > 0:",
-        "correct": 1,
         "correction": "Python utilise if, elif, else sans parenthèses obligatoires, sans then, et avec un deux-points. L'indentation définit le bloc."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "def signe(n):\n    if n > 0:\n        return 'positif'\n    elif n < 0:\n        return 'négatif'\n    else:\n        return 'nul'",
-        "correction": "La structure if/elif/else gère les trois cas mutuellement exclusifs."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La structure if/elif/else gère les trois cas mutuellement exclusifs."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "0",
-        "correct": 2,
+        "answer": "'False'",
         "correction": "En Python, les valeurs falsy sont : 0, 0.0, '' (chaîne vide), [] (liste vide), {} (dict vide), None, False. Toutes les autres sont truthy."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Python évalue les opérandes de gauche à droite et s'arrête dès que le résultat est déterminé. Pour and : si le premier est False, le deuxième n'est pas évalué. Pour or : si le premier est True, le deuxième n'est pas évalué. Utile pour éviter les erreurs (ex : if lst and lst[0] == x).",
-        "correction": "Le court-circuit permet aussi des idiomes comme x = x or valeur_par_défaut."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le court-circuit permet aussi des idiomes comme x = x or valeur_par_défaut."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "True",
-        "correct": 1,
         "correction": "Python supporte les comparaisons chaînées : 3 > 2 > 1 est équivalent à (3 > 2) and (2 > 1) = True and True = True."
       },
       {

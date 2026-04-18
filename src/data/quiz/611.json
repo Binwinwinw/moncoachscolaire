@@ -33,8 +33,8 @@
         "question": "Un individu homozygote pour un gène possède deux allèles identiques pour ce gène."
       },
       {
-        "type": "open",
-        "question": "En croisant deux individus hétérozygotes (Aa x Aa), la proportion attendue d'individus de phénotype récessif (aa) est de _____ %."
+        "type": "vrai-faux",
+        "question": "AA(1/4) : Aa(2/4) : aa(1/4) -> 25% d'homozygotes récessifs en F2 selon les lois de Mendel."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Si un individu de phénotype dominant peut être hétérozygote, un test-cross (croisement avec un homozygote récessif) permet de déterminer son génotype."
       },
       {
-        "type": "open",
-        "question": "Le _____ est l'ensemble des allèles d'un individu ; le phénotype est son aspect observable résultant de l'expression du génotype."
+        "type": "vrai-faux",
+        "question": "Génotype (constitution allélique) --> expression génique (influencée par l'environnement) --> phénotype (caractère observable)."
       },
       {
         "type": "qcm",

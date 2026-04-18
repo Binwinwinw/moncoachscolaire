@@ -33,8 +33,8 @@
         "question": "La dissolution du sucre dans l'eau est une transformation chimique."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on la variation d'énergie échangée sous forme de chaleur lors d'une réaction chimique ?"
+        "type": "vrai-faux",
+        "question": "Enthalpie de réaction."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La coagulation du blanc d'œuf lors de la cuisson est une transformation chimique irréversible."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on l'énergie minimale nécessaire pour démarrer une réaction chimique ?"
+        "type": "vrai-faux",
+        "question": "Énergie d'activation."
       },
       {
         "type": "qcm",

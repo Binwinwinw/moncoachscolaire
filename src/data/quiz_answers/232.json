@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Pour sortir de l'état de nature (guerre de 'tous contre tous') et garantir leur sécurité",
-        "correct": 1,
         "correction": "Hobbes (Léviathan, 1651) décrit l'état de nature comme une guerre 'de tous contre tous', vie 'solitaire, misérable, dangereuse, animale et brève'. Pour sortir de cet état, les hommes concluent un contrat social : ils cèdent tous leurs droits naturels à un souverain absolu (Léviathan) en échange de la paix et de la sécurité. L'État est justifié par la peur de la mort violente."
       },
       {
@@ -28,17 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "correct_answer": "La démocratie est le gouvernement 'du peuple, par le peuple, pour le peuple'. Elle exige la liberté d'expression, des élections libres et la protection des droits des citoyens.",
-        "answer": "La démocratie est le gouvernement 'du peuple, par le peuple, pour le peuple'. Elle exige la liberté d'expression, des élections libres et la protection des droits des citoyens.",
-        "correction": "La formule d'Abraham Lincoln (discours de Gettysburg, 1863) : 'le gouvernement du peuple, par le peuple, pour le peuple' synthétise l'idéal démocratique. La démocratie implique : la souveraineté populaire (le pouvoir vient du peuple), des élections libres et pluralistes, la séparation des pouvoirs (Montesquieu), la garantie des libertés fondamentales, l'État de droit, et l'égalité des citoyens devant la loi. Tocqueville (De la démocratie en Amérique) en analyse les promesses et les risques (tyrannie de la majorité)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La formule d'Abraham Lincoln (discours de Gettysburg, 1863) : 'le gouvernement du peuple, par le peuple, pour le peuple' synthétise l'idéal démocratique. La démocratie implique : la souveraineté populaire (le pouvoir vient du peuple), des élections libres et pluralistes, la séparation des pouvoirs (Montesquieu), la garantie des libertés fondamentales, l'État de droit, et l'égalité des citoyens devant la loi. Tocqueville (De la démocratie en Amérique) en analyse les promesses et les risques (tyrannie de la majorité)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La séparation du pouvoir exécutif, législatif et judiciaire pour éviter les abus de pouvoir",
-        "correct": 1,
         "correction": "Montesquieu (De l'esprit des lois, 1748) théorise la séparation des pouvoirs : pour éviter le despotisme, il faut que le pouvoir législatif (faire les lois), le pouvoir exécutif (appliquer les lois) et le pouvoir judiciaire (juger selon les lois) soient séparés et équilibrés. Ce principe est fondateur des démocraties libérales modernes et est inscrit dans les constitutions américaine (1787) et française."
       },
       {
@@ -51,17 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "correct_answer": "Arendt distingue le travail (activité biologique de survie), l'œuvre (fabrication d'objets durables) et l'action (dimension politique de la liberté et de l'espace public).",
-        "answer": "Arendt distingue le travail (activité biologique de survie), l'œuvre (fabrication d'objets durables) et l'action (dimension politique de la liberté et de l'espace public).",
-        "correction": "Hannah Arendt (Condition de l'homme moderne, 1958) distingue trois activités fondamentales : le travail (labor) – activité biologique de reproduction de la vie, cyclique, laisse aucune trace durable ; l'œuvre (work) – fabrication d'objets durables qui constituent un monde humain commun ; l'action (action) – activité proprement politique, dans l'espace public, par laquelle les hommes se révèlent comme êtres singuliers et exercent leur liberté. Pour Arendt, la vie active est dominée par le travail dans la modernité, au détriment de l'action politique."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Hannah Arendt (Condition de l'homme moderne, 1958) distingue trois activités fondamentales : le travail (labor) – activité biologique de reproduction de la vie, cyclique, laisse aucune trace durable ; l'œuvre (work) – fabrication d'objets durables qui constituent un monde humain commun ; l'action (action) – activité proprement politique, dans l'espace public, par laquelle les hommes se révèlent comme êtres singuliers et exercent leur liberté. Pour Arendt, la vie active est dominée par le travail dans la modernité, au détriment de l'action politique."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Un régime politique inédit qui vise à transformer radicalement la société et l'être humain par la terreur et l'idéologie",
-        "correct": 1,
         "correction": "Hannah Arendt (Les Origines du totalitarisme, 1951) analyse le totalitarisme (nazisme, stalinisme) comme un régime politique radicalement nouveau : il ne cherche pas seulement à contrôler les comportements mais à transformer la nature humaine elle-même par l'idéologie (race, classe), la terreur généralisée, les camps de concentration et la désolation (destruction des liens sociaux et de la dignité humaine)."
       },
       {

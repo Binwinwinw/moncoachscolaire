@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "U = R × I",
-        "correct": 1,
         "correction": "La loi d'Ohm stipule que la tension U (en volts) est égale au produit de la résistance R (en ohms) par l'intensité I (en ampères) : U = RI."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "P = U × I",
-        "correction": "La puissance électrique P (en watts) est le produit de la tension U (en volts) par l'intensité I (en ampères) : P = UI."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La puissance électrique P (en watts) est le produit de la tension U (en volts) par l'intensité I (en ampères) : P = UI."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "LED (diode électroluminescente)",
-        "correct": 2,
         "correction": "Les LED ont un très bon rendement énergétique (~80-90%) comparé aux lampes à incandescence (~5%) ou fluorescentes (~25%)."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "le disjoncteur (ou fusible)",
-        "correction": "Le disjoncteur protège les installations en coupant le circuit lorsque l'intensité dépasse une valeur limite, évitant les incendies et les dommages."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le disjoncteur protège les installations en coupant le circuit lorsque l'intensité dépasse une valeur limite, évitant les incendies et les dommages."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Kilowattheure (kWh)",
-        "correct": 2,
         "correction": "L'énergie consommée est mesurée en kilowattheures (kWh) sur les compteurs. 1 kWh = 3 600 000 J = 3,6 MJ."
       },
       {

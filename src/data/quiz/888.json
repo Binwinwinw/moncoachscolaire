@@ -33,8 +33,8 @@
         "question": "Toute fonction récursive doit avoir un cas de base pour éviter une récursion infinie."
       },
       {
-        "type": "open",
-        "question": "Écrivez en Python une fonction récursive calculant la factorielle de n."
+        "type": "vrai-faux",
+        "question": "Def factorielle(n): if n == 0 or n == 1: # cas de base return 1 else: # cas récursif return n * factorielle(n - 1)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La récursion terminale (tail recursion) est toujours optimisée par Python."
       },
       {
-        "type": "open",
-        "question": "Expliquez la suite de Fibonacci récursive et son problème de complexité."
+        "type": "vrai-faux",
+        "question": "Def fib(n): if n <= 1: return n return fib(n-1) + fib(n-2) Problème : complexité O(2ⁿ) car les mêmes valeurs sont recalculées exponentiellement de fois."
       },
       {
         "type": "qcm",

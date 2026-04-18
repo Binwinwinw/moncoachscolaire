@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le CO2",
-        "correct": 1,
         "correction": "La combustion des énergies fossiles émet massivement du CO2."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "degrés",
-        "correction": "Objectif fixé dans le cadre de l'Accord de Paris."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Objectif fixé dans le cadre de l'Accord de Paris."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Accord de Paris",
-        "correct": 1,
         "correction": "Adopté en 2015, il engage les États à réduire leurs émissions."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "puits",
-        "correction": "Les puits de carbone absorbent une partie du CO2 atmosphérique."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les puits de carbone absorbent une partie du CO2 atmosphérique."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Développer l'efficacité énergétique",
-        "correct": 1,
         "correction": "Moins consommer à service rendu équivalent réduit les émissions."
       },
       {

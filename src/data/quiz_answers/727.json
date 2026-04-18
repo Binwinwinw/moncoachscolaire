@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Un dispositif produisant un champ magnétique grâce au courant électrique",
-        "correct": 1,
         "correction": "Un électroaimant est une bobine parcourue par un courant électrique qui crée un champ magnétique contrôlable."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "induction mutuelle",
-        "correction": "L'induction mutuelle (ou mutuelle inductance) est utilisée dans les transformateurs et les chargeurs sans fil."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'induction mutuelle (ou mutuelle inductance) est utilisée dans les transformateurs et les chargeurs sans fil."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Force de Laplace",
-        "correct": 1,
         "correction": "La force de Laplace (F = BIL) s'exerce sur un conducteur de longueur L, parcouru par I, dans un champ magnétique B."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "tesla",
-        "correction": "Le tesla (T) est l'unité SI du champ magnétique B, en l'honneur de Nikola Tesla."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le tesla (T) est l'unité SI du champ magnétique B, en l'honneur de Nikola Tesla."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Qi (chargeur inductif)",
-        "correct": 2,
         "correction": "La norme Qi utilise l'induction mutuelle entre deux bobines pour transférer l'énergie sans contact physique."
       },
       {

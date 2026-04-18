@@ -1,48 +1,71 @@
 {
-  "quiz_id": 1103,
-  "title": "Variable aléatoire discrète — loi et calculs",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "answers": [
-    {
-      "question_id": "1103_1",
-      "correct_option": "A",
-      "explanation": "La proposition A est correcte pour Variable aléatoire discrète — loi et calculs en 1ère."
-    },
-    {
-      "question_id": "1103_2",
-      "correct": true,
-      "explanation": "Variable aléatoire discrète — loi et calculs fait bien partie des notions clés du programme de 1ère."
-    },
-    {
-      "question_id": "1103_3",
-      "correct_answer": "Le principe fondamental de Variable aléatoire discrète — loi et calculs repose sur une propriété clé du programme de 1ère.",
-      "explanation": "Une bonne réponse résume la définition ou le théorème central de Variable aléatoire discrète — loi et calculs."
-    },
-    {
-      "question_id": "1103_4",
-      "correct_option": "A",
-      "explanation": "Le résultat A est le plus important pour Variable aléatoire discrète — loi et calculs."
-    },
-    {
-      "question_id": "1103_5",
-      "correct": true,
-      "explanation": "Oui, maîtriser Variable aléatoire discrète — loi et calculs permet de résoudre efficacement des exercices de 1ère."
-    },
-    {
-      "question_id": "1103_6",
-      "correct_answer": "Un exemple typique de Variable aléatoire discrète — loi et calculs en 1ère est un problème mobilisant cette notion directement.",
-      "explanation": "Les exercices sur Variable aléatoire discrète — loi et calculs en 1ère testent la compréhension et l'application du concept."
-    },
-    {
-      "question_id": "1103_7",
-      "correct_option": "A",
-      "explanation": "La formule A est celle à retenir pour Variable aléatoire discrète — loi et calculs en 1ère."
-    },
-    {
-      "question_id": "1103_8",
-      "correct": true,
-      "explanation": "Variable aléatoire discrète — loi et calculs est un thème récurrent dans les sujets de bac de 1ère."
-    }
-  ]
+  "contents": {
+    "title": "Variable aléatoire discrète — loi et calculs",
+    "level": "1ère",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Variable aléatoire discrète — loi et calculs",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "",
+        "correction": "La proposition A est correcte pour Variable aléatoire discrète — loi et calculs en 1ère."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Variable aléatoire discrète — loi et calculs fait bien partie des notions clés du programme de 1ère."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Une bonne réponse résume la définition ou le théorème central de Variable aléatoire discrète — loi et calculs."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "",
+        "correction": "Le résultat A est le plus important pour Variable aléatoire discrète — loi et calculs."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Oui, maîtriser Variable aléatoire discrète — loi et calculs permet de résoudre efficacement des exercices de 1ère."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les exercices sur Variable aléatoire discrète — loi et calculs en 1ère testent la compréhension et l'application du concept."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "",
+        "correction": "La formule A est celle à retenir pour Variable aléatoire discrète — loi et calculs en 1ère."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Variable aléatoire discrète — loi et calculs est un thème récurrent dans les sujets de bac de 1ère."
+      }
+    ]
+  }
 }

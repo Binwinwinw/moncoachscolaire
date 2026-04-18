@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Ils ont la même structure osseuse fondamentale révélant un ancêtre commun",
-        "correct": 1,
         "correction": "Les organes homologues partagent le même plan structurel de base (même os) malgré des fonctions différentes -> descendance avec modification à partir d'un ancêtre commun."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "moléculaire",
-        "correction": "Plus deux espèces sont proches évolutivement, plus leurs séquences d'ADN/protéines sont similaires. Ex : 98,7% de similitude ADN humain-chimpanzé."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Plus deux espèces sont proches évolutivement, plus leurs séquences d'ADN/protéines sont similaires. Ex : 98,7% de similitude ADN humain-chimpanzé."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Des restes d'organes autrefois fonctionnels chez des ancêtres, témoins de l'histoire évolutive",
-        "correct": 1,
         "correction": "Les structures vestigiales sont réduites et non fonctionnelles mais encore présentes ; elles révèlent l'ascendance évolutive de l'espèce."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "origine",
-        "correction": "Darwin observe aux Galapagos que chaque île a ses propres espèces de pinsons adaptées localement mais toutes dérivées d'un ancêtre commun."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Darwin observe aux Galapagos que chaque île a ses propres espèces de pinsons adaptées localement mais toutes dérivées d'un ancêtre commun."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Les embryons de vertébrés très différents se ressemblent fortement à des stades précoces",
-        "correct": 1,
         "correction": "Les embryons de poissons, reptiles, oiseaux et mammifères présentent des fentes branchiales et des queues aux stades précoces -> héritage d'un ancêtre commun."
       },
       {

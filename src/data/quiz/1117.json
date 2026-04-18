@@ -33,8 +33,8 @@
         "question": "Une entente illicite entre concurrents pour fixer les prix est interdite par le droit européen de la concurrence."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce qu'un abus de position dominante ? Cite un exemple récent."
+        "type": "vrai-faux",
+        "question": "Cette affirmation reformule l'idée essentielle à retenir : Qu'est-ce qu'un abus de position dominante ? Cite un exemple récent."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La politique industrielle peut être en tension avec la politique de concurrence (ex : champions nationaux vs concurrence équitable)."
       },
       {
-        "type": "open",
-        "question": "Pourquoi les plateformes numériques posent-elles de nouveaux défis à la politique de concurrence ?"
+        "type": "vrai-faux",
+        "question": "Cette affirmation reformule l'idée essentielle à retenir : Pourquoi les plateformes numériques posent-elles de nouveaux défis à la politique de concurrence."
       },
       {
         "type": "qcm",
@@ -83,5 +83,6 @@
       "notion": "Intégration économique mondiale",
       "description": "Notion fondamentale de SES"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

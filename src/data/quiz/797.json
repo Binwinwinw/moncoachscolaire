@@ -33,8 +33,8 @@
         "question": "Une eolienne a axe horizontal produit plus d'electricite qu'une eolienne a axe vertical."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on la technologie qui stocke l'electricite d'origine renouvelable sous forme d'hydrogene par electrolyse de l'eau ?"
+        "type": "vrai-faux",
+        "question": "Le Power-to-Gas (PtG) electrolyse l'eau avec de l'electricite renouvelable excedentaire pour produire de l'hydrogene vert, vecteur energetique stockable et transportable."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "L'autoproduction d'electricite solaire avec revente du surplus sur le reseau est permise en France."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on le systeme qui pompe de l'eau en altitude en periode de surplus d'electricite et la turbine pour produire de l'electricite lors des pics de demande ?"
+        "type": "vrai-faux",
+        "question": "La STEP (Station de Transfert d'Energie par Pompage) est la principale technologie de stockage massif d'electricite ; elle fonctionne comme une batterie hydraulique geante."
       },
       {
         "type": "qcm",

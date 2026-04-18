@@ -33,8 +33,8 @@
         "question": "Lors de l'électrolyse de l'eau, du dihydrogène se dégage à la cathode."
       },
       {
-        "type": "open",
-        "question": "Quel gaz se dégage à l'anode lors de l'électrolyse de l'eau ?"
+        "type": "vrai-faux",
+        "question": "À l'anode (électrode positive) : 2H2O → O2 + 4H+ + 4e-."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "L'électrolyse peut être utilisée pour recharger des batteries."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on le dépôt d'une couche métallique sur un objet par électrolyse ?"
+        "type": "vrai-faux",
+        "question": "La galvanoplastie (ou électrodéposition) dépose un métal (or, chrome, nickel) sur un objet par électrolyse."
       },
       {
         "type": "qcm",

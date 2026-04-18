@@ -33,8 +33,8 @@
         "question": "Le module random de Python permet de générer des nombres pseudo-aléatoires."
       },
       {
-        "type": "open",
-        "question": "À quoi sert le module os en Python ? Citez trois fonctions utiles."
+        "type": "vrai-faux",
+        "question": "Le module os permet d'interagir avec le système d'exploitation."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "pip est le gestionnaire de paquets standard de Python."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce qu'un environnement virtuel Python (venv) et pourquoi l'utiliser ?"
+        "type": "vrai-faux",
+        "question": "Un environnement virtuel isole les dépendances d'un projet Python (packages et versions) dans un dossier dédié, évitant les conflits entre projets."
       },
       {
         "type": "qcm",

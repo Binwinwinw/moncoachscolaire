@@ -33,8 +33,8 @@
         "question": "En Python, elif est une contraction de 'else if'."
       },
       {
-        "type": "open",
-        "question": "Écrivez une fonction Python qui retourne 'positif', 'négatif' ou 'nul' selon le signe d'un nombre."
+        "type": "vrai-faux",
+        "question": "Def signe(n): if n > 0: return 'positif' elif n < 0: return 'négatif' else: return 'nul'."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "L'expression 'x if condition else y' est une expression conditionnelle (ternaire) valide en Python."
       },
       {
-        "type": "open",
-        "question": "Expliquez le court-circuit (short-circuit evaluation) des opérateurs and et or en Python."
+        "type": "vrai-faux",
+        "question": "Python évalue les opérandes de gauche à droite et s'arrête dès que le résultat est déterminé."
       },
       {
         "type": "qcm",

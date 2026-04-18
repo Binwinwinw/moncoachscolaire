@@ -1,48 +1,71 @@
 {
-  "quiz_id": 1115,
-  "title": "Défaillances du marché et externalités",
-  "subject": "SES",
-  "level": "Terminale",
-  "answers": [
-    {
-      "question_id": "1115_1",
-      "correct_option": "B",
-      "explanation": "Externalité négative : le coût social > coût privé. Ex : pollution industrielle → surproduction par rapport à l'optimum social."
-    },
-    {
-      "question_id": "1115_2",
-      "correct": true,
-      "explanation": "Quand la production d'un bien profite à des tiers (ex : vaccination, éducation), le producteur ne capte pas tous les bénéfices → sous-production → justification de la subvention."
-    },
-    {
-      "question_id": "1115_3",
-      "correct_answer": "Si les droits de propriété sont bien définis et les coûts de transaction nuls, les agents peuvent négocier une solution optimale aux externalités sans intervention de l'État. Limites : coûts de transaction élevés, asymétries d'information, problèmes de « hold-up ».",
-      "explanation": "Coase : la solution aux externalités peut être privée (négociation). En pratique, les hypothèses restrictives limitent son application."
-    },
-    {
-      "question_id": "1115_4",
-      "correct_option": "B",
-      "explanation": "Bien public pur (Samuelson) : non-rival (la consommation d'un ne réduit pas celle d'un autre) et non-excluable (impossible d'en exclure quiconque). Ex : phare, défense nationale."
-    },
-    {
-      "question_id": "1115_5",
-      "correct": true,
-      "explanation": "Pour les biens non-excluables, chacun espère profiter sans payer (free rider) → sous-financement privé → l'État doit les fournir et les financer par l'impôt."
-    },
-    {
-      "question_id": "1115_6",
-      "correct_answer": "Bien public pur (non-rival, non-excluable) : défense nationale. Bien de club (non-rival, excluable) : autoroute à péage. Bien commun (rival, non-excluable) : poisson en mer. Bien privé (rival, excluable) : pain.",
-      "explanation": "Taxonomie de Samuelson et Ostrom. Les biens communs souffrent de la « tragédie des communs » (Hardin)."
-    },
-    {
-      "question_id": "1115_7",
-      "correct_option": "B",
-      "explanation": "Hardin : chaque individu rationnel maximise son usage d'une ressource commune, menant à sa destruction collective. Ex : surpêche, déforestation."
-    },
-    {
-      "question_id": "1115_8",
-      "correct": true,
-      "explanation": "Ostrom a documenté des systèmes de gouvernance locale efficaces pour gérer les biens communs (forêts, pêche, irrigation) sans les deux solutions extrêmes."
-    }
-  ]
+  "contents": {
+    "title": "Quiz Diagnostic SES Terminale - Serie 1115",
+    "level": "Terminale",
+    "subject": "SES"
+  },
+  "quiz": {
+    "title": "Défaillances du marché et externalités",
+    "question_count": 8,
+    "level": "Terminale",
+    "subject": "SES",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Cette affirmation reformule l'idée essentielle à retenir : Explique le théorème de Coase (1960) et ses limites."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Cette affirmation reformule l'idée essentielle à retenir : Distingue biens publics, biens collectifs, biens de club et biens communs, avec un exemple de chaque."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      }
+    ]
+  }
 }

@@ -33,8 +33,8 @@
         "question": "Dissoudre plus de soluté dans un même volume augmente la concentration de la solution."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on la concentration exprimée en moles de soluté par litre de solution ?"
+        "type": "vrai-faux",
+        "question": "Concentration molaire."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La dilution d'une solution augmente sa concentration."
       },
       {
-        "type": "open",
-        "question": "Quel matériel de verrerie est utilisé pour préparer une solution de concentration précise ?"
+        "type": "vrai-faux",
+        "question": "La fiole jaugée (fiole volumétrique) permet de préparer un volume précis de solution."
       },
       {
         "type": "qcm",

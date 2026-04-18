@@ -33,8 +33,8 @@
         "question": "Le modèle de Von Neumann comprend une unité centrale de traitement (CPU), une mémoire et des entrées/sorties."
       },
       {
-        "type": "open",
-        "question": "Expliquez le rôle de l'unité arithmétique et logique (UAL) dans le CPU."
+        "type": "vrai-faux",
+        "question": "L'UAL (Arithmetic and Logic Unit) effectue les opérations arithmétiques (addition, soustraction, multiplication) et logiques (AND, OR, NOT, comparaisons)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Le cycle d'exécution d'un processeur est : Fetch (chercher) – Decode (décoder) – Execute (exécuter)."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce que la fréquence d'horloge d'un processeur et quelle est sa limite ?"
+        "type": "vrai-faux",
+        "question": "La fréquence d'horloge (GHz) mesure le nombre de cycles par seconde."
       },
       {
         "type": "qcm",

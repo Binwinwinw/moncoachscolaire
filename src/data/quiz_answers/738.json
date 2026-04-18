@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Amplifier ou commuter des signaux électriques",
-        "correct": 1,
         "correction": "Un transistor peut amplifier un signal faible ou fonctionner comme un interrupteur commandé électroniquement (commutation)."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "porte ET (AND)",
-        "correction": "La porte ET (AND) réalise la fonction logique ET : la sortie est 1 uniquement si toutes les entrées sont à 1."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La porte ET (AND) réalise la fonction logique ET : la sortie est 1 uniquement si toutes les entrées sont à 1."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Des milliards",
-        "correct": 3,
         "correction": "Les processeurs modernes contiennent plusieurs milliards de transistors gravés à l'échelle nanométrique."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "le système binaire (base 2)",
-        "correction": "Les ordinateurs utilisent le système binaire (0 et 1) car il correspond aux deux états physiques des transistors (bloqué/saturé)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les ordinateurs utilisent le système binaire (0 et 1) car il correspond aux deux états physiques des transistors (bloqué/saturé)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Un ensemble de composants (transistors, résistances, diodes) intégrés sur une même puce de silicium",
-        "correct": 1,
         "correction": "Un circuit intégré regroupe de nombreux composants sur une seule puce de silicium, permettant la miniaturisation et la réduction des coûts."
       },
       {

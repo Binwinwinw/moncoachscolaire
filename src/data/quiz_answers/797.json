@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Il convertit la lumiere en electricite grace a l'effet photovoltaique dans des cellules en silicium",
-        "correct": 1,
         "correction": "L'effet photovoltaique (decouverte d'Edmond Becquerel, 1839) : les photons libèrent des electrons dans le semi-conducteur, creant un courant electrique continu."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "power-to-gas",
-        "correction": "Le Power-to-Gas (PtG) electrolyse l'eau avec de l'electricite renouvelable excedentaire pour produire de l'hydrogene vert, vecteur energetique stockable et transportable."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le Power-to-Gas (PtG) electrolyse l'eau avec de l'electricite renouvelable excedentaire pour produire de l'hydrogene vert, vecteur energetique stockable et transportable."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Un reseau qui utilise les technologies numeriques pour equilibrer production et consommation en temps reel",
-        "correct": 1,
         "correction": "Le smart grid integre capteurs, compteurs intelligents (Linky) et IA pour optimiser les flux d'electricite, integrer les EnR et gerer la demande."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "STEP",
-        "correction": "La STEP (Station de Transfert d'Energie par Pompage) est la principale technologie de stockage massif d'electricite ; elle fonctionne comme une batterie hydraulique geante."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La STEP (Station de Transfert d'Energie par Pompage) est la principale technologie de stockage massif d'electricite ; elle fonctionne comme une batterie hydraulique geante."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "40% d'EnR dans la consommation finale d'energie d'ici 2030",
-        "correct": 0,
         "correction": "La France vise 40% d'energies renouvelables dans sa consommation finale d'energie d'ici 2030, conformement aux objectifs europeens (directive RED II)."
       },
       {

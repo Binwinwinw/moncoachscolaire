@@ -33,8 +33,8 @@
         "question": "(a − b)(a + b) = a² − b²."
       },
       {
-        "type": "open",
-        "question": "Factorise l'expression : x² − 9."
+        "type": "vrai-faux",
+        "question": "X² − 9 = x² − 3² = (x−3)(x+3) grâce à l'identité a² − b² = (a−b)(a+b)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "3x² + 6x = 3x(x + 2)."
       },
       {
-        "type": "open",
-        "question": "Développe et réduis : (x + 4)(x − 1)."
+        "type": "vrai-faux",
+        "question": "(x+4)(x−1) = x² − x + 4x − 4 = x² + 3x − 4."
       },
       {
         "type": "qcm",

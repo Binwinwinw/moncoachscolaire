@@ -33,8 +33,8 @@
         "question": "En France, la justice penale juge les infractions (crimes, delits, contraventions)."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on la voie de recours permettant de porter une affaire devant une juridiction superieure ?"
+        "type": "vrai-faux",
+        "question": "L'appel permet de contester une décision de première instance devant une cour d'appel, qui réexamine l'affaire en droit et en fait."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La Cour de cassation rejuge les faits de l'affaire et peut innocenter directement un condamne."
       },
       {
-        "type": "open",
-        "question": "Quel magistrat est charge de representer la societe et de declencher les poursuites penales au nom de l'Etat ?"
+        "type": "vrai-faux",
+        "question": "Procureur de la Republique."
       },
       {
         "type": "qcm",

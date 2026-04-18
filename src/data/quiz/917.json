@@ -33,8 +33,8 @@
         "question": "Les orbites géostationnaires (GEO) sont une ressource limitée et objet de compétition entre États."
       },
       {
-        "type": "open",
-        "question": "En quoi le contrôle des satellites est-il un enjeu stratégique militaire ?"
+        "type": "vrai-faux",
+        "question": "Les satellites militaires assurent le renseignement (espionnage, imagerie), les communications des forces armées, la navigation (GPS, GLONASS, Galileo), la détection de missiles et les drones armés."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "L'Europe a développé son propre système de navigation par satellite, Galileo."
       },
       {
-        "type": "open",
-        "question": "Quels sont les risques liés à la militarisation croissante de l'espace ?"
+        "type": "vrai-faux",
+        "question": "Risques : course aux armements spatiaux (tests antisatellites), création de débris menaçant toutes les orbites, escalade possible vers des conflits terrestres (dépendance militaire aux satellites), absence d'un cadre juridique adapté aux nouvelles capacités (cyberattaques spatiales, armes antisatellites)."
       },
       {
         "type": "qcm",

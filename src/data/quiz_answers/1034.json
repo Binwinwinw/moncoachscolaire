@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "C",
+        "answer": "La distance parcourue",
         "correction": "L'intégrale de la vitesse par rapport au temps donne la distance (déplacement) parcourue."
       },
       {
@@ -27,15 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Le volume total d'eau entré dans le réservoir entre t=0 et t=5 heures.",
-        "correction": "L'intégrale du débit sur un intervalle de temps donne le volume accumulé."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'intégrale du débit sur un intervalle de temps donne le volume accumulé."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "B",
+        "answer": "Le profit total sur 100 unités",
         "correction": "∫₀¹⁰⁰ P'(t) dt = P(100) − P(0) : c'est la variation du profit (profit total généré)."
       },
       {
@@ -48,15 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "P(10) = 1500",
-        "correction": "P(10) = P(0) + ∫₀¹⁰ r(t) dt = 1000 + 500 = 1500."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. P(10) = P(0) + ∫₀¹⁰ r(t) dt = 1000 + 500 = 1500."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "C",
+        "answer": "g'(x) dx",
         "correction": "u = g(x) → du = g'(x) dx. On remplace x et dx : ∫f(g(x))g'(x)dx = ∫f(u)du."
       },
       {

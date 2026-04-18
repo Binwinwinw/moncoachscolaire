@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "H₂O",
-        "correct": 2,
         "correction": "L'eau est composée de deux atomes d'hydrogène et un atome d'oxygène liés par des liaisons covalentes : H₂O."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "l'acidité ou la basicité (alcalinité) d'une solution",
-        "correction": "Le pH mesure la concentration en ions H₃O⁺. Un pH < 7 = acide, pH = 7 = neutre, pH > 7 = basique (alcalin)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le pH mesure la concentration en ions H₃O⁺. Un pH 7 = basique (alcalin)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La vitesse de la lumière dans le vide est d'environ 300 000 km/s",
-        "correct": 2,
         "correction": "La vitesse de la lumière dans le vide est c ≈ 3 × 10⁸ m/s = 300 000 km/s. Elle est plus lente dans les milieux matériels."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "ΣF = m × a (la somme des forces = masse × accélération)",
-        "correction": "La deuxième loi de Newton : la résultante des forces (en N) est égale au produit de la masse (en kg) par l'accélération (en m/s²)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La deuxième loi de Newton : la résultante des forces (en N) est égale au produit de la masse (en kg) par l'accélération (en m/s²)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "C + O₂ → CO₂",
-        "correct": 1,
         "correction": "La combustion complète du carbone produit du dioxyde de carbone CO₂. La combustion incomplète produit du monoxyde de carbone CO (toxique)."
       },
       {

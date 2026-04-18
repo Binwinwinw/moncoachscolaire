@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "A",
+        "answer": "9/3",
         "correction": "f(x) = 7 → 3x − 2 = 7 → 3x = 9 → x = 3."
       },
       {
@@ -27,15 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "x = 2 ou x = −2",
-        "correction": "x² − 4 = 0 → x² = 4 → x = ±2."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. x² − 4 = 0 → x² = 4 → x = ±2."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "C",
+        "answer": "8",
         "correction": "f(−3) = −(−3) + 5 = 3 + 5 = 8."
       },
       {
@@ -48,15 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "x: −1→2, 0→0, 1→0, 2→2, 3→6",
-        "correction": "f(−1)=1+1=2 ; f(0)=0 ; f(1)=0 ; f(2)=2 ; f(3)=6."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. f(−1)=1+1=2 ; f(0)=0 ; f(1)=0 ; f(2)=2 ; f(3)=6."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "B",
+        "answer": "1",
         "correction": "f(x) = x³ est bijective sur R : chaque valeur a exactement un antécédent."
       },
       {

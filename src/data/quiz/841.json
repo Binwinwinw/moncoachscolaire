@@ -33,8 +33,8 @@
         "question": "L'assurance maladie en France couvre 100 % des frais médicaux pour tous."
       },
       {
-        "type": "open",
-        "question": "Quels sont les défis démographiques auxquels fait face le système de retraite par répartition ?"
+        "type": "vrai-faux",
+        "question": "Le vieillissement de la population (allongement de la vie) et la baisse du taux de natalité réduisent le ratio actifs/retraités."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Les allocations familiales sont versées sous condition de ressources en France."
       },
       {
-        "type": "open",
-        "question": "Distinguez modèle bismarckien et modèle beveridgien de protection sociale."
+        "type": "vrai-faux",
+        "question": "Bismarckien (Allemagne, France) : protection sociale fondée sur l'emploi et les cotisations professionnelles."
       },
       {
         "type": "qcm",

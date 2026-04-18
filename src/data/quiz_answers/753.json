@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Scrutin uninominal majoritaire a deux tours",
-        "correct": 1,
         "correction": "L'élection présidentielle française se déroule au scrutin uninominal majoritaire à deux tours ; le candidat ayant obtenu la majorité absolue au 1er tour (ou la majorité relative au 2nd tour) est élu."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "abstention",
-        "correction": "L'abstention désigne le fait de ne pas participer à un scrutin. Elle est souvent analysée comme un indicateur de désenchantement démocratique."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'abstention désigne le fait de ne pas participer à un scrutin. Elle est souvent analysée comme un indicateur de désenchantement démocratique."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Le Conseil constitutionnel",
-        "correct": 1,
         "correction": "Le Conseil constitutionnel est juge électoral suprême ; il veille à la régularité des élections présidentielles, législatives et des référendums."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "referendum",
-        "correction": "Le référendum est un vote direct des citoyens sur une question précise (ex. référendum sur la Constitution européenne en 2005 en France)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le référendum est un vote direct des citoyens sur une question précise (ex. référendum sur la Constitution européenne en 2005 en France)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "5 ans renouvelable une seule fois",
-        "correct": 1,
         "correction": "Depuis le référendum de 2000, le mandat présidentiel est de 5 ans (quinquennat), renouvelable une seule fois consécutivement."
       },
       {

@@ -33,8 +33,8 @@
         "question": "Le tri rapide (quicksort) est en moyenne plus rapide que le tri à bulles."
       },
       {
-        "type": "open",
-        "question": "Expliquez le principe du tri par insertion."
+        "type": "vrai-faux",
+        "question": "On parcourt la liste de gauche à droite."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La fonction sorted() de Python utilise l'algorithme Timsort."
       },
       {
-        "type": "open",
-        "question": "Comment trier une liste de dictionnaires par la valeur d'une clé en Python ?"
+        "type": "vrai-faux",
+        "question": "Sorted(liste, key=lambda x: x['cle']) ou liste.sort(key=lambda x: x['cle'])."
       },
       {
         "type": "qcm",

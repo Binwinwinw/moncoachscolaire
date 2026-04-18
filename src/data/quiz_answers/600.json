@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "90%",
-        "correct": 2,
         "correction": "Le transport maritime domine les échanges de marchandises."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "ZEE",
-        "correction": "La zone économique exclusive s'étend jusqu'à 200 milles marins."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La zone économique exclusive s'étend jusqu'à 200 milles marins."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La pollution plastique",
-        "correct": 1,
         "correction": "Elle menace biodiversité et chaînes alimentaires."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "stocks halieutiques",
-        "correction": "Une pêche non durable compromet le renouvellement des espèces."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Une pêche non durable compromet le renouvellement des espèces."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Parce qu'ils offrent interfaces, ports et attractivité",
-        "correct": 1,
         "correction": "Ils relient espaces terrestres et maritimes."
       },
       {

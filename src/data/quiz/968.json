@@ -33,8 +33,8 @@
         "question": "Si a > b et c > 0, alors ac > bc."
       },
       {
-        "type": "open",
-        "question": "Résous l'inégalité 3x − 5 > 7 et exprime la solution sous forme d'intervalle."
+        "type": "vrai-faux",
+        "question": "X > 4, soit ]4 ; +∞[."
       },
       {
         "type": "qcm",
@@ -51,12 +51,12 @@
         "question": "Si a < b et b < c, alors a < c (transitivité)."
       },
       {
-        "type": "open",
-        "question": "Résous le système d'inégalités : 2x + 1 > 5 ET x − 3 < 2."
+        "type": "vrai-faux",
+        "question": "X > 2 ET x < 5, soit x ∈ ]2 ; 5[."
       },
       {
         "type": "qcm",
-        "question": "Si a² < b², avec a, b > 0, que peut-on conclure ?",
+        "question": "Si a² 0, que peut-on conclure ?",
         "choices": [
           "a > b",
           "a < b",

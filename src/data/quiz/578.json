@@ -33,8 +33,8 @@
         "question": "Le Japon est l'un des pays les plus exposés aux risques naturels (séismes, tsunamis, typhons)."
       },
       {
-        "type": "open",
-        "question": "La carte des risques d'un territoire s'appelle un Plan de Prévention des Risques (PPR) ; elle définit des zones constructibles ou _____ ."
+        "type": "vrai-faux",
+        "question": "Le PPR interdit la construction dans les zones les plus exposées aux risques naturels (inondation, glissement de terrain.)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Le changement climatique augmente la fréquence et l'intensité de certains risques naturels (inondations, sécheresses, tempêtes)."
       },
       {
-        "type": "open",
-        "question": "Le séisme et le raz-de-marée géant (tsunami) de 2004 dans l'_____ indien a fait environ 220 000 morts."
+        "type": "vrai-faux",
+        "question": "Le tsunami du 26 décembre 2004 (séisme de magnitude 9,1 au large de Sumatra) a dévasté les côtes de l'océan Indien."
       },
       {
         "type": "qcm",

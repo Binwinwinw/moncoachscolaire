@@ -33,8 +33,8 @@
         "question": "La Chine est devenue la troisième nation à envoyer un homme dans l'espace en 2003."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce que le New Space et en quoi représente-t-il un changement dans le secteur spatial ?"
+        "type": "vrai-faux",
+        "question": "Le New Space désigne l'émergence d'acteurs privés (SpaceX, Blue Origin, OneWeb, Planet Labs…) qui révolutionnent le secteur spatial."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "L'Inde a réussi à atterrir sur la Lune en 2023 avec sa mission Chandrayaan-3."
       },
       {
-        "type": "open",
-        "question": "Quels sont les enjeux économiques liés aux ressources de la Lune ?"
+        "type": "vrai-faux",
+        "question": "La Lune contient de l'hélium-3 (potentiel combustible pour la fusion nucléaire), des minéraux rares, de la glace d'eau aux pôles (utilisable pour l'eau et le carburant)."
       },
       {
         "type": "qcm",

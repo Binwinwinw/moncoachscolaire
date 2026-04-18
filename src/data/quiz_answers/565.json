@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Des attentats du FLN contre des cibles françaises en Algérie",
-        "correct": 1,
         "correction": "La Toussaint Rouge (1er novembre 1954) : le FLN (Front de Libération Nationale) lance une série d'attentats marquant le début de l'insurrection."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "1962",
-        "correction": "Les accords d'Évian (mars 1962) et le référendum de juillet 1962 consacrent l'indépendance de l'Algérie."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les accords d'Évian (mars 1962) et le référendum de juillet 1962 consacrent l'indépendance de l'Algérie."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Des Algériens musulmans ayant combattu aux côtés de l'armée française",
-        "correct": 1,
         "correction": "Environ 200 000 harkis ont servi dans l'armée française ; beaucoup ont été massacrés après l'indépendance ou ont fui en France où ils ont été mal accueillis."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "de Gaulle",
-        "correction": "Le 13 mai 1958, des généraux et pieds-noirs se soulèvent à Alger ; De Gaulle revient au pouvoir et rédige la Constitution de la Ve République."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le 13 mai 1958, des généraux et pieds-noirs se soulèvent à Alger ; De Gaulle revient au pouvoir et rédige la Constitution de la Ve République."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Un cessez-le-feu et l'organisation d'un référendum sur l'indépendance algérienne",
-        "correct": 1,
         "correction": "Les accords d'Évian mettent fin aux combats ; le référendum d'autodétermination (1er juillet 1962) aboutit à l'indépendance de l'Algérie."
       },
       {

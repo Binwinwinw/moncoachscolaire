@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "1958",
-        "correct": 2,
         "correction": "La Ve République a été instaurée par la Constitution du 4 octobre 1958, rédigée sous l'impulsion du général de Gaulle pour résoudre la crise algérienne."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "article 12",
-        "correction": "L'article 12 permet au Président de dissoudre l'Assemblée nationale après consultation du Premier ministre et des présidents des assemblées."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'article 12 permet au Président de dissoudre l'Assemblée nationale après consultation du Premier ministre et des présidents des assemblées."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Voter les lois et controler le gouvernement",
-        "correct": 1,
         "correction": "L'Assemblée nationale (577 députés élus pour 5 ans) vote les lois, le budget de l'État et peut renverser le gouvernement par une motion de censure."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "cohabitation",
-        "correction": "La cohabitation (1986-88, 1993-95, 1997-2002) est une situation de division du pouvoir exécutif entre un président et un premier ministre de camps politiques opposés."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La cohabitation (1986-88, 1993-95, 1997-2002) est une situation de division du pouvoir exécutif entre un président et un premier ministre de camps politiques opposés."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Verifier la conformite des lois a la Constitution",
-        "correct": 1,
         "correction": "Le Conseil constitutionnel (9 membres nommés pour 9 ans non renouvelables) contrôle la constitutionnalité des lois avant et après promulgation (via la QPC)."
       },
       {

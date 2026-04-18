@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Un allèle dont l'effet phénotypique s'exprime même en un seul exemplaire (hétérozygote)",
-        "correct": 1,
         "correction": "L'allèle dominant (noté en majuscule) masque l'allèle récessif en situation hétérozygote."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "25",
-        "correction": "AA(1/4) : Aa(2/4) : aa(1/4) -> 25% d'homozygotes récessifs en F2 selon les lois de Mendel."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. AA(1/4) : Aa(2/4) : aa(1/4) -> 25% d'homozygotes récessifs en F2 selon les lois de Mendel."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Chaque gamète ne reçoit qu'un seul allèle de chaque paire",
-        "correct": 1,
         "correction": "1ère loi de Mendel (ségrégation) : lors de la méiose, les deux allèles d'un gène se séparent dans des gamètes différents."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "génotype",
-        "correction": "Génotype (constitution allélique) --> expression génique (influencée par l'environnement) --> phénotype (caractère observable)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Génotype (constitution allélique) --> expression génique (influencée par l'environnement) --> phénotype (caractère observable)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Les deux allèles s'expriment simultanément dans le phénotype de l'hétérozygote",
-        "correct": 1,
         "correction": "Ex. : groupe sanguin AB (allèles IA et IB codominants) : l'hétérozygote exprime les deux antigènes A et B."
       },
       {

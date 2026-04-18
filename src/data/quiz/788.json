@@ -33,8 +33,8 @@
         "question": "La fonction setup() d'un programme Arduino s'execute une seule fois au demarrage."
       },
       {
-        "type": "open",
-        "question": "Quelle instruction Arduino allume une LED connectee sur la broche 13 ?"
+        "type": "vrai-faux",
+        "question": "DigitalWrite(13, HIGH)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Une resistance de 220 ohms est generalement utilisee en serie avec une LED pour limiter le courant et la proteger."
       },
       {
-        "type": "open",
-        "question": "Quel composant electronique permet de polariser un courant dans un seul sens et est utilise dans les circuits de protection et d'affichage ?"
+        "type": "vrai-faux",
+        "question": "La diode (junction PN) ne laisse passer le courant que dans un sens (anode vers cathode en direct) ; les LED sont des diodes electroluminescentes."
       },
       {
         "type": "qcm",

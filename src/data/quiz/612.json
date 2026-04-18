@@ -33,8 +33,8 @@
         "question": "Dans un dihybride (AaBb x AaBb), les proportions phénotypiques en F2 sont 9:3:3:1 si les gènes sont indépendants."
       },
       {
-        "type": "open",
-        "question": "Deux gènes situés sur le même chromosome sont dits _____ ; ils ne se séparent pas indépendamment lors de la méiose."
+        "type": "vrai-faux",
+        "question": "Les gènes liés (sur le même chromosome) sont transmis ensemble sauf si un crossing-over les sépare."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La fréquence de recombinaison entre deux gènes augmente avec la distance qui les sépare sur le chromosome."
       },
       {
-        "type": "open",
-        "question": "La carte génétique d'un chromosome est établie à partir des fréquences de _____ entre les gènes."
+        "type": "vrai-faux",
+        "question": "1 centimorgan (cM) = 1% de fréquence de recombinaison ; c'est l'unité de distance génétique."
       },
       {
         "type": "qcm",

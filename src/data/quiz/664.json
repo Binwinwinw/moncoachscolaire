@@ -33,8 +33,8 @@
         "question": "Un vaccin à ARN messager introduit directement des anticorps dans l'organisme."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on l'immunité de groupe atteinte lorsqu'une grande proportion de la population est vaccinée ?"
+        "type": "vrai-faux",
+        "question": "Immunité collective."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "L'immunité passive transmise par les anticorps maternels est durable toute la vie."
       },
       {
-        "type": "open",
-        "question": "Quel scientifique a développé le premier vaccin (contre la variole) ?"
+        "type": "vrai-faux",
+        "question": "Edward Jenner a développé le premier vaccin en 1796 en utilisant la vaccine (variole de vache) pour immuniser contre la variole."
       },
       {
         "type": "qcm",

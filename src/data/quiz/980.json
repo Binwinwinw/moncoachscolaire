@@ -33,8 +33,8 @@
         "question": "Un modèle affine f(x) = ax + b décrit une situation de proportionnalité si b = 0."
       },
       {
-        "type": "open",
-        "question": "Une voiture roule à vitesse constante. Elle parcourt 150 km en 2 h. Modélise la distance D en fonction du temps t (en heures)."
+        "type": "vrai-faux",
+        "question": "Vitesse = 150/2 = 75 km/h."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Dans une modélisation, les unités des variables doivent être précisées."
       },
       {
-        "type": "open",
-        "question": "L'aire d'un carré de côté x est A(x) = x². Quel est le domaine de définition pertinent dans ce contexte ?"
+        "type": "vrai-faux",
+        "question": "]0 ; +∞[ (ou [0 ; +∞[ selon si on accepte un côté nul)."
       },
       {
         "type": "qcm",

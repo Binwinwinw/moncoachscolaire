@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La psychanalyse (association libre, interprétation des rêves)",
-        "correct": 1,
         "correction": "Freud développe la psychanalyse : méthode thérapeutique et théorie de l'appareil psychique. Ses techniques d'accès à l'inconscient sont l'association libre (dire tout ce qui vient à l'esprit sans censure), l'interprétation des rêves ('voie royale vers l'inconscient'), l'analyse des actes manqués et des lapsus (Psychopathologie de la vie quotidienne)."
       },
       {
@@ -28,17 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "correct_answer": "Le refoulement est le mécanisme de défense par lequel des représentations jugées inacceptables sont repoussées dans l'inconscient et maintenues hors de la conscience.",
-        "answer": "Le refoulement est le mécanisme de défense par lequel des représentations jugées inacceptables sont repoussées dans l'inconscient et maintenues hors de la conscience.",
-        "correction": "Le refoulement (Verdrängung) est le mécanisme central de la psychanalyse freudienne : la censure psychique refoule dans l'inconscient les représentations liées à des désirs inacceptables (pulsions sexuelles, agressives), les maintenant hors de la conscience. Ces représentations refoulées ne disparaissent pas mais exercent une pression constante et reviennent sous des formes déguisées : rêves, lapsus, actes manqués, symptômes névrotiques."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le refoulement (Verdrängung) est le mécanisme central de la psychanalyse freudienne : la censure psychique refoule dans l'inconscient les représentations liées à des désirs inacceptables (pulsions sexuelles, agressives), les maintenant hors de la conscience. Ces représentations refoulées ne disparaissent pas mais exercent une pression constante et reviennent sous des formes déguisées : rêves, lapsus, actes manqués, symptômes névrotiques."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Si l'inconscient est par définition inaccessible à la conscience, on ne peut ni le prouver ni le réfuter (problème de réfutabilité)",
-        "correct": 1,
         "correction": "La critique philosophique majeure de l'inconscient freudien (notamment Karl Popper) porte sur sa non-réfutabilité : une théorie scientifique doit pouvoir être potentiellement infirmée par l'expérience. La psychanalyse interprète tout (confirmation comme infirmation) comme preuve de sa théorie. De plus, Sartre (L'Être et le Néant) critique la 'mauvaise foi' : l'inconscient est une façon de nier sa liberté et sa responsabilité."
       },
       {
@@ -51,17 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "correct_answer": "L'inconscient montre que le moi n'est pas maître chez lui : nos comportements sont en partie déterminés par des forces que nous ne contrôlons pas, blessant ainsi notre image de maîtrise de nous-mêmes.",
-        "answer": "L'inconscient montre que le moi n'est pas maître chez lui : nos comportements sont en partie déterminés par des forces que nous ne contrôlons pas, blessant ainsi notre image de maîtrise de nous-mêmes.",
-        "correction": "Freud (Introduction à la psychanalyse) identifie trois 'blessures narcissiques' : Copernic (la Terre n'est pas le centre de l'univers), Darwin (l'homme descend de l'animal) et lui-même (le moi n'est pas maître chez lui). La psychanalyse montre que nos pensées, désirs et comportements sont largement déterminés par un inconscient que nous ne contrôlons pas, remettant en cause l'idéal de maîtrise de soi de la philosophie classique."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Freud (Introduction à la psychanalyse) identifie trois 'blessures narcissiques' : Copernic (la Terre n'est pas le centre de l'univers), Darwin (l'homme descend de l'animal) et lui-même (le moi n'est pas maître chez lui). La psychanalyse montre que nos pensées, désirs et comportements sont largement déterminés par un inconscient que nous ne contrôlons pas, remettant en cause l'idéal de maîtrise de soi de la philosophie classique."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Sartre",
-        "correct": 2,
         "correction": "Jean-Paul Sartre (L'Être et le Néant, 1943) critique l'inconscient freudien : pour lui, la conscience est transparente à elle-même et fondamentalement libre. Se réfugier derrière l'inconscient pour expliquer ses actes ('c'est mon inconscient') est une forme de 'mauvaise foi' – une manière de fuir sa liberté et sa responsabilité en se traitant comme une chose déterminée."
       },
       {

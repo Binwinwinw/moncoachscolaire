@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Choisir les principes de justice sans savoir quelle place on occupera dans la société",
-        "correct": 1,
         "correction": "Le 'voile d'ignorance' (John Rawls, Théorie de la justice, 1971) est un dispositif de pensée : pour choisir des principes justes, imaginons que nous ne sachions pas quelle position nous occuperons dans la société (riche/pauvre, homme/femme, etc.). Derrière ce voile, des personnes rationnelles choisiraient des principes garantissant les libertés fondamentales et profitant aux plus défavorisés (principe de différence)."
       },
       {
@@ -28,17 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "correct_answer": "La légalité renvoie à la conformité à la loi positive ; la légitimité renvoie à la justification morale et à la reconnaissance du pouvoir par ceux qui y sont soumis.",
-        "answer": "La légalité renvoie à la conformité à la loi positive ; la légitimité renvoie à la justification morale et à la reconnaissance du pouvoir par ceux qui y sont soumis.",
-        "correction": "La légalité est la conformité aux règles juridiques positives en vigueur (ce qui est conforme à la loi). La légitimité est la justification morale, politique ou philosophique d'un pouvoir ou d'une règle (ce qui est juste, ce qui mérite d'être obéi). Un régime peut être légal (respecter ses propres lois) sans être légitime (régimes totalitaires). La résistance civile et la désobéissance civile s'appuient sur la distinction légalité/légitimité."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La légalité est la conformité aux règles juridiques positives en vigueur (ce qui est conforme à la loi). La légitimité est la justification morale, politique ou philosophique d'un pouvoir ou d'une règle (ce qui est juste, ce qui mérite d'être obéi). Un régime peut être légal (respecter ses propres lois) sans être légitime (régimes totalitaires). La résistance civile et la désobéissance civile s'appuient sur la distinction légalité/légitimité."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Un ensemble de droits fondamentaux inhérents à la nature humaine, antérieurs et supérieurs aux lois positives",
-        "correct": 1,
         "correction": "Le droit naturel (Cicéron, Grotius, Locke) est un ensemble de droits ou de principes moraux universels, fondés sur la nature humaine ou la raison, antérieurs et supérieurs aux lois positives (établies par les sociétés). Il fonde les droits de l'homme (Déclaration de 1789 : droits 'naturels, inaliénables et sacrés'). Il s'oppose au positivisme juridique (Kelsen) qui ne reconnaît que les lois positives effectivement édictées."
       },
       {
@@ -51,17 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "correct_answer": "La peine a plusieurs fondements philosophiques : rétribution (punir le mal en soi), dissuasion (éviter les crimes futurs), réhabilitation (réinsertion du condamné) et protection sociale.",
-        "answer": "La peine a plusieurs fondements philosophiques : rétribution (punir le mal en soi), dissuasion (éviter les crimes futurs), réhabilitation (réinsertion du condamné) et protection sociale.",
-        "correction": "La philosophie de la peine distingue plusieurs fondements : la rétribution (Kant : punir le criminel est un impératif de justice, il le mérite) ; la dissuasion/prévention générale (Bentham : la peine doit dissuader les crimes futurs, calculer la douleur) ; la réhabilitation (rééducation, réinsertion du condamné) ; et la protection sociale (isoler les individus dangereux). Ces fondements conduisent à des politiques pénales très différentes et alimentent les débats sur la prison, la peine de mort et la récidive."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La philosophie de la peine distingue plusieurs fondements : la rétribution (Kant : punir le criminel est un impératif de justice, il le mérite) ; la dissuasion/prévention générale (Bentham : la peine doit dissuader les crimes futurs, calculer la douleur) ; la réhabilitation (rééducation, réinsertion du condamné) ; et la protection sociale (isoler les individus dangereux). Ces fondements conduisent à des politiques pénales très différentes et alimentent les débats sur la prison, la peine de mort et la récidive."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Toute distribution issue d'échanges libres et volontaires est juste, quelle que soit son inégalité",
-        "correct": 1,
         "correction": "Robert Nozick (Anarchie, État et Utopie, 1974) défend le libertarianisme : toute distribution issue d'acquisitions et d'échanges librement consentis est juste, même si elle produit de grandes inégalités. Il s'oppose à Rawls : l'État minimal est le seul État juste ; tout État plus grand viole les droits individuels en redistribuant les richesses ('la taxation, c'est le travail forcé')."
       },
       {

@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Croûte → manteau → noyau externe → noyau interne",
-        "correct": 0,
         "correction": "La Terre est constituée : croûte (0–35 km), manteau (35–2900 km), noyau externe liquide (2900–5100 km), noyau interne solide (5100–6370 km)."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "secondaires",
-        "correction": "Les ondes S (cisaillement) ne traversent pas le noyau externe ; cette 'ombre sismique' a prouvé que le noyau externe est liquide."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les ondes S (cisaillement) ne traversent pas le noyau externe ; cette 'ombre sismique' a prouvé que le noyau externe est liquide."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La croûte (continentale ou océanique) + la partie rigide du manteau supérieur",
-        "correct": 1,
         "correction": "La lithosphère (~100 km d'épaisseur) est la couche rigide fragmentée en plaques tectoniques qui se déplace sur l'asthénosphère visqueuse."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "MohoroviÄiÄ‡",
-        "correction": "Le Moho (MohoroviÄiÄ‡, 1909) est à ~35 km sous les continents et ~7 km sous les océans ; les ondes sismiques y accélèrent brusquement."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le Moho (MohoroviÄiÄ‡, 1909) est à ~35 km sous les continents et ~7 km sous les océans ; les ondes sismiques y accélèrent brusquement."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La lithosphère flotte en équilibre sur l'asthénosphère, comme un iceberg sur l'eau",
-        "correct": 1,
         "correction": "L'isostasie (Airy, Pratt XIX°) explique pourquoi les chaînes de montagnes ont des racines profondes et pourquoi les régions déglacées se soulèvent (rebond isostatique)."
       },
       {

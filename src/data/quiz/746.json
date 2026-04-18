@@ -33,8 +33,8 @@
         "question": "Lors d'une réaction chimique, la masse totale des réactifs est égale à la masse totale des produits."
       },
       {
-        "type": "open",
-        "question": "Que mesure le pH d'une solution ?"
+        "type": "vrai-faux",
+        "question": "L'acidité ou la basicité (alcalinité) d'une solution."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La loi d'Ohm s'écrit U = R × I où U est en volts, R en ohms et I en ampères."
       },
       {
-        "type": "open",
-        "question": "Quelle est la deuxième loi de Newton (relation fondamentale de la dynamique) ?"
+        "type": "vrai-faux",
+        "question": "ΣF = m × a (la somme des forces = masse × accélération)."
       },
       {
         "type": "qcm",

@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "B",
+        "answer": "Méthode par substitution",
         "correction": "La méthode par substitution exprime une variable (ex: x = …) et la substitue dans l'autre équation."
       },
       {
@@ -27,15 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "x = 5, y = 2",
-        "correction": "Addition : 2x = 10 → x = 5. Substitution : y = 7 − 5 = 2."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Addition : 2x = 10 → x = 5. Substitution : y = 7 − 5 = 2."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "A",
+        "answer": "x=2, y=1",
         "correction": "Addition : 3x = 6 → x = 2. Substitution : y = 5 − 4 = 1."
       },
       {
@@ -48,15 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "2 adultes et 3 enfants",
-        "correction": "a + e = 5 et 12a + 6e = 42. De la 1ère : e = 5−a. Substitution : 12a + 6(5−a) = 42 → 6a + 30 = 42 → a = 2, e = 3."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. a + e = 5 et 12a + 6e = 42. De la 1ère : e = 5−a. Substitution : 12a + 6(5−a) = 42 → 6a + 30 = 42 → a = 2, e = 3."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "A",
+        "answer": "Zéro",
         "correction": "Les deux droites sont parallèles (même coefficient directeur, ordonnées à l'origine différentes) : aucune solution."
       },
       {

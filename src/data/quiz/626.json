@@ -33,8 +33,8 @@
         "question": "Le mauvais cholestérol (LDL) favorise les dépôts d'athérome, tandis que le bon cholestérol (HDL) les réduit."
       },
       {
-        "type": "open",
-        "question": "L'infarctus du myocarde est dû à l'obstruction d'une artère coronaire qui prive une zone du coeur d'_____, entraînant la mort des cellules cardiaques."
+        "type": "vrai-faux",
+        "question": "L'ischémie myocardique (manque d'O2) provoque la nécrose des cardiomyocytes ; les signes cliniques sont douleur thoracique, élévation des troponines."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Une alimentation riche en acides gras saturés et en sel augmente le risque cardiovasculaire."
       },
       {
-        "type": "open",
-        "question": "L'hypertension artérielle (HTA) se définit par une pression systolique supérieure à _____ mmHg et/ou une diastolique supérieure à 90 mmHg."
+        "type": "vrai-faux",
+        "question": "HTA : pression systolique > 140 mmHg et/ou diastolique > 90 mmHg au repos ; l'HTA est un facteur majeur d'infarctus et d'AVC."
       },
       {
         "type": "qcm",

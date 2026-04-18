@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Nucléotides",
-        "correct": 1,
         "correction": "Chaque nucléotide d'ADN comprend : un sucre (désoxyribose), un groupement phosphate et une base azotée (A, T, G ou C)."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Crick",
-        "correction": "Watson et Crick publient en 1953 dans Nature le modèle de la double hélice, grâce aux données de diffraction X de Rosalind Franklin."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Watson et Crick publient en 1953 dans Nature le modèle de la double hélice, grâce aux données de diffraction X de Rosalind Franklin."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Matrice pour la synthèse d'un nouveau brin complémentaire",
-        "correct": 1,
         "correction": "Réplication semi-conservative : chaque molécule fille conserve un brin parental et acquiert un brin nouvellement synthétisé."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "ADN",
-        "correction": "L'ADN polymérase lit le brin matrice et ajoute les nucléotides complémentaires dans le sens 5' vers 3'."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'ADN polymérase lit le brin matrice et ajoute les nucléotides complémentaires dans le sens 5' vers 3'."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "46",
-        "correct": 1,
         "correction": "L'être humain possède 46 chromosomes (23 paires) : 22 paires d'autosomes + 1 paire de chromosomes sexuels (XX ou XY)."
       },
       {

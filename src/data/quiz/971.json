@@ -33,8 +33,8 @@
         "question": "Si le discriminant Δ < 0, l'équation ax² + bx + c = 0 n'a pas de solution réelle."
       },
       {
-        "type": "open",
-        "question": "Résous x² − 5x + 6 = 0 en utilisant le discriminant."
+        "type": "vrai-faux",
+        "question": "Cette affirmation reformule l'idée essentielle à retenir : Résous x² − 5x + 6 = 0 en utilisant le discriminant."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Si Δ = 0, l'équation admet une unique solution (racine double) x = −b/(2a)."
       },
       {
-        "type": "open",
-        "question": "Résous x² + 4x + 4 = 0."
+        "type": "vrai-faux",
+        "question": "X = −2 (racine double)."
       },
       {
         "type": "qcm",

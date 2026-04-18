@@ -33,8 +33,8 @@
         "question": "Un maximum local est une valeur f(a) telle que f(a) ≥ f(x) pour tous les x proches de a."
       },
       {
-        "type": "open",
-        "question": "Décris les variations de f(x) = x² sur R."
+        "type": "vrai-faux",
+        "question": "F est décroissante sur ]−∞ ; 0] et croissante sur [0 ; +∞[."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Une fonction peut être à la fois croissante et décroissante sur le même intervalle."
       },
       {
-        "type": "open",
-        "question": "Comment lit-on le maximum d'une fonction sur un tableau de variations ?"
+        "type": "vrai-faux",
+        "question": "C'est la plus grande valeur atteinte par f, qui apparaît en haut du tableau de variations, au sommet d'une flèche montante."
       },
       {
         "type": "qcm",

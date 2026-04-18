@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "230 V alternatif",
-        "correct": 2,
         "correction": "En France, la tension secteur est de 230 V efficaces alternatifs à 50 Hz (fréquence de 50 oscillations par seconde)."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "transformateur-redresseur",
-        "correction": "L'alimentation secteur (chargeur) contient un transformateur (abaisse la tension) et un redresseur (convertit AC → DC)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'alimentation secteur (chargeur) contient un transformateur (abaisse la tension) et un redresseur (convertit AC → DC)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Son nombre d'oscillations par seconde (en Hz)",
-        "correct": 1,
         "correction": "La fréquence f (en Hz) est le nombre de périodes complètes par seconde ; en Europe, le secteur est à 50 Hz."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "valeur efficace",
-        "correction": "La valeur efficace (ou RMS) Ueff = Umax / √2 est la valeur caractéristique d'une tension alternative indiquée sur les appareils."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La valeur efficace (ou RMS) Ueff = Umax / √2 est la valeur caractéristique d'une tension alternative indiquée sur les appareils."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Pour réduire les pertes par effet Joule lors du transport",
-        "correct": 1,
         "correction": "P_pertes = R·I² ; haute tension → faible courant I → pertes Joule réduites pour une puissance P = U·I donnée."
       },
       {

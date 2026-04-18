@@ -33,8 +33,8 @@
         "question": "Une élasticité-prix de la demande égale à -2 signifie que la demande est élastique."
       },
       {
-        "type": "open",
-        "question": "Donnez un exemple de bien à demande inélastique et expliquez pourquoi."
+        "type": "vrai-faux",
+        "question": "L'essence, les médicaments indispensables, le tabac… La demande varie peu car ce sont des biens de première nécessité ou sans substitut proche."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "L'élasticité-revenu d'un bien inférieur est négative."
       },
       {
-        "type": "open",
-        "question": "Pourquoi les entreprises utilisent-elles l'élasticité-prix pour fixer leurs tarifs ?"
+        "type": "vrai-faux",
+        "question": "Une entreprise augmentera son prix si la demande est inélastique (les recettes augmentent) et baissera son prix si la demande est élastique (les recettes augmentent aussi via le volume)."
       },
       {
         "type": "qcm",

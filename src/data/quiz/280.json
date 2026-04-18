@@ -33,8 +33,8 @@
         "question": "Dans un circuit en série, l'intensité du courant est la même en tout point du circuit."
       },
       {
-        "type": "open",
-        "question": "Calculez la résistance équivalente de deux résistances R₁ = 100 Ω et R₂ = 200 Ω montées en parallèle."
+        "type": "vrai-faux",
+        "question": "En parallèle : 1/R_eq = 1/R₁ + 1/R₂ = 1/100 + 1/200 = 3/200, donc R_eq = 200/3 ≈ 66,7 Ω."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Un condensateur stocke de l'énergie sous forme de champ électrique entre ses armatures."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce que le courant alternatif (CA) et en quoi diffère-t-il du courant continu (CC) ?"
+        "type": "vrai-faux",
+        "question": "Le courant alternatif change périodiquement de sens et d'intensité (sinusoïdal) ; le courant continu a une intensité constante dans une seule direction."
       },
       {
         "type": "qcm",

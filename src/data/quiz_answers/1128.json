@@ -1,48 +1,71 @@
 {
-  "quiz_id": 1128,
-  "title": "Inégalités économiques et redistribution",
-  "subject": "SES",
-  "level": "Terminale",
-  "answers": [
-    {
-      "question_id": "1128_1",
-      "correct_option": "B",
-      "explanation": "L'indice de Gini (0-1 ou 0-100%) mesure l'inégalité de distribution. Plus il est élevé, plus la distribution est inégale."
-    },
-    {
-      "question_id": "1128_2",
-      "correct": true,
-      "explanation": "L'impôt progressif sur le revenu et les transferts sociaux (allocations, minima sociaux) réduisent les inégalités : le Gini des revenus disponibles est nettement inférieur à celui des revenus primaires."
-    },
-    {
-      "question_id": "1128_3",
-      "correct_answer": "Les inégalités de patrimoine sont beaucoup plus fortes que celles de revenu. En France, les 10% les plus riches détiennent ~60% du patrimoine, contre ~25% des revenus. Le patrimoine s'accumule et se transmet, amplifiant les inégalités intergénérationnelles.",
-      "explanation": "Piketty (2013) montre que les inégalités de patrimoine sont structurellement plus élevées que celles de revenu, notamment quand r > g."
-    },
-    {
-      "question_id": "1128_4",
-      "correct_option": "B",
-      "explanation": "r > g : le capital croît plus vite que l'économie → les détenteurs de capital s'enrichissent plus vite → concentration croissante des patrimoines."
-    },
-    {
-      "question_id": "1128_5",
-      "correct": true,
-      "explanation": "Kuznets (1955) : en U inversé, les inégalités augmentent lors de l'industrialisation puis diminuent avec la croissance et la redistribution. Remise en cause par l'augmentation des inégalités dans les pays riches depuis les années 1980."
-    },
-    {
-      "question_id": "1128_6",
-      "correct_answer": "Rawls (Théorie de la Justice, 1971) : les inégalités ne sont justes que si elles bénéficient aux plus défavorisés (principe de différence, derrière le 'voile d'ignorance'). Application : redistribution vers les plus pauvres est juste si elle améliore leur sort.",
-      "explanation": "Derrière le voile d'ignorance, les individus choisiraient une société minimisant les risques pour les plus défavorisés (maximin)."
-    },
-    {
-      "question_id": "1128_7",
-      "correct_option": "B",
-      "explanation": "L'impôt progressif : plus le revenu est élevé, plus le taux marginal est fort → redistribution verticale des riches vers les pauvres."
-    },
-    {
-      "question_id": "1128_8",
-      "correct": true,
-      "explanation": "Laffer : au-delà d'un taux optimal, la hausse des impôts décourage l'activité et réduit l'assiette fiscale → recettes baissent. Argument utilisé pour justifier les baisses d'impôt."
-    }
-  ]
+  "contents": {
+    "title": "Quiz Diagnostic SES Terminale - Serie 1128",
+    "level": "Terminale",
+    "subject": "SES"
+  },
+  "quiz": {
+    "title": "Inégalités économiques et redistribution",
+    "question_count": 8,
+    "level": "Terminale",
+    "subject": "SES",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Cette affirmation reformule l'idée essentielle à retenir : Distingue inégalités de revenus et inégalités de patrimoine. Laquelle est la plus marquée."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Cette affirmation reformule l'idée essentielle à retenir : Explique le principe de différence de John Rawls et son application à la politique sociale."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      }
+    ]
+  }
 }

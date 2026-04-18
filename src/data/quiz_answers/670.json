@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "LH (hormone lutéinisante)",
-        "correct": 2,
         "correction": "Le pic de LH produit par l'hypophyse déclenche l'ovulation environ 36 heures après son apparition."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "ménarche",
-        "correction": "La ménarche désigne les premières règles, marquant le début de la fertilité féminine."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La ménarche désigne les premières règles, marquant le début de la fertilité féminine."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Testostérone",
-        "correct": 2,
         "correction": "La testostérone, sécrétée par les testicules sous contrôle de la LH, déclenche la puberté masculine."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "hypophyse",
-        "correction": "L'hypophyse (antérieure) sécrète FSH et LH, qui contrôlent le cycle ovarien et la production de gamètes."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'hypophyse (antérieure) sécrète FSH et LH, qui contrôlent le cycle ovarien et la production de gamètes."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "9 mois (38 semaines de développement)",
-        "correct": 1,
         "correction": "La grossesse dure environ 38 semaines de développement embryonnaire/fœtal, soit 40 semaines d'aménorrhée."
       },
       {

@@ -33,8 +33,8 @@
         "question": "Un réseau trophique est plus réaliste qu'une chaîne alimentaire car une espèce consomme souvent plusieurs proies et est consommée par plusieurs prédateurs."
       },
       {
-        "type": "open",
-        "question": "En moyenne, seulement _____ % de l'énergie d'un niveau trophique est transférée au niveau suivant (règle des 10%)."
+        "type": "vrai-faux",
+        "question": "Règle des 10% : 90% de l'énergie est perdue (respiration, chaleur, matières fécales) à chaque niveau trophique ; d'où la rareté des grands prédateurs."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Les espèces clés de voute (keystone species) ont un impact sur l'écosystème disproportionné par rapport à leur biomasse."
       },
       {
-        "type": "open",
-        "question": "La bioaccumulation est l'augmentation de la concentration d'un polluant (ex. DDT, mercure) à chaque niveau _____ de la chaîne alimentaire."
+        "type": "vrai-faux",
+        "question": "Cette affirmation reformule l'idée essentielle à retenir : La bioaccumulation est l'augmentation de la concentration d'un polluant (ex. DDT, mercure) à chaque niveau _____ de la chaîne alimentaire."
       },
       {
         "type": "qcm",

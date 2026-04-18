@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La position défendue par l'auteur",
-        "correct": 1,
         "correction": "La thèse est l'idée principale que l'auteur cherche à faire admettre au lecteur."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "exemple",
-        "correction": "L'exemple concrétise l'argument et lui donne une valeur démonstrative."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'exemple concrétise l'argument et lui donne une valeur démonstrative."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Admettre partiellement l'opinion adverse avant de la réfuter",
-        "correct": 1,
         "correction": "La concession (certes…, il est vrai que… mais) montre que l'auteur connaît les objections et les dépasse."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "pathos",
-        "correction": "Le pathos (ethos, pathos, logos) vise à émouvoir le destinataire pour le persuader."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le pathos (ethos, pathos, logos) vise à émouvoir le destinataire pour le persuader."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Démontrer qu'un argument adverse est faux ou insuffisant",
-        "correct": 1,
         "correction": "La réfutation directe attaque frontalement l'argument de l'adversaire."
       },
       {

@@ -33,8 +33,8 @@
         "question": "L'exclusion sociale est uniquement une question de revenu insuffisant."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce que la trappe à pauvreté ?"
+        "type": "vrai-faux",
+        "question": "La trappe à pauvreté désigne une situation où les mécanismes d'aide sociale (allocations) créent une désincitation à reprendre un emploi : si la reprise d'emploi entraîne la perte d'allocations supérieures au salaire perçu, il est 'rationnel' de rester au chômage."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Les travailleurs pauvres sont des personnes qui travaillent mais restent sous le seuil de pauvreté."
       },
       {
-        "type": "open",
-        "question": "Présentez les politiques de lutte contre la pauvreté en France."
+        "type": "vrai-faux",
+        "question": "RSA (revenu minimum), prime d'activité, aides au logement (APL), complémentaire santé solidaire (CSS), aide alimentaire, CCAS, politiques de la ville, accès aux droits, accompagnement social."
       },
       {
         "type": "qcm",

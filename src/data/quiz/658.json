@@ -33,8 +33,8 @@
         "question": "Les baleines sont plus proches des poissons que des mammifères terrestres selon la classification phylogénétique."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on un groupe réunissant un ancêtre commun et tous ses descendants ?"
+        "type": "vrai-faux",
+        "question": "Un clade (ou groupe monophylétique) inclut un ancêtre commun et la totalité de sa descendance."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Les champignons font partie du règne animal."
       },
       {
-        "type": "open",
-        "question": "Quel outil graphique représente les relations de parenté entre espèces sous forme d'arbre ?"
+        "type": "vrai-faux",
+        "question": "Arbre phylogénétique."
       },
       {
         "type": "qcm",

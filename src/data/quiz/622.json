@@ -33,8 +33,8 @@
         "question": "L'immunité innée est non spécifique et réagit rapidement aux pathogènes sans mémorisation."
       },
       {
-        "type": "open",
-        "question": "La phagocytose est réalisée par des cellules spécialisées appelées _____ (neutrophiles, macrophages, cellules dendritiques)."
+        "type": "vrai-faux",
+        "question": "Les phagocytes englobent et détruisent les pathogènes par phagocytose (ingestion dans un phagosome qui fusionne avec un lysosome)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Les cellules NK (Natural Killer) détruisent les cellules infectées par des virus sans avoir besoin d'une reconnaissance spécifique par anticorps."
       },
       {
-        "type": "open",
-        "question": "Le système du _____ est un ensemble de protéines plasmatiques qui amplifient la réponse immunitaire innée en perforant les membranes des bactéries."
+        "type": "vrai-faux",
+        "question": "Le système du complément (cascade de protéines) lyse les pathogènes, favorise la phagocytose (opsonisation) et déclenche l'inflammation."
       },
       {
         "type": "qcm",

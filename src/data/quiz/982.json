@@ -33,8 +33,8 @@
         "question": "La fonction carré f(x) = x² est décroissante sur ]−∞ ; 0]."
       },
       {
-        "type": "open",
-        "question": "Quelle est la valeur minimale de f(x) = x² et en quelle valeur de x est-elle atteinte ?"
+        "type": "vrai-faux",
+        "question": "Le minimum est 0, atteint en x = 0."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La fonction f(x) = x² est une fonction paire."
       },
       {
-        "type": "open",
-        "question": "Résous graphiquement (en raisonnant sur la parabole) x² = 9."
+        "type": "vrai-faux",
+        "question": "La parabole y = x² coupe la droite horizontale y = 9 en (3, 9) et (−3, 9), donc x = ±3."
       },
       {
         "type": "qcm",

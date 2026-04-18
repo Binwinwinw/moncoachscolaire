@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Protéger les personnes ne participant pas ou plus aux hostilités (prisonniers, blessés, civils)",
-        "correct": 1,
         "correction": "Les quatre Conventions de Genève de 1949 constituent le noyau du DIH (Droit International Humanitaire). Elles protègent les blessés, naufragés, prisonniers de guerre et civils."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Distinction (entre combattants et civils), Proportionnalité (les dommages causés aux civils ne doivent pas être excessifs par rapport à l'avantage militaire), Précaution (minimiser les dommages collatéraux), Nécessité militaire (seule la force nécessaire est autorisée), Humanité (interdiction des souffrances superflues).",
-        "correction": "Ces principes s'appliquent même en guerre ; ils sont contraignants pour toutes les parties au conflit, étatiques ou non."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Ces principes s'appliquent même en guerre ; ils sont contraignants pour toutes les parties au conflit, étatiques ou non."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Une organisation humanitaire privée suisse, gardienne du DIH",
-        "correct": 2,
         "correction": "Fondé en 1863 par Henry Dunant, le CICR est une organisation neutre, impartiale et indépendante qui protège les victimes de conflits armés et promeut le respect du DIH."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Le DIH exige qu'un être humain soit en mesure d'exercer un contrôle sur les décisions létales (principe de responsabilité). Les armes entièrement autonomes (Lethal Autonomous Weapons Systems, LAWS) soulèvent des questions sur leur capacité à distinguer combattants et civils, à respecter la proportionnalité. Des négociations à l'ONU tentent d'établir un cadre réglementaire sans accord à ce jour.",
-        "correction": "La campagne 'Stop Killer Robots' regroupe des ONG et États demandant l'interdiction des LAWS."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La campagne 'Stop Killer Robots' regroupe des ONG et États demandant l'interdiction des LAWS."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Des actes commis avec l'intention de détruire, en tout ou en partie, un groupe national, ethnique, racial ou religieux",
-        "correct": 1,
         "correction": "L'intention spécifique (dolus specialis) de destruction d'un groupe est l'élément clé du crime de génocide, ce qui le distingue des autres crimes contre l'humanité."
       },
       {

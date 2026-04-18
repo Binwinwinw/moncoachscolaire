@@ -1,48 +1,71 @@
 {
-  "quiz_id": 1121,
-  "title": "Commerce international et avantages comparatifs",
-  "subject": "SES",
-  "level": "Terminale",
-  "answers": [
-    {
-      "question_id": "1121_1",
-      "correct_option": "B",
-      "explanation": "Ricardo (1817) : même si un pays est moins productif dans tous les secteurs, il gagne à se spécialiser là où son désavantage est le moins fort (coût d'opportunité le plus faible)."
-    },
-    {
-      "question_id": "1121_2",
-      "correct": true,
-      "explanation": "HOS : un pays abondant en travail exporte des biens intensifs en travail ; un pays abondant en capital exporte des biens intensifs en capital."
-    },
-    {
-      "question_id": "1121_3",
-      "correct_answer": "Le commerce intra-branche : échange du même type de produit entre pays similaires (ex : la France exporte et importe des voitures). Il s'explique par les économies d'échelle, la différenciation des produits et les préférences pour la variété (Krugman, Nobel 2008), pas par les dotations factorielles.",
-      "explanation": "Krugman et la nouvelle économie géographique : la concurrence monopolistique et les économies d'échelle expliquent le commerce entre pays similaires."
-    },
-    {
-      "question_id": "1121_4",
-      "correct_option": "B",
-      "explanation": "Le droit de douane est un obstacle tarifaire : il renchérit le prix des importations, protégeant les producteurs locaux mais renchérissant les prix pour les consommateurs."
-    },
-    {
-      "question_id": "1121_5",
-      "correct": true,
-      "explanation": "L'OMC (créée en 1995, succède au GATT) gère les règles du commerce mondial et arbitre les différends commerciaux entre ses 164 membres."
-    },
-    {
-      "question_id": "1121_6",
-      "correct_answer": "Léontief (1953) a montré que les USA (pays très capital-intensif) exportaient des biens intensifs en travail et importaient du capital-intensif. Cela contredit HOS. Explications : capital humain, qualité du travail américain, comportements de consommation différents.",
-      "explanation": "Le paradoxe de Léontief a conduit à enrichir la théorie HOS en introduisant le capital humain et les qualifications."
-    },
-    {
-      "question_id": "1121_7",
-      "correct_option": "B",
-      "explanation": "Les BNT (barrières non tarifaires) regroupent normes, quotas, licences d'importation, réglementations sanitaires (ex : OGM, chlore sur le poulet)."
-    },
-    {
-      "question_id": "1121_8",
-      "correct": true,
-      "explanation": "Keynes admettait un protectionnisme temporaire pour soutenir la demande intérieure en période de dépression. Mais le risque de guerre commerciale réciproque (beggar-thy-neighbour) est réel."
-    }
-  ]
+  "contents": {
+    "title": "Quiz Diagnostic SES Terminale - Serie 1121",
+    "level": "Terminale",
+    "subject": "SES"
+  },
+  "quiz": {
+    "title": "Commerce international et avantages comparatifs",
+    "question_count": 8,
+    "level": "Terminale",
+    "subject": "SES",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Cette affirmation reformule l'idée essentielle à retenir : Qu'est-ce que le commerce intra-branche et en quoi contredit-il les théories classiques."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Cette affirmation reformule l'idée essentielle à retenir : Explique le paradoxe de Léontief et comment il remet en cause la théorie HOS."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      }
+    ]
+  }
 }

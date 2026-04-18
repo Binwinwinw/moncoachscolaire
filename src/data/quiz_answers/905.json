@@ -7,57 +7,65 @@
   "quiz": {
     "title": "Anglais - Les habitats et la biodiversité",
     "question_count": 8,
+    "level": "5eme",
+    "subject": "SVT",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
+        "answer": "",
         "correction": "La bonne réponse est ‘Une mare ou un étang’. C'est un habitat adapté pour une grenouille."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
+        "answer": "faux",
         "correction": "Vrai. La biodiversité aide un écosystème à mieux résister aux changements."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correction": "Réponds en décrivant un habitat comme une forêt ou une prairie où un oiseau migrateur vit en été."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Réponds en décrivant un habitat comme une forêt ou une prairie où un oiseau migrateur vit en été."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
+        "answer": "",
         "correction": "La bonne réponse est ‘Le chameau’. Il est bien adapté au désert."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
+        "answer": "faux",
         "correction": "Vrai. Un habitat fournit nourriture, abri et eau."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "qcm",
+        "answer": "",
         "correction": "La bonne réponse est ‘La pollution’. La pollution réduit souvent la biodiversité."
       },
       {
         "index": 6,
         "question_id": 7,
-        "type": "texte",
-        "correction": "Réponds que les animaux migrent pour trouver de meilleures conditions climatiques et plus de nourriture."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Réponds que les animaux migrent pour trouver de meilleures conditions climatiques et plus de nourriture."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "qcm",
+        "answer": "",
         "correction": "La bonne réponse est ‘Elle rend l'écosystème plus résilient’."
       }
-    ],
-    "level": "5eme",
-    "subject": "SVT"
+    ]
   }
 }

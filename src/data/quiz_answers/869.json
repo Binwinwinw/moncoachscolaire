@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'unité élémentaire d'une image numérique",
-        "correct": 1,
         "correction": "Un pixel (picture element) est le plus petit élément d'une image numérique, caractérisé par sa position et sa couleur."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "800 × 600 × 3 = 1 440 000 octets ≈ 1,44 Mo (en utilisant 3 octets par pixel en RGB 24 bits).",
-        "correction": "Taille = largeur × hauteur × nombre de canaux × octets par canal."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Taille = largeur × hauteur × nombre de canaux × octets par canal."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "DPI (dots per inch) ou PPI",
-        "correct": 1,
         "correction": "DPI (ou PPI, pixels per inch) mesure la densité de pixels. Une image de 300 DPI est adaptée à l'impression, 72-96 DPI pour l'écran."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Compression sans perte (PNG, BMP, GIF) : l'image originale est parfaitement reconstituée. Compression avec perte (JPEG) : certaines données sont éliminées définitivement pour réduire la taille ; la qualité se dégrade à chaque re-compression.",
-        "correction": "JPEG est adapté aux photos ; PNG aux images avec texte, logos ou transparence."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. JPEG est adapté aux photos ; PNG aux images avec texte, logos ou transparence."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "256 nuances",
-        "correct": 2,
         "correction": "Sur 8 bits : 2⁸ = 256 niveaux de gris (0 = noir, 255 = blanc)."
       },
       {

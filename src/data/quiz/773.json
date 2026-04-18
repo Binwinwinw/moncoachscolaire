@@ -33,8 +33,8 @@
         "question": "La demarche de projet en technologie suit les etapes : analyser, concevoir, realiser, valider."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on un modele simplifie representant les caracteristiques essentielles d'un objet ou d'un systeme ?"
+        "type": "vrai-faux",
+        "question": "Une maquette (ou modele) permet de tester et visualiser un objet avant sa fabrication definitive, reduisant les couts et les erreurs."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La simulation informatique permet de tester virtuellement le comportement d'un objet avant de le fabriquer."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on la representation en trois dimensions d'un objet realisee par un logiciel de conception assistee par ordinateur ?"
+        "type": "vrai-faux",
+        "question": "Maquette numerique 3D."
       },
       {
         "type": "qcm",

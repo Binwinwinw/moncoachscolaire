@@ -33,8 +33,8 @@
         "question": "Le SMIC est le salaire minimum que tout employeur doit verser en France."
       },
       {
-        "type": "open",
-        "question": "Quels sont les principaux déterminants du niveau de salaire ?"
+        "type": "vrai-faux",
+        "question": "Le niveau de qualification et d'éducation (capital humain), l'ancienneté, le secteur d'activité, la taille de l'entreprise, la localisation géographique, la négociation collective, l'état du marché du travail (chômage)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Les inégalités de salaire entre hommes et femmes ont complètement disparu en France."
       },
       {
-        "type": "open",
-        "question": "Distinguez salaire brut, salaire net et coût total pour l'employeur."
+        "type": "vrai-faux",
+        "question": "Salaire brut = salaire avant déduction des cotisations salariales."
       },
       {
         "type": "qcm",

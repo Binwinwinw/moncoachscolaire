@@ -33,8 +33,8 @@
         "question": "Un algorithme doit toujours se terminer en un nombre fini d'étapes."
       },
       {
-        "type": "open",
-        "question": "Décrivez en pseudo-code la recherche séquentielle dans un tableau."
+        "type": "vrai-faux",
+        "question": "POUR i de 0 à n-1 FAIRE SI tableau[i] == cible ALORS RETOURNER i FIN SI FIN POUR RETOURNER -1 // non trouvé."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La recherche dichotomique peut être appliquée à un tableau non trié."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce que l'invariant de boucle et à quoi sert-il ?"
+        "type": "vrai-faux",
+        "question": "Un invariant de boucle est une propriété vraie avant la boucle, maintenue vraie après chaque itération, et vraie à la sortie."
       },
       {
         "type": "qcm",

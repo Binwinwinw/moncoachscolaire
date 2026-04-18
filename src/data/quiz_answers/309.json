@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Observer, formuler une hypothèse, expérimenter, analyser, conclure",
-        "correct": 0,
         "correction": "La démarche scientifique en physique-chimie suit le cycle hypothético-déductif : 1) Observation du phénomène ; 2) Formulation d'une hypothèse ; 3) Expérimentation pour la tester ; 4) Analyse des résultats (mesures, graphes) ; 5) Conclusion (validation ou réfutation de l'hypothèse). Cette méthode s'applique particulièrement bien à l'étude de 'Les solutions tampon et le pH sanguin'."
       },
       {
@@ -28,17 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "correct_answer": "Les mathématiques permettent de formaliser les lois physiques, d'exprimer des relations quantitatives entre grandeurs et de prédire le comportement des systèmes.",
-        "answer": "Les mathématiques permettent de formaliser les lois physiques, d'exprimer des relations quantitatives entre grandeurs et de prédire le comportement des systèmes.",
-        "correction": "En physique-chimie, les mathématiques servent à : 1) Formaliser des lois expérimentales sous forme d'équations (ex : F = ma) ; 2) Calculer des grandeurs inaccessibles directement à la mesure ; 3) Extrapoler des tendances et prédire des comportements futurs ; 4) Représenter graphiquement des variations (courbes, histogrammes) ; 5) Modéliser des phénomènes complexes par des approximations (ex : gaz parfait). La modélisation est au cœur de la démarche scientifique en physique-chimie."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. En physique-chimie, les mathématiques servent à : 1) Formaliser des lois expérimentales sous forme d'équations (ex : F = ma) ; 2) Calculer des grandeurs inaccessibles directement à la mesure ; 3) Extrapoler des tendances et prédire des comportements futurs ; 4) Représenter graphiquement des variations (courbes, histogrammes) ; 5) Modéliser des phénomènes complexes par des approximations (ex : gaz parfait). La modélisation est au cœur de la démarche scientifique en physique-chimie."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "L'intervalle dans lequel se trouve la valeur vraie d'une grandeur mesurée, reflétant la précision de la mesure",
-        "correct": 1,
         "correction": "L'incertitude absolue (Δx) est l'intervalle de confiance autour d'une mesure x : la valeur vraie se trouve dans l'intervalle [x-Δx ; x+Δx]. Elle traduit la précision et la reproductibilité d'une mesure. On note : x = mesure ± Δx. L'incertitude relative Δx/x (%) est un indicateur de la qualité de la mesure. En physique-chimie, tout résultat expérimental doit être accompagné de son incertitude."
       },
       {
@@ -51,17 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "correct_answer": "Ce domaine de la physique-chimie a de nombreuses applications quotidiennes dans la technologie, la médecine, l'environnement ou l'industrie.",
-        "answer": "Ce domaine de la physique-chimie a de nombreuses applications quotidiennes dans la technologie, la médecine, l'environnement ou l'industrie.",
-        "correction": "Le domaine de 'Les solutions tampon et le pH sanguin' trouve de nombreuses applications quotidiennes : dans les technologies (smartphones, ordinateurs, éclairage LED), la médecine (IRM, échographie, médicaments), l'environnement (panneaux solaires, traitement des eaux), l'alimentation (conservation des aliments, cuisson) et l'industrie (matériaux, chimie). La physique-chimie est omniprésente dans notre monde moderne et ses avancées améliorent continuellement notre qualité de vie."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le domaine de 'Les solutions tampon et le pH sanguin' trouve de nombreuses applications quotidiennes : dans les technologies (smartphones, ordinateurs, éclairage LED), la médecine (IRM, échographie, médicaments), l'environnement (panneaux solaires, traitement des eaux), l'alimentation (conservation des aliments, cuisson) et l'industrie (matériaux, chimie). La physique-chimie est omniprésente dans notre monde moderne et ses avancées améliorent continuellement notre qualité de vie."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La vérification de la cohérence des unités dans une équation physique",
-        "correct": 1,
         "correction": "L'analyse dimensionnelle (ou homogénéité dimensionnelle) consiste à vérifier que les unités de chaque membre d'une équation physique sont identiques. Si F = ma, les dimensions doivent s'équilibrer : [F] = kg·m/s² = N ✓. Cette technique permet de vérifier des équations, de retrouver des lois physiques et de détecter des erreurs de calcul. Une équation physique n'est valide que si elle est dimensionnellement homogène."
       },
       {

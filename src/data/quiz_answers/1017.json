@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "C",
+        "answer": "n·xⁿ⁻¹",
         "correction": "(xⁿ)' = n·xⁿ⁻¹. C'est la règle de base pour les puissances."
       },
       {
@@ -27,15 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "(ln x)' = 1/x ; (sin x)' = cos x ; (cos x)' = −sin x",
-        "correction": "Dérivées fondamentales à connaître absolument."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Dérivées fondamentales à connaître absolument."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "B",
+        "answer": "−1/x²",
         "correction": "1/x = x⁻¹ → (x⁻¹)' = −x⁻² = −1/x²."
       },
       {
@@ -48,15 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "f'(x) = 12x³ − 4x + 5",
-        "correction": "(3x⁴)' = 12x³ ; (−2x²)' = −4x ; (5x)' = 5 ; (−1)' = 0."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. (3x⁴)' = 12x³ ; (−2x²)' = −4x ; (5x)' = 5 ; (−1)' = 0."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "C",
+        "answer": "1/cos²(x)",
         "correction": "(tan x)' = 1/cos²(x) = 1 + tan²(x). Valable là où cos(x) ≠ 0."
       },
       {

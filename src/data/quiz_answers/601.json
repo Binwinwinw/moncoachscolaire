@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Analyser la consigne et définir les mots-clés",
-        "correct": 1,
         "correction": "La compréhension du sujet conditionne la pertinence de la réponse."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "source",
-        "correction": "Identifier la source aide à contextualiser et critiquer le document."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Identifier la source aide à contextualiser et critiquer le document."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Répartir le temps selon les points et garder une relecture",
-        "correct": 1,
         "correction": "La gestion du temps améliore la complétude de la copie."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "exemple",
-        "correction": "L'exemple concret renforce la démonstration."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'exemple concret renforce la démonstration."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Répondre clairement à la question posée",
-        "correct": 1,
         "correction": "La conclusion synthétise l'argumentation."
       },
       {

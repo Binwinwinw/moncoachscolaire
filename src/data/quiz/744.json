@@ -33,8 +33,8 @@
         "question": "Une force perpendiculaire au déplacement ne produit aucun travail."
       },
       {
-        "type": "open",
-        "question": "Quelle est la formule de la puissance P en fonction du travail W et du temps t ?"
+        "type": "vrai-faux",
+        "question": "La puissance P (en watts) est le travail W (en joules) effectué par unité de temps t (en secondes) : P = W/t."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Le rendement d'une machine est toujours inférieur ou égal à 100 %."
       },
       {
-        "type": "open",
-        "question": "Un moteur de 1500 W fonctionne pendant 2 heures. Quelle énergie consomme-t-il (en kWh) ?"
+        "type": "vrai-faux",
+        "question": "E = P × t = 1500 W × 2 h = 3000 Wh = 3 kWh."
       },
       {
         "type": "qcm",

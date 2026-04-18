@@ -25,18 +25,15 @@
           "Une libellule",
           "Un aigle",
           "Un poisson"
-        ],
-        "id": 1
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Les décomposeurs transforment les matières mortes en éléments nutritifs.",
-        "id": 2
+        "question": "Les décomposeurs transforment les matières mortes en éléments nutritifs."
       },
       {
-        "type": "texte",
-        "question": "Explique pourquoi le recyclage des nutriments est important pour les plantes.",
-        "id": 3
+        "type": "vrai-faux",
+        "question": "Réponds que le recyclage des nutriments permet aux plantes de retrouver de l'azote et d'autres éléments dans le sol."
       },
       {
         "type": "qcm",
@@ -46,13 +43,11 @@
           "Le fer",
           "L'azote",
           "Le plastique"
-        ],
-        "id": 4
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Le sol retourne des nutriments aux plantes via les racines.",
-        "id": 5
+        "question": "Le sol retourne des nutriments aux plantes via les racines."
       },
       {
         "type": "qcm",
@@ -62,13 +57,11 @@
           "Une griffe",
           "Un arbre",
           "Un oiseau"
-        ],
-        "id": 6
+        ]
       },
       {
-        "type": "texte",
-        "question": "Décris une façon dont les humains peuvent protéger le sol.",
-        "id": 7
+        "type": "vrai-faux",
+        "question": "Réponds avec une action comme limiter le labour ou éviter les produits chimiques pour protéger le sol."
       },
       {
         "type": "qcm",
@@ -78,10 +71,10 @@
           "Une diminution de l'eau disponible",
           "Une augmentation de la pollution",
           "Une perte d'espèces"
-        ],
-        "id": 8
+        ]
       }
-    ]
+    ],
+    "type": "quiz"
   },
   "exercisenotion": [
     {

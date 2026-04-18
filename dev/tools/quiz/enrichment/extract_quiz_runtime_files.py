@@ -49,6 +49,37 @@ def _get_questions(quiz: Dict[str, Any]) -> List[Dict[str, Any]]:
     return out
 
 
+def normalize_question_type(raw_type: Any) -> str:
+    qtype = str(raw_type or "texte").strip().lower().replace("_", "-")
+    if qtype in {"texte", "text", "open"}:
+        return "open"
+    if qtype == "vrai-faux":
+        return "vrai-faux"
+    return "qcm" if qtype == "qcm" else "open"
+
+
+def resolve_qcm_answer(question: Dict[str, Any]) -> Any:
+    options = list(question.get("options") or question.get("choices") or [])
+    raw_answer = question.get("answer", question.get("correct_option", question.get("correct_answer", "")))
+
+    if isinstance(raw_answer, str):
+        raw_answer = raw_answer.strip()
+        letter_map = {"A": 0, "B": 1, "C": 2, "D": 3}
+        if raw_answer.upper() in letter_map:
+            option_index = letter_map[raw_answer.upper()]
+            if option_index < len(options):
+                return options[option_index]
+
+    return raw_answer
+
+
+def resolve_true_false_answer(question: Dict[str, Any]) -> str:
+    raw_value = question.get("answer", question.get("correct", question.get("correct_answer", False)))
+    if isinstance(raw_value, str):
+        return "vrai" if raw_value.strip().lower() in {"true", "vrai", "1"} else "faux"
+    return "vrai" if bool(raw_value) else "faux"
+
+
 def build_runtime_payloads(source: Dict[str, Any]) -> Tuple[Dict[str, Any], Dict[str, Any], List[str]]:
     contents, quiz = _get_meta(source)
     questions = _get_questions(quiz)
@@ -57,50 +88,72 @@ def build_runtime_payloads(source: Dict[str, Any]) -> Tuple[Dict[str, Any], Dict
     level = str(quiz.get("level") or contents.get("level") or "")
     subject = str(quiz.get("subject") or contents.get("subject") or "")
     passing_score = int(quiz.get("passing_score") or 70)
+    time_limit_minutes = int(quiz.get("time_limit_minutes") or 15)
 
     quiz_questions: List[Dict[str, Any]] = []
     answers_rows: List[Dict[str, Any]] = []
     warnings: List[str] = []
+    forbidden_keys = {"answer", "correction", "correct", "correct_option", "correct_answer", "explanation", "placeholder"}
 
     for idx, q in enumerate(questions):
         qid = q.get("id", idx + 1)
-        qtype = str(q.get("type", "texte"))
+        qtype = normalize_question_type(q.get("type", "texte"))
+        question_text = str(q.get("question", ""))
 
-        if "question" not in q:
+        if not question_text:
             warnings.append(f"Q{idx + 1}: champ question manquant")
 
-        clean_q = {k: v for k, v in q.items() if k not in {"answer", "correction"}}
+        clean_q = {k: v for k, v in q.items() if k not in forbidden_keys}
+        clean_q["type"] = qtype
+        clean_q["question"] = question_text
+
+        if qtype == "qcm":
+            clean_q["choices"] = list(q.get("choices") or q.get("options") or [])
+            if not clean_q["choices"]:
+                warnings.append(f"Q{idx + 1}: choices manquants pour un QCM")
+            answer_value = resolve_qcm_answer(q)
+        elif qtype == "vrai-faux":
+            clean_q.pop("choices", None)
+            answer_value = resolve_true_false_answer(q)
+        else:
+            clean_q.pop("choices", None)
+            answer_value = q.get("answer", q.get("correct_answer", ""))
+
         quiz_questions.append(clean_q)
 
-        if "answer" not in q:
-            warnings.append(f"Q{idx + 1}: champ answer manquant")
-        if "correction" not in q:
-            warnings.append(f"Q{idx + 1}: champ correction manquant")
+        correction = q.get("correction", q.get("explanation", ""))
+        if answer_value in (None, ""):
+            warnings.append(f"Q{idx + 1}: réponse attendue manquante")
+        if correction == "":
+            warnings.append(f"Q{idx + 1}: correction manquante")
 
         answers_rows.append(
             {
                 "index": idx,
-                "question_id": qid,
+                "question_id": idx + 1,
                 "type": qtype,
-                "answer": q.get("answer"),
-                "correction": q.get("correction", ""),
+                "answer": answer_value,
+                "correction": correction,
             }
         )
 
     quiz_out = {
         "contents": {
             "title": str(contents.get("title") or title),
-            "type": str(contents.get("type") or "quiz"),
+            "type": "quiz",
             "level": level,
             "subject": subject,
             "description": str(contents.get("description") or ""),
+            "status": str(contents.get("status") or "published"),
         },
         "quiz": {
             "title": title,
+            "type": "quiz",
             "level": level,
             "subject": subject,
             "question_count": len(quiz_questions),
             "passing_score": passing_score,
+            "time_limit_minutes": time_limit_minutes,
             "questions": quiz_questions,
         },
         "exercisenotion": source.get("exercisenotion", []),
@@ -110,13 +163,64 @@ def build_runtime_payloads(source: Dict[str, Any]) -> Tuple[Dict[str, Any], Dict
     answers_out = {
         "contents": {
             "title": str(contents.get("title") or title),
-            "type": str(contents.get("type") or "quiz_answers"),
             "level": level,
             "subject": subject,
-            "description": str(contents.get("description") or ""),
         },
         "quiz": {
             "title": title,
+            "question_count": len(answers_rows)hoices", None)
+            answer_value = q.get("answer", q.get("correct_answer", ""))
+
+        quiz_questions.append(clean_q)
+
+        correction = q.get("correction", q.get("explanation", ""))
+        if answer_value in (None, ""):
+            warnings.append(f"Q{idx + 1}: réponse attendue manquante")
+        if correction == "":
+            warnings.append(f"Q{idx + 1}: correction manquante")
+
+        answers_rows.append(
+            {
+                "index": idx,
+                "question_id": idx + 1,
+                "type": qtype,
+                "answer": answer_value,
+                "correction": correction,
+            }
+        )
+
+    quiz_out = {
+        "contents": {
+            "title": str(contents.get("title") or title),
+            "type": "quiz",
+            "level": level,
+            "subject": subject,
+            "description": str(contents.get("description") or ""),
+            "status": str(contents.get("status") or "published"),
+        },
+        "quiz": {
+            "title": title,
+            "type": "quiz",
+            "level": level,
+            "subject": subject,
+            "question_count": len(quiz_questions),
+            "passing_score": passing_score,
+            "time_limit_minutes": time_limit_minutes,
+            "questions": quiz_questions,
+        },
+        "exercisenotion": source.get("exercisenotion", []),
+        "exerciseresponses": [],
+    }
+
+    answers_out = {
+        "contents": {
+            "title": str(contents.get("title") or title),
+            "level": level,
+            "subject": subject,
+        },
+        "quiz": {
+            "title": title,
+            "question_count": len(answers_rows),
             "level": level,
             "subject": subject,
             "answers": answers_rows,

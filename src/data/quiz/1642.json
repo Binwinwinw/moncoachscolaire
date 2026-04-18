@@ -18,17 +18,14 @@
     "time_limit_minutes": 20,
     "questions": [
       {
-        "id": 1,
         "type": "vrai-faux",
         "question": "L'ARNm est une copie fidèle de l'ADN lors de la transcription."
       },
       {
-        "id": 2,
-        "type": "texte",
+        "type": "open",
         "question": "Fusion gamètes mâle + femelle = ?"
       },
       {
-        "id": 3,
         "type": "qcm",
         "question": "Une mutation génique peut :",
         "choices": [
@@ -39,17 +36,14 @@
         ]
       },
       {
-        "id": 4,
         "type": "vrai-faux",
         "question": "Un gène dominant s'exprime chez un hétérozygote avec 2 allèles identiques."
       },
       {
-        "id": 5,
-        "type": "texte",
+        "type": "open",
         "question": "Phénotype = génotype + ?"
       },
       {
-        "id": 6,
         "type": "qcm",
         "question": "Sélection naturelle = avantage de reproduction des plus :",
         "choices": [
@@ -60,12 +54,10 @@
         ]
       },
       {
-        "id": 7,
-        "type": "texte",
+        "type": "open",
         "question": "Unité de l'hérédité transmise = ?"
       },
       {
-        "id": 8,
         "type": "qcm",
         "question": "Modèle double hélice ADN découvert par :",
         "choices": [
@@ -76,12 +68,10 @@
         ]
       },
       {
-        "id": 9,
         "type": "vrai-faux",
         "question": "La méiose produit 4 gamètes haploïdes à partir d'une cellule diploïde."
       },
       {
-        "id": 10,
         "type": "qcm",
         "question": "Brassage génétique intrachromosomique = :",
         "choices": [
@@ -92,17 +82,14 @@
         ]
       },
       {
-        "id": 11,
-        "type": "texte",
-        "question": "Équilibre génétique populations = Hardy-... ?"
+        "type": "open",
+        "question": "Équilibre génétique populations = Hardy-. ?"
       },
       {
-        "id": 12,
         "type": "vrai-faux",
         "question": "Transferts horizontaux de gènes se font uniquement par reproduction sexuée."
       },
       {
-        "id": 13,
         "type": "qcm",
         "question": "Endosymbiose explique l'origine des :",
         "choices": [
@@ -113,17 +100,14 @@
         ]
       },
       {
-        "id": 14,
-        "type": "texte",
+        "type": "open",
         "question": "Dérive génétique = variation fréquences alléliques par ?"
       },
       {
-        "id": 15,
         "type": "vrai-faux",
         "question": "Sélection naturelle est un processus orienté par une finalité."
       },
       {
-        "id": 16,
         "type": "qcm",
         "question": "Phylogénie reconstruit l'histoire évolutive par :",
         "choices": [
@@ -134,17 +118,14 @@
         ]
       },
       {
-        "id": 17,
-        "type": "texte",
+        "type": "open",
         "question": "Clone = ensemble cellules génétiquement ?"
       },
       {
-        "id": 18,
         "type": "vrai-faux",
         "question": "Mutations somatiques peuvent être transmises à la descendance."
       },
       {
-        "id": 19,
         "type": "qcm",
         "question": "Diversité gamètes dépend du nombre de :",
         "choices": [
@@ -155,11 +136,11 @@
         ]
       },
       {
-        "id": 20,
-        "type": "texte",
+        "type": "open",
         "question": "Évolution des génomes = mutations + sélection + ?"
       }
-    ]
+    ],
+    "type": "quiz"
   },
   "exercisenotion": [
     {

@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Temps, lieu, action",
-        "correct": 0,
         "correction": "La règle des trois unités impose : une journée, un lieu, une action principale."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "vraisemblance",
-        "correction": "La vraisemblance exige que l'action soit crédible ; elle est complémentaire de la bienséance."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La vraisemblance exige que l'action soit crédible ; elle est complémentaire de la bienséance."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Le Misanthrope",
-        "correct": 1,
         "correction": "Le Misanthrope (1666) est une comédie de Molière qui met en scène Alceste, ennemi de la flatterie."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "péripétie",
-        "correction": "La péripétie (renversement de situation) précipite la catastrophe finale."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La péripétie (renversement de situation) précipite la catastrophe finale."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Provoquer la catharsis (purification des passions)",
-        "correct": 1,
         "correction": "La catharsis aristotélicienne : la tragédie purge les passions de crainte et de pitié."
       },
       {

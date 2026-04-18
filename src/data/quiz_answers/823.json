@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Un coût imposé à des tiers sans compensation",
-        "correct": 1,
         "correction": "La pollution industrielle est l'exemple classique d'externalité négative : le coût social dépasse le coût privé."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "À cause du problème du passager clandestin : chacun attend que les autres paient, si bien que le bien n'est pas financé spontanément par le marché.",
-        "correction": "L'État intervient pour financer les biens publics (défense, justice, éclairage public) via l'impôt."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'État intervient pour financer les biens publics (défense, justice, éclairage public) via l'impôt."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Un agent possède plus d'informations que l'autre",
-        "correct": 1,
         "correction": "Ex : un vendeur de voitures d'occasion connaît mieux l'état du véhicule que l'acheteur (Akerlof)."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "L'aléa moral est un changement de comportement d'un agent après la signature d'un contrat, car il n'assume pas totalement les conséquences de ses actes. Ex : un assuré conduit moins prudemment car il est couvert.",
-        "correction": "L'aléa moral est une asymétrie d'information ex post qui nuit à l'efficience."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'aléa moral est une asymétrie d'information ex post qui nuit à l'efficience."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Taxer l'activité polluante (taxe pigouvienne)",
-        "correct": 1,
         "correction": "La taxe pigouvienne internalise le coût externe en l'intégrant dans le prix privé du producteur."
       },
       {

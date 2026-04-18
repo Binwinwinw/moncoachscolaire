@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'hypocrisie religieuse",
-        "correct": 1,
         "correction": "Tartuffe est un faux dévot qui manipule Orgon ; Molière dénonce l'hypocrisie des bigots."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "avarice",
-        "correction": "Harpagon est l'archétype de l'avare, prêt à sacrifier famille et bonheur pour son or."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Harpagon est l'archétype de l'avare, prêt à sacrifier famille et bonheur pour son or."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Le rire naît du mécanique plaqué sur du vivant",
-        "correct": 1,
         "correction": "Bergson (Le Rire, 1900) : le comique naît d'une rigidité mécanique (l'obsession) qui s'oppose à la souplesse du vivant."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "vice",
-        "correction": "Chaque comédie de caractère de Molière centre l'intrigue sur un défaut psychologique dominant."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Chaque comédie de caractère de Molière centre l'intrigue sur un défaut psychologique dominant."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Les femmes qui singent les manières aristocratiques",
-        "correct": 2,
         "correction": "Molière moque les bourgeoises qui imitent maladroitement les précieuses de la cour."
       },
       {

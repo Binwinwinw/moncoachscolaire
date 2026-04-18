@@ -1,48 +1,71 @@
 {
-  "quiz_id": 1082,
-  "title": "Applications de la trigonométrie",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "answers": [
-    {
-      "question_id": "1082_1",
-      "correct_option": "B",
-      "explanation": "Loi des cosinus : a² = b² + c² − 2bc·cos(A). Généralisation de Pythagore."
-    },
-    {
-      "question_id": "1082_2",
-      "correct": true,
-      "explanation": "La loi des sinus relie les côtés aux sinus des angles opposés."
-    },
-    {
-      "question_id": "1082_3",
-      "correct_answer": "a² = 25 + 49 − 2×5×7×cos(60°) = 74 − 35 = 39. a = √39 ≈ 6,24.",
-      "explanation": "cos(60°) = 1/2. a² = 25+49−70×(1/2) = 74−35 = 39."
-    },
-    {
-      "question_id": "1082_4",
-      "correct_option": "D",
-      "explanation": "Dans le triangle rectangle de demi-base b/2 et angle de base α : tan(α) = h/(b/2) → h = (b/2)/tan(α)."
-    },
-    {
-      "question_id": "1082_5",
-      "correct": true,
-      "explanation": "Formule de l'aire avec l'angle : Aire = (1/2)·b·c·sin(A)."
-    },
-    {
-      "question_id": "1082_6",
-      "correct_answer": "Aire = (1/2) × 8 × 5 × sin(30°) = 20 × (1/2) = 10.",
-      "explanation": "Aire = (1/2)×8×5×sin(30°) = 20×(1/2) = 10."
-    },
-    {
-      "question_id": "1082_7",
-      "correct_option": "D",
-      "explanation": "tan(30°) = h/100 → h = 100·tan(30°) = 100/√3 ≈ 57,7 m. B et D sont équivalents."
-    },
-    {
-      "question_id": "1082_8",
-      "correct": true,
-      "explanation": "Avec 3 éléments (dont un côté), on peut déterminer tous les autres par les lois des sinus et des cosinus."
-    }
-  ]
+  "contents": {
+    "title": "Applications de la trigonométrie",
+    "level": "1ère",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Applications de la trigonométrie",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "",
+        "correction": "Loi des cosinus : a² = b² + c² − 2bc·cos(A). Généralisation de Pythagore."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La loi des sinus relie les côtés aux sinus des angles opposés."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. cos(60°) = 1/2. a² = 25+49−70×(1/2) = 74−35 = 39."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "",
+        "correction": "Dans le triangle rectangle de demi-base b/2 et angle de base α : tan(α) = h/(b/2) → h = (b/2)/tan(α)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Formule de l'aire avec l'angle : Aire = (1/2)·b·c·sin(A)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Aire = (1/2)×8×5×sin(30°) = 20×(1/2) = 10."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "",
+        "correction": "tan(30°) = h/100 → h = 100·tan(30°) = 100/√3 ≈ 57,7 m. B et D sont équivalents."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Avec 3 éléments (dont un côté), on peut déterminer tous les autres par les lois des sinus et des cosinus."
+      }
+    ]
+  }
 }

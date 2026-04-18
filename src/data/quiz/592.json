@@ -33,8 +33,8 @@
         "question": "L'agriculture française est diversifiée selon les régions."
       },
       {
-        "type": "open",
-        "question": "L'agriculture qui limite les intrants chimiques est dite plus _____."
+        "type": "vrai-faux",
+        "question": "Elle vise à concilier rendement, environnement et santé."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Les circuits courts rapprochent producteurs et consommateurs."
       },
       {
-        "type": "open",
-        "question": "Les labels de qualité comme AOP protègent l'_____ géographique des produits."
+        "type": "vrai-faux",
+        "question": "Ils certifient savoir-faire et ancrage territorial."
       },
       {
         "type": "qcm",

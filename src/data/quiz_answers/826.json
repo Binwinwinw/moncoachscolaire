@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Capital et travail",
-        "correct": 0,
         "correction": "Travail (ressources humaines) et capital (machines, équipements, bâtiments) sont les facteurs classiques de production."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "La substitution capital-travail consiste à remplacer des travailleurs par des machines (ou l'inverse). Ex : l'automatisation dans l'industrie remplace des ouvriers par des robots.",
-        "correction": "Cette substitution dépend des coûts relatifs du capital et du travail."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Cette substitution dépend des coûts relatifs du capital et du travail."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La production par unité de travail",
-        "correct": 1,
         "correction": "Productivité du travail = production / nombre d'heures (ou de travailleurs). Elle mesure l'efficacité productive."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "À court terme, si on augmente un seul facteur (ex : travail) en maintenant l'autre fixe (capital), la production augmente de moins en moins à chaque unité supplémentaire ajoutée.",
-        "correction": "Ex : ajouter des travailleurs dans une usine à capacité fixe génère des rendements décroissants au-delà d'un certain seuil."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Ex : ajouter des travailleurs dans une usine à capacité fixe génère des rendements décroissants au-delà d'un certain seuil."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "L'ensemble des compétences, connaissances et expériences des individus",
-        "correct": 1,
         "correction": "Le capital humain (Becker) est formé par l'éducation, la formation, l'expérience. Il accroît la productivité."
       },
       {

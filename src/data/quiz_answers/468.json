@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Un roman centré sur la formation et la maturation d'un personnage jeune",
-        "correct": 1,
         "correction": "Le Bildungsroman (all. : roman de formation) suit le héros de l'adolescence à l'âge adulte."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "province",
-        "correction": "Le départ de la province vers Paris est un schéma récurrent (Rastignac, Julien Sorel, Frédéric Moreau…)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le départ de la province vers Paris est un schéma récurrent (Rastignac, Julien Sorel, Frédéric Moreau…)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Rastignac",
-        "correct": 1,
         "correction": "Eugène de Rastignac, dans Le Père Goriot, incarne l'ambition provinciale dans la jungle parisienne."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "initiation",
-        "correction": "Le mentor (précepteur, ami plus âgé, figure paternelle) initie le héros aux codes du monde."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le mentor (précepteur, ami plus âgé, figure paternelle) initie le héros aux codes du monde."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Candide",
-        "correct": 1,
         "correction": "Candide (1759) suit un héros naïf qui 'apprend' que le monde n'est pas le meilleur des mondes possible."
       },
       {

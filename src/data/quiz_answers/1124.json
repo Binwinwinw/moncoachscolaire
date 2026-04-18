@@ -1,48 +1,71 @@
 {
-  "quiz_id": 1124,
-  "title": "Gouvernance mondiale de l'économie",
-  "subject": "SES",
-  "level": "Terminale",
-  "answers": [
-    {
-      "question_id": "1124_1",
-      "correct_option": "B",
-      "explanation": "Créé à Bretton Woods (1944), le FMI veille à la stabilité monétaire internationale et prête aux pays en crise de balance des paiements (avec conditionnalité)."
-    },
-    {
-      "question_id": "1124_2",
-      "correct": true,
-      "explanation": "La Banque mondiale (BIRD + IDA) finance infrastructure, éducation, santé dans les pays en développement, contrairement au FMI centré sur la stabilité monétaire."
-    },
-    {
-      "question_id": "1124_3",
-      "correct_answer": "Le G20 regroupe 19 pays + l'UE représentant 80% du PIB mondial. Il coordonne les politiques économiques mondiales (réforme financière post-2008, lutte contre l'évasion fiscale, COP, relance). Il n'a pas de pouvoir contraignant mais influence les agendas internationaux.",
-      "explanation": "Le G20 a remplacé le G8 comme principal forum de coordination économique depuis la crise de 2008."
-    },
-    {
-      "question_id": "1124_4",
-      "correct_option": "B",
-      "explanation": "Les multinationales déclarent leurs bénéfices dans les pays à faible fiscalité (Irlande, Luxembourg, Pays-Bas, îles Caïmans) via les prix de transfert et des structures d'optimisation fiscale."
-    },
-    {
-      "question_id": "1124_5",
-      "correct": true,
-      "explanation": "Le taux minimum global de 15% (accord OCDE/G20, 2021) pour les multinationales de plus de 750M€ de CA vise à réduire l'érosion fiscale."
-    },
-    {
-      "question_id": "1124_6",
-      "correct_answer": "Instabilité financière accrue (crises de change, bulles), contagion rapide des crises, pression à la baisse sur la fiscalité du capital (concurrence fiscale), volatilité des flux de capitaux vers les pays émergents, creusement des inégalités.",
-      "explanation": "Les partisans de la régulation financière internationale (Stiglitz, Rodrik) soulignent ces risques liés à la libéralisation totale des flux de capitaux."
-    },
-    {
-      "question_id": "1124_7",
-      "correct_option": "B",
-      "explanation": "Le consensus de Washington (FMI/BM/Trésor US) : libéralisation commerciale et financière, privatisations, rigueur budgétaire. Critiqué pour avoir aggravé les inégalités dans certains pays."
-    },
-    {
-      "question_id": "1124_8",
-      "correct": true,
-      "explanation": "Les tensions commerciales USA-Chine (2018-), le Brexit, les restrictions sur les chaînes d'approvisionnement mondiales remettent en cause le multilatéralisme des décennies précédentes."
-    }
-  ]
+  "contents": {
+    "title": "Quiz Diagnostic SES Terminale - Serie 1124",
+    "level": "Terminale",
+    "subject": "SES"
+  },
+  "quiz": {
+    "title": "Gouvernance mondiale de l'économie",
+    "question_count": 8,
+    "level": "Terminale",
+    "subject": "SES",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Cette affirmation reformule l'idée essentielle à retenir : Qu'est-ce que le G20 et quel rôle joue-t-il dans la gouvernance économique mondiale."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Cette affirmation reformule l'idée essentielle à retenir : Quelles sont les critiques adressées à la mondialisation financière."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      }
+    ]
+  }
 }

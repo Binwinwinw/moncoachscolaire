@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Paul Éluard",
-        "correct": 1,
         "correction": "'Liberté' d'Éluard (1942), publié dans Poésie et Vérité, est un poème-manifeste de la Résistance."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Liberté",
-        "correction": "Chaque strophe liste les surfaces (cahier d'écolier, arbre, pierre…) sur lesquelles le poète écrit 'Liberté'."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Chaque strophe liste les surfaces (cahier d'écolier, arbre, pierre…) sur lesquelles le poète écrit 'Liberté'."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Chef de maquis dans le Vaucluse",
-        "correct": 1,
         "correction": "Char (pseudonyme 'Capitaine Alexandre') dirige le groupe de résistance Ventoux dans le Vaucluse."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Feuillets d'Hypnos",
-        "correction": "Feuillets d'Hypnos (1946) rassemble les notes de Char pendant sa période de résistance armée."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Feuillets d'Hypnos (1946) rassemble les notes de Char pendant sa période de résistance armée."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "L'alexandrin rimé",
-        "correct": 2,
         "correction": "'La Rose et le Réséda' utilise des alexandrins rimés, récupérant la tradition formelle pour mieux résister."
       },
       {

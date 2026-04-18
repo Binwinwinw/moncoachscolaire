@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Il raconte une histoire dont il est le héros",
-        "correct": 1,
         "correction": "Homodiégétique = narrateur présent dans l'histoire comme personnage principal."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "omniscient",
-        "correction": "En focalisation zéro, le narrateur connaît pensées, sentiments et événements passés/futurs."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. En focalisation zéro, le narrateur connaît pensées, sentiments et événements passés/futurs."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Focalisation interne",
-        "correct": 1,
         "correction": "En focalisation interne, le lecteur ne sait que ce que sait le personnage focal."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "analepse",
-        "correction": "L'analepse (ou retour en arrière, flashback) remonte dans le temps."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'analepse (ou retour en arrière, flashback) remonte dans le temps."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "L'absence de verbe introducteur et le maintien des temps du passé",
-        "correct": 1,
         "correction": "Le DIL fusionne la voix du narrateur et la pensée du personnage sans marqueurs typographiques."
       },
       {

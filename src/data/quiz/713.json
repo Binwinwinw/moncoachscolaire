@@ -33,8 +33,8 @@
         "question": "Le bicarbonate de soude (NaHCO3) est une substance basique."
       },
       {
-        "type": "open",
-        "question": "Quel acide naturel se trouve dans le vinaigre blanc utilisé comme détartrant ?"
+        "type": "vrai-faux",
+        "question": "Le vinaigre blanc contient de l'acide acétique (CH3COOH) qui dissout les dépôts calcaires (CaCO3)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "L'eau dure (riche en Ca2+ et Mg2+) forme du calcaire lorsqu'elle est chauffée."
       },
       {
-        "type": "open",
-        "question": "Quel indicateur naturel vire au rouge en milieu acide et au bleu-vert en milieu basique ?"
+        "type": "vrai-faux",
+        "question": "Le jus de chou rouge contient des anthocyanes qui sont des indicateurs naturels acido-basiques."
       },
       {
         "type": "qcm",

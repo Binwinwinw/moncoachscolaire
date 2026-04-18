@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Des ondes de compression qui traversent solides et liquides et arrivent en premier",
-        "correct": 1,
         "correction": "Ondes P (longitudinales, 6–8 km/s dans la croûte) : compression/dilatation alternées dans la direction de propagation ; traversent tous les milieux."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "trois",
-        "correction": "La méthode de triangulation utilise le délai d'arrivée des ondes P et S dans 3 stations pour tracer des cercles ; leur intersection donne l'épicentre."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La méthode de triangulation utilise le délai d'arrivée des ondes P et S dans 3 stations pour tracer des cercles ; leur intersection donne l'épicentre."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "L'intensité perçue localement par les personnes et les dégâts observés",
-        "correct": 1,
         "correction": "Intensité (MSK/EMS, I–XII) : évalue l'effet ressenti en un lieu (subjectif). Magnitude (Richter/Mw) : mesure l'énergie totale (objectif, indépendant du lieu)."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "parasismiques",
-        "correction": "En France, les Eurocodes 8 et le zonage sismique (5 zones) imposent des normes de construction parasismique pour les bâtiments neufs selon leur localisation et usage."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. En France, les Eurocodes 8 et le zonage sismique (5 zones) imposent des normes de construction parasismique pour les bâtiments neufs selon leur localisation et usage."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La transformation de sols saturés d'eau en une boue fluide qui perd tout support mécanique",
-        "correct": 1,
         "correction": "La liquéfaction (sols sableux saturés) est responsable d'effondrements spectaculaires ; observée lors des séismes de Niigata 1964, San Francisco 1989, Sendai 2011."
       },
       {

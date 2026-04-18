@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Darwin",
-        "correct": 2,
         "correction": "Charles Darwin a formulé la théorie de la sélection naturelle dans 'De l'origine des espèces' (1859)."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "organes homologues",
-        "correction": "Les organes homologues (ex. aile de chauve-souris, bras humain, nageoire de baleine) montrent une origine commune malgré des fonctions différentes."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les organes homologues (ex. aile de chauve-souris, bras humain, nageoire de baleine) montrent une origine commune malgré des fonctions différentes."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Phylogénétique moléculaire",
-        "correct": 1,
         "correction": "La phylogénétique moléculaire utilise les séquences génétiques pour reconstruire l'histoire évolutive."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "spéciation",
-        "correction": "La spéciation est le processus par lequel une population évolue en une espèce distincte."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La spéciation est le processus par lequel une population évolue en une espèce distincte."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Les mutations et la reproduction sexuée",
-        "correct": 1,
         "correction": "La variabilité génétique héréditaire vient des mutations et du brassage lors de la reproduction sexuée."
       },
       {

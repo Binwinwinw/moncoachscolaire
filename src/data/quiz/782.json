@@ -33,8 +33,8 @@
         "question": "Un detecteur inductif peut detecter la presence d'objets metalliques sans contact."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on un capteur qui convertit la lumiere en signal electrique pour detecter la presence d'un objet ?"
+        "type": "vrai-faux",
+        "question": "Capteur photoelectrique."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Un servomoteur peut controler precisement la position angulaire d'un axe."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on un actionneur lineaire qui utilise l'air comprime pour produire un mouvement de translation ?"
+        "type": "vrai-faux",
+        "question": "Le verin pneumatique utilise la pression d'air pour deplacer un piston lineairement ; tres utilise dans l'automatisation industrielle pour des mouvements rapides."
       },
       {
         "type": "qcm",

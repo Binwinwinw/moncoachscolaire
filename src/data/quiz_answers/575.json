@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Un développement qui répond aux besoins du présent sans compromettre ceux des générations futures",
-        "correct": 1,
         "correction": "Définition du rapport Brundtland (1987) : le développement durable articule efficacité économique, équité sociale et préservation de l'environnement."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Paris",
-        "correction": "L'accord de Paris (COP21, décembre 2015) est signé par 196 pays ; il fixe des objectifs de réduction des émissions de GES."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'accord de Paris (COP21, décembre 2015) est signé par 196 pays ; il fixe des objectifs de réduction des émissions de GES."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Environnement, économie, social",
-        "correct": 1,
         "correction": "Le développement durable repose sur trois piliers interdépendants : écologie, équité sociale et efficacité économique."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "atolls",
-        "correction": "Les atolls du Pacifique et de l'océan Indien sont menacés de submersion par la montée des eaux liée au réchauffement climatique."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les atolls du Pacifique et de l'océan Indien sont menacés de submersion par la montée des eaux liée au réchauffement climatique."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Éradiquer la pauvreté, réduire les inégalités et protéger l'environnement",
-        "correct": 1,
         "correction": "Les 17 ODD (Agenda 2030) de l'ONU fixent des objectifs ambitieux dans des domaines comme la pauvreté, la santé, l'éducation et le climat."
       },
       {

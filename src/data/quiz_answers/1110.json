@@ -1,48 +1,71 @@
 {
-  "quiz_id": 1110,
-  "title": "Développement durable",
-  "subject": "SES",
-  "level": "Terminale",
-  "answers": [
-    {
-      "question_id": "1110_1",
-      "correct_option": "B",
-      "explanation": "Définition officielle de la Commission Brundtland (1987) : équité intergénérationnelle entre développement économique, équité sociale et protection environnementale."
-    },
-    {
-      "question_id": "1110_2",
-      "correct": true,
-      "explanation": "Le triangle du développement durable articule viabilité économique, équité sociale et soutenabilité environnementale."
-    },
-    {
-      "question_id": "1110_3",
-      "correct_answer": "Soutenabilité faible : le capital naturel et le capital artificiel sont substituables (on peut compenser la dégradation environnementale par plus de capital humain ou physique). Soutenabilité forte : certains actifs naturels sont irremplaçables (biodiversité, climat) et ne peuvent être substitués.",
-      "explanation": "Cette distinction sépare les économistes néo-classiques (substituabilité) des écologistes (non-substituabilité des ressources critiques)."
-    },
-    {
-      "question_id": "1110_4",
-      "correct_option": "B",
-      "explanation": "La taxe pigouvienne (Pigou, 1920) internalise le coût externe en taxant le pollueur à hauteur du dommage causé, incitant à réduire la pollution."
-    },
-    {
-      "question_id": "1110_5",
-      "correct": true,
-      "explanation": "Le marché carbone (EU ETS) fixe un plafond global d'émissions et laisse les entreprises s'échanger des droits : celles pour qui réduire est moins coûteux réduisent davantage."
-    },
-    {
-      "question_id": "1110_6",
-      "correct_answer": "Elle suppose qu'à partir d'un certain niveau de revenu, la croissance améliore l'environnement (relation en U inversé). Limites : pas vérifiée pour toutes les pollutions (CO₂), peut justifier de ne pas agir.",
-      "explanation": "La courbe de Kuznets environnementale est empiriquement contestée : valable pour certains polluants locaux, pas pour les GES."
-    },
-    {
-      "question_id": "1110_7",
-      "correct_option": "B",
-      "explanation": "L'économie circulaire s'oppose au modèle « extraire-fabriquer-jeter » en privilégiant réparation, réutilisation, recyclage et éco-conception."
-    },
-    {
-      "question_id": "1110_8",
-      "correct": true,
-      "explanation": "L'Agenda 2030 de l'ONU fixe 17 ODD couvrant pauvreté, santé, éducation, inégalités, climat, etc."
-    }
-  ]
+  "contents": {
+    "title": "Quiz Diagnostic SES Terminale - Serie 1110",
+    "level": "Terminale",
+    "subject": "SES"
+  },
+  "quiz": {
+    "title": "Développement durable",
+    "question_count": 8,
+    "level": "Terminale",
+    "subject": "SES",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Cette affirmation reformule l'idée essentielle à retenir : Distingue soutenabilité forte et soutenabilité faible."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Cette affirmation reformule l'idée essentielle à retenir : Qu'est-ce que la courbe de Kuznets environnementale et quelles en sont les limites."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      }
+    ]
+  }
 }

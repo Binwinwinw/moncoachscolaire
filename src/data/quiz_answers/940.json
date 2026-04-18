@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Toutes les réponses ci-dessus",
-        "correct": 3,
         "correction": "Le trafic d'antiquités détruit les sites archéologiques, alimente le marché noir de l'art et finance parfois des groupes terroristes (ex : Daech). La lutte contre ce trafic est un enjeu majeur pour la préservation du patrimoine mondial."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Les conflits armés peuvent entraîner la destruction intentionnelle (ex : Palmyre par Daech), les dommages collatéraux (bombardements), le pillage (ex : Irak, Syrie) et la négligence (manque de ressources pour la conservation). La protection du patrimoine en temps de guerre est un défi majeur pour la communauté internationale.",
-        "correction": ""
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Réponse attendue : Les conflits armés peuvent entraîner la destruction intentionnelle (ex : Palmyre par Daech), les dommages collatéraux (bombardements), le pillage (ex : Irak, Syrie) et la négligence (manque de ressources pour la conservation). La protection du patrimoine en temps de guerre est un défi majeur pour la communauté internationale."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Toutes les réponses ci-dessus",
-        "correct": 3,
         "correction": "Le tourisme de masse peut causer l'érosion des sites, la pollution et perturber la vie locale. La gestion durable du tourisme est essentielle pour préserver le patrimoine mondial."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Les stratégies de conservation incluent la surveillance régulière, la gestion des risques (incendies, inondations), la sensibilisation du public, la réglementation du tourisme, la lutte contre le trafic illicite, et la coopération internationale.",
-        "correction": ""
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Réponse attendue : Les stratégies de conservation incluent la surveillance régulière, la gestion des risques (incendies, inondations), la sensibilisation du public, la réglementation du tourisme, la lutte contre le trafic illicite, et la coopération internationale."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "1972",
-        "correct": 0,
         "correction": "La Convention du patrimoine mondial de l'UNESCO a été adoptée en 1972 pour identifier, protéger et préserver le patrimoine culturel et naturel d'importance mondiale."
       },
       {

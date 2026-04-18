@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'Humanisme",
-        "correct": 2,
         "correction": "L'Humanisme (XVIe s.) place l'Homme au centre et redécouvre les Anciens (studia humanitatis)."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "homme",
-        "correction": "L'humaniste aspire à l'honnête homme universel, curieux de tout savoir humain."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'humaniste aspire à l'honnête homme universel, curieux de tout savoir humain."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Racine",
-        "correct": 2,
         "correction": "Racine (Andromaque, Phèdre) est l'un des grands tragédiens classiques du XVIIe siècle."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "roses",
-        "correction": "Ronsard, 'Ode à Cassandre' : 'Cueillez dès aujourd'hui les roses de la vie' → carpe diem."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Ronsard, 'Ode à Cassandre' : 'Cueillez dès aujourd'hui les roses de la vie' → carpe diem."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Les tragi-comédies et le théâtre dans le théâtre",
-        "correct": 1,
         "correction": "Le Baroque mêle les genres et joue avec les illusions théâtrales (Le Vrai Saint-Genest de Rotrou)."
       },
       {

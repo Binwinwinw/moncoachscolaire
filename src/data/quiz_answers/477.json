@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Analyser comment le texte produit du sens et de l'effet",
-        "correct": 1,
         "correction": "Le commentaire analyse les procédés stylistiques et leur effet sur le lecteur."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "centre d'intérêt",
-        "correction": "Chaque partie développe un centre d'intérêt (ou axe) qui éclaire un aspect du texte."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Chaque partie développe un centre d'intérêt (ou axe) qui éclaire un aspect du texte."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Insuffisant : il faut toujours interpréter l'effet",
-        "correct": 1,
         "correction": "Identifier un procédé n'est que la première étape ; il faut expliquer pourquoi l'auteur l'utilise et quel effet il produit."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "progression",
-        "correction": "Identifier le mouvement permet de dégager les étapes de l'extrait avant de construire le plan."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Identifier le mouvement permet de dégager les étapes de l'extrait avant de construire le plan."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Dans chaque sous-partie pour appuyer les analyses",
-        "correct": 1,
         "correction": "Les citations (entre guillemets, avec référence) sont la preuve textuelle de chaque argument."
       },
       {

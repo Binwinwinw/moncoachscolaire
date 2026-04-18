@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "XXe siècle",
-        "correct": 2,
         "correction": "Ce thème s'inscrit principalement dans le contexte du XXe siècle, période de grandes transformations politiques, économiques et sociales qui ont façonné le monde contemporain."
       },
       {
@@ -28,17 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "correct_answer": "Ce thème permet de comprendre les grandes évolutions politiques, économiques et sociales qui ont façonné notre monde actuel.",
-        "answer": "Ce thème permet de comprendre les grandes évolutions politiques, économiques et sociales qui ont façonné notre monde actuel.",
-        "correction": "L'étude du thème 'Les flux migratoires en Europe' est essentielle pour comprendre les dynamiques du monde contemporain : les rapports de force entre nations, les transformations sociales et économiques, et les enjeux géopolitiques actuels. Elle développe l'esprit critique et la capacité d'analyse historique et géographique des élèves."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'étude du thème 'Les flux migratoires en Europe' est essentielle pour comprendre les dynamiques du monde contemporain : les rapports de force entre nations, les transformations sociales et économiques, et les enjeux géopolitiques actuels. Elle développe l'esprit critique et la capacité d'analyse historique et géographique des élèves."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "L'analyse critique de documents et la construction d'une argumentation",
-        "correct": 1,
         "correction": "L'étude de l'histoire-géographie développe l'analyse critique de documents (textes, cartes, images, statistiques), la construction d'une argumentation rigoureuse, la mise en perspective temporelle et spatiale des phénomènes, et la compréhension des enjeux du monde contemporain."
       },
       {
@@ -51,17 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "correct_answer": "Un territoire est un espace géographique approprié, vécu et organisé par une société, contrairement à un simple espace physique.",
-        "answer": "Un territoire est un espace géographique approprié, vécu et organisé par une société, contrairement à un simple espace physique.",
-        "correction": "En géographie, un territoire est un espace géographique délimité, approprié et organisé par un groupe humain qui lui donne une identité et un sens. Il se distingue d'un simple espace physique par la présence d'acteurs qui l'aménagent, le gèrent et le revendiquent. La notion de territoire implique donc une dimension sociale, politique et identitaire, en plus de la dimension physique."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. En géographie, un territoire est un espace géographique délimité, approprié et organisé par un groupe humain qui lui donne une identité et un sens. Il se distingue d'un simple espace physique par la présence d'acteurs qui l'aménagent, le gèrent et le revendiquent. La notion de territoire implique donc une dimension sociale, politique et identitaire, en plus de la dimension physique."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Une représentation graphique qui représente la distribution spatiale d'un phénomène précis",
-        "correct": 1,
         "correction": "Une carte thématique représente la distribution spatiale d'un phénomène géographique spécifique (densité de population, PIB par habitant, flux migratoires, etc.) à l'aide de signes conventionnels (couleurs, symboles, flèches). Elle est un outil d'analyse indispensable en géographie pour identifier des disparités spatiales et des dynamiques territoriales."
       },
       {

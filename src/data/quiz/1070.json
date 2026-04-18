@@ -1,69 +1,73 @@
 {
-  "id": 1070,
-  "title": "Suites et modélisation",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "created_at": "2026-03-13T18:54:00.427990Z",
-  "questions": [
-    {
-      "id": "1070_1",
-      "type": "qcm",
-      "question": "Un algorithme calcule les termes d'une suite. Pour u₀ = 1 et uₙ₊₁ = 2uₙ + 1, que vaut u₃ ?",
-      "options": [
-        "7",
-        "9",
-        "15",
-        "13"
-      ]
-    },
-    {
-      "id": "1070_2",
-      "type": "vrai-faux",
-      "question": "Le changement de variable vₙ = uₙ − L (où L est le point fixe) peut transformer une suite récurrente en suite géométrique."
-    },
-    {
-      "id": "1070_3",
-      "type": "texte",
-      "question": "Une population double chaque année. Si P₀ = 500, exprime Pₙ et calcule l'année où la population dépasse 16 000."
-    },
-    {
-      "id": "1070_4",
-      "type": "qcm",
-      "question": "La suite uₙ₊₁ = 0,9·uₙ + 5 avec u₀ = 0. Quel est le point fixe L ?",
-      "options": [
-        "5",
-        "50",
-        "9",
-        "45"
-      ]
-    },
-    {
-      "id": "1070_5",
-      "type": "vrai-faux",
-      "question": "La suite uₙ₊₁ = 0,9uₙ + 5 converge vers 50 (son point fixe)."
-    },
-    {
-      "id": "1070_6",
-      "type": "texte",
-      "question": "Un médicament se dégrade de 20% par heure. Dose initiale 100 mg. Quelle quantité reste-t-il après 5 heures ?"
-    },
-    {
-      "id": "1070_7",
-      "type": "qcm",
-      "question": "Pour calculer le rang à partir duquel uₙ = 2×1,5ⁿ dépasse 100, on utilise :",
-      "options": [
-        "La dérivée de 1,5ⁿ",
-        "La résolution de l'inéquation logarithmique 1,5ⁿ > 50",
-        "Le discriminant",
-        "La limite de uₙ"
-      ]
-    },
-    {
-      "id": "1070_8",
-      "type": "vrai-faux",
-      "question": "Une suite arithmétique modélise une évolution à taux d'accroissement constant (en valeur absolue)."
-    }
-  ],
+  "contents": {
+    "title": "Suites et modélisation",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Mathématiques",
+    "description": "",
+    "status": "published"
+  },
+  "quiz": {
+    "title": "Suites et modélisation",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Un algorithme calcule les termes d'une suite. Pour u₀ = 1 et uₙ₊₁ = 2uₙ + 1, que vaut u₃ ?",
+        "choices": [
+          "7",
+          "9",
+          "15",
+          "13"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le changement de variable vₙ = uₙ − L (où L est le point fixe) peut transformer une suite récurrente en suite géométrique."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Cette affirmation reformule l'idée essentielle à retenir : Une population double chaque année. Si P₀ = 500, exprime Pₙ et calcule l'année où la population dépasse 16 000."
+      },
+      {
+        "type": "qcm",
+        "question": "La suite uₙ₊₁ = 0,9·uₙ + 5 avec u₀ = 0. Quel est le point fixe L ?",
+        "choices": [
+          "5",
+          "50",
+          "9",
+          "45"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La suite uₙ₊₁ = 0,9uₙ + 5 converge vers 50 (son point fixe)."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "100 × 0,8⁵ = 100 × 0,32768 ≈ 32,77 mg."
+      },
+      {
+        "type": "qcm",
+        "question": "Pour calculer le rang à partir duquel uₙ = 2×1,5ⁿ dépasse 100, on utilise :",
+        "choices": [
+          "La dérivée de 1,5ⁿ",
+          "La résolution de l'inéquation logarithmique 1,5ⁿ > 50",
+          "Le discriminant",
+          "La limite de uₙ"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une suite arithmétique modélise une évolution à taux d'accroissement constant (en valeur absolue)."
+      }
+    ]
+  },
   "exercisenotion": [
     {
       "notion": "Fondamentaux de Indéfini",
@@ -77,5 +81,6 @@
       "notion": "Savoir-faire indéfini",
       "description": "Notion du programme Indéfini"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

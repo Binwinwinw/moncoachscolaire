@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "ran",
-        "correct": 1,
         "correction": "The past tense of \"run\" is \"ran\"."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Nous avons un chien",
-        "correction": "The correct translation of \"We have a dog\" in French is \"Nous avons un chien\"."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. The correct translation of \"We have a dog\" in French is \"Nous avons un chien\"."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "slow",
-        "correct": 1,
         "correction": "\"Slow\" is an antonym of \"fast\"."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "written",
-        "correction": "The past participle of \"write\" is \"written\". It is used in perfect tenses and passive voice."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. The past participle of \"write\" is \"written\". It is used in perfect tenses and passive voice."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "She doesn't like movies.",
-        "correct": 1,
         "correction": "\"She doesn't like movies.\" is the correct sentence because it uses the correct auxiliary verb \"doesn't\" for third person singular."
       },
       {

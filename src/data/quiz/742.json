@@ -33,8 +33,8 @@
         "question": "La force de gravitation entre deux objets est proportionnelle au produit de leurs masses."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on le mouvement des planètes autour du Soleil ?"
+        "type": "vrai-faux",
+        "question": "Révolution (ou orbite)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Les satellites artificiels sont en orbite car la gravité les attire vers la Terre tout en se déplaçant à grande vitesse."
       },
       {
-        "type": "open",
-        "question": "Quelle est la valeur de l'intensité du champ gravitationnel g à la surface de la Terre ?"
+        "type": "vrai-faux",
+        "question": "G ≈ 9,81 N/kg (ou 10 N/kg en valeur approchée)."
       },
       {
         "type": "qcm",

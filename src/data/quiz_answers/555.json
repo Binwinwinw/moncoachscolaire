@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'assassinat de l'archiduc François-Ferdinand à Sarajevo",
-        "correct": 1,
         "correction": "Le 28 juin 1914, l'archiduc héritier d'Autriche-Hongrie est assassiné à Sarajevo par Gavrilo Princip, déclenchant une crise diplomatique qui mène à la guerre."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "armements",
-        "correction": "La course aux armements entre les grandes puissances (notamment entre l'Allemagne et le Royaume-Uni pour la marine) est l'une des causes profondes de la guerre."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La course aux armements entre les grandes puissances (notamment entre l'Allemagne et le Royaume-Uni pour la marine) est l'une des causes profondes de la guerre."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Transformer un conflit local en guerre européenne généralisée",
-        "correct": 1,
         "correction": "Le jeu des alliances a enclenché un effet domino : un conflit austro-serbe s'est étendu à toute l'Europe en quelques semaines."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "nationalisme",
-        "correction": "Le nationalisme est une cause de fond de la PGM : la France veut récupérer l'Alsace-Lorraine perdue en 1871 ; les peuples balkaniques veulent leur indépendance."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le nationalisme est une cause de fond de la PGM : la France veut récupérer l'Alsace-Lorraine perdue en 1871 ; les peuples balkaniques veulent leur indépendance."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Le rassemblement de tous les partis politiques derrière le gouvernement pour mener la guerre",
-        "correct": 1,
         "correction": "Le président Poincaré appelle à l'Union sacrée le 4 août 1914 : socialistes et nationalistes s'unissent pour défendre la patrie."
       },
       {

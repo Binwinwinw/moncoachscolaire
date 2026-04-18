@@ -33,8 +33,8 @@
         "question": "Une fonction Python peut retourner plusieurs valeurs simultanément."
       },
       {
-        "type": "open",
-        "question": "Expliquez la portée des variables (LEGB rule) en Python."
+        "type": "vrai-faux",
+        "question": "LEGB : Local (dans la fonction courante), Enclosing (fonctions imbriquées englobantes), Global (module), Builtin (fonctions intégrées)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "*args dans une définition de fonction permet de passer un nombre variable d'arguments positionnels."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce qu'une fonction lambda en Python ? Donnez un exemple."
+        "type": "vrai-faux",
+        "question": "Une lambda est une fonction anonyme à une expression."
       },
       {
         "type": "qcm",

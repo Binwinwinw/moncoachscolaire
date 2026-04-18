@@ -33,8 +33,8 @@
         "question": "La testostérone est une hormone stéroïde produite par les cellules de Leydig des testicules qui contrôle la spermatogenèse et les caractères sexuels secondaires."
       },
       {
-        "type": "open",
-        "question": "La FSH (follicle-stimulating hormone) stimule la croissance des _____ ovariens chez la femme et la spermatogenèse chez l'homme."
+        "type": "vrai-faux",
+        "question": "FSH chez la femme → maturation folliculaire et production d'estradiol."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Le stérilet au cuivre est un contraceptif mécanique qui empêche la nidation et a un effet spermicide."
       },
       {
-        "type": "open",
-        "question": "La PMA (procréation médicalement assistée) regroupe des techniques comme la FIV (fécondation in vitro) et l'ICSI (injection d'un spermatozoïde dans un _____). "
+        "type": "vrai-faux",
+        "question": "L'ICSI (Intra Cytoplasmic Sperm Injection) permet la fécondation même avec très peu de spermatozoïdes ; utilisée pour les azoospermies sévères ou les échecs de FIV classique."
       },
       {
         "type": "qcm",

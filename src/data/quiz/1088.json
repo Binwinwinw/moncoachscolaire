@@ -1,69 +1,73 @@
 {
-  "id": 1088,
-  "title": "Géométrie vectorielle et cercles du plan",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "created_at": "2026-03-13T18:54:00.442276Z",
-  "questions": [
-    {
-      "id": "1088_1",
-      "type": "qcm",
-      "question": "[Géométrie analytique] Parmi les propositions suivantes concernant Géométrie vectorielle et cercles du plan, laquelle est correcte ?",
-      "options": [
-        "Proposition A",
-        "Proposition B",
-        "Proposition C",
-        "Proposition D"
-      ]
-    },
-    {
-      "id": "1088_2",
-      "type": "vrai-faux",
-      "question": "[Géométrie analytique] En 1ère, la notion de Géométrie vectorielle et cercles du plan est au programme de mathématiques."
-    },
-    {
-      "id": "1088_3",
-      "type": "texte",
-      "question": "[Géométrie analytique] Explique en une phrase le principe fondamental de Géométrie vectorielle et cercles du plan."
-    },
-    {
-      "id": "1088_4",
-      "type": "qcm",
-      "question": "[Géométrie analytique] Quel résultat est associé à Géométrie vectorielle et cercles du plan en 1ère mathématiques ?",
-      "options": [
-        "Résultat A",
-        "Résultat B",
-        "Résultat C",
-        "Résultat D"
-      ]
-    },
-    {
-      "id": "1088_5",
-      "type": "vrai-faux",
-      "question": "[Géométrie analytique] L'application de Géométrie vectorielle et cercles du plan peut simplifier la résolution de certains problèmes de 1ère."
-    },
-    {
-      "id": "1088_6",
-      "type": "texte",
-      "question": "[Géométrie analytique] Donne un exemple d'application de Géométrie vectorielle et cercles du plan dans un exercice de 1ère."
-    },
-    {
-      "id": "1088_7",
-      "type": "qcm",
-      "question": "[Géométrie analytique] Quelle formule ou définition caractérise Géométrie vectorielle et cercles du plan ?",
-      "options": [
-        "Formule A",
-        "Formule B",
-        "Formule C",
-        "Formule D"
-      ]
-    },
-    {
-      "id": "1088_8",
-      "type": "vrai-faux",
-      "question": "[Géométrie analytique] La maîtrise de Géométrie vectorielle et cercles du plan est indispensable pour réussir le bac de 1ère."
-    }
-  ],
+  "contents": {
+    "title": "Géométrie vectorielle et cercles du plan",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Mathématiques",
+    "description": "",
+    "status": "published"
+  },
+  "quiz": {
+    "title": "Géométrie vectorielle et cercles du plan",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "[Géométrie analytique] Parmi les propositions suivantes concernant Géométrie vectorielle et cercles du plan, laquelle est correcte ?",
+        "choices": [
+          "Proposition A",
+          "Proposition B",
+          "Proposition C",
+          "Proposition D"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Géométrie analytique] En 1ère, la notion de Géométrie vectorielle et cercles du plan est au programme de mathématiques."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le principe fondamental de Géométrie vectorielle et cercles du plan repose sur une propriété clé du programme de 1ère."
+      },
+      {
+        "type": "qcm",
+        "question": "[Géométrie analytique] Quel résultat est associé à Géométrie vectorielle et cercles du plan en 1ère mathématiques ?",
+        "choices": [
+          "Résultat A",
+          "Résultat B",
+          "Résultat C",
+          "Résultat D"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Géométrie analytique] L'application de Géométrie vectorielle et cercles du plan peut simplifier la résolution de certains problèmes de 1ère."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un exemple typique de Géométrie vectorielle et cercles du plan en 1ère est un problème mobilisant cette notion directement."
+      },
+      {
+        "type": "qcm",
+        "question": "[Géométrie analytique] Quelle formule ou définition caractérise Géométrie vectorielle et cercles du plan ?",
+        "choices": [
+          "Formule A",
+          "Formule B",
+          "Formule C",
+          "Formule D"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Géométrie analytique] La maîtrise de Géométrie vectorielle et cercles du plan est indispensable pour réussir le bac de 1ère."
+      }
+    ]
+  },
   "exercisenotion": [
     {
       "notion": "Fondamentaux de Indéfini",
@@ -77,5 +81,6 @@
       "notion": "Savoir-faire indéfini",
       "description": "Notion du programme Indéfini"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

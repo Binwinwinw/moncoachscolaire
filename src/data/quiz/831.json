@@ -33,8 +33,8 @@
         "question": "Le marché du travail fonctionne exactement comme un marché de biens classique."
       },
       {
-        "type": "open",
-        "question": "Quelles institutions encadrent le marché du travail en France ?"
+        "type": "vrai-faux",
+        "question": "Le Code du travail, les conventions collectives, les syndicats de salariés (CGT, CFDT…), le patronat (MEDEF), l'inspection du travail, les prud'hommes, Pôle emploi (France Travail)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Un travailleur découragé qui arrête de chercher un emploi est compté comme chômeur par l'INSEE."
       },
       {
-        "type": "open",
-        "question": "Distinguez emploi salarié et emploi non salarié."
+        "type": "vrai-faux",
+        "question": "L'emploi salarié implique un lien de subordination : le salarié travaille sous l'autorité d'un employeur qui lui verse un salaire."
       },
       {
         "type": "qcm",

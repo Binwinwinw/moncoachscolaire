@@ -33,8 +33,8 @@
         "question": "Le halo du chômage comprend les personnes proches du chômage mais non comptabilisées comme chômeurs."
       },
       {
-        "type": "open",
-        "question": "Comment calcule-t-on le taux de chômage ?"
+        "type": "vrai-faux",
+        "question": "Taux de chômage = (nombre de chômeurs au sens du BIT / population active) × 100."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Le chômage structurel est lié à une inadéquation entre les qualifications des chômeurs et les besoins du marché."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce que le taux de chômage naturel (NAIRU) ?"
+        "type": "vrai-faux",
+        "question": "Le NAIRU (Non Accelerating Inflation Rate of Unemployment) est le taux de chômage compatible avec une inflation stable."
       },
       {
         "type": "qcm",

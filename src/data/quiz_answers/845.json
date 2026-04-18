@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'ensemble des transactions économiques entre résidents et non-résidents d'un pays",
-        "correct": 1,
         "correction": "La balance des paiements enregistre toutes les transactions : biens, services, revenus, transferts, et flux de capitaux."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "1. Compte des transactions courantes (biens, services, revenus, transferts courants) ; 2. Compte de capital (transferts en capital, brevets…) ; 3. Compte financier (investissements directs, de portefeuille, autres investissements, réserves).",
-        "correction": "Le solde des transactions courantes est l'indicateur le plus suivi."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le solde des transactions courantes est l'indicateur le plus suivi."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Importe plus de biens et services qu'il n'en exporte (incluant revenus et transferts)",
-        "correct": 1,
         "correction": "Un déficit courant doit être financé par des entrées de capitaux (compte financier), ce qui peut accroître l'endettement extérieur."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Un IDE est un investissement par lequel une entreprise d'un pays établit ou acquiert une participation durable (≥10 % du capital) dans une entreprise d'un autre pays. Il peut prendre la forme de création de filiales ou d'acquisitions.",
-        "correction": "Les IDE sont distincts des investissements de portefeuille (achat d'actions sans intention de contrôle)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les IDE sont distincts des investissements de portefeuille (achat d'actions sans intention de contrôle)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Le nombre de dollars nécessaires pour acheter un euro",
-        "correct": 1,
         "correction": "Ex : si EUR/USD = 1,10, il faut 1,10 dollar pour obtenir 1 euro. Une appréciation de l'euro renchérit les exportations européennes."
       },
       {

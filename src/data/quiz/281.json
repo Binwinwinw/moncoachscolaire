@@ -33,8 +33,8 @@
         "question": "La demi-vie (ou période radioactive) est le temps au bout duquel la moitié des noyaux radioactifs d'un échantillon se sont désintégrés."
       },
       {
-        "type": "open",
-        "question": "Établissez la loi de conservation des nombres de masse et de charge lors d'une désintégration radioactive alpha."
+        "type": "vrai-faux",
+        "question": "Lors d'une désintégration α : le nombre de masse A diminue de 4 et le numéro atomique Z diminue de 2."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La fission nucléaire est la réaction dans laquelle un noyau lourd se casse en noyaux plus légers avec libération d'énergie."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce que la fusion nucléaire et pourquoi représente-t-elle un défi technologique majeur ?"
+        "type": "vrai-faux",
+        "question": "La fusion nucléaire est la fusion de noyaux légers (deutérium, tritium) en un noyau plus lourd avec libération d'énergie."
       },
       {
         "type": "qcm",

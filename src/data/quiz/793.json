@@ -33,8 +33,8 @@
         "question": "Un octet (byte) est compose de 8 bits."
       },
       {
-        "type": "open",
-        "question": "Comment s'appelle le fichier de donnees structure en lignes et colonnes souvent utilise pour stocker et analyser des informations ?"
+        "type": "vrai-faux",
+        "question": "Le format CSV (Comma-Separated Values) est un fichier texte ou les donnees sont separees par des virgules, lisible par Excel, Python (pandas) ou LibreOffice."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Une base de donnees SQL permet de stocker et d'interroger des donnees structurees grace a des requetes."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on la representation graphique qui visualise les donnees sous forme de points relies par des lignes pour montrer une evolution ?"
+        "type": "vrai-faux",
+        "question": "Graphique en courbes."
       },
       {
         "type": "qcm",

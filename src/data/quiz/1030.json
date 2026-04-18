@@ -33,8 +33,8 @@
         "question": "∫ cos(x) dx = sin(x) + C."
       },
       {
-        "type": "open",
-        "question": "Calcule ∫₀^π sin(x) dx."
+        "type": "vrai-faux",
+        "question": "[−cos(x)]₀^π = −cos(π) − (−cos(0)) = −(−1) − (−1) = 1 + 1 = 2."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "∫ xⁿ dx = xⁿ⁺¹/(n+1) + C pour n ≠ −1."
       },
       {
-        "type": "open",
-        "question": "Calcule ∫₀¹ eˣ dx."
+        "type": "vrai-faux",
+        "question": "[eˣ]₀¹ = e¹ − e⁰ = e − 1."
       },
       {
         "type": "qcm",

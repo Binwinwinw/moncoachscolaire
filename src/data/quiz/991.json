@@ -33,8 +33,8 @@
         "question": "Le point (3, 4) appartient au cercle de centre O et de rayon 5."
       },
       {
-        "type": "open",
-        "question": "Quelle est l'équation du cercle de centre A(2, −1) et de rayon 3 ?"
+        "type": "vrai-faux",
+        "question": "(x − 2)² + (y + 1)² = 9."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "L'ensemble des points équidistants de deux points fixes A et B est la médiatrice du segment [AB]."
       },
       {
-        "type": "open",
-        "question": "Détermine le centre et le rayon du cercle d'équation x² + y² − 4x + 2y − 4 = 0."
+        "type": "vrai-faux",
+        "question": "Centre (2, −1), rayon 3."
       },
       {
         "type": "qcm",

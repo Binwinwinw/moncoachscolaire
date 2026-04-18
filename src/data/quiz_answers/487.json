@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Les Contemplations",
-        "correct": 0,
         "correction": "Les Contemplations (1856) comprennent le livre IV ('Pauca meae') dédié à Léopoldine."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Quasimodo",
-        "correction": "Quasimodo, bossu et sourd, aime Esmeralda d'un amour pur ; Hugo illustre le contraste beauté/laideur."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Quasimodo, bossu et sourd, aime Esmeralda d'un amour pur ; Hugo illustre le contraste beauté/laideur."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La misère sociale et la rédemption humaine",
-        "correct": 1,
         "correction": "Jean Valjean, ex-forçat, cherche sa rédemption dans une société injuste."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "engagée",
-        "correction": "Hugo se bat toute sa vie pour les pauvres, l'abolition de la peine de mort et les droits des enfants."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Hugo se bat toute sa vie pour les pauvres, l'abolition de la peine de mort et les droits des enfants."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Hernani",
-        "correct": 2,
         "correction": "La première d'Hernani (1830) oppose classiques et romantiques dans une querelle célèbre."
       },
       {

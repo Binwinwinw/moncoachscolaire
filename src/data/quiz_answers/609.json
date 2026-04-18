@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "2 cellules filles génétiquement identiques à la cellule mère (2n chromosomes)",
-        "correct": 1,
         "correction": "La mitose est une division équationnelle : les 2 cellules filles sont diploïdes (2n) et génétiquement identiques à la cellule mère."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "télophase",
-        "correction": "PMAT : Prophase (condensation chromosomes), Métaphase (alignement), Anaphase (séparation chromatides), Télophase (décondensation + cytocinèse)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. PMAT : Prophase (condensation chromosomes), Métaphase (alignement), Anaphase (séparation chromatides), Télophase (décondensation + cytocinèse)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Alignés sur la plaque équatoriale de la cellule",
-        "correct": 1,
         "correction": "La métaphase est caractérisée par l'alignement des chromosomes (chacun composé de 2 chromatides soeurs) au centre de la cellule."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "division",
-        "correction": "Le raccourcissement des télomères limite le nombre de divisions cellulaires ; la télomérase (enzyme) peut les rallonger (cellules souches, cancéreuses)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le raccourcissement des télomères limite le nombre de divisions cellulaires ; la télomérase (enzyme) peut les rallonger (cellules souches, cancéreuses)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La division du cytoplasme qui sépare les deux cellules filles",
-        "correct": 1,
         "correction": "La cytocinèse suit la mitose : un sillon de division (animaux) ou une plaque cellulaire (végétaux) sépare les deux cellules filles."
       },
       {

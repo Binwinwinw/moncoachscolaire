@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "HyperText Transfer Protocol",
-        "correct": 1,
         "correction": "HTTP est le protocole de communication entre clients (navigateurs) et serveurs web, basé sur un modèle requête-réponse."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "200 OK (succès), 201 Created, 301 Moved Permanently (redirection), 400 Bad Request (requête invalide), 401 Unauthorized (non authentifié), 403 Forbidden (accès refusé), 404 Not Found (ressource introuvable), 500 Internal Server Error.",
-        "correction": "Les codes sont groupés : 1xx informatif, 2xx succès, 3xx redirection, 4xx erreur client, 5xx erreur serveur."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les codes sont groupés : 1xx informatif, 2xx succès, 3xx redirection, 4xx erreur client, 5xx erreur serveur."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Demander une ressource au serveur",
-        "correct": 1,
         "correction": "GET est idempotent et lisible (pas de modification de l'état serveur). Les paramètres sont dans l'URL (query string)."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Les cookies sont de petits fichiers texte stockés par le navigateur pour maintenir un état entre les requêtes HTTP (qui est sans état). Ils servent à l'authentification (session), aux préférences utilisateur, au suivi analytique.",
-        "correction": "Un cookie est envoyé par le serveur via l'en-tête Set-Cookie et renvoyé automatiquement par le navigateur dans les requêtes suivantes."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Un cookie est envoyé par le serveur via l'en-tête Set-Cookie et renvoyé automatiquement par le navigateur dans les requêtes suivantes."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "443",
-        "correct": 1,
         "correction": "HTTP utilise le port 80 par défaut. HTTPS utilise le port 443. SSH utilise le port 22. Ces ports sont définis par l'IANA."
       },
       {

@@ -33,8 +33,8 @@
         "question": "Une adresse IP identifie de maniere unique un equipement sur un reseau."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on le protocole qui permet de naviguer sur des pages web en echangeant des donnees entre navigateur et serveur ?"
+        "type": "vrai-faux",
+        "question": "HTTP (HyperText Transfer Protocol) permet l'echange de pages web ; HTTPS est sa version chiffree (TLS/SSL) qui securise les communications."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Un pare-feu (firewall) filtre le trafic reseau pour bloquer les connexions non autorisees."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on le protocole qui traduit les adresses IP en adresses physiques (MAC) sur un reseau local ?"
+        "type": "vrai-faux",
+        "question": "ARP (Address Resolution Protocol) resout les adresses IP en adresses MAC pour l'acheminement des donnees au niveau de la couche liaison du modele OSI."
       },
       {
         "type": "qcm",

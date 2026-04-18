@@ -1,69 +1,73 @@
 {
-  "id": 1106,
-  "title": "Bilan 1ère Mathématiques — synthèse et méthodologie",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "created_at": "2026-03-13T18:54:00.453978Z",
-  "questions": [
-    {
-      "id": "1106_1",
-      "type": "qcm",
-      "question": "[Bilan] Parmi les propositions suivantes concernant Bilan 1ère Mathématiques — synthèse et méthodologie, laquelle est correcte ?",
-      "options": [
-        "Proposition A",
-        "Proposition B",
-        "Proposition C",
-        "Proposition D"
-      ]
-    },
-    {
-      "id": "1106_2",
-      "type": "vrai-faux",
-      "question": "[Bilan] En 1ère, la notion de Bilan 1ère Mathématiques — synthèse et méthodologie est au programme de mathématiques."
-    },
-    {
-      "id": "1106_3",
-      "type": "texte",
-      "question": "[Bilan] Explique en une phrase le principe fondamental de Bilan 1ère Mathématiques — synthèse et méthodologie."
-    },
-    {
-      "id": "1106_4",
-      "type": "qcm",
-      "question": "[Bilan] Quel résultat est associé à Bilan 1ère Mathématiques — synthèse et méthodologie en 1ère mathématiques ?",
-      "options": [
-        "Résultat A",
-        "Résultat B",
-        "Résultat C",
-        "Résultat D"
-      ]
-    },
-    {
-      "id": "1106_5",
-      "type": "vrai-faux",
-      "question": "[Bilan] L'application de Bilan 1ère Mathématiques — synthèse et méthodologie peut simplifier la résolution de certains problèmes de 1ère."
-    },
-    {
-      "id": "1106_6",
-      "type": "texte",
-      "question": "[Bilan] Donne un exemple d'application de Bilan 1ère Mathématiques — synthèse et méthodologie dans un exercice de 1ère."
-    },
-    {
-      "id": "1106_7",
-      "type": "qcm",
-      "question": "[Bilan] Quelle formule ou définition caractérise Bilan 1ère Mathématiques — synthèse et méthodologie ?",
-      "options": [
-        "Formule A",
-        "Formule B",
-        "Formule C",
-        "Formule D"
-      ]
-    },
-    {
-      "id": "1106_8",
-      "type": "vrai-faux",
-      "question": "[Bilan] La maîtrise de Bilan 1ère Mathématiques — synthèse et méthodologie est indispensable pour réussir le bac de 1ère."
-    }
-  ],
+  "contents": {
+    "title": "Bilan 1ère Mathématiques — synthèse et méthodologie",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Mathématiques",
+    "description": "",
+    "status": "published"
+  },
+  "quiz": {
+    "title": "Bilan 1ère Mathématiques — synthèse et méthodologie",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "[Bilan] Parmi les propositions suivantes concernant Bilan 1ère Mathématiques — synthèse et méthodologie, laquelle est correcte ?",
+        "choices": [
+          "Proposition A",
+          "Proposition B",
+          "Proposition C",
+          "Proposition D"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Bilan] En 1ère, la notion de Bilan 1ère Mathématiques — synthèse et méthodologie est au programme de mathématiques."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le principe fondamental de Bilan 1ère Mathématiques — synthèse et méthodologie repose sur une propriété clé du programme de 1ère."
+      },
+      {
+        "type": "qcm",
+        "question": "[Bilan] Quel résultat est associé à Bilan 1ère Mathématiques — synthèse et méthodologie en 1ère mathématiques ?",
+        "choices": [
+          "Résultat A",
+          "Résultat B",
+          "Résultat C",
+          "Résultat D"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Bilan] L'application de Bilan 1ère Mathématiques — synthèse et méthodologie peut simplifier la résolution de certains problèmes de 1ère."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un exemple typique de Bilan 1ère Mathématiques — synthèse et méthodologie en 1ère est un problème mobilisant cette notion directement."
+      },
+      {
+        "type": "qcm",
+        "question": "[Bilan] Quelle formule ou définition caractérise Bilan 1ère Mathématiques — synthèse et méthodologie ?",
+        "choices": [
+          "Formule A",
+          "Formule B",
+          "Formule C",
+          "Formule D"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Bilan] La maîtrise de Bilan 1ère Mathématiques — synthèse et méthodologie est indispensable pour réussir le bac de 1ère."
+      }
+    ]
+  },
   "exercisenotion": [
     {
       "notion": "Fondamentaux de Indéfini",
@@ -77,5 +81,6 @@
       "notion": "Savoir-faire indéfini",
       "description": "Notion du programme Indéfini"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

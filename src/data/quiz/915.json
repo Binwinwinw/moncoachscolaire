@@ -33,8 +33,8 @@
         "question": "Neil Armstrong fut le premier humain à marcher sur la Lune en 1969."
       },
       {
-        "type": "open",
-        "question": "Pourquoi la conquête spatiale des années 1957-1969 est-elle indissociable du contexte de Guerre froide ?"
+        "type": "vrai-faux",
+        "question": "La course à l'espace était une compétition idéologique et technologique entre les États-Unis et l'URSS."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Le traité de l'espace de 1967 interdit la mise en orbite d'armes nucléaires."
       },
       {
-        "type": "open",
-        "question": "Quelles sont les principales agences spatiales mondiales et leurs pays d'appartenance ?"
+        "type": "vrai-faux",
+        "question": "NASA (États-Unis), Roscosmos (Russie), ESA (Agence Spatiale Européenne, dont la France avec le CNES), CNSA (Chine), ISRO (Inde), JAXA (Japon)."
       },
       {
         "type": "qcm",

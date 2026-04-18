@@ -33,8 +33,8 @@
         "question": "L'hémophilie A est une maladie récessive liée au chromosome X qui touche principalement les garçons."
       },
       {
-        "type": "open",
-        "question": "La mucoviscidose est caused par une mutation du gène _____ (CFTR) qui code une protéine canal chlorure dans les épithéliums."
+        "type": "vrai-faux",
+        "question": "La délétion ΔF508 (70 % des allèles CF en Europe) supprime un acide aminé du CFTR → protéine non fonctionnelle → mucus épais dans les poumons, pancréas, intestin."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Le conseil génétique permet d'évaluer le risque de transmission d'une maladie génétique dans une famille et d'envisager un diagnostic prénatal."
       },
       {
-        "type": "open",
-        "question": "Le dépistage néonatal systématique en France teste dès la naissance 6 maladies dont la phénylcétonurie, la _____ congénitale et la mucoviscidose (test de Guthrie)."
+        "type": "vrai-faux",
+        "question": "Le test de Guthrie (quelques gouttes de sang sur buvard à J3) dépiste phénylcétonurie, hypothyroïdie, mucoviscidose, drépanocytose, hyperplasie surrénalienne, MCADD."
       },
       {
         "type": "qcm",

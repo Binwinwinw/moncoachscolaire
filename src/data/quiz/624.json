@@ -33,8 +33,8 @@
         "question": "Les cellules mémoires (lymphocytes B et T mémoires) persistent des années après une infection ou une vaccination."
       },
       {
-        "type": "open",
-        "question": "La réponse secondaire (après une 2e exposition à l'antigène ou un rappel vaccinal) est plus _____ et plus intense que la réponse primaire."
+        "type": "vrai-faux",
+        "question": "Réponse secondaire (2-3 jours vs 10-14 jours) : les cellules mémoires permettent une réactivation rapide avec production d'anticorps en grande quantité."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Les vaccins ARNm (comme ceux contre la Covid-19) introduisent directement le virus dans l'organisme."
       },
       {
-        "type": "open",
-        "question": "Edward Jenner (1796) est le pionnier de la vaccination : il observe que les fermières contaminées par la vaccine (variole de la vache) sont protégées contre la _____ humaine."
+        "type": "vrai-faux",
+        "question": "Jenner inocule la vaccine (cowpox) à un garçon qui devient résistant à la variole ; c'est la première vaccination de l'histoire."
       },
       {
         "type": "qcm",

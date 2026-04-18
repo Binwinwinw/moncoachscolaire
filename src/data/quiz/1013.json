@@ -33,8 +33,8 @@
         "question": "Toute fonction dérivable est continue."
       },
       {
-        "type": "open",
-        "question": "La fonction f définie par f(x) = (x²−4)/(x−2) pour x≠2 et f(2) = k est-elle continue en 2 ? Quelle valeur k doit prendre ?"
+        "type": "vrai-faux",
+        "question": "(x²−4)/(x−2) = x+2 → 4 quand x→2."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La somme et le produit de deux fonctions continues sur un intervalle sont continus sur cet intervalle."
       },
       {
-        "type": "open",
-        "question": "Explique pourquoi la fonction partie entière ⌊x⌋ n'est pas continue en tout entier n."
+        "type": "vrai-faux",
+        "question": "En tout entier n : lim par la gauche = n−1 ≠ lim par la droite = n."
       },
       {
         "type": "qcm",

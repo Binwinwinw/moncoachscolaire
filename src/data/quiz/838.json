@@ -33,8 +33,8 @@
         "question": "La redistribution verticale réduit les inégalités entre riches et pauvres."
       },
       {
-        "type": "open",
-        "question": "Distinguez redistribution horizontale et redistribution verticale."
+        "type": "vrai-faux",
+        "question": "Redistribution horizontale : transferts entre personnes ayant le même niveau de revenu selon leur situation (ex : allocations familiales, assurance maladie)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La TVA est un impôt progressif."
       },
       {
-        "type": "open",
-        "question": "Quelles sont les principales branches de la Sécurité sociale en France ?"
+        "type": "vrai-faux",
+        "question": "La Sécurité sociale est financée par les cotisations sociales et la CSG/CRDS."
       },
       {
         "type": "qcm",

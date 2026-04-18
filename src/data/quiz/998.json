@@ -33,8 +33,8 @@
         "question": "Une methode bien justifiee vaut mieux qu'un resultat non explique."
       },
       {
-        "type": "open",
-        "question": "Explique en 2-3 phrases comment tu traiterais un exercice sur le theme: cubes, prismes, cylindres et sections planes."
+        "type": "vrai-faux",
+        "question": "Je commence par reformuler le probleme, puis je choisis les outils adaptes et je verifie le resultat dans le contexte de l'enonce."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Un schema ou un croquis peut aider a structurer le raisonnement."
       },
       {
-        "type": "open",
-        "question": "Cite une erreur frequente dans ce type d'exercice et comment l'eviter."
+        "type": "vrai-faux",
+        "question": "Erreur frequente: appliquer une formule hors conditions."
       },
       {
         "type": "qcm",

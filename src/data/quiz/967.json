@@ -33,8 +33,8 @@
         "question": "|a − b| représente la distance entre a et b sur la droite numérique."
       },
       {
-        "type": "open",
-        "question": "Résous |x − 3| = 5."
+        "type": "vrai-faux",
+        "question": "|x−3| = 5 donne x−3 = 5 (x=8) ou x−3 = −5 (x=−2)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "|a| = 0 implique a = 0."
       },
       {
-        "type": "open",
-        "question": "Décris géométriquement l'ensemble des réels x vérifiant |x − 1| ≤ 4."
+        "type": "vrai-faux",
+        "question": "L'intervalle [−3 ; 5] (tous les x à distance ≤ 4 du point 1)."
       },
       {
         "type": "qcm",

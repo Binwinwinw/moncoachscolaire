@@ -33,8 +33,8 @@
         "question": "Le VIH détruit principalement les lymphocytes T CD4+, affaiblissant l'immunité."
       },
       {
-        "type": "open",
-        "question": "Quel est le nom complet de la maladie causée par le VIH lorsque le système immunitaire est gravement affaibli ?"
+        "type": "vrai-faux",
+        "question": "Le SIDA (Syndrome d'Immunodéficience Acquise) est le stade avancé de l'infection par le VIH, caractérisé par une immunodépression sévère."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Il existe un vaccin efficace contre le VIH approuvé à l'échelle mondiale."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on le traitement médicamenteux qui maintient la charge virale du VIH très basse ?"
+        "type": "vrai-faux",
+        "question": "Traitement antirétroviral."
       },
       {
         "type": "qcm",

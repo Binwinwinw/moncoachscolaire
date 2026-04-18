@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'expression des sentiments personnels du poète",
-        "correct": 1,
         "correction": "Le lyrisme vient de la lyre : il exprime les émotions intimes du sujet poétique."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "mélancolie",
-        "correction": "Le spleen baudelairien est une mélancolie existentielle, opposée à l'idéal."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le spleen baudelairien est une mélancolie existentielle, opposée à l'idéal."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Personnification de la nature / pathetic fallacy",
-        "correct": 2,
         "correction": "Le poète lyrique projette ses émotions sur la nature (paysage état d'âme)."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Méditations poétiques",
-        "correction": "Les Méditations poétiques de Lamartine (1820) marquent le début de la poésie romantique française."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les Méditations poétiques de Lamartine (1820) marquent le début de la poésie romantique française."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Lutter contre l'oubli du temps et d'un amour disparu",
-        "correct": 1,
         "correction": "Le lac est invoqué comme témoin de l'amour passé ; le poème médite sur la fuite du temps."
       },
       {

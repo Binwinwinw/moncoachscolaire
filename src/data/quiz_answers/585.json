@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le Président de la République",
-        "correct": 1,
         "correction": "Après adoption par le Parlement et contrôle éventuel, le Président promulgue la loi."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Montesquieu",
-        "correction": "Montesquieu formalise la séparation exécutif/législatif/judiciaire."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Montesquieu formalise la séparation exécutif/législatif/judiciaire."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La Constitution de 1958",
-        "correct": 2,
         "correction": "La Constitution du 4 octobre 1958 fonde la Ve République."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Premier ministre",
-        "correction": "Le Premier ministre dirige l'action du gouvernement."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le Premier ministre dirige l'action du gouvernement."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "L'Assemblée nationale",
-        "correct": 1,
         "correction": "La motion de censure relève de l'Assemblée nationale."
       },
       {

@@ -1,69 +1,73 @@
 {
-  "id": 1089,
-  "title": "Trigonométrie — cercle et angles orientés",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "created_at": "2026-03-13T18:54:00.443244Z",
-  "questions": [
-    {
-      "id": "1089_1",
-      "type": "qcm",
-      "question": "[Trigonométrie] Parmi les propositions suivantes concernant Trigonométrie — cercle et angles orientés, laquelle est correcte ?",
-      "options": [
-        "Proposition A",
-        "Proposition B",
-        "Proposition C",
-        "Proposition D"
-      ]
-    },
-    {
-      "id": "1089_2",
-      "type": "vrai-faux",
-      "question": "[Trigonométrie] En 1ère, la notion de Trigonométrie — cercle et angles orientés est au programme de mathématiques."
-    },
-    {
-      "id": "1089_3",
-      "type": "texte",
-      "question": "[Trigonométrie] Explique en une phrase le principe fondamental de Trigonométrie — cercle et angles orientés."
-    },
-    {
-      "id": "1089_4",
-      "type": "qcm",
-      "question": "[Trigonométrie] Quel résultat est associé à Trigonométrie — cercle et angles orientés en 1ère mathématiques ?",
-      "options": [
-        "Résultat A",
-        "Résultat B",
-        "Résultat C",
-        "Résultat D"
-      ]
-    },
-    {
-      "id": "1089_5",
-      "type": "vrai-faux",
-      "question": "[Trigonométrie] L'application de Trigonométrie — cercle et angles orientés peut simplifier la résolution de certains problèmes de 1ère."
-    },
-    {
-      "id": "1089_6",
-      "type": "texte",
-      "question": "[Trigonométrie] Donne un exemple d'application de Trigonométrie — cercle et angles orientés dans un exercice de 1ère."
-    },
-    {
-      "id": "1089_7",
-      "type": "qcm",
-      "question": "[Trigonométrie] Quelle formule ou définition caractérise Trigonométrie — cercle et angles orientés ?",
-      "options": [
-        "Formule A",
-        "Formule B",
-        "Formule C",
-        "Formule D"
-      ]
-    },
-    {
-      "id": "1089_8",
-      "type": "vrai-faux",
-      "question": "[Trigonométrie] La maîtrise de Trigonométrie — cercle et angles orientés est indispensable pour réussir le bac de 1ère."
-    }
-  ],
+  "contents": {
+    "title": "Trigonométrie — cercle et angles orientés",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Mathématiques",
+    "description": "",
+    "status": "published"
+  },
+  "quiz": {
+    "title": "Trigonométrie — cercle et angles orientés",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "[Trigonométrie] Parmi les propositions suivantes concernant Trigonométrie — cercle et angles orientés, laquelle est correcte ?",
+        "choices": [
+          "Proposition A",
+          "Proposition B",
+          "Proposition C",
+          "Proposition D"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Trigonométrie] En 1ère, la notion de Trigonométrie — cercle et angles orientés est au programme de mathématiques."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le principe fondamental de Trigonométrie — cercle et angles orientés repose sur une propriété clé du programme de 1ère."
+      },
+      {
+        "type": "qcm",
+        "question": "[Trigonométrie] Quel résultat est associé à Trigonométrie — cercle et angles orientés en 1ère mathématiques ?",
+        "choices": [
+          "Résultat A",
+          "Résultat B",
+          "Résultat C",
+          "Résultat D"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Trigonométrie] L'application de Trigonométrie — cercle et angles orientés peut simplifier la résolution de certains problèmes de 1ère."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un exemple typique de Trigonométrie — cercle et angles orientés en 1ère est un problème mobilisant cette notion directement."
+      },
+      {
+        "type": "qcm",
+        "question": "[Trigonométrie] Quelle formule ou définition caractérise Trigonométrie — cercle et angles orientés ?",
+        "choices": [
+          "Formule A",
+          "Formule B",
+          "Formule C",
+          "Formule D"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Trigonométrie] La maîtrise de Trigonométrie — cercle et angles orientés est indispensable pour réussir le bac de 1ère."
+      }
+    ]
+  },
   "exercisenotion": [
     {
       "notion": "Fondamentaux de Indéfini",
@@ -77,5 +81,6 @@
       "notion": "Savoir-faire indéfini",
       "description": "Notion du programme Indéfini"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

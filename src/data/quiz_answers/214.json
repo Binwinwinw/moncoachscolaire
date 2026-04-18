@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "élèves",
-        "correct": 2,
         "correction": "Le verbe s'accorde avec le sujet du verbe. Ici, le sujet est « élèves », au pluriel."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "importantes",
-        "correction": "L'adjectif qualificatif s'accorde en genre et en nombre avec le nom qu'il qualifie. « Décisions » est féminin pluriel."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'adjectif qualificatif s'accorde en genre et en nombre avec le nom qu'il qualifie. « Décisions » est féminin pluriel."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Les fleurs que j'ai cueillies sont fanées.",
-        "correct": 1,
         "correction": "Avec « avoir », le participe passé s'accorde avec le COD si celui-ci est placé avant. « Que » reprend « fleurs », féminin pluriel."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "rendu compte",
-        "correction": "Dans « se rendre compte de », le pronom « se » est COI. Le participe passé « rendu » reste donc invariable."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Dans « se rendre compte de », le pronom « se » est COI. Le participe passé « rendu » reste donc invariable."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Elles sont parties tôt.",
-        "correct": 1,
         "correction": "Avec l'auxiliaire « être », le participe passé s'accorde en genre et en nombre avec le sujet. « Elles » impose le féminin pluriel."
       },
       {

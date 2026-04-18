@@ -33,8 +33,8 @@
         "question": "Le capital circulant correspond aux matières premières utilisées dans la production."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce que la substitution capital-travail ?"
+        "type": "vrai-faux",
+        "question": "La substitution capital-travail consiste à remplacer des travailleurs par des machines (ou l'inverse)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Une hausse de la productivité permet de produire plus avec les mêmes facteurs."
       },
       {
-        "type": "open",
-        "question": "Expliquez la loi des rendements décroissants."
+        "type": "vrai-faux",
+        "question": "À court terme, si on augmente un seul facteur (ex : travail) en maintenant l'autre fixe (capital), la production augmente de moins en moins à chaque unité supplémentaire ajoutée."
       },
       {
         "type": "qcm",

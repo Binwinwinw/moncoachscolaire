@@ -25,18 +25,15 @@
           "La condensation",
           "La précipitation",
           "L'infiltration"
-        ],
-        "id": 1
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "La condensation se produit quand l'eau vapeur devient liquide.",
-        "id": 2
+        "question": "La condensation se produit quand l'eau vapeur devient liquide."
       },
       {
-        "type": "texte",
-        "question": "Décris en anglais l'étape où l'eau retourne au sol sous forme de pluie.",
-        "id": 3
+        "type": "vrai-faux",
+        "question": "Réponds en décrivant la formation de la pluie lorsque la vapeur d'eau se refroidit."
       },
       {
         "type": "qcm",
@@ -46,13 +43,11 @@
           "Dans le vent",
           "Dans le Soleil",
           "Dans les nuages"
-        ],
-        "id": 4
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "L'eau de la mer peut aussi s'évaporer pour rejoindre les nuages.",
-        "id": 5
+        "question": "L'eau de la mer peut aussi s'évaporer pour rejoindre les nuages."
       },
       {
         "type": "qcm",
@@ -62,13 +57,11 @@
           "Elles transforment l'eau en roche",
           "Elles absorbent l'air",
           "Elles produisent du feu"
-        ],
-        "id": 6
+        ]
       },
       {
-        "type": "texte",
-        "question": "Explique pourquoi l'eau est essentielle pour les organismes vivants.",
-        "id": 7
+        "type": "vrai-faux",
+        "question": "Réponds en expliquant que l'eau est nécessaire pour les cellules et les réactions de la vie."
       },
       {
         "type": "qcm",
@@ -78,10 +71,10 @@
           "L'évaporation",
           "La condensation",
           "La précipitation"
-        ],
-        "id": 8
+        ]
       }
-    ]
+    ],
+    "type": "quiz"
   },
   "exercisenotion": [
     {

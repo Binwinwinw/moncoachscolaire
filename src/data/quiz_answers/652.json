@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Tous Aa",
-        "correct": 2,
         "correction": "Tous les individus F1 reçoivent un allèle A de chaque parent : ils sont tous hétérozygotes Aa."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "1/4",
-        "correction": "La grille de Punnett donne AA (1/4), Aa (2/4), aa (1/4)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La grille de Punnett donne AA (1/4), Aa (2/4), aa (1/4)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Caryotype",
-        "correct": 1,
         "correction": "Le caryotype est la représentation ordonnée des chromosomes d'une cellule."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "hérédité liée à l'X",
-        "correction": "Les gènes portés par le chromosome X sont transmis selon un mode lié au sexe."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les gènes portés par le chromosome X sont transmis selon un mode lié au sexe."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Les liens de parenté et la transmission des caractères",
-        "correct": 1,
         "correction": "L'arbre généalogique représente la transmission des caractères héréditaires dans une famille."
       },
       {

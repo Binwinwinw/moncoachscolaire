@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La variation relative de la demande suite à une variation relative du prix",
-        "correct": 1,
         "correction": "Élasticité-prix demande = (ΔQ/Q) / (ΔP/P). Elle est généralement négative."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "L'essence, les médicaments indispensables, le tabac… La demande varie peu car ce sont des biens de première nécessité ou sans substitut proche.",
-        "correction": "Pour les biens inélastiques (|e| < 1), une variation de prix modifie peu les quantités demandées."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Pour les biens inélastiques (|e| < 1), une variation de prix modifie peu les quantités demandées."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Substituts",
-        "correct": 1,
         "correction": "Une élasticité croisée positive indique que la hausse du prix d'un bien augmente la demande de l'autre (substitution)."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Une entreprise augmentera son prix si la demande est inélastique (les recettes augmentent) et baissera son prix si la demande est élastique (les recettes augmentent aussi via le volume).",
-        "correction": "L'élasticité guide la stratégie tarifaire et influence le chiffre d'affaires."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'élasticité guide la stratégie tarifaire et influence le chiffre d'affaires."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Une baisse de la demande de 3 %",
-        "correct": 1,
         "correction": "ΔQ/Q = élasticité × ΔP/P = (-0,3) × 10 % = -3 %."
       },
       {

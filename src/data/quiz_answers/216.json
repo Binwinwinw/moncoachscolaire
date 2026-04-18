@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "contient au moins deux verbes conjugués",
-        "correct": 0,
         "correction": "La phrase complexe associe plusieurs propositions. La présence d'au moins deux verbes conjugués est un indice fréquent."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "subordonnée relative",
-        "correction": "La subordonnée relative complète un nom antécédent. Elle apporte une précision sur ce nom."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La subordonnée relative complète un nom antécédent. Elle apporte une précision sur ce nom."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La cause",
-        "correct": 1,
         "correction": "« Parce que » introduit la raison d'un fait. C'est un connecteur de causalité."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "donc",
-        "correction": "Un connecteur de conséquence marque le résultat d'une cause ou d'un raisonnement. « Donc » est l'un des plus courants."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Un connecteur de conséquence marque le résultat d'une cause ou d'un raisonnement. « Donc » est l'un des plus courants."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Subordonnée relative",
-        "correct": 1,
         "correction": "« Qui révise » complète l'antécédent « l'élève » et est introduite par le pronom relatif « qui ». C'est une relative."
       },
       {

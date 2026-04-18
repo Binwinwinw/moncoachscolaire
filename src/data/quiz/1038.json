@@ -33,8 +33,8 @@
         "question": "Si la suite (uₙ) est récurrente et converge vers L, alors L vérifie L = f(L)."
       },
       {
-        "type": "open",
-        "question": "La suite uₙ₊₁ = uₙ/2 + 1, u₀ = 0. Trouve la limite éventuelle L et vérifie."
+        "type": "vrai-faux",
+        "question": "L = L/2 + 1 → L/2 = 1 → L = 2."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La représentation graphique de la suite récurrente utilise les droites y = x et y = f(x) (toile d'araignée)."
       },
       {
-        "type": "open",
-        "question": "Montre par récurrence que si uₙ ≤ 2, alors uₙ₊₁ = uₙ/2 + 1 ≤ 2."
+        "type": "vrai-faux",
+        "question": "Uₙ ≤ 2 → uₙ₊₁ = uₙ/2 + 1 ≤ 2/2 + 1 = 2."
       },
       {
         "type": "qcm",

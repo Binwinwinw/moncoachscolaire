@@ -33,8 +33,8 @@
         "question": "Un courant de 10 mA traversant le corps humain peut être mortel."
       },
       {
-        "type": "open",
-        "question": "Quel dispositif de protection détecte une fuite de courant et coupe l'alimentation en 30 ms ?"
+        "type": "vrai-faux",
+        "question": "Disjoncteur différentiel."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Il est dangereux d'utiliser un appareil électrique à proximité d'une baignoire pleine."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on la norme française qui définit les règles d'installation électrique dans les bâtiments ?"
+        "type": "vrai-faux",
+        "question": "La norme NFC 15-100 définit les règles d'installation électrique basse tension en France pour la sécurité des personnes et des biens."
       },
       {
         "type": "qcm",

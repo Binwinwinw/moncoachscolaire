@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "try/except",
-        "correct": 1,
         "correction": "Python utilise try/except (pas try/catch comme Java/JavaScript). try: code risqué ; except TypeErreur: gestion de l'erreur."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "ValueError (mauvaise valeur, ex: int('abc')), TypeError (mauvais type, ex: 1+'a'), IndexError (indice hors plage), KeyError (clé de dict absente), ZeroDivisionError (division par zéro), FileNotFoundError, NameError (variable non définie), AttributeError.",
-        "correction": "Toutes héritent de la classe Exception. BaseException est la classe racine."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Toutes héritent de la classe Exception. BaseException est la classe racine."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Lever (déclencher) une exception",
-        "correct": 1,
         "correction": "raise ValueError('message') lève une exception. On peut relever une exception capturée avec raise (sans argument) dans un bloc except."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "with open('fichier.txt', 'r', encoding='utf-8') as f:\n    contenu = f.read()\nLe gestionnaire de contexte 'with' garantit que le fichier est fermé automatiquement, même si une exception survient. C'est équivalent à try/finally avec f.close().",
-        "correction": "Les modes d'ouverture : 'r' (lecture), 'w' (écriture, écrase), 'a' (append), 'x' (création exclusive), 'b' pour binaire."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les modes d'ouverture : 'r' (lecture), 'w' (écriture, écrase), 'a' (append), 'x' (création exclusive), 'b' pour binaire."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "L'exception se propage vers le code appelant, jusqu'à arrêter le programme",
-        "correct": 2,
         "correction": "Une exception non gérée remonte la pile d'appels (stack trace) jusqu'à atteindre le niveau supérieur, où elle arrête le programme avec un message d'erreur."
       },
       {

@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Cascading Style Sheets",
-        "correct": 1,
         "correction": "CSS est le langage de mise en forme des pages HTML. 'Cascading' fait référence à la cascade de priorités entre les règles."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Chaque élément HTML est une boîte composée de : contenu (content), rembourrage intérieur (padding), bordure (border), marge extérieure (margin). La taille totale visible = contenu + padding + border.",
-        "correction": "En CSS3, box-sizing: border-box inclut padding et border dans la largeur déclarée, simplifiant les calculs."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. En CSS3, box-sizing: border-box inclut padding et border dans la largeur déclarée, simplifiant les calculs."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "color",
-        "correct": 2,
         "correction": "color définit la couleur du texte. background-color définit la couleur d'arrière-plan. Il n'existe pas de propriété 'text-color' en CSS."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Le responsive design adapte la mise en page à la taille de l'écran (desktop, tablette, mobile). CSS utilise les media queries (@media) pour appliquer des règles selon la largeur d'écran. Ex : @media (max-width: 768px) { /* styles mobile */ }",
-        "correction": "Les unités relatives (%, vw, vh, em, rem) et les grilles flexibles (flexbox, grid) facilitent le responsive design."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les unités relatives (%, vw, vh, em, rem) et les grilles flexibles (flexbox, grid) facilitent le responsive design."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Par rapport à son ancêtre positionné le plus proche",
-        "correct": 1,
         "correction": "position: absolute retire l'élément du flux et le positionne par rapport à son ancêtre ayant position: relative, absolute ou fixed."
       },
       {

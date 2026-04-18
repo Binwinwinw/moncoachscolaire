@@ -33,8 +33,8 @@
         "question": "Une innovation de procédé consiste à introduire un nouveau produit sur le marché."
       },
       {
-        "type": "open",
-        "question": "Distingue invention et innovation au sens schumpétérien."
+        "type": "vrai-faux",
+        "question": "Cette affirmation reformule l'idée essentielle à retenir : Distingue invention et innovation au sens schumpétérien."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Les brevets permettent à l'innovateur de bénéficier d'un monopole temporaire pour rentabiliser son investissement."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce qu'une innovation de rupture (disruptive) ? Donne un exemple récent."
+        "type": "vrai-faux",
+        "question": "Cette affirmation reformule l'idée essentielle à retenir : Qu'est-ce qu'une innovation de rupture (disruptive) ? Donne un exemple récent."
       },
       {
         "type": "qcm",
@@ -83,5 +83,6 @@
       "notion": "Intégration économique mondiale",
       "description": "Notion fondamentale de SES"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

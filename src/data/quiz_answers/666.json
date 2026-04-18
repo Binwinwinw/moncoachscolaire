@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'ensemble des micro-organismes vivant dans l'intestin",
-        "correct": 1,
         "correction": "Le microbiote intestinal (ou flore intestinale) est composé de milliards de bactéries, virus et champignons bénéfiques pour l'hôte."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "flore commensale",
-        "correction": "La flore commensale (ou microbiote) vit en harmonie avec l'hôte et joue des rôles essentiels (digestion, immunité, protection)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La flore commensale (ou microbiote) vit en harmonie avec l'hôte et joue des rôles essentiels (digestion, immunité, protection)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Il stimule et régule le développement du système immunitaire",
-        "correct": 1,
         "correction": "Le microbiote intestinal interagit avec les cellules immunitaires de la paroi intestinale et contribue à la maturation du système immunitaire."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "effet barrière",
-        "correction": "L'effet barrière du microbiote empêche les agents pathogènes de coloniser les muqueuses en occupant les niches écologiques disponibles."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'effet barrière du microbiote empêche les agents pathogènes de coloniser les muqueuses en occupant les niches écologiques disponibles."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Côlon",
-        "correct": 2,
         "correction": "Le côlon (gros intestin) abrite la plus grande concentration de micro-organismes du corps humain."
       },
       {

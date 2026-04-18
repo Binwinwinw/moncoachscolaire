@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "worst",
-        "correct": 2,
         "correction": "The superlative form of \"bad\" is \"worst\"."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Nous mangeons le petit déjeuner",
-        "correction": "The correct translation of \"We are eating breakfast\" in French is \"Nous mangeons le petit déjeuner\"."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. The correct translation of \"We are eating breakfast\" in French is \"Nous mangeons le petit déjeuner\"."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "joyful",
-        "correct": 2,
         "correction": "\"Joyful\" is a synonym for \"happy\"."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "saw",
-        "correction": "The past tense of \"see\" is \"saw\"."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. The past tense of \"see\" is \"saw\"."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "He doesn't like sports.",
-        "correct": 1,
         "correction": "The correct sentence is \"He doesn't like sports.\" because \"he\" is third person singular and requires \"does not\" for negation."
       },
       {

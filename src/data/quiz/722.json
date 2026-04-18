@@ -33,8 +33,8 @@
         "question": "La résistance s'exprime en ohms (Ω), symbole de l'unité SI."
       },
       {
-        "type": "open",
-        "question": "Quelle est la résistance d'un dipôle soumis à 12 V et parcouru par un courant de 0,4 A ?"
+        "type": "vrai-faux",
+        "question": "R = U/I = 12/0,4 = 30 Ω."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La résistance équivalente de deux résistances en parallèle est inférieure à la plus petite des deux."
       },
       {
-        "type": "open",
-        "question": "Quelle est l'intensité circulant dans une résistance de 50 Ω soumise à 10 V ?"
+        "type": "vrai-faux",
+        "question": "I = U/R = 10/50 = 0,2 A."
       },
       {
         "type": "qcm",

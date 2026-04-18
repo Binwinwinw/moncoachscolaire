@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "1 g/L",
-        "correct": 1,
         "correction": "La glycémie normale à jeun est de 0,8-1,1 g/L (4,4-6,1 mmol/L) ; au-delà de 1,26 g/L à jeun, on parle de diabète."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "augmente",
-        "correction": "Glucagon -> glycogénolyse hépatique (libération de glucose par le foie) et néoglucogenèse -> glycémie augmente (hypoglycémie corrigée)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Glucagon -> glycogénolyse hépatique (libération de glucose par le foie) et néoglucogenèse -> glycémie augmente (hypoglycémie corrigée)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Une destruction auto-immune des cellules bêta du pancréas -> manque d'insuline",
-        "correct": 1,
         "correction": "DT1 : maladie auto-immune ; les patients produisent peu ou plus d'insuline -> injection d'insuline exogène nécessaire."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "neuropathie",
-        "correction": "Le glucose en excès glycoyle les protéines des vaisseaux et nerfs -> complications à long terme (cécité, insuffisance rénale, pied diabétique)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le glucose en excès glycoyle les protéines des vaisseaux et nerfs -> complications à long terme (cécité, insuffisance rénale, pied diabétique)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La correction du déséquilibre (via l'insuline ou le glucagon) rétablit la glycémie normale",
-        "correct": 1,
         "correction": "Rétroaction négative : glycémie élevée -> insuline -> baisse glycémie ; glycémie basse -> glucagon -> hausse glycémie."
       },
       {

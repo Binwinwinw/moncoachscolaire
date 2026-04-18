@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Il touche des zones peuplées et vulnérables",
-        "correct": 1,
         "correction": "Risque = aléa (phénomène naturel) × vulnérabilité (présence humaine) ; un tremblement de terre dans le désert n'est pas un risque majeur."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "inconstructibles",
-        "correction": "Le PPR interdit la construction dans les zones les plus exposées aux risques naturels (inondation, glissement de terrain...)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le PPR interdit la construction dans les zones les plus exposées aux risques naturels (inondation, glissement de terrain...)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Technologique",
-        "correct": 1,
         "correction": "Tchernobyl (Ukraine, 1986) : explosion d'un réacteur nucléaire ; c'est le pire accident nucléaire de l'histoire, un risque technologique majeur."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "océan",
-        "correction": "Le tsunami du 26 décembre 2004 (séisme de magnitude 9,1 au large de Sumatra) a dévasté les côtes de l'océan Indien."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le tsunami du 26 décembre 2004 (séisme de magnitude 9,1 au large de Sumatra) a dévasté les côtes de l'océan Indien."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La cartographie des zones à risque et l'éducation des populations",
-        "correct": 1,
         "correction": "Prévention : cartographie des aléas, PPR, exercices d'évacuation, construction parasismique, systèmes d'alerte."
       },
       {

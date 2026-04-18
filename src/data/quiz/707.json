@@ -33,8 +33,8 @@
         "question": "La combustion complète du méthane produit du CO2 et de l'eau."
       },
       {
-        "type": "open",
-        "question": "Quel gaz toxique est produit lors d'une combustion incomplète faute d'oxygène suffisant ?"
+        "type": "vrai-faux",
+        "question": "Monoxyde de carbone."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La combustion du charbon (carbone) produit uniquement du CO2."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on un composé chimique contenant uniquement du carbone et de l'hydrogène ?"
+        "type": "vrai-faux",
+        "question": "Les hydrocarbures (alcanes, alcènes, alcynes) ne contiennent que C et H ; le méthane (CH4) est le plus simple."
       },
       {
         "type": "qcm",

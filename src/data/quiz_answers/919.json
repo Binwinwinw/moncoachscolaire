@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Détruire ou neutraliser des satellites adverses",
-        "correct": 1,
         "correction": "Les ASAT sont des armes capables d'intercepter des satellites. Ils ont été testés par les USA (1985, 2008), la Chine (2007), l'Inde (2019) et la Russie (2021)."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Militarisation : utilisation de l'espace à des fins militaires (satellites de renseignement, navigation, communication) — existe depuis les années 1960 et est légale. Arsenalisation : déploiement d'armes dans l'espace pour mener des attaques (ASAT, armes en orbite) — interdit pour les ADM par le Traité de 1967, mais les armes conventionnelles dans l'espace ne sont pas clairement interdites.",
-        "correction": "Le glissement vers l'arsenalisation constitue une escalade stratégique préoccupante."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le glissement vers l'arsenalisation constitue une escalade stratégique préoccupante."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Les États-Unis",
-        "correct": 3,
         "correction": "La United States Space Force (USSF) fut créée le 20 décembre 2019 sous Trump, devenant la première nouvelle branche militaire américaine depuis 1947."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Cyberattaques contre des satellites (brouillage, leurrage GPS, piratage), attaques co-orbitales (satellite tueur s'approchant d'un autre), brouillage des communications, attaques laser depuis le sol (DAZZLERS), déni de service GPS. Ces attaques sont difficiles à attribuer et à défendre.",
-        "correction": "La dépendance croissante aux satellites crée des vulnérabilités stratégiques exploitables par des acteurs étatiques ou non."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La dépendance croissante aux satellites crée des vulnérabilités stratégiques exploitables par des acteurs étatiques ou non."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Envoyer de faux signaux GPS pour tromper les systèmes de navigation",
-        "correct": 1,
         "correction": "Le spoofing GPS peut faire croire à un navire ou un drone qu'il est à une position erronée. Des cas ont été détectés en mer Noire et dans d'autres zones de tension géopolitique."
       },
       {

@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Un tuple est immuable (non modifiable après création)",
-        "correct": 1,
         "correction": "Les tuples sont immuables : on ne peut pas ajouter, supprimer ou modifier leurs éléments. Ils sont plus rapides et peuvent servir de clés de dictionnaire."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Le dépaquetage affecte simultanément les éléments d'un tuple à plusieurs variables. Ex : a, b, c = (1, 2, 3) assigne a=1, b=2, c=3. Utile aussi pour échanger : a, b = b, a.",
-        "correction": "Le dépaquetage fonctionne aussi avec les listes et tout itérable."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le dépaquetage fonctionne aussi avec les listes et tout itérable."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Non ordonnée et sans doublons",
-        "correct": 1,
         "correction": "Un set est une collection non ordonnée d'éléments uniques, optimisée pour les tests d'appartenance."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "On utilise un set quand : 1) on veut des éléments uniques (suppression des doublons) ; 2) on fait des tests d'appartenance fréquents (O(1) pour set vs O(n) pour liste) ; 3) on utilise des opérations ensemblistes (union, intersection…).",
-        "correction": "set(liste) est une façon efficace de dédoublonner une liste."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. set(liste) est une façon efficace de dédoublonner une liste."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "O(1)",
-        "correct": 2,
         "correction": "Les ensembles Python utilisent des tables de hachage. Le test d'appartenance est O(1) en moyenne, contre O(n) pour une liste."
       },
       {

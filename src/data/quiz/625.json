@@ -33,8 +33,8 @@
         "question": "L'insuline est une hormone sécrétée par les cellules bêta du pancréas qui abaisse la glycémie."
       },
       {
-        "type": "open",
-        "question": "Le glucagon, sécrété par les cellules alpha du pancréas, est l'hormone antagoniste de l'insuline : il _____ la glycémie."
+        "type": "vrai-faux",
+        "question": "Glucagon -> glycogénolyse hépatique (libération de glucose par le foie) et néoglucogenèse -> glycémie augmente (hypoglycémie corrigée)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Le diabète de type 2 est principalement associé à l'obésité et à la sédentarité, et se caractérise par une résistance à l'insuline."
       },
       {
-        "type": "open",
-        "question": "L'hyperglycémie chronique non traitée provoque des complications vasculaires comme la rétinopathie, la néphropathie et la _____ (atteinte des nerfs)."
+        "type": "vrai-faux",
+        "question": "Le glucose en excès glycoyle les protéines des vaisseaux et nerfs -> complications à long terme (cécité, insuffisance rénale, pied diabétique)."
       },
       {
         "type": "qcm",

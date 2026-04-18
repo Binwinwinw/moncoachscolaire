@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Héritables mais ne modifiant pas la séquence nucléotidique de l'ADN",
-        "correct": 1,
         "correction": "L'épigénétique inclut : méthylation de l'ADN, modifications des histones, ARN non codants ; ces marques sont parfois transmises aux cellules filles."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "épigénétiques",
-        "correction": "Des facteurs environnementaux peuvent ajouter ou retirer des marques épigénétiques, modulant l'expression génique à long terme."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Des facteurs environnementaux peuvent ajouter ou retirer des marques épigénétiques, modulant l'expression génique à long terme."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Leurs profils épigénétiques divergent avec le temps et les expériences de vie",
-        "correct": 1,
         "correction": "Les jumeaux MZ accumulent des différences épigénétiques (mode de vie, environnement), expliquant des phénotypes différents malgré un génome identique."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "décondensant",
-        "correction": "Histones acétylées : chromatine décondensée (euchromatine) -> ADN accessible -> transcription activée."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Histones acétylées : chromatine décondensée (euchromatine) -> ADN accessible -> transcription activée."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La régulation post-transcriptionnelle (dégradation ou blocage de l'ARNm)",
-        "correct": 1,
         "correction": "Les micro-ARN (miRNA) se fixent sur des ARNm complémentaires et inhibent leur traduction ou provoquent leur dégradation."
       },
       {

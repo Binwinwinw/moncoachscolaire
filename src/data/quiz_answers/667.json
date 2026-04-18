@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Une prolifération incontrôlée de cellules anormales",
-        "correct": 1,
         "correction": "Un cancer résulte de mutations qui altèrent les mécanismes de contrôle de la division cellulaire."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "métastases",
-        "correction": "Les métastases sont des foyers cancéreux secondaires formés par migration de cellules tumorales."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les métastases sont des foyers cancéreux secondaires formés par migration de cellules tumorales."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "HPV (papillomavirus humain)",
-        "correct": 2,
         "correction": "Certains sérotypes du HPV (notamment HPV 16 et 18) sont oncogènes et responsables de la majorité des cancers du col de l'utérus."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "tumeur bénigne",
-        "correction": "Une tumeur bénigne ne métastase pas ; contrairement à une tumeur maligne (cancer), elle n'envahit pas les tissus voisins."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Une tumeur bénigne ne métastase pas ; contrairement à une tumeur maligne (cancer), elle n'envahit pas les tissus voisins."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Radiothérapie",
-        "correct": 1,
         "correction": "La radiothérapie utilise des rayonnements ionisants ciblés pour détruire l'ADN des cellules cancéreuses."
       },
       {

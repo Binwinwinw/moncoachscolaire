@@ -1,69 +1,73 @@
 {
-  "id": 1081,
-  "title": "Fonctions cosinus et sinus",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "created_at": "2026-03-13T18:54:00.434733Z",
-  "questions": [
-    {
-      "id": "1081_1",
-      "type": "qcm",
-      "question": "La période de la fonction cosinus est :",
-      "options": [
-        "π",
-        "2π",
-        "π/2",
-        "4π"
-      ]
-    },
-    {
-      "id": "1081_2",
-      "type": "vrai-faux",
-      "question": "La fonction sinus est impaire : sin(−x) = −sin(x)."
-    },
-    {
-      "id": "1081_3",
-      "type": "texte",
-      "question": "Décris les variations de la fonction cosinus sur [0, 2π]."
-    },
-    {
-      "id": "1081_4",
-      "type": "qcm",
-      "question": "Quelles sont les valeurs maximale et minimale de sin(x) ?",
-      "options": [
-        "Max = 2, min = −2",
-        "Max = π, min = 0",
-        "Max = 1, min = −1",
-        "Max = ∞, min = −∞"
-      ]
-    },
-    {
-      "id": "1081_5",
-      "type": "vrai-faux",
-      "question": "La courbe représentative de sin(x) est la translatée de celle de cos(x) de π/2 vers la droite."
-    },
-    {
-      "id": "1081_6",
-      "type": "texte",
-      "question": "Décris le lien entre les graphes de f(x) = sin(x) et g(x) = 2sin(x)."
-    },
-    {
-      "id": "1081_7",
-      "type": "qcm",
-      "question": "Quelle est la période de h(x) = sin(3x) ?",
-      "options": [
-        "3π",
-        "2π/3",
-        "6π",
-        "π"
-      ]
-    },
-    {
-      "id": "1081_8",
-      "type": "vrai-faux",
-      "question": "La dérivée de sin(x) est cos(x)."
-    }
-  ],
+  "contents": {
+    "title": "Fonctions cosinus et sinus",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Mathématiques",
+    "description": "",
+    "status": "published"
+  },
+  "quiz": {
+    "title": "Fonctions cosinus et sinus",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "La période de la fonction cosinus est :",
+        "choices": [
+          "π",
+          "2π",
+          "π/2",
+          "4π"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La fonction sinus est impaire : sin(−x) = −sin(x)."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Cos décroissant sur [0, π] (de 1 à −1) et croissant sur [π, 2π] (de −1 à 1)."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelles sont les valeurs maximale et minimale de sin(x) ?",
+        "choices": [
+          "Max = 2, min = −2",
+          "Max = π, min = 0",
+          "Max = 1, min = −1",
+          "Max = ∞, min = −∞"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La courbe représentative de sin(x) est la translatée de celle de cos(x) de π/2 vers la droite."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le graphe de g est celui de f étiré verticalement d'un facteur 2."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la période de h(x) = sin(3x) ?",
+        "choices": [
+          "3π",
+          "2π/3",
+          "6π",
+          "π"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La dérivée de sin(x) est cos(x)."
+      }
+    ]
+  },
   "exercisenotion": [
     {
       "notion": "Fondamentaux de Indéfini",
@@ -77,5 +81,6 @@
       "notion": "Savoir-faire indéfini",
       "description": "Notion du programme Indéfini"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

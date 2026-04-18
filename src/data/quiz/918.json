@@ -33,8 +33,8 @@
         "question": "L'observation de la Terre par satellite permet de surveiller les changements climatiques."
       },
       {
-        "type": "open",
-        "question": "Comment les satellites météorologiques contribuent-ils à la prévision des catastrophes naturelles ?"
+        "type": "vrai-faux",
+        "question": "Les satellites météo (Météosat, NOAA…) fournissent des images en temps réel des systèmes nuageux, cyclones, fronts, permettant des prévisions à 1-10 jours."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Le tourisme spatial est aujourd'hui accessible uniquement aux astronautes professionnels."
       },
       {
-        "type": "open",
-        "question": "Quels sont les enjeux de l'exploitation des ressources minières dans l'espace (astéroïdes, Lune) ?"
+        "type": "vrai-faux",
+        "question": "Les astéroïdes contiennent des métaux précieux (platine, or, nickel) en quantités considérables."
       },
       {
         "type": "qcm",

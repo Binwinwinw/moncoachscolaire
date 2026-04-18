@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La durée d'un cycle complet",
-        "correct": 1,
         "correction": "La période T est la durée d'un cycle complet d'un signal périodique, exprimée en secondes (s)."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "50 Hz",
-        "correction": "Le courant alternatif du réseau électrique français a une fréquence de 50 Hz, soit 50 cycles par seconde."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le courant alternatif du réseau électrique français a une fréquence de 50 Hz, soit 50 cycles par seconde."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "À visualiser l'évolution d'une tension en fonction du temps",
-        "correct": 1,
         "correction": "L'oscilloscope affiche la tension en fonction du temps et permet de mesurer période, fréquence, amplitude et forme d'un signal."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "signal sinusoïdal (ou courant alternatif sinusoïdal)",
-        "correction": "Un signal sinusoïdal varie selon une fonction sinus ou cosinus. C'est la forme la plus courante du courant alternatif."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Un signal sinusoïdal varie selon une fonction sinus ou cosinus. C'est la forme la plus courante du courant alternatif."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "T = 1/f",
-        "correct": 1,
         "correction": "La période et la fréquence sont inversement proportionnelles : T = 1/f. Par exemple, un signal à 50 Hz a une période de 20 ms."
       },
       {

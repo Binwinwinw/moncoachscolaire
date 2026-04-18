@@ -25,60 +25,50 @@
           "membrane",
           "cytoplasme",
           "ADN"
-        ],
-        "id": 1
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Mitochondries: respiration ATP.",
-        "id": 2
+        "question": "Mitochondries: respiration ATP."
       },
       {
-        "type": "texte",
-        "question": "Photosynthèse: organite ...",
-        "placeholder": "chloroplastes",
-        "id": 3
+        "type": "open",
+        "question": "Photosynthèse: organite ."
       },
       {
         "type": "qcm",
-        "question": "ADN: double ... (Watson/Crick)",
+        "question": "ADN: double . (Watson/Crick)",
         "choices": [
           "hélice",
           "spirale",
           "échelle",
           "anneau"
-        ],
-        "id": 4
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Toutes cellules organisme: même ADN.",
-        "id": 5
+        "question": "Toutes cellules organisme: même ADN."
       },
       {
-        "type": "texte",
-        "question": "Fermentation: sans ... (éthanol/acide lactique)",
-        "placeholder": "O₂",
-        "id": 6
+        "type": "open",
+        "question": "Fermentation: sans . (éthanol/acide lactique)"
       },
       {
         "type": "qcm",
-        "question": "Eucaryote: membrane nucléaire + ...",
+        "question": "Eucaryote: membrane nucléaire + .",
         "choices": [
           "organites",
           "ribosomes",
           "flagelle",
           "paroi"
-        ],
-        "id": 7
+        ]
       },
       {
-        "type": "texte",
-        "question": "ATP = ... énergie cellulaire",
-        "placeholder": "monnaie",
-        "id": 8
+        "type": "open",
+        "question": "ATP = . énergie cellulaire"
       }
-    ]
+    ],
+    "type": "quiz"
   },
   "exercisenotion": [
     {

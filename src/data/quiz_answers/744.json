@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le produit de la force par le déplacement dans la direction de la force",
-        "correct": 1,
         "correction": "Le travail W = F × d × cos(θ) est le produit scalaire de la force F et du déplacement d. L'unité est le joule (J)."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "P = W / t",
-        "correction": "La puissance P (en watts) est le travail W (en joules) effectué par unité de temps t (en secondes) : P = W/t."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La puissance P (en watts) est le travail W (en joules) effectué par unité de temps t (en secondes) : P = W/t."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Watt (W)",
-        "correct": 2,
         "correction": "La puissance se mesure en watts (W). 1 W = 1 J/s. On utilise aussi le kilowatt (kW = 1000 W) pour les grandes puissances."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "3 kWh",
-        "correction": "E = P × t = 1500 W × 2 h = 3000 Wh = 3 kWh. On peut vérifier en joules : 1500 W × 7200 s = 10 800 000 J = 10,8 MJ."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. E = P × t = 1500 W × 2 h = 3000 Wh = 3 kWh. On peut vérifier en joules : 1500 W × 7200 s = 10 800 000 J = 10,8 MJ."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "En effectuant le même travail en moins de temps",
-        "correct": 2,
         "correction": "P = W/t : pour un même travail, réduire le temps augmente la puissance. C'est pourquoi une voiture sportive est plus puissante qu'une citadine."
       },
       {

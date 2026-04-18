@@ -33,8 +33,8 @@
         "question": "Dans un circuit en série, le courant est le même dans chaque dipôle."
       },
       {
-        "type": "open",
-        "question": "Quelle est l'unité de mesure de l'intensité du courant électrique ?"
+        "type": "vrai-faux",
+        "question": "L'intensité du courant électrique I se mesure en ampères (A) à l'aide d'un ampèremètre branché en série."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Dans un circuit en dérivation, la tension est la même aux bornes de chaque branche."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on un dipôle qui s'oppose au passage du courant ?"
+        "type": "vrai-faux",
+        "question": "Une résistance (résistor) est un composant électronique qui limite le courant par dissipation d'énergie thermique (effet Joule)."
       },
       {
         "type": "qcm",

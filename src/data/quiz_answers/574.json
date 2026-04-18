@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Change de pays de résidence pour une durée prolongée",
-        "correct": 1,
         "correction": "Un migrant s'installe dans un autre pays ; un réfugié fuit une persécution ; un demandeur d'asile demande la protection d'un pays d'accueil."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "remises",
-        "correction": "Les remises (transferts de fonds) sont essentielles pour de nombreux pays : elles peuvent représenter plus de 20% du PIB (ex. Haiti, Tonga)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les remises (transferts de fonds) sont essentielles pour de nombreux pays : elles peuvent représenter plus de 20% du PIB (ex. Haiti, Tonga)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Le statut de réfugié pour les personnes persécutées",
-        "correct": 1,
         "correction": "La convention de Genève oblige les États signataires à accorder protection aux personnes persécutées en raison de leur race, religion, nationalité, opinions ou appartenance sociale."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "déplacés internes",
-        "correction": "Les déplacés internes (PDI) fuient les conflits ou catastrophes sans quitter leur pays ; il y en a environ 60 millions dans le monde."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les déplacés internes (PDI) fuient les conflits ou catastrophes sans quitter leur pays ; il y en a environ 60 millions dans le monde."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Les guerres, persécutions et catastrophes naturelles",
-        "correct": 1,
         "correction": "Les conflits (Syrie, Afghanistan, Soudan) et les catastrophes sont les principales causes de migrations forcées."
       },
       {

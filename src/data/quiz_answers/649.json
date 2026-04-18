@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Évaporation/transpiration → condensation → précipitations → ruissellement/infiltration",
-        "correct": 1,
         "correction": "Le cycle hydrologique déplace ~577 000 km³ d'eau/an ; l'évapotranspiration continentale des plantes représente ~40 % de cet échange ; il régule le climat local et global."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "stratification",
-        "correction": "La stratification thermique (thermocline) isole les eaux chaudes de surface peu nutritives des eaux froides profondes riches en nutriments ; elle limite la productivité marine estivale."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La stratification thermique (thermocline) isole les eaux chaudes de surface peu nutritives des eaux froides profondes riches en nutriments ; elle limite la productivité marine estivale."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "L'éolien, le solaire, l'hydroélectricité, la géothermie et la biomasse",
-        "correct": 1,
         "correction": "Les énergies renouvelables se régénèrent naturellement ; elles représentent ~30 % de la production électrique mondiale (2024) et doivent atteindre ~60 % d'ici 2030 selon l'AIE."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "limites",
-        "correction": "Les 9 limites planétaires : changement climatique, intégrité de la biosphère, cycles biogéochimiques, eau douce, usage des terres, acidification des océans, pollution, aérosols, couche d'ozone."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les 9 limites planétaires : changement climatique, intégrité de la biosphère, cycles biogéochimiques, eau douce, usage des terres, acidification des océans, pollution, aérosols, couche d'ozone."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Protection des côtes, nurseries pour poissons, stockage de carbone (blue carbon), et purification de l'eau",
-        "correct": 1,
         "correction": "Les mangroves (40 % détruites depuis 1950) stockent ~5× plus de carbone que les forêts équatoriales par hectare (carbone bleu) et protègent les côtes des tsunamis et cyclones."
       },
       {

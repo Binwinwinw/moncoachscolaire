@@ -35,8 +35,8 @@
         "question": "Un argument est plus solide lorsqu'il est accompagné d'un exemple précis."
       },
       {
-        "type": "open",
-        "question": "Quel mot de liaison exprime une opposition dans un raisonnement ?"
+        "type": "vrai-faux",
+        "question": "Un connecteur d'opposition permet de nuancer ou de contredire une idée précédente."
       },
       {
         "type": "qcm",
@@ -53,8 +53,8 @@
         "question": "« Donc » est un connecteur qui marque la conséquence."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on le raisonnement qui part d'un cas particulier pour aboutir à une idée générale ?"
+        "type": "vrai-faux",
+        "question": "L'induction observe des faits particuliers pour formuler une généralisation."
       },
       {
         "type": "qcm",

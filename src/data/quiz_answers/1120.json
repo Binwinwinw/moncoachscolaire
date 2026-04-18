@@ -1,48 +1,71 @@
 {
-  "quiz_id": 1120,
-  "title": "Système financier et risques",
-  "subject": "SES",
-  "level": "Terminale",
-  "answers": [
-    {
-      "question_id": "1120_1",
-      "correct_option": "B",
-      "explanation": "Le risque systémique (« too big to fail ») : la faillite d'une institution financière majeure peut déclencher une crise financière globale par contagion."
-    },
-    {
-      "question_id": "1120_2",
-      "correct": true,
-      "explanation": "Bulle = divergence entre prix de marché et valeur intrinsèque de l'actif, alimentée par des anticipations auto-réalisatrices (chacun achète parce que les autres achètent)."
-    },
-    {
-      "question_id": "1120_3",
-      "correct_answer": "La panique bancaire (bank run) : les déposants retirent massivement leurs fonds, forçant la banque à vendre ses actifs en urgence (fire sale), provoquant des pertes, pouvant contaminer d'autres banques exposées aux mêmes actifs ou liées par des créances interbancaires.",
-      "explanation": "Les interconnexions du bilan des banques (prêts interbancaires, actifs communs) créent un risque de contagion en chaîne."
-    },
-    {
-      "question_id": "1120_4",
-      "correct_option": "B",
-      "explanation": "Bâle III (2010) renforce les exigences de capital (ratio CET1 ≥ 4,5%), de liquidité (LCR, NSFR) pour rendre les banques plus résilientes aux chocs."
-    },
-    {
-      "question_id": "1120_5",
-      "correct": true,
-      "explanation": "Bagehot (1873) : la BC doit prêter librement, à taux élevé, contre de bons collatéraux, pour éviter la panique bancaire. Rôle joué par la BCE en 2010-2012."
-    },
-    {
-      "question_id": "1120_6",
-      "correct_answer": "Aléa moral bancaire : sachant qu'elles seront sauvées (too big to fail), les banques prennent des risques excessifs. Solutions : taxe sur les banques systémiques, réserves de capital contra-cycliques, séparation activités dépôt/spéculation, résolution ordonnée (bail-in).",
-      "explanation": "Le bail-out (sauvetage public) crée un aléa moral. Le bail-in (pertes d'abord supportées par actionnaires et créanciers) atténue ce problème."
-    },
-    {
-      "question_id": "1120_7",
-      "correct_option": "B",
-      "explanation": "Le shadow banking (fonds monétaires, hedge funds, SPV…) réalise de la transformation de maturité hors du cadre réglementaire bancaire → risques systémiques non supervisés."
-    },
-    {
-      "question_id": "1120_8",
-      "correct": true,
-      "explanation": "Fama (1970) : en marchés efficients, il est impossible de battre systématiquement le marché car les prix intègrent déjà toute l'information disponible."
-    }
-  ]
+  "contents": {
+    "title": "Quiz Diagnostic SES Terminale - Serie 1120",
+    "level": "Terminale",
+    "subject": "SES"
+  },
+  "quiz": {
+    "title": "Système financier et risques",
+    "question_count": 8,
+    "level": "Terminale",
+    "subject": "SES",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Cette affirmation reformule l'idée essentielle à retenir : Explique le mécanisme de contagion financière lors d'une crise bancaire."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Cette affirmation reformule l'idée essentielle à retenir : Qu'est-ce que l'aléa moral dans le secteur bancaire et comment le réguler."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "",
+        "correction": ""
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Réponse attendue : faux"
+      }
+    ]
+  }
 }

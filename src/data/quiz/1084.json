@@ -1,69 +1,73 @@
 {
-  "id": 1084,
-  "title": "Produit scalaire — définition et calcul",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "created_at": "2026-03-13T18:54:00.438364Z",
-  "questions": [
-    {
-      "id": "1084_1",
-      "type": "qcm",
-      "question": "Le produit scalaire u⃗·v⃗ en coordonnées est :",
-      "options": [
-        "u₁v₂ − u₂v₁",
-        "u₁v₁ + u₂v₂",
-        "(u₁+v₁)(u₂+v₂)",
-        "u₁v₂ + u₂v₁"
-      ]
-    },
-    {
-      "id": "1084_2",
-      "type": "vrai-faux",
-      "question": "Le produit scalaire de deux vecteurs est un scalaire (nombre réel), pas un vecteur."
-    },
-    {
-      "id": "1084_3",
-      "type": "texte",
-      "question": "Calcule u⃗·v⃗ si u⃗=(3,−2) et v⃗=(1,4)."
-    },
-    {
-      "id": "1084_4",
-      "type": "qcm",
-      "question": "La formule avec l'angle θ entre u⃗ et v⃗ donne u⃗·v⃗ = :",
-      "options": [
-        "||u⃗|| + ||v⃗||·cos θ",
-        "||u⃗||·||v⃗||·cos θ",
-        "||u⃗||·||v⃗||·sin θ",
-        "||u⃗ − v⃗||·cos θ"
-      ]
-    },
-    {
-      "id": "1084_5",
-      "type": "vrai-faux",
-      "question": "u⃗·u⃗ = ||u⃗||²."
-    },
-    {
-      "id": "1084_6",
-      "type": "texte",
-      "question": "Calcule le produit scalaire AB⃗·AC⃗ avec A(0,0), B(3,0), C(0,4)."
-    },
-    {
-      "id": "1084_7",
-      "type": "qcm",
-      "question": "Que vaut u⃗·v⃗ si les vecteurs sont orthogonaux ?",
-      "options": [
-        "||u⃗||·||v⃗||",
-        "1",
-        "0",
-        "||u⃗|| + ||v⃗||"
-      ]
-    },
-    {
-      "id": "1084_8",
-      "type": "vrai-faux",
-      "question": "Le produit scalaire est commutatif : u⃗·v⃗ = v⃗·u⃗."
-    }
-  ],
+  "contents": {
+    "title": "Produit scalaire — définition et calcul",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Mathématiques",
+    "description": "",
+    "status": "published"
+  },
+  "quiz": {
+    "title": "Produit scalaire — définition et calcul",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Le produit scalaire u⃗·v⃗ en coordonnées est :",
+        "choices": [
+          "u₁v₂ − u₂v₁",
+          "u₁v₁ + u₂v₂",
+          "(u₁+v₁)(u₂+v₂)",
+          "u₁v₂ + u₂v₁"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le produit scalaire de deux vecteurs est un scalaire (nombre réel), pas un vecteur."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "U⃗·v⃗ = 3×1 + (−2)×4 = 3 − 8 = −5."
+      },
+      {
+        "type": "qcm",
+        "question": "La formule avec l'angle θ entre u⃗ et v⃗ donne u⃗·v⃗ = :",
+        "choices": [
+          "||u⃗|| + ||v⃗||·cos θ",
+          "||u⃗||·||v⃗||·cos θ",
+          "||u⃗||·||v⃗||·sin θ",
+          "||u⃗ − v⃗||·cos θ"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "u⃗·u⃗ = ||u⃗||²."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "AB⃗=(3,0), AC⃗=(0,4)."
+      },
+      {
+        "type": "qcm",
+        "question": "Que vaut u⃗·v⃗ si les vecteurs sont orthogonaux ?",
+        "choices": [
+          "||u⃗||·||v⃗||",
+          "1",
+          "0",
+          "||u⃗|| + ||v⃗||"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le produit scalaire est commutatif : u⃗·v⃗ = v⃗·u⃗."
+      }
+    ]
+  },
   "exercisenotion": [
     {
       "notion": "Fondamentaux de Indéfini",
@@ -77,5 +81,6 @@
       "notion": "Savoir-faire indéfini",
       "description": "Notion du programme Indéfini"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

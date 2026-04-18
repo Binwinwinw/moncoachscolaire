@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le fait que l'ouvrier est séparé du produit de son travail, de son activité, de ses semblables et de lui-même",
-        "correct": 1,
         "correction": "Marx (Manuscrits de 1844) théorise l'aliénation : dans le capitalisme, le travailleur est aliéné (étranger à lui-même) de quatre façons : séparé du produit de son travail (qui lui échappe), de son activité laborieuse (contrainte, non épanouissante), de ses semblables (concurrence), et de son être générique (son humanité). Le travail, qui devrait être la réalisation de l'homme, devient une souffrance."
       },
       {
@@ -28,17 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "correct_answer": "La technique est constitutive de l'humanité car l'être humain est par nature un être technicien qui transforme son milieu par des outils ; sans technique, il ne pourrait survivre ni se développer.",
-        "answer": "La technique est constitutive de l'humanité car l'être humain est par nature un être technicien qui transforme son milieu par des outils ; sans technique, il ne pourrait survivre ni se développer.",
-        "correction": "Pour les philosophes comme Bergson (L'Évolution créatrice) ou Leroi-Gourhan (Le Geste et la Parole), l'homo sapiens est aussi homo faber : l'usage d'outils est coextensif à l'humanité (silex taillés il y a 2,5 millions d'années). La technique n'est pas un ajout extérieur mais constitutive de la condition humaine : elle permet de s'adapter à l'environnement, de libérer du temps (meule, four), de créer de la culture. Exemple : l'écriture est une technique cognitive qui transforme la mémoire et la pensée."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Pour les philosophes comme Bergson (L'Évolution créatrice) ou Leroi-Gourhan (Le Geste et la Parole), l'homo sapiens est aussi homo faber : l'usage d'outils est coextensif à l'humanité (silex taillés il y a 2,5 millions d'années). La technique n'est pas un ajout extérieur mais constitutive de la condition humaine : elle permet de s'adapter à l'environnement, de libérer du temps (meule, four), de créer de la culture. Exemple : l'écriture est une technique cognitive qui transforme la mémoire et la pensée."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Réduit tout l'étant (le monde, les hommes, la nature) à un simple stock de ressources disponibles (le 'Gestell' ou arraisonnement)",
-        "correct": 1,
         "correction": "Heidegger (La Question de la technique, 1953) critique la technique moderne : elle n'est pas neutre mais impose une façon d'être au monde, le 'Gestell' (arraisonnement, dispositif). Elle réduit tout l'étant à des 'stocks disponibles' (Bestand) : la nature est un réservoir d'énergie, les hommes des ressources humaines. Elle occulte les autres modes de dévoilement de l'être (art, poésie) et constitue le 'danger' suprême."
       },
       {
@@ -51,17 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "correct_answer": "La division du travail est la spécialisation des travailleurs dans des tâches précises, accroissant la productivité mais pouvant aboutir à l'abrutissement du travailleur.",
-        "answer": "La division du travail est la spécialisation des travailleurs dans des tâches précises, accroissant la productivité mais pouvant aboutir à l'abrutissement du travailleur.",
-        "correction": "Adam Smith (La Richesse des nations, 1776) montre que la division du travail (spécialisation de chaque travailleur dans une tâche élémentaire) est la principale source de la richesse des nations : gain de dextérité, économie de temps, invention de machines. Mais il reconnaît aussi ses limites : le travailleur répétitif devient 'aussi stupide et ignorant qu'une créature humaine peut le devenir.' Marx et Tocqueville amplifieront cette critique de l'abrutissement par la spécialisation."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Adam Smith (La Richesse des nations, 1776) montre que la division du travail (spécialisation de chaque travailleur dans une tâche élémentaire) est la principale source de la richesse des nations : gain de dextérité, économie de temps, invention de machines. Mais il reconnaît aussi ses limites : le travailleur répétitif devient 'aussi stupide et ignorant qu'une créature humaine peut le devenir.' Marx et Tocqueville amplifieront cette critique de l'abrutissement par la spécialisation."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "L'homme fabricant, définit par son usage des outils et des techniques",
-        "correct": 2,
         "correction": "L'homo faber (Bergson, L'Évolution créatrice ; Henri Bergson) désigne l'homme en tant qu'être fabricant (faber = artisan en latin), qui se distingue des autres animaux par sa capacité à fabriquer et utiliser des outils. Cette définition de l'humain par la technique s'oppose ou complète la définition traditionnelle de l'homo sapiens (homme qui sait, qui pense) et de l'homo loquens (homme qui parle)."
       },
       {

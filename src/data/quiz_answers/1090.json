@@ -1,48 +1,71 @@
 {
-  "quiz_id": 1090,
-  "title": "Trigonométrie — formules et équations",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "answers": [
-    {
-      "question_id": "1090_1",
-      "correct_option": "A",
-      "explanation": "La proposition A est correcte pour Trigonométrie — formules et équations en 1ère."
-    },
-    {
-      "question_id": "1090_2",
-      "correct": true,
-      "explanation": "Trigonométrie — formules et équations fait bien partie des notions clés du programme de 1ère."
-    },
-    {
-      "question_id": "1090_3",
-      "correct_answer": "Le principe fondamental de Trigonométrie — formules et équations repose sur une propriété clé du programme de 1ère.",
-      "explanation": "Une bonne réponse résume la définition ou le théorème central de Trigonométrie — formules et équations."
-    },
-    {
-      "question_id": "1090_4",
-      "correct_option": "A",
-      "explanation": "Le résultat A est le plus important pour Trigonométrie — formules et équations."
-    },
-    {
-      "question_id": "1090_5",
-      "correct": true,
-      "explanation": "Oui, maîtriser Trigonométrie — formules et équations permet de résoudre efficacement des exercices de 1ère."
-    },
-    {
-      "question_id": "1090_6",
-      "correct_answer": "Un exemple typique de Trigonométrie — formules et équations en 1ère est un problème mobilisant cette notion directement.",
-      "explanation": "Les exercices sur Trigonométrie — formules et équations en 1ère testent la compréhension et l'application du concept."
-    },
-    {
-      "question_id": "1090_7",
-      "correct_option": "A",
-      "explanation": "La formule A est celle à retenir pour Trigonométrie — formules et équations en 1ère."
-    },
-    {
-      "question_id": "1090_8",
-      "correct": true,
-      "explanation": "Trigonométrie — formules et équations est un thème récurrent dans les sujets de bac de 1ère."
-    }
-  ]
+  "contents": {
+    "title": "Trigonométrie — formules et équations",
+    "level": "1ère",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Trigonométrie — formules et équations",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "",
+        "correction": "La proposition A est correcte pour Trigonométrie — formules et équations en 1ère."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Trigonométrie — formules et équations fait bien partie des notions clés du programme de 1ère."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Une bonne réponse résume la définition ou le théorème central de Trigonométrie — formules et équations."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "",
+        "correction": "Le résultat A est le plus important pour Trigonométrie — formules et équations."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Oui, maîtriser Trigonométrie — formules et équations permet de résoudre efficacement des exercices de 1ère."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les exercices sur Trigonométrie — formules et équations en 1ère testent la compréhension et l'application du concept."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "",
+        "correction": "La formule A est celle à retenir pour Trigonométrie — formules et équations en 1ère."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Trigonométrie — formules et équations est un thème récurrent dans les sujets de bac de 1ère."
+      }
+    ]
+  }
 }

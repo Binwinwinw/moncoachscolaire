@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Un statut complementaire a la nationalite nationale accorde a tout ressortissant d'un Etat membre de l'UE",
-        "correct": 0,
         "correction": "La citoyenneté européenne (instituée par le traité de Maastricht, 1992) est accordée à toute personne ayant la nationalité d'un État membre de l'UE."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "libre circulation des personnes",
-        "correction": "La libre circulation des personnes est une des quatre libertés fondamentales du marché unique européen (avec biens, services et capitaux)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La libre circulation des personnes est une des quatre libertés fondamentales du marché unique européen (avec biens, services et capitaux)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "27",
-        "correct": 1,
         "correction": "Depuis le Brexit (sortie du Royaume-Uni en 2020), l'UE compte 27 États membres."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "initiative citoyenne europeenne",
-        "correction": "L'ICE (Initiative Citoyenne Européenne), introduite par le Traité de Lisbonne (2009), permet à 1 million de signataires d'au moins 7 États membres de proposer une législation."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'ICE (Initiative Citoyenne Européenne), introduite par le Traité de Lisbonne (2009), permet à 1 million de signataires d'au moins 7 États membres de proposer une législation."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Traite de Maastricht (1992)",
-        "correct": 2,
         "correction": "Le traité de Maastricht (1er novembre 1993) a créé l'Union européenne, institué la citoyenneté européenne et posé les bases de l'Union économique et monétaire."
       },
       {

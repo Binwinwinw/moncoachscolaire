@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Que je lis chaque soir",
-        "correct": 1,
         "correction": "'Que je lis chaque soir' est une relative (introduite par un pronom relatif) qui complète un nom."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "concession",
-        "correction": "'Bien que' introduit une subordonnée circonstancielle de concession."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. 'Bien que' introduit une subordonnée circonstancielle de concession."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Subjonctif",
-        "correct": 2,
         "correction": "Les conjonctions de concession (bien que, quoique) exigent le subjonctif."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "indépendante",
-        "correction": "La principale n'est subordonnée à aucune autre ; les subordonnées en dépendent."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La principale n'est subordonnée à aucune autre ; les subordonnées en dépendent."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Pour que",
-        "correct": 2,
         "correction": "'Pour que' + subjonctif introduit une subordonnée circonstancielle de but."
       },
       {

@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Est vrai ce qui correspond à la réalité (adéquation entre l'intellect et la chose)",
-        "correct": 2,
         "correction": "La conception correspondantiste (ou adéquationniste) de la vérité, héritée d'Aristote ('est vraie la proposition qui affirme ce qui est'), définit la vérité comme l'adéquation (adequatio) entre un jugement ou une proposition et la réalité qu'il représente. C'est la conception la plus intuitive et la plus répandue en philosophie classique."
       },
       {
@@ -28,17 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "correct_answer": "Pour Platon, l'opinion porte sur le monde sensible changeant, tandis que le savoir vrai porte sur les Idées éternelles et immuables, accessibles par la raison.",
-        "answer": "Pour Platon, l'opinion porte sur le monde sensible changeant, tandis que le savoir vrai porte sur les Idées éternelles et immuables, accessibles par la raison.",
-        "correction": "Dans la République (allégorie de la ligne), Platon distingue : l'opinion (doxa) – connaissance du monde sensible, du visible, instable et incertaine – et la science (épistémè) – connaissance du monde intelligible, des Idées (Formes) éternelles et immuables. L'allégorie de la caverne illustre ce passage de l'opinion (ombres sur la paroi) à la vérité (lumière du soleil = l'Idée du Bien). La philosophie est le chemin qui mène de la doxa à l'épistémè."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Dans la République (allégorie de la ligne), Platon distingue : l'opinion (doxa) – connaissance du monde sensible, du visible, instable et incertaine – et la science (épistémè) – connaissance du monde intelligible, des Idées (Formes) éternelles et immuables. L'allégorie de la caverne illustre ce passage de l'opinion (ombres sur la paroi) à la vérité (lumière du soleil = l'Idée du Bien). La philosophie est le chemin qui mène de la doxa à l'épistémè."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Toute vérité est une perspective, une interprétation liée à une volonté de puissance",
-        "correct": 1,
         "correction": "Pour Nietzsche (Le Gai Savoir, Fragments posthumes), la vérité n'est pas une adéquation au réel mais le résultat d'une interprétation perpétuelle du monde. Il n'y a pas de 'fait brut' : toute perception, tout concept est déjà une interprétation liée à une perspective, une volonté de puissance. La 'vérité' est une 'armée mobile de métaphores' – une fiction utile que nous confondons avec le réel."
       },
       {
@@ -51,17 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "correct_answer": "Le doute méthodique cartésien consiste à rejeter tout ce qui peut être mis en doute pour trouver une première vérité indubitable : le cogito.",
-        "answer": "Le doute méthodique cartésien consiste à rejeter tout ce qui peut être mis en doute pour trouver une première vérité indubitable : le cogito.",
-        "correction": "Descartes (Méditations métaphysiques, 1ère méditation) applique un doute méthodique (provisoire et volontaire, non sceptique définitif) : il rejette les certitudes des sens (qui trompent parfois), l'existence du monde extérieur (peut-être un rêve), même les vérités mathématiques (hypothèse du malin génie). Ce doute hyperbolique le conduit à la seule certitude indubitable : 'Je pense, donc je suis.' Le cogito est le fondement de tout l'édifice de la connaissance cartésienne."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Descartes (Méditations métaphysiques, 1ère méditation) applique un doute méthodique (provisoire et volontaire, non sceptique définitif) : il rejette les certitudes des sens (qui trompent parfois), l'existence du monde extérieur (peut-être un rêve), même les vérités mathématiques (hypothèse du malin génie). Ce doute hyperbolique le conduit à la seule certitude indubitable : 'Je pense, donc je suis.' Le cogito est le fondement de tout l'édifice de la connaissance cartésienne."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Ce qui est utile, ce qui 'fonctionne' dans la pratique",
-        "correct": 1,
         "correction": "Le pragmatisme (William James, Pragmatism, 1907 ; John Dewey) définit la vérité de manière instrumentale : est vrai ce qui est utile, ce qui 'fonctionne' (works), ce qui produit de bons résultats dans l'action. Une idée vraie est une idée qui 'paie' (pays). Cette conception rompt avec le réalisme classique en faisant de la vérité une valeur pratique plutôt qu'une correspondance théorique."
       },
       {

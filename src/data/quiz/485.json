@@ -33,8 +33,8 @@
         "question": "Dans une synthèse, on peut donner son opinion personnelle."
       },
       {
-        "type": "open",
-        "question": "Dans une synthèse, on attribue chaque idée à son auteur à l'aide d'un verbe introducteur ou d'une _____."
+        "type": "vrai-faux",
+        "question": "Cette affirmation reformule l'idée essentielle à retenir : Dans une synthèse, on attribue chaque idée à son auteur à l'aide d'un verbe introducteur ou d'une _____."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La synthèse peut comporter de longues citations extraites des documents."
       },
       {
-        "type": "open",
-        "question": "La _____ de documents commence par définir une problématique commune à l'ensemble du corpus."
+        "type": "vrai-faux",
+        "question": "Avant tout, on interroge : Quel est le problème/thème commun à tous ces documents."
       },
       {
         "type": "qcm",

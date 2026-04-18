@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "<form>",
-        "correct": 2,
         "correction": "<form action='url' method='POST'> encapsule les champs de saisie. action définit où envoyer les données, method (GET ou POST) comment."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "text, password, email, number, date, checkbox, radio, file, submit, reset, range, color, search, tel, url. HTML5 a ajouté de nombreux types sémantiques avec validation automatique.",
-        "correction": "Les types HTML5 activent la validation côté client et affichent des claviers adaptés sur mobile."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les types HTML5 activent la validation côté client et affichent des claviers adaptés sur mobile."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Le champ doit être rempli avant soumission du formulaire",
-        "correct": 1,
         "correction": "required est une validation HTML5 côté client. Sans valeur, le formulaire ne peut pas être soumis (navigateur affiche un message d'erreur)."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "GET : données dans l'URL, limité en taille (~2000 caractères), mis en cache, visible dans l'historique. Utilisé pour des requêtes idempotentes (recherche). POST : données dans le corps, taille illimitée, non mis en cache, plus sécurisé. Utilisé pour les modifications (création, connexion, paiement).",
-        "correction": "Par convention REST, GET est pour lire, POST pour créer, PUT pour modifier, DELETE pour supprimer."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Par convention REST, GET est pour lire, POST pour créer, PUT pour modifier, DELETE pour supprimer."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Associer un texte descriptif à un champ de formulaire",
-        "correct": 1,
         "correction": "<label for='id_champ'>Nom :</label> associe le texte au champ. Cliquer sur le label active le champ associé. Indispensable pour l'accessibilité."
       },
       {

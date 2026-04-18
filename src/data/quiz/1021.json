@@ -33,8 +33,8 @@
         "question": "Un extremum local d'une fonction dérivable correspond toujours à un zéro de la dérivée."
       },
       {
-        "type": "open",
-        "question": "Étudie les variations de f(x) = x·e^(−x) sur R."
+        "type": "vrai-faux",
+        "question": "F'(x) = (1−x)e^(−x)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "f'(a) = 0 est une condition suffisante pour que f admette un extremum en a."
       },
       {
-        "type": "open",
-        "question": "Pour f(x) = x³/3 − x, détermine les extrema locaux."
+        "type": "vrai-faux",
+        "question": "Maximum local en x=−1 : f(−1)=2/3 ; minimum local en x=1 : f(1)=−2/3."
       },
       {
         "type": "qcm",

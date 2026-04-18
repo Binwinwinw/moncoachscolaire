@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La Déclaration Universelle des Droits de l'Homme",
-        "correct": 1,
         "correction": "La DUDH est adoptée le 10 décembre 1948 par l'Assemblée générale de l'ONU ; elle proclame les droits civils, politiques, économiques et sociaux de tout être humain."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Éducation",
-        "correction": "L'EMC aborde la laïcité, la démocratie, les droits de l'homme, la lutte contre les discriminations et la citoyenneté européenne et mondiale."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'EMC aborde la laïcité, la démocratie, les droits de l'homme, la lutte contre les discriminations et la citoyenneté européenne et mondiale."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Environnement, équité sociale, efficacité économique",
-        "correct": 1,
         "correction": "Le triangle du développement durable articule la protection de l'environnement, la justice sociale et le développement économique."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "judiciaire",
-        "correction": "La séparation des pouvoirs (exécutif : gouvernement ; législatif : parlement ; judiciaire : tribunaux) est la base de la démocratie libérale."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La séparation des pouvoirs (exécutif : gouvernement ; législatif : parlement ; judiciaire : tribunaux) est la base de la démocratie libérale."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Liberté, Égalité, Fraternité",
-        "correct": 1,
         "correction": "La devise républicaine héritée de la Révolution française est 'Liberté, Égalité, Fraternité'."
       },
       {

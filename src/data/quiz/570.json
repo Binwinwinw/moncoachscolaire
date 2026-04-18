@@ -33,8 +33,8 @@
         "question": "La France est le pays d'Europe ayant la plus grande superficie."
       },
       {
-        "type": "open",
-        "question": "Les DOM-COM (départements et collectivités d'outre-mer) confèrent à la France une présence dans tous les _____ du monde."
+        "type": "vrai-faux",
+        "question": "La France possède des territoires dans l'Atlantique, le Pacifique, l'océan Indien et l'Antarctique, ce qui lui donne la 2e ZEE mondiale."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Paris est la ville la plus peuplée de France et une des plus grandes métropoles européennes."
       },
       {
-        "type": "open",
-        "question": "Le territoire de la France est divisé entre les communes, les départements et les _____ comme niveaux de collectivités territoriales."
+        "type": "vrai-faux",
+        "question": "La décentralisation donne des compétences aux communes, aux départements et aux régions."
       },
       {
         "type": "qcm",

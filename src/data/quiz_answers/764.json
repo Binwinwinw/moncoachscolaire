@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Article 4 (la liberte consiste a tout faire qui ne nuit pas a autrui)",
-        "correct": 1,
         "correction": "L'article 4 de la DDHC pose la limite de la liberté : 'La liberté consiste à pouvoir faire tout ce qui ne nuit pas à autrui.' L'ordre public est la limite légale des libertés."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "surveillance de masse",
-        "correction": "La surveillance de masse désigne la collecte systématique de données sur l'ensemble d'une population, sans mandat judiciaire individuel, soulevant de graves questions de libertés civiles."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La surveillance de masse désigne la collecte systématique de données sur l'ensemble d'une population, sans mandat judiciaire individuel, soulevant de graves questions de libertés civiles."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Une perquisition necessite en principe l'autorisation d'un magistrat et le consentement de l'occupant",
-        "correct": 1,
         "correction": "Hors état d'urgence, une perquisition nécessite un mandat judiciaire (juge d'instruction ou JLD) ; l'inviolabilité du domicile est protégée par la Constitution."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "interdiction de la torture et des traitements inhumains",
-        "correction": "L'article 3 de la CEDH et la Convention de l'ONU contre la torture (1984) interdisent absolument la torture et les traitements inhumains ou dégradants dans les procédures policières."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'article 3 de la CEDH et la Convention de l'ONU contre la torture (1984) interdisent absolument la torture et les traitements inhumains ou dégradants dans les procédures policières."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La CNDS / IGPN (Inspection generale de la Police nationale)",
-        "correct": 1,
         "correction": "L'IGPN ('police des polices') enquête sur les manquements des fonctionnaires de police ; le Défenseur des droits peut aussi être saisi pour des violences policières."
       },
       {

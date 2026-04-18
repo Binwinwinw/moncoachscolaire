@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Par refroidissement lent du magma en profondeur",
-        "correct": 0,
         "correction": "Le granite est une roche magmatique plutonique formée par refroidissement lent du magma dans la croûte terrestre."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "roches métamorphiques",
-        "correction": "Le métamorphisme transforme des roches préexistantes (sédimentaires ou magmatiques) en roches métamorphiques (ex. marbre, gneiss, schiste)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le métamorphisme transforme des roches préexistantes (sédimentaires ou magmatiques) en roches métamorphiques (ex. marbre, gneiss, schiste)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Quartz",
-        "correct": 1,
         "correction": "Le granite est composé de quartz, de feldspaths (orthose et plagioclase) et de micas (biotite, muscovite)."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "érosion",
-        "correction": "L'érosion désagrège et transporte les roches via l'action de l'eau, du vent, de la glace et des variations thermiques."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'érosion désagrège et transporte les roches via l'action de l'eau, du vent, de la glace et des variations thermiques."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Cycle des roches (cycle lithologique)",
-        "correct": 1,
         "correction": "Le cycle lithologique (pétrogénétique) décrit les transformations continues entre les trois grands types de roches."
       },
       {

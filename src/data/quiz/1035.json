@@ -33,8 +33,8 @@
         "question": "La différence entre deux termes consécutifs est constante dans une suite arithmétique."
       },
       {
-        "type": "open",
-        "question": "La suite (uₙ) est arithmétique avec u₀ = 5 et r = 3. Calcule u₁₀ et S = u₀ + u₁ + … + u₁₀."
+        "type": "vrai-faux",
+        "question": "U₁₀ = 35 ; S = 11 × (5+35)/2 = 220."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Une suite arithmétique de raison positive est strictement croissante."
       },
       {
-        "type": "open",
-        "question": "Un employé gagne 2 000 € le premier mois et une augmentation de 50 € chaque mois. Quel est son salaire au bout de 12 mois ? Quelle est la somme totale perçue ?"
+        "type": "vrai-faux",
+        "question": "Salaire au mois 12 : 2550 €."
       },
       {
         "type": "qcm",

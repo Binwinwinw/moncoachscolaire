@@ -33,8 +33,8 @@
         "question": "La section d'un cube par un plan parallèle à une face est un carré."
       },
       {
-        "type": "open",
-        "question": "Quelle est la section d'un cylindre par un plan perpendiculaire à son axe ?"
+        "type": "vrai-faux",
+        "question": "Un cercle de même rayon que la base du cylindre."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La section d'un cône par un plan parallèle à sa base est un cercle."
       },
       {
-        "type": "open",
-        "question": "Quelle est la section d'un prisme droit par un plan perpendiculaire à ses bases ?"
+        "type": "vrai-faux",
+        "question": "Un rectangle de même hauteur que le prisme."
       },
       {
         "type": "qcm",

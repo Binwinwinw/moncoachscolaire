@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Un composant qui stocke de l'énergie sous forme électrique entre deux armatures",
-        "correct": 1,
         "correction": "Un condensateur est formé de deux armatures conductrices séparées par un isolant ; il stocke de l'énergie électrique sous forme de champ électrique."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "le farad (F)",
-        "correction": "La capacité d'un condensateur se mesure en farads (F). En pratique, on utilise souvent des microfarads (μF) ou des nanofarads (nF)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La capacité d'un condensateur se mesure en farads (F). En pratique, on utilise souvent des microfarads (μF) ou des nanofarads (nF)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Un composant qui stocke de l'énergie sous forme magnétique",
-        "correct": 1,
         "correction": "Une bobine (inductance) stocke de l'énergie dans un champ magnétique créé par le passage du courant dans ses spires."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "E = ½ × C × U²",
-        "correction": "L'énergie stockée dans un condensateur est E = ½CU², où C est la capacité en farads et U la tension en volts."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'énergie stockée dans un condensateur est E = ½CU², où C est la capacité en farads et U la tension en volts."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Circuits de filtrage et de stockage d'énergie",
-        "correct": 0,
         "correction": "Les condensateurs sont utilisés pour filtrer les signaux (ondulations), stocker de l'énergie, et dans les circuits oscillants."
       },
       {

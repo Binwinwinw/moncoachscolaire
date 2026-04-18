@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le registre tragique",
-        "correct": 0,
         "correction": "Le tragique met en scène une fatalité ou une impasse qui dépasse le personnage. Il provoque des émotions intenses chez le lecteur."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "satirique",
-        "correction": "Le registre satirique critique une personne, un groupe ou une idée en utilisant l'ironie, l'exagération ou la caricature."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le registre satirique critique une personne, un groupe ou une idée en utilisant l'ironie, l'exagération ou la caricature."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Une argumentation vive avec attaques et réfutations",
-        "correct": 1,
         "correction": "Le registre polémique assume l'affrontement d'idées. Il emploie un ton combatif pour convaincre ou disqualifier une position adverse."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "lyrique",
-        "correction": "Le registre lyrique exprime une subjectivité forte, souvent à la première personne. Il valorise les émotions et la musicalité."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le registre lyrique exprime une subjectivité forte, souvent à la première personne. Il valorise les émotions et la musicalité."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Le registre tragique",
-        "correct": 1,
         "correction": "Ce décalage d'information crée une tension dramatique et annonce un destin défavorable. C'est un ressort classique du tragique."
       },
       {

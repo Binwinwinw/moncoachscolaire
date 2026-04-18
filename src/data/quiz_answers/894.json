@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Définir une fonction",
-        "correct": 1,
         "correction": "def nom_fonction(paramètres): définit une nouvelle fonction. Le corps est indenté."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "LEGB : Local (dans la fonction courante), Enclosing (fonctions imbriquées englobantes), Global (module), Builtin (fonctions intégrées). Python cherche une variable dans cet ordre. Une variable locale masque une variable globale de même nom.",
-        "correction": "Le mot-clé global déclare qu'une variable locale référence la variable globale. nonlocal fait de même pour les fonctions imbriquées."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le mot-clé global déclare qu'une variable locale référence la variable globale. nonlocal fait de même pour les fonctions imbriquées."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "def f(x = 0):",
-        "correct": 0,
         "correction": "Les paramètres avec valeur par défaut sont optionnels lors de l'appel. Ils doivent être placés après les paramètres obligatoires."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Une lambda est une fonction anonyme à une expression. Syntaxe : lambda paramètres: expression. Ex : carre = lambda x: x**2 ; carre(5) = 25. Utilisée pour des fonctions courtes, notamment comme argument de sorted(), map(), filter().",
-        "correction": "Les lambdas sont équivalentes à des def simples mais ne peuvent contenir qu'une expression."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les lambdas sont équivalentes à des def simples mais ne peuvent contenir qu'une expression."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "1",
-        "correct": 1,
         "correction": "Par convention mathématique, 0! = 1. C'est le cas de base de la récursion de la factorielle."
       },
       {

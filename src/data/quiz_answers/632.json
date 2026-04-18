@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "S'écartent et du magma basaltique remonte pour former une nouvelle croûte océanique",
-        "correct": 2,
         "correction": "Aux dorsales (ex : dorsale médio-atlantique), la divergence des plaques crée un rift, le magma remonte et forme de la croûte océanique neuve (expansion des fonds océaniques)."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Wegener",
-        "correction": "Wegener observa l'emboîtement de l'Amérique du Sud et de l'Afrique et les similitudes de faunes fossiles mais ne put expliquer la force motrice — la tectonique des plaques viendra plus tard."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Wegener observa l'emboîtement de l'Amérique du Sud et de l'Afrique et les similitudes de faunes fossiles mais ne put expliquer la force motrice — la tectonique des plaques viendra plus tard."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Le long des marges de plaques tectoniques",
-        "correct": 2,
         "correction": "La carte des séismes/volcans dessine les limites des plaques : zones de subduction (ceinture de feu), dorsales, et failles transformantes."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "zèbre",
-        "correction": "Les inversions magnétiques enregistrées symétriquement de part et d'autre de la dorsale (zèbre magnétique, Vine & Matthews 1963) ont confirmé l'expansion des fonds océaniques."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les inversions magnétiques enregistrées symétriquement de part et d'autre de la dorsale (zèbre magnétique, Vine & Matthews 1963) ont confirmé l'expansion des fonds océaniques."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Les gradients de température dans le manteau qui créent des courants ascendants chauds et descendants froids",
-        "correct": 1,
         "correction": "La cellule de convection : matériau chaud (densité faible) monte aux dorsales, se déplace latéralement, refroidit, s'alourdit et plonge en subduction."
       },
       {

@@ -1,48 +1,71 @@
 {
-  "quiz_id": 1069,
-  "title": "Raisonnement par récurrence",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "answers": [
-    {
-      "question_id": "1069_1",
-      "correct_option": "B",
-      "explanation": "La récurrence : initialisation (P(n₀) vraie) + hérédité (P(n) vraie ⟹ P(n+1) vraie) → P(n) vraie pour tout n ≥ n₀."
-    },
-    {
-      "question_id": "1069_2",
-      "correct": true,
-      "explanation": "Les deux étapes sont indispensables. Sans initialisation, rien ne garantit que la propriété est vraie pour un seul rang."
-    },
-    {
-      "question_id": "1069_3",
-      "correct_answer": "Init : n=1 : 1 = 1×2/2 = 1. Héréd : si S(n)=n(n+1)/2, alors S(n+1)=n(n+1)/2+(n+1)=(n+1)(n+2)/2. ✓",
-      "explanation": "Initialisation : 1 = 1. Hérédité : S(n+1) = S(n)+(n+1) = n(n+1)/2+(n+1) = (n+1)(n+2)/2."
-    },
-    {
-      "question_id": "1069_4",
-      "correct_option": "B",
-      "explanation": "On pose la propriété P(n) : '2ⁿ > n', puis on la vérifie par initialisation et hérédité."
-    },
-    {
-      "question_id": "1069_5",
-      "correct": true,
-      "explanation": "L'hypothèse de récurrence est l'étape centrale de la démonstration par récurrence."
-    },
-    {
-      "question_id": "1069_6",
-      "correct_answer": "Pour n=1 : 3¹ = 3 ≥ 2×1+1 = 3. Vrai (égalité). L'initialisation est vérifiée.",
-      "explanation": "3¹ = 3 = 2×1+1 : l'inégalité est vérifiée au rang 1 (avec égalité)."
-    },
-    {
-      "question_id": "1069_7",
-      "correct_option": "A",
-      "explanation": "La somme des n premiers nombres impairs est n². Démontrable par récurrence."
-    },
-    {
-      "question_id": "1069_8",
-      "correct": true,
-      "explanation": "La récurrence est un outil de démonstration pour les propositions indexées par les entiers naturels."
-    }
-  ]
+  "contents": {
+    "title": "Raisonnement par récurrence",
+    "level": "1ère",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Raisonnement par récurrence",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "",
+        "correction": "La récurrence : initialisation (P(n₀) vraie) + hérédité (P(n) vraie ⟹ P(n+1) vraie) → P(n) vraie pour tout n ≥ n₀."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les deux étapes sont indispensables. Sans initialisation, rien ne garantit que la propriété est vraie pour un seul rang."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Initialisation : 1 = 1. Hérédité : S(n+1) = S(n)+(n+1) = n(n+1)/2+(n+1) = (n+1)(n+2)/2."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "",
+        "correction": "On pose la propriété P(n) : '2ⁿ > n', puis on la vérifie par initialisation et hérédité."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'hypothèse de récurrence est l'étape centrale de la démonstration par récurrence."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. 3¹ = 3 = 2×1+1 : l'inégalité est vérifiée au rang 1 (avec égalité)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "",
+        "correction": "La somme des n premiers nombres impairs est n². Démontrable par récurrence."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La récurrence est un outil de démonstration pour les propositions indexées par les entiers naturels."
+      }
+    ]
+  }
 }

@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La remise en cause idéologique de faits historiques établis (souvent pour justifier des idéologies)",
-        "correct": 1,
         "correction": "Le révisionnisme (sens péjoratif) consiste à nier ou minimiser des faits établis (génocides) pour servir des intérêts idéologiques. À distinguer de la révision scientifique légitime qui fait avancer la connaissance."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "La guerre en Bosnie-Herzégovine (1992-1995) a été alimentée par des mémoires historiques réactivées : le souvenir de la collaboration des Oustachis croates pendant la SGM, les mythes fondateurs serbes (la bataille du Kosovo, 1389), l'instrumentalisation des identités religieuses (orthodoxes vs catholiques vs musulmans). Les politiciens nationalistes ont construit une propagande mémorielle pour mobiliser les populations.",
-        "correction": "Ce conflit illustre la 'manipulation mémorielle' comme instrument de mobilisation nationaliste et de légitimation de la violence."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Ce conflit illustre la 'manipulation mémorielle' comme instrument de mobilisation nationaliste et de légitimation de la violence."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Certains régimes autoritaires révolutionnaires (nazisme, communisme)",
-        "correct": 1,
         "correction": "Certains régimes cherchent à repartir de zéro en détruisant les symboles du passé (URSS et icônes religieuses, Daech et Palmyre) pour imposer un nouveau récit historique."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Les monuments commémoratifs (Arc de Triomphe, Verdun, statues, mémoriaux) matérialisent une mémoire dans l'espace public et la rendent pérenne. Ils indiquent quels événements et quelles valeurs une société juge dignes de mémoire. Leur construction, entretien et controverses (déboulonnages) reflètent les luttes pour l'hégémonie mémorielle.",
-        "correction": "La destruction de statues controversées (Edward Colston à Bristol en 2020) illustre la remise en cause des mémoires nationales dominantes par des mémoires minoritaires."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La destruction de statues controversées (Edward Colston à Bristol en 2020) illustre la remise en cause des mémoires nationales dominantes par des mémoires minoritaires."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Figer une interprétation du passé en lui donnant une légitimité officielle",
-        "correct": 1,
         "correction": "La patrimonialisation sélectionne et fige une interprétation du passé. Elle peut négliger certaines mémoires (ex : mémoire coloniale dans les musées ethnographiques) tout en valorisant d'autres."
       },
       {

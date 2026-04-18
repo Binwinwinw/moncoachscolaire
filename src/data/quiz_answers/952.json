@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Un arbitrage entre intérêts politiques, économiques et culturels",
-        "correct": 1,
         "correction": "L'analyse HGGSP repose sur les rapports de force et les compromis entre acteurs."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Le thème 'la gouvernance du climat' implique des décisions prises localement, encadrées par des normes nationales et internationales. L'acteur 'les COP' agit dans un système d'interdépendances où les effets politiques dépassent souvent le cadre local. Cette articulation d'échelles explique la dimension géopolitique du sujet.",
-        "correction": "Attendu : articulation local/national/international + rôle des acteurs."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Attendu : articulation local/national/international + rôle des acteurs."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "les négociations sur les trajectoires carbone",
-        "correct": 0,
         "correction": "L'exemple choisi doit permettre de discuter acteurs, normes et stratégies."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Piste opérationnelle : l'Accord de Paris (2015). Cette proposition est crédible car elle combine pilotage public, mise en œuvre concrète et critères d'évaluation.",
-        "correction": "On attend une proposition précise, faisable et justifiée."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. On attend une proposition précise, faisable et justifiée."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Identifier enjeux, acteurs, instruments et effets",
-        "correct": 0,
         "correction": "Cette méthode structure la démonstration et rend les arguments vérifiables."
       },
       {

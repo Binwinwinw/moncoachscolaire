@@ -25,18 +25,15 @@
           "Un désert sec",
           "Un sommet de montagne sans eau",
           "Une caverne sombre"
-        ],
-        "id": 1
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "La biodiversité peut aider un écosystème à résister aux changements.",
-        "id": 2
+        "question": "La biodiversité peut aider un écosystème à résister aux changements."
       },
       {
-        "type": "texte",
-        "question": "Décris un habitat où un oiseau migrateur pourrait vivre en été.",
-        "id": 3
+        "type": "vrai-faux",
+        "question": "Réponds en décrivant un habitat comme une forêt ou une prairie où un oiseau migrateur vit en été."
       },
       {
         "type": "qcm",
@@ -46,13 +43,11 @@
           "La grenouille",
           "Le saumon",
           "Le pingouin"
-        ],
-        "id": 4
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Un habitat offre de la nourriture, un abri et de l'eau aux organismes.",
-        "id": 5
+        "question": "Un habitat offre de la nourriture, un abri et de l'eau aux organismes."
       },
       {
         "type": "qcm",
@@ -62,13 +57,11 @@
           "La pluie naturelle",
           "La lumière du soleil",
           "Le vent"
-        ],
-        "id": 6
+        ]
       },
       {
-        "type": "texte",
-        "question": "Explique pourquoi certains animaux migrent en hiver.",
-        "id": 7
+        "type": "vrai-faux",
+        "question": "Réponds que les animaux migrent pour trouver de meilleures conditions climatiques et plus de nourriture."
       },
       {
         "type": "qcm",
@@ -78,10 +71,10 @@
           "Elle diminue l'eau disponible",
           "Elle augmente la température du sol",
           "Elle arrête la croissance des plantes"
-        ],
-        "id": 8
+        ]
       }
-    ]
+    ],
+    "type": "quiz"
   },
   "exercisenotion": [
     {

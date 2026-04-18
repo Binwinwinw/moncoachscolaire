@@ -33,8 +33,8 @@
         "question": "L'ARN messager (ARNm) contient de la thymine (T) comme l'ADN."
       },
       {
-        "type": "open",
-        "question": "Chez les eucaryotes, la transcription se déroule dans le _____, puis l'ARNm migre vers le cytoplasme."
+        "type": "vrai-faux",
+        "question": "L'ARNm est synthétisé dans le noyau ; il subit des modifications (épissage, coiffe, queue polyA) avant d'être exporté vers le cytoplasme."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Les procaryotes réalisent la transcription et la traduction de façon simultanée dans le cytoplasme."
       },
       {
-        "type": "open",
-        "question": "L'enzyme responsable de la transcription s'appelle l'_____ polymérase."
+        "type": "vrai-faux",
+        "question": "L'ARN polymérase utilise les nucléotides d'ARN (A, U, G, C) et le brin antisens d'ADN comme matrice."
       },
       {
         "type": "qcm",

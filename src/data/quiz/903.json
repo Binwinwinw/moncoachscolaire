@@ -20,18 +20,20 @@
       {
         "type": "qcm",
         "question": "Quel organisme est un producteur dans un écosystème ?",
-        "choices": ["Une plante", "Un renard", "Un champignon", "Un loup"],
-        "id": 1
+        "choices": [
+          "Une plante",
+          "Un renard",
+          "Un champignon",
+          "Un loup"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Un consommateur primaire mange principalement des plantes.",
-        "id": 2
+        "question": "Un consommateur primaire mange principalement des plantes."
       },
       {
-        "type": "texte",
-        "question": "Explique en anglais pourquoi les producteurs sont importants pour une chaîne alimentaire.",
-        "id": 3
+        "type": "vrai-faux",
+        "question": "Réponds en expliquant que les producteurs fournissent l'énergie de base pour toute la chaîne alimentaire."
       },
       {
         "type": "qcm",
@@ -41,13 +43,11 @@
           "Il décompose les déchets",
           "Il produit son propre aliment",
           "Il absorbe la lumière"
-        ],
-        "id": 4
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Les décomposeurs transforment les organismes morts en nutriments.",
-        "id": 5
+        "question": "Les décomposeurs transforment les organismes morts en nutriments."
       },
       {
         "type": "qcm",
@@ -57,13 +57,11 @@
           "Un producteur",
           "Un décomposeur",
           "Un herbivore"
-        ],
-        "id": 6
+        ]
       },
       {
-        "type": "texte",
-        "question": "Donne un exemple d'un consommateur secondaire dans un écosystème.",
-        "id": 7
+        "type": "vrai-faux",
+        "question": "Réponds par un exemple comme un renard qui mange un lapin, soit un consommateur secondaire."
       },
       {
         "type": "qcm",
@@ -73,10 +71,10 @@
           "Elle arrête la croissance des plantes",
           "Elle empêche les animaux de bouger",
           "Elle remplace la photosynthèse"
-        ],
-        "id": 8
+        ]
       }
-    ]
+    ],
+    "type": "quiz"
   },
   "exercisenotion": [
     {

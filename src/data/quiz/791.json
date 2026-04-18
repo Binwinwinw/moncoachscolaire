@@ -33,8 +33,8 @@
         "question": "Un mot de passe fort doit combiner majuscules, minuscules, chiffres et caracteres speciaux."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on l'attaque qui tente de voler des identifiants en simulant un site web ou courriel officiel ?"
+        "type": "vrai-faux",
+        "question": "Le phishing (hameconnage) imite l'identite de banques, services publics ou reseaux sociaux pour inciter les victimes a saisir leurs identifiants sur de faux sites."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Il est securise de se connecter a des services sensibles (banque) depuis un reseau Wi-Fi public non protege."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on l'outil logiciel qui chiffre le trafic internet et masque l'adresse IP de l'utilisateur ?"
+        "type": "vrai-faux",
+        "question": "Un VPN (Virtual Private Network) cree un tunnel chiffre entre le client et un serveur distant, protégeant la confidentialite et permettant d'acceder a des contenus geo-restreints."
       },
       {
         "type": "qcm",

@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'encéphale (cerveau, cervelet, tronc cérébral) et la moelle épinière",
-        "correct": 1,
         "correction": "Le SNC traite l'information ; le système nerveux périphérique (SNP) relie le SNC aux organes."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "saltatoire",
-        "correction": "La conduction saltatoire : l'influx saute de noeud de Ranvier en noeud de Ranvier, beaucoup plus vite que sur un axone non myélinisé."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La conduction saltatoire : l'influx saute de noeud de Ranvier en noeud de Ranvier, beaucoup plus vite que sur un axone non myélinisé."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Une variation transitoire et stéréotypée du potentiel de membrane qui se propage le long de l'axone",
-        "correct": 1,
         "correction": "Le potentiel d'action (PA) est déclenché quand le potentiel de membrane dépasse un seuil ; il se propage de façon non décrémentielle."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "mouvements",
-        "correction": "Le cervelet coordonne les mouvements volontaires et maintient l'équilibre ; ses lésions entraînent des troubles de la coordination (ataxie)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le cervelet coordonne les mouvements volontaires et maintient l'équilibre ; ses lésions entraînent des troubles de la coordination (ataxie)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Lobe frontal gauche",
-        "correct": 2,
         "correction": "L'aire de Broca (lobe frontal gauche) contrôle la production du langage ; l'aire de Wernicke (lobe temporal) contrôle sa compréhension."
       },
       {

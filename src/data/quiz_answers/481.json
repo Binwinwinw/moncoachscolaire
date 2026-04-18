@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Métaphore",
-        "correct": 1,
         "correction": "La métaphore est une comparaison implicite sans 'comme', 'tel que', etc."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "anaphore",
-        "correction": "L'anaphore (ex. 'Je t'aime… Je t'aime…') crée un effet d'insistance et de rythme."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'anaphore (ex. 'Je t'aime… Je t'aime…') crée un effet d'insistance et de rythme."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Synecdoque",
-        "correct": 1,
         "correction": "La synecdoque prend la partie pour le tout ou inversement."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "oxymore",
-        "correction": "Ex. : 'obscure clarté' (Corneille) ; 'douce violence' → oxymore."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Ex. : 'obscure clarté' (Corneille) ; 'douce violence' → oxymore."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Litote",
-        "correct": 2,
         "correction": "La litote dit moins pour laisser entendre plus : 'Je ne le hais point' (Chimène dans Le Cid) = 'Je l'aime'."
       },
       {

@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La génétique mendélienne, la génétique des populations, la paléontologie et la sélection naturelle darwinienne",
-        "correct": 1,
         "correction": "La Synthèse Moderne (années 1930-1950, Dobzhansky, Mayr, Simpson, Huxley) unifie Darwin et Mendel ; les mécanismes sont : mutation, sélection, dérive génétique, flux génétique."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "trophiques",
-        "correction": "La niche écologique (Hutchinson) est multidimensionnelle : ressources alimentaires, habitat, comportement, interactions ; deux espèces à niche identique ne coexistent pas (principe d'exclusion compétitive)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La niche écologique (Hutchinson) est multidimensionnelle : ressources alimentaires, habitat, comportement, interactions ; deux espèces à niche identique ne coexistent pas (principe d'exclusion compétitive)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Alterne de longues périodes de stase et de courtes periodes de changements rapides lors des spéciations",
-        "correct": 1,
         "correction": "L'équilibre ponctué s'oppose au gradualisme strict ; il expliquerait les 'manques' du registre fossile par des spéciations géographiquement localisées et rapides à l'échelle géologique."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "compétitive",
-        "correction": "L'exclusion compétitive (Gause 1934) a été vérifiée expérimentalement avec Paramecium aurelia et P. caudatum ; en nature, la différenciation de niche permet la coexistence."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'exclusion compétitive (Gause 1934) a été vérifiée expérimentalement avec Paramecium aurelia et P. caudatum ; en nature, la différenciation de niche permet la coexistence."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Les carnivores de 3e ordre sont très rares car chaque transfert perd ~90 % de l'énergie",
-        "correct": 1,
         "correction": "Energie disponible diminue de 90 % à chaque niveau : 1000 kg végétaux → 100 kg herbivores → 10 kg carnivores 1 → 1 kg supercarnivores ; pyramide de biomasse / énergie."
       },
       {

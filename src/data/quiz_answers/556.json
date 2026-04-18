@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La bataille de Verdun",
-        "correct": 1,
         "correction": "La bataille de Verdun (février-décembre 1916) fait environ 300 000 morts ; elle symbolise la guerre d'usure et devient un lieu de mémoire majeur."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "poilus",
-        "correction": "Le terme 'poilu' désigne le soldat français de la Première Guerre mondiale, qui ne peut se raser en première ligne."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le terme 'poilu' désigne le soldat français de la Première Guerre mondiale, qui ne peut se raser en première ligne."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Les gaz de combat (armes chimiques)",
-        "correct": 1,
         "correction": "L'Allemagne utilise le gaz chlore à Ypres en 1915 ; le gaz moutarde (ypérite) est introduit en 1917. Ces armes chimiques causent des souffrances atroces."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "tranchées",
-        "correction": "Les tranchées forment un réseau de fossés parallèles reliés par des boyaux ; les soldats y vivent dans des conditions épouvantables."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les tranchées forment un réseau de fossés parallèles reliés par des boyaux ; les soldats y vivent dans des conditions épouvantables."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Les États-Unis",
-        "correct": 2,
         "correction": "Les États-Unis entrent en guerre en avril 1917 après la guerre sous-marine à outrance de l'Allemagne et l'affaire Zimmermann."
       },
       {

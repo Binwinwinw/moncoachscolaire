@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Objet de transport et deplacement",
-        "correct": 1,
         "correction": "Les vehicules (voitures, avions, bateaux) appartiennent a la famille des objets de transport ; ils transforment de l'energie pour produire un mouvement."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "ergonomie",
-        "correction": "L'ergonomie etudie l'adaptation des outils et objets a l'utilisateur humain pour reduire la fatigue, les erreurs et ameliorer le confort."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'ergonomie etudie l'adaptation des outils et objets a l'utilisateur humain pour reduire la fatigue, les erreurs et ameliorer le confort."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Ce a quoi il sert, son utilite principale pour l'utilisateur",
-        "correct": 1,
         "correction": "La fonction d'usage decrit ce que l'objet fait pour repondre au besoin (ex. une lampe : produire de la lumiere). Elle se distingue de la fonction d'estime (esthetique)."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "diagramme FAST",
-        "correction": "Le diagramme FAST (Function Analysis System Technique) decompose les fonctions d'un produit en repondant aux questions 'Pourquoi ?', 'Comment ?' et 'Quand ?'."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le diagramme FAST (Function Analysis System Technique) decompose les fonctions d'un produit en repondant aux questions 'Pourquoi ?', 'Comment ?' et 'Quand ?'."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Elasticite",
-        "correct": 1,
         "correction": "L'elasticite est la propriete d'un materiau a se deformer reversiblement (comme le caoutchouc ou un ressort) et retrouver sa forme initiale."
       },
       {

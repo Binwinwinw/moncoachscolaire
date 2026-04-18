@@ -33,8 +33,8 @@
         "question": "Le code génétique est universel : les mêmes codons codent les mêmes acides aminés chez presque tous les êtres vivants."
       },
       {
-        "type": "open",
-        "question": "L'ARN de transfert (ARNt) est l'adaptateur moléculaire qui porte un acide aminé et reconnaît le codon correspondant de l'ARNm grâce à son _____."
+        "type": "vrai-faux",
+        "question": "L'anticodon de l'ARNt est complémentaire du codon de l'ARNm ; cette reconnaissance assure la spécificité de la traduction."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La traduction commence toujours par le codon AUG qui code pour la méthionine."
       },
       {
-        "type": "open",
-        "question": "Les codons UAA, UAG et UGA sont des codons _____ qui terminent la traduction."
+        "type": "vrai-faux",
+        "question": "Les trois codons stop (non-sens) ne codent aucun acide aminé ; ils signalent la fin de la traduction et la libération de la protéine."
       },
       {
         "type": "qcm",

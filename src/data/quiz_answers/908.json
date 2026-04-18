@@ -7,57 +7,65 @@
   "quiz": {
     "title": "Anglais - Le rôle des animaux dans l'écosystème",
     "question_count": 8,
+    "level": "5eme",
+    "subject": "SVT",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
+        "answer": "",
         "correction": "La bonne réponse est ‘Il transporte le pollen entre les plantes’."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
+        "answer": "faux",
         "correction": "Vrai. Les animaux peuvent aider à disperser les graines."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correction": "Réponds en expliquant qu'un oiseau transporte du pollen ou des graines d'une plante à l'autre."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Réponds en expliquant qu'un oiseau transporte du pollen ou des graines d'une plante à l'autre."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
+        "answer": "",
         "correction": "La bonne réponse est ‘Un renard’. C'est un prédateur forestier typique."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
+        "answer": "faux",
         "correction": "Vrai. Les herbivores mangent principalement des plantes."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "qcm",
+        "answer": "",
         "correction": "La bonne réponse est ‘Recycler la matière organique’."
       },
       {
         "index": 6,
         "question_id": 7,
-        "type": "texte",
-        "correction": "Réponds pourquoi une grande diversité d'animaux rend un écosystème plus équilibré."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Réponds pourquoi une grande diversité d'animaux rend un écosystème plus équilibré."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "qcm",
+        "answer": "",
         "correction": "La bonne réponse est ‘La pollinisation’. C'est une interaction positive entre plantes et animaux."
       }
-    ],
-    "level": "5eme",
-    "subject": "SVT"
+    ]
   }
 }

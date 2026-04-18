@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Ils fabriquent la matière organique à partir de matière minérale",
-        "correct": 1,
         "correction": "Par photosynthèse, ils constituent la base de la plupart des réseaux trophiques terrestres et aquatiques."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "puits",
-        "correction": "Les forêts, les océans et certains sols peuvent agir comme puits de carbone en stockant du carbone sur le long terme."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les forêts, les océans et certains sols peuvent agir comme puits de carbone en stockant du carbone sur le long terme."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "L'eutrophisation",
-        "correct": 1,
         "correction": "La décomposition des algues consomme beaucoup de dioxygène et peut asphyxier les organismes aquatiques."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "serre",
-        "correction": "Ces gaz piègent une partie du rayonnement infrarouge et modifient l'équilibre énergétique de la planète."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Ces gaz piègent une partie du rayonnement infrarouge et modifient l'équilibre énergétique de la planète."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Préserver les habitats et limiter l'artificialisation des sols",
-        "correct": 1,
         "correction": "La destruction et la fragmentation des habitats figurent parmi les premières causes d'érosion de la biodiversité."
       },
       {

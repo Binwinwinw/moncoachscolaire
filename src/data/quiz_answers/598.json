@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Capacités économiques, diplomatiques, militaires et culturelles",
-        "correct": 1,
         "correction": "La puissance est multidimensionnelle."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "ONU",
-        "correction": "L'Organisation des Nations Unies structure la coopération internationale."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'Organisation des Nations Unies structure la coopération internationale."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Un acteur étatique et un acteur non étatique aux moyens inégaux",
-        "correct": 1,
         "correction": "Ce type de conflit est fréquent au XXIe siècle."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "civils",
-        "correction": "Il encadre la conduite des hostilités."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Il encadre la conduite des hostilités."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La recomposition de la hiérarchie des puissances",
-        "correct": 1,
         "correction": "Le système international devient plus multipolaire."
       },
       {

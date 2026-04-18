@@ -33,8 +33,8 @@
         "question": "Le Conseil de sécurité de l'ONU compte 5 membres permanents avec droit de veto."
       },
       {
-        "type": "open",
-        "question": "Quelles sont les limites du droit de veto dans le fonctionnement du Conseil de sécurité ?"
+        "type": "vrai-faux",
+        "question": "Le veto permet à chaque P5 de bloquer toute résolution, même en cas de génocide ou crime contre l'humanité."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "L'échec de l'ONU au Rwanda en 1994 a conduit à une réforme des opérations de maintien de la paix."
       },
       {
-        "type": "open",
-        "question": "Quelle est la différence entre une opération de maintien de la paix et une opération d'imposition de la paix ?"
+        "type": "vrai-faux",
+        "question": "Maintien de la paix (peacekeeping) : déployé avec l'accord des belligérants pour surveiller un cessez-le-feu, usage de la force minimal."
       },
       {
         "type": "qcm",

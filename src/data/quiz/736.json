@@ -33,8 +33,8 @@
         "question": "La fréquence d'un signal correspond au nombre de cycles effectués en une seconde."
       },
       {
-        "type": "open",
-        "question": "Quelle est la fréquence du courant alternatif distribué dans les foyers français ?"
+        "type": "vrai-faux",
+        "question": "Le courant alternatif du réseau électrique français a une fréquence de 50 Hz, soit 50 cycles par seconde."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La valeur efficace d'une tension sinusoïdale est égale à sa valeur maximale."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on le signal dont la tension varie sinusoïdalement en fonction du temps ?"
+        "type": "vrai-faux",
+        "question": "Signal sinusoïdal (ou courant alternatif sinusoïdal)."
       },
       {
         "type": "qcm",

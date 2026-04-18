@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le processus par lequel une nouvelle espèce se forme à partir d'une population ancestrale",
-        "correct": 1,
         "correction": "La spéciation aboutit à une nouvelle espèce reproductiblement isolée de l'espèce souche."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "hybrides",
-        "correction": "Le concept d'espèce biologique de Mayr : une espèce est un groupe de populations qui s'intercroisent et produisent des descendants fertiles."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le concept d'espèce biologique de Mayr : une espèce est un groupe de populations qui s'intercroisent et produisent des descendants fertiles."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Une espèce ancestrale donne naissance à de nombreuses espèces adaptées à différentes niches écologiques",
-        "correct": 1,
         "correction": "Ex. : les pinsons de Darwin aux Galapagos ; une espèce de pinsons ancestrale a donné 14 espèces différentes adaptées à différentes sources de nourriture."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "parenté",
-        "correction": "La systématique phylogénétique (cladistique) regroupe les organismes partageant un ancêtre commun exclusif."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La systématique phylogénétique (cladistique) regroupe les organismes partageant un ancêtre commun exclusif."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "100 à 1000 fois supérieurs aux taux naturels à cause des activités humaines",
-        "correct": 2,
         "correction": "La 6e extinction de masse est en cours : destructions d'habitats, surexploitation, pollution, espèces invasives et changement climatique en sont les causes."
       },
       {

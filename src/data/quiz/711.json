@@ -33,8 +33,8 @@
         "question": "Une solution de pH 3 est plus acide qu'une solution de pH 5."
       },
       {
-        "type": "open",
-        "question": "Quel est le pH d'une solution neutre à 25°C ?"
+        "type": "vrai-faux",
+        "question": "Une solution neutre a un pH = 7 à 25°C, correspondant à [H+] = [OH-] = 10^-7 mol/L."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Le jus de citron est basique."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on un indicateur coloré qui prend des couleurs différentes selon le pH de la solution ?"
+        "type": "vrai-faux",
+        "question": "Indicateur coloré acido-basique."
       },
       {
         "type": "qcm",

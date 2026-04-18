@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Virus",
-        "correct": 2,
         "correction": "Le VIH (Virus de l'Immunodéficience Humaine) est un rétrovirus qui attaque le système immunitaire."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "SIDA",
-        "correction": "Le SIDA (Syndrome d'Immunodéficience Acquise) est le stade avancé de l'infection par le VIH, caractérisé par une immunodépression sévère."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le SIDA (Syndrome d'Immunodéficience Acquise) est le stade avancé de l'infection par le VIH, caractérisé par une immunodépression sévère."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Par les relations sexuelles non protégées, le sang contaminé et la transmission mère-enfant",
-        "correct": 1,
         "correction": "Le VIH se transmet par voie sexuelle, sanguine et verticale (mère à enfant lors de la grossesse, accouchement ou allaitement)."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "traitement antirétroviral",
-        "correction": "Les antirétroviraux (ARV) bloquent la réplication du VIH et permettent aux personnes séropositives de vivre longtemps en bonne santé."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les antirétroviraux (ARV) bloquent la réplication du VIH et permettent aux personnes séropositives de vivre longtemps en bonne santé."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Test ELISA (sérologie VIH)",
-        "correct": 1,
         "correction": "Le test ELISA détecte les anticorps anti-VIH dans le sang ; un résultat positif est confirmé par un Western blot."
       },
       {

@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "C",
+        "answer": "Déterminer le domaine de définition",
         "correction": "On commence par le domaine de définition D(f), puis parité/périodicité, limites, dérivée, variations, etc."
       },
       {
@@ -27,15 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "f'(x) = (1−x)e^(−x). f'=0 en x=1. f croissante sur ]−∞;1], décroissante sur [1;+∞[. Maximum en x=1 : f(1)=1/e.",
-        "correction": "f'(x) = e^(−x) + x·(−e^(−x)) = (1−x)e^(−x). Signe de f' = signe de (1−x) : + sur ]−∞;1[, − sur ]1;+∞[."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. f'(x) = e^(−x) + x·(−e^(−x)) = (1−x)e^(−x). Signe de f' = signe de (1−x) : + sur ]−∞;1[, − sur ]1;+∞[."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "B",
+        "answer": "Un minimum local",
         "correction": "Critère de la dérivée seconde : f'(a)=0 et f''(a)>0 → minimum local en a."
       },
       {
@@ -48,15 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Maximum local en x=−1 : f(−1)=2/3 ; minimum local en x=1 : f(1)=−2/3.",
-        "correction": "f'=x²−1=0 → x=±1. f''=2x : f''(−1)=−2<0 (max), f''(1)=2>0 (min)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. f'=x²−1=0 → x=±1. f''=2x : f''(−1)=−2 0 (min)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "B",
+        "answer": "La plus grande valeur atteinte par f sur son domaine",
         "correction": "Le maximum (global) de f est la plus grande valeur de f(x) sur tout le domaine."
       },
       {

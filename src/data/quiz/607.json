@@ -33,8 +33,8 @@
         "question": "Les mutations sont toujours néfastes pour l'organisme."
       },
       {
-        "type": "open",
-        "question": "La mutation qui change un seul nucléotide (substitution d'une base par une autre) est appelée mutation _____."
+        "type": "vrai-faux",
+        "question": "La mutation ponctuelle (substitution) est la plus fréquente ; elle peut être silencieuse, faux-sens ou non-sens selon son effet sur le codon."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La drépanocytose est une maladie génétique causée par une mutation ponctuelle dans le gène de l'hémoglobine."
       },
       {
-        "type": "open",
-        "question": "Les systèmes de réparation de l'ADN permettent de corriger la majorité des erreurs de _____ et des dommages mutagènes."
+        "type": "vrai-faux",
+        "question": "Les mécanismes de réparation (excision de nucléotides, réparation par mésappariement) réduisent considérablement le taux de mutations."
       },
       {
         "type": "qcm",

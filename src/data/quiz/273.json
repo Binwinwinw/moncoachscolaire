@@ -33,8 +33,8 @@
         "question": "Les isotopes d'un même élément chimique ont le même nombre de protons mais un nombre de neutrons différent."
       },
       {
-        "type": "open",
-        "question": "Définissez la notion de mole en chimie et donnez la valeur de la constante d'Avogadro."
+        "type": "vrai-faux",
+        "question": "La mole est la quantité de matière contenant 6,022 × 10²³ entités (atomes, molécules, ions)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La liaison covalente résulte du partage d'une ou plusieurs paires d'électrons entre deux atomes."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce que l'électronégativité et comment influence-t-elle la polarité des liaisons ?"
+        "type": "vrai-faux",
+        "question": "L'électronégativité est la tendance d'un atome à attirer les électrons d'une liaison vers lui."
       },
       {
         "type": "qcm",

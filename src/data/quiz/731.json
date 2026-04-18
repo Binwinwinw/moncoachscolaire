@@ -33,8 +33,8 @@
         "question": "Le rouge a une longueur d'onde plus grande que le violet dans le spectre visible."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on l'instrument utilisé pour analyser les différentes longueurs d'onde composant une source lumineuse ?"
+        "type": "vrai-faux",
+        "question": "Un spectroscope permet de décomposer la lumière en son spectre et d'analyser les raies d'émission ou d'absorption."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Chaque élément chimique a un spectre d'émission unique qui peut être utilisé pour l'identifier."
       },
       {
-        "type": "open",
-        "question": "Quelle est la gamme de longueurs d'onde de la lumière ultraviolette (UV) ?"
+        "type": "vrai-faux",
+        "question": "La lumière UV s'étend de 10 nm à 400 nm, en dessous du violet du spectre visible."
       },
       {
         "type": "qcm",

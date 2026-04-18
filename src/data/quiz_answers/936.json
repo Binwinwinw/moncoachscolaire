@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Construire et transmettre une identité nationale",
-        "correct": 1,
         "correction": "L'État investit dans les lieux de mémoire pour fédérer les citoyens autour d'un récit national commun, légitimer les institutions et transmettre des valeurs civiques."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Les gouvernements peuvent sélectionner, amplifier ou minimiser certains événements pour servir des objectifs politiques : légitimer un régime (culte des ancêtres de la Révolution), souder la nation face à un ennemi commun, effacer des pages sombres (régimes autoritaires), ou conquérir un électorat (mémoires communautaires). Exemples : mythification de la Résistance sous de Gaulle, réécriture de l'histoire soviétique.",
-        "correction": "L'historien Henry Rousso parle de 'politique de la mémoire' pour désigner l'usage stratégique du passé par les acteurs politiques."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'historien Henry Rousso parle de 'politique de la mémoire' pour désigner l'usage stratégique du passé par les acteurs politiques."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La victoire des Alliés et la fin de la Seconde Guerre mondiale en Europe",
-        "correct": 2,
         "correction": "Le 8 mai 1945 est la date de la capitulation de l'Allemagne nazie. Le 11 novembre commémore l'armistice de 1918. Ces dates sont des 'lieux de mémoire' temporels en France."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Le 'roman national' est un récit historique simplificateur et héroïque présentant l'histoire d'une nation comme linéaire, glorieuse et unifiée. Il efface les conflits internes, les dominations et les pages sombres. Ses limites : il favorise l'exclusion des mémoires minoritaires, peut masquer les injustices historiques et crée des tensions quand d'autres mémoires émergent.",
-        "correction": "L'historienne Suzanne Citron a critiqué le roman national français pour son eurocentrisme et son oubli des populations colonisées."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'historienne Suzanne Citron a critiqué le roman national français pour son eurocentrisme et son oubli des populations colonisées."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La rivalité entre différents groupes pour faire reconnaître leur mémoire dans l'espace public",
-        "correct": 1,
         "correction": "Plusieurs groupes (descendants d'esclaves, harkis, pieds-noirs, Arméniens, Juifs…) revendiquent la reconnaissance officielle de leurs mémoires. Ces revendications peuvent entrer en concurrence pour la visibilité et les commémorations."
       },
       {

@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Par refroidissement et solidification du magma",
-        "correct": 2,
         "correction": "Les roches magmatiques : plutoniques (refroidissement lent en profondeur, ex : granite) et volcaniques (refroidissement rapide en surface, ex : basalte, obsidienne)."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "pression",
-        "correction": "Le métamorphisme (sans fusion partielle) produit de nouvelles associations minérales (ex : argile → schiste → gneiss → migmatite)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le métamorphisme (sans fusion partielle) produit de nouvelles associations minérales (ex : argile → schiste → gneiss → migmatite)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La transformation continue des roches entre les types sédimentaire, métamorphique et magmatique",
-        "correct": 1,
         "correction": "Le cycle lithologique (Hutton XVIII°) : toute roche peut être transformée en une autre par érosion, sédimentation, enfouissement, métamorphisme, fusion ou solidification."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "éclogites",
-        "correction": "Les éclogites (haute pression, haute température) et les schistes bleus (haute pression, basse température) se forment dans la plaque plongeante."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les éclogites (haute pression, haute température) et les schistes bleus (haute pression, basse température) se forment dans la plaque plongeante."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La fusion partielle d'une roche métamorphique donnant naissance à un magma",
-        "correct": 1,
         "correction": "L'anatexie produit des migmatites (roche à deux phases : cristalline et fondue) ; à forte fusion partielle, un magma granitique peut se séparer et remonter."
       },
       {

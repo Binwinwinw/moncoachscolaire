@@ -14,7 +14,7 @@
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "A",
+        "answer": "6 cm",
         "correction": "2(l + 2l) = 36 → 6l = 36 → l = 6 cm."
       },
       {
@@ -27,15 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Marie a 13 ans",
-        "correction": "Marie = x, Paul = x + 5. x + x + 5 = 31 → 2x = 26 → x = 13."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Marie = x, Paul = x + 5. x + x + 5 = 31 → 2x = 26 → x = 13."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "B",
+        "answer": "2 h",
         "correction": "Débit : 1/3 + 1/6 = 2/6 + 1/6 = 3/6 = 1/2 cuves/h → 2 h."
       },
       {
@@ -48,15 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Après 2 h de marche du rapide",
-        "correction": "Le lent a 80 km d'avance. 120t = 80t + 80 → 40t = 80 → t = 2 h."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le lent a 80 km d'avance. 120t = 80t + 80 → 40t = 80 → t = 2 h."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "B",
+        "answer": "15",
         "correction": "n + (n+1) + (n+2) = 48 → 3n + 3 = 48 → n = 15."
       },
       {

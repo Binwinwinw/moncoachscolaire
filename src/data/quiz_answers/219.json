@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Présenter le texte et formuler une problématique",
-        "correct": 1,
         "correction": "L'introduction situe le texte (auteur, œuvre, contexte utile) puis annonce l'angle d'analyse. La problématique guide tout le développement."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "problématique",
-        "correction": "La problématique pose la question centrale à laquelle l'analyse répond. Elle donne une cohérence à l'ensemble du devoir."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La problématique pose la question centrale à laquelle l'analyse répond. Elle donne une cohérence à l'ensemble du devoir."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "De plus",
-        "correct": 1,
         "correction": "« De plus » ajoute un élément convergent. C'est un connecteur d'addition utile pour renforcer une démonstration."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "citation",
-        "correction": "La citation sert d'appui précis à l'analyse. Elle doit être intégrée à la phrase et expliquée."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La citation sert d'appui précis à l'analyse. Elle doit être intégrée à la phrase et expliquée."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La concession",
-        "correct": 1,
         "correction": "La concession oppose un fait à ce qu'on attendrait logiquement. « Bien que » est un marqueur typique de cette relation."
       },
       {

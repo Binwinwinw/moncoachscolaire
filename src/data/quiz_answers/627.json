@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "L'ensemble formé par une communauté d'êtres vivants (biocénose) et leur environnement physique (biotope)",
-        "correct": 1,
         "correction": "Un écosystème = biocénose (êtres vivants) + biotope (milieu physique : eau, sol, air, température, lumière)."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "recyclage",
-        "correction": "Les décomposeurs ferment la boucle des cycles biogéochimiques en minéralisant la matière organique, rendant les nutriments disponibles pour les producteurs."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les décomposeurs ferment la boucle des cycles biogéochimiques en minéralisant la matière organique, rendant les nutriments disponibles pour les producteurs."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La production de matière organique par les végétaux moins ce qui est consommé par la respiration des végétaux",
-        "correct": 1,
         "correction": "PPN = Production Primaire Brute (PPB) - Respiration autotrophe. La PPN est la biomasse disponible pour les consommateurs."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "écosystème",
-        "correction": "La niche écologique est multidimensionnelle ; deux espèces occupant la même niche entrent en compétition (principe d'exclusion compétitive de Gause)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La niche écologique est multidimensionnelle ; deux espèces occupant la même niche entrent en compétition (principe d'exclusion compétitive de Gause)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Les bénéfices que les humains tirent des écosystèmes (eau potable, air pur, pollinisation, régulation climatique)",
-        "correct": 1,
         "correction": "Services d'approvisionnement (nourriture), de régulation (climatique, inondations), culturels (tourisme) et de soutien (cycle des nutriments)."
       },
       {

@@ -25,18 +25,15 @@
           "Il décompose la matière organique",
           "Il produit de l'oxygène",
           "Il capture les proies"
-        ],
-        "id": 1
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Les animaux peuvent aider à disperser les graines.",
-        "id": 2
+        "question": "Les animaux peuvent aider à disperser les graines."
       },
       {
-        "type": "texte",
-        "question": "Décris comment un oiseau peut aider une plante à se reproduire.",
-        "id": 3
+        "type": "vrai-faux",
+        "question": "Réponds en expliquant qu'un oiseau transporte du pollen ou des graines d'une plante à l'autre."
       },
       {
         "type": "qcm",
@@ -46,13 +43,11 @@
           "Une chenille",
           "Une graine",
           "Une pierre"
-        ],
-        "id": 4
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Les herbivores mangent principalement des plantes.",
-        "id": 5
+        "question": "Les herbivores mangent principalement des plantes."
       },
       {
         "type": "qcm",
@@ -62,13 +57,11 @@
           "Chasser les proies",
           "Produire des graines",
           "Nager dans l'eau"
-        ],
-        "id": 6
+        ]
       },
       {
-        "type": "texte",
-        "question": "Explique pourquoi la diversité des animaux est importante dans un écosystème.",
-        "id": 7
+        "type": "vrai-faux",
+        "question": "Réponds pourquoi une grande diversité d'animaux rend un écosystème plus équilibré."
       },
       {
         "type": "qcm",
@@ -78,10 +71,10 @@
           "La compétition pour l'eau",
           "La prédation",
           "La pollution"
-        ],
-        "id": 8
+        ]
       }
-    ]
+    ],
+    "type": "quiz"
   },
   "exercisenotion": [
     {

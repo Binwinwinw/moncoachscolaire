@@ -7,57 +7,65 @@
   "quiz": {
     "title": "Anglais - Le cycle de l'eau en SVT",
     "question_count": 8,
+    "level": "5eme",
+    "subject": "SVT",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
+        "answer": "",
         "correction": "La bonne réponse est ‘L'évaporation’. C'est la transformation de l'eau en vapeur."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
+        "answer": "faux",
         "correction": "Vrai. La condensation transforme la vapeur en gouttes d'eau."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correction": "Réponds en décrivant la formation de la pluie lorsque la vapeur d'eau se refroidit."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Réponds en décrivant la formation de la pluie lorsque la vapeur d'eau se refroidit."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
+        "answer": "",
         "correction": "La bonne réponse est ‘Dans le sol’. L'eau s'infiltre dans le sol après la pluie."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
+        "answer": "faux",
         "correction": "Vrai. L'eau de la mer peut aussi s'évaporer et rejoindre les nuages."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "qcm",
+        "answer": "",
         "correction": "La bonne réponse est ‘Elles transpirent de l'eau dans l'air’."
       },
       {
         "index": 6,
         "question_id": 7,
-        "type": "texte",
-        "correction": "Réponds en expliquant que l'eau est nécessaire pour les cellules et les réactions de la vie."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Réponds en expliquant que l'eau est nécessaire pour les cellules et les réactions de la vie."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "qcm",
+        "answer": "",
         "correction": "La bonne réponse est ‘La photosynthèse’. Elle ne fait pas partie du cycle de l'eau."
       }
-    ],
-    "level": "5eme",
-    "subject": "SVT"
+    ]
   }
 }

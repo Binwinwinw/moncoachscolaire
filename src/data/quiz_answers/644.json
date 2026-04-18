@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Homozygote pour l'allèle muté (deux allèles malades)",
-        "correct": 1,
         "correction": "Récessive : il faut deux copies de l'allèle muté pour que la maladie s'exprime ; les hétérozygotes sont porteurs sains (ex : mucoviscidose, drépanocytose)."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "CFTR",
-        "correction": "La délétion ΔF508 (70 % des allèles CF en Europe) supprime un acide aminé du CFTR → protéine non fonctionnelle → mucus épais dans les poumons, pancréas, intestin."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La délétion ΔF508 (70 % des allèles CF en Europe) supprime un acide aminé du CFTR → protéine non fonctionnelle → mucus épais dans les poumons, pancréas, intestin."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Autosomique récessive (les deux parents sont porteurs hétérozygotes)",
-        "correct": 1,
         "correction": "Si Aa × Aa → 25 % AA (sain), 50 % Aa (porteur sain), 25 % aa (atteint) ; c'est la règle de Mendel pour une maladie autosomique récessive."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "hypothyroïdie",
-        "correction": "Le test de Guthrie (quelques gouttes de sang sur buvard à J3) dépiste phénylcétonurie, hypothyroïdie, mucoviscidose, drépanocytose, hyperplasie surrénalienne, MCADD."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le test de Guthrie (quelques gouttes de sang sur buvard à J3) dépiste phénylcétonurie, hypothyroïdie, mucoviscidose, drépanocytose, hyperplasie surrénalienne, MCADD."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Introduire un gène fonctionnel dans les cellules d'un patient pour corriger un déficit génétique",
-        "correct": 1,
         "correction": "La thérapie génique (ex : Zynteglo pour la β-thalassémie, Luxturna pour l'amaurose de Leber) utilise des vecteurs viraux (AAV) pour délivrer le gène thérapeutique."
       },
       {

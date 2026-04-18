@@ -33,8 +33,8 @@
         "question": "La Chine applique un modèle de gouvernance nationale d'Internet très restrictif, la 'Grande Muraille numérique'."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce que la neutralité du Net et pourquoi est-elle débattue ?"
+        "type": "vrai-faux",
+        "question": "La neutralité du Net est le principe selon lequel tous les flux de données doivent être traités de façon égale par les opérateurs (sans discrimination par source, destination ou type)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Le Forum sur la gouvernance d'Internet (FGI / IGF) est un organe décisionnel de l'ONU."
       },
       {
-        "type": "open",
-        "question": "Expliquez les enjeux de la souveraineté numérique pour les États européens."
+        "type": "vrai-faux",
+        "question": "La souveraineté numérique désigne la capacité d'un État à maîtriser ses données, ses infrastructures et ses règles dans le cyberespace."
       },
       {
         "type": "qcm",

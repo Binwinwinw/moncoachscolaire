@@ -33,8 +33,8 @@
         "question": "ln(x) > 1 ⟺ x > e."
       },
       {
-        "type": "open",
-        "question": "Résous ln(x² − 3x + 2) = 0."
+        "type": "vrai-faux",
+        "question": "X = 0 ou x = 3 (avec vérification x²−3x+2 > 0)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Résoudre ln(f(x)) = k revient à résoudre f(x) = eᵏ avec f(x) > 0."
       },
       {
-        "type": "open",
-        "question": "Résous ln(x) + ln(x+2) = ln(8)."
+        "type": "vrai-faux",
+        "question": "Ln(x(x+2)) = ln(8) ⟺ x²+2x = 8 ⟺ x²+2x−8=0 ⟺ (x+4)(x−2)=0."
       },
       {
         "type": "qcm",

@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le Moyen ge (IXe-XVe siècle)",
-        "correct": 1,
         "correction": "La littérature française commence au Moyen ge : Serments de Strasbourg (842), Chanson de Roland, roman courtois…"
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "conquête",
-        "correction": "Le Roman de la Rose allègorise la conquête de l'amour (la rose = la femme aimée)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le Roman de la Rose allègorise la conquête de l'amour (la rose = la femme aimée)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "XVIIe siècle",
-        "correct": 1,
         "correction": "Le XVIIe siècle, siècle de Molière, Racine, Corneille, La Fontaine, La Rochefoucauld, est le 'Grand Siècle'."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Existentialisme",
-        "correction": "Sartre et Camus, dans les années 1940-50, définissent l'existentialisme comme philosophie et esthétique littéraire."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Sartre et Camus, dans les années 1940-50, définissent l'existentialisme comme philosophie et esthétique littéraire."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La littérature engagée (Sartre, de Beauvoir)",
-        "correct": 2,
         "correction": "Sartre théorise l'engagement dans Qu'est-ce que la littérature ? (1947) : l'écrivain doit prendre position."
       },
       {

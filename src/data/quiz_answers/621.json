@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Deux neurones ou un neurone et une cellule effectrice (muscle, glande)",
-        "correct": 1,
         "correction": "La synapse comprend : le bouton présynaptique, la fente synaptique (20-40 nm) et la membrane postsynaptique."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "motrice",
-        "correction": "La plaque motrice (jonction neuromusculaire) utilise l'acétylcholine pour déclencher la contraction musculaire."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La plaque motrice (jonction neuromusculaire) utilise l'acétylcholine pour déclencher la contraction musculaire."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Le circuit de récompense, la motivation et les mouvements volontaires",
-        "correct": 1,
         "correction": "La dopamine joue un rôle dans le plaisir et la motivation ; son déficit cause la maladie de Parkinson ; son excès est associé à la schizophrénie."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "inhibiteur",
-        "correction": "Le GABA diminue l'excitabilité neuronale ; les benzodiazépines (anxiolytiques) potentialisent l'action du GABA."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le GABA diminue l'excitabilité neuronale ; les benzodiazépines (anxiolytiques) potentialisent l'action du GABA."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Dégradés par des enzymes ou recaptés par le neurone présynaptique",
-        "correct": 1,
         "correction": "La terminaison du signal synaptique se fait par dégradation enzymatique (ex. : acétylcholinestérase) ou recapture dans le bouton présynaptique."
       },
       {

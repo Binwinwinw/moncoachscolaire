@@ -33,8 +33,8 @@
         "question": "Le patrimoine naturel comprend les sites géologiques, les écosystèmes et les espèces menacées."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce que le patrimoine culturel matériel et quels en sont les enjeux de conservation ?"
+        "type": "vrai-faux",
+        "question": "Le patrimoine culturel matériel comprend les monuments, les sites archéologiques, les œuvres d'art, les objets historiques."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Le patrimoine culturel est un facteur de développement économique grâce au tourisme culturel."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce que la patrimonialisation et quels sont ses effets sur les communautés locales ?"
+        "type": "vrai-faux",
+        "question": "La patrimonialisation est le processus par lequel un élément culturel ou naturel est reconnu comme patrimoine et protégé."
       },
       {
         "type": "qcm",

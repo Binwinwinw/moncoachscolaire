@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le déterminisme",
-        "correct": 1,
         "correction": "Le déterminisme affirme que tous les événements, y compris nos actions et pensées, sont intégralement déterminés par des causes antérieures (biologiques, psychologiques, sociales, physiques). Dans cette perspective, la liberté au sens de 'pouvoir faire autrement' est une illusion. Spinoza et plus tard le positivisme scientifique défendent cette position."
       },
       {
@@ -28,17 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "correct_answer": "Le libre arbitre est la capacité de choisir librement entre plusieurs options, indépendamment de toute détermination extérieure ou intérieure. Il est au cœur du débat entre déterminisme et libertarisme.",
-        "answer": "Le libre arbitre est la capacité de choisir librement entre plusieurs options, indépendamment de toute détermination extérieure ou intérieure. Il est au cœur du débat entre déterminisme et libertarisme.",
-        "correction": "Le libre arbitre (liberum arbitrium) est la faculté de choisir librement, d'être la cause de ses propres actes sans être entièrement déterminé par des causes externes ou internes (nature, éducation, inconscient). Il est central en philosophie morale et juridique : si l'homme n'a pas de libre arbitre, peut-on le tenir responsable de ses actes ? Le compatibilisme (Hume, Hobbes) tente de concilier liberté et déterminisme en redéfinissant la liberté comme l'absence de contrainte extérieure."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Le libre arbitre (liberum arbitrium) est la faculté de choisir librement, d'être la cause de ses propres actes sans être entièrement déterminé par des causes externes ou internes (nature, éducation, inconscient). Il est central en philosophie morale et juridique : si l'homme n'a pas de libre arbitre, peut-on le tenir responsable de ses actes ? Le compatibilisme (Hume, Hobbes) tente de concilier liberté et déterminisme en redéfinissant la liberté comme l'absence de contrainte extérieure."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Ignorant des causes qui le déterminent, car tout est nécessité",
-        "correct": 1,
         "correction": "Pour Spinoza (Éthique, Appendice de la Partie I), l'homme croit être libre parce qu'il a conscience de ses désirs mais ignore les causes qui les déterminent. 'Les hommes se croient libres parce qu'ils sont conscients de leurs désirs et ignorants des causes qui les déterminent.' La vraie liberté spinoziste n'est pas le libre arbitre mais la compréhension des nécessités qui nous gouvernent (la liberté comme nécessité comprise)."
       },
       {
@@ -51,17 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "correct_answer": "Rousseau soutient que la vraie liberté est l'obéissance à la loi que l'on s'est soi-même prescrite dans le cadre du contrat social ; la liberté civile est supérieure à la liberté naturelle.",
-        "answer": "Rousseau soutient que la vraie liberté est l'obéissance à la loi que l'on s'est soi-même prescrite dans le cadre du contrat social ; la liberté civile est supérieure à la liberté naturelle.",
-        "correction": "Dans Du Contrat social (1762), Rousseau distingue liberté naturelle (faire tout ce que l'on veut, limitée par la force) et liberté civile (obéir aux lois issues de la volonté générale). En entrant dans la société politique, l'homme renonce à sa liberté naturelle mais gagne une liberté civile plus noble : 'l'obéissance à la loi qu'on s'est prescrite est liberté.' Il ajoute la liberté morale : la maîtrise de soi par la raison contre les passions."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Dans Du Contrat social (1762), Rousseau distingue liberté naturelle (faire tout ce que l'on veut, limitée par la force) et liberté civile (obéir aux lois issues de la volonté générale). En entrant dans la société politique, l'homme renonce à sa liberté naturelle mais gagne une liberté civile plus noble : 'l'obéissance à la loi qu'on s'est prescrite est liberté.' Il ajoute la liberté morale : la maîtrise de soi par la raison contre les passions."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La capacité à se donner à soi-même sa propre loi morale par la raison",
-        "correct": 2,
         "correction": "L'autonomie (auto = soi-même, nomos = loi) chez Kant est la propriété qu'a la volonté de se donner à elle-même sa propre loi morale par la raison pure pratique, indépendamment de toute inclination sensible ou autorité extérieure. Elle s'oppose à l'hétéronomie (recevoir sa loi d'une source extérieure : désirs, traditions, autorité). L'autonomie est le fondement de la dignité humaine et de la morale kantienne."
       },
       {

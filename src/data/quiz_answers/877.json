@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "O(n)",
-        "correct": 2,
         "correction": "La recherche séquentielle parcourt les éléments un à un. Dans le pire cas, elle examine tous les n éléments."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "On compare la valeur cible avec l'élément central. Si égal, trouvé. Si inférieur, on cherche dans la moitié gauche ; si supérieur, dans la moitié droite. On répète. Complexité : O(log n) — beaucoup plus rapide que O(n) pour de grands tableaux.",
-        "correction": "Ex : pour 1000 éléments, la recherche séquentielle fait jusqu'à 1000 comparaisons ; la dichotomique en fait au plus 10 (log₂1000 ≈ 10)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Ex : pour 1000 éléments, la recherche séquentielle fait jusqu'à 1000 comparaisons ; la dichotomique en fait au plus 10 (log₂1000 ≈ 10)."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "10",
-        "correct": 0,
         "correction": "log₂(1024) = 10. La recherche dichotomique effectue au plus log₂(n) + 1 comparaisons."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "def recherche_dichotomique(lst, cible):\n    gauche, droite = 0, len(lst) - 1\n    while gauche <= droite:\n        milieu = (gauche + droite) // 2\n        if lst[milieu] == cible:\n            return milieu\n        elif lst[milieu] < cible:\n            gauche = milieu + 1\n        else:\n            droite = milieu - 1\n    return -1",
-        "correction": "Cette implémentation itérative est préférable à la récursive pour éviter les dépassements de pile sur de grandes listes."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Cette implémentation itérative est préférable à la récursive pour éviter les dépassements de pile sur de grandes listes."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Des fonctions de recherche dans des listes triées",
-        "correct": 1,
         "correction": "bisect.bisect_left(lst, x) et bisect.bisect_right(lst, x) retournent l'indice d'insertion de x dans lst triée, en O(log n)."
       },
       {

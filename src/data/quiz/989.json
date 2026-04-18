@@ -33,8 +33,8 @@
         "question": "Le milieu d'un segment AB est équidistant de A et de B."
       },
       {
-        "type": "open",
-        "question": "A(−1, 3) et M(2, 1) est le milieu de [AB]. Trouve les coordonnées de B."
+        "type": "vrai-faux",
+        "question": "M = (xA + xB)/2 → xB = 2×2 − (−1) = 5."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La formule de la distance entre A(x₁, y₁) et B(x₂, y₂) est AB = √((x₂−x₁)² + (y₂−y₁)²)."
       },
       {
-        "type": "open",
-        "question": "Montre que le triangle ABC avec A(0, 0), B(4, 0), C(2, 2√3) est équilatéral."
+        "type": "vrai-faux",
+        "question": "AB = 4, AC = √(4+12) = 4, BC = √(4+12) = 4 : tous les côtés sont égaux."
       },
       {
         "type": "qcm",

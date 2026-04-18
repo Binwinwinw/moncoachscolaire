@@ -33,8 +33,8 @@
         "question": "L'eco-conception integre les contraintes environnementales des la phase de conception du produit."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on les 7 etapes qui composent le cycle de vie d'un produit, du berceau a la tombe ?"
+        "type": "vrai-faux",
+        "question": "Le cycle de vie comprend : extraction des matieres premieres, fabrication, distribution, utilisation, fin de vie (reutilisation, recyclage, elimination)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Privilegier la reparabilite d'un produit fait partie des principes de l'eco-conception."
       },
       {
-        "type": "open",
-        "question": "Comment appelle-t-on la valorisation d'un dechet en le transformant en un produit de valeur superieure ou egale (par opposition au recyclage classique) ?"
+        "type": "vrai-faux",
+        "question": "L'upcycling (surcyclage) transforme des dechets en nouveaux produits de valeur superieure ou egale sans les degrader, contrairement au recyclage classique (downcycling)."
       },
       {
         "type": "qcm",

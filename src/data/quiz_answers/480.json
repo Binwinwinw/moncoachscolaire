@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Dans les subordonnées après des verbes de doute, volonté, sentiment",
-        "correct": 1,
         "correction": "Verbes de volonté (vouloir), doute (douter), sentiment (regretter) imposent le subjonctif."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "conditionnel",
-        "correction": "Ex. : 'Si tu avais étudié, tu aurais réussi.' – conditionnel passé dans l'apodose."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Ex. : 'Si tu avais étudié, tu aurais réussi.' – conditionnel passé dans l'apodose."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Soit",
-        "correct": 1,
         "correction": "Subjonctif présent d'être : que je sois, que tu sois, qu'il soit…"
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "indicatif",
-        "correction": "L'indicatif est le mode de l'assertion ; il s'oppose au subjonctif (mode du virtuel)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'indicatif est le mode de l'assertion ; il s'oppose au subjonctif (mode du virtuel)."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Même sujet dans les deux propositions",
-        "correct": 1,
         "correction": "Si le sujet est le même : 'Il veut partir' (infinitif) ; sujets différents : 'Il veut qu'elle parte' (subjonctif)."
       },
       {

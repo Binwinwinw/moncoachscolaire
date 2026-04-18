@@ -1,48 +1,71 @@
 {
-  "quiz_id": 1083,
-  "title": "Vecteurs du plan — rappels et opérations",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "answers": [
-    {
-      "question_id": "1083_1",
-      "correct_option": "A",
-      "explanation": "AB⃗ = B − A = (4−1, 7−3) = (3, 4)."
-    },
-    {
-      "question_id": "1083_2",
-      "correct": true,
-      "explanation": "||u⃗|| = √(3² + 4²) = √25 = 5."
-    },
-    {
-      "question_id": "1083_3",
-      "correct_answer": "u⃗ + v⃗ = (−1, 4) ; 3u⃗ = (6, −3)",
-      "explanation": "Somme : (2+(−3), −1+5) = (−1, 4). Produit scalaire par 3 : (6, −3)."
-    },
-    {
-      "question_id": "1083_4",
-      "correct_option": "B",
-      "explanation": "Relation de Chasles : AB⃗ + BC⃗ = AC⃗."
-    },
-    {
-      "question_id": "1083_5",
-      "correct": true,
-      "explanation": "AB⃗ = −BA⃗. Ils ont la même direction et norme mais sens opposés."
-    },
-    {
-      "question_id": "1083_6",
-      "correct_answer": "u⃗ = 2·v⃗ : ils sont proportionnels, donc colinéaires. Ou det = 2×2 − 4×1 = 0.",
-      "explanation": "Déterminant : 2×2 − 4×1 = 4 − 4 = 0 → vecteurs colinéaires."
-    },
-    {
-      "question_id": "1083_7",
-      "correct_option": "B",
-      "explanation": "Milieu M = ((x₁+x₂)/2, (y₁+y₂)/2)."
-    },
-    {
-      "question_id": "1083_8",
-      "correct": true,
-      "explanation": "Ces trois caractéristiques définissent complètement un vecteur (il peut avoir plusieurs représentants)."
-    }
-  ]
+  "contents": {
+    "title": "Vecteurs du plan — rappels et opérations",
+    "level": "1ère",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Vecteurs du plan — rappels et opérations",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "",
+        "correction": "AB⃗ = B − A = (4−1, 7−3) = (3, 4)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "||u⃗|| = √(3² + 4²) = √25 = 5."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Somme : (2+(−3), −1+5) = (−1, 4). Produit scalaire par 3 : (6, −3)."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "",
+        "correction": "Relation de Chasles : AB⃗ + BC⃗ = AC⃗."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "AB⃗ = −BA⃗. Ils ont la même direction et norme mais sens opposés."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Déterminant : 2×2 − 4×1 = 4 − 4 = 0 → vecteurs colinéaires."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "",
+        "correction": "Milieu M = ((x₁+x₂)/2, (y₁+y₂)/2)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Ces trois caractéristiques définissent complètement un vecteur (il peut avoir plusieurs représentants)."
+      }
+    ]
+  }
 }

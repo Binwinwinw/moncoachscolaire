@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Grands singes (Hominidés), comme les chimpanzés et gorilles",
-        "correct": 1,
         "correction": "L'humain est un grand singe (Hominidae) ; son plus proche cousin vivant est le chimpanzé (Pan troglodytes, 98,7% d'ADN commun)."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "hominines",
-        "correction": "Les hominines (Australopithecus, Homo habilis, Homo erectus, Homo sapiens) se distinguent des autres grands singes par la bipédie."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les hominines (Australopithecus, Homo habilis, Homo erectus, Homo sapiens) se distinguent des autres grands singes par la bipédie."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "3,2 millions d'années",
-        "correct": 1,
         "correction": "Lucy (1974, Johanson) date de 3,2 millions d'années ; elle était bipède mais avec un cerveau de taille simiesque."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "1400",
-        "correction": "Volume crânien : Australopithecus ~450 cm3, Homo habilis ~650 cm3, Homo erectus ~1000 cm3, Homo sapiens ~1400 cm3."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Volume crânien : Australopithecus ~450 cm3, Homo habilis ~650 cm3, Homo erectus ~1000 cm3, Homo sapiens ~1400 cm3."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "L'Afrique (hypothèse Out of Africa)",
-        "correct": 2,
         "correction": "L'hypothèse Out of Africa : H. sapiens est apparu en Afrique il y a environ 300 000 ans, puis a colonisé le reste du monde il y a environ 70 000 ans."
       },
       {

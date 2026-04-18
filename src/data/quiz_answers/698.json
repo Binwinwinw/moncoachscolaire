@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "La photosynthèse",
-        "correct": 1,
         "correction": "La photosynthèse réalisée par les producteurs primaires est à la base de la plupart des chaînes alimentaires."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "ADN",
-        "correction": "L'ADN stocke l'information héréditaire sous forme de séquences de nucléotides organisées en gènes."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'ADN stocke l'information héréditaire sous forme de séquences de nucléotides organisées en gènes."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "L'utérus",
-        "correct": 1,
         "correction": "Après la nidation, l'embryon puis le fœtus se développent dans l'utérus pendant toute la grossesse."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "collective",
-        "correction": "L'immunité collective limite la circulation d'un agent infectieux et protège indirectement les personnes vulnérables."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'immunité collective limite la circulation d'un agent infectieux et protège indirectement les personnes vulnérables."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Le réseau trophique",
-        "correct": 0,
         "correction": "Le réseau trophique décrit les transferts de matière et d'énergie entre les êtres vivants d'un écosystème."
       },
       {

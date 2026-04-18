@@ -33,8 +33,8 @@
         "question": "Le point A(1, 2, 3) est situé à une distance de √14 de l'origine O(0, 0, 0)."
       },
       {
-        "type": "open",
-        "question": "Calcule les coordonnées du milieu du segment [AB] si A(1, 2, 3) et B(4, 5, 6)."
+        "type": "vrai-faux",
+        "question": "Milieu M = ((1+4)/2, (2+5)/2, (3+6)/2) = (2.5, 3.5, 4.5)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Dans un repère orthonormé de l'espace, les axes x, y et z sont mutuellement perpendiculaires."
       },
       {
-        "type": "open",
-        "question": "Détermine les coordonnées du point d'intersection de la droite passant par A(1, 2, 3) et B(4, 5, 6) avec le plan z = 0."
+        "type": "vrai-faux",
+        "question": "La droite AB peut être parametree par M(t) = A + t(B - A) = (1 + 3t, 2 + 3t, 3 + 3t)."
       },
       {
         "type": "qcm",

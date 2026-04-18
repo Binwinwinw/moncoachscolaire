@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le résidu de croissance non expliqué par l'accumulation des facteurs",
-        "correct": 1,
         "correction": "La PGF (ou résidu de Solow) mesure l'efficacité globale de l'utilisation des facteurs, notamment liée au progrès technique."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Les gains de productivité peuvent être : distribués en hausses de salaires, répercutés en baisses de prix, distribués en dividendes aux actionnaires, ou utilisés pour investir (autofinancement).",
-        "correction": "La répartition dépend du rapport de force entre capital et travail, et de la politique des entreprises."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La répartition dépend du rapport de force entre capital et travail, et de la politique des entreprises."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Il améliore l'efficacité du travail",
-        "correct": 1,
         "correction": "Un progrès technique travail-augmentant (Harrod-neutre) augmente la productivité marginale du travail."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "Le paradoxe de Solow (1987) : 'On voit des ordinateurs partout, sauf dans les statistiques de productivité.' Malgré l'essor des TIC, la croissance de la productivité ne s'accélérait pas. Des travaux ultérieurs ont montré des gains de productivité liés aux TIC mais avec un décalage temporel.",
-        "correction": "Ce paradoxe illustre le délai entre adoption technologique et gains de productivité mesurables."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Ce paradoxe illustre le délai entre adoption technologique et gains de productivité mesurables."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Une baisse du coût unitaire avec l'augmentation de la production",
-        "correct": 1,
         "correction": "Les économies d'échelle expliquent pourquoi les grandes entreprises peuvent produire à moindre coût unitaire."
       },
       {

@@ -1,69 +1,73 @@
 {
-  "id": 1076,
-  "title": "Convexité — introduction",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "created_at": "2026-03-13T18:54:00.431651Z",
-  "questions": [
-    {
-      "id": "1076_1",
-      "type": "qcm",
-      "question": "Une fonction f est convexe sur un intervalle I si :",
-      "options": [
-        "f est croissante sur I",
-        "f'' ≥ 0 sur I",
-        "f est bornée sur I",
-        "f' = 0 sur I"
-      ]
-    },
-    {
-      "id": "1076_2",
-      "type": "vrai-faux",
-      "question": "Une fonction concave est telle que f'' ≤ 0."
-    },
-    {
-      "id": "1076_3",
-      "type": "texte",
-      "question": "Détermine les intervalles de convexité/concavité de f(x) = x³ − 3x²."
-    },
-    {
-      "id": "1076_4",
-      "type": "qcm",
-      "question": "En un point d'inflexion, que se passe-t-il ?",
-      "options": [
-        "f' s'annule",
-        "f'' change de signe",
-        "f atteint un extremum",
-        "La tangente est verticale"
-      ]
-    },
-    {
-      "id": "1076_5",
-      "type": "vrai-faux",
-      "question": "La fonction f(x) = x² est convexe sur R."
-    },
-    {
-      "id": "1076_6",
-      "type": "texte",
-      "question": "Que peut-on dire de la tangente à une courbe convexe par rapport à la courbe elle-même ?"
-    },
-    {
-      "id": "1076_7",
-      "type": "qcm",
-      "question": "La fonction ln(x) est concave sur ]0 ; +∞[ car :",
-      "options": [
-        "ln est décroissante",
-        "(ln x)'' = −1/x² < 0",
-        "(ln x)' = 1/x > 0",
-        "ln(1) = 0"
-      ]
-    },
-    {
-      "id": "1076_8",
-      "type": "vrai-faux",
-      "question": "Un point d'inflexion correspond nécessairement à un extremum de f."
-    }
-  ],
+  "contents": {
+    "title": "Convexité — introduction",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Mathématiques",
+    "description": "",
+    "status": "published"
+  },
+  "quiz": {
+    "title": "Convexité — introduction",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Une fonction f est convexe sur un intervalle I si :",
+        "choices": [
+          "f est croissante sur I",
+          "f'' ≥ 0 sur I",
+          "f est bornée sur I",
+          "f' = 0 sur I"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Une fonction concave est telle que f'' ≤ 0."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "F'=3x²−6x, f''=6x−6=0 en x=1."
+      },
+      {
+        "type": "qcm",
+        "question": "En un point d'inflexion, que se passe-t-il ?",
+        "choices": [
+          "f' s'annule",
+          "f'' change de signe",
+          "f atteint un extremum",
+          "La tangente est verticale"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La fonction f(x) = x² est convexe sur R."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La tangente est en dessous (ou sur) la courbe : f(x) ≥ f(a) + f'(a)(x−a) pour toute courbe convexe."
+      },
+      {
+        "type": "qcm",
+        "question": "La fonction ln(x) est concave sur ]0 ; +∞[ car :",
+        "choices": [
+          "ln est décroissante",
+          "(ln x)'' = −1/x² < 0",
+          "(ln x)' = 1/x > 0",
+          "ln(1) = 0"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un point d'inflexion correspond nécessairement à un extremum de f."
+      }
+    ]
+  },
   "exercisenotion": [
     {
       "notion": "Fondamentaux de Indéfini",
@@ -77,5 +81,6 @@
       "notion": "Savoir-faire indéfini",
       "description": "Notion du programme Indéfini"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

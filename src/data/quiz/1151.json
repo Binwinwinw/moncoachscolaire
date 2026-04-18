@@ -33,8 +33,8 @@
         "question": "L'indicateur 'taux de pauvrete' est utile pour suivre les evolutions de lutte contre la pauvrete monetaire."
       },
       {
-        "type": "open",
-        "question": "Definis lutte contre la pauvrete monetaire et explique en quoi cet enjeu est important en Terminale SES."
+        "type": "vrai-faux",
+        "question": "Cette affirmation reformule l'idée essentielle à retenir : Definis lutte contre la pauvrete monetaire et explique en quoi cet enjeu est important en Terminale SES."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "Le levier 'transferts sociaux' peut modifier les incitations des acteurs dans ce domaine."
       },
       {
-        "type": "open",
-        "question": "Propose un argument montreant a la fois un effet positif et une limite de 'transferts sociaux'."
+        "type": "vrai-faux",
+        "question": "Cette affirmation reformule l'idée essentielle à retenir : Propose un argument montreant a la fois un effet positif et une limite de 'transferts sociaux'."
       },
       {
         "type": "qcm",
@@ -83,5 +83,6 @@
       "notion": "Intégration économique mondiale",
       "description": "Notion fondamentale de SES"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

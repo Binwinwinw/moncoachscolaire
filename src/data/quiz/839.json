@@ -33,8 +33,8 @@
         "question": "Les inégalités de patrimoine sont plus fortes que les inégalités de revenu."
       },
       {
-        "type": "open",
-        "question": "Quelles sont les principales dimensions des inégalités sociales au-delà du revenu ?"
+        "type": "vrai-faux",
+        "question": "Inégalités de patrimoine (héritage), d'éducation (accès aux grandes écoles), de santé (espérance de vie), de logement, de genre (écarts F/H), d'origine (discriminations ethniques), géographiques (rural/urbain)."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "La courbe de Kuznets suggère que les inégalités augmentent puis diminuent avec le développement économique."
       },
       {
-        "type": "open",
-        "question": "Qu'est-ce que le seuil de pauvreté relatif et quel est son niveau en France ?"
+        "type": "vrai-faux",
+        "question": "Le seuil de pauvreté relatif est fixé à 60 % du revenu médian (ou parfois 50 %)."
       },
       {
         "type": "qcm",

@@ -33,8 +33,8 @@
         "question": "Dans tout triangle rectangle, sin²(α) + cos²(α) = 1."
       },
       {
-        "type": "open",
-        "question": "Dans un triangle rectangle, l'angle α est tel que sin(α) = 3/5. Calcule cos(α)."
+        "type": "vrai-faux",
+        "question": "Sin²(α) + cos²(α) = 1 → (3/5)² + cos²(α) = 1 → cos²(α) = 1 − 9/25 = 16/25 → cos(α) = 4/5."
       },
       {
         "type": "qcm",
@@ -51,8 +51,8 @@
         "question": "tan(α) = sin(α) / cos(α)."
       },
       {
-        "type": "open",
-        "question": "Calcule la longueur de l'hypoténuse d'un triangle rectangle dont un côté mesure 6 et l'angle opposé est 30°."
+        "type": "vrai-faux",
+        "question": "Sin(30°) = 0,5 = 6/h → h = 6/0,5 = 12."
       },
       {
         "type": "qcm",

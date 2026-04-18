@@ -25,18 +25,15 @@
           "La pollution sonore",
           "La pollution lumineuse",
           "La pollution thermique"
-        ],
-        "id": 1
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Les déchets jetés dans les rivières peuvent nuire aux poissons.",
-        "id": 2
+        "question": "Les déchets jetés dans les rivières peuvent nuire aux poissons."
       },
       {
-        "type": "texte",
-        "question": "Explique comment la pollution peut affecter les animaux d'un écosystème.",
-        "id": 3
+        "type": "vrai-faux",
+        "question": "Réponds comment la pollution peut rendre les animaux malades et diminuer leur nourriture."
       },
       {
         "type": "qcm",
@@ -46,13 +43,11 @@
           "Augmenter le trafic routier",
           "Brûler les déchets dans la nature",
           "Ignorer les fuites"
-        ],
-        "id": 4
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Les usines peuvent rejeter des produits chimiques dangereux dans l'eau.",
-        "id": 5
+        "question": "Les usines peuvent rejeter des produits chimiques dangereux dans l'eau."
       },
       {
         "type": "qcm",
@@ -62,13 +57,11 @@
           "Elle peut leur donner plus d'eau",
           "Elle peut augmenter leur croissance",
           "Elle peut les rendre plus colorées"
-        ],
-        "id": 6
+        ]
       },
       {
-        "type": "texte",
-        "question": "Décris une action que tu peux faire pour protéger l'environnement.",
-        "id": 7
+        "type": "vrai-faux",
+        "question": "Réponds en donnant une action comme ramasser des déchets ou utiliser moins de plastique."
       },
       {
         "type": "qcm",
@@ -78,10 +71,10 @@
           "Pour rendre l'air plus sale",
           "Pour détruire les habitats naturels",
           "Pour augmenter les déchets"
-        ],
-        "id": 8
+        ]
       }
-    ]
+    ],
+    "type": "quiz"
   },
   "exercisenotion": [
     {

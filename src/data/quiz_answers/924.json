@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le programme nucléaire iranien",
-        "correct": 1,
         "correction": "Stuxnet, développé par les USA et Israël, ciblait les centrifugeuses d'enrichissement d'uranium iraniennes, détruisant physiquement des équipements via un virus informatique."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "Une cyberattaque d'État est une attaque informatique commanditée ou menée par un gouvernement. Exemples : Stuxnet (USA/Israël contre Iran, 2010), attaques russes NotPetya (Ukraine, 2017), attaque nord-coréenne Sony (2014), attaques chinoises APT contre la propriété intellectuelle occidentale, ingérence russe dans les élections (2016).",
-        "correction": "Ces attaques sont souvent difficiles à attribuer (deniability plausible) car opérées via des intermédiaires ou des groupes hackers parrainés."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Ces attaques sont souvent difficiles à attribuer (deniability plausible) car opérées via des intermédiaires ou des groupes hackers parrainés."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "La cybersécurité et la défense des systèmes d'information",
-        "correct": 1,
         "correction": "L'ANSSI (Agence nationale de la sécurité des systèmes d'information) protège les infrastructures critiques françaises et conseille les administrations et entreprises sur la cybersécurité."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "L'attribution est difficile car : les attaquants utilisent des proxies et VPN, effacent leurs traces, imitent les signatures d'autres groupes (false flag), opèrent via des hackers indépendants liés à des États. L'attribution technique (forensics) nécessite des moyens importants et des décisions politiques pour rendre l'attribution publique.",
-        "correction": "La difficulté d'attribution affaiblit la dissuasion et favorise l'impunité des États agresseurs."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La difficulté d'attribution affaiblit la dissuasion et favorise l'impunité des États agresseurs."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Une étude académique sur l'application du droit international aux cyberopérations, commanditée par l'OTAN",
-        "correct": 1,
         "correction": "Le Manuel de Tallinn (2013, 2017) est une référence pour les experts mais n'a pas force contraignante. Il analyse comment le droit international (droit des conflits armés) s'applique aux cyberopérations."
       },
       {

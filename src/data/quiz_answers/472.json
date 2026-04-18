@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Le théâtre de l'absurde",
-        "correct": 1,
         "correction": "Ionesco, Beckett et le théâtre de l'absurde déconstruisent le langage et la logique dramatique."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "bourgeoisie",
-        "correction": "Diderot veut représenter des personnages de condition moyenne, plus proches du spectateur."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Diderot veut représenter des personnages de condition moyenne, plus proches du spectateur."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "Distanciation (Verfremdungseffekt)",
-        "correct": 1,
         "correction": "La distanciation brechtiènne empêche l'identification du spectateur pour favoriser son esprit critique."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "auteur",
-        "correction": "Les didascalies (en italique) précisent décors, costumes, gestes, ton."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Les didascalies (en italique) précisent décors, costumes, gestes, ton."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "La rupture de l'illusion théâtrale",
-        "correct": 1,
         "correction": "Le théâtre épique interpelle le public, use de panneaux, de chants, pour briser l'illusion."
       },
       {

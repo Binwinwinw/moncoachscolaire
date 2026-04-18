@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Dans les espaces urbains",
-        "correct": 1,
         "correction": "La France est fortement urbanisée."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "espérance",
-        "correction": "L'espérance de vie élevée transforme la pyramide des âges."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'espérance de vie élevée transforme la pyramide des âges."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "L'extension des villes vers leurs périphéries",
-        "correct": 1,
         "correction": "Les couronnes périurbaines se développent autour des pôles urbains."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "vide",
-        "correction": "Cette diagonale traverse le pays du Nord-Est au Sud-Ouest."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. Cette diagonale traverse le pays du Nord-Est au Sud-Ouest."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Paris",
-        "correct": 1,
         "correction": "La métropole parisienne domine les fonctions de commandement."
       },
       {

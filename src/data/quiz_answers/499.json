@@ -15,7 +15,6 @@
         "question_id": 1,
         "type": "qcm",
         "answer": "Une question liée aux spécialités du lycéen",
-        "correct": 1,
         "correction": "Le Grand Oral (20 min) porte sur une question choisie par le candidat, en lien avec ses spécialités."
       },
       {
@@ -28,16 +27,15 @@
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "answer": "précise",
-        "correction": "La question doit être bien délimitée et problématisée pour permettre un développement structuré."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. La question doit être bien délimitée et problématisée pour permettre un développement structuré."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
         "answer": "5 minutes",
-        "correct": 0,
         "correction": "Le candidat parle 5 minutes en continu, puis répond aux questions de l'examinateur pendant 10 minutes, puis suit 5 minutes sur le projet d'orientation."
       },
       {
@@ -50,16 +48,15 @@
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "answer": "aisance",
-        "correction": "L'aisance orale (fluidité, adaptation, écoute) est un critère clé du Grand Oral."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "VRAI. L'aisance orale (fluidité, adaptation, écoute) est un critère clé du Grand Oral."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
         "answer": "Poser la question, en montrer l'intérêt et annoncer le plan",
-        "correct": 1,
         "correction": "L'introduction accroche l'examinateur, contextualise la question et annonce la structure de l'exposé."
       },
       {
