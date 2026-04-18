@@ -1,75 +1,94 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Histoire-Geographie 1ere - Série 187",
+    "title": "Quiz Diagnostic Français 6eme - Série 0187",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Histoire-Geographie",
-    "description": "Diagnostic Histoire-Geographie 1ere : Quiz Diagnostic 1ere Histoire-Géographie - Serie 13",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - Les valeurs de la poésie",
     "status": "published",
-    "created_at": "2026-03-13 18:59:43",
-    "updated_at": "2026-03-13 18:59:43"
+    "created_at": "2026-04-06 06:25:38",
+    "updated_at": "2026-04-06 06:25:38"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Histoire-Géographie - Serie 13",
+    "title": "Français 6e - Les valeurs de la poésie",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Histoire-Geographie",
+    "level": "6eme",
+    "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel pays est considéré comme le berceau de la Révolution industrielle au XVIIIe siècle ?",
+        "question": "Qu'est-ce que la poésie ?",
         "choices": [
-          "La France",
-          "L'Allemagne",
-          "Le Royaume-Uni",
-          "Les États-Unis"
+          "Un genre littéraire",
+          "Une figure de style",
+          "Une forme de communication",
+          "Une discipline scientifique"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "L'exode rural accompagne l'industrialisation avec la migration des paysans vers les villes industrielles."
-      },
-      {
-        "type": "open",
-        "question": "Qu'est-ce qu'un prolétariat et comment apparaît-il avec l'industrialisation ?"
+        "question": "La Poésie peut être classée en plusieurs types, tels que la poésie lyrique, la poésie épique, la poésie dramatique, etc., en fonction de la manière dont elle exprime les émotions, les idées ou les expériences."
       },
       {
         "type": "qcm",
-        "question": "Quel philosophe théorise la lutte des classes entre bourgeoisie et prolétariat au XIXe siècle ?",
+        "question": "Quel est le rôle de la poésie dans la communication ?",
         "choices": [
-          "Adam Smith",
-          "Karl Marx",
-          "Auguste Comte",
-          "John Stuart Mill"
+          "Elle n'a pas de rôle spécifique",
+          "Elle permet d'exprimer des affirmations",
+          "Elle permet d'exprimer des questions",
+          "Elle permet d'exprimer des émotions, des idées ou des expériences de manière artistique"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Les premières lois sociales protégeant les travailleurs sont adoptées en France sous la Troisième République."
-      },
-      {
-        "type": "open",
-        "question": "Qu'est-ce que le mouvement ouvrier et quelles formes d'action développe-t-il au XIXe siècle ?"
+        "question": "L'utilisation correcte de la poésie est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les écrivains utilisent les formes de la poésie appropriées en fonction du contexte et du message qu'ils souhaitent transmettre, ce qui contribue à la clarté et à l'efficacité de la communication écrite."
       },
       {
         "type": "qcm",
-        "question": "Qu'est-ce que le taylorisme ?",
+        "question": "Lequel de ces titres n'est pas une Poésie?",
         "choices": [
-          "Une doctrine économique libérale",
-          "Une méthode d'organisation scientifique du travail visant à maximiser la productivité",
-          "Un mouvement syndical américain",
-          "Une technique de construction industrielle"
+          "La Nuit étoilée",
+          "Le Cid",
+          "Les Fleurs du mal",
+          "Le Petit Prince"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "La bourgeoisie industrielle devient la classe dominante du XIXe siècle, remplaçant progressivement l'aristocratie foncière."
+        "question": "La poésie peut se chanter."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel style de poésie n'a pas de rime ?",
+        "choices": [
+          "Poésie lyrique",
+          "Poésie épique",
+          "Poésie dramatique",
+          "Poésie en vers libres"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La poésie a une composition particulière."
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Fondamentaux de Français",
+      "description": "Notion du programme 6eme"
+    },
+    {
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
+    },
+    {
+      "notion": "Savoir-faire français",
+      "description": "Notion du programme 6eme"
+    }
+  ],
   "exerciseresponses": []
 }

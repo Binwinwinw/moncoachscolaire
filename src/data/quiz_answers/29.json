@@ -1,71 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 4eme Anglais",
-    "level": "4eme",
+    "title": "Quiz Diagnostic Anglais 6ème - Série 0029",
+    "level": "6ème",
     "subject": "Anglais"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 4eme Anglais",
+    "title": "Vocabulaire de base : famille, école, loisirs",
     "question_count": 8,
+    "level": "6ème",
+    "subject": "Anglais",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correct": 0,
-        "correction": "**have / been** (present perfect négatif 'never')."
+        "answer": "Father",
+        "correction": "The English word for 'père' is 'father'."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "correct": 1,
-        "correction": "**Vrai**. 'Just' = récemment (present perfect)."
+        "answer": "vrai",
+        "correction": "The English word for 'mère' is indeed 'mother'."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correct": null,
-        "correction": "**gone** (go-went-gone)."
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "'School', 'Classroom', and 'Education' are all common English words that can be used to refer to the concept of school and learning."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correct": 2,
-        "correction": "**have seen** (expérience passée)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English word for 'loisirs' is indeed 'hobbies', which refers to activities that people enjoy doing in their free time."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "correct": 0,
-        "correction": "**Faux**. Buy-bought-**bought**."
+        "type": "qcm",
+        "answer": "Brother",
+        "correction": "The English word for 'frère' is 'brother'."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "correct": null,
-        "correction": "**read** (read-read-read)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English word for 'soeur' is indeed 'sister'."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "correct": 1,
-        "correction": "**eaten** (eat-ate-eaten)."
+        "answer": "All of the above",
+        "correction": "'Hobbies', 'Leisure activities', and 'Pastimes' are all common English words that can be used to refer to activities that people enjoy doing in their free time."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "correct": 1,
-        "correction": "**Vrai**. Have/has + participe passé (expériences, actions récentes)."
+        "answer": "vrai",
+        "correction": "The English word for 'école' is indeed 'school', which refers to an institution where students receive education and learn various subjects."
       }
-    ],
-    "level": "4eme",
-    "subject": "Anglais"
+    ]
   }
 }

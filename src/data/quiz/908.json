@@ -1,16 +1,16 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 5eme SVT - Serie 50",
+    "title": "Le rôle des animaux dans l'écosystème",
     "type": "quiz",
     "level": "5eme",
     "subject": "SVT",
-    "description": "Diagnostic SVT 5eme : Biologie et sciences naturelles",
+    "description": "Diagnostic SVT 5eme : Haricots, animaux et interactions écologiques",
     "status": "published",
     "created_at": "2026-03-08 00:05:00",
     "updated_at": "2026-03-08 00:05:00"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 5eme SVT - Serie 50",
+    "title": "Anglais - Le rôle des animaux dans l'écosystème",
     "level": "5eme",
     "subject": "SVT",
     "question_count": 8,
@@ -19,78 +19,82 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en SVT cette année ?",
+        "question": "Quel rôle remplit un animal pollinisateur ?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "Il transporte le pollen entre les plantes",
+          "Il décompose la matière organique",
+          "Il produit de l'oxygène",
+          "Il capture les proies"
         ],
         "id": 1
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau 5eme aborde des notions fondamentales en SVT.",
+        "question": "Les animaux peuvent aider à disperser les graines.",
         "id": 2
       },
       {
         "type": "texte",
-        "question": "Cite un exemple concret lié à SVT.",
-        "placeholder": "Exemple...",
+        "question": "Décris comment un oiseau peut aider une plante à se reproduire.",
         "id": 3
       },
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en SVT cette année ?",
+        "question": "Quel animal est souvent un prédateur dans un écosystème forestier ?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "Un renard",
+          "Une chenille",
+          "Une graine",
+          "Une pierre"
         ],
         "id": 4
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau 5eme aborde des notions fondamentales en SVT.",
+        "question": "Les herbivores mangent principalement des plantes.",
         "id": 5
       },
       {
-        "type": "texte",
-        "question": "Cite un exemple concret lié à SVT.",
-        "placeholder": "Exemple...",
+        "type": "qcm",
+        "question": "Quel est le rôle d'un décomposeur ?",
+        "choices": [
+          "Recycler la matière organique",
+          "Chasser les proies",
+          "Produire des graines",
+          "Nager dans l'eau"
+        ],
         "id": 6
       },
       {
-        "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en SVT cette année ?",
-        "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
-        ],
+        "type": "texte",
+        "question": "Explique pourquoi la diversité des animaux est importante dans un écosystème.",
         "id": 7
       },
       {
-        "type": "vrai-faux",
-        "question": "Le niveau 5eme aborde des notions fondamentales en SVT.",
+        "type": "qcm",
+        "question": "Quel est un exemple d'interaction positive entre plantes et animaux ?",
+        "choices": [
+          "La pollinisation",
+          "La compétition pour l'eau",
+          "La prédation",
+          "La pollution"
+        ],
         "id": 8
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Notion 1 - SVT",
-      "description": "Concept clé de SVT au niveau 5eme"
+      "notion": "Rôle des animaux",
+      "description": "Les animaux aident à polliniser les plantes, disperser les graines et recycler les matières."
     },
     {
-      "notion": "Notion 2 - SVT",
-      "description": "Concept clé de SVT au niveau 5eme"
+      "notion": "Pollinisateurs",
+      "description": "Les pollinisateurs transportent le pollen entre les fleurs pour aider les plantes à produire des graines."
     },
     {
-      "notion": "Notion 3 - SVT",
-      "description": "Concept clé de SVT au niveau 5eme"
+      "notion": "Décomposeurs",
+      "description": "Les décomposeurs transforment les organismes morts en nutriments utiles pour le sol."
     }
   ],
   "exerciseresponses": []

@@ -1,6 +1,6 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic bac Anglais - Serie 04",
+    "title": "Anglais - Structures conditionnelles, discours indirect et modaux",
     "type": "quiz",
     "level": "bac",
     "subject": "Anglais",
@@ -10,7 +10,7 @@
     "updated_at": "2026-03-08 00:05:00"
   },
   "quiz": {
-    "title": "Quiz Diagnostic bac Anglais - Serie 04",
+    "title": "Anglais - Structures conditionnelles, discours indirect et modaux",
     "level": "bac",
     "subject": "Anglais",
     "question_count": 8,
@@ -19,78 +19,106 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "question": "Quelle est la fonction principale des conditionnels dans une phrase en anglais ?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "Exprimer des faits historiques",
+          "Décrire des actions en cours",
+          "Exprimer des hypothèses et des conséquences",
+          "Décrire des états permanents"
         ],
         "id": 1
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau bac aborde des notions fondamentales en Anglais.",
-        "id": 2
+        "question": "Comment rapporter une phrase comme 'Je vais aller au parc' en utilisant le discours indirect ?",
+        "id": 2,
+        "choices": [
+          "Il a dit qu'il allait aller au parc",
+          "Il a dit qu'il irait au parc",
+          "Il a dit qu'il était allé au parc",
+          "Il a dit qu'il va aller au parc"
+        ]
       },
       {
         "type": "texte",
-        "question": "Cite un exemple concret lié à Anglais.",
+        "question": "Quel modal est utilisé pour exprimer une possibilité ou une capacité ?",
         "placeholder": "Exemple...",
-        "id": 3
+        "id": 3,
+        "choices": [
+          "Must",
+          "Should",
+          "Can",
+          "Will"
+        ]
       },
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "question": "Quelle est la différence entre 'can' et 'could' pour exprimer une capacité ?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "'Can' est utilisé pour les capacités générales, tandis que 'could' est utilisé pour les capacités passées",
+          "'Can' est utilisé pour les capacités passées, tandis que 'could' est utilisé pour les capacités générales",
+          "'Can' est utilisé pour les capacités théoriques, tandis que 'could' est utilisé pour les capacités pratiques",
+          "'Can' est utilisé pour les capacités pratiques, tandis que 'could' est utilisé pour les capacités théoriques"
         ],
         "id": 4
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau bac aborde des notions fondamentales en Anglais.",
-        "id": 5
+        "question": "Vrai ou faux : Le discours indirect change toujours les pronoms personnels et les verbes.",
+        "id": 5,
+        "choices": [
+          "Vrai",
+          "Faux"
+        ]
       },
       {
         "type": "texte",
-        "question": "Cite un exemple concret lié à Anglais.",
+        "question": "Quelle est la fonction de 'shall' dans une phrase comme 'I shall go to the store' ?",
         "placeholder": "Exemple...",
-        "id": 6
+        "id": 6,
+        "choices": [
+          "Exprimer une intention future",
+          "Exprimer une action en cours",
+          "Exprimer une action terminée",
+          "Exprimer une hypothèse"
+        ]
       },
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "question": "Réécrivez la phrase 'If I won the lottery, I would buy a house' en utilisant le conditionnel passé.",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "Si j'avais gagné à la loterie, j'aurais acheté une maison",
+          "Si j'avais gagné à la loterie, j'achèterais une maison",
+          "Si j'avais gagné à la loterie, j'achetais une maison",
+          "Si j'avais gagné à la loterie, j'ai acheté une maison"
         ],
         "id": 7
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau bac aborde des notions fondamentales en Anglais.",
-        "id": 8
+        "question": "Quel est le sens de la phrase 'You should try this cake, it's delicious' ?",
+        "id": 8,
+        "choices": [
+          "Tu es obligé d'essayer ce gâteau, c'est délicieux",
+          "Tu devrais essayer ce gâteau, c'est délicieux",
+          "Tu peux essayer ce gâteau, c'est délicieux",
+          "Tu vas essayer ce gâteau, c'est délicieux"
+        ]
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Notion 1 - Anglais",
-      "description": "Concept clé de Anglais au niveau bac"
+      "notion": "Utilisation des conditionnels pour exprimer des hypothèses et des conséquences",
+      "description": "Les conditionnels sont utilisés pour exprimer des hypothèses et des conséquences dans des situations réelles ou imaginaires, en fonction du niveau de probabilité ou de réalité de l'hypothèse."
     },
     {
-      "notion": "Notion 2 - Anglais",
-      "description": "Concept clé de Anglais au niveau bac"
+      "notion": "Discours indirect pour rapporter des énoncés et des pensées",
+      "description": "Le discours indirect permet de rapporter des énoncés et des pensées d'une manière objective, en changeant les pronoms personnels et les verbes pour adapter le discours à la situation actuelle."
     },
     {
-      "notion": "Notion 3 - Anglais",
-      "description": "Concept clé de Anglais au niveau bac"
+      "notion": "Modaux pour exprimer la possibilité, la nécessité et la certitude",
+      "description": "Les modaux tels que can, could, may, might, shall, should, will et would sont utilisés pour exprimer la possibilité, la nécessité, la certitude ou la probabilité d'une action ou d'un état, en fonction du contexte et de la intention de l'énonciateur."
     }
   ],
   "exerciseresponses": []

@@ -1,63 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 50",
-    "level": "1ere",
-    "subject": "Anglais"
+    "title": "Quiz Diagnostic Français 6eme - Série 0174",
+    "level": "6eme",
+    "subject": "Français"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 50",
+    "title": "Français 6e - Les types de narrateurs",
     "question_count": 8,
+    "level": "6eme",
+    "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correction": "La bonne réponse est celle qui correspond au concept étudié dans ton manuel scolaire. Pour mieux comprendre, relis le chapitre associé et essaie de refaire des exercices similaires. N'hésite pas à demander de l'aide à ton enseignant si certains points restent flous."
+        "answer": "Il raconte l'histoire du point de vue d'un personnage en utilisant 'je'",
+        "correction": "Le narrateur à la première personne raconte l'histoire du point de vue d'un personnage en utilisant le pronom 'je', ce qui permet aux lecteurs de vivre les événements et les émotions du personnage de manière plus intime et personnelle."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "correction": "Vrai ou Faux dépend de la définition précise du concept. Si tu t'es trompé, c'est normal : revois la leçon pour bien mémoriser les cas particuliers et les exceptions. Avec de la pratique, tu distingueras facilement les situations vraies ou fausses."
+        "answer": "vrai",
+        "correction": "C'est vrai. Le narrateur à la troisième personne peut être limité, en se concentrant sur les pensées et les sentiments d'un seul personnage, ou omniscient, en fournissant des informations sur les pensées et les sentiments de plusieurs personnages, ce qui peut influencer la perspective et la compréhension des lecteurs sur les événements du récit."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correction": "Ta réponse textuelle doit correspondre à ce qui est attendu dans le cours. Compare-la avec la correction fournie et identifie les différences. L'important est de comprendre la logique derrière la réponse pour progresser dans cette matière."
+        "type": "qcm",
+        "answer": "Il raconte l'histoire du point de vue d'un narrateur omniscient",
+        "correction": "Le narrateur omniscient raconte l'histoire du point de vue d'un narrateur qui a une connaissance complète des événements, des personnages et de leurs pensées et sentiments, ce qui permet aux lecteurs d'avoir une perspective plus large sur le récit et de comprendre les motivations et les actions des personnages de manière plus approfondie."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correction": "La bonne réponse est celle qui correspond au concept étudié dans ton manuel scolaire. Pour mieux comprendre, relis le chapitre associé et essaie de refaire des exercices similaires. N'hésite pas à demander de l'aide à ton enseignant si certains points restent flous."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. L'utilisation correcte des types de narrateurs est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les écrivains choisissent le type de narrateur approprié en fonction du contexte et du message qu'ils souhaitent transmettre, ce qui contribue à la clarté et à l'efficacité de la communication écrite, en permettant aux lecteurs de comprendre la perspective à partir de laquelle l'histoire est racontée et d'interpréter le récit de manière plus précise."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "correction": "Vrai ou Faux dépend de la définition précise du concept. Si tu t'es trompé, c'est normal : revois la leçon pour bien mémoriser les cas particuliers et les exceptions. Avec de la pratique, tu distingueras facilement les situations vraies ou fausses."
+        "type": "qcm",
+        "answer": "Il raconte l'histoire du point de vue d'un personnage en utilisant 'il' ou 'elle'",
+        "correction": "Le narrateur à la troisième personne limité raconte l'histoire du point de vue d'un personnage en utilisant les pronoms 'il' ou 'elle', ce qui permet aux lecteurs de se concentrer sur les pensées et les sentiments d'un seul personnage tout en maintenant une certaine distance narrative."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "correction": "Ta réponse textuelle doit correspondre à ce qui est attendu dans le cours. Compare-la avec la correction fournie et identifie les différences. L'important est de comprendre la logique derrière la réponse pour progresser dans cette matière."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. L'utilisation incorrecte des types de narrateurs peut parfois entraîner des confusions ou des malentendus dans la communication écrite, en rendant difficile pour les lecteurs de comprendre la perspective à partir de laquelle l'histoire est racontée, ce qui peut nuire à la clarté du message et à l'efficacité de la communication écrite, en créant des ambiguïtés ou en donnant une impression de manque de cohérence dans le récit."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "correction": "La bonne réponse est celle qui correspond au concept étudié dans ton manuel scolaire. Pour mieux comprendre, relis le chapitre associé et essaie de refaire des exercices similaires. N'hésite pas à demander de l'aide à ton enseignant si certains points restent flous."
+        "answer": "Il fournit une perspective sur les événements et les personnages",
+        "correction": "Le rôle du narrateur dans une histoire est de fournir une perspective sur les événements et les personnages, en racontant l'histoire à partir d'un point de vue spécifique qui peut influencer la façon dont les lecteurs interprètent le récit et comprennent les motivations et les actions des personnages."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "correction": "Vrai ou Faux dépend de la définition précise du concept. Si tu t'es trompé, c'est normal : revois la leçon pour bien mémoriser les cas particuliers et les exceptions. Avec de la pratique, tu distingueras facilement les situations vraies ou fausses."
+        "answer": "vrai",
+        "correction": "C'est vrai. L'utilisation correcte des types de narrateurs est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les écrivains choisissent le type de narrateur approprié en fonction du contexte et du message qu'ils souhaitent transmettre, ce qui contribue à la clarté et à l'efficacité de la communication écrite."
       }
-    ],
-    "level": "1ere",
-    "subject": "Anglais"
+    ]
   }
 }

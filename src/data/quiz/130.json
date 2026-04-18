@@ -1,102 +1,94 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ère Anglais - Série 06",
+    "title": "Quiz Diagnostic EMC 6eme - Série 0130",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Anglais",
-    "description": "Diagnostic Anglais 1ère : Travel, Global Issues, Advanced Expression (Eduscol B1/B2)",
+    "level": "6eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 6eme : EMC 6e - Solidarité (Restos du Cœur, association d'aide)",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-09 17:06:00"
+    "created_at": "2026-04-06 06:25:43",
+    "updated_at": "2026-04-06 06:25:43"
   },
   "quiz": {
-    "title": "1ère English Diagnostic - Series 06 (Travel & Global)",
-    "level": "1ere",
-    "subject": "Anglais",
+    "title": "EMC 6e - Solidarité (Restos du Cœur, association d'aide)",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Air travel contributes significantly to global CO2 emissions (about 2%). Solutions?",
+        "question": "Pourquoi est-il important de respecter les règles de solidarité ?",
         "choices": [
-          "Electric planes",
-          "High-speed trains",
-          "Carbon offsetting",
-          "All of the above"
-        ],
-        "correct_index": 3,
-        "id": 1
+          "Le respect des règles de solidarité garantit la promotion de l'entraide, le respect des autres et la construction d'une société plus juste et solidaire.",
+          "Le respect des règles de solidarité est inutile, car les individus peuvent agir comme ils le souhaitent.",
+          "Le respect des règles de solidarité est réservé aux élites politiques et économiques.",
+          "Le respect des règles de solidarité est limité aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Tourism helps preserve cultural heritage sites.",
-        "correct": true,
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "Name 1 pro and 1 con of mass tourism.",
-        "placeholder": "ex: Pro: Jobs / Con: Overcrowding",
-        "id": 3
+        "question": "Le respect des règles de solidarité est un concept qui promeut la non-intervention dans les affaires des individus."
       },
       {
         "type": "qcm",
-        "question": "The man _____ I met yesterday was very helpful.",
+        "question": "Quel est le rôle de l'éducation dans le respect des règles de solidarité ?",
         "choices": [
-          "who",
-          "which",
-          "whose",
-          "where"
-        ],
-        "correct_index": 0,
-        "id": 4
+          "L'éducation joue un rôle crucial en sensibilisant les individus aux règles de solidarité et en promouvant le respect de ces règles.",
+          "L'éducation est inutile dans le respect des règles de solidarité, car les individus peuvent apprendre par eux-mêmes.",
+          "L'éducation est réservée aux élites politiques et économiques.",
+          "L'éducation est limitée aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "I used to live in London when I was a child.",
-        "correct": true,
-        "id": 5
-      },
-      {
-        "type": "texte",
-        "question": "Why do people prefer budget airlines? 2 reasons.",
-        "placeholder": "ex: Cheap tickets, flexible schedules",
-        "id": 6
+        "question": "Le respect des règles de solidarité est un concept qui promeut la non-intervention dans les affaires des individus."
       },
       {
         "type": "qcm",
-        "question": "Refugees often face challenges such as:",
+        "question": "Quel est le rôle des médias dans le respect des règles de solidarité ?",
         "choices": [
-          "Language barriers",
-          "Job opportunities",
-          "Free housing",
-          "Easy integration"
-        ],
-        "correct_index": 0,
-        "id": 7
+          "Les médias jouent un rôle crucial en sensibilisant le public aux règles de solidarité et en promouvant le respect de ces règles.",
+          "Les médias sont inutiles dans le respect des règles de solidarité, car les individus peuvent apprendre par eux-mêmes.",
+          "Les médias sont réservés aux élites politiques et économiques.",
+          "Les médias sont limités aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Sustainable tourism focuses only on luxury eco-resorts.",
-        "correct": false,
-        "id": 8
+        "question": "Le respect des règles de solidarité est un concept qui promeut la non-intervention dans les affaires des individus."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle des parents dans le respect des règles de solidarité ?",
+        "choices": [
+          "Les parents ont un rôle important en sensibilisant leurs enfants aux règles de solidarité et en promouvant le respect de ces règles.",
+          "Les parents sont inutiles dans le respect des règles de solidarité, car les individus peuvent apprendre par eux-mêmes.",
+          "Les parents sont réservés aux élites politiques et économiques.",
+          "Les parents sont limités aux écoles uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect des règles de solidarité est un concept qui promeut la non-intervention dans les affaires des individus."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Travel & Tourism",
-      "description": "Mass tourism pros/cons, sustainable travel (Eduscol 1ère)"
+      "notion": "Fondamentaux de EMC",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Global Mobility",
-      "description": "Refugees, migration, air travel impact"
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Grammar",
-      "description": "Relative clauses, used to vs would, gerunds"
+      "notion": "Savoir-faire emc",
+      "description": "Notion du programme 6eme"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

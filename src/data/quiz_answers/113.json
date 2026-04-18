@@ -1,71 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Bac Philosophie",
-    "level": "bac",
-    "subject": "Philosophie"
+    "title": "Quiz Diagnostic EMC 6eme - Série 0113",
+    "level": "6eme",
+    "subject": "EMC"
   },
   "quiz": {
-    "title": "Quiz Diagnostic Bac Philosophie",
+    "title": "EMC 6e - Lois et justice (tribunal, police)",
     "question_count": 8,
+    "level": "6eme",
+    "subject": "EMC",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correct": 1,
-        "correction": "**Thèse/antithèse/synthèse** (Hegel bac)."
+        "answer": "Le respect des lois et de la justice garantit la protection des droits, la sécurité et l'équité dans la société.",
+        "correction": "Le respect des lois et de la justice est essentiel pour garantir la protection des droits, la sécurité et l'équité dans la société, en assurant que les règles sont respectées et que les comportements inappropriés sont corrigés de manière juste et équitable."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "correct": true,
-        "correction": "**Vrai**. Sujet → problématique centrale."
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des lois et de la justice encourage l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect des règles dans la société."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correct": null,
-        "correction": "**antithèse** (contradiction → dépassement)."
+        "type": "qcm",
+        "answer": "L'éducation joue un rôle crucial en sensibilisant les individus aux lois et à la justice et en promouvant le respect de ces règles.",
+        "correction": "L'éducation joue un rôle crucial en sensibilisant les individus aux lois et à la justice, en promouvant le respect de ces règles et en encourageant la responsabilité individuelle pour maintenir l'ordre, la justice et la sécurité dans la société."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correct": 1,
-        "correction": "**nihilisme** (valeurs traditionnelles perdues)."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des lois et de la justice encourage l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect des règles dans la société."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "correct": true,
-        "correction": "**Vrai**. Paraphrase → thèse → ouverture."
+        "type": "qcm",
+        "answer": "Les médias ont un rôle important en promouvant des représentations positives du respect des lois et de la justice et en sensibilisant le public à l'importance de ces règles.",
+        "correction": "Les médias ont un rôle important dans le respect des lois et de la justice en promouvant des représentations positives du respect de ces règles, en sensibilisant le public à leur importance et en contribuant à la construction d'une société plus responsable et respectueuse des règles."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "correct": null,
-        "correction": "**voile ignorance** (justice sans biais)."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des lois et de la justice encourage l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect des règles dans la société."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "correct": 1,
-        "correction": "**Lien parties** (articulation idées)."
+        "answer": "Les parents ont un rôle important en sensibilisant leurs enfants aux lois et à la justice et en promouvant le respect de ces règles.",
+        "correction": "Les parents jouent un rôle crucial dans le respect des lois et de la justice en sensibilisant leurs enfants à ces règles, en promouvant leur respect et en encourageant la responsabilité individuelle pour maintenir l'ordre, la justice et la sécurité dans la société."
       },
       {
         "index": 7,
         "question_id": 8,
-        "type": "texte",
-        "correct": null,
-        "correction": "**durée** temps vécu (vs espace mesuré)."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des lois et de la justice encourage l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect des règles dans la société."
       }
-    ],
-    "level": "bac",
-    "subject": "Philosophie"
+    ]
   }
 }

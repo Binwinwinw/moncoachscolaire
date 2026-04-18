@@ -1,88 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 6eme Anglais",
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 0051",
     "type": "quiz",
     "level": "6eme",
-    "subject": "Anglais",
-    "description": "Diagnostic verbes etre/avoir, present simple, vocabulaire 6eme"
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 6eme : algèbre et organisation de données",
+    "status": "published",
+    "created_at": "2026-04-06 06:25:41",
+    "updated_at": "2026-04-06 06:25:41"
   },
   "quiz": {
-    "title": "Diagnostic Anglais 6eme",
+    "title": "algèbre et organisation de données",
+    "type": "quiz",
     "level": "6eme",
-    "subject": "Anglais",
+    "subject": "Mathématiques",
     "question_count": 8,
     "passing_score": 70,
+    "time_limit_minutes": 15,
     "questions": [
       {
-        "id": 1,
         "type": "qcm",
-        "question": "I ... a student.",
+        "question": "Quelle est la valeur de x dans l'équation 2x + 3 = 7 ?",
         "choices": [
-          "am",
-          "is",
-          "are"
+          "1",
+          "2",
+          "3",
+          "4"
         ]
       },
       {
-        "id": 2,
         "type": "vrai-faux",
-        "question": "We ... teachers."
+        "question": "Dans l'équation y = 3x + 2, y est la variable dépendante."
       },
       {
-        "id": 3,
-        "type": "texte",
-        "question": "She ... a book."
-      },
-      {
-        "id": 4,
         "type": "qcm",
-        "question": "They ... in Paris.",
+        "question": "Quelle est la valeur de y dans l'équation y = 2x - 1 lorsque x = 3 ?",
         "choices": [
-          "live",
-          "lives",
-          "living"
+          "4",
+          "5",
+          "6",
+          "7"
         ]
       },
       {
-        "id": 5,
-        "type": "texte",
-        "question": "My house ... big."
-      },
-      {
-        "id": 6,
         "type": "vrai-faux",
-        "question": "I has got a cat."
+        "question": "Dans l'équation z = x + y, z est la variable indépendante."
       },
       {
-        "id": 7,
         "type": "qcm",
-        "question": "Hello, I ... Paul.",
+        "question": "Quelle est la valeur de x dans l'équation 3x - 2 = 4 ?",
         "choices": [
-          "am",
-          "is",
-          "are",
-          "have"
+          "1",
+          "2",
+          "3",
+          "4"
         ]
       },
       {
-        "id": 8,
-        "type": "texte",
-        "question": "We ... TV."
+        "type": "vrai-faux",
+        "question": "Dans l'équation w = 5y, w est la variable dépendante."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la valeur de y dans l'équation y = 4x + 1 lorsque x = 2 ?",
+        "choices": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Dans l'équation v = 2z + 3, v est la variable indépendante."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "To be / To have"
+      "notion": "Fondamentaux de Mathématiques",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Present simple"
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Pronoms personnels"
-    },
-    {
-      "notion": "Vocabulaire quotidien"
+      "notion": "Savoir-faire mathématiques",
+      "description": "Notion du programme 6eme"
     }
   ],
   "exerciseresponses": []

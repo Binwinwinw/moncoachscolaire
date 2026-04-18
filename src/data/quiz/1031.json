@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Intégration par parties",
     "status": "published",
-    "created_at": "2026-03-13 11:24:24",
-    "updated_at": "2026-03-13 11:24:24"
+    "created_at": "2026-04-06 06:40:48",
+    "updated_at": "2026-04-06 06:40:48"
   },
   "quiz": {
     "title": "Intégration par parties",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Intégration par parties",
+      "description": "Méthode d'intégration qui consiste à intégrer une fonction en la décomposant en deux parties, l'une étant intégrée et l'autre étant dérivée"
+    },
+    {
+      "notion": "Formule d'intégration par parties",
+      "description": "Formule mathématique qui permet d'appliquer la méthode d'intégration par parties : ∫u(x)v'(x)dx = u(x)v(x) - ∫u'(x)v(x)dx"
+    },
+    {
+      "notion": "Choix de u(x) et v'(x)",
+      "description": "Étape clé de l'intégration par parties qui consiste à choisir judicieusement les fonctions u(x) et v'(x) pour faciliter les calculs d'intégration"
+    }
+  ],
   "exerciseresponses": []
 }

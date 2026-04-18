@@ -1,102 +1,94 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ère Anglais - Série 04",
+    "title": "Quiz Diagnostic EMC 6eme - Série 0128",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Anglais",
-    "description": "Diagnostic Anglais 1ère : Education, Future Careers (Eduscol B1/B2 Advanced)",
+    "level": "6eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 6eme : EMC 6e - Sources fiables",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-09 17:03:00"
+    "created_at": "2026-04-06 06:25:43",
+    "updated_at": "2026-04-06 06:25:43"
   },
   "quiz": {
-    "title": "1ère English Diagnostic - Series 04 (Education & Careers)",
-    "level": "1ere",
-    "subject": "Anglais",
+    "title": "EMC 6e - Sources fiables",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "University education should be free for all because:",
+        "question": "Pourquoi est-il important de respecter les règles de recherche de sources fiables ?",
         "choices": [
-          "Equal opportunities",
-          "Too expensive for governments",
-          "Not everyone wants to study",
-          "Online learning is better"
-        ],
-        "correct_index": 0,
-        "id": 1
+          "Le respect des règles de recherche de sources fiables garantit la promotion d'une information de qualité, le respect des autres et la construction d'une société plus juste et solidaire.",
+          "Le respect des règles de recherche de sources fiables est inutile, car les individus peuvent agir comme ils le souhaitent.",
+          "Le respect des règles de recherche de sources fiables est réservé aux élites politiques et économiques.",
+          "Le respect des règles de recherche de sources fiables est limité aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Apprenticeships provide better job prospects than university degrees.",
-        "correct": false,
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "Name 2 skills essential for future jobs (21st century).",
-        "placeholder": "ex: Critical thinking, digital literacy",
-        "id": 3
+        "question": "Le respect des règles de recherche de sources fiables est un concept qui promeut la non-intervention dans les affaires des individus."
       },
       {
         "type": "qcm",
-        "question": "Reported speech: She said, 'I am tired.' → She said that...",
+        "question": "Quel est le rôle de l'éducation dans le respect des règles de recherche de sources fiables ?",
         "choices": [
-          "she was tired",
-          "she is tired",
-          "I am tired",
-          "I was tired"
-        ],
-        "correct_index": 0,
-        "id": 4
+          "L'éducation joue un rôle crucial en sensibilisant les individus aux règles de recherche de sources fiables et en promouvant le respect de ces règles.",
+          "L'éducation est inutile dans le respect des règles de recherche de sources fiables, car les individus peuvent apprendre par eux-mêmes.",
+          "L'éducation est réservée aux élites politiques et économiques.",
+          "L'éducation est limitée aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "I wish I had studied harder for the exam last week.",
-        "correct": true,
-        "id": 5
-      },
-      {
-        "type": "texte",
-        "question": "What career would you choose? Why? (2 sentences)",
-        "placeholder": "ex: I would be a doctor because I like helping people.",
-        "id": 6
+        "question": "Le respect des règles de recherche de sources fiables est un concept qui promeut la non-intervention dans les affaires des individus."
       },
       {
         "type": "qcm",
-        "question": "Online courses are as effective as traditional classes if...",
+        "question": "Quel est l'impact du respect des règles de recherche de sources fiables sur la société ?",
         "choices": [
-          "Students are motivated",
-          "No internet needed",
-          "Same cost",
-          "Group work impossible"
-        ],
-        "correct_index": 0,
-        "id": 7
+          "Il favorise la diffusion d'une information de qualité et le respect des autres.",
+          "Il n'a aucun impact sur la société.",
+          "Il limite la liberté d'expression.",
+          "Il est uniquement bénéfique pour les chercheurs."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Gap year experiences improve CVs for university applications.",
-        "correct": true,
-        "id": 8
+        "question": "Le respect des règles de recherche de sources fiables est un concept qui promeut la non-intervention dans les affaires des individus."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle des parents dans le respect des règles de recherche de sources fiables ?",
+        "choices": [
+          "Les parents ont un rôle important en sensibilisant leurs enfants aux règles de recherche de sources fiables et en promouvant le respect de ces règles.",
+          "Les parents sont inutiles dans le respect des règles de recherche de sources fiables, car les individus peuvent apprendre par eux-mêmes.",
+          "Les parents sont réservés aux élites politiques et économiques.",
+          "Les parents sont limités aux écoles uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect des règles de recherche de sources fiables est un concept qui promeut la non-intervention dans les affaires des individus."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Education Systems",
-      "description": "University vs apprenticeships, online learning (Eduscol 1ère)"
+      "notion": "Fondamentaux de EMC",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Future Careers",
-      "description": "21st century skills, CV building, gap years"
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Advanced Grammar",
-      "description": "Reported speech, wish/regret, 3rd conditional"
+      "notion": "Savoir-faire emc",
+      "description": "Notion du programme 6eme"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

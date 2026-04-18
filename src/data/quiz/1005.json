@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques 2nde : Fonctions affines approfondies",
     "status": "published",
-    "created_at": "2026-03-13 11:15:43",
-    "updated_at": "2026-03-13 11:15:43"
+    "created_at": "2026-04-06 06:40:42",
+    "updated_at": "2026-04-06 06:40:42"
   },
   "quiz": {
     "title": "Fonctions affines approfondies",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Décomposer le problème",
+      "description": "Identifier les éléments clés de l'exercice, tels que les fonctions affines impliquées, les données fournies et ce qui est demandé"
+    },
+    {
+      "notion": "Reconnaitre les concepts mathématiques",
+      "description": "Identifier les concepts mathématiques sous-jacents, tels que les équations linéaires, les graphiques de fonctions affines et les propriétés des fonctions affines"
+    },
+    {
+      "notion": "Élaborer un plan de résolution",
+      "description": "Déterminer les étapes nécessaires pour résoudre l'exercice, en utilisant les concepts mathématiques identifiés et en appliquant les méthodes appropriées"
+    }
+  ],
   "exerciseresponses": []
 }

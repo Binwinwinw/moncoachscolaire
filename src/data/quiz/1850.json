@@ -1,0 +1,90 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Philosophie terminale - SÃ©rie 1850",
+    "type": "quiz",
+    "level": "terminale",
+    "subject": "Philosophie",
+    "description": "Diagnostic Philosophie terminale : Philosophie terminale - L'art",
+    "status": "published",
+    "created_at": "2026-04-06 06:40:48",
+    "updated_at": "2026-04-06 06:40:48",
+    "source": "Eduscol programmes officiels + BOEN",
+    "programme_ref": "BO special ndeg8 du 25 juillet 2019 + Eduscol Philosophie Terminale"
+  },
+  "quiz": {
+    "title": "Philosophie terminale - L'art",
+    "type": "quiz",
+    "level": "terminale",
+    "subject": "Philosophie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "[Philosophie terminale] Sur le theme 'L'art', quelle demarche est la plus efficace pour reussir un exercice diagnostic ?",
+        "choices": [
+          "Relire la consigne et identifier l'objectif",
+          "Repondre vite sans verifier",
+          "Ignorer le contexte",
+          "Memoriser sans comprendre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Philosophie terminale] Sur 'L'art', verifier ses reponses avant validation ameliore la fiabilite."
+      },
+      {
+        "type": "open",
+        "question": "[Philosophie terminale] Cite une methode concrete pour progresser sur le theme 'L'art'."
+      },
+      {
+        "type": "qcm",
+        "question": "[Philosophie terminale] Quelle action favorise la memorisation durable du theme 'L'art' ?",
+        "choices": [
+          "Faire des rappels espaces",
+          "Tout revoir une seule fois",
+          "Copier sans comprendre",
+          "Eviter les exercices"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Philosophie terminale] L'explication d'une reponse est moins importante que la reponse elle-meme."
+      },
+      {
+        "type": "open",
+        "question": "[Philosophie terminale] Propose un exemple d'auto-correction pertinente sur 'L'art'."
+      },
+      {
+        "type": "qcm",
+        "question": "[Philosophie terminale] Quel indicateur montre une bonne maitrise du theme 'L'art' ?",
+        "choices": [
+          "Expliquer clairement la demarche",
+          "Donner une reponse au hasard",
+          "Eviter les notions difficiles",
+          "Memoriser sans application"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Philosophie terminale] Alterner entrainement, feedback et reprise des erreurs aide a progresser sur 'L'art'."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Liberté et déterminisme",
+      "description": "Notion fondamentale de Philosophie"
+    },
+    {
+      "notion": "Justice et droit",
+      "description": "Notion fondamentale de Philosophie"
+    },
+    {
+      "notion": "Beauté et art",
+      "description": "Notion fondamentale de Philosophie"
+    }
+  ],
+  "exerciseresponses": []
+}

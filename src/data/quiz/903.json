@@ -1,16 +1,16 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 5eme SVT - Serie 45",
+    "title": "Producteurs et consommateurs en SVT",
     "type": "quiz",
     "level": "5eme",
     "subject": "SVT",
-    "description": "Diagnostic SVT 5eme : Biologie et sciences naturelles",
+    "description": "Diagnostic SVT 5eme : Producteurs, consommateurs et chaines alimentaires",
     "status": "published",
     "created_at": "2026-03-08 00:05:00",
     "updated_at": "2026-03-08 00:05:00"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 5eme SVT - Serie 45",
+    "title": "Anglais - Producteurs et consommateurs en SVT",
     "level": "5eme",
     "subject": "SVT",
     "question_count": 8,
@@ -19,78 +19,77 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en SVT cette année ?",
-        "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
-        ],
+        "question": "Quel organisme est un producteur dans un écosystème ?",
+        "choices": ["Une plante", "Un renard", "Un champignon", "Un loup"],
         "id": 1
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau 5eme aborde des notions fondamentales en SVT.",
+        "question": "Un consommateur primaire mange principalement des plantes.",
         "id": 2
       },
       {
         "type": "texte",
-        "question": "Cite un exemple concret lié à SVT.",
-        "placeholder": "Exemple...",
+        "question": "Explique en anglais pourquoi les producteurs sont importants pour une chaîne alimentaire.",
         "id": 3
       },
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en SVT cette année ?",
+        "question": "Quel rôle joue un herbivore dans une chaîne alimentaire ?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "Il mange les plantes",
+          "Il décompose les déchets",
+          "Il produit son propre aliment",
+          "Il absorbe la lumière"
         ],
         "id": 4
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau 5eme aborde des notions fondamentales en SVT.",
+        "question": "Les décomposeurs transforment les organismes morts en nutriments.",
         "id": 5
       },
       {
-        "type": "texte",
-        "question": "Cite un exemple concret lié à SVT.",
-        "placeholder": "Exemple...",
+        "type": "qcm",
+        "question": "Quel type d'organisme est souvent au sommet d'une chaîne alimentaire ?",
+        "choices": [
+          "Un carnivore",
+          "Un producteur",
+          "Un décomposeur",
+          "Un herbivore"
+        ],
         "id": 6
       },
       {
-        "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en SVT cette année ?",
-        "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
-        ],
+        "type": "texte",
+        "question": "Donne un exemple d'un consommateur secondaire dans un écosystème.",
         "id": 7
       },
       {
-        "type": "vrai-faux",
-        "question": "Le niveau 5eme aborde des notions fondamentales en SVT.",
+        "type": "qcm",
+        "question": "Pourquoi la chaîne alimentaire est-elle importante pour les écosystèmes ?",
+        "choices": [
+          "Elle montre le flux d'énergie entre les organismes",
+          "Elle arrête la croissance des plantes",
+          "Elle empêche les animaux de bouger",
+          "Elle remplace la photosynthèse"
+        ],
         "id": 8
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Notion 1 - SVT",
-      "description": "Concept clé de SVT au niveau 5eme"
+      "notion": "Producteurs",
+      "description": "Les producteurs fabriquent leur propre nourriture à partir de la lumière, de l'eau et des nutriments."
     },
     {
-      "notion": "Notion 2 - SVT",
-      "description": "Concept clé de SVT au niveau 5eme"
+      "notion": "Consommateurs",
+      "description": "Les consommateurs mangent des plantes ou d'autres animaux dans une chaîne alimentaire."
     },
     {
-      "notion": "Notion 3 - SVT",
-      "description": "Concept clé de SVT au niveau 5eme"
+      "notion": "Chaîne alimentaire",
+      "description": "La chaîne alimentaire montre comment l'énergie circule entre les organismes."
     }
   ],
   "exerciseresponses": []

@@ -1,102 +1,94 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ère Anglais - Série 09",
+    "title": "Quiz Diagnostic EMC 6eme - Série 0133",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Anglais",
-    "description": "Diagnostic Anglais 1ère : Science, Innovation, Advanced Expression (Eduscol B1/B2)",
+    "level": "6eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 6eme : EMC 6e - La vie scolaire",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-09 18:31:00"
+    "created_at": "2026-04-06 06:25:43",
+    "updated_at": "2026-04-06 06:25:43"
   },
   "quiz": {
-    "title": "1ère English Diagnostic - Series 09 (Science & Innovation)",
-    "level": "1ere",
-    "subject": "Anglais",
+    "title": "EMC 6e - La vie scolaire",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "CRISPR gene editing technology could cure genetic diseases but raises ethical concerns.",
+        "question": "Pourquoi est-il important de respecter les règles de la vie scolaire ?",
         "choices": [
-          "Designer babies risk",
-          "Access inequality",
-          "Both A and B",
-          "No concerns"
-        ],
-        "correct_index": 2,
-        "id": 1
+          "Le respect des règles de la vie scolaire garantit la promotion d'un environnement d'apprentissage sain, le respect des autres et la construction d'une société plus juste et solidaire.",
+          "Le respect des règles de la vie scolaire est inutile, car les individus peuvent agir comme ils le souhaitent.",
+          "Le respect des règles de la vie scolaire est réservé aux élites politiques et économiques.",
+          "Le respect des règles de la vie scolaire est limité aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Space tourism will be affordable for average people by 2030.",
-        "correct": false,
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "What is one benefit of quantum computing?",
-        "placeholder": "ex: Solve complex problems faster than classical computers",
-        "id": 3
+        "question": "Le respect des règles de la vie scolaire est un concept qui promeut la non-intervention dans les affaires des individus."
       },
       {
         "type": "qcm",
-        "question": "Mixed conditional: If I _____ rich, I _____ donate to science.",
+        "question": "Quel est le rôle de l'éducation dans le respect des règles de la vie scolaire ?",
         "choices": [
-          "were / would",
-          "was / will",
-          "am / donate",
-          "had been / donated"
-        ],
-        "correct_index": 0,
-        "id": 4
+          "L'éducation joue un rôle crucial en sensibilisant les individus aux règles de la vie scolaire et en promouvant le respect de ces règles.",
+          "L'éducation est inutile dans le respect des règles de la vie scolaire, car les individus peuvent apprendre par eux-mêmes.",
+          "L'éducation est réservée aux élites politiques et économiques.",
+          "L'éducation est limitée aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "What matters most in scientific research is funding.",
-        "correct": false,
-        "id": 5
-      },
-      {
-        "type": "texte",
-        "question": "How might AI change jobs in the next decade? 1 prediction.",
-        "placeholder": "ex: Automate routine tasks, create new tech roles",
-        "id": 6
+        "question": "Le respect des règles de la vie scolaire permet de garantir un environnement d'apprentissage sain et le respect des autres."
       },
       {
         "type": "qcm",
-        "question": "Renewable energy sources include:",
+        "question": "Quel est le rôle des médias dans le respect des règles de la vie scolaire ?",
         "choices": [
-          "Solar, wind, geothermal",
-          "Coal, oil only",
-          "Nuclear fission",
-          "Natural gas"
-        ],
-        "correct_index": 0,
-        "id": 7
+          "Les enseignants jouent un rôle crucial en sensibilisant les élèves aux règles de la vie scolaire et en promouvant le respect de ces règles.",
+          "Les médias sont inutiles dans le respect des règles de la vie scolaire, car les individus peuvent apprendre par eux-mêmes.",
+          "Les médias sont réservés aux élites politiques et économiques.",
+          "Les médias sont limités aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Had we invested earlier in green tech, emissions would be lower now.",
-        "correct": true,
-        "id": 8
+        "question": "Le respect des règles de la vie scolaire est un concept qui promeut la non-intervention dans les affaires des individus."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle des parents dans le respect des règles de la vie scolaire ?",
+        "choices": [
+          "Les parents ont un rôle important en sensibilisant leurs enfants aux règles de la vie scolaire et en promouvant le respect de ces règles.",
+          "Les parents sont inutiles dans le respect des règles de la vie scolaire, car les individus peuvent apprendre par eux-mêmes.",
+          "Les parents sont réservés aux élites politiques et économiques.",
+          "Les parents sont limités aux écoles uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La vie scolaire ne sert qu'à imposer des règles strictes sans encourager la responsabilité individuelle."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Biotech",
-      "description": "CRISPR ethics, gene therapy (Eduscol 1ère science themes)"
+      "notion": "Fondamentaux de EMC",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Future Tech",
-      "description": "Quantum computing, AI job impact, space tourism"
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Advanced Grammar",
-      "description": "Mixed conditionals, inversion (had we), emphasis (what matters)"
+      "notion": "Savoir-faire emc",
+      "description": "Notion du programme 6eme"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

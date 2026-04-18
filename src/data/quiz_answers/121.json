@@ -1,71 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 4ème Mathématiques",
-    "level": "4eme",
-    "subject": "Mathématiques"
+    "title": "Quiz Diagnostic EMC 6eme - Série 0121",
+    "level": "6eme",
+    "subject": "EMC"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 4ème Mathématiques",
+    "title": "EMC 6e - Médias et publicité",
     "question_count": 8,
+    "level": "6eme",
+    "subject": "EMC",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correct": 0,
-        "correction": "**droites parallèles** (AB/AC=DE/DF). [web:133]"
+        "answer": "Le respect des règles de consommation responsable garantit la protection des consommateurs, la promotion de pratiques commerciales éthiques et la construction d'une société plus durable et équitable.",
+        "correction": "Le respect des règles de consommation responsable est essentiel pour garantir la protection des consommateurs, la promotion de pratiques commerciales éthiques et la construction d'une société plus durable et équitable."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "correct": true,
-        "correction": "**Vrai**. c hypoténuse. [web:126]"
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des règles de consommation responsable encourage l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect de ces règles dans la société."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correct": null,
-        "correction": "**3** (3x=9, x=3)."
+        "type": "qcm",
+        "answer": "L'éducation joue un rôle crucial en sensibilisant les individus aux règles de consommation responsable et en promouvant le respect de ces règles.",
+        "correction": "L'éducation joue un rôle crucial en sensibilisant les individus aux règles de consommation responsable, en promouvant le respect de ces règles et en encourageant la responsabilité individuelle pour garantir la protection des consommateurs, la promotion de pratiques commerciales éthiques et la construction d'une société plus durable et équitable."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correct": 0,
-        "correction": "**30** (0,2×150). [web:131]"
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des règles de consommation responsable encourage l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect de ces règles dans la société."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "correct": true,
-        "correction": "**Vrai**. 9+16=25."
+        "type": "qcm",
+        "answer": "Les médias ont un rôle important en promouvant des représentations positives du respect des règles de consommation responsable et en sensibilisant le public à l'importance de ces règles.",
+        "correction": "Les médias ont un rôle important dans le respect des règles de consommation responsable en promouvant des représentations positives du respect de ces règles, en sensibilisant le public à leur importance et en contribuant à la construction d'une société plus responsable et respectueuse des règles."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "correct": null,
-        "correction": "**4** (x²=16, x=4)."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des règles de consommation responsable encourage l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect de ces règles dans la société."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "correct": 0,
-        "correction": "**15** (x=6×5/2=15)."
+        "answer": "Les médias peuvent influencer positivement ou négativement le respect des règles de consommation responsable.",
+        "correction": "Les médias ont un impact significatif sur le respect des règles de consommation responsable, car ils peuvent influencer les comportements et les attitudes du public, que ce soit de manière positive ou négative."
       },
       {
         "index": 7,
         "question_id": 8,
-        "type": "texte",
-        "correct": null,
-        "correction": "**3** (πr²h/3). [web:130]"
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des règles de consommation responsable encourage l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect de ces règles dans la société."
       }
-    ],
-    "level": "4eme",
-    "subject": "Mathématiques"
+    ]
   }
 }

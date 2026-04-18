@@ -1,71 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Bac Espagnol",
-    "level": "bac",
-    "subject": "Espagnol"
+    "title": "Quiz Diagnostic EMC 6eme - Série 0111",
+    "level": "6eme",
+    "subject": "EMC"
   },
   "quiz": {
-    "title": "Quiz Diagnostic Bac Espagnol",
+    "title": "EMC 6e - Droits de l’enfant (Convention ONU)",
     "question_count": 8,
+    "level": "6eme",
+    "subject": "EMC",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correct": 1,
-        "correction": "**subjonctif doute** (espero que venga)."
+        "answer": "Le respect des droits de l'enfant garantit la protection, le bien-être et le développement des enfants, en leur permettant de vivre dans un environnement sûr et épanouissant.",
+        "correction": "Le respect des droits de l'enfant tels que définis par la Convention des Nations Unies est crucial pour garantir la protection, le bien-être et le développement des enfants, en leur permettant de vivre dans un environnement sûr, épanouissant et respectueux de leurs besoins et de leur dignité."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "correct": true,
-        "correction": "**Vrai**. Dudo + subjonctif."
+        "answer": "vrai",
+        "correction": "C'est vrai. Les droits de l'enfant sont des droits fondamentaux protégés par la loi, notamment à travers la Convention des Nations Unies relative aux droits de l'enfant, qui établit les droits civils, politiques, économiques, sociaux et culturels des enfants."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correct": null,
-        "correction": "**que vivía** (imparfait discours indirect)."
+        "type": "qcm",
+        "answer": "Le respect des droits de l'enfant favorise le développement, la protection et le bien-être des enfants, en leur permettant de vivre dans un environnement sûr et épanouissant.",
+        "correction": "Le respect des droits de l'enfant favorise le développement, la protection et le bien-être des enfants, en leur permettant de vivre dans un environnement sûr, épanouissant et respectueux de leurs besoins et de leur dignité."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correct": 2,
-        "correction": "**afin que** (finalité subjonctif)."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des droits de l'enfant encourage l'acceptation et la valorisation des enfants en tant qu'individus à part entière, ce qui peut impliquer une intervention pour protéger leurs droits ou pour promouvoir leur bien-être dans la société."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "correct": true,
-        "correction": "**Vrai**. Ser permanent, estar temporaire."
+        "type": "qcm",
+        "answer": "L'éducation joue un rôle crucial en sensibilisant les individus aux droits de l'enfant et en promouvant le respect de ces droits.",
+        "correction": "L'éducation joue un rôle crucial en sensibilisant les individus aux droits de l'enfant et en promouvant le respect de ces droits."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "correct": null,
-        "correction": "**Siglo de Oro** (16e-17e, Cervantes, Lope)."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des droits de l'enfant encourage l'acceptation et la valorisation des enfants en tant qu'individus à part entière, ce qui peut impliquer une intervention pour protéger leurs droits ou pour promouvoir leur bien-être dans la société."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "correct": 0,
-        "correction": "**venga** (subjonctif après quiero que)."
+        "answer": "Les médias ont un rôle important en promouvant des représentations positives des enfants et en sensibilisant le public au respect des droits de l'enfant.",
+        "correction": "Les médias ont un rôle important dans le respect des droits de l'enfant en promouvant des représentations positives des enfants, en sensibilisant le public au respect de leurs droits et en contribuant à la construction d'une société plus inclusive et respectueuse des enfants."
       },
       {
         "index": 7,
         "question_id": 8,
-        "type": "texte",
-        "correct": null,
-        "correction": "**Federico García Lorca** (Bodas de sangre, Yerma)."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des droits de l'enfant encourage l'acceptation et la valorisation des enfants en tant qu'individus à part entière, ce qui peut impliquer une intervention pour protéger leurs droits ou pour promouvoir leur bien-être dans la société."
       }
-    ],
-    "level": "bac",
-    "subject": "Espagnol"
+    ]
   }
 }

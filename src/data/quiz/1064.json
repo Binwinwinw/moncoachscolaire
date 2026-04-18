@@ -1,67 +1,90 @@
 {
-  "id": 1064,
-  "title": "Applications du second degré",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "created_at": "2026-03-13T18:54:00.424418Z",
-  "questions": [
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 1ère - SÃ©rie 1064",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ère : Diagnostic Anglais 1ère - Série 6",
+    "status": "published",
+    "created_at": "2026-04-06 06:40:39",
+    "updated_at": "2026-04-06 06:40:39",
+    "source": "Eduscol programmes officiels + BOEN",
+    "programme_ref": "BO special ndeg1 du 22 janvier 2019 (LGT) + Eduscol Langues vivantes Premiere"
+  },
+  "quiz": {
+    "title": "Diagnostic Anglais 1ère - Série 6",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "What is the superlative form of the adjective \"good\"?",
+        "choices": [
+          "goodest",
+          "best",
+          "more good",
+          "gooder"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The word \"their\" is a possessive pronoun."
+      },
+      {
+        "type": "open",
+        "question": "Translate the sentence \"She is cooking dinner\" into French."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following words is an antonym of \"old\"?",
+        "choices": [
+          "ancient",
+          "new",
+          "aged",
+          "elderly"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "\"It's\" is a contraction of \"it is\"."
+      },
+      {
+        "type": "open",
+        "question": "What is the past participle of the verb \"break\"?"
+      },
+      {
+        "type": "qcm",
+        "question": "Choose the correct sentence:",
+        "choices": [
+          "He don't like sports.",
+          "He doesn't like sports.",
+          "He isn't like sports.",
+          "He no like sports."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The word \"happily\" is an adverb."
+      }
+    ]
+  },
+  "exercisenotion": [
     {
-      "id": "1064_1",
-      "type": "qcm",
-      "question": "Un projectile a une trajectoire h(t) = −5t² + 20t (en mètres). À quelle hauteur maximale monte-t-il ?",
-      "options": [
-        "10 m",
-        "15 m",
-        "20 m",
-        "25 m"
-      ]
+      "notion": "Civilisation britannique",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "id": "1064_2",
-      "type": "vrai-faux",
-      "question": "Pour maximiser la surface d'un rectangle de périmètre fixe P, la solution optimale est un carré."
+      "notion": "Nuances grammaticales",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "id": "1064_3",
-      "type": "texte",
-      "question": "On enclos un rectangle avec 40 m de grillage. Quelle longueur l maximise l'aire ? Quelle aire maximale ?"
-    },
-    {
-      "id": "1064_4",
-      "type": "qcm",
-      "question": "Le bénéfice d'une entreprise est B(x) = −2x² + 80x − 300 (€, x milliers d'unités). Quel x maximise le bénéfice ?",
-      "options": [
-        "x = 20",
-        "x = 40",
-        "x = 10",
-        "x = 80"
-      ]
-    },
-    {
-      "id": "1064_5",
-      "type": "vrai-faux",
-      "question": "L'équation h(t) = 0 (où h est la hauteur d'un projectile) donne les instants de départ et d'arrivée."
-    },
-    {
-      "id": "1064_6",
-      "type": "texte",
-      "question": "La surface d'un carré augmentée de 4 fois son côté vaut 21. Trouve le côté."
-    },
-    {
-      "id": "1064_7",
-      "type": "qcm",
-      "question": "Un rectangle a une diagonale de 10 et un périmètre de 28. Ses dimensions sont :",
-      "options": [
-        "6 et 8",
-        "5 et 9",
-        "4 et 10",
-        "7 et 7"
-      ]
-    },
-    {
-      "id": "1064_8",
-      "type": "vrai-faux",
-      "question": "Le bénéfice maximal d'une fonction B(x) = −ax² + bx + c (a > 0) s'obtient en x = b/(2a)."
+      "notion": "Débat en anglais",
+      "description": "Notion fondamentale de Anglais"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

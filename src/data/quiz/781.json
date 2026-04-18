@@ -6,8 +6,8 @@
     "subject": "Technologie",
     "description": "Diagnostic Technologie 3eme : Les systemes techniques : structure et fonctionnement",
     "status": "published",
-    "created_at": "2026-03-14 04:06:19",
-    "updated_at": "2026-03-14 04:06:19"
+    "created_at": "2026-04-06 06:40:45",
+    "updated_at": "2026-04-06 06:40:45"
   },
   "quiz": {
     "title": "Les systemes techniques : structure et fonctionnement",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Fondamentaux de Technologie",
+      "description": "Notion du programme 3eme"
+    },
+    {
+      "notion": "Compétences de base 3eme",
+      "description": "Notion du programme 3eme"
+    },
+    {
+      "notion": "Savoir-faire technologie",
+      "description": "Notion du programme 3eme"
+    }
+  ],
   "exerciseresponses": []
 }

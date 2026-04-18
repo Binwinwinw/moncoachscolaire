@@ -1,0 +1,90 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Espagnol 4eme - SÃ©rie 1750",
+    "type": "quiz",
+    "level": "4eme",
+    "subject": "Espagnol",
+    "description": "Diagnostic Espagnol 4eme : Espagnol 4eme - Interactions en contexte",
+    "status": "published",
+    "created_at": "2026-04-06 06:40:45",
+    "updated_at": "2026-04-06 06:40:45",
+    "source": "Eduscol programmes officiels + BOEN",
+    "programme_ref": "BO ndeg31 du 30 juillet 2020 (Cycle 4) + Eduscol Langues vivantes"
+  },
+  "quiz": {
+    "title": "Espagnol 4eme - Interactions en contexte",
+    "type": "quiz",
+    "level": "4eme",
+    "subject": "Espagnol",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "[Espagnol 4eme] Sur le theme 'Interactions en contexte', quelle demarche est la plus efficace pour reussir un exercice diagnostic ?",
+        "choices": [
+          "Relire la consigne et identifier l'objectif",
+          "Repondre vite sans verifier",
+          "Ignorer le contexte",
+          "Memoriser sans comprendre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Espagnol 4eme] Sur 'Interactions en contexte', verifier ses reponses avant validation ameliore la fiabilite."
+      },
+      {
+        "type": "open",
+        "question": "[Espagnol 4eme] Cite une methode concrete pour progresser sur le theme 'Interactions en contexte'."
+      },
+      {
+        "type": "qcm",
+        "question": "[Espagnol 4eme] Quelle action favorise la memorisation durable du theme 'Interactions en contexte' ?",
+        "choices": [
+          "Faire des rappels espaces",
+          "Tout revoir une seule fois",
+          "Copier sans comprendre",
+          "Eviter les exercices"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Espagnol 4eme] L'explication d'une reponse est moins importante que la reponse elle-meme."
+      },
+      {
+        "type": "open",
+        "question": "[Espagnol 4eme] Propose un exemple d'auto-correction pertinente sur 'Interactions en contexte'."
+      },
+      {
+        "type": "qcm",
+        "question": "[Espagnol 4eme] Quel indicateur montre une bonne maitrise du theme 'Interactions en contexte' ?",
+        "choices": [
+          "Expliquer clairement la demarche",
+          "Donner une reponse au hasard",
+          "Eviter les notions difficiles",
+          "Memoriser sans application"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Espagnol 4eme] Alterner entrainement, feedback et reprise des erreurs aide a progresser sur 'Interactions en contexte'."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Fondamentaux de Espagnol",
+      "description": "Notion du programme 4eme"
+    },
+    {
+      "notion": "Compétences de base 4eme",
+      "description": "Notion du programme 4eme"
+    },
+    {
+      "notion": "Savoir-faire espagnol",
+      "description": "Notion du programme 4eme"
+    }
+  ],
+  "exerciseresponses": []
+}

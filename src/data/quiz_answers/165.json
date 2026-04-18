@@ -1,63 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 41",
-    "level": "1ere",
-    "subject": "Anglais"
+    "title": "Quiz Diagnostic Français 6eme - Série 0165",
+    "level": "6eme",
+    "subject": "Français"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 41",
+    "title": "Français 6e - L’écriture créative (rédaction)",
     "question_count": 8,
+    "level": "6eme",
+    "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correction": "La bonne réponse est B : 'Nevertheless'. La phrase exprime une idée contraire ou inattendue par rapport à la phrase précédente (le projet était cher, MAIS il a été terminé à temps). 'Nevertheless' = malgré cela, néanmoins — il introduit une concession ou un contraste. 'Therefore' et 'As a result' introduisent une conséquence logique, ce qui serait illogique ici. 'Furthermore' ajoute une information allant dans le même sens."
+        "answer": "L'imagination et l'originalité",
+        "correction": "L'imagination et l'originalité sont essentielles pour stimuler la créativité dans l'écriture créative, car elles permettent de générer des idées nouvelles et uniques, de créer des personnages intéressants et de développer des histoires captivantes."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "correction": "FAUX. 'Furthermore' ajoute une idée qui VA DANS LE MÊME SENS que l'argument précédent. 'However' introduit un CONTRASTE ou une idée opposée. On ne peut pas utiliser 'however' pour renforcer un argument — ce serait incohérent. Exemple : 'Exercise is healthy. Furthermore, it reduces stress.' (addition) VS 'Exercise is healthy. However, too much can cause injuries.' (contraste)."
+        "answer": "vrai",
+        "correction": "C'est vrai. L'écriture créative peut inclure différents genres littéraires tels que la fiction, la poésie, le théâtre, etc., offrant ainsi une grande variété de possibilités pour exprimer sa créativité et explorer différentes formes d'expression artistique."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correction": "Réponses possibles : 'As a result', 'Therefore', 'Consequently', 'Hence', 'Thus'. Ces marqueurs expriment une relation de cause à effet : la pollution (cause) → la fermeture (conséquence). On peut aussi reformuler en une phrase : 'Because the factory was polluting the river, the local government decided to close it.' ou 'Due to the factory's pollution, the local government decided to close it.'"
+        "type": "qcm",
+        "answer": "Toutes les réponses ci-dessus",
+        "correction": "Des descriptions détaillées, des dialogues réalistes et des motivations claires sont tous des éléments utilisés pour créer des personnages intéressants dans l'écriture créative, en donnant vie aux personnages et en les rendant crédibles et attachants pour les lecteurs."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correction": "La bonne réponse est C : 'Despite the terrible weather, we enjoyed the trip.' 'Despite' est TOUJOURS suivi d'un nom ou d'un gérondif (V-ing), jamais d'une clause complète. Erreurs classiques : 'despite of' (incorrect — contrairement à 'in spite of' qui prend 'of'), 'despite the fact that + clause' est possible mais 'despite that' seul est incorrect. Alternativement : 'In spite of the terrible weather, we enjoyed the trip.'"
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. L'écriture créative peut être un moyen efficace de développer ses compétences en écriture, en encourageant l'exploration de différentes techniques d'écriture et en favorisant l'expression personnelle à travers l'écriture, ce qui peut renforcer la confiance en soi et améliorer la maîtrise de la langue."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "correction": "FAUX. La répétition excessive d'un même mot nuit à la qualité du texte. Un bon texte utilise des synonymes, des paraphrases et des pronoms de référence pour assurer la variété lexicale et la cohésion. Ex : au lieu de répéter 'climate change', on peut alterner avec 'this phenomenon', 'the issue', 'these environmental challenges', 'it'. La richesse lexicale est un critère d'évaluation important au baccalauréat."
+        "type": "qcm",
+        "answer": "Toutes les réponses ci-dessus",
+        "correction": "Un conflit intéressant, des rebondissements inattendus et une résolution satisfaisante sont tous des éléments utilisés pour créer une intrigue captivante dans l'écriture créative, en maintenant l'intérêt du lecteur et en créant une expérience de lecture engageante."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "correction": "Le marqueur approprié est 'Furthermore', 'Moreover' ou 'In addition'. La deuxième phrase AJOUTE un autre effet négatif de la déforestation (contribution au changement climatique) — elle ne contraste pas avec la première, elle la renforce. Les marqueurs d'addition sont donc les plus logiques. 'However' serait incorrect car il n'y a pas de contraste. 'Therefore' serait incorrect car la deuxième phrase n'est pas une conséquence de la première mais un fait parallèle."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. L'écriture créative peut également être utilisée comme un moyen de s'exprimer et de partager ses idées, ses émotions et ses expériences avec les autres à travers l'écriture, en offrant une plateforme pour la communication et la connexion avec les lecteurs."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "correction": "La bonne réponse est B. Cette version utilise correctement les pronoms de référence (he, his) pour éviter la répétition du nom propre tout en maintenant la clarté. L'option A répète 'Einstein' de façon maladroite. L'option C utilise des synonymes ('the man', 'the genius') qui sont acceptables mais moins naturels. L'option D contient une erreur grammaticale ('Einstein he')."
+        "answer": "Toutes les réponses ci-dessus",
+        "correction": "Des descriptions sensorielles, des détails visuels et des émotions fortes sont tous des éléments utilisés pour créer une atmosphère immersive dans l'écriture créative, en transportant les lecteurs dans le monde de l'histoire et en leur permettant de vivre l'expérience de manière plus intense."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "correction": "VRAI. 'In conclusion' est le marqueur de conclusion le plus courant en anglais académique. Il signale au lecteur que l'auteur va résumer ses arguments principaux et reformuler sa thesis. Alternatives : 'To conclude', 'To sum up', 'In summary', 'Overall', 'All things considered', 'In light of the above'. Attention : 'In conclusion' ne doit pas introduire de nouveaux arguments — il synthétise ce qui a déjà été dit."
+        "answer": "vrai",
+        "correction": "C'est vrai. L'écriture créative peut être un processus personnel et subjectif, où chaque écrivain peut trouver sa propre voix et son propre style d'écriture, ce qui rend chaque œuvre unique et authentique, reflétant la personnalité, les expériences et les perspectives de l'auteur."
       }
-    ],
-    "level": "1ere",
-    "subject": "Anglais"
+    ]
   }
 }

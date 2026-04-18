@@ -1,14 +1,74 @@
 {
   "contents": {
-    "title": "QUIZ 1659 - réponses à remplir",
-    "level": "unknown",
-    "subject": "unknown"
+    "title": "Quiz Diagnostic Anglais 2nde - SÃ©rie 1659",
+    "level": "2nde",
+    "subject": "Anglais"
   },
   "quiz": {
-    "title": "Quiz 1659 - corrections placeholder",
-    "question_count": 0,
-    "answers": [],
-    "level": "unknown",
-    "subject": "unknown"
+    "title": "Diagnostic 2nde Anglais - Writing a Paragraph",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "To introduce the main idea",
+        "correct": 1,
+        "correction": "La topic sentence annonce clairement l'idée directrice du paragraphe."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les connecteurs logiques assurent la cohérence et l'enchaînement des idées."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "moreover",
+        "correction": "'Moreover' sert à ajouter un argument de façon formelle."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "To sum up, social media can be useful if used responsibly.",
+        "correct": 1,
+        "correction": "Une conclusion reformule l'idée principale de manière synthétique."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les exemples doivent illustrer et renforcer l'argument principal."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "for example",
+        "correction": "'For example' introduit une illustration concrète."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Avoid very repetitive basic words",
+        "correct": 1,
+        "correction": "Varier le lexique et structurer les phrases améliore la qualité rédactionnelle."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Planifier (idées + ordre logique) rend le paragraphe plus clair et efficace."
+      }
+    ]
   }
 }

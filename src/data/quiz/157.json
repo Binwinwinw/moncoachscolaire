@@ -1,96 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 33",
+    "title": "Quiz Diagnostic Français 6eme - Série 0157",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Anglais",
-    "description": "Diagnostic Anglais 1ere : Les temps du passé",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - Les valeurs des temps",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-08 00:05:00"
+    "created_at": "2026-04-06 06:25:38",
+    "updated_at": "2026-04-06 06:25:38"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 33",
-    "level": "1ere",
-    "subject": "Anglais",
+    "title": "Français 6e - Les valeurs des temps",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
-        "id": 1,
         "type": "qcm",
-        "question": "Choose the correct past tense: 'She ___ (finish) her exam two hours ago.'",
+        "question": "Quelle est la valeur principale du présent de l'indicatif ?",
         "choices": [
-          "was finishing",
-          "had finished",
-          "finished",
-          "has finished"
+          "Exprimer une action qui se déroule au moment où l'on parle",
+          "Exprimer une action qui s'est déroulée dans le passé",
+          "Exprimer une action qui se déroulera dans le futur",
+          "Exprimer une action hypothétique"
         ]
       },
       {
-        "id": 2,
         "type": "vrai-faux",
-        "question": "'While I was walking home, it started to rain' correctly uses the past continuous and past simple together."
+        "question": "Le passé composé peut être utilisé pour exprimer une action qui s'est déroulée dans le passé et qui a un lien avec le présent."
       },
       {
-        "id": 3,
-        "type": "texte",
-        "question": "Mets les verbes entre parenthèses au bon temps du passé : 'By the time we arrived at the station, the train ___ (already/leave).'",
-        "placeholder": "Écris ta réponse ici..."
-      },
-      {
-        "id": 4,
         "type": "qcm",
-        "question": "Which sentence correctly uses the past perfect?",
+        "question": "Quelle est la valeur principale de l'imparfait ?",
         "choices": [
-          "She had left before he arrived.",
-          "She left before he had arrived.",
-          "She has left before he arrived.",
-          "She was leaving before he arrived."
+          "Exprimer une action qui se déroule au moment où l'on parle",
+          "Exprimer une action qui s'est déroulée dans le passé de manière habituelle ou répétée",
+          "Exprimer une action qui se déroulera dans le futur",
+          "Exprimer une action hypothétique"
         ]
       },
       {
-        "id": 5,
         "type": "vrai-faux",
-        "question": "The past continuous can be used to describe two simultaneous actions happening at the same time in the past."
+        "question": "Le futur simple est utilisé pour exprimer une intention, une prédiction ou une promesse concernant une action qui se déroulera dans le futur."
       },
       {
-        "id": 6,
-        "type": "texte",
-        "question": "Explique pourquoi on utilise le past perfect dans cette phrase : 'When I got home, I realised I had forgotten my keys.'",
-        "placeholder": "Écris ta réponse ici..."
-      },
-      {
-        "id": 7,
         "type": "qcm",
-        "question": "Choose the correct sentence:",
+        "question": "Quelle est la valeur principale du passé simple ?",
         "choices": [
-          "I was watching TV when suddenly the lights went out.",
-          "I watched TV when suddenly the lights were going out.",
-          "I had been watching TV when suddenly the lights went out.",
-          "I watched TV when suddenly the lights go out."
+          "Exprimer une action qui se déroule au moment où l'on parle",
+          "Exprimer une action qui s'est déroulée dans le passé et qui a un lien avec le présent",
+          "Exprimer une action qui s'est déroulée dans le passé et qui n'a pas de lien direct avec le présent",
+          "Exprimer une action hypothétique"
         ]
       },
       {
-        "id": 8,
         "type": "vrai-faux",
-        "question": "In English, irregular verbs have the same form for the past simple and the past participle."
+        "question": "Le présent peut être utilisé pour exprimer une action qui se déroulait de manière habituelle ou répétée dans le passé."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la valeur principale du futur simple ?",
+        "choices": [
+          "Exprimer une action qui se déroule au moment où l'on parle",
+          "Exprimer une action qui s'est déroulée dans le passé",
+          "Exprimer une action qui se déroulera dans le futur",
+          "Exprimer une action hypothétique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation de différents temps verbaux peut contribuer à créer des nuances de sens et à enrichir la narration d'une histoire."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Past Simple",
-      "description": "Le past simple exprime une action terminée à un moment précis du passé. Marqueurs : yesterday, last week/year, ago, in 2010, when I was young. Verbes réguliers : +ed. Verbes irréguliers : forme 2 (go→went, see→saw). Ex : She visited Paris last summer."
+      "notion": "Fondamentaux de Français",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Past Continuous",
-      "description": "Le past continuous exprime une action en cours à un moment précis du passé, souvent interrompue par une autre action (past simple). Marqueurs : while, when, at that moment, at 8 o'clock yesterday. Ex : I was studying when she called. / While he was cooking, the phone rang."
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Past Perfect",
-      "description": "Le past perfect exprime une action terminée AVANT une autre action passée. Il établit une chronologie dans le passé. Marqueurs : before, after, already, just, when, by the time. Structure : had + past participle. Ex : When I arrived, she had already left."
+      "notion": "Savoir-faire français",
+      "description": "Notion du programme 6eme"
     }
   ],
   "exerciseresponses": []

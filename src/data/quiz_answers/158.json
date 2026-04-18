@@ -1,63 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 34",
-    "level": "1ere",
-    "subject": "Anglais"
+    "title": "Quiz Diagnostic Français 6eme - Série 0158",
+    "level": "6eme",
+    "subject": "Français"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 34",
+    "title": "Français 6e - Les types de phrases (déclarative, interrogative…)",
     "question_count": 8,
+    "level": "6eme",
+    "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correction": "La bonne réponse est B : 'is going to'. Quand une prédiction est basée sur des indices visibles dans le présent (ici : les nuages noirs), on utilise 'be going to'. 'Will' s'utilise pour une prédiction basée sur une opinion personnelle sans preuve visible. 'Look at...' est souvent un signal pour 'going to'."
+        "answer": "Phrase déclarative",
+        "correction": "La phrase déclarative est utilisée pour faire une déclaration ou exprimer une idée de manière affirmative ou négative."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "correction": "VRAI. C'est l'usage classique de 'will' pour une décision prise à l'instant, au moment de parler. La personne n'avait pas planifié ce rappel avant — elle le décide maintenant. Contraste avec 'going to' : 'I'm going to call you back' = j'avais déjà l'intention de rappeler avant cet instant."
+        "answer": "vrai",
+        "correction": "C'est vrai. La phrase interrogative est utilisée pour poser une question ou demander une information, souvent en utilisant des mots interrogatifs tels que 'qui', 'quoi', 'où', 'quand', 'comment', etc."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correction": "La réponse est : 'are going to see'. On utilise 'going to' car c'est un plan décidé à l'avance (les billets ont déjà été achetés). L'action future était intentionnelle et planifiée avant le moment de parler. Si on avait dit 'I'll see the concert' sans contexte, cela aurait pu suggérer une décision spontanée."
+        "type": "qcm",
+        "answer": "Phrase impérative",
+        "correction": "La phrase impérative est utilisée pour donner un ordre ou une instruction, souvent en utilisant le mode impératif du verbe."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correction": "La bonne réponse est B : 'By next year, she will have finished her degree.' Le future perfect (will have + past participle) s'utilise pour une action qui sera ACCOMPLIE avant un moment futur. 'By' + moment futur est le marqueur le plus typique du future perfect. La phrase signifie que sa licence sera terminée avant l'année prochaine."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. La phrase exclamative est utilisée pour exprimer une émotion forte ou une réaction intense, souvent en utilisant des points d'exclamation et des interjections."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "correction": "VRAI. Le present continuous peut exprimer le futur lorsqu'il s'agit d'un arrangement concret et planifié, surtout avec des verbes de mouvement ou d'organisation. Ex : 'We are meeting the director tomorrow at 3pm.' (rendez-vous fixé) / 'She is flying to New York next week.' (billet réservé). C'est une forme de futur très naturelle en anglais courant."
+        "type": "qcm",
+        "answer": "Phrase exclamative",
+        "correction": "La phrase exclamative est utilisée pour exprimer une émotion forte ou une réaction intense, souvent en utilisant des points d'exclamation et des interjections."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "correction": "La réponse est : 'I'll answer it.' On utilise 'will' car c'est une décision prise à l'instant, en réaction à la situation (le téléphone sonne). La personne n'avait pas planifié répondre avant — elle réagit spontanément. 'Going to' serait incorrect ici car il implique une intention préalable."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. La phrase déclarative peut être utilisée pour faire une déclaration ou exprimer une idée de manière affirmative ou négative."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "correction": "La bonne réponse est C : 'will have finished'. 'By the time + present simple' est un marqueur classique du future perfect. La phrase signifie que la cuisson sera terminée avant l'arrivée de la personne. Le future perfect est parfait ici pour exprimer l'accomplissement d'une action avant un point futur de référence."
+        "answer": "Phrase interrogative",
+        "correction": "La phrase interrogative est utilisée pour poser une question ou demander une information, souvent en utilisant des mots interrogatifs tels que 'qui', 'quoi', 'où', 'quand', 'comment', etc."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "correction": "FAUX. 'Shall' est principalement utilisé en anglais britannique, et même là son usage est de plus en plus limité. En anglais américain, on utilise presque exclusivement 'will'. En anglais britannique, 'shall' peut s'utiliser avec I/we pour exprimer le futur (I shall be there), ou pour faire des propositions (Shall we go?) et des suggestions formelles."
+        "answer": "vrai",
+        "correction": "C'est vrai. L'utilisation de différents types de phrases peut contribuer à créer des effets de style et à renforcer l'impact d'un texte sur les lecteurs, en jouant sur la structure et le rythme des phrases pour susciter des émotions ou mettre en valeur certaines idées."
       }
-    ],
-    "level": "1ere",
-    "subject": "Anglais"
+    ]
   }
 }

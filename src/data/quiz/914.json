@@ -1,0 +1,97 @@
+{
+  "contents": {
+    "title": "Anglais - Débutants : présent simple et vocabulaire de base",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Anglais",
+    "description": "Diagnostic verbes etre/avoir, present simple, vocabulaire 6eme",
+    "status": "published",
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-08 00:05:00"
+  },
+  "quiz": {
+    "title": "Anglais - Débutants : présent simple et vocabulaire de base",
+    "level": "6eme",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "What is your name?",
+        "choices": [
+          "My name is John",
+          "I am 15 years old",
+          "I like playing football",
+          "I live in Paris"
+        ],
+        "id": 1
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le présent simple est utilisé pour décrire des actions qui se passent à l'instant.",
+        "id": 2
+      },
+      {
+        "type": "texte",
+        "question": "Remplissez les blancs : 'I ______ (be) a student.'",
+        "placeholder": "Exemple...",
+        "id": 3
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following sentences uses the present simple correctly?",
+        "choices": [
+          "I go to school yesterday",
+          "I go to school every day",
+          "I going to school now",
+          "I goes to school"
+        ],
+        "id": 4
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Est-ce vrai ou faux : 'Have' est utilisé pour décrire des habitudes.",
+        "id": 5
+      },
+      {
+        "type": "texte",
+        "question": "Complete the sentence : 'If I ______ (have) a million dollars, I would buy a house.'",
+        "placeholder": "Exemple...",
+        "id": 6
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la forme correcte du présent simple pour le sujet 'he' avec le verbe 'eat'?",
+        "choices": [
+          "he eat",
+          "he eats",
+          "he eating",
+          "he to eat"
+        ],
+        "id": 7
+      },
+      {
+        "type": "texte",
+        "question": "Remplissez les blancs avec la forme correcte de 'be' : 'They ______ (be) my best friends.'",
+        "id": 8
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Le présent simple",
+      "description": "Le présent simple est utilisé pour décrire des habitudes, des faits généraux et des vérités universelles. Il est formé avec le verbe à la base pour les sujets I, you, we, they, et avec l'ajout de -s ou -es pour les sujets he, she, it."
+    },
+    {
+      "notion": "Les verbes d'état",
+      "description": "Les verbes d'état comme be et have sont utilisés pour décrire des situations permanentes ou temporairement vraies. Be est utilisé pour décrire l'état d'être, tandis que have est utilisé pour décrire la possession."
+    },
+    {
+      "notion": "Questions courantes",
+      "description": "Les questions courantes en anglais incluent des questions comme 'What's your name?', 'How old are you?' et 'Where are you from?' qui sont essentielles pour les interactions quotidiennes et la communication de base."
+    }
+  ],
+  "exerciseresponses": []
+}

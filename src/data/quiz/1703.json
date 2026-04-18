@@ -1,0 +1,90 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 2nde - SÃ©rie 1703",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 2nde : SVT 2nde - Cellule et information genetique",
+    "status": "published",
+    "created_at": "2026-04-06 06:40:43",
+    "updated_at": "2026-04-06 06:40:43",
+    "source": "Eduscol programmes officiels + BOEN",
+    "programme_ref": "BO special ndeg1 du 22 janvier 2019 (LGT) + Eduscol SVT Seconde"
+  },
+  "quiz": {
+    "title": "SVT 2nde - Cellule et information genetique",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "[SVT 2nde] Sur le theme 'Cellule et information genetique', quelle demarche est la plus efficace pour reussir un exercice diagnostic ?",
+        "choices": [
+          "Relire la consigne et identifier l'objectif",
+          "Repondre vite sans verifier",
+          "Ignorer le contexte",
+          "Memoriser sans comprendre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[SVT 2nde] Sur 'Cellule et information genetique', verifier ses reponses avant validation ameliore la fiabilite."
+      },
+      {
+        "type": "open",
+        "question": "[SVT 2nde] Cite une methode concrete pour progresser sur le theme 'Cellule et information genetique'."
+      },
+      {
+        "type": "qcm",
+        "question": "[SVT 2nde] Quelle action favorise la memorisation durable du theme 'Cellule et information genetique' ?",
+        "choices": [
+          "Faire des rappels espaces",
+          "Tout revoir une seule fois",
+          "Copier sans comprendre",
+          "Eviter les exercices"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[SVT 2nde] L'explication d'une reponse est moins importante que la reponse elle-meme."
+      },
+      {
+        "type": "open",
+        "question": "[SVT 2nde] Propose un exemple d'auto-correction pertinente sur 'Cellule et information genetique'."
+      },
+      {
+        "type": "qcm",
+        "question": "[SVT 2nde] Quel indicateur montre une bonne maitrise du theme 'Cellule et information genetique' ?",
+        "choices": [
+          "Expliquer clairement la demarche",
+          "Donner une reponse au hasard",
+          "Eviter les notions difficiles",
+          "Memoriser sans application"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[SVT 2nde] Alterner entrainement, feedback et reprise des erreurs aide a progresser sur 'Cellule et information genetique'."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Cellule et organites",
+      "description": "Notion fondamentale de SVT"
+    },
+    {
+      "notion": "Énergies renouvelables",
+      "description": "Notion fondamentale de SVT"
+    },
+    {
+      "notion": "Biodiversité",
+      "description": "Notion fondamentale de SVT"
+    }
+  ],
+  "exerciseresponses": []
+}

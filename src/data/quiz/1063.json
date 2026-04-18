@@ -1,67 +1,90 @@
 {
-  "id": 1063,
-  "title": "Équations et inéquations du second degré",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "created_at": "2026-03-13T18:54:00.423817Z",
-  "questions": [
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 1ère - SÃ©rie 1063",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ère : Diagnostic Anglais 1ère - Série 5",
+    "status": "published",
+    "created_at": "2026-04-06 06:40:39",
+    "updated_at": "2026-04-06 06:40:39",
+    "source": "Eduscol programmes officiels + BOEN",
+    "programme_ref": "BO special ndeg1 du 22 janvier 2019 (LGT) + Eduscol Langues vivantes Premiere"
+  },
+  "quiz": {
+    "title": "Diagnostic Anglais 1ère - Série 5",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "What is the comparative form of the adjective \"bad\"?",
+        "choices": [
+          "badder",
+          "worse",
+          "more bad",
+          "worser"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The word \"your\" is a possessive pronoun."
+      },
+      {
+        "type": "open",
+        "question": "Translate the sentence \"He is reading a book\" into French."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following words is a synonym for \"small\"?",
+        "choices": [
+          "tiny",
+          "big",
+          "large",
+          "huge"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "\"It's\" can be used as a possessive pronoun."
+      },
+      {
+        "type": "open",
+        "question": "What is the past tense of the verb \"drink\"?"
+      },
+      {
+        "type": "qcm",
+        "question": "Choose the correct sentence:",
+        "choices": [
+          "They doesn't like music.",
+          "They don't like music.",
+          "They isn't like music.",
+          "They no like music."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The word \"quietly\" is an adverb."
+      }
+    ]
+  },
+  "exercisenotion": [
     {
-      "id": "1063_1",
-      "type": "qcm",
-      "question": "Combien de solutions réelles possède x² + 2x + 5 = 0 ?",
-      "options": [
-        "0",
-        "1",
-        "2",
-        "Infinité"
-      ]
+      "notion": "Civilisation britannique",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "id": "1063_2",
-      "type": "vrai-faux",
-      "question": "x² = 9 a deux solutions réelles : x = 3 et x = −3."
+      "notion": "Nuances grammaticales",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "id": "1063_3",
-      "type": "texte",
-      "question": "Résous x² − 7x + 10 > 0."
-    },
-    {
-      "id": "1063_4",
-      "type": "qcm",
-      "question": "La somme des racines de 3x² − 7x + 2 = 0 est :",
-      "options": [
-        "7/3",
-        "2/3",
-        "7",
-        "−7/3"
-      ]
-    },
-    {
-      "id": "1063_5",
-      "type": "vrai-faux",
-      "question": "Le produit des racines de 3x² − 7x + 2 = 0 est 2/3."
-    },
-    {
-      "id": "1063_6",
-      "type": "texte",
-      "question": "Sans calculer les racines, détermine la somme et le produit des racines de 5x² + 3x − 1 = 0."
-    },
-    {
-      "id": "1063_7",
-      "type": "qcm",
-      "question": "Résous x(x − 4) = −3.",
-      "options": [
-        "x = 1 et x = 3",
-        "x = −1 et x = 3",
-        "x = 0 et x = 4",
-        "x = −1 et x = −3"
-      ]
-    },
-    {
-      "id": "1063_8",
-      "type": "vrai-faux",
-      "question": "L'équation (x − 2)² = 7 admet deux solutions réelles."
+      "notion": "Débat en anglais",
+      "description": "Notion fondamentale de Anglais"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

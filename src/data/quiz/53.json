@@ -1,98 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 6eme Histoire-Géographie",
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 0053",
     "type": "quiz",
     "level": "6eme",
-    "subject": "Histoire-Géographie",
-    "description": "Diagnostic repères spatiaux/temps, continents, Orient ancien 6eme"
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 6eme : Espace et géométrie",
+    "status": "published",
+    "created_at": "2026-04-06 06:25:41",
+    "updated_at": "2026-04-06 06:25:41"
   },
   "quiz": {
-    "title": "Diagnostic Histoire-Géo 6eme",
+    "title": "Espace et géométrie",
+    "type": "quiz",
     "level": "6eme",
-    "subject": "Histoire-Géographie",
-    "question_count": 9,
+    "subject": "Mathématiques",
+    "question_count": 8,
     "passing_score": 70,
+    "time_limit_minutes": 15,
     "questions": [
       {
-        "id": 1,
         "type": "qcm",
-        "question": "La France appartient à quel continent ?",
+        "question": "Combien de faces a un cube ?",
         "choices": [
-          "Asie",
-          "Afrique",
-          "Europe",
-          "Amérique"
+          "4",
+          "6",
+          "8",
+          "10"
         ]
       },
       {
-        "id": 2,
-        "type": "texte",
-        "question": "Combien de continents y a-t-il ?"
-      },
-      {
-        "id": 3,
         "type": "vrai-faux",
-        "question": "La Seine est la plus longue rivière de France."
+        "question": "Un tétraèdre a 5 faces."
       },
       {
-        "id": 4,
         "type": "qcm",
-        "question": "Quelle est la plus grande ville de France ?",
+        "question": "Combien de sommets a un cube ?",
         "choices": [
-          "Marseille",
-          "Lyon",
-          "Paris",
-          "Toulouse"
+          "6",
+          "8",
+          "10",
+          "12"
         ]
       },
       {
-        "id": 5,
-        "type": "texte",
-        "question": "Quelle mer borde la France au Sud ?"
-      },
-      {
-        "id": 6,
-        "type": "qcm",
-        "question": "L'Orient ancien comprend :",
-        "choices": [
-          "Egypte",
-          "Rome",
-          "Moyen-Age",
-          "Egypte et Mésopotamie"
-        ]
-      },
-      {
-        "id": 7,
         "type": "vrai-faux",
-        "question": "Les pyramides ont été construites au Moyen-Age."
+        "question": "Un cylindre a 2 faces."
       },
       {
-        "id": 8,
-        "type": "texte",
-        "question": "Quelle civilisation a inventé l'écriture cunéiforme ?"
-      },
-      {
-        "id": 9,
         "type": "qcm",
-        "question": "Le Nil coule dans quel pays ?",
+        "question": "Combien de faces a un prisme à base triangulaire ?",
         "choices": [
-          "Irak",
-          "Egypte",
-          "Grèce",
-          "Inde"
+          "3",
+          "4",
+          "5",
+          "6"
         ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un cône a 2 faces."
+      },
+      {
+        "type": "qcm",
+        "question": "Combien de sommets a un prisme à base carrée ?",
+        "choices": [
+          "6",
+          "8",
+          "10",
+          "12"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un sphère a 0 face."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Repères spatiaux France"
+      "notion": "Fondamentaux de Mathématiques",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "6 continents"
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Orient ancien"
+      "notion": "Savoir-faire mathématiques",
+      "description": "Notion du programme 6eme"
     }
   ],
   "exerciseresponses": []

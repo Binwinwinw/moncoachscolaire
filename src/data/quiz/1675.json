@@ -1,0 +1,90 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Geographie 2nde - SÃ©rie 1675",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Histoire-Geographie",
+    "description": "Diagnostic Histoire-Geographie 2nde : Histoire-Geographie 2nde - Espaces productifs",
+    "status": "published",
+    "created_at": "2026-04-06 06:40:42",
+    "updated_at": "2026-04-06 06:40:42",
+    "source": "Eduscol programmes officiels + BOEN",
+    "programme_ref": "BO special ndeg1 du 22 janvier 2019 (LGT) + Eduscol Histoire-Geographie Seconde"
+  },
+  "quiz": {
+    "title": "Histoire-Geographie 2nde - Espaces productifs",
+    "type": "quiz",
+    "level": "2nde",
+    "subject": "Histoire-Geographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "[Histoire-Geographie 2nde] Sur le theme 'Espaces productifs', quelle demarche est la plus efficace pour reussir un exercice diagnostic ?",
+        "choices": [
+          "Relire la consigne et identifier l'objectif",
+          "Repondre vite sans verifier",
+          "Ignorer le contexte",
+          "Memoriser sans comprendre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Histoire-Geographie 2nde] Sur 'Espaces productifs', verifier ses reponses avant validation ameliore la fiabilite."
+      },
+      {
+        "type": "open",
+        "question": "[Histoire-Geographie 2nde] Cite une methode concrete pour progresser sur le theme 'Espaces productifs'."
+      },
+      {
+        "type": "qcm",
+        "question": "[Histoire-Geographie 2nde] Quelle action favorise la memorisation durable du theme 'Espaces productifs' ?",
+        "choices": [
+          "Faire des rappels espaces",
+          "Tout revoir une seule fois",
+          "Copier sans comprendre",
+          "Eviter les exercices"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Histoire-Geographie 2nde] L'explication d'une reponse est moins importante que la reponse elle-meme."
+      },
+      {
+        "type": "open",
+        "question": "[Histoire-Geographie 2nde] Propose un exemple d'auto-correction pertinente sur 'Espaces productifs'."
+      },
+      {
+        "type": "qcm",
+        "question": "[Histoire-Geographie 2nde] Quel indicateur montre une bonne maitrise du theme 'Espaces productifs' ?",
+        "choices": [
+          "Expliquer clairement la demarche",
+          "Donner une reponse au hasard",
+          "Eviter les notions difficiles",
+          "Memoriser sans application"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Histoire-Geographie 2nde] Alterner entrainement, feedback et reprise des erreurs aide a progresser sur 'Espaces productifs'."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Fondamentaux de Histoire-Geographie",
+      "description": "Notion du programme 2nde"
+    },
+    {
+      "notion": "Compétences de base 2nde",
+      "description": "Notion du programme 2nde"
+    },
+    {
+      "notion": "Savoir-faire histoire-geographie",
+      "description": "Notion du programme 2nde"
+    }
+  ],
+  "exerciseresponses": []
+}

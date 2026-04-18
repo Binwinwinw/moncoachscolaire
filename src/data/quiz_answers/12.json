@@ -1,71 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic SVT 5ème - Série 12",
-    "level": "5eme",
-    "subject": "SVT"
+    "title": "Quiz Diagnostic Anglais 6eme - Série 0012",
+    "level": "6eme",
+    "subject": "Anglais"
   },
   "quiz": {
-    "title": "Diagnostic SVT 5ème",
+    "title": "histoire des arts : œuvres, artistes, mouvements artistiques",
     "question_count": 8,
+    "level": "6eme",
+    "subject": "Anglais",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correct": 3,
-        "correction": "Le sang, grâce à l'hémoglobine des globules rouges, transporte le dioxygène des poumons vers les cellules. Le cœur agit comme une pompe et les vaisseaux servent de réseau de circulation. On distingue donc la fonction de transport (sang) de la fonction de propulsion (cœur)."
+        "answer": "Leonardo da Vinci",
+        "correction": "The Mona Lisa was painted by Leonardo da Vinci."
       },
       {
         "index": 1,
         "question_id": 2,
-        "type": "qcm",
-        "correct": 1,
-        "correction": "Les poumons assurent les échanges gazeux au niveau des alvéoles : le dioxygène passe de l'air au sang et le dioxyde de carbone passe du sang vers l'air expiré. Ce mécanisme est central dans l'étude de la respiration en 5ème."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The Impressionist movement indeed emphasized the effects of light and color in art."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "vrai-faux",
-        "correct": 0,
-        "correction": "Faux. Les artères transportent le sang qui sort du cœur. Dans la circulation générale, ce sang est riche en dioxygène. Exception importante : l'artère pulmonaire transporte un sang pauvre en dioxygène vers les poumons."
+        "type": "qcm",
+        "answer": "David",
+        "correction": "'David' is a famous sculpture created by Michelangelo."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correct": 1,
-        "correction": "Le lapin mange un producteur (l'herbe), c'est donc un consommateur primaire (herbivore). Le renard, qui mange le lapin, est un consommateur secondaire. Comprendre les niveaux trophiques aide à analyser les équilibres des écosystèmes."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Pablo Picasso was indeed a leading figure in the Cubist art movement, which he co-founded with Georges Braque."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "texte",
-        "correct": null,
-        "correction": "Réponses possibles : séismes, volcanisme, formation de chaînes de montagnes, ouverture d'océans. On attend deux phénomènes correctement nommés et reliés à la dynamique des plaques. Cette compétence relie observation du terrain et explication scientifique."
+        "type": "qcm",
+        "answer": "The Last Supper",
+        "correction": "'The Last Supper' is a famous painting created by Leonardo da Vinci."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "qcm",
-        "correct": 2,
-        "correction": "Les reins filtrent le sang pour éliminer des déchets (urée, excès d'eau, sels minéraux) et forment l'urine. Ils participent à l'homéostasie en régulant la composition du milieu intérieur."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Claude Monet was indeed known for his landscape paintings, particularly those depicting gardens and water lilies."
       },
       {
         "index": 6,
         "question_id": 7,
-        "type": "vrai-faux",
-        "correct": 0,
-        "correction": "Faux. En présence de lumière, la photosynthèse consomme du dioxyde de carbone et produit du dioxygène (ainsi que du glucose). La confusion vient du fait que la respiration cellulaire, elle, rejette du dioxyde de carbone."
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "Surrealism, Realism, and Abstract Expressionism are all recognized art movements in the history of art."
       },
       {
         "index": 7,
         "question_id": 8,
-        "type": "texte",
-        "correct": null,
-        "correction": "Pendant l'inspiration, le diaphragme se contracte et s'abaisse. Le volume de la cage thoracique augmente, la pression diminue, et l'air entre dans les poumons. Une réponse complète mentionne contraction, variation de volume et entrée d'air."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "'The Scream' is indeed a famous painting created by the Norwegian artist Edvard Munch."
       }
-    ],
-    "level": "5eme",
-    "subject": "SVT"
+    ]
   }
 }

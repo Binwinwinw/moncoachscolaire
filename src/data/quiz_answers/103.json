@@ -1,71 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Seconde Mathématiques",
-    "level": "seconde",
-    "subject": "Mathématiques"
+    "title": "Quiz Diagnostic EMC 6eme - Série 0103",
+    "level": "6eme",
+    "subject": "EMC"
   },
   "quiz": {
-    "title": "Quiz Diagnostic Seconde Mathématiques",
+    "title": "EMC 6e - la citoyenneté française ",
     "question_count": 8,
+    "level": "6eme",
+    "subject": "EMC",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correct": 1,
-        "correction": "**Fractionnaire** (après virgule). Ex: 3,14 = 3 + 0,14."
+        "answer": "La citoyenneté française est un statut juridique qui confère des droits et des devoirs aux personnes reconnues comme membres de la nation française.",
+        "correction": "La citoyenneté française est un statut juridique qui confère des droits et des devoirs aux personnes reconnues comme membres de la nation française."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "correct": true,
-        "correction": "**Vrai**. Tout réel approximable (√2 ≈ 1,414). Droite graduée."
+        "answer": "vrai",
+        "correction": "C'est vrai. La citoyenneté française peut être acquise de différentes manières, notamment par la naissance en France (droit du sol), par la naturalisation (pour les étrangers qui remplissent certaines conditions) ou par le mariage avec un citoyen français."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correct": null,
-        "correction": "**10,0**. 25×4=100 → 1 virgule (2,5×4)."
+        "type": "qcm",
+        "answer": "Le droit de vote et d'éligibilité aux élections municipales, régionales, nationales et européennes.",
+        "correction": "Les citoyens français ont le droit de vote et d'éligibilité aux élections municipales, régionales, nationales et européennes, leur permettant ainsi de participer activement à la vie démocratique de la France."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correct": 1,
-        "correction": "**0,9 < 0,99** (9/10 < 99/100). Comparer digit par digit."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. La citoyenneté française confère également des droits sociaux, économiques et culturels aux citoyens français, tels que le droit à la protection sociale, le droit à l'emploi et le droit à la culture en France."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "correct": true,
-        "correction": "**Vrai**. Positionne 0,3 entre 0,2-0,4 (échelle 0,1)."
+        "type": "qcm",
+        "answer": "La Constitution française établit les droits et les devoirs des citoyens français et organise les institutions de la République.",
+        "correction": "La Constitution française établit les droits et les devoirs des citoyens français et organise les institutions de la République, garantissant ainsi le fonctionnement démocratique de la France."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "correct": null,
-        "correction": "**3,1** (4<5, pas arrondi). Règle: chiffre suivant <5."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. La citoyenneté française permet aux citoyens de se déplacer librement dans les pays de l'Union européenne grâce à la citoyenneté européenne, mais elle ne garantit pas une liberté de déplacement totale dans tous les pays du monde, qui peut être soumise à des restrictions en fonction des accords internationaux et des politiques des autres pays."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "correct": 0,
-        "correction": "**0,01** (10^{-2}=1/100). Virgule 2 places gauche."
+        "answer": "Le Président de la République française est le chef de l'État et représente les citoyens français au niveau national et international.",
+        "correction": "Le Président de la République française est le chef de l'État et représente les citoyens français au niveau national et international, jouant un rôle important dans la gouvernance et la diplomatie de la France."
       },
       {
         "index": 7,
         "question_id": 8,
-        "type": "texte",
-        "correct": null,
-        "correction": "**3**. 45÷15=3 (ignore virgule, 1,5×3=4,5 vérif)."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. La citoyenneté française est réservée aux personnes reconnues comme membres de la nation française, et les citoyens d'un pays non membre de l'Union européenne ne bénéficient pas des droits associés à la citoyenneté française, bien qu'ils puissent avoir certains droits en fonction des accords bilatéraux ou des politiques nationales."
       }
-    ],
-    "level": "seconde",
-    "subject": "Mathématiques"
+    ]
   }
 }

@@ -1,81 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 14",
+    "title": "Quiz Diagnostic EMC 6eme - Série 0138",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Anglais",
-    "description": "Diagnostic expression avancée : axes Identités/Échanges, Art/Pouvoir (B1+).",
+    "level": "6eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 6eme : EMC 6e - L'enseignant et l'élève : une bonne communication",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-09 21:32:00"
+    "created_at": "2026-04-06 06:25:43",
+    "updated_at": "2026-04-06 06:25:43"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 14",
-    "level": "1ere",
-    "subject": "Anglais",
+    "title": "EMC 6e - L'enseignant et l'élève : une bonne communication",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Which key notion from 'Identities and exchanges' did you study?",
-        "choices": ["Migration stories", "Daily routines", "Weather forecasts", "Shopping lists"],
-        "id": 1
+        "question": "Pourquoi est-il important de respecter les règles de communication entre l'enseignant et l'élève ?",
+        "choices": [
+          "Le respect des règles de communication entre l'enseignant et l'élève garantit la promotion d'une relation de confiance, le respect mutuel et un environnement d'apprentissage positif.",
+          "Le respect des règles de communication entre l'enseignant et l'élève est inutile, car les individus peuvent communiquer comme ils le souhaitent.",
+          "Le respect des règles de communication entre l'enseignant et l'élève est réservé aux élites politiques et économiques.",
+          "Le respect des règles de communication entre l'enseignant et l'élève est limité aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "In Première, 'Art and power' explores media influence on society.",
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "Give an example of cultural exchange (e.g., social media's impact).",
-        "placeholder": "Ex: Immigrants share traditions online...",
-        "id": 3
+        "question": "Le respect des règles de communication entre l'enseignant et l'élève est un concept qui promeut la non-intervention dans les affaires des individus."
       },
       {
         "type": "qcm",
-        "question": "What is a core theme in 'Spaces and exchanges'?",
-        "choices": ["Global trade effects", "Basic greetings", "Family meals", "Colors"],
-        "id": 4
+        "question": "Quel est le rôle de l'enseignant dans la communication avec les élèves ?",
+        "choices": [
+          "L'enseignant joue un rôle crucial en établissant des règles de communication claires, en encourageant le respect mutuel et en créant un environnement d'apprentissage positif.",
+          "L'enseignant est inutile dans la communication avec les élèves, car les individus peuvent communiquer par eux-mêmes.",
+          "L'enseignant est réservé aux élites politiques et économiques.",
+          "L'enseignant est limité aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Expression avancée requires debating opinions fluently (B1+).",
-        "id": 5
-      },
-      {
-        "type": "texte",
-        "question": "How does art convey power (e.g., political posters)?",
-        "placeholder": "Ex: Posters persuade voters...",
-        "id": 6
+        "question": "Le respect des règles de communication entre l'enseignant et l'élève est un concept qui promeut la non-intervention dans les affaires des individus."
       },
       {
         "type": "qcm",
-        "question": "In 'Idea of progress', focus on:",
-        "choices": ["Scientific innovations", "Past holidays", "Favorite foods", "Sports rules"],
-        "id": 7
+        "question": "Quel est le rôle des élèves dans la communication avec les enseignants ?",
+        "choices": [
+          "Les élèves jouent un rôle crucial en respectant les règles de communication, en exprimant leurs préoccupations de manière respectueuse et en contribuant à un environnement d'apprentissage positif.",
+          "Les élèves sont inutiles dans la communication avec les enseignants, car les individus peuvent communiquer par eux-mêmes.",
+          "Les élèves sont réservés aux élites politiques et économiques.",
+          "Les élèves sont limités aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Virtual worlds raise citizenship issues like fake news.",
-        "id": 8
+        "question": "Le respect des règles de communication entre l'enseignant et l'élève est un concept qui promeut la non-intervention dans les affaires des individus."
+      },
+      {
+        "type": "qcm",
+        "question": "Pourquoi est-il important de respecter les règles de communication entre l'enseignant et l'élève ?",
+        "choices": [
+          "Le respect des règles de communication entre l'enseignant et l'élève garantit la promotion d'une relation de confiance, le respect mutuel et un environnement d'apprentissage positif.",
+          "Le respect des règles de communication entre l'enseignant et l'élève est inutile, car les individus peuvent communiquer comme ils le souhaitent.",
+          "Le respect des règles de communication entre l'enseignant et l'élève est réservé aux élites politiques et économiques.",
+          "Le respect des règles de communication entre l'enseignant et l'élève est limité aux écoles uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect des règles de communication entre l'enseignant et l'élève est un concept qui promeut la non-intervention dans les affaires des individus."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Identities and exchanges",
-      "description": "Personal/cultural identities in global interactions (migration, social media)."
+      "notion": "Fondamentaux de EMC",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Art and power",
-      "description": "Media/art's role in influencing society/politics (ads, films)."
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Spaces and exchanges",
-      "description": "Global movements (trade, travel) and their impacts."
+      "notion": "Savoir-faire emc",
+      "description": "Notion du programme 6eme"
     }
   ],
   "exerciseresponses": []

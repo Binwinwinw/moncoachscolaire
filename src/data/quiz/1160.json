@@ -1,6 +1,6 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic bac Anglais - Serie 09",
+    "title": "Anglais - Utilisation des structures conditionnelles et du discours indirect",
     "type": "quiz",
     "level": "bac",
     "subject": "Anglais",
@@ -10,7 +10,7 @@
     "updated_at": "2026-03-08 00:05:00"
   },
   "quiz": {
-    "title": "Quiz Diagnostic bac Anglais - Serie 09",
+    "title": "Anglais - Utilisation des structures conditionnelles et du discours indirect",
     "level": "bac",
     "subject": "Anglais",
     "question_count": 8,
@@ -19,78 +19,106 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "question": "Quelle est la différence entre les conditionnels zero, premier, deuxième et troisième en anglais ?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "Les conditionnels zero, premier, deuxième et troisième sont utilisés pour exprimer des conditions réelles ou irréelles",
+          "Les conditionnels zero, premier, deuxième et troisième sont utilisés pour exprimer des conditions réelles, possibles, irréelles et hypothétiques",
+          "Les conditionnels zero, premier, deuxième et troisième sont utilisés pour exprimer des conditions réelles, possibles, irréelles et futures",
+          "Les conditionnels zero, premier, deuxième et troisième sont utilisés pour exprimer des conditions réelles, irréelles, possibles et conditionnelles"
         ],
         "id": 1
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau bac aborde des notions fondamentales en Anglais.",
-        "id": 2
+        "question": "Comment transformer la phrase 'Il dit : « Je vais aller au cinéma »' en discours indirect ?",
+        "id": 2,
+        "choices": [
+          "Il dit qu'il va aller au cinéma",
+          "Il dit qu'il allait aller au cinéma",
+          "Il dit qu'il ira au cinéma",
+          "Il dit qu'il irait au cinéma"
+        ]
       },
       {
         "type": "texte",
-        "question": "Cite un exemple concret lié à Anglais.",
+        "question": "Quel est le modal qui exprime la capacité ou la possibilité en anglais ?",
         "placeholder": "Exemple...",
-        "id": 3
+        "id": 3,
+        "choices": [
+          "Can",
+          "Could",
+          "May",
+          "Might"
+        ]
       },
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "question": "Quel est le temps verbal qui exprime une action qui s'est produite à un moment précis dans le passé ?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "Présent simple",
+          "Présent continu",
+          "Passé simple",
+          "Passé antérieur"
         ],
         "id": 4
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau bac aborde des notions fondamentales en Anglais.",
-        "id": 5
+        "question": "Comment utiliser le conditionnel premier pour exprimer une condition réelle et possible ?",
+        "id": 5,
+        "choices": [
+          "Si + présent, alors + futur",
+          "Si + imparfait, alors + conditionnel",
+          "Si + plus-que-parfait, alors + conditionnel",
+          "Si + passé simple, alors + conditionnel"
+        ]
       },
       {
         "type": "texte",
-        "question": "Cite un exemple concret lié à Anglais.",
+        "question": "Vrai ou faux : Le discours indirect en anglais est toujours introduit par le verbe 'said' ?",
         "placeholder": "Exemple...",
-        "id": 6
+        "id": 6,
+        "choices": [
+          "Vrai",
+          "Faux"
+        ]
       },
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "question": "Quel est le modal qui exprime l'obligation ou la nécessité en anglais ?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "Must",
+          "Should",
+          "Ought to",
+          "Have to"
         ],
         "id": 7
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau bac aborde des notions fondamentales en Anglais.",
-        "id": 8
+        "question": "Expliquez la différence entre les temps verbaux 'passé simple' et 'passé antérieur' en anglais ?",
+        "id": 8,
+        "choices": [
+          "Le passé simple est utilisé pour des actions qui se sont produites à un moment précis dans le passé, tandis que le passé antérieur est utilisé pour des actions qui se sont produites avant une autre action dans le passé",
+          "Le passé simple est utilisé pour des actions qui se sont produites à un moment imprécis dans le passé, tandis que le passé antérieur est utilisé pour des actions qui se sont produites à un moment précis dans le passé",
+          "Le passé simple est utilisé pour des actions qui se sont produites dans le présent, tandis que le passé antérieur est utilisé pour des actions qui se sont produites dans le futur",
+          "Le passé simple est utilisé pour des actions qui se sont produites dans le futur, tandis que le passé antérieur est utilisé pour des actions qui se sont produites dans le présent"
+        ]
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Notion 1 - Anglais",
-      "description": "Concept clé de Anglais au niveau bac"
+      "notion": "Utilisation des conditionnels en anglais",
+      "description": "Les conditionnels en anglais sont utilisés pour exprimer des conditions, des hypothèses ou des conséquences, et ils sont généralement introduits par des mots tels que 'if', 'unless', 'in case', etc."
     },
     {
-      "notion": "Notion 2 - Anglais",
-      "description": "Concept clé de Anglais au niveau bac"
+      "notion": "Le discours indirect en anglais",
+      "description": "Le discours indirect en anglais est utilisé pour rapporter les paroles ou les pensées d'une personne, et il est généralement introduit par des verbes tels que 'said', 'told', 'thought', etc."
     },
     {
-      "notion": "Notion 3 - Anglais",
-      "description": "Concept clé de Anglais au niveau bac"
+      "notion": "Les modaux et les temps verbaux en anglais",
+      "description": "Les modaux en anglais, tels que 'can', 'could', 'may', 'might', 'shall', 'should', 'will', 'would', sont utilisés pour exprimer la capacité, la permission, la possibilité, l'obligation, etc., tandis que les temps verbaux, tels que le présent, le passé, le futur, etc., sont utilisés pour situer les actions ou les événements dans le temps"
     }
   ],
   "exerciseresponses": []

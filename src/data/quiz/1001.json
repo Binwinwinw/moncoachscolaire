@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques 2nde : Suites geometriques",
     "status": "published",
-    "created_at": "2026-03-13 11:15:43",
-    "updated_at": "2026-03-13 11:15:43"
+    "created_at": "2026-04-06 06:40:42",
+    "updated_at": "2026-04-06 06:40:42"
   },
   "quiz": {
     "title": "Suites geometriques",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Définition de la suite géométrique",
+      "description": "Comprendre que une suite géométrique est une suite de nombres où chaque terme est obtenu en multipliant le terme précédent par un nombre constant appelé raison"
+    },
+    {
+      "notion": "Identification de la raison",
+      "description": "Reconnaître l'importance de trouver la raison pour déterminer les caractéristiques de la suite géométrique et résoudre les problèmes liés"
+    },
+    {
+      "notion": "Formule du nième terme",
+      "description": "Connaître la formule du nième terme d'une suite géométrique pour calculer facilement les termes de la suite"
+    }
+  ],
   "exerciseresponses": []
 }

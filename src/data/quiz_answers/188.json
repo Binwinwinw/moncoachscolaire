@@ -1,75 +1,70 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Histoire-Geographie 1ere - Série 188",
-    "level": "1ere",
-    "subject": "Histoire-Geographie"
+    "title": "Quiz Diagnostic Français 6eme - Série 0188",
+    "level": "6eme",
+    "subject": "Français"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Histoire-Géographie - Serie 14",
+    "title": "Français 6e - Les valeurs de la littérature",
     "question_count": 8,
-    "level": "1ere",
-    "subject": "Histoire-Geographie",
+    "level": "6eme",
+    "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Le Printemps des peuples",
-        "correct": 1,
-        "correction": "Le 'Printemps des peuples' (1848) est une vague révolutionnaire qui touche simultanément la France (IIe République), les États allemands, l'Autriche-Hongrie, l'Italie, la Pologne. Ces révolutions mêlent revendications libérales (constitutions, libertés) et nationales (unité allemande, italienne). La plupart échouent, mais elles accélèrent les transformations politiques."
+        "answer": "Une forme de communication",
+        "correction": "La littérature est une forme de communication qui utilise le langage de manière artistique pour exprimer des idées, des émotions ou des expériences à travers des œuvres écrites."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. L'unification italienne (Risorgimento) est menée par le royaume de Piémont-Sardaigne avec Cavour (Premier ministre) et Garibaldi (révolutionnaire). Elle s'achève avec la prise de Rome en 1870. Victor-Emmanuel II devient le premier roi d'Italie unifiée en 1861."
+        "correction": "C'est vrai. La littérature peut être classée en plusieurs genres, tels que la fiction (romans, nouvelles, etc.), la poésie, le théâtre, etc., en fonction de la manière dont elle exprime les idées, les émotions ou les expériences."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "correct_answer": "Le nationalisme est l'idéologie qui affirme que les nations ont le droit de constituer des États indépendants. Au XIXe siècle, il pousse à l'unification de nations divisées (Allemagne, Italie) et à l'indépendance de peuples dominés.",
-        "answer": "Le nationalisme est l'idéologie qui affirme que les nations ont le droit de constituer des États indépendants. Au XIXe siècle, il pousse à l'unification de nations divisées (Allemagne, Italie) et à l'indépendance de peuples dominés.",
-        "correction": "Le nationalisme est l'idéologie selon laquelle chaque nation (définie par une langue, une culture, une histoire communes) a le droit de former un État souverain. Au XIXe siècle, il prend deux formes : le nationalisme d'unification (Allemagne de Bismarck, Italie du Risorgimento) et le nationalisme de libération (Grèce, Belgique, Pologne). Il est lié au romantisme et à la revendication d'une identité culturelle distincte."
+        "type": "qcm",
+        "answer": "Elle permet d'exprimer des idées, des émotions ou des expériences de manière artistique",
+        "correction": "La littérature permet d'exprimer des idées, des émotions ou des expériences de manière artistique, en utilisant le langage de manière créative et esthétique."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "answer": "Otto von Bismarck",
-        "correct": 2,
-        "correction": "Otto von Bismarck, chancelier de Prusse, unifie l'Allemagne par la politique de la 'Realpolitik' : guerres contre le Danemark (1864), l'Autriche (1866) et la France (1870-1871). La défaite française de Sedan conduit à la proclamation du IIe Reich allemand dans la galerie des Glaces de Versailles le 18 janvier 1871."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. L'utilisation correcte de la littérature est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les écrivains utilisent les formes de la littérature appropriées en fonction du contexte et du message qu'ils souhaitent transmettre, ce qui contribue à la clarté et à l'efficacité de la communication écrite."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Après la capitulation de Paris (janvier 1871), la Commune de Paris (18 mars – 28 mai 1871) est un gouvernement révolutionnaire qui contrôle Paris pendant deux mois. La répression versaillaise (Semaine sanglante) fait entre 10 000 et 30 000 morts. La Commune reste un symbole pour le mouvement ouvrier international."
+        "type": "qcm",
+        "answer": "La Tour Eiffel",
+        "correction": "La Tour Eiffel n'est pas une œuvre littéraire, c'est un monument."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "correct_answer": "Le libéralisme politique revendique les libertés individuelles (presse, expression, conscience), les constitutions limitant le pouvoir royal et la représentation politique.",
-        "answer": "Le libéralisme politique revendique les libertés individuelles (presse, expression, conscience), les constitutions limitant le pouvoir royal et la représentation politique.",
-        "correction": "Le libéralisme politique du XIXe siècle est fondé sur la philosophie des Lumières et revendique : les droits et libertés individuels (liberté de la presse, d'expression, de conscience, de réunion), des constitutions qui limitent le pouvoir des monarques, la représentation politique par un parlement élu, l'égalité devant la loi et la séparation des pouvoirs (Montesquieu). Il s'oppose aux régimes absolutistes et à la Sainte-Alliance."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. La littérature peut être utilisée pour transmettre des messages sociaux, politiques ou culturels importants, en fournissant une plateforme pour l'expression de différentes perspectives et expériences à travers des œuvres écrites, ce qui peut contribuer à la sensibilisation et à la compréhension de ces questions dans la société."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "La IIe République",
-        "correct": 1,
-        "correction": "La révolution de février 1848 renverse la monarchie de Juillet de Louis-Philippe et proclame la IIe République. Elle instaure le suffrage universel masculin, abolit l'esclavage dans les colonies (décret Schoelcher) et les châtiments corporels. Elle est renversée par le coup d'État de Louis-Napoléon Bonaparte en décembre 1851."
+        "answer": "Essai",
+        "correction": "L'essai est un genre littéraire qui se concentre davantage sur l'expression d'idées, d'arguments ou de réflexions personnelles, plutôt que sur l'expression artistique, contrairement à la fiction, à la poésie et au théâtre qui sont principalement axés sur l'expression artistique."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Victor Hugo (1802-1885) est l'une des figures majeures du romantisme français : poète (Les Contemplations), romancier (Notre-Dame de Paris, Les Misérables) et dramaturge (Hernani). Engagé politiquement, il est aussi un républicain convaincu, exilé sous Napoléon III, et défenseur des pauvres et des opprimés."
+        "answer": "faux",
+        "correction": "C'est faux. La littérature peut être captivante et accessible, et elle offre une variété d'expériences et de styles qui peuvent plaire à différents lecteurs."
       }
     ]
   }

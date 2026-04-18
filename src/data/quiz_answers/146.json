@@ -1,63 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 22",
-    "level": "1ere",
-    "subject": "Anglais"
+    "title": "Quiz Diagnostic Français 6eme - Série 0146",
+    "level": "6eme",
+    "subject": "Français"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 22",
+    "title": "Français 6e - Les types de textes (narratif, descriptif, argumentatif)",
     "question_count": 8,
+    "level": "6eme",
+    "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correction": "La bonne réponse est B : \"The book was written by Shakespeare.\" La voix passive se construit avec l'auxiliaire \"to be\" conjugué + le participe passé. \"Written\" est le participe passé irrégulier de \"write\". Les autres propositions utilisent des formes incorrectes."
+        "answer": "Texte narratif",
+        "correction": "Un texte narratif raconte une histoire avec des personnages, un début, un milieu et une fin."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "correction": "VRAI. Le present perfect (have/has + past participle) relie le passé au présent : il exprime une action passée dont les effets sont encore ressentis maintenant. Ex : \"I have lost my keys\" — les clés manquent toujours."
+        "answer": "vrai",
+        "correction": "C'est vrai. Un texte descriptif vise à décrire une personne, un lieu ou un objet en utilisant des détails sensoriels."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correction": "La réponse attendue est : \"She said (that) she had never been to London.\" Au discours indirect, le present perfect (\"have never been\") se transforme en past perfect (\"had never been\"). Le pronom \"I\" devient \"she\". \"That\" est facultatif."
+        "type": "qcm",
+        "answer": "Texte argumentatif",
+        "correction": "Un texte argumentatif présente des arguments pour convaincre le lecteur d'adopter un point de vue."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correction": "La bonne réponse est A : \"If I had studied harder, I would have passed the exam.\" Le 3ème conditionnel exprime une hypothèse irréelle dans le passé. Structure : If + past perfect → would have + past participle."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Un texte explicatif a pour but d'expliquer comment ou pourquoi quelque chose se produit."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "correction": "VRAI. \"Must\" a deux usages : (1) l'obligation : \"You must wear a seatbelt\", et (2) la déduction logique : \"She must be tired\". C'est le contexte qui permet de distinguer les deux sens."
+        "type": "qcm",
+        "answer": "Texte descriptif",
+        "correction": "Un texte descriptif utilise des descriptions détaillées pour créer une image vivante dans l'esprit du lecteur."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "correction": "La réponse attendue est : \"A new species of bird has been discovered by scientists.\" Le complément d'objet (\"a new species of bird\") devient sujet, l'auxiliaire devient \"has been\" (present perfect passif), et le sujet d'origine est introduit par \"by\"."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Un texte narratif peut contenir du dialogue entre les personnages pour faire avancer l'histoire et développer les relations entre eux."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "correction": "La bonne réponse est B : \"The student who won the prize is very talented.\" Pour un sujet humain dans une relative déterminative, on utilise \"who\". \"Which\" est pour les objets, \"whom\" s'utilise en position de complément, \"whose\" exprime la possession."
+        "answer": "Texte descriptif",
+        "correction": "Un texte descriptif utilise des descriptions détaillées pour créer une image vivante dans l'esprit du lecteur."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "correction": "VRAI. \"Used to + infinitive\" exprime une habitude ou un état passé qui n'existe plus. Ex : \"I used to play football every week\". À ne pas confondre avec \"be used to + V-ing\" (être habitué à) ou \"get used to + V-ing\" (s'habituer à)."
+        "answer": "faux",
+        "correction": "C'est faux. Un texte explicatif a pour but d'expliquer des faits ou des concepts de manière objective, sans inclure les opinions personnelles de l'auteur."
       }
-    ],
-    "level": "1ere",
-    "subject": "Anglais"
+    ]
   }
 }

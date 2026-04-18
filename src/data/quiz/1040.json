@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Algorithmes et suites",
     "status": "published",
-    "created_at": "2026-03-13 11:24:24",
-    "updated_at": "2026-03-13 11:24:24"
+    "created_at": "2026-04-06 06:40:48",
+    "updated_at": "2026-04-06 06:40:48"
   },
   "quiz": {
     "title": "Algorithmes et suites",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Définition de l'algorithme",
+      "description": "La première étape la plus rigoureuse dans le chapitre 'Algorithmes et suites' consiste à définir clairement l'algorithme, en identifiant les entrées, les sorties et les étapes de calcul nécessaires po"
+    },
+    {
+      "notion": "Initialisation des variables",
+      "description": "L'initialisation des variables est une étape cruciale qui consiste à attribuer des valeurs de départ aux variables utilisées dans l'algorithme, garantissant ainsi que les calculs ultérieurs soient eff"
+    },
+    {
+      "notion": "Évaluation des conditions de terminaison",
+      "description": "L'évaluation des conditions de terminaison est essentielle pour s'assurer que l'algorithme se termine correctement, en vérifiant si les conditions de sortie sont remplies, ce qui permet d'éviter les b"
+    }
+  ],
   "exerciseresponses": []
 }

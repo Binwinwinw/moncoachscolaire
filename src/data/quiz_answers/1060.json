@@ -1,48 +1,74 @@
 {
-  "quiz_id": 1060,
-  "title": "Discriminant et racines",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "answers": [
-    {
-      "question_id": "1060_1",
-      "correct_option": "B",
-      "explanation": "Δ = b² − 4ac. Le signe de Δ détermine le nombre de racines réelles."
-    },
-    {
-      "question_id": "1060_2",
-      "correct": true,
-      "explanation": "Δ > 0 → deux racines réelles x₁ = (−b − √Δ)/(2a) et x₂ = (−b + √Δ)/(2a)."
-    },
-    {
-      "question_id": "1060_3",
-      "correct_answer": "Δ = 25 − 24 = 1. x₁ = (5−1)/2 = 2 et x₂ = (5+1)/2 = 3.",
-      "explanation": "a=1, b=−5, c=6. Δ = 25 − 24 = 1. x₁ = 2, x₂ = 3."
-    },
-    {
-      "question_id": "1060_4",
-      "correct_option": "C",
-      "explanation": "Δ = 0 → racine double unique x₀ = −b/(2a)."
-    },
-    {
-      "question_id": "1060_5",
-      "correct": true,
-      "explanation": "Pas de racine réelle → la parabole est entièrement au-dessus ou en dessous de l'axe x."
-    },
-    {
-      "question_id": "1060_6",
-      "correct_answer": "k = 4 ou k = −4",
-      "explanation": "Δ = k² − 16 = 0 → k² = 16 → k = ±4."
-    },
-    {
-      "question_id": "1060_7",
-      "correct_option": "A",
-      "explanation": "Δ = 9 − 8 = 1. x₁ = (3−1)/4 = 1/2, x₂ = (3+1)/4 = 1."
-    },
-    {
-      "question_id": "1060_8",
-      "correct": true,
-      "explanation": "Relations de Viète : x₁ + x₂ = −b/a et x₁ · x₂ = c/a."
-    }
-  ]
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 1ère - SÃ©rie 1060",
+    "level": "1ère",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "Diagnostic Anglais 1ère - Série 2",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "better",
+        "correct": 2,
+        "correction": "The comparative form of \"good\" is \"better\"."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "\"Their\" is a possessive pronoun, not a contraction. The contraction of \"they are\" is \"they're\"."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "Elle a un chat",
+        "correction": "The correct translation of \"She has a cat\" in French is \"Elle a un chat\"."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "cold",
+        "correct": 1,
+        "correction": "\"Cold\" is an antonym of \"hot\"."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "\"It's\" is a contraction of \"it is\" or \"it has\", not a possessive pronoun. The possessive pronoun for \"it\" is \"its\"."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "eaten",
+        "correction": "The past participle of \"eat\" is \"eaten\". It is used in perfect tenses and passive voice."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "They don't like music.",
+        "correct": 1,
+        "correction": "The correct sentence is \"They don't like music.\" because \"they\" is plural and requires \"do not\" for negation."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "\"Slowly\" is an adverb because it describes how an action is performed, not a noun or pronoun."
+      }
+    ]
+  }
 }

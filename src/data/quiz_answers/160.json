@@ -1,63 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 36",
-    "level": "1ere",
-    "subject": "Anglais"
+    "title": "Quiz Diagnostic Français 6eme - Série 0160",
+    "level": "6eme",
+    "subject": "Français"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 36",
+    "title": "Français 6e - L’analyse d’un poème",
     "question_count": 8,
+    "level": "6eme",
+    "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correction": "La bonne réponse est B : 'on Friday at 3pm.' La règle : ON + jour de la semaine (on Friday, on Monday), AT + heure précise (at 3pm, at noon). Pour mémoriser : AT = moment ponctuel (heure, midi, minuit), ON = surface temporelle (un jour), IN = contenant temporel (mois, année, saison)."
+        "answer": "Les figures de style utilisées",
+        "correction": "L'élément principal à analyser dans un poème pour comprendre son thème et son message est les figures de style utilisées, telles que les métaphores, les comparaisons, les allitérations, etc., qui contribuent à créer des images et des émotions chez le lecteur."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "correction": "VRAI. Les deux phrases sont correctes avec des prépositions différentes selon le niveau de précision : IN 1998 (année = période longue → in) / ON 15th March 1998 (date précise = jour → on). Si on ajoute l'heure : 'at 6am on 15th March 1998'. Les trois prépositions de temps peuvent coexister dans la même phrase selon le niveau de détail."
+        "answer": "vrai",
+        "correction": "C'est vrai. La structure d'un poème peut être analysée pour comprendre comment les différentes parties du poème sont organisées et comment elles contribuent à l'ensemble du poème, en identifiant les strophes, les vers, les rimes, etc."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correction": "Réponses : ON the table (surface), IN the corner (espace délimité/intérieur), AT the bus stop (point précis/lieu d'activité). La distinction est subtile mais logique : ON = surface plane, IN = intérieur ou espace entouré, AT = point de référence précis (arrêt, gare, école, travail). 'At' s'utilise souvent pour les lieux de rendez-vous ou d'activité."
+        "type": "qcm",
+        "answer": "Allitération",
+        "correction": "L'allitération correspond à la répétition d'un son ou d'une lettre pour créer un effet de rythme ou d'harmonie dans un poème."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correction": "La bonne réponse est B : 'across'. 'Across' exprime le mouvement d'un côté à l'autre, la traversée d'une surface ou d'un espace. Ex : walk across the road, swim across the lake, run across the field. 'Along' = en suivant la longueur de quelque chose (along the river). 'Through' = à travers (through the forest). 'Past' = passer devant sans s'arrêter."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. L'analyse d'un poème peut aider à mieux comprendre les émotions et les idées que l'auteur souhaite transmettre à travers son œuvre, en décortiquant les éléments du poème et en interprétant leur signification."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "correction": "VRAI. La préposition après 'arrive' dépend du type de lieu : ARRIVE IN + ville/pays/région (espaces grands) : arrive in Paris, arrive in France. ARRIVE AT + lieu spécifique/bâtiment (point précis) : arrive at the airport, arrive at the station, arrive at school. Exception : ARRIVE HOME (sans préposition)."
+        "type": "qcm",
+        "answer": "Comparaison",
+        "correction": "La comparaison correspond à une comparaison entre deux éléments en utilisant des mots tels que 'comme', 'tel', 'ainsi que', etc., pour créer une image ou une association d'idées dans un poème."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "correction": "'Go to school' (sans article) = aller à l'école dans sa fonction d'élève, pour étudier. 'Go to the school' (avec 'the') = se rendre au bâtiment scolaire pour une autre raison (ex : parent qui va chercher son enfant). Cette distinction s'applique à d'autres lieux : go to hospital (être patient) vs go to the hospital (visiter quelqu'un), go to church (pour prier) vs go to the church (en tant que bâtiment)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. L'analyse d'un poème peut être subjective et dépendre de l'interprétation personnelle du lecteur, ce qui peut conduire à différentes interprétations du même poème, en fonction des expériences, des émotions et des perspectives de chaque lecteur."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "correction": "La bonne réponse est B : 'She jumped onto the stage to perform.' 'Onto' indique un mouvement vers une surface surélevée. Erreurs dans les autres options : 'along the building' est bizarre — along s'utilise pour des chemins linéaires (A) / 'through the street' — on passerait 'along' ou 'down' la rue, 'through' implique un passage étroit (C) / 'past into' est une combinaison incorrecte (D)."
+        "answer": "Personnification",
+        "correction": "La personnification correspond à une figure de style qui attribue des caractéristiques humaines à des objets inanimés ou à des concepts abstraits, pour créer une image vivante et expressive dans un poème."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "correction": "VRAI. On dit IN the morning (partie du jour en général) mais ON Monday morning (matin d'un jour spécifique). La règle : quand on précise le jour, on utilise ON : on Monday morning, on Sunday afternoon, on Christmas morning. Sans précision du jour : in the morning, in the afternoon, in the evening. Exception : at night (jamais 'in the night' dans le sens général)."
+        "answer": "vrai",
+        "correction": "C'est vrai. L'analyse d'un poème peut également inclure l'étude du contexte historique, social et culturel dans lequel le poème a été écrit, pour mieux comprendre les influences et les références présentes dans le poème, ainsi que les intentions de l'auteur."
       }
-    ],
-    "level": "1ere",
-    "subject": "Anglais"
+    ]
   }
 }

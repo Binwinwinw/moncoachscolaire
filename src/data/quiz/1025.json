@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Fonction logarithme népérien",
     "status": "published",
-    "created_at": "2026-03-13 11:24:24",
-    "updated_at": "2026-03-13 11:24:24"
+    "created_at": "2026-04-06 06:40:48",
+    "updated_at": "2026-04-06 06:40:48"
   },
   "quiz": {
     "title": "Fonction logarithme népérien",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Domaine de définition",
+      "description": "Le domaine de définition de la fonction logarithme népérien ln(x) est l'ensemble des nombres réels strictement positifs, noté R+* ou (0, +∞)."
+    },
+    {
+      "notion": "Définition de la fonction logarithme népérien",
+      "description": "La fonction logarithme népérien ln(x) est l'inverse de la fonction exponentielle e^x, où e est la base du logarithme népérien, approximativement égale à 2,71828."
+    },
+    {
+      "notion": "Propriétés des fonctions logarithmiques",
+      "description": "Les fonctions logarithmiques, comme ln(x), ont des propriétés telles que la monotonie croissante, la continuité et la dérivabilité sur leur domaine de définition, ce qui les rend utiles pour résoudre "
+    }
+  ],
   "exerciseresponses": []
 }

@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Primitives et intégrale définie",
     "status": "published",
-    "created_at": "2026-03-13 11:24:24",
-    "updated_at": "2026-03-13 11:24:24"
+    "created_at": "2026-04-06 06:40:48",
+    "updated_at": "2026-04-06 06:40:48"
   },
   "quiz": {
     "title": "Primitives et intégrale définie",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Primitive",
+      "description": "Une fonction F est dite primitive de f sur un intervalle I si la dérivée de F est égale à f sur I"
+    },
+    {
+      "notion": "Intégrale définie",
+      "description": "L'intégrale définie d'une fonction f sur un intervalle [a, b] est notée ∫[a, b] f(x) dx et représente l'aire sous la courbe de f entre a et b"
+    },
+    {
+      "notion": "Théorème fondamental de l'analyse",
+      "description": "Ce théorème établit un lien entre la dérivation et l'intégration, en montrant que la dérivée d'une intégrale définie est égale à la fonction d'origine"
+    }
+  ],
   "exerciseresponses": []
 }

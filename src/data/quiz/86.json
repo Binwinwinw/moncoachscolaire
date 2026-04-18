@@ -1,0 +1,94 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6ème - Série 0086",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 6ème : Vues de face/côté/dessus",
+    "status": "published",
+    "created_at": "2026-04-06 06:25:41",
+    "updated_at": "2026-04-06 06:25:41"
+  },
+  "quiz": {
+    "title": "Vues de face/côté/dessus",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la vue de face d'un cube ?",
+        "choices": [
+          "Un carré",
+          "Un rectangle",
+          "Un cercle",
+          "Un triangle"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La vue de côté d'un cube est un rectangle."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la vue de dessus d'un cube ?",
+        "choices": [
+          "Un carré",
+          "Un rectangle",
+          "Un cercle",
+          "Un triangle"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La vue de face d'un cube est un cercle."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la vue de côté d'un cube ?",
+        "choices": [
+          "Un carré",
+          "Un rectangle",
+          "Un cercle",
+          "Un triangle"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La vue de dessus d'un cube est un triangle."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la vue de face d'un cube ?",
+        "choices": [
+          "Un carré",
+          "Un rectangle",
+          "Un cercle",
+          "Un triangle"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La vue de côté d'un cube est un cercle."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Opérations arithmétiques",
+      "description": "Notion fondamentale de Mathématiques"
+    },
+    {
+      "notion": "Géométrie élémentaire",
+      "description": "Notion fondamentale de Mathématiques"
+    },
+    {
+      "notion": "Nombres et fractions",
+      "description": "Notion fondamentale de Mathématiques"
+    }
+  ],
+  "exerciseresponses": []
+}

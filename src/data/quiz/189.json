@@ -1,75 +1,94 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Histoire-Geographie 1ere - Série 189",
+    "title": "Quiz Diagnostic Français 6eme - Série 0189",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Histoire-Geographie",
-    "description": "Diagnostic Histoire-Geographie 1ere : Quiz Diagnostic 1ere Histoire-Géographie - Serie 15",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - Les valeurs de la fable",
     "status": "published",
-    "created_at": "2026-03-13 18:59:43",
-    "updated_at": "2026-03-13 18:59:43"
+    "created_at": "2026-04-06 06:25:38",
+    "updated_at": "2026-04-06 06:25:38"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Histoire-Géographie - Serie 15",
+    "title": "Français 6e - Les valeurs de la fable",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Histoire-Geographie",
+    "level": "6eme",
+    "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Quelle conférence internationale en 1884-1885 organise le partage de l'Afrique entre puissances européennes ?",
+        "question": "Qu'est-ce qu'une fable ?",
         "choices": [
-          "La conférence de Vienne (1815)",
-          "La conférence de Berlin (1884-1885)",
-          "La conférence de San Francisco (1945)",
-          "La conférence de Bandung (1955)"
+          "Un genre littéraire",
+          "Une figure de style",
+          "Une forme de communication",
+          "Une discipline scientifique"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "En 1914, les puissances européennes contrôlent environ 80% des terres émergées du globe."
-      },
-      {
-        "type": "open",
-        "question": "Quelles sont les justifications avancées par les Européens pour légitimer la colonisation ?"
+        "question": "Les fables peuvent être classées en plusieurs types, tels que les fables animalières, les fables morales, etc., en fonction de la manière dont elles transmettent des leçons morales ou des valeurs."
       },
       {
         "type": "qcm",
-        "question": "Qu'est-ce que le Code de l'indigénat, appliqué dans les colonies françaises ?",
+        "question": "Quel est le rôle d'une fable dans la communication ?",
         "choices": [
-          "Un code civil adapté pour les colonies",
-          "Un régime juridique d'exception discriminatoire appliqué aux colonisés",
-          "Un programme d'assimilation des populations indigènes",
-          "Un statut de citoyenneté pour les colonisés"
+          "Elle n'a pas de rôle spécifique",
+          "Elle permet d'exprimer des affirmations",
+          "Elle permet d'exprimer des questions",
+          "Elle permet de transmettre des leçons morales ou des valeurs de manière artistique"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "La résistance des populations colonisées est inexistante face à la puissance militaire européenne."
-      },
-      {
-        "type": "open",
-        "question": "Qu'est-ce que l'Algérie représente comme colonie particulière pour la France ?"
+        "question": "Une fable peut être dramatique."
       },
       {
         "type": "qcm",
-        "question": "Qu'est-ce que l'orientalisme, tel que l'a théorisé Edward Said ?",
+        "question": "Lequel de ces titres n'est pas une fable ?",
         "choices": [
-          "L'étude académique des civilisations orientales",
-          "Un courant artistique européen du XIXe siècle sur l'Orient",
-          "La construction d'une image de l'Orient par l'Occident comme l'autre inférieur et exotique, justifiant la domination coloniale",
-          "Les échanges commerciaux entre Europe et Extrême-Orient"
+          "Le Corbeau et le Renard",
+          "La Cigale et la Fourmi",
+          "Le Petit Prince",
+          "Le Lièvre et la Tortue"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "La Chine n'a jamais été officiellement colonisée par les puissances européennes au XIXe siècle."
+        "question": "Les fables peuvent être utilisées pour enseigner des leçons morales ou des valeurs importantes aux lecteurs, en fournissant des exemples concrets et des récits engageants qui illustrent ces leçons de manière artistique."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle d'une fable dans la communication ?",
+        "choices": [
+          "Elle n'a pas de rôle spécifique",
+          "Elle permet d'exprimer des affirmations",
+          "Elle permet d'exprimer des questions",
+          "Elle permet de transmettre des leçons morales ou des valeurs de manière artistique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La fable est un genre littéraire qui utilise des récits courts pour transmettre des leçons morales ou des valeurs."
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Fondamentaux de Français",
+      "description": "Notion du programme 6eme"
+    },
+    {
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
+    },
+    {
+      "notion": "Savoir-faire français",
+      "description": "Notion du programme 6eme"
+    }
+  ],
   "exerciseresponses": []
 }

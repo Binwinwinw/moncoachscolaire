@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Limites en l'infini",
     "status": "published",
-    "created_at": "2026-03-13 11:24:24",
-    "updated_at": "2026-03-13 11:24:24"
+    "created_at": "2026-04-06 06:40:48",
+    "updated_at": "2026-04-06 06:40:48"
   },
   "quiz": {
     "title": "Limites en l'infini",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Limite en l'infini",
+      "description": "La limite en l'infini d'une fonction est la valeur que la fonction approche lorsque la variable indépendante tend vers l'infini positif ou négatif."
+    },
+    {
+      "notion": "Fonction exponentielle",
+      "description": "La fonction exponentielle eˣ est une fonction qui croît très rapidement lorsque x tend vers l'infini positif et tend vers 0 lorsque x tend vers l'infini négatif."
+    },
+    {
+      "notion": "Comportement asymptotique",
+      "description": "Le comportement asymptotique d'une fonction décrit son comportement lorsque la variable indépendante tend vers l'infini, ce qui est crucial pour déterminer les limites en l'infini."
+    }
+  ],
   "exerciseresponses": []
 }

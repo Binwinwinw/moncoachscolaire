@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques 2nde : Suites arithmetiques",
     "status": "published",
-    "created_at": "2026-03-13 11:15:43",
-    "updated_at": "2026-03-13 11:15:43"
+    "created_at": "2026-04-06 06:40:42",
+    "updated_at": "2026-04-06 06:40:42"
   },
   "quiz": {
     "title": "Suites arithmetiques",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Définition et identification",
+      "description": "Comprendre la définition d'une suite arithmétique et identifier les éléments clés tels que le premier terme et la raison"
+    },
+    {
+      "notion": "Formule de la suite arithmétique",
+      "description": "Utiliser la formule de la suite arithmétique pour trouver le nième terme ou la somme des termes"
+    },
+    {
+      "notion": "Analyse des données",
+      "description": "Analyser les données fournies dans l'exercice pour déterminer les informations nécessaires pour résoudre le problème"
+    }
+  ],
   "exerciseresponses": []
 }

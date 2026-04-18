@@ -1,21 +1,61 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 5ème SVT - Série 49",
+    "title": "Anglais - Les dangers de la pollution en SVT",
     "level": "5eme",
     "subject": "SVT"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 5ème SVT - Série 49",
+    "title": "Anglais - Les dangers de la pollution en SVT",
     "question_count": 8,
     "answers": [
-      {"index": 0, "question_id": 1, "type": "qcm", "correct": 0, "correction": "**fémur** (jambe), humérus (bras). Os longs croissance longueur."},
-      {"index": 1, "question_id": 2, "type": "vrai-faux", "correct": true, "correction": "**Vrai**. Chlorophylle lumière → énergie."},
-      {"index": 2, "question_id": 3, "type": "texte", "correct": null, "correction": "**chloroplastes**. Vert feuillage absorption lumière."},
-      {"index": 3, "question_id": 4, "type": "qcm", "correct": 0, "correction": "**herbivore** (lapin), puis renard."},
-      {"index": 4, "question_id": 5, "type": "vrai-faux", "correct": true, "correction": "**Vrai**. Mitochondries cellules énergie ATP."},
-      {"index": 5, "question_id": 6, "type": "texte", "correct": null, "correction": "**ovule** (pollinisation fécondation graine)."},
-      {"index": 6, "question_id": 7, "type": "qcm", "correct": 2, "correction": "**cheminée** (conduit magma lave)."},
-      {"index": 7, "question_id": 8, "type": "texte", "correct": null, "correction": "**crâne** (côtes poumons, vertèbres moelle)."}
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "correction": "La bonne réponse est ‘La pollution chimique’. Elle affecte l'eau."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "correction": "Vrai. Les déchets dans les rivières font du mal aux poissons."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "texte",
+        "correction": "Réponds comment la pollution peut rendre les animaux malades et diminuer leur nourriture."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "correction": "La bonne réponse est ‘Recycler les déchets’. C'est un moyen de réduire la pollution de l'eau."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "correction": "Vrai. Les usines peuvent rejeter des produits chimiques dangereux dans l'eau."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "qcm",
+        "correction": "La bonne réponse est ‘Elle peut endommager leurs feuilles’."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "texte",
+        "correction": "Réponds en donnant une action comme ramasser des déchets ou utiliser moins de plastique."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "qcm",
+        "correction": "La bonne réponse est ‘Pour protéger les plantes, les animaux et les humains’."
+      }
     ],
     "level": "5eme",
     "subject": "SVT"

@@ -1,78 +1,70 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 6eme Histoire-Géographie",
-    "type": "quiz",
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 0053",
     "level": "6eme",
-    "subject": "Histoire-Géographie",
-    "description": "Diagnostic repères spatiaux/temps, continents, Orient ancien 6eme"
+    "subject": "Mathématiques"
   },
   "quiz": {
-    "title": "Diagnostic Histoire-Géo 6eme",
+    "title": "Espace et géométrie",
+    "question_count": 8,
     "level": "6eme",
-    "subject": "Histoire-Géographie",
+    "subject": "Mathématiques",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Europe",
-        "correction": "France = Europe occidentale"
+        "answer": "6",
+        "correction": "Un cube a 6 faces."
       },
       {
         "index": 1,
         "question_id": 2,
-        "type": "texte",
-        "answer": "6",
-        "correction": "Europe, Asie, Afrique, Amérique N, Amérique S, Océanie"
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Un tétraèdre a 4 faces."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "vrai-faux",
-        "answer": false,
-        "correction": "FAUX. Loire = 1012km, Seine = 777km"
+        "type": "qcm",
+        "answer": "8",
+        "correction": "Un cube a 8 sommets."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "answer": "Paris",
-        "correction": "Paris ≈ 2,2 millions hab."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Un cylindre a 3 faces (2 cercles + 1 surface latérale)."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "texte",
-        "answer": "Méditerranée",
-        "correction": "Mer Méditerranée (Côte d'Azur)"
+        "type": "qcm",
+        "answer": "5",
+        "correction": "Un prisme à base triangulaire a 5 faces (2 triangles + 3 rectangles)."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "qcm",
-        "answer": "Egypte et Mésopotamie",
-        "correction": "Egypte, Mésopotamie, Indus, Chine"
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Un cône a 2 faces (1 cercle + 1 surface latérale)."
       },
       {
         "index": 6,
         "question_id": 7,
-        "type": "vrai-faux",
-        "answer": false,
-        "correction": "FAUX. Antiquité ≈ 2600 av. J.-C."
+        "type": "qcm",
+        "answer": "8",
+        "correction": "Un prisme à base carrée a 8 sommets."
       },
       {
         "index": 7,
         "question_id": 8,
-        "type": "texte",
-        "answer": "Mésopotamie",
-        "correction": "Sumériens ≈ 3000 av. J.-C."
-      },
-      {
-        "index": 8,
-        "question_id": 9,
-        "type": "qcm",
-        "answer": "Egypte",
-        "correction": "Egypte antique = Nil"
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Une sphère n'a pas de face, c'est une surface courbe fermée."
       }
     ]
   }

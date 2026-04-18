@@ -6,8 +6,8 @@
     "subject": "SES",
     "description": "Diagnostic SES Terminale : Mobilite sociale et reproduction",
     "status": "published",
-    "created_at": "2026-03-14 03:10:56",
-    "updated_at": "2026-03-14 03:10:56"
+    "created_at": "2026-04-06 06:40:49",
+    "updated_at": "2026-04-06 06:40:49"
   },
   "quiz": {
     "title": "Mobilite sociale et reproduction",
@@ -69,5 +69,19 @@
         "question": "Dans une dissertation SES, il faut articuler notions, donnees et exemples pour justifier l'argumentation."
       }
     ]
-  }
+  },
+  "exercisenotion": [
+    {
+      "notion": "Croissance et développement",
+      "description": "Notion fondamentale de SES"
+    },
+    {
+      "notion": "Justice sociale",
+      "description": "Notion fondamentale de SES"
+    },
+    {
+      "notion": "Intégration économique mondiale",
+      "description": "Notion fondamentale de SES"
+    }
+  ]
 }

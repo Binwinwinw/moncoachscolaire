@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Équations & inéquations avec ln",
     "status": "published",
-    "created_at": "2026-03-13 11:24:24",
-    "updated_at": "2026-03-13 11:24:24"
+    "created_at": "2026-04-06 06:40:48",
+    "updated_at": "2026-04-06 06:40:48"
   },
   "quiz": {
     "title": "Équations & inéquations avec ln",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Fonction logarithmique",
+      "description": "La fonction logarithmique ln(x) est définie pour x > 0, et ln(1) = 0. Dans ce cas, ln(2x - 1) = 0 implique 2x - 1 = 1, car ln(1) = 0."
+    },
+    {
+      "notion": "Résolution d'équations logarithmiques",
+      "description": "Pour résoudre l'équation ln(2x - 1) = 0, il faut utiliser les propriétés de la fonction logarithmique, notamment le fait que ln(1) = 0, pour trouver la valeur de x qui satisfait l'équation."
+    },
+    {
+      "notion": "Domaine de définition",
+      "description": "Il est essentiel de vérifier que la solution trouvée satisfait au domaine de définition de la fonction logarithmique, c'est-à-dire que 2x - 1 > 0, pour garantir que la solution est valide."
+    }
+  ],
   "exerciseresponses": []
 }

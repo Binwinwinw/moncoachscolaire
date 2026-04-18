@@ -1,97 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 5ème Anglais - Communication",
+    "title": "Quiz Diagnostic EMC 6eme - Série 0116",
     "type": "quiz",
-    "level": "5eme",
-    "subject": "Anglais",
-    "description": "Diagnostic Present simple, vocab, dialogues - 5ème",
+    "level": "6eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 6eme : EMC 6e - Respect biens communs",
     "status": "published",
-    "created_at": "2026-03-08 18:20:00",
-    "updated_at": "2026-03-08 18:20:00"
+    "created_at": "2026-04-06 06:25:43",
+    "updated_at": "2026-04-06 06:25:43"
   },
   "quiz": {
-    "title": "Diagnostic 5ème - Anglais Bases",
-    "level": "5eme",
-    "subject": "Anglais",
+    "title": "EMC 6e - Respect biens communs",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "I **play** football every day. (Present simple)",
+        "question": "Pourquoi est-il important de respecter les biens communs ?",
         "choices": [
-          "play",
-          "plays",
-          "played",
-          "playing"
-        ],
-        "id": 1
+          "Le respect des biens communs garantit la préservation de l'environnement, la sécurité et le bien-être de tous les membres de la société.",
+          "Le respect des biens communs est inutile, car les individus peuvent agir comme ils le souhaitent.",
+          "Le respect des biens communs est réservé aux élites politiques et économiques.",
+          "Le respect des biens communs est limité aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "He **is** a student. (To be)",
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "My name **is** ...",
-        "placeholder": "Anna",
-        "id": 3
+        "question": "Le respect des biens communs est un concept qui promeut la non-intervention dans les affaires des individus."
       },
       {
         "type": "qcm",
-        "question": "Where **do** you live?",
+        "question": "Quel est le rôle de l'éducation dans le respect des biens communs ?",
         "choices": [
-          "do you live",
-          "are you live",
-          "live you",
-          "you live"
-        ],
-        "id": 4
+          "L'éducation joue un rôle crucial en sensibilisant les individus au respect des biens communs et en promouvant le respect de ces règles.",
+          "L'éducation est inutile dans le respect des biens communs, car les individus peuvent apprendre par eux-mêmes.",
+          "L'éducation est réservée aux élites politiques et économiques.",
+          "L'éducation est limitée aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "She **has** two brothers. (To have)",
-        "id": 5
-      },
-      {
-        "type": "texte",
-        "question": "What time **is** it? **It's** ...",
-        "placeholder": "three o'clock",
-        "id": 6
+        "question": "Le respect des biens communs est un concept qui promeut la non-intervention dans les affaires des individus."
       },
       {
         "type": "qcm",
-        "question": "Colors: rojo =",
+        "question": "Quel est le rôle des médias dans le respect des biens communs ?",
         "choices": [
-          "blue",
-          "red",
-          "green",
-          "yellow"
-        ],
-        "id": 7
+          "Les médias ont un rôle important en promouvant des représentations positives du respect des biens communs et en sensibilisant le public à l'importance de ces règles.",
+          "Les médias sont inutiles dans le respect des biens communs, car les individus peuvent apprendre par eux-mêmes.",
+          "Les médias sont réservés aux élites politiques et économiques.",
+          "Les médias sont limités aux écoles uniquement."
+        ]
       },
       {
-        "type": "texte",
-        "question": "'Nice to meet you' réponse :",
-        "placeholder": "nice to meet you too",
-        "id": 8
+        "type": "vrai-faux",
+        "question": "Le respect des biens communs est un concept qui promeut la non-intervention dans les affaires des individus."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle des parents dans le respect des biens communs ?",
+        "choices": [
+          "Les parents ont un rôle important en enseignant à leurs enfants le respect des biens communs et en les encourageant à adopter des comportements responsables.",
+          "Les parents n'ont aucun rôle dans le respect des biens communs, car cela relève uniquement de l'école.",
+          "Les parents doivent uniquement se concentrer sur l'éducation académique de leurs enfants.",
+          "Les parents doivent laisser leurs enfants apprendre par eux-mêmes sans intervention."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect des biens communs est un concept qui promeut la non-intervention dans les affaires des individus."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Present simple",
-      "description": "Habitudes: I play, he plays (5ème)"
+      "notion": "Fondamentaux de EMC",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "To be/have",
-      "description": "Être/avoir présent"
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Questions vocab",
-      "description": "Where do..., colors, dialogues"
+      "notion": "Savoir-faire emc",
+      "description": "Notion du programme 6eme"
     }
   ],
   "exerciseresponses": []

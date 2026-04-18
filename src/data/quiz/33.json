@@ -1,96 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 4eme Mathématiques",
+    "title": "Quiz Diagnostic Anglais 6ème - Série 0033",
     "type": "quiz",
-    "level": "4eme",
-    "subject": "Mathématiques",
-    "description": "Diagnostic Mathématiques 4eme : Algèbre et géométrie",
+    "level": "6ème",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6ème : Vocabulaire de base : objets scolaires, objets du quotidien",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-08 14:17:00"
+    "created_at": "2026-04-06 06:24:36",
+    "updated_at": "2026-04-06 06:24:36"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 4eme Mathématiques",
-    "level": "4eme",
-    "subject": "Mathématiques",
+    "title": "Vocabulaire de base : objets scolaires, objets du quotidien",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Quelle est la solution de : 2x = 8 ?",
+        "question": "Which of the following is a common English word for 'stylo'?",
         "choices": [
-          "2",
-          "4",
-          "6",
-          "10"
-        ],
-        "id": 1
+          "Pen",
+          "Pencil",
+          "Marker",
+          "All of the above"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "La somme des angles d'un triangle est 180°.",
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "Calcule : 3,5 × 2",
-        "placeholder": "7",
-        "id": 3
+        "question": "'The English word for 'cahier' is 'notebook'' is a true statement."
       },
       {
         "type": "qcm",
-        "question": "Dans un parallélogramme, les côtés opposés sont :",
+        "question": "Which of the following is a common English expression for saying goodbye?",
         "choices": [
-          "égaux",
-          "perpendiculaires",
-          "concaves",
-          "obliques"
-        ],
-        "id": 4
+          "Goodbye",
+          "See you later",
+          "Take care",
+          "All of the above"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "x = 5 est solution de 3x - 10 = 5.",
-        "id": 5
-      },
-      {
-        "type": "texte",
-        "question": "Quelle est l'aire d'un rectangle 4 cm × 3 cm ?",
-        "placeholder": "12 cm²",
-        "id": 6
+        "question": "'The English word for 'gomme' is 'eraser'' is a true statement."
       },
       {
         "type": "qcm",
-        "question": "Développe : 2(x + 3) =",
+        "question": "Which of the following is a common English word for 'sac à dos'?",
         "choices": [
-          "2x + 6",
-          "2x + 3",
-          "x + 6",
-          "2x"
-        ],
-        "id": 7
+          "Backpack",
+          "Bag",
+          "Purse",
+          "All of the above"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Les décimaux se placent sur droite graduée.",
-        "id": 8
+        "question": "'The English word for 'bureau' is 'desk'' is a true statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English word for 'règle'?",
+        "choices": [
+          "Ruler",
+          "Tape measure",
+          "Measuring stick",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English word for 'chaise' is 'chair'' is a true statement."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Équations simples",
-      "description": "Concept clé de Mathématiques au niveau 4eme"
+      "notion": "Vocabulaire de base",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "notion": "Géométrie plane",
-      "description": "Concept clé de Mathématiques au niveau 4eme"
+      "notion": "Grammaire simple",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "notion": "Calculs numériques",
-      "description": "Concept clé de Mathématiques au niveau 4eme"
+      "notion": "Expression orale",
+      "description": "Notion fondamentale de Anglais"
     }
   ],
   "exerciseresponses": []

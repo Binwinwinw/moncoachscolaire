@@ -1,17 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 6eme Anglais",
+    "title": "Quiz Diagnostic Anglais 6ème - Série 0022",
     "type": "quiz",
-    "level": "6eme",
+    "level": "6ème",
     "subject": "Anglais",
-    "description": "Diagnostic verbes être/avoir, present simple, vocabulaire 6eme",
+    "description": "Diagnostic Anglais 6ème : Vocabulaire de base : couleurs, nombres, jours de la semaine",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-08 14:10:00"
+    "created_at": "2026-04-06 06:24:36",
+    "updated_at": "2026-04-06 06:24:36"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 6eme Anglais",
-    "level": "6eme",
+    "title": "Vocabulaire de base : couleurs, nombres, jours de la semaine",
+    "type": "quiz",
+    "level": "6ème",
     "subject": "Anglais",
     "question_count": 8,
     "passing_score": 70,
@@ -19,78 +20,74 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "My mother _____ a teacher.",
+        "question": "What is the English word for 'rouge'?",
         "choices": [
-          "am",
-          "is",
-          "are",
-          "have"
-        ],
-        "id": 1
+          "Red",
+          "Blue",
+          "Green",
+          "Yellow"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "You _____ my best friend.",
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "They _____ brothers. (be)",
-        "placeholder": "are",
-        "id": 3
+        "question": "'The number 5 is greater than the number 3' is a true statement."
       },
       {
         "type": "qcm",
-        "question": "I _____ a dog at home.",
+        "question": "Which of the following is a common English word for 'nombres'?",
         "choices": [
-          "am",
-          "have",
-          "has",
-          "do"
-        ],
-        "id": 4
+          "Numbers",
+          "Digits",
+          "Numerals",
+          "All of the above"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "He _____ breakfast every morning. (eat)",
-        "id": 5
-      },
-      {
-        "type": "texte",
-        "question": "Where _____ you live?",
-        "placeholder": "do",
-        "id": 6
+        "question": "'The number 10 is less than the number 20' is a true statement."
       },
       {
         "type": "qcm",
-        "question": "This _____ my school bag.",
+        "question": "What is the English word for 'lundi'?",
         "choices": [
-          "is",
-          "are",
-          "have",
-          "has"
-        ],
-        "id": 7
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "We _____ happy today.",
-        "id": 8
+        "question": "'The week has seven days' is a true statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English word for 'couleurs'?",
+        "choices": [
+          "Colors",
+          "Hues",
+          "Shades",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The color blue is often associated with calmness and tranquility' is a true statement."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "To be famille",
-      "description": "Concept clé de Anglais au niveau 6eme"
+      "notion": "Vocabulaire de base",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "notion": "To have possessions",
-      "description": "Concept clé de Anglais au niveau 6eme"
+      "notion": "Grammaire simple",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "notion": "Present simple école",
-      "description": "Concept clé de Anglais au niveau 6eme"
+      "notion": "Expression orale",
+      "description": "Notion fondamentale de Anglais"
     }
   ],
   "exerciseresponses": []

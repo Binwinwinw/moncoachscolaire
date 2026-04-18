@@ -1,102 +1,94 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ère Anglais - Série 07",
+    "title": "Quiz Diagnostic EMC 6eme - Série 0131",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Anglais",
-    "description": "Diagnostic Anglais 1ère : Culture, Identity, Advanced Expression (Eduscol B1/B2)",
+    "level": "6eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 6eme : EMC 6e - Écologie citoyenne",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-09 17:08:00"
+    "created_at": "2026-04-06 06:25:43",
+    "updated_at": "2026-04-06 06:25:43"
   },
   "quiz": {
-    "title": "1ère English Diagnostic - Series 07 (Culture & Identity)",
-    "level": "1ere",
-    "subject": "Anglais",
+    "title": "EMC 6e - Écologie citoyenne",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Globalization has made cultures more similar worldwide (McDonaldization). Opinion?",
+        "question": "Pourquoi est-il important de respecter les règles de jugement moral dans les cas concrets ?",
         "choices": [
-          "Cultural diversity loss",
-          "Enrichment through exchange",
-          "No impact",
-          "Only positive"
-        ],
-        "correct_index": 1,
-        "id": 1
+          "Le respect des règles de jugement moral dans les cas concrets garantit la promotion d'une société plus juste et solidaire.",
+          "Le respect des règles de jugement moral dans les cas concrets est inutile, car les individus peuvent agir comme ils le souhaitent.",
+          "Le respect des règles de jugement moral dans les cas concrets est réservé aux élites politiques et économiques.",
+          "Le respect des règles de jugement moral dans les cas concrets est limité aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Bilingualism improves cognitive skills in children.",
-        "correct": true,
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "How does music shape cultural identity? 1 example.",
-        "placeholder": "ex: Rap = urban youth expression worldwide",
-        "id": 3
+        "question": "Le respect des règles de jugement moral dans les cas concrets est un concept qui promeut la non-intervention dans les affaires des individus."
       },
       {
         "type": "qcm",
-        "question": "Emphasis: Never _____ such an amazing concert!",
+        "question": "Quel est le rôle de l'éducation dans le respect des règles de jugement moral dans les cas concrets ?",
         "choices": [
-          "have I seen",
-          "I have seen",
-          "did I see",
-          "I saw"
-        ],
-        "correct_index": 0,
-        "id": 4
+          "L'éducation joue un rôle crucial en sensibilisant les individus aux règles de jugement moral dans les cas concrets et en promouvant le respect de ces règles.",
+          "L'éducation est inutile dans le respect des règles de jugement moral dans les cas concrets, car les individus peuvent apprendre par eux-mêmes.",
+          "L'éducation est réservée aux élites politiques et économiques.",
+          "L'éducation est limitée aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "French identity is only defined by language.",
-        "correct": false,
-        "id": 5
-      },
-      {
-        "type": "texte",
-        "question": "What tradition is unique to your region? Describe.",
-        "placeholder": "ex: Fête de la musique = free concerts everywhere",
-        "id": 6
+        "question": "Le respect des règles de jugement moral dans les cas concrets est un concept qui promeut la non-intervention dans les affaires des individus."
       },
       {
         "type": "qcm",
-        "question": "Multiculturalism in France means:",
+        "question": "Quel est le rôle des médias dans le respect des règles de jugement moral dans les cas concrets ?",
         "choices": [
-          "Integration while preserving origins",
-          "Assimilation total",
-          "Segregation",
-          "No immigration"
-        ],
-        "correct_index": 0,
-        "id": 7
+          "Les médias jouent un rôle crucial en sensibilisant le public aux règles de jugement moral dans les cas concrets et en promouvant le respect de ces règles.",
+          "Les médias sont inutiles dans le respect des règles de jugement moral dans les cas concrets, car les individus peuvent apprendre par eux-mêmes.",
+          "Les médias sont réservés aux élites politiques et économiques.",
+          "Les médias sont limités aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Not only France but also Germany has strong regional identities.",
-        "correct": true,
-        "id": 8
+        "question": "Le respect des règles de jugement moral dans les cas concrets est un concept qui promeut la non-intervention dans les affaires des individus."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle des parents dans le respect des règles de jugement moral dans les cas concrets ?",
+        "choices": [
+          "Les parents ont un rôle important en sensibilisant leurs enfants aux règles de jugement moral dans les cas concrets et en promouvant le respect de ces règles.",
+          "Les parents sont inutiles dans le respect des règles de jugement moral dans les cas concrets, car les individus peuvent apprendre par eux-mêmes.",
+          "Les parents sont réservés aux élites politiques et économiques.",
+          "Les parents sont limités aux écoles uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect des règles de jugement moral dans les cas concrets est un concept qui promeut la non-intervention dans les affaires des individus."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Culture & Globalization",
-      "description": "Cultural exchange vs homogenization (Eduscol 1ère)"
+      "notion": "Fondamentaux de EMC",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Identity",
-      "description": "National/regional/multicultural identities"
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Advanced Grammar",
-      "description": "Inversions (never have I), cleft sentences, emphasis"
+      "notion": "Savoir-faire emc",
+      "description": "Notion du programme 6eme"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

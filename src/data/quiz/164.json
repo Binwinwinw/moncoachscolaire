@@ -1,96 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 40",
+    "title": "Quiz Diagnostic Français 6eme - Série 0164",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Anglais",
-    "description": "Diagnostic Anglais 1ere : La compréhension écrite",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - Les connecteurs logiques",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-08 00:05:00"
+    "created_at": "2026-04-06 06:25:38",
+    "updated_at": "2026-04-06 06:25:38"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 40",
-    "level": "1ere",
-    "subject": "Anglais",
+    "title": "Français 6e - Les connecteurs logiques",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
-        "id": 1,
         "type": "qcm",
-        "question": "What does 'skimming' a text mean?",
+        "question": "Quel connecteur logique est utilisé pour exprimer une cause ou une raison ?",
         "choices": [
-          "Reading every word carefully to understand all the details",
-          "Reading quickly to get a general overview of the text",
-          "Looking for specific information like names or dates",
-          "Translating the text word by word"
+          "Cependant",
+          "Parce que",
+          "Donc",
+          "En revanche"
         ]
       },
       {
-        "id": 2,
         "type": "vrai-faux",
-        "question": "When answering reading comprehension questions, it is always best to use your own knowledge rather than the information given in the text."
+        "question": "Le connecteur logique 'Cependant' est utilisé pour exprimer une opposition ou une contradiction entre deux idées."
       },
       {
-        "id": 3,
-        "type": "texte",
-        "question": "Explique la différence entre une question de compréhension 'littérale' et une question 'd'inférence'. Donne un exemple de chaque type.",
-        "placeholder": "Écris ta réponse ici..."
-      },
-      {
-        "id": 4,
         "type": "qcm",
-        "question": "What is the best strategy when you encounter an unknown word in a reading comprehension text?",
+        "question": "Quel connecteur logique est utilisé pour exprimer une conséquence ou un résultat ?",
         "choices": [
-          "Stop reading immediately and look it up in a dictionary",
-          "Skip the word completely and ignore it",
-          "Use the context of the surrounding sentences to guess its meaning",
-          "Translate every word of the sentence into French"
+          "Cependant",
+          "Parce que",
+          "Donc",
+          "En revanche"
         ]
       },
       {
-        "id": 5,
         "type": "vrai-faux",
-        "question": "The first and last paragraphs of a text usually contain the most important information about its main idea."
+        "question": "Le connecteur logique 'En revanche' est utilisé pour exprimer une opposition ou une alternative entre deux idées."
       },
       {
-        "id": 6,
-        "type": "texte",
-        "question": "Quel type de texte est-il et quels indices le montrent ? Extrait : 'Experts warn that unless governments act decisively, global temperatures will rise by 2°C before 2050, triggering irreversible climate events.'",
-        "placeholder": "Écris ta réponse ici..."
-      },
-      {
-        "id": 7,
         "type": "qcm",
-        "question": "Which technique is SCANNING used for?",
+        "question": "Quel connecteur logique est utilisé pour exprimer une addition ou une accumulation d'idées ?",
         "choices": [
-          "Understanding the general mood of the text",
-          "Identifying the author's opinion",
-          "Quickly finding specific information like a date or a name",
-          "Reading the text from beginning to end carefully"
+          "Cependant",
+          "Parce que",
+          "Donc",
+          "De plus"
         ]
       },
       {
-        "id": 8,
         "type": "vrai-faux",
-        "question": "When answering a reading comprehension question, paraphrasing the text (using your own words) is generally better than copying sentences directly."
+        "question": "L'utilisation de connecteurs logiques peut contribuer à améliorer la cohérence et la clarté d'un texte en établissant des relations logiques entre les différentes idées et en guidant le lecteur à travers le raisonnement de l'auteur."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel connecteur logique est utilisé pour exprimer une concession ou une restriction ?",
+        "choices": [
+          "Cependant",
+          "Parce que",
+          "Donc",
+          "Bien que"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation excessive de connecteurs logiques peut parfois rendre un texte lourd et difficile à lire, en créant une surcharge d'informations ou en perturbant le flux de la lecture."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Stratégies de lecture : skimming et scanning",
-      "description": "Skimming = lire rapidement pour saisir l'idée générale d'un texte (titre, premier/dernier paragraphe, premières phrases de chaque §). Scanning = lire rapidement pour trouver une information précise (date, nom, chiffre). Ces deux techniques permettent de gagner du temps et d'orienter la compréhension avant une lecture approfondie."
+      "notion": "Fondamentaux de Français",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Identifier le type de texte et son registre",
-      "description": "Reconnaître le genre du texte est essentiel : article de presse (objectif/neutre), editorial (opinion), fiction (narratif), rapport scientifique (formel/technique), publicité (persuasif). Chaque type a ses caractéristiques linguistiques propres (registre, structure, vocabulaire) qui orientent la compréhension et l'analyse."
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Inférence et déduction dans un texte",
-      "description": "L'inférence consiste à comprendre ce qui n'est pas dit explicitement mais qui est sous-entendu. Pour inférer : repérer les indices (mots, ton, contexte), croiser les informations du texte, utiliser ses connaissances générales. Formules utiles : 'It can be inferred that...', 'The text implies...', 'Based on the context...'"
+      "notion": "Savoir-faire français",
+      "description": "Notion du programme 6eme"
     }
   ],
   "exerciseresponses": []

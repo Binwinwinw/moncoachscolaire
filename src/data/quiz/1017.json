@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Dérivées des fonctions usuelles",
     "status": "published",
-    "created_at": "2026-03-13 11:24:24",
-    "updated_at": "2026-03-13 11:24:24"
+    "created_at": "2026-04-06 06:40:48",
+    "updated_at": "2026-04-06 06:40:48"
   },
   "quiz": {
     "title": "Dérivées des fonctions usuelles",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Règle de la puissance",
+      "description": "La dérivée de f(x) = xⁿ est f'(x) = nxⁿ⁻¹, où n est un entier"
+    },
+    {
+      "notion": "Dérivée des fonctions usuelles",
+      "description": "Les fonctions usuelles comme xⁿ ont des dérivées bien définies et sont utilisées pour modéliser divers phénomènes physiques et mathématiques"
+    },
+    {
+      "notion": "Application de la dérivée",
+      "description": "La connaissance de la dérivée de f(x) = xⁿ permet de résoudre des problèmes d'optimisation, de trouver des extremums et de modéliser des phénomènes physiques"
+    }
+  ],
   "exerciseresponses": []
 }

@@ -1,90 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 5eme Français",
+    "title": "Quiz Diagnostic Anglais 6ème - Série 0047",
     "type": "quiz",
-    "level": "5eme",
-    "subject": "Francais",
-    "description": "Diagnostic grammaire conjugaison orthographe niveau 5eme"
+    "level": "6ème",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6ème : Vocabulaire de base : phrases courantes pour parler de l'intérieur",
+    "status": "published",
+    "created_at": "2026-04-06 06:24:36",
+    "updated_at": "2026-04-06 06:24:36"
   },
   "quiz": {
-    "title": "Diagnostic Français 5eme",
-    "level": "5eme",
-    "subject": "Francais",
+    "title": "Vocabulaire de base : phrases courantes pour parler de l'intérieur",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
     "question_count": 8,
-    "passing_score": 75,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
     "questions": [
       {
-        "id": 1,
-        "type": "texte",
-        "question": "Je ... (manger) une pomme."
-      },
-      {
-        "id": 2,
         "type": "qcm",
-        "question": "Le pronom qui remplace 'les enfants' :",
+        "question": "Which of the following is a common English expression used to describe the interior of a house?",
         "choices": [
-          "ils",
-          "elles",
-          "nous",
-          "vous"
+          "It's cozy",
+          "It's spacious",
+          "It's modern",
+          "All of the above"
         ]
       },
       {
-        "id": 3,
         "type": "vrai-faux",
-        "question": "On écrit 'a' au lieu de 'à' dans 'J'ai allé'."
+        "question": "The English expression for 'C'est confortable' is 'It's cozy'' is a true statement."
       },
       {
-        "id": 4,
-        "type": "texte",
-        "question": "Nous ... (finir) nos devoirs."
-      },
-      {
-        "id": 5,
         "type": "qcm",
-        "question": "Quel est l'adjectif possessif ? 'Mon chat est noir.'",
+        "question": "Which of the following is a common English expression used to describe the interior of a house when it's spacious?",
         "choices": [
-          "noir",
-          "chat",
-          "mon",
-          "est"
+          "It's cozy",
+          "It's spacious",
+          "It's modern",
+          "All of the above"
         ]
       },
       {
-        "id": 6,
         "type": "vrai-faux",
-        "question": "Les verbes du 3e groupe ont tous la même conjugaison."
+        "question": "The English expression for 'C'est spacieux' is 'It's spacious'' is a true statement."
       },
       {
-        "id": 7,
-        "type": "texte",
-        "question": "Tu ... (être) content ?"
-      },
-      {
-        "id": 8,
         "type": "qcm",
-        "question": "Accord sujet-verbe : 'Les filles chant... bien.'",
+        "question": "Which of the following is a common English expression used to describe the interior of a house when it's modern?",
         "choices": [
-          "e",
-          "ent",
-          "ons",
-          "ait"
+          "It's cozy",
+          "It's spacious",
+          "It's modern",
+          "All of the above"
         ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The English expression for 'C'est moderne' is 'It's modern'' is a true statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English expression used to describe the interior of a house when it's old-fashioned?",
+        "choices": [
+          "It's cozy",
+          "It's spacious",
+          "It's old-fashioned",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English expression for 'C'est démodé' is 'It's old-fashioned'' is a true statement."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Présent indicatif"
+      "notion": "Vocabulaire de base",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "notion": "Pronoms personnels"
+      "notion": "Grammaire simple",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "notion": "Adjectifs possessifs"
-    },
-    {
-      "notion": "Orthographe verbes"
+      "notion": "Expression orale",
+      "description": "Notion fondamentale de Anglais"
     }
   ],
   "exerciseresponses": []

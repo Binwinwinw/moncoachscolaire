@@ -1,48 +1,74 @@
 {
-  "quiz_id": 1065,
-  "title": "Introduction aux suites",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "answers": [
-    {
-      "question_id": "1065_1",
-      "correct_option": "B",
-      "explanation": "Une suite est une fonction de N (ou d'une partie de N) vers R : à chaque entier n on associe un réel uₙ."
-    },
-    {
-      "question_id": "1065_2",
-      "correct": true,
-      "explanation": "Les deux modes de définition sont équivalents. L'explicite donne directement uₙ, la récurrence relie les termes."
-    },
-    {
-      "question_id": "1065_3",
-      "correct_answer": "u₀ = −1, u₁ = 2, u₂ = 5, u₅ = 14",
-      "explanation": "u₀=3×0−1=−1 ; u₁=2 ; u₂=5 ; u₅=3×5−1=14."
-    },
-    {
-      "question_id": "1065_4",
-      "correct_option": "C",
-      "explanation": "u₁=5, u₂=8, u₃=11."
-    },
-    {
-      "question_id": "1065_5",
-      "correct": true,
-      "explanation": "(−1)ⁿ = 1 si n est pair et −1 si n est impair. La suite oscille entre 1 et −1."
-    },
-    {
-      "question_id": "1065_6",
-      "correct_answer": "u₁=1, u₂=4, u₃=9, u₄=16, u₅=25",
-      "explanation": "u₂=1+3=4 ; u₃=4+5=9 ; u₄=9+7=16 ; u₅=16+9=25. On retrouve les carrés parfaits !"
-    },
-    {
-      "question_id": "1065_7",
-      "correct_option": "A",
-      "explanation": "uₙ₊₁ − uₙ = (n+1)² − (n+1) − n² + n = 2n ≥ 0 pour n ≥ 0 (strictement positif pour n ≥ 1)."
-    },
-    {
-      "question_id": "1065_8",
-      "correct": true,
-      "explanation": "Définition d'une suite croissante au sens large. Si uₙ₊₁ > uₙ, elle est strictement croissante."
-    }
-  ]
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 1ère - SÃ©rie 1065",
+    "level": "1ère",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "Diagnostic Anglais 1ère - Série 7",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "wrote",
+        "correct": 0,
+        "correction": "The past tense of \"write\" is \"wrote\"."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "\"Your\" is a possessive pronoun used to indicate ownership."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "Ils regardent la télévision",
+        "correction": "The correct translation of \"They are watching TV\" in French is \"Ils regardent la télévision\"."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "dark",
+        "correct": 1,
+        "correction": "\"Dark\" is an antonym of \"light\"."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "\"It's\" is a contraction of \"it is\" or \"it has\", not a possessive pronoun. The possessive pronoun for \"it\" is \"its\"."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "gone",
+        "correction": "The past participle of \"go\" is \"gone\". It is used in perfect tenses and passive voice."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "They don't like music.",
+        "correct": 1,
+        "correction": "The correct sentence is \"They don't like music.\" because \"they\" is plural and requires \"do not\" for negation."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "\"Slowly\" is an adverb because it describes how an action is performed."
+      }
+    ]
+  }
 }

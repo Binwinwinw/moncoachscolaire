@@ -1,70 +1,70 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Mathématiques 6ème - Série 6",
+    "title": "Quiz Diagnostic Anglais 6eme - Série 0006",
     "level": "6eme",
-    "subject": "Mathématiques"
+    "subject": "Anglais"
   },
   "quiz": {
-    "title": "Diagnostic Mathématiques 6ème",
+    "title": "corps humain/santé : alimentation, sport, bien-être",
     "question_count": 8,
     "level": "6eme",
-    "subject": "Mathématiques",
+    "subject": "Anglais",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correct": 0,
-        "correction": "Les quatre opérations de base sont l'addition (+), la soustraction (-), la multiplication (×) et la division (÷). Ces symboles sont utilisés dans tous les calculs mathématiques du cycle 4. L'autre choix décrit des opérations inexistantes ou non standardisées en 6ème."
+        "answer": "Fruits and vegetables",
+        "correction": "Fruits and vegetables are healthy food choices that provide essential nutrients for the body."
       },
       {
         "index": 1,
         "question_id": 2,
-        "type": "texte",
-        "correct": null,
-        "correction": "Le périmètre d'un rectangle est P = 2 × (longueur + largeur) = 2 × (8 + 5) = 2 × 13 = 26 cm. Cette formule est fondamentale en géométrie plane 6ème. Vérifier l'unité (cm) et l'ordre des opérations (parenthèses d'abord)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Regular exercise helps improve cardiovascular health, strengthen muscles, and boost overall well-being."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "vrai-faux",
-        "correct": 1,
-        "correction": "Vrai. Une fraction comme 3/4 représente une division 3 ÷ 4 qui n'est pas forcément terminée en entier. Au cycle 4, on introduit les fractions comme quotients et parts d'un tout, avec lien aux décimales."
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "Drinking water provides hydration, aids in digestion, and promotes better skin health."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "texte",
-        "correct": null,
-        "correction": "Prix au kg = 3 € ÷ 2 kg = 1,50 €/kg. C'est un problème de proportionnalité directe : prix proportionnel à la masse. Règle : diviser prix total par quantité pour obtenir l'unité. Exprimer en euros avec virgule."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "This saying emphasizes the importance of eating fruits like apples for maintaining good health."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "qcm",
-        "correct": 2,
-        "correction": "L'aire d'un carré est A = côté × côté = 5 × 5 = 25 cm². Formule de base en géométrie 6ème. Attention à l'unité d'aire (cm²) et non de longueur (cm). Les autres choix confondent périmètre et aire."
+        "answer": "All of the above",
+        "correction": "Running, swimming, and cycling are all forms of physical activity that can help improve fitness and overall health."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "qcm",
-        "correct": 1,
-        "correction": "2/4 se simplifie en divisant le numérateur et le dénominateur par 2. On obtient 1/2. Deux fractions sont équivalentes lorsqu'elles représentent la même quantité. Cette compétence est essentielle pour comparer, additionner ou simplifier des fractions en 6ème."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Getting enough sleep is crucial for maintaining good health, as it allows the body to rest and recover."
       },
       {
         "index": 6,
         "question_id": 7,
-        "type": "vrai-faux",
-        "correct": 1,
-        "correction": "Vrai. Le périmètre d'un carré est égal à 4 fois la longueur d'un côté. Ici : 4 x 6 = 24 cm. Cette formule permet de calculer rapidement le contour d'une figure. Il faut toujours conserver l'unité de longueur (cm) dans la réponse."
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "Meditation, journaling, and talking to a friend are all practices that can help improve mental health and well-being."
       },
       {
         "index": 7,
         "question_id": 8,
-        "type": "texte",
-        "correct": null,
-        "correction": "2,5 m = 250 cm, car 1 m = 100 cm. On multiplie donc 2,5 par 100. Cette conversion est fréquente en géométrie et en problèmes de proportionnalité. Une bonne stratégie est d'écrire l'égalité de conversion avant de calculer."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Eating junk food regularly can lead to health problems such as obesity, diabetes, and heart disease."
       }
     ]
   }

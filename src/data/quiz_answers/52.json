@@ -1,71 +1,70 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 6ème Français",
-    "type": "quiz",
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 0052",
     "level": "6eme",
-    "subject": "Français",
-    "description": "Diagnostic complet des acquis en français 6ème : conjugaison, orthographe, accords, homophones. 8 questions variées."
+    "subject": "Mathématiques"
   },
   "quiz": {
-    "title": "Diagnostic Français 6ème",
+    "title": "géometrie",
+    "question_count": 8,
     "level": "6eme",
-    "subject": "Français",
+    "subject": "Mathématiques",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "nous allons",
-        "correction": "'Nous' = 1ère personne pluriel → allons (terminaison -ons)"
+        "answer": "4",
+        "correction": "Un carré a 4 côtés."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "answer": true,
-        "correction": "Oui ! 'Ces' = pluriel avant masculin (ces garçons). 'Ses' = possessif (ses garçons)."
+        "answer": "faux",
+        "correction": "Un triangle a 3 côtés."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "answer": "joue",
-        "correction": "3ème personne singulier présent → terminaison -e (joue, mange, parle)"
+        "type": "qcm",
+        "answer": "6",
+        "correction": "Un cube a 6 faces."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "answer": "a trois stylos",
-        "correction": "Stylo masculin pluriel = stylos (accord adjectif avec nom)"
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Un cercle n'a pas de côté, c'est une courbe fermée."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "answer": true,
-        "correction": "Oui ! c'est (cela+être), s'est (se+être), sest n'existe pas. Attention à l'apostrophe !"
+        "type": "qcm",
+        "answer": "4",
+        "correction": "Un tétraèdre a 4 sommets."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "answer": "Paris",
-        "correction": "Majuscule propre = Paris (nom de ville). Minuscule pour 'la France' (article)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Un rectangle a 4 côtés."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "nous",
-        "correction": "Pronoms sujets : je, tu, il/elle, nous, vous, ils/elles"
+        "answer": "5",
+        "correction": "Un pentagone a 5 côtés."
       },
       {
         "index": 7,
         "question_id": 8,
-        "type": "texte",
-        "answer": "maison",
-        "correction": "Les 3 autres se déplacent (moyen de transport). Maison = bâtiment fixe."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Un hexagone a 6 côtés."
       }
     ]
   }

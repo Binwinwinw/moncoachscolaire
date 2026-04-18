@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 6eme - Série 0098",
+    "level": "6eme",
+    "subject": "EMC"
+  },
+  "quiz": {
+    "title": "EMC 6e - Les institutions de la République",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "EMC",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Le Président de la République, le Parlement, le Gouvernement",
+        "correction": "Les trois principales institutions de la République française sont le Président de la République, le Parlement (composé de l'Assemblée nationale et du Sénat) et le Gouvernement (composé du Premier ministre et des ministres)."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Le Président de la République française est élu au suffrage universel direct pour un mandat de cinq ans."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Le Parlement élabore les lois, contrôle le Gouvernement et représente les citoyens.",
+        "correction": "Le Parlement français a pour rôle d'élaborer les lois, de contrôler le Gouvernement et de représenter les citoyens. Il est composé de deux chambres : l'Assemblée nationale et le Sénat."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Le Gouvernement français est dirigé par le Premier ministre, qui est nommé par le Président de la République."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Le Président de la République représente la France à l'étranger, nomme le Premier ministre et peut dissoudre l'Assemblée nationale.",
+        "correction": "Le Président de la République française représente la France à l'étranger, nomme le Premier ministre et peut dissoudre l'Assemblée nationale."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Le Conseil constitutionnel français est chargé de veiller à la conformité des lois à la Constitution."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Le Conseil d'État conseille le Gouvernement sur les questions juridiques et est la juridiction administrative suprême.",
+        "correction": "Le Conseil d'État français conseille le Gouvernement sur les questions juridiques et est la juridiction administrative suprême."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le Sénat est la chambre haute du Parlement français, tandis que l'Assemblée nationale est la chambre basse."
+      }
+    ]
+  }
+}

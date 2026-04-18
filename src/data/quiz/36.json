@@ -1,83 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 3eme Anglais",
+    "title": "Quiz Diagnostic Anglais 6ème - Série 0036",
     "type": "quiz",
-    "level": "3eme",
+    "level": "6ème",
     "subject": "Anglais",
-    "description": "Diagnostic reported speech, phrasal verbs, connectors 3eme brevet"
+    "description": "Diagnostic Anglais 6ème : Vocabulaire de base : couleurs, nombres, formes",
+    "status": "published",
+    "created_at": "2026-04-06 06:24:36",
+    "updated_at": "2026-04-06 06:24:36"
   },
   "quiz": {
-    "title": "Diagnostic Anglais 3eme",
-    "level": "3eme",
+    "title": "Vocabulaire de base : couleurs, nombres, formes",
+    "type": "quiz",
+    "level": "6ème",
     "subject": "Anglais",
     "question_count": 8,
-    "passing_score": 80,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
     "questions": [
       {
-        "id": 1,
-        "type": "texte",
-        "question": "'I am tired' → He said he ... tired."
-      },
-      {
-        "id": 2,
         "type": "qcm",
-        "question": "Look ... the meaning !",
+        "question": "Which of the following is a common English word for 'couleurs'?",
         "choices": [
-          "at",
-          "up",
-          "after"
+          "Colors",
+          "Hues",
+          "Shades",
+          "All of the above"
         ]
       },
       {
-        "id": 3,
         "type": "vrai-faux",
-        "question": "'I'll call' → He said he would call."
+        "question": "'The English word for 'nombres' is 'numbers'' is a true statement."
       },
       {
-        "id": 4,
-        "type": "texte",
-        "question": "'Don't touch !' → She told me ..."
-      },
-      {
-        "id": 5,
         "type": "qcm",
-        "question": "However =",
+        "question": "Which of the following is a common English word for 'formes'?",
         "choices": [
-          "Donc",
-          "Cependant",
-          "Aussi"
+          "Shapes",
+          "Figures",
+          "Geometric forms",
+          "All of the above"
         ]
       },
       {
-        "id": 6,
-        "type": "texte",
-        "question": "Turn ... TV (éteindre)."
-      },
-      {
-        "id": 7,
         "type": "vrai-faux",
-        "question": "Because = cause."
+        "question": "'The English word for 'couleurs' is 'colors'' is a true statement."
       },
       {
-        "id": 8,
         "type": "qcm",
-        "question": "'Where are you ?' → He asked me ...",
+        "question": "Which of the following is a common English word for 'nombres'?",
         "choices": [
-          "where I was",
-          "where was I"
+          "Numbers",
+          "Digits",
+          "Numerals",
+          "All of the above"
         ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English word for 'formes' is 'shapes'' is a true statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English word for 'couleurs'?",
+        "choices": [
+          "Colors",
+          "Tints",
+          "Tones",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English word for 'nombres' is 'digits'' is a true statement."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Reported speech"
+      "notion": "Vocabulaire de base",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "notion": "Phrasal verbs"
+      "notion": "Grammaire simple",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "notion": "Connectors"
+      "notion": "Expression orale",
+      "description": "Notion fondamentale de Anglais"
     }
   ],
   "exerciseresponses": []

@@ -1,71 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Anglais 6ème - Série 9",
+    "title": "Quiz Diagnostic Anglais 6eme - Série 0009",
     "level": "6eme",
     "subject": "Anglais"
   },
   "quiz": {
-    "title": "Diagnostic Anglais 6ème",
+    "title": "sciences : phénomènes naturels, corps humain, espace",
     "question_count": 8,
+    "level": "6eme",
+    "subject": "Anglais",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correct": 2,
-        "correction": "'He plays football' est la bonne réponse : sujet he + verbe au présent simple avec -s. Les autres propositions mélangent les sujets ou oublient la terminaison verbale. Cette règle est essentielle en 6ème pour parler des habitudes."
+        "answer": "Jupiter",
+        "correction": "Jupiter is the largest planet in our solar system."
       },
       {
         "index": 1,
         "question_id": 2,
-        "type": "qcm",
-        "correct": 1,
-        "correction": "Avec 'she' au présent simple, le verbe prend généralement -s/-es. On écrit donc 'She goes to school at 8.'. Les autres propositions ont une forme verbale incorrecte. Cette structure sert à décrire une routine quotidienne."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The human heart indeed has four chambers: two atria and two ventricles."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "vrai-faux",
-        "correct": 1,
-        "correction": "Vrai. En anglais, l'adjectif se place avant le nom : a big house, a red car, an interesting book. En français, l'adjectif peut être avant ou après selon le cas. Comprendre cet ordre aide à produire des phrases naturelles."
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "Earthquakes, tornadoes, and volcanic eruptions are all natural phenomena."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correct": 1,
-        "correction": "Le sujet 'my brother' est à la 3e personne du singulier, donc on utilise 'has'. 'Have' convient avec I/you/we/they. C'est une base importante pour exprimer la possession en anglais."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The Milky Way is indeed a galaxy that contains our solar system."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "qcm",
-        "correct": 1,
-        "correction": "Pour poser une question au présent simple avec 'you', on utilise l'auxiliaire 'do' : 'Where do you live?'. Les autres formes sont grammaticalement incorrectes. Ce schéma est réutilisable avec d'autres verbes d'action."
+        "answer": "All of the above",
+        "correction": "Solid, liquid, and gas are all states of matter."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "correct": 1,
-        "correction": "Vrai. Pour l'âge en anglais, on emploie le verbe 'to be' : 'I am 12 years old.' et non 'I have 12 years'. C'est une différence fréquente entre le français et l'anglais à mémoriser dès la 6ème."
+        "answer": "vrai",
+        "correction": "Photosynthesis is indeed the process by which plants convert sunlight into energy."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "correct": 0,
-        "correction": "La bonne traduction est 'I do my homework every evening.'. L'expression correcte est 'do homework' (et non 'make homework'). On utilise le présent simple pour les habitudes avec un repère de fréquence comme 'every evening'."
+        "answer": "All of the above",
+        "correction": "The stomach, liver, and intestines are all parts of the human digestive system."
       },
       {
         "index": 7,
         "question_id": 8,
-        "type": "texte",
-        "correct": null,
-        "correction": "Réponse attendue : une phrase simple au présent (sujet + verbe + complément), par exemple 'I get up at 7 and I eat breakfast.'. On valorise la correction grammaticale (accord sujet-verbe) et un vocabulaire de routine (wake up, go to school, do homework)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The Earth does indeed revolve around the Sun, completing one orbit approximately every 365 days."
       }
-    ],
-    "level": "6eme",
-    "subject": "Anglais"
+    ]
   }
 }

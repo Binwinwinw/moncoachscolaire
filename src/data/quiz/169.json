@@ -1,96 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 45",
+    "title": "Quiz Diagnostic Français 6eme - Série 0169",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Anglais",
-    "description": "Diagnostic Anglais 1ere : Expression avancée",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - Les homophones grammaticaux",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-08 00:05:00"
+    "created_at": "2026-04-06 06:25:38",
+    "updated_at": "2026-04-06 06:25:38"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 45",
-    "level": "1ere",
-    "subject": "Anglais",
+    "title": "Français 6e - Les homophones grammaticaux",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "question": "Quel homophone grammatical est utilisé pour indiquer la possession ou l'appartenance ?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
-        ],
-        "id": 1
+          "a",
+          "à",
+          "as",
+          "ah"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau 1ere aborde des notions fondamentales en Anglais.",
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "Cite un exemple concret lié à Anglais.",
-        "placeholder": "Exemple...",
-        "id": 3
+        "question": "L'homophone grammatical 'a' est utilisé pour indiquer une action ou un état d'être, en tant que forme conjuguée du verbe 'avoir' à la troisième personne du singulier."
       },
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "question": "Quel homophone grammatical est utilisé pour indiquer une exclamation ou une interjection ?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
-        ],
-        "id": 4
+          "a",
+          "à",
+          "as",
+          "ah"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau 1ere aborde des notions fondamentales en Anglais.",
-        "id": 5
-      },
-      {
-        "type": "texte",
-        "question": "Cite un exemple concret lié à Anglais.",
-        "placeholder": "Exemple...",
-        "id": 6
+        "question": "L'utilisation correcte des homophones grammaticaux est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les mots sont utilisés de manière appropriée en fonction de leur sens et de leur fonction grammaticale."
       },
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "question": "Quel homophone grammatical est utilisé pour indiquer une action ou un état d'être, en tant que forme conjuguée du verbe 'avoir' à la deuxième personne du singulier ?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
-        ],
-        "id": 7
+          "a",
+          "à",
+          "as",
+          "ah"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau 1ere aborde des notions fondamentales en Anglais.",
-        "id": 8
+        "question": "L'utilisation incorrecte des homophones grammaticaux peut parfois entraîner des confusions ou des malentendus dans la communication écrite, en rendant difficile pour les lecteurs de comprendre le sens de la phrase ou de saisir l'intention de l'auteur."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel homophone grammatical est utilisé pour indiquer une question ou une interrogation ?",
+        "choices": [
+          "a",
+          "à",
+          "as",
+          "ah"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation correcte des homophones grammaticaux est essentielle pour éviter les confusions et les erreurs dans la communication écrite."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Notion 1 - Anglais",
-      "description": "Concept clé de Anglais au niveau 1ere"
+      "notion": "Fondamentaux de Français",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Notion 2 - Anglais",
-      "description": "Concept clé de Anglais au niveau 1ere"
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Notion 3 - Anglais",
-      "description": "Concept clé de Anglais au niveau 1ere"
+      "notion": "Savoir-faire français",
+      "description": "Notion du programme 6eme"
     }
   ],
   "exerciseresponses": []

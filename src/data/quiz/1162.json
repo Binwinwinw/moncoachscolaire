@@ -1,6 +1,6 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic bac Anglais - Serie 11",
+    "title": "Anglais - Conditional Structures et Reported Speech",
     "type": "quiz",
     "level": "bac",
     "subject": "Anglais",
@@ -10,7 +10,7 @@
     "updated_at": "2026-03-08 00:05:00"
   },
   "quiz": {
-    "title": "Quiz Diagnostic bac Anglais - Serie 11",
+    "title": "Anglais - Conditional Structures et Reported Speech",
     "level": "bac",
     "subject": "Anglais",
     "question_count": 8,
@@ -19,78 +19,100 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "question": "Quelle est la fonction principale des conditionnels en anglais dans un texte?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "Exprimer des faits généraux",
+          "Décrire des actions en cours",
+          "Exprimer des conditions ou des hypothèses",
+          "Décrire des actions achevées dans le passé"
         ],
         "id": 1
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau bac aborde des notions fondamentales en Anglais.",
-        "id": 2
+        "question": "Quel modal utilise-t-on pour exprimer une capacité ou une possibilité?",
+        "id": 2,
+        "choices": [
+          "Can",
+          "May",
+          "Must",
+          "Should"
+        ]
       },
       {
         "type": "texte",
-        "question": "Cite un exemple concret lié à Anglais.",
+        "question": "Quel est le temps verbal utilisé pour le discours indirect lorsqu'une personne dit 'I will go'?",
         "placeholder": "Exemple...",
-        "id": 3
+        "id": 3,
+        "choices": [
+          "Présent simple",
+          "Futur simple",
+          "Présent perfect",
+          "Would go"
+        ]
       },
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "question": "Vrai ou faux : Le conditionnel présent est utilisé pour des conditions irréalistes.",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "Vrai",
+          "Faux"
         ],
         "id": 4
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau bac aborde des notions fondamentales en Anglais.",
-        "id": 5
+        "question": "Quel est l'exemple correct de discours indirect pour la phrase 'She said, 'I am going to the store''?",
+        "id": 5,
+        "choices": [
+          "She said she was going to the store",
+          "She said she is going to the store",
+          "She said that she goes to the store",
+          "She said that she will go to the store"
+        ]
       },
       {
         "type": "texte",
-        "question": "Cite un exemple concret lié à Anglais.",
+        "question": "Écrivez une phrase utilisant le conditionnel passé pour exprimer une condition non réalisée dans le passé.",
         "placeholder": "Exemple...",
         "id": 6
       },
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "question": "Quel est le sens de la phrase 'If I had studied, I would have passed the exam'?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "L'auteur du discours a réussi l'examen",
+          "L'auteur du discours n'a pas étudié et n'a pas réussi l'examen",
+          "L'auteur du discours a étudié mais n'a pas réussi l'examen",
+          "L'auteur du discours n'a pas étudié mais a réussi l'examen"
         ],
         "id": 7
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau bac aborde des notions fondamentales en Anglais.",
-        "id": 8
+        "question": "Quel modal est utilisé pour exprimer une obligation ou une nécessité?",
+        "id": 8,
+        "choices": [
+          "Must",
+          "Should",
+          "Can",
+          "May"
+        ]
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Notion 1 - Anglais",
-      "description": "Concept clé de Anglais au niveau bac"
+      "notion": "Utilisation des conditionnels en anglais",
+      "description": "Les conditionnels en anglais sont utilisés pour exprimer des conditions, des hypothèses ou des conséquences, et ils sont classés en quatre types principaux : le conditionnel présent, le conditionnel passé, le conditionnel présent perfect et le conditionnel passé perfect."
     },
     {
-      "notion": "Notion 2 - Anglais",
-      "description": "Concept clé de Anglais au niveau bac"
+      "notion": "Les modaux en anglais pour l'expression de la certitude et de la probabilité",
+      "description": "Les modaux tels que 'can', 'could', 'may', 'might', 'shall', 'should', 'will' et 'would' sont utilisés pour exprimer des degrés de certitude, de probabilité, de possibilité, de nécessité ou d'obligation dans les phrases anglaises."
     },
     {
-      "notion": "Notion 3 - Anglais",
-      "description": "Concept clé de Anglais au niveau bac"
+      "notion": "Le discours indirect en anglais avec les temps verbaux",
+      "description": "Le discours indirect, ou reported speech, consiste à rapporter les paroles d'une personne sans les citer directement, en changeant souvent les pronoms personnels et en adaptant les temps verbaux pour maintenir la cohérence grammaticale."
     }
   ],
   "exerciseresponses": []

@@ -1,98 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 6ème Français",
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 0052",
     "type": "quiz",
     "level": "6eme",
-    "subject": "Français",
-    "description": "Diagnostic complet des acquis en français 6ème : conjugaison, orthographe, accords, homophones. 8 questions variées."
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 6eme : géometrie",
+    "status": "published",
+    "created_at": "2026-04-06 06:25:41",
+    "updated_at": "2026-04-06 06:25:41"
   },
   "quiz": {
-    "title": "Diagnostic Français 6ème",
+    "title": "géometrie",
+    "type": "quiz",
     "level": "6eme",
-    "subject": "Français",
+    "subject": "Mathématiques",
     "question_count": 8,
     "passing_score": 70,
+    "time_limit_minutes": 15,
     "questions": [
       {
-        "id": 1,
         "type": "qcm",
-        "question": "Le verbe 'aller' au présent 1ère personne pluriel ?",
+        "question": "Combien de côtés a un carré ?",
         "choices": [
-          "je vais",
-          "nous allons",
-          "ils vont",
-          "tu vas"
+          "2",
+          "3",
+          "4",
+          "5"
         ]
       },
       {
-        "id": 2,
         "type": "vrai-faux",
-        "question": "On écrit 'ces' devant un nom masculin."
+        "question": "Un triangle a 4 côtés."
       },
       {
-        "id": 3,
-        "type": "texte",
-        "question": "Complète : Le garçon ... (jouer) au foot."
-      },
-      {
-        "id": 4,
         "type": "qcm",
-        "question": "Lequel est correct ?",
+        "question": "Combien de faces a un cube ?",
         "choices": [
-          "a un stylo",
-          "a deux stylo",
-          "a trois stylos",
-          "a quatre stylo"
+          "4",
+          "6",
+          "8",
+          "10"
         ]
       },
       {
-        "id": 5,
         "type": "vrai-faux",
-        "question": "C'est / s'est / sest sont des homophones."
+        "question": "Un cercle a 1 côté."
       },
       {
-        "id": 6,
-        "type": "texte",
-        "question": "Majuscule : ... est la capitale de la France."
-      },
-      {
-        "id": 7,
         "type": "qcm",
-        "question": "Le pronom personnel sujet pour 'nous' ?",
+        "question": "Combien de sommets a un tétraèdre ?",
         "choices": [
-          "me",
-          "nous",
-          "le",
-          "lui"
+          "3",
+          "4",
+          "5",
+          "6"
         ]
       },
       {
-        "id": 8,
-        "type": "texte",
-        "question": "Trouve l'intrus : avion, maison, voiture, bateau."
+        "type": "vrai-faux",
+        "question": "Un rectangle a 4 côtés."
+      },
+      {
+        "type": "qcm",
+        "question": "Combien de côtés a un pentagone ?",
+        "choices": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un hexagone a 6 côtés."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Conjugaison présent",
-      "description": "Terminaisons -e, -es, -ons, -ez, -ent (1SG, 1PL...)"
+      "notion": "Fondamentaux de Mathématiques",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Homophones",
-      "description": "ces/ses, c'est/s'est, a/à, on/ont"
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Accords",
-      "description": "Adjectif s'accorde en genre/nombre avec nom"
-    },
-    {
-      "notion": "Majuscules",
-      "description": "Majuscule propre (Paris), minuscule article (la France)"
-    },
-    {
-      "notion": "Pronoms sujets",
-      "description": "Je, tu, il, nous, vous, ils (position avant verbe)"
+      "notion": "Savoir-faire mathématiques",
+      "description": "Notion du programme 6eme"
     }
   ],
   "exerciseresponses": []

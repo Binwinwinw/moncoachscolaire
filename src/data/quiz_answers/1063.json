@@ -1,48 +1,74 @@
 {
-  "quiz_id": 1063,
-  "title": "Équations et inéquations du second degré",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "answers": [
-    {
-      "question_id": "1063_1",
-      "correct_option": "A",
-      "explanation": "Δ = 4 − 20 = −16 < 0 : aucune solution réelle."
-    },
-    {
-      "question_id": "1063_2",
-      "correct": true,
-      "explanation": "x² = 9 ⟺ x² − 9 = 0 ⟺ (x−3)(x+3)=0 ⟺ x = ±3."
-    },
-    {
-      "question_id": "1063_3",
-      "correct_answer": "x ∈ ]−∞ ; 2[ ∪ ]5 ; +∞[",
-      "explanation": "Racines : Δ=49−40=9, x₁=2, x₂=5. a=1>0 → positif à l'extérieur des racines."
-    },
-    {
-      "question_id": "1063_4",
-      "correct_option": "A",
-      "explanation": "Relation de Viète : x₁ + x₂ = −b/a = −(−7)/3 = 7/3."
-    },
-    {
-      "question_id": "1063_5",
-      "correct": true,
-      "explanation": "Relation de Viète : x₁ · x₂ = c/a = 2/3."
-    },
-    {
-      "question_id": "1063_6",
-      "correct_answer": "Somme = −3/5 ; Produit = −1/5",
-      "explanation": "Viète : x₁+x₂ = −3/5 et x₁·x₂ = −1/5."
-    },
-    {
-      "question_id": "1063_7",
-      "correct_option": "A",
-      "explanation": "x²−4x+3=0. Δ=16−12=4. x₁=(4−2)/2=1, x₂=(4+2)/2=3."
-    },
-    {
-      "question_id": "1063_8",
-      "correct": true,
-      "explanation": "(x−2)² = 7 → x − 2 = ±√7 → x = 2 ± √7. Deux solutions réelles."
-    }
-  ]
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 1ère - SÃ©rie 1063",
+    "level": "1ère",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "Diagnostic Anglais 1ère - Série 5",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "worse",
+        "correct": 1,
+        "correction": "The comparative form of \"bad\" is \"worse\"."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "\"Your\" is a possessive pronoun used to indicate ownership."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "Il lit un livre",
+        "correction": "The correct translation of \"He is reading a book\" in French is \"Il lit un livre\"."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "tiny",
+        "correct": 0,
+        "correction": "\"Tiny\" is a synonym for \"small\"."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "\"It's\" is a contraction of \"it is\" or \"it has\", not a possessive pronoun. The possessive pronoun for \"it\" is \"its\"."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "drank",
+        "correction": "The past tense of \"drink\" is \"drank\"."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "They don't like music.",
+        "correct": 1,
+        "correction": "The correct sentence is \"They don't like music.\" because \"they\" is plural and requires \"do not\" for negation."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "\"Quietly\" is an adverb because it describes how an action is performed."
+      }
+    ]
+  }
 }

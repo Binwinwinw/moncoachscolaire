@@ -1,81 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 16",
+    "title": "Quiz Diagnostic EMC 6eme - Série 0140",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Anglais",
-    "description": "Diagnostic expression : diversité, humour, sport (B1+).",
+    "level": "6eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 6eme : EMC 6e - Le droit de vote : citoyenneté et démocratie",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-09 21:35:00"
+    "created_at": "2026-04-06 06:25:43",
+    "updated_at": "2026-04-06 06:25:43"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 16",
-    "level": "1ere",
-    "subject": "Anglais",
+    "title": "EMC 6e - Le droit de vote : citoyenneté et démocratie",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Dans 'Diversity and inclusion', un thème clé est:",
-        "choices": ["Cultural mixing in schools", "Cooking recipes", "Train timetables", "Weather apps"],
-        "id": 1
+        "question": "Pourquoi est-il important de respecter les règles de citoyenneté et de démocratie ?",
+        "choices": [
+          "Le respect des règles de citoyenneté et de démocratie garantit la promotion de la participation, le respect des autres et la construction d'une société plus juste et solidaire.",
+          "Le respect des règles de citoyenneté et de démocratie est inutile, car les individus peuvent agir comme ils le souhaitent.",
+          "Le respect des règles de citoyenneté et de démocratie est réservé aux élites politiques et économiques.",
+          "Le respect des règles de citoyenneté et de démocratie est limité aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Humour often challenges social norms in English lessons.",
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "Exemple de diversité à l'école (2 phrases).",
-        "placeholder": "Ex: Students from different countries share food...",
-        "id": 3
+        "question": "Le respect des règles de citoyenneté et de démocratie est un concept qui promeut la non-intervention dans les affaires des individus."
       },
       {
         "type": "qcm",
-        "question": "'Sports and society' explore:",
-        "choices": ["Team spirit and discrimination", "Bedtime routines", "Shopping malls", "Phone chargers"],
-        "id": 4
+        "question": "Quel est le rôle du droit de vote dans la citoyenneté et la démocratie ?",
+        "choices": [
+          "Le droit de vote est un élément essentiel de la citoyenneté et de la démocratie, car il permet aux citoyens de participer aux décisions qui affectent leur communauté et leur pays.",
+          "Le droit de vote est inutile dans la citoyenneté et la démocratie, car les individus peuvent agir comme ils le souhaitent.",
+          "Le droit de vote est réservé aux élites politiques et économiques.",
+          "Le droit de vote est limité aux élections nationales uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "L'humour britannique satirise les inégalités.",
-        "id": 5
-      },
-      {
-        "type": "texte",
-        "question": "Comment le sport unit/divise la société (ex: Olympics)?",
-        "placeholder": "Ex: Olympics promote peace but doping scandals...",
-        "id": 6
+        "question": "Le respect des règles de citoyenneté et de démocratie est un concept qui promeut la non-intervention dans les affaires des individus."
       },
       {
         "type": "qcm",
-        "question": "Inclusion means:",
-        "choices": ["Accepting differences", "Ignoring rules", "Eating alone", "Watching TV"],
-        "id": 7
+        "question": "Quel est le rôle des citoyens dans la citoyenneté et la démocratie ?",
+        "choices": [
+          "Les citoyens jouent un rôle crucial en respectant les règles de citoyenneté et de démocratie, en participant aux décisions qui affectent leur communauté et leur pays, et en contribuant à la construction d'une société plus juste et solidaire.",
+          "Les citoyens sont inutiles dans la citoyenneté et la démocratie, car les individus peuvent agir comme ils le souhaitent.",
+          "Les citoyens sont réservés aux élites politiques et économiques.",
+          "Les citoyens sont limités aux élections nationales uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Sports figures are modern heroes despite controversies.",
-        "id": 8
+        "question": "Le respect des règles de citoyenneté et de démocratie est un concept qui promeut la non-intervention dans les affaires des individus."
+      },
+      {
+        "type": "qcm",
+        "question": "Pourquoi est-il important de respecter les règles de citoyenneté et de démocratie ?",
+        "choices": [
+          "Le respect des règles de citoyenneté et de démocratie garantit la promotion de la participation, le respect des autres et la construction d'une société plus juste et solidaire.",
+          "Le respect des règles de citoyenneté et de démocratie est inutile, car les individus peuvent agir comme ils le souhaitent.",
+          "Le respect des règles de citoyenneté et de démocratie est réservé aux élites politiques et économiques.",
+          "Le respect des règles de citoyenneté et de démocratie est limité aux écoles uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect des règles de citoyenneté et de démocratie est un concept qui promeut la non-intervention dans les affaires des individus."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Diversity and inclusion",
-      "description": "Diversité culturelle/inclusion sociale (écoles, workplaces)."
+      "notion": "Fondamentaux de EMC",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Humour and social norms",
-      "description": "Humour comme outil critique (satire, stand-up)."
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Sports and society",
-      "description": "Sport : unité, discrimination, héros modernes."
+      "notion": "Savoir-faire emc",
+      "description": "Notion du programme 6eme"
     }
   ],
   "exerciseresponses": []

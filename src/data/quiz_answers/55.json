@@ -1,71 +1,70 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 6eme SVT",
-    "type": "quiz",
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 0055",
     "level": "6eme",
-    "subject": "SVT",
-    "description": "Diagnostic etats matiere, êtres vivants, environnement proche 6eme"
+    "subject": "Mathématiques"
   },
   "quiz": {
-    "title": "Diagnostic SVT 6eme",
+    "title": "Comparaison et ordre des entiers",
+    "question_count": 8,
     "level": "6eme",
-    "subject": "SVT",
+    "subject": "Mathématiques",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
-        "type": "vrai-faux",
-        "answer": false,
-        "correction": "FAUX. Solide (glace), liquide (eau), gazeux (vapeur)"
+        "type": "qcm",
+        "answer": "2",
+        "correction": "2 est le plus grand nombre entier parmi les options données."
       },
       {
         "index": 1,
         "question_id": 2,
-        "type": "qcm",
-        "answer": "Thermomètre (°C)",
-        "correction": "Thermomètre en degrés Celsius"
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "-3 est plus petit que 0."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "answer": "0",
-        "correction": "Point de congélation = 0°C"
+        "type": "qcm",
+        "answer": "-2",
+        "correction": "-2 est le plus petit nombre entier parmi les options données."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "answer": "Nutrition/reproduction",
-        "correction": "Vivants = se nourrissent, se reproduisent, respirent"
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "5 est plus grand que 3."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "answer": false,
-        "correction": "FAUX. Plantes = immobiles"
+        "type": "qcm",
+        "answer": "3",
+        "correction": "3 est le nombre entier qui se trouve entre 2 et 4."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "answer": "Flore",
-        "correction": "Flore = végétaux, Faune = animaux"
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "-1 est plus grand que -2."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "Champ",
-        "correction": "Champ = moins d'arbres → plus de lumière"
+        "answer": "-2",
+        "correction": "-2 est le nombre entier qui se trouve entre -3 et -1."
       },
       {
         "index": 7,
         "question_id": 8,
-        "type": "texte",
-        "answer": "La respiration",
-        "correction": "O₂ pour respiration animale/humaine"
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "0 est plus petit que 1."
       }
     ]
   }

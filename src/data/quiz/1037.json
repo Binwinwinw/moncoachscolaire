@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Convergence et limites de suites",
     "status": "published",
-    "created_at": "2026-03-13 11:24:24",
-    "updated_at": "2026-03-13 11:24:24"
+    "created_at": "2026-04-06 06:40:48",
+    "updated_at": "2026-04-06 06:40:48"
   },
   "quiz": {
     "title": "Convergence et limites de suites",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Convergence de suites",
+      "description": "La convergence d'une suite signifie que les termes de la suite s'approchent de plus en plus d'une valeur limite L à mesure que l'indice de la suite augmente"
+    },
+    {
+      "notion": "Limites de suites",
+      "description": "La limite d'une suite est la valeur L vers laquelle la suite converge, c'est-à-dire que pour tout epsilon > 0, il existe un entier N tel que pour tout n > N, |uₙ - L| < epsilon"
+    },
+    {
+      "notion": "Définition formelle de la convergence",
+      "description": "La convergence d'une suite peut être définie formellement en utilisant la notion de limite, c'est-à-dire que la suite (uₙ) converge vers L si et seulement si pour tout epsilon > 0, il existe un entier"
+    }
+  ],
   "exerciseresponses": []
 }

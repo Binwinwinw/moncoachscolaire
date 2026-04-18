@@ -1,48 +1,74 @@
 {
-  "quiz_id": 1064,
-  "title": "Applications du second degré",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "answers": [
-    {
-      "question_id": "1064_1",
-      "correct_option": "C",
-      "explanation": "Sommet : t = −20/(2×(−5)) = 2 s. h(2) = −5×4 + 40 = −20 + 40 = 20 m."
-    },
-    {
-      "question_id": "1064_2",
-      "correct": true,
-      "explanation": "Avec P = 2(l + L) fixé, l'aire l × L est maximale quand l = L (carré). Problème d'optimisation du second degré."
-    },
-    {
-      "question_id": "1064_3",
-      "correct_answer": "l = 10 m (carré). Aire maximale = 100 m².",
-      "explanation": "2l + 2L = 40 → L = 20 − l. A = l(20−l) = −l² + 20l. Sommet : l = 10, A = 100."
-    },
-    {
-      "question_id": "1064_4",
-      "correct_option": "A",
-      "explanation": "Sommet : x = −80/(2×(−2)) = 80/4 = 20. Bénéfice max en x = 20."
-    },
-    {
-      "question_id": "1064_5",
-      "correct": true,
-      "explanation": "h(t) = 0 correspond aux moments où le projectile est au sol : départ (t=0) et arrivée."
-    },
-    {
-      "question_id": "1064_6",
-      "correct_answer": "c = 3",
-      "explanation": "c² + 4c = 21 → c² + 4c − 21 = 0. Δ = 16+84 = 100. c = (−4+10)/2 = 3 (solution positive)."
-    },
-    {
-      "question_id": "1064_7",
-      "correct_option": "A",
-      "explanation": "l+L=14 et l²+L²=100. (l+L)²=196, l²+2lL+L²=196, 2lL=96, lL=48. l et L racines de x²−14x+48=0 → 6 et 8."
-    },
-    {
-      "question_id": "1064_8",
-      "correct": true,
-      "explanation": "Sommet de la parabole : α = −b/(2(−a)) = b/(2a). C'est le point de bénéfice maximum."
-    }
-  ]
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 1ère - SÃ©rie 1064",
+    "level": "1ère",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "Diagnostic Anglais 1ère - Série 6",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "best",
+        "correct": 1,
+        "correction": "The superlative form of \"good\" is \"best\"."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "\"Their\" is a possessive pronoun used to indicate ownership."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "Elle cuisine le dîner",
+        "correction": "The correct translation of \"She is cooking dinner\" in French is \"Elle cuisine le dîner\"."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "new",
+        "correct": 1,
+        "correction": "\"New\" is an antonym of \"old\"."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "\"It's\" can be a contraction of \"it is\" or \"it has\", but it cannot be a possessive pronoun. The possessive pronoun for \"it\" is \"its\"."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "broken",
+        "correction": "The past participle of \"break\" is \"broken\". It is used in perfect tenses and passive voice."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "He doesn't like sports.",
+        "correct": 1,
+        "correction": "The correct sentence is \"He doesn't like sports.\" because \"he\" is third person singular and requires \"does not\" for negation."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "\"Happily\" is an adverb because it describes how an action is performed."
+      }
+    ]
+  }
 }

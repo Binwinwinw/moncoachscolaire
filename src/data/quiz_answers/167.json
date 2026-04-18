@@ -1,63 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 43",
-    "level": "1ere",
-    "subject": "Anglais"
+    "title": "Quiz Diagnostic Français 6eme - Série 0167",
+    "level": "6eme",
+    "subject": "Français"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 43",
+    "title": "Français 6e - Les adjectifs qualificatifs",
     "question_count": 8,
+    "level": "6eme",
+    "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correction": "La bonne réponse est celle qui correspond au concept étudié dans ton manuel scolaire. Pour mieux comprendre, relis le chapitre associé et essaie de refaire des exercices similaires. N'hésite pas à demander de l'aide à ton enseignant si certains points restent flous."
+        "answer": "Décrire un nom",
+        "correction": "Le rôle principal d'un adjectif qualificatif dans une phrase est de décrire un nom, en fournissant des informations supplémentaires sur les caractéristiques, les qualités ou les propriétés du nom qu'il accompagne."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "correction": "Vrai ou Faux dépend de la définition précise du concept. Si tu t'es trompé, c'est normal : revois la leçon pour bien mémoriser les cas particuliers et les exceptions. Avec de la pratique, tu distingueras facilement les situations vraies ou fausses."
+        "answer": "vrai",
+        "correction": "C'est vrai. Un adjectif qualificatif peut être placé avant ou après le nom qu'il décrit, en fonction de la structure de la phrase et du style d'écriture, ce qui permet une certaine flexibilité dans l'expression et la mise en valeur des caractéristiques du nom."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correction": "Ta réponse textuelle doit correspondre à ce qui est attendu dans le cours. Compare-la avec la correction fournie et identifie les différences. L'important est de comprendre la logique derrière la réponse pour progresser dans cette matière."
+        "type": "qcm",
+        "answer": "Grand",
+        "correction": "L'adjectif qualificatif 'Grand' est utilisé pour décrire quelque chose de très grand, en indiquant une taille ou une dimension importante par rapport à d'autres objets ou à une norme."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correction": "La bonne réponse est celle qui correspond au concept étudié dans ton manuel scolaire. Pour mieux comprendre, relis le chapitre associé et essaie de refaire des exercices similaires. N'hésite pas à demander de l'aide à ton enseignant si certains points restent flous."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. L'utilisation d'adjectifs qualificatifs peut contribuer à rendre un texte plus vivant et expressif en ajoutant des détails et des nuances à la description des personnes, des lieux, des objets ou des idées dans une phrase, ce qui peut renforcer l'impact émotionnel et visuel du texte sur les lecteurs."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "correction": "Vrai ou Faux dépend de la définition précise du concept. Si tu t'es trompé, c'est normal : revois la leçon pour bien mémoriser les cas particuliers et les exceptions. Avec de la pratique, tu distingueras facilement les situations vraies ou fausses."
+        "type": "qcm",
+        "answer": "Minuscule",
+        "correction": "L'adjectif qualificatif 'Minuscule' est utilisé pour décrire quelque chose de très petit, en indiquant une taille ou une dimension très réduite par rapport à d'autres objets ou à une norme."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "correction": "Ta réponse textuelle doit correspondre à ce qui est attendu dans le cours. Compare-la avec la correction fournie et identifie les différences. L'important est de comprendre la logique derrière la réponse pour progresser dans cette matière."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. L'utilisation excessive d'adjectifs qualificatifs peut parfois rendre un texte lourd et difficile à lire, en créant une surcharge d'informations ou en perturbant le rythme de la lecture, ce qui peut distraire le lecteur et nuire à la clarté du message."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "correction": "La bonne réponse est celle qui correspond au concept étudié dans ton manuel scolaire. Pour mieux comprendre, relis le chapitre associé et essaie de refaire des exercices similaires. N'hésite pas à demander de l'aide à ton enseignant si certains points restent flous."
+        "answer": "Moyen",
+        "correction": "L'adjectif qualificatif 'Moyen' est utilisé pour décrire quelque chose de moyen ou de taille intermédiaire, en indiquant une taille ou une dimension qui se situe entre les extrêmes de petit et grand."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "correction": "Vrai ou Faux dépend de la définition précise du concept. Si tu t'es trompé, c'est normal : revois la leçon pour bien mémoriser les cas particuliers et les exceptions. Avec de la pratique, tu distingueras facilement les situations vraies ou fausses."
+        "answer": "vrai",
+        "correction": "C'est vrai. L'utilisation correcte des adjectifs qualificatifs peut contribuer à améliorer la qualité et l'efficacité de la communication écrite en fournissant des descriptions précises et évocatrices qui aident les lecteurs à visualiser et à comprendre les éléments décrits dans une phrase, ce qui rend le texte plus engageant et plus facile à comprendre."
       }
-    ],
-    "level": "1ere",
-    "subject": "Anglais"
+    ]
   }
 }

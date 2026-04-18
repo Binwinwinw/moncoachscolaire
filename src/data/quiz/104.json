@@ -1,97 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ère Physique-Chimie - Dynamique",
+    "title": "Quiz Diagnostic EMC 6eme - Série 0104",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Physique-Chimie",
-    "description": "Diagnostic Dynamique, forces, mouvement - Programme 1ère",
+    "level": "6eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 6eme : EMC 6e - Les institutions françaises",
     "status": "published",
-    "created_at": "2026-03-08 17:49:00",
-    "updated_at": "2026-03-08 17:49:00"
+    "created_at": "2026-04-06 06:25:43",
+    "updated_at": "2026-04-06 06:25:43"
   },
   "quiz": {
-    "title": "Diagnostic 1ère - Dynamique & Forces",
-    "level": "1ere",
-    "subject": "Physique-Chimie",
+    "title": "EMC 6e - Les institutions françaises",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "La 2nde loi de Newton F = m × a signifie :",
+        "question": "Quelles sont les principales institutions de la République française ?",
         "choices": [
-          "Force proportionnelle masse",
-          "Force = masse × accélération",
-          "vitesse constante",
-          "Énergie cinétique"
-        ],
-        "id": 1
+          "Le Président de la République, le Parlement, le Gouvernement, le Conseil constitutionnel",
+          "Le Président de la République, le Parlement, le Gouvernement, la Cour de justice de l'Union européenne",
+          "Le Président de la République, le Parlement, le Gouvernement, la Cour des comptes",
+          "Le Président de la République, le Parlement, le Gouvernement, la Cour de cassation"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Un objet au repos a une accélération nulle.",
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "Un objet de 2 kg subit F = 10 N. Calculez a = ... m/s²",
-        "placeholder": "5",
-        "id": 3
+        "question": "Le Président de la République française est élu au suffrage universel direct pour un mandat de cinq ans."
       },
       {
         "type": "qcm",
-        "question": "La force gravitationnelle près Terre g ≈ :",
+        "question": "Quel est le rôle du Parlement français ?",
         "choices": [
-          "9,81 N/kg",
-          "3,14 m/s",
-          "1 atm",
-          "300 000 km/s"
-        ],
-        "id": 4
+          "Le Parlement français élabore les lois, contrôle le Gouvernement et représente les citoyens français.",
+          "Le Parlement français gère les finances publiques de la France.",
+          "Le Parlement français est chargé de la défense nationale de la France.",
+          "Le Parlement français élabore les politiques étrangères de la France."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "La résultante des forces détermine l'accélération.",
-        "id": 5
-      },
-      {
-        "type": "texte",
-        "question": "Poids P = m × g (m=5 kg). P = ... N",
-        "placeholder": "49",
-        "id": 6
+        "question": "Le Gouvernement français est dirigé par le Premier ministre, qui est nommé par le Président de la République."
       },
       {
         "type": "qcm",
-        "question": "Principe d'inertie (1ère loi Newton) :",
+        "question": "Quel est le rôle du Conseil constitutionnel français ?",
         "choices": [
-          "vitesse constante sans force",
-          "accélération infinie",
-          "force nulle",
-          "mouvement circulaire"
-        ],
-        "id": 7
+          "Le Conseil constitutionnel veille à la conformité des lois à la Constitution et protège les droits fondamentaux des citoyens français.",
+          "Le Conseil constitutionnel gère les finances publiques de la France.",
+          "Le Conseil constitutionnel est chargé de la défense nationale de la France.",
+          "Le Conseil constitutionnel élabore les politiques étrangères de la France."
+        ]
       },
       {
-        "type": "texte",
-        "question": "F = 20 N, m = 4 kg. a = ... m/s²",
-        "placeholder": "5",
-        "id": 8
+        "type": "vrai-faux",
+        "question": "Le Parlement français est composé de deux chambres : l'Assemblée nationale et le Sénat."
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que la liberté d'expression ?",
+        "choices": [
+          "La liberté d'expression permet à chacun de s'exprimer librement, sans censure ni restriction.",
+          "La liberté d'expression permet au gouvernement de contrôler les médias.",
+          "La liberté d'expression interdit toute critique envers les autorités.",
+          "La liberté d'expression est limitée aux discours publics uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le Conseil constitutionnel français est chargé de l'élaboration des politiques étrangères de la France."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "2nde loi Newton",
-      "description": "F = m × a (1ère PC Chap Dynamique)"
+      "notion": "Constitution",
+      "description": "La Constitution est la loi fondamentale de la République française, elle définit les principes et les règles qui régissent le fonctionnement des institutions"
     },
     {
-      "notion": "Principe d'inertie",
-      "description": "v constante sans résultante (Galilée-Newton)"
+      "notion": "Séparation des pouvoirs",
+      "description": "La séparation des pouvoirs est un principe fondamental de la République française, elle consiste à diviser le pouvoir en trois branches : l'exécutif, le législatif et le judiciaire"
     },
     {
-      "notion": "Poids et forces",
-      "description": "P = m × g ≈ 9,81 N/kg (1ère PC)"
+      "notion": "Institutions représentatives",
+      "description": "Les institutions représentatives, telles que l'Assemblée nationale et le Sénat, sont chargées de représenter les citoyens et de prendre des décisions pour le pays"
     }
   ],
   "exerciseresponses": []

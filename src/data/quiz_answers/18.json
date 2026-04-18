@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6eme - Série 0018",
+    "level": "6eme",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "histoire : événements, personnages, périodes historiques",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "George Washington",
+        "correction": "George Washington was the first President of the United States, serving from 1789 to 1797."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The Great Wall of China was indeed built to protect against invasions from nomadic tribes and military incursions."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "Cleopatra, Napoleon Bonaparte, and Mahatma Gandhi are all famous historical figures known for their significant impact on history."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The Renaissance was indeed a period of cultural and artistic rebirth in Europe, spanning roughly from the 14th to the 17th century."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "The American Revolution, the French Revolution, and World War I are all major historical events that had significant impacts on the course of history."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The Cold War was indeed a period of political tension between the United States and the Soviet Union, lasting from the end of World War II until the early 1990s."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "The Eiffel Tower, The Great Pyramid of Giza, and The Statue of Liberty are all famous historical landmarks known for their architectural significance and cultural importance."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The Industrial Revolution was indeed a period of significant technological and economic change that began in the late 18th century and transformed societies around the world."
+      }
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic bac Anglais - Serie 06",
+    "title": "Anglais - Utilisation des structures conditionnelles et du discours rapporté",
     "type": "quiz",
     "level": "bac",
     "subject": "Anglais",
@@ -10,7 +10,7 @@
     "updated_at": "2026-03-08 00:05:00"
   },
   "quiz": {
-    "title": "Quiz Diagnostic bac Anglais - Serie 06",
+    "title": "Anglais - Utilisation des structures conditionnelles et du discours rapporté",
     "level": "bac",
     "subject": "Anglais",
     "question_count": 8,
@@ -19,78 +19,100 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "question": "Quelle est la fonction principale des structures conditionnelles dans une phrase en anglais ?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "Décrire une action qui se déroule dans le présent",
+          "Exprimer une condition et sa conséquence",
+          "Décrire un événement qui s'est produit dans le passé",
+          "Demander quelque chose à quelqu'un"
         ],
         "id": 1
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau bac aborde des notions fondamentales en Anglais.",
-        "id": 2
+        "question": "Quel est le verbe auxiliaire utilisé pour former le conditionnel présent en anglais ?",
+        "id": 2,
+        "choices": [
+          "Will",
+          "Would",
+          "Can",
+          "May"
+        ]
       },
       {
         "type": "texte",
-        "question": "Cite un exemple concret lié à Anglais.",
+        "question": " Comment rapporter la phrase 'Je vais au cinéma ce soir' en utilisant le discours rapporté ?",
         "placeholder": "Exemple...",
-        "id": 3
+        "id": 3,
+        "choices": [
+          "Il a dit qu'il allait au cinéma ce soir",
+          "Il a dit qu'il irait au cinéma ce soir",
+          "Il a dit qu'il était allé au cinéma ce soir",
+          "Il a dit qu'il va au cinéma ce soir"
+        ]
       },
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "question": "Quel est le modale qui exprime la possibilité en anglais ?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "Can",
+          "Could",
+          "May",
+          "Might"
         ],
         "id": 4
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau bac aborde des notions fondamentales en Anglais.",
-        "id": 5
+        "question": "Quelle est la différence entre 'can' et 'could' en termes de possibilité ?",
+        "id": 5,
+        "choices": [
+          "'Can' exprime une possibilité générale, tandis que 'could' exprime une possibilité passée",
+          "'Can' exprime une possibilité passée, tandis que 'could' exprime une possibilité générale",
+          "'Can' exprime une obligation, tandis que 'could' exprime une permission",
+          "'Can' exprime une permission, tandis que 'could' exprime une obligation"
+        ]
       },
       {
         "type": "texte",
-        "question": "Cite un exemple concret lié à Anglais.",
+        "question": "Quel est le temps verbal utilisé pour décrire une action qui s'est produite à un moment précis dans le passé en anglais ?",
         "placeholder": "Exemple...",
-        "id": 6
+        "id": 6,
+        "choices": [
+          "Présent simple",
+          "Présent continu",
+          "Passé simple",
+          "Passé antérieur"
+        ]
       },
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "question": "Vrai ou faux : Le conditionnel présent est utilisé pour décrire une action qui se déroule dans le présent.",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "Vrai",
+          "Faux"
         ],
         "id": 7
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau bac aborde des notions fondamentales en Anglais.",
+        "question": "Écrivez une phrase qui utilise le discours rapporté pour rapporter la phrase 'Je vais à l'école demain'.",
         "id": 8
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Notion 1 - Anglais",
-      "description": "Concept clé de Anglais au niveau bac"
+      "notion": "Les structures conditionnelles complexes",
+      "description": "Les structures conditionnelles complexes en anglais permettent d'exprimer des conditions et leurs conséquences de manière nuancée, en utilisant des verbes auxiliaires comme 'would', 'could' et 'might' pour décrire des situations hypothétiques ou réelles."
     },
     {
-      "notion": "Notion 2 - Anglais",
-      "description": "Concept clé de Anglais au niveau bac"
+      "notion": "Le discours rapporté et ses applications",
+      "description": "Le discours rapporté est une technique qui consiste à rapporter les paroles ou les pensées d'une personne, en utilisant des verbes de dicussion tels que 'say', 'tell' et 'ask', et en modifiant les pronoms personnels et les temps verbaux pour adapter le discours à la situation."
     },
     {
-      "notion": "Notion 3 - Anglais",
-      "description": "Concept clé de Anglais au niveau bac"
+      "notion": "Les modaux et leurs utilisations en contexte",
+      "description": "Les modaux tels que 'can', 'could', 'may', 'might', 'shall' et 'should' sont utilisés pour exprimer des notions de possibilité, de nécessité, de permission et d'obligation, et sont essentiels pour communiquer de manière précise et nuancée en anglais."
     }
   ],
   "exerciseresponses": []

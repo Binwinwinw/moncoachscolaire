@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6eme - Série 0017",
+    "level": "6eme",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "technologie : outils numériques, médias, réseaux sociaux",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "Facebook, Twitter, and Instagram are all popular social media platforms."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Strong passwords are important for keeping your online accounts secure from unauthorized access."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "Email, text messaging, and video conferencing are all digital tools that facilitate communication."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Cyberbullying involves using digital platforms to harass, threaten, or humiliate others."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "Technology provides access to information, improves communication, and offers various forms of entertainment."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Excessive screen time can lead to issues such as eye strain, sleep disturbances, and reduced physical activity."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "Digital citizenship involves respecting others online, protecting personal information, and using technology responsibly."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The internet indeed provides a vast array of information and entertainment, but it is important to use it responsibly to avoid potential risks and negative consequences."
+      }
+    ]
+  }
+}

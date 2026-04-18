@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Loi binomiale",
     "status": "published",
-    "created_at": "2026-03-13 11:24:24",
-    "updated_at": "2026-03-13 11:24:24"
+    "created_at": "2026-04-06 06:40:48",
+    "updated_at": "2026-04-06 06:40:48"
   },
   "quiz": {
     "title": "Loi binomiale",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Compréhension du concept de loi binomiale",
+      "description": "La première étape la plus rigoureuse dans le chapitre 'Loi binomiale' est de comprendre le concept de base de la loi binomiale, qui décrit la probabilité de succès dans une série d'essais indépendants"
+    },
+    {
+      "notion": "Définition des paramètres de la loi binomiale",
+      "description": "La définition des paramètres tels que le nombre d'essais (n), la probabilité de succès (p) et la probabilité d'échec (q) est essentielle pour appliquer la loi binomiale de manière rigoureuse"
+    },
+    {
+      "notion": "Application de la formule de la loi binomiale",
+      "description": "L'application de la formule de la loi binomiale, qui est P(X = k) = (nCk) * (p^k) * (q^(n-k)), nécessite une compréhension approfondie des concepts mathématiques sous-jacents et une attention particul"
+    }
+  ],
   "exerciseresponses": []
 }

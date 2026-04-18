@@ -1,0 +1,42 @@
+{
+  "stats": {
+    "scripts_executed": 48,
+    "scripts_failed": 10,
+    "quizzes_copied": 579,
+    "ids_unique": 579,
+    "start_time": "2026-04-06T02:40:38.883807",
+    "end_time": "2026-04-06T02:40:49.286990"
+  },
+  "errors": {
+    "generate_0quiz_bank.py": [
+      "Traceback (most recent call last):\n  File \"D:\\Hostinger\\public_html\\moncoachscolaire\\dev/tools/quiz/generator\\generate_0quiz_bank.py\", line 567, in <module>\n    raise SystemExit(main())\n              "
+    ],
+    "generate_0quiz_packs.py": [
+      "usage: generate_0quiz_packs.py [-h] --start-id START_ID --end-id END_ID\n                               [--input-quiz-dir INPUT_QUIZ_DIR]\n                               [--input-answers-dir INPUT_ANSWE"
+    ],
+    "generate_1ere_espagnol.py": [
+      "  File \"D:\\Hostinger\\public_html\\moncoachscolaire\\dev/tools/quiz/generator\\generate_1ere_espagnol.py\", line 191\n    (0001, \"Les pays hispanophones\", \"Espagnol\", \"1�re\", [\n     ^^^\nSyntaxError: leading"
+    ],
+    "generate_1ere_francais.py": [
+      "Traceback (most recent call last):\n  File \"D:\\Hostinger\\public_html\\moncoachscolaire\\dev/tools/quiz/generator\\generate_1ere_francais.py\", line 1356, in <module>\n    write_quiz_files()\n    ~~~~~~~~~~~~"
+    ],
+    "generate_1ere_hg.py": [
+      "Traceback (most recent call last):\n  File \"D:\\Hostinger\\public_html\\moncoachscolaire\\dev/tools/quiz/generator\\generate_1ere_hg.py\", line 1150, in <module>\n    write_quiz_files()\n    ~~~~~~~~~~~~~~~~^^"
+    ],
+    "generate_1ere_mathematiques.py": [
+      "  File \"D:\\Hostinger\\public_html\\moncoachscolaire\\dev/tools/quiz/generator\\generate_1ere_mathematiques.py\", line 108\n    (1060, \"Title\", \"Subject\", \"Level\", [\n                                        ^"
+    ],
+    "generate_1ere_philo.py": [
+      "Traceback (most recent call last):\n  File \"D:\\Hostinger\\public_html\\moncoachscolaire\\dev/tools/quiz/generator\\generate_1ere_philo.py\", line 705, in <module>\n    write_quiz_files()\n    ~~~~~~~~~~~~~~~~"
+    ],
+    "generate_1ere_phychi.py": [
+      "Traceback (most recent call last):\n  File \"D:\\Hostinger\\public_html\\moncoachscolaire\\dev/tools/quiz/generator\\generate_1ere_phychi.py\", line 691, in <module>\n    write_quiz_files()\n    ~~~~~~~~~~~~~~~"
+    ],
+    "generate_1ere_svt.py": [
+      "Traceback (most recent call last):\n  File \"D:\\Hostinger\\public_html\\moncoachscolaire\\dev/tools/quiz/generator\\generate_1ere_svt.py\", line 2568, in <module>\n    write_quiz_files()\n    ~~~~~~~~~~~~~~~~^"
+    ],
+    "generate_2nde_francais.py": [
+      "Traceback (most recent call last):\n  File \"D:\\Hostinger\\public_html\\moncoachscolaire\\dev/tools/quiz/generator\\generate_2nde_francais.py\", line 1040, in <module>\n    write_quiz_files()\n    ~~~~~~~~~~~~"
+    ]
+  }
+}

@@ -1,92 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français Seconde - Série 7",
+    "title": "Quiz Diagnostic Anglais 6eme - Série 0007",
     "type": "quiz",
-    "level": "2nde",
-    "subject": "Français",
-    "description": "Évaluation diagnostique en français 2nde : mouvements littéraires (romantisme, réalisme), genres littéraires (poésie, épique), analyse de texte",
+    "level": "6eme",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6eme : technologie : outils numériques, médias, réseaux sociaux",
     "status": "published",
-    "created_at": "2026-03-07 23:55:00",
-    "updated_at": "2026-03-07 23:55:00"
+    "created_at": "2026-04-06 06:24:36",
+    "updated_at": "2026-04-06 06:24:36"
   },
   "quiz": {
-    "title": "Diagnostic Français Seconde",
-    "level": "2nde",
-    "subject": "Français",
+    "title": "technologie : outils numériques, médias, réseaux sociaux",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Anglais",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel mouvement littéraire privilégie l'imagination, l'émotion et l'intensité dramatique ?",
+        "question": "Which of the following is a social media platform?",
         "choices": [
-          "Réalisme",
-          "Naturalisme",
-          "Romantisme",
-          "Classicisme"
+          "Facebook",
+          "Twitter",
+          "Instagram",
+          "All of the above"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "La poésie épique raconte des exploits héroïques et des aventures. Vrai ou faux ?"
-      },
-      {
-        "type": "texte",
-        "question": "Donne un exemple de figure de style : la comparaison avec 'comme'. Écris une phrase simple.",
-        "placeholder": "Ex: Pierre est courageux comme un lion"
+        "question": "Using strong passwords can help protect your online accounts."
       },
       {
         "type": "qcm",
-        "question": "En littérature, le 'focalisateur' est :",
+        "question": "Which of the following is a digital tool used for communication?",
         "choices": [
-          "L'auteur du texte",
-          "Le personnage par les yeux duquel on voit l'histoire",
-          "Le traducteur",
-          "Le critique littéraire"
-        ]
-      },
-      {
-        "type": "texte",
-        "question": "Cite un roman réaliste du XIXème siècle et son auteur.",
-        "placeholder": "Exemple attendu : Madame Bovary de Gustave Flaubert"
-      },
-      {
-        "type": "qcm",
-        "question": "Dans le vers 'Demain, dès l'aube...', le registre dominant est :",
-        "choices": [
-          "Comique",
-          "Lyrique",
-          "Polémique",
-          "Épique"
+          "Email",
+          "Text messaging",
+          "Video conferencing",
+          "All of the above"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Le réalisme cherche surtout à idéaliser le monde et les personnages."
+        "question": "'Cyberbullying is a form of bullying that occurs online' is a true statement."
       },
       {
-        "type": "texte",
-        "question": "Explique en une ou deux phrases la différence entre auteur et narrateur."
+        "type": "qcm",
+        "question": "Which of the following is a benefit of using technology?",
+        "choices": [
+          "Access to information",
+          "Improved communication",
+          "Entertainment",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'Spending too much time on screens can have negative effects on health' is a true statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a responsible online behavior?",
+        "choices": [
+          "Sharing personal information",
+          "Respecting others' privacy",
+          "Engaging in cyberbullying",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The internet can be a valuable resource for learning and entertainment' is a true statement."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Mouvements littéraires",
-      "description": "Concept clé de Français au niveau 2nde"
+      "notion": "Fondamentaux de Anglais",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Genres littéraires",
-      "description": "Concept clé de Français au niveau 2nde"
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Figures de style avancées",
-      "description": "Concept clé de Français au niveau 2nde"
-    },
-    {
-      "notion": "Analyse textuelle",
-      "description": "Concept clé de Français au niveau 2nde"
+      "notion": "Savoir-faire anglais",
+      "description": "Notion du programme 6eme"
     }
   ],
   "exerciseresponses": []

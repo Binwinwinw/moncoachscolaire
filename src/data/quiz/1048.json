@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Module et argument",
     "status": "published",
-    "created_at": "2026-03-13 11:24:24",
-    "updated_at": "2026-03-13 11:24:24"
+    "created_at": "2026-04-06 06:40:48",
+    "updated_at": "2026-04-06 06:40:48"
   },
   "quiz": {
     "title": "Module et argument",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Intégration et primitives",
+      "description": "Notion fondamentale de Mathématiques"
+    },
+    {
+      "notion": "Logarithme naturel",
+      "description": "Notion fondamentale de Mathématiques"
+    },
+    {
+      "notion": "Espaces vectoriels",
+      "description": "Notion fondamentale de Mathématiques"
+    }
+  ],
   "exerciseresponses": []
 }

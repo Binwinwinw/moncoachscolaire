@@ -52,7 +52,7 @@
       },
       {
         "type": "open",
-        "question": "Le _____ fantastique crée l'hésitation entre explication rationnelle et surnaturelle, selon Todorov."
+        "question": "Parmi les propositions suivantes concernant Todorov, laquelle est correcte ?"
       },
       {
         "type": "qcm",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Baccalauréat français",
+      "description": "Notion fondamentale de Français"
+    },
+    {
+      "notion": "Poésie baroque et classique",
+      "description": "Notion fondamentale de Français"
+    },
+    {
+      "notion": "Théâtre et représentation",
+      "description": "Notion fondamentale de Français"
+    }
+  ],
   "exerciseresponses": []
 }

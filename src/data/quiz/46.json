@@ -1,84 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 5eme Anglais",
+    "title": "Quiz Diagnostic Anglais 6ème - Série 0046",
     "type": "quiz",
-    "level": "5eme",
+    "level": "6ème",
     "subject": "Anglais",
-    "description": "Diagnostic past simple, present continuous, comparative 5eme"
+    "description": "Diagnostic Anglais 6ème : Vocabulaire de base : phrases courantes pour parler de l'extérieur",
+    "status": "published",
+    "created_at": "2026-04-06 06:24:36",
+    "updated_at": "2026-04-06 06:24:36"
   },
   "quiz": {
-    "title": "Diagnostic Anglais 5eme",
-    "level": "5eme",
+    "title": "Vocabulaire de base : phrases courantes pour parler de l'extérieur",
+    "type": "quiz",
+    "level": "6ème",
     "subject": "Anglais",
     "question_count": 8,
-    "passing_score": 75,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
     "questions": [
       {
-        "id": 1,
-        "type": "texte",
-        "question": "Yesterday I ... (play) football."
-      },
-      {
-        "id": 2,
         "type": "qcm",
-        "question": "What are you doing ? (now)",
+        "question": "Which of the following is a common English expression used to describe the weather outside?",
         "choices": [
-          "I play",
-          "I am playing",
-          "I played"
+          "It's sunny",
+          "It's raining",
+          "It's windy",
+          "All of the above"
         ]
       },
       {
-        "id": 3,
         "type": "vrai-faux",
-        "question": "My house is bigger than yours."
+        "question": "'The English expression for 'Il fait beau' is 'It's sunny'' is a true statement."
       },
       {
-        "id": 4,
-        "type": "texte",
-        "question": "She ... (go) to school every day."
-      },
-      {
-        "id": 5,
         "type": "qcm",
-        "question": "The film was ... (good) than the book.",
+        "question": "Which of the following is a common English expression used to describe the weather outside when it's raining?",
         "choices": [
-          "gooder",
-          "better",
-          "best"
+          "It's sunny",
+          "It's raining",
+          "It's windy",
+          "All of the above"
         ]
       },
       {
-        "id": 6,
-        "type": "texte",
-        "question": "We ... (visit) London last summer."
-      },
-      {
-        "id": 7,
         "type": "vrai-faux",
-        "question": "He go to the cinema."
+        "question": "The English expression for 'Il pleut' is 'It's raining'' is a true statement."
       },
       {
-        "id": 8,
         "type": "qcm",
-        "question": "This book is the ... (interesting).",
+        "question": "Which of the following is a common English expression used to describe the weather outside when it's windy?",
         "choices": [
-          "more interesting",
-          "most interesting",
-          "interestinger"
+          "It's sunny",
+          "It's raining",
+          "It's windy",
+          "All of the above"
         ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The English expression for 'Il fait du vent' is 'It's windy'' is a true statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English expression used to describe the weather outside when it's cold?",
+        "choices": [
+          "It's sunny",
+          "It's raining",
+          "It's cold",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The English expression for 'Il fait froid' is 'It's cold'' is a true statement."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Past simple"
+      "notion": "Vocabulaire de base",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "notion": "Present continuous"
+      "notion": "Grammaire simple",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "notion": "Comparatifs"
+      "notion": "Expression orale",
+      "description": "Notion fondamentale de Anglais"
     }
   ],
   "exerciseresponses": []

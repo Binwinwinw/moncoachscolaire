@@ -1,96 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 6eme SVT",
+    "title": "Quiz Diagnostic Anglais 6ème - Série 0021",
     "type": "quiz",
-    "level": "6eme",
-    "subject": "SVT",
-    "description": "Diagnostic etats matiere, êtres vivants, environnement proche 6eme",
+    "level": "6ème",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6ème : Famille, environnement, actualité simple",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-08 14:09:00"
+    "created_at": "2026-04-06 06:24:36",
+    "updated_at": "2026-04-06 06:24:36"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 6eme SVT",
-    "level": "6eme",
-    "subject": "SVT",
+    "title": "Famille, environnement, actualité simple",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "L'eau est sous forme solide quand elle est :",
+        "question": "What is the English word for 'famille'?",
         "choices": [
-          "liquide",
-          "gaz",
-          "glace",
-          "vapeur"
-        ],
-        "id": 1
+          "Family",
+          "Friend",
+          "House",
+          "School"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Les êtres vivants ont besoin d'eau pour vivre.",
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "Nommer un être vivant dans ton environnement proche.",
-        "placeholder": "Ex: arbre",
-        "id": 3
+        "question": "'The environment is important to protect' is a true statement."
       },
       {
         "type": "qcm",
-        "question": "Quelle est la forme gazeuse de l'eau ?",
+        "question": "Which of the following is a common English word for 'environnement'?",
         "choices": [
-          "neige",
-          "vapeur",
-          "glaçon",
-          "rivière"
-        ],
-        "id": 4
+          "Environment",
+          "Nature",
+          "Earth",
+          "All of the above"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Les plantes sont des êtres vivants.",
-        "id": 5
-      },
-      {
-        "type": "texte",
-        "question": "Donne un exemple d'état solide dans la nature.",
-        "placeholder": "rocher",
-        "id": 6
+        "question": "'Recycling helps reduce waste and conserve natural resources' is a true statement."
       },
       {
         "type": "qcm",
-        "question": "Les animaux ont besoin de :",
+        "question": "Which of the following is a common English word for 'actualité'?",
         "choices": [
-          "eau et nourriture",
-          "seulement lumière",
-          "seulement chaleur",
-          "rien"
-        ],
-        "id": 7
+          "News",
+          "Current events",
+          "Headlines",
+          "All of the above"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "L'eau bout à 100°C.",
-        "id": 8
+        "question": "'Climate change is a significant global issue' is a true statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English word for 'simple'?",
+        "choices": [
+          "Simple",
+          "Easy",
+          "Basic",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The internet provides access to a wealth of information and resources' is a true statement."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "États de la matière",
-      "description": "Concept clé de SVT au niveau 6eme"
+      "notion": "Vocabulaire de base",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "notion": "Êtres vivants",
-      "description": "Concept clé de SVT au niveau 6eme"
+      "notion": "Grammaire simple",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "notion": "Environnement proche",
-      "description": "Concept clé de SVT au niveau 6eme"
+      "notion": "Expression orale",
+      "description": "Notion fondamentale de Anglais"
     }
   ],
   "exerciseresponses": []

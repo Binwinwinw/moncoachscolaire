@@ -1,71 +1,70 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 5eme Histoire-Géographie",
-    "type": "quiz",
-    "level": "5eme",
-    "subject": "Histoire-Géographie",
-    "description": "Diagnostic monde grec, empire romain, géographie France 5eme"
+    "title": "Quiz Diagnostic Anglais 6ème - Série 0048",
+    "level": "6ème",
+    "subject": "Anglais"
   },
   "quiz": {
-    "title": "Diagnostic Histoire-Géo 5eme",
-    "level": "5eme",
-    "subject": "Histoire-Géographie",
+    "title": "Vocabulaire de base : phrases courantes pour parler de la voiture",
+    "question_count": 8,
+    "level": "6ème",
+    "subject": "Anglais",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Directe",
-        "correction": "Citoyens votent lois"
+        "answer": "All of the above",
+        "correction": "'It's fast', 'It's slow', and 'It's new' are all common English expressions used to describe a car in different contexts."
       },
       {
         "index": 1,
         "question_id": 2,
-        "type": "texte",
-        "answer": "2",
-        "correction": "Occident/Orient"
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English expression for 'C'est rapide' is indeed 'It's fast', which is a common way to describe a fast car in English."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "vrai-faux",
-        "answer": false,
-        "correction": "FAUX. Guerriers"
+        "type": "qcm",
+        "answer": "It's slow",
+        "correction": "'It's slow' is a common English expression used to describe a car when it's slow."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "answer": "Lyon",
-        "correction": "Lugdunum"
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English expression for 'C'est lent' is indeed 'It's slow', which is a common way to describe a slow car in English."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "texte",
-        "answer": "Perses",
-        "correction": "Victoire grecque"
+        "type": "qcm",
+        "answer": "It's new",
+        "correction": "'It's new' is a common English expression used to describe a car when it's new."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": false,
-        "correction": "FAUX. Celtes résistants"
+        "answer": "vrai",
+        "correction": "The English expression for 'C'est neuf' is indeed 'It's new', which is a common way to describe a new car in English."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "Sparte",
-        "correction": "Péloponnèse = Sparte"
+        "answer": "It's old",
+        "correction": "'It's old' is a common English expression used to describe a car when it's old."
       },
       {
         "index": 7,
         "question_id": 8,
-        "type": "texte",
-        "answer": "place",
-        "correction": "Place publique assemblées"
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English expression for 'C'est vieux' is indeed 'It's old', which is a common way to describe an old car in English."
       }
     ]
   }

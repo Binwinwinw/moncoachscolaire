@@ -1,87 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 4eme Mathématiques",
+    "title": "Quiz Diagnostic Anglais 6ème - Série 0044",
     "type": "quiz",
-    "level": "4eme",
-    "subject": "Mathematiques",
-    "description": "Diagnostic factorisations, équations 1er degré, théorème Pythagore 4eme"
+    "level": "6ème",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6ème : Vocabulaire de base : phrases courantes",
+    "status": "published",
+    "created_at": "2026-04-06 06:24:36",
+    "updated_at": "2026-04-06 06:24:36"
   },
   "quiz": {
-    "title": "Diagnostic Maths 4eme",
-    "level": "4eme",
-    "subject": "Mathematiques",
+    "title": "Vocabulaire de base : phrases courantes",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
     "question_count": 8,
-    "passing_score": 80,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
     "questions": [
       {
-        "id": 1,
-        "type": "texte",
-        "question": "Factorise x²-9 ="
-      },
-      {
-        "id": 2,
         "type": "qcm",
-        "question": "Résous 2x+5=11",
+        "question": "Which of the following is a common English greeting?",
         "choices": [
-          "3",
-          "8",
-          "4",
-          "6"
+          "Hello",
+          "Hi",
+          "Hey",
+          "All of the above"
         ]
       },
       {
-        "id": 3,
         "type": "vrai-faux",
-        "question": "Pythagore : 3²+4²=5² (triangle rectangle)."
+        "question": "'The English phrase for 'Comment ça va?' is 'How are you?'' is a true statement."
       },
       {
-        "id": 4,
-        "type": "texte",
-        "question": "Aire trapèze bases 3+5 hauteur 4 ="
-      },
-      {
-        "id": 5,
         "type": "qcm",
-        "question": "PGCD(15,25) =",
+        "question": "Which of the following is a common English expression used to say goodbye?",
         "choices": [
-          "5",
-          "15",
-          "25",
-          "1"
+          "Goodbye",
+          "Bye",
+          "See you later",
+          "All of the above"
         ]
       },
       {
-        "id": 6,
-        "type": "texte",
-        "question": "Développe (2x+1)² ="
-      },
-      {
-        "id": 7,
         "type": "vrai-faux",
-        "question": "Dans triangle rectangle, hypoténuse = plus long côté."
+        "question": "'The English phrase for 'Merci' is 'Thank you'' is a true statement."
       },
       {
-        "id": 8,
         "type": "qcm",
-        "question": "PPCM(4,6) =",
+        "question": "Which of the following is a common English expression used to apologize?",
         "choices": [
-          "2",
-          "12",
-          "24",
-          "6"
+          "Sorry",
+          "I apologize",
+          "My apologies",
+          "All of the above"
         ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The English phrase for 'S'il vous plaît' is 'Please'' is a true statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English expression used to express gratitude?",
+        "choices": [
+          "Thank you",
+          "Thanks",
+          "I appreciate it",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English phrase for 'Excusez-moi' is 'Excuse me'' is a true statement."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Factorisations"
+      "notion": "Vocabulaire de base",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "notion": "Équations 1er degré"
+      "notion": "Grammaire simple",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "notion": "Pythagore"
+      "notion": "Expression orale",
+      "description": "Notion fondamentale de Anglais"
     }
   ],
   "exerciseresponses": []

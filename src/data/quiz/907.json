@@ -1,16 +1,16 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 5ème SVT - Série 49",
+    "title": "Les dangers de la pollution en SVT",
     "type": "quiz",
     "level": "5eme",
     "subject": "SVT",
-    "description": "Diagnostic Squelette, photosynthèse, chaînes alimentaires - 5ème",
+    "description": "Diagnostic SVT 5eme : Pollution, eau et santé des écosystèmes",
     "status": "published",
-    "created_at": "2026-03-08 22:57:00",
-    "updated_at": "2026-03-08 22:57:00"
+    "created_at": "2026-03-08 00:05:00",
+    "updated_at": "2026-03-08 00:05:00"
   },
   "quiz": {
-    "title": "Diagnostic 5ème SVT - Biologie",
+    "title": "Anglais - Les dangers de la pollution en SVT",
     "level": "5eme",
     "subject": "SVT",
     "question_count": 8,
@@ -19,79 +19,82 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Squelette: os long = ... (bras/jambe)",
+        "question": "Quel type de pollution affecte l'eau ?",
         "choices": [
-          "fémur",
-          "crâne",
-          "vertèbres",
-          "côtes"
+          "La pollution chimique",
+          "La pollution sonore",
+          "La pollution lumineuse",
+          "La pollution thermique"
         ],
         "id": 1
       },
       {
         "type": "vrai-faux",
-        "question": "Photosynthèse: CO₂ + H₂O → glucose + O₂.",
+        "question": "Les déchets jetés dans les rivières peuvent nuire aux poissons.",
         "id": 2
       },
       {
         "type": "texte",
-        "question": "Plante: chlorophylle dans ...",
-        "placeholder": "chloroplastes",
+        "question": "Explique comment la pollution peut affecter les animaux d'un écosystème.",
         "id": 3
       },
       {
         "type": "qcm",
-        "question": "Chaîne alimentaire: plante → ... → carnivore",
+        "question": "Quel est un moyen de réduire la pollution de l'eau ?",
         "choices": [
-          "herbivore",
-          "décomposeur",
-          "producteur",
-          "consommateur"
+          "Recycler les déchets",
+          "Augmenter le trafic routier",
+          "Brûler les déchets dans la nature",
+          "Ignorer les fuites"
         ],
         "id": 4
       },
       {
         "type": "vrai-faux",
-        "question": "Respiration cellulaire: glucose + O₂ → énergie + CO₂.",
+        "question": "Les usines peuvent rejeter des produits chimiques dangereux dans l'eau.",
         "id": 5
       },
       {
-        "type": "texte",
-        "question": "Repro plantes: pollen → ...",
-        "placeholder": "ovule",
+        "type": "qcm",
+        "question": "Quelle conséquence la pollution de l'air peut-elle avoir sur les plantes ?",
+        "choices": [
+          "Elle peut endommager leurs feuilles",
+          "Elle peut leur donner plus d'eau",
+          "Elle peut augmenter leur croissance",
+          "Elle peut les rendre plus colorées"
+        ],
         "id": 6
       },
       {
-        "type": "qcm",
-        "question": "Volcan: magma sort par",
-        "choices": [
-          "cratère",
-          "fissure",
-          "cheminée",
-          "cône"
-        ],
+        "type": "texte",
+        "question": "Décris une action que tu peux faire pour protéger l'environnement.",
         "id": 7
       },
       {
-        "type": "texte",
-        "question": "Squelette protège: cerveau dans ...",
-        "placeholder": "crâne",
+        "type": "qcm",
+        "question": "Pourquoi est-il important de réduire la pollution ?",
+        "choices": [
+          "Pour protéger les plantes, les animaux et les humains",
+          "Pour rendre l'air plus sale",
+          "Pour détruire les habitats naturels",
+          "Pour augmenter les déchets"
+        ],
         "id": 8
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Squelette",
-      "description": "Os longs/courts, protection/support (5ème)"
+      "notion": "Pollution de l'eau",
+      "description": "La pollution de l'eau met en danger les poissons et les plantes aquatiques."
     },
     {
-      "notion": "Photosynthèse",
-      "description": "Chloroplastes, CO₂/glucose/O₂"
+      "notion": "Pollution de l'air",
+      "description": "La pollution de l'air peut endommager les feuilles des plantes et la santé des animaux."
     },
     {
-      "notion": "Chaînes alimentaires",
-      "description": "Producteurs/consommateurs"
+      "notion": "Préservation de l'environnement",
+      "description": "Réduire la pollution aide à protéger les écosystèmes et la santé humaine."
     }
   ],
   "exerciseresponses": []

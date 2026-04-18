@@ -1,102 +1,94 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ère Anglais - Série 02",
+    "title": "Quiz Diagnostic EMC 6eme - Série 0126",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Anglais",
-    "description": "Diagnostic Anglais 1ère : Expression avancée (Society, Environment - Eduscol B1/B2)",
+    "level": "6eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 6eme : EMC 6e - Jugement moral cas concrets",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-09 17:00:00"
+    "created_at": "2026-04-06 06:25:43",
+    "updated_at": "2026-04-06 06:25:43"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ère English - Series 02",
-    "level": "1ere",
-    "subject": "Anglais",
+    "title": "EMC 6e - Jugement moral cas concrets",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Social media has changed how young people communicate. What's the main advantage?",
+        "question": "Pourquoi est-il important de respecter les règles de jugement moral dans les cas concrets ?",
         "choices": [
-          "Instant connection worldwide",
-          "Less face-to-face interaction",
-          "Privacy issues",
-          "Cyberbullying risks"
-        ],
-        "correct_index": 0,
-        "id": 1
+          "Le respect des règles de jugement moral dans les cas concrets garantit la promotion de comportements éthiques, le respect des autres et la construction d'une société plus juste et solidaire.",
+          "Le respect des règles de jugement moral dans les cas concrets est inutile, car les individus peuvent agir comme ils le souhaitent.",
+          "Le respect des règles de jugement moral dans les cas concrets est réservé aux élites politiques et économiques.",
+          "Le respect des règles de jugement moral dans les cas concrets est limité aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Climate change has been accelerating since the Industrial Revolution.",
-        "correct": true,
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "Name 2 actions to reduce plastic pollution (personal level).",
-        "placeholder": "ex: Use reusable bags, recycle properly",
-        "id": 3
+        "question": "Le respect des règles de jugement moral dans les cas concrets est un concept qui promeut la non-intervention dans les affaires des individus."
       },
       {
         "type": "qcm",
-        "question": "Which tense for actions started in past and continue now? 'She _____ English for 5 years.'",
+        "question": "Quel est le rôle de l'éducation dans le respect des règles de jugement moral dans les cas concrets ?",
         "choices": [
-          "has been learning",
-          "learned",
-          "is learning",
-          "learns"
-        ],
-        "correct_index": 0,
-        "id": 4
+          "L'éducation joue un rôle crucial en sensibilisant les individus aux règles de jugement moral et en promouvant le respect de ces règles.",
+          "L'éducation est inutile dans le respect des règles de jugement moral, car les individus peuvent apprendre par eux-mêmes.",
+          "L'éducation est réservée aux élites politiques et économiques.",
+          "L'éducation est limitée aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Fake news spread faster on social media than real information.",
-        "correct": true,
-        "id": 5
-      },
-      {
-        "type": "texte",
-        "question": "Why is biodiversity important? Give 1 reason.",
-        "placeholder": "ex: Food chain balance, medicine sources",
-        "id": 6
+        "question": "Le respect des règles de jugement moral dans les cas concrets est un concept qui promeut la non-intervention dans les affaires des individus."
       },
       {
         "type": "qcm",
-        "question": "Governments should invest more in renewable energy because...",
+        "question": "Quel est le rôle des médias dans le respect des règles de jugement moral dans les cas concrets ?",
         "choices": [
-          "Reduces CO2 emissions",
-          "Creates jobs",
-          "Both A and B",
-          "Neither"
-        ],
-        "correct_index": 2,
-        "id": 7
+          "Les médias ont un rôle important en promouvant des représentations positives du respect des règles de jugement moral et en sensibilisant le public à l'importance de ces règles.",
+          "Les médias sont inutiles dans le respect des règles de jugement moral, car les individus peuvent apprendre par eux-mêmes.",
+          "Les médias sont réservés aux élites politiques et économiques.",
+          "Les médias sont limités aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Passive voice: 'The book was written by J.K. Rowling.'",
-        "correct": true,
-        "id": 8
+        "question": "Le respect des règles de jugement moral dans les cas concrets est un concept qui promeut la non-intervention dans les affaires des individus."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle des enseignants dans le respect des règles de jugement moral dans les cas concrets ?",
+        "choices": [
+          "Les enseignants ont un rôle important en promouvant des représentations positives du respect des règles de jugement moral et en sensibilisant les élèves à l'importance de ces règles.",
+          "Les enseignants sont inutiles dans le respect des règles de jugement moral, car les élèves peuvent apprendre par eux-mêmes.",
+          "Les enseignants sont réservés aux élèves les plus avancés.",
+          "Les enseignants sont limités aux matières scientifiques uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect des règles de jugement moral dans les cas concrets est un concept qui promeut la non-intervention dans les affaires des individus."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Society & Media",
-      "description": "Social media impact, fake news (Eduscol 1ère themes)"
+      "notion": "Fondamentaux de EMC",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Environment",
-      "description": "Climate change, biodiversity, pollution"
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Advanced Grammar",
-      "description": "Present perfect continuous, passive, conditionals"
+      "notion": "Savoir-faire emc",
+      "description": "Notion du programme 6eme"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

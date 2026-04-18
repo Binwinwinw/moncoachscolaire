@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Applications : modèles exponentiels & logarithmiques",
     "status": "published",
-    "created_at": "2026-03-13 11:24:24",
-    "updated_at": "2026-03-13 11:24:24"
+    "created_at": "2026-04-06 06:40:48",
+    "updated_at": "2026-04-06 06:40:48"
   },
   "quiz": {
     "title": "Applications : modèles exponentiels & logarithmiques",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Taux de croissance",
+      "description": "k > 0 représente le taux de croissance instantané du modèle exponentiel, indiquant la vitesse à laquelle la quantité N(t) augmente à chaque instant"
+    },
+    {
+      "notion": "Constante de croissance",
+      "description": "k est une constante qui détermine la rapidité de la croissance exponentielle, avec des valeurs plus élevées de k indiquant une croissance plus rapide"
+    },
+    {
+      "notion": "Modélisation de phénomènes naturels",
+      "description": "Le modèle exponentiel N(t) = N₀·e^(kt) est souvent utilisé pour décrire des phénomènes naturels tels que la croissance de populations, la propagation de maladies ou la dégradation de substances radioa"
+    }
+  ],
   "exerciseresponses": []
 }

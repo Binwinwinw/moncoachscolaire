@@ -1,6 +1,6 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic bac Anglais - Serie 12",
+    "title": "Anglais - Structures Conditionnelles, Discours Rapporté et Modaux",
     "type": "quiz",
     "level": "bac",
     "subject": "Anglais",
@@ -10,7 +10,7 @@
     "updated_at": "2026-03-08 00:05:00"
   },
   "quiz": {
-    "title": "Quiz Diagnostic bac Anglais - Serie 12",
+    "title": "Anglais - Structures Conditionnelles, Discours Rapporté et Modaux",
     "level": "bac",
     "subject": "Anglais",
     "question_count": 8,
@@ -19,78 +19,106 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "question": "Quelle est la fonction principale des structures conditionnelles en anglais?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "Décrire des actions se déroulant à l'instant présent",
+          "Exprimer des conditions et leurs conséquences",
+          "Décrire des faits généraux",
+          "Faire des prédictions sur le futur"
         ],
         "id": 1
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau bac aborde des notions fondamentales en Anglais.",
-        "id": 2
+        "question": "Comment le discours rapporté affecte-t-il les verbes dans une phrase?",
+        "id": 2,
+        "choices": [
+          "Les verbes restent inchangés",
+          "Les verbes changent pour refléter le moment de l'énonciation",
+          "Les verbes deviennent toujours au présent",
+          "Les verbes sont toujours au futur"
+        ]
       },
       {
         "type": "texte",
-        "question": "Cite un exemple concret lié à Anglais.",
+        "question": "Quel modal est utilisé pour exprimer l'obligation ou la nécessité?",
         "placeholder": "Exemple...",
-        "id": 3
+        "id": 3,
+        "choices": [
+          "Must",
+          "Should",
+          "Can",
+          "May"
+        ]
       },
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "question": "Pourquoi les modaux sont-ils importants en anglais?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "Ils permettent de décrire des actions au passé",
+          "Ils expriment des degrés de certitude ou de possibilité",
+          "Ils servent uniquement à former des questions",
+          "Ils ne sont utilisés qu'avec le conditionnel"
         ],
         "id": 4
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau bac aborde des notions fondamentales en Anglais.",
-        "id": 5
+        "question": "Vrai ou Faux : Les structures conditionnelles ne peuvent décrire que des situations réelles.",
+        "id": 5,
+        "choices": [
+          "Vrai",
+          "Faux"
+        ]
       },
       {
         "type": "texte",
-        "question": "Cite un exemple concret lié à Anglais.",
+        "question": "Expliquez brièvement comment le discours rapporté change les pronoms personnels dans une phrase.",
         "placeholder": "Exemple...",
-        "id": 6
+        "id": 6,
+        "choices": [
+          "Les pronoms restent les mêmes",
+          "Les pronoms changent pour refléter le point de vue du locuteur",
+          "Les pronoms deviennent toujours 'il' ou 'elle'",
+          "Les pronoms sont supprimés"
+        ]
       },
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "question": "Quel est l'avantage de comprendre les modaux en anglais?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "Améliorer la compréhension des nuances de langue",
+          "Simplifier les règles de grammaire",
+          "Réduire l'utilisation du vocabulaire",
+          "Éviter les erreurs de conjugaison"
         ],
         "id": 7
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau bac aborde des notions fondamentales en Anglais.",
-        "id": 8
+        "question": "Donnez un exemple d'utilisation du modal 'can' pour exprimer une capacité ou une possibilité.",
+        "id": 8,
+        "choices": [
+          "Je mange une pomme",
+          "Je peux jouer du piano",
+          "Je vais à l'école demain",
+          "J'ai étudié l'anglais l'année dernière"
+        ]
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Notion 1 - Anglais",
-      "description": "Concept clé de Anglais au niveau bac"
+      "notion": "Structures Conditionnelles en Anglais",
+      "description": "Les structures conditionnelles en anglais sont utilisées pour exprimer des conditions et leurs conséquences, souvent avec des verbes au conditionnel, comme 'would', 'could' ou 'might'. Elles permettent de décrire des situations hypothétiques ou réelles et leurs résultats potentiels."
     },
     {
-      "notion": "Notion 2 - Anglais",
-      "description": "Concept clé de Anglais au niveau bac"
+      "notion": "Discours Rapporté et ses Applications",
+      "description": "Le discours rapporté en anglais fait référence à la façon dont on rapporte les paroles ou les pensées d'une autre personne, souvent en changeant les verbes pour refléter le moment où l'on parle. Cela implique des changements dans les temps verbaux, les pronoms et d'autres éléments de la phrase pour maintenir la cohérence et la clarté."
     },
     {
-      "notion": "Notion 3 - Anglais",
-      "description": "Concept clé de Anglais au niveau bac"
+      "notion": "Modaux et leur Utilisation en Contexte",
+      "description": "Les modaux en anglais, tels que 'can', 'could', 'may', 'might', 'shall', 'should', 'will' et 'would', sont utilisés pour exprimer différents degrés de certitude, de possibilité, d'obligation, de nécessité ou d'interdiction. Ils jouent un rôle crucial dans la communication pour transmettre des nuances de sens et des attitudes."
     }
   ],
   "exerciseresponses": []

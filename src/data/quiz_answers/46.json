@@ -1,71 +1,70 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 5eme Anglais",
-    "type": "quiz",
-    "level": "5eme",
-    "subject": "Anglais",
-    "description": "Diagnostic past simple, present continuous, comparative 5eme"
+    "title": "Quiz Diagnostic Anglais 6ème - Série 0046",
+    "level": "6ème",
+    "subject": "Anglais"
   },
   "quiz": {
-    "title": "Diagnostic Anglais 5eme",
-    "level": "5eme",
+    "title": "Vocabulaire de base : phrases courantes pour parler de l'extérieur",
+    "question_count": 8,
+    "level": "6ème",
     "subject": "Anglais",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
-        "type": "texte",
-        "answer": "played",
-        "correction": "Past simple régulier -ed"
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "'It's sunny', 'It's raining', and 'It's windy' are all common English expressions used to describe the weather outside."
       },
       {
         "index": 1,
         "question_id": 2,
-        "type": "qcm",
-        "answer": "I am playing",
-        "correction": "Present continuous NOW"
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English expression for 'Il fait beau' is indeed 'It's sunny', which is a common way to describe nice weather in English."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "vrai-faux",
-        "answer": true,
-        "correction": "VRAI. Comparative +er"
+        "type": "qcm",
+        "answer": "It's raining",
+        "correction": "'It's raining' is a common English expression used to describe the weather outside when it's raining."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "texte",
-        "answer": "goes",
-        "correction": "3e singulier -s"
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English expression for 'Il pleut' is indeed 'It's raining', which is a common way to describe rainy weather in English."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "qcm",
-        "answer": "better",
-        "correction": "Adjectif irrégulier good→better"
+        "answer": "It's windy",
+        "correction": "'It's windy' is a common English expression used to describe the weather outside when it's windy."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "answer": "visited",
-        "correction": "Past simple -ed"
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English expression for 'Il fait du vent' is indeed 'It's windy', which is a common way to describe windy weather in English."
       },
       {
         "index": 6,
         "question_id": 7,
-        "type": "vrai-faux",
-        "answer": false,
-        "correction": "FAUX. He **goes**"
+        "type": "qcm",
+        "answer": "It's cold",
+        "correction": "'It's cold' is a common English expression used to describe the weather outside when it's cold."
       },
       {
         "index": 7,
         "question_id": 8,
-        "type": "qcm",
-        "answer": "most interesting",
-        "correction": "Superlatif -est"
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English expression for 'Il fait froid' is indeed 'It's cold', which is a common way to describe cold weather in English."
       }
     ]
   }

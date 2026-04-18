@@ -1,102 +1,94 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ère Anglais - Série 13",
+    "title": "Quiz Diagnostic EMC 6eme - Série 0137",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Anglais",
-    "description": "Diagnostic Anglais 1ère : Democracy, Politics, Advanced Expression (Eduscol B1/B2)",
+    "level": "6eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 6eme : EMC 6e - Vote classe : Élection délégués (affiches, discours)",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-09 21:07:00"
+    "created_at": "2026-04-06 06:25:43",
+    "updated_at": "2026-04-06 06:25:43"
   },
   "quiz": {
-    "title": "1ère English Diagnostic - Series 13 (Democracy & Politics)",
-    "level": "1ere",
-    "subject": "Anglais",
+    "title": "EMC 6e - Vote classe : Élection délégués (affiches, discours)",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Social media has made political debates more democratic because:",
+        "question": "Pourquoi est-il important de respecter les règles de vie démocratique à l'école ?",
         "choices": [
-          "Everyone can voice opinions",
-          "Only verified accounts",
-          "Algorithms decide",
-          "No anonymity"
-        ],
-        "correct_index": 0,
-        "id": 1
+          "Le respect des règles de vie démocratique à l'école garantit la promotion de la participation, le respect des autres et la construction d'une société plus juste et solidaire.",
+          "Le respect des règles de vie démocratique à l'école est inutile, car les individus peuvent agir comme ils le souhaitent.",
+          "Le respect des règles de vie démocratique à l'école est réservé aux élites politiques et économiques.",
+          "Le respect des règles de vie démocratique à l'école est limité aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "It is vital that citizens be informed before voting.",
-        "correct": true,
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "What is one threat to democracy from populism?",
-        "placeholder": "ex: Erosion of institutions, fake news spread",
-        "id": 3
+        "question": "Un délégué à l'école permet de représenter les élèves et de faire remonter leurs préoccupations."
       },
       {
         "type": "qcm",
-        "question": "Discourse marker: On the one hand free speech; _____, hate speech limits.",
+        "question": "Quel est le rôle du délégué dans la classe?",
         "choices": [
-          "on the other hand",
-          "however",
-          "therefore",
-          "in addition"
-        ],
-        "correct_index": 0,
-        "id": 4
+          "Le délégué représente les élèves et fait remonter leurs préoccupations auprès de l'administration scolaire.",
+          "Le délégué est responsable de l'enseignement des matières scolaires.",
+          "Le délégué organise les activités sportives et culturelles.",
+          "Le délégué est chargé de la discipline dans la classe."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Compulsory voting increases democratic legitimacy.",
-        "correct": true,
-        "id": 5
+        "question": "Le délégué est le meilleure élève de la classe."
       },
       {
-        "type": "texte",
-        "question": "How can young people engage in politics? 1 way.",
-        "placeholder": "ex: Petitions, student councils, volunteering",
-        "id": 6
+        "type": "vrai-faux",
+        "question": "Un délégué de classe peut aider ses camarades en représentant leurs préoccupations auprès de l'administration scolaire."
       },
       {
         "type": "qcm",
-        "question": "The bill was passed _____ overwhelming majority.",
+        "question": "Quel est le rôle des médias dans la vie démocratique à l'école ?",
         "choices": [
-          "by an",
-          "with a",
-          "in an",
-          "on a"
-        ],
-        "correct_index": 1,
-        "id": 7
+          "Les médias jouent un rôle crucial en informant les élèves sur les activités démocratiques à l'école et en encourageant la participation citoyenne.",
+          "Les médias sont inutiles dans la vie démocratique à l'école, car les individus peuvent apprendre par eux-mêmes.",
+          "Les médias sont réservés aux élites politiques et économiques.",
+          "Les médias sont limités aux informations nationales uniquement."
+        ]
+      },
+      {
+        "type": "qcm",
+        "question": "Pourquoi est-il important de respecter les règles de vie démocratique à l'école ?",
+        "choices": [
+          "Le respect des règles de vie démocratique à l'école garantit la promotion de la participation, le respect des autres et la construction d'une société plus juste et solidaire.",
+          "Le respect des règles de vie démocratique à l'école est inutile, car les individus peuvent agir comme ils le souhaitent.",
+          "Le respect des règles de vie démocratique à l'école est réservé aux élites politiques et économiques.",
+          "Le respect des règles de vie démocratique à l'école est limité aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Were electoral reform implemented, turnout would rise.",
-        "correct": true,
-        "id": 8
+        "question": "Le respect des règles de vie démocratique à l'école est un concept qui promeut la non-intervention dans les affaires des individus."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Political Participation",
-      "description": "Social media role, youth engagement (Eduscol 1ère)"
+      "notion": "Fondamentaux de EMC",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Democratic Challenges",
-      "description": "Populism, compulsory voting, fake news"
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Advanced Grammar",
-      "description": "Discourse markers, subjunctive politics, prepositions"
+      "notion": "Savoir-faire emc",
+      "description": "Notion du programme 6eme"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

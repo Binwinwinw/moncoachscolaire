@@ -1,0 +1,90 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Espagnol 3eme - SÃ©rie 1736",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Espagnol",
+    "description": "Diagnostic Espagnol 3eme : Espagnol 3eme - Temps et conjugaison",
+    "status": "published",
+    "created_at": "2026-04-06 06:40:43",
+    "updated_at": "2026-04-06 06:40:43",
+    "source": "Eduscol programmes officiels + BOEN",
+    "programme_ref": "BO ndeg31 du 30 juillet 2020 (Cycle 4) + Eduscol Langues vivantes"
+  },
+  "quiz": {
+    "title": "Espagnol 3eme - Temps et conjugaison",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Espagnol",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "[Espagnol 3eme] Sur le theme 'Temps et conjugaison', quelle demarche est la plus efficace pour reussir un exercice diagnostic ?",
+        "choices": [
+          "Relire la consigne et identifier l'objectif",
+          "Repondre vite sans verifier",
+          "Ignorer le contexte",
+          "Memoriser sans comprendre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Espagnol 3eme] Sur 'Temps et conjugaison', verifier ses reponses avant validation ameliore la fiabilite."
+      },
+      {
+        "type": "open",
+        "question": "[Espagnol 3eme] Cite une methode concrete pour progresser sur le theme 'Temps et conjugaison'."
+      },
+      {
+        "type": "qcm",
+        "question": "[Espagnol 3eme] Quelle action favorise la memorisation durable du theme 'Temps et conjugaison' ?",
+        "choices": [
+          "Faire des rappels espaces",
+          "Tout revoir une seule fois",
+          "Copier sans comprendre",
+          "Eviter les exercices"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Espagnol 3eme] L'explication d'une reponse est moins importante que la reponse elle-meme."
+      },
+      {
+        "type": "open",
+        "question": "[Espagnol 3eme] Propose un exemple d'auto-correction pertinente sur 'Temps et conjugaison'."
+      },
+      {
+        "type": "qcm",
+        "question": "[Espagnol 3eme] Quel indicateur montre une bonne maitrise du theme 'Temps et conjugaison' ?",
+        "choices": [
+          "Expliquer clairement la demarche",
+          "Donner une reponse au hasard",
+          "Eviter les notions difficiles",
+          "Memoriser sans application"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Espagnol 3eme] Alterner entrainement, feedback et reprise des erreurs aide a progresser sur 'Temps et conjugaison'."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Fondamentaux de Espagnol",
+      "description": "Notion du programme 3eme"
+    },
+    {
+      "notion": "Compétences de base 3eme",
+      "description": "Notion du programme 3eme"
+    },
+    {
+      "notion": "Savoir-faire espagnol",
+      "description": "Notion du programme 3eme"
+    }
+  ],
+  "exerciseresponses": []
+}

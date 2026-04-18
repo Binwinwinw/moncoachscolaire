@@ -1,17 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Anglais 3ème - Série 10",
+    "title": "Quiz Diagnostic Anglais 6eme - Série 0010",
     "type": "quiz",
-    "level": "3eme",
+    "level": "6eme",
     "subject": "Anglais",
-    "description": "Évaluation diagnostique en anglais 3ème : temps passés, vocabulaire avancé, compréhension de textes complexes, expression écrite",
+    "description": "Diagnostic Anglais 6eme : langues : vocabulaire, expressions, communication",
     "status": "published",
-    "created_at": "2026-03-07 23:55:00",
-    "updated_at": "2026-03-07 23:55:00"
+    "created_at": "2026-04-06 06:24:36",
+    "updated_at": "2026-04-06 06:24:36"
   },
   "quiz": {
-    "title": "Diagnostic Anglais 3ème",
-    "level": "3eme",
+    "title": "langues : vocabulaire, expressions, communication",
+    "type": "quiz",
+    "level": "6eme",
     "subject": "Anglais",
     "question_count": 8,
     "passing_score": 70,
@@ -19,78 +20,74 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Choose the correct sentence in the past simple:",
+        "question": "What is the English word for 'chien'?",
         "choices": [
-          "Yesterday, I go to the museum and see amazing paintings.",
-          "Yesterday, I went to the museum and saw amazing paintings.",
-          "Yesterday, I have gone to the museum and saw amazing paintings.",
-          "Yesterday, I was go to the museum and seen amazing paintings."
-        ]
-      },
-      {
-        "type": "qcm",
-        "question": "Complete: I have lived in Lyon ___ 2019.",
-        "choices": [
-          "for",
-          "since",
-          "during",
-          "from"
+          "Cat",
+          "Dog",
+          "Bird",
+          "Fish"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "In reported speech, 'He said: I am tired' can become 'He said he was tired'."
+        "question": "The phrase 'How are you?' is a common greeting in English."
       },
       {
         "type": "qcm",
-        "question": "Complete the first conditional: If it rains, we ___ at home.",
+        "question": "Which of the following is an expression of gratitude?",
         "choices": [
-          "stay",
-          "stayed",
-          "will stay",
-          "would stay"
-        ]
-      },
-      {
-        "type": "texte",
-        "question": "Write a polite opening sentence for an email to your English teacher."
-      },
-      {
-        "type": "qcm",
-        "question": "Choose the correct passive form: The homework ___ by Sarah yesterday.",
-        "choices": [
-          "is finished",
-          "was finished",
-          "has finished",
-          "finished"
+          "Thank you",
+          "Please",
+          "Excuse me",
+          "Sorry"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "The modal verb 'must' can express a strong obligation."
+        "question": "'Goodbye' is a common way to say farewell in English."
       },
       {
-        "type": "texte",
-        "question": "Explain the difference between 'for' and 'since' in one short sentence each."
+        "type": "qcm",
+        "question": "Which of the following is a synonym for 'happy'?",
+        "choices": [
+          "Sad",
+          "Angry",
+          "Joyful",
+          "Tired"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'Please' is used to make a polite request in English."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is an example of a question in English?",
+        "choices": [
+          "What time is it?",
+          "- What time is it?",
+          "- It is what time?",
+          "- Time what is it?"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'Excuse me' is a phrase used to get someone's attention or to apologize in English."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Temps passés",
-      "description": "Concept clé de Anglais au niveau 3eme"
+      "notion": "Vocabulaire de base",
+      "description": "Le quiz évalue la connaissance du vocabulaire de base en anglais, notamment les mots courants pour désigner les animaux"
     },
     {
-      "notion": "Vocabulaire avancé",
-      "description": "Concept clé de Anglais au niveau 3eme"
+      "notion": "Traduction",
+      "description": "L'exercice nécessite la capacité de traduire des mots du français vers l'anglais, ce qui est une compétence clé en apprentissage des langues"
     },
     {
-      "notion": "Compréhension de textes",
-      "description": "Concept clé de Anglais au niveau 3eme"
-    },
-    {
-      "notion": "Expression écrite",
-      "description": "Concept clé de Anglais au niveau 3eme"
+      "notion": "Communication orale et écrite",
+      "description": "La question implique une compréhension de la communication en anglais, que ce soit à l'oral ou à l'écrit, en reconnaissant le mot approprié pour désigner un objet ou un animal"
     }
   ],
   "exerciseresponses": []

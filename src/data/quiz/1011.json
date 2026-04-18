@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Limites finies et infinies",
     "status": "published",
-    "created_at": "2026-03-13 11:24:24",
-    "updated_at": "2026-03-13 11:24:24"
+    "created_at": "2026-04-06 06:40:48",
+    "updated_at": "2026-04-06 06:40:48"
   },
   "quiz": {
     "title": "Limites finies et infinies",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Limites à l'infini",
+      "description": "La notion de limite à l'infini permet d'étudier le comportement d'une fonction lorsque la variable tend vers l'infini. Dans ce cas, on cherche à déterminer la limite de la fonction 3x² - 5x + 1 lorsqu"
+    },
+    {
+      "notion": "Dominance des termes",
+      "description": "Lorsque l'on étudie les limites à l'infini, il est important de déterminer quel terme domine la fonction. Dans ce cas, le terme 3x² domine les autres termes car son degré est supérieur, ce qui signifi"
+    },
+    {
+      "notion": "Évaluation des limites",
+      "description": "Pour évaluer la limite de la fonction 3x² - 5x + 1 lorsque x tend vers l'infini positif, on peut utiliser la propriété de dominance des termes pour conclure que la limite est infinie, car le terme dom"
+    }
+  ],
   "exerciseresponses": []
 }

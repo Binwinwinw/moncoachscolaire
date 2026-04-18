@@ -1,97 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Bac Anglais - Advanced",
+    "title": "Quiz Diagnostic EMC 6eme - Série 0112",
     "type": "quiz",
-    "level": "bac",
-    "subject": "Anglais",
-    "description": "Diagnostic Inversion, clefts, idioms - Bac Anglais",
+    "level": "6eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 6eme : EMC 6e - Devoirs et sanctions",
     "status": "published",
-    "created_at": "2026-03-08 18:13:00",
-    "updated_at": "2026-03-08 18:13:00"
+    "created_at": "2026-04-06 06:25:43",
+    "updated_at": "2026-04-06 06:25:43"
   },
   "quiz": {
-    "title": "Diagnostic Bac - Anglais Avancé",
-    "level": "bac",
-    "subject": "Anglais",
+    "title": "EMC 6e - Devoirs et sanctions",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Never **have I seen** such beauty. (Inversion)",
+        "question": "Pourquoi est-il important de respecter les devoirs et les sanctions dans la société ?",
         "choices": [
-          "adverbe first",
-          "never first négatif",
-          "have I sujet",
-          "seen participe"
-        ],
-        "id": 1
+          "Le respect des devoirs et des sanctions contribue à maintenir l'ordre, la justice et la sécurité dans la société.",
+          "Le respect des devoirs et des sanctions est inutile, car les individus peuvent agir comme ils le souhaitent.",
+          "Le respect des devoirs et des sanctions est réservé aux élites politiques et économiques.",
+          "Le respect des devoirs et des sanctions est limité aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "It **was John** who broke the vase. (Cleft emphasis).",
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "'Break down' =",
-        "placeholder": "tomber en panne",
-        "id": 3
+        "question": "Le respect des devoirs et des sanctions est un concept qui promeut la non-intervention dans les affaires des individus."
       },
       {
         "type": "qcm",
-        "question": "Only after **finishing** can you leave.",
+        "question": "Quel est le rôle de l'éducation dans le respect des devoirs et des sanctions ?",
         "choices": [
-          "present participle",
-          "gerund",
-          "infinitive",
-          "past participle"
-        ],
-        "id": 4
+          "L'éducation joue un rôle crucial en sensibilisant les individus aux devoirs et aux sanctions et en promouvant le respect de ces règles.",
+          "L'éducation est inutile dans le respect des devoirs et des sanctions, car les individus peuvent apprendre par eux-mêmes.",
+          "L'éducation est réservée aux élites politiques et économiques.",
+          "L'éducation est limitée aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Not only ... but also (correlation).",
-        "id": 5
-      },
-      {
-        "type": "texte",
-        "question": "'Piece of cake' idiom =",
-        "placeholder": "facile",
-        "id": 6
+        "question": "Le respect des devoirs et des sanctions est un concept qui promeut la non-intervention dans les affaires des individus."
       },
       {
         "type": "qcm",
-        "question": "Hardly **had** he arrived when...",
+        "question": "Quel est le rôle des médias dans le respect des devoirs et des sanctions ?",
         "choices": [
-          "inversion hardly",
-          "had sujet",
-          "arrived participe",
-          "when subordonnée"
-        ],
-        "id": 7
+          "Les médias ont un rôle important en promouvant des représentations positives du respect des devoirs et des sanctions et en sensibilisant le public à l'importance de ces règles.",
+          "Les médias sont inutiles dans le respect des devoirs et des sanctions, car les individus peuvent apprendre par eux-mêmes.",
+          "Les médias sont réservés aux élites politiques et économiques.",
+          "Les médias sont limités aux écoles uniquement."
+        ]
       },
       {
-        "type": "texte",
-        "question": "'Hit the nail on the head' =",
-        "placeholder": "exact",
-        "id": 8
+        "type": "vrai-faux",
+        "question": "Le respect des devoirs et des sanctions est un concept qui promeut la non-intervention dans les affaires des individus."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle des parents dans le respect des devoirs et des sanctions ?",
+        "choices": [
+          "Les parents ont un rôle important en sensibilisant leurs enfants aux devoirs et aux sanctions et en promouvant le respect de ces règles.",
+          "Les parents sont inutiles dans le respect des devoirs et des sanctions, car les individus peuvent apprendre par eux-mêmes.",
+          "Les parents sont réservés aux élites politiques et économiques.",
+          "Les parents sont limités aux écoles uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect des devoirs et des sanctions est un concept qui promeut la non-intervention dans les affaires des individus."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Inversions",
-      "description": "Never/hardly/only first (Bac advanced)"
+      "notion": "Fondamentaux de EMC",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Cleft sentences",
-      "description": "It was ... who/that (emphasis)"
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Phrasal/idioms",
-      "description": "Break down, piece of cake"
+      "notion": "Savoir-faire emc",
+      "description": "Notion du programme 6eme"
     }
   ],
   "exerciseresponses": []

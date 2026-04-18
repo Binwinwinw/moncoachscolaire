@@ -1,75 +1,70 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Histoire-Geographie 1ere - Série 190",
-    "level": "1ere",
-    "subject": "Histoire-Geographie"
+    "title": "Quiz Diagnostic Français 6eme - Série 0190",
+    "level": "6eme",
+    "subject": "Français"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Histoire-Géographie - Serie 16",
+    "title": "Français 6e - Les valeurs du récit historique",
     "question_count": 8,
-    "level": "1ere",
-    "subject": "Histoire-Geographie",
+    "level": "6eme",
+    "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "XXe siècle",
-        "correct": 2,
-        "correction": "Ce thème s'inscrit principalement dans le contexte du XXe siècle, période de grandes transformations politiques, économiques et sociales qui ont façonné le monde contemporain."
+        "answer": "Un genre littéraire",
+        "correction": "Un récit historique est un genre littéraire qui raconte des événements passés, souvent basés sur des faits réels, pour transmettre des connaissances historiques ou des leçons à travers une narration."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Ce thème est inscrit au programme d'Histoire-Géographie de la classe de Première, permettant aux élèves d'acquérir des connaissances fondamentales sur les grandes évolutions du monde contemporain."
+        "correction": "C'est vrai. Les récits historiques peuvent être classés en plusieurs types, tels que les biographies (qui racontent la vie d'une personne), les chroniques (qui racontent des événements dans l'ordre chronologique), les romans historiques (qui racontent des événements passés avec une certaine liberté artistique), etc., en fonction de la manière dont ils racontent des événements passés."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "correct_answer": "Ce thème permet de comprendre les grandes évolutions politiques, économiques et sociales qui ont façonné notre monde actuel.",
-        "answer": "Ce thème permet de comprendre les grandes évolutions politiques, économiques et sociales qui ont façonné notre monde actuel.",
-        "correction": "L'étude du thème 'La Révolution française et l'Empire' est essentielle pour comprendre les dynamiques du monde contemporain : les rapports de force entre nations, les transformations sociales et économiques, et les enjeux géopolitiques actuels. Elle développe l'esprit critique et la capacité d'analyse historique et géographique des élèves."
+        "type": "qcm",
+        "answer": "Il permet de transmettre des connaissances historiques ou des leçons à travers une narration",
+        "correction": "Le rôle d'un récit historique dans la communication est de permettre de transmettre des connaissances historiques ou des leçons à travers une narration, en utilisant des événements passés pour éclairer le présent et offrir des perspectives sur l'histoire et la société."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "answer": "L'analyse critique de documents et la construction d'une argumentation",
-        "correct": 1,
-        "correction": "L'étude de l'histoire-géographie développe l'analyse critique de documents (textes, cartes, images, statistiques), la construction d'une argumentation rigoureuse, la mise en perspective temporelle et spatiale des phénomènes, et la compréhension des enjeux du monde contemporain."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Un récit historique peut être fictif, en utilisant des éléments imaginaires ou romancés pour raconter une histoire basée sur des événements passés, ce qui peut rendre l'histoire plus engageante et accessible pour les lecteurs."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "answer": "faux",
-        "correction": "FAUX. Les sources primaires (archives, témoignages, documents d'époque) et les sources secondaires (travaux d'historiens) sont complémentaires. Les sources primaires peuvent être biaisées, incomplètes ou difficiles à interpréter ; les sources secondaires apportent une analyse critique et une mise en perspective. L'historien doit confronter les deux types de sources."
+        "type": "qcm",
+        "answer": "Le Petit Prince",
+        "correction": "Le Petit Prince n'est pas un récit historique. C'est un conte philosophique et poétique écrit par Antoine de Saint-Exupéry, qui raconte l'histoire d'un petit prince voyageant de planète en planète et rencontrant divers personnages, avec des leçons de vie et des réflexions sur la nature humaine."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "correct_answer": "Un territoire est un espace géographique approprié, vécu et organisé par une société, contrairement à un simple espace physique.",
-        "answer": "Un territoire est un espace géographique approprié, vécu et organisé par une société, contrairement à un simple espace physique.",
-        "correction": "En géographie, un territoire est un espace géographique délimité, approprié et organisé par un groupe humain qui lui donne une identité et un sens. Il se distingue d'un simple espace physique par la présence d'acteurs qui l'aménagent, le gèrent et le revendiquent. La notion de territoire implique donc une dimension sociale, politique et identitaire, en plus de la dimension physique."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Les récits historiques peuvent être utilisés pour transmettre des connaissances historiques ou des leçons importantes aux lecteurs, en fournissant des perspectives sur les événements passés et en éclairant le présent à travers la narration de ces événements, ce qui peut contribuer à la sensibilisation et à la compréhension de l'histoire et de la société."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "Une représentation graphique qui représente la distribution spatiale d'un phénomène précis",
-        "correct": 1,
-        "correction": "Une carte thématique représente la distribution spatiale d'un phénomène géographique spécifique (densité de population, PIB par habitant, flux migratoires, etc.) à l'aide de signes conventionnels (couleurs, symboles, flèches). Elle est un outil d'analyse indispensable en géographie pour identifier des disparités spatiales et des dynamiques territoriales."
+        "answer": "Il permet de transmettre des connaissances historiques ou des leçons à travers une narration",
+        "correction": "Le rôle d'un récit historique dans la communication est de permettre de transmettre des connaissances historiques ou des leçons à travers une narration, en utilisant des événements passés pour éclairer le présent et offrir des perspectives sur l'histoire et la société."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. La géopolitique analyse les relations entre les données géographiques (ressources, territoires, frontières, positions stratégiques) et les stratégies politiques et militaires des États et des acteurs non-étatiques. Elle examine comment la géographie influence les rapports de puissance, les conflits et les alliances internationales."
+        "correction": "C'est vrai. Un récit historique est un genre littéraire qui raconte des événements passés, souvent basés sur des faits réels, pour transmettre des connaissances historiques ou des leçons à travers une narration."
       }
     ]
   }

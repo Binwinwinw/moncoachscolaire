@@ -1,16 +1,16 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 5eme SVT - Serie 46",
+    "title": "Le cycle de l'eau en SVT",
     "type": "quiz",
     "level": "5eme",
     "subject": "SVT",
-    "description": "Diagnostic SVT 5eme : Biologie et sciences naturelles",
+    "description": "Diagnostic SVT 5eme : Cycle de l'eau et ses étapes",
     "status": "published",
     "created_at": "2026-03-08 00:05:00",
     "updated_at": "2026-03-08 00:05:00"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 5eme SVT - Serie 46",
+    "title": "Anglais - Le cycle de l'eau en SVT",
     "level": "5eme",
     "subject": "SVT",
     "question_count": 8,
@@ -19,78 +19,82 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en SVT cette année ?",
+        "question": "Quel processus transforme l'eau liquide en vapeur ?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "L'évaporation",
+          "La condensation",
+          "La précipitation",
+          "L'infiltration"
         ],
         "id": 1
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau 5eme aborde des notions fondamentales en SVT.",
+        "question": "La condensation se produit quand l'eau vapeur devient liquide.",
         "id": 2
       },
       {
         "type": "texte",
-        "question": "Cite un exemple concret lié à SVT.",
-        "placeholder": "Exemple...",
+        "question": "Décris en anglais l'étape où l'eau retourne au sol sous forme de pluie.",
         "id": 3
       },
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en SVT cette année ?",
+        "question": "Où l'eau s'infiltre-t-elle après être tombée sur le sol ?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "Dans le sol",
+          "Dans le vent",
+          "Dans le Soleil",
+          "Dans les nuages"
         ],
         "id": 4
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau 5eme aborde des notions fondamentales en SVT.",
+        "question": "L'eau de la mer peut aussi s'évaporer pour rejoindre les nuages.",
         "id": 5
       },
       {
-        "type": "texte",
-        "question": "Cite un exemple concret lié à SVT.",
-        "placeholder": "Exemple...",
+        "type": "qcm",
+        "question": "Quel rôle jouent les plantes dans le cycle de l'eau ?",
+        "choices": [
+          "Elles transpirent de l'eau dans l'air",
+          "Elles transforment l'eau en roche",
+          "Elles absorbent l'air",
+          "Elles produisent du feu"
+        ],
         "id": 6
       },
       {
-        "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en SVT cette année ?",
-        "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
-        ],
+        "type": "texte",
+        "question": "Explique pourquoi l'eau est essentielle pour les organismes vivants.",
         "id": 7
       },
       {
-        "type": "vrai-faux",
-        "question": "Le niveau 5eme aborde des notions fondamentales en SVT.",
+        "type": "qcm",
+        "question": "Quel élément ne fait pas partie du cycle de l'eau ?",
+        "choices": [
+          "La photosynthèse",
+          "L'évaporation",
+          "La condensation",
+          "La précipitation"
+        ],
         "id": 8
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Notion 1 - SVT",
-      "description": "Concept clé de SVT au niveau 5eme"
+      "notion": "Evaporation",
+      "description": "L'évaporation transforme l'eau liquide en vapeur sous l'effet de la chaleur."
     },
     {
-      "notion": "Notion 2 - SVT",
-      "description": "Concept clé de SVT au niveau 5eme"
+      "notion": "Condensation",
+      "description": "La condensation transforme la vapeur d'eau en gouttes d'eau dans les nuages."
     },
     {
-      "notion": "Notion 3 - SVT",
-      "description": "Concept clé de SVT au niveau 5eme"
+      "notion": "Précipitation",
+      "description": "La précipitation fait tomber l'eau du ciel sous forme de pluie, neige ou grêle."
     }
   ],
   "exerciseresponses": []

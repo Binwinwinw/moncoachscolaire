@@ -1,97 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Bac Espagnol - Compétences",
+    "title": "Quiz Diagnostic EMC 6eme - Série 0111",
     "type": "quiz",
-    "level": "bac",
-    "subject": "Espagnol",
-    "description": "Diagnostic Subjonctif, discours, culture hispanique - Bac",
+    "level": "6eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 6eme : EMC 6e - Droits de l’enfant (Convention ONU)",
     "status": "published",
-    "created_at": "2026-03-08 18:11:00",
-    "updated_at": "2026-03-08 18:11:00"
+    "created_at": "2026-04-06 06:25:43",
+    "updated_at": "2026-04-06 06:25:43"
   },
   "quiz": {
-    "title": "Diagnostic Bac - Espagnol Avancé",
-    "level": "bac",
-    "subject": "Espagnol",
+    "title": "EMC 6e - Droits de l’enfant (Convention ONU)",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Espero **que vengas** = subjonctif après ...",
+        "question": "Pourquoi est-il important de respecter les droits de l'enfant tels que définis par la Convention des Nations Unies ?",
         "choices": [
-          "indicatif émotion",
-          "subjonctif doute",
-          "infinitif",
-          "gérondif"
-        ],
-        "id": 1
+          "Le respect des droits de l'enfant garantit la protection, le bien-être et le développement des enfants, en leur permettant de vivre dans un environnement sûr et épanouissant.",
+          "Le respect des droits de l'enfant est inutile, car les enfants n'ont pas besoin de droits spécifiques.",
+          "Le respect des droits de l'enfant est réservé aux élites politiques et économiques.",
+          "Le respect des droits de l'enfant est limité aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Dudo que sea verdad (subjonctif négation).",
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "Me dijo **que vivía** en Madrid (discours indirect).",
-        "placeholder": "vivía imparfait",
-        "id": 3
+        "question": "Les droits de l'enfant sont des droits fondamentaux protégés par la loi."
       },
       {
         "type": "qcm",
-        "question": "Por **que** =",
+        "question": "Quels sont les avantages de respecter les droits de l'enfant ?",
         "choices": [
-          "pour",
-          "parce que",
-          "afin que",
-          "quoique"
-        ],
-        "id": 4
+          "Le respect des droits de l'enfant favorise le développement, la protection et le bien-être des enfants, en leur permettant de vivre dans un environnement sûr et épanouissant.",
+          "Le respect des droits de l'enfant est inutile, car les enfants n'ont pas besoin de droits spécifiques.",
+          "Le respect des droits de l'enfant est réservé aux élites politiques et économiques.",
+          "Le respect des droits de l'enfant est limité aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Ser/estar: ser identité, estar état.",
-        "id": 5
-      },
-      {
-        "type": "texte",
-        "question": "Cultura: Siglo de **Oro** (littérature).",
-        "placeholder": "17e siècle",
-        "id": 6
+        "question": "Le respect des droits de l'enfant est un concept qui promeut la non-intervention dans les affaires des enfants."
       },
       {
         "type": "qcm",
-        "question": "Subjonctif après : quiero **que**...",
+        "question": "Quel est le rôle de l'éducation dans le respect des droits de l'enfant ?",
         "choices": [
-          "venga",
-          "viene",
-          "vino",
-          "vendrá"
-        ],
-        "id": 7
+          "L'éducation joue un rôle crucial en sensibilisant les individus aux droits de l'enfant et en promouvant le respect de ces droits.",
+          "L'éducation est inutile dans le respect des droits de l'enfant, car les individus peuvent apprendre par eux-mêmes.",
+          "L'éducation est réservée aux élites politiques et économiques.",
+          "L'éducation est limitée aux écoles uniquement."
+        ]
       },
       {
-        "type": "texte",
-        "question": "Federico García **Lorca** œuvre.",
-        "placeholder": "Bodas de sangre",
-        "id": 8
+        "type": "vrai-faux",
+        "question": "Le respect des droits de l'enfant est un concept qui promeut la non-intervention dans les affaires des enfants."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle des médias dans le respect des droits de l'enfant ?",
+        "choices": [
+          "Les médias ont un rôle important en promouvant des représentations positives des enfants et en sensibilisant le public au respect des droits de l'enfant.",
+          "Les médias sont inutiles dans le respect des droits de l'enfant, car les individus peuvent apprendre par eux-mêmes.",
+          "Les médias sont réservés aux élites politiques et économiques.",
+          "Les médias sont limités aux écoles uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect des droits de l'enfant est un concept qui promeut la non-intervention dans les affaires des enfants."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Subjonctif",
-      "description": "Doute, émotion, négation (Bac Espagnol)"
+      "notion": "Fondamentaux de EMC",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Discours indirect",
-      "description": "Temps décalés (dijo → vivía)"
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Culture hispanique",
-      "description": "Siglo de Oro, auteurs (Lorca, Cervantes)"
+      "notion": "Savoir-faire emc",
+      "description": "Notion du programme 6eme"
     }
   ],
   "exerciseresponses": []

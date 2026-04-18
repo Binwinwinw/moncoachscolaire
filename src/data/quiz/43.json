@@ -1,87 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 4eme Histoire-Géographie",
+    "title": "Quiz Diagnostic Anglais 6ème - Série 0043",
     "type": "quiz",
-    "level": "4eme",
-    "subject": "Histoire-Géographie",
-    "description": "Diagnostic France monarchie, guerres mondiales, Europe 4eme"
+    "level": "6ème",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6ème : Vocabulaire de base : prononciation de mots courants",
+    "status": "published",
+    "created_at": "2026-04-06 06:24:36",
+    "updated_at": "2026-04-06 06:24:36"
   },
   "quiz": {
-    "title": "Diagnostic Histoire-Géo 4eme",
-    "level": "4eme",
-    "subject": "Histoire-Géographie",
+    "title": "Vocabulaire de base : prononciation de mots courants",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
     "question_count": 8,
-    "passing_score": 75,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
     "questions": [
       {
-        "id": 1,
         "type": "qcm",
-        "question": "La Révolution française date de :",
+        "question": "Which of the following is the correct English pronunciation for the word 'cat'?",
         "choices": [
-          "1215",
-          "1789",
-          "1914",
-          "1945"
+          "Cat",
+          "Cot",
+          "Cut",
+          "Cot"
         ]
       },
       {
-        "id": 2,
-        "type": "texte",
-        "question": "Première Guerre mondiale : 1914-..."
-      },
-      {
-        "id": 3,
         "type": "vrai-faux",
-        "question": "Louis XIV = Roi-Soleil (monarchie absolue)."
+        "question": "'The English pronunciation for the word 'dog' is 'dog'' is a true statement."
       },
       {
-        "id": 4,
         "type": "qcm",
-        "question": "Seconde Guerre mondiale commence :",
+        "question": "Which of the following is the correct English pronunciation for the word 'house'?",
         "choices": [
-          "1939",
-          "1914",
-          "1945",
-          "1789"
+          "House",
+          "Hose",
+          "Hous",
+          "Hous"
         ]
       },
       {
-        "id": 5,
-        "type": "texte",
-        "question": "Traité créant l'UE : ... 1951"
-      },
-      {
-        "id": 6,
         "type": "vrai-faux",
-        "question": "La France est sortie de l'Histoire en 1940."
+        "question": "'The English pronunciation for the word 'car' is 'car'' is a true statement."
       },
       {
-        "id": 7,
         "type": "qcm",
-        "question": "Capitale Europe avant Bruxelles :",
+        "question": "Which of the following is the correct English pronunciation for the word 'tree'?",
         "choices": [
-          "Paris",
-          "Strasbourg",
-          "Luxembourg",
-          "Rome"
+          "Tree",
+          "Trey",
+          "Tee",
+          "Trey"
         ]
       },
       {
-        "id": 8,
-        "type": "texte",
-        "question": "Débarquement Normandie : ... juin 1944"
+        "type": "vrai-faux",
+        "question": "'The English pronunciation for the word 'book' is 'book'' is a true statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is the correct English pronunciation for the word 'water'?",
+        "choices": [
+          "Water",
+          "Watter",
+          "Woter",
+          "Watter"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English pronunciation for the word 'food' is 'food'' is a true statement."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Révolution française"
+      "notion": "Vocabulaire de base",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "notion": "Guerres mondiales"
+      "notion": "Grammaire simple",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "notion": "Construction Europe"
+      "notion": "Expression orale",
+      "description": "Notion fondamentale de Anglais"
     }
   ],
   "exerciseresponses": []

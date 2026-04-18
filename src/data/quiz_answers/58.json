@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 0058",
+    "level": "6eme",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Comparaison ordre décimaux",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "0.1",
+        "correction": "0.1 est le plus grand nombre décimal parmi les options données."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "0.5 est plus petit que 0.6."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "0.0001",
+        "correction": "0.0001 est le plus petit nombre décimal parmi les options données."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "0.01 est plus grand que 0.001."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "0.05",
+        "correction": "0.05 est le nombre décimal qui se trouve entre 0.01 et 0.1."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "0.001 est plus grand que 0.0001."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "0.005",
+        "correction": "0.005 est le nombre décimal qui se trouve entre 0.001 et 0.01."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "0.0001 est plus petit que 0.001."
+      }
+    ]
+  }
+}

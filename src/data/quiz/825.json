@@ -6,8 +6,8 @@
     "subject": "SES",
     "description": "Diagnostic SES 1ère : L'entreprise et ses objectifs",
     "status": "published",
-    "created_at": "2026-03-13 18:59:45",
-    "updated_at": "2026-03-13 18:59:45"
+    "created_at": "2026-04-06 06:40:40",
+    "updated_at": "2026-04-06 06:40:40"
   },
   "quiz": {
     "title": "L'entreprise et ses objectifs",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Inégalités et redistribution",
+      "description": "Notion fondamentale de SES"
+    },
+    {
+      "notion": "Croissance économique",
+      "description": "Notion fondamentale de SES"
+    },
+    {
+      "notion": "Mondialisation",
+      "description": "Notion fondamentale de SES"
+    }
+  ],
   "exerciseresponses": []
 }

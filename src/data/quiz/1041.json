@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Probabilites conditionnelles",
     "status": "published",
-    "created_at": "2026-03-13 11:24:24",
-    "updated_at": "2026-03-13 11:24:24"
+    "created_at": "2026-04-06 06:40:48",
+    "updated_at": "2026-04-06 06:40:48"
   },
   "quiz": {
     "title": "Probabilites conditionnelles",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Définition de la probabilité conditionnelle",
+      "description": "La première étape consiste à comprendre et à définir la probabilité conditionnelle, qui est la probabilité d'un événement en fonction de l'occurrence d'un autre événement"
+    },
+    {
+      "notion": "Compréhension de l'indépendance des événements",
+      "description": "Il est essentiel de comprendre le concept d'indépendance des événements pour appliquer correctement les probabilités conditionnelles"
+    },
+    {
+      "notion": "Utilisation de la formule de Bayes",
+      "description": "La formule de Bayes est un outil fondamental pour calculer les probabilités conditionnelles, elle permet de mettre à jour les probabilités à priori en fonction de nouvelles informations"
+    }
+  ],
   "exerciseresponses": []
 }

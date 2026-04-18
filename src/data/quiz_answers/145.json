@@ -1,63 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 21",
-    "level": "1ere",
-    "subject": "Anglais"
+    "title": "Quiz Diagnostic Français 6eme - Série 0145",
+    "level": "6eme",
+    "subject": "Français"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 21",
+    "title": "Français 6e - Les bases de la grammaire",
     "question_count": 8,
+    "level": "6eme",
+    "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correction": "✅ Bonne réponse : 'He should have studied harder before the exam.' — La structure 'should have + participe passé' exprime un regret ou une critique concernant une action passée non réalisée (il aurait dû étudier davantage, mais il ne l'a pas fait). Les propositions B et D ('must studied', 'could studied') sont agrammaticales : après un modal, on utilise obligatoirement 'have + participe passé' et non le verbe seul. La proposition C ('would study') exprime une habitude passée, pas un regret. Règle à retenir : regret passé = should/could/might + have + PP."
+        "answer": "Nom",
+        "correction": "Dans la phrase 'Le chat dort', 'chat' est un nom car il désigne un animal."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "correction": "✅ Bonne réponse : VRAI. — La phrase 'If I had more time, I would travel the world' utilise le conditionnel de type 2 (2nd conditional) : if + prétérit simple + would + base verbale. Cette structure exprime une situation hypothétique ou irréelle au moment présent : le locuteur n'a pas assez de temps actuellement. Par opposition, le 1st conditional (if + présent simple + will) s'emploie pour une hypothèse réelle ou probable : 'If I have more time, I will travel the world' (c'est possible en réalité)."
+        "answer": "vrai",
+        "correction": "C'est vrai. Le verbe 'dort' est conjugué au présent de l'indicatif."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correction": "✅ Exemple de réponse modèle : 'In my opinion, social media does more harm than good. Although it allows people to stay connected across the world, it often leads to addiction, cyberbullying and the spread of misinformation. Moreover, it can seriously damage young people's mental health and self-esteem. However, if used responsibly and critically, social media can be a powerful tool for education, activism and raising awareness. Therefore, I believe we should regulate its use rather than ban it altogether.' — Critères de réussite : ① au moins un modal (can, should, must…), ② au moins un connecteur logique (although, however, therefore, moreover…), ③ une opinion clairement affirmée dès la 1ère phrase, ④ un argument ET un contre-argument, ⑤ une conclusion."
+        "type": "qcm",
+        "answer": "chat",
+        "correction": "Dans la phrase 'Le chat dort', le sujet est 'chat' car c'est lui qui effectue l'action de dormir."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correction": "✅ Bonne réponse : 'She said she was going to the cinema that night.' — En discours rapporté (reported speech), deux types de changements sont obligatoires : (1) Backshift des temps : 'am going' (présent progressif) → 'was going' (passé progressif) ; (2) Changement des expressions temporelles : 'tonight' → 'that night'. La proposition A est incorrecte car le temps n'est pas backshifté. La proposition C utilise le présent simple à la place du passé progressif. La proposition D est incorrecte car 'tell' exige un COI direct : She told ME/HIM/HER she was going… (pas 'she told she')."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. 'Chat' est un nom, pas un verbe."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "correction": "✅ Bonne réponse : VRAI. — 'The new climate law was passed by Parliament last year' est bien à la voix passive. Décomposition : sujet = 'The new climate law' (ancien COD de la voix active) + auxiliaire être conjugué = 'was' (prétérit) + participe passé = 'passed' + complément d'agent = 'by Parliament'. Voix active équivalente : 'Parliament passed the new climate law last year.' La voix passive est privilégiée ici pour mettre en avant la loi plutôt que l'institution qui l'a votée, ce qui est typique du registre journalistique et formel."
+        "type": "qcm",
+        "answer": "la souris",
+        "correction": "Dans la phrase 'Le chat mange la souris', le complément d'objet direct (COD) est 'la souris' car c'est ce qui est mangé par le chat."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "correction": "✅ Exemple de réponse modèle : 'Living abroad offers numerous advantages that are hard to find at home. First, it is an exceptional opportunity to become fluent in a foreign language and to discover new cultures firsthand. Moreover, it fosters personal growth, independence and adaptability, which are skills that employers value greatly. On the other hand, being far from one's family and close friends can be emotionally challenging, especially during difficult times. In contrast to the excitement of the early months, homesickness is a feeling that many expatriates experience at some point. Whereas the difficulties are real, the personal and professional benefits of living abroad far outweigh the drawbacks.' — Critères : ① connecteur d'opposition (on the other hand, whereas, in contrast…), ② proposition relative (that, which, who…), ③ structure en plusieurs paragraphes, ④ registre soutenu."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. 'Mange' est un verbe, pas un nom."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "correction": "✅ Bonne réponse : 'To endure a painful or difficult situation stoically.' — L'expression idiomatique 'to bite the bullet' signifie faire preuve de courage face à une épreuve difficile ou douloureuse, sans se plaindre. Son origine historique remonte à l'époque prémoderne : avant l'anesthésie, les soldats blessés mordaient une balle en plomb pendant les amputations pour supporter la douleur. Exemple d'emploi : 'The negotiations were tough, but we bit the bullet and accepted the conditions' (Les négociations étaient difficiles, mais nous avons serré les dents et accepté les conditions). Les expressions idiomatiques de ce niveau (B2–C1) sont exigibles à l'oral comme à l'écrit en 1ère."
+        "answer": "à la souris",
+        "correction": "Dans la phrase 'Le chat parle à la souris', le complément d'objet indirect (COI) est 'à la souris' car c'est à elle que le chat parle."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "correction": "✅ Bonne réponse : FAUX. — Le present perfect (have/has + PP) ne s'emploie PAS avec un marqueur temporel précis du passé. Lorsqu'on mentionne une date, une heure ou une période révolue (yesterday, last year, in 2005, at 3 o'clock, when I was a child…), on utilise obligatoirement le prétérit simple (simple past). Comparaison : ✗ 'I have seen this film yesterday' (incorrect) → ✓ 'I saw this film yesterday' (prétérit, moment précis) ; ✓ 'I have seen this film before' (present perfect, sans marqueur précis — lien avec le présent). Le present perfect s'emploie avec : already, just, yet, ever, never, since, for, recently, so far."
+        "answer": "vrai",
+        "correction": "C'est vrai. 'Parle' est un verbe, pas un nom."
       }
-    ],
-    "level": "1ere",
-    "subject": "Anglais"
+    ]
   }
 }

@@ -1,84 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 5eme SVT",
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 0050",
     "type": "quiz",
-    "level": "5eme",
-    "subject": "SVT",
-    "description": "Diagnostic reproduction humaine, squelette, énergie 5eme"
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 6eme : grandeurs et mesures, fonctions et organisation de données",
+    "status": "published",
+    "created_at": "2026-04-06 06:25:41",
+    "updated_at": "2026-04-06 06:25:41"
   },
   "quiz": {
-    "title": "Diagnostic SVT 5eme",
-    "level": "5eme",
-    "subject": "SVT",
+    "title": "grandeurs et mesures, fonctions et organisation de données",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Mathématiques",
     "question_count": 8,
-    "passing_score": 75,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
     "questions": [
       {
-        "id": 1,
         "type": "qcm",
-        "question": "Organe femelle reproduction :",
+        "question": "Quelle est l'unité de mesure de la longueur ?",
         "choices": [
-          "Testicule",
-          "Ovaire",
-          "Prostate"
+          "mètre",
+          "kilogramme",
+          "seconde",
+          "litre"
         ]
       },
       {
-        "id": 2,
-        "type": "texte",
-        "question": "Os du crâne = ..."
-      },
-      {
-        "id": 3,
         "type": "vrai-faux",
-        "question": "Squelette = 206 os adultes."
+        "question": "Un kilogramme est une unité de mesure de la masse."
       },
       {
-        "id": 4,
+        "type": "open",
+        "question": "Combien de secondes y a-t-il dans une minute ?"
+      },
+      {
         "type": "qcm",
-        "question": "Énergie chimique → ... (respiration)",
+        "question": "Quelle est l'unité de mesure de la capacité ?",
         "choices": [
-          "Lumière",
-          "Chaleur",
-          "Mécanique"
+          "mètre",
+          "kilogramme",
+          "seconde",
+          "litre"
         ]
       },
       {
-        "id": 5,
-        "type": "texte",
-        "question": "Fécondation = spermatozoïde + ..."
-      },
-      {
-        "id": 6,
         "type": "vrai-faux",
-        "question": "Colonne vertébrale = osseuse uniquement."
+        "question": "Un mètre est une unité de mesure de la masse."
       },
       {
-        "id": 7,
         "type": "qcm",
-        "question": "Respiration cellulaire lieu :",
+        "question": "Combien de minutes y a-t-il dans une heure ?",
         "choices": [
-          "Noyau",
-          "Cytoplasme",
-          "Mitochondries"
+          "50",
+          "55",
+          "60",
+          "65"
         ]
       },
       {
-        "id": 8,
-        "type": "texte",
-        "question": "Grossesse humaine = ... mois"
+        "type": "vrai-faux",
+        "question": "Un litre est une unité de mesure de la capacité."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est l'unité de mesure du temps ?",
+        "choices": [
+          "mètre",
+          "kilogramme",
+          "seconde",
+          "litre"
+        ]
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Reproduction humaine"
+      "notion": "Fondamentaux de Mathématiques",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Squelette"
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Énergie cellulaire"
+      "notion": "Savoir-faire mathématiques",
+      "description": "Notion du programme 6eme"
     }
   ],
   "exerciseresponses": []

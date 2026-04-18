@@ -1,71 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 6eme Anglais",
-    "level": "6eme",
+    "title": "Quiz Diagnostic Anglais 6ème - Série 0022",
+    "level": "6ème",
     "subject": "Anglais"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 6eme Anglais",
+    "title": "Vocabulaire de base : couleurs, nombres, jours de la semaine",
     "question_count": 8,
+    "level": "6ème",
+    "subject": "Anglais",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correct": 1,
-        "correction": "**is** (to be, 3e personne singulier). Vocabulaire : mother, teacher."
+        "answer": "Red",
+        "correction": "The English word for 'rouge' is 'red'."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "correct": 1,
-        "correction": "**Vrai**. You **are** my best friend (to be, 2e personne)."
+        "answer": "vrai",
+        "correction": "The number 5 is indeed greater than the number 3, as it represents a larger quantity."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correct": null,
-        "correction": "**are** (they, pluriel to be)."
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "'Numbers', 'Digits', and 'Numerals' are all common English words that can be used to refer to numerical symbols and quantities."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correct": 1,
-        "correction": "**have** (to have, 1re personne). Vocabulaire : dog (pet)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The number 10 is indeed less than the number 20, as it represents a smaller quantity."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "correct": 1,
-        "correction": "**Vrai**. He **eats** (+s present simple habitudes)."
+        "type": "qcm",
+        "answer": "Monday",
+        "correction": "The English word for 'lundi' is 'Monday'."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "correct": null,
-        "correction": "**do** (question auxiliaire do/does)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The week indeed has seven days: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, and Sunday."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "correct": 0,
-        "correction": "**is** (this, singulier to be). Vocabulaire : school bag."
+        "answer": "All of the above",
+        "correction": "'Colors', 'Hues', and 'Shades' are all common English words that can be used to refer to different aspects of color and visual perception."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "correct": 1,
-        "correction": "**Vrai**. We **are** happy (to be pluriel)."
+        "answer": "vrai",
+        "correction": "The color blue is indeed often associated with calmness and tranquility, as it can evoke feelings of peace and relaxation."
       }
-    ],
-    "level": "6eme",
-    "subject": "Anglais"
+    ]
   }
 }

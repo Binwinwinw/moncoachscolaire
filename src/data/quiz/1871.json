@@ -1,0 +1,90 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT terminale - SÃ©rie 1871",
+    "type": "quiz",
+    "level": "terminale",
+    "subject": "SVT",
+    "description": "Diagnostic SVT terminale : SVT terminale - Methodes d'investigation",
+    "status": "published",
+    "created_at": "2026-04-06 06:40:49",
+    "updated_at": "2026-04-06 06:40:49",
+    "source": "Eduscol programmes officiels + BOEN",
+    "programme_ref": "BO special ndeg8 du 25 juillet 2019 + Eduscol SVT Terminale"
+  },
+  "quiz": {
+    "title": "SVT terminale - Methodes d'investigation",
+    "type": "quiz",
+    "level": "terminale",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "[SVT terminale] Sur le theme 'Methodes d'investigation', quelle demarche est la plus efficace pour reussir un exercice diagnostic ?",
+        "choices": [
+          "Relire la consigne et identifier l'objectif",
+          "Repondre vite sans verifier",
+          "Ignorer le contexte",
+          "Memoriser sans comprendre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[SVT terminale] Sur 'Methodes d'investigation', verifier ses reponses avant validation ameliore la fiabilite."
+      },
+      {
+        "type": "open",
+        "question": "[SVT terminale] Cite une methode concrete pour progresser sur le theme 'Methodes d'investigation'."
+      },
+      {
+        "type": "qcm",
+        "question": "[SVT terminale] Quelle action favorise la memorisation durable du theme 'Methodes d'investigation' ?",
+        "choices": [
+          "Faire des rappels espaces",
+          "Tout revoir une seule fois",
+          "Copier sans comprendre",
+          "Eviter les exercices"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[SVT terminale] L'explication d'une reponse est moins importante que la reponse elle-meme."
+      },
+      {
+        "type": "open",
+        "question": "[SVT terminale] Propose un exemple d'auto-correction pertinente sur 'Methodes d'investigation'."
+      },
+      {
+        "type": "qcm",
+        "question": "[SVT terminale] Quel indicateur montre une bonne maitrise du theme 'Methodes d'investigation' ?",
+        "choices": [
+          "Expliquer clairement la demarche",
+          "Donner une reponse au hasard",
+          "Eviter les notions difficiles",
+          "Memoriser sans application"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[SVT terminale] Alterner entrainement, feedback et reprise des erreurs aide a progresser sur 'Methodes d'investigation'."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Théorie synthétique de l'évolution",
+      "description": "Notion fondamentale de SVT"
+    },
+    {
+      "notion": "Biologie cellulaire moléculaire",
+      "description": "Notion fondamentale de SVT"
+    },
+    {
+      "notion": "Écosystèmes et biosphère",
+      "description": "Notion fondamentale de SVT"
+    }
+  ],
+  "exerciseresponses": []
+}

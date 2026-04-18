@@ -1,96 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic seconde Français",
+    "title": "Quiz Diagnostic EMC 6eme - Série 0100",
     "type": "quiz",
-    "level": "seconde",
-    "subject": "Français",
-    "description": "Diagnostic Français seconde : Littérature et textes",
+    "level": "6eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 6eme : EMC 6e - La laïcité en France",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-08 14:20:00"
+    "created_at": "2026-04-06 06:25:43",
+    "updated_at": "2026-04-06 06:25:43"
   },
   "quiz": {
-    "title": "Quiz Diagnostic seconde Français",
-    "level": "seconde",
-    "subject": "Français",
+    "title": "EMC 6e - La laïcité en France",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Dans 'Les _larmes_ coulent.', 'larmes' est un :",
+        "question": "Qu'est-ce que la laïcité en France ?",
         "choices": [
-          "verbe",
-          "nom",
-          "adjectif",
-          "adverbe"
-        ],
-        "id": 1
+          "La séparation des Églises et de l'État, garantissant la liberté de conscience et d'expression religieuse",
+          "La promotion d'une religion d'État en France",
+          "L'interdiction de toute expression religieuse en public",
+          "La coexistence pacifique de toutes les religions en France"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Le romantisme privilégie la raison sur l'émotion.",
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "Définir 'figure de style'. Exemple ?",
-        "placeholder": "Comparaison: comme un lion",
-        "id": 3
+        "question": "La laïcité permet à chacun de pratiquer sa religion librement, tant que cela ne perturbe pas l'ordre public."
       },
       {
         "type": "qcm",
-        "question": "Le _court_ rapidement. 'Court' est :",
+        "question": "Quel est le rôle de l'État dans une société laïque ?",
         "choices": [
-          "adjectif",
-          "nom",
-          "verbe",
-          "préposition"
-        ],
-        "id": 4
+          "L'État doit rester neutre vis-à-vis des religions et garantir la liberté de conscience pour tous les citoyens.",
+          "L'État doit promouvoir une religion d'État pour unifier la nation.",
+          "L'État doit interdire toute expression religieuse en public pour maintenir l'ordre.",
+          "L'État doit favoriser le dialogue interreligieux pour promouvoir la coexistence pacifique."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "La focalisation externe utilise le point de vue de l'auteur.",
-        "id": 5
-      },
-      {
-        "type": "texte",
-        "question": "Auteur du romantisme : 'Les Misérables'.",
-        "placeholder": "Victor Hugo",
-        "id": 6
+        "question": "La laïcité implique que l'État ne favorise aucune religion."
       },
       {
         "type": "qcm",
-        "question": "La poésie lyrique exprime :",
+        "question": "Quel est le symbole de la laïcité en France ?",
         "choices": [
-          "exploits guerriers",
-          "émotions personnelles",
-          "faits historiques",
-          "recettes"
-        ],
-        "id": 7
+          "Le drapeau tricolore",
+          "La Marseillaise",
+          "Marianne",
+          "Le coq gaulois"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "L'oxymore associe deux idées contraires.",
-        "id": 8
+        "question": "La laïcité garantit la liberté d'expression religieuse pour tous les citoyens français."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle des écoles publiques dans une société laïque ?",
+        "choices": [
+          "Les écoles publiques doivent enseigner les valeurs de la République et respecter la neutralité religieuse.",
+          "Les écoles publiques doivent promouvoir une religion d'État pour unifier les élèves.",
+          "Les écoles publiques doivent interdire toute expression religieuse pour maintenir l'ordre.",
+          "Les écoles publiques doivent favoriser le dialogue interreligieux pour promouvoir la coexistence pacifique."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La laïcité permet à chacun de pratiquer sa religion librement, même si cela perturbe l'ordre public."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Analyse grammaticale",
-      "description": "Concept clé de Français au niveau seconde"
+      "notion": "La laïcité comme principe de séparation",
+      "description": "La laïcité en France repose sur le principe de séparation entre l'État et les Églises, garantissant la neutralité de l'État et la liberté de culte pour les citoyens"
     },
     {
-      "notion": "Mouvements littéraires",
-      "description": "Concept clé de Français au niveau seconde"
+      "notion": "La laïcité comme garantie de liberté",
+      "description": "La laïcité protège la liberté de conscience, de pensée et de culte, permettant aux individus de choisir leur croyance ou leur absence de croyance sans subir de discriminations"
     },
     {
-      "notion": "Figures de style",
-      "description": "Concept clé de Français au niveau seconde"
+      "notion": "La laïcité comme valeur républicaine",
+      "description": "La laïcité est une valeur fondamentale de la République française, promouvant l'égalité, la fraternité et la solidarité entre les citoyens, quelles que soient leurs convictions religieuses ou philosop"
     }
   ],
   "exerciseresponses": []

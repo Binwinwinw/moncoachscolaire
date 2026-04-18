@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques 2nde : Optimisation elementaire",
     "status": "published",
-    "created_at": "2026-03-13 11:15:43",
-    "updated_at": "2026-03-13 11:15:43"
+    "created_at": "2026-04-06 06:40:42",
+    "updated_at": "2026-04-06 06:40:42"
   },
   "quiz": {
     "title": "Optimisation elementaire",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Compréhension du problème",
+      "description": "L'élève doit d'abord comprendre le problème posé, en identifiant les contraintes et les objectifs"
+    },
+    {
+      "notion": "Modélisation mathématique",
+      "description": "L'élève doit ensuite modéliser le problème à l'aide de concepts mathématiques, tels que les équations ou les inégalités"
+    },
+    {
+      "notion": "Recherche de la solution optimale",
+      "description": "Enfin, l'élève doit rechercher la solution optimale en utilisant des méthodes appropriées, telles que la résolution d'équations ou la recherche de maximums et de minimums"
+    }
+  ],
   "exerciseresponses": []
 }

@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6ème - Série 0067",
+    "level": "6ème",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Bissectrice d’angle, Médiatrice segment, Disque et cercle (vocabulaire)",
+    "question_count": 8,
+    "level": "6ème",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Vrai",
+        "correction": "La bissectrice d'un angle est une droite qui divise l'angle en deux angles égaux."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "La bissectrice d'un angle divise l'angle en deux angles égaux, pas inégaux."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Vrai",
+        "correction": "La médiatrice d'un segment est une droite qui passe par le milieu du segment et est perpendiculaire à ce segment."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "La médiatrice d'un segment passe par le milieu du segment et est perpendiculaire à ce segment, pas par une extrémité et parallèle."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Vrai",
+        "correction": "Un disque est la partie du plan délimitée par un cercle."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Un disque est la partie du plan délimitée par un cercle, pas par une droite."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Vrai",
+        "correction": "Un cercle est la ligne formée par tous les points du plan qui sont à une distance donnée d'un point fixe appelé centre."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Un cercle est la ligne formée par tous les points du plan qui sont à une distance donnée d'un point fixe appelé centre, pas d'une droite."
+      }
+    ]
+  }
+}

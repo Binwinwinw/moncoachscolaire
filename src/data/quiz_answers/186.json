@@ -1,75 +1,70 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Histoire-Geographie 1ere - Série 186",
-    "level": "1ere",
-    "subject": "Histoire-Geographie"
+    "title": "Quiz Diagnostic Français 6eme - Série 0186",
+    "level": "6eme",
+    "subject": "Français"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Histoire-Géographie - Serie 12",
+    "title": "Français 6e - Les valeurs de la répétition",
     "question_count": 8,
-    "level": "1ere",
-    "subject": "Histoire-Geographie",
+    "level": "6eme",
+    "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Un développement qui répond aux besoins du présent sans compromettre ceux des générations futures",
-        "correct": 1,
-        "correction": "Le développement durable est défini par le rapport Brundtland (1987) comme 'un développement qui répond aux besoins du présent sans compromettre la capacité des générations futures à répondre aux leurs.' Il repose sur trois piliers : économique (croissance), social (équité) et environnemental (préservation des ressources)."
+        "answer": "Une figure de style qui met en valeur une idée en la répétant ou en la soulignant",
+        "correction": "La répétition est une figure de style qui met en valeur une idée en la répétant ou en la soulignant."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
         "answer": "vrai",
-        "correction": "VRAI. Le GIEC (Groupe d'experts intergouvernemental sur l'évolution du climat) affirme avec un très haut degré de certitude que le réchauffement climatique observé depuis le milieu du XXe siècle est principalement dû aux émissions anthropiques de gaz à effet de serre (CO², méthane, protoxyde d'azote), notamment issues de la combustion des énergies fossiles."
+        "correction": "C'est vrai. La répétition peut être classée en plusieurs types, tels que les anaphores, les épiphore, les parallélismes, etc., en fonction de la manière dont elle met en valeur une idée."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "open",
-        "correct_answer": "L'accord de Paris est un accord international visant à limiter le réchauffement climatique à +1,5°C à +2°C par rapport à l'ère préindustrielle.",
-        "answer": "L'accord de Paris est un accord international visant à limiter le réchauffement climatique à +1,5°C à +2°C par rapport à l'ère préindustrielle.",
-        "correction": "L'accord de Paris, adopté lors de la COP21 (décembre 2015) et signé par 196 pays, vise à maintenir le réchauffement climatique bien en dessous de +2°C par rapport aux niveaux préindustriels, et à poursuivre les efforts pour le limiter à +1,5°C. Chaque pays soumet des contributions nationales déterminées (NDC) et les révise à la hausse progressivement. C'est le premier accord climatique universel et contraignant."
+        "type": "qcm",
+        "answer": "Anaphore",
+        "correction": "L'anaphore est une figure de répétition qui consiste à répéter un mot ou une expression au début de plusieurs phrases ou vers, afin de mettre en valeur une idée ou un thème dans un texte."
       },
       {
         "index": 3,
         "question_id": 4,
         "type": "qcm",
-        "answer": "La montée du niveau des mers et les submersions marines",
-        "correct": 2,
-        "correction": "La montée du niveau des mers (environ 3,7 mm/an actuellement, potentiellement 1 m ou plus d'ici 2100) menace les côtes basses françaises (littoral atlantique, Camargue, côtes de la Manche). Des communes comme Le Mont-Saint-Michel ou certaines zones de la Camargue sont déjà exposées à des risques accrus de submersion et d'érosion côtière."
+        "answer": "Mettre en valeur une idée en la répétant ou en la soulignant",
+        "correction": "Le rôle d'une figure de répétition dans la communication est de mettre en valeur une idée en la répétant ou en la soulignant."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. La France a la proportion la plus élevée au monde d'électricité d'origine nucléaire (~70-75% selon les années). Le parc nucléaire d'EDF (56 réacteurs en 2023, en cours de maintenance) est au cœur du mix énergétique français. Cette dépendance au nucléaire est au cœur des débats sur la transition énergétique."
+        "answer": "faux",
+        "correction": "Il n'est pas toujours facile d'utiliser les figures de répétition de manière appropriée dans la communication écrite, car cela nécessite une bonne compréhension du contexte et de l'effet recherché."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "open",
-        "correct_answer": "Un risque majeur est un événement potentiellement catastrophique (naturel ou technologique) pour une société. La prévention passe par la cartographie, l'alerte, les plans de secours et l'éducation.",
-        "answer": "Un risque majeur est un événement potentiellement catastrophique (naturel ou technologique) pour une société. La prévention passe par la cartographie, l'alerte, les plans de secours et l'éducation.",
-        "correction": "Un risque majeur est un aléa (naturel : séisme, inondation, cyclone ; ou technologique : accident industriel, nucléaire) pouvant causer de nombreuses victimes et des dommages considérables. La gestion des risques comprend : la prévention (cartographie, PPR - Plans de Prévention des Risques), la préparation (plans ORSEC, PCS), l'alerte (systèmes d'alerte précoce), la protection (digues, constructions parasismiques) et la mémoire du risque (culture du risque)."
+        "type": "qcm",
+        "answer": "Hyperbole",
+        "correction": "L'hyperbole est une figure de répétition qui consiste à exagérer une idée ou une réalité, afin de mettre en valeur une idée ou un thème dans un texte."
       },
       {
         "index": 6,
         "question_id": 7,
-        "type": "qcm",
-        "answer": "La quantité totale de gaz à effet de serre émise directement et indirectement",
-        "correct": 1,
-        "correction": "L'empreinte carbone mesure la quantité totale de gaz à effet de serre (en équivalent CO²) émise directement et indirectement par une personne, une organisation ou un pays, y compris les émissions liées à la consommation de biens importés. C'est un indicateur clé pour mesurer l'impact climatique et orienter les politiques de réduction."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. L'utilisation correcte des figures de répétition est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les écrivains utilisent les figures de répétition de manière appropriée en fonction du contexte et du message qu'ils souhaitent transmettre, ce qui contribue à la clarté du message et à l'efficacité de la communication écrite."
       },
       {
         "index": 7,
         "question_id": 8,
-        "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. Les scientifiques parlent d'une 6e extinction de masse : le taux d'extinction des espèces serait 1 000 fois supérieur au taux naturel. Les principales causes sont : la destruction des habitats (déforestation, urbanisation), la surexploitation des ressources, la pollution, les espèces invasives et le changement climatique. L'IPBES (équivalent du GIEC pour la biodiversité) estime qu'un million d'espèces sont menacées."
+        "type": "qcm",
+        "answer": "Allitération",
+        "correction": "L'allitération est une figure de répétition qui consiste à répéter des sons consonantiques similaires dans plusieurs mots ou vers, afin de mettre en valeur une idée ou un thème dans un texte."
       }
     ]
   }

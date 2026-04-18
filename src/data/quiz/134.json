@@ -1,102 +1,94 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ère Anglais - Série 10",
+    "title": "Quiz Diagnostic EMC 6eme - Série 0134",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Anglais",
-    "description": "Diagnostic Anglais 1ère : Sports, Leisure, Advanced Expression (Eduscol B1/B2)",
+    "level": "6eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 6eme : EMC 6e - Paix et non-violence",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-09 18:33:00"
+    "created_at": "2026-04-06 06:25:43",
+    "updated_at": "2026-04-06 06:25:43"
   },
   "quiz": {
-    "title": "1ère English Diagnostic - Series 10 (Sports & Leisure)",
-    "level": "1ere",
-    "subject": "Anglais",
+    "title": "EMC 6e - Paix et non-violence",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Extreme sports are popular among youth because they offer:",
+        "question": "Pourquoi est-il important de respecter les règles de paix et de non-violence ?",
         "choices": [
-          "Adrenaline rush",
-          "Safety guarantees",
-          "Low cost",
-          "Team spirit only"
-        ],
-        "correct_index": 0,
-        "id": 1
+          "Le respect des règles de paix et de non-violence garantit la promotion d'une société plus pacifique et respectueuse des droits de l'homme.",
+          "Le respect des règles de paix et de non-violence est inutile, car les individus peuvent agir comme ils le souhaitent.",
+          "Le respect des règles de paix et de non-violence est réservé aux élites politiques et économiques.",
+          "Le respect des règles de paix et de non-violence est limité aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Professional athletes earn too much compared to teachers.",
-        "correct": true,
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "Name 2 benefits of team sports for teenagers.",
-        "placeholder": "ex: Builds teamwork, boosts confidence",
-        "id": 3
+        "question": "Le respect des règles de paix et de non-violence est un concept qui promeut la non-intervention dans les affaires des individus."
       },
       {
         "type": "qcm",
-        "question": "Fronting emphasis: On teamwork _____ in football.",
+        "question": "Quel est le rôle de l'éducation dans le respect des règles de paix et de non-violence ?",
         "choices": [
-          "the success depends",
-          "depends the success",
-          "the success depend",
-          "depends success"
-        ],
-        "correct_index": 0,
-        "id": 4
+          "L'éducation joue un rôle crucial en sensibilisant les individus aux règles de paix et de non-violence et en promouvant le respect de ces règles.",
+          "L'éducation est inutile dans le respect des règles de paix et de non-violence, car les individus peuvent apprendre par eux-mêmes.",
+          "L'éducation est réservée aux élites politiques et économiques.",
+          "L'éducation est limitée aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Esports will overtake traditional sports in popularity by 2030.",
-        "correct": false,
-        "id": 5
-      },
-      {
-        "type": "texte",
-        "question": "Why do people watch the Olympics? 1 main reason.",
-        "placeholder": "ex: International unity, top athletes competition",
-        "id": 6
+        "question": "Le respect des règles de paix et de non-violence est un concept qui promeut la non-intervention dans les affaires des individus."
       },
       {
         "type": "qcm",
-        "question": "Doping scandals have damaged which sport's reputation?",
+        "question": "Quel est le rôle des médias dans le respect des règles de paix et de non-violence ?",
         "choices": [
-          "Cycling (Lance Armstrong)",
-          "Swimming",
-          "Tennis",
-          "Athletics only"
-        ],
-        "correct_index": 0,
-        "id": 7
+          "Les médias jouent un rôle crucial en sensibilisant le public aux règles de paix et de non-violence et en promouvant le respect de ces règles.",
+          "Les médias sont inutiles dans le respect des règles de paix et de non-violence, car les individus peuvent apprendre par eux-mêmes.",
+          "Les médias sont réservés aux élites politiques et économiques.",
+          "Les médias sont limités aux informations locales uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Not football but rugby is France's national sport.",
-        "correct": false,
-        "id": 8
+        "question": "La paix et la non-violence sont des concepts qui promeuvent la non-intervention dans les affaires des individus."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle des parents dans le respect des règles de paix et de non-violence ?",
+        "choices": [
+          "Les parents ont un rôle important en sensibilisant leurs enfants aux règles de paix et de non-violence et en promouvant le respect de ces règles.",
+          "Les parents sont inutiles dans le respect des règles de paix et de non-violence, car les individus peuvent apprendre par eux-mêmes.",
+          "Les parents sont réservés aux élites politiques et économiques.",
+          "Les parents sont limités aux écoles uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect des règles de paix et de non-violence est un concept qui promeut la non-intervention dans les affaires des individus."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Extreme Sports",
-      "description": "Risk vs thrill, safety debates (Eduscol 1ère)"
+      "notion": "Fondamentaux de EMC",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Esports & Olympics",
-      "description": "Professionalization, doping issues"
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Advanced Grammar",
-      "description": "Fronting (On teamwork...), ellipsis, contrast connectors"
+      "notion": "Savoir-faire emc",
+      "description": "Notion du programme 6eme"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

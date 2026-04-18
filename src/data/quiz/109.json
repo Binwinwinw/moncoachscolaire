@@ -1,97 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Terminale SVT - Biologie Moléculaire",
+    "title": "Quiz Diagnostic EMC 6eme - Série 0109",
     "type": "quiz",
-    "level": "terminale",
-    "subject": "SVT",
-    "description": "Diagnostic ADN, transcription, protéines - Terminale",
+    "level": "6eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 6eme : EMC 6e - Diversité culturelle et religieuse",
     "status": "published",
-    "created_at": "2026-03-08 18:03:00",
-    "updated_at": "2026-03-08 18:03:00"
+    "created_at": "2026-04-06 06:25:43",
+    "updated_at": "2026-04-06 06:25:43"
   },
   "quiz": {
-    "title": "Diagnostic Terminale - Biologie Moléculaire",
-    "level": "terminale",
-    "subject": "SVT",
+    "title": "EMC 6e - Diversité culturelle et religieuse",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "ADN → ARN → Protéine =",
+        "question": "Pourquoi est-il important de respecter la diversité culturelle et religieuse ?",
         "choices": [
-          "Réplication",
-          "Transcription + traduction",
-          "Mutation",
-          "Méiose"
-        ],
-        "id": 1
+          "Le respect de la diversité culturelle et religieuse favorise la tolérance, l'inclusion et la richesse culturelle dans la société.",
+          "Le respect de la diversité culturelle et religieuse est inutile, car tout le monde devrait être pareil.",
+          "Le respect de la diversité culturelle et religieuse est réservé aux élites politiques et économiques.",
+          "Le respect de la diversité culturelle et religieuse est limité aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Codon = 3 bases ARN → 1 acide aminé.",
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "Nombre bases ADN haploïde humain ≈ ... milliards",
-        "placeholder": "3",
-        "id": 3
+        "question": "Le respect de la diversité culturelle et religieuse est un droit fondamental protégé par la loi."
       },
       {
         "type": "qcm",
-        "question": "Mutation substitution =",
+        "question": "Quels sont les avantages de respecter la diversité culturelle et religieuse ?",
         "choices": [
-          "Déletion",
-          "Changement 1 base",
-          "Insertion",
-          "Inversion"
-        ],
-        "id": 4
+          "Le respect de la diversité culturelle et religieuse favorise la créativité, l'innovation et la richesse culturelle dans la société.",
+          "Le respect de la diversité culturelle et religieuse est inutile, car tout le monde devrait être pareil.",
+          "Le respect de la diversité culturelle et religieuse est réservé aux élites politiques et économiques.",
+          "Le respect de la diversité culturelle et religieuse est limité aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Code génétique universel (sauf exceptions).",
-        "id": 5
-      },
-      {
-        "type": "texte",
-        "question": "Ribosome site synthèse protéines.",
-        "placeholder": "traduction",
-        "id": 6
+        "question": "Le respect de la diversité culturelle et religieuse est un concept qui promeut la non-intervention dans les affaires des autres personnes."
       },
       {
         "type": "qcm",
-        "question": "PCR =",
+        "question": "Quel est le rôle de l'éducation dans le respect de la diversité culturelle et religieuse ?",
         "choices": [
-          "Séquence ADN",
-          "Amplification ADN",
-          "Coupe ADN",
-          "Lecture ARN"
-        ],
-        "id": 7
+          "L'éducation joue un rôle crucial en sensibilisant les individus à la diversité et en promouvant le respect de la diversité culturelle et religieuse.",
+          "L'éducation est inutile dans le respect de la diversité culturelle et religieuse, car les individus peuvent apprendre par eux-mêmes.",
+          "L'éducation est réservée aux élites politiques et économiques.",
+          "L'éducation est limitée aux écoles uniquement."
+        ]
       },
       {
-        "type": "texte",
-        "question": "ARN messager rôle : ... génétique → protéine",
-        "placeholder": "intermédiaire",
-        "id": 8
+        "type": "vrai-faux",
+        "question": "Le respect de la diversité culturelle et religieuse est un concept qui promeut la non-intervention dans les affaires des autres personnes."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle des médias dans le respect de la diversité culturelle et religieuse ?",
+        "choices": [
+          "Les médias ont un rôle important en promouvant des représentations positives de la diversité et en sensibilisant le public au respect de la diversité culturelle et religieuse.",
+          "Les médias sont inutiles dans le respect de la diversité culturelle et religieuse, car les individus peuvent apprendre par eux-mêmes.",
+          "Les médias sont réservés aux élites politiques et économiques.",
+          "Les médias sont limités aux écoles uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect de la diversité culturelle et religieuse est un concept qui promeut la non-intervention dans les affaires des autres personnes."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Dogme central biologie moléculaire",
-      "description": "ADN→ARN→Protéine (Terminale SVT)"
+      "notion": "Fondamentaux de EMC",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Code génétique",
-      "description": "64 codons → 20 acides aminés"
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Mutations & PCR",
-      "description": "Génie génétique terminale"
+      "notion": "Savoir-faire emc",
+      "description": "Notion du programme 6eme"
     }
   ],
   "exerciseresponses": []

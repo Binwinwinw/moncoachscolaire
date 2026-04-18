@@ -1,102 +1,94 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ère Anglais - Série 05",
+    "title": "Quiz Diagnostic EMC 6eme - Série 0129",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Anglais",
-    "description": "Diagnostic Anglais 1ère : Health, Lifestyle, Advanced Expression (Eduscol B1/B2)",
+    "level": "6eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 6eme : EMC 6e - Projets collectifs école",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-09 17:04:00"
+    "created_at": "2026-04-06 06:25:43",
+    "updated_at": "2026-04-06 06:25:43"
   },
   "quiz": {
-    "title": "1ère English Diagnostic - Series 05 (Health & Lifestyle)",
-    "level": "1ere",
-    "subject": "Anglais",
+    "title": "EMC 6e - Projets collectifs école",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Fast food consumption has increased due to:",
+        "question": "Pourquoi est-il important de respecter les règles des projets collectifs à l'école ?",
         "choices": [
-          "Busy lifestyles",
-          "Higher prices",
-          "Health awareness",
-          "Cooking classes"
-        ],
-        "correct_index": 0,
-        "id": 1
+          "Le respect des règles des projets collectifs à l'école garantit la promotion de la collaboration, le respect des autres et la construction d'une société plus juste et solidaire.",
+          "Le respect des règles des projets collectifs à l'école est inutile, car les individus peuvent agir comme ils le souhaitent.",
+          "Le respect des règles des projets collectifs à l'école est réservé aux élites politiques et économiques.",
+          "Le respect des règles des projets collectifs à l'école est limité aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Mental health issues among teens have risen with social media use.",
-        "correct": true,
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "Name 2 benefits of regular exercise for mental health.",
-        "placeholder": "ex: Reduces stress, improves sleep",
-        "id": 3
+        "question": "Le respect des règles des projets collectifs à l'école est un concept qui promeut la non-intervention dans les affaires des individus."
       },
       {
         "type": "qcm",
-        "question": "Phrasal verb: 'I need to _____ weight before summer.'",
+        "question": "Quel est le rôle de l'élève lors des projets collectifs à l'école ?",
         "choices": [
-          "put on",
-          "lose",
-          "give up",
-          "look after"
-        ],
-        "correct_index": 1,
-        "id": 4
+          "L'éducation joue un rôle crucial en sensibilisant les individus aux règles des projets collectifs et en promouvant le respect de ces règles.",
+          "L'éducation est inutile dans le respect des règles des projets collectifs, car les individus peuvent apprendre par eux-mêmes.",
+          "L'éducation est réservée aux élites politiques et économiques.",
+          "L'éducation est limitée aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Junk food was banned in all French schools last year.",
-        "correct": false,
-        "id": 5
-      },
-      {
-        "type": "texte",
-        "question": "How can schools promote healthy eating? 1 idea.",
-        "placeholder": "ex: Vending machines with fruits instead of crisps",
-        "id": 6
+        "question": "Le respect des règles des projets collectifs à l'école est un concept qui promeut la non-intervention dans les affaires des individus."
       },
       {
         "type": "qcm",
-        "question": "The article was _____ by a nutritionist.",
+        "question": "Quel est le rôle des enseignants lors des projets collectifs à l'école ?",
         "choices": [
-          "written",
-          "wrote",
-          "writing",
-          "writes"
-        ],
-        "correct_index": 0,
-        "id": 7
+          "Les enseignants ont un rôle important en promouvant des représentations positives du respect des règles des projets collectifs et en sensibilisant les élèves à l'importance de ces règles.",
+          "Les enseignants sont inutiles dans le respect des règles des projets collectifs, car les élèves peuvent apprendre par eux-mêmes.",
+          "Les enseignants sont réservés aux élèves les plus avancés.",
+          "Les enseignants sont limités aux matières scientifiques uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Veganism has become more popular among young people.",
-        "correct": true,
-        "id": 8
+        "question": "Le respect des règles des projets collectifs à l'école est un concept qui promeut la non-intervention dans les affaires des individus."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle des parents lors des projets collectifs à l'école ?",
+        "choices": [
+          "Les parents ont un rôle important en sensibilisant leurs enfants aux règles des projets collectifs et en promouvant le respect de ces règles.",
+          "Les parents sont inutiles dans le respect des règles des projets collectifs, car les individus peuvent apprendre par eux-mêmes.",
+          "Les parents sont réservés aux élites politiques et économiques.",
+          "Les parents sont limités aux écoles uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect des règles des projets collectifs à l'école est un concept qui promeut la non-intervention dans les affaires des individus."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Health & Diet",
-      "description": "Fast food impact, veganism, mental health (Eduscol 1ère)"
+      "notion": "Fondamentaux de EMC",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Lifestyle Choices",
-      "description": "Exercise benefits, school canteens, habits"
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Grammar",
-      "description": "Phrasal verbs (put on/lose), passive advanced"
+      "notion": "Savoir-faire emc",
+      "description": "Notion du programme 6eme"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

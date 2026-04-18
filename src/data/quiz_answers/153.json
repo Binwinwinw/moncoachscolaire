@@ -1,63 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 29",
-    "level": "1ere",
-    "subject": "Anglais"
+    "title": "Quiz Diagnostic Français 6eme - Série 0153",
+    "level": "6eme",
+    "subject": "Français"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 29",
+    "title": "Français 6e - L’analyse d’un personnage (caractéristiques physiques, traits de personnalité, rôle dans l’histoire…)",
     "question_count": 8,
+    "level": "6eme",
+    "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correction": "La bonne réponse est C : 'wrongly or badly'. Le préfixe 'mis-' signifie 'de façon incorrecte ou mauvaise'. Ex : misunderstand (mal comprendre), misbehave (mal se comporter), mislead (induire en erreur), miscalculate (mal calculer), misspell (mal orthographier)."
+        "answer": "Apparence physique",
+        "correction": "L'apparence physique permet de décrire les caractéristiques physiques d'un personnage, telles que sa taille, sa couleur de cheveux, ses vêtements, etc."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "correction": "VRAI. Le suffixe '-less' ajouté à un nom crée un adjectif signifiant 'sans' ou 'manquant de'. Ex : hope → hopeless (sans espoir), care → careless (négligent), home → homeless (sans abri), power → powerless (impuissant), use → useless (inutile), speech → speechless (sans voix)."
+        "answer": "vrai",
+        "correction": "C'est vrai. Les traits de personnalité d'un personnage sont des caractéristiques qui décrivent son comportement, ses attitudes et ses émotions, tels que la gentillesse, la colère, la timidité, etc."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correction": "La réponse attendue est : 'development' (develop + -ment). Le suffixe '-ment' transforme un verbe en nom. Autres exemples : achieve → achievement, govern → government, improve → improvement, agree → agreement, amaze → amazement. Ces noms désignent généralement un processus ou son résultat."
+        "type": "qcm",
+        "answer": "Rôle dans l'histoire",
+        "correction": "Le rôle dans l'histoire permet de décrire la fonction ou la position d'un personnage dans le récit, par exemple s'il est le protagoniste, l'antagoniste, un personnage secondaire, etc."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correction": "La bonne réponse est B : 'dangerous'. Le suffixe '-ous' transforme un nom en adjectif signifiant 'caractérisé par' ou 'plein de'. Ex : danger → dangerous, fame → famous, humour → humorous, nerve → nervous, poison → poisonous. Note : le 'e' final disparaît souvent avant '-ous'."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Les actions d'un personnage peuvent révéler des aspects importants de sa personnalité et de son rôle dans l'histoire, en montrant comment il réagit aux événements et interagit avec les autres personnages."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "correction": "VRAI. 'Over-' signifie 'trop' ou 'au-delà de la normale'. Ex : overestimate (surestimer), overwork (travailler trop), overlook (ne pas remarquer / surplomber), overreact (réagir de façon excessive), overload (surcharger). Son contraire est 'under-' : underestimate (sous-estimer), underpaid (sous-payé)."
+        "type": "qcm",
+        "answer": "Traits de personnalité",
+        "correction": "Les traits de personnalité permettent de décrire le comportement, les attitudes et les émotions d'un personnage, tels que la gentillesse, la colère, la timidité, etc."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "correction": "happy → happiness (suffixe -ness pour former un nom abstrait : le 'y' se transforme en 'i') / happy → happily (suffixe -ly pour former un adverbe : 'y' → 'i' + ly). Autre exemple du même type : angry → anger / angrily. Le suffixe '-ness' est très productif : kind→kindness, dark→darkness, aware→awareness."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. L'apparence physique d'un personnage peut influencer la perception que les lecteurs ont de lui et de son rôle dans l'histoire, en créant des stéréotypes ou en suscitant des émotions spécifiques."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "correction": "La bonne réponse est D : 'Both A and C'. 'Reread' (relire) et 'rediscover' (redécouvrir) sont tous les deux corrects. Le préfixe 're-' signifie 'encore une fois' ou 'à nouveau'. Ex : redo, rebuild, reconsider, rewrite, replace, return. 'Reunderstand' n'est pas un mot anglais standard."
+        "answer": "Actions du personnage",
+        "correction": "Les actions du personnage permettent de décrire ce qu'il fait dans l'histoire, comment il réagit aux événements et interagit avec les autres personnages."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "correction": "VRAI. Le suffixe '-able' (ou '-ible') transforme généralement un verbe en adjectif signifiant 'qui peut être fait' ou 'qui mérite d'être'. Ex : comfort → comfortable (confortable), rely → reliable (fiable), read → readable (lisible), wash → washable (lavable), access → accessible. Attention à l'orthographe : '-ible' après certaines bases (responsible, flexible, horrible)."
+        "answer": "vrai",
+        "correction": "C'est vrai. Le rôle d'un personnage dans l'histoire peut évoluer au fil du récit en fonction des événements et des interactions avec les autres personnages, ce qui peut ajouter de la complexité et de la profondeur à l'intrigue."
       }
-    ],
-    "level": "1ere",
-    "subject": "Anglais"
+    ]
   }
 }

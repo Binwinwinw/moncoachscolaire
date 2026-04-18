@@ -1,63 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 39",
-    "level": "1ere",
-    "subject": "Anglais"
+    "title": "Quiz Diagnostic Français 6eme - Série 0163",
+    "level": "6eme",
+    "subject": "Français"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 39",
+    "title": "Français 6e - L’analyse d’un texte argumentatif",
     "question_count": 8,
+    "level": "6eme",
+    "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correction": "La bonne réponse est C. Les options A, B et D sont des descriptions pures — elles rapportent ce qu'on voit sans interpréter. L'option C est une analyse car elle interprète la posture et lui attribue un sens (solitude, déconnexion). L'analyse utilise des verbes d'interprétation : suggests, implies, conveys, reveals, reflects. C'est la différence fondamentale entre describe et analyse."
+        "answer": "Les arguments utilisés",
+        "correction": "L'élément principal à analyser dans un texte argumentatif pour comprendre la position de l'auteur sur un sujet donné est les arguments utilisés, qui sont les raisons ou les preuves que l'auteur présente pour soutenir sa thèse ou son point de vue."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "correction": "VRAI. La structure recommandée pour décrire une image est du général au particulier : (1) Vue d'ensemble : 'This image depicts a busy street scene in what appears to be a modern city.' (2) Éléments principaux : foreground, background, centre. (3) Détails et atmosphère. Cette progression logique aide le lecteur à construire une image mentale claire et montre une description organisée et méthodique."
+        "answer": "vrai",
+        "correction": "C'est vrai. La structure d'un texte argumentatif peut être analysée pour comprendre comment les différentes parties du texte sont organisées et comment elles contribuent à l'ensemble de l'argumentation, en identifiant l'introduction, le développement des arguments et la conclusion."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correction": "La description rapporte un fait observé. L'analyse l'interprète : 'The factory's smoke billowing into the sky suggests industrial pollution and reflects the environmental cost of unchecked industrialisation.' On passe de 'ce qu'on voit' à 'ce que ça signifie'. Les verbes clés de l'analyse : suggests, reflects, implies, conveys, highlights, underlines, challenges. Ajouter un 'because' ou 'which' pour justifier l'interprétation renforce l'analyse."
+        "type": "qcm",
+        "answer": "La thèse",
+        "correction": "La thèse correspond au point de vue que l'auteur défend dans un texte argumentatif, et elle est généralement présentée dans l'introduction du texte."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correction": "La bonne réponse est B : 'This suggests that...' C'est une formule d'analyse académique appropriée qui présente une interprétation sans être trop catégorique. Autres bonnes formules analytiques : 'This implies that...', 'One can infer that...', 'It could be argued that...', 'This is significant because...'. Éviter 'I think' (trop informel), 'Obviously' (trop assertif) et 'Everybody knows' (trop vague et non académique)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. L'analyse d'un texte argumentatif peut aider à mieux comprendre les différentes perspectives sur un sujet donné et à développer sa propre capacité à formuler des arguments solides et convaincants, en étudiant les techniques d'argumentation utilisées par l'auteur et en réfléchissant aux forces et aux faiblesses de ces arguments."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "correction": "VRAI. Les détails sensoriels enrichissent une description et la rendent plus vivante. Un bon texte descriptif fait appel aux cinq sens : vue (colour, shape, light), ouïe (sounds, noise, silence), odorat (smell, scent), toucher (texture, temperature), goût (taste, flavour). L'utilisation de métaphores et de comparaisons ('The rain was like a curtain of silver') élève également la qualité descriptive."
+        "type": "qcm",
+        "answer": "Le développement des arguments",
+        "correction": "Le développement des arguments correspond à la partie du texte argumentatif où l'auteur présente les raisons ou les preuves pour soutenir sa thèse, en développant chaque argument de manière détaillée et en fournissant des exemples ou des données pour renforcer son point de vue."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "correction": "Description (ce qu'on voit) : 'A child sits alone at a desk in an empty classroom, head bowed down.' Analyse (ce que ça signifie) : 'This image of isolation suggests the child may be struggling academically or emotionally, reflecting broader issues of educational inequality or social exclusion.' La description est factuelle et précise, l'analyse interprète et contextualise dans un cadre plus large. Ce passage du factuel à l'interprétatif est au cœur de l'exercise d'analyse."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. La conclusion d'un texte argumentatif est la partie où l'auteur résume les arguments présentés et réaffirme sa thèse de manière convaincante, en laissant une impression forte sur le lecteur et en incitant à la réflexion ou à l'action."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "correction": "La bonne réponse est C : 'portrays'. Les verbes adaptés pour analyser des images ou textes incluent : portrays, depicts, illustrates, conveys, captures, highlights, emphasises, suggests, represents, reflects, reveals, challenges. 'Says' et 'talks about' sont trop informels. 'Is about' est trop vague. Un vocabulaire analytique précis et varié est essentiel dans les exercices de description/analyse au baccalauréat."
+        "answer": "L'introduction",
+        "correction": "L'introduction correspond à la partie du texte argumentatif où l'auteur présente le sujet et sa position sur ce sujet, en introduisant le thème de manière accrocheuse et en énonçant clairement la thèse qu'il défendra dans le reste du texte."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "correction": "FAUX. Une bonne analyse va précisément AU-DELÀ de ce qui est explicitement visible ou écrit. Elle interprète les sous-entendus, les implications, les symboles et les intentions de l'auteur. Ce qui est implicite (implied, suggested, hinted at) est souvent plus riche analytiquement que ce qui est explicite. La capacité à 'lire entre les lignes' est une compétence centrale attendue au niveau Première et Terminale."
+        "answer": "vrai",
+        "correction": "C'est vrai. L'analyse d'un texte argumentatif peut également inclure l'étude du contexte historique, social et culturel dans lequel le texte a été écrit, pour mieux comprendre les influences et les références présentes dans le texte, ainsi que les intentions de l'auteur."
       }
-    ],
-    "level": "1ere",
-    "subject": "Anglais"
+    ]
   }
 }

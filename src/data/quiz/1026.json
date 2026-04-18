@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Propriétés du logarithme",
     "status": "published",
-    "created_at": "2026-03-13 11:24:24",
-    "updated_at": "2026-03-13 11:24:24"
+    "created_at": "2026-04-06 06:40:48",
+    "updated_at": "2026-04-06 06:40:48"
   },
   "quiz": {
     "title": "Propriétés du logarithme",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Propriété de logarithme",
+      "description": "Le logarithme d'un produit est égal à la somme des logarithmes : ln(a · b) = ln(a) + ln(b)"
+    },
+    {
+      "notion": "Fonction logarithmique",
+      "description": "La fonction logarithmique est une fonction mathématique qui inverse l'opération d'exponentiation : ln(x) est la puissance à laquelle il faut élever e pour obtenir x"
+    },
+    {
+      "notion": "Identité logarithmique",
+      "description": "Les identités logarithmiques sont des équations qui relient les logarithmes entre eux, comme ln(a · b) = ln(a) + ln(b), et sont utilisées pour simplifier les expressions logarithmiques"
+    }
+  ],
   "exerciseresponses": []
 }

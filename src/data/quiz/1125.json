@@ -6,8 +6,8 @@
     "subject": "SES",
     "description": "Diagnostic SES Terminale : Marché du travail et chômage",
     "status": "published",
-    "created_at": "2026-03-14 03:10:56",
-    "updated_at": "2026-03-14 03:10:56"
+    "created_at": "2026-04-06 06:40:48",
+    "updated_at": "2026-04-06 06:40:48"
   },
   "quiz": {
     "title": "Marché du travail et chômage",
@@ -69,5 +69,19 @@
         "question": "La dualisation du marché du travail désigne la coexistence d'un segment primaire (CDI, bons salaires) et d'un segment secondaire (CDD, intérim, bas salaires)."
       }
     ]
-  }
+  },
+  "exercisenotion": [
+    {
+      "notion": "Croissance et développement",
+      "description": "Notion fondamentale de SES"
+    },
+    {
+      "notion": "Justice sociale",
+      "description": "Notion fondamentale de SES"
+    },
+    {
+      "notion": "Intégration économique mondiale",
+      "description": "Notion fondamentale de SES"
+    }
+  ]
 }

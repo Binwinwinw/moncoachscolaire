@@ -1,80 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 3eme Mathématiques",
+    "title": "Quiz Diagnostic Anglais 6ème - Série 0039",
     "type": "quiz",
-    "level": "3eme",
-    "subject": "Mathematiques",
-    "description": "Diagnostic théorème Thalès, équations, probabilités 3eme"
+    "level": "6ème",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6ème : Vocabulaire de base : formes et description de lieu",
+    "status": "published",
+    "created_at": "2026-04-06 06:24:36",
+    "updated_at": "2026-04-06 06:24:36"
   },
   "quiz": {
-    "title": "Diagnostic Maths 3eme",
-    "level": "3eme",
-    "subject": "Mathematiques",
+    "title": "Vocabulaire de base : formes et description de lieu",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
     "question_count": 8,
-    "passing_score": 80,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
     "questions": [
       {
-        "id": 1,
-        "type": "texte",
-        "question": "Thalès parallèle coupe ... proportionnellement."
-      },
-      {
-        "id": 2,
         "type": "qcm",
-        "question": "Équation 2x+3=7 → x=",
+        "question": "Which of the following is a common English word for 'formes'?",
         "choices": [
-          "2",
-          "5",
-          "3",
-          "1"
+          "Shapes",
+          "Figures",
+          "Geometric forms",
+          "All of the above"
         ]
       },
       {
-        "id": 3,
         "type": "vrai-faux",
-        "question": "P(θ)=θ/360 (cercle)."
+        "question": "'The English word for 'formes' is 'shapes'' is a true statement."
       },
       {
-        "id": 4,
-        "type": "texte",
-        "question": "PGCD(12,18)="
-      },
-      {
-        "id": 5,
         "type": "qcm",
-        "question": "Trigonétrie : sin(90°)= ",
+        "question": "Which of the following is a common English expression used to describe location?",
         "choices": [
-          "0",
-          "1",
-          "0.5"
+          "In front of",
+          "Behind",
+          "Next to",
+          "All of the above"
         ]
       },
       {
-        "id": 6,
-        "type": "texte",
-        "question": "Volume cube côté 3= ... cm³"
-      },
-      {
-        "id": 7,
         "type": "vrai-faux",
-        "question": "Développements binôme (a+b)²=a²+2ab+b²."
+        "question": "'The expression 'in front of' is used to describe location in relation to something else' is a true statement."
       },
       {
-        "id": 8,
         "type": "qcm",
-        "question": "Thalès converse vraie si ... parallèle."
+        "question": "Which of the following is a common English expression used to describe location behind something?",
+        "choices": [
+          "In front of",
+          "Behind",
+          "Next to",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The expression 'next to' is used to describe location in relation to something else' is a true statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English expression used to describe location in relation to something else?",
+        "choices": [
+          "In front of",
+          "Behind",
+          "Next to",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The expression 'in front of' is used to describe location in relation to something else' is a true statement."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Thalès"
+      "notion": "Vocabulaire de base",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "notion": "Équations"
+      "notion": "Grammaire simple",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "notion": "Probabilités"
+      "notion": "Expression orale",
+      "description": "Notion fondamentale de Anglais"
     }
   ],
   "exerciseresponses": []

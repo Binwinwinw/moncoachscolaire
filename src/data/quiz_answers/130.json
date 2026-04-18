@@ -1,63 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ère Anglais - Série 06",
-    "level": "1ere",
-    "subject": "Anglais"
+    "title": "Quiz Diagnostic EMC 6eme - Série 0130",
+    "level": "6eme",
+    "subject": "EMC"
   },
   "quiz": {
-    "title": "Answer Key - Travel & Global Issues Quiz",
+    "title": "EMC 6e - Solidarité (Restos du Cœur, association d'aide)",
     "question_count": 8,
+    "level": "6eme",
+    "subject": "EMC",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correction": "Correct: D (All). Aviation = 2.5% global CO2. Ryanair offsets? Debate low-cost vs train."
+        "answer": "Le respect des règles de solidarité garantit la promotion de l'entraide, le respect des autres et la construction d'une société plus juste et solidaire.",
+        "correction": "Le respect des règles de solidarité est essentiel pour garantir la promotion de l'entraide, le respect des autres et la construction d'une société plus juste et solidaire."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "correction": "True. UNESCO sites funded by tickets (Machu Picchu). Cons: overtourism damage."
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des règles de solidarité encourage l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect de ces règles dans la société."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correction": "Good: Pro = economy boost / Con = environment strain. Venice: €5 entry fee 2024."
+        "type": "qcm",
+        "answer": "L'éducation joue un rôle crucial en sensibilisant les individus aux règles de solidarité et en promouvant le respect de ces règles.",
+        "correction": "L'éducation joue un rôle crucial en sensibilisant les individus aux règles de solidarité, en promouvant le respect de ces règles et en encourageant la responsabilité individuelle pour garantir la promotion de l'entraide, le respect des autres et la construction d'une société plus juste et solidaire."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correction": "Correct: who (people). Which (things), whose (possession). Practice: The book which I read..."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des règles de solidarité encourage l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect de ces règles dans la société."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "correction": "True. Used to = past habit. Would = repeated actions. Ex: We used to go camping."
+        "type": "qcm",
+        "answer": "Les médias jouent un rôle crucial en sensibilisant le public aux règles de solidarité et en promouvant le respect de ces règles.",
+        "correction": "Les médias jouent un rôle crucial en sensibilisant le public aux règles de solidarité, en promouvant le respect de ces règles et en encourageant la responsabilité individuelle pour garantir la promotion de l'entraide, le respect des autres et la construction d'une société plus juste et solidaire."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "correction": "Good: low fares (€10 Paris-London), direct flights. Cons: airport fees, delays."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des règles de solidarité encourage l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect de ces règles dans la société."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "correction": "Correct: A. 80M refugees worldwide (UNHCR). Integration programs = key (language courses)."
+        "answer": "Les parents ont un rôle important en sensibilisant leurs enfants aux règles de solidarité et en promouvant le respect de ces règles.",
+        "correction": "Les parents jouent un rôle crucial dans le respect des règles de solidarité en sensibilisant leurs enfants à ces règles et en encourageant la responsabilité individuelle pour garantir la promotion de l'entraide, le respect des autres et la construction d'une société plus juste et solidaire."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "correction": "False. Sustainable = local economy, low impact (hiking, farm stays). Not just luxury!"
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des règles de solidarité encourage l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect de ces règles dans la société."
       }
-    ],
-    "level": "1ere",
-    "subject": "Anglais"
+    ]
   }
 }

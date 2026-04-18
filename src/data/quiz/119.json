@@ -1,97 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 4ème SVT - Reproduction Géologie",
+    "title": "Quiz Diagnostic EMC 6eme - Série 0119",
     "type": "quiz",
-    "level": "4eme",
-    "subject": "SVT",
-    "description": "Diagnostic Reproduction sexuée, ADN, volcans - 4ème",
+    "level": "6eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 6eme : EMC 6e - Vrai/faux infos (fake news)",
     "status": "published",
-    "created_at": "2026-03-08 18:26:00",
-    "updated_at": "2026-03-08 18:26:00"
+    "created_at": "2026-04-06 06:25:43",
+    "updated_at": "2026-04-06 06:25:43"
   },
   "quiz": {
-    "title": "Diagnostic 4ème - SVT Bases",
-    "level": "4eme",
-    "subject": "SVT",
+    "title": "EMC 6e - Vrai/faux infos (fake news)",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Chromosomes = ADN + ...",
+        "question": "Pourquoi est-il important de respecter les règles de vérification des informations pour éviter les fake news ?",
         "choices": [
-          "protéines",
-          "eau",
-          "glucides",
-          "lipides"
-        ],
-        "id": 1
+          "Le respect des règles de vérification des informations garantit la diffusion d'informations fiables, la protection contre la désinformation et la promotion d'une société informée et responsable.",
+          "Le respect des règles de vérification des informations est inutile, car les individus peuvent croire ce qu'ils veulent.",
+          "Le respect des règles de vérification des informations est réservé aux élites politiques et économiques.",
+          "Le respect des règles de vérification des informations est limité aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Reproduction humaine = sexuée.",
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "Homme = ... paires chromosomes",
-        "placeholder": "23",
-        "id": 3
+        "question": "Le respect des règles de vérification des informations pour éviter les fake news est un concept qui promeut la non-intervention dans les affaires des individus."
       },
       {
         "type": "qcm",
-        "question": "Volcan = magma + gaz + ...",
+        "question": "Quel est le rôle de l'éducation dans le respect des règles de vérification des informations pour éviter les fake news ?",
         "choices": [
-          "roches",
-          "sable",
-          "air",
-          "eau"
-        ],
-        "id": 4
+          "L'éducation joue un rôle crucial en sensibilisant les individus aux règles de vérification des informations et en promouvant le respect de ces règles.",
+          "L'éducation est inutile dans le respect des règles de vérification des informations, car les individus peuvent apprendre par eux-mêmes.",
+          "L'éducation est réservée aux élites politiques et économiques.",
+          "L'éducation est limitée aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Système nerveux = communication électrique.",
-        "id": 5
-      },
-      {
-        "type": "texte",
-        "question": "Séisme = plaques ...",
-        "placeholder": "tectoniques",
-        "id": 6
+        "question": "Le respect des règles de vérification des informations pour éviter les fake news est un concept qui promeut la non-intervention dans les affaires des individus."
       },
       {
         "type": "qcm",
-        "question": "Repro humaine: formation ...",
+        "question": "Quel est le rôle des médias dans le respect des règles de vérification des informations pour éviter les fake news ?",
         "choices": [
-          "nouvel être",
-          "clone",
-          "mutation",
-          "division"
-        ],
-        "id": 7
+          "Les médias ont un rôle important en promouvant des représentations positives du respect des règles de vérification des informations et en sensibilisant le public à l'importance de ces règles.",
+          "Les médias sont inutiles dans le respect des règles de vérification des informations, car les individus peuvent apprendre par eux-mêmes.",
+          "Les médias sont réservés aux élites politiques et économiques.",
+          "Les médias sont limités aux écoles uniquement."
+        ]
       },
       {
-        "type": "texte",
-        "question": "Hormones = messagers ...",
-        "placeholder": "chimiques",
-        "id": 8
+        "type": "vrai-faux",
+        "question": "Le respect des règles de vérification des informations pour éviter les fake news est un concept qui promeut la non-intervention dans les affaires des individus."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle des parents dans le respect des règles de vérification des informations pour éviter les fake news ?",
+        "choices": [
+          "Les parents ont un rôle important en sensibilisant leurs enfants aux règles de vérification des informations et en promouvant le respect de ces règles.",
+          "Les parents sont inutiles dans le respect des règles de vérification des informations, car les individus peuvent apprendre par eux-mêmes.",
+          "Les parents sont réservés aux élites politiques et économiques.",
+          "Les parents sont limités aux écoles uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect des règles de vérification des informations pour éviter les fake news est un concept qui promeut la non-intervention dans les affaires des individus."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Reproduction sexuée",
-      "description": "ADN, chromosomes, humain (4ème)"
+      "notion": "Fondamentaux de EMC",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Système nerveux",
-      "description": "Communication nerveuse/hormonale"
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Géologie interne",
-      "description": "Volcans, séismes, plaques"
+      "notion": "Savoir-faire emc",
+      "description": "Notion du programme 6eme"
     }
   ],
   "exerciseresponses": []

@@ -1,71 +1,70 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 4eme SVT",
-    "type": "quiz",
-    "level": "4eme",
-    "subject": "SVT",
-    "description": "Diagnostic ADN, vaccination, électricité corporelle 4eme"
+    "title": "Quiz Diagnostic Anglais 6ème - Série 0045",
+    "level": "6ème",
+    "subject": "Anglais"
   },
   "quiz": {
-    "title": "Diagnostic SVT 4eme",
-    "level": "4eme",
-    "subject": "SVT",
+    "title": "Vocabulaire de base : phrases courantes pour dire bonjour, au revoir, merci, s'il vous plaît, etc.",
+    "question_count": 8,
+    "level": "6ème",
+    "subject": "Anglais",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Hélice",
-        "correction": "Watson/Crick 1953"
+        "answer": "All of the above",
+        "correction": "'Hello', 'Hi', and 'Hey' are all common English greetings that can be used in different contexts to greet someone."
       },
       {
         "index": 1,
         "question_id": 2,
-        "type": "texte",
-        "answer": "antigène",
-        "correction": "Système immunitaire mémoire"
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English phrase for 'Comment ça va?' is indeed 'How are you?', which is a common way to ask someone about their well-being in English."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "vrai-faux",
-        "answer": true,
-        "correction": "VRAI. (sauf mutations)"
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "'Goodbye', 'Bye', and 'See you later' are all common English expressions used to say goodbye in different contexts."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "answer": "Neurone",
-        "correction": "Transmission impulsions"
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English phrase for 'Merci' is indeed 'Thank you', which is a common way to express gratitude in English."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "texte",
-        "answer": "70",
-        "correction": "60-80 bpm"
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "'Sorry', 'I apologize', and 'My apologies' are all common English expressions used to apologize in different contexts."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": false,
-        "correction": "FAUX. Antigène atténué/mort"
+        "answer": "vrai",
+        "correction": "The English phrase for 'S'il vous plaît' is indeed 'Please', which is a common way to make a polite request in English."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "Noyau",
-        "correction": "46 chromosomes humains"
+        "answer": "All of the above",
+        "correction": "'Thank you', 'Thanks', and 'I appreciate it' are all common English expressions used to express gratitude in different contexts."
       },
       {
         "index": 7,
         "question_id": 8,
-        "type": "texte",
-        "answer": "100",
-        "correction": "100 m/s fibres myélinisées"
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English phrase for 'Excusez-moi' is indeed 'Excuse me', which is a common way to get someone's attention or to apologize for an interruption in English."
       }
     ]
   }

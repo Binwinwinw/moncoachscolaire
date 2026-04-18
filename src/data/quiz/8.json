@@ -1,92 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Mathématiques 3ème - Série 8",
+    "title": "Quiz Diagnostic Anglais 6eme - Série 0008",
     "type": "quiz",
-    "level": "3eme",
-    "subject": "Mathématiques",
-    "description": "Évaluation diagnostique en mathématiques 3ème : systèmes d'équations, fonctions affines/linéaires, trigonométrie, probabilités",
+    "level": "6eme",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6eme : histoire/géographie : événements historiques, lieux, repères temporels",
     "status": "published",
-    "created_at": "2026-03-07 23:55:00",
-    "updated_at": "2026-03-07 23:55:00"
+    "created_at": "2026-04-06 06:24:36",
+    "updated_at": "2026-04-06 06:24:36"
   },
   "quiz": {
-    "title": "Diagnostic Mathématiques 3ème",
-    "level": "3eme",
-    "subject": "Mathématiques",
+    "title": "histoire/géographie : événements historiques, lieux, repères temporels",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Anglais",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Pour résoudre un système de deux équations à deux inconnues, quelle méthode utilise-t-on ?",
+        "question": "Who was the first President of the United States?",
         "choices": [
-          "Intuition",
-          "Substitution ou élimination",
-          "Essais et erreurs",
-          "Graphique uniquement"
-        ]
-      },
-      {
-        "type": "texte",
-        "question": "Résous l'équation : 2x - 3 = 7. Donne la valeur de x.",
-        "placeholder": "Réponse: 5"
-      },
-      {
-        "type": "vrai-faux",
-        "question": "Une fonction affine a la forme f(x) = ax + b où a et b sont des constantes. Vrai ?"
-      },
-      {
-        "type": "texte",
-        "question": "Dans un triangle rectangle avec angle 30° et hypoténuse de 10 cm, quelle est la longueur du côté opposé ? (sin 30° = 0,5)",
-        "placeholder": "Réponse en cm: 5"
-      },
-      {
-        "type": "qcm",
-        "question": "Quelle est la probabilité de tirer une carte rouge dans un jeu de 52 cartes ?",
-        "choices": [
-          "1/52",
-          "1/4",
-          "1/2",
-          "1/3"
-        ]
-      },
-      {
-        "type": "qcm",
-        "question": "Si f(x) = 2x - 3, alors f(4) vaut :",
-        "choices": [
-          "3",
-          "5",
-          "8",
-          "11"
+          "George Washington",
+          "Thomas Jefferson",
+          "Abraham Lincoln",
+          "John Adams"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Dans un triangle rectangle, le carré de l'hypoténuse est la somme des carrés des deux autres côtés."
+        "question": "The Great Wall of China was built to protect against invasions."
       },
       {
-        "type": "texte",
-        "question": "Quelle est la probabilité d'obtenir un nombre pair en lançant un dé équilibré à 6 faces ?"
+        "type": "qcm",
+        "question": "Which of the following is a continent?",
+        "choices": [
+          "Asia",
+          "Europe",
+          "Africa",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The Renaissance was a period of cultural and artistic rebirth in Europe' is a true statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a famous historical landmark?",
+        "choices": [
+          "The Colosseum",
+          "The Pyramids of Giza",
+          "The Taj Mahal",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'World War II ended in 1945' is a true statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a major river?",
+        "choices": [
+          "Nile",
+          "Amazon",
+          "Mississippi",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The Industrial Revolution was a period of significant technological and economic change' is a true statement."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Systèmes d'équations",
-      "description": "Concept clé de Mathématiques au niveau 3eme"
+      "notion": "Fondamentaux de Anglais",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Fonctions affines et linéaires",
-      "description": "Concept clé de Mathématiques au niveau 3eme"
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Trigonométrie",
-      "description": "Concept clé de Mathématiques au niveau 3eme"
-    },
-    {
-      "notion": "Probabilités",
-      "description": "Concept clé de Mathématiques au niveau 3eme"
+      "notion": "Savoir-faire anglais",
+      "description": "Notion du programme 6eme"
     }
   ],
   "exerciseresponses": []

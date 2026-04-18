@@ -1,75 +1,94 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Histoire-Geographie 1ere - Série 192",
+    "title": "Quiz Diagnostic Français 6eme - Série 0192",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Histoire-Geographie",
-    "description": "Diagnostic Histoire-Geographie 1ere : Quiz Diagnostic 1ere Histoire-Géographie - Serie 18",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - Les valeurs du texte injonctif",
     "status": "published",
-    "created_at": "2026-03-13 18:59:43",
-    "updated_at": "2026-03-13 18:59:43"
+    "created_at": "2026-04-06 06:25:38",
+    "updated_at": "2026-04-06 06:25:38"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Histoire-Géographie - Serie 18",
+    "title": "Français 6e - Les valeurs du texte injonctif",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Histoire-Geographie",
+    "level": "6eme",
+    "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Quelle est la période principale couverte par le thème 'Commerce mondial et organisations internationales' ?",
+        "question": "Qu'est-ce qu'un texte injonctif ?",
         "choices": [
-          "XVIIIe siècle",
-          "XIXe siècle",
-          "XXe siècle",
-          "XXIe siècle"
+          "Un genre littéraire",
+          "Une figure de style",
+          "Une forme de communication",
+          "Une discipline scientifique"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Le thème 'Les échanges commerciaux mondiaux' fait partie du programme officiel d'Histoire-Géographie de 1ère."
-      },
-      {
-        "type": "open",
-        "question": "Présentez en quelques lignes l'importance de l'étude du thème 'Les échanges commerciaux mondiaux' pour comprendre le monde contemporain."
+        "question": "Les textes injonctifs peuvent être classés en plusieurs types, tels que les recettes de cuisine, les manuels d'instructions, les règles de jeu, etc., en fonction de la manière dont ils donnent des instructions ou des conseils."
       },
       {
         "type": "qcm",
-        "question": "Quelle démarche est au cœur de l'étude historique et géographique ?",
+        "question": "Quel est le rôle d'un texte injonctif dans la communication ?",
         "choices": [
-          "La mémorisation de dates et de faits",
-          "L'analyse critique de documents et la construction d'une argumentation",
-          "La récitation de définitions",
-          "L'apprentissage des frontières"
+          "Il n'a pas de rôle spécifique",
+          "Il permet d'exprimer des affirmations",
+          "Il permet d'exprimer des questions",
+          "Il permet de donner des instructions, des conseils ou des ordres à un lecteur ou à un auditeur"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Les sources primaires (documents d'époque) sont plus fiables que les sources secondaires (analyses d'historiens) pour comprendre un événement historique."
-      },
-      {
-        "type": "open",
-        "question": "Qu'est-ce qu'un territoire et en quoi diffère-t-il d'un simple espace géographique ?"
+        "question": "Un texte injonctif peut être utilisé pour transmettre des informations importantes sur la manière d'accomplir une tâche ou de suivre une procédure, en fournissant des instructions claires et précises qui aident le destinataire à comprendre et à exécuter les actions nécessaires."
       },
       {
         "type": "qcm",
-        "question": "Qu'est-ce qu'une carte thématique en géographie ?",
+        "question": "Lequel de ces titres n'est pas un texte injonctif ?",
         "choices": [
-          "Une carte routière ou touristique",
-          "Une représentation graphique qui représente la distribution spatiale d'un phénomène précis",
-          "Une carte de relief topographique",
-          "Un plan d'une ville"
+          "Recette de Cuisine",
+          "Manuel d'Instructions",
+          "Règles de Jeu",
+          "Le Petit Prince"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "La géopolitique étudie les liens entre la géographie et le pouvoir politique des États."
+        "question": "Les textes injonctifs peuvent être utilisés pour guider les actions ou les comportements des destinataires, en fournissant des instructions claires et précises qui aident à accomplir des tâches, à suivre des procédures ou à respecter des règles, ce qui peut contribuer à la sécurité, à l'efficacité et au bon fonctionnement dans divers contextes."
+      },
+      {
+        "type": "qcm",
+        "question": "Un texte injonctif utilise quel ton ?",
+        "choices": [
+          "Un ton humoristique",
+          "Un ton dramatique",
+          "Un ton descriptif",
+          "Un ton impératif"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un texte injonctif a pour but de donner des instructions, des conseils ou des ordres à un lecteur ou à un auditeur."
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Fondamentaux de Français",
+      "description": "Notion du programme 6eme"
+    },
+    {
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
+    },
+    {
+      "notion": "Savoir-faire français",
+      "description": "Notion du programme 6eme"
+    }
+  ],
   "exerciseresponses": []
 }

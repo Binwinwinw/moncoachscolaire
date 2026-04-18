@@ -1,17 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 4eme Anglais",
+    "title": "Quiz Diagnostic Anglais 6ème - Série 0029",
     "type": "quiz",
-    "level": "4eme",
+    "level": "6ème",
     "subject": "Anglais",
-    "description": "Diagnostic vocabulaire present perfect, verbes irreguliers, comprehension orale 4eme",
+    "description": "Diagnostic Anglais 6ème : Vocabulaire de base : famille, école, loisirs",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-08 14:15:00"
+    "created_at": "2026-04-06 06:24:36",
+    "updated_at": "2026-04-06 06:24:36"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 4eme Anglais",
-    "level": "4eme",
+    "title": "Vocabulaire de base : famille, école, loisirs",
+    "type": "quiz",
+    "level": "6ème",
     "subject": "Anglais",
     "question_count": 8,
     "passing_score": 70,
@@ -19,78 +20,74 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "I _____ never _____ to London.",
+        "question": "What is the English word for 'père'?",
         "choices": [
-          "have / been",
-          "has / been",
-          "am / go",
-          "did / go"
-        ],
-        "id": 1
+          "Father",
+          "Mother",
+          "Brother",
+          "Sister"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "She has just eaten.",
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "Past participle de 'go' ?",
-        "placeholder": "gone",
-        "id": 3
+        "question": "'The English word for 'mère' is 'mother'' is a true statement."
       },
       {
         "type": "qcm",
-        "question": "We _____ this film before.",
+        "question": "Which of the following is a common English word for 'école'?",
         "choices": [
-          "see",
-          "saw",
-          "have seen",
-          "seeing"
-        ],
-        "id": 4
+          "School",
+          "Classroom",
+          "Education",
+          "All of the above"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "'Buy' → bought → ______ (past participle)",
-        "id": 5
-      },
-      {
-        "type": "texte",
-        "question": "They have ______ (read) this book.",
-        "placeholder": "read",
-        "id": 6
+        "question": "'The English word for 'loisirs' is 'hobbies'' is a true statement."
       },
       {
         "type": "qcm",
-        "question": "Past participle de 'eat' :",
+        "question": "Which of the following is a common English word for 'frère'?",
         "choices": [
-          "ate",
-          "eaten",
-          "eat",
-          "eating"
-        ],
-        "id": 7
+          "Brother",
+          "Sister",
+          "Cousin",
+          "Uncle"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Present perfect = have/has + past participle.",
-        "id": 8
+        "question": "'The English word for 'soeur' is 'sister'' is a true statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English word for 'loisirs'?",
+        "choices": [
+          "Hobbies",
+          "Leisure activities",
+          "Pastimes",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English word for 'école' is 'school'' is a true statement."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Present Perfect",
-      "description": "Concept clé de Anglais au niveau 4eme"
+      "notion": "Vocabulaire de base",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "notion": "Verbes irréguliers",
-      "description": "Concept clé de Anglais au niveau 4eme"
+      "notion": "Grammaire simple",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "notion": "Compréhension orale",
-      "description": "Concept clé de Anglais au niveau 4eme"
+      "notion": "Expression orale",
+      "description": "Notion fondamentale de Anglais"
     }
   ],
   "exerciseresponses": []

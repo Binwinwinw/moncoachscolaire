@@ -1,81 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 20",
+    "title": "Quiz Diagnostic EMC 6eme - Série 0144",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Anglais",
-    "description": "Diagnostic tech/inégalités/emplois futurs (B1+).",
+    "level": "6eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 6eme : EMC 6e - Le travail scolaire à la maison",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-09 21:41:00"
+    "created_at": "2026-04-06 06:25:43",
+    "updated_at": "2026-04-06 06:25:43"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 20",
-    "level": "1ere",
-    "subject": "Anglais",
+    "title": "EMC 6e - Le travail scolaire à la maison",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "'Technology revolution' includes:",
-        "choices": ["AI changing jobs", "Old typewriters", "Paper letters", "Smoke signals"],
-        "id": 1
+        "question": "Pourquoi est-il important de faire du travail scolaire à la maison ?",
+        "choices": [
+          "Le travail scolaire à la maison est essentiel pour renforcer les compétences, approfondir les connaissances et développer l'autonomie des élèves, ce qui contribue à leur réussite scolaire et à leur développement personnel.",
+          "Le travail scolaire à la maison est inutile, car les élèves peuvent apprendre tout ce dont ils ont besoin à l'école.",
+          "Le travail scolaire à la maison est réservé aux élites politiques et économiques.",
+          "Le travail scolaire à la maison est limité aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Global inequalities widen with tech access.",
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "Exemple tech révolutionne vie quotidienne.",
-        "placeholder": "Ex: Smartphones connect but addict...",
-        "id": 3
+        "question": "Il est inutile de travailler à la maison."
       },
       {
         "type": "qcm",
-        "question": "'Future jobs' predicts:",
-        "choices": ["Robots replace routine work", "All manual only", "No changes", "Back to farms"],
-        "id": 4
+        "question": "Quels sont les avantages à travailler à la maison ?",
+        "choices": [
+          "Renforcer les compétences",
+          "Approfondir les connaissances",
+          "Développer l'autonomie",
+          "Toutes les réponses précédentes"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Wealth gap = rich-poor divide grows.",
-        "id": 5
-      },
-      {
-        "type": "texte",
-        "question": "Défi inégalités sociales (ex: éducation).",
-        "placeholder": "Ex: Poor areas lack internet...",
-        "id": 6
+        "question": "Il est inutile de travailler à la maison."
       },
       {
         "type": "qcm",
-        "question": "Tech solves inequalities by:",
-        "choices": ["Online education access", "Ignoring problems", "More factories", "Less schools"],
-        "id": 7
+        "question": "Pourquoi est-il important de faire du travail scolaire à la maison ?",
+        "choices": [
+          "Le travail scolaire à la maison est essentiel pour renforcer les compétences, approfondir les connaissances et développer l'autonomie des élèves, ce qui contribue à leur réussite scolaire et à leur développement personnel.",
+          "Le travail scolaire à la maison est inutile, car les élèves peuvent apprendre tout ce dont ils ont besoin à l'école.",
+          "Le travail scolaire à la maison est réservé aux élites politiques et économiques.",
+          "Le travail scolaire à la maison est limité aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Future work needs lifelong learning.",
-        "id": 8
+        "question": "Il est inutile de travailler à la maison."
+      },
+      {
+        "type": "qcm",
+        "question": "Quels sont les avantages à travailler à la maison ?",
+        "choices": [
+          "Renforcer les compétences",
+          "Approfondir les connaissances",
+          "Développer l'autonomie",
+          "Toutes les réponses précédentes"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il faut toujours apprendre les leçons par cœur."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Technology revolution",
-      "description": "Tech transforme société/travail (AI, smartphones)."
+      "notion": "Fondamentaux de EMC",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Inequalities",
-      "description": "Inégalités sociales/éco amplifiées par tech."
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Future jobs",
-      "description": "Emplois demain : automation, reskilling."
+      "notion": "Savoir-faire emc",
+      "description": "Notion du programme 6eme"
     }
   ],
   "exerciseresponses": []

@@ -1,67 +1,90 @@
 {
-  "id": 1062,
-  "title": "Signe d'un trinôme du second degré",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "created_at": "2026-03-13T18:54:00.423219Z",
-  "questions": [
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 1ère - SÃ©rie 1062",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ère : Diagnostic Anglais 1ère - Série 4",
+    "status": "published",
+    "created_at": "2026-04-06 06:40:39",
+    "updated_at": "2026-04-06 06:40:39",
+    "source": "Eduscol programmes officiels + BOEN",
+    "programme_ref": "BO special ndeg1 du 22 janvier 2019 (LGT) + Eduscol Langues vivantes Premiere"
+  },
+  "quiz": {
+    "title": "Diagnostic Anglais 1ère - Série 4",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "What is the past tense of the verb \"run\"?",
+        "choices": [
+          "runned",
+          "ran",
+          "run",
+          "running"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The word \"their\" is a contraction of \"they are\"."
+      },
+      {
+        "type": "open",
+        "question": "Translate the sentence \"We have a dog\" into French."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following words is an antonym of \"fast\"?",
+        "choices": [
+          "quick",
+          "slow",
+          "speedy",
+          "rapid"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "\"It's\" is a possessive pronoun."
+      },
+      {
+        "type": "open",
+        "question": "What is the past participle of the verb \"write\"?"
+      },
+      {
+        "type": "qcm",
+        "question": "Choose the correct sentence:",
+        "choices": [
+          "She don't like movies.",
+          "She doesn't like movies.",
+          "She isn't like movies.",
+          "She no like movies."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The word \"loudly\" is an adverb."
+      }
+    ]
+  },
+  "exercisenotion": [
     {
-      "id": "1062_1",
-      "type": "qcm",
-      "question": "Si a > 0 et Δ > 0 (racines x₁ < x₂), le trinôme est négatif sur :",
-      "options": [
-        "]−∞ ; x₁[ ∪ ]x₂ ; +∞[",
-        "]x₁ ; x₂[",
-        "R entier",
-        "]−∞ ; x₁["
-      ]
+      "notion": "Civilisation britannique",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "id": "1062_2",
-      "type": "vrai-faux",
-      "question": "Si Δ < 0 et a > 0, le trinôme est strictement positif pour tout réel x."
+      "notion": "Nuances grammaticales",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "id": "1062_3",
-      "type": "texte",
-      "question": "Résous l'inéquation x² − x − 6 ≤ 0."
-    },
-    {
-      "id": "1062_4",
-      "type": "qcm",
-      "question": "Pour f(x) = −x² + 4x − 3, sur quel intervalle f(x) > 0 ?",
-      "options": [
-        "]1 ; 3[",
-        "]−∞;1[ ∪ ]3;+∞[",
-        "R entier",
-        "]−1;3["
-      ]
-    },
-    {
-      "id": "1062_5",
-      "type": "vrai-faux",
-      "question": "Le trinôme x² + x + 1 est strictement positif pour tout x ∈ R."
-    },
-    {
-      "id": "1062_6",
-      "type": "texte",
-      "question": "Résous 2x² − 5x + 2 < 0."
-    },
-    {
-      "id": "1062_7",
-      "type": "qcm",
-      "question": "Si a < 0 et Δ = 0 (racine double α), le signe du trinôme est :",
-      "options": [
-        "Positif pour tout x sauf α",
-        "Négatif pour tout x sauf α",
-        "Positif sur R entier",
-        "Négatif entre les racines"
-      ]
-    },
-    {
-      "id": "1062_8",
-      "type": "vrai-faux",
-      "question": "Pour résoudre f(x) ≥ 0, on dresse le tableau de signes du trinôme."
+      "notion": "Débat en anglais",
+      "description": "Notion fondamentale de Anglais"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

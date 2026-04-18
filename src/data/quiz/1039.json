@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Raisonnement par recurrence",
     "status": "published",
-    "created_at": "2026-03-13 11:24:24",
-    "updated_at": "2026-03-13 11:24:24"
+    "created_at": "2026-04-06 06:40:48",
+    "updated_at": "2026-04-06 06:40:48"
   },
   "quiz": {
     "title": "Raisonnement par recurrence",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Définition de la récurrence",
+      "description": "La première étape la plus rigoureuse dans le raisonnement par récurrence consiste à définir clairement la récurrence, en identifiant la relation de récurrence et les conditions initiales."
+    },
+    {
+      "notion": "Formulation de l'hypothèse",
+      "description": "La deuxième étape importante est de formuler l'hypothèse, qui consiste à supposer que la propriété est vraie pour un entier k, afin de pouvoir démontrer qu'elle est vraie pour k+1."
+    },
+    {
+      "notion": "Démonstration par induction",
+      "description": "La troisième étape est la démonstration par induction, qui consiste à démontrer que la propriété est vraie pour le premier entier (cas de base) et que si elle est vraie pour un entier k, elle est égal"
+    }
+  ],
   "exerciseresponses": []
 }

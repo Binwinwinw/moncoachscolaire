@@ -1,67 +1,122 @@
 {
-  "id": 1061,
-  "title": "Forme factorisée et canonique",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "created_at": "2026-03-13T18:54:00.422612Z",
-  "questions": [
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 1ère - SÃ©rie 1061",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ère : Diagnostic Anglais 1ère - Série 3",
+    "status": "published",
+    "created_at": "2026-04-06 06:40:39",
+    "updated_at": "2026-04-06 06:40:39",
+    "source": "Eduscol programmes officiels + BOEN",
+    "programme_ref": "BO special ndeg1 du 22 janvier 2019 (LGT) + Eduscol Langues vivantes Premiere"
+  },
+  "quiz": {
+    "title": "Diagnostic Anglais 1ère - Série 3",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Anglais",
+    "question_count": 13,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "What is the superlative form of the adjective \"bad\"?",
+        "choices": [
+          "badder",
+          "more bad",
+          "worst",
+          "worser"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The word \"your\" is a possessive pronoun."
+      },
+      {
+        "type": "open",
+        "question": "Translate the sentence \"They are playing soccer\" into French."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following words is a synonym for \"big\"?",
+        "choices": [
+          "small",
+          "large",
+          "tiny",
+          "little"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "\"It's\" can be used as a possessive pronoun."
+      },
+      {
+        "type": "open",
+        "question": "What is the past tense of the verb \"see\"?"
+      },
+      {
+        "type": "qcm",
+        "question": "Choose the correct sentence:",
+        "choices": [
+          "He don't like sports.",
+          "He doesn't like sports.",
+          "He isn't like sports.",
+          "He no like sports."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The word \"happily\" is an adverb."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following words is a synonym for \"big\"?",
+        "choices": [
+          "small",
+          "large",
+          "tiny",
+          "little"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "\"It's\" can be used as a possessive pronoun."
+      },
+      {
+        "type": "open",
+        "question": "What is the past tense of the verb \"see\"?"
+      },
+      {
+        "type": "qcm",
+        "question": "Choose the correct sentence:",
+        "choices": [
+          "He don't like sports.",
+          "He doesn't like sports.",
+          "He isn't like sports.",
+          "He no like sports."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The word \"happily\" is an adverb."
+      }
+    ]
+  },
+  "exercisenotion": [
     {
-      "id": "1061_1",
-      "type": "qcm",
-      "question": "La forme canonique du trinôme ax² + bx + c est :",
-      "options": [
-        "a(x − x₁)(x − x₂)",
-        "a(x + b/(2a))² − Δ/(4a)",
-        "a(x − b/(2a))² + c",
-        "(x − x₁)(x − x₂)/a"
-      ]
+      "notion": "Civilisation britannique",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "id": "1061_2",
-      "type": "vrai-faux",
-      "question": "Si Δ > 0, la forme factorisée est a(x − x₁)(x − x₂)."
+      "notion": "Nuances grammaticales",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "id": "1061_3",
-      "type": "texte",
-      "question": "Mets x² − 4x + 1 sous forme canonique."
-    },
-    {
-      "id": "1061_4",
-      "type": "qcm",
-      "question": "La forme factorisée de x² − 5x + 6 est :",
-      "options": [
-        "(x−2)(x−3)",
-        "(x+2)(x+3)",
-        "(x−1)(x−6)",
-        "(x−2)(x+3)"
-      ]
-    },
-    {
-      "id": "1061_5",
-      "type": "vrai-faux",
-      "question": "La forme canonique permet de lire directement les coordonnées du sommet de la parabole."
-    },
-    {
-      "id": "1061_6",
-      "type": "texte",
-      "question": "Exprime f(x) = 2x² − 8x + 6 sous forme factorisée."
-    },
-    {
-      "id": "1061_7",
-      "type": "qcm",
-      "question": "Quelle est la forme canonique de f(x) = x² + 6x + 5 ?",
-      "options": [
-        "(x+3)² − 4",
-        "(x+3)² + 5",
-        "(x−3)² − 4",
-        "(x+6)² + 5"
-      ]
-    },
-    {
-      "id": "1061_8",
-      "type": "vrai-faux",
-      "question": "Si Δ < 0, le trinôme ne peut pas être factorisé dans R."
+      "notion": "Débat en anglais",
+      "description": "Notion fondamentale de Anglais"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

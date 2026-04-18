@@ -1,67 +1,90 @@
 {
-  "id": 1060,
-  "title": "Discriminant et racines",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "created_at": "2026-03-13T18:54:00.421996Z",
-  "questions": [
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 1ère - SÃ©rie 1060",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ère : Diagnostic Anglais 1ère - Série 2",
+    "status": "published",
+    "created_at": "2026-04-06 06:40:39",
+    "updated_at": "2026-04-06 06:40:39",
+    "source": "Eduscol programmes officiels + BOEN",
+    "programme_ref": "BO special ndeg1 du 22 janvier 2019 (LGT) + Eduscol Langues vivantes Premiere"
+  },
+  "quiz": {
+    "title": "Diagnostic Anglais 1ère - Série 2",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "What is the comparative form of the adjective \"good\"?",
+        "choices": [
+          "gooder",
+          "more good",
+          "better",
+          "best"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The word \"their\" is a contraction of \"they are\"."
+      },
+      {
+        "type": "open",
+        "question": "Translate the sentence \"She has a cat\" into French."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following words is an antonym of \"hot\"?",
+        "choices": [
+          "warm",
+          "cold",
+          "cool",
+          "heat"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "\"It's\" is a possessive pronoun."
+      },
+      {
+        "type": "open",
+        "question": "What is the past participle of the verb \"eat\"?"
+      },
+      {
+        "type": "qcm",
+        "question": "Choose the correct sentence:",
+        "choices": [
+          "They doesn't like music.",
+          "They don't like music.",
+          "They isn't like music.",
+          "They no like music."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The word \"slowly\" is an adjective."
+      }
+    ]
+  },
+  "exercisenotion": [
     {
-      "id": "1060_1",
-      "type": "qcm",
-      "question": "Le discriminant du trinôme ax² + bx + c est défini par :",
-      "options": [
-        "Δ = b² + 4ac",
-        "Δ = b² − 4ac",
-        "Δ = 4ac − b²",
-        "Δ = (b − a)²"
-      ]
+      "notion": "Civilisation britannique",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "id": "1060_2",
-      "type": "vrai-faux",
-      "question": "Si Δ > 0, le trinôme admet deux racines réelles distinctes."
+      "notion": "Nuances grammaticales",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "id": "1060_3",
-      "type": "texte",
-      "question": "Calcule le discriminant et les racines de f(x) = x² − 5x + 6."
-    },
-    {
-      "id": "1060_4",
-      "type": "qcm",
-      "question": "Que peut-on conclure si Δ = 0 ?",
-      "options": [
-        "Pas de racine réelle",
-        "Deux racines distinctes",
-        "Une racine double x₀ = −b/(2a)",
-        "Une infinité de racines"
-      ]
-    },
-    {
-      "id": "1060_5",
-      "type": "vrai-faux",
-      "question": "Si Δ < 0, la parabole ne coupe pas l'axe des abscisses."
-    },
-    {
-      "id": "1060_6",
-      "type": "texte",
-      "question": "Pour quelle(s) valeur(s) de k l'équation x² − kx + 4 = 0 admet-elle une racine double ?"
-    },
-    {
-      "id": "1060_7",
-      "type": "qcm",
-      "question": "Les racines de 2x² − 3x + 1 = 0 sont :",
-      "options": [
-        "x = 1 et x = 1/2",
-        "x = 1 et x = −1/2",
-        "x = 3 et x = 1",
-        "x = −1 et x = −1/2"
-      ]
-    },
-    {
-      "id": "1060_8",
-      "type": "vrai-faux",
-      "question": "Le produit des racines d'un trinôme ax² + bx + c est c/a."
+      "notion": "Débat en anglais",
+      "description": "Notion fondamentale de Anglais"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques 2nde : Fonction carree et variations",
     "status": "published",
-    "created_at": "2026-03-13 11:15:43",
-    "updated_at": "2026-03-13 11:15:43"
+    "created_at": "2026-04-06 06:40:42",
+    "updated_at": "2026-04-06 06:40:42"
   },
   "quiz": {
     "title": "Fonction carree et variations",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Compréhension du contexte",
+      "description": "Il est essentiel de bien comprendre le contexte de l'exercice, notamment les concepts de fonction carrée et de variations, pour aborder l'exercice de manière efficace"
+    },
+    {
+      "notion": "Analyse des données",
+      "description": "L'analyse des données fournies dans l'exercice, telles que les équations ou les graphiques, est cruciale pour identifier les informations clés et définir la démarche à suivre"
+    },
+    {
+      "notion": "Décomposition du problème",
+      "description": "La décomposition du problème en étapes plus petites et plus gérables permet de clarifier les objectifs et de mettre en place une stratégie de résolution efficace"
+    }
+  ],
   "exerciseresponses": []
 }

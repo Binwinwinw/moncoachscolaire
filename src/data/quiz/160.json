@@ -1,96 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 36",
+    "title": "Quiz Diagnostic Français 6eme - Série 0160",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Anglais",
-    "description": "Diagnostic Anglais 1ere : Les prépositions de temps, lieu et mouvement",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - L’analyse d’un poème",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-08 00:05:00"
+    "created_at": "2026-04-06 06:25:38",
+    "updated_at": "2026-04-06 06:25:38"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 36",
-    "level": "1ere",
-    "subject": "Anglais",
+    "title": "Français 6e - L’analyse d’un poème",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
-        "id": 1,
         "type": "qcm",
-        "question": "Choose the correct preposition: 'The meeting is ___ Friday ___ 3pm.'",
+        "question": "Quel est l'élément principal à analyser dans un poème pour comprendre son thème et son message ?",
         "choices": [
-          "in / at",
-          "on / at",
-          "at / in",
-          "on / in"
+          "Le titre du poème",
+          "La structure du poème",
+          "Les figures de style utilisées",
+          "Le rythme du poème"
         ]
       },
       {
-        "id": 2,
         "type": "vrai-faux",
-        "question": "'She was born in 1998' and 'She was born on 15th March 1998' are both grammatically correct."
+        "question": "La structure d'un poème peut être analysée pour comprendre comment les différentes parties du poème sont organisées et comment elles contribuent à l'ensemble du poème."
       },
       {
-        "id": 3,
-        "type": "texte",
-        "question": "Complète avec la bonne préposition de lieu (in, on, at) : 'The keys are ___ the table. Your bag is ___ the corner. She's waiting ___ the bus stop.'",
-        "placeholder": "Écris ta réponse ici..."
-      },
-      {
-        "id": 4,
         "type": "qcm",
-        "question": "Choose the correct preposition of movement: 'She walked ___ the bridge to get to the other side of the river.'",
+        "question": "Quel élément du poème correspond à la répétition d'un son ou d'une lettre pour créer un effet de rythme ou d'harmonie ?",
         "choices": [
-          "along",
-          "across",
-          "through",
-          "past"
+          "Métaphore",
+          "Comparaison",
+          "Allitération",
+          "Personnification"
         ]
       },
       {
-        "id": 5,
         "type": "vrai-faux",
-        "question": "In English, we say 'arrive at the airport' but 'arrive in Paris'."
+        "question": "L'analyse d'un poème peut aider à mieux comprendre les émotions et les idées que l'auteur souhaite transmettre à travers son œuvre."
       },
       {
-        "id": 6,
-        "type": "texte",
-        "question": "Explique la différence entre 'go to school' et 'go to the school'.",
-        "placeholder": "Écris ta réponse ici..."
-      },
-      {
-        "id": 7,
         "type": "qcm",
-        "question": "Which sentence uses a preposition of movement correctly?",
+        "question": "Quel élément du poème correspond à une comparaison entre deux éléments en utilisant des mots tels que 'comme', 'tel', 'ainsi que', etc. ?",
         "choices": [
-          "He ran along the building to escape.",
-          "She jumped onto the stage to perform.",
-          "They walked through the street.",
-          "He drove past into the city."
+          "Métaphore",
+          "Comparaison",
+          "Allitération",
+          "Personnification"
         ]
       },
       {
-        "id": 8,
         "type": "vrai-faux",
-        "question": "'In the morning' and 'on Monday morning' are both correct but use different prepositions."
+        "question": "L'analyse d'un poème peut être subjective et dépendre de l'interprétation personnelle du lecteur, ce qui peut conduire à différentes interprétations du même poème."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel élément du poème correspond à une figure de style qui attribue des caractéristiques humaines à des objets inanimés ou à des concepts abstraits ?",
+        "choices": [
+          "Métaphore",
+          "Comparaison",
+          "Allitération",
+          "Personnification"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'analyse d'un poème peut également inclure l'étude du contexte historique, social et culturel dans lequel le poème a été écrit, pour mieux comprendre les influences et les références présentes dans le poème."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Prépositions de temps : at, on, in",
-      "description": "AT + heure précise ou moment précis : at 8pm, at noon, at midnight, at the weekend (UK). ON + jours et dates : on Monday, on 5th March, on my birthday. IN + périodes longues : in the morning, in January, in 2020, in the 19th century, in summer. Exceptions : at night, at Christmas, at Easter."
+      "notion": "Fondamentaux de Français",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Prépositions de lieu : at, on, in",
-      "description": "IN = à l'intérieur d'un espace fermé ou délimité : in the room, in Paris, in France, in a box. ON = sur une surface : on the table, on the wall, on the floor, on a bus/train/plane. AT = un point précis, une adresse, un lieu d'activité : at the station, at school, at 15 Baker Street, at the top."
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Prépositions de mouvement",
-      "description": "TO = direction vers : go to school, travel to France. INTO = mouvement vers l'intérieur : walk into the room. ONTO = mouvement vers une surface : jump onto the table. THROUGH = passage à travers : walk through the forest. ALONG = le long de : walk along the river. ACROSS = traverser : swim across the lake. PAST = passer devant : walk past the shop."
+      "notion": "Savoir-faire français",
+      "description": "Notion du programme 6eme"
     }
   ],
   "exerciseresponses": []

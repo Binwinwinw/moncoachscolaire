@@ -1,14 +1,74 @@
 {
   "contents": {
-    "title": "QUIZ 1658 - réponses à remplir",
-    "level": "unknown",
-    "subject": "unknown"
+    "title": "Quiz Diagnostic Anglais 2nde - SÃ©rie 1658",
+    "level": "2nde",
+    "subject": "Anglais"
   },
   "quiz": {
-    "title": "Quiz 1658 - corrections placeholder",
-    "question_count": 0,
-    "answers": [],
-    "level": "unknown",
-    "subject": "unknown"
+    "title": "Diagnostic 2nde Anglais - Pronunciation and Listening Basics",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "know",
+        "correct": 0,
+        "correction": "Dans 'know', la lettre 'k' est muette."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'accentuation correcte facilite la compréhension orale en anglais."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "ən",
+        "correction": "En parole enchaînée, 'and' est souvent réduit à /ən/ ou /n/."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Focus on overall meaning and continue",
+        "correct": 1,
+        "correction": "En compréhension orale, il faut garder le fil global plutôt que bloquer sur un mot."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'intonation montante est fréquente dans certaines questions fermées."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "ship/sheep",
+        "correction": "Les minimal pairs entraînent la discrimination fine des sons voyelles."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "watched",
+        "correct": 2,
+        "correction": "Après un son sourd, -ed se prononce souvent /t/: watched."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Première écoute globale, seconde écoute détaillée: méthode efficace."
+      }
+    ]
   }
 }

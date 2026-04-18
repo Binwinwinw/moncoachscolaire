@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Fonction exponentielle — définition & propriétés",
     "status": "published",
-    "created_at": "2026-03-13 11:24:24",
-    "updated_at": "2026-03-13 11:24:24"
+    "created_at": "2026-04-06 06:40:48",
+    "updated_at": "2026-04-06 06:40:48"
   },
   "quiz": {
     "title": "Fonction exponentielle — définition & propriétés",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Fonction exponentielle",
+      "description": "La fonction exponentielle est une fonction mathématique qui associe à chaque nombre réel x le nombre e^x, où e est une constante mathématique approximativement égale à 2,71828"
+    },
+    {
+      "notion": "Propriétés de la fonction exponentielle",
+      "description": "La fonction exponentielle a plusieurs propriétés importantes, notamment e^0 = 1, qui est une propriété fondamentale de la fonction exponentielle"
+    },
+    {
+      "notion": "Valeur de e^0",
+      "description": "La valeur de e^0 est égale à 1, ce qui signifie que lorsque l'exposant est nul, la fonction exponentielle prend la valeur 1"
+    }
+  ],
   "exerciseresponses": []
 }

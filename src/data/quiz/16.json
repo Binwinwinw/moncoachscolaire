@@ -1,0 +1,94 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6eme - Série 0016",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6eme : musique : genres, instruments, artistes",
+    "status": "published",
+    "created_at": "2026-04-06 06:24:36",
+    "updated_at": "2026-04-06 06:24:36"
+  },
+  "quiz": {
+    "title": "musique : genres, instruments, artistes",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Which of the following is a genre of music?",
+        "choices": [
+          "Rock",
+          "Classical",
+          "Hip-hop",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The guitar is a string instrument."
+      },
+      {
+        "type": "qcm",
+        "question": "Who is known as the 'King of Pop'?",
+        "choices": [
+          "Elvis Presley",
+          "Michael Jackson",
+          "Prince",
+          "Madonna"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'Beethoven was a famous composer of classical music' is a true statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a wind instrument?",
+        "choices": [
+          "Flute",
+          "Saxophone",
+          "Trumpet",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The Beatles were a famous rock band from England' is a true statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a famous music festival?",
+        "choices": [
+          "Coachella",
+          "Glastonbury",
+          "Lollapalooza",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'Madonna is known as the 'Queen of Pop'' is a true statement."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Fondamentaux de Anglais",
+      "description": "Notion du programme 6eme"
+    },
+    {
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
+    },
+    {
+      "notion": "Savoir-faire anglais",
+      "description": "Notion du programme 6eme"
+    }
+  ],
+  "exerciseresponses": []
+}

@@ -1,71 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 20",
-    "level": "1ere",
-    "subject": "Anglais"
+    "title": "Quiz Diagnostic EMC 6eme - Série 0144",
+    "level": "6eme",
+    "subject": "EMC"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 20",
+    "title": "EMC 6e - Le travail scolaire à la maison",
     "question_count": 8,
+    "level": "6eme",
+    "subject": "EMC",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "bonne_reponse": "AI changing jobs",
-        "correction": "Correct ! AI automatise. Relis tech chap., débat impacts."
+        "answer": "Le travail scolaire à la maison est essentiel pour renforcer les compétences, approfondir les connaissances et développer l'autonomie des élèves, ce qui contribue à leur réussite scolaire et à leur développement personnel.",
+        "correction": "Le travail scolaire à la maison est essentiel pour renforcer les compétences, approfondir les connaissances et développer l'autonomie des élèves, ce qui contribue à leur réussite scolaire et à leur développement personnel."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "bonne_reponse": "Vrai",
-        "correction": "Vrai : Digital divide. Étudie stats ONU pour oral."
+        "answer": "faux",
+        "correction": "C'est faux. Le travail scolaire à la maison est essentiel pour renforcer les compétences, approfondir les connaissances et développer l'autonomie des élèves, ce qui contribue à leur réussite scolaire et à leur développement personnel."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "bonne_reponse": "Ex: Smartphones connect but addict",
-        "correction": "Nuancé fort ! Structure arguments (for/against)."
+        "type": "qcm",
+        "answer": "Toutes les réponses précédentes",
+        "correction": "Travailler à la maison permet de renforcer les compétences, d'approfondir les connaissances et de développer l'autonomie des élèves, ce qui contribue à leur réussite scolaire et à leur développement personnel."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "bonne_reponse": "Robots replace routine work",
-        "correction": "Exact ! Upskill needed. Vidéos futur jobs."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le travail scolaire à la maison est essentiel pour renforcer les compétences, approfondir les connaissances et développer l'autonomie des élèves, ce qui contribue à leur réussite scolaire et à leur développement personnel."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "bonne_reponse": "Vrai",
-        "correction": "Vrai : Gini index rises. Compare pays riches/pauvres."
+        "type": "qcm",
+        "answer": "Le travail scolaire à la maison est essentiel pour renforcer les compétences, approfondir les connaissances et développer l'autonomie des élèves, ce qui contribue à leur réussite scolaire et à leur développement personnel.",
+        "correction": "Le travail scolaire à la maison est essentiel pour renforcer les compétences, approfondir les connaissances et développer l'autonomie des élèves, ce qui contribue à leur réussite scolaire et à leur développement personnel."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "bonne_reponse": "Ex: Poor areas lack internet",
-        "correction": "Concret ! Vocab inequality (gap, access)."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le travail scolaire à la maison est essentiel pour renforcer les compétences, approfondir les connaissances et développer l'autonomie des élèves, ce qui contribue à leur réussite scolaire et à leur développement personnel."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "bonne_reponse": "Online education access",
-        "correction": "Parfait ! MOOCs ex. Mais qualité ? Débat."
+        "answer": "Toutes les réponses précédentes",
+        "correction": "Travailler à la maison permet de renforcer les compétences, d'approfondir les connaissances et de développer l'autonomie des élèves, ce qui contribue à leur réussite scolaire et à leur développement personnel."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "bonne_reponse": "Vrai",
-        "correction": "Vrai : Reskill constantly. Prépare CV futur-proof."
+        "answer": "faux",
+        "correction": "C'est faux. Il est important de comprendre les concepts et les compétences plutôt que de simplement apprendre les leçons par cœur, car cela favorise une meilleure rétention des connaissances et une application plus efficace dans différentes situations."
       }
-    ],
-    "level": "1ere",
-    "subject": "Anglais"
+    ]
   }
 }

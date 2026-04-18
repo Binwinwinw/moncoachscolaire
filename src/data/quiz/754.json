@@ -6,8 +6,8 @@
     "subject": "EMC",
     "description": "Diagnostic EMC 3eme : Les droits sociaux et economiques",
     "status": "published",
-    "created_at": "2026-03-13 18:59:43",
-    "updated_at": "2026-03-13 18:59:43"
+    "created_at": "2026-04-06 06:40:43",
+    "updated_at": "2026-04-06 06:40:43"
   },
   "quiz": {
     "title": "Les droits sociaux et economiques",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Fondamentaux de EMC",
+      "description": "Notion du programme 3eme"
+    },
+    {
+      "notion": "Compétences de base 3eme",
+      "description": "Notion du programme 3eme"
+    },
+    {
+      "notion": "Savoir-faire emc",
+      "description": "Notion du programme 3eme"
+    }
+  ],
   "exerciseresponses": []
 }

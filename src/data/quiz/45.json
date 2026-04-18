@@ -1,84 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 4eme SVT",
+    "title": "Quiz Diagnostic Anglais 6ème - Série 0045",
     "type": "quiz",
-    "level": "4eme",
-    "subject": "SVT",
-    "description": "Diagnostic ADN, vaccination, électricité corporelle 4eme"
+    "level": "6ème",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6ème : Vocabulaire de base : phrases courantes pour dire bonjour, au revoir, merci, s'il vous plaît, etc.",
+    "status": "published",
+    "created_at": "2026-04-06 06:24:36",
+    "updated_at": "2026-04-06 06:24:36"
   },
   "quiz": {
-    "title": "Diagnostic SVT 4eme",
-    "level": "4eme",
-    "subject": "SVT",
+    "title": "Vocabulaire de base : phrases courantes pour dire bonjour, au revoir, merci, s'il vous plaît, etc.",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
     "question_count": 8,
-    "passing_score": 80,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
     "questions": [
       {
-        "id": 1,
         "type": "qcm",
-        "question": "Molécule ADN = double ...",
+        "question": "Which of the following is a common English greeting?",
         "choices": [
-          "Hélice",
-          "Anneau",
-          "Chaîne"
+          "Hello",
+          "Hi",
+          "Hey",
+          "All of the above"
         ]
       },
       {
-        "id": 2,
-        "type": "texte",
-        "question": "Vaccin = anticorps contre ..."
-      },
-      {
-        "id": 3,
         "type": "vrai-faux",
-        "question": "ADN = identique cellules même individu."
+        "question": "'The English phrase for 'Comment ça va?' is 'How are you?'' is a true statement."
       },
       {
-        "id": 4,
         "type": "qcm",
-        "question": "Cellule nerveuse =",
+        "question": "Which of the following is a common English expression used to say goodbye?",
         "choices": [
-          "Neurone",
-          "Globule rouge",
-          "Muscle"
+          "Goodbye",
+          "Bye",
+          "See you later",
+          "All of the above"
         ]
       },
       {
-        "id": 5,
-        "type": "texte",
-        "question": "Fréquence cardiaque repos adulte ≈ ... batt/min"
-      },
-      {
-        "id": 6,
         "type": "vrai-faux",
-        "question": "Vaccin = virus vivant."
+        "question": "'The English phrase for 'Merci' is 'Thank you'' is a true statement."
       },
       {
-        "id": 7,
         "type": "qcm",
-        "question": "Hérédité = chromosomes dans ...",
+        "question": "Which of the following is a common English expression used to apologize?",
         "choices": [
-          "Cytoplasme",
-          "Noyau",
-          "Mitochondrie"
+          "Sorry",
+          "I apologize",
+          "My apologies",
+          "All of the above"
         ]
       },
       {
-        "id": 8,
-        "type": "texte",
-        "question": "Impulsion nerveuse vitesse ≈ ... m/s"
+        "type": "vrai-faux",
+        "question": "'The English phrase for 'S'il vous plaît' is 'Please'' is a true statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English expression used to express gratitude?",
+        "choices": [
+          "Thank you",
+          "Thanks",
+          "I appreciate it",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English phrase for 'Excusez-moi' is 'Excuse me'' is a true statement."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Génétique ADN"
+      "notion": "Vocabulaire de base",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "notion": "Immunité vaccination"
+      "notion": "Grammaire simple",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "notion": "Système nerveux"
+      "notion": "Expression orale",
+      "description": "Notion fondamentale de Anglais"
     }
   ],
   "exerciseresponses": []

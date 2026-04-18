@@ -1,63 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 33",
-    "level": "1ere",
-    "subject": "Anglais"
+    "title": "Quiz Diagnostic Français 6eme - Série 0157",
+    "level": "6eme",
+    "subject": "Français"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 33",
+    "title": "Français 6e - Les valeurs des temps",
     "question_count": 8,
+    "level": "6eme",
+    "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correction": "La bonne réponse est C : 'finished'. On utilise le past simple pour une action terminée à un moment précis du passé. 'Two hours ago' est un marqueur temporel précis qui exige le past simple. Le present perfect (D) est incorrect car on ne peut pas l'utiliser avec 'ago' — 'ago' indique un moment spécifique dans le passé."
+        "answer": "Exprimer une action qui se déroule au moment où l'on parle",
+        "correction": "La valeur principale du présent de l'indicatif est d'exprimer une action qui se déroule au moment où l'on parle."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "correction": "VRAI. C'est une structure classique : past continuous (action longue en cours : was walking) + past simple (action soudaine qui interrompt : started). 'While' introduit l'action longue au past continuous. On peut aussi dire : 'I was walking home when it started to rain.' Les deux actions coexistent dans le passé, l'une en arrière-plan, l'autre au premier plan."
+        "answer": "vrai",
+        "correction": "C'est vrai. Le passé composé peut être utilisé pour exprimer une action qui s'est déroulée dans le passé et qui a un lien avec le présent, souvent en indiquant une action achevée ou un résultat présent."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correction": "La réponse est : 'had already left'. On utilise le past perfect (had + past participle) car le départ du train est antérieur à notre arrivée à la gare. Le past perfect marque qu'une action s'est produite AVANT une autre dans le passé. 'Already' renforce cette idée d'antériorité. 'Left' est le participe passé irrégulier de 'leave'."
+        "type": "qcm",
+        "answer": "Exprimer une action qui s'est déroulée dans le passé de manière habituelle ou répétée",
+        "correction": "La valeur principale de l'imparfait est d'exprimer une action qui s'est déroulée dans le passé de manière habituelle ou répétée, ou pour décrire une situation ou un état dans le passé."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correction": "La bonne réponse est A : 'She had left before he arrived.' Le past perfect (had left) s'utilise pour l'action la plus ancienne dans le passé. L'action plus récente (he arrived) est au past simple. La règle : l'action qui s'est produite EN PREMIER → past perfect ; l'action qui s'est produite APRÈS → past simple."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Le futur simple est utilisé pour exprimer une intention, une prédiction ou une promesse concernant une action qui se déroulera dans le futur."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "correction": "VRAI. Le past continuous peut décrire deux actions simultanées dans le passé, introduites par 'while'. Ex : 'While she was cooking, he was setting the table.' Les deux actions se déroulaient en même temps dans le passé. C'est différent du schéma past continuous + past simple où une action longue est interrompue par une action soudaine."
+        "type": "qcm",
+        "answer": "Exprimer une action qui s'est déroulée dans le passé et qui n'a pas de lien direct avec le présent",
+        "correction": "La valeur principale du passé simple est d'exprimer une action qui s'est déroulée dans le passé et qui n'a pas de lien direct avec le présent, souvent dans un contexte littéraire ou formel."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "correction": "'Had forgotten' (past perfect) indique que l'action d'oublier les clés s'est produite AVANT le moment de réalisation ('I realised'). Le past perfect établit une chronologie : d'abord j'ai oublié mes clés (had forgotten), ensuite je m'en suis rendu compte en rentrant chez moi (got home / realised). Sans past perfect, la chronologie serait ambiguë."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le présent est utilisé pour exprimer une action qui se déroule au moment où l'on parle, tandis que l'imparfait est utilisé pour exprimer une action qui se déroulait de manière habituelle ou répétée dans le passé."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "correction": "La bonne réponse est A : 'I was watching TV when suddenly the lights went out.' C'est la structure classique : past continuous (action en cours = was watching) interrompue par une action soudaine au past simple (went out). Le mot 'suddenly' renforce l'idée d'une interruption soudaine. Le past perfect continu (C) serait trop lourd dans ce contexte."
+        "answer": "Exprimer une action qui se déroulera dans le futur",
+        "correction": "La valeur principale du futur simple est d'exprimer une action qui se déroulera dans le futur, souvent en indiquant une intention, une prédiction ou une promesse."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "correction": "FAUX. De nombreux verbes irréguliers ont des formes différentes pour le past simple et le participe passé. Ex : go → went (past simple) → gone (past participle) / write → wrote → written / see → saw → seen / take → took → taken. Certains cependant ont la même forme : put → put → put / cut → cut → cut / read → read → read (prononciation différente)."
+        "answer": "vrai",
+        "correction": "C'est vrai. L'utilisation de différents temps verbaux peut contribuer à créer des nuances de sens et à enrichir la narration d'une histoire, en jouant sur la temporalité et en créant des effets de suspense, d'immédiateté ou de nostalgie."
       }
-    ],
-    "level": "1ere",
-    "subject": "Anglais"
+    ]
   }
 }

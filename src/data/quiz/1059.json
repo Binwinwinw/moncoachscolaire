@@ -1,67 +1,90 @@
 {
-  "id": 1059,
-  "title": "Polynôme du second degré — forme générale",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "created_at": "2026-03-13T18:54:00.421252Z",
-  "questions": [
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 1ère - SÃ©rie 1059",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ère : Diagnostic Anglais 1ère - Série 1",
+    "status": "published",
+    "created_at": "2026-04-06 06:40:39",
+    "updated_at": "2026-04-06 06:40:39",
+    "source": "Eduscol programmes officiels + BOEN",
+    "programme_ref": "BO special ndeg1 du 22 janvier 2019 (LGT) + Eduscol Langues vivantes Premiere"
+  },
+  "quiz": {
+    "title": "Diagnostic Anglais 1ère - Série 1",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "What is the past tense of the verb \"go\"?",
+        "choices": [
+          "goed",
+          "went",
+          "gone",
+          "goes"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The word \"their\" is a possessive pronoun."
+      },
+      {
+        "type": "open",
+        "question": "Translate the sentence \"I am going to the market\" into French."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a synonym for \"happy\"?",
+        "choices": [
+          "sad",
+          "angry",
+          "joyful",
+          "tired"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The word \"affect\" is a noun."
+      },
+      {
+        "type": "open",
+        "question": "What is the plural form of \"child\"?"
+      },
+      {
+        "type": "qcm",
+        "question": "Choose the correct sentence:",
+        "choices": [
+          "She don't like pizza.",
+          "She doesn't like pizza.",
+          "She isn't like pizza.",
+          "She no like pizza."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The word \"quickly\" is an adverb."
+      }
+    ]
+  },
+  "exercisenotion": [
     {
-      "id": "1059_1",
-      "type": "qcm",
-      "question": "Un trinôme du second degré s'écrit sous la forme :",
-      "options": [
-        "ax + b",
-        "ax² + bx + c avec a ≠ 0",
-        "ax² + bx",
-        "ax³ + bx² + c"
-      ]
+      "notion": "Civilisation britannique",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "id": "1059_2",
-      "type": "vrai-faux",
-      "question": "La parabole représentant ax² + bx + c est tournée vers le haut quand a > 0."
+      "notion": "Nuances grammaticales",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "id": "1059_3",
-      "type": "texte",
-      "question": "Pour f(x) = 2x² − 4x + 3, identifie les coefficients a, b et c."
-    },
-    {
-      "id": "1059_4",
-      "type": "qcm",
-      "question": "L'axe de symétrie de la parabole ax² + bx + c est la droite d'équation :",
-      "options": [
-        "x = −b",
-        "x = −b/(2a)",
-        "x = b/(2a)",
-        "x = c/a"
-      ]
-    },
-    {
-      "id": "1059_5",
-      "type": "vrai-faux",
-      "question": "Le sommet de la parabole f(x) = x² − 6x + 5 a pour abscisse x = 3."
-    },
-    {
-      "id": "1059_6",
-      "type": "texte",
-      "question": "Calcule les coordonnées du sommet S de f(x) = x² − 4x + 7."
-    },
-    {
-      "id": "1059_7",
-      "type": "qcm",
-      "question": "Parmi ces expressions, laquelle est un trinôme du second degré ?",
-      "options": [
-        "3x + 2",
-        "x² + 1",
-        "x³ − x + 1",
-        "0·x² + 2x + 1"
-      ]
-    },
-    {
-      "id": "1059_8",
-      "type": "vrai-faux",
-      "question": "La valeur minimale (ou maximale) d'un trinôme ax² + bx + c est atteinte au sommet de la parabole."
+      "notion": "Débat en anglais",
+      "description": "Notion fondamentale de Anglais"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

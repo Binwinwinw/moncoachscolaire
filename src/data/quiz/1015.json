@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Asymptotes & comportements asymptotiques",
     "status": "published",
-    "created_at": "2026-03-13 11:24:24",
-    "updated_at": "2026-03-13 11:24:24"
+    "created_at": "2026-04-06 06:40:48",
+    "updated_at": "2026-04-06 06:40:48"
   },
   "quiz": {
     "title": "Asymptotes & comportements asymptotiques",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Asymptote horizontale",
+      "description": "Une droite qui approche la fonction à mesure que x tend vers l'infini ou vers moins l'infini"
+    },
+    {
+      "notion": "Comportement asymptotique",
+      "description": "Étude de la façon dont une fonction se comporte lorsqu'elle approche une asymptote"
+    },
+    {
+      "notion": "Limites",
+      "description": "Notion mathématique qui permet de définir les asymptotes et de comprendre le comportement d'une fonction à l'approche de ces asymptotes"
+    }
+  ],
   "exerciseresponses": []
 }

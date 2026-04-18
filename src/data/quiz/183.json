@@ -1,75 +1,94 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Histoire-Geographie 1ere - Série 183",
+    "title": "Quiz Diagnostic Français 6eme - Série 0183",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Histoire-Geographie",
-    "description": "Diagnostic Histoire-Geographie 1ere : Quiz Diagnostic 1ere Histoire-Géographie - Serie 9",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - Les connecteurs temporels",
     "status": "published",
-    "created_at": "2026-03-13 18:59:43",
-    "updated_at": "2026-03-13 18:59:43"
+    "created_at": "2026-04-06 06:25:38",
+    "updated_at": "2026-04-06 06:25:38"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Histoire-Géographie - Serie 9",
+    "title": "Français 6e - Les connecteurs temporels",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Histoire-Geographie",
+    "level": "6eme",
+    "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Qu'est-ce que la mondialisation ?",
+        "question": "Qu'est-ce qu'un connecteur temporel ?",
         "choices": [
-          "L'uniformisation culturelle mondiale",
-          "Le processus d'interconnexion et d'interdépendance croissante des économies, des sociétés et des cultures à l'échelle mondiale",
-          "La domination économique des États-Unis sur le monde",
-          "La suppression des frontières nationales"
+          "Un mot ou une expression qui indique une relation de cause à effet",
+          "Un mot ou une expression qui indique une relation de comparaison",
+          "Un mot ou une expression qui indique une relation de temps",
+          "Un mot ou une expression qui indique une relation de lieu"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Les flux commerciaux mondiaux sont dominés par la 'Triade' : Amérique du Nord, Europe occidentale et Asie orientale."
-      },
-      {
-        "type": "open",
-        "question": "Qu'est-ce qu'une firme transnationale (FTN) et quel est son rôle dans la mondialisation ?"
+        "question": "Les connecteurs temporels peuvent être classés en plusieurs types, tels que les connecteurs de temps, les connecteurs de durée, les connecteurs de fréquence, etc., en fonction de la relation temporelle qu'ils expriment."
       },
       {
         "type": "qcm",
-        "question": "Quel continent est le plus marginalisé dans la mondialisation économique actuelle ?",
+        "question": "Quel est le rôle d'un connecteur temporel dans la communication écrite ?",
         "choices": [
-          "L'Amérique latine",
-          "L'Asie du Sud",
-          "L'Afrique subsaharienne",
-          "L'Océanie"
+          "Il n'a pas de rôle spécifique",
+          "Il permet d'exprimer des affirmations",
+          "Il permet d'exprimer des questions",
+          "Il permet d'indiquer la chronologie des événements"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "La mondialisation accentue les inégalités entre pays et au sein des pays."
-      },
-      {
-        "type": "open",
-        "question": "Qu'est-ce qu'une métropole mondiale (ville mondiale ou global city) et citez deux exemples."
+        "question": "L'utilisation correcte des connecteurs temporels est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les écrivains utilisent les connecteurs temporels de manière appropriée en fonction du contexte et du message qu'ils souhaitent transmettre, ce qui contribue à la clarté et à l'efficacité de la communication écrite."
       },
       {
         "type": "qcm",
-        "question": "Qu'est-ce que le libre-échange, promu par l'Organisation mondiale du commerce (OMC) ?",
+        "question": "Quel est le rôle d'un connecteur de durée dans la communication écrite ?",
         "choices": [
-          "La suppression totale des droits de douane dans le monde entier",
-          "La réduction des barrières commerciales (droits de douane, quotas) pour favoriser le commerce international",
-          "Le commerce équitable entre pays du Nord et du Sud",
-          "La liberté de circulation des personnes entre tous les pays"
+          "Il n'a pas de rôle spécifique",
+          "Il permet d'exprimer des affirmations",
+          "Il permet d'exprimer des questions",
+          "Il permet d'indiquer la durée d'une action ou d'un événement"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Internet et les technologies numériques sont des moteurs essentiels de la mondialisation contemporaine."
+        "question": "L'utilisation incorrecte des connecteurs temporels peut parfois entraîner des confusions ou des malentendus dans la communication écrite, en rendant difficile pour les lecteurs de comprendre la chronologie des événements exprimés dans une phrase ou un texte, ce qui peut nuire à la clarté du message et à l'efficacité de la communication écrite."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle d'un connecteur de fréquence dans la communication écrite ?",
+        "choices": [
+          "Il n'a pas de rôle spécifique",
+          "Il permet d'exprimer des affirmations",
+          "Il permet d'exprimer des questions",
+          "Il permet d'indiquer la fréquence d'une action ou d'un événement"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation correcte des connecteurs temporels est essentielle pour éviter les confusions et les erreurs dans la communication écrite."
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Fondamentaux de Français",
+      "description": "Notion du programme 6eme"
+    },
+    {
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
+    },
+    {
+      "notion": "Savoir-faire français",
+      "description": "Notion du programme 6eme"
+    }
+  ],
   "exerciseresponses": []
 }

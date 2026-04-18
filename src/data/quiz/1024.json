@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Équations et inéquations avec exp",
     "status": "published",
-    "created_at": "2026-03-13 11:24:24",
-    "updated_at": "2026-03-13 11:24:24"
+    "created_at": "2026-04-06 06:40:48",
+    "updated_at": "2026-04-06 06:40:48"
   },
   "quiz": {
     "title": "Équations et inéquations avec exp",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Équations exponentielles",
+      "description": "Les équations exponentielles impliquent des fonctions exponentielles, comme e^(3x) = e^6, qui nécessitent l'utilisation de propriétés des exponentielles pour résoudre l'inconnue."
+    },
+    {
+      "notion": "Propriétés des exponentielles",
+      "description": "Les propriétés des exponentielles, telles que e^a = e^b impliquant a = b, sont essentielles pour résoudre les équations exponentielles et simplifier les expressions."
+    },
+    {
+      "notion": "Résolution d'équations",
+      "description": "La résolution d'équations, en particulier celles impliquant des fonctions exponentielles, nécessite une compréhension approfondie des propriétés algébriques et des opérations inverses pour isoler l'in"
+    }
+  ],
   "exerciseresponses": []
 }

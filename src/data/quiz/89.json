@@ -1,0 +1,94 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6ème - Série 0089",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 6ème : Espace et géométrie (symétrie, axes de symétrie, figures symétriques)",
+    "status": "published",
+    "created_at": "2026-04-06 06:25:41",
+    "updated_at": "2026-04-06 06:25:41"
+  },
+  "quiz": {
+    "title": "Espace et géométrie (symétrie, axes de symétrie, figures symétriques)",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle figure est symétrique par rapport à un axe vertical ?",
+        "choices": [
+          "Un cercle",
+          "Un carré",
+          "Un triangle isocèle",
+          "Un rectangle"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un cercle est symétrique par rapport à n'importe quel axe passant par son centre."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle figure est symétrique par rapport à un axe horizontal ?",
+        "choices": [
+          "Un triangle équilatéral",
+          "Un carré",
+          "Un rectangle",
+          "Un triangle scalène"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un carré est symétrique par rapport à deux axes de symétrie perpendiculaires."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle figure n'est pas symétrique ?",
+        "choices": [
+          "Un triangle scalène",
+          "Un cercle",
+          "Un carré",
+          "Un rectangle"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un rectangle est symétrique par rapport à un axe diagonal."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle figure est symétrique par rapport à une diagonale ?",
+        "choices": [
+          "Un carré",
+          "Un rectangle",
+          "Un triangle équilatéral",
+          "Un cercle"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un triangle équilatéral est symétrique par rapport à trois axes de symétrie."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Opérations arithmétiques",
+      "description": "Notion fondamentale de Mathématiques"
+    },
+    {
+      "notion": "Géométrie élémentaire",
+      "description": "Notion fondamentale de Mathématiques"
+    },
+    {
+      "notion": "Nombres et fractions",
+      "description": "Notion fondamentale de Mathématiques"
+    }
+  ],
+  "exerciseresponses": []
+}

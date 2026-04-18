@@ -1,6 +1,6 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic bac Anglais - Serie 05",
+    "title": "Anglais - Utilisation des structures conditionnelles et du discours indirect",
     "type": "quiz",
     "level": "bac",
     "subject": "Anglais",
@@ -10,7 +10,7 @@
     "updated_at": "2026-03-08 00:05:00"
   },
   "quiz": {
-    "title": "Quiz Diagnostic bac Anglais - Serie 05",
+    "title": "Anglais - Utilisation des structures conditionnelles et du discours indirect",
     "level": "bac",
     "subject": "Anglais",
     "question_count": 8,
@@ -19,78 +19,104 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "question": "Quelle est la fonction principale des structures conditionnelles dans une phrase anglaise?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "De décrire des actions se déroulant au présent",
+          "D'exprimer des conditions et leurs conséquences",
+          "De localiser des événements dans le temps",
+          "De varier la voix passive"
         ],
         "id": 1
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau bac aborde des notions fondamentales en Anglais.",
-        "id": 2
+        "question": "Comment le discours indirect modifie-t-il généralement les verbes des phrases originales?",
+        "id": 2,
+        "choices": [
+          "En changeant tous les verbes au présent",
+          "En utilisant systématiquement le subjonctif",
+          "En convertissant les verbes de l'indicatif à l'infinitif ou en ajustant les temps verbaux",
+          "En supprimant les auxiliaires"
+        ]
       },
       {
         "type": "texte",
-        "question": "Cite un exemple concret lié à Anglais.",
+        "question": "Quel modal est utilisé pour exprimer une obligation ou une nécessité en anglais?",
         "placeholder": "Exemple...",
-        "id": 3
+        "id": 3,
+        "choices": [
+          "Can",
+          "May",
+          "Must",
+          "Should"
+        ]
       },
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "question": "Qu'est-ce que le passé simple est utilisé pour décrire en anglais?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "Des actions en cours à un moment précis dans le passé",
+          "Des actions habituelles ou répétées dans le passé",
+          "Des actions achevées à un moment donné dans le passé",
+          "Des actions qui se sont produites avant une autre action dans le passé"
         ],
         "id": 4
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau bac aborde des notions fondamentales en Anglais.",
-        "id": 5
+        "question": "Vrai ou faux : Le conditionnel présent est utilisé pour des situations réelles et leurs conséquences.",
+        "id": 5,
+        "choices": [
+          "Vrai",
+          "Faux"
+        ]
       },
       {
         "type": "texte",
-        "question": "Cite un exemple concret lié à Anglais.",
+        "question": "Expliquez brièvement comment le modal 'could' est utilisé pour exprimer la capacité dans le passé.",
         "placeholder": "Exemple...",
-        "id": 6
+        "id": 6,
+        "choices": [
+          "Il est utilisé pour exprimer une capacité générale",
+          "Il décrit une capacité spécifique dans le passé",
+          "Il exprime une hypothèse sur une capacité future",
+          "Il indique une obligation"
+        ]
       },
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "question": "Quel est le rôle du subjonctif dans les phrases complexes en anglais?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "Il exprime une action se produisant dans le présent",
+          "Il est utilisé pour les actions répétées dans le passé",
+          "Il exprime le doute, la nécessité ou l'émotion",
+          "Il décrit des actions achevées"
         ],
         "id": 7
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau bac aborde des notions fondamentales en Anglais.",
-        "id": 8
+        "question": "Vrai ou faux : Les verbes modaux comme 'will' et 'would' peuvent être utilisés pour exprimer des intentions ou des prédictions.",
+        "id": 8,
+        "choices": [
+          "Vrai",
+          "Faux"
+        ]
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Notion 1 - Anglais",
-      "description": "Concept clé de Anglais au niveau bac"
+      "notion": "Les structures conditionnelles complexes",
+      "description": "Les structures conditionnelles complexes en anglais permettent d'exprimer des conditions hypothétiques ou réelles et leurs conséquences, utilisant des verbes auxiliaires comme 'would', 'could' et 'might' pour décrire des situations passées, présentes ou futures"
     },
     {
-      "notion": "Notion 2 - Anglais",
-      "description": "Concept clé de Anglais au niveau bac"
+      "notion": "Le discours indirect et ses applications",
+      "description": "Le discours indirect en anglais est utilisé pour rapporter les paroles ou les pensées d'une personne, en changeant souvent les verbes de l'indicatif à l'infinitif ou aux temps du subjonctif, et en ajustant les pronoms et les adverbes pour refléter le point de vue du locuteur"
     },
     {
-      "notion": "Notion 3 - Anglais",
-      "description": "Concept clé de Anglais au niveau bac"
+      "notion": "Les modaux et leurs utilisations spécifiques",
+      "description": "Les modaux en anglais, tels que 'can', 'could', 'may', 'might', 'shall', 'should', 'will' et 'would', sont utilisés pour exprimer la possibilité, la capacité, la permission, l'obligation, la nécessité et la certitude, et varient en fonction du contexte et du degré de formalité"
     }
   ],
   "exerciseresponses": []

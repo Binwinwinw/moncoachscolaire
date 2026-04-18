@@ -1,96 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic seconde Anglais",
+    "title": "Quiz Diagnostic EMC 6eme - Série 0102",
     "type": "quiz",
-    "level": "seconde",
-    "subject": "Anglais",
-    "description": "Diagnostic Anglais seconde : Grammaire Seconde",
+    "level": "6eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 6eme : EMC 6e - La solidarité internationale",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-08 14:27:00"
+    "created_at": "2026-04-06 06:25:43",
+    "updated_at": "2026-04-06 06:25:43"
   },
   "quiz": {
-    "title": "Quiz Diagnostic seconde Anglais",
-    "level": "seconde",
-    "subject": "Anglais",
+    "title": "EMC 6e - La solidarité internationale",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "The book _____ by the teacher.",
+        "question": "Qu'est-ce que la solidarité internationale ?",
         "choices": [
-          "read",
-          "was read",
-          "reads",
-          "reading"
-        ],
-        "id": 1
+          "La solidarité internationale est un principe qui encourage les individus et les nations à s'entraider pour résoudre les problèmes mondiaux.",
+          "La solidarité internationale est un concept qui promeut l'indépendance totale des nations.",
+          "La solidarité internationale est une politique qui favorise uniquement les pays riches.",
+          "La solidarité internationale est une idéologie qui prône la non-intervention dans les affaires des autres pays."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "She said she was tired.",
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "He _____ (must/go) to the doctor.",
-        "placeholder": "must go",
-        "id": 3
+        "question": "La solidarité internationale implique que les pays riches doivent aider les pays pauvres à se développer."
       },
       {
         "type": "qcm",
-        "question": "'I like coffee' → She said _____",
+        "question": "Quels sont les domaines dans lesquels la solidarité internationale peut s'exprimer ?",
         "choices": [
-          "she liked coffee",
-          "she likes coffee",
-          "I like coffee",
-          "I liked coffee"
-        ],
-        "id": 4
+          "L'aide humanitaire, le développement économique, la protection de l'environnement, la promotion des droits humains",
+          "L'aide humanitaire, le développement économique, la promotion de la culture, la défense nationale",
+          "Le développement économique, la protection de l'environnement, la promotion des droits humains, la gestion des ressources naturelles",
+          "L'aide humanitaire, la promotion de la culture, la défense nationale, la gestion des ressources naturelles"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "The windows were cleaned yesterday.",
-        "id": 5
-      },
-      {
-        "type": "texte",
-        "question": "Passive: The cake _____ (eat) by the children.",
-        "placeholder": "was eaten",
-        "id": 6
+        "question": "La solidarité internationale est un concept qui ne concerne que les gouvernements et les organisations internationales."
       },
       {
         "type": "qcm",
-        "question": "You _____ smoke here.",
+        "question": "Quel est le rôle des organisations non gouvernementales (ONG) dans la solidarité internationale ?",
         "choices": [
-          "can",
-          "mustn't",
-          "might",
-          "should"
-        ],
-        "id": 7
+          "Les ONG jouent un rôle crucial en fournissant une assistance directe, en sensibilisant le public et en plaidant pour des politiques plus justes au niveau international.",
+          "Les ONG sont principalement responsables de la gestion des finances publiques dans les pays en développement.",
+          "Les ONG sont chargées de la défense nationale dans les pays en développement.",
+          "Les ONG sont responsables de l'élaboration des politiques étrangères des pays riches."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "'May' exprime la permission.",
-        "id": 8
+        "question": "La solidarité internationale est un concept qui promeut la non-intervention dans les affaires des autres pays."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle des citoyens dans la solidarité internationale ?",
+        "choices": [
+          "Les citoyens peuvent contribuer à la solidarité internationale en faisant du bénévolat, en faisant des dons ou en sensibilisant aux enjeux mondiaux.",
+          "Les citoyens n'ont aucun rôle à jouer dans la solidarité internationale, qui est uniquement une responsabilité des gouvernements.",
+          "Les citoyens sont responsables de la gestion des finances publiques dans les pays en développement.",
+          "Les citoyens sont chargés de la défense nationale dans les pays en développement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La solidarité internationale est un concept qui promeut l'indépendance totale des nations."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Passif / Reported speech",
-      "description": "Concept clé de Anglais au niveau seconde"
+      "notion": "Coopération internationale",
+      "description": "La solidarité internationale implique une coopération entre les pays pour atteindre des objectifs communs, tels que la lutte contre la pauvreté, la protection de l'environnement et la promotion des dr"
     },
     {
-      "notion": "Modaux obligation",
-      "description": "Concept clé de Anglais au niveau seconde"
+      "notion": "Aide humanitaire",
+      "description": "La solidarité internationale peut prendre la forme d'aide humanitaire, notamment en cas de catastrophes naturelles ou de conflits, pour apporter une assistance aux populations touchées"
     },
     {
-      "notion": "Temps mixtes",
-      "description": "Concept clé de Anglais au niveau seconde"
+      "notion": "Responsabilité partagée",
+      "description": "La solidarité internationale repose sur le principe de responsabilité partagée, selon lequel les pays ont une responsabilité collective pour résoudre les problèmes mondiaux et promouvoir le bien-être "
     }
   ],
   "exerciseresponses": []

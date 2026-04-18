@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6ème - Série 0091",
+    "level": "6ème",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Proportionnalité (propriétés de la proportionnalité, tableaux de proportionnalité, situations de proportionnalité)",
+    "question_count": 8,
+    "level": "6ème",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "20 euros",
+        "correction": "Si 4 kg de pommes coûtent 8 euros, le prix par kg est de 8 euros / 4 kg = 2 euros/kg. Donc, 10 kg de pommes coûteront 10 kg x 2 euros/kg = 20 euros."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Si 5 litres de peinture couvrent 25 m², le taux de couverture est de 25 m² / 5 litres = 5 m²/litre. Donc, 10 litres de peinture couvriront 10 litres x 5 m²/litre = 50 m²."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "250 km",
+        "correction": "Si un train parcourt 150 km en 3 heures, sa vitesse est de 150 km / 3 h = 50 km/h. Donc, en 5 heures, il parcourra une distance de 50 km/h x 5 h = 250 km."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Si un vélo parcourt 60 km en 2 heures, sa vitesse est de 60 km / 2 h = 30 km/h. Donc, en 4 heures, il parcourra une distance de 30 km/h x 4 h = 120 km."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "14 euros",
+        "correction": "Si 3 kg de farine coûtent 6 euros, le prix par kg est de 6 euros / 3 kg = 2 euros/kg. Donc, 7 kg de farine coûteront 7 kg x 2 euros/kg = 14 euros."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Si un bus parcourt 120 km en 4 heures, sa vitesse est de 120 km / 4 h = 30 km/h. Donc, en 6 heures, il parcourra une distance de 30 km/h x 6 h = 180 km."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "30 euros",
+        "correction": "Si 8 litres de jus coûtent 16 euros, le prix par litre est de 16 euros / 8 litres = 2 euros/litre. Donc, 15 litres de jus coûteront 15 litres x 2 euros/litre = 30 euros."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Si un avion parcourt 600 km en 2 heures, sa vitesse est de 600 km / 2 h = 300 km/h. Donc, en 4 heures, il parcourra une distance de 300 km/h x 4 h = 1200 km."
+      }
+    ]
+  }
+}

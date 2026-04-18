@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques 2nde : Geometrie analytique du plan",
     "status": "published",
-    "created_at": "2026-03-13 11:15:43",
-    "updated_at": "2026-03-13 11:15:43"
+    "created_at": "2026-04-06 06:40:42",
+    "updated_at": "2026-04-06 06:40:42"
   },
   "quiz": {
     "title": "Geometrie analytique du plan",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Compréhension du contexte",
+      "description": "Il est essentiel de bien comprendre le contexte de l'exercice, notamment les concepts de géométrie analytique du plan, tels que les coordonnées cartésiennes, les équations de droites et de cercles, po"
+    },
+    {
+      "notion": "Lecture attentive de l'énoncé",
+      "description": "Lire attentivement l'énoncé de l'exercice pour identifier les informations clés, telles que les coordonnées de points, les équations de droites ou les propriétés géométriques, est crucial pour détermi"
+    },
+    {
+      "notion": "Identification des outils mathématiques nécessaires",
+      "description": "Identifier les outils mathématiques nécessaires pour résoudre l'exercice, tels que les formules de distance, les équations de droites ou les propriétés des cercles, permet de structurer sa démarche et"
+    }
+  ],
   "exerciseresponses": []
 }

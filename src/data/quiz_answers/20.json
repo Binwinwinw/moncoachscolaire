@@ -1,71 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 6eme Anglais",
+    "title": "Quiz Diagnostic Anglais 6eme - Série 0020",
     "level": "6eme",
     "subject": "Anglais"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 6eme Anglais",
+    "title": "langue anglaise : vocabulaire, grammaire, expressions courantes",
     "question_count": 8,
+    "level": "6eme",
+    "subject": "Anglais",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correct": 0,
-        "correction": "**am** (to be, 1re personne)."
+        "answer": "Dog",
+        "correction": "The English word for 'chien' is 'dog'."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "correct": 0,
-        "correction": "**Faux**. She **has** a cat (to have, 3e personne +s)."
+        "answer": "vrai",
+        "correction": "'I am' is indeed the correct way to say 'je suis' in English."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correct": null,
-        "correction": "**plays** (present simple 3e personne +s)."
+        "type": "qcm",
+        "answer": "Hello",
+        "correction": "'Hello' is a common English greeting used to say hi or welcome someone."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correct": 0,
-        "correction": "**live** (nous, present simple)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "'The cat is on the table' is indeed a grammatically correct sentence in English, as it follows the subject-verb-object structure and uses proper prepositions."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "correct": 0,
-        "correction": "**Faux**. My brother **watches** TV now (+es pour -tch)."
+        "type": "qcm",
+        "answer": "Happy",
+        "correction": "'Happy' is an adjective because it describes a noun (a person, place, or thing) by expressing a quality or state of being."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "correct": null,
-        "correction": "**is** (What **is** your name?)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "'Thank you' is indeed a phrase used to express gratitude in English."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "correct": 0,
-        "correction": "**speak** (they, present simple)."
+        "answer": "See you later",
+        "correction": "'See you later' is a common English expression used to say goodbye or indicate that you will see someone again in the future."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "correct": 1,
-        "correction": "**Vrai**. I **am** a student (to be)."
+        "answer": "vrai",
+        "correction": "'The dog is barking loudly' is indeed a grammatically correct sentence in English, as it follows the subject-verb-adverb structure and uses proper verb tense."
       }
-    ],
-    "level": "6eme",
-    "subject": "Anglais"
+    ]
   }
 }

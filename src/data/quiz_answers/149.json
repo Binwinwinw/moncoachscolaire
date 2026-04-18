@@ -1,63 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 25",
-    "level": "1ere",
-    "subject": "Anglais"
+    "title": "Quiz Diagnostic Français 6eme - Série 0149",
+    "level": "6eme",
+    "subject": "Français"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 25",
+    "title": "Français 6e - Les figures de style (métaphore, comparaison, personnification…)",
     "question_count": 8,
+    "level": "6eme",
+    "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correction": "La bonne réponse est B : 'who'. On utilise 'who' pour les personnes en position de sujet dans une proposition relative. 'Which' est réservé aux objets et animaux. 'Whose' exprime la possession. 'Whom' s'utilise quand le pronom est complément d'objet."
+        "answer": "Métaphore",
+        "correction": "La métaphore compare deux éléments sans utiliser de mot de comparaison, en les associant directement."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "correction": "FAUX. 'That' ne peut PAS être utilisé dans les propositions relatives non-déterminatives. Il est uniquement autorisé dans les relatives déterminatives. Dans les non-defining clauses, on utilise obligatoirement who (personnes) ou which (choses), et la clause est toujours encadrée par des virgules."
+        "answer": "vrai",
+        "correction": "C'est vrai. Une comparaison utilise des mots de comparaison tels que 'comme', 'tel', 'semblable à' pour établir une relation entre deux éléments."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correction": "La phrase corrigée est : 'The Eiffel Tower, which was built in 1889, is located in Paris.' L'erreur est l'utilisation de 'that' dans une relative non-déterminative (signalée par les virgules). La Tour Eiffel est déjà identifiée, donc la clause apporte une info supplémentaire → on doit utiliser 'which', pas 'that'."
+        "type": "qcm",
+        "answer": "Personnification",
+        "correction": "La personnification attribue des caractéristiques humaines à des objets inanimés ou à des animaux."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correction": "La bonne réponse est B. La phrase 'Paris, which is the capital of France, is a beautiful city' contient une relative non-déterminative : Paris est déjà identifié (nom propre unique), les virgules encadrent l'information supplémentaire, et 'which' est correctement utilisé à la place de 'that'."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. L'hyperbole exagère la réalité pour créer un effet d'amplification ou d'insistance."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "correction": "VRAI. Dans une relative déterminative, le pronom relatif peut être omis s'il est complément d'objet. Ex : 'The film (that) I watched was great.' → 'that' peut être supprimé. En revanche, si le pronom est sujet, il ne peut pas être omis : 'The man who called you' → 'who' est obligatoire."
+        "type": "qcm",
+        "answer": "Comparaison",
+        "correction": "La comparaison compare deux éléments en utilisant des mots de comparaison tels que 'comme', 'tel', 'semblable à'."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "correction": "La réponse attendue est : 'I have a friend whose mother is a famous actress.' On utilise 'whose' pour exprimer une relation de possession entre le nom antécédent ('a friend') et le nom qui suit ('mother'). 'Whose' remplace ici 'her' et introduit la proposition relative."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Une métaphore compare deux éléments sans utiliser de mot de comparaison, en les associant directement."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "correction": "La bonne réponse est A. 'Where' est le pronom relatif utilisé pour les lieux. Il remplace 'in which' ou 'at which'. Ex : 'the school where I studied' = 'the school in which I studied'. 'When' s'utilise pour le temps (the year when...), et 'which' ne suffit pas seul sans préposition."
+        "answer": "Hyperbole",
+        "correction": "L'hyperbole exagère la réalité pour créer un effet d'amplification ou d'insistance."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "correction": "FAUX. Supprimer les virgules changerait complètement le sens. Sans virgules, 'My sister who is a doctor works in London' devient une relative déterminative qui sous-entend que j'ai plusieurs sœurs, et celle qui est médecin travaille à Londres. Avec les virgules (non-defining), cela signifie que j'ai une seule sœur, et l'info 'doctor' est un ajout secondaire."
+        "answer": "vrai",
+        "correction": "C'est vrai. La personnification attribue des caractéristiques humaines à des objets inanimés ou à des animaux."
       }
-    ],
-    "level": "1ere",
-    "subject": "Anglais"
+    ]
   }
 }

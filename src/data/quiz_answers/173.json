@@ -1,63 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 49",
-    "level": "1ere",
-    "subject": "Anglais"
+    "title": "Quiz Diagnostic Français 6eme - Série 0173",
+    "level": "6eme",
+    "subject": "Français"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 49",
+    "title": "Français 6e - Les discours direct et indirect",
     "question_count": 8,
+    "level": "6eme",
+    "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correction": "La bonne réponse est celle qui correspond au concept étudié dans ton manuel scolaire. Pour mieux comprendre, relis le chapitre associé et essaie de refaire des exercices similaires. N'hésite pas à demander de l'aide à ton enseignant si certains points restent flous."
+        "answer": "Il rapporte les paroles d'un personnage telles qu'elles ont été prononcées",
+        "correction": "Le discours direct rapporte les paroles d'un personnage telles qu'elles ont été prononcées, en utilisant des guillemets pour indiquer que les mots sont cités directement, ce qui permet de donner une voix distincte aux personnages et de rendre le dialogue plus vivant et plus engageant pour les lecteurs."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "correction": "Vrai ou Faux dépend de la définition précise du concept. Si tu t'es trompé, c'est normal : revois la leçon pour bien mémoriser les cas particuliers et les exceptions. Avec de la pratique, tu distingueras facilement les situations vraies ou fausses."
+        "answer": "vrai",
+        "correction": "C'est vrai. Le discours indirect rapporte les paroles d'un personnage de manière indirecte, en utilisant des verbes de parole (comme 'dire', 'affirmer', 'expliquer') et des pronoms pour indiquer que les mots sont rapportés par un narrateur ou un autre personnage, ce qui permet de donner une perspective différente sur les paroles et de les intégrer de manière plus fluide dans le récit, tout en offrant une certaine distance entre les paroles rapportées et le lecteur."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correction": "Ta réponse textuelle doit correspondre à ce qui est attendu dans le cours. Compare-la avec la correction fournie et identifie les différences. L'important est de comprendre la logique derrière la réponse pour progresser dans cette matière."
+        "type": "qcm",
+        "answer": "Ils indiquent que les mots sont cités directement",
+        "correction": "Les guillemets dans le discours direct indiquent que les mots sont cités directement, en encadrant les paroles d'un personnage pour montrer qu'elles sont rapportées telles qu'elles ont été prononcées, ce qui permet de différencier les paroles des personnages du reste du texte et de rendre le dialogue plus vivant et plus engageant pour les lecteurs."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correction": "La bonne réponse est celle qui correspond au concept étudié dans ton manuel scolaire. Pour mieux comprendre, relis le chapitre associé et essaie de refaire des exercices similaires. N'hésite pas à demander de l'aide à ton enseignant si certains points restent flous."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. L'utilisation correcte du discours direct et indirect est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les écrivains utilisent ces formes de discours de manière appropriée en fonction du contexte et du message qu'ils souhaitent transmettre, ce qui contribue à la clarté et à l'efficacité de la communication écrite, en permettant aux lecteurs de comprendre qui parle et comment les paroles sont rapportées dans le récit."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "correction": "Vrai ou Faux dépend de la définition précise du concept. Si tu t'es trompé, c'est normal : revois la leçon pour bien mémoriser les cas particuliers et les exceptions. Avec de la pratique, tu distingueras facilement les situations vraies ou fausses."
+        "type": "qcm",
+        "answer": "Il rapporte les paroles d'un personnage de manière indirecte sans utiliser de verbes de parole",
+        "correction": "Le discours indirect libre rapporte les paroles d'un personnage de manière indirecte sans utiliser de verbes de parole, en intégrant les pensées et les sentiments du personnage directement dans le récit, ce qui permet de donner une perspective plus intime sur les pensées et les émotions du personnage tout en maintenant une certaine distance narrative."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "correction": "Ta réponse textuelle doit correspondre à ce qui est attendu dans le cours. Compare-la avec la correction fournie et identifie les différences. L'important est de comprendre la logique derrière la réponse pour progresser dans cette matière."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. L'utilisation incorrecte du discours direct et indirect peut parfois entraîner des confusions ou des malentendus dans la communication écrite, en rendant difficile pour les lecteurs de comprendre qui parle ou comment les paroles sont rapportées dans le récit, ce qui peut nuire à la clarté du message et à l'efficacité de la communication écrite, en créant des ambiguïtés ou en donnant une impression de manque de cohérence dans le récit."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "correction": "La bonne réponse est celle qui correspond au concept étudié dans ton manuel scolaire. Pour mieux comprendre, relis le chapitre associé et essaie de refaire des exercices similaires. N'hésite pas à demander de l'aide à ton enseignant si certains points restent flous."
+        "answer": "Ils sont utilisés pour indiquer une citation indirecte",
+        "correction": "Les verbes de parole dans le discours indirect sont utilisés pour indiquer une citation indirecte, en montrant que les paroles d'un personnage sont rapportées par un narrateur ou un autre personnage, ce qui permet de donner une perspective différente sur les paroles et de les intégrer de manière plus fluide dans le récit."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "correction": "Vrai ou Faux dépend de la définition précise du concept. Si tu t'es trompé, c'est normal : revois la leçon pour bien mémoriser les cas particuliers et les exceptions. Avec de la pratique, tu distingueras facilement les situations vraies ou fausses."
+        "answer": "vrai",
+        "correction": "C'est vrai. L'utilisation correcte du discours direct et indirect est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les écrivains utilisent ces formes de discours de manière appropriée en fonction du contexte et du message qu'ils souhaitent transmettre, ce qui contribue à la clarté et à l'efficacité de la communication écrite."
       }
-    ],
-    "level": "1ere",
-    "subject": "Anglais"
+    ]
   }
 }

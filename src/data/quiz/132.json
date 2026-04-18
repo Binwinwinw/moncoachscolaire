@@ -1,102 +1,94 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ère Anglais - Série 08",
+    "title": "Quiz Diagnostic EMC 6eme - Série 0132",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Anglais",
-    "description": "Diagnostic Anglais 1ère : Art, Creativity, Advanced Expression (Eduscol B1/B2)",
+    "level": "6eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 6eme : EMC 6e - Vie démocratique école",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-09 18:29:00"
+    "created_at": "2026-04-06 06:25:43",
+    "updated_at": "2026-04-06 06:25:43"
   },
   "quiz": {
-    "title": "1ère English Diagnostic - Series 08 (Art & Creativity)",
-    "level": "1ere",
-    "subject": "Anglais",
+    "title": "EMC 6e - Vie démocratique école",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Street art should be considered a legitimate form of artistic expression because:",
+        "question": "Pourquoi est-il important de respecter les règles de vie démocratique à l'école ?",
         "choices": [
-          "Challenges traditional galleries",
-          "Illegal in most cities",
-          "Only vandalism",
-          "Temporary nature"
-        ],
-        "correct_index": 0,
-        "id": 1
+          "Le respect des règles de vie démocratique à l'école garantit la promotion de la participation, le respect des autres et la construction d'une société plus juste et solidaire.",
+          "Le respect des règles de vie démocratique à l'école est inutile, car les individus peuvent agir comme ils le souhaitent.",
+          "Le respect des règles de vie démocratique à l'école est réservé aux élites politiques et économiques.",
+          "Le respect des règles de vie démocratique à l'école est limité aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "It's essential that governments fund public art installations.",
-        "correct": true,
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "How does music therapy help mental health patients?",
-        "placeholder": "ex: Reduces anxiety, improves mood through rhythm",
-        "id": 3
+        "question": "Le respect des règles de vie démocratique à l'école est un concept qui promeut la non-intervention dans les affaires des individus."
       },
       {
         "type": "qcm",
-        "question": "Were I to win the art contest, _____ travel to New York.",
+        "question": "Quel est le rôle de l'éducation dans le respect des règles de vie démocratique à l'école ?",
         "choices": [
-          "I would",
-          "I will",
-          "I am",
-          "I was"
-        ],
-        "correct_index": 0,
-        "id": 4
+          "L'éducation joue un rôle crucial en sensibilisant les individus aux règles de vie démocratique à l'école et en promouvant le respect de ces règles.",
+          "L'éducation est inutile dans le respect des règles de vie démocratique à l'école, car les individus peuvent apprendre par eux-mêmes.",
+          "L'éducation est réservée aux élites politiques et économiques.",
+          "L'éducation est limitée aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Social media has democratized access to art (Instagram galleries).",
-        "correct": true,
-        "id": 5
-      },
-      {
-        "type": "texte",
-        "question": "What makes Banksy unique as an artist? 1 reason.",
-        "placeholder": "ex: Anonymous, political messages via stencils",
-        "id": 6
+        "question": "Le respect des règles de vie démocratique à l'école est un concept qui promeut la non-intervention dans les affaires des individus."
       },
       {
         "type": "qcm",
-        "question": "Creative industries contribute what % to EU GDP?",
+        "question": "Quel est le rôle des médias dans le respect des règles de vie démocratique à l'école ?",
         "choices": [
-          "7%",
-          "20%",
-          "2%",
-          "50%"
-        ],
-        "correct_index": 0,
-        "id": 7
+          "Les médias jouent un rôle crucial en sensibilisant le public aux règles de vie démocratique à l'école et en promouvant le respect de ces règles.",
+          "Les médias sont inutiles dans le respect des règles de vie démocratique à l'école, car les individus peuvent apprendre par eux-mêmes.",
+          "Les médias sont réservés aux élites politiques et économiques.",
+          "Les médias sont limités aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "It's high time schools taught more arts subjects.",
-        "correct": true,
-        "id": 8
+        "question": "Le respect des règles de vie démocratique à l'école est un concept qui promeut la non-intervention dans les affaires des individus."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle des parents dans le respect des règles de vie démocratique à l'école ?",
+        "choices": [
+          "Les parents ont un rôle important en sensibilisant leurs enfants aux règles de vie démocratique à l'école et en promouvant le respect de ces règles.",
+          "Les parents sont inutiles dans le respect des règles de vie démocratique à l'école, car les individus peuvent apprendre par eux-mêmes.",
+          "Les parents sont réservés aux élites politiques et économiques.",
+          "Les parents sont limités aux écoles uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect des règles de vie démocratique à l'école est un concept qui promeut la non-intervention dans les affaires des individus."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Visual Arts",
-      "description": "Street art, graffiti legitimacy (Eduscol 1ère)"
+      "notion": "Fondamentaux de EMC",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Music & Therapy",
-      "description": "Creative healing, industry economics"
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Advanced Grammar",
-      "description": "Subjunctive (essential that), inversions, clefts"
+      "notion": "Savoir-faire emc",
+      "description": "Notion du programme 6eme"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

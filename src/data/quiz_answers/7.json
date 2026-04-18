@@ -1,70 +1,70 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Français Seconde - Série 7",
-    "level": "2nde",
-    "subject": "Français"
+    "title": "Quiz Diagnostic Anglais 6eme - Série 0007",
+    "level": "6eme",
+    "subject": "Anglais"
   },
   "quiz": {
-    "title": "Diagnostic Français Seconde",
+    "title": "technologie : outils numériques, médias, réseaux sociaux",
     "question_count": 8,
-    "level": "2nde",
-    "subject": "Français",
+    "level": "6eme",
+    "subject": "Anglais",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correct": 2,
-        "correction": "Le romantisme (XIXe siècle) valorise l'imagination, les passions et le 'moi' contre les règles classiques. Opposé au classicisme (raison, équilibre) et au réalisme (observation objective du quotidien). Exemples : Hugo, Musset."
+        "answer": "All of the above",
+        "correction": "Facebook, Twitter, and Instagram are all popular social media platforms."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "correct": 1,
-        "correction": "Vrai. La poésie épique (ex. La Chanson de Roland) chante les hauts faits des héros, guerriers et aventures collectives. Distinguer de la lyrique (émotions personnelles) et du roman moderne."
+        "answer": "vrai",
+        "correction": "Strong passwords are important for keeping your online accounts secure from unauthorized access."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correct": null,
-        "correction": "Exemple valide : « Il court vite comme le vent ». La comparaison relie deux éléments par 'comme' ou 'tel que', crée un effet d'image. Variantes acceptables tant que structure respectée (sujet + comme + image)."
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "Email, text messaging, and video conferencing are all digital tools that facilitate communication."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correct": 1,
-        "correction": "Le focalisateur est le point de vue narratif (interne : yeux d'un personnage ; externe : observateur). Concept clé de l'analyse narrative en seconde pour étudier comment le lecteur perçoit l'histoire."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Cyberbullying involves using digital platforms to harass, threaten, or humiliate others."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "texte",
-        "correct": null,
-        "correction": "Exemples : Madame Bovary (Flaubert, 1857) ou Le Père Goriot (Balzac, 1835). Réalisme : observation minutieuse de la société, critique sociale, personnages ordinaires. Distinguer du romantisme (idéalisation)."
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "Technology provides access to information, improves communication, and offers various forms of entertainment."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "qcm",
-        "correct": 1,
-        "correction": "Le registre lyrique exprime les émotions, les sentiments et l'intériorité. Dans 'Demain, dès l'aube...', Victor Hugo évoque le deuil et l'amour filial avec une forte charge émotionnelle. Ce n'est ni comique ni polémique : l'enjeu principal est l'expression d'une sensibilité intime."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Excessive screen time can lead to issues such as eye strain, sleep disturbances, and reduced physical activity."
       },
       {
         "index": 6,
         "question_id": 7,
-        "type": "vrai-faux",
-        "correct": 0,
-        "correction": "Faux. Le réalisme vise au contraire une représentation crédible du réel social, avec des personnages ordinaires et des situations concrètes. Il s'oppose à l'idéalisation romantique. On y trouve une observation précise des milieux, des comportements et des déterminismes."
+        "type": "qcm",
+        "answer": "Respecting others' privacy",
+        "correction": "Respecting others' privacy is an important aspect of responsible online behavior."
       },
       {
         "index": 7,
         "question_id": 8,
-        "type": "texte",
-        "correct": null,
-        "correction": "L'auteur est la personne réelle qui écrit l'oeuvre. Le narrateur est la voix qui raconte l'histoire dans le texte et peut être un personnage fictif. Distinguer ces deux instances évite les contresens dans l'analyse narrative. Cette distinction est une compétence clé de seconde."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The internet offers a wealth of information and entertainment options, making it a valuable resource when used responsibly."
       }
     ]
   }

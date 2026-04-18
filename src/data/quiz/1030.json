@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Calcul d'intégrales",
     "status": "published",
-    "created_at": "2026-03-13 11:24:24",
-    "updated_at": "2026-03-13 11:24:24"
+    "created_at": "2026-04-06 06:40:48",
+    "updated_at": "2026-04-06 06:40:48"
   },
   "quiz": {
     "title": "Calcul d'intégrales",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Intégration de polynômes",
+      "description": "L'intégration de polynômes consiste à trouver l'antidérivée d'une fonction polynomiale, c'est-à-dire à trouver la fonction dont la dérivée est le polynôme donné. Dans ce cas, l'intégrale ∫(x² + 1) dx "
+    },
+    {
+      "notion": "Règle de l'intégration des puissances",
+      "description": "La règle de l'intégration des puissances stipule que ∫x^n dx = (x^(n+1))/(n+1) + C, où n est un nombre réel différent de -1. Cette règle peut être appliquée pour intégrer le terme x² de l'intégrale do"
+    },
+    {
+      "notion": "Théorème fondamental de l'analyse",
+      "description": "Le théorème fondamental de l'analyse relie la dérivation et l'intégration. Il stipule que l'intégrale définie d'une fonction f(x) sur un intervalle [a, b] peut être calculée en évaluant l'antidérivée "
+    }
+  ],
   "exerciseresponses": []
 }

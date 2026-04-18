@@ -1,16 +1,16 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 5eme SVT - Serie 47",
+    "title": "Les habitats et la biodiversité",
     "type": "quiz",
     "level": "5eme",
     "subject": "SVT",
-    "description": "Diagnostic SVT 5eme : Biologie et sciences naturelles",
+    "description": "Diagnostic SVT 5eme : Habitats, espèces et biodiversité",
     "status": "published",
     "created_at": "2026-03-08 00:05:00",
     "updated_at": "2026-03-08 00:05:00"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 5eme SVT - Serie 47",
+    "title": "Anglais - Les habitats et la biodiversité",
     "level": "5eme",
     "subject": "SVT",
     "question_count": 8,
@@ -19,78 +19,82 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en SVT cette année ?",
+        "question": "Quel habitat convient à une grenouille ?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "Une mare ou un étang",
+          "Un désert sec",
+          "Un sommet de montagne sans eau",
+          "Une caverne sombre"
         ],
         "id": 1
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau 5eme aborde des notions fondamentales en SVT.",
+        "question": "La biodiversité peut aider un écosystème à résister aux changements.",
         "id": 2
       },
       {
         "type": "texte",
-        "question": "Cite un exemple concret lié à SVT.",
-        "placeholder": "Exemple...",
+        "question": "Décris un habitat où un oiseau migrateur pourrait vivre en été.",
         "id": 3
       },
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en SVT cette année ?",
+        "question": "Quel animal est bien adapté à la vie dans le désert ?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "Le chameau",
+          "La grenouille",
+          "Le saumon",
+          "Le pingouin"
         ],
         "id": 4
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau 5eme aborde des notions fondamentales en SVT.",
+        "question": "Un habitat offre de la nourriture, un abri et de l'eau aux organismes.",
         "id": 5
       },
       {
-        "type": "texte",
-        "question": "Cite un exemple concret lié à SVT.",
-        "placeholder": "Exemple...",
+        "type": "qcm",
+        "question": "Quel facteur peut réduire la biodiversité d'un habitat ?",
+        "choices": [
+          "La pollution",
+          "La pluie naturelle",
+          "La lumière du soleil",
+          "Le vent"
+        ],
         "id": 6
       },
       {
-        "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en SVT cette année ?",
-        "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
-        ],
+        "type": "texte",
+        "question": "Explique pourquoi certains animaux migrent en hiver.",
         "id": 7
       },
       {
-        "type": "vrai-faux",
-        "question": "Le niveau 5eme aborde des notions fondamentales en SVT.",
+        "type": "qcm",
+        "question": "Quel est un avantage de la biodiversité ?",
+        "choices": [
+          "Elle rend l'écosystème plus résilient",
+          "Elle diminue l'eau disponible",
+          "Elle augmente la température du sol",
+          "Elle arrête la croissance des plantes"
+        ],
         "id": 8
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Notion 1 - SVT",
-      "description": "Concept clé de SVT au niveau 5eme"
+      "notion": "Habitat",
+      "description": "Un habitat est un lieu où un organisme trouve sa nourriture, son abri et l'eau dont il a besoin."
     },
     {
-      "notion": "Notion 2 - SVT",
-      "description": "Concept clé de SVT au niveau 5eme"
+      "notion": "Biodiversité",
+      "description": "La biodiversité correspond à la variété des espèces dans un habitat."
     },
     {
-      "notion": "Notion 3 - SVT",
-      "description": "Concept clé de SVT au niveau 5eme"
+      "notion": "Adaptation",
+      "description": "Les organismes s'adaptent à leur habitat pour survivre et se reproduire."
     }
   ],
   "exerciseresponses": []

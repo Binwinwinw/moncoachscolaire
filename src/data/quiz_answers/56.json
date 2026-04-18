@@ -1,0 +1,36 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 0056",
+    "level": "6eme",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Comparaison et ordre des décimaux",
+    "question_count": 3,
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "0.1",
+        "correction": "0.1 est le plus grand nombre décimal parmi les options données."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "0.5 est plus petit que 0.6."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "0.0001",
+        "correction": "0.0001 est le plus petit nombre décimal parmi les options données."
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+[
+    {
+        "error_pattern": "Ajouter les dénominateurs",
+        "payload": {
+            "level": "4eme",
+            "subject": "Mathématiques",
+            "competence": "Addition de fractions",
+            "error_pattern": "Ajouter les dénominateurs",
+            "incorrect_items": [
+                {
+                    "question": "1/2 + 1/3",
+                    "user_answer": "2/5",
+                    "correct_answer": "5/6",
+                    "official_correction": "Il faut d'abord trouver un dénominateur commun (6 ici), puis additionner les numérateurs"
+                }
+            ]
+        },
+        "generated": true
+    },
+    {
+        "error_pattern": "Oublier de simplifier",
+        "payload": {
+            "level": "4eme",
+            "subject": "Mathématiques",
+            "competence": "Addition de fractions",
+            "error_pattern": "Oublier de simplifier",
+            "incorrect_items": [
+                {
+                    "question": "3/4 + 2/8",
+                    "user_answer": "6/8",
+                    "correct_answer": "1",
+                    "official_correction": "Il faut simplifier la réponse : 8/8 = 1"
+                }
+            ]
+        },
+        "generated": true
+    },
+    {
+        "error_pattern": "Mauvais dénominateur commun",
+        "payload": {
+            "level": "4eme",
+            "subject": "Mathématiques",
+            "competence": "Addition de fractions",
+            "error_pattern": "Mauvais dénominateur commun",
+            "incorrect_items": [
+                {
+                    "question": "5/6 + 1/4",
+                    "user_answer": "6/10",
+                    "correct_answer": "13/12",
+                    "official_correction": "Le dénominateur commun est 12 (pas 10). 5/6 = 10/12 et 1/4 = 3/12, donc 10/12 + 3/12 = 13/12"
+                }
+            ]
+        },
+        "generated": true
+    }
+]

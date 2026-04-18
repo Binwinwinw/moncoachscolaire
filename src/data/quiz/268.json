@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Fondamentaux de Philosophie",
+      "description": "Notion du programme 1ere"
+    },
+    {
+      "notion": "Compétences de base 1ere",
+      "description": "Notion du programme 1ere"
+    },
+    {
+      "notion": "Savoir-faire philosophie",
+      "description": "Notion du programme 1ere"
+    }
+  ],
   "exerciseresponses": []
 }

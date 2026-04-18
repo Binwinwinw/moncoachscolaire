@@ -1,71 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 3ème Anglais",
-    "level": "3eme",
-    "subject": "Anglais"
+    "title": "Quiz Diagnostic EMC 6eme - Série 0124",
+    "level": "6eme",
+    "subject": "EMC"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 3ème Anglais",
+    "title": "EMC 6e - Laïcité à l’école",
     "question_count": 8,
+    "level": "6eme",
+    "subject": "EMC",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correct": 1,
-        "correction": "**will stay** (future real). [web:174]"
+        "answer": "Le respect des règles de laïcité à l'école garantit la promotion de la liberté de conscience, le respect des croyances individuelles et la construction d'une société plus tolérante et inclusive.",
+        "correction": "Le respect des règles de laïcité à l'école est essentiel pour garantir la promotion de la liberté de conscience, le respect des croyances individuelles et la construction d'une société plus tolérante et inclusive."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "correct": true,
-        "correction": "**Vrai**. Passive past simple."
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des règles de laïcité à l'école encourage l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect de ces règles dans la société."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correct": null,
-        "correction": "**have seen** (expérience). [web:172]"
+        "type": "qcm",
+        "answer": "L'éducation joue un rôle crucial en sensibilisant les individus aux règles de laïcité et en promouvant le respect de ces règles.",
+        "correction": "L'éducation joue un rôle crucial en sensibilisant les individus aux règles de laïcité, en promouvant le respect de ces règles et en encourageant la responsabilité individuelle pour garantir la promotion de la liberté de conscience, le respect des croyances individuelles et la construction d'une société plus tolérante et inclusive."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correct": 2,
-        "correction": "**were** (subjonctif unreal)."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des règles de laïcité à l'école encourage l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect de ces règles dans la société."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "correct": true,
-        "correction": "**Vrai**. Passive present."
+        "type": "qcm",
+        "answer": "Les médias ont un rôle important en promouvant des représentations positives du respect des règles de laïcité et en sensibilisant le public à l'importance de ces règles.",
+        "correction": "Les médias ont un rôle important dans le respect des règles de laïcité à l'école en promouvant des représentations positives du respect de ces règles, en sensibilisant le public à leur importance et en contribuant à la construction d'une société plus responsable et respectueuse des règles."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "correct": null,
-        "correction": "**for** (durée perfect)."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des règles de laïcité à l'école encourage l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect de ces règles dans la société."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "correct": 2,
-        "correction": "**is being sent** (present continuous passive). [web:171]"
+        "answer": "Les parents ont un rôle important en sensibilisant leurs enfants aux règles de laïcité et en promouvant le respect de ces règles.",
+        "correction": "Les parents jouent un rôle crucial dans le respect des règles de laïcité à l'école en sensibilisant leurs enfants à ces règles et en encourageant la responsabilité individuelle pour garantir la promotion de la liberté de conscience, le respect des croyances individuelles et la construction d'une société plus tolérante et inclusive."
       },
       {
         "index": 7,
         "question_id": 8,
-        "type": "texte",
-        "correct": null,
-        "correction": "**will pass** (1st conditional)."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des règles de laïcité à l'école encourage l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect de ces règles dans la société."
       }
-    ],
-    "level": "3eme",
-    "subject": "Anglais"
+    ]
   }
 }

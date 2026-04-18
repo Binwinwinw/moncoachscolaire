@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Continuité d'une fonction",
     "status": "published",
-    "created_at": "2026-03-13 11:24:24",
-    "updated_at": "2026-03-13 11:24:24"
+    "created_at": "2026-04-06 06:40:48",
+    "updated_at": "2026-04-06 06:40:48"
   },
   "quiz": {
     "title": "Continuité d'une fonction",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Définition de la continuité",
+      "description": "Une fonction f est dite continue en a si la limite de f en a existe, si f(a) est défini et si la limite de f en a est égale à f(a)"
+    },
+    {
+      "notion": "Critères de continuité",
+      "description": "Les critères de continuité d'une fonction en un point a incluent la définition de la fonction en a, l'existence de la limite de la fonction en a et l'égalité entre la limite et la valeur de la fonctio"
+    },
+    {
+      "notion": "Théorème de la continuité",
+      "description": "Le théorème de la continuité stipule que si une fonction f est définie sur un intervalle [a, b] et si f est continue en chaque point de [a, b], alors f est continue sur [a, b]"
+    }
+  ],
   "exerciseresponses": []
 }

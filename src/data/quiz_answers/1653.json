@@ -1,14 +1,74 @@
 {
   "contents": {
-    "title": "QUIZ 1653 - réponses à remplir",
-    "level": "unknown",
-    "subject": "unknown"
+    "title": "Quiz Diagnostic Anglais 2nde - SÃ©rie 1653",
+    "level": "2nde",
+    "subject": "Anglais"
   },
   "quiz": {
-    "title": "Quiz 1653 - corrections placeholder",
-    "question_count": 0,
-    "answers": [],
-    "level": "unknown",
-    "subject": "unknown"
+    "title": "Diagnostic 2nde Anglais - Grammar Foundations",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "She goes to school every day.",
+        "correct": 1,
+        "correction": "Au présent simple, la 3e personne du singulier prend -s au verbe."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le present simple exprime des habitudes, des faits généraux et des routines."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "do",
+        "correction": "Avec le sujet 'you' au présent simple, l'auxiliaire interrogatif est 'do'."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "He doesn't understand.",
+        "correct": 2,
+        "correction": "Après 'doesn't', le verbe reste à la base verbale sans -s."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "En anglais, l'adjectif est généralement antéposé: 'a beautiful city'."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "better",
+        "correction": "'Good' est irrégulier: good, better, the best."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "There are many students in class.",
+        "correct": 1,
+        "correction": "On emploie 'there are' avec un nom pluriel comptable."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "'Much' s'utilise surtout avec les indénombrables: much time, much information."
+      }
+    ]
   }
 }

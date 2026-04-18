@@ -1,0 +1,57 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6eme - Série 0015",
+    "level": "6eme",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "sports : disciplines, événements, athlètes",
+    "question_count": 6,
+    "level": "6eme",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "Soccer, basketball, and tennis are all popular sports played around the world."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The Olympic Games are indeed held every four years, featuring athletes from around the world competing in various sports."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "Pelé, Lionel Messi, and Cristiano Ronaldo are all considered among the greatest soccer players of all time."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The FIFA World Cup is indeed an international soccer tournament held every four years, where national teams compete for the title of world champion."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "Clay is one of the types of tennis court surfaces, along with grass and hard courts. Each surface has its own characteristics that affect how the ball bounces and how players perform."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Michael Jordan is indeed widely regarded as one of the greatest basketball players of all time."
+      }
+    ]
+  }
+}

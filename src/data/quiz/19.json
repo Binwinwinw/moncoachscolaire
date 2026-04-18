@@ -1,96 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 6eme Français",
+    "title": "Quiz Diagnostic Anglais 6eme - Série 0019",
     "type": "quiz",
     "level": "6eme",
-    "subject": "Français",
-    "description": "Diagnostic complet des acquis en français 6eme : conjugaison, orthographe, accords, homophones. 8 questions variées.",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6eme : sciences : phénomènes naturels, corps humain, environnement",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-08 14:04:00"
+    "created_at": "2026-04-06 06:24:36",
+    "updated_at": "2026-04-06 06:24:36"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 6eme Français",
+    "title": "sciences : phénomènes naturels, corps humain, environnement",
+    "type": "quiz",
     "level": "6eme",
-    "subject": "Français",
+    "subject": "Anglais",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Dans 'Le chat noir dort.', quelle est la nature de 'noir' ?",
+        "question": "What is the process by which plants make their own food?",
         "choices": [
-          "Nom",
-          "Verbe",
-          "Adjectif",
-          "Adverbe"
-        ],
-        "id": 1
+          "Photosynthesis",
+          "Respiration",
+          "Digestion",
+          "Fermentation"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Les verbes du 1er groupe se terminent par -er à l'infinitif.",
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "Conjugue 'aller' au présent, 1re personne singulier.",
-        "placeholder": "je...",
-        "id": 3
+        "question": "The human heart is responsible for pumping blood throughout the body."
       },
       {
         "type": "qcm",
-        "question": "Complète : 'J'___ un livre.' (lire)",
+        "question": "Which of the following is a natural phenomenon?",
         "choices": [
-          "lis",
-          "lire",
-          "lu",
-          "lisons"
-        ],
-        "id": 4
+          "Earthquake",
+          "Tornado",
+          "Volcanic eruption",
+          "All of the above"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "'Son' et 'sont' sont des homophones. Vrai ou faux ?",
-        "id": 5
-      },
-      {
-        "type": "texte",
-        "question": "Accorde l'adjectif : 'Les maison___ sont belles.'",
-        "placeholder": "...s",
-        "id": 6
+        "question": "'Global warming is caused by an increase in greenhouse gases in the atmosphere' is a true statement."
       },
       {
         "type": "qcm",
-        "question": "Quel est le participe passé de 'finir' ?",
+        "question": "Which of the following is a part of the human respiratory system?",
         "choices": [
-          "finis",
-          "fini",
-          "finissant",
-          "finition"
-        ],
-        "id": 7
+          "Lungs",
+          "Heart",
+          "Liver",
+          "Kidneys"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "On écrit 'a' ou 'à' dans 'J'ai ___ la maison.'",
-        "id": 8
+        "question": "'The water cycle includes processes such as evaporation, condensation, and precipitation' is a true statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a renewable energy source?",
+        "choices": [
+          "Solar power",
+          "Wind power",
+          "Hydropower",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'Recycling helps reduce waste and conserve natural resources' is a true statement."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Nature grammaticale",
-      "description": "Concept clé de Français au niveau 6eme"
+      "notion": "Fondamentaux de Anglais",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Conjugaison 1er groupe",
-      "description": "Concept clé de Français au niveau 6eme"
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Homophones/accords",
-      "description": "Concept clé de Français au niveau 6eme"
+      "notion": "Savoir-faire anglais",
+      "description": "Notion du programme 6eme"
     }
   ],
   "exerciseresponses": []

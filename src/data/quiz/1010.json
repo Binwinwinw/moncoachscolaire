@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques 2nde : Bilan methodologique 2nde",
     "status": "published",
-    "created_at": "2026-03-13 11:15:43",
-    "updated_at": "2026-03-13 11:15:43"
+    "created_at": "2026-04-06 06:40:42",
+    "updated_at": "2026-04-06 06:40:42"
   },
   "quiz": {
     "title": "Bilan methodologique 2nde",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Lecture attentive",
+      "description": "Lire attentivement l'énoncé de l'exercice pour comprendre ce qui est demandé"
+    },
+    {
+      "notion": "Compréhension du contexte",
+      "description": "Identifier le contexte mathématique et les concepts impliqués dans l'exercice"
+    },
+    {
+      "notion": "Décomposition du problème",
+      "description": "Décomposer l'exercice en étapes plus petites et gérables pour faciliter la résolution"
+    }
+  ],
   "exerciseresponses": []
 }

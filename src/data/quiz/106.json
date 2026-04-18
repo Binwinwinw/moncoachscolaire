@@ -1,97 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ère Anglais - Expression Avancée",
+    "title": "Quiz Diagnostic EMC 6eme - Série 0106",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Anglais",
-    "description": "Diagnostic Conditionals, phrasal verbs, essay writing - 1ère",
+    "level": "6eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 6eme : EMC 6e - Respect des différences (apparence, origine)",
     "status": "published",
-    "created_at": "2026-03-08 17:55:00",
-    "updated_at": "2026-03-08 17:55:00"
+    "created_at": "2026-04-06 06:25:43",
+    "updated_at": "2026-04-06 06:25:43"
   },
   "quiz": {
-    "title": "Diagnostic 1ère - Expression Avancée",
-    "level": "1ere",
-    "subject": "Anglais",
+    "title": "EMC 6e - Respect des différences (apparence, origine)",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "If it **rains** tomorrow, we **will cancel** the picnic. (Type 1 conditional)",
+        "question": "Pourquoi est-il important de respecter les différences d'apparence et d'origine ?",
         "choices": [
-          "rains / cancel",
-          "rains / will cancel",
-          "rained / will cancel",
-          "rained / canceled"
-        ],
-        "id": 1
+          "Le respect des différences favorise la tolérance, l'inclusion et la diversité dans la société.",
+          "Le respect des différences est inutile, car tout le monde devrait être pareil.",
+          "Le respect des différences est réservé aux élites politiques et économiques.",
+          "Le respect des différences est limité aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Phrasal verb 'give up' means continue.",
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "'Turn off' signifie ... (éteindre)",
-        "placeholder": "switch off",
-        "id": 3
+        "question": "Le respect des différences d'apparence et d'origine est un droit fondamental protégé par la loi."
       },
       {
         "type": "qcm",
-        "question": "If I **had studied**, I **would have passed**. (Type 3)",
+        "question": "Quels sont les avantages de respecter les différences d'apparence et d'origine ?",
         "choices": [
-          "study / pass",
-          "studied / passed",
-          "had studied / would have passed",
-          "study / would pass"
-        ],
-        "id": 4
+          "Le respect des différences favorise la créativité, l'innovation et la richesse culturelle dans la société.",
+          "Le respect des différences est inutile, car tout le monde devrait être pareil.",
+          "Le respect des différences est réservé aux élites politiques et économiques.",
+          "Le respect des différences est limité aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Mixed conditional: If I **had won** (past), I **would be rich** (present).",
-        "id": 5
-      },
-      {
-        "type": "texte",
-        "question": "Phrasal 'look forward to' + ... (gérondif)",
-        "placeholder": "meeting you",
-        "id": 6
+        "question": "Le respect des différences d'apparence et d'origine est un concept qui promeut la non-intervention dans les affaires des autres personnes."
       },
       {
         "type": "qcm",
-        "question": "Essay linking word 'however' =",
+        "question": "Quel est le rôle de l'éducation dans le respect des différences d'apparence et d'origine ?",
         "choices": [
-          "addition",
-          "contrast",
-          "cause",
-          "example"
-        ],
-        "id": 7
+          "L'éducation joue un rôle crucial en sensibilisant les individus à la diversité et en promouvant le respect des différences.",
+          "L'éducation est inutile dans le respect des différences, car les individus peuvent apprendre par eux-mêmes.",
+          "L'éducation est réservée aux élites politiques et économiques.",
+          "L'éducation est limitée aux écoles uniquement."
+        ]
       },
       {
-        "type": "texte",
-        "question": "'Put off' = postpone / delay.",
-        "placeholder": "report",
-        "id": 8
+        "type": "vrai-faux",
+        "question": "Le respect des différences d'apparence et d'origine est un concept qui promeut l'indépendance totale des individus."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle des médias dans le respect des différences d'apparence et d'origine ?",
+        "choices": [
+          "Les médias ont un rôle important en promouvant des représentations positives de la diversité et en sensibilisant le public au respect des différences.",
+          "Les médias sont inutiles dans le respect des différences, car les individus peuvent apprendre par eux-mêmes.",
+          "Les médias sont réservés aux élites politiques et économiques.",
+          "Les médias sont limités aux écoles uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect des différences d'apparence et d'origine est un concept qui promeut la non-intervention dans les affaires des autres personnes."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Conditionals (1/2/3/Mixed)",
-      "description": "If clauses hypothèses (1ère Anglais avancés)"
+      "notion": "Fondamentaux de EMC",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Phrasal Verbs",
-      "description": "Verbes composés (give up, turn off...)"
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Essay Writing",
-      "description": "Connecteurs, structure paragraphes"
+      "notion": "Savoir-faire emc",
+      "description": "Notion du programme 6eme"
     }
   ],
   "exerciseresponses": []

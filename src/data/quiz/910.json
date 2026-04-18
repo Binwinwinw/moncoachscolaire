@@ -1,6 +1,6 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 6eme Anglais - Serie 04",
+    "title": "Anglais - Présent simple et questions courantes",
     "type": "quiz",
     "level": "6eme",
     "subject": "Anglais",
@@ -10,7 +10,7 @@
     "updated_at": "2026-03-08 00:05:00"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 6eme Anglais - Serie 04",
+    "title": "Anglais - Présent simple et questions courantes",
     "level": "6eme",
     "subject": "Anglais",
     "question_count": 8,
@@ -19,78 +19,77 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "question": "What is your name?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "My name is John",
+          "I am a student",
+          "I like playing football",
+          "I am 12 years old"
         ],
         "id": 1
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau 6eme aborde des notions fondamentales en Anglais.",
+        "question": "Il fait souvent soleil en été.",
         "id": 2
       },
       {
         "type": "texte",
-        "question": "Cite un exemple concret lié à Anglais.",
+        "question": "Lisez le texte suivant et répondez à la question : 'I have a pet dog. His name is Max. He is very friendly.' Quel est le nom du chien ?",
         "placeholder": "Exemple...",
         "id": 3
       },
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "question": "Choisissez la bonne forme du verbe 'be' pour compléter la phrase : 'I _______ a student'",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "am",
+          "is",
+          "are",
+          "be"
         ],
         "id": 4
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau 6eme aborde des notions fondamentales en Anglais.",
+        "question": "Est-ce que la phrase 'I have a book' est vraie ou fausse si vous avez un livre ?",
         "id": 5
       },
       {
         "type": "texte",
-        "question": "Cite un exemple concret lié à Anglais.",
-        "placeholder": "Exemple...",
+        "question": "Lisez le texte suivant et répondez à la question : 'My favorite food is pizza. I like eating pizza with my friends.' Quel est le plat préféré de l'auteur ?",
         "id": 6
       },
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "question": "Choisissez la bonne forme du verbe 'have' pour compléter la phrase : 'My family _______ a car'",
+        "id": 7,
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
-        ],
-        "id": 7
+          "has",
+          "have",
+          "had",
+          "having"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau 6eme aborde des notions fondamentales en Anglais.",
+        "question": "Est-ce que la phrase 'It often rains in summer' est vraie ou fausse ?",
         "id": 8
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Notion 1 - Anglais",
-      "description": "Concept clé de Anglais au niveau 6eme"
+      "notion": "Présent simple",
+      "description": "Le présent simple est un temps verbal utilisé pour décrire des actions ou des états qui se produisent régulièrement ou qui sont vrais dans le présent"
     },
     {
-      "notion": "Notion 2 - Anglais",
-      "description": "Concept clé de Anglais au niveau 6eme"
+      "notion": "Be et have",
+      "description": "Les verbes 'be' et 'have' sont des verbes d'état qui sont utilisés pour décrire des caractéristiques ou des possessions"
     },
     {
-      "notion": "Notion 3 - Anglais",
-      "description": "Concept clé de Anglais au niveau 6eme"
+      "notion": "Questions courantes",
+      "description": "Les questions courantes sont des questions qui sont souvent posées dans la vie quotidienne, telles que 'What's your name ?', 'How old are you ?', etc."
     }
   ],
   "exerciseresponses": []

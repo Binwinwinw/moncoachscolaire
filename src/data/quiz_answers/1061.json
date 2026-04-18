@@ -1,48 +1,111 @@
 {
-  "quiz_id": 1061,
-  "title": "Forme factorisée et canonique",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "answers": [
-    {
-      "question_id": "1061_1",
-      "correct_option": "B",
-      "explanation": "Forme canonique : a(x − α)² + β où α = −b/(2a) et β = −Δ/(4a) = f(α)."
-    },
-    {
-      "question_id": "1061_2",
-      "correct": true,
-      "explanation": "Quand il existe deux racines x₁ et x₂, on peut factoriser ax² + bx + c = a(x−x₁)(x−x₂)."
-    },
-    {
-      "question_id": "1061_3",
-      "correct_answer": "(x − 2)² − 3",
-      "explanation": "x² − 4x + 1 = (x − 2)² − 4 + 1 = (x−2)² − 3. Sommet en (2, −3)."
-    },
-    {
-      "question_id": "1061_4",
-      "correct_option": "A",
-      "explanation": "Racines : x₁=2, x₂=3. Factorisation : (x−2)(x−3)."
-    },
-    {
-      "question_id": "1061_5",
-      "correct": true,
-      "explanation": "f(x) = a(x−α)² + β → sommet S(α, β). Minimum ou maximum selon le signe de a."
-    },
-    {
-      "question_id": "1061_6",
-      "correct_answer": "2(x−1)(x−3)",
-      "explanation": "Δ = 64−48 = 16. x₁ = (8−4)/4 = 1, x₂ = (8+4)/4 = 3. f(x) = 2(x−1)(x−3)."
-    },
-    {
-      "question_id": "1061_7",
-      "correct_option": "A",
-      "explanation": "x² + 6x + 5 = (x+3)² − 9 + 5 = (x+3)² − 4."
-    },
-    {
-      "question_id": "1061_8",
-      "correct": true,
-      "explanation": "Sans racine réelle, on ne peut pas écrire a(x−x₁)(x−x₂) dans R. On garde la forme canonique."
-    }
-  ]
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 1ère - SÃ©rie 1061",
+    "level": "1ère",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "Diagnostic Anglais 1ère - Série 3",
+    "question_count": 13,
+    "level": "1ère",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "worst",
+        "correct": 2,
+        "correction": "The superlative form of \"bad\" is \"worst\"."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "\"Your\" is a possessive pronoun used to indicate ownership."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "Ils jouent au football",
+        "correction": "The correct translation of \"They are playing soccer\" in French is \"Ils jouent au football\"."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "large",
+        "correct": 1,
+        "correction": "\"Large\" is a synonym for \"big\"."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "\"It's\" is a contraction of \"it is\" or \"it has\", not a possessive pronoun. The possessive pronoun for \"it\" is \"its\"."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "saw",
+        "correction": "The past tense of \"see\" is \"saw\"."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "He doesn't like sports.",
+        "correct": 1,
+        "correction": "The correct sentence is \"He doesn't like sports.\" because \"he\" is third person singular and requires \"does not\" for negation."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "\"Happily\" is an adverb because it describes how an action is performed."
+      },
+      {
+        "index": 8,
+        "question_id": 9,
+        "type": "qcm",
+        "answer": "large",
+        "correct": 1,
+        "correction": "\"Large\" is a synonym for \"big\"."
+      },
+      {
+        "index": 9,
+        "question_id": 10,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "\"It's\" is a contraction of \"it is\" or \"it has\", not a possessive pronoun. The possessive pronoun for \"it\" is \"its\"."
+      },
+      {
+        "index": 10,
+        "question_id": 11,
+        "type": "open",
+        "answer": "saw",
+        "correction": "The past tense of \"see\" is \"saw\"."
+      },
+      {
+        "index": 11,
+        "question_id": 12,
+        "type": "qcm",
+        "answer": "He doesn't like sports.",
+        "correct": 1,
+        "correction": "The correct sentence is \"He doesn't like sports.\" because \"he\" is third person singular and requires \"does not\" for negation."
+      },
+      {
+        "index": 12,
+        "question_id": 13,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "\"Happily\" is an adverb because it describes how an action is performed."
+      }
+    ]
+  }
 }

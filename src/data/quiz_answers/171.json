@@ -1,63 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 47",
-    "level": "1ere",
-    "subject": "Anglais"
+    "title": "Quiz Diagnostic Français 6eme - Série 0171",
+    "level": "6eme",
+    "subject": "Français"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 47",
+    "title": "Français 6e - L’analyse d’une fable",
     "question_count": 8,
+    "level": "6eme",
+    "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correction": "La bonne réponse est celle qui correspond au concept étudié dans ton manuel scolaire. Pour mieux comprendre, relis le chapitre associé et essaie de refaire des exercices similaires. N'hésite pas à demander de l'aide à ton enseignant si certains points restent flous."
+        "answer": "La morale",
+        "correction": "La morale est l'élément clé d'une fable qui permet de transmettre une leçon ou une morale, en offrant une conclusion ou une réflexion sur les actions des personnages et les conséquences de leurs choix."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "correction": "Vrai ou Faux dépend de la définition précise du concept. Si tu t'es trompé, c'est normal : revois la leçon pour bien mémoriser les cas particuliers et les exceptions. Avec de la pratique, tu distingueras facilement les situations vraies ou fausses."
+        "answer": "vrai",
+        "correction": "C'est vrai. L'analyse d'une fable peut aider à développer des compétences de lecture critique et d'interprétation, en encourageant les lecteurs à réfléchir sur les thèmes, les symboles et les messages véhiculés par la fable, ce qui peut renforcer la compréhension du texte et améliorer la capacité à analyser d'autres types de textes littéraires."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correction": "Ta réponse textuelle doit correspondre à ce qui est attendu dans le cours. Compare-la avec la correction fournie et identifie les différences. L'important est de comprendre la logique derrière la réponse pour progresser dans cette matière."
+        "type": "qcm",
+        "answer": "Ils représentent des types de personnes ou des traits de caractère",
+        "correction": "Les personnages dans une fable représentent souvent des types de personnes ou des traits de caractère, en utilisant des animaux ou des objets pour symboliser des qualités humaines, ce qui permet de transmettre la morale de manière plus accessible et mémorable."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correction": "La bonne réponse est celle qui correspond au concept étudié dans ton manuel scolaire. Pour mieux comprendre, relis le chapitre associé et essaie de refaire des exercices similaires. N'hésite pas à demander de l'aide à ton enseignant si certains points restent flous."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. L'analyse d'une fable peut également aider à développer des compétences d'écriture créative, en inspirant les écrivains à créer leurs propres histoires avec des leçons ou des morales similaires, en utilisant des personnages, des intrigues et des thèmes pour transmettre leurs messages de manière engageante et significative."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "correction": "Vrai ou Faux dépend de la définition précise du concept. Si tu t'es trompé, c'est normal : revois la leçon pour bien mémoriser les cas particuliers et les exceptions. Avec de la pratique, tu distingueras facilement les situations vraies ou fausses."
+        "type": "qcm",
+        "answer": "Il sert de toile de fond pour l'intrigue",
+        "correction": "Le cadre dans une fable sert de toile de fond pour l'intrigue, en fournissant un contexte pour les actions des personnages et en contribuant à l'atmosphère de l'histoire, mais il n'est pas nécessairement essentiel pour comprendre la morale, qui peut être transmise indépendamment du cadre."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "correction": "Ta réponse textuelle doit correspondre à ce qui est attendu dans le cours. Compare-la avec la correction fournie et identifie les différences. L'important est de comprendre la logique derrière la réponse pour progresser dans cette matière."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. L'analyse d'une fable peut également aider à développer des compétences de communication orale, en encourageant les lecteurs à discuter et à partager leurs interprétations de la fable avec d'autres personnes, ce qui peut renforcer la compréhension du texte et favoriser des échanges enrichissants sur les thèmes et les messages véhiculés par la fable."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "correction": "La bonne réponse est celle qui correspond au concept étudié dans ton manuel scolaire. Pour mieux comprendre, relis le chapitre associé et essaie de refaire des exercices similaires. N'hésite pas à demander de l'aide à ton enseignant si certains points restent flous."
+        "answer": "Elle est essentielle pour transmettre la morale",
+        "correction": "L'intrigue dans une fable est essentielle pour transmettre la morale, en présentant les actions des personnages et les conséquences de leurs choix, ce qui permet aux lecteurs de comprendre la leçon ou le message que la fable cherche à communiquer."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "correction": "Vrai ou Faux dépend de la définition précise du concept. Si tu t'es trompé, c'est normal : revois la leçon pour bien mémoriser les cas particuliers et les exceptions. Avec de la pratique, tu distingueras facilement les situations vraies ou fausses."
+        "answer": "vrai",
+        "correction": "C'est vrai. L'analyse d'une fable peut également aider à développer des compétences de réflexion critique et de prise de décision, en encourageant les lecteurs à réfléchir sur les choix des personnages et à envisager comment ils auraient agi dans des situations similaires, ce qui peut renforcer la capacité à prendre des décisions éclairées dans la vie réelle, en utilisant les leçons apprises de la fable pour guider leurs actions et leurs choix."
       }
-    ],
-    "level": "1ere",
-    "subject": "Anglais"
+    ]
   }
 }

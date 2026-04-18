@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Croissances comparées",
     "status": "published",
-    "created_at": "2026-03-13 11:24:24",
-    "updated_at": "2026-03-13 11:24:24"
+    "created_at": "2026-04-06 06:40:48",
+    "updated_at": "2026-04-06 06:40:48"
   },
   "quiz": {
     "title": "Croissances comparées",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Croissance linéaire",
+      "description": "Une fonction linéaire croît de manière constante, c'est-à-dire que la différence entre deux valeurs consécutives est toujours la même"
+    },
+    {
+      "notion": "Croissance exponentielle",
+      "description": "Une fonction exponentielle croît de manière accélérée, c'est-à-dire que la différence entre deux valeurs consécutives augmente à mesure que la variable indépendante augmente"
+    },
+    {
+      "notion": "Comparaison de croissances",
+      "description": "La comparaison de croissances permet de déterminer laquelle des fonctions croît le plus vite, en fonction de la pente ou de la constante de croissance"
+    }
+  ],
   "exerciseresponses": []
 }

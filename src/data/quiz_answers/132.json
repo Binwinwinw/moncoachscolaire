@@ -1,63 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ère Anglais - Série 08",
-    "level": "1ere",
-    "subject": "Anglais"
+    "title": "Quiz Diagnostic EMC 6eme - Série 0132",
+    "level": "6eme",
+    "subject": "EMC"
   },
   "quiz": {
-    "title": "Answer Key - Art & Creativity Quiz",
+    "title": "EMC 6e - Vie démocratique école",
     "question_count": 8,
+    "level": "6eme",
+    "subject": "EMC",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correction": "Correct: A. Banksy vs Louvre debate. Public space = new gallery. Legalized in some cities (Melbourne)."
+        "answer": "Le respect des règles de vie démocratique à l'école garantit la promotion de la participation, le respect des autres et la construction d'une société plus juste et solidaire.",
+        "correction": "Le respect des règles de vie démocratique à l'école est essentiel pour garantir la promotion de la participation, le respect des autres et la construction d'une société plus juste et solidaire."
       },
       {
         "index": 1,
         "question_id": 2,
-        "type": "qcm",
-        "correction": "True. Subjunctive: It's essential/crucial/vital that + base verb. Formal recommendation."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des règles de vie démocratique à l'école encourage l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect de ces règles dans la société."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correction": "Good: dopamine release, non-verbal communication. NHS uses for dementia patients."
+        "type": "qcm",
+        "answer": "L'éducation joue un rôle crucial en sensibilisant les individus aux règles de vie démocratique à l'école et en promouvant le respect de ces règles.",
+        "correction": "L'éducation joue un rôle crucial en sensibilisant les individus aux règles de vie démocratique à l'école, en promouvant le respect de ces règles et en encourageant la responsabilité individuelle pour garantir la promotion de la participation, le respect des autres et la construction d'une société plus juste et solidaire."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correction": "Correct: Inversion conditional (Were I = If I were). Hypothetical. Practice unreal situations."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des règles de vie démocratique à l'école encourage l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect de ces règles dans la société."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "correction": "True. 1M artists Instagram (50M followers). Democratizes but algorithm biases."
+        "type": "qcm",
+        "answer": "Les médias jouent un rôle crucial en sensibilisant le public aux règles de vie démocratique à l'école et en promouvant le respect de ces règles.",
+        "correction": "Les médias jouent un rôle crucial en sensibilisant le public aux règles de vie démocratique à l'école, en promouvant le respect de ces règles et en encourageant la responsabilité individuelle pour garantir la promotion de la participation, le respect des autres et la construction d'une société plus juste et solidaire."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "correction": "Good: stencil technique (fast), satire (Girl with balloon). Sold £1M at auction."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des règles de vie démocratique à l'école encourage l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect de ces règles dans la société."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "correction": "Correct: 7.4% €900B (Eurostat). Fashion/design/film. France = 2nd Europe."
+        "answer": "Les parents ont un rôle important en sensibilisant leurs enfants aux règles de vie démocratique à l'école et en promouvant le respect de ces règles.",
+        "correction": "Les parents jouent un rôle crucial dans le respect des règles de vie démocratique à l'école en sensibilisant leurs enfants à ces règles et en encourageant la responsabilité individuelle pour garantir la promotion de la participation, le respect des autres et la construction d'une société plus juste et solidaire."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "correction": "True. 'High time/past time' + past perfect. Urgency: It's high time we valued arts more."
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des règles de vie démocratique à l'école encourage l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect de ces règles dans la société."
       }
-    ],
-    "level": "1ere",
-    "subject": "Anglais"
+    ]
   }
 }

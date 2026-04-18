@@ -1,96 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 27",
+    "title": "Quiz Diagnostic Français 6eme - Série 0151",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Anglais",
-    "description": "Diagnostic Anglais 1ere : Les modaux – déduction et probabilité",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - Les accords (accord du sujet et du verbe, accord de l’adjectif avec le nom…)",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-08 00:05:00"
+    "created_at": "2026-04-06 06:25:38",
+    "updated_at": "2026-04-06 06:25:38"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 27",
-    "level": "1ere",
-    "subject": "Anglais",
+    "title": "Français 6e - Les accords (accord du sujet et du verbe, accord de l’adjectif avec le nom…)",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
-        "id": 1,
         "type": "qcm",
-        "question": "The lights are off and the car is gone. Choose the best deduction: '___ be at home.'",
+        "question": "Quel est l'accord correct dans la phrase suivante : 'Les enfants ___ heureux.' ?",
         "choices": [
-          "She must",
-          "She can't",
-          "She should",
-          "She would"
+          "sont",
+          "est",
+          "sont heureux",
+          "est heureux"
         ]
       },
       {
-        "id": 2,
         "type": "vrai-faux",
-        "question": "'She might be at the library' expresses a strong certainty about her location."
+        "question": "Le verbe doit s'accorder avec le sujet en nombre et en personne."
       },
       {
-        "id": 3,
-        "type": "texte",
-        "question": "Exprime une déduction certaine positive au présent : tu vois de la lumière chez ton voisin et sa moto est garée dehors. Formule une phrase avec 'must'.",
-        "placeholder": "Écris ta réponse ici..."
-      },
-      {
-        "id": 4,
         "type": "qcm",
-        "question": "He didn't answer any of my calls. Choose the best past deduction:",
+        "question": "Quel est l'accord correct dans la phrase suivante : 'La fille ___ intelligente.' ?",
         "choices": [
-          "He must forget his phone.",
-          "He might have forgotten his phone.",
-          "He can't have forgot his phone.",
-          "He should be forgotten his phone."
+          "est",
+          "sont",
+          "est intelligente",
+          "sont intelligente"
         ]
       },
       {
-        "id": 5,
         "type": "vrai-faux",
-        "question": "'She must have passed her exam' is used to make a deduction about a past event."
+        "question": "L'adjectif doit s'accorder avec le nom qu'il qualifie en genre et en nombre."
       },
       {
-        "id": 6,
-        "type": "texte",
-        "question": "Traduis en anglais en utilisant le bon modal de déduction : 'Elle ne peut pas avoir dit ça — c'est impossible !'",
-        "placeholder": "Écris ta réponse ici..."
-      },
-      {
-        "id": 7,
         "type": "qcm",
-        "question": "Which sentence expresses the HIGHEST degree of certainty?",
+        "question": "Quel est l'accord correct dans la phrase suivante : 'Les chats ___ noirs.' ?",
         "choices": [
-          "He might be the thief.",
-          "He could be the thief.",
-          "He must be the thief.",
-          "He may be the thief."
+          "sont",
+          "est",
+          "sont noirs",
+          "est noirs"
         ]
       },
       {
-        "id": 8,
         "type": "vrai-faux",
-        "question": "In the sentence 'It could rain tomorrow', 'could' expresses a possibility about the future."
+        "question": "Le sujet et le verbe doivent toujours être au même nombre (singulier ou pluriel)."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est l'accord correct dans la phrase suivante : 'La voiture ___ rapide.' ?",
+        "choices": [
+          "est",
+          "sont",
+          "est rapide",
+          "sont rapide"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'accord du participe passé avec l'auxiliaire avoir se fait uniquement lorsque le complément d'objet direct (COD) est placé avant le verbe."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Déduction certaine au présent : must / can't",
-      "description": "Must + infinitif exprime une déduction quasi-certaine positive : 'She must be at home' (j'en suis presque sûr). Can't + infinitif exprime une déduction quasi-certaine négative : 'He can't be sleeping, it's noon' (c'est impossible)."
+      "notion": "Fondamentaux de Français",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Probabilité et incertitude : may, might, could",
-      "description": "May, might et could expriment une probabilité incertaine au présent ou futur. May = environ 50% de probabilité. Might et could = légère possibilité. Ex : 'It might rain later.' / 'She could be in a meeting.'"
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Déduction dans le passé : must have, can't have, might have",
-      "description": "Pour exprimer une déduction sur le passé, on utilise modal + have + past participle. Ex : 'He must have forgotten' (il a sûrement oublié), 'She can't have seen it' (elle n'a pas pu le voir), 'They might have left already' (ils ont peut-être déjà quitté)."
+      "notion": "Savoir-faire français",
+      "description": "Notion du programme 6eme"
     }
   ],
   "exerciseresponses": []

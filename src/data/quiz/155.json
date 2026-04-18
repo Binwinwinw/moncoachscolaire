@@ -1,96 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 31",
+    "title": "Quiz Diagnostic Français 6eme - Série 0155",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Anglais",
-    "description": "Diagnostic Anglais 1ere : Les expressions idiomatiques",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - Les temps du récit (imparfait, passé simple…)",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-08 00:05:00"
+    "created_at": "2026-04-06 06:25:38",
+    "updated_at": "2026-04-06 06:25:38"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 31",
-    "level": "1ere",
-    "subject": "Anglais",
+    "title": "Français 6e - Les temps du récit (imparfait, passé simple…)",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
-        "id": 1,
         "type": "qcm",
-        "question": "What does 'it's raining cats and dogs' mean?",
+        "question": "Quel temps du récit est utilisé pour exprimer une action qui se déroulait de manière habituelle ou répétée dans le passé ?",
         "choices": [
-          "There are animals falling from the sky.",
-          "It is raining very heavily.",
-          "The weather is unpredictable.",
-          "Animals are getting wet in the rain."
+          "Imparfait",
+          "Passé simple",
+          "Présent",
+          "Futur"
         ]
       },
       {
-        "id": 2,
         "type": "vrai-faux",
-        "question": "'Break the ice' means to literally break something made of ice."
+        "question": "Le passé simple est utilisé pour exprimer une action qui s'est déroulée dans le passé et qui a un lien avec le présent."
       },
       {
-        "id": 3,
-        "type": "texte",
-        "question": "Explique le sens de l'idiome 'hit the nail on the head' et donne un exemple de situation où on l'utiliserait.",
-        "placeholder": "Écris ta réponse ici..."
-      },
-      {
-        "id": 4,
         "type": "qcm",
-        "question": "What does 'under the weather' mean?",
+        "question": "Quel temps du récit est utilisé pour exprimer une action qui s'est déroulée dans le passé et qui n'a pas de lien direct avec le présent ?",
         "choices": [
-          "Feeling unwell or slightly ill",
-          "Standing in the rain",
-          "Being very happy",
-          "Working outside in bad conditions"
+          "Imparfait",
+          "Passé simple",
+          "Présent",
+          "Futur"
         ]
       },
       {
-        "id": 5,
         "type": "vrai-faux",
-        "question": "The expression 'spill the beans' means to reveal a secret or give away information."
+        "question": "Le présent du récit est utilisé pour exprimer des actions ou des événements qui se déroulent au moment où l'on raconte l'histoire."
       },
       {
-        "id": 6,
-        "type": "texte",
-        "question": "Choisis le bon verbe pour compléter ces expressions figées : ___ a decision / ___ a photo / ___ attention.",
-        "placeholder": "Écris ta réponse ici..."
-      },
-      {
-        "id": 7,
         "type": "qcm",
-        "question": "What does 'bite the bullet' mean?",
+        "question": "Quel temps du récit est utilisé pour exprimer des actions ou des événements qui se déroulent au moment où l'on raconte l'histoire ?",
         "choices": [
-          "To eat something hard",
-          "To shoot at something",
-          "To endure a painful situation with courage",
-          "To be very angry"
+          "Imparfait",
+          "Passé simple",
+          "Présent",
+          "Futur"
         ]
       },
       {
-        "id": 8,
         "type": "vrai-faux",
-        "question": "In English, idioms can usually be understood word by word from their literal meaning."
+        "question": "Le futur du récit est utilisé pour exprimer des actions ou des événements qui se dérouleront dans le futur par rapport au moment où l'on raconte l'histoire."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel temps du récit est utilisé pour exprimer des actions ou des événements qui se dérouleront dans le futur par rapport au moment où l'on raconte l'histoire ?",
+        "choices": [
+          "Imparfait",
+          "Passé simple",
+          "Présent",
+          "Futur"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation de différents temps du récit peut contribuer à créer une atmosphère particulière et à renforcer l'impact émotionnel de l'histoire sur les lecteurs."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Nature des idiomes anglais",
-      "description": "Un idiome est une expression dont le sens global est différent du sens littéral des mots qui la composent. Ex : 'It's raining cats and dogs' ne signifie pas qu'il pleut des animaux mais qu'il pleut très fort. Les idiomes sont figés et doivent être appris comme des unités de sens."
+      "notion": "Fondamentaux de Français",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Idiomes courants liés aux émotions et situations",
-      "description": "Exemples d'idiomes fréquents : hit the nail on the head (avoir tout compris), break the ice (briser la glace), piece of cake (très facile), under the weather (ne pas se sentir bien), bite the bullet (serrer les dents/affronter), spill the beans (vendre la mèche), keep an eye on (surveiller)."
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Fixed expressions et collocations figées",
-      "description": "Les expressions figées sont des formules dont les mots ne peuvent pas être changés. Ex : make a decision (pas 'do a decision'), take a photo, have a look, pay attention, make progress, do one's best, in other words, as a matter of fact, on the other hand."
+      "notion": "Savoir-faire français",
+      "description": "Notion du programme 6eme"
     }
   ],
   "exerciseresponses": []

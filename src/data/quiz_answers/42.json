@@ -1,71 +1,70 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 4eme Français",
-    "type": "quiz",
-    "level": "4eme",
-    "subject": "Francais",
-    "description": "Diagnostic subjonctif, discours indirect, figures style 4eme"
+    "title": "Quiz Diagnostic Anglais 6ème - Série 0042",
+    "level": "6ème",
+    "subject": "Anglais"
   },
   "quiz": {
-    "title": "Diagnostic Français 4eme",
-    "level": "4eme",
-    "subject": "Francais",
+    "title": "Vocabulaire de base : prononciation de chiffres et de lettres",
+    "question_count": 8,
+    "level": "6ème",
+    "subject": "Anglais",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
-        "type": "texte",
-        "answer": "viennes",
-        "correction": "Subjonctif présent"
+        "type": "qcm",
+        "answer": "One",
+        "correction": "The correct English pronunciation for the number '1' is 'One'."
       },
       {
         "index": 1,
         "question_id": 2,
-        "type": "qcm",
-        "answer": "il part",
-        "correction": "Présent direct→présent indirect"
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English pronunciation for the letter 'A' is indeed 'ay', which is a common way to pronounce this letter in English."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "vrai-faux",
-        "answer": true,
-        "correction": "VRAI. 'Il pleut des cordes'"
+        "type": "qcm",
+        "answer": "Five",
+        "correction": "The correct English pronunciation for the number '5' is 'Five'."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "texte",
-        "answer": "il pleuve",
-        "correction": "Subjonctif imparfait"
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English pronunciation for the letter 'B' is indeed 'bee', which is a common way to pronounce this letter in English."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "qcm",
-        "answer": "stop",
-        "correction": "Verbe exclamatif inchangé"
+        "answer": "Ten",
+        "correction": "The correct English pronunciation for the number '10' is 'Ten'."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": false,
-        "correction": "FAUX. Subjonctif"
+        "answer": "vrai",
+        "correction": "The English pronunciation for the letter 'C' is indeed 'see', which is a common way to pronounce this letter in English."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "Exagération",
-        "correction": "'Je meurs de faim'"
+        "answer": "Twenty",
+        "correction": "The correct English pronunciation for the number '20' is 'Twenty'."
       },
       {
         "index": 7,
         "question_id": 8,
-        "type": "texte",
-        "answer": "comprennes",
-        "correction": "Subjonctif présent 2e singulier"
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English pronunciation for the letter 'D' is indeed 'dee', which is a common way to pronounce this letter in English."
       }
     ]
   }

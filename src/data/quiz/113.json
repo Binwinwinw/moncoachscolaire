@@ -1,97 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Bac Phéno - Synthèse",
+    "title": "Quiz Diagnostic EMC 6eme - Série 0113",
     "type": "quiz",
-    "level": "bac",
-    "subject": "Philosophie",
-    "description": "Diagnostic Méthode dissert, plans, auteurs - Bac Phéno",
+    "level": "6eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 6eme : EMC 6e - Lois et justice (tribunal, police)",
     "status": "published",
-    "created_at": "2026-03-08 18:15:00",
-    "updated_at": "2026-03-08 18:15:00"
+    "created_at": "2026-04-06 06:25:43",
+    "updated_at": "2026-04-06 06:25:43"
   },
   "quiz": {
-    "title": "Diagnostic Bac - Synthèse Philosophie",
-    "level": "bac",
-    "subject": "Philosophie",
+    "title": "EMC 6e - Lois et justice (tribunal, police)",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Dissertation plan dialectique :",
+        "question": "Pourquoi est-il important de respecter les lois et la justice dans la société ?",
         "choices": [
-          "Thèse seule",
-          "Thèse/antithèse/synthèse",
-          "Analytique",
-          "Chronologique"
-        ],
-        "id": 1
+          "Le respect des lois et de la justice garantit la protection des droits, la sécurité et l'équité dans la société.",
+          "Le respect des lois et de la justice est inutile, car les individus peuvent agir comme ils le souhaitent.",
+          "Le respect des lois et de la justice est réservé aux élites politiques et économiques.",
+          "Le respect des lois et de la justice est limité aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Problématique = question reformulée sujet.",
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "Hegel dialectique : thèse → ... → synthèse",
-        "placeholder": "antithèse",
-        "id": 3
+        "question": "Le respect des lois et de la justice est un concept qui promeut la non-intervention dans les affaires des individus."
       },
       {
         "type": "qcm",
-        "question": "Nietzsche 'Dieu mort' =",
+        "question": "Quel est le rôle de l'éducation dans le respect des lois et de la justice ?",
         "choices": [
-          "athéisme",
-          "nihilisme",
-          "surhomme",
-          "éternel retour"
-        ],
-        "id": 4
+          "L'éducation joue un rôle crucial en sensibilisant les individus aux lois et à la justice et en promouvant le respect de ces règles.",
+          "L'éducation est inutile dans le respect des lois et de la justice, car les individus peuvent apprendre par eux-mêmes.",
+          "L'éducation est réservée aux élites politiques et économiques.",
+          "L'éducation est limitée aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Explication texte: 1/ paraphrase 2/ problématique 3/ thèse.",
-        "id": 5
-      },
-      {
-        "type": "texte",
-        "question": "Rawls 'voile ignorance' =",
-        "placeholder": "justice équitable",
-        "id": 6
+        "question": "Le respect des lois et de la justice est un concept qui promeut la non-intervention dans les affaires des individus."
       },
       {
         "type": "qcm",
-        "question": "Transition dissert =",
+        "question": "Quel est le rôle des médias dans le respect des lois et de la justice ?",
         "choices": [
-          "Récapitulatif",
-          "Lien parties",
-          "Citation",
-          "Exemple"
-        ],
-        "id": 7
+          "Les médias ont un rôle important en promouvant des représentations positives du respect des lois et de la justice et en sensibilisant le public à l'importance de ces règles.",
+          "Les médias sont inutiles dans le respect des lois et de la justice, car les individus peuvent apprendre par eux-mêmes.",
+          "Les médias sont réservés aux élites politiques et économiques.",
+          "Les médias sont limités aux écoles uniquement."
+        ]
       },
       {
-        "type": "texte",
-        "question": "Bergson durée =",
-        "placeholder": "temps qualitatif",
-        "id": 8
+        "type": "vrai-faux",
+        "question": "Le respect des lois et de la justice est un concept qui promeut la non-intervention dans les affaires des individus."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle des parents dans le respect des lois et de la justice ?",
+        "choices": [
+          "Les parents ont un rôle important en sensibilisant leurs enfants aux lois et à la justice et en promouvant le respect de ces règles.",
+          "Les parents sont inutiles dans le respect des lois et de la justice, car les individus peuvent apprendre par eux-mêmes.",
+          "Les parents sont réservés aux élites politiques et économiques.",
+          "Les parents sont limités aux écoles uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect des lois et de la justice est un concept qui promeut la non-intervention dans les affaires des individus."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Méthode dissertation",
-      "description": "Problématique, plan dialectique (Bac Phéno)"
+      "notion": "Fondamentaux de EMC",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Explication texte",
-      "description": "Paraphrase → thèse → ouvert"
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Auteurs modernes",
-      "description": "Hegel, Nietzsche, Rawls (synthèse)"
+      "notion": "Savoir-faire emc",
+      "description": "Notion du programme 6eme"
     }
   ],
   "exerciseresponses": []

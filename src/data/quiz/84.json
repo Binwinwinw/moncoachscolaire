@@ -1,0 +1,94 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6ème - Série 0084",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 6ème : Angles triangle",
+    "status": "published",
+    "created_at": "2026-04-06 06:25:41",
+    "updated_at": "2026-04-06 06:25:41"
+  },
+  "quiz": {
+    "title": "Angles triangle",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel est le type de triangle qui a un angle droit ?",
+        "choices": [
+          "Triangle équilatéral",
+          "Triangle isocèle",
+          "Triangle scalène",
+          "Triangle rectangle"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un triangle qui a un angle droit est appelé un triangle rectangle."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le type de triangle qui a tous les angles égaux ?",
+        "choices": [
+          "Triangle équilatéral",
+          "Triangle isocèle",
+          "Triangle scalène",
+          "Triangle rectangle"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un triangle qui a tous les angles égaux est appelé un triangle équilatéral."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le type de triangle qui a deux angles égaux ?",
+        "choices": [
+          "Triangle équilatéral",
+          "Triangle isocèle",
+          "Triangle scalène",
+          "Triangle rectangle"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un triangle qui a deux angles égaux est appelé un triangle isocèle."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le type de triangle qui n'a aucun angle égal ?",
+        "choices": [
+          "Triangle équilatéral",
+          "Triangle isocèle",
+          "Triangle scalène",
+          "Triangle rectangle"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un triangle qui n'a aucun angle égal est appelé un triangle scalène."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Opérations arithmétiques",
+      "description": "Notion fondamentale de Mathématiques"
+    },
+    {
+      "notion": "Géométrie élémentaire",
+      "description": "Notion fondamentale de Mathématiques"
+    },
+    {
+      "notion": "Nombres et fractions",
+      "description": "Notion fondamentale de Mathématiques"
+    }
+  ],
+  "exerciseresponses": []
+}

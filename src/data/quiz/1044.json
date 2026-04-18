@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Echantillonnage",
     "status": "published",
-    "created_at": "2026-03-13 11:24:24",
-    "updated_at": "2026-03-13 11:24:24"
+    "created_at": "2026-04-06 06:40:48",
+    "updated_at": "2026-04-06 06:40:48"
   },
   "quiz": {
     "title": "Echantillonnage",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Définition de la population cible",
+      "description": "La première étape la plus rigoureuse dans le chapitre 'Echantillonnage' consiste à définir clairement la population cible, c'est-à-dire l'ensemble des individus ou des éléments que l'on souhaite étudi"
+    },
+    {
+      "notion": "Identification des critères d'échantillonnage",
+      "description": "Il est essentiel d'identifier les critères d'échantillonnage pertinents pour sélectionner les éléments de l'échantillon de manière représentative et sans biais."
+    },
+    {
+      "notion": "Détermination de la taille de l'échantillon",
+      "description": "La détermination de la taille de l'échantillon est cruciale pour garantir que l'échantillon est suffisamment représentatif de la population cible et permette des conclusions fiables."
+    }
+  ],
   "exerciseresponses": []
 }

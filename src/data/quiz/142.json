@@ -1,81 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 18",
+    "title": "Quiz Diagnostic EMC 6eme - Série 0142",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Anglais",
-    "description": "Diagnostic : musique, pub, santé (B1+ expression).",
+    "level": "6eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 6eme : EMC 6e - La vie démocratique à l'école",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-09 21:38:00"
+    "created_at": "2026-04-06 06:25:43",
+    "updated_at": "2026-04-06 06:25:43"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 18",
-    "level": "1ere",
-    "subject": "Anglais",
+    "title": "EMC 6e - La vie démocratique à l'école",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "'Music and identity' shows how:",
-        "choices": ["Songs reflect culture/generations", "Math formulas", "Train delays", "Cake recipes"],
-        "id": 1
+        "question": "Pourquoi est-il important de respecter les règles de vie démocratique à l'école ?",
+        "choices": [
+          "Le respect des règles de vie démocratique à l'école garantit la promotion de la participation, le respect des autres et la construction d'une société plus juste et solidaire.",
+          "Le respect des règles de vie démocratique à l'école est inutile, car les individus peuvent agir comme ils le souhaitent.",
+          "Le respect des règles de vie démocratique à l'école est réservé aux élites politiques et économiques.",
+          "Le respect des règles de vie démocratique à l'école est limité aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Advertising manipulates consumer choices.",
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "Exemple musique forgeant identité (ex: rap).",
-        "placeholder": "Ex: Rap expresses urban struggles...",
-        "id": 3
+        "question": "Le respect des règles de vie démocratique à l'école est un concept qui promeut la non-intervention dans les affaires des individus."
       },
       {
         "type": "qcm",
-        "question": "Dans 'Health and lifestyles', focus on:",
-        "choices": ["Fast food risks vs healthy habits", "Night sleep", "Homework stress", "TV marathons"],
-        "id": 4
+        "question": "Quel est le rôle des élèves dans la vie démocratique à l'école ?",
+        "choices": [
+          "Les élèves jouent un rôle crucial en respectant les règles de vie démocratique, en exprimant leurs préoccupations de manière respectueuse et en contribuant à un environnement d'apprentissage positif.",
+          "Les élèves sont inutiles dans la vie démocratique à l'école, car les individus peuvent agir par eux-mêmes.",
+          "Les élèves sont réservés aux élites politiques et économiques.",
+          "Les élèves sont limités aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Pubs utilisent émotions pour vendre.",
-        "id": 5
-      },
-      {
-        "type": "texte",
-        "question": "Impact fast food sur santé (2 phrases).",
-        "placeholder": "Ex: Obesity rises but convenience appeals...",
-        "id": 6
+        "question": "Le respect des règles de vie démocratique à l'école est un concept qui promeut la non-intervention dans les affaires des individus."
       },
       {
         "type": "qcm",
-        "question": "Music festivals promote:",
-        "choices": ["Cultural exchange", "Silence", "Isolation", "Boredom"],
-        "id": 7
+        "question": "Quel est le rôle des enseignants dans la vie démocratique à l'école ?",
+        "choices": [
+          "Les enseignants jouent un rôle crucial en établissant des règles de vie démocratique claires, en encourageant le respect mutuel et en créant un environnement d'apprentissage positif.",
+          "Les enseignants sont inutiles dans la vie démocratique à l'école, car les individus peuvent agir par eux-mêmes.",
+          "Les enseignants sont réservés aux élites politiques et économiques.",
+          "Les enseignants sont limités aux écoles uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Modern lifestyles increase mental health issues.",
-        "id": 8
+        "question": "Le respect des règles de vie démocratique à l'école est un concept qui promeut la non-intervention dans les affaires des individus."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle des élèves dans la vie démocratique à l'école ?",
+        "choices": [
+          "Les élèves participent activement à la prise de décisions et au respect des règles de vie démocratique.",
+          "Les élèves n'ont aucun rôle dans la vie démocratique à l'école.",
+          "Les élèves sont uniquement responsables de leurs propres actions.",
+          "Les élèves sont limités à suivre les instructions des enseignants."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect des règles de vie démocratique à l'école est un concept qui promeut la non-intervention dans les affaires des individus."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Music and identity",
-      "description": "Musique reflète identités culturelles/générationnelles (rap, rock)."
+      "notion": "Fondamentaux de EMC",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Advertising and consumer",
-      "description": "Pubs influencent achats (émotions, manipulation)."
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Health and lifestyles",
-      "description": "Habitudes modernes vs santé (obésité, stress)."
+      "notion": "Savoir-faire emc",
+      "description": "Notion du programme 6eme"
     }
   ],
   "exerciseresponses": []

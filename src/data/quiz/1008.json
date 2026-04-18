@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques 2nde : Equations et modeles",
     "status": "published",
-    "created_at": "2026-03-13 11:15:43",
-    "updated_at": "2026-03-13 11:15:43"
+    "created_at": "2026-04-06 06:40:42",
+    "updated_at": "2026-04-06 06:40:42"
   },
   "quiz": {
     "title": "Equations et modeles",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Compréhension du contexte",
+      "description": "Il est essentiel de bien comprendre le contexte de l'exercice pour identifier les variables et les constantes impliquées dans l'équation"
+    },
+    {
+      "notion": "Identification des variables et constantes",
+      "description": "Identifier clairement les variables et les constantes dans l'équation pour déterminer la démarche à suivre pour résoudre l'exercice"
+    },
+    {
+      "notion": "Représentation graphique ou algébrique",
+      "description": "Choisir une représentation graphique ou algébrique appropriée pour modéliser l'équation et faciliter sa résolution"
+    }
+  ],
   "exerciseresponses": []
 }

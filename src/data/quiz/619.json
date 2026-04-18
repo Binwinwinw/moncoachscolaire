@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Génétique moléculaire",
+      "description": "Notion fondamentale de SVT"
+    },
+    {
+      "notion": "Évolution darwinienne",
+      "description": "Notion fondamentale de SVT"
+    },
+    {
+      "notion": "Écologie systémique",
+      "description": "Notion fondamentale de SVT"
+    }
+  ],
   "exerciseresponses": []
 }

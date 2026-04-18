@@ -1,0 +1,94 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6eme - Série 0002",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6eme : Le quotidien : vivre, jouer, apprendre",
+    "status": "published",
+    "created_at": "2026-04-06 06:24:36",
+    "updated_at": "2026-04-06 06:24:36"
+  },
+  "quiz": {
+    "title": "Le quotidien : vivre, jouer, apprendre",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "What do you usually do after school?",
+        "choices": [
+          "Play video games",
+          "Do homework",
+          "Go to the park",
+          "Watch TV"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "I have breakfast in the morning."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common school subject?",
+        "choices": [
+          "Maths",
+          "Cooking",
+          "Dancing",
+          "Singing"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "I brush my teeth twice a day."
+      },
+      {
+        "type": "qcm",
+        "question": "What do you usually do after school?",
+        "choices": [
+          "Play video games",
+          "Do homework",
+          "Go to the park",
+          "Watch TV"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "I go to bed at 10 PM."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common extracurricular activity?",
+        "choices": [
+          "Soccer",
+          "Cooking",
+          "Painting",
+          "Singing"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "I have lunch at school."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Fondamentaux de Anglais",
+      "description": "Notion du programme 6eme"
+    },
+    {
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
+    },
+    {
+      "notion": "Savoir-faire anglais",
+      "description": "Notion du programme 6eme"
+    }
+  ],
+  "exerciseresponses": []
+}

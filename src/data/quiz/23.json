@@ -1,96 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 6eme Histoire-Géographie",
+    "title": "Quiz Diagnostic Anglais 6ème - Série 0023",
     "type": "quiz",
-    "level": "6eme",
-    "subject": "Histoire-Géographie",
-    "description": "Diagnostic repères spatiaux/temps, continents, Orient ancien 6eme",
+    "level": "6ème",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6ème : Expressions courantes : salutations, formules de politesse, phrases simples",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-08 14:13:00"
+    "created_at": "2026-04-06 06:24:36",
+    "updated_at": "2026-04-06 06:24:36"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 6eme Histoire-Géographie",
-    "level": "6eme",
-    "subject": "Histoire-Géographie",
+    "title": "Expressions courantes : salutations, formules de politesse, phrases simples",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Combien y a-t-il de continents sur Terre ?",
+        "question": "Which of the following is a common English greeting?",
         "choices": [
-          "5",
-          "6",
-          "7",
-          "8"
-        ],
-        "id": 1
+          "Hello",
+          "Goodbye",
+          "Thank you",
+          "Please"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "La France est en Europe.",
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "Nommer un pays d'Afrique.",
-        "placeholder": "Ex: Maroc",
-        "id": 3
+        "question": "'Thank you' is a phrase used to express gratitude in English' is a true statement."
       },
       {
         "type": "qcm",
-        "question": "Où se trouve la Mésopotamie ?",
+        "question": "Which of the following is a common English expression for saying goodbye?",
         "choices": [
-          "Europe",
-          "Asie",
-          "Afrique",
-          "Amérique"
-        ],
-        "id": 4
+          "See you later",
+          "Good morning",
+          "How are you?",
+          "Thank you"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "L'Égypte ancienne est en Afrique.",
-        "id": 5
-      },
-      {
-        "type": "texte",
-        "question": "Quelle est la capitale de la France ?",
-        "placeholder": "Paris",
-        "id": 6
+        "question": "'Please' is a word used to make requests more polite in English' is a true statement."
       },
       {
         "type": "qcm",
-        "question": "L'invention de l'écriture date d'environ :",
+        "question": "Which of the following is a common English expression for asking how someone is doing?",
         "choices": [
-          "5000 av. J.-C.",
-          "1000 av. J.-C.",
-          "2000 ap. J.-C.",
-          "500 ap. J.-C."
-        ],
-        "id": 7
+          "How are you?",
+          "What's up?",
+          "How's it going?",
+          "All of the above"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Les fleuves étaient importants pour les civilisations anciennes.",
-        "id": 8
+        "question": "'Excuse me' is a phrase used to get someone's attention or apologize in English' is a true statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English expression for showing appreciation?",
+        "choices": [
+          "Thank you",
+          "You're welcome",
+          "Great job",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The phrase 'Have a nice day' is a common way to wish someone well in English' is a true statement."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Repères spatiaux",
-      "description": "Concept clé de Histoire-Géographie au niveau 6eme"
+      "notion": "Vocabulaire de base",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "notion": "Continents/Orient ancien",
-      "description": "Concept clé de Histoire-Géographie au niveau 6eme"
+      "notion": "Grammaire simple",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "notion": "Repères chronologiques",
-      "description": "Concept clé de Histoire-Géographie au niveau 6eme"
+      "notion": "Expression orale",
+      "description": "Notion fondamentale de Anglais"
     }
   ],
   "exerciseresponses": []

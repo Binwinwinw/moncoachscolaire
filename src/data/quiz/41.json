@@ -1,84 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 4eme Anglais",
+    "title": "Quiz Diagnostic Anglais 6ème - Série 0041",
     "type": "quiz",
-    "level": "4eme",
+    "level": "6ème",
     "subject": "Anglais",
-    "description": "Diagnostic future, conditionnel, passive voice 4eme"
+    "description": "Diagnostic Anglais 6ème : Vocabulaire de base : Description d'une personne ou d'un lieu",
+    "status": "published",
+    "created_at": "2026-04-06 06:24:36",
+    "updated_at": "2026-04-06 06:24:36"
   },
   "quiz": {
-    "title": "Diagnostic Anglais 4eme",
-    "level": "4eme",
+    "title": "Vocabulaire de base : Description d'une personne ou d'un lieu",
+    "type": "quiz",
+    "level": "6ème",
     "subject": "Anglais",
     "question_count": 8,
-    "passing_score": 75,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
     "questions": [
       {
-        "id": 1,
-        "type": "texte",
-        "question": "Tomorrow I ... (go) to London."
-      },
-      {
-        "id": 2,
         "type": "qcm",
-        "question": "If it rains, we ... (stay)",
+        "question": "Which of the following is a common English expression used to describe location in relation to something else?",
         "choices": [
-          "will stay",
-          "stay",
-          "stayed"
+          "In front of",
+          "Behind",
+          "Next to",
+          "All of the above"
         ]
       },
       {
-        "id": 3,
         "type": "vrai-faux",
-        "question": "The book was written by him."
+        "question": "'The expression 'in front of' is used to describe location in relation to something else' is a true statement."
       },
       {
-        "id": 4,
-        "type": "texte",
-        "question": "I ... like to visit Japan."
-      },
-      {
-        "id": 5,
         "type": "qcm",
-        "question": "The letter ... yesterday.",
+        "question": "Which of the following is a common English expression used to describe location behind something?",
         "choices": [
-          "is sent",
-          "was sent",
-          "will send"
+          "In front of",
+          "Behind",
+          "Next to",
+          "All of the above"
         ]
       },
       {
-        "id": 6,
-        "type": "texte",
-        "question": "We ... (to be) happy if you come."
-      },
-      {
-        "id": 7,
         "type": "vrai-faux",
-        "question": "I going to the cinema tonight."
+        "question": "'The expression 'next to' is used to describe location in relation to something else' is a true statement."
       },
       {
-        "id": 8,
         "type": "qcm",
-        "question": "Future near :",
+        "question": "Which of the following is a common English expression used to describe location in relation to something else?",
         "choices": [
-          "will",
-          "am going to",
-          "both OK"
+          "In front of",
+          "Behind",
+          "Next to",
+          "All of the above"
         ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The expression 'in front of' is used to describe location in relation to something else' is a true statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English expression used to describe location in relation to something else?",
+        "choices": [
+          "In front of",
+          "Behind",
+          "Next to",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The expression 'in front of' is used to describe location in relation to something else' is a true statement."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Future will/going to"
+      "notion": "Vocabulaire de base",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "notion": "Conditionnel"
+      "notion": "Grammaire simple",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "notion": "Passive voice"
+      "notion": "Expression orale",
+      "description": "Notion fondamentale de Anglais"
     }
   ],
   "exerciseresponses": []

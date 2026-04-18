@@ -6,8 +6,8 @@
     "subject": "HGGSP",
     "description": "Diagnostic HGGSP 1ère : Révision HGGSP 1ère — Synthèse",
     "status": "published",
-    "created_at": "2026-03-13 18:59:43",
-    "updated_at": "2026-03-13 18:59:43"
+    "created_at": "2026-04-06 06:40:39",
+    "updated_at": "2026-04-06 06:40:39"
   },
   "quiz": {
     "title": "Révision HGGSP 1ère — Synthèse",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Fondamentaux de HGGSP",
+      "description": "Notion du programme 1ère"
+    },
+    {
+      "notion": "Compétences de base 1ère",
+      "description": "Notion du programme 1ère"
+    },
+    {
+      "notion": "Savoir-faire hggsp",
+      "description": "Notion du programme 1ère"
+    }
+  ],
   "exerciseresponses": []
 }

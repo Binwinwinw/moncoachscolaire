@@ -1,96 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 24",
+    "title": "Quiz Diagnostic Français 6eme - Série 0148",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Anglais",
-    "description": "Diagnostic Anglais 1ere : Le discours indirect",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - Les genres littéraires (conte, fable, poésie, théâtre…)",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-08 00:05:00"
+    "created_at": "2026-04-06 06:25:38",
+    "updated_at": "2026-04-06 06:25:38"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 24",
-    "level": "1ere",
-    "subject": "Anglais",
+    "title": "Français 6e - Les genres littéraires (conte, fable, poésie, théâtre…)",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
-        "id": 1,
         "type": "qcm",
-        "question": "Choose the correct reported speech for: He said: 'I am very tired.'",
+        "question": "Quel genre littéraire raconte une histoire fantastique avec des éléments magiques et merveilleux ?",
         "choices": [
-          "He said that he is very tired.",
-          "He said that he was very tired.",
-          "He said that he were very tired.",
-          "He said that I was very tired."
+          "Conte",
+          "Fable",
+          "Poésie",
+          "Théâtre"
         ]
       },
       {
-        "id": 2,
         "type": "vrai-faux",
-        "question": "In reported speech, the sentence 'She asked me where did I live' is grammatically correct."
+        "question": "Une fable est un court récit qui met en scène des animaux pour transmettre une leçon morale."
       },
       {
-        "id": 3,
-        "type": "texte",
-        "question": "Mets la phrase suivante au discours indirect : The teacher said: 'Open your books to page 42.'",
-        "placeholder": "Écris ta réponse ici..."
-      },
-      {
-        "id": 4,
         "type": "qcm",
-        "question": "Choose the correct reported speech for: 'Don't touch my phone!' she said to him.",
+        "question": "Quel genre littéraire utilise des vers et des strophes pour exprimer des émotions et des idées de manière artistique ?",
         "choices": [
-          "She said him to not touch her phone.",
-          "She told him don't touch her phone.",
-          "She told him not to touch her phone.",
-          "She asked him to not touching her phone."
+          "Conte",
+          "Fable",
+          "Poésie",
+          "Théâtre"
         ]
       },
       {
-        "id": 5,
         "type": "vrai-faux",
-        "question": "In reported speech, 'will' becomes 'would' when the reporting verb is in the past tense."
+        "question": "Le théâtre est un genre littéraire qui se caractérise par la représentation d'une histoire devant un public à travers des dialogues entre les personnages."
       },
       {
-        "id": 6,
-        "type": "texte",
-        "question": "Mets la question suivante au discours indirect : She asked: 'Have you ever visited Paris?'",
-        "placeholder": "Écris ta réponse ici..."
-      },
-      {
-        "id": 7,
         "type": "qcm",
-        "question": "Which time expression changes correctly in reported speech?",
+        "question": "Quel genre littéraire met en scène des personnages et des événements imaginaires pour divertir les lecteurs ?",
         "choices": [
-          "'today' becomes 'that day'",
-          "'yesterday' becomes 'the day before yesterday'",
-          "'tomorrow' becomes 'next day'",
-          "'now' becomes 'here'"
+          "Conte",
+          "Fable",
+          "Poésie",
+          "Théâtre"
         ]
       },
       {
-        "id": 8,
         "type": "vrai-faux",
-        "question": "The sentence 'He asked me if I was coming to the party' is an example of a reported yes/no question."
+        "question": "Une fable peut être écrite en prose ou en vers."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel genre littéraire utilise des dialogues et des actions pour représenter des situations devant un public ?",
+        "choices": [
+          "Conte",
+          "Fable",
+          "Poésie",
+          "Théâtre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un conte peut être considéré comme un genre littéraire qui mélange des éléments de la réalité et de l'imaginaire pour transmettre des valeurs et des leçons de vie."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Reported Speech – Statements",
-      "description": "Au discours indirect, les temps reculent d'un cran (backshift) : present simple → past simple, present perfect → past perfect, past simple → past perfect. Les pronoms et expressions de temps changent aussi."
+      "notion": "Fondamentaux de Français",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Reported Speech – Questions",
-      "description": "Les questions indirectes utilisent l'ordre sujet + verbe (pas d'inversion). Yes/no questions → if/whether. Les mots interrogatifs (who, what, when...) sont conservés. Ex : 'Are you ready?' → He asked if I was ready."
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Reported Speech – Commands & Requests",
-      "description": "Les ordres et demandes au discours indirect utilisent tell/ask + someone + to + infinitive. Ex : 'Close the door!' → She told him to close the door. Pour la forme négative : not to + infinitive."
+      "notion": "Savoir-faire français",
+      "description": "Notion du programme 6eme"
     }
   ],
   "exerciseresponses": []

@@ -1,67 +1,90 @@
 {
-  "id": 1066,
-  "title": "Suites arithmétiques",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "created_at": "2026-03-13T18:54:00.425607Z",
-  "questions": [
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 1ère - SÃ©rie 1066",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ère : Diagnostic Anglais 1ère - Série 8",
+    "status": "published",
+    "created_at": "2026-04-06 06:40:39",
+    "updated_at": "2026-04-06 06:40:39",
+    "source": "Eduscol programmes officiels + BOEN",
+    "programme_ref": "BO special ndeg1 du 22 janvier 2019 (LGT) + Eduscol Langues vivantes Premiere"
+  },
+  "quiz": {
+    "title": "Diagnostic Anglais 1ère - Série 8",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "What is the superlative form of the adjective \"bad\"?",
+        "choices": [
+          "badder",
+          "worse",
+          "worst",
+          "worser"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The word \"their\" is a possessive pronoun."
+      },
+      {
+        "type": "open",
+        "question": "Translate the sentence \"We are eating breakfast\" into French."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following words is a synonym for \"happy\"?",
+        "choices": [
+          "sad",
+          "angry",
+          "joyful",
+          "tired"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "\"It's\" can be used as a possessive pronoun."
+      },
+      {
+        "type": "open",
+        "question": "What is the past tense of the verb \"see\"?"
+      },
+      {
+        "type": "qcm",
+        "question": "Choose the correct sentence:",
+        "choices": [
+          "He don't like sports.",
+          "He doesn't like sports.",
+          "He isn't like sports.",
+          "He no like sports."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The word \"happily\" is an adverb."
+      }
+    ]
+  },
+  "exercisenotion": [
     {
-      "id": "1066_1",
-      "type": "qcm",
-      "question": "Dans une suite arithmétique de premier terme u₁ et de raison r, que vaut uₙ ?",
-      "options": [
-        "uₙ = u₁ · rⁿ⁻¹",
-        "uₙ = u₁ + (n−1)·r",
-        "uₙ = u₁ + n·r",
-        "uₙ = r + (n−1)·u₁"
-      ]
+      "notion": "Civilisation britannique",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "id": "1066_2",
-      "type": "vrai-faux",
-      "question": "La suite 2, 5, 8, 11, 14, … est arithmétique de raison 3."
+      "notion": "Nuances grammaticales",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "id": "1066_3",
-      "type": "texte",
-      "question": "La suite arithmétique a u₁ = 7 et r = −2. Calcule u₈ et la somme S = u₁ + u₂ + … + u₈."
-    },
-    {
-      "id": "1066_4",
-      "type": "qcm",
-      "question": "La somme des n premiers termes d'une suite arithmétique est :",
-      "options": [
-        "n × u₁",
-        "n(u₁ + uₙ)/2",
-        "u₁ × (1 − rⁿ)/(1 − r)",
-        "n × r"
-      ]
-    },
-    {
-      "id": "1066_5",
-      "type": "vrai-faux",
-      "question": "Dans une suite arithmétique, chaque terme est la moyenne arithmétique de ses deux voisins."
-    },
-    {
-      "id": "1066_6",
-      "type": "texte",
-      "question": "Une suite arithmétique a u₃ = 11 et u₇ = 27. Trouve la raison r et u₁."
-    },
-    {
-      "id": "1066_7",
-      "type": "qcm",
-      "question": "Quelle est la somme 1 + 2 + 3 + … + 100 ?",
-      "options": [
-        "5000",
-        "5050",
-        "4950",
-        "10100"
-      ]
-    },
-    {
-      "id": "1066_8",
-      "type": "vrai-faux",
-      "question": "Une suite arithmétique de raison r < 0 est strictement décroissante."
+      "notion": "Débat en anglais",
+      "description": "Notion fondamentale de Anglais"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

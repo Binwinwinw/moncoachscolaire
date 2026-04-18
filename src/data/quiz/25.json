@@ -1,0 +1,94 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6ème - Série 0025",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6ème : Temps : saisons, météo, phénomènes météorologiques",
+    "status": "published",
+    "created_at": "2026-04-06 06:24:36",
+    "updated_at": "2026-04-06 06:24:36"
+  },
+  "quiz": {
+    "title": "Temps : saisons, météo, phénomènes météorologiques",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Which of the following is a season?",
+        "choices": [
+          "Spring",
+          "Summer",
+          "Autumn",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The weather can change from day to day' is a true statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common weather phenomenon?",
+        "choices": [
+          "Rain",
+          "Snow",
+          "Thunderstorms",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The sun is a star that provides light and heat to the Earth' is a true statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common weather condition during winter?",
+        "choices": [
+          "Snow",
+          "Ice",
+          "Cold temperatures",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'A tornado is a violent rotating column of air that extends from a thunderstorm to the ground' is a true statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common weather phenomenon during summer?",
+        "choices": [
+          "Heatwaves",
+          "Thunderstorms",
+          "Droughts",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'Climate change can lead to more extreme weather events' is a true statement."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Vocabulaire de base",
+      "description": "Notion fondamentale de Anglais"
+    },
+    {
+      "notion": "Grammaire simple",
+      "description": "Notion fondamentale de Anglais"
+    },
+    {
+      "notion": "Expression orale",
+      "description": "Notion fondamentale de Anglais"
+    }
+  ],
+  "exerciseresponses": []
+}

@@ -1,14 +1,74 @@
 {
   "contents": {
-    "title": "QUIZ 1655 - réponses à remplir",
-    "level": "unknown",
-    "subject": "unknown"
+    "title": "Quiz Diagnostic Anglais 2nde - SÃ©rie 1655",
+    "level": "2nde",
+    "subject": "Anglais"
   },
   "quiz": {
-    "title": "Quiz 1655 - corrections placeholder",
-    "question_count": 0,
-    "answers": [],
-    "level": "unknown",
-    "subject": "unknown"
+    "title": "Diagnostic 2nde Anglais - Modal Verbs",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "must",
+        "correct": 2,
+        "correction": "'Must' exprime une obligation forte ou une nécessité."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Après un modal, on utilise la base verbale sans 'to': must go, can read."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "may",
+        "correction": "'May' est courant pour demander une permission de façon formelle."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "You should see a doctor.",
+        "correct": 1,
+        "correction": "'Should' sert à donner un conseil ou une recommandation."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "'Can' peut signifier capacité (I can swim) ou permission (You can leave)."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "must",
+        "correction": "'Must not' exprime l'interdiction."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "might",
+        "correct": 3,
+        "correction": "'Might' marque une probabilité possible mais non certaine."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "'Have to' exprime une obligation souvent externe à la personne."
+      }
+    ]
   }
 }

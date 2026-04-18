@@ -1,96 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 38",
+    "title": "Quiz Diagnostic Français 6eme - Série 0162",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Anglais",
-    "description": "Diagnostic Anglais 1ere : L'essay argumentatif",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - L’écriture d’un dialogue",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-08 00:05:00"
+    "created_at": "2026-04-06 06:25:38",
+    "updated_at": "2026-04-06 06:25:38"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 38",
-    "level": "1ere",
-    "subject": "Anglais",
+    "title": "Français 6e - L’écriture d’un dialogue",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
-        "id": 1,
         "type": "qcm",
-        "question": "What is the PRIMARY purpose of a thesis statement in an argumentative essay?",
+        "question": "Quel élément est essentiel pour structurer un dialogue dans un texte narratif ?",
         "choices": [
-          "To summarise the entire essay in detail",
-          "To present a clear, arguable position on the topic",
-          "To list all the arguments you will use",
-          "To introduce yourself to the reader"
+          "Les guillemets",
+          "Les tirets",
+          "Les parenthèses",
+          "Les crochets"
         ]
       },
       {
-        "id": 2,
         "type": "vrai-faux",
-        "question": "In an argumentative essay, each body paragraph should present only one main idea or argument."
+        "question": "L'utilisation de tirets peut également être utilisée pour structurer un dialogue, en indiquant les changements de locuteur et en créant une dynamique de conversation."
       },
       {
-        "id": 3,
-        "type": "texte",
-        "question": "Réécris la conclusion faible suivante en l'améliorant : 'In conclusion, social media is bad. I think people should use it less.'",
-        "placeholder": "Écris ta réponse ici..."
-      },
-      {
-        "id": 4,
         "type": "qcm",
-        "question": "Which discourse marker is best used to introduce a CONTRASTING argument?",
+        "question": "Quel élément est utilisé pour indiquer les paroles d'un personnage dans un dialogue ?",
         "choices": [
-          "Furthermore",
-          "In addition",
-          "However",
-          "As a result"
+          "Les guillemets",
+          "Les tirets",
+          "Les parenthèses",
+          "Les crochets"
         ]
       },
       {
-        "id": 5,
         "type": "vrai-faux",
-        "question": "Using informal contractions like 'don't', 'can't', 'it's' is perfectly acceptable in a formal argumentative essay."
+        "question": "L'écriture d'un dialogue peut contribuer à rendre une histoire plus vivante et immersive en permettant aux lecteurs d'entendre les voix des personnages et de mieux comprendre leurs émotions et leurs motivations."
       },
       {
-        "id": 6,
-        "type": "texte",
-        "question": "Identifie la structure PEEL dans ce paragraphe et nomme chaque partie : 'Firstly, excessive screen time negatively affects children's sleep. Studies show that blue light from screens suppresses melatonin production. For example, a 2022 WHO report found that children using devices before bed slept 45 minutes less on average. Therefore, limiting screen time is essential for healthy development.'",
-        "placeholder": "Écris ta réponse ici..."
-      },
-      {
-        "id": 7,
         "type": "qcm",
-        "question": "Which sentence is the most effective thesis statement for an essay about the benefits of renewable energy?",
+        "question": "Quel élément est utilisé pour indiquer les changements de locuteur dans un dialogue ?",
         "choices": [
-          "Renewable energy is good.",
-          "This essay will discuss renewable energy.",
-          "Although transitioning to renewable energy requires significant investment, its long-term environmental and economic benefits make it an essential solution to climate change.",
-          "Many people think renewable energy is important."
+          "Les guillemets",
+          "Les tirets",
+          "Les parenthèses",
+          "Les crochets"
         ]
       },
       {
-        "id": 8,
         "type": "vrai-faux",
-        "question": "The introduction of an argumentative essay should reveal all your arguments in full detail."
+        "question": "L'utilisation de guillemets et de tirets pour structurer un dialogue peut aider à clarifier les échanges entre les personnages et à renforcer l'impact émotionnel du dialogue sur les lecteurs."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel élément est utilisé pour indiquer les incises ou les commentaires d'un narrateur dans un dialogue ?",
+        "choices": [
+          "Les guillemets",
+          "Les tirets",
+          "Les parenthèses",
+          "Les crochets"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'écriture d'un dialogue peut également inclure l'utilisation de différentes voix ou styles de langage pour différencier les personnages et renforcer leur individualité dans l'histoire."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Structure de l'essay argumentatif",
-      "description": "Un essay argumentatif en anglais suit généralement la structure : Introduction (hook + context + thesis statement) → Body paragraphs (argument + evidence + example, un paragraphe par idée) → Conclusion (restatement of thesis + summary + final thought). Chaque paragraphe doit être cohérent et connecté par des discourse markers."
+      "notion": "Fondamentaux de Français",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "La thesis statement",
-      "description": "La thesis statement est la phrase principale de l'introduction qui présente clairement la position de l'auteur. Elle doit être précise, arguable et annoncer le plan. Ex : 'Although social media has some benefits, its negative impact on mental health and social skills outweighs its advantages.' Elle guide tout le développement de l'essay."
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Arguments, preuves et exemples",
-      "description": "Chaque body paragraph suit la structure PEEL : Point (idée principale), Evidence (preuve/donnée), Example (exemple concret), Link (lien avec la thesis). Les arguments doivent être développés, pas seulement listés. Utiliser des discourse markers : Furthermore, However, In addition, On the other hand, As a result, In conclusion."
+      "notion": "Savoir-faire français",
+      "description": "Notion du programme 6eme"
     }
   ],
   "exerciseresponses": []

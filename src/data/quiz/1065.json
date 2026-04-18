@@ -1,67 +1,90 @@
 {
-  "id": 1065,
-  "title": "Introduction aux suites",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "created_at": "2026-03-13T18:54:00.425012Z",
-  "questions": [
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 1ère - SÃ©rie 1065",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 1ère : Diagnostic Anglais 1ère - Série 7",
+    "status": "published",
+    "created_at": "2026-04-06 06:40:39",
+    "updated_at": "2026-04-06 06:40:39",
+    "source": "Eduscol programmes officiels + BOEN",
+    "programme_ref": "BO special ndeg1 du 22 janvier 2019 (LGT) + Eduscol Langues vivantes Premiere"
+  },
+  "quiz": {
+    "title": "Diagnostic Anglais 1ère - Série 7",
+    "type": "quiz",
+    "level": "1ère",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "What is the past tense of the verb \"write\"?",
+        "choices": [
+          "wrote",
+          "written",
+          "writing",
+          "writes"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The word \"your\" is a possessive pronoun."
+      },
+      {
+        "type": "open",
+        "question": "Translate the sentence \"They are watching TV\" into French."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following words is an antonym of \"light\"?",
+        "choices": [
+          "bright",
+          "dark",
+          "shiny",
+          "glossy"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "\"It's\" can be used as a possessive pronoun."
+      },
+      {
+        "type": "open",
+        "question": "What is the past participle of the verb \"go\"?"
+      },
+      {
+        "type": "qcm",
+        "question": "Choose the correct sentence:",
+        "choices": [
+          "They doesn't like music.",
+          "They don't like music.",
+          "They isn't like music.",
+          "They no like music."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The word \"slowly\" is an adverb."
+      }
+    ]
+  },
+  "exercisenotion": [
     {
-      "id": "1065_1",
-      "type": "qcm",
-      "question": "Une suite numérique est :",
-      "options": [
-        "Une fonction de R dans R",
-        "Une liste ordonnée de réels indexée par les entiers naturels",
-        "Une séquence de lettres",
-        "Un ensemble de nombres réels"
-      ]
+      "notion": "Civilisation britannique",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "id": "1065_2",
-      "type": "vrai-faux",
-      "question": "Une suite peut être définie par une formule explicite uₙ = f(n) ou par une relation de récurrence uₙ₊₁ = g(uₙ)."
+      "notion": "Nuances grammaticales",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "id": "1065_3",
-      "type": "texte",
-      "question": "La suite est définie par uₙ = 3n − 1. Calcule u₀, u₁, u₂ et u₅."
-    },
-    {
-      "id": "1065_4",
-      "type": "qcm",
-      "question": "La suite définie par u₀ = 2 et uₙ₊₁ = uₙ + 3. Que vaut u₃ ?",
-      "options": [
-        "5",
-        "8",
-        "11",
-        "14"
-      ]
-    },
-    {
-      "id": "1065_5",
-      "type": "vrai-faux",
-      "question": "La suite uₙ = (−1)ⁿ alterne entre 1 et −1."
-    },
-    {
-      "id": "1065_6",
-      "type": "texte",
-      "question": "Donne les 5 premiers termes de la suite définie par u₁ = 1 et uₙ₊₁ = uₙ + 2n + 1."
-    },
-    {
-      "id": "1065_7",
-      "type": "qcm",
-      "question": "La suite uₙ = n² − n est-elle croissante à partir de n = 1 ?",
-      "options": [
-        "Oui",
-        "Non",
-        "Seulement pour n pair",
-        "Impossible à déterminer"
-      ]
-    },
-    {
-      "id": "1065_8",
-      "type": "vrai-faux",
-      "question": "Une suite croissante est une suite où uₙ₊₁ ≥ uₙ pour tout n."
+      "notion": "Débat en anglais",
+      "description": "Notion fondamentale de Anglais"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

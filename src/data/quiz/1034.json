@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Intégrale et accumulation",
     "status": "published",
-    "created_at": "2026-03-13 11:24:24",
-    "updated_at": "2026-03-13 11:24:24"
+    "created_at": "2026-04-06 06:40:48",
+    "updated_at": "2026-04-06 06:40:48"
   },
   "quiz": {
     "title": "Intégrale et accumulation",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Intégrale",
+      "description": "L'intégrale ∫₀ᵀ v(t) dt représente la distance totale parcourue par l'objet entre les instants 0 et T, en fonction de sa vitesse v(t)"
+    },
+    {
+      "notion": "Accumulation",
+      "description": "L'accumulation de la vitesse v(t) sur l'intervalle [0, T] donne la position finale de l'objet par rapport à sa position initiale"
+    },
+    {
+      "notion": "Calcul infinitésimal",
+      "description": "Le calcul infinitésimal est utilisé pour définir l'intégrale ∫₀ᵀ v(t) dt, qui est la limite de la somme des aires des rectangles infinitésimaux sous la courbe de vitesse v(t)"
+    }
+  ],
   "exerciseresponses": []
 }

@@ -1,0 +1,90 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Francais terminale - SÃ©rie 1826",
+    "type": "quiz",
+    "level": "terminale",
+    "subject": "Francais",
+    "description": "Diagnostic Francais terminale : Francais terminale - Grammaire de phrase",
+    "status": "published",
+    "created_at": "2026-04-06 06:40:48",
+    "updated_at": "2026-04-06 06:40:48",
+    "source": "Eduscol programmes officiels + BOEN",
+    "programme_ref": "BO special ndeg8 du 25 juillet 2019 + ressources Lettres"
+  },
+  "quiz": {
+    "title": "Francais terminale - Grammaire de phrase",
+    "type": "quiz",
+    "level": "terminale",
+    "subject": "Francais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "[Francais terminale] Sur le theme 'Grammaire de phrase', quelle demarche est la plus efficace pour reussir un exercice diagnostic ?",
+        "choices": [
+          "Relire la consigne et identifier l'objectif",
+          "Repondre vite sans verifier",
+          "Ignorer le contexte",
+          "Memoriser sans comprendre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Francais terminale] Sur 'Grammaire de phrase', verifier ses reponses avant validation ameliore la fiabilite."
+      },
+      {
+        "type": "open",
+        "question": "[Francais terminale] Cite une methode concrete pour progresser sur le theme 'Grammaire de phrase'."
+      },
+      {
+        "type": "qcm",
+        "question": "[Francais terminale] Quelle action favorise la memorisation durable du theme 'Grammaire de phrase' ?",
+        "choices": [
+          "Faire des rappels espaces",
+          "Tout revoir une seule fois",
+          "Copier sans comprendre",
+          "Eviter les exercices"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Francais terminale] L'explication d'une reponse est moins importante que la reponse elle-meme."
+      },
+      {
+        "type": "open",
+        "question": "[Francais terminale] Propose un exemple d'auto-correction pertinente sur 'Grammaire de phrase'."
+      },
+      {
+        "type": "qcm",
+        "question": "[Francais terminale] Quel indicateur montre une bonne maitrise du theme 'Grammaire de phrase' ?",
+        "choices": [
+          "Expliquer clairement la demarche",
+          "Donner une reponse au hasard",
+          "Eviter les notions difficiles",
+          "Memoriser sans application"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Francais terminale] Alterner entrainement, feedback et reprise des erreurs aide a progresser sur 'Grammaire de phrase'."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Fondamentaux de Francais",
+      "description": "Notion du programme terminale"
+    },
+    {
+      "notion": "Compétences de base terminale",
+      "description": "Notion du programme terminale"
+    },
+    {
+      "notion": "Savoir-faire francais",
+      "description": "Notion du programme terminale"
+    }
+  ],
+  "exerciseresponses": []
+}

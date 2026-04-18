@@ -1,71 +1,70 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 3eme SVT",
-    "type": "quiz",
-    "level": "3eme",
-    "subject": "SVT",
-    "description": "Diagnostic évolution, géologie, reproduction végétaux 3eme brevet"
+    "title": "Quiz Diagnostic Anglais 6ème - Série 0040",
+    "level": "6ème",
+    "subject": "Anglais"
   },
   "quiz": {
-    "title": "Diagnostic SVT 3eme",
-    "level": "3eme",
-    "subject": "SVT",
+    "title": "Vocabulaire de base : description de lieu",
+    "question_count": 8,
+    "level": "6ème",
+    "subject": "Anglais",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "Sélection",
-        "correction": "Darwin survie adaptés"
+        "answer": "All of the above",
+        "correction": "'In front of', 'Behind', and 'Next to' are all common English expressions used to describe location in relation to other objects or landmarks."
       },
       {
         "index": 1,
         "question_id": 2,
-        "type": "texte",
-        "answer": "strates",
-        "correction": "Sédimentation"
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "'In front of' is indeed an expression used to describe location in relation to something else, such as 'The car is parked in front of the house.'"
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "vrai-faux",
-        "answer": true,
-        "correction": "VRAI. Preuves évolution"
+        "type": "qcm",
+        "answer": "Behind",
+        "correction": "'Behind' is a common English expression used to describe location behind something, such as 'The tree is behind the house.'"
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "answer": "Ovaire",
-        "correction": "Fruit/graine"
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "'Next to' is indeed an expression used to describe location in relation to something else, such as 'The book is next to the lamp.'"
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "texte",
-        "answer": "Cénozoïque",
-        "correction": "Mammifères dominants"
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "'In front of', 'Behind', and 'Next to' are all common English expressions used to describe location in relation to other objects or landmarks."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": false,
-        "correction": "FAUX. Majorité neutres/néfastes"
+        "answer": "vrai",
+        "correction": "'In front of' is indeed an expression used to describe location in relation to something else, such as 'The car is parked in front of the house.'"
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "1912",
-        "correction": "Théorie continents"
+        "answer": "All of the above",
+        "correction": "'In front of', 'Behind', and 'Next to' are all common English expressions used to describe location in relation to other objects or landmarks."
       },
       {
         "index": 7,
         "question_id": 8,
-        "type": "texte",
-        "answer": "mêmes",
-        "correction": "Preuve évolution"
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "'In front of' is indeed an expression used to describe location in relation to something else, such as 'The car is parked in front of the house.'"
       }
     ]
   }

@@ -1,71 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 3ème Mathématiques",
-    "level": "3eme",
-    "subject": "Mathématiques"
+    "title": "Quiz Diagnostic EMC 6eme - Série 0125",
+    "level": "6eme",
+    "subject": "EMC"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 3ème Mathématiques",
+    "title": "EMC 6e - Histoire droits humains",
     "question_count": 8,
+    "level": "6eme",
+    "subject": "EMC",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correct": 0,
-        "correction": "**hypoténuse** (sin α). [web:185]"
+        "answer": "Le respect des règles des droits humains garantit la promotion de la dignité humaine, le respect des libertés fondamentales et la construction d'une société plus juste et égalitaire.",
+        "correction": "Le respect des règles des droits humains est essentiel pour garantir la promotion de la dignité humaine, le respect des libertés fondamentales et la construction d'une société plus juste et égalitaire."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "correct": true,
-        "correction": "**Vrai**. √3/2 ≈0,866. [web:186]"
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des règles des droits humains encourage l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect de ces règles dans la société."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correct": null,
-        "correction": "**0.6** (3/5)."
+        "type": "qcm",
+        "answer": "L'éducation joue un rôle crucial en sensibilisant les individus aux règles des droits humains et en promouvant le respect de ces règles.",
+        "correction": "L'éducation joue un rôle crucial en sensibilisant les individus aux règles des droits humains, en promouvant le respect de ces règles et en encourageant la responsabilité individuelle pour garantir la promotion de la dignité humaine, le respect des libertés fondamentales et la construction d'une société plus juste et égalitaire."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correct": 0,
-        "correction": "**0.4²×0.6³** (binomiale). [web:188]"
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des règles des droits humains encourage l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect de ces règles dans la société."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "correct": true,
-        "correction": "**Vrai**. Valeur médiane échantillon."
+        "type": "qcm",
+        "answer": "Les médias ont un rôle important en promouvant des représentations positives du respect des règles des droits humains et en sensibilisant le public à l'importance de ces règles.",
+        "correction": "Les médias ont un rôle important dans le respect des règles des droits humains en promouvant des représentations positives du respect de ces règles, en sensibilisant le public à leur importance et en contribuant à la construction d'une société plus responsable et respectueuse des règles."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "correct": null,
-        "correction": "**0.6** (3/5 opp/hyp). [web:190]"
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des règles des droits humains encourage l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect de ces règles dans la société."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "correct": 0,
-        "correction": "**C(5,3)(1/2)^5** =10/32."
+        "answer": "Les parents ont un rôle important en sensibilisant leurs enfants aux règles des droits humains et en promouvant le respect de ces règles.",
+        "correction": "Les parents jouent un rôle crucial dans le respect des règles des droits humains en sensibilisant leurs enfants à ces règles et en encourageant la responsabilité individuelle pour garantir la promotion de la dignité humaine, le respect des libertés fondamentales et la construction d'une société plus juste et égalitaire."
       },
       {
         "index": 7,
         "question_id": 8,
-        "type": "texte",
-        "correct": null,
-        "correction": "**6** (7-1 max-min)."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des règles des droits humains encourage l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect de ces règles dans la société."
       }
-    ],
-    "level": "3eme",
-    "subject": "Mathématiques"
+    ]
   }
 }

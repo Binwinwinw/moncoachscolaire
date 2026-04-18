@@ -1,6 +1,6 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic bac Anglais - Serie 13",
+    "title": "Anglais - Utilisation des temps verbaux et des structures conditionnelles",
     "type": "quiz",
     "level": "bac",
     "subject": "Anglais",
@@ -10,7 +10,7 @@
     "updated_at": "2026-03-08 00:05:00"
   },
   "quiz": {
-    "title": "Quiz Diagnostic bac Anglais - Serie 13",
+    "title": "Anglais - Utilisation des temps verbaux et des structures conditionnelles",
     "level": "bac",
     "subject": "Anglais",
     "question_count": 8,
@@ -19,78 +19,106 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "question": "Quelle est la différence entre le conditionnel présent et le conditionnel passé en anglais ?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "Le conditionnel présent est utilisé pour des situations réelles, tandis que le conditionnel passé est utilisé pour des situations hypothétiques",
+          "Le conditionnel présent est utilisé pour des situations hypothétiques, tandis que le conditionnel passé est utilisé pour des situations qui se seraient produites si une condition avait été remplie",
+          "Le conditionnel présent est utilisé pour des situations qui se produisent actuellement, tandis que le conditionnel passé est utilisé pour des situations qui se sont produites dans le passé",
+          "Le conditionnel présent est utilisé pour des situations générales, tandis que le conditionnel passé est utilisé pour des situations spécifiques"
         ],
         "id": 1
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau bac aborde des notions fondamentales en Anglais.",
-        "id": 2
+        "question": "Quel temps verbal est utilisé pour décrire une action qui a commencé dans le passé et se poursuit jusqu'à présent ?",
+        "id": 2,
+        "choices": [
+          "Le présent simple",
+          "Le passé composé",
+          "Le plus-que-parfait",
+          "Le présent continu"
+        ]
       },
       {
         "type": "texte",
-        "question": "Cite un exemple concret lié à Anglais.",
+        "question": "Comment former le discours indirect en anglais à partir d'une phrase au discours direct ?",
         "placeholder": "Exemple...",
-        "id": 3
+        "id": 3,
+        "choices": [
+          "En changeant le verbe au passé et en utilisant des pronoms personnels différents",
+          "En changeant le verbe au présent et en utilisant les mêmes pronoms personnels",
+          "En ajoutant des adverbes de temps et en changeant les pronoms personnels",
+          "En supprimant les adverbes de lieu et en utilisant les mêmes verbes"
+        ]
       },
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "question": "Quelle est la fonction du modale 'can' en anglais ?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "Exprimer une capacité ou une possibilité",
+          "Exprimer une obligation ou une nécessité",
+          "Exprimer une interdiction ou une impossibilité",
+          "Exprimer un doute ou une incertitude"
         ],
         "id": 4
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau bac aborde des notions fondamentales en Anglais.",
-        "id": 5
+        "question": "Quel est le temps verbal approprié pour décrire une action qui s'est produite avant une autre action dans le passé ?",
+        "id": 5,
+        "choices": [
+          "Le plus-que-parfait",
+          "Le passé composé",
+          "Le présent simple",
+          "Le futur simple"
+        ]
       },
       {
         "type": "texte",
-        "question": "Cite un exemple concret lié à Anglais.",
+        "question": "Vrai ou faux : Le conditionnel mixte est utilisé pour des situations qui se seraient produites si une condition avait été remplie dans le passé, mais qui n'ont pas eu de conséquences dans le présent ?",
         "placeholder": "Exemple...",
-        "id": 6
+        "id": 6,
+        "choices": [
+          "Vrai",
+          "Faux"
+        ]
       },
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "question": "Quel est l'exemple de phrase qui utilise correctement le discours indirect pour rapporter une déclaration ?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "Il a dit qu'il allait au cinéma",
+          "Il a dit qu'il va au cinéma",
+          "Il a dit qu'il aller au cinéma",
+          "Il a dit qu'il ira au cinéma"
         ],
         "id": 7
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau bac aborde des notions fondamentales en Anglais.",
-        "id": 8
+        "question": "Expliquez brièvement la différence entre 'will' et 'would' en anglais, en fournissant un exemple pour chaque cas.",
+        "id": 8,
+        "choices": [
+          "Will est utilisé pour des actions futures, tandis que would est utilisé pour des actions conditionnelles ; par exemple, 'I will go to the store' et 'I would go to the store if I had time'.",
+          "Will est utilisé pour des actions conditionnelles, tandis que would est utilisé pour des actions futures ; par exemple, 'I would go to the store' et 'I will go to the store if I have time'.",
+          "Will est utilisé pour des actions répétitives, tandis que would est utilisé pour des actions ponctuelles ; par exemple, 'I will go to the store every day' et 'I would go to the store yesterday'.",
+          "Will est utilisé pour des actions générales, tandis que would est utilisé pour des actions spécifiques ; par exemple, 'I will go to the store' et 'I would go to the store at 5 pm'."
+        ]
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Notion 1 - Anglais",
-      "description": "Concept clé de Anglais au niveau bac"
+      "notion": "Utilisation des conditionnels en anglais",
+      "description": "Les conditionnels en anglais sont utilisés pour exprimer des situations hypothétiques ou des conséquences futures, en fonction de conditions spécifiques, et ils sont classés en différents types tels que le conditionnel présent, le conditionnel passé et le conditionnel mixte."
     },
     {
-      "notion": "Notion 2 - Anglais",
-      "description": "Concept clé de Anglais au niveau bac"
+      "notion": "Les temps verbaux en anglais, notamment le passé composé et le plus-que-parfait",
+      "description": "Les temps verbaux en anglais, tels que le passé composé et le plus-que-parfait, sont utilisés pour décrire des actions qui se sont produites à des moments spécifiques dans le passé, avec des règles précises pour leur formation et leur utilisation dans des contextes variés."
     },
     {
-      "notion": "Notion 3 - Anglais",
-      "description": "Concept clé de Anglais au niveau bac"
+      "notion": "Le discours indirect en anglais et son utilisation",
+      "description": "Le discours indirect en anglais est utilisé pour rapporter les paroles ou les pensées d'une personne sans les citer directement, en changeant souvent les temps verbaux et les pronoms personnels pour adapter le discours à la situation actuelle, tout en conservant le sens original du message."
     }
   ],
   "exerciseresponses": []

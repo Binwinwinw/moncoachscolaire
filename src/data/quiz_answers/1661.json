@@ -1,14 +1,74 @@
 {
   "contents": {
-    "title": "QUIZ 1661 - réponses à remplir",
-    "level": "unknown",
-    "subject": "unknown"
+    "title": "Quiz Diagnostic Anglais 2nde - SÃ©rie 1661",
+    "level": "2nde",
+    "subject": "Anglais"
   },
   "quiz": {
-    "title": "Quiz 1661 - corrections placeholder",
-    "question_count": 0,
-    "answers": [],
-    "level": "unknown",
-    "subject": "unknown"
+    "title": "Diagnostic 2nde Anglais - Culture and Civilization Basics",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Republic of Ireland",
+        "correct": 2,
+        "correction": "Le Royaume-Uni comprend Angleterre, Écosse, Pays de Galles et Irlande du Nord."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'anglais est langue officielle ou co-officielle dans de nombreux pays."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "Canada",
+        "correction": "Le Canada a l'anglais parmi ses langues officielles, selon les provinces."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "A network of states historically linked to the UK",
+        "correct": 1,
+        "correction": "Le Commonwealth réunit des États historiquement liés à l'ancien Empire britannique."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Connaître le contexte culturel améliore la compréhension implicite."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "London",
+        "correction": "Des repères géographiques et culturels aident à contextualiser les documents."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Voting systems in anglophone countries",
+        "correct": 1,
+        "correction": "La civilisation anglophone traite des institutions, sociétés et cultures."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le contexte historique éclaire les enjeux et références du document."
+      }
+    ]
   }
 }

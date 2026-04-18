@@ -1,71 +1,70 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 4eme Histoire-Géographie",
-    "type": "quiz",
-    "level": "4eme",
-    "subject": "Histoire-Géographie",
-    "description": "Diagnostic France monarchie, guerres mondiales, Europe 4eme"
+    "title": "Quiz Diagnostic Anglais 6ème - Série 0043",
+    "level": "6ème",
+    "subject": "Anglais"
   },
   "quiz": {
-    "title": "Diagnostic Histoire-Géo 4eme",
-    "level": "4eme",
-    "subject": "Histoire-Géographie",
+    "title": "Vocabulaire de base : prononciation de mots courants",
+    "question_count": 8,
+    "level": "6ème",
+    "subject": "Anglais",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "1789",
-        "correction": "1789 = chute Bastille, fin monarchie absolue"
+        "answer": "Cat",
+        "correction": "The correct English pronunciation for the word 'cat' is 'Cat'."
       },
       {
         "index": 1,
         "question_id": 2,
-        "type": "texte",
-        "answer": "1918",
-        "correction": "Grande Guerre 1914-1918"
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English pronunciation for the word 'dog' is indeed 'dog', which is a common way to pronounce this word in English."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "vrai-faux",
-        "answer": true,
-        "correction": "VRAI. Versailles, L'Âge d'or"
+        "type": "qcm",
+        "answer": "House",
+        "correction": "The correct English pronunciation for the word 'house' is 'House'."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "answer": "1939",
-        "correction": "1er septembre 1939 (invasion Pologne)"
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English pronunciation for the word 'car' is indeed 'car', which is a common way to pronounce this word in English."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "texte",
-        "answer": "CECA",
-        "correction": "CECA = CECA (Communauté Européenne Charbon Acier)"
+        "type": "qcm",
+        "answer": "Tree",
+        "correction": "The correct English pronunciation for the word 'tree' is 'Tree'."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": false,
-        "correction": "FAUX. Libération 1944-45, Ve République 1958"
+        "answer": "vrai",
+        "correction": "The English pronunciation for the word 'book' is indeed 'book', which is a common way to pronounce this word in English."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "Strasbourg",
-        "correction": "Parlement Européen Strasbourg"
+        "answer": "Water",
+        "correction": "The correct English pronunciation for the word 'water' is 'Water'."
       },
       {
         "index": 7,
         "question_id": 8,
-        "type": "texte",
-        "answer": "6",
-        "correction": "Jour J = 6 juin 1944"
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English pronunciation for the word 'food' is indeed 'food', which is a common way to pronounce this word in English."
       }
     ]
   }

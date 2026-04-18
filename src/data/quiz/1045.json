@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Geometrie dans l'espace",
     "status": "published",
-    "created_at": "2026-03-13 11:24:24",
-    "updated_at": "2026-03-13 11:24:24"
+    "created_at": "2026-04-06 06:40:48",
+    "updated_at": "2026-04-06 06:40:48"
   },
   "quiz": {
     "title": "Geometrie dans l'espace",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Compréhension des concepts fondamentaux",
+      "description": "La première étape la plus rigoureuse dans le chapitre 'Géométrie dans l'espace' est de comprendre les concepts fondamentaux tels que les points, les droites, les plans et les solides, ainsi que leurs "
+    },
+    {
+      "notion": "Visualisation et représentation",
+      "description": "La capacité à visualiser et à représenter des objets et des figures dans l'espace est essentielle pour aborder les problèmes de géométrie dans l'espace, ce qui nécessite une bonne compréhension des ou"
+    },
+    {
+      "notion": "Définition des repères et des référentiels",
+      "description": "La définition de repères et de référentiels appropriés est cruciale pour décrire avec précision les positions et les mouvements des objets dans l'espace, ce qui constitue une étape fondamentale dans l"
+    }
+  ],
   "exerciseresponses": []
 }

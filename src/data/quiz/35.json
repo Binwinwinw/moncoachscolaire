@@ -1,17 +1,18 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 3eme Anglais",
+    "title": "Quiz Diagnostic Anglais 6ème - Série 0035",
     "type": "quiz",
-    "level": "3eme",
+    "level": "6ème",
     "subject": "Anglais",
-    "description": "Diagnostic Anglais 3eme : Perfectionnement niveau DELF",
+    "description": "Diagnostic Anglais 6ème : Vocabulaire de base : vêtements, couleurs, nombres",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-08 14:18:00"
+    "created_at": "2026-04-06 06:24:36",
+    "updated_at": "2026-04-06 06:24:36"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 3eme Anglais",
-    "level": "3eme",
+    "title": "Vocabulaire de base : vêtements, couleurs, nombres",
+    "type": "quiz",
+    "level": "6ème",
     "subject": "Anglais",
     "question_count": 8,
     "passing_score": 70,
@@ -19,78 +20,74 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "If I _____ rich, I _____ travel the world.",
+        "question": "What is the English word for 'chemise'?",
         "choices": [
-          "am / will",
-          "were / would",
-          "was / travel",
-          "am / travel"
-        ],
-        "id": 1
+          "Shirt",
+          "Pants",
+          "Dress",
+          "Skirt"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "I have visited Paris twice.",
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "Past participle de 'take' ?",
-        "placeholder": "taken",
-        "id": 3
+        "question": "'The English word for 'pantalon' is 'pants'' is a true statement."
       },
       {
         "type": "qcm",
-        "question": "She _____ to London last summer.",
+        "question": "Which of the following is a common English word for 'couleurs'?",
         "choices": [
-          "go",
-          "went",
-          "gone",
-          "goes"
-        ],
-        "id": 4
+          "Colors",
+          "Hues",
+          "Shades",
+          "All of the above"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "'Could' est le conditionnel de 'can'.",
-        "id": 5
-      },
-      {
-        "type": "texte",
-        "question": "Complete: Yesterday I _____ (meet) my friend.",
-        "placeholder": "met",
-        "id": 6
+        "question": "'The English word for 'nombres' is 'numbers'' is a true statement."
       },
       {
         "type": "qcm",
-        "question": "What _____ you do last weekend?",
+        "question": "Which of the following is a common English word for 'robe'?",
         "choices": [
-          "do",
-          "did",
-          "have",
-          "are"
-        ],
-        "id": 7
+          "Dress",
+          "Skirt",
+          "Gown",
+          "All of the above"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "I wish I spoke English fluently.",
-        "id": 8
+        "question": "'The English word for 'chapeau' is 'hat'' is a true statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English word for 'couleurs'?",
+        "choices": [
+          "Colors",
+          "Tints",
+          "Tones",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English word for 'nombres' is 'digits'' is a true statement."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Conditionnel / Past",
-      "description": "Concept clé de Anglais au niveau 3eme"
+      "notion": "Vocabulaire de base",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "notion": "Passé composé / Simple",
-      "description": "Concept clé de Anglais au niveau 3eme"
+      "notion": "Grammaire simple",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "notion": "Vocabulaire DELF",
-      "description": "Concept clé de Anglais au niveau 3eme"
+      "notion": "Expression orale",
+      "description": "Notion fondamentale de Anglais"
     }
   ],
   "exerciseresponses": []

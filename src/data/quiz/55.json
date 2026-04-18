@@ -1,87 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 6eme SVT",
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 0055",
     "type": "quiz",
     "level": "6eme",
-    "subject": "SVT",
-    "description": "Diagnostic etats matiere, êtres vivants, environnement proche 6eme"
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 6eme : Comparaison et ordre des entiers",
+    "status": "published",
+    "created_at": "2026-04-06 06:25:41",
+    "updated_at": "2026-04-06 06:25:41"
   },
   "quiz": {
-    "title": "Diagnostic SVT 6eme",
+    "title": "Comparaison et ordre des entiers",
+    "type": "quiz",
     "level": "6eme",
-    "subject": "SVT",
+    "subject": "Mathématiques",
     "question_count": 8,
     "passing_score": 70,
+    "time_limit_minutes": 15,
     "questions": [
       {
-        "id": 1,
+        "type": "qcm",
+        "question": "Quel est le plus grand nombre entier parmi les suivants ?",
+        "choices": [
+          "-1",
+          "0",
+          "1",
+          "2"
+        ]
+      },
+      {
         "type": "vrai-faux",
-        "question": "L'eau sur Terre est toujours liquide."
+        "question": "Le nombre -3 est plus petit que le nombre 0."
       },
       {
-        "id": 2,
         "type": "qcm",
-        "question": "On mesure la température avec :",
+        "question": "Quel est le plus petit nombre entier parmi les suivants ?",
         "choices": [
-          "Thermomètre (°C)",
-          "Balance (kg)",
-          "Règle (cm)",
-          "Luxmètre (lumière)"
+          "-2",
+          "-1",
+          "0",
+          "1"
         ]
       },
       {
-        "id": 3,
-        "type": "texte",
-        "question": "L'eau gèle à ... °C."
-      },
-      {
-        "id": 4,
-        "type": "qcm",
-        "question": "Quelle est la différence principale entre êtres vivants/non-vivants ?",
-        "choices": [
-          "Taille",
-          "Couleur",
-          "Nutrition/reproduction",
-          "Poids"
-        ]
-      },
-      {
-        "id": 5,
         "type": "vrai-faux",
-        "question": "Tous les êtres vivants se déplacent."
+        "question": "Le nombre 5 est plus grand que le nombre 3."
       },
       {
-        "id": 6,
-        "type": "texte",
-        "question": "Un arbre appartient à la ..."
-      },
-      {
-        "id": 7,
         "type": "qcm",
-        "question": "L'éclairement est plus important :",
+        "question": "Quel est le nombre entier qui se trouve entre 2 et 4 ?",
         "choices": [
-          "Forêt",
-          "Champ",
-          "Grotte",
-          "Sous l'eau"
+          "1",
+          "2",
+          "3",
+          "4"
         ]
       },
       {
-        "id": 8,
-        "type": "texte",
-        "question": "Le dioxygène est indispensable à..."
+        "type": "vrai-faux",
+        "question": "Le nombre -1 est plus grand que le nombre -2."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le nombre entier qui se trouve entre -3 et -1 ?",
+        "choices": [
+          "-4",
+          "-3",
+          "-2",
+          "-1"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le nombre 0 est plus petit que le nombre 1."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "États de l'eau"
+      "notion": "Fondamentaux de Mathématiques",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Êtres vivants"
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Environnement proche"
+      "notion": "Savoir-faire mathématiques",
+      "description": "Notion du programme 6eme"
     }
   ],
   "exerciseresponses": []

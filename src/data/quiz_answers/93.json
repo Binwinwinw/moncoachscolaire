@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6ème - Série 0093",
+    "level": "6ème",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Nombres et calculs (calcul littéral, équations, inéquations)",
+    "question_count": 8,
+    "level": "6ème",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "2",
+        "correction": "Pour résoudre l'équation 2x + 3 = 7, on soustrait 3 des deux côtés pour obtenir 2x = 4, puis on divise par 2 pour trouver x = 2."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Pour résoudre l'inéquation x - 5 > 3, on ajoute 5 des deux côtés pour obtenir x > 8."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "5",
+        "correction": "Pour résoudre l'équation 3y - 4 = 11, on ajoute 4 des deux côtés pour obtenir 3y = 15, puis on divise par 3 pour trouver y = 5."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Pour résoudre l'inéquation 2z + 1 ≤ 9, on soustrait 1 des deux côtés pour obtenir 2z ≤ 8, puis on divise par 2 pour trouver z ≤ 4."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "16",
+        "correction": "Pour résoudre l'équation a/4 + 2 = 6, on soustrait 2 des deux côtés pour obtenir a/4 = 4, puis on multiplie par 4 pour trouver a = 16."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Pour résoudre l'inéquation 5m - 3 < 2, on ajoute 3 des deux côtés pour obtenir 5m < 5, puis on divise par 5 pour trouver m < 1."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "4",
+        "correction": "Pour résoudre l'équation 4b + 5 = 21, on soustrait 5 des deux côtés pour obtenir 4b = 16, puis on divise par 4 pour trouver b = 4."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Pour résoudre l'inéquation c/2 - 1 ≥ 3, on ajoute 1 des deux côtés pour obtenir c/2 ≥ 4, puis on multiplie par 2 pour trouver c ≥ 8."
+      }
+    ]
+  }
+}

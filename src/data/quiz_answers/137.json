@@ -1,63 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ère Anglais - Série 13",
-    "level": "1ere",
-    "subject": "Anglais"
+    "title": "Quiz Diagnostic EMC 6eme - Série 0137",
+    "level": "6eme",
+    "subject": "EMC"
   },
   "quiz": {
-    "title": "Answer Key - Democracy & Politics Quiz",
+    "title": "EMC 6e - Vote classe : Élection délégués (affiches, discours)",
     "question_count": 8,
+    "level": "6eme",
+    "subject": "EMC",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correction": "Correct: A. Twitter debates = direct democracy. Cons: echo chambers, polarization."
+        "answer": "Le respect des règles de vie démocratique à l'école garantit la promotion de la participation, le respect des autres et la construction d'une société plus juste et solidaire.",
+        "correction": "Le respect des règles de vie démocratique à l'école est essentiel pour garantir la promotion de la participation, le respect des autres et la construction d'une société plus juste et solidaire."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "correction": "True. Subjunctive formal: It is vital/crucial that + base verb. Civic education key."
+        "answer": "vrai",
+        "correction": "C'est vrai. Un délégué à l'école joue un rôle important en représentant les élèves et en faisant remonter leurs préoccupations auprès de l'administration scolaire."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correction": "Good: attacks on judiciary, 'strongman' appeal. Ex: Hungary Orbán media control."
+        "type": "qcm",
+        "answer": "Le délégué représente les élèves et fait remonter leurs préoccupations auprès de l'administration scolaire.",
+        "correction": "Le délégué joue un rôle crucial en représentant les élèves et en faisant remonter leurs préoccupations auprès de l'administration scolaire, contribuant ainsi à la vie démocratique de l'école."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correction": "Correct: Contrast marker. Essay structure: pros/cons, for/against. Practice debates!"
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le rôle du délégué n'est pas d'être le meilleur élève, mais de représenter les élèves et de faire remonter leurs préoccupations auprès de l'administration scolaire."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "vrai-faux",
-        "correction": "True. Australia 90% turnout vs France 48%. Legitimacy argument."
+        "answer": "vrai",
+        "correction": "C'est vrai. Un délégué de classe peut jouer un rôle important en représentant les préoccupations de ses camarades auprès de l'administration scolaire, contribuant ainsi à améliorer la vie scolaire et à promouvoir la participation des élèves."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "correction": "Good: Change.org (4M French users), EU youth parliament. Greta Thunberg model."
+        "type": "qcm",
+        "answer": "Les médias jouent un rôle crucial en informant les élèves sur les activités démocratiques à l'école et en encourageant la participation citoyenne.",
+        "correction": "Les médias jouent un rôle crucial en informant les élèves sur les activités démocratiques à l'école, en encourageant la participation citoyenne et en garantissant la transparence dans la gestion de la vie scolaire."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "correction": "Correct: Preposition 'by/with overwhelming majority'. Legal/formal vocab."
+        "answer": "Le respect des règles de vie démocratique à l'école garantit la promotion de la participation, le respect des autres et la construction d'une société plus juste et solidaire.",
+        "correction": "Le respect des règles de vie démocratique à l'école est essentiel pour garantir la promotion de la participation, le respect des autres et la construction d'une société plus juste et solidaire."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "correction": "True. Inversion 3rd conditional (Were... implemented = If implemented)."
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des règles de vie démocratique à l'école encourage l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect de ces règles dans la société."
       }
-    ],
-    "level": "1ere",
-    "subject": "Anglais"
+    ]
   }
 }

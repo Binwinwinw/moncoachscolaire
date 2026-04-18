@@ -1,96 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 44",
+    "title": "Quiz Diagnostic Français 6eme - Série 0168",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Anglais",
-    "description": "Diagnostic Anglais 1ere : Expression avancée",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - Les accords dans le groupe nominal",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-08 00:05:00"
+    "created_at": "2026-04-06 06:25:38",
+    "updated_at": "2026-04-06 06:25:38"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 44",
-    "level": "1ere",
-    "subject": "Anglais",
+    "title": "Français 6e - Les accords dans le groupe nominal",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "question": "Quel est l'accord correct pour le groupe nominal 'les enfants ___ (heureux)' ?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
-        ],
-        "id": 1
+          "heureux",
+          "heureuse",
+          "heureuses",
+          "heureuxes"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau 1ere aborde des notions fondamentales en Anglais.",
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "Cite un exemple concret lié à Anglais.",
-        "placeholder": "Exemple...",
-        "id": 3
+        "question": "L'accord dans le groupe nominal doit être fait entre le nom et l'adjectif qui le qualifie, en fonction du genre (masculin ou féminin) et du nombre (singulier ou pluriel) du nom."
       },
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "question": "Quel est l'accord correct pour le groupe nominal 'une fille ___ (intelligent)' ?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
-        ],
-        "id": 4
+          "intelligent",
+          "intelligente",
+          "intelligents",
+          "intelligentes"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau 1ere aborde des notions fondamentales en Anglais.",
-        "id": 5
-      },
-      {
-        "type": "texte",
-        "question": "Cite un exemple concret lié à Anglais.",
-        "placeholder": "Exemple...",
-        "id": 6
+        "question": "L'accord dans le groupe nominal peut parfois être complexe, notamment lorsque le nom est suivi de plusieurs adjectifs ou lorsque le nom est composé de plusieurs mots, ce qui nécessite une attention particulière pour garantir la cohérence grammaticale."
       },
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "question": "Quel est l'accord correct pour le groupe nominal 'les fleurs ___ (beau)' ?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
-        ],
-        "id": 7
+          "beau",
+          "belle",
+          "beaux",
+          "belles"
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau 1ere aborde des notions fondamentales en Anglais.",
-        "id": 8
+        "question": "L'accord dans le groupe nominal est une règle grammaticale importante qui contribue à la cohérence et à la clarté de la communication écrite, en assurant que les éléments du groupe nominal sont correctement liés et compréhensibles pour les lecteurs."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est l'accord correct pour le groupe nominal 'un garçon ___ (grand)' ?",
+        "choices": [
+          "grand",
+          "grande",
+          "grands",
+          "grandes"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'accord dans le groupe nominal peut également inclure l'accord du verbe avec le sujet du groupe nominal, en fonction du nombre et du genre du sujet, ce qui renforce la cohérence grammaticale de la phrase."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Notion 1 - Anglais",
-      "description": "Concept clé de Anglais au niveau 1ere"
+      "notion": "Fondamentaux de Français",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Notion 2 - Anglais",
-      "description": "Concept clé de Anglais au niveau 1ere"
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Notion 3 - Anglais",
-      "description": "Concept clé de Anglais au niveau 1ere"
+      "notion": "Savoir-faire français",
+      "description": "Notion du programme 6eme"
     }
   ],
   "exerciseresponses": []

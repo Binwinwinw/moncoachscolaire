@@ -1,14 +1,74 @@
 {
   "contents": {
-    "title": "QUIZ 1654 - réponses à remplir",
-    "level": "unknown",
-    "subject": "unknown"
+    "title": "Quiz Diagnostic Anglais 2nde - SÃ©rie 1654",
+    "level": "2nde",
+    "subject": "Anglais"
   },
   "quiz": {
-    "title": "Quiz 1654 - corrections placeholder",
-    "question_count": 0,
-    "answers": [],
-    "level": "unknown",
-    "subject": "unknown"
+    "title": "Diagnostic 2nde Anglais - Tenses and Timeline",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "was doing",
+        "correct": 1,
+        "correction": "Le past continuous exprime une action en cours interrompue par un événement."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le past simple situe des actions terminées à un moment passé."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "written",
+        "correction": "Le verbe irrégulier write suit la série write/wrote/written."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "I have seen this film.",
+        "correct": 1,
+        "correction": "Le present perfect: have/has + participe passé."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "'Since' introduit le point de départ: since 2020, since Monday."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "since",
+        "correction": "Avec un repère initial précis, on emploie 'since'."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "will have finished",
+        "correct": 2,
+        "correction": "Le futur antérieur exprime une action achevée avant un repère futur."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "'For' exprime une durée: for two hours, for many years."
+      }
+    ]
   }
 }

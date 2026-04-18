@@ -1,14 +1,74 @@
 {
   "contents": {
-    "title": "QUIZ 1656 - réponses à remplir",
-    "level": "unknown",
-    "subject": "unknown"
+    "title": "Quiz Diagnostic Anglais 2nde - SÃ©rie 1656",
+    "level": "2nde",
+    "subject": "Anglais"
   },
   "quiz": {
-    "title": "Quiz 1656 - corrections placeholder",
-    "question_count": 0,
-    "answers": [],
-    "level": "unknown",
-    "subject": "unknown"
+    "title": "Diagnostic 2nde Anglais - Reading Skills",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Reading quickly to get the main idea",
+        "correct": 1,
+        "correction": "Le skimming est une lecture globale rapide pour saisir le sens général."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le scanning cible une information précise: date, nom, chiffre, mot-clé."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "main idea",
+        "correction": "'Main idea' désigne l'idée principale développée dans un passage."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Context around the word",
+        "correct": 1,
+        "correction": "Le contexte lexical et syntaxique permet d'inférer le sens d'un mot inconnu."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Un bon résumé conserve les idées essentielles et élimine les détails secondaires."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "however",
+        "correction": "'However' introduit un contraste ou une opposition d'idées."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Read questions before rereading key parts",
+        "correct": 1,
+        "correction": "Lire d'abord les questions permet de cibler les informations pertinentes."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le titre et les sous-titres aident à anticiper thème et intention du texte."
+      }
+    ]
   }
 }

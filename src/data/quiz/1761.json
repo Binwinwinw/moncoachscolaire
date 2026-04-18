@@ -1,0 +1,90 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie 4eme - SÃ©rie 1761",
+    "type": "quiz",
+    "level": "4eme",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie 4eme : Physique-Chimie 4eme - Demarche experimentale",
+    "status": "published",
+    "created_at": "2026-04-06 06:40:46",
+    "updated_at": "2026-04-06 06:40:46",
+    "source": "Eduscol programmes officiels + BOEN",
+    "programme_ref": "BO ndeg31 du 30 juillet 2020 (Cycle 4) + Eduscol Physique-Chimie"
+  },
+  "quiz": {
+    "title": "Physique-Chimie 4eme - Demarche experimentale",
+    "type": "quiz",
+    "level": "4eme",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "[Physique-Chimie 4eme] Sur le theme 'Demarche experimentale', quelle demarche est la plus efficace pour reussir un exercice diagnostic ?",
+        "choices": [
+          "Relire la consigne et identifier l'objectif",
+          "Repondre vite sans verifier",
+          "Ignorer le contexte",
+          "Memoriser sans comprendre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Physique-Chimie 4eme] Sur 'Demarche experimentale', verifier ses reponses avant validation ameliore la fiabilite."
+      },
+      {
+        "type": "open",
+        "question": "[Physique-Chimie 4eme] Cite une methode concrete pour progresser sur le theme 'Demarche experimentale'."
+      },
+      {
+        "type": "qcm",
+        "question": "[Physique-Chimie 4eme] Quelle action favorise la memorisation durable du theme 'Demarche experimentale' ?",
+        "choices": [
+          "Faire des rappels espaces",
+          "Tout revoir une seule fois",
+          "Copier sans comprendre",
+          "Eviter les exercices"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Physique-Chimie 4eme] L'explication d'une reponse est moins importante que la reponse elle-meme."
+      },
+      {
+        "type": "open",
+        "question": "[Physique-Chimie 4eme] Propose un exemple d'auto-correction pertinente sur 'Demarche experimentale'."
+      },
+      {
+        "type": "qcm",
+        "question": "[Physique-Chimie 4eme] Quel indicateur montre une bonne maitrise du theme 'Demarche experimentale' ?",
+        "choices": [
+          "Expliquer clairement la demarche",
+          "Donner une reponse au hasard",
+          "Eviter les notions difficiles",
+          "Memoriser sans application"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Physique-Chimie 4eme] Alterner entrainement, feedback et reprise des erreurs aide a progresser sur 'Demarche experimentale'."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Fondamentaux de Physique-Chimie",
+      "description": "Notion du programme 4eme"
+    },
+    {
+      "notion": "Compétences de base 4eme",
+      "description": "Notion du programme 4eme"
+    },
+    {
+      "notion": "Savoir-faire physique-chimie",
+      "description": "Notion du programme 4eme"
+    }
+  ],
+  "exerciseresponses": []
+}

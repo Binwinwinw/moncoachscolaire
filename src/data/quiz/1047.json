@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Nombres complexes",
     "status": "published",
-    "created_at": "2026-03-13 11:24:24",
-    "updated_at": "2026-03-13 11:24:24"
+    "created_at": "2026-04-06 06:40:48",
+    "updated_at": "2026-04-06 06:40:48"
   },
   "quiz": {
     "title": "Nombres complexes",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Définition des nombres complexes",
+      "description": "Comprendre les nombres complexes comme des nombres de la forme a + bi, où a et b sont des nombres réels et i est l'unité imaginaire"
+    },
+    {
+      "notion": "Représentation géométrique",
+      "description": "Représenter les nombres complexes dans le plan complexe, avec l'axe des abscisses pour la partie réelle et l'axe des ordonnées pour la partie imaginaire"
+    },
+    {
+      "notion": "Opérations sur les nombres complexes",
+      "description": "Apprendre à effectuer des opérations arithmétiques telles que l'addition, la soustraction, la multiplication et la division sur les nombres complexes"
+    }
+  ],
   "exerciseresponses": []
 }

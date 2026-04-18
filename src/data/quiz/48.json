@@ -1,85 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 5eme Histoire-Géographie",
+    "title": "Quiz Diagnostic Anglais 6ème - Série 0048",
     "type": "quiz",
-    "level": "5eme",
-    "subject": "Histoire-Géographie",
-    "description": "Diagnostic monde grec, empire romain, géographie France 5eme"
+    "level": "6ème",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6ème : Vocabulaire de base : phrases courantes pour parler de la voiture",
+    "status": "published",
+    "created_at": "2026-04-06 06:24:36",
+    "updated_at": "2026-04-06 06:24:36"
   },
   "quiz": {
-    "title": "Diagnostic Histoire-Géo 5eme",
-    "level": "5eme",
-    "subject": "Histoire-Géographie",
+    "title": "Vocabulaire de base : phrases courantes pour parler de la voiture",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
     "question_count": 8,
-    "passing_score": 75,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
     "questions": [
       {
-        "id": 1,
         "type": "qcm",
-        "question": "Athènes = démocratie ?",
+        "question": "Which of the following is a common English expression used to describe a car?",
         "choices": [
-          "Directe",
-          "Indirecte",
-          "Monarchie"
+          "It's fast",
+          "It's slow",
+          "It's new",
+          "All of the above"
         ]
       },
       {
-        "id": 2,
-        "type": "texte",
-        "question": "Empire romain divisé en ... parties (395 ap. J.-C.)"
-      },
-      {
-        "id": 3,
         "type": "vrai-faux",
-        "question": "Sparte = ville commerçante."
+        "question": "'The English expression for 'C'est rapide' is 'It's fast'' is a true statement."
       },
       {
-        "id": 4,
         "type": "qcm",
-        "question": "Capitale Gaule romaine :",
+        "question": "Which of the following is a common English expression used to describe a car when it's slow?",
         "choices": [
-          "Paris",
-          "Lyon",
-          "Marseille",
-          "Rome"
+          "It's fast",
+          "It's slow",
+          "It's new",
+          "All of the above"
         ]
       },
       {
-        "id": 5,
-        "type": "texte",
-        "question": "Marathon 490 av. J.-C. = Grecs vs ..."
-      },
-      {
-        "id": 6,
         "type": "vrai-faux",
-        "question": "La Gaule = entièrement romanisée."
+        "question": "'The English expression for 'C'est lent' is 'It's slow'' is a true statement."
       },
       {
-        "id": 7,
         "type": "qcm",
-        "question": "Péloponnèse =",
+        "question": "Which of the following is a common English expression used to describe a car when it's new?",
         "choices": [
-          "Sparte",
-          "Athènes",
-          "Corinthe"
+          "It's fast",
+          "It's slow",
+          "It's new",
+          "All of the above"
         ]
       },
       {
-        "id": 8,
-        "type": "texte",
-        "question": "Forum romain = ... publique"
+        "type": "vrai-faux",
+        "question": "'The English expression for 'C'est neuf' is 'It's new'' is a true statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English expression used to describe a car when it's old?",
+        "choices": [
+          "It's fast",
+          "It's slow",
+          "It's old",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English expression for 'C'est vieux' is 'It's old'' is a true statement."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Cité grecque"
+      "notion": "Vocabulaire de base",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "notion": "Empire romain"
+      "notion": "Grammaire simple",
+      "description": "Notion fondamentale de Anglais"
     },
     {
-      "notion": "Gaule romaine"
+      "notion": "Expression orale",
+      "description": "Notion fondamentale de Anglais"
     }
   ],
   "exerciseresponses": []

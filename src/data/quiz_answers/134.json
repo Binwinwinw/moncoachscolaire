@@ -1,63 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ère Anglais - Série 10",
-    "level": "1ere",
-    "subject": "Anglais"
+    "title": "Quiz Diagnostic EMC 6eme - Série 0134",
+    "level": "6eme",
+    "subject": "EMC"
   },
   "quiz": {
-    "title": "Answer Key - Sports & Leisure Quiz",
+    "title": "EMC 6e - Paix et non-violence",
     "question_count": 8,
+    "level": "6eme",
+    "subject": "EMC",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correction": "Correct: A. Skydiving, parkour = dopamine rush. Safety: 99.98% paragliding safe (FAI stats)."
+        "answer": "Le respect des règles de paix et de non-violence garantit la promotion d'une société plus pacifique et respectueuse des droits de l'homme.",
+        "correction": "Le respect des règles de paix et de non-violence est essentiel pour garantir la promotion d'une société plus pacifique et respectueuse des droits de l'homme."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "correction": "True. Mbappé €72M/year vs teacher €35k. Debate: Entertainment value vs education priority."
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des règles de paix et de non-violence encourage l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect de ces règles dans la société."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correction": "Good: discipline, leadership, resilience. Harvard study: team sports = 20% higher graduation rates."
+        "type": "qcm",
+        "answer": "L'éducation joue un rôle crucial en sensibilisant les individus aux règles de paix et de non-violence et en promouvant le respect de ces règles.",
+        "correction": "L'éducation joue un rôle crucial en sensibilisant les individus aux règles de paix et de non-violence, en promouvant le respect de ces règles et en encourageant la responsabilité individuelle pour garantir la promotion d'une société plus pacifique et respectueuse des droits de l'homme."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correction": "Correct: Fronting for emphasis. Normal: The success depends on teamwork. Dramatic effect!"
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des règles de paix et de non-violence encourage l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect de ces règles dans la société."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "correction": "False. Esports $1.4B revenue but Olympics = $4B. Traditional still dominant."
+        "type": "qcm",
+        "answer": "Les médias jouent un rôle crucial en sensibilisant le public aux règles de paix et de non-violence et en promouvant le respect de ces règles.",
+        "correction": "Les médias jouent un rôle crucial en sensibilisant le public aux règles de paix et de non-violence, en promouvant le respect de ces règles et en encourageant la responsabilité individuelle pour garantir la promotion d'une société plus pacifique et respectueuse des droits de l'homme."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "correction": "Good: national pride, inspiration. Paris 2024: 10M tickets sold already."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. La paix et la non-violence encouragent l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect de ces concepts dans la société."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "correction": "Correct: A. Tour de France disgraced. Armstrong stripped 7 titles. Testing improved since."
+        "answer": "Les parents ont un rôle important en sensibilisant leurs enfants aux règles de paix et de non-violence et en promouvant le respect de ces règles.",
+        "correction": "Les parents jouent un rôle crucial dans le respect des règles de paix et de non-violence en sensibilisant leurs enfants à ces règles et en encourageant la responsabilité individuelle pour garantir la promotion d'une société plus pacifique et respectueuse des droits de l'homme."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "correction": "False. Fronting contrast: Not football (most popular) but rugby (national passion)."
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des règles de paix et de non-violence encourage l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect de ces règles dans la société."
       }
-    ],
-    "level": "1ere",
-    "subject": "Anglais"
+    ]
   }
 }

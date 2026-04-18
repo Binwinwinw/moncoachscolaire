@@ -1,71 +1,70 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 4eme Mathématiques",
-    "type": "quiz",
-    "level": "4eme",
-    "subject": "Mathematiques",
-    "description": "Diagnostic factorisations, équations 1er degré, théorème Pythagore 4eme"
+    "title": "Quiz Diagnostic Anglais 6ème - Série 0044",
+    "level": "6ème",
+    "subject": "Anglais"
   },
   "quiz": {
-    "title": "Diagnostic Maths 4eme",
-    "level": "4eme",
-    "subject": "Mathematiques",
+    "title": "Vocabulaire de base : phrases courantes",
+    "question_count": 8,
+    "level": "6ème",
+    "subject": "Anglais",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
-        "type": "texte",
-        "answer": "(x-3)(x+3)",
-        "correction": "Différence carrés a²-b²=(a-b)(a+b)"
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "'Hello', 'Hi', and 'Hey' are all common English greetings that can be used in different contexts to greet someone."
       },
       {
         "index": 1,
         "question_id": 2,
-        "type": "qcm",
-        "answer": "3",
-        "correction": "2x=6 → x=3"
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English phrase for 'Comment ça va?' is indeed 'How are you?', which is a common way to ask someone about their well-being in English."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "vrai-faux",
-        "answer": true,
-        "correction": "9+16=25 ✓"
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "'Goodbye', 'Bye', and 'See you later' are all common English expressions used to say goodbye in different contexts."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "texte",
-        "answer": "16",
-        "correction": "(3+5)/2 × 4 = 16"
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English phrase for 'Merci' is indeed 'Thank you', which is a common way to express gratitude in English."
       },
       {
         "index": 4,
         "question_id": 5,
         "type": "qcm",
-        "answer": "5",
-        "correction": "Plus grand commun diviseur"
+        "answer": "All of the above",
+        "correction": "'Sorry', 'I apologize', and 'My apologies' are all common English expressions used to apologize in different contexts."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "answer": "4x²+4x+1",
-        "correction": "(a+b)²=a²+2ab+b²"
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English phrase for 'S'il vous plaît' is indeed 'Please', which is a common way to make a polite request in English."
       },
       {
         "index": 6,
         "question_id": 7,
-        "type": "vrai-faux",
-        "answer": true,
-        "correction": "VRAI. Définition Pythagore"
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "'Thank you', 'Thanks', and 'I appreciate it' are all common English expressions used to express gratitude in different contexts."
       },
       {
         "index": 7,
         "question_id": 8,
-        "type": "qcm",
-        "answer": "12",
-        "correction": "Plus petit commun multiple"
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English phrase for 'Excusez-moi' is indeed 'Excuse me', which is a common way to get someone's attention or to apologize for an interruption in English."
       }
     ]
   }

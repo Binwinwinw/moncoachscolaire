@@ -1,71 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ère Anglais",
-    "level": "1ere",
-    "subject": "Anglais"
+    "title": "Quiz Diagnostic EMC 6eme - Série 0106",
+    "level": "6eme",
+    "subject": "EMC"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ère Anglais",
+    "title": "EMC 6e - Respect des différences (apparence, origine)",
     "question_count": 8,
+    "level": "6eme",
+    "subject": "EMC",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correct": 1,
-        "correction": "**rains / will cancel** (Type 1: present/future réel)."
+        "answer": "Le respect des différences favorise la tolérance, l'inclusion et la diversité dans la société.",
+        "correction": "Le respect des différences d'apparence et d'origine est important car il favorise la tolérance, l'inclusion et la diversité dans la société, permettant à chacun de se sentir accepté et valorisé pour ce qu'il est."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "correct": false,
-        "correction": "**Faux**. 'Give up' = abandonner/stop."
+        "answer": "vrai",
+        "correction": "C'est vrai. Le respect des différences d'apparence et d'origine est un droit fondamental protégé par la loi, notamment à travers les lois contre la discrimination et les discours de haine."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correct": null,
-        "correction": "**Turn off** = éteindre (light/TV). Antonyme: turn on."
+        "type": "qcm",
+        "answer": "Le respect des différences favorise la créativité, l'innovation et la richesse culturelle dans la société.",
+        "correction": "Le respect des différences d'apparence et d'origine favorise la créativité, l'innovation et la richesse culturelle dans la société, permettant à chacun de contribuer de manière unique et précieuse."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correct": 2,
-        "correction": "**had studied / would have passed** (Type 3 passé irréel)."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des différences d'apparence et d'origine encourage l'acceptation et la valorisation de la diversité, ce qui peut impliquer une intervention pour protéger les droits des personnes ou pour promouvoir l'inclusion et la tolérance dans la société."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "correct": true,
-        "correction": "**Vrai**. Past perfect + would V (présent hypothétique)."
+        "type": "qcm",
+        "answer": "L'éducation joue un rôle crucial en sensibilisant les individus à la diversité et en promouvant le respect des différences.",
+        "correction": "L'éducation joue un rôle crucial dans le respect des différences d'apparence et d'origine en sensibilisant les individus à la diversité, en promouvant le respect des différences et en encourageant l'inclusion et la tolérance dès le plus jeune âge."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "correct": null,
-        "correction": "**look forward to + -ing** (attendre avec impatience)."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des différences d'apparence et d'origine encourage l'acceptation de la diversité tout en reconnaissant que les individus peuvent être interconnectés et interdépendants au sein de la société."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "correct": 1,
-        "correction": "**contrast** (however = mais, néanmoins)."
+        "answer": "Les médias ont un rôle important en promouvant des représentations positives de la diversité et en sensibilisant le public au respect des différences.",
+        "correction": "Les médias ont un rôle important dans le respect des différences d'apparence et d'origine en promouvant des représentations positives de la diversité, en sensibilisant le public au respect des différences et en contribuant à la construction d'une société plus inclusive et tolérante."
       },
       {
         "index": 7,
         "question_id": 8,
-        "type": "texte",
-        "correct": null,
-        "correction": "**Put off** = reporter (meeting). Syn: postpone."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des différences d'apparence et d'origine encourage l'acceptation et la valorisation de la diversité, ce qui peut impliquer une intervention pour protéger les droits des personnes ou pour promouvoir l'inclusion et la tolérance dans la société."
       }
-    ],
-    "level": "1ere",
-    "subject": "Anglais"
+    ]
   }
 }

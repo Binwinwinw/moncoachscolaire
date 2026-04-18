@@ -1,96 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 41",
+    "title": "Quiz Diagnostic Français 6eme - Série 0165",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Anglais",
-    "description": "Diagnostic Anglais 1ere : Les marqueurs de discours et la cohésion textuelle",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - L’écriture créative (rédaction)",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-08 00:05:00"
+    "created_at": "2026-04-06 06:25:38",
+    "updated_at": "2026-04-06 06:25:38"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 41",
-    "level": "1ere",
-    "subject": "Anglais",
+    "title": "Français 6e - L’écriture créative (rédaction)",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
-        "id": 1,
         "type": "qcm",
-        "question": "Choose the best discourse marker: 'The project was expensive. ___, it was completed on time.'",
+        "question": "Quel élément est essentiel pour stimuler la créativité dans l'écriture créative ?",
         "choices": [
-          "Therefore",
-          "Nevertheless",
-          "Furthermore",
-          "As a result"
+          "La grammaire parfaite",
+          "L'orthographe impeccable",
+          "L'imagination et l'originalité",
+          "Le respect strict des règles de style"
         ]
       },
       {
-        "id": 2,
         "type": "vrai-faux",
-        "question": "'Furthermore' and 'However' can both be used to introduce an additional idea that supports the previous argument."
+        "question": "L'écriture créative peut inclure différents genres littéraires tels que la fiction, la poésie, le théâtre, etc., offrant ainsi une grande variété de possibilités pour exprimer sa créativité."
       },
       {
-        "id": 3,
-        "type": "texte",
-        "question": "Relie les deux phrases avec le bon marqueur de discours (cause-effet) : 'The factory was polluting the river. / The local government decided to close it.'",
-        "placeholder": "Écris ta réponse ici..."
-      },
-      {
-        "id": 4,
         "type": "qcm",
-        "question": "Which sentence correctly uses 'despite'?",
+        "question": "Quel élément est utilisé pour créer des personnages intéressants dans l'écriture créative ?",
         "choices": [
-          "Despite the weather was terrible, we enjoyed the trip.",
-          "Despite of the terrible weather, we enjoyed the trip.",
-          "Despite the terrible weather, we enjoyed the trip.",
-          "Despite that the weather was terrible, we enjoyed the trip."
+          "Des descriptions détaillées",
+          "Des dialogues réalistes",
+          "Des motivations claires",
+          "Toutes les réponses ci-dessus"
         ]
       },
       {
-        "id": 5,
         "type": "vrai-faux",
-        "question": "Using the same word repeatedly in a text is a sign of good writing because it ensures clarity."
+        "question": "L'écriture créative peut être un moyen efficace de développer ses compétences en écriture, en encourageant l'exploration de différentes techniques d'écriture et en favorisant l'expression personnelle à travers l'écriture."
       },
       {
-        "id": 6,
-        "type": "texte",
-        "question": "Identifie le marqueur de discours manquant et justifie ton choix : 'Deforestation destroys ecosystems. ___, it contributes to climate change by releasing stored carbon.'",
-        "placeholder": "Écris ta réponse ici..."
-      },
-      {
-        "id": 7,
         "type": "qcm",
-        "question": "Which sentence demonstrates good text cohesion through pronoun reference?",
+        "question": "Quel élément est utilisé pour créer une intrigue captivante dans l'écriture créative ?",
         "choices": [
-          "Einstein was a genius. Einstein changed physics. Einstein's theories are still used today.",
-          "Einstein was a genius. He changed physics. His theories are still used today.",
-          "Einstein was a genius. The man changed physics. The genius's theories are still used today.",
-          "Einstein was a genius. Einstein he changed physics. His theories are still used today."
+          "Un conflit intéressant",
+          "Des rebondissements inattendus",
+          "Une résolution satisfaisante",
+          "Toutes les réponses ci-dessus"
         ]
       },
       {
-        "id": 8,
         "type": "vrai-faux",
-        "question": "The discourse marker 'in conclusion' is used to introduce the final paragraph of an essay and signal that the writer is summarising their main points."
+        "question": "L'écriture créative peut également être utilisée comme un moyen de s'exprimer et de partager ses idées, ses émotions et ses expériences avec les autres à travers l'écriture."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel élément est utilisé pour créer une atmosphère immersive dans l'écriture créative ?",
+        "choices": [
+          "Des descriptions sensorielles",
+          "Des détails visuels",
+          "Des émotions fortes",
+          "Toutes les réponses ci-dessus"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'écriture créative peut être un processus personnel et subjectif, où chaque écrivain peut trouver sa propre voix et son propre style d'écriture, ce qui rend chaque œuvre unique et authentique."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Marqueurs d'addition et d'illustration",
-      "description": "Addition : Furthermore, Moreover, In addition, Besides, Also, What is more, Not only... but also. Illustration/exemple : For example, For instance, Such as, In particular, Notably, To illustrate, As shown by. Ces marqueurs enrichissent un argument en ajoutant des informations ou des exemples concrets."
+      "notion": "Fondamentaux de Français",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Marqueurs de contraste, concession et cause-effet",
-      "description": "Contraste : However, Nevertheless, On the other hand, In contrast, Yet, Whereas, While, Despite, Although. Concession : Admittedly, Even though, It is true that. Cause-effet : Therefore, Thus, Hence, As a result, Consequently, This leads to, Due to, Because of. Ces connecteurs structurent la logique de l'argumentation."
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Cohésion textuelle : référents et substitution",
-      "description": "La cohésion textuelle assure la fluidité du texte. Outils principaux : pronoms de référence (it, they, this, these), synonymes et paraphrases pour éviter les répétitions, substitution lexicale (the phenomenon → it), ellipses. Un texte cohésif est facile à suivre car les liens entre phrases et paragraphes sont clairs."
+      "notion": "Savoir-faire français",
+      "description": "Notion du programme 6eme"
     }
   ],
   "exerciseresponses": []

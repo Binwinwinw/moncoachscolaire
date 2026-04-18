@@ -1,71 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 19",
-    "level": "1ere",
-    "subject": "Anglais"
+    "title": "Quiz Diagnostic EMC 6eme - Série 0143",
+    "level": "6eme",
+    "subject": "EMC"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 19",
+    "title": "EMC 6e - tolérance et respect des différences",
     "question_count": 8,
+    "level": "6eme",
+    "subject": "EMC",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "bonne_reponse": "Opinions and trends",
-        "correction": "Correct ! Ex. viral challenges. Débat pros/cons en oral."
+        "answer": "Le respect des règles de tolérance et de respect des différences garantit la promotion de l'inclusion, le respect des autres et la construction d'une société plus juste et solidaire.",
+        "correction": "Le respect des règles de tolérance et de respect des différences est essentiel pour garantir la promotion de l'inclusion, le respect des autres et la construction d'une société plus juste et solidaire."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "bonne_reponse": "Vrai",
-        "correction": "Vrai : Blurred boundaries. Stats études pour essays."
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des règles de tolérance et de respect des différences encourage l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect de ces règles dans la société."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "bonne_reponse": "Ex: Challenges go viral but spread misinformation",
-        "correction": "Nuancé excellent ! Linking words (although) pour bac."
+        "type": "qcm",
+        "answer": "Les élèves jouent un rôle crucial en respectant les règles de tolérance et de respect des différences, en exprimant leurs préoccupations de manière respectueuse et en contribuant à un environnement d'apprentissage positif.",
+        "correction": "Les élèves jouent un rôle crucial en respectant les règles de tolérance et de respect des différences, en exprimant leurs préoccupations de manière respectueuse et en contribuant à un environnement d'apprentissage positif."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "bonne_reponse": "French vs US schools",
-        "correction": "Exact ! Compare uniform/homeschool. Recherche docs."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. La tolérance et le respect des différences encouragent l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect de ces règles dans la société."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "bonne_reponse": "Vrai",
-        "correction": "Vrai : Dopamine loops. Limite usage, track temps."
+        "type": "qcm",
+        "answer": "Les enseignants jouent un rôle crucial en établissant des règles de tolérance et de respect des différences claires, en encourageant le respect mutuel et en créant un environnement d'apprentissage positif.",
+        "correction": "Les enseignants jouent un rôle crucial en établissant des règles de tolérance et de respect des différences claires, en encourageant le respect mutuel et en créant un environnement d'apprentissage positif pour garantir le respect des règles de tolérance et de respect des différences à l'école."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "bonne_reponse": "Ex: Flexible but lonely",
-        "correction": "Balanced ! Vocab work (commute, burnout)."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. La tolérance et le respect des différences sont des valeurs fondamentales qui encouragent l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect de ces valeurs dans la société."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "bonne_reponse": "Stress from work/school",
-        "correction": "Parfait ! Hobbies comme yoga pour équilibre."
+        "answer": "Vrai",
+        "correction": "C'est vrai. La tolérance et le respect des différences sont des valeurs fondamentales qui encouragent l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect de ces valeurs dans la société."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "bonne_reponse": "Vrai",
-        "correction": "Vrai : Post-COVID shift. Prépare comparaison US/FR."
+        "answer": "faux",
+        "correction": "C'est faux. La tolérance et le respect d'autrui sont des valeurs complémentaires qui encouragent l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect de ces valeurs dans la société."
       }
-    ],
-    "level": "1ere",
-    "subject": "Anglais"
+    ]
   }
 }

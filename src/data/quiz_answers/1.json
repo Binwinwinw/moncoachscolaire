@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6eme - Série 0001",
+    "level": "6eme",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "Personnes et personnages",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Alice",
+        "correction": "The main character in the story is named Alice."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "The story takes place in a village, not a city."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Curious and adventurous",
+        "correction": "The main character is known for being curious and adventurous."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Eve",
+        "correction": "Eve is a friend of the main character."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The main character has a pet dog named Max."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "qcm",
+        "answer": "Mr. Smith",
+        "correction": "The antagonist in the story is named Mr. Smith."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Judy",
+        "correction": "Judy helps the main character solve a problem in the story."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "By the end of the story, the main character learns an important lesson about friendship."
+      }
+    ]
+  }
+}

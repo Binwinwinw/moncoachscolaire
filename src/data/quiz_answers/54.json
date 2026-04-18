@@ -1,71 +1,70 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 6eme Mathematiques",
-    "type": "quiz",
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 0054",
     "level": "6eme",
-    "subject": "Mathematiques",
-    "description": "Diagnostic addition, fractions, aires, divisions 6eme"
+    "subject": "Mathématiques"
   },
   "quiz": {
-    "title": "Diagnostic Mathematiques 6eme",
+    "title": "Organisation et gestion de données",
+    "question_count": 8,
     "level": "6eme",
-    "subject": "Mathematiques",
+    "subject": "Mathématiques",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "70",
-        "correction": "Unites 3+7=10 (0, retenue 1), Dizaines 2+4+1=7"
+        "answer": "Toutes les réponses",
+        "correction": "Un tableau de données permet de stocker, analyser et afficher des données."
       },
       {
         "index": 1,
         "question_id": 2,
-        "type": "texte",
-        "answer": "2/3",
-        "correction": "6/3=2, 9/3=3"
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Un graphique en barres est utilisé pour représenter des données catégorielles."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "vrai-faux",
-        "answer": false,
-        "correction": "FAUX, 1 m = 100 cm"
+        "type": "qcm",
+        "answer": "Graphique circulaire",
+        "correction": "Un graphique circulaire est le mieux adapté pour montrer la répartition d'un ensemble de données."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "answer": "24",
-        "correction": "4 x 6 = 24 cm2"
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Un histogramme est utilisé pour représenter des données continues."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "calcul",
-        "answer": "6",
-        "correction": "Division exacte"
+        "type": "qcm",
+        "answer": "Identifier les séries de données",
+        "correction": "Une légende dans un graphique sert à identifier les différentes séries de données représentées."
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": true,
-        "correction": "VRAI"
+        "answer": "vrai",
+        "correction": "Un graphique linéaire est utilisé pour représenter des données temporelles."
       },
       {
         "index": 6,
         "question_id": 7,
-        "type": "texte",
-        "answer": "12",
-        "correction": "3+4+5=12"
+        "type": "qcm",
+        "answer": "Graphique linéaire",
+        "correction": "Un graphique linéaire est le mieux adapté pour montrer l'évolution d'une variable dans le temps."
       },
       {
         "index": 7,
         "question_id": 8,
-        "type": "qcm",
-        "answer": "2",
-        "correction": "2 axes (diagonales)"
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Un graphique en barres est généralement utilisé pour représenter des données catégorielles, pas continues."
       }
     ]
   }

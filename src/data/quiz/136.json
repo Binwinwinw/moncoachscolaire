@@ -1,102 +1,94 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ère Anglais - Série 12",
+    "title": "Quiz Diagnostic EMC 6eme - Série 0136",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Anglais",
-    "description": "Diagnostic Anglais 1ère : Law, Justice, Advanced Expression (Eduscol B1/B2)",
+    "level": "6eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 6eme : EMC 6e - Institutions locales (mairie)",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-09 18:37:00"
+    "created_at": "2026-04-06 06:25:43",
+    "updated_at": "2026-04-06 06:25:43"
   },
   "quiz": {
-    "title": "1ère English Diagnostic - Series 12 (Law & Justice)",
-    "level": "1ere",
-    "subject": "Anglais",
+    "title": "EMC 6e - Institutions locales (mairie)",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Jury trials guarantee fair justice because:",
+        "question": "Qu'est-ce qu'une institution locale ?",
         "choices": [
-          "Citizen participation",
-          "Professional judges only",
-          "Speed priority",
-          "No appeals"
-        ],
-        "correct_index": 0,
-        "id": 1
+          "Une institution locale est une organisation ou un organisme qui gère les affaires locales et prend des décisions au niveau local.",
+          "Une institution locale est une organisation internationale qui gère les affaires mondiales.",
+          "Une institution locale est une organisation privée qui gère les affaires commerciales.",
+          "Une institution locale est une organisation religieuse qui gère les affaires spirituelles."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "It is recommended that minors be tried as adults for serious crimes.",
-        "correct": false,
-        "id": 2
-      },
-      {
-        "type": "texte",
-        "question": "What is 'habeas corpus' and why important?",
-        "placeholder": "ex: Right not to be detained unlawfully",
-        "id": 3
+        "question": "Les institutions locales n'ont aucun impact sur la vie quotidienne des citoyens."
       },
       {
         "type": "qcm",
-        "question": "Had the defendant _____ guilty, the sentence would have been harsher.",
+        "question": "Quel est le rôle d'une mairie dans une institution locale ?",
         "choices": [
-          "pleaded",
-          "been pleading",
-          "plead",
-          "to plead"
-        ],
-        "correct_index": 0,
-        "id": 4
+          "La mairie est responsable de la gestion des affaires locales, de la prise de décisions au niveau local et de la fourniture de services publics locaux.",
+          "La mairie est responsable de la gestion des affaires internationales et de la prise de décisions au niveau mondial.",
+          "La mairie est responsable de la gestion des affaires commerciales et de la prise de décisions au niveau économique.",
+          "La mairie est responsable de la gestion des affaires spirituelles et de la prise de décisions au niveau religieux."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "The death penalty has been abolished in all EU countries.",
-        "correct": true,
-        "id": 5
-      },
-      {
-        "type": "texte",
-        "question": "Give 1 argument for and 1 against prison reform.",
-        "placeholder": "ex: For: Rehabilitation / Against: Recidivism risk",
-        "id": 6
+        "question": "Les institutions locales, comme les mairies, sont essentielles pour garantir la participation citoyenne et la démocratie locale."
       },
       {
         "type": "qcm",
-        "question": "The case was _____ due to lack of evidence.",
+        "question": "Quel est le rôle des médias dans les institutions locales ?",
         "choices": [
-          "dismissed",
-          "dismiss",
-          "dismissing",
-          "dismissal"
-        ],
-        "correct_index": 0,
-        "id": 7
+          "Les médias jouent un rôle crucial en informant le public sur les activités des institutions locales et en encourageant la participation citoyenne.",
+          "Les médias sont inutiles dans les institutions locales, car les individus peuvent apprendre par eux-mêmes.",
+          "Les médias sont réservés aux élites politiques et économiques.",
+          "Les médias sont limités aux informations nationales uniquement."
+        ]
       },
       {
         "type": "vrai-faux",
-        "question": "Should the punishment fit the crime or the criminal?",
-        "correct": true,
-        "id": 8
+        "question": "Les institutions locales n'ont aucun impact sur la vie quotidienne des citoyens."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle des parents dans les institutions locales ?",
+        "choices": [
+          "Les parents ont un rôle important en sensibilisant leurs enfants aux institutions locales et en encourageant leur participation citoyenne.",
+          "Les parents sont inutiles dans les institutions locales, car les individus peuvent apprendre par eux-mêmes.",
+          "Les parents sont réservés aux élites politiques et économiques.",
+          "Les parents sont limités aux informations nationales uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les institutions locales, comme les mairies, sont essentielles pour garantir la participation citoyenne et la démocratie locale."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Legal Systems",
-      "description": "Jury trials, habeas corpus, EU law (Eduscol 1ère)"
+      "notion": "Fondamentaux de EMC",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Justice Debates",
-      "description": "Death penalty, prison reform, minors"
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Advanced Grammar",
-      "description": "Subjunctive recommendation, hypothetical past, legal passives"
+      "notion": "Savoir-faire emc",
+      "description": "Notion du programme 6eme"
     }
-  ]
+  ],
+  "exerciseresponses": []
 }

@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Baccalauréat français",
+      "description": "Notion fondamentale de Français"
+    },
+    {
+      "notion": "Poésie baroque et classique",
+      "description": "Notion fondamentale de Français"
+    },
+    {
+      "notion": "Théâtre et représentation",
+      "description": "Notion fondamentale de Français"
+    }
+  ],
   "exerciseresponses": []
 }

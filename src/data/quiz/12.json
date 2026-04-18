@@ -1,96 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic SVT 5ème - Série 12",
+    "title": "Quiz Diagnostic Anglais 6eme - Série 0012",
     "type": "quiz",
-    "level": "5eme",
-    "subject": "SVT",
-    "description": "Évaluation diagnostique en SVT 5ème : respiration et circulation sanguine, géologie (plaques tectoniques), écosystèmes",
+    "level": "6eme",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6eme : histoire des arts : œuvres, artistes, mouvements artistiques",
     "status": "published",
-    "created_at": "2026-03-07 23:55:00",
-    "updated_at": "2026-03-08 14:02:00"
+    "created_at": "2026-04-06 06:24:36",
+    "updated_at": "2026-04-06 06:24:36"
   },
   "quiz": {
-    "title": "Diagnostic SVT 5ème",
-    "level": "5eme",
-    "subject": "SVT",
+    "title": "histoire des arts : œuvres, artistes, mouvements artistiques",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Anglais",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel élément du corps transporte l'oxygène vers les cellules ?",
+        "question": "Who painted the Mona Lisa?",
         "choices": [
-          "Les poumons",
-          "Le cœur",
-          "Les artères",
-          "Le sang (hémoglobine)"
-        ]
-      },
-      {
-        "type": "qcm",
-        "question": "Quel organe permet les échanges gazeux entre l'air et le sang ?",
-        "choices": [
-          "Le foie",
-          "Les poumons",
-          "L'estomac",
-          "Le pancréas"
+          "Leonardo da Vinci",
+          "Vincent van Gogh",
+          "Pablo Picasso",
+          "Claude Monet"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Les artères transportent toujours un sang pauvre en oxygène."
+        "question": "The Impressionist movement was characterized by a focus on light and color."
       },
       {
         "type": "qcm",
-        "question": "Dans la chaîne alimentaire herbe -> lapin -> renard, le lapin est :",
+        "question": "Which of the following is a famous sculpture?",
         "choices": [
-          "Un producteur",
-          "Un consommateur primaire",
-          "Un décomposeur",
-          "Un prédateur apex"
-        ]
-      },
-      {
-        "type": "texte",
-        "question": "Cite deux conséquences possibles du mouvement des plaques tectoniques."
-      },
-      {
-        "type": "qcm",
-        "question": "Quel organe filtre le sang pour produire l'urine ?",
-        "choices": [
-          "Le cœur",
-          "Le foie",
-          "Les reins",
-          "Les poumons"
+          "David",
+          "The Starry Night",
+          "The Persistence of Memory",
+          "The Scream"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "La photosynthèse des plantes produit du dioxyde de carbone en journée."
+        "question": "'Pablo Picasso was a leading figure in the Cubist art movement' is a true statement."
       },
       {
-        "type": "texte",
-        "question": "Explique brièvement le rôle du diaphragme pendant l'inspiration."
+        "type": "qcm",
+        "question": "Which of the following is a famous painting?",
+        "choices": [
+          "The Last Supper",
+          "The Thinker",
+          "The Kiss",
+          "The Birth of Venus"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'Claude Monet was known for his landscape paintings' is a true statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is an art movement?",
+        "choices": [
+          "Surrealism",
+          "Realism",
+          "Abstract Expressionism",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The Scream is a famous painting by Edvard Munch' is a true statement."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Respiration et circulation",
-      "description": "Concept clé de SVT au niveau 5eme"
+      "notion": "Fondamentaux de Anglais",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Géologie",
-      "description": "Concept clé de SVT au niveau 5eme"
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "Écosystèmes",
-      "description": "Concept clé de SVT au niveau 5eme"
-    },
-    {
-      "notion": "Organisation du corps",
-      "description": "Concept clé de SVT au niveau 5eme"
+      "notion": "Savoir-faire anglais",
+      "description": "Notion du programme 6eme"
     }
   ],
   "exerciseresponses": []

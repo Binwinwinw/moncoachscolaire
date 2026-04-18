@@ -1,63 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 37",
-    "level": "1ere",
-    "subject": "Anglais"
+    "title": "Quiz Diagnostic Français 6eme - Série 0161",
+    "level": "6eme",
+    "subject": "Français"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 37",
+    "title": "Français 6e - Les règles de ponctuation",
     "question_count": 8,
+    "level": "6eme",
+    "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correction": "La bonne réponse est A : 'more difficult'. 'Difficult' est un adjectif long (3 syllabes), donc on utilise 'more' pour former le comparatif de supériorité. La règle : adjectifs longs (2 syllabes ou plus) → more + adjectif + than. Adjectifs courts (1 syllabe, ou 2 syllabes se terminant en -y, -er, -ow) → adjectif + -er + than."
+        "answer": ".",
+        "correction": "Le point (.) est utilisé pour marquer la fin d'une phrase déclarative, qui fait une déclaration ou exprime une idée de manière affirmative ou négative."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "correction": "FAUX. 'Good' est un adjectif irrégulier. Sa forme superlative est 'the best', pas 'the goodest'. Les comparatifs/superlatifs irréguliers à mémoriser absolument : good → better → the best / bad → worse → the worst / far → farther/further → the farthest/furthest / little → less → the least / much/many → more → the most."
+        "answer": "vrai",
+        "correction": "C'est vrai. Le point d'interrogation (?) est utilisé pour marquer la fin d'une phrase interrogative, qui pose une question ou demande une information."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correction": "La réponse est : 'The more you practise, the better you become.' La structure 'the + comparatif..., the + comparatif' exprime une relation de proportionnalité. Ex : 'The older he gets, the wiser he becomes.' / 'The more money you earn, the more taxes you pay.' C'est une structure sophistiquée très appréciée au baccalauréat."
+        "type": "qcm",
+        "answer": "!",
+        "correction": "Le point d'exclamation (!) est utilisé pour marquer la fin d'une phrase exclamative, qui exprime une émotion forte ou une réaction intense."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correction": "La bonne réponse est B : 'Mount Everest is the highest mountain in the world.' 'High' est un adjectif court (1 syllabe) → superlatif en -est → 'the highest'. Le superlatif est toujours précédé de 'the'. 'Most high' (A et D) est incorrect pour un adjectif d'une syllabe. L'option C manque 'the' devant le superlatif."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. La virgule (,) est utilisée pour séparer les éléments d'une liste, les propositions subordonnées ou les incises dans une phrase, afin de clarifier le sens et de faciliter la lecture."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "correction": "VRAI. La structure 'as + adjectif + as' exprime l'égalité. La phrase signifie que les deux sœurs ont le même niveau de talent. Pour l'infériorité, on utilise 'not as... as' ou 'less... than' : 'She is not as talented as her sister' / 'She is less talented than her sister'. Pour la supériorité : 'She is more talented than her sister'."
+        "type": "qcm",
+        "answer": ",",
+        "correction": "La virgule (,) est utilisée pour séparer les éléments d'une liste, afin de clarifier le sens et de faciliter la lecture."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "correction": "La phrase correcte est : 'This is the most interesting book I have ever read.' Erreur : 'more' doit être remplacé par 'most' car il s'agit d'un superlatif (the most + adjectif long). 'More' est le comparatif, 'most' est le superlatif. La présence de 'the' + 'ever' dans la phrase sont des indices qui indiquent clairement qu'il s'agit d'un superlatif."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. L'utilisation correcte de la ponctuation peut contribuer à améliorer la clarté et l'efficacité de la communication écrite en aidant à structurer les phrases et à exprimer les idées de manière plus précise, en indiquant les pauses, les intonations et les relations entre les différentes parties d'une phrase."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "correction": "La bonne réponse est B : 'fewer students'. La règle : FEWER + nom dénombrable pluriel (students, books, cars) / LESS + nom indénombrable (water, time, money). 'Students' est dénombrable → fewer. Erreurs : A ('less students' — dénombrable), C ('fewer water' — indénombrable), D ('less books' — dénombrable). Cette distinction est fréquemment testée."
+        "answer": "!",
+        "correction": "Le point d'exclamation (!) est utilisé pour marquer la fin d'une phrase impérative, qui donne un ordre ou une instruction."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "correction": "VRAI. La structure 'comparatif + and + comparatif' exprime une progression continue, quelque chose qui change de manière croissante. Ex : 'It's getting hotter and hotter' (de plus en plus chaud) / 'She is becoming more and more confident' (de plus en plus confiante) / 'The problem is growing bigger and bigger'. C'est une structure expressive et très utilisée en anglais."
+        "answer": "vrai",
+        "correction": "C'est vrai. L'utilisation excessive de la ponctuation peut parfois rendre un texte difficile à lire et à comprendre, en créant une surcharge d'informations ou en perturbant le rythme de la lecture, ce qui peut distraire le lecteur et nuire à la clarté du message."
       }
-    ],
-    "level": "1ere",
-    "subject": "Anglais"
+    ]
   }
 }

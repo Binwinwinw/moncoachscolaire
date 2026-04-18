@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6eme - Série 0013",
+    "level": "6eme",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "géographie : pays, capitales, continents",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Paris",
+        "correction": "The capital of France is Paris."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The Amazon Rainforest is indeed located in South America, primarily in Brazil."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "Asia, Europe, and Africa are all continents."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "'The Nile is indeed the longest river in the world, stretching over 6,650 kilometers (4,130 miles)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Tokyo",
+        "correction": "The capital of Japan is Tokyo."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "'Mount Everest is indeed located in the Himalayas, on the border between Nepal and China."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "Italy, France, and Germany are all countries located in Europe, known for their rich history, culture, and landmarks."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "'The Sahara Desert is indeed the largest hot desert in the world, covering much of North Africa."
+      }
+    ]
+  }
+}

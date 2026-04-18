@@ -1,14 +1,74 @@
 {
   "contents": {
-    "title": "QUIZ 1660 - réponses à remplir",
-    "level": "unknown",
-    "subject": "unknown"
+    "title": "Quiz Diagnostic Anglais 2nde - SÃ©rie 1660",
+    "level": "2nde",
+    "subject": "Anglais"
   },
   "quiz": {
-    "title": "Quiz 1660 - corrections placeholder",
-    "question_count": 0,
-    "answers": [],
-    "level": "unknown",
-    "subject": "unknown"
+    "title": "Diagnostic 2nde Anglais - Argumentation",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "A central position to defend",
+        "correct": 1,
+        "correction": "Le claim est la thèse ou position principale que l'on défend."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Des preuves (faits, exemples, données) renforcent la validité de l'argument."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "however",
+        "correction": "Un contre-argument est souvent introduit par 'however' ou 'on the other hand'."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Claim -> Evidence -> Explanation",
+        "correct": 0,
+        "correction": "Cette progression rend l'argumentation lisible et convaincante."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Réfuter une objection montre que l'argumentation est construite et nuancée."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "therefore",
+        "correction": "'Therefore' introduit une conclusion logique à partir des arguments."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "It can be argued that",
+        "correct": 2,
+        "correction": "Cette formule est adaptée au registre argumentatif formel."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "En argumentation scolaire, l'opinion seule doit être appuyée par des justifications."
+      }
+    ]
   }
 }

@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques 2nde : Probabilites conditionnelles",
     "status": "published",
-    "created_at": "2026-03-13 11:15:43",
-    "updated_at": "2026-03-13 11:15:43"
+    "created_at": "2026-04-06 06:40:42",
+    "updated_at": "2026-04-06 06:40:42"
   },
   "quiz": {
     "title": "Probabilites conditionnelles",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Définition des événements",
+      "description": "Commencer par identifier et définir clairement les événements impliqués dans l'exercice, notamment l'événement conditionnel et l'événement conditionnant."
+    },
+    {
+      "notion": "Représentation graphique",
+      "description": "Utiliser des arbres de probabilités ou des diagrammes de Venn pour visualiser les relations entre les événements et faciliter la compréhension des probabilités conditionnelles."
+    },
+    {
+      "notion": "Formule de probabilité conditionnelle",
+      "description": "Appliquer la formule de probabilité conditionnelle P(A|B) = P(A et B) / P(B) pour calculer les probabilités conditionnelles et résoudre l'exercice de manière systématique."
+    }
+  ],
   "exerciseresponses": []
 }

@@ -1,16 +1,16 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 5eme SVT - Serie 44",
+    "title": "Chaînes alimentaires et biodiversité",
     "type": "quiz",
     "level": "5eme",
     "subject": "SVT",
-    "description": "Diagnostic SVT 5eme : Biologie et sciences naturelles",
+    "description": "Diagnostic SVT 5eme : Chaînes alimentaires et biodiversité",
     "status": "published",
     "created_at": "2026-03-08 00:05:00",
     "updated_at": "2026-03-08 00:05:00"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 5eme SVT - Serie 44",
+    "title": "Anglais - Chaînes alimentaires et biodiversité",
     "level": "5eme",
     "subject": "SVT",
     "question_count": 8,
@@ -19,78 +19,74 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en SVT cette année ?",
+        "question": "Quel est le rôle des producteurs dans une chaîne alimentaire ?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "De produire de l'énergie à partir de la lumière",
+          "De manger les consommateurs",
+          "De décomposer la matière organique",
+          "De stocker de l'eau"
         ],
         "id": 1
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau 5eme aborde des notions fondamentales en SVT.",
+        "question": "Un herbivore se nourrit principalement de plantes.",
         "id": 2
       },
       {
         "type": "texte",
-        "question": "Cite un exemple concret lié à SVT.",
+        "question": "Pourquoi la biodiversité est-elle importante pour un écosystème ?",
         "placeholder": "Exemple...",
         "id": 3
       },
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en SVT cette année ?",
+        "question": "Quel est l'effet le plus courant de la pollution sur les organismes d'une chaîne alimentaire ?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "Elle améliore leur santé",
+          "Elle réduit leur survie",
+          "Elle augmente leur reproduction",
+          "Elle ne change rien"
         ],
         "id": 4
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau 5eme aborde des notions fondamentales en SVT.",
+        "question": "Les décomposeurs transforment les déchets en nutriments pour le sol.",
         "id": 5
       },
       {
-        "type": "texte",
-        "question": "Cite un exemple concret lié à SVT.",
-        "placeholder": "Exemple...",
+        "type": "qcm",
+        "question": "Dans une chaîne alimentaire, les carnivores se situent généralement :",
+        "choices": ["Au sommet", "À la base", "Au milieu", "En dehors"],
         "id": 6
       },
       {
-        "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en SVT cette année ?",
-        "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
-        ],
+        "type": "texte",
+        "question": "Donne un exemple d'organismes qui vivent dans une chaîne alimentaire aquatique.",
+        "placeholder": "Exemple...",
         "id": 7
       },
       {
-        "type": "vrai-faux",
-        "question": "Le niveau 5eme aborde des notions fondamentales en SVT.",
+        "type": "qcm",
+        "question": "Parmi ces éléments, lequel est un facteur non vivant d'un écosystème ?",
+        "choices": ["L'air", "Le lion", "L'arbre", "L'insecte"],
         "id": 8
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Notion 1 - SVT",
-      "description": "Concept clé de SVT au niveau 5eme"
+      "notion": "Chaîne alimentaire",
+      "description": "Une chaîne alimentaire montre comment l'énergie passe d'un organisme à l'autre lorsqu'il se nourrit."
     },
     {
-      "notion": "Notion 2 - SVT",
-      "description": "Concept clé de SVT au niveau 5eme"
+      "notion": "Biodiversité",
+      "description": "La biodiversité correspond à la variété des organismes vivants dans un environnement."
     },
     {
-      "notion": "Notion 3 - SVT",
-      "description": "Concept clé de SVT au niveau 5eme"
+      "notion": "Producteurs et consommateurs",
+      "description": "Les producteurs fabriquent de l'énergie grâce à la lumière, et les consommateurs mangent d'autres organismes."
     }
   ],
   "exerciseresponses": []

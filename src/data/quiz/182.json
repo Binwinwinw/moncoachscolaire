@@ -1,75 +1,94 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Histoire-Geographie 1ere - Série 182",
+    "title": "Quiz Diagnostic Français 6eme - Série 0182",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Histoire-Geographie",
-    "description": "Diagnostic Histoire-Geographie 1ere : Quiz Diagnostic 1ere Histoire-Géographie - Serie 8",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - Les valeurs de l’impératif",
     "status": "published",
-    "created_at": "2026-03-13 18:59:43",
-    "updated_at": "2026-03-13 18:59:43"
+    "created_at": "2026-04-06 06:25:38",
+    "updated_at": "2026-04-06 06:25:38"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Histoire-Géographie - Serie 8",
+    "title": "Français 6e - Les valeurs de l’impératif",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Histoire-Geographie",
+    "level": "6eme",
+    "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
         "type": "qcm",
-        "question": "Qui est le fondateur et premier président de la Ve République française ?",
+        "question": "Qu'est-ce que l'impératif ?",
         "choices": [
-          "Georges Pompidou",
-          "François Mitterrand",
-          "Charles de Gaulle",
-          "Valéry Giscard d'Estaing"
+          "Un mode qui exprime une action qui se déroule dans le passé",
+          "Un mode qui exprime une action qui se déroule dans le présent",
+          "Un mode qui exprime une action qui se déroulera dans le futur",
+          "Un mode qui exprime un ordre, une demande ou un conseil"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "Le président de la Ve République est élu au suffrage universel direct depuis 1962."
-      },
-      {
-        "type": "open",
-        "question": "Qu'est-ce que la cohabitation en politique française et quand survient-elle pour la première fois ?"
+        "question": "L'impératif peut être utilisé pour exprimer des ordres, des demandes ou des conseils de manière polie ou informelle, en fonction du contexte et de la relation entre les interlocuteurs."
       },
       {
         "type": "qcm",
-        "question": "Quel événement majeur de mai 1968 marque profondément la société française ?",
+        "question": "Quel est le rôle de l'impératif dans la communication écrite ?",
         "choices": [
-          "Un coup d'État militaire",
-          "Une grande vague de grèves et de contestation étudiante et ouvrière",
-          "L'assassinat du général de Gaulle",
-          "Une invasion étrangère"
+          "Il n'a pas de rôle spécifique",
+          "Il permet d'exprimer des affirmations",
+          "Il permet d'exprimer des questions",
+          "Il permet d'exprimer des ordres, des demandes ou des conseils"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "François Mitterrand est le premier président socialiste de la Ve République, élu en 1981."
-      },
-      {
-        "type": "open",
-        "question": "Qu'est-ce que la décentralisation mise en œuvre par les lois Defferre de 1982 ?"
+        "question": "L'utilisation correcte de l'impératif est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les écrivains utilisent les formes de l'impératif appropriées en fonction du contexte et du message qu'ils souhaitent transmettre, ce qui contribue à la clarté et à l'efficacité de la communication écrite."
       },
       {
         "type": "qcm",
-        "question": "Comment appelle-t-on la tendance à voter pour des partis extrémistes ou à s'abstenir par méfiance envers les institutions ?",
+        "question": "Pourquoi utilise-t-on l'impératif dans la communication écrite ?",
         "choices": [
-          "La bipolarisation",
-          "Le populisme",
-          "La démocratie participative",
-          "La crise de la représentation politique ou 'NIMBY'"
+          "Il n'a pas de rôle spécifique",
+          "Il permet d'exprimer des affirmations",
+          "Il permet d'exprimer des questions",
+          "Il permet d'exprimer des ordres, des demandes ou des conseils"
         ]
       },
       {
         "type": "vrai-faux",
-        "question": "La France est une République laïque, ce qui signifie que l'État ne reconnaît officiellement aucune religion."
+        "question": "L'utilisation incorrecte de l'impératif peut parfois entraîner des confusions ou des malentendus dans la communication écrite, en rendant difficile pour les lecteurs de comprendre les ordres, les demandes ou les conseils exprimés par l'impératif, ce qui peut nuire à la clarté du message et à l'efficacité de la communication écrite."
+      },
+      {
+        "type": "qcm",
+        "question": "Dans quel type de communication s'utilise l'impératif ?",
+        "choices": [
+          "Dans les affirmations",
+          "Dans les questions",
+          "Dans les ordres, les demandes ou les conseils",
+          "Dans les exclamations"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation de l'impératif ne peut se conjuguer qu'à certaines personnes."
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Fondamentaux de Français",
+      "description": "Notion du programme 6eme"
+    },
+    {
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
+    },
+    {
+      "notion": "Savoir-faire français",
+      "description": "Notion du programme 6eme"
+    }
+  ],
   "exerciseresponses": []
 }

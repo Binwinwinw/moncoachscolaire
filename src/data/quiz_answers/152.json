@@ -1,63 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 28",
-    "level": "1ere",
-    "subject": "Anglais"
+    "title": "Quiz Diagnostic Français 6eme - Série 0152",
+    "level": "6eme",
+    "subject": "Français"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 28",
+    "title": "Français 6e - Les temps verbaux (présent, passé composé, imparfait, futur simple…)",
     "question_count": 8,
+    "level": "6eme",
+    "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correction": "La bonne réponse est C : 'listening'. Le verbe 'enjoy' fait partie des verbes toujours suivis du gérondif (V-ing). On dit : enjoy + V-ing. Autres verbes du même groupe : avoid, finish, mind, suggest, keep, practise, miss, deny, imagine."
+        "answer": "Présent",
+        "correction": "Le présent est utilisé pour exprimer une action qui se déroule au moment où l'on parle."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "correction": "FAUX. Ces deux phrases ont des sens totalement différents ! 'I stopped smoking' = j'ai arrêté de fumer (le gérondif décrit l'activité qu'on a cessée). 'I stopped to smoke' = je me suis arrêté pour fumer (l'infinitif exprime le but de l'arrêt). C'est un des cas où le choix gérondif/infinitif change complètement le sens."
+        "answer": "vrai",
+        "correction": "C'est vrai. Le passé composé est utilisé pour exprimer une action qui s'est déroulée dans le passé et qui a un lien avec le présent, souvent en indiquant une action achevée ou un résultat présent."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correction": "La réponse correcte est : 'I remember meeting him.' On utilise le gérondif (meeting) après 'remember' quand on parle d'un souvenir d'une action passée. En revanche, 'remember + to infinitive' (remember to do) signifie ne pas oublier de faire quelque chose dans le futur. Ex : 'Remember to call him tomorrow.'"
+        "type": "qcm",
+        "answer": "Imparfait",
+        "correction": "L'imparfait est utilisé pour exprimer une action qui se déroulait de manière habituelle ou répétée dans le passé, ou pour décrire une situation ou un état dans le passé."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correction": "La bonne réponse est B : 'to sign'. Le verbe 'refuse' est toujours suivi de l'infinitif (to + verbe). Autres verbes du même groupe : want, decide, hope, plan, promise, agree, manage, afford, expect, seem, need, offer, fail, pretend."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Le futur simple est utilisé pour exprimer une action qui se déroulera dans le futur, souvent en indiquant une intention, une prédiction ou une promesse."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "correction": "FAUX. 'Suggest' est toujours suivi du gérondif (V-ing), jamais de l'infinitif. La phrase correcte est : 'She suggested going to the cinema.' Autres façons d'utiliser 'suggest' : 'She suggested that we go to the cinema.' (subjonctif) ou 'She suggested we should go to the cinema.'"
+        "type": "qcm",
+        "answer": "Passé composé",
+        "correction": "Le passé composé est utilisé pour exprimer une action qui s'est déroulée dans le passé et qui a un lien avec le présent, souvent en indiquant une action achevée ou un résultat présent."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "correction": "'I tried to open the window' = j'ai fait des efforts pour ouvrir la fenêtre (peut-être sans succès). 'I tried opening the window' = j'ai essayé d'ouvrir la fenêtre pour voir si cela résoudrait le problème (ex : pour aérer la pièce). Avec 'try + V-ing', l'action est réalisée comme une expérience ou une tentative de solution."
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le présent est utilisé pour exprimer une action qui se déroule au moment où l'on parle, tandis que l'imparfait est utilisé pour exprimer une action qui se déroulait de manière habituelle ou répétée dans le passé."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "correction": "La bonne réponse est C : 'They managed to finish the project on time.' 'Manage' est suivi de l'infinitif. Les erreurs dans les autres options : 'avoid' → V-ing (not 'to eat'), 'decide' → infinitif (not 'going'), 'admit' → V-ing (not 'to steal' → 'admitted stealing')."
+        "answer": "Imparfait",
+        "correction": "L'imparfait est utilisé pour exprimer une action qui se déroulait de manière habituelle ou répétée dans le passé, ou pour décrire une situation ou un état dans le passé."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "correction": "VRAI. Après une préposition (in, on, at, before, after, without, for, about, of, etc.), on utilise toujours le gérondif. Ex : 'before leaving', 'without thinking', 'good at swimming', 'interested in learning', 'thank you for coming'. C'est une règle constante en anglais."
+        "answer": "vrai",
+        "correction": "C'est vrai. Le futur simple est utilisé pour exprimer une intention, une prédiction ou une promesse concernant une action qui se déroulera dans le futur."
       }
-    ],
-    "level": "1ere",
-    "subject": "Anglais"
+    ]
   }
 }

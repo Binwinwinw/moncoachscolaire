@@ -1,63 +1,71 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 26",
-    "level": "1ere",
-    "subject": "Anglais"
+    "title": "Quiz Diagnostic Français 6eme - Série 0150",
+    "level": "6eme",
+    "subject": "Français"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 26",
+    "title": "Français 6e - Les homophones (a/à, et/est, son/sont…)",
     "question_count": 8,
+    "level": "6eme",
+    "subject": "Français",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "correction": "La bonne réponse est C : 'could'. Pour exprimer une capacité dans le passé, on utilise 'could' (passé de 'can'). 'Can' est réservé au présent. 'Must' exprime une obligation ou déduction. 'Should' exprime un conseil. Donc : 'When she was young, she could play the piano beautifully.'"
+        "answer": "est",
+        "correction": "Dans la phrase 'Il ___ un livre sur la table.', le mot correct est 'est' car il s'agit du verbe être conjugué à la troisième personne du singulier."
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "correction": "FAUX. 'Mustn't' exprime une interdiction forte : il est INTERDIT de se garer ici. Ne pas confondre avec 'don't have to' qui exprime l'absence d'obligation (ce n'est pas nécessaire, mais c'est possible). La distinction mustn't / don't have to est un piège classique en anglais."
+        "answer": "vrai",
+        "correction": "C'est vrai. 'Son' et 'sont' sont des homophones, c'est-à-dire qu'ils se prononcent de la même manière mais ont des significations différentes."
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "texte",
-        "correction": "'Must' exprime une obligation forte, souvent une règle officielle ou imposée par le locuteur. 'Should' exprime un conseil ou une recommandation : c'est ce qu'il serait bien de faire, mais il n'y a pas de contrainte stricte. Ainsi, 'must wear' = c'est obligatoire (règlement), tandis que 'should wear' = c'est recommandé (conseillé)."
+        "type": "qcm",
+        "answer": "à",
+        "correction": "Dans la phrase 'Il va ___ la plage demain.', le mot correct est 'à' car il s'agit d'une préposition indiquant la destination."
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "correction": "La bonne réponse est B : 'May I use your computer?' 'May' est le modal le plus formel pour demander une permission. 'Can' est acceptable mais plus informel. 'Should' exprime un conseil et non une demande de permission. 'Must' exprime une obligation, pas une question de permission."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. 'Et' et 'est' sont des homophones, c'est-à-dire qu'ils se prononcent de la même manière mais ont des significations différentes."
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "correction": "FAUX. 'Don't have to' signifie qu'il n'y a PAS d'obligation — c'est facultatif, mais pas interdit. La personne peut travailler le dimanche si elle le souhaite, simplement ce n'est pas requis. Pour exprimer une interdiction, il faudrait 'mustn't' ou 'am not allowed to'."
+        "type": "qcm",
+        "answer": "a",
+        "correction": "Dans la phrase 'Il ___ un chien et un chat.', le mot correct est 'a' car il s'agit du verbe avoir conjugué à la troisième personne du singulier."
       },
       {
         "index": 5,
         "question_id": 6,
-        "type": "texte",
-        "correction": "La réponse attendue est : 'You mustn't use your phone during the exam.' 'Mustn't' exprime une interdiction forte. On pourrait aussi utiliser 'cannot' / 'can't' (interdiction de permission) ou 'are not allowed to'. 'Don't have to' serait incorrect car il signifierait que c'est facultatif, non interdit."
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. 'Sont' et 'son' sont des homophones, c'est-à-dire qu'ils se prononcent de la même manière mais ont des significations différentes."
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "correction": "La bonne réponse est B : 'She will be able to speak Spanish after the course.' Les modaux comme 'can' ne peuvent pas être combinés avec un autre modal ('will can' est incorrect). Pour exprimer une capacité au futur, on utilise will + be able to. C'est la structure correcte pour les temps composés avec can."
+        "answer": "a",
+        "correction": "Dans la phrase 'Il ___ une voiture rouge.', le mot correct est 'a' car il s'agit du verbe avoir conjugué à la troisième personne du singulier."
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "correction": "VRAI. 'Should' a deux usages principaux : (1) donner un conseil : 'You should see a doctor' (tu devrais voir un médecin), et (2) exprimer une obligation morale : 'We should respect others' (nous devrions respecter les autres). Il est moins fort que 'must' et exprime davantage une recommandation qu'une contrainte."
+        "answer": "vrai",
+        "correction": "C'est vrai. 'Est' et 'et' sont des homophones, c'est-à-dire qu'ils se prononcent de la même manière mais ont des significations différentes."
       }
-    ],
-    "level": "1ere",
-    "subject": "Anglais"
+    ]
   }
 }

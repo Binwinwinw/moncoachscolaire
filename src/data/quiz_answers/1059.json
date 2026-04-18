@@ -1,48 +1,74 @@
 {
-  "quiz_id": 1059,
-  "title": "Polynôme du second degré — forme générale",
-  "subject": "Mathématiques",
-  "level": "1ère",
-  "answers": [
-    {
-      "question_id": "1059_1",
-      "correct_option": "B",
-      "explanation": "Un trinôme du second degré est ax² + bx + c avec a ≠ 0 (le coefficient de x² ne peut pas être nul)."
-    },
-    {
-      "question_id": "1059_2",
-      "correct": true,
-      "explanation": "Si a > 0, la parabole est ouverte vers le haut (souriant). Si a < 0, elle est ouverte vers le bas."
-    },
-    {
-      "question_id": "1059_3",
-      "correct_answer": "a = 2, b = −4, c = 3",
-      "explanation": "Dans ax² + bx + c : a est le coefficient de x², b celui de x et c le terme constant."
-    },
-    {
-      "question_id": "1059_4",
-      "correct_option": "B",
-      "explanation": "L'axe de symétrie de la parabole passe par le sommet : x = −b/(2a)."
-    },
-    {
-      "question_id": "1059_5",
-      "correct": true,
-      "explanation": "Abscisse du sommet : −b/(2a) = −(−6)/(2×1) = 6/2 = 3."
-    },
-    {
-      "question_id": "1059_6",
-      "correct_answer": "S(2, 3)",
-      "explanation": "xS = −(−4)/(2×1) = 2. yS = f(2) = 4 − 8 + 7 = 3. Sommet S(2, 3)."
-    },
-    {
-      "question_id": "1059_7",
-      "correct_option": "B",
-      "explanation": "x² + 1 = 1·x² + 0·x + 1 avec a = 1 ≠ 0 : c'est bien un trinôme du second degré."
-    },
-    {
-      "question_id": "1059_8",
-      "correct": true,
-      "explanation": "Le sommet de la parabole correspond au minimum (si a>0) ou au maximum (si a<0) du trinôme."
-    }
-  ]
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 1ère - SÃ©rie 1059",
+    "level": "1ère",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "Diagnostic Anglais 1ère - Série 1",
+    "question_count": 8,
+    "level": "1ère",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "went",
+        "correct": 1,
+        "correction": "The past tense of \"go\" is \"went\"."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "\"Their\" is a possessive pronoun used to indicate ownership."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "open",
+        "answer": "Je vais au marché",
+        "correction": "The correct translation of \"I am going to the market\" in French is \"Je vais au marché\"."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "joyful",
+        "correct": 2,
+        "correction": "\"Joyful\" is a synonym for \"happy\"."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "\"Affect\" is primarily a verb, although it can also be used as a noun in psychology."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "open",
+        "answer": "children",
+        "correction": "The plural form of \"child\" is \"children\"."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "She doesn't like pizza.",
+        "correct": 1,
+        "correction": "\"She doesn't like pizza.\" is the correct sentence because it uses the correct auxiliary verb \"doesn't\" for third person singular."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "\"Quickly\" is an adverb because it describes how an action is performed."
+      }
+    ]
+  }
 }

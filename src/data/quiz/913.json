@@ -1,6 +1,6 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 6eme Anglais - Serie 07",
+    "title": "Anglais - Débutants : Present Simple et Vocabulaire Utile",
     "type": "quiz",
     "level": "6eme",
     "subject": "Anglais",
@@ -10,7 +10,7 @@
     "updated_at": "2026-03-08 00:05:00"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 6eme Anglais - Serie 07",
+    "title": "Anglais - Débutants : Present Simple et Vocabulaire Utile",
     "level": "6eme",
     "subject": "Anglais",
     "question_count": 8,
@@ -19,78 +19,82 @@
     "questions": [
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "question": "What is your name?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "My name is John",
+          "I am from Paris",
+          "I like eating",
+          "I am 12 years old"
         ],
         "id": 1
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau 6eme aborde des notions fondamentales en Anglais.",
+        "question": "Le verbe 'to be' est utilisé pour décrire l'état de quelque chose",
         "id": 2
       },
       {
         "type": "texte",
-        "question": "Cite un exemple concret lié à Anglais.",
-        "placeholder": "Exemple...",
+        "question": "Complete the sentence : I ________ (have) a pet cat.",
         "id": 3
       },
       {
         "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
+        "question": "Quel est le present simple du verbe 'to eat' ?",
         "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
+          "eat",
+          "eats",
+          "eating",
+          "to eat"
         ],
         "id": 4
       },
       {
         "type": "vrai-faux",
-        "question": "Le niveau 6eme aborde des notions fondamentales en Anglais.",
+        "question": "Le verbe 'have' est utilisé pour décrire la possession de quelque chose",
         "id": 5
       },
       {
-        "type": "texte",
-        "question": "Cite un exemple concret lié à Anglais.",
-        "placeholder": "Exemple...",
-        "id": 6
+        "type": "qcm",
+        "question": "What do you do every morning?",
+        "id": 6,
+        "choices": [
+          "I go to school",
+          "I watch TV",
+          "I play football",
+          "I eat breakfast"
+        ]
       },
       {
-        "type": "qcm",
-        "question": "Quel concept clé as-tu étudié en Anglais cette année ?",
-        "choices": [
-          "Concept A",
-          "Concept B",
-          "Concept C",
-          "Concept D"
-        ],
+        "type": "texte",
+        "question": "Write a short sentence using the verb 'to be' in the present simple tense",
         "id": 7
       },
       {
-        "type": "vrai-faux",
-        "question": "Le niveau 6eme aborde des notions fondamentales en Anglais.",
-        "id": 8
+        "type": "qcm",
+        "question": "Quel est le vocabulaire utile pour demander son chemin en anglais ?",
+        "id": 8,
+        "choices": [
+          "Excuse me, where is...",
+          "How much is this?",
+          "What is your name?",
+          "I like eating"
+        ]
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "Notion 1 - Anglais",
-      "description": "Concept clé de Anglais au niveau 6eme"
+      "notion": "Present Simple",
+      "description": "Le present simple est un tense utilisé pour décrire des habitudes, des faits généraux et des actions qui se répètent régulièrement"
     },
     {
-      "notion": "Notion 2 - Anglais",
-      "description": "Concept clé de Anglais au niveau 6eme"
+      "notion": "Be et Have",
+      "description": "Les verbes be et have sont des verbes importants en anglais qui servent à décrire l'état ou la possession de quelque chose"
     },
     {
-      "notion": "Notion 3 - Anglais",
-      "description": "Concept clé de Anglais au niveau 6eme"
+      "notion": "Questions Courantes",
+      "description": "Les questions courantes en anglais sont utilisées pour poser des questions simples et courantes dans la vie quotidienne"
     }
   ],
   "exerciseresponses": []

@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Suites arithmétiques",
     "status": "published",
-    "created_at": "2026-03-13 11:24:24",
-    "updated_at": "2026-03-13 11:24:24"
+    "created_at": "2026-04-06 06:40:48",
+    "updated_at": "2026-04-06 06:40:48"
   },
   "quiz": {
     "title": "Suites arithmétiques",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Suite arithmétique",
+      "description": "Une suite de nombres dans laquelle chaque terme après le premier est obtenu en ajoutant une constante fixe, appelée la raison, au terme précédent"
+    },
+    {
+      "notion": "Terme général",
+      "description": "Le terme général d'une suite arithmétique est donné par la formule : an = a1 + (n-1)r, où an est le nième terme, a1 est le premier terme, n est la position du terme et r est la raison"
+    },
+    {
+      "notion": "Raison d'une suite arithmétique",
+      "description": "La raison d'une suite arithmétique est la différence constante entre deux termes consécutifs, notée r, qui permet de définir la progression de la suite"
+    }
+  ],
   "exerciseresponses": []
 }

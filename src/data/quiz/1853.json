@@ -1,0 +1,90 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Physique-Chimie terminale - SÃ©rie 1853",
+    "type": "quiz",
+    "level": "terminale",
+    "subject": "Physique-Chimie",
+    "description": "Diagnostic Physique-Chimie terminale : Physique-Chimie terminale - Mesures et unites",
+    "status": "published",
+    "created_at": "2026-04-06 06:40:48",
+    "updated_at": "2026-04-06 06:40:48",
+    "source": "Eduscol programmes officiels + BOEN",
+    "programme_ref": "BO special ndeg8 du 25 juillet 2019 + Eduscol Physique-Chimie Terminale"
+  },
+  "quiz": {
+    "title": "Physique-Chimie terminale - Mesures et unites",
+    "type": "quiz",
+    "level": "terminale",
+    "subject": "Physique-Chimie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "[Physique-Chimie terminale] Sur le theme 'Mesures et unites', quelle demarche est la plus efficace pour reussir un exercice diagnostic ?",
+        "choices": [
+          "Relire la consigne et identifier l'objectif",
+          "Repondre vite sans verifier",
+          "Ignorer le contexte",
+          "Memoriser sans comprendre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Physique-Chimie terminale] Sur 'Mesures et unites', verifier ses reponses avant validation ameliore la fiabilite."
+      },
+      {
+        "type": "open",
+        "question": "[Physique-Chimie terminale] Cite une methode concrete pour progresser sur le theme 'Mesures et unites'."
+      },
+      {
+        "type": "qcm",
+        "question": "[Physique-Chimie terminale] Quelle action favorise la memorisation durable du theme 'Mesures et unites' ?",
+        "choices": [
+          "Faire des rappels espaces",
+          "Tout revoir une seule fois",
+          "Copier sans comprendre",
+          "Eviter les exercices"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Physique-Chimie terminale] L'explication d'une reponse est moins importante que la reponse elle-meme."
+      },
+      {
+        "type": "open",
+        "question": "[Physique-Chimie terminale] Propose un exemple d'auto-correction pertinente sur 'Mesures et unites'."
+      },
+      {
+        "type": "qcm",
+        "question": "[Physique-Chimie terminale] Quel indicateur montre une bonne maitrise du theme 'Mesures et unites' ?",
+        "choices": [
+          "Expliquer clairement la demarche",
+          "Donner une reponse au hasard",
+          "Eviter les notions difficiles",
+          "Memoriser sans application"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "[Physique-Chimie terminale] Alterner entrainement, feedback et reprise des erreurs aide a progresser sur 'Mesures et unites'."
+      }
+    ]
+  },
+  "exercisenotion": [
+    {
+      "notion": "Mécanique quantique intro",
+      "description": "Notion fondamentale de Physique-Chimie"
+    },
+    {
+      "notion": "Thermodynamique",
+      "description": "Notion fondamentale de Physique-Chimie"
+    },
+    {
+      "notion": "Électromagnétisme",
+      "description": "Notion fondamentale de Physique-Chimie"
+    }
+  ],
+  "exerciseresponses": []
+}

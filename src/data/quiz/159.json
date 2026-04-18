@@ -1,96 +1,93 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 35",
+    "title": "Quiz Diagnostic Français 6eme - Série 0159",
     "type": "quiz",
-    "level": "1ere",
-    "subject": "Anglais",
-    "description": "Diagnostic Anglais 1ere : Les articles et déterminants",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - Les fonctions grammaticales (sujet, complément d’objet direct, complément d’objet indirect…)",
     "status": "published",
-    "created_at": "2026-03-08 00:05:00",
-    "updated_at": "2026-03-08 00:05:00"
+    "created_at": "2026-04-06 06:25:38",
+    "updated_at": "2026-04-06 06:25:38"
   },
   "quiz": {
-    "title": "Quiz Diagnostic 1ere Anglais - Serie 35",
-    "level": "1ere",
-    "subject": "Anglais",
+    "title": "Français 6e - Les fonctions grammaticales (sujet, complément d’objet direct, complément d’objet indirect…)",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
-        "id": 1,
         "type": "qcm",
-        "question": "Choose the correct article: 'She wants to become ___ engineer.'",
+        "question": "Quelle est la fonction grammaticale du mot 'chien' dans la phrase suivante : 'Le chien mange sa nourriture.' ?",
         "choices": [
-          "a",
-          "an",
-          "the",
-          "no article"
+          "Sujet",
+          "Complément d'objet direct",
+          "Complément d'objet indirect",
+          "Attribut du sujet"
         ]
       },
       {
-        "id": 2,
         "type": "vrai-faux",
-        "question": "We use 'the' before the names of countries in English, for example 'the France' or 'the Germany'."
+        "question": "Le complément d'objet direct (COD) est la fonction grammaticale qui désigne l'élément qui subit directement l'action du verbe."
       },
       {
-        "id": 3,
-        "type": "texte",
-        "question": "Explique pourquoi 'the' est utilisé dans la deuxième phrase mais pas dans la première : 'I saw a dog in the park. The dog was barking loudly.'",
-        "placeholder": "Écris ta réponse ici..."
-      },
-      {
-        "id": 4,
         "type": "qcm",
-        "question": "Which sentence uses articles correctly?",
+        "question": "Quelle est la fonction grammaticale du mot 'nourriture' dans la phrase suivante : 'Le chien mange sa nourriture.' ?",
         "choices": [
-          "She plays the tennis every weekend.",
-          "He has a breakfast at seven o'clock.",
-          "The life is beautiful.",
-          "I love listening to music."
+          "Sujet",
+          "Complément d'objet direct",
+          "Complément d'objet indirect",
+          "Attribut du sujet"
         ]
       },
       {
-        "id": 5,
         "type": "vrai-faux",
-        "question": "In 'She plays the piano beautifully', the use of 'the' before a musical instrument is correct."
+        "question": "Le complément d'objet indirect (COI) est la fonction grammaticale qui désigne l'élément qui subit indirectement l'action du verbe, souvent introduit par une préposition."
       },
       {
-        "id": 6,
-        "type": "texte",
-        "question": "Ajoute les articles manquants (a, an, the ou ∅) : '___ Amazon is ___ longest river in ___ South America.'",
-        "placeholder": "Écris ta réponse ici..."
-      },
-      {
-        "id": 7,
         "type": "qcm",
-        "question": "Choose the correct option: 'My brother is ___ doctor. He works at ___ hospital in the city centre.'",
+        "question": "Quelle est la fonction grammaticale du mot 'chien' dans la phrase suivante : 'Le chien est gentil.' ?",
         "choices": [
-          "a doctor / a hospital",
-          "a doctor / the hospital",
-          "the doctor / a hospital",
-          "a doctor / an hospital"
+          "Sujet",
+          "Complément d'objet direct",
+          "Complément d'objet indirect",
+          "Attribut du sujet"
         ]
       },
       {
-        "id": 8,
         "type": "vrai-faux",
-        "question": "In the sentence 'She studied history at university', the absence of articles before 'history' and 'university' is correct."
+        "question": "L'attribut du sujet est la fonction grammaticale qui désigne un élément qui qualifie ou décrit le sujet, souvent relié au sujet par un verbe d'état comme 'être'."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la fonction grammaticale du mot 'gentil' dans la phrase suivante : 'Le chien est gentil.' ?",
+        "choices": [
+          "Sujet",
+          "Complément d'objet direct",
+          "Complément d'objet indirect",
+          "Attribut du sujet"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La compréhension des fonctions grammaticales est essentielle pour analyser la structure d'une phrase et comprendre les relations entre les différents éléments qui la composent."
       }
     ]
   },
   "exercisenotion": [
     {
-      "notion": "L'article indéfini : a / an",
-      "description": "A/an s'utilisent devant un nom singulier dénombrable mentionné pour la première fois ou non spécifique. A devant une consonne : a book, a car. An devant un son vocalique : an apple, an hour (h muet), an umbrella. Ils correspondent à 'un/une' en français."
+      "notion": "Fondamentaux de Français",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "L'article défini : the",
-      "description": "The s'utilise quand le nom est déjà connu (mentionné avant), unique (the sun, the moon), ou spécifié (the book on the table). Aussi avec les superlatifs (the best), les instruments de musique (play the piano), les noms de fleuves/océans/chaînes de montagnes (the Thames, the Alps)."
+      "notion": "Compétences de base 6eme",
+      "description": "Notion du programme 6eme"
     },
     {
-      "notion": "L'article zéro (absence d'article)",
-      "description": "On n'utilise pas d'article avec : les noms indénombrables au sens général (water, music, love), les noms pluriels au sens général (cats are independent), les noms propres, les repas (have breakfast), les sports (play football), les matières scolaires (study English), les langues."
+      "notion": "Savoir-faire français",
+      "description": "Notion du programme 6eme"
     }
   ],
   "exerciseresponses": []

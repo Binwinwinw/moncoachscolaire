@@ -6,8 +6,8 @@
     "subject": "Mathématiques",
     "description": "Diagnostic Mathématiques Terminale : Règles de dérivation",
     "status": "published",
-    "created_at": "2026-03-13 11:24:24",
-    "updated_at": "2026-03-13 11:24:24"
+    "created_at": "2026-04-06 06:40:48",
+    "updated_at": "2026-04-06 06:40:48"
   },
   "quiz": {
     "title": "Règles de dérivation",
@@ -70,6 +70,19 @@
       }
     ]
   },
-  "exercisenotion": [],
+  "exercisenotion": [
+    {
+      "notion": "Règle du produit",
+      "description": "La dérivée du produit de deux fonctions f et g est donnée par (f·g)' = f'·g + f·g'"
+    },
+    {
+      "notion": "Dérivation",
+      "description": "La dérivation est une opération mathématique qui consiste à trouver la dérivée d'une fonction, c'est-à-dire la fonction qui représente la variation instantanée de la fonction originale"
+    },
+    {
+      "notion": "Fonctions composées",
+      "description": "La compréhension des règles de dérivation, notamment la règle du produit, est essentielle pour dériver des fonctions composées et résoudre des problèmes de calcul différentiel"
+    }
+  ],
   "exerciseresponses": []
 }
