@@ -1,90 +1,91 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Anglais 1ère - SÃ©rie 1063",
+    "title": "Quiz Diagnostic Mathématiques 1ere - Série 1063",
     "type": "quiz",
-    "level": "1ère",
-    "subject": "Anglais",
-    "description": "Diagnostic Anglais 1ère : Diagnostic Anglais 1ère - Série 5",
+    "level": "1ere",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 1ere : Mathématiques 1ère - Utiliser le produit scalaire",
     "status": "published",
-    "created_at": "2026-04-06 06:40:39",
-    "updated_at": "2026-04-06 06:40:39",
-    "source": "Eduscol programmes officiels + BOEN",
-    "programme_ref": "BO special ndeg1 du 22 janvier 2019 (LGT) + Eduscol Langues vivantes Premiere"
+    "created_at": "2026-04-18T06:41:40.135754Z",
+    "updated_at": "2026-04-18T06:41:40.135754Z",
+    "source": "MonCoachScolaire",
+    "programme_ref": "Mathématiques 1ère"
   },
   "quiz": {
-    "title": "Diagnostic Anglais 1ère - Série 5",
+    "title": "Mathématiques 1ère - Utiliser le produit scalaire",
     "type": "quiz",
-    "level": "1ère",
-    "subject": "Anglais",
+    "level": "1ere",
+    "subject": "Mathématiques",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
+        "id": "1063_1",
         "type": "qcm",
-        "question": "What is the comparative form of the adjective \"bad\"?",
+        "question": "Si deux vecteurs sont perpendiculaires, leur produit scalaire vaut :",
         "choices": [
-          "badder",
-          "worse",
-          "more bad",
-          "worser"
+          "0",
+          "1",
+          "-1",
+          "leur norme"
         ]
       },
       {
+        "id": "1063_2",
         "type": "vrai-faux",
-        "question": "The word \"your\" is a possessive pronoun."
+        "question": "Un produit scalaire positif indique un angle aigu entre deux vecteurs."
       },
       {
-        "type": "vrai-faux",
-        "question": "The correct translation of \"He is reading a book\" in French is \"Il lit un livre\"."
-      },
-      {
+        "id": "1063_3",
         "type": "qcm",
-        "question": "Which of the following words is a synonym for \"small\"?",
+        "question": "Quelle formule relie le produit scalaire à l'angle entre deux vecteurs ?",
         "choices": [
-          "tiny",
-          "big",
-          "large",
-          "huge"
+          "u·v = ||u|| ||v|| cos(θ)",
+          "u·v = ||u|| + ||v||",
+          "u·v = sin(θ)",
+          "u·v = θ²"
         ]
       },
       {
+        "id": "1063_4",
         "type": "vrai-faux",
-        "question": "\"It's\" can be used as a possessive pronoun."
+        "question": "Si l'angle entre deux vecteurs vaut 90°, alors cos(90°) = 1."
       },
       {
-        "type": "vrai-faux",
-        "question": "The past tense of \"drink\" is \"drank\"."
-      },
-      {
+        "id": "1063_5",
         "type": "qcm",
-        "question": "Choose the correct sentence:",
+        "question": "Dans un repère, si u = (1 ; 2) et v = (3 ; 4), combien vaut u·v ?",
         "choices": [
-          "They doesn't like music.",
-          "They don't like music.",
-          "They isn't like music.",
-          "They no like music."
+          "7",
+          "10",
+          "11",
+          "14"
         ]
       },
       {
+        "id": "1063_6",
         "type": "vrai-faux",
-        "question": "The word \"quietly\" is an adverb."
+        "question": "Le produit scalaire peut être utilisé pour prouver l'orthogonalité de deux vecteurs."
+      },
+      {
+        "id": "1063_7",
+        "type": "qcm",
+        "question": "Quel renseignement cherche-t-on souvent à établir avec un produit scalaire ?",
+        "choices": [
+          "Un angle ou une perpendicularité",
+          "Le périmètre du cercle",
+          "Une moyenne statistique",
+          "La dérivée d'une fonction"
+        ]
+      },
+      {
+        "id": "1063_8",
+        "type": "vrai-faux",
+        "question": "Un produit scalaire peut être négatif."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Civilisation britannique",
-      "description": "Notion fondamentale de Anglais"
-    },
-    {
-      "notion": "Nuances grammaticales",
-      "description": "Notion fondamentale de Anglais"
-    },
-    {
-      "notion": "Débat en anglais",
-      "description": "Notion fondamentale de Anglais"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

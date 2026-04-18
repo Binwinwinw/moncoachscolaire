@@ -1,90 +1,91 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Anglais 1ère - SÃ©rie 1062",
+    "title": "Quiz Diagnostic Mathématiques 1ere - Série 1062",
     "type": "quiz",
-    "level": "1ère",
-    "subject": "Anglais",
-    "description": "Diagnostic Anglais 1ère : Diagnostic Anglais 1ère - Série 4",
+    "level": "1ere",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 1ere : Mathématiques 1ère - Dériver une fonction",
     "status": "published",
-    "created_at": "2026-04-06 06:40:39",
-    "updated_at": "2026-04-06 06:40:39",
-    "source": "Eduscol programmes officiels + BOEN",
-    "programme_ref": "BO special ndeg1 du 22 janvier 2019 (LGT) + Eduscol Langues vivantes Premiere"
+    "created_at": "2026-04-18T06:41:40.134448Z",
+    "updated_at": "2026-04-18T06:41:40.134448Z",
+    "source": "MonCoachScolaire",
+    "programme_ref": "Mathématiques 1ère"
   },
   "quiz": {
-    "title": "Diagnostic Anglais 1ère - Série 4",
+    "title": "Mathématiques 1ère - Dériver une fonction",
     "type": "quiz",
-    "level": "1ère",
-    "subject": "Anglais",
+    "level": "1ere",
+    "subject": "Mathématiques",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
+        "id": "1062_1",
         "type": "qcm",
-        "question": "What is the past tense of the verb \"run\"?",
+        "question": "Quelle est la dérivée de la fonction x ↦ x² ?",
         "choices": [
-          "runned",
-          "ran",
-          "run",
-          "running"
+          "x",
+          "2x",
+          "x²",
+          "2"
         ]
       },
       {
+        "id": "1062_2",
         "type": "vrai-faux",
-        "question": "The word \"their\" is a contraction of \"they are\"."
+        "question": "La dérivée d'une constante est nulle."
       },
       {
-        "type": "vrai-faux",
-        "question": "Nous avons un chien."
-      },
-      {
+        "id": "1062_3",
         "type": "qcm",
-        "question": "Which of the following words is an antonym of \"fast\"?",
+        "question": "Quelle est la dérivée de f(x) = 3x + 2 ?",
         "choices": [
-          "quick",
-          "slow",
-          "speedy",
-          "rapid"
+          "2",
+          "3",
+          "3x",
+          "x + 2"
         ]
       },
       {
+        "id": "1062_4",
         "type": "vrai-faux",
-        "question": "\"It's\" is a possessive pronoun."
+        "question": "Si f'(x) est positive sur un intervalle, alors f est croissante sur cet intervalle."
       },
       {
-        "type": "vrai-faux",
-        "question": "The past participle of \"write\" is \"written\"."
-      },
-      {
+        "id": "1062_5",
         "type": "qcm",
-        "question": "Choose the correct sentence:",
+        "question": "Quelle est la dérivée de la fonction x ↦ x³ ?",
         "choices": [
-          "She don't like movies.",
-          "She doesn't like movies.",
-          "She isn't like movies.",
-          "She no like movies."
+          "x²",
+          "2x",
+          "3x²",
+          "3x"
         ]
       },
       {
+        "id": "1062_6",
         "type": "vrai-faux",
-        "question": "The word \"loudly\" is an adverb."
+        "question": "Le nombre dérivé en un point donne la pente de la tangente à la courbe."
+      },
+      {
+        "id": "1062_7",
+        "type": "qcm",
+        "question": "Quelle est la dérivée de la fonction x ↦ 1/x sur son domaine de définition ?",
+        "choices": [
+          "1/x²",
+          "-1/x²",
+          "x",
+          "-x"
+        ]
+      },
+      {
+        "id": "1062_8",
+        "type": "vrai-faux",
+        "question": "Quand f'(a) = 0, le point d'abscisse a peut correspondre à un extremum local."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Civilisation britannique",
-      "description": "Notion fondamentale de Anglais"
-    },
-    {
-      "notion": "Nuances grammaticales",
-      "description": "Notion fondamentale de Anglais"
-    },
-    {
-      "notion": "Débat en anglais",
-      "description": "Notion fondamentale de Anglais"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

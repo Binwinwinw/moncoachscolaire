@@ -1,70 +1,74 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Anglais 1ère - SÃ©rie 1059",
-    "level": "1ère",
-    "subject": "Anglais"
+    "title": "Quiz Diagnostic Mathématiques 1ere - Série 1059",
+    "level": "1ere",
+    "subject": "Mathématiques"
   },
   "quiz": {
-    "title": "Diagnostic Anglais 1ère - Série 1",
+    "title": "Mathématiques 1ère - Résoudre une équation du second degré",
     "question_count": 8,
-    "level": "1ère",
-    "subject": "Anglais",
+    "level": "1ere",
+    "subject": "Mathématiques",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "went",
-        "correction": "The past tense of \"go\" is \"went\"."
+        "correction": "On calcule Δ = b² - 4ac = (-4)² - 4×1×3 = 16 - 12 = 4.",
+        "answer": "4",
+        "correct": 1
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "\"Their\" is a possessive pronoun used to indicate ownership."
+        "correction": "Un discriminant négatif indique l'absence de racines réelles.",
+        "answer": "vrai"
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. The correct translation of \"I am going to the market\" in French is \"Je vais au marché\"."
+        "type": "qcm",
+        "correction": "On factorise x² - 5x + 6 en (x - 2)(x - 3).",
+        "answer": "2 et 3",
+        "correct": 1
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "answer": "joyful",
-        "correction": "\"Joyful\" is a synonym for \"happy\"."
+        "type": "vrai-faux",
+        "correction": "Elle s'écrit (x - 3)² = 0 : la racine 3 est double.",
+        "answer": "vrai"
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "answer": "faux",
-        "correction": "\"Affect\" is primarily a verb, although it can also be used as a noun in psychology."
+        "type": "qcm",
+        "correction": "L'axe de symétrie vaut x = -b/(2a) = 4/2 = 2.",
+        "answer": "x = 2",
+        "correct": 2
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. The plural form of \"child\" is \"children\"."
+        "correction": "En x = 2, on obtient y = 4 - 8 + 7 = 3.",
+        "answer": "vrai"
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "She doesn't like pizza.",
-        "correction": "\"She doesn't like pizza.\" is the correct sentence because it uses the correct auxiliary verb \"doesn't\" for third person singular."
+        "correction": "C'est une différence de deux carrés : x² - 3² = (x - 3)(x + 3).",
+        "answer": "(x - 3)(x + 3)",
+        "correct": 1
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "\"Quickly\" is an adverb because it describes how an action is performed."
+        "correction": "La vérification par substitution est un bon réflexe pour éviter une erreur de calcul.",
+        "answer": "vrai"
       }
     ]
   }

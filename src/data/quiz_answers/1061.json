@@ -1,105 +1,74 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Anglais 1ère - SÃ©rie 1061",
-    "level": "1ère",
-    "subject": "Anglais"
+    "title": "Quiz Diagnostic Mathématiques 1ere - Série 1061",
+    "level": "1ere",
+    "subject": "Mathématiques"
   },
   "quiz": {
-    "title": "Diagnostic Anglais 1ère - Série 3",
-    "question_count": 13,
-    "level": "1ère",
-    "subject": "Anglais",
+    "title": "Mathématiques 1ère - Étudier une fonction",
+    "question_count": 8,
+    "level": "1ere",
+    "subject": "Mathématiques",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "worst",
-        "correction": "The superlative form of \"bad\" is \"worst\"."
+        "correction": "On calcule f(2) = 2×2 + 1 = 5.",
+        "answer": "5",
+        "correct": 2
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "\"Your\" is a possessive pronoun used to indicate ownership."
+        "correction": "Comme f(1) = 3, le point (1 ; 3) appartient bien à la courbe.",
+        "answer": "vrai"
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. The correct translation of \"They are playing soccer\" in French is \"Ils jouent au football\"."
+        "type": "qcm",
+        "correction": "Quand x augmente sur [0 ; +∞[, son carré augmente aussi.",
+        "answer": "croissante",
+        "correct": 1
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "answer": "large",
-        "correction": "\"Large\" is a synonym for \"big\"."
+        "type": "vrai-faux",
+        "correction": "Un coefficient directeur négatif traduit une baisse quand x augmente.",
+        "answer": "vrai"
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "answer": "faux",
-        "correction": "\"It's\" is a contraction of \"it is\" or \"it has\", not a possessive pronoun. The possessive pronoun for \"it\" is \"its\"."
+        "type": "qcm",
+        "correction": "On résout x - 4 = 0, donc x = 4.",
+        "answer": "4",
+        "correct": 2
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. The past tense of \"see\" is \"saw\"."
+        "correction": "Il permet d'associer plusieurs x à leurs images pour comprendre la courbe.",
+        "answer": "vrai"
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "He doesn't like sports.",
-        "correction": "The correct sentence is \"He doesn't like sports.\" because \"he\" is third person singular and requires \"does not\" for negation."
+        "correction": "Entre ces deux valeurs, l'image passe de 2 à 5 : on observe une augmentation.",
+        "answer": "La fonction augmente",
+        "correct": 0
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "\"Happily\" is an adverb because it describes how an action is performed."
-      },
-      {
-        "index": 8,
-        "question_id": 9,
-        "type": "qcm",
-        "answer": "large",
-        "correction": "\"Large\" is a synonym for \"big\"."
-      },
-      {
-        "index": 9,
-        "question_id": 10,
-        "type": "vrai-faux",
-        "answer": "faux",
-        "correction": "\"It's\" is a contraction of \"it is\" or \"it has\", not a possessive pronoun. The possessive pronoun for \"it\" is \"its\"."
-      },
-      {
-        "index": 10,
-        "question_id": 11,
-        "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. The past tense of \"see\" is \"saw\"."
-      },
-      {
-        "index": 11,
-        "question_id": 12,
-        "type": "qcm",
-        "answer": "He doesn't like sports.",
-        "correction": "The correct sentence is \"He doesn't like sports.\" because \"he\" is third person singular and requires \"does not\" for negation."
-      },
-      {
-        "index": 12,
-        "question_id": 13,
-        "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "\"Happily\" is an adverb because it describes how an action is performed."
+        "correction": "Les antécédents correspondent aux abscisses, donc à l'axe horizontal.",
+        "answer": "vrai"
       }
     ]
   }

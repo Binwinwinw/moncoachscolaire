@@ -1,70 +1,74 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Anglais 1ère - SÃ©rie 1062",
-    "level": "1ère",
-    "subject": "Anglais"
+    "title": "Quiz Diagnostic Mathématiques 1ere - Série 1062",
+    "level": "1ere",
+    "subject": "Mathématiques"
   },
   "quiz": {
-    "title": "Diagnostic Anglais 1ère - Série 4",
+    "title": "Mathématiques 1ère - Dériver une fonction",
     "question_count": 8,
-    "level": "1ère",
-    "subject": "Anglais",
+    "level": "1ere",
+    "subject": "Mathématiques",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "ran",
-        "correction": "The past tense of \"run\" is \"ran\"."
+        "correction": "La dérivée de x² est 2x.",
+        "answer": "2x",
+        "correct": 1
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "answer": "faux",
-        "correction": "\"Their\" is a possessive pronoun, not a contraction. The contraction of \"they are\" is \"they're\"."
+        "correction": "Une constante ne varie pas, sa pente est donc égale à 0.",
+        "answer": "vrai"
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. The correct translation of \"We have a dog\" in French is \"Nous avons un chien\"."
+        "type": "qcm",
+        "correction": "La dérivée d'une fonction affine ax + b est a.",
+        "answer": "3",
+        "correct": 1
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "answer": "slow",
-        "correction": "\"Slow\" is an antonym of \"fast\"."
+        "type": "vrai-faux",
+        "correction": "Le signe positif de la dérivée indique une augmentation de la fonction.",
+        "answer": "vrai"
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "answer": "faux",
-        "correction": "\"It's\" is a contraction of \"it is\" or \"it has\", not a possessive pronoun. The possessive pronoun for \"it\" is \"its\"."
+        "type": "qcm",
+        "correction": "La dérivée de x³ est 3x².",
+        "answer": "3x²",
+        "correct": 2
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. The past participle of \"write\" is \"written\". It is used in perfect tenses and passive voice."
+        "correction": "C'est précisément l'interprétation géométrique du nombre dérivé.",
+        "answer": "vrai"
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "She doesn't like movies.",
-        "correction": "\"She doesn't like movies.\" is the correct sentence because it uses the correct auxiliary verb \"doesn't\" for third person singular."
+        "correction": "Sur x ≠ 0, la dérivée de x⁻¹ est -x⁻² = -1/x².",
+        "answer": "-1/x²",
+        "correct": 1
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "\"Loudly\" is an adverb because it describes how an action is performed."
+        "correction": "Une dérivée nulle peut signaler un maximum, un minimum ou un point particulier à étudier.",
+        "answer": "vrai"
       }
     ]
   }

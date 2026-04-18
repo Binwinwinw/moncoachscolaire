@@ -1,90 +1,91 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Anglais 1ère - SÃ©rie 1059",
+    "title": "Quiz Diagnostic Mathématiques 1ere - Série 1059",
     "type": "quiz",
-    "level": "1ère",
-    "subject": "Anglais",
-    "description": "Diagnostic Anglais 1ère : Diagnostic Anglais 1ère - Série 1",
+    "level": "1ere",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 1ere : Mathématiques 1ère - Résoudre une équation du second degré",
     "status": "published",
-    "created_at": "2026-04-06 06:40:39",
-    "updated_at": "2026-04-06 06:40:39",
-    "source": "Eduscol programmes officiels + BOEN",
-    "programme_ref": "BO special ndeg1 du 22 janvier 2019 (LGT) + Eduscol Langues vivantes Premiere"
+    "created_at": "2026-04-18T06:41:40.130224Z",
+    "updated_at": "2026-04-18T06:41:40.130224Z",
+    "source": "MonCoachScolaire",
+    "programme_ref": "Mathématiques 1ère"
   },
   "quiz": {
-    "title": "Diagnostic Anglais 1ère - Série 1",
+    "title": "Mathématiques 1ère - Résoudre une équation du second degré",
     "type": "quiz",
-    "level": "1ère",
-    "subject": "Anglais",
+    "level": "1ere",
+    "subject": "Mathématiques",
     "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
+        "id": "1059_1",
         "type": "qcm",
-        "question": "What is the past tense of the verb \"go\"?",
+        "question": "Quelle est la valeur du discriminant de x² - 4x + 3 = 0 ?",
         "choices": [
-          "goed",
-          "went",
-          "gone",
-          "goes"
+          "1",
+          "4",
+          "8",
+          "16"
         ]
       },
       {
+        "id": "1059_2",
         "type": "vrai-faux",
-        "question": "The word \"their\" is a possessive pronoun."
+        "question": "Si le discriminant d'une équation du second degré est négatif, il n'y a pas de solution réelle."
       },
       {
-        "type": "vrai-faux",
-        "question": "The correct translation of \"I am going to the market\" in French is \"Je vais au marché\"."
-      },
-      {
+        "id": "1059_3",
         "type": "qcm",
-        "question": "Which of the following is a synonym for \"happy\"?",
+        "question": "Quelles sont les solutions de x² - 5x + 6 = 0 ?",
         "choices": [
-          "sad",
-          "angry",
-          "joyful",
-          "tired"
+          "1 et 6",
+          "2 et 3",
+          "-2 et -3",
+          "0 et 6"
         ]
       },
       {
+        "id": "1059_4",
         "type": "vrai-faux",
-        "question": "The word \"affect\" is a noun."
+        "question": "L'équation x² - 6x + 9 = 0 possède une racine double."
       },
       {
-        "type": "vrai-faux",
-        "question": "The plural form of \"child\" is \"children\"."
-      },
-      {
+        "id": "1059_5",
         "type": "qcm",
-        "question": "Choose the correct sentence:",
+        "question": "Quel est l'axe de symétrie de la parabole y = x² - 4x + 7 ?",
         "choices": [
-          "She don't like pizza.",
-          "She doesn't like pizza.",
-          "She isn't like pizza.",
-          "She no like pizza."
+          "x = -2",
+          "x = 0",
+          "x = 2",
+          "x = 4"
         ]
       },
       {
+        "id": "1059_6",
         "type": "vrai-faux",
-        "question": "The word \"quickly\" is an adverb."
+        "question": "Le sommet de la parabole y = x² - 4x + 7 est le point (2 ; 3)."
+      },
+      {
+        "id": "1059_7",
+        "type": "qcm",
+        "question": "Quelle écriture factorisée correspond à x² - 9 ?",
+        "choices": [
+          "(x - 9)²",
+          "(x - 3)(x + 3)",
+          "(x - 1)(x - 9)",
+          "(x + 9)²"
+        ]
+      },
+      {
+        "id": "1059_8",
+        "type": "vrai-faux",
+        "question": "Remplacer une solution trouvée dans l'équation de départ permet de vérifier le résultat."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Civilisation britannique",
-      "description": "Notion fondamentale de Anglais"
-    },
-    {
-      "notion": "Nuances grammaticales",
-      "description": "Notion fondamentale de Anglais"
-    },
-    {
-      "notion": "Débat en anglais",
-      "description": "Notion fondamentale de Anglais"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

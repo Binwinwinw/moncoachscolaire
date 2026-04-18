@@ -1,70 +1,74 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Anglais 1ère - SÃ©rie 1060",
-    "level": "1ère",
-    "subject": "Anglais"
+    "title": "Quiz Diagnostic Mathématiques 1ere - Série 1060",
+    "level": "1ere",
+    "subject": "Mathématiques"
   },
   "quiz": {
-    "title": "Diagnostic Anglais 1ère - Série 2",
+    "title": "Mathématiques 1ère - Factoriser une expression",
     "question_count": 8,
-    "level": "1ère",
-    "subject": "Anglais",
+    "level": "1ere",
+    "subject": "Mathématiques",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "better",
-        "correction": "The comparative form of \"good\" is \"better\"."
+        "correction": "On met 3x en facteur commun : 3x² + 6x = 3x(x + 2).",
+        "answer": "3x(x + 2)",
+        "correct": 0
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "answer": "faux",
-        "correction": "\"Their\" is a possessive pronoun, not a contraction. The contraction of \"they are\" is \"they're\"."
+        "correction": "C'est l'identité remarquable a² + 2ab + b² = (a + b)².",
+        "answer": "vrai"
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. The correct translation of \"She has a cat\" in French is \"Elle a un chat\"."
+        "type": "qcm",
+        "correction": "x² - 16 = x² - 4², donc on applique la différence de deux carrés.",
+        "answer": "(x - 4)(x + 4)",
+        "correct": 0
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "answer": "cold",
-        "correction": "\"Cold\" is an antonym of \"hot\"."
+        "type": "vrai-faux",
+        "correction": "La bonne forme est (x - 3)².",
+        "answer": "faux"
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "answer": "faux",
-        "correction": "\"It's\" is a contraction of \"it is\" or \"it has\", not a possessive pronoun. The possessive pronoun for \"it\" is \"its\"."
+        "type": "qcm",
+        "correction": "On met x en facteur commun dans x² - x.",
+        "answer": "x(x - 1)",
+        "correct": 0
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. The past participle of \"eat\" is \"eaten\". It is used in perfect tenses and passive voice."
+        "correction": "Une équation factorisée permet souvent d'appliquer la règle du produit nul.",
+        "answer": "vrai"
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "They don't like music.",
-        "correction": "The correct sentence is \"They don't like music.\" because \"they\" is plural and requires \"do not\" for negation."
+        "correction": "C'est l'identité remarquable a² - 2ab + b² avec a = 2x et b = 3.",
+        "answer": "(2x - 3)²",
+        "correct": 0
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "answer": "faux",
-        "correction": "\"Slowly\" is an adverb because it describes how an action is performed, not a noun or pronoun."
+        "correction": "Le développement permet de contrôler qu'on retrouve l'expression de départ.",
+        "answer": "vrai"
       }
     ]
   }

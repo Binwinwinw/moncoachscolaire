@@ -1,122 +1,91 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Anglais 1ère - SÃ©rie 1061",
+    "title": "Quiz Diagnostic Mathématiques 1ere - Série 1061",
     "type": "quiz",
-    "level": "1ère",
-    "subject": "Anglais",
-    "description": "Diagnostic Anglais 1ère : Diagnostic Anglais 1ère - Série 3",
+    "level": "1ere",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 1ere : Mathématiques 1ère - Étudier une fonction",
     "status": "published",
-    "created_at": "2026-04-06 06:40:39",
-    "updated_at": "2026-04-06 06:40:39",
-    "source": "Eduscol programmes officiels + BOEN",
-    "programme_ref": "BO special ndeg1 du 22 janvier 2019 (LGT) + Eduscol Langues vivantes Premiere"
+    "created_at": "2026-04-18T06:41:40.133112Z",
+    "updated_at": "2026-04-18T06:41:40.133112Z",
+    "source": "MonCoachScolaire",
+    "programme_ref": "Mathématiques 1ère"
   },
   "quiz": {
-    "title": "Diagnostic Anglais 1ère - Série 3",
+    "title": "Mathématiques 1ère - Étudier une fonction",
     "type": "quiz",
-    "level": "1ère",
-    "subject": "Anglais",
-    "question_count": 13,
+    "level": "1ere",
+    "subject": "Mathématiques",
+    "question_count": 8,
     "passing_score": 70,
     "time_limit_minutes": 15,
     "questions": [
       {
+        "id": "1061_1",
         "type": "qcm",
-        "question": "What is the superlative form of the adjective \"bad\"?",
+        "question": "Si f(x) = 2x + 1, quelle est l'image de 2 ?",
         "choices": [
-          "badder",
-          "more bad",
-          "worst",
-          "worser"
+          "3",
+          "4",
+          "5",
+          "6"
         ]
       },
       {
+        "id": "1061_2",
         "type": "vrai-faux",
-        "question": "The word \"your\" is a possessive pronoun."
+        "question": "Le point (1 ; 3) appartient à la courbe de la fonction f(x) = 2x + 1."
       },
       {
-        "type": "vrai-faux",
-        "question": "Ils jouent au football."
-      },
-      {
+        "id": "1061_3",
         "type": "qcm",
-        "question": "Which of the following words is a synonym for \"big\"?",
+        "question": "Sur l'intervalle [0 ; +∞[, la fonction carré x ↦ x² est :",
         "choices": [
-          "small",
-          "large",
-          "tiny",
-          "little"
+          "constante",
+          "croissante",
+          "décroissante",
+          "négative"
         ]
       },
       {
+        "id": "1061_4",
         "type": "vrai-faux",
-        "question": "\"It's\" can be used as a possessive pronoun."
+        "question": "Une fonction affine de coefficient directeur négatif est décroissante."
       },
       {
-        "type": "vrai-faux",
-        "question": "The past tense of \"see\" is \"saw\"."
-      },
-      {
+        "id": "1061_5",
         "type": "qcm",
-        "question": "Choose the correct sentence:",
+        "question": "Quel est l'antécédent de 0 par la fonction f(x) = x - 4 ?",
         "choices": [
-          "He don't like sports.",
-          "He doesn't like sports.",
-          "He isn't like sports.",
-          "He no like sports."
+          "0",
+          "1",
+          "4",
+          "-4"
         ]
       },
       {
+        "id": "1061_6",
         "type": "vrai-faux",
-        "question": "The word \"happily\" is an adverb."
+        "question": "Un tableau de valeurs peut aider à tracer ou lire une courbe de fonction."
       },
       {
+        "id": "1061_7",
         "type": "qcm",
-        "question": "Which of the following words is a synonym for \"big\"?",
+        "question": "Si f(0) = 2 et f(1) = 5, que peut-on dire entre 0 et 1 ?",
         "choices": [
-          "small",
-          "large",
-          "tiny",
-          "little"
+          "La fonction augmente",
+          "La fonction vaut toujours 0",
+          "La fonction est forcément négative",
+          "La fonction est constante"
         ]
       },
       {
+        "id": "1061_8",
         "type": "vrai-faux",
-        "question": "\"It's\" can be used as a possessive pronoun."
-      },
-      {
-        "type": "vrai-faux",
-        "question": "The past tense of \"see\" is \"saw\"."
-      },
-      {
-        "type": "qcm",
-        "question": "Choose the correct sentence:",
-        "choices": [
-          "He don't like sports.",
-          "He doesn't like sports.",
-          "He isn't like sports.",
-          "He no like sports."
-        ]
-      },
-      {
-        "type": "vrai-faux",
-        "question": "The word \"happily\" is an adverb."
+        "question": "Sur un graphique de fonction, on lit les antécédents sur l'axe horizontal."
       }
     ]
   },
-  "exercisenotion": [
-    {
-      "notion": "Civilisation britannique",
-      "description": "Notion fondamentale de Anglais"
-    },
-    {
-      "notion": "Nuances grammaticales",
-      "description": "Notion fondamentale de Anglais"
-    },
-    {
-      "notion": "Débat en anglais",
-      "description": "Notion fondamentale de Anglais"
-    }
-  ],
+  "exercisenotion": [],
   "exerciseresponses": []
 }

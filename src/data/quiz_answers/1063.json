@@ -1,70 +1,74 @@
 {
   "contents": {
-    "title": "Quiz Diagnostic Anglais 1ère - SÃ©rie 1063",
-    "level": "1ère",
-    "subject": "Anglais"
+    "title": "Quiz Diagnostic Mathématiques 1ere - Série 1063",
+    "level": "1ere",
+    "subject": "Mathématiques"
   },
   "quiz": {
-    "title": "Diagnostic Anglais 1ère - Série 5",
+    "title": "Mathématiques 1ère - Utiliser le produit scalaire",
     "question_count": 8,
-    "level": "1ère",
-    "subject": "Anglais",
+    "level": "1ere",
+    "subject": "Mathématiques",
     "answers": [
       {
         "index": 0,
         "question_id": 1,
         "type": "qcm",
-        "answer": "worse",
-        "correction": "The comparative form of \"bad\" is \"worse\"."
+        "correction": "Avec un angle droit, cos(90°) = 0, donc le produit scalaire est nul.",
+        "answer": "0",
+        "correct": 0
       },
       {
         "index": 1,
         "question_id": 2,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "\"Your\" is a possessive pronoun used to indicate ownership."
+        "correction": "Quand l'angle est aigu, son cosinus est positif.",
+        "answer": "vrai"
       },
       {
         "index": 2,
         "question_id": 3,
-        "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. The correct translation of \"He is reading a book\" in French is \"Il lit un livre\"."
+        "type": "qcm",
+        "correction": "C'est la formule géométrique de référence du produit scalaire.",
+        "answer": "u·v = ||u|| ||v|| cos(θ)",
+        "correct": 0
       },
       {
         "index": 3,
         "question_id": 4,
-        "type": "qcm",
-        "answer": "tiny",
-        "correction": "\"Tiny\" is a synonym for \"small\"."
+        "type": "vrai-faux",
+        "correction": "cos(90°) = 0, pas 1.",
+        "answer": "faux"
       },
       {
         "index": 4,
         "question_id": 5,
-        "type": "vrai-faux",
-        "answer": "faux",
-        "correction": "\"It's\" is a contraction of \"it is\" or \"it has\", not a possessive pronoun. The possessive pronoun for \"it\" is \"its\"."
+        "type": "qcm",
+        "correction": "u·v = 1×3 + 2×4 = 3 + 8 = 11.",
+        "answer": "11",
+        "correct": 2
       },
       {
         "index": 5,
         "question_id": 6,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "VRAI. The past tense of \"drink\" is \"drank\"."
+        "correction": "Quand le produit scalaire est nul, on peut conclure à la perpendicularité.",
+        "answer": "vrai"
       },
       {
         "index": 6,
         "question_id": 7,
         "type": "qcm",
-        "answer": "They don't like music.",
-        "correction": "The correct sentence is \"They don't like music.\" because \"they\" is plural and requires \"do not\" for negation."
+        "correction": "Le produit scalaire sert notamment à relier vecteurs, longueurs et angle.",
+        "answer": "Un angle ou une perpendicularité",
+        "correct": 0
       },
       {
         "index": 7,
         "question_id": 8,
         "type": "vrai-faux",
-        "answer": "vrai",
-        "correction": "\"Quietly\" is an adverb because it describes how an action is performed."
+        "correction": "C'est le cas lorsque l'angle entre deux vecteurs est obtus.",
+        "answer": "vrai"
       }
     ]
   }
