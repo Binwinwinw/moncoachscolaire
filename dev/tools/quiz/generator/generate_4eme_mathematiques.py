@@ -10,9 +10,12 @@ import random
 from datetime import UTC, datetime
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", "..", ".."))
 OUTPUT_DIR = os.path.join(SCRIPT_DIR, "mathematiques_4eme_quizzes")
 QUIZ_DIR = os.path.join(OUTPUT_DIR, "quiz")
 ANSWERS_DIR = os.path.join(OUTPUT_DIR, "quiz_answers")
+RUNTIME_QUIZ_DIR = os.path.join(REPO_ROOT, "src", "data", "quiz")
+RUNTIME_ANSWERS_DIR = os.path.join(REPO_ROOT, "src", "data", "quiz_answers")
 
 
 def make_qcm(question_id, question, options, correct_option, explanation):
@@ -304,6 +307,102 @@ quizzes_data = [
     ),
 ]
 
+ADDITIONAL_THEMES = [
+    (4104, "Nombres relatifs et repérage"),
+    (4105, "Calcul littéral"),
+    (4106, "Équations simples"),
+    (4107, "Puissances"),
+    (4108, "Théorème de Pythagore - initiation"),
+    (4109, "Statistiques"),
+    (4110, "Probabilités simples"),
+]
+
+
+def build_generic_quiz(theme_id, theme_title):
+    notions = [
+        {"notion": "Méthode", "description": f"Identifier la bonne méthode sur le thème '{theme_title}'."},
+        {"notion": "Vérification", "description": "Contrôler le résultat par une estimation ou une relecture logique."},
+        {"notion": "Justification", "description": "Être capable d'expliquer la démarche utilisée."},
+    ]
+    questions = [
+        make_qcm(
+            f"{theme_id}question_1",
+            f"En mathématiques 4e, quel réflexe aide le plus à réussir un exercice sur '{theme_title}' ?",
+            [
+                "Repérer la notion et organiser la démarche",
+                "Répondre au hasard",
+                "Ignorer les unités et les indices",
+                "Aller vite sans vérifier",
+            ],
+            "Repérer la notion et organiser la démarche",
+            "Identifier la notion permet de choisir l'outil adapté et d'éviter les erreurs de méthode.",
+        ),
+        make_true_false(
+            f"{theme_id}question_2",
+            f"Relire le calcul ou la figure avant de valider peut aider sur '{theme_title}'.",
+            True,
+            "Une vérification finale permet de repérer un signe oublié ou un résultat incohérent.",
+        ),
+        make_qcm(
+            f"{theme_id}question_3",
+            f"Quelle habitude aide à progresser sur '{theme_title}' ?",
+            [
+                "Refaire un exemple corrigé puis s'entraîner seul",
+                "Mémoriser sans comprendre",
+                "Éviter les exercices d'application",
+                "Changer de méthode sans raison",
+            ],
+            "Refaire un exemple corrigé puis s'entraîner seul",
+            "Le passage guidé vers l'autonomie consolide la compréhension durablement.",
+        ),
+        make_true_false(
+            f"{theme_id}question_4",
+            f"La justification de la démarche est inutile si le résultat semble juste sur '{theme_title}'.",
+            False,
+            "La justification montre que l'élève comprend vraiment ce qu'il fait.",
+        ),
+        make_qcm(
+            f"{theme_id}question_5",
+            f"Quel indicateur montre une bonne maîtrise du thème '{theme_title}' ?",
+            [
+                "Savoir expliquer chaque étape du raisonnement",
+                "Répondre très vite sans vérifier",
+                "Oublier les erreurs précédentes",
+                "Réciter sans exemple",
+            ],
+            "Savoir expliquer chaque étape du raisonnement",
+            "L'explication du raisonnement est un vrai signe de compréhension en 4e.",
+        ),
+        make_true_false(
+            f"{theme_id}question_6",
+            f"Faire un schéma, un tableau ou un brouillon peut aider à réussir sur '{theme_title}'.",
+            True,
+            "Ces outils aident à organiser les données et à clarifier le raisonnement.",
+        ),
+        make_qcm(
+            f"{theme_id}question_7",
+            f"Si tu bloques sur une question liée à '{theme_title}', quel réflexe est le plus pertinent ?",
+            [
+                "Revenir à l'énoncé et isoler l'étape bloquante",
+                "Abandonner immédiatement",
+                "Inventer une réponse",
+                "Supprimer les données gênantes",
+            ],
+            "Revenir à l'énoncé et isoler l'étape bloquante",
+            "Repérer le point précis de blocage permet souvent de relancer la résolution.",
+        ),
+        make_true_false(
+            f"{theme_id}question_8",
+            f"Corriger ses erreurs après l'exercice aide à progresser sur '{theme_title}'.",
+            True,
+            "Le retour sur erreur améliore la précision et renforce la mémoire de la méthode.",
+        ),
+    ]
+    return (theme_id, theme_title, "Mathématiques", "4eme", notions, questions)
+
+
+quizzes_data.extend(build_generic_quiz(theme_id, theme_title) for theme_id, theme_title in ADDITIONAL_THEMES)
+
 
 def normalize_question_type(question_type):
     qtype = str(question_type).strip().lower()
@@ -471,22 +570,24 @@ def verify_random_sentinel():
 
 
 def write_quiz_files():
-    os.makedirs(QUIZ_DIR, exist_ok=True)
-    os.makedirs(ANSWERS_DIR, exist_ok=True)
+    for directory in (QUIZ_DIR, ANSWERS_DIR, RUNTIME_QUIZ_DIR, RUNTIME_ANSWERS_DIR):
+        os.makedirs(directory, exist_ok=True)
 
     for qid, title, subject, level, notions, questions in quizzes_data:
         quiz_obj = make_quiz(qid, title, subject, level, notions, questions)
         answers_obj = make_answers(qid, title, subject, level, questions)
 
-        with open(os.path.join(QUIZ_DIR, f"{qid}.json"), "w", encoding="utf-8", newline="\n") as file_obj:
-            json.dump(quiz_obj, file_obj, ensure_ascii=False, indent=2)
-            file_obj.write("\n")
+        for target_dir in (QUIZ_DIR, RUNTIME_QUIZ_DIR):
+            with open(os.path.join(target_dir, f"{qid}.json"), "w", encoding="utf-8", newline="\n") as file_obj:
+                json.dump(quiz_obj, file_obj, ensure_ascii=False, indent=2)
+                file_obj.write("\n")
 
-        with open(os.path.join(ANSWERS_DIR, f"{qid}.json"), "w", encoding="utf-8", newline="\n") as file_obj:
-            json.dump(answers_obj, file_obj, ensure_ascii=False, indent=2)
-            file_obj.write("\n")
+        for target_dir in (ANSWERS_DIR, RUNTIME_ANSWERS_DIR):
+            with open(os.path.join(target_dir, f"{qid}.json"), "w", encoding="utf-8", newline="\n") as file_obj:
+                json.dump(answers_obj, file_obj, ensure_ascii=False, indent=2)
+                file_obj.write("\n")
 
-    print(f"{len(quizzes_data)} quiz générés dans {OUTPUT_DIR}")
+    print(f"{len(quizzes_data)} quiz générés dans {OUTPUT_DIR} et synchronisés vers le runtime")
     verify_random_sentinel()
 
 

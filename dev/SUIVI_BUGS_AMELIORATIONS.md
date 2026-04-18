@@ -1,4 +1,63 @@
-﻿## [18/04/2026] 🧹 Nettoyage runtime placeholders — VALIDÉ
+﻿## [18/04/2026] 🚀 Grosse consolidation de la base de quiz — collège fortement renforcé
+
+**Statut : EN COURS, mais palier majeur validé**
+
+### Fait dans cette session
+
+- conversion ciblée des questions runtime `open` en `vrai-faux` sur le stock concerné
+- contrôle après traitement : **0 question open restante** sur la plage vérifiée
+- audit de couverture par niveau/matière pour guider les enrichissements réellement utiles
+- complétion des générateurs collège encore vides ou incomplets
+- synchronisation directe des lots validés vers `src/data/quiz/` et `src/data/quiz_answers/`
+
+### État d'avancement constaté
+
+**4e :**
+
+- Anglais : 10
+- EMC : 10
+- Espagnol : 10
+- Français : 10
+- Histoire-Géographie : 10
+- Mathématiques : 10
+- Physique-Chimie : 10
+- SVT : 10
+- Technologie : 10
+
+**5e :**
+
+- Anglais : 10
+- EMC : 10
+- Espagnol : 10
+- Français : 10
+- Histoire-Géographie : 10
+- Mathématiques : 10
+- Physique-Chimie : 10
+- Technologie : 10
+- SVT : 16 (lot legacy déjà présent)
+
+**3e :**
+
+- ajout validé sur Anglais : 10
+- ajout validé sur Français : 10
+- ajout validé sur Mathématiques : 10
+- les autres matières déjà remplies restent disponibles en runtime
+
+### Gain concret
+
+- le **collège** n'est plus le point principal de fragilité de la couverture quiz
+- les nouveaux lots générés sont structurés proprement et ne réintroduisent pas de type `open`
+- la base runtime est désormais nettement plus homogène et robuste
+
+### Prochaines étapes recommandées
+
+1. faire une passe qualitative sur les formulations les moins naturelles
+2. auditer les éventuels doublons/anciens lots legacy sur certaines matières
+3. poursuivre l'équilibrage sur le lycée si la priorité produit reste la densité de contenu
+
+---
+
+## [18/04/2026] 🧹 Nettoyage runtime placeholders — VALIDÉ
 
 Résumé :
 

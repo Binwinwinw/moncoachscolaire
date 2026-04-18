@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 5eme - Série 1883",
+    "level": "5eme",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Français 5eme - Classes grammaticales",
+    "question_count": 8,
+    "level": "5eme",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Repérer les indices du texte et les mots-clés",
+        "correct": 0,
+        "correction": "En français, les indices présents dans la phrase ou le texte orientent l'analyse correcte."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La relecture attentive aide à mieux entendre la structure de la phrase et à clarifier le sens."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Comparer plusieurs exemples corrigés",
+        "correct": 0,
+        "correction": "Comparer des exemples permet d'identifier les régularités et d'affiner la compréhension."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "La justification montre que la règle est comprise et peut être réutilisée dans un autre contexte."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Être capable d'expliquer la règle avec ses mots",
+        "correct": 0,
+        "correction": "Quand un élève peut reformuler la règle, il montre une compréhension plus solide."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le brouillon et le repérage visuel aident à structurer la réponse et à éviter les oublis."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Reprendre un exemple puis reformuler la règle",
+        "correct": 0,
+        "correction": "La compréhension vient souvent d'un retour à un exemple concret accompagné d'une reformulation."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'analyse des erreurs renforce la mémorisation et améliore la précision future."
+      }
+    ]
+  }
+}

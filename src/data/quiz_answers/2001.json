@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 5eme - Série 2001",
+    "level": "5eme",
+    "subject": "SVT"
+  },
+  "quiz": {
+    "title": "SVT 5eme - Risques naturels et prévention",
+    "question_count": 8,
+    "level": "5eme",
+    "subject": "SVT",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Observer le document, les indices et le vocabulaire scientifique",
+        "correct": 0,
+        "correction": "En SVT, les schémas, les données et le vocabulaire scientifique guident le raisonnement."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le vocabulaire précis permet de mieux décrire et expliquer les phénomènes étudiés."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Comparer plusieurs observations ou exemples",
+        "correct": 0,
+        "correction": "La comparaison permet d'identifier les points communs, les différences et les liens logiques."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "La justification permet de montrer que la notion est comprise et réutilisable."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Expliquer un phénomène avec des observations précises",
+        "correct": 0,
+        "correction": "Une explication claire appuyée sur les observations montre une compréhension solide."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les schémas et tableaux contiennent souvent les indices utiles à l'analyse."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Revenir aux observations et reformuler le problème",
+        "correct": 0,
+        "correction": "Le retour aux faits observables aide à remettre le raisonnement en marche."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le retour sur erreur renforce la compréhension et la mémorisation en sciences."
+      }
+    ]
+  }
+}

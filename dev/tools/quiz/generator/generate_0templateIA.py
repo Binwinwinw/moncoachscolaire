@@ -11,7 +11,7 @@ import os
 from datetime import UTC, datetime
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", ".."))
+REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", "..", ".."))
 
 # À adapter dans chaque clone
 BASENAME = "<matiere>_<niveau>_quizzes"
@@ -71,9 +71,7 @@ def normalize_question_type(question_type):
         return "vrai-faux"
     if qt == "qcm":
         return "qcm"
-    if qt in {"open", "texte", "text"}:
-        return "open"
-    return qt
+    return "vrai-faux"
 
 
 def resolve_qcm_answer(question):
@@ -90,8 +88,8 @@ def resolve_qcm_answer(question):
 
 
 def make_quiz(qid, title, subject, level, questions,
-              source="Eduscol + BOEN",
-              programme_ref=""):
+                source="Eduscol + BOEN",
+                programme_ref=""):
     answer_keys = {"correct_answer", "correct_option", "correct", "explanation"}
     clean_questions = [
         {k: v for k, v in q.items() if k not in answer_keys}
@@ -114,7 +112,7 @@ def make_quiz(qid, title, subject, level, questions,
             }
         else:
             sanitized = {
-                "type": "open",
+                "type": "vrai-faux",
                 "question": str(question.get("question", "")),
             }
         quiz_questions.append(sanitized)
@@ -170,11 +168,13 @@ def make_answers(qid, title, subject, level, questions):
                 "correction": str(q.get("explanation", "")),
             })
         else:
+            tf_source = q.get("correct", q.get("correct_answer", "faux"))
+            tf_answer = "vrai" if str(tf_source).strip().lower() in {"true", "vrai", "1"} else "faux"
             answers.append({
                 "index": index,
                 "question_id": index + 1,
-                "type": "open",
-                "answer": str(q.get("correct_answer", "")),
+                "type": "vrai-faux",
+                "answer": tf_answer,
                 "correction": str(q.get("explanation", "")),
             })
 
@@ -220,6 +220,42 @@ quizzes_data = [
     ),
 ]
 
+def verify_random_sentinel():
+    if not quizzes_data:
+        print("[sentinel] skipped: no quiz data")
+        return
+
+    sentinel_qid, _, _, _, _ = quizzes_data[0]
+    quiz_path = os.path.join(GEN_QUIZ_DIR, f"{sentinel_qid}.json")
+    answers_path = os.path.join(GEN_ANSWERS_DIR, f"{sentinel_qid}.json")
+
+    with open(quiz_path, "r", encoding="utf-8") as file_obj:
+        quiz_payload = json.load(file_obj)
+
+    with open(answers_path, "r", encoding="utf-8") as file_obj:
+        answers_payload = json.load(file_obj)
+
+    questions = list(quiz_payload.get("quiz", {}).get("questions", []))
+    answers = list(answers_payload.get("quiz", {}).get("answers", []))
+    allowed_types = {"qcm", "vrai-faux"}
+
+    if len(questions) != len(answers):
+        raise ValueError(
+            f"[sentinel] mismatch for quiz {sentinel_qid}: questions={len(questions)} answers={len(answers)}"
+        )
+
+    for index, question in enumerate(questions):
+        question_type = str(question.get("type", ""))
+        if question_type not in allowed_types:
+            raise ValueError(
+                f"[sentinel] invalid question type for quiz {sentinel_qid} at index {index}: {question_type}"
+            )
+
+    print(
+        f"[sentinel] OK quiz={sentinel_qid} questions={len(questions)} answers={len(answers)}"
+    )
+
+
 # La fonction make_quiz définie plus haut reste l'unique source de vérité.
 def write_quiz_files():
     count = 0
@@ -249,6 +285,7 @@ def write_quiz_files():
         print(f"  ✓ {qid}.json - {title}")
 
     print(f"\n✅ {count} quiz générés (+ {count} réponses)")
+    verify_random_sentinel()
 
 
 if __name__ == "__main__":

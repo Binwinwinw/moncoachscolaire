@@ -16,14 +16,16 @@ import random
 from datetime import UTC, datetime
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", "..", ".."))
 OUTPUT_DIR = os.path.join(SCRIPT_DIR, "<niveau>_<matiere>_quizzes")
 QUIZ_DIR = os.path.join(OUTPUT_DIR, "quiz")
 ANSWERS_DIR = os.path.join(OUTPUT_DIR, "quiz_answers")
+RUNTIME_QUIZ_DIR = os.path.join(REPO_ROOT, "src", "data", "quiz")
+RUNTIME_ANSWERS_DIR = os.path.join(REPO_ROOT, "src", "data", "quiz_answers")
 
 # Keep this tuple updated and aligned with the declared ID range.
-# Pattern aligned with the real runtime example from quiz 1:
+# Pattern aligned with the current runtime structure:
 # qcm, vrai-faux, qcm, qcm, vrai-faux, qcm, qcm, vrai-faux
-# Use "texte" only when an open answer is truly needed.
 quizzes_data = [
     (
         "0001",
@@ -128,9 +130,7 @@ def normalize_question_type(question_type):
         return "vrai-faux"
     if qtype == "qcm":
         return "qcm"
-    if qtype in {"texte", "open", "text"}:
-        return "open"
-    return "open"
+    return "vrai-faux"
 
 
 def resolve_qcm_answer(question):
@@ -151,7 +151,7 @@ def make_quiz(qid, title, subject, level, questions):
     runtime_questions = []
 
     for question in questions:
-        qtype = normalize_question_type(question.get("type", "texte"))
+        qtype = normalize_question_type(question.get("type", "vrai-faux"))
         if qtype == "qcm":
             runtime_questions.append(
                 {
@@ -170,7 +170,7 @@ def make_quiz(qid, title, subject, level, questions):
         else:
             runtime_questions.append(
                 {
-                    "type": "open",
+                    "type": "vrai-faux",
                     "question": str(question.get("question", "")),
                 }
             )
@@ -204,7 +204,7 @@ def make_quiz(qid, title, subject, level, questions):
 def make_answers(qid, title, subject, level, questions):
     answers = []
     for index, q in enumerate(questions):
-        qtype = normalize_question_type(q.get("type", "texte"))
+        qtype = normalize_question_type(q.get("type", "vrai-faux"))
         if qtype == "qcm":
             answers.append(
                 {
@@ -225,13 +225,13 @@ def make_answers(qid, title, subject, level, questions):
                     "correction": q["explanation"],
                 }
             )
-        else:  # texte
+        else:
             answers.append(
                 {
                     "index": index,
                     "question_id": index + 1,
-                    "type": "open",
-                    "answer": q["correct_answer"],
+                    "type": "vrai-faux",
+                    "answer": "vrai" if str(q.get("correct", q.get("correct_answer", "faux"))).strip().lower() in {"true", "vrai", "1"} else "faux",
                     "correction": q["explanation"],
                 }
             )
@@ -275,7 +275,7 @@ def verify_random_sentinel():
             f"[sentinel] mismatch for quiz {sentinel_qid}: questions={len(questions)} answers={len(answers)}"
         )
 
-    allowed_types = {"qcm", "vrai-faux", "open"}
+    allowed_types = {"qcm", "vrai-faux"}
     for index, question in enumerate(questions):
         question_type = str(question.get("type", ""))
         if question_type not in allowed_types:
@@ -291,20 +291,24 @@ def verify_random_sentinel():
 def write_quiz_files():
     os.makedirs(QUIZ_DIR, exist_ok=True)
     os.makedirs(ANSWERS_DIR, exist_ok=True)
+    os.makedirs(RUNTIME_QUIZ_DIR, exist_ok=True)
+    os.makedirs(RUNTIME_ANSWERS_DIR, exist_ok=True)
 
     for qid, title, subject, level, questions in quizzes_data:
         quiz = make_quiz(qid, title, subject, level, questions)
         answers = make_answers(qid, title, subject, level, questions)
 
-        with open(os.path.join(QUIZ_DIR, f"{qid}.json"), "w", encoding="utf-8", newline="\n") as f:
-            json.dump(quiz, f, ensure_ascii=False, indent=2)
-            f.write("\n")
+        for dir_path, payload in [
+            (QUIZ_DIR, quiz),
+            (ANSWERS_DIR, answers),
+            (RUNTIME_QUIZ_DIR, quiz),
+            (RUNTIME_ANSWERS_DIR, answers),
+        ]:
+            with open(os.path.join(dir_path, f"{qid}.json"), "w", encoding="utf-8", newline="\n") as f:
+                json.dump(payload, f, ensure_ascii=False, indent=2)
+                f.write("\n")
 
-        with open(os.path.join(ANSWERS_DIR, f"{qid}.json"), "w", encoding="utf-8", newline="\n") as f:
-            json.dump(answers, f, ensure_ascii=False, indent=2)
-            f.write("\n")
-
-    print(f"{len(quizzes_data)} quiz generated in {OUTPUT_DIR}")
+    print(f"{len(quizzes_data)} quiz generated in {OUTPUT_DIR} and synced to runtime")
     verify_random_sentinel()
 
 

@@ -27,7 +27,8 @@ from typing import Dict, List, Tuple
 
 
 SCRIPT_DIR = Path(__file__).resolve().parent
-REPO_ROOT = SCRIPT_DIR.parents[2]
+# generator/ -> quiz/ -> tools/ -> dev/ -> repo root
+REPO_ROOT = SCRIPT_DIR.parents[3]
 
 
 @dataclass(frozen=True)
@@ -36,7 +37,7 @@ class PairKey:
     subject: str
 
 
-ALLOWED_TYPES = {"qcm", "vrai-faux", "texte"}
+ALLOWED_TYPES = {"qcm", "vrai-faux"}
 
 
 def now_utc_z() -> str:
@@ -96,7 +97,11 @@ def normalize_text(text: str) -> str:
 def normalize_question_type(raw_type: str) -> str:
     qtype = normalize_value(raw_type).lower()
     qtype = qtype.replace("_", "-")
-    return qtype
+    if qtype in {"vrai faux", "vrai-faux"}:
+        return "vrai-faux"
+    if qtype == "qcm":
+        return "qcm"
+    return "vrai-faux"
 
 
 def sanitize_public_question(question: dict) -> dict:

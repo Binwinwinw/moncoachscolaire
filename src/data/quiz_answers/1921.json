@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 5eme - Série 1921",
+    "level": "5eme",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "Anglais 5eme - Can and cannot",
+    "question_count": 8,
+    "level": "5eme",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Read the instruction carefully",
+        "correct": 0,
+        "correction": "Reading the instruction helps identify what the question expects in English."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Key words often reveal the grammar point or vocabulary target."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Practise with short sentences and examples",
+        "correct": 0,
+        "correction": "Short, repeated practice helps learners reuse the notion in context."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Justification improves understanding and helps retain grammar or vocabulary."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Using the notion in a simple sentence",
+        "correct": 0,
+        "correction": "Being able to reuse the notion in context is a strong sign of understanding."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "A final re-read helps catch agreement or vocabulary errors."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Look for familiar words and grammar clues",
+        "correct": 0,
+        "correction": "Grammar clues and familiar vocabulary help rebuild meaning."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Error analysis reinforces the correct form and builds confidence."
+      }
+    ]
+  }
+}

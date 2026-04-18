@@ -1,0 +1,91 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 4eme - Série 1966",
+    "type": "quiz",
+    "level": "4eme",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 4eme : Histoire-Géographie 4eme - Société au XIXe siècle",
+    "status": "published",
+    "created_at": "2026-04-18T05:40:23.051692Z",
+    "updated_at": "2026-04-18T05:40:23.051692Z",
+    "source": "MonCoachScolaire",
+    "programme_ref": "Cycle 4"
+  },
+  "quiz": {
+    "title": "Histoire-Géographie 4eme - Société au XIXe siècle",
+    "type": "quiz",
+    "level": "4eme",
+    "subject": "Histoire-Géographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "id": "1966_1",
+        "type": "qcm",
+        "question": "[Histoire-Géographie 4eme] Pour traiter un document sur 'Société au XIXe siècle', quelle démarche est la plus efficace ?",
+        "choices": [
+          "Observer la source, la date et le contexte",
+          "Lire seulement le titre",
+          "Répondre sans preuve",
+          "Ignorer les repères"
+        ]
+      },
+      {
+        "id": "1966_2",
+        "type": "vrai-faux",
+        "question": "[Histoire-Géographie 4eme] Repérer les lieux ou les repères chronologiques aide à comprendre 'Société au XIXe siècle'."
+      },
+      {
+        "id": "1966_3",
+        "type": "qcm",
+        "question": "[Histoire-Géographie 4eme] Quelle habitude aide à progresser sur 'Société au XIXe siècle' ?",
+        "choices": [
+          "Comparer plusieurs cartes, textes ou images",
+          "Retenir un seul mot sans contexte",
+          "Éviter les documents",
+          "Répondre vite"
+        ]
+      },
+      {
+        "id": "1966_4",
+        "type": "vrai-faux",
+        "question": "[Histoire-Géographie 4eme] En histoire-géographie, une réponse sans justification suffit toujours pour traiter 'Société au XIXe siècle'."
+      },
+      {
+        "id": "1966_5",
+        "type": "qcm",
+        "question": "[Histoire-Géographie 4eme] Quel signe montre une bonne maîtrise de 'Société au XIXe siècle' ?",
+        "choices": [
+          "Utiliser un vocabulaire précis et replacer le contexte",
+          "Réciter sans comprendre",
+          "Oublier les repères",
+          "Répondre vaguement"
+        ]
+      },
+      {
+        "id": "1966_6",
+        "type": "vrai-faux",
+        "question": "[Histoire-Géographie 4eme] Une frise, une carte mentale ou un croquis peut aider à retenir 'Société au XIXe siècle'."
+      },
+      {
+        "id": "1966_7",
+        "type": "qcm",
+        "question": "[Histoire-Géographie 4eme] Si tu bloques sur une question liée à 'Société au XIXe siècle', quel réflexe est le plus pertinent ?",
+        "choices": [
+          "Revenir au document et relever les indices utiles",
+          "Supprimer les repères",
+          "Répondre au hasard",
+          "Éviter la consigne"
+        ]
+      },
+      {
+        "id": "1966_8",
+        "type": "vrai-faux",
+        "question": "[Histoire-Géographie 4eme] Corriger ses erreurs après un exercice aide à progresser sur 'Société au XIXe siècle'."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

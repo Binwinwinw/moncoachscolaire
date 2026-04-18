@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 4eme - Série 1962",
+    "level": "4eme",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Français 4eme - Comprendre l'implicite",
+    "question_count": 8,
+    "level": "4eme",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Repérer les indices dans la phrase ou le texte",
+        "correct": 0,
+        "correction": "Les indices de langue et de sens permettent d'orienter l'analyse correctement."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La reformulation est un bon moyen de vérifier et renforcer la compréhension."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Comparer plusieurs exemples corrigés",
+        "correct": 0,
+        "correction": "La comparaison met en évidence la règle et ses variations."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "La justification montre que la règle ou l'interprétation est vraiment comprise."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Être capable d'expliquer la règle ou l'effet du texte",
+        "correct": 0,
+        "correction": "L'explication personnelle montre un niveau de compréhension plus solide."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Cette stratégie aide à entendre la structure de la phrase ou le rythme du texte."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Revenir au texte et relever les mots utiles",
+        "correct": 0,
+        "correction": "Le texte contient souvent les indices nécessaires pour construire la réponse."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le retour sur erreur améliore la précision et la mémorisation."
+      }
+    ]
+  }
+}

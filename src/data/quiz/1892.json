@@ -1,0 +1,91 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 5eme - Série 1892",
+    "type": "quiz",
+    "level": "5eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 5eme : Français 5eme - Rédaction organisée",
+    "status": "published",
+    "created_at": "2026-04-18T05:32:18.621061Z",
+    "updated_at": "2026-04-18T05:32:18.621061Z",
+    "source": "MonCoachScolaire",
+    "programme_ref": "Cycle 4"
+  },
+  "quiz": {
+    "title": "Français 5eme - Rédaction organisée",
+    "type": "quiz",
+    "level": "5eme",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "id": "1892_1",
+        "type": "qcm",
+        "question": "[Français 5eme] Pour réussir une activité sur 'Rédaction organisée', quel réflexe est le plus utile ?",
+        "choices": [
+          "Repérer les indices du texte et les mots-clés",
+          "Choisir au hasard",
+          "Éviter de relire la phrase",
+          "Répondre sans justification"
+        ]
+      },
+      {
+        "id": "1892_2",
+        "type": "vrai-faux",
+        "question": "[Français 5eme] Relire à voix basse peut aider à mieux comprendre une question sur 'Rédaction organisée'."
+      },
+      {
+        "id": "1892_3",
+        "type": "qcm",
+        "question": "[Français 5eme] Quelle méthode permet de progresser sur 'Rédaction organisée' ?",
+        "choices": [
+          "Comparer plusieurs exemples corrigés",
+          "Apprendre sans s'entraîner",
+          "Sauter les exercices d'application",
+          "Écrire très vite sans vérifier"
+        ]
+      },
+      {
+        "id": "1892_4",
+        "type": "vrai-faux",
+        "question": "[Français 5eme] En français, une réponse juste sans explication suffit toujours pour montrer la maîtrise de 'Rédaction organisée'."
+      },
+      {
+        "id": "1892_5",
+        "type": "qcm",
+        "question": "[Français 5eme] Quel signe montre une bonne maîtrise du thème 'Rédaction organisée' ?",
+        "choices": [
+          "Être capable d'expliquer la règle avec ses mots",
+          "Répéter une réponse par cœur",
+          "Ignorer les erreurs précédentes",
+          "Confondre les notions proches"
+        ]
+      },
+      {
+        "id": "1892_6",
+        "type": "vrai-faux",
+        "question": "[Français 5eme] Faire un brouillon ou surligner les indices du texte peut aider sur 'Rédaction organisée'."
+      },
+      {
+        "id": "1892_7",
+        "type": "qcm",
+        "question": "[Français 5eme] Si une notion de 'Rédaction organisée' te semble floue, quelle réaction est la plus pertinente ?",
+        "choices": [
+          "Reprendre un exemple puis reformuler la règle",
+          "Passer à autre chose sans vérifier",
+          "Inventer une règle au hasard",
+          "Éviter les phrases longues seulement"
+        ]
+      },
+      {
+        "id": "1892_8",
+        "type": "vrai-faux",
+        "question": "[Français 5eme] Corriger ses erreurs après un exercice sur 'Rédaction organisée' aide à progresser plus vite."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

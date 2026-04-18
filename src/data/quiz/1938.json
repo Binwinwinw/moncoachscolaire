@@ -1,0 +1,91 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 4eme - Série 1938",
+    "type": "quiz",
+    "level": "4eme",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 4eme : Anglais 4eme - Giving advice",
+    "status": "published",
+    "created_at": "2026-04-18T05:40:22.653354Z",
+    "updated_at": "2026-04-18T05:40:22.653354Z",
+    "source": "MonCoachScolaire",
+    "programme_ref": "Cycle 4"
+  },
+  "quiz": {
+    "title": "Anglais 4eme - Giving advice",
+    "type": "quiz",
+    "level": "4eme",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "id": "1938_1",
+        "type": "qcm",
+        "question": "[Anglais 4eme] For the topic 'Giving advice', what should you do first in a diagnostic quiz?",
+        "choices": [
+          "Identify the grammar clue in the sentence",
+          "Guess immediately",
+          "Skip the verb",
+          "Ignore the context"
+        ]
+      },
+      {
+        "id": "1938_2",
+        "type": "vrai-faux",
+        "question": "[Anglais 4eme] Looking at time markers and subject words can help on 'Giving advice'."
+      },
+      {
+        "id": "1938_3",
+        "type": "qcm",
+        "question": "[Anglais 4eme] What habit helps you improve on 'Giving advice'?",
+        "choices": [
+          "Practise short examples and correct them",
+          "Memorise answers without context",
+          "Avoid reading the sentence",
+          "Never review mistakes"
+        ]
+      },
+      {
+        "id": "1938_4",
+        "type": "vrai-faux",
+        "question": "[Anglais 4eme] Explaining why an answer is correct can help you master 'Giving advice'."
+      },
+      {
+        "id": "1938_5",
+        "type": "qcm",
+        "question": "[Anglais 4eme] Which sign shows a good mastery of 'Giving advice'?",
+        "choices": [
+          "Using the notion in a clear sentence",
+          "Choosing answers randomly",
+          "Skipping the correction",
+          "Changing the rule each time"
+        ]
+      },
+      {
+        "id": "1938_6",
+        "type": "vrai-faux",
+        "question": "[Anglais 4eme] A final re-reading can reduce errors on 'Giving advice'."
+      },
+      {
+        "id": "1938_7",
+        "type": "qcm",
+        "question": "[Anglais 4eme] If a question on 'Giving advice' seems difficult, what is the best reaction?",
+        "choices": [
+          "Go back to the sentence and locate the useful clues",
+          "Answer at random",
+          "Ignore the subject",
+          "Leave every blank empty"
+        ]
+      },
+      {
+        "id": "1938_8",
+        "type": "vrai-faux",
+        "question": "[Anglais 4eme] Correcting your mistakes after practice is a useful strategy for 'Giving advice'."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

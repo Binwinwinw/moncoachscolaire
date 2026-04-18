@@ -1,0 +1,91 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 4eme - Série 1974",
+    "type": "quiz",
+    "level": "4eme",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 4eme : SVT 4eme - Nutrition des organes",
+    "status": "published",
+    "created_at": "2026-04-18T05:40:23.178788Z",
+    "updated_at": "2026-04-18T05:40:23.178788Z",
+    "source": "MonCoachScolaire",
+    "programme_ref": "Cycle 4"
+  },
+  "quiz": {
+    "title": "SVT 4eme - Nutrition des organes",
+    "type": "quiz",
+    "level": "4eme",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "id": "1974_1",
+        "type": "qcm",
+        "question": "[SVT 4eme] Sur le thème 'Nutrition des organes', quelle démarche est la plus utile pour réussir un exercice ?",
+        "choices": [
+          "Observer les données, le schéma et le vocabulaire scientifique",
+          "Répondre sans lire",
+          "Ignorer le document",
+          "Choisir au hasard"
+        ]
+      },
+      {
+        "id": "1974_2",
+        "type": "vrai-faux",
+        "question": "[SVT 4eme] Utiliser le vocabulaire scientifique précis aide à traiter 'Nutrition des organes'."
+      },
+      {
+        "id": "1974_3",
+        "type": "qcm",
+        "question": "[SVT 4eme] Quelle habitude aide à progresser sur 'Nutrition des organes' ?",
+        "choices": [
+          "Comparer plusieurs exemples ou documents scientifiques",
+          "Apprendre sans comprendre",
+          "Éviter les schémas",
+          "Ne jamais se corriger"
+        ]
+      },
+      {
+        "id": "1974_4",
+        "type": "vrai-faux",
+        "question": "[SVT 4eme] Une réponse juste sans explication suffit toujours pour montrer la maîtrise de 'Nutrition des organes'."
+      },
+      {
+        "id": "1974_5",
+        "type": "qcm",
+        "question": "[SVT 4eme] Quel signe montre une bonne maîtrise de 'Nutrition des organes' ?",
+        "choices": [
+          "Expliquer un phénomène avec des observations précises",
+          "Réciter un mot sans lien",
+          "Ignorer les causes",
+          "Répondre très vite seulement"
+        ]
+      },
+      {
+        "id": "1974_6",
+        "type": "vrai-faux",
+        "question": "[SVT 4eme] Relire le schéma ou le tableau peut aider à mieux comprendre 'Nutrition des organes'."
+      },
+      {
+        "id": "1974_7",
+        "type": "qcm",
+        "question": "[SVT 4eme] Si tu bloques sur une question liée à 'Nutrition des organes', que faut-il faire ?",
+        "choices": [
+          "Revenir aux observations et reformuler le problème",
+          "Ignorer les indices",
+          "Abandonner",
+          "Changer de notion"
+        ]
+      },
+      {
+        "id": "1974_8",
+        "type": "vrai-faux",
+        "question": "[SVT 4eme] Corriger ses erreurs après un quiz aide à progresser sur 'Nutrition des organes'."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

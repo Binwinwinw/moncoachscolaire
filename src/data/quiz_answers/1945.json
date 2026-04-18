@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 4eme - Série 1945",
+    "level": "4eme",
+    "subject": "EMC"
+  },
+  "quiz": {
+    "title": "EMC 4eme - Usage responsable des réseaux",
+    "question_count": 8,
+    "level": "4eme",
+    "subject": "EMC",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Écouter, argumenter et respecter les règles",
+        "correct": 0,
+        "correction": "En EMC, l'écoute, l'argumentation et le respect sont essentiels."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les notions de droit et de devoir structurent la réflexion citoyenne."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Justifier son point de vue avec des exemples",
+        "correct": 0,
+        "correction": "Les exemples concrets rendent un raisonnement plus solide et plus nuancé."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "La prise en compte d'autrui est au cœur des apprentissages d'EMC."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Distinguer une liberté, une règle et une responsabilité",
+        "correct": 0,
+        "correction": "Cette distinction aide à analyser les situations de manière claire et juste."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'analyse d'une erreur ou d'un malentendu permet d'ajuster son raisonnement."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Revenir aux principes de respect et de responsabilité",
+        "correct": 0,
+        "correction": "Ces repères permettent de structurer un jugement citoyen équilibré."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'échange argumenté et le retour sur erreur renforcent l'apprentissage citoyen."
+      }
+    ]
+  }
+}

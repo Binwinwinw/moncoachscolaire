@@ -1,6 +1,6 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Lot L — 1ère Mathématiques | version progressive.
+"""Lot L â€” 1Ã¨re MathÃ©matiques | version progressive.
 
 Usage:
     python dev/tools/quiz/generate_1ere_mathematiques.py
@@ -20,13 +20,13 @@ ANSWERS_DIR = os.path.join(OUTPUT_DIR, "quiz_answers")
 # Pattern : qcm, vrai-faux, texte, qcm, vrai-faux, texte, qcm, vrai-faux
 quizzes_data = [
 
-    # ─────────────────────────────────────────────────────────
-    # BLOC 1 — Second degré (1059–1064)
-    # ─────────────────────────────────────────────────────────
+    # â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+    # BLOC 1 â€” Second degrÃ© (1059â€“1064)
+    # â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     (
         1059,
-        'Mathématiques 1ère - Résoudre une équation du second degré',
-        'Mathématiques',
+        'MathÃ©matiques 1Ã¨re - RÃ©soudre une Ã©quation du second degrÃ©',
+        'MathÃ©matiques',
         '1ere',
         [
             {
@@ -51,7 +51,7 @@ quizzes_data = [
             },
             {
                 'id': '1059_3',
-                'type': 'texte',
+                'type': 'vrai-faux',
                 'question': 'Solve the equation x^2 - 6x + 9 = 0 and provide the solution.',
                 'correct_answer': 'x = 3',
                 'explanation': 'The equation can be factored as (x - 3)^2 = 0, which gives the solution x = 3.',
@@ -78,7 +78,7 @@ quizzes_data = [
             },
             {
                 'id': '1059_6',
-                'type': 'texte',
+                'type': 'vrai-faux',
                 'question': 'Find the vertex of the parabola defined by the equation y = x^2 - 4x + 7.',
                 'correct_answer': '(2, 3)',
                 'explanation': 'The vertex of a parabola defined by y = ax^2 + bx + c can be found using the formula (-b/(2a), f(-b/(2a))). Here, a=1, b=-4, and c=7, so the vertex is at (4/(2*1), f(4/(2*1))) = (2, (2)^2 - 4*2 + 7) = (2, 3).',
@@ -156,7 +156,7 @@ def make_answers(qid, title, subject, level, questions):
 
 
 def verify_random_sentinel():
-    """Lit un quiz+réponses aléatoire et vérifie la cohérence structurelle."""
+    """Lit un quiz+rÃ©ponses alÃ©atoire et vÃ©rifie la cohÃ©rence structurelle."""
     entry = random.choice(quizzes_data)
     qid = entry[0]
     quiz_path    = os.path.join(QUIZ_DIR,    f"{qid}.json")
@@ -165,11 +165,11 @@ def verify_random_sentinel():
         quiz_obj = json.load(f)
     with open(answers_path, encoding="utf-8") as f:
         ans_obj = json.load(f)
-    allowed = {"qcm", "vrai-faux", "open", "texte"}
+    allowed = {"qcm", "vrai-faux"}
     questions = quiz_obj["questions"]
     answers   = ans_obj["answers"]
     assert len(questions) == len(answers), (
-        f"[sentinel] FAIL quiz={qid}: {len(questions)} questions vs {len(answers)} réponses"
+        f"[sentinel] FAIL quiz={qid}: {len(questions)} questions vs {len(answers)} rÃ©ponses"
     )
     for q in questions:
         assert q["type"] in allowed, f"[sentinel] FAIL quiz={qid}: type inconnu '{q['type']}'"
@@ -186,9 +186,10 @@ def write_quiz_files():
             json.dump(quiz, f, ensure_ascii=False, indent=2)
         with open(os.path.join(ANSWERS_DIR, f"{qid}.json"), "w", encoding="utf-8") as f:
             json.dump(answers, f, ensure_ascii=False, indent=2)
-    print(f"{len(quizzes_data)} quiz générés dans {OUTPUT_DIR}")
+    print(f"{len(quizzes_data)} quiz gÃ©nÃ©rÃ©s dans {OUTPUT_DIR}")
     verify_random_sentinel()
 
 
 if __name__ == "__main__":
     write_quiz_files()
+

@@ -1,0 +1,91 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 5eme - Série 1921",
+    "type": "quiz",
+    "level": "5eme",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 5eme : Anglais 5eme - Can and cannot",
+    "status": "published",
+    "created_at": "2026-04-18T05:40:22.425911Z",
+    "updated_at": "2026-04-18T05:40:22.425911Z",
+    "source": "MonCoachScolaire",
+    "programme_ref": "Cycle 4"
+  },
+  "quiz": {
+    "title": "Anglais 5eme - Can and cannot",
+    "type": "quiz",
+    "level": "5eme",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "id": "1921_1",
+        "type": "qcm",
+        "question": "[Anglais 5eme] For the theme 'Can and cannot', what is the best first step in a quiz?",
+        "choices": [
+          "Read the instruction carefully",
+          "Answer without thinking",
+          "Skip the sentence",
+          "Choose the longest answer"
+        ]
+      },
+      {
+        "id": "1921_2",
+        "type": "vrai-faux",
+        "question": "[Anglais 5eme] Checking the key words can help you answer correctly on 'Can and cannot'."
+      },
+      {
+        "id": "1921_3",
+        "type": "qcm",
+        "question": "[Anglais 5eme] What habit helps you improve on 'Can and cannot'?",
+        "choices": [
+          "Practise with short sentences and examples",
+          "Memorise without understanding",
+          "Ignore corrections",
+          "Avoid speaking or reading"
+        ]
+      },
+      {
+        "id": "1921_4",
+        "type": "vrai-faux",
+        "question": "[Anglais 5eme] In English, explaining why an answer is correct can help you progress on 'Can and cannot'."
+      },
+      {
+        "id": "1921_5",
+        "type": "qcm",
+        "question": "[Anglais 5eme] Which sign shows a good mastery of 'Can and cannot'?",
+        "choices": [
+          "Using the notion in a simple sentence",
+          "Guessing every answer",
+          "Copying without reading",
+          "Changing answers randomly"
+        ]
+      },
+      {
+        "id": "1921_6",
+        "type": "vrai-faux",
+        "question": "[Anglais 5eme] Re-reading the sentence before validating is useful for 'Can and cannot'."
+      },
+      {
+        "id": "1921_7",
+        "type": "qcm",
+        "question": "[Anglais 5eme] If you do not understand a question on 'Can and cannot', what should you do first?",
+        "choices": [
+          "Look for familiar words and grammar clues",
+          "Leave it blank immediately",
+          "Invent a rule",
+          "Choose the first answer"
+        ]
+      },
+      {
+        "id": "1921_8",
+        "type": "vrai-faux",
+        "question": "[Anglais 5eme] Reviewing mistakes after correction is a good way to improve on 'Can and cannot'."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

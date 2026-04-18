@@ -1,0 +1,91 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 5eme - Série 1912",
+    "type": "quiz",
+    "level": "5eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 5eme : EMC 5eme - Engagement collectif",
+    "status": "published",
+    "created_at": "2026-04-18T05:32:18.844010Z",
+    "updated_at": "2026-04-18T05:32:18.844010Z",
+    "source": "MonCoachScolaire",
+    "programme_ref": "Cycle 4"
+  },
+  "quiz": {
+    "title": "EMC 5eme - Engagement collectif",
+    "type": "quiz",
+    "level": "5eme",
+    "subject": "EMC",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "id": "1912_1",
+        "type": "qcm",
+        "question": "[EMC 5eme] Face à une situation liée à 'Engagement collectif', quelle attitude est la plus responsable ?",
+        "choices": [
+          "Respecter les règles et dialoguer calmement",
+          "Se moquer des autres",
+          "Refuser toute discussion",
+          "Partager une information sans vérifier"
+        ]
+      },
+      {
+        "id": "1912_2",
+        "type": "vrai-faux",
+        "question": "[EMC 5eme] En EMC, écouter le point de vue d'autrui aide à mieux traiter un sujet sur 'Engagement collectif'."
+      },
+      {
+        "id": "1912_3",
+        "type": "qcm",
+        "question": "[EMC 5eme] Quelle habitude aide à progresser sur 'Engagement collectif' ?",
+        "choices": [
+          "Justifier son avis avec des exemples précis",
+          "Imposer son opinion sans argument",
+          "Éviter les débats",
+          "Confondre liberté et absence de règles"
+        ]
+      },
+      {
+        "id": "1912_4",
+        "type": "vrai-faux",
+        "question": "[EMC 5eme] On peut progresser sur 'Engagement collectif' sans jamais revenir sur ses erreurs ou ses maladresses."
+      },
+      {
+        "id": "1912_5",
+        "type": "qcm",
+        "question": "[EMC 5eme] Quel signe montre une bonne maîtrise du thème 'Engagement collectif' ?",
+        "choices": [
+          "Savoir distinguer un droit, un devoir et une responsabilité",
+          "Refuser toute règle commune",
+          "Parler plus fort que les autres",
+          "Donner un avis sans raison"
+        ]
+      },
+      {
+        "id": "1912_6",
+        "type": "vrai-faux",
+        "question": "[EMC 5eme] Rechercher une solution collective peut aider à mieux résoudre une situation liée à 'Engagement collectif'."
+      },
+      {
+        "id": "1912_7",
+        "type": "qcm",
+        "question": "[EMC 5eme] Si une question sur 'Engagement collectif' te semble délicate, quel réflexe est le plus pertinent ?",
+        "choices": [
+          "Revenir aux principes de respect, de droit et de responsabilité",
+          "Choisir une réponse provocante",
+          "Ignorer les conséquences",
+          "Écarter tout échange"
+        ]
+      },
+      {
+        "id": "1912_8",
+        "type": "vrai-faux",
+        "question": "[EMC 5eme] Discuter, argumenter et coopérer font partie des compétences utiles sur 'Engagement collectif'."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

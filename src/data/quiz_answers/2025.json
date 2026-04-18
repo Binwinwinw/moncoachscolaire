@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 3eme - Série 2025",
+    "level": "3eme",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Mathématiques 3eme - Théorème de Thalès",
+    "question_count": 8,
+    "level": "3eme",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Identifier la notion puis organiser la démarche",
+        "correct": 0,
+        "correction": "En 3e, repérer la notion permet de choisir la bonne méthode de résolution."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Une vérification finale aide à repérer un oubli ou une incohérence."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Refaire un exemple corrigé puis s'entraîner seul",
+        "correct": 0,
+        "correction": "Le passage de l'exemple guidé à l'autonomie renforce durablement la méthode."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "La justification est essentielle pour montrer la compréhension et vérifier la logique."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Savoir expliquer les étapes du raisonnement",
+        "correct": 0,
+        "correction": "Expliquer le raisonnement est un vrai indicateur de maîtrise en mathématiques 3e."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Ces outils aident à organiser les informations et à rendre la démarche plus claire."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Revenir à l'énoncé et isoler l'étape bloquante",
+        "correct": 0,
+        "correction": "Identifier précisément le point de blocage aide à relancer la résolution efficacement."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le retour sur erreur consolide les automatismes et la compréhension."
+      }
+    ]
+  }
+}

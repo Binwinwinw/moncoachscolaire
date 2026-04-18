@@ -1,3 +1,34 @@
+## [18/04/2026] Consolidation massive de la base de quiz collège + normalisation runtime — ✅ gros palier atteint
+
+Travail réalisé sur cette session :
+
+- conversion en lot des questions runtime de type `open` vers `vrai-faux` sur la plage 193–1170
+- vérification post-traitement : **0 question open restante** sur la plage auditée
+- audit complet de couverture par **matière** et **niveau scolaire** pour identifier les vrais trous de génération
+- enrichissement des scripts `generate_<niveau>_<matiere>.py` encore squelettes afin de pousser directement les lots validés vers le runtime
+- consolidation nette de la base **collège** avec homogénéisation des formats quiz/réponses
+
+État d'avancement vérifié :
+
+- **4e** : couverture maintenant homogène à **10 quiz par matière**
+- **5e** : couverture stabilisée à **10 quiz par matière**, avec **SVT = 16** car un lot legacy existait déjà
+- **3e** : trous comblés sur **Anglais, Français et Mathématiques** avec 10 quiz chacun ajoutés au runtime
+- nouveaux lots générés sans réintroduction de questions ouvertes sur les plages vérifiées
+
+Impact produit :
+
+- la base de quiz est beaucoup plus solide, cohérente et exploitable pour les diagnostics
+- les générateurs sont maintenant plus fiables pour les futurs enrichissements
+- le collège n'est plus le point faible principal de couverture
+
+Suite recommandée :
+
+1. harmonisation qualitative/pédagogique des formulations les moins naturelles
+2. revue des lots legacy plus anciens (doublons, écarts de niveau, titres hétérogènes)
+3. poursuite de l'équilibrage sur les niveaux lycée si priorité confirmée
+
+---
+
 ## [18/04/2026] Nettoyage runtime quiz + réalignement template — ✅ validé
 
 Travail réalisé :

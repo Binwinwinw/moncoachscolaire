@@ -1,0 +1,91 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 4eme - Série 1976",
+    "type": "quiz",
+    "level": "4eme",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 4eme : SVT 4eme - Transmission de l'information nerveuse",
+    "status": "published",
+    "created_at": "2026-04-18T05:40:23.183780Z",
+    "updated_at": "2026-04-18T05:40:23.183780Z",
+    "source": "MonCoachScolaire",
+    "programme_ref": "Cycle 4"
+  },
+  "quiz": {
+    "title": "SVT 4eme - Transmission de l'information nerveuse",
+    "type": "quiz",
+    "level": "4eme",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "id": "1976_1",
+        "type": "qcm",
+        "question": "[SVT 4eme] Sur le thème 'Transmission de l'information nerveuse', quelle démarche est la plus utile pour réussir un exercice ?",
+        "choices": [
+          "Observer les données, le schéma et le vocabulaire scientifique",
+          "Répondre sans lire",
+          "Ignorer le document",
+          "Choisir au hasard"
+        ]
+      },
+      {
+        "id": "1976_2",
+        "type": "vrai-faux",
+        "question": "[SVT 4eme] Utiliser le vocabulaire scientifique précis aide à traiter 'Transmission de l'information nerveuse'."
+      },
+      {
+        "id": "1976_3",
+        "type": "qcm",
+        "question": "[SVT 4eme] Quelle habitude aide à progresser sur 'Transmission de l'information nerveuse' ?",
+        "choices": [
+          "Comparer plusieurs exemples ou documents scientifiques",
+          "Apprendre sans comprendre",
+          "Éviter les schémas",
+          "Ne jamais se corriger"
+        ]
+      },
+      {
+        "id": "1976_4",
+        "type": "vrai-faux",
+        "question": "[SVT 4eme] Une réponse juste sans explication suffit toujours pour montrer la maîtrise de 'Transmission de l'information nerveuse'."
+      },
+      {
+        "id": "1976_5",
+        "type": "qcm",
+        "question": "[SVT 4eme] Quel signe montre une bonne maîtrise de 'Transmission de l'information nerveuse' ?",
+        "choices": [
+          "Expliquer un phénomène avec des observations précises",
+          "Réciter un mot sans lien",
+          "Ignorer les causes",
+          "Répondre très vite seulement"
+        ]
+      },
+      {
+        "id": "1976_6",
+        "type": "vrai-faux",
+        "question": "[SVT 4eme] Relire le schéma ou le tableau peut aider à mieux comprendre 'Transmission de l'information nerveuse'."
+      },
+      {
+        "id": "1976_7",
+        "type": "qcm",
+        "question": "[SVT 4eme] Si tu bloques sur une question liée à 'Transmission de l'information nerveuse', que faut-il faire ?",
+        "choices": [
+          "Revenir aux observations et reformuler le problème",
+          "Ignorer les indices",
+          "Abandonner",
+          "Changer de notion"
+        ]
+      },
+      {
+        "id": "1976_8",
+        "type": "vrai-faux",
+        "question": "[SVT 4eme] Corriger ses erreurs après un quiz aide à progresser sur 'Transmission de l'information nerveuse'."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

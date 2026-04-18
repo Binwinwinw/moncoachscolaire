@@ -1,0 +1,91 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 3eme - Série 2019",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 3eme : Français 3eme - Valeurs des temps",
+    "status": "published",
+    "created_at": "2026-04-18T05:49:53.241986Z",
+    "updated_at": "2026-04-18T05:49:53.241986Z",
+    "source": "MonCoachScolaire",
+    "programme_ref": "Cycle 4"
+  },
+  "quiz": {
+    "title": "Français 3eme - Valeurs des temps",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "id": "2019_1",
+        "type": "qcm",
+        "question": "[Français 3eme] Pour traiter une question sur 'Valeurs des temps', quel réflexe est le plus utile ?",
+        "choices": [
+          "Repérer les indices du texte et reformuler la consigne",
+          "Répondre sans relire",
+          "Ignorer le contexte",
+          "Choisir au hasard"
+        ]
+      },
+      {
+        "id": "2019_2",
+        "type": "vrai-faux",
+        "question": "[Français 3eme] Reformuler avec ses mots peut aider à mieux comprendre 'Valeurs des temps'."
+      },
+      {
+        "id": "2019_3",
+        "type": "qcm",
+        "question": "[Français 3eme] Quelle habitude aide à progresser sur 'Valeurs des temps' ?",
+        "choices": [
+          "Comparer plusieurs extraits ou exemples corrigés",
+          "Apprendre une réponse unique par cœur",
+          "Éviter les textes difficiles",
+          "Ne jamais relire ses erreurs"
+        ]
+      },
+      {
+        "id": "2019_4",
+        "type": "vrai-faux",
+        "question": "[Français 3eme] Une réponse juste sans justification suffit toujours pour montrer la maîtrise de 'Valeurs des temps'."
+      },
+      {
+        "id": "2019_5",
+        "type": "qcm",
+        "question": "[Français 3eme] Quel signe montre une bonne maîtrise de 'Valeurs des temps' ?",
+        "choices": [
+          "Expliquer la règle ou l'effet produit avec précision",
+          "Réciter sans comprendre",
+          "Répondre très vite seulement",
+          "Ignorer les procédés d'écriture"
+        ]
+      },
+      {
+        "id": "2019_6",
+        "type": "vrai-faux",
+        "question": "[Français 3eme] Relire un passage à voix basse peut aider à mieux analyser 'Valeurs des temps'."
+      },
+      {
+        "id": "2019_7",
+        "type": "qcm",
+        "question": "[Français 3eme] Si une question liée à 'Valeurs des temps' te semble difficile, quel réflexe est le plus pertinent ?",
+        "choices": [
+          "Revenir au texte et relever les mots ou procédés utiles",
+          "Abandonner tout de suite",
+          "Inventer une réponse",
+          "Écarter la consigne"
+        ]
+      },
+      {
+        "id": "2019_8",
+        "type": "vrai-faux",
+        "question": "[Français 3eme] Corriger ses erreurs après l'exercice aide à progresser sur 'Valeurs des temps'."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

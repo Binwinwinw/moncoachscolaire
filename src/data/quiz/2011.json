@@ -1,0 +1,91 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 3eme - Série 2011",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 3eme : Anglais 3eme - Environmental issues",
+    "status": "published",
+    "created_at": "2026-04-18T05:49:53.131676Z",
+    "updated_at": "2026-04-18T05:49:53.131676Z",
+    "source": "MonCoachScolaire",
+    "programme_ref": "Cycle 4"
+  },
+  "quiz": {
+    "title": "Anglais 3eme - Environmental issues",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "id": "2011_1",
+        "type": "qcm",
+        "question": "[Anglais 3eme] For the topic 'Environmental issues', what is the best first step in a diagnostic quiz?",
+        "choices": [
+          "Identify the grammar clue and read the context",
+          "Answer randomly",
+          "Ignore the verb",
+          "Skip the sentence"
+        ]
+      },
+      {
+        "id": "2011_2",
+        "type": "vrai-faux",
+        "question": "[Anglais 3eme] Re-reading a sentence carefully can help you answer correctly on 'Environmental issues'."
+      },
+      {
+        "id": "2011_3",
+        "type": "qcm",
+        "question": "[Anglais 3eme] What habit helps you improve on 'Environmental issues'?",
+        "choices": [
+          "Practise short examples and correct them",
+          "Memorise answers without context",
+          "Avoid the correction",
+          "Never review mistakes"
+        ]
+      },
+      {
+        "id": "2011_4",
+        "type": "vrai-faux",
+        "question": "[Anglais 3eme] Explaining why an answer is correct can help you master 'Environmental issues'."
+      },
+      {
+        "id": "2011_5",
+        "type": "qcm",
+        "question": "[Anglais 3eme] Which sign shows a good mastery of 'Environmental issues'?",
+        "choices": [
+          "Using the notion in a complete sentence",
+          "Choosing every answer at random",
+          "Skipping the context",
+          "Changing the rule each time"
+        ]
+      },
+      {
+        "id": "2011_6",
+        "type": "vrai-faux",
+        "question": "[Anglais 3eme] Looking for time markers and pronouns can help on 'Environmental issues'."
+      },
+      {
+        "id": "2011_7",
+        "type": "qcm",
+        "question": "[Anglais 3eme] If a question on 'Environmental issues' seems difficult, what is the best reaction?",
+        "choices": [
+          "Go back to the sentence and find useful clues",
+          "Answer immediately without reading",
+          "Ignore the context",
+          "Leave the page"
+        ]
+      },
+      {
+        "id": "2011_8",
+        "type": "vrai-faux",
+        "question": "[Anglais 3eme] Correcting your mistakes after practice is a good strategy for 'Environmental issues'."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

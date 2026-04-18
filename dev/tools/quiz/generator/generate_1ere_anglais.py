@@ -1,7 +1,7 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Template IA â€“ generate_<niveau>_<matiere>.py
+Template IA Ã¢â‚¬â€œ generate_<niveau>_<matiere>.py
 """
 
 from __future__ import annotations
@@ -11,9 +11,9 @@ import os
 from datetime import UTC, datetime
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", ".."))
+REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", "..", ".."))
 
-# Ã€ adapter dans chaque clone
+# Ãƒâ‚¬ adapter dans chaque clone
 BASENAME = "anglais_1ere_quizzes"
 
 GEN_OUTPUT_DIR = os.path.join(SCRIPT_DIR, BASENAME)
@@ -32,7 +32,7 @@ os.makedirs(RUNTIME_ANSWERS_DIR, exist_ok=True)
 def fix_mojibake_text(value):
     if not isinstance(value, str):
         return value
-    markers = ("Ãƒ", "Ã‚", "Ã¢â‚¬", "Ã¢â‚¬â„¢", "Ã¢â‚¬Å“", "Ã¢â‚¬â€", "Ã¢â‚¬â€œ", "Ã…")
+    markers = ("ÃƒÆ’", "Ãƒâ€š", "ÃƒÂ¢Ã¢â€šÂ¬", "ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢", "ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ", "ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â", "ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“", "Ãƒâ€¦")
     if not any(marker in value for marker in markers):
         return value
     for legacy_encoding in ("latin-1", "cp1252"):
@@ -43,10 +43,10 @@ def fix_mojibake_text(value):
         except UnicodeError:
             continue
     replacements = {
-        "ÃƒÂ©": "Ã©", "ÃƒÂ¨": "Ã¨", "ÃƒÂª": "Ãª", "ÃƒÂ«": "Ã«", "ÃƒÂ ": "Ã ", "ÃƒÂ¢": "Ã¢",
-        "ÃƒÂ´": "Ã´", "ÃƒÂ»": "Ã»", "ÃƒÂ¹": "Ã¹", "ÃƒÂ®": "Ã®", "ÃƒÂ¯": "Ã¯", "ÃƒÂ§": "Ã§",
-        "Ãƒâ€°": "Ã‰", "Ãƒâ‚¬": "Ã€", "Ãƒâ€¡": "Ã‡", "Ã…â€œ": "Å“", "Ã‚": "", "Ã¢â‚¬â„¢": "â€™",
-        "Ã¢â‚¬Å“": "â€œ", "Ã¢â‚¬\x9d": "â€", "Ã¢â‚¬â€œ": "â€“", "Ã¢â‚¬â€": "â€”", "Ã¢â‚¬Â¦": "â€¦",
+        "ÃƒÆ’Ã‚Â©": "ÃƒÂ©", "ÃƒÆ’Ã‚Â¨": "ÃƒÂ¨", "ÃƒÆ’Ã‚Âª": "ÃƒÂª", "ÃƒÆ’Ã‚Â«": "ÃƒÂ«", "ÃƒÆ’Ã‚Â ": "ÃƒÂ ", "ÃƒÆ’Ã‚Â¢": "ÃƒÂ¢",
+        "ÃƒÆ’Ã‚Â´": "ÃƒÂ´", "ÃƒÆ’Ã‚Â»": "ÃƒÂ»", "ÃƒÆ’Ã‚Â¹": "ÃƒÂ¹", "ÃƒÆ’Ã‚Â®": "ÃƒÂ®", "ÃƒÆ’Ã‚Â¯": "ÃƒÂ¯", "ÃƒÆ’Ã‚Â§": "ÃƒÂ§",
+        "ÃƒÆ’Ã¢â‚¬Â°": "Ãƒâ€°", "ÃƒÆ’Ã¢â€šÂ¬": "Ãƒâ‚¬", "ÃƒÆ’Ã¢â‚¬Â¡": "Ãƒâ€¡", "Ãƒâ€¦Ã¢â‚¬Å“": "Ã…â€œ", "Ãƒâ€š": "", "ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢": "Ã¢â‚¬â„¢",
+        "ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ": "Ã¢â‚¬Å“", "ÃƒÂ¢Ã¢â€šÂ¬\x9d": "Ã¢â‚¬Â", "ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“": "Ã¢â‚¬â€œ", "ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â": "Ã¢â‚¬â€", "ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦": "Ã¢â‚¬Â¦",
     }
     for source, target in replacements.items():
         value = value.replace(source, target)
@@ -66,14 +66,10 @@ def normalize_text_payload(payload):
 
 
 def normalize_question_type(question_type):
-    qt = str(question_type).strip().lower()
-    if qt in {"vrai-faux", "vrai faux"}:
-        return "vrai-faux"
+    qt = str(question_type or "").strip().lower().replace("_", "-")
     if qt == "qcm":
         return "qcm"
-    if qt in {"open", "texte", "text"}:
-        return "open"
-    return qt
+    return "vrai-faux"
 
 
 def make_quiz(qid, title, subject, level, questions,
@@ -101,14 +97,14 @@ def make_quiz(qid, title, subject, level, questions,
             }
         else:
             sanitized = {
-                "type": "open",
+                "type": "vrai-faux",
                 "question": str(question.get("question", "")),
             }
         quiz_questions.append(sanitized)
 
     return {
         "contents": {
-            "title": f"Quiz Diagnostic {subject} {level} - SÃ©rie {qid}",
+            "title": f"Quiz Diagnostic {subject} {level} - SÃƒÂ©rie {qid}",
             "type": "quiz",
             "level": level,
             "subject": subject,
@@ -161,17 +157,19 @@ def make_answers(qid, title, subject, level, questions):
                 "correction": str(q.get("explanation", "")),
             })
         else:
+            tf_source = q.get("correct", q.get("correct_answer", "faux"))
+            tf_answer = "vrai" if str(tf_source).strip().lower() in {"true", "vrai", "1"} else "faux"
             answers.append({
                 "index": index,
                 "question_id": index + 1,
-                "type": "open",
-                "answer": str(q.get("correct_answer", "")),
+                "type": "vrai-faux",
+                "answer": tf_answer,
                 "correction": str(q.get("explanation", "")),
             })
 
     return {
         "contents": {
-            "title": f"Quiz Diagnostic {subject} {level} - SÃ©rie {qid}",
+            "title": f"Quiz Diagnostic {subject} {level} - SÃƒÂ©rie {qid}",
             "level": level,
             "subject": subject,
         },
@@ -186,7 +184,7 @@ def make_answers(qid, title, subject, level, questions):
 
 
 quizzes_data = [
-        (1059, "Diagnostic Anglais 1ère - Série 1", "Anglais", "1ère", [
+        (1059, "Diagnostic Anglais 1Ã¨re - SÃ©rie 1", "Anglais", "1Ã¨re", [
             {
                 'id': '1059_1',
                 'type': 'qcm',
@@ -204,10 +202,10 @@ quizzes_data = [
             },
             {
                 'id': '1059_3',
-                'type': 'texte',
+                'type': 'vrai-faux',
                 'question': 'Translate the sentence "I am going to the market" into French.',
-                'correct_answer': 'Je vais au marché',
-                'explanation': 'The correct translation of "I am going to the market" in French is "Je vais au marché".',
+                'correct_answer': 'Je vais au marchÃ©',
+                'explanation': 'The correct translation of "I am going to the market" in French is "Je vais au marchÃ©".',
             },
             {
                 'id': '1059_4',
@@ -226,7 +224,7 @@ quizzes_data = [
             },
             {
                 'id': '1059_6',
-                'type': 'texte',
+                'type': 'vrai-faux',
                 'question': 'What is the plural form of "child"?',
                 'correct_answer': 'children',
                 'explanation': 'The plural form of "child" is "children".',
@@ -248,7 +246,7 @@ quizzes_data = [
             },
             ]
         ),
-        (1060, "Diagnostic Anglais 1ère - Série 2", "Anglais", "1ère", [
+        (1060, "Diagnostic Anglais 1Ã¨re - SÃ©rie 2", "Anglais", "1Ã¨re", [
             {
                 'id': '1060_1',
                 'type': 'qcm',
@@ -266,7 +264,7 @@ quizzes_data = [
             },
             {
                 'id': '1060_3',
-                'type': 'texte',
+                'type': 'vrai-faux',
                 'question': 'Translate the sentence "She has a cat" into French.',
                 'correct_answer': 'Elle a un chat',
                 'explanation': 'The correct translation of "She has a cat" in French is "Elle a un chat".',
@@ -288,7 +286,7 @@ quizzes_data = [
             },
             {
                 'id': '1060_6',
-                'type': 'texte',
+                'type': 'vrai-faux',
                 'question': 'What is the past participle of the verb "eat"?',
                 'correct_answer': 'eaten',
                 'explanation': 'The past participle of "eat" is "eaten". It is used in perfect tenses and passive voice.',
@@ -310,7 +308,7 @@ quizzes_data = [
             },
             ]
         ),
-        (1061, "Diagnostic Anglais 1ère - Série 3", "Anglais", "1ère", [
+        (1061, "Diagnostic Anglais 1Ã¨re - SÃ©rie 3", "Anglais", "1Ã¨re", [
             {
                 'id': '1061_1',
                 'type': 'qcm',
@@ -328,7 +326,7 @@ quizzes_data = [
             },
             {
                 'id': '1061_3',
-                'type': 'texte',
+                'type': 'vrai-faux',
                 'question': 'Translate the sentence "They are playing soccer" into French.',
                 'correct_answer': 'Ils jouent au football',
                 'explanation': 'The correct translation of "They are playing soccer" in French is "Ils jouent au football".',
@@ -351,7 +349,7 @@ quizzes_data = [
             },
             {
                 'id': '1061_6',
-                'type': 'texte',
+                'type': 'vrai-faux',
                 'question': 'What is the past tense of the verb "see"?',
                 'correct_answer': 'saw',
                 'explanation': 'The past tense of "see" is "saw".',
@@ -389,7 +387,7 @@ quizzes_data = [
             },
             {
                 'id': '1061_6',
-                'type': 'texte',
+                'type': 'vrai-faux',
                 'question': 'What is the past tense of the verb "see"?',
                 'correct_answer': 'saw',
                 'explanation': 'The past tense of "see" is "saw".',
@@ -411,7 +409,7 @@ quizzes_data = [
             },
         ]
         ),
-        (1062, "Diagnostic Anglais 1ère - Série 4", "Anglais", "1ère", [
+        (1062, "Diagnostic Anglais 1Ã¨re - SÃ©rie 4", "Anglais", "1Ã¨re", [
             {
                 'id': '1062_1',
                 'type': 'qcm',
@@ -429,7 +427,7 @@ quizzes_data = [
             },
             {
                 'id': '1062_3',
-                'type': 'texte',
+                'type': 'vrai-faux',
                 'question': 'Translate the sentence "We have a dog" into French.',
                 'correct_answer': 'Nous avons un chien',
                 'explanation': 'The correct translation of "We have a dog" in French is "Nous avons un chien".',
@@ -451,7 +449,7 @@ quizzes_data = [
             },
             {
                 'id': '1062_6',
-                'type': 'texte',
+                'type': 'vrai-faux',
                 'question': 'What is the past participle of the verb "write"?',
                 'correct_answer': 'written',
                 'explanation': 'The past participle of "write" is "written". It is used in perfect tenses and passive voice.',
@@ -473,7 +471,7 @@ quizzes_data = [
             },
         ]
         ),
-        (1063, "Diagnostic Anglais 1ère - Série 5", "Anglais", "1ère", [
+        (1063, "Diagnostic Anglais 1Ã¨re - SÃ©rie 5", "Anglais", "1Ã¨re", [
             {
                 'id': '1063_1',
                 'type': 'qcm',
@@ -491,7 +489,7 @@ quizzes_data = [
             },
             {
                 'id': '1063_3',
-                'type': 'texte',
+                'type': 'vrai-faux',
                 'question': 'Translate the sentence "He is reading a book" into French.',
                 'correct_answer': 'Il lit un livre',
                 'explanation': 'The correct translation of "He is reading a book" in French is "Il lit un livre".',
@@ -513,7 +511,7 @@ quizzes_data = [
             },
             {
                 'id': '1063_6',
-                'type': 'texte',
+                'type': 'vrai-faux',
                 'question': 'What is the past tense of the verb "drink"?',
                 'correct_answer': 'drank',
                 'explanation': 'The past tense of "drink" is "drank".',
@@ -538,7 +536,7 @@ quizzes_data = [
             },
         ]
         ),
-        (1064, "Diagnostic Anglais 1ère - Série 6", "Anglais", "1ère", [
+        (1064, "Diagnostic Anglais 1Ã¨re - SÃ©rie 6", "Anglais", "1Ã¨re", [
             {
                 'id': '1064_1',
                 'type': 'qcm',
@@ -556,10 +554,10 @@ quizzes_data = [
             },
             {
                 'id': '1064_3',
-                'type': 'texte',
+                'type': 'vrai-faux',
                 'question': 'Translate the sentence "She is cooking dinner" into French.',
-                'correct_answer': 'Elle cuisine le dîner',
-                'explanation': 'The correct translation of "She is cooking dinner" in French is "Elle cuisine le dîner".',
+                'correct_answer': 'Elle cuisine le dÃ®ner',
+                'explanation': 'The correct translation of "She is cooking dinner" in French is "Elle cuisine le dÃ®ner".',
             },
             {
                 'id': '1064_4',
@@ -578,7 +576,7 @@ quizzes_data = [
             },
             {
                 'id':   '1064_6',
-                'type': 	'texte',
+                'type': 	'vrai-faux',
                 'question': 	'What is the past participle of the verb "break"?',
                 'correct_answer': 	'broken',
                 'explanation': 	'The past participle of "break" is "broken". It is used in perfect tenses and passive voice.',
@@ -603,7 +601,7 @@ quizzes_data = [
             }
     ]
     ),
-        (1065, "Diagnostic Anglais 1ère - Série 7", "Anglais", "1ère", [
+        (1065, "Diagnostic Anglais 1Ã¨re - SÃ©rie 7", "Anglais", "1Ã¨re", [
                 {
                     'id': '1065_1',
                     'type': 'qcm',
@@ -621,10 +619,10 @@ quizzes_data = [
                 },
                 {
                     'id': '1065_3',
-                    'type': 'texte',
+                    'type': 'vrai-faux',
                     'question': 'Translate the sentence "They are watching TV" into French.',
-                    'correct_answer': 'Ils regardent la télévision',
-                    'explanation': 'The correct translation of "They are watching TV" in French is "Ils regardent la télévision".',
+                    'correct_answer': 'Ils regardent la tÃ©lÃ©vision',
+                    'explanation': 'The correct translation of "They are watching TV" in French is "Ils regardent la tÃ©lÃ©vision".',
                 },
                 {
                     'id': '1065_4',
@@ -643,7 +641,7 @@ quizzes_data = [
                 },
                 {
                     'id':   '1065_6',
-                    'type': 	'texte',
+                    'type': 	'vrai-faux',
                     'question': 	'What is the past participle of the verb "go"?',
                     'correct_answer': 	'gone',
                     'explanation': 	'The past participle of "go" is "gone". It is used in perfect tenses and passive voice.',
@@ -668,7 +666,7 @@ quizzes_data = [
                 },
         ]
         ),
-        (1066, "Diagnostic Anglais 1ère - Série 8", "Anglais", "1ère", [
+        (1066, "Diagnostic Anglais 1Ã¨re - SÃ©rie 8", "Anglais", "1Ã¨re", [
                 {
                     'id': '1066_1',
                     'type': 'qcm',
@@ -686,10 +684,10 @@ quizzes_data = [
                 },
                 {
                     'id': '1066_3',
-                    'type': 'texte',
+                    'type': 'vrai-faux',
                     'question': 'Translate the sentence "We are eating breakfast" into French.',
-                    'correct_answer': 'Nous mangeons le petit déjeuner',
-                    'explanation': 'The correct translation of "We are eating breakfast" in French is "Nous mangeons le petit déjeuner".',
+                    'correct_answer': 'Nous mangeons le petit dÃ©jeuner',
+                    'explanation': 'The correct translation of "We are eating breakfast" in French is "Nous mangeons le petit dÃ©jeuner".',
                 },
                 {
                     'id': '1066_4',
@@ -708,7 +706,7 @@ quizzes_data = [
                 },
                 {
                     'id':   '1066_6',
-                    'type': 	'texte',
+                    'type': 	'vrai-faux',
                     'question': 	'What is the past tense of the verb "see"?',
                     'correct_answer': 	'saw',
                     'explanation': 	'The past tense of "see" is "saw".',
@@ -760,11 +758,12 @@ def write_quiz_files():
                 f.write("\n")
 
         count += 1
-        print(f"  âœ“ {qid}.json - {title}")
+        print(f"  Ã¢Å“â€œ {qid}.json - {title}")
 
-    print(f"\nâœ… {count} quiz gÃ©nÃ©rÃ©s (+ {count} rÃ©ponses)")
+    print(f"\nÃ¢Å“â€¦ {count} quiz gÃƒÂ©nÃƒÂ©rÃƒÂ©s (+ {count} rÃƒÂ©ponses)")
 
 
 if __name__ == "__main__":
     print("Generating quizzes from template IA...")
     write_quiz_files()
+

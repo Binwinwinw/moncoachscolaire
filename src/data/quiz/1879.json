@@ -1,0 +1,91 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 5eme - Série 1879",
+    "type": "quiz",
+    "level": "5eme",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 5eme : Mathématiques 5eme - Aires et périmètres",
+    "status": "published",
+    "created_at": "2026-04-18T05:32:18.507661Z",
+    "updated_at": "2026-04-18T05:32:18.507661Z",
+    "source": "MonCoachScolaire",
+    "programme_ref": "Cycle 4"
+  },
+  "quiz": {
+    "title": "Mathématiques 5eme - Aires et périmètres",
+    "type": "quiz",
+    "level": "5eme",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "id": "1879_1",
+        "type": "qcm",
+        "question": "[Mathématiques 5eme] Quelle démarche aide le plus à réussir un exercice sur 'Aires et périmètres' ?",
+        "choices": [
+          "Repérer les mots-clés et la notion visée",
+          "Répondre au hasard",
+          "Sauter la consigne",
+          "Copier sans vérifier"
+        ]
+      },
+      {
+        "id": "1879_2",
+        "type": "vrai-faux",
+        "question": "[Mathématiques 5eme] En 'Aires et périmètres', relire le calcul ou la figure avant de valider améliore la fiabilité de la réponse."
+      },
+      {
+        "id": "1879_3",
+        "type": "qcm",
+        "question": "[Mathématiques 5eme] Pour progresser sur 'Aires et périmètres', quelle habitude est la plus utile ?",
+        "choices": [
+          "Refaire un exemple corrigé puis s'entraîner seul",
+          "Attendre la correction sans chercher",
+          "Apprendre une formule sans la comprendre",
+          "Éviter les questions difficiles"
+        ]
+      },
+      {
+        "id": "1879_4",
+        "type": "vrai-faux",
+        "question": "[Mathématiques 5eme] En mathématiques, expliquer sa démarche sur 'Aires et périmètres' est inutile si le résultat semble juste."
+      },
+      {
+        "id": "1879_5",
+        "type": "qcm",
+        "question": "[Mathématiques 5eme] Quel indicateur montre une bonne maîtrise du thème 'Aires et périmètres' ?",
+        "choices": [
+          "Savoir justifier chaque étape du raisonnement",
+          "Donner une réponse très rapide",
+          "Réciter sans exemple",
+          "Changer de méthode à chaque ligne"
+        ]
+      },
+      {
+        "id": "1879_6",
+        "type": "vrai-faux",
+        "question": "[Mathématiques 5eme] Faire une fiche avec les règles clés de 'Aires et périmètres' puis s'exercer aide à mémoriser durablement."
+      },
+      {
+        "id": "1879_7",
+        "type": "qcm",
+        "question": "[Mathématiques 5eme] Si tu bloques sur une question liée à 'Aires et périmètres', quel réflexe est le plus pertinent ?",
+        "choices": [
+          "Identifier l'étape bloquante puis reprendre calmement",
+          "Abandonner immédiatement",
+          "Réécrire l'énoncé sans réfléchir",
+          "Choisir la réponse la plus longue"
+        ]
+      },
+      {
+        "id": "1879_8",
+        "type": "vrai-faux",
+        "question": "[Mathématiques 5eme] Alterner entraînement, correction et reprise des erreurs est une bonne stratégie sur 'Aires et périmètres'."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

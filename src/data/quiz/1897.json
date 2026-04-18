@@ -1,0 +1,91 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 5eme - Série 1897",
+    "type": "quiz",
+    "level": "5eme",
+    "subject": "Histoire-Géographie",
+    "description": "Diagnostic Histoire-Géographie 5eme : Histoire-Géographie 5eme - Humanisme et Renaissance",
+    "status": "published",
+    "created_at": "2026-04-18T05:32:18.724327Z",
+    "updated_at": "2026-04-18T05:32:18.724327Z",
+    "source": "MonCoachScolaire",
+    "programme_ref": "Cycle 4"
+  },
+  "quiz": {
+    "title": "Histoire-Géographie 5eme - Humanisme et Renaissance",
+    "type": "quiz",
+    "level": "5eme",
+    "subject": "Histoire-Géographie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "id": "1897_1",
+        "type": "qcm",
+        "question": "[Histoire-Géographie 5eme] Sur le thème 'Humanisme et Renaissance', quelle démarche est la plus efficace pour comprendre un document ?",
+        "choices": [
+          "Observer la source, la date et les indices du document",
+          "Lire uniquement le titre",
+          "Répondre sans analyser",
+          "Ignorer la légende ou le contexte"
+        ]
+      },
+      {
+        "id": "1897_2",
+        "type": "vrai-faux",
+        "question": "[Histoire-Géographie 5eme] Repérer les repères spatiaux ou chronologiques aide à mieux traiter une question sur 'Humanisme et Renaissance'."
+      },
+      {
+        "id": "1897_3",
+        "type": "qcm",
+        "question": "[Histoire-Géographie 5eme] Quelle habitude aide à progresser sur 'Humanisme et Renaissance' ?",
+        "choices": [
+          "Comparer plusieurs cartes, textes ou schémas",
+          "Retenir un seul mot sans contexte",
+          "Éviter les exemples étudiés en classe",
+          "Répondre plus vite que lire"
+        ]
+      },
+      {
+        "id": "1897_4",
+        "type": "vrai-faux",
+        "question": "[Histoire-Géographie 5eme] En histoire-géographie, la justification d'une réponse n'a pas d'importance sur 'Humanisme et Renaissance'."
+      },
+      {
+        "id": "1897_5",
+        "type": "qcm",
+        "question": "[Histoire-Géographie 5eme] Quel indicateur montre une bonne maîtrise du thème 'Humanisme et Renaissance' ?",
+        "choices": [
+          "Savoir utiliser un vocabulaire précis et replacer le contexte",
+          "Réciter sans comprendre",
+          "Oublier les repères importants",
+          "Répondre en une formule vague"
+        ]
+      },
+      {
+        "id": "1897_6",
+        "type": "vrai-faux",
+        "question": "[Histoire-Géographie 5eme] Faire une frise, un schéma ou une carte mentale peut aider à retenir 'Humanisme et Renaissance'."
+      },
+      {
+        "id": "1897_7",
+        "type": "qcm",
+        "question": "[Histoire-Géographie 5eme] Si tu bloques sur une question liée à 'Humanisme et Renaissance', quel réflexe est le plus pertinent ?",
+        "choices": [
+          "Revenir au document et relever les indices utiles",
+          "Supprimer les repères de temps",
+          "Écrire tout ce qu'on sait sans lien",
+          "Éviter la consigne"
+        ]
+      },
+      {
+        "id": "1897_8",
+        "type": "vrai-faux",
+        "question": "[Histoire-Géographie 5eme] Reprendre ses erreurs après correction aide à progresser sur 'Humanisme et Renaissance'."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

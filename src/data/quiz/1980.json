@@ -1,0 +1,91 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 4eme - Série 1980",
+    "type": "quiz",
+    "level": "4eme",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 4eme : SVT 4eme - Micro-organismes",
+    "status": "published",
+    "created_at": "2026-04-18T05:40:23.191549Z",
+    "updated_at": "2026-04-18T05:40:23.191549Z",
+    "source": "MonCoachScolaire",
+    "programme_ref": "Cycle 4"
+  },
+  "quiz": {
+    "title": "SVT 4eme - Micro-organismes",
+    "type": "quiz",
+    "level": "4eme",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "id": "1980_1",
+        "type": "qcm",
+        "question": "[SVT 4eme] Sur le thème 'Micro-organismes', quelle démarche est la plus utile pour réussir un exercice ?",
+        "choices": [
+          "Observer les données, le schéma et le vocabulaire scientifique",
+          "Répondre sans lire",
+          "Ignorer le document",
+          "Choisir au hasard"
+        ]
+      },
+      {
+        "id": "1980_2",
+        "type": "vrai-faux",
+        "question": "[SVT 4eme] Utiliser le vocabulaire scientifique précis aide à traiter 'Micro-organismes'."
+      },
+      {
+        "id": "1980_3",
+        "type": "qcm",
+        "question": "[SVT 4eme] Quelle habitude aide à progresser sur 'Micro-organismes' ?",
+        "choices": [
+          "Comparer plusieurs exemples ou documents scientifiques",
+          "Apprendre sans comprendre",
+          "Éviter les schémas",
+          "Ne jamais se corriger"
+        ]
+      },
+      {
+        "id": "1980_4",
+        "type": "vrai-faux",
+        "question": "[SVT 4eme] Une réponse juste sans explication suffit toujours pour montrer la maîtrise de 'Micro-organismes'."
+      },
+      {
+        "id": "1980_5",
+        "type": "qcm",
+        "question": "[SVT 4eme] Quel signe montre une bonne maîtrise de 'Micro-organismes' ?",
+        "choices": [
+          "Expliquer un phénomène avec des observations précises",
+          "Réciter un mot sans lien",
+          "Ignorer les causes",
+          "Répondre très vite seulement"
+        ]
+      },
+      {
+        "id": "1980_6",
+        "type": "vrai-faux",
+        "question": "[SVT 4eme] Relire le schéma ou le tableau peut aider à mieux comprendre 'Micro-organismes'."
+      },
+      {
+        "id": "1980_7",
+        "type": "qcm",
+        "question": "[SVT 4eme] Si tu bloques sur une question liée à 'Micro-organismes', que faut-il faire ?",
+        "choices": [
+          "Revenir aux observations et reformuler le problème",
+          "Ignorer les indices",
+          "Abandonner",
+          "Changer de notion"
+        ]
+      },
+      {
+        "id": "1980_8",
+        "type": "vrai-faux",
+        "question": "[SVT 4eme] Corriger ses erreurs après un quiz aide à progresser sur 'Micro-organismes'."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

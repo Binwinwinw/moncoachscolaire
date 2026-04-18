@@ -1,0 +1,91 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 5eme - Série 1926",
+    "type": "quiz",
+    "level": "5eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 5eme : Technologie 5eme - Matériaux et propriétés",
+    "status": "published",
+    "created_at": "2026-04-18T05:40:22.534187Z",
+    "updated_at": "2026-04-18T05:40:22.534187Z",
+    "source": "MonCoachScolaire",
+    "programme_ref": "Cycle 4"
+  },
+  "quiz": {
+    "title": "Technologie 5eme - Matériaux et propriétés",
+    "type": "quiz",
+    "level": "5eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "id": "1926_1",
+        "type": "qcm",
+        "question": "[Technologie 5eme] Pour le thème 'Matériaux et propriétés', quelle démarche est la plus efficace ?",
+        "choices": [
+          "Observer l'objet, sa fonction et ses contraintes",
+          "Répondre sans analyser",
+          "Ignorer l'usage réel",
+          "Mémoriser sans comprendre"
+        ]
+      },
+      {
+        "id": "1926_2",
+        "type": "vrai-faux",
+        "question": "[Technologie 5eme] Faire un schéma ou repérer les éléments utiles aide à comprendre 'Matériaux et propriétés'."
+      },
+      {
+        "id": "1926_3",
+        "type": "qcm",
+        "question": "[Technologie 5eme] Quelle habitude aide à progresser sur 'Matériaux et propriétés' ?",
+        "choices": [
+          "Comparer plusieurs solutions techniques",
+          "Choisir au hasard",
+          "Éviter les documents",
+          "Oublier les contraintes"
+        ]
+      },
+      {
+        "id": "1926_4",
+        "type": "vrai-faux",
+        "question": "[Technologie 5eme] La justification d'une réponse est inutile en technologie sur 'Matériaux et propriétés'."
+      },
+      {
+        "id": "1926_5",
+        "type": "qcm",
+        "question": "[Technologie 5eme] Quel signe montre une bonne maîtrise de 'Matériaux et propriétés' ?",
+        "choices": [
+          "Expliquer le rôle d'un composant ou d'une solution",
+          "Réciter sans exemple",
+          "Deviner les réponses",
+          "Éviter les schémas"
+        ]
+      },
+      {
+        "id": "1926_6",
+        "type": "vrai-faux",
+        "question": "[Technologie 5eme] Revenir sur ses erreurs peut aider à mieux comprendre 'Matériaux et propriétés'."
+      },
+      {
+        "id": "1926_7",
+        "type": "qcm",
+        "question": "[Technologie 5eme] Si tu bloques sur 'Matériaux et propriétés', quel réflexe est le plus pertinent ?",
+        "choices": [
+          "Reprendre le document et identifier la fonction principale",
+          "Abandonner immédiatement",
+          "Ignorer les contraintes",
+          "Changer de sujet"
+        ]
+      },
+      {
+        "id": "1926_8",
+        "type": "vrai-faux",
+        "question": "[Technologie 5eme] Corriger, comparer et reformuler aide à progresser sur 'Matériaux et propriétés'."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

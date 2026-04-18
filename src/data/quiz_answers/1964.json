@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Histoire-Géographie 4eme - Série 1964",
+    "level": "4eme",
+    "subject": "Histoire-Géographie"
+  },
+  "quiz": {
+    "title": "Histoire-Géographie 4eme - Révolution française",
+    "question_count": 8,
+    "level": "4eme",
+    "subject": "Histoire-Géographie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Observer la source, la date et le contexte",
+        "correct": 0,
+        "correction": "La source et le contexte donnent des indices essentiels pour comprendre un document historique ou géographique."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les repères spatiaux et temporels sont des clés de compréhension importantes."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Comparer plusieurs cartes, textes ou images",
+        "correct": 0,
+        "correction": "Le croisement des supports permet d'affiner l'analyse et d'éviter les contresens."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "L'argumentation et l'appui sur des repères sont indispensables."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Utiliser un vocabulaire précis et replacer le contexte",
+        "correct": 0,
+        "correction": "Le vocabulaire spécifique et le contexte sont au cœur du raisonnement disciplinaire."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Ces outils visuels aident à organiser les connaissances."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Revenir au document et relever les indices utiles",
+        "correct": 0,
+        "correction": "Les documents contiennent souvent les éléments de réponse lorsqu'on les lit attentivement."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le retour sur erreur consolide les repères et les méthodes d'analyse."
+      }
+    ]
+  }
+}

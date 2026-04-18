@@ -11,7 +11,7 @@ import os
 from datetime import UTC, datetime
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", ".."))
+REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", "..", ".."))
 
 # Ã€ adapter dans chaque clone
 BASENAME = "espagnol_1ere_quizzes"
@@ -66,14 +66,10 @@ def normalize_text_payload(payload):
 
 
 def normalize_question_type(question_type):
-    qt = str(question_type).strip().lower()
-    if qt in {"vrai-faux", "vrai faux"}:
-        return "vrai-faux"
+    qt = str(question_type or "").strip().lower().replace("_", "-")
     if qt == "qcm":
         return "qcm"
-    if qt in {"open", "texte", "text"}:
-        return "open"
-    return qt
+    return "vrai-faux"
 
 
 def make_quiz(qid, title, subject, level, questions,
@@ -101,7 +97,7 @@ def make_quiz(qid, title, subject, level, questions,
             }
         else:
             sanitized = {
-                "type": "open",
+                "type": "vrai-faux",
                 "question": str(question.get("question", "")),
             }
         quiz_questions.append(sanitized)
@@ -161,11 +157,13 @@ def make_answers(qid, title, subject, level, questions):
                 "correction": str(q.get("explanation", "")),
             })
         else:
+            tf_source = q.get("correct", q.get("correct_answer", "faux"))
+            tf_answer = "vrai" if str(tf_source).strip().lower() in {"true", "vrai", "1"} else "faux"
             answers.append({
                 "index": index,
                 "question_id": index + 1,
-                "type": "open",
-                "answer": str(q.get("correct_answer", "")),
+                "type": "vrai-faux",
+                "answer": tf_answer,
                 "correction": str(q.get("explanation", "")),
             })
 
@@ -188,7 +186,7 @@ def make_answers(qid, title, subject, level, questions):
 quizzes_data = [
 # ─── 0001 – Identités et échanges ───────────────────────────────────
 
-            (0001, "Les pays hispanophones", "Espagnol", "1ère", [
+            (1, "Les pays hispanophones", "Espagnol", "1ère", [
                 {
                     "type": "qcm",
                     "question": "Quel est le pays hispanophone le plus peuplé ?",
@@ -246,3 +244,4 @@ def write_quiz_files():
 if __name__ == "__main__":
     print("Generating quizzes from template IA...")
     write_quiz_files()
+

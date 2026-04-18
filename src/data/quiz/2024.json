@@ -1,0 +1,91 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 3eme - Série 2024",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 3eme : Mathématiques 3eme - Théorème de Pythagore",
+    "status": "published",
+    "created_at": "2026-04-18T05:49:53.350458Z",
+    "updated_at": "2026-04-18T05:49:53.350458Z",
+    "source": "MonCoachScolaire",
+    "programme_ref": "Cycle 4"
+  },
+  "quiz": {
+    "title": "Mathématiques 3eme - Théorème de Pythagore",
+    "type": "quiz",
+    "level": "3eme",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "id": "2024_1",
+        "type": "qcm",
+        "question": "[Mathématiques 3eme] Pour réussir un exercice sur 'Théorème de Pythagore', quel réflexe est le plus utile ?",
+        "choices": [
+          "Identifier la notion puis organiser la démarche",
+          "Répondre au hasard",
+          "Ignorer les données",
+          "Aller très vite sans vérifier"
+        ]
+      },
+      {
+        "id": "2024_2",
+        "type": "vrai-faux",
+        "question": "[Mathématiques 3eme] Relire le calcul ou la figure avant de valider peut aider sur 'Théorème de Pythagore'."
+      },
+      {
+        "id": "2024_3",
+        "type": "qcm",
+        "question": "[Mathématiques 3eme] Quelle habitude aide à progresser sur 'Théorème de Pythagore' ?",
+        "choices": [
+          "Refaire un exemple corrigé puis s'entraîner seul",
+          "Mémoriser sans comprendre",
+          "Éviter les exercices d'application",
+          "Changer de méthode à chaque ligne"
+        ]
+      },
+      {
+        "id": "2024_4",
+        "type": "vrai-faux",
+        "question": "[Mathématiques 3eme] La justification du raisonnement est inutile si le résultat semble juste sur 'Théorème de Pythagore'."
+      },
+      {
+        "id": "2024_5",
+        "type": "qcm",
+        "question": "[Mathématiques 3eme] Quel signe montre une bonne maîtrise de 'Théorème de Pythagore' ?",
+        "choices": [
+          "Savoir expliquer les étapes du raisonnement",
+          "Répondre très vite",
+          "Réciter une formule sans exemple",
+          "Ignorer les erreurs précédentes"
+        ]
+      },
+      {
+        "id": "2024_6",
+        "type": "vrai-faux",
+        "question": "[Mathématiques 3eme] Faire un schéma, un tableau ou un brouillon peut aider à réussir sur 'Théorème de Pythagore'."
+      },
+      {
+        "id": "2024_7",
+        "type": "qcm",
+        "question": "[Mathématiques 3eme] Si tu bloques sur une question liée à 'Théorème de Pythagore', quel réflexe est le plus pertinent ?",
+        "choices": [
+          "Revenir à l'énoncé et isoler l'étape bloquante",
+          "Abandonner immédiatement",
+          "Inventer une réponse",
+          "Supprimer les données gênantes"
+        ]
+      },
+      {
+        "id": "2024_8",
+        "type": "vrai-faux",
+        "question": "[Mathématiques 3eme] Corriger ses erreurs après l'exercice aide à progresser sur 'Théorème de Pythagore'."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

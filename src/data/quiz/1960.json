@@ -1,0 +1,91 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 4eme - Série 1960",
+    "type": "quiz",
+    "level": "4eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 4eme : Français 4eme - Argumenter à l'écrit",
+    "status": "published",
+    "created_at": "2026-04-18T05:40:22.917403Z",
+    "updated_at": "2026-04-18T05:40:22.917403Z",
+    "source": "MonCoachScolaire",
+    "programme_ref": "Cycle 4"
+  },
+  "quiz": {
+    "title": "Français 4eme - Argumenter à l'écrit",
+    "type": "quiz",
+    "level": "4eme",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "id": "1960_1",
+        "type": "qcm",
+        "question": "[Français 4eme] Pour réussir un exercice sur 'Argumenter à l'écrit', quel réflexe est le plus utile ?",
+        "choices": [
+          "Repérer les indices dans la phrase ou le texte",
+          "Répondre sans relire",
+          "Ignorer le contexte",
+          "Choisir au hasard"
+        ]
+      },
+      {
+        "id": "1960_2",
+        "type": "vrai-faux",
+        "question": "[Français 4eme] Reformuler avec ses mots peut aider à mieux comprendre 'Argumenter à l'écrit'."
+      },
+      {
+        "id": "1960_3",
+        "type": "qcm",
+        "question": "[Français 4eme] Quelle habitude aide à progresser sur 'Argumenter à l'écrit' ?",
+        "choices": [
+          "Comparer plusieurs exemples corrigés",
+          "Mémoriser une réponse sans explication",
+          "Éviter les textes d'application",
+          "Sauter les consignes"
+        ]
+      },
+      {
+        "id": "1960_4",
+        "type": "vrai-faux",
+        "question": "[Français 4eme] Une réponse juste sans justification suffit toujours pour montrer la maîtrise de 'Argumenter à l'écrit'."
+      },
+      {
+        "id": "1960_5",
+        "type": "qcm",
+        "question": "[Français 4eme] Quel signe montre une bonne maîtrise de 'Argumenter à l'écrit' ?",
+        "choices": [
+          "Être capable d'expliquer la règle ou l'effet du texte",
+          "Réciter sans comprendre",
+          "Oublier ses erreurs",
+          "Répondre vite seulement"
+        ]
+      },
+      {
+        "id": "1960_6",
+        "type": "vrai-faux",
+        "question": "[Français 4eme] Relire à voix basse peut aider à repérer des indices utiles sur 'Argumenter à l'écrit'."
+      },
+      {
+        "id": "1960_7",
+        "type": "qcm",
+        "question": "[Français 4eme] Si tu bloques sur une question liée à 'Argumenter à l'écrit', que faut-il faire en priorité ?",
+        "choices": [
+          "Revenir au texte et relever les mots utiles",
+          "Inventer une règle",
+          "Abandonner la question",
+          "Écarter le contexte"
+        ]
+      },
+      {
+        "id": "1960_8",
+        "type": "vrai-faux",
+        "question": "[Français 4eme] Corriger ses erreurs après l'exercice aide à progresser sur 'Argumenter à l'écrit'."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

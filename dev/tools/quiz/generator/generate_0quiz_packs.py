@@ -26,10 +26,25 @@ def save_json(path: Path, data: Any) -> None:
         f.write("\n")
 
 
+def normalize_question_type(raw_type: Any) -> str:
+    qtype = str(raw_type or "").strip().lower().replace("_", "-")
+    if qtype in {"vrai faux", "vrai-faux"}:
+        return "vrai-faux"
+    if qtype == "qcm":
+        return "qcm"
+    return "vrai-faux"
+
+
 def normalize_quiz(quiz: dict[str, Any], add_question_ids: bool) -> int:
     questions = list(quiz.get("quiz", {}).get("questions", []))
-    if add_question_ids:
-        for idx, question in enumerate(questions, start=1):
+    for idx, question in enumerate(questions, start=1):
+        question["type"] = normalize_question_type(question.get("type", "vrai-faux"))
+        if "options" in question and "choices" not in question:
+            question["choices"] = list(question.get("options", []))
+            question.pop("options", None)
+        for leaked_key in ("correct_option", "correct", "correct_answer", "explanation", "correction"):
+            question.pop(leaked_key, None)
+        if add_question_ids:
             question["id"] = idx
 
     quiz.setdefault("quiz", {})["questions"] = questions
@@ -45,7 +60,7 @@ def normalize_answers(answers: dict[str, Any], questions: list[dict[str, Any]], 
         answer["index"] = idx
         answer["question_id"] = idx + 1
         if idx < len(questions):
-            answer["type"] = str(questions[idx].get("type", answer.get("type", "open")))
+            answer["type"] = normalize_question_type(questions[idx].get("type", answer.get("type", "vrai-faux")))
 
     answers_obj["answers"] = answer_list
     answers_obj["question_count"] = qcount
@@ -106,7 +121,7 @@ def main() -> int:
     if args.start_id > args.end_id:
         raise ValueError("start-id must be <= end-id")
 
-    root = Path(__file__).resolve().parents[3]
+    root = Path(__file__).resolve().parents[4]
     in_quiz_dir = root / args.input_quiz_dir
     in_answers_dir = root / args.input_answers_dir
     out_dir = root / args.output_dir

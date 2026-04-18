@@ -1,0 +1,91 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic SVT 5eme - Série 1997",
+    "type": "quiz",
+    "level": "5eme",
+    "subject": "SVT",
+    "description": "Diagnostic SVT 5eme : SVT 5eme - Rôle des micro-organismes",
+    "status": "published",
+    "created_at": "2026-04-18T05:45:13.305733Z",
+    "updated_at": "2026-04-18T05:45:13.305733Z",
+    "source": "MonCoachScolaire",
+    "programme_ref": "Cycle 4"
+  },
+  "quiz": {
+    "title": "SVT 5eme - Rôle des micro-organismes",
+    "type": "quiz",
+    "level": "5eme",
+    "subject": "SVT",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "id": "1997_1",
+        "type": "qcm",
+        "question": "[SVT 5eme] Sur le thème 'Rôle des micro-organismes', quelle démarche aide le plus à réussir un exercice ?",
+        "choices": [
+          "Observer le document, les indices et le vocabulaire scientifique",
+          "Répondre sans lire",
+          "Ignorer le schéma",
+          "Choisir au hasard"
+        ]
+      },
+      {
+        "id": "1997_2",
+        "type": "vrai-faux",
+        "question": "[SVT 5eme] Utiliser un vocabulaire scientifique précis aide à mieux traiter 'Rôle des micro-organismes'."
+      },
+      {
+        "id": "1997_3",
+        "type": "qcm",
+        "question": "[SVT 5eme] Quelle habitude aide à progresser sur 'Rôle des micro-organismes' ?",
+        "choices": [
+          "Comparer plusieurs observations ou exemples",
+          "Apprendre par cœur sans comprendre",
+          "Éviter les documents",
+          "Oublier ses erreurs"
+        ]
+      },
+      {
+        "id": "1997_4",
+        "type": "vrai-faux",
+        "question": "[SVT 5eme] Une réponse scientifique juste n'a pas besoin d'explication pour montrer la maîtrise de 'Rôle des micro-organismes'."
+      },
+      {
+        "id": "1997_5",
+        "type": "qcm",
+        "question": "[SVT 5eme] Quel signe montre une bonne maîtrise de 'Rôle des micro-organismes' ?",
+        "choices": [
+          "Expliquer un phénomène avec des observations précises",
+          "Réciter un mot isolé",
+          "Répondre vite seulement",
+          "Ignorer les causes"
+        ]
+      },
+      {
+        "id": "1997_6",
+        "type": "vrai-faux",
+        "question": "[SVT 5eme] Relire un schéma ou un tableau peut aider à mieux comprendre 'Rôle des micro-organismes'."
+      },
+      {
+        "id": "1997_7",
+        "type": "qcm",
+        "question": "[SVT 5eme] Si tu bloques sur une question liée à 'Rôle des micro-organismes', quel réflexe est le plus pertinent ?",
+        "choices": [
+          "Revenir aux observations et reformuler le problème",
+          "Abandonner tout de suite",
+          "Ignorer le document",
+          "Changer de sujet"
+        ]
+      },
+      {
+        "id": "1997_8",
+        "type": "vrai-faux",
+        "question": "[SVT 5eme] Corriger ses erreurs après un quiz aide à progresser sur 'Rôle des micro-organismes'."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}
