@@ -18,7 +18,7 @@ ANSWERS_DIR = os.path.join(OUTPUT_DIR, "quiz_answers")
 quizzes_data = [
 # ─── 0001 – Personnes et personnages	 ───────────────────────────────────
     (
-        0001,
+        "0001",
         'Personnes et personnages',
         'Anglais',
         '6eme',
@@ -88,7 +88,7 @@ quizzes_data = [
     ),
 # ─── 0002 – Le quotidien : vivre, jouer, apprendre	 ──────────────────────────
     (
-        0002,
+        "0002",
         'Le quotidien : vivre, jouer, apprendre',
         'Anglais',
         '6eme',
@@ -157,7 +157,7 @@ quizzes_data = [
     ),
 # ─── 0003 – Pays et paysages	 ───────────────────────────────────────────────
     (
-        0003,
+        "0003",
         'Pays et paysages',
         'Anglais',
         '6eme',
@@ -226,7 +226,7 @@ quizzes_data = [
     ),
 # ─── 0004 – Arts et divertissement : musique, cinéma, littérature	 ─────────────
     (
-        0004,
+        "0004",
         'arts/divertissement : musique, cinéma, littérature',
         'Anglais',
         '6eme',
@@ -295,7 +295,7 @@ quizzes_data = [
     ),
 # ─── 0005 – Environnement/société : écologie, citoyenneté, vie sociale	 ─────────────
     (
-        0005,
+        "0005",
         'environnement/société : écologie, citoyenneté, vie sociale',
         'Anglais',
         '6eme',
@@ -364,7 +364,7 @@ quizzes_data = [
     ),
 # ─── 0006 – Corps humain/santé : alimentation, sport, bien-être	 ─────────────────────
     (
-        0006,
+        "0006",
         'corps humain/santé : alimentation, sport, bien-être',
         'Anglais',
         '6eme',
@@ -433,7 +433,7 @@ quizzes_data = [
     ),
 # ─── 0007 – Technologie : outils numériques, médias, réseaux sociaux	 ─────────────────────
     (
-        0007,
+        "0007",
         'technologie : outils numériques, médias, réseaux sociaux',
         'Anglais',
         '6eme',
@@ -502,7 +502,7 @@ quizzes_data = [
     ),
 # ─── 0008 – Histoire/géographie : événements historiques, lieux, repères temporels	 ─────────────────────
     (
-        0008,
+        "0008",
         'histoire/géographie : événements historiques, lieux, repères temporels',
         'Anglais',
         '6eme',
@@ -571,7 +571,7 @@ quizzes_data = [
     ),
 # ─── 0009 – Sciences : phénomènes naturels, corps humain, espace	 ─────────────────────
     (
-        0009,
+        "0009",
         'sciences : phénomènes naturels, corps humain, espace',
         'Anglais',
         '6eme',
@@ -640,7 +640,7 @@ quizzes_data = [
     ),
 # ─── 0010 – Langues : vocabulaire, expressions, communication	 ─────────────────────
     (
-        0010,
+        "0010",
         'langues : vocabulaire, expressions, communication',
         'Anglais',
         '6eme',
@@ -709,7 +709,7 @@ quizzes_data = [
     ),
 #
     (
-        0011,
+        "0011",
         'mathématiques : nombres, opérations, géométrie',
         'Anglais',
         '6eme',
@@ -778,7 +778,7 @@ quizzes_data = [
     ),
 #─── 0012 – Histoire des arts : œuvres, artistes, mouvements artistiques	 ─────────────────────
     (
-        0012,
+        "0012",
         'histoire des arts : œuvres, artistes, mouvements artistiques',
         'Anglais',
         '6eme',
@@ -847,7 +847,7 @@ quizzes_data = [
     ),
 #─── 0013 – Géographie : pays, capitales, continents	 ─────────────────────
     (
-        0013,
+        "0013",
         'géographie : pays, capitales, continents',
         'Anglais',
         '6eme',
@@ -916,7 +916,7 @@ quizzes_data = [
     ),
 # ─── 0014 – Culture générale : cinéma, musique, littérature	 ─────────────
     (
-        0014,
+        "0014",
         'culture générale : cinéma, musique, littérature',
         'Anglais',
         '6eme',
@@ -985,7 +985,7 @@ quizzes_data = [
     ),
 #--
     (
-        0015,
+        "0015",
         'sports : disciplines, événements, athlètes',
         'Anglais',
         '6eme',
@@ -1039,7 +1039,7 @@ quizzes_data = [
     ),
 #--
     (
-        0016,
+        "0016",
         'musique : genres, instruments, artistes',
         'Anglais',
         '6eme',
@@ -1108,7 +1108,7 @@ quizzes_data = [
     ),
 #--
     (
-        0017,
+        "0017",
         'technologie : outils numériques, médias, réseaux sociaux',
         'Anglais',
         '6eme',
@@ -1177,7 +1177,7 @@ quizzes_data = [
     ),
 #--
     (
-        0018,
+        "0018",
         'histoire : événements, personnages, périodes historiques',
         'Anglais',
         '6eme',
@@ -1246,7 +1246,7 @@ quizzes_data = [
     ),
 #--
     (
-        0019,
+        "0019",
         'sciences : phénomènes naturels, corps humain, environnement',
         'Anglais',
         '6eme',
@@ -1315,7 +1315,7 @@ quizzes_data = [
     ),
 #--
     (
-        0020,
+        "0020",
         'langue anglaise : vocabulaire, grammaire, expressions courantes',
         'Anglais',
         '6eme',
@@ -1383,7 +1383,7 @@ quizzes_data = [
         ]
     ),
     (
-        0021,
+        "0021",
         'Famille, environnement, actualité simple',
         "Anglais",
         "6ème",
@@ -1451,7 +1451,7 @@ quizzes_data = [
         ]
     ),
     (
-        0022,
+        "0022",
         'Vocabulaire de base : couleurs, nombres, jours de la semaine',
         "Anglais",
         "6ème",
@@ -1519,7 +1519,7 @@ quizzes_data = [
         ]
     ),
     (
-        0023,
+        "0023",
         'Expressions courantes : salutations, formules de politesse, phrases simples',
         "Anglais",
         "6ème",
@@ -1586,7 +1586,7 @@ quizzes_data = [
         ]
     ),
     (
-        0024,
+        "0024",
         'Sports : sports populaires, événements sportifs, athlètes célèbres',
         "Anglais",
         "6ème",
@@ -1654,7 +1654,7 @@ quizzes_data = [
             ]
     ),
     (
-        0025,
+        "0025",
         'Temps : saisons, météo, phénomènes météorologiques',
         "Anglais",
         "6ème",
@@ -1722,7 +1722,7 @@ quizzes_data = [
         ]
     ),
     (
-        0026,
+        "0026",
         'Conjuguaison : verbes réguliers, verbes irréguliers, temps de base',
         "Anglais",
         "6ème",
@@ -1790,7 +1790,7 @@ quizzes_data = [
             ]
     ),
     (
-        0027,
+        "0027",
         'Vocabulaire de base : animaux, aliments, objets du quotidien',
         "Anglais",
         "6ème",
@@ -1858,7 +1858,7 @@ quizzes_data = [
         ]
     ),
     (
-        0028,
+        "0028",
         'Grammaire de base : articles, prépositions, pronoms personnels',
         "Anglais",
         "6ème",
@@ -1926,7 +1926,7 @@ quizzes_data = [
         ]
     ),
     (
-        0029,
+        "0029",
         'Vocabulaire de base : famille, école, loisirs',
         "Anglais",
         "6ème",
@@ -1994,7 +1994,7 @@ quizzes_data = [
         ]
     ),
     (
-        0030,
+        "0030",
         'Vocabulaire de base : famille, école, loisirs',
         "Anglais",
         "6ème",
@@ -2062,7 +2062,7 @@ quizzes_data = [
          ]
     ),
     (
-        0031,
+        "0031",
         'Vocabulaire de base : école, loisirs',
         "Anglais",
         "6ème",
@@ -2130,7 +2130,7 @@ quizzes_data = [
         ]
     ),
     (
-        0032,
+        "0032",
         'Vocabulaire de base : objets scolaires, objets du quotidien',
         "Anglais",
         "6ème",
@@ -2198,7 +2198,7 @@ quizzes_data = [
         ]
     ),
     (
-        0033,
+        "0033",
         'Vocabulaire de base : objets scolaires, objets du quotidien',
         "Anglais",
         "6ème",
@@ -2266,7 +2266,7 @@ quizzes_data = [
         ]
     ),
     (
-        0034,
+        "0034",
         'Vocabulaire de base : objets scolaires, objets du quotidien',
         "Anglais",
         "6ème",
@@ -2334,7 +2334,7 @@ quizzes_data = [
         ]
     ),
     (
-        0035,
+        "0035",
         'Vocabulaire de base : vêtements, couleurs, nombres',
         "Anglais",
         "6ème",
@@ -2402,7 +2402,7 @@ quizzes_data = [
         ]
     ),
     (
-        0036,
+        "0036",
         'Vocabulaire de base : couleurs, nombres, formes',
         "Anglais",
         "6ème",
@@ -2470,7 +2470,7 @@ quizzes_data = [
         ]
     ),
     (
-        0037,
+        "0037",
         'Vocabulaire de base : formes et prépositions de lieu',
         "Anglais",
         "6ème",
@@ -2538,7 +2538,7 @@ quizzes_data = [
         ]
     ),
     (
-        0038,
+        "0038",
         'Vocabulaire de base : formes et prépositions de lieu',
         "Anglais",
         "6ème",
@@ -2606,7 +2606,7 @@ quizzes_data = [
         ]
     ),
     (
-        0039,
+        "0039",
         'Vocabulaire de base : formes et description de lieu',
         "Anglais",
         "6ème",
@@ -2674,7 +2674,7 @@ quizzes_data = [
         ]
     ),
     (
-        0040,
+        "0040",
         'Vocabulaire de base : description de lieu',
         "Anglais",
         "6ème",
@@ -2742,7 +2742,7 @@ quizzes_data = [
         ]
     ),
     (
-        0041,
+        "0041",
         'Vocabulaire de base : Description d\'une personne ou d\'un lieu',
         'Anglais',
         '6ème',
@@ -2810,7 +2810,7 @@ quizzes_data = [
         ]
     ),
     (
-        0042,
+        "0042",
         'Vocabulaire de base : prononciation de chiffres et de lettres',
         'Anglais',
         '6ème',
@@ -2878,7 +2878,7 @@ quizzes_data = [
         ]
     ),
     (
-        0043,
+        "0043",
         'Vocabulaire de base : prononciation de mots courants',
         'Anglais',
         '6ème',
@@ -2946,7 +2946,7 @@ quizzes_data = [
         ]
     ),
     (
-        0044,
+        "0044",
         'Vocabulaire de base : phrases courantes',
         'Anglais',
         '6ème',
@@ -3014,7 +3014,7 @@ quizzes_data = [
         ]
     ),
     (
-        0045,
+        "0045",
         'Vocabulaire de base : phrases courantes pour dire bonjour, au revoir, merci, s\'il vous plaît, etc.',
         'Anglais',
         '6ème',
@@ -3082,7 +3082,7 @@ quizzes_data = [
         ]
     ),
     (
-        0046,
+        "0046",
         'Vocabulaire de base : phrases courantes pour parler de l\'extérieur',
         'Anglais',
         '6ème',
@@ -3150,7 +3150,7 @@ quizzes_data = [
         ]
     ),
     (
-        0047,
+        "0047",
         'Vocabulaire de base : phrases courantes pour parler de l\'intérieur',
         'Anglais',
         '6ème',
@@ -3218,7 +3218,7 @@ quizzes_data = [
         ]
     ),
     (
-        0048,
+        "0048",
         'Vocabulaire de base : phrases courantes pour parler de la voiture',
         'Anglais',
         '6ème',

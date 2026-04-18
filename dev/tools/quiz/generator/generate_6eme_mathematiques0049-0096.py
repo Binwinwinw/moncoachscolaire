@@ -18,7 +18,7 @@ ANSWERS_DIR = os.path.join(OUTPUT_DIR, "quiz_answers")
 quizzes_data = [
 # ─── 0049 – Nombres et opérations	 ───────────────────────────────────
     (
-        0049,
+        "0049",
         'Nombres et opérations',
         'Mathématiques',
         '6eme',
@@ -87,7 +87,7 @@ quizzes_data = [
         ]
     ),
     (
-        0050,
+        "0050",
         'grandeurs et mesures, fonctions et organisation de données',
         'Mathématiques',
         '6eme',
@@ -155,7 +155,7 @@ quizzes_data = [
         ]
     ),
     (
-        0051,
+        "0051",
         'algèbre et organisation de données',
         'Mathématiques',
         '6eme',
@@ -223,7 +223,7 @@ quizzes_data = [
         ]
     ),
     (
-        0052,
+        "0052",
         'géometrie',
         'Mathématiques',
         '6eme',
@@ -291,7 +291,7 @@ quizzes_data = [
         ]
     ),
     (
-        0053,
+        "0053",
         'Espace et géométrie',
         'Mathématiques',
         '6eme',
@@ -359,7 +359,7 @@ quizzes_data = [
         ]
     ),
     (
-        0054,
+        "0054",
         'Organisation et gestion de données',
         'Mathématiques',
         '6eme',
@@ -427,7 +427,7 @@ quizzes_data = [
         ]
     ),
     (
-        0055,
+        "0055",
         'Comparaison et ordre des entiers',
         'Mathématiques',
         '6eme',
@@ -495,7 +495,7 @@ quizzes_data = [
         ]
     ),
     (
-        0056,
+        "0056",
         'Comparaison et ordre des décimaux',
         'Mathématiques',
         '6eme',
@@ -526,7 +526,7 @@ quizzes_data = [
         ]
     ),
     (
-        0057,
+        "0057",
         'Comparaison et ordre des fractions',
         'Mathématiques',
         '6eme',
@@ -594,7 +594,7 @@ quizzes_data = [
         ]
     ),
     (
-        0058,
+        "0058",
         'Comparaison ordre décimaux',
         'Mathématiques',
         '6eme',
@@ -662,7 +662,7 @@ quizzes_data = [
         ]
     ),
     (
-        0059,
+        "0059",
         'Multiplication entiers (1 chiffre)',
         'Mathématiques',
         '6ème',
@@ -730,7 +730,7 @@ quizzes_data = [
         ]
     ),
     (
-        0060,
+        "0060",
         'Multiplication entiers (2 chiffres)',
         'Mathématiques',
         '6ème',
@@ -798,7 +798,7 @@ quizzes_data = [
         ]
     ),
     (
-        0061,
+        "0061",
         'Comparaison fractions (dénominateur commun)',
         'Mathématiques',
         '6ème',
@@ -866,7 +866,7 @@ quizzes_data = [
         ]
     ),
     (
-        0062,
+        "0062",
         'Multiplier fraction par entier',
         'Mathématiques',
         '6ème',
@@ -934,7 +934,7 @@ quizzes_data = [
         ]
     ),
     (
-        0063,
+        "0063",
         'Balances et égalités simples',
         'Mathématiques',
         '6ème',
@@ -1002,7 +1002,7 @@ quizzes_data = [
         ]
     ),
     (
-        0064,
+        "0064",
         'Résolution de problèmes simples',
         'Mathématiques',
         '6ème',
@@ -1070,7 +1070,7 @@ quizzes_data = [
         ]
     ),
     (
-        0065,
+        "0065",
         'Lecture de graphiques',
         'Mathématiques',
         '6ème',
@@ -1138,7 +1138,7 @@ quizzes_data = [
         ]
     ),
     (
-        0066,
+        "0066",
         'Droites perpendiculaires/parallèles',
         'Mathématiques',
         '6ème',
@@ -1206,7 +1206,7 @@ quizzes_data = [
         ]
     ),
     (
-        0067,
+        "0067",
         'Bissectrice d’angle, Médiatrice segment, Disque et cercle (vocabulaire)',
         'Mathématiques',
         '6ème',
@@ -1274,7 +1274,7 @@ quizzes_data = [
         ]
     ),
     (
-        0068,
+        "0068",
         'Quadrilatères (carré, rectangle)',
         'Mathématiques',
         '6ème',
@@ -1342,7 +1342,7 @@ quizzes_data = [
         ]
     ),
     (
-        0069,
+        "0069",
         'Moyenne simple',
         'Mathématiques',
         '6ème',
@@ -1410,7 +1410,7 @@ quizzes_data = [
         ]
     ),
     (
-        0070,
+        "0070",
         'Probabilités équiprobables (pièces, dés)',
         'Mathématiques',
         '6ème',
@@ -1482,7 +1482,7 @@ quizzes_data = [
         ]
     ),
     (
-        0071,
+        "0071",
         'Notion de variable (sans calcul de l’expression littérale)',
         'Mathématiques',
         '6ème',
@@ -1550,7 +1550,7 @@ quizzes_data = [
         ]
     ),
     (
-        0072,
+        "0072",
         'Déconstruction intuitions hasardeuses et certitudes (exemples de situations de hasard, d’incertitude, de certitude)',
         'Mathématiques',
         '6ème',
@@ -1618,7 +1618,7 @@ quizzes_data = [
         ]
     ),
     (
-        0073,
+        "0073",
         'Proportionnalité tableau valeurs, graphiques, situations de la vie courante',
         'Mathématiques',
         '6ème',
@@ -1686,7 +1686,7 @@ quizzes_data = [
         ]
     ),
     (
-        0074,
+        "0074",
         'Échelles cartographiques',
         'Mathématiques',
         '6ème',
@@ -1754,7 +1754,7 @@ quizzes_data = [
         ]
     ),
     (
-        0075,
+        "0075",
         'Suites logiques (numériques, géométriques, de formes, de couleurs)',
         'Mathématiques',
         '6ème',
@@ -1822,7 +1822,7 @@ quizzes_data = [
         ]
     ),
     (
-        0076,
+        "0076",
         'Algorithmes simples (tri)',
         'Mathématiques',
         '6ème',
@@ -1890,7 +1890,7 @@ quizzes_data = [
         ]
     ),
     (
-        0077,
+        "0077",
         'Initiation programmation (ex. : Scratch blocs)',
         'Mathématiques',
         '6ème',
@@ -1958,7 +1958,7 @@ quizzes_data = [
         ]
     ),
     (
-        0078,
+        "0078",
         'Capacité (litres/cL/mL)',
         'Mathématiques',
         '6ème',
@@ -2026,7 +2026,7 @@ quizzes_data = [
         ]
     ),
     (
-        0079,
+        "0079",
         'Masse (kg/g/mg)',
         'Mathématiques',
         '6ème',
@@ -2094,7 +2094,7 @@ quizzes_data = [
         ]
     ),
     (
-        0080,
+        "0080",
         'Longueur (km/m/cm/mm)',
         'Mathématiques',
         '6ème',
@@ -2162,7 +2162,7 @@ quizzes_data = [
         ]
     ),
     (
-        0081,
+        "0081",
         'Problèmes de proportionnalité',
         'Mathématiques',
         '6ème',
@@ -2230,7 +2230,7 @@ quizzes_data = [
         ]
     ),
     (
-        0082,
+        "0082",
         'Somme angles triangle',
         'Mathématiques',
         '6ème',
@@ -2298,7 +2298,7 @@ quizzes_data = [
         ]
     ),
     (
-        0084,
+        "0084",
         'Angles triangle',
         'Mathématiques',
         '6ème',
@@ -2365,7 +2365,7 @@ quizzes_data = [
             },
         ]
     ),
-(        0085,
+(        "0085",
         'Méso-espace (cour d’école)',
         'Mathématiques',
         '6ème',
@@ -2433,7 +2433,7 @@ quizzes_data = [
         ]
     ),
     (
-        0086,
+        "0086",
         'Vues de face/côté/dessus',
         'Mathématiques',
         '6ème',
@@ -2501,7 +2501,7 @@ quizzes_data = [
         ]
     ),
     (
-        0087,
+        "0087",
         'Patrons figures 3D simples',
         'Mathématiques',
         '6ème',
@@ -2569,7 +2569,7 @@ quizzes_data = [
         ]
     ),
     (
-        0088,
+        "0088",
         'calcul mentale',
         'Mathématiques',
         '6ème',
@@ -2637,7 +2637,7 @@ quizzes_data = [
         ]
     ),
     (
-        0089,
+        "0089",
         'Espace et géométrie (symétrie, axes de symétrie, figures symétriques)',
         'Mathématiques',
         '6ème',
@@ -2705,7 +2705,7 @@ quizzes_data = [
         ]
     ),
     (
-        0090,
+        "0090",
         'Espace et géométrie (symétrie centrale, figures à symétrie centrale)',
         'Mathématiques',
         '6ème',
@@ -2773,7 +2773,7 @@ quizzes_data = [
         ]
     ),
     (
-        0091,
+        "0091",
         'Proportionnalité (propriétés de la proportionnalité, tableaux de proportionnalité, situations de proportionnalité)',
         'Mathématiques',
         '6ème',
@@ -2841,7 +2841,7 @@ quizzes_data = [
         ]
     ),
     (
-        0092,
+        "0092",
         'Organisation de données et probabilités',
         'Mathématiques',
         '6ème',
@@ -2909,7 +2909,7 @@ quizzes_data = [
         ]
     ),
     (
-        0093,
+        "0093",
         'Nombres et calculs (calcul littéral, équations, inéquations)',
         'Mathématiques',
         '6ème',
@@ -2977,7 +2977,7 @@ quizzes_data = [
         ]
     ),
     (
-        0094,
+        "0094",
         'Nombres et calculs (nombres entiers, décimaux, fractions, pourcentages, puissances, racines carrées, opérations sur les nombres)',
         'Mathématiques',
         '6ème',
@@ -3045,7 +3045,7 @@ quizzes_data = [
         ]
     ),
     (
-        0095,
+        "0095",
         'Espace et géométrie (patrons de solides)',
         'Mathématiques',
         '6ème',
@@ -3113,7 +3113,7 @@ quizzes_data = [
         ]
     ),
     (
-        0096,
+        "0096",
         'Espace et géométrie (patrons de solides)',
         'Mathématiques',
         '6ème',
@@ -3208,7 +3208,7 @@ def make_answers(qid, title, subject, level, questions):
         elif q["type"] == "vrai-faux":
             answers.append({"index": index, "question_id": index + 1, "type": "vrai-faux", "answer": "vrai" if q["correct"] else "faux", "correction": q["explanation"]})
         else:
-            answers.append({"index": index, "question_id": index + 1, "type": "open", "answer": q["correct_answer"], "correction": q["explanation"]})
+            answers.append({"index": index, "question_id": index + 1, "type": "open", "answer": q.get("correct_answer", ""), "correction": q["explanation"]})
     return {
         "contents": {"title": f"Quiz Diagnostic {subject} {level} - Série {qid}", "level": level, "subject": subject},
         "quiz": {"title": title, "question_count": len(answers), "level": level, "subject": subject, "answers": answers},

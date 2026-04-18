@@ -38,6 +38,7 @@ Ce fichier complète l’index général CONTEXT_INDEX.md et la documentation pr
 - **tests/** : scripts de test ad-hoc, debug, et E2E
 - **scripts/** : scripts divers (injection, helpers, etc.)
 - **quiz/** : scripts de génération et maintenance des quizzes
+  - Les anciens scripts techniques déplacés depuis la racine sont désormais regroupés dans `quiz/analyse/`, `quiz/generator/` et `quiz/enrichment/`
   - Documentation workflow preview/enrichissement: `dev/docs/SYSTEME_PREVIEW_ENRICHISSEMENT_QUIZ.md`
   - `build_diagnostic_bundles.js` : génère les bundles diagnostics par niveau (`src/data/quiz_packs/*`, `src/data/quiz_answers_packs/*`)
   - `generate_quiz_bank.py` : V1, génère des quiz diagnostics jusqu'a une cible (par defaut 50) a partir des templates existants.
@@ -51,6 +52,9 @@ Ce fichier complète l’index général CONTEXT_INDEX.md et la documentation pr
   - `validate_quiz_bank.py` : valide la banque generee (schema minimal, non-fuite de reponses dans `public/quiz`, couverture par niveau/matiere)
   - `check_quiz_integrity.py` : (nouveau) vérifie l’appariement `src/data/quiz/*.json` <-> `src/data/quiz_answers/*.json` et crée des stubs manquants
   - `config_quiz_bank.v1.json` : configuration V1 (cible, aliases de normalisation, chemins)
+  - `analyse/analyze_quiz_size.py`, `analyse/detect_placeholders.py`, `analyse/detect_placeholders_v2.py` : audits rapides de taille et de qualité des quiz
+  - `generator/copy_6eme_quizzes.py`, `generator/mega_batch_compiler.py` : compilation/copie des générateurs vers le runtime
+  - `enrichment/enrich_notions_offline.py` : enrichissement offline des notions sans appel API
 
 ### Workflow recommande (quiz generators)
 

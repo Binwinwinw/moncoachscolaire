@@ -6,11 +6,13 @@
  * php master_enrich_v3.php [--apply] [--id=321]
  */
 
+$projectRoot = dirname(__DIR__, 4);
+
 define('DRY_RUN_DEFAULT', true);
-define('QUIZ_DIR', 'src/data/quiz');
-define('ANS_DIR', 'src/data/quiz_answers');
-define('ENRICH_DIR', 'src/data/enriched');
-define('LOG_FILE', 'enrich_log.csv');
+define('QUIZ_DIR', $projectRoot . '/src/data/quiz');
+define('ANS_DIR', $projectRoot . '/src/data/quiz_answers');
+define('ENRICH_DIR', $projectRoot . '/src/data/enriched');
+define('LOG_FILE', $projectRoot . '/dev/tmp/enrichment_logs/enrich_log.csv');
 
 // Parse args robuste (fix getopt short/long)
 $opts = getopt('ad:', ['apply::', 'dry-run::', 'id::']);

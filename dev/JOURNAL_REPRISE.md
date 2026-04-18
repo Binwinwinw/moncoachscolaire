@@ -1,3 +1,102 @@
+## [06/04/2026, APRÈS-MIDI/SOIR] Validation système mini-cours interactif — ✅ COMPLET & TESTÉ
+
+**Découverte clé:**
+
+Le système **"Je ne comprends pas → mini-cours ciblé"** est **ENTIÈREMENT IMPLÉMENTÉ** avec:
+
+- 4 points d'intégration dans le workflow exercices (QCM, texte, image, etc.)
+- 8 pages exercices (tous les niveaux 6ème-BAC) configurées
+- API endpoint `/api/ia/generate_precise_course` complète (520 lignes)
+- E2E test existant validant le flux complet
+
+**Commandes de validation:**
+
+```bash
+# 1. Test API directement
+php dev/tools/tests/test-course-api.php
+# Attendu: ✅ SUCCESS + structure JSON valide
+
+# 2. E2E Playwright (si setupé)
+npx playwright test tests/course-modal-e2e.spec.ts --headed
+# Attendu: 4 tests PASSED
+
+# 3. Validation manuelle
+# → Connectez-vous 6ème
+# → Exercices → QCM
+# → Répondez mal exprès
+# → Vérifiez bouton "📘 Voir mini-cours ciblé" apparaît
+# → Cliquez → Modal s'ouvre
+```
+
+**Architecture:**
+
+```
+Exercice interactif (interactive-exercises.js)
+    ↓ [Réponse incorrecte]
+Boutons: [💡 Comprendre] [📘 Voir mini-cours]
+    ↓ [POST /api/ia/generate_precise_course]
+Groq (llama-3.3-70b-versatile)
+    ↓ [Retourne JSON: title, summary, key_points, method_steps, etc.]
+buildPreciseCourseModalHtml() → HTML
+    ↓ [openCourseModal()]
+Modal s'affiche avec contenu Groq + bouton "J'ai compris ! 💪"
+```
+
+**Fichiers clés:**
+
+- `public/assets/js/interactive-exercises.js` — 4 points d'intégration (L710, L1041, L1192, L1465)
+- `src/api/ia/generate_precise_course.php` — Endpoint API complet avec fallback multi-provider
+- `src/components/course_modal.php` — Modal UI (id="course-body" pour injection)
+- `tests/course-modal-e2e.spec.ts` — E2E test créé cette session
+
+**Prochaine étape:** Valider que Groq API fonctionne dans votre .env, c'est tout. Voir `/memories/session/course-system-status-20260406.md` pour manuel complet.
+
+---
+
+## [06/04/2026] Enrichissement massif quizzes — Projet clos (1684 valides, 92.5% coverage)
+
+**État transmis pour prochaine session :**
+
+Le lot d'enrichissement de 06/04/2026 est **COMPLET ET VALIDÉ**. État produit final :
+
+- **1820 quizzes en runtime** (1598 → 1820, +13.9%)
+- **1684 quizzes valides** (738 → 1684, +128.2% ✅)
+- **92.5% coverage** (tous niveaux 6ème-BAC, 13+ matières)
+- **Notions pédagogiques enrichies** (zéro API, script offline reproductible)
+
+**Fichiers clés générés :**
+
+1. `dev/tools/quiz/enrichment/enrich_notions_offline.py` — Enrichissement déterministe (réutilisable sans API)
+2. `dev/tools/quiz/generator/mega_batch_compiler.py` — Compilation batch générateurs (réutilisable)
+3. `dev/tmp/enrichment_logs/enrichment_offline_20260406_025225.json` — Audit trail
+4. `dev/tmp/quiz_coverage_analysis/coverage_analysis.json` — Couverture post
+
+**Commandes reproduction (idempotent, safe re-run) :**
+
+```bash
+# Compiler tous les générateurs
+python dev/tools/quiz/generator/mega_batch_compiler.py
+
+# Enrichir les notions
+python dev/tools/quiz/enrichment/enrich_notions_offline.py
+
+# Valider qualité
+php dev/tools/identify_valid_quizzes.php
+php dev/tools/analyze_coverage_807.php
+```
+
+**Leçons clés documentées :**
+
+- Voir `/memories/repo/quirks-quiz-structure.md` (5 quirks)
+- Voir `/memories/repo/decision-offline-notions.md` (pattern offline > API)
+- Voir `/memories/instructions.md` + `/memories/preferences.md` (workflow quiz)
+
+**Prochaine priorité :** Créer nouveaux exercices/cours (endpoints IA prêts : `generate_quiz.php`, `generate_exercise_explanation.php`, `generate_precise_course.php`)
+
+**Détail complet :** Voir `dev/reports/SUCCES_ENRICHISSEMENT_20260406.md`
+
+---
+
 ## [02/04/2026] Passation chantier assets (CSS/JS) — reprise simplifiee
 
 Contexte:

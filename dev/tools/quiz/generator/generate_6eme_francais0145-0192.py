@@ -22,7 +22,7 @@ quizzes_data = [
     # {"type": "vrai-faux", "question": "...", "correct": True, "explanation": "..."}
     # (Pas de questions ouvertes)
     (
-        0145,
+        "0145",
         'Français 6e - Les bases de la grammaire',
         'Français',
         '6eme',
@@ -90,7 +90,7 @@ quizzes_data = [
         ]
     ),
     (
-        0146,
+        "0146",
         'Français 6e - Les types de textes (narratif, descriptif, argumentatif)',
         'Français',
         '6eme',
@@ -158,7 +158,7 @@ quizzes_data = [
         ]
     ),
     (
-        0147,
+        "0147",
         'Français 6e - Les genres littéraires (conte, fable, poésie, théâtre…)',
         'Français',
         '6eme',
@@ -219,7 +219,7 @@ quizzes_data = [
         ]
     ),
     (
-        0148,
+        "0148",
         'Français 6e - Les genres littéraires (conte, fable, poésie, théâtre…)',
         'Français',
         '6eme',
@@ -287,7 +287,7 @@ quizzes_data = [
         ]
     ),
     (
-        0149,
+        "0149",
         'Français 6e - Les figures de style (métaphore, comparaison, personnification…)',
         'Français',
         '6eme',
@@ -355,7 +355,7 @@ quizzes_data = [
         ]
     ),
     (
-        0150,
+        "0150",
         'Français 6e - Les homophones (a/à, et/est, son/sont…)',
         'Français',
         '6eme',
@@ -423,7 +423,7 @@ quizzes_data = [
         ]
     ),
     (
-        0151,
+        "0151",
         'Français 6e - Les accords (accord du sujet et du verbe, accord de l’adjectif avec le nom…)',
         'Français',
         '6eme',
@@ -491,7 +491,7 @@ quizzes_data = [
         ]
     ),
     (
-        0152,
+        "0152",
         'Français 6e - Les temps verbaux (présent, passé composé, imparfait, futur simple…)',
         'Français',
         '6eme',
@@ -559,7 +559,7 @@ quizzes_data = [
         ]
     ),
     (
-        0153,
+        "0153",
         'Français 6e - L’analyse d’un personnage (caractéristiques physiques, traits de personnalité, rôle dans l’histoire…)',
         'Français',
         '6eme',
@@ -627,7 +627,7 @@ quizzes_data = [
        ]
     ),
     (
-        0154,
+        "0154",
         'Français 6e - Le schéma narratif',
         'Français',
         '6eme',
@@ -695,7 +695,7 @@ quizzes_data = [
         ]
     ),
     (
-        0155,
+        "0155",
         'Français 6e - Les temps du récit (imparfait, passé simple…)',
         'Français',
         '6eme',
@@ -763,7 +763,7 @@ quizzes_data = [
         ]
     ),
     (
-        0156,
+        "0156",
         'Français 6e - L’accord du participe passé',
         'Français',
         '6eme',
@@ -831,7 +831,7 @@ quizzes_data = [
         ]
     ),
     (
-        0157,
+        "0157",
         'Français 6e - Les valeurs des temps',
         'Français',
         '6eme',
@@ -899,7 +899,7 @@ quizzes_data = [
         ]
     ),
     (
-        0158,
+        "0158",
         'Français 6e - Les types de phrases (déclarative, interrogative…)',
         'Français',
         '6eme',
@@ -967,7 +967,7 @@ quizzes_data = [
         ]
     ),
     (
-        0159,
+        "0159",
         'Français 6e - Les fonctions grammaticales (sujet, complément d’objet direct, complément d’objet indirect…)',
         'Français',
         '6eme',
@@ -1035,7 +1035,7 @@ quizzes_data = [
         ]
     ),
     (
-        0160,
+        "0160",
         'Français 6e - L’analyse d’un poème',
         'Français',
         '6eme',
@@ -1103,7 +1103,7 @@ quizzes_data = [
         ]
     ),
     (
-        0161,
+        "0161",
         'Français 6e - Les règles de ponctuation',
         'Français',
         '6eme',
@@ -1171,7 +1171,7 @@ quizzes_data = [
         ]
     ),
     (
-        0162,
+        "0162",
         'Français 6e - L’écriture d’un dialogue',
         'Français',
         '6eme',
@@ -1239,7 +1239,7 @@ quizzes_data = [
         ]
     ),
     (
-        0163,
+        "0163",
         'Français 6e - L’analyse d’un texte argumentatif',
         'Français',
         '6eme',
@@ -1307,7 +1307,7 @@ quizzes_data = [
         ]
     ),
     (
-        0164,
+        "0164",
         'Français 6e - Les connecteurs logiques',
         'Français',
         '6eme',
@@ -1375,7 +1375,7 @@ quizzes_data = [
         ]
     ),
     (
-        0165,
+        "0165",
         'Français 6e - L’écriture créative (rédaction)',
         'Français',
         '6eme',
@@ -1443,7 +1443,7 @@ quizzes_data = [
         ]
     ),
     (
-        0166,
+        "0166",
         'Français 6e - Les pronoms personnels',
         'Français',
         '6eme',
@@ -1511,7 +1511,7 @@ quizzes_data = [
         ]
     ),
     (
-        0167,
+        "0167",
         'Français 6e - Les adjectifs qualificatifs',
         'Français',
         '6eme',
@@ -1579,7 +1579,7 @@ quizzes_data = [
         ]
     ),
     (
-        0168,
+        "0168",
         'Français 6e - Les accords dans le groupe nominal',
         'Français',
         '6eme',
@@ -1647,7 +1647,7 @@ quizzes_data = [
         ]
     ),
     (
-        0169,
+        "0169",
         'Français 6e - Les homophones grammaticaux',
         'Français',
         '6eme',
@@ -1715,7 +1715,7 @@ quizzes_data = [
         ]
     ),
     (
-        0170,
+        "0170",
         'Français 6e - Les synonymes et antonymes',
         'Français',
         '6eme',
@@ -1783,7 +1783,7 @@ quizzes_data = [
         ]
     ),
     (
-        0171,
+        "0171",
         'Français 6e - L’analyse d’une fable',
         'Français',
         '6eme',
@@ -1851,7 +1851,7 @@ quizzes_data = [
         ]
     ),
     (
-        0172,
+        "0172",
         'Français 6e - Les valeurs de la modalisation',
         'Français',
         '6eme',
@@ -1919,7 +1919,7 @@ quizzes_data = [
         ]
     ),
     (
-        0173,
+        "0173",
         'Français 6e - Les discours direct et indirect',
         'Français',
         '6eme',
@@ -1987,7 +1987,7 @@ quizzes_data = [
         ]
     ),
     (
-        0174,
+        "0174",
         'Français 6e - Les types de narrateurs',
         'Français',
         '6eme',
@@ -2055,7 +2055,7 @@ quizzes_data = [
         ]
     ),
     (
-        0175,
+        "0175",
         'Français 6e - Les champs lexicaux',
         'Français',
         '6eme',
@@ -2123,7 +2123,7 @@ quizzes_data = [
         ]
     ),
     (
-        0176,
+        "0176",
         'Français 6e - Les verbes pronominaux',
         'Français',
         '6eme',
@@ -2191,7 +2191,7 @@ quizzes_data = [
         ]
     ),
     (
-        0177,
+        "0177",
         'Français 6e - Les subordonnées',
         'Français',
         '6eme',
@@ -2259,7 +2259,7 @@ quizzes_data = [
         ]
     ),
     (
-        0178,
+        "0178",
         'Français 6e - Les compléments circonstanciels',
         'Français',
         '6eme',
@@ -2327,7 +2327,7 @@ quizzes_data = [
         ]
     ),
     (
-        0179,
+        "0179",
         'Français 6e - Les valeurs de la négation',
         'Français',
         '6eme',
@@ -2395,7 +2395,7 @@ quizzes_data = [
         ]
     ),
     (
-        0180,
+        "0180",
         'Français 6e - Les temps composés',
         'Français',
         '6eme',
@@ -2463,7 +2463,7 @@ quizzes_data = [
         ]
     ),
     (
-        0181,
+        "0181",
         'Français 6e - Les phrases complexes',
         'Français',
         '6eme',
@@ -2531,7 +2531,7 @@ quizzes_data = [
         ]
     ),
     (
-        0182,
+        "0182",
         'Français 6e - Les valeurs de l’impératif',
         'Français',
         '6eme',
@@ -2599,7 +2599,7 @@ quizzes_data = [
         ]
     ),
     (
-        0183,
+        "0183",
         'Français 6e - Les connecteurs temporels',
         'Français',
         '6eme',
@@ -2667,7 +2667,7 @@ quizzes_data = [
         ]
     ),
     (
-        0184,
+        "0184",
         'Français 6e - Les valeurs de la voix passive',
         'Français',
         '6eme',
@@ -2735,7 +2735,7 @@ quizzes_data = [
         ]
     ),
     (
-        0185,
+        "0185",
         'Français 6e - Les figures d’insistance',
         'Français',
         '6eme',
@@ -2804,7 +2804,7 @@ quizzes_data = [
         ]
     ),
     (
-        0186,
+        "0186",
         'Français 6e - Les valeurs de la répétition',
         'Français',
         '6eme',
@@ -2873,7 +2873,7 @@ quizzes_data = [
         ]
     ),
     (
-        0187,
+        "0187",
         'Français 6e - Les valeurs de la poésie',
         'Français',
         '6eme',
@@ -2941,7 +2941,7 @@ quizzes_data = [
         ]
     ),
     (
-        0188,
+        "0188",
         'Français 6e - Les valeurs de la littérature',
         'Français',
         '6eme',
@@ -3009,7 +3009,7 @@ quizzes_data = [
         ]
     ),
     (
-        0189,
+        "0189",
         'Français 6e - Les valeurs de la fable',
         'Français',
         '6eme',
@@ -3077,7 +3077,7 @@ quizzes_data = [
         ]
     ),
     (
-        0190,
+        "0190",
         'Français 6e - Les valeurs du récit historique',
         'Français',
         '6eme',
@@ -3145,7 +3145,7 @@ quizzes_data = [
             ]
     ),
     (
-        0191,
+        "0191",
         'Français 6e - Les valeurs du texte descriptif',
         'Français',
         '6eme',
@@ -3213,7 +3213,7 @@ quizzes_data = [
         ]
     ),
     (
-        0192,
+        "0192",
         'Français 6e - Les valeurs du texte injonctif',
         'Français',
         '6eme',
@@ -3309,7 +3309,7 @@ def make_answers(qid, title, subject, level, questions):
         elif q["type"] == "vrai-faux":
             answers.append({"index": index, "question_id": index + 1, "type": "vrai-faux", "answer": "vrai" if q["correct"] else "faux", "correction": q["explanation"]})
         else:
-            answers.append({"index": index, "question_id": index + 1, "type": "open", "answer": q["correct_answer"], "correction": q["explanation"]})
+            answers.append({"index": index, "question_id": index + 1, "type": "open", "answer": q.get("correct_answer", ""), "correction": q["explanation"]})
     return {
         "contents": {"title": f"Quiz Diagnostic {subject} {level} - Série {qid}", "level": level, "subject": subject},
         "quiz": {"title": title, "question_count": len(answers), "level": level, "subject": subject, "answers": answers},

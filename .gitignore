@@ -71,6 +71,11 @@ dev/backups/*.sql
 dev/**/*.log
 reports/
 test-results/
+dev/.phpunit.cache/
+dev/.phpunit.result.cache
+
+# Runtime state and generated JSON
+src/dev/reports/*.json
 
 # Temp and OS files
 *.bak
@@ -88,6 +93,10 @@ ehthumbs.db
 # Python build artifacts
 __pycache__/
 *.pyc
+
+# Generated temp media
+dev/tmp/**/*.png
+dev/tmp/**/*.csv
 
 # Keep this workflow private by default
 .github/prompts/ui-ux-pro-max/

@@ -17,7 +17,7 @@ ANSWERS_DIR = os.path.join(OUTPUT_DIR, "quiz_answers")
 
 quizzes_data = [
     (
-        0097,
+        "0097",
         'EMC 6e - Les symboles de la République',
         'EMC',
         '6eme',
@@ -85,7 +85,7 @@ quizzes_data = [
         ]
     ),
     (
-        0098,
+        "0098",
         'EMC 6e - Les institutions de la République',
         'EMC',
         '6eme',
@@ -153,7 +153,7 @@ quizzes_data = [
         ]
     ),
     (
-        0099,
+        "0099",
         'EMC 6e - Les droits et devoirs des citoyens',
         'EMC',
         '6eme',
@@ -221,7 +221,7 @@ quizzes_data = [
         ]
     ),
     (
-        0100,
+        "0100",
         'EMC 6e - La laïcité en France',
         'EMC',
         '6eme',
@@ -289,7 +289,7 @@ quizzes_data = [
         ]
     ),
     (
-        0101,
+        "0101",
         'EMC 6e - La citoyenneté européenne',
         'EMC',
         '6eme',
@@ -357,7 +357,7 @@ quizzes_data = [
         ]
     ),
     (
-        0102,
+        "0102",
         'EMC 6e - La solidarité internationale',
         'EMC',
         '6eme',
@@ -425,7 +425,7 @@ quizzes_data = [
         ]
     ),
     (
-        0103,
+        "0103",
         'EMC 6e - la citoyenneté française ',
         'EMC',
         '6eme',
@@ -493,7 +493,7 @@ quizzes_data = [
         ]
     ),
     (
-        0104,
+        "0104",
         'EMC 6e - Les institutions françaises',
         'EMC',
         '6eme',
@@ -561,7 +561,7 @@ quizzes_data = [
         ]
     ),
     (
-        0105,
+        "0105",
         'EMC 6e - Les droits et devoirs du citoyen',
         'EMC',
         '6eme',
@@ -629,7 +629,7 @@ quizzes_data = [
         ]
     ),
     (
-        0106,
+        "0106",
         'EMC 6e - Respect des différences (apparence, origine)',
         'EMC',
         '6eme',
@@ -697,7 +697,7 @@ quizzes_data = [
         ]
     ),
     (
-        0107,
+        "0107",
         'EMC 6e - Respect environnement (déchets, pollution)',
         'EMC',
         '6eme',
@@ -765,7 +765,7 @@ quizzes_data = [
         ]
     ),
     (
-        0108,
+        "0108",
         'EMC 6e - Respect des différences (handicap)',
         'EMC',
         '6eme',
@@ -833,7 +833,7 @@ quizzes_data = [
         ]
     ),
     (
-        0109,
+        "0109",
         'EMC 6e - Diversité culturelle et religieuse',
         'EMC',
         '6eme',
@@ -901,7 +901,7 @@ quizzes_data = [
         ]
     ),
     (
-        0110,
+        "0110",
         'EMC 6e - Prévention harcèlement scolaire',
         'EMC',
         '6eme',
@@ -969,7 +969,7 @@ quizzes_data = [
         ]
     ),
     (
-        0111,
+        "0111",
         'EMC 6e - Droits de l’enfant (Convention ONU)',
         'EMC',
         '6eme',
@@ -1037,7 +1037,7 @@ quizzes_data = [
         ]
     ),
     (
-        0112,
+        "0112",
         'EMC 6e - Devoirs et sanctions',
         'EMC',
         '6eme',
@@ -1053,7 +1053,7 @@ quizzes_data = [
         ]
     ),
     (
-        0112,
+        "0112",
         'EMC 6e - Devoirs et sanctions',
         'EMC',
         '6eme',
@@ -1121,7 +1121,7 @@ quizzes_data = [
         ]
     ),
     (
-        0113,
+        "0113",
         'EMC 6e - Lois et justice (tribunal, police)',
         'EMC',
         '6eme',
@@ -1189,7 +1189,7 @@ quizzes_data = [
         ]
     ),
     (
-        0114,
+        "0114",
         'EMC 6e - Propriété et vol',
         'EMC',
         '6eme',
@@ -1257,7 +1257,7 @@ quizzes_data = [
         ]
     ),
     (
-        0115,
+        "0115",
         'EMC 6e - Sécurité routière',
         'EMC',
         '6eme',
@@ -1325,7 +1325,7 @@ quizzes_data = [
         ]
     ),
     (
-        0116,
+        "0116",
         'EMC 6e - Respect biens communs',
         'EMC',
         '6eme',
@@ -1393,7 +1393,7 @@ quizzes_data = [
         ]
     ),
     (
-        0117,
+        "0117",
         'EMC 6e - Égalité devant la loi',
         'EMC',
         '6eme',
@@ -1461,7 +1461,7 @@ quizzes_data = [
         ]
     ),
     (
-        0118,
+        "0118",
         'EMC 6e - Institutions locales (mairie)',
         'EMC',
         '6eme',
@@ -1529,7 +1529,7 @@ quizzes_data = [
         ]
     ),
     (
-        0119,
+        "0119",
         'EMC 6e - Vrai/faux infos (fake news)',
         'EMC',
         '6eme',
@@ -1597,7 +1597,7 @@ quizzes_data = [
         ]
     ),
     (
-        0120,
+        "0120",
         'EMC 6e - Débat argumenté',
         'EMC',
         '6eme',
@@ -1665,7 +1665,7 @@ quizzes_data = [
         ]
     ),
     (
-        0121,
+        "0121",
         'EMC 6e - Médias et publicité',
         'EMC',
         '6eme',
@@ -1682,7 +1682,7 @@ quizzes_data = [
         ]
     ),
     (
-        0121,
+        "0121",
         'EMC 6e - Médias et publicité',
         'EMC',
         '6eme',
@@ -1750,7 +1750,7 @@ quizzes_data = [
         ]
     ),
     (
-        0122,
+        "0122",
         'EMC 6e - Choix éthiques (mensonge, aide)',
         'EMC',
         '6eme',
@@ -1818,7 +1818,7 @@ quizzes_data = [
         ]
     ),
     (
-        0123,
+        "0123",
         'EMC 6e - Liberté conscience',
         'EMC',
         '6eme',
@@ -1886,7 +1886,7 @@ quizzes_data = [
         ]
     ),
     (
-        0124,
+        "0124",
         'EMC 6e - Laïcité à l’école',
         'EMC',
         '6eme',
@@ -1954,7 +1954,7 @@ quizzes_data = [
         ]
     ),
     (
-        0125,
+        "0125",
         'EMC 6e - Histoire droits humains',
         'EMC',
         '6eme',
@@ -2022,7 +2022,7 @@ quizzes_data = [
         ]
     ),
     (
-        0126,
+        "0126",
         'EMC 6e - Jugement moral cas concrets',
         'EMC',
         '6eme',
@@ -2090,7 +2090,7 @@ quizzes_data = [
         ]
     ),
     (
-        0127,
+        "0127",
         'EMC 6e - Critique publicité',
         'EMC',
         '6eme',
@@ -2158,7 +2158,7 @@ quizzes_data = [
         ]
     ),
     (
-        0128,
+        "0128",
         'EMC 6e - Sources fiables',
         'EMC',
         '6eme',
@@ -2226,7 +2226,7 @@ quizzes_data = [
         ]
     ),
     (
-        0129,
+        "0129",
         'EMC 6e - Projets collectifs école',
         'EMC',
         '6eme',
@@ -2294,7 +2294,7 @@ quizzes_data = [
         ]
     ),
     (
-        0130,
+        "0130",
         'EMC 6e - Solidarité (Restos du Cœur, association d\'aide)',
         'EMC',
         '6eme',
@@ -2362,7 +2362,7 @@ quizzes_data = [
         ]
     ),
     (
-        0131,
+        "0131",
         'EMC 6e - Écologie citoyenne',
         'EMC',
         '6eme',
@@ -2430,7 +2430,7 @@ quizzes_data = [
         ]
     ),
     (
-        0132,
+        "0132",
         'EMC 6e - Vie démocratique école',
         'EMC',
         '6eme',
@@ -2498,7 +2498,7 @@ quizzes_data = [
         ]
     ),
     (
-        0133,
+        "0133",
         'EMC 6e - La vie scolaire',
         'EMC',
         '6eme',
@@ -2566,7 +2566,7 @@ quizzes_data = [
         ]
     ),
     (
-        0134,
+        "0134",
         'EMC 6e - Paix et non-violence',
         'EMC',
         '6eme',
@@ -2634,7 +2634,7 @@ quizzes_data = [
         ]
     ),
     (
-        0135,
+        "0135",
         'EMC 6e - Solidarité',
         'EMC',
         '6eme',
@@ -2702,7 +2702,7 @@ quizzes_data = [
         ]
     ),
     (
-        0136,
+        "0136",
         'EMC 6e - Institutions locales (mairie)',
         'EMC',
         '6eme',
@@ -2770,7 +2770,7 @@ quizzes_data = [
         ]
     ),
     (
-        0137,
+        "0137",
         'EMC 6e - Vote classe : Élection délégués (affiches, discours)',
         'EMC',
         '6eme',
@@ -2838,7 +2838,7 @@ quizzes_data = [
         ]
     ),
     (
-        0138,
+        "0138",
         'EMC 6e - L\'enseignant et l\'élève : une bonne communication',
         'EMC',
         '6eme',
@@ -2906,7 +2906,7 @@ quizzes_data = [
         ]
     ),
     (
-        0139,
+        "0139",
         'EMC 6e - Les sanctions à l\'école',
         'EMC',
         '6eme',
@@ -2974,7 +2974,7 @@ quizzes_data = [
         ]
     ),
     (
-        0140,
+        "0140",
         'EMC 6e - Le droit de vote : citoyenneté et démocratie',
         'EMC',
         '6eme',
@@ -3042,7 +3042,7 @@ quizzes_data = [
         ]
     ),
     (
-        0141,
+        "0141",
         'EMC 6e - Les institutions locales : mairie, rôle des parents, rôle des médias',
         'EMC',
         '6eme',
@@ -3110,7 +3110,7 @@ quizzes_data = [
         ]
     ),
     (
-        0142,
+        "0142",
         'EMC 6e - La vie démocratique à l\'école',
         'EMC',
         '6eme',
@@ -3178,7 +3178,7 @@ quizzes_data = [
         ]
     ),
     (
-        0143,
+        "0143",
         'EMC 6e - tolérance et respect des différences',
         'EMC',
         '6eme',
@@ -3246,7 +3246,7 @@ quizzes_data = [
         ]
     ),
     (
-        0144,
+        "0144",
         'EMC 6e - Le travail scolaire à la maison',
         'EMC',
         '6eme',
@@ -3341,7 +3341,7 @@ def make_answers(qid, title, subject, level, questions):
         elif q["type"] == "vrai-faux":
             answers.append({"index": index, "question_id": index + 1, "type": "vrai-faux", "answer": "vrai" if q["correct"] else "faux", "correction": q["explanation"]})
         else:
-            answers.append({"index": index, "question_id": index + 1, "type": "open", "answer": q["correct_answer"], "correction": q["explanation"]})
+            answers.append({"index": index, "question_id": index + 1, "type": "open", "answer": q.get("correct_answer", ""), "correction": q["explanation"]})
     return {
         "contents": {"title": f"Quiz Diagnostic {subject} {level} - Série {qid}", "level": level, "subject": subject},
         "quiz": {"title": title, "question_count": len(answers), "level": level, "subject": subject, "answers": answers},
