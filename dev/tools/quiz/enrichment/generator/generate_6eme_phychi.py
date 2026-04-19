@@ -811,7 +811,7 @@ quizzes_data = [
             },
             {
                 'id': '1800_6',
-                'type': 'texte',
+                'type': 'qcm',
                 'question': "[Physique-Chimie 6eme] Propose un exemple d'auto-correction pertinente sur 'Securite au laboratoire'.",
                 'correct_answer': "Comparer sa reponse au corrig?, identifier l'erreur precise et ecrire la bonne strategie.",
                 'explanation': "L'auto-correction explicite transforme une erreur en apprentissage."
@@ -866,7 +866,7 @@ quizzes_data = [
             },
             {
                 'id': '1801_3',
-                'type': 'texte',
+                'type': 'qcm',
                 'question': "[Physique-Chimie 6eme] Cite une methode concrete pour progresser sur le theme 'Demarche experimentale'.",
                 'correct_answer': "S'entrainer regulierement, analyser ses erreurs et reformuler les notions essentielles.",
                 'explanation': "La progression vient de la repetition guidee et de l'analyse des erreurs."
@@ -893,7 +893,7 @@ quizzes_data = [
             },
             {
                 'id': '1801_6',
-                'type': 'texte',
+                'type': 'qcm',
                 'question': "[Physique-Chimie 6eme] Propose un exemple d'auto-correction pertinente sur 'Demarche experimentale'.",
                 'correct_answer': "Comparer sa reponse au corrig?, identifier l'erreur precise et ecrire la bonne strategie.",
                 'explanation': "L'auto-correction explicite transforme une erreur en apprentissage."
@@ -948,7 +948,7 @@ quizzes_data = [
             },
             {
                 'id': '1802_3',
-                'type': 'texte',
+                'type': 'qcm',
                 'question': "[Physique-Chimie 6eme] Cite une methode concrete pour progresser sur le theme 'Resolution de problemes'.",
                 'correct_answer': "S'entrainer regulierement, analyser ses erreurs et reformuler les notions essentielles.",
                 'explanation': "La progression vient de la repetition guidee et de l'analyse des erreurs."
@@ -975,7 +975,7 @@ quizzes_data = [
             },
             {
                 'id': '1802_6',
-                'type': 'texte',
+                'type': 'qcm',
                 'question': "[Physique-Chimie 6eme] Propose un exemple d'auto-correction pertinente sur 'Resolution de problemes'.",
                 'correct_answer': "Comparer sa reponse au corrig?, identifier l'erreur precise et ecrire la bonne strategie.",
                 'explanation': "L'auto-correction explicite transforme une erreur en apprentissage."

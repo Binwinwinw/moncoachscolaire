@@ -112,7 +112,7 @@ quizzes_data = [
             },
             {
                 'id': "0050_3",
-                'type': "open",
+                'type': "qcm",
                 'question': "Combien de secondes y a-t-il dans une minute ?",
                 'correct_answer': "60",
                 'explanation': "Il y a 60 secondes dans une minute."

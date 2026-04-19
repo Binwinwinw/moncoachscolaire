@@ -1,0 +1,76 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 2nde - Série 1667",
+    "level": "2nde",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Diagnostic 2nde Français - Les synonymes et antonymes",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Vif",
+        "correct": 1,
+        "correction": "'Vif' est un synonyme de 'rapide'."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Exemple : 'grand' et 'petit' sont antonymes."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Sombre",
+        "correct": 1,
+        "correction": "'Sombre' est l'opposé de 'clair'."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Joli",
+        "correct": 0,
+        "correction": "'Joli' est un synonyme de 'beau'."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Ils permettent d'éviter les répétitions et d'affiner le sens."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "qcm",
+        "answer": "Triste",
+        "correct": 0,
+        "correction": "'Triste' est l'opposé de 'heureux'."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Compliqué",
+        "correct": 1,
+        "correction": "'Compliqué' est un synonyme de 'difficile'."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Ils enrichissent l'expression en introduisant des contrastes."
+      }
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 2nde - Série 1655",
+    "level": "2nde",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Diagnostic 2nde Français - Figures d'opposition et d'atténuation",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Antithèse",
+        "correct": 1,
+        "correction": "L'antithèse rapproche deux éléments opposés pour souligner un contraste."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La litote consiste à dire moins pour suggérer plus."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "C'est du propre !",
+        "correct": 0,
+        "correction": "L'antiphrase consiste à dire le contraire de ce que l'on pense, souvent de façon ironique."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Exemple : 'cette obscure clarté'."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Euphémisme",
+        "correct": 0,
+        "correction": "L'euphémisme adoucit une idée difficile à exprimer."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Toutes deux mettent en valeur un contraste."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Elle atténue",
+        "correct": 1,
+        "correction": "La litote minimise pour suggérer davantage."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Au contraire, il vise à adoucir une réalité."
+      }
+    ]
+  }
+}

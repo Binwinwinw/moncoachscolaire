@@ -2,6 +2,43 @@
 
 **Statut : EN COURS, mais palier majeur validé**
 
+### [TABLEAU DE COUVERTURE QUIZ — SUIVI ENRICHISSEMENT 18/04/2026]
+
+| Niveau    | Matière             | Quiz présents | Quiz manquants |
+| --------- | ------------------- | ------------- | -------------- |
+| 2nde      | Français            | 10            | 38             |
+| 2nde      | Histoire-Géographie | 28            | 20             |
+| 2nde      | Physique-Chimie     | 2             | 46             |
+| 3eme      | Anglais             | 10            | 38             |
+| 3eme      | Espagnol            | 10            | 38             |
+| 3eme      | Français            | 10            | 38             |
+| 3eme      | Mathématiques       | 10            | 38             |
+| 4eme      | Anglais             | 10            | 38             |
+| 4eme      | EMC                 | 10            | 38             |
+| 4eme      | Espagnol            | 10            | 38             |
+| 4eme      | Français            | 10            | 38             |
+| 4eme      | Histoire-Géographie | 10            | 38             |
+| 4eme      | Mathématiques       | 10            | 38             |
+| 4eme      | Physique-Chimie     | 10            | 38             |
+| 4eme      | SVT                 | 10            | 38             |
+| 4eme      | Technologie         | 10            | 38             |
+| 5eme      | Anglais             | 10            | 38             |
+| 5eme      | EMC                 | 10            | 38             |
+| 5eme      | Espagnol            | 10            | 38             |
+| 5eme      | Français            | 10            | 38             |
+| 5eme      | Histoire-Géographie | 10            | 38             |
+| 5eme      | Mathématiques       | 10            | 38             |
+| 5eme      | Physique-Chimie     | 10            | 38             |
+| 5eme      | SVT                 | 10            | 38             |
+| 5eme      | Technologie         | 10            | 38             |
+| 6eme      | Physique-Chimie     | 10            | 38             |
+| Terminale | Anglais             | 10            | 38             |
+| Terminale | Espagnol            | 10            | 38             |
+| Terminale | Français            | 10            | 38             |
+| Terminale | Histoire-Géographie | 10            | 38             |
+| Terminale | Philosophie         | 10            | 38             |
+| Terminale | Physique-Chimie     | 10            | 38             |
+
 ### Fait dans cette session
 
 - conversion ciblée des questions runtime `open` en `vrai-faux` sur le stock concerné

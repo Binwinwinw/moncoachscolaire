@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 2nde - Série 1653",
+    "level": "2nde",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Diagnostic 2nde Français - Lexique et nuances de sens",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Courageux",
+        "correct": 1,
+        "correction": "'Hardi' signifie audacieux, courageux."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Exemple : 'grand' et 'petit' sont antonymes."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Ravi",
+        "correct": 0,
+        "correction": "'Ravi' exprime une joie plus intense que 'content'."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Les homonymes ont la même forme mais pas le même sens."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Continuer",
+        "correct": 1,
+        "correction": "Persévérer, c'est continuer malgré les difficultés."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Tous ces mots appartiennent au champ lexical de la peur."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Arbre",
+        "correct": 0,
+        "correction": "'Arbre' est l'hyperonyme de ces espèces."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Les paronymes se ressemblent mais n'ont pas le même sens (ex : collision/collusion)."
+      }
+    ]
+  }
+}

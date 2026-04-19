@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 2nde - Série 1660",
+    "level": "2nde",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Diagnostic 2nde Français - Genres littéraires et narration",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Roman",
+        "correct": 0,
+        "correction": "Le roman met en scène des personnages et une intrigue fictive."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Le théâtre est conçu pour être joué sur scène."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Poésie lyrique",
+        "correct": 0,
+        "correction": "La poésie lyrique exprime le moi et les émotions."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Il a accès à toutes les pensées et à tous les événements."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Théâtre",
+        "correct": 0,
+        "correction": "Le théâtre est destiné à la représentation scénique."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Il s'agit d'un genre narratif, centré sur l'enquête et la fiction."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Essai",
+        "correct": 0,
+        "correction": "L'essai développe une réflexion personnelle sur un sujet."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le lecteur partage les perceptions et pensées du personnage focalisateur."
+      }
+    ]
+  }
+}

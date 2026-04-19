@@ -1,0 +1,76 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 2nde - Série 1668",
+    "level": "2nde",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Diagnostic 2nde Français - Les homonymes et paronymes",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Vert",
+        "correct": 0,
+        "correction": "'Verre' et 'vert' se prononcent de la même façon mais n'ont pas le même sens."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Exemple : 'mer', 'mère', 'maire'."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Collusion",
+        "correct": 0,
+        "correction": "'Collision' et 'collusion' se ressemblent mais n'ont pas le même sens."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Sanglot",
+        "correct": 3,
+        "correction": "'Sanglot' n'a ni la même prononciation ni la même orthographe que 'sang'."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Leur ressemblance peut entraîner des erreurs de sens."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "qcm",
+        "answer": "Laid",
+        "correct": 0,
+        "correction": "'Lait' et 'laid' se prononcent pareil mais n'ont pas le même sens."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Influence",
+        "correct": 0,
+        "correction": "'Affluence' et 'influence' se ressemblent mais n'ont pas le même sens."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Ils permettent des jeux de mots et des ambiguïtés."
+      }
+    ]
+  }
+}

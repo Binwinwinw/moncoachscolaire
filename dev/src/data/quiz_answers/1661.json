@@ -1,0 +1,76 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 2nde - Série 1661",
+    "level": "2nde",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Diagnostic 2nde Français - Les valeurs de l'imparfait",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Habitude",
+        "correct": 1,
+        "correction": "L'imparfait d'habitude exprime la répétition d'une action passée."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'imparfait descriptif pose le cadre, les décors, les situations."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Habitude",
+        "correct": 1,
+        "correction": "La répétition quotidienne indique l'habitude."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Le passé simple de premier plan",
+        "correct": 1,
+        "correction": "Le passé simple fait avancer l'action, l'imparfait pose le décor."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est la valeur d'imparfait de progression ou d'action inachevée."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "qcm",
+        "answer": "Action en cours",
+        "correct": 1,
+        "correction": "L'action de pleuvoir est en cours au moment où l'autre action se produit."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Oui",
+        "correct": 0,
+        "correction": "Dans certaines constructions, l'imparfait exprime une hypothèse (ex : Si j'avais de l'argent, je partirais)."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "À l'oral, on utilise surtout le passé composé pour raconter des faits."
+      }
+    ]
+  }
+}

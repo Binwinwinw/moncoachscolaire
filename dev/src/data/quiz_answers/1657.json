@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 2nde - Série 1657",
+    "level": "2nde",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Diagnostic 2nde Français - Analyse de texte et interprétation",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Interpréter le sens et les effets du texte",
+        "correct": 2,
+        "correction": "L'analyse vise à comprendre comment le texte produit du sens."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La citation appuie l'argumentation et doit être expliquée."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Problématique",
+        "correct": 0,
+        "correction": "La problématique oriente toute l'analyse."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "L'effet sur le lecteur est un axe d'analyse important."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "De plus",
+        "correct": 1,
+        "correction": "Il ajoute un argument convergent."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Elle ne se contente pas de répéter l'introduction."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Citation",
+        "correct": 0,
+        "correction": "La citation doit être intégrée et expliquée."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "La relecture permet de corriger et d'améliorer la qualité du devoir."
+      }
+    ]
+  }
+}

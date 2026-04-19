@@ -1,0 +1,76 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 2nde - Série 1666",
+    "level": "2nde",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Diagnostic 2nde Français - Les champs lexicaux",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Joie",
+        "correct": 2,
+        "correction": "'Joie' appartient au champ lexical du bonheur, pas de la peur."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Un champ lexical rassemble des mots qui évoquent une même idée ou notion."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "La météo",
+        "correct": 1,
+        "correction": "Tous ces mots appartiennent au champ lexical de la météo."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Larmes",
+        "correct": 1,
+        "correction": "'Larmes' est associé à la tristesse."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Un texte riche joue sur plusieurs champs lexicaux pour nuancer le sens."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "qcm",
+        "answer": "Obscurité",
+        "correct": 1,
+        "correction": "'Obscurité' est l'opposé de la lumière."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "La guerre",
+        "correct": 0,
+        "correction": "Tous ces mots appartiennent au champ lexical de la guerre."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Il permet de préciser l'atmosphère et les thèmes du texte."
+      }
+    ]
+  }
+}

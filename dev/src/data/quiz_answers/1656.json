@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 2nde - Série 1656",
+    "level": "2nde",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Diagnostic 2nde Français - Narration et temps verbaux",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Passé simple",
+        "correct": 1,
+        "correction": "Le passé simple marque l'action ponctuelle et terminée dans le récit."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "L'imparfait pose l'arrière-plan du récit."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Plus-que-parfait",
+        "correct": 1,
+        "correction": "Le plus-que-parfait exprime l'antériorité dans le passé."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Il donne un effet de direct et de vivacité."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Imparfait et passé simple",
+        "correct": 0,
+        "correction": "C'est la répartition classique du récit : fond et événement."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "À l'oral, on privilégie le passé composé pour raconter des faits terminés."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Futur antérieur",
+        "correct": 0,
+        "correction": "Le futur antérieur exprime l'antériorité dans le futur."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Il est réservé à l'écrit littéraire."
+      }
+    ]
+  }
+}

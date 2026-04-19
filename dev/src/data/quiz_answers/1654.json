@@ -1,0 +1,75 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 2nde - Série 1654",
+    "level": "2nde",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Diagnostic 2nde Français - Types de discours",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Discours direct",
+        "correct": 0,
+        "correction": "Le discours direct utilise les guillemets et reproduit les paroles telles quelles."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Il permet une grande souplesse dans la narration."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": ":",
+        "correct": 1,
+        "correction": "Le deux-points introduit fréquemment le discours direct."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Il résume les propos sans les rapporter précisément."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Indirect",
+        "correct": 1,
+        "correction": "La subordonnée introduite par 'que' signale le discours indirect."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Il peut être introduit par une incise ou un contexte narratif."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Il rapproche le lecteur de la conscience du personnage",
+        "correct": 1,
+        "correction": "Le discours indirect libre permet d'entrer dans la subjectivité du personnage."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Il peut utiliser différents temps selon le contexte."
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 2nde - Série 1675",
+    "level": "2nde",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Diagnostic 2nde Français - Les phrases complexes",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Une phrase avec plusieurs propositions",
+        "correct": 0,
+        "correction": "La phrase complexe associe plusieurs propositions."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Les subordonnées sont une des formes de la complexité."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Indépendante",
+        "correct": 0,
+        "correction": "La proposition indépendante n'est pas subordonnée à une autre."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Mais",
+        "correct": 0,
+        "correction": "'Mais' est une conjonction de coordination."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "La juxtaposition est une des façons d'associer des propositions."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "qcm",
+        "answer": "Tous",
+        "correct": 3,
+        "correction": "Tous ces signes peuvent séparer des propositions juxtaposées."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Subordonnée conditionnelle",
+        "correct": 0,
+        "correction": "'Si' introduit la condition."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "On peut parfois simplifier une phrase complexe."
+      }
+    ]
+  }
+}

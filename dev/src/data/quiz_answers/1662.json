@@ -1,0 +1,76 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 2nde - Série 1662",
+    "level": "2nde",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Diagnostic 2nde Français - Les registres de langue",
+    "question_count": 8,
+    "level": "2nde",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Familier",
+        "correct": 2,
+        "correction": "La tournure est typique du registre familier."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Le registre soutenu est attendu dans les écrits formels et scolaires."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Automobile",
+        "correct": 1,
+        "correction": "'Automobile' est neutre, ni familier ni soutenu."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "Discussion entre amis",
+        "correct": 1,
+        "correction": "Le registre familier s'utilise dans la sphère privée et informelle."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Il privilégie la complexité syntaxique et le vocabulaire précis."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "qcm",
+        "answer": "Demeure",
+        "correct": 0,
+        "correction": "'Demeure' est un terme soutenu pour 'maison'."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Courant",
+        "correct": 1,
+        "correction": "Le registre courant est adapté à la plupart des situations professionnelles."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Il faut privilégier le registre courant ou soutenu à l'écrit."
+      }
+    ]
+  }
+}
