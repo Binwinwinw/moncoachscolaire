@@ -1,9 +1,9 @@
 <?php
-// diagnostic.php — Diagnostic initial par notion (élève)
+// diagnostic.php — Diagnostique initial par notion (élève)
 // Routified: works with public/index.php router, no standalone HTML generation
 
-$page_title = 'Diagnostic initial - MonCoachScolaire';
-$page_css = 'diagnostic.css';
+$page_title = 'Diagnostique initial - MonCoachScolaire';
+$page_css = 'pages/quiz.css';
 $page_class = 'diagnostic-page';
 
 // Vérifier PDO
@@ -71,44 +71,30 @@ $_SESSION['debug_diagnostic'] = [
 ];
 ?>
 
-    <main class="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
-                <div class="flex justify-start mb-8">
-                        <a href="<?php echo $basePath; ?>/public/index.php?page=eleve/dashboard" class="inline-flex items-center gap-3 px-6 py-3 back-btn font-bold transition-all text-lg">
-                            <span class="text-xl">←</span>
-                            <span>Retour au dashboard élève</span>
-                        </a>
-                </div>
-        <div class="flex flex-col items-center justify-center mb-16">
-            <div class="flex items-center gap-6 mb-6">
-                <div class="w-20 h-20 rounded-full bg-gradient-to-br from-blue-400 to-indigo-500 flex items-center justify-center shadow-xl border-4 border-white">
-                    <span class="text-white text-4xl font-black">👤</span>
-                </div>
-                <div class="text-left">
-                    <h1 class="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-blue-700 via-purple-600 to-indigo-600 bg-clip-text text-transparent drop-shadow-lg mb-2">
-                        <span class="text-black">Bonjour <?php echo htmlspecialchars($user_prenom); ?> !</span>
-                    </h1>
-                    <div class="flex items-center gap-3">
-                        <span class="px-4 py-2 rounded-full bg-blue-100 text-blue-800 font-bold shadow text-lg">
-                            Niveau&nbsp;: <?php echo htmlspecialchars($request_level); ?>
-                        </span>
-                        <?php if ($request_subject): ?>
-                        <span class="px-4 py-2 rounded-full bg-indigo-100 text-indigo-800 font-bold shadow text-lg">
-                            <?php echo htmlspecialchars($request_subject); ?>
-                        </span>
-                        <?php endif; ?>
-                    </div>
+    <main class="max-w-7xl mx-auto px-4 py-8">
+        <div class="text-center mb-10">
+            <h1 class="text-4xl md:text-5xl font-bold text-slate-800 mb-4">🧠 Diagnostique Initial</h1>
+            <p class="text-xl text-slate-600 mb-3">Teste tes compétences par notion et découvre les points à renforcer.</p>
+
+        </div>
+
+        <div class="bg-blue-50 border border-blue-200 rounded-3xl p-6 mb-8 shadow-sm">
+            <div class="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+
+                <div class="rounded-2xl bg-white px-4 py-3 text-slate-700 shadow-sm">
+                    <p class="text-xs uppercase tracking-[0.18em] text-slate-500">Niveau</p>
+                    <p class="mt-1 font-semibold"><?php echo htmlspecialchars($request_level); ?></p>
                 </div>
             </div>
-            <p class="text-xl md:text-2xl text-gray-800 font-semibold mb-2">Voici les quiz personnalisés, adaptés à ton profil.</p>
-            <p class="text-lg text-gray-600 mb-2">Progresse à ton rythme et découvre tes points forts !</p>
         </div>
-        <div id="diagnostic-app" class="w-full">
-            <!-- Ici s'affichera le quiz par notion (chargé dynamiquement) -->
-            <p class="text-center text-gray-600 py-20">
-                <span class="inline-block animate-spin rounded-full w-12 h-12 border-4 border-blue-200 border-t-blue-600 mb-4"></span>
-                Chargement diagnostics...
-            </p>
-        </div>
+
+        <section id="diagnostic-app" class="rounded-3xl border border-slate-200 bg-white shadow-sm">
+            <div class="flex flex-col items-center justify-center px-6 py-16 text-center sm:px-8">
+                <div class="mb-4 h-10 w-10 animate-spin rounded-full border-4 border-slate-200 border-t-sky-600"></div>
+                <p class="text-sm font-medium text-slate-700">Chargement du diagnostic…</p>
+                <p class="mt-1 text-sm text-slate-500">Préparation des notions et des quiz adaptés.</p>
+            </div>
+        </section>
     </main>
 
     <?php if (is_file(dirname(__DIR__, 2) . '/components/course_modal.php')) {
@@ -124,12 +110,14 @@ $_SESSION['debug_diagnostic'] = [
         window.apiBasePath = <?php echo json_encode($apiBasePath); ?>;
         window.userLevel = <?php echo json_encode($user_level); ?>;
         window.userSubject = <?php echo json_encode($user_subject); ?>;
+        window.requestLevel = <?php echo json_encode($request_level); ?>;
+        window.requestSubject = <?php echo json_encode($request_subject); ?>;
         console.log('🔧 Diagnostic config:', {
             apiBasePath: window.apiBasePath,
             userLevel: window.userLevel,
             userSubject: window.userSubject,
-            requestLevel: '<?php echo htmlspecialchars($request_level); ?>',
-            requestSubject: '<?php echo htmlspecialchars($request_subject); ?>'
+            requestLevel: window.requestLevel,
+            requestSubject: window.requestSubject,
         });
     </script>
     <script src="<?php echo $basePath; ?>/public/assets/js/course_modal.js"></script>

@@ -1,17 +1,22 @@
-﻿## [18/04/2026] 🚀 Grosse consolidation de la base de quiz — collège fortement renforcé
+﻿### Règle documentaire complémentaire
+
+- Dès qu’un lot atteint 48 quiz présents (objectif complet), **supprimer la ligne correspondante du tableau de couverture** pour ne garder que les lots encore incomplets à piloter.
+
+## [18/04/2026] 🚀 Grosse consolidation de la base de quiz — collège fortement renforcé
 
 **Statut : EN COURS, mais palier majeur validé**
 
-### [TABLEAU DE COUVERTURE QUIZ — SUIVI ENRICHISSEMENT 18/04/2026]
+### [TABLEAU DE COUVERTURE QUIZ — SUIVI ENRICHISSEMENT 25/04/2026]
+
+- Ce tableau indique les volumes de quiz déjà présents en runtime par niveau/matière et le nombre de quiz restants à générer ou enrichir pour atteindre l'objectif standard de 48 quiz par lot.
+- Seules les matières incomplètes restent listées ici ; les lots atteints sont retirés du suivi pour concentrer le pilotage sur les manques.
 
 | Niveau    | Matière             | Quiz présents | Quiz manquants |
 | --------- | ------------------- | ------------- | -------------- |
-| 2nde      | Français            | 10            | 38             |
 | 2nde      | Histoire-Géographie | 28            | 20             |
 | 2nde      | Physique-Chimie     | 2             | 46             |
 | 3eme      | Anglais             | 10            | 38             |
 | 3eme      | Espagnol            | 10            | 38             |
-| 3eme      | Français            | 10            | 38             |
 | 3eme      | Mathématiques       | 10            | 38             |
 | 4eme      | Anglais             | 10            | 38             |
 | 4eme      | EMC                 | 10            | 38             |
@@ -41,11 +46,9 @@
 
 ### Fait dans cette session
 
-- conversion ciblée des questions runtime `open` en `vrai-faux` sur le stock concerné
-- contrôle après traitement : **0 question open restante** sur la plage vérifiée
-- audit de couverture par niveau/matière pour guider les enrichissements réellement utiles
-- complétion des générateurs collège encore vides ou incomplets
-- synchronisation directe des lots validés vers `src/data/quiz/` et `src/data/quiz_answers/`
+- Finalisation du lot complet 2nde Français (49 quiz validés) — ligne supprimée du tableau de couverture conformément à la règle documentaire
+- Synchronisation des fichiers quiz et quiz_answers vers les dossiers runtime (`src/data/quiz/`, `src/data/quiz_answers/`)
+- Suppression du dossier temporaire de génération pour dépôt propre
 
 ### État d'avancement constaté
 
@@ -91,6 +94,39 @@
 1. faire une passe qualitative sur les formulations les moins naturelles
 2. auditer les éventuels doublons/anciens lots legacy sur certaines matières
 3. poursuivre l'équilibrage sur le lycée si la priorité produit reste la densité de contenu
+
+### Prochaine cible de script
+
+- Prioriser les générateurs 2nde / 3e / Terminale encore incomplets ou contenant `type: "texte"` :
+  - `dev/tools/quiz/enrichment/generator/generate_2nde_emc.py`
+  - `dev/tools/quiz/enrichment/generator/generate_2nde_technologie.py`
+  - `dev/tools/quiz/enrichment/generator/generate_2nde_mathematiques.py`
+  - `dev/tools/quiz/enrichment/generator/generate_3eme_hg.py`
+  - `dev/tools/quiz/enrichment/generator/generate_3eme_phychi.py`
+  - `dev/tools/quiz/enrichment/generator/generate_3eme_svt.py`
+  - `dev/tools/quiz/enrichment/generator/generate_terminale_mathematiques.py`
+  - `dev/tools/quiz/enrichment/generator/generate_terminale_ses.py`
+
+- Vérifier aussi les scripts `6eme` identifiés comme incomplets :
+  - `dev/tools/quiz/enrichment/generator/generate_6eme_technologie0193.py`
+  - `dev/tools/quiz/enrichment/generator/generate_6eme_espagnol.py`
+  - `dev/tools/quiz/enrichment/generator/generate_6eme_hg.py`
+  - `dev/tools/quiz/enrichment/generator/generate_6eme_svt.py`
+
+## [25/04/2026] Audit scripts générateurs Python — état et priorités
+
+- Audit réalisé sur `dev/tools/quiz/enrichment/generator/*.py` pour mettre à jour le suivi des volumes et des formats de question.
+- Aucun script inspecté ne contient de `type: "open"` dans les quiz codés en dur.
+- Des scripts restent à compléter ou corriger : `generate_2nde_emc.py`, `generate_2nde_technologie.py`, `generate_6eme_technologie0193.py`, `generate_6eme_espagnol.py`, `generate_6eme_hg.py`, `generate_6eme_svt.py`.
+- Des scripts contiennent encore des questions de type `texte` et doivent être standardisés ou évalués en priorité : `generate_2nde_mathematiques.py`, `generate_3eme_hg.py`, `generate_3eme_phychi.py`, `generate_3eme_svt.py`, `generate_3eme_techno.py`, `generate_terminale_mathematiques.py`, `generate_terminale_ses.py`, `generate_3eme_emc.py`, `generate_2nde_svt.py`, `generate_terminale_svt.py`, `generate_2nde_histoire_geo.py`, et des batchs lycée/terminale/espagnol.
+- Résultats complets enregistrés dans `dev/tmp/scan_quiz_generators_output2.json`.
+
+### Actions immédiates à planifier
+
+1. prioriser la finalisation des scripts `1ère` et `2nde` les plus avancés (NSI, Anglais, HGGSP, SVT, Français, Mathématiques).
+2. corriger les scripts vides ou en template (`2nde_emc`, `2nde_technologie`, `6eme_technologie0193`).
+3. standardiser tous les `type` sur `qcm` / `vrai-faux` et isoler les questions `texte` pour revue pédagogique.
+4. valider que le runtime reste propre avant toute synchronisation, sans réintroduire de `open`.
 
 ---
 

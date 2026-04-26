@@ -1,4 +1,4 @@
-```instructions
+````instructions
 ---
 name: Python rules (quiz generators)
 description: Conventions Python à appliquer systématiquement sur tous les scripts generate_*.py du projet MonCoachScolaire
@@ -18,13 +18,13 @@ Toujours en première position, avant toute logique :
 Génération des quiz <Matière> <Niveau> – IDs <min>–<max>
 <N> quizzes x 8 questions = <N*8> questions
 Thèmes : <liste des blocs thématiques>
-Pattern : qcm, vrai-faux, texte, qcm, vrai-faux, texte, qcm, vrai-faux
+Pattern : qcm, vrai-faux, qcm, vrai-faux, qcm, vrai-faux, qcm, vrai-faux
 """
 
 import json
 import os
 from datetime import UTC, datetime
-```
+````
 
 **Interdit :** `from datetime import datetime` seul, `datetime.utcnow()`.
 
@@ -89,12 +89,8 @@ def make_answers(qid, title, subject, level, questions):
                 "correct": q["correct"],
                 "explanation": q["explanation"]
             })
-        else:   # type == "texte"
-            answers.append({
-                "question_id": q["id"],
-                "correct_answer": q["correct_answer"],
-                "explanation": q["explanation"]
-            })
+        else:
+            raise ValueError(f"Type de question invalide : {q['type']}. Utiliser uniquement 'qcm' ou 'vrai-faux'.")
     return {
         "quiz_id": qid,
         "title": title,
@@ -108,14 +104,16 @@ def make_answers(qid, title, subject, level, questions):
 
 ### 5. Types de question — valeurs autorisées
 
-| Type | Champ réponse data | Champ réponse answers |
-|------|-------------------|-----------------------|
-| `"qcm"` | `options` (list), `correct_option` (str) | `correct_option` |
-| `"vrai-faux"` | `correct` (bool) | `correct` |
-| `"texte"` | `correct_answer` (str) | `correct_answer` |
+| Type          | Champ réponse data                       | Champ réponse answers |
+| ------------- | ---------------------------------------- | --------------------- |
+| `"qcm"`       | `options` (list), `correct_option` (str) | `correct_option`      |
+| `"vrai-faux"` | `correct` (bool)                         | `correct`             |
+
+**Règle critique :** Les nouveaux scripts doivent utiliser uniquement `"qcm"` et `"vrai-faux"`.
 
 **Règle critique :** Le tiret est OBLIGATOIRE dans `"vrai-faux"` (pas `"vrai_faux"`).
 Avant tout commit, vérifier qu'aucun `"vrai_faux"` n'est présent :
+
 ```
 grep -n "vrai_faux" <fichier>.py
 ```
@@ -142,11 +140,12 @@ quizzes_data = [
          "question": "...",
          "correct": True,
          "explanation": "..."},
-        {"id": "699_3", "type": "texte",
+        {"id": "699_3", "type": "qcm",
          "question": "...",
-         "correct_answer": "...",
+         "options": ["Option A", "Option B", "Option C", "Option D"],
+         "correct_option": "Option A",
          "explanation": "..."},
-        # … 8 questions par quiz (pattern suggéré : qcm, vrai-faux, texte × 2 + qcm, vrai-faux)
+        # … 8 questions par quiz (pattern suggéré : qcm, vrai-faux, qcm, vrai-faux, qcm, vrai-faux, qcm, vrai-faux)
     ]),
 ]
 ```
@@ -186,10 +185,13 @@ if __name__ == "__main__":
 - [ ] `from datetime import UTC, datetime` présent
 - [ ] `SCRIPT_DIR` + constantes de dossiers dédiées
 - [ ] `datetime.now(UTC)...replace("+00:00", "Z")` (pas `utcnow()`)
-- [ ] Tous les types dans `make_answers` : `qcm`, `vrai-faux`, `texte`
+- [ ] Tous les types dans `make_answers` : `qcm`, `vrai-faux`
 - [ ] Aucun `"vrai_faux"` (underscore) dans le fichier
 - [ ] IDs quiz consécutifs et complets (pas de trou)
 - [ ] `write_quiz_files()` + `if __name__ == "__main__"` en fin de fichier
 - [ ] Exécution validée : `python generate_<matiere>_<niveau>.py`
 - [ ] Comptage JSON : `len(quizzes_data)` fichiers dans `quiz/` et `quiz_answers/`
+
+```
+
 ```

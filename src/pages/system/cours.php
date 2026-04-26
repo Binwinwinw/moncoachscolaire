@@ -159,7 +159,7 @@ $cours_background = function_exists('asset_url')
                 <?php
                 // Bouton accueil du niveau scolaire
                 if ($is_college) {
-                    echo '<a href="' . site_url('eleve/college/college-accueil') . '" class="nav-btn nav-accueil"><span>🏫</span> Accueil Collège</a>';
+                    echo '<a href="' . site_url('eleve/dashboard') . '" class="nav-btn nav-accueil"><span>🏫</span> Accueil Collège</a>';
                 } elseif ($is_lycee) {
                     echo '<a href="' . site_url('eleve/lycee/lycee-accueil') . '" class="nav-btn nav-accueil"><span>🎓</span> Accueil Lycée</a>';
                 } elseif ($is_bac) {

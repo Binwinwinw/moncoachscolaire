@@ -10,6 +10,8 @@ argument-hint: [matiere] [niveau] [IDs min-max]
 
 Créer ou corriger un script `generate_<matiere>_<niveau>.py` conforme au pattern standard MonCoachScolaire.
 
+> Important : pour les nouveaux scripts, ne générer que des questions de type `qcm` et `vrai-faux`.
+
 ## Localisation
 
 ```
@@ -31,6 +33,71 @@ dev/tools/quiz/<matiere>_<niveau>_quizzes/
 ├── quiz/<id>.json          ← Questions SANS réponses (côté élève)
 └── quiz_answers/<id>.json  ← Réponses + explications (côté API)
 ```
+
+## Workflow détaillé
+
+Ce skill doit guider la création d’un script `generate_<matiere>_<niveau>.py` clair, réutilisable et conforme au standard MonCoachScolaire.
+
+### Objectif du workflow
+
+- Produire un script autonome qui génère deux dossiers JSON : `quiz/` et `quiz_answers/`.
+- Respecter le pattern `qcm` / `vrai-faux` uniquement.
+- Fournir une validation explicite des types de questions.
+- Garantir que les fichiers publics n’incluent pas de réponses.
+
+### Étape 1 — Choisir la plage d’IDs
+
+- Vérifier l’ID max existant dans `dev/tools/quiz/` avant d’ajouter un nouveau script.
+- Documenter la plage dans l’en-tête du fichier et dans le commentaire du bloc.
+- Exemple : IDs `747–794` pour un script suivant `generate_pc_3eme.py`.
+
+### Étape 2 — Écrire l’en-tête et les imports
+
+- Ajouter le header de fichier avec UTF-8 et la description.
+- Importer uniquement : `json`, `os`, `from datetime import UTC, datetime`.
+- Ne pas utiliser `datetime.utcnow()` ni `import datetime` seul.
+
+### Étape 3 — Définir les chemins de sortie
+
+- Utiliser `SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))`.
+- Créer les constantes :
+  - `<MATIERE>_OUTPUT_DIR`
+  - `<MATIERE>_QUIZ_DIR`
+  - `<MATIERE>_ANSWERS_DIR`
+- Créer les dossiers avec `os.makedirs(..., exist_ok=True)`.
+
+### Étape 4 — Implémenter `make_quiz()`
+
+- Générer l’objet élève sans champs de correction.
+- Supprimer `correct_answer`, `correct_option`, `correct`, `explanation`.
+- Ajouter `created_at` en ISO 8601 UTC.
+
+### Étape 5 — Implémenter `make_answers()`
+
+- Gérer uniquement :
+  - `qcm` → `correct_option`
+  - `vrai-faux` → `correct`
+- Rejeter tout autre type avec un `ValueError` clair.
+- Le code doit être lisible et facile à maintenir.
+
+### Étape 6 — Remplir `quizzes_data`
+
+- Utiliser une liste de tuples `(id, title, subject, level, questions)`.
+- Chaque question doit avoir un identifiant unique au format `"<quiz_id>_<numero>"`.
+- Respecter le pattern de questions recommandé :
+  `qcm, vrai-faux, qcm, vrai-faux, qcm, vrai-faux, qcm, vrai-faux`.
+
+### Étape 7 — Écrire `write_quiz_files()`
+
+- Créer la boucle d’export avec `make_quiz()` et `make_answers()`.
+- Écrire chaque fichier JSON en UTF-8 avec `ensure_ascii=False` et `indent=2`.
+- Afficher un message de synthèse à la fin.
+
+### Étape 8 — Tester le script
+
+- Exécuter le script localement.
+- Vérifier que le nombre de fichiers produit correspond à `len(quizzes_data)`.
+- Contrôler les structures JSON générées.
 
 ## Checklist 7 points obligatoires
 
@@ -91,49 +158,13 @@ def make_answers(qid, title, subject, level, questions):
                 "correct": q["correct"],        # bool
                 "explanation": q["explanation"]
             })
-        else:  # texte
-            answers.append({
-                "question_id": q["id"],
-                "correct_answer": q["correct_answer"],
-                "explanation": q["explanation"]
-            })
+        else:
+            raise ValueError(f"Type de question invalide : {q['type']}. Utiliser uniquement 'qcm' ou 'vrai-faux'.")
     return {"quiz_id": qid, "title": title, "subject": subject,
             "level": level, "answers": answers}
 ```
 
-### 5. Type `"vrai-faux"` avec tiret
-
-**Jamais** `"vrai_faux"` (underscore). Vérifier avec :
-
-```powershell
-Select-String -Path "generate_*.py" -Pattern "vrai_faux"
-```
-
-Zéro résultat attendu.
-
-### 6. Complétion des IDs jusqu'au max déclaré
-
-Si le commentaire annonce IDs 699–746, **48 tuples** dans `quizzes_data`.  
-Vérifier : `print(len(quizzes_data))` → doit afficher 48.
-
-### 7. Pipeline write_quiz_files() + if **name**
-
-```python
-def write_quiz_files():
-    os.makedirs(XXX_QUIZ_DIR, exist_ok=True)
-    os.makedirs(XXX_ANSWERS_DIR, exist_ok=True)
-    for qid, title, subject, level, questions in quizzes_data:
-        quiz    = make_quiz(qid, title, subject, level, questions)
-        answers = make_answers(qid, title, subject, level, questions)
-        with open(os.path.join(XXX_QUIZ_DIR, f"{qid}.json"), "w", encoding="utf-8") as f:
-            json.dump(quiz, f, ensure_ascii=False, indent=2)
-        with open(os.path.join(XXX_ANSWERS_DIR, f"{qid}.json"), "w", encoding="utf-8") as f:
-            json.dump(answers, f, ensure_ascii=False, indent=2)
-    print(f"{len(quizzes_data)} quiz générés dans {XXX_OUTPUT_DIR}")
-
-if __name__ == "__main__":
-    write_quiz_files()
-```
+**Important :** pour les nouveaux scripts, n’utiliser que `qcm` et `vrai-faux`.
 
 ## Schéma JSON cible
 
@@ -150,11 +181,10 @@ if __name__ == "__main__":
     {
       "id": 1,
       "type": "qcm",
-      "question": "Texte ?",
+      "question": "Question à choix multiples ?",
       "options": ["A", "B", "C", "D"]
     },
-    { "id": 2, "type": "vrai-faux", "question": "Affirmation ?" },
-    { "id": 3, "type": "texte", "question": "Développer..." }
+    { "id": 2, "type": "vrai-faux", "question": "Affirmation ?" }
   ]
 }
 ```
@@ -169,12 +199,7 @@ if __name__ == "__main__":
   "level": "niveau",
   "answers": [
     { "question_id": 1, "correct_option": "B", "explanation": "Car..." },
-    { "question_id": 2, "correct": true, "explanation": "Car..." },
-    {
-      "question_id": 3,
-      "correct_answer": "Réponse développée",
-      "explanation": "Car..."
-    }
+    { "question_id": 2, "correct": true, "explanation": "Car..." }
   ]
 }
 ```
@@ -195,5 +220,9 @@ Get-ChildItem dev/tools/quiz/<matiere>_<niveau>_quizzes/quiz/ | Measure-Object
 ## Pattern de questions (8 questions/quiz recommandé)
 
 ```
-qcm, vrai-faux, texte, qcm, vrai-faux, texte, qcm, vrai-faux
+qcm, vrai-faux, qcm, vrai-faux, qcm, vrai-faux, qcm, vrai-faux
+```
+
+```
+
 ```

@@ -38,6 +38,7 @@ Mise à jour documentaire :
 - pour l'historique détaillé des interventions, suivre [dev/JOURNAL_REPRISE.md](dev/JOURNAL_REPRISE.md)
 - les futurs générateurs doivent partir des templates du dossier quiz generator déjà réalignés
 - **pattern de fin de lot quiz** : après vérification visuelle et approbation, copier les fichiers vers `src/data/quiz/` et `src/data/quiz_answers/`, puis supprimer le dossier temporaire de génération pour laisser le dépôt propre
+- **workflow complémentaire** : dès qu’un lot atteint 48 quiz présents, supprimer la ligne correspondante du tableau de couverture quiz pour ne garder que les lots incomplets à piloter.
 
 ## [02/04/2026] Priorites actives pour la suite
 

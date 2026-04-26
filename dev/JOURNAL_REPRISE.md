@@ -27,6 +27,32 @@ Suite recommandée :
 2. revue des lots legacy plus anciens (doublons, écarts de niveau, titres hétérogènes)
 3. poursuite de l'équilibrage sur les niveaux lycée si priorité confirmée
 
+## [25/04/2026] Audit Python générateurs quiz — mise à jour du suivi
+
+- Audit réalisé sur les scripts `dev/tools/quiz/enrichment/generator/generate_*.py` afin de mettre la documentation métier et opérationnelle à jour.
+- Aucune occurrence `type: "open"` détectée dans les quiz codés en dur.
+- Des questions `type: "texte"` restent présentes dans certains scripts de lycée et de 2nde/terminale, à traiter en priorité pédagogique.
+- Les résultats sont consignés dans `dev/tmp/scan_quiz_generators_output2.json` pour un suivi précis des volumes et des formats.
+- Les prochaines modifications à intégrer sont désormais :
+  1. compléter les scripts avancés et valider les volumes réels de quiz en dur
+  2. corriger les scripts vides ou incomplets
+  3. standardiser les formats de questions et refuser toute réintroduction de `open`
+
+Prochaine cible : identifier et corriger les scripts lycée / 2nde encore en `type: "texte"` ou incomplets. En priorité, commencer par :
+
+- `dev/tools/quiz/enrichment/generator/generate_2nde_emc.py`
+- `dev/tools/quiz/enrichment/generator/generate_2nde_technologie.py`
+- `dev/tools/quiz/enrichment/generator/generate_2nde_mathematiques.py`
+- `dev/tools/quiz/enrichment/generator/generate_3eme_hg.py`
+- `dev/tools/quiz/enrichment/generator/generate_3eme_phychi.py`
+- `dev/tools/quiz/enrichment/generator/generate_3eme_svt.py`
+- `dev/tools/quiz/enrichment/generator/generate_terminale_mathematiques.py`
+- `dev/tools/quiz/enrichment/generator/generate_terminale_ses.py`
+
+Impact : ce journal devient un guide direct pour trouver le prochain script sur lequel agir.
+
+Impact : ce journal et le suivi des bugs sont alignés sur l’état réel des scripts générateurs, y compris les modifications à venir.
+
 ---
 
 ## [18/04/2026] Nettoyage runtime quiz + réalignement template — ✅ validé

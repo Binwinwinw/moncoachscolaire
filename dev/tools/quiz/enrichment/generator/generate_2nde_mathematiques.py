@@ -14,6 +14,7 @@ from __future__ import annotations
 import json
 import os
 import random
+import re
 from datetime import UTC, datetime
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -2419,12 +2420,62 @@ def normalize_question_type(question_type):
     return "vrai-faux"
 
 
-def build_true_false_statement(question_text, fallback_answer=""):
-    question_text = str(question_text).strip()
-    fallback_answer = str(fallback_answer).strip().rstrip(".")
-    if fallback_answer:
-        return f"{question_text} La bonne réponse attendue est : {fallback_answer}."
-    return question_text or "Choisis si l'affirmation est vraie ou fausse."
+def is_free_text_question_type(question_type):
+    qtype = str(question_type or "").strip().lower().replace("_", "-")
+    return qtype in {"texte", "text", "open"}
+
+
+def choose_runtime_question_type(question):
+    raw_type = str(question.get("type", "") or "").strip().lower().replace("_", "-")
+    if raw_type == "qcm":
+        return "qcm"
+    if raw_type in {"vrai-faux", "vrai faux"}:
+        return "vrai-faux"
+    if raw_type in {"texte", "text", "open"}:
+        if question.get("options"):
+            return "qcm"
+        return "vrai-faux"
+    return "vrai-faux"
+
+
+def build_qcm_choices(question, max_choices=4):
+    choices = list(question.get("options", []))
+    if choices:
+        return choices
+    correct_answer = str(question.get("correct_option", question.get("correct_answer", ""))).strip()
+    if not correct_answer:
+        return []
+    default_choices = [
+        correct_answer,
+        "Une autre réponse",
+        "Une réponse incorrecte",
+        "Aucune de ces réponses",
+    ]
+    rnd = random.Random(str(question.get("id", "")) or correct_answer)
+    rnd.shuffle(default_choices)
+    return default_choices[:max_choices]
+
+
+def build_true_false_statement(question_text, correct_answer, explanation):
+    question_text = str(question_text or "").strip()
+    answer = str(correct_answer or "").strip().rstrip(".!? ")
+    detail = str(explanation or "").strip()
+
+    if answer:
+        if "_____" in question_text or "____" in question_text:
+            return question_text.replace("_____", answer).replace("____", answer).rstrip() + "."
+        if re.search(r"\bCompl[eé]tez\b", question_text, flags=re.I):
+            return f"{question_text.rstrip('.!? ')} {answer}."
+        if re.search(
+            r'^(?:Compl[eé]tez|Explique|Expliquez|Distingue|Distinguez|Décris|Décrivez|Nommez|Justifie|Pourquoi|Comment|Qu\'est-ce que|Quel|Quels|Quelles|Donne|Donnez|Indique|Indiquez|Rappelle|Présente|Présentez)\b',
+            question_text,
+            flags=re.I,
+        ):
+            return f"Il est vrai que {answer}."
+        return f"{question_text.rstrip('.!? ')}. La bonne réponse attendue est : {answer}."
+    if detail:
+        return detail if detail.endswith((".", "!", "?")) else f"{detail}."
+    return question_text if question_text else "Cette affirmation est à évaluer."
 
 
 def make_quiz(qid, title, subject, level, questions):
@@ -2434,7 +2485,7 @@ def make_quiz(qid, title, subject, level, questions):
 
     for question in questions:
         cleaned_question = {key: value for key, value in question.items() if key not in answer_keys}
-        qtype = normalize_question_type(question.get("type", ""))
+        qtype = choose_runtime_question_type(question)
         if qtype == "qcm":
             runtime_questions.append(
                 {
@@ -2483,14 +2534,20 @@ def make_quiz(qid, title, subject, level, questions):
 def make_answers(qid, title, subject, level, questions):
     answers = []
     for index, question in enumerate(questions):
-        qtype = normalize_question_type(question.get("type", ""))
+        qtype = choose_runtime_question_type(question)
         if qtype == "qcm":
+            options = list(question.get("options", []))
+            if not options and is_free_text_question_type(question.get("type", "")):
+                options = build_qcm_choices(question)
+            correct_answer = str(question.get("correct_option", question.get("correct_answer", "")))
+            correct_index = options.index(correct_answer) if correct_answer in options else 0
             answers.append(
                 {
                     "index": index,
                     "question_id": index + 1,
                     "type": "qcm",
-                    "answer": question.get("correct_option", ""),
+                    "answer": correct_answer,
+                    "correct": correct_index,
                     "correction": question.get("explanation", ""),
                 }
             )

@@ -11,43 +11,61 @@ description: Créer ou corriger un script Python de génération de quiz scolair
 
 Les scripts de génération de quiz se trouvent dans `dev/tools/quiz/`.
 Chaque script produit deux séries de fichiers JSON dans un dossier `<matiere>_<niveau>_quizzes/` :
+
 - `quiz/<id>.json` — questions sans réponses (affichage côté élève)
 - `quiz_answers/<id>.json` — réponses + explications (validation côté API)
 
-Voir `dev/tools/quiz/generate_pc_3eme.py` (IDs 699–746) et `generate_svt_3eme.py` (IDs 651–698) comme référence.
+Voir `dev\tools\quiz\enrichment\generator\generate_0templateIA.py` et `dev\tools\quiz\enrichment\generator\generate_0template.py` comme référence.
+
+---
+
+## Résumé du workflow
+
+- Créer un script `generate_<matiere>_<niveau>.py` avec `SCRIPT_DIR` relatif.
+- Générer deux dossiers : `quiz/` et `quiz_answers/`.
+- Supporter seulement `qcm` et `vrai-faux`.
+- Écrire `created_at` en UTC ISO 8601 et rejeter tout type invalide.
 
 ---
 
 ## Checklist de correction (7 points obligatoires)
 
+Pour les nouveaux scripts, ne générer que les types `qcm` et `vrai-faux`.
+
 Avant de générer ou corriger un script, vérifier chaque point :
 
 1. **Import datetime moderne**
+
    ```python
    from datetime import UTC, datetime
    ```
+
    Interdit : `datetime.utcnow()`, `import datetime` seul.
 
 2. **Constantes de chemin SCRIPT_DIR-relatifs**
+
    ```python
    SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
    XXX_OUTPUT_DIR  = os.path.join(SCRIPT_DIR, "<matiere>_<niveau>_quizzes")
    XXX_QUIZ_DIR    = os.path.join(XXX_OUTPUT_DIR, "quiz")
    XXX_ANSWERS_DIR = os.path.join(XXX_OUTPUT_DIR, "quiz_answers")
    ```
+
    Interdit : chemins codés en dur comme `"quizzes"` ou `"answers"`.
 
 3. **datetime ISO 8601 UTC dans make_quiz**
+
    ```python
    "created_at": datetime.now(UTC).isoformat().replace("+00:00", "Z"),
    ```
 
 4. **Dispatch complet dans make_answers**
-   Les trois branches sont obligatoires :
+   Les deux branches valides sont :
+
    ```python
    if q["type"] == "qcm":        → correct_option
    elif q["type"] == "vrai-faux": → correct (bool)
-   else:                          → correct_answer (str)
+   else:                          → raise ValueError(...)
    ```
 
 5. **Type `"vrai-faux"` avec tiret** (jamais `"vrai_faux"`)
@@ -57,7 +75,8 @@ Avant de générer ou corriger un script, vérifier chaque point :
    Si le bloc de commentaire annonce IDs 699–746, 48 tuples doivent être présents.
    Compter avec : `len(quizzes_data)`.
 
-7. **Pipeline write_quiz_files() + if __name__**
+7. **Pipeline write_quiz_files() + if **name\*\*\*\*
+
    ```python
    def write_quiz_files():
        os.makedirs(XXX_QUIZ_DIR, exist_ok=True)
@@ -86,7 +105,7 @@ Avant de générer ou corriger un script, vérifier chaque point :
 Génération des quiz <Matière> <Niveau> – IDs <min>–<max>
 <N> quizzes x 8 questions = <N*8> questions
 Thèmes : <liste thèmes>
-Pattern : qcm, vrai-faux, texte, qcm, vrai-faux, texte, qcm, vrai-faux
+Pattern : qcm, vrai-faux, qcm, vrai-faux, qcm, vrai-faux, qcm, vrai-faux
 """
 
 import json
@@ -131,12 +150,8 @@ def make_answers(qid, title, subject, level, questions):
                 "correct": q["correct"],
                 "explanation": q["explanation"]
             })
-        else:   # texte
-            answers.append({
-                "question_id": q["id"],
-                "correct_answer": q["correct_answer"],
-                "explanation": q["explanation"]
-            })
+        else:
+            raise ValueError(f"Type de question invalide : {q['type']}. Utiliser uniquement 'qcm' ou 'vrai-faux'.")
     return {
         "quiz_id": qid,
         "title": title,
@@ -161,9 +176,10 @@ quizzes_data = [
          "question": "Affirmation vraie ou fausse ?",
          "correct": True,
          "explanation": "Explication pédagogique complète."},
-        {"id": "<ID>_3", "type": "texte",
-         "question": "Réponse courte attendue ?",
-         "correct_answer": "réponse attendue",
+        {"id": "<ID>_3", "type": "qcm",
+         "question": "Question à choix multiples ?",
+         "options": ["Option A", "Option B", "Option C", "Option D"],
+         "correct_option": "Option A",
          "explanation": "Explication pédagogique complète."},
         # … 8 questions par quiz
     ]),
@@ -192,6 +208,7 @@ if __name__ == "__main__":
 ## Structure d'une question par type
 
 ### QCM
+
 ```python
 {"id": "700_1", "type": "qcm",
  "question": "Question à choix multiples ?",
@@ -201,22 +218,13 @@ if __name__ == "__main__":
 ```
 
 ### Vrai-Faux
+
 ```python
 {"id": "700_2", "type": "vrai-faux",
  "question": "Affirmation à valider ou infirmer.",
  "correct": True,   # ou False
  "explanation": "Explication complète et pédagogique."}
 ```
-
-### Texte (réponse courte)
-```python
-{"id": "700_3", "type": "texte",
- "question": "Quel est le terme technique pour … ?",
- "correct_answer": "terme attendu",
- "explanation": "Explication complète et pédagogique."}
-```
-
----
 
 ## Commande de validation après génération
 
@@ -235,10 +243,10 @@ Les deux comptages doivent être égaux à `len(quizzes_data)`.
 
 ## Répartition des IDs dans le projet
 
-| Script | IDs | Matière | Niveau |
-|--------|-----|---------|--------|
-| `generate_svt_3eme.py` | 651–698 | SVT | 3ème |
-| `generate_pc_3eme.py` | 699–746 | Physique-Chimie | 3ème |
-| *(prochain script)* | 747–… | À définir | À définir |
+| Script                 | IDs     | Matière         | Niveau    |
+| ---------------------- | ------- | --------------- | --------- |
+| `generate_svt_3eme.py` | 651–698 | SVT             | 3ème      |
+| `generate_pc_3eme.py`  | 699–746 | Physique-Chimie | 3ème      |
+| _(prochain script)_    | 747–…   | À définir       | À définir |
 
 Toujours vérifier l'ID max existant avant de créer un nouveau script.

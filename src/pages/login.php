@@ -330,12 +330,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !isset($GLOBALS['__login_post_proce
                                         $redirect = 'admin/dashboard_admin';
                                     } elseif ($user_role_now === 'parent' || !empty($_SESSION['parent_id'])) {
                                         $redirect = 'parents/dashboard_parent';
-                                    } elseif (in_array($level_norm_now, ['6eme','5eme','4eme','3eme'], true)) {
-                                        $redirect = 'eleve/college/college-accueil';
-                                    } elseif (in_array($level_norm_now, ['Seconde', 'Premiere', 'Terminale'], true)) {
-                                        $redirect = 'eleve/lycee/lycee-accueil';
-                                    } elseif ($level_norm_now === 'bac') {
-                                        $redirect = 'eleve/bac/bac-accueil';
+                                    } else {
+                                        $redirect = 'eleve/dashboard';
                                     }
 
                                     $_SESSION['__login_last_attempt']['phase'] = 'redirect_immediate';
@@ -466,12 +462,6 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
             $redirect = 'admin/dashboard_admin';
         } elseif ($user_role === 'parent' || !empty($_SESSION['parent_id'])) {
             $redirect = 'parents/dashboard_parent';
-        } elseif (in_array($level_norm, $college_levels)) {
-            $redirect = 'eleve/college/college-accueil';
-        } elseif (in_array($level_norm, $lycee_levels)) {
-            $redirect = 'eleve/lycee/lycee-accueil';
-        } elseif (in_array($level_norm, ['bac'])) {
-            $redirect = 'eleve/bac/bac-accueil';
         } else {
             $redirect = 'eleve/dashboard';
         }

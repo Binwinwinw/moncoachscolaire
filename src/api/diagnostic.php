@@ -112,16 +112,27 @@ try {
         ];
     }
 
-    echo json_encode([
-        'success' => true,
-        'quiz' => $quiz,
-        'count' => count($quiz),
-        'total_pool' => count($allQuiz),
-        'recommendation' => $recommendedQuiz,
-        'history_window' => 'full-history',
-        'level' => $levelNormalized,
-        'subject' => $subject,
-    ], JSON_UNESCAPED_UNICODE);
+    if (isset($_GET['ids_only']) && trim((string) $_GET['ids_only']) === '1') {
+        echo json_encode([
+            'success' => true,
+            'quiz' => $allQuiz,
+            'count' => count($allQuiz),
+            'total_pool' => count($allQuiz),
+            'level' => $levelNormalized,
+            'subject' => $subject,
+        ], JSON_UNESCAPED_UNICODE);
+    } else {
+        echo json_encode([
+            'success' => true,
+            'quiz' => $quiz,
+            'count' => count($quiz),
+            'total_pool' => count($allQuiz),
+            'recommendation' => $recommendedQuiz,
+            'history_window' => 'full-history',
+            'level' => $levelNormalized,
+            'subject' => $subject,
+        ], JSON_UNESCAPED_UNICODE);
+    }
 } catch (Exception $e) {
     http_response_code(500);
     echo json_encode([
@@ -354,6 +365,12 @@ function loadQuizCatalogFromJson(string $quizDir, array $levelCandidates, string
         $contents = isset($payload['contents']) && is_array($payload['contents']) ? $payload['contents'] : [];
         $quiz = isset($payload['quiz']) && is_array($payload['quiz']) ? $payload['quiz'] : [];
 
+        $answersDir = dirname($quizDir) . '/quiz_answers';
+        $answerPath = findQuizAnswersPath($id, $answersDir);
+        if ($answerPath === false) {
+            continue;
+        }
+
         $level = normalizeSchoolLevel((string) ($quiz['level'] ?? $contents['level'] ?? ''));
         if ($level === '' || !isset($levelIndex[$level])) {
             continue;
@@ -409,4 +426,25 @@ function filterRowsWithExistingQuizFile(array $rows, string $quizDir): array
     }
 
     return $filtered;
+}
+
+function findQuizAnswersPath(int $quizId, string $answersDir)
+{
+    if ($answersDir === '') {
+        return false;
+    }
+
+    $candidates = [
+        $answersDir . '/' . $quizId . '.json',
+        $answersDir . '/' . str_pad((string) $quizId, 4, '0', STR_PAD_LEFT) . '.json',
+        $answersDir . '/' . str_pad((string) $quizId, 5, '0', STR_PAD_LEFT) . '.json',
+    ];
+
+    foreach ($candidates as $path) {
+        if (is_file($path)) {
+            return $path;
+        }
+    }
+
+    return false;
 }

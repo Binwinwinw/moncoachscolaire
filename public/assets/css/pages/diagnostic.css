@@ -10,12 +10,17 @@
 .diagnostic-page {
     min-height: 100vh;
     font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-    background: #f8fafc;
+    background: transparent;
+    background-image: url("../img/background-school-material.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .diagnostic-page main {
     animation: fadeIn 0.4s ease-in-out;
-    background: rgba(255, 255, 255, 0.22);
+    background: rgba(255, 255, 255, 0.12);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     border-radius: 1rem;

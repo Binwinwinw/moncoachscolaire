@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (niveauSection)
             niveauSection.style.display = step === 0 ? "" : "none";
         if (matiereSection)
-            matiereSection.style.display = step === 1 ? "" : "none";
+            matiereSection.style.display = step !== 0 ? "" : "none";
         if (randomSection)
             randomSection.style.display = step === 2 ? "" : "none";
     }
@@ -128,73 +128,8 @@ document.addEventListener("DOMContentLoaded", function () {
                         userLevel +
                         " en " +
                         matiere +
-                        " va s'afficher !";
-                // Charger et ouvrir la modale
-                let baseUrl =
-                    typeof window.baseUrl !== "undefined" && window.baseUrl
-                        ? window.baseUrl
-                        : "";
-                if (baseUrl.endsWith("/")) baseUrl = baseUrl.slice(0, -1);
-                let url = `${baseUrl}/index.php?page=api/exercices/get_exercises&action=exercises&level=${encodeURIComponent(userLevel)}&subject=${encodeURIComponent(matiere)}`;
-                fetch(url)
-                    .then((r) =>
-                        r
-                            .clone()
-                            .text()
-                            .then((raw) => {
-                                try {
-                                    return JSON.parse(raw);
-                                } catch (e) {
-                                    throw e;
-                                }
-                            }),
-                    )
-                    .then((data) => {
-                        let exercises = [];
-                        if (Array.isArray(data.exercises))
-                            exercises = data.exercises;
-                        else if (
-                            data.data &&
-                            Array.isArray(data.data.exercises)
-                        )
-                            exercises = data.data.exercises;
-                        if (!exercises.length) {
-                            openCourseModal(
-                                "<div class=\"text-red-600\">Aucun exercice disponible pour cette matière/niveau pour le moment.<br><button class='mt-4 px-4 py-2 bg-blue-600 text-white rounded' onclick='closeCourseModal()'>Essayer une autre matière</button></div>",
-                                "Exercice",
-                            );
-                            return;
-                        }
-                        const ex =
-                            exercises[
-                                Math.floor(Math.random() * exercises.length)
-                            ];
-                        let htmlUrl = `${baseUrl}/index.php?page=api/exercices/get_exercises&action=exercise_html&id=${ex.Id}`;
-                        fetch(htmlUrl)
-                            .then((r2) => r2.json())
-                            .then((data2) => {
-                                let html = data2.html;
-                                if (!html && data2.data && data2.data.html)
-                                    html = data2.data.html;
-                                openCourseModal(
-                                    html ||
-                                        '<div class="text-red-600">Erreur de rendu de l\'exercice.</div>',
-                                    "Exercice",
-                                );
-                            })
-                            .catch(() => {
-                                openCourseModal(
-                                    '<div class="text-red-600">Erreur lors du chargement de l\'exercice.</div>',
-                                    "Exercice",
-                                );
-                            });
-                    })
-                    .catch(() => {
-                        openCourseModal(
-                            '<div class="text-red-600">Erreur lors du chargement des exercices.</div>',
-                            "Exercice",
-                        );
-                    });
+                        " s'affichera ici.";
+                loadRandomExercise(userLevel, matiere);
             });
             matiereList.appendChild(mBtn);
         });
@@ -214,7 +149,9 @@ document.addEventListener("DOMContentLoaded", function () {
         cardContainer.innerHTML =
             '<div class="text-blue-700 text-lg font-semibold py-8">Cliquez sur un niveau scolaire pour découvrir un exercice interactif adapté&nbsp;!</div>';
     }
-    if (matiereSection) matiereSection.classList.add("hidden");
+    if (!window.EXERCICE_USER_LEVEL || !matiereList) {
+        if (matiereSection) matiereSection.classList.add("hidden");
+    }
     if (errorDiv) errorDiv.classList.add("hidden");
 
     // Fonction pour charger un exercice
@@ -330,8 +267,8 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         });
     }
-    if (typeof btnNew !== "undefined" && btnNew) {
-        btnNew.addEventListener("click", function () {
+    if (btnRandom) {
+        btnRandom.addEventListener("click", function () {
             if (userLevel) loadRandomExercise(userLevel, currentSubject);
         });
     }

@@ -51,24 +51,37 @@ if (!isset($decoded['contents']) || !is_array($decoded['contents'])) {
     $decoded['contents'] = [];
 }
 $decoded['contents']['_source'] = 'src/data/quiz/' . $quizIdRaw . '.json';
+$decoded['success'] = true;
 
 if ($includeAnswers) {
-    $answersPath = __DIR__ . '/../data/quiz_answers/' . $quizIdRaw . '.json';
-    $answersDataDir = realpath(__DIR__ . '/../data/quiz_answers');
-    $answersRealPath = realpath($answersPath);
-
-    if (
-        $answersDataDir !== false
-        && $answersRealPath !== false
-        && strpos($answersRealPath, $answersDataDir) === 0
-        && is_file($answersRealPath)
-    ) {
-        $answersContent = file_get_contents($answersRealPath);
-        $answersDecoded = json_decode($answersContent ?: '{}', true);
-        if (is_array($answersDecoded)) {
-            $decoded['answers'] = $answersDecoded['quiz']['answers'] ?? [];
+        $answersPath = findQuizAnswersPath((int) $quizIdRaw, __DIR__ . '/../data/quiz_answers');
+        if ($answersPath !== false) {
+            $answersContent = file_get_contents($answersPath);
+            $answersDecoded = json_decode($answersContent ?: '{}', true);
+            if (is_array($answersDecoded)) {
+                $decoded['answers'] = $answersDecoded['quiz']['answers'] ?? [];
+            }
         }
     }
-}
 
+function findQuizAnswersPath(int $quizId, string $answersDir)
+{
+    if ($answersDir === '') {
+        return false;
+    }
+
+    $candidates = [
+        $answersDir . '/' . $quizId . '.json',
+        $answersDir . '/' . str_pad((string) $quizId, 4, '0', STR_PAD_LEFT) . '.json',
+        $answersDir . '/' . str_pad((string) $quizId, 5, '0', STR_PAD_LEFT) . '.json',
+    ];
+
+    foreach ($candidates as $path) {
+        if (is_file($path)) {
+            return $path;
+        }
+    }
+
+    return false;
+}
 echo json_encode($decoded, JSON_UNESCAPED_UNICODE);

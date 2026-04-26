@@ -98,6 +98,45 @@ def make_quiz(qid, title, subject, level, questions,
                 "question": str(question.get("question", "")),
                 "choices": list(question.get("options", [])),
             })
+        else:
+            question_text = str(question.get("question", ""))
+            if raw_type not in {"vrai-faux", "vrai faux"}:
+                question_text = build_true_false_statement(
+                    question.get("question", ""),
+                    question.get("correct_answer", ""),
+                    question.get("explanation", ""),
+                )
+            quiz_questions.append({
+                "type": "vrai-faux",
+                "question": question_text,
+            })
+
+    return {
+        "contents": {
+            "title": f"Quiz Diagnostic {subject} {level} - Série {qid}",
+            "type": "quiz",
+            "level": level,
+            "subject": subject,
+            "description": f"Diagnostic {subject} {level} : {title}",
+            "status": "published",
+            "created_at": created_at,
+            "updated_at": created_at,
+            "source": source,
+            "programme_ref": programme_ref,
+        },
+        "quiz": {
+            "title": title,
+            "type": "quiz",
+            "level": level,
+            "subject": subject,
+            "question_count": len(quiz_questions),
+            "passing_score": 70,
+            "time_limit_minutes": 15,
+            "questions": quiz_questions,
+        },
+        "exercisenotion": [],
+        "exerciseresponses": [],
+    }
 
 
 def make_answers(qid, title, subject, level, questions):
@@ -388,11 +427,11 @@ quizzes_data = [
     )
     ,
     (    1656,
-        "Diagnostic 2nde Français - Narration et temps verbaux",
+        "Diagnostic 2nde Français - Narration et temps des verbes",
         "Français",
         "2nde",
         [
-            {"id": "1656_1", "type": "qcm", "question": "Quel temps verbal exprime une action achevée dans le passé ?", "options": ["Imparfait", "Passé simple", "Présent", "Futur"], "correct_option": "Passé simple", "explanation": "Le passé simple marque l'action ponctuelle et terminée dans le récit."},
+            {"id": "1656_1", "type": "qcm", "question": "Quel temps utiliser pour exprimer une action achevée dans le passé ?", "options": ["Imparfait", "Passé simple", "Présent", "Futur"], "correct_option": "Passé simple", "explanation": "Le passé simple marque l'action ponctuelle et terminée dans le récit."},
             {"id": "1656_2", "type": "vrai-faux", "question": "L'imparfait sert à décrire le cadre ou une action habituelle.", "correct": True, "explanation": "L'imparfait pose l'arrière-plan du récit."},
             {"id": "1656_3", "type": "qcm", "question": "Quel temps verbal utilise-t-on pour une action antérieure à une autre action passée ?", "options": ["Imparfait", "Plus-que-parfait", "Présent", "Futur antérieur"], "correct_option": "Plus-que-parfait", "explanation": "Le plus-que-parfait exprime l'antériorité dans le passé."},
             {"id": "1656_4", "type": "vrai-faux", "question": "Le présent de narration actualise une scène passée.", "correct": True, "explanation": "Il donne un effet de direct et de vivacité."},
@@ -605,7 +644,7 @@ quizzes_data = [
         [
             {"id": "1669_1", "type": "qcm", "question": "Quel niveau de langue utilise 'enfant' pour 'gamin' ?", "options": ["Soutenu", "Courant", "Familier", "Poétique"], "correct_option": "Courant", "explanation": "'Enfant' est le terme courant, 'gamin' est familier."},
             {"id": "1669_2", "type": "vrai-faux", "question": "Le niveau soutenu s'utilise dans les textes littéraires.", "correct": True, "explanation": "Le niveau soutenu est attendu dans la littérature classique ou formelle."},
-            {"id": "1669_3", "type": "qcm", "question": "Quel mot appartient au niveau familier ?", "options": ["Maman", "Mère", "Môman", "Maman"], "correct_option": "Môman", "explanation": "'Môman' est une déformation familière de 'maman'."},
+            {"id": "1669_3", "type": "qcm", "question": "Quel mot appartient au niveau familier ?", "options": ["Maman", "Mère", "Môman", "Papa"], "correct_option": "Môman", "explanation": "'Môman' est une déformation familière de 'maman'."},
             {"id": "1669_4", "type": "qcm", "question": "Dans quel contexte emploie-t-on le niveau courant ?", "options": ["Lettre officielle", "Discussion quotidienne", "Poème", "Discours politique"], "correct_option": "Discussion quotidienne", "explanation": "Le niveau courant est utilisé dans la vie de tous les jours."},
             {"id": "1669_5", "type": "vrai-faux", "question": "Le niveau familier est à éviter dans un écrit scolaire.", "correct": True, "explanation": "Il faut privilégier le niveau courant ou soutenu à l'écrit."},
             {"id": "1669_6", "type": "qcm", "question": "Quel synonyme de 'voiture' relève du niveau familier ?", "options": ["Bagnole", "Automobile", "Véhicule", "Cabriolet"], "correct_option": "Bagnole", "explanation": "'Bagnole' est un terme familier pour 'voiture'."},
@@ -644,72 +683,297 @@ quizzes_data = [
             {"id": "1671_7", "type": "qcm", "question": "Quelle conjonction introduit une subordonnée de comparaison ?", "options": ["Comme", "Quand", "Si", "Mais"], "correct_option": "Comme", "explanation": "'Comme' introduit la comparaison."},
             {"id": "1671_8", "type": "vrai-faux", "question": "Une subordonnée circonstancielle peut être supprimée sans changer le sens principal.", "correct": True, "explanation": "Elle apporte une précision mais n'est pas toujours essentielle au sens principal."}
             ]
-        ),
-        (
+    ),
+    (
         1672,
-                "Diagnostic 2nde Français - Les expansions du nom",
-                "Français",
-                "2nde",
-                [
-                    {"id": "1672_1", "type": "qcm", "question": "Quel groupe de mots est une expansion du nom ?", "options": ["Le chat noir", "Il court vite", "Elle chante", "Nous partons"], "correct_option": "Le chat noir", "explanation": "'Noir' est une expansion du nom 'chat'."},
-                    {"id": "1672_2", "type": "vrai-faux", "question": "L'adjectif qualificatif est une expansion du nom.", "correct": True, "explanation": "Il précise le nom."},
-                    {"id": "1672_3", "type": "qcm", "question": "Quel type d'expansion est 'de Paris' dans 'la tour de Paris' ?", "options": ["Adjectif", "Complément du nom", "Proposition subordonnée", "Verbe"], "correct_option": "Complément du nom", "explanation": "'de Paris' précise le nom 'tour'."},
-                    {"id": "1672_4", "type": "qcm", "question": "Quel type d'expansion est 'qui chante' dans 'l'oiseau qui chante' ?", "options": ["Adjectif", "Complément du nom", "Proposition subordonnée relative", "Verbe"], "correct_option": "Proposition subordonnée relative", "explanation": "'qui chante' est une relative qui précise 'oiseau'."},
-                    {"id": "1672_5", "type": "vrai-faux", "question": "Les expansions du nom enrichissent la phrase.", "correct": True, "explanation": "Elles apportent des précisions et des nuances."},
-                    {"id": "1672_6", "type": "qcm", "question": "Quel mot n'est pas une expansion du nom ?", "options": ["Adjectif", "Verbe", "Complément du nom", "Proposition subordonnée relative"], "correct_option": "Verbe", "explanation": "Le verbe n'est pas une expansion du nom."},
-                    {"id": "1672_7", "type": "qcm", "question": "Quel type d'expansion est 'gentil' dans 'un garçon gentil' ?", "options": ["Adjectif", "Complément du nom", "Proposition subordonnée relative", "Verbe"], "correct_option": "Adjectif", "explanation": "'Gentil' précise le nom 'garçon'."},
-                    {"id": "1672_8", "type": "vrai-faux", "question": "Les expansions du nom sont toujours placées avant le nom.", "correct": False, "explanation": "Elles peuvent être placées avant ou après le nom."}
-                ]
-            ),
-            (
-                1673,
-                "Diagnostic 2nde Français - Les propositions subordonnées relatives",
-                "Français",
-                "2nde",
-                [
-                    {"id": "1673_1", "type": "qcm", "question": "Quel pronom relatif introduit une subordonnée relative ?", "options": ["Qui", "Mais", "Ou", "Donc"], "correct_option": "Qui", "explanation": "'Qui' est un pronom relatif classique."},
-                    {"id": "1673_2", "type": "vrai-faux", "question": "'Que', 'dont', 'où' sont aussi des pronoms relatifs.", "correct": True, "explanation": "Ils introduisent des relatives."},
-                    {"id": "1673_3", "type": "qcm", "question": "Dans 'Le livre que tu lis', 'que tu lis' est :", "options": ["Une proposition subordonnée relative", "Un adjectif", "Un verbe", "Un complément du nom"], "correct_option": "Une proposition subordonnée relative", "explanation": "Elle précise le nom 'livre'."},
-                    {"id": "1673_4", "type": "qcm", "question": "Quel est le rôle de la subordonnée relative ?", "options": ["Préciser un nom", "Remplacer un verbe", "Introduire une cause", "Exprimer une conséquence"], "correct_option": "Préciser un nom", "explanation": "La relative apporte une précision sur le nom."},
-                    {"id": "1673_5", "type": "vrai-faux", "question": "La subordonnée relative peut être supprimée sans changer le sens principal.", "correct": True, "explanation": "Elle apporte une précision mais n'est pas toujours essentielle."},
-                    {"id": "1673_6", "type": "qcm", "question": "Quel pronom relatif complète la phrase : 'La maison ___ j'habite' ?", "options": ["Où", "Mais", "Ou", "Donc"], "correct_option": "Où", "explanation": "'Où' indique le lieu."},
-                    {"id": "1673_7", "type": "qcm", "question": "Quel pronom relatif complète la phrase : 'L'élève ___ le professeur félicite' ?", "options": ["Que", "Qui", "Où", "Dont"], "correct_option": "Que", "explanation": "'Que' est COD du verbe 'félicite'."},
-                    {"id": "1673_8", "type": "vrai-faux", "question": "La subordonnée relative commence toujours par 'qui'.", "correct": False, "explanation": "Elle peut commencer par 'que', 'dont', 'où', etc."}
-                ]
-            ),
-            (
-                1674,
-                "Diagnostic 2nde Français - Les connecteurs temporels",
-                "Français",
-                "2nde",
-                [
-                    {"id": "1674_1", "type": "qcm", "question": "Quel connecteur exprime la simultanéité ?", "options": ["Quand", "Après", "Avant", "Depuis"], "correct_option": "Quand", "explanation": "'Quand' exprime que deux actions se passent en même temps."},
-                    {"id": "1674_2", "type": "vrai-faux", "question": "'Après' exprime la postériorité.", "correct": True, "explanation": "'Après' indique qu'une action suit une autre."},
-                    {"id": "1674_3", "type": "qcm", "question": "Quel connecteur exprime l'antériorité ?", "options": ["Avant", "Après", "Quand", "Depuis"], "correct_option": "Avant", "explanation": "'Avant' indique qu'une action précède une autre."},
-                    {"id": "1674_4", "type": "qcm", "question": "Quel connecteur exprime la durée ?", "options": ["Depuis", "Avant", "Après", "Quand"], "correct_option": "Depuis", "explanation": "'Depuis' exprime la durée d'une action commencée dans le passé."},
-                    {"id": "1674_5", "type": "vrai-faux", "question": "'Quand' peut exprimer la condition.", "correct": False, "explanation": "'Quand' exprime le temps, pas la condition."},
-                    {"id": "1674_6", "type": "qcm", "question": "Quel connecteur exprime la succession ?", "options": ["Après", "Avant", "Quand", "Depuis"], "correct_option": "Après", "explanation": "'Après' indique qu'une action suit une autre."},
-                    {"id": "1674_7", "type": "qcm", "question": "Quel connecteur exprime la cause ?", "options": ["Parce que", "Quand", "Après", "Avant"], "correct_option": "Parce que", "explanation": "'Parce que' exprime la cause d'une action."},
-                    {"id": "1674_8", "type": "vrai-faux", "question": "'Depuis' exprime la simultanéité.", "correct": False, "explanation": "'Depuis' exprime la durée, pas la simultanéité."}
-                ]
-            ),
-            (
-                1675,
-                "Diagnostic 2nde Français - Les phrases complexes",
-                "Français",
-                "2nde",
-                [
-                    {"id": "1675_1", "type": "qcm", "question": "Qu'est-ce qu'une phrase complexe ?", "options": ["Une phrase avec plusieurs propositions", "Une phrase très longue", "Une phrase avec beaucoup d'adjectifs", "Une phrase interrogative"], "correct_option": "Une phrase avec plusieurs propositions", "explanation": "La phrase complexe associe plusieurs propositions."},
-                    {"id": "1675_2", "type": "vrai-faux", "question": "Une phrase complexe peut contenir des subordonnées.", "correct": True, "explanation": "Les subordonnées sont une des formes de la complexité."},
-                    {"id": "1675_3", "type": "qcm", "question": "Quel type de proposition n'est pas subordonnée ?", "options": ["Indépendante", "Relative", "Conjonctive", "Circonstancielle"], "correct_option": "Indépendante", "explanation": "La proposition indépendante n'est pas subordonnée à une autre."},
-                    {"id": "1675_4", "type": "qcm", "question": "Quel mot relie deux propositions indépendantes ?", "options": ["Mais", "Qui", "Que", "Dont"], "correct_option": "Mais", "explanation": "'Mais' est une conjonction de coordination."},
-                    {"id": "1675_5", "type": "vrai-faux", "question": "Une phrase complexe peut être formée par juxtaposition.", "correct": True, "explanation": "La juxtaposition est une des façons d'associer des propositions."},
-                    {"id": "1675_6", "type": "qcm", "question": "Quel signe de ponctuation peut séparer deux propositions juxtaposées ?", "options": ["Virgule", "Point-virgule", "Deux-points", "Tous"], "correct_option": "Tous", "explanation": "Tous ces signes peuvent séparer des propositions juxtaposées."},
-                    {"id": "1675_7", "type": "qcm", "question": "Quel type de proposition commence par 'si' ?", "options": ["Subordonnée conditionnelle", "Relative", "Indépendante", "Circonstancielle"], "correct_option": "Subordonnée conditionnelle", "explanation": "'Si' introduit la condition."},
-                    {"id": "1675_8", "type": "vrai-faux", "question": "Une phrase complexe ne peut jamais être réduite à une phrase simple.", "correct": False, "explanation": "On peut parfois simplifier une phrase complexe."}
-                ]
-            ),
-
+        "Diagnostic 2nde Français - Les expansions du nom",
+        "Français",
+        "2nde",
+        [
+            {"id": "1672_1", "type": "qcm", "question": "Quel groupe de mots est une expansion du nom ?", "options": ["Le chat noir", "Il court vite", "Elle chante", "Nous partons"], "correct_option": "Le chat noir", "explanation": "'Noir' est une expansion du nom 'chat'."},
+            {"id": "1672_2", "type": "vrai-faux", "question": "L'adjectif qualificatif est une expansion du nom.", "correct": True, "explanation": "Il précise le nom."},
+            {"id": "1672_3", "type": "qcm", "question": "Quel type d'expansion est 'de Paris' dans 'la tour de Paris' ?", "options": ["Adjectif", "Complément du nom", "Proposition subordonnée", "Verbe"], "correct_option": "Complément du nom", "explanation": "'de Paris' précise le nom 'tour'."},
+            {"id": "1672_4", "type": "qcm", "question": "Quel type d'expansion est 'qui chante' dans 'l'oiseau qui chante' ?", "options": ["Adjectif", "Complément du nom", "Proposition subordonnée relative", "Verbe"], "correct_option": "Proposition subordonnée relative", "explanation": "'qui chante' est une relative qui précise 'oiseau'."},
+            {"id": "1672_5", "type": "vrai-faux", "question": "Les expansions du nom enrichissent la phrase.", "correct": True, "explanation": "Elles apportent des précisions et des nuances."},
+            {"id": "1672_6", "type": "qcm", "question": "Quel mot n'est pas une expansion du nom ?", "options": ["Adjectif", "Verbe", "Complément du nom", "Proposition subordonnée relative"], "correct_option": "Verbe", "explanation": "Le verbe n'est pas une expansion du nom."},
+            {"id": "1672_7", "type": "qcm", "question": "Quel type d'expansion est 'gentil' dans 'un garçon gentil' ?", "options": ["Adjectif", "Complément du nom", "Proposition subordonnée relative", "Verbe"], "correct_option": "Adjectif", "explanation": "'Gentil' précise le nom 'garçon'."},
+            {"id": "1672_8", "type": "vrai-faux", "question": "Les expansions du nom sont toujours placées avant le nom.", "correct": False, "explanation": "Elles peuvent être placées avant ou après le nom."}
+        ]
+    ),
+    (
+        1673,
+        "Diagnostic 2nde Français - Les propositions subordonnées relatives",
+        "Français",
+        "2nde",
+        [
+            {"id": "1673_1", "type": "qcm", "question": "Quel pronom relatif introduit une subordonnée relative ?", "options": ["Qui", "Mais", "Ou", "Donc"], "correct_option": "Qui", "explanation": "'Qui' est un pronom relatif classique."},
+            {"id": "1673_2", "type": "vrai-faux", "question": "'Que', 'dont', 'où' sont aussi des pronoms relatifs.", "correct": True, "explanation": "Ils introduisent des relatives."},
+            {"id": "1673_3", "type": "qcm", "question": "Dans 'Le livre que tu lis', 'que tu lis' est :", "options": ["Une proposition subordonnée relative", "Un adjectif", "Un verbe", "Un complément du nom"], "correct_option": "Une proposition subordonnée relative", "explanation": "Elle précise le nom 'livre'."},
+            {"id": "1673_4", "type": "qcm", "question": "Quel est le rôle de la subordonnée relative ?", "options": ["Préciser un nom", "Remplacer un verbe", "Introduire une cause", "Exprimer une conséquence"], "correct_option": "Préciser un nom", "explanation": "La relative apporte une précision sur le nom."},
+            {"id": "1673_5", "type": "vrai-faux", "question": "La subordonnée relative peut être supprimée sans changer le sens principal.", "correct": True, "explanation": "Elle apporte une précision mais n'est pas toujours essentielle."},
+            {"id": "1673_6", "type": "qcm", "question": "Quel pronom relatif complète la phrase : 'La maison ___ j'habite' ?", "options": ["Où", "Mais", "Ou", "Donc"], "correct_option": "Où", "explanation": "'Où' indique le lieu."},
+            {"id": "1673_7", "type": "qcm", "question": "Quel pronom relatif complète la phrase : 'L'élève ___ le professeur félicite' ?", "options": ["Que", "Qui", "Où", "Dont"], "correct_option": "Que", "explanation": "'Que' est COD du verbe 'félicite'."},
+            {"id": "1673_8", "type": "vrai-faux", "question": "La subordonnée relative commence toujours par 'qui'.", "correct": False, "explanation": "Elle peut commencer par 'que', 'dont', 'où', etc."}
+        ]
+    ),
+    (
+        1674,
+        "Diagnostic 2nde Français - Les connecteurs temporels",
+        "Français",
+        "2nde",
+        [
+            {"id": "1674_1", "type": "qcm", "question": "Quel connecteur exprime la simultanéité ?", "options": ["Quand", "Après", "Avant", "Depuis"], "correct_option": "Quand", "explanation": "'Quand' exprime que deux actions se passent en même temps."},
+            {"id": "1674_2", "type": "vrai-faux", "question": "'Après' exprime la postériorité.", "correct": True, "explanation": "'Après' indique qu'une action suit une autre."},
+            {"id": "1674_3", "type": "qcm", "question": "Quel connecteur exprime l'antériorité ?", "options": ["Avant", "Après", "Quand", "Depuis"], "correct_option": "Avant", "explanation": "'Avant' indique qu'une action précède une autre."},
+            {"id": "1674_4", "type": "qcm", "question": "Quel connecteur exprime la durée ?", "options": ["Depuis", "Avant", "Après", "Quand"], "correct_option": "Depuis", "explanation": "'Depuis' exprime la durée d'une action commencée dans le passé."},
+            {"id": "1674_5", "type": "vrai-faux", "question": "'Quand' peut exprimer la condition.", "correct": False, "explanation": "'Quand' exprime le temps, pas la condition."},
+            {"id": "1674_6", "type": "qcm", "question": "Quel connecteur exprime la succession ?", "options": ["Après", "Avant", "Quand", "Depuis"], "correct_option": "Après", "explanation": "'Après' indique qu'une action suit une autre."},
+            {"id": "1674_7", "type": "qcm", "question": "Quel connecteur exprime la cause ?", "options": ["Parce que", "Quand", "Après", "Avant"], "correct_option": "Parce que", "explanation": "'Parce que' exprime la cause d'une action."},
+            {"id": "1674_8", "type": "vrai-faux", "question": "'Depuis' exprime la simultanéité.", "correct": False, "explanation": "'Depuis' exprime la durée, pas la simultanéité."}
+        ]
+    ),
+    (
+        1675,
+        "Diagnostic 2nde Français - Les phrases complexes",
+        "Français",
+        "2nde",
+        [
+            {"id": "1675_1", "type": "qcm", "question": "Qu'est-ce qu'une phrase complexe ?", "options": ["Une phrase avec plusieurs propositions", "Une phrase très longue", "Une phrase avec beaucoup d'adjectifs", "Une phrase interrogative"], "correct_option": "Une phrase avec plusieurs propositions", "explanation": "La phrase complexe associe plusieurs propositions."},
+            {"id": "1675_2", "type": "vrai-faux", "question": "Une phrase complexe peut contenir des subordonnées.", "correct": True, "explanation": "Les subordonnées sont une des formes de la complexité."},
+            {"id": "1675_3", "type": "qcm", "question": "Quel type de proposition n'est pas subordonnée ?", "options": ["Indépendante", "Relative", "Conjonctive", "Circonstancielle"], "correct_option": "Indépendante", "explanation": "La proposition indépendante n'est pas subordonnée à une autre."},
+            {"id": "1675_4", "type": "qcm", "question": "Quel mot relie deux propositions indépendantes ?", "options": ["Mais", "Qui", "Que", "Dont"], "correct_option": "Mais", "explanation": "'Mais' est une conjonction de coordination."},
+            {"id": "1675_5", "type": "vrai-faux", "question": "Une phrase complexe peut être formée par juxtaposition.", "correct": True, "explanation": "La juxtaposition est une des façons d'associer des propositions."},
+            {"id": "1675_6", "type": "qcm", "question": "Quel signe de ponctuation peut séparer deux propositions juxtaposées ?", "options": ["Virgule", "Point-virgule", "Deux-points", "Tous"], "correct_option": "Tous", "explanation": "Tous ces signes peuvent séparer des propositions juxtaposées."},
+            {"id": "1675_7", "type": "qcm", "question": "Quel type de proposition commence par 'si' ?", "options": ["Subordonnée conditionnelle", "Relative", "Indépendante", "Circonstancielle"], "correct_option": "Subordonnée conditionnelle", "explanation": "'Si' introduit la condition."},
+            {"id": "1675_8", "type": "vrai-faux", "question": "Une phrase complexe ne peut jamais être réduite à une phrase simple.", "correct": False, "explanation": "On peut parfois simplifier une phrase complexe."}
+        ]
+    ),
+    (
+        1676,
+        "Diagnostic 2nde Français - Les figures de style",
+        "Français",
+        "2nde",
+        [
+            {"id": "1676_1", "type": "qcm", "question": "Quelle figure de style consiste à comparer deux éléments sans utiliser de mot de comparaison ?", "options": ["Métaphore", "Comparaison", "Personnification", "Hyperbole"], "correct_option": "Métaphore", "explanation": "La métaphore établit une relation d'identité entre deux éléments sans mot de comparaison."},
+            {"id": "1676_2", "type": "vrai-faux", "question": "La comparaison utilise des mots comme 'comme', 'tel', 'ainsi que'.", "correct": True, "explanation": "Ces mots introduisent la comparaison."},
+            {"id": "1676_3", "type": "qcm", "question": "Quelle figure de style attribue des caractéristiques humaines à un objet ou un animal ?", "options": ["Personnification", "Métaphore", "Comparaison", "Hyperbole"], "correct_option": "Personnification", "explanation": "La personnification donne des traits humains à des éléments inanimés."},
+            {"id": "1676_4", "type": "qcm", "question": "Quelle figure de style consiste à exagérer une idée pour la mettre en valeur ?", "options": ["Hyperbole", "Comparaison", "Personnification", "Métaphore"], "correct_option": "Hyperbole", "explanation": "L'hyperbole amplifie une réalité pour créer un effet fort."},
+            {"id": "1676_5", "type": "vrai-faux", "question": "La métaphore est une comparaison implicite.", "correct": True, "explanation": "Elle établit une relation d'identité sans mot de comparaison."},
+            {"id": "1676_6", "type": "qcm", "question": "Quelle figure de style utilise 'comme' pour établir une ressemblance ?", "options": ["Comparaison", "Métaphore", "Personnification", "Hyperbole"], "correct_option": "Comparaison", "explanation": "'Comme' est un mot de comparaison classique."},
+            {"id": "1676_7", "type": "qcm", "question": "Quelle figure de style attribue des qualités humaines à la nature ?", "options": ["Personnification", "Métaphore", "Comparaison", "Hyperbole"], "correct_option": "Personnification", "explanation": "La personnification est souvent utilisée pour donner vie à la nature."},
+            {"id": "1676_8", "type": "vrai-faux", "question": "L'hyperbole est une figure de style qui minimise une idée.", "correct": False, "explanation": "L'hyperbole exagère une idée pour créer un effet fort."}
+        ]
+    ),
+    (   1677,
+        "Diagnostic 2nde Français - Les types de phrases",
+        "Français",
+        "2nde",
+        [
+            {"id": "1677_1", "type": "qcm", "question": "Quel type de phrase utilise-t-on pour faire une déclaration ?", "options": ["Déclarative", "Interrogative", "Impérative", "Exclamative"], "correct_option": "Déclarative", "explanation": "La phrase déclarative sert à énoncer un fait ou une opinion."},
+            {"id": "1677_2", "type": "vrai-faux", "question": "La phrase interrogative sert à poser une question.", "correct": True, "explanation": "Elle peut être directe ou indirecte."},
+            {"id": "1677_3", "type": "qcm", "question": "Quel type de phrase utilise-t-on pour exprimer une émotion forte ?", "options": ["Déclarative", "Interrogative", "Impérative", "Exclamative"], "correct_option": "Exclamative", "explanation": "La phrase exclamative exprime une émotion intense."},
+            {"id": "1677_4", "type": "qcm", "question": "Quel type de phrase utilise-t-on pour donner un ordre ?", "options": ["Déclarative", "Interrogative", "Impérative", "Exclamative"], "correct_option": "Impérative", "explanation": "La phrase impérative sert à ordonner ou conseiller."},
+            {"id": "1677_5", "type": "vrai-faux", "question": "'Pourquoi' est un mot qui introduit une phrase interrogative.", "correct": True, "explanation": "'Pourquoi' est un mot interrogatif classique."},
+            {"id": "1677_6", "type": "qcm", "question": "'Quelle belle journée !' est une phrase de quel type ?", "options": ["Déclarative", "Interrogative", "Impérative", "Exclamative"], "correct_option": "Exclamative", "explanation": "'Quelle belle journée !' exprime une émotion forte."},
+            {"id": "1677_7", "type": "qcm", "question": "'Ferme la porte.' est une phrase de quel type ?", "options": ["Déclarative", "Interrogative", "Impérative", "Exclamative"], "correct_option": "Impérative", "explanation": "'Ferme la porte.' donne un ordre."},
+            {"id": "1677_8", "type": "vrai-faux", "question": "La phrase déclarative peut être affirmative ou négative.", "correct": True, "explanation": "Elle peut énoncer une affirmation ou une négation."}
+        ]
+    ),
+    (   1678,
+        "Diagnostic 2nde Français - Les connecteurs logiques",
+        "Français",
+        "2nde",
+        [
+            {"id": "1678_1", "type": "qcm", "question": "Quel connecteur exprime l'addition ?", "options": ["Et", "Mais", "Ou", "Donc"], "correct_option": "Et", "explanation": "'Et' ajoute des éléments."},
+            {"id": "1678_2", "type": "vrai-faux", "question": "'Mais' exprime l'opposition.", "correct": True, "explanation": "'Mais' introduit une idée contraire."},
+            {"id": "1678_3", "type": "qcm", "question": "Quel connecteur exprime l'alternative ?", "options": ["Ou", "Et", "Mais", "Donc"], "correct_option": "Ou", "explanation": "'Ou' propose une alternative."},
+            {"id": "1678_4", "type": "qcm", "question": "Quel connecteur exprime la conséquence ?", "options": ["Donc", "Et", "Mais", "Ou"], "correct_option": "Donc", "explanation": "'Donc' introduit une conséquence logique."},
+            {"id": "1678_5", "type": "vrai-faux", "question": "'Parce que' est un connecteur logique qui exprime la cause.", "correct": True, "explanation": "'Parce que' explique la raison d'une action."},
+            {"id": "1678_6", "type": "qcm", "question": "'Cependant' exprime :", "options": ["L'opposition", "L'addition", "La conséquence", "L'alternative"], "correct_option": "L'opposition", "explanation": "'Cependant' marque une opposition ou une restriction."},
+            {"id": "1678_7", "type": "qcm", "question": "'En effet' exprime :", "options": ["La cause", "L'addition", "La conséquence", "L'alternative"], "correct_option": "La cause", "explanation": "'En effet' confirme ou explique une affirmation précédente."},
+            {"id": "1678_8", "type": "vrai-faux", "question": "'Ou' exprime l'addition.", "correct": False, "explanation": "'Ou' exprime une alternative, pas une addition."}
+            ]
+    ),
+    (   1679,
+        "Diagnostic 2nde Français - Les champs lexicaux",
+        "Français",
+        "2nde",
+        [
+            {"id": "1679_1", "type": "qcm", "question": "Quel champ lexical domine dans : 'Océan, vague, marée, plage' ?", "options": ["La mer", "La montagne", "La ville", "La campagne"], "correct_option": "La mer", "explanation": "Tous ces mots appartiennent au champ lexical de la mer."},
+            {"id": "1679_2", "type": "vrai-faux", "question": "Le champ lexical regroupe des mots liés à un même thème.", "correct": True, "explanation": "Il permet d'identifier les thèmes et les atmosphères d'un texte."},
+            {"id": "1679_3", "type": "qcm", "question": "Quel champ lexical domine dans : 'Forêt, arbre, feuille, racine' ?", "options": ["La forêt", "La mer", "La ville", "La campagne"], "correct_option": "La forêt", "explanation": "Tous ces mots appartiennent au champ lexical de la forêt."},
+            {"id": "1679_4", "type": "qcm", "question": "Quel champ lexical domine dans : 'École, professeur, élève, classe' ?", "options": ["L'école", "Le travail", "La famille", "Le sport"], "correct_option": "L'école", "explanation": "Tous ces mots appartiennent au champ lexical de l'école."},
+            {"id": "1679_5", "type": "vrai-faux", "question": "'Amour', 'passion', 'cœur' font partie du même champ lexical.", "correct": True, "explanation": "'Amour', 'passion', 'cœur' sont liés au thème de l'amour."},
+            {"id": "1679_6", "type": "qcm", "question": "Quel champ lexical domine dans : 'Voiture, route, voyage, destination' ?", "options": ["Le voyage", "Le sport", "La cuisine", "La musique"], "correct_option": "Le voyage", "explanation": "Tous ces mots sont liés au thème du voyage."},
+            {"id": "1679_7", "type": "qcm", "question": "'Soleil', 'lune', 'étoile' font partie du même champ lexical.", "options": ["Le ciel", "La mer", "La terre", "La ville"], "correct_option": "Le ciel", "explanation": "'Soleil', 'lune', 'étoile' sont liés au thème du ciel."},
+            {"id": "1679_8", "type": "vrai-faux", "question": "Le champ lexical permet d'analyser les thèmes d'un texte.", "correct": True, "explanation": "Il aide à comprendre les thèmes et les ambiances d'un texte."}
+        ]
+    ),
+    (   1680,
+        "Diagnostic 2nde Français - Les registres littéraires",
+        "Français",
+        "2nde",
+        [
+            {"id": "1680_1", "type": "qcm", "question": "Quel registre littéraire est caractérisé par l'exagération et le comique ?", "options": ["Comique", "Tragique", "Lyrique", "Épique"], "correct_option": "Comique", "explanation": "Le registre comique vise à faire rire ou sourire."},
+            {"id": "1680_2", "type": "vrai-faux", "question": "Le registre tragique met en scène des personnages confrontés à des forces supérieures.", "correct": True, "explanation": "Il exprime la fatalité et la souffrance."},
+            {"id": "1680_3", "type": "qcm", "question": "Quel registre littéraire est caractérisé par l'expression des sentiments personnels ?", "options": ["Lyrique", "Comique", "Tragique", "Épique"], "correct_option": "Lyrique", "explanation": "Le registre lyrique exprime les émotions intimes."},
+            {"id": "1680_4", "type": "qcm", "question": "Quel registre littéraire est caractérisé par la mise en valeur des exploits héroïques ?", "options": ["Épique", "Comique", "Tragique", "Lyrique"], "correct_option": "Épique", "explanation": "Le registre épique célèbre les exploits et les héros."},
+            {"id": "1680_5", "type": "vrai-faux", "question": "'Satirique' est un registre littéraire qui critique les travers de la société.", "correct": True, "explanation": "'Satirique' utilise l'humour pour dénoncer les défauts sociaux."},
+            {"id": "1680_6", "type": "qcm", "question": "'Dramatique' est un synonyme de quel registre ?", "options": ["Tragique", "Comique", "Lyrique", "Épique"], "correct_option": "Tragique", "explanation": "'Dramatique' est souvent associé au tragique en raison de son intensité émotionnelle."},
+            {"id": "1680_7", "type": "qcm", "question": "'Romantique' est un synonyme de quel registre ?", "options": ["Lyrique", "Comique", "Tragique", "Épique"],"correct_option": "Lyrique", "explanation": "'Romantique' est souvent associé au registre lyrique en raison de l'expression des émotions et des sentiments."},
+            {"id": "1680_8", "type": "vrai-faux", "question": "Le registre épique met en scène des exploits héroïques et des actions grandioses.", "correct": True, "explanation": "Le registre épique valorise les exploits et l'héroïsme dans un ton exalté."}
+        ]
+    ),
+    (   1681,
+        "Diagnostic 2nde Français - Les homonymes et paronymes",
+        "Français",
+        "2nde",
+        [
+            {"id": "1681_1", "type": "qcm", "question": "Quel mot est un homonyme de 'verre' ?", "options": ["Vers", "Vert", "Ver", "Vair"], "correct_option": "Vers", "explanation": "'Verre' et 'vers' se prononcent pareil mais n'ont pas le même sens."},
+            {"id": "1681_2", "type": "vrai-faux", "question": "'Mère' et 'mer' sont des homonymes.", "correct": True, "explanation": "'Mère' et 'mer' se prononcent pareil mais n'ont pas le même sens."},
+            {"id": "1681_3", "type": "qcm", "question": "Quel mot est un homonyme de 'sang' ?", "options": ["Sans", "Cent", "Sang", "S'en"], "correct_option": "Sans", "explanation": "'Sang' et 'sans' se prononcent pareil mais n'ont pas le même sens."},
+            {"id": "1681_4", "type": "qcm", "question": "'Cousin' et 'coussin' sont des :", "options": ["Homonymes", "Paronymes", "Synonymes", "Antonymes"],"correct_option": "Paronymes", "explanation": "'Cousin' et 'coussin' se ressemblent mais n'ont pas le même sens."},
+            {"id": "1681_5", "type": "vrai-faux", "question": "'Coller' et 'colle' sont des homonymes.", "correct": True, "explanation": "'Coller' (verbe) et 'colle' (nom) se prononcent pareil mais n'ont pas le même sens."},
+            {"id": "1681_6", "type": "qcm", "question": "Quel mot est un homonyme de 'lait' ?", "options": ["Laid", "Laitue", "Laiton", "Laisse"], "correct_option": "Laid", "explanation": "'Lait' et 'laid' se prononcent pareil mais n'ont pas le même sens."},
+            {"id": "1681_7", "type": "qcm", "question": "'Émigré' et 'immigré' sont des :", "options": ["Homonymes", "Paronymes", "Synonymes", "Antonymes"], "correct_option": "Paronymes", "explanation": "'Émigré' et 'immigré' se ressemblent mais ont des sens différents."},
+            {"id": "1681_8", "type": "vrai-faux", "question": "'Soleil' et 'soleille' sont des homonymes.", "correct": False, "explanation": "'Soleil' et 'soleille' ne sont pas des homonymes, ils ne se prononcent pas de la même manière."}
+        ]
+    ),
+    (   1682,
+        "Diagnostic 2nde Français - Les niveaux de langue",
+        "Français",
+        "2nde",
+        [
+            {"id": "1682_1", "type": "qcm", "question": "Quel niveau de langue est le plus formel ?", "options": ["Familier", "Courant", "Soutenu", "Poétique"], "correct_option": "Soutenu", "explanation": "Le niveau soutenu utilise un vocabulaire recherché et des tournures complexes."},
+            {"id": "1682_2", "type": "vrai-faux", "question": "Le niveau familier est adapté à une conversation entre amis.", "correct": True, "explanation": "Le niveau familier est utilisé dans les échanges informels."},
+            {"id": "1682_3", "type": "qcm", "question": "Quel niveau de langue privilégier dans un discours officiel ?", "options": ["Familier", "Courant", "Soutenu", "Poétique"], "correct_option": "Soutenu", "explanation": "Le niveau soutenu est adapté aux discours officiels."},
+            {"id": "1682_4", "type": "qcm", "question": "'Salut' est un mot du niveau de langue :", "options": ["Familier", "Courant", "Soutenu", "Poétique"],"correct_option": "Familier", "explanation": "'Salut' est une salutation informelle."},
+            {"id": "1682_5", "type": "vrai-faux", "question": "'Merci' est un mot du niveau de langue courant.", "correct": True, "explanation": "'Merci' est utilisé dans des situations courantes."},
+            {"id": "1682_6", "type": "qcm", "question": "'Bonjour' est un mot du niveau de langue :", "options": ["Familier", "Courant", "Soutenu", "Poétique"],"correct_option": "Courant", "explanation": "'Bonjour' est une salutation standard utilisée dans la plupart des situations."},
+            {"id": "1682_7", "type": "qcm", "question": "'Adieu' est un mot du niveau de langue :", "options": ["Familier", "Courant", "Soutenu", "Poétique"],"correct_option": "Soutenu", "explanation": "'Adieu' est une formule de départ très formelle et solennelle."},
+            {"id": "1682_8", "type": "vrai-faux", "question": "'Merci beaucoup' est une expression du niveau de langue soutenu.", "correct": False, "explanation": "'Merci beaucoup' est une expression du niveau de langue courant."}
+        ]
+    ),
+    (   1683,
+        "Diagnostic 2nde Français - Les temps du passé",
+        "Français",
+        "2nde",
+        [
+            {"id": "1683_1", "type": "qcm", "question": "Quel temps du passé exprime une action achevée dans le passé ?", "options": ["Passé composé", "Imparfait", "Plus-que-parfait", "Passé simple"], "correct_option": "Passé composé", "explanation": "Le passé composé exprime une action achevée dans le passé."},
+            {"id": "1683_2", "type": "vrai-faux", "question": "L'imparfait exprime une action habituelle ou une description dans le passé.", "correct": True, "explanation": "L'imparfait est utilisé pour les actions répétées ou les descriptions passées."},
+            {"id": "1683_3", "type": "qcm", "question": "Quel temps du passé exprime une action antérieure à une autre action passée ?", "options": ["Passé composé", "Imparfait", "Plus-que-parfait", "Passé simple"], "correct_option": "Plus-que-parfait", "explanation": "Le plus-que-parfait exprime une action antérieure à une autre action passée."},
+            {"id": "1683_4", "type": "qcm", "question": "Quel temps du passé est souvent utilisé dans la littérature pour raconter des événements passés ?", "options": ["Passé composé", "Imparfait", "Plus-que-parfait", "Passé simple"],"correct_option": "Passé simple", "explanation": "Le passé simple est un temps littéraire utilisé pour raconter des événements passés."},
+            {"id": "1683_5", "type": "vrai-faux", "question": "'Hier' est un adverbe de temps qui peut être utilisé avec le passé composé.", "correct": True, "explanation": "'Hier' indique que l'action s'est déroulée la veille."},
+            {"id": "1683_6", "type": "vrai-faux", "question": "'Quand j'étais jeune' est une expression qui introduit souvent l'imparfait ou le plus-que-parfait.", "correct": True, "explanation": "'Quand j'étais jeune' introduit souvent une description ou une action passée révolue."},
+            {"id": "1683_7", "type": "qcm","question": "Quel temps du passé est utilisé pour exprimer une action ponctuelle dans le passé ?", "options": ["Passé composé", "Imparfait", "Plus-que-parfait", "Passé simple"],"correct_option": "Passé composé", "explanation": "Le passé composé est souvent utilisé pour exprimer des actions ponctuelles dans le passé."},
+            {"id": "1683_8", "type": "vrai-faux", "question": "'Il y a deux jours' est une expression qui peut être utilisée avec le plus-que-parfait.", "correct": False, "explanation": "'Il y a deux jours' indique une action récente et est généralement utilisée avec le passé composé."}
+        ]
+    ),
+    (   1684,
+        "Diagnostic 2nde Français - Les modes verbaux",
+        "Français",
+        "2nde",
+        [
+            {"id": "1684_1", "type": "qcm", "question": "Quel mode verbal exprime une action certaine et réelle ?", "options": ["Indicatif", "Subjonctif", "Conditionnel", "Impératif"], "correct_option": "Indicatif", "explanation": "L'indicatif exprime des faits réels et certains."},
+            {"id": "1684_2", "type": "vrai-faux", "question": "Le subjonctif exprime souvent le doute, le souhait ou la nécessité.", "correct": True, "explanation": "Le subjonctif est utilisé pour exprimer des sentiments, des doutes ou des nécessités."},
+            {"id": "1684_3", "type": "qcm", "question": "Quel mode verbal exprime une action hypothétique ou conditionnelle ?", "options": ["Indicatif", "Subjonctif", "Conditionnel", "Impératif"],"correct_option": "Conditionnel", "explanation": "Le conditionnel exprime des actions qui dépendent d'une condition."},
+            {"id": "1684_4", "type": "qcm", "question": "Quel mode verbal est utilisé pour donner un ordre ou un conseil ?", "options": ["Indicatif", "Subjonctif", "Conditionnel", "Impératif"],"correct_option": "Impératif", "explanation": "L'impératif est utilisé pour ordonner ou conseiller."},
+            {"id": "1684_5", "type": "vrai-faux", 	"question": "'Il faut que' est une expression qui introduit souvent le subjonctif.", 	"correct": True, 	"explanation": "'Il faut que' exprime une nécessité et est suivi du subjonctif."},
+            {"id": "1684_6", "type": "vrai-faux", "question": "'Si j'étais riche' est une expression qui introduit souvent le conditionnel.", "correct": True, "explanation": "'Si j'étais riche' introduit une condition hypothétique qui peut être suivie du conditionnel."},
+            {"id": "1684_7", "type": "qcm","question": "'Va à l'école !' est une phrase à quel mode ?", "options": ["Indicatif", "Subjonctif", "Conditionnel", "Impératif"], "correct_option": "Impératif", "explanation": "L'impératif est utilisé pour donner un ordre ou un conseil."},
+            {"id": "1684_8", "type": "vrai-faux", "question": "'Je pense que' est une expression qui introduit souvent l'indicatif.", "correct": True, "explanation": "'Je pense que' exprime une opinion et est généralement suivi de l'indicatif."}
+        ]
+    ),
+    (   1685,
+        "Diagnostic 2nde Français - Les expansions du nom",
+        "Français",
+        "2nde",
+        [
+            {"id": "1685_1", "type": "qcm", "question": "Quel est le rôle d'une expansion du nom ?", "options": ["Préciser un nom", "Remplacer un verbe", "Introduire une cause", "Exprimer une conséquence"], "correct_option": "Préciser un nom", "explanation": "L'expansion du nom apporte une précision sur le nom."},
+            {"id": "1685_2", "type": "vrai-faux", "question": "Un adjectif peut être une expansion du nom.", "correct": True, "explanation": "L'adjectif qualificatif est une forme d'expansion du nom."},
+            {"id": "1685_3", "type": "qcm", "question": "Quel groupe de mots peut être une expansion du nom ?", "options": ["Groupe nominal apposé", "Groupe verbal", "Groupe prépositionnel", "Groupe adverbial"],"correct_option": "Groupe nominal apposé", "explanation": "Le groupe nominal apposé est une expansion du nom qui apporte une précision."},
+            {"id": "1685_4", "type": "qcm", "question": "'Le livre de Marie' contient une expansion du nom qui est :", "options": ["'de Marie'", "'Le'", "'Livre'", "'Marie'"],"correct_option": "'de Marie'", "explanation": "'de Marie' est un complément du nom qui précise 'livre'."},
+            {"id": "1685_5", "type": "vrai-faux","question": "'Un homme courageux' contient une expansion du nom qui est 'courageux'.", 	"correct": True, 	"explanation": "'Courageux' est un adjectif qualificatif qui précise 'homme'."},
+            {"id": "1685_6", "type": "qcm","question": "'La maison, grande et lumineuse, est à vendre.' contient une expansion du nom qui est :", 	"options": ["'grande et lumineuse'", "'La maison'", "'est à vendre'", "'à vendre'"],"correct_option": "'grande et lumineuse'", 	"explanation": "'Grande et lumineuse' est un groupe adjectival qui précise 'maison'."},
+            {"id": "1685_7", "type": "qcm","question": "'Le chat de mon voisin' contient une expansion du nom qui est :", 	"options": ["'de mon voisin'", "'Le chat'", "'mon voisin'", "'chat'"],"correct_option": "'de mon voisin'", 	"explanation": "'De mon voisin' est un complément du nom qui précise 'chat'."},
+            {"id": "1685_8", "type": "vrai-faux", "question": "'Un livre intéressant' contient une expansion du nom qui est 'intéressant'.", "correct": True, "explanation": "'Intéressant' est un adjectif qualificatif qui précise 'livre'."}
+        ]
+    ),
+    (   1686,
+        "Diagnostic 2nde Français - Les fonctions grammaticales",
+        "Français",
+        "2nde",
+        [
+            {"id": "1686_1", "type": "qcm", "question": "Quelle fonction grammaticale est exercée par le sujet d'une phrase ?", "options": ["Sujet", "Complément d'objet direct", "Complément d'objet indirect", "Attribut du sujet"], "correct_option": "Sujet", "explanation": "Le sujet est la fonction grammaticale qui désigne l'élément qui fait l'action ou dont on parle."},
+            {"id": "1686_2", "type": "vrai-faux", "question": "Le complément d'objet direct (COD) répond à la question 'qui ?' ou 'quoi ?' après le verbe.", "correct": True, "explanation": "Le COD complète le verbe en répondant à ces questions."},
+            {"id": "1686_3", "type": "qcm", "question": "Quelle fonction grammaticale est exercée par un mot qui complète un nom ?", "options": ["Complément du nom", "Sujet", "Attribut du sujet", "Complément d'objet direct"],"correct_option": "Complément du nom", "explanation": "Le complément du nom apporte une précision sur un nom."},
+            {"id": "1686_4", "type": "qcm","question": "'Il est professeur.' contient un attribut du sujet qui est :", 	"options": ["'professeur'", "'Il'", "'est'", "'Il est'"],"correct_option": "'professeur'", 	"explanation": "'Professeur' est un attribut du sujet qui qualifie 'Il'."},
+            {"id": "1686_5", "type": "vrai-faux","question": "'Le livre de Marie' contient un complément du nom qui est 'de Marie'.", 	"correct": True, 	"explanation": "'De Marie' est un complément du nom qui précise 'livre'."},
+            {"id": "1686_6", "type": "qcm","question": "'Je parle à mon ami.' contient un complément d'objet indirect (COI) qui est :", 	"options": ["'à mon ami'", "'Je'", "'parle'", "'mon ami'"],"correct_option": "'à mon ami'", 	"explanation": "'À mon ami' est un complément d'objet indirect qui précise à qui l'action est destinée."},
+            {"id": "1686_7", "type": "qcm","question": "'Le chat dort.' contient un sujet qui est :", 	"options": ["'Le chat'", "'dort'", "'Le'", "'chat'"],"correct_option": "'Le chat'", 	"explanation": "'Le chat' est le sujet de la phrase."},
+            {"id": "1686_8", "type": "vrai-faux", "question": "'Il mange une pomme.' contient un complément d'objet direct (COD) qui est 'une pomme'.", "correct": True, "explanation": "'Une pomme' est le COD qui complète le verbe 'mange'."}
+        ]
+    ),
+    (   1687,
+        "Diagnostic 2nde Français - Les types de discours",
+        "Français",
+        "2nde",
+        [
+            {"id": "1687_1", "type": "qcm", "question": "Quel type de discours est utilisé pour raconter une histoire ?", "options": ["Discours narratif", "Discours descriptif", "Discours argumentatif", "Discours explicatif"], "correct_option": "Discours narratif", "explanation": "Le discours narratif sert à raconter des événements."},
+            {"id": "1687_2", "type": "vrai-faux", "question": "Le discours descriptif vise à peindre une image ou une scène.", "correct": True, "explanation": "Le discours descriptif utilise des détails pour créer une image mentale."},
+            {"id": "1687_3", "type": "qcm", "question": "Quel type de discours est utilisé pour convaincre ou persuader ?", "options": ["Discours argumentatif", "Discours narratif", "Discours descriptif", "Discours explicatif"],"correct_option": "Discours argumentatif", "explanation": "Le discours argumentatif présente des arguments pour défendre une opinion."},
+            {"id": "1687_4", "type": "qcm","question": "'Pourquoi' est un mot qui introduit souvent quel type de discours ?", "options": ["Discours explicatif", "Discours narratif", "Discours descriptif", "Discours argumentatif"],"correct_option": "Discours explicatif", "explanation": "'Pourquoi' introduit souvent une explication ou une justification."},
+            {"id": "1687_5", "type": "vrai-faux","question": "'Il était une fois' est une expression qui introduit souvent un discours narratif.", "correct": True, "explanation": "'Il était une fois' est une formule classique d'ouverture d'un récit."},
+            {"id": "1687_6", "type": "qcm","question": "'Le ciel est bleu.' est un exemple de quel type de discours ?", "options": ["Discours descriptif", "Discours narratif", "Discours argumentatif", "Discours explicatif"],"correct_option": "Discours descriptif", "explanation": "'Le ciel est bleu.' décrit une caractéristique du ciel."},
+            {"id": "1687_7", "type": "qcm","question": "'Il faut réduire les émissions de CO2 pour lutter contre le changement climatique.' est un exemple de quel type de discours ?", "options": ["Discours argumentatif", "Discours narratif", "Discours descriptif", "Discours explicatif"],"correct_option": "Discours argumentatif", "explanation": "Cette phrase présente un argument pour défendre une opinion."},
+            {"id": "1687_8", "type": "vrai-faux", "question": "'Comment fonctionne un moteur à combustion interne ?' est une question qui introduit souvent un discours explicatif.", "correct": True, "explanation": "Cette question demande une explication sur le fonctionnement d'un moteur à combustion interne."}
+        ]
+    ),
+    (   1688,
+        "Diagnostic 2nde Français - Les figures de style",
+        "Français",
+        "2nde",
+        [
+            {"id": "1688_1", "type": "qcm", "question": "Quelle figure de style consiste à comparer deux éléments avec un mot de comparaison ?", "options": ["Comparaison", "Métaphore", "Personnification", "Hyperbole"], "correct_option": "Comparaison", "explanation": "La comparaison établit une ressemblance entre deux éléments à l'aide d'un mot de comparaison."},
+            {"id": "1688_2", "type": "vrai-faux", "question": "'Le vent hurlait dans les arbres.' est un exemple de personnification.", "correct": True, "explanation": "La personnification attribue des qualités humaines au vent."},
+            {"id": "1688_3", "type": "qcm", "question": "Quelle figure de style consiste à remplacer un terme par un autre qui lui est lié ?", "options": ["Métonymie", "Comparaison", "Personnification", "Hyperbole"],"correct_option": "Métonymie", "explanation": "La métonymie remplace un terme par un autre qui lui est associé."},
+            {"id": "1688_4", "type": "qcm","question": "'Le roi a couronné son fils.' est un exemple de quelle figure de style ?", "options": ["Métonymie", "Comparaison", "Personnification", "Hyperbole"],"correct_option": "Métonymie", "explanation": "La métonymie remplace 'le roi' par 'son fils' pour désigner le successeur."},
+            {"id": "1688_5", "type": "vrai-faux","question": "'Il a une mémoire d'éléphant.' est une hyperbole.", "correct": True, "explanation": "L'hyperbole exagère la capacité de mémoire en la comparant à celle d'un éléphant."},
+            {"id": "1688_6", "type": "qcm","question": "'Le temps, ce voleur silencieux, emporte nos souvenirs.' est un exemple de quelle figure de style ?", "options": ["Personnification", "Comparaison", "Métonymie", "Hyperbole"],"correct_option": "Personnification", "explanation": "La personnification attribue des qualités humaines au temps."},
+            {"id": "1688_7", "type": "qcm","question": "'Il est rapide comme l'éclair.' est un exemple de quelle figure de style ?", "options": ["Comparaison", "Métaphore", "Personnification", "Hyperbole"],"correct_option": "Comparaison", "explanation": "La comparaison établit une ressemblance entre la rapidité et l'éclair à l'aide du mot de comparaison 'comme'."},
+            {"id": "1688_8", "type": "vrai-faux", "question": "'C'est un géant parmi les hommes.' est une métaphore.", "correct": True, "explanation": "La métaphore compare implicitement une personne à un géant sans utiliser de mot de comparaison."}
+        ]
+    ),
+    (   1689,
+        "Diagnostic 2nde Français - Les types de phrases",
+        "Français",
+        "2nde",
+        [
+            {"id": "1689_1", "type": "qcm", "question": "Quel type de phrase exprime une affirmation ?", "options": ["Déclarative", "Interrogative", "Impérative", "Exclamative"], "correct_option": "Déclarative", "explanation": "La phrase déclarative énonce une information ou une affirmation."},
+            {"id": "1689_2", "type": "vrai-faux", "question": "'Comment ça va ?' est une phrase interrogative.", "correct": True, "explanation": "'Comment ça va ?' est une question qui demande des informations."},
+            {"id": "1689_3", "type": "qcm", "question": "'Ferme la porte.' est une phrase de quel type ?", "options": ["Déclarative", "Interrogative", "Impérative", "Exclamative"],"correct_option": "Impérative", "explanation": "'Ferme la porte.' donne un ordre ou un conseil."},
+            {"id": "1689_4", "type": "qcm","question": "'Quelle belle journée !' est une phrase de quel type ?", 	"options": ["Déclarative", "Interrogative", "Impérative", "Exclamative"],"correct_option": "Exclamative", 	"explanation": "'Quelle belle journée !' exprime une émotion forte."},
+            {"id": "1689_5", "type": "vrai-faux","question": "'Il pleut.' est une phrase déclarative.", 	"correct": True, 	"explanation": "'Il pleut.' énonce une information sur le temps."},
+            {"id": "1689_6", "type": "qcm","question": "'Pourquoi es-tu en retard ?' est une phrase de quel type ?", 	"options": ["Déclarative", "Interrogative", "Impérative", "Exclamative"],"correct_option": "Interrogative", 	"explanation": "'Pourquoi es-tu en retard ?' pose une question et demande une réponse."},
+            {"id": "1689_7", "type": "qcm","question": "'Ferme la porte.' est une phrase de quel type ?", 	"options": ["Déclarative", "Interrogative", "Impérative", "Exclamative"],"correct_option": "Impérative", 	"explanation": "'Ferme la porte.' donne un ordre ou un conseil."},
+            {"id": "1689_8", "type": "qcm","question": "'Quelle belle journée !' est une phrase de quel type ?", 	"options": ["Déclarative", "Interrogative", "Impérative", "Exclamative"],"correct_option": "Exclamative", 	"explanation": "'Quelle belle journée !' exprime une émotion forte."}
+        ]
+    ),
+    (   1690,
+        "Diagnostic 2nde Français - Les subordonnées circonstancielles",
+        "Français",
+        "2nde",
+        [
+            {"id": "1690_1", "type": "qcm", "question": "Quelle est la fonction d'une subordonnée circonstancielle ?", "options": ["Complément de temps", "Complément de lieu", "Complément de cause", "Toutes les réponses sont correctes"], "correct_option": "Toutes les réponses sont correctes", "explanation": "Les subordonnées circonstancielles peuvent exprimer le temps, le lieu, la cause, la conséquence, etc."},
+            {"id": "1690_2", "type": "vrai-faux", "question": "'Quand il pleut, je reste à la maison.' contient une subordonnée circonstancielle de temps.", "correct": True, "explanation": "'Quand il pleut' indique le moment où l'action se déroule."},
+            {"id": "1690_3", "type": "qcm", "question": "'Où que tu ailles, je te suivrai.' contient une subordonnée circonstancielle de quel type ?", "options": ["Lieu", "Temps", "Cause", "Conséquence"],"correct_option": "Lieu", "explanation": "'Où que tu ailles' indique le lieu où l'action se déroule."},
+            {"id": "1690_4", "type": "qcm","question": "'Parce qu'il était malade, il n'est pas venu.' contient une subordonnée circonstancielle de quel type ?", 	"options": ["Cause", "Temps", "Lieu", "Conséquence"],"correct_option": "Cause", 	"explanation": "'Parce qu'il était malade' explique la raison pour laquelle il n'est pas venu."},
+            {"id": "1690_5", "type": "vrai-faux","question": "'Si tu étudies, tu réussiras.' contient une subordonnée circonstancielle de condition.", 	"correct": True, 	"explanation": "'Si tu étudies' exprime une condition pour que l'action suivante se réalise."},
+            {"id": "1690_6", "type": "qcm","question": "'Il est parti tôt pour éviter les embouteillages.' contient une subordonnée circonstancielle de quel type ?", 	"options": ["But", "Cause", "Temps", "Lieu"],"correct_option": "But", 	"explanation": "'Pour éviter les embouteillages' indique le but de son départ tôt."},
+            {"id": "1690_7", "type": "qcm","question": "'Il a tellement travaillé qu'il a réussi.' contient une subordonnée circonstancielle de quel type ?", 	"options": ["Conséquence", "Cause", "Temps", "Lieu"],"correct_option": "Conséquence", 	"explanation": "'Qu'il a réussi' indique la conséquence de son travail acharné."},
+            {"id": "1690_8", "type": "vrai-faux", "question": "'Lorsque je serai grand, je veux être astronaute.' contient une subordonnée circonstancielle de temps.", "correct": True, "explanation": "'Lorsque je serai grand' indique le moment futur où l'action se déroulera."}
+        ]
+    )
 ]
 
 if __name__ == "__main__":

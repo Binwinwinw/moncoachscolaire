@@ -346,9 +346,9 @@ function loadQuizPayloadForSubmit(int $quizId, string $dataDir): ?array
     }
 
     $quizPath = $dataDir . '/quiz/' . $quizId . '.json';
-    $answersPath = $dataDir . '/quiz_answers/' . $quizId . '.json';
+    $answersPath = findQuizAnswersPath($quizId, $dataDir . '/quiz_answers');
 
-    if (!is_file($quizPath) || !is_file($answersPath)) {
+    if (!is_file($quizPath) || $answersPath === false || !is_file($answersPath)) {
         return null;
     }
 
@@ -419,6 +419,27 @@ function loadQuizPayloadFromBundles(int $quizId, string $dataDir): ?array
         'answers_data' => $answersData,
         'source' => 'bundles',
     ];
+}
+
+function findQuizAnswersPath(int $quizId, string $answersDir)
+{
+    if ($answersDir === '') {
+        return false;
+    }
+
+    $candidates = [
+        $answersDir . '/' . $quizId . '.json',
+        $answersDir . '/' . str_pad((string) $quizId, 4, '0', STR_PAD_LEFT) . '.json',
+        $answersDir . '/' . str_pad((string) $quizId, 5, '0', STR_PAD_LEFT) . '.json',
+    ];
+
+    foreach ($candidates as $path) {
+        if (is_file($path)) {
+            return $path;
+        }
+    }
+
+    return false;
 }
 
 function findQuizInBundle(array $bundleData, int $quizId): ?array

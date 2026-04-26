@@ -361,15 +361,91 @@ function getPoolHintText(totalPool) {
     return "";
 }
 
+function groupQuizIdsBySubject(quizRows) {
+    const groups = {};
+    if (!Array.isArray(quizRows)) {
+        return groups;
+    }
+
+    quizRows.forEach((row) => {
+        if (!row || typeof row !== "object") {
+            return;
+        }
+        const subject = row.subject ? String(row.subject).trim() : "Autres";
+        const id = Number(row.id);
+        if (!id || id <= 0) {
+            return;
+        }
+        if (!groups[subject]) {
+            groups[subject] = [];
+        }
+        groups[subject].push(id);
+    });
+
+    Object.keys(groups).forEach((subject) => {
+        groups[subject].sort((a, b) => a - b);
+    });
+
+    return groups;
+}
+
+function renderAvailableQuizIds(quizRows, subject) {
+    if (!Array.isArray(quizRows) || quizRows.length === 0) {
+        return "";
+    }
+
+    const grouped = groupQuizIdsBySubject(quizRows);
+    const allSubjects = Object.keys(grouped);
+    if (allSubjects.length === 0) {
+        return "";
+    }
+
+    const subjectKey = subject ? String(subject).trim() : "";
+    const selectedSubject =
+        subjectKey && grouped[subjectKey] ? subjectKey : null;
+
+    let html = `
+        <div id="diagnostic-ids-suggestions" class="mt-4 text-sm text-gray-700">
+            <p class="font-semibold mb-3">IDs disponibles pour ce niveau :</p>
+    `;
+
+    const renderIds = (subjectName, ids) => {
+        const displayIds = ids.slice(0, 30).join(", ");
+        const more = ids.length > 30 ? ` +${ids.length - 30} autres` : "";
+        return `
+            <div class="mb-2">
+                <span class="font-semibold">${escapeHtml(subjectName)} :</span>
+                <span class="block mt-1 text-gray-600">${escapeHtml(displayIds)}${escapeHtml(more)}</span>
+            </div>
+        `;
+    };
+
+    if (selectedSubject) {
+        html += renderIds(selectedSubject, grouped[selectedSubject]);
+    } else {
+        allSubjects.sort();
+        allSubjects.slice(0, 5).forEach((subjectName) => {
+            html += renderIds(subjectName, grouped[subjectName]);
+        });
+        if (allSubjects.length > 5) {
+            html += `<div class="text-xs text-gray-500">…et ${allSubjects.length - 5} autres matières.</div>`;
+        }
+    }
+
+    html += "</div>";
+    return html;
+}
+
 document.addEventListener("DOMContentLoaded", async () => {
     console.log("✅ DOMContentLoaded déclenché");
     const app = document.getElementById("diagnostic-app");
     if (!app) return console.error("diagnostic-app non trouvé");
 
-    // Niveau synchronisé depuis PHP
-    const level = window.userLevel || "6eme";
+    // Niveau synchronisé depuis PHP et la requête actuelle
+    const level = window.requestLevel || window.userLevel || "6eme";
+    const requestSubject = window.requestSubject || null;
     const urlParams = new URLSearchParams(window.location.search);
-    const subject = urlParams.get("subject") || null;
+    const subject = urlParams.get("subject") || requestSubject || null;
 
     // Vérifier que apiBasePath est défini
     if (!window.apiBasePath) {
@@ -393,8 +469,13 @@ document.addEventListener("DOMContentLoaded", async () => {
     const apiUrl =
         `${window.apiBasePath}/diagnostic.php?level=${encodeURIComponent(level)}` +
         (subject ? `&subject=${encodeURIComponent(subject)}` : "");
+    const idsUrl =
+        `${window.apiBasePath}/diagnostic.php?ids_only=1&level=${encodeURIComponent(
+            level,
+        )}` + (subject ? `&subject=${encodeURIComponent(subject)}` : "");
 
     console.log("INFO: Diagnostic page loading");
+    console.log("INFO: Diagnostic IDs URL:", idsUrl);
     console.log("- User Level:", level);
     console.log("- API Base Path:", window.apiBasePath);
     console.log("- API URL:", apiUrl);
@@ -402,7 +483,16 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     try {
         console.log("FETCH: Appel API...");
-        const response = await fetch(apiUrl);
+        const [response, idsResponse] = await Promise.all([
+            fetch(apiUrl),
+            fetch(idsUrl).catch((error) => {
+                console.warn(
+                    "WARNING: Impossible de charger la liste des IDs:",
+                    error,
+                );
+                return null;
+            }),
+        ]);
 
         // Vérifier le statut HTTP
         if (!response.ok) {
@@ -436,10 +526,21 @@ document.addEventListener("DOMContentLoaded", async () => {
             );
         }
 
+        let idsData = null;
+        if (idsResponse && idsResponse.ok) {
+            try {
+                const idsText = await idsResponse.text();
+                idsData = JSON.parse(idsText);
+            } catch (e) {
+                console.warn("WARNING: Impossible de parser les IDs JSON:", e);
+            }
+        }
+
         console.log("SUCCESS: JSON parsé", data);
 
         // Récupérer les quiz (data.quiz ou data.data selon la structure)
         const quizArray = data.quiz || data.data || [];
+        const availableQuizIds = idsData?.quiz || [];
         const recommendedQuizId = Number(data?.recommendation?.id || 0);
         const totalPool = Number(data?.total_pool || quizArray.length);
 
@@ -554,14 +655,15 @@ document.addEventListener("DOMContentLoaded", async () => {
                                 Ouvrir
                             </button>
                         </div>
+                        <div id="diagnostic-ids-placeholder" class="mt-4"></div>
                     </div>
                 </header>
             `;
 
             html += `
-                <div class="mx-auto w-full max-w-screen-xl px-2 py-2 flex justify-center">
-                    <div class="w-[90vw] md:w-[80vw] xl:w-[70vw] bg-white/80 rounded-3xl shadow-xl p-2 md:p-6 xl:p-8 flex flex-col items-center">
-                        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-full">
+                <div class="mx-auto w-full max-w-screen-xl px-2 py-2">
+                    <div class="w-full bg-white/90 rounded-3xl shadow-xl p-3 md:p-4 flex flex-col items-center">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-full">
             `;
 
             pagedQuiz.forEach((quiz) => {
@@ -578,22 +680,22 @@ document.addEventListener("DOMContentLoaded", async () => {
 
                 html += `
                         <button onclick="startQuiz(${quiz.id}, '${quiz.title.replace(/'/g, "\\'").replace(/"/g, '\\"')}')"
-                            class="group quiz-card min-w-full h-full flex flex-col justify-between p-10 xl:p-12 bg-gradient-to-br from-white via-blue-50 to-indigo-100 border-2 ${recommendedCardClass} rounded-3xl hover:border-blue-400 hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 shadow-lg hover:shadow-blue-200 backdrop-blur-sm relative overflow-hidden min-h-[260px] xl:min-h-[320px]">
+                            class="group quiz-card min-w-full h-full flex flex-col justify-between p-5 bg-gradient-to-br from-white via-blue-50 to-indigo-100 border-2 ${recommendedCardClass} rounded-3xl hover:border-blue-400 hover:shadow-xl transition-all duration-200 shadow-md hover:shadow-blue-200 backdrop-blur-sm relative overflow-hidden">
                             ${recommendedBadge}
-                            <span class="absolute top-4 right-4 px-4 py-2 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white font-bold text-xs shadow-lg">ID ${quiz.id}</span>
-                            <div class="flex items-start space-x-4 mb-6">
-                                <div class="w-16 h-16 bg-gradient-to-br from-blue-400 to-blue-700 rounded-2xl flex items-center justify-center shadow-xl flex-shrink-0 border-4 border-white">
-                                    <span class="text-white font-extrabold text-2xl">${quiz.id}</span>
+                            <span class="absolute top-4 right-4 px-3 py-1 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white font-semibold text-[0.65rem] shadow-lg">ID ${quiz.id}</span>
+                            <div class="flex items-start gap-3 mb-4">
+                                <div class="w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-700 rounded-2xl flex items-center justify-center shadow-md flex-shrink-0 border-2 border-white">
+                                    <span class="text-white font-bold text-lg">${quiz.id}</span>
                                 </div>
-                                <div class="flex-1">
-                                    <h3 class="font-extrabold text-2xl text-gray-800 leading-tight group-hover:text-blue-700 drop-shadow">${quiz.title}</h3>
-                                    <p class="text-sm font-bold text-indigo-900 bg-indigo-100 px-4 py-2 rounded-full mt-2 inline-block shadow">${quiz.subject}</p>
+                                <div class="flex-1 min-w-0">
+                                    <h3 class="font-extrabold text-xl text-gray-800 leading-tight group-hover:text-blue-700">${quiz.title}</h3>
+                                    <p class="text-xs font-semibold text-indigo-900 bg-indigo-100 px-3 py-1 rounded-full mt-2 inline-block">${quiz.subject}</p>
                                 </div>
                             </div>
-                            <p class="text-gray-800 text-base leading-relaxed font-medium mb-2">${quiz.description || "Diagnostic niveau " + level}</p>
-                            <div class="flex flex-wrap gap-2 mt-4">
-                                <span class="px-3 py-1 rounded-full bg-green-100 text-green-800 text-xs font-semibold shadow">${quiz.level}</span>
-                                <span class="px-3 py-1 rounded-full bg-yellow-100 text-yellow-800 text-xs font-semibold shadow">Quiz</span>
+                            <p class="text-gray-700 text-sm leading-snug mb-3">${quiz.description || "Diagnostic niveau " + level}</p>
+                            <div class="flex flex-wrap gap-2 mt-auto">
+                                <span class="px-2.5 py-1 rounded-full bg-green-100 text-green-800 text-[0.66rem] font-semibold">${quiz.level}</span>
+                                <span class="px-2.5 py-1 rounded-full bg-yellow-100 text-yellow-800 text-[0.66rem] font-semibold">Quiz</span>
                             </div>
                         </button>
             `;
@@ -638,7 +740,28 @@ document.addEventListener("DOMContentLoaded", async () => {
 
             const input = app.querySelector("#quiz-id-input");
             const launchBtn = app.querySelector("#quiz-id-start-btn");
-            const launchById = () => {
+            async function fetchQuizFileById(requestedId) {
+                const verifyUrl = `${window.apiBasePath}/quiz.php?id=${requestedId}&include_answers=1`;
+                const response = await fetch(verifyUrl);
+                if (!response.ok) {
+                    return null;
+                }
+
+                const data = await response.json();
+                if (!data || typeof data !== "object") {
+                    return null;
+                }
+                if (data.success === false) {
+                    return null;
+                }
+                if (!data.quiz || typeof data.quiz !== "object") {
+                    return null;
+                }
+
+                return data;
+            }
+
+            const launchById = async () => {
                 const requestedId = Number(input?.value || 0);
                 if (!requestedId) {
                     alert("Entre un ID de quiz valide.");
@@ -648,13 +771,47 @@ document.addEventListener("DOMContentLoaded", async () => {
                 const selected = quizArray.find(
                     (item) => Number(item.id) === requestedId,
                 );
-                if (!selected) {
-                    alert(`Quiz ID ${requestedId} introuvable pour ce niveau.`);
+                if (selected) {
+                    startQuiz(
+                        selected.id,
+                        selected.title || `Quiz ${selected.id}`,
+                    );
                     return;
                 }
 
-                startQuiz(selected.id, selected.title || `Quiz ${selected.id}`);
+                const quizData = await fetchQuizFileById(requestedId);
+                if (!quizData) {
+                    alert(
+                        `Quiz ID ${requestedId} introuvable dans src/data/quiz ou src/data/quiz_answers.`,
+                    );
+                    return;
+                }
+
+                if (
+                    !Array.isArray(quizData.answers) ||
+                    quizData.answers.length === 0
+                ) {
+                    alert(
+                        `Quiz ID ${requestedId} existe mais le fichier de réponses est introuvable ou incomplet.`,
+                    );
+                    return;
+                }
+
+                startQuiz(
+                    requestedId,
+                    quizData.quiz?.title || `Quiz ${requestedId}`,
+                );
             };
+
+            const idsPlaceholder = app.querySelector(
+                "#diagnostic-ids-placeholder",
+            );
+            if (idsPlaceholder) {
+                idsPlaceholder.innerHTML = renderAvailableQuizIds(
+                    availableQuizIds,
+                    subject,
+                );
+            }
 
             if (launchBtn) {
                 launchBtn.addEventListener("click", launchById);

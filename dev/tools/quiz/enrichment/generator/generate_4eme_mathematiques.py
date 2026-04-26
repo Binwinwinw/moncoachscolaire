@@ -7,6 +7,7 @@ from __future__ import annotations
 import json
 import os
 import random
+import re
 from datetime import UTC, datetime
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -413,15 +414,62 @@ def normalize_question_type(question_type):
     return "vrai-faux"
 
 
+def is_free_text_question_type(question_type):
+    qtype = str(question_type or "").strip().lower().replace("_", "-")
+    return qtype in {"texte", "text", "open"}
+
+
+def choose_runtime_question_type(question):
+    raw_type = str(question.get("type", "") or "").strip().lower().replace("_", "-")
+    if raw_type in {"vrai-faux", "vrai faux"}:
+        return "vrai-faux"
+    if raw_type == "qcm":
+        return "qcm"
+    if raw_type in {"texte", "text", "open"}:
+        if question.get("options"):
+            return "qcm"
+        return "vrai-faux"
+    return "vrai-faux"
+
+
+def build_qcm_choices(question, max_choices=4):
+    choices = list(question.get("options", []))
+    if choices:
+        return choices
+    correct_answer = str(question.get("correct_option", question.get("correct_answer", ""))).strip()
+    if not correct_answer:
+        return []
+    default_choices = [
+        correct_answer,
+        "Une autre réponse",
+        "Une réponse incorrecte",
+        "Aucune de ces réponses",
+    ]
+    rnd = random.Random(str(question.get("id", "")) or correct_answer)
+    rnd.shuffle(default_choices)
+    return default_choices[:max_choices]
+
+
 def build_true_false_statement(question_text, correct_answer, explanation):
+    question_text = str(question_text or "").strip()
     answer = str(correct_answer or "").strip().rstrip(".!? ")
     detail = str(explanation or "").strip()
+
     if answer:
-        return f"La bonne réponse attendue est : {answer}."
+        if "_____" in question_text or "____" in question_text:
+            return question_text.replace("_____", answer).replace("____", answer).rstrip() + "."
+        if re.search(r"\bCompl[eé]tez\b", question_text, flags=re.I):
+            return f"{question_text.rstrip('.!? ')} {answer}."
+        if re.search(
+            r'^(?:Compl[eé]tez|Explique|Expliquez|Distingue|Distinguez|Décris|Décrivez|Nommez|Justifie|Pourquoi|Comment|Qu\'est-ce que|Quel|Quels|Quelles|Donne|Donnez|Indique|Indiquez|Rappelle|Présente|Présentez)\b',
+            question_text,
+            flags=re.I,
+        ):
+            return f"Il est vrai que {answer}."
+        return f"{question_text.rstrip('.!? ')}. La bonne réponse attendue est : {answer}."
     if detail:
         return detail if detail.endswith((".", "!", "?")) else f"{detail}."
-    prompt = str(question_text or "").strip()
-    return prompt if prompt else "Cette affirmation est à évaluer."
+    return question_text if question_text else "Cette affirmation est à évaluer."
 
 
 def resolve_qcm_answer(question):
@@ -443,15 +491,33 @@ def make_quiz(qid, title, subject, level, notions, questions):
 
     for question in questions:
         raw_type = str(question.get("type", "") or "").strip().lower().replace("_", "-")
-        qtype = normalize_question_type(raw_type)
+        qtype = choose_runtime_question_type(question)
         if qtype == "qcm":
-            runtime_questions.append(
-                {
-                    "type": "qcm",
-                    "question": str(question.get("question", "")),
-                    "choices": list(question.get("options", [])),
-                }
-            )
+            choices = list(question.get("options", []))
+            if not choices and is_free_text_question_type(question.get("type", "")):
+                choices = build_qcm_choices(question)
+            if choices:
+                runtime_questions.append(
+                    {
+                        "type": "qcm",
+                        "question": str(question.get("question", "")),
+                        "choices": choices,
+                    }
+                )
+            else:
+                question_text = str(question.get("question", ""))
+                if raw_type not in {"vrai-faux", "vrai faux"}:
+                    question_text = build_true_false_statement(
+                        question.get("question", ""),
+                        question.get("correct_answer", ""),
+                        question.get("explanation", ""),
+                    )
+                runtime_questions.append(
+                    {
+                        "type": "vrai-faux",
+                        "question": question_text,
+                    }
+                )
         else:
             question_text = str(question.get("question", ""))
             if raw_type not in {"vrai-faux", "vrai faux"}:
@@ -498,7 +564,7 @@ def make_answers(qid, title, subject, level, questions):
 
     for index, question in enumerate(questions):
         raw_type = str(question.get("type", "") or "").strip().lower().replace("_", "-")
-        qtype = normalize_question_type(raw_type)
+        qtype = choose_runtime_question_type(question)
         if qtype == "qcm":
             answers.append(
                 {

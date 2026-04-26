@@ -11,6 +11,7 @@ from __future__ import annotations
 import json
 import os
 import random
+import re
 from datetime import UTC, datetime
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -2077,12 +2078,62 @@ def normalize_question_type(question_type):
     return "vrai-faux"
 
 
-def build_true_false_statement(question_text, fallback_answer=""):
-    question_text = str(question_text).strip()
-    fallback_answer = str(fallback_answer).strip().rstrip(".")
-    if fallback_answer:
-        return f"{question_text} La bonne réponse attendue est : {fallback_answer}."
-    return question_text or "Choisis si l'affirmation est vraie ou fausse."
+def is_free_text_question_type(question_type):
+    qtype = str(question_type or "").strip().lower().replace("_", "-")
+    return qtype in {"texte", "text", "open"}
+
+
+def choose_runtime_question_type(question):
+    raw_type = str(question.get("type", "") or "").strip().lower().replace("_", "-")
+    if raw_type == "qcm":
+        return "qcm"
+    if raw_type in {"vrai-faux", "vrai faux"}:
+        return "vrai-faux"
+    if raw_type in {"texte", "text", "open"}:
+        if question.get("options"):
+            return "qcm"
+        return "vrai-faux"
+    return "vrai-faux"
+
+
+def build_qcm_choices(question, max_choices=4):
+    choices = list(question.get("options", []))
+    if choices:
+        return choices
+    correct_answer = str(question.get("correct_option", question.get("correct_answer", ""))).strip()
+    if not correct_answer:
+        return []
+    default_choices = [
+        correct_answer,
+        "Une autre réponse",
+        "Une réponse incorrecte",
+        "Aucune de ces réponses",
+    ]
+    rnd = random.Random(str(question.get("id", "")) or correct_answer)
+    rnd.shuffle(default_choices)
+    return default_choices[:max_choices]
+
+
+def build_true_false_statement(question_text, correct_answer, explanation):
+    question_text = str(question_text or "").strip()
+    answer = str(correct_answer or "").strip().rstrip(".!? ")
+    detail = str(explanation or "").strip()
+
+    if answer:
+        if "_____" in question_text or "____" in question_text:
+            return question_text.replace("_____", answer).replace("____", answer).rstrip() + "."
+        if re.search(r"\bCompl[eé]tez\b", question_text, flags=re.I):
+            return f"{question_text.rstrip('.!? ')} {answer}."
+        if re.search(
+            r'^(?:Compl[eé]tez|Explique|Expliquez|Distingue|Distinguez|Décris|Décrivez|Nommez|Justifie|Pourquoi|Comment|Qu\'est-ce que|Quel|Quels|Quelles|Donne|Donnez|Indique|Indiquez|Rappelle|Présente|Présentez)\b',
+            question_text,
+            flags=re.I,
+        ):
+            return f"Il est vrai que {answer}."
+        return f"{question_text.rstrip('.!? ')}. La bonne réponse attendue est : {answer}."
+    if detail:
+        return detail if detail.endswith((".", "!", "?")) else f"{detail}."
+    return question_text if question_text else "Cette affirmation est à évaluer."
 
 
 def make_quiz(qid, title, subject, level, questions):
@@ -2092,15 +2143,29 @@ def make_quiz(qid, title, subject, level, questions):
 
     for question in questions:
         cleaned_question = {k: v for k, v in question.items() if k not in answer_keys}
-        qtype = normalize_question_type(question.get("type", ""))
+        qtype = choose_runtime_question_type(question)
         if qtype == "qcm":
-            runtime_questions.append(
-                {
-                    "type": "qcm",
-                    "question": str(cleaned_question.get("question", "")),
-                    "choices": list(cleaned_question.get("options", [])),
-                }
-            )
+            choices = list(cleaned_question.get("options", []))
+            if not choices and is_free_text_question_type(question.get("type", "")):
+                choices = build_qcm_choices(question)
+            if choices:
+                runtime_questions.append(
+                    {
+                        "type": "qcm",
+                        "question": str(cleaned_question.get("question", "")),
+                        "choices": choices,
+                    }
+                )
+            else:
+                runtime_questions.append(
+                    {
+                        "type": "vrai-faux",
+                        "question": build_true_false_statement(
+                            cleaned_question.get("question", ""),
+                            question.get("correct_answer", ""),
+                        ),
+                    }
+                )
         else:
             runtime_questions.append(
                 {
@@ -2139,12 +2204,16 @@ def make_quiz(qid, title, subject, level, questions):
 def make_answers(qid, title, subject, level, questions):
     answers = []
     for question in questions:
-        qtype = normalize_question_type(question.get("type", ""))
+        qtype = choose_runtime_question_type(question)
         if qtype == "qcm":
+            options = list(question.get("options", []))
+            if not options and is_free_text_question_type(question.get("type", "")):
+                options = build_qcm_choices(question)
+            correct_answer = str(question.get("correct_option", question.get("correct_answer", "")))
             answers.append(
                 {
                     "question_id": question.get("id"),
-                    "correct_option": question.get("correct_option"),
+                    "correct_option": correct_answer,
                     "explanation": question.get("explanation", ""),
                 }
             )
@@ -2167,6 +2236,29 @@ def make_answers(qid, title, subject, level, questions):
         "level": level,
         "answers": answers,
     }
+
+
+def numeric_json_ids(folder):
+    if not os.path.isdir(folder):
+        return []
+
+    ids = []
+    for filename in os.listdir(folder):
+        if filename.endswith(".json"):
+            stem = filename[:-5]
+            if stem.isdigit():
+                ids.append(int(stem))
+    return sorted(ids)
+
+
+def allocate_runtime_qid(preferred_qid, existing_ids):
+    if preferred_qid not in existing_ids:
+        return preferred_qid
+
+    runtime_qid = 1
+    while runtime_qid in existing_ids:
+        runtime_qid += 1
+    return runtime_qid
 
 
 def verify_random_sentinel():
@@ -2200,8 +2292,17 @@ def verify_random_sentinel():
 def write_quiz_files():
     os.makedirs(QUIZ_DIR, exist_ok=True)
     os.makedirs(ANSWERS_DIR, exist_ok=True)
+    os.makedirs(RUNTIME_QUIZ_DIR, exist_ok=True)
+    os.makedirs(RUNTIME_ANSWERS_DIR, exist_ok=True)
+
+    existing_runtime_ids = set(numeric_json_ids(RUNTIME_QUIZ_DIR)) | set(numeric_json_ids(RUNTIME_ANSWERS_DIR))
 
     for qid, title, subject, level, questions in quizzes_data:
+        runtime_qid = allocate_runtime_qid(qid, existing_runtime_ids)
+        if runtime_qid != qid:
+            print(f"[runtime] ID {qid} existe deja, ecriture dans {runtime_qid}.json")
+        existing_runtime_ids.add(runtime_qid)
+
         quiz_obj = make_quiz(qid, title, subject, level, questions)
         answers_obj = make_answers(qid, title, subject, level, questions)
 
@@ -2210,7 +2311,15 @@ def write_quiz_files():
         with open(os.path.join(ANSWERS_DIR, f"{qid}.json"), "w", encoding="utf-8") as file_handle:
             json.dump(answers_obj, file_handle, ensure_ascii=False, indent=2)
 
-    print(f"{len(quizzes_data)} quiz generes dans {OUTPUT_DIR}")
+        runtime_quiz_obj = make_quiz(runtime_qid, title, subject, level, questions)
+        runtime_answers_obj = make_answers(runtime_qid, title, subject, level, questions)
+
+        with open(os.path.join(RUNTIME_QUIZ_DIR, f"{runtime_qid}.json"), "w", encoding="utf-8") as file_handle:
+            json.dump(runtime_quiz_obj, file_handle, ensure_ascii=False, indent=2)
+        with open(os.path.join(RUNTIME_ANSWERS_DIR, f"{runtime_qid}.json"), "w", encoding="utf-8") as file_handle:
+            json.dump(runtime_answers_obj, file_handle, ensure_ascii=False, indent=2)
+
+    print(f"{len(quizzes_data)} quiz generes dans {OUTPUT_DIR} (runtime disponible dans {RUNTIME_QUIZ_DIR})")
     verify_random_sentinel()
 
 

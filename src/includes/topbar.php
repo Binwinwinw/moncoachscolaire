@@ -118,18 +118,8 @@ if ($is_admin_logged_in) {
 } elseif ($is_parent_logged_in) {
     $dashboard_url = function_exists('site_url') ? site_url('parents/dashboard_parent') : ($rootHref . '/index.php?page=dashboard_parent');
 } elseif ($is_user_logged_in) {
-    // Récupérer le niveau scolaire
-    $level = isset($user_level_normalized) ? strtolower($user_level_normalized) : (isset($user_level) ? strtolower($user_level) : '');
-    if (strpos($level, '6eme') !== false || strpos($level, '5eme') !== false || strpos($level, '4eme') !== false || strpos($level, '3eme') !== false) {
-        $dashboard_url = function_exists('site_url') ? site_url('eleve/college/college-accueil') : ($rootHref . '/index.php?page=eleve/college/college-accueil');
-    } elseif (strpos($level, '2nde') !== false || strpos($level, 'seconde') !== false || strpos($level, '1ere') !== false || strpos($level, 'premiere') !== false || strpos($level, 'terminale') !== false) {
-        $dashboard_url = function_exists('site_url') ? site_url('eleve/lycee/lycee-accueil') : ($rootHref . '/index.php?page=eleve/lycee/lycee-accueil');
-    } elseif (strpos($level, 'bac') !== false) {
-        $dashboard_url = function_exists('site_url') ? site_url('eleve/bac/bac-accueil') : ($rootHref . '/index.php?page=eleve/bac/bac-accueil');
-    } else {
-        // fallback dashboard
-        $dashboard_url = function_exists('site_url') ? site_url('eleve/dashboard') : ($rootHref . '/index.php?page=dashboard');
-    }
+    // Pour les élèves connectés, le bouton Mon espace doit toujours renvoyer vers le tableau de bord central.
+    $dashboard_url = function_exists('site_url') ? site_url('eleve/dashboard') : ($rootHref . '/index.php?page=eleve/dashboard');
 }
 
 // Resolve persona label only for logged-in users and if not suppressed

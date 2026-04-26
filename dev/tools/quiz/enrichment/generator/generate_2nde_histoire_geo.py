@@ -6,9 +6,11 @@ Template IA â€“ generate_<niveau>_<matiere>.py
 
 from __future__ import annotations
 
+import argparse
 import json
 import os
 from datetime import UTC, datetime
+from pathlib import Path
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", "..", ".."))
@@ -71,18 +73,15 @@ def normalize_question_type(question_type):
         return "vrai-faux"
     if qt == "qcm":
         return "qcm"
-    return "vrai-faux"
+    raise ValueError(
+        f"Type de question invalide ou interdit : '{question_type}'. Seuls 'qcm' et 'vrai-faux' sont autorisés."
+    )
 
 
-def build_true_false_statement(question_text, correct_answer, explanation):
-    answer = str(correct_answer or "").strip()
-    detail = str(explanation or "").strip()
-    if answer:
-        return f"La bonne réponse attendue est : {answer}."
-    if detail:
-        return detail if detail.endswith((".", "!", "?")) else f"{detail}."
-    prompt = str(question_text or "").strip()
-    return prompt if prompt else "Cette affirmation est à évaluer."
+def validate_question_type(question):
+    raw_type = question.get("type", "")
+    normalize_question_type(raw_type)
+    return True
 
 
 def normalize_subject_label(subject):
@@ -101,24 +100,20 @@ def make_quiz(qid, title, subject, level, questions,
     for question in questions:
         raw_type = str(question.get("type", "") or "").strip().lower().replace("_", "-")
         qtype = normalize_question_type(raw_type)
+        validate_question_type(question)
         if qtype == "qcm":
             sanitized = {
                 "type": "qcm",
                 "question": str(question.get("question", "")),
                 "choices": list(question.get("options", [])),
             }
-        else:
-            question_text = str(question.get("question", ""))
-            if raw_type not in {"vrai-faux", "vrai faux"}:
-                question_text = build_true_false_statement(
-                    question.get("question", ""),
-                    question.get("correct_answer", ""),
-                    question.get("explanation", ""),
-                )
+        elif qtype == "vrai-faux":
             sanitized = {
                 "type": "vrai-faux",
-                "question": question_text,
+                "question": str(question.get("question", "")),
             }
+        else:
+            raise ValueError(f"Type de question non supporté après normalisation : {qtype}")
         quiz_questions.append(sanitized)
 
     return {
@@ -155,6 +150,7 @@ def make_answers(qid, title, subject, level, questions):
     for index, q in enumerate(questions):
         raw_type = str(q.get("type", "") or "").strip().lower().replace("_", "-")
         qtype = normalize_question_type(raw_type)
+        validate_question_type(q)
         if qtype == "qcm":
             options = list(q.get("options", []))
             correct_answer = str(q.get("correct_option", q.get("correct_answer", "")))
@@ -167,12 +163,9 @@ def make_answers(qid, title, subject, level, questions):
                 "correct": correct_index,
                 "correction": str(q.get("explanation", "")),
             })
-        else:
-            if raw_type in {"vrai-faux", "vrai faux"}:
-                tf_source = q.get("correct", q.get("correct_answer", "faux"))
-                tf_answer = "vrai" if str(tf_source).strip().lower() in {"true", "vrai", "1"} else "faux"
-            else:
-                tf_answer = "vrai"
+        elif qtype == "vrai-faux":
+            tf_source = q.get("correct", q.get("correct_answer", "faux"))
+            tf_answer = "vrai" if str(tf_source).strip().lower() in {"true", "vrai", "1"} else "faux"
             answers.append({
                 "index": index,
                 "question_id": index + 1,
@@ -180,6 +173,8 @@ def make_answers(qid, title, subject, level, questions):
                 "answer": tf_answer,
                 "correction": str(q.get("explanation", "")),
             })
+        else:
+            raise ValueError(f"Type de question non supporté dans make_answers : {qtype}")
 
     return {
         "contents": {
@@ -197,15 +192,28 @@ def make_answers(qid, title, subject, level, questions):
     }
 
 
+def count_question_types(questions):
+    counts = {"qcm": 0, "vrai-faux": 0, "other": 0}
+    for question in questions:
+        raw_type = str(question.get("type", "") or "").strip().lower().replace("_", "-")
+        if raw_type in {"vrai-faux", "vrai faux"}:
+            counts["vrai-faux"] += 1
+        elif raw_type == "qcm":
+            counts["qcm"] += 1
+        else:
+            counts["other"] += 1
+    return counts
+
+
 quizzes_data = [
     (
-        1683,
+        1692,
         'Histoire-Geographie 2nde - Reperes chronologiques',
         'Histoire-Geographie',
         '2nde',
         [
             {
-                'id': '1683_1',
+                'id': '1692_1',
                 'type': 'qcm',
                 'question': "[Histoire-Geographie 2nde] Sur le theme 'Reperes chronologiques', quelle demarche est la plus efficace pour reussir un exercice diagnostic ?",
                 'options': [
@@ -218,761 +226,23 @@ quizzes_data = [
                 'explanation': "Identifier l'objectif de la consigne permet de mobiliser la bonne methode."
             },
             {
-                'id': '1683_2',
+                'id': '1692_2',
                 'type': 'vrai-faux',
                 'question': "[Histoire-Geographie 2nde] Sur 'Reperes chronologiques', verifier ses reponses avant validation ameliore la fiabilite.",
                 'correct': True,
                 'explanation': "Une relecture finale aide a corriger les erreurs d'inattention."
             },
             {
-                'id': '1683_3',
+                'id': '1692_3',
                 'type': 'texte',
                 'question': "[Histoire-Geographie 2nde] Cite une methode concrete pour progresser sur le theme 'Reperes chronologiques'.",
                 'correct_answer': "S'entrainer regulierement, analyser ses erreurs et reformuler les notions essentielles.",
                 'explanation': "La progression vient de la repetition guidee et de l'analyse des erreurs."
             },
             {
-                'id': '1683_4',
-                'type': 'qcm',
-                'question': "[Histoire-Geographie 2nde] Quelle action favorise la memorisation durable du theme 'Reperes chronologiques' ?",
-                'options': [
-                    'Faire des rappels espaces',
-                    'Tout revoir une seule fois',
-                    'Copier sans comprendre',
-                    'Eviter les exercices'
-                ],
-                'correct_option': 'Faire des rappels espaces',
-                'explanation': 'Les rappels espaces consolidant la memoire a long terme.'
-            },
-            {
-                'id': '1683_5',
-                'type': 'vrai-faux',
-                'question': "[Histoire-Geographie 2nde] L'explication d'une reponse est moins importante que la reponse elle-meme.",
-                'correct': False,
-                'explanation': 'La justification montre la comprehension et permet un feedback utile.'
-            },
-            {
-                'id': '1683_6',
-                'type': 'texte',
-                'question': "[Histoire-Geographie 2nde] Propose un exemple d'auto-correction pertinente sur 'Reperes chronologiques'.",
-                'correct_answer': "Comparer sa reponse au corrig?, identifier l'erreur precise et ecrire la bonne strategie.",
-                'explanation': "L'auto-correction explicite transforme une erreur en apprentissage."
-            },
-            {
-                'id': '1683_7',
-                'type': 'qcm',
-                'question': "[Histoire-Geographie 2nde] Quel indicateur montre une bonne maitrise du theme 'Reperes chronologiques' ?",
-                'options': [
-                    'Expliquer clairement la demarche',
-                    'Donner une reponse au hasard',
-                    'Eviter les notions difficiles',
-                    'Memoriser sans application'
-                ],
-                'correct_option': 'Expliquer clairement la demarche',
-                'explanation': 'Savoir expliquer la demarche prouve une comprehension solide.'
-            },
-            {
-                'id': '1683_8',
-                'type': 'vrai-faux',
-                'question': "[Histoire-Geographie 2nde] Alterner entrainement, feedback et reprise des erreurs aide a progresser sur 'Reperes chronologiques'.",
-                'correct': True,
-                'explanation': 'Le cycle entrainement-feedback-reprise est une methode robuste de progression.'
-            }
-        ]
-    ),
-    (
-        1684,
-        'Histoire-Geographie 2nde - Acteurs et evenements',
-        'Histoire-Geographie',
-        '2nde',
-        [
-            {
-                'id': '1684_1',
-                'type': 'qcm',
-                'question': "[Histoire-Geographie 2nde] Sur le theme 'Acteurs et evenements', quelle demarche est la plus efficace pour reussir un exercice diagnostic ?",
-                'options': [
-                    "Relire la consigne et identifier l'objectif",
-                    'Repondre vite sans verifier',
-                    'Ignorer le contexte',
-                    'Memoriser sans comprendre'
-                ],
-                'correct_option': "Relire la consigne et identifier l'objectif",
-                'explanation': "Identifier l'objectif de la consigne permet de mobiliser la bonne methode."
-            },
-            {
-                'id': '1684_2',
-                'type': 'vrai-faux',
-                'question': "[Histoire-Geographie 2nde] Sur 'Acteurs et evenements', verifier ses reponses avant validation ameliore la fiabilite.",
-                'correct': True,
-                'explanation': "Une relecture finale aide a corriger les erreurs d'inattention."
-            },
-            {
-                'id': '1684_3',
-                'type': 'texte',
-                'question': "[Histoire-Geographie 2nde] Cite une methode concrete pour progresser sur le theme 'Acteurs et evenements'.",
-                'correct_answer': "S'entrainer regulierement, analyser ses erreurs et reformuler les notions essentielles.",
-                'explanation': "La progression vient de la repetition guidee et de l'analyse des erreurs."
-            },
-            {
-                'id': '1684_4',
-                'type': 'qcm',
-                'question': "[Histoire-Geographie 2nde] Quelle action favorise la memorisation durable du theme 'Acteurs et evenements' ?",
-                'options': [
-                    'Faire des rappels espaces',
-                    'Tout revoir une seule fois',
-                    'Copier sans comprendre',
-                    'Eviter les exercices'
-                ],
-                'correct_option': 'Faire des rappels espaces',
-                'explanation': 'Les rappels espaces consolidant la memoire a long terme.'
-            },
-            {
-                'id': '1684_5',
-                'type': 'vrai-faux',
-                'question': "[Histoire-Geographie 2nde] L'explication d'une reponse est moins importante que la reponse elle-meme.",
-                'correct': False,
-                'explanation': 'La justification montre la comprehension et permet un feedback utile.'
-            },
-            {
-                'id': '1684_6',
-                'type': 'texte',
-                'question': "[Histoire-Geographie 2nde] Propose un exemple d'auto-correction pertinente sur 'Acteurs et evenements'.",
-                'correct_answer': "Comparer sa reponse au corrig?, identifier l'erreur precise et ecrire la bonne strategie.",
-                'explanation': "L'auto-correction explicite transforme une erreur en apprentissage."
-            },
-            {
-                'id': '1684_7',
-                'type': 'qcm',
-                'question': "[Histoire-Geographie 2nde] Quel indicateur montre une bonne maitrise du theme 'Acteurs et evenements' ?",
-                'options': [
-                    'Expliquer clairement la demarche',
-                    'Donner une reponse au hasard',
-                    'Eviter les notions difficiles',
-                    'Memoriser sans application'
-                ],
-                'correct_option': 'Expliquer clairement la demarche',
-                'explanation': 'Savoir expliquer la demarche prouve une comprehension solide.'
-            },
-            {
-                'id': '1684_8',
-                'type': 'vrai-faux',
-                'question': "[Histoire-Geographie 2nde] Alterner entrainement, feedback et reprise des erreurs aide a progresser sur 'Acteurs et evenements'.",
-                'correct': True,
-                'explanation': 'Le cycle entrainement-feedback-reprise est une methode robuste de progression.'
-            }
-        ]
-    ),
-    (
-        1685,
-        'Histoire-Geographie 2nde - Espaces productifs',
-        'Histoire-Geographie',
-        '2nde',
-        [
-            {
-                'id': '1685_1',
-                'type': 'qcm',
-                'question': "[Histoire-Geographie 2nde] Sur le theme 'Espaces productifs', quelle demarche est la plus efficace pour reussir un exercice diagnostic ?",
-                'options': [
-                    "Relire la consigne et identifier l'objectif",
-                    'Repondre vite sans verifier',
-                    'Ignorer le contexte',
-                    'Memoriser sans comprendre'
-                ],
-                'correct_option': "Relire la consigne et identifier l'objectif",
-                'explanation': "Identifier l'objectif de la consigne permet de mobiliser la bonne methode."
-            },
-            {
-                'id': '1685_2',
-                'type': 'vrai-faux',
-                'question': "[Histoire-Geographie 2nde] Sur 'Espaces productifs', verifier ses reponses avant validation ameliore la fiabilite.",
-                'correct': True,
-                'explanation': "Une relecture finale aide a corriger les erreurs d'inattention."
-            },
-            {
-                'id': '1685_3',
-                'type': 'texte',
-                'question': "[Histoire-Geographie 2nde] Cite une methode concrete pour progresser sur le theme 'Espaces productifs'.",
-                'correct_answer': "S'entrainer regulierement, analyser ses erreurs et reformuler les notions essentielles.",
-                'explanation': "La progression vient de la repetition guidee et de l'analyse des erreurs."
-            },
-            {
-                'id': '1685_4',
-                'type': 'qcm',
-                'question': "[Histoire-Geographie 2nde] Quelle action favorise la memorisation durable du theme 'Espaces productifs' ?",
-                'options': [
-                    'Faire des rappels espaces',
-                    'Tout revoir une seule fois',
-                    'Copier sans comprendre',
-                    'Eviter les exercices'
-                ],
-                'correct_option': 'Faire des rappels espaces',
-                'explanation': 'Les rappels espaces consolidant la memoire a long terme.'
-            },
-            {
-                'id': '1685_5',
-                'type': 'vrai-faux',
-                'question': "[Histoire-Geographie 2nde] L'explication d'une reponse est moins importante que la reponse elle-meme.",
-                'correct': False,
-                'explanation': 'La justification montre la comprehension et permet un feedback utile.'
-            },
-            {
-                'id': '1685_6',
-                'type': 'texte',
-                'question': "[Histoire-Geographie 2nde] Propose un exemple d'auto-correction pertinente sur 'Espaces productifs'.",
-                'correct_answer': "Comparer sa reponse au corrig?, identifier l'erreur precise et ecrire la bonne strategie.",
-                'explanation': "L'auto-correction explicite transforme une erreur en apprentissage."
-            },
-            {
-                'id': '1685_7',
-                'type': 'qcm',
-                'question': "[Histoire-Geographie 2nde] Quel indicateur montre une bonne maitrise du theme 'Espaces productifs' ?",
-                'options': [
-                    'Expliquer clairement la demarche',
-                    'Donner une reponse au hasard',
-                    'Eviter les notions difficiles',
-                    'Memoriser sans application'
-                ],
-                'correct_option': 'Expliquer clairement la demarche',
-                'explanation': 'Savoir expliquer la demarche prouve une comprehension solide.'
-            },
-            {
-                'id': '1685_8',
-                'type': 'vrai-faux',
-                'question': "[Histoire-Geographie 2nde] Alterner entrainement, feedback et reprise des erreurs aide a progresser sur 'Espaces productifs'.",
-                'correct': True,
-                'explanation': 'Le cycle entrainement-feedback-reprise est une methode robuste de progression.'
-            }
-        ]
-    ),
-    (
-        1686,
-        'Histoire-Geographie 2nde - Dynamiques territoriales',
-        'Histoire-Geographie',
-        '2nde',
-        [
-            {
-                'id': '1686_1',
-                'type': 'qcm',
-                'question': "[Histoire-Geographie 2nde] Sur le theme 'Dynamiques territoriales', quelle demarche est la plus efficace pour reussir un exercice diagnostic ?",
-                'options': [
-                    "Relire la consigne et identifier l'objectif",
-                    'Repondre vite sans verifier',
-                    'Ignorer le contexte',
-                    'Memoriser sans comprendre'
-                ],
-                'correct_option': "Relire la consigne et identifier l'objectif",
-                'explanation': "Identifier l'objectif de la consigne permet de mobiliser la bonne methode."
-            },
-            {
-                'id': '1686_2',
-                'type': 'vrai-faux',
-                'question': "[Histoire-Geographie 2nde] Sur 'Dynamiques territoriales', verifier ses reponses avant validation ameliore la fiabilite.",
-                'correct': True,
-                'explanation': "Une relecture finale aide a corriger les erreurs d'inattention."
-            },
-            {
-                'id': '1686_3',
-                'type': 'texte',
-                'question': "[Histoire-Geographie 2nde] Cite une methode concrete pour progresser sur le theme 'Dynamiques territoriales'.",
-                'correct_answer': "S'entrainer regulierement, analyser ses erreurs et reformuler les notions essentielles.",
-                'explanation': "La progression vient de la repetition guidee et de l'analyse des erreurs."
-            },
-            {
-                'id': '1686_4',
-                'type': 'qcm',
-                'question': "[Histoire-Geographie 2nde] Quelle action favorise la memorisation durable du theme 'Dynamiques territoriales' ?",
-                'options': [
-                    'Faire des rappels espaces',
-                    'Tout revoir une seule fois',
-                    'Copier sans comprendre',
-                    'Eviter les exercices'
-                ],
-                'correct_option': 'Faire des rappels espaces',
-                'explanation': 'Les rappels espaces consolidant la memoire a long terme.'
-            },
-            {
-                'id': '1686_5',
-                'type': 'vrai-faux',
-                'question': "[Histoire-Geographie 2nde] L'explication d'une reponse est moins importante que la reponse elle-meme.",
-                'correct': False,
-                'explanation': 'La justification montre la comprehension et permet un feedback utile.'
-            },
-            {
-                'id': '1686_6',
-                'type': 'texte',
-                'question': "[Histoire-Geographie 2nde] Propose un exemple d'auto-correction pertinente sur 'Dynamiques territoriales'.",
-                'correct_answer': "Comparer sa reponse au corrig?, identifier l'erreur precise et ecrire la bonne strategie.",
-                'explanation': "L'auto-correction explicite transforme une erreur en apprentissage."
-            },
-            {
-                'id': '1686_7',
-                'type': 'qcm',
-                'question': "[Histoire-Geographie 2nde] Quel indicateur montre une bonne maitrise du theme 'Dynamiques territoriales' ?",
-                'options': [
-                    'Expliquer clairement la demarche',
-                    'Donner une reponse au hasard',
-                    'Eviter les notions difficiles',
-                    'Memoriser sans application'
-                ],
-                'correct_option': 'Expliquer clairement la demarche',
-                'explanation': 'Savoir expliquer la demarche prouve une comprehension solide.'
-            },
-            {
-                'id': '1686_8',
-                'type': 'vrai-faux',
-                'question': "[Histoire-Geographie 2nde] Alterner entrainement, feedback et reprise des erreurs aide a progresser sur 'Dynamiques territoriales'.",
-                'correct': True,
-                'explanation': 'Le cycle entrainement-feedback-reprise est une methode robuste de progression.'
-            }
-        ]
-    ),
-    (
-        1687,
-        'Histoire-Geographie 2nde - Puissances et influences',
-        'Histoire-Geographie',
-        '2nde',
-        [
-            {
-                'id': '1687_1',
-                'type': 'qcm',
-                'question': "[Histoire-Geographie 2nde] Sur le theme 'Puissances et influences', quelle demarche est la plus efficace pour reussir un exercice diagnostic ?",
-                'options': [
-                    "Relire la consigne et identifier l'objectif",
-                    'Repondre vite sans verifier',
-                    'Ignorer le contexte',
-                    'Memoriser sans comprendre'
-                ],
-                'correct_option': "Relire la consigne et identifier l'objectif",
-                'explanation': "Identifier l'objectif de la consigne permet de mobiliser la bonne methode."
-            },
-            {
-                'id': '1687_2',
-                'type': 'vrai-faux',
-                'question': "[Histoire-Geographie 2nde] Sur 'Puissances et influences', verifier ses reponses avant validation ameliore la fiabilite.",
-                'correct': True,
-                'explanation': "Une relecture finale aide a corriger les erreurs d'inattention."
-            },
-            {
-                'id': '1687_3',
-                'type': 'texte',
-                'question': "[Histoire-Geographie 2nde] Cite une methode concrete pour progresser sur le theme 'Puissances et influences'.",
-                'correct_answer': "S'entrainer regulierement, analyser ses erreurs et reformuler les notions essentielles.",
-                'explanation': "La progression vient de la repetition guidee et de l'analyse des erreurs."
-            },
-            {
-                'id': '1687_4',
-                'type': 'qcm',
-                'question': "[Histoire-Geographie 2nde] Quelle action favorise la memorisation durable du theme 'Puissances et influences' ?",
-                'options': [
-                    'Faire des rappels espaces',
-                    'Tout revoir une seule fois',
-                    'Copier sans comprendre',
-                    'Eviter les exercices'
-                ],
-                'correct_option': 'Faire des rappels espaces',
-                'explanation': 'Les rappels espaces consolidant la memoire a long terme.'
-            },
-            {
-                'id': '1687_5',
-                'type': 'vrai-faux',
-                'question': "[Histoire-Geographie 2nde] L'explication d'une reponse est moins importante que la reponse elle-meme.",
-                'correct': False,
-                'explanation': 'La justification montre la comprehension et permet un feedback utile.'
-            },
-            {
-                'id': '1687_6',
-                'type': 'texte',
-                'question': "[Histoire-Geographie 2nde] Propose un exemple d'auto-correction pertinente sur 'Puissances et influences'.",
-                'correct_answer': "Comparer sa reponse au corrig?, identifier l'erreur precise et ecrire la bonne strategie.",
-                'explanation': "L'auto-correction explicite transforme une erreur en apprentissage."
-            },
-            {
-                'id': '1687_7',
-                'type': 'qcm',
-                'question': "[Histoire-Geographie 2nde] Quel indicateur montre une bonne maitrise du theme 'Puissances et influences' ?",
-                'options': [
-                    'Expliquer clairement la demarche',
-                    'Donner une reponse au hasard',
-                    'Eviter les notions difficiles',
-                    'Memoriser sans application'
-                ],
-                'correct_option': 'Expliquer clairement la demarche',
-                'explanation': 'Savoir expliquer la demarche prouve une comprehension solide.'
-            },
-            {
-                'id': '1687_8',
-                'type': 'vrai-faux',
-                'question': "[Histoire-Geographie 2nde] Alterner entrainement, feedback et reprise des erreurs aide a progresser sur 'Puissances et influences'.",
-                'correct': True,
-                'explanation': 'Le cycle entrainement-feedback-reprise est une methode robuste de progression.'
-            }
-        ]
-    ),
-    (
-        1688,
-        'Histoire-Geographie 2nde - Developpement durable',
-        'Histoire-Geographie',
-        '2nde',
-        [
-            {
-                'id': '1688_1',
-                'type': 'qcm',
-                'question': "[Histoire-Geographie 2nde] Sur le theme 'Developpement durable', quelle demarche est la plus efficace pour reussir un exercice diagnostic ?",
-                'options': [
-                    "Relire la consigne et identifier l'objectif",
-                    'Repondre vite sans verifier',
-                    'Ignorer le contexte',
-                    'Memoriser sans comprendre'
-                ],
-                'correct_option': "Relire la consigne et identifier l'objectif",
-                'explanation': "Identifier l'objectif de la consigne permet de mobiliser la bonne methode."
-            },
-            {
-                'id': '1688_2',
-                'type': 'vrai-faux',
-                'question': "[Histoire-Geographie 2nde] Sur 'Developpement durable', verifier ses reponses avant validation ameliore la fiabilite.",
-                'correct': True,
-                'explanation': "Une relecture finale aide a corriger les erreurs d'inattention."
-            },
-            {
-                'id': '1688_3',
-                'type': 'texte',
-                'question': "[Histoire-Geographie 2nde] Cite une methode concrete pour progresser sur le theme 'Developpement durable'.",
-                'correct_answer': "S'entrainer regulierement, analyser ses erreurs et reformuler les notions essentielles.",
-                'explanation': "La progression vient de la repetition guidee et de l'analyse des erreurs."
-            },
-            {
-                'id': '1688_4',
-                'type': 'qcm',
-                'question': "[Histoire-Geographie 2nde] Quelle action favorise la memorisation durable du theme 'Developpement durable' ?",
-                'options': [
-                    'Faire des rappels espaces',
-                    'Tout revoir une seule fois',
-                    'Copier sans comprendre',
-                    'Eviter les exercices'
-                ],
-                'correct_option': 'Faire des rappels espaces',
-                'explanation': 'Les rappels espaces consolidant la memoire a long terme.'
-            },
-            {
-                'id': '1688_5',
-                'type': 'vrai-faux',
-                'question': "[Histoire-Geographie 2nde] L'explication d'une reponse est moins importante que la reponse elle-meme.",
-                'correct': False,
-                'explanation': 'La justification montre la comprehension et permet un feedback utile.'
-            },
-            {
-                'id': '1688_6',
-                'type': 'texte',
-                'question': "[Histoire-Geographie 2nde] Propose un exemple d'auto-correction pertinente sur 'Developpement durable'.",
-                'correct_answer': "Comparer sa reponse au corrig?, identifier l'erreur precise et ecrire la bonne strategie.",
-                'explanation': "L'auto-correction explicite transforme une erreur en apprentissage."
-            },
-            {
-                'id': '1688_7',
-                'type': 'qcm',
-                'question': "[Histoire-Geographie 2nde] Quel indicateur montre une bonne maitrise du theme 'Developpement durable' ?",
-                'options': [
-                    'Expliquer clairement la demarche',
-                    'Donner une reponse au hasard',
-                    'Eviter les notions difficiles',
-                    'Memoriser sans application'
-                ],
-                'correct_option': 'Expliquer clairement la demarche',
-                'explanation': 'Savoir expliquer la demarche prouve une comprehension solide.'
-            },
-            {
-                'id': '1688_8',
-                'type': 'vrai-faux',
-                'question': "[Histoire-Geographie 2nde] Alterner entrainement, feedback et reprise des erreurs aide a progresser sur 'Developpement durable'.",
-                'correct': True,
-                'explanation': 'Le cycle entrainement-feedback-reprise est une methode robuste de progression.'
-            }
-        ]
-    ),
-    (
-        1689,
-        'Histoire-Geographie 2nde - Etude de documents',
-        'Histoire-Geographie',
-        '2nde',
-        [
-            {
-                'id': '1689_1',
-                'type': 'qcm',
-                'question': "[Histoire-Geographie 2nde] Sur le theme 'Etude de documents', quelle demarche est la plus efficace pour reussir un exercice diagnostic ?",
-                'options': [
-                    "Relire la consigne et identifier l'objectif",
-                    'Repondre vite sans verifier',
-                    'Ignorer le contexte',
-                    'Memoriser sans comprendre'
-                ],
-                'correct_option': "Relire la consigne et identifier l'objectif",
-                'explanation': "Identifier l'objectif de la consigne permet de mobiliser la bonne methode."
-            },
-            {
-                'id': '1689_2',
-                'type': 'vrai-faux',
-                'question': "[Histoire-Geographie 2nde] Sur 'Etude de documents', verifier ses reponses avant validation ameliore la fiabilite.",
-                'correct': True,
-                'explanation': "Une relecture finale aide a corriger les erreurs d'inattention."
-            },
-            {
-                'id': '1689_3',
-                'type': 'texte',
-                'question': "[Histoire-Geographie 2nde] Cite une methode concrete pour progresser sur le theme 'Etude de documents'.",
-                'correct_answer': "S'entrainer regulierement, analyser ses erreurs et reformuler les notions essentielles.",
-                'explanation': "La progression vient de la repetition guidee et de l'analyse des erreurs."
-            },
-            {
-                'id': '1689_4',
-                'type': 'qcm',
-                'question': "[Histoire-Geographie 2nde] Quelle action favorise la memorisation durable du theme 'Etude de documents' ?",
-                'options': [
-                    'Faire des rappels espaces',
-                    'Tout revoir une seule fois',
-                    'Copier sans comprendre',
-                    'Eviter les exercices'
-                ],
-                'correct_option': 'Faire des rappels espaces',
-                'explanation': 'Les rappels espaces consolidant la memoire a long terme.'
-            },
-            {
-                'id': '1689_5',
-                'type': 'vrai-faux',
-                'question': "[Histoire-Geographie 2nde] L'explication d'une reponse est moins importante que la reponse elle-meme.",
-                'correct': False,
-                'explanation': 'La justification montre la comprehension et permet un feedback utile.'
-            },
-            {
-                'id': '1689_6',
-                'type': 'texte',
-                'question': "[Histoire-Geographie 2nde] Propose un exemple d'auto-correction pertinente sur 'Etude de documents'.",
-                'correct_answer': "Comparer sa reponse au corrig?, identifier l'erreur precise et ecrire la bonne strategie.",
-                'explanation': "L'auto-correction explicite transforme une erreur en apprentissage."
-            },
-            {
-                'id': '1689_7',
-                'type': 'qcm',
-                'question': "[Histoire-Geographie 2nde] Quel indicateur montre une bonne maitrise du theme 'Etude de documents' ?",
-                'options': [
-                    'Expliquer clairement la demarche',
-                    'Donner une reponse au hasard',
-                    'Eviter les notions difficiles',
-                    'Memoriser sans application'
-                ],
-                'correct_option': 'Expliquer clairement la demarche',
-                'explanation': 'Savoir expliquer la demarche prouve une comprehension solide.'
-            },
-            {
-                'id': '1689_8',
-                'type': 'vrai-faux',
-                'question': "[Histoire-Geographie 2nde] Alterner entrainement, feedback et reprise des erreurs aide a progresser sur 'Etude de documents'.",
-                'correct': True,
-                'explanation': 'Le cycle entrainement-feedback-reprise est une methode robuste de progression.'
-            }
-        ]
-    ),
-    (
-        1690,
-        'Histoire-Geographie 2nde - Methodes de composition',
-        'Histoire-Geographie',
-        '2nde',
-        [
-            {
-                'id': '1690_1',
-                'type': 'qcm',
-                'question': "[Histoire-Geographie 2nde] Sur le theme 'Methodes de composition', quelle demarche est la plus efficace pour reussir un exercice diagnostic ?",
-                'options': [
-                    "Relire la consigne et identifier l'objectif",
-                    'Repondre vite sans verifier',
-                    'Ignorer le contexte',
-                    'Memoriser sans comprendre'
-                ],
-                'correct_option': "Relire la consigne et identifier l'objectif",
-                'explanation': "Identifier l'objectif de la consigne permet de mobiliser la bonne methode."
-            },
-            {
-                'id': '1690_2',
-                'type': 'vrai-faux',
-                'question': "[Histoire-Geographie 2nde] Sur 'Methodes de composition', verifier ses reponses avant validation ameliore la fiabilite.",
-                'correct': True,
-                'explanation': "Une relecture finale aide a corriger les erreurs d'inattention."
-            },
-            {
-                'id': '1690_3',
-                'type': 'texte',
-                'question': "[Histoire-Geographie 2nde] Cite une methode concrete pour progresser sur le theme 'Methodes de composition'.",
-                'correct_answer': "S'entrainer regulierement, analyser ses erreurs et reformuler les notions essentielles.",
-                'explanation': "La progression vient de la repetition guidee et de l'analyse des erreurs."
-            },
-            {
-                'id': '1690_4',
-                'type': 'qcm',
-                'question': "[Histoire-Geographie 2nde] Quelle action favorise la memorisation durable du theme 'Methodes de composition' ?",
-                'options': [
-                    'Faire des rappels espaces',
-                    'Tout revoir une seule fois',
-                    'Copier sans comprendre',
-                    'Eviter les exercices'
-                ],
-                'correct_option': 'Faire des rappels espaces',
-                'explanation': 'Les rappels espaces consolidant la memoire a long terme.'
-            },
-            {
-                'id': '1690_5',
-                'type': 'vrai-faux',
-                'question': "[Histoire-Geographie 2nde] L'explication d'une reponse est moins importante que la reponse elle-meme.",
-                'correct': False,
-                'explanation': 'La justification montre la comprehension et permet un feedback utile.'
-            },
-            {
-                'id': '1690_6',
-                'type': 'texte',
-                'question': "[Histoire-Geographie 2nde] Propose un exemple d'auto-correction pertinente sur 'Methodes de composition'.",
-                'correct_answer': "Comparer sa reponse au corrig?, identifier l'erreur precise et ecrire la bonne strategie.",
-                'explanation': "L'auto-correction explicite transforme une erreur en apprentissage."
-            },
-            {
-                'id': '1690_7',
-                'type': 'qcm',
-                'question': "[Histoire-Geographie 2nde] Quel indicateur montre une bonne maitrise du theme 'Methodes de composition' ?",
-                'options': [
-                    'Expliquer clairement la demarche',
-                    'Donner une reponse au hasard',
-                    'Eviter les notions difficiles',
-                    'Memoriser sans application'
-                ],
-                'correct_option': 'Expliquer clairement la demarche',
-                'explanation': 'Savoir expliquer la demarche prouve une comprehension solide.'
-            },
-            {
-                'id': '1690_8',
-                'type': 'vrai-faux',
-                'question': "[Histoire-Geographie 2nde] Alterner entrainement, feedback et reprise des erreurs aide a progresser sur 'Methodes de composition'.",
-                'correct': True,
-                'explanation': 'Le cycle entrainement-feedback-reprise est une methode robuste de progression.'
-            }
-        ]
-    ),
-    (
-        1691,
-        'Histoire-Geographie 2nde - Cartographie',
-        'Histoire-Geographie',
-        '2nde',
-        [
-            {
-                'id': '1691_1',
-                'type': 'qcm',
-                'question': "[Histoire-Geographie 2nde] Sur le theme 'Cartographie', quelle demarche est la plus efficace pour reussir un exercice diagnostic ?",
-                'options': [
-                    "Relire la consigne et identifier l'objectif",
-                    'Repondre vite sans verifier',
-                    'Ignorer le contexte',
-                    'Memoriser sans comprendre'
-                ],
-                'correct_option': "Relire la consigne et identifier l'objectif",
-                'explanation': "Identifier l'objectif de la consigne permet de mobiliser la bonne methode."
-            },
-            {
-                'id': '1691_2',
-                'type': 'vrai-faux',
-                'question': "[Histoire-Geographie 2nde] Sur 'Cartographie', verifier ses reponses avant validation ameliore la fiabilite.",
-                'correct': True,
-                'explanation': "Une relecture finale aide a corriger les erreurs d'inattention."
-            },
-            {
-                'id': '1691_3',
-                'type': 'texte',
-                'question': "[Histoire-Geographie 2nde] Cite une methode concrete pour progresser sur le theme 'Cartographie'.",
-                'correct_answer': "S'entrainer regulierement, analyser ses erreurs et reformuler les notions essentielles.",
-                'explanation': "La progression vient de la repetition guidee et de l'analyse des erreurs."
-            },
-            {
-                'id': '1691_4',
-                'type': 'qcm',
-                'question': "[Histoire-Geographie 2nde] Quelle action favorise la memorisation durable du theme 'Cartographie' ?",
-                'options': [
-                    'Faire des rappels espaces',
-                    'Tout revoir une seule fois',
-                    'Copier sans comprendre',
-                    'Eviter les exercices'
-                ],
-                'correct_option': 'Faire des rappels espaces',
-                'explanation': 'Les rappels espaces consolidant la memoire a long terme.'
-            },
-            {
-                'id': '1691_5',
-                'type': 'vrai-faux',
-                'question': "[Histoire-Geographie 2nde] L'explication d'une reponse est moins importante que la reponse elle-meme.",
-                'correct': False,
-                'explanation': 'La justification montre la comprehension et permet un feedback utile.'
-            },
-            {
-                'id': '1691_6',
-                'type': 'texte',
-                'question': "[Histoire-Geographie 2nde] Propose un exemple d'auto-correction pertinente sur 'Cartographie'.",
-                'correct_answer': "Comparer sa reponse au corrig?, identifier l'erreur precise et ecrire la bonne strategie.",
-                'explanation': "L'auto-correction explicite transforme une erreur en apprentissage."
-            },
-            {
-                'id': '1691_7',
-                'type': 'qcm',
-                'question': "[Histoire-Geographie 2nde] Quel indicateur montre une bonne maitrise du theme 'Cartographie' ?",
-                'options': [
-                    'Expliquer clairement la demarche',
-                    'Donner une reponse au hasard',
-                    'Eviter les notions difficiles',
-                    'Memoriser sans application'
-                ],
-                'correct_option': 'Expliquer clairement la demarche',
-                'explanation': 'Savoir expliquer la demarche prouve une comprehension solide.'
-            },
-            {
-                'id': '1691_8',
-                'type': 'vrai-faux',
-                'question': "[Histoire-Geographie 2nde] Alterner entrainement, feedback et reprise des erreurs aide a progresser sur 'Cartographie'.",
-                'correct': True,
-                'explanation': 'Le cycle entrainement-feedback-reprise est une methode robuste de progression.'
-            }
-        ]
-    ),
-    (
-        1692,
-        'Histoire-Geographie 2nde - Analyse critique des sources',
-        'Histoire-Geographie',
-        '2nde',
-        [
-            {
-                'id': '1692_1',
-                'type': 'qcm',
-                'question': "[Histoire-Geographie 2nde] Sur le theme 'Analyse critique des sources', quelle demarche est la plus efficace pour reussir un exercice diagnostic ?",
-                'options': [
-                    "Relire la consigne et identifier l'objectif",
-                    'Repondre vite sans verifier',
-                    'Ignorer le contexte',
-                    'Memoriser sans comprendre'
-                ],
-                'correct_option': "Relire la consigne et identifier l'objectif",
-                'explanation': "Identifier l'objectif de la consigne permet de mobiliser la bonne methode."
-            },
-            {
-                'id': '1692_2',
-                'type': 'vrai-faux',
-                'question': "[Histoire-Geographie 2nde] Sur 'Analyse critique des sources', verifier ses reponses avant validation ameliore la fiabilite.",
-                'correct': True,
-                'explanation': "Une relecture finale aide a corriger les erreurs d'inattention."
-            },
-            {
-                'id': '1692_3',
-                'type': 'texte',
-                'question': "[Histoire-Geographie 2nde] Cite une methode concrete pour progresser sur le theme 'Analyse critique des sources'.",
-                'correct_answer': "S'entrainer regulierement, analyser ses erreurs et reformuler les notions essentielles.",
-                'explanation': "La progression vient de la repetition guidee et de l'analyse des erreurs."
-            },
-            {
                 'id': '1692_4',
                 'type': 'qcm',
-                'question': "[Histoire-Geographie 2nde] Quelle action favorise la memorisation durable du theme 'Analyse critique des sources' ?",
+                'question': "[Histoire-Geographie 2nde] Quelle action favorise la memorisation durable du theme 'Reperes chronologiques' ?",
                 'options': [
                     'Faire des rappels espaces',
                     'Tout revoir une seule fois',
@@ -992,14 +262,14 @@ quizzes_data = [
             {
                 'id': '1692_6',
                 'type': 'texte',
-                'question': "[Histoire-Geographie 2nde] Propose un exemple d'auto-correction pertinente sur 'Analyse critique des sources'.",
+                'question': "[Histoire-Geographie 2nde] Propose un exemple d'auto-correction pertinente sur 'Reperes chronologiques'.",
                 'correct_answer': "Comparer sa reponse au corrig?, identifier l'erreur precise et ecrire la bonne strategie.",
                 'explanation': "L'auto-correction explicite transforme une erreur en apprentissage."
             },
             {
                 'id': '1692_7',
                 'type': 'qcm',
-                'question': "[Histoire-Geographie 2nde] Quel indicateur montre une bonne maitrise du theme 'Analyse critique des sources' ?",
+                'question': "[Histoire-Geographie 2nde] Quel indicateur montre une bonne maitrise du theme 'Reperes chronologiques' ?",
                 'options': [
                     'Expliquer clairement la demarche',
                     'Donner une reponse au hasard',
@@ -1012,6 +282,744 @@ quizzes_data = [
             {
                 'id': '1692_8',
                 'type': 'vrai-faux',
+                'question': "[Histoire-Geographie 2nde] Alterner entrainement, feedback et reprise des erreurs aide a progresser sur 'Reperes chronologiques'.",
+                'correct': True,
+                'explanation': 'Le cycle entrainement-feedback-reprise est une methode robuste de progression.'
+            }
+        ]
+    ),
+    (
+        1693,
+        'Histoire-Geographie 2nde - Acteurs et evenements',
+        'Histoire-Geographie',
+        '2nde',
+        [
+            {
+                'id': '1693_1',
+                'type': 'qcm',
+                'question': "[Histoire-Geographie 2nde] Sur le theme 'Acteurs et evenements', quelle demarche est la plus efficace pour reussir un exercice diagnostic ?",
+                'options': [
+                    "Relire la consigne et identifier l'objectif",
+                    'Repondre vite sans verifier',
+                    'Ignorer le contexte',
+                    'Memoriser sans comprendre'
+                ],
+                'correct_option': "Relire la consigne et identifier l'objectif",
+                'explanation': "Identifier l'objectif de la consigne permet de mobiliser la bonne methode."
+            },
+            {
+                'id': '1693_2',
+                'type': 'vrai-faux',
+                'question': "[Histoire-Geographie 2nde] Sur 'Acteurs et evenements', verifier ses reponses avant validation ameliore la fiabilite.",
+                'correct': True,
+                'explanation': "Une relecture finale aide a corriger les erreurs d'inattention."
+            },
+            {
+                'id': '1693_3',
+                'type': 'texte',
+                'question': "[Histoire-Geographie 2nde] Cite une methode concrete pour progresser sur le theme 'Acteurs et evenements'.",
+                'correct_answer': "S'entrainer regulierement, analyser ses erreurs et reformuler les notions essentielles.",
+                'explanation': "La progression vient de la repetition guidee et de l'analyse des erreurs."
+            },
+            {
+                'id': '1693_4',
+                'type': 'qcm',
+                'question': "[Histoire-Geographie 2nde] Quelle action favorise la memorisation durable du theme 'Acteurs et evenements' ?",
+                'options': [
+                    'Faire des rappels espaces',
+                    'Tout revoir une seule fois',
+                    'Copier sans comprendre',
+                    'Eviter les exercices'
+                ],
+                'correct_option': 'Faire des rappels espaces',
+                'explanation': 'Les rappels espaces consolidant la memoire a long terme.'
+            },
+            {
+                'id': '1693_5',
+                'type': 'vrai-faux',
+                'question': "[Histoire-Geographie 2nde] L'explication d'une reponse est moins importante que la reponse elle-meme.",
+                'correct': False,
+                'explanation': 'La justification montre la comprehension et permet un feedback utile.'
+            },
+            {
+                'id': '1693_6',
+                'type': 'texte',
+                'question': "[Histoire-Geographie 2nde] Propose un exemple d'auto-correction pertinente sur 'Acteurs et evenements'.",
+                'correct_answer': "Comparer sa reponse au corrig?, identifier l'erreur precise et ecrire la bonne strategie.",
+                'explanation': "L'auto-correction explicite transforme une erreur en apprentissage."
+            },
+            {
+                'id': '1693_7',
+                'type': 'qcm',
+                'question': "[Histoire-Geographie 2nde] Quel indicateur montre une bonne maitrise du theme 'Acteurs et evenements' ?",
+                'options': [
+                    'Expliquer clairement la demarche',
+                    'Donner une reponse au hasard',
+                    'Eviter les notions difficiles',
+                    'Memoriser sans application'
+                ],
+                'correct_option': 'Expliquer clairement la demarche',
+                'explanation': 'Savoir expliquer la demarche prouve une comprehension solide.'
+            },
+            {
+                'id': '1693_8',
+                'type': 'vrai-faux',
+                'question': "[Histoire-Geographie 2nde] Alterner entrainement, feedback et reprise des erreurs aide a progresser sur 'Acteurs et evenements'.",
+                'correct': True,
+                'explanation': 'Le cycle entrainement-feedback-reprise est une methode robuste de progression.'
+            }
+        ]
+    ),
+    (
+        1694,
+        'Histoire-Geographie 2nde - Espaces productifs',
+        'Histoire-Geographie',
+        '2nde',
+        [
+            {
+                'id': '1694_1',
+                'type': 'qcm',
+                'question': "[Histoire-Geographie 2nde] Sur le theme 'Espaces productifs', quelle demarche est la plus efficace pour reussir un exercice diagnostic ?",
+                'options': [
+                    "Relire la consigne et identifier l'objectif",
+                    'Repondre vite sans verifier',
+                    'Ignorer le contexte',
+                    'Memoriser sans comprendre'
+                ],
+                'correct_option': "Relire la consigne et identifier l'objectif",
+                'explanation': "Identifier l'objectif de la consigne permet de mobiliser la bonne methode."
+            },
+            {
+                'id': '1694_2',
+                'type': 'vrai-faux',
+                'question': "[Histoire-Geographie 2nde] Sur 'Espaces productifs', verifier ses reponses avant validation ameliore la fiabilite.",
+                'correct': True,
+                'explanation': "Une relecture finale aide a corriger les erreurs d'inattention."
+            },
+            {
+                'id': '1694_3',
+                'type': 'texte',
+                'question': "[Histoire-Geographie 2nde] Cite une methode concrete pour progresser sur le theme 'Espaces productifs'.",
+                'correct_answer': "S'entrainer regulierement, analyser ses erreurs et reformuler les notions essentielles.",
+                'explanation': "La progression vient de la repetition guidee et de l'analyse des erreurs."
+            },
+            {
+                'id': '1694_4',
+                'type': 'qcm',
+                'question': "[Histoire-Geographie 2nde] Quelle action favorise la memorisation durable du theme 'Espaces productifs' ?",
+                'options': [
+                    'Faire des rappels espaces',
+                    'Tout revoir une seule fois',
+                    'Copier sans comprendre',
+                    'Eviter les exercices'
+                ],
+                'correct_option': 'Faire des rappels espaces',
+                'explanation': 'Les rappels espaces consolidant la memoire a long terme.'
+            },
+            {
+                'id': '1694_5',
+                'type': 'vrai-faux',
+                'question': "[Histoire-Geographie 2nde] L'explication d'une reponse est moins importante que la reponse elle-meme.",
+                'correct': False,
+                'explanation': 'La justification montre la comprehension et permet un feedback utile.'
+            },
+            {
+                'id': '1694_6',
+                'type': 'texte',
+                'question': "[Histoire-Geographie 2nde] Propose un exemple d'auto-correction pertinente sur 'Espaces productifs'.",
+                'correct_answer': "Comparer sa reponse au corrig?, identifier l'erreur precise et ecrire la bonne strategie.",
+                'explanation': "L'auto-correction explicite transforme une erreur en apprentissage."
+            },
+            {
+                'id': '1694_7',
+                'type': 'qcm',
+                'question': "[Histoire-Geographie 2nde] Quel indicateur montre une bonne maitrise du theme 'Espaces productifs' ?",
+                'options': [
+                    'Expliquer clairement la demarche',
+                    'Donner une reponse au hasard',
+                    'Eviter les notions difficiles',
+                    'Memoriser sans application'
+                ],
+                'correct_option': 'Expliquer clairement la demarche',
+                'explanation': 'Savoir expliquer la demarche prouve une comprehension solide.'
+            },
+            {
+                'id': '1694_8',
+                'type': 'vrai-faux',
+                'question': "[Histoire-Geographie 2nde] Alterner entrainement, feedback et reprise des erreurs aide a progresser sur 'Espaces productifs'.",
+                'correct': True,
+                'explanation': 'Le cycle entrainement-feedback-reprise est une methode robuste de progression.'
+            }
+        ]
+    ),
+    (
+        1695,
+        'Histoire-Geographie 2nde - Dynamiques territoriales',
+        'Histoire-Geographie',
+        '2nde',
+        [
+            {
+                'id': '1695_1',
+                'type': 'qcm',
+                'question': "[Histoire-Geographie 2nde] Sur le theme 'Dynamiques territoriales', quelle demarche est la plus efficace pour reussir un exercice diagnostic ?",
+                'options': [
+                    "Relire la consigne et identifier l'objectif",
+                    'Repondre vite sans verifier',
+                    'Ignorer le contexte',
+                    'Memoriser sans comprendre'
+                ],
+                'correct_option': "Relire la consigne et identifier l'objectif",
+                'explanation': "Identifier l'objectif de la consigne permet de mobiliser la bonne methode."
+            },
+            {
+                'id': '1695_2',
+                'type': 'vrai-faux',
+                'question': "[Histoire-Geographie 2nde] Sur 'Dynamiques territoriales', verifier ses reponses avant validation ameliore la fiabilite.",
+                'correct': True,
+                'explanation': "Une relecture finale aide a corriger les erreurs d'inattention."
+            },
+            {
+                'id': '1695_3',
+                'type': 'texte',
+                'question': "[Histoire-Geographie 2nde] Cite une methode concrete pour progresser sur le theme 'Dynamiques territoriales'.",
+                'correct_answer': "S'entrainer regulierement, analyser ses erreurs et reformuler les notions essentielles.",
+                'explanation': "La progression vient de la repetition guidee et de l'analyse des erreurs."
+            },
+            {
+                'id': '1695_4',
+                'type': 'qcm',
+                'question': "[Histoire-Geographie 2nde] Quelle action favorise la memorisation durable du theme 'Dynamiques territoriales' ?",
+                'options': [
+                    'Faire des rappels espaces',
+                    'Tout revoir une seule fois',
+                    'Copier sans comprendre',
+                    'Eviter les exercices'
+                ],
+                'correct_option': 'Faire des rappels espaces',
+                'explanation': 'Les rappels espaces consolidant la memoire a long terme.'
+            },
+            {
+                'id': '1695_5',
+                'type': 'vrai-faux',
+                'question': "[Histoire-Geographie 2nde] L'explication d'une reponse est moins importante que la reponse elle-meme.",
+                'correct': False,
+                'explanation': 'La justification montre la comprehension et permet un feedback utile.'
+            },
+            {
+                'id': '1695_6',
+                'type': 'texte',
+                'question': "[Histoire-Geographie 2nde] Propose un exemple d'auto-correction pertinente sur 'Dynamiques territoriales'.",
+                'correct_answer': "Comparer sa reponse au corrig?, identifier l'erreur precise et ecrire la bonne strategie.",
+                'explanation': "L'auto-correction explicite transforme une erreur en apprentissage."
+            },
+            {
+                'id': '1695_7',
+                'type': 'qcm',
+                'question': "[Histoire-Geographie 2nde] Quel indicateur montre une bonne maitrise du theme 'Dynamiques territoriales' ?",
+                'options': [
+                    'Expliquer clairement la demarche',
+                    'Donner une reponse au hasard',
+                    'Eviter les notions difficiles',
+                    'Memoriser sans application'
+                ],
+                'correct_option': 'Expliquer clairement la demarche',
+                'explanation': 'Savoir expliquer la demarche prouve une comprehension solide.'
+            },
+            {
+                'id': '1695_8',
+                'type': 'vrai-faux',
+                'question': "[Histoire-Geographie 2nde] Alterner entrainement, feedback et reprise des erreurs aide a progresser sur 'Dynamiques territoriales'.",
+                'correct': True,
+                'explanation': 'Le cycle entrainement-feedback-reprise est une methode robuste de progression.'
+            }
+        ]
+    ),
+    (
+        1696,
+        'Histoire-Geographie 2nde - Puissances et influences',
+        'Histoire-Geographie',
+        '2nde',
+        [
+            {
+                'id': '1696_1',
+                'type': 'qcm',
+                'question': "[Histoire-Geographie 2nde] Sur le theme 'Puissances et influences', quelle demarche est la plus efficace pour reussir un exercice diagnostic ?",
+                'options': [
+                    "Relire la consigne et identifier l'objectif",
+                    'Repondre vite sans verifier',
+                    'Ignorer le contexte',
+                    'Memoriser sans comprendre'
+                ],
+                'correct_option': "Relire la consigne et identifier l'objectif",
+                'explanation': "Identifier l'objectif de la consigne permet de mobiliser la bonne methode."
+            },
+            {
+                'id': '1696_2',
+                'type': 'vrai-faux',
+                'question': "[Histoire-Geographie 2nde] Sur 'Puissances et influences', verifier ses reponses avant validation ameliore la fiabilite.",
+                'correct': True,
+                'explanation': "Une relecture finale aide a corriger les erreurs d'inattention."
+            },
+            {
+                'id': '1696_3',
+                'type': 'texte',
+                'question': "[Histoire-Geographie 2nde] Cite une methode concrete pour progresser sur le theme 'Puissances et influences'.",
+                'correct_answer': "S'entrainer regulierement, analyser ses erreurs et reformuler les notions essentielles.",
+                'explanation': "La progression vient de la repetition guidee et de l'analyse des erreurs."
+            },
+            {
+                'id': '1696_4',
+                'type': 'qcm',
+                'question': "[Histoire-Geographie 2nde] Quelle action favorise la memorisation durable du theme 'Puissances et influences' ?",
+                'options': [
+                    'Faire des rappels espaces',
+                    'Tout revoir une seule fois',
+                    'Copier sans comprendre',
+                    'Eviter les exercices'
+                ],
+                'correct_option': 'Faire des rappels espaces',
+                'explanation': 'Les rappels espaces consolidant la memoire a long terme.'
+            },
+            {
+                'id': '1696_5',
+                'type': 'vrai-faux',
+                'question': "[Histoire-Geographie 2nde] L'explication d'une reponse est moins importante que la reponse elle-meme.",
+                'correct': False,
+                'explanation': 'La justification montre la comprehension et permet un feedback utile.'
+            },
+            {
+                'id': '1696_6',
+                'type': 'texte',
+                'question': "[Histoire-Geographie 2nde] Propose un exemple d'auto-correction pertinente sur 'Puissances et influences'.",
+                'correct_answer': "Comparer sa reponse au corrig?, identifier l'erreur precise et ecrire la bonne strategie.",
+                'explanation': "L'auto-correction explicite transforme une erreur en apprentissage."
+            },
+            {
+                'id': '1696_7',
+                'type': 'qcm',
+                'question': "[Histoire-Geographie 2nde] Quel indicateur montre une bonne maitrise du theme 'Puissances et influences' ?",
+                'options': [
+                    'Expliquer clairement la demarche',
+                    'Donner une reponse au hasard',
+                    'Eviter les notions difficiles',
+                    'Memoriser sans application'
+                ],
+                'correct_option': 'Expliquer clairement la demarche',
+                'explanation': 'Savoir expliquer la demarche prouve une comprehension solide.'
+            },
+            {
+                'id': '1696_8',
+                'type': 'vrai-faux',
+                'question': "[Histoire-Geographie 2nde] Alterner entrainement, feedback et reprise des erreurs aide a progresser sur 'Puissances et influences'.",
+                'correct': True,
+                'explanation': 'Le cycle entrainement-feedback-reprise est une methode robuste de progression.'
+            }
+        ]
+    ),
+    (
+        1697,
+        'Histoire-Geographie 2nde - Developpement durable',
+        'Histoire-Geographie',
+        '2nde',
+        [
+            {
+                'id': '1697_1',
+                'type': 'qcm',
+                'question': "[Histoire-Geographie 2nde] Sur le theme 'Developpement durable', quelle demarche est la plus efficace pour reussir un exercice diagnostic ?",
+                'options': [
+                    "Relire la consigne et identifier l'objectif",
+                    'Repondre vite sans verifier',
+                    'Ignorer le contexte',
+                    'Memoriser sans comprendre'
+                ],
+                'correct_option': "Relire la consigne et identifier l'objectif",
+                'explanation': "Identifier l'objectif de la consigne permet de mobiliser la bonne methode."
+            },
+            {
+                'id': '1697_2',
+                'type': 'vrai-faux',
+                'question': "[Histoire-Geographie 2nde] Sur 'Developpement durable', verifier ses reponses avant validation ameliore la fiabilite.",
+                'correct': True,
+                'explanation': "Une relecture finale aide a corriger les erreurs d'inattention."
+            },
+            {
+                'id': '1697_3',
+                'type': 'texte',
+                'question': "[Histoire-Geographie 2nde] Cite une methode concrete pour progresser sur le theme 'Developpement durable'.",
+                'correct_answer': "S'entrainer regulierement, analyser ses erreurs et reformuler les notions essentielles.",
+                'explanation': "La progression vient de la repetition guidee et de l'analyse des erreurs."
+            },
+            {
+                'id': '1697_4',
+                'type': 'qcm',
+                'question': "[Histoire-Geographie 2nde] Quelle action favorise la memorisation durable du theme 'Developpement durable' ?",
+                'options': [
+                    'Faire des rappels espaces',
+                    'Tout revoir une seule fois',
+                    'Copier sans comprendre',
+                    'Eviter les exercices'
+                ],
+                'correct_option': 'Faire des rappels espaces',
+                'explanation': 'Les rappels espaces consolidant la memoire a long terme.'
+            },
+            {
+                'id': '1697_5',
+                'type': 'vrai-faux',
+                'question': "[Histoire-Geographie 2nde] L'explication d'une reponse est moins importante que la reponse elle-meme.",
+                'correct': False,
+                'explanation': 'La justification montre la comprehension et permet un feedback utile.'
+            },
+            {
+                'id': '1697_6',
+                'type': 'texte',
+                'question': "[Histoire-Geographie 2nde] Propose un exemple d'auto-correction pertinente sur 'Developpement durable'.",
+                'correct_answer': "Comparer sa reponse au corrig?, identifier l'erreur precise et ecrire la bonne strategie.",
+                'explanation': "L'auto-correction explicite transforme une erreur en apprentissage."
+            },
+            {
+                'id': '1697_7',
+                'type': 'qcm',
+                'question': "[Histoire-Geographie 2nde] Quel indicateur montre une bonne maitrise du theme 'Developpement durable' ?",
+                'options': [
+                    'Expliquer clairement la demarche',
+                    'Donner une reponse au hasard',
+                    'Eviter les notions difficiles',
+                    'Memoriser sans application'
+                ],
+                'correct_option': 'Expliquer clairement la demarche',
+                'explanation': 'Savoir expliquer la demarche prouve une comprehension solide.'
+            },
+            {
+                'id': '1697_8',
+                'type': 'vrai-faux',
+                'question': "[Histoire-Geographie 2nde] Alterner entrainement, feedback et reprise des erreurs aide a progresser sur 'Developpement durable'.",
+                'correct': True,
+                'explanation': 'Le cycle entrainement-feedback-reprise est une methode robuste de progression.'
+            }
+        ]
+    ),
+    (
+        1698,
+        'Histoire-Geographie 2nde - Etude de documents',
+        'Histoire-Geographie',
+        '2nde',
+        [
+            {
+                'id': '1698_1',
+                'type': 'qcm',
+                'question': "[Histoire-Geographie 2nde] Sur le theme 'Etude de documents', quelle demarche est la plus efficace pour reussir un exercice diagnostic ?",
+                'options': [
+                    "Relire la consigne et identifier l'objectif",
+                    'Repondre vite sans verifier',
+                    'Ignorer le contexte',
+                    'Memoriser sans comprendre'
+                ],
+                'correct_option': "Relire la consigne et identifier l'objectif",
+                'explanation': "Identifier l'objectif de la consigne permet de mobiliser la bonne methode."
+            },
+            {
+                'id': '1698_2',
+                'type': 'vrai-faux',
+                'question': "[Histoire-Geographie 2nde] Sur 'Etude de documents', verifier ses reponses avant validation ameliore la fiabilite.",
+                'correct': True,
+                'explanation': "Une relecture finale aide a corriger les erreurs d'inattention."
+            },
+            {
+                'id': '1698_3',
+                'type': 'texte',
+                'question': "[Histoire-Geographie 2nde] Cite une methode concrete pour progresser sur le theme 'Etude de documents'.",
+                'correct_answer': "S'entrainer regulierement, analyser ses erreurs et reformuler les notions essentielles.",
+                'explanation': "La progression vient de la repetition guidee et de l'analyse des erreurs."
+            },
+            {
+                'id': '1698_4',
+                'type': 'qcm',
+                'question': "[Histoire-Geographie 2nde] Quelle action favorise la memorisation durable du theme 'Etude de documents' ?",
+                'options': [
+                    'Faire des rappels espaces',
+                    'Tout revoir une seule fois',
+                    'Copier sans comprendre',
+                    'Eviter les exercices'
+                ],
+                'correct_option': 'Faire des rappels espaces',
+                'explanation': 'Les rappels espaces consolidant la memoire a long terme.'
+            },
+            {
+                'id': '1698_5',
+                'type': 'vrai-faux',
+                'question': "[Histoire-Geographie 2nde] L'explication d'une reponse est moins importante que la reponse elle-meme.",
+                'correct': False,
+                'explanation': 'La justification montre la comprehension et permet un feedback utile.'
+            },
+            {
+                'id': '1698_6',
+                'type': 'texte',
+                'question': "[Histoire-Geographie 2nde] Propose un exemple d'auto-correction pertinente sur 'Etude de documents'.",
+                'correct_answer': "Comparer sa reponse au corrig?, identifier l'erreur precise et ecrire la bonne strategie.",
+                'explanation': "L'auto-correction explicite transforme une erreur en apprentissage."
+            },
+            {
+                'id': '1698_7',
+                'type': 'qcm',
+                'question': "[Histoire-Geographie 2nde] Quel indicateur montre une bonne maitrise du theme 'Etude de documents' ?",
+                'options': [
+                    'Expliquer clairement la demarche',
+                    'Donner une reponse au hasard',
+                    'Eviter les notions difficiles',
+                    'Memoriser sans application'
+                ],
+                'correct_option': 'Expliquer clairement la demarche',
+                'explanation': 'Savoir expliquer la demarche prouve une comprehension solide.'
+            },
+            {
+                'id': '1698_8',
+                'type': 'vrai-faux',
+                'question': "[Histoire-Geographie 2nde] Alterner entrainement, feedback et reprise des erreurs aide a progresser sur 'Etude de documents'.",
+                'correct': True,
+                'explanation': 'Le cycle entrainement-feedback-reprise est une methode robuste de progression.'
+            }
+        ]
+    ),
+    (
+        1699,
+        'Histoire-Geographie 2nde - Methodes de composition',
+        'Histoire-Geographie',
+        '2nde',
+        [
+            {
+                'id': '1699_1',
+                'type': 'qcm',
+                'question': "[Histoire-Geographie 2nde] Sur le theme 'Methodes de composition', quelle demarche est la plus efficace pour reussir un exercice diagnostic ?",
+                'options': [
+                    "Relire la consigne et identifier l'objectif",
+                    'Repondre vite sans verifier',
+                    'Ignorer le contexte',
+                    'Memoriser sans comprendre'
+                ],
+                'correct_option': "Relire la consigne et identifier l'objectif",
+                'explanation': "Identifier l'objectif de la consigne permet de mobiliser la bonne methode."
+            },
+            {
+                'id': '1699_2',
+                'type': 'vrai-faux',
+                'question': "[Histoire-Geographie 2nde] Sur 'Methodes de composition', verifier ses reponses avant validation ameliore la fiabilite.",
+                'correct': True,
+                'explanation': "Une relecture finale aide a corriger les erreurs d'inattention."
+            },
+            {
+                'id': '1699_3',
+                'type': 'texte',
+                'question': "[Histoire-Geographie 2nde] Cite une methode concrete pour progresser sur le theme 'Methodes de composition'.",
+                'correct_answer': "S'entrainer regulierement, analyser ses erreurs et reformuler les notions essentielles.",
+                'explanation': "La progression vient de la repetition guidee et de l'analyse des erreurs."
+            },
+            {
+                'id': '1699_4',
+                'type': 'qcm',
+                'question': "[Histoire-Geographie 2nde] Quelle action favorise la memorisation durable du theme 'Methodes de composition' ?",
+                'options': [
+                    'Faire des rappels espaces',
+                    'Tout revoir une seule fois',
+                    'Copier sans comprendre',
+                    'Eviter les exercices'
+                ],
+                'correct_option': 'Faire des rappels espaces',
+                'explanation': 'Les rappels espaces consolidant la memoire a long terme.'
+            },
+            {
+                'id': '1699_5',
+                'type': 'vrai-faux',
+                'question': "[Histoire-Geographie 2nde] L'explication d'une reponse est moins importante que la reponse elle-meme.",
+                'correct': False,
+                'explanation': 'La justification montre la comprehension et permet un feedback utile.'
+            },
+            {
+                'id': '1699_6',
+                'type': 'texte',
+                'question': "[Histoire-Geographie 2nde] Propose un exemple d'auto-correction pertinente sur 'Methodes de composition'.",
+                'correct_answer': "Comparer sa reponse au corrig?, identifier l'erreur precise et ecrire la bonne strategie.",
+                'explanation': "L'auto-correction explicite transforme une erreur en apprentissage."
+            },
+            {
+                'id': '1699_7',
+                'type': 'qcm',
+                'question': "[Histoire-Geographie 2nde] Quel indicateur montre une bonne maitrise du theme 'Methodes de composition' ?",
+                'options': [
+                    'Expliquer clairement la demarche',
+                    'Donner une reponse au hasard',
+                    'Eviter les notions difficiles',
+                    'Memoriser sans application'
+                ],
+                'correct_option': 'Expliquer clairement la demarche',
+                'explanation': 'Savoir expliquer la demarche prouve une comprehension solide.'
+            },
+            {
+                'id': '1699_8',
+                'type': 'vrai-faux',
+                'question': "[Histoire-Geographie 2nde] Alterner entrainement, feedback et reprise des erreurs aide a progresser sur 'Methodes de composition'.",
+                'correct': True,
+                'explanation': 'Le cycle entrainement-feedback-reprise est une methode robuste de progression.'
+            }
+        ]
+    ),
+    (
+        1700,
+        'Histoire-Geographie 2nde - Cartographie',
+        'Histoire-Geographie',
+        '2nde',
+        [
+            {
+                'id': '1700_1',
+                'type': 'qcm',
+                'question': "[Histoire-Geographie 2nde] Sur le theme 'Cartographie', quelle demarche est la plus efficace pour reussir un exercice diagnostic ?",
+                'options': [
+                    "Relire la consigne et identifier l'objectif",
+                    'Repondre vite sans verifier',
+                    'Ignorer le contexte',
+                    'Memoriser sans comprendre'
+                ],
+                'correct_option': "Relire la consigne et identifier l'objectif",
+                'explanation': "Identifier l'objectif de la consigne permet de mobiliser la bonne methode."
+            },
+            {
+                'id': '1700_2',
+                'type': 'vrai-faux',
+                'question': "[Histoire-Geographie 2nde] Sur 'Cartographie', verifier ses reponses avant validation ameliore la fiabilite.",
+                'correct': True,
+                'explanation': "Une relecture finale aide a corriger les erreurs d'inattention."
+            },
+            {
+                'id': '1700_3',
+                'type': 'texte',
+                'question': "[Histoire-Geographie 2nde] Cite une methode concrete pour progresser sur le theme 'Cartographie'.",
+                'correct_answer': "S'entrainer regulierement, analyser ses erreurs et reformuler les notions essentielles.",
+                'explanation': "La progression vient de la repetition guidee et de l'analyse des erreurs."
+            },
+            {
+                'id': '1700_4',
+                'type': 'qcm',
+                'question': "[Histoire-Geographie 2nde] Quelle action favorise la memorisation durable du theme 'Cartographie' ?",
+                'options': [
+                    'Faire des rappels espaces',
+                    'Tout revoir une seule fois',
+                    'Copier sans comprendre',
+                    'Eviter les exercices'
+                ],
+                'correct_option': 'Faire des rappels espaces',
+                'explanation': 'Les rappels espaces consolidant la memoire a long terme.'
+            },
+            {
+                'id': '1700_5',
+                'type': 'vrai-faux',
+                'question': "[Histoire-Geographie 2nde] L'explication d'une reponse est moins importante que la reponse elle-meme.",
+                'correct': False,
+                'explanation': 'La justification montre la comprehension et permet un feedback utile.'
+            },
+            {
+                'id': '1700_6',
+                'type': 'texte',
+                'question': "[Histoire-Geographie 2nde] Propose un exemple d'auto-correction pertinente sur 'Cartographie'.",
+                'correct_answer': "Comparer sa reponse au corrig?, identifier l'erreur precise et ecrire la bonne strategie.",
+                'explanation': "L'auto-correction explicite transforme une erreur en apprentissage."
+            },
+            {
+                'id': '1700_7',
+                'type': 'qcm',
+                'question': "[Histoire-Geographie 2nde] Quel indicateur montre une bonne maitrise du theme 'Cartographie' ?",
+                'options': [
+                    'Expliquer clairement la demarche',
+                    'Donner une reponse au hasard',
+                    'Eviter les notions difficiles',
+                    'Memoriser sans application'
+                ],
+                'correct_option': 'Expliquer clairement la demarche',
+                'explanation': 'Savoir expliquer la demarche prouve une comprehension solide.'
+            },
+            {
+                'id': '1700_8',
+                'type': 'vrai-faux',
+                'question': "[Histoire-Geographie 2nde] Alterner entrainement, feedback et reprise des erreurs aide a progresser sur 'Cartographie'.",
+                'correct': True,
+                'explanation': 'Le cycle entrainement-feedback-reprise est une methode robuste de progression.'
+            }
+        ]
+    ),
+    (
+        1701,
+        'Histoire-Geographie 2nde - Analyse critique des sources',
+        'Histoire-Geographie',
+        '2nde',
+        [
+            {
+                'id': '1701_1',
+                'type': 'qcm',
+                'question': "[Histoire-Geographie 2nde] Sur le theme 'Analyse critique des sources', quelle demarche est la plus efficace pour reussir un exercice diagnostic ?",
+                'options': [
+                    "Relire la consigne et identifier l'objectif",
+                    'Repondre vite sans verifier',
+                    'Ignorer le contexte',
+                    'Memoriser sans comprendre'
+                ],
+                'correct_option': "Relire la consigne et identifier l'objectif",
+                'explanation': "Identifier l'objectif de la consigne permet de mobiliser la bonne methode."
+            },
+            {
+                'id': '1701_2',
+                'type': 'vrai-faux',
+                'question': "[Histoire-Geographie 2nde] Sur 'Analyse critique des sources', verifier ses reponses avant validation ameliore la fiabilite.",
+                'correct': True,
+                'explanation': "Une relecture finale aide a corriger les erreurs d'inattention."
+            },
+            {
+                'id': '1701_3',
+                'type': 'texte',
+                'question': "[Histoire-Geographie 2nde] Cite une methode concrete pour progresser sur le theme 'Analyse critique des sources'.",
+                'correct_answer': "S'entrainer regulierement, analyser ses erreurs et reformuler les notions essentielles.",
+                'explanation': "La progression vient de la repetition guidee et de l'analyse des erreurs."
+            },
+            {
+                'id': '1701_4',
+                'type': 'qcm',
+                'question': "[Histoire-Geographie 2nde] Quelle action favorise la memorisation durable du theme 'Analyse critique des sources' ?",
+                'options': [
+                    'Faire des rappels espaces',
+                    'Tout revoir une seule fois',
+                    'Copier sans comprendre',
+                    'Eviter les exercices'
+                ],
+                'correct_option': 'Faire des rappels espaces',
+                'explanation': 'Les rappels espaces consolidant la memoire a long terme.'
+            },
+            {
+                'id': '1701_5',
+                'type': 'vrai-faux',
+                'question': "[Histoire-Geographie 2nde] L'explication d'une reponse est moins importante que la reponse elle-meme.",
+                'correct': False,
+                'explanation': 'La justification montre la comprehension et permet un feedback utile.'
+            },
+            {
+                'id': '1701_6',
+                'type': 'texte',
+                'question': "[Histoire-Geographie 2nde] Propose un exemple d'auto-correction pertinente sur 'Analyse critique des sources'.",
+                'correct_answer': "Comparer sa reponse au corrig?, identifier l'erreur precise et ecrire la bonne strategie.",
+                'explanation': "L'auto-correction explicite transforme une erreur en apprentissage."
+            },
+            {
+                'id': '1701_7',
+                'type': 'qcm',
+                'question': "[Histoire-Geographie 2nde] Quel indicateur montre une bonne maitrise du theme 'Analyse critique des sources' ?",
+                'options': [
+                    'Expliquer clairement la demarche',
+                    'Donner une reponse au hasard',
+                    'Eviter les notions difficiles',
+                    'Memoriser sans application'
+                ],
+                'correct_option': 'Expliquer clairement la demarche',
+                'explanation': 'Savoir expliquer la demarche prouve une comprehension solide.'
+            },
+            {
+                'id': '1701_8',
+                'type': 'vrai-faux',
                 'question': "[Histoire-Geographie 2nde] Alterner entrainement, feedback et reprise des erreurs aide a progresser sur 'Analyse critique des sources'.",
                 'correct': True,
                 'explanation': 'Le cycle entrainement-feedback-reprise est une methode robuste de progression.'
@@ -1021,34 +1029,34 @@ quizzes_data = [
 ]
 
 HG2NDE_COMPLEMENT_SPECS = [
-    (6301, "Histoire-Géographie 2nde - Cartes et échelles", "les cartes et les échelles"),
-    (6302, "Histoire-Géographie 2nde - Repères spatiaux", "les repères spatiaux"),
-    (6303, "Histoire-Géographie 2nde - Lire un document historique", "la lecture d'un document historique"),
-    (6304, "Histoire-Géographie 2nde - Situer un événement", "la chronologie"),
-    (6305, "Histoire-Géographie 2nde - Décrire un paysage", "la description d'un paysage"),
-    (6306, "Histoire-Géographie 2nde - Comprendre une carte thématique", "la carte thématique"),
-    (6307, "Histoire-Géographie 2nde - Identifier un acteur historique", "les acteurs historiques"),
-    (6308, "Histoire-Géographie 2nde - Les territoires de proximité", "les territoires"),
-    (6309, "Histoire-Géographie 2nde - Les mobilités", "les mobilités"),
-    (6310, "Histoire-Géographie 2nde - Urbanisation et métropoles", "l'urbanisation"),
-    (6311, "Histoire-Géographie 2nde - Ressources et développement", "les ressources"),
-    (6312, "Histoire-Géographie 2nde - Les littoraux", "les littoraux"),
-    (6313, "Histoire-Géographie 2nde - Les espaces ruraux", "les espaces ruraux"),
-    (6314, "Histoire-Géographie 2nde - Les espaces productifs", "les espaces productifs"),
-    (6315, "Histoire-Géographie 2nde - Frontières et échanges", "les frontières"),
-    (6316, "Histoire-Géographie 2nde - Le développement durable", "le développement durable"),
-    (6317, "Histoire-Géographie 2nde - Les sociétés face aux risques", "les risques"),
-    (6318, "Histoire-Géographie 2nde - Raconter et expliquer", "l'explication historique"),
-    (6319, "Histoire-Géographie 2nde - Analyser une source", "l'analyse critique des sources"),
-    (6320, "Histoire-Géographie 2nde - Comprendre un graphique", "la lecture de graphique"),
-    (6321, "Histoire-Géographie 2nde - Comprendre un tableau", "la lecture de tableau"),
-    (6322, "Histoire-Géographie 2nde - Développement et inégalités", "les inégalités"),
-    (6323, "Histoire-Géographie 2nde - Population et dynamiques", "les dynamiques de population"),
-    (6324, "Histoire-Géographie 2nde - Mondialisation des échanges", "la mondialisation"),
-    (6325, "Histoire-Géographie 2nde - Habiter une métropole", "les métropoles"),
-    (6326, "Histoire-Géographie 2nde - Conflits d'usage", "les conflits d'usage"),
-    (6327, "Histoire-Géographie 2nde - Patrimoine et mémoire", "le patrimoine"),
-    (6328, "Histoire-Géographie 2nde - Révision générale", "la révision générale"),
+    (1692, "Histoire-Géographie 2nde - Cartes et échelles", "les cartes et les échelles"),
+    (1693, "Histoire-Géographie 2nde - Repères spatiaux", "les repères spatiaux"),
+    (1694, "Histoire-Géographie 2nde - Lire un document historique", "la lecture d'un document historique"),
+    (1695, "Histoire-Géographie 2nde - Situer un événement", "la chronologie"),
+    (1696, "Histoire-Géographie 2nde - Décrire un paysage", "la description d'un paysage"),
+    (1697, "Histoire-Géographie 2nde - Comprendre une carte thématique", "la carte thématique"),
+    (1698, "Histoire-Géographie 2nde - Identifier un acteur historique", "les acteurs historiques"),
+    (1699, "Histoire-Géographie 2nde - Les territoires de proximité", "les territoires"),
+    (1700, "Histoire-Géographie 2nde - Les mobilités", "les mobilités"),
+    (1701, "Histoire-Géographie 2nde - Urbanisation et métropoles", "l'urbanisation"),
+    (1702, "Histoire-Géographie 2nde - Ressources et développement", "les ressources"),
+    (1703, "Histoire-Géographie 2nde - Les littoraux", "les littoraux"),
+    (1704, "Histoire-Géographie 2nde - Les espaces ruraux", "les espaces ruraux"),
+    (1705, "Histoire-Géographie 2nde - Les espaces productifs", "les espaces productifs"),
+    (1706, "Histoire-Géographie 2nde - Frontières et échanges", "les frontières"),
+    (1707, "Histoire-Géographie 2nde - Le développement durable", "le développement durable"),
+    (1708, "Histoire-Géographie 2nde - Les sociétés face aux risques", "les risques"),
+    (1709, "Histoire-Géographie 2nde - Raconter et expliquer", "l'explication historique"),
+    (1710, "Histoire-Géographie 2nde - Analyser une source", "l'analyse critique des sources"),
+    (1711, "Histoire-Géographie 2nde - Comprendre un graphique", "la lecture de graphique"),
+    (1712, "Histoire-Géographie 2nde - Comprendre un tableau", "la lecture de tableau"),
+    (1713, "Histoire-Géographie 2nde - Développement et inégalités", "les inégalités"),
+    (1714, "Histoire-Géographie 2nde - Population et dynamiques", "les dynamiques de population"),
+    (1715, "Histoire-Géographie 2nde - Mondialisation des échanges", "la mondialisation"),
+    (1716, "Histoire-Géographie 2nde - Habiter une métropole", "les métropoles"),
+    (1717, "Histoire-Géographie 2nde - Conflits d'usage", "les conflits d'usage"),
+    (1718, "Histoire-Géographie 2nde - Patrimoine et mémoire", "le patrimoine"),
+    (1719, "Histoire-Géographie 2nde - Révision générale", "la révision générale"),
 ]
 
 
@@ -1076,7 +1084,16 @@ quizzes_data.extend(build_2nde_hg_complement(*spec) for spec in HG2NDE_COMPLEMEN
 
 def write_quiz_files():
     count = 0
+    total_counts = {"qcm": 0, "vrai-faux": 0, "texte": 0, "other": 0}
     for qid, title, subject, level, questions in quizzes_data:
+        counts = count_question_types(questions)
+        total_counts["qcm"] += counts["qcm"]
+        total_counts["vrai-faux"] += counts["vrai-faux"]
+        total_counts["texte"] += counts["texte"]
+        total_counts["other"] += counts["other"]
+        if counts["texte"]:
+            print(f"  [AUDIT] {qid}.json contient {counts['texte']} question(s) type 'texte'")
+
         quiz_payload = make_quiz(
             qid, title, subject, level, questions,
             source="Eduscol programmes officiels + BOEN",
@@ -1102,8 +1119,47 @@ def write_quiz_files():
         print(f"  [OK] {qid}.json - {title}")
 
     print(f"\n[OK] {count} quiz generes (+ {count} reponses)")
+    if total_counts["texte"]:
+        print(f"[AUDIT] Total questions type 'texte' dans le jeu source : {total_counts['texte']}")
+
+
+def load_external_quiz_source(path: str):
+    quiz_file = Path(path)
+    if not quiz_file.exists():
+        raise FileNotFoundError(f"Input file not found: {path}")
+    with quiz_file.open("r", encoding="utf-8") as handle:
+        data = json.load(handle)
+
+    if isinstance(data, dict) and "quizzes_data" in data:
+        data = data["quizzes_data"]
+
+    if not isinstance(data, list):
+        raise ValueError("External quiz source must be a JSON list or an object containing 'quizzes_data'.")
+
+    return data
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Generate Histoire-Géo 2nde quiz JSON files")
+    parser.add_argument(
+        "--input-file",
+        help="Optional external JSON file containing quizzes_data.",
+        default="",
+    )
+    return parser.parse_args()
+
+
+def main() -> int:
+    args = parse_args()
+    if args.input_file:
+        print(f"Loading external quiz source from {args.input_file}")
+        external_data = load_external_quiz_source(args.input_file)
+        globals()["quizzes_data"] = external_data
+
+    print("Generating quizzes from template IA...")
+    write_quiz_files()
+    return 0
 
 
 if __name__ == "__main__":
-    print("Generating quizzes from template IA...")
-    write_quiz_files()
+    raise SystemExit(main())
