@@ -1,9 +1,9 @@
 <?php
-// ✅ 1. VÉRIFICATIONS EN PREMIER (AVANT TOUT OUTPUT)
+// ✅ 1. VÉRIFICATIONS SÉCURITÉ (AVANT TOUT OUTPUT)
 $page_title = 'Cours - MonCoachScolaire';
 $page_css = 'pages/cours.css';
 
-// Charger config.php pour avoir accès à $pdo (sans charger site_boot.php encore)
+// Charger config.php pour avoir accès à $pdo
 if (!isset($pdo)) {
     require_once dirname(__DIR__, 2) . '/config/config.php';
 }
@@ -18,27 +18,13 @@ if (is_file(dirname(__DIR__, 2) . '/includes/admin_auth.php')) {
     require_once dirname(__DIR__, 2) . '/includes/admin_auth.php';
 }
 
-// Charger site_boot.php POUR asset_url()
-if (is_file(dirname(__DIR__, 2) . '/config/site_boot.php')) {
-    require_once dirname(__DIR__, 2) . '/config/site_boot.php';
-}
-
-// ✅ VÉRIFICATION DÉMO : REDIRECTION AVANT TOUT OUTPUT
+// Définir les variables de sécurité APRÈS les includes (pour qu'elles soient disponibles AVANT site_boot.php)
 $is_admin = function_exists('isAdmin') && isAdmin();
 $is_demo = function_exists('isDemoUser') && isDemoUser();
 
-if ($is_demo && !$is_admin) {
-    // Construire l'URL manuellement (site_url() n'est pas encore disponible)
-    if (function_exists('detectBaseUrl')) {
-        $baseUrl = rtrim(detectBaseUrl(), '/');
-    } else {
-        // Fallback si la fonction n'existe pas
-        $baseUrl = rtrim(dirname($_SERVER['SCRIPT_NAME']), '/');
-    }
-
-    $redirectUrl = $baseUrl . '/index.php?page=demo&demo=1&reason=' . urlencode('Seuls les utilisateurs enregistrés peuvent accéder à tous les cours');
-    header('Location: ' . $redirectUrl);
-    exit;
+// ✅ 2. CHARGER site_boot.php (qui charge topbar.php)
+if (is_file(dirname(__DIR__, 2) . '/config/site_boot.php')) {
+    require_once dirname(__DIR__, 2) . '/config/site_boot.php';
 }
 
 // Charger la fonction de navigation entre niveaux
@@ -46,19 +32,11 @@ if (is_file(dirname(__DIR__, 2) . '/includes/level_navigation.php')) {
     require_once dirname(__DIR__, 2) . '/includes/level_navigation.php';
 }
 
-// ✅ 2. MAINTENANT ON PEUT CHARGER site_boot.php (qui charge topbar.php)
-if (is_file(dirname(__DIR__, 2) . '/config/site_boot.php')) {
-    require_once dirname(__DIR__, 2) . '/config/site_boot.php';
-}
-
 // Charger le système de normalisation des niveaux
 require_once dirname(__DIR__, 2) . '/includes/level_normalization.php';
 
 // Le reste du code continue normalement...
-$has_access = !empty($is_logged_in) || $is_admin;
-
-// ... reste du fichier inchangé
-
+$has_access = !empty($is_logged_in) || $is_admin || $is_demo;
 
 // Déterminer le niveau : priorité au paramètre URL, puis session (y compris demo_level), puis défaut
 $user_level = '6ème'; // Défaut
@@ -178,14 +156,14 @@ $cours_background = function_exists('asset_url')
             <!-- Header niveau + badge harmonisé -->
             <div class="cours-section-header">
                 <h2>👋 Bonjour <span class="text-blue-600"><?php echo htmlspecialchars($display_name ?? 'Élève'); ?></span> !</h2>
-                <p>Voici tous tes cours pour <strong class="text-2xl text-blue-600"><?php echo htmlspecialchars($user_level_display); ?></strong></p>
+                <p>Voici tous tes cours pour <strong><?php echo htmlspecialchars($user_level_display); ?></strong></p>
                 <?php if ($is_demo && !$is_admin): ?>
                     <p class="text-sm text-amber-600 mt-2 italic">💡 Mode démo : 1 cours. Crée un compte pour tout !</p>
                 <?php endif; ?>
-                <div class="meta-item">
-                    <?php echo $is_bac ? '🎯 BAC' : ($is_lycee ? '🎓 Lycée' : '🏫 Collège'); ?>
+                <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+                    <span class="meta-item"><?php echo $is_bac ? '🎯 BAC' : ($is_lycee ? '🎓 Lycée' : '🏫 Collège'); ?></span>
+                    <span id="courseCountTotal" class="meta-item">0 cours</span>
                 </div>
-                <span id="courseCountTotal" class="meta-item">0 cours</span>
             </div>
 
             <!-- Recherche + filtres matières -->
@@ -224,11 +202,64 @@ $cours_background = function_exists('asset_url')
 </main>
 
 <script>
+// Mapping des objectifs pédagogiques par matière
+const objectivesBySubject = {
+    'mathématiques': ['Maîtriser les concepts clés', 'Appliquer les méthodes', 'Vérifier sa compréhension'],
+    'français': ['Analyser les textes', 'Enrichir son vocabulaire', 'Développer son esprit critique'],
+    'sciences': ['Comprendre les phénomènes', 'Maîtriser les concepts', 'Appliquer à des cas réels'],
+    'histoire-géographie': ['Contextualiser les événements', 'Analyser les sources', 'Relier les concepts'],
+    'anglais': ['Améliorer la compréhension', 'Pratiquer l\'expression', 'Enrichir le vocabulaire'],
+    'philosophie': ['Analyser les arguments', 'Développer la réflexion', 'Construire des perspectives'],
+    'physique-chimie': ['Comprendre les lois', 'Maîtriser les calculs', 'Appliquer aux expériences'],
+    'svt': ['Comprendre les vivants', 'Analyser les processus', 'Appliquer aux cas réels']
+};
+
 // Charger UNIQUEMENT les cours du niveau de l'élève
 let allCourses = <?php
 // ✅ CHARGEMENT BDD : UNIQUEMENT niveau connecté
 $courses = [];
-if (isset($pdo) && function_exists('getCoursesBySubjectAndLevel')) {
+
+// En mode démo, ajouter quelques cours de démonstration
+if ($is_demo && empty($courses)) {
+    $courses = [
+        [
+            'Id' => 1,
+            'Title' => 'Les fractions en mathématiques',
+            'Description' => 'Comprendre et maîtriser les fractions, opérations et calculs.',
+            'subject' => 'Mathématiques',
+            'level' => '6ème',
+            'icon' => '🔢',
+            'duration' => '20 min',
+            'progress' => 45,
+            'exercises_linked' => ['ex1', 'ex2', 'ex3']
+        ],
+        [
+            'Id' => 2,
+            'Title' => 'Histoire ancienne: La Grèce antique',
+            'Description' => 'Découvrir la civilisation grecque, Athènes et la démocratie.',
+            'subject' => 'Histoire-Géographie',
+            'level' => '6ème',
+            'icon' => '🏛️',
+            'duration' => '25 min',
+            'progress' => 20,
+            'exercises_linked' => ['ex1', 'ex2']
+        ],
+        [
+            'Id' => 3,
+            'Title' => 'L\'eau et les états de la matière',
+            'Description' => 'Comprendre les états solide, liquide et gazeux avec l\'eau.',
+            'subject' => 'Sciences',
+            'level' => '6ème',
+            'icon' => '💧',
+            'duration' => '15 min',
+            'progress' => 0,
+            'exercises_linked' => ['ex1', 'ex2', 'ex3', 'ex4']
+        ]
+    ];
+}
+
+// Charger depuis la BDD si disponible
+if (!$is_demo && isset($pdo) && function_exists('getCoursesBySubjectAndLevel')) {
     foreach ($subjects as $subject) {
         $levelCourses = getCoursesBySubjectAndLevel($subject, $user_level);
         foreach ($levelCourses as $course) {
@@ -243,8 +274,28 @@ if (isset($pdo) && function_exists('getCoursesBySubjectAndLevel')) {
         }
     }
 }
+
 echo json_encode($courses ?? []);
 ?>;
+
+// Enrichir les cours avec les objectifs après chargement JSON
+allCourses = allCourses.map(course => {
+    const subjectKey = (course.subject || 'sciences').toLowerCase().replace(/[-\s]/g, '');
+    if (!course.objectives || course.objectives.length === 0) {
+        // Chercher dans la mapping par correspondance de clé
+        for (let key in objectivesBySubject) {
+            if (subjectKey.includes(key.replace(/[-\s]/g, ''))) {
+                course.objectives = objectivesBySubject[key];
+                break;
+            }
+        }
+        // Fallback si pas trouvé
+        if (!course.objectives) {
+            course.objectives = objectivesBySubject['mathématiques'];
+        }
+    }
+    return course;
+});
 
 document.addEventListener('DOMContentLoaded', () => {
     const totalCount = allCourses.length;
@@ -260,12 +311,40 @@ document.addEventListener('DOMContentLoaded', () => {
     renderCourses(allCourses);
 
     // Filtres (recherche + matières seulement)
-    document.getElementById('searchInput').addEventListener('input', filterCourses);
-    document.getElementById('subjectFilter').addEventListener('change', filterCourses);
-    document.getElementById('clearFilters').onclick = () => {
-        document.getElementById('searchInput').value = '';
-        document.getElementById('subjectFilter').value = '';
+    const searchInput = document.getElementById('searchInput');
+    const subjectFilter = document.getElementById('subjectFilter');
+    const clearBtn = document.getElementById('clearFilters');
+    const resultsAnnounce = document.getElementById('searchResults') || (() => {
+        const el = document.createElement('div');
+        el.id = 'searchResults';
+        el.setAttribute('role', 'status');
+        el.setAttribute('aria-live', 'polite');
+        el.setAttribute('aria-atomic', 'true');
+        el.style.position = 'absolute';
+        el.style.left = '-9999px';
+        document.body.appendChild(el);
+        return el;
+    })();
+
+    function announceResults() {
+        const count = document.querySelectorAll('.cours-card').length;
+        resultsAnnounce.textContent = `${count} cours trouvé${count > 1 ? 's' : ''}`;
+    }
+
+    searchInput.addEventListener('input', () => {
         filterCourses();
+        announceResults();
+    });
+    subjectFilter.addEventListener('change', () => {
+        filterCourses();
+        announceResults();
+    });
+    clearBtn.onclick = () => {
+        searchInput.value = '';
+        subjectFilter.value = '';
+        searchInput.focus();
+        filterCourses();
+        announceResults();
     };
 });
 
@@ -281,8 +360,72 @@ function filterCourses() {
     renderCourses(filtered);
 }
 
-// createCourseCard() et renderCourses() identiques à précédent
-function createCourseCard(course) { /* même code que avant, avec level fixe */ }
+// createCourseCard() — Nouvelle version avec objectifs pédagogiques
+function createCourseCard(course) {
+    // Récupérer les objectifs (max 3)
+    const objectives = course.objectives ? course.objectives.slice(0, 3) : ['Maîtriser les concepts clés', 'Appliquer les méthodes', 'Vérifier sa compréhension'];
+    const objectivesHTML = objectives.map(obj => `<li>${escapeHtml(obj)}</li>`).join('');
+
+    // Durée et exercices
+    const duration = course.duration || '15-30 min';
+    const exercisesCount = course.exercises_linked ? course.exercises_linked.length : 3;
+
+    return `
+        <div class="cours-card">
+            <div class="cours-card-header">
+                <div class="cours-card-icon">${course.icon || '📖'}</div>
+                <div class="cours-card-title-group">
+                    <h3 class="cours-card-header">${escapeHtml(course.Title || course.title || 'Sans titre')}</h3>
+                </div>
+            </div>
+
+            <div class="cours-card-body">
+                <p class="cours-description">${escapeHtml(course.Description || course.description || ('Cours de ' + escapeHtml(course.subject || 'sciences')))}</p>
+
+                <div class="cours-objectives">
+                    <div class="cours-objectives-title">Objectifs</div>
+                    <ul class="cours-objectives-list">
+                        ${objectivesHTML}
+                    </ul>
+                </div>
+
+                <div class="cours-meta">
+                    <span class="meta-item duration">⏱ ${duration}</span>
+                    <span class="meta-item exercises">📝 ${exercisesCount} exercices</span>
+                </div>
+            </div>
+
+            <div class="cours-actions">
+                <a href="${sanitizeUrl(course.url)}" class="btn-cours">Commencer</a>
+                <a href="${sanitizeUrl(course.url)}" class="btn-exercice">Exercices →</a>
+            </div>
+        </div>
+    `;
+}
+
+function escapeHtml(text) {
+    const map = {
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#039;'
+    };
+    return text.replace(/[&<>"']/g, m => map[m]);
+}
+
+// Fonction pour sécuriser les URLs (prévenir XSS javascript:)
+function sanitizeUrl(url) {
+    if (!url) return '#';
+    url = String(url).trim();
+    // Vérifier qu'on ne commence pas par javascript: ou data:
+    if (/^(javascript|data|vbscript|file):/i.test(url)) {
+        return '#';
+    }
+    // Échapper les quotes
+    return url.replace(/"/g, '&quot;');
+}
+
 function renderCourses(courses) {
     document.getElementById('allCoursesGrid').innerHTML = courses.map(createCourseCard).join('');
 }

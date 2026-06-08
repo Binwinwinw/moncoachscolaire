@@ -118,7 +118,7 @@ if (is_file(dirname(__DIR__, 2) . '/includes/topbar.php')) {
     </header>
 
     <!-- Modal Création/Édition Utilisateur -->
-    <div id="user-modal" class="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-40 z-50">
+    <div id="user-modal" class="modal fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-40 z-50" role="dialog" aria-modal="true" aria-labelledby="user-modal-title" aria-hidden="true">
         <div class="bg-white rounded-xl shadow-lg p-6 w-full max-w-xl">
             <div class="flex justify-between items-center mb-4">
                 <h3 id="user-modal-title" class="text-xl font-semibold">Nouvel Utilisateur</h3>
@@ -759,17 +759,44 @@ if ($exSection && is_file($exSection)) {
 // Fonctions modales
 function showCreateUserModal() {
     var modal = document.getElementById('user-modal');
-    if (modal) modal.classList.add('active');
+    if (modal) {
+        modal.classList.add('active');
+        modal.setAttribute('aria-hidden', 'false');
+    }
     document.body.classList.add('modal-open');
     document.getElementById('user-form').reset();
     toggleLevelSelect();
+    // Sauvegarder le bouton actif pour y renvoyer le focus
+    modalTrigger = document.activeElement;
+    // Donner le focus au premier champ
     document.getElementById('user-username').focus();
 }
 
+// Fermer le modal à la touche Escape
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        var modal = document.getElementById('user-modal');
+        if (modal && modal.classList.contains('active')) {
+            closeUserModal();
+        }
+    }
+});
+
+// Référence au bouton qui a ouvert le modal (pour y renvoyer le focus)
+var modalTrigger = null;
+
 function closeUserModal() {
     var modal = document.getElementById('user-modal');
-    if (modal) modal.classList.remove('active');
+    if (modal) {
+        modal.classList.remove('active');
+        modal.setAttribute('aria-hidden', 'true');
+    }
     document.body.classList.remove('modal-open');
+    // Renvoyer le focus au bouton déclencheur
+    if (modalTrigger) {
+        modalTrigger.focus();
+        modalTrigger = null;
+    }
 }
 
 function toggleLevelSelect() {
