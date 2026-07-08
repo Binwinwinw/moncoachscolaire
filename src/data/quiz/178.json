@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 178",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - Les compléments circonstanciels",
+    "status": "published",
+    "created_at": "2026-04-26T21:46:18.995857Z",
+    "updated_at": "2026-04-26T21:46:18.995857Z"
+  },
+  "quiz": {
+    "title": "Français 6e - Les compléments circonstanciels",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'un complément circonstanciel ?",
+        "choices": [
+          "Un complément qui indique le sujet de l'action",
+          "Un complément qui indique l'objet de l'action",
+          "Un complément qui indique les circonstances de l'action",
+          "Un complément qui n'a pas de rôle spécifique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les compléments circonstanciels peuvent être classés en plusieurs types, tels que les compléments circonstanciels de temps, de lieu, de cause, de conséquence et de condition, en fonction des informations qu'ils fournissent sur les circonstances de l'action exprimée par le verbe."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle d'un complément circonstanciel de temps ?",
+        "choices": [
+          "Il indique quand l'action se déroule",
+          "Il indique où l'action se déroule",
+          "Il indique pourquoi l'action se déroule",
+          "Il indique ce qui résulte de l'action"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation correcte des compléments circonstanciels est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les écrivains utilisent les compléments circonstanciels de manière appropriée en fonction du contexte et du message qu'ils souhaitent transmettre, ce qui contribue à la clarté et à l'efficacité de la communication écrite."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle d'un complément circonstanciel de lieu ?",
+        "choices": [
+          "Il indique quand l'action se déroule",
+          "Il indique où l'action se déroule",
+          "Il indique pourquoi l'action se déroule",
+          "Il indique ce qui résulte de l'action"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation incorrecte des compléments circonstanciels peut parfois entraîner des confusions ou des malentendus dans la communication écrite, en rendant difficile pour les lecteurs de comprendre les circonstances de l'action exprimée par le verbe, ce qui peut nuire à la clarté du message et à l'efficacité de la communication écrite."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle d'un complément circonstanciel de cause ?",
+        "choices": [
+          "Il indique quand l'action se déroule",
+          "Il indique où l'action se déroule",
+          "Il indique pourquoi l'action se déroule",
+          "Il indique ce qui résulte de l'action"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation correcte des compléments circonstanciels est essentielle pour éviter les confusions et les erreurs dans la communication écrite."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

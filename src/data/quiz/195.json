@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6e - SÃ©rie 195",
+    "type": "quiz",
+    "level": "6e",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 6e : Les énergies renouvelables",
+    "status": "published",
+    "created_at": "2026-04-26 21:47:00",
+    "updated_at": "2026-04-26 21:47:00"
+  },
+  "quiz": {
+    "title": "Les énergies renouvelables",
+    "type": "quiz",
+    "level": "6e",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'une énergie renouvelable ?",
+        "choices": [
+          "Une énergie qui ne s'épuise pas",
+          "Une énergie qui pollue beaucoup",
+          "Une énergie qui vient du pétrole",
+          "Une énergie qui est très chère"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'énergie solaire est une énergie renouvelable. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est l'avantage principal des énergies renouvelables ?",
+        "choices": [
+          "Elles sont gratuites",
+          "Elles ne polluent pas",
+          "Elles sont faciles à stocker",
+          "Elles sont disponibles partout"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'énergie éolienne est produite par le vent. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le principal inconvénient des énergies renouvelables ?",
+        "choices": [
+          "Elles sont très chères",
+          "Elles ne sont pas fiables",
+          "Elles nécessitent beaucoup d'espace",
+          "Elles sont difficiles à utiliser"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'énergie hydraulique est produite par l'eau. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le principal défi pour l'utilisation des énergies renouvelables ?",
+        "choices": [
+          "Le coût élevé",
+          "La dépendance au climat",
+          "La pollution",
+          "La rareté des ressources"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'énergie géothermique est une énergie renouvelable. Vrai ou Faux ?"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

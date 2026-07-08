@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 159",
+    "level": "6eme",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Français 6e - Les fonctions grammaticales (sujet, complément d’objet direct, complément d’objet indirect…)",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Sujet",
+        "correction": "Dans la phrase 'Le chien mange sa nourriture.', le mot 'chien' est le sujet de la phrase, car il désigne celui qui effectue l'action de manger."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Le complément d'objet direct (COD) est la fonction grammaticale qui désigne l'élément qui subit directement l'action du verbe, sans préposition."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Complément d'objet direct",
+        "correction": "Dans la phrase 'Le chien mange sa nourriture.', le mot 'nourriture' est le complément d'objet direct (COD) de la phrase, car il désigne l'élément qui subit directement l'action de manger."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Le complément d'objet indirect (COI) est la fonction grammaticale qui désigne l'élément qui subit indirectement l'action du verbe, souvent introduit par une préposition telle que 'à', 'pour', etc."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Sujet",
+        "correction": "Dans la phrase 'Le chien est gentil.', le mot 'chien' est le sujet de la phrase, car il désigne celui dont on parle et qui est qualifié d'être gentil."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. L'attribut du sujet est la fonction grammaticale qui désigne un élément qui qualifie ou décrit le sujet, souvent relié au sujet par un verbe d'état comme 'être', 'sembler', 'devenir', etc."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Attribut du sujet",
+        "correction": "Dans la phrase 'Le chien est gentil.', le mot 'gentil' est l'attribut du sujet, car il qualifie ou décrit le sujet 'chien' en indiquant une caractéristique de celui-ci."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. La compréhension des fonctions grammaticales est essentielle pour analyser la structure d'une phrase et comprendre les relations entre les différents éléments qui la composent, ce qui permet de mieux saisir le sens et l'intention de l'auteur."
+      }
+    ]
+  }
+}

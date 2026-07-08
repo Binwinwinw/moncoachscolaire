@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 6eme - Série 134",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 6eme : EMC 6e - Paix et non-violence",
+    "status": "published",
+    "created_at": "2026-04-26T21:35:49.219030Z",
+    "updated_at": "2026-04-26T21:35:49.219030Z"
+  },
+  "quiz": {
+    "title": "EMC 6e - Paix et non-violence",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Pourquoi est-il important de respecter les règles de paix et de non-violence ?",
+        "choices": [
+          "Le respect des règles de paix et de non-violence garantit la promotion d'une société plus pacifique et respectueuse des droits de l'homme.",
+          "Le respect des règles de paix et de non-violence est inutile, car les individus peuvent agir comme ils le souhaitent.",
+          "Le respect des règles de paix et de non-violence est réservé aux élites politiques et économiques.",
+          "Le respect des règles de paix et de non-violence est limité aux écoles uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect des règles de paix et de non-violence est un concept qui promeut la non-intervention dans les affaires des individus."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle de l'éducation dans le respect des règles de paix et de non-violence ?",
+        "choices": [
+          "L'éducation joue un rôle crucial en sensibilisant les individus aux règles de paix et de non-violence et en promouvant le respect de ces règles.",
+          "L'éducation est inutile dans le respect des règles de paix et de non-violence, car les individus peuvent apprendre par eux-mêmes.",
+          "L'éducation est réservée aux élites politiques et économiques.",
+          "L'éducation est limitée aux écoles uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect des règles de paix et de non-violence est un concept qui promeut la non-intervention dans les affaires des individus. (variante 2)"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle des médias dans le respect des règles de paix et de non-violence ?",
+        "choices": [
+          "Les médias jouent un rôle crucial en sensibilisant le public aux règles de paix et de non-violence et en promouvant le respect de ces règles.",
+          "Les médias sont inutiles dans le respect des règles de paix et de non-violence, car les individus peuvent apprendre par eux-mêmes.",
+          "Les médias sont réservés aux élites politiques et économiques.",
+          "Les médias sont limités aux informations locales uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La paix et la non-violence sont des concepts qui promeuvent la non-intervention dans les affaires des individus."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle des parents dans le respect des règles de paix et de non-violence ?",
+        "choices": [
+          "Les parents ont un rôle important en sensibilisant leurs enfants aux règles de paix et de non-violence et en promouvant le respect de ces règles.",
+          "Les parents sont inutiles dans le respect des règles de paix et de non-violence, car les individus peuvent apprendre par eux-mêmes.",
+          "Les parents sont réservés aux élites politiques et économiques.",
+          "Les parents sont limités aux écoles uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect des règles de paix et de non-violence est un concept qui promeut la non-intervention dans les affaires des individus. (variante 3)"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

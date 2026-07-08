@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 225",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 6eme : Vérification d'un prototype.",
+    "status": "published",
+    "created_at": "2026-04-26 21:47:01",
+    "updated_at": "2026-04-26 21:47:01"
+  },
+  "quiz": {
+    "title": "Vérification d'un prototype.",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quels sont des concepts de base en vérification d'un prototype ?",
+        "choices": [
+          "Test de validation",
+          "Test de vérification",
+          "Test de performance",
+          "Tous les concepts mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le test de validation vise à s'assurer que le prototype répond aux besoins et aux attentes des utilisateurs. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple de test de vérification ?",
+        "choices": [
+          "Test unitaire",
+          "Test d'intégration",
+          "Test de système",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le test de performance évalue la rapidité, l'efficacité, et la fiabilité du prototype dans des conditions d'utilisation réelles. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple d'outil qui peut être utilisé pour effectuer des tests sur un prototype ?",
+        "choices": [
+          "JUnit",
+          "Selenium",
+          "Postman",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il n'y a pas de différence entre les différents types de tests pour la vérification d'un prototype. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple de critère d'acceptation pour la validation d'un prototype ?",
+        "choices": [
+          "Le prototype doit répondre aux besoins des utilisateurs",
+          "Le prototype doit fonctionner correctement",
+          "Le prototype doit être performant",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Tous les prototypes sont vérifiés de la même manière. Vrai ou Faux ?"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

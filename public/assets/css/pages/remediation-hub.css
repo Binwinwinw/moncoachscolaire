@@ -1,0 +1,23 @@
+/* DEPRECATED — remplacé par remediation-guide.css (harmonisation coque 2026-06-27) */
+/* Hub guides remediation (bac / college / lycee) — fin de page au footer */
+body.remediation-hub-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+body.remediation-hub-page .topbar,
+body.remediation-hub-page header.topbar {
+    flex-shrink: 0;
+}
+
+main.remediation-hub {
+    flex: 1 0 auto;
+    width: 100%;
+}
+
+body.remediation-hub-page .site-footer {
+    flex-shrink: 0;
+    background: #fff;
+    backdrop-filter: none;
+}

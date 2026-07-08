@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 217",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 6eme : Sécurité et éthique numérique.",
+    "status": "published",
+    "created_at": "2026-04-26 21:47:01",
+    "updated_at": "2026-04-26 21:47:01"
+  },
+  "quiz": {
+    "title": "Sécurité et éthique numérique.",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quels sont des concepts de base en sécurité et éthique numérique ?",
+        "choices": [
+          "Confidentialité",
+          "Sécurité des données",
+          "Comportement en ligne responsable",
+          "Tous les concepts mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La confidentialité est un concept de base en sécurité et éthique numérique. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple de comportement en ligne responsable ?",
+        "choices": [
+          "Partager des informations personnelles",
+          "Respecter la vie privée des autres",
+          "Ignorer les règles de sécurité",
+          "Tous les comportements mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La sécurité des données n'est pas importante en ligne. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple de menace en ligne ?",
+        "choices": [
+          "Phishing",
+          "Ransomware",
+          "Spyware",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il n'y a pas de différence entre les différentes menaces en ligne. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple de mesure de sécurité que les utilisateurs peuvent prendre pour se protéger en ligne ?",
+        "choices": [
+          "Utiliser des mots de passe forts",
+          "Mettre à jour régulièrement les logiciels",
+          "Éviter de cliquer sur des liens suspects",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Tous les utilisateurs en ligne sont conscients des risques de sécurité et agissent de manière responsable. Vrai ou Faux ?"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

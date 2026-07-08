@@ -1,0 +1,80 @@
+{
+    "contents": {
+        "title": "Quiz IA Espagnol - 4eme",
+        "type": "quiz",
+        "level": "4eme",
+        "subject": "Espagnol",
+        "description": "Quiz diagnostique généré par IA",
+        "status": "published",
+        "created_at": "2026-07-04T06:20:44+00:00",
+        "updated_at": "2026-07-04T06:20:44+00:00"
+    },
+    "quiz": {
+        "title": "Quiz IA Espagnol - 4eme",
+        "type": "quiz",
+        "level": "4eme",
+        "subject": "Espagnol",
+        "question_count": 5,
+        "passing_score": 70,
+        "time_limit_minutes": 15,
+        "questions": [
+            {
+                "id": 1,
+                "type": "qcm",
+                "question": "Le mot 'la casa' est-il féminin ou masculin ?",
+                "choices": [
+                    "a) Féminin",
+                    "b) Masculin",
+                    "c) Les deux",
+                    "d) Aucun des deux"
+                ]
+            },
+            {
+                "id": 2,
+                "type": "qcm",
+                "question": "Le verbe 'hablar' signifie-t-il 'manger' ?",
+                "choices": [
+                    "a) Oui",
+                    "b) Non",
+                    "c) Parfois",
+                    "d) Je ne sais pas"
+                ]
+            },
+            {
+                "id": 3,
+                "type": "qcm",
+                "question": "Le mot 'el libro' est-il un objet que l'on peut trouver dans une salle de classe ?",
+                "choices": [
+                    "a) Oui",
+                    "b) Non",
+                    "c) Peut-être",
+                    "d) Je ne sais pas"
+                ]
+            },
+            {
+                "id": 4,
+                "type": "qcm",
+                "question": "La phrase 'Me llamo' signifie-t-elle 'Je m'appelle' ?",
+                "choices": [
+                    "a) Oui",
+                    "b) Non",
+                    "c) Un peu",
+                    "d) Pas du tout"
+                ]
+            },
+            {
+                "id": 5,
+                "type": "qcm",
+                "question": "Le mot 'la escuela' est-il le nom de l'école en espagnol ?",
+                "choices": [
+                    "a) Oui",
+                    "b) Non",
+                    "c) Parfois",
+                    "d) Rarement"
+                ]
+            }
+        ]
+    },
+    "exercisenotion": [],
+    "exerciseresponses": []
+}

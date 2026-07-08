@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 234",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 6eme : Gestion du temps et des ressources dans un projet.",
+    "status": "published",
+    "created_at": "2026-04-26 21:47:01",
+    "updated_at": "2026-04-26 21:47:01"
+  },
+  "quiz": {
+    "title": "Gestion du temps et des ressources dans un projet.",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quels sont des concepts de base en gestion du temps et des ressources dans un projet ?",
+        "choices": [
+          "Gestion du temps",
+          "Gestion des ressources",
+          "Techniques de gestion du temps et des ressources",
+          "Tous les concepts mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La gestion du temps est le processus de planification, d'organisation, et de contrôle du temps consacré aux différentes tâches et activités d'un projet. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple de technique de gestion du temps ?",
+        "choices": [
+          "Méthode Pomodoro",
+          "Matrice d'Eisenhower",
+          "Technique de la boîte à outils",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La gestion des ressources n'est pas importante pour la réussite d'un projet. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple de technique de gestion des ressources ?",
+        "choices": [
+          "Diagramme de Gantt pour la planification des tâches et des ressources",
+          "Analyse de la valeur acquise pour le suivi des performances du projet",
+          "Outils de collaboration pour faciliter la communication et la coordination des ressources",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il n'y a pas de différence entre les différentes techniques de gestion du temps et des ressources. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple d'outil utilisé pour la gestion du temps et des ressources dans un projet ?",
+        "choices": [
+          "Microsoft Project pour la planification et le suivi des projets",
+          "Trello pour la gestion collaborative des tâches et des ressources",
+          "Asana pour l'organisation et le suivi des projets en équipe",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Tous les utilisateurs sont conscients de l'importance de la gestion du temps et des ressources dans un projet. Vrai ou Faux ?"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

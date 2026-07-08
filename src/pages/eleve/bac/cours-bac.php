@@ -1,5 +1,6 @@
 <?php
 $page_title = 'Cours BAC - Préparation Intensive - MonCoachScolaire';
+$page_theme_level = 'bac';
 $page_css = 'bac/cours-bac.css';
 
 // Charger les fichiers nécessaires

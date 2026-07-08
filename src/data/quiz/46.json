@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6ème - Série 46",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6ème : Vocabulaire de base : phrases courantes pour parler de l'extérieur",
+    "status": "published",
+    "created_at": "2026-04-26T21:32:48.875046Z",
+    "updated_at": "2026-04-26T21:32:48.875046Z"
+  },
+  "quiz": {
+    "title": "Vocabulaire de base : phrases courantes pour parler de l'extérieur",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English expression used to describe the weather outside?",
+        "choices": [
+          "It's sunny",
+          "It's raining",
+          "It's windy",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English expression for 'Il fait beau' is 'It's sunny'' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English expression used to describe the weather outside when it's raining?",
+        "choices": [
+          "It's sunny",
+          "It's raining",
+          "It's windy",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The English expression for 'Il pleut' is 'It's raining'' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English expression used to describe the weather outside when it's windy?",
+        "choices": [
+          "It's sunny",
+          "It's raining",
+          "It's windy",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The English expression for 'Il fait du vent' is 'It's windy'' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English expression used to describe the weather outside when it's cold?",
+        "choices": [
+          "It's sunny",
+          "It's raining",
+          "It's cold",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The English expression for 'Il fait froid' is 'It's cold'' is a True statement."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

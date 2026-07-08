@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 206",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Mesure de vitesse et accélération simple.",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "En utilisant un chronomètre et une règle pour mesurer le temps et la distance parcourue",
+        "correction": "La vitesse d'un objet peut être mesurée en utilisant un chronomètre pour mesurer le temps qu'il met à parcourir une certaine distance, et une règle pour mesurer cette distance. La formule de la vitesse est : vitesse = distance / temps."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, l'accélération est définie comme la variation de la vitesse d'un objet par unité de temps. Elle peut être positive (accélération) ou négative (décélération)."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Une voiture qui démarre",
+        "correction": "Une voiture qui démarre peut accélérer en augmentant sa vitesse à partir d'un état de repos."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, la vitesse est une mesure de la rapidité d'un objet, tandis que l'accélération mesure comment cette vitesse change au fil du temps."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Une voiture qui freine",
+        "correction": "Une voiture qui freine peut décélérer en réduisant sa vitesse à partir d'une vitesse initiale."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, il existe une différence entre la vitesse et l'accélération en termes de leur définition et de leur rôle dans la description du mouvement d'un objet."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Une voiture qui roule à une vitesse constante sur une autoroute",
+        "correction": "Une voiture qui roule à une vitesse constante sur une autoroute peut maintenir cette vitesse sans accélérer ni décélérer."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, la vitesse peut être mesurée en différentes unités, notamment en mètres par seconde (m/s) ou en kilomètres par heure (km/h), selon le contexte et les besoins de mesure."
+      }
+    ]
+  }
+}

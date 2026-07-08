@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 200",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 6eme : Matière vs matériau : différences et exemples.",
+    "status": "published",
+    "created_at": "2026-04-26 21:47:00",
+    "updated_at": "2026-04-26 21:47:00"
+  },
+  "quiz": {
+    "title": "Matière vs matériau : différences et exemples.",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la différence entre une matière et un matériau ?",
+        "choices": [
+          "La matière est un matériau naturel, le matériau est fabriqué par l'homme",
+          "La matière est un matériau fabriqué par l'homme, le matériau est naturel",
+          "La matière est un concept abstrait, le matériau est concret",
+          "Il n'y a pas de différence"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le bois est un exemple de matière. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple de matériau fabriqué par l'homme ?",
+        "choices": [
+          "Le bois",
+          "Le plastique",
+          "Le métal",
+          "Le verre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le métal est un exemple de matière. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple de matière naturelle ?",
+        "choices": [
+          "Le plastique",
+          "Le bois",
+          "Le métal",
+          "Le verre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le verre est un exemple de matériau fabriqué par l'homme. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est l'intrus dans la liste suivante ?",
+        "choices": [
+          "Le plastique",
+          "Le bois",
+          "Le métal",
+          "Le verre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il n'y a pas de différence entre une matière et un matériau. Vrai ou Faux ?"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

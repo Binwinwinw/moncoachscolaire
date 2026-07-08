@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 156",
+    "level": "6eme",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Français 6e - L’accord du participe passé",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "cueillies",
+        "correction": "Dans la phrase 'Les fleurs que j'ai ___ sont magnifiques.', l'accord correct du participe passé est 'cueillies' car le complément d'objet direct (COD) 'les fleurs' est placé avant le verbe et doit s'accorder en genre et en nombre avec le sujet."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. L'accord du participe passé avec l'auxiliaire avoir se fait uniquement lorsque le complément d'objet direct (COD) est placé avant le verbe. Si le COD est placé après le verbe, il n'y a pas d'accord du participe passé."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "écrite",
+        "correction": "Dans la phrase 'La lettre que tu as ___ est importante.', l'accord correct du participe passé est 'écrite' car le complément d'objet direct (COD) 'la lettre' est placé avant le verbe et doit s'accorder en genre et en nombre avec le sujet."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. L'accord du participe passé avec l'auxiliaire être se fait toujours, quel que soit la position du sujet ou du complément d'objet direct, car le participe passé s'accorde en genre et en nombre avec le sujet du verbe."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "allés",
+        "correction": "Dans la phrase 'Les enfants sont ___ au parc.', l'accord correct du participe passé est 'allés' car le sujet 'les enfants' est au pluriel et le participe passé s'accorde en genre et en nombre avec le sujet du verbe être."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. L'accord du participe passé avec l'auxiliaire être se fait toujours, quel que soit la position du sujet ou du complément d'objet direct, car le participe passé s'accorde en genre et en nombre avec le sujet du verbe."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "visitée",
+        "correction": "Dans la phrase 'La maison que nous avons ___ est ancienne.', l'accord correct du participe passé est 'visitée' car le complément d'objet direct (COD) 'la maison' est placé avant le verbe et doit s'accorder en genre et en nombre avec le sujet."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. L'accord du participe passé peut parfois être facultatif, notamment dans les cas où il y a une ambiguïté ou une difficulté d'accord."
+      }
+    ]
+  }
+}

@@ -13,8 +13,9 @@
 require_once __DIR__ . '/../_core/bootstrap.php';
 require_once __DIR__ . '/../_core/response.php';
 require_once __DIR__ . '/../_core/middleware.php';
-require_once __DIR__ . '/../config/config.php';
-require_once __DIR__ . '/../database/connection.php';
+// @deprecated Préférer api/cours/get_cours.php pour le hub ?page=cours
+require_once __DIR__ . '/../../config/config.php';
+require_once __DIR__ . '/../../database/connection.php';
 
 api_require([
     'method' => 'GET',

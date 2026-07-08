@@ -1,53 +1,35 @@
 <?php
 $page_css = 'college/5eme/exercices-5eme.css';
 $page_class = 'page-exercices-5eme';
+
+require_once dirname(__DIR__, 4) . '/includes/exercices_page_header.php';
+
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+$is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
 ?>
 
 <main class="main-content min-h-screen bg-gray-50">
     <?php /* ...existing code... */ ?>
 
     <div class="max-w-7xl mx-auto px-4 py-8">
-        <!-- Header Section -->
-        <div class="text-center mb-8">
-            <h1 class="text-4xl font-bold text-gray-800 mb-4 flex items-center justify-center gap-3">
-                <span class="text-6xl">🗺️</span>
-                Exercices 5ème - Ton Espace Explorateur
-            </h1>
-            <p class="text-xl text-gray-600 mb-6">Programme 2025 | Découvre de nouveaux horizons scolaires</p>
+                <?php
+        $header_nav = [
+            ['href' => site_url('cours', ['niveau' => '5eme']), 'label' => 'Cours 5ème', 'icon' => '📚', 'tone' => 'primary'],
+            ['href' => site_url('eleve/college/college-accueil'), 'label' => 'Accueil Collège', 'icon' => '🏠', 'tone' => 'secondary'],
+        ];
+        if (!empty($is_logged_in)) {
+            $header_nav[] = ['href' => site_url('eleve/dashboard'), 'label' => 'Mon Dashboard', 'icon' => '📊', 'tone' => 'dashboard'];
+        }
+        render_exercices_page_header([
+            'icon' => '🧭',
+            'title' => 'Exercices 5ème - Explorateur des Savoirs',
+            'subtitle' => 'Programme 2025 | Explore et maîtrise de nouveaux territoires !',
+            'nav_links' => $header_nav,
+        ]);
+        ?>
 
-            <!-- Navigation Buttons -->
-            <div class="flex flex-wrap justify-center gap-4">
-                <a href="<?php echo function_exists('site_url') ? site_url('cours', ['niveau' => '5eme']) : '/cours?niveau=5eme'; ?>"
-                   class="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors shadow-lg">
-                    <span class="mr-2">📚</span>
-                    Cours 5ème
-                </a>
-                <a href="<?php echo function_exists('site_url') ? site_url('eleve/college/college-accueil') : '/eleve/college/college-accueil'; ?>"
-                   class="inline-flex items-center px-6 py-3 bg-purple-600 text-white font-semibold rounded-lg hover:bg-purple-700 transition-colors shadow-lg">
-                    <span class="mr-2">🏠</span>
-                    Accueil Collège
-                </a>
-                <?php if (!empty($is_logged_in)): ?>
-                <a href="<?php echo function_exists('site_url') ? site_url('eleve/dashboard') : '/eleve/dashboard'; ?>"
-                   class="inline-flex items-center px-6 py-3 bg-yellow-600 text-white font-semibold rounded-lg hover:bg-yellow-700 transition-colors shadow-lg">
-                    <span class="mr-2">📊</span>
-                    Mon Dashboard
-                </a>
-                <?php endif; ?>
-                <?php if (!empty($is_logged_in)): ?>
-                <a href="<?php echo function_exists('site_url') ? site_url('exercices') : '/exercices'; ?>"
-                   class="inline-flex items-center px-6 py-3 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors shadow-lg border-2 border-blue-700">
-                    <span class="mr-2">📝</span>
-                    Tous les exercices
-                </a>
-                <?php endif; ?>
-            </div>
-        </div>
-
-
-<?php if (session_status() === PHP_SESSION_NONE) {
-    session_start();
-} $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']); ?>
 
         <!-- Affichage pour visiteurs : exercice aléatoire -->
         <?php if (empty($is_logged_in)): ?>
@@ -63,7 +45,7 @@ $page_class = 'page-exercices-5eme';
 
         <!-- Contenu COMPLET pour les utilisateurs connectés -->
         <?php if (!empty($is_logged_in)): ?>
-        <div class="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-6">
+        <div class="bg-theme-soft border border-theme rounded-lg p-6 mb-6">
             <strong class="text-blue-800">🌟 Salut ! Ton Coach est fier de toi !</strong><br>
             <span class="text-blue-700">La 5ème, c'est l'année des découvertes ! Tu vas explorer de nouveaux territoires scolaires,
             découvrir des matières passionnantes. Chaque défi relevé te rend plus fort.
@@ -145,7 +127,7 @@ $page_class = 'page-exercices-5eme';
 
         <!-- Panneau d'incitation pour les visiteurs (après les exercices) -->
         <?php if (empty($is_logged_in)): ?>
-        <div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-8 mb-8 border border-blue-200">
+        <div class="banner-theme rounded-xl p-8 mb-8">
             <h2 class="text-2xl font-bold text-gray-800 mb-4 flex items-center gap-3">
                 <span class="text-3xl">🔒</span>
                 Débloque ton Coach Scolaire Personnalisé
@@ -187,7 +169,7 @@ $page_class = 'page-exercices-5eme';
             </div>
 
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="<?php echo function_exists('site_url') ? site_url('register') : 'index.php?page=register'; ?>" class="inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-blue-800 transition-all shadow-lg">
+                <a href="<?php echo function_exists('site_url') ? site_url('register') : 'index.php?page=register'; ?>" class="btn-theme-primary inline-flex items-center justify-center px-6 py-3 font-semibold rounded-lg shadow-lg">
                     <span class="mr-2">✨</span>
                     Créer mon compte gratuit
                 </a>
@@ -202,7 +184,7 @@ $page_class = 'page-exercices-5eme';
 
 
         <!-- Contenu COMPLET pour les utilisateurs connectés -->
-        <div class="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-6">
+        <div class="bg-theme-soft border border-theme rounded-lg p-6 mb-6">
             <strong class="text-blue-800">🌟 Salut ! Ton Coach est fier de toi !</strong><br>
             <span class="text-blue-700">La 5ème, c'est l'année des découvertes ! Tu vas explorer de nouveaux territoires scolaires,
             découvrir des matières passionnantes. Chaque défi relevé te rend plus fort.

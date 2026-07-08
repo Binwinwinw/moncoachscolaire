@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 155",
+    "level": "6eme",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Français 6e - Les temps du récit (imparfait, passé simple…)",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Imparfait",
+        "correction": "L'imparfait est utilisé pour exprimer une action qui se déroulait de manière habituelle ou répétée dans le passé, ou pour décrire une situation ou un état dans le passé."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le passé simple est utilisé pour exprimer une action qui s'est déroulée dans le passé et qui n'a pas de lien direct avec le présent, souvent dans un contexte littéraire ou formel."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Passé simple",
+        "correction": "Le passé simple est utilisé pour exprimer une action qui s'est déroulée dans le passé et qui n'a pas de lien direct avec le présent, souvent dans un contexte littéraire ou formel."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Le présent du récit est utilisé pour exprimer des actions ou des événements qui se déroulent au moment où l'on raconte l'histoire, créant ainsi une impression d'immédiateté et d'engagement du lecteur dans le récit."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Présent",
+        "correction": "Le présent du récit est utilisé pour exprimer des actions ou des événements qui se déroulent au moment où l'on raconte l'histoire, créant ainsi une impression d'immédiateté et d'engagement du lecteur dans le récit."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Le futur du récit est utilisé pour exprimer des actions ou des événements qui se dérouleront dans le futur par rapport au moment où l'on raconte l'histoire, souvent pour créer une anticipation ou une tension narrative."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Futur",
+        "correction": "Le futur du récit est utilisé pour exprimer des actions ou des événements qui se dérouleront dans le futur par rapport au moment où l'on raconte l'histoire, souvent pour créer une anticipation ou une tension narrative."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. L'utilisation de différents temps du récit peut contribuer à créer une atmosphère particulière et à renforcer l'impact émotionnel de l'histoire sur les lecteurs, en jouant sur la temporalité et en créant des effets de suspense, d'immédiateté ou de nostalgie."
+      }
+    ]
+  }
+}

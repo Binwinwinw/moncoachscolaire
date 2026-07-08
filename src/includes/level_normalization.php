@@ -12,6 +12,9 @@ function is_bac_level($level)
 /**
  * Normalisation des niveaux scolaires
  * Gère les problèmes d'encodage et uniformise les niveaux
+ *
+ * Source canonique pour affichage et comparaisons : normalize_school_level()
+ * Pour les slugs URL / thème routeur : normalize_level_for_url() dans site_boot.php
  */
 
 /**

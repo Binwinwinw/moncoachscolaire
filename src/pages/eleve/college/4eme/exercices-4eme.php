@@ -1,53 +1,35 @@
 <?php
 $page_css = 'college/4eme/exercices-4eme.css';
 $page_class = 'page-exercices-4eme';
+
+require_once dirname(__DIR__, 4) . '/includes/exercices_page_header.php';
+
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+$is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
 ?>
 
 <main class="main-content min-h-screen bg-gray-50">
     <?php /* ...existing code... */ ?>
 
     <div class="max-w-7xl mx-auto px-4 py-8">
-        <!-- Header Section -->
-        <div class="text-center mb-8">
-            <h1 class="text-4xl font-bold text-gray-800 mb-4 flex items-center justify-center gap-3">
-                <span class="text-6xl">⚙️</span>
-                Exercices 4ème - Ton Atelier d'Ingénieur
-            </h1>
-            <p class="text-xl text-gray-600 mb-6">Programme 2025 | Répare la Machine Temporelle</p>
+                <?php
+        $header_nav = [
+            ['href' => site_url('cours', ['niveau' => '4eme']), 'label' => 'Cours 4ème', 'icon' => '📚', 'tone' => 'primary'],
+            ['href' => site_url('eleve/college/college-accueil'), 'label' => 'Accueil Collège', 'icon' => '🏠', 'tone' => 'secondary'],
+        ];
+        if (!empty($is_logged_in)) {
+            $header_nav[] = ['href' => site_url('eleve/dashboard'), 'label' => 'Mon Dashboard', 'icon' => '📊', 'tone' => 'dashboard'];
+        }
+        render_exercices_page_header([
+            'icon' => '⚙️',
+            'title' => 'Exercices 4ème - Ingénieur en Herbe',
+            'subtitle' => 'Programme 2025 | Construis tes compétences étape par étape !',
+            'nav_links' => $header_nav,
+        ]);
+        ?>
 
-            <!-- Navigation Buttons -->
-            <div class="flex flex-wrap justify-center gap-4">
-                <?php if (!empty($is_logged_in)): ?>
-                <a href="<?php echo function_exists('site_url') ? site_url('exercices') : '/exercices'; ?>"
-                   class="inline-flex items-center px-6 py-3 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors shadow-lg border-2 border-blue-700">
-                    <span class="mr-2">📝</span>
-                    Tous les exercices
-                </a>
-                <?php endif; ?>
-                <a href="<?php echo function_exists('site_url') ? site_url('cours', ['niveau' => '4eme']) : '/cours?niveau=4eme'; ?>"
-                   class="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors shadow-lg">
-                    <span class="mr-2">📚</span>
-                    Cours 4ème
-                </a>
-                <a href="<?php echo function_exists('site_url') ? site_url('eleve/college/college-accueil') : '/eleve/college/college-accueil'; ?>"
-                   class="inline-flex items-center px-6 py-3 bg-purple-600 text-white font-semibold rounded-lg hover:bg-purple-700 transition-colors shadow-lg">
-                    <span class="mr-2">🏠</span>
-                    Accueil Collège
-                </a>
-                <?php if (!empty($is_logged_in)): ?>
-                <a href="<?php echo function_exists('site_url') ? site_url('eleve/dashboard') : '/eleve/dashboard'; ?>"
-                   class="inline-flex items-center px-6 py-3 bg-yellow-600 text-white font-semibold rounded-lg hover:bg-yellow-700 transition-colors shadow-lg">
-                    <span class="mr-2">📊</span>
-                    Mon Dashboard
-                </a>
-                <?php endif; ?>
-            </div>
-        </div>
-
-
-<?php if (session_status() === PHP_SESSION_NONE) {
-    session_start();
-} $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']); ?>
 
         <!-- Pour les visiteurs : aperçu exercices PUIS panneau coach -->
         <?php if (empty($is_logged_in)): ?>
@@ -72,7 +54,7 @@ $page_class = 'page-exercices-4eme';
             echo '<p class="text-center mt-6"><a href="' . site_url('register') . '" class="text-blue-600 hover:text-blue-800 font-medium">Créez un compte</a> ou <a href="' . site_url('login') . '" class="text-blue-600 hover:text-blue-800 font-medium">connectez-vous</a> pour accéder à tous les exercices.</p>';
             ?>
 
-            <div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-8 mb-8 border border-blue-200">
+            <div class="banner-theme rounded-xl p-8 mb-8">
                 <h2 class="text-2xl font-bold text-gray-800 mb-4 flex items-center gap-3">
                     <span class="text-3xl">🔒</span>
                     Débloque ton Coach Scolaire Personnalisé
@@ -114,7 +96,7 @@ $page_class = 'page-exercices-4eme';
                 </div>
 
                 <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                    <a href="<?php echo function_exists('site_url') ? site_url('register') : 'index.php?page=register'; ?>" class="inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-blue-800 transition-all shadow-lg">
+                    <a href="<?php echo function_exists('site_url') ? site_url('register') : 'index.php?page=register'; ?>" class="btn-theme-primary inline-flex items-center justify-center px-6 py-3 font-semibold rounded-lg shadow-lg">
                         <span class="mr-2">✨</span>
                         Créer mon compte gratuit
                     </a>
@@ -153,7 +135,7 @@ if (empty($is_logged_in)) {
 ?>
 
         <!-- Contenu COMPLET pour les utilisateurs connectés -->
-        <div class="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-6">
+        <div class="bg-theme-soft border border-theme rounded-lg p-6 mb-6">
             <strong class="text-blue-800">🔧 Bienvenue dans ton atelier d'Ingénieur ! Ton Coach est impressionné !</strong><br>
             <span class="text-blue-700">En 4ème, tu vas devenir un véritable ingénieur ! Complexité, analyse, esprit critique...
             Chaque problème résolu est une pièce de la machine temporelle que tu répares.

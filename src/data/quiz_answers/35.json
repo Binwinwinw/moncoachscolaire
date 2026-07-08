@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6ème - Série 35",
+    "level": "6ème",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "Vocabulaire de base : vêtements, couleurs, nombres",
+    "question_count": 8,
+    "level": "6ème",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Shirt",
+        "correction": "The English word for 'chemise' is 'shirt', which is a common piece of clothing worn on the upper body."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English word for 'pantalon' is indeed 'pants', which refers to a common piece of clothing worn on the lower body."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "'Colors', 'Hues', and 'Shades' are all common English words that can be used to refer to different aspects of color and its variations."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English word for 'nombres' is indeed 'numbers', which refers to mathematical symbols used to represent quantities and perform calculations."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "'Dress', 'Skirt', and 'Gown' are all common English words that can be used to refer to different types of clothing worn on the lower body, especially for formal or semi-formal occasions."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English word for 'chapeau' is indeed 'hat', which is a common accessory worn on the head for protection from the sun, cold, or as a fashion statement."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "'Colors', 'Tints', and 'Tones' are all common English words that can be used to refer to different aspects of color and its variations."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English word for 'nombres' can indeed be translated as 'digits', which refers to the individual symbols used to represent numbers in the decimal system (0-9)."
+      }
+    ]
+  }
+}

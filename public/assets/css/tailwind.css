@@ -10,9 +10,24 @@
 
 /* Fond global MonCoachScolaire */
 .app-bg {
-    background-image: url("../img/background-school-material.png");
+    --page-bg-image: url("../img/background-school-material.png");
+    --page-bg-overlay: linear-gradient(
+        rgb(255 255 255 / 0%),
+        rgb(255 255 255 / 0%)
+    );
+    background-image: var(--page-bg-image);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    position: relative;
+}
+
+.app-bg::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: var(--page-bg-overlay);
+    pointer-events: none;
+    z-index: -1;
 }

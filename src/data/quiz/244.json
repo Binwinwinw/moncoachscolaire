@@ -1,0 +1,70 @@
+{
+    "contents": {
+        "title": "Quiz IA Francais - 4eme",
+        "type": "quiz",
+        "level": "4eme",
+        "subject": "Francais",
+        "description": "Quiz diagnostique généré par IA",
+        "status": "published",
+        "created_at": "2026-07-04T06:42:47+00:00",
+        "updated_at": "2026-07-04T06:42:47+00:00"
+    },
+    "quiz": {
+        "title": "Quiz IA Francais - 4eme",
+        "type": "quiz",
+        "level": "4eme",
+        "subject": "Francais",
+        "question_count": 5,
+        "passing_score": 70,
+        "time_limit_minutes": 15,
+        "questions": [
+            {
+                "id": 1,
+                "type": "qcm",
+                "question": "Le verbe 'aller' est un verbe régulier ?",
+                "choices": [
+                    "a) Vrai",
+                    "b) Faux"
+                ]
+            },
+            {
+                "id": 2,
+                "type": "qcm",
+                "question": "Le pluriel de 'livre' se forme en ajoutant 's' ?",
+                "choices": [
+                    "a) Vrai",
+                    "b) Faux"
+                ]
+            },
+            {
+                "id": 3,
+                "type": "qcm",
+                "question": "Le mot 'chat' est un nom commun ?",
+                "choices": [
+                    "a) Vrai",
+                    "b) Faux"
+                ]
+            },
+            {
+                "id": 4,
+                "type": "qcm",
+                "question": "Le verbe 'être' est un verbe d'action ?",
+                "choices": [
+                    "a) Vrai",
+                    "b) Faux"
+                ]
+            },
+            {
+                "id": 5,
+                "type": "qcm",
+                "question": "Le mot 'Bonjour' est un adverbe ?",
+                "choices": [
+                    "a) Vrai",
+                    "b) Faux"
+                ]
+            }
+        ]
+    },
+    "exercisenotion": [],
+    "exerciseresponses": []
+}

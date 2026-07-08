@@ -1,3 +1,60 @@
+## [01/05/2026] Référencement explicite journal + suivi bugs — ligne conductrice projet
+
+**Contexte :** `dev/JOURNAL_REPRISE.md` et `dev/SUIVI_BUGS_AMELIORATIONS.md` sont les sources canoniques de l’état du projet (historique daté, priorités, bugs/améliorations, couverture quiz). Pour éviter qu’une lecture limitée à `.github/copilot-instructions.md` ne suffise à situer le chantier réel.
+
+**Actions réalisées :**
+
+- Ajout d’une section « État du projet et ligne conductrice » dans `ARCHITECTURE.md` avec tableau des deux fichiers et procédure de lecture avant chantier significatif.
+- Ajout de `dev/README.md` comme portail vers ce journal, le suivi bugs et `dev/tools/README.md`.
+
+**Lecture recommandée avant travail important :**
+
+1. `dev/SUIVI_BUGS_AMELIORATIONS.md` — priorités actives, tableau de couverture, bugs ouverts.
+2. Tête de `dev/JOURNAL_REPRISE.md` — dernières sessions ; fin du fichier — TODO consolidée et décisions encore ouvertes.
+
+---
+
+## [30/04/2026] Validation qualité pédagogique renforcée — reprise de workflow
+
+Travail réalisé sur cette session :
+
+- Mise à jour de `dev/tools/quiz/validator/validate_quiz_quality.py` pour intégrer la réalité du format `quiz` + `quiz_answers`.
+- Ajout de contrôles :
+  - `missing_answers_file` si `src/data/quiz_answers/<id>.json` manque
+  - `missing_answers` si des questions n’ont pas de correction associée
+  - `extra_answers` si le fichier de corrections contient des IDs hors quiz
+  - `few_notions` si `exercisenotion` contient moins de 2 items
+- Le validateur vérifie désormais les explications de question ET les corrections du fichier `answers`.
+- `dev/tools/quiz/validator/quiz_quality_workflow.py` utilise maintenant un rapport JSON stable (`--report-json`) pour analyser les métriques et appliquer les seuils de blocage.
+
+Pourquoi c’est important :
+
+- Les quiz ne sont plus validés uniquement sur le JSON du quiz, mais aussi sur l’appariement réel correction/question.
+- Le workflow devient résilient aux variations de format Markdown dans le rapport.
+- On peut relancer la validation automatiquement et reprendre par lots sans perdre le statut précédent.
+
+Commandes clés :
+
+```bash
+python dev/tools/quiz/validator/validate_quiz_quality.py \
+  --quiz-dir src/data/quiz \
+  --answers-dir src/data/quiz_answers \
+  --report dev/reports/quiz_quality_report.md \
+  --report-json dev/reports/quiz_quality_report.json
+```
+
+```bash
+python dev/tools/quiz/validator/quiz_quality_workflow.py enrich --batch-size 50 --start-id 241
+```
+
+Prochaine étape recommandée :
+
+1. lancer le workflow sur le lot 241–288 de 6ème Physique-Chimie
+2. corriger les quiz identifiés comme `missing_answers`, `few_notions`, ou `short_explanation`
+3. vérifier que les JSON de rapport sont bien générés dans `dev/reports/`
+
+---
+
 ## [18/04/2026] Consolidation massive de la base de quiz collège + normalisation runtime — ✅ gros palier atteint
 
 Travail réalisé sur cette session :
@@ -26,6 +83,36 @@ Suite recommandée :
 1. harmonisation qualitative/pédagogique des formulations les moins naturelles
 2. revue des lots legacy plus anciens (doublons, écarts de niveau, titres hétérogènes)
 3. poursuite de l'équilibrage sur les niveaux lycée si priorité confirmée
+
+- `dev/tools/quiz/validator/quiz_quality_workflow.py` utilise maintenant un rapport JSON stable (`--report-json`) pour analyser les métriques et appliquer les seuils de blocage.
+
+Pourquoi c’est important :
+
+- Les quiz ne sont plus validés uniquement sur le JSON du quiz, mais aussi sur l’appariement réel correction/question.
+- Le workflow devient résilient aux variations de format Markdown dans le rapport.
+- On peut relancer la validation automatiquement et reprendre par lots sans perdre le statut précédent.
+
+Commandes clés :
+
+```bash
+python dev/tools/quiz/validator/validate_quiz_quality.py \
+  --quiz-dir src/data/quiz \
+  --answers-dir src/data/quiz_answers \
+  --report dev/reports/quiz_quality_report.md \
+  --report-json dev/reports/quiz_quality_report.json
+```
+
+```bash
+python dev/tools/quiz/validator/quiz_quality_workflow.py enrich --batch-size 50 --start-id 241
+```
+
+Prochaine étape recommandée :
+
+1. lancer le workflow sur le lot 241–288 de 6ème Physique-Chimie
+2. corriger les quiz identifiés comme `missing_answers`, `few_notions`, ou `short_explanation`
+3. vérifier que les JSON de rapport sont bien générés dans `dev/reports/`
+
+---
 
 ## [25/04/2026] Audit Python générateurs quiz — mise à jour du suivi
 
@@ -2280,5 +2367,28 @@ Aucune action requise sur ce lot sauf évolution majeure ou demande spécifique.
 - Testé et validé pour livraison intermédiaire
 
 **Statut** : Générateur Français 6e validé, prêt pour livraison et validation automatique. À dupliquer comme référence pour les autres matières/années.
+
+---
+
+## [27/06/2026] Thème unifié par niveau scolaire (collège / lycée / BAC)
+
+- **Resolver** : `get_theme_tier()`, `resolve_app_theme()`, `get_neutral_theme_variant()` dans `site_boot.php` ; palette assourdie (tons 50–800, sans fluo).
+- **Routeur** : `$GLOBALS['app_theme']`, classe body `theme-college|lycee|bac|neutral`, CSS global `theme-level.css`.
+- **Topbar** : source unique via `$GLOBALS['app_theme']` ; badge niveau lisible sur fond coloré.
+- **Shell élève** : `landingpage.php` (hero, bandeau, menu) et `dashboard.php` branchés sur le thème session.
+- **Exercices** : partial `exercices_page_header.php` ; migration 6e→Terminale ; `$page_theme_level = 'bac'` sur toutes les pages BAC.
+- **CSS** : accents `exercices-*.css` pointés vers `var(--color-primary)` (commentaire DEPRECATED en tête).
+
+---
+
+## [27/06/2026] Harmonisation coque guides de remédiation (10 pages)
+
+- **Socle** : `remediation_level_template.php`, `remediation_guide_bootstrap.php`, `remediation-guide.css`, `remediation-modals.js`.
+- **Pages niveau** (7) migrées vers le template : 6e, 5e, 4e, 3e, 2nde, 1ère, Terminale — contenu modales extrait en `.modals.inc.php` / `.action.inc.php`.
+- **Hubs** (3) : bac, collège, lycée → `$page_css = 'remediation-guide.css'`.
+- **UI** : header cover + nav unifiés, palette via `get_theme_variant_by_level`, footer opaque (`remediation-hub-page`), JS modales partagé (`openMatiereModal` / alias `openTermModal`).
+- **Correctifs** : modales Technologie + Arts 6e réparées ; encodage UTF-8 partiel 2nde (classe CSS, titres, emojis).
+- **Dépréciation** : 8× `guide-remediation.css` par niveau + `remediation-hub.css` (commentaire en tête, non supprimés).
+- **Validation** : syntaxe PHP OK sur pages + includes ; smoke URLs à vérifier en navigateur (10 routes guides).
 
 ---

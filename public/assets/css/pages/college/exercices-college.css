@@ -1,3 +1,5 @@
+/* Overrides niveau — structure commune : pages/exercices-common.css (auto-charge par index.php) */
+/* DEPRECATED accents — utiliser theme-level.css (--color-primary) + body.theme-* */
 /* Styles for exercises listing - Collège (reuse base from lycee) */
 @import url('../../lycee/exercices-lycee.css');
 /* Overrides specific to college if needed */

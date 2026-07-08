@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6ème - Série 26",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6ème : Conjuguaison : verbes réguliers, verbes irréguliers, temps de base",
+    "status": "published",
+    "created_at": "2026-04-26T21:32:48.845337Z",
+    "updated_at": "2026-04-26T21:32:48.845337Z"
+  },
+  "quiz": {
+    "title": "Conjuguaison : verbes réguliers, verbes irréguliers, temps de base",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Which of the following is a regular verb in English?",
+        "choices": [
+          "Walk",
+          "Go",
+          "Eat",
+          "Have"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The past tense of 'walk' is 'walked'' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is an irregular verb in English?",
+        "choices": [
+          "Run",
+          "Jump",
+          "Play",
+          "Talk"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The past tense of 'run' is 'ran'' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is the correct past tense form of 'eat'?",
+        "choices": [
+          "Eated",
+          "Eaten",
+          "Ate",
+          "Eat"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The past tense of 'have' is 'had'' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is the correct past participle form of 'go'?",
+        "choices": [
+          "Goed",
+          "Gone",
+          "Went",
+          "Go"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The past participle of 'go' is 'gone'' is a True statement."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

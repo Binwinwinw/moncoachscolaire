@@ -56,6 +56,12 @@ if (is_file(dirname(__DIR__, 2) . '/includes/admin_auth.php')) {
     require_once dirname(__DIR__, 2) . '/includes/admin_auth.php';
 }
 
+$direct_access = (realpath($_SERVER['SCRIPT_FILENAME'] ?? '') === realpath(__FILE__));
+if ($direct_access && empty($GLOBALS['app_theme']) && is_file(dirname(__DIR__, 2) . '/includes/app_theme_bootstrap.php')) {
+    require_once dirname(__DIR__, 2) . '/includes/app_theme_bootstrap.php';
+    bootstrap_app_theme(null, null);
+}
+
 // VÉRIFICATION ADMIN : Si l'utilisateur est admin et accède au dashboard normal,
 // ne pas rediriger (il peut choisir d'aller au dashboard admin ou normal)
 // Cette vérification permet aux admins d'accéder aux deux dashboards
@@ -87,7 +93,6 @@ $user_level_display = get_level_display_name($user_level);
 $user_level_normalized = normalize_school_level($user_level);
 
 // Si ce fichier est accédé directement (pas via le router), charger les CSS et le header/footer
-$direct_access = (realpath($_SERVER['SCRIPT_FILENAME'] ?? '') === realpath(__FILE__));
 if ($direct_access) {
     // === DÉCLENCHEUR HEAD/HTML : n'émettre le <head> que si accès direct ===
     // Charger les helpers et la configuration
@@ -121,6 +126,12 @@ if ($direct_access) {
     ?>
                 <link rel="stylesheet" href="<?php echo htmlspecialchars($cssStyle, ENT_QUOTES); ?>">
                 <link rel="stylesheet" href="<?php echo htmlspecialchars($cssPage, ENT_QUOTES); ?>">
+                <?php
+                $themeLevelCss = function_exists('asset_url')
+                    ? asset_url('assets/css/theme-level.css')
+                    : (($root !== '' ? $root : '') . '/assets/css/theme-level.css');
+                ?>
+                <link rel="stylesheet" href="<?php echo htmlspecialchars($themeLevelCss, ENT_QUOTES); ?>">
                 <?php
     // Exposer baseUrl pour JavaScript
     if (function_exists('detectBaseUrl')) {
@@ -181,7 +192,7 @@ if ($direct_access) {
                                         [data-colibri-global] { display: none !important; }
                 </style>
         </head>
-        <body>
+        <body class="app-bg theme-<?php echo htmlspecialchars($GLOBALS['app_theme']['tier'] ?? 'neutral', ENT_QUOTES, 'UTF-8'); ?> dashboard-page">
             // === FIN DÉCLENCHEUR HEAD/HTML ===
         <?php
         // Inclure le topbar
@@ -189,7 +200,7 @@ if ($direct_access) {
             include_once dirname(__DIR__, 2) . '/includes/topbar.php';
         }
 }
-if (!$direct_access && is_file(dirname(__DIR__, 2) . '/includes/topbar.php')) {
+if (!$direct_access && empty($GLOBALS['__topbar_included']) && is_file(dirname(__DIR__, 2) . '/includes/topbar.php')) {
     // Inclure la topbar APRÈS toutes les vérifications de redirection (authentification, démo, etc.)
     require_once dirname(__DIR__, 2) . '/includes/topbar.php';
 }
@@ -200,6 +211,8 @@ require_once dirname(__DIR__, 2) . '/includes/progress_display.php';
 require_once dirname(__DIR__, 2) . '/includes/dashboard_extensions.php';
 require_once dirname(__DIR__, 2) . '/includes/course_display.php';
 require_once dirname(__DIR__, 2) . '/includes/resource_display.php';
+require_once dirname(__DIR__, 2) . '/includes/learning_model.php';
+require_once dirname(__DIR__, 2) . '/includes/learning_repository.php';
 
 // Initialiser les extensions du dashboard
 if ($user_id) {
@@ -220,6 +233,16 @@ $weeklyGoals = null;
 $userStreak = null;
 $weatherMood = null;
 $notifications = null;
+$learningProfile = null;
+$learningPath = null;
+$learningRecommendation = null;
+$learningRecommendationContent = null;
+$learningEvents = [];
+$learningRepository = null;
+$nextStepActionUrl = null;
+$nextStepActionLabel = 'Découvrir les exercices';
+$nextStepActionTitle = 'Une activité à faire maintenant';
+$nextStepActionDescription = 'Une petite étape simple pour reprendre le fil du parcours.';
 
 if ($user_id) {
     $userProgress = getUserProgress($user_id);
@@ -228,6 +251,51 @@ if ($user_id) {
     $userStreak = getUserStreak($user_id);
     $weatherMood = getWeatherMood($user_id);
     $notifications = getUnreadNotifications($user_id, 5);
+
+    if ($pdo instanceof PDO) {
+        try {
+            $learningRepository = new LearningRepository($pdo);
+            $learningProfile = $learningRepository->getActiveProfileForUser((int) $user_id);
+            if ($learningProfile) {
+                $profileLevel = LearningModel::normalizeSchoolLevel($learningProfile['school_level'] ?? null);
+                $sessionLevel = LearningModel::normalizeSchoolLevel($user_level);
+                if ($profileLevel && $sessionLevel && $profileLevel !== $sessionLevel) {
+                    $learningProfile = null;
+                    $learningPath = null;
+                    $learningRecommendation = null;
+                    $learningRecommendationContent = null;
+                    $learningEvents = [];
+                } else {
+                    $learningPath = $learningRepository->getActivePathForProfile((int) $learningProfile['id'], 'consolidation');
+                    $learningRecommendationContext = $learningRepository->buildRecommendationContext((int) $learningProfile['id'], 'consolidation');
+                    $learningRecommendation = $learningRecommendationContext['recommendation'] ?? null;
+                    $learningRecommendationContent = $learningRecommendationContext['content_unit'] ?? null;
+                    $nextSuggestedExercise = $learningRecommendationContext['exercise'] ?? null;
+                    $learningEvents = $learningRepository->getRecentProgressEvents((int) $learningProfile['id'], 5);
+
+                    if ($nextSuggestedExercise) {
+                        $nextExerciseId = (int) ($nextSuggestedExercise['Id'] ?? $nextSuggestedExercise['id'] ?? 0);
+                        if ($nextExerciseId > 0) {
+                            $nextStepActionUrl = function_exists('site_url')
+                                ? site_url('view_exercise', ['id' => $nextExerciseId])
+                                : '/public/index.php?page=view_exercise&id=' . $nextExerciseId;
+                        }
+                    }
+
+                    $nextStepCopy = $learningRecommendationContext['next_step'] ?? [
+                        'label' => 'Découvrir les exercices',
+                        'title' => 'Une activité à faire maintenant',
+                        'description' => 'Une petite étape simple pour reprendre le fil du parcours.',
+                    ];
+                    $nextStepActionLabel = $nextStepCopy['label'];
+                    $nextStepActionTitle = $nextStepCopy['title'];
+                    $nextStepActionDescription = $nextStepCopy['description'];
+                }
+            }
+        } catch (Throwable $e) {
+            error_log('Dashboard learning repository failed: ' . $e->getMessage());
+        }
+    }
 }
 
 // Configuration par niveau scolaire
@@ -318,15 +386,21 @@ $coachMessages = [
 <main class="main-content max-w-7xl mx-auto px-4 py-8">
     <!-- Header personnalisé selon le niveau -->
     <?php
-        // Palette sobriété: pas de couleurs flashy, style neutre.
+        // Palette par niveau scolaire (via resolve_app_theme / index.php)
         $user_level_norm = function_exists('normalize_school_level') ? normalize_school_level($user_level) : $user_level;
-        $theme = function_exists('get_theme_variant_by_level') ? get_theme_variant_by_level($user_level_norm) : [];
-        $dominant_bg = 'bg-slate-100';
-        $dominant_border = 'border-slate-300';
-        $dominant_accent = 'text-slate-900';
-        $card_title = 'text-slate-800';
-        $btn_primary = 'bg-slate-700 text-white hover:bg-slate-800';
-        $btn_secondary = 'bg-slate-500 text-white hover:bg-slate-600';
+        $themeLevelKey = function_exists('normalize_level_for_url')
+            ? normalize_level_for_url($user_level)
+            : strtolower((string) $user_level_norm);
+        $appThemeVariant = $GLOBALS['app_theme']['variant'] ?? null;
+        $theme = (is_array($appThemeVariant) && !empty($appThemeVariant))
+            ? $appThemeVariant
+            : (function_exists('get_theme_variant_by_level') ? get_theme_variant_by_level($themeLevelKey) : []);
+        $dominant_bg = $theme['cover'] ?? 'bg-gradient-to-br from-green-100 to-green-50';
+        $dominant_border = 'border-theme';
+        $dominant_accent = $theme['title'] ?? 'text-green-800';
+        $card_title = $theme['subtitle'] ?? 'text-green-900';
+        $btn_primary = ($theme['nav_primary'] ?? 'bg-green-700 hover:bg-green-800') . ' text-white';
+        $btn_secondary = $theme['menu_secondary'] ?? 'bg-green-50 text-green-800 border border-green-200';
         $status_admin = 'text-slate-500';
     ?>
     <div class="dashboard-header rounded-2xl p-8 mb-8 shadow-sm flex flex-col gap-6 <?php echo $dominant_bg; ?> <?php echo $dominant_border; ?>">
@@ -371,16 +445,110 @@ $coachMessages = [
         </div>
     </div>
 
+    <div class="mb-8 overflow-hidden rounded-[28px] border border-emerald-100 bg-gradient-to-br from-emerald-50 via-white to-amber-50 p-6 shadow-[0_18px_45px_rgba(15,23,42,0.06)]">
+        <div class="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
+            <div class="max-w-2xl">
+                <p class="text-sm font-semibold uppercase tracking-[0.24em] text-emerald-700">Parcours élève</p>
+                <h2 class="mt-2 text-2xl font-bold text-slate-900">Ton accompagnement pédagogique</h2>
+                <p class="mt-2 text-sm leading-6 text-slate-600">Voici un aperçu simple de ton profil, de ce qui te attend et de la prochaine étape à franchir.</p>
+            </div>
+            <div class="rounded-full border border-emerald-200 bg-white/80 px-4 py-2 text-sm font-medium text-emerald-800 shadow-sm">Niveau verrouillé : <?php echo htmlspecialchars($user_level_display ?? 'à définir'); ?></div>
+        </div>
+
+        <div class="mt-6 grid gap-4 xl:grid-cols-2">
+            <div class="rounded-2xl border border-emerald-100 bg-white/90 p-4 shadow-sm">
+                <div class="flex items-center gap-2">
+                    <span class="text-lg">🧭</span>
+                    <h3 class="text-base font-semibold text-slate-900">Profil pédagogique</h3>
+                </div>
+                <div class="mt-3 space-y-2 text-sm text-slate-700">
+                    <div class="flex items-center justify-between gap-3 rounded-lg bg-emerald-50/70 px-3 py-2"><span class="font-medium text-slate-600">Niveau</span><span class="font-semibold text-slate-800"><?php echo htmlspecialchars($learningProfile['school_level'] ?? $user_level_display ?? 'À définir'); ?></span></div>
+                    <div class="flex items-center justify-between gap-3 rounded-lg bg-amber-50/70 px-3 py-2"><span class="font-medium text-slate-600">Cycle</span><span class="font-semibold text-slate-800"><?php echo htmlspecialchars(ucfirst((string) ($learningProfile['cycle'] ?? 'À définir'))); ?></span></div>
+                    <div class="flex items-center justify-between gap-3 rounded-lg bg-slate-50 px-3 py-2"><span class="font-medium text-slate-600">Objectif</span><span class="font-semibold text-slate-800"><?php echo htmlspecialchars(ucfirst((string) ($learningProfile['objective'] ?? 'consolidation'))); ?></span></div>
+                    <div class="flex items-center justify-between gap-3 rounded-lg bg-slate-50 px-3 py-2"><span class="font-medium text-slate-600">Accompagnement</span><span class="font-semibold text-slate-800"><?php echo htmlspecialchars(ucfirst((string) ($learningProfile['support_style'] ?? 'guidé'))); ?></span></div>
+                </div>
+            </div>
+
+            <div class="rounded-2xl border border-emerald-100 bg-white/90 p-4 shadow-sm">
+                <div class="flex items-center gap-2">
+                    <span class="text-lg">🛤️</span>
+                    <h3 class="text-base font-semibold text-slate-900">Parcours actif</h3>
+                </div>
+                <?php if (!empty($learningPath)): ?>
+                    <div class="mt-3 space-y-2 text-sm text-slate-700">
+                        <div class="rounded-lg bg-emerald-50/70 px-3 py-2"><span class="font-medium text-slate-600">Titre :</span> <?php echo htmlspecialchars((string) $learningPath['title']); ?></div>
+                        <div class="rounded-lg bg-slate-50 px-3 py-2"><span class="font-medium text-slate-600">Étape :</span> <?php echo htmlspecialchars((string) $learningPath['current_stage']); ?></div>
+                        <div class="rounded-lg bg-slate-50 px-3 py-2"><span class="font-medium text-slate-600">Compétence :</span> <?php echo htmlspecialchars((string) ($learningPath['target_competency'] ?? 'À définir')); ?></div>
+                        <div class="rounded-lg bg-slate-50 px-3 py-2"><span class="font-medium text-slate-600">Durée :</span> <?php echo (int) ($learningPath['estimated_duration'] ?? 0); ?> min</div>
+                    </div>
+                <?php else: ?>
+                    <div class="mt-3 rounded-xl border border-dashed border-emerald-200 bg-emerald-50/70 p-4 text-sm text-slate-600">
+                        <p class="font-medium text-slate-700">Le parcours n’est pas encore lancé.</p>
+                        <p class="mt-1">Tu peux commencer par un premier exercice ou un mini diagnostic pour ouvrir la suite.</p>
+                        <a href="<?php echo site_url('diagnostic'); ?>" class="mt-3 inline-flex items-center rounded-full bg-emerald-700 px-3 py-2 text-sm font-semibold text-white transition hover:bg-emerald-800">Commencer</a>
+                    </div>
+                <?php endif; ?>
+            </div>
+
+            <div class="rounded-2xl border border-emerald-100 bg-white/90 p-4 shadow-sm">
+                <div class="flex items-center gap-2">
+                    <span class="text-lg">✨</span>
+                    <h3 class="text-base font-semibold text-slate-900">Prochaine recommandation</h3>
+                </div>
+                <?php if (!empty($learningRecommendation) && !empty($learningRecommendationContent)): ?>
+                    <div class="mt-3 space-y-2 text-sm text-slate-700">
+                        <div class="rounded-lg bg-amber-50/70 px-3 py-2"><span class="font-medium text-slate-600">Contenu :</span> <?php echo htmlspecialchars((string) $learningRecommendationContent['subject']); ?></div>
+                        <div class="rounded-lg bg-slate-50 px-3 py-2"><span class="font-medium text-slate-600">Raison :</span> <?php echo htmlspecialchars((string) $learningRecommendation['reason_code']); ?></div>
+                        <div class="rounded-lg bg-slate-50 px-3 py-2"><span class="font-medium text-slate-600">Priorité :</span> <?php echo htmlspecialchars((string) $learningRecommendation['priority']); ?></div>
+                        <div class="mt-3 rounded-lg border border-emerald-100 bg-emerald-50 px-3 py-3">
+                            <p class="text-sm font-semibold text-slate-800">Prochaine étape</p>
+                            <p class="mt-1 text-sm font-semibold text-slate-800"><?php echo htmlspecialchars((string) $nextStepActionTitle); ?></p>
+                            <p class="mt-1 text-sm text-slate-700"><?php echo htmlspecialchars((string) $nextStepActionDescription); ?></p>
+                            <div class="mt-3 flex flex-wrap gap-2">
+                                <a href="<?php echo htmlspecialchars($nextStepActionUrl ?: site_url('exercices'), ENT_QUOTES); ?>" class="inline-flex items-center rounded-full bg-emerald-700 px-3 py-2 text-sm font-semibold text-white transition hover:bg-emerald-800"><?php echo htmlspecialchars((string) $nextStepActionLabel); ?></a>
+                                <a href="<?php echo site_url('exercices'); ?>" class="inline-flex items-center rounded-full bg-white px-3 py-2 text-sm font-semibold text-slate-700 ring-1 ring-slate-200 transition hover:bg-slate-50">Voir les exercices</a>
+                            </div>
+                        </div>
+                    </div>
+                <?php else: ?>
+                    <div class="mt-3 rounded-xl border border-dashed border-slate-200 bg-slate-50 p-4 text-sm text-slate-600">
+                        <p class="font-medium text-slate-700">Pas encore de recommandation prête.</p>
+                        <p class="mt-1">Tu peux reprendre un exercice ou faire un petit diagnostic pour relancer l’accompagnement.</p>
+                    </div>
+                <?php endif; ?>
+            </div>
+
+            <div class="rounded-2xl border border-emerald-100 bg-white/90 p-4 shadow-sm">
+                <div class="flex items-center gap-2">
+                    <span class="text-lg">🗂️</span>
+                    <h3 class="text-base font-semibold text-slate-900">Activité récente</h3>
+                </div>
+                <?php if (!empty($learningEvents)): ?>
+                    <ul class="mt-3 space-y-2 text-sm text-slate-700">
+                        <?php foreach ($learningEvents as $event): ?>
+                            <li class="rounded-lg border border-slate-100 bg-slate-50 px-3 py-2"><?php echo htmlspecialchars((string) ($event['event_type'] ?? 'activité')); ?> · <?php echo htmlspecialchars((string) ($event['created_at'] ?? '')); ?></li>
+                        <?php endforeach; ?>
+                    </ul>
+                <?php else: ?>
+                    <div class="mt-3 rounded-xl border border-dashed border-slate-200 bg-slate-50 p-4 text-sm text-slate-600">
+                        <p class="font-medium text-slate-700">Aucune activité enregistrée pour l’instant.</p>
+                        <p class="mt-1">Chaque exercice complété viendra enrichir ce suivi.</p>
+                    </div>
+                <?php endif; ?>
+            </div>
+        </div>
+    </div>
+
     <!-- PREMIÈRE POSITION : Cards principales de progression -->
     <div class="dashboard-grid grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mb-8">
         <!-- Card: Diagnostic Initial -->
         <div class="dashboard-card card-diagnostic bg-white rounded-2xl shadow-lg overflow-hidden transition hover:-translate-y-1 hover:shadow-xl">
-            <div class="flex justify-between items-center px-6 py-4 border-b bg-gradient-to-br from-blue-50 to-blue-100">
+            <div class="flex justify-between items-center px-6 py-4 border-b bg-theme-soft border-theme">
                 <h3 class="text-lg font-semibold flex items-center gap-2">🩺 Diagnostic Initial</h3>
             </div>
             <div class="p-6 flex flex-col items-center justify-center text-center">
                 <p class="text-slate-700 mb-4">Évalue tes connaissances sur chaque notion clé pour personnaliser ton parcours&nbsp;!</p>
-                <a href="<?php echo site_url('diagnostic'); ?>" class="inline-block px-6 py-3 rounded-lg bg-slate-700 text-white font-bold shadow hover:bg-slate-800 transition text-base">Lancer le diagnostic</a>
+                <a href="<?php echo site_url('diagnostic'); ?>" class="inline-block px-6 py-3 rounded-lg font-bold shadow transition text-base <?php echo htmlspecialchars($btn_primary, ENT_QUOTES, 'UTF-8'); ?>">Lancer le diagnostic</a>
             </div>
         </div>
         <!-- Card: Progression Globale -->
@@ -461,7 +629,7 @@ $coachMessages = [
                             <div class="flex items-center gap-3 flex-1 max-w-[200px]">
                                 <span class="text-xs text-slate-500 whitespace-nowrap"><?php echo $subjectStat['count']; ?> exercices</span>
                                 <div class="flex-1 h-2 bg-slate-200 rounded overflow-hidden">
-                                    <div class="h-full bg-gradient-to-r from-blue-500 to-violet-500 transition-all duration-500"></div>
+                                    <div class="h-full progress-theme-fill transition-all duration-500"></div>
                                 </div>
                             </div>
                         </div>

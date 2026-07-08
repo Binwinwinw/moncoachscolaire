@@ -2,6 +2,27 @@
 
 - Dès qu’un lot atteint 48 quiz présents (objectif complet), **supprimer la ligne correspondante du tableau de couverture** pour ne garder que les lots encore incomplets à piloter.
 
+## [01/05/2026] Documentation — références explicites journal / suivi
+
+**Traçabilité :** Alignement avec `dev/JOURNAL_REPRISE.md` (entrée du même jour). `ARCHITECTURE.md`, `dev/README.md` et `AGENTS.md` renvoient explicitement vers ce fichier et vers le journal de reprise comme sources canoniques de l’état du projet et de la ligne conductrice.
+
+**Impact sur le suivi produit :** Aucun changement de priorité ni de tableau de couverture dans cette entrée.
+
+---
+
+## [29/06/2026] Cours IA — sauvegarde puis ouverture du cours réel (VALIDÉ)
+
+Parcours validé dans la page de cours :
+
+- génération d’un aperçu de cours IA depuis le modal;
+- sauvegarde via l’endpoint dédié;
+- retour d’un lien vers le cours réellement enregistré;
+- redirection vers la vue standard du cours, avec le bouton qui devient « Voir le cours complet ».
+
+Fichiers concernés : [src/pages/system/cours.php](src/pages/system/cours.php), [src/api/ia/save_generated_cours.php](src/api/ia/save_generated_cours.php), [tests/course-save-view.spec.ts](tests/course-save-view.spec.ts).
+
+Validation exécutée : smoke test Playwright du scénario complet.
+
 ## [18/04/2026] 🚀 Grosse consolidation de la base de quiz — collège fortement renforcé
 
 **Statut : EN COURS, mais palier majeur validé**

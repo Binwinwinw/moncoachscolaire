@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6ème - Série 29",
+    "level": "6ème",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "Vocabulaire de base : famille, école, loisirs",
+    "question_count": 8,
+    "level": "6ème",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Father",
+        "correction": "The English word for 'père' is 'father'."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English word for 'mère' is indeed 'mother'."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "'School', 'Classroom', and 'Education' are all common English words that can be used to refer to the concept of school and learning."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English word for 'loisirs' is indeed 'hobbies', which refers to activities that people enjoy doing in their free time."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Brother",
+        "correction": "The English word for 'frère' is 'brother'."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English word for 'soeur' is indeed 'sister'."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "'Hobbies', 'Leisure activities', and 'Pastimes' are all common English words that can be used to refer to activities that people enjoy doing in their free time."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English word for 'école' is indeed 'school', which refers to an institution where students receive education and learn various subjects."
+      }
+    ]
+  }
+}

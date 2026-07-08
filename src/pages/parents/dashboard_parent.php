@@ -136,7 +136,7 @@ if ($parent_id && $db instanceof PDO) {
     try {
         $stmt = $db->prepare("SELECT u.*, pci.accepted_at FROM users u
             JOIN parent_child_invites pci ON u.Id = pci.child_user_id
-            WHERE pci.parent_user_id = :parent_id AND pci.status = 'accepted'
+            WHERE pci.parent_user_id = :parent_id AND pci.status = 'accepted' AND u.Role = 'student'
             ORDER BY u.Prenom, u.Nom");
         $stmt->execute(['parent_id' => $parent_id]);
         $enfants = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -149,7 +149,7 @@ if ($parent_id && $db instanceof PDO) {
 if (empty($enfants) && $parent_id && $db instanceof PDO) {
     $stmt = $db->prepare("SELECT u.* FROM users u
         JOIN parent_enfants pe ON u.Id = pe.student_id
-        WHERE pe.parent_id = :parent_id");
+        WHERE pe.parent_id = :parent_id AND u.Role = 'student'");
     $stmt->execute(['parent_id' => $parent_id]);
     $enfants = $stmt->fetchAll(PDO::FETCH_ASSOC);
 }
@@ -246,11 +246,11 @@ if (!($db instanceof PDO)) {
     $matieresFortes = [];
     $notifications = [
         [ 'icone' => '✅', 'texte' => "Bienvenue sur MonCoachScolaire !", 'type' => 'succès' ],
-        [ 'icone' => '📅', 'texte' => "Aucun enfant rattaché. Ajoutez-en pour suivre leur progression réelle.", 'type' => 'info' ],
-        [ 'icone' => '💡', 'texte' => "Commencez par générer un code de rattachement ou invitez votre enfant depuis cet espace.", 'type' => 'info' ],
+        [ 'icone' => '📅', 'texte' => "Aucun enfant rattaché pour le moment. Générez un code de rattachement pour commencer à suivre sa progression.", 'type' => 'info' ],
+        [ 'icone' => '💡', 'texte' => "Le rattachement se fait simplement à partir d’un code partagé à votre enfant.", 'type' => 'info' ],
     ];
-    $objectifs = ['Ajouter un enfant', 'Activer le premier suivi'];
-    $conseils = ['Utilisez le code de rattachement ci-dessous', 'Consultez le tutoriel si vous démarrez'];
+    $objectifs = ['Rattacher un enfant', 'Activer le premier suivi'];
+    $conseils = ['Générez un code de rattachement', 'Partagez-le à votre enfant pour finaliser le lien'];
 }
 
 // Sécurisation (toujours tableau)

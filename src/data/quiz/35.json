@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6ème - Série 35",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6ème : Vocabulaire de base : vêtements, couleurs, nombres",
+    "status": "published",
+    "created_at": "2026-04-26T21:32:48.858594Z",
+    "updated_at": "2026-04-26T21:32:48.858594Z"
+  },
+  "quiz": {
+    "title": "Vocabulaire de base : vêtements, couleurs, nombres",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "What is the English word for 'chemise'?",
+        "choices": [
+          "Shirt",
+          "Pants",
+          "Dress",
+          "Skirt"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English word for 'pantalon' is 'pants'' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English word for 'couleurs'?",
+        "choices": [
+          "Colors",
+          "Hues",
+          "Shades",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English word for 'nombres' is 'numbers'' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English word for 'robe'?",
+        "choices": [
+          "Dress",
+          "Skirt",
+          "Gown",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English word for 'chapeau' is 'hat'' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English word for 'couleurs'? (variante 2)",
+        "choices": [
+          "Colors",
+          "Tints",
+          "Tones",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English word for 'nombres' is 'digits'' is a True statement."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

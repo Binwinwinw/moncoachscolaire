@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 151",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - Les accords (accord du sujet et du verbe, accord de l’adjectif avec le nom…)",
+    "status": "published",
+    "created_at": "2026-04-26T21:46:18.949578Z",
+    "updated_at": "2026-04-26T21:46:18.949578Z"
+  },
+  "quiz": {
+    "title": "Français 6e - Les accords (accord du sujet et du verbe, accord de l’adjectif avec le nom…)",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel est l'accord correct dans la phrase suivante : 'Les enfants ___ heureux.' ?",
+        "choices": [
+          "sont",
+          "est",
+          "sont heureux",
+          "est heureux"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le verbe doit s'accorder avec le sujet en nombre et en personne."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est l'accord correct dans la phrase suivante : 'La fille ___ intelligente.' ?",
+        "choices": [
+          "est",
+          "sont",
+          "est intelligente",
+          "sont intelligente"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'adjectif doit s'accorder avec le nom qu'il qualifie en genre et en nombre."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est l'accord correct dans la phrase suivante : 'Les chats ___ noirs.' ?",
+        "choices": [
+          "sont",
+          "est",
+          "sont noirs",
+          "est noirs"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le sujet et le verbe doivent toujours être au même nombre (singulier ou pluriel)."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est l'accord correct dans la phrase suivante : 'La voiture ___ rapide.' ?",
+        "choices": [
+          "est",
+          "sont",
+          "est rapide",
+          "sont rapide"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'accord du participe passé avec l'auxiliaire avoir se fait uniquement lorsque le complément d'objet direct (COD) est placé avant le verbe."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 214",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 6eme : Transmission d'information (câbles, sans fil).",
+    "status": "published",
+    "created_at": "2026-04-26 21:47:00",
+    "updated_at": "2026-04-26 21:47:00"
+  },
+  "quiz": {
+    "title": "Transmission d'information (câbles, sans fil).",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quels sont des concepts de base en transmission d'information ?",
+        "choices": [
+          "Câbles",
+          "Sans fil",
+          "Réseaux de communication",
+          "Tous les concepts mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La transmission d'information peut se faire à la fois par câbles et sans fil. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quels sont des exemples de virus informatique ?",
+        "choices": [
+          "Cheval de Troie",
+          "Ransomware",
+          "Spyware",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un pare-feu est un dispositif de sécurité qui surveille et contrôle le trafic réseau entrant et sortant pour protéger contre les menaces. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple de technologie de transmission sans fil ?",
+        "choices": [
+          "Wi-Fi",
+          "Ethernet",
+          "Fibre optique",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il n'y a pas de différence entre les différentes technologies de transmission d'information. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple de technologie de transmission par câble ?",
+        "choices": [
+          "Ethernet",
+          "Wi-Fi",
+          "Bluetooth",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Tous les systèmes de communication utilisent la même technologie de transmission d'information. Vrai ou Faux ?"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

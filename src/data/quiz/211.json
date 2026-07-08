@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 211",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 6eme : Arborescence des fichiers informatiques.",
+    "status": "published",
+    "created_at": "2026-04-26 21:47:00",
+    "updated_at": "2026-04-26 21:47:00"
+  },
+  "quiz": {
+    "title": "Arborescence des fichiers informatiques.",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quels sont des concepts de base en arborescence des fichiers informatiques ?",
+        "choices": [
+          "Dossier",
+          "Fichier",
+          "Chemin d'accès",
+          "Tous les concepts mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un fichier est un conteneur pour organiser les dossiers. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple de chemin d'accès à un fichier ?",
+        "choices": [
+          "C:\\Users\\NomUtilisateur\\Documents\\Fichier.txt",
+          "/home/nomutilisateur/documents/fichier.txt",
+          "Tous les exemples mentionnés",
+          "Aucun des exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'arborescence des fichiers informatiques est une structure hiérarchique qui organise les fichiers et les dossiers. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple de système d'exploitation qui utilise une arborescence de fichiers ?",
+        "choices": [
+          "Windows",
+          "Linux",
+          "macOS",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il n'y a pas de différence entre les fichiers et les dossiers dans l'arborescence des fichiers informatiques. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple de fichier qui pourrait Ãªtre stockÃ© dans un dossier ?",
+        "choices": [
+          "Document Word",
+          "Image JPEG",
+          "Fichier PDF",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Tous les systèmes d'exploitation utilisent la même structure d'arborescence de fichiers. Vrai ou Faux ?"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 184",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - Les valeurs de la voix passive",
+    "status": "published",
+    "created_at": "2026-04-26T21:46:19.004571Z",
+    "updated_at": "2026-04-26T21:46:19.004571Z"
+  },
+  "quiz": {
+    "title": "Français 6e - Les valeurs de la voix passive",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que la voix passive ?",
+        "choices": [
+          "Une construction verbale qui met l'accent sur le sujet de l'action",
+          "Une construction verbale qui met l'accent sur l'objet de l'action",
+          "Une construction verbale qui n'a pas de sujet",
+          "Une construction verbale qui n'a pas d'objet"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La voix passive peut être utilisée pour exprimer des actions qui sont subies par le sujet de l'action, en mettant l'accent sur l'objet de l'action plutôt que sur le sujet de l'action."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle de la voix passive dans la communication écrite ?",
+        "choices": [
+          "Elle n'a pas de rôle spécifique",
+          "Elle permet d'exprimer des affirmations",
+          "Elle permet d'exprimer des questions",
+          "Elle permet de mettre l'accent sur l'objet de l'action"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation correcte de la voix passive est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les écrivains utilisent les formes de la voix passive appropriées en fonction du contexte et du message qu'ils souhaitent transmettre, ce qui contribue à la clarté et à l'efficacité de la communication écrite."
+      },
+      {
+        "type": "qcm",
+        "question": "Pourquoi utilise-t-on la voix passive dans la communication écrite ?",
+        "choices": [
+          "Elle n'a pas de rôle spécifique",
+          "Elle permet d'exprimer des affirmations",
+          "Elle permet d'exprimer des questions",
+          "Elle permet de mettre l'accent sur l'objet de l'action"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation incorrecte de la voix passive peut parfois entraîner des confusions ou des malentendus dans la communication écrite, en rendant difficile pour les lecteurs de comprendre les relations entre le sujet et l'objet de l'action exprimée par le verbe à la voix passive, ce qui peut nuire à la clarté du message et à l'efficacité de la communication écrite."
+      },
+      {
+        "type": "qcm",
+        "question": "Dans quel type de communication s'utilise la voix passive ?",
+        "choices": [
+          "Dans les affirmations",
+          "Dans les questions",
+          "Dans les ordres, les demandes ou les conseils",
+          "Dans les exclamations"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation de la voix passive ne peut se conjuguer qu'à certaines personnes."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

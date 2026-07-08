@@ -68,9 +68,13 @@
  * Appliqué via les classes body.mentions-legales, body.page-legal, etc.
  */
 body.mentions-legales,
+body.mentions-legales-page,
 body.page-legal,
 body.confidentialite,
+body.confidentialite-page,
 body.cgv,
+body.cgv-page,
+body.legal-page,
 body.conditions-utilisation {
   --page-bg-image: url("/assets/img/background-school-material.png");
   --page-bg-overlay: var(--legal-bg-overlay);
@@ -82,9 +86,13 @@ body.conditions-utilisation {
 }
 
 body.mentions-legales::before,
+body.mentions-legales-page::before,
 body.page-legal::before,
 body.confidentialite::before,
+body.confidentialite-page::before,
 body.cgv::before,
+body.cgv-page::before,
+body.legal-page::before,
 body.conditions-utilisation::before {
   content: "";
   position: fixed;
@@ -102,10 +110,18 @@ body.conditions-utilisation::before {
    ───────────────────────────────────────────────────────────────────────── */
 
 /**
- * Container principal de la page
- * Utilisé sur : confidentialite.php, mentions-legales.php, cgv.php
+ * Container principal de la page (sections en cartes — fond transparent)
  */
-main,
+main.legal-content {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 1rem 3rem;
+  background: transparent;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+main.legal-page-container,
 .legal-page-container {
   max-width: 900px;
   margin: 0 auto;
@@ -119,13 +135,13 @@ main,
  * Header de la page (titre + sous-titre)
  * Utilisé sur : toutes les pages légales
  */
-.legal-header {
+.legal-page-banner {
   text-align: center;
-  margin-bottom: var(--legal-spacing-xl);
-  padding-bottom: var(--legal-spacing-lg);
-  border-bottom: 2px solid var(--legal-border-light);
 }
 
+.legal-subnav a[aria-current="page"] {
+  pointer-events: none;
+}
 
 /* ─────────────────────────────────────────────────────────────────────────
    4. TYPOGRAPHIE COMMUNE

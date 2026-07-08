@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 198",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Schématiser le fonctionnement d'un objet technique simple.",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "En dessinant un diagramme de flux",
+        "correction": "Pour schématiser le fonctionnement d'un objet technique simple, il est souvent utile de dessiner un diagramme de flux qui montre les différentes étapes du processus et les interactions entre les composants."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, l'usage d'un objet technique apporte des avantages dans la vie de tous les jours en facilitant certaines tâches, en améliorant l'efficacité et en offrant de nouvelles possibilités."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Cela permet de mieux comprendre le fonctionnement de l'objet",
+        "correction": "Schématiser le fonctionnement d'un objet technique simple permet de mieux comprendre comment il fonctionne, quelles sont les différentes étapes du processus, et comment les composants interagissent."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, schématiser le fonctionnement d'un objet technique peut être très utile pour pouvoir le réparer en cas de panne, car cela permet de comprendre comment les différentes parties fonctionnent ensemble et où se situe le problème."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Une lampe",
+        "correction": "Une lampe est un exemple d'objet technique simple que l'on peut schématiser, car elle a un fonctionnement relativement simple et des composants faciles à représenter."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, schématiser le fonctionnement d'un objet technique simple peut aider à trouver des idées pour l'améliorer en identifiant les points faibles du design actuel et en proposant des solutions pour les résoudre."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Un logiciel de dessin",
+        "correction": "Un logiciel de dessin, comme Microsoft Visio, Lucidchart, ou même des outils de dessin simples comme Microsoft Paint, est couramment utilisé pour schématiser le fonctionnement d'un objet technique."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, même si on comprend déjà comment un objet technique fonctionne, schématiser son fonctionnement peut offrir une perspective différente et aider à identifier des améliorations potentielles ou à mieux communiquer son fonctionnement à d'autres personnes."
+      }
+    ]
+  }
+}

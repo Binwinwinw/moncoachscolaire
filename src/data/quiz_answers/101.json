@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 6eme - Série 101",
+    "level": "6eme",
+    "subject": "EMC"
+  },
+  "quiz": {
+    "title": "EMC 6e - La citoyenneté européenne",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "EMC",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "La citoyenneté européenne est un statut qui confère des droits et des devoirs aux citoyens des États membres de l'Union européenne.",
+        "correction": "La citoyenneté européenne est un statut qui confère des droits et des devoirs aux citoyens des États membres de l'Union européenne, leur permettant de participer à la vie démocratique de l'Union et de bénéficier de certains droits au sein de l'Union européenne."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. La citoyenneté européenne permet aux citoyens de l'Union européenne de circuler librement et de résider dans n'importe quel pays de l'Union européenne, facilitant ainsi la mobilité et les échanges entre les États membres."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Le droit de vote et d'éligibilité aux élections municipales, régionales, nationales et européennes dans l'État membre de résidence.",
+        "correction": "Les citoyens européens ont le droit de vote et d'éligibilité aux élections municipales, régionales, nationales et européennes dans l'État membre où ils résident, leur permettant ainsi de participer activement à la vie démocratique de leur pays d'accueil."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. La citoyenneté européenne confère également des droits sociaux, économiques et culturels aux citoyens de l'Union européenne, tels que le droit à la protection sociale, le droit à l'emploi et le droit à la culture au sein de l'Union européenne."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Le Parlement européen représente les citoyens européens au sein des institutions de l'Union européenne et participe à l'élaboration des lois européennes.",
+        "correction": "Le Parlement européen représente les citoyens européens au sein des institutions de l'Union européenne et participe activement à l'élaboration des lois européennes, contribuant ainsi à la démocratie et à la gouvernance de l'Union européenne."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Les citoyens européens ont le droit de se déplacer librement dans tous les États membres de l'Union européenne, ce qui inclut le droit de résider, de travailler et d'étudier dans n'importe quel pays de l'UE."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "La Cour de justice de l'Union européenne veille à l'application uniforme du droit européen et protège les droits des citoyens européens.",
+        "correction": "La Cour de justice de l'Union européenne veille à l'application uniforme du droit européen dans tous les États membres et protège les droits des citoyens européens en interprétant et en appliquant le droit européen."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. La citoyenneté européenne est réservée aux citoyens des États membres de l'Union européenne. Les citoyens d'un pays non membre ne bénéficient pas des droits associés à la citoyenneté européenne, bien qu'ils puissent avoir certains droits en fonction des accords bilatéraux ou des politiques nationales."
+      }
+    ]
+  }
+}

@@ -6,7 +6,7 @@
 
 function api_rate_limit_path(): string
 {
-    $base = dirname(__DIR__, 2) . '/dev/reports';
+    $base = dirname(__DIR__, 3) . '/dev/reports';
     if (!is_dir($base)) {
         @mkdir($base, 0755, true);
     }

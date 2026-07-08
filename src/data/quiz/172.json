@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 172",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - Les valeurs de la modalisation",
+    "status": "published",
+    "created_at": "2026-04-26T21:46:18.987321Z",
+    "updated_at": "2026-04-26T21:46:18.987321Z"
+  },
+  "quiz": {
+    "title": "Français 6e - Les valeurs de la modalisation",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle de la modalisation dans la communication écrite ?",
+        "choices": [
+          "Indiquer une certitude ou une incertitude",
+          "Exprimer une émotion",
+          "Décrire une action",
+          "Fournir des informations factuelles"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La modalisation peut être exprimée à travers l'utilisation de verbes modaux, d'adverbes de modalité, de tournures conditionnelles ou d'autres éléments linguistiques qui indiquent le degré de certitude ou d'incertitude dans une phrase."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel adverbe de modalité est utilisé pour indiquer une forte probabilité ?",
+        "choices": [
+          "Peut-être",
+          "Certainement",
+          "Probablement",
+          "Possiblement"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation de la modalisation peut contribuer à améliorer la qualité et l'efficacité de la communication écrite en permettant aux écrivains d'exprimer leurs opinions, leurs hypothèses ou leurs incertitudes de manière plus nuancée et plus précise, ce qui peut renforcer l'impact du message et favoriser une meilleure compréhension de la part des lecteurs."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel verbe est utilisé pour exprimer une obligation ?",
+        "choices": [
+          "Pouvoir",
+          "Devoir",
+          "Vouloir",
+          "Savoir"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation incorrecte de la modalisation peut parfois entraîner des confusions ou des malentendus dans la communication écrite, en rendant difficile pour les lecteurs de comprendre le degré de certitude ou d'incertitude exprimé par l'auteur, ce qui peut nuire à la clarté du message et à l'efficacité de la communication écrite."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel verbe est utilisé pour exprimer une capacité ou une possibilité ?",
+        "choices": [
+          "Pouvoir",
+          "Devoir",
+          "Vouloir",
+          "Savoir"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation correcte de la modalisation est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les écrivains utilisent les éléments de modalisation de manière appropriée en fonction du contexte et du message qu'ils souhaitent transmettre, ce qui contribue à la clarté et à l'efficacité de la communication écrite."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

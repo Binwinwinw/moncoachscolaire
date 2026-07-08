@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 171",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - L’analyse d’une fable",
+    "status": "published",
+    "created_at": "2026-04-26T21:46:18.986048Z",
+    "updated_at": "2026-04-26T21:46:18.986048Z"
+  },
+  "quiz": {
+    "title": "Français 6e - L’analyse d’une fable",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel est l'élément clé d'une fable qui permet de transmettre une leçon ou une morale ?",
+        "choices": [
+          "Les personnages",
+          "Le cadre",
+          "L'intrigue",
+          "La morale"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'analyse d'une fable peut aider à développer des compétences de lecture critique et d'interprétation, en encourageant les lecteurs à réfléchir sur les thèmes, les symboles et les messages véhiculés par la fable."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle des personnages dans une fable ?",
+        "choices": [
+          "Ils représentent des types de personnes ou des traits de caractère",
+          "Ils sont simplement des acteurs de l'intrigue",
+          "Ils n'ont pas d'importance dans la fable",
+          "Ils sont toujours des animaux"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'analyse d'une fable peut également aider à développer des compétences d'écriture créative, en inspirant les écrivains à créer leurs propres histoires avec des leçons ou des morales similaires."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle du cadre dans une fable ?",
+        "choices": [
+          "Il n'a pas d'importance",
+          "Il sert de toile de fond pour l'intrigue",
+          "Il est essentiel pour comprendre la morale",
+          "Il est toujours un lieu réel"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'analyse d'une fable peut également aider à développer des compétences de communication orale, en encourageant les lecteurs à discuter et à partager leurs interprétations de la fable avec d'autres personnes."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle de l'intrigue dans une fable ?",
+        "choices": [
+          "Elle n'a pas d'importance",
+          "Elle sert à divertir les lecteurs",
+          "Elle est essentielle pour transmettre la morale",
+          "Elle est toujours linéaire"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'analyse d'une fable peut également aider à développer des compétences de réflexion critique et de prise de décision, en encourageant les lecteurs à réfléchir sur les choix des personnages et à envisager comment ils auraient agi dans des situations similaires, ce qui peut renforcer la capacité à prendre des décisions éclairées dans la vie réelle."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

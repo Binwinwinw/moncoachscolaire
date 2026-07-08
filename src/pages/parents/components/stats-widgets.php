@@ -74,16 +74,16 @@ $chartSubjectsPayload = [
 ];
 ?>
 <section class="mb-10">
-    <h2 class="text-xl md:text-2xl font-bold text-indigo-800 mb-5 flex items-center gap-2">
+    <h2 class="mb-5 flex items-center gap-2 text-xl font-bold text-slate-900 md:text-2xl">
         <span class="text-lg">📊</span> Statistiques de suivi
     </h2>
     <div class="grid grid-cols-1 xl:grid-cols-3 gap-6">
-        <div class="rounded-2xl shadow p-6 flex flex-col mcs-card-bg">
-            <h3 class="text-base font-bold text-slate-800 mb-4">Progression par enfant</h3>
-            <div class="parent-chart-shell parent-chart-shell--bar">
+        <div class="flex flex-col rounded-2xl border border-slate-200 bg-white/90 p-6 shadow-sm">
+            <h3 class="mb-4 text-base font-bold text-slate-900">Progression par enfant</h3>
+            <div class="relative h-[220px] max-h-[220px] min-h-[220px] w-full">
                 <canvas id="chart-parent-progress"></canvas>
             </div>
-            <div class="mt-3 text-xs text-gray-700">
+            <div class="mt-3 text-xs text-slate-700">
                 <?php if ($hasLinkedChildren): ?>
                     Progression moyenne observée : <?php echo htmlspecialchars((string) $averageProgress); ?>%
                 <?php else: ?>
@@ -91,12 +91,12 @@ $chartSubjectsPayload = [
                 <?php endif; ?>
             </div>
         </div>
-        <div class="rounded-2xl shadow p-6 flex flex-col mcs-card-bg">
-            <h3 class="text-base font-bold text-slate-800 mb-4">Répartition des quiz</h3>
-            <div class="parent-chart-shell parent-chart-shell--doughnut">
+        <div class="flex flex-col rounded-2xl border border-slate-200 bg-white/90 p-6 shadow-sm">
+            <h3 class="mb-4 text-base font-bold text-slate-900">Répartition des quiz</h3>
+            <div class="relative h-[240px] max-h-[240px] min-h-[240px] w-full">
                 <canvas id="chart-parent-success"></canvas>
             </div>
-            <div class="mt-3 text-xs text-gray-700">
+            <div class="mt-3 text-xs text-slate-700">
                 <?php if ($hasLinkedChildren): ?>
                     <?php echo htmlspecialchars((string) $totalPassed); ?> quiz réussis sur <?php echo htmlspecialchars((string) $totalQuiz); ?> tentative(s)
                 <?php else: ?>
@@ -104,12 +104,12 @@ $chartSubjectsPayload = [
                 <?php endif; ?>
             </div>
         </div>
-        <div class="rounded-2xl shadow p-6 flex flex-col mcs-card-bg">
-            <h3 class="text-base font-bold text-slate-800 mb-4">Matières les plus solides</h3>
-            <div class="parent-chart-shell parent-chart-shell--bar">
+        <div class="flex flex-col rounded-2xl border border-slate-200 bg-white/90 p-6 shadow-sm">
+            <h3 class="mb-4 text-base font-bold text-slate-900">Matières les plus solides</h3>
+            <div class="relative h-[220px] max-h-[220px] min-h-[220px] w-full">
                 <canvas id="chart-parent-subjects"></canvas>
             </div>
-            <div class="mt-3 text-xs text-gray-700">
+            <div class="mt-3 text-xs text-slate-700">
                 <?php if ($hasLinkedChildren): ?>
                     Les scores sont calculés à partir des résultats réels agrégés du dashboard parent.
                 <?php else: ?>
@@ -258,26 +258,5 @@ $chartSubjectsPayload = [
         initParentDashboardCharts();
     })();
     </script>
-    <style>
-    .parent-chart-shell {
-        position: relative;
-        width: 100%;
-        min-height: 220px;
-        height: 220px;
-        max-height: 220px;
-    }
-
-    .parent-chart-shell--doughnut {
-        min-height: 240px;
-        height: 240px;
-        max-height: 240px;
-    }
-
-    .parent-chart-shell canvas {
-        display: block;
-        width: 100% !important;
-        height: 100% !important;
-    }
-    </style>
 </section>
 

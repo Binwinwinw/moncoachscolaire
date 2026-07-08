@@ -32,38 +32,28 @@ if (!function_exists('site_url')) {
     }
 }
 
-// 4. UTILITAIRE : colonnes users pour les parents
-if (!function_exists('ensureUsersTableColumns')) {
-    function ensureUsersTableColumns(PDO $pdo): bool
+// 4. Les migrations de structure DB doivent être appliquées hors du flux de requête public.
+if (!function_exists('checkUsersTableColumns')) {
+    function checkUsersTableColumns(PDO $pdo): bool
     {
         try {
-            $columns = [
-                ['Nom',       'VARCHAR(100) NULL DEFAULT NULL', 'UserLevel'],
-                ['Prenom',    'VARCHAR(100) NULL DEFAULT NULL', 'Nom'],
-                ['Telephone', 'VARCHAR(20)  NULL DEFAULT NULL', 'Prenom'],
-                ['ParentId',  'INT NULL DEFAULT NULL',          'Telephone'],
-            ];
-
-            foreach ($columns as [$name, $definition, $after]) {
-                $checkStmt = $pdo->query("SHOW COLUMNS FROM `users` LIKE " . $pdo->quote($name));
-                if ($checkStmt->rowCount() === 0) {
-                    $pdo->exec("ALTER TABLE `users` ADD COLUMN `{$name}` {$definition} AFTER `{$after}`");
-                }
+            $requiredColumns = ['Nom', 'Prenom', 'Telephone', 'ParentId'];
+            $existingColumns = [];
+            $stmt = $pdo->query('SHOW COLUMNS FROM `users`');
+            while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+                $existingColumns[] = $row['Field'] ?? '';
             }
 
-            // UserLevel nullable
-            $pdo->exec("ALTER TABLE `users` MODIFY COLUMN `UserLevel` VARCHAR(10) NULL DEFAULT NULL");
-
-            // Index ParentId (ignore si existe)
-            try {
-                $pdo->exec("ALTER TABLE `users` ADD INDEX `idx_parent_id` (`ParentId`)");
-            } catch (PDOException $e) {
-                // index déjà là
+            foreach ($requiredColumns as $column) {
+                if (!in_array($column, $existingColumns, true)) {
+                    error_log("register.php: missing users column {$column}; run DB migration before parent registration.");
+                    return false;
+                }
             }
 
             return true;
         } catch (Throwable $e) {
-            error_log("Erreur ensureUsersTableColumns: " . $e->getMessage());
+            error_log('register.php: unable to validate users schema: ' . $e->getMessage());
             return false;
         }
     }
@@ -263,58 +253,60 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     if ($check->fetch()) {
                         $error = "Cette adresse email est déjà utilisée. Veuillez vous connecter ou choisir une autre adresse.";
                     } else {
-                        ensureUsersTableColumns($pdo);
+                        if (!checkUsersTableColumns($pdo)) {
+                            $error = "La structure de la base de données n'est pas à jour pour l'inscription parent. Merci de contacter l'administrateur.";
+                        } else {
+                            $passwordHash = password_hash($password, PASSWORD_DEFAULT);
+                            $role         = 'parent';
+                            $usernameBase = $prenom !== '' ? strtolower($prenom) : explode('@', $email)[0];
+                            $username     = $usernameBase;
 
-                        $passwordHash = password_hash($password, PASSWORD_DEFAULT);
-                        $role         = 'parent';
-                        $usernameBase = $prenom !== '' ? strtolower($prenom) : explode('@', $email)[0];
-                        $username     = $usernameBase;
-
-                        // Username unique
-                        $counter = 1;
-                        while (true) {
-                            $checkU = $pdo->prepare("SELECT Id FROM users WHERE Username = ? LIMIT 1");
-                            $checkU->execute([$username]);
-                            if ($checkU->fetch()) {
-                                $username = $usernameBase . $counter;
-                                $counter++;
-                            } else {
-                                break;
+                            // Username unique
+                            $counter = 1;
+                            while (true) {
+                                $checkU = $pdo->prepare("SELECT Id FROM users WHERE Username = ? LIMIT 1");
+                                $checkU->execute([$username]);
+                                if ($checkU->fetch()) {
+                                    $username = $usernameBase . $counter;
+                                    $counter++;
+                                } else {
+                                    break;
+                                }
                             }
+
+                            $insertStmt = $pdo->prepare("
+                                INSERT INTO users (Username, Email, PasswordHash, Role, Nom, Prenom, Telephone, UserLevel, ParentId)
+                                VALUES (?, ?, ?, ?, ?, ?, ?, ?, NULL)
+                            ");
+                            $insertStmt->execute([
+                                $username,
+                                $email,
+                                $passwordHash,
+                                $role,
+                                $nom ?: null,
+                                $prenom ?: null,
+                                $telephone ?: null,
+                                'parent',
+                            ]);
+
+                            $parentId = (int) $pdo->lastInsertId();
+                            if ($parentId <= 0) {
+                                throw new PDOException("Impossible de récupérer l'ID du parent créé.");
+                            }
+
+                            $_SESSION['parent_id'] = $parentId;
+                            $_SESSION['user_id']   = $parentId;
+                            $_SESSION['user_name'] = $prenom !== '' ? $prenom : $username;
+                            $_SESSION['user_role'] = 'parent';
+                            $_SESSION['logged_in'] = true;
+                            unset($_SESSION['is_demo']);
+
+                            session_regenerate_id(true);
+
+                            $redirectUrl = site_url('parents/dashboard_parent');
+                            header('Location: ' . $redirectUrl);
+                            exit;
                         }
-
-                        $insertStmt = $pdo->prepare("
-                            INSERT INTO users (Username, Email, PasswordHash, Role, Nom, Prenom, Telephone, UserLevel, ParentId)
-                            VALUES (?, ?, ?, ?, ?, ?, ?, ?, NULL)
-                        ");
-                        $insertStmt->execute([
-                            $username,
-                            $email,
-                            $passwordHash,
-                            $role,
-                            $nom ?: null,
-                            $prenom ?: null,
-                            $telephone ?: null,
-                            'parent',
-                        ]);
-
-                        $parentId = (int) $pdo->lastInsertId();
-                        if ($parentId <= 0) {
-                            throw new PDOException("Impossible de récupérer l'ID du parent créé.");
-                        }
-
-                        $_SESSION['parent_id'] = $parentId;
-                        $_SESSION['user_id']   = $parentId;
-                        $_SESSION['user_name'] = $prenom !== '' ? $prenom : $username;
-                        $_SESSION['user_role'] = 'parent';
-                        $_SESSION['logged_in'] = true;
-                        unset($_SESSION['is_demo']);
-
-                        session_regenerate_id(true);
-
-                        $redirectUrl = site_url('parents/dashboard_parent');
-                        header('Location: ' . $redirectUrl);
-                        exit;
                     }
                 } catch (PDOException $e) {
                     error_log("Erreur inscription parent: " . $e->getMessage());
@@ -331,6 +323,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 ?>
+
+<?php
+// Thème neutre (topbar grise, identique à la landing)
+if (is_file(__DIR__ . '/../includes/app_theme_bootstrap.php')) {
+    require_once __DIR__ . '/../includes/app_theme_bootstrap.php';
+}
+if (function_exists('bootstrap_app_theme')) {
+    bootstrap_app_theme(null, null);
+}
+$auth_theme_tier = $GLOBALS['app_theme']['tier'] ?? 'neutral';
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -339,10 +342,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <title><?php echo htmlspecialchars($page_title, ENT_QUOTES, 'UTF-8'); ?></title>
     <!-- Tailwind + style global -->
     <link rel="stylesheet" href="<?php echo asset_url('assets/css/style.css'); ?>">
+    <link rel="stylesheet" href="<?php echo asset_url('assets/css/theme-level.css'); ?>">
     <link rel="stylesheet" href="<?php echo asset_url('assets/css/tailwind.css'); ?>">
     <link rel="stylesheet" href="<?php echo asset_url('assets/css/pages/' . $page_css); ?>">
 </head>
-<body class="app-bg register-page">
+<body class="app-bg theme-<?php echo htmlspecialchars($auth_theme_tier, ENT_QUOTES, 'UTF-8'); ?> register-page">
 <?php
 if (is_file(__DIR__ . '/../includes/topbar.php')) {
     include_once __DIR__ . '/../includes/topbar.php';

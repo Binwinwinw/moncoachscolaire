@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 192",
+    "level": "6eme",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Français 6e - Les valeurs du texte injonctif",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Une forme de communication",
+        "correction": "Un texte injonctif a pour but de donner des instructions, des conseils ou des ordres à un lecteur ou à un auditeur, en utilisant des verbes à l'impératif et des phrases directives."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Les textes injonctifs peuvent être classés en plusieurs types, tels que les recettes de cuisine (qui donnent des instructions pour préparer des plats), les manuels d'instructions (qui donnent des instructions pour utiliser un produit ou accomplir une tâche), les règles de jeu (qui donnent des instructions pour jouer à un jeu), etc., en fonction de la manière dont ils donnent des instructions ou des conseils."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Il permet de donner des instructions, des conseils ou des ordres à un lecteur ou à un auditeur",
+        "correction": "Le rôle d'un texte injonctif dans la communication est de permettre de donner des instructions, des conseils ou des ordres à un lecteur ou à un auditeur, en utilisant des verbes à l'impératif et des phrases directives pour guider les actions ou les comportements du destinataire."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Un texte injonctif peut être utilisé pour transmettre des informations importantes sur la manière d'accomplir une tâche ou de suivre une procédure, en fournissant des instructions claires et précises qui aident le destinataire à comprendre et à exécuter les actions nécessaires."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Le Petit Prince",
+        "correction": "Le Petit Prince n'est pas un texte injonctif. C'est un conte philosophique et poétique écrit par Antoine de Saint-Exupéry."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Les textes injonctifs peuvent être utilisés pour guider les actions ou les comportements des destinataires, en fournissant des instructions claires et précises qui aident à accomplir des tâches, à suivre des procédures ou à respecter des règles, ce qui peut contribuer à la sécurité, à l'efficacité et au bon fonctionnement dans divers contextes."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Un ton impératif",
+        "correction": "Un texte injonctif utilise un ton impératif, en se concentrant sur les instructions et les directives pour guider les actions ou les comportements du destinataire."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Un texte injonctif a pour but de donner des instructions, des conseils ou des ordres à un lecteur ou à un auditeur."
+      }
+    ]
+  }
+}

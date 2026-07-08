@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 174",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - Les types de narrateurs",
+    "status": "published",
+    "created_at": "2026-04-26T21:46:18.990412Z",
+    "updated_at": "2026-04-26T21:46:18.990412Z"
+  },
+  "quiz": {
+    "title": "Français 6e - Les types de narrateurs",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel est le narrateur à la première personne ?",
+        "choices": [
+          "Il raconte l'histoire du point de vue d'un personnage en utilisant 'je'",
+          "Il raconte l'histoire du point de vue d'un personnage en utilisant 'il' ou 'elle'",
+          "Il raconte l'histoire du point de vue d'un narrateur omniscient",
+          "Il n'est pas un narrateur"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le narrateur à la troisième personne peut être limité ou omniscient, en fonction de la quantité d'informations qu'il fournit sur les pensées et les sentiments des personnages, ce qui peut influencer la perspective et la compréhension des lecteurs sur les événements du récit."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le narrateur omniscient ?",
+        "choices": [
+          "Il raconte l'histoire du point de vue d'un personnage en utilisant 'je'",
+          "Il raconte l'histoire du point de vue d'un personnage en utilisant 'il' ou 'elle'",
+          "Il raconte l'histoire du point de vue d'un narrateur omniscient",
+          "Il n'est pas un narrateur"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation correcte des types de narrateurs est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les écrivains choisissent le type de narrateur approprié en fonction du contexte et du message qu'ils souhaitent transmettre, ce qui contribue à la clarté et à l'efficacité de la communication écrite."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le narrateur à la troisième personne limité ?",
+        "choices": [
+          "Il raconte l'histoire du point de vue d'un personnage en utilisant 'je'",
+          "Il raconte l'histoire du point de vue d'un personnage en utilisant 'il' ou 'elle'",
+          "Il raconte l'histoire du point de vue d'un narrateur omniscient",
+          "Il n'est pas un narrateur"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation incorrecte des types de narrateurs peut parfois entraîner des confusions ou des malentendus dans la communication écrite, en rendant difficile pour les lecteurs de comprendre la perspective à partir de laquelle l'histoire est racontée, ce qui peut nuire à la clarté du message et à l'efficacité de la communication écrite."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle du narrateur dans une histoire ?",
+        "choices": [
+          "Il n'a pas d'importance",
+          "Il raconte les événements de manière objective",
+          "Il fournit une perspective sur les événements et les personnages",
+          "Il est utilisé uniquement pour les dialogues"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation correcte des types de narrateurs est essentielle pour éviter les confusions et les erreurs dans la communication écrite."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

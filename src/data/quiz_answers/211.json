@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 211",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Arborescence des fichiers informatiques.",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Tous les concepts mentionnés",
+        "correction": "Les concepts de base en arborescence des fichiers informatiques comprennent le dossier, qui est un conteneur pour organiser les fichiers, le fichier lui-même, qui est une unité de stockage de données, et le chemin d'accès, qui est l'adresse permettant de localiser un fichier ou un dossier dans le système de fichiers."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, un fichier est une unité de stockage de données, tandis qu'un dossier est un conteneur utilisé pour organiser les fichiers. Les fichiers sont stockés à l'intérieur des dossiers, et non l'inverse."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "Les chemins d'accès à un fichier peuvent varier en fonction du système d'exploitation utilisé. Par exemple, sous Windows, un chemin d'accès peut ressembler à 'C:\\Users\\NomUtilisateur\\Documents\\Fichier.txt', tandis que sous Linux ou macOS, un chemin d'accès peut ressembler à '/home/nomutilisateur/documents/fichier.txt'."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, l'arborescence des fichiers informatiques est une structure hiérarchique qui organise les fichiers et les dossiers de manière à faciliter la gestion et la navigation dans le système de fichiers. Les dossiers peuvent contenir des fichiers et d'autres dossiers, créant ainsi une structure en forme d'arbre."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "Les systèmes d'exploitation modernes comme Windows, Linux et macOS utilisent tous une arborescence de fichiers pour organiser les fichiers et les dossiers."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, il existe une différence entre les fichiers et les dossiers dans l'arborescence des fichiers informatiques. Les fichiers sont des unités de stockage de données, tandis que les dossiers sont des conteneurs utilisés pour organiser les fichiers."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "Tous les exemples mentionnés sont des types de fichiers courants qui peuvent être stockés dans un dossier pour une organisation efficace."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, bien que la plupart des systèmes d'exploitation modernes utilisent une structure d'arborescence de fichiers, la manière dont cette structure est organisée peut varier d'un système à l'autre."
+      }
+    ]
+  }
+}

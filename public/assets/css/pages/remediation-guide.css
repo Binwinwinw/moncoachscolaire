@@ -1,0 +1,86 @@
+/* Guides de remédiation — coque commune (hubs + pages niveau) */
+
+body.remediation-hub-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+body.remediation-hub-page .topbar,
+body.remediation-hub-page header.topbar {
+    flex-shrink: 0;
+}
+
+main.remediation-hub,
+main.remediation-level {
+    flex: 1 0 auto;
+    width: 100%;
+    max-width: 72rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1rem 2rem;
+}
+
+body.remediation-hub-page .site-footer {
+    flex-shrink: 0;
+    background: #fff;
+    backdrop-filter: none;
+}
+
+.remediation-subjects-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    width: 100%;
+}
+
+.remediation-subjects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    width: 100%;
+    max-width: 42rem;
+    margin: 0 auto 2rem;
+}
+
+@media (width >= 768px) {
+    .remediation-subjects-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+
+.content-section {
+    background: #fff;
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2rem 0;
+    box-shadow: 0 4px 6px rgb(0 0 0 / 10%);
+}
+
+.competence-list {
+    margin-left: 1rem;
+}
+
+.competence-list li {
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+    position: relative;
+}
+
+.competence-list li::before {
+    content: '📚';
+    position: absolute;
+    left: -1.5rem;
+    top: 0;
+}
+
+.remediation-tips {
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.remediation-modals-root {
+    display: contents;
+}

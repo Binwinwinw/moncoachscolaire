@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6ème - Série 28",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6ème : Grammaire de base : articles, prépositions, pronoms personnels",
+    "status": "published",
+    "created_at": "2026-04-26T21:32:48.847889Z",
+    "updated_at": "2026-04-26T21:32:48.847889Z"
+  },
+  "quiz": {
+    "title": "Grammaire de base : articles, prépositions, pronoms personnels",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Which of the following is a definite article in English?",
+        "choices": [
+          "A",
+          "An",
+          "The",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The indefinite articles in English are 'a' and 'an'' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English preposition?",
+        "choices": [
+          "In",
+          "On",
+          "At",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The preposition 'in' is used to indicate location inside something' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English personal pronoun?",
+        "choices": [
+          "I",
+          "You",
+          "He",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The personal pronoun 'she' is used to refer to a female person' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English possessive pronoun?",
+        "choices": [
+          "My",
+          "Your",
+          "His",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The possessive pronoun 'our' is used to refer to something that belongs to us' is a True statement."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

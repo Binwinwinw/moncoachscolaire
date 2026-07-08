@@ -73,39 +73,64 @@ def parse_quality_report(report_path):
     with open(report_path, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    # Extraction métriques (format du rapport validate_quiz_quality.py)
-    metrics = {}
+    metrics = {
+        'total_quizzes': 0,
+        'priority_counts': {'HIGH': 0, 'MEDIUM': 0, 'LOW': 0},
+        'total_problems': 0,
+    }
 
-    # Total quiz analysés
-    if "Quiz analyses" in content:
-        try:
-            line = [l for l in content.split('\n') if 'Quiz analyses' in l][0]
-            metrics['total_quizzes'] = int(line.split(':')[1].strip())
-        except:
-            metrics['total_quizzes'] = 0
-
-    # Problèmes détectés par priorité
-    priority_counts = {}
-    for priority in ['HIGH', 'MEDIUM', 'LOW']:
-        if f"Priorite {priority}" in content:
+    for line in content.split('\n'):
+        if 'Quiz analysés' in line or 'Quiz analyses' in line:
             try:
-                line = [l for l in content.split('\n') if f'Priorite {priority}' in l][0]
-                count = int(line.split(':')[1].strip().split()[0])
-                priority_counts[priority] = count
-            except:
-                priority_counts[priority] = 0
+                metrics['total_quizzes'] = int(line.split(':')[1].strip())
+            except ValueError:
+                pass
+        if 'Haute priorité' in line:
+            try:
+                metrics['priority_counts']['HIGH'] = int(line.split(':')[1].strip())
+            except ValueError:
+                pass
+        if 'Priorité moyenne' in line:
+            try:
+                metrics['priority_counts']['MEDIUM'] = int(line.split(':')[1].strip())
+            except ValueError:
+                pass
+        if 'Priorité basse' in line:
+            try:
+                metrics['priority_counts']['LOW'] = int(line.split(':')[1].strip())
+            except ValueError:
+                pass
+        if 'Problèmes détectés' in line:
+            try:
+                metrics['total_problems'] = int(line.split(':')[1].strip())
+            except ValueError:
+                pass
 
-    metrics['priority_counts'] = priority_counts
-
-    # Problèmes totaux
-    if "Problemes detectes" in content:
-        try:
-            line = [l for l in content.split('\n') if 'Problemes detectes' in l][0]
-            metrics['total_problems'] = int(line.split(':')[1].strip())
-        except:
-            metrics['total_problems'] = sum(priority_counts.values())
+    if metrics['total_problems'] == 0:
+        metrics['total_problems'] = sum(metrics['priority_counts'].values())
 
     return metrics
+
+
+def parse_json_report(report_path):
+    """Parse le rapport de qualité JSON pour extraire métriques."""
+    if not os.path.exists(report_path):
+        print_colored(f"[ERREUR] Rapport JSON introuvable: {report_path}", Colors.FAIL)
+        sys.exit(2)
+
+    with open(report_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    issues_by_severity = data.get('issues_by_severity', {})
+    return {
+        'total_quizzes': data.get('total_quiz', 0),
+        'priority_counts': {
+            'HIGH': issues_by_severity.get('high', 0),
+            'MEDIUM': issues_by_severity.get('medium', 0),
+            'LOW': issues_by_severity.get('low', 0),
+        },
+        'total_problems': data.get('total_issues', 0),
+    }
 
 def check_quality_thresholds(metrics, thresholds):
     """Vérifie si métriques respectent seuils qualité."""
@@ -193,6 +218,7 @@ def main():
     # Chemins workspace
     workspace_root = Path(__file__).parent.parent.parent.parent
     report_path = workspace_root / "dev" / "reports" / "quiz_quality_report.md"
+    json_report_path = workspace_root / "dev" / "reports" / "quiz_quality_report.json"
 
     print_colored("\n" + "="*70, Colors.HEADER)
     print_colored("WORKFLOW VALIDATION QUALITE QUIZ", Colors.HEADER)
@@ -222,13 +248,14 @@ def main():
         'python', 'dev/tools/quiz/validate_quiz_quality.py',
         '--quiz-dir', 'src/data/quiz',
         '--answers-dir', 'src/data/quiz_answers',
-        '--report', str(report_path)
+        '--report', str(report_path),
+        '--report-json', str(json_report_path),
     ]
     run_command(cmd_validate, "Validation qualite pedagogique")
 
     # Étape 3: Analyse rapport et vérification seuils
     print_colored("\n[WORKFLOW] Analyse rapport qualite...", Colors.OKBLUE)
-    metrics = parse_quality_report(str(report_path))
+    metrics = parse_json_report(str(json_report_path)) if json_report_path.exists() else parse_quality_report(str(report_path))
 
     print("\n--- METRIQUES QUALITE ---")
     print(f"Quiz analyses: {metrics.get('total_quizzes', 0)}")

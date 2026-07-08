@@ -6,6 +6,23 @@
 > - 📅 **Journal de Reprise** : [dev/JOURNAL_REPRISE.md](dev/JOURNAL_REPRISE.md) (Historique daté des interventions)
 > - 🐛 **Suivi Bugs & Améliorations** : [dev/SUIVI_BUGS_AMELIORATIONS.md](dev/SUIVI_BUGS_AMELIORATIONS.md) (Backlog actif et priorités)
 
+## [29/06/2026] Flux Cours IA — sauvegarde puis ouverture du cours réel
+
+Nouveau parcours validé pour la génération de cours IA depuis la page Cours :
+
+- le modal génère un aperçu de cours dans la page [src/pages/system/cours.php](src/pages/system/cours.php);
+- le bouton de sauvegarde envoie la donnée vers l’endpoint [src/api/ia/save_generated_cours.php](src/api/ia/save_generated_cours.php);
+- l’endpoint persiste le cours dans la bibliothèque et renvoie un `course_url` vers la vue normale du cours enregistré;
+- le front remplace ensuite le bouton par « Voir le cours complet » et redirige vers ce cours réel, au lieu de laisser l’utilisateur sur une simple prévisualisation.
+
+Ce comportement est couvert par un smoke test Playwright dans [tests/course-save-view.spec.ts](tests/course-save-view.spec.ts).
+
+Commande de validation utilisée :
+
+```bash
+npx playwright test tests/course-save-view.spec.ts --project=chromium --reporter=line
+```
+
 ## [02/04/2026] Pivot produit — Quiz AI comme voie principale
 
 Decision validee:

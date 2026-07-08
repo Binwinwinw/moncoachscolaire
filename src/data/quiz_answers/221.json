@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 221",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Définir un projet.",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Tous les concepts mentionnés",
+        "correction": "Les concepts de base en définition d'un projet comprennent les objectifs du projet, qui définissent ce que le projet vise à accomplir, les ressources nécessaires, qui incluent les personnes, les matériaux, et les finances requises pour réaliser le projet, et la planification du projet, qui implique l'organisation des tâches et des échéances pour atteindre les objectifs du projet."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, les objectifs du projet sont des éléments clés dans la définition d'un projet, car ils fournissent une direction claire et mesurable pour ce que le projet vise à accomplir."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "Tous les exemples mentionnés (personnel, matériaux, finances) sont des types de ressources nécessaires pour un projet, car ils sont essentiels pour réaliser les tâches et atteindre les objectifs du projet."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, la planification du projet est très importante dans la définition d'un projet, car elle permet d'organiser les tâches, de gérer les ressources, et de respecter les échéances pour atteindre les objectifs du projet de manière efficace."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "Tous les exemples mentionnés (projet de construction, projet de développement logiciel, projet de recherche scientifique) sont des types de projets qui peuvent être définis en fonction de leurs objectifs, de leurs ressources, et de leur planification spécifiques."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, il existe une différence entre les différents types de projets en termes de leur nature, de leurs objectifs, de leurs ressources, et de leur planification."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "GanttProject, Trello, et Microsoft Project sont tous des outils qui peuvent être utilisés pour la planification d'un projet, chacun offrant des fonctionnalités spécifiques pour aider à organiser les tâches, gérer les ressources, et suivre l'avancement du projet."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, tous les projets ne sont pas les mêmes, car ils peuvent varier considérablement en fonction de leur nature, de leurs objectifs, de leurs ressources, et de leur planification."
+      }
+    ]
+  }
+}

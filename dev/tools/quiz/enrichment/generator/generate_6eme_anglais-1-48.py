@@ -11,7 +11,7 @@ import random
 from datetime import UTC, datetime
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", "..", ".."))
+REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", "..", "..", ".."))
 OUTPUT_DIR = os.path.join(SCRIPT_DIR, "anglais_6eme_quizzes")
 QUIZ_DIR = os.path.join(OUTPUT_DIR, "quiz")
 ANSWERS_DIR = os.path.join(OUTPUT_DIR, "quiz_answers")
@@ -4074,13 +4074,13 @@ quizzes_data = [
     ]
   ],
   [
-    "0047",
+    "47",
     "Vocabulaire de base : phrases courantes pour parler de l'intérieur",
     "Anglais",
     "6ème",
     [
       {
-        "id": "0047_1",
+        "id": "47_1",
         "type": "qcm",
         "question": "Which of the following is a common English expression used to describe the interior of a house?",
         "options": [
@@ -4093,14 +4093,14 @@ quizzes_data = [
         "explanation": "'It's cozy', 'It's spacious', and 'It's modern' are all common English expressions used to describe the interior of a house."
       },
       {
-        "id": "0047_2",
+        "id": "47_2",
         "type": "vrai-faux",
         "question": "The English expression for 'C'est confortable' is 'It's cozy'' is a True statement.",
         "correct": True,
         "explanation": "The English expression for 'C'est confortable' is indeed 'It's cozy', which is a common way to describe a comfortable interior in English."
       },
       {
-        "id": "0047_3",
+        "id": "47_3",
         "type": "qcm",
         "question": "Which of the following is a common English expression used to describe the interior of a house when it's spacious?",
         "options": [
@@ -4113,14 +4113,14 @@ quizzes_data = [
         "explanation": "'It's spacious' is a common English expression used to describe the interior of a house when it's spacious."
       },
       {
-        "id": "0047_4",
+        "id": "47_4",
         "type": "vrai-faux",
         "question": "The English expression for 'C'est spacieux' is 'It's spacious'' is a True statement.",
         "correct": True,
         "explanation": "The English expression for 'C'est spacieux' is indeed 'It's spacious', which is a common way to describe a spacious interior in English."
       },
       {
-        "id": "0047_5",
+        "id": "47_5",
         "type": "qcm",
         "question": "Which of the following is a common English expression used to describe the interior of a house when it's modern?",
         "options": [
@@ -4133,14 +4133,14 @@ quizzes_data = [
         "explanation": "'It's modern' is a common English expression used to describe the interior of a house when it's modern."
       },
       {
-        "id": "0047_6",
+        "id": "47_6",
         "type": "vrai-faux",
         "question": "The English expression for 'C'est moderne' is 'It's modern'' is a True statement.",
         "correct": True,
         "explanation": "The English expression for 'C'est moderne' is indeed 'It's modern', which is a common way to describe a modern interior in English."
       },
       {
-        "id": "0047_7",
+        "id": "47_7",
         "type": "qcm",
         "question": "Which of the following is a common English expression used to describe the interior of a house when it's old-fashioned?",
         "options": [
@@ -4153,7 +4153,7 @@ quizzes_data = [
         "explanation": "'It's old-fashioned' is a common English expression used to describe the interior of a house when it's old-fashioned."
       },
       {
-        "id": "0047_8",
+        "id": "47_8",
         "type": "vrai-faux",
         "question": "'The English expression for 'C'est démodé' is 'It's old-fashioned'' is a True statement.",
         "correct": True,
@@ -4266,36 +4266,37 @@ def build_true_false_statement(question_text, fallback_answer=""):
 
 
 def make_quiz(qid, title, subject, level, questions):
-        created_at = datetime.now(UTC).strftime("%Y-%m-%d %H:%M:%S")
-        runtime_questions = []
-        for question in questions:
-            qtype = normalize_question_type(question.get("type", ""))
-            if qtype == "qcm":
-                runtime_questions.append({"type": "qcm", "question": str(question.get("question", "")), "choices": list(question.get("options", []))})
-            elif qtype == "vrai-faux":
-                runtime_questions.append({"type": "vrai-faux", "question": str(question.get("question", ""))})
-            else:
-                runtime_questions.append({"type": "vrai-faux", "question": build_true_false_statement(question.get("question", ""), question.get("correct_answer", ""))})
-        return {
-            "contents": {"title": f"Quiz Diagnostic {subject} {level} - Série {qid}", "type": "quiz", "level": level, "subject": subject, "description": f"Diagnostic {subject} {level} : {title}", "status": "published", "created_at": created_at, "updated_at": created_at},
-            "quiz": {"title": title, "type": "quiz", "level": level, "subject": subject, "question_count": len(runtime_questions), "passing_score": 70, "time_limit_minutes": 15, "questions": runtime_questions},
-            "exercisenotion": [],
-            "exerciseresponses": [],
-        }
+    created_at = datetime.now(UTC).isoformat().replace("+00:00", "Z")
+    runtime_questions = []
+    for question in questions:
+        qtype = normalize_question_type(question.get("type", ""))
+        if qtype == "qcm":
+            runtime_questions.append({"type": "qcm", "question": str(question.get("question", "")), "choices": list(question.get("options", []))})
+        elif qtype == "vrai-faux":
+            runtime_questions.append({"type": "vrai-faux", "question": str(question.get("question", ""))})
+        else:
+            raise ValueError(f"Type de question inconnu : {qtype!r}")
+    return {
+        "contents": {"title": f"Quiz Diagnostic {subject} {level} - Série {qid}", "type": "quiz", "level": level, "subject": subject, "description": f"Diagnostic {subject} {level} : {title}", "status": "published", "created_at": created_at, "updated_at": created_at},
+        "quiz": {"title": title, "type": "quiz", "level": level, "subject": subject, "question_count": len(runtime_questions), "passing_score": 70, "time_limit_minutes": 15, "questions": runtime_questions},
+        "exercisenotion": [],
+        "exerciseresponses": [],
+    }
 
 def make_answers(qid, title, subject, level, questions):
-        answers = []
-        for index, q in enumerate(questions):
-            if q["type"] == "qcm":
-                answers.append({"index": index, "question_id": index + 1, "type": "qcm", "answer": q["correct_option"], "correction": q["explanation"]})
-            elif q["type"] == "vrai-faux":
-                answers.append({"index": index, "question_id": index + 1, "type": "vrai-faux", "answer": "vrai" if q["correct"] else "faux", "correction": q["explanation"]})
-            else:
-                answers.append({"index": index, "question_id": index + 1, "type": "vrai-faux", "answer": "vrai" if q.get("correct", True) else "faux", "correction": q["explanation"]})
-        return {
-            "contents": {"title": f"Quiz Diagnostic {subject} {level} - Série {qid}", "level": level, "subject": subject},
-            "quiz": {"title": title, "question_count": len(answers), "level": level, "subject": subject, "answers": answers},
-        }
+    answers = []
+    for index, q in enumerate(questions):
+        qtype = normalize_question_type(q.get("type", ""))
+        if qtype == "qcm":
+            answers.append({"index": index, "question_id": index + 1, "type": "qcm", "answer": q["correct_option"], "correction": q["explanation"]})
+        elif qtype == "vrai-faux":
+            answers.append({"index": index, "question_id": index + 1, "type": "vrai-faux", "answer": "vrai" if q["correct"] else "faux", "correction": q["explanation"]})
+        else:
+            raise ValueError(f"Type de question inconnu : {qtype!r}")
+    return {
+        "contents": {"title": f"Quiz Diagnostic {subject} {level} - Série {qid}", "level": level, "subject": subject},
+        "quiz": {"title": title, "question_count": len(answers), "level": level, "subject": subject, "answers": answers},
+    }
 
 def write_json(path, payload):
         with open(path, "w", encoding="utf-8", newline="\n") as f:

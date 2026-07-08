@@ -1,196 +1,181 @@
 <?php
-$page_title = 'Confidentialité - MonCoachScolaire';
+// Politique de confidentialité — MonCoachScolaire
+
+$page_class = 'confidentialite-page';
 $page_css = 'legal-pages.css';
-$page_description = 'Politique de confidentialité et protection des données des élèves et enseignants sur MonCoachScolaire.fr';
+$page_title = 'Confidentialité - MonCoachScolaire';
 
-// ========== 1. PROTECTION SESSION & CONFIG ==========
-if (!isset($pdo)) {
-    require_once dirname(__DIR__, 2) . '/config/config.php';
+require_once dirname(__DIR__) . '/includes/legal_page_shell.php';
+
+legal_page_bootstrap([
+    'script_file' => __FILE__,
+    'page_class' => 'confidentialite-page',
+    'page_title' => 'Confidentialité - MonCoachScolaire',
+    'page_description' => 'Politique de confidentialité et protection des données des élèves et enseignants sur MonCoachScolaire.fr',
+    'page_css' => 'legal-pages.css',
+]);
+
+legal_page_render_header(
+    '🔒',
+    'Politique de Confidentialité',
+    'Protection des données personnelles conformément au RGPD',
+    'confidentialite'
+);
+legal_page_main_open();
+?>
+
+  <section class="legal-section bg-white rounded-xl shadow-md p-6 mb-6">
+    <h2 class="text-2xl font-bold text-slate-800 mb-4 border-b-2 border-blue-500 pb-2">
+      ✅ 1. Conformité RGPD
+    </h2>
+    <div class="legal-text text-slate-700 leading-relaxed">
+      <p class="mb-3">
+        MonCoachScolaire respecte intégralement le <strong>Règlement Général sur la Protection des Données (RGPD)</strong>
+        et la loi Informatique &amp; Libertés.
+      </p>
+      <ul class="list-disc list-inside mb-4 ml-4 space-y-2">
+        <li>Hébergeur en France (Hostinger EU)</li>
+        <li>Serveur sécurisé HTTPS/TLS 1.3</li>
+        <li>Données jamais vendues ni partagées à des tiers commerciaux</li>
+        <li>Délai de suppression : 1 an maximum après inactivité prolongée</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="legal-section bg-white rounded-xl shadow-md p-6 mb-6">
+    <h2 class="text-2xl font-bold text-slate-800 mb-4 border-b-2 border-green-500 pb-2">
+      📊 2. Données collectées
+    </h2>
+    <div class="legal-text text-slate-700 leading-relaxed">
+      <div class="overflow-x-auto">
+        <table class="min-w-full divide-y divide-gray-200 bg-white rounded-lg shadow text-sm">
+          <thead class="bg-slate-50">
+            <tr>
+              <th class="px-4 py-3 text-left font-bold text-slate-800 uppercase tracking-wider">Type</th>
+              <th class="px-4 py-3 text-left font-bold text-slate-800 uppercase tracking-wider">Données</th>
+              <th class="px-4 py-3 text-left font-bold text-slate-800 uppercase tracking-wider">Finalité</th>
+              <th class="px-4 py-3 text-left font-bold text-slate-800 uppercase tracking-wider">Durée</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+            <tr>
+              <td class="px-4 py-3 font-medium text-slate-900">Identité</td>
+              <td class="px-4 py-3 text-slate-600">Nom, prénom, niveau scolaire</td>
+              <td class="px-4 py-3 text-slate-600">Accès personnalisé aux exercices</td>
+              <td class="px-4 py-3 text-slate-600">Supprimé à la demande</td>
+            </tr>
+            <tr class="bg-slate-50">
+              <td class="px-4 py-3 font-medium text-slate-900">Technique</td>
+              <td class="px-4 py-3 text-slate-600">IP anonymisée, User-Agent</td>
+              <td class="px-4 py-3 text-slate-600">Sécurité &amp; statistiques anonymes</td>
+              <td class="px-4 py-3 text-slate-600">30 jours</td>
+            </tr>
+            <tr>
+              <td class="px-4 py-3 font-medium text-slate-900">Usage</td>
+              <td class="px-4 py-3 text-slate-600">Exercices résolus, scores</td>
+              <td class="px-4 py-3 text-slate-600">Suivi pédagogique</td>
+              <td class="px-4 py-3 text-slate-600">1 an scolaire</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="legal-section bg-white rounded-xl shadow-md p-6 mb-6">
+    <h2 class="text-2xl font-bold text-slate-800 mb-4 border-b-2 border-orange-500 pb-2">
+      🛡️ 3. Mesures de sécurité
+    </h2>
+    <div class="legal-text text-slate-700 leading-relaxed">
+      <ul class="list-disc list-inside mb-4 ml-4 space-y-2">
+        <li>Chiffrement HTTPS complet sur l'ensemble du site</li>
+        <li>Protection CSRF sur tous les formulaires</li>
+        <li>Sessions sécurisées et requêtes SQL préparées (PDO)</li>
+        <li>Interface responsive et accessible (objectif WCAG 2.1)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="legal-section bg-white rounded-xl shadow-md p-6 mb-6">
+    <h2 class="text-2xl font-bold text-slate-800 mb-4 border-b-2 border-purple-500 pb-2">
+      ⚖️ 4. Vos droits RGPD
+    </h2>
+    <div class="legal-text text-slate-700 leading-relaxed">
+      <p class="mb-3">Conformément au RGPD, vous disposez des droits suivants :</p>
+      <ul class="list-disc list-inside mb-4 ml-4 space-y-2">
+        <li><strong>Droit d'accès :</strong> Obtenir une copie de vos données personnelles</li>
+        <li><strong>Droit de rectification :</strong> Corriger des informations inexactes</li>
+        <li><strong>Droit à l'effacement :</strong> Demander la suppression de votre compte et de vos données</li>
+        <li><strong>Droit d'opposition et de limitation :</strong> Limiter certains traitements</li>
+        <li><strong>Droit à la portabilité :</strong> Recevoir vos données dans un format structuré</li>
+      </ul>
+      <div class="info-box bg-purple-50 border-l-4 border-purple-500 p-4 my-4">
+        <p class="mb-2"><strong>📧 Contact DPO :</strong>
+          <a href="mailto:dpo@moncoachscolaire.fr" class="text-purple-600 hover:underline font-semibold">dpo@moncoachscolaire.fr</a>
+        </p>
+        <p class="mb-0 text-sm text-slate-600">Réponse sous 72 h ouvrées — réclamation possible auprès de la
+          <a href="https://www.cnil.fr" target="_blank" rel="noopener noreferrer" class="text-purple-600 hover:underline">CNIL</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="legal-section bg-white rounded-xl shadow-md p-6 mb-6">
+    <h2 class="text-2xl font-bold text-slate-800 mb-4 border-b-2 border-amber-500 pb-2">
+      🍪 5. Cookies
+    </h2>
+    <div class="legal-text text-slate-700 leading-relaxed">
+      <h3 class="text-xl font-semibold text-slate-800 mt-4 mb-3">5.1. Cookies strictement nécessaires</h3>
+      <ul class="list-disc list-inside mb-4 ml-4 space-y-2">
+        <li><strong>PHPSESSID :</strong> Maintien de la session utilisateur</li>
+        <li><strong>csrf_token :</strong> Sécurisation des formulaires</li>
+      </ul>
+      <h3 class="text-xl font-semibold text-slate-800 mt-6 mb-3">5.2. Cookies tiers</h3>
+      <p class="mb-3">
+        MonCoachScolaire n'utilise pas de cookies publicitaires tiers (Google Analytics, Facebook Pixel, etc.)
+        sans consentement explicite.
+      </p>
+    </div>
+  </section>
+
+  <section class="legal-section bg-white rounded-xl shadow-md p-6 mb-6">
+    <h2 class="text-2xl font-bold text-slate-800 mb-4 border-b-2 border-pink-500 pb-2">
+      👶 6. Protection des mineurs
+    </h2>
+    <div class="legal-text text-slate-700 leading-relaxed">
+      <div class="info-box bg-amber-50 border-l-4 border-amber-500 p-4 my-4">
+        <p class="mb-2 font-semibold">⚠️ Attention particulière aux mineurs</p>
+        <ul class="list-disc list-inside ml-4 space-y-1 text-sm">
+          <li>L'inscription d'un mineur de moins de 15 ans requiert le consentement d'un titulaire de l'autorité parentale</li>
+          <li>Les données des mineurs sont traitées avec une protection renforcée</li>
+          <li>Les parents peuvent consulter, modifier ou supprimer les données de leur enfant</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="legal-section bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl shadow-md p-6 mb-6">
+    <h2 class="text-2xl font-bold text-slate-800 mb-4 border-b-2 border-blue-500 pb-2">
+      📧 7. Nous contacter
+    </h2>
+    <div class="legal-text text-slate-700 leading-relaxed">
+      <p class="mb-3">Pour toute question relative à vos données personnelles :</p>
+      <div class="contact-box bg-white border-l-4 border-blue-500 p-4 my-4 rounded">
+        <p class="mb-2"><strong>📧 DPO :</strong> <a href="mailto:dpo@moncoachscolaire.fr" class="text-blue-600 hover:underline font-semibold">dpo@moncoachscolaire.fr</a></p>
+        <p class="mb-2"><strong>📧 Contact général :</strong> <a href="mailto:contact@moncoachscolaire.fr" class="text-blue-600 hover:underline font-semibold">contact@moncoachscolaire.fr</a></p>
+      </div>
+      <p class="text-sm text-slate-600 italic">
+        Consultez également nos
+        <a href="<?php echo htmlspecialchars(site_url('mentions-legales'), ENT_QUOTES); ?>" class="text-blue-600 hover:underline">mentions légales</a>
+        et nos
+        <a href="<?php echo htmlspecialchars(site_url('cgv'), ENT_QUOTES); ?>" class="text-blue-600 hover:underline">conditions générales</a>.
+      </p>
+    </div>
+  </section>
+
+<?php
+legal_page_main_close();
+if (is_file(dirname(__DIR__) . '/includes/footer.php')) {
+    include_once dirname(__DIR__) . '/includes/footer.php';
 }
-
-// Mode démo accessible sans login
-$is_demo = !isset($_SESSION['user_id']);
-?>
-
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= htmlspecialchars($page_title) ?></title>
-    <meta name="description" content="<?= htmlspecialchars($page_description ?? '') ?>">
-    <link rel="stylesheet" href="<?= asset_url("assets/css/pages/{$page_css}") ?>">
-</head>
-<body class="bg-gray-50 text-gray-900">
-    <?php
-    // Inclure la topbar standard du projet
-    if (is_file(dirname(__DIR__, 2) . '/includes/topbar.php')) {
-        require_once dirname(__DIR__, 2) . '/includes/topbar.php';
-    }
-?>
-    <?php
-// Inclure le footer standard du projet
-if (is_file(dirname(__DIR__, 2) . '/includes/footer.php')) {
-    require_once dirname(__DIR__, 2) . '/includes/footer.php';
-}
-?>
-
-    <main class="max-w-4xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
-        <div class="bg-white shadow-xl rounded-2xl p-8 md:p-12 mb-8 border border-gray-100">
-            <div class="text-center mb-12">
-                <h1 class="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-600 to-indigo-700 bg-clip-text text-transparent mb-6">
-                    📜 Confidentialité
-                </h1>
-                <p class="text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-                    Vos données sont protégées. Découvrez comment nous protégeons la vie privée des élèves, parents et enseignants.
-                </p>
-            </div>
-
-            <div class="space-y-8">
-                <!-- 1. Engagement RGPD -->
-                <section class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-8 border-l-4 border-blue-500">
-                    <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
-                        <span class="w-8 h-8 bg-blue-500 rounded-lg flex items-center justify-center text-white font-semibold mr-3">1</span>
-                        Conformité RGPD
-                    </h2>
-                    <div class="prose prose-lg max-w-none text-gray-700">
-                        <p>MonCoachScolaire respecte intégralement le <strong>Règlement Général sur la Protection des Données (RGPD)</strong> et la loi Informatique & Libertés.</p>
-                        <ul class="mt-4 space-y-2">
-                            <li>✅ Hébergeur en France (Hostinger EU)</li>
-                            <li>✅ Serveur sécurisé HTTPS/TLS 1.3</li>
-                            <li>✅ Données jamais vendues/partagées</li>
-                            <li>✅ Délai de suppression : 1 an max</li>
-                        </ul>
-                    </div>
-                </section>
-
-                <!-- 2. Données collectées -->
-                <section class="bg-gradient-to-r from-emerald-50 to-teal-50 rounded-xl p-8 border-l-4 border-emerald-500">
-                    <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
-                        <span class="w-8 h-8 bg-emerald-500 rounded-lg flex items-center justify-center text-white font-semibold mr-3">2</span>
-                        Données collectées
-                    </h2>
-                    <div class="overflow-x-auto">
-                        <table class="min-w-full divide-y divide-gray-200 bg-white rounded-lg shadow">
-                            <thead class="bg-gradient-to-r from-gray-50 to-gray-100">
-                                <tr>
-                                    <th class="px-6 py-4 text-left text-xs font-bold text-gray-900 uppercase tracking-wider">Type</th>
-                                    <th class="px-6 py-4 text-left text-xs font-bold text-gray-900 uppercase tracking-wider">Données</th>
-                                    <th class="px-6 py-4 text-left text-xs font-bold text-gray-900 uppercase tracking-wider">Finalité</th>
-                                    <th class="px-6 py-4 text-left text-xs font-bold text-gray-900 uppercase tracking-wider">Durée</th>
-                                </tr>
-                            </thead>
-                            <tbody class="bg-white divide-y divide-gray-200">
-                                <tr>
-                                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Identité</td>
-                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">Nom, Prénom, Niveau scolaire</td>
-                                    <td class="px-6 py-4 text-sm text-gray-600">Accès personnalisé aux exercices</td>
-                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">Supprimé à la demande</td>
-                                </tr>
-                                <tr class="bg-gray-50">
-                                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Technique</td>
-                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">IP anonymisée, User-Agent</td>
-                                    <td class="px-6 py-4 text-sm text-gray-600">Sécurité & statistiques anonymes</td>
-                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">30 jours</td>
-                                </tr>
-                                <tr>
-                                    <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Usage</td>
-                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">Exercices résolus, scores</td>
-                                    <td class="px-6 py-4 text-sm text-gray-600">Suivi pédagogique anonymisé</td>
-                                    <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-600">1 an scolaire</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </section>
-
-                <!-- 3. Sécurité -->
-                <section class="bg-gradient-to-r from-orange-50 to-red-50 rounded-xl p-8 border-l-4 border-orange-500">
-                    <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
-                        <span class="w-8 h-8 bg-orange-500 rounded-lg flex items-center justify-center text-white font-semibold mr-3">3</span>
-                        Mesures de sécurité
-                    </h2>
-                    <div class="grid md:grid-cols-2 gap-6 mt-6">
-                        <div class="space-y-3">
-                            <div class="flex items-start">
-                                <span class="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-xs mr-3 mt-0.5">🔒</span>
-                                <span class="text-gray-700">Chiffrement HTTPS complet</span>
-                            </div>
-                            <div class="flex items-start">
-                                <span class="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-xs mr-3 mt-0.5">🛡️</span>
-                                <span class="text-gray-700">Protection CSRF sur tous les forms</span>
-                            </div>
-                        </div>
-                        <div class="space-y-3">
-                            <div class="flex items-start">
-                                <span class="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-xs mr-3 mt-0.5">⚡</span>
-                                <span class="text-gray-700">Sessions sécurisées PDO préparé</span>
-                            </div>
-                            <div class="flex items-start">
-                                <span class="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center text-white font-bold text-xs mr-3 mt-0.5">📱</span>
-                                <span class="text-gray-700">Responsive & accessible WCAG 2.1</span>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- 4. Droits utilisateurs -->
-                <section class="bg-gradient-to-r from-purple-50 to-violet-50 rounded-xl p-8 border-l-4 border-purple-500">
-                    <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
-                        <span class="w-8 h-8 bg-purple-500 rounded-lg flex items-center justify-center text-white font-semibold mr-3">4</span>
-                        Vos droits RGPD
-                    </h2>
-                    <div class="grid md:grid-cols-2 gap-8">
-                        <div>
-                            <h3 class="font-semibold text-lg mb-4">🚀 Actions immédiates</h3>
-                            <ul class="space-y-2 text-gray-700">
-                                <li><strong>📥 Accès</strong> : Demandez vos données exportées</li>
-                                <li><strong>✏️ Rectification</strong> : Corrigez vos informations</li>
-                                <li><strong>🗑️ Suppression</strong> : Effacez votre compte</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h3 class="font-semibold text-lg mb-4">📧 Contact DPO</h3>
-                            <div class="bg-white p-6 rounded-xl shadow-sm border">
-                                <p class="text-sm text-gray-600 mb-2">Délégué Protection Données</p>
-                                <p class="font-semibold text-lg">dpo@moncoachscolaire.fr</p>
-                                <p class="text-xs text-gray-500 mt-2">Réponse sous 72h ouvrées</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- 5. Cookies -->
-                <section class="bg-gradient-to-r from-rose-50 to-pink-50 rounded-xl p-8 border-l-4 border-rose-500">
-                    <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">🍪 Cookies</h2>
-                    <div class="grid md:grid-cols-2 gap-6">
-                        <div>
-                            <h3 class="font-semibold mb-3">Strictement nécessaires</h3>
-                            <ul class="space-y-1 text-sm text-gray-700">
-                                <li>PHPSESSID (session utilisateur)</li>
-                                <li>csrf_token (sécurité forms)</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h3 class="font-semibold mb-3">Aucun cookie tiers</h3>
-                            <p class="text-sm text-gray-600">Pas de Google Analytics, Facebook Pixel ou traqueurs.</p>
-                        </div>
-                    </div>
-                </section>
-            </div>
-
-            <div class="mt-16 pt-12 border-t border-gray-200">
-                <p class="text-center text-sm text-gray-500">
-                    Dernière mise à jour : <strong><?= date('d/m/Y') ?></strong> |
-                    <a href="mailto:dpo@moncoachscolaire.fr" class="text-blue-600 hover:text-blue-800 font-medium">Nous contacter</a>
-                </p>
-            </div>
-        </div>
-    </main>
-
-
-
-    <!-- Scripts -->
-    <script src="<?= asset_url('assets/js/app.js') ?>"></script>
-</body>
-</html>
+legal_page_finish();

@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 204",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Transmission de mouvement (engrenages, courroies).",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Tous les moyens mentionnés",
+        "correction": "Il existe plusieurs moyens de transmission de mouvement, notamment les engrenages, qui sont des roues dentées qui s'engrènent les unes dans les autres, et les courroies, qui sont des bandes flexibles qui transmettent le mouvement d'une poulie à une autre."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, les engrenages peuvent être utilisés pour changer la direction du mouvement, ainsi que pour augmenter ou réduire la vitesse et le couple."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Une montre",
+        "correction": "Une montre utilise des engrenages pour transmettre le mouvement des aiguilles et assurer un fonctionnement précis."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, les courroies sont utilisées pour transmettre le mouvement entre des pièces qui ne sont pas en contact direct, comme dans les systèmes de transmission de puissance dans les machines industrielles ou les véhicules."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Toutes les réponses mentionnées",
+        "correction": "Les courroies ont plusieurs avantages par rapport aux engrenages, notamment qu'elles sont généralement plus silencieuses, peuvent être plus durables dans certaines applications, et nécessitent souvent moins d'entretien."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, il existe des différences entre les engrenages et les courroies en termes de leur fonctionnement, de leur application, et de leurs avantages et inconvénients respectifs."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Une voiture",
+        "correction": "Une voiture utilise des courroies pour transmettre le mouvement du moteur à d'autres composants, comme l'alternateur ou la pompe à eau."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, l'efficacité de la transmission de mouvement dépend de nombreux facteurs, et il n'est pas correct de dire que les engrenages sont intrinsèquement plus efficaces que les courroies dans toutes les situations."
+      }
+    ]
+  }
+}

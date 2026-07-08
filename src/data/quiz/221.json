@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 221",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 6eme : Définir un projet.",
+    "status": "published",
+    "created_at": "2026-04-26 21:47:01",
+    "updated_at": "2026-04-26 21:47:01"
+  },
+  "quiz": {
+    "title": "Définir un projet.",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quels sont des concepts de base en définition d'un projet ?",
+        "choices": [
+          "Objectifs du projet",
+          "Ressources nécessaires",
+          "Planification du projet",
+          "Tous les concepts mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les objectifs du projet sont des éléments clés dans la définition d'un projet. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple de ressource nécessaire pour un projet ?",
+        "choices": [
+          "Personnel",
+          "Matériaux",
+          "Finances",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La planification du projet n'est pas importante dans la définition d'un projet. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple de type de projet ?",
+        "choices": [
+          "Projet de construction",
+          "Projet de développement logiciel",
+          "Projet de recherche scientifique",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il n'y a pas de différence entre les différents types de projets. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple d'outil qui peut être utilisé pour la planification d'un projet ?",
+        "choices": [
+          "GanttProject",
+          "Trello",
+          "Microsoft Project",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Tous les projets sont les mêmes. Vrai ou Faux ?"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

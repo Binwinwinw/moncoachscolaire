@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6ème - Série 23",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6ème : Expressions courantes : salutations, formules de politesse, phrases simples",
+    "status": "published",
+    "created_at": "2026-04-26T21:32:48.841009Z",
+    "updated_at": "2026-04-26T21:32:48.841009Z"
+  },
+  "quiz": {
+    "title": "Expressions courantes : salutations, formules de politesse, phrases simples",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English greeting?",
+        "choices": [
+          "Hello",
+          "Goodbye",
+          "Thank you",
+          "Please"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'Thank you' is a phrase used to express gratitude in English' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English expression for saying goodbye?",
+        "choices": [
+          "See you later",
+          "Good morning",
+          "How are you?",
+          "Thank you"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'Please' is a word used to make requests more polite in English' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English expression for asking how someone is doing?",
+        "choices": [
+          "How are you?",
+          "What's up?",
+          "How's it going?",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'Excuse me' is a phrase used to get someone's attention or apologize in English' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English expression for showing appreciation?",
+        "choices": [
+          "Thank you",
+          "You're welcome",
+          "Great job",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The phrase 'Have a nice day' is a common way to wish someone well in English' is a True statement."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

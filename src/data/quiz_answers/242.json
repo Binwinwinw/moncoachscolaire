@@ -1,0 +1,50 @@
+{
+    "contents": {
+        "title": "Quiz IA Mathematiques - 1ere",
+        "level": "1ere",
+        "subject": "Mathematiques"
+    },
+    "quiz": {
+        "title": "Quiz IA Mathematiques - 1ere",
+        "question_count": 5,
+        "level": "1ere",
+        "subject": "Mathematiques",
+        "answers": [
+            {
+                "index": 0,
+                "question_id": 1,
+                "type": "qcm",
+                "answer": "d) 16",
+                "correction": "La bonne réponse est : d) 16"
+            },
+            {
+                "index": 1,
+                "question_id": 2,
+                "type": "qcm",
+                "answer": "a) (x + 2)(x + 3)",
+                "correction": "La bonne réponse est : a) (x + 2)(x + 3)"
+            },
+            {
+                "index": 2,
+                "question_id": 3,
+                "type": "qcm",
+                "answer": "a) 5",
+                "correction": "La bonne réponse est : a) 5"
+            },
+            {
+                "index": 3,
+                "question_id": 4,
+                "type": "qcm",
+                "answer": "b) 60 degrés",
+                "correction": "La bonne réponse est : b) 60 degrés"
+            },
+            {
+                "index": 4,
+                "question_id": 5,
+                "type": "qcm",
+                "answer": "a) y = 2x + 1",
+                "correction": "La bonne réponse est : a) y = 2x + 1"
+            }
+        ]
+    }
+}

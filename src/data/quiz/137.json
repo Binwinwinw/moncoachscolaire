@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 6eme - Série 137",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 6eme : EMC 6e - Vote classe : Élection délégués (affiches, discours)",
+    "status": "published",
+    "created_at": "2026-04-26T21:35:49.223855Z",
+    "updated_at": "2026-04-26T21:35:49.223855Z"
+  },
+  "quiz": {
+    "title": "EMC 6e - Vote classe : Élection délégués (affiches, discours)",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Pourquoi est-il important de respecter les règles de vie démocratique à l'école ?",
+        "choices": [
+          "Le respect des règles de vie démocratique à l'école garantit la promotion de la participation, le respect des autres et la construction d'une société plus juste et solidaire.",
+          "Le respect des règles de vie démocratique à l'école est inutile, car les individus peuvent agir comme ils le souhaitent.",
+          "Le respect des règles de vie démocratique à l'école est réservé aux élites politiques et économiques.",
+          "Le respect des règles de vie démocratique à l'école est limité aux écoles uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un délégué à l'école permet de représenter les élèves et de faire remonter leurs préoccupations."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle du délégué dans la classe?",
+        "choices": [
+          "Le délégué représente les élèves et fait remonter leurs préoccupations auprès de l'administration scolaire.",
+          "Le délégué est responsable de l'enseignement des matières scolaires.",
+          "Le délégué organise les activités sportives et culturelles.",
+          "Le délégué est chargé de la discipline dans la classe."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le délégué est le meilleure élève de la classe."
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un délégué de classe peut aider ses camarades en représentant leurs préoccupations auprès de l'administration scolaire."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle des médias dans la vie démocratique à l'école ?",
+        "choices": [
+          "Les médias jouent un rôle crucial en informant les élèves sur les activités démocratiques à l'école et en encourageant la participation citoyenne.",
+          "Les médias sont inutiles dans la vie démocratique à l'école, car les individus peuvent apprendre par eux-mêmes.",
+          "Les médias sont réservés aux élites politiques et économiques.",
+          "Les médias sont limités aux informations nationales uniquement."
+        ]
+      },
+      {
+        "type": "qcm",
+        "question": "Pourquoi est-il important de respecter les règles de vie démocratique à l'école ? (variante 2)",
+        "choices": [
+          "Le respect des règles de vie démocratique à l'école garantit la promotion de la participation, le respect des autres et la construction d'une société plus juste et solidaire.",
+          "Le respect des règles de vie démocratique à l'école est inutile, car les individus peuvent agir comme ils le souhaitent.",
+          "Le respect des règles de vie démocratique à l'école est réservé aux élites politiques et économiques.",
+          "Le respect des règles de vie démocratique à l'école est limité aux écoles uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect des règles de vie démocratique à l'école est un concept qui promeut la non-intervention dans les affaires des individus."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

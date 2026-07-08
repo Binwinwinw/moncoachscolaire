@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 166",
+    "level": "6eme",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Français 6e - Les pronoms personnels",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Je",
+        "correction": "Le pronom personnel 'Je' est utilisé pour remplacer un nom de personne ou d'animal de la première personne du singulier, en indiquant que le locuteur parle de lui-même."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Le pronom personnel 'Il' est utilisé pour remplacer un nom de personne ou d'animal de la troisième personne du singulier masculin, en indiquant que le locuteur parle d'une autre personne ou d'un animal masculin."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Elle",
+        "correction": "Le pronom personnel 'Elle' est utilisé pour remplacer un nom de personne ou d'animal de la troisième personne du singulier féminin, en indiquant que le locuteur parle d'une autre personne ou d'un animal féminin."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Le pronom personnel 'Nous' est utilisé pour remplacer un nom de groupe de personnes ou d'animaux, y compris le locuteur et les autres personnes impliquées, en indiquant que le locuteur parle d'un groupe auquel il appartient."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Tu",
+        "correction": "Le pronom personnel 'Tu' est utilisé pour remplacer un nom de personne ou d'animal de la deuxième personne du singulier, en indiquant que le locuteur parle directement à une autre personne."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. L'utilisation correcte des pronoms personnels peut contribuer à améliorer la clarté et la fluidité de la communication écrite en évitant les répétitions et en facilitant la compréhension du sujet et des actions dans une phrase, ce qui rend le texte plus agréable à lire et plus facile à comprendre."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Ils",
+        "correction": "Le pronom personnel 'Ils' est utilisé pour remplacer un nom de groupe de personnes ou d'animaux, sans inclure le locuteur, en indiquant que le locuteur parle d'un groupe auquel il n'appartient pas."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. L'utilisation incorrecte des pronoms personnels peut parfois entraîner des confusions ou des malentendus dans la communication écrite, en rendant difficile pour les lecteurs de comprendre qui fait quoi dans une phrase, ce qui peut nuire à la clarté du message et à l'efficacité de la communication."
+      }
+    ]
+  }
+}

@@ -19,6 +19,11 @@ if (defined('IS_API_REQUEST') && IS_API_REQUEST) {
     return;
 }
 
+// Éviter double inclusion (routeur + page à accès direct)
+if (!empty($GLOBALS['__topbar_included'])) {
+    return;
+}
+
 // topbar.php — central topbar include
 // Expected optional flags defined by the caller before include:
 //  - $hide_topbar : if true, do not render the topbar
@@ -74,7 +79,8 @@ if (isset($is_logged_in) && $is_logged_in) {
     // Sinon, vérifier directement la session (fallback)
     $is_user_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
 }
-$is_parent_logged_in = !empty($_SESSION['parent_id']);
+// Détection parent : vérifier le rôle 'parent' OU 'parents' (pluriel)
+$is_parent_logged_in = !empty($_SESSION['user_id']) && in_array(strtolower((string) ($_SESSION['user_role'] ?? '')), ['parent', 'parents'], true);
 $user_level = $_SESSION['user_level'] ?? '';
 $current_theme = $_SESSION['user_theme_name'] ?? '';
 
@@ -122,6 +128,30 @@ if ($is_admin_logged_in) {
     $dashboard_url = function_exists('site_url') ? site_url('eleve/dashboard') : ($rootHref . '/index.php?page=eleve/dashboard');
 }
 
+$is_demo_active = function_exists('isDemoUser') ? isDemoUser() : !empty($_SESSION['is_demo']);
+$user_level_normalized = function_exists('normalize_school_level') ? normalize_school_level($user_level) : strtolower((string) $user_level);
+
+$app_theme = $GLOBALS['app_theme'] ?? null;
+if (!is_array($app_theme) || empty($app_theme['variant'])) {
+    $page_theme_level = $GLOBALS['page_theme_level'] ?? null;
+    $app_theme = function_exists('resolve_app_theme')
+        ? resolve_app_theme($page_theme_level)
+        : ['tier' => 'neutral', 'level_key' => 'neutral', 'variant' => function_exists('get_neutral_theme_variant') ? get_neutral_theme_variant() : []];
+    $GLOBALS['app_theme'] = $app_theme;
+}
+$topbar_theme = is_array($app_theme['variant'] ?? null) ? $app_theme['variant'] : [];
+
+// Ensure a valid topbar theme exists even if the level is malformed.
+if (empty($topbar_theme) || !is_array($topbar_theme)) {
+    $topbar_theme = [
+        'topbar_bg' => 'bg-slate-700',
+        'topbar_border' => 'border-slate-800',
+        'button_dashboard' => 'bg-blue-600 text-white hover:bg-blue-700',
+        'button_logout' => 'bg-slate-700 text-white hover:bg-slate-800',
+        'button_demo' => 'bg-emerald-600 text-white hover:bg-emerald-700',
+    ];
+}
+
 // Resolve persona label only for logged-in users and if not suppressed
 if ($is_user_logged_in && empty($hide_topbar_persona)) {
     $label = 'MonCoachScolaire';
@@ -146,7 +176,7 @@ if ($is_user_logged_in && empty($hide_topbar_persona)) {
 
 ?>
 <!-- Topbar -->
-<header class="topbar w-full bg-slate-700 shadow-lg border-b border-slate-800 sticky top-0 z-50" role="banner" aria-label="Barre supérieure du site">
+<header class="topbar w-full shadow-lg border-b sticky top-0 z-50 text-white <?php echo htmlspecialchars($topbar_theme['topbar_bg'] ?? 'bg-slate-700', ENT_QUOTES, 'UTF-8'); ?> <?php echo htmlspecialchars($topbar_theme['topbar_border'] ?? 'border-slate-800', ENT_QUOTES, 'UTF-8'); ?>" role="banner" aria-label="Barre supérieure du site">
   <div class="container topbar-inner mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16 text-white">
     <div class="topbar-left flex items-center gap-3">
       <a href="<?php echo function_exists('site_url') ? site_url('landingpage') : ($rootHref . '/index.php?page=landingpage'); ?>" class="topbar-logo inline-flex items-center justify-center w-10 h-10 rounded-full bg-slate-100 text-slate-700 text-xl font-bold shadow-sm" aria-label="Accueil MonCoachScolaire">
@@ -156,7 +186,7 @@ if ($is_user_logged_in && empty($hide_topbar_persona)) {
       <a href="<?php echo function_exists('site_url') ? site_url('landingpage') : ($rootHref . '/index.php?page=landingpage'); ?>" class="topbar-title-link inline-flex items-center gap-2" aria-label="Aller à la page d'accueil">
         <strong class="topbar-title font-semibold text-lg text-white">MonCoachScolaire</strong>
         <?php if ($is_user_logged_in && empty($hide_topbar_persona)): ?>
-          <span class="topbar-role-badge inline-block ml-2 px-2 py-1 rounded text-xs font-semibold bg-slate-100 text-black border border-slate-300 align-middle">
+          <span class="topbar-role-badge inline-block ml-2 px-2 py-1 rounded text-xs font-semibold bg-white/20 text-white border border-white/30 align-middle">
             <?php
               if ($is_admin_logged_in) {
                   echo 'Admin';
@@ -181,12 +211,12 @@ if ($is_user_logged_in && empty($hide_topbar_persona)) {
       <?php elseif ($is_parent_logged_in): ?>
         <ul class="topbar-actions-list flex items-center gap-2">
           <!-- Lien 'Mon espace parents' supprimé -->
-          <li><a href="<?php echo site_url('logout'); ?>" class="btn small inline-flex items-center px-3 py-1.5 rounded-md text-sm font-semibold bg-slate-700 text-white hover:bg-slate-800" aria-label="Se déconnecter">Se déconnecter</a></li>
+          <li><a href="<?php echo site_url('logout'); ?>" class="btn small inline-flex items-center px-3 py-1.5 rounded-md text-sm font-semibold <?php echo htmlspecialchars($topbar_theme['button_logout'] ?? 'bg-slate-700 text-white hover:bg-slate-800', ENT_QUOTES, 'UTF-8'); ?>" aria-label="Se déconnecter">Se déconnecter</a></li>
         </ul>
       <?php elseif ($is_user_logged_in): ?>
         <ul class="topbar-actions-list flex items-center gap-2">
-          <li><a href="<?php echo $dashboard_url; ?>" class="btn small inline-flex items-center px-3 py-1.5 rounded-md text-sm font-semibold bg-blue-600 text-white hover:bg-blue-700" aria-label="Mon espace">Mon espace</a></li>
-          <li><a href="<?php echo site_url('logout'); ?>" class="btn small inline-flex items-center px-3 py-1.5 rounded-md text-sm font-semibold bg-slate-700 text-white hover:bg-slate-800" aria-label="Se déconnecter">Se déconnecter</a></li>
+          <li><a href="<?php echo $dashboard_url; ?>" class="btn btn-topbar-accent small inline-flex items-center px-3 py-1.5 rounded-md text-sm font-semibold" aria-label="Mon espace">Mon espace</a></li>
+          <li><a href="<?php echo site_url('logout'); ?>" class="btn small inline-flex items-center px-3 py-1.5 rounded-md text-sm font-semibold <?php echo htmlspecialchars($topbar_theme['button_logout'] ?? 'bg-slate-700 text-white hover:bg-slate-800'); ?>" aria-label="Se déconnecter">Se déconnecter</a></li>
         </ul>
       <?php else:
           // Vérifier si l'utilisateur est en mode démo
@@ -194,11 +224,11 @@ if ($is_user_logged_in && empty($hide_topbar_persona)) {
           ?>
         <ul class="topbar-actions-list flex items-center gap-2">
           <?php if (!$is_demo_active): // Ne pas afficher les boutons de connexion si le mode démo est actif?>
-            <li><a href="<?php echo site_url('demo') . '?demo=1'; ?>" class="btn btn-demo small js-start-demo inline-flex items-center gap-2 px-3 py-1.5 rounded-md text-sm font-semibold bg-emerald-600 text-white hover:bg-emerald-700" aria-label="Essayer la démo">🎮 Mode Démo</a></li>
+            <li><a href="<?php echo site_url('demo') . '?demo=1'; ?>" class="btn btn-demo small js-start-demo inline-flex items-center gap-2 px-3 py-1.5 rounded-md text-sm font-semibold <?php echo htmlspecialchars($topbar_theme['button_demo'] ?? 'bg-emerald-600 text-white hover:bg-emerald-700'); ?>" aria-label="Essayer la démo">🎮 Mode Démo</a></li>
             <li><a href="<?php echo site_url('login'); ?>" class="btn btn-login small inline-flex items-center px-3 py-1.5 rounded-md text-sm font-semibold bg-slate-700 text-white hover:bg-slate-800" aria-label="Se connecter">Se connecter</a></li>
             <li><a href="<?php echo site_url('register'); ?>" class="btn btn-register small inline-flex items-center px-3 py-1.5 rounded-md text-sm font-semibold bg-indigo-600 text-white hover:bg-indigo-700" aria-label="Créer un compte">Créer un compte</a></li>
           <?php else: // En mode démo, afficher les boutons pour quitter ou créer un compte?>
-            <li><a href="<?php echo site_url('logout'); ?>" class="btn btn-demo small js-quit-demo inline-flex items-center gap-2 px-3 py-1.5 rounded-md text-sm font-semibold bg-slate-700 text-white hover:bg-slate-800" aria-label="Quitter le mode démo">🚪 Quitter le mode démo</a></li>
+            <li><a href="<?php echo site_url('logout'); ?>" class="btn btn-demo small js-quit-demo inline-flex items-center gap-2 px-3 py-1.5 rounded-md text-sm font-semibold <?php echo htmlspecialchars($topbar_theme['button_logout'] ?? 'bg-slate-700 text-white hover:bg-slate-800'); ?>" aria-label="Quitter le mode démo">🚪 Quitter le mode démo</a></li>
             <li><a href="<?php echo site_url('register'); ?>" class="btn btn-register small inline-flex items-center px-3 py-1.5 rounded-md text-sm font-semibold bg-indigo-600 text-white hover:bg-indigo-700" aria-label="Créer un compte">Créer un compte</a></li>
           <?php endif; ?>
         </ul>

@@ -40,36 +40,103 @@ $build_avatar_url = static function ($path, $label = 'E') use ($build_inline_ava
 };
 ?>
 <section class="mb-10">
-    <h2 class="text-xl md:text-2xl font-bold text-indigo-800 mb-5 flex items-center gap-2">
+    <h2 class="mb-5 flex items-center gap-2 text-xl font-bold text-slate-900 md:text-2xl">
         <span class="text-lg">👨‍👩‍👧‍👦</span> Vos enfants suivis
     </h2>
-    <?php if (empty($enfants)): ?>
-        <div class="rounded-2xl shadow p-6 md:p-8 mcs-card-bg border border-indigo-100/70">
+    <?php
+    $enfants_affiches = [];
+    foreach ((array) ($enfants ?? []) as $enfant) {
+        $enfant_id = $enfant['Id'] ?? $enfant['id'] ?? $enfant['user_id'] ?? $enfant['enfant_id'] ?? null;
+        $enfant_role = strtolower((string) ($enfant['Role'] ?? $enfant['role'] ?? 'student'));
+        if (empty($enfant_id) || $enfant_role !== 'student') {
+            continue;
+        }
+        $enfants_affiches[] = $enfant;
+    }
+    ?>
+    <?php if (empty($enfants_affiches)): ?>
+        <div class="rounded-2xl border border-slate-200 bg-white/90 p-6 shadow-sm md:p-8">
             <div class="flex flex-col md:flex-row md:items-center gap-5">
-                <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-indigo-500 via-violet-500 to-blue-500 text-white flex items-center justify-center text-xl font-bold shrink-0">
+                <div class="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-emerald-500 via-cyan-600 to-slate-800 text-xl font-bold text-white">
                     +
                 </div>
                 <div class="flex-1">
-                    <h3 class="text-lg font-bold text-indigo-950 mb-1">Aucun enfant rattaché pour l’instant</h3>
-                    <p class="text-sm text-gray-600 max-w-2xl">Ajoutez un enfant pour faire apparaître sa progression réelle, ses matières fortes et ses derniers quiz sur ce tableau de bord.</p>
-                </div>
-                <div class="shrink-0">
-                    <a href="<?= site_url('parents/ajouter_enfant') ?>" class="inline-flex items-center justify-center px-4 py-2 bg-indigo-600 text-white rounded-full font-semibold shadow-sm hover:bg-indigo-700 transition-colors">Ajouter un enfant</a>
+                    <h3 class="mb-1 text-lg font-bold text-slate-900">Aucun enfant rattaché pour l’instant</h3>
+                    <p class="max-w-2xl text-sm text-slate-600">Générez un code de rattachement et demandez à votre enfant de finaliser le lien pour voir sa progression dans cette section.</p>
                 </div>
             </div>
         </div>
     <?php else: ?>
+        <?php $apiBase = function_exists('site_url') ? site_url('api/parent_family') : '/api/parent_family'; ?>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <?php foreach ($enfants as $enfant): ?>
-                <div class="rounded-2xl shadow p-6 flex flex-col items-center hover:scale-[1.02] transition-transform">
+            <?php foreach ($enfants_affiches as $enfant): ?>
+                <div class="flex flex-col items-center rounded-2xl border border-slate-200 bg-white/90 p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
                     <?php $enfant_id = $enfant['Id'] ?? $enfant['id'] ?? $enfant['user_id'] ?? $enfant['enfant_id'] ?? null; ?>
                     <?php $avatar = $build_avatar_url($enfant['avatar'] ?? '', $enfant['prenom'] ?? $enfant['Prenom'] ?? $enfant['Username'] ?? 'E'); ?>
-                    <img src="<?= htmlspecialchars($avatar, ENT_QUOTES) ?>" alt="Avatar" class="w-16 h-16 rounded-full mb-2 border-2 border-indigo-100">
-                    <div class="font-semibold text-base text-indigo-900 mb-1"><?= htmlspecialchars($enfant['prenom'] ?? $enfant['Prenom'] ?? 'Enfant') ?> <span class="text-xs text-gray-400 align-top">(<?= htmlspecialchars($enfant['niveau'] ?? $enfant['Niveau'] ?? '') ?>)</span></div>
-                    <div class="text-xs text-gray-500 mb-2">Suivi actif</div>
-                    <a href="<?= site_url('parents/suivi_enfant') ?>?id=<?= urlencode((string) $enfant_id) ?>" class="mt-2 px-4 py-2 bg-indigo-50 text-indigo-700 rounded-full font-semibold border border-indigo-100 shadow-sm hover:bg-indigo-100">Voir le détail</a>
+                    <img src="<?= htmlspecialchars($avatar, ENT_QUOTES) ?>" alt="Avatar" class="mb-2 h-16 w-16 rounded-full border-2 border-slate-200">
+                    <div class="mb-1 text-base font-semibold text-slate-900"><?= htmlspecialchars($enfant['prenom'] ?? $enfant['Prenom'] ?? 'Enfant') ?> <span class="align-top text-xs text-slate-500">(<?= htmlspecialchars($enfant['niveau'] ?? $enfant['Niveau'] ?? '') ?>)</span></div>
+                    <div class="mb-2 text-xs text-slate-500">Suivi actif</div>
+                    <div class="mt-3 flex flex-wrap items-center justify-center gap-2">
+                        <a href="<?= site_url('parents/suivi_enfant') ?>?id=<?= urlencode((string) $enfant_id) ?>" class="rounded-full border border-emerald-200 bg-emerald-50 px-4 py-2 font-semibold text-emerald-700 shadow-sm transition hover:bg-emerald-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2">Voir le détail</a>
+                        <button type="button" data-detach-child-id="<?= htmlspecialchars((string) $enfant_id, ENT_QUOTES, 'UTF-8') ?>" data-detach-child-name="<?= htmlspecialchars((string) ($enfant['prenom'] ?? $enfant['Prenom'] ?? $enfant['Username'] ?? 'cet élève'), ENT_QUOTES, 'UTF-8') ?>" class="rounded-full border border-rose-200 bg-white px-4 py-2 font-semibold text-rose-700 shadow-sm transition hover:bg-rose-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-rose-500 focus-visible:ring-offset-2">Détacher</button>
+                    </div>
                 </div>
             <?php endforeach; ?>
         </div>
+
+        <script>
+        (function () {
+            const apiUrl = <?php echo json_encode($apiBase, JSON_UNESCAPED_SLASHES); ?>;
+            const detachButtons = document.querySelectorAll('[data-detach-child-id]');
+
+            async function detachChild(childId) {
+                const response = await fetch(apiUrl, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'X-CSRF-Token': window.csrfToken || ''
+                    },
+                    body: JSON.stringify({
+                        action: 'detach_child',
+                        child_user_id: childId
+                    })
+                });
+
+                const payload = await response.json().catch(() => ({}));
+                if (!response.ok || !payload.success) {
+                    throw new Error(payload.error || 'Impossible de détacher cet élève.');
+                }
+            }
+
+            detachButtons.forEach((button) => {
+                button.addEventListener('click', async function () {
+                    const childId = this.getAttribute('data-detach-child-id');
+                    const childName = this.getAttribute('data-detach-child-name') || 'cet élève';
+
+                    if (!childId) {
+                        return;
+                    }
+
+                    const confirmed = window.confirm('Confirmer le détachement de ' + childName + ' ?');
+                    if (!confirmed) {
+                        return;
+                    }
+
+                    const previousLabel = this.textContent;
+                    this.disabled = true;
+                    this.textContent = 'Détachement...';
+
+                    try {
+                        await detachChild(childId);
+                        window.location.reload();
+                    } catch (error) {
+                        alert(error.message || 'Une erreur est survenue.');
+                        this.disabled = false;
+                        this.textContent = previousLabel;
+                    }
+                });
+            });
+        })();
+        </script>
     <?php endif; ?>
 </section>

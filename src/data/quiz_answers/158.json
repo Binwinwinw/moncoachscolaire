@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 158",
+    "level": "6eme",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Français 6e - Les types de phrases (déclarative, interrogative…)",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Phrase déclarative",
+        "correction": "La phrase déclarative est utilisée pour faire une déclaration ou exprimer une idée de manière affirmative ou négative."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. La phrase interrogative est utilisée pour poser une question ou demander une information, souvent en utilisant des mots interrogatifs tels que 'qui', 'quoi', 'où', 'quand', 'comment', etc."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Phrase impérative",
+        "correction": "La phrase impérative est utilisée pour donner un ordre ou une instruction, souvent en utilisant le mode impératif du verbe."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. La phrase exclamative est utilisée pour exprimer une émotion forte ou une réaction intense, souvent en utilisant des points d'exclamation et des interjections."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Phrase exclamative",
+        "correction": "La phrase exclamative est utilisée pour exprimer une émotion forte ou une réaction intense, souvent en utilisant des points d'exclamation et des interjections."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. La phrase déclarative peut être utilisée pour faire une déclaration ou exprimer une idée de manière affirmative ou négative."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Phrase interrogative",
+        "correction": "La phrase interrogative est utilisée pour poser une question ou demander une information, souvent en utilisant des mots interrogatifs tels que 'qui', 'quoi', 'où', 'quand', 'comment', etc."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. L'utilisation de différents types de phrases peut contribuer à créer des effets de style et à renforcer l'impact d'un texte sur les lecteurs, en jouant sur la structure et le rythme des phrases pour susciter des émotions ou mettre en valeur certaines idées."
+      }
+    ]
+  }
+}

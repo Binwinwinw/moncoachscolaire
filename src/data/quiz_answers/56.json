@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 56",
+    "level": "6eme",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Comparaison et ordre des décimaux",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "0.1",
+        "correction": "0.1 est le plus grand nombre décimal parmi les options données."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "0.5 est plus petit que 0.6."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "0.0001",
+        "correction": "0.0001 est le plus petit nombre décimal parmi les options données."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "qcm",
+        "answer": "0.2",
+        "correction": "0.2 est plus grand que 0.19."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "0.75 est plus grand que 0.705."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "qcm",
+        "answer": "0.99",
+        "correction": "0.99 est le nombre le plus proche de 1 parmi les options proposées."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "0.05 est plus grand que 0.005."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "qcm",
+        "answer": "0.205",
+        "correction": "0.205 est le plus petit nombre décimal parmi les options proposées."
+      }
+    ]
+  }
+}

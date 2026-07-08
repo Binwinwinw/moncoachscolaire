@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6ème - Série 40",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6ème : Vocabulaire de base : description de lieu",
+    "status": "published",
+    "created_at": "2026-04-26T21:32:48.866003Z",
+    "updated_at": "2026-04-26T21:32:48.866003Z"
+  },
+  "quiz": {
+    "title": "Vocabulaire de base : description de lieu",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English expression used to describe location?",
+        "choices": [
+          "In front of",
+          "Behind",
+          "Next to",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The expression 'in front of' is used to describe location in relation to something else' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English expression used to describe location behind something?",
+        "choices": [
+          "In front of",
+          "Behind",
+          "Next to",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The expression 'next to' is used to describe location in relation to something else' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English expression used to describe location in relation to something else?",
+        "choices": [
+          "In front of",
+          "Behind",
+          "Next to",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The expression 'in front of' is used to describe location in relation to something else' is a True statement. (variante 2)"
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English expression used to describe location in relation to something else? (variante 2)",
+        "choices": [
+          "In front of",
+          "Behind",
+          "Next to",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The expression 'in front of' is used to describe location in relation to something else' is a True statement. (variante 3)"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 64",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 6eme : Résolution de problèmes simples",
+    "status": "published",
+    "created_at": "2026-04-26T21:35:11.477205Z",
+    "updated_at": "2026-04-26T21:35:11.477205Z"
+  },
+  "quiz": {
+    "title": "Résolution de problèmes simples",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Si un train parcourt 60 km en 1 heure, combien de kilomètres parcourra-t-il en 3 heures ?",
+        "choices": [
+          "120 km",
+          "150 km",
+          "180 km",
+          "200 km"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Si une voiture consomme 5 litres d'essence pour parcourir 100 km, elle consommera 10 litres pour parcourir 200 km."
+      },
+      {
+        "type": "qcm",
+        "question": "Si un rectangle a une longueur de 8 cm et une largeur de 5 cm, quelle est sa surface ?",
+        "choices": [
+          "30 cm²",
+          "35 cm²",
+          "40 cm²",
+          "45 cm²"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Si un sac contient 3 pommes et que chaque pomme coûte 2 euros, le coût total du sac est de 6 euros."
+      },
+      {
+        "type": "qcm",
+        "question": "Si un rectangle a une longueur de 10 cm et une largeur de 4 cm, quelle est sa surface ?",
+        "choices": [
+          "40 cm²",
+          "44 cm²",
+          "48 cm²",
+          "52 cm²"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Si un train parcourt 80 km en 2 heures, sa vitesse moyenne est de 40 km/h."
+      },
+      {
+        "type": "qcm",
+        "question": "Si un sac contient 5 oranges et que chaque orange coûte 3 euros, quel est le coût total du sac ?",
+        "choices": [
+          "15 euros",
+          "20 euros",
+          "25 euros",
+          "30 euros"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Si une voiture consomme 8 litres d'essence pour parcourir 160 km, elle consommera 16 litres pour parcourir 320 km."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

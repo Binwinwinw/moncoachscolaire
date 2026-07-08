@@ -1,5 +1,6 @@
 <?php
 $page_title = 'Préparation aux Épreuves Orales - MonCoachScolaire';
+$page_theme_level = 'bac';
 $page_css = 'bac/preparation-orale.css';
 
 // Charger les fichiers nécessaires

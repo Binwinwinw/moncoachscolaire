@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 153",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - L’analyse d’un personnage (caractéristiques physiques, traits de personnalité, rôle dans l’histoire…)",
+    "status": "published",
+    "created_at": "2026-04-26T21:46:18.954280Z",
+    "updated_at": "2026-04-26T21:46:18.954280Z"
+  },
+  "quiz": {
+    "title": "Français 6e - L’analyse d’un personnage (caractéristiques physiques, traits de personnalité, rôle dans l’histoire…)",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel élément permet de décrire les caractéristiques physiques d'un personnage ?",
+        "choices": [
+          "Traits de personnalité",
+          "Rôle dans l'histoire",
+          "Apparence physique",
+          "Actions du personnage"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les traits de personnalité d'un personnage sont des caractéristiques qui décrivent son comportement, ses attitudes et ses émotions."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel élément permet de décrire le rôle d'un personnage dans l'histoire ?",
+        "choices": [
+          "Caractéristiques physiques",
+          "Traits de personnalité",
+          "Rôle dans l'histoire",
+          "Actions du personnage"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les actions d'un personnage peuvent révéler des aspects importants de sa personnalité et de son rôle dans l'histoire."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel élément permet de décrire les traits de personnalité d'un personnage ?",
+        "choices": [
+          "Caractéristiques physiques",
+          "Traits de personnalité",
+          "Rôle dans l'histoire",
+          "Actions du personnage"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'apparence physique d'un personnage peut influencer la perception que les lecteurs ont de lui et de son rôle dans l'histoire."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel élément permet de décrire les actions d'un personnage ?",
+        "choices": [
+          "Caractéristiques physiques",
+          "Traits de personnalité",
+          "Rôle dans l'histoire",
+          "Actions du personnage"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le rôle d'un personnage dans l'histoire peut évoluer au fil du récit en fonction des événements et des interactions avec les autres personnages."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

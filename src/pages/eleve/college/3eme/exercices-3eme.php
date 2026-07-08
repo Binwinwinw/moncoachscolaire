@@ -1,75 +1,35 @@
 <?php
 $page_css = 'college/3eme/exercices-3eme.css';
 $page_class = 'page-exercices-3eme';
+
+require_once dirname(__DIR__, 4) . '/includes/exercices_page_header.php';
+
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+$is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
 ?>
 
 <main class="main-content min-h-screen bg-gray-50">
     <?php /* ...existing code... */ ?>
 
     <div class="max-w-7xl mx-auto px-4 py-8">
-        <!-- Header Section -->
-        <div class="text-center mb-8">
-            <h1 class="text-4xl font-bold text-gray-800 mb-4 flex items-center justify-center gap-3">
-                <span class="text-6xl">🏰</span>
-                Exercices 3ème - Préparation Brevet
-            </h1>
-            <p class="text-xl text-gray-600 mb-6">Programme 2025 | L'Expert gravit la Tour de Préparation</p>
+                <?php
+        $header_nav = [
+            ['href' => site_url('cours', ['niveau' => '3eme']), 'label' => 'Cours 3ème', 'icon' => '📚', 'tone' => 'primary'],
+            ['href' => site_url('eleve/college/college-accueil'), 'label' => 'Accueil Collège', 'icon' => '🏠', 'tone' => 'secondary'],
+        ];
+        if (!empty($is_logged_in)) {
+            $header_nav[] = ['href' => site_url('eleve/dashboard'), 'label' => 'Mon Dashboard', 'icon' => '📊', 'tone' => 'dashboard'];
+        }
+        render_exercices_page_header([
+            'icon' => '🏰',
+            'title' => 'Exercices 3ème - Préparation au Brevet',
+            'subtitle' => 'Programme 2025 | Dernière ligne droite vers le Brevet !',
+            'nav_links' => $header_nav,
+        ]);
+        ?>
 
-            <!-- Navigation Buttons -->
-            <div class="flex flex-wrap justify-center gap-4">
-                <?php if (!empty($is_logged_in)): ?>
-                <a href="<?php echo function_exists('site_url') ? site_url('exercices') : '/exercices'; ?>"
-                   class="inline-flex items-center px-6 py-3 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors shadow-lg border-2 border-blue-700">
-                    <span class="mr-2">📝</span>
-                    Tous les exercices
-                </a>
-                <?php endif; ?>
-                <a href="<?php echo function_exists('site_url') ? site_url('cours', ['niveau' => '3eme']) : '/cours?niveau=3eme'; ?>"
-                   class="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors shadow-lg">
-                    <span class="mr-2">📚</span>
-                    Cours 3ème
-                </a>
-                <a href="<?php echo function_exists('site_url') ? site_url('eleve/college/college-accueil') : '/eleve/college/college-accueil'; ?>"
-                   class="inline-flex items-center px-6 py-3 bg-purple-600 text-white font-semibold rounded-lg hover:bg-purple-700 transition-colors shadow-lg">
-                    <span class="mr-2">🏠</span>
-                    Accueil Collège
-                </a>
-                <?php if (!empty($is_logged_in)): ?>
-                <a href="<?php echo function_exists('site_url') ? site_url('eleve/dashboard') : '/eleve/dashboard'; ?>"
-                   class="inline-flex items-center px-6 py-3 bg-yellow-600 text-white font-semibold rounded-lg hover:bg-yellow-700 transition-colors shadow-lg">
-                    <span class="mr-2">📊</span>
-                    Mon Dashboard
-                </a>
-                <?php endif; ?>
-            </div>
-        </div>
-        <link rel="stylesheet" href="<?php echo function_exists('asset_url') ? asset_url('assets/css/pages/dynamic-exercises.css') : 'assets/css/pages/dynamic-exercises.css'; ?>">
-
-<?php if (session_status() === PHP_SESSION_NONE) {
-    session_start();
-} $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']); ?>
-        <!-- Affichage pour visiteurs : exercice aléatoire -->
-        <?php if (empty($is_logged_in)): ?>
-            <?php
-            if (is_file(__DIR__ . '/../../../../includes/exercice_card.php')) {
-                require_once __DIR__ . '/../../../../includes/exercice_card.php';
-            }
-            if (function_exists('renderExercisePreview')) {
-                renderExercisePreview('3ème', 1);
-            }
-            ?>
-        <?php endif; ?>
-
-        <!-- Aperçu limité des exercices -->
-        <div class="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
-            <strong class="text-blue-800">🔍 Aperçu des fonctionnalités disponibles :</strong><br>
-            <div class="text-blue-700 mt-2">
-                • Exercices interactifs avec corrections automatiques<br>
-                • Conseils méthodologiques adaptés à la 3ème<br>
-                • Suivi de progression par matière<br>
-                • Préparation aux évaluations
-            </div>
-        </div>
 
 <?php
 if (empty($is_logged_in)) {
@@ -85,7 +45,7 @@ if (empty($is_logged_in)) {
 ?>
 
         <!-- Contenu COMPLET pour les utilisateurs connectés -->
-        <div class="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-6">
+        <div class="bg-theme-soft border border-theme rounded-lg p-6 mb-6">
             <strong class="text-blue-800">🎯 EXAMEN DU BREVET - 2026</strong><br>
             <strong class="text-blue-900">🏰 Thème Narratif : La Tour de Préparation</strong><br>
             <span class="text-blue-700">Bienvenue, Expert ! Tu es au pied de la Tour de Préparation, cette structure majestueuse qui symbolise
@@ -101,7 +61,7 @@ if (empty($is_logged_in)) {
             Montre-moi de quoi tu es capable ! 📚
         </div>
 
-        <div class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-xl p-6 mb-8 border border-blue-200">
+        <div class="banner-theme rounded-xl p-6 mb-8">
             <h4 class="text-xl font-bold text-blue-800 mb-3 flex items-center gap-2">
                 <span>🎯</span>
                 Ton Ascension vers le Brevet
@@ -118,7 +78,7 @@ if (empty($is_logged_in)) {
                         Progression Globale des Exercices
                     </h5>
                     <div class="w-full bg-gray-200 rounded-full h-3 mb-2">
-                        <div class="bg-blue-600 h-3 rounded-full transition-all duration-300" id="globalProgress"></div>
+                        <div class="progress-theme-fill h-3 rounded-full transition-all duration-300" id="globalProgress"></div>
                     </div>
                     <p class="text-sm text-gray-600">
                         <strong>Exercices terminés : <span id="progressText">0%</span></strong>

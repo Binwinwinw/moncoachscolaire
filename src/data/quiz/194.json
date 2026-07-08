@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6e - SÃ©rie 194",
+    "type": "quiz",
+    "level": "6e",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 6e : Les matériaux et leurs propriétés",
+    "status": "published",
+    "created_at": "2026-04-26 21:47:00",
+    "updated_at": "2026-04-26 21:47:00"
+  },
+  "quiz": {
+    "title": "Les matériaux et leurs propriétés",
+    "type": "quiz",
+    "level": "6e",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quels sont les trois états de la matière ?",
+        "choices": [
+          "Solide, liquide, gaz",
+          "Solide, liquide, plasma",
+          "Liquide, gaz, plasma",
+          "Solide, gaz, plasma"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le bois est un matériau naturel. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel matériau est le plus conducteur d'électricité ?",
+        "choices": [
+          "Plastique",
+          "Bois",
+          "Métal",
+          "Verre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le verre est un matériau transparent. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel matériau est le plus résistant à la chaleur ?",
+        "choices": [
+          "Plastique",
+          "Bois",
+          "Métal",
+          "Verre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le plastique est un matériau recyclable. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel matériau est le plus léger ?",
+        "choices": [
+          "Plastique",
+          "Bois",
+          "Métal",
+          "Verre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le bois est un matériau renouvelable. Vrai ou Faux ?"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

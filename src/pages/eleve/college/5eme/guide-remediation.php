@@ -1,289 +1,39 @@
 <?php
 $page_title = 'Guide de remédiation 5ème - MonCoachScolaire';
-$page_css = null;
+$page_class = 'remediation-hub-page';
+$page_css = 'remediation-guide.css';
 
-// Charger les fichiers nécessaires
-if (!isset($pdo)) {
-    if (is_file(dirname(__DIR__, 4) . '/config.php')) {
-        require_once dirname(__DIR__, 4) . '/config.php';
-    }
-}
-if (is_file(dirname(__DIR__, 4) . '/config/site_boot.php')) {
-    require_once dirname(__DIR__, 4) . '/config/site_boot.php';
-}
+$srcRoot = dirname(__DIR__, 4);
+require_once $srcRoot . '/includes/remediation_guide_bootstrap.php';
+require_once $srcRoot . '/includes/remediation_level_template.php';
 
-// Charger la fonction de navigation entre niveaux
-if (is_file(dirname(__DIR__, 4) . '/includes/level_navigation.php')) {
-    require_once dirname(__DIR__, 4) . '/includes/level_navigation.php';
-}
+$boot = remediation_guide_bootstrap($srcRoot, '5eme');
+$has_access = $boot['has_access'];
+$user_name = $boot['user_name'];
+$theme = $boot['theme'];
 
-// Charger admin_auth.php pour vérifier si l'utilisateur est admin
-if (is_file(__DIR__ . '/../../../includes/admin_auth.php')) {
-    require_once __DIR__ . '/../../../includes/admin_auth.php';
-}
-
-// Vérifier si l'utilisateur est connecté OU s'il est admin
-$is_admin = function_exists('isAdmin') && isAdmin();
-$has_access = !empty($is_logged_in) || $is_admin;
-$user_level = $_SESSION['user_level'] ?? '5ème';
-$level_normalized = normalize_level_for_url($user_level);
-$theme = get_theme_variant_by_level($user_level);
-$subject_tones = $theme['soft_buttons'];
-$modal_close_hover = $theme['modal_close_hover'];
-$modal_title = $theme['modal_title'];
-$modal_heading = $theme['modal_heading'];
-$modal_advice = $theme['modal_advice'];
-?>
-
-<main class="main-content app-bg bg-gray-50 min-h-screen">
-    <!-- Navigation entre niveaux supprimée -->
-    <div class="header text-center py-8">
-        <h1 class="text-3xl md:text-4xl font-bold <?php echo $theme['title']; ?> mb-2">📚 Guide de remédiation 5ème</h1>
-        <p class="text-lg md:text-xl <?php echo $theme['subtitle']; ?> mb-6 font-medium">Programmes 2025 – Accompagnement personnalisé pour réussir ta 5ème</p>
-
-        <!-- Boutons de navigation -->
-        <div class="guide-navigation flex flex-wrap justify-center gap-4 mt-6">
-            <a href="<?php echo site_url('college/5eme/exercices-5eme'); ?>" class="nav-btn nav-exercices <?php echo $theme['nav_primary']; ?> text-white px-6 py-3 rounded-lg font-semibold shadow transition focus:outline-none focus:ring-2" aria-label="Mes exercices 5eme">📝 Mes Exercices</a>
-            <a href="<?php echo site_url('cours'); ?>" class="nav-btn nav-cours <?php echo $theme['nav_primary']; ?> text-white px-6 py-3 rounded-lg font-semibold shadow transition focus:outline-none focus:ring-2" aria-label="Mes cours">📚 Mes Cours</a>
-            <a href="<?php echo site_url('college/college-accueil'); ?>" class="nav-btn nav-accueil <?php echo $theme['nav_secondary']; ?> text-white px-6 py-3 rounded-lg font-semibold shadow transition focus:outline-none focus:ring-2" aria-label="Accueil college">🏠 Accueil Collège</a>
-            <?php if (!empty($is_logged_in)): ?>
-                <a href="<?php echo site_url('eleve/dashboard'); ?>" class="nav-btn nav-dashboard <?php echo $theme['nav_dashboard']; ?> text-white px-6 py-3 rounded-lg font-semibold shadow transition focus:outline-none focus:ring-2" aria-label="Mon dashboard">📊 Mon Dashboard</a>
-            <?php endif; ?>
-        </div>
-    </div>
-
-    <section class="content-section max-w-3xl mx-auto px-2 md:px-0">
-        <div class="guide-content flex flex-col items-center gap-6">
-            <!-- Liste des matières -->
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 justify-center mb-8 w-full max-w-2xl mx-auto">
-                <button type="button" onclick="openMatiereModal('francais')" class="px-6 py-3 rounded-xl font-semibold shadow transition flex items-center gap-2 justify-center focus:outline-none focus:ring-2 <?php echo $subject_tones[0]; ?>">
-                    <span class="text-2xl">📖</span> Français
-                </button>
-                <button type="button" onclick="openMatiereModal('maths')" class="px-6 py-3 rounded-xl font-semibold shadow transition flex items-center gap-2 justify-center focus:outline-none focus:ring-2 <?php echo $subject_tones[1]; ?>">
-                    <span class="text-2xl">🧮</span> Mathématiques
-                </button>
-                <button type="button" onclick="openMatiereModal('histoire')" class="px-6 py-3 rounded-xl font-semibold shadow transition flex items-center gap-2 justify-center focus:outline-none focus:ring-2 <?php echo $subject_tones[2]; ?>">
-                    <span class="text-2xl">🌍</span> Histoire-Géo
-                </button>
-                <button type="button" onclick="openMatiereModal('svt')" class="px-6 py-3 rounded-xl font-semibold shadow transition flex items-center gap-2 justify-center focus:outline-none focus:ring-2 <?php echo $subject_tones[3]; ?>">
-                    <span class="text-2xl">🧪</span> SVT
-                </button>
-                <button type="button" onclick="openMatiereModal('physique')" class="px-6 py-3 rounded-xl font-semibold shadow transition flex items-center gap-2 justify-center focus:outline-none focus:ring-2 <?php echo $subject_tones[1]; ?>">
-                    <span class="text-2xl">⚗️</span> Physique-Chimie
-                </button>
-                <button type="button" onclick="openMatiereModal('technologie')" class="px-6 py-3 rounded-xl font-semibold shadow transition flex items-center gap-2 justify-center focus:outline-none focus:ring-2 <?php echo $subject_tones[3]; ?>">
-                    <span class="text-2xl">🔧</span> Technologie
-                </button>
-                <button type="button" onclick="openMatiereModal('anglais')" class="px-6 py-3 rounded-xl font-semibold shadow transition flex items-center gap-2 justify-center focus:outline-none focus:ring-2 <?php echo $subject_tones[2]; ?>">
-                    <span class="text-2xl">🌐</span> Anglais
-                </button>
-                <button type="button" onclick="openMatiereModal('arts')" class="px-6 py-3 rounded-xl font-semibold shadow transition flex items-center gap-2 justify-center focus:outline-none focus:ring-2 <?php echo $subject_tones[0]; ?>">
-                    <span class="text-2xl">🎨</span> Arts
-                </button>
-            </div>
-        </div>
-
-        <!-- Modals pour chaque matière -->
-        <div id="modal-francais" class="fixed inset-0 z-50 items-center justify-center bg-black/40 hidden" role="dialog" aria-modal="true" aria-labelledby="modal-francais-title">
-            <div class="bg-white rounded-2xl shadow-xl max-w-lg w-full p-8 relative">
-                <button onclick="closeMatiereModal('francais')" class="absolute top-4 right-4 text-gray-400 <?php echo $modal_close_hover; ?> text-2xl font-bold focus:outline-none" aria-label="Fermer">&times;</button>
-                <h2 id="modal-francais-title" class="text-2xl font-bold <?php echo $modal_title; ?> mb-4 flex items-center gap-2"><span class="text-3xl">📖</span> Français</h2>
-                <div class="remediation-tips mb-2 text-left">
-                    <h4 class="font-semibold <?php echo $modal_heading; ?> mb-1">✅ Compétences à maîtriser :</h4>
-                    <ul class="competence-list list-disc list-inside text-gray-700">
-                        <li>Lecture et compréhension de textes variés</li>
-                        <li>Expression écrite : récit, description, dialogue, argumentation</li>
-                        <li>Expression orale : présentation et argumentation</li>
-                        <li>Étude de la langue : grammaire et orthographe</li>
-                        <li>Littérature : œuvres du patrimoine et contemporaines</li>
-                    </ul>
-                </div>
-                <p class="mt-2 text-left"><span class="font-semibold text-green-700">💡 Conseils de remédiation :</span> Lecture quotidienne de 25 minutes, exercices de grammaire réguliers, écriture créative hebdomadaire, travail sur l'argumentation.</p>
-            </div>
-        </div>
-        <div id="modal-maths" class="fixed inset-0 z-50 items-center justify-center bg-black/40 hidden" role="dialog" aria-modal="true" aria-labelledby="modal-maths-title">
-            <div class="bg-white rounded-2xl shadow-xl max-w-lg w-full p-8 relative">
-                <button onclick="closeMatiereModal('maths')" class="absolute top-4 right-4 text-gray-400 hover:text-green-600 text-2xl font-bold focus:outline-none" aria-label="Fermer">&times;</button>
-                <h2 id="modal-maths-title" class="text-2xl font-bold text-green-700 mb-4 flex items-center gap-2"><span class="text-3xl">🧮</span> Mathématiques</h2>
-                <div class="remediation-tips mb-2 text-left">
-                    <h4 class="font-semibold text-green-600 mb-1">✅ Compétences à maîtriser :</h4>
-                    <ul class="competence-list list-disc list-inside text-gray-700">
-                        <li>Nombres et calculs : nombres rationnels, fractions, décimaux</li>
-                        <li>Géométrie : figures planes, solides, transformations, théorème de Pythagore</li>
-                        <li>Fonctions : introduction aux fonctions</li>
-                        <li>Statistiques et probabilités</li>
-                        <li>Algorithmique et programmation</li>
-                    </ul>
-                </div>
-                <p class="mt-2 text-left"><span class="font-semibold text-green-700">💡 Conseils de remédiation :</span> Exercices quotidiens de calcul mental, manipulation d'objets géométriques, jeux mathématiques, initiation à la programmation.</p>
-            </div>
-        </div>
-        <div id="modal-histoire" class="fixed inset-0 z-50 items-center justify-center bg-black/40 hidden" role="dialog" aria-modal="true" aria-labelledby="modal-histoire-title">
-            <div class="bg-white rounded-2xl shadow-xl max-w-lg w-full p-8 relative">
-                <button onclick="closeMatiereModal('histoire')" class="absolute top-4 right-4 text-gray-400 hover:text-green-600 text-2xl font-bold focus:outline-none" aria-label="Fermer">&times;</button>
-                <h2 id="modal-histoire-title" class="text-2xl font-bold text-green-700 mb-4 flex items-center gap-2"><span class="text-3xl">🌍</span> Histoire-Géo</h2>
-                <div class="remediation-tips mb-2 text-left">
-                    <h4 class="font-semibold text-green-600 mb-1">✅ Compétences à maîtriser :</h4>
-                    <ul class="competence-list list-disc list-inside text-gray-700">
-                        <li>Histoire : périodes chronologiques, événements majeurs</li>
-                        <li>Géographie : espaces, sociétés, environnement</li>
-                        <li>Méthodes : analyse de documents, cartes, frises</li>
-                        <li>Citoyenneté : valeurs républicaines, droits et devoirs</li>
-                    </ul>
-                </div>
-                <p class="mt-2 text-left"><span class="font-semibold text-green-700">💡 Conseils de remédiation :</span> Création de frises chronologiques, observation de cartes, débats sur l'actualité, analyse de documents.</p>
-            </div>
-        </div>
-        <div id="modal-svt" class="fixed inset-0 z-50 items-center justify-center bg-black/40 hidden" role="dialog" aria-modal="true" aria-labelledby="modal-svt-title">
-            <div class="bg-white rounded-2xl shadow-xl max-w-lg w-full p-8 relative">
-                <button onclick="closeMatiereModal('svt')" class="absolute top-4 right-4 text-gray-400 hover:text-green-600 text-2xl font-bold focus:outline-none" aria-label="Fermer">&times;</button>
-                <h2 id="modal-svt-title" class="text-2xl font-bold text-green-700 mb-4 flex items-center gap-2"><span class="text-3xl">🧪</span> SVT</h2>
-                <div class="remediation-tips mb-2 text-left">
-                    <h4 class="font-semibold text-green-600 mb-1">✅ Compétences à maîtriser :</h4>
-                    <ul class="competence-list list-disc list-inside text-gray-700">
-                        <li>Le vivant : cellules, organismes, biodiversité</li>
-                        <li>La matière : états, transformations, réactions</li>
-                        <li>La Terre et l'Univers : planète, système solaire</li>
-                        <li>Méthodes scientifiques : observation, expérimentation</li>
-                    </ul>
-                </div>
-                <p class="mt-2 text-left"><span class="font-semibold text-green-700">💡 Conseils de remédiation :</span> Expériences simples à la maison, observation de la nature, schémas et dessins scientifiques.</p>
-            </div>
-        </div>
-        <div id="modal-physique" class="fixed inset-0 z-50 items-center justify-center bg-black/40 hidden" role="dialog" aria-modal="true" aria-labelledby="modal-physique-title">
-            <div class="bg-white rounded-2xl shadow-xl max-w-lg w-full p-8 relative">
-                <button onclick="closeMatiereModal('physique')" class="absolute top-4 right-4 text-gray-400 hover:text-green-600 text-2xl font-bold focus:outline-none" aria-label="Fermer">&times;</button>
-                <h2 id="modal-physique-title" class="text-2xl font-bold text-green-700 mb-4 flex items-center gap-2"><span class="text-3xl">⚗️</span> Physique-Chimie</h2>
-                <div class="remediation-tips mb-2 text-left">
-                    <h4 class="font-semibold text-green-600 mb-1">✅ Compétences à maîtriser :</h4>
-                    <ul class="competence-list list-disc list-inside text-gray-700">
-                        <li>Énergie : formes, transformations, économie</li>
-                        <li>Mouvement : vitesse, trajectoires</li>
-                        <li>Matière : propriétés, mélanges, solutions</li>
-                        <li>Électricité : circuits électriques simples</li>
-                        <li>Expérimentation : mesures, protocoles</li>
-                    </ul>
-                </div>
-                <p class="mt-2 text-left"><span class="font-semibold text-green-700">💡 Conseils de remédiation :</span> Manipulations concrètes, mesures quotidiennes, observation des phénomènes physiques, construction de circuits simples.</p>
-            </div>
-        </div>
-        <div id="modal-technologie" class="fixed inset-0 z-50 items-center justify-center bg-black/40 hidden" role="dialog" aria-modal="true" aria-labelledby="modal-technologie-title">
-            <div class="bg-white rounded-2xl shadow-xl max-w-lg w-full p-8 relative">
-                <button onclick="closeMatiereModal('technologie')" class="absolute top-4 right-4 text-gray-400 hover:text-green-800 text-2xl font-bold focus:outline-none" aria-label="Fermer">&times;</button>
-                <h2 id="modal-technologie-title" class="text-2xl font-bold text-green-800 mb-4 flex items-center gap-2"><span class="text-3xl">🔧</span> Technologie</h2>
-                <div class="remediation-tips mb-2 text-left">
-                    <h4 class="font-semibold text-green-800 mb-1">✅ Compétences à maîtriser :</h4>
-                    <ul class="competence-list list-disc list-inside text-gray-700">
-                        <li>Conception et réalisation de projets techniques</li>
-                        <li>Programmation et algorithmique</li>
-                        <li>Utilisation d'outils numériques</li>
-                        <li>Analyse de systèmes techniques</li>
-                    </ul>
-                </div>
-                <p class="mt-2 text-left"><span class="font-semibold text-green-800">💡 Conseils de remédiation :</span> Réalisation de maquettes, projets concrets, programmation simple, manipulation d'outils numériques.</p>
-            </div>
-        </div>
-        <div id="modal-anglais" class="fixed inset-0 z-50 items-center justify-center bg-black/40 hidden" role="dialog" aria-modal="true" aria-labelledby="modal-anglais-title">
-            <div class="bg-white rounded-2xl shadow-xl max-w-lg w-full p-8 relative">
-                <button onclick="closeMatiereModal('anglais')" class="absolute top-4 right-4 text-gray-400 hover:text-green-600 text-2xl font-bold focus:outline-none" aria-label="Fermer">&times;</button>
-                <h2 id="modal-anglais-title" class="text-2xl font-bold text-green-700 mb-4 flex items-center gap-2"><span class="text-3xl">🌐</span> Anglais</h2>
-                <div class="remediation-tips mb-2 text-left">
-                    <h4 class="font-semibold text-green-600 mb-1">✅ Compétences à maîtriser :</h4>
-                    <ul class="competence-list list-disc list-inside text-gray-700">
-                        <li>Compréhension orale et écrite</li>
-                        <li>Expression orale : présentation, interaction</li>
-                        <li>Expression écrite : description, récit</li>
-                        <li>Civilisation : culture anglophone</li>
-                    </ul>
-                </div>
-                <p class="mt-2 text-left"><span class="font-semibold text-green-700">💡 Conseils de remédiation :</span> Écoute de podcasts, visionnage de vidéos, conversation en anglais, jeux linguistiques.</p>
-            </div>
-        </div>
-        <div id="modal-arts" class="fixed inset-0 z-50 items-center justify-center bg-black/40 hidden" role="dialog" aria-modal="true" aria-labelledby="modal-arts-title">
-            <div class="bg-white rounded-2xl shadow-xl max-w-lg w-full p-8 relative">
-                <button onclick="closeMatiereModal('arts')" class="absolute top-4 right-4 text-gray-400 hover:text-green-600 text-2xl font-bold focus:outline-none" aria-label="Fermer">&times;</button>
-                <h2 id="modal-arts-title" class="text-2xl font-bold text-green-700 mb-4 flex items-center gap-2"><span class="text-3xl">🎨</span> Arts</h2>
-                <div class="remediation-tips mb-2 text-left">
-                    <h4 class="font-semibold text-green-600 mb-1">✅ Compétences à maîtriser :</h4>
-                    <ul class="competence-list list-disc list-inside text-gray-700">
-                        <li>Arts plastiques : techniques, composition, expression</li>
-                        <li>Éducation musicale : écoute, pratique, culture</li>
-                        <li>Arts du spectacle : théâtre, danse, cinéma</li>
-                        <li>Analyse d'œuvres : description, interprétation</li>
-                    </ul>
-                </div>
-                <p class="mt-2 text-left"><span class="font-semibold text-green-700">💡 Conseils de remédiation :</span> Pratique artistique régulière, visites culturelles, création personnelle.</p>
-            </div>
-        </div>
-        </div>
-
-        <!-- Bloc Plan d'action personnalisé -->
-        <section class="content-section max-w-2xl mx-auto my-12 p-6 bg-green-50 rounded-2xl shadow text-center">
-            <h3 class="text-2xl font-bold text-green-700 mb-2">🎯 Plan d'action personnalisé</h3>
-            <p class="text-lg text-green-900 mb-4">Pour bénéficier d'un accompagnement sur mesure, crée-toi un compte et suis tes progrès&nbsp;!</p>
-            <div class="cta-actions flex flex-col sm:flex-row gap-4 justify-center mt-4">
-                <a href="<?php echo site_url('register'); ?>" class="inline-flex items-center justify-center px-6 py-3 bg-green-600 text-white font-semibold rounded-lg hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-400 transition-all shadow-lg">Créer mon compte</a>
-                <a href="<?php echo site_url('login'); ?>" class="inline-flex items-center justify-center px-6 py-3 bg-white text-green-700 font-semibold rounded-lg border border-green-300 hover:bg-green-50 focus:outline-none focus:ring-2 focus:ring-green-300 transition-colors shadow-lg">Me connecter</a>
-            </div>
-        </section>
-    </section>
-</main>
-
-<script>
-// Gestion dynamique des modales matières (ouverture/fermeture)
-function openMatiereModal(nom) {
-    var modal = document.getElementById('modal-' + nom);
-    if (!modal) return;
-    modal.classList.remove('hidden');
-    modal.classList.add('flex');
-    modal.setAttribute('aria-hidden', 'false');
-    document.body.style.overflow = 'hidden';
-    // Focus trap
-    var focusable = modal.querySelectorAll('a, button, textarea, input, select, [tabindex]:not([tabindex="-1"])');
-    var first = focusable[0], last = focusable[focusable.length-1];
-    var prevActive = document.activeElement;
-    modal._prevActive = prevActive;
-    setTimeout(function() {
-        if (first) first.focus();
-    }, 100);
-    function trap(e) {
-        if (e.key === 'Tab') {
-            if (focusable.length === 0) return;
-            if (e.shiftKey && document.activeElement === first) {
-                e.preventDefault(); last.focus();
-            } else if (!e.shiftKey && document.activeElement === last) {
-                e.preventDefault(); first.focus();
-            }
-        }
-    }
-    modal._trap = trap;
-    modal.addEventListener('keydown', trap);
-    // Fermer avec ESC
-    function escListener(e) {
-        if (e.key === 'Escape') closeMatiereModal(nom);
-    }
-    modal._escListener = escListener;
-    document.addEventListener('keydown', escListener);
-    // Fermer en cliquant sur le fond
-    modal._bgListener = function(e) {
-        if (e.target === modal) closeMatiereModal(nom);
-    };
-    modal.addEventListener('click', modal._bgListener);
-}
-
-function closeMatiereModal(nom) {
-    var modal = document.getElementById('modal-' + nom);
-    if (!modal) return;
-    modal.classList.add('hidden');
-    modal.classList.remove('flex');
-    modal.setAttribute('aria-hidden', 'true');
-    document.body.style.overflow = '';
-    if (modal._trap) modal.removeEventListener('keydown', modal._trap);
-    if (modal._escListener) document.removeEventListener('keydown', modal._escListener);
-    if (modal._bgListener) modal.removeEventListener('click', modal._bgListener);
-    // Rendre le focus au déclencheur
-    if (modal._prevActive && typeof modal._prevActive.focus === 'function') {
-        setTimeout(function() { modal._prevActive.focus(); }, 100);
-    }
-}
-</script>
+render_remediation_level_template([
+    'theme_level' => '5eme',
+    'title' => '📚 Guide de remédiation 5ème',
+    'subtitle' => 'Programmes 2025 – Accompagnement personnalisé pour réussir ta 5ème',
+    'nav_aria' => 'Navigation rapide 5ème',
+    'section_aria' => 'Matières et remédiation 5ème',
+    'theme' => $theme,
+    'nav_links' => [
+        ['href' => site_url('college/5eme/exercices-5eme'), 'label' => '📝 Mes Exercices', 'aria' => 'Mes exercices 5eme', 'tone' => 'primary'],
+        ['href' => site_url('cours', ['niveau' => '5eme']), 'label' => '📚 Mes Cours', 'aria' => 'Mes cours', 'tone' => 'primary'],
+        ['href' => site_url('college/college-accueil'), 'label' => '🏠 Accueil Collège', 'aria' => 'Accueil college', 'tone' => 'secondary'],
+    ],
+    'subjects' => [
+        ['id' => 'francais', 'label' => 'Français', 'icon' => '📖', 'tone_index' => 0, 'open_fn' => 'openMatiereModal'],
+        ['id' => 'maths', 'label' => 'Maths', 'icon' => '🧮', 'tone_index' => 1, 'open_fn' => 'openMatiereModal'],
+        ['id' => 'histoire', 'label' => 'Histoire-Géo', 'icon' => '🌍', 'tone_index' => 2, 'open_fn' => 'openMatiereModal'],
+        ['id' => 'svt', 'label' => 'SVT', 'icon' => '🌱', 'tone_index' => 3, 'open_fn' => 'openMatiereModal'],
+        ['id' => 'physique', 'label' => 'Physique-Chimie', 'icon' => '⚗️', 'tone_index' => 1, 'open_fn' => 'openMatiereModal'],
+        ['id' => 'technologie', 'label' => 'Technologie', 'icon' => '🔧', 'tone_index' => 3, 'open_fn' => 'openMatiereModal'],
+        ['id' => 'anglais', 'label' => 'Anglais', 'icon' => '🌐', 'tone_index' => 2, 'open_fn' => 'openMatiereModal'],
+        ['id' => 'arts', 'label' => 'Arts', 'icon' => '🎨', 'tone_index' => 0, 'open_fn' => 'openMatiereModal'],
+    ],
+    'modals_include' => __DIR__ . '/guide-remediation.modals.inc.php',
+    'action_include' => __DIR__ . '/guide-remediation.action.inc.php',
+]);

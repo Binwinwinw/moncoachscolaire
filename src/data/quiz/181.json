@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 181",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - Les phrases complexes",
+    "status": "published",
+    "created_at": "2026-04-26T21:46:18.999965Z",
+    "updated_at": "2026-04-26T21:46:18.999965Z"
+  },
+  "quiz": {
+    "title": "Français 6e - Les phrases complexes",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'une phrase complexe ?",
+        "choices": [
+          "Une phrase qui contient une seule proposition",
+          "Une phrase qui contient plusieurs propositions indépendantes",
+          "Une phrase qui contient une proposition principale et au moins une proposition subordonnée",
+          "Une phrase qui n'a pas de verbe"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les phrases complexes peuvent être classées en plusieurs types, tels que les phrases subordonnées, les phrases coordonnées et les phrases juxtaposées, en fonction de la relation entre les différentes propositions dans la phrase."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle d'une proposition subordonnée dans une phrase complexe ?",
+        "choices": [
+          "Elle n'a pas de rôle spécifique",
+          "Elle fournit des informations supplémentaires sur un élément de la proposition principale",
+          "Elle exprime une idée indépendante de la proposition principale",
+          "Elle indique une relation de cause à effet avec la proposition principale"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation correcte des phrases complexes est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les écrivains utilisent les phrases complexes de manière appropriée en fonction du contexte et du message qu'ils souhaitent transmettre, ce qui contribue à la clarté et à l'efficacité de la communication écrite."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle d'une proposition coordonnée dans une phrase complexe ?",
+        "choices": [
+          "Elle n'a pas de rôle spécifique",
+          "Elle fournit des informations supplémentaires sur un élément de la proposition principale",
+          "Elle exprime une idée indépendante de la proposition principale",
+          "Elle indique une relation de cause à effet avec la proposition principale"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation incorrecte des phrases complexes peut parfois entraîner des confusions ou des malentendus dans la communication écrite, en rendant difficile pour les lecteurs de comprendre les relations entre les différentes propositions dans une phrase complexe, ce qui peut nuire à la clarté du message et à l'efficacité de la communication écrite."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle d'une proposition juxtaposée dans une phrase complexe ?",
+        "choices": [
+          "Elle n'a pas de rôle spécifique",
+          "Elle fournit des informations supplémentaires sur un élément de la proposition principale",
+          "Elle exprime une idée indépendante de la proposition principale",
+          "Elle indique une relation de cause à effet avec la proposition principale"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation correcte des phrases complexes est essentielle pour éviter les confusions et les erreurs dans la communication écrite."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

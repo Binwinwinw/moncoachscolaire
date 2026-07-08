@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6e - SÃ©rie 196",
+    "type": "quiz",
+    "level": "6e",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 6e : Les objets connectés",
+    "status": "published",
+    "created_at": "2026-04-26 21:47:00",
+    "updated_at": "2026-04-26 21:47:00"
+  },
+  "quiz": {
+    "title": "Les objets connectés",
+    "type": "quiz",
+    "level": "6e",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'un objet connecté ?",
+        "choices": [
+          "Un objet qui peut se connecter à Internet",
+          "Un objet qui est très cher",
+          "Un objet qui est fabriqué en plastique",
+          "Un objet qui est très grand"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les objets connectés peuvent aider à améliorer notre vie quotidienne. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le principal risque lié aux objets connectés ?",
+        "choices": [
+          "Le coût élevé",
+          "La dépendance à la technologie",
+          "La violation de la vie privée",
+          "La pollution"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il est important de sécuriser les objets connectés pour protéger nos données personnelles. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un moyen de protéger la sécurité de nos objets connectés ?",
+        "choices": [
+          "Utiliser des mots de passe forts",
+          "Ne jamais les utiliser",
+          "Partager nos données avec tout le monde",
+          "Ne pas les mettre à jour"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il est sûr de connecter tous les objets à Internet sans protections. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple d'objet connecté qui peut présenter des risques de sécurité ?",
+        "choices": [
+          "Un smartphone",
+          "Une montre connectée",
+          "Un assistant vocal",
+          "Tous les objets connectés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il est important de lire les politiques de confidentialité des objets connectés que nous utilisons. Vrai ou Faux ?"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

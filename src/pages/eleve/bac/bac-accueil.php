@@ -1,5 +1,6 @@
 <?php
 $page_title = 'Sur le chemin du BAC - Préparation intensive';
+$page_theme_level = 'bac';
 $page_css = 'bac/index.css';
 // Header and footer are provided by the router (index.php)
 

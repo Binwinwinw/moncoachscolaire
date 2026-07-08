@@ -102,8 +102,11 @@ Les quiz sont évalués selon :
 
 - **Questions complètes** : ≥25 caractères, formulation claire
 - **Corrections détaillées** : 2-4 phrases, ≥80 caractères
-- **Notions documentées** : Champ `exercisenotion[]` renseigné
+- **Notions documentées** : Champ `exercisenotion[]` renseigné (au moins 2 notions recommandées)
 - **Métadonnées** : Niveau, sujet, description présents
+- **Couverture correction/question** : chaque question doit avoir une entrée associée dans `quiz_answers`
+
+> Note : `validate_quiz_quality.py` génère maintenant un rapport JSON stable (`--report-json`) et `quiz_quality_workflow.py` l’utilise pour l’analyse de seuils.
 
 ### Problèmes prioritaires
 

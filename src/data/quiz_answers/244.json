@@ -1,0 +1,50 @@
+{
+    "contents": {
+        "title": "Quiz IA Francais - 4eme",
+        "level": "4eme",
+        "subject": "Francais"
+    },
+    "quiz": {
+        "title": "Quiz IA Francais - 4eme",
+        "question_count": 5,
+        "level": "4eme",
+        "subject": "Francais",
+        "answers": [
+            {
+                "index": 0,
+                "question_id": 1,
+                "type": "qcm",
+                "answer": "b) Faux",
+                "correction": "La bonne réponse est : b) Faux"
+            },
+            {
+                "index": 1,
+                "question_id": 2,
+                "type": "qcm",
+                "answer": "b) Faux",
+                "correction": "La bonne réponse est : b) Faux"
+            },
+            {
+                "index": 2,
+                "question_id": 3,
+                "type": "qcm",
+                "answer": "a) Vrai",
+                "correction": "La bonne réponse est : a) Vrai"
+            },
+            {
+                "index": 3,
+                "question_id": 4,
+                "type": "qcm",
+                "answer": "b) Faux",
+                "correction": "La bonne réponse est : b) Faux"
+            },
+            {
+                "index": 4,
+                "question_id": 5,
+                "type": "qcm",
+                "answer": "b) Faux",
+                "correction": "La bonne réponse est : b) Faux"
+            }
+        ]
+    }
+}

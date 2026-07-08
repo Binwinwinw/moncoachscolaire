@@ -3,6 +3,9 @@ require_once dirname(__DIR__, 3) . '/config/site_boot.php';
 require_once dirname(__DIR__, 3) . '/includes/remediation_hub_template.php';
 
 $page_title = 'Guide de remediation Bac - MonCoachScolaire';
+$page_class = 'remediation-hub-page';
+$page_css = 'remediation-guide.css';
+$page_theme_level = 'bac';
 
 render_remediation_hub_template([
     'theme_level' => 'bac',

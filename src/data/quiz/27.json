@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6ème - Série 27",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6ème : Vocabulaire de base : animaux, aliments, objets du quotidien",
+    "status": "published",
+    "created_at": "2026-04-26T21:32:48.846608Z",
+    "updated_at": "2026-04-26T21:32:48.846608Z"
+  },
+  "quiz": {
+    "title": "Vocabulaire de base : animaux, aliments, objets du quotidien",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "What is the English word for 'chat'?",
+        "choices": [
+          "Cat",
+          "Dog",
+          "Bird",
+          "Fish"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English word for 'pomme' is 'apple'' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English word for 'objets du quotidien'?",
+        "choices": [
+          "Everyday objects",
+          "Household items",
+          "Daily essentials",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English word for 'chien' is 'dog'' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "What is the English word for 'fromage'?",
+        "choices": [
+          "Cheese",
+          "Bread",
+          "Milk",
+          "Butter"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English word for 'maison' is 'house'' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English word for 'aliments'?",
+        "choices": [
+          "Food",
+          "Groceries",
+          "Meals",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English word for 'voiture' is 'car'' is a True statement."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

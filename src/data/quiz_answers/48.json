@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6ème - Série 48",
+    "level": "6ème",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "Vocabulaire de base : phrases courantes pour parler de la voiture",
+    "question_count": 8,
+    "level": "6ème",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "'It's fast', 'It's slow', and 'It's new' are all common English expressions used to describe a car in different contexts."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English expression for 'C'est rapide' is indeed 'It's fast', which is a common way to describe a fast car in English."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "It's slow",
+        "correction": "'It's slow' is a common English expression used to describe a car when it's slow."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English expression for 'C'est lent' is indeed 'It's slow', which is a common way to describe a slow car in English."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "It's new",
+        "correction": "'It's new' is a common English expression used to describe a car when it's new."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English expression for 'C'est neuf' is indeed 'It's new', which is a common way to describe a new car in English."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "It's old",
+        "correction": "'It's old' is a common English expression used to describe a car when it's old."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English expression for 'C'est vieux' is indeed 'It's old', which is a common way to describe an old car in English."
+      }
+    ]
+  }
+}

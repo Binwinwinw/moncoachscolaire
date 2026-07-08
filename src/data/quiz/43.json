@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6ème - Série 43",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6ème : Vocabulaire de base : prononciation de mots courants",
+    "status": "published",
+    "created_at": "2026-04-26T21:32:48.870989Z",
+    "updated_at": "2026-04-26T21:32:48.870989Z"
+  },
+  "quiz": {
+    "title": "Vocabulaire de base : prononciation de mots courants",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Which of the following is the correct English pronunciation for the word 'cat'?",
+        "choices": [
+          "Cat",
+          "Cot",
+          "Cut",
+          "Cup"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English pronunciation for the word 'dog' is 'dog'' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is the correct English pronunciation for the word 'house'?",
+        "choices": [
+          "House",
+          "Hose",
+          "Horse",
+          "Home"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English pronunciation for the word 'car' is 'car'' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is the correct English pronunciation for the word 'tree'?",
+        "choices": [
+          "Tree",
+          "Trey",
+          "Tea",
+          "Try"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English pronunciation for the word 'book' is 'book'' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is the correct English pronunciation for the word 'water'?",
+        "choices": [
+          "Water",
+          "Watter",
+          "Woter",
+          "Waiter"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English pronunciation for the word 'food' is 'food'' is a True statement."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

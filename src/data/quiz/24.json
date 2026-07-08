@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6ème - Série 24",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6ème : Sports : sports populaires, événements sportifs, athlètes célèbres",
+    "status": "published",
+    "created_at": "2026-04-26T21:32:48.842648Z",
+    "updated_at": "2026-04-26T21:32:48.842648Z"
+  },
+  "quiz": {
+    "title": "Sports : sports populaires, événements sportifs, athlètes célèbres",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Which of the following is a popular sport?",
+        "choices": [
+          "Soccer",
+          "Basketball",
+          "Tennis",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The Olympic Games are held every four years' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Who is known as the 'King of Soccer'?",
+        "choices": [
+          "Pelé",
+          "Lionel Messi",
+          "Cristiano Ronaldo",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The FIFA World Cup is the most prestigious international soccer tournament' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a famous sporting event?",
+        "choices": [
+          "Super Bowl",
+          "Wimbledon",
+          "Tour de France",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'Serena Williams is a famous tennis player' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a popular winter sport?",
+        "choices": [
+          "Skiing",
+          "Snowboarding",
+          "Ice skating",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'Michael Jordan is considered one of the greatest basketball players of all time' is a True statement."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6e - SÃ©rie 195",
+    "level": "6e",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Les énergies renouvelables",
+    "question_count": 8,
+    "level": "6e",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Une énergie qui ne s'épuise pas",
+        "correction": "Une énergie renouvelable est une énergie qui ne s'épuise pas et qui peut être utilisée de manière durable, comme l'énergie solaire, éolienne, hydraulique, etc."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, l'énergie solaire est une énergie renouvelable qui provient du soleil."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Elles ne polluent pas",
+        "correction": "L'avantage principal des énergies renouvelables est qu'elles ne polluent pas l'environnement, contrairement aux énergies fossiles."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, l'énergie éolienne est produite par le mouvement du vent qui fait tourner les éoliennes."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Elles nécessitent beaucoup d'espace",
+        "correction": "Le principal inconvénient des énergies renouvelables est qu'elles nécessitent souvent beaucoup d'espace pour être installées, comme les panneaux solaires ou les éoliennes."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, l'énergie hydraulique est produite par le mouvement de l'eau, comme les barrages hydroélectriques."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "La dépendance au climat",
+        "correction": "Le principal défi pour l'utilisation des énergies renouvelables est leur dépendance au climat, car elles peuvent être moins efficaces dans certaines conditions météorologiques."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, l'énergie géothermique est une énergie renouvelable qui provient de la chaleur de la Terre."
+      }
+    ]
+  }
+}

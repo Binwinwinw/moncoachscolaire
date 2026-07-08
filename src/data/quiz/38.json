@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6ème - Série 38",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6ème : Vocabulaire de base : formes et prépositions de lieu",
+    "status": "published",
+    "created_at": "2026-04-26T21:32:48.862997Z",
+    "updated_at": "2026-04-26T21:32:48.862997Z"
+  },
+  "quiz": {
+    "title": "Vocabulaire de base : formes et prépositions de lieu",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English word for 'formes'?",
+        "choices": [
+          "Shapes",
+          "Figures",
+          "Geometric forms",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English word for 'formes' is 'shapes'' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English preposition used to indicate location?",
+        "choices": [
+          "In",
+          "On",
+          "At",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The preposition 'in' is used to indicate location inside something' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English preposition used to indicate location on a surface?",
+        "choices": [
+          "In",
+          "On",
+          "At",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The preposition 'at' is used to indicate location at a specific point' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English preposition used to indicate location in relation to something else?",
+        "choices": [
+          "In",
+          "On",
+          "At",
+          "Next to"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The preposition 'next to' is used to indicate location in relation to something else' is a True statement."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 159",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - Les fonctions grammaticales (sujet, complément d’objet direct, complément d’objet indirect…)",
+    "status": "published",
+    "created_at": "2026-04-26T21:46:18.967378Z",
+    "updated_at": "2026-04-26T21:46:18.967378Z"
+  },
+  "quiz": {
+    "title": "Français 6e - Les fonctions grammaticales (sujet, complément d’objet direct, complément d’objet indirect…)",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la fonction grammaticale du mot 'chien' dans la phrase suivante : 'Le chien mange sa nourriture.' ?",
+        "choices": [
+          "Sujet",
+          "Complément d'objet direct",
+          "Complément d'objet indirect",
+          "Attribut du sujet"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le complément d'objet direct (COD) est la fonction grammaticale qui désigne l'élément qui subit directement l'action du verbe."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la fonction grammaticale du mot 'nourriture' dans la phrase suivante : 'Le chien mange sa nourriture.' ?",
+        "choices": [
+          "Sujet",
+          "Complément d'objet direct",
+          "Complément d'objet indirect",
+          "Attribut du sujet"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le complément d'objet indirect (COI) est la fonction grammaticale qui désigne l'élément qui subit indirectement l'action du verbe, souvent introduit par une préposition."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la fonction grammaticale du mot 'chien' dans la phrase suivante : 'Le chien est gentil.' ?",
+        "choices": [
+          "Sujet",
+          "Complément d'objet direct",
+          "Complément d'objet indirect",
+          "Attribut du sujet"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'attribut du sujet est la fonction grammaticale qui désigne un élément qui qualifie ou décrit le sujet, souvent relié au sujet par un verbe d'état comme 'être'."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la fonction grammaticale du mot 'gentil' dans la phrase suivante : 'Le chien est gentil.' ?",
+        "choices": [
+          "Sujet",
+          "Complément d'objet direct",
+          "Complément d'objet indirect",
+          "Attribut du sujet"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La compréhension des fonctions grammaticales est essentielle pour analyser la structure d'une phrase et comprendre les relations entre les différents éléments qui la composent."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

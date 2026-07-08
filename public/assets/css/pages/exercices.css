@@ -1,3 +1,5 @@
+/* Overrides niveau — structure commune : pages/exercices-common.css (auto-charge par index.php) */
+/* DEPRECATED accents — utiliser theme-level.css (--color-primary) + body.theme-* */
 .niveau-card.sixieme-card {
     background: linear-gradient(135deg, #60a5fa 0%, #34d399 100%);
     color: #fff;

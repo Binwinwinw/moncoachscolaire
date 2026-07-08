@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 233",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 6eme : Maintenance et évolution d'un système ou d'un produit.",
+    "status": "published",
+    "created_at": "2026-04-26 21:47:01",
+    "updated_at": "2026-04-26 21:47:01"
+  },
+  "quiz": {
+    "title": "Maintenance et évolution d'un système ou d'un produit.",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quels sont des concepts de base en maintenance et évolution d'un système ou d'un produit ?",
+        "choices": [
+          "Maintenance corrective",
+          "Maintenance préventive",
+          "Évolution d'un système ou d'un produit",
+          "Tous les concepts mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La maintenance corrective est le processus de réparation des défauts ou des problèmes qui surviennent après la mise en service du système ou du produit. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple de maintenance préventive ?",
+        "choices": [
+          "Mise à jour régulière des logiciels de sécurité",
+          "Nettoyage périodique des composants matériels",
+          "Remplacement planifié des pièces usées",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'évolution d'un système ou d'un produit fait référence aux modifications et améliorations apportées au fil du temps pour répondre aux besoins changeants des utilisateurs et aux avancées technologiques. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple d'évolution d'un système ou d'un produit ?",
+        "choices": [
+          "Mise à jour logicielle pour ajouter de nouvelles fonctionnalités",
+          "Amélioration de la performance grâce à l'optimisation du code",
+          "Adaptation à de nouvelles normes ou réglementations",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il n'y a pas de différence entre la maintenance corrective et la maintenance préventive. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple d'outil utilisé pour la maintenance et l'évolution d'un système ou d'un produit ?",
+        "choices": [
+          "Système de gestion des tickets pour le suivi des problèmes de maintenance",
+          "Outils de gestion de version pour le suivi des modifications dans le code",
+          "Outils de surveillance des performances pour détecter les anomalies",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Tous les utilisateurs sont conscients de l'importance de la maintenance et de l'évolution d'un système ou d'un produit. Vrai ou Faux ?"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

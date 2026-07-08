@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 0207",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Périphériques d'un ordinateur (entrée/sortie).",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Tous les périphériques mentionnés",
+        "correction": "Les périphériques d'entrée d'un ordinateur comprennent le clavier, la souris, et la webcam, qui permettent à l'utilisateur de fournir des données et des commandes à l'ordinateur."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, un écran est un périphérique de sortie qui affiche les informations traitées par l'ordinateur à l'utilisateur."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Imprimante",
+        "correction": "Une imprimante est un périphérique de sortie qui permet d'obtenir une copie papier des informations traitées par l'ordinateur."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, un microphone est un périphérique d'entrée qui permet de capturer des sons et de les transmettre à l'ordinateur pour traitement."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Écran",
+        "correction": "Un écran est un périphérique de sortie qui affiche les informations traitées par l'ordinateur à l'utilisateur."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, il existe une différence entre les périphériques d'entrée et de sortie en termes de leur fonction dans le système informatique. Les périphériques d'entrée permettent à l'utilisateur de fournir des données et des commandes à l'ordinateur, tandis que les périphériques de sortie permettent à l'ordinateur de communiquer des informations à l'utilisateur."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Écran tactile",
+        "correction": "Un écran tactile peut être à la fois un périphérique d'entrée, car il permet à l'utilisateur d'interagir avec l'ordinateur en touchant l'écran, et un périphérique de sortie, car il affiche les informations traitées par l'ordinateur."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, certains périphériques peuvent être à la fois d'entrée et de sortie, comme les écrans tactiles ou les haut-parleurs avec microphone intégré, qui permettent à la fois de fournir des données à l'ordinateur et de recevoir des informations de l'ordinateur."
+      }
+    ]
+  }
+}

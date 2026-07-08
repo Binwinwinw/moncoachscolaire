@@ -113,7 +113,7 @@ if (!$has_access) {
              <h2 class="text-2xl font-bold text-slate-800">🔒 Accès restreint</h2>
              <p class="text-slate-600">Le contenu pédagogique est réservé aux membres inscrits.</p>
              <p class="mt-5 flex flex-wrap gap-3 justify-center">
-                 <a href="<?php echo site_url('register'); ?>" class="btn btn-primary inline-flex items-center justify-center px-4 py-2 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-colors">Créer un compte</a>
+                 <a href="<?php echo site_url('register'); ?>" class="btn-theme-primary inline-flex items-center justify-center px-4 py-2 rounded-lg font-semibold">Créer un compte</a>
                  <a href="<?php echo site_url('login'); ?>" class="btn btn-secondary inline-flex items-center justify-center px-4 py-2 rounded-lg bg-white text-slate-800 font-semibold border border-slate-200 hover:bg-slate-50 transition-colors">Se connecter</a>
              </p>
         </div>
@@ -182,7 +182,7 @@ try {
         <h1 class="text-4xl font-bold"><?php echo $params['title']; ?></h1>
         <p class="subtitle text-lg text-white/90"><?php echo $params['subtitle']; ?></p>
         <div class="exercices-navigation flex flex-wrap gap-4 justify-center mt-6">
-            <a href="<?php echo site_url('cours', ['niveau' => $params['cours']]); ?>" class="nav-btn nav-cours inline-flex items-center justify-center px-6 py-3 rounded-lg bg-blue-500 text-white font-semibold hover:bg-blue-600 transition-colors">📚 Mes Cours</a>
+            <a href="<?php echo site_url('cours', ['niveau' => $params['cours']]); ?>" class="nav-btn nav-cours btn-theme-primary inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold">📚 Mes Cours</a>
             <a href="<?php echo site_url('lycee/lycee-accueil'); ?>" class="nav-btn nav-accueil inline-flex items-center justify-center px-6 py-3 rounded-lg bg-emerald-500 text-white font-semibold hover:bg-emerald-600 transition-colors">🏠 Accueil Lycée</a>
             <?php if (!empty($is_logged_in)): ?>
                 <a href="<?php echo site_url('eleve/dashboard'); ?>" class="nav-btn nav-dashboard inline-flex items-center justify-center px-6 py-3 rounded-lg bg-purple-500 text-white font-semibold hover:bg-purple-600 transition-colors">📊 Mon Dashboard</a>

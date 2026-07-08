@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6ème - Série 24",
+    "level": "6ème",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "Sports : sports populaires, événements sportifs, athlètes célèbres",
+    "question_count": 8,
+    "level": "6ème",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "Soccer, basketball, and tennis are all popular sports played and watched by millions of people around the world."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The Olympic Games are indeed held every four years, bringing together athletes from around the world to compete in various sports."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "Pelé, Lionel Messi, and Cristiano Ronaldo are all considered among the greatest soccer players of all time, often referred to as the 'King of Soccer' by fans and experts alike."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The FIFA World Cup is indeed the most prestigious international soccer tournament, held every four years and featuring teams from around the world competing for the title of world champion."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "The Super Bowl, Wimbledon, and the Tour de France are all famous sporting events that attract large audiences and feature top athletes in their respective sports."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Serena Williams is indeed a famous tennis player, known for her powerful playing style and numerous Grand Slam titles."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "Skiing, snowboarding, and ice skating are all popular winter sports enjoyed by people of all ages around the world."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Michael Jordan is indeed considered one of the greatest basketball players of all time, known for his incredible skill, competitive spirit, and numerous championships with the Chicago Bulls."
+      }
+    ]
+  }
+}

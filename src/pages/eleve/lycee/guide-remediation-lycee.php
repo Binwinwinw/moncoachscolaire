@@ -3,6 +3,8 @@ require_once dirname(__DIR__, 3) . '/config/site_boot.php';
 require_once dirname(__DIR__, 3) . '/includes/remediation_hub_template.php';
 
 $page_title = 'Guide de remediation Lycee - MonCoachScolaire';
+$page_class = 'remediation-hub-page';
+$page_css = 'remediation-guide.css';
 
 render_remediation_hub_template([
     'theme_level' => 'lycee',

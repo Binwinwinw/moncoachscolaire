@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 87",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 6eme : Patrons figures 3D simples",
+    "status": "published",
+    "created_at": "2026-04-26T21:35:11.507359Z",
+    "updated_at": "2026-04-26T21:35:11.507359Z"
+  },
+  "quiz": {
+    "title": "Patrons figures 3D simples",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel est le patron d'un cube ?",
+        "choices": [
+          "Un carré",
+          "Un rectangle",
+          "Un cercle",
+          "Un triangle"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le patron d'un cube est un rectangle."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le patron d'un cylindre ?",
+        "choices": [
+          "Un cercle et un rectangle",
+          "Un carré et un triangle",
+          "Un rectangle et un triangle",
+          "Un cercle et un triangle"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le patron d'un cube est un cercle."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le patron d'une pyramide à base carrée ?",
+        "choices": [
+          "Un carré et quatre triangles",
+          "Un rectangle et quatre triangles",
+          "Un cercle et quatre triangles",
+          "Un triangle et quatre rectangles"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le patron d'un cylindre est composé de deux cercles et d'un rectangle."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le patron d'une sphère ?",
+        "choices": [
+          "Un cercle",
+          "Un carré",
+          "Un rectangle",
+          "Une figure complexe"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le patron d'une pyramide à base carrée est composé d'un carré et de quatre triangles."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

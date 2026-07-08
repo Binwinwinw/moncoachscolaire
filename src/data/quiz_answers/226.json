@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 226",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Histoire des télécommunications.",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "vélo",
+        "correction": "Le télégraphe, le téléphone, et la radio sont tous des concepts de base en histoire des télécommunications, car ils représentent des étapes clés dans l'évolution des technologies de communication. Le vélo, en revanche, n'est pas un concept lié à l'histoire des télécommunications."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, le télégraphe a été inventé avant le téléphone. Le télégraphe a été développé au début du 19ème siècle, tandis que le téléphone a été inventé plus tard au 19ème siècle."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "Les technologies de communication développées après la radio incluent la télévision, Internet, et le téléphone mobile, qui représentent des avancées significatives dans le domaine des communications."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, le télégraphe a été inventé avant la radio. Le télégraphe a été développé au début du 19ème siècle, tandis que la radio a été inventée plus tard au 19ème siècle."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Aucune des options mentionnées",
+        "correction": "Toutes les technologies de communication mentionnées ont eu un impact significatif sur la société."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, il existe une différence entre les différentes technologies de communication en termes de leur nature, de leur fonction, et de leur impact sur la société."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "Le télégraphe sans fil, le téléphone portable, et Internet à haut débit sont tous des exemples d'innovations techniques dans le domaine des télécommunications qui ont amélioré la connectivité et l'accessibilité des communications à travers le monde."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, tous les utilisateurs ne sont pas nécessairement conscients de l'histoire des télécommunications, ce qui souligne l'importance de l'éducation pour aider les individus à comprendre l'évolution des technologies de communication et leur impact sur la société."
+      }
+    ]
+  }
+}

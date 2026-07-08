@@ -30,3 +30,20 @@ MonCoachScolaire est une application web basée sur PHP 8+, MySQL 8+, Tailwind C
 - Lint PHP : PSR-12
 
 Pour plus de détails, voir `.github/copilot-instructions.md` et `DOCUMENTATION.md`.
+
+## État du projet et ligne conductrice (sources canoniques)
+
+Ne pas se fier uniquement à ce fichier ou à `CONTEXT_INDEX.md` pour savoir **où en est le travail** : deux fichiers dans `dev/` font foi.
+
+| Fichier | Rôle |
+| -------- | ------ |
+| [dev/JOURNAL_REPRISE.md](dev/JOURNAL_REPRISE.md) | Chronologie datée des sessions, décisions, commandes, « prochaines étapes ». En fin de fichier : TODO consolidée et rappels récents. |
+| [dev/SUIVI_BUGS_AMELIORATIONS.md](dev/SUIVI_BUGS_AMELIORATIONS.md) | Priorités actives, bugs et améliorations, tableau de couverture quiz (lots incomplets), statut réalisé / en cours. |
+
+**Procédure recommandée avant un chantier significatif (correctif, feature, refonte) :**
+
+1. Lire le haut de `dev/SUIVI_BUGS_AMELIORATIONS.md` (priorités et tableau de couverture à jour).
+2. Parcourir les entrées récentes en tête de `dev/JOURNAL_REPRISE.md` (dernières sessions).
+3. Consulter la fin de `dev/JOURNAL_REPRISE.md` pour la TODO consolidée et les décisions encore ouvertes.
+
+Portail court : [dev/README.md](dev/README.md).

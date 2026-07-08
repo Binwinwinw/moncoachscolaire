@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 6eme - Série 102",
+    "level": "6eme",
+    "subject": "EMC"
+  },
+  "quiz": {
+    "title": "EMC 6e - La solidarité internationale",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "EMC",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "La solidarité internationale est un principe qui encourage les individus et les nations à s'entraider pour résoudre les problèmes mondiaux.",
+        "correction": "La solidarité internationale est un principe qui encourage les individus et les nations à s'entraider pour résoudre les problèmes mondiaux tels que la pauvreté, les conflits, les catastrophes naturelles et les inégalités."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. La solidarité internationale implique que les pays riches ont la responsabilité d'aider les pays pauvres à se développer en fournissant une assistance financière, technique et humanitaire."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "L'aide humanitaire, le développement économique, la protection de l'environnement, la promotion des droits humains",
+        "correction": "La solidarité internationale peut s'exprimer dans divers domaines tels que l'aide humanitaire pour les victimes de catastrophes ou de conflits, le développement économique pour réduire les inégalités, la protection de l'environnement pour lutter contre le changement climatique et la promotion des droits humains pour garantir la dignité et l'égalité pour tous."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. La solidarité internationale concerne non seulement les gouvernements et les organisations internationales, mais aussi les individus et les communautés qui peuvent contribuer à des actions solidaires à travers le bénévolat, les dons ou la sensibilisation aux enjeux mondiaux."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Les ONG jouent un rôle crucial en fournissant une assistance directe, en sensibilisant le public et en plaidant pour des politiques plus justes au niveau international.",
+        "correction": "Les organisations non gouvernementales (ONG) jouent un rôle crucial dans la solidarité internationale en fournissant une assistance directe aux populations dans le besoin, en sensibilisant le public aux enjeux mondiaux et en plaidant pour des politiques plus justes au niveau international."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. La solidarité internationale encourage l'entraide et la coopération entre les nations pour résoudre les problèmes mondiaux, ce qui peut impliquer une intervention dans les affaires des autres pays lorsque cela est nécessaire pour protéger les droits humains ou fournir une assistance humanitaire."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Les citoyens peuvent contribuer à la solidarité internationale en faisant du bénévolat, en faisant des dons ou en sensibilisant aux enjeux mondiaux.",
+        "correction": "Les citoyens ont un rôle important à jouer dans la solidarité internationale en contribuant à des actions solidaires à travers le bénévolat, les dons ou la sensibilisation aux enjeux mondiaux, ce qui peut aider à mobiliser des ressources et à promouvoir une culture de solidarité à l'échelle mondiale."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. La solidarité internationale encourage la coopération et l'entraide entre les nations pour résoudre les problèmes mondiaux, ce qui peut impliquer une interdépendance entre les pays plutôt qu'une indépendance totale."
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6eme - Série 14",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6eme : culture générale : cinéma, musique, littérature",
+    "status": "published",
+    "created_at": "2026-04-26T21:32:48.825899Z",
+    "updated_at": "2026-04-26T21:32:48.825899Z"
+  },
+  "quiz": {
+    "title": "culture générale : cinéma, musique, littérature",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Who is the author of the Harry Potter series?",
+        "choices": [
+          "J.K. Rowling",
+          "Stephen King",
+          "Roald Dahl",
+          "Rick Riordan"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The movie 'The Lion King' was produced by Disney."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a musical instrument?",
+        "choices": [
+          "Guitar",
+          "Piano",
+          "Drums",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'To Kill a Mockingbird' is a novel written by Harper Lee."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following movies was directed by Steven Spielberg?",
+        "choices": [
+          "Jurassic Park",
+          "E.T. the Extra-Terrestrial",
+          "Jaws",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The Beatles' were a famous rock band from England."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a genre of music?",
+        "choices": [
+          "Rock",
+          "Pop",
+          "Jazz",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The Great Gatsby' is a novel written by F. Scott Fitzgerald."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

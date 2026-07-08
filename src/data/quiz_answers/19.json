@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6eme - Série 19",
+    "level": "6eme",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "sciences : phénomènes naturels, corps humain, environnement",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Photosynthesis",
+        "correction": "Photosynthesis is the process by which plants convert sunlight into energy, allowing them to produce their own food."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The human heart is indeed responsible for pumping blood throughout the body, delivering oxygen and nutrients to tissues and removing waste products."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "Earthquakes, tornadoes, and volcanic eruptions are all natural phenomena that occur due to geological and atmospheric processes."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Global warming is indeed caused by an increase in greenhouse gases, such as carbon dioxide, in the atmosphere, which trap heat and lead to rising global temperatures."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Lungs",
+        "correction": "The lungs are a crucial part of the human respiratory system, responsible for the exchange of oxygen and carbon dioxide."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The water cycle indeed includes processes such as evaporation (water turning into vapor), condensation (vapor cooling and forming clouds), and precipitation (water falling back to the Earth as rain, snow, etc.)."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "Solar power, wind power, and hydropower are all renewable energy sources that can be replenished naturally and have a lower environmental impact compared to fossil fuels."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Recycling is indeed an important practice that helps reduce waste, conserve natural resources, and minimize environmental impact by reusing materials instead of discarding them."
+      }
+    ]
+  }
+}

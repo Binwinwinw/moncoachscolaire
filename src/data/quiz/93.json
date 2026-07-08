@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 93",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 6eme : Nombres et calculs (calcul littéral, équations, inéquations)",
+    "status": "published",
+    "created_at": "2026-04-26T21:35:11.514857Z",
+    "updated_at": "2026-04-26T21:35:11.514857Z"
+  },
+  "quiz": {
+    "title": "Nombres et calculs (calcul littéral, équations, inéquations)",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la valeur de x dans l'équation 2x + 3 = 7 ?",
+        "choices": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'inéquation x - 5 > 3 a pour solution x > 8."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la valeur de y dans l'équation 3y - 4 = 11 ?",
+        "choices": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'inéquation 2z + 1 ≤ 9 a pour solution z ≤ 4."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la valeur de a dans l'équation a/4 + 2 = 6 ?",
+        "choices": [
+          "12",
+          "14",
+          "16",
+          "18"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'inéquation 5m - 3 < 2 a pour solution m < 1."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la valeur de b dans l'équation 4b + 5 = 21 ?",
+        "choices": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'inéquation c/2 - 1 ≥ 3 a pour solution c ≥ 8."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

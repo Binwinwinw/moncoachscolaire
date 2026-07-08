@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 208",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Logiciels de base (système d'exploitation, navigateur).",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Tous les logiciels mentionnés",
+        "correction": "Les logiciels de base comprennent le système d'exploitation, qui gère les ressources matérielles et logicielles de l'ordinateur, le navigateur web, qui permet d'accéder à Internet, et le traitement de texte, qui permet de créer et d'éditer des documents."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, un système d'exploitation est un logiciel essentiel qui gère les ressources matérielles et logicielles de l'ordinateur, permettant aux autres logiciels de fonctionner correctement."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Windows",
+        "correction": "Windows est un exemple de système d'exploitation développé par Microsoft."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, un navigateur web est un logiciel qui permet aux utilisateurs d'accéder à Internet et de visualiser des pages web."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Google Chrome",
+        "correction": "Google Chrome est un exemple de navigateur web développé par Google."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, il existe une différence entre les différents types de logiciels en termes de leur fonction, de leur utilisation, et de leur importance dans le système informatique."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Adobe Photoshop",
+        "correction": "Adobe Photoshop est un logiciel de retouche photo et de création graphique, et n'est pas considéré comme un logiciel de base comme le système d'exploitation ou le navigateur web."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, tous les logiciels ne sont pas des logiciels de base. Il existe une grande variété de logiciels avec des fonctions spécifiques, et seuls certains d'entre eux sont considérés comme des logiciels de base."
+      }
+    ]
+  }
+}

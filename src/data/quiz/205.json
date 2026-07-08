@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 205",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 6eme : Stockage d'énergie (batterie, accumulateur).",
+    "status": "published",
+    "created_at": "2026-04-26 21:47:00",
+    "updated_at": "2026-04-26 21:47:00"
+  },
+  "quiz": {
+    "title": "Stockage d'énergie (batterie, accumulateur).",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quels sont les moyens de stockage d'énergie ?",
+        "choices": [
+          "Batterie",
+          "Accumulateur",
+          "Tous les moyens mentionnés",
+          "Condensateur"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les batteries sont utilisées pour stocker l'énergie dans les appareils électroniques. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple d'appareil qui utilise un accumulateur pour stocker l'énergie ?",
+        "choices": [
+          "Une voiture électrique",
+          "Un téléphone portable",
+          "Un ordinateur portable",
+          "Une lampe de poche"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les accumulateurs sont plus durables que les batteries. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un avantage des batteries par rapport aux accumulateurs ?",
+        "choices": [
+          "Elles sont plus légères",
+          "Elles ont une plus grande capacité de stockage",
+          "Elles sont plus faciles à recharger",
+          "Toutes les réponses mentionnées"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il n'y a pas de différence entre les batteries et les accumulateurs. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Trouve l'intrus dans la liste suivante :",
+        "choices": [
+          "Une voiture électrique",
+          "Un téléphone portable",
+          "Un ordinateur portable",
+          "Une lampe de chevet"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les accumulateurs et les batteries servent à stocker l'énergie. Vrai ou Faux ?"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

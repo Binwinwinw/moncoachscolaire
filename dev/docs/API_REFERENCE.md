@@ -33,6 +33,7 @@ Cette documentation liste les principaux points d’entrée de l’API PHP (src/
 
 - **POST** `/src/api/ia/generate_quiz.php` : Génère un quiz via IA (Ollama/container ou provider cloud)
   - **Payload JSON** :
+
     ```json
     {
       "level": "6eme",
@@ -41,8 +42,10 @@ Cette documentation liste les principaux points d’entrée de l’API PHP (src/
       "provider": "ollama" // optionnel, sinon auto-détection
     }
     ```
+
   - **Sécurité** : validation forte des paramètres, auth requise pour la sauvegarde, fallback automatique si erreur IA
   - **Réponse** :
+
     ```json
     {
       "success": true,
@@ -52,6 +55,7 @@ Cette documentation liste les principaux points d’entrée de l’API PHP (src/
       "level": "6eme"
     }
     ```
+
   - **Notes** :
     - Le provider peut être explicitement fixé à 'ollama' pour utiliser le container local (nécessite OLLAMA_API_URL dans .env)
     - Fallback automatique sur les autres providers si Ollama non dispo
@@ -64,6 +68,46 @@ Toutes les réponses sont au format JSON, avec généralement :
 - `success` (bool)
 - `data` (array|object)
 - `message` (string)
+
+## Convention additive IA (legacy compatible)
+
+Pour les endpoints IA en phase de convergence, la règle est :
+
+- **Contrat legacy conservé** tant qu'un consommateur existant en dépend.
+- **Contrat cible** ajouté de façon additive via `data` et `meta`.
+- **Traçabilité minimale** garantie par `meta.request_id`.
+
+### Contrat historique toléré
+
+Exemples de clés legacy selon endpoint :
+
+- `cours_html`, `quiz_html`, `cours`, `level`, `matiere`, `provider_used`
+- `course_id`, `course_url`, `message`
+- `count`, `message`
+
+### Contrat cible recommandé
+
+```json
+{
+  "success": true,
+  "data": {
+    "...": "payload cible pour nouveaux consommateurs"
+  },
+  "meta": {
+    "request_id": "id corrélable",
+    "saved_at": "timestamp optionnel",
+    "generated_at": "timestamp optionnel"
+  }
+}
+```
+
+### Règles d'évolution
+
+1. Ne pas supprimer un champ legacy sans migration des consommateurs identifiés.
+2. Ne pas changer le sens d'un champ legacy existant.
+3. Ajouter les nouvelles données dans `data`.
+4. Ajouter les métadonnées transversales dans `meta`.
+5. Utiliser `api_additive_response()` et `api_additive_error()` pour homogénéiser les réponses.
 
 ## Exemple de requête
 

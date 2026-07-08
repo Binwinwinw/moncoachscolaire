@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 6eme - Série 129",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 6eme : EMC 6e - Projets collectifs école",
+    "status": "published",
+    "created_at": "2026-04-26T21:35:49.211477Z",
+    "updated_at": "2026-04-26T21:35:49.211477Z"
+  },
+  "quiz": {
+    "title": "EMC 6e - Projets collectifs école",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Pourquoi est-il important de respecter les règles des projets collectifs à l'école ?",
+        "choices": [
+          "Le respect des règles des projets collectifs à l'école garantit la promotion de la collaboration, le respect des autres et la construction d'une société plus juste et solidaire.",
+          "Le respect des règles des projets collectifs à l'école est inutile, car les individus peuvent agir comme ils le souhaitent.",
+          "Le respect des règles des projets collectifs à l'école est réservé aux élites politiques et économiques.",
+          "Le respect des règles des projets collectifs à l'école est limité aux écoles uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect des règles des projets collectifs à l'école est un concept qui promeut la non-intervention dans les affaires des individus."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle de l'élève lors des projets collectifs à l'école ?",
+        "choices": [
+          "L'éducation joue un rôle crucial en sensibilisant les individus aux règles des projets collectifs et en promouvant le respect de ces règles.",
+          "L'éducation est inutile dans le respect des règles des projets collectifs, car les individus peuvent apprendre par eux-mêmes.",
+          "L'éducation est réservée aux élites politiques et économiques.",
+          "L'éducation est limitée aux écoles uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect des règles des projets collectifs à l'école est un concept qui promeut la non-intervention dans les affaires des individus. (variante 2)"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle des enseignants lors des projets collectifs à l'école ?",
+        "choices": [
+          "Les enseignants ont un rôle important en promouvant des représentations positives du respect des règles des projets collectifs et en sensibilisant les élèves à l'importance de ces règles.",
+          "Les enseignants sont inutiles dans le respect des règles des projets collectifs, car les élèves peuvent apprendre par eux-mêmes.",
+          "Les enseignants sont réservés aux élèves les plus avancés.",
+          "Les enseignants sont limités aux matières scientifiques uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect des règles des projets collectifs à l'école est un concept qui promeut la non-intervention dans les affaires des individus. (variante 3)"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle des parents lors des projets collectifs à l'école ?",
+        "choices": [
+          "Les parents ont un rôle important en sensibilisant leurs enfants aux règles des projets collectifs et en promouvant le respect de ces règles.",
+          "Les parents sont inutiles dans le respect des règles des projets collectifs, car les individus peuvent apprendre par eux-mêmes.",
+          "Les parents sont réservés aux élites politiques et économiques.",
+          "Les parents sont limités aux écoles uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect des règles des projets collectifs à l'école est un concept qui promeut la non-intervention dans les affaires des individus. (variante 4)"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

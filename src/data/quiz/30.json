@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6ème - Série 30",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6ème : Vocabulaire de base : famille, école, loisirs",
+    "status": "published",
+    "created_at": "2026-04-26T21:32:48.850744Z",
+    "updated_at": "2026-04-26T21:32:48.850744Z"
+  },
+  "quiz": {
+    "title": "Vocabulaire de base : famille, école, loisirs",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "What is the English word for 'père'?",
+        "choices": [
+          "Father",
+          "Mother",
+          "Brother",
+          "Sister"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English word for 'mère' is 'mother'' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English word for 'école'?",
+        "choices": [
+          "School",
+          "Classroom",
+          "Education",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English word for 'loisirs' is 'hobbies'' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English word for 'frère'?",
+        "choices": [
+          "Brother",
+          "Sister",
+          "Cousin",
+          "Uncle"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English word for 'soeur' is 'sister'' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English word for 'loisirs'?",
+        "choices": [
+          "Hobbies",
+          "Leisure activities",
+          "Pastimes",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English word for 'école' is 'school'' is a True statement."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

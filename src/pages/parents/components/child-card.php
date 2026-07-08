@@ -15,5 +15,6 @@ $avatar = strtoupper(substr($enfant['Prenom'] ?? $enfant['Username'] ?? 'E', 0, 
             <?= htmlspecialchars($statut) ?>
         </p>
     </div>
-    <a href="<?= site_url('parents/suivi_enfant') ?>?id=<?= $enfant['user_id'] ?? $enfant['enfant_id'] ?>" class="btn-elite bg-gradient-to-r from-indigo-500 to-blue-600 text-white font-semibold px-4 py-2 rounded-lg shadow hover:from-indigo-600 hover:to-blue-700 transition" aria-label="Voir le détail de la progression de <?= htmlspecialchars($enfant['Prenom'] ?? $enfant['Username'] ?? 'Enfant') ?>">Voir détail</a>
+    <?php $childId = $enfant['Id'] ?? $enfant['id'] ?? $enfant['user_id'] ?? $enfant['enfant_id'] ?? null; ?>
+    <a href="<?= site_url('parents/suivi_enfant') ?>?id=<?= urlencode((string) $childId) ?>" class="btn-elite bg-gradient-to-r from-indigo-500 to-blue-600 text-white font-semibold px-4 py-2 rounded-lg shadow hover:from-indigo-600 hover:to-blue-700 transition" aria-label="Voir le détail de la progression de <?= htmlspecialchars($enfant['Prenom'] ?? $enfant['Username'] ?? 'Enfant') ?>">Voir détail</a>
 </div>

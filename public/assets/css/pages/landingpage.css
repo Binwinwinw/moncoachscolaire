@@ -743,14 +743,14 @@
 
 /* Landing page background policy: exactly the same as global app background */
 body.landing-page.app-bg {
-    background-image: url("../../img/background-school-material.png") !important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-    background-position: center !important;
-    background-attachment: fixed !important;
+    --page-bg-image: url("../../img/background-school-material.png");
+    --page-bg-overlay: linear-gradient(
+        rgb(255 255 255 / 0%),
+        rgb(255 255 255 / 0%)
+    );
 }
 
 /* Même stratégie que login: ne jamais peindre un fond sur le conteneur principal */
 body.landing-page main {
-    background-color: transparent !important;
+    background-color: transparent;
 }

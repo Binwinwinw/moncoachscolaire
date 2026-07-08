@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 210",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Notions de base en électronique (circuit, composant).",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Tous les concepts mentionnés",
+        "correction": "Les concepts de base en électronique comprennent le circuit, qui est un chemin fermé à travers lequel le courant électrique peut circuler, le composant, qui est une partie individuelle d'un circuit électronique, et la résistance, qui est une mesure de la difficulté pour le courant de circuler à travers un composant ou un circuit."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, un circuit est défini comme un chemin fermé qui permet au courant électrique de circuler, et il peut être composé de divers composants électroniques tels que des résistances, des condensateurs, et des transistors."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Résistance",
+        "correction": "Une résistance est un exemple de composant électronique qui limite le flux de courant dans un circuit."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, un transistor est un composant électronique essentiel qui peut être utilisé pour amplifier ou commuter des signaux électriques dans les circuits électroniques."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Un circuit imprimé",
+        "correction": "Un circuit imprimé (PCB) est un exemple de circuit électronique qui supporte et connecte les composants électroniques à l'aide de pistes conductrices."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, il existe une différence entre les différents concepts en électronique en termes de leur fonction, de leur utilisation, et de leur importance dans la conception et le fonctionnement des circuits électroniques."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Clavier",
+        "correction": "Un clavier est un périphérique d'entrée utilisé pour interagir avec un ordinateur, et n'est pas considéré comme un composant électronique dans le contexte des circuits électroniques."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, tous les composants électroniques sont conçus pour être utilisés dans des circuits électroniques afin de remplir des fonctions spécifiques telles que la résistance, l'amplification, ou la commutation de signaux électriques."
+      }
+    ]
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 199",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 6eme : Les étapes de la démarche de résolution de problèmes techniques",
+    "status": "published",
+    "created_at": "2026-04-26 21:47:00",
+    "updated_at": "2026-04-26 21:47:00"
+  },
+  "quiz": {
+    "title": "Les étapes de la démarche de résolution de problèmes techniques",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelles sont les étapes de la démarche de résolution de problèmes techniques ?",
+        "choices": [
+          "Identifier le problème, trouver des solutions, choisir la meilleure solution, mettre en œuvre la solution",
+          "Trouver des solutions, identifier le problème, choisir la meilleure solution, mettre en œuvre la solution",
+          "Choisir la meilleure solution, identifier le problème, trouver des solutions, mettre en œuvre la solution",
+          "Mettre en œuvre la solution, identifier le problème, trouver des solutions, choisir la meilleure solution"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Pourquoi l'étape d'analyse du besoin est-elle la première dans la démarche technique ?\n\nVrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Dans quelle étape utilise-t-on un cahier des charges pour définir un projet ?",
+        "choices": [
+          "Identifier le problème",
+          "Trouver des solutions",
+          "Choisir la meilleure solution",
+          "Mettre en œuvre la solution"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Pour concevoir un abri pour un animal, il faut bien choisir les matériaux adaptés ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Besoins humains et objets techniques associés. Quel est l'objectif principal de l'étape de recherche de solutions dans la démarche technique ?",
+        "choices": [
+          "Trouver une seule solution possible",
+          "Trouver plusieurs solutions possibles",
+          "Choisir la meilleure solution immédiatement",
+          "Mettre en œuvre la solution sans réfléchir"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il est acceptable de sauter des étapes dans la démarche de résolution de problèmes techniques si on pense que ce n'est pas nécessaire. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple d'outil utilisé pour choisir la meilleure solution dans la démarche technique ?",
+        "choices": [
+          "Un diagramme de Gantt",
+          "Un tableau comparatif",
+          "Un logiciel de dessin",
+          "Un tableur"
+        ]
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple d'outil utilisé pour planifier un projet dans la démarche technique ?",
+        "choices": [
+          "Un diagramme de Gantt",
+          "Un tableau comparatif",
+          "Un logiciel de dessin",
+          "Un tableur"
+        ]
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

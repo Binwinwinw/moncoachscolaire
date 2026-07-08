@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 216",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Réseaux informatiques au collège.",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Tous les éléments mentionnés",
+        "correction": "Un réseau informatique au collège peut inclure des éléments tels que des routeurs pour diriger le trafic de données, des switches pour connecter les appareils, et des câbles Ethernet pour la transmission de données."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, un réseau informatique au collège peut être utilisé pour une variété de fonctions, y compris l'accès à Internet, le partage de ressources telles que les imprimantes, et la communication entre les appareils sur le réseau."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "HTTP, FTP, et TCP/IP sont tous des exemples de protocoles de communication qui peuvent être utilisés dans un réseau informatique au collège pour permettre la transmission de données entre les appareils et l'accès à Internet."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, un pare-feu est un dispositif de sécurité qui peut être utilisé dans un réseau informatique au collège pour surveiller et contrôler le trafic réseau afin de protéger contre les menaces potentielles."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "Tous les exemples mentionnés (ordinateur de bureau, tablette, imprimante réseau) sont des types d'appareils couramment connectés à un réseau informatique au collège pour accomplir diverses tâches éducatives et administratives."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, il existe une différence entre les différents éléments d'un réseau informatique au collège en termes de leur fonction, de leur utilisation, et de leur importance dans le fonctionnement global du réseau."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "Ethernet, Wi-Fi, et Bluetooth sont tous des technologies de transmission qui peuvent être utilisées dans un réseau informatique au collège pour permettre la communication entre les appareils et l'accès à Internet."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, les réseaux informatiques au collège peuvent varier considérablement en fonction des technologies utilisées, des besoins spécifiques du collège, et des ressources disponibles."
+      }
+    ]
+  }
+}

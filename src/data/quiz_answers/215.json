@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 215",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Environnement numérique de travail.",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Tous les éléments mentionnés",
+        "correction": "Un environnement numérique de travail comprend généralement un ordinateur, des logiciels de productivité tels que des suites bureautiques, et une connexion Internet pour accéder à des ressources en ligne et collaborer avec d'autres."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, un environnement numérique de travail est un espace virtuel qui comprend les outils et les ressources numériques nécessaires pour accomplir des tâches professionnelles, et n'est pas limité à un espace physique."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Microsoft Word",
+        "correction": "Microsoft Word est un exemple de logiciel de productivité largement utilisé dans les environnements numériques de travail pour la création et l'édition de documents texte."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, une connexion Internet est souvent essentielle pour travailler efficacement dans un environnement numérique de travail, car elle permet d'accéder à des ressources en ligne, de collaborer avec d'autres, et d'utiliser des outils basés sur le cloud."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Google Drive",
+        "correction": "Google Drive est un exemple d'outil de collaboration en ligne qui permet aux utilisateurs de stocker, partager, et collaborer sur des fichiers et des documents en temps réel."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, il existe une différence entre les différents éléments d'un environnement numérique de travail en termes de leur fonction, de leur utilisation, et de leur importance dans le processus de travail numérique."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "Tous les exemples mentionnés (ordinateur de bureau, tablette, smartphone) sont des types d'appareils couramment utilisés dans les environnements numériques de travail pour accomplir diverses tâches professionnelles."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, les environnements numériques de travail peuvent varier considérablement en fonction des outils, des ressources, et des technologies utilisés, ainsi que des besoins spécifiques de l'utilisateur ou de l'organisation."
+      }
+    ]
+  }
+}

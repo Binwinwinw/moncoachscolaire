@@ -3,9 +3,9 @@
 	border-radius: 1.5rem;
 	padding: 2rem;
 	margin-bottom: 2rem;
-	box-shadow: 0 4px 24px rgba(34,197,94,0.12);
-	background: linear-gradient(135deg, #d1fae5 0%, #f0fdf4 100%);
-	border-left: 8px solid #22c55e;
+	box-shadow: 0 4px 24px color-mix(in srgb, var(--color-primary, #047857) 12%, transparent);
+	background: linear-gradient(135deg, var(--color-primary-muted, #d1fae5) 0%, var(--color-primary-soft, #f0fdf4) 100%);
+	border-left: 8px solid var(--color-primary, #047857);
 }
 .dashboard-card {
 	border-radius: 1.5rem;
@@ -36,8 +36,13 @@
 }
 .card-header {
 	padding: 1rem 1.5rem;
-	border-bottom: 1px solid #e5e7eb;
-	background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+	border-bottom: 1px solid var(--color-border, #e5e7eb);
+	background: linear-gradient(135deg, var(--color-primary-soft, #f8fafc) 0%, var(--color-primary-muted, #f1f5f9) 100%);
+}
+.card-diagnostic .card-header,
+.dashboard-card.card-diagnostic > div:first-child {
+	background: linear-gradient(135deg, var(--color-primary-soft) 0%, var(--color-primary-muted) 100%);
+	border-bottom-color: var(--color-border);
 }
 .card-body {
 	padding: 1.5rem;
@@ -70,11 +75,11 @@
 	transition: background .2s;
 }
 .action-primary {
-	background: #2563eb;
+	background: var(--color-primary);
 	color: #fff;
 }
 .action-primary:hover {
-	background: #1d4ed8;
+	background: var(--color-primary-dark);
 }
 .action-secondary {
 	background: #f1f5f9;
@@ -153,7 +158,7 @@
 .coach-tip {
 	margin-top: 1rem;
 	font-size: 0.95rem;
-	color: #2563eb;
+	color: var(--color-primary);
 }
 .chart-controls {
 	display: flex;
@@ -172,7 +177,18 @@
 }
 .chart-period-btn.active,
 .chart-period-btn:active {
-	background: #2563eb;
+	background: var(--color-primary);
 	color: #fff;
+}
+
+body.theme-college .dashboard-page .card-diagnostic .border-b,
+body.theme-lycee .dashboard-page .card-diagnostic .border-b,
+body.theme-bac .dashboard-page .card-diagnostic .border-b {
+	border-color: var(--color-border);
+}
+
+body[class*="theme-"] .dashboard-page .h-full.bg-gradient-to-r.from-blue-500,
+body[class*="theme-"] .dashboard-page .progress-theme-fill {
+	background: linear-gradient(90deg, var(--color-accent), var(--color-primary)) !important;
 }
 

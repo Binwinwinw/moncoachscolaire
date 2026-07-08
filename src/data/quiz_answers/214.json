@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 214",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Transmission d'information (câbles, sans fil).",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Tous les concepts mentionnés",
+        "correction": "Les concepts de base en transmission d'information comprennent les câbles, qui sont des supports physiques pour la transmission de données, les technologies sans fil, qui permettent la transmission de données sans l'utilisation de câbles, et les réseaux de communication, qui sont des systèmes interconnectés pour la transmission de données entre les appareils."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, la transmission d'information peut se faire à la fois par câbles et sans fil, en fonction des besoins et des contraintes du système de communication."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "Le cheval de Troie, le ransomware, et le spyware sont tous des exemples de types courants de virus informatiques qui peuvent causer des dommages aux ordinateurs et aux réseaux."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, un pare-feu est un dispositif de sécurité qui surveille et contrôle le trafic réseau entrant et sortant pour protéger contre les menaces."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Wi-Fi",
+        "correction": "Le Wi-Fi est un exemple de technologie de transmission sans fil qui permet aux appareils de se connecter à Internet et à d'autres réseaux sans l'utilisation de câbles."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, il existe une différence entre les différentes technologies de transmission d'information en termes de leur méthode de transmission, de leur portée, de leur vitesse, et de leur utilisation dans différents contextes."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Ethernet",
+        "correction": "Ethernet est un exemple de technologie de transmission par câble qui est largement utilisée pour connecter des appareils à un réseau local (LAN) à l'aide de câbles physiques."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, différents systèmes de communication peuvent utiliser différentes technologies de transmission d'information en fonction des besoins spécifiques du système, tels que la portée, la vitesse, la sécurité, et les contraintes environnementales."
+      }
+    ]
+  }
+}

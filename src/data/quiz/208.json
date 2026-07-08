@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 208",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 6eme : Logiciels de base (système d'exploitation, navigateur).",
+    "status": "published",
+    "created_at": "2026-04-26 21:47:00",
+    "updated_at": "2026-04-26 21:47:00"
+  },
+  "quiz": {
+    "title": "Logiciels de base (système d'exploitation, navigateur).",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quels sont les exemples de logiciels de base ?",
+        "choices": [
+          "Système d'exploitation",
+          "Navigateur web",
+          "Traitement de texte",
+          "Tous les logiciels mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un système d'exploitation est un logiciel qui gère les ressources matérielles et logicielles de l'ordinateur. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple de système d'exploitation ?",
+        "choices": [
+          "Windows",
+          "Google Chrome",
+          "Microsoft Word",
+          "Adobe Photoshop"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un navigateur web est un logiciel qui permet d'accéder à Internet. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple de navigateur web ?",
+        "choices": [
+          "Windows",
+          "Google Chrome",
+          "Microsoft Word",
+          "Adobe Photoshop"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il n'y a pas de différence entre les différents types de logiciels. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple de logiciel qui n'est pas un logiciel de base ?",
+        "choices": [
+          "Windows",
+          "Google Chrome",
+          "Microsoft Word",
+          "Adobe Photoshop"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Tous les logiciels sont des logiciels de base. Vrai ou Faux ?"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

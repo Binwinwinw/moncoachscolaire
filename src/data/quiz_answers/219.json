@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 219",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Déplacement et freinage d'un objet (exemples : vélo, voiture, ascenseur).",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Tous les concepts mentionnés",
+        "correction": "Les concepts de base en déplacement et freinage d'un objet comprennent la force de friction, qui s'oppose au mouvement, l'inertie, qui est la tendance d'un objet à rester en mouvement ou au repos, et l'accélération, qui est le changement de vitesse d'un objet."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, la force de friction est une force qui s'oppose au mouvement d'un objet, ralentissant ou empêchant son déplacement."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "Tous les exemples mentionnés (vélo, voiture, ascenseur) utilisent la force de friction pour se déplacer, que ce soit entre les pneus et la route, ou entre les câbles et les poulies dans le cas de l'ascenseur."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, l'inertie est un concept physique qui décrit la tendance d'un objet à rester en mouvement ou au repos à moins qu'une force extérieure ne soit appliquée pour changer son état de mouvement."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "Tous les exemples mentionnés (vélo, voiture, ascenseur) utilisent l'inertie pour se déplacer, car ils continuent à se déplacer à moins qu'une force extérieure ne soit appliquée pour les arrêter ou les ralentir."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, l'accélération est un concept physique qui décrit le changement de vitesse d'un objet au fil du temps, que ce soit une augmentation ou une diminution de sa vitesse."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "Tous les exemples mentionnés (vélo, voiture, ascenseur) utilisent l'accélération pour se déplacer, car ils peuvent augmenter ou diminuer leur vitesse en fonction des forces appliquées."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, il existe une différence entre les différents concepts de déplacement et freinage d'un objet en termes de leur nature, de leur fonction, et de leur impact sur le mouvement d'un objet."
+      }
+    ]
+  }
+}

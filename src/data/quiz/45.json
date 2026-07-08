@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6ème - Série 45",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6ème : Vocabulaire de base : phrases courantes pour dire bonjour, au revoir, merci, s'il vous plaît, etc.",
+    "status": "published",
+    "created_at": "2026-04-26T21:32:48.873763Z",
+    "updated_at": "2026-04-26T21:32:48.873763Z"
+  },
+  "quiz": {
+    "title": "Vocabulaire de base : phrases courantes pour dire bonjour, au revoir, merci, s'il vous plaît, etc.",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English greeting?",
+        "choices": [
+          "Hello",
+          "Hi",
+          "Hey",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English phrase for 'Comment ça va?' is 'How are you?'' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English expression used to say goodbye?",
+        "choices": [
+          "Goodbye",
+          "Bye",
+          "See you later",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English phrase for 'Merci' is 'Thank you'' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English expression used to apologize?",
+        "choices": [
+          "Sorry",
+          "I apologize",
+          "My apologies",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English phrase for 'S'il vous plaît' is 'Please'' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English expression used to express gratitude?",
+        "choices": [
+          "Thank you",
+          "Thanks",
+          "I appreciate it",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English phrase for 'Excusez-moi' is 'Excuse me'' is a True statement."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

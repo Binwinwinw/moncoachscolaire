@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 148",
+    "level": "6eme",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Français 6e - Les genres littéraires (conte, fable, poésie, théâtre…)",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Conte",
+        "correction": "Un conte raconte une histoire fantastique avec des éléments magiques et merveilleux."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Une fable est un court récit qui met en scène des animaux pour transmettre une leçon morale."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Poésie",
+        "correction": "La poésie utilise des vers et des strophes pour exprimer des émotions et des idées de manière artistique."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Le théâtre se caractérise par la représentation d'une histoire devant un public à travers des dialogues entre les personnages."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Conte",
+        "correction": "Un conte met en scène des personnages et des événements imaginaires pour divertir les lecteurs."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Une fable peut être écrite en prose ou en vers, mais elle se caractérise principalement par sa structure narrative et sa leçon morale."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Théâtre",
+        "correction": "Le théâtre utilise des dialogues et des actions pour représenter des situations devant un public."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Un conte peut être considéré comme un genre littéraire qui mélange des éléments de la réalité et de l'imaginaire pour transmettre des valeurs et des leçons de vie."
+      }
+    ]
+  }
+}

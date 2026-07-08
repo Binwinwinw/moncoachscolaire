@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 206",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 6eme : Mesure de vitesse et accélération simple.",
+    "status": "published",
+    "created_at": "2026-04-26 21:47:00",
+    "updated_at": "2026-04-26 21:47:00"
+  },
+  "quiz": {
+    "title": "Mesure de vitesse et accélération simple.",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Comment mesure-t-on la vitesse d'un objet ?",
+        "choices": [
+          "En utilisant un chronomètre et une règle pour mesurer le temps et la distance parcourue",
+          "En utilisant un thermomètre pour mesurer la température de l'objet",
+          "En utilisant un baromètre pour mesurer la pression de l'air autour de l'objet",
+          "En utilisant un hygromètre pour mesurer l'humidité de l'air autour de l'objet"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'accélération est la variation de la vitesse d'un objet par unité de temps. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel exemple d'objet peut accélérer ?",
+        "choices": [
+          "Une voiture qui démarre",
+          "Un livre posé sur une table",
+          "Une lampe de bureau",
+          "Un arbre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La vitesse et l'accélération sont des concepts liés mais différents. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel exemple d'objet peut décélérer ?",
+        "choices": [
+          "Une voiture qui freine",
+          "Un livre posé sur une table",
+          "Une lampe de bureau",
+          "Un arbre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il n'y a pas de différence entre la vitesse et l'accélération. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple d'objet qui peut maintenir une vitesse constante ?",
+        "choices": [
+          "Une voiture qui roule à une vitesse constante sur une autoroute",
+          "Un livre posé sur une table",
+          "Une lampe de bureau",
+          "Un arbre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La vitesse peut être mesurée en mètres par seconde (m/s) ou en kilomètres par heure (km/h). Vrai ou Faux ?"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

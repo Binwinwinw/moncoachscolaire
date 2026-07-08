@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 220",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 6eme : Conception.",
+    "status": "published",
+    "created_at": "2026-04-26 21:47:01",
+    "updated_at": "2026-04-26 21:47:01"
+  },
+  "quiz": {
+    "title": "Conception.",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quels sont des concepts de base en conception ?",
+        "choices": [
+          "Signal analogique",
+          "Signal numérique",
+          "Information binaire",
+          "Tous les concepts mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un signal analogique est caractérisé par sa continuité et sa capacité à prendre une infinité de valeurs dans une plage donnée. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple de signal numérique ?",
+        "choices": [
+          "Signal de télévision analogique",
+          "Signal de téléphone analogique",
+          "Signal de données numériques",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'information binaire est une forme d'information codée en utilisant deux états (0 et 1) pour représenter les données. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple d'information qui peut être représentée en binaire ?",
+        "choices": [
+          "Texte",
+          "Image",
+          "Son",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il n'y a pas de différence entre les signaux analogiques et numériques. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple de technologie qui utilise des signaux numériques ?",
+        "choices": [
+          "Télévision analogique",
+          "Téléphone analogique",
+          "Ordinateur",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Tous les systèmes de communication utilisent des signaux numériques. Vrai ou Faux ?"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6ème - Série 42",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6ème : Vocabulaire de base : prononciation de chiffres et de lettres",
+    "status": "published",
+    "created_at": "2026-04-26T21:32:48.869012Z",
+    "updated_at": "2026-04-26T21:32:48.869012Z"
+  },
+  "quiz": {
+    "title": "Vocabulaire de base : prononciation de chiffres et de lettres",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Which of the following is the correct English pronunciation for the number '1'?",
+        "choices": [
+          "One",
+          "Two",
+          "Three",
+          "Four"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English pronunciation for the letter 'A' is 'ay'' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is the correct English pronunciation for the number '5'?",
+        "choices": [
+          "Five",
+          "Six",
+          "Seven",
+          "Eight"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English pronunciation for the letter 'B' is 'bee'' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is the correct English pronunciation for the number '10'?",
+        "choices": [
+          "Ten",
+          "Eleven",
+          "Twelve",
+          "Thirteen"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English pronunciation for the letter 'C' is 'see'' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is the correct English pronunciation for the number '20'?",
+        "choices": [
+          "Twenty",
+          "Thirty",
+          "Forty",
+          "Fifty"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English pronunciation for the letter 'D' is 'dee'' is a True statement."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

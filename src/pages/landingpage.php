@@ -19,6 +19,12 @@ if ($direct_access) {
     if (is_file($site_boot)) {
         require_once $site_boot;
     }
+    if (is_file(dirname(__DIR__, 2) . '/includes/level_normalization.php')) {
+        require_once dirname(__DIR__, 2) . '/includes/level_normalization.php';
+    }
+    if (is_file(dirname(__DIR__, 2) . '/includes/app_theme_bootstrap.php')) {
+        require_once dirname(__DIR__, 2) . '/includes/app_theme_bootstrap.php';
+    }
 
     $page_class  = $page_class ?: 'landing-page';
     if (empty($page_css)) {
@@ -27,6 +33,16 @@ if ($direct_access) {
     if (empty($page_title)) {
         $page_title = 'Accueil - MonCoachScolaire';
     }
+
+    if (function_exists('ensure_session_started')) {
+        ensure_session_started();
+    } elseif (session_status() === PHP_SESSION_NONE && !headers_sent()) {
+        session_start();
+    }
+
+    $app_theme = function_exists('bootstrap_app_theme')
+        ? bootstrap_app_theme(null, null)
+        : ['tier' => 'neutral', 'level_key' => 'neutral', 'variant' => []];
 
     ?><!doctype html>
     <html lang="fr">
@@ -49,14 +65,16 @@ if ($direct_access) {
           <?php if (!empty($page_css)): ?>
             <link rel="stylesheet" href="<?php echo function_exists('asset_url') ? asset_url('assets/css/pages/' . $page_css) : ($root . '/assets/css/pages/' . htmlspecialchars($page_css)); ?>">
           <?php endif; ?>
+          <link rel="stylesheet" href="<?php echo function_exists('asset_url') ? asset_url('assets/css/theme-level.css') : ($root . '/assets/css/theme-level.css'); ?>">
         <?php else: ?>
           <link rel="stylesheet" href="<?php echo function_exists('asset_url') ? asset_url('assets/css/tailwind.css') : 'assets/css/tailwind.css'; ?>">
           <?php if (!empty($page_css)): ?>
             <link rel="stylesheet" href="<?php echo function_exists('asset_url') ? asset_url('assets/css/pages/' . $page_css) : ('assets/css/pages/' . htmlspecialchars($page_css)); ?>">
           <?php endif; ?>
+          <link rel="stylesheet" href="<?php echo function_exists('asset_url') ? asset_url('assets/css/theme-level.css') : 'assets/css/theme-level.css'; ?>">
         <?php endif; ?>
     </head>
-    <body class="app-bg <?php echo htmlspecialchars($page_class ?? ''); ?>">
+    <body class="app-bg theme-<?php echo htmlspecialchars($app_theme['tier'] ?? 'neutral', ENT_QUOTES, 'UTF-8'); ?> <?php echo htmlspecialchars($page_class ?? ''); ?>">
     <?php
     if (is_file(dirname(__DIR__, 2) . '/includes/topbar.php')) {
         require_once dirname(__DIR__, 2) . '/includes/topbar.php';
@@ -115,6 +133,13 @@ if (!$is_admin && file_exists(dirname(__DIR__, 2) . '/includes/admin_auth.php'))
 
 $is_college = is_college_level($user_level);
 $is_lycee   = is_lycee_level($user_level);
+
+$app_theme = $GLOBALS['app_theme'] ?? [
+    'tier' => 'neutral',
+    'level_key' => 'neutral',
+    'variant' => function_exists('get_neutral_theme_variant') ? get_neutral_theme_variant() : [],
+];
+$student_theme = is_array($app_theme['variant'] ?? null) ? $app_theme['variant'] : [];
 ?>
 
     <!-- ═══════════════ CSS LANDING V2 ═══════════════ -->
@@ -152,7 +177,7 @@ $is_lycee   = is_lycee_level($user_level);
                 Accédez aux résultats, aux activités et aux outils de suivi pour accompagner votre enfant au quotidien.
               </p>
             <?php else: ?>
-              <p class="text-sm font-semibold uppercase tracking-wide text-blue-700 mb-2">Espace élève</p>
+              <p class="text-sm font-semibold uppercase tracking-wide <?php echo htmlspecialchars($student_theme['title'] ?? 'text-slate-700', ENT_QUOTES, 'UTF-8'); ?> mb-2">Espace élève</p>
               <h1 class="text-3xl md:text-4xl font-extrabold text-slate-900 mb-3">
                 Bienvenue <?php echo htmlspecialchars($user_name); ?> 👋
               </h1>
@@ -195,7 +220,7 @@ $is_lycee   = is_lycee_level($user_level);
               Tu es connecté en tant que <strong>parent</strong>. Accède rapidement aux ressources de suivi de tes enfants ci-dessous.
             </div>
           <?php else: ?>
-            <div class="bg-gradient-to-br from-blue-50 to-blue-100 border-l-4 border-blue-400 p-4 md:p-5 rounded-xl text-sm md:text-base text-slate-800">
+            <div class="<?php echo htmlspecialchars($student_theme['banner'] ?? 'banner-theme', ENT_QUOTES, 'UTF-8'); ?> p-4 md:p-5 rounded-xl text-sm md:text-base text-slate-800">
               <strong class="block mb-1">👋 Salut <?php echo htmlspecialchars($user_name); ?> !</strong>
               Tu es connecté en tant qu’élève de <strong><?php echo htmlspecialchars($user_level_display); ?></strong>.
               Accède rapidement à tes ressources ci-dessous.
@@ -238,8 +263,8 @@ $is_lycee   = is_lycee_level($user_level);
             <a href="<?php echo site_url('parents/dashboard_parent'); ?>" class="px-5 py-2.5 rounded-lg bg-emerald-50 text-emerald-700 text-sm font-semibold border border-emerald-200 shadow-sm hover:bg-emerald-100 transition">
               📊 Dashboard parent
             </a>
-            <a href="<?php echo site_url('parents/suivi_enfant'); ?>" class="px-5 py-2.5 rounded-lg bg-blue-50 text-blue-700 text-sm font-semibold border border-blue-200 shadow-sm hover:bg-blue-100 transition">
-              📈 Suivi enfant
+            <a href="<?php echo site_url('parents/suivi_abo'); ?>" class="px-5 py-2.5 rounded-lg bg-blue-50 text-blue-700 text-sm font-semibold border border-blue-200 shadow-sm hover:bg-blue-100 transition">
+              📦 Suivi Abonnement
             </a>
             <?php
         // Afficher un bouton de suivi pour chaque enfant du parent
@@ -252,7 +277,7 @@ $is_lycee   = is_lycee_level($user_level);
                 if (empty($enfantName)) {
                     $enfantName = $enfant['Username'] ?? 'Enfant';
                 }
-                $url = site_url('parents/suivi_enfant') . '&id=' . $enfant['Id'];
+                $url = site_url('parents/suivi_enfant') . '?id=' . $enfant['Id'];
                 echo '<a href="' . htmlspecialchars($url) . '" class="px-5 py-2.5 rounded-lg border border-emerald-200 text-emerald-700 text-sm font-semibold shadow-sm hover:bg-emerald-50 transition">📈 Suivi de ' . htmlspecialchars($enfantName) . '</a>';
             }
         }
@@ -268,19 +293,19 @@ $is_lycee   = is_lycee_level($user_level);
         <div class="mb-10">
           <h2 class="text-xl font-bold text-center text-slate-900 mb-4">👦 Menu élève</h2>
           <div class="flex flex-wrap gap-3 justify-center">
-            <a href="<?php echo site_url('eleve/dashboard'); ?>" class="px-5 py-2.5 rounded-lg bg-green-700 text-white text-sm font-semibold shadow hover:bg-green-800 transition">
+            <a href="<?php echo site_url('eleve/dashboard'); ?>" class="px-5 py-2.5 rounded-lg text-sm font-semibold shadow transition <?php echo htmlspecialchars($student_theme['menu_primary'] ?? 'btn-theme-primary', ENT_QUOTES, 'UTF-8'); ?>">
               🏠 Dashboard élève
             </a>
-            <a href="<?php echo site_url('exercices'); ?>" class="px-5 py-2.5 rounded-lg bg-green-50 text-green-800 text-sm font-semibold border border-green-200 shadow-sm hover:bg-green-100 transition">
+            <a href="<?php echo site_url('exercices'); ?>" class="px-5 py-2.5 rounded-lg text-sm font-semibold shadow-sm transition <?php echo htmlspecialchars($student_theme['menu_secondary'] ?? 'btn-theme-secondary', ENT_QUOTES, 'UTF-8'); ?>">
               ✏️ Exercices
             </a>
-            <a href="<?php echo site_url('cours'); ?>" class="px-5 py-2.5 rounded-lg border border-green-200 text-green-800 text-sm font-semibold shadow-sm hover:bg-green-50 transition">
+            <a href="<?php echo site_url('cours'); ?>" class="px-5 py-2.5 rounded-lg text-sm font-semibold shadow-sm transition <?php echo htmlspecialchars($student_theme['menu_secondary'] ?? 'btn-theme-secondary', ENT_QUOTES, 'UTF-8'); ?>">
               📚 Cours
             </a>
-            <a href="<?php echo site_url('diagnostic'); ?>" class="px-5 py-2.5 rounded-lg border border-green-200 text-green-800 text-sm font-semibold shadow-sm hover:bg-green-50 transition">
+            <a href="<?php echo site_url('diagnostic'); ?>" class="px-5 py-2.5 rounded-lg text-sm font-semibold shadow-sm transition <?php echo htmlspecialchars($student_theme['menu_secondary'] ?? 'btn-theme-secondary', ENT_QUOTES, 'UTF-8'); ?>">
               🧪 Diagnostic
             </a>
-            <a href="<?php echo site_url('system/progression'); ?>" class="px-5 py-2.5 rounded-lg border border-green-200 text-green-800 text-sm font-semibold shadow-sm hover:bg-green-50 transition">
+            <a href="<?php echo site_url('system/progression'); ?>" class="px-5 py-2.5 rounded-lg text-sm font-semibold shadow-sm transition <?php echo htmlspecialchars($student_theme['menu_secondary'] ?? 'btn-theme-secondary', ENT_QUOTES, 'UTF-8'); ?>">
               📈 Progression
             </a>
             <a href="<?php echo site_url('logout'); ?>" class="px-5 py-2.5 rounded-lg border border-slate-200 text-slate-700 text-sm font-semibold shadow-sm hover:bg-slate-50 transition">

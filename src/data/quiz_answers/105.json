@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 6eme - Série 105",
+    "level": "6eme",
+    "subject": "EMC"
+  },
+  "quiz": {
+    "title": "EMC 6e - Les droits et devoirs du citoyen",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "EMC",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "La liberté d'expression, le droit de vote, le droit à l'éducation",
+        "correction": "Les droits fondamentaux des citoyens français incluent la liberté d'expression, le droit de vote, le droit à l'éducation, et d'autres droits garantis par la Constitution."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Les citoyens français ont le devoir de respecter les lois pour garantir le bon fonctionnement de la société."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Respecter les lois, payer des impôts, participer à la vie démocratique",
+        "correction": "Les devoirs des citoyens français incluent le respect des lois, le paiement des impôts et la participation à la vie démocratique pour contribuer au bien-être de la société."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Les citoyens français ont le devoir de respecter les lois, même s'ils ne sont pas d'accord avec elles. Cependant, ils peuvent exprimer leur désaccord de manière pacifique et démocratique, par exemple en votant ou en participant à des manifestations légales."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "La participation citoyenne permet aux citoyens de s'impliquer dans les décisions qui affectent leur vie et de contribuer au fonctionnement de la démocratie.",
+        "correction": "La participation citoyenne est essentielle dans une démocratie, car elle permet aux citoyens de s'impliquer dans les décisions qui affectent leur vie et de contribuer au fonctionnement de la démocratie à travers le vote, le bénévolat, la participation à des associations ou des mouvements sociaux."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Les citoyens français ont le devoir de payer des impôts pour financer les services publics et les infrastructures, même s'ils ne sont pas d'accord avec les politiques fiscales du gouvernement. Cependant, ils peuvent exprimer leur désaccord de manière pacifique et démocratique, par exemple en votant ou en participant à des manifestations légales."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "L'éducation civique permet aux citoyens français de comprendre leurs droits et devoirs, ainsi que le fonctionnement des institutions de la République.",
+        "correction": "L'éducation civique joue un rôle crucial dans la formation des citoyens français en leur permettant de comprendre leurs droits et devoirs, ainsi que le fonctionnement des institutions de la République, ce qui les prépare à participer activement à la vie démocratique."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Les citoyens français ont le droit de choisir s'ils souhaitent ou non participer à la vie démocratique, que ce soit en votant, en s'engageant dans des associations ou en exprimant leurs opinions. Cependant, la participation citoyenne est encouragée pour renforcer la démocratie et contribuer au bien-être de la société."
+      }
+    ]
+  }
+}

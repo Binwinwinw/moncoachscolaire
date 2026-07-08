@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 161",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - Les règles de ponctuation",
+    "status": "published",
+    "created_at": "2026-04-26T21:46:18.971665Z",
+    "updated_at": "2026-04-26T21:46:18.971665Z"
+  },
+  "quiz": {
+    "title": "Français 6e - Les règles de ponctuation",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel signe de ponctuation est utilisé pour marquer la fin d'une phrase déclarative ?",
+        "choices": [
+          ".",
+          "?",
+          "!",
+          ","
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le point d'interrogation est utilisé pour marquer la fin d'une phrase interrogative, qui pose une question ou demande une information."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel signe de ponctuation est utilisé pour marquer la fin d'une phrase exclamative ?",
+        "choices": [
+          ".",
+          "?",
+          "!",
+          ","
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La virgule est utilisée pour séparer les éléments d'une liste, les propositions subordonnées ou les incises dans une phrase."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel signe de ponctuation est utilisé pour séparer les éléments d'une liste ?",
+        "choices": [
+          ".",
+          "?",
+          "!",
+          ","
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation correcte de la ponctuation peut contribuer à améliorer la clarté et l'efficacité de la communication écrite en aidant à structurer les phrases et à exprimer les idées de manière plus précise."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel signe de ponctuation est utilisé pour marquer la fin d'une phrase impérative ?",
+        "choices": [
+          ".",
+          "?",
+          "!",
+          ","
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation excessive de la ponctuation peut parfois rendre un texte difficile à lire et à comprendre, en créant une surcharge d'informations ou en perturbant le rythme de la lecture."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

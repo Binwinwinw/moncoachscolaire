@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 232",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 6eme : Prototypage et vérification d'un prototype.",
+    "status": "published",
+    "created_at": "2026-04-26 21:47:01",
+    "updated_at": "2026-04-26 21:47:01"
+  },
+  "quiz": {
+    "title": "Prototypage et vérification d'un prototype.",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quels sont des concepts de base en prototypage et vérification d'un prototype ?",
+        "choices": [
+          "Prototypage",
+          "Vérification d'un prototype",
+          "Types de prototypes",
+          "Tous les concepts mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le prototypage est le processus de création d'une version préliminaire ou d'un modèle d'un produit ou d'une solution pour tester et valider les idées. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple de type de prototype ?",
+        "choices": [
+          "Prototype physique",
+          "Prototype numérique",
+          "Prototype fonctionnel",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La vérification d'un prototype implique l'évaluation du prototype pour s'assurer qu'il répond aux exigences et aux attentes des utilisateurs. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple de méthode de vérification d'un prototype ?",
+        "choices": [
+          "Tests utilisateurs",
+          "Analyse de la conformité aux exigences",
+          "Évaluation de la performance",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il n'y a pas de différence entre les différentes méthodes de vérification d'un prototype. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple d'outil utilisé pour le prototypage ?",
+        "choices": [
+          "SketchUp pour les prototypes physiques",
+          "Adobe XD pour les prototypes numériques",
+          "Arduino pour les prototypes fonctionnels",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Tous les utilisateurs sont conscients de l'importance du prototypage et de la vérification d'un prototype. Vrai ou Faux ?"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

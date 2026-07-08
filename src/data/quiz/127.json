@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 6eme - Série 127",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 6eme : EMC 6e - Critique publicité",
+    "status": "published",
+    "created_at": "2026-04-26T21:35:49.208687Z",
+    "updated_at": "2026-04-26T21:35:49.208687Z"
+  },
+  "quiz": {
+    "title": "EMC 6e - Critique publicité",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Pourquoi est-il important de respecter les règles de critique de la publicité ?",
+        "choices": [
+          "Le respect des règles de critique de la publicité garantit la promotion d'une consommation responsable, le respect des autres et la construction d'une société plus juste et solidaire.",
+          "Le respect des règles de critique de la publicité est inutile, car les individus peuvent agir comme ils le souhaitent.",
+          "Le respect des règles de critique de la publicité est réservé aux élites politiques et économiques.",
+          "Le respect des règles de critique de la publicité est limité aux écoles uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect des règles de critique de la publicité est un concept qui promeut la non-intervention dans les affaires des individus."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle de l'éducation dans le respect des règles de critique de la publicité ?",
+        "choices": [
+          "L'éducation joue un rôle crucial en sensibilisant les individus aux règles de critique de la publicité et en promouvant le respect de ces règles.",
+          "L'éducation est inutile dans le respect des règles de critique de la publicité, car les individus peuvent apprendre par eux-mêmes.",
+          "L'éducation est réservée aux élites politiques et économiques.",
+          "L'éducation est limitée aux écoles uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect des règles de critique de la publicité est un concept qui promeut la non-intervention dans les affaires des individus. (variante 2)"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle des médias dans le respect des règles de critique de la publicité ?",
+        "choices": [
+          "Les médias ont un rôle important en promouvant des représentations positives du respect des règles de critique de la publicité et en sensibilisant le public à l'importance de ces règles.",
+          "Les médias sont inutiles dans le respect des règles de critique de la publicité, car les individus peuvent apprendre par eux-mêmes.",
+          "Les médias sont réservés aux élites politiques et économiques.",
+          "Les médias sont limités aux écoles uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect des règles de critique de la publicité est un concept qui promeut la non-intervention dans les affaires des individus. (variante 3)"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle des parents dans le respect des règles de critique de la publicité ?",
+        "choices": [
+          "Les parents ont un rôle important en sensibilisant leurs enfants aux règles de critique de la publicité et en promouvant le respect de ces règles.",
+          "Les parents sont inutiles dans le respect des règles de critique de la publicité, car les individus peuvent apprendre par eux-mêmes.",
+          "Les parents sont réservés aux élites politiques et économiques.",
+          "Les parents sont limités aux écoles uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect des règles de critique de la publicité est un concept qui promeut la non-intervention dans les affaires des individus. (variante 4)"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

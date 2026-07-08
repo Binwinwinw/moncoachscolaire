@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 225",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Vérification d'un prototype.",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Tous les concepts mentionnés",
+        "correction": "Les concepts de base en vérification d'un prototype comprennent le test de validation, qui vise à s'assurer que le prototype répond aux besoins et aux attentes des utilisateurs, le test de vérification, qui vise à s'assurer que le prototype fonctionne correctement et conformément aux spécifications, et le test de performance, qui évalue la rapidité, l'efficacité, et la fiabilité du prototype dans des conditions d'utilisation réelles."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, le test de validation vise à s'assurer que le prototype répond aux besoins et aux attentes des utilisateurs en évaluant son adéquation avec les exigences fonctionnelles et les préférences des utilisateurs."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "Le test unitaire, le test d'intégration, et le test de système sont tous des exemples de tests de vérification qui peuvent être utilisés pour s'assurer que le prototype fonctionne correctement et conformément aux spécifications à différents niveaux du développement."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, le test de performance évalue la rapidité, l'efficacité, et la fiabilité du prototype dans des conditions d'utilisation réelles pour s'assurer qu'il peut répondre aux exigences de performance attendues par les utilisateurs."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "JUnit, Selenium, et Postman sont tous des outils qui peuvent être utilisés pour effectuer des tests sur un prototype, offrant des fonctionnalités spécifiques pour les tests unitaires, les tests d'intégration, et les tests de performance."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, il existe une différence entre les différents types de tests pour la vérification d'un prototype en termes de leur objectif, de leur portée, et de leur méthodologie."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "Tous les exemples mentionnés (le prototype doit répondre aux besoins des utilisateurs, le prototype doit fonctionner correctement, le prototype doit être performant) sont des critères d'acceptation importants pour la validation d'un prototype, car ils garantissent que le prototype est adapté à son usage prévu et satisfait les exigences des utilisateurs."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, tous les prototypes ne sont pas vérifiés de la même manière, car la vérification peut varier en fonction du type de prototype, du domaine d'application, et des exigences spécifiques du projet."
+      }
+    ]
+  }
+}

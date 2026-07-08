@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 227",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Cahier des charges et contraintes.",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Le cahier des charges est un document qui définit précisément les besoins, objectifs et exigences d'un projet.",
+        "correction": "Le cahier des charges est un document essentiel dans la gestion de projet qui définit précisément les besoins, objectifs et exigences d'un projet pour guider le développement et assurer que les objectifs du projet sont atteints. Les contraintes techniques sont des limitations ou des exigences liées à la technologie utilisée dans le projet, tandis que les contraintes économiques sont des limitations ou des exigences liées au budget et aux ressources financières disponibles pour le projet."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, le cahier des charges est un document essentiel dans la gestion de projet qui décrit les exigences, les spécifications, et les critères de réussite d'un projet ou d'un produit pour guider le développement et assurer que les objectifs du projet sont atteints."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "La limitation de la bande passante, la compatibilité avec les systèmes existants, et la disponibilité des ressources matérielles sont tous des exemples de contraintes techniques qui peuvent affecter la conception et le développement d'un projet ou d'un produit."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, les contraintes économiques ont un impact significatif sur la gestion de projet, car elles peuvent limiter les ressources disponibles, affecter les délais, et influencer les décisions prises tout au long du projet."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "Un budget limité, des ressources humaines insuffisantes, et un délai serré sont tous des exemples de contraintes économiques qui peuvent affecter la gestion de projet en limitant les ressources disponibles et en influençant les décisions prises pour atteindre les objectifs du projet."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, il existe une différence entre les différentes contraintes dans un projet en termes de leur nature, de leur impact, et des stratégies nécessaires pour les gérer efficacement."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "Le diagramme de Gantt, l'analyse SWOT, et la matrice de priorisation sont tous des outils qui peuvent être utilisés pour gérer les contraintes dans un projet en aidant à planifier, analyser, et prioriser les tâches et les ressources pour atteindre les objectifs du projet malgré les limitations et les exigences."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, tous les projets n'ont pas les mêmes contraintes, car ils peuvent varier considérablement en fonction de leur nature, de leurs objectifs, et des ressources disponibles."
+      }
+    ]
+  }
+}

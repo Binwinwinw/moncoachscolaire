@@ -1,0 +1,50 @@
+{
+    "contents": {
+        "title": "Quiz IA Espagnol - 6eme",
+        "level": "6eme",
+        "subject": "Espagnol"
+    },
+    "quiz": {
+        "title": "Quiz IA Espagnol - 6eme",
+        "question_count": 5,
+        "level": "6eme",
+        "subject": "Espagnol",
+        "answers": [
+            {
+                "index": 0,
+                "question_id": 1,
+                "type": "qcm",
+                "answer": "a) Hola, ¿cómo estás?",
+                "correction": "La bonne réponse est : a) Hola, ¿cómo estás?"
+            },
+            {
+                "index": 1,
+                "question_id": 2,
+                "type": "qcm",
+                "answer": "b) las casas",
+                "correction": "La bonne réponse est : b) las casas"
+            },
+            {
+                "index": 2,
+                "question_id": 3,
+                "type": "qcm",
+                "answer": "a) Me llamo",
+                "correction": "La bonne réponse est : a) Me llamo"
+            },
+            {
+                "index": 3,
+                "question_id": 4,
+                "type": "qcm",
+                "answer": "b) tener",
+                "correction": "La bonne réponse est : b) tener"
+            },
+            {
+                "index": 4,
+                "question_id": 5,
+                "type": "qcm",
+                "answer": "b) Me he perdido",
+                "correction": "La bonne réponse est : b) Me he perdido"
+            }
+        ]
+    }
+}

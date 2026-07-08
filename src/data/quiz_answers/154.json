@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 154",
+    "level": "6eme",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Français 6e - Le schéma narratif",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Situation initiale, élément déclencheur, péripéties, résolution",
+        "correction": "Le schéma narratif classique qui décrit la structure d'une histoire est : Situation initiale, élément déclencheur, péripéties, résolution."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Le schéma narratif permet d'organiser les événements d'une histoire de manière logique et cohérente, en suivant une progression qui maintient l'intérêt du lecteur."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Situation initiale",
+        "correction": "La situation initiale correspond à l'introduction de l'histoire, où les personnages et le cadre sont présentés."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. L'élément déclencheur est l'événement qui perturbe la situation initiale et lance l'intrigue de l'histoire, en créant un conflit ou une tension qui doit être résolue."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Péripéties",
+        "correction": "Les péripéties correspondent aux événements et aux actions qui se déroulent après l'élément déclencheur et qui mènent à la résolution de l'histoire."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. La résolution est la partie de l'histoire où les conflits sont résolus et où les questions soulevées dans l'intrigue trouvent une conclusion, souvent en apportant une leçon ou une morale."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Élément déclencheur",
+        "correction": "L'élément déclencheur est l'événement qui perturbe la situation initiale et lance l'intrigue de l'histoire, en créant un conflit ou une tension qui doit être résolue."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Le schéma narratif peut être utilisé pour analyser la structure d'une histoire et comprendre comment les événements sont organisés pour créer une intrigue captivante, en identifiant les différentes étapes de l'intrigue et leur fonction dans le récit."
+      }
+    ]
+  }
+}

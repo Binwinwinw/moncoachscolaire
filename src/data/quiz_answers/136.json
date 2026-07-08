@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 6eme - Série 136",
+    "level": "6eme",
+    "subject": "EMC"
+  },
+  "quiz": {
+    "title": "EMC 6e - Institutions locales (mairie)",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "EMC",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Une institution locale est une organisation ou un organisme qui gère les affaires locales et prend des décisions au niveau local.",
+        "correction": "Les institutions locales, comme les mairies, sont responsables de la gestion des affaires locales et de la prise de décisions au niveau local."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Les institutions locales, comme les mairies, ont un impact significatif sur la vie quotidienne des citoyens en gérant les services publics locaux, en organisant des événements communautaires et en prenant des décisions qui affectent directement la communauté locale."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "La mairie est responsable de la gestion des affaires locales, de la prise de décisions au niveau local et de la fourniture de services publics locaux.",
+        "correction": "La mairie joue un rôle central dans la gestion des affaires locales, la prise de décisions au niveau local et la fourniture de services publics locaux."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Les institutions locales, comme les mairies, sont essentielles pour garantir la participation citoyenne et la démocratie locale en permettant aux citoyens de s'impliquer dans les décisions qui affectent leur communauté locale."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Les médias jouent un rôle crucial en informant le public sur les activités des institutions locales et en encourageant la participation citoyenne.",
+        "correction": "Les médias jouent un rôle crucial en informant le public sur les activités des institutions locales, en encourageant la participation citoyenne et en garantissant la transparence dans la gestion des affaires locales."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Les institutions locales, comme les mairies, ont un impact significatif sur la vie quotidienne des citoyens en gérant les services publics locaux, en organisant des événements communautaires et en prenant des décisions qui affectent directement la communauté locale."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Les parents ont un rôle important en sensibilisant leurs enfants aux institutions locales et en encourageant leur participation citoyenne.",
+        "correction": "Les parents ont un rôle important en sensibilisant leurs enfants aux institutions locales, en encourageant leur participation citoyenne et en contribuant à la formation de citoyens responsables."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Les institutions locales, comme les mairies, sont essentielles pour garantir la participation citoyenne et la démocratie locale en permettant aux citoyens de s'impliquer dans les décisions qui affectent leur communauté locale."
+      }
+    ]
+  }
+}

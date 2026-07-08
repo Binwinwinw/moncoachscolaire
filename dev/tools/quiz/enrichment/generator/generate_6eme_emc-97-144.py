@@ -11,7 +11,7 @@ import random
 from datetime import UTC, datetime
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", "..", ".."))
+REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", "..", "..", "..", ".."))
 OUTPUT_DIR = os.path.join(SCRIPT_DIR, "emc_6eme_quizzes")
 QUIZ_DIR = os.path.join(OUTPUT_DIR, "quiz")
 ANSWERS_DIR = os.path.join(OUTPUT_DIR, "quiz_answers")
@@ -4267,7 +4267,7 @@ def build_true_false_statement(question_text, fallback_answer=""):
 
 def make_quiz(qid, title, subject, level, questions):
     level = normalize_level_label(level)
-    created_at = datetime.now(UTC).strftime("%Y-%m-%d %H:%M:%S")
+    created_at = datetime.now(UTC).isoformat().replace("+00:00", "Z")
     runtime_questions = []
     for question in questions:
         qtype = normalize_question_type(question.get("type", ""))
@@ -4276,7 +4276,7 @@ def make_quiz(qid, title, subject, level, questions):
         elif qtype == "vrai-faux":
             runtime_questions.append({"type": "vrai-faux", "question": str(question.get("question", ""))})
         else:
-            runtime_questions.append({"type": "vrai-faux", "question": build_true_false_statement(question.get("question", ""), question.get("correct_answer", ""))})
+            raise ValueError(f"Type de question inconnu : {qtype!r}")
     return {
         "contents": {"title": f"Quiz Diagnostic {subject} {level} - Série {qid}", "type": "quiz", "level": level, "subject": subject, "description": f"Diagnostic {subject} {level} : {title}", "status": "published", "created_at": created_at, "updated_at": created_at},
         "quiz": {"title": title, "type": "quiz", "level": level, "subject": subject, "question_count": len(runtime_questions), "passing_score": 70, "time_limit_minutes": 15, "questions": runtime_questions},
@@ -4288,12 +4288,13 @@ def make_answers(qid, title, subject, level, questions):
     level = normalize_level_label(level)
     answers = []
     for index, q in enumerate(questions):
-        if q["type"] == "qcm":
+        qtype = normalize_question_type(q.get("type", ""))
+        if qtype == "qcm":
             answers.append({"index": index, "question_id": index + 1, "type": "qcm", "answer": q["correct_option"], "correction": q["explanation"]})
-        elif q["type"] == "vrai-faux":
+        elif qtype == "vrai-faux":
             answers.append({"index": index, "question_id": index + 1, "type": "vrai-faux", "answer": "vrai" if q["correct"] else "faux", "correction": q["explanation"]})
         else:
-            answers.append({"index": index, "question_id": index + 1, "type": "vrai-faux", "answer": "vrai" if q.get("correct", True) else "faux", "correction": q["explanation"]})
+            raise ValueError(f"Type de question inconnu : {qtype!r}")
     return {
         "contents": {"title": f"Quiz Diagnostic {subject} {level} - Série {qid}", "level": level, "subject": subject},
         "quiz": {"title": title, "question_count": len(answers), "level": level, "subject": subject, "answers": answers},

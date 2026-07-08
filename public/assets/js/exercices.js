@@ -3,6 +3,37 @@
 // ... (suppression du doublon matieresParNiveau, gardé uniquement en haut du fichier)
 
 document.addEventListener("DOMContentLoaded", function () {
+    function normalizeLevelKey(level) {
+        if (!level) return "";
+        const normalized = String(level)
+            .toLowerCase()
+            .trim()
+            .replace(/\s+/g, "")
+            .normalize("NFKD")
+            .replace(/[\u0300-\u036f]/g, "");
+        const aliases = {
+            "6me": "6eme",
+            "6eme": "6eme",
+            "5me": "5eme",
+            "5eme": "5eme",
+            "4me": "4eme",
+            "4eme": "4eme",
+            "3me": "3eme",
+            "3eme": "3eme",
+            "2nde": "2nde",
+            "1ere": "1ere",
+            terminale: "terminale",
+            premiere: "1ere",
+            seconde: "2nde",
+            quatrieme: "4eme",
+            cinquieme: "5eme",
+            sixieme: "6eme",
+            troisieme: "3eme",
+            bac: "bac",
+        };
+        return aliases[normalized] || normalized;
+    }
+
     // Mapping matières par niveau — déclaré EN PREMIER pour éviter le Temporal Dead Zone
     const matieresParNiveau = {
         "6eme": [
@@ -101,6 +132,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const cardContainer = document.getElementById("random-exercise-card");
     const errorDiv = document.getElementById("random-exercise-error");
     const niveauGrid = document.getElementById("niveau-grid");
+    const niveauSection = document.getElementById("niveau-section");
     const matiereSection = document.getElementById("matiere-section");
     const matiereList = document.getElementById("matiere-list");
     const btnRandom = document.getElementById("btn-random-exercise");
@@ -108,11 +140,17 @@ document.addEventListener("DOMContentLoaded", function () {
     let currentSubject = null;
 
     // Initialisation automatique pour les élèves connectés (niveau connu)
-    if (window.EXERCICE_USER_LEVEL && matiereList) {
-        userLevel = window.EXERCICE_USER_LEVEL;
+    const resolvedLevel = normalizeLevelKey(
+        window.EXERCICE_USER_LEVEL ||
+            window.__USER_LEVEL ||
+            window.userLevel ||
+            "",
+    );
+    if (resolvedLevel && matiereList) {
+        userLevel = resolvedLevel;
         // Générer la liste des matières pour ce niveau
         matiereList.innerHTML = "";
-        (matieresParNiveau[userLevel] || []).forEach((matiere) => {
+        (matieresParNiveau[resolvedLevel] || []).forEach((matiere) => {
             const mBtn = document.createElement("button");
             mBtn.className =
                 "matiere-btn px-4 py-2 rounded-full bg-slate-100 text-slate-700 font-semibold shadow hover:bg-blue-100 transition";
@@ -150,13 +188,13 @@ document.addEventListener("DOMContentLoaded", function () {
             '<div class="text-blue-700 text-lg font-semibold py-8">Cliquez sur un niveau scolaire pour découvrir un exercice interactif adapté&nbsp;!</div>';
     }
     if (!window.EXERCICE_USER_LEVEL || !matiereList) {
-        if (matiereSection) matiereSection.classList.add("hidden");
+        if (matiereSection) matiereSection.style.display = "none";
     }
     if (errorDiv) errorDiv.classList.add("hidden");
 
     // Fonction pour charger un exercice
     function loadRandomExercise(level, subject = null) {
-        userLevel = level;
+        userLevel = normalizeLevelKey(level);
         cardContainer.innerHTML =
             '<div class="text-slate-400 py-8">Chargement...</div>';
         errorDiv.classList.add("hidden");
@@ -221,8 +259,9 @@ document.addEventListener("DOMContentLoaded", function () {
     // Fonction de rendu des boutons matière pour un niveau donné
     function renderMatiereButtons(level) {
         if (!matiereList) return;
+        const normalizedLevel = normalizeLevelKey(level);
         matiereList.innerHTML = "";
-        (matieresParNiveau[level] || []).forEach((matiere) => {
+        (matieresParNiveau[normalizedLevel] || []).forEach((matiere) => {
             const mBtn = document.createElement("button");
             mBtn.className =
                 "matiere-btn px-4 py-2 rounded-full bg-slate-100 text-slate-700 font-semibold shadow hover:bg-blue-100 transition";
@@ -254,7 +293,7 @@ document.addEventListener("DOMContentLoaded", function () {
             btn.style.cursor = "pointer";
             btn.addEventListener("click", function (e) {
                 e.preventDefault();
-                const level = btn.getAttribute("data-level");
+                const level = normalizeLevelKey(btn.getAttribute("data-level"));
                 userLevel = level;
                 etape = 1;
                 setStep(1);

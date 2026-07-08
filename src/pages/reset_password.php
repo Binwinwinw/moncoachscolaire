@@ -13,6 +13,11 @@ if (!isset($pdo) || !$pdo) {
 if (is_file(dirname(__DIR__, 2) . '/includes/login_security.php')) {
     require_once dirname(__DIR__, 2) . '/includes/login_security.php';
 }
+if (is_file(dirname(__DIR__, 2) . '/includes/security_logger.php')) {
+    require_once dirname(__DIR__, 2) . '/includes/security_logger.php';
+}
+
+global $pdo;
 
 $csrfToken = function_exists('generateCSRFToken')
     ? generateCSRFToken()
@@ -21,14 +26,44 @@ $csrfToken = function_exists('generateCSRFToken')
 $error = null;
 $success = null;
 $token = $_GET['token'] ?? '';
+$reset = null;
+$securityLogger = ensureSecurityLogger($pdo ?? null);
+if (!isset($_SESSION['request_id']) || $_SESSION['request_id'] === '') {
+    $_SESSION['request_id'] = bin2hex(random_bytes(8));
+}
+
+$rateLimitIdentifier = $token !== '' ? $token : ($_SERVER['REMOTE_ADDR'] ?? 'unknown');
+$rateLimit = checkLoginAttempts($rateLimitIdentifier, 'reset_password');
+if (!$rateLimit['allowed']) {
+    $error = $rateLimit['message'];
+    if ($securityLogger instanceof SecurityLogger) {
+        $securityLogger->log('auth_blocked', [
+            'scope' => 'reset_password',
+            'result' => 'blocked',
+            'identifier' => $rateLimitIdentifier,
+            'failure_reason' => 'rate_limited',
+            'ip_address' => $_SERVER['REMOTE_ADDR'] ?? null,
+            'user_agent' => $_SERVER['HTTP_USER_AGENT'] ?? null,
+            'request_id' => $_SESSION['request_id'] ?? null,
+            'metadata' => ['remaining' => $rateLimit['remaining'] ?? null],
+        ]);
+    }
+}
 
 // Vérifier le token
 $user = null;
-if ($token) {
+if ($token && $error === null) {
     if (isset($pdo) && $pdo instanceof PDO) {
+        $tokenHash = hash('sha256', $token);
         $stmt = $pdo->prepare("SELECT * FROM password_resets WHERE token = ? AND used = 0 AND expires_at > NOW() LIMIT 1");
-        $stmt->execute([$token]);
+        $stmt->execute([$tokenHash]);
         $reset = $stmt->fetch();
+        if (!$reset) {
+            // Compatibilité transitoire pour les tokens legacy stockés en clair
+            $stmtLegacy = $pdo->prepare("SELECT * FROM password_resets WHERE token = ? AND used = 0 AND expires_at > NOW() LIMIT 1");
+            $stmtLegacy->execute([$token]);
+            $reset = $stmtLegacy->fetch();
+        }
         if ($reset) {
             // Récupérer l'utilisateur
             $stmtUser = $pdo->prepare("SELECT Id, Username, Email FROM users WHERE Id = ? LIMIT 1");
@@ -36,6 +71,17 @@ if ($token) {
             $user = $stmtUser->fetch();
         } else {
             $error = "Lien invalide ou expiré. Veuillez refaire une demande de réinitialisation.";
+            if ($securityLogger instanceof SecurityLogger) {
+                $securityLogger->log('auth_reset_request', [
+                    'scope' => 'reset_password',
+                    'result' => 'failure',
+                    'identifier' => $token,
+                    'failure_reason' => 'token_invalid',
+                    'ip_address' => $_SERVER['REMOTE_ADDR'] ?? null,
+                    'user_agent' => $_SERVER['HTTP_USER_AGENT'] ?? null,
+                    'request_id' => $_SESSION['request_id'] ?? null,
+                ]);
+            }
         }
     }
 } else {
@@ -60,13 +106,31 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $user) {
     } elseif ($error === null && $new_password !== $confirm_password) {
         $error = "Les mots de passe ne correspondent pas.";
     } elseif ($error === null) {
-        // Mettre à jour le mot de passe
-        $hash = password_hash($new_password, PASSWORD_DEFAULT);
-        $pdo->prepare("UPDATE users SET PasswordHash = ? WHERE Id = ?")->execute([$hash, $user['Id']]);
-        // Marquer le token comme utilisé
-        $pdo->prepare("UPDATE password_resets SET used = 1 WHERE id = ?")->execute([$reset['id']]);
-        $success = "Votre mot de passe a été réinitialisé avec succès. Vous pouvez maintenant vous connecter.";
-        $user = null;
+        $rateLimit = checkLoginAttempts($rateLimitIdentifier, 'reset_password');
+        if (!$rateLimit['allowed']) {
+            $error = $rateLimit['message'];
+        } else {
+            recordFailedAttempt($rateLimitIdentifier, 'reset_password');
+            // Mettre à jour le mot de passe
+            $hash = password_hash($new_password, PASSWORD_DEFAULT);
+            $pdo->prepare("UPDATE users SET PasswordHash = ? WHERE Id = ?")->execute([$hash, $user['Id']]);
+            // Marquer le token comme utilisé
+            $pdo->prepare("UPDATE password_resets SET used = 1 WHERE id = ?")->execute([$reset['id']]);
+            resetLoginAttempts($rateLimitIdentifier, 'reset_password');
+            if ($securityLogger instanceof SecurityLogger) {
+                $securityLogger->log('auth_reset_success', [
+                    'scope' => 'reset_password',
+                    'result' => 'success',
+                    'user_id' => $user['Id'] ?? null,
+                    'identifier' => $user['Email'] ?? null,
+                    'ip_address' => $_SERVER['REMOTE_ADDR'] ?? null,
+                    'user_agent' => $_SERVER['HTTP_USER_AGENT'] ?? null,
+                    'request_id' => $_SESSION['request_id'] ?? null,
+                ]);
+            }
+            $success = "Votre mot de passe a été réinitialisé avec succès. Vous pouvez maintenant vous connecter.";
+            $user = null;
+        }
     }
 }
 ?>

@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 228",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Planification d'un projet.",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Tous les concepts mentionnés",
+        "correction": "Les concepts de base en planification d'un projet comprennent la planification de projet, qui est le processus de définition des objectifs, des tâches, et des échéances pour atteindre les résultats souhaités, la gestion du temps, qui implique l'organisation et la priorisation des tâches pour respecter les délais, et la gestion des ressources, qui consiste à allouer efficacement les ressources humaines, matérielles, et financières pour soutenir la réalisation du projet."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, la planification de projet est un processus essentiel dans la gestion de projet qui implique la définition des objectifs, des tâches, et des échéances pour guider le développement et assurer que les résultats souhaités sont atteints."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "GanttProject, Trello, et Microsoft Project sont tous des outils de planification de projet qui offrent différentes fonctionnalités pour aider à organiser les tâches, gérer les ressources, et suivre l'avancement du projet."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, la gestion du temps est cruciale dans la planification d'un projet, car elle permet de s'assurer que les tâches sont réalisées dans les délais impartis et que les ressources sont utilisées efficacement."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "La méthode Pomodoro, la matrice d'Eisenhower, et la technique de la boîte à outils sont toutes des techniques de gestion du temps qui peuvent aider les individus à organiser leur travail, prioriser les tâches, et améliorer leur productivité."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, il existe une différence entre les différentes techniques de gestion du temps en termes de leur approche, de leur efficacité, et de leur adaptabilité aux différents styles de travail et aux besoins individuels."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "Resource Guru, Smartsheet, et Asana sont tous des outils de gestion des ressources qui offrent des fonctionnalités pour planifier, allouer, et suivre l'utilisation des ressources dans le cadre d'un projet."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, tous les projets ne nécessitent pas la même planification, car ils peuvent varier considérablement en fonction de leur nature, de leurs objectifs, et des ressources disponibles."
+      }
+    ]
+  }
+}

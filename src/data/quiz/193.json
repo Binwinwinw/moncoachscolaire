@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6e - SÃ©rie 193",
+    "type": "quiz",
+    "level": "6e",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 6e : Découverte de la technologie",
+    "status": "published",
+    "created_at": "2026-04-26 21:47:00",
+    "updated_at": "2026-04-26 21:47:00"
+  },
+  "quiz": {
+    "title": "Découverte de la technologie",
+    "type": "quiz",
+    "level": "6e",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que la technologie ?",
+        "choices": [
+          "Une matière scientifique",
+          "L'étude des objets techniques",
+          "Un sport",
+          "Une langue"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La technologie est uniquement utilisée pour fabriquer des ordinateurs. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Donne un exemple d'objet technique que tu utilises tous les jours.",
+        "choices": [
+          "Un smartphone",
+          "Une voiture",
+          "Une lampe",
+          "Autre"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La technologie peut aider à résoudre des problèmes du quotidien. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le but principal de la technologie ?",
+        "choices": [
+          "Améliorer la vie des gens",
+          "Créer des œuvres d'art",
+          "Étudier les animaux",
+          "Faire du sport"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La technologie est un domaine qui évolue rapidement. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'un objet technique ?",
+        "choices": [
+          "Un objet naturel",
+          "Un objet fabriqué par l'homme pour répondre à un besoin",
+          "Un animal",
+          "Une plante"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La technologie peut être utilisée pour créer des œuvres d'art. Vrai ou Faux ?"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

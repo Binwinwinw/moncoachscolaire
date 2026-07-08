@@ -12,6 +12,8 @@ if (session_status() === PHP_SESSION_NONE) {
 $page_css = 'college/6eme/exercices-6eme.css';
 $page_class = 'page-exercices-6eme';
 
+require_once dirname(__DIR__, 4) . '/includes/exercices_page_header.php';
+
 // Détecter l'état de connexion de l'utilisateur pour usage dans la page
 $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
 ?>
@@ -20,44 +22,21 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
     <?php /* ...existing code... */ ?>
 
     <div class="max-w-7xl mx-auto px-4 py-8">
-        <!-- Header Section -->
-        <div class="text-center mb-8">
-            <h1 class="text-4xl font-bold text-gray-800 mb-4 flex items-center justify-center gap-3">
-                <span class="text-6xl">⚔️</span>
-                Exercices 6ème - Quête du Sceptre Unificateur
-            </h1>
-            <p class="text-xl text-gray-600 mb-6">Programme 2025 | Deviens l'Aventurier qui maîtrise tous les savoirs !</p>
-
-            <!-- Navigation Buttons -->
-            <div class="flex flex-wrap justify-center gap-4">
-                <a href="<?php echo function_exists('site_url') ? site_url('cours', ['niveau' => '6eme']) : '/cours?niveau=6eme'; ?>"
-                   class="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors shadow-lg">
-                    <span class="mr-2">📚</span>
-                    Cours 6ème
-                </a>
-                <a href="<?php echo function_exists('site_url') ? site_url('eleve/college/college-accueil') : '/eleve/college/college-accueil'; ?>"
-                   class="inline-flex items-center px-6 py-3 bg-purple-600 text-white font-semibold rounded-lg hover:bg-purple-700 transition-colors shadow-lg">
-                    <span class="mr-2">🏠</span>
-                    Accueil Collège
-                </a>
-                <?php if ($is_logged_in): ?>
-                <?php if (!empty($is_logged_in)): ?>
-                <a href="<?php echo function_exists('site_url') ? site_url('eleve/dashboard') : '/eleve/dashboard'; ?>"
-                   class="inline-flex items-center px-6 py-3 bg-yellow-600 text-white font-semibold rounded-lg hover:bg-yellow-700 transition-colors shadow-lg">
-                    <span class="mr-2">📊</span>
-                    Mon Dashboard
-                </a>
-                <?php endif; ?>
-                <?php endif; ?>
-                <?php if (!empty($is_logged_in)): ?>
-                <a href="<?php echo function_exists('site_url') ? site_url('exercices') : '/exercices'; ?>"
-                   class="inline-flex items-center px-6 py-3 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors shadow-lg border-2 border-blue-700">
-                    <span class="mr-2">📝</span>
-                    Tous les exercices
-                </a>
-                <?php endif; ?>
-            </div>
-        </div>
+        <?php
+        $header_nav = [
+            ['href' => site_url('cours', ['niveau' => '6eme']), 'label' => 'Cours 6ème', 'icon' => '📚', 'tone' => 'primary'],
+            ['href' => site_url('eleve/college/college-accueil'), 'label' => 'Accueil Collège', 'icon' => '🏠', 'tone' => 'secondary'],
+        ];
+        if (!empty($is_logged_in)) {
+            $header_nav[] = ['href' => site_url('eleve/dashboard'), 'label' => 'Mon Dashboard', 'icon' => '📊', 'tone' => 'dashboard'];
+        }
+        render_exercices_page_header([
+            'icon' => '⚔️',
+            'title' => 'Exercices 6ème - Quête du Sceptre Unificateur',
+            'subtitle' => 'Programme 2025 | Deviens l\'Aventurier qui maîtrise tous les savoirs !',
+            'nav_links' => $header_nav,
+        ]);
+        ?>
 
 
 <?php // session initialisée en haut du fichier?>
@@ -74,7 +53,7 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
             }
             echo '<p class="text-center mt-6"><a href="' . site_url('register') . '" class="text-blue-600 hover:text-blue-800 font-medium">Créez un compte</a> ou <a href="' . site_url('login') . '" class="text-blue-600 hover:text-blue-800 font-medium">connectez-vous</a> pour accéder à tous les exercices.</p>';
             ?>
-            <div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-8 mb-8 border border-blue-200">
+            <div class="banner-theme rounded-xl p-8 mb-8">
                 <h2 class="text-2xl font-bold text-gray-800 mb-4 flex items-center gap-3">
                     <span class="text-3xl">🔒</span>
                     Débloque ton Coach Scolaire Personnalisé
@@ -130,7 +109,7 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
         <?php endif; ?>
 
         <!-- Contenu COMPLET pour les utilisateurs connectés -->
-        <div class="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-6">
+        <div class="bg-theme-soft border border-theme rounded-lg p-6 mb-6">
             <strong class="text-blue-800">👋 Salut ! C'est ton Coach Scolaire qui te parle !</strong><br>
             <strong class="text-blue-900">🎭 Thème Narratif : La Quête du Sceptre Unificateur</strong><br>
             <span class="text-blue-700">Bienvenue, jeune Aventurier ! Tu es au début de ta grande quête pour réunir les fragments du Sceptre Unificateur,
@@ -156,7 +135,7 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
                         Progression Globale des Exercices
                     </h5>
                     <div class="w-full bg-gray-200 rounded-full h-3 mb-2">
-                        <div class="bg-blue-600 h-3 rounded-full transition-all duration-300" id="globalProgress"></div>
+                        <div class="progress-theme-fill h-3 rounded-full transition-all duration-300" id="globalProgress"></div>
                     </div>
                     <p class="text-sm text-gray-600">
                         <strong>Exercices terminés : <span id="progressText">0%</span></strong>

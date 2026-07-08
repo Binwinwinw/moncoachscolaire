@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6ème - Série 36",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6ème : Vocabulaire de base : couleurs, nombres, formes",
+    "status": "published",
+    "created_at": "2026-04-26T21:32:48.859985Z",
+    "updated_at": "2026-04-26T21:32:48.859985Z"
+  },
+  "quiz": {
+    "title": "Vocabulaire de base : couleurs, nombres, formes",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English word for 'couleurs'?",
+        "choices": [
+          "Colors",
+          "Hues",
+          "Shades",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English word for 'nombres' is 'numbers'' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English word for 'formes'?",
+        "choices": [
+          "Shapes",
+          "Figures",
+          "Geometric forms",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English word for 'couleurs' is 'colors'' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English word for 'nombres'?",
+        "choices": [
+          "Numbers",
+          "Digits",
+          "Numerals",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English word for 'formes' is 'shapes'' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English word for 'couleurs'? (variante 2)",
+        "choices": [
+          "Colors",
+          "Tints",
+          "Tones",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English word for 'nombres' is 'digits'' is a True statement."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 227",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 6eme : Cahier des charges et contraintes.",
+    "status": "published",
+    "created_at": "2026-04-26 21:47:01",
+    "updated_at": "2026-04-26 21:47:01"
+  },
+  "quiz": {
+    "title": "Cahier des charges et contraintes.",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'un cahier des charges et les contraintes ?",
+        "choices": [
+          "Le cahier des charges est un document qui définit précisément les besoins, objectifs et exigences d'un projet.",
+          "Les contraintes techniques sont des limitations ou des exigences liées à la technologie utilisée dans le projet.",
+          "Les contraintes économiques sont des limitations ou des exigences liées au budget et aux ressources financières disponibles pour le projet.",
+          "Aucun des concepts mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le cahier des charges est un document qui décrit les exigences, les spécifications, et les critères de réussite d'un projet ou d'un produit. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple de contrainte technique ?",
+        "choices": [
+          "Limitation de la bande passante",
+          "Compatibilité avec les systèmes existants",
+          "Disponibilité des ressources matérielles",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les contraintes économiques n'ont pas d'impact sur la gestion de projet. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple de contrainte économique ?",
+        "choices": [
+          "Budget limité",
+          "Ressources humaines insuffisantes",
+          "Délai serré",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il n'y a pas de différence entre les différentes contraintes dans un projet. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel outil peut être utilisé pour gérer les contraintes dans un projet ?",
+        "choices": [
+          "Diagramme de Gantt",
+          "Analyse SWOT",
+          "Matrice de priorisation",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Tous les projets ont les mêmes contraintes. Vrai ou Faux ?"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 176",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - Les verbes pronominaux",
+    "status": "published",
+    "created_at": "2026-04-26T21:46:18.993101Z",
+    "updated_at": "2026-04-26T21:46:18.993101Z"
+  },
+  "quiz": {
+    "title": "Français 6e - Les verbes pronominaux",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'un verbe pronominal ?",
+        "choices": [
+          "Un verbe qui se conjugue avec un pronom réfléchi",
+          "Un verbe qui se conjugue avec un pronom personnel",
+          "Un verbe qui se conjugue avec un pronom possessif",
+          "Un verbe qui se conjugue avec un pronom démonstratif"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les verbes pronominaux peuvent être classés en trois catégories : les verbes pronominaux réfléchis, les verbes pronominaux réciproques et les verbes pronominaux passifs, en fonction de la relation entre le sujet et l'objet de l'action exprimée par le verbe."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le pronom réfléchi utilisé pour conjuguer un verbe pronominal à la première personne du singulier ?",
+        "choices": [
+          "Me",
+          "Te",
+          "Se",
+          "Nous"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation correcte des verbes pronominaux est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les écrivains utilisent les verbes pronominaux de manière appropriée en fonction du contexte et du message qu'ils souhaitent transmettre, ce qui contribue à la clarté et à l'efficacité de la communication écrite."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le pronom réfléchi utilisé pour conjuguer un verbe pronominal à la troisième personne du pluriel ?",
+        "choices": [
+          "Me",
+          "Te",
+          "Se",
+          "Ils/Elles"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation incorrecte des verbes pronominaux peut parfois entraîner des confusions ou des malentendus dans la communication écrite, en rendant difficile pour les lecteurs de comprendre les actions exprimées par les verbes pronominaux et d'interpréter le message de manière plus précise."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le pronom réfléchi utilisé pour conjuguer un verbe pronominal à la deuxième personne du singulier ?",
+        "choices": [
+          "Me",
+          "Te",
+          "Se",
+          "Vous"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation correcte des verbes pronominaux est essentielle pour éviter les confusions et les erreurs dans la communication écrite."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

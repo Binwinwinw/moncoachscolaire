@@ -1,6 +1,13 @@
 <?php
 $page_css = 'lycee/premiere/exercices-premiere.css';
 $page_class = 'page-exercices-1ere';
+
+require_once dirname(__DIR__, 4) . '/includes/exercices_page_header.php';
+
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+$is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
 ?>
 
 <main class="main-content min-h-screen bg-gray-50">
@@ -8,47 +15,22 @@ $page_class = 'page-exercices-1ere';
 ?>
 
     <div class="max-w-7xl mx-auto px-4 py-8">
-        <!-- Header Section -->
-        <div class="text-center mb-8">
-            <h1 class="text-4xl font-bold text-gray-800 mb-4 flex items-center justify-center gap-3">
-                <span class="text-6xl">⭐</span>
-                Exercices Première - Expert Académique
-            </h1>
-            <p class="text-xl text-gray-600 mb-6">Programme 2025 | Prépare-toi pour le Bac avec confiance !</p>
+                <?php
+        $header_nav = [
+            ['href' => site_url('cours', ['niveau' => 'premiere']), 'label' => 'Cours Première', 'icon' => '📚', 'tone' => 'primary'],
+            ['href' => site_url('lycee/lycee-accueil'), 'label' => 'Accueil Lycée', 'icon' => '🏠', 'tone' => 'secondary'],
+        ];
+        if (!empty($is_logged_in)) {
+            $header_nav[] = ['href' => site_url('eleve/dashboard'), 'label' => 'Mon Dashboard', 'icon' => '📊', 'tone' => 'dashboard'];
+        }
+        render_exercices_page_header([
+            'icon' => '🎯',
+            'title' => 'Exercices Première - Spécialisation',
+            'subtitle' => 'Programme 2025 | Approfondis tes matières de spécialité !',
+            'nav_links' => $header_nav,
+        ]);
+        ?>
 
-            <!-- Navigation Buttons -->
-            <div class="flex flex-wrap justify-center gap-4">
-                <?php if (!empty($is_logged_in)): ?>
-                <a href="<?php echo function_exists('site_url') ? site_url('exercices') : '/exercices'; ?>"
-                   class="inline-flex items-center px-6 py-3 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors shadow-lg border-2 border-blue-700">
-                    <span class="mr-2">📝</span>
-                    Tous les exercices
-                </a>
-                <?php endif; ?>
-                <a href="<?php echo function_exists('site_url') ? site_url('cours', ['niveau' => '1ere']) : '/cours?niveau=1ere'; ?>"
-                   class="inline-flex items-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition-colors shadow-lg">
-                    <span class="mr-2">📚</span>
-                    Cours 1ère
-                </a>
-                <a href="<?php echo function_exists('site_url') ? site_url('eleve/lycee/lycee-accueil') : '/eleve/lycee/lycee-accueil'; ?>"
-                   class="inline-flex items-center px-6 py-3 bg-purple-600 text-white font-semibold rounded-lg hover:bg-purple-700 transition-colors shadow-lg">
-                    <span class="mr-2">🏠</span>
-                    Accueil Lycée
-                </a>
-                <?php if (!empty($is_logged_in)): ?>
-                <a href="<?php echo function_exists('site_url') ? site_url('eleve/dashboard') : '/eleve/dashboard'; ?>"
-                   class="inline-flex items-center px-6 py-3 bg-yellow-600 text-white font-semibold rounded-lg hover:bg-yellow-700 transition-colors shadow-lg">
-                    <span class="mr-2">📊</span>
-                    Mon Dashboard
-                </a>
-                <?php endif; ?>
-            </div>
-        </div>
-
-
-<?php if (session_status() === PHP_SESSION_NONE) {
-    session_start();
-} $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']); ?>
 
         <!-- Pour les visiteurs : aperçu exercices PUIS panneau coach -->
         <?php if (empty($is_logged_in)): ?>

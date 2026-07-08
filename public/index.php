@@ -710,17 +710,32 @@ if (!isset($baseUrl)) {
 if (is_file($root . '/src/config/site_boot.php')) {
     include_once $root . '/src/config/site_boot.php';
 }
+if (is_file($root . '/src/includes/level_normalization.php')) {
+    require_once $root . '/src/includes/level_normalization.php';
+}
+if (is_file($root . '/src/includes/page_meta.php')) {
+    require_once $root . '/src/includes/page_meta.php';
+}
+if (is_file($root . '/src/includes/app_theme_bootstrap.php')) {
+    require_once $root . '/src/includes/app_theme_bootstrap.php';
+}
 
-// extract metadata
-if (empty($page_css) && preg_match('/\$page_css\s*=\s*["\']([^"\']+)["\']/', $snippet, $m)) {
-    $page_css = $m[1];
+$pageMeta = function_exists('load_page_meta') ? load_page_meta($found) : [];
+if (empty($page_css) && !empty($pageMeta['page_css'])) {
+    $page_css = $pageMeta['page_css'];
 }
-if (empty($page_class) && preg_match('/\$page_class\s*=\s*["\']([^"\']+)["\']/', $snippet, $c)) {
-    $page_class = $c[1];
+if (empty($page_class) && !empty($pageMeta['page_class'])) {
+    $page_class = $pageMeta['page_class'];
 }
-if (!isset($page_title) && preg_match('/\$page_title\s*=\s*["\']([^"\']+)["\']/', $snippet, $t)) {
-    $page_title = $t[1];
+if (!isset($page_title) && !empty($pageMeta['page_title'])) {
+    $page_title = $pageMeta['page_title'];
 }
+$page_theme_level = $pageMeta['page_theme_level'] ?? null;
+
+$app_theme = function_exists('bootstrap_app_theme')
+    ? bootstrap_app_theme($pageRaw, $page_theme_level)
+    : ['tier' => 'neutral', 'level_key' => 'neutral', 'variant' => []];
+$page_theme_level = $GLOBALS['page_theme_level'] ?? $page_theme_level;
 
 $siteName = 'MonCoachScolaire';
 $title = isset($page_title) && $page_title ? htmlspecialchars($page_title, ENT_QUOTES) . '  ' . $siteName : $siteName;
@@ -740,12 +755,20 @@ if (function_exists('asset_url')) {
 
 echo "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>" . $title . "</title>\n";
 echo "<link rel=\"stylesheet\" href=\"" . htmlspecialchars($cssBaseUrl, ENT_QUOTES) . "\">\n";
+if (function_exists('asset_url')) {
+    $themeLevelCss = asset_url('assets/css/theme-level.css');
+} else {
+    $cssBase = isset($baseUrl) ? rtrim($baseUrl, '/') : '';
+    $themeLevelCss = $cssBase . '/assets/css/theme-level.css';
+}
+echo "<link rel=\"stylesheet\" href=\"" . htmlspecialchars($themeLevelCss, ENT_QUOTES) . "\">\n";
 // Background decorative layers are managed centrally in `public/assets/css/style.css`.
 // For per-page backgrounds use `body.page-...` (ex: `body.page-landing`). To disable the decorative
 // background on a page, add class `no-bg` to the <body> (see `.no-bg` rules in the CSS).
 
 if (!empty($page_css)) {
     // Normaliser le chemin fourni par la page pour cibler assets/css/pages/
+    $exCommonCss = '';
     // - Si le chemin ne commence pas par "pages/", le préfixer
     // - Supporte les sous-dossiers (ex: bac/cours-bac.css -> pages/bac/cours-bac.css)
     $cssCandidate = ltrim($page_css, '/');
@@ -763,6 +786,15 @@ if (!empty($page_css)) {
         $href = $cssBase . '/assets/css/' . ltrim($pageCssPath, '/');
     }
     echo "<link rel=\"stylesheet\" href=\"" . htmlspecialchars($href, ENT_QUOTES) . "\">\n";
+    if (str_contains($page_css, 'exercices') && function_exists('asset_url')) {
+        $exCommonCss = asset_url('assets/css/pages/exercices-common.css');
+    } elseif (str_contains($page_css, 'exercices')) {
+        $cssBase = isset($baseUrl) ? rtrim($baseUrl, '/') : '';
+        $exCommonCss = $cssBase . '/assets/css/pages/exercices-common.css';
+    }
+    if (!empty($exCommonCss)) {
+        echo "<link rel=\"stylesheet\" href=\"" . htmlspecialchars($exCommonCss, ENT_QUOTES) . "\">\n";
+    }
 }
 
 // Exposer la baseUrl pour JavaScript (avant la fermeture de </head>)
@@ -772,6 +804,10 @@ if (function_exists('detectBaseUrl')) {
     $jsBaseUrl = isset($baseUrl) ? $baseUrl : '';
 }
 echo "<script>window.baseUrl = " . json_encode($jsBaseUrl, JSON_UNESCAPED_SLASHES) . ";</script>\n";
+echo "<script>window.appTheme = " . json_encode([
+    'tier' => $app_theme['tier'] ?? 'neutral',
+    'levelKey' => $app_theme['level_key'] ?? 'neutral',
+], JSON_UNESCAPED_SLASHES) . ";</script>\n";
 
 // Ajouter l'ID utilisateur au body pour le système de timeout (si utilisateur connecté)
 if (function_exists('ensure_session_started')) {
@@ -810,16 +846,17 @@ if (!isset($page_class) && isset($pageRaw) && $pageRaw === 'landingpage') {
     if (empty($page_css)) $page_css = 'landingpage.css';
 }
 
-$bodyClass = trim(($page_class ?? '') . ' app-bg');
+$themeTier = $app_theme['tier'] ?? 'neutral';
+$bodyClass = trim(($page_class ?? '') . ' app-bg theme-' . $themeTier);
 echo "<body class=\"" . htmlspecialchars($bodyClass, ENT_QUOTES) . "\">\n";
 
 // S'assurer que site_boot.php est chargé AVANT la topbar pour que les variables de session soient disponibles
 if (is_file($root . '/src/config/site_boot.php')) {
     include_once $root . '/src/config/site_boot.php';
 }
-// Marquer que la topbar est incluse (pour que les pages sachent qu'elles peuvent afficher le HTML)
-$GLOBALS['__topbar_included'] = true;
-if (is_file($root . '/src/includes/topbar.php')) include_once $root . '/src/includes/topbar.php';
+if (is_file($root . '/src/includes/topbar.php')) {
+    include_once $root . '/src/includes/topbar.php';
+}
 // Inclure la page trouvée
 $cwd = getcwd();
 chdir(dirname($found));

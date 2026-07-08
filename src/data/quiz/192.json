@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 192",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - Les valeurs du texte injonctif",
+    "status": "published",
+    "created_at": "2026-04-26T21:46:19.019080Z",
+    "updated_at": "2026-04-26T21:46:19.019080Z"
+  },
+  "quiz": {
+    "title": "Français 6e - Les valeurs du texte injonctif",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'un texte injonctif ?",
+        "choices": [
+          "Un genre littéraire",
+          "Une figure de style",
+          "Une forme de communication",
+          "Une discipline scientifique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les textes injonctifs peuvent être classés en plusieurs types, tels que les recettes de cuisine, les manuels d'instructions, les règles de jeu, etc., en fonction de la manière dont ils donnent des instructions ou des conseils."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle d'un texte injonctif dans la communication ?",
+        "choices": [
+          "Il n'a pas de rôle spécifique",
+          "Il permet d'exprimer des affirmations",
+          "Il permet d'exprimer des questions",
+          "Il permet de donner des instructions, des conseils ou des ordres à un lecteur ou à un auditeur"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un texte injonctif peut être utilisé pour transmettre des informations importantes sur la manière d'accomplir une tâche ou de suivre une procédure, en fournissant des instructions claires et précises qui aident le destinataire à comprendre et à exécuter les actions nécessaires."
+      },
+      {
+        "type": "qcm",
+        "question": "Lequel de ces titres n'est pas un texte injonctif ?",
+        "choices": [
+          "Recette de Cuisine",
+          "Manuel d'Instructions",
+          "Règles de Jeu",
+          "Le Petit Prince"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les textes injonctifs peuvent être utilisés pour guider les actions ou les comportements des destinataires, en fournissant des instructions claires et précises qui aident à accomplir des tâches, à suivre des procédures ou à respecter des règles, ce qui peut contribuer à la sécurité, à l'efficacité et au bon fonctionnement dans divers contextes."
+      },
+      {
+        "type": "qcm",
+        "question": "Un texte injonctif utilise quel ton ?",
+        "choices": [
+          "Un ton humoristique",
+          "Un ton dramatique",
+          "Un ton descriptif",
+          "Un ton impératif"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un texte injonctif a pour but de donner des instructions, des conseils ou des ordres à un lecteur ou à un auditeur."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

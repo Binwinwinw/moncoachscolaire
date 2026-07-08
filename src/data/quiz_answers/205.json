@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 205",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Stockage d'énergie (batterie, accumulateur).",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Tous les moyens mentionnés",
+        "correction": "Il existe plusieurs moyens de stockage d'énergie, notamment les batteries, qui sont des dispositifs électrochimiques qui stockent l'énergie sous forme chimique, et les accumulateurs, qui sont des dispositifs qui stockent l'énergie sous forme électrique."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, les batteries sont couramment utilisées pour stocker l'énergie dans les appareils électroniques tels que les téléphones portables, les ordinateurs portables, et les véhicules électriques."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Une voiture électrique",
+        "correction": "Une voiture électrique utilise un accumulateur pour stocker l'énergie électrique qui alimente le moteur de la voiture."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, la durabilité des accumulateurs par rapport aux batteries dépend de nombreux facteurs, et il n'est pas correct de dire que les accumulateurs sont intrinsèquement plus durables que les batteries dans toutes les situations."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Toutes les réponses mentionnées",
+        "correction": "Les batteries ont plusieurs avantages par rapport aux accumulateurs, notamment qu'elles sont généralement plus légères, peuvent avoir une plus grande capacité de stockage, et sont souvent plus faciles à recharger."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, il existe des différences entre les batteries et les accumulateurs en termes de leur fonctionnement, de leur application, et de leurs avantages et inconvénients respectifs."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Une lampe de chevet",
+        "correction": "Une lampe de chevet utilise une ampoule pour produire de la lumière et ne dépend pas d'une batterie pour fonctionner."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, les accumulateurs et les batteries ont pour fonction principale de stocker l'énergie pour une utilisation ultérieure."
+      }
+    ]
+  }
+}

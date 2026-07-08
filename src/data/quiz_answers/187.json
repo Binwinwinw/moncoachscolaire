@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 187",
+    "level": "6eme",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Français 6e - Les valeurs de la poésie",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Un genre littéraire",
+        "correction": "La poésie est un genre littéraire qui utilise le langage de manière artistique pour exprimer des émotions, des idées ou des expériences."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. La poésie peut être classée en plusieurs types, tels que la poésie lyrique (qui exprime les émotions personnelles du poète), la poésie épique (qui raconte des histoires héroïques ou mythologiques), la poésie dramatique (qui met en scène des personnages et des dialogues), etc., en fonction de la manière dont elle exprime les émotions, les idées ou les expériences."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Elle permet d'exprimer des émotions, des idées ou des expériences de manière artistique",
+        "correction": "Le rôle de la poésie dans la communication est de permettre d'exprimer des émotions, des idées ou des expériences de manière artistique, en utilisant le langage de manière créative pour transmettre des messages de manière plus profonde et plus significative que la communication ordinaire."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. L'utilisation correcte de la poésie est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les écrivains utilisent les formes de la poésie appropriées en fonction du contexte et du message qu'ils souhaitent transmettre, ce qui contribue à la clarté et à l'efficacité de la communication écrite."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Le Petit Prince",
+        "correction": "Le Petit Prince est un roman, pas une poésie."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Certaines formes de poésie, comme les poèmes chantés ou les performances poétiques musicales, peuvent être accompagnées de musique pour exprimer les émotions et les idées de manière artistique."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Poésie en vers libres",
+        "correction": "La poésie en vers libres n'a pas de rime, contrairement aux autres styles de poésie qui peuvent utiliser des schémas de rimes spécifiques."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. La poésie a une composition particulière qui peut inclure des éléments tels que le rythme, la rime, la métrique et d'autres dispositifs stylistiques pour créer un effet esthétique et émotionnel."
+      }
+    ]
+  }
+}

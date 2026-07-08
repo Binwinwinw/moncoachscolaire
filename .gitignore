@@ -71,6 +71,8 @@ dev/backups/*.sql
 dev/**/*.log
 reports/
 test-results/
+dev/tmp/
+dev/tools/tests/e2e/playwright-report/
 dev/.phpunit.cache/
 dev/.phpunit.result.cache
 

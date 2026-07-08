@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 54",
+    "level": "6eme",
+    "subject": "Mathématiques"
+  },
+  "quiz": {
+    "title": "Organisation et gestion de données",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Toutes les réponses",
+        "correction": "Un tableau de données permet de stocker, analyser et afficher des données."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Un graphique en barres est utilisé pour représenter des données catégorielles."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Graphique circulaire",
+        "correction": "Un graphique circulaire est le mieux adapté pour montrer la répartition d'un ensemble de données."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Un histogramme est utilisé pour représenter des données continues."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Identifier les séries de données",
+        "correction": "Une légende dans un graphique sert à identifier les différentes séries de données représentées."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Un graphique linéaire est utilisé pour représenter des données temporelles."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Graphique linéaire",
+        "correction": "Un graphique linéaire est le mieux adapté pour montrer l'évolution d'une variable dans le temps."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Un graphique en barres est généralement utilisé pour représenter des données catégorielles, pas continues."
+      }
+    ]
+  }
+}

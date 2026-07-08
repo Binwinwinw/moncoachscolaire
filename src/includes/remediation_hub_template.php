@@ -21,7 +21,7 @@ if (!function_exists('render_remediation_hub_template')) {
             'dashboard' => $theme['nav_dashboard'],
         ];
 
-        echo '<main class="guide-content app-bg min-h-screen flex flex-col">';
+        echo '<main class="remediation-hub flex flex-col w-full max-w-6xl mx-auto px-4 pb-8">';
         echo '<header class="cover-page ' . htmlspecialchars($theme['cover'], ENT_QUOTES, 'UTF-8') . ' rounded-2xl p-8 shadow-lg mb-8 mt-6 max-w-4xl mx-auto w-full">';
         echo '<h1 class="text-4xl md:text-5xl font-extrabold ' . htmlspecialchars($theme['title'], ENT_QUOTES, 'UTF-8') . ' mb-2 text-center">' . htmlspecialchars($title, ENT_QUOTES, 'UTF-8') . '</h1>';
         echo '<p class="text-xl ' . htmlspecialchars($theme['subtitle'], ENT_QUOTES, 'UTF-8') . ' text-center mb-1">' . htmlspecialchars($subtitle, ENT_QUOTES, 'UTF-8') . '</p>';
@@ -67,8 +67,6 @@ if (!function_exists('render_remediation_hub_template')) {
 
         echo '</div>';
         echo '</section>';
-
-        require dirname(__DIR__) . '/includes/footer.php';
         echo '</main>';
     }
 }

@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 216",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 6eme : Réseaux informatiques au collège.",
+    "status": "published",
+    "created_at": "2026-04-26 21:47:01",
+    "updated_at": "2026-04-26 21:47:01"
+  },
+  "quiz": {
+    "title": "Réseaux informatiques au collège.",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quels sont des éléments d'un réseau informatique au collège ?",
+        "choices": [
+          "Routeur",
+          "Switch",
+          "Câbles Ethernet",
+          "Tous les éléments mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un réseau informatique au collège est uniquement utilisé pour accéder à Internet. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple de protocole de communication utilisé dans un réseau informatique au collège ?",
+        "choices": [
+          "HTTP",
+          "FTP",
+          "TCP/IP",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un pare-feu est un dispositif de sécurité qui peut être utilisé dans un réseau informatique au collège pour protéger contre les menaces. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple d'appareil qui peut être connecté à un réseau informatique au collège ?",
+        "choices": [
+          "Ordinateur de bureau",
+          "Tablette",
+          "Imprimante réseau",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il n'y a pas de différence entre les différents éléments d'un réseau informatique au collège. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple de technologie de transmission utilisée dans un réseau informatique au collège ?",
+        "choices": [
+          "Ethernet",
+          "Wi-Fi",
+          "Bluetooth",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Tous les réseaux informatiques au collège sont les mêmes. Vrai ou Faux ?"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

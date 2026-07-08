@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 223",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 6eme : Réalisation et démarches.",
+    "status": "published",
+    "created_at": "2026-04-26 21:47:01",
+    "updated_at": "2026-04-26 21:47:01"
+  },
+  "quiz": {
+    "title": "Réalisation et démarches.",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quels sont des concepts de base en réalisation et démarches ?",
+        "choices": [
+          "Réalisation d'un projet",
+          "Démarche de résolution de problèmes",
+          "Collaboration en équipe",
+          "Tous les concepts mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La réalisation d'un projet implique la mise en œuvre des étapes nécessaires pour concrétiser une idée ou un plan. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple de technologie de transmission utilisée dans un réseau informatique au collège ?",
+        "choices": [
+          "Ethernet",
+          "Wi-Fi",
+          "Bluetooth",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un pare-feu est un dispositif de sécurité qui peut être utilisé dans un réseau informatique au collège pour protéger contre les menaces. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple de protocole de communication utilisé dans un réseau informatique au collège ?",
+        "choices": [
+          "TCP/IP",
+          "HTTP",
+          "FTP",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il n'y a pas de différence entre les différentes technologies de transmission utilisées dans un réseau informatique au collège. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple d'outil qui peut être utilisé pour surveiller et gérer un réseau informatique au collège ?",
+        "choices": [
+          "Wireshark",
+          "Nagios",
+          "SolarWinds",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Tous les réseaux informatiques au collège sont les mêmes. Vrai ou Faux ?"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

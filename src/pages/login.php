@@ -28,6 +28,7 @@ $page_css = 'login.css';
 // ========== 4. CHARGER CONFIG + SÉCURITÉ ==========
 require_once __DIR__ . '/../config/config.php';
 require_once __DIR__ . '/../includes/login_security.php';
+require_once __DIR__ . '/../includes/security_logger.php';
 require_once __DIR__ . '/../includes/dashboard_extensions.php';
 // Level access helpers
 if (is_file(__DIR__ . '/../includes/level_access.php')) {
@@ -119,8 +120,14 @@ $auth_debug_snapshot = [
     'debug_version' => 'login-debug-v3',
 ];
 $csrf_token = generateCSRFToken();
+$securityLogger = ensureSecurityLogger($pdo ?? null);
+if (!isset($_SESSION['request_id']) || $_SESSION['request_id'] === '') {
+    $_SESSION['request_id'] = bin2hex(random_bytes(8));
+}
 
 error_log("LOGIN.PHP: Method=" . $_SERVER['REQUEST_METHOD'] . ", POST processed=" . (isset($GLOBALS['__login_post_processed']) ? 'YES' : 'NO'));
+
+$genericAuthError = "Identifiants invalides. Veuillez vérifier vos informations.";
 
 // ========== 9. TRAITEMENT POST ==========
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && !isset($GLOBALS['__login_post_processed'])) {
@@ -137,14 +144,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !isset($GLOBALS['__login_post_proce
 
     $submitted_token = $_POST['csrf_token'] ?? '';
 
-    error_log("LOGIN POST: Session ID: " . (session_id() ?: 'NULL') . ", CSRF token dans POST: " . (empty($submitted_token) ? 'VIDE' : substr($submitted_token, 0, 10) . '...'));
-    error_log("LOGIN POST: CSRF token dans session: " . (isset($_SESSION['csrf_token']) ? substr($_SESSION['csrf_token'], 0, 10) . '...' : 'NON DÉFINI'));
+    error_log("LOGIN POST: tentative de vérification CSRF");
 
     if (!verifyCSRFToken($submitted_token)) {
         error_log("LOGIN POST: Échec de la vérification CSRF");
         $auth_reason = 'csrf_invalid';
         $_SESSION['__login_last_attempt']['reason'] = $auth_reason;
         $error = "Erreur de sécurité. Veuillez réessayer.";
+        if ($securityLogger instanceof SecurityLogger) {
+            $securityLogger->log('auth_login_failure', [
+                'scope' => 'login',
+                'result' => 'failure',
+                'identifier' => $username ?? null,
+                'failure_reason' => 'csrf_invalid',
+                'ip_address' => $_SERVER['REMOTE_ADDR'] ?? null,
+                'user_agent' => $_SERVER['HTTP_USER_AGENT'] ?? null,
+                'request_id' => $_SESSION['request_id'] ?? null,
+            ]);
+        }
     } else {
         $username = isset($_POST['username']) ? sanitizeInput($_POST['username']) : '';
         $password = isset($_POST['password']) ? $_POST['password'] : '';
@@ -162,17 +179,51 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !isset($GLOBALS['__login_post_proce
             $auth_reason = 'username_invalid';
             $_SESSION['__login_last_attempt']['reason'] = $auth_reason;
             $error = $usernameValidation['error'];
+            if ($securityLogger instanceof SecurityLogger) {
+                $securityLogger->log('auth_login_failure', [
+                    'scope' => 'login',
+                    'result' => 'failure',
+                    'identifier' => $username,
+                    'failure_reason' => 'username_invalid',
+                    'ip_address' => $_SERVER['REMOTE_ADDR'] ?? null,
+                    'user_agent' => $_SERVER['HTTP_USER_AGENT'] ?? null,
+                    'request_id' => $_SESSION['request_id'] ?? null,
+                ]);
+            }
         } elseif (!$passwordValidation['valid']) {
             error_log("LOGIN POST: Validation password échouée: " . ($passwordValidation['error'] ?? 'Erreur inconnue'));
             $auth_reason = 'password_empty';
             $_SESSION['__login_last_attempt']['reason'] = $auth_reason;
             $error = $passwordValidation['error'];
+            if ($securityLogger instanceof SecurityLogger) {
+                $securityLogger->log('auth_login_failure', [
+                    'scope' => 'login',
+                    'result' => 'failure',
+                    'identifier' => $username,
+                    'failure_reason' => 'password_empty',
+                    'ip_address' => $_SERVER['REMOTE_ADDR'] ?? null,
+                    'user_agent' => $_SERVER['HTTP_USER_AGENT'] ?? null,
+                    'request_id' => $_SESSION['request_id'] ?? null,
+                ]);
+            }
         } else {
-            $rateLimit = checkLoginAttempts($username);
+            $rateLimit = checkLoginAttempts($username, 'login');
             if (!$rateLimit['allowed']) {
                 $auth_reason = 'rate_limited';
                 $_SESSION['__login_last_attempt']['reason'] = $auth_reason;
                 $error = $rateLimit['message'];
+                if ($securityLogger instanceof SecurityLogger) {
+                    $securityLogger->log('auth_blocked', [
+                        'scope' => 'login',
+                        'result' => 'blocked',
+                        'identifier' => $username,
+                        'failure_reason' => 'rate_limited',
+                        'ip_address' => $_SERVER['REMOTE_ADDR'] ?? null,
+                        'user_agent' => $_SERVER['HTTP_USER_AGENT'] ?? null,
+                        'request_id' => $_SESSION['request_id'] ?? null,
+                        'metadata' => ['remaining' => $rateLimit['remaining'] ?? null],
+                    ]);
+                }
             } else {
                 $maintenanceFile = __DIR__ . '/.maintenance.json';
                 $maintenanceEnabled = false;
@@ -227,39 +278,26 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !isset($GLOBALS['__login_post_proce
 
                         if ($userFound) {
                             $passwordValid = false;
-
                             $passwordHash = $userFound['PasswordHash'] ?? '';
 
                             if ($userType === 'parent') {
                                 error_log("DEBUG LOGIN PARENT: tentative de connexion (parent)");
                             }
 
-                            // 1) Hash natif PHP (bcrypt, argon2, etc.)
-                            if (!empty($passwordHash) && strpos($passwordHash, '$') === 0) {
+                            if (is_string($passwordHash) && $passwordHash !== '' && strpos($passwordHash, '$') === 0) {
                                 $passwordValid = password_verify($password, $passwordHash);
                                 if ($userType === 'parent') {
                                     error_log("DEBUG LOGIN PARENT: Résultat password_verify: " . ($passwordValid ? 'OK' : 'ECHEC'));
                                 }
-                            }
-
-                            // 2) Comptes demo legacy
-                            if (!$passwordValid && $passwordHash === 'demo-hash' && $password === 'demo') {
-                                $passwordValid = true;
-                            }
-
-                            // 3) Fallback legacy (ancien stockage en clair)
-                            if (!$passwordValid && $passwordHash === $password) {
-                                $passwordValid = true;
-                                if ($userType === 'parent') {
-                                    error_log("DEBUG LOGIN PARENT: fallback legacy (égalité directe)");
-                                }
+                            } elseif (is_string($passwordHash) && $passwordHash !== '') {
+                                error_log("LOGIN: hash de mot de passe non supporté pour l'utilisateur " . ($username ?? 'inconnu'));
                             }
 
                             if ($passwordValid) {
                                 if ($maintenanceEnabled) {
                                     $isAdmin = ($userType === 'admin' || $normalize_role($userFound['Role'] ?? '') === 'admin');
                                     if (!$isAdmin) {
-                                        recordFailedAttempt($username);
+                                        recordFailedAttempt($username, 'login');
                                         $auth_reason = 'maintenance_blocked';
                                         $_SESSION['__login_last_attempt']['reason'] = $auth_reason;
                                         $error = "🔧 Site en maintenance. Seuls les administrateurs peuvent se connecter.";
@@ -312,7 +350,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !isset($GLOBALS['__login_post_proce
                                     $_SESSION['__login_last_attempt']['parent_id'] = $_SESSION['parent_id'] ?? null;
                                     session_regenerate_id(true);
 
-                                    resetLoginAttempts($username);
+                                    resetLoginAttempts($username, 'login');
+                                    if ($securityLogger instanceof SecurityLogger) {
+                                        $securityLogger->log('auth_login_success', [
+                                            'scope' => 'login',
+                                            'result' => 'success',
+                                            'user_id' => $_SESSION['user_id'] ?? null,
+                                            'identifier' => $username,
+                                            'ip_address' => $_SERVER['REMOTE_ADDR'] ?? null,
+                                            'user_agent' => $_SERVER['HTTP_USER_AGENT'] ?? null,
+                                            'request_id' => $_SESSION['request_id'] ?? null,
+                                            'metadata' => ['role' => $_SESSION['user_role'] ?? null],
+                                        ]);
+                                    }
 
                                     if ($userType !== 'parent' && function_exists('updateLoginStreak')) {
                                         updateLoginStreak($_SESSION['user_id']);
@@ -343,46 +393,38 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !isset($GLOBALS['__login_post_proce
                                     exit;
                                 }
                             } else {
-                                recordFailedAttempt($username);
+                                recordFailedAttempt($username, 'login');
                                 $auth_reason = 'password_mismatch';
                                 $_SESSION['__login_last_attempt']['reason'] = $auth_reason;
-                                $error = "❌ Mot de passe incorrect. Veuillez vérifier votre mot de passe.";
-                            }
-                        } else {
-                            if ($username === 'demo' && $password === 'demo') {
-                                // Suppression du try/catch orphelin, centralisation de la redirection
-                                $insert = $pdo->prepare('
-                                    INSERT INTO users (Username, Email, PasswordHash, Role, UserLevel)
-                                    VALUES (?, ?, ?, ?, ?)
-                                ');
-                                $insert->execute(['demo', 'demo@example.com', 'demo-hash', 'student', '6eme']);
-                                $stmt->execute(['demo', 'demo@example.com']);
-                                $user = $stmt->fetch();
-
-                                if ($user) {
-                                    $_SESSION['user_id'] = (int) $user['Id'];
-                                    $_SESSION['user_name'] = $user['Username'];
-                                    $_SESSION['user_level'] = $user['UserLevel'] ?? '6ème';
-                                    $_SESSION['user_role'] = $normalize_role($user['Role'] ?? 'student');
-                                    $_SESSION['logged_in'] = true;
-                                    $_SESSION['is_demo'] = true;
-
-                                    resetLoginAttempts($username);
-
-                                    if (function_exists('updateLoginStreak')) {
-                                        updateLoginStreak($_SESSION['user_id']);
-                                    }
-
-                                    session_regenerate_id(true);
-                                    session_write_close();
-                                    // NE PAS REDIRIGER ICI, laisser la redirection au bloc post-login (10)
+                                $error = $genericAuthError;
+                                if ($securityLogger instanceof SecurityLogger) {
+                                    $securityLogger->log('auth_login_failure', [
+                                        'scope' => 'login',
+                                        'result' => 'failure',
+                                        'identifier' => $username,
+                                        'failure_reason' => 'invalid_credentials',
+                                        'ip_address' => $_SERVER['REMOTE_ADDR'] ?? null,
+                                        'user_agent' => $_SERVER['HTTP_USER_AGENT'] ?? null,
+                                        'request_id' => $_SESSION['request_id'] ?? null,
+                                    ]);
                                 }
                             }
-
-                            recordFailedAttempt($username);
+                        } else {
+                            recordFailedAttempt($username, 'login');
                             $auth_reason = 'user_not_found';
                             $_SESSION['__login_last_attempt']['reason'] = $auth_reason;
-                            $error = "❌ Cet identifiant n'existe pas. Veuillez vérifier ou créer un compte.";
+                            $error = $genericAuthError;
+                            if ($securityLogger instanceof SecurityLogger) {
+                                $securityLogger->log('auth_login_failure', [
+                                    'scope' => 'login',
+                                    'result' => 'failure',
+                                    'identifier' => $username,
+                                    'failure_reason' => 'invalid_credentials',
+                                    'ip_address' => $_SERVER['REMOTE_ADDR'] ?? null,
+                                    'user_agent' => $_SERVER['HTTP_USER_AGENT'] ?? null,
+                                    'request_id' => $_SESSION['request_id'] ?? null,
+                                ]);
+                            }
                         }
                     } catch (PDOException $e) {
                         error_log("Erreur login: " . $e->getMessage());
@@ -399,21 +441,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && !isset($GLOBALS['__login_post_proce
                     }
                     // FIN bloc try/catch corrigé
                 } else {
-                    if ($username === 'demo' && $password === 'demo') {
-                        $_SESSION['user_id'] = 1;
-                        $_SESSION['user_name'] = 'Élève Demo';
-                        $_SESSION['user_level'] = '6ème';
-                        $_SESSION['user_role'] = 'student';
-                        $_SESSION['logged_in'] = true;
-                        $_SESSION['is_demo'] = true;
-                        session_regenerate_id(true);
-                        session_write_close();
-                        // NE PAS REDIRIGER ICI, laisser la redirection au bloc post-login (10)
-                    } else {
-                        $auth_reason = 'db_unavailable';
-                        $_SESSION['__login_last_attempt']['reason'] = $auth_reason;
-                        $error = "La base de données est temporairement indisponible. Mode démo uniquement (demo/demo)";
-                    }
+                    $auth_reason = 'db_unavailable';
+                    $_SESSION['__login_last_attempt']['reason'] = $auth_reason;
+                    $error = "La base de données est temporairement indisponible. Veuillez réessayer plus tard.";
                 }
             }
         }
@@ -471,6 +501,15 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
     exit;
 }
 
+// Thème neutre (topbar grise, identique à la landing)
+if (is_file(__DIR__ . '/../includes/app_theme_bootstrap.php')) {
+    require_once __DIR__ . '/../includes/app_theme_bootstrap.php';
+}
+if (function_exists('bootstrap_app_theme')) {
+    bootstrap_app_theme(null, null);
+}
+$auth_theme_tier = $GLOBALS['app_theme']['tier'] ?? 'neutral';
+
 // ========== 11. HTML COMPLET (comme register.php, SANS topbar.php) ==========
 ?>
 <!DOCTYPE html>
@@ -494,6 +533,7 @@ $cssStyle = asset_url('assets/css/style.css');
 $cssPage = asset_url('assets/css/pages/' . $page_css);
 ?>
     <link rel="stylesheet" href="<?php echo htmlspecialchars($cssStyle, ENT_QUOTES); ?>">
+    <link rel="stylesheet" href="<?php echo htmlspecialchars(asset_url('assets/css/theme-level.css'), ENT_QUOTES); ?>">
     <link rel="stylesheet" href="<?php echo htmlspecialchars($cssPage, ENT_QUOTES); ?>">
     <?php
 if (function_exists('detectBaseUrl')) {
@@ -505,7 +545,7 @@ echo "<script>window.baseUrl = " . json_encode($jsBaseUrl, JSON_UNESCAPED_SLASHE
 ?>
 </head>
 
-<body class="app-bg login-page">
+<body class="app-bg theme-<?php echo htmlspecialchars($auth_theme_tier, ENT_QUOTES, 'UTF-8'); ?> login-page">
 <?php
 // Afficher la topbar sur la page de connexion
 if (is_file(__DIR__ . '/../includes/topbar.php')) {

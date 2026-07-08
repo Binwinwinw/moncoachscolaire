@@ -1,6 +1,17 @@
 <?php
 $page_css = 'bac/exercices-bac.css';
 $page_class = 'page-exercices-bac';
+$page_theme_level = 'bac';
+
+$srcRoot = dirname(__DIR__, 3);
+if (is_file($srcRoot . '/config/site_boot.php')) {
+    require_once $srcRoot . '/config/site_boot.php';
+}
+$bac_theme = $GLOBALS['app_theme']['variant'] ?? (function_exists('get_theme_variant_by_level') ? get_theme_variant_by_level('bac') : []);
+$header_cover = htmlspecialchars($bac_theme['cover'] ?? 'bg-gradient-to-br from-amber-100 to-yellow-50', ENT_QUOTES, 'UTF-8');
+$header_title = htmlspecialchars($bac_theme['title'] ?? 'text-amber-700', ENT_QUOTES, 'UTF-8');
+$header_subtitle = htmlspecialchars($bac_theme['subtitle'] ?? 'text-amber-800', ENT_QUOTES, 'UTF-8');
+
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
@@ -10,33 +21,12 @@ $is_admin = function_exists('isAdmin') && isAdmin();
 $is_demo = function_exists('isDemoUser') && isDemoUser();
 $has_access = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']) || $is_admin || $is_demo;
 
-
 if (!$has_access) {
     ?>
     <main class="main-content page-centered-container max-w-6xl mx-auto px-6 py-10">
-        <?php
-            if (is_file(dirname(__DIR__, 3) . '/includes/level_navigation.php')) {
-                require_once dirname(__DIR__, 3) . '/includes/level_navigation.php';
-                echo render_level_navigation('BAC', 'exercices');
-            }
-    ?>
-        <div class="header text-center mb-8 rounded-xl bg-gradient-to-br from-blue-600 to-indigo-600 text-white p-8 shadow-lg">
-            <h1 class="text-4xl font-bold">🏆 Exercices BAC - Préparation Intensive</h1>
-            <p class="subtitle text-lg text-white/90">Programme 2025 | Décroche ton Baccalauréat avec confiance</p>
-            <div class="exercices-navigation flex flex-wrap gap-4 justify-center mt-6">
-                <?php if (!empty($is_logged_in)): ?>
-                <a href="<?php echo function_exists('site_url') ? site_url('exercices') : '/exercices'; ?>" class="nav-btn nav-tous-exercices inline-flex items-center justify-center px-6 py-3 rounded-lg bg-blue-500 text-white font-semibold hover:bg-blue-700 border-2 border-blue-700 transition-colors">
-                    📝 Tous les exercices
-                </a>
-                <?php endif; ?>
-                <a href="<?php echo function_exists('site_url') ? site_url('cours', ['niveau' => 'bac']) : '/cours?niveau=bac'; ?>" class="nav-btn nav-cours inline-flex items-center justify-center px-6 py-3 rounded-lg bg-blue-500 text-white font-semibold hover:bg-blue-600 transition-colors">📚 Cours BAC</a>
-                <a href="<?php echo function_exists('site_url') ? site_url('bac/preparation-orale') : '/bac/preparation-orale'; ?>" class="nav-btn nav-oral inline-flex items-center justify-center px-6 py-3 rounded-lg bg-emerald-500 text-white font-semibold hover:bg-emerald-600 transition-colors">🎤 Préparation Orale</a>
-                <a href="<?php echo function_exists('site_url') ? site_url('bac/bac-accueil') : '/bac/bac-accueil'; ?>" class="nav-btn nav-accueil inline-flex items-center justify-center px-6 py-3 rounded-lg bg-purple-500 text-white font-semibold hover:bg-purple-600 transition-colors">🏠 Accueil BAC</a>
-                <?php if (!empty($is_logged_in)): ?>
-                <a href="<?php echo function_exists('site_url') ? site_url('eleve/dashboard') : '/eleve/dashboard'; ?>"
-                   class="nav-btn nav-dashboard inline-flex items-center justify-center px-6 py-3 rounded-lg bg-amber-500 text-white font-semibold hover:bg-amber-600 transition-colors">📊 Mon Dashboard</a>
-                <?php endif; ?>
-            </div>
+        <div class="header text-center mb-8 rounded-xl <?php echo $header_cover; ?> p-8 shadow-lg border-b-4 border-amber-400">
+            <h1 class="text-4xl font-bold <?php echo $header_title; ?>">🏆 Exercices BAC - Préparation Intensive</h1>
+            <p class="subtitle text-lg <?php echo $header_subtitle; ?>">Programme 2025 | Décroche ton Baccalauréat avec confiance</p>
         </div>
 
         <div class="coach-preview text-center bg-white/80 rounded-2xl p-8 shadow-lg">
@@ -68,7 +58,7 @@ if (!$has_access) {
             <p class="text-slate-700 font-semibold">💡 Le coach s'adapte à ton cursus scolaire et te donne des conseils pédagogiques personnalisés !</p>
 
             <div class="cta-actions flex flex-wrap gap-4 justify-center mt-6">
-                 <a href="<?php echo function_exists('site_url') ? site_url('register') : 'index.php?page=register'; ?>" class="coach-cta inline-flex items-center justify-center px-6 py-3 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-colors">✨ Créer mon compte gratuit</a>
+                 <a href="<?php echo function_exists('site_url') ? site_url('register') : 'index.php?page=register'; ?>" class="coach-cta inline-flex items-center justify-center px-6 py-3 rounded-lg bg-amber-600 text-white font-semibold hover:bg-amber-700 transition-colors">✨ Créer mon compte gratuit</a>
                  <a href="<?php echo function_exists('site_url') ? site_url('login') : 'index.php?page=login'; ?>" class="coach-cta secondary inline-flex items-center justify-center px-6 py-3 rounded-lg bg-slate-600 text-white font-semibold hover:bg-slate-700 transition-colors">🔑 Me connecter</a>
             </div>
         </div>
@@ -78,21 +68,9 @@ if (!$has_access) {
 }
 ?>
 <main class="main-content page-centered-container max-w-6xl mx-auto px-6 py-10">
-    <?php
-    if (is_file(dirname(__DIR__, 3) . '/includes/level_navigation.php')) {
-        require_once dirname(__DIR__, 3) . '/includes/level_navigation.php';
-        echo render_level_navigation('BAC', 'exercices');
-    }
-?>
-    <div class="header text-center mb-8 rounded-xl bg-gradient-to-br from-blue-600 to-indigo-600 text-white p-8 shadow-lg">
-        <h1 class="text-4xl font-bold">🏆 Exercices BAC - Préparation Intensive</h1>
-        <p class="subtitle text-lg text-white/90">Programme 2025 | Décroche ton Baccalauréat avec confiance</p>
-        <div class="exercices-navigation flex flex-wrap gap-4 justify-center mt-6">
-            <a href="<?php echo function_exists('site_url') ? site_url('cours', ['niveau' => 'bac']) : '/cours?niveau=bac'; ?>" class="nav-btn nav-cours inline-flex items-center justify-center px-6 py-3 rounded-lg bg-blue-500 text-white font-semibold hover:bg-blue-600 transition-colors">📚 Cours BAC</a>
-            <a href="<?php echo function_exists('site_url') ? site_url('bac/preparation-orale') : '/bac/preparation-orale'; ?>" class="nav-btn nav-oral inline-flex items-center justify-center px-6 py-3 rounded-lg bg-emerald-500 text-white font-semibold hover:bg-emerald-600 transition-colors">🎤 Préparation Orale</a>
-            <a href="<?php echo function_exists('site_url') ? site_url('bac/bac-accueil') : '/bac/bac-accueil'; ?>" class="nav-btn nav-accueil inline-flex items-center justify-center px-6 py-3 rounded-lg bg-purple-500 text-white font-semibold hover:bg-purple-600 transition-colors">🏠 Accueil BAC</a>
-            <a href="<?php echo function_exists('site_url') ? site_url('eleve/dashboard') : '/eleve/dashboard'; ?>" class="nav-btn nav-dashboard inline-flex items-center justify-center px-6 py-3 rounded-lg bg-amber-500 text-white font-semibold hover:bg-amber-600 transition-colors">📊 Mon Dashboard</a>
-        </div>
+    <div class="header text-center mb-8 rounded-xl <?php echo $header_cover; ?> p-8 shadow-lg border-b-4 border-amber-400">
+        <h1 class="text-4xl font-bold <?php echo $header_title; ?>">🏆 Exercices BAC - Préparation Intensive</h1>
+        <p class="subtitle text-lg <?php echo $header_subtitle; ?>">Programme 2025 | Décroche ton Baccalauréat avec confiance</p>
     </div>
     <?php // Subject selector for BAC?>
     <?php if (!empty($is_logged_in) && function_exists('getSubjectsByLevels')): ?>
@@ -186,5 +164,4 @@ $selectedSubjectEsc = isset($selectedSubject) ? htmlspecialchars($selectedSubjec
 <script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/exercises.js') : 'assets/js/exercises.js'; ?>"></script>
 
 </main>
-
 

@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6ème - Série 21",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6ème : Famille, environnement, actualité simple",
+    "status": "published",
+    "created_at": "2026-04-26T21:32:48.837228Z",
+    "updated_at": "2026-04-26T21:32:48.837228Z"
+  },
+  "quiz": {
+    "title": "Famille, environnement, actualité simple",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "What is the English word for 'famille'?",
+        "choices": [
+          "Family",
+          "Friend",
+          "House",
+          "School"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The environment is important to protect' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English word for 'environnement'?",
+        "choices": [
+          "Environment",
+          "Nature",
+          "Earth",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'Recycling helps reduce waste and conserve natural resources' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English word for 'actualité'?",
+        "choices": [
+          "News",
+          "Current events",
+          "Headlines",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'Climate change is a significant global issue' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English word for 'simple'?",
+        "choices": [
+          "Simple",
+          "Easy",
+          "Basic",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The internet provides access to a wealth of information and resources' is a True statement."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 202",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 6eme : Sources d'énergie (musculaire, chimique, électrique).",
+    "status": "published",
+    "created_at": "2026-04-26 21:47:00",
+    "updated_at": "2026-04-26 21:47:00"
+  },
+  "quiz": {
+    "title": "Sources d'énergie (musculaire, chimique, électrique).",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelles sont les sources d'énergie ?",
+        "choices": [
+          "Musculaire",
+          "Chimique",
+          "Électrique",
+          "Toutes les sources mentionnées"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'énergie musculaire est produite par le cerveau du corps humain. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Donne un exemple d'énergie chimique ?",
+        "choices": [
+          "L'électricité",
+          "Le carburant",
+          "La lumière",
+          "Le son"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'énergie électrique est produite par le mouvement des électrons. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple d'appareil qui utilise l'énergie électrique ?",
+        "choices": [
+          "Une lampe",
+          "Un moteur à essence",
+          "Un vélo",
+          "Une bougie"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'énergie musculaire peut être convertie en énergie électrique. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple d'appareil qui utilise l'énergie chimique ?",
+        "choices": [
+          "Une batterie",
+          "Un moteur à essence",
+          "Un panneau solaire",
+          "Une éolienne"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il n'y a pas de différence entre les différentes sources d'énergie. Vrai ou Faux ?"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

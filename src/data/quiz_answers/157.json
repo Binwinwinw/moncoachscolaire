@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 157",
+    "level": "6eme",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Français 6e - Les valeurs des temps",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Exprimer une action qui se déroule au moment où l'on parle",
+        "correction": "La valeur principale du présent de l'indicatif est d'exprimer une action qui se déroule au moment où l'on parle."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Le passé composé peut être utilisé pour exprimer une action qui s'est déroulée dans le passé et qui a un lien avec le présent, souvent en indiquant une action achevée ou un résultat présent."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Exprimer une action qui s'est déroulée dans le passé de manière habituelle ou répétée",
+        "correction": "La valeur principale de l'imparfait est d'exprimer une action qui s'est déroulée dans le passé de manière habituelle ou répétée, ou pour décrire une situation ou un état dans le passé."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Le futur simple est utilisé pour exprimer une intention, une prédiction ou une promesse concernant une action qui se déroulera dans le futur."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Exprimer une action qui s'est déroulée dans le passé et qui n'a pas de lien direct avec le présent",
+        "correction": "La valeur principale du passé simple est d'exprimer une action qui s'est déroulée dans le passé et qui n'a pas de lien direct avec le présent, souvent dans un contexte littéraire ou formel."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le présent est utilisé pour exprimer une action qui se déroule au moment où l'on parle, tandis que l'imparfait est utilisé pour exprimer une action qui se déroulait de manière habituelle ou répétée dans le passé."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Exprimer une action qui se déroulera dans le futur",
+        "correction": "La valeur principale du futur simple est d'exprimer une action qui se déroulera dans le futur, souvent en indiquant une intention, une prédiction ou une promesse."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. L'utilisation de différents temps verbaux peut contribuer à créer des nuances de sens et à enrichir la narration d'une histoire, en jouant sur la temporalité et en créant des effets de suspense, d'immédiateté ou de nostalgie."
+      }
+    ]
+  }
+}

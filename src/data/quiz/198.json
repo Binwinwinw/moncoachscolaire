@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 198",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 6eme : Schématiser le fonctionnement d'un objet technique simple.",
+    "status": "published",
+    "created_at": "2026-04-26 21:47:00",
+    "updated_at": "2026-04-26 21:47:00"
+  },
+  "quiz": {
+    "title": "Schématiser le fonctionnement d'un objet technique simple.",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Comment schématiser le fonctionnement d'un objet technique simple ?",
+        "choices": [
+          "En dessinant un diagramme de flux",
+          "En écrivant une description détaillée",
+          "En créant une maquette",
+          "En faisant une présentation orale"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'usage d'un objet technique apporte-t-il des avantages dans la vie de tous les jours ? Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est l'avantage de schématiser le fonctionnement d'un objet technique simple ?",
+        "choices": [
+          "Cela permet de mieux comprendre le fonctionnement de l'objet",
+          "Cela rend l'objet plus joli",
+          "Cela permet de le vendre plus cher",
+          "Cela n'a aucun avantage"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il est important de schématiser le fonctionnement d'un objet technique pour pouvoir le réparer en cas de panne. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple d'objet technique simple que l'on peut schématiser ?",
+        "choices": [
+          "Une lampe",
+          "Un ordinateur",
+          "Une voiture",
+          "Un avion"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Schématiser le fonctionnement d'un objet technique simple peut aider à trouver des idées pour l'améliorer. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un outil couramment utilisé pour schématiser le fonctionnement d'un objet technique ?",
+        "choices": [
+          "Un logiciel de dessin",
+          "Un tableur",
+          "Un traitement de texte",
+          "Un logiciel de présentation"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il est inutile de schématiser le fonctionnement d'un objet technique si on comprend déjà comment il fonctionne. Vrai ou Faux ?"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

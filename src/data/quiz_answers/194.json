@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6e - SÃ©rie 194",
+    "level": "6e",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Les matériaux et leurs propriétés",
+    "question_count": 8,
+    "level": "6e",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Solide, liquide, gaz",
+        "correction": "Les trois états de la matière sont le solide, le liquide et le gaz."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, le bois est un matériau naturel provenant des arbres."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Métal",
+        "correction": "Le métal est un excellent conducteur d'électricité, contrairement au plastique, au bois et au verre."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, le verre est un matériau transparent qui permet de voir à travers lui."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Métal",
+        "correction": "Le métal est généralement plus résistant à la chaleur que le plastique, le bois et le verre."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, le plastique peut être recyclé et réutilisé pour fabriquer de nouveaux objets."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Plastique",
+        "correction": "Le plastique est généralement plus léger que le bois, le métal et le verre."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, le bois est un matériau renouvelable car il peut être replanté et cultivé à nouveau."
+      }
+    ]
+  }
+}

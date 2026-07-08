@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 166",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - Les pronoms personnels",
+    "status": "published",
+    "created_at": "2026-04-26T21:46:18.979321Z",
+    "updated_at": "2026-04-26T21:46:18.979321Z"
+  },
+  "quiz": {
+    "title": "Français 6e - Les pronoms personnels",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel pronom personnel est utilisé pour remplacer un nom de personne ou d'animal de la première personne du singulier ?",
+        "choices": [
+          "Il",
+          "Elle",
+          "Je",
+          "Nous"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le pronom personnel 'Il' est utilisé pour remplacer un nom de personne ou d'animal de la troisième personne du singulier masculin."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel pronom personnel est utilisé pour remplacer un nom de personne ou d'animal de la troisième personne du singulier féminin ?",
+        "choices": [
+          "Il",
+          "Elle",
+          "Je",
+          "Nous"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le pronom personnel 'Nous' est utilisé pour remplacer un nom de groupe de personnes ou d'animaux, y compris le locuteur et les autres personnes impliquées."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel pronom personnel est utilisé pour remplacer un nom de personne ou d'animal de la deuxième personne du singulier ?",
+        "choices": [
+          "Tu",
+          "Il",
+          "Elle",
+          "Nous"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation correcte des pronoms personnels peut contribuer à améliorer la clarté et la fluidité de la communication écrite en évitant les répétitions et en facilitant la compréhension du sujet et des actions dans une phrase."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel pronom personnel est utilisé pour remplacer un nom de groupe de personnes ou d'animaux, sans inclure le locuteur ?",
+        "choices": [
+          "Ils",
+          "Elles",
+          "Nous",
+          "Vous"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation incorrecte des pronoms personnels peut parfois entraîner des confusions ou des malentendus dans la communication écrite, en rendant difficile pour les lecteurs de comprendre qui fait quoi dans une phrase."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

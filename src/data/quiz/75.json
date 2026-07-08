@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 75",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 6eme : Suites logiques (numériques, géométriques, de formes, de couleurs)",
+    "status": "published",
+    "created_at": "2026-04-26T21:35:11.491700Z",
+    "updated_at": "2026-04-26T21:35:11.491700Z"
+  },
+  "quiz": {
+    "title": "Suites logiques (numériques, géométriques, de formes, de couleurs)",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quelle est la prochaine forme dans la suite : cercle, carré, triangle, cercle, carré, triangle, ... ?",
+        "choices": [
+          "Cercle",
+          "Carré",
+          "Triangle",
+          "Rectangle"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La suite de nombres 2, 4, 6, 8, ... est une suite logique."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la prochaine couleur dans la suite : rouge, vert, bleu, rouge, vert, bleu, ... ?",
+        "choices": [
+          "Rouge",
+          "Vert",
+          "Bleu",
+          "Jaune"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La suite de nombres 1, 2, 4, 8, ... est une suite logique."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la prochaine forme dans la suite : carré, triangle, cercle, carré, triangle, cercle, ... ?",
+        "choices": [
+          "Carré",
+          "Triangle",
+          "Cercle",
+          "Rectangle"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La suite de nombres 3, 6, 9, 12, ... est une suite logique."
+      },
+      {
+        "type": "qcm",
+        "question": "Quelle est la prochaine couleur dans la suite : jaune, bleu, rouge, jaune, bleu, rouge, ... ?",
+        "choices": [
+          "Jaune",
+          "Bleu",
+          "Rouge",
+          "Vert"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La suite de nombres 5, 10, 15, 20, ... est une suite logique."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

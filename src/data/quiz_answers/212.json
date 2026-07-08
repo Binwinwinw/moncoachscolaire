@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 212",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Notions de base en réseaux informatiques (adresse IP, protocole).",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Tous les concepts mentionnés",
+        "correction": "Les concepts de base en réseaux informatiques comprennent l'adresse IP, qui est une adresse unique attribuée à chaque appareil connecté à un réseau, le protocole, qui est un ensemble de règles pour la communication entre les appareils sur un réseau, et le routeur, qui est un dispositif qui dirige le trafic de données entre les réseaux."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, une adresse IP (Internet Protocol) est une adresse numérique unique attribuée à chaque appareil connecté à un réseau informatique, permettant l'identification et la communication entre les appareils sur le réseau."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "HTTP (HyperText Transfer Protocol), FTP (File Transfer Protocol), et TCP/IP (Transmission Control Protocol/Internet Protocol) sont tous des exemples de protocoles de communication utilisés dans les réseaux informatiques pour permettre la transmission de données entre les appareils."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, un routeur est un dispositif essentiel dans les réseaux informatiques qui dirige le trafic de données entre les différents réseaux, permettant aux appareils de communiquer entre eux même s'ils sont sur des réseaux différents."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "Tous les exemples mentionnés sont des types d'appareils courants qui peuvent être connectés à un réseau informatique pour partager des ressources et communiquer avec d'autres appareils."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, il existe une différence entre les différents concepts en réseaux informatiques en termes de leur fonction, de leur utilisation, et de leur importance dans la conception et le fonctionnement des réseaux informatiques."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "SMTP",
+        "correction": "SMTP (Simple Mail Transfer Protocol) est un protocole utilisé pour la transmission d'e-mails, et n'est pas principalement utilisé pour la communication générale dans les réseaux informatiques comme HTTP, FTP, ou TCP/IP."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, tous les appareils connectés à un réseau informatique se voient attribuer une adresse IP unique pour permettre l'identification et la communication sur le réseau."
+      }
+    ]
+  }
+}

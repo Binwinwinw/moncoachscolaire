@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 175",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - Les champs lexicaux",
+    "status": "published",
+    "created_at": "2026-04-26T21:46:18.991718Z",
+    "updated_at": "2026-04-26T21:46:18.991718Z"
+  },
+  "quiz": {
+    "title": "Français 6e - Les champs lexicaux",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'un champ lexical ?",
+        "choices": [
+          "Un groupe de mots qui partagent une même racine",
+          "Un groupe de mots qui appartiennent à la même catégorie grammaticale",
+          "Un groupe de mots qui sont liés par un thème ou une idée commune",
+          "Un groupe de mots qui ont des significations opposées"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation de champs lexicaux peut contribuer à améliorer la qualité et l'efficacité de la communication écrite en permettant aux écrivains de créer une cohérence et une unité dans leur texte, en utilisant des mots qui évoquent des images ou des concepts liés, ce qui peut renforcer l'impact du message et favoriser une meilleure compréhension de la part des lecteurs."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le champ lexical associé au thème de la nature ?",
+        "choices": [
+          "Arbre, fleur, rivière",
+          "Maison, voiture, ville",
+          "Amour, amitié, famille",
+          "Musique, danse, art"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation incorrecte des champs lexicaux peut parfois entraîner des confusions ou des malentendus dans la communication écrite, en rendant difficile pour les lecteurs de comprendre le thème ou l'idée commune que les écrivains cherchent à transmettre à travers les mots utilisés dans le texte."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le champ lexical associé au thème de l'amour ?",
+        "choices": [
+          "Amour, amitié, famille",
+          "Maison, voiture, ville",
+          "Arbre, fleur, rivière",
+          "Musique, danse, art"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation correcte des champs lexicaux est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les écrivains utilisent les mots de manière appropriée en fonction du thème ou de l'idée commune qu'ils souhaitent transmettre à travers leur texte."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le champ lexical associé au thème de la musique ?",
+        "choices": [
+          "Musique, danse, art",
+          "Amour, amitié, famille",
+          "Maison, voiture, ville",
+          "Arbre, fleur, rivière"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation correcte des champs lexicaux est essentielle pour éviter les confusions et les erreurs dans la communication écrite."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

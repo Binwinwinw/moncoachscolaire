@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 6eme - Série 133",
+    "level": "6eme",
+    "subject": "EMC"
+  },
+  "quiz": {
+    "title": "EMC 6e - La vie scolaire",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "EMC",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Le respect des règles de la vie scolaire garantit la promotion d'un environnement d'apprentissage sain, le respect des autres et la construction d'une société plus juste et solidaire.",
+        "correction": "Le respect des règles de la vie scolaire est essentiel pour garantir la promotion d'un environnement d'apprentissage sain, le respect des autres et la construction d'une société plus juste et solidaire."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des règles de la vie scolaire encourage l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect de ces règles dans la société."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "L'éducation joue un rôle crucial en sensibilisant les individus aux règles de la vie scolaire et en promouvant le respect de ces règles.",
+        "correction": "L'éducation joue un rôle crucial en sensibilisant les individus aux règles de la vie scolaire, en promouvant le respect de ces règles et en encourageant la responsabilité individuelle pour garantir la promotion d'un environnement d'apprentissage sain, le respect des autres et la construction d'une société plus juste et solidaire."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Le respect des règles de la vie scolaire est essentiel pour garantir la promotion d'un environnement d'apprentissage sain, le respect des autres et la construction d'une société plus juste et solidaire."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Les enseignants jouent un rôle crucial en sensibilisant les élèves aux règles de la vie scolaire et en promouvant le respect de ces règles.",
+        "correction": "Les enseignants jouent un rôle crucial en sensibilisant les élèves aux règles de la vie scolaire, en promouvant le respect de ces règles et en encourageant la responsabilité individuelle pour garantir la promotion d'un environnement d'apprentissage sain, le respect des autres et la construction d'une société plus juste et solidaire."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le respect des règles de la vie scolaire encourage l'acceptation et la valorisation de la responsabilité individuelle, ce qui peut impliquer une intervention pour corriger les comportements inappropriés ou pour promouvoir le respect de ces règles dans la société."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Les parents ont un rôle important en sensibilisant leurs enfants aux règles de la vie scolaire et en promouvant le respect de ces règles.",
+        "correction": "Les parents jouent un rôle crucial dans le respect des règles de la vie scolaire en sensibilisant leurs enfants à ces règles et en encourageant la responsabilité individuelle pour garantir la promotion d'un environnement d'apprentissage sain, le respect des autres et la construction d'une société plus juste et solidaire."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. La vie scolaire vise à promouvoir un environnement d'apprentissage sain, le respect des autres et la construction d'une société plus juste et solidaire en encourageant la responsabilité individuelle et le respect des règles de la vie scolaire."
+      }
+    ]
+  }
+}

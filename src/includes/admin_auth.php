@@ -182,25 +182,12 @@ function logAdminAction($action, $details = '', $targetUserId = null)
     }
 
     try {
-        // Créer la table AdminLogs si elle n'existe pas
-        $pdo->exec("
-            CREATE TABLE IF NOT EXISTS AdminLogs (
-                Id INT AUTO_INCREMENT PRIMARY KEY,
-                AdminId INT NOT NULL,
-                Action VARCHAR(100) NOT NULL,
-                Details TEXT,
-                TargetUserId INT NULL,
-                IpAddress VARCHAR(45),
-                UserAgent TEXT,
-                CreatedAt DATETIME DEFAULT CURRENT_TIMESTAMP,
-                INDEX idx_admin (AdminId),
-                INDEX idx_action (Action),
-                INDEX idx_created (CreatedAt),
-                FOREIGN KEY (AdminId) REFERENCES users(Id) ON DELETE CASCADE
-            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
-        ");
+        $logger = null;
+        if (is_file(__DIR__ . '/security_logger.php')) {
+            require_once __DIR__ . '/security_logger.php';
+            $logger = ensureSecurityLogger($pdo);
+        }
 
-        // Insérer le log (AdminLogs)
         $stmt = $pdo->prepare("
             INSERT INTO AdminLogs (AdminId, Action, Details, TargetUserId, IpAddress, UserAgent)
             VALUES (?, ?, ?, ?, ?, ?)
@@ -214,6 +201,22 @@ function logAdminAction($action, $details = '', $targetUserId = null)
             $_SERVER['REMOTE_ADDR'] ?? 'unknown',
             $_SERVER['HTTP_USER_AGENT'] ?? 'unknown',
         ]);
+
+        if ($logger instanceof SecurityLogger) {
+            $logger->log('admin_action', [
+                'scope' => 'admin',
+                'result' => 'success',
+                'user_id' => $_SESSION['user_id'] ?? null,
+                'identifier' => $_SESSION['username'] ?? ($_SESSION['user_name'] ?? null),
+                'ip_address' => $_SERVER['REMOTE_ADDR'] ?? null,
+                'user_agent' => $_SERVER['HTTP_USER_AGENT'] ?? null,
+                'failure_reason' => null,
+                'request_id' => $_SESSION['request_id'] ?? null,
+                'action_type' => $action,
+                'target_user_id' => $targetUserId,
+                'details' => $details,
+            ]);
+        }
 
         // Aussi insérer dans admin_audit (si disponible)
         try {

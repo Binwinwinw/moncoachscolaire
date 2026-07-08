@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 202",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Sources d'énergie (musculaire, chimique, électrique).",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Toutes les sources mentionnées",
+        "correction": "Il existe plusieurs sources d'énergie, notamment l'énergie musculaire, l'énergie chimique, et l'énergie électrique."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, l'énergie musculaire est produite par les muscles du corps humain lorsqu'ils se contractent pour effectuer un travail."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Le carburant",
+        "correction": "Le carburant est un exemple d'énergie chimique, car il contient de l'énergie stockée dans les liaisons chimiques qui peut être libérée lors de la combustion."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, l'énergie électrique est produite par le mouvement des électrons à travers un conducteur, ce qui permet de faire fonctionner des appareils électriques."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Une lampe",
+        "correction": "Une lampe est un exemple d'appareil qui utilise l'énergie électrique pour produire de la lumière."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, l'énergie musculaire ne peut pas être directement convertie en énergie électrique. Cependant, elle peut être utilisée pour produire de l'électricité à travers des dispositifs mécaniques comme des générateurs."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Un moteur à essence",
+        "correction": "Un moteur à essence est un exemple d'appareil qui utilise l'énergie chimique du carburant pour produire de l'énergie mécanique."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, il existe des différences entre les différentes sources d'énergie en termes de leur origine, de leur mode de production, et de leur utilisation."
+      }
+    ]
+  }
+}

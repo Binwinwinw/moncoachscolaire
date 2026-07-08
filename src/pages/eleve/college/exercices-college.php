@@ -108,7 +108,7 @@ foreach ($levels as $lvl) {
                                         <span class="badge badge-difficulty <?php echo(strtolower($ex['Difficulty']) === 'facile' ? 'easy' : (strtolower($ex['Difficulty']) === 'difficile' ? 'hard' : 'medium')); ?> px-2 py-1 rounded-full font-semibold text-white <?php echo(strtolower($ex['Difficulty']) === 'facile' ? 'bg-green-500' : (strtolower($ex['Difficulty']) === 'difficile' ? 'bg-red-500' : 'bg-yellow-500')); ?>">
                                             <?php echo htmlspecialchars($ex['Difficulty']); ?>
                                         </span>
-                                        <span class="badge badge-subject bg-blue-100 text-blue-700 px-2 py-1 rounded-full font-semibold">
+                                        <span class="badge badge-subject bg-theme-muted text-theme px-2 py-1 rounded-full font-semibold">
                                             <?php echo htmlspecialchars($ex['Subject'] ?? ''); ?>
                                         </span>
                                     </div>
@@ -125,7 +125,7 @@ foreach ($levels as $lvl) {
                                     } ?>
                                 </p>
                                 <div class="flex flex-wrap gap-2 mt-2">
-                                    <button class="btn-outline px-3 py-1 rounded-lg border border-blue-300 text-blue-700 bg-white hover:bg-blue-50 focus:outline-none focus:ring-2 focus:ring-blue-300 transition" data-action="verify-exercise">Vérifier mes réponses</button>
+                                    <button class="btn-outline px-3 py-1 rounded-lg border border-theme text-theme bg-white hover:bg-theme-soft focus:outline-none focus:ring-2 focus:ring-theme transition" data-action="verify-exercise">Vérifier mes réponses</button>
                                 </div>
                             </div>
                         </article>

@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6eme - Série 12",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6eme : histoire des arts : œuvres, artistes, mouvements artistiques",
+    "status": "published",
+    "created_at": "2026-04-26T21:32:48.823292Z",
+    "updated_at": "2026-04-26T21:32:48.823292Z"
+  },
+  "quiz": {
+    "title": "histoire des arts : œuvres, artistes, mouvements artistiques",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Who painted the Mona Lisa?",
+        "choices": [
+          "Leonardo da Vinci",
+          "Vincent van Gogh",
+          "Pablo Picasso",
+          "Claude Monet"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "The Impressionist movement was characterized by a focus on light and color."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a famous sculpture?",
+        "choices": [
+          "David",
+          "The Starry Night",
+          "The Persistence of Memory",
+          "The Scream"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'Pablo Picasso was a leading figure in the Cubist art movement' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a famous painting?",
+        "choices": [
+          "The Last Supper",
+          "The Thinker",
+          "The Kiss",
+          "The Birth of Venus"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'Claude Monet was known for his landscape paintings' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is an art movement?",
+        "choices": [
+          "Surrealism",
+          "Realism",
+          "Abstract Expressionism",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The Scream is a famous painting by Edvard Munch' is a True statement."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

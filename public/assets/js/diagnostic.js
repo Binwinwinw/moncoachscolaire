@@ -4,6 +4,284 @@ console.log("✅ diagnostic.js chargé");
 
 let currentQuizState = null;
 
+function normalizeSchoolLevelValue(levelValue) {
+    const normalized = String(levelValue || "")
+        .trim()
+        .toLowerCase()
+        .replace(/é|è|ê/g, "e")
+        .replace(/\s+/g, "");
+
+    const aliases = {
+        "6eme": "6eme",
+        "5eme": "5eme",
+        "4eme": "4eme",
+        "3eme": "3eme",
+        seconde: "2nde",
+        "2nde": "2nde",
+        premiere: "1ere",
+        "1ere": "1ere",
+        terminale: "terminale",
+        bac: "bac",
+    };
+
+    return aliases[normalized] || normalized;
+}
+
+function initDiagnosticQuizAiModal() {
+    const openButton = document.getElementById("btn-diagnostic-quiz-ia");
+    const modal = document.getElementById("modal-diagnostic-quiz-ia");
+    const closeButton = document.getElementById(
+        "close-modal-diagnostic-quiz-ia",
+    );
+    const form = document.getElementById("form-diagnostic-quiz-ia");
+    const result = document.getElementById("diagnostic-quiz-ia-result");
+
+    if (!openButton || !modal || !closeButton || !form || !result) {
+        return;
+    }
+
+    const levelSelect = document.getElementById("diagnostic-quiz-niveau");
+    const levelContainer = document.getElementById(
+        "diagnostic-quiz-niveau-container",
+    );
+    const subjectSelect = document.getElementById("diagnostic-quiz-matiere");
+    const typeInput = document.getElementById("diagnostic-quiz-type");
+    const diagnosticContext = window.diagnosticContext || {};
+
+    const lockedLevel = normalizeSchoolLevelValue(
+        window.requestLevel || window.userLevel || "",
+    );
+
+    const closeModal = function () {
+        modal.classList.add("hidden");
+        modal.classList.remove("flex");
+        modal.setAttribute("aria-hidden", "true");
+    };
+
+    const openModal = function () {
+        result.innerHTML = "";
+        modal.classList.remove("hidden");
+        modal.classList.add("flex");
+        modal.setAttribute("aria-hidden", "false");
+
+        if (levelSelect) {
+            const matchingLevelOption = levelSelect.querySelector(
+                `option[value="${lockedLevel}"]`,
+            );
+            if (matchingLevelOption) {
+                matchingLevelOption.selected = true;
+            }
+
+            if (lockedLevel && levelContainer) {
+                levelContainer.style.display = "none";
+            }
+
+            if (lockedLevel) {
+                levelSelect.disabled = true;
+                levelSelect.setAttribute("aria-disabled", "true");
+            }
+        }
+
+        if (subjectSelect) {
+            const preferredSubject = String(
+                window.requestSubject || window.userSubject || "",
+            ).trim();
+            if (preferredSubject) {
+                const options = Array.from(subjectSelect.options);
+                const matchingSubjectOption = options.find(
+                    (option) =>
+                        option.value.toLowerCase() ===
+                        preferredSubject.toLowerCase(),
+                );
+                if (matchingSubjectOption) {
+                    matchingSubjectOption.selected = true;
+                }
+            }
+        }
+    };
+
+    openButton.addEventListener("click", openModal);
+    closeButton.addEventListener("click", closeModal);
+
+    modal.addEventListener("click", (event) => {
+        if (event.target === modal) {
+            closeModal();
+        }
+    });
+
+    document.addEventListener("keydown", (event) => {
+        if (event.key === "Escape" && !modal.classList.contains("hidden")) {
+            closeModal();
+        }
+    });
+
+    form.addEventListener("submit", async (event) => {
+        event.preventDefault();
+
+        const randomTypes = ["QCM", "vrai/faux", "QCU", "texte"];
+
+        let niveau = lockedLevel;
+        const matiere = subjectSelect ? subjectSelect.value.trim() : "";
+        let type = typeInput ? typeInput.value.trim() : "";
+
+        if (!niveau && levelSelect) {
+            niveau = levelSelect.value.trim();
+        }
+
+        if (!type) {
+            type = randomTypes[Math.floor(Math.random() * randomTypes.length)];
+            if (typeInput) {
+                typeInput.value = type;
+            }
+        }
+
+        if (!niveau || !matiere) {
+            result.innerHTML =
+                '<div class="text-red-600">Merci de choisir un niveau et une matière.</div>';
+            return;
+        }
+
+        result.innerHTML =
+            '<div class="py-4 text-center text-slate-500">Génération du quiz en cours...</div>';
+
+        try {
+            const csrfToken = window.csrfToken || "";
+            const generateResponse = await fetch(
+                `${window.basePath || ""}/index.php?page=api/ia/generate_quiz`,
+                {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                        "X-CSRF-Token": csrfToken,
+                    },
+                    body: JSON.stringify({
+                        niveau,
+                        matiere,
+                        type,
+                        output_mode: "quiz",
+                        context_page: "diagnostic",
+                        child_user_id:
+                            diagnosticContext.role === "parent" &&
+                            diagnosticContext.selectedChildId
+                                ? Number(diagnosticContext.selectedChildId)
+                                : null,
+                        csrf_token: csrfToken,
+                    }),
+                },
+            );
+
+            const responseText = await generateResponse.text();
+            let generatedData;
+            try {
+                generatedData = JSON.parse(responseText);
+            } catch (parseError) {
+                throw new Error("Réponse JSON invalide du serveur");
+            }
+
+            if (
+                !generateResponse.ok ||
+                !generatedData ||
+                !generatedData.success
+            ) {
+                throw new Error(
+                    generatedData && generatedData.error
+                        ? generatedData.error
+                        : `Erreur serveur (${generateResponse.status})`,
+                );
+            }
+
+            if (!generatedData.quiz_html) {
+                throw new Error("Aucun quiz généré.");
+            }
+
+            result.innerHTML = generatedData.quiz_html;
+
+            if (typeof window.InteractiveExercises !== "undefined") {
+                window.InteractiveExercises.initAll();
+            }
+
+            if (
+                Array.isArray(generatedData.questions) &&
+                generatedData.questions.length > 0
+            ) {
+                const saveButton = document.createElement("button");
+                saveButton.type = "button";
+                saveButton.className =
+                    "mt-4 inline-flex w-full items-center justify-center gap-2 rounded-lg bg-blue-700 px-4 py-2 font-bold text-white transition hover:bg-blue-800";
+                saveButton.innerHTML = "📂 Sauvegarder dans la bibliothèque";
+
+                saveButton.addEventListener("click", async () => {
+                    saveButton.disabled = true;
+                    saveButton.innerHTML = "⌛ Sauvegarde en cours...";
+
+                    try {
+                        const csrfToken = window.csrfToken || "";
+                        const saveResponse = await fetch(
+                            `${window.basePath || ""}/index.php?page=api/ia/save_generated_quiz`,
+                            {
+                                method: "POST",
+                                headers: {
+                                    "Content-Type": "application/json",
+                                    "X-CSRF-Token": csrfToken,
+                                },
+                                body: JSON.stringify({
+                                    questions: generatedData.questions,
+                                    level: generatedData.level,
+                                    subject: generatedData.subject,
+                                    csrf_token: csrfToken,
+                                }),
+                            },
+                        );
+
+                        const saveText = await saveResponse.text();
+                        let saveData;
+                        try {
+                            saveData = JSON.parse(saveText);
+                        } catch (parseError) {
+                            throw new Error(
+                                "Réponse JSON invalide lors de la sauvegarde",
+                            );
+                        }
+
+                        if (
+                            !saveResponse.ok ||
+                            !saveData ||
+                            !saveData.success
+                        ) {
+                            throw new Error(
+                                saveData && saveData.error
+                                    ? saveData.error
+                                    : `Erreur serveur (${saveResponse.status})`,
+                            );
+                        }
+
+                        saveButton.innerHTML = "✅ Quiz sauvegardé !";
+                        saveButton.classList.remove(
+                            "bg-blue-700",
+                            "hover:bg-blue-800",
+                        );
+                        saveButton.classList.add(
+                            "bg-green-600",
+                            "hover:bg-green-700",
+                        );
+                    } catch (error) {
+                        alert(
+                            "Erreur lors de la sauvegarde : " + error.message,
+                        );
+                        saveButton.disabled = false;
+                        saveButton.innerHTML =
+                            "📂 Sauvegarder dans la bibliothèque";
+                    }
+                });
+
+                result.appendChild(saveButton);
+            }
+        } catch (error) {
+            result.innerHTML = `<div class="text-red-600">Erreur : ${escapeHtml(error.message || "Erreur inconnue")}</div>`;
+        }
+    });
+}
+
 function escapeHtml(value) {
     return String(value)
         .replace(/&/g, "&amp;")
@@ -405,7 +683,7 @@ function renderAvailableQuizIds(quizRows, subject) {
         subjectKey && grouped[subjectKey] ? subjectKey : null;
 
     let html = `
-        <div id="diagnostic-ids-suggestions" class="mt-4 text-sm text-gray-700">
+        <div id="diagnostic-ids-suggestions" class="mt-4 text-sm text-slate-700">
             <p class="font-semibold mb-3">IDs disponibles pour ce niveau :</p>
     `;
 
@@ -415,7 +693,7 @@ function renderAvailableQuizIds(quizRows, subject) {
         return `
             <div class="mb-2">
                 <span class="font-semibold">${escapeHtml(subjectName)} :</span>
-                <span class="block mt-1 text-gray-600">${escapeHtml(displayIds)}${escapeHtml(more)}</span>
+                <span class="block mt-1 text-slate-600">${escapeHtml(displayIds)}${escapeHtml(more)}</span>
             </div>
         `;
     };
@@ -428,7 +706,7 @@ function renderAvailableQuizIds(quizRows, subject) {
             html += renderIds(subjectName, grouped[subjectName]);
         });
         if (allSubjects.length > 5) {
-            html += `<div class="text-xs text-gray-500">…et ${allSubjects.length - 5} autres matières.</div>`;
+            html += `<div class="text-xs text-slate-500">…et ${allSubjects.length - 5} autres matières.</div>`;
         }
     }
 
@@ -438,14 +716,35 @@ function renderAvailableQuizIds(quizRows, subject) {
 
 document.addEventListener("DOMContentLoaded", async () => {
     console.log("✅ DOMContentLoaded déclenché");
+    initDiagnosticQuizAiModal();
+
     const app = document.getElementById("diagnostic-app");
     if (!app) return console.error("diagnostic-app non trouvé");
+
+    const diagnosticContext = window.diagnosticContext || {};
+    if (diagnosticContext.role === "parent") {
+        if (diagnosticContext.hasLinkedChildren === false) {
+            return;
+        }
+        if (diagnosticContext.needsSelection) {
+            return;
+        }
+    }
+
+    if (diagnosticContext.catalogAvailable === false) {
+        return;
+    }
 
     // Niveau synchronisé depuis PHP et la requête actuelle
     const level = window.requestLevel || window.userLevel || "6eme";
     const requestSubject = window.requestSubject || null;
     const urlParams = new URLSearchParams(window.location.search);
     const subject = urlParams.get("subject") || requestSubject || null;
+    const childId = Number(diagnosticContext.selectedChildId || 0);
+    const childIdQuery =
+        diagnosticContext.role === "parent" && childId > 0
+            ? `&child_id=${encodeURIComponent(String(childId))}`
+            : "";
 
     // Vérifier que apiBasePath est défini
     if (!window.apiBasePath) {
@@ -468,11 +767,14 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     const apiUrl =
         `${window.apiBasePath}/diagnostic.php?level=${encodeURIComponent(level)}` +
-        (subject ? `&subject=${encodeURIComponent(subject)}` : "");
+        (subject ? `&subject=${encodeURIComponent(subject)}` : "") +
+        childIdQuery;
     const idsUrl =
         `${window.apiBasePath}/diagnostic.php?ids_only=1&level=${encodeURIComponent(
             level,
-        )}` + (subject ? `&subject=${encodeURIComponent(subject)}` : "");
+        )}` +
+        (subject ? `&subject=${encodeURIComponent(subject)}` : "") +
+        childIdQuery;
 
     console.log("INFO: Diagnostic page loading");
     console.log("INFO: Diagnostic IDs URL:", idsUrl);
@@ -480,6 +782,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     console.log("- API Base Path:", window.apiBasePath);
     console.log("- API URL:", apiUrl);
     console.log("- Subject:", subject || "none");
+    console.log("- Child ID:", childId || "none");
 
     try {
         console.log("FETCH: Appel API...");
@@ -616,15 +919,15 @@ document.addEventListener("DOMContentLoaded", async () => {
             for (let page = 1; page <= totalPages; page++) {
                 const isActive = page === currentPage;
                 buttons.push(`
-                    <button data-quiz-page="${page}" class="px-4 py-2 rounded-xl border-2 text-sm font-bold transition-all ${isActive ? "bg-blue-600 text-white border-blue-600 shadow-lg" : "bg-white text-blue-700 border-blue-200 hover:border-blue-400 hover:bg-blue-50"}">
+                    <button data-quiz-page="${page}" class="rounded-xl border px-4 py-2 text-sm font-semibold transition ${isActive ? "border-emerald-700 bg-emerald-700 text-white shadow" : "border-slate-300 bg-white text-slate-700 hover:border-emerald-400 hover:bg-emerald-50"}">
                         ${page}
                     </button>
                 `);
             }
 
             return `
-                <div class="w-full flex flex-wrap justify-center items-center gap-2 mt-8">
-                    <span class="text-sm text-gray-600 font-semibold mr-2">Page ${currentPage}/${totalPages}</span>
+                <div class="mt-8 flex w-full flex-wrap items-center justify-center gap-2">
+                    <span class="mr-2 text-sm font-semibold text-slate-600">Page ${currentPage}/${totalPages}</span>
                     ${buttons.join("")}
                 </div>
             `;
@@ -635,23 +938,22 @@ document.addEventListener("DOMContentLoaded", async () => {
             const pagedQuiz = quizArray.slice(start, start + pageSize);
 
             let html = `
-                <header class="mb-12 text-center">
-                    <h1 class="text-5xl md:text-6xl font-extrabold mb-6 drop-shadow-lg"
-                        style="background: linear-gradient(to right, #2563eb, #7c3aed, #4f46e5); -webkit-background-clip: text; color: #1e293b;">
+                <header class="mb-10 rounded-3xl border border-slate-200 bg-white/90 p-6 text-center shadow-sm md:p-8">
+                    <h1 class="mb-4 text-4xl font-extrabold text-slate-900 md:text-5xl">
                         🩺 Diagnostics ${level.toUpperCase()}
                     </h1>
-                    <p class="text-2xl text-gray-800 font-semibold mb-2">${quizArray.length} quiz disponibles</p>
-                    ${poolHintText ? `<p class="text-base text-yellow-700 mb-4 font-semibold bg-yellow-100 p-3 rounded-xl border border-yellow-200">${escapeHtml(poolHintText)}</p>` : ""}
-                    <div class="flex flex-wrap justify-center gap-4 mb-4">
-                        <span class="px-4 py-2 rounded-full ${levelBadgeClass} font-bold shadow">${levelType}</span>
-                        <span class="px-4 py-2 rounded-full bg-indigo-100 text-indigo-800 font-bold shadow">Test de niveau</span>
+                    <p class="mb-3 text-lg font-semibold text-slate-700 md:text-2xl">${quizArray.length} quiz disponibles</p>
+                    ${poolHintText ? `<p class="mb-4 rounded-xl border border-amber-200 bg-amber-50 p-3 text-base font-semibold text-amber-800">${escapeHtml(poolHintText)}</p>` : ""}
+                    <div class="mb-4 flex flex-wrap justify-center gap-3">
+                        <span class="rounded-full px-4 py-2 font-semibold shadow-sm ${levelBadgeClass}">${levelType}</span>
+                        <span class="rounded-full bg-emerald-100 px-4 py-2 font-semibold text-emerald-800 shadow-sm">Test de niveau</span>
                     </div>
-                    <div class="max-w-xl mx-auto bg-white/80 rounded-2xl p-4 border border-blue-100 shadow-sm">
-                        <p class="text-sm font-semibold text-gray-700 mb-2">Tu connais l'ID d'un quiz ? Lance-le directement :</p>
+                    <div class="mx-auto max-w-xl rounded-2xl border border-slate-200 bg-slate-50 p-4 shadow-sm">
+                        <p class="mb-2 text-sm font-semibold text-slate-700">Tu connais l'ID d'un quiz ? Lance-le directement :</p>
                         <div class="flex gap-2">
                             <input id="quiz-id-input" type="number" min="1" placeholder="Ex: 145"
-                                   class="flex-1 px-4 py-3 rounded-xl border-2 border-blue-200 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 outline-none" />
-                            <button id="quiz-id-start-btn" class="px-5 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold transition-all">
+                                   class="flex-1 rounded-xl border border-slate-300 bg-white px-4 py-3 text-slate-800 outline-none focus:border-emerald-500 focus:ring-2 focus:ring-emerald-200" />
+                            <button id="quiz-id-start-btn" class="rounded-xl bg-emerald-700 px-5 py-3 font-semibold text-white transition hover:bg-emerald-800">
                                 Ouvrir
                             </button>
                         </div>
@@ -662,7 +964,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
             html += `
                 <div class="mx-auto w-full max-w-screen-xl px-2 py-2">
-                    <div class="w-full bg-white/90 rounded-3xl shadow-xl p-3 md:p-4 flex flex-col items-center">
+                    <div class="flex w-full flex-col items-center rounded-3xl border border-slate-200 bg-white/90 p-3 shadow-sm md:p-4">
                         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-full">
             `;
 
@@ -671,31 +973,31 @@ document.addEventListener("DOMContentLoaded", async () => {
                     recommendedQuizId > 0 &&
                     Number(quiz.id) === recommendedQuizId;
                 const recommendedBadge = isRecommended
-                    ? '<span class="absolute top-4 left-4 px-4 py-2 rounded-full bg-gradient-to-r from-emerald-500 to-green-600 text-white font-bold text-xs shadow-lg">⭐ Recommandé</span>'
+                    ? '<span class="absolute left-4 top-4 rounded-full bg-emerald-700 px-3 py-1 text-xs font-semibold text-white shadow">⭐ Recommandé</span>'
                     : "";
 
                 const recommendedCardClass = isRecommended
-                    ? "border-emerald-400 ring-2 ring-emerald-200 shadow-emerald-200"
-                    : "border-blue-200";
+                    ? "border-emerald-300 ring-2 ring-emerald-100"
+                    : "border-slate-200";
 
                 html += `
                         <button onclick="startQuiz(${quiz.id}, '${quiz.title.replace(/'/g, "\\'").replace(/"/g, '\\"')}')"
-                            class="group quiz-card min-w-full h-full flex flex-col justify-between p-5 bg-gradient-to-br from-white via-blue-50 to-indigo-100 border-2 ${recommendedCardClass} rounded-3xl hover:border-blue-400 hover:shadow-xl transition-all duration-200 shadow-md hover:shadow-blue-200 backdrop-blur-sm relative overflow-hidden">
+                            class="group quiz-card relative flex h-full min-w-full flex-col justify-between overflow-hidden rounded-3xl border ${recommendedCardClass} bg-white p-5 text-left shadow-sm transition hover:-translate-y-0.5 hover:border-emerald-300 hover:shadow-md">
                             ${recommendedBadge}
-                            <span class="absolute top-4 right-4 px-3 py-1 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white font-semibold text-[0.65rem] shadow-lg">ID ${quiz.id}</span>
-                            <div class="flex items-start gap-3 mb-4">
-                                <div class="w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-700 rounded-2xl flex items-center justify-center shadow-md flex-shrink-0 border-2 border-white">
+                            <span class="absolute right-4 top-4 rounded-full bg-slate-900 px-3 py-1 text-[0.65rem] font-semibold text-white shadow">ID ${quiz.id}</span>
+                            <div class="mb-4 flex items-start gap-3">
+                                <div class="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-2xl bg-emerald-700 text-white shadow">
                                     <span class="text-white font-bold text-lg">${quiz.id}</span>
                                 </div>
                                 <div class="flex-1 min-w-0">
-                                    <h3 class="font-extrabold text-xl text-gray-800 leading-tight group-hover:text-blue-700">${quiz.title}</h3>
-                                    <p class="text-xs font-semibold text-indigo-900 bg-indigo-100 px-3 py-1 rounded-full mt-2 inline-block">${quiz.subject}</p>
+                                    <h3 class="text-xl font-bold leading-tight text-slate-900 group-hover:text-emerald-800">${quiz.title}</h3>
+                                    <p class="mt-2 inline-block rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700">${quiz.subject}</p>
                                 </div>
                             </div>
-                            <p class="text-gray-700 text-sm leading-snug mb-3">${quiz.description || "Diagnostic niveau " + level}</p>
-                            <div class="flex flex-wrap gap-2 mt-auto">
-                                <span class="px-2.5 py-1 rounded-full bg-green-100 text-green-800 text-[0.66rem] font-semibold">${quiz.level}</span>
-                                <span class="px-2.5 py-1 rounded-full bg-yellow-100 text-yellow-800 text-[0.66rem] font-semibold">Quiz</span>
+                            <p class="mb-3 text-sm leading-snug text-slate-600">${quiz.description || "Diagnostic niveau " + level}</p>
+                            <div class="mt-auto flex flex-wrap gap-2">
+                                <span class="rounded-full bg-emerald-100 px-2.5 py-1 text-[0.66rem] font-semibold text-emerald-800">${quiz.level}</span>
+                                <span class="rounded-full bg-amber-100 px-2.5 py-1 text-[0.66rem] font-semibold text-amber-800">Quiz</span>
                             </div>
                         </button>
             `;
@@ -855,9 +1157,9 @@ async function startQuiz(contentId, title) {
     app.innerHTML = `
         <div class="min-h-[60vh] flex items-center justify-center p-8">
             <div class="text-center">
-                <div class="animate-spin rounded-full h-20 w-20 border-4 border-gray-200 border-t-blue-600 mx-auto mb-8"></div>
-                <h2 class="text-3xl font-bold text-gray-800 mb-4">${title}</h2>
-                <p class="text-xl text-gray-600">Chargement des questions...</p>
+                <div class="mx-auto mb-8 h-20 w-20 animate-spin rounded-full border-4 border-slate-200 border-t-emerald-700"></div>
+                <h2 class="mb-4 text-3xl font-bold text-slate-900">${title}</h2>
+                <p class="text-xl text-slate-600">Chargement des questions...</p>
             </div>
         </div>
     `;
@@ -891,15 +1193,15 @@ async function startQuiz(contentId, title) {
 
         // Questions UI
         let html = `
-            <header class="sticky top-0 bg-white/80 backdrop-blur-md border-b-2 border-blue-100 z-20 p-6 mb-8 shadow-sm">
+            <header class="sticky top-0 z-20 mb-8 border-b border-slate-200 bg-white/90 p-6 shadow-sm">
                 <div class="max-w-4xl mx-auto">
                     <div class="flex items-center justify-between">
-                        <h1 class="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                        <h1 class="text-2xl font-bold text-slate-900">
                             ${title}
                         </h1>
                         <div class="flex items-center space-x-4 text-sm font-semibold">
                             <span>Progression: <span id="progress-count">0</span>/${questions.length}</span>
-                            <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-xs">Prêt</span>
+                            <span class="rounded-full bg-emerald-100 px-3 py-1 text-xs text-emerald-800">Prêt</span>
                         </div>
                     </div>
                 </div>
@@ -909,13 +1211,13 @@ async function startQuiz(contentId, title) {
         questions.forEach((question, index) => {
             const qIndex = index + 1;
             html += `
-                <section class="question mb-10 p-8 bg-white/70 backdrop-blur-sm border border-blue-100 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300">
+                <section class="question mb-10 rounded-3xl border border-slate-200 bg-white p-8 shadow-sm transition hover:shadow-md">
                     <div class="flex items-start mb-8">
-                        <div class="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-700 text-white rounded-3xl flex items-center justify-center font-bold text-2xl mr-6 flex-shrink-0 shadow-2xl">
+                        <div class="mr-6 flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-3xl bg-emerald-700 text-2xl font-bold text-white shadow">
                             Q${qIndex}
                         </div>
                         <div class="flex-1 min-w-0">
-                            <h3 class="text-2xl font-semibold text-gray-800 leading-tight mb-6">${question.question}</h3>
+                            <h3 class="mb-6 text-2xl font-semibold leading-tight text-slate-900">${question.question}</h3>
                         </div>
                     </div>
 
@@ -927,16 +1229,16 @@ async function startQuiz(contentId, title) {
         });
 
         html += `
-            <div class="sticky bottom-6 z-30 bg-white/90 backdrop-blur-md border-t-4 border-green-200 p-8 rounded-3xl shadow-2xl mx-4 lg:mx-0">
+            <div class="sticky bottom-6 z-30 mx-4 rounded-3xl border border-emerald-200 bg-white/95 p-8 shadow-lg lg:mx-0">
                 <div class="max-w-4xl mx-auto">
                     <div class="flex items-center justify-between mb-6 text-lg font-semibold">
                         <span>✅ <span id="progress-count">0</span>/${questions.length} répondues</span>
-                        <span class="text-green-700 text-xl font-bold">Prêt à corriger !</span>
+                        <span class="text-xl font-bold text-emerald-700">Prêt à corriger !</span>
                     </div>
                     <button onclick="submitQuiz()"
-                            class="w-full bg-gradient-to-r from-green-500 via-emerald-600 to-teal-600 hover:from-green-600 hover:via-emerald-700 hover:to-teal-700 text-white py-6 px-12 rounded-3xl text-2xl font-black shadow-2xl hover:shadow-3xl transform hover:scale-[1.02] transition-all duration-300 flex items-center justify-center group">
+                            class="group flex w-full items-center justify-center rounded-3xl bg-emerald-700 px-12 py-6 text-2xl font-black text-white shadow transition hover:bg-emerald-800">
                         <span class="mr-4">📊 Corriger mon diagnostic</span>
-                        <span class="px-4 py-2 bg-white/30 backdrop-blur-sm rounded-2xl text-lg font-bold group-hover:bg-white/50 transition-all">GO !</span>
+                        <span class="rounded-2xl bg-white/20 px-4 py-2 text-lg font-bold transition group-hover:bg-white/30">GO !</span>
                     </button>
                 </div>
             </div>
@@ -956,13 +1258,13 @@ async function startQuiz(contentId, title) {
         app.innerHTML = `
             <div class="min-h-screen flex items-center justify-center p-8">
                 <div class="max-w-md text-center">
-                    <div class="w-32 h-32 bg-gradient-to-br from-red-400 to-red-600 rounded-3xl flex items-center justify-center mx-auto mb-8 shadow-2xl">
+                    <div class="mx-auto mb-8 flex h-32 w-32 items-center justify-center rounded-3xl bg-rose-100 shadow">
                         <span class="text-5xl font-bold">!</span>
                     </div>
-                    <h2 class="text-3xl font-bold text-gray-900 mb-6">${title}</h2>
-                    <p class="text-xl text-red-600 mb-8 font-semibold">${error.message}</p>
-                    <p class="text-gray-600 mb-12">Vérifiez que src/data/quiz/${contentId}.json existe</p>
-                    <button onclick="history.back()" class="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-2xl shadow-xl transition-all">
+                    <h2 class="mb-6 text-3xl font-bold text-slate-900">${title}</h2>
+                    <p class="mb-8 text-xl font-semibold text-rose-700">${error.message}</p>
+                    <p class="mb-12 text-slate-600">Vérifiez que src/data/quiz/${contentId}.json existe</p>
+                    <button onclick="history.back()" class="rounded-2xl bg-emerald-700 px-8 py-4 font-semibold text-white shadow transition hover:bg-emerald-800">
                         ← Autre quiz
                     </button>
                 </div>
@@ -1012,6 +1314,16 @@ async function submitQuiz() {
         duration_seconds: durationSeconds,
         csrf_token: window.csrfToken || "",
     };
+
+    if (
+        window.diagnosticContext &&
+        window.diagnosticContext.role === "parent" &&
+        window.diagnosticContext.selectedChildId
+    ) {
+        payload.child_user_id = Number(
+            window.diagnosticContext.selectedChildId,
+        );
+    }
 
     if (currentQuizState.isReview && currentQuizState.originalAnswers) {
         payload.is_review = true;
@@ -1076,6 +1388,15 @@ async function submitQuiz() {
     const toReview = Array.isArray(feedback.to_review)
         ? feedback.to_review
         : [];
+    const diagnosticContext = window.diagnosticContext || {};
+    const parentSwitchChildHtml =
+        diagnosticContext.role === "parent" && diagnosticContext.canSwitchChild
+            ? `
+                <a href="${escapeHtml(diagnosticContext.diagnosticPageUrl || "?page=diagnostic")}" class="inline-flex items-center justify-center rounded-2xl border border-slate-300 bg-white px-6 py-4 font-semibold text-slate-700 shadow-sm transition hover:bg-slate-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2">
+                    Changer d’enfant
+                </a>
+            `
+            : "";
 
     currentQuizState.lastResults = detailedResults;
     currentQuizState.level = responseData.level || currentQuizState.level || "";
@@ -1099,7 +1420,7 @@ async function submitQuiz() {
     document.body.style.overflow = "hidden";
 
     // Message conditionnel selon révision ou première tentative
-    let scoreDisplay = `<h1 class="text-5xl font-black bg-gradient-to-r from-green-600 to-emerald-700 bg-clip-text text-transparent mb-6">
+    let scoreDisplay = `<h1 class="mb-6 text-5xl font-black text-emerald-700">
         ${score}/100
     </h1>`;
 
@@ -1113,7 +1434,7 @@ async function submitQuiz() {
         scoreDisplay = `
             <div class="mb-6">
                 <div class="text-sm font-semibold text-gray-600 mb-2">Score initial : ${oldScore}/100</div>
-                <h1 class="text-5xl font-black bg-gradient-to-r from-green-600 to-emerald-700 bg-clip-text text-transparent mb-2">
+                <h1 class="mb-2 text-5xl font-black text-emerald-700">
                     ${score}/100
                 </h1>
                 <div class="text-2xl font-bold">${improvementText}</div>
@@ -1122,41 +1443,41 @@ async function submitQuiz() {
     }
 
     document.querySelector("#diagnostic-app").innerHTML = `
-        <div class="min-h-screen flex items-center justify-center p-8 bg-gradient-to-br from-green-50 to-emerald-50">
-            <div class="max-w-2xl mx-auto text-center backdrop-blur-xl bg-white/90 rounded-3xl p-12 shadow-2xl border border-green-200">
-                <div class="w-32 h-32 bg-gradient-to-br from-green-400 to-emerald-500 rounded-3xl flex items-center justify-center mx-auto mb-8 shadow-2xl ${isReviewResult ? "" : "animate-bounce"}">
+        <div class="min-h-screen flex items-center justify-center p-8">
+            <div class="mx-auto max-w-2xl rounded-3xl border border-emerald-200 bg-white/95 p-12 text-center shadow-lg">
+                <div class="mx-auto mb-8 flex h-32 w-32 items-center justify-center rounded-3xl bg-emerald-100 shadow ${isReviewResult ? "" : "animate-bounce"}">
                     <span class="text-5xl font-black">${isReviewResult ? "🎯" : "⭐"}</span>
                 </div>
                 ${scoreDisplay}
-                <p class="text-2xl font-semibold text-gray-700 mb-4">${answeredCount}/${totalQuestions} reponses analysees</p>
-                <p class="text-lg text-gray-700 mb-8">${escapeHtml(feedback.message || "Bravo pour ton effort, continue comme ca !")}</p>
+                <p class="mb-4 text-2xl font-semibold text-slate-700">${answeredCount}/${totalQuestions} reponses analysees</p>
+                <p class="mb-8 text-lg text-slate-700">${escapeHtml(feedback.message || "Bravo pour ton effort, continue comme ca !")}</p>
                 <div class="grid md:grid-cols-3 gap-6 mb-12">
-                    <div class="p-6 bg-green-100 rounded-2xl">
-                        <span class="text-3xl font-bold text-green-700">✅</span>
+                    <div class="rounded-2xl bg-emerald-100 p-6">
+                        <span class="text-3xl font-bold text-emerald-700">✅</span>
                         <p class="font-bold text-lg mt-2">Points forts</p>
-                        <p class="text-sm text-green-800">${strengths.length ? escapeHtml(strengths.join(", ")) : "Progression en cours"}</p>
+                        <p class="text-sm text-emerald-800">${strengths.length ? escapeHtml(strengths.join(", ")) : "Progression en cours"}</p>
                     </div>
-                    <div class="p-6 bg-yellow-100 rounded-2xl">
-                        <span class="text-3xl font-bold text-yellow-700">⚠️</span>
+                    <div class="rounded-2xl bg-amber-100 p-6">
+                        <span class="text-3xl font-bold text-amber-700">⚠️</span>
                         <p class="font-bold text-lg mt-2">À revoir</p>
-                        <p class="text-sm text-yellow-800">${toReview.length ? escapeHtml(toReview.join(", ")) : "Tres bon niveau global"}</p>
+                        <p class="text-sm text-amber-800">${toReview.length ? escapeHtml(toReview.join(", ")) : "Tres bon niveau global"}</p>
                     </div>
-                    <div class="p-6 bg-blue-100 rounded-2xl">
-                        <span class="text-3xl font-bold text-blue-700">📚</span>
+                    <div class="rounded-2xl bg-sky-100 p-6">
+                        <span class="text-3xl font-bold text-sky-700">📚</span>
                         <p class="font-bold text-lg mt-2">Progression</p>
-                        <p class="text-sm text-blue-800">+${xpGained} XP (total ${xpTotal})</p>
+                        <p class="text-sm text-sky-800">+${xpGained} XP (total ${xpTotal})</p>
                     </div>
                 </div>
                 <div class="flex flex-col md:flex-row gap-4 mb-6">
                     <button onclick="retryQuiz()"
-                            class="flex-1 inline-flex items-center justify-center px-8 py-5 bg-gradient-to-r from-yellow-500 to-amber-600 hover:from-yellow-600 hover:to-amber-700 text-white font-black text-lg rounded-3xl shadow-2xl hover:shadow-3xl transform hover:scale-[1.05] transition-all duration-300">
+                            class="inline-flex flex-1 items-center justify-center rounded-3xl bg-amber-600 px-8 py-5 text-lg font-black text-white shadow transition hover:bg-amber-700">
                         🔄 Refaire tout le quiz
                     </button>
                     ${
                         toReview.length > 0
                             ? `
                     <button onclick="reviewFailedQuestions(${JSON.stringify(toReview).replace(/"/g, "&quot;")})"
-                            class="flex-1 inline-flex items-center justify-center px-8 py-5 bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white font-black text-lg rounded-3xl shadow-2xl hover:shadow-3xl transform hover:scale-[1.05] transition-all duration-300">
+                            class="inline-flex flex-1 items-center justify-center rounded-3xl bg-rose-700 px-8 py-5 text-lg font-black text-white shadow transition hover:bg-rose-800">
                         ⚠️ Revoir les questions ratées
                     </button>
                     `
@@ -1170,11 +1491,11 @@ async function submitQuiz() {
                         ? `
                 <div class="grid md:grid-cols-2 gap-4 mb-6">
                     <button data-ai-action="diagnostic-explanation" onclick="openDiagnosticExplanation().catch((error) => { console.error('Diagnostic explanation error:', error); alert(error.message || 'Explication indisponible'); })"
-                            class="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-indigo-600 to-blue-700 hover:from-indigo-700 hover:to-blue-800 text-white font-bold rounded-2xl shadow-xl transition-all">
+                            class="inline-flex items-center justify-center rounded-2xl bg-indigo-700 px-8 py-4 font-bold text-white shadow transition hover:bg-indigo-800">
                         💡 Comprendre mes erreurs
                     </button>
                     <button data-ai-action="diagnostic-precise-course" onclick="openDiagnosticPreciseCourse().catch((error) => { console.error('Diagnostic precise course error:', error); alert(error.message || 'Mini-cours indisponible'); })"
-                            class="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-slate-800 to-slate-950 hover:from-slate-900 hover:to-black text-white font-bold rounded-2xl shadow-xl transition-all">
+                            class="inline-flex items-center justify-center rounded-2xl bg-slate-900 px-8 py-4 font-bold text-white shadow transition hover:bg-black">
                         📘 Voir mon mini-cours ciblé
                     </button>
                 </div>
@@ -1185,17 +1506,18 @@ async function submitQuiz() {
                     score < 50
                         ? `
                 <button onclick="showCorrectionsHelp()"
-                        class="mb-6 inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-violet-600 to-fuchsia-600 hover:from-violet-700 hover:to-fuchsia-700 text-white font-bold rounded-2xl shadow-xl transition-all">
+                        class="mb-6 inline-flex items-center justify-center rounded-2xl bg-violet-700 px-8 py-4 font-bold text-white shadow transition hover:bg-violet-800">
                     💡 Voir les corrections pour progresser
                 </button>
                 `
                         : ""
                 }
                 <a href="?page=exercices"
-                   class="inline-flex items-center px-12 py-6 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-black text-xl rounded-3xl shadow-2xl hover:shadow-3xl transform hover:scale-[1.05] transition-all duration-300">
+                   class="inline-flex items-center rounded-3xl bg-emerald-700 px-12 py-6 text-xl font-black text-white shadow transition hover:bg-emerald-800">
                     🚀 Commencer mes exercices adaptés
                     <span class="ml-4">→</span>
                 </a>
+                ${parentSwitchChildHtml ? `<div class="mt-4">${parentSwitchChildHtml}</div>` : ""}
             </div>
         </div>
     `;
@@ -1249,14 +1571,14 @@ async function showCorrectionsHelp() {
         const app = document.getElementById("diagnostic-app");
         app.innerHTML = `
             <div class="max-w-4xl mx-auto p-6">
-                <div class="bg-white rounded-3xl border shadow-xl p-6">
+                <div class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
                     <h2 class="text-2xl font-black mb-2">Corrections guidees</h2>
-                    <p class="text-gray-600 mb-6">Lis les explications, puis refais le quiz pour gagner des points.</p>
+                    <p class="mb-6 text-slate-600">Lis les explications, puis refais le quiz pour gagner des points.</p>
                     ${rows || '<p class="text-gray-600">Aucune correction détaillée disponible.</p>'}
                     <div class="mt-6 flex flex-wrap gap-3">
-                        <button onclick="retryQuiz()" class="px-5 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold">🔄 Refaire le quiz</button>
-                        <button data-ai-action="diagnostic-explanation" onclick="openDiagnosticExplanation().catch((error) => { console.error('Diagnostic explanation error:', error); alert(error.message || 'Explication indisponible'); })" class="px-5 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-bold">💡 Comprendre mes erreurs</button>
-                        <button data-ai-action="diagnostic-precise-course" onclick="openDiagnosticPreciseCourse().catch((error) => { console.error('Diagnostic precise course error:', error); alert(error.message || 'Mini-cours indisponible'); })" class="px-5 py-3 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold">📘 Mini-cours ciblé</button>
+                        <button onclick="retryQuiz()" class="rounded-xl bg-emerald-700 px-5 py-3 font-semibold text-white transition hover:bg-emerald-800">🔄 Refaire le quiz</button>
+                        <button data-ai-action="diagnostic-explanation" onclick="openDiagnosticExplanation().catch((error) => { console.error('Diagnostic explanation error:', error); alert(error.message || 'Explication indisponible'); })" class="rounded-xl bg-indigo-700 px-5 py-3 font-semibold text-white transition hover:bg-indigo-800">💡 Comprendre mes erreurs</button>
+                        <button data-ai-action="diagnostic-precise-course" onclick="openDiagnosticPreciseCourse().catch((error) => { console.error('Diagnostic precise course error:', error); alert(error.message || 'Mini-cours indisponible'); })" class="rounded-xl bg-slate-900 px-5 py-3 font-semibold text-white transition hover:bg-black">📘 Mini-cours ciblé</button>
                     </div>
                 </div>
             </div>
@@ -1299,12 +1621,12 @@ async function showCorrectionsHelp() {
         const app = document.getElementById("diagnostic-app");
         app.innerHTML = `
             <div class="max-w-4xl mx-auto p-6">
-                <div class="bg-white rounded-3xl border shadow-xl p-6">
+                <div class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
                     <h2 class="text-2xl font-black mb-2">Corrections guidees</h2>
-                    <p class="text-gray-600 mb-6">Lis les explications, puis refais le quiz pour gagner des points.</p>
+                    <p class="mb-6 text-slate-600">Lis les explications, puis refais le quiz pour gagner des points.</p>
                     ${rows}
                     <div class="mt-6 flex gap-3">
-                        <button onclick="retryQuiz()" class="px-5 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold">🔄 Refaire le quiz</button>
+                        <button onclick="retryQuiz()" class="rounded-xl bg-emerald-700 px-5 py-3 font-semibold text-white transition hover:bg-emerald-800">🔄 Refaire le quiz</button>
                     </div>
                 </div>
             </div>
@@ -1334,9 +1656,9 @@ function reviewFailedQuestions(toReviewLabels) {
     app.innerHTML = `
         <div class="min-h-[60vh] flex items-center justify-center p-8">
             <div class="text-center">
-                <div class="animate-spin rounded-full h-20 w-20 border-4 border-gray-200 border-t-orange-600 mx-auto mb-8"></div>
-                <h2 class="text-3xl font-bold text-gray-800 mb-4">Révision ciblée</h2>
-                <p class="text-xl text-gray-600">Chargement des questions à revoir...</p>
+                <div class="mx-auto mb-8 h-20 w-20 animate-spin rounded-full border-4 border-slate-200 border-t-rose-700"></div>
+                <h2 class="mb-4 text-3xl font-bold text-slate-900">Révision ciblée</h2>
+                <p class="text-xl text-slate-600">Chargement des questions à revoir...</p>
             </div>
         </div>
     `;
@@ -1378,9 +1700,9 @@ function reviewFailedQuestions(toReviewLabels) {
                         <div class="w-32 h-32 bg-gradient-to-br from-red-400 to-red-600 rounded-3xl flex items-center justify-center mx-auto mb-8 shadow-2xl">
                             <span class="text-5xl font-bold">!</span>
                         </div>
-                        <h2 class="text-3xl font-bold text-gray-900 mb-6">Révision impossible</h2>
-                        <p class="text-xl text-red-600 mb-8 font-semibold">${error.message}</p>
-                        <button onclick="retryQuiz()" class="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-2xl shadow-xl transition-all">
+                        <h2 class="mb-6 text-3xl font-bold text-slate-900">Révision impossible</h2>
+                        <p class="mb-8 text-xl font-semibold text-rose-700">${error.message}</p>
+                        <button onclick="retryQuiz()" class="rounded-2xl bg-emerald-700 px-8 py-4 font-semibold text-white shadow transition hover:bg-emerald-800">
                             ← Refaire tout le quiz
                         </button>
                     </div>
@@ -1393,18 +1715,18 @@ function renderReviewQuiz(questions, labels) {
     const app = document.getElementById("diagnostic-app");
 
     let html = `
-        <header class="sticky top-0 bg-white/80 backdrop-blur-md border-b-2 border-orange-100 z-20 p-6 mb-8 shadow-sm">
+        <header class="sticky top-0 z-20 mb-8 border-b border-rose-100 bg-white/90 p-6 shadow-sm">
             <div class="max-w-4xl mx-auto">
                 <div class="flex items-center justify-between">
                     <div>
-                        <h1 class="text-2xl font-bold bg-gradient-to-r from-orange-600 to-red-600 bg-clip-text text-transparent">
+                        <h1 class="text-2xl font-bold text-slate-900">
                             ${currentQuizState.title} - Révision ciblée
                         </h1>
-                        <p class="text-sm text-gray-600 mt-1">Questions à revoir : ${labels.join(", ")}</p>
+                        <p class="mt-1 text-sm text-slate-600">Questions à revoir : ${labels.join(", ")}</p>
                     </div>
                     <div class="flex items-center space-x-4 text-sm font-semibold">
                         <span>Progression: <span id="progress-count">0</span>/${questions.length}</span>
-                        <span class="px-3 py-1 bg-orange-100 text-orange-800 rounded-full text-xs">Révision</span>
+                        <span class="rounded-full bg-rose-100 px-3 py-1 text-xs text-rose-800">Révision</span>
                     </div>
                 </div>
             </div>
@@ -1414,13 +1736,13 @@ function renderReviewQuiz(questions, labels) {
     questions.forEach((question, index) => {
         const qIndex = index + 1;
         html += `
-            <section class="question mb-10 p-8 bg-white/70 backdrop-blur-sm border border-orange-100 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300">
+            <section class="question mb-10 rounded-3xl border border-slate-200 bg-white p-8 shadow-sm transition hover:shadow-md">
                 <div class="flex items-start mb-8">
-                    <div class="w-16 h-16 bg-gradient-to-br from-orange-500 to-red-700 text-white rounded-3xl flex items-center justify-center font-bold text-2xl mr-6 flex-shrink-0 shadow-2xl">
+                    <div class="mr-6 flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-3xl bg-rose-700 text-2xl font-bold text-white shadow">
                         ${labels[index] || `Q${qIndex}`}
                     </div>
                     <div class="flex-1 min-w-0">
-                        <h3 class="text-2xl font-semibold text-gray-800 leading-tight mb-6">${question.question}</h3>
+                        <h3 class="mb-6 text-2xl font-semibold leading-tight text-slate-900">${question.question}</h3>
                     </div>
                 </div>
 
@@ -1432,16 +1754,16 @@ function renderReviewQuiz(questions, labels) {
     });
 
     html += `
-        <div class="sticky bottom-6 z-30 bg-white/90 backdrop-blur-md border-t-4 border-orange-200 p-8 rounded-3xl shadow-2xl mx-4 lg:mx-0">
+        <div class="sticky bottom-6 z-30 mx-4 rounded-3xl border border-rose-200 bg-white/95 p-8 shadow-lg lg:mx-0">
             <div class="max-w-4xl mx-auto">
                 <div class="flex items-center justify-between mb-6 text-lg font-semibold">
                     <span>✅ <span id="progress-count">0</span>/${questions.length} répondues</span>
-                    <span class="text-orange-700 text-xl font-bold">Prêt à corriger !</span>
+                    <span class="text-xl font-bold text-rose-700">Prêt à corriger !</span>
                 </div>
                 <button onclick="submitQuiz()"
-                        class="w-full bg-gradient-to-r from-orange-500 via-red-600 to-pink-600 hover:from-orange-600 hover:via-red-700 hover:to-pink-700 text-white py-6 px-12 rounded-3xl text-2xl font-black shadow-2xl hover:shadow-3xl transform hover:scale-[1.02] transition-all duration-300 flex items-center justify-center group">
+                        class="group flex w-full items-center justify-center rounded-3xl bg-rose-700 px-12 py-6 text-2xl font-black text-white shadow transition hover:bg-rose-800">
                     <span class="mr-4">📊 Corriger ma révision</span>
-                    <span class="px-4 py-2 bg-white/30 backdrop-blur-sm rounded-2xl text-lg font-bold group-hover:bg-white/50 transition-all">GO !</span>
+                    <span class="rounded-2xl bg-white/20 px-4 py-2 text-lg font-bold transition group-hover:bg-white/30">GO !</span>
                 </button>
             </div>
         </div>
@@ -1467,10 +1789,10 @@ function renderQuestionInputs(question, index) {
             .map((choice) => {
                 const safeChoice = escapeHtml(choice);
                 return `
-                <label class="flex items-center p-6 border-2 border-gray-200 rounded-2xl cursor-pointer hover:border-blue-400 hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 transition-all duration-200 group min-h-[80px]">
+                <label class="group flex min-h-[80px] cursor-pointer items-center rounded-2xl border border-slate-300 p-6 transition hover:border-emerald-400 hover:bg-emerald-50">
                     <input type="radio" name="q${index}" value="${safeChoice}"
-                           class="w-7 h-7 text-blue-600 border-4 border-gray-300 focus:ring-4 focus:ring-blue-200 mr-6 accent-blue-600 shadow-md">
-                    <span class="text-xl leading-relaxed group-hover:text-blue-900 font-medium">${safeChoice}</span>
+                           class="mr-6 h-7 w-7 border-2 border-slate-300 accent-emerald-600 shadow-sm focus:ring-2 focus:ring-emerald-200">
+                    <span class="text-xl font-medium leading-relaxed text-slate-800 group-hover:text-emerald-900">${safeChoice}</span>
                 </label>
             `;
             })
@@ -1481,10 +1803,10 @@ function renderQuestionInputs(question, index) {
         return ["Vrai", "Faux"]
             .map(
                 (choice) => `
-            <label class="flex items-center p-6 border-2 border-gray-200 rounded-2xl cursor-pointer hover:border-blue-400 hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 transition-all duration-200 group min-h-[80px]">
+            <label class="group flex min-h-[80px] cursor-pointer items-center rounded-2xl border border-slate-300 p-6 transition hover:border-emerald-400 hover:bg-emerald-50">
                 <input type="radio" name="q${index}" value="${choice.toLowerCase()}"
-                       class="w-7 h-7 text-blue-600 border-4 border-gray-300 focus:ring-4 focus:ring-blue-200 mr-6 accent-blue-600 shadow-md">
-                <span class="text-xl leading-relaxed group-hover:text-blue-900 font-medium">${choice}</span>
+                       class="mr-6 h-7 w-7 border-2 border-slate-300 accent-emerald-600 shadow-sm focus:ring-2 focus:ring-emerald-200">
+                <span class="text-xl font-medium leading-relaxed text-slate-800 group-hover:text-emerald-900">${choice}</span>
             </label>
         `,
             )
@@ -1493,7 +1815,7 @@ function renderQuestionInputs(question, index) {
 
     return `<div class="p-1">
         <input type="text" name="q${index}"
-               class="w-full p-6 border-2 border-gray-300 rounded-2xl text-xl font-semibold text-gray-800 focus:border-blue-400 focus:ring-4 focus:ring-blue-200 shadow-sm transition-all placeholder-gray-500 min-h-[80px]"
+               class="min-h-[80px] w-full rounded-2xl border border-slate-300 p-6 text-xl font-semibold text-slate-800 shadow-sm transition placeholder-slate-500 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-200"
                placeholder="Tape ta reponse exacte ici...">
     </div>`;
 }

@@ -42,6 +42,50 @@ function setParentIdForChild(int $childId): void
     $stmt->execute([$parentId ?: null, $childId]);
 }
 
+function detachChildFromParent(int $parentId, int $childId): void
+{
+    global $pdo;
+
+    if ($parentId <= 0 || $childId <= 0) {
+        json_error('Paramètres invalides', 400);
+    }
+
+    try {
+        $pdo->beginTransaction();
+
+        $stmt = $pdo->prepare("SELECT id FROM parent_child_invites WHERE parent_user_id = ? AND child_user_id = ? AND status = 'accepted'");
+        $stmt->execute([$parentId, $childId]);
+        $inviteIds = $stmt->fetchAll(PDO::FETCH_COLUMN);
+
+        if (!empty($inviteIds)) {
+            $update = $pdo->prepare("UPDATE parent_child_invites SET status = 'revoked' WHERE id = ?");
+            foreach ($inviteIds as $inviteId) {
+                $update->execute([(int) $inviteId]);
+            }
+        }
+
+        // Compatibilité legacy : retirer aussi le lien parent_enfants.
+        $stmtLegacy = $pdo->prepare("DELETE FROM parent_enfants WHERE parent_id = ? AND student_id = ?");
+        $stmtLegacy->execute([$parentId, $childId]);
+
+        if (empty($inviteIds) && $stmtLegacy->rowCount() === 0) {
+            $pdo->rollBack();
+            json_error('Aucun rattachement actif trouvé pour cet élève', 404);
+        }
+
+        setParentIdForChild($childId);
+
+        $pdo->commit();
+    } catch (Exception $e) {
+        if ($pdo->inTransaction()) {
+            $pdo->rollBack();
+        }
+
+        error_log('parent_family.detach_child: ' . $e->getMessage());
+        json_error('Impossible de détacher cet élève pour le moment', 500);
+    }
+}
+
 function generateInviteToken(int $length = 6): string {
     $chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
     $token = '';
@@ -170,6 +214,18 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         setParentIdForChild($userId);
 
         json_ok(['message' => 'Parent rattaché']);
+    }
+
+    if ($action === 'detach_child') {
+        if (!$isParent) json_error('Accès parent requis', 403);
+
+        $childId = filter_var($body['child_user_id'] ?? null, FILTER_VALIDATE_INT);
+        if (!$childId) {
+            json_error('Identifiant élève invalide', 400);
+        }
+
+        detachChildFromParent($userId, (int) $childId);
+        json_ok(['message' => 'Élève détaché']);
     }
 
     json_error('Action POST invalide', 400);

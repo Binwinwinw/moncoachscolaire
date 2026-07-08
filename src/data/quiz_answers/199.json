@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 199",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Les étapes de la démarche de résolution de problèmes techniques",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Identifier le problème, trouver des solutions, choisir la meilleure solution, mettre en œuvre la solution",
+        "correction": "Les étapes de la démarche de résolution de problèmes techniques sont : identifier le problème, trouver des solutions, choisir la meilleure solution, et mettre en œuvre la solution."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, suivre les étapes de la démarche de résolution de problèmes techniques permet de trouver une solution efficace en s'assurant que le problème est correctement identifié, que plusieurs solutions sont envisagées, et que la meilleure solution est choisie et mise en œuvre."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Identifier le problème",
+        "correction": "Le cahier des charges est utilisé dans l'étape d'identification du problème pour définir les besoins et les contraintes du projet."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, pour concevoir un abri pour un animal, il est important de choisir des matériaux adaptés qui offrent une bonne protection contre les intempéries, qui sont durables, et qui sont sûrs pour l'animal."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Trouver plusieurs solutions possibles",
+        "correction": "L'objectif principal de l'étape de recherche de solutions est de trouver plusieurs solutions possibles pour pouvoir les comparer et choisir la meilleure."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, il est important de suivre toutes les étapes de la démarche de résolution de problèmes techniques pour s'assurer que le problème est correctement identifié, que plusieurs solutions sont envisagées, et que la meilleure solution est choisie et mise en œuvre."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Un tableau comparatif",
+        "correction": "Un tableau comparatif est un outil couramment utilisé pour comparer différentes solutions en fonction de critères spécifiques afin d'aider à choisir la meilleure option."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "qcm",
+        "answer": "Un diagramme de Gantt",
+        "correction": "Un diagramme de Gantt est un outil couramment utilisé pour planifier et suivre l'avancement d'un projet en représentant les différentes tâches et leur chronologie."
+      }
+    ]
+  }
+}

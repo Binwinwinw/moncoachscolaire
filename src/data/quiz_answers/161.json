@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 161",
+    "level": "6eme",
+    "subject": "Français"
+  },
+  "quiz": {
+    "title": "Français 6e - Les règles de ponctuation",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Français",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": ".",
+        "correction": "Le point (.) est utilisé pour marquer la fin d'une phrase déclarative, qui fait une déclaration ou exprime une idée de manière affirmative ou négative."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Le point d'interrogation (?) est utilisé pour marquer la fin d'une phrase interrogative, qui pose une question ou demande une information."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "!",
+        "correction": "Le point d'exclamation (!) est utilisé pour marquer la fin d'une phrase exclamative, qui exprime une émotion forte ou une réaction intense."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. La virgule (,) est utilisée pour séparer les éléments d'une liste, les propositions subordonnées ou les incises dans une phrase, afin de clarifier le sens et de faciliter la lecture."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": ",",
+        "correction": "La virgule (,) est utilisée pour séparer les éléments d'une liste, afin de clarifier le sens et de faciliter la lecture."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. L'utilisation correcte de la ponctuation peut contribuer à améliorer la clarté et l'efficacité de la communication écrite en aidant à structurer les phrases et à exprimer les idées de manière plus précise, en indiquant les pauses, les intonations et les relations entre les différentes parties d'une phrase."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "!",
+        "correction": "Le point d'exclamation (!) est utilisé pour marquer la fin d'une phrase impérative, qui donne un ordre ou une instruction."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. L'utilisation excessive de la ponctuation peut parfois rendre un texte difficile à lire et à comprendre, en créant une surcharge d'informations ou en perturbant le rythme de la lecture, ce qui peut distraire le lecteur et nuire à la clarté du message."
+      }
+    ]
+  }
+}

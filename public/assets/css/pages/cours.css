@@ -1,4 +1,32 @@
 /* Styles pour la page cours — Refonte Minimaliste */
+.page-cours .cours-header h1 {
+    color: var(--color-primary);
+}
+.page-cours .subtitle strong {
+    color: var(--color-primary);
+    font-weight: 600;
+}
+.page-cours .cours-section-header h2,
+.page-cours .cours-section h2 {
+    border-left-color: var(--color-primary);
+}
+.page-cours .nav-btn:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+}
+.page-cours .nav-exercices {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+}
+.page-cours .nav-exercices:hover {
+    background: var(--color-primary-soft);
+    border-color: var(--color-primary);
+}
+.page-cours .btn-back-subject:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary-dark);
+}
+
 .cours-main {
     max-width: 1200px;
     margin: 0 auto;
@@ -703,4 +731,112 @@
 }
 .btn-back-to-list:hover {
     background: #2563eb;
+}
+
+/* Hub ?page=cours — grille niveaux / matières / carte aléatoire */
+.page-cours .niveau-btn {
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.page-cours .niveau-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(15, 23, 42, 0.12);
+}
+.page-cours .matiere-btn {
+    cursor: pointer;
+}
+.page-cours .matiere-btn:hover,
+.page-cours .matiere-btn:focus {
+    outline: none;
+}
+.page-cours .cours-card-hub {
+    min-height: auto;
+}
+.page-cours .cours-card-generated {
+    min-height: auto;
+}
+.page-cours #random-cours-section {
+    margin-top: 2rem;
+}
+
+/* Modal Cours IA */
+body.modal-cours-ia-open {
+    overflow: hidden;
+}
+
+.modal-cours-ia-panel {
+    max-width: 28rem;
+    max-height: min(90vh, 720px);
+}
+
+.modal-cours-ia-panel.is-preview {
+    max-width: min(48rem, 96vw);
+    max-height: min(92vh, 900px);
+}
+
+.modal-cours-ia-body {
+    overscroll-behavior: contain;
+}
+
+.modal-cours-ia-result {
+    width: 100%;
+}
+
+.modal-cours-ia-loading {
+    min-height: 8rem;
+}
+
+.cours-ia-preview {
+    width: 100%;
+    max-width: none;
+    min-height: auto;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+}
+
+.page-cours .cours-card-generated,
+.page-cours .ai-generated-course.cours-card {
+    min-height: auto;
+}
+
+.cours-accordion-summary {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+}
+
+.cours-accordion-summary::-webkit-details-marker {
+    display: none;
+}
+
+.cours-accordion-summary::after {
+    content: "▾";
+    color: #64748b;
+    font-size: 0.875rem;
+    transition: transform 0.2s ease;
+    flex-shrink: 0;
+}
+
+.cours-accordion[open] .cours-accordion-summary::after {
+    transform: rotate(180deg);
+}
+
+.cours-accordion-content {
+    padding-top: 0.75rem;
+}
+
+@media (max-width: 640px) {
+    .modal-cours-ia-panel,
+    .modal-cours-ia-panel.is-preview {
+        max-width: 100%;
+        max-height: 100vh;
+        border-radius: 1rem;
+    }
+
+    .modal-cours-ia {
+        padding: 0.5rem;
+    }
 }

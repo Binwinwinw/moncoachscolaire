@@ -13,6 +13,41 @@ if (!isset($pdo)) {
     }
 }
 
+function resolveDashboardSchemaColumn(PDO $pdo, string $table, array $candidates, ?string $default = null): ?string
+{
+    static $cache = [];
+
+    $cacheKey = $table . ':' . implode('|', $candidates);
+    if (isset($cache[$cacheKey])) {
+        return $cache[$cacheKey];
+    }
+
+    try {
+        $stmt = $pdo->query("SHOW COLUMNS FROM `$table`");
+        if ($stmt === false) {
+            $cache[$cacheKey] = $default;
+            return $default;
+        }
+
+        $available = [];
+        while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
+            $available[strtolower((string) ($row['Field'] ?? ''))] = true;
+        }
+
+        foreach ($candidates as $candidate) {
+            if (isset($available[strtolower($candidate)])) {
+                $cache[$cacheKey] = $candidate;
+                return $candidate;
+            }
+        }
+    } catch (Throwable $e) {
+        error_log('resolveDashboardSchemaColumn error: ' . $e->getMessage());
+    }
+
+    $cache[$cacheKey] = $default;
+    return $default;
+}
+
 /**
  * Initialise ou met à jour les objectifs quotidiens
  */
@@ -27,15 +62,17 @@ function initializeDailyGoal($userId, $date = null)
     $date = $date ?: date('Y-m-d');
 
     try {
+        $goalDateColumn = resolveDashboardSchemaColumn($pdo, 'userdailygoals', ['GoalDate', 'Date'], 'GoalDate');
+
         // Vérifier si l'objectif existe déjà
-        $stmt = $pdo->prepare("SELECT Id FROM UserDailyGoals WHERE UserId = ? AND Date = ? AND GoalType = 'exercises'");
+        $stmt = $pdo->prepare("SELECT Id FROM userdailygoals WHERE UserId = ? AND `$goalDateColumn` = ? AND GoalType = 'exercises'");
         $stmt->execute([$userId, $date]);
 
         if (!$stmt->fetch()) {
             // Créer l'objectif par défaut : 3 exercices par jour
             $stmt = $pdo->prepare("
-                INSERT INTO UserDailyGoals (UserId, Date, GoalType, Target, Completed)
-                VALUES (?, ?, 'exercises', 3, 0)
+                INSERT INTO userdailygoals (UserId, `$goalDateColumn`, GoalType, TargetValue, ProgressValue, Completed)
+                VALUES (?, ?, 'exercises', 3, 0, 0)
             ");
             $stmt->execute([$userId, $date]);
         }
@@ -61,11 +98,18 @@ function getDailyGoals($userId, $date = null)
     $date = $date ?: date('Y-m-d');
 
     try {
+        $goalDateColumn = resolveDashboardSchemaColumn($pdo, 'userdailygoals', ['GoalDate', 'Date'], 'GoalDate');
+        $goalTargetColumn = resolveDashboardSchemaColumn($pdo, 'userdailygoals', ['TargetValue', 'Target'], 'TargetValue');
+        $goalProgressColumn = resolveDashboardSchemaColumn($pdo, 'userdailygoals', ['ProgressValue', 'Progress'], 'ProgressValue');
+        $goalCompletedColumn = resolveDashboardSchemaColumn($pdo, 'userdailygoals', ['Completed', 'IsCompleted'], 'Completed');
+
         $stmt = $pdo->prepare("
-            SELECT GoalType, Target, Completed,
-                   ROUND((Completed / Target) * 100) as Progress
-            FROM UserDailyGoals
-            WHERE UserId = ? AND Date = ?
+            SELECT GoalType,
+                   `$goalTargetColumn` AS Target,
+                   `$goalCompletedColumn` AS Completed,
+                   ROUND((COALESCE(`$goalProgressColumn`, 0) / NULLIF(COALESCE(`$goalTargetColumn`, 0), 0)) * 100) as Progress
+            FROM userdailygoals
+            WHERE UserId = ? AND `$goalDateColumn` = ?
         ");
         $stmt->execute([$userId, $date]);
         return $stmt->fetchAll();
@@ -92,9 +136,9 @@ function updateDailyGoalProgress($userId, $date = null)
         // Compter les exercices complétés aujourd'hui
         $stmt = $pdo->prepare("
             SELECT COUNT(*) as count
-            FROM ExerciseResponses
-            WHERE UserId = ? 
-            AND Correct = 1 
+            FROM exerciseresponses
+            WHERE UserId = ?
+            AND Correct = 1
             AND DATE(SubmittedAt) = ?
         ");
         $stmt->execute([$userId, $date]);
@@ -104,13 +148,17 @@ function updateDailyGoalProgress($userId, $date = null)
         // Initialiser si nécessaire
         initializeDailyGoal($userId, $date);
 
+        $goalDateColumn = resolveDashboardSchemaColumn($pdo, 'userdailygoals', ['GoalDate', 'Date'], 'GoalDate');
+        $goalProgressColumn = resolveDashboardSchemaColumn($pdo, 'userdailygoals', ['ProgressValue', 'Progress'], 'ProgressValue');
+        $goalCompletedColumn = resolveDashboardSchemaColumn($pdo, 'userdailygoals', ['Completed', 'IsCompleted'], 'Completed');
+
         // Mettre à jour
         $stmt = $pdo->prepare("
-            UPDATE UserDailyGoals 
-            SET Completed = ? 
-            WHERE UserId = ? AND Date = ? AND GoalType = 'exercises'
+            UPDATE userdailygoals
+            SET `$goalProgressColumn` = ?, `$goalCompletedColumn` = ?
+            WHERE UserId = ? AND `$goalDateColumn` = ? AND GoalType = 'exercises'
         ");
-        $stmt->execute([$completed, $userId, $date]);
+        $stmt->execute([$completed, $completed, $userId, $date]);
 
         return true;
     } catch (Exception $e) {
@@ -134,11 +182,18 @@ function getWeeklyGoals($userId)
         // Obtenir le lundi de la semaine actuelle
         $monday = date('Y-m-d', strtotime('monday this week'));
 
+        $weekDateColumn = resolveDashboardSchemaColumn($pdo, 'userweeklygoals', ['WeekYear', 'WeekStart', 'WeekDate'], 'WeekYear');
+        $goalTargetColumn = resolveDashboardSchemaColumn($pdo, 'userweeklygoals', ['TargetValue', 'Target'], 'TargetValue');
+        $goalProgressColumn = resolveDashboardSchemaColumn($pdo, 'userweeklygoals', ['ProgressValue', 'Progress'], 'ProgressValue');
+        $goalCompletedColumn = resolveDashboardSchemaColumn($pdo, 'userweeklygoals', ['Completed', 'IsCompleted'], 'Completed');
+
         $stmt = $pdo->prepare("
-            SELECT GoalType, Target, Completed,
-                   ROUND((Completed / Target) * 100) as Progress
-            FROM UserWeeklyGoals
-            WHERE UserId = ? AND WeekStart = ?
+            SELECT GoalType,
+                   `$goalTargetColumn` AS Target,
+                   `$goalCompletedColumn` AS Completed,
+                   ROUND((COALESCE(`$goalProgressColumn`, 0) / NULLIF(COALESCE(`$goalTargetColumn`, 0), 0)) * 100) as Progress
+            FROM userweeklygoals
+            WHERE UserId = ? AND `$weekDateColumn` = ?
         ");
         $stmt->execute([$userId, $monday]);
         $goals = $stmt->fetchAll();
@@ -146,8 +201,8 @@ function getWeeklyGoals($userId)
         // Créer les objectifs s'ils n'existent pas
         if (empty($goals)) {
             $stmt = $pdo->prepare("
-                INSERT INTO UserWeeklyGoals (UserId, WeekStart, GoalType, Target, Completed)
-                VALUES (?, ?, 'exercises', 15, 0)
+                INSERT INTO userweeklygoals (UserId, `$weekDateColumn`, GoalType, TargetValue, ProgressValue, Completed)
+                VALUES (?, ?, 'exercises', 15, 0, 0)
             ");
             $stmt->execute([$userId, $monday]);
 
@@ -157,9 +212,9 @@ function getWeeklyGoals($userId)
         // Mettre à jour le progrès
         $stmt = $pdo->prepare("
             SELECT COUNT(*) as count
-            FROM ExerciseResponses
-            WHERE UserId = ? 
-            AND Correct = 1 
+            FROM exerciseresponses
+            WHERE UserId = ?
+            AND Correct = 1
             AND DATE(SubmittedAt) >= ?
         ");
         $stmt->execute([$userId, $monday]);
@@ -167,18 +222,20 @@ function getWeeklyGoals($userId)
         $completed = (int) ($result['count'] ?? 0);
 
         $stmt = $pdo->prepare("
-            UPDATE UserWeeklyGoals 
-            SET Completed = ? 
-            WHERE UserId = ? AND WeekStart = ? AND GoalType = 'exercises'
+            UPDATE userweeklygoals
+            SET `$goalProgressColumn` = ?, `$goalCompletedColumn` = ?
+            WHERE UserId = ? AND `$weekDateColumn` = ? AND GoalType = 'exercises'
         ");
-        $stmt->execute([$completed, $userId, $monday]);
+        $stmt->execute([$completed, $completed, $userId, $monday]);
 
         // Re-récupérer avec les données mises à jour
         $stmt = $pdo->prepare("
-            SELECT GoalType, Target, Completed,
-                   ROUND((Completed / Target) * 100) as Progress
-            FROM UserWeeklyGoals
-            WHERE UserId = ? AND WeekStart = ?
+            SELECT GoalType,
+                   `$goalTargetColumn` AS Target,
+                   `$goalCompletedColumn` AS Completed,
+                   ROUND((COALESCE(`$goalProgressColumn`, 0) / NULLIF(COALESCE(`$goalTargetColumn`, 0), 0)) * 100) as Progress
+            FROM userweeklygoals
+            WHERE UserId = ? AND `$weekDateColumn` = ?
         ");
         $stmt->execute([$userId, $monday]);
         return $stmt->fetchAll();
@@ -204,7 +261,7 @@ function updateLoginStreak($userId)
         $today = date('Y-m-d');
 
         // Vérifier si déjà connecté aujourd'hui
-        $stmt = $pdo->prepare("SELECT Id FROM UserLoginHistory WHERE UserId = ? AND LoginDate = ?");
+        $stmt = $pdo->prepare("SELECT Id FROM userloginhistory WHERE UserId = ? AND DATE(LoginAt) = ?");
         $stmt->execute([$userId, $today]);
         if ($stmt->fetch()) {
             return true; // Déjà enregistré aujourd'hui
@@ -212,14 +269,13 @@ function updateLoginStreak($userId)
 
         // Enregistrer la connexion d'aujourd'hui
         $stmt = $pdo->prepare("
-            INSERT INTO UserLoginHistory (UserId, LoginDate)
-            VALUES (?, ?)
-            ON DUPLICATE KEY UPDATE LoginDate = LoginDate
+            INSERT INTO userloginhistory (UserId, LoginAt, IpAddress, UserAgent)
+            VALUES (?, ?, NULL, NULL)
         ");
-        $stmt->execute([$userId, $today]);
+        $stmt->execute([$userId, $today . ' 00:00:00']);
 
         // Récupérer ou créer le streak
-        $stmt = $pdo->prepare("SELECT * FROM UserStreak WHERE UserId = ?");
+        $stmt = $pdo->prepare("SELECT * FROM userstreak WHERE UserId = ? ORDER BY LastUpdate DESC LIMIT 1");
         $stmt->execute([$userId]);
         $streak = $stmt->fetch();
 
@@ -230,14 +286,14 @@ function updateLoginStreak($userId)
             $currentStreak = 1;
             $longestStreak = 1;
             $stmt = $pdo->prepare("
-                INSERT INTO UserStreak (UserId, CurrentStreak, LongestStreak, LastLoginDate)
-                VALUES (?, ?, ?, ?)
+                INSERT INTO userstreak (UserId, StreakType, CurrentStreak, BestStreak, LastUpdate)
+                VALUES (?, 'login', ?, ?, ?)
             ");
-            $stmt->execute([$userId, $currentStreak, $longestStreak, $today]);
+            $stmt->execute([$userId, $currentStreak, $longestStreak, $today . ' 00:00:00']);
         } else {
-            $lastLogin = $streak['LastLoginDate'];
-            $currentStreak = (int) $streak['CurrentStreak'];
-            $longestStreak = (int) $streak['LongestStreak'];
+            $lastLogin = date('Y-m-d', strtotime((string) ($streak['LastUpdate'] ?? $today)));
+            $currentStreak = (int) ($streak['CurrentStreak'] ?? 0);
+            $longestStreak = (int) ($streak['BestStreak'] ?? 0);
 
             if ($lastLogin === $yesterday) {
                 // Streak continue
@@ -252,11 +308,11 @@ function updateLoginStreak($userId)
             }
 
             $stmt = $pdo->prepare("
-                UPDATE UserStreak 
-                SET CurrentStreak = ?, LongestStreak = ?, LastLoginDate = ?
-                WHERE UserId = ?
+                UPDATE userstreak
+                SET CurrentStreak = ?, BestStreak = ?, LastUpdate = ?
+                WHERE UserId = ? AND StreakType = 'login'
             ");
-            $stmt->execute([$currentStreak, $longestStreak, $today, $userId]);
+            $stmt->execute([$currentStreak, $longestStreak, $today . ' 00:00:00', $userId]);
         }
 
         return true;
@@ -278,7 +334,7 @@ function getUserStreak($userId)
     }
 
     try {
-        $stmt = $pdo->prepare("SELECT * FROM UserStreak WHERE UserId = ?");
+        $stmt = $pdo->prepare("SELECT * FROM userstreak WHERE UserId = ? AND StreakType = 'login' ORDER BY LastUpdate DESC LIMIT 1");
         $stmt->execute([$userId]);
         $streak = $stmt->fetch();
 
@@ -291,9 +347,9 @@ function getUserStreak($userId)
         }
 
         return [
-            'current' => (int) $streak['CurrentStreak'],
-            'longest' => (int) $streak['LongestStreak'],
-            'last_login' => $streak['LastLoginDate'],
+            'current' => (int) ($streak['CurrentStreak'] ?? 0),
+            'longest' => (int) ($streak['BestStreak'] ?? 0),
+            'last_login' => $streak['LastUpdate'] ?? null,
         ];
     } catch (Exception $e) {
         error_log("Erreur récupération streak: " . $e->getMessage());
@@ -378,7 +434,7 @@ function updateProgressHistory($userId, $date = null)
         $stmt = $pdo->prepare("
             INSERT INTO UserProgressHistory (UserId, Date, XP, ExercisesCompleted, Cristaux)
             VALUES (?, ?, ?, ?, ?)
-            ON DUPLICATE KEY UPDATE 
+            ON DUPLICATE KEY UPDATE
                 XP = VALUES(XP),
                 ExercisesCompleted = VALUES(ExercisesCompleted),
                 Cristaux = VALUES(Cristaux)
@@ -405,10 +461,10 @@ function createNotification($userId, $type, $title, $message, $icon = null, $lin
 
     try {
         $stmt = $pdo->prepare("
-            INSERT INTO UserNotifications (UserId, Type, Title, Message, Icon, Link)
-            VALUES (?, ?, ?, ?, ?, ?)
+            INSERT INTO usernotifications (UserId, NotificationType, Message, IsRead, CreatedAt)
+            VALUES (?, ?, ?, 0, NOW())
         ");
-        $stmt->execute([$userId, $type, $title, $message, $icon, $link]);
+        $stmt->execute([$userId, $type, $message]);
         return true;
     } catch (Exception $e) {
         error_log("Erreur création notification: " . $e->getMessage());
@@ -428,12 +484,10 @@ function getUnreadNotifications($userId, $limit = 10)
     }
 
     try {
-        // Attention: `Read` est un mot réservé MySQL, utiliser des backticks
-        // et ne pas binder LIMIT (MySQL n'accepte pas LIMIT ?)
         $limitInt = max(1, intval($limit));
         $stmt = $pdo->prepare("
-                SELECT * FROM UserNotifications
-                WHERE UserId = ? AND `Read` = 0
+                SELECT * FROM usernotifications
+                WHERE UserId = ? AND IsRead = 0
                 ORDER BY CreatedAt DESC
                 LIMIT $limitInt
             ");
@@ -457,8 +511,7 @@ function markNotificationAsRead($notificationId)
     }
 
     try {
-        // Échapper `Read` avec des backticks
-        $stmt = $pdo->prepare("UPDATE UserNotifications SET `Read` = 1 WHERE Id = ?");
+        $stmt = $pdo->prepare("UPDATE usernotifications SET IsRead = 1 WHERE Id = ?");
         $stmt->execute([$notificationId]);
         return true;
     } catch (Exception $e) {
@@ -491,14 +544,14 @@ function checkAndCreateNotifications($userId)
         // Vérifier les badges récents (débloqués dans les 24h)
         $stmt = $pdo->prepare("
             SELECT a.Name, a.Description, ua.UnlockedAt
-            FROM UserAchievements ua
+            FROM userachievements ua
             INNER JOIN Achievements a ON ua.AchievementId = a.Id
-            WHERE ua.UserId = ? 
+            WHERE ua.UserId = ?
             AND ua.UnlockedAt >= DATE_SUB(NOW(), INTERVAL 1 DAY)
             AND NOT EXISTS (
-                SELECT 1 FROM UserNotifications n 
-                WHERE n.UserId = ? 
-                AND n.Type = 'badge' 
+                SELECT 1 FROM usernotifications n
+                WHERE n.UserId = ?
+                AND n.NotificationType = 'badge'
                 AND n.Message LIKE CONCAT('%', a.Name, '%')
             )
         ");
@@ -524,8 +577,8 @@ function checkAndCreateNotifications($userId)
                     // Vérifier si notification déjà créée
                     $stmt = $pdo->prepare("
                         SELECT Id FROM UserNotifications
-                        WHERE UserId = ? 
-                        AND Type = 'goal' 
+                        WHERE UserId = ?
+                        AND Type = 'goal'
                         AND Title LIKE '%Objectif quotidien%'
                         AND DATE(CreatedAt) = CURDATE()
                     ");

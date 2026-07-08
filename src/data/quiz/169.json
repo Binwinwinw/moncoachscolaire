@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 169",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - Les homophones grammaticaux",
+    "status": "published",
+    "created_at": "2026-04-26T21:46:18.983457Z",
+    "updated_at": "2026-04-26T21:46:18.983457Z"
+  },
+  "quiz": {
+    "title": "Français 6e - Les homophones grammaticaux",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel homophone grammatical est utilisé pour indiquer la possession ou l'appartenance ?",
+        "choices": [
+          "a",
+          "à",
+          "as",
+          "ah"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'homophone grammatical 'a' est utilisé pour indiquer une action ou un état d'être, en tant que forme conjuguée du verbe 'avoir' à la troisième personne du singulier."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel homophone grammatical est utilisé pour indiquer une exclamation ou une interjection ?",
+        "choices": [
+          "a",
+          "à",
+          "as",
+          "ah"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation correcte des homophones grammaticaux est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les mots sont utilisés de manière appropriée en fonction de leur sens et de leur fonction grammaticale."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel homophone grammatical est utilisé pour indiquer une action ou un état d'être, en tant que forme conjuguée du verbe 'avoir' à la deuxième personne du singulier ?",
+        "choices": [
+          "a",
+          "à",
+          "as",
+          "ah"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation incorrecte des homophones grammaticaux peut parfois entraîner des confusions ou des malentendus dans la communication écrite, en rendant difficile pour les lecteurs de comprendre le sens de la phrase ou de saisir l'intention de l'auteur."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel homophone grammatical est utilisé pour indiquer une question ou une interrogation ?",
+        "choices": [
+          "a",
+          "à",
+          "as",
+          "ah"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation correcte des homophones grammaticaux est essentielle pour éviter les confusions et les erreurs dans la communication écrite."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

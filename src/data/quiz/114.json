@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 6eme - Série 114",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
+    "description": "Diagnostic EMC 6eme : EMC 6e - Propriété et vol",
+    "status": "published",
+    "created_at": "2026-04-26T21:35:49.188777Z",
+    "updated_at": "2026-04-26T21:35:49.188777Z"
+  },
+  "quiz": {
+    "title": "EMC 6e - Propriété et vol",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "EMC",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Pourquoi est-il important de respecter la propriété d'autrui et de prévenir le vol ?",
+        "choices": [
+          "Le respect de la propriété d'autrui et la prévention du vol contribuent à maintenir l'ordre, la justice et la sécurité dans la société.",
+          "Le respect de la propriété d'autrui et la prévention du vol sont inutiles, car les individus peuvent agir comme ils le souhaitent.",
+          "Le respect de la propriété d'autrui et la prévention du vol sont réservés aux élites politiques et économiques.",
+          "Le respect de la propriété d'autrui et la prévention du vol sont limités aux écoles uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect de la propriété d'autrui et la prévention du vol sont des concepts qui promeuvent la non-intervention dans les affaires des individus."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle de l'éducation dans le respect de la propriété d'autrui et la prévention du vol ?",
+        "choices": [
+          "L'éducation joue un rôle crucial en sensibilisant les individus au respect de la propriété d'autrui et à la prévention du vol et en promouvant le respect de ces règles.",
+          "L'éducation est inutile dans le respect de la propriété d'autrui et la prévention du vol, car les individus peuvent apprendre par eux-mêmes.",
+          "L'éducation est réservée aux élites politiques et économiques.",
+          "L'éducation est limitée aux écoles uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect de la propriété d'autrui et la prévention du vol sont des concepts qui promeuvent la non-intervention dans les affaires des individus. (variante 2)"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle des médias dans le respect de la propriété d'autrui et la prévention du vol ?",
+        "choices": [
+          "Les médias ont un rôle important en promouvant des représentations positives du respect de la propriété d'autrui et de la prévention du vol et en sensibilisant le public à l'importance de ces règles.",
+          "Les médias sont inutiles dans le respect de la propriété d'autrui et la prévention du vol, car les individus peuvent apprendre par eux-mêmes.",
+          "Les médias sont réservés aux élites politiques et économiques.",
+          "Les médias sont limités aux écoles uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect de la propriété d'autrui et la prévention du vol sont des concepts qui promeuvent la non-intervention dans les affaires des individus. (variante 3)"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle des parents dans le respect de la propriété d'autrui et la prévention du vol ?",
+        "choices": [
+          "Les parents ont un rôle important en sensibilisant leurs enfants au respect de la propriété d'autrui et à la prévention du vol et en promouvant le respect de ces règles.",
+          "Les parents sont inutiles dans le respect de la propriété d'autrui et la prévention du vol, car les individus peuvent apprendre par eux-mêmes.",
+          "Les parents sont réservés aux élites politiques et économiques.",
+          "Les parents sont limités aux écoles uniquement."
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le respect de la propriété d'autrui et la prévention du vol sont des concepts qui promeuvent la non-intervention dans les affaires des individus. (variante 4)"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

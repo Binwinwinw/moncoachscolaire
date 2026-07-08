@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 224",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Sécurité et éthique numérique.",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Tous les concepts mentionnés",
+        "correction": "Les concepts de base en sécurité et éthique numérique comprennent la sécurité des données, qui fait référence à la protection des informations personnelles et sensibles contre les cyberattaques et les violations de données, les menaces en ligne, qui incluent des activités malveillantes telles que le phishing, le ransomware, et le spyware, et les mesures de sécurité, qui sont des actions que les utilisateurs peuvent prendre pour se protéger en ligne, telles que l'utilisation de mots de passe forts, la mise à jour régulière des logiciels, et l'évitement de liens suspects."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, la sécurité des données est extrêmement importante en ligne pour protéger les informations personnelles et sensibles contre les cyberattaques et les violations de données."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "Le phishing, le ransomware, et le spyware sont tous des exemples de menaces en ligne qui peuvent causer des dommages aux utilisateurs et à leurs appareils."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, il existe une différence entre les différentes menaces en ligne en termes de leur nature, de leur impact, et des mesures de sécurité nécessaires pour les prévenir et les atténuer."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "Utiliser des mots de passe forts, mettre à jour régulièrement les logiciels, et éviter les liens suspects sont tous des mesures de sécurité que les utilisateurs peuvent prendre pour se protéger en ligne contre les menaces et les cyberattaques."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, tous les utilisateurs ne sont pas nécessairement conscients des menaces en ligne et des mesures de sécurité, ce qui peut les rendre vulnérables aux cyberattaques."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "Un antivirus, un pare-feu, et un VPN sont tous des outils de sécurité en ligne que les utilisateurs peuvent utiliser pour se protéger contre les menaces en ligne en détectant et en bloquant les logiciels malveillants, en filtrant le trafic réseau, et en chiffrant les données pour assurer la confidentialité et la sécurité en ligne."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, il existe une différence entre les différentes mesures de sécurité en ligne en termes de leur nature, de leur fonction, et de leur efficacité pour prévenir et atténuer les menaces en ligne."
+      }
+    ]
+  }
+}

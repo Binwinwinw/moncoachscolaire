@@ -1,10 +1,12 @@
+/* Overrides niveau — structure commune : pages/exercices-common.css (auto-charge par index.php) */
+/* DEPRECATED accents — utiliser theme-level.css (--color-primary) + body.theme-* */
 /* Styles pour la page exercices Première - basés sur exercices-seconde.css */
 .page-exercices-1ere main { max-width: 1000px; margin: 0 auto; padding: 2rem; }
 .page-exercices-1ere .header { text-align: center; margin-bottom: 40px; border-bottom: 3px solid #ec4899; padding-bottom: 20px; }
 .page-exercices-1ere .header h1 { color: #ec4899; font-size: 28px; margin-bottom: 10px; }
 .page-exercices-1ere .subtitle { color: #666; font-size: 18px; font-style: italic; }
 .page-exercices-1ere h2 { color: #ec4899; border-left: 5px solid #ec4899; padding-left: 15px; margin-top: 30px; }
-.page-exercices-1ere h3 { color: #357a32; margin-top: 25px; }
+.page-exercices-1ere h3 { color: var(--color-primary-dark); margin-top: 25px; }
 .page-exercices-1ere .coach-message { background: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 100%); border-left: 4px solid #ec4899; padding: 20px; margin: 20px 0; border-radius: 8px; font-style: italic; }
 .page-exercices-1ere .coach-message strong { color: #ec4899; font-size: 18px; }
 .page-exercices-1ere .coach-preview { background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%); border: 2px solid #e2e8f0; border-radius: 15px; padding: 2rem; text-align: center; margin: 2rem 0; }
@@ -23,7 +25,7 @@
 .page-exercices-1ere .exercise-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px; }
 .page-exercices-1ere .difficulty { background: #ec4899; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px; font-weight: bold; }
 .page-exercices-1ere .progress-bar { width: 100%; height: 8px; background: #e9ecef; border-radius: 4px; margin: 10px 0; overflow: hidden; }
-.page-exercices-1ere .progress-fill { height: 100%; background: linear-gradient(90deg, #357a32, #ec4899); width: 0%; transition: width 0.5s ease; }
+.page-exercices-1ere .progress-fill { height: 100%; background: linear-gradient(90deg, var(--color-primary-dark), #ec4899); width: 0%; transition: width 0.5s ease; }
 .page-exercices-1ere .motivation-box { background: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 100%); border: 2px solid #ec4899; border-radius: 10px; padding: 15px; margin: 15px 0; text-align: center; }
 .page-exercices-1ere .motivation-box h4 { color: #db2777; margin-bottom: 10px; }
 .page-exercices-1ere .btn-coach { background: #ec4899; color: white; border: none; padding: 10px 20px; border-radius: 6px; cursor: pointer; font-weight: bold; transition: all 0.3s ease; }

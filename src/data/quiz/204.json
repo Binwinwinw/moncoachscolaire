@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 204",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 6eme : Transmission de mouvement (engrenages, courroies).",
+    "status": "published",
+    "created_at": "2026-04-26 21:47:00",
+    "updated_at": "2026-04-26 21:47:00"
+  },
+  "quiz": {
+    "title": "Transmission de mouvement (engrenages, courroies).",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quels sont les moyens de transmission de mouvement ?",
+        "choices": [
+          "Engrenages",
+          "Courroies",
+          "Tous les moyens mentionnés",
+          "Aucun des moyens mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les engrenages permettent de changer la direction du mouvement. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple d'appareil qui utilise des engrenages pour transmettre le mouvement ?",
+        "choices": [
+          "Une voiture",
+          "Une montre",
+          "Un ascenseur",
+          "Un train"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les courroies sont utilisées pour transmettre le mouvement entre des pièces qui ne sont pas en contact direct. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un avantage des courroies par rapport aux engrenages ?",
+        "choices": [
+          "Elles sont plus silencieuses",
+          "Elles sont plus durables",
+          "Elles nécessitent moins d'entretien",
+          "Toutes les réponses mentionnées"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il n'y a pas de différence entre les engrenages et les courroies. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple d'appareil qui utilise des courroies pour transmettre le mouvement ?",
+        "choices": [
+          "Une voiture",
+          "Une montre",
+          "Un ascenseur",
+          "Un train"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les engrenages sont plus efficaces que les courroies pour transmettre le mouvement. Vrai ou Faux ?"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

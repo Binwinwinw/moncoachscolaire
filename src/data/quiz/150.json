@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 150",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - Les homophones (a/à, et/est, son/sont…)",
+    "status": "published",
+    "created_at": "2026-04-26T21:46:18.947201Z",
+    "updated_at": "2026-04-26T21:46:18.947201Z"
+  },
+  "quiz": {
+    "title": "Français 6e - Les homophones (a/à, et/est, son/sont…)",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel homophone doit être utilisé dans la phrase suivante : 'Il ___ un livre sur la table.' ?",
+        "choices": [
+          "a",
+          "à",
+          "et",
+          "est"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le mot 'son' est un homophone de 'sont'."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel homophone doit être utilisé dans la phrase suivante : 'Il va ___ la plage demain.' ?",
+        "choices": [
+          "a",
+          "à",
+          "et",
+          "est"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le mot 'et' est un homophone de 'est'."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel homophone doit être utilisé dans la phrase suivante : 'Il ___ un chien et un chat.' ?",
+        "choices": [
+          "a",
+          "à",
+          "et",
+          "est"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le mot 'sont' est un homophone de 'son'."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel homophone doit être utilisé dans la phrase suivante : 'Il ___ une voiture rouge.' ?",
+        "choices": [
+          "a",
+          "à",
+          "et",
+          "est"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le mot 'est' est un homophone de 'et'."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

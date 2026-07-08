@@ -88,6 +88,39 @@ $quizId = isset($payload['quiz_id']) ? (int) $payload['quiz_id'] : 0;
 $answers = $payload['answers'] ?? [];
 $durationSeconds = isset($payload['duration_seconds']) ? (int) $payload['duration_seconds'] : 0;
 $userId = (int) $_SESSION['user_id'];
+$sessionRole = strtolower((string) ($_SESSION['user_role'] ?? $_SESSION['role'] ?? ''));
+$requestedChildUserId = isset($payload['child_user_id']) ? (int) $payload['child_user_id'] : 0;
+
+if (in_array($sessionRole, ['parent', 'parents'], true)) {
+    if ($requestedChildUserId <= 0) {
+        http_response_code(422);
+        echo json_encode([
+            'success' => false,
+            'error' => 'child_user_id est obligatoire pour un parent',
+        ], JSON_UNESCAPED_UNICODE);
+        exit;
+    }
+
+    $parentUserId = (int) ($_SESSION['parent_id'] ?? $_SESSION['user_id'] ?? 0);
+    $linkStmt = $pdo->prepare(
+        "SELECT 1
+         FROM parent_child_invites pci
+         JOIN users u ON u.Id = pci.child_user_id AND u.Role = 'student'
+         WHERE pci.parent_user_id = ? AND pci.child_user_id = ? AND pci.status = 'accepted'
+         LIMIT 1"
+    );
+    $linkStmt->execute([$parentUserId, $requestedChildUserId]);
+    if (!$linkStmt->fetchColumn()) {
+        http_response_code(403);
+        echo json_encode([
+            'success' => false,
+            'error' => 'Enfant non autorisé pour ce parent',
+        ], JSON_UNESCAPED_UNICODE);
+        exit;
+    }
+
+    $userId = $requestedChildUserId;
+}
 
 // 🆕 Gestion révision : fusionner réponses initiales + nouvelles réponses
 $isReview = isset($payload['is_review']) && $payload['is_review'] === true;

@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 152",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - Les temps verbaux (présent, passé composé, imparfait, futur simple…)",
+    "status": "published",
+    "created_at": "2026-04-26T21:46:18.951991Z",
+    "updated_at": "2026-04-26T21:46:18.951991Z"
+  },
+  "quiz": {
+    "title": "Français 6e - Les temps verbaux (présent, passé composé, imparfait, futur simple…)",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel temps verbal est utilisé pour exprimer une action qui se déroule au moment où l'on parle ?",
+        "choices": [
+          "Présent",
+          "Passé composé",
+          "Imparfait",
+          "Futur simple"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le passé composé est utilisé pour exprimer une action qui s'est déroulée dans le passé et qui a un lien avec le présent."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel temps verbal est utilisé pour exprimer une action qui se déroulait de manière habituelle ou répétée dans le passé ?",
+        "choices": [
+          "Présent",
+          "Passé composé",
+          "Imparfait",
+          "Futur simple"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le futur simple est utilisé pour exprimer une action qui se déroulera dans le futur."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel temps verbal est utilisé pour exprimer une action qui s'est déroulée dans le passé et qui a un lien avec le présent ?",
+        "choices": [
+          "Présent",
+          "Passé composé",
+          "Imparfait",
+          "Futur simple"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le présent peut être utilisé pour exprimer une action qui se déroulait de manière habituelle ou répétée dans le passé."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel temps verbal est utilisé pour annoncer un événement futur certain ?",
+        "choices": [
+          "Présent",
+          "Passé composé",
+          "Imparfait",
+          "Futur simple"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le futur simple peut être utilisé pour exprimer une intention, une prédiction ou une promesse."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

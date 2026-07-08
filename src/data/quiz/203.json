@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 203",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 6eme : Types de mouvements (rectiligne, circulaire).",
+    "status": "published",
+    "created_at": "2026-04-26 21:47:00",
+    "updated_at": "2026-04-26 21:47:00"
+  },
+  "quiz": {
+    "title": "Types de mouvements (rectiligne, circulaire).",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quels sont les types de mouvements ?",
+        "choices": [
+          "Rectiligne",
+          "Circulaire",
+          "Tous les types mentionnÃ©s",
+          "Aucun des types mentionnÃ©s"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le mouvement rectiligne est un mouvement horizontal. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Donne un exemple de mouvement circulaire ?",
+        "choices": [
+          "Le mouvement d'une voiture sur une route droite",
+          "Le mouvement d'une roue de vélo",
+          "Le mouvement d'un ascenseur",
+          "Le mouvement d'un train sur des rails"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le mouvement circulaire est un mouvement qui se fait en ligne droite. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple de mouvement rectiligne ?",
+        "choices": [
+          "Le mouvement d'une roue de vélo",
+          "Le mouvement d'une voiture sur une route droite",
+          "Le mouvement d'un ascenseur qui monte et descend",
+          "Le mouvement d'un train sur des rails"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il n'y a pas de différence entre les mouvements rectilignes et circulaires. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple d'appareil qui utilise un mouvement circulaire ?",
+        "choices": [
+          "Une voiture",
+          "Une roue de vélo",
+          "Un ascenseur",
+          "Un train"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le mouvement rectiligne est plus rapide que le mouvement circulaire. Vrai ou Faux ?"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

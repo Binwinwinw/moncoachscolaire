@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 217",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Sécurité et éthique numérique.",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Tous les concepts mentionnés",
+        "correction": "Les concepts de base en sécurité et éthique numérique comprennent la confidentialité, qui protège les informations personnelles, la sécurité des données, qui assure la protection contre les cyberattaques, et le comportement en ligne responsable, qui guide les interactions sur Internet."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, la confidentialité est un concept de base en sécurité et éthique numérique qui protège les informations personnelles des utilisateurs."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Respecter la vie privée des autres",
+        "correction": "Respecter la vie privée des autres est un exemple de comportement en ligne responsable, qui contribue à créer un environnement numérique sûr et respectueux."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, la sécurité des données est extrêmement importante en ligne pour protéger les informations personnelles et sensibles contre les cyberattaques et les violations de données."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "Le phishing, le ransomware, et le spyware sont tous des exemples de menaces en ligne qui peuvent causer des dommages aux utilisateurs et à leurs appareils."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, il existe une différence entre les différentes menaces en ligne en termes de leur nature, de leur méthode d'attaque, et de leur impact potentiel sur les utilisateurs."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "Utiliser des mots de passe forts, mettre à jour régulièrement les logiciels, et éviter de cliquer sur des liens suspects sont tous des mesures de sécurité importantes que les utilisateurs peuvent prendre pour se protéger en ligne."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, tous les utilisateurs en ligne ne sont pas conscients des risques de sécurité et ne agissent pas toujours de manière responsable, ce qui souligne l'importance de l'éducation à la sécurité et à l'éthique numérique pour promouvoir un comportement en ligne sûr et responsable."
+      }
+    ]
+  }
+}

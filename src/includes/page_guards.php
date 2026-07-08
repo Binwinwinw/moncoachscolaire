@@ -29,6 +29,10 @@ if (!defined('PAGE_GUARDS_LOADED')) {
                 'params' => ['id' => 'int'],
                 'redirect_on_fail' => 'parents/dashboard_parent',
             ],
+            'parents/suivi_abo' => [
+                'guards' => ['auth', 'parent'],
+                'redirect_on_fail' => 'parents/dashboard_parent',
+            ],
             // Pages élèves
             'eleve/dashboard' => [
                 'guards' => ['auth', 'student'],

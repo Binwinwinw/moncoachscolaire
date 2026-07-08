@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 81",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 6eme : Problèmes de proportionnalité",
+    "status": "published",
+    "created_at": "2026-04-26T21:35:11.499443Z",
+    "updated_at": "2026-04-26T21:35:11.499443Z"
+  },
+  "quiz": {
+    "title": "Problèmes de proportionnalité",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Si 3 kg de pommes coûtent 6 euros, combien coûteront 5 kg de pommes ?",
+        "choices": [
+          "8 euros",
+          "10 euros",
+          "12 euros",
+          "15 euros"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Si 4 litres de peinture couvrent 20 m², alors 10 litres de peinture couvriront 50 m²."
+      },
+      {
+        "type": "qcm",
+        "question": "Si 5 heures de travail permettent de construire 10 chaises, combien de chaises pourront être construites en 15 heures ?",
+        "choices": [
+          "20 chaises",
+          "25 chaises",
+          "30 chaises",
+          "35 chaises"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Si 2 kg de pommes coûtent 4 euros, alors 5 kg de pommes coûteront 10 euros."
+      },
+      {
+        "type": "qcm",
+        "question": "Si 6 litres de peinture couvrent 30 m², alors 12 litres de peinture couvriront combien de m² ?",
+        "choices": [
+          "50 m²",
+          "60 m²",
+          "70 m²",
+          "80 m²"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Si 3 heures de travail permettent de construire 6 chaises, alors en 9 heures on pourra construire 18 chaises."
+      },
+      {
+        "type": "qcm",
+        "question": "Si 8 kg de pommes coûtent 16 euros, combien coûteront 3 kg de pommes ?",
+        "choices": [
+          "4 euros",
+          "6 euros",
+          "8 euros",
+          "10 euros"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Si 10 litres de peinture couvrent 50 m², alors 5 litres de peinture couvriront 25 m²."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

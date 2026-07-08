@@ -1,0 +1,87 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 185",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - Les figures d’insistance",
+    "status": "published",
+    "created_at": "2026-04-26T21:46:19.006452Z",
+    "updated_at": "2026-04-26T21:46:19.006452Z"
+  },
+  "quiz": {
+    "title": "Français 6e - Les figures d’insistance",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'une figure d'insistance ?",
+        "choices": [
+          "Une figure de style qui atténue l'importance d'une idée",
+          "Une figure de style qui met en valeur une idée en la répétant ou en la soulignant",
+          "Une figure de style qui compare deux idées",
+          "Une figure de style qui exagère une idée"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les figures d'insistance peuvent être classées en plusieurs types, tels que les anaphores, les épiphore, les répétitions, les parallélismes, etc., en fonction de la manière dont elles mettent en valeur une idée."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est la figure d'insistance parmi ces options ?",
+        "choices": [
+          "Anaphore",
+          "Affirmation",
+          "booléen",
+          "Allitération"
+        ]
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle d'une figure d'insistance dans la communication ?",
+        "choices": [
+          "Atténuer l'importance d'une idée",
+          "Mettre en valeur une idée en la répétant ou en la soulignant",
+          "Comparer deux idées",
+          "Exagérer une idée"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Est-il facile d'utiliser les figures d'insistance de manière appropriée dans la communication ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est la figure d'insistance parmi ces options ?",
+        "choices": [
+          "Démonstration",
+          "Hyperbole",
+          "booléen",
+          "Répétition"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation correcte des figures d'insistance est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les écrivains utilisent les figures d'insistance de manière appropriée en fonction du contexte et du message qu'ils souhaitent transmettre, ce qui contribue à la clarté du message et à l'efficacité de la communication écrite."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est la figure d'insistance parmi ces options ?",
+        "choices": [
+          "Comparaison",
+          "Allitération",
+          "booléen",
+          "Parallélisme"
+        ]
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

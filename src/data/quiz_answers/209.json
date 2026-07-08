@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 209",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Notions de base en programmation (algorithme, langage de programmation).",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Tous les concepts mentionnés",
+        "correction": "Les concepts de base en programmation comprennent l'algorithme, qui est une série d'instructions pour résoudre un problème, le langage de programmation, qui est un langage utilisé pour écrire des programmes informatiques, et la base de données, qui est un système organisé pour stocker et gérer des données."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, un algorithme est une séquence d'instructions ou d'étapes qui sont suivies pour résoudre un problème ou accomplir une tâche spécifique."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Python",
+        "correction": "Python est un exemple de langage de programmation populaire utilisé pour le développement de logiciels, l'analyse de données, et l'intelligence artificielle."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, HTML (HyperText Markup Language) est un langage de balisage utilisé pour structurer et présenter le contenu sur le web."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "MySQL",
+        "correction": "MySQL est un exemple de système de gestion de base de données relationnelle utilisé pour stocker et gérer des données dans des applications web et d'autres types de logiciels."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, il existe une différence entre les différents concepts en programmation en termes de leur fonction, de leur utilisation, et de leur importance dans le processus de développement logiciel."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "Un algorithme peut être utilisé pour accomplir une variété de tâches, telles que trier une liste de nombres, créer une page web, ou gérer une base de données, en fonction des instructions spécifiques qu'il contient."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, différents langages de programmation sont souvent utilisés pour des types de tâches spécifiques en fonction de leurs caractéristiques et de leur domaine d'application. Par exemple, Python est souvent utilisé pour l'analyse de données et l'intelligence artificielle, tandis que JavaScript est couramment utilisé pour le développement web."
+      }
+    ]
+  }
+}

@@ -44,6 +44,11 @@ Usage: Automatise l'analyse, la migration, l'enrichissement et la validation des
 Dossier: `.agents/skills/maintenance-skill/`
 Usage: Procédures et scripts de maintenance préventive (backup, nettoyage, optimisation) et corrective.
 
+### `memory-session-skill`
+
+Dossier: `.agents/skills/memory-session-skill/`
+Usage: Continuité inter-session via `.memory/`. Relit les règles persistantes au démarrage et consigne les nouvelles instructions, préférences, décisions et quirks en fin de tâche.
+
 ### `migration-skill`
 
 Dossier: `.agents/skills/migration-skill/`
@@ -63,6 +68,11 @@ Usage: Crée ou corrige un script Python generate\_\_.py pour MonCoachScolaire. 
 
 Dossier: `.agents/skills/quiz-generator-skill/`
 Usage: Automatise la génération, l’enrichissement, la validation et la maintenance des quiz diagnostiques MonCoachScolaire. Workflows complets sur les quiz (génération, validation, enrichissement, audit qualité, harmonisation).
+
+### `quiz-generator-workflow`
+
+Dossier: `.agents/skills/quiz-generator-workflow/`
+Usage: Définit le workflow, la structure et les étapes de validation d’un script Python `generate_<matiere>_<niveau>.py` pour MonCoachScolaire.
 
 ### `sql-migration`
 

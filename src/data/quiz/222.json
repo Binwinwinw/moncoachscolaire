@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 222",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 6eme : Évolution des besoins et innovations techniques.",
+    "status": "published",
+    "created_at": "2026-04-26 21:47:01",
+    "updated_at": "2026-04-26 21:47:01"
+  },
+  "quiz": {
+    "title": "Évolution des besoins et innovations techniques.",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quels sont des concepts de base en évolution des besoins et innovations techniques ?",
+        "choices": [
+          "Évolution des besoins",
+          "Innovation technique",
+          "Impact de l'innovation sur la société",
+          "Tous les concepts mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'évolution des besoins fait référence aux changements dans les exigences et les attentes des utilisateurs au fil du temps. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple d'innovation technique ?",
+        "choices": [
+          "Internet",
+          "Smartphone",
+          "Impression 3D",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'innovation technique n'a pas d'impact sur la société. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple d'outil de collaboration en ligne qui a été développé en réponse à l'évolution des besoins des utilisateurs ?",
+        "choices": [
+          "Google Drive",
+          "Microsoft Teams",
+          "Slack",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il n'y a pas de différence entre les différentes innovations techniques. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple d'innovation technique qui a eu un impact significatif sur la société ?",
+        "choices": [
+          "Internet",
+          "Smartphone",
+          "Impression 3D",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Tous les utilisateurs sont conscients de l'Ã©volution des besoins et des innovations techniques. Vrai ou Faux ?"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

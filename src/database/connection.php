@@ -97,10 +97,10 @@ if (file_exists($composerAutoload)) {
     }
 }
 
-$envDbHost = getenv('DB_HOST') ?: null;
-$envDbName = getenv('DB_DATABASE') ?: null;
-$envDbUser = getenv('DB_USERNAME') ?: null;
-$envDbPass = getenv('DB_PASSWORD') ?: null;
+$envDbHost = getenv('DB_HOST') ?: '';
+$envDbName = getenv('DB_DATABASE') ?: '';
+$envDbUser = getenv('DB_USERNAME') ?: '';
+$envDbPass = getenv('DB_PASSWORD') ?: '';
 $envDbPort = getenv('DB_PORT') ?: 3306;
 
 // Application environment and read-only mode (hybrid config)
@@ -113,68 +113,34 @@ function db_is_read_only()
     return isset($GLOBALS['dbReadOnly']) && $GLOBALS['dbReadOnly'];
 }
 
-if ($envDbHost && $envDbName && $envDbUser) {
+if ($envDbHost === '') {
+    $envDbHost = $appEnv === 'local' ? '127.0.0.1' : 'localhost';
+}
+
+if ($envDbName === '' || $envDbUser === '') {
+    $pdo = null;
+    $dbUnavailable = true;
+    error_log('MonCoachScolaire: DB configuration missing; define DB_USERNAME and DB_DATABASE in .env or the environment.');
+} else {
     $dbHost = $envDbHost;
     $dbName = $envDbName;
     $dbUser = $envDbUser;
     $dbPass = $envDbPass;
     $dbPort = $envDbPort ?: 3306;
-} else {
-    // Fall back to config.php if not set
-    // Try the new location in src/config/ first, then legacy location
-    if (is_file(__DIR__ . '/../config/config.php')) {
-        require_once __DIR__ . '/../config/config.php';
-    } elseif (is_file(__DIR__ . '/../config.php')) {
-        require_once __DIR__ . '/../config.php';
-    }
-    $dbHost = 'localhost';
-    $dbName = 'moncoachscolaire';
-    $dbUser = 'root';
-    $dbPass = '';
-    $dbPort = 3306;
-
-    if (isset($pdo) && $pdo instanceof PDO) {
-        return;
-    }
-    if (isset($dbHostFromConf)) {
-        $dbHost = $dbHostFromConf;
-    }
-    if (isset($dbNameFromConf)) {
-        $dbName = $dbNameFromConf;
-    }
-    if (isset($dbUserFromConf)) {
-        $dbUser = $dbUserFromConf;
-    }
-    if (isset($dbPassFromConf)) {
-        $dbPass = $dbPassFromConf;
-    }
-    if (isset($dbPortFromConf)) {
-        $dbPort = $dbPortFromConf;
-    }
-}
-
-// Vérification explicite et message d'erreur clair
-if (!$dbHost || !$dbName || !$dbUser) {
-    // N'empêche pas l'accès au site : on indique que la DB est indisponible
-    $pdo = null;
-    $dbUnavailable = true;
-    error_log("MonCoachScolaire: DB configuration missing; site will continue in read-only/guest mode");
-} else {
     $dbUnavailable = false;
-}
 
-$dsn = "mysql:host={$dbHost};port={$dbPort};dbname={$dbName};charset=utf8mb4";
-try {
-    $pdo = new PDO($dsn, $dbUser, $dbPass, [
-        PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-        PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-        PDO::ATTR_EMULATE_PREPARES => false,
-    ]);
-} catch (PDOException $e) {
-    // Do not break the site, but keep $pdo null so pages can still load without DB
-    $pdo = null;
-    $dbUnavailable = true;
-    error_log("MonCoachScolaire: PDO exception while connecting to DB: " . $e->getMessage());
+    $dsn = "mysql:host={$dbHost};port={$dbPort};dbname={$dbName};charset=utf8mb4";
+    try {
+        $pdo = new PDO($dsn, $dbUser, $dbPass, [
+            PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+            PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+            PDO::ATTR_EMULATE_PREPARES => false,
+        ]);
+    } catch (PDOException $e) {
+        $pdo = null;
+        $dbUnavailable = true;
+        error_log('MonCoachScolaire: PDO exception while connecting to DB: ' . $e->getMessage());
+    }
 }
 
 // Compatibilité : fonction d'accès à la connexion PDO

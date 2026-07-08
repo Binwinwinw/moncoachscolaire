@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 201",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Tri et recyclage des matériaux.",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Tous les matériaux mentionnés",
+        "correction": "De nombreux matériaux peuvent être recyclés, y compris le plastique, le papier et le métal."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, le tri des déchets est essentiel pour permettre le recyclage des matériaux et réduire l'impact environnemental."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Tous les objectifs mentionnés",
+        "correction": "Le recyclage a plusieurs objectifs, notamment réduire la pollution, économiser les ressources naturelles, et créer de nouveaux emplois dans l'industrie du recyclage."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, le verre peut être recyclé indéfiniment sans perdre ses propriétés, ce qui en fait un matériau très durable pour le recyclage."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Le polystyrène",
+        "correction": "Le polystyrène est un matériau qui est difficile à recycler et qui n'est pas accepté dans de nombreux programmes de recyclage en raison de sa faible valeur et de son impact environnemental."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, le tri des déchets permet de réduire la quantité de déchets envoyés à la décharge en permettant le recyclage et la réutilisation des matériaux."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Tous les avantages mentionnés",
+        "correction": "Le recyclage des matériaux offre plusieurs avantages, notamment réduire la pollution, économiser les ressources naturelles, et créer de nouveaux emplois dans l'industrie du recyclage."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, même si on ne recycle pas, trier les déchets peut aider à réduire la quantité de déchets envoyés à la décharge et à faciliter le traitement des déchets, ce qui peut avoir un impact positif sur l'environnement."
+      }
+    ]
+  }
+}

@@ -1,105 +1,28 @@
 <?php
 // Page des Mentions Légales - MonCoachScolaire
-// Cette page présente les informations légales obligatoires conformément à la loi française
 
-$page_class = $page_class ?? 'mentions-legales-page';
-$page_css = $page_css ?? 'legal-pages.css'; // CSS unifié pour toutes les pages légales
-$page_title = $page_title ?? 'Mentions Légales - MonCoachScolaire';
+$page_class = 'mentions-legales-page';
+$page_css = 'legal-pages.css';
+$page_title = 'Mentions Légales - MonCoachScolaire';
 
-// Bootstrap site helpers when accessed directly
-$direct_access = (realpath($_SERVER['SCRIPT_FILENAME'] ?? '') === realpath(__FILE__));
-if ($direct_access) {
-    $site_boot = __DIR__ . '/site_boot.php';
-    if (!is_file($site_boot)) {
-        $site_boot = __DIR__ . '/bootstrap/site_boot.php';
-    }
-    if (is_file($site_boot)) {
-        require_once $site_boot;
-    }
+require_once dirname(__DIR__) . '/includes/legal_page_shell.php';
 
-    $page_class = $page_class ?: 'mentions-legales-page';
-    if (empty($page_css)) {
-        $page_css = 'legal.css';
-    }
-    if (empty($page_title)) {
-        $page_title = 'Mentions Légales - MonCoachScolaire';
-    }
+legal_page_bootstrap([
+    'script_file' => __FILE__,
+    'page_class' => 'mentions-legales-page',
+    'page_title' => 'Mentions Légales - MonCoachScolaire',
+    'page_description' => 'Mentions légales du site MonCoachScolaire - Informations légales obligatoires',
+    'page_css' => 'legal-pages.css',
+]);
 
-    ?><!doctype html>
-    <html lang="fr">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <meta name="description" content="Mentions légales du site MonCoachScolaire - Informations légales obligatoires">
-        <title><?php echo htmlspecialchars($page_title); ?></title>
-        <?php
-        $root = rtrim($baseUrl ?? '', '/');
-    if (!$root) {
-        $scriptDir = rtrim(dirname($_SERVER['SCRIPT_NAME'] ?? ''), '/');
-        if ($scriptDir && $scriptDir !== '.' && $scriptDir !== '/') {
-            $root = $scriptDir;
-        } else {
-            $root = '';
-        }
-    }
-
-    if ($root !== ''): ?>
-          <link rel="stylesheet" href="<?php echo function_exists('asset_url') ? asset_url('assets/css/tailwind.css') : ($root . '/assets/css/tailwind.css'); ?>">
-          <?php if (!empty($page_css)): ?>
-            <link rel="stylesheet" href="<?php echo function_exists('asset_url') ? asset_url('assets/css/pages/' . $page_css) : ($root . '/assets/css/pages/' . htmlspecialchars($page_css)); ?>">
-          <?php endif; ?>
-        <?php else: ?>
-          <link rel="stylesheet" href="<?php echo function_exists('asset_url') ? asset_url('assets/css/tailwind.css') : 'assets/css/tailwind.css'; ?>">
-          <?php if (!empty($page_css)): ?>
-            <link rel="stylesheet" href="<?php echo function_exists('asset_url') ? asset_url('assets/css/pages/' . $page_css) : ('assets/css/pages/' . htmlspecialchars($page_css)); ?>">
-          <?php endif; ?>
-        <?php endif; ?>
-    </head>
-    <body class="app-bg <?php echo htmlspecialchars($page_class ?? ''); ?>">
-    <?php
-    if (is_file(dirname(__DIR__, 2) . '/includes/topbar.php')) {
-        require_once dirname(__DIR__, 2) . '/includes/topbar.php';
-    }
-}
-
-// Charger les fichiers nécessaires
-if (is_file(dirname(__DIR__, 2) . '/database/connection.php')) {
-    require_once dirname(__DIR__, 2) . '/database/connection.php';
-}
-
-if (is_file(dirname(__DIR__, 2) . '/config/site_boot.php')) {
-    require_once dirname(__DIR__, 2) . '/config/site_boot.php';
-}
-
-// Gestion de session
-if (function_exists('ensure_session_started')) {
-    ensure_session_started();
-} else {
-    if (session_status() === PHP_SESSION_NONE) {
-        if (!headers_sent()) {
-            session_start();
-        }
-    }
-}
-
-$current_year = date('Y');
+legal_page_render_header(
+    '⚖️',
+    'Mentions Légales',
+    'Informations légales obligatoires concernant le site MonCoachScolaire',
+    'mentions-legales'
+);
+legal_page_main_open();
 ?>
-
-<!-- Header de la page -->
-<header class="flex flex-col gap-2 items-center justify-center text-center py-8 px-4 mx-auto my-8 max-w-screen-xl bg-white/70 backdrop-blur-md rounded-xl shadow-lg" role="banner">
-  <h1 class="m-0 max-w-4xl text-4xl md:text-5xl font-bold text-slate-800 leading-tight">
-    ⚖️ Mentions Légales
-  </h1>
-  <p class="lead m-0 max-w-2xl text-lg text-slate-600 font-medium">
-    Informations légales obligatoires concernant le site MonCoachScolaire
-  </p>
-  <p class="text-sm text-slate-500 mt-2">
-    <em>Dernière mise à jour : <?php echo date('d/m/Y'); ?></em>
-  </p>
-</header>
-
-<main class="legal-content mx-auto my-12 max-w-screen-lg px-4">
-
   <!-- Section 1 : Éditeur du site -->
   <section class="legal-section bg-white rounded-xl shadow-md p-6 mb-6">
     <h2 class="text-2xl font-bold text-slate-800 mb-4 border-b-2 border-blue-500 pb-2">
@@ -113,16 +36,16 @@ $current_year = date('Y');
       <div class="info-box bg-blue-50 border-l-4 border-blue-500 p-4 my-4">
         <p class="mb-2"><strong>Raison sociale :</strong> MonCoachScolaire SAS</p>
         <p class="mb-2"><strong>Forme juridique :</strong> SAS</p>
-        <p class="mb-2"><strong>Capital social :</strong> 10 000 euros</p>
-        <p class="mb-2"><strong>Siège social :</strong> 10 rue de l'Éducation, 75010 Paris, France</p>
-        <p class="mb-2"><strong>SIRET :</strong> 89912345678901</p>
-        <p class="mb-2"><strong>TVA intracommunautaire :</strong> FR56899123456</p>
-        <p class="mb-2"><strong>Téléphone :</strong> 01 23 45 67 89</p>
-        <p class="mb-2"><strong>Email :</strong> <a href="mailto:contact@moncoachscolaire.fr" class="text-blue-600 hover:underline">contact@moncoachscolaire.fr</a></p>
+        <p class="mb-2"><strong>Capital social :</strong> xxxxxxxxxx euros</p>
+        <p class="mb-2"><strong>Siège social :</strong> xxxxxxxxxx</p>
+        <p class="mb-2"><strong>SIRET :</strong> xxxxxxxxxx</p>
+        <p class="mb-2"><strong>TVA intracommunautaire :</strong> xxxxxxxxxx</p>
+        <p class="mb-2"><strong>Téléphone :</strong> xxxxxxxxxx</p>
+        <p class="mb-2"><strong>Email :</strong> <a href="mailto:contact@xxxxxxxxxx.fr" class="text-blue-600 hover:underline">contact@xxxxxxxxxx.fr</a></p>
       </div>
 
       <p class="mb-3">
-        <strong>Directeur de la publication :</strong> Jeanne Martin
+        <strong>Directeur de la publication :</strong> xxxxxxxxxx
       </p>
 
       <p class="mb-3 text-sm text-slate-600">
@@ -142,10 +65,10 @@ $current_year = date('Y');
       </p>
 
       <div class="info-box bg-green-50 border-l-4 border-green-500 p-4 my-4">
-        <p class="mb-2"><strong>Hébergeur :</strong> Hostinger International Ltd.</p>
-        <p class="mb-2"><strong>Adresse :</strong> 61 Lordou Vironos Street, 6023 Larnaca, Chypre</p>
-        <p class="mb-2"><strong>Téléphone :</strong> +357 24 030 595</p>
-        <p class="mb-2"><strong>Site web :</strong> <a href="https://www.hostinger.fr" target="_blank" rel="noopener noreferrer" class="text-green-600 hover:underline">https://www.hostinger.fr</a></p>
+        <p class="mb-2"><strong>Hébergeur :</strong> xxxxxxxxxx</p>
+        <p class="mb-2"><strong>Adresse :</strong> xxxxxxxxxx</p>
+        <p class="mb-2"><strong>Téléphone :</strong> xxxxxxxxxx</p>
+        <p class="mb-2"><strong>Site web :</strong> <a href="https://www.xxxxxxxxxx.fr" target="_blank" rel="noopener noreferrer" class="text-green-600 hover:underline">https://www.xxxxxxxxxx.fr</a></p>
       </div>
 
       <p class="text-sm text-slate-600 italic">
@@ -164,8 +87,8 @@ $current_year = date('Y');
       <h3 class="text-xl font-semibold text-slate-800 mt-4 mb-3">3.1. Responsable du traitement</h3>
       <p class="mb-3">
         Le responsable du traitement des données personnelles collectées sur le site est :
-        <strong>Jeanne Martin</strong>, joignable à l'adresse email suivante :
-        <a href="mailto:dpo@moncoachscolaire.fr" class="text-purple-600 hover:underline">dpo@moncoachscolaire.fr</a>
+        <strong>xxxxxxxxxx</strong>, joignable à l'adresse email suivante :
+        <a href="mailto:dpo@xxxxxxxxxx.fr" class="text-purple-600 hover:underline">dpo@xxxxxxxxxx.fr</a>
       </p>
 
       <h3 class="text-xl font-semibold text-slate-800 mt-6 mb-3">3.2. Données collectées</h3>
@@ -429,13 +352,13 @@ $current_year = date('Y');
 
       <div class="contact-box bg-white border-l-4 border-blue-500 p-4 my-4 rounded">
         <p class="mb-2"><strong>📧 Par email :</strong> <a href="mailto:contact@moncoachscolaire.fr" class="text-blue-600 hover:underline font-semibold">contact@moncoachscolaire.fr</a></p>
-        <p class="mb-2"><strong>📞 Par téléphone :</strong> 01 23 45 67 89</p>
+        <p class="mb-2"><strong>📞 Par téléphone :</strong> xxxxxxxxxx</p>
         <p class="mb-2"><strong>✉️ Par courrier postal :</strong></p>
         <p class="ml-4 text-sm">
           MonCoachScolaire SAS<br>
-          10 rue de l'Éducation<br>
-          75010 Paris<br>
-          France
+          xxxxxxxxxx<br>
+          xxxxxxxxxx<br>
+          xxxxxxxxxx
         </p>
       </div>
 
@@ -463,7 +386,7 @@ $current_year = date('Y');
       </p>
       <ul class="list-disc list-inside ml-4 space-y-1">
         <li>Unsplash, Pexels, Flaticon</li>
-        <li>Illustrations personnalisées par Studio Graphik Paris</li>
+        <li>Illustrations personnalisées par Studio GWaphik</li>
       </ul>
       <p class="mb-3 mt-4">
         <strong>Technologies utilisées :</strong> PHP, HTML5, CSS3, JavaScript, MySQL, Tailwind CSS
@@ -471,21 +394,10 @@ $current_year = date('Y');
     </div>
   </section>
 
-  <!-- Bandeau de retour à l'accueil -->
-  <div class="text-center my-8">
-    <a href="<?php echo site_url('landingpage'); ?>" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:scale-105">
-      ← Retour à l'accueil
-    </a>
-  </div>
-
-
-
-</main>
-
 <?php
-
-// Inclure le footer systématiquement
-if (is_file(dirname(__DIR__, 2) . '/includes/footer.php')) {
-    include_once dirname(__DIR__, 2) . '/includes/footer.php';
+legal_page_main_close();
+if (is_file(dirname(__DIR__) . '/includes/footer.php')) {
+    include_once dirname(__DIR__) . '/includes/footer.php';
 }
+legal_page_finish();
 ?>

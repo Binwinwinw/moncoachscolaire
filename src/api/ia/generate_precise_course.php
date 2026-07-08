@@ -6,6 +6,7 @@
 require_once __DIR__ . '/../../config/config.php';
 require_once __DIR__ . '/../../includes/ai_course_generator.php';
 require_once __DIR__ . '/../../includes/course_display.php';
+require_once __DIR__ . '/../_core/bootstrap.php';
 if (is_file(__DIR__ . '/../../includes/login_security.php')) {
     require_once __DIR__ . '/../../includes/login_security.php';
 }
@@ -15,6 +16,15 @@ error_reporting(0);
 
 header('Content-Type: application/json; charset=utf-8');
 header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
+
+api_require([
+    'method' => 'POST',
+    'rate' => [
+        'key' => 'ai_course',
+        'limit' => 10,
+        'window' => 60,
+    ],
+]);
 
 function preciseCourseJsonResponse(array $payload, int $statusCode = 200): void
 {

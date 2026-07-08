@@ -16,6 +16,50 @@ if (is_file(dirname(__DIR__, 2) . '/src/database/connection.php')) {
 $levelRaw = isset($_GET['level']) ? strtolower(trim((string) $_GET['level'])) : '6eme';
 $subject = isset($_GET['subject']) ? trim((string) $_GET['subject']) : '';
 $userId = isset($_SESSION['user_id']) ? (int) $_SESSION['user_id'] : 0;
+$sessionRole = strtolower((string) ($_SESSION['user_role'] ?? $_SESSION['role'] ?? ''));
+$requestedChildId = filter_input(INPUT_GET, 'child_id', FILTER_VALIDATE_INT);
+
+if (in_array($sessionRole, ['parent', 'parents'], true) && $requestedChildId) {
+    if (!isset($pdo) || !$pdo instanceof PDO) {
+        http_response_code(500);
+        echo json_encode([
+            'success' => false,
+            'error' => 'Connexion base indisponible',
+        ], JSON_UNESCAPED_UNICODE);
+        exit;
+    }
+
+    $parentUserId = (int) ($_SESSION['parent_id'] ?? $_SESSION['user_id'] ?? 0);
+    $linkStmt = $pdo->prepare(
+        "SELECT u.level, u.preferred_subject
+         FROM parent_child_invites pci
+         JOIN users u ON u.Id = pci.child_user_id AND u.Role = 'student'
+         WHERE pci.parent_user_id = ? AND pci.child_user_id = ? AND pci.status = 'accepted'
+         LIMIT 1"
+    );
+    $linkStmt->execute([$parentUserId, (int) $requestedChildId]);
+    $linkedChild = $linkStmt->fetch(PDO::FETCH_ASSOC);
+
+    if (!$linkedChild) {
+        http_response_code(403);
+        echo json_encode([
+            'success' => false,
+            'error' => 'Enfant non autorisé pour ce parent',
+        ], JSON_UNESCAPED_UNICODE);
+        exit;
+    }
+
+    $userId = (int) $requestedChildId;
+    if ($levelRaw === '' || $levelRaw === '6eme') {
+        $childLevel = trim((string) ($linkedChild['level'] ?? ''));
+        if ($childLevel !== '') {
+            $levelRaw = strtolower($childLevel);
+        }
+    }
+    if ($subject === '') {
+        $subject = trim((string) ($linkedChild['preferred_subject'] ?? ''));
+    }
+}
 
 $levelCandidates = buildLevelCandidates($levelRaw);
 $levelNormalized = $levelCandidates[0] ?? '6eme';

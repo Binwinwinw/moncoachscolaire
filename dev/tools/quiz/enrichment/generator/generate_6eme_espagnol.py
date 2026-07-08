@@ -181,7 +181,9 @@ def make_answers(qid, title, subject, level, questions):
     }
 
 
-quizzes_data = []
+quizzes_data = [
+    
+]
 
 
 def write_quiz_files():

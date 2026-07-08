@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 201",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 6eme : Tri et recyclage des matériaux.",
+    "status": "published",
+    "created_at": "2026-04-26 21:47:00",
+    "updated_at": "2026-04-26 21:47:00"
+  },
+  "quiz": {
+    "title": "Tri et recyclage des matériaux.",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quels matériaux peuvent être recyclés ?",
+        "choices": [
+          "Le plastique",
+          "Le papier",
+          "Le métal",
+          "Tous les matériaux mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le tri des déchets est important pour le recyclage. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est l'objectif principal du recyclage ?",
+        "choices": [
+          "Réduire la pollution",
+          "Économiser les ressources naturelles",
+          "Créer de nouveaux emplois",
+          "Tous les objectifs mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le verre peut être recyclé indéfiniment sans perdre ses propriétés. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le matériau qui ne peut pas être recyclé ?",
+        "choices": [
+          "Le plastique",
+          "Le papier",
+          "Le métal",
+          "Le polystyrène"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le tri des déchets permet de réduire la quantité de déchets envoyés à la décharge. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un avantage du recyclage des matériaux ?",
+        "choices": [
+          "Réduire la pollution",
+          "Économiser les ressources naturelles",
+          "Créer de nouveaux emplois",
+          "Tous les avantages mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il est inutile de trier les déchets si on ne recycle pas. Vrai ou Faux ?"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

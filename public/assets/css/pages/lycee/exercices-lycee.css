@@ -1,8 +1,10 @@
+/* Overrides niveau — structure commune : pages/exercices-common.css (auto-charge par index.php) */
+/* DEPRECATED accents — utiliser theme-level.css (--color-primary) + body.theme-* */
 /* Styles for exercises listing - Lycée */
 :root{
     --card-bg: #ffffff;
     --card-border: #e6eef8;
-    --accent: #3b82f6;
+    --accent: var(--color-primary);
     --muted: #6b7280;
 }
 .main-content {

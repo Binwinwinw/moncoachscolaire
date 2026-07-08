@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 163",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - L’analyse d’un texte argumentatif",
+    "status": "published",
+    "created_at": "2026-04-26T21:46:18.975487Z",
+    "updated_at": "2026-04-26T21:46:18.975487Z"
+  },
+  "quiz": {
+    "title": "Français 6e - L’analyse d’un texte argumentatif",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel est l'élément principal à analyser dans un texte argumentatif pour comprendre la position de l'auteur sur un sujet donné ?",
+        "choices": [
+          "Le titre du texte",
+          "La structure du texte",
+          "Les arguments utilisés",
+          "Le style d'écriture"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La structure d'un texte argumentatif peut être analysée pour comprendre comment les différentes parties du texte sont organisées et comment elles contribuent à l'ensemble de l'argumentation."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel élément du texte argumentatif correspond à la thèse ou au point de vue que l'auteur défend ?",
+        "choices": [
+          "L'introduction",
+          "Le développement des arguments",
+          "La conclusion",
+          "La thèse"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'analyse d'un texte argumentatif peut aider à mieux comprendre les différentes perspectives sur un sujet donné et à développer sa propre capacité à formuler des arguments solides et convaincants."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel élément du texte argumentatif correspond à la partie où l'auteur présente les raisons ou les preuves pour soutenir sa thèse ?",
+        "choices": [
+          "L'introduction",
+          "Le développement des arguments",
+          "La conclusion",
+          "La thèse"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La conclusion d'un texte argumentatif est la partie où l'auteur résume les arguments présentés et réaffirme sa thèse de manière convaincante."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel élément du texte argumentatif correspond à la partie où l'auteur présente le sujet et sa position sur ce sujet ?",
+        "choices": [
+          "L'introduction",
+          "Le développement des arguments",
+          "La conclusion",
+          "La thèse"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'analyse d'un texte argumentatif peut également inclure l'étude du contexte historique, social et culturel dans lequel le texte a été écrit, pour mieux comprendre les influences et les références présentes dans le texte."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

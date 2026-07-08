@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 213",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Signaux et information (analogique/numérique).",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Tous les concepts mentionnés",
+        "correction": "Les concepts de base en signaux et information comprennent le signal analogique, qui est un signal continu qui peut prendre une infinité de valeurs, le signal numérique, qui est un signal discret qui ne peut prendre que des valeurs spécifiques, et l'information binaire, qui est une forme d'information codée en utilisant deux états (0 et 1) pour représenter les données."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, un signal analogique est caractérisé par sa continuité et sa capacité à prendre une infinité de valeurs dans une plage donnée, contrairement à un signal numérique qui est discret et ne peut prendre que des valeurs spécifiques."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Signal de données numériques",
+        "correction": "Un signal de données numériques est un exemple de signal numérique, qui est utilisé pour transmettre des informations sous forme de données codées en binaire (0 et 1) dans les systèmes informatiques et de communication."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, l'information binaire est une méthode de codage qui utilise deux états (0 et 1) pour représenter les données, et est largement utilisée dans les systèmes informatiques et de communication pour stocker et transmettre des informations de manière efficace et fiable."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "Les signaux de télévision analogique et de téléphone analogique sont des exemples de signaux analogiques, tandis que le signal de données numériques est un exemple de signal numérique."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, les signaux analogiques et numériques sont différents. Les signaux analogiques sont continus et peuvent prendre une infinité de valeurs, tandis que les signaux numériques sont discrets et ne peuvent prendre que des valeurs spécifiques."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "Tous les exemples mentionnés (texte, image, son) peuvent être représentés en binaire, car les données numériques sont codées en utilisant des séquences de 0 et 1 pour représenter différentes formes d'information dans les systèmes informatiques."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, bien que de nombreux systèmes de communication modernes utilisent des signaux numériques pour leur efficacité et leur fiabilité, il existe encore des systèmes qui utilisent des signaux analogiques, notamment dans les domaines de la radio, de la télévision, et de certaines formes de téléphonie."
+      }
+    ]
+  }
+}

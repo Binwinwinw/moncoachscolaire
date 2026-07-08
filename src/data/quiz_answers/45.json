@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6ème - Série 45",
+    "level": "6ème",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "Vocabulaire de base : phrases courantes pour dire bonjour, au revoir, merci, s'il vous plaît, etc.",
+    "question_count": 8,
+    "level": "6ème",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "'Hello', 'Hi', and 'Hey' are all common English greetings that can be used in different contexts to greet someone."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English phrase for 'Comment ça va?' is indeed 'How are you?', which is a common way to ask someone about their well-being in English."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "'Goodbye', 'Bye', and 'See you later' are all common English expressions used to say goodbye in different contexts."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English phrase for 'Merci' is indeed 'Thank you', which is a common way to express gratitude in English."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "'Sorry', 'I apologize', and 'My apologies' are all common English expressions used to apologize in different contexts."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English phrase for 'S'il vous plaît' is indeed 'Please', which is a common way to make a polite request in English."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "'Thank you', 'Thanks', and 'I appreciate it' are all common English expressions used to express gratitude in different contexts."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The English phrase for 'Excusez-moi' is indeed 'Excuse me', which is a common way to get someone's attention or to apologize for an interruption in English."
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 6eme - Série 110",
+    "level": "6eme",
+    "subject": "EMC"
+  },
+  "quiz": {
+    "title": "EMC 6e - Prévention harcèlement scolaire",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "EMC",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "La prévention du harcèlement scolaire contribue à créer un environnement scolaire sûr, respectueux et inclusif pour tous les élèves.",
+        "correction": "La prévention du harcèlement scolaire est essentielle pour créer un environnement scolaire sûr, respectueux et inclusif pour tous les élèves, en protégeant leur bien-être, en favorisant leur réussite académique et en promouvant des relations positives entre les élèves."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Le harcèlement scolaire est un comportement inacceptable qui peut avoir des conséquences graves sur la santé mentale et physique des victimes, notamment l'anxiété, la dépression, le stress post-traumatique et, dans les cas extrêmes, le suicide. Il est important de prévenir le harcèlement scolaire pour protéger les élèves et promouvoir un environnement scolaire sain et respectueux."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Il est important de signaler le harcèlement scolaire à un adulte de confiance, de soutenir la victime et de promouvoir un environnement scolaire respectueux.",
+        "correction": "Si vous êtes témoin de harcèlement scolaire, il est crucial de signaler la situation à un adulte de confiance, de soutenir la victime et de contribuer à créer un environnement scolaire respectueux et inclusif."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le harcèlement scolaire est un problème qui concerne non seulement les élèves et les écoles, mais aussi les familles, les communautés et la société dans son ensemble. La prévention du harcèlement scolaire nécessite une approche collective impliquant tous les acteurs concernés pour créer un environnement sûr et respectueux pour tous les élèves."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "L'éducation joue un rôle crucial en sensibilisant les élèves au harcèlement scolaire, en promouvant des comportements respectueux et en encourageant la solidarité entre les élèves.",
+        "correction": "L'éducation joue un rôle crucial dans la prévention du harcèlement scolaire en sensibilisant les élèves à ce phénomène, en promouvant des comportements respectueux et en encourageant la solidarité entre les élèves pour créer un environnement scolaire sûr et inclusif."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Bien que des sanctions disciplinaires puissent être nécessaires pour traiter le harcèlement scolaire, il est également important d'adopter une approche préventive qui inclut l'éducation, le soutien aux victimes, la promotion de comportements respectueux et la création d'un environnement scolaire inclusif pour résoudre efficacement le problème du harcèlement scolaire."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Les parents ont un rôle important en sensibilisant leurs enfants au harcèlement scolaire, en encourageant des comportements respectueux et en collaborant avec les écoles pour prévenir le harcèlement.",
+        "correction": "Les parents jouent un rôle crucial dans la prévention du harcèlement scolaire en sensibilisant leurs enfants à ce phénomène, en encourageant des comportements respectueux et en collaborant avec les écoles pour créer un environnement scolaire sûr et inclusif."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Bien que des sanctions disciplinaires puissent être nécessaires pour traiter le harcèlement scolaire, il est également important d'adopter une approche préventive qui inclut l'éducation, le soutien aux victimes, la promotion de comportements respectueux et la création d'un environnement scolaire inclusif pour résoudre efficacement le problème du harcèlement scolaire."
+      }
+    ]
+  }
+}

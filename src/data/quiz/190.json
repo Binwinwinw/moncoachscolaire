@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 190",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - Les valeurs du récit historique",
+    "status": "published",
+    "created_at": "2026-04-26T21:46:19.014483Z",
+    "updated_at": "2026-04-26T21:46:19.014483Z"
+  },
+  "quiz": {
+    "title": "Français 6e - Les valeurs du récit historique",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce qu'un récit historique ?",
+        "choices": [
+          "Un genre littéraire",
+          "Une figure de style",
+          "Une forme de communication",
+          "Une discipline scientifique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les récits historiques peuvent être classés en plusieurs types, tels que les biographies, les chroniques, les romans historiques, etc., en fonction de la manière dont ils racontent des événements passés."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle d'un récit historique dans la communication ?",
+        "choices": [
+          "Il n'a pas de rôle spécifique",
+          "Il permet d'exprimer des affirmations",
+          "Il permet d'exprimer des questions",
+          "Il permet de transmettre des connaissances historiques ou des leçons à travers une narration"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un récit historique peut être fictif."
+      },
+      {
+        "type": "qcm",
+        "question": "Lequel de ces titres n'est pas un récit historique ?",
+        "choices": [
+          "Guerre et Paix",
+          "Les Misérables",
+          "Le Petit Prince",
+          "La Guerre du Feu"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les récits historiques peuvent être utilisés pour transmettre des connaissances historiques ou des leçons importantes aux lecteurs, en fournissant des perspectives sur les événements passés et en éclairant le présent à travers la narration de ces événements."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle d'un récit historique dans la communication ?",
+        "choices": [
+          "Il n'a pas de rôle spécifique",
+          "Il permet d'exprimer des affirmations",
+          "Il permet d'exprimer des questions",
+          "Il permet de transmettre des connaissances historiques ou des leçons à travers une narration"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un récit historique est un genre littéraire qui raconte des événements passés, souvent basés sur des faits réels, pour transmettre des connaissances historiques ou des leçons à travers une narration."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

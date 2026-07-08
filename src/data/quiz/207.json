@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - Série 207",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 6eme : Périphériques d'un ordinateur (entrée/sortie).",
+    "status": "published",
+    "created_at": "2026-04-26 21:47:00",
+    "updated_at": "2026-04-26 21:47:00"
+  },
+  "quiz": {
+    "title": "Périphériques d'un ordinateur (entrée/sortie).",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quels sont les périphériques d'entrée d'un ordinateur ?",
+        "choices": [
+          "Clavier",
+          "Souris",
+          "Webcam",
+          "Tous les périphériques mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un écran est un périphérique de sortie. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Donne un exemple qui n'est pas un périphérique d'entrée ?",
+        "choices": [
+          "Clavier",
+          "Souris",
+          "Imprimante",
+          "Haut-parleur"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Un microphone est un périphérique d'entrée. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Donne un exemple de périphérique de sortie ?",
+        "choices": [
+          "Clavier",
+          "Souris",
+          "Écran",
+          "Processeur"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il n'y a pas de différence entre les périphériques d'entrée et de sortie. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple de périphérique qui peut être à la fois d'entrée et de sortie ?",
+        "choices": [
+          "Clavier",
+          "Souris",
+          "Écran tactile",
+          "Haut-parleur"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Tous les périphériques d'un ordinateur sont soit d'entrée, soit de sortie. Vrai ou Faux ?"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

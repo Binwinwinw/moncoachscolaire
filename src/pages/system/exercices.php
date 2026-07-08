@@ -48,54 +48,54 @@ if (!$hide_topbar && file_exists(dirname(__DIR__, 2) . '/includes/topbar.php')) 
 
 <main class="main-content max-w-7xl mx-auto px-4 py-8">
     <?php if ($has_access): ?>
-    <!-- Bouton Quiz IA (réservé connectés) -->
+    <!-- Bouton Exercice IA (réservé connectés) -->
     <div class="flex justify-end mb-4">
-        <button id="btn-quiz-ia" class="inline-flex items-center gap-2 px-5 py-2 rounded-xl bg-emerald-600 text-white font-semibold shadow hover:bg-emerald-700 transition">
-            🤖 Quiz IA
+        <button id="btn-quiz-ia" class="inline-flex items-center gap-2 px-5 py-2 rounded-xl bg-emerald-600 text-white font-semibold shadow hover:bg-emerald-700 transition" aria-haspopup="dialog" aria-controls="modal-quiz-ia">
+            🤖 Exercice IA
         </button>
     </div>
 
-    <!-- Modal Quiz IA -->
-    <div id="modal-quiz-ia" class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-40 hidden">
-        <div class="bg-white rounded-2xl shadow-xl p-8 max-w-md w-full relative">
-            <button id="close-modal-quiz-ia" class="absolute top-3 right-3 text-gray-400 hover:text-gray-700 text-2xl">&times;</button>
-            <h2 class="text-2xl font-bold mb-4 text-emerald-700">Générer un quiz IA</h2>
-            <form id="form-quiz-ia" class="flex flex-col gap-4">
-                <div id="quiz-niveau-container">
-                    <label for="quiz-niveau" class="block font-semibold mb-1">Niveau scolaire</label>
-                    <select id="quiz-niveau" name="niveau" class="w-full border rounded px-3 py-2">
-                        <option value="">Sélectionner…</option>
-                        <option value="6eme">6ème</option>
-                        <option value="5eme">5ème</option>
-                        <option value="4eme">4ème</option>
-                        <option value="3eme">3ème</option>
-                        <option value="2nde">Seconde</option>
-                        <option value="1ere">Première</option>
-                        <option value="terminale">Terminale</option>
-                        <option value="bac">BAC</option>
-                    </select>
-                </div>
+    <!-- Modal Exercice IA -->
+    <div id="modal-quiz-ia" class="fixed inset-0 z-50 hidden items-start justify-center overflow-y-auto bg-black/40 p-4 md:items-center" aria-hidden="true">
+        <div class="flex w-full max-w-4xl max-h-[90vh] flex-col overflow-hidden rounded-2xl bg-white shadow-2xl" role="dialog" aria-labelledby="modal-exercice-ia-title" aria-modal="true">
+            <header class="flex items-start justify-between gap-4 border-b border-slate-100 px-6 py-5 shrink-0">
                 <div>
-                    <label for="quiz-matiere" class="block font-semibold mb-1">Matière</label>
-                    <select id="quiz-matiere" name="matiere" class="w-full border rounded px-3 py-2">
-                        <option value="">Sélectionner…</option>
-                        <option value="Mathématiques">Mathématiques</option>
-                        <option value="Français">Français</option>
-                        <option value="Physique-Chimie">Physique-Chimie</option>
-                        <option value="SVT">SVT</option>
-                        <option value="Histoire-Géographie">Histoire-Géographie</option>
-                        <option value="Anglais">Anglais</option>
-                        <option value="Espagnol">Espagnol</option>
-                        <option value="Philosophie">Philosophie</option>
-                    </select>
+                    <h2 id="modal-exercice-ia-title" class="text-2xl font-bold text-emerald-700">Générer un exercice IA</h2>
+                    <p class="mt-1 text-sm text-slate-500">Choisis une matière et décris un thème ou un titre précis.</p>
                 </div>
-                <div>
-                    <label for="quiz-type" class="block font-semibold mb-1">Type d’exercice (optionnel)</label>
-                    <input id="quiz-type" name="type" class="w-full border rounded px-3 py-2" placeholder="QCM, vrai/faux, etc." />
-                </div>
-                <button type="submit" class="bg-emerald-600 text-white px-4 py-2 rounded font-bold hover:bg-emerald-700 transition">Générer le quiz</button>
-            </form>
-            <div id="quiz-ia-result" class="mt-6"></div>
+                <button id="close-modal-quiz-ia" type="button" class="text-3xl leading-none text-gray-400 transition hover:text-gray-700" aria-label="Fermer">&times;</button>
+            </header>
+
+            <div class="flex-1 min-h-0 overflow-y-auto px-6 py-5">
+                <form id="form-quiz-ia" class="flex flex-col gap-4">
+                    <input type="hidden" id="quiz-niveau" name="niveau" value="">
+                    <div>
+                        <label for="quiz-theme" class="block font-semibold mb-1">Thème ou titre</label>
+                        <input id="quiz-theme" name="theme" class="w-full border rounded px-3 py-2" placeholder="Ex. Les fractions, Les accords du participe passé, Les volcans" aria-describedby="quiz-theme-help" />
+                        <p id="quiz-theme-help" class="mt-1 text-sm text-slate-500">Décris la notion, le chapitre ou le titre que tu veux travailler.</p>
+                    </div>
+                    <div>
+                        <label for="quiz-matiere" class="block font-semibold mb-1">Matière</label>
+                        <select id="quiz-matiere" name="matiere" class="w-full border rounded px-3 py-2">
+                            <option value="">Sélectionner…</option>
+                            <option value="Mathématiques">Mathématiques</option>
+                            <option value="Français">Français</option>
+                            <option value="Physique-Chimie">Physique-Chimie</option>
+                            <option value="SVT">SVT</option>
+                            <option value="Histoire-Géographie">Histoire-Géographie</option>
+                            <option value="Anglais">Anglais</option>
+                            <option value="Espagnol">Espagnol</option>
+                            <option value="Philosophie">Philosophie</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="quiz-type" class="block font-semibold mb-1">Type d’exercice (optionnel)</label>
+                        <input id="quiz-type" name="type" class="w-full border rounded px-3 py-2" placeholder="QCM, application, problème, etc." />
+                    </div>
+                    <button type="submit" class="bg-emerald-600 text-white px-4 py-2 rounded font-bold hover:bg-emerald-700 transition">Générer les exercices</button>
+                </form>
+                <div id="quiz-ia-result" class="mt-6 hidden overflow-y-auto pr-1" aria-live="polite"></div>
+            </div>
         </div>
     </div>
     <?php endif; ?>
@@ -103,8 +103,8 @@ if (!$hide_topbar && file_exists(dirname(__DIR__, 2) . '/includes/topbar.php')) 
         <h1 class="text-4xl md:text-5xl font-bold text-slate-800 mb-4 flex items-center justify-center gap-3">📝 Exercices Interactifs</h1>
         <p class="text-xl text-slate-600 mb-6">Entraîne-toi avec des exercices adaptés à ton niveau !</p>
         <?php if (empty($_SESSION['user_id'])): ?>
-        <div id="mode-emploi-exercices" class="mx-auto max-w-2xl bg-blue-50 border border-blue-200 rounded-xl p-4 mb-4 flex flex-col items-center gap-2 shadow">
-            <div class="flex items-center gap-2 text-blue-700 text-lg font-semibold">
+        <div id="mode-emploi-exercices" class="mx-auto max-w-2xl banner-theme rounded-xl p-4 mb-4 flex flex-col items-center gap-2 shadow">
+            <div class="flex items-center gap-2 text-theme text-lg font-semibold">
                 <span class="text-2xl">ℹ️</span>
                 <span id="mode-emploi-message">Choisis d'abord ton niveau scolaire, puis une matière pour découvrir un exercice interactif adapté !</span>
             </div>
@@ -204,7 +204,7 @@ if (empty($niveau_normalise)) :
         </div>
         <div id="random-exercise-card" class="flex justify-center"></div>
         <div class="flex justify-center mt-4">
-            <button id="btn-new-random-exercise" class="inline-flex items-center gap-2 px-5 py-2 rounded-xl bg-blue-600 text-white font-semibold shadow hover:bg-blue-700 transition">
+            <button id="btn-new-random-exercise" class="inline-flex items-center gap-2 px-5 py-2 rounded-xl btn-theme-primary font-semibold shadow transition">
                 🔄 Voir un autre exercice
             </button>
         </div>
@@ -215,7 +215,7 @@ if (empty($niveau_normalise)) :
 
     <?php if (!$has_access): ?>
         <!-- Panneau coach déplacé tout en bas, après toutes les infos -->
-        <div class="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-8 mt-12 border border-blue-200 shadow">
+        <div class="banner-theme rounded-xl p-8 mt-12 shadow">
             <h2>🔒 Accède à des centaines d'exercices interactifs</h2>
             <p>
                 Découvre ci-dessous un aperçu de nos exercices, mais pour t'entraîner et progresser avec un suivi personnalisé,
@@ -241,7 +241,7 @@ if (empty($niveau_normalise)) :
             </div>
             <p><strong>💡 Plus tu t'entraînes, plus tu progresses !</strong></p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center mt-6">
-                <a href="<?php echo function_exists('site_url') ? site_url('register') : '/public/pages/register.php'; ?>" class="inline-flex items-center justify-center px-6 py-3 bg-blue-600 text-white font-semibold rounded-xl hover:bg-blue-700 transition-colors shadow-lg">✨ Créer mon compte gratuit</a>
+                <a href="<?php echo function_exists('site_url') ? site_url('register') : '/public/pages/register.php'; ?>" class="btn-theme-primary inline-flex items-center justify-center px-6 py-3 font-semibold rounded-xl shadow-lg">✨ Créer mon compte gratuit</a>
                 <a href="<?php echo function_exists('site_url') ? site_url('login') : '/public/pages/login.php'; ?>" class="inline-flex items-center justify-center px-6 py-3 bg-gray-600 text-white font-semibold rounded-xl hover:bg-gray-700 transition-colors shadow-lg">🔑 Me connecter</a>
             </div>
         </div>
@@ -414,43 +414,66 @@ if ($niveau_js) {
     const closeModalQuizIa = document.getElementById('close-modal-quiz-ia');
     const formQuizIa = document.getElementById('form-quiz-ia');
     const quizIaResult = document.getElementById('quiz-ia-result');
+    const niveauInput = document.getElementById('quiz-niveau');
+    const themeInput = document.getElementById('quiz-theme');
+    const matiereInput = document.getElementById('quiz-matiere');
+
+    function showQuizForm() {
+        if (formQuizIa) {
+            formQuizIa.classList.remove('hidden');
+        }
+        if (quizIaResult) {
+            quizIaResult.classList.add('hidden');
+            quizIaResult.innerHTML = '';
+        }
+    }
 
     if (btnQuizIa && modalQuizIa && closeModalQuizIa) {
         btnQuizIa.addEventListener('click', function() {
+            modalQuizIa.classList.add('flex');
             modalQuizIa.classList.remove('hidden');
-            quizIaResult.innerHTML = '';
+            showQuizForm();
 
-            // Détecter automatiquement le niveau de l'élève connecté
-            if (window.EXERCICE_USER_LEVEL && document.getElementById('quiz-niveau')) {
-                const normalizedLevel = window.EXERCICE_USER_LEVEL.toLowerCase().replace('é', 'e').replace('è', 'e');
-                const niveauSelect = document.getElementById('quiz-niveau');
-                const matchingOption = niveauSelect.querySelector('option[value="' + normalizedLevel + '"]');
-                if (matchingOption) {
-                    matchingOption.selected = true;
-                    // Cacher la sélection du niveau pour l'élève (demande utilisateur)
-                    const container = document.getElementById('quiz-niveau-container');
-                    if (container) container.style.display = 'none';
-                }
+            const lockedLevel = String(
+                window.EXERCICE_USER_LEVEL || window.__USER_LEVEL || window.userLevel || '',
+            ).trim();
+
+            if (niveauInput && lockedLevel) {
+                niveauInput.value = lockedLevel;
+            }
+
+            if (themeInput) {
+                themeInput.focus();
             }
         });
         closeModalQuizIa.addEventListener('click', function() {
+            modalQuizIa.classList.remove('flex');
             modalQuizIa.classList.add('hidden');
         });
         modalQuizIa.addEventListener('click', function(e) {
-            if (e.target === modalQuizIa) modalQuizIa.classList.add('hidden');
+            if (e.target === modalQuizIa) {
+                modalQuizIa.classList.remove('flex');
+                modalQuizIa.classList.add('hidden');
+            }
         });
     }
 
     if (formQuizIa) {
         formQuizIa.addEventListener('submit', async function(e) {
             e.preventDefault();
-            quizIaResult.innerHTML = '<div class="text-center text-slate-500">Génération du quiz en cours…</div>';
-            let niveau = formQuizIa.niveau.value.trim();
-            const matiere = formQuizIa.matiere.value.trim();
+            if (quizIaResult) {
+                quizIaResult.classList.remove('hidden');
+                quizIaResult.innerHTML = '<div class="text-center text-slate-500 py-8">Génération des exercices en cours…</div>';
+            }
+            let niveau = niveauInput ? niveauInput.value.trim() : '';
+            const theme = themeInput ? themeInput.value.trim() : '';
+            const matiere = matiereInput ? matiereInput.value.trim() : '';
             let type = formQuizIa.type.value.trim();
 
-            if (!niveau && window.EXERCICE_USER_LEVEL) {
-                niveau = window.EXERCICE_USER_LEVEL.toLowerCase().replace('é', 'e').replace('è', 'e');
+            if (!niveau) {
+                niveau = String(
+                    window.EXERCICE_USER_LEVEL || window.__USER_LEVEL || window.userLevel || '',
+                ).trim();
             }
 
             // Si type n'est pas renseigné, on choisit un type aléatoire par défaut
@@ -460,13 +483,14 @@ if ($niveau_js) {
                 formQuizIa.type.value = type; // afficher le type choisi
             }
 
-            if (!niveau || !matiere) {
-                quizIaResult.innerHTML = '<div class="text-red-600">Merci de choisir un niveau et une matière.</div>';
+            if (!niveau || !matiere || !theme) {
+                if (quizIaResult) {
+                    quizIaResult.innerHTML = '<div class="text-red-600 py-4">Merci de choisir une matière et de préciser un thème ou un titre.</div>';
+                }
                 return;
             }
-            // Appel API IA (placeholder)
+
             try {
-                // Utiliser le routeur pour l'API
                 const apiUrl = (window.baseUrl || '') + '/index.php?page=api/ia/generate_quiz';
                 const csrfToken = window.csrfToken || '';
                 const response = await fetch(apiUrl, {
@@ -475,60 +499,33 @@ if ($niveau_js) {
                         'Content-Type': 'application/json',
                         'X-CSRF-Token': csrfToken
                     },
-                    body: JSON.stringify({ niveau, matiere, type, csrf_token: csrfToken })
+                    body: JSON.stringify({
+                        niveau,
+                        matiere,
+                        theme,
+                        type,
+                        output_mode: 'exercise',
+                        context_page: 'exercices',
+                        csrf_token: csrfToken
+                    })
                 });
+                if (!response.ok) {
+                    throw new Error('Réponse serveur invalide (' + response.status + ')');
+                }
                 const data = await response.json();
                 if (data && data.quiz_html) {
+                    formQuizIa.classList.add('hidden');
                     quizIaResult.innerHTML = data.quiz_html;
                     if (typeof window.InteractiveExercises !== 'undefined') window.InteractiveExercises.initAll();
-
-                    // Ajouter le bouton de sauvegarde (demande utilisateur)
-                    if (data.questions && data.questions.length > 0) {
-                        const saveBtn = document.createElement('button');
-                        saveBtn.className = 'mt-4 w-full bg-blue-700 text-white px-4 py-2 rounded-lg font-bold hover:bg-blue-800 transition flex items-center justify-center gap-2';
-                        saveBtn.innerHTML = '📂 Sauvegarder dans la bibliothèque';
-                        saveBtn.onclick = async () => {
-                            saveBtn.disabled = true;
-                            saveBtn.innerHTML = '⌛ Sauvegarde en cours...';
-                            try {
-                                const saveUrl = (window.baseUrl || '') + '/index.php?page=api/ia/save_generated_quiz';
-                                const csrfToken = window.csrfToken || '';
-                                const saveRes = await fetch(saveUrl, {
-                                    method: 'POST',
-                                    headers: {
-                                        'Content-Type': 'application/json',
-                                        'X-CSRF-Token': csrfToken
-                                    },
-                                    body: JSON.stringify({
-                                        questions: data.questions,
-                                        level: data.level,
-                                        subject: data.subject,
-                                        csrf_token: csrfToken
-                                    })
-                                });
-                                const saveData = await saveRes.json();
-                                if (saveData.success) {
-                                    saveBtn.innerHTML = '✅ Quiz sauvegardé !';
-                                    saveBtn.classList.replace('bg-blue-700', 'bg-green-600');
-                                    alert(saveData.message);
-                                } else {
-                                    throw new Error(saveData.error || 'Erreur inconnue');
-                                }
-                            } catch (err) {
-                                alert('Erreur lors de la sauvegarde : ' + err.message);
-                                saveBtn.disabled = false;
-                                saveBtn.innerHTML = '📂 Sauvegarder dans la bibliothèque';
-                            }
-                        };
-                        quizIaResult.appendChild(saveBtn);
-                    }
                 } else if (data && data.error) {
                     quizIaResult.innerHTML = '<div><b>Erreur :</b> ' + data.error + '</div>';
                 } else {
-                    quizIaResult.innerHTML = '<div class="text-red-600">Aucun quiz généré. Réessaie ou change les paramètres.</div>';
+                    quizIaResult.innerHTML = '<div class="text-red-600">Aucun exercice généré. Réessaie ou change les paramètres.</div>';
                 }
+                quizIaResult.scrollTop = 0;
             } catch (err) {
                 quizIaResult.innerHTML = '<div class="text-red-600">Erreur : ' + err.message + '</div>';
+                quizIaResult.scrollTop = 0;
             }
         });
     }

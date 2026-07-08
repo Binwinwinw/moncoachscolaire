@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6ème - Série 48",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "description": "Diagnostic Anglais 6ème : Vocabulaire de base : phrases courantes pour parler de la voiture",
+    "status": "published",
+    "created_at": "2026-04-26T21:32:48.877769Z",
+    "updated_at": "2026-04-26T21:32:48.877769Z"
+  },
+  "quiz": {
+    "title": "Vocabulaire de base : phrases courantes pour parler de la voiture",
+    "type": "quiz",
+    "level": "6ème",
+    "subject": "Anglais",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English expression used to describe a car?",
+        "choices": [
+          "It's fast",
+          "It's slow",
+          "It's new",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English expression for 'C'est rapide' is 'It's fast'' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English expression used to describe a car when it's slow?",
+        "choices": [
+          "It's fast",
+          "It's slow",
+          "It's new",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English expression for 'C'est lent' is 'It's slow'' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English expression used to describe a car when it's new?",
+        "choices": [
+          "It's fast",
+          "It's slow",
+          "It's new",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English expression for 'C'est neuf' is 'It's new'' is a True statement."
+      },
+      {
+        "type": "qcm",
+        "question": "Which of the following is a common English expression used to describe a car when it's old?",
+        "choices": [
+          "It's fast",
+          "It's slow",
+          "It's old",
+          "All of the above"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "'The English expression for 'C'est vieux' is 'It's old'' is a True statement."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

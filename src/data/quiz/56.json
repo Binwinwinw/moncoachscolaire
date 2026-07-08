@@ -1,0 +1,87 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Mathématiques 6eme - Série 56",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "description": "Diagnostic Mathématiques 6eme : Comparaison et ordre des décimaux",
+    "status": "published",
+    "created_at": "2026-04-26T21:35:11.466904Z",
+    "updated_at": "2026-04-26T21:35:11.466904Z"
+  },
+  "quiz": {
+    "title": "Comparaison et ordre des décimaux",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Mathématiques",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quel est le plus grand nombre décimal parmi les suivants ?",
+        "choices": [
+          "0.1",
+          "0.01",
+          "0.001",
+          "0.0001"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Le nombre 0.5 est plus petit que le nombre 0.6."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le plus petit nombre décimal parmi les suivants ?",
+        "choices": [
+          "0.1",
+          "0.01",
+          "0.001",
+          "0.0001"
+        ]
+      },
+      {
+        "type": "qcm",
+        "question": "Quel nombre décimal est plus grand : 0.2 ou 0.19 ?",
+        "choices": [
+          "0.2",
+          "0.19",
+          "0.02",
+          "0.29"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "0.75 est plus grand que 0.705."
+      },
+      {
+        "type": "qcm",
+        "question": "Lequel de ces nombres décimaux est le plus proche de 1 ?",
+        "choices": [
+          "0.9",
+          "0.99",
+          "0.5",
+          "0.1"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "0.05 est plus grand que 0.005."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel nombre décimal est le plus petit ?",
+        "choices": [
+          "0.25",
+          "0.205",
+          "0.52",
+          "0.502"
+        ]
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

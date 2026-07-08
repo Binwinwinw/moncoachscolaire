@@ -13,43 +13,71 @@ require_once __DIR__ . '/../../includes/exercice_loader.php';
 if (is_file(__DIR__ . '/../../includes/login_security.php')) {
     require_once __DIR__ . '/../../includes/login_security.php';
 }
+require_once __DIR__ . '/../_core/bootstrap.php';
 
-if (($_SERVER['REQUEST_METHOD'] ?? 'GET') !== 'POST') {
-    http_response_code(405);
-    echo json_encode(['success' => false, 'error' => 'Méthode non autorisée']);
-    exit;
+api_require([
+    'method' => 'POST',
+    'auth' => true,
+    'csrf' => true,
+    'rate' => [
+        'key' => 'ai_save_quiz',
+        'limit' => 20,
+        'window' => 60,
+    ],
+]);
+
+$requestId = 'rq_' . date('YmdHis') . '_' . bin2hex(random_bytes(4));
+
+function normalizeDiagnosticLevel(string $level): string
+{
+    $normalized = strtolower(trim($level));
+    $normalized = str_replace(['é', 'è', 'ê'], 'e', $normalized);
+    $normalized = preg_replace('/\s+/', '', $normalized) ?? $normalized;
+
+    $map = [
+        '6eme' => '6eme',
+        '5eme' => '5eme',
+        '4eme' => '4eme',
+        '3eme' => '3eme',
+        'seconde' => '2nde',
+        '2nde' => '2nde',
+        'premiere' => '1ere',
+        '1ere' => '1ere',
+        'terminale' => 'terminale',
+        'bac' => 'bac',
+    ];
+
+    return $map[$normalized] ?? $normalized;
 }
 
-// Optionnel : restreindre aux utilisateurs connectés
-if (session_status() === PHP_SESSION_NONE) {
-    session_start();
-}
-if (empty($_SESSION['user_id'])) {
-    http_response_code(401);
-    echo json_encode(['success' => false, 'error' => 'Veuillez vous connecter pour sauvegarder un quiz.']);
-    exit;
+function findNextDiagnosticQuizId(string $quizDir, string $answersDir): int
+{
+    $maxId = 0;
+    foreach ([$quizDir, $answersDir] as $dir) {
+        if (!is_dir($dir)) {
+            continue;
+        }
+
+        $files = glob($dir . '/*.json');
+        if (!is_array($files)) {
+            continue;
+        }
+
+        foreach ($files as $path) {
+            $name = basename((string) $path, '.json');
+            if (ctype_digit($name)) {
+                $maxId = max($maxId, (int) $name);
+            }
+        }
+    }
+
+    return $maxId + 1;
 }
 
 try {
-    // Récupérer les données POST
-    $input = json_decode(file_get_contents('php://input'), true);
+    $input = api_get_json_body(true);
     if (!is_array($input)) {
         throw new Exception('JSON invalide.');
-    }
-
-    $csrfToken = (string) ($_SERVER['HTTP_X_CSRF_TOKEN'] ?? ($input['csrf_token'] ?? ''));
-    $csrfValid = function_exists('verifyCSRFToken')
-        ? verifyCSRFToken($csrfToken)
-        : (
-            isset($_SESSION['csrf_token'])
-            && $csrfToken !== ''
-            && hash_equals((string) $_SESSION['csrf_token'], $csrfToken)
-        );
-
-    if (!$csrfValid) {
-        http_response_code(403);
-        echo json_encode(['success' => false, 'error' => 'Jeton CSRF invalide.']);
-        exit;
     }
 
     $questions = $input['questions'] ?? [];
@@ -65,7 +93,8 @@ try {
     }
 
     global $pdo;
-    if (!$pdo) {
+    $pdoConnection = $pdo instanceof PDO ? $pdo : null;
+    if (!$pdoConnection instanceof PDO) {
         throw new Exception('Connexion à la base de données impossible.');
     }
 
@@ -83,32 +112,61 @@ try {
     }
 
     $insertedCount = 0;
-    $pdo->beginTransaction();
+    $diagnosticQuestions = [];
+    $diagnosticAnswers = [];
+    $createdFilePaths = [];
 
-    $stmt = $pdo->prepare("
-        INSERT INTO exercises (
-            Title, Content, Answer, Subject, Level,
-            AnswerType, Choices, is_active, created_at
+    $pdoConnection->beginTransaction();
+
+    $stmt = $pdoConnection->prepare(
+        "INSERT INTO `exercises` (
+            `Title`, `Content`, `Answer`, `Subject`, `Level`,
+            `AnswerType`, `Choices`, `is_active`, `created_at`
         ) VALUES (
             :title, :content, :answer, :subject, :level,
             'choix', :choices, 1, NOW()
-        )
-    ");
+        )"
+    );
 
     foreach ($questions as $index => $q) {
         $qText = $q['question'] ?? '';
         $choices = $q['choices'] ?? [];
         $correctKey = $q['correct'] ?? '';
 
-        if (empty($qText)) continue;
+        if (empty($qText)) {
+            continue;
+        }
 
         // Trouver le label de la réponse correcte
         $correctLabel = '';
         foreach ($choices as $choice) {
-            if ($choice['value'] === $correctKey) {
-                $correctLabel = $choice['label'];
+            if (!is_array($choice)) {
+                continue;
+            }
+
+            $choiceValue = (string) ($choice['value'] ?? '');
+            $choiceLabel = (string) ($choice['label'] ?? '');
+
+            if ($choiceValue === (string) $correctKey) {
+                $correctLabel = $choiceLabel;
                 break;
             }
+        }
+
+        $choiceLabels = [];
+        foreach ($choices as $choice) {
+            if (is_array($choice)) {
+                $label = trim((string) ($choice['label'] ?? ''));
+                if ($label !== '') {
+                    $choiceLabels[] = $label;
+                }
+            } elseif (is_string($choice) && trim($choice) !== '') {
+                $choiceLabels[] = trim($choice);
+            }
+        }
+
+        if (count($choiceLabels) < 2) {
+            continue;
         }
 
         $title = "Quiz IA - " . $subjectDB . " (" . $levelDB . ") - Q" . ($index + 1);
@@ -122,23 +180,131 @@ try {
             'choices' => json_encode($choices, JSON_UNESCAPED_UNICODE)
         ]);
 
+        $diagnosticQuestions[] = [
+            'id' => $index + 1,
+            'type' => 'qcm',
+            'question' => (string) $qText,
+            'choices' => array_values($choiceLabels),
+        ];
+
+        $diagnosticAnswers[] = [
+            'index' => $index,
+            'question_id' => $index + 1,
+            'type' => 'qcm',
+            'answer' => (string) $correctLabel,
+            'correction' => $correctLabel !== ''
+                ? ('La bonne réponse est : ' . $correctLabel)
+                : 'Correction indisponible',
+        ];
+
         $insertedCount++;
     }
 
-    $pdo->commit();
+    if ($insertedCount === 0 || count($diagnosticQuestions) === 0) {
+        throw new Exception('Aucune question valide à sauvegarder.');
+    }
 
-    echo json_encode([
+    $quizDir = dirname(__DIR__, 2) . '/data/quiz';
+    $answersDir = dirname(__DIR__, 2) . '/data/quiz_answers';
+
+    if (!is_dir($quizDir) || !is_dir($answersDir)) {
+        throw new Exception('Répertoires de quiz diagnostics introuvables.');
+    }
+
+    $diagnosticLevel = normalizeDiagnosticLevel((string) $levelDB);
+    $quizId = findNextDiagnosticQuizId($quizDir, $answersDir);
+    $isoNow = gmdate('c');
+    $quizTitle = 'Quiz IA ' . $subjectDB . ' - ' . $diagnosticLevel;
+
+    $quizPayload = [
+        'contents' => [
+            'title' => $quizTitle,
+            'type' => 'quiz',
+            'level' => $diagnosticLevel,
+            'subject' => $subjectDB,
+            'description' => 'Quiz diagnostique généré par IA',
+            'status' => 'published',
+            'created_at' => $isoNow,
+            'updated_at' => $isoNow,
+        ],
+        'quiz' => [
+            'title' => $quizTitle,
+            'type' => 'quiz',
+            'level' => $diagnosticLevel,
+            'subject' => $subjectDB,
+            'question_count' => count($diagnosticQuestions),
+            'passing_score' => 70,
+            'time_limit_minutes' => 15,
+            'questions' => $diagnosticQuestions,
+        ],
+        'exercisenotion' => [],
+        'exerciseresponses' => [],
+    ];
+
+    $answersPayload = [
+        'contents' => [
+            'title' => $quizTitle,
+            'level' => $diagnosticLevel,
+            'subject' => $subjectDB,
+        ],
+        'quiz' => [
+            'title' => $quizTitle,
+            'question_count' => count($diagnosticAnswers),
+            'level' => $diagnosticLevel,
+            'subject' => $subjectDB,
+            'answers' => $diagnosticAnswers,
+        ],
+    ];
+
+    $quizPath = $quizDir . '/' . $quizId . '.json';
+    $answersPath = $answersDir . '/' . $quizId . '.json';
+
+    $quizJson = json_encode($quizPayload, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
+    $answersJson = json_encode($answersPayload, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
+
+    if ($quizJson === false || $answersJson === false) {
+        throw new Exception('Impossible de sérialiser les fichiers quiz diagnostics.');
+    }
+
+    if (file_put_contents($quizPath, $quizJson . PHP_EOL) === false) {
+        throw new Exception('Impossible d\'écrire le fichier quiz diagnostic.');
+    }
+    $createdFilePaths[] = $quizPath;
+
+    if (file_put_contents($answersPath, $answersJson . PHP_EOL) === false) {
+        throw new Exception('Impossible d\'écrire le fichier réponses diagnostic.');
+    }
+    $createdFilePaths[] = $answersPath;
+
+    $pdoConnection->commit();
+
+    api_additive_response([
         'success' => true,
         'message' => "$insertedCount questions ont été ajoutées à la bibliothèque.",
-        'count' => $insertedCount
-    ]);
+        'count' => $insertedCount,
+        'data' => [
+            'count' => $insertedCount,
+            'subject' => $subjectDB,
+            'level' => $levelDB,
+            'diagnostic_quiz_id' => $quizId,
+        ],
+        'meta' => [
+            'request_id' => $requestId,
+            'saved_at' => date('c'),
+        ],
+    ], 200);
 
 } catch (Throwable $e) {
-    if (isset($pdo) && $pdo->inTransaction()) {
-        $pdo->rollBack();
+    if (isset($createdFilePaths) && is_array($createdFilePaths)) {
+        foreach ($createdFilePaths as $path) {
+            if (is_string($path) && is_file($path)) {
+                @unlink($path);
+            }
+        }
     }
-    echo json_encode([
-        'success' => false,
-        'error' => $e->getMessage()
-    ]);
+
+    if (isset($pdoConnection) && $pdoConnection instanceof PDO && $pdoConnection->inTransaction()) {
+        $pdoConnection->rollBack();
+    }
+    api_additive_error($e->getMessage(), 400, [], ['request_id' => $requestId]);
 }

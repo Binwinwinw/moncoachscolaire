@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 223",
+    "level": "6eme",
+    "subject": "Technologie"
+  },
+  "quiz": {
+    "title": "Réalisation et démarches.",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Technologie",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Tous les concepts mentionnés",
+        "correction": "Les concepts de base en réalisation et démarches comprennent la réalisation d'un projet, qui implique la mise en œuvre des étapes nécessaires pour concrétiser une idée ou un plan, la démarche de résolution de problèmes, qui est un processus structuré pour identifier, analyser, et résoudre des problèmes, et la collaboration en équipe, qui est essentielle pour travailler efficacement avec d'autres personnes pour atteindre des objectifs communs."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, la réalisation d'un projet implique la mise en œuvre des étapes nécessaires pour concrétiser une idée ou un plan, ce qui peut inclure la planification, l'exécution, et l'évaluation du projet."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "Ethernet, Wi-Fi, et Bluetooth sont tous des technologies de transmission qui peuvent être utilisées dans un réseau informatique au collège pour permettre la communication entre les appareils et l'accès à Internet."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Vrai, un pare-feu est un dispositif de sécurité qui peut être utilisé dans un réseau informatique au collège pour protéger contre les menaces en filtrant le trafic réseau et en bloquant les connexions non autorisées."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "TCP/IP, HTTP, et FTP sont tous des protocoles de communication qui peuvent être utilisés dans un réseau informatique au collège pour permettre la transmission de données et l'accès à des ressources en ligne."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, il existe une différence entre les différentes technologies de transmission utilisées dans un réseau informatique au collège en termes de leur portée, de leur vitesse, et de leur utilisation spécifique."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Tous les exemples mentionnés",
+        "correction": "Wireshark, Nagios, et SolarWinds sont tous des outils qui peuvent être utilisés pour surveiller et gérer un réseau informatique au collège, offrant des fonctionnalités pour analyser le trafic réseau, détecter les problèmes, et assurer la performance et la sécurité du réseau."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "Faux, tous les réseaux informatiques au collège ne sont pas les mêmes, car ils peuvent varier considérablement en fonction des technologies utilisées, des besoins spécifiques du collège, et des ressources disponibles."
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic EMC 6eme - Série 99",
+    "level": "6eme",
+    "subject": "EMC"
+  },
+  "quiz": {
+    "title": "EMC 6e - Les droits et devoirs des citoyens",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "EMC",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Le droit de vote, la liberté d'expression, le droit à l'éducation",
+        "correction": "Les trois droits fondamentaux des citoyens français sont le droit de vote, la liberté d'expression et le droit à l'éducation."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Le droit de vote est un droit fondamental pour tous les citoyens français majeurs, leur permettant de participer à la vie démocratique du pays."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Respecter les lois, payer des impôts, défendre la patrie",
+        "correction": "Les devoirs des citoyens français incluent le respect des lois, le paiement des impôts et la défense de la patrie en cas de besoin."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. La liberté d'expression est un droit fondamental qui permet aux citoyens français de s'exprimer librement, mais elle n'est pas absolue et peut être limitée dans certains cas (par exemple, pour protéger la sécurité nationale ou prévenir les discours haineux)."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "Aider les personnes en difficulté, respecter les différences, participer à la vie de la communauté",
+        "correction": "Le devoir de solidarité en France implique d'aider les personnes en difficulté, de respecter les différences et de participer à la vie de la communauté pour construire une société plus juste et inclusive."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "C'est vrai. Le droit à l'éducation est un droit fondamental pour tous les citoyens français, garantissant l'accès à une éducation de qualité pour tous les enfants."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "Respecter les lois, respecter les différences, participer à la vie de la communauté",
+        "correction": "Le devoir de respect en France implique de respecter les lois, de respecter les différences et de participer à la vie de la communauté pour vivre ensemble dans une société harmonieuse."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "faux",
+        "correction": "C'est faux. Le devoir de défendre la patrie est un devoir civique important, mais il n'est pas obligatoire pour tous les citoyens français. Cependant, en cas de besoin, les citoyens peuvent être appelés à défendre la patrie, notamment à travers le service militaire ou d'autres formes de service civique."
+      }
+    ]
+  }
+}

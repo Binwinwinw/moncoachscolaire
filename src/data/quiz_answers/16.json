@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6eme - Série 16",
+    "level": "6eme",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "musique : genres, instruments, artistes",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "Rock, Classical, and Hip-hop are all genres of music, each with its own unique style and characteristics."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The guitar is indeed a string instrument, as it produces sound by vibrating strings."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "Michael Jackson",
+        "correction": "Michael Jackson is widely known as the 'King of Pop' due to his significant influence on the music industry and his record-breaking achievements."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Ludwig van Beethoven was indeed a famous composer of classical music, known for his symphonies, sonatas, and concertos."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "The flute, saxophone, and trumpet are all wind instruments, as they produce sound by the vibration of air."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The Beatles were indeed a famous rock band from England, known for their influential music and cultural impact."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "Coachella, Glastonbury, and Lollapalooza are all famous music festivals that attract large audiences and feature a wide range of musical acts."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Madonna is widely known as the 'Queen of Pop' due to her significant influence on the music industry and her record-breaking achievements."
+      }
+    ]
+  }
+}

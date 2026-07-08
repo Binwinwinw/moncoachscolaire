@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Français 6eme - Série 187",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "description": "Diagnostic Français 6eme : Français 6e - Les valeurs de la poésie",
+    "status": "published",
+    "created_at": "2026-04-26T21:46:19.009769Z",
+    "updated_at": "2026-04-26T21:46:19.009769Z"
+  },
+  "quiz": {
+    "title": "Français 6e - Les valeurs de la poésie",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Français",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Qu'est-ce que la poésie ?",
+        "choices": [
+          "Un genre littéraire",
+          "Une figure de style",
+          "Une forme de communication",
+          "Une discipline scientifique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La Poésie peut être classée en plusieurs types, tels que la poésie lyrique, la poésie épique, la poésie dramatique, etc., en fonction de la manière dont elle exprime les émotions, les idées ou les expériences."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est le rôle de la poésie dans la communication ?",
+        "choices": [
+          "Elle n'a pas de rôle spécifique",
+          "Elle permet d'exprimer des affirmations",
+          "Elle permet d'exprimer des questions",
+          "Elle permet d'exprimer des émotions, des idées ou des expériences de manière artistique"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "L'utilisation correcte de la poésie est essentielle pour éviter les confusions et les erreurs dans la communication écrite, en assurant que les écrivains utilisent les formes de la poésie appropriées en fonction du contexte et du message qu'ils souhaitent transmettre, ce qui contribue à la clarté et à l'efficacité de la communication écrite."
+      },
+      {
+        "type": "qcm",
+        "question": "Lequel de ces titres n'est pas une Poésie?",
+        "choices": [
+          "La Nuit étoilée",
+          "Le Cid",
+          "Les Fleurs du mal",
+          "Le Petit Prince"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La poésie peut se chanter."
+      },
+      {
+        "type": "qcm",
+        "question": "Quel style de poésie n'a pas de rime ?",
+        "choices": [
+          "Poésie lyrique",
+          "Poésie épique",
+          "Poésie dramatique",
+          "Poésie en vers libres"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "La poésie a une composition particulière."
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

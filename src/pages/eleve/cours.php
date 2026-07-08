@@ -8,7 +8,6 @@
 // Protection session et config
 require_once __DIR__ . '/../../config/config.php';
 require_once __DIR__ . '/../../includes/level_access.php';
-require_once __DIR__ . '/../../includes/topbar.php';
 
 $page_title = 'Tous les cours - MonCoachScolaire';
 $page_css = 'cours.css';
@@ -27,7 +26,9 @@ $page_css = 'cours.css';
     <script>window.baseUrl = "/";</script>
 </head>
 <body class="bg-gradient-to-b from-amber-50 to-white min-h-screen flex flex-col">
-<?php include_once __DIR__ . '/../../includes/topbar.php'; ?>
+<?php if (empty($GLOBALS['__topbar_included']) && is_file(__DIR__ . '/../../includes/topbar.php')) {
+    include_once __DIR__ . '/../../includes/topbar.php';
+} ?>
 
 
 <main class="main-content page-exercices flex-1 flex flex-col items-center justify-center py-10 px-4 bg-blue-50">

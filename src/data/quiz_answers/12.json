@@ -1,0 +1,71 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Anglais 6eme - Série 12",
+    "level": "6eme",
+    "subject": "Anglais"
+  },
+  "quiz": {
+    "title": "histoire des arts : œuvres, artistes, mouvements artistiques",
+    "question_count": 8,
+    "level": "6eme",
+    "subject": "Anglais",
+    "answers": [
+      {
+        "index": 0,
+        "question_id": 1,
+        "type": "qcm",
+        "answer": "Leonardo da Vinci",
+        "correction": "The Mona Lisa was painted by Leonardo da Vinci."
+      },
+      {
+        "index": 1,
+        "question_id": 2,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "The Impressionist movement indeed emphasized the effects of light and color in art."
+      },
+      {
+        "index": 2,
+        "question_id": 3,
+        "type": "qcm",
+        "answer": "David",
+        "correction": "'David' is a famous sculpture created by Michelangelo."
+      },
+      {
+        "index": 3,
+        "question_id": 4,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Pablo Picasso was indeed a leading figure in the Cubist art movement, which he co-founded with Georges Braque."
+      },
+      {
+        "index": 4,
+        "question_id": 5,
+        "type": "qcm",
+        "answer": "The Last Supper",
+        "correction": "'The Last Supper' is a famous painting created by Leonardo da Vinci."
+      },
+      {
+        "index": 5,
+        "question_id": 6,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "Claude Monet was indeed known for his landscape paintings, particularly those depicting gardens and water lilies."
+      },
+      {
+        "index": 6,
+        "question_id": 7,
+        "type": "qcm",
+        "answer": "All of the above",
+        "correction": "Surrealism, Realism, and Abstract Expressionism are all recognized art movements in the history of art."
+      },
+      {
+        "index": 7,
+        "question_id": 8,
+        "type": "vrai-faux",
+        "answer": "vrai",
+        "correction": "'The Scream' is indeed a famous painting created by the Norwegian artist Edvard Munch."
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "contents": {
+    "title": "Quiz Diagnostic Technologie 6eme - SÃ©rie 240",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "description": "Diagnostic Technologie 6eme : Évolutions des besoins et innovations techniques.",
+    "status": "published",
+    "created_at": "2026-04-26 21:47:01",
+    "updated_at": "2026-04-26 21:47:01"
+  },
+  "quiz": {
+    "title": "Évolutions des besoins et innovations techniques.",
+    "type": "quiz",
+    "level": "6eme",
+    "subject": "Technologie",
+    "question_count": 8,
+    "passing_score": 70,
+    "time_limit_minutes": 15,
+    "questions": [
+      {
+        "type": "qcm",
+        "question": "Quels sont des concepts de base en évolutions des besoins et innovations techniques ?",
+        "choices": [
+          "Évolutions des besoins",
+          "Innovations techniques",
+          "Impact des évolutions des besoins sur les innovations techniques",
+          "Tous les concepts mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les évolutions des besoins font référence aux changements dans les attentes, les préférences, et les exigences des utilisateurs au fil du temps. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple d'innovation technique ?",
+        "choices": [
+          "Smartphones pour répondre à la demande croissante d'appareils mobiles polyvalents",
+          "Technologies d'énergie renouvelable pour répondre aux préoccupations croissantes concernant la durabilité",
+          "Applications de santé numérique pour répondre au besoin de solutions de santé personnalisées",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Les évolutions des besoins n'ont pas d'impact sur les innovations techniques. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple d'impact des évolutions des besoins sur les innovations techniques ?",
+        "choices": [
+          "L'évolution des besoins en matière de communication a conduit à l'innovation des smartphones et des applications de messagerie instantanée",
+          "L'évolution des besoins en matière de durabilité a conduit à l'innovation des technologies d'énergie renouvelable",
+          "L'évolution des besoins en matière de santé personnalisée a conduit à l'innovation des applications de santé numérique",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Il n'y a pas de relation entre les évolutions des besoins et les innovations techniques. Vrai ou Faux ?"
+      },
+      {
+        "type": "qcm",
+        "question": "Quel est un exemple d'outil utilisé pour suivre les évolutions des besoins et stimuler les innovations techniques ?",
+        "choices": [
+          "Les enquêtes et sondages auprès des utilisateurs",
+          "L'analyse des tendances du marché",
+          "Les groupes de discussion et interviews",
+          "Tous les exemples mentionnés"
+        ]
+      },
+      {
+        "type": "vrai-faux",
+        "question": "Tous les utilisateurs sont conscients de l'importance des évolutions des besoins et des innovations techniques. Vrai ou Faux ?"
+      }
+    ]
+  },
+  "exercisenotion": [],
+  "exerciseresponses": []
+}

@@ -30,6 +30,29 @@ if (!isset($pdo)) {
     }
 }
 
+if (!function_exists('get_theme_variant_by_level') && is_file($basePath . '/config/site_boot.php')) {
+    require_once $basePath . '/config/site_boot.php';
+}
+
+$college_theme = (is_array($GLOBALS['app_theme']['variant'] ?? null) && !empty($GLOBALS['app_theme']['variant']))
+    ? $GLOBALS['app_theme']['variant']
+    : (function_exists('get_theme_variant_by_level')
+        ? get_theme_variant_by_level('6eme')
+        : [
+        'title' => 'text-green-700',
+        'subtitle' => 'text-green-800',
+        'nav_primary' => 'bg-green-600 hover:bg-green-700 focus:ring-green-400',
+        'nav_secondary' => 'bg-green-500 hover:bg-green-600 focus:ring-green-300',
+        'nav_tertiary' => 'bg-green-400 hover:bg-green-500 focus:ring-green-200',
+        'nav_dashboard' => 'bg-green-800 hover:bg-green-900 focus:ring-green-400',
+        'soft_buttons' => [
+            'bg-green-50 text-green-700 hover:bg-green-100 focus:ring-green-300',
+            'bg-green-100 text-green-800 hover:bg-green-200 focus:ring-green-400',
+            'bg-green-200 text-green-900 hover:bg-green-300 focus:ring-green-500',
+            'bg-green-100 text-green-900 hover:bg-green-200 focus:ring-green-500',
+        ],
+    ]);
+
 // Charger le helper cours/exercices
 if (is_file($basePath . '/includes/course_markdown_loader.php')) {
     require_once $basePath . '/includes/course_markdown_loader.php';
@@ -165,17 +188,17 @@ if ($is_logged_in && ($is_college_level || $is_admin)) {
 ?>
     <div class="mb-6 flex flex-wrap justify-center gap-3">
         <a href="<?php echo function_exists('site_url') ? site_url('landingpage') : '/public/index.php'; ?>"
-            class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-[#e1e8e3] text-[#354f52] font-semibold shadow hover:bg-[#d4ded7] transition">
+            class="inline-flex items-center gap-2 px-6 py-3 rounded-xl <?php echo htmlspecialchars($college_theme['soft_buttons'][0]); ?> font-semibold shadow transition">
             🏠 Accueil
         </a>
             <?php if ($is_logged_in && ($is_college_level || $is_admin)): ?>
-                <a class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-[#52796f] text-white font-semibold shadow hover:bg-[#354f52] transition"
+                <a class="inline-flex items-center gap-2 px-6 py-3 rounded-xl <?php echo htmlspecialchars($college_theme['nav_primary']); ?> text-white font-semibold shadow transition"
                     href="<?php echo htmlspecialchars($exercises_url); ?>">🧩 Mes exercices</a>
-                <a class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-[#84a98c] text-white font-semibold shadow hover:bg-[#52796f] transition"
+                <a class="inline-flex items-center gap-2 px-6 py-3 rounded-xl <?php echo htmlspecialchars($college_theme['nav_secondary']); ?> text-white font-semibold shadow transition"
                     href="<?php echo htmlspecialchars($courses_url); ?>">📚 Mes cours</a>
-                <a class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-[#6b9080] text-white font-semibold shadow hover:bg-[#52796f] transition"
+                <a class="inline-flex items-center gap-2 px-6 py-3 rounded-xl <?php echo htmlspecialchars($college_theme['nav_tertiary']); ?> text-white font-semibold shadow transition"
                     href="<?php echo htmlspecialchars($quiz_url); ?>">🎯 Quiz du jour</a>
-                <a class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-[#2f3e46] text-white font-semibold shadow hover:bg-black transition"
+                <a class="inline-flex items-center gap-2 px-6 py-3 rounded-xl <?php echo htmlspecialchars($college_theme['nav_dashboard']); ?> text-white font-semibold shadow transition"
                     href="<?php echo htmlspecialchars($dashboard_url); ?>">📊 Mon dashboard</a>
             <?php endif; ?>
     </div>
@@ -197,10 +220,10 @@ if (is_file(dirname(__DIR__, 3) . '/includes/user_card.php')) {
                 Espace <strong>Administrateur</strong> – accès complet à tous les niveaux et ressources.
             </p>
         <?php elseif ($is_logged_in && $is_college_level): ?>
-            <h2 class="text-2xl font-bold text-[#2f3e46] mb-2">
+            <h2 class="text-2xl font-bold <?php echo htmlspecialchars($college_theme['title']); ?> mb-2">
                 Bienvenue <?php echo htmlspecialchars($user_name); ?> !
             </h2>
-            <p class="text-[#52796f]">
+            <p class="<?php echo htmlspecialchars($college_theme['subtitle']); ?>">
                 Ton espace <strong><?php echo htmlspecialchars($user_level_display); ?></strong> – ressources adaptées à ton niveau.
             </p>
         <?php elseif ($is_logged_in && !$is_college_level && !$is_admin): ?>
@@ -228,10 +251,10 @@ if (is_file(dirname(__DIR__, 3) . '/includes/user_card.php')) {
             <?php endif; ?>
         <?php else: ?>
             <div class="college-accueil-center mb-10 flex flex-col items-center">
-                <h1 class="text-4xl md:text-5xl font-extrabold text-[#2f3e46] mb-3 text-center drop-shadow">
+                <h1 class="text-4xl md:text-5xl font-extrabold <?php echo htmlspecialchars($college_theme['title']); ?> mb-3 text-center drop-shadow">
                     Bienvenue sur MonCoachScolaire Collège+ !
                 </h1>
-                <p class="text-base text-[#52796f] text-center max-w-2xl">
+                <p class="text-base <?php echo htmlspecialchars($college_theme['subtitle']); ?> text-center max-w-2xl">
                     Des ressources adaptées à ton niveau, pour progresser à ton rythme et atteindre tes objectifs sereinement.
                 </p>
             </div>
