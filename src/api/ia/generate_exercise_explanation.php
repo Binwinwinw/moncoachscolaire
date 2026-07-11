@@ -1,4 +1,5 @@
 <?php
+
 /**
  * API pour generer une explication pedagogique a partir d'une correction.
  */
@@ -490,16 +491,29 @@ if ($level === '' || $subject === '' || empty($incorrectItems)) {
 }
 
 try {
-    $allowedLevels = ['6eme', '5eme', '4eme', '3eme', '2nde', '1ere', 'terminale', 'bac', '6ème', '5ème', '4ème', '3ème'];
+    $allowedLevels = ['6eme', '5eme', '4eme', '3eme', '2nde', '1ere', 'terminale', 'bac', '6ème', '5ème', '4ème', '3ème', 'Seconde', 'Premiere', 'Terminale'];
     $allowedSubjects = [
-        'Mathematiques', 'Mathématiques', 'mathématiques', 'maths',
-        'Français', 'francais',
-        'Physique-Chimie', 'physique-chimie',
-        'SVT', 'svt',
-        'Histoire-Géographie', 'histoire-geographie', 'histoire', 'geographie',
-        'Anglais', 'anglais',
-        'Espagnol', 'espagnol',
-        'Philosophie', 'philosophie', 'philo'
+        'Mathematiques',
+        'Mathématiques',
+        'mathématiques',
+        'maths',
+        'Français',
+        'francais',
+        'Physique-Chimie',
+        'physique-chimie',
+        'SVT',
+        'svt',
+        'Histoire-Géographie',
+        'histoire-geographie',
+        'histoire',
+        'geographie',
+        'Anglais',
+        'anglais',
+        'Espagnol',
+        'espagnol',
+        'Philosophie',
+        'philosophie',
+        'philo'
     ];
 
     $levelFound = false;

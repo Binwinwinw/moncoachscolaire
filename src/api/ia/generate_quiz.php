@@ -1,4 +1,5 @@
 <?php
+
 /**
  * API pour la génération de Quiz par IA
  * Reçoit niveau et matière, retourne le HTML interactif
@@ -552,7 +553,8 @@ function evaluateArithmeticExpression(string $expression): ?float
             return null;
         }
 
-        while (!empty($operators)
+        while (
+            !empty($operators)
             && end($operators) !== '('
             && arithmeticOperatorPrecedence((string) end($operators)) >= arithmeticOperatorPrecedence((string) $token)
         ) {
@@ -766,16 +768,29 @@ if ($topic !== '') {
 
 try {
     // Autoriser uniquement les niveaux / matières reconnus pour limiter les erreurs et injections
-    $allowedLevels = ['6eme','5eme','4eme','3eme','2nde','1ere','terminale','bac','6ème','5ème','4ème','3ème'];
+    $allowedLevels = ['6eme', '5eme', '4eme', '3eme', '2nde', '1ere', 'terminale', 'bac', '6ème', '5ème', '4ème', '3ème', 'Seconde', 'Premiere', 'Terminale'];
     $allowedSubjects = [
-        'Mathematiques', 'Mathématiques', 'mathématiques', 'maths',
-        'Français', 'francais',
-        'Physique-Chimie', 'physique-chimie',
-        'SVT', 'svt',
-        'Histoire-Géographie', 'histoire-geographie', 'histoire', 'geographie',
-        'Anglais', 'anglais',
-        'Espagnol', 'espagnol',
-        'Philosophie', 'philosophie', 'philo'
+        'Mathematiques',
+        'Mathématiques',
+        'mathématiques',
+        'maths',
+        'Français',
+        'francais',
+        'Physique-Chimie',
+        'physique-chimie',
+        'SVT',
+        'svt',
+        'Histoire-Géographie',
+        'histoire-geographie',
+        'histoire',
+        'geographie',
+        'Anglais',
+        'anglais',
+        'Espagnol',
+        'espagnol',
+        'Philosophie',
+        'philosophie',
+        'philo'
     ];
 
     // Vérification souple (insensible à la casse)
@@ -872,7 +887,6 @@ try {
         'level' => $level,
         'provider_used' => $usedProvider,
     ]);
-
 } catch (Throwable $e) {
     $statusCode = 500;
 

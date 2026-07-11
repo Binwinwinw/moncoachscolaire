@@ -1,0 +1,70 @@
+{
+    "contents": {
+        "title": "Quiz IA Mathematiques - 1ere",
+        "type": "quiz",
+        "level": "1ere",
+        "subject": "Mathematiques",
+        "description": "Quiz diagnostique généré par IA",
+        "status": "published",
+        "created_at": "2026-07-11T05:58:04+00:00",
+        "updated_at": "2026-07-11T05:58:04+00:00"
+    },
+    "quiz": {
+        "title": "Quiz IA Mathematiques - 1ere",
+        "type": "quiz",
+        "level": "1ere",
+        "subject": "Mathematiques",
+        "question_count": 5,
+        "passing_score": 70,
+        "time_limit_minutes": 15,
+        "questions": [
+            {
+                "id": 1,
+                "type": "qcm",
+                "question": "L'équation 2x + 5 = 11 est-elle vraie pour x = 3 ?",
+                "choices": [
+                    "a) Vrai",
+                    "b) Faux"
+                ]
+            },
+            {
+                "id": 2,
+                "type": "qcm",
+                "question": "La fonction f(x) = x^2 + 2x - 3 est-elle une fonction linéaire ?",
+                "choices": [
+                    "a) Vrai",
+                    "b) Faux"
+                ]
+            },
+            {
+                "id": 3,
+                "type": "qcm",
+                "question": "Le nombre π est-il un nombre rationnel ?",
+                "choices": [
+                    "a) Vrai",
+                    "b) Faux"
+                ]
+            },
+            {
+                "id": 4,
+                "type": "qcm",
+                "question": "L'inégalité 2x - 3 > 5 est-elle équivalente à x > 4 ?",
+                "choices": [
+                    "a) Vrai",
+                    "b) Faux"
+                ]
+            },
+            {
+                "id": 5,
+                "type": "qcm",
+                "question": "La somme des angles intérieurs d'un triangle est-elle égale à 180 degrés ?",
+                "choices": [
+                    "a) Vrai",
+                    "b) Faux"
+                ]
+            }
+        ]
+    },
+    "exercisenotion": [],
+    "exerciseresponses": []
+}

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * API pour la génération de cours par IA (hub ?page=cours)
  * Contrat aligné sur generate_quiz.php : cours_html + alias quiz_html
@@ -9,6 +10,9 @@ require_once __DIR__ . '/../../includes/ai_course_generator.php';
 require_once __DIR__ . '/../../includes/exercice_loader.php';
 if (is_file(__DIR__ . '/../../includes/login_security.php')) {
     require_once __DIR__ . '/../../includes/login_security.php';
+}
+if (is_file(__DIR__ . '/../../includes/level_normalization.php')) {
+    require_once __DIR__ . '/../../includes/level_normalization.php';
 }
 require_once __DIR__ . '/../_core/bootstrap.php';
 
@@ -58,6 +62,30 @@ function coursNormalizeLevelForGenerator(string $level): string
     $normalized = $level;
     if (function_exists('normalize_school_level')) {
         $normalized = (string) normalize_school_level($level);
+    }
+
+    $normalized = trim((string) $normalized);
+    $ascii = @iconv('UTF-8', 'ASCII//TRANSLIT//IGNORE', $normalized);
+    if ($ascii === false) {
+        $ascii = $normalized;
+    }
+
+    $compact = strtolower(preg_replace('/[^a-z0-9]/i', '', (string) $ascii));
+    $aliases = [
+        '6eme' => '6eme',
+        '5eme' => '5eme',
+        '4eme' => '4eme',
+        '3eme' => '3eme',
+        'seconde' => '2nde',
+        '2nde' => '2nde',
+        'premiere' => '1ere',
+        '1ere' => '1ere',
+        'terminale' => 'terminale',
+        'bac' => 'bac',
+    ];
+
+    if (isset($aliases[$compact])) {
+        $normalized = $aliases[$compact];
     }
 
     return coursSanitizeInputString($normalized);
@@ -468,21 +496,35 @@ try {
 } catch (Throwable $levelResolveError) {
     logCoursAiMessage('[Cours AI] Level lock fallback: ' . $levelResolveError->getMessage(), true);
 }
-
+$level = coursNormalizeLevelForGenerator($level);
 if ($level === '' || $subject === '') {
     coursJsonResponse(['success' => false, 'error' => 'Niveau et matière requis'], 422);
 }
 
-$allowedLevels = ['6eme', '5eme', '4eme', '3eme', '2nde', '1ere', 'terminale', 'bac', '6ème', '5ème', '4ème', '3ème'];
+$allowedLevels = ['6eme', '5eme', '4eme', '3eme', '2nde', '1ere', 'terminale', 'bac', '6ème', '5ème', '4ème', '3ème', 'Seconde', 'Premiere', 'Terminale'];
 $allowedSubjects = [
-    'Mathematiques', 'Mathématiques', 'mathématiques', 'maths',
-    'Français', 'francais',
-    'Physique-Chimie', 'physique-chimie',
-    'SVT', 'svt',
-    'Histoire-Géographie', 'Histoire-Géo', 'histoire-geographie', 'histoire', 'geographie',
-    'Anglais', 'anglais',
-    'Espagnol', 'espagnol',
-    'Philosophie', 'philosophie', 'philo',
+    'Mathematiques',
+    'Mathématiques',
+    'mathématiques',
+    'maths',
+    'Français',
+    'francais',
+    'Physique-Chimie',
+    'physique-chimie',
+    'SVT',
+    'svt',
+    'Histoire-Géographie',
+    'Histoire-Géo',
+    'histoire-geographie',
+    'histoire',
+    'geographie',
+    'Anglais',
+    'anglais',
+    'Espagnol',
+    'espagnol',
+    'Philosophie',
+    'philosophie',
+    'philo',
 ];
 
 $levelFound = false;
@@ -502,6 +544,13 @@ foreach ($allowedSubjects as $allowedSubject) {
 }
 
 if (!$levelFound) {
+    $debugData = [
+        'received_level' => $data['level'] ?? $data['niveau'] ?? null,
+        'sanitized_level' => $level,
+        'normalized_level' => coursNormalizeLevelForGenerator($level),
+        'allowed_levels' => $allowedLevels,
+    ];
+    error_log('DEBUG generate_cours invalid level: ' . var_export($debugData, true));
     coursJsonResponse(['success' => false, 'error' => 'Niveau invalide'], 422);
 }
 if (!$subjectFound) {

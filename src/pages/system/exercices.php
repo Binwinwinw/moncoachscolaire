@@ -211,7 +211,23 @@ if (!$hide_topbar && file_exists(dirname(__DIR__, 2) . '/includes/topbar.php')) 
             <h2 class="mb-2 text-2xl font-bold text-slate-800">Choisis ta matière</h2>
             <p class="text-slate-600">Retrouve tes exercices par discipline pour cibler tes révisions.</p>
         </div>
-        <div id="matiere-list" class="flex flex-wrap gap-2 justify-center"></div>
+        <div id="matiere-list" class="flex flex-wrap gap-2 justify-center">
+            <?php
+            $defaultSubjects = [
+                'Mathématiques',
+                'Français',
+                'Physique-Chimie',
+                'SVT',
+                'Histoire-Géographie',
+                'Anglais',
+                'Espagnol',
+                'Philosophie',
+            ];
+            foreach ($defaultSubjects as $subject) {
+                echo '<button type="button" class="subject-filter-btn px-4 py-2 rounded-full bg-slate-100 text-slate-700 font-semibold shadow hover:bg-blue-100 transition" data-subject="' . htmlspecialchars($subject, ENT_QUOTES, 'UTF-8') . '">' . htmlspecialchars($subject, ENT_QUOTES, 'UTF-8') . '</button>';
+            }
+            ?>
+        </div>
     </section>
 
     <!-- Bloc exercice aléatoire principal -->
@@ -438,6 +454,15 @@ if (!$hide_topbar && file_exists(dirname(__DIR__, 2) . '/includes/topbar.php')) 
         const quizIaResult = document.getElementById('quiz-ia-result');
         const niveauInput = document.getElementById('quiz-niveau');
         const themeInput = document.getElementById('quiz-theme');
+
+        function normalizeExerciseSchoolLevel(level) {
+            let normalized = String(level || '').toLowerCase().replace(/é/g, 'e').replace(/è/g, 'e').replace(/ê/g, 'e');
+            if (normalized === 'seconde') return '2nde';
+            if (normalized === 'premiere' || normalized === 'premiere') return '1ere';
+            if (normalized === 'terminale') return 'terminale';
+            if (normalized === 'bac') return 'bac';
+            return normalized;
+        }
         const matiereInput = document.getElementById('quiz-matiere');
         const modalFooter = document.getElementById('modal-quiz-ia-footer');
         const btnSaveGeneratedQuiz = document.getElementById('btn-save-generated-quiz');
@@ -490,9 +515,9 @@ if (!$hide_topbar && file_exists(dirname(__DIR__, 2) . '/includes/topbar.php')) 
                 modalQuizIa.classList.remove('hidden');
                 showQuizForm();
 
-                const lockedLevel = String(
-                    window.EXERCICE_USER_LEVEL || window.__USER_LEVEL || window.userLevel || '',
-                ).trim();
+                const lockedLevel = normalizeExerciseSchoolLevel(
+                    String(window.EXERCICE_USER_LEVEL || window.__USER_LEVEL || window.userLevel || '').trim(),
+                );
 
                 if (niveauInput && lockedLevel) {
                     niveauInput.value = lockedLevel;
@@ -595,9 +620,9 @@ if (!$hide_topbar && file_exists(dirname(__DIR__, 2) . '/includes/topbar.php')) 
                 let type = formQuizIa.type.value.trim();
 
                 if (!niveau) {
-                    niveau = String(
-                        window.EXERCICE_USER_LEVEL || window.__USER_LEVEL || window.userLevel || '',
-                    ).trim();
+                    niveau = normalizeExerciseSchoolLevel(
+                        String(window.EXERCICE_USER_LEVEL || window.__USER_LEVEL || window.userLevel || '').trim(),
+                    );
                 }
 
                 // Si type n'est pas renseigné, on choisit un type aléatoire par défaut

@@ -1,0 +1,50 @@
+{
+    "contents": {
+        "title": "Quiz IA Mathematiques - 1ere",
+        "level": "1ere",
+        "subject": "Mathematiques"
+    },
+    "quiz": {
+        "title": "Quiz IA Mathematiques - 1ere",
+        "question_count": 5,
+        "level": "1ere",
+        "subject": "Mathematiques",
+        "answers": [
+            {
+                "index": 0,
+                "question_id": 1,
+                "type": "qcm",
+                "answer": "a) Vrai",
+                "correction": "La bonne réponse est : a) Vrai"
+            },
+            {
+                "index": 1,
+                "question_id": 2,
+                "type": "qcm",
+                "answer": "b) Faux",
+                "correction": "La bonne réponse est : b) Faux"
+            },
+            {
+                "index": 2,
+                "question_id": 3,
+                "type": "qcm",
+                "answer": "b) Faux",
+                "correction": "La bonne réponse est : b) Faux"
+            },
+            {
+                "index": 3,
+                "question_id": 4,
+                "type": "qcm",
+                "answer": "a) Vrai",
+                "correction": "La bonne réponse est : a) Vrai"
+            },
+            {
+                "index": 4,
+                "question_id": 5,
+                "type": "qcm",
+                "answer": "a) Vrai",
+                "correction": "La bonne réponse est : a) Vrai"
+            }
+        ]
+    }
+}

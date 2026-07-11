@@ -370,6 +370,15 @@ $niveau_normalise = strtr($niveau_normalise, [
         let lastGeneratedCourse = null;
         let savedCourseUrl = '';
 
+        function normalizeModalSchoolLevel(level) {
+            let normalized = String(level || '').toLowerCase().replace(/é/g, 'e').replace(/è/g, 'e').replace(/ê/g, 'e');
+            if (normalized === 'seconde') return '2nde';
+            if (normalized === 'premiere' || normalized === 'première') return '1ere';
+            if (normalized === 'terminale') return 'terminale';
+            if (normalized === 'bac') return 'bac';
+            return normalized;
+        }
+
         function setSaveButtonState(state, courseUrl = '') {
             if (!btnSave) return;
 
@@ -414,7 +423,7 @@ $niveau_normalise = strtr($niveau_normalise, [
             document.body.classList.add('modal-cours-ia-open');
 
             if (window.COURS_USER_LEVEL && document.getElementById('quiz-niveau')) {
-                const normalizedLevel = window.COURS_USER_LEVEL.toLowerCase().replace('é', 'e').replace('è', 'e');
+                const normalizedLevel = normalizeModalSchoolLevel(window.COURS_USER_LEVEL);
                 const niveauSelect = document.getElementById('quiz-niveau');
                 const hiddenNiveau = document.getElementById('quiz-niveau-hidden');
                 const matchingOption = niveauSelect.querySelector('option[value="' + normalizedLevel + '"]');
@@ -473,18 +482,51 @@ $niveau_normalise = strtr($niveau_normalise, [
                 return '';
             }
 
+            const baseUrl = (window.baseUrl || '').replace(/\/$/, '');
+            const normalizeUrl = (url) => {
+                if (typeof url !== 'string') {
+                    return '';
+                }
+                const trimmed = url.trim();
+                if (trimmed === '') {
+                    return '';
+                }
+                if (/^[a-zA-Z][a-zA-Z0-9+.-]*:/.test(trimmed)) {
+                    return trimmed;
+                }
+                if (trimmed.startsWith('/')) {
+                    if (trimmed.startsWith('/index.php') && baseUrl) {
+                        return `${baseUrl}${trimmed}`.replace(/\/\/+/g, '/');
+                    }
+                    return trimmed;
+                }
+                if (trimmed.startsWith('index.php')) {
+                    return `${baseUrl}/${trimmed}`.replace(/\/\/+/g, '/');
+                }
+                if (trimmed.startsWith('?')) {
+                    return `${baseUrl}/index.php${trimmed}`.replace(/\/\/+/g, '/');
+                }
+                return trimmed;
+            };
+
+            const candidateUrls = [];
             if (typeof saveData.course_url === 'string' && saveData.course_url.trim() !== '') {
-                return saveData.course_url.trim();
+                candidateUrls.push(saveData.course_url.trim());
+            }
+            if (saveData.data && typeof saveData.data.course_url === 'string' && saveData.data.course_url.trim() !== '') {
+                candidateUrls.push(saveData.data.course_url.trim());
             }
 
-            if (saveData.data && typeof saveData.data.course_url === 'string' && saveData.data.course_url.trim() !== '') {
-                return saveData.data.course_url.trim();
+            for (const url of candidateUrls) {
+                const resolved = normalizeUrl(url);
+                if (resolved !== '') {
+                    return resolved;
+                }
             }
 
             const courseId = saveData.course_id || (saveData.data && saveData.data.course_id);
             if (courseId) {
-                const baseUrl = window.baseUrl || '';
-                return `${baseUrl}/index.php?page=view_course&id=${encodeURIComponent(courseId)}`;
+                return `${baseUrl}/index.php?page=view_course&id=${encodeURIComponent(courseId)}`.replace(/\/\/+/g, '/');
             }
 
             return '';
@@ -552,7 +594,7 @@ $niveau_normalise = strtr($niveau_normalise, [
                 const hiddenNiveau = document.getElementById('quiz-niveau-hidden');
 
                 if (hiddenNiveau && hiddenNiveau.value) {
-                    niveau = hiddenNiveau.value.trim();
+                    niveau = normalizeModalSchoolLevel(hiddenNiveau.value.trim());
                 }
 
                 if (!niveau || !matiere) {
