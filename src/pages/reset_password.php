@@ -10,11 +10,12 @@ if (is_file(dirname(__DIR__, 2) . '/config/site_boot.php')) {
 if (!isset($pdo) || !$pdo) {
     require_once dirname(__DIR__, 2) . '/database/connection.php';
 }
-if (is_file(dirname(__DIR__, 2) . '/includes/login_security.php')) {
-    require_once dirname(__DIR__, 2) . '/includes/login_security.php';
+$rootIncludesDir = dirname(__DIR__) . '/includes';
+if (is_file($rootIncludesDir . '/login_security.php')) {
+    require_once $rootIncludesDir . '/login_security.php';
 }
-if (is_file(dirname(__DIR__, 2) . '/includes/security_logger.php')) {
-    require_once dirname(__DIR__, 2) . '/includes/security_logger.php';
+if (!function_exists('ensureSecurityLogger') && is_file($rootIncludesDir . '/security_logger.php')) {
+    require_once $rootIncludesDir . '/security_logger.php';
 }
 
 global $pdo;
@@ -135,12 +136,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $user) {
 }
 ?>
 
-<main class="min-h-screen flex items-center justify-center bg-gray-50 px-4 py-8">
-    <div class="max-w-md w-full bg-white rounded-xl shadow-xl p-8 mx-auto my-8">
-        <div class="text-center mb-8">
-            <h2 class="text-3xl font-bold text-blue-600 mb-2">🔒 Réinitialisation du mot de passe</h2>
-            <p class="text-gray-600 text-base">Choisis un nouveau mot de passe pour accéder à ton compte.</p>
-        </div>
+<main class="min-h-screen px-4 py-8 sm:px-6 lg:px-8">
+    <div class="mx-auto flex min-h-[calc(100vh-4rem)] w-full max-w-3xl items-center">
+        <div class="w-full rounded-[2rem] border border-slate-200/80 bg-white/95 p-6 shadow-[0_30px_80px_-30px_rgba(15,23,42,0.35)] backdrop-blur sm:p-8 lg:p-10">
+            <div class="text-center mb-8">
+                <div class="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl shadow-sm">🔒</div>
+                <h2 class="text-3xl font-bold text-blue-600 mb-2">Réinitialisation du mot de passe</h2>
+                <p class="text-gray-600 text-base">Choisis un nouveau mot de passe pour accéder à ton compte.</p>
+            </div>
         <?php if ($success): ?>
             <div class="bg-gradient-to-r from-green-50 to-green-100 border-2 border-green-500 rounded-lg p-4 mb-6 flex items-center gap-3 text-green-800">
                 <span class="text-xl">✅</span>
@@ -154,8 +157,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $user) {
                 <span class="text-xl">❌</span>
                 <span><?php echo htmlspecialchars($error); ?></span>
             </div>
-            <div class="text-center mt-8 pt-8 border-t border-gray-200">
-                <a href="<?php echo site_url('forgot_password'); ?>" class="text-blue-600 hover:text-blue-800 font-medium">&#8592; Refaire une demande</a>
+            <div class="mt-8 border-t border-gray-200 pt-8 text-center">
+                <a href="<?php echo site_url('forgot_password'); ?>" class="font-medium text-blue-600 transition hover:text-blue-800">&#8592; Refaire une demande</a>
             </div>
         <?php elseif ($user): ?>
             <form method="POST" class="flex flex-col gap-6" autocomplete="off" id="reset-form">
@@ -183,5 +186,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $user) {
                 </button>
             </form>
         <?php endif; ?>
+        </div>
     </div>
 </main>

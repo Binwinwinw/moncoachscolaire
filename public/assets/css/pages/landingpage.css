@@ -1,6 +1,8 @@
 /* --- MENU LANDINGPAGE --- */
 .landing-menu {
-    background: rgba(255, 255, 255, 0.92);
+    background: rgba(255, 255, 255, 0.78);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
     border-radius: 18px;
     box-shadow:
         0 6px 32px rgba(52, 144, 220, 0.1),
@@ -116,7 +118,7 @@
     text-align: center;
     padding: calc(var(--header-height, 72px) + 2.5rem) 1rem 3.5rem 1rem;
     /* Effet de flou comme le footer - permet de voir l'image de fond à travers */
-    background: rgba(255, 255, 255, 0.7);
+    background: transparent;
     border-radius: 12px;
     margin: 2rem auto;
     max-width: 1200px;
@@ -250,18 +252,23 @@
     transition: all 0.3s ease;
 }
 
-.infos .niveau-card:hover {
+.infos .niveau-card:hover,
+.intro .card-niveau:hover,
+.why-mcs .niveau-card:hover {
     transform: translateY(-6px);
     box-shadow: 0 18px 48px rgba(0, 0, 0, 0.14);
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.15);
 }
 
 /* Effet hover pour les cartes de la section intro (Collège+, Lycée+, BAC) */
-.intro .niveau-card {
+.intro .card-niveau {
     transition: all 0.3s ease;
     position: relative; /* nécessaire pour positionner le CTA */
     padding-top: 2.25rem; /* espace pour CTA flottant */
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 255, 0.68);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(203, 213, 225, 0.35);
 }
 
 .intro .niveau-card a.btn {
@@ -426,7 +433,7 @@
 /* Carte CTA Démo centrée */
 .demo-cta-card {
     /* Effet de flou comme le header et footer */
-    background: rgba(255, 255, 255, 0.7) !important;
+    background: none;
     border-radius: 12px;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px); /* Support Safari */
@@ -470,7 +477,7 @@
     font-size: clamp(1.5rem, 3.25vw, 2.25rem);
     letter-spacing: -0.02em;
     /* Effet de flou sur les titres de section */
-    background: rgba(255, 255, 255, 0.7);
+    background: transparent;
     border-radius: 8px;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -519,7 +526,14 @@
     align-items: start;
 }
 .why-mcs .niveau-card {
-    background: rgba(255, 247, 237, 0.9); /* léger tint amber pour la section */
+    background: rgba(
+        255,
+        247,
+        237,
+        0.62
+    ); /* léger tint amber pour la section */
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
     border-radius: 12px;
     padding: 1.5rem;
     box-shadow: 0 8px 24px rgba(9, 30, 66, 0.06);
@@ -568,7 +582,7 @@
 .demo-cta-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
-    background: rgba(255, 255, 255, 0.8) !important;
+    background: transparent !important;
 }
 
 /* Effet hover sur le titre et texte de la carte Démo */
@@ -639,7 +653,7 @@
 .niveau-cards-authenticated .niveau-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
-    background: rgba(255, 255, 255, 0.2);
+    background: transparent;
 }
 
 /* Style spécifique pour l'admin : 3 colonnes avec toutes les cartes visibles */
@@ -662,7 +676,7 @@
 .niveau-cards-admin .niveau-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
-    background: rgba(255, 255, 255, 0.2);
+    background: transparent;
 }
 
 /* Responsive pour les utilisateurs authentifiés */
@@ -700,7 +714,7 @@
     .landing-header {
         margin-top: 1rem;
         padding: 2rem 1rem 2.5rem 1rem;
-        background: rgba(255, 255, 255, 0.7);
+        background: transparent;
     }
 
     /* Ne pas forcer la transparence des sections globales ici — on utilisera un fond global en bas du fichier */
@@ -748,9 +762,24 @@ body.landing-page.app-bg {
         rgb(255 255 255 / 0%),
         rgb(255 255 255 / 0%)
     );
+    background-image: var(--page-bg-image) !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    background-color: transparent !important;
 }
 
 /* Même stratégie que login: ne jamais peindre un fond sur le conteneur principal */
-body.landing-page main {
-    background-color: transparent;
+body.landing-page main,
+.landingpage-main,
+body.landing-page main section,
+.landingpage-main section {
+    background: transparent !important;
+    background-image: none !important;
+}
+
+.landingpage-main {
+    position: relative;
+    z-index: 0;
 }

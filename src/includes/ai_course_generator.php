@@ -461,6 +461,81 @@ function saveCourseToDatabase($courseJson)
     return $pdo->lastInsertId();
 }
 
+function ensureAiRevisionsTableExists(): void
+{
+    global $pdo;
+
+    if (!$pdo instanceof PDO) {
+        return;
+    }
+
+    $sql = <<<SQL
+CREATE TABLE IF NOT EXISTS ai_revisions (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    UserId INT NOT NULL,
+    Type VARCHAR(20) NOT NULL,
+    Title VARCHAR(255) NOT NULL,
+    Subject VARCHAR(100) NOT NULL,
+    Level VARCHAR(50) NOT NULL,
+    CourseId INT DEFAULT NULL,
+    ExerciseIds TEXT DEFAULT NULL,
+    Metadata TEXT DEFAULT NULL,
+    CreatedAt DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    INDEX idx_ai_revisions_user (UserId),
+    INDEX idx_ai_revisions_type (Type)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+SQL;
+
+    $pdo->exec($sql);
+}
+
+function saveAiRevision(int $userId, string $type, string $title, string $subject, string $level, ?int $courseId = null, array $exerciseIds = [], array $metadata = []): int
+{
+    global $pdo;
+
+    if (!$pdo instanceof PDO) {
+        return 0;
+    }
+
+    ensureAiRevisionsTableExists();
+
+    $stmt = $pdo->prepare(
+        "INSERT INTO ai_revisions (UserId, Type, Title, Subject, Level, CourseId, ExerciseIds, Metadata) VALUES (:user_id, :type, :title, :subject, :level, :course_id, :exercise_ids, :metadata)"
+    );
+
+    $exerciseIdsJson = !empty($exerciseIds) ? json_encode(array_values($exerciseIds), JSON_UNESCAPED_UNICODE) : null;
+    $metadataJson = !empty($metadata) ? json_encode($metadata, JSON_UNESCAPED_UNICODE) : null;
+
+    $stmt->execute([
+        'user_id' => $userId,
+        'type' => $type,
+        'title' => $title,
+        'subject' => $subject,
+        'level' => $level,
+        'course_id' => $courseId,
+        'exercise_ids' => $exerciseIdsJson,
+        'metadata' => $metadataJson,
+    ]);
+
+    return (int) $pdo->lastInsertId();
+}
+
+function getAiRevisionsForUser(int $userId): array
+{
+    global $pdo;
+
+    if (!$pdo instanceof PDO) {
+        return [];
+    }
+
+    ensureAiRevisionsTableExists();
+
+    $stmt = $pdo->prepare("SELECT * FROM ai_revisions WHERE UserId = ? ORDER BY CreatedAt DESC");
+    $stmt->execute([$userId]);
+
+    return $stmt->fetchAll(PDO::FETCH_ASSOC) ?: [];
+}
+
 /**
  * Lie les exercices au cours
  */

@@ -21,7 +21,7 @@ if (!function_exists('coursesHasIsActive')) {
             return false;
         }
         try {
-            $stmt = $pdo->query("SHOW COLUMNS FROM Courses LIKE 'is_active'");
+            $stmt = $pdo->query("SHOW COLUMNS FROM courses LIKE 'is_active'");
             $cached = (bool) $stmt->fetch();
         } catch (PDOException $e) {
             $cached = false;
@@ -79,7 +79,7 @@ if (!function_exists('getCoursesByLevel')) {
             }
 
             $placeholders = implode(',', array_fill(0, count($levelVariants), '?'));
-            $sql = "SELECT * FROM Courses WHERE Level IN ($placeholders)";
+            $sql = "SELECT * FROM courses WHERE Level IN ($placeholders)";
             if (coursesHasIsActive()) {
                 $sql .= ' AND (is_active = 1 OR is_active IS NULL)';
             }
@@ -123,7 +123,7 @@ if (!function_exists('getCourseSubjectsByLevel')) {
         if ($pdo && !empty($levelVariants)) {
             try {
                 $placeholders = implode(',', array_fill(0, count($levelVariants), '?'));
-                $sql = "SELECT DISTINCT Subject FROM Courses WHERE Level IN ($placeholders)";
+                $sql = "SELECT DISTINCT Subject FROM courses WHERE Level IN ($placeholders)";
                 if (coursesHasIsActive()) {
                     $sql .= ' AND (is_active = 1 OR is_active IS NULL)';
                 }

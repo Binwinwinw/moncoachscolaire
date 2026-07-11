@@ -111,10 +111,11 @@ if (is_file(dirname(__DIR__, 2) . '/includes/topbar.php')) {
 }
 ?>
 
-<main class="max-w-7xl mx-auto my-8 p-6 rounded-2xl shadow-lg">
-    <header class="mb-8 border-b pb-4">
-        <h1 class="text-2xl font-bold text-slate-800 mb-2">Dashboard Administrateur</h1>
-        <p class="text-slate-600">Bienvenue <?php echo htmlspecialchars($adminName, ENT_QUOTES); ?>.</p>
+<main class="mx-auto my-8 max-w-7xl rounded-[2rem] border border-slate-200/70 bg-white/90 p-6 shadow-[0_24px_70px_-30px_rgba(15,23,42,0.28)] backdrop-blur-sm sm:p-8">
+    <header class="mb-8 rounded-[1.5rem] border border-slate-100 bg-slate-50/70 p-6">
+        <p class="text-sm font-semibold uppercase tracking-[0.2em] text-blue-700">Administration</p>
+        <h1 class="mt-2 text-2xl font-bold text-slate-900">Dashboard Administrateur</h1>
+        <p class="mt-2 text-slate-600">Bienvenue <?php echo htmlspecialchars($adminName, ENT_QUOTES); ?>.</p>
     </header>
 
     <!-- Modal Création/Édition Utilisateur -->
@@ -142,47 +143,47 @@ if (is_file(dirname(__DIR__, 2) . '/includes/topbar.php')) {
     </div>
 
     <!-- Navigation Admin -->
-    <nav class="admin-nav">
-        <button class="admin-nav-item active" data-section="overview">
-            <span class="nav-icon">📊</span>
-            Vue d'ensemble
+    <nav class="admin-nav mb-8 grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+        <button class="admin-nav-item active flex items-center gap-3 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 text-left text-sm font-semibold text-slate-700 shadow-sm transition hover:border-blue-200 hover:bg-blue-50" data-section="overview">
+            <span class="text-lg">📊</span>
+            <span>Vue d'ensemble</span>
         </button>
-        <button class="admin-nav-item" data-section="exercises">
-            <span class="nav-icon">📚</span>
-            Gestion des Exercices
+        <button class="admin-nav-item flex items-center gap-3 rounded-2xl border border-slate-200 bg-white px-4 py-3 text-left text-sm font-semibold text-slate-700 shadow-sm transition hover:border-blue-200 hover:bg-blue-50" data-section="exercises">
+            <span class="text-lg">📚</span>
+            <span>Gestion des Exercices</span>
         </button>
-        <button class="admin-nav-item" data-section="quality">
-            <span class="nav-icon">🛡️</span>
-            Qualité exercices
+        <button class="admin-nav-item flex items-center gap-3 rounded-2xl border border-slate-200 bg-white px-4 py-3 text-left text-sm font-semibold text-slate-700 shadow-sm transition hover:border-blue-200 hover:bg-blue-50" data-section="quality">
+            <span class="text-lg">🛡️</span>
+            <span>Qualité exercices</span>
         </button>
-        <button class="admin-nav-item" data-section="users">
-            <span class="nav-icon">👥</span>
-            Utilisateurs
+        <button class="admin-nav-item flex items-center gap-3 rounded-2xl border border-slate-200 bg-white px-4 py-3 text-left text-sm font-semibold text-slate-700 shadow-sm transition hover:border-blue-200 hover:bg-blue-50" data-section="users">
+            <span class="text-lg">👥</span>
+            <span>Utilisateurs</span>
         </button>
-        <button class="admin-nav-item" data-section="logs">
-            <span class="nav-icon">📝</span>
-            Logs
+        <button class="admin-nav-item flex items-center gap-3 rounded-2xl border border-slate-200 bg-white px-4 py-3 text-left text-sm font-semibold text-slate-700 shadow-sm transition hover:border-blue-200 hover:bg-blue-50" data-section="logs">
+            <span class="text-lg">📝</span>
+            <span>Logs</span>
         </button>
-        <button class="admin-nav-item" data-section="debug">
-            <span class="nav-icon">🔧</span>
-            Debug
+        <button class="admin-nav-item flex items-center gap-3 rounded-2xl border border-slate-200 bg-white px-4 py-3 text-left text-sm font-semibold text-slate-700 shadow-sm transition hover:border-blue-200 hover:bg-blue-50" data-section="debug">
+            <span class="text-lg">🔧</span>
+            <span>Debug</span>
         </button>
-        <button class="admin-nav-item" data-section="parents">
-            <span class="nav-icon">👨‍👩‍👧‍👦</span>
-            Parents-Élèves
+        <button class="admin-nav-item flex items-center gap-3 rounded-2xl border border-slate-200 bg-white px-4 py-3 text-left text-sm font-semibold text-slate-700 shadow-sm transition hover:border-blue-200 hover:bg-blue-50" data-section="parents">
+            <span class="text-lg">👨‍👩‍👧‍👦</span>
+            <span>Parents-Élèves</span>
         </button>
-        <button class="admin-nav-item" data-section="export">
-            <span class="nav-icon">📤</span>
-            Export avancé
+        <button class="admin-nav-item flex items-center gap-3 rounded-2xl border border-slate-200 bg-white px-4 py-3 text-left text-sm font-semibold text-slate-700 shadow-sm transition hover:border-blue-200 hover:bg-blue-50" data-section="export">
+            <span class="text-lg">📤</span>
+            <span>Export avancé</span>
         </button>
-        <button class="admin-nav-item" data-section="system">
-            <span class="nav-icon">💻</span>
-            Système
+        <button class="admin-nav-item flex items-center gap-3 rounded-2xl border border-slate-200 bg-white px-4 py-3 text-left text-sm font-semibold text-slate-700 shadow-sm transition hover:border-blue-200 hover:bg-blue-50" data-section="system">
+            <span class="text-lg">💻</span>
+            <span>Système</span>
         </button>
     </nav>
 
     <!-- Contenu Principal -->
-    <div class="admin-content">
+    <div class="admin-content space-y-6">
 
         <!-- Section: Gestion des Exercices (NOUVEAU) -->
         <?php

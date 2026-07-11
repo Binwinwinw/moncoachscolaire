@@ -352,18 +352,20 @@ if (is_file(__DIR__ . '/../includes/topbar.php')) {
     include_once __DIR__ . '/../includes/topbar.php';
 }
 ?>
-<main class="min-h-screen bg-transparent flex items-center justify-center px-4 py-8">
-    <div class="max-w-4xl w-full bg-white/95 rounded-xl shadow-xl p-8">
-        <div class="text-center mb-8">
-            <h1 class="text-3xl font-bold text-blue-600 mb-2">✨ Créer un compte</h1>
-            <p class="text-gray-600 text-lg">
-                Rejoins la communauté
-                <a href="<?php echo site_url('landingpage'); ?>" class="text-blue-600 hover:text-blue-800">
-                    MonCoachScolaire
-                </a>
-                et commence ton aventure éducative !
-            </p>
-        </div>
+<main class="min-h-screen px-4 py-8 sm:px-6 lg:px-8">
+    <div class="mx-auto flex min-h-[calc(100vh-4rem)] w-full max-w-5xl items-center">
+        <div class="w-full rounded-[2rem] border border-slate-200/80 bg-white/95 p-6 shadow-[0_30px_80px_-30px_rgba(15,23,42,0.35)] backdrop-blur sm:p-8 lg:p-10">
+            <div class="text-center mb-8">
+                <div class="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-emerald-50 text-2xl shadow-sm">✨</div>
+                <h1 class="text-3xl font-bold text-blue-600 mb-2">Créer un compte</h1>
+                <p class="text-gray-600 text-lg">
+                    Rejoins la communauté
+                    <a href="<?php echo site_url('landingpage'); ?>" class="font-semibold text-blue-600 transition hover:text-blue-800">
+                        MonCoachScolaire
+                    </a>
+                    et commence ton aventure éducative !
+                </p>
+            </div>
 
         <?php if (!empty($error)): ?>
             <div class="bg-red-50 border-l-4 border-red-500 text-red-700 p-4 mb-6 rounded-lg" role="alert">
@@ -605,6 +607,7 @@ if (is_file(__DIR__ . '/../includes/topbar.php')) {
                 </div>
             </div>
         <?php endif; ?>
+        </div>
     </div>
 </main>
 

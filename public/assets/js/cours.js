@@ -1,6 +1,38 @@
 // Hub cours — miroir de exercices.js (bloc aléatoire + visiteur)
 
 document.addEventListener("DOMContentLoaded", function () {
+    function normalizeLevelKey(level) {
+        if (!level) return "";
+        const normalized = String(level)
+            .toLowerCase()
+            .trim()
+            .replace(/\s+/g, "")
+            .normalize("NFKD")
+            .replace(/[\u0300-\u036f]/g, "");
+        const aliases = {
+            "6me": "6eme",
+            "6ème": "6eme",
+            "6eme": "6eme",
+            "5me": "5eme",
+            "5ème": "5eme",
+            "5eme": "5eme",
+            "4me": "4eme",
+            "4ème": "4eme",
+            "4eme": "4eme",
+            "3me": "3eme",
+            "3ème": "3eme",
+            "3eme": "3eme",
+            "2nde": "2nde",
+            seconde: "2nde",
+            "1ere": "1ere",
+            "1ère": "1ere",
+            premiere: "1ere",
+            terminale: "terminale",
+            bac: "bac",
+        };
+        return aliases[normalized] || normalized;
+    }
+
     const matieresParNiveau = {
         "6eme": [
             "Mathématiques",
@@ -132,13 +164,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
         fetch(url)
             .then((r) =>
-                r.clone().text().then((raw) => {
-                    try {
-                        return JSON.parse(raw);
-                    } catch (e) {
-                        throw e;
-                    }
-                }),
+                r
+                    .clone()
+                    .text()
+                    .then((raw) => {
+                        try {
+                            return JSON.parse(raw);
+                        } catch (e) {
+                            throw e;
+                        }
+                    }),
             )
             .then((data) => {
                 let cours = [];
@@ -157,8 +192,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     return;
                 }
 
-                const picked =
-                    cours[Math.floor(Math.random() * cours.length)];
+                const picked = cours[Math.floor(Math.random() * cours.length)];
                 const courseId = picked.Id || picked.id;
                 const htmlUrl = `${baseUrl}/index.php?page=api/cours/get_cours&action=cours_html&id=${courseId}`;
 
@@ -225,8 +259,14 @@ document.addEventListener("DOMContentLoaded", function () {
         if (niveauSection) niveauSection.style.display = "none";
     }
 
-    if (window.COURS_USER_LEVEL && matiereList) {
-        userLevel = window.COURS_USER_LEVEL;
+    const resolvedUserLevel = normalizeLevelKey(
+        window.COURS_USER_LEVEL ||
+            window.__USER_LEVEL ||
+            window.userLevel ||
+            "",
+    );
+    if (resolvedUserLevel && matiereList) {
+        userLevel = resolvedUserLevel;
         matiereList.innerHTML = "";
         (matieresParNiveau[userLevel] || []).forEach((matiere) => {
             const mBtn = document.createElement("button");

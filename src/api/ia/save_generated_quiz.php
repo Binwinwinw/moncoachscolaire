@@ -9,6 +9,7 @@ ini_set('display_errors', 0);
 error_reporting(0);
 
 require_once __DIR__ . '/../../config/config.php';
+require_once __DIR__ . '/../../includes/ai_course_generator.php';
 require_once __DIR__ . '/../../includes/exercice_loader.php';
 if (is_file(__DIR__ . '/../../includes/login_security.php')) {
     require_once __DIR__ . '/../../includes/login_security.php';
@@ -115,6 +116,7 @@ try {
     $diagnosticQuestions = [];
     $diagnosticAnswers = [];
     $createdFilePaths = [];
+    $savedExerciseIds = [];
 
     $pdoConnection->beginTransaction();
 
@@ -179,6 +181,8 @@ try {
             'level' => $levelDB,
             'choices' => json_encode($choices, JSON_UNESCAPED_UNICODE)
         ]);
+
+        $savedExerciseIds[] = (int) $pdoConnection->lastInsertId();
 
         $diagnosticQuestions[] = [
             'id' => $index + 1,
@@ -278,22 +282,52 @@ try {
 
     $pdoConnection->commit();
 
+    $revisionId = 0;
+    try {
+        if (!empty($_SESSION['user_id']) && function_exists('saveAiRevision')) {
+            $revisionId = saveAiRevision(
+                (int) $_SESSION['user_id'],
+                'quiz',
+                'Quiz IA ' . $subjectDB . ' - ' . $levelDB,
+                $subjectDB,
+                $levelDB,
+                null,
+                $savedExerciseIds,
+                ['source' => 'save_generated_quiz', 'diagnostic_quiz_id' => $quizId]
+            );
+        }
+    } catch (Throwable $revisionError) {
+        error_log('ai_revision save error: ' . $revisionError->getMessage());
+    }
+
+    $exerciseUrl = '';
+    if (!empty($savedExerciseIds)) {
+        $firstExerciseId = (int) $savedExerciseIds[0];
+        $exerciseUrl = function_exists('site_url')
+            ? site_url('view_exercise', ['id' => $firstExerciseId])
+            : 'index.php?page=view_exercise&id=' . $firstExerciseId;
+    }
+
     api_additive_response([
         'success' => true,
         'message' => "$insertedCount questions ont été ajoutées à la bibliothèque.",
         'count' => $insertedCount,
+        'revision_id' => $revisionId,
+        'exercise_url' => $exerciseUrl,
         'data' => [
             'count' => $insertedCount,
             'subject' => $subjectDB,
             'level' => $levelDB,
             'diagnostic_quiz_id' => $quizId,
+            'exercise_ids' => $savedExerciseIds,
+            'revision_id' => $revisionId,
+            'exercise_url' => $exerciseUrl,
         ],
         'meta' => [
             'request_id' => $requestId,
             'saved_at' => date('c'),
         ],
     ], 200);
-
 } catch (Throwable $e) {
     if (isset($createdFilePaths) && is_array($createdFilePaths)) {
         foreach ($createdFilePaths as $path) {

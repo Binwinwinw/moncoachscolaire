@@ -553,12 +553,14 @@ if (is_file(__DIR__ . '/../includes/topbar.php')) {
 }
 ?>
 
-<main class="min-h-screen bg-transparent flex items-center justify-center px-4 py-8">
-    <div class="max-w-md w-full bg-white rounded-xl shadow-xl p-8 mx-auto my-8">
-        <div class="text-center mb-8">
-            <h1 class="text-3xl font-bold text-blue-600 mb-2">🔐 Connexion</h1>
-            <p class="text-gray-600 text-lg">Accède à ton espace personnel <a href="<?php echo site_url('landingpage'); ?>" class="text-blue-600 hover:text-blue-800">MonCoachScolaire</a></p>
-        </div>
+<main class="min-h-screen bg-[radial-gradient(circle_at_top,_rgba(59,130,246,0.12),_transparent_55%),linear-gradient(135deg,_#f8fbff_0%,_#eef4ff_100%)] px-4 py-8 sm:px-6 lg:px-8">
+    <div class="mx-auto flex min-h-[calc(100vh-4rem)] w-full max-w-4xl items-center">
+        <div class="w-full rounded-[2rem] border border-slate-200/80 bg-white/95 p-6 shadow-[0_30px_80px_-30px_rgba(15,23,42,0.35)] backdrop-blur sm:p-8 lg:p-10">
+            <div class="text-center mb-8">
+                <div class="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-blue-50 text-2xl shadow-sm">🔐</div>
+                <h1 class="text-3xl font-bold text-blue-600 mb-2">Connexion</h1>
+                <p class="text-gray-600 text-lg">Accède à ton espace personnel <a href="<?php echo site_url('landingpage'); ?>" class="font-semibold text-blue-600 transition hover:text-blue-800">MonCoachScolaire</a></p>
+            </div>
 
         <div class="text-center p-4 bg-blue-50 rounded-lg mb-6">
             <p class="text-blue-800 text-sm mb-0">
@@ -641,9 +643,10 @@ if (is_file(__DIR__ . '/../includes/topbar.php')) {
             </button>
         </form>
 
-        <div class="text-center mt-8 pt-8 border-t border-gray-200">
-            <a href="<?php echo site_url('forgot_password'); ?>" class="text-blue-600 hover:text-blue-800 font-medium mr-4">🔑 Mot de passe oublié&nbsp;?</a><br>
-            <a href="<?php echo site_url('register'); ?>" class="text-blue-600 hover:text-blue-800 font-medium">✨ Pas encore de compte ? S'inscrire</a>
+        <div class="mt-8 border-t border-gray-200 pt-8 text-center">
+            <a href="<?php echo site_url('forgot_password'); ?>" class="mr-4 font-medium text-blue-600 transition hover:text-blue-800">🔑 Mot de passe oublié&nbsp;?</a><br>
+            <a href="<?php echo site_url('register'); ?>" class="font-medium text-blue-600 transition hover:text-blue-800">✨ Pas encore de compte ? S'inscrire</a>
+        </div>
         </div>
     </div>
 </main>

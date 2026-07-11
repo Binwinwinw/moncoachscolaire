@@ -10,6 +10,7 @@ This project is indexed by GitNexus as **moncoachscolaire** (9 symbols, 0 relati
 
 - **MUST run impact analysis before editing any symbol.** Before modifying a function, class, or method, run `gitnexus_impact({target: "symbolName", direction: "upstream"})` and report the blast radius (direct callers, affected processes, risk level) to the user.
 - **MUST run `gitnexus_detect_changes()` before committing** to verify your changes only affect expected symbols and execution flows.
+- **MUST run targeted Playwright tests for affected UI/workflow areas** after making code changes, before finalizing the work.
 - **MUST warn the user** if impact analysis returns HIGH or CRITICAL risk before proceeding with edits.
 - When exploring unfamiliar code, use `gitnexus_query({query: "concept"})` to find execution flows instead of grepping. It returns process-grouped results ranked by relevance.
 - When you need full context on a specific symbol — callers, callees, which execution flows it participates in — use `gitnexus_context({name: "symbolName"})`.
@@ -70,6 +71,7 @@ Before completing any code modification task, verify:
 2. No HIGH/CRITICAL risk warnings were ignored
 3. `gitnexus_detect_changes()` confirms changes match expected scope
 4. All d=1 (WILL BREAK) dependents were updated
+5. Relevant targeted Playwright test(s) were executed for UI/workflow changes
 
 ## Keeping the Index Fresh
 

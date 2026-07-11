@@ -10,11 +10,11 @@ if (session_status() === PHP_SESSION_NONE) {
 $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
 ?>
 
-<main class="main-content min-h-screen bg-gray-50">
+<main class="main-content min-h-screen">
     <?php
 ?>
 
-    <div class="max-w-7xl mx-auto px-4 py-8">
+    <div class="mx-auto flex w-full max-w-7xl flex-col gap-6 px-4 py-8 sm:px-6 lg:px-8">
                 <?php
         $header_nav = [
             ['href' => site_url('cours', ['niveau' => 'seconde']), 'label' => 'Cours Seconde', 'icon' => '📚', 'tone' => 'primary'],
@@ -123,7 +123,7 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
 
 
         <!-- Contenu COMPLET pour les utilisateurs connectés -->
-        <div class="bg-emerald-50 border border-emerald-200 rounded-lg p-6 mb-6">
+        <div class="rounded-[1.75rem] border border-emerald-200/70 bg-white/85 p-6 shadow-[0_20px_60px_-24px_rgba(16,185,129,0.25)] backdrop-blur">
             <strong class="text-emerald-800">👋 Salut  ! C'est ton Coach Scolaire qui te parle !</strong><br>
             <strong class="text-emerald-900">🎭 Thème Narratif : L'Exploration des Horizons du Savoir</strong><br>
             <span class="text-emerald-700">Bienvenue, jeune Maître en Formation ! Tu entres dans une nouvelle dimension d'apprentissage.
@@ -143,7 +143,7 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
         </div>
 
     <!-- NOUVEAU SYSTÈME DYNAMIQUE D'EXERCICES -->
-    <section class="bg-white rounded-xl shadow-lg p-6" id="dynamic-exercises-section">
+    <section class="rounded-[1.75rem] border border-slate-200/70 bg-white/90 p-6 shadow-[0_20px_60px_-24px_rgba(15,23,42,0.2)] backdrop-blur" id="dynamic-exercises-section">
         <div class="dynamic-exercises-container" data-dynamic-exercises data-level="Seconde"></div>
     </section>
 

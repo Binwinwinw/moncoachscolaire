@@ -68,22 +68,28 @@ if (isset($_GET['user_id'])) {
         // Pas de vérification nécessaire
     } elseif (!empty($_SESSION['parent_id'])) {
         // Parent : vérifier que l'enfant appartient bien au parent (via ParentId dans users)
-        try {
-            $checkStmt = $pdo->prepare("
-                SELECT COUNT(*) as count
-                FROM users
-                WHERE Id = ? AND ParentId = ? AND Role = 'student'
-            ");
-            $checkStmt->execute([$userId, $_SESSION['parent_id']]);
-            $check = $checkStmt->fetch();
+        if (isset($pdo) && $pdo instanceof PDO) {
+            try {
+                $checkStmt = $pdo->prepare("
+                    SELECT COUNT(*) as count
+                    FROM users
+                    WHERE Id = ? AND ParentId = ? AND Role = 'student'
+                ");
+                $checkStmt->execute([$userId, $_SESSION['parent_id']]);
+                $check = $checkStmt->fetch();
 
-            if ($check['count'] == 0) {
-                // L'enfant n'appartient pas à ce parent
+                if (($check['count'] ?? 0) == 0) {
+                    // L'enfant n'appartient pas à ce parent
+                    header('Location: ' . site_url('parents/dashboard_parent'));
+                    exit;
+                }
+            } catch (Exception $e) {
+                error_log("Erreur vérification parent-enfant: " . $e->getMessage());
                 header('Location: ' . site_url('parents/dashboard_parent'));
                 exit;
             }
-        } catch (Exception $e) {
-            error_log("Erreur vérification parent-enfant: " . $e->getMessage());
+        } else {
+            error_log('progression.php: connexion PDO indisponible pour la vérification parent-enfant.');
             header('Location: ' . site_url('parents/dashboard_parent'));
             exit;
         }
@@ -163,23 +169,21 @@ if (!empty($_SESSION['parent_id'])) {
     }
 }
 ?>
-<main class="max-w-7xl mx-auto px-4 py-8">
+<main class="mx-auto flex max-w-7xl flex-col gap-6 px-4 py-6 md:px-6 lg:px-8">
     <?php
     // Bouton de retour contextuel
     if (!empty($_SESSION['parent_id'])) {
-        // Parent connecté : retour au dashboard parent
-        echo '<a href="' . site_url('parents/dashboard_parent') . '" class="inline-block mb-6 px-6 py-3 rounded-xl bg-slate-100 text-slate-700 font-semibold shadow hover:bg-slate-200 transition">← Retour au tableau de bord parent</a>';
+        echo '<a href="' . site_url('parents/dashboard_parent') . '" class="inline-flex w-fit items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-700 shadow-sm transition hover:bg-slate-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-slate-500 focus-visible:ring-offset-2">← Retour au tableau de bord parent</a>';
     } else {
-        // Élève connecté : retour au dashboard élève
-        echo '<a href="' . site_url('eleve/dashboard') . '" class="inline-block mb-6 px-6 py-3 rounded-xl bg-slate-100 text-slate-700 font-semibold shadow hover:bg-slate-200 transition">← Retour à mon espace</a>';
+        echo '<a href="' . site_url('eleve/dashboard') . '" class="inline-flex w-fit items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-700 shadow-sm transition hover:bg-slate-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-slate-500 focus-visible:ring-offset-2">← Retour à mon espace</a>';
     }
 ?>
-    <div class="bg-gradient-to-br from-blue-500 to-purple-600 rounded-3xl p-8 text-white shadow-2xl">
-        <div class="text-center mb-8">
-            <h1 class="text-4xl font-bold mb-2 text-shadow-lg">🔬 Le Labo des Génies</h1>
-            <p class="text-xl opacity-90 mb-8">Transforme-toi en scientifique et découvre les secrets de la connaissance</p>
+    <div class="rounded-[2rem] bg-gradient-to-br from-slate-900 via-blue-800 to-purple-700 p-8 text-white shadow-2xl">
+        <div class="mb-8 text-center">
+            <h1 class="mb-3 text-4xl font-bold sm:text-5xl">🔬 Le Labo des Génies</h1>
+            <p class="mb-8 text-lg text-slate-100">Transforme-toi en scientifique et découvre les secrets de la connaissance</p>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+            <div class="mb-8 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4">
                 <div class="bg-white/15 backdrop-blur-md rounded-2xl p-6 text-center border-2 border-white/20 transition-all duration-300 hover:transform hover:-translate-y-1 hover:shadow-xl">
                     <div class="text-sm opacity-90 mb-2 uppercase tracking-wider">Niveau Actuel</div>
                     <div class="text-3xl font-bold mb-2" id="current-level"><?php echo htmlspecialchars($levelName); ?></div>
@@ -208,7 +212,7 @@ if (!empty($_SESSION['parent_id'])) {
         </div>
 
         <!-- Statistiques détaillées -->
-        <div class="bg-white rounded-2xl p-8 mb-8 shadow-lg">
+        <div class="mb-8 rounded-[1.5rem] bg-white p-8 shadow-lg">
             <?php if (isset($pdo) && $pdo && $progressData): ?>
                 <?php renderDetailedProgress($userId); ?>
             <?php else: ?>
@@ -220,9 +224,9 @@ if (!empty($_SESSION['parent_id'])) {
         </div>
 
         <!-- Laboratoire virtuel -->
-        <div class="mt-12">
-            <h2 class="text-center text-white mb-6 text-3xl font-bold">🔬 Ton Laboratoire</h2>
-            <div class="relative w-full max-w-2xl mx-auto aspect-square bg-white/10 backdrop-blur-md rounded-3xl border-4 border-white/30 grid grid-cols-8 grid-rows-8 gap-1 p-3">
+        <div class="mt-12 rounded-[1.5rem] border border-white/20 bg-white/10 p-6 shadow-inner backdrop-blur-md">
+            <h2 class="mb-6 text-center text-3xl font-bold text-white">🔬 Ton Laboratoire</h2>
+            <div class="relative mx-auto aspect-square w-full max-w-2xl rounded-[1.5rem] border-4 border-white/30 bg-white/10 p-3 shadow-inner backdrop-blur-md">
                 <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4/5 h-4/5 border-4 border-dashed border-white/30 rounded-full pointer-events-none"></div>
                 <div class="relative w-full h-full grid grid-cols-8 grid-rows-8 gap-1 z-10" id="board-squares"></div>
                 <div class="absolute w-10 h-10 bg-gradient-to-br from-yellow-400 to-yellow-500 border-4 border-white rounded-full shadow-lg z-50 transform -translate-x-1/2 -translate-y-1/2 transition-all duration-500 opacity-0 scale-0" id="player-token"></div>

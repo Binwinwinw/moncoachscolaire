@@ -434,8 +434,8 @@ $other_children = array_values(array_filter(
 ));
 ?>
 
-<main class="min-h-screen bg-slate-50/70 px-4 py-8">
-	<div class="mx-auto max-w-6xl space-y-8">
+<main class="min-h-screen px-4 py-8 sm:px-6 lg:px-8">
+	<div class="mx-auto max-w-7xl space-y-8">
 		<nav class="flex flex-wrap items-center gap-3 text-sm text-slate-600">
 			<a href="<?php echo htmlspecialchars(site_url('parents/dashboard_parent'), ENT_QUOTES, 'UTF-8'); ?>" class="inline-flex items-center rounded-full bg-white px-4 py-2 font-semibold text-slate-700 ring-1 ring-slate-200 transition hover:bg-slate-50">
 				Retour au dashboard parent
@@ -444,7 +444,7 @@ $other_children = array_values(array_filter(
 			<span class="font-semibold text-indigo-700">Fiche élève</span>
 		</nav>
 
-		<section class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+		<section class="rounded-[2rem] border border-slate-200/80 bg-white/95 p-6 shadow-[0_30px_80px_-35px_rgba(15,23,42,0.35)] backdrop-blur sm:p-8">
 			<div class="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
 				<div class="flex items-start gap-4">
 					<img src="<?php echo htmlspecialchars($avatar_url, ENT_QUOTES, 'UTF-8'); ?>" alt="<?php echo htmlspecialchars($enfantName, ENT_QUOTES, 'UTF-8'); ?>" class="h-20 w-20 rounded-3xl border border-indigo-100 bg-indigo-50 object-cover shadow-sm">
@@ -494,7 +494,7 @@ $other_children = array_values(array_filter(
 		</section>
 
 		<section class="grid gap-6 lg:grid-cols-[1.3fr_0.9fr]">
-			<article class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+			<article class="rounded-[1.75rem] border border-slate-200/80 bg-white/95 p-6 shadow-sm">
 				<div class="flex items-center gap-2">
 					<span class="text-xl">Situation actuelle</span>
 				</div>
@@ -557,7 +557,7 @@ $other_children = array_values(array_filter(
 			</article>
 		</section>
 
-		<section class="rounded-3xl border border-indigo-100 bg-white p-6 shadow-sm">
+		<section class="rounded-[2rem] border border-indigo-200/70 bg-white/95 p-6 shadow-sm sm:p-8">
 			<div class="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
 				<div class="max-w-3xl">
 					<p class="text-sm font-semibold uppercase tracking-[0.2em] text-indigo-600">Prochaine action recommandée</p>
@@ -583,7 +583,7 @@ $other_children = array_values(array_filter(
 		</section>
 
 		<section class="grid gap-6 lg:grid-cols-[1.2fr_0.8fr]">
-			<article class="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+			<article class="rounded-[1.75rem] border border-slate-200/80 bg-white/95 p-6 shadow-sm">
 				<h2 class="text-xl font-bold text-slate-950">Activité récente utile</h2>
 				<?php if (!empty($activites_recentes)): ?>
 					<div class="mt-5 space-y-3">

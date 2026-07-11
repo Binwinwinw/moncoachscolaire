@@ -71,19 +71,19 @@ try {
 }
 
 ?>
-<main class="admin-main-content max-w-5xl mx-auto px-4 py-8">
-	<div class="flex justify-between items-center mb-6">
+<main class="admin-main-content mx-auto flex w-full max-w-5xl flex-col gap-6 px-4 py-8 sm:px-6 lg:px-8">
+	<div class="flex justify-between items-center">
 		<a href="<?php echo htmlspecialchars($baseAccueil); ?>" class="btn-admin-primary flex items-center gap-2">
 			<span aria-hidden="true">🏠</span>
 			<span>Accueil admin</span>
 		</a>
 	</div>
 
-	<h1 class="text-3xl font-bold mb-6 text-blue-900 flex items-center gap-2">
+	<h1 class="text-3xl font-bold text-blue-900 flex items-center gap-2">
 		<span>📊</span> Statistiques du projet
 	</h1>
 
-	<div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+	<div class="grid grid-cols-1 md:grid-cols-4 gap-6">
 		<?php foreach ($stats as $label => $value): ?>
 			<div class="stat-card bg-white rounded-xl shadow p-6 flex flex-col items-center">
 				<div class="text-4xl font-bold text-blue-700 mb-2"><?php echo htmlspecialchars($value); ?></div>
@@ -92,7 +92,7 @@ try {
 		<?php endforeach; ?>
 	</div>
 
-	<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+	<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 		<div class="bg-white rounded-xl shadow p-6">
 			<h2 class="text-xl font-bold mb-4 text-blue-800">Exercices par niveau</h2>
 			<ul class="divide-y divide-blue-100">
@@ -117,14 +117,14 @@ try {
 		</div>
 	</div>
 
-	<div class="flex flex-wrap gap-4 mb-8">
+	<div class="flex flex-wrap gap-4">
 		<button class="btn-admin-primary" onclick="openModal('modal-details')">Voir détails</button>
 		<span class="feedback-success hidden" id="feedback-success">✅ Statistiques actualisées avec succès !</span>
 	</div>
 
 	<!-- Modal détails -->
-	<div id="modal-details" class="fixed inset-0 z-50 flex items-center justify-center bg-black/40 hidden" role="dialog" aria-modal="true">
-		<div class="bg-white rounded-2xl shadow-xl max-w-lg w-full p-8 relative">
+	<div id="modal-details" class="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/55 hidden" role="dialog" aria-modal="true">
+		<div class="relative w-full max-w-lg rounded-[1.75rem] border border-slate-200/70 bg-white p-8 shadow-[0_25px_80px_-28px_rgba(15,23,42,0.35)]">
 			<button onclick="closeModal('modal-details')" class="absolute top-4 right-4 text-gray-400 hover:text-blue-600 text-2xl font-bold focus:outline-none" aria-label="Fermer">&times;</button>
 			<h2 class="text-2xl font-bold text-blue-700 mb-4 flex items-center gap-2"><span>📈</span> Détail des statistiques</h2>
 			<ul class="list-disc list-inside text-gray-700 mb-4">

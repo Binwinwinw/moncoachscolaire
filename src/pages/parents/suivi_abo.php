@@ -367,7 +367,7 @@ $effectiveDateForAction = $nextBillingDate !== '' && $nextBillingDate !== '—'
     </a>
 
     <div id="abo-main-content" class="mx-auto w-full max-w-6xl space-y-6">
-        <section aria-labelledby="abo-title" class="overflow-hidden rounded-3xl border border-slate-200 bg-white/90 shadow-sm">
+        <section aria-labelledby="abo-title" class="overflow-hidden rounded-[2rem] border border-slate-200/80 bg-white/95 shadow-[0_30px_80px_-35px_rgba(15,23,42,0.35)] backdrop-blur">
             <div class="grid gap-6 p-6 lg:grid-cols-5 lg:p-8">
                 <div class="space-y-4 lg:col-span-3">
                     <span class="inline-flex items-center rounded-full border border-emerald-200 bg-emerald-50 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-emerald-800">

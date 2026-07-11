@@ -50,7 +50,7 @@ function getExerciseExternalResources($exerciseId)
     try {
         $stmt = $pdo->prepare("
             SELECT c.Id FROM exercisecourselinks ecl
-            INNER JOIN Courses c ON ecl.CourseId = c.Id
+            INNER JOIN courses c ON ecl.CourseId = c.Id
             WHERE ecl.ExerciseId = ?
             LIMIT 1
         ");
@@ -146,7 +146,7 @@ function getExerciseAssociatedCourse($exerciseId)
     global $pdo;
     try {
         $stmt = $pdo->prepare("
-            SELECT c.* FROM Courses c
+            SELECT c.* FROM courses c
             INNER JOIN exercisecourselinks ecl ON c.Id = ecl.CourseId
             WHERE ecl.ExerciseId = ?
             LIMIT 1

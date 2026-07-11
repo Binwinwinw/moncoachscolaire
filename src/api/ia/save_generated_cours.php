@@ -58,6 +58,24 @@ try {
     $course['level'] = $course['level'] ?? $levelDb;
 
     $courseId = saveCourseToDatabase($course);
+    $revisionId = 0;
+    try {
+        if (!empty($_SESSION['user_id']) && function_exists('saveAiRevision')) {
+            $revisionId = saveAiRevision(
+                (int) $_SESSION['user_id'],
+                'course',
+                $course['title'] ?? 'Cours IA généré',
+                $subjectDb,
+                $levelDb,
+                (int) $courseId,
+                [],
+                ['source' => 'save_generated_cours']
+            );
+        }
+    } catch (Throwable $revisionError) {
+        error_log('ai_revision save error: ' . $revisionError->getMessage());
+    }
+
     $courseUrl = function_exists('site_url')
         ? site_url('view_course', ['id' => (int) $courseId])
         : 'index.php?page=view_course&id=' . (int) $courseId;
@@ -66,10 +84,12 @@ try {
         'success' => true,
         'course_id' => (int) $courseId,
         'course_url' => $courseUrl,
+        'revision_id' => $revisionId,
         'message' => 'Cours sauvegardé dans la bibliothèque.',
         'data' => [
             'course_id' => (int) $courseId,
             'course_url' => $courseUrl,
+            'revision_id' => $revisionId,
         ],
         'meta' => [
             'saved_at' => date('c'),

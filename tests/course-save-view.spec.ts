@@ -56,17 +56,26 @@ test.describe("Cours IA : sauvegarde puis ouverture du cours enregistré", () =>
 
     await page.goto("http://127.0.0.1:8081/index.php?page=login");
     await page.waitForSelector("#username", { timeout: 10000 });
-    await page.fill("#username", "demo");
-    await page.fill("#password", "demo");
-    await page.locator('button[type="submit"]').first().click();
+    await page.fill("#username", "admin6eme");
+    await page.fill("#password", "admin123");
+    await Promise.all([
+      page.waitForNavigation({ waitUntil: "domcontentloaded", timeout: 10000 }),
+      page.locator('button[type="submit"]').first().click(),
+    ]);
 
     await page.goto("http://127.0.0.1:8081/index.php?page=cours");
     await expect(page.locator("#btn-quiz-ia")).toBeVisible();
     await page.locator("#btn-quiz-ia").click();
 
-    await page.selectOption("#quiz-niveau", "6eme");
+    const niveauVisible = await page.isVisible("#quiz-niveau");
+    if (niveauVisible) {
+      await page.selectOption("#quiz-niveau", "6eme");
+    } else {
+      await expect(page.locator("#quiz-niveau-hidden")).toHaveValue("6eme");
+    }
+
     await page.selectOption("#quiz-matiere", "Mathématiques");
-    await page.fill("#quiz-type", "Fractions");
+    await page.fill("#quiz-theme", "Fractions");
     await page.locator('#form-quiz-ia button[type="submit"]').click();
 
     await expect(page.locator("#quiz-ia-result")).toBeVisible();

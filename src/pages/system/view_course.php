@@ -81,41 +81,42 @@ $page_title = ($course['Title'] ?? 'Cours') . ' - MonCoachScolaire';
     ?>">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="app-bg">
+<body class="min-h-screen bg-[radial-gradient(circle_at_top_left,_rgba(34,197,94,0.12),_transparent_35%),linear-gradient(135deg,_#f8fcf8_0%,_#f7f9ff_100%)] text-slate-800">
     <?php if (is_file(dirname(__DIR__, 2) . '/includes/topbar.php')) {
         include_once dirname(__DIR__, 2) . '/includes/topbar.php';
     } ?>
 
-    <div class="max-w-4xl mx-auto my-5 p-5 bg-white rounded-lg shadow-md">
+    <div class="mx-auto my-8 max-w-5xl rounded-[2rem] border border-slate-200/70 bg-white/90 p-6 shadow-[0_24px_70px_-30px_rgba(15,23,42,0.28)] backdrop-blur-sm sm:p-8">
         <?php
         $levelSlug = strtolower(str_replace('ème', 'eme', $course['Level'] ?? $course['level'] ?? ''));
 ?>
         <a href="<?php echo function_exists('site_url')
     ? site_url('system/cours', ['niveau' => $levelSlug])
-    : 'cours.php?niveau=' . urlencode($levelSlug); ?>" class="inline-block py-2 px-4 bg-gray-500 text-white no-underline rounded-md mb-5 hover:bg-gray-600">
+    : 'cours.php?niveau=' . urlencode($levelSlug); ?>" class="mb-6 inline-flex items-center rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-700 shadow-sm transition hover:bg-slate-50">
             ← Retour aux cours
         </a>
 
-        <div class="border-b-4 border-green-500 pb-4 mb-6">
-            <h1 class="text-2xl font-bold text-gray-800"><?php echo htmlspecialchars($course['Title'] ?? $course['competence'] ?? 'Titre non disponible'); ?></h1>
-            <div class="flex gap-3 mt-3 flex-wrap">
-                <span class="inline-block py-1 px-3 bg-blue-100 text-blue-800 rounded-md text-sm font-medium">📚 <?php echo htmlspecialchars($course['Subject'] ?? $course['subject'] ?? 'Matière'); ?></span>
-                <span class="inline-block py-1 px-3 bg-blue-100 text-blue-800 rounded-md text-sm font-medium">🎓 <?php echo htmlspecialchars($course['Level'] ?? $course['level'] ?? 'Niveau'); ?></span>
+        <div class="mb-8 border-b border-slate-200 pb-6">
+            <div class="inline-flex items-center rounded-full bg-emerald-50 px-3 py-1 text-sm font-semibold uppercase tracking-[0.2em] text-emerald-700">Cours</div>
+            <h1 class="mt-4 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl"><?php echo htmlspecialchars($course['Title'] ?? $course['competence'] ?? 'Titre non disponible'); ?></h1>
+            <div class="mt-4 flex flex-wrap gap-2">
+                <span class="inline-flex items-center rounded-full bg-blue-50 px-3 py-1 text-sm font-medium text-blue-700">📚 <?php echo htmlspecialchars($course['Subject'] ?? $course['subject'] ?? 'Matière'); ?></span>
+                <span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1 text-sm font-medium text-slate-700">🎓 <?php echo htmlspecialchars($course['Level'] ?? $course['level'] ?? 'Niveau'); ?></span>
                 <?php if (isset($course['CourseNumber'])): ?>
-                    <span class="inline-block py-1 px-3 bg-blue-100 text-blue-800 rounded-md text-sm font-medium">📝 Cours n°<?php echo $course['CourseNumber']; ?></span>
+                    <span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1 text-sm font-medium text-slate-700">📝 Cours n°<?php echo $course['CourseNumber']; ?></span>
                 <?php endif; ?>
                 <?php if (isset($course['Duration'])): ?>
-                    <span class="inline-block py-1 px-3 bg-blue-100 text-blue-800 rounded-md text-sm font-medium">⏱️ <?php echo $course['Duration']; ?> min</span>
+                    <span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1 text-sm font-medium text-slate-700">⏱️ <?php echo $course['Duration']; ?> min</span>
                 <?php endif; ?>
             </div>
             <?php if (!empty($course['Description'])): ?>
-                <p class="mt-4 text-gray-600">
+                <p class="mt-4 max-w-3xl text-base leading-7 text-slate-600">
                     <?php echo htmlspecialchars($course['Description']); ?>
                 </p>
             <?php endif; ?>
         </div>
 
-        <div class="leading-relaxed text-base">
+        <div class="prose prose-slate max-w-none leading-8 text-base text-slate-700">
             <?php
     // 1. Contenu JSON structuré (nouveau format)
     if (!empty($course['Content']) && is_string($course['Content'])) {

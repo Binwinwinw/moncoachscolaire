@@ -160,18 +160,46 @@ function convertMarkdownToHtml($markdown)
 function normalizeToAsciiSlug($text, $removeDashes = false)
 {
     $map = [
-        'é' => 'e', 'è' => 'e', 'ê' => 'e', 'ë' => 'e',
-        'à' => 'a', 'â' => 'a', 'ä' => 'a', 'á' => 'a',
-        'î' => 'i', 'ï' => 'i', 'ì' => 'i',
-        'ô' => 'o', 'ö' => 'o', 'ò' => 'o',
-        'û' => 'u', 'ü' => 'u', 'ù' => 'u',
-        'ç' => 'c', 'œ' => 'oe', 'æ' => 'ae',
-        'É' => 'e', 'È' => 'e', 'Ê' => 'e', 'Ë' => 'e',
-        'À' => 'a', 'Â' => 'a', 'Ä' => 'a', 'Á' => 'a',
-        'Î' => 'i', 'Ï' => 'i', 'Ì' => 'i',
-        'Ô' => 'o', 'Ö' => 'o', 'Ò' => 'o',
-        'Û' => 'u', 'Ü' => 'u', 'Ù' => 'u',
-        'Ç' => 'c', 'Œ' => 'oe', 'Æ' => 'ae',
+        'é' => 'e',
+        'è' => 'e',
+        'ê' => 'e',
+        'ë' => 'e',
+        'à' => 'a',
+        'â' => 'a',
+        'ä' => 'a',
+        'á' => 'a',
+        'î' => 'i',
+        'ï' => 'i',
+        'ì' => 'i',
+        'ô' => 'o',
+        'ö' => 'o',
+        'ò' => 'o',
+        'û' => 'u',
+        'ü' => 'u',
+        'ù' => 'u',
+        'ç' => 'c',
+        'œ' => 'oe',
+        'æ' => 'ae',
+        'É' => 'e',
+        'È' => 'e',
+        'Ê' => 'e',
+        'Ë' => 'e',
+        'À' => 'a',
+        'Â' => 'a',
+        'Ä' => 'a',
+        'Á' => 'a',
+        'Î' => 'i',
+        'Ï' => 'i',
+        'Ì' => 'i',
+        'Ô' => 'o',
+        'Ö' => 'o',
+        'Ò' => 'o',
+        'Û' => 'u',
+        'Ü' => 'u',
+        'Ù' => 'u',
+        'Ç' => 'c',
+        'Œ' => 'oe',
+        'Æ' => 'ae',
     ];
 
     $text = strtr($text ?? '', $map);
@@ -241,7 +269,7 @@ function getCourseById($courseId, $loadMarkdown = true)
 
     try {
         $stmt = $pdo->prepare("
-            SELECT * FROM Courses WHERE Id = ?
+            SELECT * FROM courses WHERE Id = ?
         ");
         $stmt->execute([$courseId]);
         $course = $stmt->fetch(PDO::FETCH_ASSOC);
@@ -306,7 +334,7 @@ function getCoursesBySubjectAndLevel($subject, $level, $limit = null)
 
     try {
         $query = "
-            SELECT * FROM Courses
+            SELECT * FROM courses
             WHERE Subject = ? AND Level = ?
             ORDER BY CourseNumber ASC
         ";
@@ -344,7 +372,7 @@ function getCoursesForExercise($exerciseId)
     try {
         $stmt = $pdo->prepare("
             SELECT c.*, ecl.LinkType
-            FROM Courses c
+            FROM courses c
             INNER JOIN ExerciseCourseLinks ecl ON c.Id = ecl.CourseId
             WHERE ecl.ExerciseId = ?
             ORDER BY c.Level DESC, c.CourseNumber ASC

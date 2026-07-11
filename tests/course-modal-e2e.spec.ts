@@ -16,47 +16,56 @@ import { test, expect } from "@playwright/test";
 test.describe("Mini-cours interactif: Exercice → Erreur → Modal", () => {
   test.beforeEach(async ({ page }) => {
     // Mock Groq API pour obtenir une réponse déterministe
-    await page.route("**/index.php?page=api/ia/generate_precise_course", async (route) => {
-      const body = await route.request.postDataJSON();
+    await page.route(
+      "**/index.php?page=api/ia/generate_precise_course",
+      async (route) => {
+        const body = await route.request.postDataJSON();
 
-      // Groq réponse mockée
-      const mockedResponse = {
-        success: true,
-        data: {
-          title: `Mini-cours ciblé - ${body.subject || "La notion"}`,
-          summary: "On reprend la notion qui bloque pour réussir le prochain essai.",
-          concept_focus: `Comprendre la méthode pour "${body.incorrect_items?.[0]?.question || "la question"}"`,
-          key_points: [
-            "Lecture attentive de la consigne",
-            "Repérage de l'indice central",
-            "Application de la méthode",
-          ],
-          method_steps: [
-            "Lis la consigne jusqu'au bout",
-            "Identifie ce qui est vraiment demandé",
-            "Applique la méthode pas à pas",
-          ],
-          worked_example: `Pour la question "${body.incorrect_items?.[0]?.question || "la question"}", la bonne réponse est "${body.incorrect_items?.[0]?.correct_answer || "la bonne réponse"}" car elle respecte la méthode attendue.`,
-          common_pitfalls: [
-            "Répondre trop vite sans vérifier",
-            "Confondre deux concepts proches",
-            "Oublier une étape clé",
-          ],
-          practice_tip: "Refais un exercice du même type en expliquant à voix haute chaque étape.",
-          verification_question: "Peux-tu refaire cet exercice en verbalisant chaque étape ?",
-          references: [],
-        },
-        provider_used: "groq",
-      };
+        // Groq réponse mockée
+        const mockedResponse = {
+          success: true,
+          data: {
+            title: `Mini-cours ciblé - ${body.subject || "La notion"}`,
+            summary:
+              "On reprend la notion qui bloque pour réussir le prochain essai.",
+            concept_focus: `Comprendre la méthode pour "${body.incorrect_items?.[0]?.question || "la question"}"`,
+            key_points: [
+              "Lecture attentive de la consigne",
+              "Repérage de l'indice central",
+              "Application de la méthode",
+            ],
+            method_steps: [
+              "Lis la consigne jusqu'au bout",
+              "Identifie ce qui est vraiment demandé",
+              "Applique la méthode pas à pas",
+            ],
+            worked_example: `Pour la question "${body.incorrect_items?.[0]?.question || "la question"}", la bonne réponse est "${body.incorrect_items?.[0]?.correct_answer || "la bonne réponse"}" car elle respecte la méthode attendue.`,
+            common_pitfalls: [
+              "Répondre trop vite sans vérifier",
+              "Confondre deux concepts proches",
+              "Oublier une étape clé",
+            ],
+            practice_tip:
+              "Refais un exercice du même type en expliquant à voix haute chaque étape.",
+            verification_question:
+              "Peux-tu refaire cet exercice en verbalisant chaque étape ?",
+            references: [],
+          },
+          provider_used: "groq",
+        };
 
-      await route.abort("failed");
-      // Retour de la mock
-      await route.continue();
-      await route.response.body = JSON.stringify(mockedResponse);
-    });
+        await route.fulfill({
+          status: 200,
+          contentType: "application/json",
+          body: JSON.stringify(mockedResponse),
+        });
+      },
+    );
   });
 
-  test("Affiche le bouton 'Voir mini-cours' après une réponse incorrecte", async ({ page }) => {
+  test("Affiche le bouton 'Voir mini-cours' après une réponse incorrecte", async ({
+    page,
+  }) => {
     // 1. Naviguer vers la page d'exercices 6ème
     await page.goto("/index.php?page=eleve/college/6eme/exercices-6eme");
 
@@ -65,7 +74,9 @@ test.describe("Mini-cours interactif: Exercice → Erreur → Modal", () => {
     await expect(exerciseCard).toBeVisible({ timeout: 10000 });
 
     // 3. Trouver le premiers bouton "Répondre" / submit du QCM
-    const submitBtn = exerciseCard.locator("button:has-text('Vérifier')").first();
+    const submitBtn = exerciseCard
+      .locator("button:has-text('Vérifier')")
+      .first();
     if (!submitBtn) {
       test.skip();
       return; // Skip si pas de QCM trouvé
@@ -89,14 +100,18 @@ test.describe("Mini-cours interactif: Exercice → Erreur → Modal", () => {
     await expect(courseButton).toBeVisible({ timeout: 5000 });
   });
 
-  test("Ouvre le modal quand on clique sur 'Voir le mini-cours ciblé'", async ({ page }) => {
+  test("Ouvre le modal quand on clique sur 'Voir le mini-cours ciblé'", async ({
+    page,
+  }) => {
     // Reprendre l'état de l'exercice erreur
     await page.goto("/index.php?page=eleve/college/6eme/exercices-6eme");
 
     const exerciseCard = page.locator(".exercise-card").first();
     await expect(exerciseCard).toBeVisible({ timeout: 10000 });
 
-    const submitBtn = exerciseCard.locator("button:has-text('Vérifier')").first();
+    const submitBtn = exerciseCard
+      .locator("button:has-text('Vérifier')")
+      .first();
     if (!submitBtn) {
       test.skip();
       return;
@@ -127,14 +142,18 @@ test.describe("Mini-cours interactif: Exercice → Erreur → Modal", () => {
     await expect(body).toContainText(/Points clés|Étapes|Exemple/i);
   });
 
-  test("Ferme le modal avec le bouton 'J'ai compris ! 💪'", async ({ page }) => {
+  test("Ferme le modal avec le bouton 'J'ai compris ! 💪'", async ({
+    page,
+  }) => {
     await page.goto("/index.php?page=eleve/college/6eme/exercices-6eme");
 
     const exerciseCard = page.locator(".exercise-card").first();
     await expect(exerciseCard).toBeVisible({ timeout: 10000 });
 
     // Erreur + ouverture du modal
-    const submitBtn = exerciseCard.locator("button:has-text('Vérifier')").first();
+    const submitBtn = exerciseCard
+      .locator("button:has-text('Vérifier')")
+      .first();
     if (!submitBtn) {
       test.skip();
       return;
@@ -166,12 +185,16 @@ test.describe("Mini-cours interactif: Exercice → Erreur → Modal", () => {
     page,
   }) => {
     // Tester la 3ème pour variété
-    await page.goto("/index.php?page=eleve/college/3eme/exercices-3eme");
+    await page.goto(
+      "http://127.0.0.1:8081/index.php?page=eleve/college/3eme/exercices-3eme",
+    );
 
     const exerciseCard = page.locator(".exercise-card").first();
     await expect(exerciseCard).toBeVisible({ timeout: 10000 });
 
-    const submitBtn = exerciseCard.locator("button:has-text('Vérifier')").first();
+    const submitBtn = exerciseCard
+      .locator("button:has-text('Vérifier')")
+      .first();
     if (!submitBtn) {
       test.skip();
       return;

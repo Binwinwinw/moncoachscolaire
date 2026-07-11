@@ -10,10 +10,10 @@ if (session_status() === PHP_SESSION_NONE) {
 $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
 ?>
 
-<main class="main-content min-h-screen bg-gray-50">
+<main class="main-content min-h-screen">
     <?php /* ...existing code... */ ?>
 
-    <div class="max-w-7xl mx-auto px-4 py-8">
+    <div class="mx-auto flex w-full max-w-7xl flex-col gap-6 px-4 py-8 sm:px-6 lg:px-8">
                 <?php
         $header_nav = [
             ['href' => site_url('cours', ['niveau' => '4eme']), 'label' => 'Cours 4ème', 'icon' => '📚', 'tone' => 'primary'],
@@ -135,7 +135,7 @@ if (empty($is_logged_in)) {
 ?>
 
         <!-- Contenu COMPLET pour les utilisateurs connectés -->
-        <div class="bg-theme-soft border border-theme rounded-lg p-6 mb-6">
+        <div class="rounded-[1.75rem] border border-amber-200/70 bg-white/85 p-6 shadow-[0_20px_60px_-24px_rgba(245,158,11,0.24)] backdrop-blur">
             <strong class="text-blue-800">🔧 Bienvenue dans ton atelier d'Ingénieur ! Ton Coach est impressionné !</strong><br>
             <span class="text-blue-700">En 4ème, tu vas devenir un véritable ingénieur ! Complexité, analyse, esprit critique...
             Chaque problème résolu est une pièce de la machine temporelle que tu répares.

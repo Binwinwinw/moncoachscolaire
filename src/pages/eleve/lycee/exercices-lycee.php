@@ -177,8 +177,9 @@ try {
     $exercisesLoaded = false;
 }
 ?>
-<main class="main-content app-bg max-w-6xl mx-auto px-6 py-10">
-    <div class="header text-center mb-8 rounded-xl bg-gradient-to-br from-emerald-500 to-teal-600 text-white p-8 shadow-lg">
+<main class="main-content min-h-screen px-4 py-8 sm:px-6 lg:px-8">
+    <div class="mx-auto flex w-full max-w-6xl flex-col gap-6">
+    <div class="header text-center rounded-[2rem] border border-emerald-200/70 bg-white/85 p-8 shadow-[0_25px_70px_-28px_rgba(16,185,129,0.28)] backdrop-blur">
         <h1 class="text-4xl font-bold"><?php echo $params['title']; ?></h1>
         <p class="subtitle text-lg text-white/90"><?php echo $params['subtitle']; ?></p>
         <div class="exercices-navigation flex flex-wrap gap-4 justify-center mt-6">

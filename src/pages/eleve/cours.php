@@ -31,57 +31,58 @@ $page_css = 'cours.css';
 } ?>
 
 
-<main class="main-content page-exercices flex-1 flex flex-col items-center justify-center py-10 px-4 bg-blue-50">
-    <div class="max-w-3xl w-full mx-auto">
-        <header class="header text-center mb-10 p-8 bg-white border border-blue-100 rounded-2xl shadow-sm">
-            <h1 class="text-3xl md:text-5xl font-extrabold text-blue-800 mb-2 tracking-tight font-[Poppins,ui-sans-serif]">📖 Tous les cours par niveau</h1>
-            <p class="subtitle text-lg text-slate-600 mb-0 font-medium">Découvre tous les cours de collège, lycée et BAC sur une seule page.</p>
+<main class="main-content page-exercices flex-1 px-4 py-10 sm:px-6 lg:px-8">
+    <div class="mx-auto flex w-full max-w-6xl flex-col">
+        <header class="mb-8 rounded-[2rem] border border-sky-200/70 bg-white/85 p-8 text-center shadow-[0_25px_70px_-28px_rgba(59,130,246,0.3)] backdrop-blur">
+            <p class="mb-3 inline-flex items-center rounded-full border border-sky-200 bg-sky-50 px-3 py-1 text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">Parcours d’apprentissage</p>
+            <h1 class="mb-3 text-3xl font-extrabold tracking-tight text-sky-900 md:text-5xl">📖 Tous les cours par niveau</h1>
+            <p class="mx-auto max-w-3xl text-lg font-medium text-slate-600">Découvre les cours du collège, du lycée et du BAC sur une seule page, avec une navigation plus claire et plus rassurante.</p>
         </header>
 
         <?php if (!isset($_SESSION['user_id'])): ?>
-        <section class="coach-preview bg-white/80 border border-blue-100 rounded-xl p-6 text-center shadow-sm mb-10">
-            <h2 class="text-xl font-semibold text-blue-700 mb-2 flex items-center justify-center gap-2">👀 Accès visiteur limité</h2>
-            <p class="text-slate-600 mb-5">Pour accéder à tous les cours, crée ton compte gratuitement !</p>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-5 mb-5">
+        <section class="mb-10 rounded-[1.75rem] border border-sky-200/70 bg-white/85 p-6 text-center shadow-sm backdrop-blur">
+            <h2 class="mb-2 flex items-center justify-center gap-2 text-xl font-semibold text-sky-700">👀 Accès visiteur limité</h2>
+            <p class="mb-6 text-slate-600">Pour accéder à tous les cours, crée ton compte gratuitement et débloque un parcours plus fluide.</p>
+            <div class="mb-6 grid grid-cols-1 gap-5 md:grid-cols-3">
                 <!-- Collège -->
-                <a href="<?php echo site_url('college/cours-college'); ?>" class="niveau-card flex flex-col items-center justify-center rounded-lg border border-blue-100 bg-blue-50/60 shadow-sm p-5 transition hover:shadow-md hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-300">
-                    <span class="text-3xl mb-1">📗</span>
-                    <span class="font-bold text-lg mb-0.5">Collège</span>
+                <a href="<?php echo site_url('college/cours-college'); ?>" class="niveau-card flex flex-col items-center justify-center rounded-2xl border border-sky-200 bg-sky-50/80 p-5 shadow-sm transition duration-200 hover:-translate-y-1 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-sky-300">
+                    <span class="mb-2 text-3xl">📗</span>
+                    <span class="mb-1 text-lg font-bold text-sky-900">Collège</span>
                     <span class="text-sm text-slate-500">6e à 3e</span>
                 </a>
                 <!-- Lycée -->
-                <a href="<?php echo site_url('lycee/cours-lycee'); ?>" class="niveau-card flex flex-col items-center justify-center rounded-lg border border-blue-100 bg-blue-50/60 shadow-sm p-5 transition hover:shadow-md hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-300">
-                    <span class="text-3xl mb-1">📙</span>
-                    <span class="font-bold text-lg mb-0.5">Lycée</span>
+                <a href="<?php echo site_url('lycee/cours-lycee'); ?>" class="niveau-card flex flex-col items-center justify-center rounded-2xl border border-violet-200 bg-violet-50/80 p-5 shadow-sm transition duration-200 hover:-translate-y-1 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-violet-300">
+                    <span class="mb-2 text-3xl">📙</span>
+                    <span class="mb-1 text-lg font-bold text-violet-900">Lycée</span>
                     <span class="text-sm text-slate-500">2nde à Terminale</span>
                 </a>
                 <!-- BAC -->
-                <a href="<?php echo site_url('bac/cours-bac'); ?>" class="niveau-card flex flex-col items-center justify-center rounded-lg border border-blue-100 bg-blue-50/60 shadow-sm p-5 transition hover:shadow-md hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-300">
-                    <span class="text-3xl mb-1">🏅</span>
-                    <span class="font-bold text-lg mb-0.5">BAC</span>
+                <a href="<?php echo site_url('bac/cours-bac'); ?>" class="niveau-card flex flex-col items-center justify-center rounded-2xl border border-amber-200 bg-amber-50/80 p-5 shadow-sm transition duration-200 hover:-translate-y-1 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-amber-300">
+                    <span class="mb-2 text-3xl">🏅</span>
+                    <span class="mb-1 text-lg font-bold text-amber-900">BAC</span>
                     <span class="text-sm text-slate-500">Cours & révisions BAC</span>
                 </a>
             </div>
-            <a href="<?php echo site_url('register'); ?>" class="coach-cta inline-block mt-1 px-7 py-2.5 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg shadow-sm text-base transition">Créer un compte gratuit</a>
+            <a href="<?php echo site_url('register'); ?>" class="coach-cta inline-flex items-center justify-center rounded-xl bg-sky-600 px-7 py-2.5 text-base font-semibold text-white shadow-sm transition hover:bg-sky-700">Créer un compte gratuit</a>
         </section>
         <?php else: ?>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-7 w-full relative z-10">
+        <div class="relative z-10 grid w-full grid-cols-1 gap-7 md:grid-cols-3">
             <!-- Collège -->
-            <a href="<?php echo site_url('college/cours-college'); ?>" class="niveau-card flex flex-col items-center justify-center rounded-lg border border-blue-100 bg-blue-50/60 shadow-sm p-5 transition hover:shadow-md hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-300">
-                <span class="text-3xl mb-1">📗</span>
-                <span class="font-bold text-lg mb-0.5">Collège</span>
+            <a href="<?php echo site_url('college/cours-college'); ?>" class="niveau-card flex flex-col items-center justify-center rounded-2xl border border-sky-200 bg-sky-50/80 p-5 shadow-sm transition duration-200 hover:-translate-y-1 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-sky-300">
+                <span class="mb-2 text-3xl">📗</span>
+                <span class="mb-1 text-lg font-bold text-sky-900">Collège</span>
                 <span class="text-sm text-slate-500">6e à 3e</span>
             </a>
             <!-- Lycée -->
-            <a href="<?php echo site_url('lycee/cours-lycee'); ?>" class="niveau-card flex flex-col items-center justify-center rounded-lg border border-blue-100 bg-blue-50/60 shadow-sm p-5 transition hover:shadow-md hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-300">
-                <span class="text-3xl mb-1">📙</span>
-                <span class="font-bold text-lg mb-0.5">Lycée</span>
+            <a href="<?php echo site_url('lycee/cours-lycee'); ?>" class="niveau-card flex flex-col items-center justify-center rounded-2xl border border-violet-200 bg-violet-50/80 p-5 shadow-sm transition duration-200 hover:-translate-y-1 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-violet-300">
+                <span class="mb-2 text-3xl">📙</span>
+                <span class="mb-1 text-lg font-bold text-violet-900">Lycée</span>
                 <span class="text-sm text-slate-500">2nde à Terminale</span>
             </a>
             <!-- BAC -->
-            <a href="<?php echo site_url('bac/cours-bac'); ?>" class="niveau-card flex flex-col items-center justify-center rounded-lg border border-blue-100 bg-blue-50/60 shadow-sm p-5 transition hover:shadow-md hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-blue-300">
-                <span class="text-3xl mb-1">🏅</span>
-                <span class="font-bold text-lg mb-0.5">BAC</span>
+            <a href="<?php echo site_url('bac/cours-bac'); ?>" class="niveau-card flex flex-col items-center justify-center rounded-2xl border border-amber-200 bg-amber-50/80 p-5 shadow-sm transition duration-200 hover:-translate-y-1 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-amber-300">
+                <span class="mb-2 text-3xl">🏅</span>
+                <span class="mb-1 text-lg font-bold text-amber-900">BAC</span>
                 <span class="text-sm text-slate-500">Cours & révisions BAC</span>
             </a>
         </div>

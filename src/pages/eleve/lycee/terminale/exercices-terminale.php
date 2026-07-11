@@ -10,11 +10,11 @@ if (session_status() === PHP_SESSION_NONE) {
 $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
 ?>
 
-<main class="main-content min-h-screen bg-gray-50">
+<main class="main-content min-h-screen">
     <?php
 ?>
 
-    <div class="max-w-7xl mx-auto px-4 py-8">
+    <div class="mx-auto flex w-full max-w-7xl flex-col gap-6 px-4 py-8 sm:px-6 lg:px-8">
                 <?php
         $header_nav = [
             ['href' => site_url('cours', ['niveau' => 'terminale']), 'label' => 'Cours Terminale', 'icon' => '📚', 'tone' => 'primary'],
@@ -112,7 +112,7 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
 
 
         <!-- Contenu COMPLET pour les utilisateurs connectés -->
-        <div class="bg-yellow-50 border border-yellow-200 rounded-lg p-6 mb-6">
+        <div class="rounded-[1.75rem] border border-amber-200/70 bg-white/85 p-6 shadow-[0_20px_60px_-24px_rgba(245,158,11,0.24)] backdrop-blur">
             <strong class="text-yellow-800">👋 Salut  ! C'est ton Coach Scolaire qui te parle !</strong><br>
             <strong class="text-yellow-900">🎭 Thème Narratif : La Conquête du Bac</strong><br>
             <span class="text-yellow-700">Bienvenue, Maître du Savoir ! Tu es en Terminale, l'année de la consécration. Tous tes efforts passés

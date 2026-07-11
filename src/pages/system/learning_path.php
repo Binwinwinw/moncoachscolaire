@@ -28,96 +28,114 @@ $progressPercentage = calculateProgressPercentage($progress, $path);
 $isCompleted = !empty($progress['CompletedAt']);
 ?>
 
-<main class="main-content learning-path-page">
-    <div class="path-header">
-        <a href="<?= site_url('cours') ?>" class="btn-back">← Retour aux cours</a>
+<div class="min-h-screen bg-slate-50 px-4 py-8 sm:px-6 lg:px-8">
+    <main class="mx-auto max-w-5xl">
+        <div class="rounded-3xl border border-slate-200 bg-white/90 p-6 shadow-sm sm:p-8">
+            <a href="<?= site_url('cours') ?>" class="inline-flex items-center rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-semibold text-slate-700 transition hover:border-emerald-300 hover:text-emerald-700">
+                ← Retour aux cours
+            </a>
 
-        <h1><?= htmlspecialchars($path['Title']) ?></h1>
-        <p class="path-description"><?= htmlspecialchars($path['Description']) ?></p>
+            <div class="mt-6 flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
+                <div class="max-w-2xl">
+                    <p class="text-sm font-semibold uppercase tracking-[0.3em] text-emerald-700">Parcours d’apprentissage</p>
+                    <h1 class="mt-2 text-3xl font-semibold text-slate-900 sm:text-4xl"><?= htmlspecialchars($path['Title']) ?></h1>
+                    <p class="mt-3 text-base leading-7 text-slate-600"><?= htmlspecialchars($path['Description']) ?></p>
+                </div>
 
-        <div class="path-meta">
-            <span class="meta-item">📚 <?= htmlspecialchars($path['Subject']) ?></span>
-            <span class="meta-item">🎓 <?= htmlspecialchars($path['Level']) ?></span>
-            <span class="meta-item">⏱️ <?= $path['Duration'] ?> min</span>
-            <span class="meta-item difficulty-<?= $path['Difficulty'] ?>">
-                <?= $path['Difficulty'] === 'facile' ? '🟢' : ($path['Difficulty'] === 'difficile' ? '🔴' : '🟠') ?>
-                <?= ucfirst($path['Difficulty']) ?>
-            </span>
-        </div>
-
-        <!-- Barre de progression -->
-        <div class="progress-bar-container">
-            <div class="progress-bar"></div>
-            <span class="progress-text"><?= $progressPercentage ?>% complété</span>
-        </div>
-
-        <?php if ($isCompleted): ?>
-        <div class="completion-badge">
-            <h2>🎉 Parcours terminé !</h2>
-            <p>Score final : <?= $progress['Score'] ?>%</p>
-            <p>Temps total : <?= round($progress['TimeSpent'] / 60) ?> min</p>
-        </div>
-        <?php endif; ?>
-    </div>
-
-    <!-- Liste des étapes -->
-    <div class="steps-list">
-        <?php foreach ($path['Steps'] as $index => $step):
-            $isCompleted = in_array($index, $progress['CompletedSteps']);
-            $isCurrent = ($index === $progress['CurrentStepIndex']);
-            $isLocked = ($index > $progress['CurrentStepIndex']);
-
-            $stepClass = 'step-item';
-            if ($isCompleted) {
-                $stepClass .= ' completed';
-            }
-            if ($isCurrent) {
-                $stepClass .= ' current';
-            }
-            if ($isLocked) {
-                $stepClass .= ' locked';
-            }
-            ?>
-        <div class="<?= $stepClass ?>" data-step-index="<?= $index ?>">
-            <div class="step-number">
                 <?php if ($isCompleted): ?>
-                    ✅
-                <?php elseif ($isCurrent): ?>
-                    ▶️
-                <?php else: ?>
-                    <?= $index + 1 ?>
+                <div class="rounded-2xl border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm text-emerald-800 shadow-sm">
+                    <p class="font-semibold">🎉 Parcours terminé</p>
+                    <p class="mt-1">Score final : <?= $progress['Score'] ?>%</p>
+                    <p>Temps total : <?= round($progress['TimeSpent'] / 60) ?> min</p>
+                </div>
                 <?php endif; ?>
             </div>
 
-            <div class="step-content">
-                <h3><?= htmlspecialchars($step['title']) ?></h3>
-                <p class="step-type">
-                    <?php
-                        $icons = [
-                            'course' => '📖',
-                            'exercise' => '✏️',
-                            'quiz' => '❓',
-                            'assessment' => '📊',
-                        ];
-            echo $icons[$step['type']] ?? '📄';
-            echo ' ' . ucfirst($step['type']);
-            ?>
-                    · <?= $step['duration'] ?> min
-                    <?= $step['is_mandatory'] ? '(Obligatoire)' : '(Optionnel)' ?>
-                </p>
+            <div class="mt-8 flex flex-wrap gap-3">
+                <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-sm text-slate-700">📚 <?= htmlspecialchars($path['Subject']) ?></span>
+                <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-sm text-slate-700">🎓 <?= htmlspecialchars($path['Level']) ?></span>
+                <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-sm text-slate-700">⏱️ <?= $path['Duration'] ?> min</span>
+                <span class="rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-sm text-slate-700">
+                    <?= $path['Difficulty'] === 'facile' ? '🟢' : ($path['Difficulty'] === 'difficile' ? '🔴' : '🟠') ?>
+                    <?= ucfirst($path['Difficulty']) ?>
+                </span>
+            </div>
 
-                <?php if (!$isLocked): ?>
-                <a href="<?= getStepUrl($step) ?>" class="btn-step">
-                    <?= $isCompleted ? 'Revoir' : ($isCurrent ? 'Continuer' : 'Commencer') ?>
-                </a>
-                <?php else: ?>
-                <span class="step-locked">🔒 Étape verrouillée</span>
-                <?php endif; ?>
+            <div class="mt-8">
+                <div class="flex items-center justify-between text-sm text-slate-600">
+                    <span>Avancement du parcours</span>
+                    <span class="font-semibold text-slate-800"><?= $progressPercentage ?>%</span>
+                </div>
+                <div class="mt-2 h-3 overflow-hidden rounded-full bg-slate-200">
+                    <div class="h-full rounded-full bg-emerald-500 transition-all duration-300" style="width: <?= (int) $progressPercentage ?>%;"></div>
+                </div>
             </div>
         </div>
-        <?php endforeach; ?>
-    </div>
-</main>
+
+        <div class="mt-8 space-y-4">
+            <?php foreach ($path['Steps'] as $index => $step):
+                $isCompleted = in_array($index, $progress['CompletedSteps']);
+                $isCurrent = ($index === $progress['CurrentStepIndex']);
+                $isLocked = ($index > $progress['CurrentStepIndex']);
+
+                $cardClasses = ['rounded-2xl border p-5 shadow-sm transition'];
+                if ($isCompleted) {
+                    $cardClasses[] = 'border-emerald-300 bg-emerald-50/70';
+                } elseif ($isCurrent) {
+                    $cardClasses[] = 'border-amber-300 bg-amber-50/70';
+                } elseif ($isLocked) {
+                    $cardClasses[] = 'border-slate-200 bg-slate-50/70 opacity-80';
+                } else {
+                    $cardClasses[] = 'border-slate-200 bg-white';
+                }
+                if (!$isLocked) {
+                    $cardClasses[] = 'hover:-translate-y-0.5 hover:shadow-md';
+                }
+                $cardClass = implode(' ', $cardClasses);
+            ?>
+            <article class="<?= htmlspecialchars($cardClass, ENT_QUOTES, 'UTF-8') ?>" data-step-index="<?= $index ?>">
+                <div class="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
+                    <div class="flex items-start gap-4">
+                        <div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-slate-200 bg-white text-lg shadow-sm">
+                            <?php if ($isCompleted): ?>
+                                ✅
+                            <?php elseif ($isCurrent): ?>
+                                ▶️
+                            <?php else: ?>
+                                <?= $index + 1 ?>
+                            <?php endif; ?>
+                        </div>
+
+                        <div>
+                            <h2 class="text-lg font-semibold text-slate-900"><?= htmlspecialchars($step['title']) ?></h2>
+                            <p class="mt-2 text-sm text-slate-600">
+                                <?php
+                                    $icons = [
+                                        'course' => '📖',
+                                        'exercise' => '✏️',
+                                        'quiz' => '❓',
+                                        'assessment' => '📊',
+                                    ];
+                                    echo ($icons[$step['type']] ?? '📄') . ' ' . ucfirst($step['type']) . ' · ' . $step['duration'] . ' min';
+                                    echo $step['is_mandatory'] ? ' · Obligatoire' : ' · Optionnel';
+                                ?>
+                            </p>
+                        </div>
+                    </div>
+
+                    <?php if (!$isLocked): ?>
+                    <a href="<?= getStepUrl($step) ?>" class="inline-flex items-center justify-center rounded-full bg-emerald-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-emerald-700">
+                        <?= $isCompleted ? 'Revoir' : ($isCurrent ? 'Continuer' : 'Commencer') ?>
+                    </a>
+                    <?php else: ?>
+                    <span class="inline-flex items-center rounded-full border border-slate-200 bg-white px-3 py-2 text-sm font-medium text-slate-600">🔒 Étape verrouillée</span>
+                    <?php endif; ?>
+                </div>
+            </article>
+            <?php endforeach; ?>
+        </div>
+    </main>
+</div>
 
 <?php
 function getStepUrl($step)

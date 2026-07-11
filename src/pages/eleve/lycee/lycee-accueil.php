@@ -156,7 +156,8 @@ if ($is_logged_in && ($is_lycee_level || $is_admin) && isset($pdo) && $pdo) {
 // Option A: Ne pas rediriger — afficher un message d’indisponibilité si hors-lycée
 ?>
 
-<main class="main-content lycee-accueil-main min-h-screen flex flex-col bg-violet-50">
+<main class="main-content lycee-accueil-main min-h-screen">
+    <div class="mx-auto flex w-full max-w-7xl flex-col px-4 py-8 md:px-6 lg:px-8">
     <?php
     // Afficher l'outil de navigation entre accueils
     if (function_exists('render_accueil_navigation')) {
@@ -203,7 +204,7 @@ if ($is_logged_in && ($is_lycee_level || $is_admin)) {
     </div>
     <?php
 ?>
-    <section class="intro">
+    <section class="intro w-full rounded-[2rem] border border-violet-200/70 bg-white/80 p-6 shadow-[0_25px_70px_-28px_rgba(139,92,246,0.3)] backdrop-blur md:p-8">
         <?php if ($is_admin): ?>
             <div class="lycee-accueil-center mb-8 flex flex-col items-center">
                 <h1 class="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-violet-700 via-purple-500 to-fuchsia-600 mb-3 text-center drop-shadow-lg">
@@ -497,4 +498,5 @@ else:
                 <?php endif; ?>
             </div>
     </section>
+    </div>
 </main>

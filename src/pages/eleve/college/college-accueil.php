@@ -1,4 +1,4 @@
-@<?php
+<?php
 $page_title = 'Collège+';
 // page-specific stylesheet (kept for page-specific customizations)
 $page_css = 'college/index.css';
@@ -166,7 +166,8 @@ if ($is_logged_in && ($is_college_level || $is_admin) && isset($pdo) && $pdo) {
 ?>
 
 
-<main class="main-content college-accueil-main min-h-screen flex flex-col items-center px-4 py-8">
+<main class="main-content college-accueil-main min-h-screen">
+    <div class="mx-auto flex w-full max-w-7xl flex-col items-center px-4 py-8 md:px-6 lg:px-8">
     <?php
     if (function_exists('render_accueil_navigation')) {
         echo render_accueil_navigation('college');
@@ -203,7 +204,7 @@ if ($is_logged_in && ($is_college_level || $is_admin)) {
             <?php endif; ?>
     </div>
 
-    <section class="intro">
+    <section class="intro w-full rounded-[2rem] border border-emerald-200/70 bg-white/80 p-6 shadow-[0_25px_70px_-28px_rgba(34,197,94,0.35)] backdrop-blur md:p-8">
         <?php
     $show_user_card_title = false;
 $show_user_card_lead = false;
@@ -432,5 +433,6 @@ if (is_file(dirname(__DIR__, 3) . '/includes/user_card.php')) {
         <?php endif; ?>
         </div>
     </section>
+    </div>
 </main>
 

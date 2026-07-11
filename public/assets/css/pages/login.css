@@ -219,6 +219,7 @@
 /* Rendre le main transparent uniquement sur la page login pour voir le fond directement */
 /* Surcharger la règle globale de style.css seulement pour login (éviter d'affecter la landing) */
 body.login-page main {
-    background-color: transparent !important;
+    background: transparent !important;
+    background-image: none !important;
     min-height: calc(100vh - var(--header-height, 80px));
 }

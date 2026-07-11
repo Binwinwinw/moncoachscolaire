@@ -21,6 +21,13 @@ require_once __DIR__ . '/../../includes/gamification.php';
 require_once __DIR__ . '/../../includes/progress_helpers.php';
 require_once __DIR__ . '/../../includes/exercice_card.php';
 
+$demoTrackingUrl = '/api/track-demo-action.php';
+if (function_exists('site_url')) {
+    $demoTrackingUrl = site_url('api/track-demo-action');
+} elseif (!empty($baseUrl)) {
+    $demoTrackingUrl = rtrim((string) $baseUrl, '/') . '/api/track-demo-action.php';
+}
+
 // Activer le mode démo si accès via ?demo=1 ou si l'utilisateur n'est pas connecté
 if ((!empty($_GET['demo']) && $_GET['demo'] === '1') || empty($_SESSION['logged_in'])) {
     // Forcer le mode démo à chaque requête
@@ -349,50 +356,50 @@ if (isset($_SESSION['demo_action_count'])) {
 }
 ?>
 
-<main class="main-content demo-main">
+<main class="mx-auto flex max-w-7xl flex-col gap-6 px-4 py-6 md:px-6 lg:px-8">
     <!-- Bannière Déconnexion Démo -->
-    <div class="demo-logout-banner" id="demo-logout-banner">
-        <div class="logout-banner-content">
-            <span class="logout-icon">ℹ️</span>
-            <div class="logout-text">
-                <strong>Mode Démonstration actif</strong>
-                <span>Vous testez l'application en mode démo. Pour créer un compte ou vous connecter, quittez d'abord le mode démo.</span>
+    <div class="demo-logout-banner rounded-2xl border border-slate-200 bg-white/95 p-4 shadow-sm backdrop-blur-sm" id="demo-logout-banner">
+        <div class="logout-banner-content flex flex-col gap-3 md:flex-row md:items-start md:justify-between">
+            <span class="logout-icon text-xl">ℹ️</span>
+            <div class="logout-text flex-1">
+                <strong class="block text-sm font-semibold text-slate-900">Mode Démonstration actif</strong>
+                <span class="mt-1 block text-sm text-slate-600">Vous testez l'application en mode démo. Pour créer un compte ou vous connecter, quittez d'abord le mode démo.</span>
             </div>
-            <div class="logout-actions">
-                <a href="<?php echo site_url('logout'); ?>" class="logout-button">🚪 Quitter le mode démo</a>
-                <a href="<?php echo site_url('landingpage'); ?>" class="logout-button-secondary">🏠 Retour à l'accueil</a>
+            <div class="logout-actions flex flex-wrap gap-2">
+                <a href="<?php echo site_url('logout'); ?>" class="logout-button inline-flex items-center rounded-full border border-slate-300 bg-slate-900 px-3 py-2 text-sm font-semibold text-white transition hover:bg-slate-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-slate-500 focus-visible:ring-offset-2">🚪 Quitter le mode démo</a>
+                <a href="<?php echo site_url('landingpage'); ?>" class="logout-button-secondary inline-flex items-center rounded-full border border-slate-300 bg-white px-3 py-2 text-sm font-semibold text-slate-700 transition hover:bg-slate-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-slate-500 focus-visible:ring-offset-2">🏠 Retour à l'accueil</a>
             </div>
-            <button class="logout-banner-close" onclick="document.getElementById('demo-logout-banner').style.display='none'" title="Fermer cette bannière">×</button>
+            <button type="button" class="logout-banner-close rounded-full p-2 text-slate-500 transition hover:bg-slate-100 hover:text-slate-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-slate-500" onclick="document.getElementById('demo-logout-banner').style.display='none'" title="Fermer cette bannière" aria-label="Fermer cette bannière">×</button>
         </div>
     </div>
 
     <!-- Bannière CTA -->
-    <div class="demo-cta-banner" id="demo-cta-banner">
-        <div class="cta-content">
-            <span class="cta-icon">🎯</span>
-            <div class="cta-text">
-                <strong>Mode Démonstration</strong>
-                <span>Créez un compte gratuit pour sauvegarder votre progression et accéder à tous les contenus !</span>
+    <div class="demo-cta-banner rounded-2xl border border-emerald-200 bg-emerald-50/90 p-4 shadow-sm" id="demo-cta-banner">
+        <div class="cta-content flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+            <span class="cta-icon text-xl">🎯</span>
+            <div class="cta-text flex-1">
+                <strong class="block text-sm font-semibold text-emerald-900">Mode Démonstration</strong>
+                <span class="mt-1 block text-sm text-emerald-800">Créez un compte gratuit pour sauvegarder votre progression et accéder à tous les contenus !</span>
             </div>
-            <a href="<?php echo site_url('register'); ?>" class="cta-button">✨ Créer mon compte</a>
-            <button class="cta-close" onclick="document.getElementById('demo-cta-banner').style.display='none'">×</button>
+            <a href="<?php echo site_url('register'); ?>" class="cta-button inline-flex items-center rounded-full bg-emerald-700 px-4 py-2 text-sm font-semibold text-white transition hover:bg-emerald-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2">✨ Créer mon compte</a>
+            <button type="button" class="cta-close rounded-full p-2 text-emerald-700 transition hover:bg-emerald-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500" onclick="document.getElementById('demo-cta-banner').style.display='none'" aria-label="Fermer la bannière">×</button>
         </div>
     </div>
 
     <!-- En-tête de la démo -->
-    <div class="demo-header">
-        <h1>🎮 Découvrez MonCoachScolaire</h1>
-        <p class="demo-subtitle">Testez gratuitement nos exercices interactifs, cours et quiz avant de créer votre compte</p>
+    <div class="demo-header rounded-3xl border border-slate-200 bg-gradient-to-br from-slate-900 via-slate-800 to-emerald-700 p-8 text-white shadow-sm">
+        <h1 class="text-3xl font-bold sm:text-4xl">🎮 Découvrez MonCoachScolaire</h1>
+        <p class="demo-subtitle mt-3 max-w-2xl text-lg text-slate-100">Testez gratuitement nos exercices interactifs, cours et quiz avant de créer votre compte</p>
     </div>
 
     <!-- Aperçu Le Labo des Génies -->
-    <section class="demo-section" id="labo">
-        <h2>🔬 Le Labo des Génies - Aperçu</h2>
-        <p class="section-description">Découvrez le système de gamification scientifique qui récompense vos progrès</p>
+    <section class="demo-section rounded-3xl border border-slate-200 bg-white/90 p-6 shadow-sm backdrop-blur-sm" id="labo">
+        <h2 class="text-2xl font-semibold text-slate-900">🔬 Le Labo des Génies - Aperçu</h2>
+        <p class="section-description mt-2 text-sm text-slate-600">Découvrez le système de gamification scientifique qui récompense vos progrès</p>
 
-        <div class="odyssey-preview">
-            <div class="odyssey-stats">
-                <div class="odyssey-stat">
+        <div class="odyssey-preview mt-6 rounded-3xl border border-slate-200 bg-slate-50/80 p-6 shadow-inner">
+            <div class="odyssey-stats grid gap-4 md:grid-cols-2 xl:grid-cols-4">
+                <div class="odyssey-stat rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
                     <div class="stat-icon">⭐</div>
                     <div class="stat-info">
                         <div class="stat-value"><?php echo $demoProgress['xp']; ?> XP</div>
@@ -422,8 +429,8 @@ if (isset($_SESSION['demo_action_count'])) {
                 </div>
             </div>
 
-            <div class="odyssey-progress">
-                <h3>Progression par matière</h3>
+            <div class="odyssey-progress mt-6 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
+                <h3 class="text-lg font-semibold text-slate-900">Progression par matière</h3>
                 <?php foreach ($demoProgress['bySubject'] as $subject => $data): ?>
                     <div class="subject-progress">
                         <div class="subject-header">
@@ -437,8 +444,8 @@ if (isset($_SESSION['demo_action_count'])) {
                 <?php endforeach; ?>
             </div>
 
-            <div class="odyssey-badges">
-                <h3>Badges débloqués</h3>
+            <div class="odyssey-badges mt-6 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
+                <h3 class="text-lg font-semibold text-slate-900">Badges débloqués</h3>
                 <div class="badges-list">
                     <?php foreach ($demoProgress['badges'] as $badge): ?>
                         <div class="badge-item">
@@ -449,19 +456,19 @@ if (isset($_SESSION['demo_action_count'])) {
                 </div>
             </div>
 
-            <div class="odyssey-cta">
+            <div class="odyssey-cta mt-6 rounded-2xl border border-emerald-200 bg-emerald-50 p-4 text-sm text-emerald-900">
                 <p>🚀 <strong>Créez un compte</strong> pour commencer votre propre aventure dans Le Labo des Génies !</p>
-                <a href="<?php echo site_url('register'); ?>" class="demo-cta-link large">✨ Créer mon compte gratuit</a>
+                <a href="<?php echo site_url('register'); ?>" class="demo-cta-link large mt-3 inline-flex rounded-full bg-emerald-700 px-4 py-2 font-semibold text-white transition hover:bg-emerald-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2">✨ Créer mon compte gratuit</a>
             </div>
         </div>
     </section>
 
     <!-- Sélecteur de niveau - Carte séparée -->
-    <section class="demo-section demo-level-card" id="level-selector">
-        <h2>📚 Choisissez votre niveau scolaire</h2>
-        <p class="section-description">Sélectionnez votre niveau pour voir les exercices adaptés</p>
+    <section class="demo-section demo-level-card rounded-3xl border border-slate-200 bg-white/90 p-6 shadow-sm backdrop-blur-sm" id="level-selector">
+        <h2 class="text-2xl font-semibold text-slate-900">📚 Choisissez votre niveau scolaire</h2>
+        <p class="section-description mt-2 text-sm text-slate-600">Sélectionnez votre niveau pour voir les exercices adaptés</p>
 
-        <div class="demo-level-selector">
+        <div class="demo-level-selector mt-6 rounded-3xl border border-slate-200 bg-slate-50/70 p-5 shadow-inner">
             <div class="level-columns-wrapper">
                 <!-- Colonne Collège -->
                 <div class="level-column">
@@ -526,8 +533,8 @@ if (isset($_SESSION['demo_action_count'])) {
             </p>
         </div>
 
-            <div class="demo-stats">
-            <div class="stat-item">
+            <div class="demo-stats mt-6 grid gap-3 md:grid-cols-3">
+            <div class="stat-item rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
                 <span class="stat-number"><?php echo count($sampleExercises); ?></span>
                 <span class="stat-label">Exercice<?php echo count($sampleExercises) > 1 ? 's' : ''; ?> interactif<?php echo count($sampleExercises) > 1 ? 's' : ''; ?></span>
             </div>
@@ -543,9 +550,9 @@ if (isset($_SESSION['demo_action_count'])) {
     </section>
 
     <!-- Section Exercices -->
-    <section class="demo-section" id="exercices">
-        <h2>📝 Exercices Interactifs</h2>
-        <p class="section-description">Testez nos exercices interactifs avec feedback immédiat et système de récompenses</p>
+    <section class="demo-section rounded-3xl border border-slate-200 bg-white/90 p-6 shadow-sm backdrop-blur-sm" id="exercices">
+        <h2 class="text-2xl font-semibold text-slate-900">📝 Exercices Interactifs</h2>
+        <p class="section-description mt-2 text-sm text-slate-600">Testez nos exercices interactifs avec feedback immédiat et système de récompenses</p>
 
         <?php if (!empty($sampleExercises)): ?>
             <div class="exercises-grid demo-exercises">
@@ -580,10 +587,10 @@ if (isset($_SESSION['demo_action_count'])) {
                 <?php endforeach; ?>
             </div>
 
-            <div class="demo-exercises-cta">
+            <div class="demo-exercises-cta mt-6 rounded-2xl border border-slate-200 bg-slate-50 p-5 text-sm text-slate-700">
                 <p>💡 <strong>Vous avez testé <?php echo count($sampleExercises); ?> exercice<?php echo count($sampleExercises) > 1 ? 's' : ''; ?> interactif<?php echo count($sampleExercises) > 1 ? 's' : ''; ?> du niveau <?php echo htmlspecialchars($selected_level); ?> !</strong></p>
-                <p>Créez un compte pour accéder à tous les exercices interactifs, voir vos résultats et sauvegarder votre progression !</p>
-                <a href="<?php echo site_url('register'); ?>" class="demo-cta-link large">✨ Créer mon compte gratuit</a>
+                <p class="mt-2">Créez un compte pour accéder à tous les exercices interactifs, voir vos résultats et sauvegarder votre progression !</p>
+                <a href="<?php echo site_url('register'); ?>" class="demo-cta-link large mt-3 inline-flex rounded-full bg-slate-900 px-4 py-2 font-semibold text-white transition hover:bg-slate-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-slate-500 focus-visible:ring-offset-2">✨ Créer mon compte gratuit</a>
             </div>
         <?php else: ?>
             <div class="demo-placeholder">
@@ -600,9 +607,9 @@ if (isset($_SESSION['demo_action_count'])) {
     </section>
 
     <!-- Section Cours -->
-    <section class="demo-section" id="cours">
-        <h2>📚 Cours Complet</h2>
-        <p class="section-description">Découvrez un cours complet avec navigation et explications détaillées</p>
+    <section class="demo-section rounded-3xl border border-slate-200 bg-white/90 p-6 shadow-sm backdrop-blur-sm" id="cours">
+        <h2 class="text-2xl font-semibold text-slate-900">📚 Cours Complet</h2>
+        <p class="section-description mt-2 text-sm text-slate-600">Découvrez un cours complet avec navigation et explications détaillées</p>
 
         <?php if ($sampleCourse): ?>
         <div class="course-preview">
@@ -663,16 +670,16 @@ if (isset($_SESSION['demo_action_count'])) {
         </div>
         <?php endif; ?>
 
-        <div class="demo-cta-box">
+        <div class="demo-cta-box mt-6 rounded-2xl border border-slate-200 bg-slate-50 p-5 text-sm text-slate-700">
             <p>💡 <strong>Créez un compte</strong> pour accéder à tous les cours adaptés à votre niveau !</p>
-            <a href="<?php echo site_url('register'); ?>" class="demo-cta-link">✨ Créer mon compte</a>
+            <a href="<?php echo site_url('register'); ?>" class="demo-cta-link mt-3 inline-flex rounded-full bg-slate-900 px-4 py-2 font-semibold text-white transition hover:bg-slate-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-slate-500 focus-visible:ring-offset-2">✨ Créer mon compte</a>
         </div>
     </section>
 
     <!-- Section Quiz -->
-    <section class="demo-section" id="quiz">
-        <h2>🎯 Quiz Interactif</h2>
-        <p class="section-description">Testez vos connaissances avec un quiz dynamique basé sur les cours et exercices</p>
+    <section class="demo-section rounded-3xl border border-slate-200 bg-white/90 p-6 shadow-sm backdrop-blur-sm" id="quiz">
+        <h2 class="text-2xl font-semibold text-slate-900">🎯 Quiz Interactif</h2>
+        <p class="section-description mt-2 text-sm text-slate-600">Testez vos connaissances avec un quiz dynamique basé sur les cours et exercices</p>
 
         <?php if (!empty($sampleQuiz)): ?>
             <div class="quiz-preview demo-quiz-preview">
@@ -725,15 +732,15 @@ if (isset($_SESSION['demo_action_count'])) {
     </section>
 
     <!-- Footer de la démo -->
-    <div class="demo-footer">
-        <h2>Prêt à commencer votre aventure ?</h2>
-        <p>Créez un compte gratuit et accédez à tous les contenus, suivez votre progression et débloquez des récompenses !</p>
-        <div class="demo-footer-actions">
-            <a href="<?php echo site_url('register'); ?>" class="demo-cta-button primary">✨ Créer mon compte gratuit</a>
+    <div class="demo-footer rounded-3xl border border-slate-200 bg-slate-900 p-8 text-white shadow-sm">
+        <h2 class="text-2xl font-semibold">Prêt à commencer votre aventure ?</h2>
+        <p class="mt-3 max-w-2xl text-sm text-slate-300">Créez un compte gratuit et accédez à tous les contenus, suivez votre progression et débloquez des récompenses !</p>
+        <div class="demo-footer-actions mt-6 flex flex-wrap gap-3">
+            <a href="<?php echo site_url('register'); ?>" class="demo-cta-button primary inline-flex items-center rounded-full bg-emerald-600 px-4 py-2 font-semibold text-white transition hover:bg-emerald-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900">✨ Créer mon compte gratuit</a>
             <?php if (empty($is_demo_mode)): // Masquer le bouton de connexion en mode démo?>
-            <a href="<?php echo site_url('login'); ?>" class="demo-cta-button secondary">🔑 J'ai déjà un compte</a>
+            <a href="<?php echo site_url('login'); ?>" class="demo-cta-button secondary inline-flex items-center rounded-full border border-slate-700 px-4 py-2 font-semibold text-slate-100 transition hover:bg-slate-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-slate-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900">🔑 J'ai déjà un compte</a>
             <?php else: ?>
-            <a href="<?php echo site_url('logout'); ?>" class="demo-cta-button secondary">🚪 Quitter le mode démo</a>
+            <a href="<?php echo site_url('logout'); ?>" class="demo-cta-button secondary inline-flex items-center rounded-full border border-slate-700 px-4 py-2 font-semibold text-slate-100 transition hover:bg-slate-800 focus:outline-none focus-visible:ring-2 focus-visible:ring-slate-500 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-900">🚪 Quitter le mode démo</a>
             <?php endif; ?>
         </div>
     </div>
@@ -751,7 +758,7 @@ if (isset($_SESSION['demo_action_count'])) {
         updateActionCount(actionCount);
 
         // Sauvegarder dans la session (via AJAX)
-        fetch('<?php echo $baseUrl; ?>/api/track-demo-action.php', {
+        fetch('<?php echo htmlspecialchars($demoTrackingUrl, ENT_QUOTES, 'UTF-8'); ?>', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

@@ -283,12 +283,23 @@ if (in_array($pageRaw, ['logout', 'logout_parents'])) {
 // SÉCURITÉ : Bloquer l'accès aux fichiers sensibles via ?page=
 // Cette protection empêche d'accéder à des fichiers sensibles via le routeur
 $blockedPages = [
-    '.env', '.env.production', '.env.local', '.env.test', '.env.development',
-    'config.php', 'debug_env_loading.php',
-    '.htaccess', '.htaccessbak', '.htaccesscopy',
-    'composer.json', 'composer.lock',
-    'package.json', 'package-lock.json',
-    '.gitignore', '.git', '.gitconfig'
+    '.env',
+    '.env.production',
+    '.env.local',
+    '.env.test',
+    '.env.development',
+    'config.php',
+    'debug_env_loading.php',
+    '.htaccess',
+    '.htaccessbak',
+    '.htaccesscopy',
+    'composer.json',
+    'composer.lock',
+    'package.json',
+    'package-lock.json',
+    '.gitignore',
+    '.git',
+    '.gitconfig'
 ];
 
 // Vérifier si la page demandée correspond exactement à un fichier bloqué
@@ -316,11 +327,11 @@ if (preg_match('/^(config|\.htaccess|composer|package)/i', $pageRaw)) {
 // Détecter aussi les POST de login/register même si page= n'est pas dans l'URL
 // (cas où le formulaire envoie vers index.php sans paramètre)
 $isLoginPost = ($_SERVER['REQUEST_METHOD'] === 'POST' &&
-                isset($_POST['username']) && isset($_POST['password']) &&
-                isset($_POST['csrf_token']));
+    isset($_POST['username']) && isset($_POST['password']) &&
+    isset($_POST['csrf_token']));
 $isRegisterPost = ($_SERVER['REQUEST_METHOD'] === 'POST' &&
-                   isset($_POST['username']) && isset($_POST['password']) &&
-                   isset($_POST['classe']));
+    isset($_POST['username']) && isset($_POST['password']) &&
+    isset($_POST['classe']));
 
 // Déterminer quelle page traiter pour le POST
 $postPage = null;
@@ -358,7 +369,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $postPage && in_array($postPage, ['
 
     $found = null;
     foreach ($candidates as $cand) {
-        if (is_file($cand)) { $found = $cand; break; }
+        if (is_file($cand)) {
+            $found = $cand;
+            break;
+        }
     }
 
     error_log("ROUTER: Fichier trouvé pour POST: " . ($found ?? 'NONE'));
@@ -594,7 +608,10 @@ if (strpos($pageRaw, '/') !== false) {
 
 $found = null;
 foreach ($candidates as $cand) {
-    if (is_file($cand)) { $found = $cand; break; }
+    if (is_file($cand)) {
+        $found = $cand;
+        break;
+    }
 }
 
 // Debug: log si une page importante n'est pas trouvée
@@ -682,7 +699,7 @@ if ($handlesHeader) {
 
 // Pages autonomes : elles gèrent leur propre HTML et leurs redirections.
 // IMPORTANT: les inclure AVANT tout rendu HTML du routeur pour éviter le double-HTML.
-$pages_sensibles = ['login', 'register', 'dashboard_parent', 'parents/dashboard_parent', 'dashboard_admin', 'admin/dashboard_admin'];
+$pages_sensibles = ['login', 'register', 'dashboard_parent', 'parents/dashboard_parent', 'dashboard_admin', 'admin/dashboard_admin', 'view_course'];
 if (in_array($pageRaw, $pages_sensibles, true)) {
     $cwd = getcwd();
     // Marqueur debug avant inclusion dashboard

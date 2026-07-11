@@ -10,10 +10,10 @@ if (session_status() === PHP_SESSION_NONE) {
 $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
 ?>
 
-<main class="main-content min-h-screen bg-gray-50">
+<main class="main-content min-h-screen">
     <?php /* ...existing code... */ ?>
 
-    <div class="max-w-7xl mx-auto px-4 py-8">
+    <div class="mx-auto flex w-full max-w-7xl flex-col gap-6 px-4 py-8 sm:px-6 lg:px-8">
                 <?php
         $header_nav = [
             ['href' => site_url('cours', ['niveau' => '5eme']), 'label' => 'Cours 5ème', 'icon' => '📚', 'tone' => 'primary'],

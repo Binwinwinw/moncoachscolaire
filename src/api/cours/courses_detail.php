@@ -33,7 +33,7 @@ try {
     if ($courseId) {
         // Détails d'un cours avec ses ressources
         $stmt = $pdo->prepare("
-            SELECT c.* FROM Courses c
+            SELECT c.* FROM courses c
             WHERE c.Id = ? AND c.is_active = 1
         ");
         $stmt->execute([$courseId]);
@@ -74,7 +74,6 @@ try {
             'success' => true,
             'data' => $course,
         ];
-
     } elseif ($level || $subject) {
         // Lister les cours selon critères
         // Vérifier si le niveau demandé est supérieur à celui de l'utilisateur
@@ -85,7 +84,7 @@ try {
             }
         }
 
-        $sql = "SELECT c.* FROM Courses c WHERE c.is_active = 1";
+        $sql = "SELECT c.* FROM courses c WHERE c.is_active = 1";
         $params = [];
 
         if ($level) {
@@ -116,11 +115,10 @@ try {
         if ($subject) {
             $response['filters']['subject'] = $subject;
         }
-
     } else {
         // Tous les cours
         $stmt = $pdo->query("
-            SELECT * FROM Courses
+            SELECT * FROM courses
             WHERE is_active = 1
             ORDER BY Title
             LIMIT 50
@@ -136,7 +134,6 @@ try {
 
     header('Content-Type: application/json; charset=utf-8');
     echo json_encode($response, JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT);
-
 } catch (Exception $e) {
     header('Content-Type: application/json; charset=utf-8');
     echo json_encode([

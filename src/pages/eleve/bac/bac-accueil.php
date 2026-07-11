@@ -150,7 +150,8 @@ if ($is_logged_in && !$deny_bac && isset($pdo) && $pdo) {
 }
 ?>
 
-<main class="main-content bac-accueil-main min-h-screen flex flex-col bg-yellow-50">
+<main class="main-content bac-accueil-main min-h-screen">
+    <div class="mx-auto flex w-full max-w-7xl flex-col px-4 py-8 md:px-6 lg:px-8">
     <?php
     // Afficher l'outil de navigation entre accueils
     if (function_exists('render_accueil_navigation')) {
@@ -174,7 +175,7 @@ if ($is_logged_in && !$deny_bac && isset($pdo) && $pdo) {
                 href="<?php echo htmlspecialchars($dashboard_url); ?>">📊 Mon dashboard</a>
         <?php endif; ?>
     </div>
-    <section class="intro">
+    <section class="intro w-full rounded-[2rem] border border-amber-200/70 bg-white/80 p-6 shadow-[0_25px_70px_-28px_rgba(245,158,11,0.28)] backdrop-blur md:p-8">
         <div class="bac-accueil-center mb-8 flex flex-col items-center">
             <h1 class="text-4xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 via-amber-400 to-yellow-600 mb-3 text-center drop-shadow-lg">
                 🚀 Objectif BAC réussi !
@@ -333,4 +334,5 @@ if (is_file(dirname(__DIR__, 3) . '/includes/user_card.php')) {
             <?php endif; ?>
         <?php endif; ?>
     </section>
+    </div>
 </main>

@@ -62,12 +62,14 @@ if ($direct_access) {
     }
     if ($root !== ''): ?>
           <link rel="stylesheet" href="<?php echo function_exists('asset_url') ? asset_url('assets/css/tailwind.css') : ($root . '/assets/css/tailwind.css'); ?>">
+          <link rel="stylesheet" href="<?php echo function_exists('asset_url') ? asset_url('assets/css/style.css') : ($root . '/assets/css/style.css'); ?>">
           <?php if (!empty($page_css)): ?>
             <link rel="stylesheet" href="<?php echo function_exists('asset_url') ? asset_url('assets/css/pages/' . $page_css) : ($root . '/assets/css/pages/' . htmlspecialchars($page_css)); ?>">
           <?php endif; ?>
           <link rel="stylesheet" href="<?php echo function_exists('asset_url') ? asset_url('assets/css/theme-level.css') : ($root . '/assets/css/theme-level.css'); ?>">
         <?php else: ?>
           <link rel="stylesheet" href="<?php echo function_exists('asset_url') ? asset_url('assets/css/tailwind.css') : 'assets/css/tailwind.css'; ?>">
+          <link rel="stylesheet" href="<?php echo function_exists('asset_url') ? asset_url('assets/css/style.css') : 'assets/css/style.css'; ?>">
           <?php if (!empty($page_css)): ?>
             <link rel="stylesheet" href="<?php echo function_exists('asset_url') ? asset_url('assets/css/pages/' . $page_css) : ('assets/css/pages/' . htmlspecialchars($page_css)); ?>">
           <?php endif; ?>
@@ -80,6 +82,8 @@ if ($direct_access) {
         require_once dirname(__DIR__, 2) . '/includes/topbar.php';
     }
 }
+
+echo '<main class="landingpage-main">';
 
 if (is_file(dirname(__DIR__, 2) . '/database/connection.php')) {
     require_once dirname(__DIR__, 2) . '/database/connection.php';
@@ -157,7 +161,7 @@ $student_theme = is_array($app_theme['variant'] ?? null) ? $app_theme['variant']
   <?php if ($is_logged_in || $is_parent_logged_in): ?>
     <!-- HERO CONNECTÉ -->
     <section class="mx-auto max-w-6xl px-4 lg:px-8 pt-10 lg:pt-16">
-      <div class="rounded-3xl bg-white/10 backdrop-blur-sm shadow-lg border border-sky-100 px-6 py-8 md:px-10 md:py-10">
+      <div class="rounded-3xl bg-transparent shadow-lg border border-sky-100 px-6 py-8 md:px-10 md:py-10">
         <div class="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
           <div class="max-w-xl">
             <?php if ($is_admin): ?>
@@ -319,7 +323,7 @@ $student_theme = is_array($app_theme['variant'] ?? null) ? $app_theme['variant']
   <!-- VISITEUR NON CONNECTÉ -->
 
   <!-- HEADER HERO VISITEUR -->
-  <header class="flex flex-col gap-2 items-center justify-center text-center py-10 px-4 pb-14 mx-auto my-8 max-w-5xl backdrop-blur-md rounded-2xl shadow-xl relative" role="banner" aria-label="Intro">
+  <header class="landing-header flex flex-col gap-2 items-center justify-center text-center py-10 px-4 pb-14 mx-auto my-8 max-w-5xl bg-transparent rounded-2xl shadow-xl relative" role="banner" aria-label="Intro">
     <h1 class="m-0 max-w-4xl text-4xl md:text-6xl font-bold text-slate-800 leading-tight">
       Bienvenue sur MonCoachScolaire&nbsp;!
     </h1>
