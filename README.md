@@ -74,10 +74,9 @@ Accédez à : **http://localhost:8000**
 
 ## ✨ Fonctionnalités principales
 
-🎯 **1088+ exercices interactifs** couvrant 8 niveaux (6ème → BAC)  
-📚 **Cours structurés** par matière et chapitre  
+🎯 **Générateur d'exercices interactifs** couvrant 8 niveaux (6ème → BAC)  
+📚 **Générateur de Cours structurés** par matière et chapitre  
 👥 **Dashboards multi-rôles** (Élève, Parent, Administrateur)  
-🤖 **Mascotte Colibri** avec animations WebM  
 📊 **Suivi de progression** personnalisé  
 🔐 **Authentification sécurisée** avec gestion de rôles  
 📱 **Design responsive** (mobile, tablette, desktop)  
