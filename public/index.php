@@ -136,6 +136,19 @@ if ((strpos($pageParam, 'api/') === 0) || (preg_match('#/api/(.+)$#', parse_url(
     error_log("🔧 ROUTER API: pageParam='" . $pageParam . "' | apiPath='" . $apiPath . "' | apiFile='" . $apiFile . "'");
     // Normalisation supplémentaire du chemin (trim, slashes)
     $apiPath = trim(str_replace('\\', '/', $apiPath), '/');
+    // Compatibilité: certaines pages appellent page=api/get_exercises?action=...
+    // On retire la query du chemin et on réinjecte ses paramètres dans $_GET.
+    if (strpos($apiPath, '?') !== false) {
+        [$apiPathOnly, $apiExtraQuery] = explode('?', $apiPath, 2);
+        $apiPath = $apiPathOnly;
+        $apiExtraParams = [];
+        parse_str($apiExtraQuery, $apiExtraParams);
+        foreach ($apiExtraParams as $k => $v) {
+            if (!isset($_GET[$k])) {
+                $_GET[$k] = $v;
+            }
+        }
+    }
     $apiFile = $root . '/src/api/' . $apiPath . '.php';
     error_log("🔧 ROUTER API: Normalized apiPath='" . $apiPath . "' | apiFile='" . $apiFile . "'");
 

@@ -11,6 +11,19 @@ function require_auth(): void
     }
 }
 
+function has_authenticated_session(): bool
+{
+    return !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
+}
+
+function has_valid_cli_token(?string $token): bool
+{
+    $configuredToken = (string) getenv('MCSPHP_CLI_API_TOKEN');
+    $token = (string) $token;
+
+    return $configuredToken !== '' && $token !== '' && hash_equals($configuredToken, $token);
+}
+
 function require_role(array $roles): void
 {
     require_auth();

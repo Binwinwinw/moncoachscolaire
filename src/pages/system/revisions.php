@@ -30,8 +30,20 @@ if (!$has_access) {
 require_once dirname(__DIR__, 2) . '/includes/ai_course_generator.php';
 
 $revisions = [];
-if (!empty($_SESSION['user_id']) && function_exists('getAiRevisionsForUser')) {
-    $revisions = getAiRevisionsForUser((int) $_SESSION['user_id']);
+$selectedRevision = null;
+$selectedContent = null;
+$revisionId = filter_input(INPUT_GET, 'id', FILTER_VALIDATE_INT);
+$sessionUserId = (int) ($_SESSION['user_id'] ?? 0);
+
+if ($revisionId && $sessionUserId > 0) {
+    $selectedRevision = getAiRevisionForUser((int) $revisionId, $sessionUserId);
+    if ($selectedRevision === null) {
+        http_response_code(404);
+    } else {
+        $selectedContent = decodeAiRevisionContent($selectedRevision);
+    }
+} elseif ($sessionUserId > 0 && function_exists('getAiRevisionsForUser')) {
+    $revisions = getAiRevisionsForUser($sessionUserId);
 }
 
 if (!is_array($revisions)) {
@@ -48,14 +60,91 @@ if (file_exists(dirname(__DIR__, 2) . '/includes/topbar.php')) {
         <div class="mb-6 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
             <div>
                 <h1 class="text-4xl font-bold text-slate-900">📚 Mes révisions IA</h1>
-                <p class="mt-2 text-slate-600">Retrouve tes cours et quiz générés par l'IA, sauvegardés dans ta bibliothèque.</p>
+                <p class="mt-2 text-slate-600">Retrouve tes cours et quiz générés par l'IA dans tes révisions privées.</p>
             </div>
-            <a href="<?php echo function_exists('site_url') ? site_url('system/cours') : 'index.php?page=cours'; ?>" class="inline-flex items-center gap-2 rounded-full bg-emerald-600 px-5 py-3 text-white font-semibold shadow hover:bg-emerald-700 transition">
-                ← Retour aux cours IA
+            <a href="<?php echo $selectedRevision !== null && function_exists('site_url') ? site_url('revisions') : (function_exists('site_url') ? site_url('system/cours') : 'index.php?page=cours'); ?>" class="inline-flex items-center gap-2 rounded-full bg-emerald-600 px-5 py-3 text-white font-semibold shadow hover:bg-emerald-700 transition">
+                <?php echo $selectedRevision !== null ? '← Retour aux révisions' : '← Retour aux cours IA'; ?>
             </a>
         </div>
 
-        <?php if (empty($revisions)): ?>
+        <?php if ($revisionId && $selectedRevision === null): ?>
+            <div class="rounded-3xl border border-slate-300 bg-slate-50 p-8 text-center text-slate-700" role="alert">
+                <p class="text-xl font-semibold">Révision introuvable.</p>
+                <p class="mt-3">Cette révision n'existe pas ou ne t'appartient pas.</p>
+            </div>
+        <?php elseif ($selectedRevision !== null): ?>
+            <?php
+            $selectedType = (string) ($selectedRevision['Type'] ?? 'unknown');
+            $selectedTitle = htmlspecialchars((string) ($selectedRevision['Title'] ?? 'Révision IA'), ENT_QUOTES, 'UTF-8');
+            $selectedSubject = htmlspecialchars((string) ($selectedRevision['Subject'] ?? ''), ENT_QUOTES, 'UTF-8');
+            $selectedLevel = htmlspecialchars((string) ($selectedRevision['Level'] ?? ''), ENT_QUOTES, 'UTF-8');
+            ?>
+            <article class="space-y-6" data-revision-id="<?php echo (int) $selectedRevision['Id']; ?>">
+                <header class="border-b border-slate-200 pb-5">
+                    <span class="text-sm font-semibold text-indigo-700"><?php echo $selectedType === 'course' ? 'Cours IA' : ($selectedType === 'quiz' ? 'Quiz IA' : 'Révision IA'); ?></span>
+                    <h2 class="mt-2 text-3xl font-bold text-slate-900"><?php echo $selectedTitle; ?></h2>
+                    <p class="mt-2 text-slate-600"><?php echo implode(' · ', array_filter([$selectedSubject, $selectedLevel])); ?></p>
+                </header>
+
+                <?php if (!is_array($selectedContent)): ?>
+                    <p class="rounded-xl bg-amber-50 p-4 text-amber-900" role="alert">Le contenu de cette révision est indisponible.</p>
+                <?php elseif ($selectedType === 'course'): ?>
+                    <?php if (!empty($selectedContent['introduction'])): ?>
+                        <p class="text-lg leading-8 text-slate-700"><?php echo nl2br(htmlspecialchars((string) $selectedContent['introduction'], ENT_QUOTES, 'UTF-8')); ?></p>
+                    <?php endif; ?>
+                    <?php if (!empty($selectedContent['objectives']) && is_array($selectedContent['objectives'])): ?>
+                        <section>
+                            <h3 class="text-xl font-bold text-slate-900">Objectifs</h3>
+                            <ul class="mt-3 list-disc space-y-2 pl-6 text-slate-700">
+                                <?php foreach ($selectedContent['objectives'] as $objective): ?>
+                                    <li><?php echo htmlspecialchars((string) $objective, ENT_QUOTES, 'UTF-8'); ?></li>
+                                <?php endforeach; ?>
+                            </ul>
+                        </section>
+                    <?php endif; ?>
+                    <?php foreach (($selectedContent['sections'] ?? []) as $section): ?>
+                        <?php if (is_array($section)): ?>
+                            <section class="border-t border-slate-200 pt-5">
+                                <h3 class="text-xl font-bold text-slate-900"><?php echo htmlspecialchars((string) ($section['title'] ?? 'Section'), ENT_QUOTES, 'UTF-8'); ?></h3>
+                                <p class="mt-3 whitespace-pre-line leading-7 text-slate-700"><?php echo htmlspecialchars((string) ($section['content'] ?? ''), ENT_QUOTES, 'UTF-8'); ?></p>
+                                <?php foreach (($section['examples'] ?? []) as $example): ?>
+                                    <?php if (is_array($example)): ?>
+                                        <div class="mt-4 border-l-4 border-emerald-500 bg-emerald-50 p-4 text-slate-700">
+                                            <p><strong>Exemple :</strong> <?php echo htmlspecialchars((string) ($example['input'] ?? ''), ENT_QUOTES, 'UTF-8'); ?></p>
+                                            <p class="mt-1"><strong>Résultat :</strong> <?php echo htmlspecialchars((string) ($example['output'] ?? ''), ENT_QUOTES, 'UTF-8'); ?></p>
+                                            <?php if (!empty($example['explanation'])): ?><p class="mt-1"><?php echo htmlspecialchars((string) $example['explanation'], ENT_QUOTES, 'UTF-8'); ?></p><?php endif; ?>
+                                        </div>
+                                    <?php endif; ?>
+                                <?php endforeach; ?>
+                            </section>
+                        <?php endif; ?>
+                    <?php endforeach; ?>
+                    <?php if (!empty($selectedContent['summary'])): ?>
+                        <section class="border-t border-slate-200 pt-5">
+                            <h3 class="text-xl font-bold text-slate-900">Résumé</h3>
+                            <p class="mt-3 whitespace-pre-line leading-7 text-slate-700"><?php echo htmlspecialchars((string) $selectedContent['summary'], ENT_QUOTES, 'UTF-8'); ?></p>
+                        </section>
+                    <?php endif; ?>
+                <?php elseif ($selectedType === 'quiz'): ?>
+                    <ol class="space-y-6">
+                        <?php foreach (($selectedContent['questions'] ?? []) as $questionIndex => $question): ?>
+                            <?php if (is_array($question)): ?>
+                                <li class="border-t border-slate-200 pt-5">
+                                    <h3 class="text-lg font-bold text-slate-900"><?php echo ($questionIndex + 1) . '. ' . htmlspecialchars((string) ($question['question'] ?? ''), ENT_QUOTES, 'UTF-8'); ?></h3>
+                                    <ul class="mt-3 space-y-2 text-slate-700">
+                                        <?php foreach (($question['choices'] ?? []) as $choice): ?>
+                                            <?php if (is_array($choice)): ?>
+                                                <li><?php echo htmlspecialchars((string) ($choice['label'] ?? ''), ENT_QUOTES, 'UTF-8'); ?></li>
+                                            <?php endif; ?>
+                                        <?php endforeach; ?>
+                                    </ul>
+                                </li>
+                            <?php endif; ?>
+                        <?php endforeach; ?>
+                    </ol>
+                <?php endif; ?>
+            </article>
+        <?php elseif (empty($revisions)): ?>
             <div class="rounded-3xl border border-dashed border-slate-300 bg-slate-50 p-8 text-center text-slate-700">
                 <p class="text-xl font-semibold">Aucune révision IA encore sauvegardée.</p>
                 <p class="mt-3">Génère un cours ou un quiz depuis les pages Exercices ou Cours pour le retrouver ici.</p>
@@ -93,6 +182,9 @@ if (file_exists(dirname(__DIR__, 2) . '/includes/topbar.php')) {
                                 <p class="mt-2 text-sm text-slate-500"><?php echo implode(' • ', $details); ?></p>
                             </div>
                             <div class="flex flex-wrap items-center gap-3">
+                                <?php if (!empty($revision['Content']) && ($revisionId = (int) ($revision['Id'] ?? 0)) > 0): ?>
+                                    <a href="<?php echo function_exists('site_url') ? site_url('revisions', ['id' => $revisionId]) : 'index.php?page=revisions&id=' . $revisionId; ?>" class="inline-flex items-center gap-2 rounded-full bg-indigo-700 px-4 py-2 text-sm font-semibold text-white hover:bg-indigo-800 transition">Voir le brouillon</a>
+                                <?php endif; ?>
                                 <?php if ($courseId > 0): ?>
                                     <a href="<?php echo function_exists('site_url') ? site_url('view_course', ['id' => $courseId]) : 'index.php?page=view_course&id=' . $courseId; ?>" class="inline-flex items-center gap-2 rounded-full bg-blue-700 px-4 py-2 text-sm font-semibold text-white hover:bg-blue-800 transition">Voir le cours</a>
                                 <?php endif; ?>

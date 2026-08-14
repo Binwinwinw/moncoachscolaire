@@ -48,4 +48,32 @@ class LoginSecurityRateLimitTest extends TestCase
         $this->assertArrayHasKey('remaining', $result);
         $this->assertGreaterThan(0, $result['remaining']);
     }
+
+    public function testRateLimitFallsBackToSessionWhenTableInitializationFails(): void
+    {
+        $GLOBALS['pdo'] = new class extends PDO {
+            public function __construct() {}
+
+            public function getAttribute(int $attribute): mixed
+            {
+                return 'mysql';
+            }
+
+            public function exec(string $statement): int|false
+            {
+                throw new PDOException('Database unavailable');
+            }
+        };
+
+        require_once __DIR__ . '/../src/includes/login_security.php';
+
+        for ($attempt = 0; $attempt < 5; $attempt++) {
+            recordFailedAttempt('fallback@example.com', 'login');
+        }
+
+        $result = checkLoginAttempts('fallback@example.com', 'login');
+
+        $this->assertFalse($result['allowed']);
+        $this->assertGreaterThan(0, $result['remaining']);
+    }
 }

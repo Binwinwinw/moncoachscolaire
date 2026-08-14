@@ -30,6 +30,8 @@ header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
 
 api_require([
     'method' => 'POST',
+    'auth_or_cli' => true,
+    'csrf' => true,
     'rate' => [
         'key' => 'ai_quiz',
         'limit' => 10,
@@ -681,30 +683,7 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 // Récupérer les données POST (supporte les deux nomenclatures : niveau/matiere ET level/subject)
-$jsonInput = file_get_contents('php://input');
-$data = json_decode($jsonInput, true);
-
-if (json_last_error() !== JSON_ERROR_NONE) {
-    jsonResponse(['success' => false, 'error' => 'Format JSON invalide en entrée'], 400);
-}
-
-$csrfToken = (string) ($_SERVER['HTTP_X_CSRF_TOKEN'] ?? ($data['csrf_token'] ?? ''));
-$csrfValid = function_exists('verifyCSRFToken')
-    ? verifyCSRFToken($csrfToken)
-    : (
-        isset($_SESSION['csrf_token'])
-        && $csrfToken !== ''
-        && hash_equals((string) $_SESSION['csrf_token'], $csrfToken)
-    );
-
-$cliToken = (string) ($_SERVER['HTTP_X_CLI_TOKEN'] ?? ($data['cli_token'] ?? ''));
-$cliTokenValid = $cliToken !== ''
-    && getenv('MCSPHP_CLI_API_TOKEN')
-    && hash_equals((string) getenv('MCSPHP_CLI_API_TOKEN'), $cliToken);
-
-if (!$csrfValid && !$cliTokenValid) {
-    jsonResponse(['success' => false, 'error' => 'Jeton CSRF invalide'], 403);
-}
+$data = api_get_json_body(true);
 
 $level = $data['level'] ?? $data['niveau'] ?? '';
 $subject = $data['subject'] ?? $data['matiere'] ?? '';

@@ -23,21 +23,25 @@ function require_csrf(?string $token = null): void
 
 function require_same_origin(): void
 {
-    $host = $_SERVER['HTTP_HOST'] ?? '';
+    $host = strtolower((string) ($_SERVER['HTTP_HOST'] ?? ''));
     $origin = $_SERVER['HTTP_ORIGIN'] ?? '';
     $referer = $_SERVER['HTTP_REFERER'] ?? '';
 
     if ($origin) {
-        $originHost = parse_url($origin, PHP_URL_HOST) ?? '';
-        if ($originHost !== $host) {
+        $originHost = strtolower((string) (parse_url($origin, PHP_URL_HOST) ?? ''));
+        $originPort = parse_url($origin, PHP_URL_PORT);
+        $originAuthority = $originHost . ($originPort !== null ? ':' . $originPort : '');
+        if ($originAuthority !== $host) {
             json_error('Origin invalide', 403, 'ERR_ORIGIN');
         }
         return;
     }
 
     if ($referer) {
-        $refHost = parse_url($referer, PHP_URL_HOST) ?? '';
-        if ($refHost !== $host) {
+        $refHost = strtolower((string) (parse_url($referer, PHP_URL_HOST) ?? ''));
+        $refPort = parse_url($referer, PHP_URL_PORT);
+        $refAuthority = $refHost . ($refPort !== null ? ':' . $refPort : '');
+        if ($refAuthority !== $host) {
             json_error('Referer invalide', 403, 'ERR_REFERER');
         }
         return;

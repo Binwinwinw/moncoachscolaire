@@ -19,6 +19,8 @@ header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
 
 api_require([
     'method' => 'POST',
+    'auth_or_cli' => true,
+    'csrf' => true,
     'rate' => [
         'key' => 'ai_explanation',
         'limit' => 20,
@@ -445,25 +447,7 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
-$jsonInput = file_get_contents('php://input');
-$data = json_decode($jsonInput, true);
-
-if (json_last_error() !== JSON_ERROR_NONE || !is_array($data)) {
-    explanationJsonResponse(['success' => false, 'error' => 'Format JSON invalide en entrée'], 400);
-}
-
-$csrfToken = (string) ($_SERVER['HTTP_X_CSRF_TOKEN'] ?? ($data['csrf_token'] ?? ''));
-$csrfValid = function_exists('verifyCSRFToken')
-    ? verifyCSRFToken($csrfToken)
-    : (
-        isset($_SESSION['csrf_token'])
-        && $csrfToken !== ''
-        && hash_equals((string) $_SESSION['csrf_token'], $csrfToken)
-    );
-
-if (!$csrfValid) {
-    explanationJsonResponse(['success' => false, 'error' => 'Jeton CSRF invalide'], 403);
-}
+$data = api_get_json_body(true);
 
 $level = sanitizeExplanationString($data['level'] ?? '');
 $subject = sanitizeExplanationString($data['subject'] ?? '');

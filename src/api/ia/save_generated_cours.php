@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Endpoint pour sauvegarder un cours généré par l'IA dans la bibliothèque
+ * Endpoint pour sauvegarder un cours généré par l'IA dans les révisions privées
  */
 
 header('Content-Type: application/json; charset=utf-8');
@@ -57,39 +57,34 @@ try {
     $course['subject'] = $course['subject'] ?? $subjectDb;
     $course['level'] = $course['level'] ?? $levelDb;
 
-    $courseId = saveCourseToDatabase($course);
-    $revisionId = 0;
-    try {
-        if (!empty($_SESSION['user_id']) && function_exists('saveAiRevision')) {
-            $revisionId = saveAiRevision(
-                (int) $_SESSION['user_id'],
-                'course',
-                $course['title'] ?? 'Cours IA généré',
-                $subjectDb,
-                $levelDb,
-                (int) $courseId,
-                [],
-                ['source' => 'save_generated_cours']
-            );
-        }
-    } catch (Throwable $revisionError) {
-        error_log('ai_revision save error: ' . $revisionError->getMessage());
+    $revisionId = saveAiRevision(
+        (int) $_SESSION['user_id'],
+        'course',
+        (string) ($course['title'] ?? 'Cours IA généré'),
+        (string) $subjectDb,
+        (string) $levelDb,
+        null,
+        [],
+        ['source' => 'save_generated_cours'],
+        $course
+    );
+
+    if ($revisionId <= 0) {
+        throw new RuntimeException('Impossible de sauvegarder le brouillon du cours.');
     }
 
-    $courseUrl = function_exists('site_url')
-        ? site_url('view_course', ['id' => (int) $courseId])
-        : 'index.php?page=view_course&id=' . (int) $courseId;
+    $revisionUrl = function_exists('site_url')
+        ? site_url('revisions', ['id' => $revisionId])
+        : 'index.php?page=revisions&id=' . $revisionId;
 
     api_additive_response([
         'success' => true,
-        'course_id' => (int) $courseId,
-        'course_url' => $courseUrl,
         'revision_id' => $revisionId,
-        'message' => 'Cours sauvegardé dans la bibliothèque.',
+        'revision_url' => $revisionUrl,
+        'message' => 'Cours sauvegardé dans tes révisions privées.',
         'data' => [
-            'course_id' => (int) $courseId,
-            'course_url' => $courseUrl,
             'revision_id' => $revisionId,
+            'revision_url' => $revisionUrl,
         ],
         'meta' => [
             'saved_at' => date('c'),

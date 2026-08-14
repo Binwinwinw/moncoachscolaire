@@ -81,6 +81,15 @@
         }
 
         /**
+         * Construit une URL API valide même si apiEndpoint contient deja des query params.
+         */
+        buildApiUrl(params) {
+            const endpoint = this.options.apiEndpoint || "";
+            const separator = endpoint.includes("?") ? "&" : "?";
+            return `${endpoint}${separator}${params}`;
+        }
+
+        /**
          * Détecte le niveau depuis l'URL ou le DOM
          */
         detectLevel() {
@@ -188,7 +197,7 @@
             try {
                 let url;
                 if (this.options.isAdmin) {
-                    url = `${this.options.apiEndpoint}?action=subjects&admin=1`;
+                    url = this.buildApiUrl("action=subjects&admin=1");
                     console.log("📡 Requête API (admin):", url);
                 } else {
                     if (!this.options.level) {
@@ -199,7 +208,9 @@
                     const normalizedLevel = this.normalizeLevel(
                         this.options.level,
                     );
-                    url = `${this.options.apiEndpoint}?action=subjects&level=${encodeURIComponent(normalizedLevel)}`;
+                    url = this.buildApiUrl(
+                        `action=subjects&level=${encodeURIComponent(normalizedLevel)}`,
+                    );
                     console.log("📡 Requête API:", url);
                     console.log("📚 Niveau utilisé:", normalizedLevel);
                 }
@@ -401,12 +412,16 @@
             try {
                 let url;
                 if (this.options.isAdmin) {
-                    url = `${this.options.apiEndpoint}?action=exercises&admin=1&subject=${encodeURIComponent(subject)}`;
+                    url = this.buildApiUrl(
+                        `action=exercises&admin=1&subject=${encodeURIComponent(subject)}`,
+                    );
                 } else {
                     const normalizedLevel = this.normalizeLevel(
                         this.options.level,
                     );
-                    url = `${this.options.apiEndpoint}?action=exercises&level=${encodeURIComponent(normalizedLevel)}&subject=${encodeURIComponent(subject)}`;
+                    url = this.buildApiUrl(
+                        `action=exercises&level=${encodeURIComponent(normalizedLevel)}&subject=${encodeURIComponent(subject)}`,
+                    );
                 }
 
                 const response = await fetch(url);
@@ -801,7 +816,7 @@
          */
         async loadExerciseHTML(exerciseId) {
             const response = await fetch(
-                `${this.options.apiEndpoint}?action=exercise_html&id=${exerciseId}`,
+                this.buildApiUrl(`action=exercise_html&id=${exerciseId}`),
             );
 
             if (!response.ok) {

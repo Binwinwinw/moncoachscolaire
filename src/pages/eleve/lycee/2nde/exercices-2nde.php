@@ -12,10 +12,10 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
 
 <main class="main-content min-h-screen">
     <?php
-?>
+    ?>
 
     <div class="mx-auto flex w-full max-w-7xl flex-col gap-6 px-4 py-8 sm:px-6 lg:px-8">
-                <?php
+        <?php
         $header_nav = [
             ['href' => site_url('cours', ['niveau' => 'seconde']), 'label' => 'Cours Seconde', 'icon' => '📚', 'tone' => 'primary'],
             ['href' => site_url('lycee/lycee-accueil'), 'label' => 'Accueil Lycée', 'icon' => '🏠', 'tone' => 'secondary'],
@@ -124,11 +124,11 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
 
         <!-- Contenu COMPLET pour les utilisateurs connectés -->
         <div class="rounded-[1.75rem] border border-emerald-200/70 bg-white/85 p-6 shadow-[0_20px_60px_-24px_rgba(16,185,129,0.25)] backdrop-blur">
-            <strong class="text-emerald-800">👋 Salut  ! C'est ton Coach Scolaire qui te parle !</strong><br>
+            <strong class="text-emerald-800">👋 Salut ! C'est ton Coach Scolaire qui te parle !</strong><br>
             <strong class="text-emerald-900">🎭 Thème Narratif : L'Exploration des Horizons du Savoir</strong><br>
             <span class="text-emerald-700">Bienvenue, jeune Maître en Formation ! Tu entres dans une nouvelle dimension d'apprentissage.
-            Le lycée t'ouvre les portes de la connaissance approfondie, où chaque matière révèle ses secrets.
-            Tu progresses vers l'excellence académique ! 🌌✨</span>
+                Le lycée t'ouvre les portes de la connaissance approfondie, où chaque matière révèle ses secrets.
+                Tu progresses vers l'excellence académique ! 🌌✨</span>
         </div>
 
         <div class="bg-gradient-to-r from-emerald-50 to-teal-50 rounded-xl p-6 mb-8 border border-emerald-200">
@@ -142,32 +142,32 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
             </p>
         </div>
 
-    <!-- NOUVEAU SYSTÈME DYNAMIQUE D'EXERCICES -->
-    <section class="rounded-[1.75rem] border border-slate-200/70 bg-white/90 p-6 shadow-[0_20px_60px_-24px_rgba(15,23,42,0.2)] backdrop-blur" id="dynamic-exercises-section">
-        <div class="dynamic-exercises-container" data-dynamic-exercises data-level="Seconde"></div>
-    </section>
+        <!-- NOUVEAU SYSTÈME DYNAMIQUE D'EXERCICES -->
+        <section class="rounded-[1.75rem] border border-slate-200/70 bg-white/90 p-6 shadow-[0_20px_60px_-24px_rgba(15,23,42,0.2)] backdrop-blur" id="dynamic-exercises-section">
+            <div class="dynamic-exercises-container" data-dynamic-exercises data-level="Seconde"></div>
+        </section>
 
 
-    <!-- Anciennes sections (cachées, conservées pour référence) -->
-    <style>
-        #dynamic-exercises-section ~ section,
-        #dynamic-exercises-section ~ .coach-message:last-of-type {
-            display: none;
-        }
-    </style>
+        <!-- Anciennes sections (cachées, conservées pour référence) -->
+        <style>
+            #dynamic-exercises-section~section,
+            #dynamic-exercises-section~.coach-message:last-of-type {
+                display: none;
+            }
+        </style>
 
-    <!-- MATHÉMATIQUES (Ancien système - masqué) -->
-    <section id="maths">
-        <h2>🧮 Mathématiques - Algèbre et Géométrie</h2>
+        <!-- MATHÉMATIQUES (Ancien système - masqué) -->
+        <section id="maths">
+            <h2>🧮 Mathématiques - Algèbre et Géométrie</h2>
 
-        <div class="coach-message">
-            <strong>🧮 Salut, Explorateur des Nombres !</strong> Les mathématiques au lycée ouvrent de nouveaux horizons :
-            fonctions, algèbre avancée, géométrie analytique. Chaque concept maîtrisé est un pas vers l'excellence.
-        </div>
+            <div class="coach-message">
+                <strong>🧮 Salut, Explorateur des Nombres !</strong> Les mathématiques au lycée ouvrent de nouveaux horizons :
+                fonctions, algèbre avancée, géométrie analytique. Chaque concept maîtrisé est un pas vers l'excellence.
+            </div>
 
 
             <!-- Afficher les exercices depuis la DB -->
-            <p><em>🧮  exercice(s) de Mathématiques disponible(s)</em></p>
+            <p><em>🧮 exercice(s) de Mathématiques disponible(s)</em></p>
             <div class="exercise-subject-group">
                 <div class="exercise-grid">
 
@@ -247,20 +247,20 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
                 </div>
             </article>
 
-    </section>
+        </section>
 
-    <!-- FRANÇAIS -->
-    <section id="francais">
-        <h2>📚 Français - Expression et Analyse</h2>
+        <!-- FRANÇAIS -->
+        <section id="francais">
+            <h2>📚 Français - Expression et Analyse</h2>
 
-        <div class="coach-message">
-            <strong>💬 Conseil de coach :</strong> Le français au lycée, c'est la maîtrise de l'argumentation et de l'analyse.
-            Chaque texte étudié enrichit ta compréhension du monde. Pratique régulièrement !
-        </div>
+            <div class="coach-message">
+                <strong>💬 Conseil de coach :</strong> Le français au lycée, c'est la maîtrise de l'argumentation et de l'analyse.
+                Chaque texte étudié enrichit ta compréhension du monde. Pratique régulièrement !
+            </div>
 
 
             <!-- Afficher les exercices depuis la DB -->
-            <p><em>📚  exercice(s) de Français disponible(s)</em></p>
+            <p><em>📚 exercice(s) de Français disponible(s)</em></p>
             <div class="exercise-subject-group">
                 <div class="exercise-grid">
 
@@ -291,7 +291,7 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
                         <p>La thèse est l'idée principale que l'auteur défend. Les arguments sont les preuves ou raisons qui soutiennent cette thèse. Cherche les mots-clés comme "donc", "par conséquent", "car", etc.</p>
                     </div>
 
-                    <div class="qcm-exercise" data-questions='[{"question":"Dans un texte argumentatif, la thèse est :","choices":[{"value":"a","label":"a) L\'idée principale que l\'auteur défend"},{"value":"b","label":"b) Le résumé du texte"},{"value":"c","label":"c) L\'introduction uniquement"}],"correct":"a"},{"question":"Les arguments servent à :","choices":[{"value":"a","label":"a) Illustrer le texte"},{"value":"b","label":"b) Soutenir et justifier la thèse"},{"value":"c","label":"c) Décorer le texte"}],"correct":"b"}]'>
+                    <div class="qcm-exercise" data-questions='[{"question":"Dans un texte argumentatif, la thèse est :","choices":[{"value":"a","label":"a) L\' idée principale que l\'auteur défend"},{"value":"b","label":"b) Le résumé du texte"},{"value":"c","label":"c) L\'introduction uniquement"}],"correct":"a"},{"question":"Les arguments servent à :","choices":[{"value":"a","label":"a) Illustrer le texte"},{"value":"b","label":"b) Soutenir et justifier la thèse"},{"value":"c","label":"c) Décorer le texte"}],"correct":"b"}]'>
                         <div class="qcm-container"><!-- Questions QCM via JS --></div>
                         <div>
                             <button class="btn-outline" data-action="verify-exercise">Vérifier mes réponses</button>
@@ -301,20 +301,20 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
                 </div>
             </article>
 
-    </section>
+        </section>
 
-    <!-- SCIENCES -->
-    <section id="sciences">
-        <h2>🔬 Sciences - SVT et Physique-Chimie</h2>
+        <!-- SCIENCES -->
+        <section id="sciences">
+            <h2>🔬 Sciences - SVT et Physique-Chimie</h2>
 
-        <div class="coach-message">
-            <strong>🔬 Les sciences, c'est l'aventure de la découverte !</strong> Comprendre le monde qui t'entoure,
-            des cellules aux lois physiques. Chaque expérience est une nouvelle révélation.
-        </div>
+            <div class="coach-message">
+                <strong>🔬 Les sciences, c'est l'aventure de la découverte !</strong> Comprendre le monde qui t'entoure,
+                des cellules aux lois physiques. Chaque expérience est une nouvelle révélation.
+            </div>
 
 
             <!-- Afficher les exercices depuis la DB -->
-            <p><em>🔬  exercice(s) de Sciences disponible(s)</em></p>
+            <p><em>🔬 exercice(s) de Sciences disponible(s)</em></p>
             <div class="exercise-subject-group">
                 <div class="exercise-grid">
 
@@ -345,7 +345,7 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
                         <p>Chaque organite a une fonction spécifique dans la cellule. Le noyau contient l'information génétique, les mitochondries produisent l'énergie, les ribosomes synthétisent les protéines.</p>
                     </div>
 
-                    <div class="qcm-exercise" data-questions='[{"question":"Quel organite contient l\'ADN ?","choices":[{"value":"a","label":"a) Mitochondrie"},{"value":"b","label":"b) Noyau"},{"value":"c","label":"c) Ribosome"}],"correct":"b"},{"question":"Quel organite produit l\'énergie cellulaire ?","choices":[{"value":"a","label":"a) Noyau"},{"value":"b","label":"b) Mitochondrie"},{"value":"c","label":"c) Ribosome"}],"correct":"b"}]'>
+                    <div class="qcm-exercise" data-questions='[{"question":"Quel organite contient l\' ADN ?","choices":[{"value":"a","label":"a) Mitochondrie"},{"value":"b","label":"b) Noyau"},{"value":"c","label":"c) Ribosome"}],"correct":"b"},{"question":"Quel organite produit l\'énergie cellulaire ?","choices":[{"value":"a","label":"a) Noyau"},{"value":"b","label":"b) Mitochondrie"},{"value":"c","label":"c) Ribosome"}],"correct":"b"}]'>
                         <div class="qcm-container"><!-- Questions QCM via JS --></div>
                         <div>
                             <button class="btn-outline" data-action="verify-exercise">Vérifier mes réponses</button>
@@ -358,114 +358,127 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
         </section>
 
 
-    <!-- CSS pour le système dynamique -->
-    <link rel="stylesheet" href="<?php echo function_exists('asset_url') ? asset_url('assets/css/pages/dynamic-exercises.css') : 'assets/css/pages/dynamic-exercises.css'; ?>">
+        <!-- CSS pour le système dynamique -->
+        <link rel="stylesheet" href="<?php echo function_exists('asset_url') ? asset_url('assets/css/pages/dynamic-exercises.css') : 'assets/css/pages/dynamic-exercises.css'; ?>">
 
-    <!-- Colibri désactivé (remplacé par Coach WebM) -->
-    <!-- ancien: colibri-mascot.css + colibri-mascot.js -->
+        <!-- Colibri désactivé (remplacé par Coach WebM) -->
+        <!-- ancien: colibri-mascot.css + colibri-mascot.js -->
 
-    <!-- Script pour les exercices interactifs (charger AVANT le système dynamique) -->
-    <script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/interactive-exercises.js') : 'assets/js/interactive-exercises.js'; ?>"></script>
+        <!-- Script pour les exercices interactifs (charger AVANT le système dynamique) -->
+        <script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/interactive-exercises.js') : 'assets/js/interactive-exercises.js'; ?>"></script>
 
-    <!-- JavaScript pour le système dynamique -->
-    <script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/dynamic-exercises.js') : 'assets/js/dynamic-exercises.js'; ?>"></script>
+        <!-- JavaScript pour le système dynamique -->
+        <script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/dynamic-exercises.js') : 'assets/js/dynamic-exercises.js'; ?>"></script>
 
-    <script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/exercises.js') : 'assets/js/exercises.js'; ?>"></script>
+        <script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/exercises.js') : 'assets/js/exercises.js'; ?>"></script>
 
-    <script>
-        // S'assurer que baseUrl est défini (ne pas écraser s'il existe déjà depuis index.php)
-        if (typeof window.baseUrl === 'undefined') {
-            window.baseUrl = '';
-        }
-        console.log('🔧 baseUrl détecté:', window.baseUrl);
+        <script>
+            // S'assurer que baseUrl est défini (ne pas écraser s'il existe déjà depuis index.php)
+            if (typeof window.baseUrl === 'undefined') {
+                window.baseUrl = '';
+            }
+            console.log('🔧 baseUrl détecté:', window.baseUrl);
 
-        // Initialiser le système dynamique après chargement
-        function initDynamicExercises() {
-            // Attendre que DynamicExerciseSystem soit disponible
-            if (typeof DynamicExerciseSystem !== 'undefined') {
-                const container = document.querySelector('[data-dynamic-exercises]');
-                if (container) {
-                    console.log('🎯 Initialisation du système d\'exercices dynamique pour Seconde...');
-                    const baseUrl = window.baseUrl || '';
-                    const apiEndpoint = baseUrl ? baseUrl + '/api/get_exercises.php' : '/api/get_exercises.php';
-                    console.log('📡 API Endpoint:', apiEndpoint);
+            // Initialiser le système dynamique après chargement
+            function initDynamicExercises() {
+                // Attendre que DynamicExerciseSystem soit disponible
+                if (typeof DynamicExerciseSystem !== 'undefined') {
+                    const container = document.querySelector('[data-dynamic-exercises]');
+                    if (container) {
+                        console.log('🎯 Initialisation du système d\'exercices dynamique pour Seconde...');
+                        const baseUrl = window.baseUrl || '';
+                        const apiEndpoint = baseUrl ? baseUrl + '/api/get_exercises.php' : '/api/get_exercises.php';
+                        console.log('📡 API Endpoint:', apiEndpoint);
 
-                    try {
-                        // Passer le sélecteur (string) au lieu de l'élément directement
-                        window.dynamicExerciseSystem = new DynamicExerciseSystem({
-                            containerSelector: '[data-dynamic-exercises]', // Sélecteur string
-                            level: 'Seconde',
-                            apiEndpoint: apiEndpoint
-                        });
-                        console.log('✅ Système initialisé avec succès');
-                    } catch (error) {
-                        console.error('❌ Erreur:', error);
-                        container.innerHTML = '<div class="exercise-error">Erreur: ' + error.message + '</div>';
+                        try {
+                            // Passer le sélecteur (string) au lieu de l'élément directement
+                            window.dynamicExerciseSystem = new DynamicExerciseSystem({
+                                containerSelector: '[data-dynamic-exercises]', // Sélecteur string
+                                level: 'Seconde',
+                                apiEndpoint: apiEndpoint
+                            });
+                            console.log('✅ Système initialisé avec succès');
+                        } catch (error) {
+                            console.error('❌ Erreur:', error);
+                            container.innerHTML = '<div class="exercise-error">Erreur: ' + error.message + '</div>';
+                        }
+                    } else {
+                        console.warn('⚠️ Container non trouvé');
                     }
                 } else {
-                    console.warn('⚠️ Container non trouvé');
+                    // Réessayer après un court délai
+                    console.log('⏳ Attente de DynamicExerciseSystem...');
+                    setTimeout(initDynamicExercises, 200);
                 }
-            } else {
-                // Réessayer après un court délai
-                console.log('⏳ Attente de DynamicExerciseSystem...');
-                setTimeout(initDynamicExercises, 200);
             }
-        }
 
-        // Initialiser quand le DOM est prêt
-        if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', function() {
+            // Initialiser quand le DOM est prêt
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', function() {
+                    setTimeout(initDynamicExercises, 300);
+                });
+            } else {
                 setTimeout(initDynamicExercises, 300);
-            });
-        } else {
-            setTimeout(initDynamicExercises, 300);
-        }
-    </script>
+            }
+        </script>
 
 
 
-    <!-- Coach WebM -->
-    <script>
-      window.baseUrl = '';
-    </script>
-    <script src=""></script>
-    <style>
-      .coach-overlay {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        width: 250px;
-        height: auto;
-        z-index: 9999;
-        pointer-events: none;
-        opacity: 0;
-        transition: opacity 0.5s ease-out;
-      }
-      .coach-overlay.active {
-        opacity: 1;
-        animation: slideInUp 0.6s ease-out;
-      }
-      .coach-overlay video {
-        width: 100%;
-        height: auto;
-        display: block;
-        border-radius: 12px;
-        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-        background: transparent;
-      }
-      @keyframes slideInUp {
-        from { opacity: 0; transform: translateY(30px); }
-        to { opacity: 1; transform: translateY(0); }
-      }
-      @media (max-width: 480px) {
-        .coach-overlay { width: 180px; bottom: 10px; right: 10px; }
-      }
+        <!-- Coach WebM -->
+        <style>
+            .coach-overlay {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                width: 250px;
+                height: auto;
+                z-index: 9999;
+                pointer-events: none;
+                opacity: 0;
+                transition: opacity 0.5s ease-out;
+            }
+
+            .coach-overlay.active {
+                opacity: 1;
+                animation: slideInUp 0.6s ease-out;
+            }
+
+            .coach-overlay video {
+                width: 100%;
+                height: auto;
+                display: block;
+                border-radius: 12px;
+                box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+                background: transparent;
+            }
+
+            @keyframes slideInUp {
+                from {
+                    opacity: 0;
+                    transform: translateY(30px);
+                }
+
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            @media (max-width: 480px) {
+                .coach-overlay {
+                    width: 180px;
+                    bottom: 10px;
+                    right: 10px;
+                }
+            }
+
             /* Désactiver toute ancienne mascotte Colibri si présente */
             .colibri-mascot-container,
             .colibri-mascot-global,
             [data-colibri],
-            [data-colibri-global] { display: none !important; }
-    </style>
-</div>
+            [data-colibri-global] {
+                display: none !important;
+            }
+        </style>
+    </div>
 </main>
-

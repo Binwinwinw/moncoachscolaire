@@ -27,6 +27,42 @@ function normalizeSchoolLevelValue(levelValue) {
     return aliases[normalized] || normalized;
 }
 
+function buildApiUrl(path, queryParams = {}) {
+    const normalizedPath = String(path || "").replace(/^\/+/, "");
+    let url = "";
+
+    if (window.apiBasePath) {
+        const apiBase = String(window.apiBasePath).replace(/\?$/, "");
+        url = apiBase
+            .replace(/([?&])page=api(?:\/.*)?$/, "")
+            .replace(/\/?$/, "");
+        url += url.includes("?") ? "&" : "?";
+        url += `page=api/${normalizedPath}`;
+    } else {
+        const base = (window.basePath || "").replace(/\/+$/, "");
+        if (base) {
+            url = `${base}/public/index.php?page=api/${normalizedPath}`;
+        } else {
+            url = `/public/index.php?page=api/${normalizedPath}`;
+        }
+    }
+
+    const params = new URLSearchParams();
+    Object.entries(queryParams).forEach(([key, value]) => {
+        if (value === undefined || value === null) {
+            return;
+        }
+        params.set(key, String(value));
+    });
+
+    const queryString = params.toString();
+    if (queryString) {
+        url += `&${queryString}`;
+    }
+
+    return url;
+}
+
 function initDiagnosticQuizAiModal() {
     const openButton = document.getElementById("btn-diagnostic-quiz-ia");
     const modal = document.getElementById("modal-diagnostic-quiz-ia");
@@ -147,7 +183,7 @@ function initDiagnosticQuizAiModal() {
         try {
             const csrfToken = window.csrfToken || "";
             const generateResponse = await fetch(
-                `${window.basePath || ""}/index.php?page=api/ia/generate_quiz`,
+                buildApiUrl("ia/generate_quiz"),
                 {
                     method: "POST",
                     headers: {
@@ -217,7 +253,7 @@ function initDiagnosticQuizAiModal() {
                     try {
                         const csrfToken = window.csrfToken || "";
                         const saveResponse = await fetch(
-                            `${window.basePath || ""}/index.php?page=api/ia/save_generated_quiz`,
+                            buildApiUrl("ia/save_generated_quiz"),
                             {
                                 method: "POST",
                                 headers: {
@@ -586,7 +622,7 @@ async function openDiagnosticExplanation() {
     );
 
     const data = await requestDiagnosticAi(
-        `${window.basePath || ""}/index.php?page=api/ia/generate_exercise_explanation`,
+        buildApiUrl("ia/generate_exercise_explanation"),
         payload,
     );
 
@@ -609,7 +645,7 @@ async function openDiagnosticPreciseCourse() {
     );
 
     const data = await requestDiagnosticAi(
-        `${window.basePath || ""}/index.php?page=api/ia/generate_precise_course`,
+        buildApiUrl("ia/generate_precise_course"),
         payload,
     );
 
@@ -765,16 +801,19 @@ document.addEventListener("DOMContentLoaded", async () => {
         return;
     }
 
-    const apiUrl =
-        `${window.apiBasePath}/diagnostic.php?level=${encodeURIComponent(level)}` +
-        (subject ? `&subject=${encodeURIComponent(subject)}` : "") +
-        childIdQuery;
-    const idsUrl =
-        `${window.apiBasePath}/diagnostic.php?ids_only=1&level=${encodeURIComponent(
-            level,
-        )}` +
-        (subject ? `&subject=${encodeURIComponent(subject)}` : "") +
-        childIdQuery;
+    const queryBase = {
+        level,
+        ...(subject ? { subject } : {}),
+        ...(diagnosticContext.role === "parent" && childId > 0
+            ? { child_id: childId }
+            : {}),
+    };
+
+    const apiUrl = buildApiUrl("diagnostic", queryBase);
+    const idsUrl = buildApiUrl("diagnostic", {
+        ids_only: 1,
+        ...queryBase,
+    });
 
     console.log("INFO: Diagnostic page loading");
     console.log("INFO: Diagnostic IDs URL:", idsUrl);
@@ -1043,7 +1082,10 @@ document.addEventListener("DOMContentLoaded", async () => {
             const input = app.querySelector("#quiz-id-input");
             const launchBtn = app.querySelector("#quiz-id-start-btn");
             async function fetchQuizFileById(requestedId) {
-                const verifyUrl = `${window.apiBasePath}/quiz.php?id=${requestedId}&include_answers=1`;
+                const verifyUrl = buildApiUrl("quiz.php", {
+                    id: requestedId,
+                    include_answers: 1,
+                });
                 const response = await fetch(verifyUrl);
                 if (!response.ok) {
                     return null;
@@ -1166,7 +1208,9 @@ async function startQuiz(contentId, title) {
 
     try {
         const response = await fetch(
-            `${window.apiBasePath}/quiz.php?id=${contentId}`,
+            buildApiUrl("quiz.php", {
+                id: contentId,
+            }),
         );
         if (!response.ok) {
             if (response.status === 404) {
@@ -1200,7 +1244,7 @@ async function startQuiz(contentId, title) {
                             ${title}
                         </h1>
                         <div class="flex items-center space-x-4 text-sm font-semibold">
-                            <span>Progression: <span id="progress-count">0</span>/${questions.length}</span>
+                            <span>Progression: <span class="progress-count">0</span>/${questions.length}</span>
                             <span class="rounded-full bg-emerald-100 px-3 py-1 text-xs text-emerald-800">Prêt</span>
                         </div>
                     </div>
@@ -1232,7 +1276,7 @@ async function startQuiz(contentId, title) {
             <div class="sticky bottom-6 z-30 mx-4 rounded-3xl border border-emerald-200 bg-white/95 p-8 shadow-lg lg:mx-0">
                 <div class="max-w-4xl mx-auto">
                     <div class="flex items-center justify-between mb-6 text-lg font-semibold">
-                        <span>✅ <span id="progress-count">0</span>/${questions.length} répondues</span>
+                        <span>✅ <span class="progress-count">0</span>/${questions.length} répondues</span>
                         <span class="text-xl font-bold text-emerald-700">Prêt à corriger !</span>
                     </div>
                     <button onclick="submitQuiz()"
@@ -1278,7 +1322,7 @@ function updateProgress() {
     const total =
         currentQuizState?.totalQuestions ||
         document.querySelectorAll(".question").length;
-    const elements = document.querySelectorAll("#progress-count");
+    const elements = document.querySelectorAll(".progress-count");
     elements.forEach((el) => {
         el.textContent = `${answered}`;
     });
@@ -1334,18 +1378,15 @@ async function submitQuiz() {
 
     let responseData;
     try {
-        const response = await fetch(
-            `${window.apiBasePath}/diagnostic/submit.php`,
-            {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                    Accept: "application/json",
-                    "X-CSRF-Token": window.csrfToken || "",
-                },
-                body: JSON.stringify(payload),
+        const response = await fetch(buildApiUrl("diagnostic/submit"), {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json",
+                "X-CSRF-Token": window.csrfToken || "",
             },
-        );
+            body: JSON.stringify(payload),
+        });
 
         const bodyText = await response.text();
         let parsed;
@@ -1588,7 +1629,10 @@ async function showCorrectionsHelp() {
 
     try {
         const response = await fetch(
-            `${window.apiBasePath}/quiz.php?id=${currentQuizState.contentId}&include_answers=1`,
+            buildApiUrl("quiz.php", {
+                id: currentQuizState.contentId,
+                include_answers: 1,
+            }),
         );
         if (!response.ok) {
             throw new Error(`HTTP ${response.status}`);
@@ -1663,7 +1707,11 @@ function reviewFailedQuestions(toReviewLabels) {
         </div>
     `;
 
-    fetch(`${window.apiBasePath}/quiz.php?id=${currentQuizState.contentId}`)
+    fetch(
+        buildApiUrl("quiz.php", {
+            id: currentQuizState.contentId,
+        }),
+    )
         .then((response) => response.json())
         .then((quizData) => {
             const allQuestions = quizData.quiz?.questions || [];
@@ -1725,7 +1773,7 @@ function renderReviewQuiz(questions, labels) {
                         <p class="mt-1 text-sm text-slate-600">Questions à revoir : ${labels.join(", ")}</p>
                     </div>
                     <div class="flex items-center space-x-4 text-sm font-semibold">
-                        <span>Progression: <span id="progress-count">0</span>/${questions.length}</span>
+                        <span>Progression: <span class="progress-count">0</span>/${questions.length}</span>
                         <span class="rounded-full bg-rose-100 px-3 py-1 text-xs text-rose-800">Révision</span>
                     </div>
                 </div>
@@ -1757,7 +1805,7 @@ function renderReviewQuiz(questions, labels) {
         <div class="sticky bottom-6 z-30 mx-4 rounded-3xl border border-rose-200 bg-white/95 p-8 shadow-lg lg:mx-0">
             <div class="max-w-4xl mx-auto">
                 <div class="flex items-center justify-between mb-6 text-lg font-semibold">
-                    <span>✅ <span id="progress-count">0</span>/${questions.length} répondues</span>
+                    <span>✅ <span class="progress-count">0</span>/${questions.length} répondues</span>
                     <span class="text-xl font-bold text-rose-700">Prêt à corriger !</span>
                 </div>
                 <button onclick="submitQuiz()"

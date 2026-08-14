@@ -11,11 +11,8 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
 ?>
 
 <main class="main-content min-h-screen">
-    <?php
-?>
-
     <div class="mx-auto flex w-full max-w-7xl flex-col gap-6 px-4 py-8 sm:px-6 lg:px-8">
-                <?php
+        <?php
         $header_nav = [
             ['href' => site_url('cours', ['niveau' => 'premiere']), 'label' => 'Cours Première', 'icon' => '📚', 'tone' => 'primary'],
             ['href' => site_url('lycee/lycee-accueil'), 'label' => 'Accueil Lycée', 'icon' => '🏠', 'tone' => 'secondary'],
@@ -124,11 +121,11 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
 
         <!-- Contenu COMPLET pour les utilisateurs connectés -->
         <div class="rounded-[1.75rem] border border-violet-200/70 bg-white/85 p-6 shadow-[0_20px_60px_-24px_rgba(139,92,246,0.24)] backdrop-blur">
-            <strong class="text-purple-800">👋 Salut  ! C'est ton Coach Scolaire qui te parle !</strong><br>
+            <strong class="text-purple-800">👋 Salut ! C'est ton Coach Scolaire qui te parle !</strong><br>
             <strong class="text-purple-900">🎭 Thème Narratif : La Préparation à l'Excellence</strong><br>
             <span class="text-purple-700">Bienvenue, Expert Académique ! Tu es en Première, une année cruciale où tu prépares le contrôle continu
-            et approfondis tes spécialités. Chaque exercice te rapproche de l'excellence et du Bac !
-            Tu progresses vers la maîtrise complète ! ⭐✨</span>
+                et approfondis tes spécialités. Chaque exercice te rapproche de l'excellence et du Bac !
+                Tu progresses vers la maîtrise complète ! ⭐✨</span>
         </div>
 
         <div class="bg-gradient-to-r from-purple-50 to-pink-50 rounded-xl p-6 mb-8 border border-purple-200">
@@ -142,32 +139,32 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
             </p>
         </div>
 
-    <!-- NOUVEAU SYSTÈME DYNAMIQUE D'EXERCICES -->
-    <section class="rounded-[1.75rem] border border-slate-200/70 bg-white/90 p-6 shadow-[0_20px_60px_-24px_rgba(15,23,42,0.2)] backdrop-blur" id="dynamic-exercises-section">
-        <div class="dynamic-exercises-container" data-dynamic-exercises data-level="Première"></div>
-    </section>
+        <!-- NOUVEAU SYSTÈME DYNAMIQUE D'EXERCICES -->
+        <section class="rounded-[1.75rem] border border-slate-200/70 bg-white/90 p-6 shadow-[0_20px_60px_-24px_rgba(15,23,42,0.2)] backdrop-blur" id="dynamic-exercises-section">
+            <div class="dynamic-exercises-container" data-dynamic-exercises data-level="Première"></div>
+        </section>
 
 
-    <!-- Anciennes sections (cachées, conservées pour référence) -->
-    <style>
-        #dynamic-exercises-section ~ section,
-        #dynamic-exercises-section ~ .coach-message:last-of-type {
-            display: none;
-        }
-    </style>
+        <!-- Anciennes sections (cachées, conservées pour référence) -->
+        <style>
+            #dynamic-exercises-section~section,
+            #dynamic-exercises-section~.coach-message:last-of-type {
+                display: none;
+            }
+        </style>
 
-    <!-- FRANÇAIS (Ancien système - masqué) -->
-    <section id="francais">
-        <h2>📚 Français - Dissertation et Commentaire</h2>
+        <!-- FRANÇAIS (Ancien système - masqué) -->
+        <section id="francais">
+            <h2>📚 Français - Dissertation et Commentaire</h2>
 
-        <div class="coach-message">
-            <strong>💬 Conseil de coach :</strong> En Première, le français devient un art de l'argumentation.
-            Dissertation, commentaire, oral : chaque exercice développe ta capacité à analyser et argumenter.
-        </div>
+            <div class="coach-message">
+                <strong>💬 Conseil de coach :</strong> En Première, le français devient un art de l'argumentation.
+                Dissertation, commentaire, oral : chaque exercice développe ta capacité à analyser et argumenter.
+            </div>
 
 
             <!-- Afficher les exercices depuis la DB -->
-            <p><em>📚  exercice(s) de Français disponible(s)</em></p>
+            <p><em>📚 exercice(s) de Français disponible(s)</em></p>
             <div class="exercise-subject-group">
                 <div class="exercise-grid">
 
@@ -198,7 +195,7 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
                         <p>Une bonne dissertation comprend : introduction (problématique), développement (arguments + exemples), contre-arguments, réponse et conclusion. Structure claire = réussite !</p>
                     </div>
 
-                    <div class="qcm-exercise" data-questions='[{"question":"Dans une dissertation, la problématique se trouve :","choices":[{"value":"a","label":"a) Dans l\'introduction"},{"value":"b","label":"b) Dans la conclusion"},{"value":"c","label":"c) Dans le développement"}],"correct":"a"},{"question":"Un bon argument doit être :","choices":[{"value":"a","label":"a) Illustré par un exemple concret"},{"value":"b","label":"b) Sans exemple"},{"value":"c","label":"c) Général seulement"}],"correct":"a"}]'>
+                    <div class="qcm-exercise" data-questions='[{"question":"Dans une dissertation, la problématique se trouve :","choices":[{"value":"a","label":"a) Dans l\' introduction"},{"value":"b","label":"b) Dans la conclusion"},{"value":"c","label":"c) Dans le développement"}],"correct":"a"},{"question":"Un bon argument doit être :","choices":[{"value":"a","label":"a) Illustré par un exemple concret"},{"value":"b","label":"b) Sans exemple"},{"value":"c","label":"c) Général seulement"}],"correct":"a"}]'>
                         <div class="qcm-container"><!-- Questions QCM via JS --></div>
                         <div>
                             <button class="btn-outline" data-action="verify-exercise">Vérifier mes réponses</button>
@@ -208,20 +205,20 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
                 </div>
             </article>
 
-    </section>
+        </section>
 
-    <!-- MATHÉMATIQUES -->
-    <section id="maths">
-        <h2>🧮 Mathématiques - Dérivées et Fonctions</h2>
+        <!-- MATHÉMATIQUES -->
+        <section id="maths">
+            <h2>🧮 Mathématiques - Dérivées et Fonctions</h2>
 
-        <div class="coach-message">
-            <strong>🧮 Salut, Maître des Nombres !</strong> Les mathématiques en Première introduisent les dérivées,
-            les limites et l'analyse de fonctions. Chaque concept maîtrisé est un pas vers l'excellence.
-        </div>
+            <div class="coach-message">
+                <strong>🧮 Salut, Maître des Nombres !</strong> Les mathématiques en Première introduisent les dérivées,
+                les limites et l'analyse de fonctions. Chaque concept maîtrisé est un pas vers l'excellence.
+            </div>
 
 
             <!-- Afficher les exercices depuis la DB -->
-            <p><em>🧮  exercice(s) de Mathématiques disponible(s)</em></p>
+            <p><em>🧮 exercice(s) de Mathématiques disponible(s)</em></p>
             <div class="exercise-subject-group">
                 <div class="exercise-grid">
 
@@ -262,20 +259,20 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
                 </div>
             </article>
 
-    </section>
+        </section>
 
-    <!-- SCIENCES -->
-    <section id="sciences">
-        <h2>🔬 Sciences - Physique-Chimie et SVT</h2>
+        <!-- SCIENCES -->
+        <section id="sciences">
+            <h2>🔬 Sciences - Physique-Chimie et SVT</h2>
 
-        <div class="coach-message">
-            <strong>🔬 Les sciences, c'est comprendre le monde !</strong> En Première, tu approfondis les lois physiques,
-            les réactions chimiques et les mécanismes biologiques. Chaque expérience est une découverte.
-                    </div>
+            <div class="coach-message">
+                <strong>🔬 Les sciences, c'est comprendre le monde !</strong> En Première, tu approfondis les lois physiques,
+                les réactions chimiques et les mécanismes biologiques. Chaque expérience est une découverte.
+            </div>
 
 
             <!-- Afficher les exercices depuis la DB -->
-            <p><em>🔬  exercice(s) de Sciences disponible(s)</em></p>
+            <p><em>🔬 exercice(s) de Sciences disponible(s)</em></p>
             <div class="exercise-subject-group">
                 <div class="exercise-grid">
 
@@ -293,177 +290,185 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
                 <div class="tip-box">
                     <h4>🔍 Conseil d'Explorateur</h4>
                     <p>Dans un système isolé, l'énergie totale (cinétique + potentielle) est conservée.
-                    Écris le bilan énergétique : E_initiale = E_finale.</p>
-                    </div>
+                        Écris le bilan énergétique : E_initiale = E_finale.</p>
+                </div>
 
                 <div class="qcm-exercise"
-                     data-questions='[
+                    data-questions='[
                          {
-                             "question": "Dans un système isolé, l'énergie totale :",
-                             "choices": [
-                                 {"value": "a", "label": "a) Est conservée"},
-                                 {"value": "b", "label": "b) Diminue toujours"},
-                                 {"value": "c", "label": "c) Augmente toujours"}
-                             ],
-                             "correct": "a"
-                         },
-                         {
-                             "question": "L'énergie cinétique dépend de :",
-                             "choices": [
-                                 {"value": "a", "label": "a) La masse et la vitesse"},
-                                 {"value": "b", "label": "b) Uniquement la vitesse"},
-                                 {"value": "c", "label": "c) Uniquement la masse"}
-                             ],
-                             "correct": "a"
-                         }
-                     ]'>
+                             "question": "Dans un système isolé, l' énergie totale :", "choices" : [
+                    {"value": "a" , "label" : "a) Est conservée" },
+                    {"value": "b" , "label" : "b) Diminue toujours" },
+                    {"value": "c" , "label" : "c) Augmente toujours" }
+                    ], "correct" : "a"
+                    },
+                    { "question" : "L'énergie cinétique dépend de :" , "choices" : [
+                    {"value": "a" , "label" : "a) La masse et la vitesse" },
+                    {"value": "b" , "label" : "b) Uniquement la vitesse" },
+                    {"value": "c" , "label" : "c) Uniquement la masse" }
+                    ], "correct" : "a"
+                    }
+                    ]'>
                     <div class="qcm-container">
                         <!-- Les questions QCM seront générées dynamiquement par JavaScript -->
                     </div>
                     <button class="btn-coach btn-check-qcm">Vérifier mes réponses</button>
                     <div class="qcm-feedback"></div>
-                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- HISTOIRE-GÉO -->
+        <section id="histoire-geo">
+            <h2>🏛️ Histoire-Géographie - Analyse de Documents</h2>
+
+            <div class="coach-message">
+                <strong>⏰ L'histoire, c'est comprendre le présent !</strong> En Première, tu analyses des documents,
+                tu construis des synthèses argumentées et tu développes ton esprit critique.
+            </div>
+
+            <div class="exercise-card">
+                <div class="exercise-header">
+                    <h3>Analyse de Documents - Synthèse Argumentée</h3>
+                    <span class="difficulty">⭐⭐ MOYEN</span>
+                </div>
+                <p><strong>Objectif :</strong> Analyser plusieurs documents et rédiger une synthèse répondant à une question précise.</p>
+
+                <div class="tip-box">
+                    <h4>📅 Méthode</h4>
+                    <p>1) Lire attentivement chaque document. 2) Identifier les idées principales.
+                        3) Mettre en relation les documents. 4) Construire une synthèse structurée.</p>
                 </div>
 
-    </section>
-
-    <!-- HISTOIRE-GÉO -->
-    <section id="histoire-geo">
-        <h2>🏛️ Histoire-Géographie - Analyse de Documents</h2>
-
-        <div class="coach-message">
-            <strong>⏰ L'histoire, c'est comprendre le présent !</strong> En Première, tu analyses des documents,
-            tu construis des synthèses argumentées et tu développes ton esprit critique.
-        </div>
-
-        <div class="exercise-card">
-            <div class="exercise-header">
-                <h3>Analyse de Documents - Synthèse Argumentée</h3>
-                <span class="difficulty">⭐⭐ MOYEN</span>
+                <p><strong>Exercice :</strong> À partir de 2 documents sur un thème historique, rédige une synthèse de 10 lignes
+                    qui répond à la question : "Comment ce phénomène a-t-il marqué son époque ?"</p>
+                <p><em>💡 Conseil : Structure claire, citations des documents, mise en relation des idées.</em></p>
             </div>
-            <p><strong>Objectif :</strong> Analyser plusieurs documents et rédiger une synthèse répondant à une question précise.</p>
-
-            <div class="tip-box">
-                <h4>📅 Méthode</h4>
-                <p>1) Lire attentivement chaque document. 2) Identifier les idées principales.
-                3) Mettre en relation les documents. 4) Construire une synthèse structurée.</p>
-            </div>
-
-            <p><strong>Exercice :</strong> À partir de 2 documents sur un thème historique, rédige une synthèse de 10 lignes
-            qui répond à la question : "Comment ce phénomène a-t-il marqué son époque ?"</p>
-            <p><em>💡 Conseil : Structure claire, citations des documents, mise en relation des idées.</em></p>
-        </div>
         </section>
 
 
-    <!-- CSS pour le système dynamique -->
-    <link rel="stylesheet" href="<?php echo function_exists('asset_url') ? asset_url('assets/css/pages/dynamic-exercises.css') : 'assets/css/pages/dynamic-exercises.css'; ?>">
+        <!-- CSS pour le système dynamique -->
+        <link rel="stylesheet" href="<?php echo function_exists('asset_url') ? asset_url('assets/css/pages/dynamic-exercises.css') : 'assets/css/pages/dynamic-exercises.css'; ?>">
 
-    <!-- Colibri désactivé (remplacé par Coach WebM) -->
-    <!-- ancien: colibri-mascot.css + colibri-mascot.js -->
+        <!-- Colibri désactivé (remplacé par Coach WebM) -->
+        <!-- ancien: colibri-mascot.css + colibri-mascot.js -->
 
-    <!-- Script pour les exercices interactifs (charger AVANT le système dynamique) -->
-    <script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/interactive-exercises.js') : 'assets/js/interactive-exercises.js'; ?>"></script>
+        <!-- Script pour les exercices interactifs (charger AVANT le système dynamique) -->
+        <script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/interactive-exercises.js') : 'assets/js/interactive-exercises.js'; ?>"></script>
 
-    <!-- JavaScript pour le système dynamique -->
-    <script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/dynamic-exercises.js') : 'assets/js/dynamic-exercises.js'; ?>"></script>
+        <!-- JavaScript pour le système dynamique -->
+        <script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/dynamic-exercises.js') : 'assets/js/dynamic-exercises.js'; ?>"></script>
 
-    <script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/exercises.js') : 'assets/js/exercises.js'; ?>"></script>
+        <script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/exercises.js') : 'assets/js/exercises.js'; ?>"></script>
 
-    <script>
-        // S'assurer que baseUrl est défini (ne pas écraser s'il existe déjà depuis index.php)
-        if (typeof window.baseUrl === 'undefined') {
-            window.baseUrl = '';
-        }
-        console.log('🔧 baseUrl détecté:', window.baseUrl);
+        <script>
+            // S'assurer que baseUrl est défini (ne pas écraser s'il existe déjà depuis index.php)
+            if (typeof window.baseUrl === 'undefined') {
+                window.baseUrl = '';
+            }
+            console.log('🔧 baseUrl détecté:', window.baseUrl);
 
-        // Initialiser le système dynamique après chargement
-        function initDynamicExercises() {
-            // Attendre que DynamicExerciseSystem soit disponible
-            if (typeof DynamicExerciseSystem !== 'undefined') {
-                const container = document.querySelector('[data-dynamic-exercises]');
-                if (container) {
-                    console.log('🎯 Initialisation du système d\'exercices dynamique pour Première...');
-                    const baseUrl = window.baseUrl || '';
-                    const apiEndpoint = baseUrl ? baseUrl + '/api/get_exercises.php' : '/api/get_exercises.php';
-                    console.log('📡 API Endpoint:', apiEndpoint);
+            // Initialiser le système dynamique après chargement
+            function initDynamicExercises() {
+                // Attendre que DynamicExerciseSystem soit disponible
+                if (typeof DynamicExerciseSystem !== 'undefined') {
+                    const container = document.querySelector('[data-dynamic-exercises]');
+                    if (container) {
+                        console.log('🎯 Initialisation du système d\'exercices dynamique pour Première...');
+                        const baseUrl = window.baseUrl || '';
+                        const apiEndpoint = baseUrl ? baseUrl + '/api/get_exercises.php' : '/api/get_exercises.php';
+                        console.log('📡 API Endpoint:', apiEndpoint);
 
-                    try {
-                        // Passer le sélecteur (string) au lieu de l'élément directement
-                        window.dynamicExerciseSystem = new DynamicExerciseSystem({
-                            containerSelector: '[data-dynamic-exercises]', // Sélecteur string
-                            level: 'Première',
-                            apiEndpoint: apiEndpoint
-                        });
-                        console.log('✅ Système initialisé avec succès');
-                    } catch (error) {
-                        console.error('❌ Erreur:', error);
-                        container.innerHTML = '<div class="exercise-error">Erreur: ' + error.message + '</div>';
+                        try {
+                            // Passer le sélecteur (string) au lieu de l'élément directement
+                            window.dynamicExerciseSystem = new DynamicExerciseSystem({
+                                containerSelector: '[data-dynamic-exercises]', // Sélecteur string
+                                level: 'Première',
+                                apiEndpoint: apiEndpoint
+                            });
+                            console.log('✅ Système initialisé avec succès');
+                        } catch (error) {
+                            console.error('❌ Erreur:', error);
+                            container.innerHTML = '<div class="exercise-error">Erreur: ' + error.message + '</div>';
+                        }
+                    } else {
+                        console.warn('⚠️ Container non trouvé');
                     }
                 } else {
-                    console.warn('⚠️ Container non trouvé');
+                    // Réessayer après un court délai
+                    console.log('⏳ Attente de DynamicExerciseSystem...');
+                    setTimeout(initDynamicExercises, 200);
                 }
-            } else {
-                // Réessayer après un court délai
-                console.log('⏳ Attente de DynamicExerciseSystem...');
-                setTimeout(initDynamicExercises, 200);
             }
-        }
 
-        // Initialiser quand le DOM est prêt
-        if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', function() {
+            // Initialiser quand le DOM est prêt
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', function() {
+                    setTimeout(initDynamicExercises, 300);
+                });
+            } else {
                 setTimeout(initDynamicExercises, 300);
-            });
-        } else {
-            setTimeout(initDynamicExercises, 300);
-        }
-    </script>
+            }
+        </script>
 
 
 
-    <!-- Coach WebM -->
-    <script>
-      window.baseUrl = '';
-    </script>
-    <script src=""></script>
-    <style>
-      .coach-overlay {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        width: 250px;
-        height: auto;
-        z-index: 9999;
-        pointer-events: none;
-        opacity: 0;
-        transition: opacity 0.5s ease-out;
-      }
-      .coach-overlay.active {
-        opacity: 1;
-        animation: slideInUp 0.6s ease-out;
-      }
-      .coach-overlay video {
-        width: 100%;
-        height: auto;
-        display: block;
-        border-radius: 12px;
-        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-        background: transparent;
-      }
-      @keyframes slideInUp {
-        from { opacity: 0; transform: translateY(30px); }
-        to { opacity: 1; transform: translateY(0); }
-      }
-      @media (max-width: 480px) {
-        .coach-overlay { width: 180px; bottom: 10px; right: 10px; }
-      }
+        <!-- Coach WebM -->
+        <style>
+            .coach-overlay {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                width: 250px;
+                height: auto;
+                z-index: 9999;
+                pointer-events: none;
+                opacity: 0;
+                transition: opacity 0.5s ease-out;
+            }
+
+            .coach-overlay.active {
+                opacity: 1;
+                animation: slideInUp 0.6s ease-out;
+            }
+
+            .coach-overlay video {
+                width: 100%;
+                height: auto;
+                display: block;
+                border-radius: 12px;
+                box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+                background: transparent;
+            }
+
+            @keyframes slideInUp {
+                from {
+                    opacity: 0;
+                    transform: translateY(30px);
+                }
+
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            @media (max-width: 480px) {
+                .coach-overlay {
+                    width: 180px;
+                    bottom: 10px;
+                    right: 10px;
+                }
+            }
+
             /* Désactiver toute ancienne mascotte Colibri si présente */
             .colibri-mascot-container,
             .colibri-mascot-global,
             [data-colibri],
-            [data-colibri-global] { display: none !important; }
-    </style>
-</div>
+            [data-colibri-global] {
+                display: none !important;
+            }
+        </style>
+    </div>
 </main>
-

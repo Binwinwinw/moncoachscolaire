@@ -61,20 +61,21 @@ $has_access = !empty($is_logged_in) || $is_admin || $is_demo;
     <?php endif; ?>
 
     <?php
-    $levels = ['6ème','5ème','4ème','3ème'];
-// Selected subject from query param (optional)
-$selectedSubject = isset($_GET['subject']) && strlen(trim($_GET['subject'])) ? trim($_GET['subject']) : null;
+    $levels = ['6ème', '5ème', '4ème', '3ème'];
+    // Selected subject from query param (optional)
+    $selectedSubject = isset($_GET['subject']) && strlen(trim($_GET['subject'])) ? trim($_GET['subject']) : null;
 
-$all = [];
-foreach ($levels as $lvl) {
-    try {
-        $exs = getExercisesByLevel($lvl, $selectedSubject);
-    } catch (Exception $e) {
-        $exs = [];
+    $all = [];
+    foreach ($levels as $lvl) {
+        try {
+            $exs = getExercisesByLevel($lvl, $selectedSubject);
+        } catch (Exception $e) {
+            $exs = [];
+        }
+        $all[$lvl] = $exs;
     }
-    $all[$lvl] = $exs;
-}
-// Subject selector?>
+    // Subject selector
+    ?>
     <?php if (!empty($is_logged_in) && function_exists('getSubjectsByLevels')): ?>
         <?php $availableSubjects = getSubjectsByLevels($levels); ?>
         <div class="subject-filter max-w-4xl mx-auto mt-3 flex justify-center">
@@ -105,7 +106,7 @@ foreach ($levels as $lvl) {
                                         <?php echo htmlspecialchars($ex['Title']); ?>
                                     </div>
                                     <div class="card-meta flex flex-wrap items-center gap-2 text-sm">
-                                        <span class="badge badge-difficulty <?php echo(strtolower($ex['Difficulty']) === 'facile' ? 'easy' : (strtolower($ex['Difficulty']) === 'difficile' ? 'hard' : 'medium')); ?> px-2 py-1 rounded-full font-semibold text-white <?php echo(strtolower($ex['Difficulty']) === 'facile' ? 'bg-green-500' : (strtolower($ex['Difficulty']) === 'difficile' ? 'bg-red-500' : 'bg-yellow-500')); ?>">
+                                        <span class="badge badge-difficulty <?php echo (strtolower($ex['Difficulty']) === 'facile' ? 'easy' : (strtolower($ex['Difficulty']) === 'difficile' ? 'hard' : 'medium')); ?> px-2 py-1 rounded-full font-semibold text-white <?php echo (strtolower($ex['Difficulty']) === 'facile' ? 'bg-green-500' : (strtolower($ex['Difficulty']) === 'difficile' ? 'bg-red-500' : 'bg-yellow-500')); ?>">
                                             <?php echo htmlspecialchars($ex['Difficulty']); ?>
                                         </span>
                                         <span class="badge badge-subject bg-theme-muted text-theme px-2 py-1 rounded-full font-semibold">
@@ -121,8 +122,8 @@ foreach ($levels as $lvl) {
                             <div class="card-content mt-2 text-slate-700 flex-1">
                                 <p class="leading-relaxed text-base mb-2 line-clamp-4">
                                     <?php echo nl2br(htmlspecialchars(substr($ex['Content'] ?? '', 0, 400))); ?><?php if (strlen($ex['Content'] ?? '') > 400) {
-                                        echo '...';
-                                    } ?>
+                                                                                                                    echo '...';
+                                                                                                                } ?>
                                 </p>
                                 <div class="flex flex-wrap gap-2 mt-2">
                                     <button class="btn-outline px-3 py-1 rounded-lg border border-theme text-theme bg-white hover:bg-theme-soft focus:outline-none focus:ring-2 focus:ring-theme transition" data-action="verify-exercise">Vérifier mes réponses</button>
@@ -137,9 +138,6 @@ foreach ($levels as $lvl) {
         </div>
     </section>
 
-    <?php ?>
-
     <script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/exercises.js') : 'assets/js/exercises.js'; ?>"></script>
 
 </main>
-

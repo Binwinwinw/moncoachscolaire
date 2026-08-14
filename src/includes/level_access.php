@@ -46,25 +46,52 @@ function normalize_level_key($level)
     $variants = [
         // Primaire
         'cp' => 'cp',
-        'ce1' => 'ce1', 'ce-1' => 'ce1',
+        'ce1' => 'ce1',
+        'ce-1' => 'ce1',
         'ce2' => 'ce2',
-        'cm1' => 'cm1', 'cm-1' => 'cm1',
-        'cm2' => 'cm2', 'cm-2' => 'cm2',
+        'cm1' => 'cm1',
+        'cm-1' => 'cm1',
+        'cm2' => 'cm2',
+        'cm-2' => 'cm2',
         // Collège
-        '6eme' => '6eme', '6ème' => '6eme', 'college' => '6eme', 'collège' => '6eme', 'collége' => '6eme', 'collèges' => '6eme',
-        '5eme' => '5eme', '5ème' => '5eme',
-        '4eme' => '4eme', '4ème' => '4eme',
-        '3eme' => '3eme', '3ème' => '3eme',
+        '6eme' => '6eme',
+        '6ème' => '6eme',
+        'college' => '6eme',
+        'collège' => '6eme',
+        'collége' => '6eme',
+        'collèges' => '6eme',
+        '5eme' => '5eme',
+        '5ème' => '5eme',
+        '4eme' => '4eme',
+        '4ème' => '4eme',
+        '3eme' => '3eme',
+        '3ème' => '3eme',
         // Lycée
-        'seconde' => 'seconde', '2nde' => 'seconde', '2nd' => 'seconde', 'lycee' => 'seconde', 'lycée' => 'seconde', 'lycees' => 'seconde', 'lycées' => 'seconde',
-        'premiere' => 'premiere', 'première' => 'premiere', '1ere' => 'premiere', '1ère' => 'premiere',
-        'terminale' => 'terminale', 'tale' => 'terminale',
+        'seconde' => 'seconde',
+        '2nde' => 'seconde',
+        '2nd' => 'seconde',
+        'lycee' => 'seconde',
+        'lycée' => 'seconde',
+        'lycees' => 'seconde',
+        'lycées' => 'seconde',
+        'premiere' => 'premiere',
+        'première' => 'premiere',
+        '1ere' => 'premiere',
+        '1ère' => 'premiere',
+        'terminale' => 'terminale',
+        'tale' => 'terminale',
         // Bac
-        'bac' => 'terminale', 'BAC' => 'terminale',
+        'bac' => 'terminale',
+        'BAC' => 'terminale',
         // Prépa
-        'prepa' => 'terminale', 'prépa' => 'terminale',
+        'prepa' => 'terminale',
+        'prépa' => 'terminale',
         // Primaire générique
-        'primaire' => 'cp', 'école' => 'cp', 'ecole' => 'cp', 'elementaire' => 'cp', 'maternelle' => 'cp',
+        'primaire' => 'cp',
+        'école' => 'cp',
+        'ecole' => 'cp',
+        'elementaire' => 'cp',
+        'maternelle' => 'cp',
     ];
 
     if (isset($variants[$k])) {
@@ -124,12 +151,16 @@ function get_user_level_order()
 function can_current_user_access_level($requiredLevel)
 {
     // Admin bypass
-    if (function_exists('isAdmin') && isAdmin()) {
+    if (($_SESSION['user_role'] ?? null) === 'admin'
+        || (function_exists('isAdmin') && isAdmin())
+    ) {
         return true;
     }
 
     // Demo account bypass (demo users should have read access to all levels)
-    if (function_exists('isDemoUser') && isDemoUser()) {
+    if ((function_exists('isDemoUser') && isDemoUser())
+        || (function_exists('is_demo_user') && is_demo_user())
+    ) {
         return true;
     }
     if (!empty($_SESSION['is_demo'])) {
@@ -178,4 +209,3 @@ function enforce_level_access_or_abort($requiredLevel)
         exit;
     }
 }
-

@@ -2,6 +2,16 @@
 
 Objectif: fichier d'entrée ultra-court. Le détail est déplacé dans des fichiers dédiés.
 
+## Usage local VS Code / plugin interne
+
+Ce dépôt contient une aide dédiée conçue pour l’agent VS Code du workspace.
+
+- Il s’agit d’une logique d’agent locale, pas d’un paquet public à installer.
+- Ne pas ajouter de dépendance `composer` pour activer ce comportement.
+- Traiter `.github/copilot-instructions.md`, `AGENTS.md`, et la structure du repo comme les sources de vérité.
+- Proposer des solutions compatibles avec `src/`, `public/`, `tests/`, `dev/`, et les conventions existantes.
+- Si l’utilisateur évoque le plugin, considérer ces règles comme des instructions internes au workspace.
+
 ## Lecture minimale obligatoire
 
 1. [CONTEXT_INDEX.md](../CONTEXT_INDEX.md)

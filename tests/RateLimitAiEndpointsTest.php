@@ -25,11 +25,15 @@ $runEndpoint = function (string $scriptPath, string $payload) use ($repoRoot): a
 $_SERVER['REQUEST_METHOD'] = 'POST';
 $_SERVER['REMOTE_ADDR'] = '127.0.0.1';
 $_SERVER['HTTP_HOST'] = 'localhost';
+$_SERVER['HTTP_ORIGIN'] = 'http://localhost';
+$_SERVER['HTTP_X_CSRF_TOKEN'] = 'test-token';
 if (session_status() !== PHP_SESSION_ACTIVE) {
     session_id('rate-limit-test');
     session_start();
 }
 $_SESSION['user_id'] = 1;
+$_SESSION['logged_in'] = true;
+$_SESSION['csrf_token'] = 'test-token';
 require %s;
 PHP;
 

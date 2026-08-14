@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 
-test.describe("Cours IA : sauvegarde puis ouverture du cours enregistré", () => {
-  test("sauvegarde un cours généré puis ouvre le cours réel", async ({
+test.describe("Cours IA : sauvegarde puis ouverture d’une révision", () => {
+  test("sauvegarde un cours généré puis ouvre sa révision privée", async ({
     page,
   }) => {
     await page.route(
@@ -38,19 +38,19 @@ test.describe("Cours IA : sauvegarde puis ouverture du cours enregistré", () =>
           contentType: "application/json",
           body: JSON.stringify({
             success: true,
-            course_id: 999,
-            course_url: "/index.php?page=view_course&id=999",
-            message: "Cours sauvegardé dans la bibliothèque.",
+            revision_id: 999,
+            revision_url: "/index.php?page=revisions&id=999",
+            message: "Cours sauvegardé dans tes révisions privées.",
           }),
         });
       },
     );
 
-    await page.route("**/index.php?page=view_course&id=999", async (route) => {
+    await page.route("**/index.php?page=revisions&id=999", async (route) => {
       await route.fulfill({
         status: 200,
         contentType: "text/html",
-        body: "<html><body><h1>Cours enregistré</h1><p>Le cours réel a bien été ouvert.</p></body></html>",
+        body: '<html><body><h1>Mes révisions IA</h1><article data-revision-id="999"><h2>Cours IA de test</h2></article></body></html>',
       });
     });
 
@@ -83,11 +83,13 @@ test.describe("Cours IA : sauvegarde puis ouverture du cours enregistré", () =>
     await page.locator("#btn-save-generated-cours").click();
 
     await expect(page.locator("#btn-save-generated-cours")).toContainText(
-      "Voir le cours complet",
+      "Voir ma révision",
     );
     await page.locator("#btn-save-generated-cours").click();
 
-    await expect(page).toHaveURL(/view_course&id=999/);
-    await expect(page.locator("h1")).toContainText(/cours enregistr/i);
+    await expect(page).toHaveURL(/revisions&id=999/);
+    await expect(page.locator("[data-revision-id='999']")).toContainText(
+      "Cours IA de test",
+    );
   });
 });

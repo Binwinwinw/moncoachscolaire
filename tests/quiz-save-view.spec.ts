@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 
 test.describe("Exercices IA : génération et sauvegarde", () => {
-  test("génère un exercice IA puis le sauvegarde et ouvre l'exercice enregistré", async ({
+  test("génère un exercice IA puis ouvre sa révision privée", async ({
     page,
   }) => {
     await page.route(
@@ -44,25 +44,23 @@ test.describe("Exercices IA : génération et sauvegarde", () => {
           contentType: "application/json",
           body: JSON.stringify({
             success: true,
-            message: "Quiz sauvegardé dans la bibliothèque.",
-            exercise_url:
-              "/moncoachscolaire/index.php?page=view_exercise&id=999",
+            message: "Quiz sauvegardé dans tes révisions privées.",
+            revision_id: 123,
+            revision_url: "/index.php?page=revisions&id=123",
             data: {
-              exercise_ids: [999],
               revision_id: 123,
-              exercise_url:
-                "/moncoachscolaire/index.php?page=view_exercise&id=999",
+              revision_url: "/index.php?page=revisions&id=123",
             },
           }),
         });
       },
     );
 
-    await page.route("**/index.php?page=view_exercise*", async (route) => {
+    await page.route("**/index.php?page=revisions&id=123", async (route) => {
       await route.fulfill({
         status: 200,
         contentType: "text/html",
-        body: `<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><title>Exercice IA sauvegardé</title></head><body><h1>Exercice IA de test</h1><p>Contenu de l'exercice IA sauvegardé.</p></body></html>`,
+        body: `<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8"><title>Révision IA</title></head><body><h1>Mes révisions IA</h1><article data-revision-id="123"><h2>Exercice IA de test</h2></article></body></html>`,
       });
     });
 
@@ -81,6 +79,11 @@ test.describe("Exercices IA : génération et sauvegarde", () => {
     await expect(page.locator("#modal-quiz-ia")).toBeVisible({
       timeout: 10000,
     });
+    await expect(page.locator("#modal-quiz-ia")).toHaveAttribute(
+      "aria-hidden",
+      "false",
+    );
+    await expect(page.locator("#quiz-theme")).toBeFocused();
     await page.selectOption("#quiz-matiere", "Mathématiques");
     await page.fill("#quiz-theme", "Fonctions linéaires");
     await page.locator("#form-quiz-ia button[type='submit']").click();
@@ -92,11 +95,37 @@ test.describe("Exercices IA : génération et sauvegarde", () => {
 
     await page.click("#btn-save-generated-quiz");
     await expect(page.locator("#btn-save-generated-quiz")).toHaveText(
-      /Voir l’exercice IA/,
+      /Voir ma révision/,
     );
 
     await page.click("#btn-save-generated-quiz");
-    await expect(page).toHaveURL(/index.php\?page=view_exercise&id=999/);
+    await expect(page).toHaveURL(/index.php\?page=revisions&id=123/);
     await expect(page.locator("body")).toContainText("Exercice IA de test");
+  });
+
+  test("ferme la modale avec Échap et restaure le focus", async ({ page }) => {
+    await page.goto("http://127.0.0.1:8081/index.php?page=login");
+    await page.fill("#username", "admin6eme");
+    await page.fill("#password", "admin123");
+    await Promise.all([
+      page.waitForNavigation({ waitUntil: "domcontentloaded" }),
+      page.locator('button[type="submit"]').first().click(),
+    ]);
+
+    await page.goto("http://127.0.0.1:8081/index.php?page=system/exercices");
+    const trigger = page.locator("#btn-quiz-ia");
+    await trigger.click();
+    await expect(page.locator("#modal-quiz-ia")).toHaveAttribute(
+      "aria-hidden",
+      "false",
+    );
+
+    await page.keyboard.press("Escape");
+
+    await expect(page.locator("#modal-quiz-ia")).toHaveAttribute(
+      "aria-hidden",
+      "true",
+    );
+    await expect(trigger).toBeFocused();
   });
 });

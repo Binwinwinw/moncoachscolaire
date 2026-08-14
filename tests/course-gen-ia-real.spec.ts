@@ -26,14 +26,20 @@ test.describe("Cours IA réel : génération avec admin1ere", () => {
     await page.selectOption("#quiz-matiere", "Philosophie");
     await page.fill("#quiz-theme", "Les pouvoirs de la parole");
 
-    await Promise.all([
-      page.waitForResponse(
-        (response) =>
-          response.url().includes("index.php?page=api/ia/generate_cours") &&
-          response.status() === 200,
+    const [generationResponse] = await Promise.all([
+      page.waitForResponse((response) =>
+        response.url().includes("index.php?page=api/ia/generate_cours"),
       ),
       page.locator("#form-quiz-ia button[type='submit']").click(),
     ]);
+
+    const generationPayload = await generationResponse.json();
+    expect(
+      generationResponse.ok(),
+      `HTTP ${generationResponse.status()}: ${JSON.stringify(generationPayload)}`,
+    ).toBe(true);
+    expect(generationPayload.success).toBe(true);
+    expect(generationPayload.cours?.sections?.length ?? 0).toBeGreaterThan(0);
 
     const resultLocator = page.locator("#quiz-ia-result");
     await expect(resultLocator).toBeVisible({ timeout: 30000 });
@@ -42,9 +48,7 @@ test.describe("Cours IA réel : génération avec admin1ere", () => {
     test.slow();
     expect(generatedText).toBeTruthy();
     expect(generatedText?.length ?? 0).toBeGreaterThan(20);
-
-    if (generatedText?.includes("Erreur")) {
-      console.log("Course IA a renvoyé une erreur :", generatedText.trim());
-    }
+    expect(generatedText).not.toMatch(/erreur|impossible|indisponible/i);
+    await expect(resultLocator.locator("h2, h3").first()).toBeVisible();
   });
 });

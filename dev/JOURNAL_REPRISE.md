@@ -1,3 +1,107 @@
+# Journal de reprise
+
+> Les entrées datées sont classées de la plus récente à la plus ancienne.
+
+## [14/08/2026] Vérification des usages de `level_access.php` dans les deux API — ERREUR CONFIRMÉE
+
+- `get_cours.php` inclut `src/includes/level_access.php` dans `authorizeLevel()` et appelle `can_current_user_access_level()` pour les trois actions ;
+- `get_exercises.php` inclut conditionnellement `src/includes/level_access.php` pour `subjects` et `exercise_html`, avec appel à `can_current_user_access_level()` ;
+- aucun appel à `enforce_level_access_or_abort()` dans les deux API ;
+- dans `get_cours.php`, le contrôle précède les requêtes de listes et les réponses ; pour `cours_html`, le niveau n’est connu qu’après la lecture du cours, puis le contrôle précède le rendu et la réponse ;
+- dans `get_exercises.php`, l’action `exercises` ne contrôle pas le niveau avant `getExercisesByLevel()` ni avant la réponse ;
+- dans `get_exercises.php`, `exercise_html` contrôle le niveau après la lecture de l’exercice et avant le rendu et la réponse ;
+- aucune modification de code réalisée ;
+- aucune exécution de `get_exercises.php` réalisée.
+
+## [14/08/2026] Localisation et vérification de `level_access.php`
+
+- emplacement réel trouvé : `src/includes/level_access.php` ;
+- `get_cours.php` appelle `authorizeLevel()` pour les actions `subjects`, `cours` et `cours_html` ;
+- dans `get_cours.php`, le contrôle intervient avant les requêtes de listes et avant toute réponse JSON ou HTML ; pour `cours_html`, le niveau du cours est contrôlé après sa lecture et avant le rendu ;
+- `get_exercises.php` vérifie conditionnellement le niveau pour `subjects` et `exercise_html` ;
+- l’action `exercises` de `get_exercises.php` ne vérifie pas l’accès avant `getExercisesByLevel()` ni avant la réponse ;
+- `get_exercises.php` ignore aussi silencieusement l’absence du helper ;
+- aucune modification de code réalisée ;
+- aucune exécution de `get_exercises.php` réalisée.
+
+## [14/08/2026] Tentative de validation PHP — TERMINAL INDISPONIBLE
+
+- tentative de validation `php -l` ;
+- terminal indisponible ;
+- aucune validation inventée ;
+- aucune modification de code réalisée pendant cette tentative.
+
+## [14/08/2026] Correction du contrôle d’accès de `get_cours.php` — VALIDATION BLOQUÉE
+
+- correction de `get_cours.php` ;
+- absence du helper désormais bloquante ;
+- niveaux inconnus rejetés ;
+- contrôle effectué avant toute réponse ;
+- validation `php -l` non exécutée faute de terminal.
+
+La tâche `get_exercises.php` reste en attente et ne doit pas être lancée avant l’exécution de cette validation.
+
+## [14/08/2026] Audit du contrôle d’accès de `get_cours.php` — VALIDÉ
+
+**Constats confirmés :**
+
+- `authorizeLevel()` ignorait silencieusement l’absence de `level_access.php`, ce qui supprimait le contrôle d’accès ;
+- les fonctions admin/démo disponibles dans le bootstrap API n’étaient pas toutes reconnues par `level_access.php` ;
+- un niveau inconnu pouvait être accepté pour un visiteur avant la vérification de la table des niveaux.
+
+**Correctifs minimaux :**
+
+- retour JSON `500 ERR_AUTH_MISSING` si le helper d’autorisation est absent ou incomplet ;
+- rejet `400 ERR_BAD_LEVEL` des niveaux inconnus avant toute lecture de cours ;
+- prise en compte du rôle admin de session et de `is_demo_user()` dans le helper partagé.
+
+**Validation :** diagnostic PHP ciblé sans erreur pour `src/api/cours/get_cours.php` et `src/includes/level_access.php`.
+
+**Suite activée :** audit du contrôle d’accès de `get_exercises.php`, sans exécution dans cette intervention.
+
+## [01/08/2026] Pages élève — lot routage, baseUrl et compatibilité CSS fermé
+
+**Périmètre :** validation runtime du routage API et des imports CSS sur les pages d’exercices élève, sans modification des règles métier ni des données d’exercices.
+
+**Correctifs minimaux validés :**
+
+- le routeur de [public/index.php](../public/index.php) sépare désormais le chemin API d’une query accidentellement embarquée dans `page`, réinjecte ses paramètres dans `$_GET`, puis résout le fichier API réel ;
+- [public/assets/js/dynamic-exercises.js](../public/assets/js/dynamic-exercises.js) centralise les appels à `api/get_exercises` via `buildApiUrl()` ;
+- [public/assets/css/lycee/exercices-lycee.css](../public/assets/css/lycee/exercices-lycee.css) sert de couche de compatibilité et redirige les imports legacy vers la feuille canonique sous `pages/lycee`.
+
+**Validation factuelle :**
+
+- `eleve/college/exercices-college` : aucun 404 sur `exercices-lycee.css` ;
+- `eleve/college/6eme/exercices-6eme` : aucun 404 « API endpoint not found », endpoint `get_exercises` fonctionnel ;
+- `eleve/bac/exercices-bac` avec une session élève 6ème : réponse 403 et message d’accès refusé au niveau supérieur, comportement métier attendu.
+
+**Verdict :** lot « routage + baseUrl + CSS/API pages élève » **FERMÉ**. Les erreurs de parsing QCM/conjugaison sont **BLOQUÉES ET PROUVÉES** comme défauts de données JSON, hors de ce lot. Le 403 BAC est également hors périmètre et ne constitue pas une régression de routage.
+
+**Suites séparées recommandées :** ouvrir un lot « droits / niveaux » pour BAC/lycée et un lot « qualité JSON exercices » pour QCM/conjugaison. Ne pas rouvrir le lot routage/baseUrl sans nouvelle preuve runtime.
+
+---
+
+## [25/07/2026] Revue de code des 21 commits locaux — points bloquants documentés
+
+**Contexte :** revue en lecture seule de `origin/feature/normalize-exercises-files...HEAD`, avec priorité aux régressions, risques de sécurité et tests faussement positifs.
+
+**Constats confirmés :**
+
+- trois endpoints de génération IA vérifient le CSRF mais n’exigent pas d’utilisateur authentifié ;
+- les endpoints de sauvegarde autorisent tout utilisateur connecté à écrire dans les bibliothèques globales ;
+- le fallback en session de la limitation des connexions est court-circuité lorsque la table SQL ne peut pas être créée ;
+- la sauvegarde des quiz peut subir une collision d’identifiants et accepte des corrections sans choix correspondant ;
+- la modale Quiz IA reste masquée aux technologies d’assistance après son ouverture ;
+- le test de génération réelle d’un cours peut réussir sur un message d’erreur suffisamment long.
+
+**Contrôle de données à conserver avant fusion :** le diff retire 1 414 quiz et 1 394 corrections, avec 247 paires runtime restantes. Vérifier l’intégrité et la couverture du corpus malgré le nettoyage volontaire des placeholders.
+
+**Source de pilotage :** les actions détaillées et leur priorité sont consignées dans `dev/SUIVI_BUGS_AMELIORATIONS.md`, entrée du 25/07/2026.
+
+**Règle documentaire confirmée :** toute nouvelle entrée datée doit être insérée en tête des journaux et suivis afin que la plus récente soit toujours la première visible.
+
+---
+
 ## [01/05/2026] Référencement explicite journal + suivi bugs — ligne conductrice projet
 
 **Contexte :** `dev/JOURNAL_REPRISE.md` et `dev/SUIVI_BUGS_AMELIORATIONS.md` sont les sources canoniques de l’état du projet (historique daté, priorités, bugs/améliorations, couverture quiz). Pour éviter qu’une lecture limitée à `.github/copilot-instructions.md` ne suffise à situer le chantier réel.

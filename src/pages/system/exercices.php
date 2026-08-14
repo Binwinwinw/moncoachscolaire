@@ -102,7 +102,7 @@ if (!$hide_topbar && file_exists(dirname(__DIR__, 2) . '/includes/topbar.php')) 
                 <footer id="modal-quiz-ia-footer" class="hidden shrink-0 border-t border-slate-200 bg-slate-50 px-6 py-4">
                     <div class="flex flex-col gap-3 sm:flex-row">
                         <button type="button" id="btn-save-generated-quiz" class="flex-1 inline-flex items-center justify-center gap-2 bg-blue-700 text-white px-4 py-2.5 rounded-lg font-bold hover:bg-blue-800 transition">
-                            📂 Sauvegarder dans la bibliothèque
+                            📂 Sauvegarder dans mes révisions
                         </button>
                         <button type="button" id="btn-regenerate-quiz" class="inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg border border-slate-300 bg-white text-slate-700 font-semibold hover:bg-slate-100 transition">
                             🔄 Modifier
@@ -470,6 +470,7 @@ if (!$hide_topbar && file_exists(dirname(__DIR__, 2) . '/includes/topbar.php')) 
         const btnCloseModalFooter = document.getElementById('btn-close-modal-footer');
         let lastGeneratedQuiz = null;
         let savedQuizUrl = '';
+        let modalTrigger = null;
 
         function setQuizSaveState(state, url = '') {
             if (!btnSaveGeneratedQuiz || !modalFooter) {
@@ -480,7 +481,7 @@ if (!$hide_topbar && file_exists(dirname(__DIR__, 2) . '/includes/topbar.php')) 
 
             if (state === 'saved') {
                 btnSaveGeneratedQuiz.disabled = false;
-                btnSaveGeneratedQuiz.innerHTML = '📖 Voir l’exercice IA';
+                btnSaveGeneratedQuiz.innerHTML = '📖 Voir ma révision';
                 btnSaveGeneratedQuiz.classList.remove('bg-blue-700');
                 btnSaveGeneratedQuiz.classList.add('bg-green-600');
                 btnSaveGeneratedQuiz.dataset.state = 'view';
@@ -488,7 +489,7 @@ if (!$hide_topbar && file_exists(dirname(__DIR__, 2) . '/includes/topbar.php')) 
             }
 
             btnSaveGeneratedQuiz.disabled = false;
-            btnSaveGeneratedQuiz.innerHTML = '📂 Sauvegarder dans la bibliothèque';
+            btnSaveGeneratedQuiz.innerHTML = '📂 Sauvegarder dans mes révisions';
             btnSaveGeneratedQuiz.classList.remove('bg-green-600');
             btnSaveGeneratedQuiz.classList.add('bg-blue-700');
             btnSaveGeneratedQuiz.dataset.state = 'save';
@@ -509,37 +510,100 @@ if (!$hide_topbar && file_exists(dirname(__DIR__, 2) . '/includes/topbar.php')) 
             setQuizSaveState('save');
         }
 
+        function getModalFocusableElements() {
+            if (!modalQuizIa) {
+                return [];
+            }
+
+            return Array.from(modalQuizIa.querySelectorAll(
+                'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'
+            )).filter((element) => !element.classList.contains('hidden') && element.offsetParent !== null);
+        }
+
+        function openQuizModal(trigger) {
+            if (!modalQuizIa) {
+                return;
+            }
+
+            modalTrigger = trigger || document.activeElement;
+            modalQuizIa.classList.add('flex');
+            modalQuizIa.classList.remove('hidden');
+            modalQuizIa.setAttribute('aria-hidden', 'false');
+            showQuizForm();
+
+            const lockedLevel = normalizeExerciseSchoolLevel(
+                String(window.EXERCICE_USER_LEVEL || window.__USER_LEVEL || window.userLevel || '').trim(),
+            );
+
+            if (niveauInput && lockedLevel) {
+                niveauInput.value = lockedLevel;
+            }
+
+            if (modalFooter) {
+                modalFooter.classList.add('hidden');
+            }
+            setQuizSaveState('save');
+
+            const focusTarget = themeInput || matiereInput || closeModalQuizIa;
+            if (focusTarget) {
+                focusTarget.focus();
+            }
+        }
+
+        function closeQuizModal() {
+            if (!modalQuizIa || modalQuizIa.classList.contains('hidden')) {
+                return;
+            }
+
+            modalQuizIa.classList.remove('flex');
+            modalQuizIa.classList.add('hidden');
+            modalQuizIa.setAttribute('aria-hidden', 'true');
+
+            if (modalTrigger instanceof HTMLElement) {
+                modalTrigger.focus();
+            }
+            modalTrigger = null;
+        }
+
+        function handleQuizModalKeydown(event) {
+            if (!modalQuizIa || modalQuizIa.classList.contains('hidden')) {
+                return;
+            }
+
+            if (event.key === 'Escape') {
+                event.preventDefault();
+                closeQuizModal();
+                return;
+            }
+
+            if (event.key !== 'Tab') {
+                return;
+            }
+
+            const focusableElements = getModalFocusableElements();
+            if (focusableElements.length === 0) {
+                event.preventDefault();
+                return;
+            }
+
+            const firstElement = focusableElements[0];
+            const lastElement = focusableElements[focusableElements.length - 1];
+            if (event.shiftKey && document.activeElement === firstElement) {
+                event.preventDefault();
+                lastElement.focus();
+            } else if (!event.shiftKey && document.activeElement === lastElement) {
+                event.preventDefault();
+                firstElement.focus();
+            }
+        }
+
         if (btnQuizIa && modalQuizIa && closeModalQuizIa) {
             btnQuizIa.addEventListener('click', function() {
-                modalQuizIa.classList.add('flex');
-                modalQuizIa.classList.remove('hidden');
-                showQuizForm();
-
-                const lockedLevel = normalizeExerciseSchoolLevel(
-                    String(window.EXERCICE_USER_LEVEL || window.__USER_LEVEL || window.userLevel || '').trim(),
-                );
-
-                if (niveauInput && lockedLevel) {
-                    niveauInput.value = lockedLevel;
-                }
-
-                if (themeInput) {
-                    themeInput.focus();
-                }
-                if (modalFooter) {
-                    modalFooter.classList.add('hidden');
-                }
-                setQuizSaveState('save');
+                openQuizModal(btnQuizIa);
             });
-            closeModalQuizIa.addEventListener('click', function() {
-                modalQuizIa.classList.remove('flex');
-                modalQuizIa.classList.add('hidden');
-            });
+            closeModalQuizIa.addEventListener('click', closeQuizModal);
             if (btnCloseModalFooter) {
-                btnCloseModalFooter.addEventListener('click', function() {
-                    modalQuizIa.classList.remove('flex');
-                    modalQuizIa.classList.add('hidden');
-                });
+                btnCloseModalFooter.addEventListener('click', closeQuizModal);
             }
             if (btnRegenerateQuiz) {
                 btnRegenerateQuiz.addEventListener('click', function() {
@@ -548,10 +612,10 @@ if (!$hide_topbar && file_exists(dirname(__DIR__, 2) . '/includes/topbar.php')) 
             }
             modalQuizIa.addEventListener('click', function(e) {
                 if (e.target === modalQuizIa) {
-                    modalQuizIa.classList.remove('flex');
-                    modalQuizIa.classList.add('hidden');
+                    closeQuizModal();
                 }
             });
+            document.addEventListener('keydown', handleQuizModalKeydown);
         }
 
         async function saveGeneratedQuiz() {
@@ -588,14 +652,14 @@ if (!$hide_topbar && file_exists(dirname(__DIR__, 2) . '/includes/topbar.php')) 
                     throw new Error(saveData.error || 'Erreur de sauvegarde');
                 }
 
-                const exerciseUrl =
-                    typeof saveData.exercise_url === 'string' && saveData.exercise_url.trim() !== '' ?
-                    saveData.exercise_url.trim() :
-                    (saveData.data && typeof saveData.data.exercise_url === 'string' ?
-                        saveData.data.exercise_url.trim() :
+                const revisionUrl =
+                    typeof saveData.revision_url === 'string' && saveData.revision_url.trim() !== '' ?
+                    saveData.revision_url.trim() :
+                    (saveData.data && typeof saveData.data.revision_url === 'string' ?
+                        saveData.data.revision_url.trim() :
                         '');
 
-                setQuizSaveState('saved', exerciseUrl);
+                setQuizSaveState('saved', revisionUrl);
                 alert(saveData.message || 'Quiz sauvegardé.');
             } catch (err) {
                 alert('Erreur lors de la sauvegarde : ' + err.message);

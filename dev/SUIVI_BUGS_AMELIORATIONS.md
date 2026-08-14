@@ -1,12 +1,69 @@
-﻿### Règle documentaire complémentaire
+﻿# Suivi des bugs et améliorations
 
+> Les entrées datées sont classées de la plus récente à la plus ancienne.
+
+## [14/08/2026] Contrôle d’accès de `get_cours.php` — CORRIGÉ
+
+Statut : **CORRIGÉ ET VALIDÉ PAR DIAGNOSTIC PHP**
+
+- l’absence de `level_access.php` n’ouvre plus silencieusement l’accès ;
+- les niveaux inconnus sont rejetés avant toute lecture de cours ;
+- les bypass administrateur et démo utilisent désormais les informations et fonctions disponibles dans l’API.
+
+Fichiers concernés : `src/api/cours/get_cours.php` et `src/includes/level_access.php`.
+
+Validation : aucun diagnostic PHP sur les deux fichiers modifiés.
+
+## [01/08/2026] Pages élève — routage, baseUrl et CSS/API (FERMÉ)
+
+Statut : **FERMÉ ET VALIDÉ EN RUNTIME**
+
+- 404 API `get_exercises` sur les pages élève : **FERMÉ**.
+- 404 CSS lycée déclenché depuis la page collège : **FERMÉ**.
+- Accès BAC avec une session élève 6ème : **BLOQUÉ PROUVÉ**, 403 métier attendu, pas une régression.
+- Parsing des questions QCM/conjugaison : **BLOQUÉ PROUVÉ**, défaut de données JSON hors périmètre.
+
+Correctifs validés : tolérance du routeur aux queries embarquées dans `page`, construction centralisée des URL de `get_exercises` et shim CSS pour les imports legacy. Le détail et les preuves par page sont consignés dans [dev/JOURNAL_REPRISE.md](JOURNAL_REPRISE.md), entrée du 01/08/2026.
+
+Lots distincts à ouvrir si nécessaire :
+
+1. `droits / niveaux` pour BAC et lycée ;
+2. `qualité JSON exercices` pour QCM et conjugaison.
+
+Le périmètre `eleve` routage/baseUrl reste fermé afin de ne pas mélanger ces fronts.
+
+---
+
+## [25/07/2026] Revue de code — sécurité IA, intégrité des sauvegardes et accessibilité
+
+Statut : **À CORRIGER AVANT FUSION**
+
+Périmètre revu : 21 commits locaux de `feature/normalize-exercises-files` par rapport à `origin/feature/normalize-exercises-files`.
+
+### Priorité critique
+
+1. Ajouter `auth => true` aux endpoints `generate_cours.php`, `generate_exercise_explanation.php` et `generate_precise_course.php` afin qu’un visiteur public ne puisse pas consommer les fournisseurs IA avec un simple jeton CSRF de session.
+2. Restreindre `save_generated_quiz.php` et `save_generated_cours.php` aux administrateurs, ou sauvegarder le contenu en brouillon privé lié à l’utilisateur. Un élève authentifié peut actuellement alimenter les bibliothèques globales et publier directement un quiz.
+3. Corriger le fallback de `checkLoginAttempts()` : si la table SQL ne peut pas être créée, contrôler les tentatives enregistrées en session au lieu de retourner systématiquement `allowed => true`.
+
+### Priorité haute
+
+1. Rendre atomique l’attribution des identifiants dans `save_generated_quiz.php` pour éviter les collisions et écrasements lors de sauvegardes simultanées.
+2. Refuser une question générée lorsque sa clé `correct` ne correspond à aucun choix, au lieu de publier une réponse vide avec « Correction indisponible ».
+3. Synchroniser `aria-hidden`, le focus et la fermeture avec `Escape` dans la modale Quiz IA de `src/pages/system/exercices.php`.
+4. Durcir `tests/course-gen-ia-real.spec.ts` afin qu’un message d’erreur de plus de 20 caractères fasse échouer le test.
+
+### Point de contrôle avant fusion
+
+- Le diff supprime 1 414 quiz et 1 394 fichiers de corrections, pour 247 paires restantes. Le nettoyage est documenté comme volontaire, mais une validation d’intégrité et de couverture doit confirmer qu’aucun lot valide n’a été retiré.
+- Aucun correctif ni test n’a été exécuté pendant cette revue en lecture seule.
+
+---
+
+### Règles documentaires permanentes
+
+- Insérer chaque nouvelle entrée datée en tête de fichier : la plus récente doit toujours être la première affichée.
 - Dès qu’un lot atteint 48 quiz présents (objectif complet), **supprimer la ligne correspondante du tableau de couverture** pour ne garder que les lots encore incomplets à piloter.
-
-## [01/05/2026] Documentation — références explicites journal / suivi
-
-**Traçabilité :** Alignement avec `dev/JOURNAL_REPRISE.md` (entrée du même jour). `ARCHITECTURE.md`, `dev/README.md` et `AGENTS.md` renvoient explicitement vers ce fichier et vers le journal de reprise comme sources canoniques de l’état du projet et de la ligne conductrice.
-
-**Impact sur le suivi produit :** Aucun changement de priorité ni de tableau de couverture dans cette entrée.
 
 ---
 
@@ -22,6 +79,16 @@ Parcours validé dans la page de cours :
 Fichiers concernés : [src/pages/system/cours.php](src/pages/system/cours.php), [src/api/ia/save_generated_cours.php](src/api/ia/save_generated_cours.php), [tests/course-save-view.spec.ts](tests/course-save-view.spec.ts).
 
 Validation exécutée : smoke test Playwright du scénario complet.
+
+---
+
+## [01/05/2026] Documentation — références explicites journal / suivi
+
+**Traçabilité :** Alignement avec `dev/JOURNAL_REPRISE.md` (entrée du même jour). `ARCHITECTURE.md`, `dev/README.md` et `AGENTS.md` renvoient explicitement vers ce fichier et vers le journal de reprise comme sources canoniques de l’état du projet et de la ligne conductrice.
+
+**Impact sur le suivi produit :** Aucun changement de priorité ni de tableau de couverture dans cette entrée.
+
+---
 
 ## [18/04/2026] 🚀 Grosse consolidation de la base de quiz — collège fortement renforcé
 

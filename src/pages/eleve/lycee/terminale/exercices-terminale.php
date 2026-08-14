@@ -11,11 +11,8 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
 ?>
 
 <main class="main-content min-h-screen">
-    <?php
-?>
-
     <div class="mx-auto flex w-full max-w-7xl flex-col gap-6 px-4 py-8 sm:px-6 lg:px-8">
-                <?php
+        <?php
         $header_nav = [
             ['href' => site_url('cours', ['niveau' => 'terminale']), 'label' => 'Cours Terminale', 'icon' => '📚', 'tone' => 'primary'],
             ['href' => site_url('lycee/lycee-accueil'), 'label' => 'Accueil Lycée', 'icon' => '🏠', 'tone' => 'secondary'],
@@ -113,11 +110,11 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
 
         <!-- Contenu COMPLET pour les utilisateurs connectés -->
         <div class="rounded-[1.75rem] border border-amber-200/70 bg-white/85 p-6 shadow-[0_20px_60px_-24px_rgba(245,158,11,0.24)] backdrop-blur">
-            <strong class="text-yellow-800">👋 Salut  ! C'est ton Coach Scolaire qui te parle !</strong><br>
+            <strong class="text-yellow-800">👋 Salut ! C'est ton Coach Scolaire qui te parle !</strong><br>
             <strong class="text-yellow-900">🎭 Thème Narratif : La Conquête du Bac</strong><br>
             <span class="text-yellow-700">Bienvenue, Maître du Savoir ! Tu es en Terminale, l'année de la consécration. Tous tes efforts passés
-            t'ont préparé pour cette dernière étape. Chaque exercice te rapproche du Bac et de la réussite !
-            Tu es prêt(e) à conquérir ton diplôme ! 👑✨</span>
+                t'ont préparé pour cette dernière étape. Chaque exercice te rapproche du Bac et de la réussite !
+                Tu es prêt(e) à conquérir ton diplôme ! 👑✨</span>
         </div>
 
         <div class="bg-gradient-to-r from-yellow-50 to-red-50 rounded-xl p-6 mb-8 border border-yellow-200">
@@ -139,8 +136,8 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
 
         <!-- Anciennes sections (cachées, conservées pour référence) -->
         <style>
-            #dynamic-exercises-section ~ section,
-            #dynamic-exercises-section ~ .coach-message:last-of-type {
+            #dynamic-exercises-section~section,
+            #dynamic-exercises-section~.coach-message:last-of-type {
                 display: none;
             }
         </style>
@@ -155,13 +152,13 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
             </div>
 
 
-                <!-- Afficher les exercices depuis la DB -->
-                <p><em>🧮  exercice(s) de Mathématiques disponible(s)</em></p>
-                <div class="exercise-subject-group">
-                    <div class="exercise-grid">
+            <!-- Afficher les exercices depuis la DB -->
+            <p><em>🧮 exercice(s) de Mathématiques disponible(s)</em></p>
+            <div class="exercise-subject-group">
+                <div class="exercise-grid">
 
-                    </div>
                 </div>
+            </div>
 
             <?php $uid = 'fx-' . uniqid(); ?>
             <article class="exercise-card" id="<?php echo $uid; ?>">
@@ -184,15 +181,15 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
                     <div class="tip-box">
                         <h4>🔍 Méthode pour le Bac</h4>
                         <p>Pour étudier une fonction : 1) Domaine de définition, 2) Dérivée et variations,
-                        3) Limites aux bornes, 4) Tableau de variations, 5) Courbe représentative.</p>
+                            3) Limites aux bornes, 4) Tableau de variations, 5) Courbe représentative.</p>
                     </div>
 
                     <div class="conjugation-exercise"
-                         data-questions='[
-                             {"sentence": "Si f(x) = x^3 - 3x + 2, quelle est f'(x) ? (Écris ta réponse)", "answer": "3x^2 - 3"},
-                             {"sentence": "Pour quelle(s) valeur(s) de x a-t-on f'(x) = 0 ? (Répondre avec x=...)", "answer": "x=1 ou x=-1"},
-                             {"sentence": "Quelle est la limite de f(x) quand x tend vers +∞ ?", "answer": "+∞"}
-                         ]'>
+                        data-questions='[
+                             {"sentence": "Si f(x) = x^3 - 3x + 2, quelle est f' (x) ? (Écris ta réponse)", "answer" : "3x^2 - 3" },
+                        {"sentence": "Pour quelle(s) valeur(s) de x a-t-on f'(x) = 0 ? (Répondre avec x=...)" , "answer" : "x=1 ou x=-1" },
+                        {"sentence": "Quelle est la limite de f(x) quand x tend vers +∞ ?" , "answer" : "+∞" }
+                        ]'>
                         <div class="conjugation-container"><!-- Champs dynamiques via JS --></div>
                         <div>
                             <button class="btn-outline" data-action="verify-exercise">Vérifier mes réponses</button>
@@ -227,7 +224,9 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
                     </div>
 
                     <div class="math-exercise" data-questions='[{"question":"Calcule ∫_0^1 x^2 dx","answer":"1/3"}]'>
-                        <div class="exercise-content"><div class="math-container"><!-- Champs dynamiques via JS --></div></div>
+                        <div class="exercise-content">
+                            <div class="math-container"><!-- Champs dynamiques via JS --></div>
+                        </div>
                         <div>
                             <button class="btn-outline" data-action="verify-exercise">Vérifier mes réponses</button>
                             <a href="#" class="btn-outline">Ouvrir</a>
@@ -248,13 +247,13 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
             </div>
 
 
-                <!-- Afficher les exercices depuis la DB -->
-                <p><em>📖  exercice(s) disponible(s)</em></p>
-                <div class="exercise-subject-group">
-                    <div class="exercise-grid">
+            <!-- Afficher les exercices depuis la DB -->
+            <p><em>📖 exercice(s) disponible(s)</em></p>
+            <div class="exercise-subject-group">
+                <div class="exercise-grid">
 
-                    </div>
                 </div>
+            </div>
 
             <?php $uid = 'fx-' . uniqid(); ?>
             <article class="exercise-card" id="<?php echo $uid; ?>">
@@ -277,7 +276,7 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
                     <div class="tip-box">
                         <h4>💡 Méthode de la Dissertation</h4>
                         <p>1) Analyser le sujet et problématiser, 2) Construire un plan dialectique (thèse/antithèse/synthèse),
-                        3) Développer chaque partie avec arguments et exemples, 4) Conclusion qui ouvre sur de nouveaux questionnements.</p>
+                            3) Développer chaque partie avec arguments et exemples, 4) Conclusion qui ouvre sur de nouveaux questionnements.</p>
                     </div>
 
                     <div class="qcm-exercise" data-questions='[]'>
@@ -303,13 +302,13 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
             </div>
 
 
-                <!-- Afficher les exercices depuis la DB -->
-                <p><em>🔬  exercice(s) de Sciences disponible(s)</em></p>
-                <div class="exercise-subject-group">
-                    <div class="exercise-grid">
+            <!-- Afficher les exercices depuis la DB -->
+            <p><em>🔬 exercice(s) de Sciences disponible(s)</em></p>
+            <div class="exercise-subject-group">
+                <div class="exercise-grid">
 
-                    </div>
                 </div>
+            </div>
 
             <?php $uid = 'fx-' . uniqid(); ?>
             <article class="exercise-card" id="<?php echo $uid; ?>">
@@ -332,10 +331,10 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
                     <div class="tip-box">
                         <h4>🔍 Méthode pour le Bac</h4>
                         <p>Pour un bilan énergétique : 1) Définir le système, 2) Écrire la conservation de l'énergie,
-                        3) Calculer les énergies initiale et finale, 4) Appliquer le principe de conservation.</p>
+                            3) Calculer les énergies initiale et finale, 4) Appliquer le principe de conservation.</p>
                     </div>
 
-                    <div class="qcm-exercise" data-questions='[{"question":"Un bilan énergétique permet de :","choices":[{"value":"a","label":"a) Vérifier la conservation de l'énergie"},{"value":"b","label":"b) Mesurer la température seulement"},{"value":"c","label":"c) Compter les atomes"}],"correct":"a"}]'>
+                    <div class="qcm-exercise" data-questions='[{"question":"Un bilan énergétique permet de :","choices":[{"value":"a","label":"a) Vérifier la conservation de l' énergie"},{"value":"b","label":"b) Mesurer la température seulement"},{"value":"c","label":"c) Compter les atomes"}],"correct":"a"}]'>
                         <div class="qcm-container"><!-- Les questions QCM seront générées dynamiquement par JavaScript --></div>
                         <div>
                             <button class="btn-outline" data-action="verify-exercise">Vérifier mes réponses</button>
@@ -369,8 +368,9 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
                     <div class="tip-box">
                         <h4>📅 Organisation Temporelle</h4>
                         <p><strong>Semaines 1-2 :</strong> Révisions actives (fiches + exercices ciblés)<br>
-                        <strong>Semaines 3-4 :</strong> Annales chronométrées avec correction complète<br>
-                        <strong>Semaines 5-6 :</strong> Simulations d'épreuves complètes, révision des points faibles</p>
+                            <strong>Semaines 3-4 :</strong> Annales chronométrées avec correction complète<br>
+                            <strong>Semaines 5-6 :</strong> Simulations d'épreuves complètes, révision des points faibles
+                        </p>
                     </div>
 
                     <h4>✅ Bonnes Pratiques en Examen</h4>
@@ -386,116 +386,129 @@ $is_logged_in = !empty($_SESSION['user_id']) && !empty($_SESSION['logged_in']);
         </section>
 
 
-    <!-- Colibri désactivé (remplacé par Coach WebM) -->
-    <!-- ancien: colibri-mascot.css -->
+        <!-- Colibri désactivé (remplacé par Coach WebM) -->
+        <!-- ancien: colibri-mascot.css -->
 
-    <!-- CSS pour le système dynamique -->
-    <link rel="stylesheet" href="<?php echo function_exists('asset_url') ? asset_url('assets/css/pages/dynamic-exercises.css') : 'assets/css/pages/dynamic-exercises.css'; ?>">
+        <!-- CSS pour le système dynamique -->
+        <link rel="stylesheet" href="<?php echo function_exists('asset_url') ? asset_url('assets/css/pages/dynamic-exercises.css') : 'assets/css/pages/dynamic-exercises.css'; ?>">
 
-    <!-- Script pour les exercices interactifs (charger AVANT le système dynamique) -->
-    <script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/interactive-exercises.js') : 'assets/js/interactive-exercises.js'; ?>"></script>
+        <!-- Script pour les exercices interactifs (charger AVANT le système dynamique) -->
+        <script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/interactive-exercises.js') : 'assets/js/interactive-exercises.js'; ?>"></script>
 
-    <!-- JavaScript pour le système dynamique -->
-    <script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/dynamic-exercises.js') : 'assets/js/dynamic-exercises.js'; ?>"></script>
+        <!-- JavaScript pour le système dynamique -->
+        <script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/dynamic-exercises.js') : 'assets/js/dynamic-exercises.js'; ?>"></script>
 
-    <script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/exercises.js') : 'assets/js/exercises.js'; ?>"></script>
+        <script src="<?php echo function_exists('asset_url') ? asset_url('assets/js/exercises.js') : 'assets/js/exercises.js'; ?>"></script>
 
-    <script>
-        // S'assurer que baseUrl est défini (ne pas écraser s'il existe déjà depuis index.php)
-        if (typeof window.baseUrl === 'undefined') {
-            window.baseUrl = '';
-        }
-        console.log('🔧 baseUrl détecté:', window.baseUrl);
+        <script>
+            // S'assurer que baseUrl est défini (ne pas écraser s'il existe déjà depuis index.php)
+            if (typeof window.baseUrl === 'undefined') {
+                window.baseUrl = '';
+            }
+            console.log('🔧 baseUrl détecté:', window.baseUrl);
 
-        // Initialiser le système dynamique après chargement
-        function initDynamicExercises() {
-            // Attendre que DynamicExerciseSystem soit disponible
-            if (typeof DynamicExerciseSystem !== 'undefined') {
-                const container = document.querySelector('[data-dynamic-exercises]');
-                if (container) {
-                    console.log('🎯 Initialisation du système d\'exercices dynamique pour Terminale...');
-                    const baseUrl = window.baseUrl || '';
-                    const apiEndpoint = baseUrl ? baseUrl + '/api/get_exercises.php' : '/api/get_exercises.php';
-                    console.log('📡 API Endpoint:', apiEndpoint);
+            // Initialiser le système dynamique après chargement
+            function initDynamicExercises() {
+                // Attendre que DynamicExerciseSystem soit disponible
+                if (typeof DynamicExerciseSystem !== 'undefined') {
+                    const container = document.querySelector('[data-dynamic-exercises]');
+                    if (container) {
+                        console.log('🎯 Initialisation du système d\'exercices dynamique pour Terminale...');
+                        const baseUrl = window.baseUrl || '';
+                        const apiEndpoint = baseUrl ? baseUrl + '/api/get_exercises.php' : '/api/get_exercises.php';
+                        console.log('📡 API Endpoint:', apiEndpoint);
 
-                    try {
-                        // Passer le sélecteur (string) au lieu de l'élément directement
-                        window.dynamicExerciseSystem = new DynamicExerciseSystem({
-                            containerSelector: '[data-dynamic-exercises]', // Sélecteur string
-                            level: 'Terminale',
-                            apiEndpoint: apiEndpoint
-                        });
-                        console.log('✅ Système initialisé avec succès');
-                    } catch (error) {
-                        console.error('❌ Erreur:', error);
-                        container.innerHTML = '<div class="exercise-error">Erreur: ' + error.message + '</div>';
+                        try {
+                            // Passer le sélecteur (string) au lieu de l'élément directement
+                            window.dynamicExerciseSystem = new DynamicExerciseSystem({
+                                containerSelector: '[data-dynamic-exercises]', // Sélecteur string
+                                level: 'Terminale',
+                                apiEndpoint: apiEndpoint
+                            });
+                            console.log('✅ Système initialisé avec succès');
+                        } catch (error) {
+                            console.error('❌ Erreur:', error);
+                            container.innerHTML = '<div class="exercise-error">Erreur: ' + error.message + '</div>';
+                        }
+                    } else {
+                        console.warn('⚠️ Container non trouvé');
                     }
                 } else {
-                    console.warn('⚠️ Container non trouvé');
+                    // Réessayer après un court délai
+                    console.log('⏳ Attente de DynamicExerciseSystem...');
+                    setTimeout(initDynamicExercises, 200);
                 }
-            } else {
-                // Réessayer après un court délai
-                console.log('⏳ Attente de DynamicExerciseSystem...');
-                setTimeout(initDynamicExercises, 200);
             }
-        }
 
-        // Initialiser quand le DOM est prêt
-        if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', function() {
+            // Initialiser quand le DOM est prêt
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', function() {
+                    setTimeout(initDynamicExercises, 300);
+                });
+            } else {
                 setTimeout(initDynamicExercises, 300);
-            });
-        } else {
-            setTimeout(initDynamicExercises, 300);
-        }
-    </script>
+            }
+        </script>
 
 
 
-    <!-- Coach WebM -->
-    <script>
-        window.baseUrl = '';
-    </script>
-    <script src=""></script>
-    <style>
-        .coach-overlay {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            width: 250px;
-            height: auto;
-            z-index: 9999;
-            pointer-events: none;
-            opacity: 0;
-            transition: opacity 0.5s ease-out;
-        }
-        .coach-overlay.active {
-            opacity: 1;
-            animation: slideInUp 0.6s ease-out;
-        }
-        .coach-overlay video {
-            width: 100%;
-            height: auto;
-            display: block;
-            border-radius: 12px;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-            background: transparent;
-        }
-        @keyframes slideInUp {
-            from { opacity: 0; transform: translateY(30px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        @media (max-width: 480px) {
-            .coach-overlay { width: 180px; bottom: 10px; right: 10px; }
-        }
-        /* Désactiver toute ancienne mascotte Colibri si présente */
-        .colibri-mascot-container,
-        .colibri-mascot-global,
-        [data-colibri],
-        [data-colibri-global] { display: none !important; }
-    </style>
-</div>
+        <!-- Coach WebM -->
+        <style>
+            .coach-overlay {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                width: 250px;
+                height: auto;
+                z-index: 9999;
+                pointer-events: none;
+                opacity: 0;
+                transition: opacity 0.5s ease-out;
+            }
+
+            .coach-overlay.active {
+                opacity: 1;
+                animation: slideInUp 0.6s ease-out;
+            }
+
+            .coach-overlay video {
+                width: 100%;
+                height: auto;
+                display: block;
+                border-radius: 12px;
+                box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+                background: transparent;
+            }
+
+            @keyframes slideInUp {
+                from {
+                    opacity: 0;
+                    transform: translateY(30px);
+                }
+
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+
+            @media (max-width: 480px) {
+                .coach-overlay {
+                    width: 180px;
+                    bottom: 10px;
+                    right: 10px;
+                }
+            }
+
+            /* Désactiver toute ancienne mascotte Colibri si présente */
+            .colibri-mascot-container,
+            .colibri-mascot-global,
+            [data-colibri],
+            [data-colibri-global] {
+                display: none !important;
+            }
+        </style>
+    </div>
 </main>
 <?php
 // Fin du fichier exercices-terminale.php
-

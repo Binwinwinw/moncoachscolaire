@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Fonctions de sécurité pour le login
  */
@@ -110,7 +111,7 @@ function checkLoginAttempts($identifier, $scope = 'login')
 
     if ($pdo instanceof PDO) {
         if (!ensureLoginAttemptsTable($pdo)) {
-            return ['allowed' => true];
+            goto fallback_session;
         }
 
         $identifierKey = getRateLimitIdentifierKey($identifier, $scope);
@@ -158,6 +159,7 @@ function checkLoginAttempts($identifier, $scope = 'login')
         }
     }
 
+    fallback_session:
     $state = getLoginAttemptsStateFromSession($identifier, $scope);
     $attempts = $state['attempts'];
 
@@ -361,4 +363,3 @@ function escapeOutput($data)
 {
     return htmlspecialchars($data, ENT_QUOTES, 'UTF-8');
 }
-

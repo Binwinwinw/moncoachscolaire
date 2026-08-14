@@ -58,6 +58,7 @@ dev/tools/migration/migrate_to_production_config.php
 # Database dumps and data exports
 *.sql
 db/*.sql
+!db/migration_add_ai_revision_drafts_20260725.sql
 db/json/*.json
 dev/backups/
 dev/backups/*.sql

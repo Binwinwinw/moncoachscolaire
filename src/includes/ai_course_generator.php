@@ -480,16 +480,25 @@ CREATE TABLE IF NOT EXISTS ai_revisions (
     CourseId INT DEFAULT NULL,
     ExerciseIds TEXT DEFAULT NULL,
     Metadata TEXT DEFAULT NULL,
+    Content LONGTEXT DEFAULT NULL,
+    Status VARCHAR(20) NOT NULL DEFAULT 'draft',
     CreatedAt DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    UpdatedAt DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     INDEX idx_ai_revisions_user (UserId),
     INDEX idx_ai_revisions_type (Type)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 SQL;
 
     $pdo->exec($sql);
+    $pdo->exec(
+        "ALTER TABLE ai_revisions
+            ADD COLUMN IF NOT EXISTS Content LONGTEXT DEFAULT NULL AFTER Metadata,
+            ADD COLUMN IF NOT EXISTS Status VARCHAR(20) NOT NULL DEFAULT 'draft' AFTER Content,
+            ADD COLUMN IF NOT EXISTS UpdatedAt DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP AFTER CreatedAt"
+    );
 }
 
-function saveAiRevision(int $userId, string $type, string $title, string $subject, string $level, ?int $courseId = null, array $exerciseIds = [], array $metadata = []): int
+function saveAiRevision(int $userId, string $type, string $title, string $subject, string $level, ?int $courseId = null, array $exerciseIds = [], array $metadata = [], ?array $content = null): int
 {
     global $pdo;
 
@@ -500,11 +509,16 @@ function saveAiRevision(int $userId, string $type, string $title, string $subjec
     ensureAiRevisionsTableExists();
 
     $stmt = $pdo->prepare(
-        "INSERT INTO ai_revisions (UserId, Type, Title, Subject, Level, CourseId, ExerciseIds, Metadata) VALUES (:user_id, :type, :title, :subject, :level, :course_id, :exercise_ids, :metadata)"
+        "INSERT INTO ai_revisions (UserId, Type, Title, Subject, Level, CourseId, ExerciseIds, Metadata, Content, Status) VALUES (:user_id, :type, :title, :subject, :level, :course_id, :exercise_ids, :metadata, :content, 'draft')"
     );
 
     $exerciseIdsJson = !empty($exerciseIds) ? json_encode(array_values($exerciseIds), JSON_UNESCAPED_UNICODE) : null;
     $metadataJson = !empty($metadata) ? json_encode($metadata, JSON_UNESCAPED_UNICODE) : null;
+    $contentJson = $content !== null ? json_encode($content, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) : null;
+
+    if ($content !== null && $contentJson === false) {
+        throw new RuntimeException('Le contenu de la révision IA ne peut pas être sérialisé.');
+    }
 
     $stmt->execute([
         'user_id' => $userId,
@@ -515,6 +529,7 @@ function saveAiRevision(int $userId, string $type, string $title, string $subjec
         'course_id' => $courseId,
         'exercise_ids' => $exerciseIdsJson,
         'metadata' => $metadataJson,
+        'content' => $contentJson,
     ]);
 
     return (int) $pdo->lastInsertId();
@@ -534,6 +549,39 @@ function getAiRevisionsForUser(int $userId): array
     $stmt->execute([$userId]);
 
     return $stmt->fetchAll(PDO::FETCH_ASSOC) ?: [];
+}
+
+function getAiRevisionForUser(int $revisionId, int $userId): ?array
+{
+    global $pdo;
+
+    if (!$pdo instanceof PDO || $revisionId <= 0 || $userId <= 0) {
+        return null;
+    }
+
+    ensureAiRevisionsTableExists();
+
+    $stmt = $pdo->prepare(
+        'SELECT * FROM ai_revisions WHERE Id = :revision_id AND UserId = :user_id LIMIT 1'
+    );
+    $stmt->execute([
+        'revision_id' => $revisionId,
+        'user_id' => $userId,
+    ]);
+
+    $revision = $stmt->fetch(PDO::FETCH_ASSOC);
+    return is_array($revision) ? $revision : null;
+}
+
+function decodeAiRevisionContent(array $revision): ?array
+{
+    $content = $revision['Content'] ?? null;
+    if (!is_string($content) || trim($content) === '') {
+        return null;
+    }
+
+    $decoded = json_decode($content, true);
+    return is_array($decoded) ? $decoded : null;
 }
 
 /**
