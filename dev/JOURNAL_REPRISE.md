@@ -2,6 +2,54 @@
 
 > Les entrées datées sont classées de la plus récente à la plus ancienne.
 
+## [14/08/2026] Correction de `level_access.php` — PARTIELLEMENT VALIDÉE
+
+- validation du niveau requis déplacée avant les bypass administrateur, démo et visiteur ;
+- les niveaux inconnus sont désormais refusés par `can_current_user_access_level()` ;
+- `enforce_level_access_or_abort()` rejette immédiatement un niveau inconnu en 400 `ERR_BAD_LEVEL` lorsque `json_error()` est disponible, sinon en 400 HTML ;
+- `php -l src/includes/level_access.php` réussie ;
+- tests ciblés : 3 passent sur les niveaux inconnus admin/démo/visiteur ;
+- 2 tests restent en échec sur `courses_detail.php` : liste générale sans contrôle et absence d’échec fermé `ERR_AUTH_MISSING` ; ce fichier n’a pas été modifié dans cette tâche ;
+- aucun commit automatique.
+
+## [14/08/2026] Tests d’accès par niveau — VULNÉRABILITÉS PROUVÉES
+
+- fichier créé : `tests/LevelAccessSecurityTest.php` ;
+- cinq tests PHPUnit ajoutés sans modifier le code applicatif ;
+- exécution : `FFFFF`, 5 tests, 11 assertions, 5 échecs ;
+- échec 1 : `can_current_user_access_level('niveau-inconnu')` retourne `true` pour un administrateur ;
+- échec 2 : le même niveau inconnu retourne `true` pour un compte démo ;
+- échec 3 : le même niveau inconnu retourne `true` pour un visiteur ;
+- échec 4 : la branche « Tous les cours » de `courses_detail.php` ne contient pas de refus avant sa requête SQL ;
+- échec 5 : `courses_detail.php` ne contient pas le traitement fermé `ERR_AUTH_MISSING` ;
+- validation syntaxique : `php -l tests/LevelAccessSecurityTest.php` réussie ;
+- ces échecs sont attendus et constituent les preuves de l’état vulnérable avant correction.
+
+## [14/08/2026] Cohérence de `level_access.php` — ERREUR CONFIRMÉE
+
+- fonctions exportées : `get_levels_order_map()`, `normalize_level_key()`, `get_level_order()`, `get_user_level_order()`, `can_current_user_access_level()` et `enforce_level_access_or_abort()` ;
+- la comparaison des niveaux connus est cohérente avec l’ordre CP → Terminale ;
+- les bypass administrateur et démo sont pris en charge ;
+- `enforce_level_access_or_abort()` délègue au contrôle principal et renvoie un 403 HTML en cas de refus ;
+- erreur confirmée : les bypass admin, démo et visiteur sont évalués avant le rejet d’un niveau inconnu ;
+- erreur confirmée : une valeur `$_SESSION['user_level_order']` est acceptée sans revalidation contre un niveau canonique ; une valeur arbitraire peut donc élargir l’accès ;
+- écart constaté : `get_cours.php` valide le niveau avec `get_level_order()` avant le helper, contrairement à `get_exercises.php` et `courses_detail.php` ;
+- validation : `php -l src/includes/level_access.php` réussie, sans erreur ni warning ;
+- aucun code applicatif modifié.
+
+## [14/08/2026] Audit du contrôle d’accès de `courses_detail.php` — CONTRÔLE PARTIEL
+
+- le chemin demandé `src/api/courses_detail.php` n’existe pas ; le fichier réel audité est `src/api/cours/courses_detail.php` ;
+- actions trouvées : détail par `id`, liste filtrée par `level` et/ou `subject`, liste générale sans filtre ;
+- détail par `id` : `level_access.php` est inclus conditionnellement et `can_current_user_access_level()` est appelé après la requête du cours, avant les requêtes d’exercices et de ressources, puis avant la réponse JSON ;
+- liste filtrée : le contrôle est appelé avant la requête SQL seulement lorsqu’un `level` est fourni ; une requête filtrée uniquement par `subject` n’est pas contrôlée ;
+- liste générale : aucun contrôle par niveau avant la requête SQL ou la réponse JSON ;
+- dans toutes les branches, l’absence de `level_access.php` est ignorée silencieusement ;
+- aucun appel à `enforce_level_access_or_abort()` ;
+- comparaison : contrôle moins complet que `get_cours.php` et que l’action `exercises` corrigée de `get_exercises.php` ;
+- validation : `php -l src/api/cours/courses_detail.php` réussie, sans erreur ni warning ;
+- aucune modification du code applicatif et aucun endpoint lancé.
+
 ## [14/08/2026] Contrôle d’accès de `get_exercises.php` — CORRIGÉ ET VALIDÉ
 
 - action `exercises` corrigée uniquement ;

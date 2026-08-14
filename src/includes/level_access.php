@@ -150,6 +150,11 @@ function get_user_level_order()
  */
 function can_current_user_access_level($requiredLevel)
 {
+    $reqOrder = get_level_order($requiredLevel);
+    if ($reqOrder === null) {
+        return false;
+    }
+
     // Admin bypass
     if (($_SESSION['user_role'] ?? null) === 'admin'
         || (function_exists('isAdmin') && isAdmin())
@@ -172,11 +177,6 @@ function can_current_user_access_level($requiredLevel)
         return true;
     }
 
-    $reqOrder = get_level_order($requiredLevel);
-    if ($reqOrder === null) {
-        return false;
-    } // Unknown required level: deny
-
     $userOrder = get_user_level_order();
     if ($userOrder === null) {
         return false;
@@ -191,6 +191,16 @@ function can_current_user_access_level($requiredLevel)
  */
 function enforce_level_access_or_abort($requiredLevel)
 {
+    if (get_level_order($requiredLevel) === null) {
+        if (function_exists('json_error')) {
+            json_error('Niveau absent ou invalide', 400, 'ERR_BAD_LEVEL');
+        }
+
+        http_response_code(400);
+        echo '<div><h1>Niveau absent ou invalide</h1></div>';
+        exit;
+    }
+
     if (!can_current_user_access_level($requiredLevel)) {
         $userLevelName = $_SESSION['user_level'] ?? 'inconnu';
         $msg = "\n🔒 Accès refusé\n\nCe contenu est destiné aux élèves de niveau " . htmlspecialchars($requiredLevel) . ".\nVous êtes actuellement en niveau " . htmlspecialchars($userLevelName) . ".\n\nPour débloquer ce contenu, progressez dans votre parcours actuel ou contactez votre coach.";
