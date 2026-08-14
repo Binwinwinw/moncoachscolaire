@@ -57,6 +57,8 @@
 - Utilisation détaillée : `get_cours.php` inclut `src/includes/level_access.php` dans `authorizeLevel()` et appelle `can_current_user_access_level()` ; `get_exercises.php` inclut le fichier conditionnellement dans `subjects` et `exercise_html` et appelle aussi `can_current_user_access_level()`.
 - Aucun appel à `enforce_level_access_or_abort()` dans les deux API.
 - Résultat de vérification : erreur d’usage confirmée dans l’action `exercises` de `get_exercises.php`, car le contrôle manque avant la requête et avant la réponse ; pour `exercise_html`, le contrôle arrive après la lecture de l’exercice mais avant son rendu et sa réponse.
+- Correction `get_exercises.php` : inclusion obligatoire de `src/includes/level_access.php`, échec fermé si le helper est absent, utilisation du `$projectRoot` global et appel à `can_current_user_access_level()` avant `getExercisesByLevel()` ; aucun second contrôle avant la réponse n’est nécessaire.
+- Validation : `php -l src/api/exercices/get_exercises.php` réussi après correction de portée ; le diff ne concerne que l’action `exercises`.
 - Date : 2026-08-14
 
 Correction effectuée, mais validation php -l non exécutée : terminal indisponible.
@@ -65,8 +67,8 @@ Correction effectuée, mais validation php -l non exécutée : terminal indispon
 
 ## Tâches suivantes
 
-- [ ] Auditer le contrôle d’accès de `get_exercises.php`.
-- [ ] Auditer le contrôle d’accès de `src/api/courses_detail.php`.
+- [x] FAIT — Auditer et corriger le contrôle d’accès de `get_exercises.php`.
+- [ ] EN COURS — Auditer le contrôle d’accès de `src/api/courses_detail.php`.
 - [ ] Vérifier la cohérence de `level_access.php`.
 - [ ] Ajouter ou compléter les tests d’accès par niveau.
 - [ ] Mettre à jour `dev/JOURNAL_REPRISE.md`.

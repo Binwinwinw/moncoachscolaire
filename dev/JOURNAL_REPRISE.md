@@ -2,6 +2,20 @@
 
 > Les entrées datées sont classées de la plus récente à la plus ancienne.
 
+## [14/08/2026] Contrôle d’accès de `get_exercises.php` — CORRIGÉ ET VALIDÉ
+
+- action `exercises` corrigée uniquement ;
+- inclusion obligatoire de `src/includes/level_access.php` ;
+- absence du helper traitée par un échec fermé `ERR_AUTH_MISSING` ;
+- `$projectRoot` importé explicitement dans la fonction pour résoudre le chemin du helper ;
+- appel à `can_current_user_access_level()` ajouté avant `getExercisesByLevel()` ;
+- aucun second contrôle avant la réponse JSON : le niveau et les données ne sont pas modifiés après la requête ;
+- `subjects` et `exercise_html` inchangés ;
+- validation exécutée : `php -l src/api/exercices/get_exercises.php` réussie après correction de portée ;
+- diff vérifié : seule l’action `exercises` a été modifiée ;
+- aucune exécution de `get_exercises.php` en production ;
+- aucun commit automatique.
+
 ## [14/08/2026] Vérification des usages de `level_access.php` dans les deux API — ERREUR CONFIRMÉE
 
 - `get_cours.php` inclut `src/includes/level_access.php` dans `authorizeLevel()` et appelle `can_current_user_access_level()` pour les trois actions ;

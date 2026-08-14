@@ -186,7 +186,7 @@ function handleGetSubjects()
  */
 function handleGetExercises()
 {
-    global $pdo;
+    global $pdo, $projectRoot;
     if (!$pdo) {
         throw new Exception('Base de données non disponible');
     }
@@ -195,6 +195,19 @@ function handleGetExercises()
     if (empty($level)) {
         throw new Exception('Niveau non spécifié');
     }
+
+    $accessFile = $projectRoot . '/includes/level_access.php';
+    if (!is_file($accessFile)) {
+        json_error('Autorisation introuvable', 500, 'ERR_AUTH_MISSING');
+    }
+    require_once $accessFile;
+    if (!function_exists('can_current_user_access_level')) {
+        json_error('Autorisation introuvable', 500, 'ERR_AUTH_MISSING');
+    }
+    if (!can_current_user_access_level($level)) {
+        json_error('Accès refusé : niveau supérieur au vôtre', 403, 'ERR_FORBIDDEN');
+    }
+
     $normalizedLevel = normalizeLevelForDB($level);
 
     // Charger les vrais exercices depuis la table exercises
