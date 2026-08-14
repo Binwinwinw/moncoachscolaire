@@ -2,6 +2,18 @@
 
 > Les entrées datées sont classées de la plus récente à la plus ancienne.
 
+## [14/08/2026] Contrôle d’accès de `courses_detail.php` — CORRIGÉ ET VALIDÉ
+
+- inclusion obligatoire de `src/includes/level_access.php` ;
+- échec fermé `500 ERR_AUTH_MISSING` si le fichier ou le helper est absent ;
+- détail par `id` : contrôle conservé après lecture du cours et avant les requêtes d’exercices et de ressources ;
+- listes filtrées : niveau obligatoire et contrôle `can_current_user_access_level()` avant la requête SQL ;
+- liste générale sans niveau : refus `403 ERR_FORBIDDEN` avant toute requête SQL ;
+- validation syntaxique : `php -l src/api/cours/courses_detail.php` réussie ;
+- tests ciblés : `LevelAccessSecurityTest.php` réussi, 5 tests et 12 assertions ;
+- diff vérifié : modification limitée à `src/api/cours/courses_detail.php` ;
+- aucun endpoint lancé et aucun commit automatique.
+
 ## [14/08/2026] Correction de `level_access.php` — PARTIELLEMENT VALIDÉE
 
 - validation du niveau requis déplacée avant les bypass administrateur, démo et visiteur ;

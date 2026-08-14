@@ -25,6 +25,15 @@ if (!isset($pdo) || !$pdo) {
     json_error('Base de données indisponible', 503, 'ERR_DB');
 }
 
+$levelAccessFile = __DIR__ . '/../../includes/level_access.php';
+if (!is_file($levelAccessFile)) {
+    json_error('Autorisation introuvable', 500, 'ERR_AUTH_MISSING');
+}
+require_once $levelAccessFile;
+if (!function_exists('can_current_user_access_level')) {
+    json_error('Autorisation introuvable', 500, 'ERR_AUTH_MISSING');
+}
+
 $courseId = isset($_GET['id']) ? (int) $_GET['id'] : null;
 $level = $_GET['level'] ?? null;
 $subject = $_GET['subject'] ?? null;
@@ -44,11 +53,8 @@ try {
         }
 
         // Vérifier l'accès par niveau (API)
-        if (is_file(__DIR__ . '/../../includes/level_access.php')) {
-            require_once __DIR__ . '/../../includes/level_access.php';
-            if (!can_current_user_access_level($course['Level'] ?? $course['level'] ?? '')) {
-                json_error('Accès refusé : niveau supérieur au vôtre', 403, 'ERR_FORBIDDEN');
-            }
+        if (!can_current_user_access_level($course['Level'] ?? $course['level'] ?? '')) {
+            json_error('Accès refusé : niveau supérieur au vôtre', 403, 'ERR_FORBIDDEN');
         }
 
         // Récupérer les exercices du cours
@@ -77,11 +83,8 @@ try {
     } elseif ($level || $subject) {
         // Lister les cours selon critères
         // Vérifier si le niveau demandé est supérieur à celui de l'utilisateur
-        if ($level && is_file(__DIR__ . '/../../includes/level_access.php')) {
-            require_once __DIR__ . '/../../includes/level_access.php';
-            if (!can_current_user_access_level($level)) {
-                json_error('Accès refusé : niveau supérieur au vôtre', 403, 'ERR_FORBIDDEN');
-            }
+        if (!$level || !can_current_user_access_level($level)) {
+            json_error('Accès refusé : un niveau autorisé est requis', 403, 'ERR_FORBIDDEN');
         }
 
         $sql = "SELECT c.* FROM courses c WHERE c.is_active = 1";
@@ -117,6 +120,8 @@ try {
         }
     } else {
         // Tous les cours
+        json_error('Accès refusé : un niveau autorisé est requis', 403, 'ERR_FORBIDDEN');
+
         $stmt = $pdo->query("
             SELECT * FROM courses
             WHERE is_active = 1

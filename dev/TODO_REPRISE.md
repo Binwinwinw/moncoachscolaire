@@ -79,6 +79,8 @@
 - Validation du test : `php -l tests/LevelAccessSecurityTest.php` réussi.
 - Correction `level_access.php` : validation de `get_level_order()` déplacée avant les bypass ; `enforce_level_access_or_abort()` rejette un niveau inconnu en 400 `ERR_BAD_LEVEL` (JSON si disponible, HTML sinon).
 - Validation après correction : 3 tests passent ; 2 tests restent en échec sur `courses_detail.php`, qui n’a pas été modifié et conserve ses deux vulnérabilités documentées.
+- Correction `courses_detail.php` : inclusion obligatoire du helper avec échec fermé `500 ERR_AUTH_MISSING` ; contrôle du détail conservé après lecture du cours et avant les requêtes secondaires ; listes filtrées sans niveau et liste générale refusées en `403 ERR_FORBIDDEN` avant SQL.
+- Validation finale : `php -l src/api/cours/courses_detail.php` réussi ; PHPUnit ciblé `LevelAccessSecurityTest.php` réussi avec 5 tests et 12 assertions ; diff limité à `courses_detail.php`.
 - Date : 2026-08-14
 
 Correction effectuée, mais validation php -l non exécutée : terminal indisponible.
@@ -90,7 +92,7 @@ Correction effectuée, mais validation php -l non exécutée : terminal indispon
 - [x] FAIT — Auditer et corriger le contrôle d’accès de `get_exercises.php`.
 - [x] FAIT — Auditer le contrôle d’accès de `src/api/courses_detail.php`.
 - [x] FAIT — Vérifier la cohérence de `level_access.php`.
-- [!] BLOQUÉ — Ajouter ou compléter les tests d’accès par niveau : 3 tests passent après correction du helper, 2 restent bloqués par `courses_detail.php` non corrigé.
+- [x] FAIT — Ajouter ou compléter les tests d’accès par niveau : 5 tests passent après correction du helper et de `courses_detail.php`.
 - [x] FAIT — Mettre à jour `dev/JOURNAL_REPRISE.md`.
 
 ---
