@@ -23,7 +23,7 @@ $res = $validator->validate($exoObj, $schema);
 echo "validation run\n";
 if ($res->isValid()) { echo "Valid\n"; exit(0); }
 $err = $res->error();
-var_dump($err);
+
 if (!$err) { echo "No error object returned\n"; exit(2); }
 $format = function($e) use (&$format) {
     $out = [];
