@@ -2,7 +2,11 @@
 
 ## Tâche active
 
-- [!] BLOQUÉ — Auditer le contrôle d’accès de `get_cours.php`.
+- [x] FAIT — Auditer le contrôle d’accès de `get_cours.php`.
+
+## Lot contrôle d'accès : TERMINÉ 14/08/2026
+
+- Aucune tâche active restante sur le contrôle d’accès de `get_cours.php`.
 
 ### READ
 

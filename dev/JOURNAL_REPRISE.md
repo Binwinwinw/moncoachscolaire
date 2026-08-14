@@ -2,6 +2,11 @@
 
 > Les entrées datées sont classées de la plus récente à la plus ancienne.
 
+## [14/08/2026] Lot contrôle d’accès — TERMINÉ
+
+- Clôture confirmée du lot contrôle d’accès avec audit validé de `get_cours.php`.
+- Aucune tâche restante active liée à ce lot dans `dev/TODO_REPRISE.md`.
+
 ## [14/08/2026] Contrôle d’accès de `courses_detail.php` — CORRIGÉ ET VALIDÉ
 
 - inclusion obligatoire de `src/includes/level_access.php` ;
